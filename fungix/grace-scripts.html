@@ -1,0 +1,407 @@
+<title>Fungix Scripts for Grace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* Layout: one narrow reading column, a filming card per angle, script lines set large enough to read off a phone propped by the camera. */
+:root {
+  --bg: #f3f6f5;
+  --surface: #ffffff;
+  --ink: #14211f;
+  --muted: #5a6b68;
+  --line: #d7e0de;
+  --accent: #0f766e;
+  --accent-soft: #dcefeb;
+  --bubble-bg: #ffffff;
+  --bubble-ink: #111111;
+  --bubble-edge: #c9d3d1;
+  --warn-soft: #fbeedd;
+  --warn-ink: #7a4a0c;
+  --display: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", Roboto, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1615; --surface: #16211f; --ink: #e6efed; --muted: #9db0ac; --line: #2a3a37;
+    --accent: #4fd1c1; --accent-soft: #173a36; --bubble-bg: #f4f4f4; --bubble-ink: #111111; --bubble-edge: #3a4a47;
+    --warn-soft: #3a2a14; --warn-ink: #f3c88a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1615; --surface: #16211f; --ink: #e6efed; --muted: #9db0ac; --line: #2a3a37;
+  --accent: #4fd1c1; --accent-soft: #173a36; --bubble-bg: #f4f4f4; --bubble-ink: #111111; --bubble-edge: #3a4a47;
+  --warn-soft: #3a2a14; --warn-ink: #f3c88a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 64px; display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: 2rem; font-weight: 700; }
+h2 { font-size: 1.5rem; font-weight: 700; }
+h3 { font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+p { margin: 0; }
+.lede { color: var(--muted); margin-top: 8px; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.jump a { font-family: var(--display); font-weight: 500; font-size: .95rem; text-decoration: none; color: var(--accent); background: var(--accent-soft); padding: 6px 12px; border-radius: 999px; }
+.jump a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.claim { background: var(--accent-soft); border-radius: 12px; padding: 16px; display: grid; gap: 10px; }
+.claim q { font-size: 1.2rem; font-weight: 700; quotes: "\201C" "\201D"; }
+
+.rules { display: grid; gap: 8px; padding-left: 20px; margin: 0; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+details + details { margin-top: -16px; }
+summary { cursor: pointer; font-family: var(--display); font-weight: 700; font-size: 1.05rem; }
+details[open] summary { margin-bottom: 12px; }
+.psych { display: grid; gap: 12px; }
+.psych div { display: grid; gap: 2px; }
+.psych b { font-family: var(--display); }
+.psych span { color: var(--muted); }
+
+.angle { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 20px 16px; display: grid; gap: 20px; scroll-margin-top: 16px; }
+.angle-head { display: grid; gap: 6px; }
+.kicker { font-family: var(--display); font-weight: 500; color: var(--accent); font-size: .95rem; }
+.meta { display: grid; gap: 8px; font-size: .95rem; }
+.meta p b { font-family: var(--display); }
+.meta p { color: var(--muted); }
+.meta p b { color: var(--ink); }
+
+.bubbles { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.bubble { background: var(--bubble-bg); color: var(--bubble-ink); border: 1px solid var(--bubble-edge); border-radius: 10px; padding: 6px 12px; font-weight: 700; font-size: .95rem; }
+
+.part { display: grid; gap: 10px; }
+.part-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.take { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; display: grid; gap: 8px; }
+.take-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.take-label { font-family: var(--display); font-weight: 700; font-size: .85rem; color: var(--muted); }
+.line { font-size: 1.12rem; }
+.body-lines { display: grid; gap: 10px; }
+.body-lines div { display: grid; gap: 2px; }
+.tag { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--accent); }
+.cue { font-style: italic; color: var(--muted); font-size: .95rem; }
+
+button.copy { font-family: var(--display); font-weight: 500; font-size: .85rem; color: var(--accent); background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; cursor: pointer; white-space: nowrap; }
+button.copy.done { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+
+.shots { font-size: .95rem; color: var(--muted); }
+.shots b { color: var(--ink); font-family: var(--display); }
+.check { background: var(--warn-soft); color: var(--warn-ink); border-radius: 10px; padding: 10px 12px; font-size: .95rem; }
+
+.sources { font-size: .85rem; color: var(--muted); display: grid; gap: 4px; }
+.sources a { color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<main class="wrap">
+  <header>
+    <h1>Fungix Scripts for Grace</h1>
+    <p class="lede">5 new angles. Each one is filmed in three parts (hook, body, CTA), 3–4 takes of each part. Every line is ready to say as written.</p>
+    <nav class="jump" aria-label="Jump to an angle">
+      <a href="#boots">1 · Boots season</a>
+      <a href="#polish">2 · Stop painting over it</a>
+      <a href="#label">3 · Read the label</a>
+      <a href="#howto">4 · Doing it wrong</a>
+      <a href="#dad">5 · For your dad</a>
+    </nav>
+  </header>
+
+  <section class="claim" aria-label="Claim line">
+    <h3>Say this line exactly, in every body take</h3>
+    <q>It's made to target fungal growth and support healthier-looking nails.</q>
+    <p>Never say cures, kills, gets rid of or fixes. Never say how fast it works.</p>
+  </section>
+
+  <section>
+    <h2 style="margin-bottom:12px">Before you film</h2>
+    <ul class="rules">
+      <li>Say numbers as words: "twenty-five percent", "two to three times a day".</li>
+      <li>Keep every body take whole, start to finish. We don't mix pieces from different body takes.</li>
+      <li>Send the camera's original HD files (1080p .MOV), not exported copies.</li>
+      <li>Normal, energetic pace. All the pauses get cut in the edit.</li>
+      <li>Say the "only catch" line calmly, like a friend telling you. It's what makes the rest believable.</li>
+      <li>Close-ups (bottle label, brush, socks, boots) can be anyone's hands and feet.</li>
+    </ul>
+  </section>
+
+  <details>
+    <summary>Why these scripts work</summary>
+    <div class="psych">
+      <div><b>Pain first.</b><span>The hook names something the viewer already hates, like tucking toes under the table or always picking dark polish.</span></div>
+      <div><b>Sell the moment.</b><span>Each angle puts them in one specific scene: shoes off at a friend's house, the salon polish wall, the beach.</span></div>
+      <div><b>Move away from pain.</b><span>Escaping embarrassment works faster than promising pretty nails. The product is the way out.</span></div>
+      <div><b>Clarity, not convincing.</b><span>A calm line on why hiding or painting over it doesn't help. No pressure words.</span></div>
+      <div><b>Remove uncertainty.</b><span>Every body says what's in it, how to use it and how often, before anyone has to ask.</span></div>
+      <div><b>Detachment builds trust.</b><span>Every body names the catch (it's every day). Every CTA lets people scroll on if it's not for them.</span></div>
+    </div>
+  </details>
+
+  <details>
+    <summary>Edit and compliance notes (for Ralph)</summary>
+    <ul class="rules">
+      <li>Every body keeps "This oil has…" so the approved search-result card lands on "has" automatically.</li>
+      <li>Hooks with "yellow, thick, funky" bring back the condition photo collage (in on yellow or thick, out on funky).</li>
+      <li>No before/after photos. Condition-only photos are fine.</li>
+      <li>No "selling out" unless it's true. Use "don't put it off."</li>
+      <li>No personal-use lines. Grace never says she uses it, so nothing depends on her own story.</li>
+      <li>The brand's "results within a month" line is left out on purpose, because timeframes aren't allowed.</li>
+      <li>Use a different on-screen text bubble per video so combos read as different ads.</li>
+    </ul>
+  </details>
+
+  <!-- 1 -->
+  <article class="angle" id="boots">
+    <div class="angle-head">
+      <span class="kicker">Angle 1 · Timing</span>
+      <h2>Boots season</h2>
+    </div>
+    <div class="meta">
+      <p><b>The moment:</b> a whole summer of toes tucked under the table, then relief when boots come back.</p>
+      <p><b>Why it works:</b> pain first, then a low-pressure reason to start now. Nobody's looking, so there's no risk. Urgency without fake scarcity.</p>
+    </div>
+    <div class="part">
+      <h3>On-screen text (pick one per video)</h3>
+      <div class="bubbles">
+        <span class="bubble">sandals are going away… so is your excuse</span>
+        <span class="bubble">boots season = the secret toenail season</span>
+        <span class="bubble">start while nobody's looking at your feet</span>
+      </div>
+    </div>
+    <div class="part">
+      <h3>Hook</h3>
+      <div class="take"><div class="take-top"><span class="take-label">Hook A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">If you spent all summer tucking your toes under the table so nobody saw the yellow, thick, funky nail, I see you. And now that boots are back, you're about to forget about it until next June.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">Hook B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Nobody is looking at your feet for the next six months. That's exactly why now is the time to deal with your toenails, not the week before sandal season.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head"><h3>Body</h3><button class="copy" type="button">Copy body</button></div>
+      <div class="take body-lines script-group">
+        <div><span class="tag">Clarity</span><p class="line script">Hiding it in boots doesn't do anything for it. It just buys you time.</p></div>
+        <div><span class="tag">Claim</span><p class="line script">This is Fungix. This oil has twenty-five percent undecylenic acid, and it's made to target fungal growth and support healthier-looking nails.</p></div>
+        <div><span class="tag">How to use it</span><p class="line script">You brush a thin layer on the nail two to three times a day, and let it dry before your socks go on.</p></div>
+        <div><span class="tag">The catch</span><p class="line script">It's not one-and-done. You have to keep up with it.</p></div>
+      </div>
+    </div>
+    <div class="part">
+      <h3>CTA</h3>
+      <div class="take"><div class="take-top"><span class="take-label">CTA A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">If your toes don't bother you, skip this. If they do, it's in the orange cart. Start while they're in boots anyway.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">CTA B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Link's right here. Don't put it off till sandal season.</p></div>
+    </div>
+    <p class="shots"><b>Shots:</b> boots going on, the brush on a nail, the bottle label.</p>
+  </article>
+
+  <!-- 2 -->
+  <article class="angle" id="polish">
+    <div class="angle-head">
+      <span class="kicker">Angle 2 · Cover-up</span>
+      <h2>Stop painting over it</h2>
+    </div>
+    <div class="meta">
+      <p><b>The moment:</b> standing at the salon wall, always reaching for the darkest red.</p>
+      <p><b>Why it works:</b> a habit people recognise instantly, then a calm point that polish covers it but doesn't help it. The viewer gets there on their own.</p>
+    </div>
+    <div class="part">
+      <h3>On-screen text (pick one per video)</h3>
+      <div class="bubbles">
+        <span class="bubble">if your toe polish is always dark red… I know why</span>
+        <span class="bubble">painting over it isn't a plan</span>
+        <span class="bubble">the polish is hiding it, not helping it</span>
+      </div>
+    </div>
+    <div class="part">
+      <h3>Hook</h3>
+      <div class="take"><div class="take-top"><span class="take-label">Hook A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">If you always pick the darkest polish at the salon, I know exactly why. You're covering up the yellow, thick, funky nail instead of doing anything about it.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">Hook B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Painting over a yellow toenail is hiding it, not helping it. Let's talk about it.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head"><h3>Body</h3><button class="copy" type="button">Copy body</button></div>
+      <div class="take body-lines script-group">
+        <div><span class="tag">Clarity</span><p class="line script">Polish makes it look fine for a week. Then it comes off, and it's the same nail underneath.</p></div>
+        <div><span class="tag">Claim</span><p class="line script">This is Fungix. This oil has twenty-five percent undecylenic acid, and it's made to target fungal growth and support healthier-looking nails.</p></div>
+        <div><span class="tag">How to use it</span><p class="line script">It's a little brush. Thin layer on the nail, two to three times a day, and let it dry and soak in.</p></div>
+        <div><span class="tag">The catch</span><p class="line script">It only works for you if you stay consistent, so if you won't keep up with it, don't bother.</p></div>
+      </div>
+    </div>
+    <div class="part">
+      <h3>CTA</h3>
+      <div class="take"><div class="take-top"><span class="take-label">CTA A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Not for everyone. But if you're done hiding it, it's in the orange cart.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">CTA B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">It's linked right here. Don't put it off.</p></div>
+    </div>
+    <p class="shots"><b>Shots:</b> a remover pad wiping dark polish off a nail (any foot works), then the brush, then the label.</p>
+  </article>
+
+  <!-- 3 -->
+  <article class="angle" id="label">
+    <div class="angle-head">
+      <span class="kicker">Angle 3 · Ingredient</span>
+      <h2>Read the label first</h2>
+    </div>
+    <div class="meta">
+      <p><b>The moment:</b> scrolling past twenty toenail products with no idea which one is real.</p>
+      <p><b>Why it works:</b> it gives the viewer one simple rule for choosing. The search-result card on screen makes the claim, so Grace doesn't have to push it.</p>
+    </div>
+    <div class="part">
+      <h3>On-screen text (pick one per video)</h3>
+      <div class="bubbles">
+        <span class="bubble">read the label before you buy a toenail oil</span>
+        <span class="bubble">the one ingredient to look for</span>
+        <span class="bubble">not all toenail oils are the same</span>
+      </div>
+    </div>
+    <div class="part">
+      <h3>Hook</h3>
+      <div class="take"><div class="take-top"><span class="take-label">Hook A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Before you buy any toenail oil, flip it over and read the ingredients, because a lot of them are basically just scented oil. There's one ingredient you want to see.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">Hook B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">There are like fifty toenail oils and they all look the same. Here's how to tell them apart in five seconds.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head"><h3>Body</h3><button class="copy" type="button">Copy body</button></div>
+      <div class="take body-lines script-group">
+        <div><span class="tag">Clarity</span><p class="line script">Look for undecylenic acid.</p><p class="cue">Search-result card appears here.</p></div>
+        <div><span class="tag">Claim</span><p class="line script">This oil has twenty-five percent. It's Fungix, and it's made to target fungal growth and support healthier-looking nails. It's also got tea tree oil and vitamin E.</p></div>
+        <div><span class="tag">How to use it</span><p class="line script">You brush it on the nail two to three times a day.</p></div>
+        <div><span class="tag">The catch</span><p class="line script">The only catch is you have to be consistent. Every day, no skipping.</p></div>
+      </div>
+    </div>
+    <div class="part">
+      <h3>CTA</h3>
+      <div class="take"><div class="take-top"><span class="take-label">CTA A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Don't take my word for it, read the label. It's in the orange cart.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">CTA B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Tap the link and check the ingredients before you buy anything else.</p></div>
+    </div>
+    <p class="shots"><b>Shots:</b> scrolling a phone (hook), the bottle turned so the ingredient panel faces the camera, the brush.</p>
+  </article>
+
+  <!-- 4 -->
+  <article class="angle" id="howto">
+    <div class="angle-head">
+      <span class="kicker">Angle 4 · How to use it</span>
+      <h2>You're probably doing it wrong</h2>
+    </div>
+    <div class="meta">
+      <p><b>The moment:</b> someone who bought a toenail product, used it twice and gave up.</p>
+      <p><b>Why it works:</b> it's a tutorial, so it looks like normal content, not an ad. It answers "how do I use it" before anyone asks, and it wins back people who already gave up once.</p>
+    </div>
+    <div class="part">
+      <h3>On-screen text (pick one per video)</h3>
+      <div class="bubbles">
+        <span class="bubble">if you tried a toenail oil and gave up… watch this</span>
+        <span class="bubble">how to actually use toenail oil</span>
+        <span class="bubble">4 steps nobody tells you</span>
+      </div>
+    </div>
+    <div class="part">
+      <h3>Hook</h3>
+      <div class="take"><div class="take-top"><span class="take-label">Hook A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">If you bought a toenail oil, used it twice and gave up, it's probably how you were using it. Here's how you're supposed to do it.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">Hook B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Nobody tells you how to actually use toenail oil, so here it is in four steps.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head"><h3>Body</h3><button class="copy" type="button">Copy body</button></div>
+      <div class="take body-lines script-group">
+        <div><span class="tag">Steps 1–2</span><p class="line script">Step one, clean and dry the nail. Step two, once a week, lightly buff the top with a nail file.</p></div>
+        <div><span class="tag">Step 3 + claim</span><p class="line script">Step three, Fungix. This oil has twenty-five percent undecylenic acid, and it's made to target fungal growth and support healthier-looking nails. Thin layer, only on the nail you're treating.</p></div>
+        <div><span class="tag">Step 4</span><p class="line script">Step four, let it dry before socks.</p></div>
+        <div><span class="tag">The catch</span><p class="line script">And do it two to three times a day. That's the part people skip.</p></div>
+      </div>
+    </div>
+    <div class="part">
+      <h3>CTA</h3>
+      <div class="take"><div class="take-top"><span class="take-label">CTA A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">If you're going to do it, do it right. It's in the orange cart.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">CTA B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Linked right here. Save this so you remember the steps.</p></div>
+    </div>
+    <p class="shots"><b>Shots:</b> one clip per step (towel, nail file, brush, socks). Say the step numbers so the cuts land cleanly.</p>
+  </article>
+
+  <!-- 5 -->
+  <article class="angle" id="dad">
+    <div class="angle-head">
+      <span class="kicker">Angle 5 · Gift</span>
+      <h2>Buy it for your dad</h2>
+    </div>
+    <div class="meta">
+      <p><b>The moment:</b> the relative who won't take their socks off at the beach.</p>
+      <p><b>Why it works:</b> nobody has to admit it's their own foot. "Tag someone" drives shares, and it reaches people shopping for a parent or partner.</p>
+    </div>
+    <div class="part">
+      <h3>On-screen text (pick one per video)</h3>
+      <div class="bubbles">
+        <span class="bubble">your dad will never buy this for himself</span>
+        <span class="bubble">buying this for your dad is a love language</span>
+        <span class="bubble">for the person in your life who hides their feet</span>
+      </div>
+    </div>
+    <div class="part">
+      <h3>Hook</h3>
+      <div class="take"><div class="take-top"><span class="take-label">Hook A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Your dad is never going to buy something for his toenails, so you're going to have to do it for him. Every family has someone with the yellow, thick, funky toenails, and you know exactly who it is.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">Hook B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Tag the person in your family who will not take their socks off at the beach.</p></div>
+    </div>
+    <div class="part">
+      <div class="part-head"><h3>Body</h3><button class="copy" type="button">Copy body</button></div>
+      <div class="take body-lines script-group">
+        <div><span class="tag">Clarity</span><p class="line script">He's never going to walk into a store and ask for this. So don't make him.</p></div>
+        <div><span class="tag">Claim</span><p class="line script">It's Fungix. This oil has twenty-five percent undecylenic acid, and it's made to target fungal growth and support healthier-looking nails.</p></div>
+        <div><span class="tag">How to use it</span><p class="line script">It's a little brush, so it's easy. A thin layer two to three times a day, let it dry, done.</p></div>
+        <div><span class="tag">The catch</span><p class="line script">The hard part is getting him to remember. So yes, you'll be reminding him.</p></div>
+      </div>
+    </div>
+    <div class="part">
+      <h3>CTA</h3>
+      <div class="take"><div class="take-top"><span class="take-label">CTA A</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Get one for your dad. It's in the orange cart.</p></div>
+      <div class="take"><div class="take-top"><span class="take-label">CTA B</span><button class="copy" type="button">Copy</button></div>
+        <p class="line script">Send this to whoever needs it. Link's right here.</p></div>
+    </div>
+    <p class="shots"><b>Shots:</b> a bottle handed across (hands only), then the brush and the label.</p>
+  </article>
+
+  <p class="check">Check against the TikTok Shop listing before filming: 25% undecylenic acid, and "two to three times a day". These come from the brand's own pages.</p>
+
+  <footer class="sources">
+    <span>Product facts from:</span>
+    <a href="https://approvedscience.com/products/asfungix">Approved Science Fungix product page</a>
+    <a href="https://approvedscience.com/use-fungix">Fungix application instructions</a>
+    <a href="https://www.amazon.com/Fungix-Antifungal-Treatment-Fingernails-Undecylenic/dp/B01GS0LKRW">Fungix on Amazon</a>
+  </footer>
+</main>
+
+<script>
+document.querySelectorAll("button.copy").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var scope = btn.closest(".take") || btn.closest(".part");
+    var lines = Array.prototype.map.call(scope.querySelectorAll(".script"), function (p) { return p.textContent.trim(); });
+    var text = lines.join(" ");
+    function flash() {
+      var old = btn.textContent;
+      btn.textContent = "Copied";
+      btn.classList.add("done");
+      setTimeout(function () { btn.textContent = old; btn.classList.remove("done"); }, 1400);
+    }
+    function selectFallback() {
+      var target = scope.querySelector(".script-group") || scope.querySelector(".script");
+      var range = document.createRange();
+      range.selectNodeContents(target);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+      btn.textContent = "Selected";
+    }
+    try {
+      navigator.clipboard.writeText(text).then(flash, selectFallback);
+    } catch (e) { selectFallback(); }
+  });
+});
+</script>
