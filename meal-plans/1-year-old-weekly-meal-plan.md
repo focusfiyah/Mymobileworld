@@ -1,159 +1,139 @@
 # Weekly Meal Plan for a 1-Year-Old (No-Waste Budget Version)
 
-**Goal:** one small shopping trip, one prep session, nothing going bad in the fridge.
+**Goal:** one small shopping trip, one prep session, nothing going bad in the fridge, and every meal built around the 7 goals below.
 
-**How it avoids waste:**
+The interactive version of this plan is the **Tiny Table** app (`tiny-table-app.html`). It has a shopping checklist, "ate it" checks for each meal, and a plate builder.
 
-1. **Fresh food gets eaten first, frozen and pantry food last.** Monday–Wednesday use up the fresh items. Thursday–Sunday run on frozen, pantry and long-lasting items.
-2. **About 20 ingredients get reused all week.** Every item on the list shows up in at least 3 meals.
-3. **Frozen fruit and veg replace most fresh.** Frozen peas, broccoli, spinach and berries are just as nutritious, cost less and don't spoil.
-4. **Cook once, freeze half.** Cooked food keeps 3–4 days in the fridge. Anything you won't eat by Day 3 goes in the freezer on prep day.
-5. **Share with the family.** Most meals are regular family food. Just cook your portion without salt, then cut it up small for baby.
+## The 7 goals (adapted from @babyplate.app)
+
+| Goal | What it means | Foods in this plan |
+|---|---|---|
+| Brain | Iron, choline, iodine, zinc, omega-3 | Salmon, sardines, eggs, beef, avocado |
+| Iron | Babies need reliable iron from food | Beef, lentils, beans, iron-fortified oats, tofu |
+| Iron + vitamin C | Plant iron needs vitamin C to absorb well. A big serving of milk or yogurt at the same meal works against it | Kiwi, berries, red pepper, broccoli |
+| Energy | Small stomachs, big energy needs | Olive oil, smooth peanut butter, full-fat yogurt, oats |
+| Bones and teeth | Calcium + vitamin D + protein. Vitamin D advice varies by country, so follow your local guidance | Yogurt, cheese, sardines, calcium-set tofu |
+| Digestion | Fiber, plus small sips of water with meals | Pear, kiwi, berries, vegetables |
+| Variety | Different foods, flavors and textures | About 29 foods across 7 groups this week |
+
+**Build balanced meals instead of chasing superfoods.** The same foods do several jobs: an egg gives protein, choline and fat; salmon gives protein and omega-3; beef gives iron, zinc and protein; avocado gives healthy fats and energy; lentils give iron, protein and fiber.
+
+**The two rules this plan follows:**
+1. Every lentil, bean, tofu or oat meal has a vitamin C side.
+2. Milk and yogurt go at snack time or with meat and egg meals, never as a big serving at a plant-iron meal.
+
+## How it avoids waste
+
+- **Fresh food gets eaten Monday to Wednesday.** Thursday to Sunday runs on the freezer, cans and long-keeping produce.
+- **Canned salmon and sardines, dry lentils, and frozen berries and vegetables** do most of the work. They're cheap and they don't spoil.
+- **Kiwis, carrots, pears and sweet potatoes** keep for weeks, so they're the fresh produce here.
+- **Cook once on Sunday and freeze half.** Cooked food keeps 3–4 days in the fridge.
 
 ---
 
 ## Shopping List
 
-Buy small sizes, and check your pantry and freezer before you go.
+**Fresh:** bananas (5–6, mixed ripeness) · avocados (2: one ripe, one firm) · kiwis (4–5) · red bell pepper (1) · pears (3 firm) · sweet potatoes (2) · carrots (small bag)
 
-### Fresh (use first)
-| Item | Amount | Tip |
-|---|---|---|
-| Bananas | 5–6 | Buy some yellow and some still green, so they ripen through the week |
-| Avocados | 2 | One ripe, one firm (the firm one ripens by Wed) |
-| Sweet potatoes | 2 medium | Keep up to 2 weeks in a cool, dark spot |
-| Apples or pears | 2 | Keep for weeks in the fridge |
-| Carrots | small bag | Keep 3–4 weeks in the fridge |
+**Fridge:** whole milk (1 gallon) · plain full-fat yogurt (32 oz tub) · eggs (1 dozen) · mild cheddar (block) · calcium-set tofu (1 block; the label lists calcium sulfate) · ground beef (1 lb, buy it right before prep day)
 
-### Dairy and eggs
-| Item | Amount | Tip |
-|---|---|---|
-| Whole milk | 1 gallon | 1-year-olds need about 16–24 oz (2–3 cups) a day, no more |
-| Plain whole-milk yogurt | 1 large tub (32 oz) | A big tub is much cheaper than single cups |
-| Eggs | 1 dozen | |
-| Mild cheddar | 1 block | A block lasts longer than shredded. Grate or cube as needed |
+**Freezer:** mixed berries · broccoli · peas · chopped spinach
 
-### Meat and protein
-| Item | Amount | Tip |
-|---|---|---|
-| Boneless chicken thighs | ~1 lb | Thighs are cheaper, softer and easier for babies to chew than breast |
-| Ground turkey or beef | ~1 lb | For mini meatballs. Freeze half |
-| Canned black beans, low-sodium | 1 can | Rinse well |
-
-### Frozen (won't go bad)
-- Peas
-- Broccoli florets
-- Chopped spinach
-- Mixed berries
-
-### Pantry (lasts for months)
-- Old-fashioned oats
-- Small whole-wheat pasta (orzo, stars, elbows)
-- Rice
-- Whole-wheat bread (**freeze half the loaf right away**)
-- Small whole-wheat tortillas (freeze extras)
-- Low-sodium tomato sauce or canned crushed tomatoes
-- Smooth natural peanut butter (skip if baby has a peanut allergy)
-- Olive oil or butter
+**Pantry:** iron-fortified oats · red lentils (1 lb dry) · low-sodium black beans (1 can) · canned salmon (1 can) · sardines, no salt added (1 tin) · small whole-wheat pasta · rice or quinoa · whole-wheat bread · small tortillas · low-sodium tomato sauce · smooth peanut butter (or sunflower seed butter) · olive oil
 
 ---
 
 ## Prep Day (Sunday, about 1 hour)
 
-1. **Sheet pan:** roast the chicken thighs and cubed sweet potatoes together at 400°F for 25–30 min, until the chicken reaches 165°F. Shred the chicken.
-   - Fridge: half the chicken and all the sweet potato. Freezer: the other half of the chicken (for Friday).
-2. **Mini meatballs:** mix the ground meat with 1 egg, ¼ cup oats, a handful of thawed spinach and 1 grated carrot. Roll into small balls and bake at 400°F for 15–18 min.
-   - Fridge: half. Freezer: half (for Thursday).
-3. **Cook** one pot of pasta and one pot of rice. Cool the rice quickly (spread it on a plate) and put it in the fridge within 1 hour.
-4. **Hard-boil 4 eggs.** In the shell, they keep 1 week in the fridge.
-5. **Freeze** half the bread and the extra tortillas.
+1. **Mini beef meatballs:** mix 1 lb ground beef, 1 egg, ¼ cup oats, a handful of thawed spinach and 1 grated carrot. Bake at 400°F for 15–18 min, until 160°F inside. Fridge half, freeze half.
+2. **Red lentils:** simmer 1 cup lentils in 2½ cups water for 15–20 min. Fridge half, freeze the rest in an ice-cube tray.
+3. **Sweet potato:** cube 2, toss with olive oil, roast at 400°F for about 25 min.
+4. **Pasta and rice:** cook one pot of each. Cool the rice fast and refrigerate it within 1 hour.
+5. **Hard-boil 4 eggs.**
+6. **Freeze** half the bread and all the tortillas.
 
 ---
 
 ## The Week
 
-Portions are small. A 1-year-old eats about **¼–½ cup per food** at a meal. Let baby decide how much to eat.
+Portions: about ¼–½ cup of each food. Whole milk, 2–3 cups (16–24 oz) a day in total. Offer water with meals. No juice.
 
-### Days 1–3: Use Up the Fresh Food
+### Days 1–3: Fresh Food First
 
-**Monday**
-- **Breakfast:** oatmeal with mashed banana and a thin swirl of peanut butter
-- **Snack:** yogurt with thawed berries (mash or quarter them)
-- **Lunch:** shredded chicken, sweet potato cubes, peas
-- **Snack:** avocado on toast strips
-- **Dinner:** mini meatballs (cut in quarters), pasta, tomato sauce, soft broccoli
+**Monday.** Use up: ripe avocado, fresh lentils, bananas
+- Breakfast: berry oatmeal (oats made with water, mashed banana, thawed berries, thin swirl of peanut butter)
+- Snack: yogurt and berries
+- Lunch: meatballs (quartered), sweet potato, soft broccoli; milk
+- Snack: avocado toast strips
+- Dinner: red lentil tomato pasta with soft red pepper strips
 
-**Tuesday**
-- **Breakfast:** scrambled egg, avocado, toast strips
-- **Snack:** banana and small cheese cubes
-- **Lunch:** leftover meatballs, rice, peas
-- **Snack:** yogurt
-- **Dinner:** chicken and rice bowl with broccoli and mashed sweet potato
+**Tuesday.** Use up: second avocado, kiwi
+- Breakfast: scrambled egg, avocado, toast strips
+- Snack: milk and banana
+- Lunch: salmon cakes (1 can salmon + 1 egg + ¼ cup oats, pan-fried in olive oil) and peas. Freeze half.
+- Snack: kiwi and cheese cubes
+- Dinner: meatballs, rice, broccoli
 
-**Wednesday**
-- **Breakfast:** **banana-oat pancakes** (1 banana, 1 egg, ⅓ cup oats, blended). Make a double batch and freeze the extras.
-- **Snack:** hard-boiled egg, quartered
-- **Lunch:** pasta with tomato sauce, spinach and grated cheese
-- **Snack:** avocado (finish it today) and apple (steamed soft or finely grated)
-- **Dinner:** black bean and sweet potato quesadilla (mash the beans and the last sweet potato) with a side of peas
+**Wednesday.** Use up: rest of the avocado, fridge lentils and sweet potato
+- Breakfast: banana-oat pancakes (1 banana, 1 egg, ⅓ cup oats) with berries. Make a double batch and freeze the extras.
+- Snack: yogurt with peanut butter
+- Lunch: sardine and avocado mash on toast, red pepper strips
+- Snack: ripe pear and milk
+- Dinner: lentil and sweet potato mash with olive oil, kiwi on the side
 
-> **End of Wednesday:** fridge leftovers are now 3 days old. Finish or throw out what's left. Put any extra beans in the freezer.
+> **Wednesday night:** cooked food from Sunday is now 3 days old. Finish it or freeze it.
 
 ### Days 4–7: Freezer and Pantry
 
-**Thursday**
-- **Breakfast:** yogurt, thawed berries, a sprinkle of oats
-- **Snack:** banana pancake from the freezer (toast it)
-- **Lunch:** black beans, rice, grated cheese
-- **Snack:** steamed carrot sticks, cooked soft
-- **Dinner:** meatballs from the freezer, fresh pasta, peas
+**Thursday.** Open the beans; freeze half
+- Breakfast: oatmeal with kiwi and peanut butter
+- Snack: milk and banana
+- Lunch: bean and cheese quesadilla, red pepper strips
+- Snack: yogurt and berries
+- Dinner: meatballs from the freezer, pasta, tomato sauce, peas
 
-**Friday**
-- **Breakfast:** banana pancakes with a thin spread of peanut butter
-- **Snack:** yogurt
-- **Lunch:** **spinach and cheese egg muffins** (4 eggs, spinach, cheese; bake in a muffin tin at 350°F for about 15 min). Keep extras for Saturday.
-- **Snack:** apple, steamed or grated
-- **Dinner:** chicken from the freezer, rice, steamed carrots
+**Friday.** Open the tofu
+- Breakfast: tofu and spinach scramble with berries
+- Snack: cheese and pear
+- Lunch: egg muffins (4 eggs, spinach, cheese; 350°F for about 15 min), peas; milk
+- Snack: banana pancake from the freezer, with berries
+- Dinner: lentil cubes from the freezer over rice, with carrots and broccoli
 
-**Saturday**
-- **Breakfast:** egg muffin and toast strips (toast bread straight from frozen)
-- **Snack:** cheese cubes and thawed berries
-- **Lunch:** bean and cheese quesadilla (tortilla from the freezer)
-- **Snack:** yogurt
-- **Dinner:** **clean-out-the-fridge fried rice:** rice, scrambled egg, peas, carrots, and any leftover chicken or broccoli, with no soy sauce
+**Saturday.** Use up: rest of the tofu, egg muffins
+- Breakfast: egg muffin, toast, kiwi
+- Snack: yogurt and pear
+- Lunch: salmon cakes from the freezer, carrots, peas
+- Snack: crispy tofu cubes and berries
+- Dinner: fridge clean-out fried rice (rice, egg, peas, carrots, red pepper, any leftover meatball; no soy sauce); milk
 
-**Sunday**
-- **Breakfast:** oatmeal with stewed apple (simmer diced apple in a little water for 10 min)
-- **Snack:** last banana (or banana pancake)
-- **Lunch:** leftovers
-- **Snack:** yogurt and berries
-- **Dinner:** family dinner, cooked without salt for baby's portion. Then take stock and plan next week.
+**Sunday.** Use up: beans from the freezer, last kiwi
+- Breakfast: pear and berry oatmeal
+- Snack: milk and banana
+- Lunch: bean and rice bowl with cheese, kiwi on the side
+- Snack: yogurt and berries
+- Dinner: family dinner, cooked without salt for baby's portion. Then do next week's prep.
 
 ---
 
-## "It's About to Go Bad" Rescue Guide
+## About to Go Bad?
 
 | Food | What to do |
 |---|---|
-| Bananas getting brown | Peel, break in half, freeze. Use in pancakes and oatmeal |
-| Half an avocado | Leave the pit in, squeeze on lemon, wrap tightly. Or mash and freeze in an ice-cube tray |
-| Bread going stale | Freeze it and toast from frozen |
-| Yogurt near its date | Freeze spoonfuls on a tray as a teething snack, or add to pancake batter |
-| Cooked leftovers on day 3 | Freeze in ice-cube trays for ready-made baby portions |
-| Soft apples | Stew them as applesauce for oatmeal |
-| Extra cheese | Grate it and freeze it. It melts fine in quesadillas and pasta |
+| Brown bananas | Peel, halve, freeze. Use in pancakes and oatmeal |
+| Half an avocado | Leave the pit in, add lemon juice, wrap tightly. Or mash and freeze |
+| Soft pears | Stew for 10 min and stir into oatmeal |
+| Yogurt near its date | Freeze spoonfuls as a teething snack |
+| Opened tofu or beans | Freeze what you won't use within 3 days |
+| Leftovers on day 3 | Freeze in ice-cube trays for baby portions |
+| Extra cheese | Grate and freeze |
 
----
+## Safety for a 1-Year-Old
 
-## Safety Notes for 1-Year-Olds
-
-- **Choking:** quarter round foods (grapes, blueberries, meatballs, cherry tomatoes) lengthwise. Cook hard veggies until soft. Steam or grate raw apple and carrot. No whole nuts, popcorn, or hard or sticky candy. Spread peanut butter thin, never in a spoonful.
-- **Salt and sugar:** don't add salt or sugar to baby's portion. Choose low-sodium canned foods and rinse beans.
-- **Milk:** whole milk, about 16–24 oz a day. Too much milk can fill baby up and lower iron. Offer water with meals. Skip juice.
-- **Iron:** have meat, beans, eggs or iron-fortified oats every day.
-- **Leftovers:** 3–4 days in the fridge at most. When in doubt, throw it out.
-- Talk to your pediatrician about allergies or special diets.
-
----
-
-*Built as a general plan. The linked TikTok couldn't be loaded, so swap in any foods or recipes from that video you want to follow.*
+- Quarter round foods lengthwise (blueberries, grapes, meatballs, cherry tomatoes).
+- Cook hard vegetables until soft. Steam or grate raw apple, pear and carrot.
+- No whole nuts, popcorn or hard candy. Spread peanut butter thin.
+- No added salt or sugar in baby's portion. Choose no-salt-added cans and rinse beans.
+- Canned salmon and sardine bones are soft, but mash them well.
+- Leftovers keep 3–4 days in the fridge at most.
+- Chicken liver is a good iron source, but no more than once a week because of its high vitamin A.
+- Ask your pediatrician about allergies, vitamin D and anything specific to your child.
