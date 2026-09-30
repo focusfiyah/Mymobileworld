@@ -325,7 +325,7 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
     bread:     { n: "Toast", g: "grain", t: ["energy"] },
     tortilla:  { n: "Tortilla", g: "grain", t: ["energy"] },
     yogurt:    { n: "Yogurt", g: "dairy", t: ["bones", "energy", "bigdairy"] },
-    milk:      { n: "Milk", g: "dairy", t: ["bones", "bigdairy"] },
+    milk:      { n: "Goat milk", g: "dairy", t: ["bones", "bigdairy"] },
     cheese:    { n: "Cheese", g: "dairy", t: ["bones"] },
     avocado:   { n: "Avocado", g: "fat", t: ["brain", "energy"] },
     oil:       { n: "Olive oil", g: "fat", t: ["energy"] },
@@ -367,13 +367,13 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
     { id: "mon", n: "Monday", s: "Mon", phase: "fresh", useup: "ripe avocado, fresh lentils, bananas", meals: {
       b:  ["Berry oatmeal", "Oats made with water. Stir in mashed banana, thawed berries and a thin swirl of peanut butter.", ["oats", "banana", "berries", "nutbutter"]],
       s1: ["Yogurt and berries", "Full-fat plain yogurt with thawed berries, mashed or quartered.", ["yogurt", "berries"]],
-      l:  ["Meatballs and sweet potato", "Quarter 2–3 meatballs. Roasted sweet potato and soft broccoli on the side. A cup of milk fits here.", ["beef", "sweetpotato", "broccoli", "oil", "milk"]],
+      l:  ["Meatballs and sweet potato", "Quarter 2–3 meatballs. Roasted sweet potato and soft broccoli on the side. A cup of goat milk fits here.", ["beef", "sweetpotato", "broccoli", "oil", "milk"]],
       s2: ["Avocado toast strips", "Mash avocado thickly onto toast and cut into fingers.", ["avocado", "bread"]],
       d:  ["Red lentil tomato pasta", "Stir cooked lentils and a little olive oil into low-sodium tomato sauce. Soft-cooked red pepper strips on the side.", ["lentils", "pasta", "tomato", "oil", "redpepper"]],
     }},
     { id: "tue", n: "Tuesday", s: "Tue", phase: "fresh", useup: "second avocado, kiwi", meals: {
       b:  ["Egg, avocado and toast", "Soft scrambled egg, sliced avocado and toast strips.", ["egg", "avocado", "bread"]],
-      s1: ["Milk and banana", "Half a banana, cut lengthwise, with a cup of milk.", ["milk", "banana"]],
+      s1: ["Goat milk and banana", "Half a banana, cut lengthwise, with a cup of goat milk.", ["milk", "banana"]],
       l:  ["Salmon cakes and peas", "Mash 1 can of salmon (the soft bones add calcium) with 1 egg and ¼ cup oats. Pan-fry small patties in olive oil. Freeze half for Saturday.", ["salmon", "egg", "oil", "peas"]],
       s2: ["Kiwi and cheese", "Kiwi in small pieces with little cheese cubes.", ["kiwi", "cheese"]],
       d:  ["Meatballs, rice and broccoli", "Leftover meatballs, quartered, with rice and soft broccoli.", ["beef", "rice", "broccoli"]],
@@ -382,12 +382,12 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
       b:  ["Banana-oat pancakes", "Blend 1 banana, 1 egg and ⅓ cup oats. Cook small pancakes. Make a double batch and freeze the extras. Berries on the side.", ["banana", "egg", "oats", "berries"]],
       s1: ["Yogurt with peanut butter", "Full-fat yogurt with a thin swirl of peanut butter.", ["yogurt", "nutbutter"]],
       l:  ["Sardine avocado toast", "Mash sardines (no salt added; the bones are soft) with the rest of the avocado. Spread on toast strips. Red pepper strips on the side.", ["sardines", "avocado", "bread", "redpepper"]],
-      s2: ["Ripe pear and milk", "Thin, soft pear slices or grated pear, with a cup of milk.", ["pear", "milk"]],
+      s2: ["Ripe pear and goat milk", "Thin, soft pear slices or grated pear, with a cup of goat milk.", ["pear", "milk"]],
       d:  ["Lentil and sweet potato mash", "Mash the last lentils and sweet potato with olive oil. Kiwi pieces on the side.", ["lentils", "sweetpotato", "oil", "kiwi"]],
     }},
     { id: "thu", n: "Thursday", s: "Thu", phase: "freezer", useup: "open the beans; freeze half", meals: {
       b:  ["Kiwi oatmeal", "Oats made with water, topped with chopped kiwi and a thin swirl of peanut butter.", ["oats", "kiwi", "nutbutter"]],
-      s1: ["Milk and banana", "Half a banana with a cup of milk.", ["milk", "banana"]],
+      s1: ["Goat milk and banana", "Half a banana with a cup of goat milk.", ["milk", "banana"]],
       l:  ["Bean and cheese quesadilla", "Mash half the can of beans with grated cheese in a tortilla. Cut into strips. Red pepper strips on the side. Freeze the other half of the beans.", ["beans", "cheese", "tortilla", "redpepper"]],
       s2: ["Yogurt and berries", "Full-fat yogurt with thawed berries.", ["yogurt", "berries"]],
       d:  ["Meatball pasta", "Meatballs from the freezer with pasta, tomato sauce and peas.", ["beef", "pasta", "tomato", "peas"]],
@@ -395,7 +395,7 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
     { id: "fri", n: "Friday", s: "Fri", phase: "freezer", useup: "open the tofu", meals: {
       b:  ["Tofu and spinach scramble", "Crumble calcium-set tofu into a pan with olive oil and thawed spinach. Berries on the side.", ["tofu", "spinach", "oil", "berries"]],
       s1: ["Cheese and pear", "Small cheese cubes and ripe pear slices.", ["cheese", "pear"]],
-      l:  ["Egg muffins", "Whisk 4 eggs with spinach and grated cheese. Bake in a muffin tin at 350°F for about 15 min. Keep extras for tomorrow. Peas and a cup of milk on the side.", ["egg", "spinach", "cheese", "peas", "milk"]],
+      l:  ["Egg muffins", "Whisk 4 eggs with spinach and grated cheese. Bake in a muffin tin at 350°F for about 15 min. Keep extras for tomorrow. Peas and a cup of goat milk on the side.", ["egg", "spinach", "cheese", "peas", "milk"]],
       s2: ["Banana pancake", "One from the freezer, toasted, with a few berries.", ["banana", "oats", "berries"]],
       d:  ["Lentil rice bowl", "Lentil cubes from the freezer over rice, with steamed carrots and broccoli.", ["lentils", "rice", "carrots", "broccoli"]],
     }},
@@ -404,11 +404,11 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
       s1: ["Yogurt and pear", "Full-fat yogurt with grated or soft pear.", ["yogurt", "pear"]],
       l:  ["Salmon cakes and carrots", "Salmon cakes from the freezer with steamed carrot sticks and peas.", ["salmon", "egg", "carrots", "peas"]],
       s2: ["Crispy tofu and berries", "Soft tofu cubes pan-fried in olive oil, with berries.", ["tofu", "oil", "berries"]],
-      d:  ["Fridge clean-out fried rice", "Rice, scrambled egg, peas, carrots, red pepper and any leftover meatball, chopped. No soy sauce for baby. A cup of milk fits here.", ["rice", "egg", "peas", "carrots", "redpepper", "oil", "milk"]],
+      d:  ["Fridge clean-out fried rice", "Rice, scrambled egg, peas, carrots, red pepper and any leftover meatball, chopped. No soy sauce for baby. A cup of goat milk fits here.", ["rice", "egg", "peas", "carrots", "redpepper", "oil", "milk"]],
     }},
     { id: "sun", n: "Sunday", s: "Sun", phase: "freezer", useup: "beans from the freezer, last kiwi", note: "After dinner, do next week's prep and take stock of what's left before you shop.", meals: {
       b:  ["Pear and berry oatmeal", "Oats made with water, with soft diced pear and berries stirred in.", ["oats", "pear", "berries"]],
-      s1: ["Milk and banana", "Half a banana with a cup of milk.", ["milk", "banana"]],
+      s1: ["Goat milk and banana", "Half a banana with a cup of goat milk.", ["milk", "banana"]],
       l:  ["Bean and rice bowl", "Thawed beans with rice and grated cheese. Kiwi on the side.", ["beans", "rice", "cheese", "kiwi"]],
       s2: ["Yogurt and berries", "Full-fat yogurt with thawed berries.", ["yogurt", "berries"]],
       d:  ["Family dinner", "Cook your own dinner without salt, set baby's portion aside, then season the rest for the adults.", []],
@@ -426,7 +426,7 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
       ["carrots", "Carrots", "small bag", "Keep 3–4 weeks in the fridge"],
     ]},
     { id: "fridge", h: "Fridge", sub: "dairy, eggs, meat", items: [
-      ["milk", "Whole milk", "1 gallon", "2–3 cups a day, at snacks or meat and egg meals"],
+      ["milk", "Whole goat milk", "4 quarts", "Pasteurized and full-fat, with added vitamin D and folic acid on the label. Unopened quarts freeze well"],
       ["yogurt", "Plain full-fat yogurt", "32 oz tub", "One big tub costs less than single cups"],
       ["eggs", "Eggs", "1 dozen", ""],
       ["cheese", "Mild cheddar", "1 block", "A block keeps longer than shredded"],
@@ -458,9 +458,9 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
   const GUIDE = [
     { id: "brain", h: "Brain development", p: "Focus on foods with iron, choline, iodine, zinc and omega-3 fats.", foods: ["Salmon", "Eggs", "Beef", "Avocado"], plan: "Salmon cakes Tuesday and Saturday, sardines Wednesday, eggs most days, beef meatballs three times." },
     { id: "iron", h: "Iron", p: "From around 6 months, babies need reliable iron from food. It matters just as much at 1.", foods: ["Beef or lamb strips", "Chicken liver pâté", "Lentils and beans", "Iron-fortified oats"], plan: "Something iron-rich every day. Liver is optional, and no more than once a week because it is very high in vitamin A." },
-    { id: "pair", h: "The pairing that matters", p: "Plant iron needs vitamin C to absorb well. A big serving of milk or yogurt at the same meal works against it.", foods: ["Red pepper strips", "Kiwi", "Strawberries", "Broccoli"], plan: "Every lentil, bean, tofu and oat meal comes with a vitamin C side. Milk and yogurt go at snack time or with meat and egg meals." },
+    { id: "pair", h: "The pairing that matters", p: "Plant iron needs vitamin C to absorb well. A big serving of milk or yogurt at the same meal works against it.", foods: ["Red pepper strips", "Kiwi", "Strawberries", "Broccoli"], plan: "Every lentil, bean, tofu and oat meal comes with a vitamin C side. Goat milk and yogurt go at snack time or with meat and egg meals." },
     { id: "energy", h: "Energy and growth", p: "Babies have small stomachs but big energy needs. Include energy-dense foods, not just fruit and veg.", foods: ["Olive oil on meals", "Smooth nut or seed butter", "Full-fat plain yogurt", "Oats"], plan: "Olive oil goes on most dinners. Peanut butter swirls into oats. Yogurt is always full-fat." },
-    { id: "bones", h: "Bones and teeth", p: "Think calcium + vitamin D + protein. Vitamin D advice varies by country, so follow your local guidance or ask your pediatrician.", foods: ["Full-fat plain yogurt", "Cheese", "Sardines", "Calcium-set tofu"], plan: "Dairy every day. Canned salmon and sardines bring calcium from their soft bones." },
+    { id: "bones", h: "Bones and teeth", p: "Think calcium + vitamin D + protein. Vitamin D advice varies by country, so follow your local guidance or ask your pediatrician.", foods: ["Full-fat plain yogurt", "Cheese", "Sardines", "Calcium-set tofu"], plan: "Goat milk and other dairy every day. Canned salmon and sardines bring calcium from their soft bones." },
     { id: "digestion", h: "Digestion", p: "Fiber-rich foods help as babies eat more solids. Offer small sips of water with meals.", foods: ["Pear", "Kiwi", "Berries", "Vegetables"], plan: "A fruit or vegetable at almost every meal, and water in an open or straw cup." },
     { id: "variety", h: "Food acceptance and variety", p: "This one isn't about one nutrient. It's about exposing your baby to different foods, flavors and textures.", foods: ["Vegetables", "Fruit", "Protein", "Grains", "Healthy fats", "Beans, nuts and seeds"], plan: "The week uses about 29 foods across 7 groups. The Week tab counts how many your baby actually tried." },
   ];
@@ -635,7 +635,7 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
           </article>`;
         }).join("")}</div>
         ${d.note ? `<div class="callout"><b>Tonight</b>${d.note}</div>` : ""}
-        <div class="callout"><b>Every day</b>Whole milk, 2–3 cups (16–24 oz) total, not more. Small sips of water with every meal. No juice.</div>`;
+        <div class="callout"><b>Every day</b>Whole goat milk, 2–3 cups (16–24 oz) total, not more. Small sips of water with every meal. No juice.</div>`;
     }
 
     weekEl.innerHTML = `
@@ -792,6 +792,7 @@ ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0
           <li>No whole nuts, popcorn or hard candy. Spread peanut butter thin, never by the spoonful.</li>
           <li>No added salt or sugar in baby's portion. Choose no-salt-added cans and rinse beans.</li>
           <li>Canned salmon and sardine bones are soft, but mash them well.</li>
+          <li>Goat milk: pick pasteurized, full-fat and fortified with vitamin D and folic acid. Plain goat milk is low in folate and vitamin B12.</li>
           <li>Leftovers keep 3–4 days in the fridge at most. When in doubt, throw it out.</li>
           <li>Ask your pediatrician about allergies, vitamin D and anything specific to your child.</li>
         </ul>
