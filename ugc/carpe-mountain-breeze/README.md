@@ -11,7 +11,8 @@ the word "wicking" 2026-10-01); name the scent and mention other scents, no smel
 Status: **cut v6 sent (35.0s, `out/carpe_mountain_breeze.mp4`): full frame (crops undone; Ralph: they cut the product
 off), lip sync on the face shots S1, V2, V5, S10 (`python3 lipsync.py <IDs>`, Kie volcengine lite, $0.64; results in
 `lipsync/`, original voiceover mixed). Walking selfie cut. Cut v7: lip sync smeared the stick in S1 as it passed
-her mouth (2.7–3.1s) and left an orange chin smudge (3.64–3.76s): those frames use the original clip (free). Spent $6.56 Kie (1,312.8 credits). Ask before every paid
+her mouth (2.7–3.1s) and left an orange chin smudge (3.64–3.76s): those frames use the original clip (free). Cut v8 (Ralph: the pull-back didn't match the voice): opening =
+close-up held to 3.1s, then a jump cut past the pull-back to her lip-synced at chest height (free). Spent $6.56 Kie (1,312.8 credits). Ask before every paid
 generation, including redos.**
 
 ## Script (times from `vo/stt.json`)
