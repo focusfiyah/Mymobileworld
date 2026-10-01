@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, **15–20s (target ~18s)**, 7 shots (Ralph, 2026-10-01), voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **VO done (vo/voiceover_tight.mp3, 17.9s after pause trim). Still S1 done ($0.09), shown to Ralph; waiting on his OK for S2–S7 ($0.54). Label pop-ups (inserts/) + cut.py ready.**
+Status: **VO done (17.9s). Stills S1–S7 done ($0.63). QC: S2 + S3 wrong label design, S7 wrong box; prompts fixed, redo $0.27 waiting on Ralph. Then test clip S5 ($0.16).**
 Kie balance $3.45 at start, $3.36 now. Next: S2–S7 stills → test clip S5 → other 6 clips → free cut.
 
 ## Product facts (Plant Therapy's own listing + product photos, 2026-10-01)
