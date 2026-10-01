@@ -52,7 +52,10 @@ for k, (name, st, d) in enumerate(CARDS):     # each card pops in with a short s
     chains.append(f"[{j}:v]format=rgba,scale=w='720*min(1,0.9+t*0.8)':h=-1:eval=frame,"
                   f"fade=t=out:st={d - 0.15:.2f}:d=0.15:alpha=1,setpts=PTS-STARTPTS+{st}/TB[k{k}]")
     chains.append(f"[c{k}][k{k}]overlay=x=(W-w)/2:y=(H-h)/2:enable='between(t,{st},{st + d})':eof_action=pass[c{k + 1}]")
-chains.append(f"[c{len(CARDS)}]format=yuv420p[vout]")
+HOOK = ("inserts/hook_text.png", 0.0, 2.55)   # on-screen hook bubble (Ralph 2026-10-01, option 1 from the coach check)
+j = add(["-loop", "1", "-t", f"{HOOK[2] + 0.1}", "-i", HOOK[0]])
+chains.append(f"[{j}:v]format=rgba,fade=t=out:st={HOOK[2] - 0.15:.2f}:d=0.15:alpha=1[hook]")
+chains.append(f"[c{len(CARDS)}][hook]overlay=0:0:enable='between(t,{HOOK[1]},{HOOK[2]})':eof_action=pass,format=yuv420p[vout]")
 a = add(["-i", "vo/voiceover_tight.mp3"]); click = add(["-i", "sfx/click.ogg"])
 sfx = [f"[{click}:a]asplit={len(CARDS)}" + "".join(f"[t{k}]" for k in range(len(CARDS)))]
 for k, (_, st, _) in enumerate(CARDS):
