@@ -1347,5 +1347,29 @@
    ]
   },
   "costTime": 54
+ },
+ {
+  "t": "2026-10-01 18:57:01",
+  "submitted": "c7c00263e236fcdc9f4c0369ef50251a",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:58:49",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790881017253-rf9jnbz3u9b.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790881019405-pqx609lc1ee.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "c7c00263e236fcdc9f4c0369ef50251a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/volcengine-video-to-video-lip-sync/1790881122756-c6aqqedmcs.mp4"
+   ]
+  },
+  "costTime": 101
  }
 ]

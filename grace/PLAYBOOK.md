@@ -86,7 +86,7 @@ products follow the same rules.
 - 2026-10-01 Carpe Vanilla Peach: 36.6s hands-only tips ad, $3.52 vs $2.53 planned; waiting on notes.
   Open: the "peach candle" scent line needs Grace to have smelled it.
 - 2026-10-01 Carpe Mountain Breeze v2: AI Grace on camera from her photo, Ralph's structure (curiosity hook → pain →
-  solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.56 incl. $0.64 lip sync ($1.93 lost
+  solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.60 incl. $0.68 lip sync ($1.93 lost
   to prompt bugs). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
 
 ## 8. To add later
