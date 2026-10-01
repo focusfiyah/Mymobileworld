@@ -10,10 +10,16 @@ Goal: short notes on what we learned, so Ralph can paste them into a new chat. F
 4. Otherwise write `reports/YYYY-MM-DD-daily.md` (≤250 words), using the same sections as `2026-10-01-daily.md`:
    Clients (status, $ spent vs plan, lessons) · Personal (Day One AI + tools) · New rules · Gotchas.
    Only facts from the commits/notes; no filler. Skip empty sections.
-5. Commit, push to the session's branch, and send the file with SendUserFile (status proactive).
+5. Commit and push it **straight to main** (Ralph, 2026-10-01), then send the file with SendUserFile (status proactive).
 
 ## Weekly (Sunday, 9:10pm ET, after the daily)
 1. Read this week's daily files (Mon–Sun) plus the git logs for the week.
 2. Write `reports/YYYY-Wnn-weekly.md` (≤400 words), using the same sections as `2026-W40-weekly.md`:
    per project/client · Skills acquired (table, new ones marked) · Gotchas · Next.
-3. Commit, push, send with SendUserFile (status proactive).
+3. Commit and push straight to main, then send with SendUserFile (status proactive).
+
+## Pushing to main (both reports)
+In /home/user/Mymobileworld: `git stash -u -q` if dirty, `git fetch -q origin main && git checkout -q -B main origin/main`,
+write the report, `git add reports && git commit` (message `Report: <file>`), `git push origin main`
+(on a rejected push: `git pull --rebase origin main`, push again), then check out the previous branch and `git stash pop`.
+Only report files go to main this way; any other change still goes through a branch + PR.
