@@ -61,6 +61,8 @@ def run_task(body):
         print("createTask", r.status_code, json.dumps(resp)[:300]); time.sleep(3)
     else:
         log({"request": body, "response": resp}); sys.exit("createTask failed")
+    log({"submitted": tid, "prompt": body["input"].get("prompt", "")[:120]})  # recoverable via recordInfo if this run dies
+    print("submitted", tid, flush=True)
     deadline = time.time() + 600
     while time.time() < deadline:
         d = (requests.get(f"{API}/recordInfo", headers=HDR, params={"taskId": tid}, timeout=30).json() or {}).get("data") or {}
