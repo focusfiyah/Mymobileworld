@@ -38,4 +38,4 @@ Owner: Ralph. Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (
 - `reports/`: daily (`YYYY-MM-DD-daily.md`) + weekly (`YYYY-Wnn-weekly.md`) notes Ralph pastes into new chats.
   Auto-written by triggers trig_01L7VTpGnzFjf2GnBeJgCdXb (daily 8:52pm ET) and trig_01WYmbt7urUsP5ALx1t6bSFE
   (Sunday 9:10pm ET), both bound to session_013SnHUp72Ux9iD1NpyvUKTe; steps in `reports/ROUTINE.md`.
-  Archiving that session stops them.
+  Archiving that session stops them. Reports are pushed straight to main (Ralph, 2026-10-01).
