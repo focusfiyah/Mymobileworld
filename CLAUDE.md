@@ -16,6 +16,11 @@ not in a new file.
 - **Phone notifications (standard, Ralph 2026-10-01):** he leaves the app, so send a PushNotification (one line, what
   to review + cost) every time something is ready for his review or needs his decision: a still sheet, a test clip, a
   cut, a redo/cost question. Not for routine progress.
+- **Google Drive uploads (standard, Ralph 2026-10-01):** use BOTH routes; if one fails, use the other. (1) Google Drive
+  connector (`mcp__Google_Drive__*`): folders, docs, small text files. (2) Composio `googledrive` (account
+  `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
+  (host the file first, e.g. Kie's free 3-day file host: `python3 -c "import kie; print(kie.upload('<file>'))"` in a job
+  folder). The connector can't take a 7 MB video (base64 in the call) and turns emoji into mojibake in Docs.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
 ## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
