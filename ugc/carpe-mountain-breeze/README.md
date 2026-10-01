@@ -8,25 +8,25 @@ Ralph's answers (2026-10-01): AI version of Grace from `refs/grace.jpg` with her
 bathroom setting; Grace B voiceover over her demo (no lip sync); keep both claims (front label "…for all-day fresh" + Target listing "100HR Sweat & Odor Control"; Ralph dropped
 the word "wicking" 2026-10-01); name the scent and mention other scents, no smell claim.
 
-Status: **new visual plan (Ralph 2026-10-01, over the same voiceover): V1 walking selfie (voiceover only), whip-pan →
-S1 close-up clip (made), S2–S4 tips (stills made), V2 grey tee sweat stain + eye-roll, V4 tight cap-off/swipe b-roll,
-V5 crisp dry grey tee tug, S10 CTA. S6–S9 stills unused (`preview/unused/`). Next: stills V1 V2 V4 V5 ($0.36) →
-clips for every shot but S1 (37s, $1.52) → free cut with whip-pan. Spent $1.20 Kie (239 credits). Plan total ≈ $3.08.
+Status: **script v3 (Ralph 2026-10-01: curiosity hook → pain → solution → urgency CTA) recorded in Grace B, STT matches
+word for word, pauses trimmed free → 35.0s (`vo/voiceover.mp3`; older takes kept: `voiceover_tips.mp3`, `voiceover_raw.mp3`).
+Visuals: V1 walking selfie, V2 grey-tee sweat stain, whip-pan → S1 (made), S2–S4, V4 b-roll, V5 dry tee tug, S10.
+Next: stills V1 V2 V4 V5 ($0.36) → clips for all but S1 (37s, $1.52) → free cut. Spent $1.20 Kie. Plan ≈ $3.08.
 Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 
-| Time | Shot | Grace B says | Visual |
+| Time | Shot | Grace B says | Beat |
 |---|---|---|---|
-| 0.00–4.70 | V1 | Okay, if you just bought Carpe, or you're about to, watch this first. | hook (walking selfie) |
-| 4.70–5.85 | S1 | Okay, if you just bought Carpe, or you're about to, watch this first. | whip-pan → stick at the lens (clip already made) |
-| 5.85–7.90 | S2 | When it's new, it looks empty. It's not. | it looks empty |
-| 7.90–11.30 | S3 | Just keep twisting. It takes a bunch of turns the first time, | keep twisting |
-| 11.30–14.80 | S4 | and you need way less than you think, like, a pea. | a pea |
-| 14.80–18.60 | V2 | Too much is how you get that white crusty stuff people post about. | pit stain, eye-roll |
-| 18.60–23.80 | V4 | Put it on dry skin at night, and let it dry before your shirt goes on. Then again in the morning. | tight b-roll: cap off + swipe |
-| 23.80–31.00 | V5 | The label says all-day fresh, and it's clinically tested for up to a hundred hours, but that's when you use it like this. | crisp dry grey tee, tug |
-| 31.00–35.00 | S10 | This one's Mountain Breeze. There are other scents too. It's linked below. | scent + CTA |
+| 0.00–4.13 | V1 | You're probably putting your deodorant on at the wrong time. Here's why. | hook (curiosity loop) |
+| 4.13–9.96 | V2 | Pit stains by lunch. Changing your shirt before a meeting. Keeping your arms down in every photo. | pain |
+| 9.96–16.16 | S1 | This is Carpe, in Mountain Breeze. It's clinically tested for up to a hundred hours of sweat and odor control, | solution: product + claim (whip-pan in; clip made, slowed to fit) |
+| 16.16–19.80 | S2 | but only if you use it right. When it's new, it looks empty, | caveat + looks empty |
+| 19.80–21.23 | S3 | so just keep twisting. | keep twisting |
+| 21.23–22.73 | S4 | You only need a pea. | a pea |
+| 22.73–27.07 | V4 | Put it on at night, on dry skin, let it dry, then again in the morning. | how: night, dry skin (closes the hook) |
+| 27.07–31.09 | V5 | Night is the step people miss. If sweat's never bothered you, scroll on. | result + detached CTA start |
+| 31.09–35.03 | S10 | If it has, don't wait till holiday party photos. It's linked below. | urgency CTA |
 
 Label text is garbled by the image model at small sizes: for the badge and the Mountain Breeze panel, cut in a
 close-up of the real product photo (`refs/mb_front.png`) in `cut.py` (free), like v1's badge insert.
