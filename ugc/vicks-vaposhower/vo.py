@@ -35,9 +35,15 @@ f = "".join(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.005
 f += "".join(f"[s{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=0:a=1[o]"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo/voiceover.mp3", "-filter_complex", f, "-map", "[o]",
                 "-c:a", "libmp3lame", "-b:a", "192k", "vo/voiceover_tight.mp3"], check=True)
+import re
+NUM = {"10%": "tenpercent", "10": "ten", "12": "twelve"}  # STT writes numbers either way
+norm = lambda x: "".join(NUM.get(w, w) for w in re.sub(r"[^a-z0-9% ]", "", x.lower()).split())
 i, starts = 0, []
-for s in J["shots"]:
-    starts.append(out[i]["start"]); i += len(s["vo"].split()) - s["vo"].lower().count("ten percent")  # STT writes "10%"
+for s in J["shots"]:  # consume transcript words until they spell this shot's line
+    starts.append(out[i]["start"]); target, got = norm(s["vo"]), ""
+    while got != target:
+        assert len(got) < len(target) and i < len(out), f"transcript doesn't match {s['id']}: {got!r} vs {target!r}"
+        got += norm(out[i]["text"]); i += 1
 assert i == len(out), f"word count mismatch: script {i} vs audio {len(out)}"
 for k, s in enumerate(J["shots"]):
     a = 0.0 if k == 0 else round(starts[k] - 0.05, 2)
