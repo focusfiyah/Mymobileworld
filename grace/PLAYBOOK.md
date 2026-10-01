@@ -46,6 +46,8 @@ products follow the same rules.
   sit-down, sheer check) → honest take (times worn, one love, one con, best for whom) → 3–5 looks → price → CTA.
 - **Tutorial beats hard sell.** Carpe research: the hard-sell video got 830k views but 0.02% saves; the "watch this
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
+- Ask what Grace has already filmed before scripting; the script must match the footage (2026-10-01 Viking:
+  she'd filmed hands-only on the beard while the script talked about head curls).
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
 
 ## 5. Pacing and edit
@@ -71,8 +73,8 @@ products follow the same rules.
   `fungix/grace-script-angles.md`.
 - 2026-10-01 Carpe Vanilla Peach: 36.6s hands-only tips ad, $3.52 vs $2.53 planned; waiting on notes.
   Open: the "peach candle" scent line needs Grace to have smelled it.
-- 2026-10-01 Viking Revolution Curl Cream for Men: script v2, Grace's real takes, husband's experience +
-  review opinions, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
+- 2026-10-01 Viking Revolution Curl Cream for Men: script v3 for Grace's hands-only footage of it on her
+  husband's beard (hook "he'd never buy it himself"), `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
 
 ## 8. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.

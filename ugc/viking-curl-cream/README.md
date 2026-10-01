@@ -1,6 +1,6 @@
 # Viking Revolution Curl Cream for Men (Grace), 2026-10-01
 
-Status: script v2 (real takes, no VO, no price; free, $0 spent). Next: Grace confirms the [confirm] lines, then films.
+Status: script v3 (Grace's hands-only beard footage, hook B, no price, Grace's own voice; free, $0 spent). Next: Grace records the lines and the edit is cut to the footage.
 
 ## Product (from the TikTok Shop listing + vikingrevolution.com)
 - Viking Revolution Hair Curl Cream for Men, Sandalwood, 8 fl oz (240 mL). Black tube, orange band, black flip cap.
@@ -9,52 +9,46 @@ Status: script v2 (real takes, no VO, no price; free, $0 spent). Next: Grace con
   "without weighing hair down", for curls, waves "and everything between".
 - Directions (Amazon listing): small amount, damp or dry hair, distribute evenly, style as desired; morning and night.
 
-## Angle (v2, Ralph 2026-10-01)
-Grace on camera, real takes, no VO, no price. Her husband has used it, so the experience is his, told by her.
-Structure (Ralph): hook → problem → product → experience → benefit → CTA, plus the playbook's one honest caveat.
-Lines marked [confirm] must match what he actually noticed; change them before filming if they don't.
+## Angle (v3, Ralph 2026-10-01)
+Grace already filmed: her hands putting the cream on her husband's beard (hands only). No price, no ElevenLabs VO;
+Grace says the lines herself. Hook B. Structure: hook → problem → product → experience → benefit → caveat → CTA.
+The husband's experience lines are approved as written (Ralph: no need to confirm his opinion).
 
-## Script v2
-Hooks (film 3-4 takes each, different on-screen text per video):
-| # | Spoken | On-screen text |
-|---|---|---|
-| A | If your man's curls are a frizzy mess by lunch, show him this. | his curls by noon |
-| B | My husband would never buy curl cream for himself, so I got it for him. [confirm] | he'd never buy this himself |
-| C | I finally got my husband to put something in his curls. | he swore he didn't need it |
+## Script v3
+Hook (on-screen text: he'd never buy this himself):
+> My husband would never buy curl cream for himself, so I got it for him.
 
 Problem:
-> Guys with curls usually do one of two things. Nothing, and it's frizzy by noon. Or gel, and it dries hard and crunchy.
+> His beard gets dry and frizzy, and it's scratchy when he leans in for a kiss.
 
 Product (label close-up):
-> This is the Viking Revolution curl cream. It's made for men, it's got shea butter and vitamin E and B five in it,
+> This is the Viking Revolution curl cream. It's made for men, it's got shea butter and vitamin E and B five,
 > and it smells like sandalwood.
 
-Experience (his, through her) [confirm]:
-> He puts a small amount on damp hair and scrunches it through. That's it. His curls keep their shape all day,
-> and when I run my hand through his hair it's still soft.
+Experience (hands working it into the beard):
+> I put a little on my fingers and work it through his beard while it's still damp. It goes on smooth and it
+> doesn't feel greasy.
 
-Benefit (reviewers):
-> Other guys say the same thing in the reviews. No crunch, less frizz, and it doesn't feel greasy. The smell is
-> subtle too.
+Benefit:
+> Now his beard is soft when I touch it, and it doesn't go crunchy. Guys in the reviews say it cuts their frizz
+> too, and the sandalwood smell is subtle.
 
 Caveat:
-> If his curls are really thick and coarse, a few reviewers say it's too light for them.
+> It's sold for the hair on your head. His beard is curly, so he uses it there too.
 
 CTA:
-> If he likes his hair the way it is, skip this. If you're tired of the frizz, it's in the orange cart.
+> If his beard doesn't bother you, skip this. If it does, it's in the orange cart.
 
-~125 words ≈ 35-40s after pauses are cut. Caption: `#ad` (or the brand's partner tag) + #curlyhairmen #mensgrooming.
-Sources for the review lines: besthairfocus.com (excellent definition, controls frizz, subtle scent, not sticky or
-greasy; con: may be too light for very coarse curls) and review roundups ("zero crunch").
+~110 words ≈ 30-35s after pauses are cut. Caption: `#ad` (or the brand's partner tag) + #beardcare #curlyhairmen.
+Review sources: besthairfocus.com (controls frizz, subtle scent, not sticky or greasy) and review roundups ("zero crunch").
 
-## Shot list (real takes)
-1. Hook: Grace to camera, tube in hand, label facing the lens; text readable with the sound off.
-2. Problem: Grace talking; optional cutaway of him with frizzy hair (only if real).
-3. Product: label close-up, small squeeze on fingertips.
-4. Experience: him scrunching it into damp hair, then Grace running her hand through his curls.
-5. Benefit + caveat: Grace to camera, calm.
-6. CTA: tube in frame, point down to the cart.
+## Footage map (hands-only takes)
+| Line | Clip |
+|---|---|
+| Hook | tube in her hand, label to camera (text must read with the sound off) |
+| Problem | hand on the beard before product |
+| Product | label close-up, squeeze onto fingertips |
+| Experience | fingers working it through the beard |
+| Benefit | hand running over the finished beard |
+| Caveat + CTA | tube held up again, end on a visual beat |
 
-## Open questions for Ralph
-1. What did her husband actually notice? (hold all day, soft feel, how much he uses, damp or dry hair)
-2. Will he be on camera for shot 4, or hands only?
