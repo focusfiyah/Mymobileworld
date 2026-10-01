@@ -8,14 +8,10 @@ Ralph's answers (2026-10-01): AI version of Grace from `refs/grace.jpg` with her
 bathroom setting; Grace B voiceover over her demo (no lip sync); keep both claims (front label "…for all-day fresh" + Target listing "100HR Sweat & Odor Control"; Ralph dropped
 the word "wicking" 2026-10-01); name the scent and mention other scents, no smell claim.
 
-Status: **rough cut v2 sent (35.0s, `out/carpe_mountain_breeze.mp4`). Ralph's notes 2026-10-01: V1 redone (new still: relaxed
-brows, no wrinkles, no deodorant while walking) and V5 redone ($0.50). Seedance still added the stick to both (identity
-text describes the product), so `cut.py` uses V1 0–2.2s and V5 0–3.35s. Free no-slow-motion test (cut v3): nothing
-slowed, V1 filled with a mirrored punch-in jump cut, S1 opens on a held close-up; Cut v4: walking selfie (V1) removed (Ralph); hook = S1 pull-back,
-"This is Carpe" = S1a hero + spare S3/S4. Cut v5 (free fix for "her lips don't move"): S1 punches in/tilts
-down to the stick, V5 and S10 cropped chin-down, so no still mouth plays under the voice. Lip sync (~$0.40) only if asked. Ralph 2026-10-01: too much spent today.
-NO further paid steps unless Ralph asks for one; free edits only. V5's tug is still a
-chest-level pinch, not an underarm tug. Spent $5.92 Kie (1,184.8 credits). Ask before every paid generation.**
+Status: **cut v6 sent (35.0s, `out/carpe_mountain_breeze.mp4`): full frame (crops undone; Ralph: they cut the product
+off), lip sync on the face shots S1, V2, V5, S10 (`python3 lipsync.py <IDs>`, Kie volcengine lite, $0.64; results in
+`lipsync/`, original voiceover mixed). Walking selfie cut. Spent $6.56 Kie (1,312.8 credits). Ask before every paid
+generation, including redos.**
 
 ## Script (times from `vo/stt.json`)
 

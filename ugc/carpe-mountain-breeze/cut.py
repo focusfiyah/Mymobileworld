@@ -2,7 +2,8 @@
 
   python3 cut.py   -> out/carpe_mountain_breeze.mp4 (720x1280, 24fps)
 
-Nothing is slowed down (Ralph 2026-10-01: "why is the whole video in slow motion"). Clips play at 1.0x or faster;
+Face shots S1, V2, V5, S10 come from lipsync/ (mouth driven by the voiceover; the original voiceover is
+mixed, not the lip-sync audio). Nothing is slowed down (Ralph 2026-10-01: "why is the whole video in slow motion"). Clips play at 1.0x or faster;
 the walking selfie (V1) is cut (Ralph): the hook is the S1 close-up pull-back, and "This is Carpe…" is the S1a
 hero close-up plus spare S3/S4 product moments. Shots after V4 shift by up to 0.4s. V5 stops before Seedance added
 the deodorant. SFX are CC0 (Kenney, sfx/LICENSE.md); the whoosh is generated noise.
@@ -12,8 +13,8 @@ from pathlib import Path
 
 # (source, in, length used from the source, speed, extra video filter); output length = length / speed
 EDL = [
-    ("clips/S1.mp4", 0.0, 4.13, 1.0, "scale=1440:2560,zoompan=z='if(lt(on,53),1,min(1.78,1+0.78*(on-53)/19))':x='2*128*(zoom-1)/0.78':y='2*560*(zoom-1)/0.78':d=1:s=720x1280:fps=24,"),  # hook: close-up, then punch in + tilt down with the stick (mouth out of frame)
-    ("clips/V2.mp4", 0.0, 5.83, 1.0, ""),
+    ("lipsync/S1.mp4", 0.0, 4.13, 1.0, ""),                               # hook: close-up on the stick, pull back to her
+    ("lipsync/V2.mp4", 0.0, 5.83, 1.0, ""),
     ("S1a", 0.0, 3.2, 1.0, ""),                                          # hero close-up, slow push-in, label sharp
     ("clips/S3.mp4", 0.0, 2.1, 1.0, ""),                                 # holding the stick before the twist
     ("clips/S4.mp4", 3.15, 0.89, 1.0, ""),                               # stick upright, label to camera
@@ -21,8 +22,8 @@ EDL = [
     ("clips/S3.mp4", 2.1, 1.645, 1.15, ""),
     ("clips/S4.mp4", 0.3, 1.725, 1.15, ""),
     ("clips/V4.mp4", 0.3, 4.74, 1.0, ""),
-    ("clips/V5.mp4", 0.0, 3.35, 1.0, "crop=388:690:186:590,"),          # chin down: no still mouth under the voice
-    ("clips/S10.mp4", 0.0, 4.04, 1.0, "crop=405:720:100:560,"),         # chin down: stick + point-down stay in frame
+    ("lipsync/V5.mp4", 0.0, 3.35, 1.0, ""),          # lip-synced (lipsync.py)
+    ("lipsync/S10.mp4", 0.0, 4.2, 1.0, ""),
 ]
 END = 35.03                                          # voiceover length; S10 holds its last frame to here
 WHIP_AT, WHIP = 9.96, 0.24                           # whip-pan V2 -> S1a, centred on the cut

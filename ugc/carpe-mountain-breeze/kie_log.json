@@ -1185,5 +1185,167 @@
    ]
   },
   "costTime": 122
+ },
+ {
+  "t": "2026-10-01 18:30:54",
+  "submitted": "c960207af755bf6b5f3a8eaee0b2a9f5",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:31:51",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879450265-csvj540aa1.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879452630-6aqgkcxvx9k.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "c960207af755bf6b5f3a8eaee0b2a9f5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/volcengine-video-to-video-lip-sync/1790879509817-3tmwqp6h7a2.mp4"
+   ]
+  },
+  "costTime": 56
+ },
+ {
+  "t": "2026-10-01 18:32:33",
+  "submitted": "c824d67cd9b3c6f3f6dcdc6883118a84",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:32:34",
+  "submitted": "dafae12ba2134c92b1f9f943bae6987e",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:32:38",
+  "submitted": "f02155b017a710ae8a954dd2d67e10a4",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:33:11",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879548806-8f89pue2dj6.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879551711-9tgqvfu8juh.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "c824d67cd9b3c6f3f6dcdc6883118a84",
+  "fail": [
+   "500",
+   "The server is busy, please try again later"
+  ]
+ },
+ {
+  "t": "2026-10-01 18:33:16",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879550313-dx9fik78ex.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879556125-s7d98m7i2.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "f02155b017a710ae8a954dd2d67e10a4",
+  "fail": [
+   "500",
+   "The server is busy, please try again later"
+  ]
+ },
+ {
+  "t": "2026-10-01 18:33:31",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879549652-cbdu6iosxog.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879552275-v4pqin23bu.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "dafae12ba2134c92b1f9f943bae6987e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/volcengine-video-to-video-lip-sync/1790879607402-kng9hv7ody9.mp4"
+   ]
+  },
+  "costTime": 53
+ },
+ {
+  "t": "2026-10-01 18:33:54",
+  "submitted": "13470a2f64c3af5439bb90892150a75d",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:35:22",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879628787-xm8vchfdy1.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879631740-6mtbw3enn87.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "13470a2f64c3af5439bb90892150a75d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/volcengine-video-to-video-lip-sync/1790879716934-gtzi8g6a6t8.mp4"
+   ]
+  },
+  "costTime": 83
+ },
+ {
+  "t": "2026-10-01 18:36:20",
+  "submitted": "966364c90eeab6a47acb29d488381a99",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:36:58",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879776080-u7ttpfh3bsl.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879778486-8olrses5o09.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "966364c90eeab6a47acb29d488381a99",
+  "fail": [
+   "500",
+   "The server is busy, please try again later"
+  ]
+ },
+ {
+  "t": "2026-10-01 18:37:12",
+  "submitted": "eb0666559af1f601ac544bbb17b519ea",
+  "prompt": ""
+ },
+ {
+  "t": "2026-10-01 18:38:09",
+  "request": {
+   "model": "volcengine/video-to-video-lip-sync",
+   "input": {
+    "mode": "lite",
+    "video_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879827573-lkbqpet0b5.mp4",
+    "audio_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790879830291-uyn6mqrdmhn.mp3",
+    "align_audio": true
+   }
+  },
+  "taskId": "eb0666559af1f601ac544bbb17b519ea",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/volcengine-video-to-video-lip-sync/1790879886107-z05hwwg2kfd.mp4"
+   ]
+  },
+  "costTime": 54
  }
 ]

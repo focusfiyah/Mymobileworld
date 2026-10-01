@@ -72,7 +72,8 @@ products follow the same rules.
   leave the product text out of the prompt entirely. Also keep faces relaxed in stills ("raised eyebrows" = forehead
   wrinkles the clip copies).
 - **Voiceover ads: keep her mouth out of frame while the voice talks** (Ralph 2026-10-01, "why are her lips not
-  moving"): face shots only for reactions (eye-roll) or with lip sync; otherwise frame chin-down or on the product.
+  moving"): Ralph then preferred lip sync over chin-down crops (crops cut the product off): `lipsync.py` in
+  `ugc/carpe-mountain-breeze/`, $0.04/s, submit one at a time (parallel calls get "server busy", $0).
 - **Test ONE clip before any batch** (Ralph 2026-10-01, after $1.93 was lost on two prompt mistakes in one day): render
   the cheapest affected clip, check it, then ask for the rest. Report the running total vs the quote at every step.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
@@ -83,8 +84,8 @@ products follow the same rules.
 - 2026-10-01 Carpe Vanilla Peach: 36.6s hands-only tips ad, $3.52 vs $2.53 planned; waiting on notes.
   Open: the "peach candle" scent line needs Grace to have smelled it.
 - 2026-10-01 Carpe Mountain Breeze v2: AI Grace on camera from her photo, Ralph's structure (curiosity hook → pain →
-  solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $5.42 ($1.52 lost to
-  the blue-tank prompt bug). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
+  solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.56 incl. $0.64 lip sync ($1.93 lost
+  to prompt bugs). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
 
 ## 8. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
