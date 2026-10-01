@@ -47,5 +47,105 @@
   "t": "2026-10-01 21:43:50",
   "submitted": "0676901bd7032612ffb1bd2170eb571c",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up: the white tablet resting in the open pa"
+ },
+ {
+  "t": "2026-10-01 21:44:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the counter: the box stands with its top flap open, front facing the camera; the hand lifts one white tablet out of it. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888671405-z3v9h0e1aj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888674167-45z6xp0ny6x.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891028302-5i1idnka1fq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "426d71373eddccee612ebdc90ef407ea",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891056864-qku28gsshw.jpg"
+   ]
+  },
+  "costTime": 27
+ },
+ {
+  "t": "2026-10-01 21:44:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up: the hand wipes a clear streak across the fogged glass shower door from outside; steam and the running shower soft behind the glass. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888671405-z3v9h0e1aj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888674167-45z6xp0ny6x.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891028302-5i1idnka1fq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8e958f4386902686c85d62c610f4f10d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891058851-isjytox7qta.jpg"
+   ]
+  },
+  "costTime": 29
+ },
+ {
+  "t": "2026-10-01 21:44:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up: the white tablet resting in the open palm, the box soft and out of focus on the counter behind it. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888671405-z3v9h0e1aj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888674167-45z6xp0ny6x.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891028302-5i1idnka1fq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0676901bd7032612ffb1bd2170eb571c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891059490-fqa2h1a6nzk.jpg"
+   ]
+  },
+  "costTime": 29
+ },
+ {
+  "t": "2026-10-01 21:44:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the white counter: the VapoShower Plus box stands front facing the camera; the hand rests beside it. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888671405-z3v9h0e1aj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888674167-45z6xp0ny6x.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891028302-5i1idnka1fq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "253718ad87f84bffd6d1bd1ab385db2c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891064001-erg05hx9tos.jpg"
+   ]
+  },
+  "costTime": 34
  }
 ]
