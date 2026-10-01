@@ -8,12 +8,10 @@ Ralph's answers (2026-10-01): AI version of Grace from `refs/grace.jpg` with her
 bathroom setting; Grace B voiceover over her demo (no lip sync); keep both claims (front label "…for all-day fresh" + Target listing "100HR Sweat & Odor Control"; Ralph dropped
 the word "wicking" 2026-10-01); name the scent and mention other scents, no smell claim.
 
-Status: **script v3 (Ralph 2026-10-01: curiosity hook → pain → solution → urgency CTA) recorded in Grace B, STT matches
-word for word, pauses trimmed free → 35.0s (`vo/voiceover.mp3`; older takes kept: `voiceover_tips.mp3`, `voiceover_raw.mp3`).
-Visuals: V1 walking selfie, V2 grey-tee sweat stain, whip-pan → S1 (made), S2–S4, V4 b-roll, V5 dry tee tug, S10.
-Stills V1 V2 V4 V5 done ($0.36; V4 cropped tighter free, raw in `preview/V4_raw.png`).
-Next: clips for all but S1 (37s, $1.52) → free cut. Spent $1.56 Kie (311 credits). Plan ≈ $3.08.
-Ask before every paid generation.**
+Status: **script v3 voiceover (35.0s) + all stills done. Ralph 2026-10-01: grey tee through the whole video → 7 stills
+swapped from the blue tank with `python3 kie.py tee …` ($0.63; blue originals in `preview/blue/`), S1a recolored free
+(label protected), S1 clip remade in grey ($0.21). Sweat stain only in V2. Next: clips V1 V2 S2 S3 S4 V4 V5 S10
+(37s, $1.52) → free cut with whip-pan. Spent $2.39 Kie (478 credits). Plan ≈ $3.91. Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 
