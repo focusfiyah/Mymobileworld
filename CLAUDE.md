@@ -19,7 +19,8 @@ not in a new file.
 - Kie (api.kie.ai + kieai.redpandaai.co) and ElevenLabs keys are injected by the environment proxy: never ask for
   or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
-  hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py).
+  hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
+  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py). Skill zip re-made 2026-10-01 with the Carpe v2 lessons.
 - After editing the project skill: re-zip to `handoff/ugc-product-ad-skill.zip`; Ralph uploads it to claude.ai
   (description must stay ≤1024 chars).
 

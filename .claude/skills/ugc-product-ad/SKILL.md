@@ -1,6 +1,6 @@
 ---
 name: ugc-product-ad
-description: Produce short creator-style UGC product ads (TikTok Shop / Meta). Covers (1) a talking-to-camera spokesperson spot from a person's photo plus a product packshot; (2) multi-character dialogue skit ads (couple or family "POV" skits with a product handoff) from Gemini 3 Pro stills and Seedance 2.0 Mini on Kie; (3) longer multi-shot ads from ONE recurring persona (an AI influencer), one Grok Imagine clip per shot on Kie, optionally lip-synced to a cloned ElevenLabs voice, then trimmed of dead air; (4) patching a mumbled off-camera line by cloning the clip's own voice; and (5) faceless hands-only demo/tips ads over a voiceover (Kie stills + Seedance Mini per shot). Use for any "make a UGC ad", "creator video", "TikTok Shop ad", "spokesperson spot", "skit", "tech UGC", "AI influencer", "use my voice", "remove the pauses", "hands-only" request, and for Fungix / Grace / Carpe / Restlex / Ralph / Seller AI OS ad work. Encodes model choice, prompts, duration math, cost control, verification and compliance.
+description: Produce short creator-style UGC product ads (TikTok Shop / Meta). Covers (1) a talking-to-camera spokesperson spot from a person's photo plus a product packshot; (2) multi-character dialogue skit ads (couple or family "POV" skits with a product handoff) from Gemini 3 Pro stills and Seedance 2.0 Mini on Kie; (3) longer multi-shot ads from ONE recurring persona (an AI influencer), one Grok Imagine clip per shot on Kie, optionally lip-synced to a cloned ElevenLabs voice; (4) patching a mumbled off-camera line by cloning the clip's own voice; and (5) demo/tips ads over a voiceover, hands-only or with the person on camera (Kie stills + Seedance Mini per shot, lip sync on face shots). Use for any "make a UGC ad", "creator video", "TikTok Shop ad", "spokesperson spot", "skit", "tech UGC", "AI influencer", "use my voice", "remove the pauses", "hands-only" request, and for Fungix / Grace / Carpe / Restlex / Ralph / Seller AI OS ad work. Encodes models, prompts, timing, cost control, QC and compliance.
 ---
 
 # UGC Product Ad
@@ -28,6 +28,9 @@ worse output, which is why this file exists.
 - **Faceless hands-only product demo / tips video over a voiceover (no face, no lip sync):**
   "Hands-only product ad" below (Kie Nano Banana Pro stills + one Seedance Mini clip per shot, free ffmpeg cut).
   Proven on Grace's Carpe Vanilla Peach ad, 2026-10-01 (36s, 9 shots, $3.52 actual vs $2.53 planned).
+- **A real person (AI from their photo) demonstrating the product over a voiceover, face on some shots:**
+  "On-camera demo over a voiceover" below (Kie stills + Seedance Mini per shot, lip sync on face shots, free
+  edit-list cut). Carpe Mountain Breeze for Grace, 2026-10-01: 35s, $6.60 vs a $2.50 quote; read its lessons.
 
 ## Working with Ralph: money, questions, tokens (read first, every job)
 
@@ -48,6 +51,17 @@ and ask questions, do not assume, because that's how we waste time and money."
   ask how to use it before spending. Run verbatim it gave a 3-panel sheet, usable only as a reference crop.
 - **Client:** ask who the ad is for at the start; apply that client's rules (Grace: no personal-use claims unless
   true, no false scarcity, detached CTA, one honest caveat).
+- **Lock the whole plan before the first paid call** (Ralph, 2026-10-01: "You are having me spend all my credits
+  today"; "I don't think you remembered me wanting the process to be time efficient and cost effective"): ONE
+  message with script, every shot, outfit, setting, face or no face, voiceover vs lip sync, and the total cost; one
+  approval. A mid-job change gets a new total before anything is spent.
+- **One test clip before any batch.** Carpe v2 rendered 8 clips at once and all came back wrong ($1.52); one clip
+  would have cost $0.21.
+- **QC before sending, so Ralph never finds it first** (each miss cost him a review round, ~20 rounds / 4h on
+  Carpe v2): every clip at ≥1.0x speed; no face on screen while the voice talks unless lip-synced; product never
+  cropped off or smeared; no forehead wrinkles; same outfit and product in every shot; frame-by-frame check wherever
+  hands or the product cross the face.
+- **Report the running total against the quote at every paid step.**
 - **Tokens:** keep the job README's `Status:` line current (what's done, what's next, what it costs) so "continue
   the X ad" needs one file read. Short updates, chained shell steps, one contact sheet per batch.
 
@@ -352,6 +366,48 @@ run in the background with a ≥1h timeout, never a 10-min foreground call (one 
 Traps: a nano-banana-pro *edit* barely changes small details (nails: first edit ~no change); a blur on the still
 carries into the Seedance clip (good for a wrong label line); small label text comes out garbled or wrong
 ("1.7 FL OZ (350 mL)") → blur it on the still, free.
+
+## On-camera demo over a voiceover (approved route)
+
+Proven on Grace's Carpe Mountain Breeze ad (2026-10-01, `focusfiyah/Mymobileworld` → `ugc/carpe-mountain-breeze/`:
+README, shots.json, kie.py, lipsync.py, cut.py; copies in `scripts/persona_*.py`, rename to kie.py / lipsync.py /
+cut.py in the job folder). The person is an AI version of a real client from ONE photo; the voice is a separate
+ElevenLabs track. Structure Ralph asked for: curiosity-loop hook → pain → selling point / solution → urgency CTA
+(real reason, no false scarcity). Final: 35s, 9 shots, $6.60, of which ~$3.20 was footage that made the cut.
+
+1. **Lock everything first** (see "Working with Ralph"): script, VO, shots, outfit, setting, which shots show the
+   face, which face shots get lip sync, cost. Then record the VO (eleven_v4), STT word timings (scribe_v2), trim
+   pauses to 0.25s (free; 38.6s → 35.0s) and set shot windows from the words.
+2. **Stills** (Nano Banana Pro on Kie, $0.09): refs = person photo + product crops; the first approved still is the
+   room/person reference for the rest. Relaxed brows in every prompt (raised brows = forehead wrinkles the clip
+   copies). Outfit change later = an edit of the approved still, "change ONLY her top to the one in image 2"
+   ($0.09, keeps the pose; `kie.py tee`).
+3. **One test clip** (Seedance 2.0 Mini, $0.041/s), check it, then the rest one by one or in a small batch. Clip
+   length ≥ its VO window: never stretch footage in the edit (Ralph: "why is the whole video in slow motion"), and
+   Seedance already moves slowly. A pull-back from a close-up = `first_frame_url` (close-up) + `last_frame_url`.
+4. **Lip sync the face shots** (`lipsync.py`, Kie `volcengine/video-to-video-lip-sync`, lite, $0.04/s of audio,
+   one at a time: parallel calls get "server busy", $0). Mix the ORIGINAL voiceover, not the lip-sync audio.
+5. **Cut** (`cut.py`, an edit list of clip pieces, free): whip-pan = xfade slideleft 0.24s + dblur + a noise
+   whoosh; CC0 SFX; loudnorm -16 LUFS. QC (see above) before sending.
+
+Traps, each paid for once:
+- **The prompt TEXT beats the first frame.** Stills were edited to a grey tee but the identity text still said
+  "sky-blue tank top": all 8 clips came back in the tank ($1.52). Grep every prompt block for the old look.
+- **A product description in the prompt puts the product in the shot.** "No deodorant in this shot" lost to the
+  identity block's stick description ($0.41). For product-free shots, drop the product text (`no_product` in shots.json).
+- **A clean first frame does not survive a busy prompt either:** Seedance added a giant stick in the foreground of a
+  "dry shirt" shot. Fix in text, not with a reroll.
+- **Voiceover + face on camera reads as "her lips aren't moving".** Ralph rejected chin-down crops (they cut the
+  product off) and chose lip sync.
+- **Lip sync smears whatever passes the mouth** (the stick as she lowers it: flattened top, skin-coloured blob) and
+  runs ~2 frames late. Fix free: keep the lip-synced mouth in a soft oval over the original frames (shifted 2
+  frames), or jump-cut past the crossing and lip-sync only the clean part ($0.04). Swapping whole frames to the
+  original makes the mouth stop mid-word, which Ralph spotted.
+- **Free fixes that worked:** shallow-focus background blur on a still with normalized convolution (no orange halo
+  around the product); blue→grey recolor with the label protected by a mask; chin-down crops for demo shots; skin-only
+  bilateral smoothing for forehead lines; mirrored punch-in jump cut to fill a short clip.
+- **Label text garbles at small sizes**; the logo and colour panel read. Use the real packshot or a sharp close-up still
+  for label moments.
 
 ## Where the tools live
 
