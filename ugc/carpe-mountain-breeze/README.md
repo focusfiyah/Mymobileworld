@@ -11,7 +11,8 @@ the word "wicking" 2026-10-01); name the scent and mention other scents, no smel
 Status: **script v3 (Ralph 2026-10-01: curiosity hook → pain → solution → urgency CTA) recorded in Grace B, STT matches
 word for word, pauses trimmed free → 35.0s (`vo/voiceover.mp3`; older takes kept: `voiceover_tips.mp3`, `voiceover_raw.mp3`).
 Visuals: V1 walking selfie, V2 grey-tee sweat stain, whip-pan → S1 (made), S2–S4, V4 b-roll, V5 dry tee tug, S10.
-Next: stills V1 V2 V4 V5 ($0.36) → clips for all but S1 (37s, $1.52) → free cut. Spent $1.20 Kie. Plan ≈ $3.08.
+Stills V1 V2 V4 V5 done ($0.36; V4 cropped tighter free, raw in `preview/V4_raw.png`).
+Next: clips for all but S1 (37s, $1.52) → free cut. Spent $1.56 Kie (311 credits). Plan ≈ $3.08.
 Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
