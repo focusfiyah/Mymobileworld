@@ -1,54 +1,135 @@
 {
-  "product": "Carpe 100HR Sweat & Odor Control Antiperspirant Deodorant, Vanilla Peach, 1.76 oz (lotion, twist knob)",
-  "voice": {"name": "Grace B voice", "voice_id": "bGrsdLmwBbYUgHRuMFOI", "model": "eleven_v4", "file": "vo/voiceover.mp3"},
-  "format": {"aspect_ratio": "9:16", "resolution": "720p", "fps": 24},
-  "modeled_on": "https://www.tiktok.com/@shop.with.shelby/video/7540844439825157406 (format only: 'watch this before you use it' tips that answer the common complaints)",
-  "refs": {
-    "hand": "refs/hand_dorsal.png + refs/hand_palm.png (crops of refs/hand_sheet.jpg; annotation text is NOT part of the image)",
-    "product": "refs/product_front.png + refs/product_open.png + refs/product_profile.png (crops of refs/product_sheet_v2.jpg, Vanilla Peach panels only)"
+ "product": "Carpe 100HR Sweat & Odor Control Antiperspirant Deodorant, Vanilla Peach, 1.76 oz (lotion, twist knob)",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover.mp3"
+ },
+ "format": {
+  "aspect_ratio": "9:16",
+  "resolution": "720p",
+  "fps": 24
+ },
+ "modeled_on": "https://www.tiktok.com/@shop.with.shelby/video/7540844439825157406 (format only: 'watch this before you use it' tips that answer the common complaints)",
+ "refs": {
+  "hand": "refs/hand_dorsal.png + refs/hand_palm.png (crops of refs/hand_sheet.jpg; annotation text is NOT part of the image)",
+  "product": "refs/product_front.png + refs/product_slots.png + refs/product_profile.png (front/profile: crops of refs/product_sheet_v2.jpg; slotted top: crop of preview/S2_v2_ralph_prompt.png, Ralph's prompt 2026-10-01). The ribbed-dome product_open.png is no longer used."
+ },
+ "still_model": "nano-banana-pro on Kie, 1K, 9:16, refs = hand crops + product crops (+ the S2 still as the room ref for every later still)",
+ "video_model": "bytedance/seedance-2-mini on Kie, first_frame_url = the approved still, generate_audio: false, 720p, 9:16",
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift.",
+ "scene_block": "Setting: a real bathroom vanity, warm cream countertop, soft window light from the left, a folded white towel slightly out of focus. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little messy like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+ "video_suffix": "Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+ "shots": [
+  {
+   "id": "S1",
+   "t": [
+    0.0,
+    4.7
+   ],
+   "dur": 5,
+   "beat": "hook",
+   "vo": "Okay, if you just bought Carpe, or you're about to, watch this first.",
+   "still": "Close-up, the hand holds the capped Carpe stick up close to the lens at a slight angle, front label toward the camera, the vanity soft behind it.",
+   "video": "Shot 1 (0-5s): the hand brings the stick up toward the lens, gives it one small shake like a person showing a friend, then holds it steady with the label facing the camera."
   },
-  "still_model": "nano-banana-pro on Kie, 1K, 9:16, refs = hand crops + product crops (+ the S2 still as the room ref for every later still)",
-  "video_model": "bytedance/seedance-2-mini on Kie, first_frame_url = the approved still, generate_audio: false, 720p, 9:16",
-  "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, a white ribbed dome of formula under the cap, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift.",
-  "scene_block": "Setting: a real bathroom vanity, warm cream countertop, soft window light from the left, a folded white towel slightly out of focus. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little messy like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
-  "video_suffix": "Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
-  "shots": [
-    {"id": "S1", "t": [0.0, 4.7], "dur": 5, "beat": "hook",
-     "vo": "Okay, if you just bought Carpe, or you're about to, watch this first.",
-     "still": "Close-up, the hand holds the capped Carpe stick up close to the lens at a slight angle, front label toward the camera, the vanity soft behind it.",
-     "video": "Shot 1 (0-5s): the hand brings the stick up toward the lens, gives it one small shake like a person showing a friend, then holds it steady with the label facing the camera."},
-    {"id": "S2", "t": [4.7, 8.0], "dur": 4, "beat": "it looks empty",
-     "vo": "When it's new, it looks empty. It's not.",
-     "still": "Close-up, the hand holds the uncapped stick upright; the white ribbed dome sits just below the rim and looks dry. The cap lies on the counter.",
-     "video": "Shot 1 (0-4s): the hand tilts the open stick toward the lens to show the dry dome, then turns it back upright."},
-    {"id": "S3", "t": [8.0, 11.3], "dur": 4, "beat": "keep twisting",
-     "vo": "Just keep twisting. It takes a bunch of turns the first time,",
-     "still": "Close-up of both hands: one holds the open stick, the other's thumb and index finger grip the orange knob at the base.",
-     "video": "Shot 1 (0-4s): the fingers turn the knob again and again, five quick turns; on the last turns the white dome rises slightly and a little lotion appears between the ribs."},
-    {"id": "S4", "t": [11.3, 14.7], "dur": 4, "beat": "use a pea-size",
-     "vo": "and you need way less than you think, like, a pea.",
-     "still": "Macro close-up of the dome with one small pea-sized bead of white lotion on top; the index fingertip hovers just beside it.",
-     "video": "Shot 1 (0-4s): the fingertip points at the small bead, circles it once in the air, then pulls back."},
-    {"id": "S5", "t": [14.7, 18.5], "dur": 4, "beat": "too much = white crust",
-     "vo": "Too much is how you get that white crusty stuff people post about.",
-     "still": "Close-up: the dome with far too much lotion piled on top; the hand holds a folded tissue next to it.",
-     "video": "Shot 1 (0-4s): the hand wipes the extra lotion off the dome with the tissue in one stroke, leaving only a thin layer."},
-    {"id": "S6", "t": [18.5, 23.6], "dur": 5, "beat": "dry skin, night, let it dry, morning",
-     "vo": "Put it on dry skin at night, and let it dry before your shirt goes on. Then again in the morning.",
-     "still": "Close-up of the vanity in warm evening lamp light: the hand rests on a folded white towel, a plain black t-shirt folded next to it, the capped stick beside them.",
-     "video": "Shot 1 (0-2.5s): the hand pats the towel twice like drying off. Shot 2 (2.5-5s): the hand waits, fingers tapping slowly on the folded black t-shirt, then lifts the shirt."},
-    {"id": "S7", "t": [23.6, 29.1], "dur": 6, "beat": "100-hour claim, honestly",
-     "vo": "The label says clinically tested for up to a hundred hours, but that's when you use it like this.",
-     "still": "Close-up of the capped stick held upright, the white '100hr' shield badge sharp and readable, the index fingernail resting beside it.",
-     "video": "Shot 1 (0-3s): the fingernail taps the 100hr badge once. Shot 2 (3-6s): the hand tips the stick side to side a little, a casual 'eh' gesture, then holds it still.",
-     "insert": "0.8s badge close-up cropped from this still, laid over 'a hundred hours' so the badge reads sharp"},
-    {"id": "S8", "t": [29.1, 34.3], "dur": 6, "beat": "Vanilla Peach scent",
-     "vo": "Oh, and this one's Vanilla Peach. (laughs) It smells like a peach candle, in a good way.",
-     "still": "Close-up on the vanity: the uncapped stick stands next to one ripe peach; the hand rests beside them.",
-     "video": "Shot 1 (0-6s): the hand picks up the stick, brings it toward the lens as if letting you smell it, then sets it down next to the peach and gives the peach a little nudge."},
-    {"id": "S9", "t": [34.3, 36.3], "dur": 4, "beat": "soft CTA",
-     "vo": "It's linked below.",
-     "still": "Medium close-up of the vanity: the capped stick stands centred, label facing the camera; the hand hovers just above it.",
-     "video": "Shot 1 (0-4s): the hand sets the stick down, taps the cap once, then points down toward the bottom of the frame and holds."}
-  ]
+  {
+   "id": "S2",
+   "t": [
+    4.7,
+    8.0
+   ],
+   "dur": 4,
+   "beat": "it looks empty",
+   "vo": "When it's new, it looks empty. It's not.",
+   "still": "Close-up, the hand holds the uncapped stick upright with its top tilted toward the lens: the hard orange slotted top, with no cream showing in the slots yet, so the stick looks empty. The cap lies on the counter.",
+   "video": "Shot 1 (0-4s): the hand tilts the open stick toward the lens to show the empty slots, then turns it back upright."
+  },
+  {
+   "id": "S3",
+   "t": [
+    8.0,
+    11.3
+   ],
+   "dur": 4,
+   "beat": "keep twisting",
+   "vo": "Just keep twisting. It takes a bunch of turns the first time,",
+   "still": "Close-up of both hands: one holds the open stick, the other's thumb and index finger grip the orange knob at the base.",
+   "video": "Shot 1 (0-4s): the fingers turn the knob again and again, five quick turns; on the last turns small ribbons of pale pinkish-white cream rise up through the slots in the orange top."
+  },
+  {
+   "id": "S4",
+   "t": [
+    11.3,
+    14.7
+   ],
+   "dur": 4,
+   "beat": "use a pea-size",
+   "vo": "and you need way less than you think, like, a pea.",
+   "still": "Macro close-up of the slotted orange top with only a small, pea-sized amount of pale pinkish-white cream showing through the slots; the index fingertip hovers just beside it.",
+   "video": "Shot 1 (0-4s): the fingertip points at the small amount of cream on the slots, circles it once in the air, then pulls back."
+  },
+  {
+   "id": "S5",
+   "t": [
+    14.7,
+    18.5
+   ],
+   "dur": 4,
+   "beat": "too much = white crust",
+   "vo": "Too much is how you get that white crusty stuff people post about.",
+   "still": "Close-up: the slotted orange top with far too much pale pinkish-white cream piled on it; the hand holds a folded tissue next to it.",
+   "video": "Shot 1 (0-4s): the hand wipes the extra cream off the slotted top with the tissue in one stroke, leaving only a little in the slots."
+  },
+  {
+   "id": "S6",
+   "t": [
+    18.5,
+    23.6
+   ],
+   "dur": 5,
+   "beat": "dry skin, night, let it dry, morning",
+   "vo": "Put it on dry skin at night, and let it dry before your shirt goes on. Then again in the morning.",
+   "still": "Close-up of the vanity in warm evening lamp light: the hand rests on a folded white towel, a plain black t-shirt folded next to it, the capped stick beside them.",
+   "video": "Shot 1 (0-2.5s): the hand pats the towel twice like drying off. Shot 2 (2.5-5s): the hand waits, fingers tapping slowly on the folded black t-shirt, then lifts the shirt."
+  },
+  {
+   "id": "S7",
+   "t": [
+    23.6,
+    29.1
+   ],
+   "dur": 6,
+   "beat": "100-hour claim, honestly",
+   "vo": "The label says clinically tested for up to a hundred hours, but that's when you use it like this.",
+   "still": "Close-up of the capped stick held upright, the white '100hr' shield badge sharp and readable, the index fingernail resting beside it.",
+   "video": "Shot 1 (0-3s): the fingernail taps the 100hr badge once. Shot 2 (3-6s): the hand tips the stick side to side a little, a casual 'eh' gesture, then holds it still.",
+   "insert": "0.8s badge close-up cropped from this still, laid over 'a hundred hours' so the badge reads sharp"
+  },
+  {
+   "id": "S8",
+   "t": [
+    29.1,
+    34.3
+   ],
+   "dur": 6,
+   "beat": "Vanilla Peach scent",
+   "vo": "Oh, and this one's Vanilla Peach. (laughs) It smells like a peach candle, in a good way.",
+   "still": "Close-up on the vanity: the uncapped stick stands next to one ripe peach; the hand rests beside them.",
+   "video": "Shot 1 (0-6s): the hand picks up the stick, brings it toward the lens as if letting you smell it, then sets it down next to the peach and gives the peach a little nudge."
+  },
+  {
+   "id": "S9",
+   "t": [
+    34.3,
+    36.3
+   ],
+   "dur": 4,
+   "beat": "soft CTA",
+   "vo": "It's linked below.",
+   "still": "Medium close-up of the vanity: the capped stick stands centred, label facing the camera; the hand hovers just above it.",
+   "video": "Shot 1 (0-4s): the hand sets the stick down, taps the cap once, then points down toward the bottom of the frame and holds."
+  }
+ ]
 }
