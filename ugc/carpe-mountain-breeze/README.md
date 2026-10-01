@@ -10,7 +10,7 @@ the word "wicking" 2026-10-01); name the scent and mention other scents, no smel
 
 Status: **script v3 voiceover (35.0s) + all stills done. Ralph 2026-10-01: grey tee through the whole video → 7 stills
 swapped from the blue tank with `python3 kie.py tee …` ($0.63; blue originals in `preview/blue/`), S1a recolored free
-(label protected), S1 clip remade in grey ($0.21). Sweat stain only in V2. Next: clips V1 V2 S2 S3 S4 V4 V5 S10
+(label protected), S1 clip remade in grey ($0.21). Sweat stain only in V2. Face not in every shot: S2 S3 S4 V4 cropped chin-down free (originals `preview/face/`). Next: clips V1 V2 S2 S3 S4 V4 V5 S10
 (37s, $1.52) → free cut with whip-pan. Spent $2.39 Kie (478 credits). Plan ≈ $3.91. Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
