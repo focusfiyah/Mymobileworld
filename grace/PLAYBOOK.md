@@ -14,7 +14,7 @@ products follow the same rules.
 - **Exact claim wording** from the label or listing. Never "cures / kills / fixes", never a timeframe unless the
   label gives one ("clinically tested… up to 100 hours when used as directed" is fine because the label says it).
 - **One honest caveat** in every video, said calmly like a friend.
-- **Detached CTA:** give permission to scroll on ("If it doesn't bother you, skip this. If it does, it's in the orange cart.").
+- ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
 
@@ -47,6 +47,15 @@ products follow the same rules.
 - **Tutorial beats hard sell.** Carpe research: the hard-sell video got 830k views but 0.02% saves; the "watch this
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
+
+- **Every script uses all four (Ralph 2026-10-01, Vicks VapoShower):** (1) real data from the `tiktok-shop-coach`
+  skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their hook, format, length, CTA),
+  (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here, (4) the §4 structure. Show Ralph
+  which line comes from which source in the plan. The coach needs `bash setup.sh` from Dayone-ai first (Playwright).
+- **CTA sells more units, not detached (Ralph 2026-10-01):** the close should make the buyer want more: say the count
+  ("twelve tablets, twelve showers"), a second occasion or a gift ("one for you, one to gift"), real seasonal timing.
+  Shower-steamer winners closed this way (JojoWell 879k "each pack comes with six"; bundle video 173k "you get 18
+  tablets"). Still no false scarcity.
 
 ## 5. Pacing and edit
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
