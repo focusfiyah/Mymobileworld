@@ -8,7 +8,28 @@ line ("smells like a peach candle") is a personal claim; keep only if Grace has 
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
-Status: **v2 requested by Grace (2026-10-01): Mountain Breeze (`refs/mountain_breeze.jpg`) instead of Vanilla Peach, a real person demonstrating every step instead of hands only, same Grace B voice. Waiting on Ralph: who is on camera, voiceover vs talking to camera, 100hr line (badge not on the Mountain Breeze front), scent line. Plan ≈ $2.50 (voiceover) / ≈ $3.30 (lip sync). v1 rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, $3.52). Ask before every paid generation, including redos.**
+Status: **v2 (Grace, 2026-10-01): Mountain Breeze (`refs/mountain_breeze.jpg`), AI Grace on camera demonstrating every step, Grace B voiceover (no lip sync). Script v2 below. Waiting on: Grace photo, OK on new voiceover. Plan ≈ $2.50 Kie. v1 rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, $3.52). Ask before every paid generation, including redos.**
+
+## Script v2 (draft, 2026-10-01): AI Grace on camera, Mountain Breeze
+
+Ralph's answers: AI version of Grace (photo needed), Grace B voiceover over her demo, keep both claims (100hr is on
+Target's Mountain Breeze listing: "100HR Sweat & Odor Control"; the front says "Continuous wicking for all-day
+fresh"), name the scent and mention there are other scents (no smell claim).
+
+| Shot | Grace says (voiceover) | Grace does on camera |
+|---|---|---|
+| S1 | Okay, if you just bought Carpe, or you're about to, watch this first. | bathroom mirror, holds the stick up to the lens |
+| S2 | When it's new, it looks empty. It's not. | pulls the cap off, tilts the dry top to camera |
+| S3 | Just keep twisting. It takes a bunch of turns the first time, | turns the knob again and again, lotion appears |
+| S4 | and you need way less than you think, like, a pea. | close-up: pea-sized bead on the dome |
+| S5 | Too much is how you get that white crusty stuff people post about. | wipes a big glob off with a tissue |
+| S6 | Put it on dry skin at night, | night, tank top: pats underarm dry with a towel, one light swipe |
+| S7 | and let it dry before your shirt goes on. Then again in the morning. | waits a beat, pulls on a black tee; morning light, one swipe |
+| S8 | The label says continuous wicking for all-day fresh, and it's clinically tested for up to a hundred hours, but that's when you use it like this. | holds the label to camera, taps the badge |
+| S9 | This one's Mountain Breeze. There are other scents too. | Mountain Breeze stick to the lens |
+| S10 | It's linked below. | caps it, points down |
+
+About 125 words, ~38s.
 
 ## Why this video (research 2026-10-01, free BMC Coach / Daily Virals workflow)
 
