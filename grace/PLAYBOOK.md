@@ -48,6 +48,11 @@ products follow the same rules.
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
 
+- **Script checklist (standard).** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
+  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
+  what it shows (hook text in frame 0, pace, cuts) before sending.
+
 ## 5. Pacing and edit
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
   Fashion default 30–45s. Category median is a good length check (Carpe: 35s).
@@ -98,7 +103,7 @@ products follow the same rules.
   solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.60 incl. $0.68 lip sync ($1.93 lost
   to prompt bugs). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
 
-- 2026-10-01 Plant Therapy Top 6 oils: 18.6s hands-only starter guide, $2.09 (on the revised quote), approved first cut. Label pop-ups
+- 2026-10-01 Plant Therapy Top 6 oils: 18.6s hands-only starter guide, $2.09 (on the revised quote), approved first cut; v2 adds the on-screen hook "Don't buy 20 essential oils" (the compare check found it missing). Label pop-ups
   cropped from the brand's own photo hid AI label garble for free. Small bottles drift to a coloured-label design in
   close-ups and multi-bottle shots: pin "cream label, vertical wordmark, NOT a coloured label" in every still prompt.
   Seedance redraws the scene late in a clip (caps appear, bottle count changes): plan windows from the clip's first ~1.5s.
