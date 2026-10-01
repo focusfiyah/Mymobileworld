@@ -285,5 +285,161 @@
    ]
   },
   "costTime": 143
+ },
+ {
+  "t": "2026-10-01 23:48:12",
+  "submitted": "e549f73c9858aa0529dd0a530b36d949",
+  "prompt": "Shot 1 (0-5s): the hand taps the top of the box once, holds up two fingers for 'one for you and one to gift', then point"
+ },
+ {
+  "t": "2026-10-01 23:48:12",
+  "submitted": "cf0433e39a8e9117fc71c8e466b6814e",
+  "prompt": "Shot 1 (0-4s): the hand brings the box up toward the lens, tilts it slightly so the front catches the light, then holds "
+ },
+ {
+  "t": "2026-10-01 23:48:12",
+  "submitted": "d2b85f0e7b119a2b80debe6c83271ea3",
+  "prompt": "Shot 1 (0-4s): the hand lifts the white tablet out of the open box and turns it once toward the lens, then holds it abov"
+ },
+ {
+  "t": "2026-10-01 23:48:12",
+  "submitted": "2ca1e44e42dc16081f310d4992322e12",
+  "prompt": "Shot 1 (0-4s): the palm turns slowly so light moves across the tablet's chalky surface, then holds still. The hand is th"
+ },
+ {
+  "t": "2026-10-01 23:48:12",
+  "submitted": "245baae3404e64583fbd2a9f4a458547",
+  "prompt": "Shot 1 (0-4s): the hand places the tablet on the wet floor in the falling water and pulls away out of frame; water keeps"
+ },
+ {
+  "t": "2026-10-01 23:48:12",
+  "submitted": "66946f5d254c76be11551820970d7eee",
+  "prompt": "Shot 1 (0-4s): the fingertips draw one slow clear streak across the fogged glass, then the hand rests flat on the glass."
+ },
+ {
+  "t": "2026-10-01 23:50:05",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand brings the box up toward the lens, tilts it slightly so the front catches the light, then holds it steady. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891028302-5i1idnka1fq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "cf0433e39a8e9117fc71c8e466b6814e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790898602566-bo791x3fze.mp4"
+   ]
+  },
+  "costTime": 111
+ },
+ {
+  "t": "2026-10-01 23:50:24",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): the hand taps the top of the box once, holds up two fingers for 'one for you and one to gift', then points down toward the bottom of the frame and holds. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790898490123-fzrf5gqtb48.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "e549f73c9858aa0529dd0a530b36d949",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790898622537-bqfdsoj1t2n.mp4"
+   ]
+  },
+  "costTime": 131
+ },
+ {
+  "t": "2026-10-01 23:50:24",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand places the tablet on the wet floor in the falling water and pulls away out of frame; water keeps splashing on the tablet. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790898485465-0w528stq70tg.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "245baae3404e64583fbd2a9f4a458547",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790898622331-o9xqq64idvo.mp4"
+   ]
+  },
+  "costTime": 130
+ },
+ {
+  "t": "2026-10-01 23:50:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand lifts the white tablet out of the open box and turns it once toward the lens, then holds it above the box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790898483038-9aqex3l2bc5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "d2b85f0e7b119a2b80debe6c83271ea3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790898652341-z0fohpq9j2c.mp4"
+   ]
+  },
+  "costTime": 160
+ },
+ {
+  "t": "2026-10-01 23:50:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the palm turns slowly so light moves across the tablet's chalky surface, then holds still. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891108632-sktkl63v5ca.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "2ca1e44e42dc16081f310d4992322e12",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790898652657-z3luar4qssm.mp4"
+   ]
+  },
+  "costTime": 161
+ },
+ {
+  "t": "2026-10-01 23:50:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the fingertips draw one slow clear streak across the fogged glass, then the hand rests flat on the glass. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790898487829-mt6na7xac5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "66946f5d254c76be11551820970d7eee",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790898651733-y9stup8jrco.mp4"
+   ]
+  },
+  "costTime": 159
  }
 ]
