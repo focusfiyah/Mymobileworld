@@ -3,7 +3,7 @@
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
-Status: **script and voiceover done, preview 2 (animatic) done; stills and clips need a Kie key.**
+Status: **preview 3 done (still S1, `stills/S1.png`); waiting for OK on stills S2–S9 ($0.72).**
 
 ## Why this video (research 2026-10-01, free BMC Coach / Daily Virals workflow)
 
