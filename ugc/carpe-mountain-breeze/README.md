@@ -8,10 +8,10 @@ Ralph's answers (2026-10-01): AI version of Grace from `refs/grace.jpg` with her
 bathroom setting; Grace B voiceover over her demo (no lip sync); keep both claims (front label "…for all-day fresh" + Target listing "100HR Sweat & Odor Control"; Ralph dropped
 the word "wicking" 2026-10-01); name the scent and mention other scents, no smell claim.
 
-Status: **script v3 voiceover (35.0s) + all stills done. Ralph 2026-10-01: grey tee through the whole video → 7 stills
-swapped from the blue tank with `python3 kie.py tee …` ($0.63; blue originals in `preview/blue/`), S1a recolored free
-(label protected), S1 clip remade in grey ($0.21). Sweat stain only in V2. Face not in every shot: S2 S3 S4 V4 cropped chin-down free (originals `preview/face/`). Next: clips V1 V2 S2 S3 S4 V4 V5 S10
-(37s, $1.52) → free cut with whip-pan. Spent $2.39 Kie (478 credits). Plan ≈ $3.91. Ask before every paid generation.**
+Status: **clips V1 V2 S2 S3 S4 V4 V5 S10 rendered ($1.52) but UNUSABLE: Seedance put her back in the blue tank top
+(the identity text still said "sky-blue tank top"; my mistake). Clips moved to `preview/bluetank/`; prompt text fixed
+(grey tee, never blue; V2 stain stays; V5 dry). S1 clip (grey) is fine. Waiting on Ralph: redo all 8 ($1.52) or
+V2+V5 only ($0.45) + free grey recolor of the rest. Spent $3.91 Kie (781 credits). Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 
