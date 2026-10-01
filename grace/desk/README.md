@@ -8,15 +8,18 @@ views/likes/comments/shares; free); fallback ScrapeCreators by handle (paid, ask
 tag hook type/format. Refresh day 1/3/7. (3) Sales/earnings/watch time have no free connector: leave blank or
 one weekly screenshot. Open questions for Ralph: Grace's handle, OK with the connect link, sales handling,
 run time (proposed ~9:40pm ET).
+(4) Photo autofill (Ralph, 2026-10-01: later): Grace snaps the box/label in the page → `sample` with images fills
+name, brand, category, exact label facts, suggested setting. Price + units sold from `tiktok.py shop <name>` in the
+daily run. Commission REMOVED from the desk (Ralph, 2026-10-01): not public, don't ask for it.
 
 Link: https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2 (page source: `index.html`; republish from here to keep the URL).
 Capabilities: `db`, `user`, `sample`. Grace needs **Editor** access (invited by email, no public link) to write.
 
 ## What it does
-- **Samples** (`samples/<id>`): name, brand, category, setting, price, commission, unitsSold, effort (1-3), received,
+- **Samples** (`samples/<id>`): name, brand, category, setting, price, unitsSold, effort (1-3), received,
   deadline, stage (inbox → picked → scripted → filmed → posted / skipped), link, facts (exact label wording),
   notes (Grace's true experience only), script.
-- **Score /100** (computed in the page): pay per sale 30, lifetime units sold 25, deadline 20,
+- **Score /100** (computed in the page): price 30 ($40+ = full), lifetime units sold 25, deadline 20,
   category track record 15 (save rate vs her overall, needs ≥2 videos), effort 10.
 - **This week**: top N open samples by score (N = `settings/main.weeklyGoal`, default 3) + anything due in 7 days.
 - **Shoot list**: picked/scripted samples grouped by setting.
