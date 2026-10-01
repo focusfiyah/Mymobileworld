@@ -12,8 +12,8 @@ Status: **rough cut v2 sent (35.0s, `out/carpe_mountain_breeze.mp4`). Ralph's no
 brows, no wrinkles, no deodorant while walking) and V5 redone ($0.50). Seedance still added the stick to both (identity
 text describes the product), so `cut.py` uses V1 0–2.2s and V5 0–3.35s. Free no-slow-motion test (cut v3): nothing
 slowed, V1 filled with a mirrored punch-in jump cut, S1 opens on a held close-up; Cut v4: walking selfie (V1) removed (Ralph); hook = S1 pull-back,
-"This is Carpe" = S1a hero + spare S3/S4. Voiceover, no lip sync (Ralph's original choice); lip sync on the face
-shots would be ~$0.40 (Kie $0.04/s), only if asked. Ralph 2026-10-01: too much spent today.
+"This is Carpe" = S1a hero + spare S3/S4. Cut v5 (free fix for "her lips don't move"): S1 punches in/tilts
+down to the stick, V5 and S10 cropped chin-down, so no still mouth plays under the voice. Lip sync (~$0.40) only if asked. Ralph 2026-10-01: too much spent today.
 NO further paid steps unless Ralph asks for one; free edits only. V5's tug is still a
 chest-level pinch, not an underarm tug. Spent $5.92 Kie (1,184.8 credits). Ask before every paid generation.**
 
