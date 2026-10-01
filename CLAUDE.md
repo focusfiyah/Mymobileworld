@@ -2,6 +2,8 @@
 
 Owner: Ralph. Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (Grace). Day One AI is a separate repo
 (focusfiyah/Dayone-ai); sessions often have both attached.
+**Grace: read `grace/PLAYBOOK.md` first** (rules, psychology, hooks, pacing, results). Add every new Grace lesson there,
+not in a new file.
 
 ## How Ralph wants to work (2026-10-01, after the Carpe ad ran ~$1 over plan)
 - Efficient, low token use, no wasted money. **Ask questions, don't assume.**
