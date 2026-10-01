@@ -1,5 +1,10 @@
 # Carpe Vanilla Peach: hands-only UGC video
 
+**Client: Grace** (Ralph, 2026-10-01). Her house rules from the Fungix job (`fungix/grace-script-angles.md` on
+branch `claude/fungix-script-angles-g5lzau`): clarity, not convincing; remove uncertainty (what, how, how often); one honest
+caveat; a detached CTA; no false scarcity; **no personal-use lines** unless true for Grace. Open question: the S8 scent
+line ("smells like a peach candle") is a personal claim; keep only if Grace has smelled it.
+
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
