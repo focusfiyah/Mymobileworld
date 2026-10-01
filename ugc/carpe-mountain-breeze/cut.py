@@ -9,7 +9,8 @@ import json, subprocess
 from pathlib import Path
 
 J = json.loads(Path("shots.json").read_text())
-IN = {"S3": 2.3, "S4": 0.3, "V4": 0.3, "V5": 0.5}   # skip lead-ins so the action lands on the words
+IN = {"S3": 2.3, "S4": 0.3, "V4": 0.3}              # skip lead-ins so the action lands on the words
+OUT = {"V1": 2.2, "V5": 3.35}                        # Seedance added the deodorant after these points: cut before it
 WHIP_AT, WHIP = 9.96, 0.24                          # whip-pan V2 -> S1, centred on the cut
 TICKS = [19.95, 20.3, 20.65, 21.0]                   # knob turns in S3
 CAP = 22.95                                          # cap pops off in V4
@@ -27,9 +28,10 @@ for i, s in enumerate(shots):
     dur = t1 - t0
     clip_len = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                                               "-of", "csv=p=0", f"clips/{s['id']}.mp4"]))
-    speed = max(1.0, dur / (clip_len - IN.get(s["id"], 0)))  # slow a clip that is shorter than its window
+    usable = min(clip_len, OUT.get(s["id"], clip_len)) - IN.get(s["id"], 0)
+    speed = max(1.0, dur / usable)  # slow a clip (or its usable part) that is shorter than its window
     inputs += ["-i", f"clips/{s['id']}.mp4"]
-    chains.append(f"[{i}:v]trim=start={IN.get(s['id'], 0)},setpts=(PTS-STARTPTS)*{speed:.4f},"
+    chains.append(f"[{i}:v]trim=start={IN.get(s['id'], 0)}:end={IN.get(s['id'], 0) + usable:.3f},setpts=(PTS-STARTPTS)*{speed:.4f},"
                   f"tpad=stop_mode=clone:stop_duration=1,trim=duration={dur:.3f},setpts=PTS-STARTPTS,"
                   f"scale=720:1280,setsar=1,fps=24[v{i}]")
 k = next(i for i, s in enumerate(shots) if s["id"] == "S1")

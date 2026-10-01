@@ -28,7 +28,7 @@ not in a new file.
   `ugc/carpe-vanilla-peach/out/carpe_vanilla_peach_roughcut.mp4` sent; waiting on Ralph's notes. Spent $3.52 on Kie
   (planned $2.53).
 - **Carpe Mountain Breeze v2 (Grace), 2026-10-01:** Grace on camera (AI from her photo), hook/pain/solution/CTA script, grey
-  tee, Grace B voiceover. Rough cut `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4` sent; $5.42 Kie. README Status line.
+  tee, Grace B voiceover. Rough cut v2 `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4` sent; $5.92 Kie. README Status line.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
