@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~22s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **Script v2 APPROVED 2026-10-01 (coach data + psychology + Grace structure; CTA = count + gift; one box, no price). Voiceover v2 25.75s done. Stills S2/S3/S6/S7 rendering, then S4/S5 (need S3). Next: still sheet to Ralph, then test clip S5 ($0.16). S2 and S7 windows (5.5s) run past their clips: free still-hold push-in in the cut. Spent $0.09 / $1.86 (+$0.54 for stills in flight).**
+Status: **Script v3 (humanized) approved, voiceover 24.7s. All 7 stills done (S4 + S6 redone, approved $0.18). Test clip S5 done: fizz + steam good for 0-2.0s (window needs 1.64s); two pale hands walk in at 2.2s (prompt's hand text; fixed with NO_HAND). Next: Ralph's OK for the other 6 clips ($1.07). Spent $0.97 / $2.04.**
 
 ## Product facts (Vicks box + vicks.com, 2026-10-01)
 
@@ -49,7 +49,7 @@ light. Hands only (same hand as Carpe/Plant Therapy, short squared lilac-white n
 | Cut: banner pop-up from the real packshot, CC0 SFX (water, fizz), loudnorm | free |
 | **Total** | **$1.78** (+ ~$0.25 per redone shot; each redo asked first) |
 
-Running total: $0.09 / $1.78 (S1 still).
+Running total: $0.97 / $2.04 (7 stills + S4/S6 redo + test clip S5). Quote history: $1.82 → $1.78 (S7 4s) → $1.86 (script v2) → $2.04 (S4 + S6 redo).
 
 ## Files
 - `kie.py`: runner (box text + box refs left out of S4/S5; S3 still is their tablet ref).

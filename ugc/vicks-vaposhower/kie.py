@@ -22,8 +22,11 @@ TABLET = {"S2", "S3", "S4", "S5"}
 TABLET_REF = "stills/S3.png"  # tablet-in-palm still = the tablet look for the no-box shots
 
 
+NO_HAND = {"S5"}  # S5 test clip: the hand text in the prompt brought two pale hands in at 2.2s (playbook §6)
+
+
 def blocks(sid):
-    return " ".join([J["identity_block"]] + ([] if sid in NO_BOX else [J["box_block"]])
+    return " ".join(([] if sid in NO_HAND else [J["identity_block"]]) + ([] if sid in NO_BOX else [J["box_block"]])
                     + ([J["tablet_block"]] if sid in TABLET else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}

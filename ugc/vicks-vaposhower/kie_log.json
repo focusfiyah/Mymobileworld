@@ -264,5 +264,26 @@
    ]
   },
   "costTime": 23
+ },
+ {
+  "t": "2026-10-01 21:51:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): water falls on the tablet, it fizzes gently at the edges with small bubbles, and soft white steam drifts up past the lens. The tablet shrinks only a little, it does not vanish. No hand. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The box stays upright with its front facing the camera. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891353573-9fdzvrgxw1.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c9dcd082d43a82a3781c1ce8eddcf9aa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790891502395-67p0l4dwlil.mp4"
+   ]
+  },
+  "costTime": 143
  }
 ]
