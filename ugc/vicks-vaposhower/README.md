@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~22s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **Script v3 (humanized) approved, voiceover 24.7s. All 7 stills done (S4 + S6 redone, approved $0.18). Test clip S5 done: fizz + steam good for 0-2.0s (window needs 1.64s); two pale hands walk in at 2.2s (prompt's hand text; fixed with NO_HAND). Next: Ralph's OK for the other 6 clips ($1.07). Spent $0.97 / $2.04.**
+Status: **Script v3 (humanized) approved, voiceover 24.7s. All 7 stills done (S4 + S6 redone, approved $0.18). Test clip S5 done: fizz + steam good for 0-2.0s (window needs 1.64s); two pale hands walk in at 2.2s (prompt's hand text; fixed with NO_HAND). Next: Ralph's OK for the other 6 clips ($1.07). Spent $0.97 / $2.04. New session: read HANDOFF.md.**
 
 ## Product facts (Vicks box + vicks.com, 2026-10-01)
 
