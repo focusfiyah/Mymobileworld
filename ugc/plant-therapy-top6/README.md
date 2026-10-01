@@ -1,11 +1,11 @@
 # Plant Therapy Top 6 Organic Singles: hands-only UGC video
 
 **Client: Grace** (Ralph, 2026-10-01). Hands-only route (`ugc-product-ad` skill), template `../carpe-vanilla-peach/`.
-Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~37s, 10 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
+Rules: `grace/PLAYBOOK.md`. One video, 9:16, **15–20s (target ~18s)**, 7 shots (Ralph, 2026-10-01), voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **plan written, waiting on Ralph's one approval (hand, setting, label inserts, $2.70 Kie). $0 spent.
-Kie balance $3.45 at start.** Next: VO → S1 still → S2–S10 stills → test clip S6 → other 9 clips → free cut.
+Status: **plan written, cut to 18s on Ralph's ask; waiting on his approval (hand, label inserts, $1.82 Kie). $0 spent.
+Kie balance $3.45 at start.** Next: VO → S1 still → S2–S7 stills → test clip S5 → other 6 clips → free cut.
 
 ## Product facts (Plant Therapy's own listing + product photos, 2026-10-01)
 
@@ -24,15 +24,16 @@ Not said on purpose: "therapeutic", any health effect (sleep, breathing, digesti
 ## Why this format
 TikTok `discover/essential-oils` top video: 6.4M views, 32s, a hands demo of ways to use one oil (@lizdailyfinds).
 Starter-guide "where do I start" videos are the save-heavy format (Carpe research: tips beat hard sell on saves).
-So: a starter guide ("what each one is for"), one how-to, two honest cautions, a detached CTA.
+So: a starter guide ("what each one is for"), one how-to, one honest caution (dilute), a detached CTA.
+Cut for length (v1 plan was 37s): Sweet Orange line, the KidSafe caution, USDA + price line.
 
 ## Cost plan
 | Step | Cost |
 |---|---|
-| Voiceover (684 chars, Grace B) | ElevenLabs plan characters |
+| Voiceover (330 chars, Grace B) | ElevenLabs plan characters |
 | Still S1 (check hand + bottles + room) | $0.09 |
-| Stills S2–S10 | $0.81 |
-| Test clip S6 (drops into the diffuser, hardest shot) | $0.16 |
-| Other 9 clips (40s × $0.041) | $1.64 |
+| Stills S2–S7 | $0.54 |
+| Test clip S5 (drops into the diffuser, hardest shot) | $0.16 |
+| Other 6 clips (25s × $0.041) | $1.03 |
 | Cut: label inserts from the real product photo, SFX, loudnorm | free |
-| **Total** | **$2.70** (+ ~$0.25 per redone shot; $0.75 of balance left for redos) |
+| **Total** | **$1.82** (+ ~$0.25 per redone shot; $1.63 of balance left for redos) |
