@@ -75,7 +75,8 @@ products follow the same rules.
   moving"): Ralph then preferred lip sync over chin-down crops (crops cut the product off): `lipsync.py` in
   `ugc/carpe-mountain-breeze/`, $0.04/s, submit one at a time (parallel calls get "server busy", $0).
   Lip sync smears anything that passes in front of the mouth (the stick): check every frame where the product
-  crosses the face and swap those frames back to the original clip.
+  crosses the face and swap those frames back to the original clip
+  (or keep only the lip-synced mouth in a soft oval over the original; the lip-synced clip runs ~2 frames late).
 - **Test ONE clip before any batch** (Ralph 2026-10-01, after $1.93 was lost on two prompt mistakes in one day): render
   the cheapest affected clip, check it, then ask for the rest. Report the running total vs the quote at every step.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).

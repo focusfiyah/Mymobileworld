@@ -24,7 +24,7 @@ EDL = [
     ("clips/S4.mp4", 0.3, 1.725, 1.15, ""),
     ("clips/V4.mp4", 0.3, 4.74, 1.0, ""),
     ("lipsync/V5.mp4", 0.0, 3.35, 1.0, ""),          # lip-synced (lipsync.py)
-    ("lipsync/S10.mp4", 0.0, 4.2, 1.0, ""),
+    ("lipsync/S10_fixed.mp4", 0.0, 4.2, 1.0, ""),       # original frames around the mouth where lip sync clipped the stick
 ]
 END = 35.03                                          # voiceover length; S10 holds its last frame to here
 WHIP_AT, WHIP = 9.96, 0.24                           # whip-pan V2 -> S1a, centred on the cut
