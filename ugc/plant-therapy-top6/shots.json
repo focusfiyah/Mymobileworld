@@ -1,0 +1,114 @@
+{
+ "product": "Plant Therapy Top 6 Organic Singles Essential Oil Set: six 10 mL USDA Organic pure essential oils (Eucalyptus Globulus, Lavender, Lemon, Peppermint, Sweet Orange, Tea Tree), $34.99 list",
+ "client": "Grace",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover_tight.mp3 (pauses trimmed from vo/voiceover.mp3; word times in vo/words_trimmed.json)"
+ },
+ "format": {
+  "aspect_ratio": "9:16",
+  "resolution": "720p",
+  "fps": 24
+ },
+ "modeled_on": "format only: tips / 'what each one is for' starter guide (saves) + the uses demo of https://www.tiktok.com/@lizdailyfinds/video/7659879424527060238 (6.4M views, 32s)",
+ "refs": {
+  "hand": "refs/hand_dorsal.png + refs/hand_palm.png (same hand as the Carpe Vanilla Peach ad; PENDING Ralph's OK)",
+  "product": "refs/product_row.png (all six labels, crop of Plant Therapy's own photo refs/product_row_full.jpg), refs/product_bottles_close.png (cap + label close-up), refs/product_box_set.jpg (box + bottles)"
+ },
+ "still_model": "nano-banana-pro on Kie, 1K, 9:16, refs = hand + product refs (+ the S1 still as the room ref for every later still)",
+ "video_model": "bytedance/seedance-2-mini on Kie, first_frame_url = the approved still, generate_audio: false, 720p, 9:16",
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The bottles are exactly the Plant Therapy bottles in the product reference images: small 10 mL amber glass bottles about the height of a finger, black ribbed screw caps with a black ring below and a thin coloured disc on top, cream paper labels with a vertical dark-green 'Plant Therapy' wordmark, a coloured drop icon (purple for Lavender, bright yellow for Lemon, orange for Sweet Orange, mint green for Peppermint, sage green for Eucalyptus and Tea Tree) and a small round green USDA Organic seal. Keep the hand and bottles identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift, bottles never grow or shrink.",
+ "scene_block": "Setting: a light oak bedroom nightstand by a window, soft morning daylight from the left, a neutral linen bedspread out of focus behind it. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+ "video_suffix": "Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). Labels stay upright and facing the camera. No sound. No on-screen text.",
+ "shots": [
+  {
+   "id": "S1",
+   "t": [
+    0.0,
+    2.55
+   ],
+   "dur": 4,
+   "beat": "hook",
+   "vo": "New to essential oils? Start with these six.",
+   "still": "Close-up of the nightstand: the white Plant Therapy 'Top 6 Organic Singles' box (orange circle, green leaf and lavender sprig on the front, exactly as in the box reference image) with its top open, the hand lifting the first amber bottle out, the other bottles standing in a neat row beside the box.",
+   "video": "Shot 1 (0-5s): the hand lifts a bottle out of the open box and sets it down at the end of the row, so six bottles stand in a line, then the fingers brush along the row of caps once."
+  },
+  {
+   "id": "S2",
+   "t": [
+    2.55,
+    3.99
+   ],
+   "dur": 4,
+   "beat": "Lavender",
+   "vo": "Lavender's the calm one.",
+   "still": "Close-up: the hand holds the Lavender bottle (purple drop icon on a cream label) up toward the lens, label facing the camera; the other five bottles stand soft and out of focus on the nightstand behind it. Every bottle has the real Plant Therapy label exactly as in the product reference images: a plain cream label with the dark-green 'Plant Therapy' wordmark running VERTICALLY up the left edge, a coloured drop icon and a round USDA seal; NOT a coloured label, NOT a horizontal logo, no leaf logo.",
+   "video": "Shot 1 (0-4s): the hand raises the Lavender bottle toward the lens, turns it slightly so the label catches the light, then holds it steady.",
+   "insert": "0.8s Lavender label crop from refs/product_row_full.jpg over 'Lavender'"
+  },
+  {
+   "id": "S3",
+   "t": [
+    3.99,
+    6.59
+   ],
+   "dur": 4,
+   "beat": "Peppermint + Eucalyptus",
+   "vo": "Peppermint and eucalyptus are the fresh ones.",
+   "still": "Close-up: the hand holds two bottles side by side between thumb and fingers, Peppermint (mint-green drop icon) and Eucalyptus Globulus (sage-green drop icon), labels facing the camera. Every bottle has the real Plant Therapy label exactly as in the product reference images: a plain cream label with the dark-green 'Plant Therapy' wordmark running VERTICALLY up the left edge, a coloured drop icon and a round USDA seal; NOT a coloured label, NOT a horizontal logo, no leaf logo.",
+   "video": "Shot 1 (0-4s): the hand brings the two bottles up together, tips them gently toward the lens one after the other, then holds them still.",
+   "insert": "0.8s Peppermint + Eucalyptus label crop over 'Peppermint and eucalyptus'"
+  },
+  {
+   "id": "S4",
+   "t": [
+    6.59,
+    9.39
+   ],
+   "dur": 4,
+   "beat": "Lemon (cleaning) + Tea Tree (skin cleansing)",
+   "vo": "Lemon's for cleaning, tea tree's the skin-cleansing one.",
+   "still": "Close-up: the hand holds two bottles side by side between thumb and fingers, Lemon (bright yellow drop) and Tea Tree (sage-green drop), labels facing the camera; an empty clear glass spray bottle stands soft behind them.",
+   "video": "Shot 1 (0-4s): the hand tips the Lemon bottle toward the lens, then the Tea Tree bottle, then holds both still.",
+   "insert": "0.8s Lemon + Tea Tree label crop over 'Lemon' / 'tea tree'"
+  },
+  {
+   "id": "S5",
+   "t": [
+    9.39,
+    11.03
+   ],
+   "dur": 4,
+   "beat": "how to use: diffuser",
+   "vo": "Just a few drops in a diffuser.",
+   "still": "Close-up from slightly above: a plain white ultrasonic diffuser with its lid off, filled with water; the hand holds an uncapped amber bottle upside down over the water, a clear plastic dripper insert at its neck.",
+   "video": "Shot 1 (0-4s): three single drops fall one at a time from the bottle's dripper into the water, small ripples on each, then the hand turns the bottle upright. Only three drops, nothing pours."
+  },
+  {
+   "id": "S6",
+   "t": [
+    11.03,
+    13.97
+   ],
+   "dur": 4,
+   "beat": "honest caveat: dilute",
+   "vo": "On skin, always mix it with a carrier oil first.",
+   "still": "Close-up: a small clear glass dish with a little pale golden carrier oil in it on the nightstand; the hand holds an uncapped amber bottle over the dish.",
+   "video": "Shot 1 (0-4s): two drops fall from the bottle into the oil in the dish, then the fingertip gives the dish a slow little swirl."
+  },
+  {
+   "id": "S7",
+   "t": [
+    13.97,
+    18.6
+   ],
+   "dur": 5,
+   "beat": "detached CTA",
+   "vo": "Already have a shelf full? Skip this. Starting out? It's in the orange cart.",
+   "still": "(no own still: stills/S7.png is a copy of the S1 still, Ralph 2026-10-01, after two S7 stills drifted)",
+   "video": "Shot 1 (0-5s): the hand sets the Lavender bottle down at the end of the row so six bottles stand in a line, then opens the palm in a small 'up to you' gesture, then points down toward the bottom of the frame and holds."
+  }
+ ]
+}
