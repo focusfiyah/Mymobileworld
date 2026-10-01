@@ -47,8 +47,8 @@ not in a new file.
 - **Carpe Mountain Breeze v2 (Grace), 2026-10-01:** Grace on camera (AI from her photo), hook/pain/solution/CTA script, grey
   tee, Grace B voiceover. Cut v9 (lip-synced) `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4` sent; $6.60 Kie. README Status line.
 
-- **Plant Therapy Top 6 oils (Grace), 2026-10-01:** hands-only starter-guide ad, ~18s, 7 shots. Plan in
-  `ugc/plant-therapy-top6/README.md`; waiting on Ralph's approval ($1.82 Kie quote, $0 spent).
+- **Plant Therapy Top 6 oils (Grace), 2026-10-01:** hands-only starter-guide ad, 18.6s, 7 shots. Cut v1
+  `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` sent; $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
