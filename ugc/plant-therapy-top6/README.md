@@ -5,7 +5,6 @@ Rules: `grace/PLAYBOOK.md`. One video, 9:16, **15–20s (target ~18s)**, 7 shots
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
 Status: **DONE. Cut v1 approved by Ralph 2026-10-01 (out/plant_therapy_top6.mp4, 18.6s, ending kept as is). Spent $2.09 Kie (quote $1.82 + $0.27 approved redo).**
-Kie balance $3.45 at start, $3.36 now. Next: S2–S7 stills → test clip S5 → other 6 clips → free cut.
 
 ## Product facts (Plant Therapy's own listing + product photos, 2026-10-01)
 
