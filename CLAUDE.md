@@ -15,6 +15,19 @@ not in a new file.
   and which client it's for.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
+## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
+1. **Lock the whole plan before the first paid call, in ONE message:** script, every shot, outfit, setting, which shots
+   show the face, voiceover vs lip sync on those shots, and the total cost. One approval. Ask everything then, not
+   mid-job. A later change gets a new total before anything is spent.
+2. **One test clip before any batch** (all 8 clips once came back in the wrong outfit: $1.52 instead of $0.21).
+3. **QC before sending anything; Ralph must never be the one to find it:** every clip ≥1.0x (never stretch footage),
+   lips move whenever a face is on screen during the voiceover, product never cropped off or smeared, no forehead
+   wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face.
+4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
+   leave the product description out of shots that must not show the product.
+5. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+   ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
+
 ## Tools and keys
 - Kie (api.kie.ai + kieai.redpandaai.co) and ElevenLabs keys are injected by the environment proxy: never ask for
   or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
