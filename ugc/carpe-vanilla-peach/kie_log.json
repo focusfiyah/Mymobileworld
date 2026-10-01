@@ -48,5 +48,47 @@
    ]
   },
   "costTime": 333
+ },
+ {
+  "t": "2026-10-01 06:18:49",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit this photo. Change ONLY the fingernails: make every nail very short, ending right at the fingertip with almost no free edge, still squared, same glossy pale lilac-white colour with only a thin white tip line at the very end. Keep everything else exactly the same: the hand, skin, finger pose, the Carpe stick and its label, the bathroom, light, framing and grain. Five fingers, natural nail beds, realistic.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790835464630-s7ycnextuq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "93f7919c49660ded0474f11a6ad53ddb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/93f7919c49660ded0474f11a6ad53ddb_0_1790835527.jpeg"
+   ]
+  },
+  "costTime": 61
+ },
+ {
+  "t": "2026-10-01 06:19:45",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Nail trim edit. In this photo the fingernails are too long: the white tips stick out well past the ends of the fingers. Trim all five nails (thumb, index, middle, ring, little finger) to HALF their current length or less, so each nail ends level with the fingertip and does not extend beyond the skin of the fingertip at all. Keep a squared shape, the glossy pale lilac-white polish and only a very thin white line at the edge. Where the long nail tips used to be, show the background or the orange stick instead. Do not change anything else: same hand pose, skin, Carpe stick and label, bathroom, lighting, framing.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790835545528-8qkf8kpfwan.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4f1170bcd76564964e1e0e9c05d9fe52",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4f1170bcd76564964e1e0e9c05d9fe52_0_1790835582.jpeg"
+   ]
+  },
+  "costTime": 34
  }
 ]
