@@ -8,7 +8,7 @@ line ("smells like a peach candle") is a personal claim; keep only if Grace has 
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
-Status: **v2 (Grace, 2026-10-01): Mountain Breeze (`refs/mountain_breeze.jpg`), AI Grace on camera demonstrating every step, Grace B voiceover (no lip sync). Script v2 below. Waiting on: Grace photo, OK on new voiceover. Plan ≈ $2.50 Kie. v1 rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, $3.52). Ask before every paid generation, including redos.**
+Status: **v2 (Grace, 2026-10-01): Mountain Breeze (`refs/mountain_breeze.jpg`), AI Grace on camera demonstrating every step, Grace B voiceover (no lip sync). Script v2 below. Grace photo in `refs/grace.jpg` (long French-tip nails, braids, blue tank dress, her room). Waiting on: nail choice, OK on new voiceover + first still ($0.09). Plan ≈ $2.50 Kie. v1 rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, $3.52). Ask before every paid generation, including redos.**
 
 ## Script v2 (draft, 2026-10-01): AI Grace on camera, Mountain Breeze
 
