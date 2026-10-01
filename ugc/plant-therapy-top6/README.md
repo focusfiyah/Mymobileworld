@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, **15–20s (target ~18s)**, 7 shots (Ralph, 2026-10-01), voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **DONE. Cut v1 approved by Ralph 2026-10-01 (out/plant_therapy_top6.mp4, 18.6s, ending kept as is). Spent $2.09 Kie (quote $1.82 + $0.27 approved redo).**
+Status: **DONE. Cut v1 approved by Ralph 2026-10-01 (out/plant_therapy_top6.mp4, 18.6s, ending kept as is). Spent $2.09 Kie (quote $1.82 + $0.27 approved redo). Uploaded to Google Drive folder "Plant Therapy Top 6 – Grace ad (2026-10-01)" with the script doc.**
 
 ## Product facts (Plant Therapy's own listing + product photos, 2026-10-01)
 
