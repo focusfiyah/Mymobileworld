@@ -71,6 +71,8 @@ products follow the same rules.
   `fungix/grace-script-angles.md`.
 - 2026-10-01 Carpe Vanilla Peach: 36.6s hands-only tips ad, $3.52 vs $2.53 planned; waiting on notes.
   Open: the "peach candle" scent line needs Grace to have smelled it.
+- 2026-10-01 Viking Revolution Curl Cream for Men: script v1 (gift angle, Grace isn't the user),
+  `ugc/viking-curl-cream/README.md`; waiting on format + hook pick.
 
 ## 8. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
