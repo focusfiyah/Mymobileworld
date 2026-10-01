@@ -59,6 +59,10 @@ products follow the same rules.
   ("twelve tablets, twelve showers"), a second occasion or a gift ("one for you, one to gift"), real seasonal timing.
   Shower-steamer winners closed this way (JojoWell 879k "each pack comes with six"; bundle video 173k "you get 18
   tablets"). Still no false scarcity.
+- **Script checklist (standard).** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
+  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
+  what it shows (hook text in frame 0, pace, cuts) before sending.
 
 ## 5. Pacing and edit
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
@@ -68,6 +72,9 @@ products follow the same rules.
 - Say numbers as words in the script ("twenty-five percent") so captions and timing match.
 - Real takes: film hook / body / CTA as separate files, 3–4 takes each, original HD files; keep body takes whole.
   Mix N hooks × M bodies × K CTAs into combo ads (`ugc-take-combos` skill).
+- **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
+  semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
+  text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - Overlays: search-result "screenshot" card timed to the claim word, condition photos (never before/after),
   animated CTA. No burned-in captions unless Ralph asks.
 
@@ -114,7 +121,7 @@ products follow the same rules.
   solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.60 incl. $0.68 lip sync ($1.93 lost
   to prompt bugs). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
 
-- 2026-10-01 Plant Therapy Top 6 oils: 18.6s hands-only starter guide, $2.09 (on the revised quote), approved first cut. Label pop-ups
+- 2026-10-01 Plant Therapy Top 6 oils: 18.6s hands-only starter guide, $2.09 (on the revised quote), approved first cut; v2 adds the on-screen hook "Don't buy 20 essential oils" (the compare check found it missing). Label pop-ups
   cropped from the brand's own photo hid AI label garble for free. Small bottles drift to a coloured-label design in
   close-ups and multi-bottle shots: pin "cream label, vertical wordmark, NOT a coloured label" in every still prompt.
   Seedance redraws the scene late in a clip (caps appear, bottle count changes): plan windows from the clip's first ~1.5s.
