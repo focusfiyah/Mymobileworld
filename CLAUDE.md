@@ -52,8 +52,8 @@ not in a new file.
 - **Plant Therapy Top 6 oils (Grace), 2026-10-01:** hands-only starter-guide ad, 18.6s, 7 shots. Cut v1
   `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph; $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
 
-- **Vicks VapoShower Plus (Grace), 2026-10-01:** hands-only ad, 21.6s, 7 shots, quote $1.78, plan APPROVED.
-  Still S1 sent; $0.09 spent. `ugc/vicks-vaposhower/` README Status line.
+- **Vicks VapoShower Plus (Grace), 2026-10-01:** hands-only ad, 25.8s, 7 shots, script v2 approved, quote $1.86.
+  Stills in progress. `ugc/vicks-vaposhower/` README Status line.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill

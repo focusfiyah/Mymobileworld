@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~22s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **APPROVED 2026-10-01 (unwrapped disc, same hand, non-medicated caveat; Kie auto-refills below 200 credits). Done: voiceover 21.6s (vo/voiceover_tight.mp3, windows in shots.json), banner insert, still S1 sent for review. Next: stills S2-S7 ($0.54) after Ralph's OK on S1. Spent $0.09 / $1.78.**
+Status: **Script v2 APPROVED 2026-10-01 (coach data + psychology + Grace structure; CTA = count + gift; one box, no price). Voiceover v2 25.75s done. Stills S2/S3/S6/S7 rendering, then S4/S5 (need S3). Next: still sheet to Ralph, then test clip S5 ($0.16). S2 and S7 windows (5.5s) run past their clips: free still-hold push-in in the cut. Spent $0.09 / $1.86 (+$0.54 for stills in flight).**
 
 ## Product facts (Vicks box + vicks.com, 2026-10-01)
 
