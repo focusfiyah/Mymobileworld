@@ -15,7 +15,7 @@ UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
 SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
-REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/product_front.png", "refs/product_open.png",
+REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/product_front.png", "refs/product_slots.png",
         "refs/product_profile.png"]
 ROOM = "stills/S1.png"  # first approved still doubles as the room reference
 KEY = os.environ.get("KIE_API_KEY")
