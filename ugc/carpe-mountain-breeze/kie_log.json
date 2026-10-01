@@ -27,5 +27,35 @@
    ]
   },
   "costTime": 28
+ },
+ {
+  "t": "2026-10-01 15:40:59",
+  "submitted": "4c14e816cb32f00ee0e7ab6e4b5a2e3c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Extreme close-up, phone camera: her hand holds the capp"
+ },
+ {
+  "t": "2026-10-01 15:41:37",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Extreme close-up, phone camera: her hand holds the capped Mountain Breeze stick very close to the lens so it fills most of the frame, front label facing the camera, the white 'carpe' wordmark and the teal 'MOUNTAIN BREEZE' panel in sharp focus. Behind it, the same woman's face and the same bathroom as in the last reference image are soft and heavily blurred (shallow depth of field, natural phone portrait blur), still recognisable. Natural light, real and unpolished. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. Seen from the filming phone's point of view: no phone, tripod or camera is visible anywhere in the frame, and both her hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom and the same woman: match them (lighting may change as the shot says).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867703181-i3mqsqm67vq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867706622-h8jlcutzzrq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867709475-nlbkp6y78rf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790869257631-e9wrr2l3jhq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4c14e816cb32f00ee0e7ab6e4b5a2e3c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/4c14e816cb32f00ee0e7ab6e4b5a2e3c_1790869292474.jpeg"
+   ]
+  },
+  "costTime": 33
  }
 ]
