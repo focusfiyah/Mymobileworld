@@ -3,7 +3,7 @@
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
-Status: **preview 3 done with VERY SHORT nails (Ralph, 2026-10-01; `stills/S1.png`, an edit of `preview/S1_v2_short_nails.png`; long-nail first try in `preview/S1_v1_long_nails.png`); waiting for OK on stills S2–S9 ($0.72).**
+Status: **preview 3 approved by Ralph: still S1 with SHORT nails (`stills/S1.png` = `preview/S1_v2_short_nails.png` with the made-up "1.7 FL OZ (350 mL)" label line blurred, free). Waiting for OK on stills S2–S9 ($0.72). Ask before every paid generation, including redos.**
 
 ## Why this video (research 2026-10-01, free BMC Coach / Daily Virals workflow)
 
