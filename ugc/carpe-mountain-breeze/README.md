@@ -8,11 +8,10 @@ Ralph's answers (2026-10-01): AI version of Grace from `refs/grace.jpg` with her
 bathroom setting; Grace B voiceover over her demo (no lip sync); keep both claims (front label "…for all-day fresh" + Target listing "100HR Sweat & Odor Control"; Ralph dropped
 the word "wicking" 2026-10-01); name the scent and mention other scents, no smell claim.
 
-Status: **rough cut done: `out/carpe_mountain_breeze.mp4` (35.0s, 720x1280, -17 LUFS, `python3 cut.py`, free), sent
-to Ralph for notes. Grey tee in every clip after the redo ($1.52; the first 8 clips came back in the blue tank, kept in
-`preview/bluetank/`). V1 forehead wrinkles smoothed free (Ralph's note; original
-`preview/V1_wrinkles.mp4`). Known: V5 has a large Carpe stick in the foreground and only a light tug. Spent $5.42 Kie
-(1,084.8 credits) vs $3.91 planned. Ask before every paid generation, including redos.**
+Status: **rough cut v2 sent (35.0s, `out/carpe_mountain_breeze.mp4`). Ralph's notes 2026-10-01: V1 redone (new still: relaxed
+brows, no wrinkles, no deodorant while walking) and V5 redone ($0.50). Seedance still added the stick to both (identity
+text describes the product), so `cut.py` uses V1 0–2.2s and V5 0–3.35s, slowed to fit (free). V5's tug is still a
+chest-level pinch, not an underarm tug. Spent $5.92 Kie (1,184.8 credits). Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 

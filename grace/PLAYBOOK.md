@@ -67,6 +67,10 @@ products follow the same rules.
 - **Outfit changes go in the TEXT too** (Carpe v2, 2026-10-01, cost $1.52): the stills were edited to a grey tee but the
   video prompt's identity text still said "blue tank top", and Seedance redrew the tank in all 8 clips. When the
   look changes, update every prompt block, then grep the prompts for the old wording before rendering.
+- **A product description in the prompt puts the product in the shot** (Carpe v2, 2026-10-01, $0.41): "no deodorant in this
+  shot" lost to the identity block's detailed stick description; Seedance added it anyway. For no-product shots,
+  leave the product text out of the prompt entirely. Also keep faces relaxed in stills ("raised eyebrows" = forehead
+  wrinkles the clip copies).
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
 
 ## 7. Results log (add one line per job)

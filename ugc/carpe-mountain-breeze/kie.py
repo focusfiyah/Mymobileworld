@@ -140,7 +140,10 @@ def clip(sid):
     frames = {"first_frame_url": first}
     if s.get("first_still"):
         frames["last_frame_url"] = upload(f"stills/{sid}.png")
-    prompt = f"{s['video']} {J['identity_block']} {J['video_suffix']}"
+    ident = J['identity_block']
+    if s.get("no_product"):  # a product description in the prompt makes Seedance add the product: leave it out
+        ident = ident[:ident.index(" The product is")] + ident[ident.index(" Keep her and the product"):].replace(" and the product", "")
+    prompt = f"{s['video']} {ident} {J['video_suffix']}"
     url = run_task({"model": "bytedance/seedance-2-mini", "input": {
         "prompt": prompt, **frames, "generate_audio": False,
         "resolution": "720p", "aspect_ratio": "9:16", "duration": s.get("dur", 4)}})

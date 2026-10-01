@@ -1106,5 +1106,84 @@
    ]
   },
   "costTime": 159
+ },
+ {
+  "t": "2026-10-01 17:55:35",
+  "submitted": "bccb2848fae837d44415a598981c4049",
+  "prompt": "Edit the first image. Make exactly two changes: (1) remove the orange deodorant stick from her hand, so that hand is emp"
+ },
+ {
+  "t": "2026-10-01 17:56:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the first image. Make exactly two changes: (1) remove the orange deodorant stick from her hand, so that hand is empty and relaxed down by her side or slightly out of frame; (2) relax her eyebrows to a calm, neutral position with a completely smooth forehead, no raised brows and no forehead wrinkles, keeping a calm knowing half-smile. Keep everything else exactly the same: her face and identity (match the second image), braids, necklace, watch, nails, light grey t-shirt, the sunny sidewalk, framing and light. Vertical 9:16 real phone selfie.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790877333362-ikw2e8j3dch.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bccb2848fae837d44415a598981c4049",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790877391874-l5a0thf4fio.jpg"
+   ]
+  },
+  "costTime": 56
+ },
+ {
+  "t": "2026-10-01 17:56:53",
+  "submitted": "15ce4ac08475ec2036b5c758dfeb9f38",
+  "prompt": "Shot 1 (0-5s): handheld selfie while walking briskly: natural bounce and sway of a phone held at arm's length, backgroun"
+ },
+ {
+  "t": "2026-10-01 17:56:53",
+  "submitted": "b41e8579bbb61d93106c869361f6df7b",
+  "prompt": "Shot 1 (0-3s): she raises one arm, pinches the dry grey fabric under that arm between thumb and finger and tugs it out t"
+ },
+ {
+  "t": "2026-10-01 17:58:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-3s): she raises one arm, pinches the dry grey fabric under that arm between thumb and finger and tugs it out toward the camera twice to show it is completely dry. Shot 2 (3-5s): she lets go, drops her arm and gives the camera a small confident nod and smile with relaxed eyebrows. Her hands hold nothing; no deodorant stick or any product is in this shot. She does not talk. The grey t-shirt stays perfectly dry with no stain anywhere. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Relaxed eyebrows and a smooth, relaxed forehead at all times: never raised brows, never forehead wrinkles. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874256028-hqe1ohey4bo.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "b41e8579bbb61d93106c869361f6df7b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790877512366-1tn0sl15ixr.mp4"
+   ]
+  },
+  "costTime": 99
+ },
+ {
+  "t": "2026-10-01 17:58:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): handheld selfie while walking briskly: natural bounce and sway of a phone held at arm's length, background moving past, she keeps looking straight into the lens with a calm knowing look and relaxed eyebrows, gives a small nod. Her other hand stays empty and out of the way: no deodorant or product appears at any point. Her mouth stays closed or gently smiling; she does not talk. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Relaxed eyebrows and a smooth, relaxed forehead at all times: never raised brows, never forehead wrinkles. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790877411414-wgkkm08w5v.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "15ce4ac08475ec2036b5c758dfeb9f38",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790877533208-r7f099fb6u.mp4"
+   ]
+  },
+  "costTime": 122
  }
 ]
