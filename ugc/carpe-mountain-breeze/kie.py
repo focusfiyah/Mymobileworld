@@ -128,7 +128,7 @@ def clip(sid):
 
 def sheet(kind, ext):
     """One labelled preview image: every still, or 4 frames per clip (one row per clip)."""
-    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+    files = sorted((p for p in Path(kind).glob(f"*{ext}") if p.stem in SHOTS), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
     Path("preview").mkdir(exist_ok=True)
     if kind == "stills":
         inputs = sum([["-i", str(f)] for f in files], [])

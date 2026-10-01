@@ -354,5 +354,125 @@
    ]
   },
   "costTime": 25
+ },
+ {
+  "t": "2026-10-01 16:59:41",
+  "submitted": "04e94a71da17b7ba29feb61b3d73c25e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Selfie from the phone's point of view, slight high angl"
+ },
+ {
+  "t": "2026-10-01 17:00:12",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Selfie from the phone's point of view, slight high angle (arm extended up and in front, the phone itself not visible): she walks briskly down a sunny residential sidewalk with trees and parked cars soft behind her, looking straight into the lens with raised eyebrows and a knowing half-smile, the capped Mountain Breeze stick in her free hand near her chest. Natural daylight, real phone selfie look. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top unless the shot says otherwise. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. Seen from the filming phone's point of view: no phone, tripod or camera is visible anywhere in the frame, and both her hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same woman: match her face, hair and jewellery, not that setting.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867703181-i3mqsqm67vq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867706622-h8jlcutzzrq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867709475-nlbkp6y78rf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790869257631-e9wrr2l3jhq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "04e94a71da17b7ba29feb61b3d73c25e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/04e94a71da17b7ba29feb61b3d73c25e_1790874009176.jpeg"
+   ]
+  },
+  "costTime": 28
+ },
+ {
+  "t": "2026-10-01 17:00:14",
+  "submitted": "27f19637af82b36f570eb3beda624bf9",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the same bathroom: she now wears a light"
+ },
+ {
+  "t": "2026-10-01 17:00:45",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the same bathroom: she now wears a light grey crew-neck cotton t-shirt instead of the tank top, one arm lifted, pointing with her other index finger at a clearly visible dark damp sweat stain on the grey fabric under her arm, mid eye-roll, lips pressed in a frustrated sigh. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top unless the shot says otherwise. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. Seen from the filming phone's point of view: no phone, tripod or camera is visible anywhere in the frame, and both her hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom and the same woman: match them (lighting may change as the shot says).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867703181-i3mqsqm67vq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867706622-h8jlcutzzrq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867709475-nlbkp6y78rf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790869257631-e9wrr2l3jhq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "27f19637af82b36f570eb3beda624bf9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/27f19637af82b36f570eb3beda624bf9_1790874042408.jpeg"
+   ]
+  },
+  "costTime": 29
+ },
+ {
+  "t": "2026-10-01 17:00:46",
+  "submitted": "4dbd7958a86b05ab99890f8c822b2908",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Tight, clean macro close-up: her hand (long almond Fren"
+ },
+ {
+  "t": "2026-10-01 17:01:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Tight, clean macro close-up: her hand (long almond French-tip nails, gold watch) pulls the orange cap off the Mountain Breeze stick, a little smooth white cream showing through the slots; her raised arm's clean, smooth underarm skin is just behind, softly out of focus. Soft even light, shallow depth of field. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top unless the shot says otherwise. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. Seen from the filming phone's point of view: no phone, tripod or camera is visible anywhere in the frame, and both her hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom and the same woman: match them (lighting may change as the shot says).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867703181-i3mqsqm67vq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867706622-h8jlcutzzrq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867709475-nlbkp6y78rf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790869257631-e9wrr2l3jhq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4dbd7958a86b05ab99890f8c822b2908",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/4dbd7958a86b05ab99890f8c822b2908_1790874071594.jpeg"
+   ]
+  },
+  "costTime": 25
+ },
+ {
+  "t": "2026-10-01 17:01:19",
+  "submitted": "6cc39adddd57a3caf09178aa3bbbe7eb",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the same bathroom: she wears a crisp, pe"
+ },
+ {
+  "t": "2026-10-01 17:01:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the same bathroom: she wears a crisp, perfectly dry light grey crew-neck t-shirt (no stain anywhere), one arm slightly lifted, pinching and tugging the dry fabric under her arm toward the camera, a confident satisfied smile, looking into the lens. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top unless the shot says otherwise. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. Seen from the filming phone's point of view: no phone, tripod or camera is visible anywhere in the frame, and both her hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom and the same woman: match them (lighting may change as the shot says).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867703181-i3mqsqm67vq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867706622-h8jlcutzzrq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867709475-nlbkp6y78rf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790869257631-e9wrr2l3jhq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6cc39adddd57a3caf09178aa3bbbe7eb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/6cc39adddd57a3caf09178aa3bbbe7eb_1790874105053.jpeg"
+   ]
+  },
+  "costTime": 25
  }
 ]
