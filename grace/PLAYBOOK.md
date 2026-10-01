@@ -98,5 +98,10 @@ products follow the same rules.
   solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.60 incl. $0.68 lip sync ($1.93 lost
   to prompt bugs). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
 
+- 2026-10-01 Plant Therapy Top 6 oils: 18.6s hands-only starter guide, $2.09 (on the revised quote), approved first cut. Label pop-ups
+  cropped from the brand's own photo hid AI label garble for free. Small bottles drift to a coloured-label design in
+  close-ups and multi-bottle shots: pin "cream label, vertical wordmark, NOT a coloured label" in every still prompt.
+  Seedance redraws the scene late in a clip (caps appear, bottle count changes): plan windows from the clip's first ~1.5s.
+
 ## 8. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
