@@ -90,5 +90,31 @@
    ]
   },
   "costTime": 34
+ },
+ {
+  "t": "2026-10-01 06:35:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, the hand holds the uncapped stick upright; the white ribbed dome sits just below the rim and looks dry. The cap lies on the counter. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, a white ribbed dome of formula under the cap, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Setting: a real bathroom vanity, warm cream countertop, soft window light from the left, a folded white towel slightly out of focus. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little messy like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom vanity and light: match it.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834869197-oe0d6iqn5oe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834871359-lys02rzzo0l.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834873328-fmgt731zq2b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834875358-qyei7beg5d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834877282-moyyc6h9spj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790836067382-awrwiuf4eid.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "805011a94f3be0343bf2d32b4c7941a3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790836505797-y98144o4t1i.jpg"
+   ]
+  },
+  "costTime": 437
  }
 ]
