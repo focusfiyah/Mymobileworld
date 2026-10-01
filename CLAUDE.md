@@ -28,6 +28,9 @@ not in a new file.
   `ugc/carpe-vanilla-peach/out/carpe_vanilla_peach_roughcut.mp4` sent; waiting on Ralph's notes. Spent $3.52 on Kie
   (planned $2.53).
 
+- **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
+  (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
+
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
   (day-one-ai, find-skills, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach, brag-slim).
