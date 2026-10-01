@@ -13,10 +13,10 @@ from pathlib import Path
 
 # (source, in, length used from the source, speed, extra video filter); output length = length / speed
 EDL = [
-    ("clips/S1.mp4", 0.0, 3.1, 1.0, ""),                                # hook: close-up, pull back (original: lip sync
-    ("lipsync/S1.mp4", 3.1, 0.5, 1.0, ""),                              #   smeared the stick as it passed her mouth)
-    ("clips/S1.mp4", 3.6, 0.2, 1.0, ""),                                # lip sync left an orange smudge on her chin here
-    ("lipsync/S1.mp4", 3.8, 0.33, 1.0, ""),
+    ("clips/S1.mp4", 0.0, 2.4, 0.774, ""),                              # hook: close-up held (face behind the stick)...
+    ("lipsync/S1.mp4", 3.1, 0.54, 1.0, ""),                             # ...jump cut past the pull-back (lip sync smears
+    ("clips/S1.mp4", 3.64, 0.12, 1.0, ""),                              # the stick there) to her talking; 3 smudged
+    ("lipsync/S1.mp4", 3.76, 0.37, 1.0, ""),                            # lip-sync frames use the original
     ("lipsync/V2.mp4", 0.0, 5.83, 1.0, ""),
     ("S1a", 0.0, 3.2, 1.0, ""),                                          # hero close-up, slow push-in, label sharp
     ("clips/S3.mp4", 0.0, 2.1, 1.0, ""),                                 # holding the stick before the twist
