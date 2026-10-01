@@ -13,6 +13,9 @@ not in a new file.
 - Free fixes first (ffmpeg/PIL blur, crop, retime) before any reroll.
 - Before the first paid image: confirm the real product (top, cap, label), the person's details (e.g. nail length)
   and which client it's for.
+- **Phone notifications (standard, Ralph 2026-10-01):** he leaves the app, so send a PushNotification (one line, what
+  to review + cost) every time something is ready for his review or needs his decision: a still sheet, a test clip, a
+  cut, a redo/cost question. Not for routine progress.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
 ## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
