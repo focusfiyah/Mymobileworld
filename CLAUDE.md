@@ -34,6 +34,10 @@ not in a new file.
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
   hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
   route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py). Skill zip re-made 2026-10-01 with the Carpe v2 lessons.
+- **Videos to Google Drive:** the Google Drive connector can't upload big files (content goes through the chat). Host the
+  file with Kie's free upload (`upload()` in a job's kie.py → `tempfile.redpandaai.co` URL), then Composio
+  `GOOGLEDRIVE_UPLOAD_FROM_URL` (account `googledrive_lin-ernst` = life22watch@gmail.com) with `parent_folder_id`.
+  Check the Drive file size matches. Grace's finals go in Drive "Grace Tiktok assets" → one folder per ad.
 - After editing the project skill: re-zip to `handoff/ugc-product-ad-skill.zip`; Ralph uploads it to claude.ai
   (description must stay ≤1024 chars).
 
@@ -42,7 +46,7 @@ not in a new file.
   `ugc/carpe-vanilla-peach/out/carpe_vanilla_peach_roughcut.mp4` sent; waiting on Ralph's notes. Spent $3.52 on Kie
   (planned $2.53).
 - **Carpe Mountain Breeze v2 (Grace), 2026-10-01:** Grace on camera (AI from her photo), hook/pain/solution/CTA script, grey
-  tee, Grace B voiceover. Cut v9 APPROVED, `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4`; Drive folder Grace Tiktok assets/Carpe Mountain Breeze ad; $6.60 Kie. README Status line.
+  tee, Grace B voiceover. Cut v9 APPROVED, `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4`; in Drive (Grace Tiktok assets/Carpe Mountain Breeze ad (2026-10-01)); $6.60 Kie. README Status line.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
