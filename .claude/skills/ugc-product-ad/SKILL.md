@@ -65,6 +65,9 @@ and ask questions, do not assume, because that's how we waste time and money."
 - **Phone notification at every review point** (Ralph, 2026-10-01: "Make that a standard"): he leaves the app, so
   send a PushNotification (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is
   ready, or a redo needs his OK. Send the file with SendUserFile first. Not for routine progress.
+- **Delivering to Google Drive** (Ralph, 2026-10-01): use both the Google Drive connector and Composio `googledrive`;
+  if one fails, use the other. Videos go through Composio `GOOGLEDRIVE_UPLOAD_FROM_URL` after hosting the file on
+  Kie's file host (`kie.upload`); the connector handles folders and docs but can't carry a video.
 - **Tokens:** keep the job README's `Status:` line current (what's done, what's next, what it costs) so "continue
   the X ad" needs one file read. Short updates, chained shell steps, one contact sheet per batch.
 
