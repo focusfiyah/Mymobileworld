@@ -33,3 +33,9 @@ Owner: Ralph. Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (
 - Scan every new skill first with the `skill-inspector` skill (SkillSpector). The claude.ai account upload (zip) is the
   only copy that reaches every device and chat; repo copies load only in sessions on that repo.
 - The hyperframes/skillspector CLIs and the Chromium proxy-CA fix come from Dayone-ai's `bash setup.sh`.
+
+## Learning reports (2026-10-01)
+- `reports/`: daily (`YYYY-MM-DD-daily.md`) + weekly (`YYYY-Wnn-weekly.md`) notes Ralph pastes into new chats.
+  Auto-written by triggers trig_01L7VTpGnzFjf2GnBeJgCdXb (daily 8:52pm ET) and trig_01WYmbt7urUsP5ALx1t6bSFE
+  (Sunday 9:10pm ET), both bound to session_013SnHUp72Ux9iD1NpyvUKTe; steps in `reports/ROUTINE.md`.
+  Archiving that session stops them.
