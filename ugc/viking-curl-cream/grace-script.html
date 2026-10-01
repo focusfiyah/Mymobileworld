@@ -1,0 +1,137 @@
+<title>Viking Curl Cream Script</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: one narrow column, a script you can hold your phone up to; each beat is a row: time + shot | spoken line */
+:root {
+  --bg: #f6f4f1;
+  --surface: #ffffff;
+  --fg: #1f1d1b;
+  --muted: #6c645c;
+  --line: #e2dcd5;
+  --copper: #b8561f;
+  --copper-soft: #f6e4d8;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171514; --surface: #221f1d; --fg: #f1ece6; --muted: #a79e94; --line: #3a3531;
+    --copper: #ec8a4f; --copper-soft: #3a2619; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171514; --surface: #221f1d; --fg: #f1ece6; --muted: #a79e94; --line: #3a3531;
+  --copper: #ec8a4f; --copper-soft: #3a2619; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+.wrap { max-width: 640px; margin: 0 auto; padding-inline: 18px; padding-block: 32px 56px; display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font-family: var(--display); font-weight: 700; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--copper); }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(28px, 7vw, 38px); line-height: 1.1; margin: 0; text-wrap: balance; }
+.intro { margin: 0; color: var(--muted); max-width: 60ch; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.facts li { font-size: 14px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
+.onscreen { background: var(--copper-soft); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; }
+.onscreen span { font-size: 13px; color: var(--muted); }
+.onscreen strong { font-family: var(--display); font-size: 22px; }
+.beats { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.beat { display: grid; grid-template-columns: 112px 1fr; gap: 16px; padding-block: 18px; border-bottom: 1px solid var(--line); }
+.beat > div { min-width: 0; }
+.meta { display: grid; gap: 2px; align-content: start; }
+.name { font-family: var(--display); font-weight: 700; font-size: 15px; }
+.time { font-size: 13px; color: var(--copper); font-variant-numeric: tabular-nums; }
+.say { font-size: 20px; line-height: 1.45; margin: 0 0 6px; }
+.shot { font-size: 14px; color: var(--muted); margin: 0; }
+.notes { display: grid; gap: 10px; }
+h2 { font-family: var(--display); font-size: 18px; margin: 0; }
+.notes ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.caption { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-size: 15px; overflow-wrap: anywhere; }
+button { font-family: var(--display); font-weight: 700; font-size: 15px; border: 0; border-radius: 999px; padding: 12px 20px; background: var(--copper); color: #fff; cursor: pointer; justify-self: start; }
+button:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+@media (max-width: 460px) {
+  .beat { grid-template-columns: 1fr; gap: 6px; }
+  .meta { grid-auto-flow: column; justify-content: start; gap: 10px; align-items: baseline; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Script for Grace</div>
+    <h1>Viking Revolution Curl Cream</h1>
+    <p class="intro">Say these lines over your footage of putting the cream on your husband's beard. Keep it quick and natural, like you're telling a friend. The whole thing should land around 20 to 25 seconds.</p>
+    <ul class="facts">
+      <li>20–25 seconds</li>
+      <li>Hands only</li>
+      <li>Your own voice</li>
+    </ul>
+  </header>
+
+  <div class="onscreen">
+    <span>On-screen text, first second</span>
+    <strong>he'd never buy this himself</strong>
+  </div>
+
+  <ol class="beats" id="beats">
+    <li class="beat">
+      <div class="meta"><span class="name">Hook</span><span class="time">0–4s</span></div>
+      <div><p class="say">"My husband would never buy curl cream for himself, so I got it for him."</p><p class="shot">Hold the tube up, label facing the camera.</p></div>
+    </li>
+    <li class="beat">
+      <div class="meta"><span class="name">Problem</span><span class="time">4–8s</span></div>
+      <div><p class="say">"His beard gets dry and frizzy, and it's scratchy when he kisses me."</p><p class="shot">Your hand on his beard before the product.</p></div>
+    </li>
+    <li class="beat">
+      <div class="meta"><span class="name">Product</span><span class="time">8–12s</span></div>
+      <div><p class="say">"Viking Revolution curl cream: shea butter, vitamin E and B five, sandalwood scent."</p><p class="shot">Label close-up, squeeze a little onto your fingers.</p></div>
+    </li>
+    <li class="beat">
+      <div class="meta"><span class="name">Experience</span><span class="time">12–17s</span></div>
+      <div><p class="say">"A little on his damp beard, work it in, and now it's soft with no crunch."</p><p class="shot">Working it through his beard.</p></div>
+    </li>
+    <li class="beat">
+      <div class="meta"><span class="name">Honest note</span><span class="time">17–20s</span></div>
+      <div><p class="say">"It's sold for head hair, but his beard's curly too."</p><p class="shot">Calm, like telling a friend.</p></div>
+    </li>
+    <li class="beat">
+      <div class="meta"><span class="name">Call to action</span><span class="time">20–25s</span></div>
+      <div><p class="say">"If his beard doesn't bother you, skip this. If it does, it's in the orange cart."</p><p class="shot">Tube in frame. End on the picture, not the last word.</p></div>
+    </li>
+  </ol>
+
+  <section class="notes">
+    <h2>Caption</h2>
+    <div class="caption" id="caption">#ad #beardcare #giftsforhim</div>
+    <p class="shot">Use the brand's partner tag instead of #ad if they gave you one.</p>
+  </section>
+
+  <section class="notes">
+    <h2>Tips</h2>
+    <ul>
+      <li>Record two or three takes of the hook so we can test them.</li>
+      <li>Say "B five" and "vitamin E" clearly; they're the ingredients on the label.</li>
+      <li>No price in this one.</li>
+    </ul>
+  </section>
+
+  <button type="button" id="copy">Copy the lines</button>
+</div>
+
+<script>
+document.getElementById('copy').addEventListener('click', function () {
+  var btn = this;
+  var lines = Array.prototype.map.call(document.querySelectorAll('.beat'), function (b) {
+    return b.querySelector('.name').textContent + ': ' + b.querySelector('.say').textContent;
+  });
+  var text = "On-screen text: he'd never buy this himself\n\n" + lines.join('\n\n') +
+    '\n\nCaption: ' + document.getElementById('caption').textContent;
+  function done(msg) { btn.textContent = msg; setTimeout(function () { btn.textContent = 'Copy the lines'; }, 2000); }
+  try {
+    navigator.clipboard.writeText(text).then(function () { done('Copied'); }, function () { selectAll(); });
+  } catch (e) { selectAll(); }
+  function selectAll() {
+    var r = document.createRange(); r.selectNodeContents(document.getElementById('beats'));
+    var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); done('Selected, press copy');
+  }
+});
+</script>

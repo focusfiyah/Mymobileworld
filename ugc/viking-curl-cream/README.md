@@ -1,6 +1,6 @@
 # Viking Revolution Curl Cream for Men (Grace), 2026-10-01
 
-Status: script v4, 22-25s (Grace's hands-only beard footage, hook B, no price, Grace's own voice; free, $0 spent). Next: Grace records the lines and the edit is cut to the footage.
+Status: script v4, 22-25s, shareable page https://claude.ai/artifact/JKHZUcXuQKgKzgLwA35UM6 (Grace's hands-only beard footage, hook B, no price, Grace's own voice; free, $0 spent). Next: Grace records the lines and the edit is cut to the footage.
 
 ## Product (from the TikTok Shop listing + vikingrevolution.com)
 - Viking Revolution Hair Curl Cream for Men, Sandalwood, 8 fl oz (240 mL). Black tube, orange band, black flip cap.
