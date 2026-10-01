@@ -5,7 +5,7 @@
   "name": "Grace B voice",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
   "model": "eleven_v4",
-  "file": "vo/voiceover.mp3"
+  "file": "vo/voiceover_tight.mp3 (pauses trimmed from vo/voiceover.mp3; word times in vo/words_trimmed.json)"
  },
  "format": {
   "aspect_ratio": "9:16",
@@ -27,7 +27,7 @@
    "id": "S1",
    "t": [
     0.0,
-    2.6
+    2.55
    ],
    "dur": 4,
    "beat": "hook",
@@ -38,8 +38,8 @@
   {
    "id": "S2",
    "t": [
-    2.6,
-    4.0
+    2.55,
+    3.99
    ],
    "dur": 4,
    "beat": "Lavender",
@@ -51,8 +51,8 @@
   {
    "id": "S3",
    "t": [
-    4.0,
-    6.2
+    3.99,
+    6.59
    ],
    "dur": 4,
    "beat": "Peppermint + Eucalyptus",
@@ -64,8 +64,8 @@
   {
    "id": "S4",
    "t": [
-    6.2,
-    8.9
+    6.59,
+    9.39
    ],
    "dur": 4,
    "beat": "Lemon (cleaning) + Tea Tree (skin cleansing)",
@@ -77,8 +77,8 @@
   {
    "id": "S5",
    "t": [
-    8.9,
-    10.9
+    9.39,
+    11.03
    ],
    "dur": 4,
    "beat": "how to use: diffuser",
@@ -89,8 +89,8 @@
   {
    "id": "S6",
    "t": [
-    10.9,
-    13.9
+    11.03,
+    13.97
    ],
    "dur": 4,
    "beat": "honest caveat: dilute",
@@ -101,8 +101,8 @@
   {
    "id": "S7",
    "t": [
-    13.9,
-    18.5
+    13.97,
+    18.6
    ],
    "dur": 5,
    "beat": "detached CTA",

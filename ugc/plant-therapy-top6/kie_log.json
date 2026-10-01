@@ -1,0 +1,32 @@
+[
+ {
+  "t": "2026-10-01 19:32:11",
+  "submitted": "27c9036d8335f9fe69947cde7667bc0b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of the nightstand: the white Plant Therapy 'To"
+ },
+ {
+  "t": "2026-10-01 19:35:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of the nightstand: the white Plant Therapy 'Top 6 Organic Singles' box (orange circle, green leaf and lavender sprig on the front, exactly as in the box reference image) with its top open, the hand lifting the first amber bottle out, the other bottles standing in a neat row beside the box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The bottles are exactly the Plant Therapy bottles in the product reference images: small 10 mL amber glass bottles about the height of a finger, black ribbed screw caps with a black ring below and a thin coloured disc on top, cream paper labels with a vertical dark-green 'Plant Therapy' wordmark, a coloured drop icon (purple for Lavender, bright yellow for Lemon, orange for Sweet Orange, mint green for Peppermint, sage green for Eucalyptus and Tea Tree) and a small round green USDA Organic seal. Keep the hand and bottles identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift, bottles never grow or shrink. Setting: a light oak bedroom nightstand by a window, soft morning daylight from the left, a neutral linen bedspread out of focus behind it. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/planttherapy/1790883120335-xwpe4xqvd2r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/planttherapy/1790883122359-x9kzhdxq7wn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/planttherapy/1790883124843-rzpp060gn0m.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/planttherapy/1790883127013-ps3h2460fi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/planttherapy/1790883129932-c8apzgrhk7o.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "27c9036d8335f9fe69947cde7667bc0b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/27c9036d8335f9fe69947cde7667bc0b_0_1790883317.jpeg"
+   ]
+  },
+  "costTime": 185
+ }
+]
