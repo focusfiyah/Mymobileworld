@@ -4,8 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~22s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **PLAN sent to Ralph 2026-10-01, waiting on one approval + 5 answers (below). $0 spent. Kie balance $1.37
-(273 credits): enough for the stills + test clip, NOT for all clips → top-up needed before the last 6 clips.**
+Status: **APPROVED 2026-10-01 (unwrapped disc, same hand, non-medicated caveat; Kie auto-refills below 200 credits). Done: voiceover 21.6s (vo/voiceover_tight.mp3, windows in shots.json), banner insert, still S1 sent for review. Next: stills S2-S7 ($0.54) after Ralph's OK on S1. Spent $0.09 / $1.78.**
 
 ## Product facts (Vicks box + vicks.com, 2026-10-01)
 
@@ -46,11 +45,11 @@ light. Hands only (same hand as Carpe/Plant Therapy, short squared lilac-white n
 | Still S1 (check hand + box + bathroom) → stop for review | $0.09 |
 | Stills S2–S7 (S3 before S4/S5: it's their tablet ref) → one sheet, stop for review | $0.54 |
 | Test clip S5 (fizz + steam, hardest) → stop for review | $0.16 |
-| Other 6 clips (25s × $0.041) | $1.03 |
+| Other 6 clips (24s × $0.041; S7 cut to 4s once the VO came in at 21.6s) | $0.98 |
 | Cut: banner pop-up from the real packshot, CC0 SFX (water, fizz), loudnorm | free |
-| **Total** | **$1.82** (+ ~$0.25 per redone shot; each redo asked first) |
+| **Total** | **$1.78** (+ ~$0.25 per redone shot; each redo asked first) |
 
-Running total: $0.00 / $1.82.
+Running total: $0.09 / $1.78 (S1 still).
 
 ## Files
 - `kie.py`: runner (box text + box refs left out of S4/S5; S3 still is their tablet ref).
