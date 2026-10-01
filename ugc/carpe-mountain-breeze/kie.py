@@ -100,6 +100,28 @@ def stills(ids):
     sheet("stills", ".png")
 
 
+def tee(ids):
+    """Outfit swap on approved stills: keep everything, change only her top to V5's grey tee ($0.09 each).
+    The old still is kept as preview/blue/<ID>.png; V4 is edited from its raw (uncropped) still."""
+    ref = upload("stills/V5.png")
+    for sid in ids:
+        src = Path("preview/V4_raw.png") if sid == "V4" else Path(f"stills/{sid}.png")
+        Path("preview/blue").mkdir(parents=True, exist_ok=True)
+        keep = Path(f"preview/blue/{sid}.png")
+        if not keep.exists():
+            keep.write_bytes(src.read_bytes())
+        prompt = ("Edit the first image. Change ONLY her top: replace the sky-blue tank top with the same plain light grey "
+                  "crew-neck short-sleeve cotton t-shirt she wears in the second image, perfectly dry, no stains. Keep "
+                  "everything else exactly the same: her face, hair, jewellery, nails, pose, hands, the Carpe stick and its "
+                  "label, the background, framing and lighting. Vertical 9:16 photo, real phone-shot look.")
+        url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [upload(keep), ref],
+                                                              "aspect_ratio": "9:16", "resolution": "1K"}})
+        if url:
+            out = "preview/V4_raw_grey.png" if sid == "V4" else f"stills/{sid}.png"
+            fetch(url, out); print("tee", sid, "ok")
+    sheet("stills", ".png")
+
+
 def clips(ids):
     from concurrent.futures import ThreadPoolExecutor
     for sid in ids:  # upload frames up front (cached), then render all clips in parallel
@@ -160,4 +182,4 @@ def sheet(kind, ext):
 if __name__ == "__main__":
     os.chdir(Path(__file__).parent)
     cmd, ids = sys.argv[1], sys.argv[2:] or MAIN
-    {"stills": stills, "clips": clips}[cmd](ids)
+    {"stills": stills, "clips": clips, "tee": tee}[cmd](ids)
