@@ -48,9 +48,12 @@ products follow the same rules.
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
 
-- **Every script uses all four (Ralph 2026-10-01, Vicks VapoShower):** (1) real data from the `tiktok-shop-coach`
-  skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their hook, format, length, CTA),
-  (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here, (4) the §4 structure. Show Ralph
+- **Every script uses ALL of these (Ralph 2026-10-01, Vicks VapoShower: "everything" means all of it):** (1) real data
+  from the `tiktok-shop-coach` skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their
+  hook, format, length, CTA), (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here,
+  (4) product research (box, brand site), (5) the §4 structure, (6) the `humanizer` skill on the final script so Grace
+  sounds like a person talking, (7) coach `readability` (grade ≤6), (8) §3 hook layers (on-screen hook text so the
+  first second works with the sound off), (9) after the cut: coach `compare` against the top winner, before Ralph sees it. Show Ralph
   which line comes from which source in the plan. The coach needs `bash setup.sh` from Dayone-ai first (Playwright).
 - **CTA sells more units, not detached (Ralph 2026-10-01):** the close should make the buyer want more: say the count
   ("twelve tablets, twelve showers"), a second occasion or a gift ("one for you, one to gift"), real seasonal timing.

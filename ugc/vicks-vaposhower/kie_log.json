@@ -157,5 +157,51 @@
   "t": "2026-10-01 21:45:10",
   "submitted": "d075a738ab7d91bb835e16ddb36683f6",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Inside the shower, low angle: the white tablet on the w"
+ },
+ {
+  "t": "2026-10-01 21:45:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Inside the shower, low angle near the floor: the hand sets the white tablet down on the wet grey stone floor, water from the rain shower head falling onto it, droplets on the fingers. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891108632-sktkl63v5ca.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6258fbc9ea9edf1bd2334175cec6f5cc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891136742-9v0ipby9d14.jpg"
+   ]
+  },
+  "costTime": 26
+ },
+ {
+  "t": "2026-10-01 21:45:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Inside the shower, low angle: the white tablet on the wet grey stone floor under the falling water, small bubbles fizzing at its edge, light steam rising. No hand in this shot. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891108632-sktkl63v5ca.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d075a738ab7d91bb835e16ddb36683f6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891136866-43az0j80aee.jpg"
+   ]
+  },
+  "costTime": 26
  }
 ]
