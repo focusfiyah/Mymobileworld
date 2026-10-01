@@ -34,12 +34,18 @@ products follow the same rules.
 ## 3. Hooks
 - Types: problem call-out, result first, comment reply, curiosity gap, contrarian, price shock, visual pattern
   break, POV, social proof (true only), direct address.
+- **Text hook = curiosity only** (Grace, 2026-10-01): 5-7 words, never names the product, makes them ask "what?"
+  ("Nobody puts this on a beard"). The spoken hook does a different job (names the pain).
+- **Curiosity loops all the way through** (2026-10-01, from @dus_davis): answer one question and open the next in
+  the same breath; an odd claim said without explanation keeps them watching. Mid-video overlays can open loops too.
 - **Stack two layers:** spoken problem + on-screen text + product moving. The first second must make sense with the sound off.
 - Film 3–4 takes of each hook; give each video **different on-screen bubble text** (TikTok treats them as distinct).
 - Proven angles: timing ("boots season, nobody's looking at your feet"), cover-up ("painting over it isn't a plan"),
   read-the-label, "you're probably doing it wrong" tutorial, gift for a relative, "watch this before you use it".
 
 ## 4. Script structures
+- **Grace's default (2026-10-01):** curiosity-loop hook → pain body → selling point / solution → urgency CTA.
+  Urgency must be real (a season, a date, an event), never fake scarcity.
 - **Product / tips (Fungix, Carpe):** hook (pain) → clarity → claim (exact wording) → how to use (what / how / how often)
   → honest caveat → detached CTA.
 - **Fashion:** hook (pain) → fit facts (height, size, how it runs, where it hits) → proof (back turn, phone in pocket,

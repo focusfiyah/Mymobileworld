@@ -1,6 +1,6 @@
 # Viking Revolution Curl Cream for Men (Grace), 2026-10-01
 
-Status: script v4, 22-25s, shareable page https://claude.ai/artifact/JKHZUcXuQKgKzgLwA35UM6 (Grace's hands-only beard footage, hook B, no price, Grace's own voice; free, $0 spent). Next: Grace records the lines and the edit is cut to the footage.
+Status: script v5 (pain + curiosity loops + real urgency, ~25s; free, $0 spent), page https://claude.ai/artifact/JKHZUcXuQKgKzgLwA35UM6 updated. Next: Grace records the lines over her beard footage.
 
 ## Product (from the TikTok Shop listing + vikingrevolution.com)
 - Viking Revolution Hair Curl Cream for Men, Sandalwood, 8 fl oz (240 mL). Black tube, orange band, black flip cap.
@@ -13,6 +13,27 @@ Status: script v4, 22-25s, shareable page https://claude.ai/artifact/JKHZUcXuQKg
 Grace already filmed: her hands putting the cream on her husband's beard (hands only). No price, no ElevenLabs VO;
 Grace says the lines herself. Hook B. Structure: hook → problem → product → experience → benefit → caveat → CTA.
 The husband's experience lines are approved as written (Ralph: no need to confirm his opinion).
+
+## Script v5 (Ralph 2026-10-01): sell to the viewer's pain, no "my husband" story; curiosity text hooks
+Structure (Grace's): curiosity-loop hook → pain body → selling point / solution → FOMO / urgency CTA.
+~86 words ≈ 24-26s. Reading grade 2.6.
+
+| Beat | On-screen text (curiosity only, never names the product) | Spoken |
+|---|---|---|
+| Hook 0-3s | Nobody puts this on a beard | If your beard feels like sandpaper, it's probably what you're putting in it. |
+| Pain 3-9s | what's really drying it out | Oil leaves it greasy. Balm dries hard and crunchy, and it's frizzy again by lunch. |
+| Solution 9-19s | the head-hair trick | So steal what curly guys put on their hair. Viking Revolution curl cream. Shea butter, vitamin E and B five. A little on a damp beard and it dries soft with no crunch. |
+| CTA 19-25s | before November hits | No-Shave November is a few weeks out, and cold air dries a beard out fast. Get it before then. It's in the orange cart. |
+
+Swap-in text hooks (different one per post): "Why his beard feels like sandpaper" / "Wrong aisle, right beard" /
+"The beard fix nobody tries".
+Urgency is real (No-Shave November + cold weather), not fake scarcity. The honesty line from v3 lives inside the
+twist: it's sold for the hair on your head.
+
+Reference videos (tiktok-shop-coach breakdown): @dadsoftiktokshop 7689893798398168351 (text hook = curiosity only,
+5-7 words, don't name the product; the text hook and the spoken hook do different jobs) and @dus_davis
+7665871359137959182 (78k views, 6.7% saves: open a loop, answer it, open the next one all the way through; an odd
+claim said without explanation keeps people watching).
 
 ## Script v4 (shorter, Ralph 2026-10-01): ~78 words ≈ 22-25s at 3.3-3.6 words/sec
 | Beat | Line |
