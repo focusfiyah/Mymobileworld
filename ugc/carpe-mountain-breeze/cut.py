@@ -1,55 +1,61 @@
-"""Free rough cut: the 9 clips cut to the Grace B voiceover, a badge close-up insert, soft CC0 SFX.
+"""Free cut: the 9 clips timed to the Grace B voiceover, a whip-pan into S1, soft CC0 SFX.
 
-  python3 cut.py   -> out/carpe_vanilla_peach_roughcut.mp4 (720x1280, 24fps)
+  python3 cut.py   -> out/carpe_mountain_breeze.mp4 (720x1280, 24fps)
 
-Cut points are the shot windows in shots.json (from the voiceover's word timings). SFX are CC0 (Kenney), copied
-from focusfiyah/Dayone-ai assets/sfx (see sfx/LICENSE.md).
+Shot windows come from shots.json (word timings of the trimmed voiceover). IN = where each clip starts being used;
+S1 is slowed to fill its 6.2s window. SFX are CC0 (Kenney, sfx/LICENSE.md); the whoosh is generated noise.
 """
 import json, subprocess
 from pathlib import Path
 
 J = json.loads(Path("shots.json").read_text())
-CLIP_IN = {"S9": 1.4}            # S9: skip setting the stick down so the cap tap lands on "linked"
-END = {"S9": 36.6}               # hold S9 past "below" so the point-down reads
-BADGE = (25.95, 0.8)             # badge close-up over "a hundred hours" (26.02-26.90)
-TICKS = [8.25, 8.65, 9.05, 9.45, 9.85, 10.25]   # knob turns in S3
-TAP = 35.0                       # finger taps the cap in S9
+IN = {"S3": 2.3, "S4": 0.3, "V4": 0.3, "V5": 0.5}   # skip lead-ins so the action lands on the words
+WHIP_AT, WHIP = 9.96, 0.24                          # whip-pan V2 -> S1, centred on the cut
+TICKS = [19.95, 20.3, 20.65, 21.0]                   # knob turns in S3
+CAP = 22.95                                          # cap pops off in V4
 
 shots = J["shots"]
-inputs, chains, labels = [], [], []
+end = shots[-1]["t"][1]
+inputs, chains = [], []
 for i, s in enumerate(shots):
-    t0, t1 = s["t"][0], END.get(s["id"], s["t"][1])
+    t0, t1 = s["t"]
+    # pad half the whip on each side of the cut so the crossfade does not shift anything after it
+    if s["id"] == "V2":
+        t1 += WHIP / 2
+    if s["id"] == "S1":
+        t0 -= WHIP / 2
     dur = t1 - t0
+    clip_len = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                              "-of", "csv=p=0", f"clips/{s['id']}.mp4"]))
+    speed = max(1.0, dur / (clip_len - IN.get(s["id"], 0)))  # slow a clip that is shorter than its window
     inputs += ["-i", f"clips/{s['id']}.mp4"]
-    chains.append(f"[{i}:v]trim=start={CLIP_IN.get(s['id'], 0)},setpts=PTS-STARTPTS,"
+    chains.append(f"[{i}:v]trim=start={IN.get(s['id'], 0)},setpts=(PTS-STARTPTS)*{speed:.4f},"
                   f"tpad=stop_mode=clone:stop_duration=1,trim=duration={dur:.3f},setpts=PTS-STARTPTS,"
                   f"scale=720:1280,setsar=1,fps=24[v{i}]")
-    labels.append(f"[v{i}]")
+k = next(i for i, s in enumerate(shots) if s["id"] == "S1")
 n = len(shots)
-total = END.get(shots[-1]["id"], shots[-1]["t"][1])
-# badge close-up: 9:16 crop of the S7 still around the 100hr shield, slow push-in
-inputs += ["-loop", "1", "-t", str(BADGE[1] + 0.1), "-i", "stills/S7.png"]
-b = n
-chains.append(f"[{b}:v]crop=270:480:353:350,scale=1440:2560,zoompan=z='1+0.003*on':x='iw/2-(iw/zoom/2)':"
-              f"y='ih/2-(ih/zoom/2)':d=1:s=720x1280:fps=24,trim=duration={BADGE[1]},"
-              f"setpts=PTS-STARTPTS+{BADGE[0]}/TB[badge]")
-chains.append(f"{''.join(labels)}concat=n={n}:v=1:a=0[cat]")
-chains.append(f"[cat][badge]overlay=enable='between(t,{BADGE[0]},{BADGE[0] + BADGE[1]})':eof_action=pass,format=yuv420p[vout]")
-# audio: voiceover + ticks + tap
-inputs += ["-i", "vo/voiceover.mp3"]
-a = n + 1
-inputs += ["-i", "sfx/tick.ogg", "-i", "sfx/click.ogg"]
-tick, click = n + 2, n + 3
-sfx = [f"[{tick}:a]asplit={len(TICKS)}" + "".join(f"[t{k}]" for k in range(len(TICKS)))]
-for k, t in enumerate(TICKS):
-    sfx.append(f"[t{k}]volume=0.25,adelay={int(t * 1000)}:all=1[d{k}]")
-sfx.append(f"[{click}:a]volume=0.35,adelay={int(TAP * 1000)}:all=1[tap]")
-mix = f"[{a}:a]" + "".join(f"[d{k}]" for k in range(len(TICKS))) + "[tap]"
-sfx.append(f"{mix}amix=inputs={len(TICKS) + 2}:normalize=0:duration=first,apad,atrim=duration={total},"
+chains.append("".join(f"[v{i}]" for i in range(k)) + f"concat=n={k}:v=1:a=0[a]")
+chains.append("".join(f"[v{i}]" for i in range(k, n)) + f"concat=n={n - k}:v=1:a=0[b]")
+a_len = WHIP_AT + WHIP / 2
+chains.append(f"[a][b]xfade=transition=slideleft:duration={WHIP}:offset={a_len - WHIP:.3f},"
+              f"dblur=angle=0:radius=60:enable='between(t,{WHIP_AT - WHIP / 2 - 0.04:.3f},{WHIP_AT + WHIP / 2 + 0.04:.3f})',"
+              f"format=yuv420p[vout]")
+# audio: voiceover + whoosh + knob ticks + cap pop
+vo = n
+inputs += ["-i", "vo/voiceover.mp3", "-i", "sfx/tick.ogg", "-i", "sfx/click.ogg",
+           "-f", "lavfi", "-t", "0.35", "-i", "anoisesrc=color=pink:amplitude=0.6"]
+tick, click, noise = n + 1, n + 2, n + 3
+sfx = [f"[{noise}:a]highpass=f=900,lowpass=f=6000,afade=t=in:d=0.15,afade=t=out:st=0.17:d=0.18,volume=0.35,"
+       f"adelay={int((WHIP_AT - 0.2) * 1000)}:all=1[wh]",
+       f"[{tick}:a]asplit={len(TICKS)}" + "".join(f"[t{j}]" for j in range(len(TICKS)))]
+for j, t in enumerate(TICKS):
+    sfx.append(f"[t{j}]volume=0.25,adelay={int(t * 1000)}:all=1[d{j}]")
+sfx.append(f"[{click}:a]volume=0.35,adelay={int(CAP * 1000)}:all=1[cap]")
+mix = f"[{vo}:a][wh]" + "".join(f"[d{j}]" for j in range(len(TICKS))) + "[cap]"
+sfx.append(f"{mix}amix=inputs={len(TICKS) + 3}:normalize=0:duration=first,apad,atrim=duration={end},"
            f"loudnorm=I=-16:TP=-1.5,aresample=44100[aout]")
 Path("out").mkdir(exist_ok=True)
-out = "out/carpe_vanilla_peach_roughcut.mp4"
 subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chains + sfx),
-                "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
-                "-c:a", "aac", "-b:a", "160k", "-t", str(total), "-movflags", "+faststart", out], check=True)
-print(out)
+                "-map", "[vout]", "-map", "[aout]", "-t", f"{end}", "-c:v", "libx264", "-crf", "19", "-preset", "medium",
+                "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", "out/carpe_mountain_breeze.mp4"], check=True)
+print("out/carpe_mountain_breeze.mp4")

@@ -8,10 +8,10 @@ Ralph's answers (2026-10-01): AI version of Grace from `refs/grace.jpg` with her
 bathroom setting; Grace B voiceover over her demo (no lip sync); keep both claims (front label "…for all-day fresh" + Target listing "100HR Sweat & Odor Control"; Ralph dropped
 the word "wicking" 2026-10-01); name the scent and mention other scents, no smell claim.
 
-Status: **clips V1 V2 S2 S3 S4 V4 V5 S10 rendered ($1.52) but UNUSABLE: Seedance put her back in the blue tank top
-(the identity text still said "sky-blue tank top"; my mistake). Clips moved to `preview/bluetank/`; prompt text fixed
-(grey tee, never blue; V2 stain stays; V5 dry). S1 clip (grey) is fine. Waiting on Ralph: redo all 8 ($1.52) or
-V2+V5 only ($0.45) + free grey recolor of the rest. Spent $3.91 Kie (781 credits). Ask before every paid generation.**
+Status: **rough cut done: `out/carpe_mountain_breeze.mp4` (35.0s, 720x1280, -17 LUFS, `python3 cut.py`, free), sent
+to Ralph for notes. Grey tee in every clip after the redo ($1.52; the first 8 clips came back in the blue tank, kept in
+`preview/bluetank/`). Known: V5 has a large Carpe stick in the foreground and only a light tug. Spent $5.42 Kie
+(1,084.8 credits) vs $3.91 planned. Ask before every paid generation, including redos.**
 
 ## Script (times from `vo/stt.json`)
 
