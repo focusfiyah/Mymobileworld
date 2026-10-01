@@ -17,9 +17,9 @@ SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
 REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/box_front.png", "refs/box_left.png"]
 ROOM = "stills/S1.png"  # first approved still doubles as the room reference
-NO_BOX = {"S4", "S5"}  # shower-floor shots: no box text or box refs, or the box shows up (playbook §6)
+NO_BOX = {"S4", "S5", "S6"}  # shots without the box (S6 added after its first still put the box on the glass): no box text or box refs, or the box shows up (playbook §6)
 TABLET = {"S2", "S3", "S4", "S5"}
-TABLET_REF = "stills/S3.png"  # tablet-in-palm still = the tablet look for the shower-floor shots
+TABLET_REF = "stills/S3.png"  # tablet-in-palm still = the tablet look for the no-box shots
 
 
 def blocks(sid):
@@ -98,7 +98,7 @@ def stills(ids):
     for sid in ids:
         s = SHOTS[sid]
         base = refs[:2] if sid in NO_BOX else refs
-        extra = TABLET_REF if sid in NO_BOX else ROOM
+        extra = TABLET_REF if sid in NO_BOX and sid in TABLET else ROOM
         room = [upload(extra)] if sid != "S1" and Path(extra).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_block']}"
