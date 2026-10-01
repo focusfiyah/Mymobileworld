@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~22s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **Script v3 (humanized) approved, voiceover 24.7s. All 7 stills done (S4 + S6 redone, approved $0.18). Test clip S5 done: fizz + steam good for 0-2.0s (window needs 1.64s); two pale hands walk in at 2.2s (prompt's hand text; fixed with NO_HAND). Next: Ralph's OK for the other 6 clips ($1.07). Spent $0.97 / $2.04. New session: read HANDOFF.md.**
+Status: **Cut v1 sent to Ralph 2026-10-01: `out/vicks_vaposhower.mp4` (24.75s, 720x1280, -16 LUFS), waiting on his notes. All 7 clips done (6-clip batch approved, $1.07). Free fixes in `cut.py`: S1 plays 0-1.9s then a push-in hold (the clip turns the box to its side panel at ~2.0s); S5 uses 0.1-1.74s. Hook caption (classic style + 🚿) 0-2.6s, real-box banner 9.87-11.07s + CC0 click. Coach compare vs the 879k JojoWell video: hook text from frame 0, voice at 0.05s (theirs 3.0s), 3.6 words/s (theirs 2.9): nothing to fix. Spent $2.04 / $2.04 quote. Next: Ralph's notes; on approval, Drive (Grace Tiktok assets) via Composio.**
 
 ## Product facts (Vicks box + vicks.com, 2026-10-01)
 

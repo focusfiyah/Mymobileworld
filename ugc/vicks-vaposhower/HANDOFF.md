@@ -1,5 +1,9 @@
 # Handoff: Vicks VapoShower Plus ad (Grace), paused 2026-10-01
 
+**Update 2026-10-01 (later):** clips done, cut v1 sent, $2.04 = quote. Work moved to branch
+`claude/vicks-vaposhower-handoff-f87uqn` (has main merged in). The README Status line is current; the sections below
+are the earlier pause state.
+
 Paste into a new session:
 
 > Continue the Vicks VapoShower ad for Grace. Read `ugc/vicks-vaposhower/HANDOFF.md` on branch `ccr-618f1cff-f9ivwb`
