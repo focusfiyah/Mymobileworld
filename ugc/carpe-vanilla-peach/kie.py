@@ -122,7 +122,7 @@ def sheet(kind, ext):
         cells = "".join(f"[v{i}]" for i in range(len(files))) + "".join(f"[p{j}]" for j in range(cols * rows - len(files)))
         lay = "|".join(f"{(i % cols) * 270}_{(i // cols) * 480}" for i in range(cols * rows))
         subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex",
-                        f"{lab}{pad}{cells}xstack=inputs={cols * rows}:layout={lay}", "-frames:v", "1",
+                        f"{lab}{pad}{cells}xstack=inputs={cols * rows}:layout={lay}" if cols * rows > 1 else lab.rstrip(";").replace("[v0]", ""), "-frames:v", "1",
                         "preview/stills_sheet.png"], check=True)
     else:
         rows = []
