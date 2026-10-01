@@ -13,7 +13,10 @@ from pathlib import Path
 
 # (source, in, length used from the source, speed, extra video filter); output length = length / speed
 EDL = [
-    ("lipsync/S1.mp4", 0.0, 4.13, 1.0, ""),                               # hook: close-up on the stick, pull back to her
+    ("clips/S1.mp4", 0.0, 3.1, 1.0, ""),                                # hook: close-up, pull back (original: lip sync
+    ("lipsync/S1.mp4", 3.1, 0.5, 1.0, ""),                              #   smeared the stick as it passed her mouth)
+    ("clips/S1.mp4", 3.6, 0.2, 1.0, ""),                                # lip sync left an orange smudge on her chin here
+    ("lipsync/S1.mp4", 3.8, 0.33, 1.0, ""),
     ("lipsync/V2.mp4", 0.0, 5.83, 1.0, ""),
     ("S1a", 0.0, 3.2, 1.0, ""),                                          # hero close-up, slow push-in, label sharp
     ("clips/S3.mp4", 0.0, 2.1, 1.0, ""),                                 # holding the stick before the twist
@@ -29,7 +32,7 @@ END = 35.03                                          # voiceover length; S10 hol
 WHIP_AT, WHIP = 9.96, 0.24                           # whip-pan V2 -> S1a, centred on the cut
 TICKS = [19.95, 20.3, 20.65, 21.0]                   # knob turns in S3
 CAP = 22.95                                          # cap pops off in V4
-WHIP_INTO = 2                                        # EDL index the whip-pan lands on (V2 -> hero close-up)
+WHIP_INTO = 5                                        # EDL index the whip-pan lands on (V2 -> hero close-up)
 
 inputs, chains, t = [], [], 0.0
 for i, (src, t_in, length, speed, vf) in enumerate(EDL):
