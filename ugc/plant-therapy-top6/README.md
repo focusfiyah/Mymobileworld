@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, **15–20s (target ~18s)**, 7 shots (Ralph, 2026-10-01), voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **VO done (17.9s). Stills done; redo S2+S3+S7 ($0.27) → S2, S3 good; S7 v2 has coloured labels. Spent $0.90 of $2.09. Waiting on Ralph: S7 fix (reuse S1 still as CTA frame, free) + go for test clip S5 ($0.16).**
+Status: **Stills done (S7 = copy of S1, Ralph OK). Test clip S5 done ($0.16), usable 0.2–1.84s. Spent $1.06 of $2.09. Waiting on Ralph: other 6 clips ($1.03).**
 Kie balance $3.45 at start, $3.36 now. Next: S2–S7 stills → test clip S5 → other 6 clips → free cut.
 
 ## Product facts (Plant Therapy's own listing + product photos, 2026-10-01)

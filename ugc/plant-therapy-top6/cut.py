@@ -9,7 +9,7 @@ import json, subprocess
 from pathlib import Path
 
 J = json.loads(Path("shots.json").read_text())
-CLIP_IN = {}                      # per-shot start offset into the clip, set after QC
+CLIP_IN = {"S5": 0.2}            # S5: use 0.2-1.84s (drops); at 2.6s the bottle turns upright and its label drifts
 CARDS = [("lavender", 2.62, 1.0), ("peppermint_eucalyptus", 4.06, 1.5),   # (card, start, duration): on the oil's name
          ("lemon", 6.66, 0.95), ("teatree", 7.74, 1.0)]
 
