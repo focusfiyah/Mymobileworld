@@ -28,7 +28,9 @@ not in a new file.
    wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face.
 4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
    leave the product description out of shots that must not show the product.
-5. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+5. **Script = data + coach + psychology + Grace structure** (Ralph, 2026-10-01): run the `tiktok-shop-coach` skill on the
+   product's keyword before writing; see `grace/PLAYBOOK.md` §4.
+6. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
