@@ -10,7 +10,7 @@ def one(sid):
     s = kie.SHOTS[sid]
     refs = [kie.upload(p) for p in kie.REFS]
     base = refs[:2] if sid in kie.NO_BOX else refs
-    extra = kie.TABLET_REF if sid in kie.NO_BOX else kie.ROOM
+    extra = kie.TABLET_REF if sid in kie.NO_BOX and sid in kie.TABLET else kie.ROOM
     room = [kie.upload(extra)] if Path(extra).exists() else []
     prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
               f"{kie.blocks(sid)} {kie.J['scene_block']}"
