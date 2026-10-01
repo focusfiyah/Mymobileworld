@@ -1,0 +1,31 @@
+[
+ {
+  "t": "2026-10-01 21:04:36",
+  "submitted": "65ba8d60f1b9f88004b8697f365788dc",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the white bathroom counter: the hand holds "
+ },
+ {
+  "t": "2026-10-01 21:05:14",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the white bathroom counter: the hand holds the VapoShower Plus box up toward the lens, front facing the camera; behind it, out of focus, the glass shower door with the shower running and soft steam. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The box is exactly the Vicks VapoShower PLUS box in the product reference images: a wide, shallow rectangular carton, bright blue with a white curved top band, the green Vicks shield logo at the top centre, a chrome shower head spraying water in the top-left corner, the white 'VapoShower' wordmark with 'PLUS' on a navy bar under it, a red '10% MORE SOOTHING VAPORS*' banner on the left and a white round tablet at the bottom right. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888671405-z3v9h0e1aj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888674167-45z6xp0ny6x.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "65ba8d60f1b9f88004b8697f365788dc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790888709138-f1hr4ynmi0g.jpg"
+   ]
+  },
+  "costTime": 32
+ }
+]

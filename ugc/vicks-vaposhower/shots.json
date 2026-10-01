@@ -28,7 +28,10 @@
  "shots": [
   {
    "id": "S1",
-   "t": [0.0, 3.4],
+   "t": [
+    0.0,
+    2.82
+   ],
    "dur": 4,
    "beat": "hook",
    "vo": "Love the smell of Vicks? Put one of these in your shower.",
@@ -37,7 +40,10 @@
   },
   {
    "id": "S2",
-   "t": [3.4, 6.5],
+   "t": [
+    2.82,
+    6.66
+   ],
    "dur": 4,
    "beat": "what's in it (box wording)",
    "vo": "Eucalyptus and essential oils, plus menthol and camphor scents.",
@@ -46,7 +52,10 @@
   },
   {
    "id": "S3",
-   "t": [6.5, 9.2],
+   "t": [
+    6.66,
+    9.8
+   ],
    "dur": 4,
    "beat": "Plus = 10% more (footnote: vs original VapoShower)",
    "vo": "The Plus has ten percent more of that blend than the original.",
@@ -56,7 +65,10 @@
   },
   {
    "id": "S4",
-   "t": [9.2, 12.0],
+   "t": [
+    9.8,
+    12.04
+   ],
    "dur": 4,
    "beat": "how to use (box directions)",
    "vo": "Set it on the shower floor, right in the stream.",
@@ -65,7 +77,10 @@
   },
   {
    "id": "S5",
-   "t": [12.0, 14.6],
+   "t": [
+    12.04,
+    14.2
+   ],
    "dur": 4,
    "beat": "steam (hardest clip: TEST CLIP)",
    "vo": "It dissolves and infuses the steam.",
@@ -74,7 +89,10 @@
   },
   {
    "id": "S6",
-   "t": [14.6, 17.6],
+   "t": [
+    14.2,
+    17.92
+   ],
    "dur": 4,
    "beat": "honest caveat",
    "vo": "Just know it's non-medicated. It's for the scent, not a cold remedy.",
@@ -83,8 +101,11 @@
   },
   {
    "id": "S7",
-   "t": [17.6, 22.0],
-   "dur": 5,
+   "t": [
+    17.92,
+    21.62
+   ],
+   "dur": 4,
    "beat": "detached CTA",
    "vo": "Not a Vicks person? Skip this. If you are, it's in the orange cart.",
    "still": "Close-up on the white counter: the VapoShower Plus box stands front facing the camera; the hand rests beside it.",
