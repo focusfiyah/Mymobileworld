@@ -10,7 +10,8 @@ the word "wicking" 2026-10-01); name the scent and mention other scents, no smel
 
 Status: **rough cut done: `out/carpe_mountain_breeze.mp4` (35.0s, 720x1280, -17 LUFS, `python3 cut.py`, free), sent
 to Ralph for notes. Grey tee in every clip after the redo ($1.52; the first 8 clips came back in the blue tank, kept in
-`preview/bluetank/`). Known: V5 has a large Carpe stick in the foreground and only a light tug. Spent $5.42 Kie
+`preview/bluetank/`). V1 forehead wrinkles smoothed free (Ralph's note; original
+`preview/V1_wrinkles.mp4`). Known: V5 has a large Carpe stick in the foreground and only a light tug. Spent $5.42 Kie
 (1,084.8 credits) vs $3.91 planned. Ask before every paid generation, including redos.**
 
 ## Script (times from `vo/stt.json`)
