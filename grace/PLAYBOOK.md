@@ -91,6 +91,10 @@ products follow the same rules.
   shot" lost to the identity block's detailed stick description; Seedance added it anyway. For no-product shots,
   leave the product text out of the prompt entirely. Also keep faces relaxed in stills ("raised eyebrows" = forehead
   wrinkles the clip copies).
+- **Same for hands** (Vicks, 2026-10-01): the S5 no-hand clip still had the hand identity text in its prompt, and two
+  pale hands walked in at 2.2s. Leave the hand block out of no-hand shots (`NO_HAND` in `ugc/vicks-vaposhower/kie.py`).
+- **A no-box shot needs the box text out too** (Vicks S6, $0.09): the box block put the box on the shower glass. And
+  say the exact surface plus pass the matching still as a ref (S4's tablet landed on a counter until S5 was the ref).
 - **Voiceover ads: keep her mouth out of frame while the voice talks** (Ralph 2026-10-01, "why are her lips not
   moving"): Ralph then preferred lip sync over chin-down crops (crops cut the product off): `lipsync.py` in
   `ugc/carpe-mountain-breeze/`, $0.04/s, submit one at a time (parallel calls get "server busy", $0).
