@@ -203,5 +203,66 @@
    ]
   },
   "costTime": 26
+ },
+ {
+  "t": "2026-10-01 21:49:15",
+  "submitted": "bc1b9181a2690a92e51078d84df5d4fa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Inside the shower, low angle near the floor: the hand s"
+ },
+ {
+  "t": "2026-10-01 21:49:15",
+  "submitted": "e663bc0472fceb6ff08b31fe8b76a6ef",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up: the hand wipes a clear streak across the fogg"
+ },
+ {
+  "t": "2026-10-01 21:49:19",
+  "submitted": "c9dcd082d43a82a3781c1ce8eddcf9aa",
+  "prompt": "Shot 1 (0-4s): water falls on the tablet, it fizzes gently at the edges with small bubbles, and soft white steam drifts "
+ },
+ {
+  "t": "2026-10-01 21:49:40",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Inside the shower, low angle near the floor: the hand sets the white tablet down on the wet light grey stone tile shower floor, exactly the same floor, tile and shower as in the last reference image, water from the rain shower head falling onto it, droplets on the fingers. Not a counter, not a ledge, not a bench: the floor of the shower. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The tablet is a plain white round disc about the size of a large cookie, slightly domed, matte and chalky, exactly like the tablet pictured on the box. No wrapper, no print on it. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891353573-9fdzvrgxw1.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bc1b9181a2690a92e51078d84df5d4fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891378697-6zz53hfyxe8.jpg"
+   ]
+  },
+  "costTime": 23
+ },
+ {
+  "t": "2026-10-01 21:49:41",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up: the hand wipes a clear streak across the fogged glass shower door from outside; steam and the running shower soft behind the glass. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Setting: a bright, clean bathroom with white subway tile, a walk-in shower with a chrome rain shower head and a clear glass door, a light grey stone shower floor, a white bathroom counter outside the shower, soft daylight from a frosted window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom, light and tablet: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888666811-vnchyuu9zw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790888668982-mqksidhlnc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vaposhower/1790891028302-5i1idnka1fq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e663bc0472fceb6ff08b31fe8b76a6ef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790891378731-vqpqajbi7r.jpg"
+   ]
+  },
+  "costTime": 23
  }
 ]
