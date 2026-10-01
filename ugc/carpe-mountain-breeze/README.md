@@ -13,8 +13,9 @@ Status: **voiceover v2 done (34.8s): Ralph's notes 2026-10-01 → only the label
 close-up of the stick that pulls back to Grace (S1a still = first frame, S1 still = last frame, Seedance
 `last_frame_url`); S1a's background blur and crop were done free in PIL (`preview/S1a_raw.png` = the raw still).
 S1 clip done ($0.21): continuous move from the close-up down to chest height, background comes into focus
-(`preview/S1_with_vo.mp4`). Next: Ralph OKs S1 → stills S2–S10 ($0.81) → other clips ($1.68) → free cut.
-Spent $0.39 Kie (77 credits) + ~730 ElevenLabs characters. Plan total ≈ $2.88 Kie. Ask before every paid generation.**
+(`preview/S1_with_vo.mp4`). Stills S2–S10 done ($0.81, `preview/stills_sheet.png`); notes: S3 starts with a little cream already
+showing, S6/S8 look alike (fix free in the cut: warm/dim night grade on S6, bright morning grade on S8).
+Next: Ralph OKs stills → clips S2–S10 ($1.68) → free cut. Spent $1.20 Kie (239 credits) + ~730 ElevenLabs characters. Plan total ≈ $2.88 Kie. Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 
