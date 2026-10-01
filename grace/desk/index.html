@@ -200,11 +200,11 @@ function categoryRecord() {
 // Priority score, 0-100. Pure: takes a sample and the category record.
 function scoreSample(s, record) {
   const parts = [];
-  const price = num(s.price), comm = num(s.commission), units = num(s.unitsSold);
-  // Earning per sale (30)
-  let earn = 12, earnTxt = "no price/commission yet";
-  if (price != null && comm != null) { const perSale = price * comm / 100; earn = Math.min(1, perSale / 6) * 30; earnTxt = money(perSale) + " per sale" }
-  parts.push(["Pay", earn, earnTxt]);
+  const price = num(s.price), units = num(s.unitsSold);
+  // Price (30): a pricier product pays more per sale; $40+ = full
+  let earn = 12, earnTxt = "no price yet";
+  if (price != null) { earn = Math.min(1, price / 40) * 30; earnTxt = money(price) + " price" }
+  parts.push(["Price", earn, earnTxt]);
   // Demand (25): lifetime units sold, log scale, 100k+ = full
   let dem = 10, demTxt = "units sold unknown";
   if (units != null) { dem = Math.min(1, Math.log10(units + 1) / 5) * 25; demTxt = fmt(units) + " sold" }
@@ -283,7 +283,7 @@ function emptyState() {
     <h2>No samples logged yet</h2>
     <ol>
       <li>Tap <b>+ Add samples</b> and paste the boxes you have, one per line. Names are enough to start.</li>
-      <li>Add price, commission and units sold when you have them (TikTok Shop listing or the sample request). Those drive the score.</li>
+      <li>Add price and units sold from the TikTok Shop listing when you have them. Those drive the score.</li>
       <li>Film the top picks, then log each posted video's link and numbers under <b>Results</b>.</li>
     </ol>
     ${canWrite ? `<button class="primary" data-act="add">+ Add samples</button>` : ""}
@@ -486,7 +486,6 @@ function openSample(id) {
       <label>Category<select id="s-cat">${opts(CATEGORIES, s.category, "Not set")}</select></label>
       <label>Where you'd film it<select id="s-set">${opts(SETTINGS, s.setting, "Not set")}</select></label>
       <label>Price ($)<input id="s-price" inputmode="decimal" value="${esc(s.price)}"></label>
-      <label>Commission (%)<input id="s-comm" inputmode="decimal" value="${esc(s.commission)}"></label>
       <label>Units sold (listing)<input id="s-units" inputmode="numeric" value="${esc(s.unitsSold)}"></label>
       <label>Effort<select id="s-eff">${[1, 2, 3].map(n => `<option value="${n}" ${Number(s.effort || 2) === n ? "selected" : ""}>${EFFORT[n]}</option>`).join("")}</select></label>
       <label>Received<input id="s-rcvd" type="date" value="${esc(s.received)}"></label>
@@ -496,11 +495,11 @@ function openSample(id) {
       <label class="full">Label / listing facts (copy the exact wording)<textarea id="s-facts">${esc(s.facts)}</textarea></label>
       <label class="full">Grace's own notes (only what's true for you: fit, scent, times used, one love, one con)<textarea id="s-notes">${esc(s.notes)}</textarea></label>
     </div>
-    <p class="note">Price, commission and units sold drive the score. Units sold is the lifetime number on the TikTok Shop listing.</p>
+    <p class="note">Price and units sold drive the score. Units sold is the lifetime number on the TikTok Shop listing.</p>
     <div class="row"><button class="ghost" id="s-del">Delete sample</button><button class="primary" id="s-save">Save</button></div>`, root => {
     root.querySelector("#s-save").onclick = async () => {
       const v = k => root.querySelector(k).value.trim();
-      const body = { ...strip(s), name: v("#s-name") || s.name, brand: v("#s-brand"), category: v("#s-cat"), setting: v("#s-set"), price: v("#s-price"), commission: v("#s-comm"),
+      const body = { ...strip(s), name: v("#s-name") || s.name, brand: v("#s-brand"), category: v("#s-cat"), setting: v("#s-set"), price: v("#s-price"),
         unitsSold: v("#s-units"), effort: Number(v("#s-eff")), received: v("#s-rcvd"), deadline: v("#s-due"), stage: v("#s-stage"), link: v("#s-link"), facts: v("#s-facts"), notes: v("#s-notes"), updated: new Date().toISOString() };
       if (await save("samples", s.id, body)) closeSheet();
     };
