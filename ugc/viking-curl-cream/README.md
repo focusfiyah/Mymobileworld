@@ -1,6 +1,6 @@
 # Viking Revolution Curl Cream for Men (Grace), 2026-10-01
 
-Status: script v1 written (free, $0 spent). Next: Ralph picks a hook + format and answers the open questions below.
+Status: script v2 (real takes, no VO, no price; free, $0 spent). Next: Grace confirms the [confirm] lines, then films.
 
 ## Product (from the TikTok Shop listing + vikingrevolution.com)
 - Viking Revolution Hair Curl Cream for Men, Sandalwood, 8 fl oz (240 mL). Black tube, orange band, black flip cap.
@@ -9,40 +9,52 @@ Status: script v1 written (free, $0 spent). Next: Ralph picks a hook + format an
   "without weighing hair down", for curls, waves "and everything between".
 - Directions (Amazon listing): small amount, damp or dry hair, distribute evenly, style as desired; morning and night.
 
-## Angle
-Grace is not the user, so no "I use it" lines. Playbook "take the shame out" gift angle: she's telling women about a
-curl cream their man won't buy himself. Structure: hook (pain) → clarity → claim (exact wording) → how to use → caveat → CTA.
+## Angle (v2, Ralph 2026-10-01)
+Grace on camera, real takes, no VO, no price. Her husband has used it, so the experience is his, told by her.
+Structure (Ralph): hook → problem → product → experience → benefit → CTA, plus the playbook's one honest caveat.
+Lines marked [confirm] must match what he actually noticed; change them before filming if they don't.
 
-## Hooks (film 3-4 takes each; different on-screen text per video)
+## Script v2
+Hooks (film 3-4 takes each, different on-screen text per video):
 | # | Spoken | On-screen text |
 |---|---|---|
-| A | If his curls are frizzy by lunch and he keeps stealing your conditioner, this one's for him. | his curls by noon |
-| B | He is never going to buy himself curl cream. So I'm telling you instead. | men won't buy this themselves |
-| C | Watch this before you hand your man a curl cream. | read this before you buy it for him |
+| A | If your man's curls are a frizzy mess by lunch, show him this. | his curls by noon |
+| B | My husband would never buy curl cream for himself, so I got it for him. [confirm] | he'd never buy this himself |
+| C | I finally got my husband to put something in his curls. | he swore he didn't need it |
 
-## Body (~70 words)
-> This is Viking Revolution curl cream, made for men. Shea butter, vitamin E and B five, and it's sandalwood scented.
-> The brand says it defines and controls curls without the crunch, fights frizz, and doesn't weigh hair down.
-> Waves count too. Here's how he uses it: a small amount, on damp or dry hair, spread it through evenly, then
-> shape it with his fingers. Morning, and again at night if he wants.
+Problem:
+> Guys with curls usually do one of two things. Nothing, and it's frizzy by noon. Or gel, and it dries hard and crunchy.
 
-## Honest caveat (~20 words)
-> Real talk: it's a cream, not a gel. If he wants hard, crunchy hold that doesn't move, this isn't that.
+Product (label close-up):
+> This is the Viking Revolution curl cream. It's made for men, it's got shea butter and vitamin E and B five in it,
+> and it smells like sandalwood.
 
-## CTA (~25 words)
-> Eight ounces, about ten dollars. If his hair's fine the way it is, skip this. If it's not, it's in the orange cart.
+Experience (his, through her) [confirm]:
+> He puts a small amount on damp hair and scrunches it through. That's it. His curls keep their shape all day,
+> and when I run my hand through his hair it's still soft.
 
-Total ~130 words ≈ 36-40s at 3.3-3.6 words/sec after pauses are cut.
-Caption: `#ad` (or the brand's partner tag) + #curlyhairmen #mensgrooming #giftsforhim.
+Benefit (reviewers):
+> Other guys say the same thing in the reviews. No crunch, less frizz, and it doesn't feel greasy. The smell is
+> subtle too.
+
+Caveat:
+> If his curls are really thick and coarse, a few reviewers say it's too light for them.
+
+CTA:
+> If he likes his hair the way it is, skip this. If you're tired of the frizz, it's in the orange cart.
+
+~125 words ≈ 35-40s after pauses are cut. Caption: `#ad` (or the brand's partner tag) + #curlyhairmen #mensgrooming.
+Sources for the review lines: besthairfocus.com (excellent definition, controls frizz, subtle scent, not sticky or
+greasy; con: may be too light for very coarse curls) and review roundups ("zero crunch").
 
 ## Shot list (real takes)
-1. Hook: Grace to camera, tube in hand, label facing lens (sound-off readable with the text).
-2. Body: close-up of the label (Shea Butter / Vitamin E & B5), squeeze a small amount on fingertips.
-3. How-to: if a partner is filmed, fingers working it through damp curls; otherwise hand demo only.
-4. Caveat: back to Grace, calm.
-5. CTA: tube next to the phone showing the orange cart.
+1. Hook: Grace to camera, tube in hand, label facing the lens; text readable with the sound off.
+2. Problem: Grace talking; optional cutaway of him with frizzy hair (only if real).
+3. Product: label close-up, small squeeze on fingertips.
+4. Experience: him scrunching it into damp hair, then Grace running her hand through his curls.
+5. Benefit + caveat: Grace to camera, calm.
+6. CTA: tube in frame, point down to the cart.
 
 ## Open questions for Ralph
-1. Format: Grace's real takes, a Grace B voiceover over hands-only AI shots (paid, quote first), or something else?
-2. Has a man in Grace's life actually used it? If yes, we can add one true line about it; if no, keep it as written.
-3. Use "about ten dollars"? The $9.99 is a 9% discount and may change.
+1. What did her husband actually notice? (hold all day, soft feel, how much he uses, damp or dry hair)
+2. Will he be on camera for shot 4, or hands only?
