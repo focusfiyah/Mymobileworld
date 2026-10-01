@@ -519,5 +519,213 @@
    ]
   },
   "costTime": 346
+ },
+ {
+  "t": "2026-10-01 07:41:36",
+  "submitted": "bdcc626e3a41ca797ee0564df38b5fc3",
+  "prompt": "Shot 1 (0-4s): the fingertip points at the small amount of cream on the slots, circles it once in the air, then pulls ba"
+ },
+ {
+  "t": "2026-10-01 07:41:36",
+  "submitted": "5a25a6d68172bf66402c65f2bb5735a2",
+  "prompt": "Shot 1 (0-6s): the hand picks up the stick, brings it toward the lens as if letting you smell it, then sets it down next"
+ },
+ {
+  "t": "2026-10-01 07:41:36",
+  "submitted": "022e793298b3ec922fe1e0cc27e6aa5d",
+  "prompt": "Shot 1 (0-2.5s): the hand pats the towel twice like drying off. Shot 2 (2.5-5s): the hand waits, fingers tapping slowly "
+ },
+ {
+  "t": "2026-10-01 07:41:37",
+  "submitted": "ef236fe21d82c3f8cb4d0c9d65710931",
+  "prompt": "Shot 1 (0-4s): the hand sets the stick down, taps the cap once, then points down toward the bottom of the frame and hold"
+ },
+ {
+  "t": "2026-10-01 07:41:37",
+  "submitted": "f239410366a3d3a2ecb1a4b056a5870a",
+  "prompt": "Shot 1 (0-4s): the hand wipes the extra cream off the slotted top with the tissue in one stroke, leaving only a little i"
+ },
+ {
+  "t": "2026-10-01 07:41:37",
+  "submitted": "40ef6d0767982f92c118fba621aaa0cf",
+  "prompt": "Shot 1 (0-4s): the hand tilts the open stick toward the lens to show the empty slots, then turns it back upright. The ha"
+ },
+ {
+  "t": "2026-10-01 07:41:37",
+  "submitted": "453e532f5ba93ffad0303453efed40f3",
+  "prompt": "Shot 1 (0-3s): the fingernail taps the 100hr badge once. Shot 2 (3-6s): the hand tips the stick side to side a little, a"
+ },
+ {
+  "t": "2026-10-01 07:41:37",
+  "submitted": "d8a0822788f58030f64917d49edbc4f4",
+  "prompt": "Shot 1 (0-5s): the hand brings the stick up toward the lens, gives it one small shake like a person showing a friend, th"
+ },
+ {
+  "t": "2026-10-01 07:43:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand sets the stick down, taps the cap once, then points down toward the bottom of the frame and holds. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840494496-4dl0xslt981.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ef236fe21d82c3f8cb4d0c9d65710931",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840612491-nz0xkjoyco8.mp4"
+   ]
+  },
+  "costTime": 116
+ },
+ {
+  "t": "2026-10-01 07:43:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand tilts the open stick toward the lens to show the empty slots, then turns it back upright. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840481702-36ogb8q7pbq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "40ef6d0767982f92c118fba621aaa0cf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840611774-ur2tk5vilrp.mp4"
+   ]
+  },
+  "costTime": 115
+ },
+ {
+  "t": "2026-10-01 07:43:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-6s): the hand picks up the stick, brings it toward the lens as if letting you smell it, then sets it down next to the peach and gives the peach a little nudge. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840492239-w9xhlvgpkp7.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "5a25a6d68172bf66402c65f2bb5735a2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840621826-wyshvyefmce.mp4"
+   ]
+  },
+  "costTime": 125
+ },
+ {
+  "t": "2026-10-01 07:43:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the fingertip points at the small amount of cream on the slots, circles it once in the air, then pulls back. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840483715-b0qmlfsu53.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "bdcc626e3a41ca797ee0564df38b5fc3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840621971-1t9ezhyh0ej.mp4"
+   ]
+  },
+  "costTime": 125
+ },
+ {
+  "t": "2026-10-01 07:43:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-3s): the fingernail taps the 100hr badge once. Shot 2 (3-6s): the hand tips the stick side to side a little, a casual 'eh' gesture, then holds it still. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840489869-bw5x695brs.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "453e532f5ba93ffad0303453efed40f3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840633203-h2ytz3sk1gl.mp4"
+   ]
+  },
+  "costTime": 136
+ },
+ {
+  "t": "2026-10-01 07:43:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand wipes the extra cream off the slotted top with the tissue in one stroke, leaving only a little in the slots. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840485775-2aqb43q2bkl.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "f239410366a3d3a2ecb1a4b056a5870a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840632620-d4gw27mczk8.mp4"
+   ]
+  },
+  "costTime": 136
+ },
+ {
+  "t": "2026-10-01 07:44:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-2.5s): the hand pats the towel twice like drying off. Shot 2 (2.5-5s): the hand waits, fingers tapping slowly on the folded black t-shirt, then lifts the shirt. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790840488067-hkmjpa1zrld.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "022e793298b3ec922fe1e0cc27e6aa5d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840641871-aod0rvpb6yo.mp4"
+   ]
+  },
+  "costTime": 145
+ },
+ {
+  "t": "2026-10-01 07:44:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): the hand brings the stick up toward the lens, gives it one small shake like a person showing a friend, then holds it steady with the label facing the camera. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The label stays upright. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790836067382-awrwiuf4eid.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "d8a0822788f58030f64917d49edbc4f4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790840681774-kuhs618rq.mp4"
+   ]
+  },
+  "costTime": 189
  }
 ]

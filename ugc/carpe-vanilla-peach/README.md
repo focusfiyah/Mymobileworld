@@ -8,7 +8,7 @@ line ("smells like a peach candle") is a personal claim; keep only if Grace has 
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
-Status: **stills S1–S9 done (slotted top; S4 redone as the tall stick), clip S3 done. Next: the other 8 clips ($1.56) after Ralph OKs. Ask before every paid generation, including redos.**
+Status: **all 9 clips done; rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, `python3 cut.py`, free) sent to Ralph for review. Ask before every paid generation, including redos.**
 
 ## Why this video (research 2026-10-01, free BMC Coach / Daily Virals workflow)
 
