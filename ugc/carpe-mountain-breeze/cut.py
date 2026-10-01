@@ -3,20 +3,20 @@
   python3 cut.py   -> out/carpe_mountain_breeze.mp4 (720x1280, 24fps)
 
 Nothing is slowed down (Ralph 2026-10-01: "why is the whole video in slow motion"). Clips play at 1.0x or faster;
-where a clip is too short for its line, the gap is filled by a punch-in jump cut (V1) or a hold on the opening
-close-up (S1a before S1), and the shots after V4 shift by up to 0.4s. V1 and V5 stop before Seedance added the
-deodorant. SFX are CC0 (Kenney, sfx/LICENSE.md); the whoosh is generated noise.
+the walking selfie (V1) is cut (Ralph): the hook is the S1 close-up pull-back, and "This is Carpe…" is the S1a
+hero close-up plus spare S3/S4 product moments. Shots after V4 shift by up to 0.4s. V5 stops before Seedance added
+the deodorant. SFX are CC0 (Kenney, sfx/LICENSE.md); the whoosh is generated noise.
 """
 import subprocess
 from pathlib import Path
 
 # (source, in, length used from the source, speed, extra video filter); output length = length / speed
 EDL = [
-    ("clips/V1.mp4", 0.0, 2.2, 1.0, ""),
-    ("clips/V1.mp4", 0.2, 1.93, 1.0, "hflip,crop=iw/1.3:ih/1.3,"),       # mirrored punch-in jump cut
+    ("clips/S1.mp4", 0.0, 4.13, 1.0, ""),                               # hook: close-up on the stick, pull back to her
     ("clips/V2.mp4", 0.0, 5.83, 1.0, ""),
-    ("S1a", 0.0, 1.16, 1.0, ""),                                          # hold on the close-up, easing back
-    ("clips/S1.mp4", 0.0, 5.04, 1.0, ""),
+    ("S1a", 0.0, 3.2, 1.0, ""),                                          # hero close-up, slow push-in, label sharp
+    ("clips/S3.mp4", 0.0, 2.1, 1.0, ""),                                 # holding the stick before the twist
+    ("clips/S4.mp4", 3.15, 0.89, 1.0, ""),                               # stick upright, label to camera
     ("clips/S2.mp4", 0.0, 4.0, 1.1, ""),
     ("clips/S3.mp4", 2.1, 1.645, 1.15, ""),
     ("clips/S4.mp4", 0.3, 1.725, 1.15, ""),
@@ -28,7 +28,7 @@ END = 35.03                                          # voiceover length; S10 hol
 WHIP_AT, WHIP = 9.96, 0.24                           # whip-pan V2 -> S1a, centred on the cut
 TICKS = [19.95, 20.3, 20.65, 21.0]                   # knob turns in S3
 CAP = 22.95                                          # cap pops off in V4
-WHIP_INTO = 3                                        # EDL index the whip-pan lands on
+WHIP_INTO = 2                                        # EDL index the whip-pan lands on (V2 -> hero close-up)
 
 inputs, chains, t = [], [], 0.0
 for i, (src, t_in, length, speed, vf) in enumerate(EDL):
@@ -42,7 +42,7 @@ for i, (src, t_in, length, speed, vf) in enumerate(EDL):
     if src == "S1a":
         frames = int(round(out_len * 24))
         inputs += ["-loop", "1", "-framerate", "24", "-t", f"{out_len + 0.1:.3f}", "-i", "stills/S1a.png"]
-        chains.append(f"[{i}:v]scale=1440:2560,zoompan=z='1.05-0.05*on/{frames}':x='iw/2-(iw/zoom/2)':"
+        chains.append(f"[{i}:v]scale=1440:2560,zoompan=z='1+0.06*on/{frames}':x='iw/2-(iw/zoom/2)':"
                       f"y='ih/2-(ih/zoom/2)':d=1:s=720x1280:fps=24,trim=duration={out_len:.3f},setpts=PTS-STARTPTS,"
                       f"setsar=1[v{i}]")
     else:
