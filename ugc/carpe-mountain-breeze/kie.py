@@ -92,7 +92,7 @@ def stills(ids):
         room = [upload(ROOM)] if sid != "S1" and Path(ROOM).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{J['identity_block']} {J['scene_block']}"
-                  + (" The last reference image shows the same bathroom and the same woman: match them (lighting may change as the shot says)." if room else ""))
+                  + ((" " + s.get("room_note", "The last reference image shows the same bathroom and the same woman: match them (lighting may change as the shot says).")) if room else ""))
         url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs + room,
                                                               "aspect_ratio": "9:16", "resolution": "1K"}})
         if url:

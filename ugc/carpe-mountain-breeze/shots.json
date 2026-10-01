@@ -17,18 +17,31 @@
  },
  "still_model": "nano-banana-pro on Kie, 1K, 9:16, refs = Grace + product crops (+ the S1 still as the bathroom ref for every later still)",
  "video_model": "bytedance/seedance-2-mini on Kie, first_frame_url = the approved still, generate_audio: false, 720p, 9:16",
- "identity_block": "The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift.",
+ "identity_block": "The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top unless the shot says otherwise. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift.",
  "scene_block": "Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. Seen from the filming phone's point of view: no phone, tripod or camera is visible anywhere in the frame, and both her hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
  "video_suffix": "Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
  "shots": [
   {
-   "id": "S1",
+   "id": "V1",
    "t": [
     0.0,
     4.7
    ],
    "dur": 5,
-   "beat": "hook",
+   "beat": "hook (walking selfie)",
+   "vo": "Okay, if you just bought Carpe, or you're about to, watch this first.",
+   "room_note": "The last reference image shows the same woman: match her face, hair and jewellery, not that setting.",
+   "still": "Selfie from the phone's point of view, slight high angle (arm extended up and in front, the phone itself not visible): she walks briskly down a sunny residential sidewalk with trees and parked cars soft behind her, looking straight into the lens with raised eyebrows and a knowing half-smile, the capped Mountain Breeze stick in her free hand near her chest. Natural daylight, real phone selfie look.",
+   "video": "Shot 1 (0-5s): handheld selfie while walking briskly toward camera direction: natural bounce and sway of a phone held at arm's length, background moving past, she keeps looking straight into the lens with a knowing look, gives a small nod and lifts the stick slightly. Her mouth stays closed or gently smiling; she does not talk."
+  },
+  {
+   "id": "S1",
+   "t": [
+    4.7,
+    5.85
+   ],
+   "dur": 5,
+   "beat": "whip-pan \u2192 stick at the lens (clip already made)",
    "vo": "Okay, if you just bought Carpe, or you're about to, watch this first.",
    "still": "Medium close-up from the waist up, she stands at the bathroom sink facing the camera and holds the capped stick up near her face, label toward the lens, eyebrows raised like she's about to warn a friend.",
    "video": "Shot 1 (0-5s): one continuous natural handheld move. It opens on the Mountain Breeze stick held very close to the lens, sharp, with her face and the bathroom soft and blurred behind it. The camera eases back smoothly, like someone stepping back with a phone, while focus shifts from the stick to her face, ending on her holding the stick at chest height with her eyebrows raised, exactly as in the last frame. Slight real handheld sway, no zoom pump, no cuts.",
@@ -37,7 +50,7 @@
   {
    "id": "S2",
    "t": [
-    4.7,
+    5.85,
     7.9
    ],
    "dur": 4,
@@ -71,64 +84,40 @@
    "video": "Shot 1 (0-4s): her fingertip points at the small amount of cream, circles it once in the air, then she pulls the stick back a little."
   },
   {
-   "id": "S5",
+   "id": "V2",
    "t": [
     14.8,
     18.6
    ],
    "dur": 4,
-   "beat": "too much",
+   "beat": "pit stain, eye-roll",
    "vo": "Too much is how you get that white crusty stuff people post about.",
-   "still": "Close-up at chest height: the slotted top has far too much white cream piled on it; she holds a folded tissue next to it, slight grimace.",
-   "video": "Shot 1 (0-4s): she wipes the extra cream off the slotted top with the tissue in one stroke, leaving only a little in the slots."
+   "still": "Medium shot in the same bathroom: she now wears a light grey crew-neck cotton t-shirt instead of the tank top, one arm lifted, pointing with her other index finger at a clearly visible dark damp sweat stain on the grey fabric under her arm, mid eye-roll, lips pressed in a frustrated sigh.",
+   "video": "Shot 1 (0-4s): she lifts her arm, points at the dark sweat stain under her arm, rolls her eyes and lets out a frustrated sigh with a small head shake, then drops her arm. She does not talk."
   },
   {
-   "id": "S6",
+   "id": "V4",
    "t": [
     18.6,
-    20.3
-   ],
-   "dur": 4,
-   "beat": "dry skin, at night",
-   "vo": "Put it on dry skin at night,",
-   "still": "Medium shot, evening, warm bathroom light: she raises one arm overhead and holds the open stick just below her underarm, about to apply it; a towel over her shoulder.",
-   "video": "Shot 1 (0-4s): she pats her underarm dry with the towel once, then glides the stick up and down twice, a light thin layer, and lowers her arm."
-  },
-  {
-   "id": "S7",
-   "t": [
-    20.3,
-    22.4
-   ],
-   "dur": 4,
-   "beat": "let it dry, then the shirt",
-   "vo": "and let it dry before your shirt goes on,",
-   "still": "Medium shot, same evening light: she stands at the sink with arms slightly away from her body, holding a plain black t-shirt, glancing at the camera.",
-   "video": "Shot 1 (0-2s): she waits a beat, arms slightly out, with a little impatient look. Shot 2 (2-4s): she pulls the black t-shirt on over her head."
-  },
-  {
-   "id": "S8",
-   "t": [
-    22.4,
     23.8
    ],
-   "dur": 4,
-   "beat": "again in the morning",
-   "vo": "then again in the morning.",
-   "still": "Medium shot, bright morning daylight in the same bathroom, hair slightly messier: she raises one arm and holds the stick under it.",
-   "video": "Shot 1 (0-4s): she glides the stick under her arm once, a quick light swipe, then lowers her arm and caps it."
+   "dur": 5,
+   "beat": "tight b-roll: cap off + swipe",
+   "vo": "Put it on dry skin at night, and let it dry before your shirt goes on. Then again in the morning.",
+   "still": "Tight, clean macro close-up: her hand (long almond French-tip nails, gold watch) pulls the orange cap off the Mountain Breeze stick, a little smooth white cream showing through the slots; her raised arm's clean, smooth underarm skin is just behind, softly out of focus. Soft even light, shallow depth of field.",
+   "video": "Shot 1 (0-1.5s): the cap comes off in one smooth pull. Shot 2 (1.5-5s): tight close-up, the stick glides smoothly up and down once across the underarm skin, leaving a thin, even, creamy white layer that shows the lotion's smooth texture. Slow, steady, clean camera."
   },
   {
-   "id": "S9",
+   "id": "V5",
    "t": [
     23.8,
     31.0
    ],
-   "dur": 8,
-   "beat": "label claims",
+   "dur": 7,
+   "beat": "crisp dry grey tee, tug",
    "vo": "The label says all-day fresh, and it's clinically tested for up to a hundred hours, but that's when you use it like this.",
-   "still": "Close-up: she holds the capped stick upright next to her face, the round 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge facing the camera, her fingernail resting beside it.",
-   "video": "Shot 1 (0-4s): her fingernail taps the round badge once and she holds it steady. Shot 2 (4-8s): she tips the stick side to side a little, a casual 'eh, use it right' gesture with a small head tilt, then holds it still."
+   "still": "Medium shot in the same bathroom: she wears a crisp, perfectly dry light grey crew-neck t-shirt (no stain anywhere), one arm slightly lifted, pinching and tugging the dry fabric under her arm toward the camera, a confident satisfied smile, looking into the lens.",
+   "video": "Shot 1 (0-3.5s): she lifts her arm a little and confidently tugs the dry grey fabric under her arm to show it off, the fabric clearly dry. Shot 2 (3.5-7s): she drops her arm, smooths the shirt and gives the camera a small confident nod and smile. She does not talk."
   },
   {
    "id": "S10",
@@ -136,7 +125,7 @@
     31.0,
     35.0
    ],
-   "dur": 5,
+   "dur": 4,
    "beat": "scent + CTA",
    "vo": "This one's Mountain Breeze. There are other scents too. It's linked below.",
    "still": "Medium close-up: she holds the capped stick close to the lens, the teal 'MOUNTAIN BREEZE' panel sharp, a relaxed smile.",
@@ -148,5 +137,6 @@
    "id": "S1a",
    "still": "Extreme close-up, phone camera: her hand holds the capped Mountain Breeze stick very close to the lens so it fills most of the frame, front label facing the camera, the white 'carpe' wordmark and the teal 'MOUNTAIN BREEZE' panel in sharp focus. Behind it, the same woman's face and the same bathroom as in the last reference image are soft and heavily blurred (shallow depth of field, natural phone portrait blur), still recognisable. Natural light, real and unpolished."
   }
- ]
+ ],
+ "visual_plan": "Ralph 2026-10-01: 5 visuals (walking selfie, grey-tee sweat stain, whip-pan to the stick at the lens, tight cap-off + swipe b-roll, crisp dry grey tee tug) laid over the existing voiceover."
 }
