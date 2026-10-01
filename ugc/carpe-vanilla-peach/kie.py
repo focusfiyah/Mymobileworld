@@ -6,7 +6,7 @@
 Key: KIE_API_KEY env var, or none if the environment proxy injects it for api.kie.ai. Every request and
 response goes to kie_log.json. Failed Kie tasks cost $0.
 """
-import hashlib, json, os, subprocess, sys, time
+import hashlib, json, os, subprocess, sys, threading, time
 from pathlib import Path
 import requests
 
@@ -24,10 +24,14 @@ LOG = Path("kie_log.json")
 CACHE = Path("upload_cache.json")
 
 
+_LOCK = threading.Lock()
+
+
 def log(entry):
-    data = json.loads(LOG.read_text()) if LOG.exists() else []
-    data.append({"t": time.strftime("%Y-%m-%d %H:%M:%S"), **entry})
-    LOG.write_text(json.dumps(data, indent=1))
+    with _LOCK:  # clips run in parallel threads
+        data = json.loads(LOG.read_text()) if LOG.exists() else []
+        data.append({"t": time.strftime("%Y-%m-%d %H:%M:%S"), **entry})
+        LOG.write_text(json.dumps(data, indent=1))
 
 
 def upload(path):
@@ -98,16 +102,23 @@ def stills(ids):
 
 
 def clips(ids):
-    for sid in ids:
-        s = SHOTS[sid]
-        first = upload(f"stills/{sid}.png")
-        prompt = f"{s['video']} {J['identity_block']} {J['video_suffix']}"
-        url = run_task({"model": "bytedance/seedance-2-mini", "input": {
-            "prompt": prompt, "first_frame_url": first, "generate_audio": False,
-            "resolution": "720p", "aspect_ratio": "9:16", "duration": s.get("dur", 4)}})
-        if url:
-            fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok")
+    from concurrent.futures import ThreadPoolExecutor
+    for sid in ids:  # upload first frames up front (cached), then render all clips in parallel
+        upload(f"stills/{sid}.png")
+    with ThreadPoolExecutor(len(ids)) as ex:
+        list(ex.map(clip, ids))
     sheet("clips", ".mp4")
+
+
+def clip(sid):
+    s = SHOTS[sid]
+    first = upload(f"stills/{sid}.png")
+    prompt = f"{s['video']} {J['identity_block']} {J['video_suffix']}"
+    url = run_task({"model": "bytedance/seedance-2-mini", "input": {
+        "prompt": prompt, "first_frame_url": first, "generate_audio": False,
+        "resolution": "720p", "aspect_ratio": "9:16", "duration": s.get("dur", 4)}})
+    if url:
+        fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
 def sheet(kind, ext):
