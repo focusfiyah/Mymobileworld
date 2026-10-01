@@ -1,45 +1,60 @@
-"""Free cut: the 9 clips timed to the Grace B voiceover, a whip-pan into S1, soft CC0 SFX.
+"""Free cut: an edit list of clip pieces laid end to end under the Grace B voiceover, a whip-pan into S1, CC0 SFX.
 
   python3 cut.py   -> out/carpe_mountain_breeze.mp4 (720x1280, 24fps)
 
-Shot windows come from shots.json (word timings of the trimmed voiceover). IN = where each clip starts being used;
-S1 is slowed to fill its 6.2s window. SFX are CC0 (Kenney, sfx/LICENSE.md); the whoosh is generated noise.
+Nothing is slowed down (Ralph 2026-10-01: "why is the whole video in slow motion"). Clips play at 1.0x or faster;
+where a clip is too short for its line, the gap is filled by a punch-in jump cut (V1) or a hold on the opening
+close-up (S1a before S1), and the shots after V4 shift by up to 0.4s. V1 and V5 stop before Seedance added the
+deodorant. SFX are CC0 (Kenney, sfx/LICENSE.md); the whoosh is generated noise.
 """
-import json, subprocess
+import subprocess
 from pathlib import Path
 
-J = json.loads(Path("shots.json").read_text())
-IN = {"S3": 2.3, "S4": 0.3, "V4": 0.3}              # skip lead-ins so the action lands on the words
-OUT = {"V1": 2.2, "V5": 3.35}                        # Seedance added the deodorant after these points: cut before it
-WHIP_AT, WHIP = 9.96, 0.24                          # whip-pan V2 -> S1, centred on the cut
+# (source, in, length used from the source, speed, extra video filter); output length = length / speed
+EDL = [
+    ("clips/V1.mp4", 0.0, 2.2, 1.0, ""),
+    ("clips/V1.mp4", 0.2, 1.93, 1.0, "hflip,crop=iw/1.3:ih/1.3,"),       # mirrored punch-in jump cut
+    ("clips/V2.mp4", 0.0, 5.83, 1.0, ""),
+    ("S1a", 0.0, 1.16, 1.0, ""),                                          # hold on the close-up, easing back
+    ("clips/S1.mp4", 0.0, 5.04, 1.0, ""),
+    ("clips/S2.mp4", 0.0, 4.0, 1.1, ""),
+    ("clips/S3.mp4", 2.1, 1.645, 1.15, ""),
+    ("clips/S4.mp4", 0.3, 1.725, 1.15, ""),
+    ("clips/V4.mp4", 0.3, 4.74, 1.0, ""),
+    ("clips/V5.mp4", 0.0, 3.35, 1.0, ""),
+    ("clips/S10.mp4", 0.0, 4.04, 1.0, ""),
+]
+END = 35.03                                          # voiceover length; S10 holds its last frame to here
+WHIP_AT, WHIP = 9.96, 0.24                           # whip-pan V2 -> S1a, centred on the cut
 TICKS = [19.95, 20.3, 20.65, 21.0]                   # knob turns in S3
 CAP = 22.95                                          # cap pops off in V4
+WHIP_INTO = 3                                        # EDL index the whip-pan lands on
 
-shots = J["shots"]
-end = shots[-1]["t"][1]
-inputs, chains = [], []
-for i, s in enumerate(shots):
-    t0, t1 = s["t"]
-    # pad half the whip on each side of the cut so the crossfade does not shift anything after it
-    if s["id"] == "V2":
-        t1 += WHIP / 2
-    if s["id"] == "S1":
-        t0 -= WHIP / 2
-    dur = t1 - t0
-    clip_len = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                                              "-of", "csv=p=0", f"clips/{s['id']}.mp4"]))
-    usable = min(clip_len, OUT.get(s["id"], clip_len)) - IN.get(s["id"], 0)
-    speed = max(1.0, dur / usable)  # slow a clip (or its usable part) that is shorter than its window
-    inputs += ["-i", f"clips/{s['id']}.mp4"]
-    chains.append(f"[{i}:v]trim=start={IN.get(s['id'], 0)}:end={IN.get(s['id'], 0) + usable:.3f},setpts=(PTS-STARTPTS)*{speed:.4f},"
-                  f"tpad=stop_mode=clone:stop_duration=1,trim=duration={dur:.3f},setpts=PTS-STARTPTS,"
-                  f"scale=720:1280,setsar=1,fps=24[v{i}]")
-k = next(i for i, s in enumerate(shots) if s["id"] == "S1")
-n = len(shots)
-chains.append("".join(f"[v{i}]" for i in range(k)) + f"concat=n={k}:v=1:a=0[a]")
-chains.append("".join(f"[v{i}]" for i in range(k, n)) + f"concat=n={n - k}:v=1:a=0[b]")
-a_len = WHIP_AT + WHIP / 2
-chains.append(f"[a][b]xfade=transition=slideleft:duration={WHIP}:offset={a_len - WHIP:.3f},"
+inputs, chains, t = [], [], 0.0
+for i, (src, t_in, length, speed, vf) in enumerate(EDL):
+    out_len = length / speed
+    if i == WHIP_INTO - 1:
+        out_len += WHIP / 2                          # pad both sides of the whip so the crossfade shifts nothing
+    if i == WHIP_INTO:
+        out_len += WHIP / 2
+    if i == len(EDL) - 1:
+        out_len = END - t
+    if src == "S1a":
+        frames = int(round(out_len * 24))
+        inputs += ["-loop", "1", "-framerate", "24", "-t", f"{out_len + 0.1:.3f}", "-i", "stills/S1a.png"]
+        chains.append(f"[{i}:v]scale=1440:2560,zoompan=z='1.05-0.05*on/{frames}':x='iw/2-(iw/zoom/2)':"
+                      f"y='ih/2-(ih/zoom/2)':d=1:s=720x1280:fps=24,trim=duration={out_len:.3f},setpts=PTS-STARTPTS,"
+                      f"setsar=1[v{i}]")
+    else:
+        inputs += ["-i", src]
+        chains.append(f"[{i}:v]trim=start={t_in}:end={t_in + length:.3f},setpts=(PTS-STARTPTS)/{speed},{vf}"
+                      f"scale=720:1280,setsar=1,fps=24,tpad=stop_mode=clone:stop_duration=2,"
+                      f"trim=duration={out_len:.3f},setpts=PTS-STARTPTS[v{i}]")
+    t += out_len - (WHIP if i == WHIP_INTO else 0)
+n = len(EDL)
+chains.append("".join(f"[v{i}]" for i in range(WHIP_INTO)) + f"concat=n={WHIP_INTO}:v=1:a=0[a]")
+chains.append("".join(f"[v{i}]" for i in range(WHIP_INTO, n)) + f"concat=n={n - WHIP_INTO}:v=1:a=0[b]")
+chains.append(f"[a][b]xfade=transition=slideleft:duration={WHIP}:offset={WHIP_AT - WHIP / 2:.3f},"
               f"dblur=angle=0:radius=60:enable='between(t,{WHIP_AT - WHIP / 2 - 0.04:.3f},{WHIP_AT + WHIP / 2 + 0.04:.3f})',"
               f"format=yuv420p[vout]")
 # audio: voiceover + whoosh + knob ticks + cap pop
@@ -50,14 +65,14 @@ tick, click, noise = n + 1, n + 2, n + 3
 sfx = [f"[{noise}:a]highpass=f=900,lowpass=f=6000,afade=t=in:d=0.15,afade=t=out:st=0.17:d=0.18,volume=0.35,"
        f"adelay={int((WHIP_AT - 0.2) * 1000)}:all=1[wh]",
        f"[{tick}:a]asplit={len(TICKS)}" + "".join(f"[t{j}]" for j in range(len(TICKS)))]
-for j, t in enumerate(TICKS):
-    sfx.append(f"[t{j}]volume=0.25,adelay={int(t * 1000)}:all=1[d{j}]")
+for j, tt in enumerate(TICKS):
+    sfx.append(f"[t{j}]volume=0.25,adelay={int(tt * 1000)}:all=1[d{j}]")
 sfx.append(f"[{click}:a]volume=0.35,adelay={int(CAP * 1000)}:all=1[cap]")
 mix = f"[{vo}:a][wh]" + "".join(f"[d{j}]" for j in range(len(TICKS))) + "[cap]"
-sfx.append(f"{mix}amix=inputs={len(TICKS) + 3}:normalize=0:duration=first,apad,atrim=duration={end},"
+sfx.append(f"{mix}amix=inputs={len(TICKS) + 3}:normalize=0:duration=first,apad,atrim=duration={END},"
            f"loudnorm=I=-16:TP=-1.5,aresample=44100[aout]")
 Path("out").mkdir(exist_ok=True)
 subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chains + sfx),
-                "-map", "[vout]", "-map", "[aout]", "-t", f"{end}", "-c:v", "libx264", "-crf", "19", "-preset", "medium",
+                "-map", "[vout]", "-map", "[aout]", "-t", f"{END}", "-c:v", "libx264", "-crf", "19", "-preset", "medium",
                 "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", "out/carpe_mountain_breeze.mp4"], check=True)
 print("out/carpe_mountain_breeze.mp4")
