@@ -60,10 +60,33 @@ products follow the same rules.
   animated CTA. No burned-in captions unless Ralph asks.
 
 ## 6. Production notes
+- **Time + cost discipline (Ralph 2026-10-01, after Carpe v2 took ~4h15m and $6.60 vs a $2.50 quote):**
+  1. Lock the WHOLE plan before the first paid call, in one message: script, every shot, outfit, setting, face or
+     no face, voiceover vs lip sync, total cost. One approval, then no mid-job redesigns without a new quote.
+  2. One test clip before any batch.
+  3. QC before sending anything, so Ralph never finds it first: no clip slower than 1.0x, no face on screen while
+     the voice talks without lip sync, no product cut off or smeared (lip sync near the product), no forehead
+     wrinkles, outfit/product consistent in every shot, frame-by-frame check where hands/product cross the face.
+  4. Report running total vs quote at every step.
 - Voices: ElevenLabs **Grace B** `bGrsdLmwBbYUgHRuMFOI` (eleven_v4) for voiceovers; Grace's Seedance clone
   `3dmagVYZFvrGkBbWWmGC` for AI skit dialogue.
 - Before the first paid image: confirm the real product (top, cap, label, size) and the hand/person details
   (nail length). Ask before every paid generation, with the exact cost. Free fixes first.
+- **Outfit changes go in the TEXT too** (Carpe v2, 2026-10-01, cost $1.52): the stills were edited to a grey tee but the
+  video prompt's identity text still said "blue tank top", and Seedance redrew the tank in all 8 clips. When the
+  look changes, update every prompt block, then grep the prompts for the old wording before rendering.
+- **A product description in the prompt puts the product in the shot** (Carpe v2, 2026-10-01, $0.41): "no deodorant in this
+  shot" lost to the identity block's detailed stick description; Seedance added it anyway. For no-product shots,
+  leave the product text out of the prompt entirely. Also keep faces relaxed in stills ("raised eyebrows" = forehead
+  wrinkles the clip copies).
+- **Voiceover ads: keep her mouth out of frame while the voice talks** (Ralph 2026-10-01, "why are her lips not
+  moving"): Ralph then preferred lip sync over chin-down crops (crops cut the product off): `lipsync.py` in
+  `ugc/carpe-mountain-breeze/`, $0.04/s, submit one at a time (parallel calls get "server busy", $0).
+  Lip sync smears anything that passes in front of the mouth (the stick): check every frame where the product
+  crosses the face and swap those frames back to the original clip
+  (or keep only the lip-synced mouth in a soft oval over the original; the lip-synced clip runs ~2 frames late).
+- **Test ONE clip before any batch** (Ralph 2026-10-01, after $1.93 was lost on two prompt mistakes in one day): render
+  the cheapest affected clip, check it, then ask for the rest. Report the running total vs the quote at every step.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
 
 ## 7. Results log (add one line per job)
@@ -71,6 +94,9 @@ products follow the same rules.
   `fungix/grace-script-angles.md`.
 - 2026-10-01 Carpe Vanilla Peach: 36.6s hands-only tips ad, $3.52 vs $2.53 planned; waiting on notes.
   Open: the "peach candle" scent line needs Grace to have smelled it.
+- 2026-10-01 Carpe Mountain Breeze v2: AI Grace on camera from her photo, Ralph's structure (curiosity hook → pain →
+  solution → urgency CTA, real seasonal urgency), grey tee throughout, face off the demo shots. 35s, $6.60 incl. $0.68 lip sync ($1.93 lost
+  to prompt bugs). Free fixes that worked: PIL background blur, recolor, chin-down crops, pause trim, whip-pan.
 
 ## 8. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
