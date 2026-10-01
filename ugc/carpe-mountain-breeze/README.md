@@ -11,8 +11,8 @@ the word "wicking" 2026-10-01); name the scent and mention other scents, no smel
 Status: **rough cut v2 sent (35.0s, `out/carpe_mountain_breeze.mp4`). Ralph's notes 2026-10-01: V1 redone (new still: relaxed
 brows, no wrinkles, no deodorant while walking) and V5 redone ($0.50). Seedance still added the stick to both (identity
 text describes the product), so `cut.py` uses V1 0–2.2s and V5 0–3.35s. Free no-slow-motion test (cut v3): nothing
-slowed, V1 filled with a mirrored punch-in jump cut, S1 opens on a held close-up; waiting on Ralph (paid option: remake
-V1 5s, S1 7s, V5 5s with brisk movement, $0.70). V5's tug is still a
+slowed, V1 filled with a mirrored punch-in jump cut, S1 opens on a held close-up; Ralph 2026-10-01: too much spent today.
+NO further paid steps unless Ralph asks for one; free edits only. V5's tug is still a
 chest-level pinch, not an underarm tug. Spent $5.92 Kie (1,184.8 credits). Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
