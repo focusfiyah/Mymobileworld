@@ -15,6 +15,7 @@ exec(open("kie.py").read().split("if __name__")[0])          # upload, run_task,
 # shot: (clip, in, length used, voiceover start, voiceover end)  -- times match cut.py's EDL
 SEG = {
     "S1": ("clips/S1.mp4", 0.0, 4.13, 0.0, 4.13),
+    "S1j": ("clips/S1.mp4", 3.1, 1.83, 2.3, 4.13),           # after the jump cut: stick at her chest, mouth clear
     "V2": ("clips/V2.mp4", 0.0, 5.83, 4.13, 9.96),
     "V5": ("clips/V5.mp4", 0.0, 3.35, 27.47, 30.82),
     "S10": ("clips/S10.mp4", 0.0, 4.04, 30.82, 35.03),
