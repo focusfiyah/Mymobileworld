@@ -374,5 +374,93 @@
   "t": "2026-10-01 07:11:25",
   "submitted": "1566d31356d554d6112fed178446e1f0",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up of the slotted orange top with only a sm"
+ },
+ {
+  "t": "2026-10-01 07:19:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up of the slotted orange top with only a small, pea-sized amount of pale pinkish-white cream showing through the slots; the index fingertip hovers just beside it. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Setting: a real bathroom vanity, warm cream countertop, soft window light from the left, a folded white towel slightly out of focus. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little messy like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom vanity and light: match it.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834869197-oe0d6iqn5oe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834871359-lys02rzzo0l.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834873328-fmgt731zq2b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790837316699-fgljiplrzfu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834877282-moyyc6h9spj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790836067382-awrwiuf4eid.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1566d31356d554d6112fed178446e1f0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1566d31356d554d6112fed178446e1f0_0_1790839177.jpeg"
+   ]
+  },
+  "costTime": 493
+ },
+ {
+  "t": "2026-10-01 07:19:43",
+  "submitted": "9f5033b5d8d86959aee0c083dd7bea78",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up: the slotted orange top with far too much pale"
+ },
+ {
+  "t": "2026-10-01 07:20:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up: the slotted orange top with far too much pale pinkish-white cream piled on it; the hand holds a folded tissue next to it. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Setting: a real bathroom vanity, warm cream countertop, soft window light from the left, a folded white towel slightly out of focus. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little messy like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom vanity and light: match it.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834869197-oe0d6iqn5oe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834871359-lys02rzzo0l.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834873328-fmgt731zq2b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790837316699-fgljiplrzfu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834877282-moyyc6h9spj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790836067382-awrwiuf4eid.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9f5033b5d8d86959aee0c083dd7bea78",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790839213922-xu93vbhqjc.jpg"
+   ]
+  },
+  "costTime": 30
+ },
+ {
+  "t": "2026-10-01 07:20:16",
+  "submitted": "6915f8764f5cab87517b016dad4c2d1f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the vanity: the uncapped stick stands next "
+ },
+ {
+  "t": "2026-10-01 07:24:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the vanity: the uncapped stick stands next to one ripe peach; the hand rests beside them. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white shield badge reading '100hr' and a small peach-coloured 'VANILLA PEACH' panel, under the cap a hard orange plastic top with several parallel slots (exactly as in the slotted-top reference image), where pale pinkish-white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Keep the hand and product identical in every frame: no morphing, no extra fingers, no changing nail colour or length, no label drift. Setting: a real bathroom vanity, warm cream countertop, soft window light from the left, a folded white towel slightly out of focus. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little messy like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same bathroom vanity and light: match it.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834869197-oe0d6iqn5oe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834871359-lys02rzzo0l.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834873328-fmgt731zq2b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790837316699-fgljiplrzfu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790834877282-moyyc6h9spj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790836067382-awrwiuf4eid.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6915f8764f5cab87517b016dad4c2d1f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790839488136-rhmjcu3eqf.jpg"
+   ]
+  },
+  "costTime": 272
  }
 ]
