@@ -8,7 +8,7 @@ line ("smells like a peach candle") is a personal claim; keep only if Grace has 
 One video, 9:16, **36s**. The only character is the hand in `refs/hand_sheet.jpg`. Voiceover:
 ElevenLabs **Grace B voice** (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4) → `vo/voiceover.mp3`. Product look:
 `refs/product_sheet_v2.jpg` (Vanilla Peach panels only).
-Status: **all 9 clips done; rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, `python3 cut.py`, free) sent to Ralph for review. Ask before every paid generation, including redos.**
+Status: **v2 requested by Grace (2026-10-01): Mountain Breeze (`refs/mountain_breeze.jpg`) instead of Vanilla Peach, a real person demonstrating every step instead of hands only, same Grace B voice. Waiting on Ralph: who is on camera, voiceover vs talking to camera, 100hr line (badge not on the Mountain Breeze front), scent line. Plan ≈ $2.50 (voiceover) / ≈ $3.30 (lip sync). v1 rough cut `out/carpe_vanilla_peach_roughcut.mp4` (36.6s, $3.52). Ask before every paid generation, including redos.**
 
 ## Why this video (research 2026-10-01, free BMC Coach / Daily Virals workflow)
 
