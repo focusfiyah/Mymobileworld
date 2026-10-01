@@ -13,10 +13,11 @@ import requests
 API = "https://api.kie.ai/api/v1/jobs"
 UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
-SHOTS = {s["id"]: s for s in J["shots"] + J["alt_hooks"]}
+SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
-REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/product_front.png", "refs/product_open.png"]
-ROOM = "stills/S2.png"  # first approved still doubles as the room reference
+REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/product_front.png", "refs/product_open.png",
+        "refs/product_profile.png"]
+ROOM = "stills/S1.png"  # first approved still doubles as the room reference
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json")
@@ -83,7 +84,7 @@ def stills(ids):
     refs = [upload(p) for p in REFS]
     for sid in ids:
         s = SHOTS[sid]
-        room = [upload(ROOM)] if sid != "S2" and Path(ROOM).exists() else []
+        room = [upload(ROOM)] if sid != "S1" and Path(ROOM).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{J['identity_block']} {J['scene_block']}"
                   + (" The last reference image shows the same bathroom vanity and light: match it." if room else ""))
