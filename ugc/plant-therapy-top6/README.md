@@ -29,7 +29,7 @@ So: a starter guide ("what each one is for"), one how-to, two honest cautions, a
 ## Cost plan
 | Step | Cost |
 |---|---|
-| Voiceover (~560 chars, Grace B) | ElevenLabs plan characters |
+| Voiceover (684 chars, Grace B) | ElevenLabs plan characters |
 | Still S1 (check hand + bottles + room) | $0.09 |
 | Stills S2–S10 | $0.81 |
 | Test clip S6 (drops into the diffuser, hardest shot) | $0.16 |
