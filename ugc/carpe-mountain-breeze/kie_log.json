@@ -1,0 +1,31 @@
+[
+ {
+  "t": "2026-10-01 15:15:11",
+  "submitted": "272928bd0279966dd485fd0e88941325",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up from the waist up, she stands at the ba"
+ },
+ {
+  "t": "2026-10-01 15:15:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up from the waist up, she stands at the bathroom sink facing the camera and holds the capped stick up near her face, label toward the lens, eyebrows raised like she's about to warn a friend. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Setting: a real, lived-in home bathroom: white sink vanity, mirror, a folded white towel and a toothbrush cup, soft natural light. The phone is propped on the counter filming her, so both hands are free. Realistic unretouched skin texture, casual and a little messy like a real creator filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867700429-hgcfziweinf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867703181-i3mqsqm67vq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867706622-h8jlcutzzrq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790867709475-nlbkp6y78rf.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "272928bd0279966dd485fd0e88941325",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1790867740514-dgv92qr3w8l.jpg"
+   ]
+  },
+  "costTime": 28
+ }
+]
