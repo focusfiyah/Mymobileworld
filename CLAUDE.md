@@ -59,7 +59,7 @@ not in a new file.
   tee, Grace B voiceover. Cut v9 APPROVED, `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4`; in Drive (Grace Tiktok assets/Carpe Mountain Breeze ad (2026-10-01)); $6.60 Kie. README Status line.
 
 - **Plant Therapy Top 6 oils (Grace), 2026-10-01:** hands-only starter-guide ad, 18.6s, 7 shots. Cut v1
-  `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph (v2 = + on-screen hook text, free); $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
+  `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph (v3 = + on-screen hook in the Murano classic caption style, free); $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
