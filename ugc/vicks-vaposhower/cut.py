@@ -1,25 +1,25 @@
-"""Free cut: 7 clips on the trimmed Grace B voiceover, real-photo label pop-ups, soft CC0 click on each pop-up.
+"""Free cut: 7 clips on the trimmed Grace B voiceover (vo/voiceover_tight.mp3), hook text on S1, the box's own
+"10% MORE" banner pop-up on S3, a soft CC0 click on each pop-up, a quiet shower-water bed under the shower shots.
 
-  python3 cut.py   -> out/plant_therapy_top6.mp4 (720x1280, 24fps)
+  python3 cut.py   -> out/vicks_vaposhower.mp4 (720x1280, 24fps)
 
-Windows come from shots.json (vo/words_trimmed.json). Label cards (inserts/*.png) are crops of Plant Therapy's own
-product photo (refs/product_row_full.jpg), approved by Ralph 2026-10-01. SFX are CC0 (sfx/LICENSE.md).
+Windows come from shots.json (vo/words_trimmed.json). Overlays: inserts/hook.png (PIL), inserts/banner.png (crop of
+Vicks' own packshot refs/box_front.png). SFX: sfx/click.ogg (CC0, see sfx/LICENSE.md); the water bed is ffmpeg noise.
 """
 import json, subprocess
 from pathlib import Path
 
 J = json.loads(Path("shots.json").read_text())
-# Each shot = pieces that fill its window. ("clip", file, start) plays from start; ("hold", png, dur, cx, cy, z) is a still
-# frame with a slow push-in toward (cx, cy) by zoom z. The last piece fills whatever is left of the window.
+# Each shot = pieces that fill its window. ("clip", file, start[, dur]) plays from start; the last piece fills what is
+# left of the window (a clip that runs out freezes on its last frame). ("hold", png, dur, cx, cy, z) = still frame
+# with a slow push-in toward (cx, cy) by zoom z.
 PIECES = {
-    "S5": [("clip", "clips/S5.mp4", 0.2)],                       # 0.2-1.84s; at 2.6s the bottle turns up and its label drifts
-    "S6": [("clip", "clips/S6.mp4", 0.0, 1.40),                  # drops; at 1.5s a cap appears on the open bottle
-           ("hold", "frames/S6_hold.png", None, 0.35, 0.65, 0.12)],    # push in on the dish of carrier oil
-    "S7": [("clip", "clips/S1.mp4", 2.55, 1.45),                 # continues the hook: hand sweeps the six bottles + box
-           ("hold", "frames/S1_end.png", None, 0.30, 0.62, 0.30)],     # S7 clip itself drew 8 bottles and lost the box
+    "S5": [("clip", "clips/S5.mp4", 0.1)],   # 0.1-1.74s; two pale hands walk in at 2.2s
 }
-CARDS = [("lavender", 2.62, 1.0), ("peppermint_eucalyptus", 4.06, 1.5),   # (card, start, duration): on the oil's name
-         ("lemon", 6.66, 0.95), ("teatree", 7.74, 1.0)]
+# (png, start, duration, y, click): pop in with a short scale-up, fade out
+CARDS = [("hook", 0.15, 2.9, 170, False),
+         ("banner", 9.80, 1.6, 860, True)]   # "ten percent more" starts at 9.87s
+WATER = (12.44, 16.64)   # S4 + S5: tablet in the shower stream
 
 shots = J["shots"]
 inputs, chains, labels = [], [], []
@@ -34,10 +34,10 @@ for i, s in enumerate(shots):
         if p[0] == "clip":
             d = left if last else p[3]
             j = add(["-i", p[1]])
-            chains.append(f"[{j}:v]trim=start={p[2]},setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration=1,"
+            chains.append(f"[{j}:v]trim=start={p[2]},setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration=2,"
                           f"trim=duration={d:.3f},setpts=PTS-STARTPTS,scale=720:1280,setsar=1,fps=24[p{i}_{k}]")
         else:
-            d = left; nf = int(round(d * 24)) + 1
+            d = left if last else p[2]; nf = int(round(d * 24)) + 1
             j = add(["-i", p[1]])
             chains.append(f"[{j}:v]scale=1440:2560,zoompan=z='1+{p[5]}*on/{nf}':x='iw*{p[3]}-iw/zoom*{p[3]}':"
                           f"y='ih*{p[4]}-ih/zoom*{p[4]}':d={nf}:s=720x1280:fps=24,trim=duration={d:.3f},"
@@ -45,23 +45,28 @@ for i, s in enumerate(shots):
         left -= d; plabels.append(f"[p{i}_{k}]")
     chains.append(f"{''.join(plabels)}concat=n={len(plabels)}:v=1:a=0[v{i}]")
     labels.append(f"[v{i}]")
-n = len(shots); total = shots[-1]["t"][1]
-chains.append(f"{''.join(labels)}concat=n={n}:v=1:a=0[c0]")
-for k, (name, st, d) in enumerate(CARDS):     # each card pops in with a short scale-up and fades out
+total = shots[-1]["t"][1]
+chains.append(f"{''.join(labels)}concat=n={len(shots)}:v=1:a=0[c0]")
+for k, (name, st, d, y, _) in enumerate(CARDS):
     j = add(["-loop", "1", "-t", f"{d + 0.2}", "-i", f"inserts/{name}.png"])
-    chains.append(f"[{j}:v]format=rgba,scale=w='720*min(1,0.9+t*0.8)':h=-1:eval=frame,"
+    chains.append(f"[{j}:v]format=rgba,scale=w='iw*min(1,0.9+t*0.8)':h=-1:eval=frame,"
                   f"fade=t=out:st={d - 0.15:.2f}:d=0.15:alpha=1,setpts=PTS-STARTPTS+{st}/TB[k{k}]")
-    chains.append(f"[c{k}][k{k}]overlay=x=(W-w)/2:y=(H-h)/2:enable='between(t,{st},{st + d})':eof_action=pass[c{k + 1}]")
+    chains.append(f"[c{k}][k{k}]overlay=x=(W-w)/2:y={y}:enable='between(t,{st},{st + d})':eof_action=pass[c{k + 1}]")
 chains.append(f"[c{len(CARDS)}]format=yuv420p[vout]")
+
 a = add(["-i", "vo/voiceover_tight.mp3"]); click = add(["-i", "sfx/click.ogg"])
-sfx = [f"[{click}:a]asplit={len(CARDS)}" + "".join(f"[t{k}]" for k in range(len(CARDS)))]
-for k, (_, st, _) in enumerate(CARDS):
-    sfx.append(f"[t{k}]volume=0.25,adelay={int(st * 1000)}:all=1[d{k}]")
-sfx.append(f"[{a}:a]" + "".join(f"[d{k}]" for k in range(len(CARDS))) +
-           f"amix=inputs={len(CARDS) + 1}:normalize=0:duration=first,apad,atrim=duration={total},"
+pops = [st for (_, st, _, _, c) in CARDS if c]
+w0, w1 = WATER
+sfx = [f"[{click}:a]asplit={len(pops)}" + "".join(f"[t{k}]" for k in range(len(pops)))]
+sfx += [f"[t{k}]volume=0.25,adelay={int(st * 1000)}:all=1[d{k}]" for k, st in enumerate(pops)]
+sfx.append(f"anoisesrc=color=pink:amplitude=0.5:duration={w1 - w0:.2f}:sample_rate=44100,highpass=f=500,lowpass=f=7000,"
+           f"volume=0.05,afade=t=in:d=0.3,afade=t=out:st={w1 - w0 - 0.4:.2f}:d=0.4,"
+           f"adelay={int(w0 * 1000)}:all=1[wb]")
+sfx.append(f"[{a}:a]" + "".join(f"[d{k}]" for k in range(len(pops))) + "[wb]" +
+           f"amix=inputs={len(pops) + 2}:normalize=0:duration=first,apad,atrim=duration={total},"
            f"loudnorm=I=-16:TP=-1.5,aresample=44100[aout]")
 Path("out").mkdir(exist_ok=True)
-out = "out/plant_therapy_top6.mp4"
+out = "out/vicks_vaposhower.mp4"
 subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chains + sfx),
                 "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "medium", "-crf", "20",
                 "-c:a", "aac", "-b:a", "160k", "-t", str(total), "-movflags", "+faststart", out], check=True)
