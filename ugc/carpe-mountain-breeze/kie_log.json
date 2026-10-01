@@ -57,5 +57,32 @@
    ]
   },
   "costTime": 33
+ },
+ {
+  "t": "2026-10-01 16:15:11",
+  "submitted": "983665199d1e2f21f3f89c251f498847",
+  "prompt": "Shot 1 (0-5s): one continuous natural handheld move. It opens on the Mountain Breeze stick held very close to the lens, "
+ },
+ {
+  "t": "2026-10-01 16:17:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): one continuous natural handheld move. It opens on the Mountain Breeze stick held very close to the lens, sharp, with her face and the bathroom soft and blurred behind it. The camera eases back smoothly, like someone stepping back with a phone, while focus shifts from the stick to her face, ending on her holding the stick at chest height with her eyebrows raised, exactly as in the last frame. Slight real handheld sway, no zoom pump, no cuts. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a fitted sleeveless sky-blue tank top. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790871307958-4bmpg329dec.png",
+    "last_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790869257631-e9wrr2l3jhq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "983665199d1e2f21f3f89c251f498847",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790871445669-sh36g5ik8g.mp4"
+   ]
+  },
+  "costTime": 134
  }
 ]

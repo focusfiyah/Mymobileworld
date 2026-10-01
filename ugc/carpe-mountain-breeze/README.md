@@ -12,8 +12,9 @@ Status: **voiceover v2 done (34.8s): Ralph's notes 2026-10-01 → only the label
 ("The label says all-day fresh…", "wicking" dropped; old take kept as `vo/voiceover_wicking.mp3`). S1 is now a
 close-up of the stick that pulls back to Grace (S1a still = first frame, S1 still = last frame, Seedance
 `last_frame_url`); S1a's background blur and crop were done free in PIL (`preview/S1a_raw.png` = the raw still).
-Next: Ralph OKs S1a → S1 clip test ($0.21) → stills S2–S10 ($0.81) → other clips ($1.68) → free cut.
-Spent $0.18 Kie (36 credits) + ~730 ElevenLabs characters. Plan total ≈ $2.88 Kie. Ask before every paid generation.**
+S1 clip done ($0.21): continuous move from the close-up down to chest height, background comes into focus
+(`preview/S1_with_vo.mp4`). Next: Ralph OKs S1 → stills S2–S10 ($0.81) → other clips ($1.68) → free cut.
+Spent $0.39 Kie (77 credits) + ~730 ElevenLabs characters. Plan total ≈ $2.88 Kie. Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 
