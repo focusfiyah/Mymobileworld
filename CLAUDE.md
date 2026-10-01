@@ -25,9 +25,9 @@ not in a new file.
 
 ## Jobs
 - **Carpe Vanilla Peach (Grace), 2026-10-01:** 36.6s hands-only tips ad, rough cut
-- **Carpe Mountain Breeze v2 (Grace), 2026-10-01:** Grace on camera (AI from her photo), Mountain Breeze, Grace B voiceover. `ugc/carpe-mountain-breeze/README.md` Status line has where it stands.
   `ugc/carpe-vanilla-peach/out/carpe_vanilla_peach_roughcut.mp4` sent; waiting on Ralph's notes. Spent $3.52 on Kie
   (planned $2.53).
+- **Carpe Mountain Breeze v2 (Grace), 2026-10-01:** Grace on camera (AI from her photo), Mountain Breeze, Grace B voiceover. `ugc/carpe-mountain-breeze/README.md` Status line has where it stands.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
