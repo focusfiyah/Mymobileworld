@@ -64,6 +64,9 @@ products follow the same rules.
   `3dmagVYZFvrGkBbWWmGC` for AI skit dialogue.
 - Before the first paid image: confirm the real product (top, cap, label, size) and the hand/person details
   (nail length). Ask before every paid generation, with the exact cost. Free fixes first.
+- **Outfit changes go in the TEXT too** (Carpe v2, 2026-10-01, cost $1.52): the stills were edited to a grey tee but the
+  video prompt's identity text still said "blue tank top", and Seedance redrew the tank in all 8 clips. When the
+  look changes, update every prompt block, then grep the prompts for the old wording before rendering.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
 
 ## 7. Results log (add one line per job)
