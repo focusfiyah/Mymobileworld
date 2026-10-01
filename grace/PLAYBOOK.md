@@ -72,5 +72,11 @@ products follow the same rules.
 - 2026-10-01 Carpe Vanilla Peach: 36.6s hands-only tips ad, $3.52 vs $2.53 planned; waiting on notes.
   Open: the "peach candle" scent line needs Grace to have smelled it.
 
-## 8. To add later
+## 8. Tracking and sample volume (2026-10-01)
+- Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
+  (https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2, `grace/desk/`) scores each sample and shows her top few for the week.
+  She batches the shoot by setting, uses a script pack (4 hooks × 1 body × 1 CTA) per product, and logs each posted video.
+- What we judge a video on: save rate first (Carpe benchmark: tips 0.71%, hard sell 0.02%), then share rate and $ per 1k views.
+
+## 9. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
