@@ -1,7 +1,7 @@
 {
  "product": "Vicks VapoShower Plus shower tablets, 12 count box: non-medicated, '10% more soothing vapors* (*vs. VapoShower)', 'Infuses with Shower Steam', 'Dissolves Cleanly'",
  "client": "Grace",
- "status": "PLAN, waiting on Ralph's one approval (README Status line). Nothing generated yet.",
+ "status": "Script v2 APPROVED 2026-10-01 (coach data + psychology + Grace structure); quote $1.86.",
  "voice": {
   "name": "Grace B voice",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
@@ -30,35 +30,35 @@
    "id": "S1",
    "t": [
     0.0,
-    2.82
+    4.08
    ],
-   "dur": 4,
+   "dur": 5,
    "beat": "hook",
-   "vo": "Love the smell of Vicks? Put one of these in your shower.",
+   "vo": "Your shower's the only ten minutes you get to yourself. Make it smell like Vicks.",
    "still": "Close-up on the white bathroom counter: the hand holds the VapoShower Plus box up toward the lens, front facing the camera; behind it, out of focus, the glass shower door with the shower running and soft steam.",
    "video": "Shot 1 (0-4s): the hand brings the box up toward the lens, tilts it slightly so the front catches the light, then holds it steady."
   },
   {
    "id": "S2",
    "t": [
-    2.82,
-    6.66
+    4.08,
+    9.62
    ],
    "dur": 4,
    "beat": "what's in it (box wording)",
-   "vo": "Eucalyptus and essential oils, plus menthol and camphor scents.",
+   "vo": "This is VapoShower Plus: eucalyptus and essential oils, plus menthol and camphor scents.",
    "still": "Close-up on the counter: the box stands with its top flap open, front facing the camera; the hand lifts one white tablet out of it.",
    "video": "Shot 1 (0-4s): the hand lifts the white tablet out of the open box and turns it once toward the lens, then holds it above the box."
   },
   {
    "id": "S3",
    "t": [
-    6.66,
-    9.8
+    9.62,
+    12.02
    ],
    "dur": 4,
    "beat": "Plus = 10% more (footnote: vs original VapoShower)",
-   "vo": "The Plus has ten percent more of that blend than the original.",
+   "vo": "Ten percent more of that blend than the original.",
    "still": "Macro close-up: the white tablet resting in the open palm, the box soft and out of focus on the counter behind it.",
    "video": "Shot 1 (0-4s): the palm turns slowly so light moves across the tablet's chalky surface, then holds still.",
    "insert": "0.8s crop of the red '10% MORE SOOTHING VAPORS*' banner from refs/box_front.png over 'ten percent more', with '*vs. VapoShower' kept in the crop"
@@ -66,50 +66,50 @@
   {
    "id": "S4",
    "t": [
-    9.8,
-    12.04
+    12.02,
+    14.5
    ],
    "dur": 4,
    "beat": "how to use (box directions)",
-   "vo": "Set it on the shower floor, right in the stream.",
+   "vo": "One tablet on the shower floor, right in the stream.",
    "still": "Inside the shower, low angle near the floor: the hand sets the white tablet down on the wet grey stone floor, water from the rain shower head falling onto it, droplets on the fingers.",
    "video": "Shot 1 (0-4s): the hand places the tablet on the wet floor in the falling water and pulls away out of frame; water keeps splashing on the tablet."
   },
   {
    "id": "S5",
    "t": [
-    12.04,
-    14.2
+    14.5,
+    16.86
    ],
    "dur": 4,
    "beat": "steam (hardest clip: TEST CLIP)",
-   "vo": "It dissolves and infuses the steam.",
+   "vo": "The steam carries it through the whole bathroom.",
    "still": "Inside the shower, low angle: the white tablet on the wet grey stone floor under the falling water, small bubbles fizzing at its edge, light steam rising. No hand in this shot.",
    "video": "Shot 1 (0-4s): water falls on the tablet, it fizzes gently at the edges with small bubbles, and soft white steam drifts up past the lens. The tablet shrinks only a little, it does not vanish. No hand."
   },
   {
    "id": "S6",
    "t": [
-    14.2,
-    17.92
+    16.86,
+    20.28
    ],
    "dur": 4,
    "beat": "honest caveat",
-   "vo": "Just know it's non-medicated. It's for the scent, not a cold remedy.",
+   "vo": "It's non-medicated, so it's for the scent, not a cold remedy.",
    "still": "Close-up: the hand wipes a clear streak across the fogged glass shower door from outside; steam and the running shower soft behind the glass.",
    "video": "Shot 1 (0-4s): the fingertips draw one slow clear streak across the fogged glass, then the hand rests flat on the glass."
   },
   {
    "id": "S7",
    "t": [
-    17.92,
-    21.62
+    20.28,
+    25.75
    ],
-   "dur": 4,
-   "beat": "detached CTA",
-   "vo": "Not a Vicks person? Skip this. If you are, it's in the orange cart.",
+   "dur": 5,
+   "beat": "CTA: count + gift (sells more units; data: JojoWell 879k / bundle 173k closes)",
+   "vo": "Twelve tablets, twelve steamy showers. Grab one for you and one to gift. It's in the orange cart.",
    "still": "Close-up on the white counter: the VapoShower Plus box stands front facing the camera; the hand rests beside it.",
-   "video": "Shot 1 (0-5s): the hand opens the palm in a small 'up to you' gesture beside the box, then points down toward the bottom of the frame and holds."
+   "video": "Shot 1 (0-5s): the hand taps the top of the box once, holds up two fingers for 'one for you and one to gift', then points down toward the bottom of the frame and holds."
   }
  ]
 }
