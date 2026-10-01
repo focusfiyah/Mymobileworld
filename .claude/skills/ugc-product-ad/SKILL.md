@@ -61,6 +61,10 @@ and ask questions, do not assume, because that's how we waste time and money."
   Carpe v2): every clip at ≥1.0x speed; no face on screen while the voice talks unless lip-synced; product never
   cropped off or smeared; no forehead wrinkles; same outfit and product in every shot; frame-by-frame check wherever
   hands or the product cross the face.
+- **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
+  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
+  what it shows (hook text in frame 0, pace, cuts) before sending.
 - **Report the running total against the quote at every paid step.**
 - **Phone notification at every review point** (Ralph, 2026-10-01: "Make that a standard"): he leaves the app, so
   send a PushNotification (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is

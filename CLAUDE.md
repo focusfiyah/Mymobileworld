@@ -21,6 +21,8 @@ not in a new file.
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
   (host the file first, e.g. Kie's free 3-day file host: `python3 -c "import kie; print(kie.upload('<file>'))"` in a job
   folder). The connector can't take a 7 MB video (base64 in the call) and turns emoji into mojibake in Docs.
+- **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text) → humanizer → plan; after
+  the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
 ## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
@@ -57,7 +59,7 @@ not in a new file.
   tee, Grace B voiceover. Cut v9 APPROVED, `ugc/carpe-mountain-breeze/out/carpe_mountain_breeze.mp4`; in Drive (Grace Tiktok assets/Carpe Mountain Breeze ad (2026-10-01)); $6.60 Kie. README Status line.
 
 - **Plant Therapy Top 6 oils (Grace), 2026-10-01:** hands-only starter-guide ad, 18.6s, 7 shots. Cut v1
-  `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph; $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
+  `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph (v2 = + on-screen hook text, free); $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
