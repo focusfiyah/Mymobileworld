@@ -12,7 +12,7 @@ from pathlib import Path
 
 # (source, in, length used from the source, speed, extra video filter); output length = length / speed
 EDL = [
-    ("clips/S1.mp4", 0.0, 4.13, 1.0, ""),                               # hook: close-up on the stick, pull back to her
+    ("clips/S1.mp4", 0.0, 4.13, 1.0, "scale=1440:2560,zoompan=z='if(lt(on,53),1,min(1.78,1+0.78*(on-53)/19))':x='2*128*(zoom-1)/0.78':y='2*560*(zoom-1)/0.78':d=1:s=720x1280:fps=24,"),  # hook: close-up, then punch in + tilt down with the stick (mouth out of frame)
     ("clips/V2.mp4", 0.0, 5.83, 1.0, ""),
     ("S1a", 0.0, 3.2, 1.0, ""),                                          # hero close-up, slow push-in, label sharp
     ("clips/S3.mp4", 0.0, 2.1, 1.0, ""),                                 # holding the stick before the twist
@@ -21,8 +21,8 @@ EDL = [
     ("clips/S3.mp4", 2.1, 1.645, 1.15, ""),
     ("clips/S4.mp4", 0.3, 1.725, 1.15, ""),
     ("clips/V4.mp4", 0.3, 4.74, 1.0, ""),
-    ("clips/V5.mp4", 0.0, 3.35, 1.0, ""),
-    ("clips/S10.mp4", 0.0, 4.04, 1.0, ""),
+    ("clips/V5.mp4", 0.0, 3.35, 1.0, "crop=388:690:186:590,"),          # chin down: no still mouth under the voice
+    ("clips/S10.mp4", 0.0, 4.04, 1.0, "crop=405:720:100:560,"),         # chin down: stick + point-down stay in frame
 ]
 END = 35.03                                          # voiceover length; S10 holds its last frame to here
 WHIP_AT, WHIP = 9.96, 0.24                           # whip-pan V2 -> S1a, centred on the cut

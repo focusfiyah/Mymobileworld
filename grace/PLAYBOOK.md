@@ -71,6 +71,8 @@ products follow the same rules.
   shot" lost to the identity block's detailed stick description; Seedance added it anyway. For no-product shots,
   leave the product text out of the prompt entirely. Also keep faces relaxed in stills ("raised eyebrows" = forehead
   wrinkles the clip copies).
+- **Voiceover ads: keep her mouth out of frame while the voice talks** (Ralph 2026-10-01, "why are her lips not
+  moving"): face shots only for reactions (eye-roll) or with lip sync; otherwise frame chin-down or on the product.
 - **Test ONE clip before any batch** (Ralph 2026-10-01, after $1.93 was lost on two prompt mistakes in one day): render
   the cheapest affected clip, check it, then ask for the rest. Report the running total vs the quote at every step.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
