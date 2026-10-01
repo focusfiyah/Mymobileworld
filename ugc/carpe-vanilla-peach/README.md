@@ -55,7 +55,7 @@ sheet's badge, so the badge close-up shows it but nothing is said about it), pri
 | 29.1–34.3 | S8 | Oh, and this one's Vanilla Peach. *(laughs)* It smells like a peach candle, in a good way. | brings it toward the lens, sets it by a peach |
 | 34.3–36.3 | S9 | It's linked below. | taps the cap, points down |
 
-113 words, reading grade 1 (TikTok coach readability check). Voiceover checked with ElevenLabs STT: every word
+116 words, reading grade 1 (TikTok coach readability check). Voiceover checked with ElevenLabs STT: every word
 matches, "Carpe" heard correctly, the laugh tag comes out as a laugh. 596 characters.
 
 ## Previews and cost (each step waits for approval)
