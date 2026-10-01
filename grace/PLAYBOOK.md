@@ -60,6 +60,14 @@ products follow the same rules.
   animated CTA. No burned-in captions unless Ralph asks.
 
 ## 6. Production notes
+- **Time + cost discipline (Ralph 2026-10-01, after Carpe v2 took ~4h15m and $6.60 vs a $2.50 quote):**
+  1. Lock the WHOLE plan before the first paid call, in one message: script, every shot, outfit, setting, face or
+     no face, voiceover vs lip sync, total cost. One approval, then no mid-job redesigns without a new quote.
+  2. One test clip before any batch.
+  3. QC before sending anything, so Ralph never finds it first: no clip slower than 1.0x, no face on screen while
+     the voice talks without lip sync, no product cut off or smeared (lip sync near the product), no forehead
+     wrinkles, outfit/product consistent in every shot, frame-by-frame check where hands/product cross the face.
+  4. Report running total vs quote at every step.
 - Voices: ElevenLabs **Grace B** `bGrsdLmwBbYUgHRuMFOI` (eleven_v4) for voiceovers; Grace's Seedance clone
   `3dmagVYZFvrGkBbWWmGC` for AI skit dialogue.
 - Before the first paid image: confirm the real product (top, cap, label, size) and the hand/person details
