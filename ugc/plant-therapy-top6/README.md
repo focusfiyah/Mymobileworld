@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, **15–20s (target ~18s)**, 7 shots (Ralph, 2026-10-01), voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). Shots, prompts and windows: `shots.json` (windows are estimates until the voiceover's word timings).
 
-Status: **Cut v1 sent (out/plant_therapy_top6.mp4, 18.6s). Spent $2.09 of $2.09 (all Kie). Free fixes: S5 trim, S6 hold on the dish (cap glitch), CTA = S1 tail + push-in (S7 clip drew 8 bottles, unused). Waiting on Ralph: notes; optional S7 clip redo $0.21 for a point-down CTA.**
+Status: **DONE. Cut v1 approved by Ralph 2026-10-01 (out/plant_therapy_top6.mp4, 18.6s, ending kept as is). Spent $2.09 Kie (quote $1.82 + $0.27 approved redo).**
 Kie balance $3.45 at start, $3.36 now. Next: S2–S7 stills → test clip S5 → other 6 clips → free cut.
 
 ## Product facts (Plant Therapy's own listing + product photos, 2026-10-01)
