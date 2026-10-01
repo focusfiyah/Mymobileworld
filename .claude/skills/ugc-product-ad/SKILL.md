@@ -65,6 +65,9 @@ and ask questions, do not assume, because that's how we waste time and money."
   (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
   what it shows (hook text in frame 0, pace, cuts) before sending.
+- **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
+  semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
+  text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - **Report the running total against the quote at every paid step.**
 - **Phone notification at every review point** (Ralph, 2026-10-01: "Make that a standard"): he leaves the app, so
   send a PushNotification (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is

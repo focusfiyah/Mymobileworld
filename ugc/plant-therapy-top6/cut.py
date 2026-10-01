@@ -52,7 +52,7 @@ for k, (name, st, d) in enumerate(CARDS):     # each card pops in with a short s
     chains.append(f"[{j}:v]format=rgba,scale=w='720*min(1,0.9+t*0.8)':h=-1:eval=frame,"
                   f"fade=t=out:st={d - 0.15:.2f}:d=0.15:alpha=1,setpts=PTS-STARTPTS+{st}/TB[k{k}]")
     chains.append(f"[c{k}][k{k}]overlay=x=(W-w)/2:y=(H-h)/2:enable='between(t,{st},{st + d})':eof_action=pass[c{k + 1}]")
-HOOK = ("inserts/hook_text.png", 0.0, 2.55)   # on-screen hook bubble (Ralph 2026-10-01, option 1 from the coach check)
+HOOK = ("inserts/hook_text.png", 0.0, 2.55)   # on-screen hook, Murano "classic" caption style (classic_caption.py)
 j = add(["-loop", "1", "-t", f"{HOOK[2] + 0.1}", "-i", HOOK[0]])
 chains.append(f"[{j}:v]format=rgba,fade=t=out:st={HOOK[2] - 0.15:.2f}:d=0.15:alpha=1[hook]")
 chains.append(f"[c{len(CARDS)}][hook]overlay=0:0:enable='between(t,{HOOK[1]},{HOOK[2]})':eof_action=pass,format=yuv420p[vout]")
