@@ -13,7 +13,7 @@ import requests
 API = "https://api.kie.ai/api/v1/jobs"
 UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
-SHOTS = {s["id"]: s for s in J["shots"]}
+SHOTS = {s["id"]: s for s in J["shots"] + J.get("extra_stills", [])}
 MAIN = [s["id"] for s in J["shots"]]
 REFS = ["refs/grace.jpg", "refs/mb_front.png", "refs/product_slots.png", "refs/product_profile.png"]
 ROOM = "stills/S1.png"  # first approved still doubles as the room reference
@@ -102,8 +102,10 @@ def stills(ids):
 
 def clips(ids):
     from concurrent.futures import ThreadPoolExecutor
-    for sid in ids:  # upload first frames up front (cached), then render all clips in parallel
+    for sid in ids:  # upload frames up front (cached), then render all clips in parallel
         upload(f"stills/{sid}.png")
+        if SHOTS[sid].get("first_still"):
+            upload(f"stills/{SHOTS[sid]['first_still']}.png")
     with ThreadPoolExecutor(len(ids)) as ex:
         list(ex.map(clip, ids))
     sheet("clips", ".mp4")
@@ -111,10 +113,14 @@ def clips(ids):
 
 def clip(sid):
     s = SHOTS[sid]
-    first = upload(f"stills/{sid}.png")
+    # a shot with "first_still" opens on that still and ends on its own still (e.g. S1: close-up -> pull back)
+    first = upload(f"stills/{s.get('first_still', sid)}.png")
+    frames = {"first_frame_url": first}
+    if s.get("first_still"):
+        frames["last_frame_url"] = upload(f"stills/{sid}.png")
     prompt = f"{s['video']} {J['identity_block']} {J['video_suffix']}"
     url = run_task({"model": "bytedance/seedance-2-mini", "input": {
-        "prompt": prompt, "first_frame_url": first, "generate_audio": False,
+        "prompt": prompt, **frames, "generate_audio": False,
         "resolution": "720p", "aspect_ratio": "9:16", "duration": s.get("dur", 4)}})
     if url:
         fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)

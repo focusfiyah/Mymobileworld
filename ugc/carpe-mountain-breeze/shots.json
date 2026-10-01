@@ -31,7 +31,8 @@
    "beat": "hook",
    "vo": "Okay, if you just bought Carpe, or you're about to, watch this first.",
    "still": "Medium close-up from the waist up, she stands at the bathroom sink facing the camera and holds the capped stick up near her face, label toward the lens, eyebrows raised like she's about to warn a friend.",
-   "video": "Shot 1 (0-5s): she lifts the stick toward the lens, gives it one small shake, raises her eyebrows and nods once, holding the label to the camera."
+   "video": "Shot 1 (0-5s): one continuous natural handheld move. It opens on the Mountain Breeze stick held very close to the lens, sharp, with her face and the bathroom soft and blurred behind it. The camera eases back smoothly, like someone stepping back with a phone, while focus shifts from the stick to her face, ending on her holding the stick at chest height with her eyebrows raised, exactly as in the last frame. Slight real handheld sway, no zoom pump, no cuts.",
+   "first_still": "S1a"
   },
   {
    "id": "S2",
@@ -121,25 +122,31 @@
    "id": "S9",
    "t": [
     23.8,
-    32.1
+    31.0
    ],
    "dur": 8,
    "beat": "label claims",
-   "vo": "The label says continuous wicking for all-day fresh, and it's clinically tested for up to a hundred hours, but that's when you use it like this.",
-   "still": "Close-up: she holds the capped stick upright next to her face, the 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge sharp and readable, her fingernail resting beside it.",
+   "vo": "The label says all-day fresh, and it's clinically tested for up to a hundred hours, but that's when you use it like this.",
+   "still": "Close-up: she holds the capped stick upright next to her face, the round 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge facing the camera, her fingernail resting beside it.",
    "video": "Shot 1 (0-4s): her fingernail taps the round badge once and she holds it steady. Shot 2 (4-8s): she tips the stick side to side a little, a casual 'eh, use it right' gesture with a small head tilt, then holds it still."
   },
   {
    "id": "S10",
    "t": [
-    32.1,
-    36.2
+    31.0,
+    35.0
    ],
    "dur": 5,
    "beat": "scent + CTA",
    "vo": "This one's Mountain Breeze. There are other scents too. It's linked below.",
    "still": "Medium close-up: she holds the capped stick close to the lens, the teal 'MOUNTAIN BREEZE' panel sharp, a relaxed smile.",
    "video": "Shot 1 (0-3s): she holds the Mountain Breeze label to the lens and gives a small smile. Shot 2 (3-5s): she lowers the stick and points down toward the bottom of the frame, then holds."
+  }
+ ],
+ "extra_stills": [
+  {
+   "id": "S1a",
+   "still": "Extreme close-up, phone camera: her hand holds the capped Mountain Breeze stick very close to the lens so it fills most of the frame, front label facing the camera, the white 'carpe' wordmark and the teal 'MOUNTAIN BREEZE' panel in sharp focus. Behind it, the same woman's face and the same bathroom as in the last reference image are soft and heavily blurred (shallow depth of field, natural phone portrait blur), still recognisable. Natural light, real and unpolished."
   }
  ]
 }
