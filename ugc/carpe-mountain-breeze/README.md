@@ -10,7 +10,8 @@ the word "wicking" 2026-10-01); name the scent and mention other scents, no smel
 
 Status: **cut v9 sent (35.0s, `out/carpe_mountain_breeze.mp4`): opening = close-up 0–2.3s, jump cut to Grace
 lip-synced at chest height (`lipsync/S1j.mp4`, S1 3.1–4.93 on voiceover 2.3–4.13, $0.04; pull-back dropped because lip
-sync smears the stick crossing her mouth). Lip sync also on V2, V5, S10; full frame; walking selfie cut. Spent $6.60 Kie
+sync smears the stick crossing her mouth). Lip sync also on V2, V5, S10 (S10: lip sync clipped the stick top as it was lowered
+past her chin; `lipsync/S10_fixed.mp4` keeps the lip-synced mouth and uses original frames around it, free); full frame; walking selfie cut. Spent $6.60 Kie
 (1,320.8 credits). Ask before every paid generation, including redos.**
 
 ## Script (times from `vo/stt.json`)
