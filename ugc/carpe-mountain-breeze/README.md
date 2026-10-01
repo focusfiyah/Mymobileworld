@@ -12,7 +12,9 @@ Status: **cut v9 sent (35.0s, `out/carpe_mountain_breeze.mp4`): opening = close-
 lip-synced at chest height (`lipsync/S1j.mp4`, S1 3.1–4.93 on voiceover 2.3–4.13, $0.04; pull-back dropped because lip
 sync smears the stick crossing her mouth). Lip sync also on V2, V5, S10 (S10: lip sync clipped the stick top as it was lowered
 past her chin; `lipsync/S10_fixed.mp4` keeps the lip-synced mouth and uses original frames around it, free); full frame; walking selfie cut. Spent $6.60 Kie
-(1,320.8 credits). Ask before every paid generation, including redos.**
+(1,320.8 credits). APPROVED by Ralph ("This one is good"). Drive: Grace Tiktok assets →
+[Carpe Mountain Breeze ad (2026-10-01)](https://drive.google.com/drive/folders/1YnASP9gFIC7uoELdpUu4z2TFlCGNlDR3)
+(the Drive connector can't upload a 12.7 MB video; Ralph drops the mp4 in). Ask before every paid generation.**
 
 ## Script (times from `vo/stt.json`)
 
