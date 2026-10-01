@@ -42,6 +42,7 @@ h1 { font-family: var(--display); font-weight: 800; font-size: clamp(28px, 7vw, 
 .name { font-family: var(--display); font-weight: 700; font-size: 15px; }
 .time { font-size: 13px; color: var(--copper); font-variant-numeric: tabular-nums; }
 .say { font-size: 20px; line-height: 1.45; margin: 0 0 6px; }
+.ovl { font-family: var(--display); font-weight: 700; font-size: 14px; color: var(--copper); margin: 0 0 4px; }
 .shot { font-size: 14px; color: var(--muted); margin: 0; }
 .notes { display: grid; gap: 10px; }
 h2 { font-family: var(--display); font-size: 18px; margin: 0; }
@@ -59,58 +60,51 @@ button:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
   <header>
     <div class="eyebrow">Script for Grace</div>
     <h1>Viking Revolution Curl Cream</h1>
-    <p class="intro">Say these lines over your footage of putting the cream on your husband's beard. Keep it quick and natural, like you're telling a friend. The whole thing should land around 20 to 25 seconds.</p>
+    <p class="intro">Say these lines over your beard footage. Talk straight to the viewer about their beard, quick and natural. The whole thing should land around 25 seconds.</p>
     <ul class="facts">
-      <li>20–25 seconds</li>
+      <li>About 25 seconds</li>
       <li>Hands only</li>
       <li>Your own voice</li>
     </ul>
   </header>
 
   <div class="onscreen">
-    <span>On-screen text, first second</span>
-    <strong>he'd never buy this himself</strong>
+    <span>How the text works</span>
+    <strong>Every text overlay makes them ask "what?"</strong>
+    <span>Never name the product on screen. Each line answers one question and opens the next, so they keep watching.</span>
   </div>
 
   <ol class="beats" id="beats">
     <li class="beat">
-      <div class="meta"><span class="name">Hook</span><span class="time">0–4s</span></div>
-      <div><p class="say">"My husband would never buy curl cream for himself, so I got it for him."</p><p class="shot">Hold the tube up, label facing the camera.</p></div>
+      <div class="meta"><span class="name">Hook</span><span class="time">0–3s</span></div>
+      <div><p class="ovl">Text: Nobody puts this on a beard</p><p class="say">"If your beard feels like sandpaper, it's probably what you're putting in it."</p><p class="shot">Hand rubbing his beard before any product.</p></div>
     </li>
     <li class="beat">
-      <div class="meta"><span class="name">Problem</span><span class="time">4–8s</span></div>
-      <div><p class="say">"His beard gets dry and frizzy, and it's scratchy when he kisses me."</p><p class="shot">Your hand on his beard before the product.</p></div>
+      <div class="meta"><span class="name">Pain</span><span class="time">3–9s</span></div>
+      <div><p class="ovl">Text: what's really drying it out</p><p class="say">"Oil leaves it greasy. Balm dries hard and crunchy, and it's frizzy again by lunch."</p><p class="shot">Close on the dry, frizzy beard.</p></div>
     </li>
     <li class="beat">
-      <div class="meta"><span class="name">Product</span><span class="time">8–12s</span></div>
-      <div><p class="say">"Viking Revolution curl cream: shea butter, vitamin E and B five, sandalwood scent."</p><p class="shot">Label close-up, squeeze a little onto your fingers.</p></div>
+      <div class="meta"><span class="name">Solution</span><span class="time">9–19s</span></div>
+      <div><p class="ovl">Text: the head-hair trick</p><p class="say">"So steal what curly guys put on their hair. Viking Revolution curl cream. Shea butter, vitamin E and B five. A little on a damp beard and it dries soft with no crunch."</p><p class="shot">Label close-up, squeeze onto fingers, then work it through his beard.</p></div>
     </li>
     <li class="beat">
-      <div class="meta"><span class="name">Experience</span><span class="time">12–17s</span></div>
-      <div><p class="say">"A little on his damp beard, work it in, and now it's soft with no crunch."</p><p class="shot">Working it through his beard.</p></div>
-    </li>
-    <li class="beat">
-      <div class="meta"><span class="name">Honest note</span><span class="time">17–20s</span></div>
-      <div><p class="say">"It's sold for head hair, but his beard's curly too."</p><p class="shot">Calm, like telling a friend.</p></div>
-    </li>
-    <li class="beat">
-      <div class="meta"><span class="name">Call to action</span><span class="time">20–25s</span></div>
-      <div><p class="say">"If his beard doesn't bother you, skip this. If it does, it's in the orange cart."</p><p class="shot">Tube in frame. End on the picture, not the last word.</p></div>
+      <div class="meta"><span class="name">Urgency</span><span class="time">19–25s</span></div>
+      <div><p class="ovl">Text: before November hits</p><p class="say">"No-Shave November is a few weeks out, and cold air dries a beard out fast. Get it before then. It's in the orange cart."</p><p class="shot">Hand running over the soft beard, tube in frame. End on the picture.</p></div>
     </li>
   </ol>
 
   <section class="notes">
     <h2>Caption</h2>
-    <div class="caption" id="caption">#ad #beardcare #giftsforhim</div>
+    <div class="caption" id="caption">#ad #beardcare #noshavenovember</div>
     <p class="shot">Use the brand's partner tag instead of #ad if they gave you one.</p>
   </section>
 
   <section class="notes">
     <h2>Tips</h2>
     <ul>
-      <li>Record two or three takes of the hook so we can test them.</li>
-      <li>Say "B five" and "vitamin E" clearly; they're the ingredients on the label.</li>
-      <li>No price in this one.</li>
+      <li>Swap the first text hook on each post: "Why his beard feels like sandpaper", "Wrong aisle, right beard", or "The beard fix nobody tries".</li>
+      <li>Record two or three takes of the spoken hook.</li>
+      <li>Say "B five" and "vitamin E" clearly; they're on the label.</li>
     </ul>
   </section>
 
@@ -121,9 +115,9 @@ button:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
 document.getElementById('copy').addEventListener('click', function () {
   var btn = this;
   var lines = Array.prototype.map.call(document.querySelectorAll('.beat'), function (b) {
-    return b.querySelector('.name').textContent + ': ' + b.querySelector('.say').textContent;
+    return b.querySelector('.name').textContent + '\n' + b.querySelector('.ovl').textContent + '\nSay: ' + b.querySelector('.say').textContent;
   });
-  var text = "On-screen text: he'd never buy this himself\n\n" + lines.join('\n\n') +
+  var text = lines.join('\n\n') +
     '\n\nCaption: ' + document.getElementById('caption').textContent;
   function done(msg) { btn.textContent = msg; setTimeout(function () { btn.textContent = 'Copy the lines'; }, 2000); }
   try {
