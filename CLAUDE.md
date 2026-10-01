@@ -25,3 +25,11 @@ Owner: Ralph. Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (
 - **Carpe Vanilla Peach (Grace), 2026-10-01:** 36.6s hands-only tips ad, rough cut
   `ugc/carpe-vanilla-peach/out/carpe_vanilla_peach_roughcut.mp4` sent; waiting on Ralph's notes. Spent $3.52 on Kie
   (planned $2.53).
+
+## Skills (2026-10-01)
+- Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
+  (day-one-ai, find-skills, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach, brag-slim).
+  When you add or edit one of those, change it in BOTH repos. `ugc-product-ad` lives only here (client work).
+- Scan every new skill first with the `skill-inspector` skill (SkillSpector). The claude.ai account upload (zip) is the
+  only copy that reaches every device and chat; repo copies load only in sessions on that repo.
+- The hyperframes/skillspector CLIs and the Chromium proxy-CA fix come from Dayone-ai's `bash setup.sh`.
