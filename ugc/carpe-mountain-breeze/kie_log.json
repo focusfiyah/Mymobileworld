@@ -898,5 +898,213 @@
    ]
   },
   "costTime": 164
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "3fd28f8aa1cf4432894d8a3bd5b3c265",
+  "prompt": "Shot 1 (0-4s): she tilts the open stick toward the lens to show the empty slots, gives a small shrug, then turns it back"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "adb3f98503ba3852b860158b4889949a",
+  "prompt": "Shot 1 (0-3s): she holds the Mountain Breeze label to the lens and gives a small smile. Shot 2 (3-5s): she lowers the st"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "414be783edc94f206102dcff08bda108",
+  "prompt": "Shot 1 (0-3s): she lifts her arm a little and confidently tugs the dry grey fabric under her arm to show it off, the fab"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "61e6753deafaeed6a076adb960f39c48",
+  "prompt": "Shot 1 (0-4s): her fingertip points at the small amount of cream, circles it once in the air, then she pulls the stick b"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "719a58b7e44787f9688ac84879067e77",
+  "prompt": "Shot 1 (0-6s): she lifts her arm, points at the dark sweat stain under her arm, rolls her eyes and lets out a frustrated"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "e083eb10b071f082c7bd89ccdac7df55",
+  "prompt": "Shot 1 (0-5s): handheld selfie while walking briskly toward camera direction: natural bounce and sway of a phone held at"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "b281b0cc78119ccaecb625e51b3d0490",
+  "prompt": "Shot 1 (0-1.5s): the cap comes off in one smooth pull. Shot 2 (1.5-5s): tight close-up, the stick glides smoothly up and"
+ },
+ {
+  "t": "2026-10-01 17:19:53",
+  "submitted": "a76b9b3d7d4ce4f248f570d3f14ad0df",
+  "prompt": "Shot 1 (0-4s): her fingers turn the knob again and again, five quick turns; on the last turns small ribbons of white cre"
+ },
+ {
+  "t": "2026-10-01 17:21:27",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-3s): she holds the Mountain Breeze label to the lens and gives a small smile. Shot 2 (3-5s): she lowers the stick and points down toward the bottom of the frame, then holds. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874904700-p1e4h65ah8i.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "adb3f98503ba3852b860158b4889949a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875282590-tt41gv77yt.mp4"
+   ]
+  },
+  "costTime": 90
+ },
+ {
+  "t": "2026-10-01 17:21:33",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): she tilts the open stick toward the lens to show the empty slots, gives a small shrug, then turns it back upright. Framed from the chin down: her face stays out of frame the whole time; keep the camera at chest height. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874894114-18tdrxrnkl7.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "3fd28f8aa1cf4432894d8a3bd5b3c265",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875292402-k91npf690ma.mp4"
+   ]
+  },
+  "costTime": 99
+ },
+ {
+  "t": "2026-10-01 17:21:46",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-3s): she lifts her arm a little and confidently tugs the dry grey fabric under her arm to show it off, the fabric clearly dry. Shot 2 (3-5s): she drops her arm and gives the camera a small confident nod and smile. She does not talk. The grey t-shirt stays perfectly dry with no stain anywhere. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874256028-hqe1ohey4bo.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "414be783edc94f206102dcff08bda108",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875304259-qmk440zq6c.mp4"
+   ]
+  },
+  "costTime": 110
+ },
+ {
+  "t": "2026-10-01 17:21:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-1.5s): the cap comes off in one smooth pull. Shot 2 (1.5-5s): tight close-up, the stick glides smoothly up and down once across the underarm skin, leaving a thin, even, creamy white layer that shows the lotion's smooth texture. Slow, steady, clean camera. Framed from the chin down: her face stays out of frame the whole time; keep the camera at chest height. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874902101-k7vcn6tqzqj.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "b281b0cc78119ccaecb625e51b3d0490",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875302474-r7uk1ur2uk.mp4"
+   ]
+  },
+  "costTime": 109
+ },
+ {
+  "t": "2026-10-01 17:21:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): her fingers turn the knob again and again, five quick turns; on the last turns small ribbons of white cream rise up through the slots. Framed from the chin down: her face stays out of frame the whole time; keep the camera at chest height. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874896478-ej61jx7plpr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a76b9b3d7d4ce4f248f570d3f14ad0df",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875302376-jvutwgz7e9.mp4"
+   ]
+  },
+  "costTime": 108
+ },
+ {
+  "t": "2026-10-01 17:21:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): her fingertip points at the small amount of cream, circles it once in the air, then she pulls the stick back a little. Framed from the chin down: her face stays out of frame the whole time; keep the camera at chest height. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874899598-xbcvnlggxr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "61e6753deafaeed6a076adb960f39c48",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875302509-172qu28xpki.mp4"
+   ]
+  },
+  "costTime": 109
+ },
+ {
+  "t": "2026-10-01 17:22:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): handheld selfie while walking briskly toward camera direction: natural bounce and sway of a phone held at arm's length, background moving past, she keeps looking straight into the lens with a knowing look, gives a small nod and lifts the stick slightly. Her mouth stays closed or gently smiling; she does not talk. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874889737-fv45cdtnqxo.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "e083eb10b071f082c7bd89ccdac7df55",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875322698-c0eig4pkbdg.mp4"
+   ]
+  },
+  "costTime": 129
+ },
+ {
+  "t": "2026-10-01 17:22:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-6s): she lifts her arm, points at the dark sweat stain under her arm, rolls her eyes and lets out a frustrated sigh with a small head shake, tugs the damp fabric away from her skin with a grimace, then drops her arm. She does not talk. The dark damp sweat stain on the grey t-shirt under her arm stays clearly visible the whole time. The only person is the woman in the first reference image (Grace): keep her face, skin tone, eyebrows, lips, long dark box braids with curly ends worn half-up, small gold initial necklace and gold bracelet watch exactly as in that photo. Her nails are long almond-shaped French tips (pale pink base, white tips), exactly as in her photo. She wears a plain light grey crew-neck short-sleeve cotton t-shirt in every shot, exactly as in the first frame: never a tank top, never anything blue. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (shape as in the slotted-top reference), where white cream comes up through the slots only after the knob is twisted, and an orange twist knob at the base. Ignore the blue background, rocks, water drops and greenery in the product photo. Keep her and the product identical in every frame: no morphing, no extra fingers, no label drift. Camera: steady static framing from a propped phone (no phone visible), slight natural movement, no zoom unless stated. Hands and fingers stay anatomically correct (five fingers per hand). The label stays upright and readable. She does not speak; her mouth stays closed or relaxed. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe/1790874891770-bgnsu03dk04.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "719a58b7e44787f9688ac84879067e77",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790875352534-vi9i3ls8z8e.mp4"
+   ]
+  },
+  "costTime": 159
  }
 ]
