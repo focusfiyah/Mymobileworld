@@ -148,6 +148,7 @@ products follow the same rules.
   the vanity edge; Ralph caught it): free fix = crop the frame to end at the object's base.
 - 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
   husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
+- 2026-10-02 Super Blanky wearable blanket: 3 talking-head scripts (dorm, Breast Cancer Awareness Month comfort gift, stays-on demo), $0. Doc https://claude.ai/code/artifact/400ca34e-3585-4133-a50a-bafbba29edf1 + PDF. Cancer angle = comfort-gift framing only, never "chemo must-have" (the brand's own wording). Cloud env 'My World'-less sessions may block tiktok.com (proxy 403): coach video/tag/shop can't run; WebFetch of shop.tiktok.com search/pdp pages still works.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
