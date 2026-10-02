@@ -4,13 +4,15 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **Edit-the-real-photo method WORKS (test 2, $0.09, `stills/EDIT_TEST2.png`, `edit_test2.py`): vanity exact (4 cubbies,
-2 shelf columns, landscape mirror lit warm, 4 glass-top drawers, 2 towers, stool, mirror door), floor + wall repainted sharp,
-hand = Grace's real photos (long almond, mauve + white tips), small, one finger out; fingertip lands NEAR the touch button, not
-on it (Seedance can finish the tap). Spent $0.81 of the old $9.10 (rejected master $0.09, V1 stills $0.45, V1S2 redo $0.09,
-edit tests $0.18). Revised plan = $9.73 total (34 stills $3.06 + 35 clips $5.86; EDIT_TEST2 reused as V1S5). Waiting on Ralph:
-OK for the next two paid steps, $0.25: (1) a close-up test still from a CROP of the real photo + hand ($0.09), (2) one test clip
-from EDIT_TEST2 (4s, $0.16). Old V1 stills (`stills/V1S1-5.png`) are discarded (wrong layout).**
+Status: **Tests done (2026-10-02). CLIP (EDIT_TEST2, 4s, $0.164, `clips/EDIT_TEST2_clip.mp4`): vanity stays exact all 4s; LED lines
+dim off/on at ~2.0s as asked; hand keeps Grace's skin + mauve/white-tip nails. Flaws: fingertip never lands on the touch
+button (stops at the mirror base), ~15% push-in in the first second although "camera does not move", hand ends in an odd pinch
+after 3.0s (free fix: cut at ~2.8s). CLOSE-UP still (`stills/CLOSEUP_TEST.png`, $0.09): sharp, hand right, but drawer
+proportions drift (opened drawer front oversized, only 2 drawers under it instead of 4). So: wide/medium edits of the real
+photo are reliable; tight close-ups drift. Spent $1.06 (master $0.09, V1 stills $0.45, V1S2 redo $0.09, edit tests $0.18,
+close-up + clip $0.25). Revised total ~$9.69 (33 stills $2.97 + 34 clips $5.66 still to make; both tests reused).
+Waiting on Ralph: OK to rebuild the shot list for the edit method (mostly medium shots, few true close-ups cropped from the
+real photo) and run Video 1 first (4 stills $0.36 + 4 clips ~$0.67), then review before Videos 2-6.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.

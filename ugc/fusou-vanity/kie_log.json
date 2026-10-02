@@ -253,5 +253,59 @@
    ]
   },
   "costTime": 94
+ },
+ {
+  "t": "2026-10-02 22:39:45",
+  "submitted": "0792151b6d98edf222306cfe49f5b015",
+  "prompt": "Edit the FIRST reference image (a soft, low-resolution crop of the real vanity's left drawer tower, with the first drawe"
+ },
+ {
+  "t": "2026-10-02 22:39:47",
+  "submitted": "29562f070310431398c7705686d05b53",
+  "prompt": "The index fingertip presses the small round touch button at the lower left corner of the makeup mirror and lifts off; ri"
+ },
+ {
+  "t": "2026-10-02 22:40:35",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image (a soft, low-resolution crop of the real vanity's left drawer tower, with the first drawer of the top row at the top) into a SHARP vertical 9:16 close-up phone photo. Keep every drawer, knob and edge EXACTLY as in the first image: the same white flat drawer fronts with thin shadow gaps, the same round crystal knobs on chrome stems, the same proportions; do not add or remove drawers. Make it crisp with natural daylight. Add one hand from the right pulling the second drawer from the top open about three inches by its crystal knob, showing a white divider tray with a few makeup items inside. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The second and third reference images show the hands. Straight-on camera, nothing else changes. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790980783290-hhpkk19o62.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188104-8dpwofz8dd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190391-i7c5oxjuyb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0792151b6d98edf222306cfe49f5b015",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0792151b6d98edf222306cfe49f5b015_0_1790980829.jpeg"
+   ]
+  },
+  "costTime": 45
+ },
+ {
+  "t": "2026-10-02 22:42:18",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The index fingertip presses the small round touch button at the lower left corner of the makeup mirror and lifts off; right after, the two warm LED light lines dim for a moment and come back on. The camera does not move. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The vanity, mirrors, shelves, drawers, stool and everything on them stay exactly as in the first frame: nothing appears, disappears or changes shape. Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The vanity stays exactly the same piece the whole clip: same drawer count, same knobs, same mirror shapes, nothing appears or disappears. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790980785334-be9bicrz5yh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "29562f070310431398c7705686d05b53",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790980931989-e6s33wcvjmg.mp4"
+   ]
+  },
+  "costTime": 145
  }
 ]
