@@ -20,7 +20,7 @@ pain-point body → selling point and/or solution body → FOMO and/or urgency C
 - **Talking head only.** Grace to camera, product in her hands the whole time, like the reference. At most one
   optional `[Insert: ...]` per angle: a 2 to 3 second close-up Ralph lays over her voice while she keeps talking.
 - **No skits**, no second person, no storytime that only works if a specific event really happened.
-- **No "questions for Grace" section.** Facts only she has stay as blanks in the script: `[price]`, a test result
+- **No "questions for Grace" section.** Facts only she has stay as blanks in the script: a test result
   `[__]`, `[your con]`. Write downsides as plain tips backed by reviews ("seal it right away, a used one still smells
   if it sits"), never as her experience.
 - Each angle gets its own on-screen headline + label (the reference style: a headline with an emoji plus a small
@@ -63,8 +63,9 @@ The mix that worked for the Wag Bag:
 5. **Proof the reference skipped:** a test Grace does off camera first, then shows the result to camera and reports
    only what she saw.
 
-Rules carried over from grace-fashion-ads: pain or moment first in the hook; value before price (how many, how long
-it lasts, vs the alternative); one honest downside said calmly; no "so cute", "obsessed", "you need this". CTA points
+Rules carried over from grace-fashion-ads: pain or moment first in the hook; never say a price, discount or "value" (TikTok violation
+cards, Ralph + Grace 2026-10-02); no downsides or warnings, the honest beat is a sell-side confession (playbook §1);
+model every angle on a top TikTok Shop seller in the niche from the coach's `viral` board and link it under the angle; no "so cute", "obsessed", "you need this". CTA points
 to the orange cart. Use clean words ("poop", not the reference's swearing) so the videos can also run as Spark Ads,
 since TikTok's ad policy doesn't allow profanity; mention this to Ralph once.
 
