@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~26s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). No face anywhere, so no lip sync. **No on-screen text of any kind, hook text included** (Ralph, 2026-10-02).
 
-Status: **Script v3 humanized 2026-10-02 (no overlay text, no serving line, no flash sale, Plant Therapy hand) agreed by Ralph 2026-10-02. Kie + ElevenLabs reachable. Next: VO (plan chars) + still S1 ($0.09), waiting on Ralph's go. $0 spent. `kie.py` / `cut.py` are Vicks copies, rewrite for this job.**
+Status: **Script v3 humanized 2026-10-02 (no overlay text, no serving line, no flash sale, Plant Therapy hand) agreed by Ralph 2026-10-02. Kie + ElevenLabs reachable. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies – Grace ad (2026-10-02) (id 1me8-TITy5S5L05AS96AqnHEQVgLyHpAo), script doc saved. Next: VO (plan chars) + still S1 ($0.09), waiting on Ralph's go. $0 spent. `kie.py` / `cut.py` are Vicks copies, rewrite for this job.**
 
 ## Product facts
 
