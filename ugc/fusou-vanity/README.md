@@ -4,11 +4,12 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **Ralph (2026-10-02): real listing photo = master, Grace's real hand photos (long almond, mauve + white tips; NOT the
-Vicks look), white, bedroom. Video 1 stills made ($0.45, `stills/V1S1-5.png`, `preview/stills_v1.jpg`): HANDS MATCH, but the
-vanity drifts between stills (mirror portrait in S2/S3, squarish in S4/S5, real = landscape ~5:4; hutch layout differs).
-Vanity block rewritten (free) with a landscape mirror + "no recess". Waiting on Ralph: OK to redo V1S2 ($0.09) as the test
-of the new wording before redoing S3-S5 ($0.27). Spent $0.54 of $9.10 (master $0.09 rejected + 5 stills $0.45).**
+Status: **Prompt-only stills do NOT hold the vanity layout (Ralph OK'd a V1S2 redo, $0.09, 2026-10-02): the redo got a
+landscape-ish mirror but lost the top row of 4 cubbies, recessed the mirror, and made the side cabinet short/narrow; the first
+try had the cubbies but a portrait mirror. Also the dusk look turns it blue/near-black. Free dark-grade of the real photo
+tried: not convincing (white furniture stays bright). Spent $0.63 of $9.10 (rejected AI master $0.09 + V1 stills $0.45 +
+V1S2 redo $0.09). Proposed fix, waiting on Ralph: EDIT the real photo instead of regenerating (outpaint the real photo to 9:16,
+add the hand on top, camera front-on like the photo, daylight; dark mood only in close-ups). One test still, $0.09.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.
