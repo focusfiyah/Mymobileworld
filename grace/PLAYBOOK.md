@@ -148,6 +148,10 @@ products follow the same rules.
   the vanity edge; Ralph caught it): free fix = crop the frame to end at the object's base.
 - 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
   husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
+- 2026-10-02 FUSOU 2-in-1 Vanity Desk: 6 hands-only styles (light reveal, ASMR drawers, count-with-me, hidden door,
+  GRWM outlet, clutter reset), ~20s each, $0. Furniture lesson: the honest caveat is size or build time; real urgency =
+  "ships in 3 boxes" + holidays. Drive Docs: create_file garbles 4-byte emoji; overwrite the doc with Composio
+  GOOGLEDRIVE_UPLOAD_UPDATE_FILE (workbench `upload_local_file` → s3key) to fix it in place.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
