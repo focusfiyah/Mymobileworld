@@ -66,7 +66,9 @@ not in a new file.
 
 - **Vicks VapoShower Plus (Grace), 2026-10-01:** hands-only ad, 24.7s, 7 shots, humanized script v3, quote $2.04.
   Cut v3 `ugc/vicks-vaposhower/out/vicks_vaposhower.mp4` APPROVED; in Drive (Grace Tiktok assets/Vicks VapoShower Plus – Grace ad (2026-10-02)); $3.11 Kie vs $2.04 quote (6 clips rendered twice by two sessions, $1.07 lost).
-  Branch claude/vicks-vaposhower-handoff-f87uqn (not merged). README Status line.
+  README Status line.
+- **Viking curl cream (Grace), 2026-10-01:** script v5 (~25s, $0) for Grace's own hands-only beard footage;
+  Grace records the lines next. `ugc/viking-curl-cream/README.md`.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
