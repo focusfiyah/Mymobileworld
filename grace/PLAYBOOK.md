@@ -170,6 +170,8 @@ products follow the same rules.
 
 - 2026-10-02 Beauty script pack v2: Grace rejected v1 (prices said, caveats that un-sell, weak angles). Rebuilt all 12
   angles from the top shop sellers in each niche (coach viral board, 1,728 videos), no prices, sell-side confessions.
+  Shnuggle angles 1-2 then replaced with Grace's own ideas (true toddler-size tub with the safety features; stand-up
+  shower). When Grace sends angle ideas, they go first and the coach patterns fill in hooks and structure.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
