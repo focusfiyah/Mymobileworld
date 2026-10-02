@@ -168,5 +168,32 @@
    ]
   },
   "costTime": 139
+ },
+ {
+  "t": "2026-10-02 22:06:00",
+  "submitted": "c92ec2a939b9430d470285c1c629e2c0",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the dark room: the whole lit makeup mirr"
+ },
+ {
+  "t": "2026-10-02 22:07:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the dark room: the whole lit makeup mirror (glowing warm white rounded-rectangle LED line), the hutch shelves on both sides softly lit, the glass desk top below. No hands. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS LANDSCAPE makeup mirror that is clearly WIDER than it is tall (about 5 wide to 4 tall, NOT portrait, NOT square), filling the whole gap between the two shelf columns and resting directly on the desk's glass top, with a thin LED light line inset about an inch from its edge shaped as a rounded rectangle, and a small round touch button on the glass at its lower left. The hutch is exactly as wide as the desk top, no gaps, no mirror set into a recess. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. The vanity looks exactly like the reference photos, only darker. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975149234-1mji9cl6cld.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c92ec2a939b9430d470285c1c629e2c0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c92ec2a939b9430d470285c1c629e2c0_0_1790978839.jpeg"
+   ]
+  },
+  "costTime": 80
  }
 ]
