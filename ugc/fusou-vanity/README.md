@@ -4,12 +4,11 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **Ralph approved (2026-10-02): white, Grace's real hands (Vicks refs), bedroom look, $9.10 plan. Master still
-made ($0.09, `stills/MASTER.png`) but it does NOT match the real vanity: 2 top cubbies (real 4), 2 top drawers (real 4),
-2 glass panes (real 4), portrait mirror (real landscape), vanity too tall/narrow (real ~1.1:1 wide). Waiting on Ralph:
-(1) use the real listing photo as the master ($0, recommended) or redo the AI master ($0.09); (2) nails: match the ref
-photos (long almond, mauve + white tips) or the Vicks look (short squared, lilac-white). Spent $0.09 of $9.10.** Scripts
-v1 ($0) in Drive: Grace Tiktok assets/FUSOU Vanity Desk – Grace hands-only (2026-10-02).
+Status: **Ralph chose (2026-10-02): the REAL listing photo is the master (`refs/vanity_front.jpg` = M), no AI master;
+white; Grace's real hands; bedroom look = the listing photo's room. AI master ($0.09, `stills/MASTER_ai_rejected.png`)
+was wrong (2 cubbies, 2 top drawers, portrait mirror) and is not used. Plan: 35 stills ($3.15) + 35 clips, 143s ($5.86)
+= $9.01 more; spent $0.09, total still $9.10. Waiting on Ralph: NAILS (match the ref photos: long almond, mauve + white
+tips; or the Vicks look: short squared, lilac-white). Then Video 1 stills (6 × $0.09 = $0.54) → review sheet.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.

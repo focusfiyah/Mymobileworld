@@ -31,13 +31,14 @@ HAND = (
  "with a narrow white tip band on every nail. No rings unless stated. No face, no arms above the forearm, no other people.")
 
 ROOM = (
- "Setting: a calm, tidy bedroom: warm beige painted wall behind the vanity, light natural-oak plank floor, a window "
- "with sheer white curtains on the LEFT giving soft daylight, a green plant in a pot at the far left. On the vanity, "
- "only a few pretty things: 4 perfume bottles and a reed diffuser on the hutch shelves, a short row of lipsticks and a "
- "small white ceramic vase on the desk top, two neat storage boxes and one tan leather handbag in the top cubbies. "
- "Inside the side cabinet (seen only when its mirror door is open), always the same: a tan leather handbag on the "
- "second shelf, a pair of nude heels on the third, folded cream sweaters on the fourth, two perfume bottles on the top "
- "shelf. The hair dryer is always the same sage-green dryer. "
+ "Setting: the real product-photo bedroom, matched to reference A: a calm, tidy room with a warm greige-olive painted "
+ "wall behind the vanity, a light natural-oak plank floor with soft patches of sunlight on it from a window on the "
+ "LEFT, sheer white curtains reflected in the mirrors, a leafy green plant in a pot at the far right edge. The vanity "
+ "styling is exactly as in reference A: perfume and skincare bottles and a reed diffuser on the hutch shelves, beige "
+ "storage boxes and one tan leather handbag in the top cubbies, a short row of makeup on the desk top, a small cream "
+ "vase. Inside the side cabinet (seen only when its mirror door is open), always as in reference C: a tan leather "
+ "handbag and beige storage boxes on the upper shelves, folded plaid throw blankets and woven baskets in the middle, a "
+ "mint-green storage box low down. The hair dryer is always the same pale teal-green dryer in the left holder. "
  "Clean, airy, a little expensive-looking, nothing cluttered.")
 
 DARK = (
@@ -61,17 +62,12 @@ SUFFIX = (
 # refs letters -> refs/vanity_*.jpg ; M = the approved master still
 REFS = {"A": "refs/vanity_front.jpg", "B": "refs/vanity_open.jpg", "C": "refs/vanity_cabinet_open.jpg",
         "D": "refs/vanity_glass_top.jpg", "E": "refs/vanity_power_strip.jpg", "F": "refs/vanity_lit_room.jpg",
-        "M": "stills/MASTER.png"}
+        "M": "refs/vanity_front.jpg"}  # M = the real listing photo A (Ralph chose it as the master, 2026-10-02)
 
 def S(id, t, vo, still, video, refs, blocks=("hand", "vanity", "room"), dur=4):
     return dict(id=id, t=t, dur=dur, vo=vo, refs=refs, blocks=list(blocks), still=still, video=video)
 
 shots = [
- S("MASTER", None, None,
-   "Straight-on wide shot of the WHOLE vanity against the bedroom wall, filling the vertical frame from the top cubbies "
-   "down to the floor, stool tucked in, all drawers and the mirror door closed, both LED mirror light lines ON in warm "
-   "white. Camera at chest height, centred on the makeup mirror, slightly back so the full width fits. No hands in this shot.",
-   None, ["A", "F"], ("vanity", "room")),
  # V1 Lights On (dark)
  S("V1S1", [0, 2], "Tap it once. Again. Now hold it.",
    "Tight close-up of the lower left corner of the makeup mirror and the glass desk top in a dark room; an index "
@@ -142,11 +138,11 @@ shots = [
    "The fingertips slide down the mirror edge a little.", ["M", "A"]),
  S("V3S5", [9, 10.5], "Three, a hidden cabinet.",
    "Medium shot of the full-length mirror door, opened a few inches; a hand on its edge.",
-   "The hand swings the mirror door open, revealing the cabinet shelves with the tan handbag, the nude heels and the folded cream sweaters.",
+   "The hand swings the mirror door open, revealing the cabinet shelves with the tan handbag, the beige storage boxes and the folded plaid blankets.",
    ["M", "C"]),
  S("V3S6", [10.5, 12], "Four, outlets for hair tools.",
    "Close-up of the left side panel of the desk: the white power strip plate (outlet, two USB ports, outlet) and the "
-   "white dryer holder ring; a hand holding the sage-green hair dryer's plug near the top outlet.",
+   "white dryer holder ring; a hand holding the pale teal-green hair dryer's plug near the top outlet.",
    "The hand pushes the plug into the top outlet.", ["M", "E"]),
  S("V3S7", [12, 13.5], "Five, a stool with drawers.",
    "Close-up of the white storage stool in front of the desk, its padded seat and 2 drawers with crystal knobs; a hand "
@@ -164,10 +160,10 @@ shots = [
    "The hand rests, then the fingertips curl around the door edge.", ["M", "A"]),
  S("V4S2", [2, 7], "Bags and shoes end up on the floor when there's nowhere to put them.",
    "Same angle, the hand's fingertips curled around the outer edge of the closed mirror door.",
-   "The hand slowly pulls the mirror door open outward, revealing the 5 white shelves inside with the tan handbag, the nude "
-   "heels, the folded sweaters and the two perfume bottles.", ["M", "C"]),
+   "The hand slowly pulls the mirror door open outward, revealing the 5 white shelves inside with the tan handbag, the beige "
+   "storage boxes and the folded plaid blankets.", ["M", "C"]),
  S("V4S3", [7, 12], "Behind it, shelves for bags, shoes and perfume. Close it, and you've got a full-length mirror again.",
-   "Medium shot into the open side cabinet: the nude heels, folded cream sweaters and perfume bottles on their shelves, "
+   "Medium shot into the open side cabinet: the beige storage boxes, plaid blankets and baskets on their shelves, "
    "the second shelf empty; a hand holding the tan leather handbag by its handle in front of that empty shelf.",
    "The hand sets the handbag on the empty shelf, then swings the mirror door shut.", ["M", "C"]),
  S("V4S4", [12, 15], "Just know it's big, about six feet wide.",
@@ -180,10 +176,10 @@ shots = [
  # V5 Get Ready Hands
  S("V5S1", [0, 3], "The best part of this vanity is the outlet.",
    "Close-up of the left side panel of the desk: the white power strip plate and the dryer holder ring; a hand holding "
-   "the plug of a sage-green hair dryer next to the top outlet.",
+   "the plug of a pale teal-green hair dryer next to the top outlet.",
    "The hand pushes the plug into the top outlet.", ["M", "E"]),
  S("V5S2", [3, 6], "No more dryer cord stretched across the room.",
-   "Close-up of the left side panel: a hand holding a sage-green hair dryer by the handle just above the white holder ring.",
+   "Close-up of the left side panel: a hand holding a pale teal-green hair dryer by the handle just above the white holder ring.",
    "The hand lowers the dryer nozzle-down into the holder ring and lets go; the dryer hangs there.", ["M", "E"]),
  S("V5S3", [6, 12], "Two outlets, two USB ports, and a holder for your dryer. Your phone charges while you do your face.",
    "Close-up of the glass desk top in front of the lit makeup mirror: a phone lying on the desk with its cable going to "
@@ -224,14 +220,14 @@ job = dict(
          "hidden side cabinet, power strip 2 AC + 2 USB, glass top) https://shop.tiktok.com/us/pdp/1732251413004981161",
  client="Grace", voice="Grace records her own voiceover (no ElevenLabs).",
  format=dict(aspect_ratio="9:16", resolution="720p"),
- still_model="nano-banana-pro on Kie, 1K, 9:16; image_input = hand refs + MASTER still + the listed vanity crops",
+ still_model="nano-banana-pro on Kie, 1K, 9:16; image_input = hand refs (hand shots) + the real listing photos listed per shot (M = listing photo A)",
  video_model="bytedance/seedance-2-mini on Kie, first_frame_url = approved still, generate_audio false, 720p, 9:16",
  pending=["colour (white assumed)", "hand refs (same as Vicks assumed)", "bedroom room look"],
  blocks=dict(vanity=VANITY, hand=HAND, room=ROOM, dark=DARK, bath=BATH, phone=PHONE), video_suffix=SUFFIX, refs=REFS,
  rules=["Shots without the vanity (V6S1, V6S2) carry NO vanity text and NO vanity refs.",
-        "Shots without hands (MASTER, V1S2, V4S4, V6S5) carry NO hand text and NO hand refs.",
+        "Shots without hands (V1S2, V4S4, V6S5) carry NO hand text and NO hand refs.",
         "Dark shots (V1) use the dark block instead of the room daylight."],
  shots=shots)
 json.dump(job, open("shots.json", "w"), indent=1, ensure_ascii=False)
-stills = len(shots); clips = len(shots) - 1; secs = sum(s["dur"] for s in shots if s["id"] != "MASTER")
+stills = len(shots); clips = len(shots); secs = sum(s["dur"] for s in shots)
 print(f"{stills} stills ${stills*0.09:.2f} + {clips} clips {secs}s ${secs*0.041:.2f} = ${stills*0.09+secs*0.041:.2f}")
