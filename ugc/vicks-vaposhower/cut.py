@@ -18,8 +18,7 @@ J = json.loads(Path("shots.json").read_text())
 # Each shot = pieces that fill its window. ("clip", file, start[, dur]) plays from start; ("hold", png, dur, cx, cy, z) is
 # a still frame with a slow push-in toward (cx, cy) by zoom z. The last piece fills whatever is left of the window.
 PIECES = {
-    "S1": [("clip", "clips/S1.mp4", 0.0, 1.90),                  # box front-on; at ~2.0s it turns to its side panel
-           ("hold", "frames/S1_hold.png", None, 0.45, 0.50, 0.10)],    # push in on the box (frame at 1.85s)
+    "S1": [("clip", "clips_b/S1.mp4", 0.0)],                    # old session's S1: box stays front-on (ours turns it)
     "S5": [("clip", "clips/S5.mp4", 0.1)],                       # 0.1-1.74s; two pale hands walk in at 2.2s
 }
 HOOK = ("the only 10 min|you get to yourself", "🚿", 0.0, 2.6)   # (text, "|" = line break, emoji, start, end)
