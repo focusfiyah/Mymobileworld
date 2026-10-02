@@ -75,7 +75,8 @@ not in a new file.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
-  (day-one-ai, find-skills, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach, brag-slim).
+  (day-one-ai, find-skills, grace-product-scripts, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach,
+  brag-slim).
   When you add or edit one of those, change it in BOTH repos. `ugc-product-ad` lives only here (client work).
 - Scan every new skill first with the `skill-inspector` skill (SkillSpector). The claude.ai account upload (zip) is the
   only copy that reaches every device and chat; repo copies load only in sessions on that repo.
