@@ -4,12 +4,12 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **AI hands-only route chosen (Ralph, 2026-10-02). Free vanity reference sheet made from the real listing
-photos: `refs/vanity_reference_sheet.jpg` (A front, B drawers + cabinet open, C mirror door open, D glass top, E outlets +
-dryer holder, F lights on; crops = `refs/vanity_*.jpg`, labels inpainted out of B). Next: Ralph confirms colour / hands /
-room + approves the plan (~$9.24), then master still ($0.09) anchors every later still. Spent $0.** Scripts v1 ($0) in
-Drive: Grace Tiktok assets/FUSOU Vanity Desk – Grace hands-only (2026-10-02) (doc
-https://docs.google.com/document/d/1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs).
+Status: **Ralph approved (2026-10-02): white, Grace's real hands (Vicks refs), bedroom look, $9.10 plan. Master still
+made ($0.09, `stills/MASTER.png`) but it does NOT match the real vanity: 2 top cubbies (real 4), 2 top drawers (real 4),
+2 glass panes (real 4), portrait mirror (real landscape), vanity too tall/narrow (real ~1.1:1 wide). Waiting on Ralph:
+(1) use the real listing photo as the master ($0, recommended) or redo the AI master ($0.09); (2) nails: match the ref
+photos (long almond, mauve + white tips) or the Vicks look (short squared, lilac-white). Spent $0.09 of $9.10.** Scripts
+v1 ($0) in Drive: Grace Tiktok assets/FUSOU Vanity Desk – Grace hands-only (2026-10-02).
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.

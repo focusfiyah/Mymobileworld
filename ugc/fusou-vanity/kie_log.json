@@ -1,0 +1,29 @@
+[
+ {
+  "t": "2026-10-02 21:05:52",
+  "submitted": "8860ae2590300d7e5609cdde28e0c5aa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Straight-on wide shot of the WHOLE vanity against the b"
+ },
+ {
+  "t": "2026-10-02 21:06:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Straight-on wide shot of the WHOLE vanity against the bedroom wall, filling the vertical frame from the top cubbies down to the floor, stool tucked in, all drawers and the mirror door closed, both LED mirror light lines ON in warm white. Camera at chest height, centred on the makeup mirror, slightly back so the full width fits. No hands in this shot. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. Setting: a calm, tidy bedroom: warm beige painted wall behind the vanity, light natural-oak plank floor, a window with sheer white curtains on the LEFT giving soft daylight, a green plant in a pot at the far left. On the vanity, only a few pretty things: 4 perfume bottles and a reed diffuser on the hutch shelves, a short row of lipsticks and a small white ceramic vase on the desk top, two neat storage boxes and one tan leather handbag in the top cubbies. Inside the side cabinet (seen only when its mirror door is open), always the same: a tan leather handbag on the second shelf, a pair of nude heels on the third, folded cream sweaters on the fourth, two perfume bottles on the top shelf. The hair dryer is always the same sage-green dryer. Clean, airy, a little expensive-looking, nothing cluttered. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975149234-1mji9cl6cld.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8860ae2590300d7e5609cdde28e0c5aa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/8860ae2590300d7e5609cdde28e0c5aa_0_1790975197.jpeg"
+   ]
+  },
+  "costTime": 45
+ }
+]
