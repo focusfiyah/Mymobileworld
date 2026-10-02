@@ -2,9 +2,9 @@
 
 **Client: Grace** (Ralph, 2026-10-02). Hands-only route (`ugc-product-ad` skill), template `../vicks-vaposhower/`.
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~26s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
-eleven_v4). No face anywhere, so no lip sync. No burned-in captions except the hook text.
+eleven_v4). No face anywhere, so no lip sync. **No on-screen text of any kind, hook text included** (Ralph, 2026-10-02).
 
-Status: **Plan v1 sent to Ralph 2026-10-02, waiting on his OK + 3 answers (serving size, hand, flash-sale line). $0 spent.
+Status: **Plan v1.1 (no overlay text) sent to Ralph 2026-10-02, waiting on his OK + 3 answers (serving size, hand, flash-sale line). $0 spent.
 Blocked: the cloud environment's network policy denies api.kie.ai / kieai.redpandaai.co / api.elevenlabs.io /
 www.tiktok.com (asked Ralph to allow them in Project settings). `kie.py` / `cut.py` are Vicks copies, rewrite for this job.**
 
@@ -31,7 +31,7 @@ playbook's proven angles (curiosity text hook, pain-first, read-the-label) rathe
 
 | Shot | Beat | VO | Hands do |
 |---|---|---|---|
-| S1 | curiosity hook (text: "this is not candy 🍓") | This looks like candy. It's actually beet root. | tip one dark red gummy from the open jar into the palm, hold it to the lens |
+| S1 | curiosity hook (spoken only) | This looks like candy. It's actually beet root. | tip one dark red gummy from the open jar into the palm, hold it to the lens |
 | S2 | pain | If you've tried beet juice, you know. It tastes like dirt. | slide a glass of dark beet juice away, a raw beet beside it |
 | S3 | solution | These are Horbaach Beet Root Plus gummies, and they're strawberry flavored. | turn the jar so the label faces the lens (free label close-up insert from the screenshot) |
 | S4 | selling point (label words) | Beet root with nitrates. The label calls it a nitric oxide precursor. | fingertip taps "with Nitrates" on the label |
@@ -51,7 +51,7 @@ glass of beet juice (S2 only). Hand: same hand as Carpe / Plant Therapy / Vicks 
 | Stills S2–S7 → one sheet, review | $0.54 |
 | Test clip S5 (two gummies into the palm, hardest), 5s → review | $0.21 |
 | Other 6 clips (28s × $0.041) | $1.15 |
-| Cut: label insert, hook text, CC0 SFX (jar shake, cap), loudnorm; Drive upload | free |
+| Cut: label close-up insert (image, no text), CC0 SFX (jar shake, cap), loudnorm; Drive upload | free |
 | **Total** | **$1.99** (+ ~$0.25 per redone shot, each redo asked first) |
 
 Running total: $0.00 / $1.99.
