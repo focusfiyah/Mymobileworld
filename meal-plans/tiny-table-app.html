@@ -1,0 +1,827 @@
+<title>Tiny Table</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Sniglet:wght@400;800&display=swap">
+<style>
+/* Layout: phone-first single column, sticky app header, fixed bottom tab bar; goal colors are the pastel chips from the reference slides */
+:root {
+  --bg: #F8F8F1;
+  --surface: #FFFFFF;
+  --ink: #22261E;
+  --muted: #62685A;
+  --line: #E3E4D6;
+  --accent: #2E6A4C;
+  --accent-ink: #FFFFFF;
+  --warn-bg: #FFF1D6;
+  --warn-ink: #7A4B00;
+  --good-bg: #E1F1E6;
+  --good-ink: #1F5B3B;
+
+  --g-brain: #F6D5D6;   --g-brain-ink: #8A2E3B;
+  --g-iron: #CDE6DF;    --g-iron-ink: #1D5C4F;
+  --g-pair: #FAE7A6;    --g-pair-ink: #664F00;
+  --g-energy: #DCE6CB;  --g-energy-ink: #43582A;
+  --g-bones: #E6DDEE;   --g-bones-ink: #57407A;
+  --g-digest: #F9DDCD;  --g-digest-ink: #86401F;
+  --g-variety: #D8E5F4; --g-variety-ink: #2C4E78;
+
+  --f-display: "Sniglet", "Arial Rounded MT Bold", "Trebuchet MS", system-ui, sans-serif;
+  --f-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --r: 14px;
+  --tabbar: 64px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141611; --surface: #1D2019; --ink: #ECEEE5; --muted: #A2A897; --line: #30352A;
+    --accent: #7FC49F; --accent-ink: #10231A;
+    --warn-bg: #3A2E14; --warn-ink: #F6D38A; --good-bg: #1D3326; --good-ink: #A8E0BF;
+    --g-brain: #45282C; --g-brain-ink: #F5C4C8;
+    --g-iron: #1E3B35; --g-iron-ink: #A9DCCF;
+    --g-pair: #3D3414; --g-pair-ink: #F3DC87;
+    --g-energy: #2D3622; --g-energy-ink: #CADDAE;
+    --g-bones: #34293F; --g-bones-ink: #D9C8EA;
+    --g-digest: #43291C; --g-digest-ink: #F4C7AD;
+    --g-variety: #22324A; --g-variety-ink: #BCD3F0;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141611; --surface: #1D2019; --ink: #ECEEE5; --muted: #A2A897; --line: #30352A;
+  --accent: #7FC49F; --accent-ink: #10231A;
+  --warn-bg: #3A2E14; --warn-ink: #F6D38A; --good-bg: #1D3326; --good-ink: #A8E0BF;
+  --g-brain: #45282C; --g-brain-ink: #F5C4C8;
+  --g-iron: #1E3B35; --g-iron-ink: #A9DCCF;
+  --g-pair: #3D3414; --g-pair-ink: #F3DC87;
+  --g-energy: #2D3622; --g-energy-ink: #CADDAE;
+  --g-bones: #34293F; --g-bones-ink: #D9C8EA;
+  --g-digest: #43291C; --g-digest-ink: #F4C7AD;
+  --g-variety: #22324A; --g-variety-ink: #BCD3F0;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-inline: 16px;
+  padding-block: 0 calc(var(--tabbar) + 24px + env(safe-area-inset-bottom, 0px));
+}
+.wrap { max-width: 560px; margin-inline: auto; }
+h1, h2, h3 { font-family: var(--f-display); font-weight: 400; text-wrap: balance; margin: 0; line-height: 1.2; }
+p { margin: 0; }
+button { font: inherit; color: inherit; }
+button:focus-visible, .chipbtn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* header */
+.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg);
+  padding-block: 14px 10px;
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.brand h1 { font-size: 1.75rem; font-weight: 800; letter-spacing: 0.01em; }
+.brand p { font-size: 0.85rem; color: var(--muted); }
+.sync { font-size: 0.75rem; color: var(--muted); text-align: right; min-width: 0; }
+.sync b { display: block; font-weight: 700; color: var(--ink); }
+
+section.tab { display: grid; gap: 16px; padding-block: 16px; }
+.eyebrow { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+
+/* summary */
+.summary { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; }
+.stat .num { font-family: var(--f-display); font-size: 1.6rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.stat .lbl { font-size: 0.8rem; color: var(--muted); }
+.bar { height: 6px; border-radius: 3px; background: var(--line); margin-top: 8px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 3px; transition: width .3s; }
+
+/* day picker */
+.days { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+.days::-webkit-scrollbar { display: none; }
+.day {
+  flex: 0 0 auto; min-width: 52px; padding: 8px 10px; border-radius: 12px;
+  background: var(--surface); border: 1px solid var(--line); cursor: pointer;
+  display: grid; justify-items: center; gap: 2px; font-size: 0.85rem;
+}
+.day .d { font-family: var(--f-display); font-size: 1rem; }
+.day .dots { display: flex; gap: 2px; height: 6px; }
+.day .dots i { width: 6px; height: 6px; border-radius: 50%; background: var(--line); }
+.day .dots i.on { background: var(--accent); }
+.day[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.day[aria-pressed="true"] .dots i { background: color-mix(in srgb, var(--accent-ink) 35%, transparent); }
+.day[aria-pressed="true"] .dots i.on { background: var(--accent-ink); }
+.day .today { font-size: 0.65rem; letter-spacing: .06em; text-transform: uppercase; }
+
+/* day head */
+.dayhead { display: grid; gap: 8px; }
+.dayhead h2 { font-size: 1.5rem; }
+.phase { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; width: fit-content; }
+.phase.fresh { background: var(--g-energy); color: var(--g-energy-ink); }
+.phase.freezer { background: var(--g-variety); color: var(--g-variety-ink); }
+.useup { font-size: 0.9rem; color: var(--muted); }
+.useup b { color: var(--ink); }
+
+.goalstrip { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* chips */
+.chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 0.75rem; font-weight: 700; line-height: 1;
+  padding: 5px 9px; border-radius: 999px;
+  background: var(--c, var(--line)); color: var(--ci, var(--ink));
+}
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; opacity: .7; }
+.chip.off { background: transparent; color: var(--muted); box-shadow: inset 0 0 0 1px var(--line); }
+.chip.off::before { opacity: .35; }
+.c-brain { --c: var(--g-brain); --ci: var(--g-brain-ink); }
+.c-iron { --c: var(--g-iron); --ci: var(--g-iron-ink); }
+.c-pair { --c: var(--g-pair); --ci: var(--g-pair-ink); }
+.c-energy { --c: var(--g-energy); --ci: var(--g-energy-ink); }
+.c-bones { --c: var(--g-bones); --ci: var(--g-bones-ink); }
+.c-digestion { --c: var(--g-digest); --ci: var(--g-digest-ink); }
+.c-variety { --c: var(--g-variety); --ci: var(--g-variety-ink); }
+
+/* meals */
+.meals { display: grid; gap: 10px; }
+.meal {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r);
+  padding: 14px; display: grid; gap: 8px; min-width: 0;
+}
+.meal .row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.meal .slot { font-size: 0.75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.meal h3 { font-size: 1.15rem; }
+.meal p.how { font-size: 0.92rem; color: var(--muted); }
+.meal .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.meal.done { background: color-mix(in srgb, var(--surface) 70%, var(--bg)); }
+.meal.done h3 { text-decoration: line-through; text-decoration-thickness: 2px; text-decoration-color: var(--accent); }
+
+.tick {
+  flex: 0 0 auto; display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 12px; border-radius: 999px; cursor: pointer;
+  background: transparent; border: 1.5px solid var(--line); font-size: 0.85rem; font-weight: 700;
+}
+.tick .box { width: 16px; height: 16px; border-radius: 5px; border: 2px solid var(--muted); display: grid; place-items: center; }
+.tick[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.tick[aria-pressed="true"] .box { border-color: var(--accent-ink); background: var(--accent-ink); }
+.tick[aria-pressed="true"] .box::after { content: ""; width: 5px; height: 9px; border: solid var(--accent); border-width: 0 2px 2px 0; transform: translateY(-1px) rotate(45deg); }
+
+.note { font-size: 0.85rem; padding: 8px 10px; border-radius: 10px; }
+.note.good { background: var(--good-bg); color: var(--good-ink); }
+.note.warn { background: var(--warn-bg); color: var(--warn-ink); }
+.note.tip { background: color-mix(in srgb, var(--line) 55%, transparent); color: var(--ink); }
+
+.callout { background: var(--surface); border: 1px dashed var(--line); border-radius: var(--r); padding: 12px 14px; font-size: 0.9rem; display: grid; gap: 4px; }
+.callout b { font-family: var(--f-display); font-weight: 400; font-size: 1rem; }
+
+/* shop */
+.shophead { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.group { display: grid; gap: 8px; }
+.group h2 { font-size: 1.2rem; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.group h2 small { font-family: var(--f-body); font-size: 0.8rem; color: var(--muted); }
+.items { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.item {
+  display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: start;
+  width: 100%; text-align: left; background: none; border: 0; border-top: 1px solid var(--line);
+  padding: 12px 14px; cursor: pointer;
+}
+.item:first-child { border-top: 0; }
+.item .box { margin-top: 3px; width: 20px; height: 20px; border-radius: 6px; border: 2px solid var(--muted); display: grid; place-items: center; }
+.item[aria-pressed="true"] .box { background: var(--accent); border-color: var(--accent); }
+.item[aria-pressed="true"] .box::after { content: ""; width: 5px; height: 10px; border: solid var(--accent-ink); border-width: 0 2px 2px 0; transform: translateY(-1px) rotate(45deg); }
+.item .name { font-weight: 700; }
+.item .amt { color: var(--muted); font-weight: 400; }
+.item .keep { display: block; font-size: 0.82rem; color: var(--muted); }
+.item[aria-pressed="true"] .name { text-decoration: line-through; color: var(--muted); }
+.item:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+
+.ghost {
+  background: transparent; border: 1.5px solid var(--line); border-radius: 999px;
+  padding: 7px 14px; font-size: 0.85rem; font-weight: 700; cursor: pointer;
+}
+.ghost.arm { border-color: var(--warn-ink); color: var(--warn-ink); background: var(--warn-bg); }
+
+/* plate */
+.plate {
+  position: sticky; top: calc(env(safe-area-inset-top, 0px) + 72px); z-index: 2;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r);
+  padding: 14px; display: grid; gap: 10px; box-shadow: 0 6px 18px -12px rgba(0,0,0,.35);
+  max-height: 45vh; overflow-y: auto;
+}
+.plate .onplate { font-family: var(--f-display); font-size: 1.1rem; }
+.plate .onplate span { color: var(--muted); font-family: var(--f-body); font-size: 0.85rem; }
+.plate .msgs { display: grid; gap: 6px; }
+.fgroup { display: grid; gap: 8px; }
+.fgroup h3 { font-size: 1rem; }
+.foods { display: flex; flex-wrap: wrap; gap: 8px; }
+.chipbtn {
+  padding: 8px 12px; border-radius: 999px; cursor: pointer; font-size: 0.9rem;
+  background: var(--surface); border: 1.5px solid var(--line);
+}
+.chipbtn[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+/* guide */
+.goal { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.goal .band { background: var(--c); color: var(--ci); padding: 12px 14px; display: grid; gap: 4px; }
+.goal .band h2 { font-size: 1.25rem; }
+.goal .band p { font-size: 0.9rem; }
+.goal .body { padding: 12px 14px; display: grid; gap: 8px; font-size: 0.92rem; }
+.goal .foods span { font-size: 0.85rem; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); }
+.goal .inplan { color: var(--muted); }
+.goal .inplan b { color: var(--ink); }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; }
+.card h2 { font-size: 1.25rem; }
+.jobs { display: grid; gap: 6px; }
+.job { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.job b { min-width: 84px; }
+.tablewrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+th, td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 700; width: 38%; }
+ul.safe { margin: 0; padding-left: 1.1rem; display: grid; gap: 6px; font-size: 0.92rem; }
+.credit { font-size: 0.8rem; color: var(--muted); text-align: center; }
+
+/* prep */
+.steps { display: grid; gap: 10px; }
+
+/* tab bar */
+.tabbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.tabbar .in { max-width: 560px; margin-inline: auto; display: grid; grid-template-columns: repeat(4, 1fr); height: var(--tabbar); }
+.tabbar button {
+  background: none; border: 0; cursor: pointer; display: grid; place-items: center; align-content: center; gap: 3px;
+  font-size: 0.78rem; font-weight: 700; color: var(--muted);
+}
+.tabbar svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.tabbar button[aria-selected="true"] { color: var(--accent); }
+.tabbar .badge { font-variant-numeric: tabular-nums; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Tiny Table</h1>
+      <p>Week plan for a 1-year-old</p>
+    </div>
+    <div class="sync" id="sync"><b>Saved on this phone</b>checks stay here</div>
+  </header>
+
+  <section class="tab" id="tab-week" aria-label="Week"></section>
+  <section class="tab" id="tab-shop" aria-label="Shopping list" hidden></section>
+  <section class="tab" id="tab-plate" aria-label="Build a plate" hidden></section>
+  <section class="tab" id="tab-guide" aria-label="Guide" hidden></section>
+</div>
+
+<nav class="tabbar" aria-label="Sections">
+  <div class="in" role="tablist">
+    <button role="tab" id="t-week" data-tab="week" aria-selected="true">
+      <svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Week
+    </button>
+    <button role="tab" id="t-shop" data-tab="shop" aria-selected="false">
+      <svg viewBox="0 0 24 24"><path d="M5 8h14l-1.3 10.2a2 2 0 0 1-2 1.8H8.3a2 2 0 0 1-2-1.8z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg><span>Shop <span class="badge" id="shopbadge"></span></span>
+    </button>
+    <button role="tab" id="t-plate" data-tab="plate" aria-selected="false">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/></svg>Plate
+    </button>
+    <button role="tab" id="t-guide" data-tab="guide" aria-selected="false">
+      <svg viewBox="0 0 24 24"><path d="M5 4.5h10.5a3 3 0 0 1 3 3V20H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h10.5"/></svg>Guide
+    </button>
+  </div>
+</nav>
+
+<script>
+(() => {
+  /* ---------- data ---------- */
+  const GOALS = [
+    { id: "brain", label: "Brain" },
+    { id: "iron", label: "Iron" },
+    { id: "pair", label: "Iron + C" },
+    { id: "energy", label: "Energy" },
+    { id: "bones", label: "Bones" },
+    { id: "digestion", label: "Digestion" },
+  ];
+
+  // tags: brain, iron, plant (plant iron), heme, vitc, energy, bones, fiber, bigdairy
+  const FOODS = {
+    beef:      { n: "Beef", g: "protein", t: ["brain", "iron", "heme"] },
+    salmon:    { n: "Salmon", g: "protein", t: ["brain"] },
+    sardines:  { n: "Sardines", g: "protein", t: ["brain", "bones", "iron", "heme"] },
+    egg:       { n: "Egg", g: "protein", t: ["brain"] },
+    tofu:      { n: "Calcium-set tofu", g: "protein", t: ["bones", "iron", "plant"] },
+    lentils:   { n: "Lentils", g: "legume", t: ["iron", "plant", "fiber"] },
+    beans:     { n: "Black beans", g: "legume", t: ["iron", "plant", "fiber"] },
+    oats:      { n: "Iron-fortified oats", g: "grain", t: ["iron", "plant", "energy", "fiber"] },
+    pasta:     { n: "Pasta", g: "grain", t: ["energy"] },
+    rice:      { n: "Rice or quinoa", g: "grain", t: ["energy"] },
+    bread:     { n: "Toast", g: "grain", t: ["energy"] },
+    tortilla:  { n: "Tortilla", g: "grain", t: ["energy"] },
+    yogurt:    { n: "Yogurt", g: "dairy", t: ["bones", "energy", "bigdairy"] },
+    milk:      { n: "Goat milk", g: "dairy", t: ["bones", "bigdairy"] },
+    cheese:    { n: "Cheese", g: "dairy", t: ["bones"] },
+    avocado:   { n: "Avocado", g: "fat", t: ["brain", "energy"] },
+    oil:       { n: "Olive oil", g: "fat", t: ["energy"] },
+    nutbutter: { n: "Peanut butter", g: "fat", t: ["energy"] },
+    kiwi:      { n: "Kiwi", g: "fruit", t: ["vitc", "fiber"] },
+    berries:   { n: "Berries", g: "fruit", t: ["vitc", "fiber"] },
+    pear:      { n: "Pear", g: "fruit", t: ["fiber"] },
+    banana:    { n: "Banana", g: "fruit", t: [] },
+    redpepper: { n: "Red pepper", g: "veg", t: ["vitc", "fiber"] },
+    broccoli:  { n: "Broccoli", g: "veg", t: ["vitc", "fiber"] },
+    carrots:   { n: "Carrots", g: "veg", t: ["fiber"] },
+    peas:      { n: "Peas", g: "veg", t: ["fiber"] },
+    sweetpotato: { n: "Sweet potato", g: "veg", t: ["fiber", "energy"] },
+    spinach:   { n: "Spinach", g: "veg", t: ["fiber"] },
+    tomato:    { n: "Tomato sauce", g: "veg", t: [] },
+  };
+  const GROUPS = [
+    { id: "protein", n: "Protein" },
+    { id: "legume", n: "Beans & lentils" },
+    { id: "grain", n: "Grains" },
+    { id: "dairy", n: "Dairy" },
+    { id: "fat", n: "Healthy fats" },
+    { id: "fruit", n: "Fruit" },
+    { id: "veg", n: "Vegetables" },
+  ];
+
+  const SLOTS = { b: "Breakfast", s1: "Morning snack", l: "Lunch", s2: "Afternoon snack", d: "Dinner" };
+
+  const PREP = [
+    { id: "p1", h: "Mini beef meatballs", how: "Mix 1 lb ground beef, 1 egg, ¼ cup oats, a handful of thawed spinach and 1 grated carrot. Roll small balls and bake at 400°F for 15–18 min, until 160°F inside. Fridge half, freeze half." },
+    { id: "p2", h: "Pot of red lentils", how: "Simmer 1 cup red lentils in 2½ cups water for 15–20 min until soft. Fridge half. Freeze the rest in an ice-cube tray." },
+    { id: "p3", h: "Roast sweet potato", how: "Cube 2 sweet potatoes, toss with olive oil, roast at 400°F for about 25 min." },
+    { id: "p4", h: "Pasta and rice", how: "Cook one pot of each. Spread the rice on a plate to cool and get it in the fridge within 1 hour." },
+    { id: "p5", h: "Hard-boil 4 eggs", how: "Keep them in the shell. They last a week in the fridge." },
+    { id: "p6", h: "Freeze the extras", how: "Freeze half the bread and all the tortillas. Toast straight from frozen." },
+  ];
+
+  const DAYS = [
+    { id: "mon", n: "Monday", s: "Mon", phase: "fresh", useup: "ripe avocado, fresh lentils, bananas", meals: {
+      b:  ["Berry oatmeal", "Oats made with water. Stir in mashed banana, thawed berries and a thin swirl of peanut butter.", ["oats", "banana", "berries", "nutbutter"]],
+      s1: ["Yogurt and berries", "Full-fat plain yogurt with thawed berries, mashed or quartered.", ["yogurt", "berries"]],
+      l:  ["Meatballs and sweet potato", "Quarter 2–3 meatballs. Roasted sweet potato and soft broccoli on the side. A cup of goat milk fits here.", ["beef", "sweetpotato", "broccoli", "oil", "milk"]],
+      s2: ["Avocado toast strips", "Mash avocado thickly onto toast and cut into fingers.", ["avocado", "bread"]],
+      d:  ["Red lentil tomato pasta", "Stir cooked lentils and a little olive oil into low-sodium tomato sauce. Soft-cooked red pepper strips on the side.", ["lentils", "pasta", "tomato", "oil", "redpepper"]],
+    }},
+    { id: "tue", n: "Tuesday", s: "Tue", phase: "fresh", useup: "second avocado, kiwi", meals: {
+      b:  ["Egg, avocado and toast", "Soft scrambled egg, sliced avocado and toast strips.", ["egg", "avocado", "bread"]],
+      s1: ["Goat milk and banana", "Half a banana, cut lengthwise, with a cup of goat milk.", ["milk", "banana"]],
+      l:  ["Salmon cakes and peas", "Mash 1 can of salmon (the soft bones add calcium) with 1 egg and ¼ cup oats. Pan-fry small patties in olive oil. Freeze half for Saturday.", ["salmon", "egg", "oil", "peas"]],
+      s2: ["Kiwi and cheese", "Kiwi in small pieces with little cheese cubes.", ["kiwi", "cheese"]],
+      d:  ["Meatballs, rice and broccoli", "Leftover meatballs, quartered, with rice and soft broccoli.", ["beef", "rice", "broccoli"]],
+    }},
+    { id: "wed", n: "Wednesday", s: "Wed", phase: "fresh", useup: "rest of the avocado, fridge lentils and sweet potato", note: "Fridge check tonight: cooked food from Sunday is now 3 days old. Finish it or freeze it.", meals: {
+      b:  ["Banana-oat pancakes", "Blend 1 banana, 1 egg and ⅓ cup oats. Cook small pancakes. Make a double batch and freeze the extras. Berries on the side.", ["banana", "egg", "oats", "berries"]],
+      s1: ["Yogurt with peanut butter", "Full-fat yogurt with a thin swirl of peanut butter.", ["yogurt", "nutbutter"]],
+      l:  ["Sardine avocado toast", "Mash sardines (no salt added; the bones are soft) with the rest of the avocado. Spread on toast strips. Red pepper strips on the side.", ["sardines", "avocado", "bread", "redpepper"]],
+      s2: ["Ripe pear and goat milk", "Thin, soft pear slices or grated pear, with a cup of goat milk.", ["pear", "milk"]],
+      d:  ["Lentil and sweet potato mash", "Mash the last lentils and sweet potato with olive oil. Kiwi pieces on the side.", ["lentils", "sweetpotato", "oil", "kiwi"]],
+    }},
+    { id: "thu", n: "Thursday", s: "Thu", phase: "freezer", useup: "open the beans; freeze half", meals: {
+      b:  ["Kiwi oatmeal", "Oats made with water, topped with chopped kiwi and a thin swirl of peanut butter.", ["oats", "kiwi", "nutbutter"]],
+      s1: ["Goat milk and banana", "Half a banana with a cup of goat milk.", ["milk", "banana"]],
+      l:  ["Bean and cheese quesadilla", "Mash half the can of beans with grated cheese in a tortilla. Cut into strips. Red pepper strips on the side. Freeze the other half of the beans.", ["beans", "cheese", "tortilla", "redpepper"]],
+      s2: ["Yogurt and berries", "Full-fat yogurt with thawed berries.", ["yogurt", "berries"]],
+      d:  ["Meatball pasta", "Meatballs from the freezer with pasta, tomato sauce and peas.", ["beef", "pasta", "tomato", "peas"]],
+    }},
+    { id: "fri", n: "Friday", s: "Fri", phase: "freezer", useup: "open the tofu", meals: {
+      b:  ["Tofu and spinach scramble", "Crumble calcium-set tofu into a pan with olive oil and thawed spinach. Berries on the side.", ["tofu", "spinach", "oil", "berries"]],
+      s1: ["Cheese and pear", "Small cheese cubes and ripe pear slices.", ["cheese", "pear"]],
+      l:  ["Egg muffins", "Whisk 4 eggs with spinach and grated cheese. Bake in a muffin tin at 350°F for about 15 min. Keep extras for tomorrow. Peas and a cup of goat milk on the side.", ["egg", "spinach", "cheese", "peas", "milk"]],
+      s2: ["Banana pancake", "One from the freezer, toasted, with a few berries.", ["banana", "oats", "berries"]],
+      d:  ["Lentil rice bowl", "Lentil cubes from the freezer over rice, with steamed carrots and broccoli.", ["lentils", "rice", "carrots", "broccoli"]],
+    }},
+    { id: "sat", n: "Saturday", s: "Sat", phase: "freezer", useup: "rest of the tofu, egg muffins", meals: {
+      b:  ["Egg muffin and kiwi", "Yesterday's egg muffin, toast from frozen and kiwi pieces.", ["egg", "cheese", "spinach", "bread", "kiwi"]],
+      s1: ["Yogurt and pear", "Full-fat yogurt with grated or soft pear.", ["yogurt", "pear"]],
+      l:  ["Salmon cakes and carrots", "Salmon cakes from the freezer with steamed carrot sticks and peas.", ["salmon", "egg", "carrots", "peas"]],
+      s2: ["Crispy tofu and berries", "Soft tofu cubes pan-fried in olive oil, with berries.", ["tofu", "oil", "berries"]],
+      d:  ["Fridge clean-out fried rice", "Rice, scrambled egg, peas, carrots, red pepper and any leftover meatball, chopped. No soy sauce for baby. A cup of goat milk fits here.", ["rice", "egg", "peas", "carrots", "redpepper", "oil", "milk"]],
+    }},
+    { id: "sun", n: "Sunday", s: "Sun", phase: "freezer", useup: "beans from the freezer, last kiwi", note: "After dinner, do next week's prep and take stock of what's left before you shop.", meals: {
+      b:  ["Pear and berry oatmeal", "Oats made with water, with soft diced pear and berries stirred in.", ["oats", "pear", "berries"]],
+      s1: ["Goat milk and banana", "Half a banana with a cup of goat milk.", ["milk", "banana"]],
+      l:  ["Bean and rice bowl", "Thawed beans with rice and grated cheese. Kiwi on the side.", ["beans", "rice", "cheese", "kiwi"]],
+      s2: ["Yogurt and berries", "Full-fat yogurt with thawed berries.", ["yogurt", "berries"]],
+      d:  ["Family dinner", "Cook your own dinner without salt, set baby's portion aside, then season the rest for the adults.", []],
+    }},
+  ];
+
+  const SHOP = [
+    { id: "fresh", h: "Fresh", sub: "used Mon–Wed or keeps for weeks", items: [
+      ["bananas", "Bananas", "5–6", "Mix yellow and green so they ripen through the week"],
+      ["avocados", "Avocados", "2", "One ripe, one firm. The firm one is ready by Tuesday or Wednesday"],
+      ["kiwis", "Kiwis", "4–5", "Firm kiwis keep 3–4 weeks in the fridge"],
+      ["redpepper", "Red bell pepper", "1", "Keeps 1–2 weeks in the fridge"],
+      ["pears", "Pears", "3 firm", "Ripen on the counter for Wednesday on"],
+      ["sweetpot", "Sweet potatoes", "2 medium", "Keep 2+ weeks somewhere cool and dark"],
+      ["carrots", "Carrots", "small bag", "Keep 3–4 weeks in the fridge"],
+    ]},
+    { id: "fridge", h: "Fridge", sub: "dairy, eggs, meat", items: [
+      ["milk", "Whole goat milk", "4 quarts", "Pasteurized and full-fat, with added vitamin D and folic acid on the label. Unopened quarts freeze well"],
+      ["yogurt", "Plain full-fat yogurt", "32 oz tub", "One big tub costs less than single cups"],
+      ["eggs", "Eggs", "1 dozen", ""],
+      ["cheese", "Mild cheddar", "1 block", "A block keeps longer than shredded"],
+      ["tofu", "Calcium-set tofu", "1 block", "Label should list calcium sulfate. Unopened, it keeps until its date"],
+      ["beef", "Ground beef", "1 lb", "Buy it right before prep day"],
+    ]},
+    { id: "freezer", h: "Freezer", sub: "never goes bad", items: [
+      ["fberries", "Mixed berries", "1 bag", "Strawberries and blueberries: vitamin C"],
+      ["fbroc", "Broccoli florets", "1 bag", ""],
+      ["fpeas", "Peas", "1 bag", ""],
+      ["fspin", "Chopped spinach", "1 bag", ""],
+    ]},
+    { id: "pantry", h: "Pantry", sub: "keeps for months", items: [
+      ["oats", "Iron-fortified oats", "1 box", "Baby oat cereal or instant oats with iron on the label"],
+      ["lentils", "Red lentils, dry", "1 lb", "Cook in 15 minutes, keep for a year"],
+      ["beans", "Black beans, low-sodium", "1 can", "Rinse well"],
+      ["salmon", "Canned salmon", "1 can", "No salt added if you can find it"],
+      ["sardines", "Sardines", "1 tin", "No salt added, in water or olive oil"],
+      ["pasta", "Small whole-wheat pasta", "1 box", "Orzo, stars or elbows"],
+      ["rice", "Rice or quinoa", "1 bag", ""],
+      ["bread", "Whole-wheat bread", "1 loaf", "Freeze half the day you buy it"],
+      ["tortillas", "Small tortillas", "1 pack", "Freeze them"],
+      ["tomato", "Low-sodium tomato sauce", "1 jar or can", ""],
+      ["pb", "Smooth peanut butter", "1 jar", "Or sunflower seed butter"],
+      ["oil", "Olive oil", "", "Skip if you have it"],
+    ]},
+  ];
+
+  const GUIDE = [
+    { id: "brain", h: "Brain development", p: "Focus on foods with iron, choline, iodine, zinc and omega-3 fats.", foods: ["Salmon", "Eggs", "Beef", "Avocado"], plan: "Salmon cakes Tuesday and Saturday, sardines Wednesday, eggs most days, beef meatballs three times." },
+    { id: "iron", h: "Iron", p: "From around 6 months, babies need reliable iron from food. It matters just as much at 1.", foods: ["Beef or lamb strips", "Chicken liver pâté", "Lentils and beans", "Iron-fortified oats"], plan: "Something iron-rich every day. Liver is optional, and no more than once a week because it is very high in vitamin A." },
+    { id: "pair", h: "The pairing that matters", p: "Plant iron needs vitamin C to absorb well. A big serving of milk or yogurt at the same meal works against it.", foods: ["Red pepper strips", "Kiwi", "Strawberries", "Broccoli"], plan: "Every lentil, bean, tofu and oat meal comes with a vitamin C side. Goat milk and yogurt go at snack time or with meat and egg meals." },
+    { id: "energy", h: "Energy and growth", p: "Babies have small stomachs but big energy needs. Include energy-dense foods, not just fruit and veg.", foods: ["Olive oil on meals", "Smooth nut or seed butter", "Full-fat plain yogurt", "Oats"], plan: "Olive oil goes on most dinners. Peanut butter swirls into oats. Yogurt is always full-fat." },
+    { id: "bones", h: "Bones and teeth", p: "Think calcium + vitamin D + protein. Vitamin D advice varies by country, so follow your local guidance or ask your pediatrician.", foods: ["Full-fat plain yogurt", "Cheese", "Sardines", "Calcium-set tofu"], plan: "Goat milk and other dairy every day. Canned salmon and sardines bring calcium from their soft bones." },
+    { id: "digestion", h: "Digestion", p: "Fiber-rich foods help as babies eat more solids. Offer small sips of water with meals.", foods: ["Pear", "Kiwi", "Berries", "Vegetables"], plan: "A fruit or vegetable at almost every meal, and water in an open or straw cup." },
+    { id: "variety", h: "Food acceptance and variety", p: "This one isn't about one nutrient. It's about exposing your baby to different foods, flavors and textures.", foods: ["Vegetables", "Fruit", "Protein", "Grains", "Healthy fats", "Beans, nuts and seeds"], plan: "The week uses about 29 foods across 7 groups. The Week tab counts how many your baby actually tried." },
+  ];
+
+  /* ---------- state ---------- */
+  const KEY = "tiny-table-v1";
+  let state = { shop: {}, done: {} };
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (raw) { const d = JSON.parse(raw); state = { shop: d.shop || {}, done: d.done || {} }; }
+  } catch (e) {}
+
+  let ref = null, saveTimer = null, saving = false, dirty = false;
+  const syncEl = document.getElementById("sync");
+  function setSync(mode) {
+    syncEl.innerHTML = mode === "account"
+      ? "<b>Saved to your account</b>checks follow you to any device"
+      : "<b>Saved on this phone</b>checks stay here";
+  }
+  function changed() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+    if (!ref) return;
+    dirty = true;
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(flush, 500);
+  }
+  async function flush() {
+    saveTimer = null;
+    if (saving || !ref) return;
+    saving = true;
+    let retried = false;
+    while (dirty && ref) {
+      dirty = false;
+      try {
+        await ref.set(JSON.parse(JSON.stringify(state)));
+        setSync("account");
+      } catch (e) {
+        if (e && e.code === "unavailable" && !retried) {
+          retried = true; dirty = true;
+          await new Promise(r => setTimeout(r, 600 + Math.random() * 900));
+        } else {
+          ref = null; setSync("device");
+        }
+      }
+    }
+    saving = false;
+  }
+  async function connect() {
+    if (!window.claude || typeof window.claude.use !== "function") return;
+    try {
+      const [db, user] = await Promise.all([window.claude.use("db"), window.claude.use("user")]);
+      if (!db || !user) return;
+      const uid = await user.id();
+      if (!uid) return;
+      ref = db.doc("data/users/" + uid + "/state");
+      ref.onSnapshot(snap => {
+        if (saving || saveTimer || dirty || snap.metadata.hasPendingWrites) return;
+        if (snap.exists) {
+          const d = snap.data() || {};
+          state = { shop: { ...(d.shop || {}) }, done: { ...(d.done || {}) } };
+          try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+          renderAll();
+        }
+        setSync("account");
+      }, () => { ref = null; setSync("device"); });
+    } catch (e) { ref = null; }
+  }
+
+  /* ---------- helpers ---------- */
+  function evalFoods(ids) {
+    const tags = new Set(ids.flatMap(id => FOODS[id].t));
+    const plant = tags.has("plant") && !tags.has("heme");
+    return {
+      brain: tags.has("brain"), iron: tags.has("iron"), energy: tags.has("energy"),
+      bones: tags.has("bones"), digestion: tags.has("fiber"),
+      pair: plant && tags.has("vitc"),
+      pairMiss: plant && !tags.has("vitc"),
+      dairyClash: tags.has("plant") && tags.has("bigdairy"),
+      vitcFoods: ids.filter(id => FOODS[id].t.includes("vitc")),
+      plantFoods: ids.filter(id => FOODS[id].t.includes("plant")),
+      dairyFoods: ids.filter(id => FOODS[id].t.includes("bigdairy")),
+      groups: new Set(ids.map(id => FOODS[id].g)),
+    };
+  }
+  const names = ids => ids.map(id => FOODS[id].n.toLowerCase()).join(" and ");
+  const chip = (id, label, off) => `<span class="chip c-${id}${off ? " off" : ""}">${label}</span>`;
+  function goalChips(ev, showOff) {
+    return GOALS.filter(g => showOff || ev[g.id])
+      .filter(g => g.id !== "pair" || ev.plantFoods.length || !showOff || ev === plateEval)
+      .map(g => chip(g.id, g.label, !ev[g.id])).join("");
+  }
+  let plateEval = null;
+  function mealKey(day, slot) { return day + "-" + slot; }
+  function todayId() { return ["sun", "mon", "tue", "wed", "thu", "fri", "sat"][new Date().getDay()]; }
+
+  function armButton(btn, label, armedLabel, action) {
+    let t = null;
+    btn.addEventListener("click", () => {
+      if (btn.classList.contains("arm")) {
+        clearTimeout(t); btn.classList.remove("arm"); btn.textContent = label; action();
+      } else {
+        btn.classList.add("arm"); btn.textContent = armedLabel;
+        t = setTimeout(() => { btn.classList.remove("arm"); btn.textContent = label; }, 3000);
+      }
+    });
+  }
+
+  /* ---------- week ---------- */
+  let selDay = todayId();
+  const weekEl = document.getElementById("tab-week");
+
+  function weekStats() {
+    let eaten = 0; const tried = new Set();
+    DAYS.forEach(d => Object.entries(d.meals).forEach(([slot, m]) => {
+      if (state.done[mealKey(d.id, slot)]) { eaten++; m[2].forEach(f => tried.add(f)); }
+    }));
+    return { eaten, total: DAYS.length * 5, tried: tried.size };
+  }
+  function dayEval(d) {
+    return evalFoods([...new Set(Object.values(d.meals).flatMap(m => m[2]))]);
+  }
+
+  function renderWeek() {
+    const st = weekStats();
+    const tid = todayId();
+    const dayBtns = [`<button class="day" data-day="prep" aria-pressed="${selDay === "prep"}"><span class="today">Sun</span><span class="d">Prep</span><span class="dots"></span></button>`]
+      .concat(DAYS.map(d => {
+        const eaten = Object.keys(d.meals).filter(s => state.done[mealKey(d.id, s)]).length;
+        const dots = Object.keys(d.meals).map((s, i) => `<i class="${i < eaten ? "on" : ""}"></i>`).join("");
+        return `<button class="day" data-day="${d.id}" aria-pressed="${selDay === d.id}"><span class="today">${d.id === tid ? "Today" : "&nbsp;"}</span><span class="d">${d.s}</span><span class="dots">${dots}</span></button>`;
+      })).join("");
+
+    let body = "";
+    if (selDay === "prep") {
+      const doneN = PREP.filter(p => state.done["prep-" + p.id]).length;
+      body = `
+        <div class="dayhead">
+          <p class="eyebrow">Sunday before the week · about 1 hour</p>
+          <h2>Prep day</h2>
+          <p class="useup">${doneN} of ${PREP.length} done. Cooked food keeps 3–4 days in the fridge, so half of everything goes in the freezer for Thursday on.</p>
+        </div>
+        <div class="steps">${PREP.map(p => {
+          const on = !!state.done["prep-" + p.id];
+          return `<article class="meal${on ? " done" : ""}">
+            <div class="row"><h3>${p.h}</h3>
+            <button class="tick" data-key="prep-${p.id}" aria-pressed="${on}"><span class="box"></span>Done</button></div>
+            <p class="how">${p.how}</p></article>`;
+        }).join("")}</div>`;
+    } else {
+      const d = DAYS.find(x => x.id === selDay);
+      const dev = dayEval(d);
+      body = `
+        <div class="dayhead">
+          <span class="phase ${d.phase}">${d.phase === "fresh" ? "Fresh food first" : "Freezer and pantry"}</span>
+          <h2>${d.n}</h2>
+          <p class="useup"><b>Use up today:</b> ${d.useup}</p>
+          <div class="goalstrip">${goalChips(dev, true)}${chip("variety", dev.groups.size + " of 7 food groups", false)}</div>
+        </div>
+        <div class="meals">${Object.entries(d.meals).map(([slot, m]) => {
+          const key = mealKey(d.id, slot);
+          const on = !!state.done[key];
+          const ev = evalFoods(m[2]);
+          let note = "";
+          if (ev.pair) note = `<p class="note good">Iron + vitamin C: ${names(ev.vitcFoods)} help absorb the iron in the ${names(ev.plantFoods)}.</p>`;
+          else if (ev.pairMiss) note = `<p class="note warn">Add kiwi, berries or red pepper so the iron absorbs.</p>`;
+          return `<article class="meal${on ? " done" : ""}">
+            <div class="row"><div><p class="slot">${SLOTS[slot]}</p><h3>${m[0]}</h3></div>
+            <button class="tick" data-key="${key}" aria-pressed="${on}"><span class="box"></span>Ate it</button></div>
+            <p class="how">${m[1]}</p>
+            ${m[2].length ? `<div class="chips">${goalChips(ev, false)}</div>` : ""}
+            ${note}
+          </article>`;
+        }).join("")}</div>
+        ${d.note ? `<div class="callout"><b>Tonight</b>${d.note}</div>` : ""}
+        <div class="callout"><b>Every day</b>Whole goat milk, 2–3 cups (16–24 oz) total, not more. Small sips of water with every meal. No juice.</div>`;
+    }
+
+    weekEl.innerHTML = `
+      <div class="summary">
+        <div class="stat"><div class="num">${st.eaten}<span class="lbl"> / ${st.total}</span></div><div class="lbl">meals eaten this week</div><div class="bar"><i style="width:${Math.round(st.eaten / st.total * 100)}%"></i></div></div>
+        <div class="stat"><div class="num">${st.tried}</div><div class="lbl">different foods tried</div><div class="bar"><i style="width:${Math.round(st.tried / Object.keys(FOODS).length * 100)}%"></i></div></div>
+      </div>
+      <div class="days" role="group" aria-label="Pick a day">${dayBtns}</div>
+      ${body}
+      <div style="display:flex;justify-content:flex-end"><button class="ghost" id="resetweek">Start a new week</button></div>`;
+
+    weekEl.querySelectorAll(".day").forEach(b => b.addEventListener("click", () => { selDay = b.dataset.day; renderWeek(); }));
+    weekEl.querySelectorAll(".tick").forEach(b => b.addEventListener("click", () => {
+      const k = b.dataset.key;
+      if (state.done[k]) delete state.done[k]; else state.done[k] = true;
+      changed(); renderWeek();
+    }));
+    armButton(weekEl.querySelector("#resetweek"), "Start a new week", "Tap again to clear all meal checks", () => {
+      state.done = {}; changed(); renderWeek();
+    });
+    const strip = weekEl.querySelector(".days");
+    const cur = strip.querySelector('.day[aria-pressed="true"]');
+    if (cur) {
+      const a = strip.getBoundingClientRect(), b = cur.getBoundingClientRect();
+      strip.scrollLeft += (b.left - a.left) - (a.width - b.width) / 2;
+    }
+  }
+
+  /* ---------- shop ---------- */
+  const shopEl = document.getElementById("tab-shop");
+  function renderShop() {
+    const all = SHOP.flatMap(g => g.items);
+    const got = all.filter(i => state.shop[i[0]]).length;
+    document.getElementById("shopbadge").textContent = got < all.length ? `${got}/${all.length}` : "✓";
+    shopEl.innerHTML = `
+      <div class="shophead">
+        <div><p class="eyebrow">One trip, about 29 items</p><h2 style="font-size:1.5rem">${got} of ${all.length} in the cart</h2></div>
+        <button class="ghost" id="clearshop">Uncheck all</button>
+      </div>
+      <div class="bar"><i style="width:${Math.round(got / all.length * 100)}%"></i></div>
+      <p class="note tip">Check your fridge and pantry first and tick what you already have. Frozen and canned food is the backbone here, so almost nothing can spoil.</p>
+      ${SHOP.map(g => `
+        <div class="group">
+          <h2>${g.h} <small>${g.sub}</small></h2>
+          <div class="items">${g.items.map(([id, n, amt, keep]) => `
+            <button class="item" data-id="${id}" aria-pressed="${!!state.shop[id]}">
+              <span class="box"></span>
+              <span><span class="name">${n}</span>${amt ? ` <span class="amt">· ${amt}</span>` : ""}${keep ? `<span class="keep">${keep}</span>` : ""}</span>
+            </button>`).join("")}
+          </div>
+        </div>`).join("")}`;
+    shopEl.querySelectorAll(".item").forEach(b => b.addEventListener("click", () => {
+      const id = b.dataset.id;
+      if (state.shop[id]) delete state.shop[id]; else state.shop[id] = true;
+      changed(); renderShop();
+    }));
+    armButton(shopEl.querySelector("#clearshop"), "Uncheck all", "Tap again to uncheck", () => {
+      state.shop = {}; changed(); renderShop();
+    });
+  }
+
+  /* ---------- plate ---------- */
+  const plateEl = document.getElementById("tab-plate");
+  let plate = ["lentils", "rice", "milk"];
+  let plateIsExample = true;
+  function renderPlate() {
+    const ev = evalFoods(plate);
+    plateEval = ev;
+    const msgs = [];
+    if (!plate.length) msgs.push(`<p class="note tip">Tap foods below to build a plate.</p>`);
+    else {
+      if (ev.pairMiss) msgs.push(`<p class="note warn">Add a vitamin C food: kiwi, berries, red pepper or broccoli. The iron in the ${names(ev.plantFoods)} absorbs much better with it.</p>`);
+      if (ev.pair) msgs.push(`<p class="note good">${names(ev.vitcFoods).replace(/^./, c => c.toUpperCase())} help absorb the iron in the ${names(ev.plantFoods)}.</p>`);
+      if (ev.dairyClash) msgs.push(`<p class="note warn">Serve the ${names(ev.dairyFoods)} at snack time instead. A big serving of milk or yogurt with this meal works against iron absorption.</p>`);
+      const hasProtein = ev.groups.has("protein") || ev.groups.has("legume");
+      const hasProduce = ev.groups.has("fruit") || ev.groups.has("veg");
+      if (!hasProtein) msgs.push(`<p class="note tip">Add a protein: egg, beef, salmon, sardines, tofu, lentils or beans.</p>`);
+      if (!ev.energy) msgs.push(`<p class="note tip">Add an energy food: olive oil, peanut butter, yogurt, oats or avocado.</p>`);
+      if (!hasProduce) msgs.push(`<p class="note tip">Add a fruit or vegetable.</p>`);
+      if (hasProtein && ev.energy && hasProduce && !ev.pairMiss && !ev.dairyClash) msgs.push(`<p class="note good">Balanced plate: protein, energy and a fruit or vegetable.</p>`);
+    }
+    plateEl.innerHTML = `
+      <div>
+        <p class="eyebrow">Build a plate</p>
+        <p class="useup">Tap foods to see which goals a meal covers and whether the iron pairing works.</p>
+      </div>
+      <div class="plate" aria-live="polite">
+        <div class="row" style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start">
+          <p class="onplate">${plate.length ? plate.map(id => FOODS[id].n).join(", ") : "Empty plate"}${plateIsExample && plate.length ? ` <span>(example)</span>` : ""}</p>
+          <button class="ghost" id="clearplate" ${plate.length ? "" : "hidden"}>Clear</button>
+        </div>
+        <div class="goalstrip">${goalChips(ev, true)}${chip("variety", ev.groups.size + " of 7 groups", !plate.length)}</div>
+        <div class="msgs">${msgs.join("")}</div>
+      </div>
+      ${GROUPS.map(g => `
+        <div class="fgroup">
+          <h3>${g.n}</h3>
+          <div class="foods">${Object.entries(FOODS).filter(([, f]) => f.g === g.id).map(([id, f]) =>
+            `<button class="chipbtn" data-food="${id}" aria-pressed="${plate.includes(id)}">${f.n}</button>`).join("")}</div>
+        </div>`).join("")}`;
+    plateEl.querySelectorAll(".chipbtn").forEach(b => b.addEventListener("click", () => {
+      const id = b.dataset.food;
+      plateIsExample = false;
+      plate = plate.includes(id) ? plate.filter(x => x !== id) : plate.concat(id);
+      renderPlate();
+    }));
+    plateEl.querySelector("#clearplate").addEventListener("click", () => { plate = []; plateIsExample = false; renderPlate(); });
+  }
+
+  /* ---------- guide ---------- */
+  const guideEl = document.getElementById("tab-guide");
+  function renderGuide() {
+    guideEl.innerHTML = `
+      <div>
+        <p class="eyebrow">What a 1-year-old's plate needs</p>
+        <h2 style="font-size:1.5rem">Seven goals, same few foods</h2>
+      </div>
+      ${GUIDE.map(g => `
+        <article class="goal c-${g.id}">
+          <div class="band"><h2>${g.h}</h2><p>${g.p}</p></div>
+          <div class="body">
+            <div class="foods">${g.foods.map(f => `<span>${f}</span>`).join("")}</div>
+            <p class="inplan"><b>In this plan:</b> ${g.plan}</p>
+          </div>
+        </article>`).join("")}
+      <div class="card">
+        <h2>Balanced meals beat superfoods</h2>
+        <p class="useup">You don't need a different food for every goal. The same foods do several jobs.</p>
+        <div class="jobs">
+          <div class="job"><b>Egg</b>${chip("pair", "protein")}${chip("pair", "choline")}${chip("pair", "fat")}</div>
+          <div class="job"><b>Salmon</b>${chip("brain", "protein")}${chip("brain", "omega-3")}</div>
+          <div class="job"><b>Beef</b>${chip("bones", "iron")}${chip("bones", "zinc")}${chip("bones", "protein")}</div>
+          <div class="job"><b>Avocado</b>${chip("energy", "healthy fats")}${chip("energy", "energy")}</div>
+          <div class="job"><b>Lentils</b>${chip("digestion", "iron")}${chip("digestion", "protein")}${chip("digestion", "fiber")}</div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>About to go bad?</h2>
+        <div class="tablewrap"><table>
+          <tr><th>Brown bananas</th><td>Peel, halve and freeze. Use in pancakes and oatmeal.</td></tr>
+          <tr><th>Half an avocado</th><td>Leave the pit in, add lemon juice and wrap tightly. Or mash and freeze in an ice-cube tray.</td></tr>
+          <tr><th>Soft pears</th><td>Stew for 10 minutes and stir into oatmeal.</td></tr>
+          <tr><th>Yogurt near its date</th><td>Freeze spoonfuls on a tray as a teething snack.</td></tr>
+          <tr><th>Opened tofu or beans</th><td>Freeze what you won't use within 3 days.</td></tr>
+          <tr><th>Leftovers on day 3</th><td>Freeze in ice-cube trays for ready-made baby portions.</td></tr>
+          <tr><th>Extra cheese</th><td>Grate and freeze. It melts fine in quesadillas and pasta.</td></tr>
+        </table></div>
+      </div>
+      <div class="card">
+        <h2>Safety for a 1-year-old</h2>
+        <ul class="safe">
+          <li>Quarter round foods lengthwise: blueberries, grapes, meatballs, cherry tomatoes.</li>
+          <li>Cook hard vegetables until soft. Steam or grate raw apple, pear and carrot.</li>
+          <li>No whole nuts, popcorn or hard candy. Spread peanut butter thin, never by the spoonful.</li>
+          <li>No added salt or sugar in baby's portion. Choose no-salt-added cans and rinse beans.</li>
+          <li>Canned salmon and sardine bones are soft, but mash them well.</li>
+          <li>Goat milk: pick pasteurized, full-fat and fortified with vitamin D and folic acid. Plain goat milk is low in folate and vitamin B12.</li>
+          <li>Leftovers keep 3–4 days in the fridge at most. When in doubt, throw it out.</li>
+          <li>Ask your pediatrician about allergies, vitamin D and anything specific to your child.</li>
+        </ul>
+      </div>
+      <p class="credit">Goals adapted from @babyplate.app on TikTok.</p>`;
+  }
+
+  /* ---------- tabs ---------- */
+  const TABS = ["week", "shop", "plate", "guide"];
+  function showTab(t) {
+    TABS.forEach(x => {
+      document.getElementById("tab-" + x).hidden = x !== t;
+      document.getElementById("t-" + x).setAttribute("aria-selected", String(x === t));
+    });
+    try { localStorage.setItem(KEY + "-tab", t); } catch (e) {}
+    window.scrollTo(0, 0);
+  }
+  document.querySelectorAll(".tabbar button").forEach(b => b.addEventListener("click", () => showTab(b.dataset.tab)));
+
+  function renderAll() { renderWeek(); renderShop(); renderPlate(); }
+  renderAll();
+  renderGuide();
+
+  let startTab = "week";
+  const hash = (location.hash || "").replace("#", "");
+  if (TABS.includes(hash)) startTab = hash;
+  else { try { const t = localStorage.getItem(KEY + "-tab"); if (TABS.includes(t)) startTab = t; } catch (e) {} }
+  showTab(startTab);
+
+  connect();
+})();
+</script>
