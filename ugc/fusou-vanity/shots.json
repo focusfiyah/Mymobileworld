@@ -6,7 +6,7 @@
   "aspect_ratio": "9:16",
   "resolution": "720p"
  },
- "still_model": "nano-banana-pro on Kie, 1K, 9:16; image_input = hand refs + MASTER still + the listed vanity crops",
+ "still_model": "nano-banana-pro on Kie, 1K, 9:16; image_input = hand refs (hand shots) + the real listing photos listed per shot (M = listing photo A)",
  "video_model": "bytedance/seedance-2-mini on Kie, first_frame_url = approved still, generate_audio false, 720p, 9:16",
  "pending": [
   "colour (white assumed)",
@@ -16,7 +16,7 @@
  "blocks": {
   "vanity": "THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture.",
   "hand": "The hands are the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), glossy pale lilac-white polish with a narrow white tip band on every nail. No rings unless stated. No face, no arms above the forearm, no other people.",
-  "room": "Setting: a calm, tidy bedroom: warm beige painted wall behind the vanity, light natural-oak plank floor, a window with sheer white curtains on the LEFT giving soft daylight, a green plant in a pot at the far left. On the vanity, only a few pretty things: 4 perfume bottles and a reed diffuser on the hutch shelves, a short row of lipsticks and a small white ceramic vase on the desk top, two neat storage boxes and one tan leather handbag in the top cubbies. Inside the side cabinet (seen only when its mirror door is open), always the same: a tan leather handbag on the second shelf, a pair of nude heels on the third, folded cream sweaters on the fourth, two perfume bottles on the top shelf. The hair dryer is always the same sage-green dryer. Clean, airy, a little expensive-looking, nothing cluttered.",
+  "room": "Setting: the real product-photo bedroom, matched to reference A: a calm, tidy room with a warm greige-olive painted wall behind the vanity, a light natural-oak plank floor with soft patches of sunlight on it from a window on the LEFT, sheer white curtains reflected in the mirrors, a leafy green plant in a pot at the far right edge. The vanity styling is exactly as in reference A: perfume and skincare bottles and a reed diffuser on the hutch shelves, beige storage boxes and one tan leather handbag in the top cubbies, a short row of makeup on the desk top, a small cream vase. Inside the side cabinet (seen only when its mirror door is open), always as in reference C: a tan leather handbag and beige storage boxes on the upper shelves, folded plaid throw blankets and woven baskets in the middle, a mint-green storage box low down. The hair dryer is always the same pale teal-green dryer in the left holder. Clean, airy, a little expensive-looking, nothing cluttered.",
   "dark": "Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue.",
   "bath": "Setting: a small, real-looking bathroom: a white sink counter crowded with makeup, skincare bottles, a hairbrush, perfume bottles and lipsticks all jumbled together; plain white wall, a little cramped, ordinary overhead light. NO vanity furniture in this shot.",
   "phone": "Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names."
@@ -29,30 +29,14 @@
   "D": "refs/vanity_glass_top.jpg",
   "E": "refs/vanity_power_strip.jpg",
   "F": "refs/vanity_lit_room.jpg",
-  "M": "stills/MASTER.png"
+  "M": "refs/vanity_front.jpg"
  },
  "rules": [
   "Shots without the vanity (V6S1, V6S2) carry NO vanity text and NO vanity refs.",
-  "Shots without hands (MASTER, V1S2, V4S4, V6S5) carry NO hand text and NO hand refs.",
+  "Shots without hands (V1S2, V4S4, V6S5) carry NO hand text and NO hand refs.",
   "Dark shots (V1) use the dark block instead of the room daylight."
  ],
  "shots": [
-  {
-   "id": "MASTER",
-   "t": null,
-   "dur": 4,
-   "vo": null,
-   "refs": [
-    "A",
-    "F"
-   ],
-   "blocks": [
-    "vanity",
-    "room"
-   ],
-   "still": "Straight-on wide shot of the WHOLE vanity against the bedroom wall, filling the vertical frame from the top cubbies down to the floor, stool tucked in, all drawers and the mirror door closed, both LED mirror light lines ON in warm white. Camera at chest height, centred on the makeup mirror, slightly back so the full width fits. No hands in this shot.",
-   "video": null
-  },
   {
    "id": "V1S1",
    "t": [
@@ -369,7 +353,7 @@
     "room"
    ],
    "still": "Medium shot of the full-length mirror door, opened a few inches; a hand on its edge.",
-   "video": "The hand swings the mirror door open, revealing the cabinet shelves with the tan handbag, the nude heels and the folded cream sweaters."
+   "video": "The hand swings the mirror door open, revealing the cabinet shelves with the tan handbag, the beige storage boxes and the folded plaid blankets."
   },
   {
    "id": "V3S6",
@@ -388,7 +372,7 @@
     "vanity",
     "room"
    ],
-   "still": "Close-up of the left side panel of the desk: the white power strip plate (outlet, two USB ports, outlet) and the white dryer holder ring; a hand holding the sage-green hair dryer's plug near the top outlet.",
+   "still": "Close-up of the left side panel of the desk: the white power strip plate (outlet, two USB ports, outlet) and the white dryer holder ring; a hand holding the pale teal-green hair dryer's plug near the top outlet.",
    "video": "The hand pushes the plug into the top outlet."
   },
   {
@@ -489,7 +473,7 @@
     "room"
    ],
    "still": "Same angle, the hand's fingertips curled around the outer edge of the closed mirror door.",
-   "video": "The hand slowly pulls the mirror door open outward, revealing the 5 white shelves inside with the tan handbag, the nude heels, the folded sweaters and the two perfume bottles."
+   "video": "The hand slowly pulls the mirror door open outward, revealing the 5 white shelves inside with the tan handbag, the beige storage boxes and the folded plaid blankets."
   },
   {
    "id": "V4S3",
@@ -508,7 +492,7 @@
     "vanity",
     "room"
    ],
-   "still": "Medium shot into the open side cabinet: the nude heels, folded cream sweaters and perfume bottles on their shelves, the second shelf empty; a hand holding the tan leather handbag by its handle in front of that empty shelf.",
+   "still": "Medium shot into the open side cabinet: the beige storage boxes, plaid blankets and baskets on their shelves, the second shelf empty; a hand holding the tan leather handbag by its handle in front of that empty shelf.",
    "video": "The hand sets the handbag on the empty shelf, then swings the mirror door shut."
   },
   {
@@ -567,7 +551,7 @@
     "vanity",
     "room"
    ],
-   "still": "Close-up of the left side panel of the desk: the white power strip plate and the dryer holder ring; a hand holding the plug of a sage-green hair dryer next to the top outlet.",
+   "still": "Close-up of the left side panel of the desk: the white power strip plate and the dryer holder ring; a hand holding the plug of a pale teal-green hair dryer next to the top outlet.",
    "video": "The hand pushes the plug into the top outlet."
   },
   {
@@ -587,7 +571,7 @@
     "vanity",
     "room"
    ],
-   "still": "Close-up of the left side panel: a hand holding a sage-green hair dryer by the handle just above the white holder ring.",
+   "still": "Close-up of the left side panel: a hand holding a pale teal-green hair dryer by the handle just above the white holder ring.",
    "video": "The hand lowers the dryer nozzle-down into the holder ring and lets go; the dryer hangs there."
   },
   {
