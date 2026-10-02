@@ -50,6 +50,8 @@ products follow the same rules.
   3. **Selling point and/or solution body**
   4. **FOMO and/or urgency CTA**
 
+  The pain needs its own beat at the top of the body even when the hook already names it (2026-10-02 beauty pack:
+  8 of 12 first-draft bodies went hook → product and had to be fixed in review).
   FOMO and urgency must be real (a season, a date, an event, a real deal, what they miss out on by waiting), never
   fake scarcity. Combine with "CTA sells more units" below (count, gift).
 - What fills the bodies, by product type:
