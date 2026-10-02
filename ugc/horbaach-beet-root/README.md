@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~26s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). No face anywhere, so no lip sync. **No on-screen text of any kind, hook text included** (Ralph, 2026-10-02).
 
-Status: **Script v2 (no overlay text, no serving line, no flash sale, Plant Therapy hand) agreed by Ralph 2026-10-02. Kie + ElevenLabs reachable. Next: VO (plan chars) + still S1 ($0.09), waiting on Ralph's go. $0 spent. `kie.py` / `cut.py` are Vicks copies, rewrite for this job.**
+Status: **Script v3 humanized 2026-10-02 (no overlay text, no serving line, no flash sale, Plant Therapy hand) agreed by Ralph 2026-10-02. Kie + ElevenLabs reachable. Next: VO (plan chars) + still S1 ($0.09), waiting on Ralph's go. $0 spent. `kie.py` / `cut.py` are Vicks copies, rewrite for this job.**
 
 ## Product facts
 
@@ -24,17 +24,17 @@ timeframe (structure/function only, the label's own words); no personal-use line
 Research note: the TikTok coach scripts couldn't reach tiktok.com from this environment, so the hook is built from the
 playbook's proven angles (curiosity text hook, pain-first, read-the-label) rather than a fresh viral scan.
 
-## Script v2 (74 words, ~23s at 3.2 words/s), Grace's structure
+## Script v3, humanized (82 words, ~25s at 3.2 words/s), Grace's structure
 
 | Shot | Beat | VO | Hands do |
 |---|---|---|---|
-| S1 | curiosity hook (spoken only) | This looks like candy. It's actually beet root. | tip one dark red gummy from the open jar into the palm, hold it to the lens |
-| S2 | pain | If you've tried beet juice, you know. It tastes like dirt. | slide a glass of dark beet juice away, a raw beet beside it |
-| S3 | solution | These are Horbaach Beet Root Plus gummies, and they're strawberry flavored. | turn the jar so the label faces the lens (free label close-up insert from the screenshot) |
-| S4 | selling point (label words) | Beet root with nitrates. The label calls it a nitric oxide precursor. | fingertip taps "with Nitrates" on the label |
-| S5 | what's in it / how | Vegan, gluten free, no artificial sweeteners. | shake a few gummies into the palm |
-| S6 | honest caveat | Just know it's a supplement, not medicine. On meds? Ask your doctor first. | set the jar down next to a water bottle |
-| S7 | CTA (real proof + real deal) | Almost eighty-five thousand sold. It's in the orange cart below. | jar on the counter, hand points down |
+| S1 | curiosity hook (spoken only) | Looks like candy, right? It's beet root. | tip one dark red gummy from the open jar into the palm, hold it to the lens |
+| S2 | pain | If you've ever had beet juice, you know it tastes like dirt. | slide a glass of dark beet juice away, a raw beet beside it |
+| S3 | solution | These are Horbaach Beet Root Plus gummies, and they taste like strawberry. | turn the jar so the label faces the lens (free label close-up insert from the screenshot) |
+| S4 | selling point (label words) | It's beet root with nitrates, and the label calls it a nitric oxide precursor. | fingertip taps "with Nitrates" on the label |
+| S5 | what's in it / how | They're vegan and gluten free, with no artificial sweeteners. | shake a few gummies into the palm |
+| S6 | honest caveat | It's a supplement, so if you take any medication, check with your doctor first. | set the jar down next to a water bottle |
+| S7 | CTA (real proof + real deal) | They've sold almost eighty-five thousand. It's in the orange cart below. | jar on the counter, hand points down |
 
 TTS spelling: "Hor-bahk". Setting: bright kitchen counter, morning window light, white quartz, a few raw beets and a
 glass of beet juice (S2 only). Hand: same hand as Plant Therapy (`refs/hand_*.png`, identical files), confirmed by Ralph 2026-10-02.
