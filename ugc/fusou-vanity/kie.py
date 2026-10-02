@@ -98,4 +98,6 @@ def clip(sid):
 if __name__ == "__main__":
     cmd, ids = sys.argv[1], sys.argv[2:]
     if not ids: sys.exit("name the shot ids (ask Ralph before any paid call)")
-    for sid in ids: {"stills": still, "clips": clip}[cmd](sid)
+    from concurrent.futures import ThreadPoolExecutor  # parallel; Kie "server busy" is retried and failed tasks cost $0
+    fn = {"stills": still, "clips": clip}[cmd]
+    with ThreadPoolExecutor(len(ids)) as ex: list(ex.map(fn, ids))

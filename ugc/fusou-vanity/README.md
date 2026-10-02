@@ -4,11 +4,11 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **Ralph chose (2026-10-02): the REAL listing photo is the master (`refs/vanity_front.jpg` = M), no AI master;
-white; Grace's real hands; bedroom look = the listing photo's room. AI master ($0.09, `stills/MASTER_ai_rejected.png`)
-was wrong (2 cubbies, 2 top drawers, portrait mirror) and is not used. Plan: 35 stills ($3.15) + 35 clips, 143s ($5.86)
-= $9.01 more; spent $0.09, total still $9.10. Waiting on Ralph: NAILS (match the ref photos: long almond, mauve + white
-tips; or the Vicks look: short squared, lilac-white). Then Video 1 stills (6 × $0.09 = $0.54) → review sheet.**
+Status: **Ralph (2026-10-02): real listing photo = master, Grace's real hand photos (long almond, mauve + white tips; NOT the
+Vicks look), white, bedroom. Video 1 stills made ($0.45, `stills/V1S1-5.png`, `preview/stills_v1.jpg`): HANDS MATCH, but the
+vanity drifts between stills (mirror portrait in S2/S3, squarish in S4/S5, real = landscape ~5:4; hutch layout differs).
+Vanity block rewritten (free) with a landscape mirror + "no recess". Waiting on Ralph: OK to redo V1S2 ($0.09) as the test
+of the new wording before redoing S3-S5 ($0.27). Spent $0.54 of $9.10 (master $0.09 rejected + 5 stills $0.45).**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.

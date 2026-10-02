@@ -25,5 +25,148 @@
    ]
   },
   "costTime": 45
+ },
+ {
+  "t": "2026-10-02 21:39:48",
+  "submitted": "ade4abe0dd983fca1d051f03815e7fa9",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the dark room: the whole lit makeup mirr"
+ },
+ {
+  "t": "2026-10-02 21:39:52",
+  "submitted": "a0d9c602ca99e86e01bab863eb0f72e7",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low three-quarter angle along the front edge of the des"
+ },
+ {
+  "t": "2026-10-02 21:39:53",
+  "submitted": "7376d33b2f91da9182d63e24af1db11d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium-close shot of the makeup mirror in the dark room"
+ },
+ {
+  "t": "2026-10-02 21:39:53",
+  "submitted": "4eeae918fbc99f89bfde9b54828a9d4a",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up looking down at the desk top in the dark room,"
+ },
+ {
+  "t": "2026-10-02 21:39:53",
+  "submitted": "ae75fc2f32c081c9ac62019472cd89fa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Tight close-up of the lower left corner of the makeup m"
+ },
+ {
+  "t": "2026-10-02 21:40:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot in the dark room: the whole lit makeup mirror (glowing warm white rounded-rectangle LED line), the hutch shelves on both sides softly lit, the glass desk top below. No hands. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975149234-1mji9cl6cld.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ade4abe0dd983fca1d051f03815e7fa9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ade4abe0dd983fca1d051f03815e7fa9_0_1790977231.jpeg"
+   ]
+  },
+  "costTime": 44
+ },
+ {
+  "t": "2026-10-02 21:40:50",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low three-quarter angle along the front edge of the desk in the dark room, the row of 4 top drawers with crystal knobs receding to the right, warm mirror glow above; a hand's fingertips rest on the left end of the desk edge. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions). The first two reference images are the hands (skin tone, hand shape, nail look).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188184-jsjzqhdfyy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190406-vpfw2angfri.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a0d9c602ca99e86e01bab863eb0f72e7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a0d9c602ca99e86e01bab863eb0f72e7_0_1790977249.jpeg"
+   ]
+  },
+  "costTime": 57
+ },
+ {
+  "t": "2026-10-02 21:40:56",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Tight close-up of the lower left corner of the makeup mirror and the glass desk top in a dark room; an index fingertip rests on the small round touch button on the mirror glass; the mirror's LED line glows cool white. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions). The first two reference images are the hands (skin tone, hand shape, nail look).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188104-8dpwofz8dd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190391-i7c5oxjuyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ae75fc2f32c081c9ac62019472cd89fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ae75fc2f32c081c9ac62019472cd89fa_0_1790977250.jpeg"
+   ]
+  },
+  "costTime": 56
+ },
+ {
+  "t": "2026-10-02 21:41:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium-close shot of the makeup mirror in the dark room, LED line glowing warm white, a fingertip on the touch button at the lower left of the mirror. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions). The first two reference images are the hands (skin tone, hand shape, nail look).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188169-1ndr7hd6klzj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190363-ocwemdudgt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7376d33b2f91da9182d63e24af1db11d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7376d33b2f91da9182d63e24af1db11d_0_1790977261.jpeg"
+   ]
+  },
+  "costTime": 69
+ },
+ {
+  "t": "2026-10-02 21:42:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up looking down at the desk top in the dark room, warm light from the mirror above; a hand holds the crystal knob of one of the 4 top drawers, the drawer just starting to open; through the glass pane you see makeup in divider trays inside. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names. The reference images show the real product: reproduce it exactly (same drawers, knobs, mirrors, colour, proportions). The first two reference images are the hands (skin tone, hand shape, nail look).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977187800-v3wnaqcfgdm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977189669-7rjztaakgdc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790975147038-f0xx7b47vyw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977191687-00r08fgaf6bxf.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4eeae918fbc99f89bfde9b54828a9d4a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4eeae918fbc99f89bfde9b54828a9d4a_0_1790977332.jpeg"
+   ]
+  },
+  "costTime": 139
  }
 ]

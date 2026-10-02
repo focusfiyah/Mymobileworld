@@ -12,9 +12,11 @@ VANITY = (
  "top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. "
  "HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a "
  "left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a "
- "large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a "
- "rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. "
- "SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror "
+ "large FRAMELESS LANDSCAPE makeup mirror that is clearly WIDER than it is tall (about 5 wide to 4 tall, NOT portrait, "
+ "NOT square), filling the whole gap between the two shelf columns and resting directly on the desk's glass top, with a "
+ "thin LED light line inset about an inch from its edge shaped as a rounded rectangle, and a small round touch button on "
+ "the glass at its lower left. The hutch is exactly as wide as the desk top, no gaps, no mirror set into a recess. "
+"SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror "
  "door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on "
  "its outer right edge and opens outward to reveal 5 white shelves inside. "
  "LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the "
@@ -25,10 +27,12 @@ VANITY = (
  "knob style; no logos, no text on the furniture.")
 
 HAND = (
- "The hands are the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared "
- "nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand "
- "reference images; use those images for skin tone, hand shape and nail colour only), glossy pale lilac-white polish "
- "with a narrow white tip band on every nail. No rings unless stated. No face, no arms above the forearm, no other people.")
+ "The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images "
+ "(match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the "
+ "back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink "
+ "gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. "
+ "Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the "
+ "forearm, no other people.")
 
 ROOM = (
  "Setting: the real product-photo bedroom, matched to reference A: a calm, tidy room with a warm greige-olive painted "
@@ -42,7 +46,7 @@ ROOM = (
  "Clean, airy, a little expensive-looking, nothing cluttered.")
 
 DARK = (
- "Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED "
+ "The vanity looks exactly like the reference photos, only darker. Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED "
  "mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue.")
 
 BATH = (
