@@ -21,6 +21,9 @@ PIECES = {
     "S1": [("clip", "clips_b/S1.mp4", 0.0)],                    # old session's S1: box stays front-on (ours turns it)
     "S5": [("clip", "clips/S5.mp4", 0.1)],                       # 0.1-1.74s; two pale hands walk in at 2.2s
 }
+# Per-shot crop (x, y, w, h on the 720x1280 clip, 9:16), scaled back to full frame. S2: the still put the box in mid-air
+# past the vanity edge; the frame now ends at the box base (y~988 all clip long), so no gap shows under it.
+CROP = {"S2": (60, 0, 553, 984)}
 HOOK = ("the only 10 min|you get to yourself", "🚿", 0.0, 2.6)   # (text, "|" = line break, emoji, start, end)
 BANNER = ("inserts/banner.png", 9.87, 1.2)                       # on "ten percent more"
 SFX = [("click", 9.87, 0.25)]                                    # (sfx/<name>.ogg, start, volume)
@@ -57,8 +60,9 @@ for i, s in enumerate(shots):
         if p[0] == "clip":
             d = left if last else p[3]
             j = add(["-i", p[1]])
+            cx = "crop={}:{}:{}:{},".format(*CROP[s["id"]][2:], *CROP[s["id"]][:2]) if s["id"] in CROP else ""
             chains.append(f"[{j}:v]trim=start={p[2]},setpts=PTS-STARTPTS,tpad=stop_mode=clone:stop_duration=1,"
-                          f"trim=duration={d:.3f},setpts=PTS-STARTPTS,scale=720:1280,setsar=1,fps=24[p{i}_{k}]")
+                          f"trim=duration={d:.3f},setpts=PTS-STARTPTS,{cx}scale=720:1280,setsar=1,fps=24[p{i}_{k}]")
         else:
             d = left; nf = int(round(d * 24)) + 1
             j = add(["-i", p[1]])

@@ -130,7 +130,8 @@ products follow the same rules.
   and a new session started from the handoff. Before any paid call in a resumed job: re-fetch the branch, check its
   log/kie_log.json for the step, and make sure the old session is stopped. Seedance turned
   the handheld box to its side panel mid-clip despite "front facing the camera" in the prompt: free fix = clip's
-  first 1.9s + push-in hold. Waiting on Ralph's notes.
+  first 1.9s + push-in hold. QC stills for objects resting on nothing (the S2 still put the box in mid-air past
+  the vanity edge; Ralph caught it): free fix = crop the frame to end at the object's base. Waiting on Ralph's notes.
 
 ## 8. To add later
 - Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
