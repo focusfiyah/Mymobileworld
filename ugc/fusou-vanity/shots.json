@@ -1,0 +1,745 @@
+{
+ "product": "FUSOU 2-in-1 Vanity Desk (71\" white, 12 drawers + 2-drawer stool, LED makeup mirror + full-length LED mirror door, hidden side cabinet, power strip 2 AC + 2 USB, glass top) https://shop.tiktok.com/us/pdp/1732251413004981161",
+ "client": "Grace",
+ "voice": "Grace records her own voiceover (no ElevenLabs).",
+ "format": {
+  "aspect_ratio": "9:16",
+  "resolution": "720p"
+ },
+ "still_model": "nano-banana-pro on Kie, 1K, 9:16; image_input = hand refs + MASTER still + the listed vanity crops",
+ "video_model": "bytedance/seedance-2-mini on Kie, first_frame_url = approved still, generate_audio false, 720p, 9:16",
+ "pending": [
+  "colour (white assumed)",
+  "hand refs (same as Vicks assumed)",
+  "bedroom room look"
+ ],
+ "blocks": {
+  "vanity": "THE VANITY (must match the product reference photos exactly, same piece in every shot): the FUSOU 2-in-1 vanity, matte WHITE engineered wood, flat slab drawer fronts with thin shadow gaps, every drawer and door with the same small round faceted CLEAR CRYSTAL knob on a short chrome stem. About 71 inches wide and 63 inches tall overall. DESK: a long white desk with a knee opening in the middle. Directly under the desk top is ONE row of exactly 4 shallow drawers side by side. Below that row, a LEFT drawer tower with exactly 4 drawers stacked and a RIGHT drawer tower with exactly 4 drawers stacked (12 drawers in total, all the same white). The knee opening between the towers is open, no drawers there. GLASS TOP: the desk top has 4 clear tempered-glass panes set flush into a white border, one over each top drawer, so the makeup inside the top drawers (in small divider trays) shows through the glass. HUTCH on the back of the desk: a top row of exactly 4 equal open cubbies running the width of the hutch; below it a left column of 3 open shelves and a right column of 3 open shelves; between the two columns, sitting on the desk, a large FRAMELESS rectangular makeup mirror with a thin LED light line inset about an inch from its edge, shaped as a rounded rectangle (soft rounded corners), and a small round touch button on the glass at its lower left. SIDE CABINET on the RIGHT end: a tall narrow cabinet as tall as the hutch, its whole front is ONE full-length mirror door (frameless mirror, with its own tall thin rounded-rectangle LED line inset from the edge); the door is hinged on its outer right edge and opens outward to reveal 5 white shelves inside. LEFT SIDE PANEL of the desk: a built-in white power strip plate (one AC outlet at the top, two USB ports in the middle, one AC outlet at the bottom) and, next to it, a small white metal hair-dryer holder ring. STOOL: a white cube storage stool with a padded white faux-leather seat cushion and 2 drawers in front, each with the same crystal knob; it tucks into the knee opening. Never add or remove drawers, shelves, knobs or mirrors; never change the mirror shapes, the white colour or the knob style; no logos, no text on the furniture.",
+  "hand": "The hands are the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), glossy pale lilac-white polish with a narrow white tip band on every nail. No rings unless stated. No face, no arms above the forearm, no other people.",
+  "room": "Setting: a calm, tidy bedroom: warm beige painted wall behind the vanity, light natural-oak plank floor, a window with sheer white curtains on the LEFT giving soft daylight, a green plant in a pot at the far left. On the vanity, only a few pretty things: 4 perfume bottles and a reed diffuser on the hutch shelves, a short row of lipsticks and a small white ceramic vase on the desk top, two neat storage boxes and one tan leather handbag in the top cubbies. Inside the side cabinet (seen only when its mirror door is open), always the same: a tan leather handbag on the second shelf, a pair of nude heels on the third, folded cream sweaters on the fourth, two perfume bottles on the top shelf. The hair dryer is always the same sage-green dryer. Clean, airy, a little expensive-looking, nothing cluttered.",
+  "dark": "Lighting: evening, all room lights OFF, the room is dark and moody; the only real light comes from the vanity's LED mirror light lines, which glow and light the desk top and the hands. The window behind the curtains is deep dusk blue.",
+  "bath": "Setting: a small, real-looking bathroom: a white sink counter crowded with makeup, skincare bottles, a hairbrush, perfume bottles and lipsticks all jumbled together; plain white wall, a little cramped, ordinary overhead light. NO vanity furniture in this shot.",
+  "phone": "Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names."
+ },
+ "video_suffix": "Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The vanity stays exactly the same piece the whole clip: same drawer count, same knobs, same mirror shapes, nothing appears or disappears. No sound. No on-screen text.",
+ "refs": {
+  "A": "refs/vanity_front.jpg",
+  "B": "refs/vanity_open.jpg",
+  "C": "refs/vanity_cabinet_open.jpg",
+  "D": "refs/vanity_glass_top.jpg",
+  "E": "refs/vanity_power_strip.jpg",
+  "F": "refs/vanity_lit_room.jpg",
+  "M": "stills/MASTER.png"
+ },
+ "rules": [
+  "Shots without the vanity (V6S1, V6S2) carry NO vanity text and NO vanity refs.",
+  "Shots without hands (MASTER, V1S2, V4S4, V6S5) carry NO hand text and NO hand refs.",
+  "Dark shots (V1) use the dark block instead of the room daylight."
+ ],
+ "shots": [
+  {
+   "id": "MASTER",
+   "t": null,
+   "dur": 4,
+   "vo": null,
+   "refs": [
+    "A",
+    "F"
+   ],
+   "blocks": [
+    "vanity",
+    "room"
+   ],
+   "still": "Straight-on wide shot of the WHOLE vanity against the bedroom wall, filling the vertical frame from the top cubbies down to the floor, stool tucked in, all drawers and the mirror door closed, both LED mirror light lines ON in warm white. Camera at chest height, centred on the makeup mirror, slightly back so the full width fits. No hands in this shot.",
+   "video": null
+  },
+  {
+   "id": "V1S1",
+   "t": [
+    0,
+    2
+   ],
+   "dur": 4,
+   "vo": "Tap it once. Again. Now hold it.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "dark"
+   ],
+   "still": "Tight close-up of the lower left corner of the makeup mirror and the glass desk top in a dark room; an index fingertip rests on the small round touch button on the mirror glass; the mirror's LED line glows cool white.",
+   "video": "The fingertip taps the button: the LED line switches from cool white to warm white, taps again: warm yellow, then the finger presses and holds and the light slowly dims down and back up."
+  },
+  {
+   "id": "V1S2",
+   "t": [
+    2,
+    6
+   ],
+   "dur": 4,
+   "vo": "Bathroom light makes your makeup look fine, until you step outside.",
+   "refs": [
+    "M",
+    "F"
+   ],
+   "blocks": [
+    "vanity",
+    "dark"
+   ],
+   "still": "Medium shot in the dark room: the whole lit makeup mirror (glowing warm white rounded-rectangle LED line), the hutch shelves on both sides softly lit, the glass desk top below. No hands.",
+   "video": "Slow, smooth pull back from the mirror until the hutch shelves on both sides come into frame. Nothing else moves."
+  },
+  {
+   "id": "V1S3",
+   "t": [
+    6,
+    11
+   ],
+   "dur": 4,
+   "vo": "This mirror has three light colors and it dims, so you can match wherever you're going.",
+   "refs": [
+    "M",
+    "D"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "dark"
+   ],
+   "still": "Close-up looking down at the desk top in the dark room, warm light from the mirror above; a hand holds the crystal knob of one of the 4 top drawers, the drawer just starting to open; through the glass pane you see makeup in divider trays inside.",
+   "video": "The hand slowly pulls the top drawer open toward the camera; the warm mirror light falls on the lipsticks and palettes inside."
+  },
+  {
+   "id": "V1S4",
+   "t": [
+    11,
+    14
+   ],
+   "dur": 4,
+   "vo": "Heads up, it's almost six feet wide. Measure your wall first.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "dark"
+   ],
+   "still": "Low three-quarter angle along the front edge of the desk in the dark room, the row of 4 top drawers with crystal knobs receding to the right, warm mirror glow above; a hand's fingertips rest on the left end of the desk edge.",
+   "video": "The fingertips glide slowly along the front edge of the desk from left to right, past the crystal knobs."
+  },
+  {
+   "id": "V1S5",
+   "t": [
+    14,
+    20
+   ],
+   "dur": 5,
+   "vo": "It ships in three boxes, so if you want it up before the holidays, order it now.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "dark"
+   ],
+   "still": "Medium-close shot of the makeup mirror in the dark room, LED line glowing warm white, a fingertip on the touch button at the lower left of the mirror.",
+   "video": "The fingertip taps: the LED line goes dark for a moment, taps again: it glows warm white again. Hold on the glow."
+  },
+  {
+   "id": "V2S1",
+   "t": [
+    0,
+    3
+   ],
+   "dur": 4,
+   "vo": "Every drawer on this thing has a job.",
+   "refs": [
+    "M",
+    "D"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Top-down shot straight through the clear glass desk top: under the glass, a top drawer with neat divider trays of lipsticks and palettes; a hand's fingers on the crystal knob of that drawer at the front edge.",
+   "video": "The hand slides the top drawer open underneath the glass, the trays moving out toward the camera."
+  },
+  {
+   "id": "V2S2",
+   "t": [
+    3,
+    7
+   ],
+   "dur": 4,
+   "vo": "If your makeup lives in a bag under the sink, you dig for everything.",
+   "refs": [
+    "M",
+    "B"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of an open top drawer with white divider trays holding lipsticks in a neat row; a hand's fingers above it.",
+   "video": "The fingers lift one lipstick out of its slot and turn it slightly toward the camera."
+  },
+  {
+   "id": "V2S3",
+   "t": [
+    7,
+    11
+   ],
+   "dur": 4,
+   "vo": "Twelve drawers, plus two in the stool.",
+   "refs": [
+    "M",
+    "B"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Three-quarter view of the LEFT drawer tower (4 stacked drawers under the top row) and the stool; a hand on the crystal knob of the second drawer of the tower.",
+   "video": "The hand pulls the tower drawer open, lets go, then pulls the top drawer of the stool open. Smooth, quick, satisfying."
+  },
+  {
+   "id": "V2S4",
+   "t": [
+    11,
+    13
+   ],
+   "dur": 4,
+   "vo": "The top is glass, so you see your makeup before you open anything.",
+   "refs": [
+    "M",
+    "D"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up looking down at the glass desk top: through the clear panes, organised makeup in divider trays; a fingertip touching the glass.",
+   "video": "The fingertip taps the glass twice above a palette, then slides across the pane."
+  },
+  {
+   "id": "V2S5",
+   "t": [
+    13,
+    17
+   ],
+   "dur": 4,
+   "vo": "Plan an afternoon to build it. It's a lot of parts.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of one open hutch shelf on the right column with two perfume bottles; a hand holding a third perfume bottle just in front of the shelf.",
+   "video": "The hand sets the perfume bottle down on the shelf next to the others and lets go."
+  },
+  {
+   "id": "V2S6",
+   "t": [
+    17,
+    21
+   ],
+   "dur": 4,
+   "vo": "Holiday shipping gets slow, and it comes in three boxes. Order it now.",
+   "refs": [
+    "M",
+    "B"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the RIGHT drawer tower with one drawer half open; an index finger touching the drawer front.",
+   "video": "The single finger pushes the drawer shut; it closes softly. Hold still for one second."
+  },
+  {
+   "id": "V3S1",
+   "t": [
+    0,
+    3
+   ],
+   "dur": 4,
+   "vo": "This is one piece of furniture. Count with me.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Wide shot of the whole vanity, lights on warm white; in the foreground, slightly out of focus, a hand holds up one index finger.",
+   "video": "The hand holds the one finger up and gives it a small shake, vanity sharp behind it."
+  },
+  {
+   "id": "V3S2",
+   "t": [
+    3,
+    6
+   ],
+   "dur": 4,
+   "vo": "No room for a mirror, a dresser and a shelf?",
+   "refs": [
+    "M"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium shot of the bare beige wall and floor just LEFT of the vanity, the left edge of the vanity at the right of the frame; a hand open, palm out, in front of the empty wall.",
+   "video": "The open hand sweeps slowly across the empty wall toward the vanity."
+  },
+  {
+   "id": "V3S3",
+   "t": [
+    6,
+    7.5
+   ],
+   "dur": 4,
+   "vo": "One, a lit makeup mirror.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the lower left corner of the makeup mirror, LED line off; a fingertip on the round touch button.",
+   "video": "The fingertip taps and the LED line lights up warm white."
+  },
+  {
+   "id": "V3S4",
+   "t": [
+    7.5,
+    9
+   ],
+   "dur": 4,
+   "vo": "Two, a full-length mirror.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium shot of the tall full-length mirror door on the right end, its LED line glowing; a hand with fingertips resting flat on the mirror surface near its edge.",
+   "video": "The fingertips slide down the mirror edge a little."
+  },
+  {
+   "id": "V3S5",
+   "t": [
+    9,
+    10.5
+   ],
+   "dur": 4,
+   "vo": "Three, a hidden cabinet.",
+   "refs": [
+    "M",
+    "C"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium shot of the full-length mirror door, opened a few inches; a hand on its edge.",
+   "video": "The hand swings the mirror door open, revealing the cabinet shelves with the tan handbag, the nude heels and the folded cream sweaters."
+  },
+  {
+   "id": "V3S6",
+   "t": [
+    10.5,
+    12
+   ],
+   "dur": 4,
+   "vo": "Four, outlets for hair tools.",
+   "refs": [
+    "M",
+    "E"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the left side panel of the desk: the white power strip plate (outlet, two USB ports, outlet) and the white dryer holder ring; a hand holding the sage-green hair dryer's plug near the top outlet.",
+   "video": "The hand pushes the plug into the top outlet."
+  },
+  {
+   "id": "V3S7",
+   "t": [
+    12,
+    13.5
+   ],
+   "dur": 4,
+   "vo": "Five, a stool with drawers.",
+   "refs": [
+    "M",
+    "B"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the white storage stool in front of the desk, its padded seat and 2 drawers with crystal knobs; a hand on the top drawer knob.",
+   "video": "The hand slides the stool's top drawer open."
+  },
+  {
+   "id": "V3S8",
+   "t": [
+    13.5,
+    16
+   ],
+   "dur": 4,
+   "vo": "It needs about six feet of wall.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Low three-quarter angle along the front edge of the desk, the 4 top drawers receding; fingertips on the left end of the edge.",
+   "video": "The fingertips glide along the desk edge from left to right."
+  },
+  {
+   "id": "V3S9",
+   "t": [
+    16,
+    20
+   ],
+   "dur": 4,
+   "vo": "Five things, one order. It ships in three boxes, so get it before the holidays.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium shot of the lit makeup mirror; in front of it a hand holds up all five fingers, open palm facing the camera.",
+   "video": "The hand holds the five fingers up and gives a small wave, mirror glowing behind."
+  },
+  {
+   "id": "V4S1",
+   "t": [
+    0,
+    2
+   ],
+   "dur": 4,
+   "vo": "Nobody notices this mirror is a door.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Tight vertical shot of the full-length mirror door, closed, reflecting the bedroom; a hand resting lightly on its outer edge. The mirror fills most of the frame so it is not obvious it is a door.",
+   "video": "The hand rests, then the fingertips curl around the door edge."
+  },
+  {
+   "id": "V4S2",
+   "t": [
+    2,
+    7
+   ],
+   "dur": 4,
+   "vo": "Bags and shoes end up on the floor when there's nowhere to put them.",
+   "refs": [
+    "M",
+    "C"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Same angle, the hand's fingertips curled around the outer edge of the closed mirror door.",
+   "video": "The hand slowly pulls the mirror door open outward, revealing the 5 white shelves inside with the tan handbag, the nude heels, the folded sweaters and the two perfume bottles."
+  },
+  {
+   "id": "V4S3",
+   "t": [
+    7,
+    12
+   ],
+   "dur": 4,
+   "vo": "Behind it, shelves for bags, shoes and perfume. Close it, and you've got a full-length mirror again.",
+   "refs": [
+    "M",
+    "C"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium shot into the open side cabinet: the nude heels, folded cream sweaters and perfume bottles on their shelves, the second shelf empty; a hand holding the tan leather handbag by its handle in front of that empty shelf.",
+   "video": "The hand sets the handbag on the empty shelf, then swings the mirror door shut."
+  },
+  {
+   "id": "V4S4",
+   "t": [
+    12,
+    15
+   ],
+   "dur": 4,
+   "vo": "Just know it's big, about six feet wide.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "vanity",
+    "room"
+   ],
+   "still": "Wide shot of the whole vanity, lights on warm white, from the left end.",
+   "video": "Slow pan from the left drawer tower across the mirror to the full-length mirror door. No hands."
+  },
+  {
+   "id": "V4S5",
+   "t": [
+    15,
+    20
+   ],
+   "dur": 5,
+   "vo": "It comes in three boxes, so order now if you want it done before the holidays.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium-close shot of the makeup mirror, LED line off; a fingertip on the touch button at its lower left.",
+   "video": "The fingertip taps and the LED line glows warm white. Hold on the glow."
+  },
+  {
+   "id": "V5S1",
+   "t": [
+    0,
+    3
+   ],
+   "dur": 4,
+   "vo": "The best part of this vanity is the outlet.",
+   "refs": [
+    "M",
+    "E"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the left side panel of the desk: the white power strip plate and the dryer holder ring; a hand holding the plug of a sage-green hair dryer next to the top outlet.",
+   "video": "The hand pushes the plug into the top outlet."
+  },
+  {
+   "id": "V5S2",
+   "t": [
+    3,
+    6
+   ],
+   "dur": 4,
+   "vo": "No more dryer cord stretched across the room.",
+   "refs": [
+    "M",
+    "E"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the left side panel: a hand holding a sage-green hair dryer by the handle just above the white holder ring.",
+   "video": "The hand lowers the dryer nozzle-down into the holder ring and lets go; the dryer hangs there."
+  },
+  {
+   "id": "V5S3",
+   "t": [
+    6,
+    12
+   ],
+   "dur": 4,
+   "vo": "Two outlets, two USB ports, and a holder for your dryer. Your phone charges while you do your face.",
+   "refs": [
+    "M",
+    "D"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the glass desk top in front of the lit makeup mirror: a phone lying on the desk with its cable going to the side; a hand reaching into an open top drawer for a makeup brush.",
+   "video": "The hand picks a makeup brush out of the drawer and lifts it toward the mirror; the mirror light shifts to warm yellow."
+  },
+  {
+   "id": "V5S4",
+   "t": [
+    12,
+    15
+   ],
+   "dur": 4,
+   "vo": "Only two outlets, so it's your dryer plus one more tool.",
+   "refs": [
+    "M",
+    "E"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of the white power strip plate on the left side panel, the dryer plugged into the top outlet, the bottom outlet empty; an index finger pointing at the bottom outlet.",
+   "video": "The finger points at the top outlet, then the bottom one."
+  },
+  {
+   "id": "V5S5",
+   "t": [
+    15,
+    19
+   ],
+   "dur": 4,
+   "vo": "Holiday get-ready season is close, and it ships in three boxes. Order it now.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Medium-close shot in front of the lit makeup mirror: a hand holding a glass perfume bottle above the desk.",
+   "video": "The hand gives one spray toward the mirror (fine mist), then sets the bottle on the nearest hutch shelf."
+  },
+  {
+   "id": "V6S1",
+   "t": [
+    0,
+    2
+   ],
+   "dur": 4,
+   "vo": "Watch where all of this goes.",
+   "refs": [],
+   "blocks": [
+    "hand",
+    "bath"
+   ],
+   "still": "Close-up of a crowded bathroom sink counter, makeup, skincare and perfume bottles jumbled; a hand at the edge.",
+   "video": "The hand sweeps the jumble of products together into one pile."
+  },
+  {
+   "id": "V6S2",
+   "t": [
+    2,
+    6
+   ],
+   "dur": 4,
+   "vo": "Makeup on the sink, skincare on the dresser, perfume on the windowsill.",
+   "refs": [],
+   "blocks": [
+    "hand",
+    "bath"
+   ],
+   "still": "Close-up of the same crowded bathroom counter, a woven basket at the front edge; two hands gathering products.",
+   "video": "Both hands scoop the products into the basket."
+  },
+  {
+   "id": "V6S3",
+   "t": [
+    6,
+    12
+   ],
+   "dur": 4,
+   "vo": "Lipsticks go in the drawers, under the glass. Perfume on the shelves. Hair tools plug in on the side.",
+   "refs": [
+    "M",
+    "D"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up looking down at an open top drawer of the vanity under the glass desk top, divider trays half empty; a hand holding three lipsticks above it.",
+   "video": "Fast, satisfying: the hand drops the lipsticks into the tray slots one after another, then slides the drawer shut."
+  },
+  {
+   "id": "V6S4",
+   "t": [
+    12,
+    14
+   ],
+   "dur": 4,
+   "vo": "Give yourself an afternoon to build it.",
+   "refs": [
+    "M",
+    "A"
+   ],
+   "blocks": [
+    "hand",
+    "vanity",
+    "room"
+   ],
+   "still": "Close-up of a hutch shelf with an empty spot; a hand holding a perfume bottle.",
+   "video": "The hand sets the perfume bottle on the shelf, lined up with the others."
+  },
+  {
+   "id": "V6S5",
+   "t": [
+    14,
+    20
+   ],
+   "dur": 5,
+   "vo": "If someone in your house keeps asking for a vanity, this one ships in three boxes. Order early for Christmas.",
+   "refs": [
+    "M",
+    "F"
+   ],
+   "blocks": [
+    "vanity",
+    "room"
+   ],
+   "still": "Medium shot of the finished, tidy vanity with the mirror lit warm white, from close in.",
+   "video": "Slow pull back until the whole vanity, stool and mirror door are in frame. No hands."
+  }
+ ]
+}
