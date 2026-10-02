@@ -4,15 +4,13 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **Tests done (2026-10-02). CLIP (EDIT_TEST2, 4s, $0.164, `clips/EDIT_TEST2_clip.mp4`): vanity stays exact all 4s; LED lines
-dim off/on at ~2.0s as asked; hand keeps Grace's skin + mauve/white-tip nails. Flaws: fingertip never lands on the touch
-button (stops at the mirror base), ~15% push-in in the first second although "camera does not move", hand ends in an odd pinch
-after 3.0s (free fix: cut at ~2.8s). CLOSE-UP still (`stills/CLOSEUP_TEST.png`, $0.09): sharp, hand right, but drawer
-proportions drift (opened drawer front oversized, only 2 drawers under it instead of 4). So: wide/medium edits of the real
-photo are reliable; tight close-ups drift. Spent $1.06 (master $0.09, V1 stills $0.45, V1S2 redo $0.09, edit tests $0.18,
-close-up + clip $0.25). Revised total ~$9.69 (33 stills $2.97 + 34 clips $5.66 still to make; both tests reused).
-Waiting on Ralph: OK to rebuild the shot list for the edit method (mostly medium shots, few true close-ups cropped from the
-real photo) and run Video 1 first (4 stills $0.36 + 4 clips ~$0.67), then review before Videos 2-6.**
+Status: **VIDEO 1 rough cut made (daylight, silent, 20.0s) `out/video1_lights_roughcut.mp4`, waiting on Ralph's notes. Built with the edit-the-real-photo
+method: stills `V1A`/`V1B` (model output has exact vanity but left blurred top/bottom bands; free fix in the `_fix` stills: wall from V1B, floor
+stretched + soft foreground blur), clips `V1S2-5` + `EDIT_TEST2_clip` (S1 = its 1.0-3.0s). V1S2 played in reverse (push-in -> pull-back ending
+on the whole vanity), V1S4 trimmed to 0.2-3.2s (hand floats up and pinches after), V1S5 4s + 2s freeze. Known: lights colour-cycle in V1S3 is
+subtle (warm -> white -> warm, no real dimming); hand in S4 travels at mirror-base height not on the desk edge. Scripts (voice, hook text,
+captions) unchanged in `scripts.md`; Grace records the voice. Spent $1.94 total (Kie balance 1651.8 -> 1263.6 credits). Next: Ralph's notes on
+Video 1, then lock a plan + exact total for Videos 2-6 (edit method, shared stills, few close-ups), then ask.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.
