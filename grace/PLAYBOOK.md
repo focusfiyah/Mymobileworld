@@ -40,6 +40,11 @@ products follow the same rules.
 ## 3. Hooks
 - Types: problem call-out, result first, comment reply, curiosity gap, contrarian, visual pattern
   break, POV, social proof (true only), direct address.
+- **Grace's own hook style (Grace 2026-10-02, Shnuggle; use it in every product):** (1) category-gap discovery:
+  "There are a ton of baby bathtubs out there, but I've never seen a true toddler-size one until now."; (2) finally +
+  the viewer's exact situation: "If you have a stand-up shower and have been looking to make bath time pleasant, this
+  is the perfect one."; (3) features named one by one, each with what it does ("there's a bump inside, so they sit
+  up"). Give every product at least one of each across its angles.
 - **Text hook = curiosity only** (Grace, 2026-10-01): 5-7 words, never names the product, makes them ask "what?"
   ("Nobody puts this on a beard"). The spoken hook does a different job (names the pain).
 - **Curiosity loops all the way through** (2026-10-01, from @dus_davis): answer one question and open the next in
