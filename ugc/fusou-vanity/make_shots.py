@@ -222,7 +222,7 @@ shots = [
 job = dict(
  product="FUSOU 2-in-1 Vanity Desk (71\" white, 12 drawers + 2-drawer stool, LED makeup mirror + full-length LED mirror door, "
          "hidden side cabinet, power strip 2 AC + 2 USB, glass top) https://shop.tiktok.com/us/pdp/1732251413004981161",
- client="Grace", voice="Grace records her own voiceover (no ElevenLabs).",
+ client="Grace", voice="ElevenLabs Grace B, bGrsdLmwBbYUgHRuMFOI, eleven_v4 (Ralph 2026-10-02).",
  format=dict(aspect_ratio="9:16", resolution="720p"),
  still_model="nano-banana-pro on Kie, 1K, 9:16; image_input = hand refs (hand shots) + the real listing photos listed per shot (M = listing photo A)",
  video_model="bytedance/seedance-2-mini on Kie, first_frame_url = approved still, generate_audio false, 720p, 9:16",
