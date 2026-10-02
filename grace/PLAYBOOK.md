@@ -14,7 +14,7 @@ products follow the same rules.
 - **Exact claim wording** from the label or listing. Never "cures / kills / fixes", never a timeframe unless the
   label gives one ("clinically tested… up to 100 hours when used as directed" is fine because the label says it).
 - **One honest caveat** in every video, said calmly like a friend.
-- **Detached CTA:** give permission to scroll on ("If it doesn't bother you, skip this. If it does, it's in the orange cart.").
+- ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
 
@@ -34,20 +34,45 @@ products follow the same rules.
 ## 3. Hooks
 - Types: problem call-out, result first, comment reply, curiosity gap, contrarian, price shock, visual pattern
   break, POV, social proof (true only), direct address.
+- **Text hook = curiosity only** (Grace, 2026-10-01): 5-7 words, never names the product, makes them ask "what?"
+  ("Nobody puts this on a beard"). The spoken hook does a different job (names the pain).
+- **Curiosity loops all the way through** (2026-10-01, from @dus_davis): answer one question and open the next in
+  the same breath; an odd claim said without explanation keeps them watching. Mid-video overlays can open loops too.
 - **Stack two layers:** spoken problem + on-screen text + product moving. The first second must make sense with the sound off.
 - Film 3–4 takes of each hook; give each video **different on-screen bubble text** (TikTok treats them as distinct).
 - Proven angles: timing ("boots season, nobody's looking at your feet"), cover-up ("painting over it isn't a plan"),
   read-the-label, "you're probably doing it wrong" tutorial, gift for a relative, "watch this before you use it".
 
 ## 4. Script structures
-- **Product / tips (Fungix, Carpe):** hook (pain) → clarity → claim (exact wording) → how to use (what / how / how often)
-  → honest caveat → detached CTA.
-- **Fashion:** hook (pain) → fit facts (height, size, how it runs, where it hits) → proof (back turn, phone in pocket,
-  sit-down, sheer check) → honest take (times worn, one love, one con, best for whom) → 3–5 looks → price → CTA.
+- **Grace's structure, every ad (Ralph 2026-10-02):**
+  1. **Curiosity-loop hook**
+  2. **Pain-point body**
+  3. **Selling point and/or solution body**
+  4. **FOMO and/or urgency CTA**
+
+  FOMO and urgency must be real (a season, a date, an event, a real deal, what they miss out on by waiting), never
+  fake scarcity. Combine with "CTA sells more units" below (count, gift).
+- What fills the bodies, by product type:
+  - **Product / tips (Fungix, Carpe):** clarity → claim (exact wording) → how to use (what / how / how often) → honest caveat.
+  - **Fashion:** fit facts (height, size, how it runs, where it hits) → proof (back turn, phone in pocket, sit-down,
+    sheer check) → honest take (times worn, one love, one con, best for whom) → 3–5 looks → price.
 - **Tutorial beats hard sell.** Carpe research: the hard-sell video got 830k views but 0.02% saves; the "watch this
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
+- Ask what Grace has already filmed before scripting; the script must match the footage (2026-10-01 Viking:
+  she'd filmed hands-only on the beard while the script talked about head curls).
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
 
+- **Every script uses ALL of these (Ralph 2026-10-01, Vicks VapoShower: "everything" means all of it):** (1) real data
+  from the `tiktok-shop-coach` skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their
+  hook, format, length, CTA), (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here,
+  (4) product research (box, brand site), (5) the §4 structure, (6) the `humanizer` skill on the final script so Grace
+  sounds like a person talking, (7) coach `readability` (grade ≤6), (8) §3 hook layers (on-screen hook text so the
+  first second works with the sound off), (9) after the cut: coach `compare` against the top winner, before Ralph sees it. Show Ralph
+  which line comes from which source in the plan. The coach needs `bash setup.sh` from Dayone-ai first (Playwright).
+- **CTA sells more units, not detached (Ralph 2026-10-01):** the close should make the buyer want more: say the count
+  ("twelve tablets, twelve showers"), a second occasion or a gift ("one for you, one to gift"), real seasonal timing.
+  Shower-steamer winners closed this way (JojoWell 879k "each pack comes with six"; bundle video 173k "you get 18
+  tablets"). Still no false scarcity.
 - **Script checklist (standard).** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
   (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
@@ -87,6 +112,10 @@ products follow the same rules.
   shot" lost to the identity block's detailed stick description; Seedance added it anyway. For no-product shots,
   leave the product text out of the prompt entirely. Also keep faces relaxed in stills ("raised eyebrows" = forehead
   wrinkles the clip copies).
+- **Same for hands** (Vicks, 2026-10-01): the S5 no-hand clip still had the hand identity text in its prompt, and two
+  pale hands walked in at 2.2s. Leave the hand block out of no-hand shots (`NO_HAND` in `ugc/vicks-vaposhower/kie.py`).
+- **A no-box shot needs the box text out too** (Vicks S6, $0.09): the box block put the box on the shower glass. And
+  say the exact surface plus pass the matching still as a ref (S4's tablet landed on a counter until S5 was the ref).
 - **Voiceover ads: keep her mouth out of frame while the voice talks** (Ralph 2026-10-01, "why are her lips not
   moving"): Ralph then preferred lip sync over chin-down crops (crops cut the product off): `lipsync.py` in
   `ugc/carpe-mountain-breeze/`, $0.04/s, submit one at a time (parallel calls get "server busy", $0).
@@ -110,6 +139,16 @@ products follow the same rules.
   cropped from the brand's own photo hid AI label garble for free. Small bottles drift to a coloured-label design in
   close-ups and multi-bottle shots: pin "cream label, vertical wordmark, NOT a coloured label" in every still prompt.
   Seedance redraws the scene late in a clip (caps appear, bottle count changes): plan windows from the clip's first ~1.5s.
+- 2026-10-01 Vicks VapoShower Plus: 24.7s hands-only how-to (pain/moment hook, specificity, honest non-medicated
+  caveat, count + gift CTA), $3.11 vs $2.04 quote: the 6-clip batch ran twice ($1.07 lost) because the old session kept working after its handoff
+  and a new session started from the handoff. Before any paid call in a resumed job: re-fetch the branch, check its
+  log/kie_log.json for the step, and make sure the old session is stopped. Seedance turned
+  the handheld box to its side panel mid-clip despite "front facing the camera" in the prompt: free fix = clip's
+  first 1.9s + push-in hold. Cut v3 approved 2026-10-02. QC stills for objects resting on nothing (the S2 still put the box in mid-air past
+  the vanity edge; Ralph caught it): free fix = crop the frame to end at the object's base.
+- 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
+  husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
 
 ## 8. To add later
-- Looping (endings that flow back into the start for rewatches): not covered yet; add here when we need it.
+- Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
+  covered yet; add here when we need it.

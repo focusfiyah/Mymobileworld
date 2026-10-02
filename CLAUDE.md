@@ -35,7 +35,10 @@ not in a new file.
    wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face.
 4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
    leave the product description out of shots that must not show the product.
-5. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
+   Grace structure + `humanizer` + readability + on-screen hook text, then coach `compare` on the cut. Full list:
+   `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
+6. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
@@ -60,6 +63,12 @@ not in a new file.
 
 - **Plant Therapy Top 6 oils (Grace), 2026-10-01:** hands-only starter-guide ad, 18.6s, 7 shots. Cut v1
   `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph (v3 = + on-screen hook in the Murano classic caption style, free); $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
+
+- **Vicks VapoShower Plus (Grace), 2026-10-01:** hands-only ad, 24.7s, 7 shots, humanized script v3, quote $2.04.
+  Cut v3 `ugc/vicks-vaposhower/out/vicks_vaposhower.mp4` APPROVED; in Drive (Grace Tiktok assets/Vicks VapoShower Plus – Grace ad (2026-10-02)); $3.11 Kie vs $2.04 quote (6 clips rendered twice by two sessions, $1.07 lost).
+  README Status line.
+- **Viking curl cream (Grace), 2026-10-01:** script v5 (~25s, $0) for Grace's own hands-only beard footage;
+  Grace records the lines next. `ugc/viking-curl-cream/README.md`.
 
 ## Skills (2026-10-01)
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
