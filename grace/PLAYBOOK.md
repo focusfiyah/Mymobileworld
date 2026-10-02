@@ -149,6 +149,12 @@ products follow the same rules.
 - 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
   husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
 
-## 8. To add later
+## 8. Tracking and sample volume (2026-10-01)
+- Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
+  (https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2, `grace/desk/`) scores each sample and shows her top few for the week.
+  She batches the shoot by setting, uses a script pack (4 hooks × 1 body × 1 CTA) per product, and logs each posted video.
+- What we judge a video on: save rate first (Carpe benchmark: tips 0.71%, hard sell 0.02%), then share rate and $ per 1k views.
+
+## 9. To add later
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
