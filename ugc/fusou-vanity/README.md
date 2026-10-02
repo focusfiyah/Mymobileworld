@@ -4,12 +4,13 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **Prompt-only stills do NOT hold the vanity layout (Ralph OK'd a V1S2 redo, $0.09, 2026-10-02): the redo got a
-landscape-ish mirror but lost the top row of 4 cubbies, recessed the mirror, and made the side cabinet short/narrow; the first
-try had the cubbies but a portrait mirror. Also the dusk look turns it blue/near-black. Free dark-grade of the real photo
-tried: not convincing (white furniture stays bright). Spent $0.63 of $9.10 (rejected AI master $0.09 + V1 stills $0.45 +
-V1S2 redo $0.09). Proposed fix, waiting on Ralph: EDIT the real photo instead of regenerating (outpaint the real photo to 9:16,
-add the hand on top, camera front-on like the photo, daylight; dark mood only in close-ups). One test still, $0.09.**
+Status: **Edit-the-real-photo test ($0.09, `stills/EDIT_TEST.png`, `preview/edit_test.jpg`, `edit_test.py`): the vanity layout is now
+EXACT (4 cubbies, 2 shelf columns, landscape mirror, 4 glass-top drawers, 2 towers, stool, mirror door all unchanged), both
+LED lines lit warm, hand matches Grace's photos. Two problems: bottom padding left blurry (model only repainted the top) and
+the hand is huge + open (not a fingertip on the touch button). Spent $0.72 of $9.10 (rejected master $0.09, V1 stills $0.45,
+V1S2 redo $0.09, edit test $0.09). Waiting on Ralph: OK for a 2nd edit test ($0.09) with a stronger floor-repaint line and a
+small hand (one finger on the button). Then the plan changes: wide shots = edits of the real photo; close-ups = crops of
+the real photo + hand; dark Video 1 look dropped (daylight, LED glow only).**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.
