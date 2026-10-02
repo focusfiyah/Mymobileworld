@@ -13,7 +13,13 @@ products follow the same rules.
 - **No false scarcity.** No "selling out" / "ends tonight". Use "don't put it off" or a real seasonal reason.
 - **Exact claim wording** from the label or listing. Never "cures / kills / fixes", never a timeframe unless the
   label gives one ("clinically tested… up to 100 hours when used as directed" is fine because the label says it).
-- **One honest caveat** in every video, said calmly like a friend.
+- **Never say a price** (Ralph + Grace 2026-10-02): no prices, discounts, "$X value", "% off" or "on sale" in the
+  spoken script, on-screen text or caption. TikTok gives violation cards for it. Deal talk without numbers is fine
+  ("two for the price of one", "TikTok-only set").
+- **Honest lines sell, never un-sell** (Grace 2026-10-02, replaces "one honest caveat"): no warnings, downsides or
+  "heads up" lines ("measure your shower first", "a tall kid may outgrow it", "you still need a sink"). The honest
+  beat is a sell-side confession: "I hate how easy it is to take this collagen, now I have no excuse", "I'm so upset I
+  paid full price, now you get two for one", "the only downside? they won't want to get out". Scarcity only if true.
 - ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
@@ -27,12 +33,12 @@ products follow the same rules.
 | Clarity, not convincing | Calmly show why what they do now (hiding it, painting over it) doesn't fill the gap. Let them conclude. |
 | Remove uncertainty | Every body answers: what's in it, how to use it, how often. Most hesitation is missing information. |
 | Detachment builds trust | Honest review voice, one con, no pressure. |
-| Price pushback = value question | Show 3–5 looks/uses before the price so it reads as several outfits. |
+| Price pushback = value question | Show 3–5 looks/uses so it reads as several outfits. Never say the price (§1). |
 | Specificity | Exact numbers beat adjectives ("a pea-sized amount", "twenty-five percent"). |
 | Take the shame out | Gift angle ("your dad will never buy this himself"): the pain is felt for someone else, and it gets shares. |
 
 ## 3. Hooks
-- Types: problem call-out, result first, comment reply, curiosity gap, contrarian, price shock, visual pattern
+- Types: problem call-out, result first, comment reply, curiosity gap, contrarian, visual pattern
   break, POV, social proof (true only), direct address.
 - **Text hook = curiosity only** (Grace, 2026-10-01): 5-7 words, never names the product, makes them ask "what?"
   ("Nobody puts this on a beard"). The spoken hook does a different job (names the pain).
@@ -55,9 +61,15 @@ products follow the same rules.
   FOMO and urgency must be real (a season, a date, an event, a real deal, what they miss out on by waiting), never
   fake scarcity. Combine with "CTA sells more units" below (count, gift).
 - What fills the bodies, by product type:
-  - **Product / tips (Fungix, Carpe):** clarity → claim (exact wording) → how to use (what / how / how often) → honest caveat.
+  - **Product / tips (Fungix, Carpe):** clarity → claim (exact wording) → how to use (what / how / how often) → sell-side confession (§1).
   - **Fashion:** fit facts (height, size, how it runs, where it hits) → proof (back turn, phone in pocket, sit-down,
-    sheer check) → honest take (times worn, one love, one con, best for whom) → 3–5 looks → price.
+    sheer check) → honest take (times worn, what she loves, best for whom; no cons, §1) → 3–5 looks.
+- **Coach research = top shop SELLERS, not keyword pages** (Ralph 2026-10-02, after Grace rejected the v1 angles): run
+  `tiktok.py viral --days 30 --category <cat> --add-tags <niche tags>`, keep shop videos selling products in the same
+  niche, run `video` on the top 5–8 and look at every hook.png. Name the seller video each angle is modeled on
+  (link + views/saves). What the winners did (beauty + parenting, 2026-10-02): product already in use at frame 0,
+  identity call-out hooks ("for my lazy people", "if bath time is a struggle at your house"), speed claims ("smoky eye
+  in 30 seconds"), zero caveats, brag-style confessions, TikTok-only bundle / gift / season CTA.
 - **Tutorial beats hard sell.** Carpe research: the hard-sell video got 830k views but 0.02% saves; the "watch this
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
 - Ask what Grace has already filmed before scripting; the script must match the footage (2026-10-01 Viking:
@@ -155,6 +167,9 @@ products follow the same rules.
   + Shnuggle Toddler Bath): 3 talking-head angles each, 2 hooks per angle, $0. Claude doc only (no PDF, Ralph):
   https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e. No personal-use lines needed (Ralph: don't ask
   Grace what she's tried); brand claims said as "the brand says". Remover winners all hook on stinging/foggy eyes.
+
+- 2026-10-02 Beauty script pack v2: Grace rejected v1 (prices said, caveats that un-sell, weak angles). Rebuilt all 12
+  angles from the top shop sellers in each niche (coach viral board, 1,728 videos), no prices, sell-side confessions.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**

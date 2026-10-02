@@ -116,8 +116,11 @@ words. Rewrite the flagged long sentences and swap the hard words for everyday o
 ### 4. "Write me a script"
 Confirm product, price, commission if known, the audience, and whether they show their face (or it's faceless/voiceover).
 Deliver 5 hooks across different hook types, then 1–2 full scripts in a playbook framework: timestamped lines,
-on-screen text, shot list, CTA, 15–45 s unless asked. Model on a real winning video when workflow 0 or 2 found one,
-and link it. Write like a person talking: short sentences, no hype words. Run `readability` on each script before
+on-screen text, shot list, CTA, 15–45 s unless asked. Model on a real winning video and link it. For
+client scripts, find the models with workflow 0 narrowed to the niche (`viral --days 30 --category <cat> --add-tags
+<niche tags>`, keep shop videos selling the same kind of product, `video` on the top 5-8, look at each hook.png):
+keyword `discover` pages alone gave generic angles that Grace rejected (2026-10-02). Client rules beat this playbook
+(Grace: never say a price, no downsides; `grace/PLAYBOOK.md` in Mymobileworld). Write like a person talking: short sentences, no hype words. Run `readability` on each script before
 handing it over, and use the humanizer skill if the draft reads like an AI wrote it.
 
 ### Hand-offs
