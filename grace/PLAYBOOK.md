@@ -44,12 +44,18 @@ products follow the same rules.
   read-the-label, "you're probably doing it wrong" tutorial, gift for a relative, "watch this before you use it".
 
 ## 4. Script structures
-- **Grace's default (2026-10-01):** curiosity-loop hook → pain body → selling point / solution → urgency CTA.
-  Urgency must be real (a season, a date, an event), never fake scarcity.
-- **Product / tips (Fungix, Carpe):** hook (pain) → clarity → claim (exact wording) → how to use (what / how / how often)
-  → honest caveat → CTA that sells more units (count, gift, real timing; see "CTA sells more units").
-- **Fashion:** hook (pain) → fit facts (height, size, how it runs, where it hits) → proof (back turn, phone in pocket,
-  sit-down, sheer check) → honest take (times worn, one love, one con, best for whom) → 3–5 looks → price → CTA.
+- **Grace's structure, every ad (Ralph 2026-10-02):**
+  1. **Curiosity-loop hook**
+  2. **Pain-point body**
+  3. **Selling point and/or solution body**
+  4. **FOMO and/or urgency CTA**
+
+  FOMO and urgency must be real (a season, a date, an event, a real deal, what they miss out on by waiting), never
+  fake scarcity. Combine with "CTA sells more units" below (count, gift).
+- What fills the bodies, by product type:
+  - **Product / tips (Fungix, Carpe):** clarity → claim (exact wording) → how to use (what / how / how often) → honest caveat.
+  - **Fashion:** fit facts (height, size, how it runs, where it hits) → proof (back turn, phone in pocket, sit-down,
+    sheer check) → honest take (times worn, one love, one con, best for whom) → 3–5 looks → price.
 - **Tutorial beats hard sell.** Carpe research: the hard-sell video got 830k views but 0.02% saves; the "watch this
   before you use it" tips video got 1.4M views and 0.71% saves. Tips also answer the viral complaints.
 - Ask what Grace has already filmed before scripting; the script must match the footage (2026-10-01 Viking:
