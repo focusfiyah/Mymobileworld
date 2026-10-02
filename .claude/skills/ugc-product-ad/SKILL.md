@@ -57,10 +57,15 @@ and ask questions, do not assume, because that's how we waste time and money."
   approval. A mid-job change gets a new total before anything is spent.
 - **One test clip before any batch.** Carpe v2 rendered 8 clips at once and all came back wrong ($1.52); one clip
   would have cost $0.21.
+- **Resuming a job from a handoff: re-check before paying.** Right before any paid call, re-fetch the job branch,
+  look at its `kie_log.json` / clips folder for that step, and make sure the old session is stopped (Vicks
+  VapoShower 2026-10-01: the old session rendered the 6 clips after writing its handoff, the new one rendered
+  them again: $1.07 lost).
 - **QC before sending, so Ralph never finds it first** (each miss cost him a review round, ~20 rounds / 4h on
   Carpe v2): every clip at ≥1.0x speed; no face on screen while the voice talks unless lip-synced; product never
   cropped off or smeared; no forehead wrinkles; same outfit and product in every shot; frame-by-frame check wherever
-  hands or the product cross the face.
+  hands or the product cross the face; nothing resting on thin air (a Vicks still put the box past the vanity
+  edge and Ralph caught it: free fix = crop the frame to end at the object's base).
 - **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
   (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
@@ -379,6 +384,10 @@ run in the background with a ≥1h timeout, never a 10-min foreground call (one 
 Traps: a nano-banana-pro *edit* barely changes small details (nails: first edit ~no change); a blur on the still
 carries into the Seedance clip (good for a wrong label line); small label text comes out garbled or wrong
 ("1.7 FL OZ (350 mL)") → blur it on the still, free.
+Seedance turns a hand-held box to show its side panel mid-clip even with "the box stays upright with its front
+facing the camera" in the prompt (Vicks S1, at ~2s): use the clip's front-facing start + a push-in hold on its last
+good frame, or another take of the shot if one exists. It also redraws scenes late in a clip (stray hands walked in
+at 2.2s in a no-hand shot): plan each window from the clip's first ~2s.
 
 ## On-camera demo over a voiceover (approved route)
 
