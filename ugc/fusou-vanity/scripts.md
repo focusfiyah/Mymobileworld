@@ -1,7 +1,7 @@
 # FUSOU 2-in-1 Vanity Desk: 6 hands-only videos for Grace
 
 - Product: [FUSOU 2-in-1 Vanity Desk](https://shop.tiktok.com/us/pdp/1732251413004981161) · $639.99 · 4.9★ (83 reviews) · 648 sold · white or black
-- Format: Grace's hands only, Grace's own voice. No text burned in: pick an on-screen hook below and add it in TikTok.
+- Format: Grace's hands only, voiceover by ElevenLabs Grace B (Ralph, 2026-10-02). No text burned in: pick an on-screen hook below and add it in TikTok.
 - Length: 18 to 21 seconds each at a natural UGC pace. Read at a normal, friendly pace.
 
 ## Before you film (makes every video look better)
@@ -9,7 +9,6 @@
 - Turn the ceiling light off and let the vanity lights do the work. Warm white light looks best on camera.
 - Put out only 6 to 10 pretty things: a few perfumes, a lipstick row, one candle or vase. Empty space looks expensive.
 - Nails done, rings on, no chipped polish. Slow hand moves: every move lasts about 2 seconds.
-- Record the voiceover after you film, in a quiet room, phone 6 inches from your mouth.
 - Every video says one honest thing (size, build time, or only 2 outlets). Keep it in.
 - Caption must include `#ad`.
 

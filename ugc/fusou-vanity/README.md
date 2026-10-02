@@ -1,16 +1,15 @@
 # FUSOU 2-in-1 Vanity Desk: 6 hands-only videos (Grace)
 
 **Client: Grace** (Ralph, 2026-10-02). Product: https://shop.tiktok.com/us/pdp/1732251413004981161 ($639.99,
-4.9★/83, 648 sold, white or black). Brief: Grace's hands only, Grace's own voice, 6 video styles × 6 scripts,
+4.9★/83, 648 sold, white or black). Brief: Grace's hands only, voiceover = ElevenLabs Grace B (not Grace's own recording), 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **VIDEO 1 rough cut made (daylight, silent, 20.0s) `out/video1_lights_roughcut.mp4`, waiting on Ralph's notes. Built with the edit-the-real-photo
-method: stills `V1A`/`V1B` (model output has exact vanity but left blurred top/bottom bands; free fix in the `_fix` stills: wall from V1B, floor
-stretched + soft foreground blur), clips `V1S2-5` + `EDIT_TEST2_clip` (S1 = its 1.0-3.0s). V1S2 played in reverse (push-in -> pull-back ending
-on the whole vanity), V1S4 trimmed to 0.2-3.2s (hand floats up and pinches after), V1S5 4s + 2s freeze. Known: lights colour-cycle in V1S3 is
-subtle (warm -> white -> warm, no real dimming); hand in S4 travels at mirror-base height not on the desk edge. Scripts (voice, hook text,
-captions) unchanged in `scripts.md`; Grace records the voice. Spent $1.94 total (Kie balance 1651.8 -> 1263.6 credits). Next: Ralph's notes on
-Video 1, then lock a plan + exact total for Videos 2-6 (edit method, shared stills, few close-ups), then ask.**
+Status: **VIDEO 1 rough cut v2 (no hand glide, silent, 20.0s) `out/video1_lights_roughcut_v2.mp4`; v1 `out/video1_lights_roughcut.mp4`. Ralph's notes (2026-10-02):
+(1) the hand looks big: it is the FINAL footage, not a preview: the hand reaches in from near the camera so it fills ~40% of the frame height in S1
+(S4 had it spanning the vanity); (2) VOICE = ElevenLabs Grace B, NOT Grace's own recording (I had assumed Grace records it; fixed in scripts.md/README);
+(3) drop the S4 hand glide: done (S4 = V1S5 static wide 0-3s, S5 = V1S2 push-in 4s + 2s hold). Timings are still the script estimates (3.3 words/s);
+real timings come from the Grace B voiceover (331 chars, ~62 words, ElevenLabs credits, no Kie cost), then recut. Waiting on Ralph: OK to make the
+Grace B voiceover, and what to do with the S1 hand (keep / drop the hand from S1 free / regenerate smaller $0.25). Spent $1.94 of Kie (balance 1651.8 -> 1263.6).**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.
@@ -32,5 +31,5 @@ real urgency (ships in 3 boxes that can arrive on different days + holidays). ~1
 
 ## AI route quote (only if Ralph picks it)
 Per video ~6 shots: 6 stills × $0.09 + 6 clips × 4s × $0.041 = $1.52; 6 videos ≈ $9.15 (+ ~$0.25 per redone shot).
-Voice = Grace's own recording (no ElevenLabs). Risk: a 71" vanity with 12 drawers, 2 mirrors and a cabinet door is
+Voice = ElevenLabs Grace B (bGrsdLmwBbYUgHRuMFOI, eleven_v4), Ralph 2026-10-02. Risk: a 71" vanity with 12 drawers, 2 mirrors and a cabinet door is
 hard to keep consistent across AI shots; Grace's real footage will look truer.
