@@ -65,7 +65,7 @@ not in a new file.
   `ugc/plant-therapy-top6/out/plant_therapy_top6.mp4` APPROVED by Ralph (v3 = + on-screen hook in the Murano classic caption style, free); $2.09 Kie (quote $1.82 + $0.27 approved redo). README Status line.
 
 - **Vicks VapoShower Plus (Grace), 2026-10-01:** hands-only ad, 24.7s, 7 shots, humanized script v3, quote $2.04.
-  Cut v1 `ugc/vicks-vaposhower/out/vicks_vaposhower.mp4` sent, waiting on Ralph's notes; $2.04 Kie (= quote).
+  Cut v1 `ugc/vicks-vaposhower/out/vicks_vaposhower.mp4` sent, waiting on Ralph's notes; $3.11 Kie vs $2.04 quote (6 clips rendered twice by two sessions, $1.07 lost).
   Branch claude/vicks-vaposhower-handoff-f87uqn (not merged). README Status line.
 
 ## Skills (2026-10-01)

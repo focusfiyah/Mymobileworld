@@ -126,7 +126,9 @@ products follow the same rules.
   close-ups and multi-bottle shots: pin "cream label, vertical wordmark, NOT a coloured label" in every still prompt.
   Seedance redraws the scene late in a clip (caps appear, bottle count changes): plan windows from the clip's first ~1.5s.
 - 2026-10-01 Vicks VapoShower Plus: 24.7s hands-only how-to (pain/moment hook, specificity, honest non-medicated
-  caveat, count + gift CTA), $2.04 = quote (stills + 1 test clip + 6-clip batch, no surprise redos). Seedance turned
+  caveat, count + gift CTA), $3.11 vs $2.04 quote: the 6-clip batch ran twice ($1.07 lost) because the old session kept working after its handoff
+  and a new session started from the handoff. Before any paid call in a resumed job: re-fetch the branch, check its
+  log/kie_log.json for the step, and make sure the old session is stopped. Seedance turned
   the handheld box to its side panel mid-clip despite "front facing the camera" in the prompt: free fix = clip's
   first 1.9s + push-in hold. Waiting on Ralph's notes.
 
