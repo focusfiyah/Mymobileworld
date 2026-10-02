@@ -149,6 +149,11 @@ products follow the same rules.
 - 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
   husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
 
+- 2026-10-02 Beauty script pack (Bobbi Brown Prep & Brighten Duo, Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off,
+  + Shnuggle Toddler Bath): 3 talking-head angles each, 2 hooks per angle, $0. Claude doc only (no PDF, Ralph):
+  https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e. No personal-use lines needed (Ralph: don't ask
+  Grace what she's tried); brand claims said as "the brand says". Remover winners all hook on stinging/foggy eyes.
+
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
   (https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2, `grace/desk/`) scores each sample and shows her top few for the week.

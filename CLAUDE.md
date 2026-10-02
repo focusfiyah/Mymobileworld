@@ -70,6 +70,10 @@ not in a new file.
 - **Viking curl cream (Grace), 2026-10-01:** script v5 (~25s, $0) for Grace's own hands-only beard footage;
   Grace records the lines next. `ugc/viking-curl-cream/README.md`.
 
+- **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
+  Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
+  https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e (Ralph shares it with Grace).
+
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 
