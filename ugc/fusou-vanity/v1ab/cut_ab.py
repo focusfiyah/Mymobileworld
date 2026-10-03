@@ -15,8 +15,8 @@ def end_of(v, word, k=1): return [w["end"] for w in words(v) if clean(w) == word
 
 def tint(im, a):   # a: 0 = warm bathroom light, 1 = cool daylight
     x = im.astype(np.float32)
-    k = np.array([0.74, 0.93, 1.12]) * (1 - a) + np.array([1.08, 1.0, 0.94]) * a      # B, G, R gains
-    return np.clip(x * k * (0.92 * (1 - a) + 1.06 * a), 0, 255).astype(np.uint8)
+    k = np.array([0.84, 0.96, 1.08]) * (1 - a) + np.array([1.08, 1.0, 0.94]) * a      # B, G, R gains
+    return np.clip(x * k * (0.95 * (1 - a) + 1.06 * a), 0, 255).astype(np.uint8)
 
 
 def grade(src, out, t_sw, ramp=0.3):
