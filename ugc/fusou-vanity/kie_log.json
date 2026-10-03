@@ -1083,5 +1083,110 @@
    ]
   },
   "costTime": 110
+ },
+ {
+  "t": "2026-10-03 16:13:52",
+  "submitted": "233de8d5fee76f4d3bb7cc16e7f8b754",
+  "prompt": "Vertical 9:16 phone photo of a small, slightly cramped bathroom, taken from standing height looking down at about 45 deg"
+ },
+ {
+  "t": "2026-10-03 16:13:52",
+  "submitted": "196d52ec7bcc341862f8fc06391ce45d",
+  "prompt": "Shot on a phone by someone walking slowly forward into the bedroom toward the vanity while drifting a little to the righ"
+ },
+ {
+  "t": "2026-10-03 16:13:55",
+  "submitted": "9ddc374ca20f22ec914aa48a3f267839",
+  "prompt": "Shot on a phone by someone walking slowly BACKWARD away from the vanity across the bedroom: a smooth steady backward wal"
+ },
+ {
+  "t": "2026-10-03 16:15:45",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 phone photo of a small, slightly cramped bathroom, taken from standing height looking down at about 45 degrees at the open cabinet under a white pedestal-free bathroom sink: inside the dark cabinet, a stuffed clear-and-beige zip makeup bag crammed in next to a bottle of cleaner and a roll of toilet paper, a few makeup products (a lipstick, a foundation bottle, a brush) spilled around it. One small hand with long almond nails (the hands in the two reference images) is gripping the makeup bag's zipper pull and starting to drag the bag out toward the camera. Plain white bathroom tile floor, grey grout, cool bathroom light, slightly messy and real. No people, no mirror shown, no text. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The two reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188104-8dpwofz8dd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190391-i7c5oxjuyb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "233de8d5fee76f4d3bb7cc16e7f8b754",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/233de8d5fee76f4d3bb7cc16e7f8b754_0_1791044142.jpeg"
+   ]
+  },
+  "costTime": 110
+ },
+ {
+  "t": "2026-10-03 16:15:52",
+  "submitted": "fbe8bdf8365402c3dce6646cc565a614",
+  "prompt": "The small hand drags the stuffed makeup bag out of the cabinet toward the camera in one smooth pull, and a lipstick and "
+ },
+ {
+  "t": "2026-10-03 16:16:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot on a phone by someone walking slowly BACKWARD away from the vanity across the bedroom: a smooth steady backward walk with a very slight natural handheld bob, the camera pulls back so the vanity gets smaller, the floor and rug slide toward the camera and more of the bedroom (door, window, bed) comes into view. No people, no hands. The vanity, its mirrors, shelves, drawers, stool, the door, the window and the bed stay exactly as in the first frame: nothing appears, disappears or changes shape. Natural daylight, no sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791044033045-32kt6cv8z2u.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "9ddc374ca20f22ec914aa48a3f267839",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791044166630-0iqwh2h2iys.mp4"
+   ]
+  },
+  "costTime": 134
+ },
+ {
+  "t": "2026-10-03 16:16:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot on a phone by someone walking slowly forward into the bedroom toward the vanity while drifting a little to the right: a smooth steady walk with a very slight natural handheld bob, the camera gets closer to the vanity by about a third so the floor and rug slide past. As the camera approaches, the wide landscape makeup mirror's built-in light strip fades on from off to a soft warm white glow. No people, no hands. The vanity, its mirrors, shelves, drawers, stool, the door, the window and the bed stay exactly as in the first frame: nothing appears, disappears or changes shape. Natural daylight, no sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791037744950-hkml60chhe9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "196d52ec7bcc341862f8fc06391ce45d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791044165879-i6r9mb6lhf.mp4"
+   ]
+  },
+  "costTime": 141
+ },
+ {
+  "t": "2026-10-03 16:18:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The small hand drags the stuffed makeup bag out of the cabinet toward the camera in one smooth pull, and a lipstick and a brush tumble out of it onto the tile. The camera is steady, no zoom. The bathroom, the sink and the light stay exactly as in the first frame. No other hands, no people. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791044150271-bu0m6hepxau.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fbe8bdf8365402c3dce6646cc565a614",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791044301471-nyxb2i3mds.mp4"
+   ]
+  },
+  "costTime": 151
  }
 ]

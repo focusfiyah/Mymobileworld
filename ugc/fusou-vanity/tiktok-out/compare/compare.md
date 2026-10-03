@@ -1,0 +1,38 @@
+# A/B compare
+
+**A**: https://www.tiktok.com/@sdbby88/video/7653329613258591518 (2,100,000 views, saves 0.84%)
+**B**: out/fusou_v3_r4.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 33.2 | 22.6 |
+| words | 145 | 0 |
+| words_per_sec | 4.37 | None |
+| cuts | 9 | 7 |
+| cuts_per_10s | 2.7 | 3.1 |
+| first_word_at_s | 0.0 | None |
+| spoken_first_3s | this is the viral vanity that all the girlies are getting and let me show you exactly |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.0s] this is the viral vanity
+- [1.0s] that all the girlies are getting and let me show you exactly
+- [3.6s] why I keep selling out this one actually has a
+- [5.5s] stand up a light up mirror
+- [6.7s] and behind the mirror is a whole cabinet with so much shelving and
+- [10.6s] storage space so not only do you get the gorgeous drawers
+- [13.5s] with a beautiful knob the classic clear glass top
+- [16.3s] pop you get the stool that also has built in drawers a power station
+- [19.7s] on the side with a hair dryer holder
+- [21.6s] or you can put your tumbler
+- [22.7s] on there and then do you see how gorgeous these knobs are
+- [25.4s] the lights are adjustable
+- [26.9s] that's why this vanity is always sold out so if you see it in
+- [29.7s] stock and you want it just know that they just dropped the price
+- [31.7s] today so I'll link it below for you
+
+## B transcript (timed)
+
+(no captions; rerun with --stt to transcribe)
