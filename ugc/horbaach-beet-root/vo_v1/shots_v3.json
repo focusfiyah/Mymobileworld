@@ -1,0 +1,112 @@
+{
+ "product": "Horbaach Nitric Oxide Max Beet Root+ with Nitrates, 60 vegan strawberry gummies, clear jar",
+ "client": "Grace",
+ "status": "Script v3 humanized; VO + stills S1-S7 approved by Ralph 2026-10-03 (video only after storyboard OK). No overlay text of any kind.",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover_tight.mp3"
+ },
+ "format": {
+  "aspect_ratio": "9:16",
+  "resolution": "720p",
+  "fps": 24
+ },
+ "refs": {
+  "hand": "refs/hand_dorsal.png + refs/hand_palm.png (same hand as Plant Therapy, confirmed by Ralph 2026-10-02)",
+  "product": "refs/jar_front.png + refs/jar_label.png (listing screenshot crop, UI removed)"
+ },
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people.",
+ "jar_block": "The jar is exactly the Horbaach Nitric Oxide Max Beet Root+ jar in the product reference images: a clear round plastic jar with a silver ribbed screw cap, a red band across the top of the label with the white Horbaach logo, a light grey label body reading 'Nitric Oxide Max' in black, 'Beet Root+' in large red letters and 'with Nitrates' in black, a beet illustration at the lower right on a black panel at the bottom with '60 Vegan Gummies'. Through the clear jar you see dark red gummies. The jar keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift.",
+ "gummy_block": "The gummies are small soft rounded pillow-shaped gummies about 2 cm across, a glossy deep red-maroon colour, the same as the ones visible inside the jar in the product reference images. No sugar coating, no print on them.",
+ "scene_block": "Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left, a few raw red beets with short purple stems softly out of focus in the background. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+ "video_suffix": "Camera: handheld phone, gentle natural shake, no zoom unless stated. Fingers move naturally and stay anatomically correct (five fingers per hand). The jar stays upright with its label facing the camera. No sound. No on-screen text.",
+ "prompt_blocks_per_shot": "S1,S3-S7: identity + jar (+ gummy where gummies show) + scene. S2: identity + scene only, NO jar or gummy text (playbook: a product description in the prompt puts the product in the shot).",
+ "shots": [
+  {
+   "id": "S1",
+   "beat": "curiosity hook",
+   "vo": "Looks like candy, right? It's beet root.",
+   "still": "Close-up on a white quartz kitchen counter: one hand holds the open jar (cap off, the silver cap lying on the counter beside it), the other hand is palm up toward the lens with a single dark red gummy resting in the centre of the palm.",
+   "video": "Shot 1 (0-4s): the palm lifts toward the lens with the single gummy, tilts slightly so the light catches it, then holds steady; the jar stays in the other hand.",
+   "dur": 4,
+   "t": [
+    0.0,
+    2.32
+   ]
+  },
+  {
+   "id": "S2",
+   "beat": "pain",
+   "vo": "If you've ever had beet juice, you know it tastes like dirt.",
+   "still": "Close-up on the white quartz counter: a tall glass of opaque dark magenta-red beet juice, a whole raw beet with its short purple stems lying beside it. No hand, no jar, no gummies in this shot.",
+   "video": "Shot 1 (0-4s): locked-off phone shot of the glass of beet juice, the dark juice settles with a slow gentle ripple, soft morning light shifts slightly on the glass. No hand, no people, nothing else enters the frame.",
+   "dur": 4,
+   "t": [
+    2.32,
+    5.46
+   ]
+  },
+  {
+   "id": "S3",
+   "beat": "solution",
+   "vo": "These are Hor-bahk Beet Root Plus gummies, and they taste like strawberry.",
+   "still": "Close-up on the white quartz counter: the closed jar held by the hand, turned so the label faces the camera squarely.",
+   "video": "Shot 1 (0-4s): the hand turns the closed jar slowly until the label faces the lens squarely, then holds it steady, label upright.",
+   "dur": 4,
+   "t": [
+    5.46,
+    9.14
+   ]
+  },
+  {
+   "id": "S4",
+   "beat": "selling point (label words) - free push-in on the real label photo, no clip",
+   "vo": "It's beet root with nitrates, and the label calls it a nitric oxide precursor.",
+   "still": "Tight close-up of the jar label, front facing the camera, upright; one fingertip rests just under the words 'with Nitrates' on the label.",
+   "video": "Shot 1 (0-4s): the fingertip taps once under 'with Nitrates' on the label and holds there; the jar stays still and upright, label facing the lens.",
+   "dur": 5,
+   "t": [
+    9.14,
+    13.78
+   ]
+  },
+  {
+   "id": "S5",
+   "beat": "what's in it (TEST CLIP, hardest)",
+   "vo": "They're vegan and gluten free, with no artificial sweeteners.",
+   "still": "Close-up above the white quartz counter: the open jar tilted in one hand over the other open palm, four dark red gummies just tumbled into the palm, a few more at the jar mouth.",
+   "video": "Shot 1 (0-4s): the jar tips a little further and two more gummies roll out into the palm, the palm settles with the gummies in it, the jar levels again.",
+   "dur": 4,
+   "t": [
+    13.78,
+    17.08
+   ]
+  },
+  {
+   "id": "S6",
+   "beat": "honest caveat",
+   "vo": "It's a supplement, so if you take any medication, check with your doctor first.",
+   "still": "Close-up on the white quartz counter: the hand sets the closed jar down next to a clear reusable plastic water bottle with a white cap, label facing the camera.",
+   "video": "Shot 1 (0-4s): the hand lowers the closed jar onto the counter beside the water bottle, turns it so the label faces the lens, and lets go.",
+   "dur": 4,
+   "t": [
+    17.08,
+    21.0
+   ]
+  },
+  {
+   "id": "S7",
+   "beat": "CTA (real proof)",
+   "vo": "They've sold almost eighty-five thousand. It's in the orange cart below.",
+   "still": "Close-up on the white quartz counter: the closed jar stands alone, front facing the camera, label upright and fully visible, nothing else on the counter near it. No hand, no person.",
+   "video": "Shot 1 (0-5s): slow gentle push-in on the closed jar standing on the counter, label facing the lens and readable, light steady. No hand, no people, nothing else enters the frame.",
+   "dur": 5,
+   "t": [
+    21.0,
+    24.71
+   ]
+  }
+ ]
+}

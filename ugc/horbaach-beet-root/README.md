@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~26s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). No face anywhere, so no lip sync. **No on-screen text of any kind, hook text included** (Ralph, 2026-10-02).
 
-Status: **2026-10-03: VO + stills S1-S7 + S2/S7 hand-free redo + S5 test clip done; $0.97 spent. Ralph OK'd hand-free S2/S4/S7 (S4 = free push-in on real label photo). Findings: S2 stray hand cropped free; S7 still has a made-up label line (needs redo $0.09); S5 clip clean for 2.3s then label drifts as the jar lifts (cut at 2.3s, start S6 about 1s early, S6 clip 5s). Waiting on Ralph's OK for S7 redo + the other clips. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies ad (2026-10-02).**
+Status: **Cut v1 built 2026-10-03 (24.5s, 7 shots, no overlay text, VO Grace B): out/horbaach_beet_root.mp4, shown to Ralph, waiting on his notes before Drive upload. Spent $1.68 Kie (quote $1.69). Hand clips S1/S3/S5/S6; S2/S4/S7 are free push-ins on stills. Coach compare vs @emacshops: ours 3.3 words/s vs 4.2, 2.4 cuts/10s vs 0.5. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies ad (2026-10-02).**
 
 ## Product facts
 
@@ -24,14 +24,14 @@ timeframe (structure/function only, the label's own words); no personal-use line
 Research note: the TikTok coach scripts couldn't reach tiktok.com from this environment, so the hook is built from the
 playbook's proven angles (curiosity text hook, pain-first, read-the-label) rather than a fresh viral scan.
 
-## Script v3, humanized (82 words, ~25s at 3.2 words/s), Grace's structure
+## Script v4 (80 words, 24.5s with pauses trimmed; S2 line changed 2026-10-03: no juice, no 'tastes like dirt'), Grace's structure
 
 | Shot | Beat | VO | Hands do |
 |---|---|---|---|
 | S1 | curiosity hook (spoken only) | Looks like candy, right? It's beet root. | tip one dark red gummy from the open jar into the palm, hold it to the lens |
-| S2 | pain | If you've ever had beet juice, you know it tastes like dirt. | slide a glass of dark beet juice away, a raw beet beside it |
+| S2 | pain | Plenty of people can't get past how beets taste. | two raw beets on the counter, slow push-in on the still (no juice, no hand) |
 | S3 | solution | These are Horbaach Beet Root Plus gummies, and they taste like strawberry. | turn the jar so the label faces the lens (free label close-up insert from the screenshot) |
-| S4 | selling point (label words) | It's beet root with nitrates, and the label calls it a nitric oxide precursor. | fingertip taps "with Nitrates" on the label |
+| S4 | selling point (label words) | It's beet root with nitrates, and the label calls it a nitric oxide precursor. | slow push-in on the real label photo (no hand) |
 | S5 | what's in it / how | They're vegan and gluten free, with no artificial sweeteners. | shake a few gummies into the palm |
 | S6 | honest caveat | It's a supplement, so if you take any medication, check with your doctor first. | set the jar down next to a water bottle |
 | S7 | CTA (real proof + real deal) | They've sold almost eighty-five thousand. It's in the orange cart below. | jar on the counter, hand points down |
@@ -64,4 +64,4 @@ Setup note: coach needs `pip install playwright` and `apt-get install libnss3-to
 | Cut: label close-up insert (image, no text), CC0 SFX (jar shake, cap), loudnorm; Drive upload | free |
 | **Total** | **$1.99** (+ ~$0.25 per redone shot, each redo asked first) |
 
-Running total: $0.97 spent. New plan total about $1.97: stills $0.90 (7 + S2/S7 redo + S7 second redo), clips $1.07 (S1/S2/S3/S5 4s, S6/S7 5s; S4 free push-in).
+Running total: $1.68 spent of the $1.69 quote (VO plan chars twice; stills 9 = $0.81 incl. two redos each of S2/S7 wasted $0.27; clips S1/S3/S5/S6 = $0.69).
