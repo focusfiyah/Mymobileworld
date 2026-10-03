@@ -27,3 +27,6 @@ No dashes, no banned phrases, no "order it now", no "three boxes" anywhere in th
 
 ## Re-run 2026-10-03 (Ralph OK'd the two flagged closers)
 V2 closer -> "If you want it up for the holidays, it's in the orange cart." (drops the unsupported shipping claim and the comma splice). V5 closer -> "Holiday get-ready season is close. It's in the orange cart." (two sentences, no splice). Re-read all six: no staged openers, slogans, contrasts, dashes or banned words; no "three boxes" anywhere.
+
+## V2 re-done 2026-10-03 (Grace's own script, verbatim)
+Humanizer run on the new V2 text (only two dashes changed to commas). Tells found: "honestly" and "actually" x3 (filler/hedge words), "crazy sale" (hype), a 34-word sentence. All are Grace's own voice and Ralph said "Keep everything she sent", so NO wording was changed. Flagged to Ralph: "holiday shipping is about to get slower", "crazy sale" and "before that deal, or the vanity, is gone" are claims the listing does not support (PLAYBOOK §1 no false scarcity). Hook options and caption re-read: no staged openers, slogans, dashes or banned words. V1, V3-V6 unchanged.
