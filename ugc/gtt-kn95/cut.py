@@ -23,8 +23,8 @@ PIECES = {   # first ~1.5s of a clip is the reliable part (Seedance redraws late
     "S7": [("clip", "clips/S7.mp4", 3.0, 3.0), ("hold", "inserts/s7_hold.png", 0.5, 0.55, 0.05)],   # first 3s the box slides AWAY: use the 3-6s half, where it slides toward the lens with the hand on its side
 }
 HOOK = None   # on-screen hook text removed (Ralph 2026-10-03: "remove why fifty")
-POPUP = ("inserts/popup.png", 11.55, 1.6)
-SFX = [("click", 11.55, 0.25)]
+POPUP = ("inserts/popup.png", 11.61, 1.6)
+SFX = [("click", 11.61, 0.25)]
 
 
 Path("inserts").mkdir(exist_ok=True)

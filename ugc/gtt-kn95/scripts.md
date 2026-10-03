@@ -12,7 +12,7 @@ Voice: ElevenLabs Grace B. Hands only, no face anywhere, so no lip sync (Ralph 2
 | S5b | solution | "so keep a few in the car" | hand tucks two wrapped masks into a car door pocket |
 | S5c | solution | "and a few in the garage." | hand sets two wrapped masks on a garage shelf |
 | S6 | confession | "The only problem? Now I can't say I forgot my mask." | hand sets a mask by a work glove and car keys on the bench |
-| S7 | urgency CTA | "It's leaf season, so don't put this off. Fifty in a box, plenty to share. It's in the orange cart." | fall leaves in the garage doorway; hand slides the box toward camera on "plenty to share"; open palm points down on "orange cart" |
+| S7 | urgency CTA | "It's leaf season, so don't put this off. Grab a couple boxes, so there's always one close. It's in the orange cart." | fall leaves in the garage doorway; hand slides the box toward camera on "plenty to share"; open palm points down on "orange cart" |
 
 On-screen hook (Classic style, frame 0): "why fifty?". Alternatives in research/hooks.md.
 Caption: `#ad` fifty masks in one box for the dusty jobs, fall cleanup is here

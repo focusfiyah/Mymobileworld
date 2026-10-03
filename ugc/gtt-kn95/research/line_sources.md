@@ -7,4 +7,4 @@
 | They're shaped like a fish to fit your face, and the loops stretch. | solution | listing title (fish-shape, stretchable ergonomic); PLAYBOOK §3 features one by one with what they do |
 | Each one is wrapped, so keep a few in the car and a few in the garage. | solution + second occasion | listing 'individually wrapped'; PLAYBOOK §4 CTA sells more units (second occasion) |
 | The only problem? Now I can't say I forgot my mask. | sell-side confession | PLAYBOOK §1 (honest lines sell, model: 'now I have no excuse') |
-| It's leaf season, so don't put this off. Fifty in a box, plenty to share. It's in the orange cart. | urgency CTA | PLAYBOOK §4 real seasonal urgency + count/gift; Ralph's close; no 'order it now', no price |
+| It's leaf season, so don't put this off. Grab a couple boxes, so there's always one close. It's in the orange cart. | urgency CTA | PLAYBOOK §4 real seasonal urgency + CTA that sells more units (a couple boxes); Ralph 2026-10-03 dropped 'plenty to share' because it tells buyers one box is enough; Ralph's close; no 'order it now', no price |
