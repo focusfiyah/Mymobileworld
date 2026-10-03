@@ -27,7 +27,7 @@ def label(shot):
 
 def section(n):
     sec = md.split(f"## Video {n}:")[1].split("\n## ")[0]
-    hooks = re.findall(r"^\d\. (.+)$", sec.split("On-screen hook")[1], re.M)[:3]
+    hooks = re.findall(r"^\d\. (.+)$", sec.split("On-screen hook")[1].split("**Caption")[0], re.M)
     cap = re.search(r"\*\*Caption:\*\* (.+)", sec).group(1)
     edl, _, t3 = cut.EDL(n); words = cut.words(n); dur = cut.dur_of(f"out/fusou_v{n}.mp4")
     st = [s for s, _ in edl] + [dur]; rows = []

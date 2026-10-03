@@ -34,16 +34,19 @@ def three_boxes(n):   # the "three" right before "boxes"
 
 def EDL(n):
     w = lambda word, k=1: at(n, word, k)
-    if n == 1: return [(0, ("clip", M1, 0, {"done": 1})), (2.6, ("kb",) + WIDE + ({"pull": 1},)),
-                       (w("this"), ("clip", "clips/V1S3.mp4", 0.4, {})), (w("heads"), ("clip", "clips/V1S5.mp4", 0, {})),
-                       (w("ships") - 0.23, ("kb",) + WIDE + ({},))], [1.2], three_boxes(n)
+    if n == 1: return [(0, ("clip", M1, 0, {"done": 1})),                                        # hook: tap, light fades on
+                       (2.6, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})),          # pain: bathroom counter, makeup
+                       (w("this"), ("clip", "clips/V1S3.mp4", 0.4, {})),                              # solution: "three light colors" = light changing
+                       (w("and"), ("clip", "clips/M3a.mp4", 0, {})),                                  # "it dims, so you can match": lipstick at the lit mirror
+                       (w("it's"), ("clip", "clips/V1S5.mp4", 0, {})),                                # caveat: almost six feet wide
+                       (w("ships") - 0.23, ("kb",) + WIDE + ({},))], [1.2], three_boxes(n)            # urgency CTA + 3-boxes card
     if n == 2: return [(0, ("kb",) + WIDE + ({},)), (w("if"), ("clip", "clips/M3a.mp4", 0, {})), (w("twelve"), ("clip", "clips/M6a.mp4", 0, {})),
                        (w("top") - 0.13, ("clip", "clips/M3b.mp4", 0, {})), (w("plan"), ("clip", "clips/M4a.mp4", 0.5, {})),
                        (w("holiday"), ("kb",) + WIDE + ({},))], [], three_boxes(n)
     if n == 3: return [(0, ("clip", "clips/V1S5.mp4", 0, {})), (w("no"), ("kb",) + WIDE + ({"pull": 1},)), (w("one", 2), ("clip", M1, 0.7, {"done": 1})),
                        (w("two"), ("kb",) + DOOR + ({},)), (w("three"), ("kb",) + CAB + ({},)), (w("four"), ("clip", "clips/M2a.mp4", 0.6, {"crop": M2CROP})),
                        (w("five"), ("clip", "clips/M4a.mp4", 0.8, {})), (w("it"), ("kb",) + WIDE + ({"pull": 1},)),
-                       (w("five", 2), ("clip", "clips/V1S3.mp4", 0, {})), (w("ships") - 0.13, ("kb",) + WIDE + ({},))], [w("one", 2) + 0.5], three_boxes(n)
+                       (w("that's"), ("clip", "clips/V1S3.mp4", 0, {})), (w("ships") - 0.13, ("kb",) + WIDE + ({},))], [w("one", 2) + 0.5], three_boxes(n)
     if n == 4: return [(0, ("clip", "clips/M5a.mp4", 0, {})), (0.45, ("kb",) + CAB + ({},)), (w("bags"), ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})),
                        (w("behind"), ("kb",) + CAB2 + ({},)), (w("close"), ("kb",) + DOOR + ({},)), (w("just"), ("clip", "clips/V1S5.mp4", 0, {})),
                        (w("it", 3), ("kb",) + WIDE + ({},))], [], three_boxes(n)
