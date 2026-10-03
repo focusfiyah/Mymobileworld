@@ -261,5 +261,30 @@
   "t": "2026-10-03 19:32:16",
   "submitted": "02bb61a5d919b6d432986f968e234bf4",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Chest-up shot at the garage workbench with the open gar"
+ },
+ {
+  "t": "2026-10-03 19:36:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Chest-up shot at the garage workbench with the open garage door and autumn light behind her: Grace faces the camera with a black fish-shape mask on her face, both hands up beside her cheeks holding the elastic ear loops at her ears as if she has just pulled them over, eyes looking into the lens, relaxed brows. The person is Grace, exactly the woman in the first reference image (a character sheet with a front view and two three-quarter views): medium-dark brown skin, defined arched brows, almond dark-brown eyes, long knotless boho braids with loose curly ends worn half-up with the long curls falling over one shoulder, a thin gold chain with a small round pendant at her neck. She wears the same fitted brown long-sleeve top as in the reference images, no tee. Her brows are relaxed and her forehead smooth, no wrinkles. A black fish-shape mask is already on her face covering her nose and mouth completely, so her mouth is never visible; she is not speaking. Her hands have medium-dark brown skin, slim fingers and short squared nails with a pale lilac-white base. No other people. The mask is exactly the black mask in the product reference image: a matte black fish-shape (3D folded) disposable mask with dotted stitched edges, a small black 'KN95' printed on its side, and thin black elastic ear loops. It stays black with the same shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055933427-f3ytic9g0ef.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055270280-hyjzlc5nups.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "02bb61a5d919b6d432986f968e234bf4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/02bb61a5d919b6d432986f968e234bf4_0_1791056186.jpeg"
+   ]
+  },
+  "costTime": 251
  }
 ]
