@@ -23,6 +23,7 @@ products follow the same rules.
 - ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
+- **No "order it now" / "order now" (Ralph 2026-10-03).** Close with Grace's usual "It's in the orange cart." after the real reason (holidays, "don't put it off").
 
 ## 2. Sales psychology
 | Principle | How we use it |
@@ -68,6 +69,8 @@ products follow the same rules.
   she'd filmed hands-only on the beard while the script talked about head curls).
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
 
+- **ENFORCED by `grace/gate.py` (Ralph 2026-10-03):** every paid runner refuses until the job's `checklist.json` proves each item below with a
+  file newer than the script. Do it unasked, every job, every script change.
 - **Every script uses ALL of these (Ralph 2026-10-01, Vicks VapoShower: "everything" means all of it):** (1) real data
   from the `tiktok-shop-coach` skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their
   hook, format, length, CTA), (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here,
@@ -154,6 +157,19 @@ products follow the same rules.
   the vanity edge; Ralph caught it): free fix = crop the frame to end at the object's base.
 - 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
   husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
+- 2026-10-02 FUSOU 2-in-1 Vanity Desk: 6 hands-only styles (light reveal, ASMR drawers, count-with-me, hidden door,
+  GRWM outlet, clutter reset), ~20s each, $0. Furniture lesson: the honest caveat is size or build time; real urgency =
+  "ships in 3 boxes" + holidays. Drive Docs: create_file garbles 4-byte emoji; overwrite the doc with Composio
+  GOOGLEDRIVE_UPLOAD_UPDATE_FILE (workbench `upload_local_file` → s3key) to fix it in place.
+- 2026-10-02 FUSOU 71" Vanity Desk (furniture, AI hands-only): **an AI that re-draws a complex product drifts** (drawer/cubby counts, mirror shape). What held it exact: use the
+  brand's REAL listing photo as the base and EDIT it (extend to 9:16, light the LEDs, add the hand), never regenerate it from a description. The model leaves padding blurry
+  sometimes: rebuild the bands free (wall from a clean copy, floor stretched + soft foreground blur; measure per-row Laplacian to find the band). A hand reaching in from the
+  camera looks HUGE next to a far-away product: keep hands out of wide shots and use them only in mid-close shots at the product's distance. Check the voice plan with Ralph
+  (Grace B vs Grace's own) before writing "Grace records it". Top FUSOU videos (1.2M-7.2M): handheld walk-through, 4.4 words/s, 2.7 cuts/10s, product shown filled with items,
+  feature order whole vanity > lit mirror > cabinet behind the mirror > glass top + knobs > power station/dryer holder > stool drawers > light colours > link.
+  **Paste-back (2026-10-03, zero product drift, free):** after the AI edit, align it to the real photo (ORB + affine), diff, keep only the changed blobs (hand, LED glow), fill mask holes (skin matching a dark gap left a grey hole), feather, paste the real photo back everywhere else (`ugc/fusou-vanity/pasteback.py`). Works on clips too if Seedance is told "locked-off camera on a tripod" (scale drift stayed <1%); per frame use max(current mask, 0.6 x previous) so a fast hand never turns see-through. Hands like @sdbby88: only the hand enters from the frame edge, no forearm (Ralph 2026-10-03); a free crop fixed M1a. **Video paste-back shimmer (2026-10-03):** a per-frame diff mask + per-frame alignment made every edge shimmer (3x the raw clip). Fix: smooth the alignment over 9 frames, colour-match once, AI pixels only for the hand (skin test with Y<170 so lit white is not skin, limited to a zone below the product edge) + a fixed LED-ring mask. Measure flicker (mean frame diff in a hand-free band) on the FINAL file before sending: a handheld sway added in post on a soft upscaled photo made fine lines crawl (Ralph saw it); keep it off (phone on a stand). Lights switching on: Seedance snaps the LEDs on in one frame and auto-darkens after: lock exposure per frame, hold ONE lit-ring plate and fade it in over 0.25 s, keep the room spill subtle and near-neutral (a warm spill read as a colour shift). Items in front of a light/near the hand must stay real: never take AI pixels for them; add LED light to the real photo (real + max(0, AI luminance - real) where the AI shows near-white light) and exclude pixels that are skin-coloured in the real photo from the hand mask. When the hand MOVES an object (plug, drawer, door, lipstick), give that object a fixed AI box; Seedance still drifts there (it swapped a whole lipstick tray in frame 1, and opened a door with no hand on it): check frame 1 vs the still. Free push-ins on soft real photos: one smooth zoom (1.05x, INTER_AREA) crawls less than Seedance's own push-in. Anchor timed overlays to the exact phrase (the first "three" was "three light colors"); keep pop-up cards left of TikTok's right-hand buttons. Excluding "skin-coloured in the real photo" from the hand mask also punches holes where the hand passes over gold/beige items or wood (items showed ON the hand, the wrist vanished): fill the hand's convex outline (extended to the frame edge) with AI skin pixels; apply it to EVERY hand clip and run `qc_hands.py` (each frame vs raw) before sending, not a few sample frames. Check the still for physics: a hand reaching past a hanging object (dryer) must pass in FRONT of it; if the still put it behind, crop it out.
+
+- 2026-10-03 FUSOU 71" Vanity: 6 AI hands-only videos (17-24 s) APPROVED after 4 note rounds, in Drive with the final scripts doc. Kie $4.28 vs $4.54 quote. Method that held the product exact: edit the real listing photo + paste-back (`ugc/fusou-vanity/pasteback.py`), per-frame hand QC (`qc_hands.py`), free push-ins on real photos, cuts on word timings (`cut.py`). Ralph's notes were all hand-mask bugs (items on the hand, missing wrist) and the CTA (no "order it now"). Lights features: darken the room in post so the product's lights carry the shot (`ugc/fusou-vanity/darkroom.py`: LED mask = lit frame minus the real unlit photo; switch the LEDs through the listing's exact colour modes on the words, dip on "dims", a tap click per change; Ralph asked for it and liked it, 2026-10-03: use it for every product with lights). Drive Docs: write emoji as HTML character codes; the Drive reader tool shows 4-byte emoji as mojibake even when the doc is right (check with a text export).
 
 - 2026-10-03 Anemiaprin (Approved Science iron): 3 talking-head scripts ($0), reworked from coach data (top iron videos = numbered
   "how to take iron" tips, coffee blocks iron, label read; 5-6% saves), then rewritten in Grace's voice (new §1 rule).

@@ -13,6 +13,17 @@ already working on TikTok. `examples/wag-bag.md` is the approved finished doc: m
 differs from this file, the playbook wins. Every script follows her structure (Ralph, 2026-10-02): curiosity-loop hook →
 pain-point body → selling point and/or solution body → FOMO and/or urgency CTA (real urgency only).
 
+
+## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
+"Everything means everything." Before ANY plan goes to Ralph and before ANY paid call, run the whole checklist in
+`grace/PLAYBOOK.md` §4 yourself and save proof files in the job folder, listed in `checklist.json`
+(`python3 grace/gate.py <job> --init`): playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
+the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on named winners (spoken + on-screen),
+`humanizer` on the final script and captions, `readability` (grade <= 6), the source of every line, and after the cut
+`tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
+passes; never bypass or weaken it. Show the gate result in the plan message. Banned in scripts: "order it now",
+"heads up", dashes; close with Grace's usual "It's in the orange cart."
+
 ## Ralph's format (settled 2026-09-30, don't re-ask)
 
 - **5 angles, about 30 seconds each** = 80 to 100 spoken words. HOOK / BODY / CTA labeled, because Grace films them as
