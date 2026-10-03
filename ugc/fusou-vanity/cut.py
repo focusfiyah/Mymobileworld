@@ -45,7 +45,7 @@ def EDL(n):
     if n == 2: return [(0, ("kb",) + WIDE + ({},)), (w("if"), ("clip", "clips/M3a.mp4", 0, {})), (w("twelve"), ("clip", "clips/M6a.mp4", 0, {})),
                        (w("top") - 0.13, ("clip", "clips/M3b.mp4", 0, {})), (w("plan"), ("clip", "clips/M4a.mp4", 0.5, {})),
                        (w("holiday"), ("kb",) + WIDE + ({},))], [], three_boxes(n)
-    if n == 3: return [(0, ("clip", "clips/V1S5.mp4", 0, {})), (w("no"), ("kb",) + WIDE + ({"pull": 1},)), (w("one", 2), ("clip", M1, 0.7, {"done": 1})),
+    if n == 3: return [(0, ("clip", "clips/V1S5.mp4", 0, {})), (w("no"), ("kb",) + WIDE + ({"pull": 1},)), (w("one", 2), ("clip", M1, 0.7, {"done": 1, "dark": {"mask": "refs/m1a_led_mask.png", "ramp": [0, 0.01], "on": [0.52, 0.77], "dark": 0.34}})),
                        (w("two"), ("kb",) + DOOR + ({},)), (w("three"), ("kb",) + CAB + ({},)), (w("four"), ("clip", "clips/M2a.mp4", 0.6, {"crop": M2CROP})),
                        (w("five"), ("clip", "clips/M4a.mp4", 0.8, {})), (w("it"), ("kb",) + WIDE + ({"pull": 1},)),
                        (w("that's"), ("clip", "clips/V1S3.mp4", 0, {})), (w("ships") - 0.13, ("kb",) + WIDE + ({},))], [w("one", 2) + 0.5], three_boxes(n)
@@ -53,7 +53,7 @@ def EDL(n):
                        (w("behind"), ("kb",) + CAB2 + ({},)), (w("close"), ("kb",) + DOOR + ({},)), (w("just"), ("clip", "clips/V1S5.mp4", 0, {})),
                        (w("it", 3), ("kb",) + WIDE + ({},))], [], three_boxes(n)
     if n == 5: return [(0, ("clip", "clips/M2a.mp4", 0, {"crop": M2CROP})), (w("no"), ("clip", "clips/M2b.mp4", 0.5, {"crop": M2CROP})), (w("two"), ("clip", "clips/M2c.mp4", 0, {"crop": M2CROP})),
-                       (w("your", 2), ("clip", M1, 0.5, {"done": 1})), (w("only"), ("kb",) + PSTRIP + ({"to": "300,330"},)),
+                       (w("your", 2), ("clip", M1, 0.5, {"done": 1, "dark": {"mask": "refs/m1a_led_mask.png", "ramp": [0, 0.01], "on": [0.72, 0.97], "dark": 0.34}})), (w("only"), ("kb",) + PSTRIP + ({"to": "300,330"},)),
                        (w("holiday"), ("kb",) + WIDE + ({},))], [w("your", 2) + 0.7], three_boxes(n)
     if n == 6: return [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})), (w("makeup"), ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335)})),
                        (w("lipsticks"), ("clip", "clips/M3a.mp4", 1.0, {"reverse": 1})), (w("perfume", 2), ("kb",) + CAB2 + ({},)),
