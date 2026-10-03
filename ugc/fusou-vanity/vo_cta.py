@@ -15,7 +15,7 @@ def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call unti
 SR = 44100
 NEW = {1: "It ships in three boxes, so if you want it up before the holidays, don't put it off. It's in the orange cart.",
        2: "Holiday shipping gets slow, and it comes in three boxes. It's in the orange cart.",
-       3: "Five things, one order. It ships in three boxes, so don't put it off before the holidays. It's in the orange cart.",
+       3: "That's five things in one order. It ships in three boxes, so don't put it off before the holidays. It's in the orange cart.",
        4: "It comes in three boxes, so if you want it done before the holidays, don't put it off. It's in the orange cart.",
        5: "Holiday get-ready season is close, and it ships in three boxes. It's in the orange cart.",
        6: "If someone in your house keeps asking for a vanity, this one ships in three boxes. It's in the orange cart."}
