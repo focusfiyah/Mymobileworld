@@ -440,5 +440,102 @@
   "t": "2026-10-03 19:58:36",
   "submitted": "cc1a93700b2b541b584600eb78dfd622",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The open garage doorway with soft daylight behind: the "
+ },
+ {
+  "t": "2026-10-03 20:01:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The open garage doorway with soft daylight behind: the hand, entering from the TOP edge of the frame with only the hand and wrist visible, pinches the top corner of a worn grey doormat between thumb and fingers, so the whole mat hangs straight down from the hand under gravity, floppy, about the size of a doormat, with a little loose dust and lint on it. The palm does not touch or press the mat. No box, no mask, no other products. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "cc1a93700b2b541b584600eb78dfd622",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/cc1a93700b2b541b584600eb78dfd622_0_1791057655.jpeg"
+   ]
+  },
+  "costTime": 138
+ },
+ {
+  "t": "2026-10-03 20:01:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up at the garage workbench: the hand holds one black fish-shape mask up in side profile so its rounded fish shape shows; the other hand's finger and thumb hold one ear loop. Garage blurred behind. No box in the shot. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056504233-1bzh1v4tqq9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2d09d388b297398e57061f4c796997bf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2d09d388b297398e57061f4c796997bf_0_1791057664.jpeg"
+   ]
+  },
+  "costTime": 147
+ },
+ {
+  "t": "2026-10-03 20:01:43",
+  "submitted": "5842e82ac207f394336a4eef68cef532",
+  "prompt": "Shot 4: the finger and thumb pull the ear loop out so the elastic stretches, then let it snap back; the mask stays in th"
+ },
+ {
+  "t": "2026-10-03 20:01:43",
+  "submitted": "c1ff5d3c23766aae71248ba8ecf8747e",
+  "prompt": "Shot 5a: the hand lifts the wrapped mask up out of the box and holds it toward the lens. Locked-off camera on a tripod. "
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "83c328102304a2c581069cd45edc7ae7",
+  "prompt": "Shot 6: the hand sets the mask down beside the gloves and keys, then taps it once with a fingertip. Locked-off camera on"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "e1317f2e369cf699a7dda0c20409c32d",
+  "prompt": "Shot 7: the hand slides the box toward the lens a little, then lifts away and comes back with an open palm pointing down"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "96c815b0a1aaca7c94a906f071f4aea1",
+  "prompt": "Shot 1: the hand holds the box steady front-on for a second, then tilts the box toward the lens and lifts the top flap o"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "03fe8a32e255e8ffbc9f5b68606cb7c7",
+  "prompt": "Shot 2b: the hand shakes the mat with two quick up-and-down flicks of the wrist, the hanging mat flaps and swings freely"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "086e1b716c57cd22b4f1f1bdc03263cd",
+  "prompt": "Shot 5c: the hand sets the two wrapped masks down on the shelf and lifts away. Locked-off camera on a tripod. The hand i"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "53396c580b2f562b0f4a6ba664502f2e",
+  "prompt": "Shot 3: the hand holds the mask steady by the loops, then the thumb brushes lightly across the soft fabric of the mask a"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "a7711d60335007667315919175d1fcec",
+  "prompt": "Shot 2a: the hand pushes the broom forward across the concrete in one slow stroke, a cloud of dust lifts and drifts in t"
+ },
+ {
+  "t": "2026-10-03 20:01:44",
+  "submitted": "32e3448e45c387e95d58504ae5a8dd2b",
+  "prompt": "Shot 5b: the hand slides the two wrapped masks down into the door pocket and lets go. Locked-off camera on a tripod. The"
  }
 ]
