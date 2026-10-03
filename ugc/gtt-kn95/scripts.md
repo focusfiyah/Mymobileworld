@@ -5,7 +5,7 @@ Voice: ElevenLabs Grace B. Hands only, no face, no burned-in captions beyond the
 |---|---|---|
 | S1 hook | Most masks come in a small pack. This box has fifty. | hand holds the grey GTT KN95 box front-on at a garage workbench |
 | S2 pain | Sand a board or rake leaves, and the dust is in the air you breathe. | hand sands a board, dust lifts in the light |
-| S3 claim | Black KN95, and the box says ninety-five percent filtration efficiency. | hand holds a black mask by the loops; free real-packshot pop-up over "ninety-five percent" |
+| S3 claim | They're KN95s, so that's ninety-five percent filtration efficiency. | hand holds a black mask by the loops; free real-packshot pop-up over "ninety-five percent" |
 | S4 features | The fish shape fits your face, and the ear loops stretch. | thumb stretches an ear loop |
 | S5 | Each one is wrapped on its own, so you grab one and go. | hand pulls one wrapped mask from the box |
 | S6 confession | The only downside? Now you have no excuse to skip it. | hand sets the mask on the bench by the sanding block |
