@@ -174,6 +174,7 @@ products follow the same rules.
 - 2026-10-03 Anemiaprin (Approved Science iron): 3 talking-head scripts ($0), reworked from coach data (top iron videos = numbered
   "how to take iron" tips, coffee blocks iron, label read; 5-6% saves), then rewritten in Grace's voice (new §1 rule).
   Google Doc in Drive "Anemiaprin scripts (2026-10-03)".
+- 2026-10-02 Super Blanky wearable blanket: 3 talking-head scripts (dorm, Breast Cancer Awareness Month comfort gift, stays-on demo), $0. Doc https://claude.ai/code/artifact/400ca34e-3585-4133-a50a-bafbba29edf1 + PDF. Cancer angle = comfort-gift framing only, never "chemo must-have" (the brand's own wording). Cloud env 'My World'-less sessions may block tiktok.com (proxy 403): coach video/tag/shop can't run; WebFetch of shop.tiktok.com search/pdp pages still works.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
