@@ -70,26 +70,27 @@ def lights_shot(v, t0, t_warm, t_dip0, t_yellow):   # V1S3 in the dark room: col
 def EDL(v):
     w = lambda x, k=1: at(v, x, k); end = cut.dur_of(f"{V}/vo/v{v}_final.wav") + cut.TAIL; taps = []
     if v == "A":
-        s2, s3, s4 = at(v, "because"), w("this"), w("and", 2) if False else w("and", 3)
-        s4 = [x["start"] for x in words(v) if clean(x) == "and"][-3]
+        L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s2, s3, s4 = L[1], L[2], L[3]
+        w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
         t_in = s4 - 4.6                                            # V1S3 plays its full ~4.6 s up to the storage line
         m1, tap = m1_shot(v, s3, w("three")); taps = [tap, w("adjustable") - 0.05, w("so") - 0.05]
         edl = [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": None})),
                (3.4, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - 3.4 - 0.1})),
                (s3, m1), (t_in, lights_shot(v, t_in, w("adjustable"), w("brightness") - 0.1, w("so"))),
-               (min(s4, s3 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})), (w("with") - 0.05, ("clip", "clips/M6a.mp4", 0, {})),
-               (w("makeup") + 0.2, ("clip", "clips/M5a.mp4", 1.4, {})), (w("and", 3) - 0.1, ("clip", "clips/M4a.mp4", 0.7, {})),
+               (min(s4, s3 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})), (w4("with") - 0.05, ("clip", "clips/M6a.mp4", 0, {})),
+               (w4("makeup") + 0.2, ("clip", "clips/M5a.mp4", 1.4, {})), (w4("and", 2) - 0.1, ("clip", "clips/M4a.mp4", 0.7, {})),
                (w("ships") - 0.23, ("kb",) + WIDE + ({},))]
     else:
         L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s2, s3, s4 = L[1], L[2], L[3]
         m1, tap = m1_shot(v, s2, w("mirror") - 0.1, ss_max=1.0); t_l = w("it")
         taps = [tap, w("adjustable") - 0.05, w("so") - 0.05]
+        w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
         edl = [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": None})),
                (w("then") - 0.1, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - (w("then") - 0.1) - 0.1})),
                (s2, m1), (s3, lights_shot(v, s3, w("adjustable"), w("brightness") - 0.1, w("so"))),
                (min(s4, s3 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})),
-               (w("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
-               (w("jewelry") - 0.15, ("clip", "clips/M4a.mp4", 0.7, {})), (w("flash") - 0.1, ("kb",) + WIDE + ({"zoom": 1.08},))]
+               (w4("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w4("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
+               (w4("jewelry") - 0.15, ("clip", "clips/M4a.mp4", 0.7, {})), (w4("flash") - 0.1, ("kb",) + WIDE + ({"zoom": 1.08},))]
     return edl, taps, end
 
 
