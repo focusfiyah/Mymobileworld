@@ -3,7 +3,7 @@ Voice: ElevenLabs Grace B. Hands only, no face. Grace's structure: curiosity-loo
 
 | Shot | Part | VO | Hands do |
 |---|---|---|---|
-| S1 | hook | A whole box of fifty black masks. Let me show you why. | hand holds the grey GTT KN95 box front-on at a garage workbench |
+| S1 | hook | A whole box of fifty masks. Let me show you why. | hand holds the grey GTT KN95 box front-on at a garage workbench |
 | S2 | pain | Sweep out the garage or shake out a rug, and look at all that dust. You're breathing that too. | hand shakes out a dusty doormat in the open garage doorway, dust lifts in the light (no box or mask in shot) |
 | S3 | solution | These are KN95s, so they filter out ninety-five percent or more, and they're made to be soft on your skin. | hand holds a black mask by the loops; free real-packshot pop-up (the 95% on the real box) over "ninety-five percent" |
 | S4 | solution | They're shaped like a fish to fit your face, and the loops stretch. | thumb stretches an ear loop |
@@ -12,4 +12,4 @@ Voice: ElevenLabs Grace B. Hands only, no face. Grace's structure: curiosity-loo
 | S7 | urgency CTA | It's leaf season, so don't put this off. Fifty in a box, plenty to share. It's in the orange cart. | box on the bench, open palm points down |
 
 On-screen hook (Classic style, frame 0): "why fifty?" Alternatives in research/hooks.md.
-Caption: `#ad` fifty black masks in one box for the dusty jobs, fall cleanup is here
+Caption: `#ad` fifty masks in one box for the dusty jobs, fall cleanup is here
