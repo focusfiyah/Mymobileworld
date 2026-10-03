@@ -11,6 +11,13 @@ constraints as hard negatives (see SKILL.md "Prompt rules that each cost a retry
 import json, os, sys, time, subprocess, requests, concurrent.futures as cf
 from pathlib import Path
 
+
+def _gate():  # SCRIPT GATE (gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven; job dir = $UGC_JOB or cwd
+    import os as _o, sys as _s, pathlib as _p; _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+    from gate import require; require(_o.environ.get("UGC_JOB") or _o.getcwd())
+
+
+
 W = Path("C:/dev/OpenMontage/projects/seller_ai_tech_ugc"); S = W / "stills"; O = W / "shots"; O.mkdir(exist_ok=True)
 KEY = json.loads(Path(os.path.expanduser("~/.claude.json")).read_text(encoding="utf-8"))["mcpServers"]["kie-ai"]["env"]["KIE_AI_API_KEY"]
 H = {"Authorization": f"Bearer {KEY}"}; API = "https://api.kie.ai/api/v1/jobs"
@@ -68,6 +75,7 @@ def run(name: str, urls: dict):
     body = {"model": "grok-imagine-video-1-5-preview",
             "input": {"prompt": prompt, "image_urls": [urls[sh["still"]]], "duration": sh["duration"],
                       "resolution": "720p", "aspect_ratio": "9:16"}}
+    _gate()
     r = requests.post(f"{API}/createTask", headers=H, json=body, timeout=60).json()
     tid = (r.get("data") or {}).get("taskId")
     if not tid:

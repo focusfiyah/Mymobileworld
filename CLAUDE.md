@@ -25,6 +25,14 @@ not in a new file.
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
+## Rule 0: the SCRIPT GATE (Ralph, 2026-10-03, after FUSOU shipped without Humanizer: "everything means everything, I shouldn't have to ask")
+- Every job, on your own, before the plan goes to Ralph: run the WHOLE `grace/PLAYBOOK.md` §4 checklist (playbook rules, coach research
+  tag/shop/discover + `video` on the top 3 shop videos, daily `viral` board, product facts, hooks modeled on named winners, `humanizer`, `readability`,
+  source of every line) and save each as a proof file listed in the job's `checklist.json` (`python3 grace/gate.py <job> --init`).
+- `grace/gate.py` is called by EVERY paid runner (Kie, ElevenLabs) and refuses the call until all proofs exist and are newer than the script, and the
+  script has no banned phrase ("order it now", "heads up", dashes...). Before a cut goes to Ralph: coach `compare` vs the top winner (`--stage cut`).
+- Never bypass, edit out or weaken the gate to save time. Show Ralph the gate result in the plan message.
+
 ## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
 1. **Lock the whole plan before the first paid call, in ONE message:** script, every shot, outfit, setting, which shots
    show the face, voiceover vs lip sync on those shots, and the total cost. One approval. Ask everything then, not
@@ -46,7 +54,8 @@ not in a new file.
   or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
   hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
-  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py). Skill zip re-made 2026-10-01 with the Carpe v2 lessons.
+  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py); the exact-product route's (real photo + paste-back, complex products) is `ugc/fusou-vanity/`. Skill zip re-made 2026-10-03 (script gate + exact-product route + its scripts).
+- **Remembered everywhere (Ralph 2026-10-03):** `handoff/CLAUDE_PREFERENCES.txt` (claude.ai profile preferences, every chat/project/Cowork) and `handoff/GLOBAL_MEMORY.md` (global memory; same file in Dayone-ai). Update both when a standing rule changes.
 - **Videos to Google Drive:** the Google Drive connector can't upload big files (content goes through the chat). Host the
   file with Kie's free upload (`upload()` in a job's kie.py → `tempfile.redpandaai.co` URL), then Composio
   `GOOGLEDRIVE_UPLOAD_FROM_URL` (account `googledrive_lin-ernst` = life22watch@gmail.com) with `parent_folder_id`.
@@ -69,6 +78,9 @@ not in a new file.
   README Status line.
 - **Viking curl cream (Grace), 2026-10-01:** script v5 (~25s, $0) for Grace's own hands-only beard footage;
   Grace records the lines next. `ugc/viking-curl-cream/README.md`.
+
+- **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
+  so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. README Status line.
 
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.

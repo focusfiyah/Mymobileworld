@@ -13,6 +13,13 @@ from pathlib import Path
 
 import requests
 
+
+def _gate():  # SCRIPT GATE (gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven; job dir = $UGC_JOB or cwd
+    import os as _o, sys as _s, pathlib as _p; _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+    from gate import require; require(_o.environ.get("UGC_JOB") or _o.getcwd())
+
+
+
 P = Path("C:/dev/OpenMontage/projects/restlex-couple-skit")
 R = P / "renders"
 API = "https://api.kie.ai/api/v1/jobs"
@@ -141,6 +148,7 @@ def submit(clip: str, headers: dict, record: dict) -> str:
             "duration": duration,
         },
     }
+    _gate()
     r = requests.post(f"{API}/createTask", headers=headers, json=body, timeout=60)
     try:
         resp = r.json()
