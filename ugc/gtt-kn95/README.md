@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-03). Hands-only + ElevenLabs Grace B voiceover (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4). Route: `ugc-product-ad` hands-only (template `../vicks-vaposhower/`). Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-03 Ralph: face shot REMOVED (AI drew the wrong mask + changed her hair; Grace reference sheet to be worked on separately, `grace/ref/`). S4 goes back to a hands-only shot (finger stretches the ear loop). DONE: VO, stills S1,S2a,S2b,S3,S5a,S5b,S5c,S6,S7 (S3/S5a/S6 redone), test clip S2b OK. Kie spent $1.47 (stills $1.26 + clip $0.205). NEXT (waiting on Ralph): S4 hands-only still $0.09 + clips for all 9 remaining shots ~$1.68; total ~$3.24.**
+Status: **2026-10-03 CUT v2 ready for Ralph's review: `out/gtt_kn95.mp4` (30.5s, 720x1280, -16 LUFS, hook text + 95% pop-up, gate cut stage OK, compare vs @toashouse done). Hands only (face shot dropped). S4 hands-only, S2b rug redone (hangs from a pinched corner). All Kie spend in `kie_log.json`. Notes for review: S1 is a held front-on frame with push-in (the box tilts and its print warps after 0.8s); S5b is the weakest shot. NEXT: Ralph's notes, then Drive (Grace Tiktok assets) + PLAYBOOK §7 line.**
 
 Quote (full match): 10 stills x $0.09 = $0.90; clips 45s x $0.041 = $1.85; VO ~534 chars ElevenLabs; cut/pop-up/SFX free; total Kie **$2.75**. Lean: drop S2a + S5c, $2.24. All hands, no lip sync. +~$0.25 per redone shot, each asked first.
 Compliance: dust/outdoor angle only (the listing's own pitch); no illness, no N95/NIOSH/FDA, no layer count (listing says 4-layer in title, 5-layer in image: ask Grace), no price.

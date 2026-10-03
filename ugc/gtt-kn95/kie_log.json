@@ -537,5 +537,215 @@
   "t": "2026-10-03 20:01:44",
   "submitted": "32e3448e45c387e95d58504ae5a8dd2b",
   "prompt": "Shot 5b: the hand slides the two wrapped masks down into the door pocket and lets go. Locked-off camera on a tripod. The"
+ },
+ {
+  "t": "2026-10-03 20:03:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 2a: the hand pushes the broom forward across the concrete in one slow stroke, a cloud of dust lifts and drifts in the light. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057684836-uenjwc58u6q.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a7711d60335007667315919175d1fcec",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057777018-3mu9sxcvwqd.mp4"
+   ]
+  },
+  "costTime": 76
+ },
+ {
+  "t": "2026-10-03 20:03:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 5a: the hand lifts the wrapped mask up out of the box and holds it toward the lens. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the box reference image and its colour is SILVER-GREY (a light grey carton: not blue, not white, not black, not beige): red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057693419-m9yzdyayz4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c1ff5d3c23766aae71248ba8ecf8747e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057789013-et6mtlvs21t.mp4"
+   ]
+  },
+  "costTime": 87
+ },
+ {
+  "t": "2026-10-03 20:03:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the box steady front-on for a second, then tilts the box toward the lens and lifts the top flap open so a stack of individually wrapped masks shows inside. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the box reference image and its colour is SILVER-GREY (a light grey carton: not blue, not white, not black, not beige): red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "96c815b0a1aaca7c94a906f071f4aea1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057800853-8k4e74ob9au.mp4"
+   ]
+  },
+  "costTime": 101
+ },
+ {
+  "t": "2026-10-03 20:03:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 3: the hand holds the mask steady by the loops, then the thumb brushes lightly across the soft fabric of the mask and settles. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057689193-cep3w6io3w5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "53396c580b2f562b0f4a6ba664502f2e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057816360-gj44n6d6j9h.mp4"
+   ]
+  },
+  "costTime": 115
+ },
+ {
+  "t": "2026-10-03 20:03:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 2b: the hand shakes the mat with two quick up-and-down flicks of the wrist, the hanging mat flaps and swings freely under gravity, and a big cloud of fine dust shakes out of it and falls and drifts in the daylight; the hand then holds it still while the dust hangs. The mat is never stuck to the hand. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057687098-9jp6tuaksbv.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "03fe8a32e255e8ffbc9f5b68606cb7c7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057822607-w2nfowxnlm.mp4"
+   ]
+  },
+  "costTime": 122
+ },
+ {
+  "t": "2026-10-03 20:03:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 4: the finger and thumb pull the ear loop out so the elastic stretches, then let it snap back; the mask stays in the other hand, steady. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057691365-9p42fxyrgsw.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5842e82ac207f394336a4eef68cef532",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057823703-ityvd78mmj.mp4"
+   ]
+  },
+  "costTime": 124
+ },
+ {
+  "t": "2026-10-03 20:03:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 6: the hand sets the mask down beside the gloves and keys, then taps it once with a fingertip. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057699983-rrqltymbwg.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "83c328102304a2c581069cd45edc7ae7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057829291-lps0l7yxlrb.mp4"
+   ]
+  },
+  "costTime": 127
+ },
+ {
+  "t": "2026-10-03 20:04:02",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 5c: the hand sets the two wrapped masks down on the shelf and lifts away. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057697847-p44zx8flsko.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "086e1b716c57cd22b4f1f1bdc03263cd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057835970-g7kkh8eqz2.mp4"
+   ]
+  },
+  "costTime": 134
+ },
+ {
+  "t": "2026-10-03 20:04:08",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 7: the hand slides the box toward the lens a little, then lifts away and comes back with an open palm pointing down toward the bottom of the frame. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the box reference image and its colour is SILVER-GREY (a light grey carton: not blue, not white, not black, not beige): red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057701957-h8w1q8vn3b8.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 7
+   }
+  },
+  "taskId": "e1317f2e369cf699a7dda0c20409c32d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057840456-8chsx4bdkut.mp4"
+   ]
+  },
+  "costTime": 139
+ },
+ {
+  "t": "2026-10-03 20:04:09",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 5b: the hand slides the two wrapped masks down into the door pocket and lets go. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791057695785-yjozv4qgp9s.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "32e3448e45c387e95d58504ae5a8dd2b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791057840845-vqfyffi92l8.mp4"
+   ]
+  },
+  "costTime": 141
  }
 ]
