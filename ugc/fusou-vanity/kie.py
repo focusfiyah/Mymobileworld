@@ -8,6 +8,13 @@ import hashlib, json, os, sys, threading, time
 from pathlib import Path
 import requests
 
+
+def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
+    import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
+    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+
+
+
 os.chdir(Path(__file__).parent)
 API = "https://api.kie.ai/api/v1/jobs"
 UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
@@ -39,6 +46,7 @@ def upload(path):
 
 def run_task(body):
     for attempt in range(4):
+        _gate()
         r = requests.post(f"{API}/createTask", json=body, timeout=60)
         resp = r.json() if r.headers.get("content-type", "").startswith("application/json") else {"raw": r.text[:300]}
         tid = (resp.get("data") or {}).get("taskId")

@@ -22,14 +22,15 @@
 | 0-2s | Tap it once. Again. Now hold it. | Dark room. Fingertip taps the touch button: cool light, tap: warm white, tap: warm yellow, then hold so it dims up and down. Tight shot on the mirror corner. |
 | 2-6s | Bathroom light makes your makeup look fine, until you step outside. | Slow pull back so the whole lit mirror fills the frame. |
 | 6-11s | This mirror has three light colors and it dims, so you can match wherever you're going. | Hand opens a top drawer under the glass; light falls on the makeup inside. |
-| 11-14s | Heads up, it's almost six feet wide. Measure your wall first. | Hand runs along the front edge of the desk, left to right. |
+| 11-14s | It's almost six feet wide, so measure your wall first. | Hand runs along the front edge of the desk, left to right. |
 | 14-20s | It ships in three boxes, so if you want it up before the holidays, don't put it off. It's in the orange cart. | Fingertip taps the light off, then on again. End on the glow. |
 
 **On-screen hook (pick one):**
 
-1. watch the mirror at the end
-2. tap it three times
-3. the lighting nobody talks about
+1. my teenage self would be SCREAMING
+2. watch the mirror at the end
+3. tap it three times
+4. the lighting nobody talks about
 
 **Caption:** three light settings and a dimmer, right on the mirror 💡 #ad #vanitydesk #makeupvanity #vanitysetup #tiktokshopfinds
 
@@ -65,13 +66,14 @@
 | 3-6s | No room for a mirror, a dresser and a shelf? | Hand waves across the empty wall next to it. |
 | 6-13s | One, a lit makeup mirror. Two, a full-length mirror. Three, a hidden cabinet. Four, outlets for hair tools. Five, a stool with drawers. | One cut per number: tap the mirror light / touch the full-length mirror / swing the mirror door open / plug in a hair dryer / slide the stool drawer out. |
 | 13-16s | It needs about six feet of wall. | Hand runs along the desk edge. |
-| 16-20s | Five things, one order. It ships in three boxes, so don't put it off before the holidays. It's in the orange cart. | Hand holds up five fingers in front of the lit mirror. |
+| 16-20s | That's five things in one order. It ships in three boxes, so don't put it off before the holidays. It's in the orange cart. | Hand holds up five fingers in front of the lit mirror. |
 
 **On-screen hook (pick one):**
 
-1. count with me
-2. this is only one piece
-3. how many things is this?
+1. my teenage self would be SCREAMING
+2. count with me
+3. this is only one piece
+4. how many things is this?
 
 **Caption:** count how many things this one vanity replaces 🖐️ #ad #vanitydesk #smallroomideas #roommakeover #tiktokshopfinds
 

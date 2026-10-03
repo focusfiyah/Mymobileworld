@@ -3,6 +3,13 @@ import json
 from pathlib import Path
 import kie_seedance_mini as k
 
+
+def _gate():  # SCRIPT GATE (gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven; job dir = $UGC_JOB or cwd
+    import os as _o, sys as _s, pathlib as _p; _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+    from gate import require; require(_o.environ.get("UGC_JOB") or _o.getcwd())
+
+
+
 P = Path("C:/dev/OpenMontage/projects/tiger_eye_ralph")
 k.P, k.R = P, P / "renders"
 k.URLS = json.loads((P / "hosted_urls.json").read_text())
@@ -41,6 +48,7 @@ def submit(clip, headers, record):
     body = {"model": "bytedance/seedance-2-mini", "input": {
         "prompt": k.PROMPTS[clip], "reference_image_urls": [k.URLS[x] for x in k.CLIP_REFS[clip]],
         "generate_audio": True, "resolution": "720p", "aspect_ratio": "9:16", "duration": 15}}
+    _gate()
     r = requests.post(f"{k.API}/createTask", headers=headers, json=body, timeout=60)
     resp = r.json()
     print("createTask HTTP", r.status_code, json.dumps(resp)[:300])

@@ -5,6 +5,13 @@ Old files kept as vo/vN_voiceover_v1.mp3 / vN_words_v1.json / vN_lines_v1.json. 
 import base64, json, os, shutil, subprocess, sys, requests
 import numpy as np
 from vo import VOICE, SETTINGS
+
+
+def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
+    import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
+    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+
+
 SR = 44100
 NEW = {1: "It ships in three boxes, so if you want it up before the holidays, don't put it off. It's in the orange cart.",
        2: "Holiday shipping gets slow, and it comes in three boxes. It's in the orange cart.",
@@ -25,6 +32,7 @@ def fix(n):
     old_last = lines[-1]; k = len(words) - len(old_last["line"].split())
     prev = " ".join(L["line"] for L in lines[:-1])
     body = {"text": NEW[n], "model_id": "eleven_v4", "voice_settings": SETTINGS, "previous_text": prev}
+    _gate()
     r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}/with-timestamps?output_format=mp3_44100_128", json=body, timeout=300)
     if not r.ok: sys.exit(f"V{n}: {r.status_code} {r.text[:200]}")
     d = r.json(); open("/tmp/claude-0/-home-user/eb264d06-2517-557b-a9f3-9de446d2ca4a/scratchpad/cta.mp3", "wb").write(base64.b64decode(d["audio_base64"]))
