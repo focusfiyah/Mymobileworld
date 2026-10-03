@@ -77,19 +77,19 @@ def EDL(v):
         edl = [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": None})),
                (3.4, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - 3.4 - 0.1})),
                (s3, m1), (t_in, lights_shot(v, t_in, w("adjustable"), w("brightness") - 0.1, w("so"))),
-               (s4, ("clip", "clips/V1S5.mp4", 0, {})), (w("tons") + 0.1, ("clip", "clips/M6a.mp4", 0, {})),
-               (w("bag") - 0.15, ("clip", "clips/M5a.mp4", 1.6, {})), (w("jewelry") - 0.1, ("clip", "clips/M4a.mp4", 0.6, {})),
+               (min(s4, s3 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})), (w("with") - 0.05, ("clip", "clips/M6a.mp4", 0, {})),
+               (w("makeup") + 0.2, ("clip", "clips/M5a.mp4", 1.4, {})), (w("and", 3) - 0.1, ("clip", "clips/M4a.mp4", 0.7, {})),
                (w("ships") - 0.23, ("kb",) + WIDE + ({},))]
     else:
-        s3 = w("it"); s2 = w("that's")
+        L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s2, s3, s4 = L[1], L[2], L[3]
         m1, tap = m1_shot(v, s2, w("mirror") - 0.1, ss_max=1.0); t_l = w("it")
         taps = [tap, w("adjustable") - 0.05, w("so") - 0.05]
         edl = [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": None})),
-               (w("think") - 0.1, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - (w("think") - 0.1) - 0.1})),
+               (w("then") - 0.1, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - (w("then") - 0.1) - 0.1})),
                (s2, m1), (s3, lights_shot(v, s3, w("adjustable"), w("brightness") - 0.1, w("so"))),
-               (w("and", 2) if False else [x["start"] for x in words(v) if clean(x) == "and"][-1], ("clip", "clips/V1S5.mp4", 0, {})),
-               (w("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w("bags") - 0.15, ("clip", "clips/M5a.mp4", 1.6, {})),
-               (w("jewelry") - 0.1, ("clip", "clips/M4a.mp4", 0.6, {})), (w("flash") - 0.1, ("kb",) + WIDE + ({"zoom": 1.08},))]
+               (min(s4, s3 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})),
+               (w("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
+               (w("jewelry") - 0.15, ("clip", "clips/M4a.mp4", 0.7, {})), (w("flash") - 0.1, ("kb",) + WIDE + ({"zoom": 1.08},))]
     return edl, taps, end
 
 
