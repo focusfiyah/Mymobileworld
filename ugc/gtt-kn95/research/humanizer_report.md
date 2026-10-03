@@ -36,3 +36,5 @@ New pain: "Sweep out the garage or shake out a rug, and look at all that dust. Y
 
 ## Round 5 (2026-10-03): solution line, no colour mention (Ralph/Grace)
 "...and I love that they're black" -> "...and they're made to be soft on your skin." Box wording (Soft, Skin-friendly), plain words, no use claim, no tell found. Clean.
+
+## Round 6 (2026-10-03): hook drops the colour: "A whole box of fifty masks. Let me show you why." No tell found. Clean.
