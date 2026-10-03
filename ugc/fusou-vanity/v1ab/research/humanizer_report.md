@@ -2,7 +2,7 @@
 Read as spoken UGC from Grace's own scripts.
 | Ver | Line | Tell | Change |
 |---|---|---|---|
-| B | "so I grab it before they're deal dissaperar or before they sell out" | typo + stacked "or" + false scarcity | "So grab it before the deal's gone." |
+| B | "so I grab it before they're deal dissaperar or before they sell out" | typo; "sell out" is scarcity wording | Ralph 2026-10-03: keep as is, flash sale is live. Only the typo fixed ("the deal disappears") |
 | A, B | long "so you can..." run-ons | readability grade 6.6 / 6.4 | periods only (grade 5.1 / 4.3), same words |
 | A | "It ships in three boxes, too. So if..." | none | keep |
 | A, B | "tons of space", "crazy good", "That's exactly why I love this mirror" | casual intensifiers are how she talks, not AI inflation | keep |
