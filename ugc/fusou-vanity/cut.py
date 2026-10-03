@@ -15,6 +15,7 @@ DOOR = ("refs/listing_01.jpg", (500, 60, 800, 593))
 PSTRIP = ("refs/vanity_power_strip.jpg", (255, 24, 500, 460))
 M1 = "out/M1a_test_v5.mp4"                                   # approved v5: hand-only crop, lights fade on at 1.25 s, already finished
 B1CROP, B1BLUR = "600:1067:110:0", (230, 400)
+M2CROP = "560:996:0:284"   # outlet clips: cut off the dryer handle so the wrist leaves at the frame edge, never behind the dryer (Ralph)
 
 
 def run(*a): subprocess.run(a, check=True)
@@ -40,18 +41,18 @@ def EDL(n):
                        (w("top") - 0.13, ("clip", "clips/M3b.mp4", 0, {})), (w("plan"), ("clip", "clips/M4a.mp4", 0.5, {})),
                        (w("holiday"), ("kb",) + WIDE + ({},))], [], three_boxes(n)
     if n == 3: return [(0, ("clip", "clips/V1S5.mp4", 0, {})), (w("no"), ("kb",) + WIDE + ({"pull": 1},)), (w("one", 2), ("clip", M1, 0.7, {"done": 1})),
-                       (w("two"), ("kb",) + DOOR + ({},)), (w("three"), ("kb",) + CAB + ({},)), (w("four"), ("clip", "clips/M2a.mp4", 0.6, {})),
+                       (w("two"), ("kb",) + DOOR + ({},)), (w("three"), ("kb",) + CAB + ({},)), (w("four"), ("clip", "clips/M2a.mp4", 0.6, {"crop": M2CROP})),
                        (w("five"), ("clip", "clips/M4a.mp4", 0.8, {})), (w("it"), ("kb",) + WIDE + ({"pull": 1},)),
                        (w("five", 2), ("clip", "clips/V1S3.mp4", 0, {}))], [w("one", 2) + 0.5], three_boxes(n)
     if n == 4: return [(0, ("clip", "clips/M5a.mp4", 0, {})), (0.45, ("kb",) + CAB + ({},)), (w("bags"), ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})),
                        (w("behind"), ("kb",) + CAB2 + ({},)), (w("close"), ("kb",) + DOOR + ({},)), (w("just"), ("clip", "clips/V1S5.mp4", 0, {})),
                        (w("it", 3), ("kb",) + WIDE + ({},))], [], three_boxes(n)
-    if n == 5: return [(0, ("clip", "clips/M2a.mp4", 0, {})), (w("no"), ("clip", "clips/M2b.mp4", 0.5, {})), (w("two"), ("clip", "clips/M2c.mp4", 0, {})),
+    if n == 5: return [(0, ("clip", "clips/M2a.mp4", 0, {"crop": M2CROP})), (w("no"), ("clip", "clips/M2b.mp4", 0.5, {"crop": M2CROP})), (w("two"), ("clip", "clips/M2c.mp4", 0, {"crop": M2CROP})),
                        (w("your", 2), ("clip", M1, 0.5, {"done": 1})), (w("only"), ("kb",) + PSTRIP + ({"to": "300,330"},)),
                        (w("holiday"), ("kb",) + WIDE + ({},))], [w("your", 2) + 0.7], three_boxes(n)
     if n == 6: return [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})), (w("makeup"), ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335)})),
                        (w("lipsticks"), ("clip", "clips/M3a.mp4", 1.0, {"reverse": 1})), (w("perfume", 2), ("kb",) + CAB2 + ({},)),
-                       (w("hair"), ("clip", "clips/M2b.mp4", 0.6, {})), (w("give"), ("clip", "clips/V1S5.mp4", 0, {})),
+                       (w("hair"), ("clip", "clips/M2b.mp4", 0.6, {"crop": M2CROP})), (w("give"), ("clip", "clips/V1S5.mp4", 0, {})),
                        (w("if"), ("clip", "clips/M6a.mp4", 0, {})), (w("this", 2), ("kb",) + WIDE + ({},))], [], three_boxes(n)
 
 

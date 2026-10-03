@@ -125,7 +125,7 @@ def video(base, src, out, zone=0, light=True, ai_boxes=(), seed=None, hull=False
                 ys, xs = np.nonzero(lab == i); pts = np.stack([xs, ys], 1)
                 ext = [pts]
                 for ax, lim in ((0, 0), (0, w - 1), (1, 0), (1, h - 1)):        # wrist leaving the frame: project near-edge points onto the edge
-                    near = pts[np.abs(pts[:, ax] - lim) < 40]
+                    near = pts[np.abs(pts[:, ax] - lim) < 120]
                     if len(near): q = near.copy(); q[:, ax] = lim; ext.append(q)
                 cv2.fillConvexPoly(hm_, cv2.convexHull(np.concatenate(ext).astype(np.int32)), 1)
             d = (d | (hm_ & sk)).astype(np.uint8)
@@ -150,7 +150,7 @@ def video(base, src, out, zone=0, light=True, ai_boxes=(), seed=None, hull=False
                            "-i", "-", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
     shares = []
     for i, a in enumerate(al):
-        hm = np.max(hand_masks[max(0, i - 1):i + 2], axis=0)                 # +-1 frame: a fast finger never gets clipped
+        hm = np.max(hand_masks[max(0, i - 2):i + 3], axis=0)                 # +-2 frames: a fast finger or wrist never gets clipped
         k = float(np.clip((i - on + 1) / FADE, 0, 1)); k = k * k * (3 - 2 * k)      # smooth 0->1 fade of the ring
         bg = bf * (1 - ring[..., None] * k) + plate * ring[..., None] * k       # real photo + steady lit ring
         mh = np.maximum(cv2.GaussianBlur(hm, (21, 21), 0), obj)[..., None]
