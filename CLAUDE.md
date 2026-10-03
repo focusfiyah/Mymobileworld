@@ -84,7 +84,7 @@ not in a new file.
   Grace records the lines next. `ugc/viking-curl-cream/README.md`.
 
 - **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
-  so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. README Status line.
+  so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. 2026-10-03: V2 REDONE on Grace's own script (verbatim, gate readability override for V2 only, Ralph) as a motion-first cut, r2 APPROVED and in Drive (`FUSOU Video 2 - Grace script (motion cut r2).mp4`); +$0.918 Kie. Drive scripts doc still has the old V2 text. README Status line.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
