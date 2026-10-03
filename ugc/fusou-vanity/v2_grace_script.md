@@ -10,7 +10,7 @@ Grace asked for 2 of the visuals to follow this script (which two: ASK RALPH/GRA
 - PLAYBOOK §1 (Grace's own house rules): "No false scarcity": "before that deal, or the vanity, is gone" is scarcity; "crazy sale" is unverified: the live TikTok Shop listing (2026-10-03) shows only $639.99, no original price or discount field (the listing title says "Live Flash Sale").
 - "holiday shipping is about to get slower" and "comes in three boxes": Ralph removed "three boxes" from all six videos on 2026-10-03 and asked to; the shipping-slower claim is not in the listing.
 
-## Tightened version (same ideas, her words where possible, grade 3.6)
+## Tightened version (same ideas, her words where possible, grade 4.6, 108 words, 556 chars)
 Just look at the drawers on this vanity. If your makeup is living in a bag under the sink, or your setup just isn't working anymore, look at this. You've got 12 drawers, plus two more in the stool. So everything gets a place: makeup, jewelry, perfume, all of it. The top is glass, so you can see what you have before you open a drawer. I'd grab this sooner than later. Holiday shipping is about to get slower, and it comes in three boxes, so give yourself some time to put it together. It's on a sale right now. If you see the orange cart below, check it.
 (Dropped: "crazy", "honestly", "before that deal, or the vanity, is gone". Kept her three-boxes + shipping lines ONLY if Ralph/Grace overrule his earlier removal.)
 
