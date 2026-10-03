@@ -1,10 +1,10 @@
 """V2 (Grace's own script, verbatim) motion cut: every shot is a real moving clip, no Ken Burns on photos, no freezes. Times from vo/v2g_words.json (Grace B take, STT-checked).
-   python3 cut_v2g.py  -> out/fusou_v2_grace_r1.mp4 (720x1280, 24 fps, VO + tap click + room tone, loudnorm -16 LUFS). Free."""
+   python3 cut_v2g.py  -> out/fusou_v2_grace_r2.mp4 (720x1280, 24 fps, VO + tap click + room tone, loudnorm -16 LUFS). Free."""
 import json, os, subprocess
 import cv2, numpy as np
 import cut_r5 as c
 from cut_r5 import W, H, FPS, TAIL, TMP, run, dur_of, render_shot, card
-WORDS = json.load(open("vo/v2g_words.json")); VO = "vo/v2g_voiceover.mp3"; NAME = "out/fusou_v2_grace_r1.mp4"
+WORDS = json.load(open("vo/v2g_words.json")); VO = "vo/v2g_voiceover.mp3"; NAME = "out/fusou_v2_grace_r2.mp4"
 def at(word, k=1): return [w["start"] for w in WORDS if w["text"].lower().strip(",.?!:") == word.lower()][k - 1]
 M1 = ("clip", c.M1, 0, {"done": 1, "dark": {"mask": "refs/m1a_led_mask.png", "ramp": [0, 0.01], "on": [1.22, 1.47], "dark": 0.34}})
 EDL = [(0,                  ("clip", "clips/WK1.mp4", 0, {})),            # "Just look at the drawers on this vanity." walk-in
@@ -16,8 +16,8 @@ EDL = [(0,                  ("clip", "clips/WK1.mp4", 0, {})),            # "Jus
        (at("top") - 0.4,    ("clip", "clips/M3b.mp4", 0, {})),            # the top is glass: tap on the glass
        (at("see"),          ("clip", "clips/M3a.mp4", 0, {})),            # see what you have: lipstick lift through the glass
        (at("i'd"),          ("clip", "clips/WK3.mp4", 0, {})),            # grab this sooner: dolly-out across the bedroom
-       (29.04, ("clip", "clips/V1S4.mp4", 0, {})),           # three boxes, give yourself time (+ package card)
-       (at("together") - 1.5, ("clip", "clips/M5a.mp4", 0, {})),          # put it together: hand opens the mirror door
+       (29.04, ("clip", "clips/M5a.mp4", 0, {})),            # three boxes, give yourself time: hand opens the mirror door (r2: no package card, no hand sweeping across the vanity)
+       (33.08, ("clip", "clips/V1S5.mp4", 0, {})),           # put it together: lit wide, no hand
        (34.56, M1),                            # crazy sale: tap, LED fades on
        (37.16,              ("clip", "clips/WK2.mp4", 3.44, {})),         # unused tail of the walk-in: lit vanity close
        (38.76,              ("clip", "clips/V1S2.mp4", 0, {}))]           # deal or the vanity is gone: push-in on the lit vanity
@@ -54,7 +54,7 @@ files = [render_shot(i, shot, starts[i + 1] - starts[i], n) for i, (_, shot) in 
 for i, (s, (_, f, ss, _)) in enumerate(EDL): print(f"{s:6.2f} {starts[i+1]-s:5.2f}s {f}")
 open(f"{TMP}/list{n}.txt", "w").write("".join(f"file '{f}'\n" for f in files))
 run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/list{n}.txt", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", f"{TMP}/v{n}_cat.mp4")
-pop2(f"{TMP}/v{n}_cat.mp4", f"{TMP}/v{n}_pop.mp4")
+os.replace(f"{TMP}/v{n}_cat.mp4", f"{TMP}/v{n}_pop.mp4")   # r2: package card removed (Ralph 2026-10-03)
 vd = dur_of(f"{TMP}/v{n}_pop.mp4"); assert vd >= vo_dur + 0.2, (vd, vo_dur)
 inputs = ["-i", f"{TMP}/v{n}_pop.mp4", "-i", VO, "-f", "lavfi", "-t", f"{vd}", "-i", "anoisesrc=color=brown:amplitude=0.004:sample_rate=44100"]
 fx = [f"[1:a]aresample=44100,apad=whole_dur={vd}[vo]", "[2:a]lowpass=f=900,volume=0.5[room]"]; mix = ["[vo]", "[room]"]
