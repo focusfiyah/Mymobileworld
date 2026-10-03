@@ -4,9 +4,7 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, voiceover = ElevenLabs Grace B (not Grace's own recording), 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **HANDOFF written (2026-10-03): read `HANDOFF.md` then `shot_plan_v2.md`. Ralph OK'd (1) Grace B voiceover for V1 (done: `vo/v1_voiceover.mp3` 21.9 s, `vo/v1_voiceover_1p2x.mp3` 18.2 s
-free speed-up) and (2) redesign of Videos 1-6 to the examples' style with Grace's hands shown from time to time (mid-close shots only). Plan v2 = 7 stills + 12 clips = $2.60 new Kie
-(spent $1.94, project total $4.54), WAITING on Ralph's OK; step 1 is a $0.254 test (still M1 + clip M1a). No paid call since the V1 clips.**
+Status: **2026-10-03: plan v2 OK'd by Ralph with the free PASTE-BACK added (`pasteback.py`: real photo pixels everywhere except what the AI was asked to change; stills and locked-camera clips). Step 1 TEST done, $0.254 as quoted: still `stills/M1.png` (raw `M1_raw.png`, mask) + clip `clips/M1a.mp4` (raw `M1a_raw.mp4`), trimmed review cut `out/M1a_test_cut.mp4` (0-2.6 s; the hand ends on the stool with no forearm after 2.6 s). Kie spent $2.19 of the $4.54 plan (balance 1212.8 cr). Script `m1_test.py`. NEXT: Ralph reviews the test -> step 2 (6 stills, $0.54) only on his OK.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.

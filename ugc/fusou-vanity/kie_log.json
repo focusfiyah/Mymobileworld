@@ -467,5 +467,59 @@
    ]
   },
   "costTime": 152
+ },
+ {
+  "t": "2026-10-03 01:15:55",
+  "submitted": "82f73a8894b45de6c3fdf7663b694007",
+  "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, m"
+ },
+ {
+  "t": "2026-10-03 01:16:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, move, resize, sharpen or recolour anything; same cubbies, same items on the shelves, same landscape mirror with its LED line OFF, same glass top, same drawers, same crystal knobs, same stool, same wall, same framing. Only ADD ONE HAND: a forearm and hand reach in from the bottom right edge of the frame, at the same distance from the camera as the vanity, so the hand is natural size next to the furniture (the hand is about a third as wide as the mirror). The index finger is extended and its fingertip is just below the small round touch button on the lower edge of the mirror glass (the tiny blue dot), about to tap it; the other fingers are loosely curled. The hand and forearm only cover part of the stool and the drawers below the mirror, never the mirror itself. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The second and third reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "aspect_ratio": "9:16",
+    "resolution": "1K",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990149084-zchmmnyebyq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990151638-qsaz4fyfd0b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990153841-9cb78tf2ur.png"
+    ]
+   }
+  },
+  "taskId": "82f73a8894b45de6c3fdf7663b694007",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/82f73a8894b45de6c3fdf7663b694007_0_1790990208.jpeg"
+   ]
+  },
+  "costTime": 52
+ },
+ {
+  "t": "2026-10-03 01:17:40",
+  "submitted": "1c8b8c3a2dc97deee08a83c00c7ffc31",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 01:19:46",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The index fingertip moves up and taps the small round touch button on the lower edge of the mirror glass once, then the hand lowers a little and rests. At the tap, the thin rounded-rectangle LED line inset around the edge of the makeup mirror switches on to a soft warm white glow and stays on. Nothing else moves or changes: every shelf item, drawer, knob, the stool and the wall stay exactly the same. Fingers stay anatomically correct (five fingers), long almond mauve nails with white French tips. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990258531-a1dsejbvlou.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "1c8b8c3a2dc97deee08a83c00c7ffc31",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790990381617-rwuf5ihqqho.mp4"
+   ]
+  },
+  "costTime": 121
  }
 ]
