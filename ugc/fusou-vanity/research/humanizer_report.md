@@ -24,3 +24,6 @@ Skill: .claude/skills/humanizer v3.1.0, read aloud as spoken UGC. Changed lines 
 | V5 | "Holiday get-ready season is close, it's in the orange cart." | comma splice left by the cut | FLAG: "Holiday get-ready season is close. It's in the orange cart." (re-voice, ask first) |
 | V6 | "If someone in your house keeps asking for a vanity, it's in the orange cart." | none; reads as one sentence | keep |
 No dashes, no banned phrases, no "order it now", no "three boxes" anywhere in the final voiceovers (checked `grep -i "boxes" vo/v*_final_words.json`: none).
+
+## Re-run 2026-10-03 (Ralph OK'd the two flagged closers)
+V2 closer -> "If you want it up for the holidays, it's in the orange cart." (drops the unsupported shipping claim and the comma splice). V5 closer -> "Holiday get-ready season is close. It's in the orange cart." (two sentences, no splice). Re-read all six: no staged openers, slogans, contrasts, dashes or banned words; no "three boxes" anywhere.

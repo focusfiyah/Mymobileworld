@@ -17,7 +17,7 @@
 | If your makeup lives in a bag under the sink, you dig for everything. | pain | PLAYBOOK §4 pain-point body + §2 sales psychology |
 | Twelve drawers, plus two in the stool. The top is glass, so you see your makeup before you open anything. | feature | product facts (research/product_facts.md) + coach @teddyandhudson one feature per cut |
 | Plan an afternoon to build it. It's a lot of parts. | caveat | PLAYBOOK §1 one honest caveat (size / build time / 2 outlets) |
-| Holiday shipping gets slow, it's in the orange cart. | cta | real seasonal urgency (holidays) + Ralph's usual 'It's in the orange cart.'; the 'three boxes' claim was removed by Ralph 2026-10-03 |
+| If you want it up for the holidays, it's in the orange cart. | cta | real seasonal urgency (holidays) + Ralph's usual 'It's in the orange cart.'; the 'three boxes' claim was removed by Ralph 2026-10-03 |
 
 ## Video 3
 | Line | Role | Source |
@@ -44,7 +44,7 @@
 | No more dryer cord stretched across the room. | pain | PLAYBOOK §4 pain-point body + §2 sales psychology |
 | Two outlets, two USB ports, and a holder for your dryer. Your phone charges while you do your face. | feature | product facts (research/product_facts.md) + coach @teddyandhudson one feature per cut |
 | Only two outlets, so it's your dryer plus one more tool. | caveat | PLAYBOOK §1 one honest caveat (size / build time / 2 outlets) |
-| Holiday get-ready season is close, it's in the orange cart. | cta | real seasonal urgency (holidays) + Ralph's usual 'It's in the orange cart.'; the 'three boxes' claim was removed by Ralph 2026-10-03 |
+| Holiday get-ready season is close. It's in the orange cart. | cta | real seasonal urgency (holidays) + Ralph's usual 'It's in the orange cart.'; the 'three boxes' claim was removed by Ralph 2026-10-03 |
 
 ## Video 6
 | Line | Role | Source |
