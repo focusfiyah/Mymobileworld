@@ -31,11 +31,10 @@ tray [PAID M3c] + real glass-top photo 05 [FREE KB] | 12.4-14.8 real shelf photo
 |---|---|---|
 | 1 TEST | Still M1 + clip M1a (V1 shot 1), then STOP and review | $0.09 + $0.164 = **$0.254** |
 | 2 | Stills M2, M3, M4, M5, M6, B1 (6 x $0.09), one contact sheet, STOP and review | **$0.54** |
-| 3 | Clips M2b, M2c, M3a, M3b, M3c, M4a, M5a, M6a, B1a, B1b (10 x $0.164), then free cuts | **$1.64** |
-| | **New Kie spend** (7 stills $0.63 + 12 clips $1.968 incl. M1a and M2a) | **$2.60** |
+| 3 | Clips M2a, M2b, M2c, M3a, M3b, M3c, M4a, M5a, M6a, B1a, B1b (11 x $0.164), then free cuts | **$1.80** |
+| | **New Kie spend** ($0.254 + $0.54 + $1.80, = 7 stills $0.63 + 12 clips $1.97) | **$2.60** |
 Spent so far $1.94 -> project total $4.54 (the old $9.69 estimate is gone: shared stills + free real-photo cuts).
 Redo of any shot = ~$0.25 (still $0.09 + clip $0.164), asked first. ElevenLabs Grace B: V1 done (331 chars); V2-V6 ~1,700 chars of plan credits, asked first.
-(M2a is the V3 outlet clip from plate M2: 1 clip; recount: clips = M1a, M2a, M2b, M2c, M3a, M3b, M3c, M4a, M5a, M6a, B1a, B1b = 12.)
 
 ## Risks (said up front)
 - Close-ups drifted before (drawer proportions). M3/M4/M5 are crops of real photos with the product mostly unchanged; if a plate drifts I show it before any clip.
