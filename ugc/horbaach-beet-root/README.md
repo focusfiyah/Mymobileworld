@@ -39,6 +39,19 @@ playbook's proven angles (curiosity text hook, pain-first, read-the-label) rathe
 TTS spelling: "Hor-bahk". Setting: bright kitchen counter, morning window light, white quartz, a few raw beets and a
 glass of beet juice (S2 only). Hand: same hand as Plant Therapy (`refs/hand_*.png`, identical files), confirmed by Ralph 2026-10-02.
 
+## Coach research (2026-10-03, tiktok-shop-coach on tiktok.com keyword pages)
+
+| Video | Views | Len | Hook and format | Takeaway for us |
+|---|---|---|---|---|
+| @emacshops | 1.5M | 21s | taste pain ("pills tasted like armadillo ankles", gummies "taste like strawberries"), link in corner | taste pain then strawberry fix is the proven angle (our S1-S3) |
+| @ayocleoo (Horbaach, #ad) | 875k | 27s | "my man hated the taste of beetroots", strawberry, non-GMO, gluten free, "orange shopping bag", doctor + "results may vary" | same product; same claims we use; it also says blood flow, stamina and "hurry", which we skip |
+| @darrenglorytt | 341k | 22s | "this is a fake listing" x3, "I have the real link", 35,000+ sold | listing-trust angle; unverified, so we only use the real sold count |
+
+Competitors on Shop: Goli Beets 47.5K sold ($19.47), Newcore 33.3K, Snap 29.7K; ours 84.9K sold is the top count seen.
+Readability of script v3: grade 4.1 (target 6 or lower), 80 words, 32s at 150 wpm.
+Not done by choice: on-screen hook text (Ralph: no overlay text at all). Still to do after the cut: coach `compare` vs @emacshops.
+Setup note: coach needs `pip install playwright` and `apt-get install libnss3-tools` in a fresh cloud session (cert error otherwise).
+
 ## Cost plan
 
 | Step | Cost |
