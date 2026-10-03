@@ -404,5 +404,31 @@
    ]
   },
   "costTime": 339
+ },
+ {
+  "t": "2026-10-03 19:47:59",
+  "submitted": "3bc8c0752fa403261f211ecc265e398e",
+  "prompt": "Shot 2b: the hand gives the doormat two firm shakes, a big cloud of fine dust lifts off it and hangs in the daylight, th"
+ },
+ {
+  "t": "2026-10-03 19:49:27",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 2b: the hand gives the doormat two firm shakes, a big cloud of fine dust lifts off it and hangs in the daylight, then the hand holds still while the dust drifts. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056875233-qmoz712wrqr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "3bc8c0752fa403261f211ecc265e398e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791056959740-w0vc1wnllhc.mp4"
+   ]
+  },
+  "costTime": 82
  }
 ]
