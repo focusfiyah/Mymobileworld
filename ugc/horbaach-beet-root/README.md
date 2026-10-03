@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~26s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). No face anywhere, so no lip sync. **No on-screen text of any kind, hook text included** (Ralph, 2026-10-02).
 
-Status: **Script v3 humanized 2026-10-02 (no overlay text, no serving line, no flash sale, Plant Therapy hand) agreed by Ralph 2026-10-02. Kie + ElevenLabs reachable. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies ad (2026-10-02) (id 1me8-TITy5S5L05AS96AqnHEQVgLyHpAo), script doc saved with no prices and no Grace name (Ralph: Drive docs carry neither). Next: VO (plan chars) + still S1 ($0.09), waiting on Ralph's go. $0 spent. `kie.py` / `cut.py` are Vicks copies, rewrite for this job.**
+Status: **VO recorded (Grace B, 24.7s) and stills S1-S7 done 2026-10-03; storyboard shown to Ralph, waiting on his OK before any video. Spent $0.63 of $1.86 (S4 clip is 5s: clips total $1.23). Next: test clip S5 ($0.16), then the other 6 clips. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies ad (2026-10-02).**
 
 ## Product facts
 
@@ -64,4 +64,4 @@ Setup note: coach needs `pip install playwright` and `apt-get install libnss3-to
 | Cut: label close-up insert (image, no text), CC0 SFX (jar shake, cap), loudnorm; Drive upload | free |
 | **Total** | **$1.99** (+ ~$0.25 per redone shot, each redo asked first) |
 
-Running total: $0.00 / $1.99.
+Running total: $0.63 / $1.86 (VO + 7 stills; clips $1.23 incl. S4 at 5s).
