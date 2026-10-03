@@ -208,5 +208,29 @@
    ]
   },
   "costTime": 83
+ },
+ {
+  "t": "2026-10-03 19:25:00",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A garage shelf at the edge of the workbench: the hand, entering from the bottom of the frame, sets two black masks, each sealed in a clear plastic sleeve, on a wooden shelf beside a paint can and a tape measure. No box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055270280-hyjzlc5nups.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "be7c96eaad0e544ac7fbc4112d8ab7e4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/be7c96eaad0e544ac7fbc4112d8ab7e4_0_1791055495.jpeg"
+   ]
+  },
+  "costTime": 90
  }
 ]
