@@ -18,7 +18,8 @@ J = json.loads(Path("shots.json").read_text())
 PIECES = {   # first ~1.5s of a clip is the reliable part (Seedance redraws late), so holds fill the rest
     "S1": [("clip", "clips/S1.mp4", 0.0, 0.5), ("hold", "inserts/s1_hold.png", 0.5, 0.55, 0.08)],   # box tilts and its small print warps after ~0.8s: front-on frame + push-in
     "S3": [("clip", "clips/S3.mp4", 0.0, 5.0), ("hold", "inserts/s3_hold.png", 0.5, 0.45, 0.05)],   # window 6.3s > clip 5s
-    "S5c": [("clip", "clips/S5c.mp4", 1.0)],                                                       # the set-down, not the lift
+    "S5b": [("clip", "clips/S5b.mp4", 0.8)],                                                       # lowering into the pocket, hand still gripping
+    "S5c": [("clip", "clips/S5c.mp4", 0.8)],                                                       # lowering onto the shelf                                                       # the set-down, not the lift
     "S6": [("clip", "clips/S6.mp4", 1.5, 2.5), ("hold", "inserts/s6_hold.png", 0.5, 0.6, 0.03)],   # skips a 1.0s glitch (mask in the air)
     "S7": [("clip", "clips/S7.mp4", 3.0, 3.0), ("hold", "inserts/s7_hold.png", 0.5, 0.55, 0.05)],   # first 3s the box slides AWAY: use the 3-6s half, where it slides toward the lens with the hand on its side
 }
