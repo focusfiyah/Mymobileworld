@@ -30,3 +30,6 @@ No dashes, no triads, no sales words (breathtaking etc.), no chatbot residue. Ga
 | "The only problem? Now I can't say I forgot my mask." | §4 staged candor, weak | keep: Grace's confession format (PLAYBOOK §1) |
 | "Let me show you why." | §4 staged run-up | keep: it is the curiosity loop Grace's structure needs; spoken, 6 words |
 No dashes, no triads, no sales words, no chatbot residue; gate banned-phrase scan clean.
+
+## Round 4 (2026-10-03): pain rewritten (Ralph: different examples, not sanding)
+New pain: "Sweep out the garage or shake out a rug, and look at all that dust. You're breathing that too." Everyday chores, a pair (not a triad), plain words, no staging, no health claim. Clean.
