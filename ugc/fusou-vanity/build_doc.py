@@ -15,6 +15,7 @@ def label(shot):
                 "refs/listing_01.jpg": "Full-length mirror door", "refs/vanity_power_strip.jpg": "Side power strip and dryer holder"}[src]
         return what + (", slow pull-back" if o.get("pull") else ", slow push-in")
     f, o = shot[1], shot[3]
+    if o.get("dark") and "M1a" in f: return "Dark room; fingertip taps the mirror's touch button and the LED ring lights up"
     if o.get("dark"): return "Room lights go off; the mirror and door LEDs switch cold white, warm white (dim), warm yellow"
     for k, v in {"M1a": "Fingertip taps the mirror's touch button; the LED light fades on", "V1S3": "Whole vanity, the mirror light changes colour",
                  "V1S5": "Whole vanity, wide", "M3a": "Hand lifts a lipstick out of the glass-top tray", "M6a": "All the drawers open, slow push-in",

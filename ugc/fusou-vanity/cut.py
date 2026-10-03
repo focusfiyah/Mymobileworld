@@ -37,7 +37,7 @@ def EDL(n):
     if n == 1:
         t0 = w("this")
         dark = {"mask": "refs/v1s3_led_mask.png", "ramp": [0, 0.4], "colors": [w("and") - t0, w("so") - t0], "dip": [w("dims") - t0 - 0.05, w("so") - t0 - 0.03]}
-        return [(0, ("clip", M1, 0, {"done": 1})),                                                 # hook: tap, light fades on
+        return [(0, ("clip", M1, 0, {"done": 1, "dark": {"mask": "refs/m1a_led_mask.png", "ramp": [0, 0.01], "on": [1.22, 1.47], "dark": 0.34}})),  # hook: dark room, tap, LED ring lights up
                 (2.6, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})),             # pain: bathroom counter, makeup
                 (t0, ("clip", "clips/V1S3.mp4", 0.4, {"dark": dark})),                            # solution: room dark; cold white -> warm white (dims) -> warm yellow
                 (w("it's"), ("clip", "clips/V1S5.mp4", 0, {})),                                   # caveat: almost six feet wide
@@ -79,8 +79,8 @@ def render_shot(i, shot, d, n):
         run("ffmpeg", "-v", "error", "-y", "-ss", f"{ss}", "-i", src, "-frames:v", str(frames), "-vf", ",".join(vf), "-an", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", raw)
     if o.get("dark"):   # Ralph 2026-10-03: room lights off to showcase the LED colours (darkroom.py, free)
         dk = o["dark"]; d2 = raw.replace("_raw.mp4", "_dark.mp4")
-        subprocess.run(["python3", "darkroom.py", raw, d2, "--mask", dk["mask"], "--ramp", *map(str, dk["ramp"]), "--colors", *map(str, dk["colors"]),
-                        "--dip", *map(str, dk["dip"])], check=True, capture_output=True); os.replace(d2, raw)
+        args = ["--mask", dk["mask"]] + sum([[f"--{k}", *map(str, v if isinstance(v, list) else [v])] for k, v in dk.items() if k != "mask"], [])
+        subprocess.run(["python3", "darkroom.py", raw, d2] + args, check=True, capture_output=True); os.replace(d2, raw)
     if o.get("done"): os.replace(raw, out)
     else: subprocess.run(["python3", "finish.py", raw, out] + (["--topblur", *map(str, o["blur"])] if o.get("blur") else []), check=True, capture_output=True)
     got = int(cv2.VideoCapture(out).get(7)); assert abs(got - frames) <= 1, f"V{n} shot {i}: {got} frames, wanted {frames}"

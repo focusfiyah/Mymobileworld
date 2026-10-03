@@ -1,12 +1,13 @@
 """Free "room lights off" grade (Ralph 2026-10-03: darken the room to showcase the vanity's light colours).
 Room drops to evening darkness (slightly cool); the mirror + door LED lines stay at full brightness with a soft glow that spills onto the
 vanity; optional dip of the LEDs (for the word "dims").
-  python3 darkroom.py IN OUT [--mask led_mask.png] [--colors T1 T2] [--ramp T0 T1] [--dip T0 T1] [--dark 0.28] [--boxes x0,y0,x1,y1 ...]
+  python3 darkroom.py IN OUT [--mask led_mask.png] [--colors T1 T2] [--on T0 T1] [--ramp T0 T1] [--dip T0 T1] [--dark 0.28] [--boxes x0,y0,x1,y1 ...]
 """
 import subprocess, sys
 import cv2, numpy as np
 a = sys.argv; opt = lambda k, n=2: list(map(float, a[a.index(k) + 1:a.index(k) + 1 + n])) if k in a else None
 src, out = a[1], a[2]; RAMP = opt("--ramp") or [0.0, 0.01]; DIP = opt("--dip"); DARK = (opt("--dark", 1) or [0.28])[0]
+ON = opt("--on")   # LEDs switch on between T0 and T1 (before that they stay dark with the room)
 COLS = opt("--colors")   # switch times: cold white -> warm white at T1 -> warm yellow at T2 (the listing's 3 modes)
 MASK = a[a.index("--mask") + 1] if "--mask" in a else None   # static LED-line mask (lit frame minus the real unlit photo)
 BOXES = [tuple(map(int, b.split(","))) for i, b in enumerate(a) if i > 0 and a[i - 1] == "--boxes"] or [(170, 430, 425, 660), (525, 360, 665, 920)]
@@ -36,6 +37,7 @@ while True:
     if MASK: m = prev if prev is not None else cv2.resize(cv2.imread(MASK, 0), (w, h)).astype(np.float32) / 255; prev = m
     else: m = led_mask(f); m = m if prev is None else np.maximum(m, prev * 0.7); prev = m      # steady mask (no flicker)
     k = ease(t, *RAMP)                                                                       # 0 = daylight, 1 = room dark
+    lit = ease(t, *ON) if ON else 1.0
     dip = 1 - 0.55 * (np.sin(np.pi * np.clip((t - DIP[0]) / (DIP[1] - DIP[0]), 0, 1)) if DIP else 0)
     room = ff32 * (1 - k * (1 - DARK)); room *= np.array([1 + 0.06 * k, 1.0, 1 - 0.05 * k], np.float32)   # darker + a touch cooler
     if COLS:   # BGR targets: cold white, warm white, warm yellow; 0.15 s cross-fade at each tap
@@ -47,6 +49,7 @@ while True:
     led = (src_led * m[..., None])
     core = cv2.GaussianBlur(m, (0, 0), 1.2)[..., None]
     glow = cv2.GaussianBlur(led, (0, 0), 6) * 1.1 + cv2.GaussianBlur(led, (0, 0), 24) * 0.9           # LED light spilling onto the vanity
-    o = room * (1 - core) + src_led * core * dip + k * dip * glow
+    core = core * lit
+    o = room * (1 - core) + src_led * core * dip + k * dip * lit * glow
     ff.stdin.write(np.clip(o, 0, 255).astype(np.uint8).tobytes()); i += 1
 ff.stdin.close(); ff.wait(); print("darkroom", out, i, "frames")
