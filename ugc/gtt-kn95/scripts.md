@@ -1,15 +1,15 @@
-# GTT Black KN95 50-pack: hands-only ad (Grace), script v1 (2026-10-03)
-Voice: ElevenLabs Grace B. Hands only, no face, no burned-in captions beyond the on-screen hook (Classic style).
+# GTT Black KN95 50-pack: hands-only ad (Grace), script v2 (2026-10-03)
+Voice: ElevenLabs Grace B. Hands only, no face. Grace's structure: curiosity-loop hook, pain body, solution body, urgency CTA. Simple words (Ralph/Grace 2026-10-03: audience is not sophisticated; no "filtration efficiency").
 
-| Shot | VO | Hands do |
-|---|---|---|
-| S1 hook | Most masks come in a small pack. This box has fifty. | hand holds the grey GTT KN95 box front-on at a garage workbench |
-| S2 pain | Sand a board or rake leaves, and the dust is in the air you breathe. | hand sands a board, dust lifts in the light |
-| S3 claim | They're KN95s, so that's ninety-five percent filtration efficiency. | hand holds a black mask by the loops; free real-packshot pop-up over "ninety-five percent" |
-| S4 features | The fish shape fits your face, and the ear loops stretch. | thumb stretches an ear loop |
-| S5 | Each one is wrapped on its own, so you grab one and go. | hand pulls one wrapped mask from the box |
-| S6 confession | The only downside? Now you have no excuse to skip it. | hand sets the mask on the bench by the sanding block |
-| S7 CTA | Fifty in a box. It's leaf season, so don't put it off. It's in the orange cart. | box on the bench, open palm points down |
+| Shot | Part | VO | Hands do |
+|---|---|---|---|
+| S1 | hook | A whole box of fifty black masks. Let me show you why. | hand holds the grey GTT KN95 box front-on at a garage workbench |
+| S2 | pain | Sand one little thing or rake the yard and you're covered in dust. That's in the air you're breathing too. | hand sands a board, dust lifts in the light (no box in shot) |
+| S3 | solution | These are KN95s, so they filter out ninety-five percent or more, and I love that they're black. | hand holds a black mask by the loops; free real-packshot pop-up (the 95% on the real box) over "ninety-five percent" |
+| S4 | solution | They're shaped like a fish to fit your face, and the loops stretch. | thumb stretches an ear loop |
+| S5 | solution | Each one is wrapped, so keep a few in the car and a few in the garage. | hand pulls one wrapped mask from the box |
+| S6 | confession | The only problem? Now I can't say I forgot my mask. | hand sets the mask on the bench by the sanding block |
+| S7 | urgency CTA | It's leaf season, so don't put this off. Fifty in a box, plenty to share. It's in the orange cart. | box on the bench, open palm points down |
 
-On-screen hook (Grace adds in TikTok, or we burn Classic style): "fifty, not five". Alternatives in research/hooks.md.
-Caption: `#ad` fifty individually wrapped black KN95 masks for the dusty jobs, fall cleanup is here
+On-screen hook (Classic style, frame 0): "why fifty?" Alternatives in research/hooks.md.
+Caption: `#ad` fifty black masks in one box for the dusty jobs, fall cleanup is here

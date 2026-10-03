@@ -20,3 +20,13 @@ Trigger: Grace does not like "the box says". Claim now: "They're KN95s, so that'
 | "The only downside? Now you have no excuse to skip it." | §4 staged candor ("Honestly?" type), weak here | keep: Grace's sanctioned sell-side confession (PLAYBOOK §1), reads fine spoken |
 | "Fifty in a box." | §2 fragment | keep: count CTA (PLAYBOOK §4), carries the number |
 No dashes, no triads, no sales words (breathtaking etc.), no chatbot residue. Gate banned-phrase scan clean.
+
+## Round 3 (2026-10-03): script v2 (new Grace structure + simple words), Humanizer skill rules applied again
+| Line | Tell (skill §) | Result |
+|---|---|---|
+| "filtration efficiency" | §12/§16 spec-sheet words, wrong register for the audience | "filter out ninety-five percent or more" |
+| "You know how you sand... covered in dust?" (draft) | none; but cut to one statement: no question, no staging (§4) | "Sand one little thing or rake the yard and you're covered in dust." |
+| "toss a few in the car and a few in the garage" | §6 pair, concrete, fine | keep |
+| "The only problem? Now I can't say I forgot my mask." | §4 staged candor, weak | keep: Grace's confession format (PLAYBOOK §1) |
+| "Let me show you why." | §4 staged run-up | keep: it is the curiosity loop Grace's structure needs; spoken, 6 words |
+No dashes, no triads, no sales words, no chatbot residue; gate banned-phrase scan clean.
