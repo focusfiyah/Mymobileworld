@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-03). Hands-only + ElevenLabs Grace B voiceover (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4). Route: `ugc-product-ad` hands-only (template `../vicks-vaposhower/`). Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-03 CUT v6 ready for Ralph's review: `out/gtt_kn95.mp4` (31.1s). Changes this round: hook text removed; S7 reworked (3-6s of the new clip, box slides toward the lens); CTA now 'Grab a couple boxes, so there's always one close' (Ralph: do not say 'plenty to share'), full VO re-recorded (551 chars); S5b car + S5c shelf redone (hand pinches the wrapped masks, lowers them, lets go). Kie spent $4.375 (stills + redos + clips). Gate OK (cut stage). NEXT: Ralph's notes, then Drive (Grace Tiktok assets) + PLAYBOOK §7 line.**
+Status: **DONE 2026-10-03: cut v6 APPROVED by Ralph, in Drive: Grace Tiktok assets / GTT Black KN95 50-pack ad (2026-10-03) (folder 1WYgR1OwmUniEqRi-ciKlqg5fKdi_1ur8): gtt_kn95_ad.mp4 (1OQ9XX9dOf8ibppSx1vXo2g0APhu_2QgU, 12,336,363 bytes, size matches) + final script doc (1Z5MM8rrBeYai50aMkFXRTQUnQjjuN3dSM9WJF7qtoAs, no prices, no client name). Kie spent $4.375 (first quote $2.75), ElevenLabs Grace B 540 + 551 chars. Rebuild: `python3 cut.py`. Lessons: PLAYBOOK §7.**
 
 Quote (full match): 10 stills x $0.09 = $0.90; clips 45s x $0.041 = $1.85; VO ~534 chars ElevenLabs; cut/pop-up/SFX free; total Kie **$2.75**. Lean: drop S2a + S5c, $2.24. All hands, no lip sync. +~$0.25 per redone shot, each asked first.
 Compliance: dust/outdoor angle only (the listing's own pitch); no illness, no N95/NIOSH/FDA, no layer count (listing says 4-layer in title, 5-layer in image: ask Grace), no price.
