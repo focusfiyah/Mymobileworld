@@ -204,6 +204,7 @@ products follow the same rules.
   angles from the top shop sellers in each niche (coach viral board, 1,728 videos), no prices, sell-side confessions.
   Shnuggle angles 1-2 then replaced with Grace's own ideas (true toddler-size tub with the safety features; stand-up
   shower). When Grace sends angle ideas, they go first and the coach patterns fill in hooks and structure.
+- 2026-10-03 Grace B voiceover stutters (FUSOU V5 "Ho- holiday", V6 "If, if someone"; eleven_v4, stability 0.4): the timestamps from TTS are text-based and do NOT show it. After EVERY voiceover and every splice, run an ElevenLabs STT (scribe_v2) on the final audio and scan for repeated words and hyphen fragments; fix free by cutting the fragment out of the wav at the STT times. Ralph heard both, I hadn't: check before sending.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
