@@ -17,6 +17,7 @@ products follow the same rules.
 - ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
+- **No "order it now" / "order now" (Ralph 2026-10-03).** Close with Grace's usual "It's in the orange cart." after the real reason (holidays, "don't put it off").
 
 ## 2. Sales psychology
 | Principle | How we use it |

@@ -43,7 +43,7 @@ def EDL(n):
     if n == 3: return [(0, ("clip", "clips/V1S5.mp4", 0, {})), (w("no"), ("kb",) + WIDE + ({"pull": 1},)), (w("one", 2), ("clip", M1, 0.7, {"done": 1})),
                        (w("two"), ("kb",) + DOOR + ({},)), (w("three"), ("kb",) + CAB + ({},)), (w("four"), ("clip", "clips/M2a.mp4", 0.6, {"crop": M2CROP})),
                        (w("five"), ("clip", "clips/M4a.mp4", 0.8, {})), (w("it"), ("kb",) + WIDE + ({"pull": 1},)),
-                       (w("five", 2), ("clip", "clips/V1S3.mp4", 0, {}))], [w("one", 2) + 0.5], three_boxes(n)
+                       (w("five", 2), ("clip", "clips/V1S3.mp4", 0, {})), (w("ships") - 0.13, ("kb",) + WIDE + ({},))], [w("one", 2) + 0.5], three_boxes(n)
     if n == 4: return [(0, ("clip", "clips/M5a.mp4", 0, {})), (0.45, ("kb",) + CAB + ({},)), (w("bags"), ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR})),
                        (w("behind"), ("kb",) + CAB2 + ({},)), (w("close"), ("kb",) + DOOR + ({},)), (w("just"), ("clip", "clips/V1S5.mp4", 0, {})),
                        (w("it", 3), ("kb",) + WIDE + ({},))], [], three_boxes(n)
@@ -119,6 +119,7 @@ def build(n):
     run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/list{n}.txt", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", f"{TMP}/v{n}_cat.mp4")
     pop(f"{TMP}/v{n}_cat.mp4", f"{TMP}/v{n}_pop.mp4", t_three - 0.05)
     vd = dur_of(f"{TMP}/v{n}_pop.mp4")
+    assert vd >= dur_of(vo) + 0.2, f"V{n}: video {vd:.2f}s would cut the voiceover ({dur_of(vo):.2f}s)"
     inputs = ["-i", f"{TMP}/v{n}_pop.mp4", "-i", vo, "-f", "lavfi", "-t", f"{vd}", "-i", "anoisesrc=color=brown:amplitude=0.004:sample_rate=44100"]
     fx = [f"[1:a]aresample=44100,apad=whole_dur={vd}[vo]", "[2:a]lowpass=f=900,volume=0.5[room]"]; mix = ["[vo]", "[room]"]
     for k, t in enumerate(taps + [t_three - 0.05]):
