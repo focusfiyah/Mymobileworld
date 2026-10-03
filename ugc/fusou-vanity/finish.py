@@ -3,7 +3,7 @@
   python3 finish.py IN OUT [--glow T X Y R] [--sway PX] [--grain SIGMA]   T = second the LEDs switch on, X,Y,R = glow centre/radius
 1) handheld sway, default OFF (Ralph 2026-10-03: moving a soft upscaled photo by sub-pixels makes fine lines crawl = shimmer)
 2) one texture for the whole frame: 0.6 px blur (sharp AI hand meets the soft 800 px photo) + phone grain
-3) LED spill: from T a soft warm lift (+7%, warmer) around the mirror, 0.15 s ramp, so the room reacts to the light
+3) LED spill: from T a soft lift (+4%, barely warmer) around the mirror, same 0.25 s smooth fade as the ring (pasteback prints T)
 """
 import subprocess, sys
 import cv2, numpy as np
@@ -31,9 +31,10 @@ for i in range(n):
     ok, f = cap.read()
     if not ok: break
     f = f.astype(np.float32)
-    if glow and t[i] > T:
-        k = min(1, (t[i] - T) / 0.15) * fall
-        f = f * (1 + 0.07 * k) + k * np.array([-2, 3, 8], np.float32)       # BGR: warmer + brighter near the mirror
+    if glow and t[i] >= T:
+        e = min(1, (t[i] - T) / 0.25); e = e * e * (3 - 2 * e)
+        k = e * fall
+        f = f * (1 + 0.04 * k) + k * np.array([-1, 1, 3], np.float32)       # BGR: a touch brighter + warmer near the mirror
     if SWAY:
         M = cv2.getRotationMatrix2D((w / 2, h / 2), rot[i], 1.035); M[:, 2] += (dx[i], dy[i])
         f = cv2.warpAffine(f, M, (w, h), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT)
