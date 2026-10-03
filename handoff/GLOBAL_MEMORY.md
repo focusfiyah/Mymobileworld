@@ -55,3 +55,6 @@ Paste the block below into any of:
   demo lines (never my client clones); quote exact cost before any extra paid generation.
 - ElevenLabs affiliate link: https://try.elevenlabs.io/6rw6sfid5efk. First video (public): https://youtu.be/8qjWtaN-H9g
 ---
+
+## Memory updates (2026-10-03)
+- I'm usually on my phone. When a standing rule changes, update the memory files and send me ONE complete, combined "remember" text as a file (handoff/REMEMBER_ME.txt) that I paste into a new claude.ai chat. Never send fragments, diffs or "replace this line" instructions.

@@ -61,6 +61,7 @@ not in a new file.
   hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
   route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py); the exact-product route's (real photo + paste-back, complex products) is `ugc/fusou-vanity/`. Skill zip re-made 2026-10-03 (script gate + exact-product route + its scripts).
 - **Remembered everywhere (Ralph 2026-10-03):** `handoff/CLAUDE_PREFERENCES.txt` (claude.ai profile preferences, every chat/project/Cowork), `handoff/MEMORY_SHORT.txt` (claude.ai memory, max 2,000 chars) and `handoff/GLOBAL_MEMORY.md` (full version for ~/.claude/CLAUDE.md; same files in Dayone-ai). Update all three when a standing rule changes.
+- **Delivering memory updates (Ralph, 2026-10-03, he's on his phone):** when a standing rule changes, update `handoff/REMEMBER_ME.txt` (ONE combined text, starts "Remember all of this about me and how I work…", merges the memory + preferences content, de-duplicated) plus the other three handoff files, then SendUserFile `REMEMBER_ME_paste.txt` (full text, nothing to edit) and tell him to paste it into a new claude.ai chat. Never send fragments, diffs or "replace this line" instructions.
 - **Videos to Google Drive:** the Google Drive connector can't upload big files (content goes through the chat). Host the
   file with Kie's free upload (`upload()` in a job's kie.py → `tempfile.redpandaai.co` URL), then Composio
   `GOOGLEDRIVE_UPLOAD_FROM_URL` (account `googledrive_lin-ernst` = life22watch@gmail.com) with `parent_folder_id`.
