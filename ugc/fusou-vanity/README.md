@@ -4,14 +4,9 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, voiceover = ElevenLabs Grace B (not Grace's own recording), 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **VIDEO 1 rough cut v3 (no hand anywhere, silent, 20.0s) `out/video1_lights_roughcut_v3.mp4` (Ralph chose the free option for S1: lights cycle with no
-hand; S3 = V1S3 reversed; v1/v2 kept). Ralph sent 4 example TikToks (all this same FUSOU 71"): 1.2M @estefany_m_27 (53s, 0.43% saves), 2.1M @sdbby88
-(33s, 0.84% saves, the hands one), 2.0M @fusou_furniture (57s), 7.2M @gaspari_12 (48s). Style: handheld walk-through, wide -> close -> wide, ends on
-the whole vanity; same feature order (whole vanity, lit standing mirror, cabinet behind the mirror full of products, glass top + diamond knobs,
-power station + dryer holder, stool drawers, 3 light colours, link); hands are small, at the frame edge, only pointing/opening in MID-CLOSE shots,
-never in a wide; vanity is filled with products; 4.4 words/s, 2.7 cuts/10s (ours: 0.5 cuts/10s, locked-off = too static). Waiting on Ralph: (1) OK
-to make the Grace B voiceover (V1: 331 chars of ElevenLabs credits, no Kie cost; real word timings then recut), (2) OK to redesign Videos 1-6 to this
-style (more cuts, mid-close shots from the REAL close-up listing photos with a small hand) with a locked plan + exact total BEFORE any spend. Spent $1.94 Kie.**
+Status: **HANDOFF written (2026-10-03): read `HANDOFF.md` then `shot_plan_v2.md`. Ralph OK'd (1) Grace B voiceover for V1 (done: `vo/v1_voiceover.mp3` 21.9 s, `vo/v1_voiceover_1p2x.mp3` 18.2 s
+free speed-up) and (2) redesign of Videos 1-6 to the examples' style with Grace's hands shown from time to time (mid-close shots only). Plan v2 = 7 stills + 12 clips = $2.60 new Kie
+(spent $1.94, project total $4.54), WAITING on Ralph's OK; step 1 is a $0.254 test (still M1 + clip M1a). No paid call since the V1 clips.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.
