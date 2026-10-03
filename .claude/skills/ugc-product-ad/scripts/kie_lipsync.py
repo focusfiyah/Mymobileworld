@@ -39,6 +39,7 @@ def run(shot):
     vid = upload(W / "shots" / f"{shot}.mp4"); aud = upload(VO / PAIRS[shot])
     body = {"model": "volcengine/video-to-video-lip-sync",
             "input": {"mode": "lite", "video_url": vid, "audio_url": aud, "align_audio": True}}
+    _gate()
     r = requests.post(f"{API}/createTask", headers=H, json=body, timeout=60).json()
     tid = (r.get("data") or {}).get("taskId")
     if not tid: return shot, f"SUBMIT FAIL {r}"
@@ -55,6 +56,13 @@ def run(shot):
 with cf.ThreadPoolExecutor(7) as ex:
     for s, m in sorted(ex.map(run, PAIRS)): print(s, m)
 from tools.tool_registry import registry
+
+
+def _gate():  # SCRIPT GATE (gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven; job dir = $UGC_JOB or cwd
+    import os as _o, sys as _s, pathlib as _p; _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+    from gate import require; require(_o.environ.get("UGC_JOB") or _o.getcwd())
+
+
 registry.discover()
 for s in PAIRS:
     f = O / f"{s}_vo.mp4"

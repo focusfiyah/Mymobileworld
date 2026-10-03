@@ -8,6 +8,7 @@ body = {"text": text, "model_id": "eleven_v4",
         "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}}
 if not RETIME:
   json.dump({"voice_id": J["voice"]["voice_id"], **body}, open("vo/vo.json", "w"), indent=1)
+  _gate()
   r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{J['voice']['voice_id']}?output_format=mp3_44100_128",
                   json=body, timeout=300); r.raise_for_status()
   open("vo/voiceover.mp3", "wb").write(r.content)
@@ -36,6 +37,13 @@ f += "".join(f"[s{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=0:a
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo/voiceover.mp3", "-filter_complex", f, "-map", "[o]",
                 "-c:a", "libmp3lame", "-b:a", "192k", "vo/voiceover_tight.mp3"], check=True)
 import re
+
+
+def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
+    import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
+    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+
+
 NUM = {"10%": "tenpercent", "10": "ten", "12": "twelve"}  # STT writes numbers either way
 norm = lambda x: "".join(NUM.get(w, w) for w in re.sub(r"[^a-z0-9% ]", "", x.lower()).split())
 i, starts = 0, []

@@ -1,0 +1,77 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)",
+  "rules_applied": [
+   "\u00a71 house rules (no personal-use lines, no false scarcity, one honest caveat, #ad)",
+   "\u00a72 psychology",
+   "\u00a73 hooks + on-screen text",
+   "\u00a74 structure hook>pain>solution>urgency CTA, usual close",
+   "\u00a75 pacing 3.0-3.6 wps"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/tag-vanitydesk.json",
+   "research/shop-vanity-desk.json",
+   "research/videos/7688436582893767967/meta.json",
+   "research/videos/7689632879038532895/meta.json",
+   "research/videos/7689986976409455885/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral-2026-10-03.json",
+   "research/viral_home.txt"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/v1_readability.txt",
+   "research/v2_readability.txt",
+   "research/v3_readability.txt",
+   "research/v4_readability.txt",
+   "research/v5_readability.txt",
+   "research/v6_readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 3.0
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}

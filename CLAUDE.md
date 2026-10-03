@@ -25,6 +25,14 @@ not in a new file.
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
+## Rule 0: the SCRIPT GATE (Ralph, 2026-10-03, after FUSOU shipped without Humanizer: "everything means everything, I shouldn't have to ask")
+- Every job, on your own, before the plan goes to Ralph: run the WHOLE `grace/PLAYBOOK.md` §4 checklist (playbook rules, coach research
+  tag/shop/discover + `video` on the top 3 shop videos, daily `viral` board, product facts, hooks modeled on named winners, `humanizer`, `readability`,
+  source of every line) and save each as a proof file listed in the job's `checklist.json` (`python3 grace/gate.py <job> --init`).
+- `grace/gate.py` is called by EVERY paid runner (Kie, ElevenLabs) and refuses the call until all proofs exist and are newer than the script, and the
+  script has no banned phrase ("order it now", "heads up", dashes...). Before a cut goes to Ralph: coach `compare` vs the top winner (`--stage cut`).
+- Never bypass, edit out or weaken the gate to save time. Show Ralph the gate result in the plan message.
+
 ## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
 1. **Lock the whole plan before the first paid call, in ONE message:** script, every shot, outfit, setting, which shots
    show the face, voiceover vs lip sync on those shots, and the total cost. One approval. Ask everything then, not

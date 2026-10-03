@@ -63,6 +63,8 @@ products follow the same rules.
   she'd filmed hands-only on the beard while the script talked about head curls).
 - Get Grace's real facts before writing (fit, fabric, sheer, pockets, times worn, love/con, styling). Never invent them.
 
+- **ENFORCED by `grace/gate.py` (Ralph 2026-10-03):** every paid runner refuses until the job's `checklist.json` proves each item below with a
+  file newer than the script. Do it unasked, every job, every script change.
 - **Every script uses ALL of these (Ralph 2026-10-01, Vicks VapoShower: "everything" means all of it):** (1) real data
   from the `tiktok-shop-coach` skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their
   hook, format, length, CTA), (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here,

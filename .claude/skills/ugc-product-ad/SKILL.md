@@ -32,6 +32,17 @@ worse output, which is why this file exists.
   "On-camera demo over a voiceover" below (Kie stills + Seedance Mini per shot, lip sync on face shots, free
   edit-list cut). Carpe Mountain Breeze for Grace, 2026-10-01: 35s, $6.60 vs a $2.50 quote; read its lessons.
 
+
+## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
+"Everything means everything." Before ANY plan goes to Ralph and before ANY paid call, run the whole checklist in
+`grace/PLAYBOOK.md` §4 yourself and save proof files in the job folder, listed in `checklist.json`
+(`python3 grace/gate.py <job> --init`): playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
+the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on named winners (spoken + on-screen),
+`humanizer` on the final script and captions, `readability` (grade <= 6), the source of every line, and after the cut
+`tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
+passes; never bypass or weaken it. Show the gate result in the plan message. Banned in scripts: "order it now",
+"heads up", dashes; close with Grace's usual "It's in the orange cart."
+
 ## Working with Ralph: money, questions, tokens (read first, every job)
 
 Ralph's words (2026-10-01): "I don't like time wasted, I like you to be efficient, low usage/token, don't waste money

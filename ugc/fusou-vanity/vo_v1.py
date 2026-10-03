@@ -1,5 +1,12 @@
 """Video 1 voiceover: ElevenLabs Grace B (eleven_v4), word times from the TTS alignment (no extra STT call)."""
 import base64, json, re, requests
+
+
+def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
+    import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
+    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+
+
 LINES = ["Tap it once. Again. Now hold it.",
          "Bathroom light makes your makeup look fine, until you step outside.",
          "This mirror has three light colors and it dims, so you can match wherever you're going.",
@@ -8,6 +15,7 @@ LINES = ["Tap it once. Again. Now hold it.",
 VOICE = "bGrsdLmwBbYUgHRuMFOI"
 text = " ".join(LINES)
 body = {"text": text, "model_id": "eleven_v4", "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}}
+_gate()
 r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}/with-timestamps?output_format=mp3_44100_128", json=body, timeout=300)
 print(r.status_code, r.text[:200] if not r.ok else "")
 r.raise_for_status(); d = r.json()

@@ -3,6 +3,13 @@
   python3 vo.py 2 3 4 5 6   -> vo/vN_voiceover.mp3, vo/vN_words.json, vo/vN_lines.json (lines read from the scripts.md table)
 """
 import base64, json, re, sys, requests
+
+
+def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
+    import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
+    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+
+
 VOICE = "bGrsdLmwBbYUgHRuMFOI"
 SETTINGS = {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}
 md = open("scripts.md").read()
@@ -16,6 +23,7 @@ def lines(n):
 def make(n):
     L = lines(n); text = " ".join(L)
     body = {"text": text, "model_id": "eleven_v4", "voice_settings": SETTINGS}
+    _gate()
     r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}/with-timestamps?output_format=mp3_44100_128", json=body, timeout=300)
     if not r.ok: sys.exit(f"V{n}: {r.status_code} {r.text[:200]}")
     d = r.json(); open(f"vo/v{n}_voiceover.mp3", "wb").write(base64.b64decode(d["audio_base64"]))

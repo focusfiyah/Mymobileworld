@@ -10,6 +10,13 @@ import hashlib, json, os, subprocess, sys, threading, time
 from pathlib import Path
 import requests
 
+
+def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
+    import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
+    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+
+
+
 API = "https://api.kie.ai/api/v1/jobs"
 UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
@@ -67,6 +74,7 @@ def upload(path):
 
 def run_task(body):
     for attempt in range(4):  # Kie answers 500 "server is busy" under load; an immediate retry works
+        _gate()
         r = requests.post(f"{API}/createTask", headers=HDR, json=body, timeout=60)
         resp = r.json() if r.headers.get("content-type", "").startswith("application/json") else {"raw": r.text[:300]}
         tid = (resp.get("data") or {}).get("taskId")

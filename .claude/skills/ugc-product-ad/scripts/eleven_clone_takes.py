@@ -15,6 +15,13 @@ from pathlib import Path
 import requests
 from dotenv import load_dotenv
 
+
+def _gate():  # SCRIPT GATE (gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven; job dir = $UGC_JOB or cwd
+    import os as _o, sys as _s, pathlib as _p; _s.path.insert(0, str(_p.Path(__file__).resolve().parent))
+    from gate import require; require(_o.environ.get("UGC_JOB") or _o.getcwd())
+
+
+
 ap = argparse.ArgumentParser()
 ap.add_argument("clip"); ap.add_argument("out_dir"); ap.add_argument("text")
 ap.add_argument("--keep", nargs="+", default=[]); ap.add_argument("--voice-id"); ap.add_argument("--name", default="clip voice")
@@ -33,6 +40,7 @@ if not vid:
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", a.clip, "-vn", "-filter_complex", fc, "-map", "[o]", "-ac", "1",
                     str(sample)], check=True)
     with open(sample, "rb") as f:
+        _gate()
         r = requests.post("https://api.elevenlabs.io/v1/voices/add", headers=H, data={"name": a.name},
                           files=[("files", (sample.name, f, "audio/wav"))], timeout=120)
     r.raise_for_status()
@@ -46,6 +54,7 @@ TAKES = {  # t2 won on Bruise Cream (clearest once spliced in context); keep the
     "t3": ("eleven_v3", {"stability": 0.5, "similarity_boost": 0.9}),
 }
 for name, (model, vs) in TAKES.items():
+    _gate()
     r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}?output_format=mp3_44100_128", headers=H,
                       json={"text": a.text, "model_id": model, "voice_settings": vs}, timeout=120)
     print(name, model, r.status_code)
