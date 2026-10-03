@@ -660,5 +660,265 @@
    ]
   },
   "costTime": 142
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "128ad0042eeb64801bf0d444e124ab71",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "e0c7aa1b3436b4d1fc307bb1c7e96d3e",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "ca001cfff5aa4f515e5e97bfe151bc04",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "c7af034621e16d8e6546c586056b1b08",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "b4783f47e4ef6e793c165f26f471958b",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "9012ce142f04da66d240f494c98ae21c",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "1e8cb0c4da764001f21eacbefb853b02",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "afb0b4bc5f48f9b3980e52310d3817da",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:41",
+  "submitted": "589628c0dc671e2e4c014a7a31fd3b89",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:15:42",
+  "submitted": "821da8bc7f1a6436cebefe4cfac5a79a",
+  "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly "
+ },
+ {
+  "t": "2026-10-03 03:17:09",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The fingertips grip the left edge of the tall mirror door and pull it open only a few inches, slowly, then stop. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339417-kjeruoh51j.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c7af034621e16d8e6546c586056b1b08",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997426419-mdplcb2f7h.mp4"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-10-03 03:17:10",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The fingertips hold the crystal knob and slowly pull the stool's top drawer open a few inches, then stop. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339458-4c29vimljfq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b4783f47e4ef6e793c165f26f471958b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997422163-s1ju0jx8p4.mp4"
+   ]
+  },
+  "costTime": 83
+ },
+ {
+  "t": "2026-10-03 03:17:27",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The index fingertip moves a little closer and points at the two USB ports, then at the outlet below, then holds still. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339308-thiq17sutr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "128ad0042eeb64801bf0d444e124ab71",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997441531-bx24cp1be0u.mp4"
+   ]
+  },
+  "costTime": 103
+ },
+ {
+  "t": "2026-10-03 03:17:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The fingers pick up one lipstick from the tray, then set it back down neatly in the tray, and the hand lifts away slightly. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339400-qw400rv2mzi.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "1e8cb0c4da764001f21eacbefb853b02",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997446164-uwzatjttxqs.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-03 03:17:40",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The index fingertip taps the clear glass desk top twice, right above the open top drawer, then the hand rests on the glass. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339297-bbofg51j6a.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e0c7aa1b3436b4d1fc307bb1c7e96d3e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997452149-oboc50ll2fr.mp4"
+   ]
+  },
+  "costTime": 118
+ },
+ {
+  "t": "2026-10-03 03:17:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The thumb and index finger pick one lipstick out of the small lipstick tray on the glass top and lift it up a few centimetres, then hold it. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339356-njutuuqxvoj.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ca001cfff5aa4f515e5e97bfe151bc04",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997457340-o94h8lytnul.mp4"
+   ]
+  },
+  "costTime": 118
+ },
+ {
+  "t": "2026-10-03 03:17:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. Both hands slowly sweep the messy makeup together into one pile in the middle of the counter. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. The counter, sink and wall stay the same. No sound. No on-screen text. No brand names.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339312-xtja9m2vp3.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "589628c0dc671e2e4c014a7a31fd3b89",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997453823-by2budkqle4.mp4"
+   ]
+  },
+  "costTime": 113
+ },
+ {
+  "t": "2026-10-03 03:17:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. Both hands gather the makeup into a neat pile, then straighten the lipsticks into a row. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. The counter, sink and wall stay the same. No sound. No on-screen text. No brand names.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339506-q5nbk5bbeb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "afb0b4bc5f48f9b3980e52310d3817da",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997460760-9mjantxvwhc.mp4"
+   ]
+  },
+  "costTime": 120
+ },
+ {
+  "t": "2026-10-03 03:17:54",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The index fingertip taps the two USB ports once, then moves down and points at the outlet below, then holds. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339429-w52bgokdcdk.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "821da8bc7f1a6436cebefe4cfac5a79a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997463010-a2whm2utiqm.mp4"
+   ]
+  },
+  "costTime": 129
+ },
+ {
+  "t": "2026-10-03 03:18:38",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera on a tripod: the camera does NOT move, no zoom, no push-in, no pan, no shake; the frame stays exactly the same for the whole clip. The fingers take hold of the black plug in the top outlet and press it firmly in, then let go and the hand rests. Only the hand is in frame: the wrist stays at the frame edge, the forearm never enters. Fingers stay anatomically correct (five fingers), long almond nails with glossy dusty mauve polish and thin white French tips. Movements are slow and natural. Nothing else moves or changes: every drawer, knob, shelf item and the wall stay exactly the same. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790997339464-a0emy8uju9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9012ce142f04da66d240f494c98ae21c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1790997507165-29ss3ocb3rz.mp4"
+   ]
+  },
+  "costTime": 170
  }
 ]
