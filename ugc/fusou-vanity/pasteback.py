@@ -6,6 +6,7 @@ AI image is aligned to BASE (ORB + RANSAC affine), colour-matched, then a diff m
 Writes OUT and OUT_mask.png (white = AI pixels kept) so the mask can be checked.
 """
 import os, subprocess, sys
+from pathlib import Path
 import cv2, numpy as np
 
 T = 30          # per-pixel diff (0-255) above which the AI pixel is kept
@@ -92,9 +93,14 @@ def video(base, src, out, zone=0):
         for c, (bm, bs, am, as_) in enumerate(gains): o[..., c] = (o[..., c] - am) * (bs / as_) + bm
         return np.clip(o, 0, 255)
     al = [cm(a) for a in al]; bf = base.astype(np.float32)
+    static = np.zeros((h, w), bool); static[:zone or h // 2] = True                  # area with no hand
+    ref = al[0][static].mean(0)
+    al = [np.clip(a * (ref / np.maximum(a[static].mean(0), 1)), 0, 255) for a in al]  # hold exposure + white balance steady
     lit = (al[-1].mean(2) - bf.mean(2)) > 45                               # LED ring only: much brighter in the last (lit) frame
     lit = cv2.morphologyEx(lit.astype(np.uint8), cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
     lit = cv2.morphologyEx(lit, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(lit)
+    if n > 1: lit = (lab == 1 + int(np.argmax(st[1:, 4]))).astype(np.uint8)   # only the LED ring (largest shape), not stray edges
     hand_any = np.zeros((h, w), np.uint8)
     hand_masks, prev = [], None
     for a in al:
@@ -111,14 +117,21 @@ def video(base, src, out, zone=0):
         hand_masks.append(cv2.dilate(d, np.ones((13, 13), np.uint8)).astype(np.float32))
         prev = cv2.dilate(d, np.ones((41, 41), np.uint8)) if d.any() else prev
     ring = cv2.GaussianBlur(cv2.dilate(lit, np.ones((11, 11), np.uint8)).astype(np.float32), (31, 31), 0)
+    lum = np.array([a[lit > 0].mean() for a in al]); on = int(np.argmax(np.diff(lum))) + 1  # first lit frame
+    plate = al[min(on + 5, len(al) - 1)]                                     # ONE lit ring, held steady (no AI drift)
+    FADE = round(0.25 * fps)                                                 # LED soft-start, like a dimmable mirror
+    print(f"lights on at frame {on} ({on / fps:.2f}s), fade {FADE} frames")
+    if os.environ.get("PB_ON_FILE"): Path(os.environ["PB_ON_FILE"]).write_text(f"{on / fps:.3f} {FADE / fps:.3f}")
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{w}x{h}", "-r", str(fps),
                            "-i", "-", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
     shares = []
     for i, a in enumerate(al):
         hm = np.max(hand_masks[max(0, i - 1):i + 2], axis=0)                 # +-1 frame: a fast finger never gets clipped
-        m = np.maximum(cv2.GaussianBlur(hm, (21, 21), 0), ring)[..., None]
+        k = float(np.clip((i - on + 1) / FADE, 0, 1)); k = k * k * (3 - 2 * k)      # smooth 0->1 fade of the ring
+        bg = bf * (1 - ring[..., None] * k) + plate * ring[..., None] * k       # real photo + steady lit ring
+        mh = cv2.GaussianBlur(hm, (21, 21), 0)[..., None]
         if os.environ.get("PB_DEBUG") and i == 72: cv2.imwrite(os.environ["PB_DEBUG"], np.hstack([hm * 255, ring * 255]).astype(np.uint8))
-        ff.stdin.write((a * m + bf * (1 - m)).astype(np.uint8).tobytes()); shares.append(float(m.mean()))
+        ff.stdin.write((a * mh + bg * (1 - mh)).astype(np.uint8).tobytes()); shares.append(float(np.maximum(mh[..., 0], ring).mean()))
     ff.stdin.close(); ff.wait()
     sc = np.hypot(As[:, 0, 0], As[:, 1, 0])
     print(f"frames {len(al)}  AI share min/max {min(shares):.3f}/{max(shares):.3f}  ring {ring.mean():.3f}  scale {sc.min():.3f}/{sc.max():.3f}")
