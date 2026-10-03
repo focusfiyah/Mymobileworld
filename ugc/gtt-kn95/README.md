@@ -2,9 +2,9 @@
 
 **Client: Grace** (Ralph, 2026-10-03). Hands-only + ElevenLabs Grace B voiceover (`bGrsdLmwBbYUgHRuMFOI`, eleven_v4). Route: `ugc-product-ad` hands-only (template `../vicks-vaposhower/`). Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-03 script v2 (Grace structure, simple words, 110 words, ~33s, grade 1.6) waiting on Ralph's review. $0 spent. Gate OK (plan). Quote ~$2.02 Kie (7 stills $0.63 + 34s clips $1.39). Next: Ralph reviews script + answers the 5 questions, approves cost, then VO, still S1, test clip S2. Kie balance $10.82.**
+Status: **2026-10-03 script v2 + matched shot list (10 shots, one AI-Grace face shot S4 with the mask on, no lip sync) waiting on Ralph. $0 spent. Gate OK (plan). Quote $2.75 Kie full / $2.24 lean. Next: Ralph answers questions, approves, then VO, still S1, test clip S2b. Kie balance $10.82.**
 
-Quote: stills 7 x $0.09 = $0.63; clips 34s x $0.041 = $1.39; VO ~541 chars ElevenLabs; cut/pop-up/SFX free; total Kie **$2.02** (+~$0.25 per redone shot, each asked first).
+Quote (full match): 10 stills x $0.09 = $0.90; clips 45s x $0.041 = $1.85; VO ~534 chars ElevenLabs; cut/pop-up/SFX free; total Kie **$2.75**. Lean option: drop S2a + S5c, $2.24. Face shot S4 needs no lip sync (mask covers mouth). +~$0.25 per redone shot, each asked first.
 Compliance: dust/outdoor angle only (the listing's own pitch); no illness, no N95/NIOSH/FDA, no layer count (listing says 4-layer in title, 5-layer in image: ask Grace), no price.
 Refs: `refs/tiktok_listing.jpg` (screenshot), `refs/crop_black_set.png` (real box + mask packshot crop for the pop-up). Research + gate proofs: `research/`, `checklist.json`.
 
