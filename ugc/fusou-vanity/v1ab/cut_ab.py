@@ -64,7 +64,7 @@ def m1_shot(v, t_start, t_ring, ss_max=1.3):    # tap clip: LED ring comes on at
 
 
 def lights_shot(v, t0, t_warm, t_dip0, t_yellow):   # V1S3 in the dark room: cold white -> warm white -> dip -> warm yellow
-    return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [0, 0.01], "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}, "zoomout": 1})
+    return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [-0.2, -0.1], "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}, "zoomout": 1})
 
 
 def EDL(v):
@@ -94,9 +94,9 @@ def EDL(v):
     return edl, taps, end
 
 
-def ring_box(frame, side="L"):
+def ring_box(frame, landscape=False):
     g = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY); m = (g > 225).astype(np.uint8); m = cv2.dilate(m, np.ones((9, 9), np.uint8))
-    n, lab, st, _ = cv2.connectedComponentsWithStats(m); i = max(range(1, n), key=lambda k: st[k, 2] * st[k, 3]); return st[i, :4]   # x, y, w, h of the biggest bright ring
+    n, lab, st, _ = cv2.connectedComponentsWithStats(m); i = max([k for k in range(1, n) if (not landscape or st[k, 2] > st[k, 3])], key=lambda k: st[k, 2] * st[k, 3]); return st[i, :4]   # x, y, w, h of the biggest bright ring
 
 
 def zoomout(prev_file, file, dur=0.7):
@@ -107,7 +107,7 @@ def zoomout(prev_file, file, dur=0.7):
         ok, f = cap.read()
         if not ok: break
         frames.append(f)
-    bx, by, bw, bh = ring_box(last); wx, wy, ww, wh = ring_box(frames[0]); z0 = bw / ww
+    bx, by, bw, bh = ring_box(last, True); wx, wy, ww, wh = ring_box(frames[0], True); print("boxes", (bx, by, bw, bh), (wx, wy, ww, wh), flush=True); z0 = bw / ww
     # mirror ring in the wide frame (wx,wy,ww,wh) must land on its close-up place (bx,by,bw,bh) at t=0 and on itself at the end
     cx, cy = wx + ww / 2, wy + wh / 2; dx, dy = bx + bw / 2, by + bh / 2; k = round(dur * FPS)
     out = file + ".z.mp4"
@@ -115,7 +115,7 @@ def zoomout(prev_file, file, dur=0.7):
                            "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
     for i, f in enumerate(frames):
         if i < k:
-            e = i / k; e = e * e * (3 - 2 * e); z = z0 + (1 - z0) * e; px = dx + (cx - dx) * e; py = dy + (cy - dy) * e
+            e = i / k; e = 1 - (1 - e) ** 3; z = z0 + (1 - z0) * e; px = dx + (cx - dx) * e; py = dy + (cy - dy) * e
             f = cv2.warpAffine(f, np.float32([[z, 0, px - z * cx], [0, z, py - z * cy]]), (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
         ff.stdin.write(f.tobytes())
     ff.stdin.close(); ff.wait(); os.replace(out, file); print("zoomout z0 %.2f" % z0, flush=True)
