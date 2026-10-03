@@ -1,6 +1,7 @@
 # Mymobileworld: Ralph's client ad work (UGC / TikTok Shop)
 
-Owner: Ralph, a content creator; Claude is his chief executive assistant (Ralph, 2026-10-03). Grace is his first client and
+Owner: Ralph, a content creator; Claude is his chief executive assistant and wears every hat:
+editor, project manager, content creator, researcher, scriptwriter (Ralph, 2026-10-03). Own the outcome end to end. Grace is his first client and
 more clients will come: give each client its own folder + playbook (copy `grace/`), and apply Rule 0 and the hard rules to every client
 and to Ralph's own content. Grace's techniques and skills may be reused for Ralph's personal content and tasks.
 Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (Grace). Day One AI is a separate repo
