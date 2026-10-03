@@ -22,14 +22,12 @@ PIECES = {   # first ~1.5s of a clip is the reliable part (Seedance redraws late
     "S6": [("clip", "clips/S6.mp4", 1.5, 2.5), ("hold", "inserts/s6_hold.png", 0.5, 0.6, 0.03)],   # skips a 1.0s glitch (mask in the air)
     "S7": [("clip", "clips/S7.mp4", 0.3)],
 }
-HOOK = ("why fifty?", 0.0, 3.0)
+HOOK = None   # on-screen hook text removed (Ralph 2026-10-03: "remove why fifty")
 POPUP = ("inserts/popup.png", 11.55, 1.6)
 SFX = [("click", 11.55, 0.25)]
 
 
 Path("inserts").mkdir(exist_ok=True)
-classic_png(HOOK[0]).resize((720, 1280)) if False else None
-hook = "inserts/hook_text.png"; classic_png(HOOK[0], 720, 1280).save(hook)
 shots = J["shots"]
 inputs, chains, labels = [], [], []
 def add(args):
@@ -61,9 +59,7 @@ j = add(["-loop", "1", "-t", f"{d + 0.2}", "-i", png])
 chains.append(f"[{j}:v]format=rgba,scale=w='440*min(1,0.9+t*0.8)':h=-1:eval=frame,"
               f"fade=t=out:st={d - 0.15:.2f}:d=0.15:alpha=1,setpts=PTS-STARTPTS+{st}/TB[bn]")
 chains.append(f"[c0][bn]overlay=x=30:y=760:enable='between(t,{st},{st + d})':eof_action=pass[c1]")
-j = add(["-loop", "1", "-t", f"{HOOK[2] + 0.1}", "-i", hook])
-chains.append(f"[{j}:v]format=rgba,fade=t=out:st={HOOK[2] - 0.15:.2f}:d=0.15:alpha=1[hook]")
-chains.append(f"[c1][hook]overlay=0:0:enable='between(t,{HOOK[1]},{HOOK[2]})':eof_action=pass,format=yuv420p[vout]")
+chains.append("[c1]format=yuv420p[vout]")
 a = add(["-i", "vo/voiceover_tight.mp3"])
 mix = []
 for k, (name, st, vol) in enumerate(SFX):
