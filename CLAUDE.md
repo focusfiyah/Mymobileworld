@@ -82,6 +82,12 @@ not in a new file.
 - **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
   so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. README Status line.
 
+- **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
+  Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
+  https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e; v2 (no prices, sell-side lines, Grace's
+  Shnuggle angles) also in Drive as a Google Doc: Grace Tiktok assets/"Grace scripts - Bobbi Brown, Elasco, Shnuggle
+  (2026-10-02)" (id 1G7k7zJMwuGc0va2Qc7UHfJFszyIwmYd13b3PS-RXiRU). Drive copy doesn't sync: re-upload after edits.
+
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 
