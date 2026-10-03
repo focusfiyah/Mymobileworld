@@ -64,7 +64,7 @@ def m1_shot(v, t_start, t_ring, ss_max=1.3):    # tap clip: LED ring comes on at
 
 
 def lights_shot(v, t0, t_warm, t_dip0, t_yellow):   # V1S3 in the dark room: cold white -> warm white -> dip -> warm yellow
-    return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [0, 0.01], "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}})
+    return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [0, 0.01], "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}, "zoomout": 1})
 
 
 def EDL(v):
@@ -72,8 +72,8 @@ def EDL(v):
     if v == "A":
         L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s2, s3, s4 = L[1], L[2], L[3]
         w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
-        t_in = s4 - 4.6                                            # V1S3 plays its full ~4.6 s up to the storage line
-        m1, tap = m1_shot(v, s3, w("three")); taps = [tap, w("adjustable") - 0.05, w("so") - 0.05]
+        m1, tap = m1_shot(v, s3, w("three")); t_in = tap + 0.92; assert s4 - t_in <= 5.0   # V1S3 starts as the hand leaves; zoom-out bridge
+        taps = [tap, w("adjustable") - 0.05, w("so") - 0.05]
         edl = [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": None})),
                (3.4, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - 3.4 - 0.1})),
                (s3, m1), (t_in, lights_shot(v, t_in, w("adjustable"), w("brightness") - 0.1, w("so"))),
@@ -87,11 +87,38 @@ def EDL(v):
         w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
         edl = [(0, ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": None})),
                (w("then") - 0.1, ("clip", "clips/B1b.mp4", 0, {"blur": (190, 335), "grade": w("step") - (w("then") - 0.1) - 0.1})),
-               (s2, m1), (s3, lights_shot(v, s3, w("adjustable"), w("brightness") - 0.1, w("so"))),
-               (min(s4, s3 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})),
+               (s2, m1), (tap + 0.92, lights_shot(v, tap + 0.92, w("adjustable"), w("brightness") - 0.1, w("so"))),
+               (min(s4, tap + 0.92 + 5.0), ("clip", "clips/V1S5.mp4", 0, {})),
                (w4("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w4("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
                (w4("jewelry") - 0.15, ("clip", "clips/M4a.mp4", 0.7, {})), (L[4], ("kb",) + WIDE + ({"zoom": 1.08},))]
     return edl, taps, end
+
+
+def ring_box(frame, side="L"):
+    g = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY); m = (g > 225).astype(np.uint8); m = cv2.dilate(m, np.ones((9, 9), np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(m); i = max(range(1, n), key=lambda k: st[k, 2] * st[k, 3]); return st[i, :4]   # x, y, w, h of the biggest bright ring
+
+
+def zoomout(prev_file, file, dur=0.7):
+    """Pull-back bridge: the lit-mirror close-up (last frame of prev_file) widens into the room (file). Free, one smooth ease, no bounce."""
+    cp = cv2.VideoCapture(prev_file); n = int(cp.get(7)); cp.set(1, n - 1); _, last = cp.read()
+    cap = cv2.VideoCapture(file); frames = []
+    while True:
+        ok, f = cap.read()
+        if not ok: break
+        frames.append(f)
+    bx, by, bw, bh = ring_box(last); wx, wy, ww, wh = ring_box(frames[0]); z0 = bw / ww
+    # mirror ring in the wide frame (wx,wy,ww,wh) must land on its close-up place (bx,by,bw,bh) at t=0 and on itself at the end
+    cx, cy = wx + ww / 2, wy + wh / 2; dx, dy = bx + bw / 2, by + bh / 2; k = round(dur * FPS)
+    out = file + ".z.mp4"
+    ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+                           "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
+    for i, f in enumerate(frames):
+        if i < k:
+            e = i / k; e = e * e * (3 - 2 * e); z = z0 + (1 - z0) * e; px = dx + (cx - dx) * e; py = dy + (cy - dy) * e
+            f = cv2.warpAffine(f, np.float32([[z, 0, px - z * cx], [0, z, py - z * cy]]), (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
+        ff.stdin.write(f.tobytes())
+    ff.stdin.close(); ff.wait(); os.replace(out, file); print("zoomout z0 %.2f" % z0, flush=True)
 
 
 def build(v):
@@ -99,6 +126,8 @@ def build(v):
     starts = [s for s, _ in edl] + [end]
     assert all(b > a for a, b in zip(starts, starts[1:])), f"{v}: starts not increasing {starts}"
     files = [render(i, sh, starts[i + 1] - starts[i], tag) for i, (_, sh) in enumerate(edl)]
+    for i, (_, sh) in enumerate(edl):
+        if sh[0] == "clip" and sh[3].get("zoomout"): zoomout(files[i - 1], files[i])
     open(f"{TMP}/{tag}_list.txt", "w").write("".join(f"file '{f}'\n" for f in files))
     run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/{tag}_list.txt", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", f"{TMP}/{tag}_cat.mp4")
     t3 = three_boxes(v) if v == "A" else None; vo = f"{V}/vo/v{v}_final.wav"
