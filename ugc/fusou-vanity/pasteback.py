@@ -103,22 +103,27 @@ def video(base, src, out, zone=0):
     if n > 1: lit = (lab == 1 + int(np.argmax(st[1:, 4]))).astype(np.uint8)   # only the LED ring (largest shape), not stray edges
     hand_any = np.zeros((h, w), np.uint8)
     hand_masks, prev = [], None
+    base_skin = cv2.dilate(skin(base), np.ones((5, 5), np.uint8))          # nude lipsticks, wood: skin-coloured in the REAL photo = never the hand
     for a in al:
-        d = (np.abs(a - bf).max(2) > T).astype(np.uint8) & cv2.dilate(skin(a.astype(np.uint8)), np.ones((9, 9), np.uint8))
+        d = (np.abs(a - bf).max(2) > T).astype(np.uint8) & skin(a.astype(np.uint8)) & (1 - base_skin)
         d[:zone] = 0                                                        # hand can only be below this row (per shot)
-        d = cv2.morphologyEx(d, cv2.MORPH_CLOSE, np.ones((21, 21), np.uint8))
-        n, lab, st, _ = cv2.connectedComponentsWithStats(d)
+        d = cv2.morphologyEx(d, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+        n, lab, st, _ = cv2.connectedComponentsWithStats(d)                 # pick the hand BEFORE closing, so items never merge into it
         edge = lambda i: st[i, 1] + st[i, 3] >= h - 2 or st[i, 0] + st[i, 2] >= w - 2   # the hand enters from the bottom/right edge
-        keep = [i for i in range(1, n) if st[i, 4] > MIN_AREA * d.size and edge(i)]
+        keep = [i for i in range(1, n) if st[i, 4] > MIN_AREA * d.size and (edge(i) or (prev is not None and (prev[lab == i] > 0).any()))]
         if prev is not None:   # track: keep only blobs that overlap last frame's hand
-            keep = [i for i in keep if (prev[lab == i] > 0).any()] or keep[:0]
+            keep = [i for i in keep if (prev[lab == i] > 0).any()]
         d = np.isin(lab, keep).astype(np.uint8)
+        d = cv2.morphologyEx(d, cv2.MORPH_CLOSE, np.ones((15, 15), np.uint8))
         cs, _ = cv2.findContours(d, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE); cv2.drawContours(d, cs, -1, 1, cv2.FILLED)
-        hand_masks.append(cv2.dilate(d, np.ones((13, 13), np.uint8)).astype(np.float32))
-        prev = cv2.dilate(d, np.ones((41, 41), np.uint8)) if d.any() else prev
+        hand_masks.append(cv2.dilate(d, np.ones((9, 9), np.uint8)).astype(np.float32))
+        prev = cv2.dilate(d, np.ones((31, 31), np.uint8)) if d.any() else prev
     ring = cv2.GaussianBlur(cv2.dilate(lit, np.ones((11, 11), np.uint8)).astype(np.float32), (31, 31), 0)
     lum = np.array([a[lit > 0].mean() for a in al]); on = int(np.argmax(np.diff(lum))) + 1  # first lit frame
-    plate = al[min(on + 5, len(al) - 1)]                                     # ONE lit ring, held steady (no AI drift)
+    lit_f = al[min(on + 5, len(al) - 1)]                                     # ONE lit frame, held steady (no AI drift)
+    L, Lb = lit_f.mean(2), bf.mean(2)
+    wl = np.clip((L - 190) / 40, 0, 1)[..., None]                            # only where the AI shows near-white LED light
+    plate = np.clip(bf + np.maximum(L - Lb, 0)[..., None] * wl, 0, 255)      # ADD light to the real photo: items keep their real look
     FADE = round(0.25 * fps)                                                 # LED soft-start, like a dimmable mirror
     print(f"lights on at frame {on} ({on / fps:.2f}s), fade {FADE} frames")
     if os.environ.get("PB_ON_FILE"): Path(os.environ["PB_ON_FILE"]).write_text(f"{on / fps:.3f} {FADE / fps:.3f}")
