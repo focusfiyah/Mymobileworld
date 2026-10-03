@@ -64,4 +64,4 @@ Setup note: coach needs `pip install playwright` and `apt-get install libnss3-to
 | Cut: label close-up insert (image, no text), CC0 SFX (jar shake, cap), loudnorm; Drive upload | free |
 | **Total** | **$1.99** (+ ~$0.25 per redone shot, each redo asked first) |
 
-Running total: $1.68 spent of the $1.69 quote (VO plan chars twice; stills 9 = $0.81 incl. two redos each of S2/S7 wasted $0.27; clips S1/S3/S5/S6 = $0.69).
+Running total: $1.69 spent of the $1.69 quote (matches the Kie balance drop: 11 stills = $0.99 of which the first S2/S7 pair and the juice-cropped S2 were redone, 4 clips S1/S3/S5/S6 = $0.70).
