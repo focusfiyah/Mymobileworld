@@ -4,12 +4,14 @@
 4.9★/83, 648 sold, white or black). Brief: Grace's hands only, voiceover = ElevenLabs Grace B (not Grace's own recording), 6 video styles × 6 scripts,
 short, no text burned in (give on-screen text options), share in Drive. Rules: `grace/PLAYBOOK.md`.
 
-Status: **VIDEO 1 rough cut v2 (no hand glide, silent, 20.0s) `out/video1_lights_roughcut_v2.mp4`; v1 `out/video1_lights_roughcut.mp4`. Ralph's notes (2026-10-02):
-(1) the hand looks big: it is the FINAL footage, not a preview: the hand reaches in from near the camera so it fills ~40% of the frame height in S1
-(S4 had it spanning the vanity); (2) VOICE = ElevenLabs Grace B, NOT Grace's own recording (I had assumed Grace records it; fixed in scripts.md/README);
-(3) drop the S4 hand glide: done (S4 = V1S5 static wide 0-3s, S5 = V1S2 push-in 4s + 2s hold). Timings are still the script estimates (3.3 words/s);
-real timings come from the Grace B voiceover (331 chars, ~62 words, ElevenLabs credits, no Kie cost), then recut. Waiting on Ralph: OK to make the
-Grace B voiceover, and what to do with the S1 hand (keep / drop the hand from S1 free / regenerate smaller $0.25). Spent $1.94 of Kie (balance 1651.8 -> 1263.6).**
+Status: **VIDEO 1 rough cut v3 (no hand anywhere, silent, 20.0s) `out/video1_lights_roughcut_v3.mp4` (Ralph chose the free option for S1: lights cycle with no
+hand; S3 = V1S3 reversed; v1/v2 kept). Ralph sent 4 example TikToks (all this same FUSOU 71"): 1.2M @estefany_m_27 (53s, 0.43% saves), 2.1M @sdbby88
+(33s, 0.84% saves, the hands one), 2.0M @fusou_furniture (57s), 7.2M @gaspari_12 (48s). Style: handheld walk-through, wide -> close -> wide, ends on
+the whole vanity; same feature order (whole vanity, lit standing mirror, cabinet behind the mirror full of products, glass top + diamond knobs,
+power station + dryer holder, stool drawers, 3 light colours, link); hands are small, at the frame edge, only pointing/opening in MID-CLOSE shots,
+never in a wide; vanity is filled with products; 4.4 words/s, 2.7 cuts/10s (ours: 0.5 cuts/10s, locked-off = too static). Waiting on Ralph: (1) OK
+to make the Grace B voiceover (V1: 331 chars of ElevenLabs credits, no Kie cost; real word timings then recut), (2) OK to redesign Videos 1-6 to this
+style (more cuts, mid-close shots from the REAL close-up listing photos with a small hand) with a locked plan + exact total BEFORE any spend. Spent $1.94 Kie.**
 
 - `scripts.md`: the 6 scripts (time / voice / hands shot), 3 on-screen hook options + post caption per video,
   product facts with sources, research notes. Same content as the Drive doc.
