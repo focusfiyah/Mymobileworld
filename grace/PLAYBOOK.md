@@ -10,6 +10,12 @@ products follow the same rules.
 ## 1. House rules (never break)
 - **No personal-use lines** ("I use it", "it worked for me", "smells like…") unless true for Grace. Review
   findings are "reviewers say", never her experience.
+- **Grace's point of view, every script** (Ralph 2026-10-03, after the Anemiaprin v2 scripts read like a nurse
+  lecturing): write it as Grace talking to her friends ("girls", "this is the one I'd show you", "here's what I want
+  you to know"), reading the label in her hand and giving her opinion. Never an expert or educator voice ("as a nurse",
+  "you're taking it wrong" lectures). When the viral model is an expert's video, copy its format (numbered tips, label
+  read, comment reply), not its voice. Facts stay, said the way she'd pass them on. Life details that may not be true
+  for her ("me at 3pm every day") get an [only if true] tag plus a neutral version ("who else is done by three?").
 - **No false scarcity.** No "selling out" / "ends tonight". Use "don't put it off" or a real seasonal reason.
 - **Exact claim wording** from the label or listing. Never "cures / kills / fixes", never a timeframe unless the
   label gives one ("clinically tested… up to 100 hours when used as directed" is fine because the label says it).
@@ -148,6 +154,10 @@ products follow the same rules.
   the vanity edge; Ralph caught it): free fix = crop the frame to end at the object's base.
 - 2026-10-01 Viking Revolution Curl Cream for Men: script v5 (~25s, $0) for Grace's hands-only footage of it on her
   husband's beard (curiosity loops, pain, real urgency); Grace records it next, `ugc/viking-curl-cream/README.md`. Ralph's structure: hook, problem, product, experience, benefit, CTA.
+
+- 2026-10-03 Anemiaprin (Approved Science iron): 3 talking-head scripts ($0), reworked from coach data (top iron videos = numbered
+  "how to take iron" tips, coffee blocks iron, label read; 5-6% saves), then rewritten in Grace's voice (new §1 rule).
+  Google Doc in Drive "Anemiaprin scripts (2026-10-03)".
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
