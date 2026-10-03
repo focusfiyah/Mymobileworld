@@ -29,7 +29,7 @@ ROOM = "stills/S1.png"  # first approved still doubles as the room reference
 
 def blocks(sid):
     s = SHOTS[sid]
-    return " ".join([J["identity_block"]] + ([J["box_block"]] if s["box"] else []) + ([J["mask_block"]] if s["mask"] else [])
+    return " ".join([J["face_block"] if s.get("face") else J["identity_block"]] + ([J["box_block"]] if s["box"] else []) + ([J["mask_block"]] if s["mask"] else [])
                     + ([J["wrap_block"]] if s["wrap"] else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}

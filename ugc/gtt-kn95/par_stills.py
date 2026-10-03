@@ -8,7 +8,7 @@ import kie
 
 def one(sid):
     s = kie.SHOTS[sid]
-    refs = [kie.upload(p) for p in kie.HAND] + ([kie.upload(kie.PROD)] if (s["box"] or s["mask"] or s["wrap"]) else [])
+    refs = ([kie.upload("refs/grace_reference_sheet.png")] if s.get("face") else []) + [kie.upload(p) for p in kie.HAND] + ([kie.upload(kie.PROD)] if (s["box"] or s["mask"] or s["wrap"]) else [])
     room = [kie.upload("stills/S1.png")]
     prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} {kie.blocks(sid)} {kie.J['scene_block']}"
               " The last reference image shows the same garage, light and bench: match them.")
