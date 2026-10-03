@@ -8,8 +8,8 @@ import kie
 def one(sid):
     s = kie.SHOTS[sid]
     refs = [kie.upload(p) for p in kie.REFS]
-    base = refs[:2] if sid in kie.NO_JAR else refs
-    room = [kie.upload(kie.ROOM)] if Path(kie.ROOM).exists() else []
+    base = [] if sid == "S2" else (refs[2:] if sid in kie.NO_HAND else refs)
+    room = [kie.upload(kie.ROOM)] if Path(kie.ROOM).exists() and sid not in kie.NO_HAND else []  # S1 shows a hand and the jar
     prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
               f"{kie.blocks(sid)} {kie.J['scene_block']}"
               + (" The last reference image shows the same kitchen, light and counter: match them." if room else ""))
