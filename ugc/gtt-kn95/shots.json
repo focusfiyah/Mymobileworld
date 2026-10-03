@@ -34,7 +34,8 @@
    "t": [
     0.0,
     3.48
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S2a",
@@ -49,7 +50,8 @@
    "t": [
     3.48,
     4.6
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S2b",
@@ -64,7 +66,8 @@
    "t": [
     4.6,
     8.82
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S3",
@@ -79,14 +82,15 @@
    "t": [
     8.82,
     15.16
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S4",
    "beat": "solution",
    "vo": "They're shaped like a fish to fit your face, and the loops stretch.",
-   "still": "Close-up at the garage workbench: the hand holds one black fish-shape mask up in side profile so its pointed fish shape shows; the other hand's finger and thumb hold one ear loop. Garage blurred behind.",
-   "video": "Shot 4: the finger and thumb pull the ear loop out so the elastic stretches, then let it snap back; the mask stays in the other hand, steady. Locked-off camera on a tripod.",
+   "still": "Chest-up shot at the garage workbench with the open garage door and autumn light behind her: Grace faces the camera with a black fish-shape mask on her face, both hands up beside her cheeks holding the elastic ear loops at her ears as if she has just pulled them over, eyes looking into the lens, relaxed brows.",
+   "video": "Shot 4: Grace tugs the two ear loops over her ears with both hands, the black mask settles snugly on her face, she pats it flat once with her fingertips and lowers her hands, eyes to the lens, mouth hidden behind the mask the whole time. Locked-off camera on a tripod.",
    "dur": 4,
    "box": false,
    "mask": true,
@@ -94,7 +98,8 @@
    "t": [
     15.16,
     18.4
-   ]
+   ],
+   "face": true
   },
   {
    "id": "S5a",
@@ -109,7 +114,8 @@
    "t": [
     18.4,
     19.46
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S5b",
@@ -124,7 +130,8 @@
    "t": [
     19.46,
     20.86
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S5c",
@@ -139,7 +146,8 @@
    "t": [
     20.86,
     22.1
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S6",
@@ -154,7 +162,8 @@
    "t": [
     22.1,
     25.0
-   ]
+   ],
+   "face": false
   },
   {
    "id": "S7",
@@ -170,7 +179,9 @@
    "t": [
     25.0,
     30.43
-   ]
+   ],
+   "face": false
   }
- ]
+ ],
+ "face_block": "The person is Grace, exactly the woman in the first reference image (a character sheet with a front view and two three-quarter views): medium-dark brown skin, defined arched brows, almond dark-brown eyes, long knotless boho braids with loose curly ends worn half-up with the long curls falling over one shoulder, a thin gold chain with a small round pendant at her neck. She wears the same fitted brown long-sleeve top as in the reference images, no tee. Her brows are relaxed and her forehead smooth, no wrinkles. A black fish-shape mask is already on her face covering her nose and mouth completely, so her mouth is never visible; she is not speaking. Her hands have medium-dark brown skin, slim fingers and short squared nails with a pale lilac-white base. No other people."
 }
