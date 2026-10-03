@@ -920,5 +920,58 @@
    ]
   },
   "costTime": 170
+ },
+ {
+  "t": "2026-10-03 14:28:22",
+  "submitted": "8466670a6b15ed69cf4640705adb97c9",
+  "prompt": "Edit the FIRST reference image into a vertical 9:16 phone photo of the same bedroom. KEEP EVERYTHING in the first image "
+ },
+ {
+  "t": "2026-10-03 14:28:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image into a vertical 9:16 phone photo of the same bedroom. KEEP EVERYTHING in the first image EXACTLY as it is: the vanity (the top row of 4 cubbies, the two shelf columns with their items, the wide landscape makeup mirror, the 4 glass-top drawers, the two drawer towers, the stool, the tall mirror door on the right, the crystal knobs), the white double door on the left, the window with blinds on the right, the bed with its brown headboard and bedding at the right edge, the light oak floor, the warm light-line glow of both mirrors. Do not move, resize, add or remove anything. The blurry bands above and below the photo are empty placeholders: repaint the TOP band as the continuing beige wall with the tall white door going up to a ceiling with a thin crown moulding, and the BOTTOM band (about a third of the frame) as SHARP light oak plank floor with the same soft window light and a soft grey rug in the foreground, planks running toward the camera in the same perspective, so nothing in the frame stays blurred. It must read as a real, tidy bedroom. No people, no hands. Shot on a phone, vertical, natural daylight, realistic, no cinematic grading, no text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791037698126-7iokfjm7h5o.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791037700268-hk3zgn7esc.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8466670a6b15ed69cf4640705adb97c9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/8466670a6b15ed69cf4640705adb97c9_1791037726012.jpeg"
+   ]
+  },
+  "costTime": 24
+ },
+ {
+  "t": "2026-10-03 14:29:06",
+  "submitted": "6764e11bb734fc233ecba5a12744eee4",
+  "prompt": "Shot on a phone by someone walking slowly forward into the bedroom toward the vanity: a smooth steady forward walk with "
+ },
+ {
+  "t": "2026-10-03 14:30:53",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot on a phone by someone walking slowly forward into the bedroom toward the vanity: a smooth steady forward walk with a very slight natural handheld bob, the camera moves closer to the vanity by about a third over the clip so the near floor and the rug slide past and the vanity grows in frame, then keeps walking. No people, no hands. The vanity, its mirrors and the light glow, shelves, drawers, stool, the door on the left, the window and the bed stay exactly as in the first frame: nothing appears, disappears or changes shape. Natural daylight, no sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791037744950-hkml60chhe9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "6764e11bb734fc233ecba5a12744eee4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791037846706-b6osuzygp0f.mp4"
+   ]
+  },
+  "costTime": 103
  }
 ]

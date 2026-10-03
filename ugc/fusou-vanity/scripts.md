@@ -23,7 +23,7 @@
 | 2-6s | Bathroom light makes your makeup look fine, until you step outside. | Slow pull back so the whole lit mirror fills the frame. |
 | 6-11s | This mirror has three light colors and it dims, so you can match wherever you're going. | Hand opens a top drawer under the glass; light falls on the makeup inside. |
 | 11-14s | It's almost six feet wide, so measure your wall first. | Hand runs along the front edge of the desk, left to right. |
-| 14-20s | It ships in three boxes, so if you want it up before the holidays, don't put it off. It's in the orange cart. | Fingertip taps the light off, then on again. End on the glow. |
+| 14-20s | If you want it up before the holidays, don't put it off. It's in the orange cart. | Fingertip taps the light off, then on again. End on the glow. |
 
 **On-screen hook (pick one):**
 
@@ -45,7 +45,7 @@
 | 3-7s | If your makeup lives in a bag under the sink, you dig for everything. | Hand lifts one lipstick out of a drawer. |
 | 7-13s | Twelve drawers, plus two in the stool. The top is glass, so you see your makeup before you open anything. | Three quick drawer pulls (left column, middle, right), then the stool drawer. |
 | 13-17s | Plan an afternoon to build it. It's a lot of parts. | Hand sets a perfume on an open shelf. |
-| 17-21s | Holiday shipping gets slow, and it comes in three boxes. It's in the orange cart. | Hand pushes the last drawer shut with one finger. Hold 1 second. |
+| 17-21s | Holiday shipping gets slow, it's in the orange cart. | Hand pushes the last drawer shut with one finger. Hold 1 second. |
 
 **On-screen hook (pick one):**
 
@@ -66,7 +66,7 @@
 | 3-6s | No room for a mirror, a dresser and a shelf? | Hand waves across the empty wall next to it. |
 | 6-13s | One, a lit makeup mirror. Two, a full-length mirror. Three, a hidden cabinet. Four, outlets for hair tools. Five, a stool with drawers. | One cut per number: tap the mirror light / touch the full-length mirror / swing the mirror door open / plug in a hair dryer / slide the stool drawer out. |
 | 13-16s | It needs about six feet of wall. | Hand runs along the desk edge. |
-| 16-20s | That's five things in one order. It ships in three boxes, so don't put it off before the holidays. It's in the orange cart. | Hand holds up five fingers in front of the lit mirror. |
+| 16-20s | That's five things in one order. Don't put it off before the holidays. It's in the orange cart. | Hand holds up five fingers in front of the lit mirror. |
 
 **On-screen hook (pick one):**
 
@@ -88,7 +88,7 @@
 | 2-7s | Bags and shoes end up on the floor when there's nowhere to put them. | Hand pulls the mirror door slowly open. |
 | 7-12s | Behind it, shelves for bags, shoes and perfume. Close it, and you've got a full-length mirror again. | Hand sets a handbag on a shelf, then swings the door shut. |
 | 12-15s | Just know it's big, about six feet wide. | Slow pan across the whole vanity, lights on. |
-| 15-20s | It comes in three boxes, so if you want it done before the holidays, don't put it off. It's in the orange cart. | Hand taps the makeup mirror light on. End on the glow. |
+| 15-20s | If you want it done before the holidays, don't put it off. It's in the orange cart. | Hand taps the makeup mirror light on. End on the glow. |
 
 **On-screen hook (pick one):**
 
@@ -109,7 +109,7 @@
 | 3-6s | No more dryer cord stretched across the room. | Hand hangs the dryer on its holder. |
 | 6-12s | Two outlets, two USB ports, and a holder for your dryer. Your phone charges while you do your face. | Phone plugged into USB on the desk; hand picks up a brush from an open drawer; lights switch to warm. |
 | 12-15s | Only two outlets, so it's your dryer plus one more tool. | Hand points at the two outlets. |
-| 15-19s | Holiday get-ready season is close, and it ships in three boxes. It's in the orange cart. | Hand sprays perfume toward the mirror, then sets the bottle on the shelf. |
+| 15-19s | Holiday get-ready season is close, it's in the orange cart. | Hand sprays perfume toward the mirror, then sets the bottle on the shelf. |
 
 **On-screen hook (pick one):**
 
@@ -130,7 +130,7 @@
 | 2-6s | Makeup on the sink, skincare on the dresser, perfume on the windowsill. | Hands scoop the pile into a basket. |
 | 6-12s | Lipsticks go in the drawers, under the glass. Perfume on the shelves. Hair tools plug in on the side. | Fast hands: lipsticks into a drawer, perfumes onto shelves, dryer onto its holder. |
 | 12-14s | Give yourself an afternoon to build it. | Hand slides the glass-top drawer shut. |
-| 14-20s | If someone in your house keeps asking for a vanity, this one ships in three boxes. It's in the orange cart. | Lights on, slow pull back to the whole finished vanity. |
+| 14-20s | If someone in your house keeps asking for a vanity, it's in the orange cart. | Lights on, slow pull back to the whole finished vanity. |
 
 **On-screen hook (pick one):**
 
@@ -155,7 +155,7 @@
 | Ships in 3 boxes that may arrive on different days | listing photo "Our Package" |
 | Assembly takes a few hours | two 8-9 min build videos on TikTok (@missathena.rose: "chaotic step by step") |
 
-Not said on purpose: the price (it's $640; let the cart show it), "flash sale" (not verified), any "I've had it for months" line.
+Not said on purpose: "ships in three boxes" (Ralph 2026-10-03: removed from all 6), the price (it's $640; let the cart show it), "flash sale" (not verified), any "I've had it for months" line.
 
 ## What the research showed
 - @teddyandhudson, 363k views, 18s: price-shock hook, then one feature per cut with a hand touching it (mirror lights,
