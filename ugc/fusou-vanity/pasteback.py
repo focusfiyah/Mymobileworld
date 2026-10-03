@@ -1,11 +1,11 @@
 """Paste-back (free): keep the REAL photo everywhere the AI didn't intend to change (Ralph, 2026-10-03).
 
   python3 pasteback.py still BASE AI OUT [--keep x0,y0,x1,y1 ...]   still: real pixels outside the hand/LED areas
-  python3 pasteback.py video BASE CLIP OUT                          clip: same, frame by frame (locked camera only)
+  python3 pasteback.py video BASE CLIP OUT [--hand-below ROW]       clip: same, frame by frame (locked camera only); ROW = top of the hand's area
 AI image is aligned to BASE (ORB + RANSAC affine), colour-matched, then a diff mask picks what the AI changed.
 Writes OUT and OUT_mask.png (white = AI pixels kept) so the mask can be checked.
 """
-import subprocess, sys
+import os, subprocess, sys
 import cv2, numpy as np
 
 T = 30          # per-pixel diff (0-255) above which the AI pixel is kept
@@ -62,23 +62,66 @@ def main():
         cv2.imwrite(out, img); cv2.imwrite(out.rsplit(".", 1)[0] + "_mask.png", (m[..., 0] * 255).astype(np.uint8))
         print("affine", None if A is None else np.round(A, 3).tolist(), "AI share", round(float(m.mean()), 3))
         return
-    cap = cv2.VideoCapture(src); fps = cap.get(cv2.CAP_PROP_FPS); h, w = base.shape[:2]
-    ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{w}x{h}", "-r", str(fps),
-                           "-i", "-", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
-    shares, scales, prev = [], [], None
+    video(base, src, out, int(sys.argv[sys.argv.index('--hand-below') + 1]) if '--hand-below' in sys.argv else 0)
+
+
+def skin(img):  # Grace's skin + mauve nails vs the white/grey vanity (YCrCb)
+    y, cr, cb = cv2.split(cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb))
+    return ((cr > 133) & (cr < 185) & (cb > 77) & (cb < 135) & (y > 30) & (y < 170)).astype(np.uint8)   # y<170: lit white surfaces are not skin
+
+
+def video(base, src, out, zone=0):
+    """v2 (2026-10-03, after Ralph saw shimmer): ONE smoothed alignment path, ONE colour match, and only two AI areas:
+    the hand (skin pixels that differ from the real photo) + a FIXED ring where the LEDs light up. Everything else = real photo."""
+    cap = cv2.VideoCapture(src); fps = cap.get(cv2.CAP_PROP_FPS); h, w = base.shape[:2]; frames = []
     while True:
         ok, fr = cap.read()
         if not ok: break
-        fr = cv2.resize(fr, (w, h), interpolation=cv2.INTER_AREA)
-        _, m, A, al = composite(fr, base)
-        m = prev = m if prev is None else np.maximum(m, 0.6 * prev)   # current AI area always fully kept; old area fades (no flicker, no see-through hand)
-        img = (al * m + base * (1 - m)).astype(np.uint8)
-        ff.stdin.write(img.tobytes()); shares.append(float(m.mean()))
-        scales.append(None if A is None else float(np.hypot(*A[:, 0])))
+        frames.append(cv2.resize(fr, (w, h), interpolation=cv2.INTER_AREA))
+    As = []
+    for fr in frames:
+        _, A = align(fr, base); As.append(A if A is not None else (As[-1] if As else np.float32([[1, 0, 0], [0, 1, 0]])))
+    As = np.array(As, np.float64); k = 9                                   # moving average over 9 frames = no jitter
+    pad = np.concatenate([As[:1].repeat(k // 2, 0), As, As[-1:].repeat(k // 2, 0)])
+    As = np.array([pad[i:i + k].mean(0) for i in range(len(frames))])
+    al = [cv2.warpAffine(fr, A, (w, h), flags=cv2.INTER_LANCZOS4, borderMode=cv2.BORDER_REFLECT) for fr, A in zip(frames, As)]
+    calm = cv2.absdiff(al[0], base).max(axis=2) < T
+    gains = [(base[..., c][calm].mean(), base[..., c][calm].std(), al[0][..., c][calm].mean(), max(al[0][..., c][calm].std(), 1)) for c in range(3)]
+    def cm(img):
+        o = img.astype(np.float32)
+        for c, (bm, bs, am, as_) in enumerate(gains): o[..., c] = (o[..., c] - am) * (bs / as_) + bm
+        return np.clip(o, 0, 255)
+    al = [cm(a) for a in al]; bf = base.astype(np.float32)
+    lit = (al[-1].mean(2) - bf.mean(2)) > 45                               # LED ring only: much brighter in the last (lit) frame
+    lit = cv2.morphologyEx(lit.astype(np.uint8), cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+    lit = cv2.morphologyEx(lit, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
+    hand_any = np.zeros((h, w), np.uint8)
+    hand_masks, prev = [], None
+    for a in al:
+        d = (np.abs(a - bf).max(2) > T).astype(np.uint8) & cv2.dilate(skin(a.astype(np.uint8)), np.ones((9, 9), np.uint8))
+        d[:zone] = 0                                                        # hand can only be below this row (per shot)
+        d = cv2.morphologyEx(d, cv2.MORPH_CLOSE, np.ones((21, 21), np.uint8))
+        n, lab, st, _ = cv2.connectedComponentsWithStats(d)
+        edge = lambda i: st[i, 1] + st[i, 3] >= h - 2 or st[i, 0] + st[i, 2] >= w - 2   # the hand enters from the bottom/right edge
+        keep = [i for i in range(1, n) if st[i, 4] > MIN_AREA * d.size and edge(i)]
+        if prev is not None:   # track: keep only blobs that overlap last frame's hand
+            keep = [i for i in keep if (prev[lab == i] > 0).any()] or keep[:0]
+        d = np.isin(lab, keep).astype(np.uint8)
+        cs, _ = cv2.findContours(d, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE); cv2.drawContours(d, cs, -1, 1, cv2.FILLED)
+        hand_masks.append(cv2.dilate(d, np.ones((13, 13), np.uint8)).astype(np.float32))
+        prev = cv2.dilate(d, np.ones((41, 41), np.uint8)) if d.any() else prev
+    ring = cv2.GaussianBlur(cv2.dilate(lit, np.ones((11, 11), np.uint8)).astype(np.float32), (31, 31), 0)
+    ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{w}x{h}", "-r", str(fps),
+                           "-i", "-", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
+    shares = []
+    for i, a in enumerate(al):
+        hm = np.max(hand_masks[max(0, i - 1):i + 2], axis=0)                 # +-1 frame: a fast finger never gets clipped
+        m = np.maximum(cv2.GaussianBlur(hm, (21, 21), 0), ring)[..., None]
+        if os.environ.get("PB_DEBUG") and i == 72: cv2.imwrite(os.environ["PB_DEBUG"], np.hstack([hm * 255, ring * 255]).astype(np.uint8))
+        ff.stdin.write((a * m + bf * (1 - m)).astype(np.uint8).tobytes()); shares.append(float(m.mean()))
     ff.stdin.close(); ff.wait()
-    s = [x for x in scales if x]
-    print(f"frames {len(shares)}  AI share min/max {min(shares):.3f}/{max(shares):.3f}  scale min/max {min(s):.3f}/{max(s):.3f}")
-
+    sc = np.hypot(As[:, 0, 0], As[:, 1, 0])
+    print(f"frames {len(al)}  AI share min/max {min(shares):.3f}/{max(shares):.3f}  ring {ring.mean():.3f}  scale {sc.min():.3f}/{sc.max():.3f}")
 
 if __name__ == "__main__":
     main()
