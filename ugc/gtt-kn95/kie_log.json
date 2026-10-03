@@ -306,5 +306,103 @@
   "t": "2026-10-03 19:41:48",
   "submitted": "c1b923bd61cfd5fcc17cb22be775ef23",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Chest-up shot at the garage workbench with the open gar"
+ },
+ {
+  "t": "2026-10-03 19:44:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the wooden workbench: the hand sets one black fish-shape mask down next to a pair of work gloves and a set of car keys. No box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056504233-1bzh1v4tqq9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "78300ffb55573c87095423e4c16e24ff",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/78300ffb55573c87095423e4c16e24ff_0_1791056645.jpeg"
+   ]
+  },
+  "costTime": 138
+ },
+ {
+  "t": "2026-10-03 19:46:31",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Chest-up shot at the garage workbench with the open garage door and autumn light behind her: Grace faces the camera with a black fish-shape mask on her face, both hands up beside her cheeks holding the elastic ear loops at her ears as if she has just pulled them over, eyes looking into the lens, relaxed brows. The person is Grace, exactly the woman in the first reference image (a character sheet with a front view and two three-quarter views): medium-dark brown skin, defined arched brows, almond dark-brown eyes, long knotless boho braids with loose curly ends worn half-up with the long curls falling over one shoulder, a thin gold chain with a small round pendant at her neck. She wears the same fitted brown long-sleeve top as in the reference images, no tee. Her brows are relaxed and her forehead smooth, no wrinkles. A black fish-shape mask is already on her face covering her nose and mouth completely, so her mouth is never visible; she is not speaking. Her hands have medium-dark brown skin, slim fingers and short squared nails with a pale lilac-white base. No other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055933427-f3ytic9g0ef.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056504233-1bzh1v4tqq9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c1b923bd61cfd5fcc17cb22be775ef23",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c1b923bd61cfd5fcc17cb22be775ef23_0_1791056788.jpeg"
+   ]
+  },
+  "costTime": 280
+ },
+ {
+  "t": "2026-10-03 19:46:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up at the garage workbench: the GTT KN95 box stands on the bench, front facing the camera, its carton colour silver-grey; the hand lifts one black mask, sealed in its own clear plastic sleeve, up out of the top opening of the box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the box reference image and its colour is SILVER-GREY (a light grey carton: not blue, not white, not black, not beige): red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056504233-1bzh1v4tqq9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056506324-sbj7ekyyso.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "05bc24d14fc34747410b57309d5e7095",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/05bc24d14fc34747410b57309d5e7095_0_1791056798.jpeg"
+   ]
+  },
+  "costTime": 291
+ },
+ {
+  "t": "2026-10-03 19:47:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up at the garage workbench: the hand holds one black fish-shape mask up in front of the lens by its two ear loops so the whole mask shows; the garage is blurred behind. No box in the shot. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the mask reference image: a matte black 'fish-shape' 3D disposable mask with a wide soft rounded body, one horizontal fold crease across the middle where the lower half folds down and forward, tapering to a rounded point at the bottom centre, dotted stitched edging along the top and sides, a small black 'KN95' printed on the lower side panel, and thin black elastic ear loops at the sides. It is NOT a flat-fold mask with a vertical centre seam, NOT a duckbill, NOT pleated. It stays this exact shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056504233-1bzh1v4tqq9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "77892a8d5d54d7cd28b21b513fa2727a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/77892a8d5d54d7cd28b21b513fa2727a_0_1791056847.jpeg"
+   ]
+  },
+  "costTime": 339
  }
 ]
