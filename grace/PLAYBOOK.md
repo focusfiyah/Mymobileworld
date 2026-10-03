@@ -215,3 +215,8 @@ products follow the same rules.
 ## 9. To add later
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
+
+## Lessons 2026-10-03 (FUSOU V2, Grace's own script)
+- A client's own script may fail the gate (readability grade 9.4, unsupported claims). Use it verbatim only when Ralph says so, record it in `checklist.json` `overrides` (rule, videos, by, date, his quote, real grade): the gate prints it every run and only that video is exempt. Flag unverifiable claims in product_facts, never edit them out silently.
+- "Looks like pictures" = Ken Burns on photos and freezes. Motion-first fix: every shot a real moving clip (walk-in/dolly-out from the real-photo bedroom plate, top-down hand slide of a drawer, hand drags a bag out of a cabinet), 4-5 s clips at 1.0x, ~$0.2 each. A reused start frame makes a good dolly-out (grab a frame from the walk-in clip).
+- Grace B at 42 s for 136 words = 3.2 words/s; her 706-char script cost ~705 ElevenLabs chars, STT-check found no stutters this time.

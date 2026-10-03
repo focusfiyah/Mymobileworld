@@ -1,15 +1,23 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55f91a69e880] moov atom not found
+[in#0 @ 0x55f91a6a28c0] Error opening input: Invalid data found when processing input
+Error opening input file tiktok-out/compare/A/video.mp4.
+Error opening input files: Invalid data found when processing input
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x563e70d3af00] moov atom not found
+[in#0 @ 0x563e70d3ae00] Error opening input: Invalid data found when processing input
+Error opening input file tiktok-out/compare/A/video.mp4.
+Error opening input files: Invalid data found when processing input
 # A/B compare
 
 **A**: https://www.tiktok.com/@sdbby88/video/7653329613258591518 (2,100,000 views, saves 0.84%)
-**B**: ugc/fusou-vanity/out/fusou_v5_r4.mp4
+**B**: out/fusou_v5_r5.mp4
 
 | | A | B |
 |---|---|---|
-| duration_s | 33.2 | 18.0 |
+| duration_s | 33 | 17.8 |
 | words | 145 | 0 |
-| words_per_sec | 4.37 | None |
-| cuts | 9 | 5 |
-| cuts_per_10s | 2.7 | 2.8 |
+| words_per_sec | 4.39 | None |
+| cuts | 0 | 5 |
+| cuts_per_10s | 0.0 | 2.8 |
 | first_word_at_s | 0.0 | None |
 | spoken_first_3s | this is the viral vanity that all the girlies are getting and let me show you exactly |  |
 
@@ -20,4 +28,4 @@ Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos
 - [0.0s] this is the viral vanity
 - [1.0s] that all the girlies are getting and let me show you exactly
 
--> /tmp/claude-0/cmp4_5/compare/compare.md, /tmp/claude-0/cmp4_5/compare/compare.png
+-> tiktok-out/compare/compare.md, tiktok-out/compare/compare.png

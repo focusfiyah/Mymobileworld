@@ -1,7 +1,7 @@
 # A/B compare
 
 **A**: https://www.tiktok.com/@sdbby88/video/7653329613258591518 (2,100,000 views, saves 0.84%)
-**B**: ugc/fusou-vanity/out/fusou_v1_r4.mp4
+**B**: out/fusou_v1_r4.mp4
 
 | | A | B |
 |---|---|---|
@@ -20,4 +20,4 @@ Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos
 - [0.0s] this is the viral vanity
 - [1.0s] that all the girlies are getting and let me show you exactly
 
--> /tmp/claude-0/cmp4_1/compare/compare.md, /tmp/claude-0/cmp4_1/compare/compare.png
+-> tiktok-out/compare/compare.md, tiktok-out/compare/compare.png
