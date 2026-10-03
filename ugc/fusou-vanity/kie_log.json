@@ -1028,5 +1028,60 @@
    ]
   },
   "costTime": 107
+ },
+ {
+  "t": "2026-10-03 16:04:36",
+  "submitted": "63e05f04d6ac72dd6645d56913e2937c",
+  "prompt": "Vertical 9:16 phone photo taken straight from above (top-down, camera pointing down) at a white vanity drawer that is ha"
+ },
+ {
+  "t": "2026-10-03 16:06:04",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 phone photo taken straight from above (top-down, camera pointing down) at a white vanity drawer that is half open, from the first reference image's drawer style: a plain white flat-front drawer with a round clear crystal knob in the middle (like the knobs in the third reference image), white drawer sides, light oak floor just visible at the very bottom edge of the frame. One small hand with long almond nails (the hands in the first two reference images) holds the crystal knob and is pulling the drawer toward the camera. Inside the open drawer, a tidy white organizer tray with separate compartments holds: a row of lipsticks and a small makeup palette, a few gold rings and necklaces laid in a velvet-lined compartment, and two small perfume bottles. Soft natural daylight from a window, clean and bright, everything neatly arranged. No other hands, no people, no text. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188104-8dpwofz8dd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190391-i7c5oxjuyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790980783290-hhpkk19o62.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791043474633-bh3ildln1g5.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "63e05f04d6ac72dd6645d56913e2937c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/63e05f04d6ac72dd6645d56913e2937c_0_1791043560.jpeg"
+   ]
+  },
+  "costTime": 83
+ },
+ {
+  "t": "2026-10-03 16:06:15",
+  "submitted": "fc977cd3c3ca7f0c16891765ececa4d2",
+  "prompt": "Top-down shot. The small hand slides the white drawer smoothly further open toward the camera by its crystal knob, revea"
+ },
+ {
+  "t": "2026-10-03 16:08:08",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Top-down shot. The small hand slides the white drawer smoothly further open toward the camera by its crystal knob, revealing more of the tray: the lipsticks, rings, necklaces and perfume bottles slide into view. The camera is locked off, steady. Everything else stays exactly as in the first frame: same white drawer, same knob, same tray, same light. No other hands, no people. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791043572715-iwzgfmwmuz.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fc977cd3c3ca7f0c16891765ececa4d2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791043683188-bpmfv18qvsq.mp4"
+   ]
+  },
+  "costTime": 110
  }
 ]
