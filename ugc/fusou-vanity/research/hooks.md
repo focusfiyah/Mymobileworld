@@ -7,3 +7,6 @@
 | V4 | Nobody notices this mirror is a door. | nobody notices this mirror / wait till it opens / the part nobody sees | curiosity reveal; FUSOU 3-in-1 136k shows the wardrobe/cabinet as its big reveal |
 | V5 | The best part of this vanity is the outlet. | the best part is the outlet / why is there an outlet here / no more cord across the room | @teddyandhudson 363k (outlet + dryer cut) |
 | V6 | Watch where all of this goes. | watch where all of this goes / where does all this go? / everything finally has a spot | clutter-to-organized before/after format |
+
+## Re-checked 2026-10-03 (r2: "three boxes" removed; V5 and V6 now open on the vanity, wides push in)
+All 18 spoken/on-screen hook options still fit the new openings (the vanity now shows in the first 3 s of every video, so "nobody notices this mirror", "the best part is the outlet" and "watch where all of this goes" are said over the vanity first). Modeled-on winners unchanged. Reference to avoid copying: the AI-render ad @fusou_furniture 25k views / 0.3% saves (different product, vanity changes shot to shot, garbled captions).
