@@ -10,14 +10,15 @@
 | It's almost six feet wide, so measure your wall first. | caveat | PLAYBOOK §1 one honest caveat (size / build time / 2 outlets) |
 | If you want it up before the holidays, don't put it off. It's in the orange cart. | cta | real seasonal urgency (holidays) + Ralph's usual 'It's in the orange cart.'; the 'three boxes' claim was removed by Ralph 2026-10-03 |
 
-## Video 2
+## Video 2 (Grace's own script, verbatim; Ralph 2026-10-03 "Keep everything she sent")
 | Line | Role | Source |
 |---|---|---|
-| Every drawer on this thing has a job. | hook | coach: winners open on the product moment (@ivy.rogers3 2.3M mirror light; FUSOU 3-in-1 136k wide->detail) + PLAYBOOK §3 |
-| If your makeup lives in a bag under the sink, you dig for everything. | pain | PLAYBOOK §4 pain-point body + §2 sales psychology |
-| Twelve drawers, plus two in the stool. The top is glass, so you see your makeup before you open anything. | feature | product facts (research/product_facts.md) + coach @teddyandhudson one feature per cut |
-| Plan an afternoon to build it. It's a lot of parts. | caveat | PLAYBOOK §1 one honest caveat (size / build time / 2 outlets) |
-| If you want it up for the holidays, it's in the orange cart. | cta | real seasonal urgency (holidays) + Ralph's usual 'It's in the orange cart.'; the 'three boxes' claim was removed by Ralph 2026-10-03 |
+| Just look at the drawers on this vanity. | hook | Grace's script; fits PLAYBOOK §3 (product shown in first 3 s) |
+| If your makeup is living in a bag under the sink, or your current setup just isn't cutting it anymore, look at this. | pain | Grace's script; PLAYBOOK §4 pain-point body |
+| You've got 12 drawers on the vanity, plus two more in the stool, so you can actually give everything a place: makeup, jewelry, perfume, all of it. | feature | Grace's script; facts: 12 drawers + 2 in the stool (research/product_facts.md) |
+| And the top is glass, so you can actually see what you have before opening a drawer. | feature | Grace's script; listing photo "Embedded Tempered Glass Tabletop" |
+| I'd honestly grab this sooner rather than later because holiday shipping is about to get slower, and it comes in three boxes, so you'll want to give yourself some time to put it together. | urgency + caveat | Grace's script. "Three boxes" is in the listing photo "Our Package"; "holiday shipping slower" is NOT in the listing (Grace's claim, kept by Ralph's decision) |
+| And it's on a crazy sale right now, so if you see the orange cart below, I'd check it before that deal, or the vanity, is gone. | cta | Grace's script. "Crazy sale" and the deal/"vanity is gone" scarcity are NOT confirmed by the listing (it shows $639.99 only; PLAYBOOK §1 says no false scarcity): kept by Ralph's decision |
 
 ## Video 3
 | Line | Role | Source |

@@ -36,24 +36,26 @@
 
 ---
 
-## Video 2: Drawer by Drawer (ASMR tour) · ~21s
-**Style:** Close-ups, slow, satisfying. Let each drawer make its sound. Talk softly between sounds.
+## Video 2: Grace's own script (Drawer by Drawer, motion version) · ~38s
+**Script source:** written by Grace, used word for word at Ralph's direction (2026-10-03: "Keep everything she sent"). Only change: two dashes became commas. Readability grade 9.4: owner override recorded in `checklist.json` ("OK, override. Let's do it for this video only"). The shipping, sale and "deal or the vanity is gone" lines are Grace's; the listing does not confirm them.
+**Style:** every shot moves (camera dolly or a hand doing something), like the @fusou_furniture AI ad: bedroom walk-in, top-down drawer pull, LED fade-on, dolly-out.
 
-| Time | Voice | Hands (shot) |
+| Time | Voice | Hands / shot |
 |---|---|---|
-| 0-3s | Every drawer on this thing has a job. | Top-down shot through the glass top. Hand slides the first drawer open underneath it. |
-| 3-7s | If your makeup lives in a bag under the sink, you dig for everything. | Hand lifts one lipstick out of a drawer. |
-| 7-13s | Twelve drawers, plus two in the stool. The top is glass, so you see your makeup before you open anything. | Three quick drawer pulls (left column, middle, right), then the stool drawer. |
-| 13-17s | Plan an afternoon to build it. It's a lot of parts. | Hand sets a perfume on an open shelf. |
-| 17-21s | If you want it up for the holidays, it's in the orange cart. | Hand pushes the last drawer shut with one finger. Hold 1 second. |
+| 0-3s | Just look at the drawers on this vanity. | Camera walks through the bedroom toward the vanity. |
+| 3-9s | If your makeup is living in a bag under the sink, or your current setup just isn't cutting it anymore, look at this. | Hand drags a stuffed makeup bag out from under a bathroom sink; then a second walk-in as the mirror light fades on. |
+| 9-18s | You've got 12 drawers on the vanity, plus two more in the stool, so you can actually give everything a place: makeup, jewelry, perfume, all of it. | Top-down: hand slides a drawer open on makeup, jewelry and perfume in trays; then the stool drawer. |
+| 18-23s | And the top is glass, so you can actually see what you have before opening a drawer. | Hand lifts a lipstick through the glass top; fingertip taps the glass. |
+| 23-31s | I'd honestly grab this sooner rather than later because holiday shipping is about to get slower, and it comes in three boxes, so you'll want to give yourself some time to put it together. | Camera pulls back across the bedroom; real "our package" photo. |
+| 31-38s | And it's on a crazy sale right now, so if you see the orange cart below, I'd check it before that deal, or the vanity, is gone. | Fingertip taps the mirror, LED fades on; hold on the lit wide. |
 
 **On-screen hook (pick one):**
 
-1. every drawer has a job
-2. wait for drawer number fourteen
-3. the glass top is the trick
+1. look at these drawers
+2. where does your makeup live?
+3. 12 drawers plus 2 in the stool
 
-**Caption:** fourteen drawers if you count the stool 😮‍💨 #ad #vanitydesk #makeuporganization #asmr #tiktokshopfinds
+**Caption:** twelve drawers plus two in the stool 😮‍💨 #ad #vanitydesk #makeuporganization #asmr #tiktokshopfinds
 
 ---
 
