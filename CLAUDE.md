@@ -54,7 +54,8 @@ not in a new file.
   or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
   hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
-  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py). Skill zip re-made 2026-10-01 with the Carpe v2 lessons.
+  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py); the exact-product route's (real photo + paste-back, complex products) is `ugc/fusou-vanity/`. Skill zip re-made 2026-10-03 (script gate + exact-product route + its scripts).
+- **Remembered everywhere (Ralph 2026-10-03):** `handoff/CLAUDE_PREFERENCES.txt` (claude.ai profile preferences, every chat/project/Cowork) and `handoff/GLOBAL_MEMORY.md` (global memory; same file in Dayone-ai). Update both when a standing rule changes.
 - **Videos to Google Drive:** the Google Drive connector can't upload big files (content goes through the chat). Host the
   file with Kie's free upload (`upload()` in a job's kie.py → `tempfile.redpandaai.co` URL), then Composio
   `GOOGLEDRIVE_UPLOAD_FROM_URL` (account `googledrive_lin-ernst` = life22watch@gmail.com) with `parent_folder_id`.
