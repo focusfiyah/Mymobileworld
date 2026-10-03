@@ -973,5 +973,60 @@
    ]
   },
   "costTime": 103
+ },
+ {
+  "t": "2026-10-03 14:41:31",
+  "submitted": "531fd8ef888c3d3e74b62d5ee745f012",
+  "prompt": "Vertical 9:16 phone photo, a mid-close shot taken from standing height looking down at about 45 degrees at a patch of li"
+ },
+ {
+  "t": "2026-10-03 14:41:57",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 phone photo, a mid-close shot taken from standing height looking down at about 45 degrees at a patch of light oak plank floor beside a beige wall with a white baseboard and the edge of a soft grey rug, the same floor, rug and soft window sunlight patches as the third reference image. On the floor, dropped in a messy pile: a tan leather handbag lying on its side with its strap (the handbag looks like the one in the fourth reference image), a pair of nude high heels tipped over, and a pair of beige ankle boots. One small hand comes in from the right of the frame, the fingers just closing around the handbag's handle, about to lift it. There is NO furniture, NO vanity, NO mirror and no other people in this photo. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The first two reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977188104-8dpwofz8dd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790977190391-i7c5oxjuyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791038487919-fsly6uh1tc9.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791038489938-fofu5n93cvv.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "531fd8ef888c3d3e74b62d5ee745f012",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/531fd8ef888c3d3e74b62d5ee745f012_1791038514847.jpeg"
+   ]
+  },
+  "costTime": 23
+ },
+ {
+  "t": "2026-10-03 14:42:08",
+  "submitted": "b66c4cd962ff4712acbef1289609880d",
+  "prompt": "The small hand lifts the tan leather handbag up off the floor by its handle and out of the top of the frame, slowly and "
+ },
+ {
+  "t": "2026-10-03 14:44:01",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The small hand lifts the tan leather handbag up off the floor by its handle and out of the top of the frame, slowly and smoothly; the heels and boots stay on the floor where they are. The camera is locked off, no zoom, no movement. The floor, the rug and the sunlight stay exactly as in the first frame. No other hands, no people, no furniture. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791038526872-3lmc3mashtq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b66c4cd962ff4712acbef1289609880d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791038632837-ap6fr0enxfe.mp4"
+   ]
+  },
+  "costTime": 107
  }
 ]

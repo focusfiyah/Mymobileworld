@@ -45,7 +45,7 @@
 | 3-7s | If your makeup lives in a bag under the sink, you dig for everything. | Hand lifts one lipstick out of a drawer. |
 | 7-13s | Twelve drawers, plus two in the stool. The top is glass, so you see your makeup before you open anything. | Three quick drawer pulls (left column, middle, right), then the stool drawer. |
 | 13-17s | Plan an afternoon to build it. It's a lot of parts. | Hand sets a perfume on an open shelf. |
-| 17-21s | Holiday shipping gets slow, it's in the orange cart. | Hand pushes the last drawer shut with one finger. Hold 1 second. |
+| 17-21s | If you want it up for the holidays, it's in the orange cart. | Hand pushes the last drawer shut with one finger. Hold 1 second. |
 
 **On-screen hook (pick one):**
 
@@ -109,7 +109,7 @@
 | 3-6s | No more dryer cord stretched across the room. | Hand hangs the dryer on its holder. |
 | 6-12s | Two outlets, two USB ports, and a holder for your dryer. Your phone charges while you do your face. | Phone plugged into USB on the desk; hand picks up a brush from an open drawer; lights switch to warm. |
 | 12-15s | Only two outlets, so it's your dryer plus one more tool. | Hand points at the two outlets. |
-| 15-19s | Holiday get-ready season is close, it's in the orange cart. | Hand sprays perfume toward the mirror, then sets the bottle on the shelf. |
+| 15-19s | Holiday get-ready season is close. It's in the orange cart. | Hand sprays perfume toward the mirror, then sets the bottle on the shelf. |
 
 **On-screen hook (pick one):**
 
