@@ -66,5 +66,147 @@
   "t": "2026-10-03 19:23:25",
   "submitted": "be7c96eaad0e544ac7fbc4112d8ab7e4",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A garage shelf at the edge of the workbench: the hand, "
+ },
+ {
+  "t": "2026-10-03 19:24:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The open garage doorway with soft daylight behind: the hand, entering from the bottom edge, holds one corner of a worn grey doormat out in front of the lens, hanging down. No box, no mask, no other products. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "148cfb36c21079c2d07abae4c97d87e3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/148cfb36c21079c2d07abae4c97d87e3_0_1791055452.jpeg"
+   ]
+  },
+  "costTime": 46
+ },
+ {
+  "t": "2026-10-03 19:24:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the wooden workbench: the hand sets one black fish-shape mask down next to a pair of work gloves and a set of car keys. No box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The mask is exactly the black mask in the product reference image: a matte black fish-shape (3D folded) disposable mask with dotted stitched edges, a small black 'KN95' printed on its side, and thin black elastic ear loops. It stays black with the same shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055270280-hyjzlc5nups.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ab9f5ab305cc063cb84f023c7b8292a4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ab9f5ab305cc063cb84f023c7b8292a4_0_1791055461.jpeg"
+   ]
+  },
+  "costTime": 55
+ },
+ {
+  "t": "2026-10-03 19:24:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Inside a parked car: the hand, entering from the bottom of the frame, tucks two black masks, each sealed in a clear plastic sleeve, into the driver's door pocket beside the door handle, soft daylight through the window. No box. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055270280-hyjzlc5nups.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4254c51b7122ec6e22d64b1ebc954bbe",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4254c51b7122ec6e22d64b1ebc954bbe_0_1791055460.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-10-03 19:24:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up at the garage workbench: the hand holds one black fish-shape mask up in front of the lens by its two ear loops so the whole mask shows; the GTT KN95 box stands out of focus behind it on the bench. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the product reference image: a rectangular carton in light silver-grey, a red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a small grey 'HEALTH & TECHNOLOGY' line, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. The mask is exactly the black mask in the product reference image: a matte black fish-shape (3D folded) disposable mask with dotted stitched edges, a small black 'KN95' printed on its side, and thin black elastic ear loops. It stays black with the same shape in every frame. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055270280-hyjzlc5nups.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "01d2b442575257a68f6221f65342e27a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/01d2b442575257a68f6221f65342e27a_0_1791055466.jpeg"
+   ]
+  },
+  "costTime": 60
+ },
+ {
+  "t": "2026-10-03 19:24:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Wide-ish view of the workbench at the open garage door where red and orange fall leaves have blown onto the concrete outside: the GTT KN95 box stands front-facing on the bench; the hand rests beside it. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the product reference image: a rectangular carton in light silver-grey, a red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a small grey 'HEALTH & TECHNOLOGY' line, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055270280-hyjzlc5nups.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "94838a76f22b9ab3ad1a1c45b2f4948b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/94838a76f22b9ab3ad1a1c45b2f4948b_0_1791055464.jpeg"
+   ]
+  },
+  "costTime": 58
+ },
+ {
+  "t": "2026-10-03 19:24:53",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low angle on a dusty concrete garage floor: one hand grips a push broom handle from the top edge of the frame, the broom head rests on the floor with a fine haze of dust already rising in a shaft of daylight from the open garage door. No box, no mask, no other products. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "19c82ccffb043e843705bfe22bbc2402",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/19c82ccffb043e843705bfe22bbc2402_0_1791055488.jpeg"
+   ]
+  },
+  "costTime": 83
  }
 ]
