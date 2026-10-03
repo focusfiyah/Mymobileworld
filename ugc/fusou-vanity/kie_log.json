@@ -521,5 +521,144 @@
    ]
   },
   "costTime": 121
+ },
+ {
+  "t": "2026-10-03 03:03:44",
+  "submitted": "4be1b4d98cd0870d94a6a6c402facb89",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Looking down at a small, cluttered bathroom counter bes"
+ },
+ {
+  "t": "2026-10-03 03:03:46",
+  "submitted": "ab03d8375e27cfa326f2418479d1fa84",
+  "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, m"
+ },
+ {
+  "t": "2026-10-03 03:03:46",
+  "submitted": "6590cd4ff6ae8e05d49944f7352cb19c",
+  "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, m"
+ },
+ {
+  "t": "2026-10-03 03:03:46",
+  "submitted": "c6ac4d03991715f0ece9bf7d0a1634bf",
+  "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, m"
+ },
+ {
+  "t": "2026-10-03 03:03:46",
+  "submitted": "a22a939f44bd94ef08e7cbc0bd5347bc",
+  "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, m"
+ },
+ {
+  "t": "2026-10-03 03:04:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, move, resize, sharpen or recolour anything; every drawer, knob, shelf item, lipstick, wall and floor plank stays exactly the same, same framing. Only ADD ONE HAND: at the height of the glass desk top, the thumb and index finger lift one lipstick from the small lipstick tray on the glass top, holding it a few centimetres above the glass; the other fingers are relaxed. ONLY THE HAND enters the frame, from the RIGHT edge: the wrist sits right at the frame edge, NO forearm and no arm visible. The hand is natural size for its distance from the camera and covers only a small part of the furniture. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The second and third reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790996624675-fpdkbr15gt6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990151638-qsaz4fyfd0b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990153841-9cb78tf2ur.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a22a939f44bd94ef08e7cbc0bd5347bc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a22a939f44bd94ef08e7cbc0bd5347bc_0_1790996679.jpeg"
+   ]
+  },
+  "costTime": 53
+ },
+ {
+  "t": "2026-10-03 03:04:55",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, move, resize, sharpen or recolour anything; every drawer, knob, shelf item, lipstick, wall and floor plank stays exactly the same, same framing. Only ADD ONE HAND: at mid-height, the fingertips curl around the left edge of the tall mirror door, as if about to pull it open; the hand stays small. ONLY THE HAND enters the frame, from the LEFT edge: the wrist sits right at the frame edge, NO forearm and no arm visible. The hand is natural size for its distance from the camera and covers only a small part of the furniture. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The second and third reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790996624618-y69f45mxet.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990151638-qsaz4fyfd0b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990153841-9cb78tf2ur.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c6ac4d03991715f0ece9bf7d0a1634bf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c6ac4d03991715f0ece9bf7d0a1634bf_0_1790996690.jpeg"
+   ]
+  },
+  "costTime": 64
+ },
+ {
+  "t": "2026-10-03 03:05:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, move, resize, sharpen or recolour anything; every drawer, knob, shelf item, lipstick, wall and floor plank stays exactly the same, same framing. Only ADD ONE HAND: the index finger is extended and its fingertip points at, almost touching, the two USB ports on the white power plate; the other fingers are loosely curled; the hand stays below the hair dryer and does not cover the outlets. ONLY THE HAND enters the frame, from the LEFT edge: the wrist sits right at the frame edge, NO forearm and no arm visible. The hand is natural size for its distance from the camera and covers only a small part of the furniture. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The second and third reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790996624638-1hdjpo6ti4m.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990151638-qsaz4fyfd0b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990153841-9cb78tf2ur.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ab03d8375e27cfa326f2418479d1fa84",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ab03d8375e27cfa326f2418479d1fa84_0_1790996697.jpeg"
+   ]
+  },
+  "costTime": 72
+ },
+ {
+  "t": "2026-10-03 03:05:12",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Looking down at a small, cluttered bathroom counter beside a white sink: a messy jumble of lipsticks, compacts, makeup brushes, skincare bottles, hair ties and cotton pads piled on top of each other. Two hands enter from the bottom edge, ONLY THE HANDS: the wrists sit right at the frame edge, NO forearms visible; palms down, fingers spread, about to sweep the items together. Soft daylight. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The first two reference images are the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990151638-qsaz4fyfd0b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990153841-9cb78tf2ur.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4be1b4d98cd0870d94a6a6c402facb89",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4be1b4d98cd0870d94a6a6c402facb89_0_1790996708.jpeg"
+   ]
+  },
+  "costTime": 84
+ },
+ {
+  "t": "2026-10-03 03:06:11",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST reference image, a real photo of a white vanity. KEEP EVERYTHING IN IT EXACTLY AS IT IS: do not redraw, move, resize, sharpen or recolour anything; every drawer, knob, shelf item, lipstick, wall and floor plank stays exactly the same, same framing. Only ADD ONE HAND: at the height of the stool's top drawer, the fingertips hold the small crystal knob of the stool's top drawer, as if about to pull it open. ONLY THE HAND enters the frame, from the RIGHT edge: the wrist sits right at the frame edge, NO forearm and no arm visible. The hand is natural size for its distance from the camera and covers only a small part of the furniture. The hands are the ONLY person in the video: Grace's real hands, exactly as in the first two reference images (match them as closely as possible): medium-dark brown skin with natural knuckle creases and visible veins on the back of the hand, slim fingers, LONG ALMOND-shaped nails extending well past the fingertips, glossy dusty mauve-pink gel polish with a thin crisp white French tip on every nail, the same nail length and shape on every finger. Ignore the annotation text and leader lines in those images. No rings, no bracelets. No face, no arms above the forearm, no other people. The second and third reference images show the hands. Shot on a phone, vertical, natural light, realistic unretouched skin texture with visible knuckle creases, casual and real like a creator filmed it, no cinematic grading. No on-screen text or captions. No visible brand names.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790996624663-fgsbtqwmzu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990151638-qsaz4fyfd0b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1790990153841-9cb78tf2ur.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6590cd4ff6ae8e05d49944f7352cb19c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6590cd4ff6ae8e05d49944f7352cb19c_0_1790996768.jpeg"
+   ]
+  },
+  "costTime": 142
  }
 ]
