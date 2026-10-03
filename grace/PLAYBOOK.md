@@ -152,6 +152,12 @@ products follow the same rules.
   GRWM outlet, clutter reset), ~20s each, $0. Furniture lesson: the honest caveat is size or build time; real urgency =
   "ships in 3 boxes" + holidays. Drive Docs: create_file garbles 4-byte emoji; overwrite the doc with Composio
   GOOGLEDRIVE_UPLOAD_UPDATE_FILE (workbench `upload_local_file` → s3key) to fix it in place.
+- 2026-10-02 FUSOU 71" Vanity Desk (furniture, AI hands-only): **an AI that re-draws a complex product drifts** (drawer/cubby counts, mirror shape). What held it exact: use the
+  brand's REAL listing photo as the base and EDIT it (extend to 9:16, light the LEDs, add the hand), never regenerate it from a description. The model leaves padding blurry
+  sometimes: rebuild the bands free (wall from a clean copy, floor stretched + soft foreground blur; measure per-row Laplacian to find the band). A hand reaching in from the
+  camera looks HUGE next to a far-away product: keep hands out of wide shots and use them only in mid-close shots at the product's distance. Check the voice plan with Ralph
+  (Grace B vs Grace's own) before writing "Grace records it". Top FUSOU videos (1.2M-7.2M): handheld walk-through, 4.4 words/s, 2.7 cuts/10s, product shown filled with items,
+  feature order whole vanity > lit mirror > cabinet behind the mirror > glass top + knobs > power station/dryer holder > stool drawers > light colours > link.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
