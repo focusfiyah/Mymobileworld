@@ -1,36 +1,31 @@
-# FUSOU vanity (Grace): HANDOFF for a new session (2026-10-03)
+# FUSOU vanity (Grace): HANDOFF for a new session (2026-10-03, end of V2 redo)
 
-Client Grace, Ralph's job. Product https://shop.tiktok.com/us/pdp/1732251413004981161 (FUSOU 71" white vanity, $639.99). 6 hands-only videos (Grace's hands
-only), voiceover = ElevenLabs **Grace B** `bGrsdLmwBbYUgHRuMFOI` eleven_v4 (NOT Grace's own voice), no burned-in text. Branch `ccr-5c521a26-tc2gk0`
-(Mymobileworld). Read first: `CLAUDE.md`, `grace/PLAYBOOK.md`, this file, `ugc/fusou-vanity/README.md` Status, `shot_plan_v2.md`.
+Client Grace, Ralph's job. Product https://shop.tiktok.com/us/pdp/1732251413004981161 (FUSOU 71" white vanity, $639.99). Hands-only (Grace's real
+hands, refs `refs/hand_dorsal.png`/`hand_palm.png`), voiceover = ElevenLabs **Grace B** `bGrsdLmwBbYUgHRuMFOI` eleven_v4 (NOT Grace's own voice), no burned-in text.
+Branch `ccr-5c521a26-tc2gk0` (Mymobileworld; Dayone-ai has the same branch name for handoff/memory files only).
+Read first: `CLAUDE.md`, `grace/PLAYBOOK.md` (lessons 2026-10-03 at the bottom), this file, README `Status:`.
+
+## State (all pushed)
+- **V2 = DONE and APPROVED by Ralph** ("Good, that's the one"): Grace's own script verbatim, motion-first cut `out/fusou_v2_grace_r2.mp4` (42.7 s, 14 moving clips,
+  no package card, no hand sweeping the vanity). In Drive FUSOU folder (id 1LDxaLUgsy_QR0Nq_9B7vokF_JqaYy1hx) as `FUSOU Video 2 - Grace script (motion cut r2).mp4`
+  (id 1fU3brTc-7XLrXAL8YhFmH898CPb3glTy). Old V2 and my r1 upload are in the Drive trash. Scripts doc (id 1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs) has the new V2.
+  V2 Kie cost $0.918 = quote. Gate readability override for V2 ONLY is in `checklist.json` (`overrides`, Ralph's quote); other five keep max grade 3.0.
+- **V1, V3-V6: "leave as is for now" (Ralph).** Local finals V1-V4 `out/fusou_vN_r4.mp4`, V5-V6 `out/fusou_vN_r5.mp4`; Drive still holds the older r1 versions of these, and the
+  Drive scripts doc rows for them are the r1 text. Ralph has not yet said "good" on r4/r5, so do NOT replace them in Drive until he does.
+- Kie balance 1289 credits (~$6.45) at handoff (it was ~$0.82 after V2, so it was topped up or another session added). Shared account; check with `curl -sS https://api.kie.ai/api/v1/chat/credit`.
+
+## Likely next ask: apply the V2 motion look to V1, V3-V6 (needs Ralph's OK + exact cost first)
+- Rule 7 in CLAUDE.md: every shot a real moving clip; no Ken Burns on photos, no freezes (`WK1_back` freeze, `kb` shots are the "pictures" problem).
+- Reusable moving assets already paid for: `clips/WK1.mp4` (walk-in, use only 0-2.6 s), `WK2` (walk-in + mirror light on), `WK3` (dolly-out, use <= 4.6 s), `JD1a` (top-down drawer pull, first ~3 s),
+  `B2a` (bag out from under the sink), `M1a/M2a-c/M3a-c/M4a/M5a/M6a`, `V1S2-S5`, `B1a/B1b`, `FL1a`. New clips: plate with `kie.py`/`v2_clips.py` templates (still nano-banana-pro $0.09,
+  Seedance 2 Mini clip $0.041/s, 4-5 s = $0.164-0.205); a dolly-out = start frame grabbed from a walk-in clip. Ask before each paid step (Ralph's rule), one test first.
+- Cut builder pattern: `cut_v2g.py` (explicit EDL with times from the Grace B word timings `vo/vNg_words.json`, `render_shot` from `cut_r5.py`); output a NEW filename, never overwrite.
+- Before any new cut goes out: `python3 grace/gate.py ugc/fusou-vanity --stage cut` (needs tiktok.py compare proofs newer than scripts.md), frame-sheet QC, PushNotification.
+- Grace B TTS can stutter: always STT-check (scribe_v2) every voice take; cut fragments for free (`vo_destutter.py` pattern).
 
 ## Where things are
-- `scripts.md` 6 scripts (voice lines, hook text options, captions, sources). Also in Drive: Grace Tiktok assets / "FUSOU Vanity Desk – Grace hands-only (2026-10-02)" (doc
-  id 1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs). **That doc still says "Grace's own voice" and the old shot lists: overwrite it with Composio
-  `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` (HTML, same file id; the Drive connector garbles emoji).**
-- `refs/` real listing photos `listing_01..20.jpg`, crops `vanity_*.jpg`, `base_A_916.jpg` (photo A padded to 9:16), Grace's hand refs `hand_dorsal/palm.png`.
-- `kie.py` runner (import it; prompts come from the script you write), `v1_run.py` (Video 1 stills/clips), `edit_test*.py` (edit-the-real-photo recipe), `vo_v1.py`.
-- `stills/`: `V1A_fix`, `V1B_fix` (clean wide stills), `EDIT_TEST2` (hand near the mirror button), `CLOSEUP_TEST` (drawer close-up, drifted). `clips/`: `V1S2-5`, `EDIT_TEST2_clip`.
-- `vo/v1_voiceover.mp3` (21.9 s, 2.8 wps) and `vo/v1_voiceover_1p2x.mp3` (18.2 s, 3.4 wps, free atempo), `vo/v1_words.json`, `vo/v1_lines.json`.
-- `out/video1_lights_roughcut_v3.mp4` silent rough cut (no hand), v1/v2 earlier. Spent so far: **$1.94 Kie** (balance 1651.8 -> 1263.6 credits) + V1 voiceover.
-
-## Decisions (Ralph)
-White, Grace's REAL hands (long almond, mauve + white tips: NOT the Vicks look), real listing photo as the master, bedroom/daylight look (no dark video), no hand in wide
-shots (big), no hand glide, Grace B voice, examples' style (4 TikToks: @sdbby88 2.1M is the hands one; 4.4 wps, 2.7 cuts/10 s). Ask before EVERY paid step with the exact cost.
-
-## What worked / what not (do not repeat)
-- Prompt-only stills do NOT hold the vanity (cubbies, mirror shape, drawers drift; $0.63 lost). **Edit the real photo** (pad to 9:16 free, then Nano Banana Pro edit: repaint wall/floor,
-  light LEDs, add small hand). Model often leaves the blurred padding: rebuild free (wall from a clean copy, floor stretched + soft blur; find band rows with per-row Laplacian).
-- Close-up crops drift (drawer proportions): check a plate before making clips from it. Seedance adds a push-in and ends hands in odd poses: trim.
-- Hand reaching from the camera looks huge in a wide: hands only in mid-close shots.
-
-## Next steps, in order (nothing paid until Ralph says OK to `shot_plan_v2.md`)
-1. Ralph approves the plan (total new Kie $2.60; steps 1-3 in the plan). 2. Step 1 test: still M1 + clip M1a, show, stop. 3. Step 2 plates, contact sheet, stop. 4. Step 3 clips.
-5. Grace B voiceovers V2-V6 (ask), retime each cut to the real word timings, add SFX (click, soft whoosh, CC0), loudnorm -16 LUFS, 720x1280.
-6. QC every cut (no clip <1.0x, product never cropped/smeared, same vanity in every shot, hand small, frame check where the hand crosses the product), coach
-   `tiktok.py compare` against @sdbby88, fix, then send. 7. Drive: Grace Tiktok assets/FUSOU folder `1LDxaLUgsy_QR0Nq_9B7vokF_JqaYy1hx`: videos via Kie `upload()` + Composio
-   `GOOGLEDRIVE_UPLOAD_FROM_URL`, update the scripts doc. 8. PushNotification at every review point; keep the README Status line current; add lessons to `grace/PLAYBOOK.md`.
-
-## Prompt to paste into the new session
-"Continue the FUSOU vanity job for Grace (Mymobileworld, branch ccr-5c521a26-tc2gk0). Read CLAUDE.md, grace/PLAYBOOK.md, ugc/fusou-vanity/HANDOFF.md and README Status, then
-ugc/fusou-vanity/shot_plan_v2.md. Ask me for the OK on the plan and its exact cost before any paid step."
+- `scripts.md` 6 scripts + hook options + captions; `research/` gate proofs (hooks, humanizer_report, line_sources, product_facts, vN_readability, compare_*); `checklist.json`.
+- `refs/` real listing photos and hand refs; `stills/WB.png` bedroom plate (photo F extended); `clips/`, `vo/`, `out/`.
+- Drive uploads: Composio `GOOGLEDRIVE_UPLOAD_FROM_URL` after `kie.upload()` (videos); doc edits = rebuild HTML and `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` via the Composio workbench
+  (same file id; fetch the hosted HTML inside the workbench, then `upload_local_file`). Generator used for the scripts doc: see the transcript; data = `scripts.md` + the timing tables.
+- Memory files updated 2026-10-03 (`handoff/CLAUDE_PREFERENCES.txt`, `MEMORY_SHORT.txt`, `GLOBAL_MEMORY.md`, both repos). Ralph still has to paste MEMORY_SHORT and PREFERENCES into claude.ai.
