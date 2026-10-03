@@ -747,5 +747,60 @@
    ]
   },
   "costTime": 141
+ },
+ {
+  "t": "2026-10-03 20:35:24",
+  "submitted": "4d752a6a5fda5d3f521221530c6b173e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Wide-ish view of the workbench at the open garage door "
+ },
+ {
+  "t": "2026-10-03 20:36:27",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Wide-ish view of the workbench at the open garage door where red and orange fall leaves have blown onto the concrete outside: the GTT KN95 box stands front-facing on the bench, its whole front visible; the hand enters from the right edge of the frame and grips the right side panel of the box between thumb and fingers, fingers wrapped around the side, the palm NOT on the front face. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the box reference image and its colour is SILVER-GREY (a light grey carton: not blue, not white, not black, not beige): red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. The last reference image shows the same garage, light and bench: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055265295-wgablllg59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055267722-gwyatt2mjdt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791056506324-sbj7ekyyso.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791055403106-qvpxk6bc1im.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4d752a6a5fda5d3f521221530c6b173e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4d752a6a5fda5d3f521221530c6b173e_0_1791059782.jpeg"
+   ]
+  },
+  "costTime": 59
+ },
+ {
+  "t": "2026-10-03 20:36:37",
+  "submitted": "b435bbd3d0dab12f4b431ff803c8acfc",
+  "prompt": "Shot 7: holding the box by its right side, the hand slides it smoothly across the bench toward the lens, the box staying"
+ },
+ {
+  "t": "2026-10-03 20:38:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 7: holding the box by its right side, the hand slides it smoothly across the bench toward the lens, the box staying front-facing and upright, then lets go and the hand slides out to the right edge. The hand never covers the front of the box. Locked-off camera on a tripod. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The box is exactly the GTT KN95 box in the box reference image and its colour is SILVER-GREY (a light grey carton: not blue, not white, not black, not beige): red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/gtt-kn95/1791059795385-d68pqezsn8m.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "b435bbd3d0dab12f4b431ff803c8acfc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791059910013-6kj88ok99yk.mp4"
+   ]
+  },
+  "costTime": 121
  }
 ]
