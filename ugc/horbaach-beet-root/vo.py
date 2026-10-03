@@ -37,7 +37,7 @@ subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo/voiceover.mp3", 
                 "-c:a", "libmp3lame", "-b:a", "192k", "vo/voiceover_tight.mp3"], check=True)
 import re
 NUM = {"85000": "eightyfivethousand", "85": "eightyfive", "horbach": "horbahk", "horbaach": "horbahk", "horbäach": "horbahk", "horback": "horbahk"}  # STT writes numbers either way
-norm = lambda x: "".join(NUM.get(w, w) for w in re.sub(r"[^a-z0-9% ]", "", x.lower().replace("-", "")).split())
+norm = lambda x: "".join(NUM.get(w, w) for w in re.sub(r"[^a-z0-9% ]", "", x.lower().replace("-", "").replace("+", " plus ")).split())
 i, starts = 0, []
 for s in J["shots"]:  # consume transcript words until they spell this shot's line
     starts.append(out[i]["start"]); target, got = norm(s["vo"]), ""
