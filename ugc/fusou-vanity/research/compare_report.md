@@ -13,3 +13,4 @@ What this check found and what was fixed (Ralph's notes 2026-10-03): vanity firs
 
 ## V2 Grace motion cut vs the same winner (2026-10-03)
 `out/fusou_v2_grace_r1.mp4` (Grace's own script, Grace B voice 42.7 s, 14 shots) vs @sdbby88 2.1M: cuts 12 = 2.8 per 10 s (winner 2.7), vanity in frame from 0 s (bedroom walk-in), every shot is a moving clip (no Ken Burns on photos, no freezes, no clip below 1.0x). Raw output `compare_v2_grace_r1.txt`. Length is 42.7 s vs the winner's 33.2 s because Grace's script is 136 words (3.2 words/s). Not changed: Ralph kept her words ("Keep everything she sent").
+r2 (Ralph 2026-10-03: package card and the hand sweeping across the vanity removed): `out/fusou_v2_grace_r2.mp4`, same pace, raw output `compare_v2_grace_r2.txt`.

@@ -1,15 +1,15 @@
 # A/B compare
 
 **A**: https://www.tiktok.com/@sdbby88/video/7653329613258591518 (2,100,000 views, saves 0.84%)
-**B**: out/fusou_v3_r4.mp4
+**B**: out/fusou_v2_grace_r2.mp4
 
 | | A | B |
 |---|---|---|
-| duration_s | 33.2 | 22.6 |
+| duration_s | 33.2 | 42.7 |
 | words | 145 | 0 |
 | words_per_sec | 4.37 | None |
-| cuts | 9 | 7 |
-| cuts_per_10s | 2.7 | 3.1 |
+| cuts | 9 | 12 |
+| cuts_per_10s | 2.7 | 2.8 |
 | first_word_at_s | 0.0 | None |
 | spoken_first_3s | this is the viral vanity that all the girlies are getting and let me show you exactly |  |
 
