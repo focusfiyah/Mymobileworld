@@ -33,3 +33,6 @@ No dashes, no triads, no sales words, no chatbot residue; gate banned-phrase sca
 
 ## Round 4 (2026-10-03): pain rewritten (Ralph: different examples, not sanding)
 New pain: "Sweep out the garage or shake out a rug, and look at all that dust. You're breathing that too." Everyday chores, a pair (not a triad), plain words, no staging, no health claim. Clean.
+
+## Round 5 (2026-10-03): solution line, no colour mention (Ralph/Grace)
+"...and I love that they're black" -> "...and they're made to be soft on your skin." Box wording (Soft, Skin-friendly), plain words, no use claim, no tell found. Clean.
