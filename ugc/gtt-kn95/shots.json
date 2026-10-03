@@ -1,0 +1,176 @@
+{
+ "product": "GTT Black KN95 disposable masks, 50-pack, individually wrapped (ELEHOME GTT shop)",
+ "client": "Grace",
+ "status": "Plan approved by Ralph 2026-10-03: full match, 10 shots, $2.75 Kie. Nano Banana Pro (Gemini 3 Pro Image) stills; Seedance 2.0 Mini clips.",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover_tight.mp3"
+ },
+ "format": {
+  "aspect_ratio": "9:16",
+  "resolution": "720p",
+  "fps": 24
+ },
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people.",
+ "box_block": "The box is exactly the GTT KN95 box in the product reference image: a rectangular carton in light silver-grey, a red 'GTT' logo top-left, a large black 'KN95' wordmark, 'DISPOSABLE PARTICULATE' under it, a small grey 'HEALTH & TECHNOLOGY' line, a blue band with a yellow '95', and a bottom white strip with a red and blue stripe reading 'INDIVIDUALLY WRAPPED' and '50 ALL ONE SIZE'. The box keeps this exact shape, colour and layout in every frame: no morphing, no extra text, no label drift.",
+ "mask_block": "The mask is exactly the black mask in the product reference image: a matte black fish-shape (3D folded) disposable mask with dotted stitched edges, a small black 'KN95' printed on its side, and thin black elastic ear loops. It stays black with the same shape in every frame.",
+ "wrap_block": "Each mask is sealed in its own thin clear plastic sleeve, with the black fish-shape mask visible inside, same as the black mask in the reference image.",
+ "scene_block": "Setting: a lived-in home garage, bare concrete floor, a wooden workbench with a pegboard of tools behind it, a car partly visible, the big garage door open on the right letting in soft early-autumn daylight, a few red and orange leaves outside. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products.",
+ "video_suffix": "Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+ "shots": [
+  {
+   "id": "S1",
+   "beat": "hook",
+   "vo": "A whole box of fifty masks. Let me show you why.",
+   "still": "Medium close-up at a wooden garage workbench: the hand, entering from the bottom edge of the frame, holds the GTT KN95 box upright and front-facing toward the lens, the lid closed; the garage door is open behind it, out of focus, soft autumn daylight.",
+   "video": "Shot 1: the hand holds the box steady front-on for a second, then tilts the box toward the lens and lifts the top flap open so a stack of individually wrapped masks shows inside. Locked-off camera on a tripod.",
+   "dur": 5,
+   "box": true,
+   "mask": false,
+   "wrap": false,
+   "hook_text": "why fifty?",
+   "t": [
+    0.0,
+    3.48
+   ]
+  },
+  {
+   "id": "S2a",
+   "beat": "pain",
+   "vo": "Sweep out the garage",
+   "still": "Low angle on a dusty concrete garage floor: one hand grips a push broom handle from the top edge of the frame, the broom head rests on the floor with a fine haze of dust already rising in a shaft of daylight from the open garage door. No box, no mask, no other products.",
+   "video": "Shot 2a: the hand pushes the broom forward across the concrete in one slow stroke, a cloud of dust lifts and drifts in the light. Locked-off camera on a tripod.",
+   "dur": 4,
+   "box": false,
+   "mask": false,
+   "wrap": false,
+   "t": [
+    3.48,
+    4.6
+   ]
+  },
+  {
+   "id": "S2b",
+   "beat": "pain",
+   "vo": "or shake out a rug, and look at all that dust. You're breathing that too.",
+   "still": "The open garage doorway with soft daylight behind: the hand, entering from the bottom edge, holds one corner of a worn grey doormat out in front of the lens, hanging down. No box, no mask, no other products.",
+   "video": "Shot 2b: the hand gives the doormat two firm shakes, a big cloud of fine dust lifts off it and hangs in the daylight, then the hand holds still while the dust drifts. Locked-off camera on a tripod.",
+   "dur": 5,
+   "box": false,
+   "mask": false,
+   "wrap": false,
+   "t": [
+    4.6,
+    8.82
+   ]
+  },
+  {
+   "id": "S3",
+   "beat": "solution",
+   "vo": "These are KN95s, so they filter out ninety-five percent or more, and they're made to be soft on your skin.",
+   "still": "Close-up at the garage workbench: the hand holds one black fish-shape mask up in front of the lens by its two ear loops so the whole mask shows; the GTT KN95 box stands out of focus behind it on the bench.",
+   "video": "Shot 3: the hand holds the mask steady by the loops, then the thumb brushes lightly across the soft fabric of the mask and settles. Locked-off camera on a tripod.",
+   "dur": 5,
+   "box": true,
+   "mask": true,
+   "wrap": false,
+   "t": [
+    8.82,
+    15.16
+   ]
+  },
+  {
+   "id": "S4",
+   "beat": "solution",
+   "vo": "They're shaped like a fish to fit your face, and the loops stretch.",
+   "still": "Close-up at the garage workbench: the hand holds one black fish-shape mask up in side profile so its pointed fish shape shows; the other hand's finger and thumb hold one ear loop. Garage blurred behind.",
+   "video": "Shot 4: the finger and thumb pull the ear loop out so the elastic stretches, then let it snap back; the mask stays in the other hand, steady. Locked-off camera on a tripod.",
+   "dur": 4,
+   "box": false,
+   "mask": true,
+   "wrap": false,
+   "t": [
+    15.16,
+    18.4
+   ]
+  },
+  {
+   "id": "S5a",
+   "beat": "solution",
+   "vo": "Each one is wrapped,",
+   "still": "Close-up at the garage workbench: the hand pulls one black mask, sealed in its own clear plastic sleeve, out of the top of the open GTT KN95 box, the box angled so only its top opening shows.",
+   "video": "Shot 5a: the hand lifts the wrapped mask up out of the box and holds it toward the lens. Locked-off camera on a tripod.",
+   "dur": 4,
+   "box": true,
+   "mask": false,
+   "wrap": true,
+   "t": [
+    18.4,
+    19.46
+   ]
+  },
+  {
+   "id": "S5b",
+   "beat": "solution",
+   "vo": "so keep a few in the car",
+   "still": "Inside a parked car: the hand, entering from the bottom of the frame, tucks two black masks, each sealed in a clear plastic sleeve, into the driver's door pocket beside the door handle, soft daylight through the window. No box.",
+   "video": "Shot 5b: the hand slides the two wrapped masks down into the door pocket and lets go. Locked-off camera on a tripod.",
+   "dur": 4,
+   "box": false,
+   "mask": false,
+   "wrap": true,
+   "t": [
+    19.46,
+    20.86
+   ]
+  },
+  {
+   "id": "S5c",
+   "beat": "solution",
+   "vo": "and a few in the garage.",
+   "still": "A garage shelf at the edge of the workbench: the hand, entering from the bottom of the frame, sets two black masks, each sealed in a clear plastic sleeve, on a wooden shelf beside a paint can and a tape measure. No box.",
+   "video": "Shot 5c: the hand sets the two wrapped masks down on the shelf and lifts away. Locked-off camera on a tripod.",
+   "dur": 4,
+   "box": false,
+   "mask": false,
+   "wrap": true,
+   "t": [
+    20.86,
+    22.1
+   ]
+  },
+  {
+   "id": "S6",
+   "beat": "confession",
+   "vo": "The only problem? Now I can't say I forgot my mask.",
+   "still": "Close-up on the wooden workbench: the hand sets one black fish-shape mask down next to a pair of work gloves and a set of car keys. No box.",
+   "video": "Shot 6: the hand sets the mask down beside the gloves and keys, then taps it once with a fingertip. Locked-off camera on a tripod.",
+   "dur": 4,
+   "box": false,
+   "mask": true,
+   "wrap": false,
+   "t": [
+    22.1,
+    25.0
+   ]
+  },
+  {
+   "id": "S7",
+   "beat": "cta",
+   "vo": "It's leaf season, so don't put this off. Fifty in a box, plenty to share. It's in the orange cart.",
+   "still": "Wide-ish view of the workbench at the open garage door where red and orange fall leaves have blown onto the concrete outside: the GTT KN95 box stands front-facing on the bench; the hand rests beside it.",
+   "video": "Shot 7: the hand slides the box toward the lens a little, then lifts away and comes back with an open palm pointing down toward the bottom of the frame. Locked-off camera on a tripod.",
+   "dur": 7,
+   "box": true,
+   "mask": false,
+   "wrap": false,
+   "hook_text": null,
+   "t": [
+    25.0,
+    30.43
+   ]
+  }
+ ]
+}
