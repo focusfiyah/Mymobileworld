@@ -65,7 +65,7 @@ def main():
         return
     opt = lambda k: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else None
     boxes = [tuple(map(int, sys.argv[i + 1].split(","))) for i, a in enumerate(sys.argv) if a == "--ai-box"]
-    video(base, src, out, int(opt("--hand-below") or 0), light="--no-light" not in sys.argv, ai_boxes=boxes, seed=opt("--seed"))
+    video(base, src, out, int(opt("--hand-below") or 0), light="--no-light" not in sys.argv, ai_boxes=boxes, seed=opt("--seed"), hull="--hull" in sys.argv)
 
 
 def skin(img):  # Grace's skin + mauve nails vs the white/grey vanity (YCrCb)
@@ -73,7 +73,7 @@ def skin(img):  # Grace's skin + mauve nails vs the white/grey vanity (YCrCb)
     return ((cr > 133) & (cr < 185) & (cb > 77) & (cb < 135) & (y > 30) & (y < 170)).astype(np.uint8)   # y<170: lit white surfaces are not skin
 
 
-def video(base, src, out, zone=0, light=True, ai_boxes=(), seed=None):
+def video(base, src, out, zone=0, light=True, ai_boxes=(), seed=None, hull=False):
     """v2 (2026-10-03, after Ralph saw shimmer): ONE smoothed alignment path, ONE colour match, and only two AI areas:
     the hand (skin pixels that differ from the real photo) + a FIXED ring where the LEDs light up. Everything else = real photo."""
     cap = cv2.VideoCapture(src); fps = cap.get(cv2.CAP_PROP_FPS); h, w = base.shape[:2]; frames = []
@@ -119,6 +119,16 @@ def video(base, src, out, zone=0, light=True, ai_boxes=(), seed=None):
         if prev is not None:   # track: keep only blobs that overlap last frame's hand
             keep = [i for i in keep if (prev[lab == i] > 0).any()]
         d = np.isin(lab, keep).astype(np.uint8)
+        if hull and d.any():   # v3 (Ralph: shelf items showed ON her hand, wrist cut): fill the hand's outline with AI skin, out to the frame edge
+            hm_ = np.zeros_like(d); sk = cv2.dilate(skin(a.astype(np.uint8)), np.ones((5, 5), np.uint8))
+            for i in keep:
+                ys, xs = np.nonzero(lab == i); pts = np.stack([xs, ys], 1)
+                ext = [pts]
+                for ax, lim in ((0, 0), (0, w - 1), (1, 0), (1, h - 1)):        # wrist leaving the frame: project near-edge points onto the edge
+                    near = pts[np.abs(pts[:, ax] - lim) < 40]
+                    if len(near): q = near.copy(); q[:, ax] = lim; ext.append(q)
+                cv2.fillConvexPoly(hm_, cv2.convexHull(np.concatenate(ext).astype(np.int32)), 1)
+            d = (d | (hm_ & sk)).astype(np.uint8)
         d = cv2.morphologyEx(d, cv2.MORPH_CLOSE, np.ones((15, 15), np.uint8))
         cs, _ = cv2.findContours(d, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE); cv2.drawContours(d, cs, -1, 1, cv2.FILLED)
         hand_masks.append(cv2.dilate(d, np.ones((9, 9), np.uint8)).astype(np.float32))
