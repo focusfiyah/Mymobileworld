@@ -17,12 +17,13 @@ SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
 REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/jar_front.png", "refs/jar_label.png"]
 ROOM = "stills/S1.png"  # first approved still doubles as the room reference
-NO_JAR = {"S2"}  # no jar or gummy text or refs in the beet-juice shot (playbook: product text puts the product in the shot)
+NO_JAR = {"S2"}  # S2 is also hand-free now
+NO_HAND = {"S2", "S7"}  # Ralph 2026-10-03: hand not needed in every shot; no hand text in these prompts (playbook: text overrides the image)  # no jar or gummy text or refs in the beet-juice shot (playbook: product text puts the product in the shot)
 GUMMY = {"S1", "S5"}
 
 
 def blocks(sid):
-    return " ".join([J["identity_block"]] + ([] if sid in NO_JAR else [J["jar_block"]]) + ([J["gummy_block"]] if sid in GUMMY else []))
+    return " ".join(([] if sid in NO_HAND else [J["identity_block"]]) + ([] if sid in NO_JAR else [J["jar_block"]]) + ([J["gummy_block"]] if sid in GUMMY else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json")
@@ -95,8 +96,8 @@ def stills(ids):
     refs = [upload(p) for p in REFS]
     for sid in ids:
         s = SHOTS[sid]
-        base = refs[:2] if sid in NO_JAR else refs
-        room = [upload(ROOM)] if sid != "S1" and Path(ROOM).exists() else []
+        base = [] if sid == "S2" else (refs[2:] if sid in NO_HAND else refs)
+        room = [upload(ROOM)] if sid != "S1" and sid not in NO_HAND and Path(ROOM).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_block']}"
                   + (" The last reference image shows the same kitchen, light and counter: match them." if room else ""))
