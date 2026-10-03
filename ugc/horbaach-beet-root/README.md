@@ -4,7 +4,7 @@
 Rules: `grace/PLAYBOOK.md`. One video, 9:16, ~26s, 7 shots, voiceover ElevenLabs **Grace B** (`bGrsdLmwBbYUgHRuMFOI`,
 eleven_v4). No face anywhere, so no lip sync. **No on-screen text of any kind, hook text included** (Ralph, 2026-10-02).
 
-Status: **Cut v1 built 2026-10-03 (24.5s, 7 shots, no overlay text, VO Grace B): out/horbaach_beet_root.mp4, shown to Ralph, waiting on his notes before Drive upload. Spent $1.68 Kie (quote $1.69). Hand clips S1/S3/S5/S6; S2/S4/S7 are free push-ins on stills. Coach compare vs @emacshops: ours 3.3 words/s vs 4.2, 2.4 cuts/10s vs 0.5. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies ad (2026-10-02).**
+Status: **Cut v1 built 2026-10-03 (also in Drive: Horbaach Beet Root Gummies - cut v1.mp4, file id 1p27XvoQ0P_GXeWOUu-HkTv7pKqqZmdDo) (24.5s, 7 shots, no overlay text, VO Grace B): out/horbaach_beet_root.mp4, shown to Ralph, waiting on his notes before Drive upload. Spent $1.68 Kie (quote $1.69). Hand clips S1/S3/S5/S6; S2/S4/S7 are free push-ins on stills. Coach compare vs @emacshops: ours 3.3 words/s vs 4.2, 2.4 cuts/10s vs 0.5. Drive folder: Grace Tiktok assets/Horbaach Beet Root Gummies ad (2026-10-02).**
 
 ## Product facts
 
