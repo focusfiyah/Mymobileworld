@@ -70,8 +70,8 @@ not in a new file.
 - **Viking curl cream (Grace), 2026-10-01:** script v5 (~25s, $0) for Grace's own hands-only beard footage;
   Grace records the lines next. `ugc/viking-curl-cream/README.md`.
 
-- **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited for the exact vanity). Scripts + Drive doc done,
-  Video 1 silent rough cut v3 + Grace B voiceover done, plan v2 ($2.60 new Kie, $1.94 spent) waiting on Ralph's OK. `ugc/fusou-vanity/HANDOFF.md` then README Status.
+- **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
+  so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. README Status line.
 
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
