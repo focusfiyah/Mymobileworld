@@ -1,0 +1,36 @@
+/home/claude/focusfiyah/mymobileworld/ugc/tirtir-red-cushion/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/claude/focusfiyah/mymobileworld/ugc/tirtir-red-cushion/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:318: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 14 of 87 videos posted since 2026-09-04
+14 videos -> tag_tirtir/tag-tirtir.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  7,900,000   7.1   0.26  101 2026-09-09  @missdarcei: Tirtir just dropped a new foundation? @TIRTIR Inc. Skin Glow Cushion #
+                                          https://www.tiktok.com/@missdarcei/video/7683571029494615317
+    742,100  46.0   4.09   21 2026-09-04  @tirtir.official: Discover the TIRTIR Glow Cushion, now making its global debut. A clean
+                                          https://www.tiktok.com/@tirtir.official/video/7681104429344476446
+    222,800  39.5   3.69   22 2026-09-09  @tirtir.official: Seamless Coverage. Clean Glow. The NEW Tinted Cushion Powered by a 73%
+                                          https://www.tiktok.com/@tirtir.official/video/7682591450835520799
+     62,600   3.7   0.36   47 2026-09-28  @jawarshere: Now, THIS is how you do COVERAGE!! the @TIRTIR Inc. cushion foundation
+                                          https://www.tiktok.com/@jawarshere/video/7690680310077345025
+     48,900  14.1    0.9   11 2026-10-01  @tammyyyrr: Trying TIR TIRs Red cushion foundation ❤️ shade - 21W @TIRTIR Inc. ava
+                                          https://www.tiktok.com/@tammyyyrr/video/7691794132557204749
+     31,700   4.6   0.53   50 2026-09-08  @lydia.chae: how is this formula stunning AND long lasting ❣️ #TIRTIR #GlowCushion 
+                                          https://www.tiktok.com/@lydia.chae/video/7683000912415149343
+      8,166   3.8   0.37   24 2026-09-23  @tirtir.official: 23N, up close ❤️ Seamless on skin. Buildable where you want it. Finish
+                                          https://www.tiktok.com/@tirtir.official/video/7688247055571111198
+      7,670   3.6   0.13   12 2026-09-17  @tirtir.official: layer by layer ✨ TIRTIR Tinted Moisturizer buildable coverage without 
+                                          https://www.tiktok.com/@tirtir.official/video/7685557748028771614
+      4,665   1.5   0.13   29 2026-09-25  @thenextbuyer: #tirtircushionfoundation #cushionfoundation #tirtirmaskfitaifilter #ti
+                                          https://www.tiktok.com/@thenextbuyer/video/7689568685668764959
+      3,976   6.6    0.4   33 2026-09-22  @kellystrackofficial: If you want FULL coverage with a weightless finish, THIS is the founda
+                                          https://www.tiktok.com/@kellystrackofficial/video/7688453627198917902
+        784   1.8   0.13   40 2026-09-18  @ccramx_: The coverage on this foundation that feels this lightweight is TOP TIE
+                                          https://www.tiktok.com/@ccramx_/video/7686695780748496142
+        527   7.8   0.38   68 2026-10-02  @cathyobv_: The hype is real✨ Shade: 35w Walnut ✨ @TIRTIR Inc. #tirtir #tirtircush
+                                          https://www.tiktok.com/@cathyobv_/video/7692111971214167326
+        516   4.1   0.58   21 2026-09-28  @magicwithmercedes: I like this so far ♥️ The coverage was crazy for just a little tap! I 
+                                          https://www.tiktok.com/@magicwithmercedes/video/7690615922326867213
+        155  17.4   1.94   26 2026-10-03  @machyismuch: Finally trying the viral TIRTIR Red Cushion. The finish is so pretty! 
+                                          https://www.tiktok.com/@machyismuch/video/7692555066393267487
