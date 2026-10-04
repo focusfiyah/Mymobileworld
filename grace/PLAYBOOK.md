@@ -218,3 +218,5 @@ products follow the same rules.
 ## 9. To add later
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
+
+- **Hand size and forearm (Ralph 2026-10-04, FUSOU V3 pointing still: "too big, takes the whole screen, did you not remember no forearm"):** the rule "hands from the frame edge, no forearm" applies to EVERY hand prompt, including a pointing hand: write "only the hand and wrist enter from the frame edge, no forearm, hand small (about 15% of frame height), the product stays the hero". Never prompt "whole forearm visible". Free fix for an oversized AI hand: cut the hand with the paste-back mask, scale it down about 45-55% and move it so the wrist sits on the frame edge (`stills/P1_small.png`). Check the first still against the winners' hand size before any clip. Examples: `ugc/fusou-vanity/v3ab/research/pointing_examples.jpg`.
