@@ -50,8 +50,9 @@ not in a new file.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
    Grace structure + `humanizer` + readability + on-screen hook text, then coach `compare` on the cut. Full list:
    `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
-7. **Looks like video, not pictures** (Ralph, 2026-10-03, FUSOU V2): every shot a real moving clip, no Ken Burns on photos, no freezes; no hand sweeping across the product; never add a picture Ralph didn't ask for. A client's own script is used verbatim only on Ralph's word, via a recorded per-video `overrides` entry in `checklist.json` (`grace/gate.py`).
-6. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+6. **Looks like video, not pictures** (Ralph, 2026-10-03, FUSOU V2): every shot a real moving clip, no Ken Burns on photos, no freezes; no hand sweeping across the product; never add a picture Ralph didn't ask for. A client's own script is used verbatim only on Ralph's word, via a recorded per-video `overrides` entry in `checklist.json` (`grace/gate.py`).
+7. **Removed items stay removed (Ralph, 2026-10-04):** keep `REMOVED.md` in every job; before a cut goes to Ralph, list every element in it and check against that list and the last round's notes. Details: `grace/PLAYBOOK.md` §6.
+8. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
@@ -86,7 +87,7 @@ not in a new file.
   Grace records the lines next. `ugc/viking-curl-cream/README.md`.
 
 - **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
-  so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. 2026-10-03: V2 REDONE on Grace's own script (verbatim, gate readability override for V2 only, Ralph) as a motion-first cut, r2 APPROVED and in Drive (`FUSOU Video 2 - Grace script (motion cut r2).mp4`); +$0.918 Kie. Drive scripts doc (id 1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs) updated with Grace's V2 on 2026-10-03. README Status line.
+  so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder, organized 2026-10-04 into Final videos / Scripts / Older versions; V1 now has two Grace-script versions 1A/1B, `ugc/fusou-vanity/v1ab/`) with the final scripts doc; $4.28 Kie vs $4.54 quote. 2026-10-03: V2 REDONE on Grace's own script (verbatim, gate readability override for V2 only, Ralph) as a motion-first cut, r2 APPROVED and in Drive (`FUSOU Video 2 - Grace script (motion cut r2).mp4`); +$0.918 Kie. Drive scripts doc (id 1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs) updated with Grace's V2 on 2026-10-03. README Status line.
 
 - **GTT Black KN95 50-pack (Grace), 2026-10-03:** hands-only AI ad, 31s, 10 shots matched to the VO, `ugc/gtt-kn95/out/gtt_kn95.mp4` APPROVED; in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)); $4.375 Kie vs $2.75 first quote (redos, each asked). README Status line. Grace reference sheet: `grace/ref/`.
 

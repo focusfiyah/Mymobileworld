@@ -39,7 +39,7 @@ while True:
     k = ease(t, *RAMP)                                                                       # 0 = daylight, 1 = room dark
     lit = ease(t, *ON) if ON else 1.0
     dip = 1 - 0.55 * (np.sin(np.pi * np.clip((t - DIP[0]) / (DIP[1] - DIP[0]), 0, 1)) if DIP else 0)
-    room = ff32 * (1 - k * (1 - DARK)); room *= np.array([1 + 0.06 * k, 1.0, 1 - 0.05 * k], np.float32)   # darker + a touch cooler
+    room = ff32 * (1 - k * (1 - DARK)); room *= np.array([1 + 0.06 * k, 1.0, 1 - 0.05 * k], np.float32) if DARK < 0.99 else 1.0   # darker + a touch cooler (none at dark=1.0)
     if COLS:   # BGR targets: cold white, warm white, warm yellow; 0.15 s cross-fade at each tap
         tg = [np.array(c, np.float32) for c in ((255, 242, 222), (205, 228, 255), (125, 200, 255))]
         e1, e2 = ease(t, COLS[0], COLS[0] + 0.15), ease(t, COLS[1], COLS[1] + 0.15)
