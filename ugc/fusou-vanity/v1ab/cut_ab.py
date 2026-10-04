@@ -19,6 +19,9 @@ def tint(im, a):   # a: 0 = warm bathroom light, 1 = cool daylight
     return np.clip(x * k * (0.95 * (1 - a) + 1.06 * a), 0, 255).astype(np.uint8)
 
 
+def badlite(im): return cv2.addWeighted(bad(im), 0.55, im, 0.45, 0)
+
+
 def bad(im):   # bad bathroom lighting: dim, flat, slightly green-yellow, top-lit vignette
     x = im.astype(np.float32); g = x.mean(2, keepdims=True); x = g + (x - g) * 0.78
     x *= np.array([0.80, 0.93, 0.90]) * 0.82
@@ -34,7 +37,7 @@ def grade(src, out, t_sw, ramp=0.3, mode=None):
         ok, f = cap.read()
         if not ok: break
         a = 0 if t_sw is None else min(1, max(0, (i / FPS - t_sw) / ramp)); a = a * a * (3 - 2 * a)
-        ff.stdin.write((bad(f) if mode == 'bad' else tint(f, a)).tobytes()); i += 1
+        ff.stdin.write((bad(f) if mode == 'bad' else badlite(f) if mode == 'badlite' else tint(f, a)).tobytes()); i += 1
     ff.stdin.close(); ff.wait()
 
 
@@ -78,14 +81,15 @@ def lights_day(t0, t_warm, t_dip0, t_yellow):   # Grace: no dark room. Same LED 
     return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [-0.2, -0.1], "dark": 1.0, "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}})
 
 
-def EDL2(v, face=False):
+def EDL2(v, face=0):
     """Grace's notes 2026-10-04 (both videos): ~3 s of Grace making up in bad lighting, vanity on screen by 3 s; room never dark; the tap/light-on shot
     is replaced by hands walking toward the vanity in full view (V1S4)."""
     w = lambda x, k=1: at(v, x, k); end = cut.dur_of(f"{V}/vo/v{v}_final.wav") + cut.TAIL
     L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s4 = L[3]
     w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
     BAD = ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": 0, "mode": "bad"})
-    if face: BAD = ("clip", "clips/OPEN_FACE.mp4", 0.2, {"crop": "486:865:70:120"})   # Grace's face, bad light, cropped above the lips (no lip sync needed)
+    if face == 1: BAD = ("clip", "clips/OPEN_FACE.mp4", 0.2, {"crop": "486:865:70:120"})
+    if face == 2: BAD = ("clip", "clips/OPEN_FACE2.mp4", 0, {"grade": 0, "mode": "badlite"})   # Ralph: farther, relaxed, full face, no lip sync, no hand sweep   # Grace's face, bad light, cropped above the lips (no lip sync needed)
     if v == "A":
         t_hand = 5.2; t_lights = L[3] - 5.0
         edl = [(0, BAD), (2.73, ("clip", "clips/V1S5.mp4", 0, {})), (t_hand, ("clip", "clips/V1S4.mp4", 0, {})),
@@ -102,6 +106,10 @@ def EDL2(v, face=False):
                (w4("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w4("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
                (w4("jewelry") - 0.15, ("clip", "clips/M4a.mp4", 0.7, {})), (L[4], ("kb",) + WIDE + ({"zoom": 1.08},))]
         taps = [w("adjustable") - 0.05, w("so") - 0.05]
+    if face == 2:
+        PUSH = ("kb",) + WIDE + ({"zoom": 1.12},)
+        if v == "A": edl = [edl[0], (edl[1][0], PUSH)] + edl[3:]
+        else: edl = [edl[0], (edl[1][0], PUSH)] + edl[3:]
     return edl, taps, end
 
 
@@ -160,7 +168,7 @@ def zoomout(prev_file, file, dur=0.7):
 
 
 def build(v, ver=1):
-    edl, taps, end = EDL2(v, face=(ver == 3)) if ver >= 2 else EDL(v); tag = f"ab{v}{ver}"
+    edl, taps, end = EDL2(v, face={3: 1, 4: 2}.get(ver, 0)) if ver >= 2 else EDL(v); tag = f"ab{v}{ver}"
     starts = [s for s, _ in edl] + [end]
     assert all(b > a for a, b in zip(starts, starts[1:])), f"{v}: starts not increasing {starts}"
     files = [render(i, sh, starts[i + 1] - starts[i], tag) for i, (_, sh) in enumerate(edl)]
