@@ -1,0 +1,32 @@
+[
+ {
+  "t": "2026-10-04 02:40:22",
+  "submitted": "0c6e67fb8f3e07df3fb6a7b5e6c8cbd4",
+  "prompt": "Vertical 9:16 close-up photo, a single frame from a phone-shot UGC video. The woman in the first three reference images "
+ },
+ {
+  "t": "2026-10-04 02:42:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 close-up photo, a single frame from a phone-shot UGC video. The woman in the first three reference images (the SAME woman: same face, dark brown skin, defined brows, dark brown eyes, long black knotless boho braids with curly ends in a side part) is doing her makeup at a bathroom mirror. We see her face from the top of her head down to just under her nose: the frame cuts off at the bottom of her nose, so her lips and chin are NOT in the frame. She looks straight ahead into the mirror (toward the camera), eyes open and relaxed, eyebrows relaxed and level, no forehead wrinkles. Her right hand brings a fluffy makeup blush brush to her cheekbone, pressing it on the cheek; the hand enters from the lower right edge of the frame and is shown only to the wrist. The hand is hers: long almond-shaped nails with a glossy dusty mauve-pink gel polish and a thin white French tip (the last two reference images show the hand). BAD LIGHTING: a single dull overhead bathroom light, flat and slightly yellow-green, harsh soft shadows under her eyes and nose and across her forehead, dim, no flattering glow, the skin looks a bit dull. Plain beige bathroom wall behind her, a little of the mirror frame edge visible. Real phone-camera look, natural skin texture with pores, no beauty filter, no text, no logos. She wears no visible clothing in frame (only face, hair and the hand with the brush).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081580697-x7g6s6nui6.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081582794-aw4eb41caxn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081584782-2fx9t9i3zkx.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081586987-tkd1xrnhas.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081589054-x5htu45vjia.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0c6e67fb8f3e07df3fb6a7b5e6c8cbd4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0c6e67fb8f3e07df3fb6a7b5e6c8cbd4_0_1791081745.jpeg"
+   ]
+  },
+  "costTime": 124
+ }
+]
