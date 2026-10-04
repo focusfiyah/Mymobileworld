@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-04). Hands-only AI video, ONE video, SILENT (Grace records her own voiceover; no ElevenLabs). 3 script options in `scripts.md`, one shared six-beat grid so the single video fits any option. Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-04: CUT READY FOR RALPH: out/pads_A.mp4 (28.2s, silent, hook text A; B and C text variants in out/). QC + gate --stage cut OK. Kie spent $4.851 vs $3.46 quote (+$0.09 approved redo; Seedance rerolls). Next: Ralph OK, then Drive (Grace Tiktok assets/Base Labs folder), then retime to Grace VO when she sends it (free).**
+Status: **2026-10-04: DONE, approved by Ralph, in Drive: Grace Tiktok assets / Base Laboratories pads + oil ads (2026-10-04) (folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P): 3 hook-text versions per video + scripts doc (1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); sizes match. Kie $4.851 vs $3.46 quote. Next: retime to Grace VO when she sends it (free, python3 ../cut.py).**
 
 Real product (confirmed from the brand's own photos, not a prompt description): real jar: pale-blue jar, yellow lid, pink 'INGROWN HAIR PADS' label (refs/real_jar.png); retail box yellow with pink band (refs/real_box.png).
 
