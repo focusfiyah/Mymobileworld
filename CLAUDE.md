@@ -97,6 +97,8 @@ not in a new file.
   Shnuggle angles) also in Drive as a Google Doc: Grace Tiktok assets/"Grace scripts - Bobbi Brown, Elasco, Shnuggle
   (2026-10-02)" (id 1G7k7zJMwuGc0va2Qc7UHfJFszyIwmYd13b3PS-RXiRU). Drive copy doesn't sync: re-upload after edits.
 
+- **Supplement pack (Grace), 2026-10-04:** hands-only AI ads, 5 per product (V1 + 4 hook/VO variants on the same footage), <=16s: Youtheory Ashwagandha Liquid, Youtheory Total Body Turmeric, Neuro Sour Mints, Penetrex roll-on. `ugc/youtheory-ashwagandha/`, `ugc/youtheory-turmeric/`, `ugc/neuro-sour-mints/`, `ugc/penetrex-gel/`. 20 cuts in Drive (Grace Tiktok assets/<product> ads (2026-10-04)); Kie $4.9 total. README Status lines.
+
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 

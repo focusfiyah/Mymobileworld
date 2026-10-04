@@ -1,0 +1,23 @@
+# A/B compare
+
+**A**: https://www.tiktok.com/@hgg1890/video/7688294889162902798 (2,400,000 views, saves 0.15%)
+**B**: penetrex-gel/out/penetrex-gel.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 26.7 | 15.8 |
+| words | 80 | 0 |
+| words_per_sec | 3.0 | None |
+| cuts | 4 | 4 |
+| cuts_per_10s | 1.5 | 2.5 |
+| first_word_at_s | 0.0 | None |
+| spoken_first_3s | oh I feel terrible this is a joint gel |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.0s] oh I feel terrible
+- [1.6s] this is a joint gel
+
+-> penetrex-gel/research/compare/compare/compare.md, penetrex-gel/research/compare/compare/compare.png

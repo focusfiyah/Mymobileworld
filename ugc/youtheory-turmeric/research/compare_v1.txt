@@ -1,0 +1,23 @@
+# A/B compare
+
+**A**: https://www.tiktok.com/@dr.asukwo.healtht/video/7683212567648554258 (49,900 views, saves 1.48%)
+**B**: youtheory-turmeric/out/youtheory-turmeric.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 81.6 | 15.8 |
+| words | 263 | 0 |
+| words_per_sec | 3.22 | None |
+| cuts | 24 | 3 |
+| cuts_per_10s | 2.9 | 1.9 |
+| first_word_at_s | 0.1 | None |
+| spoken_first_3s | Everyone is taking turmeric wrong. It is passing straight through your body like water through a pipe. |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.1s] Everyone is taking turmeric wrong.
+- [2.1s] It is passing straight through your body like water through a pipe.
+
+-> youtheory-turmeric/research/compare/compare/compare.md, youtheory-turmeric/research/compare/compare/compare.png
