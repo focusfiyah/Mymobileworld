@@ -6,29 +6,30 @@ sys.path.insert(0, os.getcwd()); import cut
 from cut import run, dur_of, render_shot, FPS, WIDE, CAB, CAB2, DOOR, PSTRIP, M2CROP
 cut.TMP = "/tmp/claude-0/-home-user/9c718d1b-29a5-5a63-b8f9-864e00013653/scratchpad/cut3"; os.makedirs(cut.TMP, exist_ok=True); os.makedirs("v3ab/out", exist_ok=True)
 VO = "v3ab/vo/vA_final.wav"; LINES = json.load(open("v3ab/vo/vA_final_lines.json")); L = [l["start"] for l in LINES]   # line starts
-MIRROR = ("stills/V1A_fix.png", (140, 380, 520, 1056))                                     # real photo, lit mirror region
-P1, P2 = "clips/P1_kling3.mp4", "clips/P2_kling.mp4"                                          # Kling clips (already real 3D dolly, no grain pass)
+BEDW = "stills/BEDROOM_WIDE_2x.png"                                                           # real bedroom wide from the approved Drive Video 2 (doors, bed, rug), 2x
+BED = (BEDW, (0, 0, 1440, 2560)); MIRROR = (BEDW, (120, 660, 920, 2082)); RIGHT = (BEDW, (640, 700, 1440, 2122)); LEFT = (BEDW, (0, 700, 800, 2122))
+P1, P2 = "clips/P1_bed.mp4", "clips/P2_bed.mp4"                                                # free pointing-hand clips on the bedroom wide (v3ab/hand_bedroom.py)
 
 
 def edl(v):
-    if v == "A":      # hook = wide pointing hand; hands close on mirror door / outlet / stool drawer
-        return [(0, ("clip", P1, 0, {"done": 1})), (L[1], ("kb",) + WIDE + ({},)), (L[1] + 3.13, ("kb",) + CAB + ({},)), (L[2], ("kb",) + MIRROR + ({},)),
-                (L[3], ("clip", P2, 0, {"done": 1})),                                              # full-length mirror: hand points, trimmed before it leaves frame
+    if v == "A":      # hook = wide bedroom with the pointing hand; hands close on mirror door / outlet / stool drawer
+        return [(0, ("clip", P1, 0, {"done": 1})), (L[1], ("kb",) + BED + ({},)), (L[1] + 3.13, ("kb",) + CAB + ({},)), (L[2], ("kb",) + MIRROR + ({},)),
+                (L[3], ("clip", P2, 0, {"done": 1})),                                              # full-length mirror: hand points from the right edge
                 (L[3] + 1.6, ("clip", "clips/M5a.mp4", 0, {})),                                     # mirror door opens (hidden storage)
                 (L[5], ("clip", "clips/M2a.mp4", 0, {"crop": M2CROP})),                             # outlets
                 (L[6] - 0.13, ("clip", "clips/M4a.mp4", 0.6, {})),                                  # stool drawer
-                (L[7], ("kb",) + CAB2 + ({},)), (L[7] + 2.67, ("kb",) + WIDE + ({"pull": 1},)),     # five things -> all in one
-                (L[8], ("clip", "clips/V1S5.mp4", 0, {})), (L[8] + 4.03, ("kb",) + WIDE + ({},))]   # ships in three boxes, close
-    # B: different order, different shots: opens on the lit mirror, pointing hand on the pain line (4 s), real-photo pushes for mirror/storage/outlets, drawer hands later
+                (L[7], ("kb",) + CAB2 + ({},)), (L[7] + 2.67, ("kb",) + BED + ({"pull": 1},)),      # five things -> all in one
+                (L[8], ("kb",) + RIGHT + ({},)), (L[8] + 4.03, ("kb",) + BED + ({},))]              # ships in three boxes (cabinet, window, bed edge), close
+    # B: different order and sources: opens on the lit mirror, pointing hand on the pain line (4 s), real-photo pushes for storage/outlets, drawer hands later, bedroom left side + wide close
     return [(0, ("kb",) + MIRROR + ({},)), (L[1], ("clip", P1, 0, {"done": 1})), (L[1] + 4.0, ("kb",) + CAB + ({},)),
-            (L[2], ("clip", "clips/V1S5.mp4", 0, {})),                                              # lit mirror line: pull back from the mirror to the whole piece
+            (L[2], ("kb",) + BED + ({"pull": 1},)),                                                 # lit mirror line: pull back from the mirror to the whole bedroom
             (L[3], ("kb",) + DOOR + ({},)),                                                         # full-length mirror (real photo push)
             (L[4] - 0.12, ("kb",) + CAB2 + ({},)),                                                  # hidden storage (real photo, bags)
             (L[5], ("kb",) + PSTRIP + ({},)),                                                       # outlets (real listing photo)
             (L[6] - 0.13, ("clip", "clips/M4a.mp4", 0, {})),                                        # stool drawer opens
             (L[7], ("clip", "clips/M3a.mp4", 0, {})),                                               # drawers + lipsticks: five things in one
-            (L[7] + 4.04, ("kb",) + WIDE + ({"pull": 1},)),                                         # ships in three boxes: pull back to the whole piece
-            (L[8] + 4.03, ("kb",) + WIDE + ({},))]                                                  # close push-in
+            (L[7] + 4.04, ("kb",) + LEFT + ({},)),                                                  # ships in three boxes: door, left drawers, rug
+            (L[8] + 4.03, ("kb",) + BED + ({},))]                                                   # close push-in on the whole bedroom
 
 
 def build(v):
