@@ -3,7 +3,7 @@ pauses trimmed -> vo/voiceover_tight.mp3 + vo/words_trimmed.json, shot windows w
 import json, subprocess, sys, requests
 J = json.load(open("shots.json"))
 RETIME = "--retime" in sys.argv  # reuse vo/voiceover.mp3 + vo/stt.json (no new ElevenLabs calls)
-text = " ".join(s["vo"] for s in J["shots"])  
+text = " ".join(s.get("tts", s["vo"]) for s in J["shots"])  # tts = phonetic spelling for the voice  
 body = {"text": text, "model_id": "eleven_v4",
         "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}}
 if not RETIME:

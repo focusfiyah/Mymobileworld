@@ -1,7 +1,7 @@
 {
  "product": "youtheory-turmeric",
  "client": "Grace",
- "status": "Plan v1 (not approved yet)",
+ "status": "VO redone (phonetic), sped 1.09, awaiting stills approval",
  "voice": {
   "name": "Grace B voice",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
@@ -23,7 +23,11 @@
    "vo": "Most turmeric is hard to absorb. Check this label.",
    "still": "Close-up, kitchen counter: the hand holds the black turmeric bottle toward the lens, label facing the camera squarely.",
    "video": "Shot 1 (0-4s): the hand lifts the bottle slightly toward the lens, tilts it a little so the light catches the label, then holds steady.",
-   "dur": 4
+   "dur": 4,
+   "t": [
+    0.0,
+    2.8
+   ]
   },
   {
    "id": "S2",
@@ -31,7 +35,12 @@
    "vo": "Youtheory Total Body Turmeric says sixty-five times better absorption in just one pill.",
    "still": "(real label crop, push-in on the 65x banner, no AI)",
    "video": "",
-   "dur": 4
+   "dur": 4,
+   "tts": "You-theory Total Body Turmeric says sixty-five times better absorption in just one pill.",
+   "t": [
+    2.8,
+    7.77
+   ]
   },
   {
    "id": "S3",
@@ -39,7 +48,11 @@
    "vo": "It supports a healthy inflammation response, plus cognition. Thirty capsules, one a day, so no excuses.",
    "still": "Close-up, kitchen counter: the hand holds the black turmeric bottle in front of a small plain white bowl, label facing the camera.",
    "video": "Shot 1 (0-5s): the hand turns the bottle slowly until the label faces the lens squarely, then holds steady.",
-   "dur": 5
+   "dur": 6,
+   "t": [
+    7.77,
+    13.55
+   ]
   },
   {
    "id": "S4",
@@ -47,7 +60,11 @@
    "vo": "Before the holidays hit. It's in the orange cart.",
    "still": "Close-up, kitchen counter: the bottle stands upright on the counter and the hand points down toward it with one finger from the frame edge.",
    "video": "Shot 1 (0-4s): the hand sets the bottle upright on the counter, then points down at it with one finger and holds.",
-   "dur": 4
+   "dur": 4,
+   "t": [
+    13.55,
+    15.81
+   ]
   }
  ]
 }
