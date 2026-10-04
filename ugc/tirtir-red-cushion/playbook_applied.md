@@ -6,3 +6,5 @@
 - §4 structure: curiosity-loop hook, pain beat at top of body, selling point/solution, urgency CTA (holiday/photo season is real).
 - §5 pacing: 83-100 spoken words each, fast UGC speech about 3.0-3.6 words/s.
 - Skill rule (grace-product-scripts): talking head only, [Insert] max one per script, no questions for Grace, blanks only for facts only she has (none needed), clean words, no dashes.
+
+v2 (2026-10-04): coach `video` ran on 7 winners (research/videos/), every hook.png viewed; hooks, bodies and the beats-vs-winner table rebuilt from the real transcripts and frames. Same rules as above re-applied; the S1 hook claims nothing beyond the listing.
