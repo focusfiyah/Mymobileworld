@@ -10,3 +10,6 @@
 
 ## Kling test (2026-10-04, Ralph's account via MCP, `kling-video-v3_0_turbo`, 4 s, 720p, from stills/P1_small.png)
 32 credits (816 -> 784). `clips/P1_kling.mp4`: real 3D parallax dolly-in + small hand at the left edge pointing at the mirror, no forearm, vanity details stable. Prompt: POV handheld, slight dolly-in with parallax, hand small at the left edge, nothing else changes.
+
+## Kling P1 final (2026-10-04): `clips/P1_kling3.mp4`, 32 credits (752 -> 720). Kling total this job: 96 credits (816 -> 720).
+Prompt locks the hand ("only the CAMERA moves ... hand and wrist stay fixed at the left edge for the entire video"). QC: 2x zoom on the hand edge frames 0-95, fingertip frames 10-90: no halo, no forearm, no sweep, mirror stays lit, vanity details stable. Passes REMOVED.md.
