@@ -1,0 +1,660 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.8976723551750183,
+ "text": "Most turmeric is hard to absorb. Check this label. youtheory Total Body Turmeric says sixty-five times better absorption in just one pill. It supports a healthy inflammation response plus cognition. Thirty capsules, one a day, so no excuses. Before the holidays hit. It's in the orange cart",
+ "words": [
+  {
+   "text": "Most",
+   "start": 0.1,
+   "end": 0.3,
+   "type": "word",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": " ",
+   "start": 0.3,
+   "end": 0.4,
+   "type": "spacing",
+   "logprob": -3.1709168979432434e-05
+  },
+  {
+   "text": "turmeric",
+   "start": 0.4,
+   "end": 0.82,
+   "type": "word",
+   "logprob": -3.1709168979432434e-05
+  },
+  {
+   "text": " ",
+   "start": 0.82,
+   "end": 0.92,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "is",
+   "start": 0.92,
+   "end": 1.08,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 1.08,
+   "end": 1.14,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "hard",
+   "start": 1.14,
+   "end": 1.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.36,
+   "end": 1.4,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "to",
+   "start": 1.4,
+   "end": 1.48,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.48,
+   "end": 1.54,
+   "type": "spacing",
+   "logprob": -2.777537883957848e-05
+  },
+  {
+   "text": "absorb.",
+   "start": 1.54,
+   "end": 2.04,
+   "type": "word",
+   "logprob": -2.552747693178909e-05
+  },
+  {
+   "text": " ",
+   "start": 2.04,
+   "end": 2.48,
+   "type": "spacing",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": "Check",
+   "start": 2.48,
+   "end": 2.64,
+   "type": "word",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": " ",
+   "start": 2.64,
+   "end": 2.68,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "this",
+   "start": 2.68,
+   "end": 2.84,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 2.84,
+   "end": 2.88,
+   "type": "spacing",
+   "logprob": -8.22540732769994e-06
+  },
+  {
+   "text": "label.",
+   "start": 2.88,
+   "end": 3.24,
+   "type": "word",
+   "logprob": -0.00037811538504683995
+  },
+  {
+   "text": " ",
+   "start": 3.24,
+   "end": 3.82,
+   "type": "spacing",
+   "logprob": -0.9179726839065552
+  },
+  {
+   "text": "youtheory",
+   "start": 3.82,
+   "end": 4.28,
+   "type": "word",
+   "logprob": -0.5997392932573954
+  },
+  {
+   "text": " ",
+   "start": 4.28,
+   "end": 4.42,
+   "type": "spacing",
+   "logprob": -0.0003883084573317319
+  },
+  {
+   "text": "Total",
+   "start": 4.42,
+   "end": 4.66,
+   "type": "word",
+   "logprob": -0.0003883084573317319
+  },
+  {
+   "text": " ",
+   "start": 4.66,
+   "end": 4.74,
+   "type": "spacing",
+   "logprob": -0.0004462200158741325
+  },
+  {
+   "text": "Body",
+   "start": 4.74,
+   "end": 4.96,
+   "type": "word",
+   "logprob": -0.0004462200158741325
+  },
+  {
+   "text": " ",
+   "start": 4.96,
+   "end": 5.06,
+   "type": "spacing",
+   "logprob": -0.002676597097888589
+  },
+  {
+   "text": "Turmeric",
+   "start": 5.06,
+   "end": 5.48,
+   "type": "word",
+   "logprob": -0.0010567697945589316
+  },
+  {
+   "text": " ",
+   "start": 5.48,
+   "end": 5.6,
+   "type": "spacing",
+   "logprob": -0.0007446615491062403
+  },
+  {
+   "text": "says",
+   "start": 5.6,
+   "end": 5.88,
+   "type": "word",
+   "logprob": -0.0007446615491062403
+  },
+  {
+   "text": " ",
+   "start": 5.88,
+   "end": 5.94,
+   "type": "spacing",
+   "logprob": -4.207999518257566e-05
+  },
+  {
+   "text": "sixty-five",
+   "start": 5.96,
+   "end": 6.58,
+   "type": "word",
+   "logprob": -0.0011380203302451264
+  },
+  {
+   "text": " ",
+   "start": 6.58,
+   "end": 6.68,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "times",
+   "start": 6.68,
+   "end": 7.08,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 7.08,
+   "end": 7.12,
+   "type": "spacing",
+   "logprob": -1.2874520507466514e-05
+  },
+  {
+   "text": "better",
+   "start": 7.12,
+   "end": 7.34,
+   "type": "word",
+   "logprob": -1.2874520507466514e-05
+  },
+  {
+   "text": " ",
+   "start": 7.34,
+   "end": 7.38,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "absorption",
+   "start": 7.38,
+   "end": 7.98,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 7.98,
+   "end": 8.02,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "in",
+   "start": 8.02,
+   "end": 8.14,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 8.14,
+   "end": 8.22,
+   "type": "spacing",
+   "logprob": -1.4543427823809907e-05
+  },
+  {
+   "text": "just",
+   "start": 8.22,
+   "end": 8.52,
+   "type": "word",
+   "logprob": -1.4543427823809907e-05
+  },
+  {
+   "text": " ",
+   "start": 8.52,
+   "end": 8.56,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "one",
+   "start": 8.56,
+   "end": 8.74,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 8.74,
+   "end": 8.86,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "pill.",
+   "start": 8.86,
+   "end": 9.12,
+   "type": "word",
+   "logprob": -1.9073484054388245e-07
+  },
+  {
+   "text": " ",
+   "start": 9.12,
+   "end": 9.58,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "It",
+   "start": 9.58,
+   "end": 9.66,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 9.66,
+   "end": 9.7,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "supports",
+   "start": 9.7,
+   "end": 10.04,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.04,
+   "end": 10.1,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "a",
+   "start": 10.1,
+   "end": 10.16,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.16,
+   "end": 10.22,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "healthy",
+   "start": 10.22,
+   "end": 10.54,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 10.54,
+   "end": 10.56,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "inflammation",
+   "start": 10.58,
+   "end": 11.1,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 11.1,
+   "end": 11.16,
+   "type": "spacing",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "response",
+   "start": 11.16,
+   "end": 11.66,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": " ",
+   "start": 11.66,
+   "end": 11.86,
+   "type": "spacing",
+   "logprob": -2.3245540432981215e-05
+  },
+  {
+   "text": "plus",
+   "start": 11.88,
+   "end": 12.14,
+   "type": "word",
+   "logprob": -2.3245540432981215e-05
+  },
+  {
+   "text": " ",
+   "start": 12.14,
+   "end": 12.24,
+   "type": "spacing",
+   "logprob": -2.7418097943154862e-06
+  },
+  {
+   "text": "cognition.",
+   "start": 12.24,
+   "end": 12.84,
+   "type": "word",
+   "logprob": -5.777736312211346e-05
+  },
+  {
+   "text": " ",
+   "start": 12.84,
+   "end": 13.2,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "Thirty",
+   "start": 13.2,
+   "end": 13.4,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 13.4,
+   "end": 13.48,
+   "type": "spacing",
+   "logprob": -2.264974000354414e-06
+  },
+  {
+   "text": "capsules,",
+   "start": 13.48,
+   "end": 14.04,
+   "type": "word",
+   "logprob": -2.97326358930958e-05
+  },
+  {
+   "text": " ",
+   "start": 14.04,
+   "end": 14.3,
+   "type": "spacing",
+   "logprob": -6.437280717364047e-06
+  },
+  {
+   "text": "one",
+   "start": 14.3,
+   "end": 14.42,
+   "type": "word",
+   "logprob": -6.437280717364047e-06
+  },
+  {
+   "text": " ",
+   "start": 14.42,
+   "end": 14.46,
+   "type": "spacing",
+   "logprob": -1.5497195136049413e-06
+  },
+  {
+   "text": "a",
+   "start": 14.46,
+   "end": 14.48,
+   "type": "word",
+   "logprob": -1.5497195136049413e-06
+  },
+  {
+   "text": " ",
+   "start": 14.48,
+   "end": 14.56,
+   "type": "spacing",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "day,",
+   "start": 14.56,
+   "end": 14.8,
+   "type": "word",
+   "logprob": -1.1920920996999484e-06
+  },
+  {
+   "text": " ",
+   "start": 14.8,
+   "end": 15.04,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "so",
+   "start": 15.04,
+   "end": 15.14,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 15.14,
+   "end": 15.34,
+   "type": "spacing",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": "no",
+   "start": 15.34,
+   "end": 15.48,
+   "type": "word",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": " ",
+   "start": 15.48,
+   "end": 15.52,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "excuses.",
+   "start": 15.52,
+   "end": 16.239,
+   "type": "word",
+   "logprob": -3.7252873941184816e-07
+  },
+  {
+   "text": " ",
+   "start": 16.239,
+   "end": 16.56,
+   "type": "spacing",
+   "logprob": -1.1920922133867862e-06
+  },
+  {
+   "text": "Before",
+   "start": 16.56,
+   "end": 16.88,
+   "type": "word",
+   "logprob": -1.1920922133867862e-06
+  },
+  {
+   "text": " ",
+   "start": 16.88,
+   "end": 16.92,
+   "type": "spacing",
+   "logprob": -0.011093368753790855
+  },
+  {
+   "text": "the",
+   "start": 16.92,
+   "end": 17.0,
+   "type": "word",
+   "logprob": -0.011093368753790855
+  },
+  {
+   "text": " ",
+   "start": 17.0,
+   "end": 17.02,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "holidays",
+   "start": 17.02,
+   "end": 17.48,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 17.48,
+   "end": 17.52,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "hit.",
+   "start": 17.52,
+   "end": 17.7,
+   "type": "word",
+   "logprob": -2.3841853113992784e-07
+  },
+  {
+   "text": " ",
+   "start": 17.7,
+   "end": 18.1,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "It's",
+   "start": 18.1,
+   "end": 18.2,
+   "type": "word",
+   "logprob": -0.07831631600809885
+  },
+  {
+   "text": " ",
+   "start": 18.2,
+   "end": 18.24,
+   "type": "spacing",
+   "logprob": -6.603976362384856e-05
+  },
+  {
+   "text": "in",
+   "start": 18.24,
+   "end": 18.3,
+   "type": "word",
+   "logprob": -6.603976362384856e-05
+  },
+  {
+   "text": " ",
+   "start": 18.3,
+   "end": 18.34,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 18.34,
+   "end": 18.42,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 18.42,
+   "end": 18.48,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "orange",
+   "start": 18.48,
+   "end": 18.7,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 18.7,
+   "end": 18.78,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "cart",
+   "start": 18.78,
+   "end": 18.98,
+   "type": "word",
+   "logprob": 0.0
+  }
+ ],
+ "transcription_id": "2HXyFBiHnGRKzLfwNIBz",
+ "audio_duration_secs": 19.2
+}

@@ -1,660 +1,660 @@
 {
  "language_code": "eng",
- "language_probability": 0.9257322549819946,
- "text": "Most turmeric is hard to absorb. Check this label. EUFAERY Total Body Turmeric says sixty-five times better absorption in just one pill. It supports a healthy inflammation response plus cognition. Thirty capsules, one a day, so no excuses. Before the holidays hit, it's in the orange cart",
+ "language_probability": 0.8976723551750183,
+ "text": "Most turmeric is hard to absorb. Check this label. youtheory Total Body Turmeric says sixty-five times better absorption in just one pill. It supports a healthy inflammation response plus cognition. Thirty capsules, one a day, so no excuses. Before the holidays hit. It's in the orange cart",
  "words": [
   {
    "text": "Most",
-   "start": 0.1,
-   "end": 0.3,
+   "start": 0.09174311926605505,
+   "end": 0.2752293577981651,
    "type": "word",
-   "logprob": -4.291525328881107e-06
+   "logprob": -3.814689989667386e-06
   },
   {
    "text": " ",
-   "start": 0.3,
-   "end": 0.4,
+   "start": 0.2752293577981651,
+   "end": 0.3669724770642202,
    "type": "spacing",
-   "logprob": -9.059865078597795e-06
+   "logprob": -3.1709168979432434e-05
   },
   {
    "text": "turmeric",
-   "start": 0.4,
-   "end": 0.82,
+   "start": 0.3669724770642202,
+   "end": 0.7522935779816513,
    "type": "word",
-   "logprob": -9.059865078597795e-06
+   "logprob": -3.1709168979432434e-05
   },
   {
    "text": " ",
-   "start": 0.82,
-   "end": 0.92,
+   "start": 0.7522935779816513,
+   "end": 0.8440366972477064,
    "type": "spacing",
-   "logprob": -4.768370445162873e-07
+   "logprob": -3.576278118089249e-07
   },
   {
    "text": "is",
-   "start": 0.92,
-   "end": 1.04,
+   "start": 0.8440366972477064,
+   "end": 0.9908256880733944,
    "type": "word",
-   "logprob": -4.768370445162873e-07
+   "logprob": -3.576278118089249e-07
   },
   {
    "text": " ",
-   "start": 1.04,
-   "end": 1.1,
+   "start": 0.9908256880733944,
+   "end": 1.0458715596330272,
    "type": "spacing",
    "logprob": 0.0
   },
   {
    "text": "hard",
-   "start": 1.1,
-   "end": 1.3,
+   "start": 1.0458715596330272,
+   "end": 1.2477064220183487,
    "type": "word",
    "logprob": 0.0
   },
   {
    "text": " ",
-   "start": 1.3,
-   "end": 1.36,
+   "start": 1.2477064220183487,
+   "end": 1.2844036697247705,
    "type": "spacing",
    "logprob": 0.0
   },
   {
    "text": "to",
-   "start": 1.36,
-   "end": 1.44,
+   "start": 1.2844036697247705,
+   "end": 1.3577981651376145,
    "type": "word",
    "logprob": 0.0
   },
   {
    "text": " ",
-   "start": 1.44,
-   "end": 1.48,
+   "start": 1.3577981651376145,
+   "end": 1.4128440366972477,
    "type": "spacing",
-   "logprob": -8.356221951544285e-05
+   "logprob": -2.777537883957848e-05
   },
   {
    "text": "absorb.",
-   "start": 1.48,
-   "end": 2.0,
+   "start": 1.4128440366972477,
+   "end": 1.8715596330275228,
    "type": "word",
-   "logprob": -7.291902602446498e-05
+   "logprob": -2.552747693178909e-05
   },
   {
    "text": " ",
-   "start": 2.0,
-   "end": 2.42,
+   "start": 1.8715596330275228,
+   "end": 2.275229357798165,
    "type": "spacing",
-   "logprob": -1.9073468138230965e-06
+   "logprob": -2.3841830625315197e-06
   },
   {
    "text": "Check",
-   "start": 2.42,
-   "end": 2.6,
+   "start": 2.275229357798165,
+   "end": 2.4220183486238533,
    "type": "word",
-   "logprob": -1.9073468138230965e-06
+   "logprob": -2.3841830625315197e-06
   },
   {
    "text": " ",
-   "start": 2.6,
-   "end": 2.64,
+   "start": 2.4220183486238533,
+   "end": 2.458715596330275,
    "type": "spacing",
-   "logprob": -1.1920928244535389e-07
+   "logprob": 0.0
   },
   {
    "text": "this",
-   "start": 2.64,
-   "end": 2.78,
+   "start": 2.458715596330275,
+   "end": 2.605504587155963,
    "type": "word",
-   "logprob": -1.1920928244535389e-07
+   "logprob": 0.0
   },
   {
    "text": " ",
-   "start": 2.78,
-   "end": 2.84,
+   "start": 2.605504587155963,
+   "end": 2.642201834862385,
    "type": "spacing",
-   "logprob": -9.775113539944869e-06
+   "logprob": -8.22540732769994e-06
   },
   {
    "text": "label.",
-   "start": 2.84,
-   "end": 3.18,
+   "start": 2.642201834862385,
+   "end": 2.9724770642201834,
    "type": "word",
-   "logprob": -0.00016217260523868995
+   "logprob": -0.00037811538504683995
   },
   {
    "text": " ",
-   "start": 3.18,
-   "end": 3.74,
+   "start": 2.9724770642201834,
+   "end": 3.504587155963302,
    "type": "spacing",
-   "logprob": -1.1172436475753784
+   "logprob": -0.9179726839065552
   },
   {
-   "text": "EUFAERY",
-   "start": 3.74,
-   "end": 4.18,
+   "text": "youtheory",
+   "start": 3.504587155963302,
+   "end": 3.926605504587156,
    "type": "word",
-   "logprob": -0.8960311029638562
+   "logprob": -0.5997392932573954
   },
   {
    "text": " ",
-   "start": 4.18,
-   "end": 4.3,
+   "start": 3.926605504587156,
+   "end": 4.055045871559632,
    "type": "spacing",
-   "logprob": -0.0003492222458589822
+   "logprob": -0.0003883084573317319
   },
   {
    "text": "Total",
-   "start": 4.3,
-   "end": 4.52,
+   "start": 4.055045871559632,
+   "end": 4.275229357798165,
    "type": "word",
-   "logprob": -0.0003492222458589822
+   "logprob": -0.0003883084573317319
   },
   {
    "text": " ",
-   "start": 4.52,
-   "end": 4.6,
+   "start": 4.275229357798165,
+   "end": 4.348623853211009,
    "type": "spacing",
-   "logprob": -0.0001426833332516253
+   "logprob": -0.0004462200158741325
   },
   {
    "text": "Body",
-   "start": 4.6,
-   "end": 4.8,
+   "start": 4.348623853211009,
+   "end": 4.55045871559633,
    "type": "word",
-   "logprob": -0.0001426833332516253
+   "logprob": -0.0004462200158741325
   },
   {
    "text": " ",
-   "start": 4.8,
-   "end": 4.92,
+   "start": 4.55045871559633,
+   "end": 4.642201834862385,
    "type": "spacing",
-   "logprob": -0.00019226610311307013
+   "logprob": -0.002676597097888589
   },
   {
    "text": "Turmeric",
-   "start": 4.92,
-   "end": 5.36,
+   "start": 4.642201834862385,
+   "end": 5.027522935779817,
    "type": "word",
-   "logprob": -8.357357705790491e-05
+   "logprob": -0.0010567697945589316
   },
   {
    "text": " ",
-   "start": 5.36,
-   "end": 5.48,
+   "start": 5.027522935779817,
+   "end": 5.137614678899082,
    "type": "spacing",
-   "logprob": -3.3378546504536644e-06
+   "logprob": -0.0007446615491062403
   },
   {
    "text": "says",
-   "start": 5.48,
-   "end": 5.72,
+   "start": 5.137614678899082,
+   "end": 5.394495412844036,
    "type": "word",
-   "logprob": -3.3378546504536644e-06
+   "logprob": -0.0007446615491062403
   },
   {
    "text": " ",
-   "start": 5.72,
-   "end": 5.8,
+   "start": 5.394495412844036,
+   "end": 5.4495412844036695,
    "type": "spacing",
-   "logprob": -0.048939403146505356
+   "logprob": -4.207999518257566e-05
   },
   {
    "text": "sixty-five",
-   "start": 5.8,
-   "end": 6.5,
+   "start": 5.46788990825688,
+   "end": 6.036697247706422,
    "type": "word",
-   "logprob": -0.024483911083689237
+   "logprob": -0.0011380203302451264
   },
   {
    "text": " ",
-   "start": 6.5,
-   "end": 6.6,
+   "start": 6.036697247706422,
+   "end": 6.128440366972477,
    "type": "spacing",
    "logprob": -4.768370445162873e-07
   },
   {
    "text": "times",
-   "start": 6.6,
-   "end": 6.96,
+   "start": 6.128440366972477,
+   "end": 6.4954128440366965,
    "type": "word",
    "logprob": -4.768370445162873e-07
   },
   {
    "text": " ",
-   "start": 6.96,
-   "end": 7.0,
+   "start": 6.4954128440366965,
+   "end": 6.532110091743119,
    "type": "spacing",
-   "logprob": -8.344646857949556e-07
+   "logprob": -1.2874520507466514e-05
   },
   {
    "text": "better",
-   "start": 7.0,
-   "end": 7.22,
+   "start": 6.532110091743119,
+   "end": 6.7339449541284395,
    "type": "word",
-   "logprob": -8.344646857949556e-07
+   "logprob": -1.2874520507466514e-05
   },
   {
    "text": " ",
-   "start": 7.22,
-   "end": 7.28,
-   "type": "spacing",
-   "logprob": -3.909988299710676e-05
-  },
-  {
-   "text": "absorption",
-   "start": 7.28,
-   "end": 7.88,
-   "type": "word",
-   "logprob": -3.909988299710676e-05
-  },
-  {
-   "text": " ",
-   "start": 7.88,
-   "end": 7.92,
-   "type": "spacing",
-   "logprob": 0.0
-  },
-  {
-   "text": "in",
-   "start": 7.92,
-   "end": 8.039,
-   "type": "word",
-   "logprob": 0.0
-  },
-  {
-   "text": " ",
-   "start": 8.039,
-   "end": 8.1,
-   "type": "spacing",
-   "logprob": -4.768370445162873e-07
-  },
-  {
-   "text": "just",
-   "start": 8.1,
-   "end": 8.38,
-   "type": "word",
-   "logprob": -4.768370445162873e-07
-  },
-  {
-   "text": " ",
-   "start": 8.38,
-   "end": 8.42,
-   "type": "spacing",
-   "logprob": -1.311301275563892e-06
-  },
-  {
-   "text": "one",
-   "start": 8.48,
-   "end": 8.58,
-   "type": "word",
-   "logprob": -1.311301275563892e-06
-  },
-  {
-   "text": " ",
-   "start": 8.58,
-   "end": 8.72,
+   "start": 6.7339449541284395,
+   "end": 6.770642201834862,
    "type": "spacing",
    "logprob": -5.960462772236497e-07
   },
   {
-   "text": "pill.",
-   "start": 8.72,
-   "end": 9.02,
+   "text": "absorption",
+   "start": 6.770642201834862,
+   "end": 7.321100917431193,
    "type": "word",
-   "logprob": -7.629391120644869e-07
+   "logprob": -5.960462772236497e-07
   },
   {
    "text": " ",
-   "start": 9.02,
-   "end": 9.54,
+   "start": 7.321100917431193,
+   "end": 7.357798165137614,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "in",
+   "start": 7.357798165137614,
+   "end": 7.467889908256881,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 7.467889908256881,
+   "end": 7.541284403669724,
+   "type": "spacing",
+   "logprob": -1.4543427823809907e-05
+  },
+  {
+   "text": "just",
+   "start": 7.541284403669724,
+   "end": 7.816513761467889,
+   "type": "word",
+   "logprob": -1.4543427823809907e-05
+  },
+  {
+   "text": " ",
+   "start": 7.816513761467889,
+   "end": 7.853211009174312,
    "type": "spacing",
    "logprob": 0.0
-  },
-  {
-   "text": "It",
-   "start": 9.54,
-   "end": 9.62,
-   "type": "word",
-   "logprob": 0.0
-  },
-  {
-   "text": " ",
-   "start": 9.62,
-   "end": 9.66,
-   "type": "spacing",
-   "logprob": -1.1920928244535389e-07
-  },
-  {
-   "text": "supports",
-   "start": 9.66,
-   "end": 10.04,
-   "type": "word",
-   "logprob": -1.1920928244535389e-07
-  },
-  {
-   "text": " ",
-   "start": 10.04,
-   "end": 10.1,
-   "type": "spacing",
-   "logprob": 0.0
-  },
-  {
-   "text": "a",
-   "start": 10.1,
-   "end": 10.14,
-   "type": "word",
-   "logprob": 0.0
-  },
-  {
-   "text": " ",
-   "start": 10.14,
-   "end": 10.22,
-   "type": "spacing",
-   "logprob": -3.576278118089249e-07
-  },
-  {
-   "text": "healthy",
-   "start": 10.22,
-   "end": 10.52,
-   "type": "word",
-   "logprob": -3.576278118089249e-07
-  },
-  {
-   "text": " ",
-   "start": 10.52,
-   "end": 10.56,
-   "type": "spacing",
-   "logprob": -2.2649508537142538e-05
-  },
-  {
-   "text": "inflammation",
-   "start": 10.56,
-   "end": 11.08,
-   "type": "word",
-   "logprob": -2.2649508537142538e-05
-  },
-  {
-   "text": " ",
-   "start": 11.08,
-   "end": 11.14,
-   "type": "spacing",
-   "logprob": -2.264974000354414e-06
-  },
-  {
-   "text": "response",
-   "start": 11.14,
-   "end": 11.62,
-   "type": "word",
-   "logprob": -2.264974000354414e-06
-  },
-  {
-   "text": " ",
-   "start": 11.62,
-   "end": 11.82,
-   "type": "spacing",
-   "logprob": -5.185469490243122e-05
-  },
-  {
-   "text": "plus",
-   "start": 11.82,
-   "end": 12.14,
-   "type": "word",
-   "logprob": -5.185469490243122e-05
-  },
-  {
-   "text": " ",
-   "start": 12.14,
-   "end": 12.18,
-   "type": "spacing",
-   "logprob": -3.576278118089249e-07
-  },
-  {
-   "text": "cognition.",
-   "start": 12.18,
-   "end": 12.78,
-   "type": "word",
-   "logprob": -5.960460100595811e-07
-  },
-  {
-   "text": " ",
-   "start": 12.78,
-   "end": 13.2,
-   "type": "spacing",
-   "logprob": -0.0004990047891624272
-  },
-  {
-   "text": "Thirty",
-   "start": 13.2,
-   "end": 13.4,
-   "type": "word",
-   "logprob": -0.0004990047891624272
-  },
-  {
-   "text": " ",
-   "start": 13.4,
-   "end": 13.48,
-   "type": "spacing",
-   "logprob": -5.960446742392378e-06
-  },
-  {
-   "text": "capsules,",
-   "start": 13.48,
-   "end": 14.02,
-   "type": "word",
-   "logprob": -5.8942197130009945e-06
-  },
-  {
-   "text": " ",
-   "start": 14.02,
-   "end": 14.32,
-   "type": "spacing",
-   "logprob": -5.125986263010418e-06
   },
   {
    "text": "one",
-   "start": 14.32,
-   "end": 14.44,
+   "start": 7.853211009174312,
+   "end": 8.01834862385321,
    "type": "word",
-   "logprob": -5.125986263010418e-06
+   "logprob": 0.0
   },
   {
    "text": " ",
-   "start": 14.44,
-   "end": 14.5,
+   "start": 8.01834862385321,
+   "end": 8.128440366972477,
    "type": "spacing",
    "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "pill.",
+   "start": 8.128440366972477,
+   "end": 8.366972477064218,
+   "type": "word",
+   "logprob": -1.9073484054388245e-07
+  },
+  {
+   "text": " ",
+   "start": 8.366972477064218,
+   "end": 8.788990825688073,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "It",
+   "start": 8.788990825688073,
+   "end": 8.862385321100916,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 8.862385321100916,
+   "end": 8.899082568807339,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "supports",
+   "start": 8.899082568807339,
+   "end": 9.211009174311926,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.211009174311926,
+   "end": 9.266055045871559,
+   "type": "spacing",
+   "logprob": 0.0
   },
   {
    "text": "a",
-   "start": 14.5,
-   "end": 14.54,
+   "start": 9.266055045871559,
+   "end": 9.321100917431192,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.321100917431192,
+   "end": 9.376146788990825,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "healthy",
+   "start": 9.376146788990825,
+   "end": 9.669724770642201,
    "type": "word",
    "logprob": -2.3841855067985307e-07
   },
   {
    "text": " ",
-   "start": 14.54,
-   "end": 14.58,
+   "start": 9.669724770642201,
+   "end": 9.688073394495413,
    "type": "spacing",
-   "logprob": -1.1920928244535389e-07
+   "logprob": 0.0
   },
   {
-   "text": "day,",
-   "start": 14.58,
-   "end": 14.8,
+   "text": "inflammation",
+   "start": 9.706422018348624,
+   "end": 10.18348623853211,
    "type": "word",
-   "logprob": -1.0430794592508619e-06
+   "logprob": 0.0
   },
   {
    "text": " ",
-   "start": 14.8,
-   "end": 15.04,
+   "start": 10.18348623853211,
+   "end": 10.238532110091743,
    "type": "spacing",
-   "logprob": -7.545663538621739e-05
+   "logprob": -8.344646857949556e-07
   },
   {
-   "text": "so",
-   "start": 15.04,
-   "end": 15.2,
+   "text": "response",
+   "start": 10.238532110091743,
+   "end": 10.697247706422017,
    "type": "word",
-   "logprob": -7.545663538621739e-05
+   "logprob": -8.344646857949556e-07
   },
   {
    "text": " ",
-   "start": 15.2,
-   "end": 15.4,
+   "start": 10.697247706422017,
+   "end": 10.880733944954127,
    "type": "spacing",
-   "logprob": -2.50339189733495e-06
+   "logprob": -2.3245540432981215e-05
   },
   {
-   "text": "no",
-   "start": 15.4,
-   "end": 15.54,
+   "text": "plus",
+   "start": 10.899082568807339,
+   "end": 11.137614678899082,
    "type": "word",
-   "logprob": -2.50339189733495e-06
+   "logprob": -2.3245540432981215e-05
   },
   {
    "text": " ",
-   "start": 15.54,
-   "end": 15.58,
+   "start": 11.137614678899082,
+   "end": 11.229357798165138,
+   "type": "spacing",
+   "logprob": -2.7418097943154862e-06
+  },
+  {
+   "text": "cognition.",
+   "start": 11.229357798165138,
+   "end": 11.779816513761467,
+   "type": "word",
+   "logprob": -5.777736312211346e-05
+  },
+  {
+   "text": " ",
+   "start": 11.779816513761467,
+   "end": 12.110091743119265,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "Thirty",
+   "start": 12.110091743119265,
+   "end": 12.293577981651376,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 12.293577981651376,
+   "end": 12.36697247706422,
+   "type": "spacing",
+   "logprob": -2.264974000354414e-06
+  },
+  {
+   "text": "capsules,",
+   "start": 12.36697247706422,
+   "end": 12.880733944954127,
+   "type": "word",
+   "logprob": -2.97326358930958e-05
+  },
+  {
+   "text": " ",
+   "start": 12.880733944954127,
+   "end": 13.119266055045872,
+   "type": "spacing",
+   "logprob": -6.437280717364047e-06
+  },
+  {
+   "text": "one",
+   "start": 13.119266055045872,
+   "end": 13.229357798165136,
+   "type": "word",
+   "logprob": -6.437280717364047e-06
+  },
+  {
+   "text": " ",
+   "start": 13.229357798165136,
+   "end": 13.266055045871559,
    "type": "spacing",
    "logprob": -1.5497195136049413e-06
   },
   {
-   "text": "excuses.",
-   "start": 15.58,
-   "end": 16.26,
+   "text": "a",
+   "start": 13.266055045871559,
+   "end": 13.284403669724771,
    "type": "word",
-   "logprob": -6.347840717069175e-05
+   "logprob": -1.5497195136049413e-06
   },
   {
    "text": " ",
-   "start": 16.26,
-   "end": 16.62,
+   "start": 13.284403669724771,
+   "end": 13.357798165137615,
    "type": "spacing",
-   "logprob": -1.0728830375228426e-06
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "day,",
+   "start": 13.357798165137615,
+   "end": 13.577981651376147,
+   "type": "word",
+   "logprob": -1.1920920996999484e-06
+  },
+  {
+   "text": " ",
+   "start": 13.577981651376147,
+   "end": 13.798165137614678,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "so",
+   "start": 13.798165137614678,
+   "end": 13.889908256880734,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 13.889908256880734,
+   "end": 14.073394495412844,
+   "type": "spacing",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": "no",
+   "start": 14.073394495412844,
+   "end": 14.20183486238532,
+   "type": "word",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": " ",
+   "start": 14.20183486238532,
+   "end": 14.238532110091741,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "excuses.",
+   "start": 14.238532110091741,
+   "end": 14.89816513761468,
+   "type": "word",
+   "logprob": -3.7252873941184816e-07
+  },
+  {
+   "text": " ",
+   "start": 14.89816513761468,
+   "end": 15.192660550458713,
+   "type": "spacing",
+   "logprob": -1.1920922133867862e-06
   },
   {
    "text": "Before",
-   "start": 16.64,
-   "end": 16.92,
+   "start": 15.192660550458713,
+   "end": 15.48623853211009,
    "type": "word",
-   "logprob": -1.0728830375228426e-06
+   "logprob": -1.1920922133867862e-06
   },
   {
    "text": " ",
-   "start": 16.92,
-   "end": 16.94,
+   "start": 15.48623853211009,
+   "end": 15.522935779816514,
    "type": "spacing",
-   "logprob": -2.3841855067985307e-07
+   "logprob": -0.011093368753790855
   },
   {
    "text": "the",
-   "start": 16.94,
-   "end": 17.0,
+   "start": 15.522935779816514,
+   "end": 15.596330275229356,
    "type": "word",
-   "logprob": -2.3841855067985307e-07
+   "logprob": -0.011093368753790855
   },
   {
    "text": " ",
-   "start": 17.0,
-   "end": 17.04,
+   "start": 15.596330275229356,
+   "end": 15.614678899082568,
    "type": "spacing",
-   "logprob": -8.344646857949556e-07
+   "logprob": -4.768370445162873e-07
   },
   {
    "text": "holidays",
-   "start": 17.04,
-   "end": 17.48,
+   "start": 15.614678899082568,
+   "end": 16.03669724770642,
    "type": "word",
-   "logprob": -8.344646857949556e-07
+   "logprob": -4.768370445162873e-07
   },
   {
    "text": " ",
-   "start": 17.48,
-   "end": 17.52,
+   "start": 16.03669724770642,
+   "end": 16.073394495412842,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "hit.",
+   "start": 16.073394495412842,
+   "end": 16.238532110091743,
+   "type": "word",
+   "logprob": -2.3841853113992784e-07
+  },
+  {
+   "text": " ",
+   "start": 16.238532110091743,
+   "end": 16.605504587155963,
    "type": "spacing",
    "logprob": -2.3841855067985307e-07
   },
   {
-   "text": "hit,",
-   "start": 17.52,
-   "end": 17.7,
+   "text": "It's",
+   "start": 16.605504587155963,
+   "end": 16.697247706422015,
    "type": "word",
-   "logprob": -0.08711281418798222
+   "logprob": -0.07831631600809885
   },
   {
    "text": " ",
-   "start": 17.7,
-   "end": 18.12,
+   "start": 16.697247706422015,
+   "end": 16.733944954128436,
    "type": "spacing",
-   "logprob": -3.564294092939235e-05
-  },
-  {
-   "text": "it's",
-   "start": 18.12,
-   "end": 18.22,
-   "type": "word",
-   "logprob": -2.318583074156777e-05
-  },
-  {
-   "text": " ",
-   "start": 18.22,
-   "end": 18.26,
-   "type": "spacing",
-   "logprob": -2.3841855067985307e-07
+   "logprob": -6.603976362384856e-05
   },
   {
    "text": "in",
-   "start": 18.26,
-   "end": 18.32,
+   "start": 16.733944954128436,
+   "end": 16.788990825688074,
    "type": "word",
-   "logprob": -2.3841855067985307e-07
+   "logprob": -6.603976362384856e-05
   },
   {
    "text": " ",
-   "start": 18.32,
-   "end": 18.36,
+   "start": 16.788990825688074,
+   "end": 16.825688073394495,
    "type": "spacing",
    "logprob": 0.0
   },
   {
    "text": "the",
-   "start": 18.36,
-   "end": 18.44,
+   "start": 16.825688073394495,
+   "end": 16.89908256880734,
    "type": "word",
    "logprob": 0.0
   },
   {
    "text": " ",
-   "start": 18.44,
-   "end": 18.5,
+   "start": 16.89908256880734,
+   "end": 16.954128440366972,
    "type": "spacing",
-   "logprob": -0.00013851160474587232
+   "logprob": -1.1920928244535389e-07
   },
   {
    "text": "orange",
-   "start": 18.5,
-   "end": 18.72,
+   "start": 16.954128440366972,
+   "end": 17.15596330275229,
    "type": "word",
-   "logprob": -0.00013851160474587232
+   "logprob": -1.1920928244535389e-07
   },
   {
    "text": " ",
-   "start": 18.72,
-   "end": 18.8,
+   "start": 17.15596330275229,
+   "end": 17.229357798165136,
    "type": "spacing",
-   "logprob": -3.349725011503324e-05
+   "logprob": 0.0
   },
   {
    "text": "cart",
-   "start": 18.8,
-   "end": 19.0,
+   "start": 17.229357798165136,
+   "end": 17.412844036697248,
    "type": "word",
-   "logprob": -3.349725011503324e-05
+   "logprob": 0.0
   }
  ],
- "transcription_id": "jJbpPxRcYsEUm7BspveY",
- "audio_duration_secs": 19.28
+ "transcription_id": "2HXyFBiHnGRKzLfwNIBz",
+ "audio_duration_secs": 17.614678899082566
 }
