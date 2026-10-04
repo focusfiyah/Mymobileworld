@@ -168,7 +168,7 @@ def zoomout(prev_file, file, dur=0.7):
 
 
 def build(v, ver=1):
-    edl, taps, end = EDL2(v, face={3: 1, 4: 2}.get(ver, 0)) if ver >= 2 else EDL(v); tag = f"ab{v}{ver}"
+    edl, taps, end = EDL2(v, face={3: 1, 4: 2, 5: 2}.get(ver, 0)) if ver >= 2 else EDL(v); tag = f"ab{v}{ver}"
     starts = [s for s, _ in edl] + [end]
     assert all(b > a for a, b in zip(starts, starts[1:])), f"{v}: starts not increasing {starts}"
     files = [render(i, sh, starts[i + 1] - starts[i], tag) for i, (_, sh) in enumerate(edl)]
@@ -176,7 +176,7 @@ def build(v, ver=1):
         if sh[0] == "clip" and sh[3].get("zoomout"): zoomout(files[i - 1], files[i])
     open(f"{TMP}/{tag}_list.txt", "w").write("".join(f"file '{f}'\n" for f in files))
     run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", f"{TMP}/{tag}_list.txt", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", f"{TMP}/{tag}_cat.mp4")
-    t3 = three_boxes(v) if v == "A" else None; vo = f"{V}/vo/v{v}_final.wav"
+    t3 = three_boxes(v) if v == "A" and ver < 5 else None   # Ralph 2026-10-04: no 3-boxes card from v5; vo = f"{V}/vo/v{v}_final.wav"
     if t3: pop(f"{TMP}/{tag}_cat.mp4", f"{TMP}/{tag}_pop.mp4", t3 - 0.05)
     else: os.replace(f"{TMP}/{tag}_cat.mp4", f"{TMP}/{tag}_pop.mp4")
     vd = dur_of(f"{TMP}/{tag}_pop.mp4"); assert vd >= dur_of(vo) + 0.2, f"{v}: video {vd:.2f}s would cut the voiceover"
