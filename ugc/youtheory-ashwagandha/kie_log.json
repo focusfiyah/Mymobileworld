@@ -518,5 +518,135 @@
    ]
   },
   "costTime": 109
+ },
+ {
+  "t": "2026-10-04 18:45:35",
+  "submitted": "1b33969b7d4b3dc89d7a5547e1982bd7",
+  "prompt": "Shot 1 (0-5s): the hand holds the pouch with the straw toward the lens, label facing the camera the entire time, tilts i"
+ },
+ {
+  "t": "2026-10-04 18:47:53",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): the hand holds the pouch with the straw toward the lens, label facing the camera the entire time, tilts it a few degrees, never rotates. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791139532653-e3aevm3lq2f.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "1b33969b7d4b3dc89d7a5547e1982bd7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791139661445-zbbvuhvo80f.mp4"
+   ]
+  },
+  "costTime": 133
+ },
+ {
+  "t": "2026-10-04 18:48:12",
+  "submitted": "57df73aeabfe8879825d66d7d8e2299b",
+  "prompt": "Shot 1 (0-4s): the hand slowly lifts one pouch up out of the open box by its teal top, label facing the camera; the box "
+ },
+ {
+  "t": "2026-10-04 18:48:12",
+  "submitted": "e0fd014ee3096c8790db0ce84bdefd72",
+  "prompt": "Shot 1 (0-4s): locked-off camera, a few loose capsules roll slowly across the counter and settle; nothing else moves.  C"
+ },
+ {
+  "t": "2026-10-04 18:48:12",
+  "submitted": "a3d636d330ae583d5719a60d85d2e997",
+  "prompt": "Shot 1 (0-4s): the finger points down at the box and taps the counter beside it once; the box and pouches stay still and"
+ },
+ {
+  "t": "2026-10-04 18:48:12",
+  "submitted": "d17bf326bac0857fe87d95660d28f253",
+  "prompt": "Shot 1 (0-6s): the hand holds the pouch up toward the lens with the front label facing the camera the entire time. It on"
+ },
+ {
+  "t": "2026-10-04 18:49:40",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the finger points down at the box and taps the counter beside it once; the box and pouches stay still and unchanged. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. The box is exactly the Youtheory Ashwagandha Liquid 12-count retail box in the box reference image: a tall white box with a teal top band, the pouch picture printed on the front with 'ashwagandha liquid', 'blueberry flavor' and '12 - 1 fl oz (30 ml)' at the bottom. It keeps this exact design. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791139686843-i5by0klzhir.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a3d636d330ae583d5719a60d85d2e997",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791139770024-lm6mzop22a9.mp4"
+   ]
+  },
+  "costTime": 84
+ },
+ {
+  "t": "2026-10-04 18:49:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): locked-off camera, a few loose capsules roll slowly across the counter and settle; nothing else moves.  Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138736088-ta6ctyk6h4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e0fd014ee3096c8790db0ce84bdefd72",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791139792968-4hhauhxnl64.mp4"
+   ]
+  },
+  "costTime": 103
+ },
+ {
+  "t": "2026-10-04 18:50:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand slowly lifts one pouch up out of the open box by its teal top, label facing the camera; the box and the other pouches stay still and unchanged. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. The box is exactly the Youtheory Ashwagandha Liquid 12-count retail box in the box reference image: a tall white box with a teal top band, the pouch picture printed on the front with 'ashwagandha liquid', 'blueberry flavor' and '12 - 1 fl oz (30 ml)' at the bottom. It keeps this exact design. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791139689350-vvkirk42xt9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "57df73aeabfe8879825d66d7d8e2299b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791139829899-zrdhxplyznc.mp4"
+   ]
+  },
+  "costTime": 139
+ },
+ {
+  "t": "2026-10-04 18:50:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-6s): the hand holds the pouch up toward the lens with the front label facing the camera the entire time. It only tilts a few degrees and settles. The pouch never turns, never rotates and never shows its side or back. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791139684890-fe5nc4xw8hh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "d17bf326bac0857fe87d95660d28f253",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791139842657-f8wochymebh.mp4"
+   ]
+  },
+  "costTime": 157
  }
 ]
