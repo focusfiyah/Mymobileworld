@@ -11,3 +11,6 @@ Source L = listing text Ralph pasted (TIRTIR Official, Mask Fit Red Cushion Foun
 - Build it up / tap it on with the puff: B (cushion applicator, buildable coverage); reviewer caption by @magicwithmercedes ("coverage crazy for just a little tap").
 - Not claimed anywhere: SPF (retailers differ, brand page silent), refill, mask-proof or transfer-proof, price, sales numbers, "viral" counts. Shade note: reviewers say some shades run light, so scripts say "forty shades, so there's one for you" and tell Grace not to claim her shade match.
 - TikTok Shop data (S, 2026-10-04): this Red 18 g item lifetime units sold 68,354, rating 4.6, 9,921 reviews. Not used in scripts.
+
+Re-checked 2026-10-04 (v2): brand page https://tirtir.global/products/mask-fit-red-cushion fetched again. Confirms: up to 72 hours of flawless, fade-resistant coverage; 40 diverse shades; blurs pores, evens tone, conceals blemishes; hyaluronic acid + botanical extracts; breathable non-cakey, sensitive and acne-prone skin; dermatologist-tested, hypoallergenic (FAQ); light to full coverage without looking heavy or cakey (buildable). Still not claimed: SPF, refill, mask-proof, transfer-proof, price, "replaces concealer".
+Winner facts used only for format, never as claims about the product: results shown by creators (hyperpigmentation, glow) are theirs, not the listing's.
