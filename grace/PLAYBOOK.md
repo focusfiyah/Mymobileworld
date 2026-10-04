@@ -204,6 +204,7 @@ products follow the same rules.
   angles from the top shop sellers in each niche (coach viral board, 1,728 videos), no prices, sell-side confessions.
   Shnuggle angles 1-2 then replaced with Grace's own ideas (true toddler-size tub with the safety features; stand-up
   shower). When Grace sends angle ideas, they go first and the coach patterns fill in hooks and structure.
+- 2026-10-03 Grace B voiceover stutters (FUSOU V5 "Ho- holiday", V6 "If, if someone"; eleven_v4, stability 0.4): the timestamps from TTS are text-based and do NOT show it. After EVERY voiceover and every splice, run an ElevenLabs STT (scribe_v2) on the final audio and scan for repeated words and hyphen fragments; fix free by cutting the fragment out of the wav at the STT times. Ralph heard both, I hadn't: check before sending.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
@@ -214,3 +215,8 @@ products follow the same rules.
 ## 9. To add later
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
+
+## Lessons 2026-10-03 (FUSOU V2, Grace's own script)
+- A client's own script may fail the gate (readability grade 9.4, unsupported claims). Use it verbatim only when Ralph says so, record it in `checklist.json` `overrides` (rule, videos, by, date, his quote, real grade): the gate prints it every run and only that video is exempt. Flag unverifiable claims in product_facts, never edit them out silently.
+- "Looks like pictures" = Ken Burns on photos and freezes. Motion-first fix: every shot a real moving clip (walk-in/dolly-out from the real-photo bedroom plate, top-down hand slide of a drawer, hand drags a bag out of a cabinet), 4-5 s clips at 1.0x, ~$0.2 each. A reused start frame makes a good dolly-out (grab a frame from the walk-in clip).
+- Grace B at 42 s for 136 words = 3.2 words/s; her 706-char script cost ~705 ElevenLabs chars, STT-check found no stutters this time.
