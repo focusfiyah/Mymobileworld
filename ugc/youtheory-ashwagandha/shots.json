@@ -1,7 +1,7 @@
 {
  "product": "youtheory-ashwagandha",
  "client": "Grace",
- "status": "Plan v1 (not approved yet)",
+ "status": "VO done 2026-10-04 (sped up free, atempo), awaiting stills approval",
  "voice": {
   "name": "Grace B voice",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
@@ -23,7 +23,11 @@
    "vo": "Looks like a juice pouch, right? It's ashwagandha.",
    "still": "Close-up, kitchen counter: the hand holds the pouch upright toward the lens at arm's length, front label facing the camera.",
    "video": "Shot 1 (0-4s): the hand lifts the pouch slightly toward the lens, gives it one small shake, then holds it steady, label facing camera.",
-   "dur": 4
+   "dur": 4,
+   "t": [
+    0.0,
+    2.52
+   ]
   },
   {
    "id": "S2",
@@ -31,7 +35,11 @@
    "vo": "Pills are a lot on a stressful day.",
    "still": "Close-up on the counter: a laptop open to a blank screen, a half-empty coffee mug and a crumpled paper beside it, late afternoon light. The frame contains only these objects: no hand, no fingers, no arm, no person, no pouch, no pills.",
    "video": "(not rendered: slow push-in on the still)",
-   "dur": 3
+   "dur": 3,
+   "t": [
+    2.52,
+    4.38
+   ]
   },
   {
    "id": "S3",
@@ -39,7 +47,11 @@
    "vo": "This is Youtheory Ashwagandha Liquid with KSM-66, and the label says it helps reduce stress.",
    "still": "Close-up, kitchen counter: the hand holds the pouch toward the lens, label squarely facing the camera, small and steady.",
    "video": "Shot 1 (0-5s): the hand turns the pouch slowly until the front label faces the lens squarely, then holds it steady.",
-   "dur": 5
+   "dur": 6,
+   "t": [
+    4.38,
+    10.18
+   ]
   },
   {
    "id": "S4",
@@ -47,7 +59,11 @@
    "vo": "It's so easy, you've got no excuses.",
    "still": "(real pouch crop, push-in, no AI)",
    "video": "",
-   "dur": 3
+   "dur": 3,
+   "t": [
+    10.18,
+    12.6
+   ]
   },
   {
    "id": "S5",
@@ -55,7 +71,11 @@
    "vo": "Twelve pouches, with the holidays coming. It's in the orange cart.",
    "still": "Close-up, kitchen counter: the pouch stands upright on the counter and the hand points down toward it with one finger from the frame edge.",
    "video": "Shot 1 (0-4s): the hand reaches in from the edge, sets the pouch upright on the counter, then points down at it with one finger and holds.",
-   "dur": 4
+   "dur": 4,
+   "t": [
+    12.6,
+    15.84
+   ]
   }
  ]
 }
