@@ -3,7 +3,7 @@
 Every shot sits on the real Grace B word timings. No dark room, no tap shot, no hand sweep, no 3-boxes card, no tick sounds (v3ab/REMOVED.md)."""
 import json, os, subprocess, sys
 sys.path.insert(0, os.getcwd()); import cut
-from cut import run, dur_of, render_shot, FPS, WIDE, CAB, CAB2, M2CROP
+from cut import run, dur_of, render_shot, FPS, WIDE, CAB, CAB2, DOOR, PSTRIP, M2CROP
 cut.TMP = "/tmp/claude-0/-home-user/9c718d1b-29a5-5a63-b8f9-864e00013653/scratchpad/cut3"; os.makedirs(cut.TMP, exist_ok=True); os.makedirs("v3ab/out", exist_ok=True)
 VO = "v3ab/vo/vA_final.wav"; LINES = json.load(open("v3ab/vo/vA_final_lines.json")); L = [l["start"] for l in LINES]   # line starts
 MIRROR = ("stills/V1A_fix.png", (140, 380, 520, 1056))                                     # real photo, lit mirror region
@@ -11,20 +11,24 @@ P1, P2 = "clips/P1_kling3.mp4", "clips/P2_kling.mp4"                            
 
 
 def edl(v):
-    e = L[9] + 0.0                                    # "It's in the orange cart."
-    common = [(L[3], ("clip", P2, 0, {"done": 1}), 1.6),                                       # full-length mirror: hand points, trimmed before it leaves frame
-              (L[3] + 1.6, ("clip", "clips/M5a.mp4", 0, {}), None),                         # mirror door opens (hidden storage)
-              (L[5], ("clip", "clips/M2a.mp4", 0, {"crop": M2CROP}), None),                 # outlets
-              (L[6] - 0.13, ("clip", "clips/M4a.mp4", 0.6, {}), None),                       # stool drawer
-              (L[7], ("kb",) + CAB2 + ({},), None),                                          # instead of fitting five things (open cabinet, real photo, push-in)
-              (L[7] + 2.67, ("kb",) + WIDE + ({"pull": 1},), None),                          # "you get them all in one": pull back to the whole piece
-              (L[8], ("clip", "clips/V1S5.mp4", 0, {}), None),                               # ships in three boxes... wouldn't wait
-              (L[8] + 4.03, ("kb",) + WIDE + ({},), None)]                                   # close, "It's in the orange cart."
-    if v == "A":
-        head = [(0, ("clip", P1, 0, {"done": 1}), None), (L[1], ("kb",) + WIDE + ({},), None), (L[1] + 3.13, ("kb",) + CAB + ({},), None), (L[2], ("kb",) + MIRROR + ({},), None)]
-    else:
-        head = [(0, ("kb",) + MIRROR + ({},), None), (L[1], ("kb",) + WIDE + ({"pull": 1},), None), (L[1] + 3.13, ("kb",) + CAB + ({},), None), (L[2], ("clip", P1, 0, {"done": 1}), None)]
-    return [(s, shot) for s, shot, _ in head + common]
+    if v == "A":      # hook = wide pointing hand; hands close on mirror door / outlet / stool drawer
+        return [(0, ("clip", P1, 0, {"done": 1})), (L[1], ("kb",) + WIDE + ({},)), (L[1] + 3.13, ("kb",) + CAB + ({},)), (L[2], ("kb",) + MIRROR + ({},)),
+                (L[3], ("clip", P2, 0, {"done": 1})),                                              # full-length mirror: hand points, trimmed before it leaves frame
+                (L[3] + 1.6, ("clip", "clips/M5a.mp4", 0, {})),                                     # mirror door opens (hidden storage)
+                (L[5], ("clip", "clips/M2a.mp4", 0, {"crop": M2CROP})),                             # outlets
+                (L[6] - 0.13, ("clip", "clips/M4a.mp4", 0.6, {})),                                  # stool drawer
+                (L[7], ("kb",) + CAB2 + ({},)), (L[7] + 2.67, ("kb",) + WIDE + ({"pull": 1},)),     # five things -> all in one
+                (L[8], ("clip", "clips/V1S5.mp4", 0, {})), (L[8] + 4.03, ("kb",) + WIDE + ({},))]   # ships in three boxes, close
+    # B: different order, different shots: opens on the lit mirror, pointing hand on the pain line (4 s), real-photo pushes for mirror/storage/outlets, drawer hands later
+    return [(0, ("kb",) + MIRROR + ({},)), (L[1], ("clip", P1, 0, {"done": 1})), (L[1] + 4.0, ("kb",) + CAB + ({},)),
+            (L[2], ("clip", "clips/V1S5.mp4", 0, {})),                                              # lit mirror line: pull back from the mirror to the whole piece
+            (L[3], ("kb",) + DOOR + ({},)),                                                         # full-length mirror (real photo push)
+            (L[4] - 0.12, ("kb",) + CAB2 + ({},)),                                                  # hidden storage (real photo, bags)
+            (L[5], ("kb",) + PSTRIP + ({},)),                                                       # outlets (real listing photo)
+            (L[6] - 0.13, ("clip", "clips/M4a.mp4", 0, {})),                                        # stool drawer opens
+            (L[7], ("clip", "clips/M3a.mp4", 0, {})),                                               # drawers + lipsticks: five things in one
+            (L[7] + 4.04, ("kb",) + WIDE + ({"pull": 1},)),                                         # ships in three boxes: pull back to the whole piece
+            (L[8] + 4.03, ("kb",) + WIDE + ({},))]                                                  # close push-in
 
 
 def build(v):
