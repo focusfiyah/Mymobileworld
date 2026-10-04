@@ -5,3 +5,4 @@
 - 2026-10-04 Ralph: variants that reuse the same footage with a new VO (TikTok flags it). Every video gets its own look and setting.
 - 2026-10-04 Ralph: the same white-kitchen background in every video. Different backgrounds per video.
 - Push-ins on stills (Ken Burns) stay out (rule 7): every shot is a real clip.
+- 2026-10-04 Ralph: yellow/golden grade (now clean neutral).

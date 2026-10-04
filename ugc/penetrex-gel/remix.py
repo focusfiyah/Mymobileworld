@@ -6,7 +6,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent; os.chdir(HERE)
 J = json.load(open("shots.json")); R = json.load(open("remix.json")); FPS = 24
 GRADE = {"natural": "eq=saturation=1.02",                                   # daylight
-         "warm": "colortemperature=temperature=3300:mix=0.85,eq=saturation=1.12:brightness=0.02,curves=all='0/0.04 0.5/0.52 1/0.96'",   # golden hour
+         "warm": "eq=contrast=1.05:saturation=1.06:brightness=0.03",   # clean neutral (Ralph 2026-10-04: no yellow/golden tint)
          "cool": "colortemperature=temperature=8500:mix=0.7,eq=contrast=1.03:saturation=0.95:brightness=0.04",                          # bright, cool daylight
          "moody": "eq=brightness=0.06:contrast=1.06:saturation=1.18,curves=all='0/0.03 0.5/0.56 1/1'"}  # bright, punchy (Ralph 2026-10-04: no dark looks)
 def run(a): subprocess.run(["ffmpeg", "-v", "error", "-y", *a], check=True)
