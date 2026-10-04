@@ -7,6 +7,16 @@ metadata:
 
 # Coordinate Target Zoom
 
+## Contents
+
+- How It Works
+- Getting the offset
+- Recipe
+- Variations
+- Values
+- Critical Constraints
+- See also
+
 A simple `scale > 1` on a wrapper pushes off-center content OFF the visible canvas. To zoom _into_ a specific non-centered element, apply scale AND an inverse translation in lockstep so the target lands at viewport center.
 
 ## How It Works

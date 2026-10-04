@@ -7,6 +7,16 @@ metadata:
 
 # Multi-Phase Camera
 
+## Contents
+
+- How It Works
+- Recipe
+- Phase Patterns
+- Variations
+- Values
+- Critical Constraints
+- See also
+
 A camera wrapper around the ENTIRE scene that progresses through discrete zoom phases at scripted triggers, with continuous sine-driven micro-drift overlaid so the camera never feels static between phases. Distinct from a single linear zoom — multi-phase creates cinematic pacing (anticipation → reveal → settle).
 
 ## How It Works

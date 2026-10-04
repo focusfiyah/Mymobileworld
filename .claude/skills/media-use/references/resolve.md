@@ -1,5 +1,17 @@
 # Resolve — command, flags, reuse, adopt, inventory
 
+## Contents
+
+- Types
+- Examples
+- Flags
+- Reuse before you resolve
+- How it works
+- Stamping provenance when mounting a resolved video
+- Adopt existing projects
+- Reading the inventory
+- Cross-project reuse
+
 ```bash
 npx hyperframes media-use resolve --type <type> --intent "<description>" --project <dir>
 ```

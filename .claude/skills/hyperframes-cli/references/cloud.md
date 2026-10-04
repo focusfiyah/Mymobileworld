@@ -1,5 +1,17 @@
 # cloud — HeyGen-hosted rendering (zero-infra)
 
+## Contents
+
+- When to use managed cloud, Lambda, Cloud Run, or local
+- Authentication
+- The render pipeline
+- Archive size and `.hyperframesignore`
+- Render options
+- Templates and variables
+- Fire-and-forget and webhooks
+- Managing renders
+- Safe retries
+
 `hyperframes cloud render` renders a composition on HeyGen's managed cloud. The CLI zips the project, uploads it, runs the render on HeyGen's infrastructure (Chromium + FFmpeg), and downloads the finished video. Nothing to deploy, and no Chrome/FFmpeg/AWS to manage; you pay per credit.
 
 ```bash

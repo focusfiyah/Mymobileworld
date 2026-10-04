@@ -7,6 +7,15 @@ metadata:
 
 # Counting with Dynamic Scale
 
+## Contents
+
+- How It Works
+- Recipe
+- Variations
+- Values
+- Critical Constraints
+- See also
+
 A number counts from A → B while its transform scale grows to the final size — escalating visual weight ("this is impressive") without tweening `font-size` or forcing text layout on every frame. The final font size is static CSS; only the transform changes.
 
 ## How It Works

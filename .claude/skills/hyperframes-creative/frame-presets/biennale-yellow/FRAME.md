@@ -90,6 +90,32 @@ components:
 
 # Biennale Yellow — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: display + sun bloom · left)
+  - 2 · Chapter Divider (section · move: jumbo numeral · vertical rail)
+  - 3 · Ledger (catalog · move: hairline tabular rows · the dense frame)
+  - 4 · Manifesto / Quote (quote · move: italic serif · centered bloom)
+  - 5 · Poster Panel (statement · move: yellow panel · split)
+  - 6 · Strand List (programme · move: numbered editorial rows · left)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Biennale Yellow at frame scale is a **literary-editorial system** in the register of an art

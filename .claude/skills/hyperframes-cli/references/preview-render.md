@@ -1,5 +1,15 @@
 # preview, play, render, publish
 
+## Contents
+
+- preview
+  - Agent context from Studio selection
+- play (lightweight player)
+  - Launching with an external browser (preview + play)
+- render
+  - feedback (report after rendering)
+- publish
+
 Serve, render, and share commands.
 
 ## preview

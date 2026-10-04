@@ -1,5 +1,15 @@
 # lint, check, snapshot
 
+## Contents
+
+- Discipline (motion-heavy work)
+- lint
+- check
+- Motion verification (`*.motion.json` sidecar)
+- snapshot
+  - Zooming into a reported finding
+- Deprecated: validate, inspect, layout
+
 Use `lint` for fast static feedback while iterating. Use `check` as the required final gate: it reruns the same linter, then audits runtime, layout, motion, and contrast in one browser session. Do not chain a redundant standalone `lint` immediately before `check`. `snapshot` is the standalone utility for capturing still frames and zoomed crops. `validate`, `inspect`, and `layout` still run but are deprecated: `check` covers all of them in one invocation.
 
 ## Discipline (motion-heavy work)

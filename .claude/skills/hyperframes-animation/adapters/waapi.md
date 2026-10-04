@@ -5,6 +5,17 @@ description: Web Animations API adapter patterns for HyperFrames. Use when autho
 
 # Web Animations API for HyperFrames
 
+## Contents
+
+- Contract
+- Basic Pattern
+- Stagger Pattern
+- Good Uses
+- Composition Duration
+- Avoid
+- Validation
+- Credits And References
+
 HyperFrames can seek Web Animations API animations through its `waapi` runtime adapter. WAAPI is useful when you want native browser keyframes with JavaScript-created timing and no GSAP dependency.
 
 ## Contract

@@ -1,5 +1,14 @@
 # CSS Patterns for Marker Highlighting
 
+## Contents
+
+- 1. Highlight Mode
+- 2. Circle Mode
+- 3. Burst Mode
+- 4. Scribble Mode
+- 5. Sketchout Mode
+- Combining Modes in Captions
+
 Pure CSS + GSAP implementations of all five MarkerHighlight.js drawing modes — no external library dependency, full timeline control. Snippets show mechanism DOM only, inside a standard scene clip (hyperframes-core); assume `tl` exists.
 
 Shared scaffold for every mode: the wrap is `position: relative; display: inline`; the text copy is `position: relative` and z-indexed **above** the accent (below it for sketchout, where the lines cross the text).
