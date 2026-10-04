@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-04). Hands-only AI video, ONE video, SILENT (Grace records her own voiceover; no ElevenLabs). 3 script options in `scripts.md`, one shared six-beat grid so the single video fits any option. Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-04: research + gate done ($0). Scripts (3) sent to Ralph/Drive. WAITING on Ralph's approval of the plan + total cost below before any paid call.**
+Status: **2026-10-04: research + gate done ($0). 3 scripts in Drive doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ (Grace Tiktok assets). WAITING on Ralph approval of the plan + $1.73 Kie quote before any paid call. Next: 6 stills, show storyboard, S4 test clip, then the rest.**
 
 Real product (confirmed from the brand's own photos, not a prompt description): real bottle: glass dropper bottle, GOLD oil, teal metallic cap, teal-yellow label (refs/real_box_bottle.png); mint-teal box with red band.
 
