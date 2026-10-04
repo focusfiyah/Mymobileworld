@@ -38,6 +38,12 @@ Paste the block below into any of:
 - Scripts: hook, pain, solution, honest caveat, real urgency, and close with "It's in the orange cart." Never "order it now",
   never "heads up", no price, only the product we're selling, every shot matching its exact words.
 - Lights features: darken the room so the product's lights carry the shot (I liked this).
+- Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
+  real-photo room, a hand pulling a drawer or a bag. Ken Burns zooms on photos and freeze frames look "like pictures": avoid them.
+  Study the example ad's motion before building. No hand sweeping across the product, no picture of the shipping boxes.
+- A client's own script (e.g. Grace's V2): keep every word when I say so, even if it fails the readability gate. The override is
+  recorded in the job's checklist.json (rule, video, my quote, date, real grade); only that rule and video are exempt. Flag
+  claims the listing can't back (sale, shipping, scarcity) in the proofs; never edit them out or sneak them in silently.
 
 ## Day One AI (my faceless YouTube tutorial channel)
 - Channel "Day One AI" @dayoneaitools1: first "how to use [new AI tool]" tutorial within ~48h of launch; earns via affiliate links.
@@ -49,3 +55,6 @@ Paste the block below into any of:
   demo lines (never my client clones); quote exact cost before any extra paid generation.
 - ElevenLabs affiliate link: https://try.elevenlabs.io/6rw6sfid5efk. First video (public): https://youtu.be/8qjWtaN-H9g
 ---
+
+## Memory updates (2026-10-03)
+- I'm usually on my phone. When a standing rule changes, update the memory files and send me ONE complete, combined "remember" text as a file (handoff/REMEMBER_ME.txt) that I paste into a new claude.ai chat. Never send fragments, diffs or "replace this line" instructions.
