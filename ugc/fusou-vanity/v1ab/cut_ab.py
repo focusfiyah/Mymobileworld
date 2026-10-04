@@ -85,7 +85,7 @@ def EDL2(v, face=False):
     L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s4 = L[3]
     w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
     BAD = ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": 0, "mode": "bad"})
-    if face: BAD = ("clip", "clips/OPEN_FACE.mp4", 0.2, {"crop": "531:945:70:40"})   # Grace's face, bad light, cropped above the lips (no lip sync needed)
+    if face: BAD = ("clip", "clips/OPEN_FACE.mp4", 0.2, {"crop": "486:865:70:120"})   # Grace's face, bad light, cropped above the lips (no lip sync needed)
     if v == "A":
         t_hand = 5.2; t_lights = L[3] - 5.0
         edl = [(0, BAD), (2.73, ("clip", "clips/V1S5.mp4", 0, {})), (t_hand, ("clip", "clips/V1S4.mp4", 0, {})),
