@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-04). Hands-only AI video, ONE video, SILENT (Grace records her own voiceover; no ElevenLabs). 3 script options in `scripts.md`, one shared six-beat grid so the single video fits any option. Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-04: research + gate done ($0). 3 scripts in Drive doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ (Grace Tiktok assets). WAITING on Ralph approval of the plan + $1.73 Kie quote before any paid call. Next: 6 stills, show storyboard, S4 test clip, then the rest.**
+Status: **2026-10-04: plan APPROVED by Ralph ($1.73/video + $0.09 redo). Stills done (oil S3+S5 redone for the real stepped teal cap). Clips run. QC: pads S1,S3,S4 + oil S1,S4,S5,S6 pass; pads S2 (extra arms), S5 (jar tilt turns lid white), S6 (jar scale jump) and oil S3 (second cap stacked after 2.4s) need rerolls; oil S2 + pads S2 to become hands-free. Spent $3.728 Kie. WAITING on Ralph for $1.123 of rerolls.**
 
 Real product (confirmed from the brand's own photos, not a prompt description): real jar: pale-blue jar, yellow lid, pink 'INGROWN HAIR PADS' label (refs/real_jar.png); retail box yellow with pink band (refs/real_box.png).
 
