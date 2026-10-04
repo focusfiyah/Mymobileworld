@@ -1,0 +1,69 @@
+{
+ "product": "Base Laboratories Ingrown Hair Pads (AHA+BHA, 42 pads)",
+ "client": "Grace",
+ "hand_block": "The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people.",
+ "scene_block": "Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+ "video_suffix": "Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+ "prod_refs": [
+  "refs/real_jar.jpg"
+ ],
+ "prod_block": "The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs.",
+ "shots": [
+  {
+   "id": "S1",
+   "beat": "hook",
+   "dur": 5,
+   "hand": true,
+   "prod": true,
+   "still": "Medium close-up on a white bathroom countertop: the hand, entering from the bottom edge of the frame, holds the Base Laboratories jar upright and front-facing toward the lens; a plain pink disposable razor with no printed text lies on the counter at the lower left, a folded white towel behind it.",
+   "video": "Shot 1: the hand holds the jar steady front-on for a second, then turns it very slightly toward the lens and back, steady; the razor stays on the counter."
+  },
+  {
+   "id": "S2",
+   "beat": "pain",
+   "dur": 4,
+   "hand": true,
+   "prod": false,
+   "still": "Close-up of a bathroom mirror fogged with steam, the hand entering from the right edge with its palm flat on the glass, a clear wiped streak starting to show the white tiled bathroom behind; no person, no face and no reflection of a person.",
+   "video": "Shot 1: the hand sweeps once across the fogged mirror from right to left, wiping a clear band through the steam, then lifts away and leaves the clear streak."
+  },
+  {
+   "id": "S3",
+   "beat": "solution",
+   "dur": 4,
+   "hand": true,
+   "prod": true,
+   "still": "Medium close-up on the white countertop: the open jar sits in the frame with its yellow lid off and set beside it, the stack of white round pads visible inside; the hand enters from the bottom edge with thumb and two fingertips just above the top pad.",
+   "video": "Shot 1: the fingertips pinch the top pad and lift one white pad straight up out of the jar, hold it up in front of the lens for a second."
+  },
+  {
+   "id": "S4",
+   "beat": "how to use",
+   "dur": 5,
+   "hand": true,
+   "prod": false,
+   "forearm": true,
+   "still": "Close-up of a woman's bare forearm (same medium-dark brown skin) resting palm up on the white countertop entering from the left edge of the frame, wrist at the left; the hand from the right edge holds one white round textured cotton pad flat between thumb and fingers, touching the skin at the elbow end of the forearm. Nothing else on the counter.",
+   "video": "Shot 1: the hand swipes the pad once, slowly, in ONE direction from the elbow end down toward the wrist along the forearm, skin getting a faint damp sheen, then lifts the pad away and holds it up beside the forearm. The forearm stays still."
+  },
+  {
+   "id": "S5",
+   "beat": "features + confession",
+   "dur": 5,
+   "hand": true,
+   "prod": true,
+   "still": "Medium close-up on the white bathroom countertop: the hand, entering from the bottom edge, holds the closed Base Laboratories jar front-facing and upright toward the lens at chest height, the label fully visible and square to the camera.",
+   "video": "Shot 1: the hand holds the jar front-on, then tilts it slightly toward the lens and back to upright, then gives the yellow lid one soft tap with a fingertip."
+  },
+  {
+   "id": "S6",
+   "beat": "urgency CTA",
+   "dur": 6,
+   "hand": true,
+   "prod": true,
+   "two": true,
+   "still": "Medium shot on the white countertop: TWO identical Base Laboratories jars side by side, both upright with labels facing the lens, the hand resting at the right edge of the frame near them.",
+   "video": "Shot 1: the hand slides both jars forward toward the lens a few centimetres together. Shot 2: the hand pulls back and an index finger points down at the jars, then holds still."
+  }
+ ]
+}

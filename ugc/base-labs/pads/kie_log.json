@@ -1,0 +1,168 @@
+[
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "1895827416b64c00c0bc729685921d84",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white countertop: the open jar s"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "223538b9e6e5ef70fb3150a1cd398654",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a bathroom mirror fogged with steam, the ha"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "6efe1ec64ef0cf032a53fde902ba2d7d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the h"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "f52448fecbee105b4eb779b3a7a6c063",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on a white bathroom countertop: the han"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "addcb936539f70274223faed5cf98ddb",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a woman's bare forearm (same medium-dark br"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "a19fc57336ffe8dd888b88ebb9330b32",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot on the white countertop: TWO identical Base"
+ },
+ {
+  "t": "2026-10-04 09:01:08",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white countertop: the open jar sits in the frame with its yellow lid off and set beside it, the stack of white round pads visible inside; the hand enters from the bottom edge with thumb and two fingertips just above the top pad. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416525-32tjp0flvla.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1895827416b64c00c0bc729685921d84",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1895827416b64c00c0bc729685921d84_0_1791104467.jpeg"
+   ]
+  },
+  "costTime": 50
+ },
+ {
+  "t": "2026-10-04 09:01:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a bathroom mirror fogged with steam, the hand entering from the right edge with its palm flat on the glass, a clear wiped streak starting to show the white tiled bathroom behind; no person, no face and no reflection of a person. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "223538b9e6e5ef70fb3150a1cd398654",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/223538b9e6e5ef70fb3150a1cd398654_0_1791104462.jpeg"
+   ]
+  },
+  "costTime": 44
+ },
+ {
+  "t": "2026-10-04 09:01:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on a white bathroom countertop: the hand, entering from the bottom edge of the frame, holds the Base Laboratories jar upright and front-facing toward the lens; a plain pink disposable razor with no printed text lies on the counter at the lower left, a folded white towel behind it. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416525-32tjp0flvla.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f52448fecbee105b4eb779b3a7a6c063",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f52448fecbee105b4eb779b3a7a6c063_0_1791104475.jpeg"
+   ]
+  },
+  "costTime": 57
+ },
+ {
+  "t": "2026-10-04 09:01:27",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the hand, entering from the bottom edge, holds the closed Base Laboratories jar front-facing and upright toward the lens at chest height, the label fully visible and square to the camera. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416525-32tjp0flvla.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6efe1ec64ef0cf032a53fde902ba2d7d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6efe1ec64ef0cf032a53fde902ba2d7d_0_1791104481.jpeg"
+   ]
+  },
+  "costTime": 64
+ },
+ {
+  "t": "2026-10-04 09:01:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a woman's bare forearm (same medium-dark brown skin) resting palm up on the white countertop entering from the left edge of the frame, wrist at the left; the hand from the right edge holds one white round textured cotton pad flat between thumb and fingers, touching the skin at the elbow end of the forearm. Nothing else on the counter. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the right frame edge with the whole wrist visible; the other arm (same skin tone, same short nails) lies still on the counter from the left edge, forearm bare; no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "addcb936539f70274223faed5cf98ddb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/addcb936539f70274223faed5cf98ddb_0_1791104482.jpeg"
+   ]
+  },
+  "costTime": 64
+ },
+ {
+  "t": "2026-10-04 09:01:46",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot on the white countertop: TWO identical Base Laboratories jars side by side, both upright with labels facing the lens, the hand resting at the right edge of the frame near them. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416525-32tjp0flvla.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a19fc57336ffe8dd888b88ebb9330b32",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a19fc57336ffe8dd888b88ebb9330b32_0_1791104501.jpeg"
+   ]
+  },
+  "costTime": 83
+ }
+]
