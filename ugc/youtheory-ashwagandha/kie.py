@@ -26,7 +26,7 @@ REFS = J["refs"]  # product crop first; hand refs added below
 HANDS = ["refs/hand_dorsal.png", "refs/hand_palm.png"]
 ROOM = "stills/S1.png"  # first approved still doubles as the room reference
 NO_PROD = {s["id"] for s in J["shots"] if s["kind"] in ("N", "F")}   # no product text/refs in no-product shots (playbook: text puts the product in the shot)
-NO_HAND = {s["id"] for s in J["shots"] if s["kind"] in ("F",)}  # hand-free shots: no hand text
+NO_HAND = {s["id"] for s in J["shots"] if s["kind"] in ("F", "O")}   # O = product alone, no hand  # hand-free shots: no hand text
 CROP = {s["id"] for s in J["shots"] if s["kind"] == "C"}       # real-photo crops: no AI still, no cost
 
 
@@ -105,7 +105,7 @@ def stills(ids):
     prod = [upload(p) for p in REFS]; hands = [upload(p) for p in HANDS]
     for sid in ids:
         s = SHOTS[sid]
-        base = ([] if sid in NO_HAND else (hands if sid in NO_PROD else hands + prod))
+        base = ((prod if SHOTS[sid]["kind"] == "O" else []) if sid in NO_HAND else (hands if sid in NO_PROD else hands + prod))
         room = [upload(ROOM)] if sid != MAIN[0] and sid not in NO_HAND and Path(ROOM).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_block']}"
@@ -172,6 +172,6 @@ def sheet(kind, ext):
 if __name__ == "__main__":
     os.chdir(Path(__file__).parent)
     cmd = sys.argv[1]
-    CLIPS = [s["id"] for s in J["shots"] if s["kind"] in ("H", "N")]  # F shots are push-ins on stills, C shots are real crops
+    CLIPS = [s["id"] for s in J["shots"] if s["kind"] in ("H", "N", "O", "F") and s["id"] not in ("S2",)]  # F shots are push-ins on stills, C shots are real crops
     ids = sys.argv[2:] or (CLIPS if cmd == "clips" else MAIN)
     {"stills": stills, "clips": clips}[cmd](ids)

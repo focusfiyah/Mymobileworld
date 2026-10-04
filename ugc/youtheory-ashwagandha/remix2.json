@@ -1,0 +1,10 @@
+{"videos": [
+ {"name": "Ashwagandha 1", "vo": 1, "grade": "natural", "zoom": 1.0, "anchor": 0.5,
+  "segs": [[0,0,"X1",0], [1,1,"P1",0], [2,2,"S3",0], [3,3,"X1",3.0], [4,4,"T1",0], [5,5,"S5",0]]},
+ {"name": "Ashwagandha 2", "vo": 2, "grade": "warm", "zoom": 1.15, "anchor": 0.3,
+  "segs": [[0,0,"X1",1.0], [1,1,"P2",0], [2,3,"S3",0.2], [4,5,"T2",0], [6,6,"S5",1.0]]},
+ {"name": "Ashwagandha 3", "vo": 3, "grade": "cool", "zoom": 1.25, "anchor": 0.5,
+  "segs": [[0,1,"X1",0.5], [2,2,"S3",0], [3,3,"S3_v1_rotates",3.6], [4,4,"T1",0.5], [5,5,"S5",0.5]]},
+ {"name": "Ashwagandha 4", "vo": 4, "grade": "moody", "zoom": 1.1, "anchor": 0.55,
+  "segs": [[0,1,"X1",1.4], [2,3,"S3",0.3], [4,4,"T2",0.5], [5,6,"S5",0]]}
+]}

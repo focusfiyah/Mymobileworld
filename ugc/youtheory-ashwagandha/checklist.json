@@ -2,7 +2,8 @@
  "scripts": [
   "scripts.md",
   "research/v1_script.txt",
-  "scripts_variants.md"
+  "scripts_variants.md",
+  "scripts_grace_vo.md"
  ],
  "vo_lines": [
   "vo/v*_lines.json"
@@ -55,6 +56,7 @@
  },
  "readability": {
   "proof": [
+   "research/grace_vo_readability.txt",
    "research/v1_readability.txt",
    "research/variants_readability.txt"
   ],

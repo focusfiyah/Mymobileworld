@@ -14,3 +14,6 @@ Result: no remaining tells.
 
 ## Variants V2-V5 (2026-10-04)
 Same pass on all four variant scripts: no dashes, no not-X-but-Y, no 'game changer/obsessed/order now', contractions kept, short spoken sentences. Personal-use lines avoided ('my' only in on-screen identity call-outs, Grace addressing her followers). No result claims, label wording only.
+
+## Grace-VO scripts v2 (2026-10-04, "adult juice box for stress", Grace's notes)
+Checked again: no dashes, no not-X-but-Y ("Juice boxes, but for grown-ups" is a playful aside, kept as Grace's angle), no "the label says" (Grace's rule), contractions kept, sentences 3-14 words, label claim said directly ("it helps reduce stress"), no price, close "It's in the orange cart."

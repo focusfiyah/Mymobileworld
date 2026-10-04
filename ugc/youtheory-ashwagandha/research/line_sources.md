@@ -30,3 +30,10 @@
 - Hook: label read (@santacruzpaleo, TIRTIR @machyismuch)
 - Product lines: research/product_facts.md (label/listing wording only)
 - Close: Grace close + count/gift/season CTA (PLAYBOOK §1, §4)
+
+# Grace-VO scripts v2 (2026-10-04)
+- "adult juice box" hooks: Ralph's angle (2026-10-04); pouch format from the listing.
+- "Pills are a lot..." / "No pills to swallow": PLAYBOOK §2 pain first; shown with the new pills shots (Grace: visuals match words).
+- "KSM-66", "helps reduce stress", "blueberry", "twelve": pouch front + listing (product_facts.md); stated directly (Grace: never "the label says").
+- "Twelve pouches/in a box": count CTA (PLAYBOOK §4), shown with the new 12-pouch shots.
+- Close: Grace's "It's in the orange cart."
