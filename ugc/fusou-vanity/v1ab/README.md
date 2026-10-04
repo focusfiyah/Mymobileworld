@@ -5,3 +5,6 @@ Scripts as Grace wrote them (Ralph: keep as is, flash sale live); only added per
 
 ## v2 (Grace's notes 2026-10-04, both videos), DRAFT sent to Ralph, $0
 `out/fusou_v2A.mp4`, `out/fusou_v2B.mp4` (`python3 v1ab/cut_ab.py A2 B2`): ~3 s bad-lighting makeup opening (existing counter footage graded dim/flat), vanity on screen by 2.7 s (A) / 3.0 s (B); room never dark (darkroom.py `--dark 1.0`, LED colours change in daylight); the tap / light-on shot replaced by the hand walking in toward the vanity in full view (V1S4). Open: Grace asked for makeup 'in the mirror': needs a new AI clip (~$0.25), waiting on Ralph's OK. v1 files in Drive untouched.
+
+## New opening shot (Grace's face), 2026-10-04
+Ralph: face visible with makeup going on in bad lighting; use his 3 Grace photos (NOT the blue-shirt one): `refs/grace/grace_face_sheet.jpg` + crops. Own runner `kie_ab.py` (gated on THIS job; the old FUSOU job's checklist has stale clone mtimes). Still `stills/OPEN_FACE.png` ($0.09, `still_open.py`): dim yellow-green bathroom light, blush brush on cheek, her mauve French-tip nails. Lips are in the frame: crop the CLIP to a 9:16 box above the lips (free) so no lip sync is needed. Kie spent: $0.09 (1,289 -> 1,271 credits). Next: 4 s clip, $0.164, waiting on Ralph's OK.
