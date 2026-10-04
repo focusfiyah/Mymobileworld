@@ -134,5 +134,83 @@
    ]
   },
   "costTime": 140
+ },
+ {
+  "t": "2026-10-04 16:13:54",
+  "submitted": "17bbe98f8a17247698292ee6639b6eba",
+  "prompt": "Shot 1 (0-4s): the hand lifts the pouch slightly toward the lens, gives it one small shake, then holds steady, front fac"
+ },
+ {
+  "t": "2026-10-04 16:13:54",
+  "submitted": "ad5575036c829284a2ac262a4a26e994",
+  "prompt": "Shot 1 (0-4s): the hand sets the pouch upright on the counter, then points down at it with one finger and holds. The han"
+ },
+ {
+  "t": "2026-10-04 16:13:54",
+  "submitted": "5712fab86d828f3c1746a47fef573521",
+  "prompt": "Shot 1 (0-7s): the hand holds the pouch up toward the lens with the front facing the camera the entire time. It only til"
+ },
+ {
+  "t": "2026-10-04 16:15:28",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand sets the pouch upright on the counter, then points down at it with one finger and holds. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Neuro Energy & Focus Sour Mints pouch in the product reference image: a flat blue-teal stand-up pouch with a white 'N' wave logo and 'Neuro' at the top left, a red-coral 'SOUR MINTS' label at the upper right, a red 'SOUR BERRY' sticker on the left, and 'Energy & Focus' in large blue letters, with '90 Pieces Dietary Supplement' in small print below. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Do not show individual mints up close. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791130432389-1gs3ex7fxac.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ad5575036c829284a2ac262a4a26e994",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791130525717-sa75eg39d.mp4"
+   ]
+  },
+  "costTime": 94
+ },
+ {
+  "t": "2026-10-04 16:16:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-4s): the hand lifts the pouch slightly toward the lens, gives it one small shake, then holds steady, front facing camera. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Neuro Energy & Focus Sour Mints pouch in the product reference image: a flat blue-teal stand-up pouch with a white 'N' wave logo and 'Neuro' at the top left, a red-coral 'SOUR MINTS' label at the upper right, a red 'SOUR BERRY' sticker on the left, and 'Energy & Focus' in large blue letters, with '90 Pieces Dietary Supplement' in small print below. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Do not show individual mints up close. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791130429589-iw8azublmg.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "17bbe98f8a17247698292ee6639b6eba",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791130572635-zaglskm411m.mp4"
+   ]
+  },
+  "costTime": 139
+ },
+ {
+  "t": "2026-10-04 16:16:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-7s): the hand holds the pouch up toward the lens with the front facing the camera the entire time. It only tilts a few degrees toward the lens and settles. The pouch never turns, never rotates, never shows its side or back, and the same single hand holds it throughout. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Neuro Energy & Focus Sour Mints pouch in the product reference image: a flat blue-teal stand-up pouch with a white 'N' wave logo and 'Neuro' at the top left, a red-coral 'SOUR MINTS' label at the upper right, a red 'SOUR BERRY' sticker on the left, and 'Energy & Focus' in large blue letters, with '90 Pieces Dietary Supplement' in small print below. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Do not show individual mints up close. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791129728117-1vsjr3f5to7.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 7
+   }
+  },
+  "taskId": "5712fab86d828f3c1746a47fef573521",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791130599622-n73ccs7xwq.mp4"
+   ]
+  },
+  "costTime": 168
  }
 ]

@@ -1,0 +1,576 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9647956490516663,
+ "text": "Know someone who's always stressed? Send them this. They won't buy it for themselves. youtheory Ashwagandha Liquid Blueberry with KSM-66. The label says it helps reduce stress. 12 easy pouches. One for them, one for you. It's in the orange cart.",
+ "words": [
+  {
+   "text": "Know",
+   "start": 0.1,
+   "end": 0.22,
+   "type": "word",
+   "logprob": -2.7179348762729205e-05
+  },
+  {
+   "text": " ",
+   "start": 0.22,
+   "end": 0.28,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "someone",
+   "start": 0.28,
+   "end": 0.6,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 0.6,
+   "end": 0.64,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "who's",
+   "start": 0.64,
+   "end": 0.88,
+   "type": "word",
+   "logprob": -9.536742595628311e-08
+  },
+  {
+   "text": " ",
+   "start": 0.88,
+   "end": 0.96,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "always",
+   "start": 0.98,
+   "end": 1.22,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 1.22,
+   "end": 1.38,
+   "type": "spacing",
+   "logprob": -7.629365427419543e-06
+  },
+  {
+   "text": "stressed?",
+   "start": 1.38,
+   "end": 1.84,
+   "type": "word",
+   "logprob": -6.847885521842221e-06
+  },
+  {
+   "text": " ",
+   "start": 1.84,
+   "end": 1.84,
+   "type": "spacing",
+   "logprob": -1.7762025890988298e-05
+  },
+  {
+   "text": "Send",
+   "start": 2.3,
+   "end": 2.44,
+   "type": "word",
+   "logprob": -1.7762025890988298e-05
+  },
+  {
+   "text": " ",
+   "start": 2.44,
+   "end": 2.48,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "them",
+   "start": 2.48,
+   "end": 2.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 2.62,
+   "end": 2.68,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "this.",
+   "start": 2.68,
+   "end": 3.04,
+   "type": "word",
+   "logprob": -5.960458054232731e-07
+  },
+  {
+   "text": " ",
+   "start": 3.04,
+   "end": 3.38,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "They",
+   "start": 3.38,
+   "end": 3.5,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.5,
+   "end": 3.54,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "won't",
+   "start": 3.54,
+   "end": 3.7,
+   "type": "word",
+   "logprob": -4.52995162447678e-07
+  },
+  {
+   "text": " ",
+   "start": 3.7,
+   "end": 3.74,
+   "type": "spacing",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "buy",
+   "start": 3.74,
+   "end": 3.84,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": " ",
+   "start": 3.84,
+   "end": 3.88,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "it",
+   "start": 3.88,
+   "end": 3.98,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.98,
+   "end": 4.0,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "for",
+   "start": 4.0,
+   "end": 4.1,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 4.1,
+   "end": 4.14,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "themselves.",
+   "start": 4.14,
+   "end": 4.78,
+   "type": "word",
+   "logprob": -3.251161925535681e-08
+  },
+  {
+   "text": " ",
+   "start": 4.78,
+   "end": 4.78,
+   "type": "spacing",
+   "logprob": -2.282453775405884
+  },
+  {
+   "text": "youtheory",
+   "start": 5.44,
+   "end": 5.92,
+   "type": "word",
+   "logprob": -1.1743300358454387
+  },
+  {
+   "text": " ",
+   "start": 5.92,
+   "end": 6.08,
+   "type": "spacing",
+   "logprob": -0.00032860602368600667
+  },
+  {
+   "text": "Ashwagandha",
+   "start": 6.08,
+   "end": 6.68,
+   "type": "word",
+   "logprob": -0.00352269525650296
+  },
+  {
+   "text": " ",
+   "start": 6.68,
+   "end": 6.74,
+   "type": "spacing",
+   "logprob": -0.00018737945356406271
+  },
+  {
+   "text": "Liquid",
+   "start": 6.74,
+   "end": 7.12,
+   "type": "word",
+   "logprob": -0.00018737945356406271
+  },
+  {
+   "text": " ",
+   "start": 7.12,
+   "end": 7.4,
+   "type": "spacing",
+   "logprob": -0.0024760086089372635
+  },
+  {
+   "text": "Blueberry",
+   "start": 7.4,
+   "end": 7.9,
+   "type": "word",
+   "logprob": -0.0024760086089372635
+  },
+  {
+   "text": " ",
+   "start": 7.9,
+   "end": 8.2,
+   "type": "spacing",
+   "logprob": -0.003275745315477252
+  },
+  {
+   "text": "with",
+   "start": 8.2,
+   "end": 8.38,
+   "type": "word",
+   "logprob": -0.003275745315477252
+  },
+  {
+   "text": " ",
+   "start": 8.38,
+   "end": 8.44,
+   "type": "spacing",
+   "logprob": -0.12707282602787018
+  },
+  {
+   "text": "KSM-66.",
+   "start": 8.44,
+   "end": 9.9,
+   "type": "word",
+   "logprob": -0.019130436471641588
+  },
+  {
+   "text": " ",
+   "start": 9.9,
+   "end": 9.9,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "The",
+   "start": 10.38,
+   "end": 10.46,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 10.46,
+   "end": 10.5,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "label",
+   "start": 10.5,
+   "end": 10.74,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 10.74,
+   "end": 10.86,
+   "type": "spacing",
+   "logprob": -1.2516897186287679e-05
+  },
+  {
+   "text": "says",
+   "start": 10.86,
+   "end": 11.04,
+   "type": "word",
+   "logprob": -1.2516897186287679e-05
+  },
+  {
+   "text": " ",
+   "start": 11.04,
+   "end": 11.08,
+   "type": "spacing",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "it",
+   "start": 11.08,
+   "end": 11.16,
+   "type": "word",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": " ",
+   "start": 11.16,
+   "end": 11.2,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "helps",
+   "start": 11.2,
+   "end": 11.44,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 11.44,
+   "end": 11.48,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "reduce",
+   "start": 11.48,
+   "end": 11.76,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 11.76,
+   "end": 11.84,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "stress.",
+   "start": 11.84,
+   "end": 12.26,
+   "type": "word",
+   "logprob": -1.5326907235443547e-07
+  },
+  {
+   "text": " ",
+   "start": 12.26,
+   "end": 12.66,
+   "type": "spacing",
+   "logprob": -3.6954811548639555e-06
+  },
+  {
+   "text": "12",
+   "start": 12.66,
+   "end": 13.14,
+   "type": "word",
+   "logprob": -0.008048662595683709
+  },
+  {
+   "text": " ",
+   "start": 13.14,
+   "end": 13.2,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "easy",
+   "start": 13.22,
+   "end": 13.44,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 13.44,
+   "end": 13.54,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "pouches.",
+   "start": 13.54,
+   "end": 14.1,
+   "type": "word",
+   "logprob": -1.1279679704934154e-05
+  },
+  {
+   "text": " ",
+   "start": 14.1,
+   "end": 14.42,
+   "type": "spacing",
+   "logprob": -7.343022298300639e-05
+  },
+  {
+   "text": "One",
+   "start": 14.42,
+   "end": 14.52,
+   "type": "word",
+   "logprob": -7.343022298300639e-05
+  },
+  {
+   "text": " ",
+   "start": 14.52,
+   "end": 14.6,
+   "type": "spacing",
+   "logprob": -0.005239208694547415
+  },
+  {
+   "text": "for",
+   "start": 14.6,
+   "end": 14.7,
+   "type": "word",
+   "logprob": -0.005239208694547415
+  },
+  {
+   "text": " ",
+   "start": 14.7,
+   "end": 14.76,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "them,",
+   "start": 14.76,
+   "end": 14.96,
+   "type": "word",
+   "logprob": -4.768370217789197e-07
+  },
+  {
+   "text": " ",
+   "start": 14.96,
+   "end": 15.3,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "one",
+   "start": 15.3,
+   "end": 15.38,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 15.38,
+   "end": 15.48,
+   "type": "spacing",
+   "logprob": -2.4437606043647975e-05
+  },
+  {
+   "text": "for",
+   "start": 15.48,
+   "end": 15.56,
+   "type": "word",
+   "logprob": -2.4437606043647975e-05
+  },
+  {
+   "text": " ",
+   "start": 15.56,
+   "end": 15.66,
+   "type": "spacing",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": "you.",
+   "start": 15.66,
+   "end": 15.8,
+   "type": "word",
+   "logprob": -1.8775439230012125e-06
+  },
+  {
+   "text": " ",
+   "start": 15.8,
+   "end": 16.219,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "It's",
+   "start": 16.219,
+   "end": 16.32,
+   "type": "word",
+   "logprob": -5.662437665421294e-07
+  },
+  {
+   "text": " ",
+   "start": 16.32,
+   "end": 16.379,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "in",
+   "start": 16.379,
+   "end": 16.44,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 16.44,
+   "end": 16.48,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 16.48,
+   "end": 16.56,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.56,
+   "end": 16.6,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "orange",
+   "start": 16.6,
+   "end": 16.84,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.84,
+   "end": 16.92,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "cart.",
+   "start": 16.92,
+   "end": 17.14,
+   "type": "word",
+   "logprob": -3.699914086610079e-05
+  }
+ ],
+ "transcription_id": "LaNH1SeuX2D31kJwBahB",
+ "audio_duration_secs": 17.36
+}
