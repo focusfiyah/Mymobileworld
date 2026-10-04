@@ -160,5 +160,31 @@
    ]
   },
   "costTime": 30
+ },
+ {
+  "t": "2026-10-04 16:02:10",
+  "submitted": "2c16bb0eeec8feca635728d2bf1491ce",
+  "prompt": "Shot 1 (0-5s): the hand turns the pouch slowly until the front label faces the lens squarely, then holds it steady. The "
+ },
+ {
+  "t": "2026-10-04 16:04:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1 (0-5s): the hand turns the pouch slowly until the front label faces the lens squarely, then holds it steady. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid single-serve pouch in the product reference image: a matte opaque WHITE stand-up spout pouch (not silver, not metallic foil, not shiny) with a teal screw cap, a small 'youtheory' logo and a teal-and-blue bubble circle graphic on the front, 'ashwagandha liquid' in teal serif letters, the small line 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791129728022-osswkvhbfqf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "2c16bb0eeec8feca635728d2bf1491ce",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791129847836-sydat9hq20g.mp4"
+   ]
+  },
+  "costTime": 129
  }
 ]
