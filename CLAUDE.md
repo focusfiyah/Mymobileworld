@@ -87,7 +87,7 @@ not in a new file.
 - **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
   so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder, organized 2026-10-04 into Final videos / Scripts / Older versions; V1 now has two Grace-script versions 1A/1B, `ugc/fusou-vanity/v1ab/`) with the final scripts doc; $4.28 Kie vs $4.54 quote. README Status line.
 
-- **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). APPROVED, in Drive (FUSOU / Final videos); Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc not updated yet.
+- **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). APPROVED, in Drive (FUSOU / Final videos); Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section).
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
