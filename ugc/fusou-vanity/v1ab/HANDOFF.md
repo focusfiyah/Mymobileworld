@@ -17,7 +17,7 @@ Repos: focusfiyah/Mymobileworld and focusfiyah/Dayone-ai, both on branch `ccr-dd
 Face references: Ralph's 3 photos only, `ugc/fusou-vanity/refs/grace/` (sheet + crops). NEVER the blue-shirt photo.
 
 ## Open items (none blocking)
-1. Grace's two V1 scripts (A, B) + captions are not in the Drive scripts doc yet. Doc is Google Doc id above; overwrite via Composio GOOGLEDRIVE_UPLOAD_UPDATE_FILE (HTML) to keep emoji; ask Ralph first.
+1. ~~Grace's two V1 scripts in the Drive scripts doc~~ DONE 2026-10-04 (see README, last section).
 2. Original `Video 1 - Lights On` still sits in Final videos next to 1A/1B: ask Ralph if it should move to Older versions.
 3. Video 2 was renamed "Drawer by Drawer" (was "Grace script (motion cut r2)"): mention if Ralph objects.
 4. Bad lighting is "dull and flat", not harsh. Can be darkened free (`badlite` -> `bad` in `v1ab/cut_ab.py`) if Grace wants worse.

@@ -24,3 +24,6 @@ Grace Tiktok assets / FUSOU (1LDxaLUgsy_QR0Nq_9B7vokF_JqaYy1hx) now has 3 subfol
 - **Scripts** `1UiltfBgEi7IWMwt96RQ6RRFxdDBHQ_kQ`: the 6-scripts doc (1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs). Grace's two V1 scripts (A, B) are NOT in the doc yet.
 - **Older versions** `1WgpKqHP8x52NEPzK2udbdHJwqRLh4x_z`: the first V1 A/B cuts ("- older").
 Moves: Composio GOOGLEDRIVE_UPDATE_FILE_PUT (name + add_parents/remove_parents), account googledrive_lin-ernst.
+
+## Scripts doc updated (2026-10-04, Ralph: "Add Grace's two scripts to the Drive doc")
+Drive doc `1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs` (FUSOU folder / Scripts) now has a NEW section "Video 1 again, in Grace's own two scripts" (1A + 1B: full voiceover, timed table of voice + what is on screen, 3 on-screen hook options, caption, link to the FINAL video) above the older six. Built by `python3 v1ab/build_doc_v1ab.py` (reads `out/fusou_scripts_final.html`, writes it back; run ONCE per doc state, it refuses if the section exists). Uploaded in place: file hosted with Kie `upload()`, fetched in the Composio workbench, `upload_local_file` -> s3key, `GOOGLEDRIVE_UPLOAD_UPDATE_FILE` (same file ID). Checked with a plain-text export: new section present, old content intact, emoji fine (the Drive reader tool shows them garbled, the doc is right). Cost $0.
