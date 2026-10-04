@@ -24,13 +24,14 @@ SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"] if s["kind"] != "C"]
 REFS = J["refs"]  # product crop first; hand refs added below
 HANDS = ["refs/hand_dorsal.png", "refs/hand_palm.png"]
-ROOM = "stills/S1.png"  # first approved still doubles as the room reference
+ROOM = "stills/P1.png"  # room reference without any product (the old S1 still shows the wrong screw-cap pouch)
 NO_PROD = {s["id"] for s in J["shots"] if s["kind"] in ("N", "F")}   # no product text/refs in no-product shots (playbook: text puts the product in the shot)
 NO_HAND = {s["id"] for s in J["shots"] if s["kind"] in ("F", "O")}   # O = product alone, no hand  # hand-free shots: no hand text
 CROP = {s["id"] for s in J["shots"] if s["kind"] == "C"}       # real-photo crops: no AI still, no cost
 
 
 def blocks(sid):
+    if SHOTS[sid].get("box"): return " ".join([J["identity_block"], J["product_block"], J["box_block"]])
     return " ".join(([] if sid in NO_HAND else [J["identity_block"]]) + ([] if sid in NO_PROD else [J["product_block"]]))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
@@ -105,7 +106,7 @@ def stills(ids):
     prod = [upload(p) for p in REFS]; hands = [upload(p) for p in HANDS]
     for sid in ids:
         s = SHOTS[sid]
-        base = ((prod if SHOTS[sid]["kind"] == "O" else []) if sid in NO_HAND else (hands if sid in NO_PROD else hands + prod))
+        base = (hands + prod + [upload('refs/box_real.png')]) if SHOTS[sid].get('box') else ((prod if SHOTS[sid]["kind"] == "O" else []) if sid in NO_HAND else (hands if sid in NO_PROD else hands + prod))
         room = [upload(ROOM)] if sid != MAIN[0] and sid not in NO_HAND and Path(ROOM).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_block']}"
