@@ -1,7 +1,7 @@
 {
  "product": "penetrex-gel",
  "client": "Grace",
- "status": "Plan v1 (not approved yet)",
+ "status": "VO done 2026-10-04 (sped up free, atempo), awaiting stills approval",
  "voice": {
   "name": "Grace B voice",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
@@ -23,7 +23,11 @@
    "vo": "Looks like deodorant, right? It's joint and muscle care.",
    "still": "Close-up, kitchen counter: the hand holds the white Penetrex roll-on bottle upright toward the lens, label facing the camera squarely.",
    "video": "Shot 1 (0-4s): the hand lifts the bottle slightly toward the lens, then holds steady, label facing camera.",
-   "dur": 4
+   "dur": 4,
+   "t": [
+    0.0,
+    2.82
+   ]
   },
   {
    "id": "S2",
@@ -31,7 +35,11 @@
    "vo": "Sore hands don't wait for the weekend.",
    "still": "Close-up, kitchen counter: a single hand reaches in from the frame edge, palm down, fingers slowly curling into a loose fist and opening again. Nothing else in the frame.",
    "video": "Shot 1 (0-4s): the hand slowly closes into a loose fist and opens again, once, relaxed.",
-   "dur": 4
+   "dur": 4,
+   "t": [
+    2.82,
+    4.75
+   ]
   },
   {
    "id": "S3",
@@ -39,7 +47,11 @@
    "vo": "Penetrex rolls on like a gel, with arnica, vitamin B6 and MSM.",
    "still": "Close-up, kitchen counter: the hand holds the white Penetrex bottle and rolls its roller-ball head along the back of the other hand's wrist, the white gel leaving a thin line on the skin.",
    "video": "Shot 1 (0-4s): the roller-ball glides one slow stroke along the back of the wrist, leaving a thin glossy line of gel, then stops.",
-   "dur": 4
+   "dur": 5,
+   "t": [
+    4.75,
+    9.0
+   ]
   },
   {
    "id": "S4",
@@ -47,7 +59,11 @@
    "vo": "No hand washing, and it's fragrance free.",
    "still": "(real bottle crop, push-in on the label, no AI)",
    "video": "",
-   "dur": 3
+   "dur": 3,
+   "t": [
+    9.0,
+    11.3
+   ]
   },
   {
    "id": "S5",
@@ -55,7 +71,11 @@
    "vo": "It's so easy, you've got no excuses. Colder weather's coming. It's in the orange cart.",
    "still": "Close-up, kitchen counter: the bottle stands upright on the counter and the hand points down toward it with one finger from the frame edge.",
    "video": "Shot 1 (0-5s): the hand sets the bottle upright on the counter, then points down at it with one finger and holds.",
-   "dur": 5
+   "dur": 5,
+   "t": [
+    11.3,
+    15.84
+   ]
   }
  ]
 }

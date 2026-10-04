@@ -1,0 +1,688 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9671360850334167,
+ "text": "Looks like deodorant, right? It's joint and muscle care. Sore hands don't wait for the weekend. Penetrex rolls on like a gel with arnica, vitamin B6, and MSM. No hand washing, and it's fragrance-free. It's so easy, you've got no excuses. Colder weather's coming. It's in the orange cart",
+ "words": [
+  {
+   "text": "Looks",
+   "start": 0.1,
+   "end": 0.28,
+   "type": "word",
+   "logprob": -0.00010525626566959545
+  },
+  {
+   "text": " ",
+   "start": 0.28,
+   "end": 0.32,
+   "type": "spacing",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": "like",
+   "start": 0.32,
+   "end": 0.48,
+   "type": "word",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": " ",
+   "start": 0.48,
+   "end": 0.54,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "deodorant,",
+   "start": 0.54,
+   "end": 1.06,
+   "type": "word",
+   "logprob": -2.8848395004388296e-06
+  },
+  {
+   "text": " ",
+   "start": 1.06,
+   "end": 1.16,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "right?",
+   "start": 1.16,
+   "end": 1.4,
+   "type": "word",
+   "logprob": -1.3907749381777043e-07
+  },
+  {
+   "text": " ",
+   "start": 1.4,
+   "end": 1.98,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "It's",
+   "start": 1.98,
+   "end": 2.2,
+   "type": "word",
+   "logprob": -2.6822085885669367e-07
+  },
+  {
+   "text": " ",
+   "start": 2.2,
+   "end": 2.26,
+   "type": "spacing",
+   "logprob": -0.00016223068814724684
+  },
+  {
+   "text": "joint",
+   "start": 2.26,
+   "end": 2.52,
+   "type": "word",
+   "logprob": -0.00016223068814724684
+  },
+  {
+   "text": " ",
+   "start": 2.52,
+   "end": 2.54,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "and",
+   "start": 2.54,
+   "end": 2.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 2.66,
+   "end": 2.74,
+   "type": "spacing",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": "muscle",
+   "start": 2.74,
+   "end": 3.02,
+   "type": "word",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": " ",
+   "start": 3.02,
+   "end": 3.14,
+   "type": "spacing",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": "care.",
+   "start": 3.14,
+   "end": 3.42,
+   "type": "word",
+   "logprob": -1.955030160161186e-06
+  },
+  {
+   "text": " ",
+   "start": 3.42,
+   "end": 4.059,
+   "type": "spacing",
+   "logprob": -8.284702198579907e-05
+  },
+  {
+   "text": "Sore",
+   "start": 4.059,
+   "end": 4.26,
+   "type": "word",
+   "logprob": -8.284702198579907e-05
+  },
+  {
+   "text": " ",
+   "start": 4.26,
+   "end": 4.32,
+   "type": "spacing",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": "hands",
+   "start": 4.32,
+   "end": 4.78,
+   "type": "word",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": " ",
+   "start": 4.78,
+   "end": 4.82,
+   "type": "spacing",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": "don't",
+   "start": 4.82,
+   "end": 5.02,
+   "type": "word",
+   "logprob": -2.1934471021722857e-06
+  },
+  {
+   "text": " ",
+   "start": 5.02,
+   "end": 5.06,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "wait",
+   "start": 5.06,
+   "end": 5.22,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 5.22,
+   "end": 5.26,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "for",
+   "start": 5.26,
+   "end": 5.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 5.36,
+   "end": 5.38,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "the",
+   "start": 5.38,
+   "end": 5.44,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 5.44,
+   "end": 5.48,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "weekend.",
+   "start": 5.48,
+   "end": 5.98,
+   "type": "word",
+   "logprob": -4.3213356804017167e-07
+  },
+  {
+   "text": " ",
+   "start": 5.98,
+   "end": 6.44,
+   "type": "spacing",
+   "logprob": -0.008456257171928883
+  },
+  {
+   "text": "Penetrex",
+   "start": 6.44,
+   "end": 6.9,
+   "type": "word",
+   "logprob": -0.005956675988272764
+  },
+  {
+   "text": " ",
+   "start": 6.9,
+   "end": 7.02,
+   "type": "spacing",
+   "logprob": -8.821448318485636e-06
+  },
+  {
+   "text": "rolls",
+   "start": 7.02,
+   "end": 7.26,
+   "type": "word",
+   "logprob": -8.821448318485636e-06
+  },
+  {
+   "text": " ",
+   "start": 7.26,
+   "end": 7.34,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "on",
+   "start": 7.34,
+   "end": 7.46,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 7.46,
+   "end": 7.5,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "like",
+   "start": 7.5,
+   "end": 7.64,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 7.64,
+   "end": 7.68,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "a",
+   "start": 7.68,
+   "end": 7.76,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 7.76,
+   "end": 7.82,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "gel",
+   "start": 7.82,
+   "end": 8.06,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 8.06,
+   "end": 8.4,
+   "type": "spacing",
+   "logprob": -0.0009257083875127137
+  },
+  {
+   "text": "with",
+   "start": 8.4,
+   "end": 8.58,
+   "type": "word",
+   "logprob": -0.0009257083875127137
+  },
+  {
+   "text": " ",
+   "start": 8.58,
+   "end": 8.64,
+   "type": "spacing",
+   "logprob": -0.043496180325746536
+  },
+  {
+   "text": "arnica,",
+   "start": 8.64,
+   "end": 9.1,
+   "type": "word",
+   "logprob": -0.012496821632209634
+  },
+  {
+   "text": " ",
+   "start": 9.1,
+   "end": 9.34,
+   "type": "spacing",
+   "logprob": -0.029856406152248383
+  },
+  {
+   "text": "vitamin",
+   "start": 9.34,
+   "end": 9.74,
+   "type": "word",
+   "logprob": -0.029856406152248383
+  },
+  {
+   "text": " ",
+   "start": 9.74,
+   "end": 9.76,
+   "type": "spacing",
+   "logprob": -3.3378546504536644e-06
+  },
+  {
+   "text": "B6,",
+   "start": 9.78,
+   "end": 10.32,
+   "type": "word",
+   "logprob": -2.14576387473168e-06
+  },
+  {
+   "text": " ",
+   "start": 10.32,
+   "end": 10.48,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "and",
+   "start": 10.48,
+   "end": 10.66,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 10.66,
+   "end": 10.78,
+   "type": "spacing",
+   "logprob": -0.00012182447244413197
+  },
+  {
+   "text": "MSM.",
+   "start": 10.82,
+   "end": 11.26,
+   "type": "word",
+   "logprob": -9.479559798819537e-05
+  },
+  {
+   "text": " ",
+   "start": 11.26,
+   "end": 11.26,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "No",
+   "start": 11.86,
+   "end": 12.02,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 12.02,
+   "end": 12.08,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "hand",
+   "start": 12.08,
+   "end": 12.28,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 12.28,
+   "end": 12.32,
+   "type": "spacing",
+   "logprob": -0.03844872862100601
+  },
+  {
+   "text": "washing,",
+   "start": 12.32,
+   "end": 12.74,
+   "type": "word",
+   "logprob": -0.03364317398404637
+  },
+  {
+   "text": " ",
+   "start": 12.74,
+   "end": 12.98,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "and",
+   "start": 12.98,
+   "end": 13.22,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 13.22,
+   "end": 13.32,
+   "type": "spacing",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "it's",
+   "start": 13.32,
+   "end": 13.46,
+   "type": "word",
+   "logprob": -8.04662178666149e-07
+  },
+  {
+   "text": " ",
+   "start": 13.46,
+   "end": 13.52,
+   "type": "spacing",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": "fragrance-free.",
+   "start": 13.52,
+   "end": 14.26,
+   "type": "word",
+   "logprob": -1.1713641136642157e-05
+  },
+  {
+   "text": " ",
+   "start": 14.26,
+   "end": 14.26,
+   "type": "spacing",
+   "logprob": -2.861018856492592e-06
+  },
+  {
+   "text": "It's",
+   "start": 14.74,
+   "end": 14.94,
+   "type": "word",
+   "logprob": -1.4603117488576345e-06
+  },
+  {
+   "text": " ",
+   "start": 14.94,
+   "end": 15.04,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "so",
+   "start": 15.04,
+   "end": 15.28,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 15.28,
+   "end": 15.34,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "easy,",
+   "start": 15.34,
+   "end": 15.68,
+   "type": "word",
+   "logprob": -0.00011085785224622669
+  },
+  {
+   "text": " ",
+   "start": 15.68,
+   "end": 15.86,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "you've",
+   "start": 15.86,
+   "end": 16.0,
+   "type": "word",
+   "logprob": -3.973642748178463e-08
+  },
+  {
+   "text": " ",
+   "start": 16.0,
+   "end": 16.04,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "got",
+   "start": 16.04,
+   "end": 16.16,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 16.16,
+   "end": 16.36,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "no",
+   "start": 16.36,
+   "end": 16.54,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.54,
+   "end": 16.58,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "excuses.",
+   "start": 16.58,
+   "end": 17.3,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 17.3,
+   "end": 17.3,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "Colder",
+   "start": 17.74,
+   "end": 18.0,
+   "type": "word",
+   "logprob": -4.3112910740698375e-05
+  },
+  {
+   "text": " ",
+   "start": 18.0,
+   "end": 18.08,
+   "type": "spacing",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "weather's",
+   "start": 18.08,
+   "end": 18.4,
+   "type": "word",
+   "logprob": -1.7748917950181446e-06
+  },
+  {
+   "text": " ",
+   "start": 18.4,
+   "end": 18.44,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "coming.",
+   "start": 18.44,
+   "end": 18.76,
+   "type": "word",
+   "logprob": -1.0217935856157315e-07
+  },
+  {
+   "text": " ",
+   "start": 18.76,
+   "end": 19.18,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "It's",
+   "start": 19.18,
+   "end": 19.28,
+   "type": "word",
+   "logprob": -1.1920927533992653e-07
+  },
+  {
+   "text": " ",
+   "start": 19.28,
+   "end": 19.32,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 19.32,
+   "end": 19.38,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 19.38,
+   "end": 19.42,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 19.42,
+   "end": 19.5,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 19.5,
+   "end": 19.54,
+   "type": "spacing",
+   "logprob": -2.253030106658116e-05
+  },
+  {
+   "text": "orange",
+   "start": 19.54,
+   "end": 19.76,
+   "type": "word",
+   "logprob": -2.253030106658116e-05
+  },
+  {
+   "text": " ",
+   "start": 19.76,
+   "end": 19.84,
+   "type": "spacing",
+   "logprob": -8.940656698541716e-06
+  },
+  {
+   "text": "cart",
+   "start": 19.84,
+   "end": 20.04,
+   "type": "word",
+   "logprob": -8.940656698541716e-06
+  }
+ ],
+ "transcription_id": "KhevW9SfCJ6yhm9aPt9H",
+ "audio_duration_secs": 20.24
+}
