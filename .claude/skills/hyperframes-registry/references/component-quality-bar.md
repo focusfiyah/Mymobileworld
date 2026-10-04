@@ -1,5 +1,19 @@
 # Component quality bar
 
+## Contents
+
+- The one rule
+- How an audit runs
+  - The mount harness
+- Fatal, cut the item
+- Fixable, keep and repair
+- Duplicates, which one survives
+- Never cut
+- Mechanical first pass
+- Visual pass, required for a verdict
+- Calibration
+- Checklist
+
 What a catalog component has to be for us to keep shipping it. Every criterion here comes from a
 defect found and verified on this branch, not from taste.
 

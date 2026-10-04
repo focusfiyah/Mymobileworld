@@ -1,5 +1,20 @@
 # Transforms and Performance
 
+## Contents
+
+- Transform Aliases
+- autoAlpha
+- clearProps
+- CSS Variables
+- Relative and Directional Values
+- SVG Specifics
+- Performance Rules
+  - Animate transforms, not layout properties
+  - will-change (sparingly)
+  - gsap.quickTo for frequent updates (preview-only)
+  - Stagger beats N tweens
+  - Cleanup
+
 ## Transform Aliases
 
 Prefer GSAP's transform aliases over raw `transform` strings:

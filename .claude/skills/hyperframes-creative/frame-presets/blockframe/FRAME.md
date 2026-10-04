@@ -101,6 +101,32 @@ components:
 
 # BlockFrame — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: decorations puncture · left)
+  - 2 · Feature Cards (catalog · move: 3-up bordered grid · blue ground)
+  - 3 · Stat Grid (data · move: tilted stat cards · green ground)
+  - 4 · Closing Plate (closer · move: inverted black · centered)
+  - 5 · Quote (quote · move: bordered quote frame · pink ground)
+  - 6 · Timeline (process · move: stepped bordered cards · offwhite)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 BlockFrame at frame scale is a **maximalist neobrutalist** system on five laws: every region has a

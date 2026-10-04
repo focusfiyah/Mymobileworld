@@ -102,6 +102,32 @@ components:
 
 # Cartesian — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: serif + compass ring · left)
+  - 2 · Agenda / Index (index · move: hairline list · left)
+  - 3 · Pull Quote (quote · move: centered statement · compass ring)
+  - 4 · Closing Plate (closer · move: centered ring · centered)
+  - 5 · Two-Column Editorial (content · move: asymmetric split · left)
+  - 6 · Stats / Timeline (data · move: hairline rail · left)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Cartesian at frame scale is a **quiet museum-catalog editorial system** — restraint through 1px

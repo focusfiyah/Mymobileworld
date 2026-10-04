@@ -1,5 +1,22 @@
 # GSAP Effects for HyperFrames
 
+## Contents
+
+- Typewriter
+  - Basic
+  - Blinking Cursor
+  - Backspacing
+  - Spacing With Static Text
+  - Word Rotation
+  - Appending Words
+  - Timing Guide
+- Audio Visualizer
+  - Extract Audio Data
+  - Loading (Synchronously)
+  - Driving the Timeline
+  - Smoothing
+  - Design Guide
+
 Drop-in animation patterns. Snippets show mechanism only, inside a standard scene clip (hyperframes-core); assume `tl` exists.
 
 - [Typewriter](#typewriter) — character-by-character reveal with optional cursor / backspace / word rotation

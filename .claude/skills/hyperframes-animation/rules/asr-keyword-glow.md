@@ -7,6 +7,15 @@ metadata:
 
 # ASR Keyword Glow
 
+## Contents
+
+- How It Works
+- Recipe
+- Variations
+- Values
+- Critical Constraints
+- See also
+
 Words in a phrase visually activate (glow blur + scale) when "spoken", following an attack-sustain-release envelope over per-word `{ start, end }` timestamps. In a real ASR pipeline the timings come from a word-level transcript (`hyperframes transcribe` — same shape); for promo video, hand-author them to control emphasis pacing. The envelope never falls to zero after a word — it decays to a rest level, leaving a breadcrumb of recent emphasis.
 
 ## How It Works

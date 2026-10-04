@@ -92,6 +92,32 @@ components:
 
 # Code editorial — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: oversized EB Garamond · cream)
+  - 2 · Statement (statement · move: single EB Garamond line · cream or navy)
+  - 3 · Code Surface (code · move: warm-navy code window · the PR-critical frame)
+  - 4 · Number / Impact (data · move: oversized figure · cream)
+  - 5 · Pull-quote (quote · move: EB Garamond italic · cream)
+  - 6 · Closing / CTA (closer · move: coral voltage · cream or navy)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Real Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Code editorial at frame scale is a **warm-editorial brand book come to life** — the register of a literary
