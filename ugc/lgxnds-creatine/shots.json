@@ -1,0 +1,113 @@
+{
+ "product": "LGXNDS Creatine Monohydrate, 100% pure micronized, unflavored, 150 g / 30 servings tub with scoop (Prime Sports shop)",
+ "client": "Grace",
+ "status": "Plan approved by Ralph 2026-10-04 ($2.07 Kie). Nano Banana Pro (Gemini 3 Pro Image) stills; Seedance 2.0 Mini clips.",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover_tight.mp3"
+ },
+ "format": {
+  "aspect_ratio": "9:16",
+  "resolution": "720p",
+  "fps": 24
+ },
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, VERY SHORT squared nails that end at the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people.",
+ "tub_block": "The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours.",
+ "powder_block": "The powder is a fine bright-white unflavored powder; the scoop is a small plain white plastic scoop.",
+ "scene_block": "Setting: a bright, clean home kitchen in the daytime: a white quartz counter, soft daylight from a window on the left, a blurred light-wood cabinet background, a black gym duffel bag at the far end of the counter. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. Nothing at any edge of the frame except the one hand.",
+ "video_suffix": "Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+ "shots": [
+  {
+   "id": "S1",
+   "beat": "hook",
+   "vo": "Girls, if your creatine always ends up gritty at the bottom of your bottle, look at this.",
+   "still": "Medium close-up on the white kitchen counter: the closed LGXNDS tub stands alone in the centre of the frame, label front-facing and square to the lens. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand enters from the top edge of the frame, fingers resting on top of the white lid only.",
+   "video": "Shot 1: the hand twists the white lid and lifts it straight up and off the tub, out of the top of the frame, showing fine white powder inside; the tub itself never moves or turns. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "face": false,
+   "hook_text": "the last sip shouldn't crunch"
+  },
+  {
+   "id": "S2",
+   "beat": "pain",
+   "vo": "You shake it, you sip it, and the last gulp is still sand.",
+   "still": "Close-up at the kitchen counter: the hand, entering from the right edge of the frame, holds a plain clear unbranded plastic water bottle tilted at an angle; the water is mostly drunk, and a thick layer of gritty undissolved white grains sits clumped at the bottom of the bottle. No tub, no labels, no other products.",
+   "video": "Shot 2: the hand tilts the clear bottle back and forth once; the gritty white grains slide slowly as a heavy sludge along the bottom and stay undissolved. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": false,
+   "powder": true,
+   "face": false
+  },
+  {
+   "id": "S3",
+   "beat": "solution",
+   "vo": "This one is LGXNDS. It's micronized, so it mixes right into your water.",
+   "still": "Close-up at the kitchen counter: a plain clear unbranded plastic water bottle full of clear water stands on the counter with its cap off; the hand, entering from the top right edge of the frame, holds a small white scoop of fine white powder just above the open mouth of the bottle. No tub, no labels, no other products.",
+   "video": "Shot 3: the hand tips the scoop and the fine white powder pours into the water, drifting down in a soft cloud; the hand then sets the scoop down out of frame and picks up the bottle by its body and swirls it gently; the cloud spreads evenly and the water turns uniformly smooth and slightly milky with no clumps and nothing settling at the bottom. Locked-off camera on a tripod.",
+   "dur": 5,
+   "tub": false,
+   "powder": true,
+   "face": false
+  },
+  {
+   "id": "S4",
+   "beat": "selling point",
+   "vo": "Every scoop is five grams of creatine, and there's a scoop right in the tub.",
+   "still": "Top-down close-up of the open LGXNDS tub on the kitchen counter, the white lid lying beside it: the tub is full of fine white powder with a small white scoop resting in it; the hand enters from the bottom edge of the frame, fingers on the scoop handle.",
+   "video": "Shot 4: the hand lifts the white scoop out of the tub heaped with white powder and slides it level along the inside rim of the tub; the tub stays still. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": true,
+   "powder": true,
+   "face": false
+  },
+  {
+   "id": "S5",
+   "beat": "how to use",
+   "vo": "No flavor, so it goes in your water or your shake.",
+   "still": "Close-up at the kitchen counter: a plain clear unbranded shaker bottle half full of a light-brown chocolate protein shake, lid off; the hand, entering from the top right edge of the frame, holds a small white scoop of fine white powder over the open shaker. No tub, no labels, no other products.",
+   "video": "Shot 5: the hand tips the scoop and the white powder falls into the chocolate shake and sinks in; the hand pulls the scoop away out of frame. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": false,
+   "powder": true,
+   "face": false
+  },
+  {
+   "id": "S6",
+   "beat": "label",
+   "vo": "The label says it supports strength, power and workout recovery.",
+   "still": "Close-up of the closed LGXNDS tub standing on the kitchen counter, filling most of the frame. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand rests flat on the counter in front of and to the right of the tub, entering from the right edge of the frame, below the label.",
+   "video": "Shot 6: the hand's index finger slides slowly along the counter in front of the tub's base, from right to left, staying below the label; the tub does not move or turn and the label stays sharp and unchanged. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "face": false
+  },
+  {
+   "id": "S7",
+   "beat": "sell-side confession",
+   "vo": "The only problem? It's so easy, you run out of excuses to skip a day.",
+   "still": "Medium close-up at the end of the kitchen counter: an open black gym duffel bag; the closed LGXNDS tub already sits upright inside the open bag, its label facing the lens square and unobstructed above the bag's edge; the hand enters from the top edge of the frame holding a rolled white towel.",
+   "video": "Shot 7: the hand lowers the rolled towel into the bag beside the tub, not touching the tub, and pulls away out of the top of the frame; the tub never moves or turns. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "face": false
+  },
+  {
+   "id": "S8",
+   "beat": "CTA",
+   "vo": "Grab the sixty servings, so you're not out in a month. It's in the orange cart.",
+   "still": "Medium close-up of the closed LGXNDS tub standing on the kitchen counter. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand, entering from the right edge of the frame, rests two fingertips on top of the white lid only.",
+   "video": "Shot 8: the hand taps the top of the lid twice with two fingertips and slides away out of frame to the right; the fingers stay on the lid and never cover the label; the tub does not move or turn. Locked-off camera on a tripod.",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "face": false
+  }
+ ],
+ "paste_back": "Tub shots (S1, S6, S7, S8): the real tub crop (refs/crop_tub.png) is pasted over the label on the first frame and on every clip frame where it drifts (free). Fingers never cross the label."
+}
