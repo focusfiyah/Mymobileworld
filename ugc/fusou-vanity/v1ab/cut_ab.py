@@ -96,7 +96,7 @@ def EDL2(v, face=False):
         taps = [w("adjustable") - 0.05, w("so") - 0.05]
     else:
         t_lights = L[2]
-        edl = [(0, BAD), (3.0, ("clip", "clips/V1S5.mp4", 0, {})), (L[1], ("clip", "clips/V1S4.mp4", 0, {})),
+        edl = [(0, BAD), (2.8, ("clip", "clips/V1S5.mp4", 0, {})), (L[1], ("clip", "clips/V1S4.mp4", 0, {})),
                (t_lights, lights_day(t_lights, w("adjustable"), w("brightness") - 0.1, w("so"))),
                (min(s4, t_lights + 5.0), ("clip", "clips/V1S5.mp4", 0.8, {})),
                (w4("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w4("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
