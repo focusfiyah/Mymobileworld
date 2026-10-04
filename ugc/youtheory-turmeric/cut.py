@@ -58,7 +58,7 @@ for s, (a, b) in zip(S, w):
 (tmp / "list.txt").write_text("".join(f"file '{s['id']}.mp4'\n" for s in S))
 classic_png(HOOK, 720, 1280).save(tmp / "hook.png")
 run(["-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"), "-i", VO, "-i", str(tmp / "hook.png"),
-     "-filter_complex", "[0:v][2:v]overlay=0:0:enable='between(t,0,2.6)'[v]", "-map", "[v]", "-map", "1:a",
+     "-map", "0:v", "-map", "1:a",
      "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
      "-shortest", "-movflags", "+faststart", OUT])
 print(OUT, {s["id"]: round(b - a, 2) for s, (a, b) in zip(S, w)}, "total", round(w[-1][1], 2))
