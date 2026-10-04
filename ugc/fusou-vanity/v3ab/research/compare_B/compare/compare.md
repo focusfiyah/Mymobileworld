@@ -8,8 +8,8 @@
 | duration_s | 6.7 | 32.9 |
 | words | 0 | 0 |
 | words_per_sec | None | None |
-| cuts | 0 | 9 |
-| cuts_per_10s | 0.0 | 2.7 |
+| cuts | 0 | 10 |
+| cuts_per_10s | 0.0 | 3.0 |
 | first_word_at_s | None | None |
 | spoken_first_3s |  |  |
 
