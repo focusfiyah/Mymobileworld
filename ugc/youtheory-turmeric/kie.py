@@ -128,7 +128,7 @@ def clips(ids):
 
 def clip(sid):
     s = SHOTS[sid]
-    first = upload(f"stills/{sid}.png")
+    first = upload(f"stills/{s.get('first', sid)}.png")
     suffix = J["video_suffix"].replace(" The product stays upright with its front facing the camera and does not rotate to its side.", "") if sid in NO_PROD else J["video_suffix"]
     prompt = f"{s['video']} {blocks(sid)} {suffix}"
     url = run_task({"model": "bytedance/seedance-2-mini", "input": {
