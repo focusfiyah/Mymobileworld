@@ -430,5 +430,93 @@
    ]
   },
   "costTime": 141
+ },
+ {
+  "t": "2026-10-04 18:37:50",
+  "submitted": "3bab577db91a84b8be4cc9b0d4b46c2b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, white quartz kitchen counter, soft window lig"
+ },
+ {
+  "t": "2026-10-04 18:41:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, white quartz kitchen counter, soft window light: one hand holds a single pouch upright toward the lens, front label facing the camera squarely, fingers gripping its sides; the flat wide teal tear-off band at the top is fully visible. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products. The last reference image shows the same kitchen, light and counter: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107886342-vl7fpuyvmd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107888402-jying8bnubj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138731795-ecmb3qk9uhm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138736088-ta6ctyk6h4.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "3bab577db91a84b8be4cc9b0d4b46c2b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/3bab577db91a84b8be4cc9b0d4b46c2b_0_1791139300.jpeg"
+   ]
+  },
+  "costTime": 230
+ },
+ {
+  "t": "2026-10-04 18:41:44",
+  "submitted": "a5e9e9dba714f636271dbf06fac533f2",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, white quartz kitchen counter, soft window lig"
+ },
+ {
+  "t": "2026-10-04 18:43:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, white quartz kitchen counter, soft window light: one hand holds a single pouch upright, front label facing the camera; the teal tear-off corner at the top has been torn open and a white paper straw stands upright in the opening, like a grown-up juice pouch. The torn-off teal strip lies on the counter. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products. The last reference image shows the same kitchen, light and counter: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107886342-vl7fpuyvmd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107888402-jying8bnubj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138731795-ecmb3qk9uhm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138736088-ta6ctyk6h4.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a5e9e9dba714f636271dbf06fac533f2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a5e9e9dba714f636271dbf06fac533f2_0_1791139384.jpeg"
+   ]
+  },
+  "costTime": 80
+ },
+ {
+  "t": "2026-10-04 18:43:07",
+  "submitted": "0f00e7136d139876e21955d69785cfba",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, white quartz kitchen counter, soft window lig"
+ },
+ {
+  "t": "2026-10-04 18:45:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, white quartz kitchen counter, soft window light: the open Youtheory 12-count box stands on the counter, front facing the camera squarely, pouches with flat teal tops standing inside; one hand enters from the top right frame edge and points down at the box with one finger. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid pouch in the product reference image: a flat, soft, white single-serve stick pouch with a wide flat teal band across the top edge (a tear-off top: NO screw cap, NO spout, NO lid, NO straw hole), sloped shoulders, a small 'youtheory' logo, a teal-and-blue bubble circle graphic, 'ashwagandha liquid' in teal serif letters, 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is NOT a box, NOT a carton, NOT a juice box. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. The box is exactly the Youtheory Ashwagandha Liquid 12-count retail box in the box reference image: a tall white box with a teal top band, the pouch picture printed on the front with 'ashwagandha liquid', 'blueberry flavor' and '12 - 1 fl oz (30 ml)' at the bottom. It keeps this exact design. Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products. The last reference image shows the same kitchen, light and counter: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107886342-vl7fpuyvmd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107888402-jying8bnubj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138731795-ecmb3qk9uhm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138733889-r5qx7v25r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791138736088-ta6ctyk6h4.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0f00e7136d139876e21955d69785cfba",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0f00e7136d139876e21955d69785cfba_0_1791139496.jpeg"
+   ]
+  },
+  "costTime": 109
  }
 ]
