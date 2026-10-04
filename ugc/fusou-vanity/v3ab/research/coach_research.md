@@ -13,3 +13,6 @@
 
 ## Kling P1 final (2026-10-04): `clips/P1_kling3.mp4`, 32 credits (752 -> 720). Kling total this job: 96 credits (816 -> 720).
 Prompt locks the hand ("only the CAMERA moves ... hand and wrist stay fixed at the left edge for the entire video"). QC: 2x zoom on the hand edge frames 0-95, fingertip frames 10-90: no halo, no forearm, no sweep, mirror stays lit, vanity details stable. Passes REMOVED.md.
+
+## Kling P2 (2026-10-04): `clips/P2_kling.mp4`, 32 credits (720 -> 688). Kling total this job: 128 credits (816 -> 688).
+QC (2x zoom, frames 0-95): hand small at the right edge, no halo, no forearm, real 3D dolly, vanity stable. PROBLEM: the camera drifted left and the hand slid OUT of frame after ~1.2 s (frames 40+ show no hand), the mirror cabinet also drifts off the right edge. Usable only as a ~1.2 s beat (trim 0-1.6 s). A redo should say "straight dolly-in, no sideways drift".
