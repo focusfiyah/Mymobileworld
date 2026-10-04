@@ -2,4 +2,4 @@
 
 Client: Grace. Route: ugc-product-ad hands-only (template ../horbaach-beet-root). VO: ElevenLabs Grace B bGrsdLmwBbYUgHRuMFOI, 287 chars. Script: scripts.md. Gate: GATE OK 2026-10-04.
 
-Status: DONE 2026-10-04, 5 cuts (V1 + variants V2-V5, 12.9-15.8s) in out/, sent to Ralph for review; in Drive folder 1TXYVB5k38LEONtH0ustY18XKHkvW4Djf (Grace Tiktok assets/<product> ads (2026-10-04)), sizes match. Rebuild: python3 cut.py [N]. Whole 4-product job: Kie $4.9 for 20 videos, ElevenLabs ~5,300 chars.
+Status: FINAL 2026-10-04 (redo on Ralph's notes): out/final/*.mp4 remixed free from existing clips (python3 remix.py, remix.json), no text, no cards, each video its own order/framing/grade; in Drive <product> ads (2026-10-04)/FINAL - post these + captions doc; old cuts moved to 'Old versions - do not use'. Kie $4.90 for the whole 4-product job.
