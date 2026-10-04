@@ -118,7 +118,7 @@ def stills(ids):
 def clips(ids):
     from concurrent.futures import ThreadPoolExecutor
     for sid in ids:  # upload first frames up front (cached), then render all clips in parallel
-        upload(f"stills/{sid}.png")
+        upload(SHOTS[sid].get("first_frame", f"stills/{sid}.png"))
     with ThreadPoolExecutor(len(ids)) as ex:
         list(ex.map(clip, ids))
     sheet("clips", ".mp4")
@@ -126,7 +126,7 @@ def clips(ids):
 
 def clip(sid):
     s = SHOTS[sid]
-    first = upload(f"stills/{sid}.png")
+    first = upload(s.get("first_frame", f"stills/{sid}.png"))
     prompt = f"{s['video']} {blocks(sid)} {J['video_suffix']}"
     url = run_task({"model": "bytedance/seedance-2-mini", "input": {
         "prompt": prompt, "first_frame_url": first, "generate_audio": False,

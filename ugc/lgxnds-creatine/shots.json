@@ -1,7 +1,7 @@
 {
  "product": "LGXNDS Creatine Monohydrate, 100% pure micronized, unflavored, 150 g / 30 servings tub with scoop (Prime Sports shop)",
  "client": "Grace",
- "status": "Plan approved by Ralph 2026-10-04 ($2.07 Kie). Nano Banana Pro (Gemini 3 Pro Image) stills; Seedance 2.0 Mini clips.",
+ "status": "Plan approved 2026-10-04 ($2.07); S1 redo approved (+$0.09, Ralph: 'Yes and make sure you match the scenes with the script'). Scenes re-mapped line by line, 9 clips.",
  "voice": {
   "name": "Grace B voice",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
@@ -23,32 +23,45 @@
    "id": "S1",
    "beat": "hook",
    "vo": "Girls, if your creatine always ends up gritty at the bottom of your bottle, look at this.",
-   "still": "Medium close-up on the white kitchen counter: the closed LGXNDS tub stands alone in the centre of the frame, label front-facing and square to the lens. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand enters from the top edge of the frame, fingers resting on top of the white lid only.",
-   "video": "Shot 1: the hand twists the white lid and lifts it straight up and off the tub, out of the top of the frame, showing fine white powder inside; the tub itself never moves or turns. Locked-off camera on a tripod.",
-   "dur": 4,
-   "tub": true,
-   "powder": false,
+   "still": "Close-up at the kitchen counter: the hand, entering from the right edge of the frame, holds a plain clear unbranded plastic water bottle tilted at an angle; the water is mostly drunk, and a thick layer of gritty undissolved white grains sits clumped at the bottom of the bottle. No tub, no labels, no other products.",
+   "video": "Shot 1: the hand slowly tilts the clear bottle toward the lens so the thick gritty white sludge at the bottom slides along the bottom and stays undissolved; the grit stays visible the whole time. Locked-off camera on a tripod.",
+   "dur": 5,
+   "tub": false,
+   "powder": true,
    "face": false,
-   "hook_text": "the last sip shouldn't crunch"
+   "hook_text": "the last sip shouldn't crunch",
+   "first_frame": "stills/S2.png"
   },
   {
    "id": "S2",
    "beat": "pain",
    "vo": "You shake it, you sip it, and the last gulp is still sand.",
    "still": "Close-up at the kitchen counter: the hand, entering from the right edge of the frame, holds a plain clear unbranded plastic water bottle tilted at an angle; the water is mostly drunk, and a thick layer of gritty undissolved white grains sits clumped at the bottom of the bottle. No tub, no labels, no other products.",
-   "video": "Shot 2: the hand tilts the clear bottle back and forth once; the gritty white grains slide slowly as a heavy sludge along the bottom and stay undissolved. Locked-off camera on a tripod.",
+   "video": "Shot 2: the hand shakes the clear bottle hard up and down twice, then holds it still; the white grit swirls and immediately sinks back into a gritty layer at the bottom. Locked-off camera on a tripod.",
    "dur": 4,
    "tub": false,
    "powder": true,
-   "face": false
+   "face": false,
+   "first_frame": "stills/S2.png"
+  },
+  {
+   "id": "S3a",
+   "beat": "solution (reveal)",
+   "vo": "This one is LGXNDS.",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "face": false,
+   "still": "Medium close-up on the white kitchen counter: the closed LGXNDS tub stands in the centre of the frame, label front-facing and square to the lens, with a plain clear unbranded water bottle full of water standing just behind it to the right. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand enters from the top edge of the frame, fingers resting on top of the white lid only.",
+   "video": "Shot 3a: the hand twists the white lid and lifts it straight up and off the tub and out of the top of the frame, showing fine white powder inside; the tub itself never moves or turns. Locked-off camera on a tripod."
   },
   {
    "id": "S3",
    "beat": "solution",
-   "vo": "This one is LGXNDS. It's micronized, so it mixes right into your water.",
+   "vo": "It's micronized, so it mixes right into your water.",
    "still": "Close-up at the kitchen counter: a plain clear unbranded plastic water bottle full of clear water stands on the counter with its cap off; the hand, entering from the top right edge of the frame, holds a small white scoop of fine white powder just above the open mouth of the bottle. No tub, no labels, no other products.",
    "video": "Shot 3: the hand tips the scoop and the fine white powder pours into the water, drifting down in a soft cloud; the hand then sets the scoop down out of frame and picks up the bottle by its body and swirls it gently; the cloud spreads evenly and the water turns uniformly smooth and slightly milky with no clumps and nothing settling at the bottom. Locked-off camera on a tripod.",
-   "dur": 5,
+   "dur": 4,
    "tub": false,
    "powder": true,
    "face": false
@@ -59,7 +72,7 @@
    "vo": "Every scoop is five grams of creatine, and there's a scoop right in the tub.",
    "still": "Top-down close-up of the open LGXNDS tub on the kitchen counter, the white lid lying beside it: the tub is full of fine white powder with a small white scoop resting in it; the hand enters from the bottom edge of the frame, fingers on the scoop handle.",
    "video": "Shot 4: the hand lifts the white scoop out of the tub heaped with white powder and slides it level along the inside rim of the tub; the tub stays still. Locked-off camera on a tripod.",
-   "dur": 4,
+   "dur": 5,
    "tub": true,
    "powder": true,
    "face": false
@@ -103,7 +116,7 @@
    "vo": "Grab the sixty servings, so you're not out in a month. It's in the orange cart.",
    "still": "Medium close-up of the closed LGXNDS tub standing on the kitchen counter. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand, entering from the right edge of the frame, rests two fingertips on top of the white lid only.",
    "video": "Shot 8: the hand taps the top of the lid twice with two fingertips and slides away out of frame to the right; the fingers stay on the lid and never cover the label; the tub does not move or turn. Locked-off camera on a tripod.",
-   "dur": 4,
+   "dur": 5,
    "tub": true,
    "powder": false,
    "face": false

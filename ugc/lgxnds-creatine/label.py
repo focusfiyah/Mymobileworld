@@ -11,10 +11,10 @@ REAL = cv2.imread("refs/crop_tub.png")
 BAND = np.zeros(REAL.shape[:2], np.uint8); cv2.rectangle(BAND, (22, 158), (678, 598), 255, -1)
 _g = cv2.cvtColor(REAL, cv2.COLOR_BGR2HSV)
 INK = cv2.dilate((((_g[..., 2] < 200) | (_g[..., 1] > 50)) & (BAND > 0)).astype(np.uint8) * 255, np.ones((11, 11), np.uint8))
-CORE = np.zeros(REAL.shape[:2], np.uint8); cv2.rectangle(CORE, (188, 196), (596, 566), 255, -1)
+CORE = np.zeros(REAL.shape[:2], np.uint8); cv2.rectangle(CORE, (188, 196), (596, 588), 255, -1)
 _g = cv2.cvtColor(REAL, cv2.COLOR_BGR2HSV)  # right of x=596 only the print itself (the AI tub ends sooner than the real one)
 _ink = cv2.dilate((((_g[..., 2] < 150) | (_g[..., 1] > 60))).astype(np.uint8) * 255, np.ones((7, 7), np.uint8))
-_ink[:, :596] = 0; _ink[:196] = 0; _ink[566:] = 0; _ink[:, 672:] = 0
+_ink[:, :596] = 0; _ink[:196] = 0; _ink[588:] = 0; _ink[:, 672:] = 0
 CORE = np.maximum(CORE, _ink)  # printed block right of the
 # stripes/wordmark: the homography fits it well; the AI's stripes + vertical LGXNDS stay (they render right, the cylinder edges don't fit)
 sift = cv2.SIFT_create(6000)
