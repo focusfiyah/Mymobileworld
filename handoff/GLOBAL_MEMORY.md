@@ -40,6 +40,7 @@ Paste the block below into any of:
 - Lights features (Grace 2026-10-04, replaces the dark-room idea): do NOT darken the room; show the light colours in daylight.
 - Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
   real-photo room, a hand pulling a drawer or a bag. Ken Burns zooms on photos and freeze frames look "like pictures": avoid them.
+- (Ralph 2026-10-04) No on-screen text (hook text, captions) unless I ask; no product overlay cards/pop-ups; every video must look different (never the same footage with a new VO, TikTok flags it): different shots, order, framing, light/grade, background.
 - The hand does NOT need to be in every shot (Ralph 2026-10-04): hand-free shots (product alone, setting, props) are fine where they fit;
   they still need real motion (camera move or a product clip) and their prompts leave the hand text out.
   Study the example ad's motion before building. No hand sweeping across the product, no picture of the shipping boxes.

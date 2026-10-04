@@ -1,0 +1,91 @@
+{
+ "pool": {
+  "A1": [
+   "S1",
+   0,
+   4
+  ],
+  "A3": [
+   "S3",
+   0,
+   6
+  ],
+  "A3b": [
+   "S3",
+   2.5,
+   6
+  ],
+  "R1": [
+   "S3_v1_rotates",
+   3.6,
+   6.0
+  ],
+  "R0": [
+   "S3_v1_rotates",
+   0,
+   1.1
+  ],
+  "A5": [
+   "S5",
+   0,
+   4
+  ]
+ },
+ "videos": [
+  {
+   "name": "Ashwagandha 1",
+   "vo": 1,
+   "order": [
+    "A1",
+    "A3",
+    "R1",
+    "R0"
+   ],
+   "end": "A5",
+   "grade": "natural",
+   "zoom": 1.0,
+   "anchor": 0.5
+  },
+  {
+   "name": "Ashwagandha 2",
+   "vo": 2,
+   "order": [
+    "A3",
+    "R0",
+    "A1",
+    "R1"
+   ],
+   "end": "A5",
+   "grade": "warm",
+   "zoom": 1.15,
+   "anchor": 0.3
+  },
+  {
+   "name": "Ashwagandha 3",
+   "vo": 3,
+   "order": [
+    "R1",
+    "A1",
+    "A3"
+   ],
+   "end": "A5",
+   "grade": "cool",
+   "zoom": 1.25,
+   "anchor": 0.5
+  },
+  {
+   "name": "Ashwagandha 4",
+   "vo": 4,
+   "order": [
+    "A3b",
+    "A1",
+    "R1",
+    "R0"
+   ],
+   "end": "A5",
+   "grade": "moody",
+   "zoom": 1.1,
+   "anchor": 0.55
+  }
+ ]
+}
