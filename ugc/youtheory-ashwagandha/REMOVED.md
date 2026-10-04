@@ -8,3 +8,4 @@
 - 2026-10-04 Grace: the screw-cap/spout pouch (real pouch has a flat teal tear-off top) and any frame where the pouch turns into a juice box/carton with a lid.
 - 2026-10-04 Grace: 'the label says' in scripts.
 - 2026-10-04 Ralph: dark/moody grades.
+- 2026-10-04 Ralph: yellow/golden grade (now clean neutral).
