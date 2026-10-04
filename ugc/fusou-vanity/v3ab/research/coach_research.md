@@ -7,3 +7,6 @@
 
 ## Hand size / pointing research (2026-10-04, Ralph rejected the first pointing still)
 4 furniture videos checked frame by frame (`research/pointing_examples.jpg`; `research/pointing/`): @aoxun.ultra 474k (small hand points at the TV stand base from the right edge), @lulumamiii 577k (hand reaches in from the edge, small), @kayla.ttsfinds 418k (hand only opens a drawer, product fills the frame), @cozygirlfindss 128k (no hand, slow pushes). The hand is always small, at a frame edge, the furniture stays the hero.
+
+## Kling test (2026-10-04, Ralph's account via MCP, `kling-video-v3_0_turbo`, 4 s, 720p, from stills/P1_small.png)
+32 credits (816 -> 784). `clips/P1_kling.mp4`: real 3D parallax dolly-in + small hand at the left edge pointing at the mirror, no forearm, vanity details stable. Prompt: POV handheld, slight dolly-in with parallax, hand small at the left edge, nothing else changes.
