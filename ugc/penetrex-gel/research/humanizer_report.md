@@ -10,3 +10,7 @@ Found and fixed:
 - Confession lines are Grace's own brag-style ('no excuses'), not marketing copy.
 
 Result: no remaining tells.
+
+
+## Variants V2-V5 (2026-10-04)
+Same pass on all four variant scripts: no dashes, no not-X-but-Y, no 'game changer/obsessed/order now', contractions kept, short spoken sentences. Personal-use lines avoided ('my' only in on-screen identity call-outs, Grace addressing her followers). No result claims, label wording only.
