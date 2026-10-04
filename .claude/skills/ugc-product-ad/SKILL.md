@@ -462,6 +462,23 @@ Traps, each paid for once:
 - **Label text garbles at small sizes**; the logo and colour panel read. Use the real packshot or a sharp close-up still
   for label moments.
 
+## Lessons from the GTT KN95 mask ad (Grace, 2026-10-03: 10 shots, $4.38 vs $2.75 first quote)
+Match every shot to the exact words it sits on (one clip per phrase, windows from the word timings). Quote redos before paying.
+- **Hands grip.** Any item a hand touches is pinched by its edge, fingers curled, never a flat palm (a rug stuck to the palm, masks
+  under a palm and a box under a flat hand all got rejected). Write "pinches X between thumb and finger by its top edge, NOT lying
+  flat" in the still AND the clip prompt; the clip must show the hand holding the item through the whole move.
+- **Product drift on simple products too.** With the listing's box-and-product picture as the ref, Nano Banana Pro drew a generic
+  flat-fold mask and the wrong box colour (the white-mask box is blue). Fix: a tight crop of the real item alone as the ref
+  (`refs/ref_mask_only.png`) + exact shape/colour text with "NOT ..." clauses; drop the box from shots that do not need it.
+- **Wrong-way motion is a free fix:** use the half of the clip that moves the right way, or reverse the wrong half. Min clip is 4s:
+  for 1-1.5s windows use the first ~1.5s or an offset where the action happens; fill long windows with a push-in hold on a clean frame.
+- **A face shot of AI Grace** (from her photos) changed her hair colour and drew the wrong mask: dropped. Build a proper reference
+  sheet first (`grace/ref/grace_reference_sheet.png`). A mask over the mouth means no lip sync is needed.
+- **Script:** plain words, no "the box says", CTA that sells more units ("Grab a couple boxes, so there's always one close"), never
+  "plenty to share". Health-adjacent products: the listing's own pitch only (dust/outdoor), no illness/N95/FDA/layer-count lines.
+- **Pace of a job:** ~25 review messages on this ad. Ask Ralph's four questions (angle, product facts conflicts, image model, hands)
+  and show the matched shot list in the FIRST plan message so edits happen before spend.
+
 ## Where the tools live
 
 Everything below runs through **OpenMontage at `C:\dev\OpenMontage`**. Assets

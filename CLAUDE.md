@@ -59,7 +59,7 @@ not in a new file.
   or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
   hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
-  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py); the exact-product route's (real photo + paste-back, complex products) is `ugc/fusou-vanity/`. Skill zip re-made 2026-10-03 (script gate + exact-product route + its scripts).
+  route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py); the exact-product route's (real photo + paste-back, complex products) is `ugc/fusou-vanity/`. Skill zip re-made 2026-10-03 (script gate + exact-product route + GTT KN95 lessons: hands grip, real-item crop refs, wrong-way motion fix).
 - **Remembered everywhere (Ralph 2026-10-03):** `handoff/CLAUDE_PREFERENCES.txt` (claude.ai profile preferences, every chat/project/Cowork), `handoff/MEMORY_SHORT.txt` (claude.ai memory, max 2,000 chars) and `handoff/GLOBAL_MEMORY.md` (full version for ~/.claude/CLAUDE.md; same files in Dayone-ai). Update all three when a standing rule changes.
 - **Delivering memory updates (Ralph, 2026-10-03, he's on his phone):** when a standing rule changes, update `handoff/REMEMBER_ME.txt` (ONE combined text, starts "Remember all of this about me and how I work…", merges the memory + preferences content, de-duplicated) plus the other three handoff files, then SendUserFile `REMEMBER_ME_paste.txt` (full text, nothing to edit) and tell him to paste it into a new claude.ai chat. Never send fragments, diffs or "replace this line" instructions.
 - **Videos to Google Drive:** the Google Drive connector can't upload big files (content goes through the chat). Host the
@@ -87,6 +87,8 @@ not in a new file.
 
 - **FUSOU 2-in-1 Vanity Desk (Grace), 2026-10-02/03:** 6 hands-only videos (Grace's hands, voice = ElevenLabs Grace B, real listing photo edited + paste-back
   so the vanity never drifts). All 6 APPROVED, in Drive (Grace Tiktok assets/FUSOU folder) with the final scripts doc; $4.28 Kie vs $4.54 quote. 2026-10-03: V2 REDONE on Grace's own script (verbatim, gate readability override for V2 only, Ralph) as a motion-first cut, r2 APPROVED and in Drive (`FUSOU Video 2 - Grace script (motion cut r2).mp4`); +$0.918 Kie. Drive scripts doc (id 1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs) updated with Grace's V2 on 2026-10-03. README Status line.
+
+- **GTT Black KN95 50-pack (Grace), 2026-10-03:** hands-only AI ad, 31s, 10 shots matched to the VO, `ugc/gtt-kn95/out/gtt_kn95.mp4` APPROVED; in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)); $4.375 Kie vs $2.75 first quote (redos, each asked). README Status line. Grace reference sheet: `grace/ref/`.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc

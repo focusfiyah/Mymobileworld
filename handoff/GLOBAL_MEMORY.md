@@ -58,3 +58,16 @@ Paste the block below into any of:
 
 ## Memory updates (2026-10-03)
 - I'm usually on my phone. When a standing rule changes, update the memory files and send me ONE complete, combined "remember" text as a file (handoff/REMEMBER_ME.txt) that I paste into a new claude.ai chat. Never send fragments, diffs or "replace this line" instructions.
+
+## Ad lessons from the GTT KN95 job (Grace, 2026-10-03: $4.38 vs a $2.75 first quote; all redos were asked first)
+- Hands must GRIP any item they touch (pinch by the edge, fingers curled). A flat hand on an item reads as unnatural (rug stuck to
+  the palm, masks under a palm). Say it in the still prompt AND the clip prompt: "pinches ... by its top edge, NOT lying flat".
+- The image model draws a generic version of a product. Give it a tight crop of the REAL item (not the box-and-product packshot)
+  plus exact shape and colour words ("fish-shape mask, NOT a flat-fold"; box "silver-grey, not blue/white/black/beige").
+- A clip can move an object the wrong way: use the half that moves right, or reverse the wrong half (free). Seedance min clip is
+  4s; use the first ~1.5s or the part where the action happens.
+- The CTA must make buyers want MORE units. Never "plenty to share" or "one is enough". Close "It's in the orange cart."
+- Plain words for the audience (not "filtration efficiency"); Grace does not say "the box says"; no face shots of AI Grace until
+  her reference sheet (grace/ref/) is built properly. Match every shot to the exact words it sits on.
+- Health-adjacent products (masks): angle on the listing's own pitch (dust, outdoor); no illness, N95, FDA or layer-count lines.
+- Ask before EVERY redo with the exact cost; show a cut/frames I can judge; batch my notes; keep a Drive folder per ad.
