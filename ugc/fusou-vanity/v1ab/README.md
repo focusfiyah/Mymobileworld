@@ -17,3 +17,10 @@ Ralph: face visible with makeup going on in bad lighting; use his 3 Grace photos
 
 ## v5 (Ralph 2026-10-04: no 3-boxes card), sent for review
 `out/fusou_v5A.mp4` (24.9 s), `out/fusou_v5B.mp4` (27.3 s) = v4 without the 3-boxes card (A) and its tick sound. Checked against `REMOVED.md` before sending (dark room, tap shot, hand sweep, 3-boxes card, tight face, blue-shirt ref): all clear. `python3 v1ab/cut_ab.py A5 B5`. Drive still has v1; v5 goes up after approval. Kie total on the new opening shot: $0.508.
+
+## Drive layout (organized 2026-10-04, Ralph: "I need A done")
+Grace Tiktok assets / FUSOU (1LDxaLUgsy_QR0Nq_9B7vokF_JqaYy1hx) now has 3 subfolders, nothing deleted, sizes checked:
+- **Final videos** `1wKbdhCfQZgopOdRGXfcnPw-NQi5iHb_w`: Videos 1-6 (Video 2 renamed "Drawer by Drawer", was "Grace script (motion cut r2)") + `FUSOU Video 1A - Lights On (Script 1) FINAL.mp4` (1cz_477QXARcQ1hDi1szs-DcfPwATwApp) + `1B ... (Script 2) FINAL.mp4` (1CWsMqHmF_L2RMuKmkh2cTJBlSjODdJqj). The original `Video 1 - Lights On.mp4` stays there too.
+- **Scripts** `1UiltfBgEi7IWMwt96RQ6RRFxdDBHQ_kQ`: the 6-scripts doc (1kKPDR1Cv8RFQPYBhTnEQ0dLt2V8EK_-lZ5up3IPuwCs). Grace's two V1 scripts (A, B) are NOT in the doc yet.
+- **Older versions** `1WgpKqHP8x52NEPzK2udbdHJwqRLh4x_z`: the first V1 A/B cuts ("- older").
+Moves: Composio GOOGLEDRIVE_UPDATE_FILE_PUT (name + add_parents/remove_parents), account googledrive_lin-ernst.
