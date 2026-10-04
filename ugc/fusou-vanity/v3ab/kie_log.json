@@ -26,5 +26,31 @@
    ]
   },
   "costTime": 77
+ },
+ {
+  "t": "2026-10-04 07:01:54",
+  "submitted": "02a9834ad0854b20c678d8f726c9e3db",
+  "prompt": "First-person POV phone shot of a white vanity desk with mirrors and drawers against a wall, exactly as in the first fram"
+ },
+ {
+  "t": "2026-10-04 07:04:00",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "First-person POV phone shot of a white vanity desk with mirrors and drawers against a wall, exactly as in the first frame, same framing, camera does not move or zoom. A woman's small hand and wrist enter from the far left edge of the frame and stay small, at the left edge, with no forearm or sleeve visible. Her index finger is extended and points toward the lit makeup mirror in the middle of the vanity, the other fingers loosely curled. The hand makes one small slow gesture: the fingertip rises a little and gently points toward the mirror, holds, then settles. The hand stays inside the left side of the frame, about the same small size, never crosses the vanity, never touches it. The vanity, drawers, shelves, products, mirrors, plant, floor and light stay exactly the same and completely still, nothing else moves. Her nails stay glossy dusty mauve-pink with a thin white French tip. Real phone-footage look, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791097312646-wx4pgv0rhof.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "02a9834ad0854b20c678d8f726c9e3db",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791097433505-q6zgi1wz68p.mp4"
+   ]
+  },
+  "costTime": 122
  }
 ]
