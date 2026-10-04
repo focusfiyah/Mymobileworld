@@ -404,5 +404,81 @@
    ]
   },
   "costTime": 139
+ },
+ {
+  "t": "2026-10-04 09:33:58",
+  "submitted": "712e96e67d0f9e469d391c6ac7210153",
+  "prompt": "Shot 1: the hand holds the cap and pipette steady above the open bottle; one golden oil drop slowly swells at the glass "
+ },
+ {
+  "t": "2026-10-04 09:33:58",
+  "submitted": "4b47ca8bf5b194a7528d499aa81fe678",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a glass shower door in a bright bathroom, f"
+ },
+ {
+  "t": "2026-10-04 09:34:30",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a glass shower door in a bright bathroom, fogged with steam and covered in water droplets; through it a white subway-tile wall and a shelf with a plain pink disposable razor with no printed text. No hands, no people, no reflection of a person, no other objects.  Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4b47ca8bf5b194a7528d499aa81fe678",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4b47ca8bf5b194a7528d499aa81fe678_0_1791106464.jpeg"
+   ]
+  },
+  "costTime": 26
+ },
+ {
+  "t": "2026-10-04 09:35:39",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the cap and pipette steady above the open bottle; one golden oil drop slowly swells at the glass tip and the hand keeps the pipette still. The cap is never put back and never touches the bottle. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105580925-a9rb0fqx1zm.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "712e96e67d0f9e469d391c6ac7210153",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106533007-ja1r6iq97.mp4"
+   ]
+  },
+  "costTime": 99
+ },
+ {
+  "t": "2026-10-04 09:37:54",
+  "submitted": "e87be5940632125f02d81ea8013efd8c",
+  "prompt": "Shot 1: steam slowly drifts and a few water droplets slide down the fogged glass; the razor on the shelf stays completel"
+ },
+ {
+  "t": "2026-10-04 09:39:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: steam slowly drifts and a few water droplets slide down the fogged glass; the razor on the shelf stays completely still.  Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791106672599-pqhclqwr91.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e87be5940632125f02d81ea8013efd8c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106791753-c17hxswocrt.mp4"
+   ]
+  },
+  "costTime": 124
  }
 ]

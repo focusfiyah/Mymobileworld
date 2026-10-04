@@ -320,5 +320,107 @@
    ]
   },
   "costTime": 285
+ },
+ {
+  "t": "2026-10-04 09:33:58",
+  "submitted": "7522675cc87221a636c19236a0fae2c3",
+  "prompt": "Shot 1: the two jars stay completely still on the counter the whole time and never move or change size; the hand resting"
+ },
+ {
+  "t": "2026-10-04 09:33:58",
+  "submitted": "ea14b28b77f28582dea9ae86be2226c0",
+  "prompt": "Shot 1: the hand holds the jar steady front-on with only tiny natural hand movement; the jar does NOT tilt, turn or rota"
+ },
+ {
+  "t": "2026-10-04 09:33:58",
+  "submitted": "8847c4004d1d43ff9ce1249ecf313ee7",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of the edge of a white bathtub in a bright bat"
+ },
+ {
+  "t": "2026-10-04 09:34:23",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of the edge of a white bathtub in a bright bathroom: a plain pink disposable razor with no printed text lies on the tub edge next to a folded white towel, white subway tile behind, a window at left, visible steam rising and drifting past the tile. No hands, no people, no reflection of a person, no other objects.  Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8847c4004d1d43ff9ce1249ecf313ee7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/8847c4004d1d43ff9ce1249ecf313ee7_0_1791106462.jpeg"
+   ]
+  },
+  "costTime": 23
+ },
+ {
+  "t": "2026-10-04 09:35:33",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the two jars stay completely still on the counter the whole time and never move or change size; the hand resting at the right edge lifts its index finger, points down toward the jars and holds still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105507531-olh3q8mt6kb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "7522675cc87221a636c19236a0fae2c3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106523221-qicdkh528lc.mp4"
+   ]
+  },
+  "costTime": 90
+ },
+ {
+  "t": "2026-10-04 09:36:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the jar steady front-on with only tiny natural hand movement; the jar does NOT tilt, turn or rotate, its yellow lid stays on top and its label stays facing the lens the whole time. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105505777-cpkzay7mhcm.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "ea14b28b77f28582dea9ae86be2226c0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106594165-ved10z6sv5m.mp4"
+   ]
+  },
+  "costTime": 162
+ },
+ {
+  "t": "2026-10-04 09:37:54",
+  "submitted": "a5e1db6352948fc610d37c8e34805c44",
+  "prompt": "Shot 1: steam slowly rises and drifts across the frame; the razor and towel stay completely still; a few water droplets "
+ },
+ {
+  "t": "2026-10-04 09:40:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: steam slowly rises and drifts across the frame; the razor and towel stay completely still; a few water droplets slowly slide down the tile.  Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791106672596-qu459vfnyxe.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a5e1db6352948fc610d37c8e34805c44",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106799804-jsjxmh2j91i.mp4"
+   ]
+  },
+  "costTime": 127
  }
 ]
