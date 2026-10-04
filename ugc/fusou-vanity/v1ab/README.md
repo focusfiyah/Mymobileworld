@@ -14,3 +14,6 @@ Ralph: face visible with makeup going on in bad lighting; use his 3 Grace photos
 
 ## v4 (Ralph 2026-10-04: face farther + relaxed, no hand sweep), sent for review
 `out/fusou_v4A.mp4` (24.9 s), `out/fusou_v4B.mp4` (27.3 s). Opening = `clips/OPEN_FACE2.mp4` (still `stills/OPEN_FACE2.png`): medium shot, whole head + shoulders, relaxed face, mouth closed, brush on cheek, full frame, no crop, no lip sync (Ralph OK; VO plays over it), light bad-light grade; vanity on screen at 2.73 s (A) / 2.8 s (B). The V1S4 hand sweep is OUT (Ralph: removed before, looks weird): slow free push-in toward the full vanity (real photo, kb zoom 1.12) in its place. Room never dark. `python3 v1ab/cut_ab.py A4 B4`. Gate cut stage OK. Kie spent on the opening shot in total: $0.508 (2 stills $0.18 + 2 clips $0.328); first face clip/still (tight) discarded. Balance 1,187 credits. Drive still has v1 only; v4 goes up after approval.
+
+## v5 (Ralph 2026-10-04: no 3-boxes card), sent for review
+`out/fusou_v5A.mp4` (24.9 s), `out/fusou_v5B.mp4` (27.3 s) = v4 without the 3-boxes card (A) and its tick sound. Checked against `REMOVED.md` before sending (dark room, tap shot, hand sweep, 3-boxes card, tight face, blue-shirt ref): all clear. `python3 v1ab/cut_ab.py A5 B5`. Drive still has v1; v5 goes up after approval. Kie total on the new opening shot: $0.508.
