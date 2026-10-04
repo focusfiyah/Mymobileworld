@@ -50,7 +50,8 @@ not in a new file.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
    Grace structure + `humanizer` + readability + on-screen hook text, then coach `compare` on the cut. Full list:
    `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
-6. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+6. **Removed items stay removed (Ralph, 2026-10-04):** keep `REMOVED.md` in every job; before a cut goes to Ralph, list every element in it and check against that list and the last round's notes. Details: `grace/PLAYBOOK.md` §6.
+7. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
