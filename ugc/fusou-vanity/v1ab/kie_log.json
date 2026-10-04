@@ -33,5 +33,26 @@
   "t": "2026-10-04 02:47:32",
   "submitted": "2a06cb4c98f806f7415b5ff067363040",
   "prompt": "Locked-off phone camera on a stand, close-up of a woman's face doing her makeup at a bathroom mirror, exactly as in the "
+ },
+ {
+  "t": "2026-10-04 02:50:03",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off phone camera on a stand, close-up of a woman's face doing her makeup at a bathroom mirror, exactly as in the first frame. She sweeps the blush brush slowly and gently along her cheekbone, down and back up once, then lifts it a little, while her eyes stay on the mirror. Her head stays almost still, only tiny natural movements. Her mouth stays closed and relaxed, she does not talk, her eyebrows stay relaxed and level, no forehead wrinkles. The dull flat yellow-green bathroom light stays exactly the same, no lighting change, no zoom, no camera move. The hand and nails stay the same. Real phone-footage look, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791082050069-h8pxfc82x2a.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "2a06cb4c98f806f7415b5ff067363040",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791082200617-46jmuzszysq.mp4"
+   ]
+  },
+  "costTime": 149
  }
 ]

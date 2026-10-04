@@ -78,13 +78,14 @@ def lights_day(t0, t_warm, t_dip0, t_yellow):   # Grace: no dark room. Same LED 
     return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [-0.2, -0.1], "dark": 1.0, "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}})
 
 
-def EDL2(v):
+def EDL2(v, face=False):
     """Grace's notes 2026-10-04 (both videos): ~3 s of Grace making up in bad lighting, vanity on screen by 3 s; room never dark; the tap/light-on shot
     is replaced by hands walking toward the vanity in full view (V1S4)."""
     w = lambda x, k=1: at(v, x, k); end = cut.dur_of(f"{V}/vo/v{v}_final.wav") + cut.TAIL
     L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s4 = L[3]
     w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
     BAD = ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": 0, "mode": "bad"})
+    if face: BAD = ("clip", "clips/OPEN_FACE.mp4", 0.2, {"crop": "531:945:70:40"})   # Grace's face, bad light, cropped above the lips (no lip sync needed)
     if v == "A":
         t_hand = 5.2; t_lights = L[3] - 5.0
         edl = [(0, BAD), (2.73, ("clip", "clips/V1S5.mp4", 0, {})), (t_hand, ("clip", "clips/V1S4.mp4", 0, {})),
@@ -159,7 +160,7 @@ def zoomout(prev_file, file, dur=0.7):
 
 
 def build(v, ver=1):
-    edl, taps, end = (EDL2 if ver == 2 else EDL)(v); tag = f"ab{v}{ver}"
+    edl, taps, end = EDL2(v, face=(ver == 3)) if ver >= 2 else EDL(v); tag = f"ab{v}{ver}"
     starts = [s for s, _ in edl] + [end]
     assert all(b > a for a, b in zip(starts, starts[1:])), f"{v}: starts not increasing {starts}"
     files = [render(i, sh, starts[i + 1] - starts[i], tag) for i, (_, sh) in enumerate(edl)]
@@ -182,4 +183,4 @@ def build(v, ver=1):
 
 
 if __name__ == "__main__":
-    for a in sys.argv[1:]: build(a[0], 2 if a.endswith('2') else 1)
+    for a in sys.argv[1:]: build(a[0], int(a[1]) if len(a) > 1 else 1)
