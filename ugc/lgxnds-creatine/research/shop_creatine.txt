@@ -1,33 +1,43 @@
-Traceback (most recent call last):
-  File "/home/claude/Mymobileworld/ugc/lgxnds-creatine/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py", line 679, in <module>
-    sys.exit(main())
-             ^^^^^^
-  File "/home/claude/Mymobileworld/ugc/lgxnds-creatine/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py", line 675, in main
-    asyncio.run(cmd_shop(" ".join(a.keyword), a.top, a.out))
-  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
-    return runner.run(main)
-           ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
-    return self._loop.run_until_complete(task)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
-    return future.result()
-           ^^^^^^^^^^^^^^^
-  File "/home/claude/Mymobileworld/ugc/lgxnds-creatine/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py", line 593, in cmd_shop
-    await pg.goto(f"https://shop.tiktok.com/us/k/{slug}", wait_until="domcontentloaded", timeout=60000)
-  File "/usr/local/lib/python3.11/dist-packages/playwright/async_api/_generated.py", line 9901, in goto
-    await self._impl_obj.goto(
-  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_page.py", line 562, in goto
-    return await self._main_frame.goto(**locals_to_params(locals()))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_frame.py", line 157, in goto
-    await self._channel.send(
-  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_connection.py", line 76, in send
-    return await self._connection.wrap_api_call(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
-    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
-playwright._impl._errors.Error: Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://shop.tiktok.com/us/k/creatine-monohydrate
-Call log:
-  - navigating to "https://shop.tiktok.com/us/k/creatine-monohydrate", waiting until "domcontentloaded"
+25 products for 'creatine monohydrate' -> shop/shop-creatine-monohydrate.json  (sold = lifetime units, not recent sales)
 
+     sold    price rating  reviews  shop / product / url
+  617,318   $16.99    4.7   32,243  EKKOVISION: EKKO Creatine Monohydrate - 3rd Party Tested
+                                    https://shop.tiktok.com/us/pdp/ekko-creatine-monohydrate-3rd-party-tested-energy-boost/1729412447860592693
+  132,384   $38.99    4.7    9,807  Bloom Nutrition: Bloom Nutrition Creatine Monohydrate Powder (40 Servings) - 
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-powder-by-bloom-nutrition-vegan-non-gmo-supports-fitness/1730036046960432059
+   63,286   $34.99    4.3    7,911  Vital Source Nutrition: Creatine Gummies - Vital Source Nutrition
+                                    https://shop.tiktok.com/us/pdp/creatine-gummies-boost-energy-muscle-performance/1732356657122283602
+   57,739      $25    4.6    4,020  Primeval Labs: Creatine Monohydrate Powder - 120 Servings and Travel Sticks
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-powder-by-primeval-labs-5g-per-serving-flavored/1729475463526781738
+   47,262   $20.79    4.7    4,763  Dragon Pharma Labs: Dragon Pharma Creatine Monohydrate Essentials - Natural Supp
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-essentials-by-dragon-pharma-5g-performance-booster/1729495883884827522
+   39,960   $42.89    4.5    4,082  MuscleTech: MuscleTech Creatine Monohydrate Powder, Platinum Pure - Unfl
+                                    https://shop.tiktok.com/us/pdp/creatine-powder-muscletech-platinum-100-creatine-for-energy-recovery/1730812607228449783
+   24,681   $38.99    4.6    2,219  Beast Sports Nutrition: Creatine Monohydrate Powder (300g / 60 Servings) - BEAST
+                                    https://shop.tiktok.com/us/pdp/creapure-creatine-monohydrate-powder-60-servings-beast-bites/1731493983876583664
+   22,769   $20.79    4.8    1,185  getrawnutrition: RAW Creatine Monohydrate Powder – Pure Creatine Supplement f
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-by-raw-nutrition-strength-power-builder/1729434976324915378
+   17,992   $22.99    4.7    1,644  Optimum Nutrition Shop: Optimum Nutrition Micronized Creatine Monohydrate Powder wit
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-powder-by-optimum-nutrition-keto-friendly-formula/1729664639352541436
+   14,022      $19    4.6    1,478  LGXNDS: LGXNDS Micronized Creatine Monohydrate Powder – 30 Servings
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-by-lgxnds-micronized-powder-for-strength-endurance/1730141170192192079
+    7,863   $32.49    4.7      737  Dragon Pharma Labs: Dragon Pharma Flavored Creatine Monohydrate - 45 servings - 
+                                    https://shop.tiktok.com/us/pdp/flavored-creatine-monohydrate-by-dragon-pharma-boosts-muscle-power-enhances-endurance-supports-atp-r/1731177043258086274
+    7,832   $25.94    4.8      661  SportsResearch: Sports Research Creatine Monohydrate - 5 g Micronized Powder
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-by-sports-research-5g-micronized-powder-vegan/1729433427433984043
+    4,708      $38    4.8      246  Santa Cruz Paleo: Santa Cruz Paleo Creatine Monohydrate Powder - 80 Servings -
+                                    https://shop.tiktok.com/us/pdp/creatine-powder-by-brandname-micronized-5g-per-scoop-80-servings/1729752235415408982
+    4,685   $58.44    4.4      343  Peak Revival-X: Micronized Creatine Monohydrate + Electrolyte Sea Salt Hydra
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-powder-by-peak-revival-x-5000mg-100-servings-vegan/1729459943657935770
+    3,836   $25.99    4.7      249  Optimum Nutrition Shop: Optimum Nutrition Micronized Creatine Monohydrate Capsules -
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-capsules-2500mg-by-optimum-nutrition-for-strength/1729664638394863868
+    2,753   $25.98    4.4      223  MuscleSport: MuscleSport Creatine Monohydrate
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-revolution-musclesport-5g-unflavored-micronized-powder/1729574687537205788
+    2,418   $25.94    4.9      460  Insane Labz: Insane Labz Asylum Cabinet Creatine
+                                    https://shop.tiktok.com/us/pdp/creatine-insane-labz-asylum-cabinet-5g-pure-monohydrate-unflavored/1729471947571892286
+    1,864   $39.99    4.3       53  EKKOVISION: EKKO Creatine Capsules | 3rd Party Tested
+                                    https://shop.tiktok.com/us/pdp/creatine-capsules-by-ekkovision-3rd-party-tested-boost-performance/1731257016113008693
+    1,568   $25.96    4.5      110  Nutricost: Nutricost Creatine Monohydrate + Hydration - Dietary, Health
+                                    https://shop.tiktok.com/us/pdp/nutricost-creatine-monohydrate-powder-vegan-5g-per-serving/1731776272904131572
+    1,087   $46.79    4.6       79  Piping Rock: Fitness Labs German Creatine Monohydrate Powder - 500 Grams 
+                                    https://shop.tiktok.com/us/pdp/creatine-monohydrate-5000-mg-piping-rock-german-creapure-unflavored-1-1-lb/1729499279830127185
