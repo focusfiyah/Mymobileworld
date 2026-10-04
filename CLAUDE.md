@@ -44,7 +44,7 @@ not in a new file.
 2. **One test clip before any batch** (all 8 clips once came back in the wrong outfit: $1.52 instead of $0.21).
 3. **QC before sending anything; Ralph must never be the one to find it:** every clip ≥1.0x (never stretch footage),
    lips move whenever a face is on screen during the voiceover, product never cropped off or smeared, no forehead
-   wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face.
+   wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face; 2x zoom on the edges of every person or body part (hand, face, hair, full body) and the first second before any paid clip or review: no halo, outline, smear or colour fringe (Ralph 2026-10-04).
 4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
    leave the product description out of shots that must not show the product.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
