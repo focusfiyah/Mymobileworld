@@ -154,6 +154,9 @@ products follow the same rules.
   the cheapest affected clip, check it, then ask for the rest. Report the running total vs the quote at every step.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
 
+- **Removed items stay removed (Ralph 2026-10-04, FUSOU V1: the 3-boxes card and the hand sweep came back after he had removed them):** every job keeps a `REMOVED.md` (copy `ugc/fusou-vanity/v1ab/REMOVED.md`): every element Ralph or Grace removes or rejects goes in at once. Before ANY cut goes to Ralph, list every element in it (overlays, cards, hand shots, lighting treatment, framing, sounds, props) and check it against that list and against the previous round's notes. When rebuilding from an older cut script, re-read its notes first; never carry an old shot or overlay over by default.
+- **Lights features (Grace 2026-10-04, replaces the "darken the room" idea for the FUSOU job):** do NOT darken the room; show the light colours in daylight.
+
 ## 7. Results log (add one line per job)
 - 2026-09-18 Fungix: Grace's real takes (hook/body/CTA) cut into combo ads. Then 5 new script angles written:
   `fungix/grace-script-angles.md`.

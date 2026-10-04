@@ -49,3 +49,4 @@ Paste the block below into any of:
   demo lines (never my client clones); quote exact cost before any extra paid generation.
 - ElevenLabs affiliate link: https://try.elevenlabs.io/6rw6sfid5efk. First video (public): https://youtu.be/8qjWtaN-H9g
 ---
+Removed items stay removed: keep REMOVED.md per job; check every cut against it and the last round's notes before sending.
