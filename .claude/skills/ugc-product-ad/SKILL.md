@@ -390,6 +390,10 @@ Artificial Analysis image-to-video Elo in brackets, where ranked.
 
 ## Hands-only product ad (approved route)
 
+**The hand does not need to be in every shot (Ralph 2026-10-04):** "hands-only" means no face, not a hand in every frame.
+Plan hand-free shots (product alone, setting, props) where they fit; they still move (camera move or product clip) and their
+prompts carry no hand text.
+
 Proven on Grace's Carpe Vanilla Peach tips ad (2026-10-01, `focusfiyah/Mymobileworld` → `ugc/carpe-vanilla-peach/`,
 the best template: README, shots.json, kie.py, cut.py). One hand (reference sheet) is the only character; the
 voiceover is a separate ElevenLabs track, so no lip sync and no on-camera speech.

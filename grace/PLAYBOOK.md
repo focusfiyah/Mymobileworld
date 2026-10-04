@@ -156,6 +156,7 @@ products follow the same rules.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
 
 - **Removed items stay removed (Ralph 2026-10-04, FUSOU V1: the 3-boxes card and the hand sweep came back after he had removed them):** every job keeps a `REMOVED.md` (copy `ugc/fusou-vanity/v1ab/REMOVED.md`): every element Ralph or Grace removes or rejects goes in at once. Before ANY cut goes to Ralph, list every element in it (overlays, cards, hand shots, lighting treatment, framing, sounds, props) and check it against that list and against the previous round's notes. When rebuilding from an older cut script, re-read its notes first; never carry an old shot or overlay over by default.
+- **The hand does NOT need to be in every shot (Ralph 2026-10-04, standing rule):** plan hand-free shots (the product alone, the setting, props) wherever they fit the line; they still need real motion (camera move or a product-only clip, rule 6) and their prompts leave the hand block out (`NO_HAND`). Don't force a hand into a shot just to have one.
 - **Lights features (Grace 2026-10-04, replaces the "darken the room" idea for the FUSOU job):** do NOT darken the room; show the light colours in daylight.
 
 ## 7. Results log (add one line per job)
