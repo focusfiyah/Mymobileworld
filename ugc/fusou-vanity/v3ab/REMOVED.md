@@ -8,3 +8,4 @@
 - Blue-shirt Grace photo as a reference (Ralph 2026-10-04): use the 3 photos in refs/grace/ only.
 Before sending: list every element in the new cut (overlays, cards, hand shots, lighting treatment, framing, sounds) and tick it against this list. Add every new removal here the moment it is said.
 - (V3 job, 2026-10-04) Grace asked for a hand POINTING at the vanity from a distance, a few close ups. This is NOT the sweeping hand (V1S4) removed from V1: check with Ralph that it is a different shot before sending.
+- Big pointing hand with a long forearm filling the screen (Ralph 2026-10-04, P1 first still): hand must be SMALL (about 15% of frame height), only hand + wrist entering from the frame edge, NO forearm. Winners (research/pointing_examples.jpg: @aoxun.ultra, @lulumamiii, @kayla.ttsfinds, @cozygirlfindss) keep the hand small at an edge and the product big.
