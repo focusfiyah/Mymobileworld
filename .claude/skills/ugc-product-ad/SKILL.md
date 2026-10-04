@@ -106,5 +106,6 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
   `references/persona-per-shot.md`
 - Hands-only ad, on-camera demo over a voiceover, GTT KN95 lessons: `references/hands-only-and-demo.md`
 - Exact-product route (real photo + paste-back, complex products): `references/exact-product.md`
+- Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).
 - Scripts live in `scripts/` (gate.py, kie runners, cut/finish/qc tools); templates in the job folders named in CLAUDE.md.
 
