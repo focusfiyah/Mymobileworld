@@ -13,3 +13,11 @@
 
 Not said on purpose: the price (it's $640; let the cart show it), "flash sale" (not verified), any "I've had it for months" line.
 
+
+## V2 claims check (2026-10-03, Grace's script)
+| Claim in V2 | Status |
+|---|---|
+| 12 drawers on the vanity + 2 in the stool, glass top, plenty of room for makeup, jewelry, perfume | OK: listing bullets + photos |
+| Comes in three boxes | OK: listing photo "Our Package" (Ralph removed it from V1,V3-V6 only; Grace's V2 keeps it) |
+| Holiday shipping is about to get slower | NOT in the listing: Grace's claim, kept at Ralph's direction |
+| Crazy sale right now; check it before the deal or the vanity is gone | NOT confirmed: listing shows $639.99 only (the title says "Live Flash Sale"); scarcity wording is Grace's, kept at Ralph's direction |

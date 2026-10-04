@@ -73,9 +73,28 @@
  "compare": {
   "proof": [
    "research/compare_report.md",
-   "research/compare_v1_final.txt",
-   "research/compare_v3_final.txt"
+   "research/compare_v1_r4.txt",
+   "research/compare_v2_r4.txt",
+   "research/compare_v3_r4.txt",
+   "research/compare_v4_r4.txt",
+   "research/compare_v5_r4.txt",
+   "research/compare_v6_r4.txt",
+   "research/compare_v2_grace_r1.txt",
+   "research/compare_v2_grace_r2.txt"
   ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
- }
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    2
+   ],
+   "grade": 9.4,
+   "by": "Ralph",
+   "date": "2026-10-03",
+   "quote": "OK, override. Let's do it for this video only. Leave the other as is for now",
+   "why": "Video 2 uses Grace's own script verbatim (client's words, only em dashes changed to commas). Other videos keep max_grade 3.0."
+  }
+ ]
 }

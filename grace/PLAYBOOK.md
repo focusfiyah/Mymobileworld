@@ -29,6 +29,7 @@ products follow the same rules.
 - ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
+- **No "plenty to share" / "one is enough" lines in the CTA (Ralph 2026-10-03, GTT KN95).** Anything that tells the buyer one unit covers it kills multi-unit sales. Close with a line that makes them want more ("Grab a couple boxes, so there's always one close"), then "It's in the orange cart."
 - **No "order it now" / "order now" (Ralph 2026-10-03).** Close with Grace's usual "It's in the orange cart." after the real reason (holidays, "don't put it off").
 
 ## 2. Sales psychology
@@ -154,6 +155,9 @@ products follow the same rules.
   the cheapest affected clip, check it, then ask for the rest. Report the running total vs the quote at every step.
 - Routes and costs: `ugc-product-ad` skill. Hands-only template: `ugc/carpe-vanilla-peach/` ($3.52 for 36s).
 
+- **Removed items stay removed (Ralph 2026-10-04, FUSOU V1: the 3-boxes card and the hand sweep came back after he had removed them):** every job keeps a `REMOVED.md` (copy `ugc/fusou-vanity/v1ab/REMOVED.md`): every element Ralph or Grace removes or rejects goes in at once. Before ANY cut goes to Ralph, list every element in it (overlays, cards, hand shots, lighting treatment, framing, sounds, props) and check it against that list and against the previous round's notes. When rebuilding from an older cut script, re-read its notes first; never carry an old shot or overlay over by default.
+- **Lights features (Grace 2026-10-04, replaces the "darken the room" idea for the FUSOU job):** do NOT darken the room; show the light colours in daylight.
+
 ## 7. Results log (add one line per job)
 - 2026-09-18 Fungix: Grace's real takes (hook/body/CTA) cut into combo ads. Then 5 new script angles written:
   `fungix/grace-script-angles.md`.
@@ -190,6 +194,7 @@ products follow the same rules.
 
 - 2026-10-03 FUSOU 71" Vanity: 6 AI hands-only videos (17-24 s) APPROVED after 4 note rounds, in Drive with the final scripts doc. Kie $4.28 vs $4.54 quote. Method that held the product exact: edit the real listing photo + paste-back (`ugc/fusou-vanity/pasteback.py`), per-frame hand QC (`qc_hands.py`), free push-ins on real photos, cuts on word timings (`cut.py`). Ralph's notes were all hand-mask bugs (items on the hand, missing wrist) and the CTA (no "order it now"). Lights features: darken the room in post so the product's lights carry the shot (`ugc/fusou-vanity/darkroom.py`: LED mask = lit frame minus the real unlit photo; switch the LEDs through the listing's exact colour modes on the words, dip on "dims", a tap click per change; Ralph asked for it and liked it, 2026-10-03: use it for every product with lights). Drive Docs: write emoji as HTML character codes; the Drive reader tool shows 4-byte emoji as mojibake even when the doc is right (check with a text export).
 
+- 2026-10-04 FUSOU V1, two versions from Grace's scripts (A, B): Grace's notes took 5 rounds: bad-light face opening in the first 3 s (vanity on screen by 3 s), room never dark, no light-tap shot, no hand sweep, no 3-boxes card, face farther + relaxed + mouth closed (Ralph: no lip sync needed, VO plays over). Face from Ralph's 3 Grace photos (`ugc/fusou-vanity/refs/grace/`; never the blue-shirt photo): $0.508 Kie for the opening (2 stills + 2 clips; the first tight, tense-brow pair was wasted: frame the face at medium distance, ask for relaxed brows in the first prompt). Free fixes that worked: grade for bad light, crop, zoom-out bridge between close-up and wide, push-in on the real photo. Ralph's rule after v4: removed items stay removed (`REMOVED.md`). Drive: FUSOU folder, FINAL files.
 - 2026-10-03 Anemiaprin (Approved Science iron): 3 talking-head scripts ($0), reworked from coach data (top iron videos = numbered
   "how to take iron" tips, coffee blocks iron, label read; 5-6% saves), then rewritten in Grace's voice (new §1 rule).
   Google Doc in Drive "Anemiaprin scripts (2026-10-03)".
@@ -204,6 +209,9 @@ products follow the same rules.
   angles from the top shop sellers in each niche (coach viral board, 1,728 videos), no prices, sell-side confessions.
   Shnuggle angles 1-2 then replaced with Grace's own ideas (true toddler-size tub with the safety features; stand-up
   shower). When Grace sends angle ideas, they go first and the coach patterns fill in hooks and structure.
+- 2026-10-03 Grace B voiceover stutters (FUSOU V5 "Ho- holiday", V6 "If, if someone"; eleven_v4, stability 0.4): the timestamps from TTS are text-based and do NOT show it. After EVERY voiceover and every splice, run an ElevenLabs STT (scribe_v2) on the final audio and scan for repeated words and hyphen fragments; fix free by cutting the fragment out of the wav at the STT times. Ralph heard both, I hadn't: check before sending.
+
+- 2026-10-03 GTT Black KN95 50-pack (mask, ELEHOME GTT shop): AI hands-only ad, 31s, 10 shots matched word-for-word to the VO, Grace B full re-record after a CTA change. Kie $4.375 vs $2.75 first quote (4 stills redone for the wrong mask/box, rug shake redo, S7, car + shelf redo: each redo asked first). APPROVED, in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)). Lessons: (1) The model draws a generic flat-fold KN95, not the real fish-shape mask, when the ref is the box-and-mask packshot; give it a tight crop of the REAL mask only plus a shape description with 'NOT a flat-fold/duckbill', and a strict box colour ('silver-grey, not blue/white/black/beige': the white-mask box is blue). (2) A hand that touches an item must GRIP it (pinch by the edge, fingers curled): flat-hand-on-item reads as unnatural (rug stuck to the palm, masks under a palm, box under a flat hand). Prompt 'pinches ... between thumb and finger by its top edge, NOT lying flat' in both still and clip. (3) A clip can move the object the wrong way (box slid AWAY): use the half that moves right, or reverse the part that moves the wrong way (free). (4) Seedance min clip is 4s; windows of 1-1.5s still need a 4s clip: use the first 1.5s or an offset where the action happens. (5) Compliance for masks: dust/outdoor angle only (the listing's own pitch); KN95 is not NIOSH-approved and TikTok restricts medical claims, so no illness/N95/FDA/layer-count lines. (6) Plain words for this audience ('filter out ninety-five percent or more', not 'filtration efficiency') and Grace does not say 'the box says'. (7) Face shot tried and dropped: AI Grace from her photos changed her hair colour and drew the wrong mask; Grace reference sheet (`grace/ref/grace_reference_sheet.png`, 3 views) kept for a separate job. (8) Coach: the mask niche has no viral winners (best 2.6k views); ~35% of 'viral board' mask videos are copy-paste seller clips, so make the ad better made, not louder. Job: `ugc/gtt-kn95/`.
 
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
@@ -214,3 +222,10 @@ products follow the same rules.
 ## 9. To add later
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
+- 2026-10-03 Horbaach Beet Root+ gummies: 24.5s hands-only (VO Grace B, no overlay text at all, hand-free shots allowed per Ralph), $1.68 Kie vs $1.69 quote.
+  Ralph: the hand does not need to be in every shot; no juice on screen (confuses what the product is); don't claim "beet juice tastes like dirt" (not true for everyone). Hand-free shots = free slow push-ins on stills (real label photo for the label shot) instead of clips: no stray hands, no label drift. Lessons: Nano Banana added a phone date stamp ("OCT 26 8:14 AM") and a stray pale hand at the frame edge in no-hand shots, and invented a label line ("Support Serotonin...") on a jar alone: crop the stamp/hand free, add the exact small label text to the jar block, say "nothing at any edge of the frame". Seedance label text drifts once a jar is lifted/rotated: cut the clip before that. Coach tool needs `pip install playwright` + `apt-get install libnss3-tools` in a fresh cloud session. Kie balance can drop from other jobs between sessions: check it first.
+
+## Lessons 2026-10-03 (FUSOU V2, Grace's own script)
+- A client's own script may fail the gate (readability grade 9.4, unsupported claims). Use it verbatim only when Ralph says so, record it in `checklist.json` `overrides` (rule, videos, by, date, his quote, real grade): the gate prints it every run and only that video is exempt. Flag unverifiable claims in product_facts, never edit them out silently.
+- "Looks like pictures" = Ken Burns on photos and freezes. Motion-first fix: every shot a real moving clip (walk-in/dolly-out from the real-photo bedroom plate, top-down hand slide of a drawer, hand drags a bag out of a cabinet), 4-5 s clips at 1.0x, ~$0.2 each. A reused start frame makes a good dolly-out (grab a frame from the walk-in clip).
+- Grace B at 42 s for 136 words = 3.2 words/s; her 706-char script cost ~705 ElevenLabs chars, STT-check found no stutters this time.
