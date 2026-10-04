@@ -1,0 +1,5 @@
+# FUSOU V3, Grace's new "ONE piece of furniture" script, two cuts (2026-10-04)
+Status: **cuts DONE, sent to Ralph for review, not in Drive yet.** `v3ab/out/fusou_v3A.mp4` (hook = wide pointing hand) and `fusou_v3B.mp4` (hook = lit-mirror push-in, pointing hand on the lit-mirror line), 32.9 s, same Grace B voiceover (665 ElevenLabs chars). Rebuild free: `python3 v3ab/cut_v3.py A B` (from ugc/fusou-vanity). Gate OK (plan + cut). Next: Ralph's notes, then Drive (Final videos) + the scripts doc.
+Spend: Kie $0.254 (P1 still $0.09 + rejected Seedance clip $0.164). Kling (Ralph's account, MCP) 128 credits, 816 -> 688: test clip 32 (halo), redo 32 (hand swept, rejected), P1 final 32, P2 32 (hand leaves frame after ~1.2 s, used trimmed to 1.6 s). Free fallback: `hand_still_anim.py`.
+Shots: P1/P2 Kling 3D dolly + small hand (stills/P1_clean.png, P2_clean.png), kb push/pull on real photos, M5a mirror door, M2a outlet, M4a stool drawer, V1S5 wide.
+Rules: REMOVED.md (checked), research/ (proofs, compare_report.md, pointing_examples.jpg).
