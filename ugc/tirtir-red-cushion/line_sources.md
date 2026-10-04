@@ -1,0 +1,6 @@
+# Source of every script line
+S1 hook: PLAYBOOK §3 category-gap style + @luvphoebeee. Pain ("heavy, cakey feeling"): PLAYBOOK §4 pain beat; PureWow/Stylevanity reviews say users want comfort. Claims (full coverage, evens tone, blurs pores, breathable, non cakey, hyaluronic acid, botanical extracts, moisturized, satin): listing. "Tap it on and build it up": brand page + @magicwithmercedes. CTA: PLAYBOOK §1 CTA rules; holiday parties = real seasonal reason; two units = vanity + bag (travel-friendly compact, PureWow).
+S2 hook: heavy-by-lunch pain from reviews + @machyismuch label-read format. Five numbered claims: listing bullets in order. "Forty shades": listing. "Up to seventy two hours of fade resistant wear": listing, attributed. CTA: photo season (real), PLAYBOOK "don't put it off", second unit for the bag.
+S3 hook: identity call-out (PLAYBOOK §3). "Heavy foundations feel like a mask by noon": review pain (PureWow, Stylevanity). Dermatologist tested + sensitive and acne prone: listing, attributed. Lightweight/breathable/non cakey/forty shades: listing. "One little tap": @magicwithmercedes + brand page. CTA: holiday parties and pictures (real), home + purse.
+
+Re-verified 2026-10-04 against the final scripts.md: spoken lines, on-screen text and captions unchanged; only the rules text was reworded.
