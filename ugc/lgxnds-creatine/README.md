@@ -5,7 +5,7 @@ hands-only demo over a voiceover; template `../gtt-kn95/` (gated, kie.py/cut.py/
 VO ElevenLabs Grace B `bGrsdLmwBbYUgHRuMFOI` (eleven_v4). ~30 s, 9:16, ~8 shots. Stills Gemini 3 Pro Image (Kie
 `nano-banana-pro`), clips Seedance 2.0 Mini (`bytedance/seedance-2-mini`). Product ref: `refs/tiktok_listing.jpg`.
 
-Status: **2026-10-04 script v1 done, GATE OK (coach shop/tag/viral + `video` on 4 creatine winners, hooks, humanizer, grade 3.1). Unflavored + scoop confirmed by Ralph. Plan sent to Ralph: 8 stills $0.72 → storyboard → S3 test clip $0.205 → 7 clips $1.148; total $2.07 Kie + ~610 ElevenLabs chars. Waiting on approval. $0 spent.**
+Status: **2026-10-04: plan approved ($2.07) + S1 redo ($0.09). Ralph: match scenes to the script, so shots re-mapped line by line (9 clips, shots.json). 9 stills done with the real label pasted back (label.py). S3 test clip v1 FAILED QC (hand skin lightens, water goes milky): asked Ralph for a $0.16 redo, new total $2.57. Spent $0.974 Kie.**
 
 ## Open questions for Ralph/Grace (ask in the plan message)
 - Is the Prime Sports tub unflavored with a scoop inside (the other seller's listing says so)?
