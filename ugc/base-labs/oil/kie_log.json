@@ -164,5 +164,245 @@
    ]
   },
   "costTime": 151
+ },
+ {
+  "t": "2026-10-04 09:08:28",
+  "submitted": "e674ec5c6f2fe45cc6d29906988b3d00",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the h"
+ },
+ {
+  "t": "2026-10-04 09:10:34",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the hand, entering from the bottom edge, holds the closed Base Laboratories dropper bottle front-facing and upright toward the lens at chest height, label fully visible and square to the camera; the mint-teal box stands on the counter just behind it. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e674ec5c6f2fe45cc6d29906988b3d00",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e674ec5c6f2fe45cc6d29906988b3d00_0_1791105028.jpeg"
+   ]
+  },
+  "costTime": 120
+ },
+ {
+  "t": "2026-10-04 09:10:37",
+  "submitted": "bc4571cbcea48f5a31d80af161bfb98c",
+  "prompt": "Shot 1: the hand holds the dropper above the bottle; one golden drop slowly forms at the glass tip and falls back into t"
+ },
+ {
+  "t": "2026-10-04 09:13:27",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the dropper above the bottle; one golden drop slowly forms at the glass tip and falls back into the bottle; the hand keeps the dropper steady. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105035772-mcobkrbv2h.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "bc4571cbcea48f5a31d80af161bfb98c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105196754-gibln6wj4rd.mp4"
+   ]
+  },
+  "costTime": 165
+ },
+ {
+  "t": "2026-10-04 09:18:19",
+  "submitted": "703326f13436fc723ed7045f7e3cfb8c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the h"
+ },
+ {
+  "t": "2026-10-04 09:18:19",
+  "submitted": "5dd4acb43559adcdb6cb84c7b1191ae9",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white countertop: the Base Labor"
+ },
+ {
+  "t": "2026-10-04 09:19:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the hand, entering from the bottom edge, holds the closed Base Laboratories dropper bottle front-facing and upright toward the lens at chest height, label fully visible and square to the camera; the mint-teal box stands on the counter just behind it. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "703326f13436fc723ed7045f7e3cfb8c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/703326f13436fc723ed7045f7e3cfb8c_0_1791105552.jpeg"
+   ]
+  },
+  "costTime": 53
+ },
+ {
+  "t": "2026-10-04 09:19:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white countertop: the Base Laboratories dropper bottle stands open in frame next to its mint-teal box; the hand enters from the bottom edge and holds the squat teal two-tier cap just lifted straight up out of the bottle, with its thin glass pipette hanging below it and a golden drop of oil clinging at the glass tip. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5dd4acb43559adcdb6cb84c7b1191ae9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/5dd4acb43559adcdb6cb84c7b1191ae9_0_1791105565.jpeg"
+   ]
+  },
+  "costTime": 65
+ },
+ {
+  "t": "2026-10-04 09:19:42",
+  "submitted": "53353fda1f39d009bd1997fe48351d73",
+  "prompt": "Shot 1: the hand holds the cap and pipette steady above the bottle; a golden oil drop swells at the glass tip, then the "
+ },
+ {
+  "t": "2026-10-04 09:21:35",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the cap and pipette steady above the bottle; a golden oil drop swells at the glass tip, then the hand lowers the pipette slowly back into the bottle. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105580925-a9rb0fqx1zm.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "53353fda1f39d009bd1997fe48351d73",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105693868-x5th76jqe9g.mp4"
+   ]
+  },
+  "costTime": 113
+ },
+ {
+  "t": "2026-10-04 09:29:30",
+  "submitted": "2bb5bd55d27778a2cab6285928625f20",
+  "prompt": "Shot 1: the two bottles and the box stay completely still on the counter the whole time and never move or change size; t"
+ },
+ {
+  "t": "2026-10-04 09:29:31",
+  "submitted": "d4cc8943462ddbaaeb326fc294b41f4d",
+  "prompt": "Shot 1: the hand holds the bottle steady front-on with only tiny natural hand movement; the bottle does NOT tilt, turn o"
+ },
+ {
+  "t": "2026-10-04 09:29:31",
+  "submitted": "1d863be3260b204cebbbd3079a6cf9b4",
+  "prompt": "Shot 1: the fingertips massage the oil in slow small circles along the forearm, the skin gets a soft glossy sheen, then "
+ },
+ {
+  "t": "2026-10-04 09:29:31",
+  "submitted": "a261065853806bf932329121a6a0b49f",
+  "prompt": "Shot 1: the hand holds the bottle steady front-on for a second, then turns it very slightly toward the lens and back; th"
+ },
+ {
+  "t": "2026-10-04 09:30:58",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the bottle steady front-on with only tiny natural hand movement; the bottle does NOT tilt, turn or rotate, its cap and label stay facing the lens the whole time; the golden oil shimmers slightly; the box behind stays still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791106166958-luw0ig7zs4p.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "d4cc8943462ddbaaeb326fc294b41f4d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106256927-wehatosnwod.mp4"
+   ]
+  },
+  "costTime": 87
+ },
+ {
+  "t": "2026-10-04 09:31:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the two bottles and the box stay completely still on the counter the whole time and never move or change size; the hand resting at the right edge lifts its index finger, points down toward the bottles and holds still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791106169045-rei0pdt7yt.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "2bb5bd55d27778a2cab6285928625f20",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106281308-zl95dvs1ncn.mp4"
+   ]
+  },
+  "costTime": 112
+ },
+ {
+  "t": "2026-10-04 09:31:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the bottle steady front-on for a second, then turns it very slightly toward the lens and back; the golden oil catches the window light; the razor stays on the counter. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil and a glossy TEAL-GREEN metallic cap and collar on top. There is NO separate label and NO yellow or white label panel: the words 'BASE LABORATORIES' (small) and 'INGROWN HAIR OIL SOLUTION' (large, bold, condensed) are printed directly on the clear glass in teal-green letters, with three small bullet lines under them. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The cap is a squat, glossy TEAL-GREEN two-tier metal cylinder with a flat top (a narrower upper tier sitting on a wider lower tier), exactly as in the reference image: it is NOT a rubber bulb, NOT a dome, NOT a pointed teat. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791106162208-r6gnl0odf1q.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "a261065853806bf932329121a6a0b49f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106288551-1qcitdotmou.mp4"
+   ]
+  },
+  "costTime": 122
+ },
+ {
+  "t": "2026-10-04 09:31:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the fingertips massage the oil in slow small circles along the forearm, the skin gets a soft glossy sheen, then the fingers lift away. The forearm stays still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the right frame edge with the whole wrist visible; the other arm (same skin tone, same short nails) lies still on the counter from the left edge, forearm bare; no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791106164167-hr21sqg008.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "1d863be3260b204cebbbd3079a6cf9b4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791106307236-6h8whdcieqg.mp4"
+   ]
+  },
+  "costTime": 139
  }
 ]

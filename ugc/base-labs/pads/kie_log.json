@@ -164,5 +164,161 @@
    ]
   },
   "costTime": 83
+ },
+ {
+  "t": "2026-10-04 09:10:37",
+  "submitted": "cf77ea23273a3b09e234c61ac9936b36",
+  "prompt": "Shot 1: the hand swipes the pad once, slowly, in ONE direction from the elbow end down toward the wrist along the forear"
+ },
+ {
+  "t": "2026-10-04 09:12:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand swipes the pad once, slowly, in ONE direction from the elbow end down toward the wrist along the forearm, skin getting a faint damp sheen, then lifts the pad away and holds it up beside the forearm. The forearm stays still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the right frame edge with the whole wrist visible; the other arm (same skin tone, same short nails) lies still on the counter from the left edge, forearm bare; no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105035853-7du31t2zrfh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "cf77ea23273a3b09e234c61ac9936b36",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105156273-6hbyu2v22jj.mp4"
+   ]
+  },
+  "costTime": 120
+ },
+ {
+  "t": "2026-10-04 09:18:29",
+  "submitted": "955b438c20dfe8c434c4bc511c8a16c1",
+  "prompt": "Shot 1: the hand holds the jar front-on, then tilts it slightly toward the lens and back to upright, then gives the yell"
+ },
+ {
+  "t": "2026-10-04 09:18:29",
+  "submitted": "e84f6836e3c6868dd246aa9da893df7c",
+  "prompt": "Shot 1: the hand sweeps once across the fogged mirror from right to left, wiping a clear band through the steam, then li"
+ },
+ {
+  "t": "2026-10-04 09:18:29",
+  "submitted": "225bad650eb73cb12085b0571ee68b0f",
+  "prompt": "Shot 1: the fingertips pinch the top pad and lift one white pad straight up out of the jar, hold it up in front of the l"
+ },
+ {
+  "t": "2026-10-04 09:18:29",
+  "submitted": "9749f0e167a1390b0bc47293815b70b5",
+  "prompt": "Shot 1: the hand holds the jar steady front-on for a second, then turns it very slightly toward the lens and back, stead"
+ },
+ {
+  "t": "2026-10-04 09:18:29",
+  "submitted": "37bf95e2eac3376505522bd62d426030",
+  "prompt": "Shot 1: the hand slides both jars forward toward the lens a few centimetres together. Shot 2: the hand pulls back and an"
+ },
+ {
+  "t": "2026-10-04 09:20:40",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the jar front-on, then tilts it slightly toward the lens and back to upright, then gives the yellow lid one soft tap with a fingertip. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105505777-cpkzay7mhcm.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "955b438c20dfe8c434c4bc511c8a16c1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105638722-i1mi6ipzndq.mp4"
+   ]
+  },
+  "costTime": 131
+ },
+ {
+  "t": "2026-10-04 09:20:53",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand sweeps once across the fogged mirror from right to left, wiping a clear band through the steam, then lifts away and leaves the clear streak. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105501840-boyw6wx1xc.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e84f6836e3c6868dd246aa9da893df7c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105650353-w244n7fhip.mp4"
+   ]
+  },
+  "costTime": 144
+ },
+ {
+  "t": "2026-10-04 09:20:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the fingertips pinch the top pad and lift one white pad straight up out of the jar, hold it up in front of the lens for a second. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105503573-udh7shmhct.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "225bad650eb73cb12085b0571ee68b0f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105657043-crvoolntc7o.mp4"
+   ]
+  },
+  "costTime": 150
+ },
+ {
+  "t": "2026-10-04 09:22:40",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand slides both jars forward toward the lens a few centimetres together. Shot 2: the hand pulls back and an index finger points down at the jars, then holds still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105507531-olh3q8mt6kb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "37bf95e2eac3376505522bd62d426030",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105751155-1yrnt7kolod.mp4"
+   ]
+  },
+  "costTime": 246
+ },
+ {
+  "t": "2026-10-04 09:23:18",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand holds the jar steady front-on for a second, then turns it very slightly toward the lens and back, steady; the razor stays on the counter. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The jar is exactly the real jar in the reference image: a round PALE-BLUE plastic jar with a ribbed neck and a bright YELLOW screw lid; the pale-blue body label shows small 'BASE LABORATORIES' at top-left, a large pink-red condensed 'INGROWN HAIR PADS' wordmark, three small pink bullet lines and '42 PADS' at the bottom. The jar keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. The pads inside are plain white round textured cotton discs. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791105499939-xkjopbcaqe.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "9749f0e167a1390b0bc47293815b70b5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791105793253-ynehnxboigk.mp4"
+   ]
+  },
+  "costTime": 285
  }
 ]
