@@ -35,7 +35,7 @@ Paste the block below into any of:
 - Check every frame before I see it: no shimmer, no flicker or colour jump when lights change, no background showing
   through hands, whole wrists, nothing physically impossible (e.g. a wrist behind a hanging object). Hands enter from the
   frame edge, no forearm.
-- Scripts: hook, pain, solution, honest caveat, real urgency, and close with "It's in the orange cart." Never "order it now",
+- Scripts: hook, pain, solution, an honest line that sells (a brag-style confession like "the only downside? they won't want to get out", never a warning or downside), real urgency, and close with "It's in the orange cart." Never "order it now",
   never "heads up", no price, only the product we're selling, every shot matching its exact words.
 - Lights features (Grace 2026-10-04, replaces the dark-room idea): do NOT darken the room; show the light colours in daylight.
 - Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
