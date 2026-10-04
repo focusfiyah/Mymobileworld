@@ -264,5 +264,63 @@
    ]
   },
   "costTime": 136
+ },
+ {
+  "t": "2026-10-04 18:15:50",
+  "submitted": "445fd51b4adf1b631b87810f39b67128",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, kitchen counter: the hand holds one pouch tow"
+ },
+ {
+  "t": "2026-10-04 18:17:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up, kitchen counter: the hand holds one pouch toward the lens, front label facing the camera; the teal screw cap is off and lying on the counter, and a white paper straw stands upright in the open spout, like a grown-up juice pouch. The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm. The product is exactly the Youtheory Ashwagandha Liquid single-serve pouch in the product reference image: a matte opaque WHITE stand-up spout pouch (not silver, not metallic foil, not shiny) with a teal screw cap, a small 'youtheory' logo and a teal-and-blue bubble circle graphic on the front, 'ashwagandha liquid' in teal serif letters, the small line 'helps reduce stress', and a teal 'blueberry flavor' label near the bottom. It is a soft, flexible, flat stand-up pouch with rounded shoulders: NOT a box, NOT a carton, NOT a juice box, no flat lid. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products. The last reference image shows the same kitchen, light and counter: match them.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107886342-vl7fpuyvmd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107888402-jying8bnubj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791107884445-3mmrli6ju4i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/grace-supp/1791130429547-4z4gddszq7q.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "445fd51b4adf1b631b87810f39b67128",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/445fd51b4adf1b631b87810f39b67128_0_1791137821.jpeg"
+   ]
+  },
+  "costTime": 71
+ },
+ {
+  "t": "2026-10-04 18:17:07",
+  "submitted": "0f7874b925bc20ffe07b8c588363877a",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the white quartz counter: a messy pile of s"
+ },
+ {
+  "t": "2026-10-04 18:17:45",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the white quartz counter: a messy pile of several amber and white supplement pill bottles, some tipped over, with loose white and beige capsules and tablets spilled across the counter. No labels readable, no brand names. No hand, no person, no pouch, nothing at any edge of the frame.  Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products.",
+    "image_input": [],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0f7874b925bc20ffe07b8c588363877a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0f7874b925bc20ffe07b8c588363877a_0_1791137862.jpeg"
+   ]
+  },
+  "costTime": 36
+ },
+ {
+  "t": "2026-10-04 18:17:46",
+  "submitted": "7f9297f0121a2009b45c53631335fdf3",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the white quartz counter: several amber and"
  }
 ]
