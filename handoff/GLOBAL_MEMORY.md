@@ -37,7 +37,7 @@ Paste the block below into any of:
   frame edge, no forearm.
 - Scripts: hook, pain, solution, honest caveat, real urgency, and close with "It's in the orange cart." Never "order it now",
   never "heads up", no price, only the product we're selling, every shot matching its exact words.
-- Lights features: darken the room so the product's lights carry the shot (I liked this).
+- Lights features (Grace 2026-10-04, replaces the dark-room idea): do NOT darken the room; show the light colours in daylight.
 - Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
   real-photo room, a hand pulling a drawer or a bag. Ken Burns zooms on photos and freeze frames look "like pictures": avoid them.
   Study the example ad's motion before building. No hand sweeping across the product, no picture of the shipping boxes.
@@ -71,3 +71,5 @@ Paste the block below into any of:
   her reference sheet (grace/ref/) is built properly. Match every shot to the exact words it sits on.
 - Health-adjacent products (masks): angle on the listing's own pitch (dust, outdoor); no illness, N95, FDA or layer-count lines.
 - Ask before EVERY redo with the exact cost; show a cut/frames I can judge; batch my notes; keep a Drive folder per ad.
+
+Removed items stay removed: keep REMOVED.md per job; check every cut against it and the last round's notes before sending.
