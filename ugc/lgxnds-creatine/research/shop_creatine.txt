@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/home/claude/Mymobileworld/ugc/lgxnds-creatine/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py", line 679, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/claude/Mymobileworld/ugc/lgxnds-creatine/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py", line 675, in main
+    asyncio.run(cmd_shop(" ".join(a.keyword), a.top, a.out))
+  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/claude/Mymobileworld/ugc/lgxnds-creatine/research/../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py", line 593, in cmd_shop
+    await pg.goto(f"https://shop.tiktok.com/us/k/{slug}", wait_until="domcontentloaded", timeout=60000)
+  File "/usr/local/lib/python3.11/dist-packages/playwright/async_api/_generated.py", line 9901, in goto
+    await self._impl_obj.goto(
+  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_page.py", line 562, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_frame.py", line 157, in goto
+    await self._channel.send(
+  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_connection.py", line 76, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/playwright/_impl/_connection.py", line 632, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://shop.tiktok.com/us/k/creatine-monohydrate
+Call log:
+  - navigating to "https://shop.tiktok.com/us/k/creatine-monohydrate", waiting until "domcontentloaded"
+
