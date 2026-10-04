@@ -218,6 +218,8 @@ products follow the same rules.
 ## 9. To add later
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
+- 2026-10-03 Horbaach Beet Root+ gummies: 24.5s hands-only (VO Grace B, no overlay text at all, hand-free shots allowed per Ralph), $1.68 Kie vs $1.69 quote.
+  Ralph: the hand does not need to be in every shot; no juice on screen (confuses what the product is); don't claim "beet juice tastes like dirt" (not true for everyone). Hand-free shots = free slow push-ins on stills (real label photo for the label shot) instead of clips: no stray hands, no label drift. Lessons: Nano Banana added a phone date stamp ("OCT 26 8:14 AM") and a stray pale hand at the frame edge in no-hand shots, and invented a label line ("Support Serotonin...") on a jar alone: crop the stamp/hand free, add the exact small label text to the jar block, say "nothing at any edge of the frame". Seedance label text drifts once a jar is lifted/rotated: cut the clip before that. Coach tool needs `pip install playwright` + `apt-get install libnss3-tools` in a fresh cloud session. Kie balance can drop from other jobs between sessions: check it first.
 
 ## Lessons 2026-10-03 (FUSOU V2, Grace's own script)
 - A client's own script may fail the gate (readability grade 9.4, unsupported claims). Use it verbatim only when Ralph says so, record it in `checklist.json` `overrides` (rule, videos, by, date, his quote, real grade): the gate prints it every run and only that video is exempt. Flag unverifiable claims in product_facts, never edit them out silently.

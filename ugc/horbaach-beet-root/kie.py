@@ -1,4 +1,4 @@
-"""Kie runner for the Vicks VapoShower Plus ad (copied from ugc/plant-therapy-top6). Each paid step writes a preview to approve before the next one.
+"""Kie runner for the Horbaach Beet Root+ gummies ad (copied from ugc/vicks-vaposhower). Each paid step writes a preview to approve before the next one.
 
   python3 kie.py stills [ID ...]   Nano Banana Pro stills ($0.09 each) -> stills/<ID>.png + preview/stills_sheet.png
   python3 kie.py clips  [ID ...]   Seedance 2.0 Mini, audio off ($0.041/s) -> clips/<ID>.mp4 + preview/clips_sheet.png
@@ -22,19 +22,15 @@ UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
 SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
-REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/box_front.png", "refs/box_left.png"]
+REFS = ["refs/hand_dorsal.png", "refs/hand_palm.png", "refs/jar_front.png", "refs/jar_label.png"]
 ROOM = "stills/S1.png"  # first approved still doubles as the room reference
-NO_BOX = {"S4", "S5", "S6"}  # shots without the box (S6 added after its first still put the box on the glass): no box text or box refs, or the box shows up (playbook §6)
-TABLET = {"S2", "S3", "S4", "S5"}
-TABLET_REF = "stills/S3.png"  # tablet-in-palm still = the tablet look for the no-box shots
-
-
-NO_HAND = {"S5"}  # S5 test clip: the hand text in the prompt brought two pale hands in at 2.2s (playbook §6)
+NO_JAR = {"S2"}  # S2 is also hand-free now
+NO_HAND = {"S2", "S7"}  # Ralph 2026-10-03: hand not needed in every shot; no hand text in these prompts (playbook: text overrides the image)  # no jar or gummy text or refs in the beet-juice shot (playbook: product text puts the product in the shot)
+GUMMY = {"S1", "S5"}
 
 
 def blocks(sid):
-    return " ".join(([] if sid in NO_HAND else [J["identity_block"]]) + ([] if sid in NO_BOX else [J["box_block"]])
-                    + ([J["tablet_block"]] if sid in TABLET else []))
+    return " ".join(([] if sid in NO_HAND else [J["identity_block"]]) + ([] if sid in NO_JAR else [J["jar_block"]]) + ([J["gummy_block"]] if sid in GUMMY else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json")
@@ -60,7 +56,7 @@ def upload(path):
         return cache[k]
     for attempt in range(4):
         r = requests.post(UPLOAD, headers=HDR, files={"file": (p.name, p.read_bytes())},
-                          data={"uploadPath": "vaposhower"}, timeout=120)
+                          data={"uploadPath": "horbaach"}, timeout=120)
         if r.ok and (r.json().get("data") or {}).get("downloadUrl"):
             break
         time.sleep(2 ** attempt)
@@ -108,12 +104,11 @@ def stills(ids):
     refs = [upload(p) for p in REFS]
     for sid in ids:
         s = SHOTS[sid]
-        base = refs[:2] if sid in NO_BOX else refs
-        extra = TABLET_REF if sid in NO_BOX and sid in TABLET else ROOM
-        room = [upload(extra)] if sid != "S1" and Path(extra).exists() else []
+        base = [] if sid == "S2" else (refs[2:] if sid in NO_HAND else refs)
+        room = [upload(ROOM)] if sid != "S1" and sid not in NO_HAND and Path(ROOM).exists() else []
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_block']}"
-                  + (" The last reference image shows the same bathroom, light and tablet: match them." if room else ""))
+                  + (" The last reference image shows the same kitchen, light and counter: match them." if room else ""))
         url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": base + room,
                                                               "aspect_ratio": "9:16", "resolution": "1K"}})
         if url:
