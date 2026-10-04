@@ -1,0 +1,114 @@
+[
+ {
+  "t": "2026-10-04 02:40:22",
+  "submitted": "0c6e67fb8f3e07df3fb6a7b5e6c8cbd4",
+  "prompt": "Vertical 9:16 close-up photo, a single frame from a phone-shot UGC video. The woman in the first three reference images "
+ },
+ {
+  "t": "2026-10-04 02:42:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 close-up photo, a single frame from a phone-shot UGC video. The woman in the first three reference images (the SAME woman: same face, dark brown skin, defined brows, dark brown eyes, long black knotless boho braids with curly ends in a side part) is doing her makeup at a bathroom mirror. We see her face from the top of her head down to just under her nose: the frame cuts off at the bottom of her nose, so her lips and chin are NOT in the frame. She looks straight ahead into the mirror (toward the camera), eyes open and relaxed, eyebrows relaxed and level, no forehead wrinkles. Her right hand brings a fluffy makeup blush brush to her cheekbone, pressing it on the cheek; the hand enters from the lower right edge of the frame and is shown only to the wrist. The hand is hers: long almond-shaped nails with a glossy dusty mauve-pink gel polish and a thin white French tip (the last two reference images show the hand). BAD LIGHTING: a single dull overhead bathroom light, flat and slightly yellow-green, harsh soft shadows under her eyes and nose and across her forehead, dim, no flattering glow, the skin looks a bit dull. Plain beige bathroom wall behind her, a little of the mirror frame edge visible. Real phone-camera look, natural skin texture with pores, no beauty filter, no text, no logos. She wears no visible clothing in frame (only face, hair and the hand with the brush).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081580697-x7g6s6nui6.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081582794-aw4eb41caxn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081584782-2fx9t9i3zkx.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081586987-tkd1xrnhas.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081589054-x5htu45vjia.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0c6e67fb8f3e07df3fb6a7b5e6c8cbd4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0c6e67fb8f3e07df3fb6a7b5e6c8cbd4_0_1791081745.jpeg"
+   ]
+  },
+  "costTime": 124
+ },
+ {
+  "t": "2026-10-04 02:47:32",
+  "submitted": "2a06cb4c98f806f7415b5ff067363040",
+  "prompt": "Locked-off phone camera on a stand, close-up of a woman's face doing her makeup at a bathroom mirror, exactly as in the "
+ },
+ {
+  "t": "2026-10-04 02:50:03",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off phone camera on a stand, close-up of a woman's face doing her makeup at a bathroom mirror, exactly as in the first frame. She sweeps the blush brush slowly and gently along her cheekbone, down and back up once, then lifts it a little, while her eyes stay on the mirror. Her head stays almost still, only tiny natural movements. Her mouth stays closed and relaxed, she does not talk, her eyebrows stay relaxed and level, no forehead wrinkles. The dull flat yellow-green bathroom light stays exactly the same, no lighting change, no zoom, no camera move. The hand and nails stay the same. Real phone-footage look, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791082050069-h8pxfc82x2a.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "2a06cb4c98f806f7415b5ff067363040",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791082200617-46jmuzszysq.mp4"
+   ]
+  },
+  "costTime": 149
+ },
+ {
+  "t": "2026-10-04 03:11:39",
+  "submitted": "c6527c3c59c22b3947252b61cd92a011",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video, framed as a medium shot from the chest up: the woman's "
+ },
+ {
+  "t": "2026-10-04 03:16:35",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video, framed as a medium shot from the chest up: the woman's WHOLE head, hair and shoulders are in frame with plenty of space around her, her face takes up only about a quarter of the frame height, nothing is cropped. She is the SAME woman as in the first three reference images (same face, dark brown skin, defined brows, dark brown eyes, full lips, long black knotless boho braids with curly ends, half up with a side part), wearing a plain dark brown long-sleeve top. She stands at a bathroom mirror doing her makeup, looking calmly at her reflection (toward the camera). HER FACE IS RELAXED: soft neutral calm expression, mouth gently closed, eyebrows relaxed and level, forehead smooth with no wrinkles, no frown, no squinting. Her right hand holds a fluffy blush brush against her cheekbone, the whole hand and wrist visible at a natural small size. The hand is hers: long almond-shaped nails, glossy dusty mauve-pink gel polish with a thin white French tip (the last two reference images show the hand). BAD LIGHTING: one dull overhead bathroom light, flat and slightly yellow-green, a bit dim, soft shadows under her brows and nose and chin, the skin looks a little dull and tired, no flattering glow. Plain beige bathroom wall behind her with a little of a door frame, a corner of the bathroom counter at the bottom. Real phone-camera look, natural skin texture, no beauty filter, no text, no logos.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081580697-x7g6s6nui6.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081582794-aw4eb41caxn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081584782-2fx9t9i3zkx.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081586987-tkd1xrnhas.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791081589054-x5htu45vjia.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c6527c3c59c22b3947252b61cd92a011",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c6527c3c59c22b3947252b61cd92a011_0_1791083789.jpeg"
+   ]
+  },
+  "costTime": 289
+ },
+ {
+  "t": "2026-10-04 03:25:32",
+  "submitted": "6ef8f2868cf763c8e1711df5c9429b15",
+  "prompt": "Locked-off phone camera on a stand, medium shot of a woman doing her makeup at a bathroom mirror, exactly as in the firs"
+ },
+ {
+  "t": "2026-10-04 03:29:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off phone camera on a stand, medium shot of a woman doing her makeup at a bathroom mirror, exactly as in the first frame, same framing, no zoom, no camera move. She sweeps the blush brush slowly and gently along her cheekbone, down and back up once, while she looks calmly at her reflection. Her whole face stays relaxed: calm neutral expression, mouth gently closed, she does not talk or smile, eyebrows relaxed and level, forehead smooth, no frown. Her head and body stay almost still, only tiny natural movements and blinks. The dull flat yellow-green bathroom light stays exactly the same, no lighting change. Her hand, nails, hair and top stay exactly the same. Real phone-footage look, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791084329839-illr8x1l2xq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6ef8f2868cf763c8e1711df5c9429b15",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791084540668-8agvd4s2vzk.mp4"
+   ]
+  },
+  "costTime": 208
+ }
+]

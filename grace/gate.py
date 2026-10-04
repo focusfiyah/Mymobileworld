@@ -53,6 +53,10 @@ def check(job, stage="plan"):
                 errs.append(f"{k}: {f} is older than the script: redo {k} on the current script")
     rd = (c.get("readability") or {}).get("max_grade")
     if rd is not None and rd > 6: errs.append(f"readability: max grade {rd} > 6")
+    for o in overrides(c):   # a recorded exception covers ONLY the rule + videos it names; everything else still applies
+        for f in ("rule", "videos", "by", "date", "quote", "grade"):
+            if not o.get(f): errs.append(f"override missing '{f}': {o}")
+        if o.get("rule") != "readability": errs.append(f"override for rule {o.get('rule')!r} not supported (only readability)")
     text = ""
     for g in [c.get("vo_lines")] if isinstance(c.get("vo_lines"), str) else c.get("vo_lines", []):
         for f in sorted(job.glob(g)): text += f.read_text(errors="ignore") + "\n"
@@ -65,8 +69,22 @@ def check(job, stage="plan"):
     return errs
 
 
+def overrides(c):
+    """Owner-approved exceptions (Ralph, 2026-10-03: a client's own script that fails readability, used verbatim).
+    Each needs rule, videos, by, date, the owner's quoted words and the real measured grade. They are always printed."""
+    return c.get("overrides") or []
+
+
+def override_lines(job):
+    p = Path(job) / "checklist.json"
+    if not p.exists(): return []
+    return [f"OVERRIDE (readability, video {o.get('videos')}, grade {o.get('grade')}): {o.get('by')} {o.get('date')}: \"{o.get('quote')}\""
+            for o in overrides(json.loads(p.read_text()))]
+
+
 def require(job, stage="plan"):
     errs = check(job, stage)
+    for l in override_lines(job): print(l, file=sys.stderr)
     if errs:
         sys.exit("SCRIPT GATE: paid call refused. Finish the checklist first (grace/PLAYBOOK.md §4):\n  - " + "\n  - ".join(errs[:25]))
 
@@ -76,4 +94,6 @@ if __name__ == "__main__":
     if "--init" in sys.argv: init(job)
     else:
         e = check(job, sys.argv[sys.argv.index("--stage") + 1] if "--stage" in sys.argv else "plan")
-        print("GATE OK" if not e else "GATE FAILED:\n  - " + "\n  - ".join(e)); sys.exit(1 if e else 0)
+        print("GATE OK" if not e else "GATE FAILED:\n  - " + "\n  - ".join(e))
+        for l in override_lines(job): print(l)
+        sys.exit(1 if e else 0)
