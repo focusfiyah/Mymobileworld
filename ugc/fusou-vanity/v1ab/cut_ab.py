@@ -19,7 +19,14 @@ def tint(im, a):   # a: 0 = warm bathroom light, 1 = cool daylight
     return np.clip(x * k * (0.95 * (1 - a) + 1.06 * a), 0, 255).astype(np.uint8)
 
 
-def grade(src, out, t_sw, ramp=0.3):
+def bad(im):   # bad bathroom lighting: dim, flat, slightly green-yellow, top-lit vignette
+    x = im.astype(np.float32); g = x.mean(2, keepdims=True); x = g + (x - g) * 0.78
+    x *= np.array([0.80, 0.93, 0.90]) * 0.82
+    yy = np.linspace(0, 1, x.shape[0])[:, None, None]; x *= (0.80 + 0.30 * (1 - yy) ** 1.5)
+    return np.clip(x, 0, 255).astype(np.uint8)
+
+
+def grade(src, out, t_sw, ramp=0.3, mode=None):
     cap = cv2.VideoCapture(src)
     ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                            "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE); i = 0
@@ -27,7 +34,7 @@ def grade(src, out, t_sw, ramp=0.3):
         ok, f = cap.read()
         if not ok: break
         a = 0 if t_sw is None else min(1, max(0, (i / FPS - t_sw) / ramp)); a = a * a * (3 - 2 * a)
-        ff.stdin.write(tint(f, a).tobytes()); i += 1
+        ff.stdin.write((bad(f) if mode == 'bad' else tint(f, a)).tobytes()); i += 1
     ff.stdin.close(); ff.wait()
 
 
@@ -43,7 +50,7 @@ def render(i, shot, d, tag):
         vf = ([f"crop={o['crop']}", f"scale={W}:{H}:flags=lanczos"] if o.get("crop") else []) + [f"fps={FPS}", f"scale={W}:{H}"]
         run("ffmpeg", "-v", "error", "-y", "-ss", f"{ss}", "-i", src, "-frames:v", str(frames), "-vf", ",".join(vf), "-an", "-c:v", "libx264", "-crf", "16", "-pix_fmt", "yuv420p", raw)
     if "grade" in o:
-        g = raw.replace("_raw.mp4", "_g.mp4"); grade(raw, g, o["grade"]); os.replace(g, raw)
+        g = raw.replace("_raw.mp4", "_g.mp4"); grade(raw, g, o["grade"], mode=o.get("mode")); os.replace(g, raw)
     if o.get("dark"):
         dk = o["dark"]; d2 = raw.replace("_raw.mp4", "_dark.mp4")
         args = ["--mask", dk["mask"]] + sum([[f"--{k}", *map(str, v if isinstance(v, list) else [v])] for k, v in dk.items() if k != "mask"], [])
@@ -65,6 +72,36 @@ def m1_shot(v, t_start, t_ring, ss_max=1.3):    # tap clip: LED ring comes on at
 
 def lights_shot(v, t0, t_warm, t_dip0, t_yellow):   # V1S3 in the dark room: cold white -> warm white -> dip -> warm yellow
     return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [-0.2, -0.1], "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}, "zoomout": 1})
+
+
+def lights_day(t0, t_warm, t_dip0, t_yellow):   # Grace: no dark room. Same LED colour changes, room stays bright
+    return ("clip", "clips/V1S3.mp4", 0, {"dark": {"mask": "refs/v1s3_led_mask.png", "ramp": [-0.2, -0.1], "dark": 1.0, "colors": [t_warm - t0, t_yellow - t0], "dip": [t_dip0 - t0, t_yellow - t0 - 0.03]}})
+
+
+def EDL2(v):
+    """Grace's notes 2026-10-04 (both videos): ~3 s of Grace making up in bad lighting, vanity on screen by 3 s; room never dark; the tap/light-on shot
+    is replaced by hands walking toward the vanity in full view (V1S4)."""
+    w = lambda x, k=1: at(v, x, k); end = cut.dur_of(f"{V}/vo/v{v}_final.wav") + cut.TAIL
+    L = [x["start"] for x in json.load(open(f"{V}/vo/v{v}_final_lines.json"))]; s4 = L[3]
+    w4 = lambda x, k=1: [y["start"] for y in words(v) if clean(y) == x and y["start"] >= s4][k - 1]
+    BAD = ("clip", "clips/B1a.mp4", 0, {"crop": B1CROP, "blur": B1BLUR, "grade": 0, "mode": "bad"})
+    if v == "A":
+        t_hand = 5.2; t_lights = L[3] - 5.0
+        edl = [(0, BAD), (2.73, ("clip", "clips/V1S5.mp4", 0, {})), (t_hand, ("clip", "clips/V1S4.mp4", 0, {})),
+               (t_lights, lights_day(t_lights, w("adjustable"), w("brightness") - 0.1, w("so"))),
+               (s4, ("clip", "clips/V1S5.mp4", 0.5, {})), (w4("with") - 0.05, ("clip", "clips/M6a.mp4", 0, {})),
+               (w4("makeup") + 0.2, ("clip", "clips/M5a.mp4", 1.4, {})), (w4("and", 3) - 0.1, ("clip", "clips/M4a.mp4", 0.7, {})),
+               (w("ships") - 0.23, ("kb",) + WIDE + ({},))]
+        taps = [w("adjustable") - 0.05, w("so") - 0.05]
+    else:
+        t_lights = L[2]
+        edl = [(0, BAD), (3.0, ("clip", "clips/V1S5.mp4", 0, {})), (L[1], ("clip", "clips/V1S4.mp4", 0, {})),
+               (t_lights, lights_day(t_lights, w("adjustable"), w("brightness") - 0.1, w("so"))),
+               (min(s4, t_lights + 5.0), ("clip", "clips/V1S5.mp4", 0.8, {})),
+               (w4("lot") - 0.1, ("clip", "clips/M3a.mp4", 0.3, {})), (w4("makeup") - 0.05, ("clip", "clips/M5a.mp4", 1.4, {})),
+               (w4("jewelry") - 0.15, ("clip", "clips/M4a.mp4", 0.7, {})), (L[4], ("kb",) + WIDE + ({"zoom": 1.08},))]
+        taps = [w("adjustable") - 0.05, w("so") - 0.05]
+    return edl, taps, end
 
 
 def EDL(v):
@@ -121,8 +158,8 @@ def zoomout(prev_file, file, dur=0.7):
     ff.stdin.close(); ff.wait(); os.replace(out, file); print("zoomout z0 %.2f" % z0, flush=True)
 
 
-def build(v):
-    edl, taps, end = EDL(v); tag = f"ab{v}"
+def build(v, ver=1):
+    edl, taps, end = (EDL2 if ver == 2 else EDL)(v); tag = f"ab{v}{ver}"
     starts = [s for s, _ in edl] + [end]
     assert all(b > a for a, b in zip(starts, starts[1:])), f"{v}: starts not increasing {starts}"
     files = [render(i, sh, starts[i + 1] - starts[i], tag) for i, (_, sh) in enumerate(edl)]
@@ -140,9 +177,9 @@ def build(v):
     for k, (t, snd, vol) in enumerate(ev):
         inputs += ["-i", snd]; fx.append(f"[{3 + k}:a]aresample=44100,volume={vol},adelay={int(t * 1000)}|{int(t * 1000)}[s{k}]"); mix.append(f"[s{k}]")
     fx.append(f"{''.join(mix)}amix=inputs={len(mix)}:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5:LRA=11[a]")
-    run("ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fx), "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-t", f"{vd}", f"{V}/out/fusou_v1{v}.mp4")
+    run("ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fx), "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "44100", "-t", f"{vd}", f"{V}/out/fusou_v{ver}{v}.mp4")
     print(f"{v}: {vd:.2f}s, {len(edl)} shots, starts {[round(s, 2) for s in starts]}", flush=True)
 
 
 if __name__ == "__main__":
-    for v in sys.argv[1:]: build(v)
+    for a in sys.argv[1:]: build(a[0], 2 if a.endswith('2') else 1)
