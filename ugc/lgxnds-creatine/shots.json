@@ -17,7 +17,7 @@
  "tub_block": "The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours.",
  "powder_block": "The powder is a fine bright-white unflavored powder; the scoop is a small plain white plastic scoop.",
  "scene_block": "Setting: a bright, clean home kitchen in the daytime: a white quartz counter, soft daylight from a window on the left, a blurred light-wood cabinet background, a black gym duffel bag at the far end of the counter. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. Nothing at any edge of the frame except the one hand.",
- "video_suffix": "Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
+ "video_suffix": "The hand keeps exactly the same medium-dark brown skin tone, nail length and nail colour as in the first frame for the whole clip; it never gets lighter. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move. No sound. No on-screen text.",
  "shots": [
   {
    "id": "S1",
@@ -30,7 +30,11 @@
    "powder": true,
    "face": false,
    "hook_text": "the last sip shouldn't crunch",
-   "first_frame": "stills/S2.png"
+   "first_frame": "stills/S2.png",
+   "t": [
+    0.0,
+    4.84
+   ]
   },
   {
    "id": "S2",
@@ -42,29 +46,46 @@
    "tub": false,
    "powder": true,
    "face": false,
-   "first_frame": "stills/S2.png"
+   "first_frame": "stills/S2.png",
+   "t": [
+    4.84,
+    8.54
+   ]
   },
   {
    "id": "S3a",
    "beat": "solution (reveal)",
-   "vo": "This one is LGXNDS.",
+   "vo": "This one is LGXNDS. It's micronized,",
    "dur": 4,
    "tub": true,
    "powder": false,
    "face": false,
    "still": "Medium close-up on the white kitchen counter: the closed LGXNDS tub stands in the centre of the frame, label front-facing and square to the lens, with a plain clear unbranded water bottle full of water standing just behind it to the right. The camera is level with the middle of the tub, straight-on, so the label faces the lens square and flat, exactly like the tub reference photo; nothing covers the label. The hand enters from the top edge of the frame, fingers resting on top of the white lid only.",
-   "video": "Shot 3a: the hand twists the white lid and lifts it straight up and off the tub and out of the top of the frame, showing fine white powder inside; the tub itself never moves or turns. Locked-off camera on a tripod."
+   "video": "Shot 3a: the hand twists the white lid and lifts it straight up and off the tub and out of the top of the frame, showing fine white powder inside; the tub itself never moves or turns. Locked-off camera on a tripod.",
+   "t": [
+    8.54,
+    11.16
+   ]
   },
   {
    "id": "S3",
    "beat": "solution",
-   "vo": "It's micronized, so it mixes right into your water.",
+   "vo": "so it mixes right into your water.",
    "still": "Close-up at the kitchen counter: a plain clear unbranded plastic water bottle full of clear water stands on the counter with its cap off; the hand, entering from the top right edge of the frame, holds a small white scoop of fine white powder just above the open mouth of the bottle. No tub, no labels, no other products.",
-   "video": "Shot 3: the hand tips the scoop and the fine white powder pours into the water, drifting down in a soft cloud; the hand then sets the scoop down out of frame and picks up the bottle by its body and swirls it gently; the cloud spreads evenly and the water turns uniformly smooth and slightly milky with no clumps and nothing settling at the bottom. Locked-off camera on a tripod.",
+   "video": "Shot 3: the hand tips the scoop and the fine white powder pours into the water in one smooth stream; it disperses straight away into a faint, thin haze and the water stays almost clear and see-through, with no clumps, no lumps, no thick white clouds and never milky. The hand then pulls the scoop away out of the top right of the frame. The bottle stays standing on the counter and does not move. Locked-off camera on a tripod.",
    "dur": 4,
    "tub": false,
    "powder": true,
-   "face": false
+   "face": false,
+   "use": [
+    0,
+    1.5
+   ],
+   "note": "v2: powder sinks after ~1.6 s, so only the pour is used (free fix)",
+   "t": [
+    11.16,
+    12.8
+   ]
   },
   {
    "id": "S4",
@@ -75,7 +96,11 @@
    "dur": 5,
    "tub": true,
    "powder": true,
-   "face": false
+   "face": false,
+   "t": [
+    12.8,
+    16.82
+   ]
   },
   {
    "id": "S5",
@@ -86,7 +111,11 @@
    "dur": 4,
    "tub": false,
    "powder": true,
-   "face": false
+   "face": false,
+   "t": [
+    16.82,
+    19.68
+   ]
   },
   {
    "id": "S6",
@@ -97,7 +126,11 @@
    "dur": 4,
    "tub": true,
    "powder": false,
-   "face": false
+   "face": false,
+   "t": [
+    19.68,
+    23.36
+   ]
   },
   {
    "id": "S7",
@@ -108,7 +141,11 @@
    "dur": 4,
    "tub": true,
    "powder": false,
-   "face": false
+   "face": false,
+   "t": [
+    23.36,
+    27.38
+   ]
   },
   {
    "id": "S8",
@@ -119,7 +156,11 @@
    "dur": 5,
    "tub": true,
    "powder": false,
-   "face": false
+   "face": false,
+   "t": [
+    27.38,
+    31.05
+   ]
   }
  ],
  "paste_back": "Tub shots (S1, S6, S7, S8): the real tub crop (refs/crop_tub.png) is pasted over the label on the first frame and on every clip frame where it drifts (free). Fingers never cross the label."

@@ -5,7 +5,7 @@ hands-only demo over a voiceover; template `../gtt-kn95/` (gated, kie.py/cut.py/
 VO ElevenLabs Grace B `bGrsdLmwBbYUgHRuMFOI` (eleven_v4). ~30 s, 9:16, ~8 shots. Stills Gemini 3 Pro Image (Kie
 `nano-banana-pro`), clips Seedance 2.0 Mini (`bytedance/seedance-2-mini`). Product ref: `refs/tiktok_listing.jpg`.
 
-Status: **2026-10-04: plan approved ($2.07) + S1 redo ($0.09). Ralph: match scenes to the script, so shots re-mapped line by line (9 clips, shots.json). 9 stills done with the real label pasted back (label.py). S3 test clip v1 FAILED QC (hand skin lightens, water goes milky): asked Ralph for a $0.16 redo, new total $2.57. Spent $0.974 Kie.**
+Status: **2026-10-04: cut v1 `out/lgxnds_creatine.mp4` (31.1 s) sent to Ralph for review. Kie $2.573 vs $2.57 quote (stills $0.81, 10 clips $1.76 incl. one S3 redo), ElevenLabs ~610 chars. Rebuild: `python3 cut.py` (label paste-back: `label.py`, one homography per clip). Next: Ralph's notes, then Drive (Grace Tiktok assets).**
 
 ## Open questions for Ralph/Grace (ask in the plan message)
 - Is the Prime Sports tub unflavored with a scoop inside (the other seller's listing says so)?
