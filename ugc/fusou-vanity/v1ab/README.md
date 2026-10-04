@@ -8,3 +8,6 @@ Scripts as Grace wrote them (Ralph: keep as is, flash sale live); only added per
 
 ## New opening shot (Grace's face), 2026-10-04
 Ralph: face visible with makeup going on in bad lighting; use his 3 Grace photos (NOT the blue-shirt one): `refs/grace/grace_face_sheet.jpg` + crops. Own runner `kie_ab.py` (gated on THIS job; the old FUSOU job's checklist has stale clone mtimes). Still `stills/OPEN_FACE.png` ($0.09, `still_open.py`): dim yellow-green bathroom light, blush brush on cheek, her mauve French-tip nails. Lips are in the frame: crop the CLIP to a 9:16 box above the lips (free) so no lip sync is needed. Kie spent: $0.09 (1,289 -> 1,271 credits). Next: 4 s clip, $0.164, waiting on Ralph's OK.
+
+## v3 (face opening), sent to Ralph 2026-10-04
+`out/fusou_v3A.mp4` (24.9 s), `out/fusou_v3B.mp4` (27.3 s): Grace's face (cropped above the lips, `clips/OPEN_FACE.mp4`, crop 486:865:70:120) in bad bathroom light for the first 2.7 s (A) / 2.8 s (B), vanity on screen right after, room never dark, hand walks in toward the vanity, LED colours change in daylight. `python3 v1ab/cut_ab.py A3 B3`. Gate (cut stage) OK. Kie spent on the new shot: $0.254 (still $0.09 + clip $0.164); balance 1,238 credits. Notes: brows slightly tense in the clip (no deep wrinkles); brush only partly in frame. Drive still has v1; v3 goes to Drive once Ralph approves.
