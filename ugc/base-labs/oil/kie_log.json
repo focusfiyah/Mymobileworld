@@ -1,0 +1,168 @@
+[
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "988d675f2cc282d7c1b38bb08a04bc3f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot on the white countertop: TWO identical Base"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "8169675bd5af4be6e3614e679cb5d793",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a glass shower door fogged with steam, the "
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "d34432c206df386bb55172f65c22b9a8",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a woman's bare forearm (same medium-dark br"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "1b32d9e2c92d2b9d9f818e90ee4a7db6",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on a white bathroom countertop: the han"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "41f51e067f8d9fc76834221a3b4b0877",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the h"
+ },
+ {
+  "t": "2026-10-04 09:00:18",
+  "submitted": "a890fef97dcaba5deb9f48c421b9cf79",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white countertop: the Base Labor"
+ },
+ {
+  "t": "2026-10-04 09:01:03",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a glass shower door fogged with steam, the hand entering from the right edge with fingertips on the glass, a clear wiped streak starting to show the white tiled shower wall behind; no person, no face and no reflection of a person. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8169675bd5af4be6e3614e679cb5d793",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/8169675bd5af4be6e3614e679cb5d793_0_1791104458.jpeg"
+   ]
+  },
+  "costTime": 40
+ },
+ {
+  "t": "2026-10-04 09:01:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on a white bathroom countertop: the hand, entering from the bottom edge of the frame, holds the Base Laboratories glass dropper bottle upright and front-facing toward the lens; a plain pink disposable razor with no printed text lies on the counter at the lower left, a folded white towel behind it. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil, a glossy TEAL-GREEN metallic dropper cap and collar on top, and a teal-and-yellow label reading 'BASE LABORATORIES' small and 'INGROWN HAIR OIL SOLUTION' large. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1b32d9e2c92d2b9d9f818e90ee4a7db6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1b32d9e2c92d2b9d9f818e90ee4a7db6_0_1791104478.jpeg"
+   ]
+  },
+  "costTime": 59
+ },
+ {
+  "t": "2026-10-04 09:01:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white bathroom countertop: the hand, entering from the bottom edge, holds the closed Base Laboratories dropper bottle front-facing and upright toward the lens at chest height, label fully visible and square to the camera; the mint-teal box stands on the counter just behind it. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil, a glossy TEAL-GREEN metallic dropper cap and collar on top, and a teal-and-yellow label reading 'BASE LABORATORIES' small and 'INGROWN HAIR OIL SOLUTION' large. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "41f51e067f8d9fc76834221a3b4b0877",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/41f51e067f8d9fc76834221a3b4b0877_0_1791104481.jpeg"
+   ]
+  },
+  "costTime": 63
+ },
+ {
+  "t": "2026-10-04 09:01:53",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot on the white countertop: TWO identical Base Laboratories dropper bottles side by side with the mint-teal box behind them, labels facing the lens, the hand resting at the right edge of the frame near them. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil, a glossy TEAL-GREEN metallic dropper cap and collar on top, and a teal-and-yellow label reading 'BASE LABORATORIES' small and 'INGROWN HAIR OIL SOLUTION' large. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "988d675f2cc282d7c1b38bb08a04bc3f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/988d675f2cc282d7c1b38bb08a04bc3f_0_1791104507.jpeg"
+   ]
+  },
+  "costTime": 88
+ },
+ {
+  "t": "2026-10-04 09:01:59",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a woman's bare forearm (same medium-dark brown skin) resting palm up on the white countertop entering from the left edge of the frame, wrist at the left; the hand from the right edge touches two fingertips glistening with a drop of golden oil to the skin near the elbow end of the forearm. Nothing else on the counter. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the right frame edge with the whole wrist visible; the other arm (same skin tone, same short nails) lies still on the counter from the left edge, forearm bare; no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d34432c206df386bb55172f65c22b9a8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/d34432c206df386bb55172f65c22b9a8_0_1791104516.jpeg"
+   ]
+  },
+  "costTime": 98
+ },
+ {
+  "t": "2026-10-04 09:02:56",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white countertop: the Base Laboratories dropper bottle stands in frame next to its mint-teal box; the hand enters from the bottom edge and has just lifted the teal dropper cap with its glass pipette out of the bottle, holding it upright above the bottle so golden oil clings to the glass tip. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people. The bottle is exactly the real bottle in the reference image: a clear glass dropper bottle with a rounded-square body filled with golden-yellow oil, a glossy TEAL-GREEN metallic dropper cap and collar on top, and a teal-and-yellow label reading 'BASE LABORATORIES' small and 'INGROWN HAIR OIL SOLUTION' large. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.  The box beside it is the real mint-teal carton in the reference image with a red band and 'BASE LABORATORIES'. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104416604-gzjekzl4qv8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a890fef97dcaba5deb9f48c421b9cf79",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/a890fef97dcaba5deb9f48c421b9cf79_1791104569944.jpeg"
+   ]
+  },
+  "costTime": 151
+ }
+]
