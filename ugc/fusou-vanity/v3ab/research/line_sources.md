@@ -8,3 +8,6 @@
 | ships in three boxes ... before the holidays ... wouldn't wait | Grace; real urgency (3 boxes + holidays), no false scarcity |
 | It's in the orange cart. | PLAYBOOK usual close |
 Structure: hook > pain > solution (one line per feature, one cut each, @teddyandhudson format) > urgency > close. Honest-caveat beat: none in Grace's script (house rule: honest lines sell, never un-sell).
+
+
+## Re-check 2026-10-05 (motion redo, script unchanged since commit of 2026-10-04 04:46; same Grace B voiceover vo/vA_final.wav): every line's source re-checked against scripts.md; unchanged.
