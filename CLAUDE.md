@@ -50,9 +50,11 @@ not in a new file.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
    Grace structure + `humanizer` + readability + on-screen hook text, then coach `compare` on the cut. Full list:
    `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
-6. **Looks like video, not pictures** (Ralph, 2026-10-03, FUSOU V2): every shot a real moving clip, no Ken Burns on photos, no freezes; no hand sweeping across the product; never add a picture Ralph didn't ask for. A client's own script is used verbatim only on Ralph's word, via a recorded per-video `overrides` entry in `checklist.json` (`grace/gate.py`).
-7. **Removed items stay removed (Ralph, 2026-10-04):** keep `REMOVED.md` in every job; before a cut goes to Ralph, list every element in it and check against that list and the last round's notes. Details: `grace/PLAYBOOK.md` §6.
-8. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+6. **No on-screen text, no product cards, every video different** (Ralph, 2026-10-04): no hook text/captions unless he asks; no product overlay cards or pop-ups; never the same footage with a new VO (TikTok flags it): each video gets its own shots, order, framing, grade and background (free remix: `remix.py` in the supplement jobs).
+   **The hand does not need to be in every shot** (Ralph, 2026-10-04): use hand-free shots (product alone, setting, props) where they fit; they still move and their prompts leave the hand out.
+7. **Looks like video, not pictures** (Ralph, 2026-10-03, FUSOU V2): every shot a real moving clip, no Ken Burns on photos, no freezes; no hand sweeping across the product; never add a picture Ralph didn't ask for. A client's own script is used verbatim only on Ralph's word, via a recorded per-video `overrides` entry in `checklist.json` (`grace/gate.py`).
+8. **Removed items stay removed (Ralph, 2026-10-04):** keep `REMOVED.md` in every job; before a cut goes to Ralph, list every element in it and check against that list and the last round's notes. Details: `grace/PLAYBOOK.md` §6.
+9. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
@@ -98,6 +100,8 @@ not in a new file.
   https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e; v2 (no prices, sell-side lines, Grace's
   Shnuggle angles) also in Drive as a Google Doc: Grace Tiktok assets/"Grace scripts - Bobbi Brown, Elasco, Shnuggle
   (2026-10-02)" (id 1G7k7zJMwuGc0va2Qc7UHfJFszyIwmYd13b3PS-RXiRU). Drive copy doesn't sync: re-upload after edits.
+
+- **Supplement pack (Grace), 2026-10-04:** hands-only AI ads, 5 per product (V1 + 4 hook/VO variants on the same footage), <=16s: Youtheory Ashwagandha Liquid, Youtheory Total Body Turmeric, Neuro Sour Mints, Penetrex roll-on. `ugc/youtheory-ashwagandha/`, `ugc/youtheory-turmeric/`, `ugc/neuro-sour-mints/`, `ugc/penetrex-gel/`. REDONE same day on Ralph's notes (no text, no cards, every video different): 15 finals (4 each, Turmeric 3) remixed free from existing footage (`remix.py` + `remix.json`, grades all bright: daylight/clean neutral/bright cool/bright punchy, no dark or yellow looks), in Drive: Grace Tiktok assets/<product> ads (2026-10-04)/FINAL - post these (+ captions doc), old cuts in 'Old versions - do not use'. Kie $4.90 then; Ashwagandha v2 (Grace's notes: real pouch + box, straw, pills, 12, Grace-B VO of adult-juice-box scripts) +$1.75, job total Kie $6.65. README Status lines.
 
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.

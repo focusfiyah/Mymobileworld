@@ -1,0 +1,547 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9394896030426025,
+ "text": "Holiday stress is coming. Time for an adult juice box. You Theory Ashwagandha Liquid helps reduce stress with KSM-sixty-six in a blueberry pouch. One pouch a day, that's it. One for you, one to gift. It's in the orange cart.",
+ "words": [
+  {
+   "text": "Holiday",
+   "start": 0.1,
+   "end": 0.44,
+   "type": "word",
+   "logprob": -0.00021979777375236154
+  },
+  {
+   "text": " ",
+   "start": 0.44,
+   "end": 0.56,
+   "type": "spacing",
+   "logprob": -1.0967194612021558e-05
+  },
+  {
+   "text": "stress",
+   "start": 0.56,
+   "end": 0.82,
+   "type": "word",
+   "logprob": -1.0967194612021558e-05
+  },
+  {
+   "text": " ",
+   "start": 0.82,
+   "end": 0.86,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "is",
+   "start": 0.86,
+   "end": 1.0,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 1.0,
+   "end": 1.08,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "coming.",
+   "start": 1.08,
+   "end": 1.48,
+   "type": "word",
+   "logprob": -1.924254414526721e-05
+  },
+  {
+   "text": " ",
+   "start": 1.48,
+   "end": 2.04,
+   "type": "spacing",
+   "logprob": -5.94836674281396e-05
+  },
+  {
+   "text": "Time",
+   "start": 2.04,
+   "end": 2.26,
+   "type": "word",
+   "logprob": -5.94836674281396e-05
+  },
+  {
+   "text": " ",
+   "start": 2.26,
+   "end": 2.34,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "for",
+   "start": 2.34,
+   "end": 2.42,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 2.42,
+   "end": 2.44,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "an",
+   "start": 2.44,
+   "end": 2.5,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 2.5,
+   "end": 2.56,
+   "type": "spacing",
+   "logprob": -0.0002348147245356813
+  },
+  {
+   "text": "adult",
+   "start": 2.56,
+   "end": 2.8,
+   "type": "word",
+   "logprob": -0.0002348147245356813
+  },
+  {
+   "text": " ",
+   "start": 2.8,
+   "end": 2.92,
+   "type": "spacing",
+   "logprob": -3.194758028257638e-05
+  },
+  {
+   "text": "juice",
+   "start": 2.92,
+   "end": 3.12,
+   "type": "word",
+   "logprob": -3.194758028257638e-05
+  },
+  {
+   "text": " ",
+   "start": 3.12,
+   "end": 3.2,
+   "type": "spacing",
+   "logprob": -1.3112935448589269e-05
+  },
+  {
+   "text": "box.",
+   "start": 3.2,
+   "end": 3.62,
+   "type": "word",
+   "logprob": -1.4990450154073187e-05
+  },
+  {
+   "text": " ",
+   "start": 3.62,
+   "end": 3.64,
+   "type": "spacing",
+   "logprob": -4.007741928100586
+  },
+  {
+   "text": "Youtheory",
+   "start": 4.14,
+   "end": 4.64,
+   "type": "word"
+  },
+  {
+   "text": " ",
+   "start": 4.64,
+   "end": 4.8,
+   "type": "spacing",
+   "logprob": -0.004344074055552483
+  },
+  {
+   "text": "Ashwagandha",
+   "start": 4.8,
+   "end": 5.3999999999999995,
+   "type": "word",
+   "logprob": -0.0012982461537996476
+  },
+  {
+   "text": " ",
+   "start": 5.3999999999999995,
+   "end": 5.4399999999999995,
+   "type": "spacing",
+   "logprob": -0.03381289169192314
+  },
+  {
+   "text": "Liquid",
+   "start": 5.4399999999999995,
+   "end": 5.779999999999999,
+   "type": "word",
+   "logprob": -0.03381289169192314
+  },
+  {
+   "text": " ",
+   "start": 5.779999999999999,
+   "end": 5.8999999999999995,
+   "type": "spacing",
+   "logprob": -6.6756979322235566e-06
+  },
+  {
+   "text": "helps",
+   "start": 5.8999999999999995,
+   "end": 6.14,
+   "type": "word",
+   "logprob": -6.6756979322235566e-06
+  },
+  {
+   "text": " ",
+   "start": 6.14,
+   "end": 6.199999999999999,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "reduce",
+   "start": 6.199999999999999,
+   "end": 6.539999999999999,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 6.539999999999999,
+   "end": 6.64,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "stress",
+   "start": 6.64,
+   "end": 7.06,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": " ",
+   "start": 7.06,
+   "end": 7.38,
+   "type": "spacing",
+   "logprob": -3.135155202471651e-05
+  },
+  {
+   "text": "with",
+   "start": 7.38,
+   "end": 7.52,
+   "type": "word",
+   "logprob": -3.135155202471651e-05
+  },
+  {
+   "text": " ",
+   "start": 7.52,
+   "end": 7.579999999999999,
+   "type": "spacing",
+   "logprob": -0.003679412417113781
+  },
+  {
+   "text": "KSM-sixty-six",
+   "start": 7.579999999999999,
+   "end": 8.9,
+   "type": "word",
+   "logprob": -0.022996267901992093
+  },
+  {
+   "text": " ",
+   "start": 8.9,
+   "end": 8.98,
+   "type": "spacing",
+   "logprob": -1.5497195136049413e-06
+  },
+  {
+   "text": "in",
+   "start": 8.98,
+   "end": 9.04,
+   "type": "word",
+   "logprob": -1.5497195136049413e-06
+  },
+  {
+   "text": " ",
+   "start": 9.04,
+   "end": 9.1,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "a",
+   "start": 9.1,
+   "end": 9.16,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.16,
+   "end": 9.18,
+   "type": "spacing",
+   "logprob": -0.00018261195509694517
+  },
+  {
+   "text": "blueberry",
+   "start": 9.18,
+   "end": 9.54,
+   "type": "word",
+   "logprob": -0.00018261195509694517
+  },
+  {
+   "text": " ",
+   "start": 9.54,
+   "end": 9.639999999999999,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "pouch.",
+   "start": 9.639999999999999,
+   "end": 10.02,
+   "type": "word",
+   "logprob": -3.278231976840592e-06
+  },
+  {
+   "text": " ",
+   "start": 10.02,
+   "end": 10.02,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "One",
+   "start": 10.44,
+   "end": 10.559999999999999,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 10.559999999999999,
+   "end": 10.639999999999999,
+   "type": "spacing",
+   "logprob": -0.00010227633902104571
+  },
+  {
+   "text": "pouch",
+   "start": 10.639999999999999,
+   "end": 10.82,
+   "type": "word",
+   "logprob": -0.00010227633902104571
+  },
+  {
+   "text": " ",
+   "start": 10.82,
+   "end": 10.879999999999999,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "a",
+   "start": 10.879999999999999,
+   "end": 10.92,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 10.92,
+   "end": 10.959999999999999,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "day,",
+   "start": 10.959999999999999,
+   "end": 11.16,
+   "type": "word",
+   "logprob": -0.002153630368411541
+  },
+  {
+   "text": " ",
+   "start": 11.16,
+   "end": 11.5,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "that's",
+   "start": 11.5,
+   "end": 11.7,
+   "type": "word",
+   "logprob": -1.7881390116751086e-07
+  },
+  {
+   "text": " ",
+   "start": 11.7,
+   "end": 11.76,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "it.",
+   "start": 11.76,
+   "end": 11.959999999999999,
+   "type": "word",
+   "logprob": -7.94728502266177e-08
+  },
+  {
+   "text": " ",
+   "start": 11.959999999999999,
+   "end": 12.36,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "One",
+   "start": 12.36,
+   "end": 12.459999999999999,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 12.459999999999999,
+   "end": 12.559999999999999,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "for",
+   "start": 12.559999999999999,
+   "end": 12.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 12.66,
+   "end": 12.76,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "you,",
+   "start": 12.76,
+   "end": 12.92,
+   "type": "word",
+   "logprob": -6.496821697510313e-06
+  },
+  {
+   "text": " ",
+   "start": 12.92,
+   "end": 13.28,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "one",
+   "start": 13.28,
+   "end": 13.44,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 13.44,
+   "end": 13.48,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "to",
+   "start": 13.48,
+   "end": 13.58,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.58,
+   "end": 13.62,
+   "type": "spacing",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "gift.",
+   "start": 13.62,
+   "end": 13.94,
+   "type": "word",
+   "logprob": -7.629391575392219e-07
+  },
+  {
+   "text": " ",
+   "start": 13.94,
+   "end": 14.28,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It's",
+   "start": 14.28,
+   "end": 14.379999999999999,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.379999999999999,
+   "end": 14.42,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "in",
+   "start": 14.42,
+   "end": 14.5,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 14.5,
+   "end": 14.54,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 14.54,
+   "end": 14.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.62,
+   "end": 14.68,
+   "type": "spacing",
+   "logprob": -0.00018225439998786896
+  },
+  {
+   "text": "orange",
+   "start": 14.68,
+   "end": 14.9,
+   "type": "word",
+   "logprob": -0.00018225439998786896
+  },
+  {
+   "text": " ",
+   "start": 14.9,
+   "end": 15.0,
+   "type": "spacing",
+   "logprob": -0.00014399446081370115
+  },
+  {
+   "text": "cart.",
+   "start": 15.0,
+   "end": 15.26,
+   "type": "word",
+   "logprob": -0.02268026089295745
+  }
+ ],
+ "transcription_id": "8wCnFddOBlMcrWK7psEC",
+ "audio_duration_secs": 15.459999999999999
+}

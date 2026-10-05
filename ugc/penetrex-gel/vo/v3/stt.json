@@ -1,0 +1,618 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9781489372253418,
+ "text": "Your dad will never buy this for himself. His hands are tired every night. Penetrex Joint and Muscle Care rolls on, no hand washing. With arnica, vitamin B6, and MSM. One for him, one for you. Colder weather's coming. It's in the orange cart.",
+ "words": [
+  {
+   "text": "Your",
+   "start": 0.1,
+   "end": 0.18,
+   "type": "word",
+   "logprob": -5.006777428206988e-06
+  },
+  {
+   "text": " ",
+   "start": 0.18,
+   "end": 0.26,
+   "type": "spacing",
+   "logprob": -8.546940807718784e-05
+  },
+  {
+   "text": "dad",
+   "start": 0.26,
+   "end": 0.48,
+   "type": "word",
+   "logprob": -8.546940807718784e-05
+  },
+  {
+   "text": " ",
+   "start": 0.48,
+   "end": 0.5,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "will",
+   "start": 0.5,
+   "end": 0.64,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 0.64,
+   "end": 0.82,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "never",
+   "start": 0.82,
+   "end": 1.08,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": " ",
+   "start": 1.08,
+   "end": 1.18,
+   "type": "spacing",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": "buy",
+   "start": 1.18,
+   "end": 1.34,
+   "type": "word",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": " ",
+   "start": 1.34,
+   "end": 1.38,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "this",
+   "start": 1.38,
+   "end": 1.54,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.54,
+   "end": 1.56,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "for",
+   "start": 1.56,
+   "end": 1.66,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 1.66,
+   "end": 1.7,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "himself.",
+   "start": 1.7,
+   "end": 2.3,
+   "type": "word",
+   "logprob": -1.9967441815538223e-06
+  },
+  {
+   "text": " ",
+   "start": 2.3,
+   "end": 2.6,
+   "type": "spacing",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "His",
+   "start": 2.6,
+   "end": 2.76,
+   "type": "word",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": " ",
+   "start": 2.76,
+   "end": 2.82,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "hands",
+   "start": 2.82,
+   "end": 3.04,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.04,
+   "end": 3.06,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "are",
+   "start": 3.06,
+   "end": 3.18,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.18,
+   "end": 3.26,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "tired",
+   "start": 3.26,
+   "end": 3.62,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": " ",
+   "start": 3.62,
+   "end": 3.84,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "every",
+   "start": 3.84,
+   "end": 4.1,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 4.1,
+   "end": 4.2,
+   "type": "spacing",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "night.",
+   "start": 4.2,
+   "end": 4.62,
+   "type": "word",
+   "logprob": -1.8080055686671888e-06
+  },
+  {
+   "text": " ",
+   "start": 4.62,
+   "end": 5.16,
+   "type": "spacing",
+   "logprob": -0.01830470934510231
+  },
+  {
+   "text": "Penetrex",
+   "start": 5.16,
+   "end": 5.64,
+   "type": "word",
+   "logprob": -0.012362569686956704
+  },
+  {
+   "text": " ",
+   "start": 5.64,
+   "end": 5.74,
+   "type": "spacing",
+   "logprob": -0.003262556390836835
+  },
+  {
+   "text": "Joint",
+   "start": 5.74,
+   "end": 5.96,
+   "type": "word",
+   "logprob": -0.003262556390836835
+  },
+  {
+   "text": " ",
+   "start": 5.96,
+   "end": 5.98,
+   "type": "spacing",
+   "logprob": -0.0011724510695785284
+  },
+  {
+   "text": "and",
+   "start": 5.98,
+   "end": 6.08,
+   "type": "word",
+   "logprob": -0.0011724510695785284
+  },
+  {
+   "text": " ",
+   "start": 6.08,
+   "end": 6.14,
+   "type": "spacing",
+   "logprob": -0.005368933547288179
+  },
+  {
+   "text": "Muscle",
+   "start": 6.14,
+   "end": 6.4,
+   "type": "word",
+   "logprob": -0.005368933547288179
+  },
+  {
+   "text": " ",
+   "start": 6.4,
+   "end": 6.5,
+   "type": "spacing",
+   "logprob": -0.002563644666224718
+  },
+  {
+   "text": "Care",
+   "start": 6.5,
+   "end": 6.74,
+   "type": "word",
+   "logprob": -0.002563644666224718
+  },
+  {
+   "text": " ",
+   "start": 6.74,
+   "end": 7.1,
+   "type": "spacing",
+   "logprob": -0.002204370917752385
+  },
+  {
+   "text": "rolls",
+   "start": 7.1,
+   "end": 7.36,
+   "type": "word",
+   "logprob": -0.002204370917752385
+  },
+  {
+   "text": " ",
+   "start": 7.36,
+   "end": 7.46,
+   "type": "spacing",
+   "logprob": -2.1457441107486375e-05
+  },
+  {
+   "text": "on,",
+   "start": 7.46,
+   "end": 7.68,
+   "type": "word",
+   "logprob": -0.0010857825024383299
+  },
+  {
+   "text": " ",
+   "start": 7.68,
+   "end": 7.68,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "no",
+   "start": 8.02,
+   "end": 8.2,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 8.2,
+   "end": 8.26,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "hand",
+   "start": 8.26,
+   "end": 8.46,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 8.46,
+   "end": 8.5,
+   "type": "spacing",
+   "logprob": -0.01651064306497574
+  },
+  {
+   "text": "washing.",
+   "start": 8.5,
+   "end": 8.94,
+   "type": "word",
+   "logprob": -0.01568082079757005
+  },
+  {
+   "text": " ",
+   "start": 8.94,
+   "end": 9.42,
+   "type": "spacing",
+   "logprob": -5.8412379075889476e-06
+  },
+  {
+   "text": "With",
+   "start": 9.42,
+   "end": 9.6,
+   "type": "word",
+   "logprob": -5.8412379075889476e-06
+  },
+  {
+   "text": " ",
+   "start": 9.6,
+   "end": 9.66,
+   "type": "spacing",
+   "logprob": -0.16060101985931396
+  },
+  {
+   "text": "arnica,",
+   "start": 9.66,
+   "end": 10.08,
+   "type": "word",
+   "logprob": -0.045958991162474865
+  },
+  {
+   "text": " ",
+   "start": 10.08,
+   "end": 10.34,
+   "type": "spacing",
+   "logprob": -0.0019337303237989545
+  },
+  {
+   "text": "vitamin",
+   "start": 10.34,
+   "end": 10.68,
+   "type": "word",
+   "logprob": -0.0019337303237989545
+  },
+  {
+   "text": " ",
+   "start": 10.68,
+   "end": 10.76,
+   "type": "spacing",
+   "logprob": -1.0132738680113107e-05
+  },
+  {
+   "text": "B6,",
+   "start": 10.78,
+   "end": 11.3,
+   "type": "word",
+   "logprob": -0.00017461936658946797
+  },
+  {
+   "text": " ",
+   "start": 11.3,
+   "end": 11.4,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "and",
+   "start": 11.4,
+   "end": 11.48,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 11.48,
+   "end": 11.62,
+   "type": "spacing",
+   "logprob": -0.00019131260341964662
+  },
+  {
+   "text": "MSM.",
+   "start": 11.62,
+   "end": 12.14,
+   "type": "word",
+   "logprob": -0.00014378247561808166
+  },
+  {
+   "text": " ",
+   "start": 12.14,
+   "end": 12.14,
+   "type": "spacing",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "One",
+   "start": 12.66,
+   "end": 12.76,
+   "type": "word",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": " ",
+   "start": 12.76,
+   "end": 12.86,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "for",
+   "start": 12.86,
+   "end": 12.96,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 12.96,
+   "end": 13.0,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "him,",
+   "start": 13.0,
+   "end": 13.22,
+   "type": "word",
+   "logprob": -9.238706244474315e-07
+  },
+  {
+   "text": " ",
+   "start": 13.22,
+   "end": 13.6,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "one",
+   "start": 13.6,
+   "end": 13.72,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 13.72,
+   "end": 13.8,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "for",
+   "start": 13.8,
+   "end": 13.92,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.92,
+   "end": 14.0,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "you.",
+   "start": 14.0,
+   "end": 14.18,
+   "type": "word",
+   "logprob": -2.9802305334669654e-07
+  },
+  {
+   "text": " ",
+   "start": 14.18,
+   "end": 14.18,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "Colder",
+   "start": 14.72,
+   "end": 14.98,
+   "type": "word",
+   "logprob": -1.817922108671155e-05
+  },
+  {
+   "text": " ",
+   "start": 14.98,
+   "end": 15.04,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "weather's",
+   "start": 15.04,
+   "end": 15.36,
+   "type": "word",
+   "logprob": -4.98020731735475e-06
+  },
+  {
+   "text": " ",
+   "start": 15.36,
+   "end": 15.4,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "coming.",
+   "start": 15.4,
+   "end": 15.74,
+   "type": "word",
+   "logprob": -5.960455971327454e-07
+  },
+  {
+   "text": " ",
+   "start": 15.74,
+   "end": 16.14,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "It's",
+   "start": 16.14,
+   "end": 16.239,
+   "type": "word",
+   "logprob": -5.06639251440788e-07
+  },
+  {
+   "text": " ",
+   "start": 16.239,
+   "end": 16.28,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 16.28,
+   "end": 16.34,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.34,
+   "end": 16.379,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 16.379,
+   "end": 16.44,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.44,
+   "end": 16.5,
+   "type": "spacing",
+   "logprob": -0.0001438752660760656
+  },
+  {
+   "text": "orange",
+   "start": 16.5,
+   "end": 16.72,
+   "type": "word",
+   "logprob": -0.0001438752660760656
+  },
+  {
+   "text": " ",
+   "start": 16.72,
+   "end": 16.8,
+   "type": "spacing",
+   "logprob": -2.706014311115723e-05
+  },
+  {
+   "text": "cart.",
+   "start": 16.8,
+   "end": 17.02,
+   "type": "word",
+   "logprob": -0.012415373032854404
+  }
+ ],
+ "transcription_id": "96RxwrexTitQZxVaKVHu",
+ "audio_duration_secs": 17.28
+}
