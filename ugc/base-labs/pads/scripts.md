@@ -1,45 +1,46 @@
-# Base Laboratories Ingrown Hair Pads (AHA + BHA, 42 pads): 3 REWRITTEN script options for Grace (v2, 2026-10-05)
-Grace records the voiceover herself. Same six beats and same picture as v1 (hook, pain, solution, how to use, features + sell-side line, urgency CTA), so the approved video still fits any option. v1 is kept in git history (scripts v1, 2026-10-04).
-What changed: spoken hooks come word for word from the hook library (`grace/hooks/HOOKS.md`, id in each header, no id reused across the 6 scripts), no personal-use claims, no 'label says', review findings passed on the way Grace would, every line trimmed to its shot length, text overlay is now an optional yes/no item (burned in only on Ralph's yes).
+# Base Laboratories Ingrown Hair Pads (AHA + BHA, 42 pads): scripts v3 (2026-10-05), rewritten after Grace rejected v2
+Grace records the voiceover herself. v3 drops the fixed hook/pain/solution/confession/CTA template: each script explains WHY the problem happens before it sells, uses the hook library's use_when/note to pick the hook, and closes calm with a real season. No sell-side confession, no gift lines. Text overlay is optional, only on Ralph's yes. v1 and v2 stay in git history.
 
-## Option A: Specific problem call-out + never-seen-until-now (hook H066)
-Optional on-screen text (only if Ralph says yes; never default): "the step after shaving"  |  Modeled on: H066 + Grace style 1 (Shnuggle) + @alexasimoneee 29k pads jar demo
+## Option A: Contrarian: maybe it is not your razor (mechanism-led) (hook H077)
+Optional on-screen text (only if Ralph says yes): "not the razor"  |  Modeled on: H077 (use_when: obvious explanation is not the whole story; needs a credible alternative = dead skin over the follicle) + @katmademebuyit 195k (follicle trapped, exfoliate)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | This is such a specific problem, but if you have it, you know. |
-| pain | You shave, and by morning there are bumps along your bikini line. |
-| solution | I have never seen pads made for ingrown hairs until now. AHA and BHA help clear pores. |
-| how to use | Swipe one in one direction and let it dry. No rinsing. |
-| features + confession | Forty-two pads, for underarms and legs too. The only problem? No more blaming the razor. |
-| urgency CTA | Party dress season is coming, so don't put this off. Grab one for you and one for your sister. It's in the orange cart. |
+| 1 | Maybe the problem is not your razor. |
+| 2 | Change blades, shave slower, switch soap, and the bumps still come back. |
+| 3 | Dead skin and buildup around the hair can keep it from growing out, so it gets stuck underneath. |
+| 4 | These AHA and BHA pads lift that dead skin and help keep your pores clear. |
+| 5 | Swipe one over clean, dry skin at night, one direction, and let it dry. |
+| 6 | Forty-two in the jar, so you can use them every day for a while. |
+| 7 | Party season is coming, so I'd start before it gets here. They're in the orange cart. |
 
-92 words, about 28s at 3.3 words/s (picture is 29s).
+96 words, about 29s at 3.3 words/s (picture is 29s).
 
-## Option B: Curiosity loop: why bumps show up the next day (hook H062)
-Optional on-screen text (only if Ralph says yes; never default): "the step everyone skips"  |  Modeled on: H062 + @jazmeencaldwell 41k (two days after shaving) + @katmademebuyit 195k (exfoliate) + Grace style 2 (finally + her situation)
+## Option B: Recognizable moment: the mirror check (pain, then why) (hook H062)
+Optional on-screen text (only if Ralph says yes): "the mirror check"  |  Modeled on: H062 (use_when: very recognizable little situation; finish with a concrete moment) + @jazmeencaldwell 41k (clogged pores as the reason, plain how-to)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | You know that moment when you shave one day and the bumps show up the next? |
-| pain | Dead skin and clogged pores can trap hairs under your skin. |
-| solution | If bumps keep showing up, these AHA and BHA pads lift dead skin and help keep pores clear. |
-| how to use | Swipe one over clean, dry skin at night, one direction, and let it dry. |
-| features + confession | Forty-two in the jar. The only problem? Now there's no excuse to skip it. |
-| urgency CTA | Party season is coming, so don't put this off. Grab one for you, one to gift. It's in the orange cart. |
+| 1 | You know that moment when you put on something sleeveless and check your underarms in the mirror first? |
+| 2 | A lot of the time it's dead skin and clogged pores sitting right over the hair. |
+| 3 | AHA and BHA pads lift that dead skin and help keep pores clear, so there's less in the way. |
+| 4 | Swipe one over clean, dry skin at night and let it dry. No rinsing. |
+| 5 | Forty-two pads is a lot of nights covered. |
+| 6 | Sleeveless weather is months away, which is why now is the quiet time to start. They're in the orange cart. |
 
-98 words, about 30s at 3.3 words/s (picture is 29s).
+95 words, about 29s at 3.3 words/s (picture is 29s).
 
-## Option C: Easy upgrade: shaving is step one, this is step two (hook H154)
-Optional on-screen text (only if Ralph says yes; never default): "step two after shaving"  |  Modeled on: H154 + @joshyydeals 24k (razor then product pattern) + @tiktokshopdeals4you 1.6M (one action per cut) + Grace style 3 (features one by one)
+## Option C: One detail: it has both AHA and BHA (hook H101)
+Optional on-screen text (only if Ralph says yes): "one detail changes it"  |  Modeled on: H101 (use_when: one feature changes the appeal; reveal fast) + @katmademebuyit 195k (AHA and BHA work together)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | This is such an easy upgrade for your shave routine. |
-| pain | If your skin gets red and bumpy after you shave, this step is for you. |
-| solution | Glycolic and lactic acid smooth, salicylic acid clears pores, and witch hazel helps calm redness. |
-| how to use | Swipe once, one direction, and let it dry. That's the whole step. |
-| features + confession | Forty-two pads, so every shave day is covered. The only problem? Now there's no skipping it. |
-| urgency CTA | Dress season's coming, so don't put this off. Grab two, one for home, one for your bag. It's in the orange cart. |
+| 1 | There is one detail here that changes the whole thing. |
+| 2 | It has both AHA and BHA. |
+| 3 | AHA works on the dead skin sitting on top. BHA is for the pore underneath. Between the two, there's less to trap a hair. |
+| 4 | Witch hazel is in there too, to help calm redness. |
+| 5 | Swipe once, one direction, and let it dry. That's the whole step. |
+| 6 | Forty-two pads in the jar, so it can be part of every shave day. |
+| 7 | If dress season is on your list, start now. They're in the orange cart. |
 
 90 words, about 27s at 3.3 words/s (picture is 29s).

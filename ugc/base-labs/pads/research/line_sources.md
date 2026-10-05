@@ -1,11 +1,10 @@
-# Source of every line (v2, 2026-10-05)
-| Line family | Role | Source |
-|---|---|---|
-| hook, all 6 | hook | hook library `grace/hooks/HOOKS.md`: A=H066, B=H062, C=H154 (word for word) |
-| bumps by morning / dead skin traps hairs / red and itchy / tight and irritated | pain | PLAYBOOK §4 pain beat; brand claims; coach @itss.karla14, @jazmeencaldwell, @katmademebuyit all open on shave bumps |
-| 'never seen ... until now' (A), 'if you shave and keep getting bumps' (B), ingredients one by one (C) | solution | PLAYBOOK §3 Grace styles 1, 2, 3 |
-| AHA/BHA, glycolic, lactic, salicylic, witch hazel; tea tree, jojoba, grape seed; prevents ingrown hairs and razor bumps; softens coarse hair; lightweight | solution/features | product_facts.md (brand page, TikTok title, listing); 'People say it's never greasy' = shop reviews passed on (PLAYBOOK §1, no 'reviewer') |
-| how-to lines | how to use | brand directions; PLAYBOOK §2 remove uncertainty |
-| 'The only problem?' / 'The only downside?' | sell-side confession | PLAYBOOK §1 (no warnings; 'now there's no skipping it'); varied per option |
-| season is coming, don't put this off; grab one/two, gift or bag | CTA | PLAYBOOK §1/§4 real seasonal reason, count/gift CTA, no 'order it now', no price |
-| It's in the orange cart. | close | Grace standard close |
+# Source of every line (v3, 2026-10-05)
+| Line family | Source |
+|---|---|
+| hooks | hook library, ids in hooks.md (use_when matched to the product) |
+| why the bumps happen (dead skin/buildup/clogged pores over the hair; coarse hair, dry irritated skin) | brand claims (lift dead skin, help free trapped hairs, softens coarse hair), coach @katmademebuyit, @jazmeencaldwell (reason first) |
+| AHA/BHA, witch hazel, jojoba, grape seed, tea tree, absorbs fast, not greasy | product_facts.md (brand page, TikTok title/listing); 'people say' = shop reviews passed on (PLAYBOOK §1) |
+| how-to lines | brand directions (clean dry skin, one direction, let dry; 2-4 drops, massage in circles, morning and night) |
+| forty-two / one-ounce | product_facts.md |
+| seasonal close (party/dress/sleeveless/holiday), 'start now' | PLAYBOOK §1 real season, no false scarcity, no price, no 'order it now' |
+| 'They're / It's in the orange cart.' | Grace's close |

@@ -1,10 +1,8 @@
-# Hooks v2 (2026-10-05): spoken hook from the library, word for word; optional text only on Ralph's yes
-| # | Library id | Template | Filled (blank only) | Modeled on |
+# Hooks v3 (2026-10-05): picked from the library's use_when/note, word for word; text only on Ralph's yes
+| # | Id | Template | Spoken | Why it fits (use_when / note) |
 |---|---|---|---|---|
-| A | H095 | I am just going to show you because explaining it is harder | I am just going to show you because explaining it is harder. | see scripts.md |
-| B | H065 | Does anybody else __? | Does anybody else get itchy bumps every time they shave? | see scripts.md |
-| C | H028 | If you are wondering whether __, here you go | If you are wondering whether there is anything made for ingrown hairs, here you go. | see scripts.md |
+| A | H066 | see HOOKS.md | This is such a specific problem, but if you have it, you know. | H066 (use_when: pain point is narrow but meaningful) + @jazmeencaldwell 41k (reason first) + listing wording (softens coarse hair) |
+| B | H065 | see HOOKS.md | Does anybody else get itchy bumps in the same spot every time they shave? | H065 + @jazmeencaldwell 41k (out of the shower, clean dry skin, absorb) + @katmademebuyit 195k |
+| C | H131 | see HOOKS.md | Before the season changes, look at this. | H131 (use_when: seasonal anticipation; explain how the product supports the transition) + @tiktokshopdeals4you 1.6M (one action per cut) |
 
-No contractions or rewording inside any hook. No id reused across the 6 scripts (pads H066/H062/H154, oil H095/H065/H028). Chosen because they claim no personal use (Grace has not used it, PLAYBOOK §1): skipped 'I keep reaching for this', 'The first thing I checked'.
-Grace's own styles (PLAYBOOK §3): style 1 category gap in A of each product, style 2 finally + her situation in B, style 3 features one by one in C.
-Fresh winners 2026-10-05 (viral2/, videos2b/): @itss.karla14 11k (First Aid ingrown set, 'razor bumps or ingrown hairs... I hate whenever I get little razor bumps', passes on what a friend/reviews say, reads the directions); @komingdou.persona 8.7k (call-out first, one benefit per line); ROZINO cream 108k (no transcript). Same takeaways as 2026-10-04: pain in the first line, plain how-to, product in hand at frame 0.
+Grace rejected v1 and v2 (fixed hook/pain/solution/confession/CTA template, gift lines, 'only problem' confessions). v3 = explain WHY first (what winners do: @katmademebuyit follicle trapped, @jazmeencaldwell clogged pores, @itss.karla14 plain directions), hook chosen by use_when, no confession, no gift, calm real-season close, count line ('forty-two in the jar') kept for units. Fresh data in viral2/ and videos2b/ (2026-10-05).

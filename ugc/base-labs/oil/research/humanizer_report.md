@@ -1,11 +1,2 @@
-# Humanizer report (skill invoked 2026-10-05): oil v2, 3 scripts + optional text
-Drafted, then scanned §1 contrasts, §2 closers, §6 triads, §8 dashes, §19 bold, §17 authority.
-| Draft line | Tell | Change |
-|---|---|---|
-| 'Razors can leave your skin red, itchy and dry' | §6 triad | 'red and itchy' |
-| 'a pivotal / key step' | §12 inflation | not used |
-| 'It's not just a pad, it's a routine' | §1 contrast | not used |
-| 'The only problem? ...' | §4 staged candor | kept: Grace's sanctioned confession (PLAYBOOK §1), reworded in each option, three different endings |
-| 'Glycolic and lactic acid smooth, salicylic acid clears pores, and witch hazel helps calm redness' (pads C) | list | kept: four real features, one job each |
-| library hooks | n/a | untouched on purpose (word for word, Ralph 2026-10-05) |
-No dashes, no price, no personal-use claim, no 'label says', no scarcity, no 'order it now'. Contractions only in body lines.
+# Humanizer report (skill invoked 2026-10-05): oil v3
+Scanned §1 contrasts, §2 closers, §6 triads, §8 dashes, §17 authority. Removed: 'The only problem?' confessions (staged candor and Grace rejected), gift/count-cta lines, all one-line closers. Kept: 'jojoba, grape seed and tea tree' and AHA/BHA/witch hazel (real ingredient lists, one job each). Library hooks untouched on purpose. 'Change blades, shave slower, switch soap' is a real three-item list the viewer has tried. No dashes, price, 'label says', personal-use claim, false scarcity or 'order it now'.
