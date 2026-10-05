@@ -81,7 +81,8 @@ and ask questions, do not assume, because that's how we waste time and money."
 - **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
   (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
-  what it shows (hook text in frame 0, pace, cuts) before sending.
+  what it shows (pace, cuts) before sending.
+- **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay.
 - **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
