@@ -44,7 +44,7 @@ not in a new file.
 2. **One test clip before any batch** (all 8 clips once came back in the wrong outfit: $1.52 instead of $0.21).
 3. **QC before sending anything; Ralph must never be the one to find it:** every clip ≥1.0x (never stretch footage),
    lips move whenever a face is on screen during the voiceover, product never cropped off or smeared, no forehead
-   wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face.
+   wrinkles, same outfit/product in every shot, frame-by-frame check where hands or the product cross the face; 2x zoom on the edges of every person or body part (hand, face, hair, full body) and the first second before any paid clip or review: no halo, outline, smear or colour fringe (Ralph 2026-10-04).
 4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
    leave the product description out of shots that must not show the product.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
@@ -94,6 +94,8 @@ not in a new file.
 - **GTT Black KN95 50-pack (Grace), 2026-10-03:** hands-only AI ad, 31s, 10 shots matched to the VO, `ugc/gtt-kn95/out/gtt_kn95.mp4` APPROVED; in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)); $4.375 Kie vs $2.75 first quote (redos, each asked). README Status line. Grace reference sheet: `grace/ref/`.
 
 - **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04:** one silent hands-only AI video each (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/` 28.2s each, APPROVED, in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P: 3 hook-text versions per video + scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); $4.851 Kie vs $3.46 quote (Seedance rerolls, each asked). Retime to Grace's VO when she sends it (free). README Status line.
+
+- **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). REBUILT on the real bedroom wide (bed, rug, doors) from approved Drive Video 2, all free, updated in Drive in place; Drive folder organized (superseded Video 1 + Video 3 originals in Older versions). Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section).
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
