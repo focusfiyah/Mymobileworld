@@ -21,7 +21,7 @@
   "Fill every blank with a concrete moment from the product research, never a broad problem.",
   "The line after the hook answers or proves it on screen right away (demo, close-up, the back/side/pocket shot).",
   "Spread hook types across a product's videos (no two videos of one product on the same id; TikTok flags repeats).",
-  "Comparison hooks (rows 71-75, 135-144) override the 'only our product' rule (Ralph, 2026-10-05): a second product may be on screen. Price can be talked about (\"the cheaper one\"), but never a price number.",
+  "Comparison hooks (rows 71-75, 135-144) override the 'only our product' rule (Ralph, 2026-10-05): a second product may be on screen, and its brand may be named on screen and in the script unless Ralph says otherwise for that video. Price can be talked about (\"the cheaper one\"), but never a price number.",
   "These are spoken hooks. On-screen text stays curiosity-only, 5-7 words, and is burned in only on Ralph's yes.",
   "Log which id each finished video used (`used_in`) so results can show which hook types win.",
   "Types are as in the sheet; 'Comparison Hook', 'Time Pressure Hook' and 'Simple Fix Hook' are filed as Comparison, Time Pressure and Simple Fix."
@@ -1031,7 +1031,7 @@
    ],
    "note": "Show both versions together.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H072",
@@ -1044,7 +1044,7 @@
    ],
    "note": "Keep explanation short and let the camera work.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H073",
@@ -1060,7 +1060,7 @@
    ],
    "note": "Immediately explain what creates the difference.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H074",
@@ -1076,7 +1076,7 @@
    ],
    "note": "Good for texture, fit, weight, sound, or construction.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H075",
@@ -1089,7 +1089,7 @@
    ],
    "note": "Give one clear reason for your choice.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H076",
@@ -1895,7 +1895,7 @@
    ],
    "note": "Compare the features that matter during actual use.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H136",
@@ -1910,7 +1910,7 @@
    ],
    "note": "Clarify which priority matters for the intended buyer.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H137",
@@ -1923,7 +1923,7 @@
    ],
    "note": "Demonstrate the experience that separates them.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H138",
@@ -1936,7 +1936,7 @@
    ],
    "note": "Explain where the lower-cost option performs well.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook. Saying 'cheaper' or comparing price is fine; never say a price number."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook. Saying 'cheaper' or comparing price is fine; never say a price number."
   },
   {
    "id": "H139",
@@ -1949,7 +1949,7 @@
    ],
    "note": "Match each option to a different buyer or need.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H140",
@@ -1962,7 +1962,7 @@
    ],
    "note": "Show that the better choice depends on the use case.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H141",
@@ -1975,7 +1975,7 @@
    ],
    "note": "Reveal the less obvious distinction that affects the experience.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H142",
@@ -1990,7 +1990,7 @@
    ],
    "note": "Compare two meaningful benefits without forcing one winner.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H143",
@@ -2003,7 +2003,7 @@
    ],
    "note": "Describe how design or usability changes the result.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H144",
@@ -2016,7 +2016,7 @@
    ],
    "note": "Help the viewer identify the priority that should guide the choice.",
    "used_in": [],
-   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook."
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
   },
   {
    "id": "H145",

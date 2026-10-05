@@ -9,7 +9,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Fill every blank with a concrete moment from the product research, never a broad problem.
 - The line after the hook answers or proves it on screen right away (demo, close-up, the back/side/pocket shot).
 - Spread hook types across a product's videos (no two videos of one product on the same id; TikTok flags repeats).
-- Comparison hooks (rows 71-75, 135-144) override the 'only our product' rule (Ralph, 2026-10-05): a second product may be on screen. Price can be talked about ("the cheaper one"), but never a price number.
+- Comparison hooks (rows 71-75, 135-144) override the 'only our product' rule (Ralph, 2026-10-05): a second product may be on screen, and its brand may be named on screen and in the script unless Ralph says otherwise for that video. Price can be talked about ("the cheaper one"), but never a price number.
 - These are spoken hooks. On-screen text stays curiosity-only, 5-7 words, and is burned in only on Ralph's yes.
 - Log which id each finished video used (`used_in`) so results can show which hook types win.
 - Types are as in the sheet; 'Comparison Hook', 'Time Pressure Hook' and 'Simple Fix Hook' are filed as Comparison, Time Pressure and Simple Fix.
@@ -340,7 +340,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: Two similar products perform or feel noticeably different
 - Best for: Home, Beauty, Fashion, Electronics
 - Note: Immediately explain what creates the difference.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H080. "I kept buying __ when what I actually wanted was __"**
 - Use when: The buyer has been solving the wrong problem
@@ -593,85 +593,85 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: The contrast is visually meaningful
 - Best for: Beauty, Fashion, Home, Electronics
 - Note: Show both versions together.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H072. "This is one of those things you have to see side by side"**
 - Use when: The difference is hard to appreciate in isolation
 - Best for: Any visual product
 - Note: Keep explanation short and let the camera work.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H074. "I thought these would feel basically the same"**
 - Use when: Two options look similar but differ in use
 - Best for: Fashion, Beauty, Home, Accessories
 - Note: Good for texture, fit, weight, sound, or construction.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H075. "This is why I picked this version instead"**
 - Use when: The buyer has multiple comparable options
 - Best for: Any category
 - Note: Give one clear reason for your choice.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H135. "I tried both so you can see the real difference"**
 - Use when: Contrast effect + authority
 - Best for: Product comparisons
 - Note: Compare the features that matter during actual use.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H136. "One looks better, but the other works better"**
 - Use when: Appearance-performance contrast
 - Best for: Beauty, Fashion, Home
 - Note: Clarify which priority matters for the intended buyer.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H137. "These seem identical until you use them"**
 - Use when: Similarity disruption + curiosity
 - Best for: Side-by-side reviews
 - Note: Demonstrate the experience that separates them.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H138. "The cheaper one surprised me"**
 - Use when: Price expectation reversal
 - Best for: Affordable comparisons
 - Note: Explain where the lower-cost option performs well.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook. Saying 'cheaper' or comparing price is fine; never say a price number.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook. Saying 'cheaper' or comparing price is fine; never say a price number.
 
 **H139. "Here is who should choose each one"**
 - Use when: Decision clarity + personalization
 - Best for: Product comparisons
 - Note: Match each option to a different buyer or need.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H140. "I would buy this one for __ and the other for __"**
 - Use when: Context-based decision making
 - Best for: Product comparisons
 - Note: Show that the better choice depends on the use case.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H141. "The real difference is not what you think"**
 - Use when: Information gap + contrast
 - Best for: Product education
 - Note: Reveal the less obvious distinction that affects the experience.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H142. "This one saves space, but this one saves time"**
 - Use when: Trade-off framing + decision support
 - Best for: Home, Travel, Organization
 - Note: Compare two meaningful benefits without forcing one winner.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H143. "Same purpose, completely different experience"**
 - Use when: Contrast effect + sensory anticipation
 - Best for: Product comparisons
 - Note: Describe how design or usability changes the result.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 **H144. "Before you choose between these, decide what matters more"**
 - Use when: Value clarification + decision support
 - Best for: Buying guides
 - Note: Help the viewer identify the priority that should guide the choice.
-- Grace note: Ralph OK 2026-10-05: a second product may be shown, overriding 'only our product' for this hook.
+- Grace note: Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook.
 
 ## Contrarian
 
