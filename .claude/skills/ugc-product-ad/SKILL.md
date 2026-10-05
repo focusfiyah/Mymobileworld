@@ -79,7 +79,7 @@ and ask questions, do not assume, because that's how we waste time and money."
   hands or the product cross the face; nothing resting on thin air (a Vicks still put the box past the vanity
   edge and Ralph caught it: free fix = crop the frame to end at the object's base).
 - **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
-  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (1) tiktok-shop-coach: research + 3 hook options (Grace: start from `grace/hooks/HOOKS.md`, cite the id) (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
   what it shows (pace, cuts) before sending.
 - **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay.

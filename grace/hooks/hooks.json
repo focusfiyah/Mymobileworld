@@ -1,0 +1,386 @@
+{
+ "batches": [
+  {
+   "id": "B1",
+   "date": "2026-10-05",
+   "source": "Ralph's sheet screenshot, rows 2-28 (27 hooks)"
+  }
+ ],
+ "rules": [
+  "Every Grace script picks its spoken hook options from here first (plus the coach-modeled hooks, PLAYBOOK §3); name the hook id in the plan's line sources (e.g. `B1-15`).",
+  "Fill every blank with a concrete moment from the product research, never a broad problem.",
+  "Spoken lines are stored verbatim from the sheet; Grace says them with contractions (\"I can't stand\", \"I'm very particular\") after the humanizer pass.",
+  "The line after the hook answers or proves it on screen right away (demo, close-up, the back/side/pocket shot).",
+  "Spread hook types across a product's videos (no two videos of one product on the same id; TikTok flags repeats).",
+  "These are spoken hooks. On-screen text stays curiosity-only, 5-7 words, and is burned in only on Ralph's yes.",
+  "Log which id each finished video used (`used_in`) so results can show which hook types win."
+ ],
+ "hooks": [
+  {
+   "id": "B1-01",
+   "hook": "This is the part I actually care about",
+   "type": "Observation",
+   "use_when": "You want to lead with a specific detail, feature, or payoff that matters more than the obvious selling point.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Helps the creator center the video around one meaningful detail instead of trying to explain everything.",
+   "used_in": []
+  },
+  {
+   "id": "B1-02",
+   "hook": "I keep reaching for this more than I expected",
+   "type": "Routine",
+   "use_when": "You're showing a product that has quietly become part of your normal day, outfit, setup, or routine.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen",
+    "Wellness"
+   ],
+   "note": "Feels natural and experience-based without needing a dramatic transformation or problem.",
+   "used_in": []
+  },
+  {
+   "id": "B1-03",
+   "hook": "This just makes everything feel a little more put together",
+   "type": "Emotional Outcome",
+   "use_when": "You're selling the feeling the product creates rather than a major functional result.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Gives creators a softer way to talk about aesthetic or emotional payoff without overhyping the product.",
+   "used_in": []
+  },
+  {
+   "id": "B1-04",
+   "hook": "One thing I cannot stand is __",
+   "type": "Problem Callout",
+   "use_when": "The product solves a very specific annoyance people immediately recognize.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Fashion",
+    "Pets"
+   ],
+   "note": "Be specific about the annoying moment. The blank should not be a broad problem.",
+   "used_in": []
+  },
+  {
+   "id": "B1-05",
+   "hook": "I did not realize how much __ bothered me until I stopped dealing with it",
+   "type": "Observation",
+   "use_when": "The benefit is easier to appreciate after experiencing the alternative.",
+   "best_for": [
+    "Problem-solving products",
+    "Home",
+    "Beauty"
+   ],
+   "note": "Works best when you can visibly show what changed.",
+   "used_in": []
+  },
+  {
+   "id": "B1-06",
+   "hook": "I have been putting up with this for way too long",
+   "type": "Problem Callout",
+   "use_when": "The buyer may have normalized an irritating problem.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Organization"
+   ],
+   "note": "Name the actual thing you were putting up with quickly.",
+   "used_in": []
+  },
+  {
+   "id": "B1-07",
+   "hook": "If you also hate when __, look at this",
+   "type": "Problem Callout",
+   "use_when": "The product solves minor everyday friction.",
+   "best_for": [
+    "Everyday problem-solving products"
+   ],
+   "note": "Fill the blank with a concrete situation, not a vague pain point.",
+   "used_in": []
+  },
+  {
+   "id": "B1-08",
+   "hook": "This is such a small thing, but it annoys me every single time",
+   "type": "Observation",
+   "use_when": "You're talking about a small, recurring annoyance that isn't dramatic, but happens often enough to make the product feel useful.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Accessories",
+    "Beauty"
+   ],
+   "note": "Small frustrations can be more believable than dramatic ones.",
+   "used_in": []
+  },
+  {
+   "id": "B1-09",
+   "hook": "Why did nobody make this easier sooner?",
+   "type": "Problem/Solution",
+   "use_when": "The solution feels obvious once viewers see it.",
+   "best_for": [
+    "Convenience products",
+    "Kitchen",
+    "Home"
+   ],
+   "note": "Let the demonstration answer the question.",
+   "used_in": []
+  },
+  {
+   "id": "B1-10",
+   "hook": "I am done pretending this does not bother me",
+   "type": "Confession",
+   "use_when": "The problem is relatable but people rarely say it out loud.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Lifestyle"
+   ],
+   "note": "Keep the tone playful rather than dramatic.",
+   "used_in": []
+  },
+  {
+   "id": "B1-11",
+   "hook": "I know this is minor, but I really do care about __",
+   "type": "Preference",
+   "use_when": "A specific preference drives the purchase.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Food"
+   ],
+   "note": "The specificity is the hook.",
+   "used_in": []
+  },
+  {
+   "id": "B1-12",
+   "hook": "Apparently I have very strong opinions about __",
+   "type": "Preference",
+   "use_when": "The product connects to a personal standard.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Kitchen",
+    "Home"
+   ],
+   "note": "Follow immediately with the preference.",
+   "used_in": []
+  },
+  {
+   "id": "B1-13",
+   "hook": "I am very particular about __",
+   "type": "Preference",
+   "use_when": "The viewer may share a strong product preference.",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Food",
+    "Home"
+   ],
+   "note": "Explain what your standard actually is.",
+   "used_in": []
+  },
+  {
+   "id": "B1-14",
+   "hook": "I do not need __ to be fancy. I just need it to __",
+   "type": "Preference",
+   "use_when": "The buyer values function over bells and whistles.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Electronics",
+    "Accessories"
+   ],
+   "note": "The second blank should be the real payoff.",
+   "used_in": []
+  },
+  {
+   "id": "B1-15",
+   "hook": "I like __, but I do not like __",
+   "type": "Contrast",
+   "use_when": "The product gives the desired benefit without a common downside.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Food",
+    "Home"
+   ],
+   "note": "One of the strongest structures for showing a tradeoff.",
+   "used_in": []
+  },
+  {
+   "id": "B1-16",
+   "hook": "I want __ without having to __",
+   "type": "Contrast",
+   "use_when": "The product removes an unwanted tradeoff.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Kitchen",
+    "Wellness"
+   ],
+   "note": "Make both sides specific and believable.",
+   "used_in": []
+  },
+  {
+   "id": "B1-17",
+   "hook": "I am willing to deal with a lot, but not __",
+   "type": "Humor",
+   "use_when": "A small frustration has become the breaking point.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Fashion",
+    "Pets"
+   ],
+   "note": "Best when the annoyance is visually obvious.",
+   "used_in": []
+  },
+  {
+   "id": "B1-18",
+   "hook": "I would rather __ than spend another day __",
+   "type": "Contrast",
+   "use_when": "The product lets the buyer avoid something frustrating.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Keep the comparison natural, not exaggerated.",
+   "used_in": []
+  },
+  {
+   "id": "B1-19",
+   "hook": "This is the part I wanted to see before I bought it",
+   "type": "Buyer Question",
+   "use_when": "The listing or other videos do not clearly answer an important purchase question.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Show the answer immediately after the hook.",
+   "used_in": []
+  },
+  {
+   "id": "B1-20",
+   "hook": "Okay, but what does the back actually look like?",
+   "type": "Question",
+   "use_when": "The back view matters to the buying decision.",
+   "best_for": [
+    "Fashion",
+    "Bags",
+    "Shapewear"
+   ],
+   "note": "Excellent for products where creators usually only show the front.",
+   "used_in": []
+  },
+  {
+   "id": "B1-21",
+   "hook": "Does it actually have usable pockets?",
+   "type": "Question",
+   "use_when": "Pocket size or placement matters.",
+   "best_for": [
+    "Fashion",
+    "Bags",
+    "Accessories"
+   ],
+   "note": "Put your hands or real items inside them.",
+   "used_in": []
+  },
+  {
+   "id": "B1-22",
+   "hook": "I needed to know how this looked from the side",
+   "type": "Buyer Question",
+   "use_when": "The side profile may reveal fit, shape, bulk, or coverage.",
+   "best_for": [
+    "Fashion",
+    "Beauty tools",
+    "Home"
+   ],
+   "note": "Show rather than over-explain.",
+   "used_in": []
+  },
+  {
+   "id": "B1-23",
+   "hook": "The first thing I checked was __",
+   "type": "Observation",
+   "use_when": "There is one feature buyers are likely to inspect first.",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Name a real buying concern.",
+   "used_in": []
+  },
+  {
+   "id": "B1-24",
+   "hook": "Here is what I would want someone to show me before I ordered this",
+   "type": "Buyer Question",
+   "use_when": "The product has several details that matter more than the listing.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Pick one or two details for this video, not every feature.",
+   "used_in": []
+  },
+  {
+   "id": "B1-25",
+   "hook": "I kept looking for a video that showed __",
+   "type": "Buyer Question",
+   "use_when": "Existing content leaves an important question unanswered.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Great opportunity for search-friendly content.",
+   "used_in": []
+  },
+  {
+   "id": "B1-26",
+   "hook": "Before you buy this, look at __",
+   "type": "Reassurance",
+   "use_when": "The buyer needs to inspect one important detail.",
+   "best_for": [
+    "Fashion",
+    "Home",
+    "Beauty",
+    "Electronics"
+   ],
+   "note": "Avoid fear-based wording. Make it useful.",
+   "used_in": []
+  },
+  {
+   "id": "B1-27",
+   "hook": "If you are wondering whether __, here you go",
+   "type": "Question",
+   "use_when": "You can directly answer a likely buyer question.",
+   "best_for": [
+    "Any product"
+   ],
+   "note": "Demonstrate the answer instead of talking around it.",
+   "used_in": []
+  }
+ ]
+}
