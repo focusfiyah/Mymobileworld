@@ -7,7 +7,7 @@ for h in data["hooks"]:
     by_type.setdefault(h["type"], []).append(h)
 out = ["# Grace hook library", "",
        "Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.json` (edit there, then run",
-       "`python3 grace/hooks/build.py`). Batches: " + ", ".join(f"{b['id']} ({b['date']}, {b['source']})" for b in data["batches"]) + ".", "",
+       "`python3 grace/hooks/build.py`). Batches: " + ", ".join(f"{b['id']} rows {b['rows']} ({b['count']} hooks, {b['date']})" for b in data["batches"]) + ".", "",
        "## How to use (every Grace job)",
        *[f"- {r}" for r in data["rules"]], "",
        "## Pick by category", ""]
@@ -23,6 +23,7 @@ for t, hs in by_type.items():
     for h in hs:
         out += [f"**{h['id']}. \"{h['hook']}\"**", f"- Use when: {h['use_when']}",
                 f"- Best for: {', '.join(h['best_for'])}", f"- Note: {h['note']}"]
+        if h.get("grace_caution"): out.append(f"- Grace caution: {h['grace_caution']}")
         if h.get("used_in"): out.append(f"- Used in: {', '.join(h['used_in'])}")
         out.append("")
 (here / "HOOKS.md").write_text("\n".join(out))

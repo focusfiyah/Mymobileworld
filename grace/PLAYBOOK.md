@@ -46,7 +46,7 @@ products follow the same rules.
 | Take the shame out | Gift angle ("your dad will never buy this himself"): the pain is felt for someone else, and it gets shares. |
 
 ## 3. Hooks
-- **Hook library (Ralph, 2026-10-05): `grace/hooks/HOOKS.md`** (source `hooks.json`, ids like `B1-15`). Pick spoken hook options from it first on every Grace job, fill blanks with concrete product moments, cite the id in line sources, never reuse one id across a product's videos. More batches coming: add them to `hooks.json`, run `build.py`.
+- **Hook library (Ralph, 2026-10-05): `grace/hooks/HOOKS.md`** (153 hooks, source `hooks.json`, id = sheet row, e.g. `H016`). Pick spoken hook options from it first on every Grace job, say them WORD FOR WORD (no contractions, Ralph 2026-10-05; only blanks get filled), cite the id in line sources, never reuse one id across a product's videos, follow any 'Grace caution'. More batches coming: add them to `hooks.json`, run `build.py`.
 - Types: problem call-out, result first, comment reply, curiosity gap, contrarian, visual pattern
   break, POV, social proof (true only), direct address.
 - **Grace's own hook style (Grace 2026-10-02, Shnuggle; use it in every product):** (1) category-gap discovery:
