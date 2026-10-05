@@ -1,38 +1,43 @@
-# Weekly: 2026-09-28 to 10-01 (week 40)
+# Weekly: Mon 2026-09-28 to Sun 10-04 (week 40)
 
-## Day One AI (personal YouTube, @dayoneaitools1)
-- **Live:** channel verified, banner, profile picture, thumbnails. Pilot published: youtu.be/8sdp88VhbWo +
-  Short youtube.com/shorts/tlut-IXq07s.
-- **Pipeline:** radar → script → render (produce.py + motion.py) → upload PRIVATE → you approve → publish.
-  Your cloned voice narrates; premade voices do the demo lines.
-- **Daily routine** at 6:45am EDT. Only a routine made on the claude.ai Routines page works (one made from a chat has
-  no repo or tools). **Move it to 11:45 UTC after Nov 1.**
-- **Lessons:** Shorts should tease, not tell (the pilot Short got views but sent few people to the full video). The radar
-  scores 10+ candidates from every source before it calls "no video today". Opus only (the Sonnet radar was shallow).
-  Composio's YouTube quota is shared → upload with yt.py.
-- **Open:** Manus 2.0 is private until your Tapfiliate link arrives. Instagram is on hold.
+## Grace (TikTok Shop UGC)
+- **About 16 jobs**, most approved and in Drive: Carpe ×2, Plant Therapy, Vicks, FUSOU vanity (6 videos + V1/V3 A/B),
+  GTT KN95, beet root, Base Labs, supplement pack (4 products), LGXNDS creatine. Scripts only: Viking, beauty pack,
+  Shnuggle, Super Blanky, Anemiaprin, TIRTIR. Kie spend ≈ $41.
+- **Her structure:** curiosity-loop hook → pain body → selling point/solution → real FOMO/urgency CTA.
+- **Her voice:** Grace talking to friends, never an expert. No prices anywhere. Honest lines sell, never a downside.
+  The CTA wants more units ("It's in the orange cart."; no "order now", no "plenty to share").
+- **Research:** model angles on top shop sellers in the niche (coach `viral`), not keyword pages. Her own ideas go first.
+- **Video standards:** real moving clips (no Ken Burns), the real product only (edit the listing photo + paste back),
+  bright with no yellow, no text or product cards unless asked, every video different, hands grip things and aren't
+  needed in every shot, 2x edge zoom before any paid clip or review.
+- **Cost control:** lock the plan in one approval, test one clip, QC before you see it, removed items stay removed.
+  Script gate: `grace/gate.py` blocks paid calls until the checklist is proven.
 
-## Clients
-- **Grace / Carpe Vanilla Peach:** hands-only ad done, waiting on notes (see the daily).
-- New ad route: **hands-only** (Kie stills + one Seedance Mini clip per shot + a free ffmpeg cut).
-  Template: `ugc/carpe-vanilla-peach/`.
+## Day One AI
+- Channel live. Published: ElevenLabs v4 pilot, Synthesia (affiliate link), Shopify Canvas (affiliate declined),
+  Syllaby Avatars 2.0. Manus 2.0 is private until its affiliate link arrives.
+- Shorts tease, don't tell. Radar: 10+ candidates from every source before "no video today".
 
-## Skills acquired
+## Skills acquired (★ = new this week)
 | Skill | What it does |
 |---|---|
-| day-one-ai | Runs the YouTube channel end to end |
-| ugc-product-ad | Every client ad route (spokesperson, skit, persona, voice patch, hands-only) |
-| tiktok-shop-coach | Free TikTok Shop research + hooks/scripts |
-| skill-inspector | Safety-scans a skill before install (run it first, always) |
-| humanizer | Makes AI-sounding text read human |
-| brag-slim / hyperframes | Launch videos / HTML-to-MP4 motion video |
-| find-skills | Finds new skills on skills.sh |
-| Playwright MCP (tool) | Real browser to check UI steps |
+| ★ tiktok-shop-coach | free TikTok Shop research, viral board, compare, readability |
+| ★ grace-product-scripts | 5 talking-head angles from a winning video |
+| ★ find-skills | search skills.sh |
+| ★ skill-inspector | safety scan before any install |
+| ★ humanizer, hyperframes, brag-slim | natural text, HTML-to-video, launch videos |
+| ugc-product-ad | every ad route + exact-product and on-camera routes, templates |
+| day-one-ai | the YouTube pipeline |
+Standard: SKILL.md under 200 lines, details in `references/`.
 
 ## Gotchas
-- Skill upload: description ≤1024 chars, no `<tags>` in it. Re-zip and re-upload after every edit.
-- Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
-- Keys are injected by the environment. Never paste them.
+- Parallel chats on one job rendered clips twice ($1.07). Re-fetch and stop the old chat before paying.
+- Grace B voice stutters don't show in timestamps; run speech-to-text after every voiceover.
+- claude.ai skill descriptions: ≤1024 chars, no `<tags>`.
 
 ## Next
-Carpe notes → final cut · Manus affiliate link · set the pilot Short's Related video · routine time change after Nov 1.
+- Merge the 6 side branches with Oct 4 work.
+- Your reviews: TIRTIR scripts, Carpe Vanilla Peach notes.
+- Manus and Syllaby affiliate links. Set Related video on the Synthesia, Shopify and Syllaby Shorts.
+- Move the Day One routine to 11:45 UTC after Nov 1.
