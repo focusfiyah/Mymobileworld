@@ -26,7 +26,8 @@ def zoom(img, z, dx=0, dy=0, interp=cv2.INTER_LINEAR):
     G = np.float32([[z, 0, C[0] - z * C[0] + dx], [0, z, C[1] - z * C[1] + dy]]); return cv2.warpAffine(img, G, (W, H), flags=interp, borderMode=cv2.BORDER_REFLECT)
 for i in range(int(dur * FPS)):
     t = i / FPS; p = t / dur
-    a = ease(min(1, t / 0.5)) * (1 - ease(min(1, max(0, (t - (dur - 0.45)) / 0.45))))        # slide in 0.5 s, out in the last 0.45 s
+    TI, TO = (1.4, 0.9) if cap is not None else (0.5, 0.45)                                   # Ralph 2026-10-05: "slow down the hand, it comes in too fast" -> 1.4 s in over 3D clips
+    a = ease(min(1, t / TI)) * (1 - ease(min(1, max(0, (t - (dur - TO)) / TO))))
     hx = side * 140 * (1 - a) + 3 * math.sin(t * 3.1) * a; hy = 8 * (1 - a) + 4 * math.sin(t * 2.3 + 1) * a
     sx, sy = 5 * math.sin(t * 1.3), 7 * math.sin(t * 1.1 + 0.5)                               # handheld sway
     if cap is not None: ok, fr = cap.read(); assert ok, "background clip too short (never stretch)"; bg = cv2.resize(fr, (W, H)); sx, sy = sx * 0.5, sy * 0.5
