@@ -52,5 +52,31 @@
    ]
   },
   "costTime": 122
+ },
+ {
+  "t": "2026-10-05 19:57:38",
+  "submitted": "eab141d2d6749f1f2df821a92f4c3264",
+  "prompt": "The camera glides on a slow curved arc to the left around the vanity while moving forward toward it, about fifteen degre"
+ },
+ {
+  "t": "2026-10-05 19:59:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera glides on a slow curved arc to the left around the vanity while moving forward toward it, about fifteen degrees of orbit, the rug and the bed edge in the foreground sliding past faster than the vanity. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230256713-l3of8wnxckd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "eab141d2d6749f1f2df821a92f4c3264",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230385994-43b60ox1mkd.mp4"
+   ]
+  },
+  "costTime": 128
  }
 ]
