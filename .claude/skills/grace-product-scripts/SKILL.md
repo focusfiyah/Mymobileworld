@@ -37,7 +37,7 @@ passes; never bypass or weaken it. Show the gate result in the plan message. Ban
 - Each angle gets its own on-screen headline + label (the reference style: a headline with an emoji plus a small
   label), different per angle so TikTok treats the posts as distinct.
 - **Deliverables:** a Claude doc for Ralph, then a PDF of it. Grace has to sign in to open a doc link, so the PDF is
-  what Ralph sends her on WhatsApp. No local markdown copy.
+  what Ralph sends her on WhatsApp. No local markdown copy. Also a Google Doc in Drive, filed per the Drive rule in step 5.
 
 ## Workflow
 
@@ -102,6 +102,11 @@ readable on a phone: no wide tables, short bullets, a 3-line intro. Sections, in
 Then export the PDF (`export` tool, format pdf, paper letter). The result is too large to print, so it lands in a
 tool-results file: decode `data.bytes_b64` into `Grace <Product> scripts.pdf` in the working directory, render a page
 with pymupdf to check it, and send it with SendUserFile. Give Ralph the doc link and the PDF.
+
+**Drive (Ralph 2026-10-05, every job):** put the scripts as a Google Doc in Drive "Grace Tiktok assets" in ONE folder per
+product (search first, reuse the product's existing folder, else create "<Product> scripts (Grace)"). Latest doc gets a
+"CURRENT - " prefix; an older set is renamed "vN (date)" and moved into an "Older versions" subfolder. Nothing loose in
+Grace Tiktok assets. Give Ralph the folder link.
 
 ## Gotchas
 
