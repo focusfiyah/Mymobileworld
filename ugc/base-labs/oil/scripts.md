@@ -1,45 +1,45 @@
-# Base Laboratories Ingrown Hair Oil Solution (1 fl oz dropper bottle): 3 REWRITTEN script options for Grace (v2, 2026-10-05)
-Grace records the voiceover herself. Same six beats and same picture as v1 (hook, pain, solution, how to use, features + sell-side line, urgency CTA), so the approved video still fits any option. v1 is kept in git history (scripts v1, 2026-10-04).
-What changed: spoken hooks come word for word from the hook library (`grace/hooks/HOOKS.md`, id in each header, no id reused across the 6 scripts), no personal-use claims, no 'label says', review findings passed on the way Grace would, every line trimmed to its shot length, text overlay is now an optional yes/no item (burned in only on Ralph's yes).
+# Base Laboratories Ingrown Hair Oil Solution (1 fl oz dropper bottle): scripts v3 (2026-10-05), rewritten after Grace rejected v2
+Grace records the voiceover herself. v3 drops the fixed hook/pain/solution/confession/CTA template: each script explains WHY the problem happens before it sells, uses the hook library's use_when/note to pick the hook, and closes calm with a real season. No sell-side confession, no gift lines. Text overlay is optional, only on Ralph's yes. v1 and v2 stay in git history.
 
-## Option A: Show-don't-explain demo + never-seen-until-now (hook H095)
-Optional on-screen text (only if Ralph says yes; never default): "oil for ingrown hairs?"  |  Modeled on: H095 + Grace style 1 + @healinghonei 1.3k bottle-in-hand demo
+## Option A: Narrow problem: bumps in the same spots (coarse hair) (hook H066)
+Optional on-screen text (only if Ralph says yes): "the same spots every time"  |  Modeled on: H066 (use_when: pain point is narrow but meaningful) + @jazmeencaldwell 41k (reason first) + listing wording (softens coarse hair)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | I am just going to show you because explaining it is harder. |
-| pain | Shaving can leave your skin itchy and bumpy. |
-| solution | I have never seen a body oil made for ingrown hairs until now. It has tea tree and jojoba. |
-| how to use | Two to four drops on clean skin, massage in circles, morning and night. |
-| features + confession | People say it's never greasy. The only downside? The bottle looks too good to hide in a drawer. |
-| urgency CTA | Holiday season is coming, so don't put this off. Grab one for home, one for your bag. It's in the orange cart. |
+| 1 | This is such a specific problem, but if you have it, you know. |
+| 2 | Bumps in the same spots every time you shave, no matter how careful you are. |
+| 3 | Coarse hair and dry, irritated skin make it harder for the hair to come out smooth. |
+| 4 | This oil has jojoba, grape seed and tea tree. It softens coarse hair and hydrates without clogging. |
+| 5 | Two to four drops on clean skin, massage in circles, morning and night. |
+| 6 | One-ounce dropper bottle, and people say it's never greasy. |
+| 7 | Holiday dresses are coming up, so I'd start now. It's in the orange cart. |
 
 97 words, about 29s at 3.3 words/s (picture is 29s).
 
-## Option B: Call-out: skin after shaving (hook H065)
-Optional on-screen text (only if Ralph says yes; never default): "your skin after shaving"  |  Modeled on: H065 + @jazmeencaldwell 41k (irritated, itchy after shaving) + @katmademebuyit 195k + Grace style 2
+## Option B: Call-out + shower-to-skin routine (hook H065)
+Optional on-screen text (only if Ralph says yes): "after the shower"  |  Modeled on: H065 + @jazmeencaldwell 41k (out of the shower, clean dry skin, absorb) + @katmademebuyit 195k
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | Does anybody else get itchy bumps every time they shave? |
-| pain | Razors can leave skin red and itchy. |
-| solution | If you shave your bikini line or underarms, this oil helps prevent ingrown hairs and razor bumps. |
-| how to use | It comes with a dropper. A couple of drops, massage in circles, done. |
-| features + confession | It softens coarse hair and feels light, never sticky. The only problem? Now there's no skipping it. |
-| urgency CTA | Party season is coming, so don't put this off. Grab one for you and one to gift. It's in the orange cart. |
+| 1 | Does anybody else get itchy bumps in the same spot every time they shave? |
+| 2 | After you shave, skin can feel tight and irritated, and the new hair has a harder time coming out. |
+| 3 | This oil helps prevent ingrown hairs and razor bumps, and it feels light, not sticky. |
+| 4 | Pat dry, squeeze the dropper, two to four drops on your fingertip, then massage in circles. |
+| 5 | Bikini line, underarms, legs, even your face and neck. |
+| 6 | Parties are coming, so start before the calendar fills up. It's in the orange cart. |
 
-86 words, about 26s at 3.3 words/s (picture is 29s).
+88 words, about 27s at 3.3 words/s (picture is 29s).
 
-## Option C: Is there anything made for it? + ingredients one by one (hook H028)
-Optional on-screen text (only if Ralph says yes; never default): "shave, then this"  |  Modeled on: H028 + @joshyydeals 24k (pattern + routine) + @tiktokshopdeals4you 1.6M + Grace style 3
+## Option C: Time pressure: before the season changes (hook H131)
+Optional on-screen text (only if Ralph says yes): "before dress season"  |  Modeled on: H131 (use_when: seasonal anticipation; explain how the product supports the transition) + @tiktokshopdeals4you 1.6M (one action per cut)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | If you are wondering whether there is anything made for ingrown hairs, here you go. |
-| pain | After shaving or waxing, skin can feel tight and irritated. |
-| solution | Jojoba and grape seed oil hydrate without clogging, and there's tea tree in there too. |
-| how to use | A few drops on your fingertip, massage until it's absorbed. Morning and night. |
-| features + confession | Bikini line, underarms, legs, even face and neck. The only problem? Now I want one in every bag. |
-| urgency CTA | Holiday travel is coming, so don't put this off. Grab two, one for home and one for your bag. It's in the orange cart. |
+| 1 | Before the season changes, look at this. |
+| 2 | Dress season comes back fast, and bumps along the bikini line are what a lot of girls cover up. |
+| 3 | This ingrown hair oil has tea tree, jojoba and grape seed oil to hydrate without clogging, and it softens coarse hair. |
+| 4 | A few drops on your fingertip, massage until it's absorbed. Morning and night. |
+| 5 | It absorbs fast, so there's no waiting around before you get dressed. |
+| 6 | Get ahead of it now, and keep one in your bag for holiday travel. It's in the orange cart. |
 
-95 words, about 29s at 3.3 words/s (picture is 29s).
+91 words, about 28s at 3.3 words/s (picture is 29s).
