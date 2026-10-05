@@ -25,7 +25,7 @@ not in a new file.
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
   (host the file first, e.g. Kie's free 3-day file host: `python3 -c "import kie; print(kie.upload('<file>'))"` in a job
   folder). The connector can't take a 7 MB video (base64 in the call) and turns emoji into mojibake in Docs.
-- **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text) → humanizer → plan; after
+- **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text options) → humanizer → plan; **no text overlay in a cut unless Ralph says yes for that ad (Ralph 2026-10-05)**; after
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
@@ -48,7 +48,7 @@ not in a new file.
 4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
    leave the product description out of shots that must not show the product.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
-   Grace structure + `humanizer` + readability + on-screen hook text, then coach `compare` on the cut. Full list:
+   Grace structure + `humanizer` + readability + on-screen hook text options (burned in only on Ralph's yes), then coach `compare` on the cut. Full list:
    `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
 6. **No on-screen text, no product cards, every video different** (Ralph, 2026-10-04): no hook text/captions unless he asks; no product overlay cards or pop-ups; never the same footage with a new VO (TikTok flags it): each video gets its own shots, order, framing, grade and background (free remix: `remix.py` in the supplement jobs).
    **The hand does not need to be in every shot** (Ralph, 2026-10-04): use hand-free shots (product alone, setting, props) where they fit; they still move and their prompts leave the hand out.
@@ -96,6 +96,7 @@ not in a new file.
 - **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04:** one silent hands-only AI video each (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/` 28.2s each, APPROVED, in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P: 3 hook-text versions per video + scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); $4.851 Kie vs $3.46 quote (Seedance rerolls, each asked). Retime to Grace's VO when she sends it (free). README Status line.
 
 - **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). REBUILT on the real bedroom wide (bed, rug, doors) from approved Drive Video 2, all free, updated in Drive in place; Drive folder organized (superseded Video 1 + Video 3 originals in Older versions). Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section).
+- **LGXNDS Creatine (Grace), 2026-10-04:** hands-only AI ad, 31s, 9 clips matched line by line, real label pasted back (`label.py`). Cut v3 (v2's sharper real label + real-packshot push-in, text overlay removed on Ralph's word) is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) with the script doc, v1 and v2 removed (2026-10-05); $2.573 Kie vs $2.57 quote. README Status line.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
