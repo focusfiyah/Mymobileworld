@@ -62,7 +62,7 @@ and ask questions, do not assume, because that's how we waste time and money."
 - **A pasted prompt that clashes with the video** (product-sheet style, grey background, "no hands") → say so and
   ask how to use it before spending. Run verbatim it gave a 3-panel sheet, usable only as a reference crop.
 - **Client:** ask who the ad is for at the start; apply that client's rules (Grace: no personal-use claims unless
-  true, no false scarcity, detached CTA, one honest caveat).
+  true, no false scarcity, a CTA that makes buyers want more units, honest lines that sell, never a downside or warning).
 - **Lock the whole plan before the first paid call** (Ralph, 2026-10-01: "You are having me spend all my credits
   today"; "I don't think you remembered me wanting the process to be time efficient and cost effective"): ONE
   message with script, every shot, outfit, setting, face or no face, voiceover vs lip sync, and the total cost; one
