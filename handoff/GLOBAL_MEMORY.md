@@ -36,7 +36,7 @@ Paste the block below into any of:
   through hands, whole wrists, nothing physically impossible (e.g. a wrist behind a hanging object). Hands enter from the
   frame edge, no forearm. Zoom 2x on the edges of every person or body part (hand, face, full body) and the first second before any paid clip or review: no halo, outline, smear or fringe (Ralph 2026-10-04).
 - Scripts: hook, pain, solution, an honest line that sells (a brag-style confession like "the only downside? they won't want to get out", never a warning or downside), real urgency, and close with "It's in the orange cart." Never "order it now",
-  never "heads up", no price, only the product we're selling, every shot matching its exact words.
+  never "heads up", never a price number ("the cheaper one" is fine), only the product we're selling, except comparison hooks (rows 71-75, 135-144), which may show and name the other brand unless I say otherwise. Hooks come from Grace's hook library (grace/hooks/HOOKS.md, id = sheet row), said word for word; only the blanks get filled. Every shot matches its exact words.
 - Lights features (Grace 2026-10-04, replaces the dark-room idea): do NOT darken the room; show the light colours in daylight.
 - Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
   real-photo room, a hand pulling a drawer or a bag. Ken Burns zooms on photos and freeze frames look "like pictures": avoid them.
