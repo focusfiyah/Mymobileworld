@@ -1,7 +1,7 @@
 """FUSOU V3 MOTION redo (Grace 2026-10-05: 'still pictures, needs a lot of movement, more 3D'). Every shot is a moving clip: new Seedance 3D camera
 clips (clips/O*.mp4, v3ab/clips3d.py) + the approved hand clips. No photo zooms (kb), no freezes, no text. Library hooks: A = H095, B = H126.
 Run from ugc/fusou-vanity:  python3 v3ab/cut_v3m.py A B  -> v3ab/out/fusou_v3A_motion.mp4, fusou_v3B_motion.mp4
-QC windows (2026-10-05, frame by frame): O3 only 1.0-2.2 s, O4 only 0-1.3 s, O8 only 0-1.0 s (later the AI changes the vanity); O1 O2 O5 O6 whole clip."""
+QC windows (2026-10-05, frame by frame): O3 only 1.0-2.2 s, O4 only 0-1.3 s, O8 only 0-1.0 s (later the AI changes the vanity); O1 O2 O6 whole clip. O5 -> O5c = cropped above the rug (Ralph 2026-10-05: "the rug is moving, it needs to stay stationary": Seedance slid the rug ~10 px/frame over the floor)."""
 import json, os, subprocess, sys
 sys.path.insert(0, os.getcwd()); import cut
 from cut import run, dur_of, render_shot
@@ -12,9 +12,9 @@ GRADE = {"A": "eq=brightness=0.02:saturation=1.03",                         # br
          "B": "eq=brightness=0.03:contrast=1.03:saturation=0.97,colorbalance=bs=0.03:bm=0.02"}   # bright cool (PLAYBOOK: always bright, never yellow/dark)
 EDL = {  # per VO line: [(shot, seconds or F)]
  "A": [[(C("P1_O1", done=1), 2.8), (C("O6"), F)],                              # hook: hand points while the camera swings in; then pull back = whole room
-       [(C("O5"), 2.7), (C("O3", 1.0), 1.2), (C("O4"), 1.3), (C("O8"), F)],      # pain: mirror slider, drawers orbit, cabinet, door-frame wipe
+       [(C("O5c"), 2.7), (C("O3", 1.0), 1.2), (C("O4"), 1.3), (C("O8"), F)],      # pain: mirror slider, drawers orbit, cabinet, door-frame wipe
        [(C("O2", 2.9, reverse=1), F)],                                         # lit mirror: rise from the stool to the mirror
-       [(C("O5", 3.0), F)],                                                    # full-length mirror
+       [(C("O5c", 3.0), F)],                                                    # full-length mirror
        [(C("M5a", push=(0.08, -20)), F)],                                     # hidden storage: hand opens the mirror door
        [(C("M2a", push=(0.12, 25)), 2.0), (C("M2c", push=(0.10, -25)), F)],                                       # outlets
        [(C("M4a", 0.6, push=(0.12, -20)), F)],                                                   # stool drawer
@@ -22,9 +22,9 @@ EDL = {  # per VO line: [(shot, seconds or F)]
        [(C("O2"), 2.89), (C("O1", 2.8), F)],                                   # ships: crane down to the stool, push in on the bedroom
        [(C("M6a", push=(0.10, 0)), F)]],                                                       # close
  "B": [[(C("O2", 0, reverse=1), 2.6), (C("O8"), 1.0), (C("O6"), F)],          # hook: rise to the lit mirror, door wipe, room
-       [(C("P2_O5", done=1), 3.2), (C("O3", 1.0), 1.2), (C("O4"), F)],         # pain: hand points at the full-length mirror while the camera slides
+       [(C("P2_O5c", done=1), 3.2), (C("O3", 1.0), 1.2), (C("O4"), F)],         # pain: hand points at the full-length mirror while the camera slides
        [(C("O1", 2.9), F)],                                                    # lit mirror: push in on the bedroom
-       [(C("O5", 0, reverse=1), F)],                                           # full-length mirror (slide the other way)
+       [(C("O5c", 0, reverse=1), F)],                                           # full-length mirror (slide the other way)
        [(C("M5a", push=(0.10, 20)), F)],
        [(C("M2b", push=(0.12, -25)), 2.0), (C("M2a", 1.0, push=(0.10, 25)), F)],
        [(C("M4a", push=(0.12, 20)), F)],
