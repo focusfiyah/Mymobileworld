@@ -13,9 +13,9 @@ job, opt = sys.argv[1], (sys.argv[2] if len(sys.argv) > 2 else "A")
 TEXT = {"pads": {"A": "step after shaving", "B": "the step everyone skips", "C": "step two"},
         "oil": {"A": "oil for ingrown hairs?", "B": "your skin after shaving", "C": "shave, then this"}}[job][opt]
 P = {"pads": [("pads/clips/S1.mp4", 0, 5.0), ("oil/clips/S2.mp4", 0, 2.3), ("pads/clips/S2.mp4", 0, 0.9), ("pads/clips/S3.mp4", 0, 4.0),
-              ("pads/clips/S4.mp4", 0, 5.0), ("pads/clips/S5.mp4", 0, 5.0), ("pads/clips/S6.mp4", 0, 6.0)],
+              ("pads/clips/S4a.mp4", 0, 4.0), ("pads/clips/S4b.mp4", 0, 2.0), ("pads/clips/S5.mp4", 0, 5.0), ("pads/clips/S6.mp4", 0, 6.0)],
      "oil": [("oil/clips/S1.mp4", 0, 5.0), ("pads/clips/S2.mp4", 0, 0.9), ("oil/clips/S2.mp4", 0, 2.3), ("oil/clips/S3.mp4", 0, 4.0),
-             ("oil/clips/S4.mp4", 0, 5.0), ("oil/clips/S5.mp4", 0, 5.0), ("oil/clips/S6.mp4", 0, 6.0)]}[job]
+             ("oil/clips/S4a.mp4", 0, 4.0), ("oil/clips/S4b.mp4", 0, 4.0), ("oil/clips/S5.mp4", 0, 5.0), ("oil/clips/S6.mp4", 0, 6.0)]}[job]
 total = sum(p[2] for p in P); pop_t = total - 6 - 5   # label shot = 5th from the end
 inputs, ch = [], []
 for i, (f, s, d) in enumerate(P):

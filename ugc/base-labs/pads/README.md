@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-04). Hands-only AI video, ONE video, SILENT (Grace records her own voiceover; no ElevenLabs). 3 script options in `scripts.md`, one shared six-beat grid so the single video fits any option. Rules: `grace/PLAYBOOK.md`.
 
-Status: **2026-10-04: DONE, approved by Ralph, in Drive: Grace Tiktok assets / Base Laboratories pads + oil ads (2026-10-04) (folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P): 3 hook-text versions per video + scripts doc (1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); sizes match. Kie $4.851 vs $3.46 quote. Next: retime to Grace VO when she sends it (free, python3 ../cut.py).**
+Status: **2026-10-05: REV 2 DONE (Grace: show it on shaved underarm + leg, not the forearm): S4 replaced by S4a underarm + S4b leg (pads leg = clean first 2.0s). pads 29.2s, oil 31.2s, QC + gate --stage cut OK. In Drive folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P (new A/B/C files; forearm versions in subfolder "Older versions (forearm, 2026-10-04)" 1RtPzX2DzLEH4yra-CYXFy6l_lmM_L34c, except old oil B 1Ec4wqPUqSay1DlsOsjtQHI-AvPA5OOPP whose move Ralph declined). Kie total $5.867 vs $3.46 first quote. Next: retime to Grace VO (free).**
 
 Real product (confirmed from the brand's own photos, not a prompt description): real jar: pale-blue jar, yellow lid, pink 'INGROWN HAIR PADS' label (refs/real_jar.png); retail box yellow with pink band (refs/real_box.png).
 

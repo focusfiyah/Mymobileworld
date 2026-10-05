@@ -91,7 +91,7 @@ not in a new file.
 
 - **GTT Black KN95 50-pack (Grace), 2026-10-03:** hands-only AI ad, 31s, 10 shots matched to the VO, `ugc/gtt-kn95/out/gtt_kn95.mp4` APPROVED; in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)); $4.375 Kie vs $2.75 first quote (redos, each asked). README Status line. Grace reference sheet: `grace/ref/`.
 
-- **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04:** one silent hands-only AI video each (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/` 28.2s each, APPROVED, in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P: 3 hook-text versions per video + scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); $4.851 Kie vs $3.46 quote (Seedance rerolls, each asked). Retime to Grace's VO when she sends it (free). README Status line.
+- **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04:** one silent hands-only AI video each (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/` rev 2 2026-10-05 (Grace: underarm + leg instead of forearm, pads 29.2s / oil 31.2s), in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P: 3 hook-text versions per video + scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); $5.867 Kie vs $3.46 quote (Seedance rerolls, each asked). Retime to Grace's VO when she sends it (free). README Status line.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
