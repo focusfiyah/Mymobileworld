@@ -422,5 +422,59 @@
    ]
   },
   "costTime": 127
+ },
+ {
+  "t": "2026-10-05 07:33:12",
+  "submitted": "9a4117e1eb04751d70e9965f02edf3f9",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side-on close-up in the bright bathroom: a woman's arm "
+ },
+ {
+  "t": "2026-10-05 07:33:12",
+  "submitted": "adc7fab82749f6c24d63b258007161fa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up in the bright bathroom: a woman sits on the wh"
+ },
+ {
+  "t": "2026-10-05 07:33:37",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up in the bright bathroom: a woman sits on the white bathtub edge with one bare leg extended, the frame showing her smooth, freshly shaved shin and calf from just below the knee down to the ankle, her foot resting on a folded white towel on the floor. Her hand enters from the top frame edge holding one white round textured cotton pad flat on the shin just below the knee. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "adc7fab82749f6c24d63b258007161fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1791185615997-84sgmczxigr.jpg"
+   ]
+  },
+  "costTime": 24
+ },
+ {
+  "t": "2026-10-05 07:33:44",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side-on close-up in the bright bathroom: a woman's arm raised with the elbow bent up and her hand behind her head out of frame, showing her smooth, freshly shaved underarm; she wears a plain white cotton tank top (only the strap and the side of the top are visible). Framed from the middle of the upper arm down to the side of the ribcage: no face, no chin, no head hair in frame. Her other hand enters from the right frame edge holding one white round textured cotton pad flat against the top of the underarm. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412255-5qmy7r0yurb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414361-up3mfksisq.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9a4117e1eb04751d70e9965f02edf3f9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1791185618540-jnzii2s5tv.jpg"
+   ]
+  },
+  "costTime": 27
  }
 ]
