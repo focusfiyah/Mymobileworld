@@ -5,11 +5,11 @@
 
 | | A | B |
 |---|---|---|
-| duration_s | 11.1 | 28.2 |
+| duration_s | 11.1 | 29.2 |
 | words | 0 | 0 |
 | words_per_sec | None | None |
-| cuts | 6 | 6 |
-| cuts_per_10s | 5.4 | 2.1 |
+| cuts | 6 | 7 |
+| cuts_per_10s | 5.4 | 2.4 |
 | first_word_at_s | None | None |
 | spoken_first_3s |  |  |
 
