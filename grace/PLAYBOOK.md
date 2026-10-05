@@ -21,7 +21,7 @@ products follow the same rules.
   label gives one ("clinically tested… up to 100 hours when used as directed" is fine because the label says it).
 - **Never say a price** (Ralph + Grace 2026-10-02): no prices, discounts, "$X value", "% off" or "on sale" in the
   spoken script, on-screen text or caption. TikTok gives violation cards for it. Deal talk without numbers is fine
-  ("two for the price of one", "TikTok-only set").
+  ("two for the price of one", "TikTok-only set", "the cheaper one surprised me"). Never a price number (Ralph 2026-10-05).
 - **Honest lines sell, never un-sell** (Grace 2026-10-02, replaces "one honest caveat"): no warnings, downsides or
   "heads up" lines ("measure your shower first", "a tall kid may outgrow it", "you still need a sink"). The honest
   beat is a sell-side confession: "I hate how easy it is to take this collagen, now I have no excuse", "I'm so upset I
@@ -46,7 +46,7 @@ products follow the same rules.
 | Take the shame out | Gift angle ("your dad will never buy this himself"): the pain is felt for someone else, and it gets shares. |
 
 ## 3. Hooks
-- **Hook library (Ralph, 2026-10-05): `grace/hooks/HOOKS.md`** (153 hooks, source `hooks.json`, id = sheet row, e.g. `H016`). Pick spoken hook options from it first on every Grace job, say them WORD FOR WORD (no contractions, Ralph 2026-10-05; only blanks get filled), cite the id in line sources, never reuse one id across a product's videos, follow any 'Grace caution'. More batches coming: add them to `hooks.json`, run `build.py`.
+- **Hook library (Ralph, 2026-10-05): `grace/hooks/HOOKS.md`** (153 hooks, source `hooks.json`, id = sheet row, e.g. `H016`). Pick spoken hook options from it first on every Grace job, say them WORD FOR WORD (no contractions, Ralph 2026-10-05; only blanks get filled), cite the id in line sources, never reuse one id across a product's videos, comparison hooks (rows 71-75, 135-144) may show a second product, overriding 'only our product' (Ralph 2026-10-05). More batches coming: add them to `hooks.json`, run `build.py`.
 - Types: problem call-out, result first, comment reply, curiosity gap, contrarian, visual pattern
   break, POV, social proof (true only), direct address.
 - **Grace's own hook style (Grace 2026-10-02, Shnuggle; use it in every product):** (1) category-gap discovery:
