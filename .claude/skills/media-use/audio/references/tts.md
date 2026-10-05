@@ -1,5 +1,19 @@
 # Text To Speech
 
+## Contents
+
+- Narrating a HyperFrames docs video
+- Available routes
+- Self-contained HeyGen (no CLI) — `scripts/heygen-tts.mjs`
+- When to use which provider
+- Gemini narration
+- ffmpeg requirement
+- Voice selection (Kokoro)
+- Multilingual (Kokoro voice prefix → language)
+- Speed
+- Long scripts
+- HeyGen word-timestamp shape
+
 `npx hyperframes tts` synthesizes locally with Kokoro. It does not accept a
 `--provider` or `--words` flag. For HeyGen audio plus word timestamps, use the
 bundled `heygen-tts.mjs` script below.

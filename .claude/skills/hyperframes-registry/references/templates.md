@@ -1,5 +1,12 @@
 # Contribute Templates
 
+## Contents
+
+- Caption Template
+- VFX Template
+- registry-item.json Templates
+- Component Template
+
 Copy-paste starter templates for each component type. These embed the proven patterns that pass `lint` and `check`.
 
 ## Caption Template

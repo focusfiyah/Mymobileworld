@@ -1,0 +1,70 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/lines.json"
+ ],
+ "playbook": {
+  "proof": [
+   "../../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 house rules (no price, no personal use, confession, count CTA, orange cart)",
+   "\u00a72 psychology",
+   "\u00a73 hooks + text",
+   "\u00a74 structure",
+   "\u00a75 pacing",
+   "\u00a76 REMOVED.md, plan lock"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_oil.txt",
+   "research/discover_base.txt",
+   "research/tag_ingrownhair.txt",
+   "research/videos/7667797380166733086/transcript.txt",
+   "research/videos/7688603587689139469/transcript.txt",
+   "research/videos/7688595715047689503/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-04.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "max_grade": 3.9
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "research/compare_report.md",
+   "research/compare_alexa/compare/compare.md",
+   "research/compare_kat/compare/compare.md"
+  ]
+ }
+}

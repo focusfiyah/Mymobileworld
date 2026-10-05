@@ -1,0 +1,17 @@
+# Product facts (2026-10-04). Each claim = source
+## Ingrown Hair Pads (Base Laboratories), 42 pre-soaked pads
+- Name/size: 'Ingrown Hair Treatment Pads', 42 pads per jar. Source: baselaboratories.com/products/ingrown-hair-pads (+ Amazon B0FX654NM3 title). TikTok listing title: 'Ingrown Hair Pads with AHA + BHA Exfoliating Post-Shave Pads to Reduce Razor Bumps Clear Pores & Smooth Skin for Bikini Line Underarms Legs & Face'.
+- Actives: glycolic acid + lactic acid (AHA), salicylic acid (BHA); also niacinamide, witch hazel, licorice root extract, allantoin. No percentages published. Source: brand page.
+- Claims we may say (brand wording): lift dead skin, help keep pores clear, help free trapped hairs, smooth rough texture, reduce the look of razor bumps/post-hair-removal bumps. 'Daily wipe. Clearer skin.' Source: brand page + Amazon.
+- Use: clean dry skin, best at night, swipe one pad over the area in a single direction, let dry, do NOT rinse; daily, or every other day for sensitive skin. Areas: bikini line, underarms, legs, arms, face, neck, beard area. Source: brand page.
+- Packaging (real photos in refs/): pale-blue jar, yellow lid, pink/red 'INGROWN HAIR PADS' label, 'BASE LABORATORIES', '42 PADS', three bullets (prevents ingrowns, calms redness, clears pores); retail box is yellow with pink band. Source: brand product images + @alexasimoneee video frames.
+- We do NOT say: sunscreen/sun warning is standard for AHA products (brand page does not state it; add 'use sunscreen' only if Grace wants it in the caption), no timeframe, no 'cures/fixes', no price, no dermatologist claim, no 'sensitive skin safe' (brand: 'gentle, non-irritating formula' only as their words; skip).
+## Ingrown Hair Oil Solution (Base Laboratories), 1 fl oz / 30 ml
+- Name: 'Ingrown Hair Treatment Oil' (TikTok title 'Ingrown Hair Oil Solution'). Source: brand page, Walmart/eBay (1 fl oz / 30 ml).
+- Ingredients: jojoba seed oil, tea tree oil, turmeric root oil, clary sage oil, grape seed oil, vitamin E, rosemary leaf oil, bisabolol, lavender. TikTok listing: '26+ active ingredients' (brand page lists the nine above: say 'tea tree, jojoba and botanical oils', the title wording, never '26').
+- Claims (brand): reduces follicle congestion and calms visible redness, softens and conditions skin in ingrown-prone areas, helps smooth rough post-shave texture, moisturizes stressed skin after hair removal; listing: helps prevent ingrown hairs and razor bumps, softens coarse hair, fast absorbing, not greasy. Grape seed + jojoba 'hydrate without clogging'.
+- Use: cleanse with warm water and pat dry; 2-4 drops on a fingertip or the area; massage in circles until absorbed; morning and night. Areas: bikini line, underarms, legs, face, neck, beard. Source: brand page.
+- Packaging (real photos in refs/): glass dropper bottle, GOLD oil, TEAL/green metallic cap and collar, teal-and-yellow label 'INGROWN HAIR OIL SOLUTION'; mint-teal box with red band and 'BASE LABORATORIES'. It is a DROPPER (one review says 'pump': the photos show a dropper). Source: brand images + @healinghonei frames.
+- Reviews (TikTok listing, 91): praise the bottle, no grease or stickiness, pleasant smell. Source: shop listing.
+## Compliance for both
+No before/after, no skin close-ups, no body shown beyond a hand (and one shin on the how-to shot, see plan); no price, no 'cure/fix', no 'dermatologist', no personal-use claim, no false scarcity.

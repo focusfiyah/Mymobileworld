@@ -1,0 +1,590 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9660323858261108,
+ "text": "If you type all day, watch this. Your hands and wrists feel it by Friday. Penetrex rolls on in seconds. No mess, no hand washing. Fragrance-free, so nobody at work smells it. Keep one at your desk. It's in the orange cart",
+ "words": [
+  {
+   "text": "If",
+   "start": 0.1,
+   "end": 0.18,
+   "type": "word",
+   "logprob": -1.5020257706055418e-05
+  },
+  {
+   "text": " ",
+   "start": 0.18,
+   "end": 0.22,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "you",
+   "start": 0.22,
+   "end": 0.32,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 0.32,
+   "end": 0.4,
+   "type": "spacing",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "type",
+   "start": 0.4,
+   "end": 0.68,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": " ",
+   "start": 0.68,
+   "end": 0.74,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "all",
+   "start": 0.74,
+   "end": 0.84,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 0.84,
+   "end": 0.88,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "day,",
+   "start": 0.88,
+   "end": 1.12,
+   "type": "word",
+   "logprob": -1.9967476418969454e-06
+  },
+  {
+   "text": " ",
+   "start": 1.12,
+   "end": 1.52,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "watch",
+   "start": 1.52,
+   "end": 1.78,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 1.78,
+   "end": 1.84,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "this.",
+   "start": 1.84,
+   "end": 2.18,
+   "type": "word",
+   "logprob": -2.932527058874257e-06
+  },
+  {
+   "text": " ",
+   "start": 2.18,
+   "end": 2.6,
+   "type": "spacing",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": "Your",
+   "start": 2.6,
+   "end": 2.68,
+   "type": "word",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": " ",
+   "start": 2.68,
+   "end": 2.82,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "hands",
+   "start": 2.82,
+   "end": 3.06,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 3.06,
+   "end": 3.08,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "and",
+   "start": 3.08,
+   "end": 3.18,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.18,
+   "end": 3.26,
+   "type": "spacing",
+   "logprob": -2.9802276912960224e-06
+  },
+  {
+   "text": "wrists",
+   "start": 3.26,
+   "end": 3.72,
+   "type": "word",
+   "logprob": -2.9802276912960224e-06
+  },
+  {
+   "text": " ",
+   "start": 3.72,
+   "end": 3.82,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "feel",
+   "start": 3.82,
+   "end": 4.0,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 4.0,
+   "end": 4.04,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "it",
+   "start": 4.04,
+   "end": 4.14,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 4.14,
+   "end": 4.18,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "by",
+   "start": 4.18,
+   "end": 4.34,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 4.34,
+   "end": 4.38,
+   "type": "spacing",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "Friday.",
+   "start": 4.38,
+   "end": 4.78,
+   "type": "word",
+   "logprob": -8.685244503275109e-07
+  },
+  {
+   "text": " ",
+   "start": 4.78,
+   "end": 5.34,
+   "type": "spacing",
+   "logprob": -0.01825426146388054
+  },
+  {
+   "text": "Penetrex",
+   "start": 5.34,
+   "end": 5.82,
+   "type": "word",
+   "logprob": -0.013071767054498196
+  },
+  {
+   "text": " ",
+   "start": 5.82,
+   "end": 5.94,
+   "type": "spacing",
+   "logprob": -2.884823152271565e-05
+  },
+  {
+   "text": "rolls",
+   "start": 5.94,
+   "end": 6.16,
+   "type": "word",
+   "logprob": -2.884823152271565e-05
+  },
+  {
+   "text": " ",
+   "start": 6.16,
+   "end": 6.22,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "on",
+   "start": 6.22,
+   "end": 6.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 6.36,
+   "end": 6.42,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 6.42,
+   "end": 6.48,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 6.48,
+   "end": 6.66,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "seconds.",
+   "start": 6.66,
+   "end": 7.2,
+   "type": "word",
+   "logprob": -8.359278575120754e-06
+  },
+  {
+   "text": " ",
+   "start": 7.2,
+   "end": 7.5,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "No",
+   "start": 7.5,
+   "end": 7.6,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 7.6,
+   "end": 7.7,
+   "type": "spacing",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": "mess,",
+   "start": 7.7,
+   "end": 8.039,
+   "type": "word",
+   "logprob": -1.0800153177115135e-05
+  },
+  {
+   "text": " ",
+   "start": 8.039,
+   "end": 8.34,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "no",
+   "start": 8.34,
+   "end": 8.5,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 8.5,
+   "end": 8.54,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "hand",
+   "start": 8.54,
+   "end": 8.74,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 8.74,
+   "end": 8.78,
+   "type": "spacing",
+   "logprob": -0.012238526716828346
+  },
+  {
+   "text": "washing.",
+   "start": 8.78,
+   "end": 9.22,
+   "type": "word",
+   "logprob": -0.01070894929557653
+  },
+  {
+   "text": " ",
+   "start": 9.22,
+   "end": 9.22,
+   "type": "spacing",
+   "logprob": -0.00024125049822032452
+  },
+  {
+   "text": "Fragrance-free,",
+   "start": 9.64,
+   "end": 10.34,
+   "type": "word",
+   "logprob": -0.001296230026249153
+  },
+  {
+   "text": " ",
+   "start": 10.34,
+   "end": 10.56,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "so",
+   "start": 10.56,
+   "end": 10.78,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.78,
+   "end": 10.9,
+   "type": "spacing",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": "nobody",
+   "start": 10.9,
+   "end": 11.3,
+   "type": "word",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": " ",
+   "start": 11.3,
+   "end": 11.34,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "at",
+   "start": 11.34,
+   "end": 11.42,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 11.42,
+   "end": 11.46,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "work",
+   "start": 11.46,
+   "end": 11.62,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 11.62,
+   "end": 11.7,
+   "type": "spacing",
+   "logprob": -3.3378546504536644e-06
+  },
+  {
+   "text": "smells",
+   "start": 11.7,
+   "end": 11.98,
+   "type": "word",
+   "logprob": -3.3378546504536644e-06
+  },
+  {
+   "text": " ",
+   "start": 11.98,
+   "end": 12.04,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "it.",
+   "start": 12.04,
+   "end": 12.18,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 12.18,
+   "end": 12.18,
+   "type": "spacing",
+   "logprob": -5.006777428206988e-06
+  },
+  {
+   "text": "Keep",
+   "start": 12.58,
+   "end": 12.76,
+   "type": "word",
+   "logprob": -5.006777428206988e-06
+  },
+  {
+   "text": " ",
+   "start": 12.76,
+   "end": 12.8,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "one",
+   "start": 12.8,
+   "end": 12.88,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 12.88,
+   "end": 12.92,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "at",
+   "start": 12.92,
+   "end": 13.0,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.0,
+   "end": 13.04,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "your",
+   "start": 13.04,
+   "end": 13.12,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.12,
+   "end": 13.14,
+   "type": "spacing",
+   "logprob": -9.775113539944869e-06
+  },
+  {
+   "text": "desk.",
+   "start": 13.14,
+   "end": 13.54,
+   "type": "word",
+   "logprob": -7.963141933942098e-06
+  },
+  {
+   "text": " ",
+   "start": 13.54,
+   "end": 13.82,
+   "type": "spacing",
+   "logprob": -1.1920922133867862e-06
+  },
+  {
+   "text": "It's",
+   "start": 13.82,
+   "end": 13.92,
+   "type": "word",
+   "logprob": -7.152553678224649e-07
+  },
+  {
+   "text": " ",
+   "start": 13.92,
+   "end": 13.94,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 13.94,
+   "end": 14.0,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.0,
+   "end": 14.04,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 14.04,
+   "end": 14.12,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.12,
+   "end": 14.18,
+   "type": "spacing",
+   "logprob": -0.00011526874004630372
+  },
+  {
+   "text": "orange",
+   "start": 14.18,
+   "end": 14.4,
+   "type": "word",
+   "logprob": -0.00011526874004630372
+  },
+  {
+   "text": " ",
+   "start": 14.4,
+   "end": 14.48,
+   "type": "spacing",
+   "logprob": -9.65590606938349e-06
+  },
+  {
+   "text": "cart",
+   "start": 14.48,
+   "end": 14.7,
+   "type": "word",
+   "logprob": -9.65590606938349e-06
+  }
+ ],
+ "transcription_id": "CSDrnHBk4G7IDYtCq8rM",
+ "audio_duration_secs": 14.96
+}

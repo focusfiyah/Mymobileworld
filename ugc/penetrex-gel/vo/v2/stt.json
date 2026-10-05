@@ -1,0 +1,576 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9281566739082336,
+ "text": "Hate that strong menthol smell? Same. Sore hands after a long day are the worst. Penetrex is fragrance-free and rolls right on. Arnica, vitamin B6, and MSM. Keep one by the couch, one in your bag. It's in the orange cart.",
+ "words": [
+  {
+   "text": "Hate",
+   "start": 0.1,
+   "end": 0.28,
+   "type": "word",
+   "logprob": -4.51470115194752e-05
+  },
+  {
+   "text": " ",
+   "start": 0.28,
+   "end": 0.34,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "that",
+   "start": 0.34,
+   "end": 0.48,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 0.48,
+   "end": 0.64,
+   "type": "spacing",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "strong",
+   "start": 0.64,
+   "end": 0.94,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": " ",
+   "start": 0.94,
+   "end": 1.06,
+   "type": "spacing",
+   "logprob": -9.83428253675811e-05
+  },
+  {
+   "text": "menthol",
+   "start": 1.06,
+   "end": 1.42,
+   "type": "word",
+   "logprob": -7.443453328700603e-05
+  },
+  {
+   "text": " ",
+   "start": 1.42,
+   "end": 1.56,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "smell?",
+   "start": 1.56,
+   "end": 1.86,
+   "type": "word",
+   "logprob": -1.3907719941623025e-06
+  },
+  {
+   "text": " ",
+   "start": 1.86,
+   "end": 1.86,
+   "type": "spacing",
+   "logprob": -3.909988299710676e-05
+  },
+  {
+   "text": "Same.",
+   "start": 2.54,
+   "end": 2.92,
+   "type": "word",
+   "logprob": -3.142295749967161e-05
+  },
+  {
+   "text": " ",
+   "start": 2.92,
+   "end": 2.92,
+   "type": "spacing",
+   "logprob": -5.435795901576057e-05
+  },
+  {
+   "text": "Sore",
+   "start": 3.56,
+   "end": 3.82,
+   "type": "word",
+   "logprob": -5.435795901576057e-05
+  },
+  {
+   "text": " ",
+   "start": 3.82,
+   "end": 3.88,
+   "type": "spacing",
+   "logprob": -6.6756979322235566e-06
+  },
+  {
+   "text": "hands",
+   "start": 3.88,
+   "end": 4.16,
+   "type": "word",
+   "logprob": -6.6756979322235566e-06
+  },
+  {
+   "text": " ",
+   "start": 4.16,
+   "end": 4.24,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "after",
+   "start": 4.24,
+   "end": 4.46,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 4.46,
+   "end": 4.52,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "a",
+   "start": 4.52,
+   "end": 4.54,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 4.54,
+   "end": 4.66,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "long",
+   "start": 4.66,
+   "end": 4.9,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 4.9,
+   "end": 5.0,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "day",
+   "start": 5.0,
+   "end": 5.28,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 5.28,
+   "end": 5.32,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "are",
+   "start": 5.32,
+   "end": 5.44,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 5.44,
+   "end": 5.48,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 5.48,
+   "end": 5.56,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 5.56,
+   "end": 5.8,
+   "type": "spacing",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": "worst.",
+   "start": 5.8,
+   "end": 6.34,
+   "type": "word",
+   "logprob": -8.960520441784562e-06
+  },
+  {
+   "text": " ",
+   "start": 6.34,
+   "end": 6.34,
+   "type": "spacing",
+   "logprob": -0.005567639134824276
+  },
+  {
+   "text": "Penetrex",
+   "start": 6.84,
+   "end": 7.4,
+   "type": "word",
+   "logprob": -0.006412847549654543
+  },
+  {
+   "text": " ",
+   "start": 7.4,
+   "end": 7.46,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "is",
+   "start": 7.46,
+   "end": 7.56,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 7.56,
+   "end": 7.66,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "fragrance-free",
+   "start": 7.66,
+   "end": 8.48,
+   "type": "word",
+   "logprob": -7.491047301755316e-05
+  },
+  {
+   "text": " ",
+   "start": 8.48,
+   "end": 8.5,
+   "type": "spacing",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": "and",
+   "start": 8.5,
+   "end": 8.58,
+   "type": "word",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": " ",
+   "start": 8.58,
+   "end": 8.66,
+   "type": "spacing",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": "rolls",
+   "start": 8.68,
+   "end": 8.92,
+   "type": "word",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": " ",
+   "start": 8.92,
+   "end": 9.06,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "right",
+   "start": 9.06,
+   "end": 9.26,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.26,
+   "end": 9.32,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "on.",
+   "start": 9.32,
+   "end": 9.54,
+   "type": "word",
+   "logprob": -2.8212746959373667e-06
+  },
+  {
+   "text": " ",
+   "start": 9.54,
+   "end": 9.54,
+   "type": "spacing",
+   "logprob": -0.00048601735034026206
+  },
+  {
+   "text": "Arnica,",
+   "start": 9.98,
+   "end": 10.4,
+   "type": "word",
+   "logprob": -0.0002825370777687551
+  },
+  {
+   "text": " ",
+   "start": 10.4,
+   "end": 10.7,
+   "type": "spacing",
+   "logprob": -0.018158506602048874
+  },
+  {
+   "text": "vitamin",
+   "start": 10.7,
+   "end": 11.04,
+   "type": "word",
+   "logprob": -0.018158506602048874
+  },
+  {
+   "text": " ",
+   "start": 11.04,
+   "end": 11.12,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "B6,",
+   "start": 11.12,
+   "end": 11.66,
+   "type": "word",
+   "logprob": -0.000447655516817728
+  },
+  {
+   "text": " ",
+   "start": 11.66,
+   "end": 11.8,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "and",
+   "start": 11.8,
+   "end": 11.92,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 11.92,
+   "end": 12.04,
+   "type": "spacing",
+   "logprob": -0.00017736769223120064
+  },
+  {
+   "text": "MSM.",
+   "start": 12.04,
+   "end": 12.54,
+   "type": "word",
+   "logprob": -0.00013302576917340048
+  },
+  {
+   "text": " ",
+   "start": 12.54,
+   "end": 12.54,
+   "type": "spacing",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "Keep",
+   "start": 13.04,
+   "end": 13.22,
+   "type": "word",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": " ",
+   "start": 13.22,
+   "end": 13.28,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "one",
+   "start": 13.28,
+   "end": 13.4,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.4,
+   "end": 13.44,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "by",
+   "start": 13.44,
+   "end": 13.54,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.54,
+   "end": 13.58,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 13.58,
+   "end": 13.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.66,
+   "end": 13.72,
+   "type": "spacing",
+   "logprob": -0.00013410145766101778
+  },
+  {
+   "text": "couch,",
+   "start": 13.72,
+   "end": 14.1,
+   "type": "word",
+   "logprob": -0.0001118108193528163
+  },
+  {
+   "text": " ",
+   "start": 14.1,
+   "end": 14.38,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "one",
+   "start": 14.38,
+   "end": 14.48,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 14.48,
+   "end": 14.54,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 14.54,
+   "end": 14.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.62,
+   "end": 14.64,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "your",
+   "start": 14.64,
+   "end": 14.74,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.74,
+   "end": 14.78,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "bag.",
+   "start": 14.78,
+   "end": 15.12,
+   "type": "word",
+   "logprob": -2.9802317946803214e-07
+  },
+  {
+   "text": " ",
+   "start": 15.12,
+   "end": 15.46,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It's",
+   "start": 15.46,
+   "end": 15.56,
+   "type": "word",
+   "logprob": -9.238702887159889e-07
+  },
+  {
+   "text": " ",
+   "start": 15.56,
+   "end": 15.6,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 15.6,
+   "end": 15.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 15.66,
+   "end": 15.7,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 15.7,
+   "end": 15.78,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 15.78,
+   "end": 15.84,
+   "type": "spacing",
+   "logprob": -9.989239333663136e-05
+  },
+  {
+   "text": "orange",
+   "start": 15.84,
+   "end": 16.059,
+   "type": "word",
+   "logprob": -9.989239333663136e-05
+  },
+  {
+   "text": " ",
+   "start": 16.059,
+   "end": 16.14,
+   "type": "spacing",
+   "logprob": -1.5735502529423684e-05
+  },
+  {
+   "text": "cart.",
+   "start": 16.16,
+   "end": 16.4,
+   "type": "word",
+   "logprob": -0.040295332571258766
+  }
+ ],
+ "transcription_id": "GiaVOR2P4HqNbKx06Zip",
+ "audio_duration_secs": 16.64
+}

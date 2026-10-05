@@ -1,0 +1,23 @@
+# A/B compare
+
+**A**: https://www.tiktok.com/@dealsby.a.d/video/7689981439340776734 (260,300 views, saves 0.1%)
+**B**: ../out/lgxnds_creatine.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 45.1 | 31.1 |
+| words | 177 | 0 |
+| words_per_sec | 3.92 | None |
+| cuts | 6 | 7 |
+| cuts_per_10s | 1.3 | 2.3 |
+| first_word_at_s | 0.1 | None |
+| spoken_first_3s | pop it take it and grow that Peach Bloom just came out with crisp |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.1s] pop it take it and grow that Peach
+- [2.6s] Bloom just came out with crisp
+
+-> compare_v1/compare/compare.md, compare_v1/compare/compare.png

@@ -7,6 +7,15 @@ metadata:
 
 # Context-Sensitive Cursor
 
+## Contents
+
+- How It Works
+- Recipe
+- Variations
+- Values
+- Critical Constraints
+- See also
+
 In a typewriter sequence, the cursor's color (and optionally height / blink behavior) matches the **active text segment** — brand accent while typing the brand name, dim on placeholders, success color on the completion mark. The eye lands on the keyword being typed because the cursor shifts with it; a fixed single-color cursor is visual noise by comparison. Layers on top of [discrete-text-sequence](discrete-text-sequence.md)'s SEQUENCE pattern.
 
 ## How It Works

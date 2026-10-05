@@ -92,6 +92,32 @@ components:
 
 # Editorial Forest — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: oversized serif · green · left)
+  - 2 · Topic Tiles (catalog · move: rotating-fill grid · cream · the dense frame)
+  - 3 · KPI Stat (data · move: oversized figure · green)
+  - 4 · Statement (quote · move: display serif · cream · left)
+  - 5 · Step Framework (process · move: 8px step tiles · cream/green)
+  - 6 · Chart (data · move: bars + meta · green)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Real Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Editorial Forest at frame scale is a **serif-led literary-editorial system** — the register of a

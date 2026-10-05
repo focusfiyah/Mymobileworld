@@ -1,0 +1,84 @@
+{
+ "product": "penetrex-gel",
+ "client": "Grace",
+ "status": "VO done 2026-10-04 (sped up free, atempo), awaiting stills approval",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover_tight.mp3"
+ },
+ "hook_text": "guess what this roll-on is",
+ "refs": [
+  "refs/bottle_crop.png"
+ ],
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm.",
+ "product_block": "The product is exactly the Penetrex roll-on bottle in the product reference image: a tall white cylindrical bottle with a white cap and a roller-ball head, a round medallion at the top, 'Penetrex' in dark bold letters, then 'Joint & Muscle Therapy' in red letters at lower left with small blue text at right, and a red band near the bottom. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text.",
+ "scene_block": "Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products.",
+ "video_suffix": "Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+ "shots": [
+  {
+   "id": "S1",
+   "kind": "H",
+   "vo": "Looks like deodorant, right? It's joint and muscle care.",
+   "still": "Close-up, kitchen counter: the hand holds the white Penetrex roll-on bottle upright toward the lens, label facing the camera squarely.",
+   "video": "Shot 1 (0-4s): the hand lifts the bottle slightly toward the lens, then holds steady, label facing camera.",
+   "dur": 4,
+   "t": [
+    0.0,
+    2.82
+   ]
+  },
+  {
+   "id": "S2",
+   "kind": "N",
+   "vo": "Sore hands don't wait for the weekend.",
+   "still": "Close-up, kitchen counter: a single hand reaches in from the frame edge, palm down, fingers slowly curling into a loose fist and opening again. Nothing else in the frame.",
+   "video": "Shot 1 (0-4s): the hand slowly closes into a loose fist and opens again, once, relaxed.",
+   "dur": 4,
+   "t": [
+    2.82,
+    4.75
+   ]
+  },
+  {
+   "id": "S3",
+   "kind": "H",
+   "vo": "Penetrex rolls on like a gel, with arnica, vitamin B6 and MSM.",
+   "still": "Close-up, kitchen counter: the hand holds the white Penetrex bottle and rolls its roller-ball head along the back of the other hand's wrist, the white gel leaving a thin line on the skin.",
+   "video": "Shot 1 (0-4s): the roller-ball glides one slow stroke along the back of the wrist, leaving a thin glossy line of gel, then stops.",
+   "dur": 5,
+   "t": [
+    4.75,
+    9.0
+   ]
+  },
+  {
+   "id": "S4",
+   "kind": "C",
+   "vo": "No hand washing, and it's fragrance free.",
+   "still": "(real bottle crop, push-in on the label, no AI)",
+   "video": "",
+   "dur": 3,
+   "t": [
+    9.0,
+    11.3
+   ]
+  },
+  {
+   "id": "S5",
+   "kind": "H",
+   "vo": "It's so easy, you've got no excuses. Colder weather's coming. It's in the orange cart.",
+   "still": "Close-up, kitchen counter: the bottle stands upright on the counter and the hand points down toward it with one finger from the frame edge.",
+   "video": "Shot 1 (0-5s): the hand sets the bottle upright on the counter, then points down at it with one finger and holds.",
+   "dur": 5,
+   "t": [
+    11.3,
+    15.84
+   ]
+  }
+ ],
+ "usable": {
+  "S3": 4.4
+ }
+}

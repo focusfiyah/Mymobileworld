@@ -1,5 +1,13 @@
 # Variables and Media
 
+## Contents
+
+- Variables
+  - Variable Rules
+  - Two JSON Shapes (Easy to Confuse)
+- Media
+  - Media Rules
+
 Two separate concerns, grouped because both control "what flows in from outside the HTML": runtime parameters (variables) and external media files (video/audio).
 
 ## Variables
