@@ -480,5 +480,111 @@
    ]
   },
   "costTime": 124
+ },
+ {
+  "t": "2026-10-05 07:33:12",
+  "submitted": "6d71c96b81fb235da00d06f9e6a32793",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side-on close-up in the bright bathroom: a woman's arm "
+ },
+ {
+  "t": "2026-10-05 07:33:12",
+  "submitted": "e06a1fa0b2f808ac92acfa26bfad82de",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up in the bright bathroom: a woman sits on the wh"
+ },
+ {
+  "t": "2026-10-05 07:33:37",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side-on close-up in the bright bathroom: a woman's arm raised with the elbow bent up and her hand behind her head out of frame, showing her smooth, freshly shaved underarm; she wears a plain white cotton tank top (only the strap and the side of the top are visible). Framed from the middle of the upper arm down to the side of the ribcage: no face, no chin, no head hair in frame. Her other hand enters from the right frame edge with two fingertips glistening with a drop of golden oil, touching the top of the underarm. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6d71c96b81fb235da00d06f9e6a32793",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1791185616624-8csoaw7v1jd.jpg"
+   ]
+  },
+  "costTime": 25
+ },
+ {
+  "t": "2026-10-05 07:33:37",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up in the bright bathroom: a woman sits on the white bathtub edge with one bare leg extended, the frame showing her smooth, freshly shaved shin and calf from just below the knee down to the ankle, her foot resting on a folded white towel on the floor. Her hand enters from the top frame edge with two fingertips glistening with golden oil, touching the shin just below the knee. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people. Setting: a bright, clean home bathroom: white subway-tile wall, a white countertop with a small white ceramic dish and a folded white towel, soft window daylight from the left, slightly steamy air. Shot on a phone, natural light, realistic unretouched skin texture with visible knuckle creases, casual and a little lived-in like a real person filmed it, no cinematic grading. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104412210-dghy7ps1yq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791104414576-7r543jkpjli.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e06a1fa0b2f808ac92acfa26bfad82de",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1791185615850-f9ccd30gn7u.jpg"
+   ]
+  },
+  "costTime": 24
+ },
+ {
+  "t": "2026-10-05 07:49:08",
+  "submitted": "aec20b76e107cf45e59469000b31fd09",
+  "prompt": "Shot 1: the fingertips massage the oil into the underarm in slow small circles, the skin gets a soft glossy sheen, then "
+ },
+ {
+  "t": "2026-10-05 07:49:08",
+  "submitted": "69bd6632b6238d1a024e072ed5f384df",
+  "prompt": "Shot 1: the fingertips massage the oil down the shin in slow small circles, the skin gets a soft glossy sheen, then the "
+ },
+ {
+  "t": "2026-10-05 07:51:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the fingertips massage the oil into the underarm in slow small circles, the skin gets a soft glossy sheen, then the fingers lift away. The raised arm stays completely still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791186544640-maps6yu4rod.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "aec20b76e107cf45e59469000b31fd09",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791186665707-dywu6uhlmz9.mp4"
+   ]
+  },
+  "costTime": 118
+ },
+ {
+  "t": "2026-10-05 07:51:46",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the fingertips massage the oil down the shin in slow small circles, the skin gets a soft glossy sheen, then the fingers lift away. The leg stays completely still. The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off camera on a tripod). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/base-labs/1791186546764-aofyxlaa2ud.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "69bd6632b6238d1a024e072ed5f384df",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791186701750-ck00q8lnlg.mp4"
+   ]
+  },
+  "costTime": 156
  }
 ]
