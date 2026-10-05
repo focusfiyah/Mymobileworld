@@ -106,6 +106,8 @@ not in a new file.
 
 - **Supplement pack (Grace), 2026-10-04:** hands-only AI ads, 5 per product (V1 + 4 hook/VO variants on the same footage), <=16s: Youtheory Ashwagandha Liquid, Youtheory Total Body Turmeric, Neuro Sour Mints, Penetrex roll-on. `ugc/youtheory-ashwagandha/`, `ugc/youtheory-turmeric/`, `ugc/neuro-sour-mints/`, `ugc/penetrex-gel/`. REDONE same day on Ralph's notes (no text, no cards, every video different): 15 finals (4 each, Turmeric 3) remixed free from existing footage (`remix.py` + `remix.json`, grades all bright: daylight/clean neutral/bright cool/bright punchy, no dark or yellow looks), in Drive: Grace Tiktok assets/<product> ads (2026-10-04)/FINAL - post these (+ captions doc), old cuts in 'Old versions - do not use'. Kie $4.90 then; Ashwagandha v2 (Grace's notes: real pouch + box, straw, pills, 12, Grace-B VO of adult-juice-box scripts) +$1.75, job total Kie $6.65. README Status lines.
 
+- **Jean Rameau (client #2, multi-service), 2026-10-05:** own repo focusfiyah/jean-rameau (Ralph asked for a separate repo). First service Diaspo Auto School (Brooklyn): opt-in lead funnel + ElevenLabs AI caller that vets and books, scraped referral partners. TCPA: AI calls only consented leads. Read that repo's README + PLAN.md.
+
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 
