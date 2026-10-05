@@ -1,5 +1,15 @@
 # Placeholder material
 
+## Contents
+
+- The one rule
+- The ramp
+- Depth without colour
+- Reading each kind in black and white
+- Accent
+- Gradients that stay
+- Checklist
+
 Registry items ship with stand-in content: a rectangle where the user's screenshot goes, a
 bar where their number goes, a chip where their teammate's face goes. That stand-in is
 **placeholder material**, and it is monochrome. No hue, no colour ramps, no purple-to-blue

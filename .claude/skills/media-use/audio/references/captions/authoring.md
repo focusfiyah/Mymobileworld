@@ -1,5 +1,19 @@
 # Captions
 
+## Contents
+
+- Transcript Source
+- Style Detection (When No Style Specified)
+- Per-Word Styling
+- Script-to-Style Mapping
+- Word Grouping
+- Positioning
+- Text Overflow Prevention
+- Caption Exit Guarantee
+- Pre-Built Caption Components
+- Further References
+- Constraints
+
 <!-- registry-items: allow=max-width,data-composition-src,hyperframes-registry,blend-mode,caption-style,font-family -->
 
 **The live search is the source of truth for what the registry has.** The table(s) below are a hand-maintained sample and under-cover by design: run `npx hyperframes catalog --query "<what you want>" --json` — it needs nothing installed — before concluding the registry lacks something. Item names here are checked against `registry/registry.json` by `bun run lint:skills`.

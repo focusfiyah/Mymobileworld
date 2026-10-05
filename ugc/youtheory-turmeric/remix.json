@@ -1,0 +1,77 @@
+{
+ "pool": {
+  "T1": [
+   "S1",
+   0,
+   4
+  ],
+  "T3": [
+   "S3",
+   0,
+   6
+  ],
+  "T3b": [
+   "S3",
+   3,
+   6
+  ],
+  "R1": [
+   "S3_v1_rotates",
+   3.6,
+   6.0
+  ],
+  "R0": [
+   "S3_v1_rotates",
+   0,
+   0.9
+  ],
+  "T4": [
+   "S4",
+   0,
+   4
+  ]
+ },
+ "videos": [
+  {
+   "name": "Turmeric 1",
+   "vo": 1,
+   "order": [
+    "T1",
+    "T3",
+    "R1",
+    "R0"
+   ],
+   "end": "T4",
+   "grade": "natural",
+   "zoom": 1.0,
+   "anchor": 0.5
+  },
+  {
+   "name": "Turmeric 2",
+   "vo": 2,
+   "order": [
+    "T3",
+    "R0",
+    "T1",
+    "R1"
+   ],
+   "end": "T4",
+   "grade": "warm",
+   "zoom": 1.15,
+   "anchor": 0.3
+  },
+  {
+   "name": "Turmeric 3",
+   "vo": 3,
+   "order": [
+    "R1",
+    "T1",
+    "T3"
+   ],
+   "end": "T4",
+   "grade": "moody",
+   "zoom": 1.1,
+   "anchor": 0.55
+  }
+ ]
+}

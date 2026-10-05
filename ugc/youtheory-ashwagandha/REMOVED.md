@@ -1,0 +1,11 @@
+# Removed items (stay removed)
+
+- 2026-10-04 Ralph: on-screen hook text. No text overlay on any video unless Ralph asks for it.
+- 2026-10-04 Ralph: product overlay cards (real listing crop pasted as a card / pop-up). Black border, blurry, not a natural product feel. Never again.
+- 2026-10-04 Ralph: variants that reuse the same footage with a new VO (TikTok flags it). Every video gets its own look and setting.
+- 2026-10-04 Ralph: the same white-kitchen background in every video. Different backgrounds per video.
+- Push-ins on stills (Ken Burns) stay out (rule 7): every shot is a real clip.
+- 2026-10-04 Grace: the screw-cap/spout pouch (real pouch has a flat teal tear-off top) and any frame where the pouch turns into a juice box/carton with a lid.
+- 2026-10-04 Grace: 'the label says' in scripts.
+- 2026-10-04 Ralph: dark/moody grades.
+- 2026-10-04 Ralph: yellow/golden grade (now clean neutral).

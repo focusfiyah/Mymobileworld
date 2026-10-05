@@ -112,6 +112,32 @@ components:
 
 # Blue Professional — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: diagonal accent · left)
+  - 2 · Dashboard (data · move: 3-up metric grid · the dense frame)
+  - 3 · Bar Ranking (data · move: cobalt bars · left)
+  - 4 · Pull Quote (quote · move: concentric rings · centered)
+  - 5 · Split + Highlight (content · move: asymmetric split · left)
+  - 6 · Closing / CTA (closer · move: centered rings + CTA)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Blue Professional at frame scale is a **consulting-grade system: restraint with one strong

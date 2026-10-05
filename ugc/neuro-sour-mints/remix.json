@@ -1,0 +1,90 @@
+{
+ "pool": {
+  "N1": [
+   "S1",
+   0,
+   4
+  ],
+  "N3": [
+   "S3",
+   0,
+   7
+  ],
+  "N3b": [
+   "S3",
+   3,
+   7
+  ],
+  "R1": [
+   "S3_v1_rotates",
+   3.6,
+   7.0
+  ],
+  "R0": [
+   "S3_v1_rotates",
+   0,
+   1.0
+  ],
+  "N5": [
+   "S5",
+   0.8,
+   4
+  ]
+ },
+ "videos": [
+  {
+   "name": "Neuro Sour Mints 1",
+   "vo": 1,
+   "order": [
+    "N1",
+    "N3",
+    "R1"
+   ],
+   "end": "N5",
+   "grade": "natural",
+   "zoom": 1.0,
+   "anchor": 0.5
+  },
+  {
+   "name": "Neuro Sour Mints 2",
+   "vo": 2,
+   "order": [
+    "N3",
+    "R0",
+    "N1",
+    "R1"
+   ],
+   "end": "N5",
+   "grade": "cool",
+   "zoom": 1.25,
+   "anchor": 0.5
+  },
+  {
+   "name": "Neuro Sour Mints 3",
+   "vo": 3,
+   "order": [
+    "R1",
+    "N1",
+    "N3"
+   ],
+   "end": "N5",
+   "grade": "warm",
+   "zoom": 1.15,
+   "anchor": 0.3
+  },
+  {
+   "name": "Neuro Sour Mints 4",
+   "vo": 4,
+   "order": [
+    "N3b",
+    "N1",
+    "R1",
+    "R0"
+   ],
+   "end": "N5",
+   "grade": "moody",
+   "zoom": 1.1,
+   "anchor": 0.55
+  }
+ ]
+}

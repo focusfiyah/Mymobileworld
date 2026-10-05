@@ -1,0 +1,14 @@
+submitted 08c2a8c06a66cf0f6960a7bc0cb00b06
+still S4 ok
+Traceback (most recent call last):
+  File "/home/user/Mymobileworld/ugc/youtheory-turmeric/kie.py", line 177, in <module>
+    {"stills": stills, "clips": clips}[cmd](ids)
+  File "/home/user/Mymobileworld/ugc/youtheory-turmeric/kie.py", line 117, in stills
+    sheet("stills", ".png")
+  File "/home/user/Mymobileworld/ugc/youtheory-turmeric/kie.py", line 143, in sheet
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Mymobileworld/ugc/youtheory-turmeric/kie.py", line 143, in <lambda>
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'S4_v1' is not in list

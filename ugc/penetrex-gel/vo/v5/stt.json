@@ -1,0 +1,590 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.8907780647277832,
+ "text": "Gym bag essential? This roll-on. Tired muscles after a workout? Normal. Penetrex rolls on with arnica, vitamin B6, and MSM, and no strong smell. No hand washing, no greasy feel. It fits right in your gym bag. It's in the orange cart",
+ "words": [
+  {
+   "text": "Gym",
+   "start": 0.12,
+   "end": 0.28,
+   "type": "word",
+   "logprob": -0.0017249004449695349
+  },
+  {
+   "text": " ",
+   "start": 0.28,
+   "end": 0.36,
+   "type": "spacing",
+   "logprob": -1.3947389561508317e-05
+  },
+  {
+   "text": "bag",
+   "start": 0.36,
+   "end": 0.52,
+   "type": "word",
+   "logprob": -1.3947389561508317e-05
+  },
+  {
+   "text": " ",
+   "start": 0.52,
+   "end": 0.56,
+   "type": "spacing",
+   "logprob": -0.00014184899919200689
+  },
+  {
+   "text": "essential?",
+   "start": 0.56,
+   "end": 1.04,
+   "type": "word",
+   "logprob": -0.0001919687507324852
+  },
+  {
+   "text": " ",
+   "start": 1.04,
+   "end": 1.04,
+   "type": "spacing",
+   "logprob": -4.887569048150908e-06
+  },
+  {
+   "text": "This",
+   "start": 1.56,
+   "end": 1.78,
+   "type": "word",
+   "logprob": -4.887569048150908e-06
+  },
+  {
+   "text": " ",
+   "start": 1.78,
+   "end": 1.84,
+   "type": "spacing",
+   "logprob": -0.0002379134384682402
+  },
+  {
+   "text": "roll-on.",
+   "start": 1.84,
+   "end": 2.32,
+   "type": "word",
+   "logprob": -0.00016852308180315134
+  },
+  {
+   "text": " ",
+   "start": 2.32,
+   "end": 2.88,
+   "type": "spacing",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": "Tired",
+   "start": 2.88,
+   "end": 3.18,
+   "type": "word",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": " ",
+   "start": 3.18,
+   "end": 3.22,
+   "type": "spacing",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "muscles",
+   "start": 3.22,
+   "end": 3.56,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": " ",
+   "start": 3.56,
+   "end": 3.64,
+   "type": "spacing",
+   "logprob": -1.311301275563892e-06
+  },
+  {
+   "text": "after",
+   "start": 3.64,
+   "end": 3.88,
+   "type": "word",
+   "logprob": -1.311301275563892e-06
+  },
+  {
+   "text": " ",
+   "start": 3.88,
+   "end": 3.92,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "a",
+   "start": 3.92,
+   "end": 3.98,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.98,
+   "end": 4.019,
+   "type": "spacing",
+   "logprob": -4.887569048150908e-06
+  },
+  {
+   "text": "workout?",
+   "start": 4.019,
+   "end": 4.46,
+   "type": "word",
+   "logprob": -4.291524077437714e-06
+  },
+  {
+   "text": " ",
+   "start": 4.46,
+   "end": 4.46,
+   "type": "spacing",
+   "logprob": -0.0002810560108628124
+  },
+  {
+   "text": "Normal.",
+   "start": 5.02,
+   "end": 5.4,
+   "type": "word",
+   "logprob": -0.00024097327174591295
+  },
+  {
+   "text": " ",
+   "start": 5.4,
+   "end": 6.0,
+   "type": "spacing",
+   "logprob": -0.012795137241482735
+  },
+  {
+   "text": "Penetrex",
+   "start": 6.0,
+   "end": 6.48,
+   "type": "word",
+   "logprob": -0.010350662574637681
+  },
+  {
+   "text": " ",
+   "start": 6.48,
+   "end": 6.56,
+   "type": "spacing",
+   "logprob": -0.003717299783602357
+  },
+  {
+   "text": "rolls",
+   "start": 6.56,
+   "end": 6.8,
+   "type": "word",
+   "logprob": -0.003717299783602357
+  },
+  {
+   "text": " ",
+   "start": 6.8,
+   "end": 6.88,
+   "type": "spacing",
+   "logprob": -1.680836794548668e-05
+  },
+  {
+   "text": "on",
+   "start": 6.88,
+   "end": 7.02,
+   "type": "word",
+   "logprob": -1.680836794548668e-05
+  },
+  {
+   "text": " ",
+   "start": 7.02,
+   "end": 7.06,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "with",
+   "start": 7.06,
+   "end": 7.24,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 7.24,
+   "end": 7.3,
+   "type": "spacing",
+   "logprob": -0.018318170681595802
+  },
+  {
+   "text": "arnica,",
+   "start": 7.3,
+   "end": 7.7,
+   "type": "word",
+   "logprob": -0.005320830295593128
+  },
+  {
+   "text": " ",
+   "start": 7.7,
+   "end": 7.94,
+   "type": "spacing",
+   "logprob": -0.011074387468397617
+  },
+  {
+   "text": "vitamin",
+   "start": 7.94,
+   "end": 8.3,
+   "type": "word",
+   "logprob": -0.011074387468397617
+  },
+  {
+   "text": " ",
+   "start": 8.3,
+   "end": 8.34,
+   "type": "spacing",
+   "logprob": -4.172316494077677e-06
+  },
+  {
+   "text": "B6,",
+   "start": 8.34,
+   "end": 8.86,
+   "type": "word",
+   "logprob": -0.00012935768366636088
+  },
+  {
+   "text": " ",
+   "start": 8.86,
+   "end": 9.02,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "and",
+   "start": 9.02,
+   "end": 9.16,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 9.16,
+   "end": 9.3,
+   "type": "spacing",
+   "logprob": -0.00011216964776394889
+  },
+  {
+   "text": "MSM,",
+   "start": 9.3,
+   "end": 9.76,
+   "type": "word",
+   "logprob": -0.00045989039972482715
+  },
+  {
+   "text": " ",
+   "start": 9.76,
+   "end": 9.94,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "and",
+   "start": 9.94,
+   "end": 10.06,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.06,
+   "end": 10.2,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "no",
+   "start": 10.2,
+   "end": 10.34,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.34,
+   "end": 10.46,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "strong",
+   "start": 10.46,
+   "end": 10.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.66,
+   "end": 10.78,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "smell.",
+   "start": 10.78,
+   "end": 11.04,
+   "type": "word",
+   "logprob": -0.0020850474635700778
+  },
+  {
+   "text": " ",
+   "start": 11.04,
+   "end": 11.56,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "No",
+   "start": 11.56,
+   "end": 11.68,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 11.68,
+   "end": 11.74,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "hand",
+   "start": 11.74,
+   "end": 11.94,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 11.94,
+   "end": 11.98,
+   "type": "spacing",
+   "logprob": -0.06842980533838272
+  },
+  {
+   "text": "washing,",
+   "start": 11.98,
+   "end": 12.48,
+   "type": "word",
+   "logprob": -0.059918034297879785
+  },
+  {
+   "text": " ",
+   "start": 12.48,
+   "end": 12.7,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "no",
+   "start": 12.7,
+   "end": 12.8,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 12.8,
+   "end": 12.9,
+   "type": "spacing",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": "greasy",
+   "start": 12.92,
+   "end": 13.2,
+   "type": "word",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": " ",
+   "start": 13.2,
+   "end": 13.32,
+   "type": "spacing",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "feel.",
+   "start": 13.32,
+   "end": 13.6,
+   "type": "word",
+   "logprob": -8.583064300182741e-07
+  },
+  {
+   "text": " ",
+   "start": 13.6,
+   "end": 14.1,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It",
+   "start": 14.1,
+   "end": 14.18,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.18,
+   "end": 14.2,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "fits",
+   "start": 14.2,
+   "end": 14.38,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 14.38,
+   "end": 14.54,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "right",
+   "start": 14.54,
+   "end": 14.72,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 14.72,
+   "end": 14.76,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 14.76,
+   "end": 14.84,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.84,
+   "end": 14.86,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "your",
+   "start": 14.86,
+   "end": 14.98,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.98,
+   "end": 15.02,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "gym",
+   "start": 15.02,
+   "end": 15.16,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 15.16,
+   "end": 15.22,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "bag.",
+   "start": 15.22,
+   "end": 15.52,
+   "type": "word",
+   "logprob": -1.7881391478624664e-07
+  },
+  {
+   "text": " ",
+   "start": 15.52,
+   "end": 15.86,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It's",
+   "start": 15.86,
+   "end": 15.96,
+   "type": "word",
+   "logprob": -5.960463766996327e-08
+  },
+  {
+   "text": " ",
+   "start": 15.96,
+   "end": 16.0,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "in",
+   "start": 16.0,
+   "end": 16.079,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 16.079,
+   "end": 16.12,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 16.12,
+   "end": 16.2,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.2,
+   "end": 16.239,
+   "type": "spacing",
+   "logprob": -0.0003883084573317319
+  },
+  {
+   "text": "orange",
+   "start": 16.239,
+   "end": 16.48,
+   "type": "word",
+   "logprob": -0.0003883084573317319
+  },
+  {
+   "text": " ",
+   "start": 16.48,
+   "end": 16.56,
+   "type": "spacing",
+   "logprob": -3.4689302992774174e-05
+  },
+  {
+   "text": "cart",
+   "start": 16.56,
+   "end": 16.78,
+   "type": "word",
+   "logprob": -3.4689302992774174e-05
+  }
+ ],
+ "transcription_id": "B6lEgB5DHNPgeIt67mid",
+ "audio_duration_secs": 17.04
+}

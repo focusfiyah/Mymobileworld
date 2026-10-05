@@ -1,5 +1,13 @@
 # Transition Registry — machine source of truth
 
+## Contents
+
+- How the injector applies a transition
+- Template placeholders
+- Registry
+- Default-derivation (used by prep.mjs when the planner omits `**Transition:**`)
+- Choosing as a planner (the only agent touchpoint)
+
 Single source of truth for **PLV scene-to-scene transitions**. The deterministic
 injector (`product-launch-video/scripts/inject-transitions.mjs`) reads the JSON
 block below and stamps the matching `gsap_template` onto the master timeline.

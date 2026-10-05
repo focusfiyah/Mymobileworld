@@ -1,0 +1,16 @@
+submitted 8f672dd577db20ed3337571adcd6f103
+still S1 ok
+submitted efb7daab56797fe226b36f72ebd6ea28
+still S2 ok
+Traceback (most recent call last):
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 177, in <module>
+    {"stills": stills, "clips": clips}[cmd](ids)
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 117, in stills
+    sheet("stills", ".png")
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 143, in sheet
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 143, in <lambda>
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'S1_v1' is not in list

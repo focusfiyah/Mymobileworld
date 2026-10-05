@@ -111,6 +111,32 @@ components:
 
 # Capsule — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: title pill + display · centered)
+  - 2 · Pillar Cards (catalog · move: 3-up grid · left — the dense frame)
+  - 3 · Stat Grid (data · move: stat pills · centered head)
+  - 4 · Pull Quote (quote · move: highlight pill · left)
+  - 5 · Orbit (concept · move: gravitational pills · centered)
+  - 6 · Closing Plate (closer · move: title pill + display · centered)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Capsule at frame scale is a **playful editorial system where every container is a pill.** The

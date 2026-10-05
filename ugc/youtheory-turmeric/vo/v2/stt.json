@@ -1,0 +1,548 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9304218292236328,
+ "text": "Don't buy turmeric before you read this. uTheory says 65 times better absorption in just one pill. It's one capsule with ginger root for a healthy inflammation response and cognition. 30 capsules, grab two. It's in the orange cart",
+ "words": [
+  {
+   "text": "Don't",
+   "start": 0.12,
+   "end": 0.36,
+   "type": "word",
+   "logprob": -5.435924411756332e-06
+  },
+  {
+   "text": " ",
+   "start": 0.36,
+   "end": 0.4,
+   "type": "spacing",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": "buy",
+   "start": 0.4,
+   "end": 0.58,
+   "type": "word",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": " ",
+   "start": 0.58,
+   "end": 0.66,
+   "type": "spacing",
+   "logprob": -3.158996332786046e-05
+  },
+  {
+   "text": "turmeric",
+   "start": 0.66,
+   "end": 1.08,
+   "type": "word",
+   "logprob": -3.158996332786046e-05
+  },
+  {
+   "text": " ",
+   "start": 1.08,
+   "end": 1.12,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "before",
+   "start": 1.12,
+   "end": 1.4,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 1.4,
+   "end": 1.44,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "you",
+   "start": 1.44,
+   "end": 1.54,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.54,
+   "end": 1.58,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "read",
+   "start": 1.58,
+   "end": 1.76,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 1.76,
+   "end": 1.82,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "this.",
+   "start": 1.82,
+   "end": 2.18,
+   "type": "word",
+   "logprob": -1.4305113609225374e-07
+  },
+  {
+   "text": " ",
+   "start": 2.18,
+   "end": 2.18,
+   "type": "spacing",
+   "logprob": -0.44926315546035767
+  },
+  {
+   "text": "uTheory",
+   "start": 2.74,
+   "end": 3.16,
+   "type": "word",
+   "logprob": -0.5338737198284694
+  },
+  {
+   "text": " ",
+   "start": 3.16,
+   "end": 3.3,
+   "type": "spacing",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "says",
+   "start": 3.3,
+   "end": 3.64,
+   "type": "word",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": " ",
+   "start": 3.64,
+   "end": 4.14,
+   "type": "spacing",
+   "logprob": -0.0002636561985127628
+  },
+  {
+   "text": "65",
+   "start": 4.14,
+   "end": 4.58,
+   "type": "word",
+   "logprob": -6.55650836733912e-07
+  },
+  {
+   "text": " ",
+   "start": 4.58,
+   "end": 4.64,
+   "type": "spacing",
+   "logprob": -5.364403477869928e-06
+  },
+  {
+   "text": "times",
+   "start": 4.64,
+   "end": 4.9,
+   "type": "word",
+   "logprob": -5.364403477869928e-06
+  },
+  {
+   "text": " ",
+   "start": 4.9,
+   "end": 5.04,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "better",
+   "start": 5.04,
+   "end": 5.24,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 5.24,
+   "end": 5.28,
+   "type": "spacing",
+   "logprob": -1.8596476365928538e-05
+  },
+  {
+   "text": "absorption",
+   "start": 5.28,
+   "end": 5.9,
+   "type": "word",
+   "logprob": -1.8596476365928538e-05
+  },
+  {
+   "text": " ",
+   "start": 5.9,
+   "end": 5.94,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 5.94,
+   "end": 6.06,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 6.06,
+   "end": 6.12,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "just",
+   "start": 6.12,
+   "end": 6.28,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 6.28,
+   "end": 6.48,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "one",
+   "start": 6.48,
+   "end": 6.66,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 6.66,
+   "end": 6.78,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "pill.",
+   "start": 6.78,
+   "end": 7.08,
+   "type": "word",
+   "logprob": -4.768370217789197e-07
+  },
+  {
+   "text": " ",
+   "start": 7.08,
+   "end": 7.08,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It's",
+   "start": 7.52,
+   "end": 7.72,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 7.72,
+   "end": 7.78,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "one",
+   "start": 7.78,
+   "end": 7.9,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 7.9,
+   "end": 8.02,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "capsule",
+   "start": 8.02,
+   "end": 8.4,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 8.4,
+   "end": 8.44,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "with",
+   "start": 8.44,
+   "end": 8.6,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 8.6,
+   "end": 8.66,
+   "type": "spacing",
+   "logprob": -6.198863957251888e-06
+  },
+  {
+   "text": "ginger",
+   "start": 8.66,
+   "end": 8.92,
+   "type": "word",
+   "logprob": -6.198863957251888e-06
+  },
+  {
+   "text": " ",
+   "start": 8.92,
+   "end": 9.0,
+   "type": "spacing",
+   "logprob": -8.713819261174649e-05
+  },
+  {
+   "text": "root",
+   "start": 9.0,
+   "end": 9.22,
+   "type": "word",
+   "logprob": -8.713819261174649e-05
+  },
+  {
+   "text": " ",
+   "start": 9.22,
+   "end": 9.4,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "for",
+   "start": 9.4,
+   "end": 9.5,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": " ",
+   "start": 9.5,
+   "end": 9.56,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "a",
+   "start": 9.56,
+   "end": 9.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.62,
+   "end": 9.66,
+   "type": "spacing",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": "healthy",
+   "start": 9.66,
+   "end": 9.96,
+   "type": "word",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": " ",
+   "start": 9.96,
+   "end": 10.0,
+   "type": "spacing",
+   "logprob": -2.455681169521995e-05
+  },
+  {
+   "text": "inflammation",
+   "start": 10.0,
+   "end": 10.54,
+   "type": "word",
+   "logprob": -2.455681169521995e-05
+  },
+  {
+   "text": " ",
+   "start": 10.54,
+   "end": 10.58,
+   "type": "spacing",
+   "logprob": -5.722029527532868e-06
+  },
+  {
+   "text": "response",
+   "start": 10.58,
+   "end": 11.02,
+   "type": "word",
+   "logprob": -5.722029527532868e-06
+  },
+  {
+   "text": " ",
+   "start": 11.02,
+   "end": 11.18,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "and",
+   "start": 11.18,
+   "end": 11.3,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 11.3,
+   "end": 11.38,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "cognition.",
+   "start": 11.38,
+   "end": 11.98,
+   "type": "word",
+   "logprob": -3.099440817777577e-07
+  },
+  {
+   "text": " ",
+   "start": 11.98,
+   "end": 11.98,
+   "type": "spacing",
+   "logprob": -1.8954096958623268e-05
+  },
+  {
+   "text": "30",
+   "start": 12.48,
+   "end": 12.58,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 12.58,
+   "end": 12.66,
+   "type": "spacing",
+   "logprob": -1.966933996300213e-05
+  },
+  {
+   "text": "capsules,",
+   "start": 12.66,
+   "end": 13.2,
+   "type": "word",
+   "logprob": -7.25713810728242e-05
+  },
+  {
+   "text": " ",
+   "start": 13.2,
+   "end": 13.46,
+   "type": "spacing",
+   "logprob": -8.702239938429557e-06
+  },
+  {
+   "text": "grab",
+   "start": 13.46,
+   "end": 13.66,
+   "type": "word",
+   "logprob": -8.702239938429557e-06
+  },
+  {
+   "text": " ",
+   "start": 13.66,
+   "end": 13.76,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "two.",
+   "start": 13.76,
+   "end": 14.02,
+   "type": "word",
+   "logprob": -2.9802320611338473e-08
+  },
+  {
+   "text": " ",
+   "start": 14.02,
+   "end": 14.36,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It's",
+   "start": 14.36,
+   "end": 14.46,
+   "type": "word",
+   "logprob": -2.9802320611338473e-08
+  },
+  {
+   "text": " ",
+   "start": 14.46,
+   "end": 14.5,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 14.5,
+   "end": 14.56,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.56,
+   "end": 14.6,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 14.6,
+   "end": 14.68,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.68,
+   "end": 14.74,
+   "type": "spacing",
+   "logprob": -4.2676016164477915e-05
+  },
+  {
+   "text": "orange",
+   "start": 14.74,
+   "end": 14.96,
+   "type": "word",
+   "logprob": -4.2676016164477915e-05
+  },
+  {
+   "text": " ",
+   "start": 14.96,
+   "end": 15.04,
+   "type": "spacing",
+   "logprob": -2.002696055569686e-05
+  },
+  {
+   "text": "cart",
+   "start": 15.04,
+   "end": 15.26,
+   "type": "word",
+   "logprob": -2.002696055569686e-05
+  }
+ ],
+ "transcription_id": "PoxFRJkt9xGIYagR3JSr",
+ "audio_duration_secs": 15.44
+}

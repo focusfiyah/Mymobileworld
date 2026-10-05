@@ -1,5 +1,16 @@
 # Contributing a Block or Component to the Registry
 
+## Contents
+
+- Workflow
+  - Step 1: Clarify
+  - Step 2: Scaffold
+  - Step 3: Build
+  - Step 4: Validate
+  - Step 5: Preview
+  - Step 6: Ship
+- Quality Gate
+
 Guide the user from idea to merged PR for a new registry block or component.
 
 ## Workflow

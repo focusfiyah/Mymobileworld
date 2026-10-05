@@ -1,0 +1,23 @@
+# A/B compare
+
+**A**: https://www.tiktok.com/@oklamanda/video/7684488917411826957 (241,300 views, saves 0.01%)
+**B**: neuro-sour-mints/out/neuro-sour-mints.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 44.4 | 15.8 |
+| words | 146 | 0 |
+| words_per_sec | 3.29 | None |
+| cuts | 0 | 4 |
+| cuts_per_10s | 0.0 | 2.5 |
+| first_word_at_s | 0.0 | None |
+| spoken_first_3s | Make sure you read the reviews before you buy these, because apparently when Neuro says sour, |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.0s] Make sure you read the reviews before you buy these,
+- [1.9s] because apparently when Neuro says sour,
+
+-> neuro-sour-mints/research/compare/compare/compare.md, neuro-sour-mints/research/compare/compare/compare.png
