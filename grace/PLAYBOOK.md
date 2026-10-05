@@ -9,7 +9,7 @@ products follow the same rules.
 
 ## 1. House rules (never break)
 - **No personal-use lines** ("I use it", "it worked for me", "smells like…") unless true for Grace. Review
-  findings are "reviewers say", never her experience.
+  findings are said the way Grace would pass them on ("people say their teenager grabbed it and ran off with it"), never her experience and never the word "reviewer(s)" (Ralph 2026-10-05).
 - **Grace's point of view, every script** (Ralph 2026-10-03, after the Anemiaprin v2 scripts read like a nurse
   lecturing): write it as Grace talking to her friends ("girls", "this is the one I'd show you", "here's what I want
   you to know"), reading the label in her hand and giving her opinion. Never an expert or educator voice ("as a nurse",

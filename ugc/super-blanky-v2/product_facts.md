@@ -10,7 +10,7 @@
 | Nothing goes over your head (no hood) | Brand page: no hood; listing describes a throw with pocket sleeves |
 | Cloud Pink and Hot Pink | superblanky.com colour list |
 | 4.8 stars from over 500 reviews | `tiktok.py shop "wearable blanket"` 2026-10-05: rating 4.8, 500 reviews (research/shop/) |
-| Reviewers say their teenager grabbed it and ran off with it | TikTok Shop reviews, quoted in the 2026-10-02 Super Blanky research ("my teenager grabbed it and ran off with it") |
+| People say their teenager grabbed it and ran off with it (a buyer's review, reworded the way Grace would say it) | TikTok Shop reviews, quoted in the 2026-10-02 Super Blanky research ("my teenager grabbed it and ran off with it") |
 | Couch / desk at work / car | Listing "home, couch, travel"; "portable ... everyday use" |
 | October = Breast Cancer Awareness Month; comfort gift | Listing title "Breast Cancer Awareness ... Cancer Care Gifts for Women". Framed as a comfort gift only: no treatment, side-effect or recovery claim, never the brand's "chemotherapy must-have" wording (PLAYBOOK §7, 2026-10-02) |
 

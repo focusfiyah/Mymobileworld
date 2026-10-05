@@ -44,7 +44,7 @@ Hook H095 (Product Demo). Modeled on @evenmorevmc ("Falls off. Doesn't fall off.
 
 [put on the Super Blanky, arms into the pockets, then walk, grab a snack, sit back down]
 
-"This one has pockets inside for your arms. Stand up, still on. Grab a snack, still on. It wraps like a robe, nothing goes over your head, and the fleece stays soft after a lot of washes. It has four point eight stars from over five hundred reviews. Reviewers say their teenager grabbed it and ran off with it."
+"This one has pockets inside for your arms. Stand up, still on. Grab a snack, still on. It wraps like a robe, nothing goes over your head, and the fleece stays soft after a lot of washes. It has four point eight stars from over five hundred reviews. People say their teenager grabbed it and ran off with it."
 
 **CTA**
 
