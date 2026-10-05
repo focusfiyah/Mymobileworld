@@ -19,7 +19,7 @@ Fill every field. Delete none. "n/a" needs a reason. Send before any paid call.
 | Banned-phrase check | | |
 
 ## 3. Script (final, Humanized)
-Hook (spoken + on-screen text) / pain / solution / honest caveat / real urgency / close "It's in the orange cart." (Grace). No price, no "order it now", only our product.
+Curiosity-loop hook (spoken; on-screen text options only, burned in on Ralph's yes) / pain / selling point or solution / sell-side confession / real FOMO or urgency / close "It's in the orange cart." (Grace). No price, no "order it now", only our product.
 Source of each line: ____
 
 ## 4. Shot list
