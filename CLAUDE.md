@@ -52,7 +52,9 @@ not in a new file.
    `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
 6. **Looks like video, not pictures** (Ralph, 2026-10-03, FUSOU V2): every shot a real moving clip, no Ken Burns on photos, no freezes; no hand sweeping across the product; never add a picture Ralph didn't ask for. A client's own script is used verbatim only on Ralph's word, via a recorded per-video `overrides` entry in `checklist.json` (`grace/gate.py`).
 7. **Removed items stay removed (Ralph, 2026-10-04):** keep `REMOVED.md` in every job; before a cut goes to Ralph, list every element in it and check against that list and the last round's notes. Details: `grace/PLAYBOOK.md` §6.
-8. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
+8. **No text in the video unless Ralph asks for it in that job** (Ralph 2026-10-02/03, restated 2026-10-05 after Base Labs shipped with hook text): no hook text,
+   captions or title cards; hook text options go in the scripts doc for Grace to add in TikTok. `grace/gate.py --stage cut` enforces it.
+9. **Report the running total vs the quote at every paid step.** Details and fixes: `ugc-product-ad` skill
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
@@ -91,7 +93,7 @@ not in a new file.
 
 - **GTT Black KN95 50-pack (Grace), 2026-10-03:** hands-only AI ad, 31s, 10 shots matched to the VO, `ugc/gtt-kn95/out/gtt_kn95.mp4` APPROVED; in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)); $4.375 Kie vs $2.75 first quote (redos, each asked). README Status line. Grace reference sheet: `grace/ref/`.
 
-- **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04:** one silent hands-only AI video each (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/` rev 2 2026-10-05 (Grace: underarm + leg instead of forearm, pads 29.2s / oil 31.2s), in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P: 3 hook-text versions per video + scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); $5.867 Kie vs $3.46 quote (Seedance rerolls, each asked). Retime to Grace's VO when she sends it (free). README Status line.
+- **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04:** one silent hands-only AI video each (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/` rev 2 2026-10-05 (Grace: underarm + leg instead of forearm, pads 29.2s / oil 31.2s), in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P: one no-text video per product (Ralph 2026-10-05: hook text removed) + scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ); $5.867 Kie vs $3.46 quote (Seedance rerolls, each asked). Retime to Grace's VO when she sends it (free). README Status line.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc

@@ -20,6 +20,7 @@ Paste the block below into any of:
 - Ask before EVERY paid generation (images, video, voice), including redos and retries, with the exact cost.
 - Try free fixes first (crop, blur, re-cut) before paying for a reroll.
 - Send me a phone notification whenever something is ready for my review or needs my decision. I leave the app.
+- No text in the video unless I ask for it in that job (no hook text or captions; hook ideas go in the scripts doc for Grace to add in TikTok). (Ralph 2026-10-02/03, restated 2026-10-05; enforced by `grace/gate.py --stage cut`.)
 - Client ad work lives in GitHub repo focusfiyah/Mymobileworld (its CLAUDE.md, `grace/PLAYBOOK.md`, the `ugc-product-ad` skill).
 
 ## "Everything means everything" (2026-10-03, after a client video shipped without the Humanizer pass)
