@@ -113,7 +113,7 @@ not in a new file.
 - **Skill standard (Ralph, 2026-10-05):** SKILL.md under 200 lines, detail in `references/` (table of contents if over 100 lines), code instead of prose where output must be consistent, templates for repeated outputs (`ugc-product-ad/templates/`); clear, concise, no technical constraints. Hyperframes/media-use were reworked this way (upstream updates overwrite).
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
   (day-one-ai, find-skills, grace-product-scripts, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach,
-  brag-slim, scrapling).
+  brag-slim, scrapling, prompt-master).
   When you add or edit one of those, change it in BOTH repos. `ugc-product-ad` lives only here (client work).
 - Scan every new skill first with the `skill-inspector` skill (SkillSpector). The claude.ai account upload (zip) is the
   only copy that reaches every device and chat; repo copies load only in sessions on that repo.
@@ -122,6 +122,11 @@ not in a new file.
   reworked to the skill standard; `scripts/setup.sh` = venv + browsers + proxy CA). Tested in the cloud: get / fetch / stealthy-fetch
   all OK. SkillSpector --no-llm 100/100 CRITICAL, all doc-length parse limits + doc examples (upstream 88/100 same findings),
   manual review clean → APPROVE. `handoff/scrapling-skill.zip` UPLOADED by Ralph to claude.ai 2026-10-05 (account skill `scrapling`: chat, Projects, Cowork). TikTok: tiktok-shop-coach first.
+- **prompt-master** (Ralph, 2026-10-05): writes/fixes/ports a paste-ready prompt for any AI tool (LLMs, Claude Code/Cursor, image, video, voice,
+  workflow). github.com/nidhinjs/prompt-master @ 2bd9251 (v1.8.0, MIT), reworked to the skill standard (SKILL.md 123 lines, per-tool routing in
+  `references/tools.md` with a "Ralph's stack" section first: Seedance 2.0 Mini on Kie, Gemini 3 Pro Image, Kling, hand/product rules, ask before paid
+  runs; current Claude IDs; ElevenLabs v4 tags). SkillSpector --no-llm upstream 63/100 HIGH, all 5 false positives (SOURCE.md); copy 7/100 LOW SAFE →
+  APPROVE. `handoff/prompt-master-skill.zip` waiting for Ralph's claude.ai upload (chat, Projects, Cowork).
 
 ## Learning reports (2026-10-01)
 - `reports/`: daily (`YYYY-MM-DD-daily.md`) + weekly (`YYYY-Wnn-weekly.md`) notes Ralph pastes into new chats.
