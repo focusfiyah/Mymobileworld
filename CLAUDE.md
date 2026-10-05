@@ -25,7 +25,7 @@ not in a new file.
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
   (host the file first, e.g. Kie's free 3-day file host: `python3 -c "import kie; print(kie.upload('<file>'))"` in a job
   folder). The connector can't take a 7 MB video (base64 in the call) and turns emoji into mojibake in Docs.
-- **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text) → humanizer → plan; after
+- **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text options) → humanizer → plan; **no text overlay in a cut unless Ralph says yes for that ad (Ralph 2026-10-05)**; after
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
@@ -48,7 +48,7 @@ not in a new file.
 4. **Prompt text overrides the image:** when the look changes, update every prompt block (grep for the old wording);
    leave the product description out of shots that must not show the product.
 5. **Script = everything** (Ralph, 2026-10-01): coach data + coach playbook + sales psychology + product research +
-   Grace structure + `humanizer` + readability + on-screen hook text, then coach `compare` on the cut. Full list:
+   Grace structure + `humanizer` + readability + on-screen hook text options (burned in only on Ralph's yes), then coach `compare` on the cut. Full list:
    `grace/PLAYBOOK.md` §4. Show the source of each line in the plan.
 6. **Looks like video, not pictures** (Ralph, 2026-10-03, FUSOU V2): every shot a real moving clip, no Ken Burns on photos, no freezes; no hand sweeping across the product; never add a picture Ralph didn't ask for. A client's own script is used verbatim only on Ralph's word, via a recorded per-video `overrides` entry in `checklist.json` (`grace/gate.py`).
 7. **Removed items stay removed (Ralph, 2026-10-04):** keep `REMOVED.md` in every job; before a cut goes to Ralph, list every element in it and check against that list and the last round's notes. Details: `grace/PLAYBOOK.md` §6.
@@ -91,7 +91,7 @@ not in a new file.
 
 - **GTT Black KN95 50-pack (Grace), 2026-10-03:** hands-only AI ad, 31s, 10 shots matched to the VO, `ugc/gtt-kn95/out/gtt_kn95.mp4` APPROVED; in Drive (Grace Tiktok assets/GTT Black KN95 50-pack ad (2026-10-03)); $4.375 Kie vs $2.75 first quote (redos, each asked). README Status line. Grace reference sheet: `grace/ref/`.
 
-- **LGXNDS Creatine (Grace), 2026-10-04:** hands-only AI ad, 31s, 9 clips matched line by line, real label pasted back (`label.py`). Cut v2 (sharper real label, real-packshot push-in on the label line) is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) with the script doc, v1 removed (Ralph, 2026-10-05); $2.573 Kie vs $2.57 quote. README Status line.
+- **LGXNDS Creatine (Grace), 2026-10-04:** hands-only AI ad, 31s, 9 clips matched line by line, real label pasted back (`label.py`). Cut v3 (v2's sharper real label + real-packshot push-in, text overlay removed on Ralph's word) is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) with the script doc, v1 and v2 removed (2026-10-05); $2.573 Kie vs $2.57 quote. README Status line.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc

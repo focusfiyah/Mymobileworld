@@ -5,7 +5,7 @@ hands-only demo over a voiceover; template `../gtt-kn95/` (gated, kie.py/cut.py/
 VO ElevenLabs Grace B `bGrsdLmwBbYUgHRuMFOI` (eleven_v4). ~30 s, 9:16, ~8 shots. Stills Gemini 3 Pro Image (Kie
 `nano-banana-pro`), clips Seedance 2.0 Mini (`bytedance/seedance-2-mini`). Product ref: `refs/tiktok_listing.jpg`.
 
-Status: **2026-10-05: DONE. Cut v2 `out/lgxnds_creatine_v2.mp4` is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) as lgxnds_creatine_ad_v2.mp4 (1MacSsoKGh9x5_KHrejXjVf_OqslMzi20) with the script doc; v1 removed from Drive on Ralph's "Replace". v2 = sharper real label + real-packshot push-in for the label line. Kie total $2.573 vs $2.57 quote. Rebuild: `python3 cut.py`.**
+Status: **2026-10-05: DONE. Cut v3 `out/lgxnds_creatine_v3.mp4` is the final (v2 with the hook text overlay removed, Ralph: "Remove text overlay. I did not ask you to do so"), in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) as lgxnds_creatine_ad_v3.mp4 (17e6i9KCU29ubJk4TO_jxyTfhlbQoqrnm, 9,033,729 bytes, size matches) with the script doc; v1 and v2 trashed. Kie total $2.573 vs $2.57 quote. Rebuild: `python3 cut.py`.**
 
 ## Open questions for Ralph/Grace (ask in the plan message)
 - Is the Prime Sports tub unflavored with a scoop inside (the other seller's listing says so)?
