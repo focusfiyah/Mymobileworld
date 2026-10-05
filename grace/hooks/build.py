@@ -23,7 +23,7 @@ for t, hs in by_type.items():
     for h in hs:
         out += [f"**{h['id']}. \"{h['hook']}\"**", f"- Use when: {h['use_when']}",
                 f"- Best for: {', '.join(h['best_for'])}", f"- Note: {h['note']}"]
-        if h.get("grace_caution"): out.append(f"- Grace caution: {h['grace_caution']}")
+        if h.get("grace_caution"): out.append(f"- Grace note: {h['grace_caution']}")
         if h.get("used_in"): out.append(f"- Used in: {', '.join(h['used_in'])}")
         out.append("")
 (here / "HOOKS.md").write_text("\n".join(out))
