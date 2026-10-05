@@ -1,45 +1,45 @@
-# Base Laboratories Ingrown Hair Oil Solution: 3 script options for Grace (2026-10-04)
-Grace records the voiceover herself. Structure: curiosity hook, pain, solution, how to use, honest sell-side line, real seasonal urgency CTA. All three options use the SAME six beats so ONE video fits any of them.
+# Base Laboratories Ingrown Hair Oil Solution (1 fl oz dropper bottle): 3 REWRITTEN script options for Grace (v2, 2026-10-05)
+Grace records the voiceover herself. Same six beats and same picture as v1 (hook, pain, solution, how to use, features + sell-side line, urgency CTA), so the approved video still fits any option. v1 is kept in git history (scripts v1, 2026-10-04).
+What changed: spoken hooks come word for word from the hook library (`grace/hooks/HOOKS.md`, id in each header, no id reused across the 6 scripts), no personal-use claims, no 'label says', review findings passed on the way Grace would, every line trimmed to its shot length, text overlay is now an optional yes/no item (burned in only on Ralph's yes).
 
-## Option A: Category gap + features (Grace style 1)
-On-screen hook text (frame 0): "oil for ingrown hairs?"  |  Modeled on: Grace hook style 1 + @healinghonei 1.3k bottle-in-hand demo
+## Option A: Show-don't-explain demo + never-seen-until-now (hook H095)
+Optional on-screen text (only if Ralph says yes; never default): "oil for ingrown hairs?"  |  Modeled on: H095 + Grace style 1 + @healinghonei 1.3k bottle-in-hand demo
 
 | Beat | Line |
 |---|---|
-| hook | I've seen lots of body oils, but never one made for ingrown hairs until now. |
+| hook | I am just going to show you because explaining it is harder. |
 | pain | Shaving can leave your skin itchy and bumpy. |
-| solution | This one has tea tree, jojoba and botanical oils, and it soaks in fast without feeling greasy. |
-| how to use | Use two to four drops on clean skin and rub it in gently, morning and night. |
-| features + confession | Bikini line, underarms, legs, even your face and neck. The only downside? The bottle looks too good to hide in a drawer. |
-| urgency CTA | Holiday season is coming, so don't put this off. Grab one for the bathroom and one for your gym bag. It's in the orange cart. |
+| solution | I have never seen a body oil made for ingrown hairs until now. It has tea tree and jojoba. |
+| how to use | Two to four drops on clean skin, massage in circles, morning and night. |
+| features + confession | People say it's never greasy. The only downside? The bottle looks too good to hide in a drawer. |
+| urgency CTA | Holiday season is coming, so don't put this off. Grab one for home, one for your bag. It's in the orange cart. |
 
-103 words, about 31s at 3.3 words/s.
+97 words, about 29s at 3.3 words/s (picture is 29s).
 
-## Option B: Call-out: skin after shaving
-On-screen hook text (frame 0): "your skin after shaving"  |  Modeled on: @jazmeencaldwell 41k ('irritated, inflamed, itchy after shaving' call-out) + @katmademebuyit 195k
+## Option B: Call-out: skin after shaving (hook H065)
+Optional on-screen text (only if Ralph says yes; never default): "your skin after shaving"  |  Modeled on: H065 + @jazmeencaldwell 41k (irritated, itchy after shaving) + @katmademebuyit 195k + Grace style 2
 
 | Beat | Line |
 |---|---|
-| hook | If your skin gets itchy and bumpy after you shave, you want to see this little bottle. |
-| pain | Razors can leave your skin red, itchy and dry. |
-| solution | This oil helps prevent ingrown hairs and razor bumps, and it softens coarse hair so it grows out smoothly. |
+| hook | Does anybody else get itchy bumps every time they shave? |
+| pain | Razors can leave skin red and itchy. |
+| solution | If you shave your bikini line or underarms, this oil helps prevent ingrown hairs and razor bumps. |
 | how to use | It comes with a dropper. A couple of drops, massage in circles, done. |
-| features + confession | It's lightweight, so there's no sticky feeling. The only problem? Now I have no excuse to skip it. |
+| features + confession | It softens coarse hair and feels light, never sticky. The only problem? Now there's no skipping it. |
 | urgency CTA | Party season is coming, so don't put this off. Grab one for you and one to gift. It's in the orange cart. |
 
-98 words, about 30s at 3.3 words/s.
+86 words, about 26s at 3.3 words/s (picture is 29s).
 
-## Option C: Routine + sensory drop (shave, then a few drops)
-On-screen hook text (frame 0): "shave, then this"  |  Modeled on: @joshyydeals 24k (pattern + routine) + @tiktokshopdeals4you 1.6M (one action per cut)
+## Option C: Is there anything made for it? + ingredients one by one (hook H028)
+Optional on-screen text (only if Ralph says yes; never default): "shave, then this"  |  Modeled on: H028 + @joshyydeals 24k (pattern + routine) + @tiktokshopdeals4you 1.6M + Grace style 3
 
 | Beat | Line |
 |---|---|
-| hook | Shave. Then a few drops. Watch this. |
-| pain | After shaving or waxing, your skin can feel tight and irritated. |
-| solution | This oil has tea tree, rosemary and lavender, plus grape seed and jojoba oil to hydrate without clogging. |
-| how to use | A few drops on your fingertip, then massage until it's absorbed. Morning and night. |
-| features + confession | It absorbs fast. The only problem? Now I want one in every bag. |
-| urgency CTA | Holiday travel is coming, so don't put this off. Grab a couple, one for home and one for your bag. It's in the orange cart. |
+| hook | If you are wondering whether there is anything made for ingrown hairs, here you go. |
+| pain | After shaving or waxing, skin can feel tight and irritated. |
+| solution | Jojoba and grape seed oil hydrate without clogging, and there's tea tree in there too. |
+| how to use | A few drops on your fingertip, massage until it's absorbed. Morning and night. |
+| features + confession | Bikini line, underarms, legs, even face and neck. The only problem? Now I want one in every bag. |
+| urgency CTA | Holiday travel is coming, so don't put this off. Grab two, one for home and one for your bag. It's in the orange cart. |
 
-88 words, about 27s at 3.3 words/s.
-
+95 words, about 29s at 3.3 words/s (picture is 29s).
