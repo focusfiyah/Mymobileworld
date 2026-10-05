@@ -93,6 +93,8 @@ and ask questions, do not assume, because that's how we waste time and money."
 - **Delivering to Google Drive** (Ralph, 2026-10-01): use both the Google Drive connector and Composio `googledrive`;
   if one fails, use the other. Videos go through Composio `GOOGLEDRIVE_UPLOAD_FROM_URL` after hosting the file on
   Kie's file host (`kie.upload`); the connector handles folders and docs but can't carry a video.
+  One folder per product in "Grace Tiktok assets" (reuse an existing one), "CURRENT - " on the latest, superseded files
+  renamed vN + date into an "Older versions" subfolder, nothing loose (Ralph 2026-10-05).
 - **Tokens:** keep the job README's `Status:` line current (what's done, what's next, what it costs) so "continue
   the X ad" needs one file read. Short updates, chained shell steps, one contact sheet per batch.
 
