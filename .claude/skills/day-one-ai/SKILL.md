@@ -27,7 +27,11 @@ from **recurring affiliate links** in the description (not AdSense).
 
 ## Ralph's standing decisions (don't re-ask)
 1. **Every upload is PRIVATE.** Publish only when Ralph says so (`python3 yt.py publish <id>`).
-2. **Cost:** the normal voiceover (~2.5–3.5k ElevenLabs characters per video) is pre-approved. Tell Ralph the exact cost
+2. **Voiceover paused (Ralph 2026-10-05, overrides the next sentence):** daily runs make SILENT drafts (`--dry`, no
+   upload) and send Ralph a list of apps; he says per app "hold" or "audio + publish". Only then render with
+   `VOICE_OK=<slug>` (produce.py refuses ElevenLabs otherwise while config.json `voiceover_paused` is true), upload and
+   publish. Rank apps where Ralph already has an affiliate link first: he wants income before more ElevenLabs spend.
+   **Cost:** the normal voiceover (~2.5–3.5k ElevenLabs characters per video) is pre-approved. Tell Ralph the exact cost
    before anything else paid (extra re-voicing, AI images or video). He chose free code-rendered channel art over
    AI images (Nano Banana Pro on Fal.ai is $0.15 per image, $0.30 at 4K; no FAL_KEY in the cloud env).
 3. **Voices (eleven_v4):** narrator is **Ralph's cloned voice "Ralph Azariah"** `5YVjMzHn641xyj0jM38O`. Not his voice for
