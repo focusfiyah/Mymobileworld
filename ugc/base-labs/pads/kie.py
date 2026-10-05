@@ -28,7 +28,8 @@ LOG = Path("kie_log.json"); CACHE = Path("upload_cache.json"); _LOCK = threading
 def blocks(sid):
     s = SHOTS[sid]
     hb = J["hand_block"].replace("Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people.",
-        "The working hand enters from the right frame edge with the whole wrist visible; the other arm (same skin tone, same short nails) lies still on the counter from the left edge, forearm bare; no face, no other people.") if s.get("forearm") else J["hand_block"]
+        "The working hand enters from the right frame edge with the whole wrist visible; the other arm (same skin tone, same short nails) lies still on the counter from the left edge, forearm bare; no face, no other people.") if s.get("forearm") else J["hand_block"].replace("Only the hand enters from the frame edge, whole wrist visible, no forearm, no face, no other people.",
+        "The working hand enters from the frame edge with the whole wrist visible; the arm or leg shown belongs to the same woman (same medium-dark brown skin tone, smooth skin); no face, no other people.") if s.get("body") else J["hand_block"]
     return " ".join(([hb] if s.get("hand") else []) + ([J["prod_block"]] if s.get("prod") else [])
                     + ([J["box_block"]] if s.get("box") else []))
 
