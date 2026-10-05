@@ -17,3 +17,6 @@ Open note for Ralph: if Grace wants it closer to the winner's pace, the script (
 - Motion per second (mean frame difference, 180x320): old 3A had Ken Burns photo stretches near 0.3; new 3A minimum 1.1 (the slow tail of the room pull-back), most seconds 3-9. Locked hand clips (outlets, stool, lipstick, door) got a free smooth push (no sway) because the room behind the hand never moved.
 - Not copied from the winner: price text/on-screen text (house rules, no text without Ralph's yes).
 - Fixed after the first build: outlets/stool/lipstick stretch read as still (motion 0.3-1.3) -> push added (now 1.8-4.9).
+
+## 2026-10-05 MOTION redo, 3B (out/fusou_v3B_motion.mp4, hook H126) vs @ivy.rogers3 (research/compare_B_motion/)
+- 35.0 s, 16 moving shots; vanity on screen from 0 s (rise from the stool to the lit mirror). Motion per second min 1.0 (the final second), most 3-9. Hand slides in over 1.4 s at the right edge, no forearm, no halo (2x zoom). No door-frame wipe, rug never slides (O5c), bright cool grade (A is bright neutral), different order/sections than A.
