@@ -7,3 +7,5 @@ Grace's words kept as written (Ralph's rule). Checked against the 29 patterns:
 
 
 ## Re-check 2026-10-05 (motion redo, script unchanged since commit of 2026-10-04 04:46; same Grace B voiceover vo/vA_final.wav): re-read all 10 lines against the 29 patterns; findings above still hold, no new tells, nothing changed (Grace's words verbatim).
+
+## 2026-10-05 hook swap: hook lines are library hooks said word for word (no contractions, library rule: humanizer leaves the hook alone). Grace's follow-up "All of this is ONE piece of furniture." turned from a question into a statement after the new opener (no AI tells). Rest unchanged.
