@@ -1,5 +1,20 @@
 # Presets, jobs and one-knob profiles
 
+## Contents
+
+- Diagnose first: what to listen for, and what fixes it
+  - Order of operations
+- Presets
+  - Voice — make a real voice sound like its better self
+  - Repair — one problem, one node
+  - Character — deliberate, not corrective
+  - Space — put it somewhere
+  - The whole preset as one control
+- Jobs — the range IS the module
+- One-knob profiles
+- Measuring scripts, not presets
+- Not covered by anything shipped
+
 Everything here is a shortcut to a chain you could have built by hand. A preset
 writes ordinary nodes tagged with `fromPreset`, a job writes one ordinary node
 with a name, and a profile is one control over several parameters of one effect.

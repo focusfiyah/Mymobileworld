@@ -1,5 +1,23 @@
 # HTML-in-Canvas Patterns
 
+## Contents
+
+- Core Boilerplate (same in every HTML-in-Canvas composition)
+- Effect Catalog
+  - 1. 3D Rotation with Bloom (Three.js)
+  - 2. Magnetic Cursor Distortion (Raw WebGL2)
+  - 3. Shatter / Fragment Explosion (Three.js)
+  - 4. Liquid / Fluid Surface (Three.js)
+  - 5. Portal / Dimensional Reveal (Three.js)
+- When to Use HTML-in-Canvas vs Standard GSAP
+- More Effects You Can Build
+  - 6. Noise Dissolve
+  - 7. Holographic / Iridescent
+  - 8. Scan Lines + CRT
+  - 9. Frosted Glass Blur
+  - 10. Pixel Sort / Glitch Art
+- Creating ANY Custom Effect
+
 HyperFrames' most powerful visual capability. Capture ANY live HTML/CSS as a GPU texture, then render it through WebGL shaders, Three.js 3D scenes, or post-processing effects — at 60fps, pixel-perfect, with every CSS feature supported.
 
 **Read this file when a beat deserves cinematic treatment beyond flat GSAP animations.** Use for 1-3 hero beats per video, not every beat. The rest can use standard GSAP — the contrast between flat beats and HTML-in-Canvas beats IS part of the visual storytelling.

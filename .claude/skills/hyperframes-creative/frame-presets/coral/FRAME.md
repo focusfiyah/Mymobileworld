@@ -107,6 +107,32 @@ components:
 
 # Coral — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+  - Frame Craft Bar
+- The Frame
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Region-Split Cover (identity · move: hard region edge · left)
+  - 2 · Feature Stat (anchor · move: scale · coral environment · left)
+  - 3 · Quote Layout (quote · move: panel split · giant mark)
+  - 4 · Closing Plate (closer · move: cream field + coral band · centered)
+  - 5 · Three-Column Catalog (catalog · move: density — the dense frame · centered head)
+  - 6 · Timeline (process · move: horizontal rail · left)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Coral at frame scale is a **bold magazine poster** built from three solid surfaces — coral fire,

@@ -76,3 +76,7 @@ Paste the block below into any of:
 - Ask before EVERY redo with the exact cost; show a cut/frames I can judge; batch my notes; keep a Drive folder per ad.
 
 Removed items stay removed: keep REMOVED.md per job; check every cut against it and the last round's notes before sending.
+
+## Skill authoring standard (Ralph, 2026-10-05, from a TikTok skills-audit prompt)
+- Skill standard (2026-10-05): SKILL.md under 200 lines, detail in references/ (table of contents if over 100 lines), code not prose where output must be consistent, templates for plan/README status/QC; clear, concise, no technical constraints.
+- ugc-product-ad has `templates/` (plan-message, readme-status, qc-report); Hyperframes skills were reworked the same way (upstream `hyperframes skills update` would overwrite).

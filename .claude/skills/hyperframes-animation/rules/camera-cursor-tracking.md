@@ -7,6 +7,15 @@ metadata:
 
 # Two-Phase Camera Cursor Tracking
 
+## Contents
+
+- How It Works
+- Recipe
+- Variations
+- Values
+- Critical Constraints
+- See also
+
 Keeps a horizontally-growing element (a search bar with typing text, a long URL animating in) visible by switching between two camera modes.
 
 ## How It Works

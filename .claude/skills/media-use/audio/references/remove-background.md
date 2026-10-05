@@ -1,5 +1,17 @@
 # Background Removal
 
+## Contents
+
+- Output Format
+- Quality (`--quality`)
+- Device (`--device`)
+- Compositing patterns — pick the right one
+- Text-behind-subject pattern (two non-obvious rules)
+- Layer separation (`--background-output`)
+  - Use case → right tool
+  - Canonical 3-layer template (plate + content + cutout)
+- When `remove-background` is NOT the right tool
+
 Make a transparent overlay (typical: a talking head over an arbitrary scene). Uses `u2net_human_seg` (Apache-2.0).
 
 ```bash

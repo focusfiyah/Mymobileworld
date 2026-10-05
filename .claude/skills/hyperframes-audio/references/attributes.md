@@ -1,5 +1,11 @@
 # The three audio attributes
 
+## Contents
+
+- `data-fx-chain` — the effects
+- `data-automation` — the envelopes
+- `data-fx-carve` — the carve's settings
+
 All three go on the `<audio>` / `<video>` element itself, JSON-encoded, so a
 composition carries its whole mix in the HTML with nothing to load beside it.
 `data-fx-chain` and `data-automation` also go on an `<hf-audio-group>` bus,

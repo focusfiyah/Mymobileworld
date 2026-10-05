@@ -109,6 +109,7 @@ not in a new file.
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 
 ## Skills (2026-10-01)
+- **Skill standard (Ralph, 2026-10-05):** SKILL.md under 200 lines, detail in `references/` (table of contents if over 100 lines), code instead of prose where output must be consistent, templates for repeated outputs (`ugc-product-ad/templates/`); clear, concise, no technical constraints. Hyperframes/media-use were reworked this way (upstream updates overwrite).
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
   (day-one-ai, find-skills, grace-product-scripts, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach,
   brag-slim).

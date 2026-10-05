@@ -1,5 +1,16 @@
 # Composition Patterns
 
+## Contents
+
+- Two Architectures
+- Modular Orchestrator Pattern
+- Sub-Composition Archetypes
+  - A. Content scene (default)
+  - B. Host media + main-timeline driver (one pattern for `<video>`/`<audio>`)
+  - C. Multi-scene merge
+  - D. Audio at root, reactive visual inside
+- Naming Conventions
+
 How to architect a project: the `index.html` orchestrator at scale, and the common sub-composition archetypes. Pair with `minimal-composition.md` (single-file shape) and `sub-compositions.md` (mechanics of a sub-comp file).
 
 ## Two Architectures

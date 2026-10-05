@@ -85,6 +85,32 @@ components:
 
 # Bold Poster — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Hero Stack (identity · move: 3-line tilted stack · left)
+  - 2 · Hero Stat (statement · move: poster numeral · red panel · centered)
+  - 3 · Financial Grid (data · move: double-border matrix · the dense frame)
+  - 4 · Pull Quote (quote · move: tilted/stacked display · red panel · left)
+  - 5 · Editorial Cards (content · move: red leftbar cards · left)
+  - 6 · Closing Statement (closer · move: tilted close-big · centered/left)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Bold Poster at frame scale is a **populist editorial poster** — vintage Italian sports-magazine

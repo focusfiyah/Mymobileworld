@@ -99,6 +99,32 @@ components:
 
 # Daisy Days — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: ornament wreath · saturated · centered)
+  - 2 · Info Cards (catalog · move: 3-up white cards · cream · the dense frame)
+  - 3 · Process Steps (sequence · move: rotating circle markers · peach · centered)
+  - 4 · Quote (quote · move: quote-mark anchor · soft-pink · centered)
+  - 5 · Framed Section (feature · move: cap+body card · cream)
+  - 6 · Closing (closer · move: ornament wreath · saturated · centered)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Real Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Daisy Days at frame scale is a **cheerful, childlike system** — picture-book illustration meets

@@ -1,5 +1,22 @@
 # Media operations: agent guidance
 
+## Contents
+
+- Cut / trim: keep a slice
+- Reframe / crop: change aspect ratio
+- Montage / stitch: join clips
+- Silence-cut / highlight: trim dead air, grab the best moment
+- Transforms with a quality choice (process)
+- Exact error-diffusion dither
+- Transcription (default: Parakeet, better than whisper.cpp)
+- Text-based editing (transcript cut)
+- Ducking (declare in-composition / bake for export)
+- Publish loudness
+- Generate: images (local first, cloud upsell)
+- Generate: video (`resolve --type video`, HeyGen avatar first)
+  - Image-to-video (animate any still into a talking clip)
+- HEVC / H.265 sources
+
 media-use resolves and remembers assets. For **operating** on them: cutting,
 reframing, stitching, transforming, it does not wrap every action as a bespoke
 command. Instead it points you at the right local tool (decision OP1). Run the
