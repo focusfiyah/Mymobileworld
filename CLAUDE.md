@@ -98,6 +98,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). REBUILT on the real bedroom wide (bed, rug, doors) from approved Drive Video 2, all free, updated in Drive in place; Drive folder organized (superseded Video 1 + Video 3 originals in Older versions). Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section).
 - **LGXNDS Creatine (Grace), 2026-10-04:** hands-only AI ad, 31s, 9 clips matched line by line, real label pasted back (`label.py`). Cut v3 (v2's sharper real label + real-packshot push-in, text overlay removed on Ralph's word) is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) with the script doc, v1 and v2 removed (2026-10-05); $2.573 Kie vs $2.57 quote. README Status line.
 
+- **Super Blanky v2 scripts (Grace), 2026-10-05:** 3 talking-head scripts from the hook library, gate OK, $0, Drive doc "Super Blanky scripts v2 (2026-10-05)" (id 1GOZ8LBtezCl3qSBu-iyO4LtndSRU_DHgVIn0J8Q3I2E). `ugc/super-blanky-v2/README.md`.
+
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
   https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e; v2 (no prices, sell-side lines, Grace's

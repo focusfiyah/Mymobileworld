@@ -1,0 +1,79 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "scripts.md",
+ "playbook": {
+  "proof": [
+   "playbook_applied.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_notes.md",
+   "research/shop/shop-wearable-blanket.json",
+   "research/tag_superblanky/tag-superblanky.json",
+   "research/tag_wearableblanket/tag-wearableblanket.json",
+   "research/videos/7681118736786541855/hook.png",
+   "research/videos/7681118736786541855/meta.json",
+   "research/videos/7681118736786541855/transcript.txt",
+   "research/videos/7682495857610050830/hook.png",
+   "research/videos/7682495857610050830/meta.json",
+   "research/videos/7682495857610050830/transcript.txt",
+   "research/videos/7683588061388606734/hook.png",
+   "research/videos/7683588061388606734/meta.json",
+   "research/videos/7688028725950172429/hook.png",
+   "research/videos/7688028725950172429/meta.json",
+   "research/videos/7689048082528341261/hook.png",
+   "research/videos/7689048082528341261/meta.json",
+   "research/videos/7689048082528341261/transcript.txt",
+   "research/videos/7691232474877201695/hook.png",
+   "research/videos/7691232474877201695/meta.json",
+   "research/videos/7691232474877201695/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-05.json",
+   "research/viral/viral-state.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 3.5
+ },
+ "line_sources": {
+  "proof": [
+   "line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}
