@@ -29,6 +29,7 @@ products follow the same rules.
 - ~~Detached CTA~~ replaced 2026-10-01: the CTA drives more units (see §4, "CTA sells more units").
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
+- **NO text burned into the video, ever, unless Ralph asks for it in that job** (Ralph 2026-10-02 Horbaach, 2026-10-03 GTT "remove why fifty", restated 2026-10-05 after the Base Labs cuts shipped with hook text): no hook text, captions, title cards, stickers or any added words on screen. Still research and write on-screen hook options (§3), but put them in the scripts doc labelled "optional, Grace adds it in TikTok". The real-packshot pop-up (the brand's photo, no added words) is a picture, not text (it was in the approved GTT cut). Enforced: `grace/gate.py --stage cut` refuses a cut script that draws text unless the job's checklist.json has a `text_overlay_ok` entry with Ralph's own words.
 - **No "plenty to share" / "one is enough" lines in the CTA (Ralph 2026-10-03, GTT KN95).** Anything that tells the buyer one unit covers it kills multi-unit sales. Close with a line that makes them want more ("Grab a couple boxes, so there's always one close"), then "It's in the orange cart."
 - **No "order it now" / "order now" (Ralph 2026-10-03).** Close with Grace's usual "It's in the orange cart." after the real reason (holidays, "don't put it off").
 
@@ -57,8 +58,8 @@ products follow the same rules.
   ("Nobody puts this on a beard"). The spoken hook does a different job (names the pain).
 - **Curiosity loops all the way through** (2026-10-01, from @dus_davis): answer one question and open the next in
   the same breath; an odd claim said without explanation keeps them watching. Mid-video overlays can open loops too.
-- **Stack two layers:** spoken problem + on-screen text + product moving. The first second must make sense with the sound off.
-- Film 3–4 takes of each hook; give each video **different on-screen bubble text** (TikTok treats them as distinct).
+- **Stack two layers:** spoken problem + product moving from frame 0, so the first second makes sense with the sound off. On-screen hook text is written for Grace to add in TikTok, never burned in (§1).
+- Film 3–4 takes of each hook; give each post **different on-screen bubble text**, added by Grace in TikTok (never burned in, §1).
 - Proven angles: timing ("boots season, nobody's looking at your feet"), cover-up ("painting over it isn't a plan"),
   read-the-label, "you're probably doing it wrong" tutorial, gift for a relative, "watch this before you use it".
 
@@ -95,17 +96,17 @@ products follow the same rules.
   from the `tiktok-shop-coach` skill (discover/tag/shop on the product's keyword, `video` on the top 3 shop videos: their
   hook, format, length, CTA), (2) the coach playbook's hook types and buyer levers, (3) §2 sales psychology here,
   (4) product research (box, brand site), (5) the §4 structure, (6) the `humanizer` skill on the final script so Grace
-  sounds like a person talking, (7) coach `readability` (grade ≤6), (8) §3 hook layers (on-screen hook text so the
-  first second works with the sound off), (9) after the cut: coach `compare` against the top winner, before Ralph sees it. Show Ralph
+  sounds like a person talking, (7) coach `readability` (grade ≤6), (8) §3 hook layers (product moving at frame 0; on-screen hook
+  options written in the doc for Grace to add in TikTok, never burned in, §1), (9) after the cut: coach `compare` against the top winner, before Ralph sees it. Show Ralph
   which line comes from which source in the plan. The coach needs `bash setup.sh` from Dayone-ai first (Playwright).
 - **CTA sells more units, not detached (Ralph 2026-10-01):** the close should make the buyer want more: say the count
   ("twelve tablets, twelve showers"), a second occasion or a gift ("one for you, one to gift"), real seasonal timing.
   Shower-steamer winners closed this way (JojoWell 879k "each pack comes with six"; bundle video 173k "you get 18
   tablets"). Still no false scarcity.
 - **Script checklist (standard).** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
-  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text for the doc, never burned in, §1) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
-  what it shows (hook text in frame 0, pace, cuts) before sending.
+  what it shows (product at frame 0, pace, cuts) before sending.
 
 ## 5. Pacing and edit
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
@@ -115,11 +116,11 @@ products follow the same rules.
 - Say numbers as words in the script ("twenty-five percent") so captions and timing match.
 - Real takes: film hook / body / CTA as separate files, 3–4 takes each, original HD files; keep body takes whole.
   Mix N hooks × M bodies × K CTAs into combo ads (`ugc-take-combos` skill).
-- **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
+- **On-screen text style, ONLY when Ralph asks for text in that job (§1; default is no text):** TikTok "Classic": white
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - Overlays: search-result "screenshot" card timed to the claim word, condition photos (never before/after),
-  animated CTA. No burned-in captions unless Ralph asks.
+  animated CTA. No burned-in text or captions unless Ralph asks (§1).
 
 ## 6. Production notes
 - **Time + cost discipline (Ralph 2026-10-01, after Carpe v2 took ~4h15m and $6.60 vs a $2.50 quote):**
@@ -229,4 +230,4 @@ products follow the same rules.
 - A client's own script may fail the gate (readability grade 9.4, unsupported claims). Use it verbatim only when Ralph says so, record it in `checklist.json` `overrides` (rule, videos, by, date, his quote, real grade): the gate prints it every run and only that video is exempt. Flag unverifiable claims in product_facts, never edit them out silently.
 - "Looks like pictures" = Ken Burns on photos and freezes. Motion-first fix: every shot a real moving clip (walk-in/dolly-out from the real-photo bedroom plate, top-down hand slide of a drawer, hand drags a bag out of a cabinet), 4-5 s clips at 1.0x, ~$0.2 each. A reused start frame makes a good dolly-out (grab a frame from the walk-in clip).
 - Grace B at 42 s for 136 words = 3.2 words/s; her 706-char script cost ~705 ElevenLabs chars, STT-check found no stutters this time.
-- 2026-10-04 Base Laboratories Ingrown Hair Pads + Oil (beauty, AI hands-only, silent: Grace records her own VO): 3 script options each on ONE shared six-beat grid, so one video fits any option; hook text varies per option. 28.2s each, `ugc/base-labs/{pads,oil}/`. Kie $4.85-ish vs $3.46 quote (see README). Lessons: (1) a prompt word like "label" on a bottle whose text is printed on the glass made Nano Banana draw a yellow label: describe the real print ("printed directly on the clear glass, NO separate label"); describe the real cap shape ("squat two-tier teal cylinder, NOT a rubber bulb"). (2) Seedance in a "hands-free" scene adds a light-skinned hand after ~1-2s: negative prompt harder, or use only the clean first seconds. (3) Tilting a held jar turns its lid white and stacks a second cap on a bottle: hold steady, no tilt. (4) Moving two product units together makes them change scale: lock them still and move only the finger. (5) Nano Banana can return a phone-camera UI screenshot (record button, timer): free fix = crop the frame to the clean glass area. (6) Check the shop search for the exact brand first: web search returned First Aid Beauty/Bushbalm facts, not Base's.
+- 2026-10-04 Base Laboratories Ingrown Hair Pads + Oil (beauty, AI hands-only, silent: Grace records her own VO): 3 script options each on ONE shared six-beat grid, so one video fits any option; (the first cut wrongly burned in hook text per option; removed 2026-10-05, see §1). 28.2s each, `ugc/base-labs/{pads,oil}/`. Kie $4.85-ish vs $3.46 quote (see README). Lessons: (1) a prompt word like "label" on a bottle whose text is printed on the glass made Nano Banana draw a yellow label: describe the real print ("printed directly on the clear glass, NO separate label"); describe the real cap shape ("squat two-tier teal cylinder, NOT a rubber bulb"). (2) Seedance in a "hands-free" scene adds a light-skinned hand after ~1-2s: negative prompt harder, or use only the clean first seconds. (3) Tilting a held jar turns its lid white and stacks a second cap on a bottle: hold steady, no tilt. (4) Moving two product units together makes them change scale: lock them still and move only the finger. (5) Nano Banana can return a phone-camera UI screenshot (record button, timer): free fix = crop the frame to the clean glass area. (6) Check the shop search for the exact brand first: web search returned First Aid Beauty/Bushbalm facts, not Base's.

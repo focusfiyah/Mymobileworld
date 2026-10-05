@@ -42,6 +42,9 @@ the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on
 `tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
 passes; never bypass or weaken it. Show the gate result in the plan message. Banned in scripts: "order it now",
 "heads up", dashes; close with Grace's usual "It's in the orange cart."
+**No text burned into any video unless Ralph asks for it in that job** (Ralph 2026-10-02/03, restated 2026-10-05): no hook
+text, captions or title cards. Write on-screen hook options in the scripts doc for Grace to add in TikTok. `gate.py --stage cut`
+refuses a cut script that draws text unless checklist.json has `text_overlay_ok` with Ralph's words.
 
 
 ## Exact-product route: complex products that must not drift (FUSOU vanity, 2026-10-03, approved)
@@ -98,10 +101,10 @@ and ask questions, do not assume, because that's how we waste time and money."
   hands or the product cross the face; nothing resting on thin air (a Vicks still put the box past the vanity
   edge and Ralph caught it: free fix = crop the frame to end at the object's base).
 - **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
-  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text for the doc, never burned in) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
-  what it shows (hook text in frame 0, pace, cuts) before sending.
-- **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
+  what it shows (product at frame 0, pace, cuts) before sending.
+- **On-screen text style, ONLY when Ralph asks for text in that job (default: no text in the video):** TikTok "Classic": white
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - **Report the running total against the quote at every paid step.**
