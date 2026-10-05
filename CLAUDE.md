@@ -121,7 +121,7 @@ not in a new file.
 - **Scrapling** (Ralph, 2026-10-05): web scraping when WebFetch fails or a site blocks bots (official D4Vinci skill, BSD-3,
   reworked to the skill standard; `scripts/setup.sh` = venv + browsers + proxy CA). Tested in the cloud: get / fetch / stealthy-fetch
   all OK. SkillSpector --no-llm 100/100 CRITICAL, all doc-length parse limits + doc examples (upstream 88/100 same findings),
-  manual review clean → APPROVE. `handoff/scrapling-skill.zip` for claude.ai (chat, Projects, Cowork). TikTok: tiktok-shop-coach first.
+  manual review clean → APPROVE. `handoff/scrapling-skill.zip` UPLOADED by Ralph to claude.ai 2026-10-05 (account skill `scrapling`: chat, Projects, Cowork). TikTok: tiktok-shop-coach first.
 
 ## Learning reports (2026-10-01)
 - `reports/`: daily (`YYYY-MM-DD-daily.md`) + weekly (`YYYY-Wnn-weekly.md`) notes Ralph pastes into new chats.
