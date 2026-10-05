@@ -81,3 +81,4 @@ Removed items stay removed: keep REMOVED.md per job; check every cut against it 
 ## Skill authoring standard (Ralph, 2026-10-05, from a TikTok skills-audit prompt)
 - Skill standard (2026-10-05): SKILL.md under 200 lines, detail in references/ (table of contents if over 100 lines), code not prose where output must be consistent, templates for plan/README status/QC; clear, concise, no technical constraints.
 - ugc-product-ad has `templates/` (plan-message, readme-status, qc-report); Hyperframes skills were reworked the same way (upstream `hyperframes skills update` would overwrite).
+- (Ralph 2026-10-05) Before any Grace script: audience research (`python3 grace/audience.py <job> "<seed>"` AnswerThePublic-style question map + verbatim voice-of-customer quotes, then research/audience.md: who, pain-point experience, best communication style). The structure follows the product and audience; it does not always follow Grace's hook/pain/solution/confession template.
