@@ -17,6 +17,12 @@ _ink = cv2.dilate((((_g[..., 2] < 150) | (_g[..., 1] > 60))).astype(np.uint8) * 
 _ink[:, :560] = 0; _ink[:196] = 0; _ink[588:] = 0; _ink[:, 672:] = 0
 CORE = np.maximum(CORE, _ink)  # printed block right of the
 # stripes/wordmark: the homography fits it well; the AI's stripes + vertical LGXNDS stay (they render right, the cylinder edges don't fit)
+# 2026-10-05 (Ralph: "how come the product quality did not come out the same"): print from the 1223 px listing packshot
+# (refs/crop_tub_hi.png, exactly crop_tub.png x1.588) instead of the 700 px phone-screenshot crop: masks are drawn in the old
+# coordinates above and scaled up here.
+REAL = cv2.imread("refs/crop_tub_hi.png"); _sz = (REAL.shape[1], REAL.shape[0])
+BAND = cv2.resize(BAND, _sz, interpolation=cv2.INTER_NEAREST); CORE = cv2.resize(CORE, _sz, interpolation=cv2.INTER_NEAREST)
+REAL_AA = cv2.GaussianBlur(REAL, (0, 0), 0.8)   # anti-alias before the ~2x downscale into a 720p frame
 sift = cv2.SIFT_create(6000)
 kR, dR = sift.detectAndCompute(cv2.cvtColor(REAL, cv2.COLOR_BGR2GRAY), BAND)
 
@@ -31,7 +37,7 @@ def fit(img):
 
 def paste(img, H):
     h, w = img.shape[:2]
-    real = cv2.warpPerspective(REAL, H, (w, h), flags=cv2.INTER_LANCZOS4)
+    real = cv2.warpPerspective(REAL_AA, H, (w, h), flags=cv2.INTER_LANCZOS4)
     m = cv2.warpPerspective(CORE, H, (w, h)).astype(np.float32) / 255
     dark = cv2.morphologyEx((cv2.cvtColor(img, cv2.COLOR_BGR2HSV)[..., 2] < 70).astype(np.uint8), cv2.MORPH_OPEN, np.ones((31, 31), np.uint8))
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)   # the hand always stays in front of the label
@@ -40,9 +46,12 @@ def paste(img, H):
     m = m * (1 - cv2.dilate(skin, np.ones((7, 7), np.uint8)).astype(np.float32))
     m = m * (1 - cv2.dilate(dark, np.ones((9, 9), np.uint8)).astype(np.float32))   # big dark occluders (the bag) stay in front
     m = cv2.GaussianBlur(m, (0, 0), 3.0)[..., None]
-    shade = cv2.GaussianBlur(img.astype(np.float32), (0, 0), 25) / (cv2.GaussianBlur(real.astype(np.float32), (0, 0), 25) + 1)
-    lum = np.clip(shade.mean(axis=2, keepdims=True), 0.6, 1.25)
-    out = np.clip(real.astype(np.float32) * lum, 0, 255)
+    # light: paper brightness of the AI tub vs the real print, text removed by a median filter, so the curved tub's shading
+    # (darker toward its edges) carries onto the pasted print and no pale box shows at the tub's sides
+    pap = lambda x: cv2.GaussianBlur(cv2.medianBlur(cv2.cvtColor(x, cv2.COLOR_BGR2GRAY), 21).astype(np.float32), (0, 0), 6)
+    lum = np.clip(pap(img) / (pap(real) + 1), 0.6, 1.25)[..., None]
+    out = real.astype(np.float32) * lum
+    out = np.clip(out, 0, 255)
     return (out * m + img.astype(np.float32) * (1 - m)).astype(np.uint8), m
 
 
