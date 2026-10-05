@@ -79,7 +79,7 @@ and ask questions, do not assume, because that's how we waste time and money."
   hands or the product cross the face; nothing resting on thin air (a Vicks still put the box past the vanity
   edge and Ralph caught it: free fix = crop the frame to end at the object's base).
 - **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
-  (1) tiktok-shop-coach: research + 3 hook options (spoken line AND on-screen hook text) modeled on proven videos;
+  (1) tiktok-shop-coach: research + 3 hook options (Grace: start from `grace/hooks/HOOKS.md`, cite the id) (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
   what it shows (pace, cuts) before sending.
 - **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay.
@@ -93,6 +93,8 @@ and ask questions, do not assume, because that's how we waste time and money."
 - **Delivering to Google Drive** (Ralph, 2026-10-01): use both the Google Drive connector and Composio `googledrive`;
   if one fails, use the other. Videos go through Composio `GOOGLEDRIVE_UPLOAD_FROM_URL` after hosting the file on
   Kie's file host (`kie.upload`); the connector handles folders and docs but can't carry a video.
+  One folder per product in "Grace Tiktok assets" (reuse an existing one), "CURRENT - " on the latest, superseded files
+  renamed vN + date into an "Older versions" subfolder, nothing loose (Ralph 2026-10-05).
 - **Tokens:** keep the job README's `Status:` line current (what's done, what's next, what it costs) so "continue
   the X ad" needs one file read. Short updates, chained shell steps, one contact sheet per batch.
 

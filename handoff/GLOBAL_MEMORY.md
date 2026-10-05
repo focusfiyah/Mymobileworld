@@ -20,6 +20,7 @@ Paste the block below into any of:
 - Ask before EVERY paid generation (images, video, voice), including redos and retries, with the exact cost.
 - Try free fixes first (crop, blur, re-cut) before paying for a reroll.
 - Send me a phone notification whenever something is ready for my review or needs my decision. I leave the app.
+- Google Drive (2026-10-05): every job, scripts-only too, ends with its files in Drive "Grace Tiktok assets" in ONE folder per product (search first, reuse the existing folder). Latest file prefixed "CURRENT - "; superseded files renamed "vN (date)" and moved into an "Older versions" subfolder; nothing loose in Grace Tiktok assets. Send me the folder link.
 - Client ad work lives in GitHub repo focusfiyah/Mymobileworld (its CLAUDE.md, `grace/PLAYBOOK.md`, the `ugc-product-ad` skill).
 
 ## "Everything means everything" (2026-10-03, after a client video shipped without the Humanizer pass)
@@ -36,11 +37,11 @@ Paste the block below into any of:
   through hands, whole wrists, nothing physically impossible (e.g. a wrist behind a hanging object). Hands enter from the
   frame edge, no forearm. Zoom 2x on the edges of every person or body part (hand, face, full body) and the first second before any paid clip or review: no halo, outline, smear or fringe (Ralph 2026-10-04).
 - Scripts: hook, pain, solution, an honest line that sells (a brag-style confession like "the only downside? they won't want to get out", never a warning or downside), real urgency, and close with "It's in the orange cart." Never "order it now",
-  never "heads up", no price, only the product we're selling, every shot matching its exact words.
+  never "heads up", never a price number ("the cheaper one" is fine), only the product we're selling, except comparison hooks (rows 71-75, 135-144), which may show and name the other brand unless I say otherwise. Hooks come from Grace's hook library (grace/hooks/HOOKS.md, id = sheet row), said word for word; only the blanks get filled. Every shot matches its exact words.
 - Lights features (Grace 2026-10-04, replaces the dark-room idea): do NOT darken the room; show the light colours in daylight.
 - Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
   real-photo room, a hand pulling a drawer or a bag. Ken Burns zooms on photos and freeze frames look "like pictures": avoid them.
-- (Ralph 2026-10-04) No on-screen text (hook text, captions) unless I ask; no product overlay cards/pop-ups; every video must look different (never the same footage with a new VO, TikTok flags it): different shots, order, framing, light/grade, background. Keep every video bright and neutral (no dark, moody or yellow/golden grades). Never say "the label says" in a script (Grace 2026-10-04). Match visuals to the spoken words (pills line shows pills, "twelve pouches" shows twelve), but not excessively.
+- (Ralph 2026-10-04) No on-screen text (hook text, captions) unless I ask; no product overlay cards/pop-ups; every video must look different (never the same footage with a new VO, TikTok flags it): different shots, order, framing, light/grade, background. Keep every video bright and neutral (no dark, moody or yellow/golden grades). Never say "the label says" or the word "reviewer(s)" in a script (say what "people say", the way Grace would pass it on). Match visuals to the spoken words (pills line shows pills, "twelve pouches" shows twelve), but not excessively.
 - The hand does NOT need to be in every shot (Ralph 2026-10-04): hand-free shots (product alone, setting, props) are fine where they fit;
   they still need real motion (camera move or a product clip) and their prompts leave the hand text out.
   Study the example ad's motion before building. No hand sweeping across the product, no picture of the shipping boxes.

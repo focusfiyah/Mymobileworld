@@ -7,7 +7,7 @@ and to Ralph's own content. Grace's techniques and skills may be reused for Ralp
 Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (Grace). Day One AI is a separate repo
 (focusfiyah/Dayone-ai); sessions often have both attached.
 **Grace: read `grace/PLAYBOOK.md` first** (rules, psychology, hooks, pacing, results). Add every new Grace lesson there,
-not in a new file.
+not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10-05; batches keep coming, add to `hooks.json`).
 
 ## How Ralph wants to work (2026-10-01, after the Carpe ad ran ~$1 over plan)
 - Efficient, low token use, no wasted money. **Ask questions, don't assume.**
@@ -25,6 +25,7 @@ not in a new file.
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
   (host the file first, e.g. Kie's free 3-day file host: `python3 -c "import kie; print(kie.upload('<file>'))"` in a job
   folder). The connector can't take a 7 MB video (base64 in the call) and turns emoji into mojibake in Docs.
+- **Google Drive folder per product, organized (Ralph 2026-10-05):** every job, scripts-only too, ends with its deliverables in Drive "Grace Tiktok assets" in ONE folder per product (search first and reuse the product's existing folder, else create "<Product> (Grace)"). Current version on top with a "CURRENT - " prefix; anything it replaces is renamed "vN (date)" and moved into an "Older versions" subfolder; nothing loose in Grace Tiktok assets. Put the folder link in the job README and the final message.
 - **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text options) → humanizer → plan; **no text overlay in a cut unless Ralph says yes for that ad (Ralph 2026-10-05)**; after
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
@@ -97,6 +98,8 @@ not in a new file.
 
 - **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). REBUILT on the real bedroom wide (bed, rug, doors) from approved Drive Video 2, all free, updated in Drive in place; Drive folder organized (superseded Video 1 + Video 3 originals in Older versions). Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section).
 - **LGXNDS Creatine (Grace), 2026-10-04:** hands-only AI ad, 31s, 9 clips matched line by line, real label pasted back (`label.py`). Cut v3 (v2's sharper real label + real-packshot push-in, text overlay removed on Ralph's word) is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) with the script doc, v1 and v2 removed (2026-10-05); $2.573 Kie vs $2.57 quote. README Status line.
+
+- **Super Blanky v2 scripts (Grace), 2026-10-05:** 3 talking-head scripts from the hook library, gate OK, $0, Drive folder Grace Tiktok assets/"Super Blanky wearable blanket scripts (Grace)" (1O8UJSW3oE7JCEoOC4zbxg0MNgcQukQAx): CURRENT v2 doc on top, v1 in Older versions. `ugc/super-blanky-v2/README.md`.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc

@@ -1,0 +1,2152 @@
+{
+ "batches": [
+  {
+   "id": "B1",
+   "date": "2026-10-05",
+   "source": "Ralph's sheet screenshot",
+   "rows": "2-28",
+   "count": 27
+  },
+  {
+   "id": "B2",
+   "date": "2026-10-05",
+   "source": "Ralph's sheet screenshots ('Hooks Library' tab)",
+   "rows": "29-154",
+   "count": 126
+  }
+ ],
+ "rules": [
+  "Every Grace script picks its spoken hook options from here first (plus the coach-modeled hooks, PLAYBOOK §3); name the hook id in the plan's line sources. Ids match the sheet row: H016 = row 16.",
+  "Say hooks WORD FOR WORD as written in the sheet, no contractions or rewording (Ralph, 2026-10-05). Only the blanks (__) get filled; the humanizer pass leaves the hook line itself alone.",
+  "Fill every blank with a concrete moment from the product research, never a broad problem.",
+  "The line after the hook answers or proves it on screen right away (demo, close-up, the back/side/pocket shot).",
+  "Spread hook types across a product's videos (no two videos of one product on the same id; TikTok flags repeats).",
+  "Comparison hooks (rows 71-75, 135-144) override the 'only our product' rule (Ralph, 2026-10-05): a second product may be on screen, and its brand may be named on screen and in the script unless Ralph says otherwise for that video. Price can be talked about (\"the cheaper one\"), but never a price number.",
+  "These are spoken hooks. On-screen text stays curiosity-only, 5-7 words, and is burned in only on Ralph's yes.",
+  "Log which id each finished video used (`used_in`) so results can show which hook types win.",
+  "Types are as in the sheet; 'Comparison Hook', 'Time Pressure Hook' and 'Simple Fix Hook' are filed as Comparison, Time Pressure and Simple Fix."
+ ],
+ "hooks": [
+  {
+   "id": "H002",
+   "hook": "This is the part I actually care about",
+   "type": "Observation",
+   "use_when": "You want to lead with a specific detail, feature, or payoff that matters more than the obvious selling point.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Helps the creator center the video around one meaningful detail instead of trying to explain everything.",
+   "used_in": [],
+   "row": 2
+  },
+  {
+   "id": "H003",
+   "hook": "I keep reaching for this more than I expected",
+   "type": "Routine",
+   "use_when": "You're showing a product that has quietly become part of your normal day, outfit, setup, or routine.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen",
+    "Wellness"
+   ],
+   "note": "Feels natural and experience-based without needing a dramatic transformation or problem.",
+   "used_in": [],
+   "row": 3
+  },
+  {
+   "id": "H004",
+   "hook": "This just makes everything feel a little more put together",
+   "type": "Emotional Outcome",
+   "use_when": "You're selling the feeling the product creates rather than a major functional result.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Gives creators a softer way to talk about aesthetic or emotional payoff without overhyping the product.",
+   "used_in": [],
+   "row": 4
+  },
+  {
+   "id": "H005",
+   "hook": "One thing I cannot stand is __",
+   "type": "Problem Callout",
+   "use_when": "The product solves a very specific annoyance people immediately recognize.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Fashion",
+    "Pets"
+   ],
+   "note": "Be specific about the annoying moment. The blank should not be a broad problem.",
+   "used_in": [],
+   "row": 5
+  },
+  {
+   "id": "H006",
+   "hook": "I did not realize how much __ bothered me until I stopped dealing with it",
+   "type": "Observation",
+   "use_when": "The benefit is easier to appreciate after experiencing the alternative.",
+   "best_for": [
+    "Problem-solving products",
+    "Home",
+    "Beauty"
+   ],
+   "note": "Works best when you can visibly show what changed.",
+   "used_in": [],
+   "row": 6
+  },
+  {
+   "id": "H007",
+   "hook": "I have been putting up with this for way too long",
+   "type": "Problem Callout",
+   "use_when": "The buyer may have normalized an irritating problem.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Organization"
+   ],
+   "note": "Name the actual thing you were putting up with quickly.",
+   "used_in": [],
+   "row": 7
+  },
+  {
+   "id": "H008",
+   "hook": "If you also hate when __, look at this",
+   "type": "Problem Callout",
+   "use_when": "The product solves minor everyday friction.",
+   "best_for": [
+    "Everyday problem-solving products"
+   ],
+   "note": "Fill the blank with a concrete situation, not a vague pain point.",
+   "used_in": [],
+   "row": 8
+  },
+  {
+   "id": "H009",
+   "hook": "This is such a small thing, but it annoys me every single time",
+   "type": "Observation",
+   "use_when": "You're talking about a small, recurring annoyance that isn't dramatic, but happens often enough to make the product feel useful.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Accessories",
+    "Beauty"
+   ],
+   "note": "Small frustrations can be more believable than dramatic ones.",
+   "used_in": [],
+   "row": 9
+  },
+  {
+   "id": "H010",
+   "hook": "Why did nobody make this easier sooner?",
+   "type": "Problem/Solution",
+   "use_when": "The solution feels obvious once viewers see it.",
+   "best_for": [
+    "Convenience products",
+    "Kitchen",
+    "Home"
+   ],
+   "note": "Let the demonstration answer the question.",
+   "used_in": [],
+   "row": 10
+  },
+  {
+   "id": "H011",
+   "hook": "I am done pretending this does not bother me",
+   "type": "Confession",
+   "use_when": "The problem is relatable but people rarely say it out loud.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Lifestyle"
+   ],
+   "note": "Keep the tone playful rather than dramatic.",
+   "used_in": [],
+   "row": 11
+  },
+  {
+   "id": "H012",
+   "hook": "I know this is minor, but I really do care about __",
+   "type": "Preference",
+   "use_when": "A specific preference drives the purchase.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Food"
+   ],
+   "note": "The specificity is the hook.",
+   "used_in": [],
+   "row": 12
+  },
+  {
+   "id": "H013",
+   "hook": "Apparently I have very strong opinions about __",
+   "type": "Preference",
+   "use_when": "The product connects to a personal standard.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Kitchen",
+    "Home"
+   ],
+   "note": "Follow immediately with the preference.",
+   "used_in": [],
+   "row": 13
+  },
+  {
+   "id": "H014",
+   "hook": "I am very particular about __",
+   "type": "Preference",
+   "use_when": "The viewer may share a strong product preference.",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Food",
+    "Home"
+   ],
+   "note": "Explain what your standard actually is.",
+   "used_in": [],
+   "row": 14
+  },
+  {
+   "id": "H015",
+   "hook": "I do not need __ to be fancy. I just need it to __",
+   "type": "Preference",
+   "use_when": "The buyer values function over bells and whistles.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Electronics",
+    "Accessories"
+   ],
+   "note": "The second blank should be the real payoff.",
+   "used_in": [],
+   "row": 15
+  },
+  {
+   "id": "H016",
+   "hook": "I like __, but I do not like __",
+   "type": "Contrast",
+   "use_when": "The product gives the desired benefit without a common downside.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Food",
+    "Home"
+   ],
+   "note": "One of the strongest structures for showing a tradeoff.",
+   "used_in": [],
+   "row": 16
+  },
+  {
+   "id": "H017",
+   "hook": "I want __ without having to __",
+   "type": "Contrast",
+   "use_when": "The product removes an unwanted tradeoff.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Kitchen",
+    "Wellness"
+   ],
+   "note": "Make both sides specific and believable.",
+   "used_in": [],
+   "row": 17
+  },
+  {
+   "id": "H018",
+   "hook": "I am willing to deal with a lot, but not __",
+   "type": "Humor",
+   "use_when": "A small frustration has become the breaking point.",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Fashion",
+    "Pets"
+   ],
+   "note": "Best when the annoyance is visually obvious.",
+   "used_in": [],
+   "row": 18
+  },
+  {
+   "id": "H019",
+   "hook": "I would rather __ than spend another day __",
+   "type": "Contrast",
+   "use_when": "The product lets the buyer avoid something frustrating.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Keep the comparison natural, not exaggerated.",
+   "used_in": [],
+   "row": 19
+  },
+  {
+   "id": "H020",
+   "hook": "This is the part I wanted to see before I bought it",
+   "type": "Buyer Question",
+   "use_when": "The listing or other videos do not clearly answer an important purchase question.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Show the answer immediately after the hook.",
+   "used_in": [],
+   "row": 20
+  },
+  {
+   "id": "H021",
+   "hook": "Okay, but what does the back actually look like?",
+   "type": "Question",
+   "use_when": "The back view matters to the buying decision.",
+   "best_for": [
+    "Fashion",
+    "Bags",
+    "Shapewear"
+   ],
+   "note": "Excellent for products where creators usually only show the front.",
+   "used_in": [],
+   "row": 21
+  },
+  {
+   "id": "H022",
+   "hook": "Does it actually have usable pockets?",
+   "type": "Question",
+   "use_when": "Pocket size or placement matters.",
+   "best_for": [
+    "Fashion",
+    "Bags",
+    "Accessories"
+   ],
+   "note": "Put your hands or real items inside them.",
+   "used_in": [],
+   "row": 22
+  },
+  {
+   "id": "H023",
+   "hook": "I needed to know how this looked from the side",
+   "type": "Buyer Question",
+   "use_when": "The side profile may reveal fit, shape, bulk, or coverage.",
+   "best_for": [
+    "Fashion",
+    "Beauty tools",
+    "Home"
+   ],
+   "note": "Show rather than over-explain.",
+   "used_in": [],
+   "row": 23
+  },
+  {
+   "id": "H024",
+   "hook": "The first thing I checked was __",
+   "type": "Observation",
+   "use_when": "There is one feature buyers are likely to inspect first.",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Name a real buying concern.",
+   "used_in": [],
+   "row": 24
+  },
+  {
+   "id": "H025",
+   "hook": "Here is what I would want someone to show me before I ordered this",
+   "type": "Buyer Question",
+   "use_when": "The product has several details that matter more than the listing.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Pick one or two details for this video, not every feature.",
+   "used_in": [],
+   "row": 25
+  },
+  {
+   "id": "H026",
+   "hook": "I kept looking for a video that showed __",
+   "type": "Buyer Question",
+   "use_when": "Existing content leaves an important question unanswered.",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Great opportunity for search-friendly content.",
+   "used_in": [],
+   "row": 26
+  },
+  {
+   "id": "H027",
+   "hook": "Before you buy this, look at __",
+   "type": "Reassurance",
+   "use_when": "The buyer needs to inspect one important detail.",
+   "best_for": [
+    "Fashion",
+    "Home",
+    "Beauty",
+    "Electronics"
+   ],
+   "note": "Avoid fear-based wording. Make it useful.",
+   "used_in": [],
+   "row": 27
+  },
+  {
+   "id": "H028",
+   "hook": "If you are wondering whether __, here you go",
+   "type": "Question",
+   "use_when": "You can directly answer a likely buyer question.",
+   "best_for": [
+    "Any product"
+   ],
+   "note": "Demonstrate the answer instead of talking around it.",
+   "used_in": [],
+   "row": 28
+  },
+  {
+   "id": "H029",
+   "row": 29,
+   "hook": "The listing did not really show me this part",
+   "type": "Observation",
+   "use_when": "A visual detail is clearer in real life than online",
+   "best_for": [
+    "Fashion",
+    "Accessories",
+    "Home",
+    "Beauty"
+   ],
+   "note": "Close-up footage makes this stronger.",
+   "used_in": []
+  },
+  {
+   "id": "H030",
+   "row": 30,
+   "hook": "This looks completely different once you actually see it on",
+   "type": "Observation",
+   "use_when": "The on-body or in-use appearance is the selling point",
+   "best_for": [
+    "Fashion",
+    "Jewelry",
+    "Beauty",
+    "Accessories"
+   ],
+   "note": "Show the product quickly.",
+   "used_in": []
+  },
+  {
+   "id": "H031",
+   "row": 31,
+   "hook": "I did not realize how __ this was until I had it in my hand",
+   "type": "Observation",
+   "use_when": "Scale, weight, texture, thickness, or construction surprises you",
+   "best_for": [
+    "Home",
+    "Beauty",
+    "Electronics",
+    "Accessories"
+   ],
+   "note": "Use your hand for visual scale when helpful.",
+   "used_in": []
+  },
+  {
+   "id": "H032",
+   "row": 32,
+   "hook": "This is one of those details you do not notice until you use it",
+   "type": "Observation",
+   "use_when": "A feature becomes meaningful only during actual use",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Fashion",
+    "Beauty"
+   ],
+   "note": "Show the use moment.",
+   "used_in": []
+  },
+  {
+   "id": "H033",
+   "row": 33,
+   "hook": "I thought __ would be the best part, but it is actually __",
+   "type": "Observation",
+   "use_when": "A secondary feature becomes the real reason you like it",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "The contrast creates natural curiosity.",
+   "used_in": []
+  },
+  {
+   "id": "H034",
+   "row": 34,
+   "hook": "The thing that sold me was not even the obvious feature",
+   "type": "Observation",
+   "use_when": "An overlooked detail is more compelling than the headline feature",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Reveal the unexpected detail quickly.",
+   "used_in": []
+  },
+  {
+   "id": "H035",
+   "row": 35,
+   "hook": "I was not expecting to care this much about __",
+   "type": "Confession",
+   "use_when": "A small feature turns out to matter more than expected",
+   "best_for": [
+    "Home",
+    "Fashion",
+    "Beauty",
+    "Kitchen"
+   ],
+   "note": "Works well with everyday conveniences.",
+   "used_in": []
+  },
+  {
+   "id": "H036",
+   "row": 36,
+   "hook": "This is probably my favorite part and I almost missed it",
+   "type": "Observation",
+   "use_when": "A less-visible feature deserves attention",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Show the feature as you name it.",
+   "used_in": []
+  },
+  {
+   "id": "H037",
+   "row": 37,
+   "hook": "I bought it because of __, but I keep using it because of __",
+   "type": "Story",
+   "use_when": "The initial reason to buy differs from the long-term payoff",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Strong for products you have used more than once.",
+   "used_in": []
+  },
+  {
+   "id": "H038",
+   "row": 38,
+   "hook": "I thought I would use this for __, but somehow it became my __",
+   "type": "Story",
+   "use_when": "The product found an unexpected role in your life",
+   "best_for": [
+    "Home",
+    "Fashion",
+    "Beauty",
+    "Accessories"
+   ],
+   "note": "Keep the second use believable and specific.",
+   "used_in": []
+  },
+  {
+   "id": "H039",
+   "row": 39,
+   "hook": "I did not buy this for __, but that is exactly what I keep using it for",
+   "type": "Unexpected Use",
+   "use_when": "A secondary use case is surprisingly useful",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Accessories",
+    "Beauty"
+   ],
+   "note": "A good way to create another video from an established product.",
+   "used_in": []
+  },
+  {
+   "id": "H040",
+   "row": 40,
+   "hook": "This was supposed to be for __",
+   "type": "Story",
+   "use_when": "Someone else in the household claimed or adopted the product",
+   "best_for": [
+    "Pets",
+    "Kids",
+    "Home",
+    "Beauty",
+    "Electronics"
+   ],
+   "note": "Let the little story carry the hook.",
+   "used_in": []
+  },
+  {
+   "id": "H041",
+   "row": 41,
+   "hook": "I bought one and apparently that was my first mistake",
+   "type": "Humor",
+   "use_when": "Multiple family members or uses make one product insufficient",
+   "best_for": [
+    "Home",
+    "Kids",
+    "Pets",
+    "Accessories"
+   ],
+   "note": "Follow with who stole or claimed it.",
+   "used_in": []
+  },
+  {
+   "id": "H042",
+   "row": 42,
+   "hook": "This has somehow become the thing everyone in my house uses",
+   "type": "Observation",
+   "use_when": "Shared household usefulness is a selling point",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Electronics",
+    "Food"
+   ],
+   "note": "Show different use moments if possible.",
+   "used_in": []
+  },
+  {
+   "id": "H043",
+   "row": 43,
+   "hook": "I did not think this would become part of my routine",
+   "type": "Confession",
+   "use_when": "The product naturally earned a repeat-use spot",
+   "best_for": [
+    "Beauty",
+    "Wellness",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Explain when you now reach for it.",
+   "used_in": []
+  },
+  {
+   "id": "H044",
+   "row": 44,
+   "hook": "This is one of those things I keep reaching for without thinking about it",
+   "type": "Routine",
+   "use_when": "The product has become naturally habitual",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Show where you keep it or when you grab it.",
+   "used_in": []
+  },
+  {
+   "id": "H045",
+   "row": 45,
+   "hook": "I keep this right by __ because that is where I actually use it",
+   "type": "Routine",
+   "use_when": "Placement explains how the product fits real life",
+   "best_for": [
+    "Home",
+    "Beauty",
+    "Kitchen",
+    "Accessories"
+   ],
+   "note": "The location itself helps sell the use case.",
+   "used_in": []
+  },
+  {
+   "id": "H046",
+   "row": 46,
+   "hook": "This stays in my __ for a reason",
+   "type": "Routine",
+   "use_when": "The product earns a permanent place somewhere",
+   "best_for": [
+    "Purse",
+    "Car",
+    "Desk",
+    "Kitchen",
+    "Bathroom"
+   ],
+   "note": "Name the location and explain the real reason.",
+   "used_in": []
+  },
+  {
+   "id": "H047",
+   "row": 47,
+   "hook": "This is the thing I grab when __",
+   "type": "Routine",
+   "use_when": "A recurring situation triggers use",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Food"
+   ],
+   "note": "Make the moment specific.",
+   "used_in": []
+  },
+  {
+   "id": "H048",
+   "row": 48,
+   "hook": "Every time I __, I end up reaching for this",
+   "type": "Routine",
+   "use_when": "The product fits a repeatable behavior",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Show the routine naturally.",
+   "used_in": []
+  },
+  {
+   "id": "H049",
+   "row": 49,
+   "hook": "I did not realize I had a routine for this until I noticed I always grab this first",
+   "type": "Observation",
+   "use_when": "The habit itself demonstrates usefulness",
+   "best_for": [
+    "Beauty",
+    "Kitchen",
+    "Home",
+    "Fashion"
+   ],
+   "note": "Good for mature products with no flashy feature.",
+   "used_in": []
+  },
+  {
+   "id": "H050",
+   "row": 50,
+   "hook": "There is one time of day when I always want this",
+   "type": "Routine",
+   "use_when": "The product has a strong time-based use case",
+   "best_for": [
+    "Food",
+    "Beverage",
+    "Beauty",
+    "Wellness",
+    "Home"
+   ],
+   "note": "Name the moment quickly.",
+   "used_in": []
+  },
+  {
+   "id": "H051",
+   "row": 51,
+   "hook": "This makes more sense once you see when I actually use it",
+   "type": "Routine",
+   "use_when": "The use case matters more than the feature list",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Lead into the situation instead of describing specs.",
+   "used_in": []
+  },
+  {
+   "id": "H052",
+   "row": 52,
+   "hook": "I save this specifically for __",
+   "type": "Occasion",
+   "use_when": "The product has a distinct moment or event when it shines",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Fragrance",
+    "Food"
+   ],
+   "note": "Occasion should be natural, not forced.",
+   "used_in": []
+  },
+  {
+   "id": "H053",
+   "row": 53,
+   "hook": "This is what I reach for when I want __",
+   "type": "Emotional Outcome",
+   "use_when": "The product supports a specific desired feeling or result",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Fragrance",
+    "Home"
+   ],
+   "note": "Fill the blank with a human payoff, not a marketing claim.",
+   "used_in": []
+  },
+  {
+   "id": "H054",
+   "row": 54,
+   "hook": "This is my __ kind of product",
+   "type": "Identity",
+   "use_when": "The product fits a recognizable personal preference or lifestyle",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Food"
+   ],
+   "note": "Use a specific identity like \"I hate complicated routines.\"",
+   "used_in": []
+  },
+  {
+   "id": "H055",
+   "row": 55,
+   "hook": "I already know exactly who would love this",
+   "type": "Gift",
+   "use_when": "The product clearly fits a type of person",
+   "best_for": [
+    "Gifts",
+    "Home",
+    "Beauty",
+    "Accessories"
+   ],
+   "note": "Describe the person rather than saying \"perfect gift.\"",
+   "used_in": [
+    "super-blanky-v2 (2026-10-05)"
+   ]
+  },
+  {
+   "id": "H056",
+   "row": 56,
+   "hook": "This immediately made me think of my __",
+   "type": "Story",
+   "use_when": "The product connects to a relationship or person",
+   "best_for": [
+    "Gifts",
+    "Kids",
+    "Home",
+    "Fragrance"
+   ],
+   "note": "Use the relationship to make the product emotionally relevant.",
+   "used_in": []
+  },
+  {
+   "id": "H057",
+   "row": 57,
+   "hook": "This feels very __",
+   "type": "Identity",
+   "use_when": "The product has a clear aesthetic or personality",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Fragrance",
+    "Home"
+   ],
+   "note": "Fill with something viewers can picture, like \"Sunday morning coffee.\"",
+   "used_in": []
+  },
+  {
+   "id": "H058",
+   "row": 58,
+   "hook": "If you are a __ person, you will understand why I noticed this",
+   "type": "Identity",
+   "use_when": "A niche preference makes the feature especially relevant",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "The identity should be specific enough to create recognition.",
+   "used_in": []
+  },
+  {
+   "id": "H059",
+   "row": 59,
+   "hook": "I know exactly the kind of person who is going to care about this detail",
+   "type": "Identity",
+   "use_when": "A specific feature matters strongly to a particular buyer",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Name the detail right after the hook.",
+   "used_in": []
+  },
+  {
+   "id": "H060",
+   "row": 60,
+   "hook": "I am absolutely the person who __",
+   "type": "Identity",
+   "use_when": "Your own habit or preference makes the recommendation believable",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Use self-recognition rather than broad demographic labels.",
+   "used_in": []
+  },
+  {
+   "id": "H061",
+   "row": 61,
+   "hook": "This is for the people who always __",
+   "type": "Identity",
+   "use_when": "A recurring behavior defines the audience",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Behavior is usually stronger than vague labels like \"busy women.\"",
+   "used_in": [
+    "super-blanky-v2 (2026-10-05)"
+   ]
+  },
+  {
+   "id": "H062",
+   "row": 62,
+   "hook": "You know that moment when __?",
+   "type": "Recognition",
+   "use_when": "The product fits a very recognizable little situation",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Finish with a concrete moment viewers can picture.",
+   "used_in": []
+  },
+  {
+   "id": "H063",
+   "row": 63,
+   "hook": "I know I cannot be the only one who __",
+   "type": "Recognition",
+   "use_when": "A slightly quirky habit or frustration creates relatability",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "The more specific the behavior, the better.",
+   "used_in": []
+  },
+  {
+   "id": "H064",
+   "row": 64,
+   "hook": "Please tell me I am not the only person who does this",
+   "type": "Humor",
+   "use_when": "A common but rarely discussed behavior sets up the product",
+   "best_for": [
+    "Home",
+    "Beauty",
+    "Fashion",
+    "Lifestyle"
+   ],
+   "note": "Reveal the behavior quickly.",
+   "used_in": []
+  },
+  {
+   "id": "H065",
+   "row": 65,
+   "hook": "Does anybody else __?",
+   "type": "Question",
+   "use_when": "A common habit or annoyance invites recognition",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Avoid generic engagement bait. The question should lead naturally to the product.",
+   "used_in": []
+  },
+  {
+   "id": "H066",
+   "row": 66,
+   "hook": "This is such a specific problem, but if you have it, you know",
+   "type": "Problem Callout",
+   "use_when": "The pain point is narrow but meaningful",
+   "best_for": [
+    "Niche products",
+    "Fashion",
+    "Beauty",
+    "Home"
+   ],
+   "note": "Great for highly targeted content.",
+   "used_in": []
+  },
+  {
+   "id": "H067",
+   "row": 67,
+   "hook": "You either care about this detail or you really do not",
+   "type": "Identity",
+   "use_when": "The product has a feature that matters intensely to some buyers",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Then explain why you personally care.",
+   "used_in": []
+  },
+  {
+   "id": "H068",
+   "row": 68,
+   "hook": "This might sound picky, but __",
+   "type": "Preference",
+   "use_when": "A personal standard could sound overly specific without context",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Food",
+    "Home"
+   ],
+   "note": "Picky makes a detailed preference feel conversational.",
+   "used_in": []
+  },
+  {
+   "id": "H069",
+   "row": 69,
+   "hook": "Maybe it is just me, but I always notice __",
+   "type": "Observation",
+   "use_when": "A small visual or functional detail influences your opinion",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Follow with the exact detail.",
+   "used_in": []
+  },
+  {
+   "id": "H070",
+   "row": 70,
+   "hook": "I never know how to explain why I like __ until I see something like this",
+   "type": "Preference",
+   "use_when": "The product embodies a hard-to-describe preference",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Fragrance"
+   ],
+   "note": "Use the product as the example.",
+   "used_in": []
+  },
+  {
+   "id": "H071",
+   "row": 71,
+   "hook": "I did not think there was a difference until I put them next to each other",
+   "type": "Comparison",
+   "use_when": "The contrast is visually meaningful",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Show both versions together.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H072",
+   "row": 72,
+   "hook": "This is one of those things you have to see side by side",
+   "type": "Comparison",
+   "use_when": "The difference is hard to appreciate in isolation",
+   "best_for": [
+    "Any visual product"
+   ],
+   "note": "Keep explanation short and let the camera work.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H073",
+   "row": 73,
+   "hook": "Same idea. Completely different experience.",
+   "type": "Contrast",
+   "use_when": "Two similar products perform or feel noticeably different",
+   "best_for": [
+    "Home",
+    "Beauty",
+    "Fashion",
+    "Electronics"
+   ],
+   "note": "Immediately explain what creates the difference.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H074",
+   "row": 74,
+   "hook": "I thought these would feel basically the same",
+   "type": "Comparison",
+   "use_when": "Two options look similar but differ in use",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Good for texture, fit, weight, sound, or construction.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H075",
+   "row": 75,
+   "hook": "This is why I picked this version instead",
+   "type": "Comparison",
+   "use_when": "The buyer has multiple comparable options",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Give one clear reason for your choice.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H076",
+   "row": 76,
+   "hook": "I did not need more __, I needed a better __",
+   "type": "Contrarian",
+   "use_when": "The real problem is quality, fit, format, or suitability rather than quantity",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Useful for reframing without sounding combative.",
+   "used_in": []
+  },
+  {
+   "id": "H077",
+   "row": 77,
+   "hook": "Maybe the problem is not __",
+   "type": "Contrarian",
+   "use_when": "The obvious explanation is not the whole story",
+   "best_for": [
+    "Beauty",
+    "Home",
+    "Fashion",
+    "Lifestyle"
+   ],
+   "note": "Only use when you have a credible alternative explanation.",
+   "used_in": []
+  },
+  {
+   "id": "H078",
+   "row": 78,
+   "hook": "I stopped trying to make __ work for me",
+   "type": "Contrarian",
+   "use_when": "A common approach does not fit your personal needs",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Wellness"
+   ],
+   "note": "Keep it personal rather than declaring everyone else wrong.",
+   "used_in": []
+  },
+  {
+   "id": "H079",
+   "row": 79,
+   "hook": "I finally admitted that I just do not like __",
+   "type": "Confession",
+   "use_when": "A personal preference changes the buying decision",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Food",
+    "Home"
+   ],
+   "note": "Specific dislikes can create strong recognition.",
+   "used_in": []
+  },
+  {
+   "id": "H080",
+   "row": 80,
+   "hook": "I kept buying __ when what I actually wanted was __",
+   "type": "Contrast",
+   "use_when": "The buyer has been solving the wrong problem",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Kitchen"
+   ],
+   "note": "Excellent for benefit translation.",
+   "used_in": []
+  },
+  {
+   "id": "H081",
+   "row": 81,
+   "hook": "I thought I needed __, but what I really cared about was __",
+   "type": "Observation",
+   "use_when": "The true buyer motivation becomes clearer after use",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "The second blank should be the emotional or practical payoff.",
+   "used_in": []
+  },
+  {
+   "id": "H082",
+   "row": 82,
+   "hook": "I do not need this to do everything",
+   "type": "Preference",
+   "use_when": "The product wins because it does one job well",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Electronics"
+   ],
+   "note": "Follow with the one job that matters.",
+   "used_in": []
+  },
+  {
+   "id": "H083",
+   "row": 83,
+   "hook": "This does one thing I really wanted it to do",
+   "type": "Outcome-Based",
+   "use_when": "A single clear benefit is enough to justify interest",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Show that one thing.",
+   "used_in": []
+  },
+  {
+   "id": "H084",
+   "row": 84,
+   "hook": "The entire reason I wanted this was __",
+   "type": "Outcome-Based",
+   "use_when": "There is one dominant buying motivation",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Strong for focused videos. Do not add five more features.",
+   "used_in": []
+  },
+  {
+   "id": "H085",
+   "row": 85,
+   "hook": "This is the part that makes it worth it for me",
+   "type": "Emotional Outcome",
+   "use_when": "A single payoff matters more than the feature list",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Keep \"for me\" to make it personal.",
+   "used_in": []
+  },
+  {
+   "id": "H086",
+   "row": 86,
+   "hook": "This is what I was hoping it would do",
+   "type": "Outcome-Based",
+   "use_when": "The product delivers a clear expected result",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Fashion",
+    "Beauty"
+   ],
+   "note": "Show the payoff right after the hook.",
+   "used_in": []
+  },
+  {
+   "id": "H087",
+   "row": 87,
+   "hook": "This is exactly the kind of difference I wanted to see",
+   "type": "Outcome-Based",
+   "use_when": "The visual result validates the purchase",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Home",
+    "Food"
+   ],
+   "note": "Works especially well with visible proof.",
+   "used_in": []
+  },
+  {
+   "id": "H088",
+   "row": 88,
+   "hook": "This is what I mean when I say I wanted __",
+   "type": "Outcome-Based",
+   "use_when": "The product gives a visual example of a desired quality",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Food"
+   ],
+   "note": "Fill with something concrete like \"soft structure,\" not vague \"quality.\"",
+   "used_in": []
+  },
+  {
+   "id": "H089",
+   "row": 89,
+   "hook": "I do not think the picture really shows how __ this is",
+   "type": "Sensory",
+   "use_when": "A tactile, visual, dimensional, or size detail does not translate in listing photos",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Food"
+   ],
+   "note": "Close-up footage is essential.",
+   "used_in": []
+  },
+  {
+   "id": "H090",
+   "row": 90,
+   "hook": "You can actually hear the difference",
+   "type": "Sensory",
+   "use_when": "Sound is part of the selling point",
+   "best_for": [
+    "Electronics",
+    "Home",
+    "Kitchen",
+    "Toys"
+   ],
+   "note": "Let viewers hear it rather than narrating over it.",
+   "used_in": []
+  },
+  {
+   "id": "H091",
+   "row": 91,
+   "hook": "Look at the texture on this",
+   "type": "Sensory",
+   "use_when": "Texture itself is compelling",
+   "best_for": [
+    "Food",
+    "Beauty",
+    "Fashion",
+    "Home"
+   ],
+   "note": "Do not bury the visual under a long hook.",
+   "used_in": []
+  },
+  {
+   "id": "H092",
+   "row": 92,
+   "hook": "This is one of those products where the close-up matters",
+   "type": "Sensory",
+   "use_when": "Small visual details influence the purchase",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Food",
+    "Home"
+   ],
+   "note": "Get close enough for the viewer to inspect it.",
+   "used_in": []
+  },
+  {
+   "id": "H093",
+   "row": 93,
+   "hook": "I wish you could feel this through the screen",
+   "type": "Sensory",
+   "use_when": "Texture or softness is unusually noticeable",
+   "best_for": [
+    "Fashion",
+    "Bedding",
+    "Beauty",
+    "Home"
+   ],
+   "note": "Describe your own tactile impression after showing it.",
+   "used_in": []
+  },
+  {
+   "id": "H094",
+   "row": 94,
+   "hook": "Watch what happens when I __",
+   "type": "Product Demo",
+   "use_when": "The product has a simple satisfying demonstration",
+   "best_for": [
+    "Kitchen",
+    "Home",
+    "Beauty",
+    "Electronics"
+   ],
+   "note": "Let the action create curiosity.",
+   "used_in": []
+  },
+  {
+   "id": "H095",
+   "row": 95,
+   "hook": "I am just going to show you because explaining it is harder",
+   "type": "Product Demo",
+   "use_when": "The product difference is easier to demonstrate than describe",
+   "best_for": [
+    "Any demonstrable product"
+   ],
+   "note": "Excellent 3.0 hook because visual proof leads.",
+   "used_in": [
+    "super-blanky-v2 (2026-10-05)"
+   ]
+  },
+  {
+   "id": "H096",
+   "row": 96,
+   "hook": "This makes more sense if I show you",
+   "type": "Product Demo",
+   "use_when": "The benefit sounds abstract until demonstrated",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Get into the demo quickly.",
+   "used_in": []
+  },
+  {
+   "id": "H097",
+   "row": 97,
+   "hook": "Here is the part that made me stop scrolling",
+   "type": "Curiosity",
+   "use_when": "A visible or unusual feature caught your attention",
+   "best_for": [
+    "Product discoveries",
+    "Fashion",
+    "Beauty",
+    "Home"
+   ],
+   "note": "Reveal the detail quickly. Do not manufacture suspense.",
+   "used_in": []
+  },
+  {
+   "id": "H098",
+   "row": 98,
+   "hook": "I had to look twice when I saw __",
+   "type": "Curiosity",
+   "use_when": "A genuinely unusual detail deserves a closer look",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Accessories"
+   ],
+   "note": "Name what caught your eye.",
+   "used_in": []
+  },
+  {
+   "id": "H099",
+   "row": 99,
+   "hook": "At first I thought this was just __",
+   "type": "Curiosity",
+   "use_when": "The product initially appears ordinary but has a meaningful difference",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "The reveal needs to be worthwhile.",
+   "used_in": []
+  },
+  {
+   "id": "H100",
+   "row": 100,
+   "hook": "I almost missed what was different about this",
+   "type": "Curiosity",
+   "use_when": "The differentiator is subtle",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Zoom in or demonstrate the exact difference.",
+   "used_in": []
+  },
+  {
+   "id": "H101",
+   "row": 101,
+   "hook": "There is one detail here that changes the whole thing",
+   "type": "Curiosity",
+   "use_when": "One feature meaningfully changes the use or appeal",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Do not delay the reveal too long.",
+   "used_in": []
+  },
+  {
+   "id": "H102",
+   "row": 102,
+   "hook": "This looked pretty normal until I noticed __",
+   "type": "Curiosity",
+   "use_when": "A hidden or less-obvious feature is the selling point",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Specificity keeps this from becoming clickbait.",
+   "used_in": []
+  },
+  {
+   "id": "H103",
+   "row": 103,
+   "hook": "I did not understand why people liked this until I saw __",
+   "type": "Social Proof",
+   "use_when": "A popular product has one concrete feature that explains its appeal",
+   "best_for": [
+    "Established products"
+   ],
+   "note": "Use popularity as context, not proof that the product is good.",
+   "used_in": []
+  },
+  {
+   "id": "H104",
+   "row": 104,
+   "hook": "Now I understand why this keeps showing up on my feed",
+   "type": "Social Proof",
+   "use_when": "You personally discovered what makes a trending product interesting",
+   "best_for": [
+    "Established TikTok Shop products"
+   ],
+   "note": "Immediately explain the actual reason.",
+   "used_in": []
+  },
+  {
+   "id": "H105",
+   "row": 105,
+   "hook": "I have seen this everywhere, but nobody showed me this part",
+   "type": "Buyer Question",
+   "use_when": "A popular product still has an unanswered buyer question",
+   "best_for": [
+    "Established products"
+   ],
+   "note": "Freshens crowded products by focusing on missing information.",
+   "used_in": []
+  },
+  {
+   "id": "H106",
+   "row": 106,
+   "hook": "This product does not need another \"you need this\" video",
+   "type": "Contrarian",
+   "use_when": "The product is saturated and needs fresher creative",
+   "best_for": [
+    "Established products"
+   ],
+   "note": "Follow with the angle you think is actually interesting.",
+   "used_in": []
+  },
+  {
+   "id": "H107",
+   "row": 107,
+   "hook": "If you have already seen this product 20 times, look at this part instead",
+   "type": "Observation",
+   "use_when": "The product is familiar but there is still a fresh detail",
+   "best_for": [
+    "Established products"
+   ],
+   "note": "Good for crowded products without pretending they are new.",
+   "used_in": []
+  },
+  {
+   "id": "H108",
+   "row": 108,
+   "hook": "I am not going to tell you this is life-changing",
+   "type": "Reassurance",
+   "use_when": "You want to lower the hype and focus on a practical benefit",
+   "best_for": [
+    "Everyday products"
+   ],
+   "note": "Follow with the modest reason you still like it.",
+   "used_in": []
+  },
+  {
+   "id": "H109",
+   "row": 109,
+   "hook": "This is not dramatic. It is just really convenient",
+   "type": "Reassurance",
+   "use_when": "The value is small but recurring",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Accessories"
+   ],
+   "note": "Understatement can make the recommendation more credible.",
+   "used_in": []
+  },
+  {
+   "id": "H110",
+   "row": 110,
+   "hook": "I do not think everyone needs this, but I know exactly who will appreciate it",
+   "type": "Reassurance",
+   "use_when": "The product has a specific audience rather than mass appeal",
+   "best_for": [
+    "Niche products"
+   ],
+   "note": "Describe that person next.",
+   "used_in": []
+  },
+  {
+   "id": "H111",
+   "row": 111,
+   "hook": "There is nothing complicated about why I like this",
+   "type": "Reassurance",
+   "use_when": "The product solves a simple need well",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Then state the reason plainly.",
+   "used_in": []
+  },
+  {
+   "id": "H112",
+   "row": 112,
+   "hook": "I was worried this would __",
+   "type": "Objection",
+   "use_when": "You had a real concern before trying or seeing the product",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home",
+    "Electronics"
+   ],
+   "note": "Only use objections you genuinely had.",
+   "used_in": []
+  },
+  {
+   "id": "H113",
+   "row": 113,
+   "hook": "My biggest question before ordering was __",
+   "type": "Objection",
+   "use_when": "A buyer concern almost prevented purchase",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Answer it with visual proof whenever possible.",
+   "used_in": []
+  },
+  {
+   "id": "H114",
+   "row": 114,
+   "hook": "The one thing I was unsure about was __",
+   "type": "Objection",
+   "use_when": "You want to address a realistic hesitation",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Keep the concern specific.",
+   "used_in": []
+  },
+  {
+   "id": "H115",
+   "row": 115,
+   "hook": "I thought this might be too __ for me",
+   "type": "Objection",
+   "use_when": "A style, fit, scent, size, or intensity concern existed",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Fragrance",
+    "Home"
+   ],
+   "note": "Explain what changed your mind without overselling.",
+   "used_in": []
+  },
+  {
+   "id": "H116",
+   "row": 116,
+   "hook": "I almost skipped this because of __",
+   "type": "Story",
+   "use_when": "A concern or assumption nearly stopped the purchase",
+   "best_for": [
+    "Product reviews"
+   ],
+   "note": "The turning point should be meaningful.",
+   "used_in": []
+  },
+  {
+   "id": "H117",
+   "row": 117,
+   "hook": "I was fully prepared not to like this",
+   "type": "Confession",
+   "use_when": "You approached the product skeptically",
+   "best_for": [
+    "Product reviews"
+   ],
+   "note": "Explain what specifically changed your opinion.",
+   "used_in": []
+  },
+  {
+   "id": "H118",
+   "row": 118,
+   "hook": "I did not expect this to be the thing I liked most",
+   "type": "Confession",
+   "use_when": "Your favorite feature surprised you",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Follow with the unexpected feature.",
+   "used_in": []
+  },
+  {
+   "id": "H119",
+   "row": 119,
+   "hook": "I had a completely different idea of what this would be like",
+   "type": "Confession",
+   "use_when": "The real-life experience differs from your expectation",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Fragrance",
+    "Home"
+   ],
+   "note": "Describe the difference rather than using fake shock.",
+   "used_in": []
+  },
+  {
+   "id": "H120",
+   "row": 120,
+   "hook": "I changed my mind about this after __",
+   "type": "Story",
+   "use_when": "A specific use moment shifted your opinion",
+   "best_for": [
+    "Product reviews"
+   ],
+   "note": "The \"after\" should be the turning point.",
+   "used_in": []
+  },
+  {
+   "id": "H121",
+   "row": 121,
+   "hook": "The first time I used this, I immediately noticed __",
+   "type": "Story",
+   "use_when": "A first-use observation is strong enough to lead",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Specific observations feel more credible than \"I loved it.\"",
+   "used_in": []
+  },
+  {
+   "id": "H122",
+   "row": 122,
+   "hook": "I did not think much of this until __ happened",
+   "type": "Story",
+   "use_when": "A small event revealed the product's usefulness",
+   "best_for": [
+    "Home",
+    "Pets",
+    "Kids",
+    "Beauty",
+    "Accessories"
+   ],
+   "note": "Tell the moment, then show why it mattered.",
+   "used_in": []
+  },
+  {
+   "id": "H123",
+   "row": 123,
+   "hook": "This earned its spot after one very specific moment",
+   "type": "Story",
+   "use_when": "A real-life situation proved the product useful",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "The moment is the angle.",
+   "used_in": []
+  },
+  {
+   "id": "H124",
+   "row": 124,
+   "hook": "I bought this for a very boring reason",
+   "type": "Story",
+   "use_when": "An ordinary need can create relatable content",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Fashion",
+    "Beauty"
+   ],
+   "note": "The boring reason is often more believable than hype.",
+   "used_in": []
+  },
+  {
+   "id": "H125",
+   "row": 125,
+   "hook": "This might be the most practical reason I have ever bought something",
+   "type": "Humor",
+   "use_when": "The purchase was driven by a very ordinary convenience",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Accessories",
+    "Fashion"
+   ],
+   "note": "Follow with the practical reason.",
+   "used_in": []
+  },
+  {
+   "id": "H126",
+   "row": 126,
+   "hook": "I am apparently at the age where this excites me",
+   "type": "Humor",
+   "use_when": "An ordinary home, kitchen, organization, or comfort product genuinely delights you",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Organization",
+    "Comfort"
+   ],
+   "note": "Use naturally; do not force age-based stereotypes.",
+   "used_in": []
+  },
+  {
+   "id": "H127",
+   "row": 127,
+   "hook": "I did not expect my favorite part to be this boring",
+   "type": "Humor",
+   "use_when": "A mundane feature turns out to be genuinely useful",
+   "best_for": [
+    "Any category"
+   ],
+   "note": "Great for storage, cleanup, pockets, charging, etc.",
+   "used_in": []
+  },
+  {
+   "id": "H128",
+   "row": 128,
+   "hook": "I know exactly how unexciting this sounds, but watch",
+   "type": "Humor",
+   "use_when": "A practical feature is more satisfying than it sounds",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Organization"
+   ],
+   "note": "Let the demo deliver the payoff.",
+   "used_in": []
+  },
+  {
+   "id": "H129",
+   "row": 129,
+   "hook": "This is peak \"why did this make me so happy?\"",
+   "type": "Humor",
+   "use_when": "A small convenience produces disproportionate satisfaction",
+   "best_for": [
+    "Home",
+    "Kitchen",
+    "Beauty",
+    "Accessories"
+   ],
+   "note": "Show the satisfying moment.",
+   "used_in": []
+  },
+  {
+   "id": "H130",
+   "row": 130,
+   "hook": "This is going to matter once __",
+   "type": "Time Pressure",
+   "use_when": "Future relevance + curiosity",
+   "best_for": [
+    "Seasonal and lifestyle content"
+   ],
+   "note": "Connect the product to an approaching situation.",
+   "used_in": []
+  },
+  {
+   "id": "H131",
+   "row": 131,
+   "hook": "Before the season changes, look at this",
+   "type": "Time Pressure",
+   "use_when": "Seasonal anticipation + preparedness",
+   "best_for": [
+    "Fashion",
+    "Beauty",
+    "Home"
+   ],
+   "note": "Explain how the product supports the transition.",
+   "used_in": []
+  },
+  {
+   "id": "H132",
+   "row": 132,
+   "hook": "You will want this ready before __",
+   "type": "Time Pressure",
+   "use_when": "Future pacing + convenience",
+   "best_for": [
+    "Events",
+    "Travel",
+    "Weather"
+   ],
+   "note": "Fill the blank with a real moment of need.",
+   "used_in": []
+  },
+  {
+   "id": "H133",
+   "row": 133,
+   "hook": "This is the kind of thing you buy before you are desperate",
+   "type": "Time Pressure",
+   "use_when": "Problem prevention + urgency",
+   "best_for": [
+    "Household and preparedness products"
+   ],
+   "note": "Frame early action as practical rather than fear-based.",
+   "used_in": []
+  },
+  {
+   "id": "H134",
+   "row": 134,
+   "hook": "Put this on your list before __",
+   "type": "Time Pressure",
+   "use_when": "Planning cue + anticipation",
+   "best_for": [
+    "Shopping guides"
+   ],
+   "note": "Connect the recommendation to a clear timeline.",
+   "used_in": []
+  },
+  {
+   "id": "H135",
+   "row": 135,
+   "hook": "I tried both so you can see the real difference",
+   "type": "Comparison",
+   "use_when": "Contrast effect + authority",
+   "best_for": [
+    "Product comparisons"
+   ],
+   "note": "Compare the features that matter during actual use.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H136",
+   "row": 136,
+   "hook": "One looks better, but the other works better",
+   "type": "Comparison",
+   "use_when": "Appearance-performance contrast",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Home"
+   ],
+   "note": "Clarify which priority matters for the intended buyer.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H137",
+   "row": 137,
+   "hook": "These seem identical until you use them",
+   "type": "Comparison",
+   "use_when": "Similarity disruption + curiosity",
+   "best_for": [
+    "Side-by-side reviews"
+   ],
+   "note": "Demonstrate the experience that separates them.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H138",
+   "row": 138,
+   "hook": "The cheaper one surprised me",
+   "type": "Comparison",
+   "use_when": "Price expectation reversal",
+   "best_for": [
+    "Affordable comparisons"
+   ],
+   "note": "Explain where the lower-cost option performs well.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook. Saying 'cheaper' or comparing price is fine; never say a price number."
+  },
+  {
+   "id": "H139",
+   "row": 139,
+   "hook": "Here is who should choose each one",
+   "type": "Comparison",
+   "use_when": "Decision clarity + personalization",
+   "best_for": [
+    "Product comparisons"
+   ],
+   "note": "Match each option to a different buyer or need.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H140",
+   "row": 140,
+   "hook": "I would buy this one for __ and the other for __",
+   "type": "Comparison",
+   "use_when": "Context-based decision making",
+   "best_for": [
+    "Product comparisons"
+   ],
+   "note": "Show that the better choice depends on the use case.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H141",
+   "row": 141,
+   "hook": "The real difference is not what you think",
+   "type": "Comparison",
+   "use_when": "Information gap + contrast",
+   "best_for": [
+    "Product education"
+   ],
+   "note": "Reveal the less obvious distinction that affects the experience.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H142",
+   "row": 142,
+   "hook": "This one saves space, but this one saves time",
+   "type": "Comparison",
+   "use_when": "Trade-off framing + decision support",
+   "best_for": [
+    "Home",
+    "Travel",
+    "Organization"
+   ],
+   "note": "Compare two meaningful benefits without forcing one winner.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H143",
+   "row": 143,
+   "hook": "Same purpose, completely different experience",
+   "type": "Comparison",
+   "use_when": "Contrast effect + sensory anticipation",
+   "best_for": [
+    "Product comparisons"
+   ],
+   "note": "Describe how design or usability changes the result.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H144",
+   "row": 144,
+   "hook": "Before you choose between these, decide what matters more",
+   "type": "Comparison",
+   "use_when": "Value clarification + decision support",
+   "best_for": [
+    "Buying guides"
+   ],
+   "note": "Help the viewer identify the priority that should guide the choice.",
+   "used_in": [],
+   "grace_caution": "Ralph OK 2026-10-05: a second product may be shown and its brand named on screen and in the script, overriding 'only our product' for this hook."
+  },
+  {
+   "id": "H145",
+   "row": 145,
+   "hook": "This takes one extra step out of my routine",
+   "type": "Simple Fix",
+   "use_when": "Friction reduction + habit support",
+   "best_for": [
+    "Routines and everyday products"
+   ],
+   "note": "Show the exact step the product removes.",
+   "used_in": []
+  },
+  {
+   "id": "H146",
+   "row": 146,
+   "hook": "Here is a faster way to deal with __",
+   "type": "Simple Fix",
+   "use_when": "Cognitive ease + problem solving",
+   "best_for": [
+    "Tutorials and quick wins"
+   ],
+   "note": "Demonstrate the shortcut clearly.",
+   "used_in": []
+  },
+  {
+   "id": "H147",
+   "row": 147,
+   "hook": "One small switch made __ much easier",
+   "type": "Simple Fix",
+   "use_when": "Low-friction change + relief",
+   "best_for": [
+    "Routines and habits"
+   ],
+   "note": "Keep the solution realistic and easy to repeat.",
+   "used_in": []
+  },
+  {
+   "id": "H148",
+   "row": 148,
+   "hook": "Keep this where you always __",
+   "type": "Simple Fix",
+   "use_when": "Environmental cue + habit formation",
+   "best_for": [
+    "Organization and everyday essentials"
+   ],
+   "note": "Connect product placement to consistent use.",
+   "used_in": []
+  },
+  {
+   "id": "H149",
+   "row": 149,
+   "hook": "Use this when you do not have time to __",
+   "type": "Simple Fix",
+   "use_when": "Time pressure relief + convenience",
+   "best_for": [
+    "Busy routines"
+   ],
+   "note": "Position the product as a practical backup or shortcut.",
+   "used_in": []
+  },
+  {
+   "id": "H150",
+   "row": 150,
+   "hook": "This is the simplest solution I have found for __",
+   "type": "Simple Fix",
+   "use_when": "Simplicity bias + authority",
+   "best_for": [
+    "Problem-solving products"
+   ],
+   "note": "Explain why the solution requires less effort.",
+   "used_in": []
+  },
+  {
+   "id": "H151",
+   "row": 151,
+   "hook": "Add this one step before you __",
+   "type": "Simple Fix",
+   "use_when": "Action cue + process improvement",
+   "best_for": [
+    "Tutorials and routines"
+   ],
+   "note": "Show how the added step prevents a larger problem.",
+   "used_in": []
+  },
+  {
+   "id": "H152",
+   "row": 152,
+   "hook": "This makes it easier to remember to __",
+   "type": "Simple Fix",
+   "use_when": "Habit cue + cognitive ease",
+   "best_for": [
+    "Wellness and organization"
+   ],
+   "note": "Connect the product to a visible or automatic reminder.",
+   "used_in": []
+  },
+  {
+   "id": "H153",
+   "row": 153,
+   "hook": "The quickest way to make __ feel more manageable",
+   "type": "Simple Fix",
+   "use_when": "Overwhelm reduction + low friction",
+   "best_for": [
+    "Home",
+    "Routines",
+    "Organization"
+   ],
+   "note": "Break the problem into one approachable action.",
+   "used_in": []
+  },
+  {
+   "id": "H154",
+   "row": 154,
+   "hook": "This is such an easy upgrade for __",
+   "type": "Simple Fix",
+   "use_when": "Low commitment + improvement",
+   "best_for": [
+    "Beauty",
+    "Fashion",
+    "Home"
+   ],
+   "note": "Show how a small change improves the overall experience.",
+   "used_in": []
+  }
+ ]
+}
