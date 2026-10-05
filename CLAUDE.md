@@ -134,7 +134,7 @@ not in a new file.
   before any login/cookie, paid step or optional install). Cloud tested: Exa, Jina, V2EX, RSS, Bilibili search OK; YouTube bot-check and Reddit
   403 from cloud IPs (need cookies, his OK); IG/FB/XHS need desktop Chrome. SkillSpector upstream 100/100 CRITICAL, manual review: no
   telemetry, flagged lines are blocklists/own-cookie storage → CAUTION, installed; copy 36/100. `handoff/agent-reach-skill.zip` UPLOADED by Ralph to claude.ai 2026-10-05
-  (account skill `agent-reach`: chat, Projects, Cowork).
+  (account skill `agent-reach`: chat, Projects, Cowork). Twitter/X + Reddit logins ON HOLD (Ralph, 2026-10-05): ask again only when a task needs them.
 
 ## Learning reports (2026-10-01)
 - `reports/`: daily (`YYYY-MM-DD-daily.md`) + weekly (`YYYY-Wnn-weekly.md`) notes Ralph pastes into new chats.
