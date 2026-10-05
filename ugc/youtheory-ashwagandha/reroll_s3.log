@@ -1,0 +1,14 @@
+submitted 458a479c4573c9a97e6e5041c6b9d6a1
+clip S3 ok
+Traceback (most recent call last):
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 177, in <module>
+    {"stills": stills, "clips": clips}[cmd](ids)
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 126, in clips
+    sheet("clips", ".mp4")
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 143, in sheet
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Mymobileworld/ugc/youtheory-ashwagandha/kie.py", line 143, in <lambda>
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 'S3_v1_rotates' is not in list

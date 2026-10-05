@@ -1,0 +1,96 @@
+{
+ "pool": {
+  "P1": [
+   "S1",
+   0,
+   4
+  ],
+  "P1b": [
+   "S1",
+   1.5,
+   4
+  ],
+  "P2": [
+   "S2",
+   0,
+   4
+  ],
+  "P3": [
+   "S3",
+   0,
+   4.4
+  ],
+  "P5": [
+   "S5",
+   0,
+   5
+  ],
+  "P2b": [
+   "S2",
+   2,
+   4
+  ]
+ },
+ "videos": [
+  {
+   "name": "Penetrex 1",
+   "vo": 1,
+   "order": [
+    "P1",
+    "P2",
+    "P3",
+    "P1b",
+    "P2b"
+   ],
+   "end": "P5",
+   "grade": "natural",
+   "zoom": 1.0,
+   "anchor": 0.5
+  },
+  {
+   "name": "Penetrex 2",
+   "vo": 2,
+   "order": [
+    "P1",
+    "P2",
+    "P3",
+    "P1b",
+    "P2b"
+   ],
+   "end": "P5",
+   "grade": "warm",
+   "zoom": 1.15,
+   "anchor": 0.3
+  },
+  {
+   "name": "Penetrex 3",
+   "vo": 3,
+   "order": [
+    "P2",
+    "P1",
+    "P3",
+    "P1b",
+    "P2b"
+   ],
+   "end": "P5",
+   "grade": "cool",
+   "zoom": 1.25,
+   "anchor": 0.5
+  },
+  {
+   "name": "Penetrex 4",
+   "vo": 4,
+   "order": [
+    "P1b",
+    "P3",
+    "P2",
+    "P1",
+    "P2b"
+   ],
+   "end": "P5",
+   "grade": "moody",
+   "zoom": 1.1,
+   "anchor": 0.55
+  }
+ ]
+}

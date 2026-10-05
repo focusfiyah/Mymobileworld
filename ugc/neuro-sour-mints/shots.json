@@ -1,0 +1,84 @@
+{
+ "product": "neuro-sour-mints",
+ "client": "Grace",
+ "status": "VO done 2026-10-04 (sped up free, atempo), awaiting stills approval",
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4",
+  "file": "vo/voiceover_tight.mp3"
+ },
+ "hook_text": "read the reviews first",
+ "refs": [
+  "refs/bag_crop.png"
+ ],
+ "identity_block": "The hand is the ONLY person in the video: one woman's hands, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). No face, no arms above the forearm, no other people. Only one hand enters from the frame edge, whole wrist visible, no forearm.",
+ "product_block": "The product is exactly the Neuro Energy & Focus Sour Mints pouch in the product reference image: a flat blue-teal stand-up pouch with a white 'N' wave logo and 'Neuro' at the top left, a red-coral 'SOUR MINTS' label at the upper right, a red 'SOUR BERRY' sticker on the left, and 'Energy & Focus' in large blue letters, with '90 Pieces Dietary Supplement' in small print below. It keeps this exact shape, colours and layout in every frame: no morphing, no extra text. Do not show individual mints up close.",
+ "scene_block": "Setting: a bright, clean kitchen, a white quartz countertop, soft morning light from a window on the left. Shot on a phone, handheld, natural light, realistic unretouched skin texture with visible knuckle creases, casual and lived-in like a real person filmed it, no cinematic grading. No on-screen text, captions, date stamps or watermarks. Nothing at any edge of the frame except what is described. No other branded products.",
+ "video_suffix": "Camera: locked-off phone on a tripod, no zoom. Fingers move naturally and stay anatomically correct (five fingers per hand). The product stays upright with its front facing the camera and does not rotate to its side. No sound. No on-screen text.",
+ "shots": [
+  {
+   "id": "S1",
+   "kind": "H",
+   "vo": "When Neuro says sour, they mean it.",
+   "still": "Close-up, kitchen counter: the hand holds the blue Neuro pouch toward the lens, front facing the camera squarely.",
+   "video": "Shot 1 (0-4s): the hand lifts the pouch slightly toward the lens, gives it one small shake, then holds steady, front facing camera.",
+   "dur": 4,
+   "t": [
+    0.0,
+    2.27
+   ]
+  },
+  {
+   "id": "S2",
+   "kind": "F",
+   "vo": "Energy drinks are too much for a slump.",
+   "still": "Close-up on the counter: a laptop open to a blank screen, an empty coffee mug and a tall silver energy drink can lying on its side with no label, late afternoon light. The frame contains only these objects: no hand, no fingers, no arm, no person, no pouch.",
+   "video": "(not rendered: slow push-in on the still)",
+   "dur": 3,
+   "t": [
+    2.27,
+    4.41
+   ]
+  },
+  {
+   "id": "S3",
+   "kind": "H",
+   "vo": "Neuro Sour Mints have forty milligrams of natural caffeine, plus L-theanine and B vitamins, with zero sugar.",
+   "still": "Close-up, kitchen counter: the hand holds the blue Neuro pouch toward the lens, front squarely facing the camera, small and steady.",
+   "video": "Shot 1 (0-7s): the hand holds the pouch up toward the lens with the front facing the camera the entire time. It only tilts a few degrees toward the lens and settles. The pouch never turns, never rotates, never shows its side or back, and the same single hand holds it throughout.",
+   "dur": 7,
+   "t": [
+    4.41,
+    10.57
+   ]
+  },
+  {
+   "id": "S4",
+   "kind": "C",
+   "vo": "Ninety pieces, and they disappear fast.",
+   "still": "(real flavors crop from the listing, push-in, no AI)",
+   "video": "",
+   "dur": 3,
+   "t": [
+    10.57,
+    12.78
+   ]
+  },
+  {
+   "id": "S5",
+   "kind": "H",
+   "vo": "Three flavors, so grab two bags. It's in the orange cart.",
+   "still": "Close-up, kitchen counter: the pouch stands upright on the counter and the hand points down toward it with one finger from the frame edge.",
+   "video": "Shot 1 (0-4s): the hand sets the pouch upright on the counter, then points down at it with one finger and holds.",
+   "dur": 4,
+   "t": [
+    12.78,
+    15.8
+   ]
+  }
+ ],
+ "offset": {
+  "S5": 0.8
+ }
+}
