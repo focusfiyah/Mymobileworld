@@ -1,5 +1,21 @@
 # Diagnosing audio you cannot hear
 
+## Contents
+
+- Compare against something inside the same file
+  - 1. The clean original, if it exists
+  - 2. The pauses
+  - 3. The speech's own tilt, for a suspected filter
+  - 4. The file against itself over time
+- Do not compare against a different voice
+- Recipes
+  - Compare loudness from the bytes the listener actually hears
+  - Band energy, in proportional bands
+  - The noise floor, and what is in it
+  - Level over time
+  - Pitch, before blaming the low end
+- Then, and only then, the symptom table
+
 The symptom table in `SKILL.md` starts from "it sounds boomy". That presumes
 somebody already listened and said so. Handed a file and "fix this", you have
 no such sentence — and you cannot listen. This is how to get one.

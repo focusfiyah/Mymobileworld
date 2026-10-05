@@ -1,5 +1,15 @@
 # Registry discovery
 
+## Contents
+
+- Use the catalog command first
+- Read the registry manifest as a fallback
+- Reading an item's manifest
+- Item manifest fields
+- Available items
+  - Blocks
+  - Components
+
 <!-- registry-items: allow=data-composition-id,data-start,data-track-index -->
 
 ## Use the catalog command first

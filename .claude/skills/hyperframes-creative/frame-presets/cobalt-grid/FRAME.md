@@ -91,6 +91,32 @@ components:
 
 # Cobalt Grid — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Hero Cover (identity · move: serif + glitch · left)
+  - 2 · Index Ledger (catalog · move: dense matrix · left — the dense frame)
+  - 3 · Chapter Opener (section · move: scale · sparse · left)
+  - 4 · Data Frame (chart · move: pixel-stack · left)
+  - 5 · Manifesto / Quote (quote · move: centered statement · sparse)
+  - 6 · Colophon (closer · move: right-aligned close · sparse)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Cobalt Grid at frame scale is a **two-color risograph trend-report** — warm cream paper, electric

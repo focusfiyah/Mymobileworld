@@ -1,5 +1,16 @@
 # info, upgrade, compositions, timeline, docs, benchmark, telemetry, asset preprocessing
 
+## Contents
+
+- info
+- upgrade
+- timeline
+  - Query one-liners (jq, node fallback if jq is absent)
+- compositions, docs
+- benchmark
+- telemetry
+- Asset Preprocessing
+
 Catch-all reference for commands that don't fit the main dev loop.
 
 ## info

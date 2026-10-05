@@ -1,5 +1,27 @@
 # Creator Editing Recipes
 
+## Contents
+
+- Hard cut
+- Trim in/out
+- Split / splice
+- Duplicate / reuse same source
+- Reorder
+- Freeze / hold
+- Constant speed / slow motion
+- Zoom / punch
+- Pan / Ken Burns
+- Crop / reframe
+- Clip-path wipe / reveal / mask / split-screen
+- Crossfade
+- Volume fades / ducking
+- Audio alignment
+- Align a sound to an on-screen event
+- Copy a group of clips to another time
+- Add media (image, video, audio)
+- Swap a media file
+- Split a section and change its speed
+
 Use these copyable contracts after `tracks-and-clips.md`. Global math: **consumed source = timeline duration × rate**; **natural timeline duration = remaining source / rate**.
 
 Before any edit, run `npx hyperframes timeline` (add `--json` for a machine-readable list) to see the project's tracks and clips instead of reading the HTML.

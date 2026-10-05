@@ -7,6 +7,16 @@ metadata:
 
 # Dynamic Content Sequencing
 
+## Contents
+
+- How It Works
+- Recipe
+- Variations
+  - Accelerating cadence (geometric hold decay)
+- Values
+- Critical Constraints
+- See also
+
 A utility pattern (not a motion rule in itself) for scenes that show a SEQUENCE of items (cards, phrases, stats): each item's duration is computed from its content length + per-item config, and the sequencer assigns absolute start/end times automatically — no hardcoded offsets per item. Distinct from [discrete-text-sequence](discrete-text-sequence.md) (one text element changing states) — this rule swaps between distinct content blocks.
 
 ## How It Works

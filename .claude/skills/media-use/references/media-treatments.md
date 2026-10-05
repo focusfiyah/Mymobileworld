@@ -1,5 +1,13 @@
 # Media treatments
 
+## Contents
+
+- Permission and scope
+- Classify the request
+  - Translate vague feedback conservatively
+- Seed or assemble
+- Common workflow
+
 A media treatment is a source-aware plan that composes existing HyperFrames
 color, effect, timeline, and Registry primitives. It is not a second runtime
 schema. Use this file to choose a primary direction. A matching recipe is an

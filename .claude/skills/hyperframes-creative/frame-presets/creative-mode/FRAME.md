@@ -124,6 +124,32 @@ components:
 
 # Creative Mode — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+  - Frame Craft Bar
+- The Frame
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Wordmark Cover (identity · move: full-frame lockup · centered)
+  - 2 · Big Claim (oversized statement · move: scale · left)
+  - 3 · Stat Grid (catalog · move: density — the one dense frame · centered)
+  - 4 · Closing Plate (closer · move: ground-swap · centered)
+  - 5 · Featured Marker (callout · move: hard-shadow focal · left/asymmetric)
+  - 6 · Comparison Ledger (data · move: matrix · left)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Creative Mode at frame scale is a **neo-brutalist editorial poster in motion's clothing** — warm

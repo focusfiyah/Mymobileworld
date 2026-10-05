@@ -1,5 +1,11 @@
 # Keyframe Mechanism Reference
 
+## Contents
+
+- Runtime Skeletons
+- Mechanisms
+- Source Links
+
 Use this after `SKILL.md` when choosing a concrete implementation mechanism. It is a parts shelf, not a style guide. Start with one primary mechanism; add supporting motion only when it clarifies the idea.
 
 ## Runtime Skeletons

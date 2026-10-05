@@ -1,5 +1,15 @@
 # Easing, Stagger, and Function-Based Values
 
+## Contents
+
+- Easing
+- Easing Vocabulary (character & mood)
+- Defaults
+- Spring Eases (baked physics, seek-safe)
+- Stagger
+- Function-Based Values
+- gsap.matchMedia (preview only)
+
 ## Easing
 
 Built-in eases: `power1`, `power2`, `power3`, `power4`, `back`, `bounce`, `circ`, `elastic`, `expo`, `sine`, `none`.

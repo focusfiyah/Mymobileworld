@@ -1,5 +1,40 @@
 # Media treatment recipes
 
+## Contents
+
+- Natural Portrait
+  - Base payload
+  - Bounded tuning
+- Product Polish
+  - Base payload
+  - Bounded tuning
+- UI Fidelity
+- Film Memory
+  - Static pixel base
+  - Temporal character
+- Creator Camcorder
+  - Static pixel base
+  - Optional camera HUD
+  - Optional source-to-camera reveal
+- VHS Playback
+  - Pixel payload
+- 8mm Home Movie
+  - Pixel payload
+- Editorial Halftone
+  - Pixel payload
+- Two-Ink Editorial Print
+  - Pixel payload
+- Monochrome Screen Print
+- Engraved Illustration
+- Crosshatched Sketch
+- CRT Display
+- Procedural ASCII
+- Ordered Palette Dither
+- Cached Error Diffusion
+- Organic Light Leak
+- Freeze-Frame Cutout
+- Social Flash / Editorial Reveal
+
 These are optional tested seeds, not the complete capability surface. Read the
 shared policy and choose one relevant section through `media-treatments.md`.
 Agents may modify or combine a seed with compatible canonical controls after

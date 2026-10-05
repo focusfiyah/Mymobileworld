@@ -92,6 +92,32 @@ components:
 
 # Broadside — Frame (video / frame layer)
 
+## Contents
+
+- Overview
+- The Frame
+  - Frame Craft Bar
+- Colors
+- Typography
+- Depth & Surface
+- Shapes
+- Components
+- Frame Treatments
+  - 1 · Cover (identity · move: massive type · ORANGE register · left)
+  - 2 · Statement (declarative · move: type IS composition · DARK register · left)
+  - 3 · Stat Grid (data · move: top-border cards · DARK · the dense frame)
+  - 4 · Fadelist (narrative · move: opacity stack · DARK)
+  - 5 · Pull Quote (quote · move: oversized mark · DARK · left)
+  - 6 · Compare (argument · move: split + orange payoff · DARK→ORANGE)
+- Composition Rules
+  - Do
+  - Don't
+- Aspect-Ratio Behavior
+- Approved Entities
+- Numerals & Claims (hard rule)
+- Pre-Render Self-Audit
+- Known Gaps
+
 ## Overview
 
 Broadside at frame scale is a **protest-poster system where type is so large it stops reading as
