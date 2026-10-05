@@ -66,6 +66,14 @@ def check(job, stage="plan"):
         for m in re.finditer(pat, text, re.I):
             ctx = text[max(0, m.start() - 40):m.end() + 40].replace("\n", " ")
             errs.append(f"banned/AI phrase {pat!r}: ...{ctx}...")
+    if stage == "cut":   # NO text burned into videos unless Ralph asked (Ralph 2026-10-02/03, restated 2026-10-05)
+        ok = (c.get("text_overlay_ok") or {}).get("quote")
+        for f in sorted({*job.glob("*cut*.py"), *job.parent.glob("*cut*.py")}):
+            for i, line in enumerate(f.read_text(errors="ignore").splitlines(), 1):
+                s = line.strip()
+                if s.startswith(("#", "from ", "import ")): continue
+                if re.search(r"classic_png\(|drawtext=|subtitles=|ass=", s) and not ok:
+                    errs.append(f"text overlay in {f.name}:{i}: no text in videos unless Ralph asks (add checklist text_overlay_ok with his words): {s[:90]}")
     return errs
 
 

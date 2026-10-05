@@ -1,0 +1,16 @@
+submitted 6d71c96b81fb235da00d06f9e6a32793
+submitted e06a1fa0b2f808ac92acfa26bfad82de
+still S4b ok
+still S4a ok
+Traceback (most recent call last):
+  File "/home/user/Mymobileworld/ugc/base-labs/oil/kie.py", line 135, in <module>
+    {"stills": stills, "clips": clips}[cmd](ids)
+  File "/home/user/Mymobileworld/ugc/base-labs/oil/kie.py", line 97, in stills
+    sheet("stills", ".png")
+  File "/home/user/Mymobileworld/ugc/base-labs/oil/kie.py", line 116, in sheet
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: MAIN.index(p.stem)); Path("preview").mkdir(exist_ok=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Mymobileworld/ugc/base-labs/oil/kie.py", line 116, in <lambda>
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: MAIN.index(p.stem)); Path("preview").mkdir(exist_ok=True)
+                                                             ^^^^^^^^^^^^^^^^^^
+ValueError: 'S2_ui' is not in list

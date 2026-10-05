@@ -82,7 +82,7 @@ and ask questions, do not assume, because that's how we waste time and money."
   (1) tiktok-shop-coach: research + 3 hook options (Grace: start from `grace/hooks/HOOKS.md`, cite the id) (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
   what it shows (pace, cuts) before sending.
-- **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay.
+- **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay. `grace/gate.py --stage cut` blocks a cut script that draws text unless checklist.json has `text_overlay_ok` with Ralph's words.
 - **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
