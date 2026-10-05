@@ -562,6 +562,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: A recurring behavior defines the audience
 - Best for: Any category
 - Note: Behavior is usually stronger than vague labels like "busy women."
+- Used in: super-blanky-v2 (2026-10-05)
 
 **H067. "You either care about this detail or you really do not"**
 - Use when: The product has a feature that matters intensely to some buyers
@@ -574,6 +575,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: The product clearly fits a type of person
 - Best for: Gifts, Home, Beauty, Accessories
 - Note: Describe the person rather than saying "perfect gift."
+- Used in: super-blanky-v2 (2026-10-05)
 
 ## Recognition
 
@@ -760,6 +762,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: The product difference is easier to demonstrate than describe
 - Best for: Any demonstrable product
 - Note: Excellent 3.0 hook because visual proof leads.
+- Used in: super-blanky-v2 (2026-10-05)
 
 **H096. "This makes more sense if I show you"**
 - Use when: The benefit sounds abstract until demonstrated
