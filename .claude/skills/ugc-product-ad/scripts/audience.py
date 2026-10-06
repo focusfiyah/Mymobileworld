@@ -4,7 +4,7 @@
   python3 grace/audience.py <job_dir> "ingrown hair" "razor bumps" [--no-alpha]
 
 Expands each seed the way AnswerThePublic does (questions, prepositions, comparisons, A-Z) through the public
-autocomplete of Google, Bing, YouTube and Amazon, i.e. what real people type. Free, no login, fixed-arg HTTPS GETs only.
+autocomplete of Google, Bing, YouTube, Amazon and TikTok, i.e. what real people type. Free, no login, fixed-arg HTTPS GETs only.
 Writes <job_dir>/research/audience/: raw.json, questions.md (grouped, with how many sources agree) and sources.txt.
 Then YOU write <job_dir>/research/audience.md (Who / Pain point experience / Communication style / Questions they ask)
 from that data, quoting real phrases from raw.json; `grace/gate.py` checks the headings and that the quotes exist.
@@ -48,7 +48,12 @@ def amazon(q):
     except Exception: return []
 
 
-SOURCES = {"google": google, "bing": bing, "youtube": youtube, "amazon": amazon}
+def tiktok(q):
+    try: return [x["content"] for x in json.loads(get("https://www.tiktok.com/api/search/general/preview/?aid=1988&keyword=" + urllib.parse.quote(q))).get("sug_list", [])]
+    except Exception: return []
+
+
+SOURCES = {"google": google, "bing": bing, "youtube": youtube, "amazon": amazon, "tiktok": tiktok}
 
 
 def queries(seed, alpha=True):
