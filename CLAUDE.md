@@ -14,6 +14,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Ask before every paid generation, including redos and retries**, with the exact cost. A failed try is not
   permission for another one.
 - An unclear instruction gets one short question, not a guess.
+- **Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session (Ralph 2026-10-06, after I said TikTok comments were unreachable untested; a 10-second test showed they work).** Run one small real request first; report what the test returned; if I did not test, say "not tested" and test it or ask. Notes from earlier sessions are leads to re-test, not facts.
 - Free fixes first (ffmpeg/PIL blur, crop, retime) before any reroll.
 - Before the first paid image: confirm the real product (top, cap, label), the person's details (e.g. nail length)
   and which client it's for.
@@ -31,7 +32,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
 ## Rule 0: the SCRIPT GATE (Ralph, 2026-10-03, after FUSOU shipped without Humanizer: "everything means everything, I shouldn't have to ask")
-- Every job, on your own, before the plan goes to Ralph: run the WHOLE `grace/PLAYBOOK.md` §4 checklist (playbook rules, coach research
+- Every job, on your own, before the plan goes to Ralph: run the WHOLE `grace/PLAYBOOK.md` §4 checklist (audience research first: `grace/audience.py` question map + real quotes + `research/audience.md`, Ralph 2026-10-05; playbook rules, coach research
   tag/shop/discover + `video` on the top 3 shop videos, daily `viral` board, product facts, hooks modeled on named winners, `humanizer`, `readability`,
   source of every line) and save each as a proof file listed in the job's `checklist.json` (`python3 grace/gate.py <job> --init`).
 - `grace/gate.py` is called by EVERY paid runner (Kie, ElevenLabs) and refuses the call until all proofs exist and are newer than the script, and the
