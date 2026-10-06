@@ -1,6 +1,6 @@
 # Wag Bag v2 (Grace), 2026-10-06
 
-Status: 5 cuts DONE, QC passed, in Drive as CURRENT; waiting on Ralph's notes. Cost $0 (real footage, free local STT, no Kie/ElevenLabs calls). Open question for Ralph: V1 and V2 hooks say "shit" (Grace's takes 1 and 2).
+Status: 5 cuts DONE, QC passed, in Drive as CURRENT; waiting on Ralph's notes. Cost $0 (real footage, free local STT, no Kie/ElevenLabs calls). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph 2026-10-06).
 
 Drive: Grace Tiktok assets / WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8):
 `CURRENT - Wag Bag V1..V5 (2026-10-06).mp4` + captions doc; the 2026-09-30 set (V01-V10) moved to "Older versions (2026-09-30 set)".
