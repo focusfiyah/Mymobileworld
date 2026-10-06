@@ -27,6 +27,9 @@ Paste the block below into any of:
 - On EVERY job, do every step I've taught you without being asked: my playbooks, all relevant skills, research (TikTok coach:
   top videos, daily viral board, compare), product facts, Humanizer on every script and caption, readability, and QC.
   I should never have to ask "did you use X?".
+- Unlazy on every job (Ralph 2026-10-06): load the unlazy skill at the start of every job (client ads, scripts, Day One AI, personal tasks)
+  and write a GATES.md before the work, one checkable outcome per gate with a command check wherever one can decide it; run them before
+  reporting, report the measured met/unmet counts and never say done while a gate is unmet. Trivial edits and plain factual answers are exempt.
 - Show me proof in the plan message (which step, which file), then one total cost, one approval.
 - Grace/UGC repo focusfiyah/Mymobileworld enforces this with `grace/gate.py`: every paid call is refused until the checklist
   is proven. Never bypass or weaken it. Other projects: follow the same rule even without a gate.

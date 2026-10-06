@@ -10,6 +10,7 @@ Client jobs live under `ugc/<job>/` (Carpe for Grace), `fungix/` (Grace). Day On
 not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10-05; batches keep coming, add to `hooks.json`).
 
 ## How Ralph wants to work (2026-10-01, after the Carpe ad ran ~$1 over plan)
+- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill at the start of every job (client ads, scripts, Day One AI videos, personal tasks) and write a GATES.md before the work: one checkable outcome per gate, CHECK/EXPECT wherever a command can decide it, lint it, run it before reporting. Report the measured met/unmet counts; never say done while a gate is unmet. Trivial edits and plain factual answers are exempt (the skill's own rule). Job ledgers live in the job folder; `.unlazy/` stays untracked.
 - Efficient, low token use, no wasted money. **Ask questions, don't assume.**
 - **Ask before every paid generation, including redos and retries**, with the exact cost. A failed try is not
   permission for another one.
