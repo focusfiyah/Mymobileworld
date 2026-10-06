@@ -15,6 +15,8 @@ Data: `audience/questions.md` + `audience/raw.json` (2,486 distinct phrases from
 5. **The loop and the season:** "Summer is almost here and my bikini line ingrown hairs problem is back again." "just wish i figured this routine out earlier."
 6. **What they ask (top, 3 sources agree):** why do ingrown hairs happen, how to get rid of razor bumps, do they go away, do they hurt, what causes razor bumps, how razor bumps are formed, ingrown hair vs cyst.
 
+7. **TikTok comments on the researched videos (53 of 81 reachable, `audience/comments.md`):** few and short, but the real ones are buyer questions about the experience and the order of use: "Do you save before using? And does it burn?" "so the first you use before the shower?" "How did you open it?" The only proof comment is peer-style: "YESSS these work so good". Takeaways: say what order to use it in (clean, dry skin, after the shower), show the lid opening, and answer "does it burn" only with what the brand says (no non-irritating claim).
+
 ## Communication style
 - **Explain WHY before selling.** The top questions are "why/what causes/how formed", and the praised answer explains a mechanism: "It works because it has two mechanisms of exfoliation". Plain-word cause first (dead skin and buildup over the hair), then the product doing that job.
 - **Peer voice, not expert.** They trade routines like friends ("survival list", "what actually works", "this changed my life"). Grace speaks as the friend passing it on.
