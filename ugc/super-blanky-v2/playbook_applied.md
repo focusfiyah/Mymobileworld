@@ -5,3 +5,4 @@
 - §4: hook > pain > solution > real urgency CTA; coach data from top shop sellers + `video` on 6; CTA sells more units (two places / two people).
 - §5: ~100-115 words each, ~32-36 s at 3.2 words/s.
 - 2026-10-02 lesson: cancer angle = comfort-gift framing only.
+- v3 (new process, 2026-10-05): audience research first (grace/audience.py question map + 259 TikTok comments + store reviews, research/audience.md), structure follows the buyer questions, library hooks word for word, no "reviewer(s)", no "the label says", confession is brag-style, CTA sells more units, no text overlay, no price, no health claims. Reddit (blocked) and Exa (rate limited) tested this session.
