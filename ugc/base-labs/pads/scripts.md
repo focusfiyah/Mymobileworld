@@ -1,45 +1,46 @@
-# Base Laboratories Ingrown Hair Pads (AHA + BHA): 3 script options for Grace (2026-10-04)
-Grace records the voiceover herself. Structure: curiosity hook, pain, solution, how to use, honest sell-side line, real seasonal urgency CTA. All three options use the SAME six beats so ONE video fits any of them.
+# Base Laboratories Ingrown Hair Pads (AHA + BHA, 42 pads): scripts v3 (2026-10-05), rewritten after Grace rejected v2
+Grace records the voiceover herself. v3 drops the fixed hook/pain/solution/confession/CTA template: each script explains WHY the problem happens before it sells, uses the hook library's use_when/note to pick the hook, and closes calm with a real season. No sell-side confession, no gift lines. Text overlay is optional, only on Ralph's yes. v1 and v2 stay in git history.
 
-## Option A: Category gap + features (Grace style 1)
-On-screen hook text (frame 0): "step after shaving"  |  Modeled on: Grace hook style 1 (Shnuggle) + @alexasimoneee 29k pads jar demo
+## Option A: Contrarian: maybe it is not your razor (mechanism-led) (hook H077)
+Optional on-screen text (only if Ralph says yes): "not the razor"  |  Modeled on: H077 (use_when: obvious explanation is not the whole story; needs a credible alternative = dead skin over the follicle) + @katmademebuyit 195k (follicle trapped, exfoliate)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | I've seen a lot of after shave products, but never pads made for ingrown hairs until now. |
-| pain | You shave, and by the next day there are bumps along your bikini line. |
-| solution | These pads have AHA and BHA, so they help clear pores and smooth your skin. |
-| how to use | Just swipe one in one direction and let it dry. No rinsing. |
-| features + confession | Forty-two pads, and they work on underarms and legs too. The only problem? Now the razor can't take the blame. |
-| urgency CTA | Holiday dress season is coming, so don't put this off. Grab one for you and one for your sister. It's in the orange cart. |
+| 1 | Maybe the problem is not your razor. |
+| 2 | Change blades, shave slower, switch soap, and the bumps still come back. |
+| 3 | Dead skin and buildup around the hair can keep it from growing out, so it gets stuck underneath. |
+| 4 | These AHA and BHA pads lift that dead skin and help keep your pores clear. |
+| 5 | Swipe one over clean, dry skin at night, one direction, and let it dry. |
+| 6 | Forty-two in the jar, so you can use them every day for a while. |
+| 7 | Party season is coming, so I'd start before it gets here. They're in the orange cart. |
 
-102 words, about 31s at 3.3 words/s.
+96 words, about 29s at 3.3 words/s (picture is 29s).
 
-## Option B: Curiosity loop: why bumps show up two days later
-On-screen hook text (frame 0): "the step everyone skips"  |  Modeled on: @jazmeencaldwell 41k ('two days after shaving') + @katmademebuyit 195k (exfoliate after the shower)
+## Option B: Recognizable moment: the mirror check (pain, then why) (hook H062)
+Optional on-screen text (only if Ralph says yes): "the mirror check"  |  Modeled on: H062 (use_when: very recognizable little situation; finish with a concrete moment) + @jazmeencaldwell 41k (clogged pores as the reason, plain how-to)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | Why do bumps show up two days after you shave? Here's the part most people skip. |
-| pain | Dead skin and clogged pores can trap hairs under your skin. |
-| solution | That's what these AHA and BHA pads are for. They lift dead skin and help keep pores clear. |
-| how to use | Swipe one over clean, dry skin at night, in one direction, and let it dry. |
-| features + confession | There are forty-two in the jar. The only problem? Now there's no excuse to skip it. |
-| urgency CTA | It's party season, so don't put this off. Grab a jar for you and one to gift. It's in the orange cart. |
+| 1 | You know that moment when you put on something sleeveless and check your underarms in the mirror first? |
+| 2 | A lot of the time it's dead skin and clogged pores sitting right over the hair. |
+| 3 | AHA and BHA pads lift that dead skin and help keep pores clear, so there's less in the way. |
+| 4 | Swipe one over clean, dry skin at night and let it dry. No rinsing. |
+| 5 | Forty-two pads is a lot of nights covered. |
+| 6 | Sleeveless weather is months away, which is why now is the quiet time to start. They're in the orange cart. |
 
-98 words, about 30s at 3.3 words/s.
+95 words, about 29s at 3.3 words/s (picture is 29s).
 
-## Option C: Routine: razor is step one, pad is step two
-On-screen hook text (frame 0): "step two"  |  Modeled on: @joshyydeals 24k ('razor will do this' pattern) + @tiktokshopdeals4you 1.6M (one action per cut)
+## Option C: One detail: it has both AHA and BHA (hook H101)
+Optional on-screen text (only if Ralph says yes): "one detail changes it"  |  Modeled on: H101 (use_when: one feature changes the appeal; reveal fast) + @katmademebuyit 195k (AHA and BHA work together)
 
-| Beat | Line |
+| Line | Spoken |
 |---|---|
-| hook | Shaving is step one. Here's step two. |
-| pain | Does your skin get red and bumpy after you shave? Then step two is for you. |
-| solution | These pads have glycolic, lactic and salicylic acid, plus witch hazel to help calm redness. |
-| how to use | Swipe once, one direction, and let it dry. That's the whole step. |
-| features + confession | Forty-two pads, so every shave day has a plan. The only problem? Now I have no excuse to skip it. |
-| urgency CTA | Dress season is here, so don't put this off. Grab a couple jars, one for home and one for your gym bag. It's in the orange cart. |
+| 1 | There is one detail here that changes the whole thing. |
+| 2 | It has both AHA and BHA. |
+| 3 | AHA works on the dead skin sitting on top. BHA is for the pore underneath. Between the two, there's less to trap a hair. |
+| 4 | Witch hazel is in there too, to help calm redness. |
+| 5 | Swipe once, one direction, and let it dry. That's the whole step. |
+| 6 | Forty-two pads in the jar, so it can be part of every shave day. |
+| 7 | If dress season is on your list, start now. They're in the orange cart. |
 
-97 words, about 29s at 3.3 words/s.
-
+90 words, about 27s at 3.3 words/s (picture is 29s).

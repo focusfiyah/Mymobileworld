@@ -1,15 +1,8 @@
-# Hooks: 3 per video, spoken + on-screen text, each modeled on a named winner (2026-10-04)
-## Pads
-| # | Spoken | On-screen (curiosity, no product name) | Modeled on |
-|---|---|---|---|
-| A | I've seen a lot of after shave products, but never pads made for ingrown hairs until now. | step after shaving | Grace category-gap hook (PLAYBOOK §3) + @alexasimoneee 29k pads demo |
-| B | Why do bumps show up two days after you shave? Here's the part most people skip. | the step everyone skips | @jazmeencaldwell 41k 'two days after shaving' + @katmademebuyit 195k |
-| C | Shaving is step one. Here's step two. | step two | @joshyydeals 24k razor pattern + @tiktokshopdeals4you 1.6M one-action cuts |
-## Oil
-| # | Spoken | On-screen | Modeled on |
-|---|---|---|---|
-| A | I've seen lots of body oils, but never one made for ingrown hairs until now. | oil for ingrown hairs? | Grace category-gap hook + @healinghonei 1.3k bottle demo |
-| B | If your skin gets itchy and bumpy after you shave, you want to see this little bottle. | your skin after shaving | @jazmeencaldwell 41k call-out |
-| C | Shave. Then a few drops. Watch this. | shave, then this | @joshyydeals 24k pattern + routine |
-Avoid: 'game changer', 'you need this' (katmademebuyit said it), 'on sale', 'run' (fake urgency).
-Video frame 0 (all options): hand sets a razor down and the real product enters frame, so the first second works with the sound off.
+# Hooks v3 (2026-10-05): picked from the library's use_when/note, word for word; text only on Ralph's yes
+| # | Id | Template | Spoken | Why it fits (use_when / note) |
+|---|---|---|---|---|
+| A | H066 | see HOOKS.md | This is such a specific problem, but if you have it, you know. | H066 (use_when: pain point is narrow but meaningful) + @jazmeencaldwell 41k (reason first) + listing wording (softens coarse hair) |
+| B | H065 | see HOOKS.md | Does anybody else get itchy bumps in the same spot every time they shave? | H065 + @jazmeencaldwell 41k (out of the shower, clean dry skin, absorb) + @katmademebuyit 195k |
+| C | H131 | see HOOKS.md | Before the season changes, look at this. | H131 (use_when: seasonal anticipation; explain how the product supports the transition) + @tiktokshopdeals4you 1.6M (one action per cut) |
+
+Grace rejected v1 and v2 (fixed hook/pain/solution/confession/CTA template, gift lines, 'only problem' confessions). v3 = explain WHY first (what winners do: @katmademebuyit follicle trapped, @jazmeencaldwell clogged pores, @itss.karla14 plain directions), hook chosen by use_when, no confession, no gift, calm real-season close, count line ('forty-two in the jar') kept for units. Fresh data in viral2/ and videos2b/ (2026-10-05).

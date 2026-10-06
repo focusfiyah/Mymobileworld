@@ -1,0 +1,5 @@
+# ELASCO Melt Off Makeup Remover (Grace), 2026-10-05
+Status: DONE ($0). 3 new talking-head scripts (Not your skin H077, Watch it melt H094, After the party H062), each with 2 more library hooks, gate OK, readability 3.4-4.2. Drive: Grace Tiktok assets/"ELASCO Melt Off (Grace)" https://drive.google.com/drive/folders/1PvMgXdaVj0Zw7wY407DvM23i_5ahmZtv with "CURRENT - ELASCO Melt Off scripts v3 (2026-10-05)". Waiting on Ralph's review.
+Category: skincare-style rinse-off remover = Beauty hooks. Elasco is not in TikTok Shop search (shop "elasco" empty) and has no TikTok videos, so angles are modeled on the remover/cleansing niche; brand page is the only product source. Open: TikTok Shop listing bundle/size, brand partner tag.
+Earlier set (2026-10-02, sensitive eyes / mascara test / sleep in makeup) is inside the Drive doc "Grace scripts - Bobbi Brown, Elasco, Shnuggle (2026-10-02)" (left in place, it also holds other products).
+Files: scripts.md, spoken/, hooks.md, line_sources.md, product_facts.md, humanizer.md, readability.txt, playbook_applied.md, checklist.json, research/.

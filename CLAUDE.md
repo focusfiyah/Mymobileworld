@@ -14,6 +14,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Ask before every paid generation, including redos and retries**, with the exact cost. A failed try is not
   permission for another one.
 - An unclear instruction gets one short question, not a guess.
+- **Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session (Ralph 2026-10-06, after I said TikTok comments were unreachable untested; a 10-second test showed they work).** Run one small real request first; report what the test returned; if I did not test, say "not tested" and test it or ask. Notes from earlier sessions are leads to re-test, not facts.
 - Free fixes first (ffmpeg/PIL blur, crop, retime) before any reroll.
 - Before the first paid image: confirm the real product (top, cap, label), the person's details (e.g. nail length)
   and which client it's for.
@@ -31,7 +32,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
 ## Rule 0: the SCRIPT GATE (Ralph, 2026-10-03, after FUSOU shipped without Humanizer: "everything means everything, I shouldn't have to ask")
-- Every job, on your own, before the plan goes to Ralph: run the WHOLE `grace/PLAYBOOK.md` §4 checklist (playbook rules, coach research
+- Every job, on your own, before the plan goes to Ralph: run the WHOLE `grace/PLAYBOOK.md` §4 checklist (audience research first: `grace/audience.py` question map + real quotes + `research/audience.md`, Ralph 2026-10-05; playbook rules, coach research
   tag/shop/discover + `video` on the top 3 shop videos, daily `viral` board, product facts, hooks modeled on named winners, `humanizer`, `readability`,
   source of every line) and save each as a proof file listed in the job's `checklist.json` (`python3 grace/gate.py <job> --init`).
 - `grace/gate.py` is called by EVERY paid runner (Kie, ElevenLabs) and refuses the call until all proofs exist and are newer than the script, and the
@@ -96,10 +97,12 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 
 - **Base Laboratories Ingrown Hair Pads + Oil (Grace), 2026-10-04/05:** one silent hands-only AI video per product (Grace records VO), 3 script options each on a shared 6-beat grid, `ugc/base-labs/{pads,oil}/`. Rev 2 (Grace): underarm + leg instead of forearm; hook text removed (Ralph 2026-10-05). pads 29.2s / oil 31.2s, in Drive (Grace Tiktok assets/Base Laboratories pads + oil ads (2026-10-04), folder 1bumoJ0pTLyPnfDB2DT0P6gM-6IAK-B_P, older versions in 'Older versions (do not post)'); scripts doc 1-ebEfmtZh2LxytSVGoBKnVjOZI9f4YWkCJnfxEUJUnQ. $5.867 Kie vs $3.46 quote. Open vs rule 6: real-packshot pop-up on the label shot + the two steam clips shared by both videos (raised with Ralph 2026-10-05). Handoff: `handoff/NEXT_SESSION_base-labs.md`. README Status line.
 
-- **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). REBUILT on the real bedroom wide (bed, rug, doors) from approved Drive Video 2, all free, updated in Drive in place; Drive folder organized (superseded Video 1 + Video 3 originals in Older versions). Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section).
+- **FUSOU V3 new script (Grace), 2026-10-04:** "ONE piece of furniture" script, two cuts (A, B) on one Grace B voiceover, small pointing hand + 3D dolly via Kling (Ralph's account, MCP). REBUILT on the real bedroom wide (bed, rug, doors) from approved Drive Video 2, all free, updated in Drive in place; Drive folder organized (superseded Video 1 + Video 3 originals in Older versions). Kie $0.254, Kling 128 credits, ElevenLabs 665 chars. `ugc/fusou-vanity/v3ab/README.md`. Scripts doc updated (new Video 3 section). 2026-10-05 MOTION REDO (Grace: 'still pictures, more 3D'): every shot a moving 3D clip (7 Seedance clips $1.435), library hooks A H095 / B H126, APPROVED, Drive 3A/3B + doc replaced in place; `v3ab/README.md`.
 - **LGXNDS Creatine (Grace), 2026-10-04:** hands-only AI ad, 31s, 9 clips matched line by line, real label pasted back (`label.py`). Cut v3 (v2's sharper real label + real-packshot push-in, text overlay removed on Ralph's word) is the final, in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) with the script doc, v1 and v2 removed (2026-10-05); $2.573 Kie vs $2.57 quote. README Status line.
 
 - **Super Blanky v2 scripts (Grace), 2026-10-05:** 3 talking-head scripts from the hook library, gate OK, $0, Drive folder Grace Tiktok assets/"Super Blanky wearable blanket scripts (Grace)" (1O8UJSW3oE7JCEoOC4zbxg0MNgcQukQAx): CURRENT v2 doc on top, v1 in Older versions. `ugc/super-blanky-v2/README.md`.
+
+- **ELASCO Melt Off v3 (Grace), 2026-10-05:** 3 new scripts from the hook library (H077, H094, H062) + 2 alt hooks each, category research, gate OK, $0, Drive folder Grace Tiktok assets/"ELASCO Melt Off (Grace)" (1PvMgXdaVj0Zw7wY407DvM23i_5ahmZtv). `ugc/elasco-melt-off/README.md`.
 
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
@@ -108,6 +111,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   (2026-10-02)" (id 1G7k7zJMwuGc0va2Qc7UHfJFszyIwmYd13b3PS-RXiRU). Drive copy doesn't sync: re-upload after edits.
 
 - **Supplement pack (Grace), 2026-10-04:** hands-only AI ads, 5 per product (V1 + 4 hook/VO variants on the same footage), <=16s: Youtheory Ashwagandha Liquid, Youtheory Total Body Turmeric, Neuro Sour Mints, Penetrex roll-on. `ugc/youtheory-ashwagandha/`, `ugc/youtheory-turmeric/`, `ugc/neuro-sour-mints/`, `ugc/penetrex-gel/`. REDONE same day on Ralph's notes (no text, no cards, every video different): 15 finals (4 each, Turmeric 3) remixed free from existing footage (`remix.py` + `remix.json`, grades all bright: daylight/clean neutral/bright cool/bright punchy, no dark or yellow looks), in Drive: Grace Tiktok assets/<product> ads (2026-10-04)/FINAL - post these (+ captions doc), old cuts in 'Old versions - do not use'. Kie $4.90 then; Ashwagandha v2 (Grace's notes: real pouch + box, straw, pills, 12, Grace-B VO of adult-juice-box scripts) +$1.75, job total Kie $6.65. README Status lines.
+
+- **Jean Rameau (client #2, multi-service), 2026-10-05:** own repo focusfiyah/jean-rameau (Ralph asked for a separate repo). First service Diaspo Auto School (Brooklyn): opt-in lead funnel + ElevenLabs AI caller that vets and books, scraped referral partners. TCPA: AI calls only consented leads. Read that repo's README + PLAN.md.
 
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
