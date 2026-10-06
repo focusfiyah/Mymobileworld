@@ -34,8 +34,8 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
 - [x] G6: the 5 fixed videos replace the CURRENT files in Drive (sizes match), previous set renamed v2 in Older versions
   EVIDENCE: Composio 2026-10-06 20:39Z: CURRENT V1-V5 ids 130Y6zxf.., 11m7D03o.., 1N6yUptR.., 181GYySG.., 1sSuNb8d..; Drive sizes 51861104/49165005/50883055/53528766/57685102 = qc/hosted_r3.json; old CURRENT renamed 'v2 3D emoji, jump+audio issues' and moved to Older versions
 
-- [ ] G7: job README, CLAUDE.md, playbook lesson committed and pushed
+- [x] G7: job README, CLAUDE.md, playbook lesson committed and pushed
   CHECK: test -z "$(git status --porcelain)" && git fetch -q origin ccr-a0dae179-slh3lv && git diff --quiet HEAD origin/ccr-a0dae179-slh3lv && echo pushed-clean
   EXPECT: pushed-clean
   CWD: .
-  EVIDENCE: pending
+  EVIDENCE: automatic-evidence=v1; definition-sha256=73011179d59a02d369e8229f6dc2ca6f424a1163ed7c82a227c0ceb900296129; exit=0; EXPECT=matched; output-sha256=83fbb1afbfd2f27ded0367f10e41f60cbf06ee268604acd75d5093cf7047e84a; output-bytes=13; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
