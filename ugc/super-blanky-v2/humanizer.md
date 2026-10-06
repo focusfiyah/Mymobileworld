@@ -9,3 +9,4 @@ Tells found and fixed in the first v3 draft:
 - No dashes, no bold labels beyond HOOK/BODY/CTA, no staged openers.
 - The word "reviewer(s)" is absent. Buyer talk is "people say" and "people ask".
 Kept on purpose: demo beats "Stand up, still on. Grab a snack, still on." (show-and-say).
+Re-checked 2026-10-05 after removing the pink-color lines from Script 3 (Grace has no pink blanket): no new tells, no added claims.

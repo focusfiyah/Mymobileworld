@@ -58,9 +58,9 @@ Caption: The blanket that stays on when you stand up. #ad #superblanky #wearable
 
 ## Script 3: A warm gift for mom
 
-Hook H056 (Gift). Comfort gift only, no health claims. October is Breast Cancer Awareness Month, so use Cloud Pink or Hot Pink if you have it. Warm and calm delivery. Comments back it: "Perfect Christmas gift".
+Hook H056 (Gift). Comfort gift only, no health claims. October is Breast Cancer Awareness Month. Use the blanket Grace has. Warm and calm delivery. Comments back it: "Perfect Christmas gift".
 
-**HOOK** [to camera, pink blanket folded in your arms]
+**HOOK** [to camera, blanket folded in your arms]
 
 "This immediately made me think of my mom."
 
@@ -68,9 +68,9 @@ Hook H056 (Gift). Comfort gift only, no health claims. October is Breast Cancer 
 
 "A regular blanket slips every time she reaches for her phone or a cup of tea. This is Super Blanky. It has pockets inside for her arms, so it stays on her shoulders and her hands stay free."
 
-[hold up the fleece, then show the pink colors]
+[hold up the fleece]
 
-"Nothing goes over her head. It's soft fleece and it goes right in the washer. It comes in Cloud Pink and Hot Pink too. Fair warning, she may never give it back."
+"Nothing goes over her head. It's soft fleece and it goes right in the washer. Fair warning, she may never give it back."
 
 **CTA**
 
