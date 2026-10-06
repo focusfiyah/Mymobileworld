@@ -1,0 +1,55 @@
+{
+ "job": "wag-bag-v2",
+ "client": "Grace",
+ "date": "2026-10-06",
+ "route": "real footage edit (Grace's own takes), $0, no paid generation",
+ "scripts": [],
+ "note": "No paid runner is called in this job, so grace/gate.py (paid-call gate) never runs. Script = Grace's recorded words, used verbatim on Ralph's word.",
+ "client_script_verbatim": {
+  "by": "Ralph",
+  "date": "2026-10-06",
+  "quote": "Part one is the hook, part two is the first body, part 3 is the one you already have ... and part 4 you have too"
+ },
+ "text_overlay_ok": {
+  "by": "Ralph",
+  "date": "2026-10-06",
+  "quote": "Pls also add emojis or images for the first clip. Add images of \"food\", \"water\" and \"poop emoji with question mark\"",
+  "scope": "emoji pops on the hook only, no text"
+ },
+ "playbook": {
+  "proof": [
+   "README.md"
+  ],
+  "done": "house rules checked on Grace's lines: no price, no 'order it now', close = orange cart (all 5), CTA sells more units ('grab a few boxes')"
+ },
+ "product_facts": {
+  "proof": [
+   "README.md"
+  ],
+  "done": "NASA claim verified: spinoff.nasa.gov/node/11511 (polymer from Johnson Space Center, Cleanwaste Wag Bag)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/tag-wagbag.json",
+   "research/tag-emergencytoilet.json"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "README.md"
+  ],
+  "done": "partial: video pages fail this session (4/4 tested), metadata + own pacing only"
+ },
+ "humanizer": {
+  "proof": [
+   "captions.md"
+  ]
+ },
+ "qc": {
+  "proof": [
+   "qc/hooks.png",
+   "qc/sheets_all.png",
+   "qc/first2s_v1_v4.png"
+  ]
+ }
+}
