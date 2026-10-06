@@ -149,3 +149,5 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   Auto-written by triggers trig_01L7VTpGnzFjf2GnBeJgCdXb (daily 8:52pm ET) and trig_01WYmbt7urUsP5ALx1t6bSFE
   (Sunday 9:10pm ET), both bound to session_013SnHUp72Ux9iD1NpyvUKTe; steps in `reports/ROUTINE.md`.
   Archiving that session stops them. Reports are pushed straight to main (Ralph, 2026-10-01).
+
+- **unlazy skill (Ralph, 2026-10-06):** github.com/Leonxlnx/unlazy @ 1667149 (v2.1.0, MIT) at `.claude/skills/unlazy/` (both repos). Use it on EVERY multi-step job, everywhere: write GATES.md (testable gates) before real work, re-run and report met/unmet before saying done; skip only trivial edits. SkillSpector 100/100 CRITICAL = documented hook installer/approvals, manual review clean → CAUTION. Its Stop hook is NOT installed (needs Ralph's consent); CHECK lines run only after approval. `handoff/unlazy-skill.zip`.
