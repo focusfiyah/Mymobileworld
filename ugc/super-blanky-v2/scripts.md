@@ -58,7 +58,7 @@ Caption: The blanket that stays on when you stand up. #ad #superblanky #wearable
 
 ## Script 3: A warm gift for mom
 
-Hook H056 (Gift). Comfort gift only, no health claims. October is Breast Cancer Awareness Month. Use the blanket Grace has. Warm and calm delivery. Comments back it: "Perfect Christmas gift".
+Hook H056 (Gift). Comfort gift only, no health claims. October is Breast Cancer Awareness Month. Grace's blanket is royal blue (more royal than navy): use that one and say nothing about its color. Warm and calm delivery. Comments back it: "Perfect Christmas gift".
 
 **HOOK** [to camera, blanket folded in your arms]
 
