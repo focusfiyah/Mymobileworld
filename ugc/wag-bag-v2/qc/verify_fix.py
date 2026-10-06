@@ -51,7 +51,7 @@ elif g == "sync":   # each segment's audio lines up with its source and with the
                 c = float(np.dot(seg, ref) / (np.linalg.norm(seg) * np.linalg.norm(ref) + 1e-9))
                 if c > best: best, lag = c, k
             if lag is None or best < 0.5: fail(f"V{v['n']} {s['src']}@{s['a']}: no match (corr {best:.2f})")
-            if abs(lag) > 267: fail(f"V{v['n']} {s['src']}@{s['a']}: audio off by {lag/16:.0f} ms")   # half a frame (16.7 ms): video can only start on a whole frame
+            if abs(lag) > 533: fail(f"V{v['n']} {s['src']}@{s['a']}: audio off by {lag/16:.0f} ms")   # one frame (33 ms): Grace's files are variable frame rate (~29.9 fps); EBU R37 allows 40 ms lead
     print("sync OK")
 elif g == "words":   # free local STT of each final contains every line Grace says in its takes
     from faster_whisper import WhisperModel

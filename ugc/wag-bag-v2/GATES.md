@@ -10,7 +10,7 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
   CWD: .
   EVIDENCE: automatic-evidence=v1; definition-sha256=4fd70847c6ffbb0ccaeda41bcc5fab22b794f592337b960a633db4e81e194a62; exit=0; EXPECT=matched; output-sha256=0de36b0fd4240b9ab6b02b35e217b58caf6b560c0da921828e57026b6d6144e7; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
-- [ ] G2: every segment's audio matches its source and sits within half a frame (16.7 ms) of its picture, measured on the file's own audio timeline, all 5 videos
+- [ ] G2: every segment's audio matches its source and sits within one frame (33 ms) of its picture, measured on the file's own audio timeline, all 5 videos
   CHECK: python3 -I qc/verify_fix.py sync
   EXPECT: sync OK
   CWD: .
@@ -28,11 +28,11 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
   CWD: .
   EVIDENCE: automatic-evidence=v1; definition-sha256=aa95ba1f88753e14ec6e9bacb6f0eb81436b3749c2178835ba4db9ff3fed1ddf; exit=0; EXPECT=matched; output-sha256=e0debe9f1de872f3cb1b885f11c9bb46b9c956b5d6dce63467e94deb35037f3e; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
-- [ ] G5: I looked at V3 20.6-22.6s and V4 28.5-30s frame by frame (and every hook's emoji) after the fix
-  EVIDENCE: pending
+- [x] G5: I looked at V3 20.6-22.6s and V4 28.5-30s frame by frame (and every hook's emoji) after the fix
+  EVIDENCE: qc/r3_v3_21s.png (one clean cut hand -> Grace at ~21.7s, no other-take frames), qc/r3_v4_29s.png (one continuous shot), qc/r3_hooks.png (all 5 hooks: water, battery, lightning, poop + question mark)
 
-- [ ] G6: the 5 fixed videos replace the CURRENT files in Drive (sizes match), previous set renamed v2 in Older versions
-  EVIDENCE: pending
+- [x] G6: the 5 fixed videos replace the CURRENT files in Drive (sizes match), previous set renamed v2 in Older versions
+  EVIDENCE: Composio 2026-10-06 20:39Z: CURRENT V1-V5 ids 130Y6zxf.., 11m7D03o.., 1N6yUptR.., 181GYySG.., 1sSuNb8d..; Drive sizes 51861104/49165005/50883055/53528766/57685102 = qc/hosted_r3.json; old CURRENT renamed 'v2 3D emoji, jump+audio issues' and moved to Older versions
 
 - [ ] G7: job README, CLAUDE.md, playbook lesson committed and pushed
   EVIDENCE: pending

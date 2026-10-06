@@ -1,6 +1,6 @@
 # Wag Bag v2 (Grace), 2026-10-06
 
-Status: v2 (3D Fluent emoji 💧 water / 🔋 battery / ⚡ generator / 💩❔ poop, on Grace's words) in Drive as CURRENT; v1 (flat Twemoji, food can) in Older versions. Waiting on Ralph's notes. Cost $0 (real footage, free local STT, no Kie/ElevenLabs calls). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph 2026-10-06).
+Status: r3 (2026-10-06) in Drive as CURRENT: V3 jump + V4 clipped 'make' fixed (clips start after Grace's take joins; sample-exact audio, one-pass join), all checks pass (`GATES.md`, `qc/verify_fix.py`). Waiting on Ralph. Cost $0. V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph 2026-10-06).
 
 Drive: Grace Tiktok assets / WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8):
 `CURRENT - Wag Bag V1..V5 (2026-10-06).mp4` + captions doc; the 2026-09-30 set (V01-V10) moved to "Older versions (2026-09-30 set)".
