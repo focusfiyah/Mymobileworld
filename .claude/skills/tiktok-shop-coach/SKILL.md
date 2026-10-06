@@ -57,6 +57,7 @@ python3 $S shop <keyword> --top 20 --out <scratch>/tt    # TikTok Shop products:
   videos is newer or rising; a huge count can be years of sales.
 - Not possible headless (tested 2026-10-01): tiktok.com search (login), a profile's video list (empty body), product
   detail pages (captcha). For a specific creator, ask for the video links.
+  Re-tested 2026-10-06 with plain HTTPS: comments (`https://www.tiktok.com/api/comment/list/?aweme_id=<id>&count=20&cursor=0&aid=1988`, only the first few, no login) and search suggestions (`/api/search/general/preview/?keyword=<q>&aid=1988`) DO work; search results, post lists and related videos return empty bodies; product pages show a captcha.
 - The script imports every proxy CA into Chromium's trust store itself. Before that fix, pages failed at random with
   `ERR_CERT_AUTHORITY_INVALID`. If that error still shows up, run `bash setup.sh` in the Dayone-ai repo.
 - No browser available (e.g. the claude.ai chat app)? Ask the user to paste the caption/transcript and screenshots of

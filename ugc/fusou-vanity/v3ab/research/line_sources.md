@@ -8,3 +8,8 @@
 | ships in three boxes ... before the holidays ... wouldn't wait | Grace; real urgency (3 boxes + holidays), no false scarcity |
 | It's in the orange cart. | PLAYBOOK usual close |
 Structure: hook > pain > solution (one line per feature, one cut each, @teddyandhudson format) > urgency > close. Honest-caveat beat: none in Grace's script (house rule: honest lines sell, never un-sell).
+
+
+## Re-check 2026-10-05 (motion redo, script unchanged since commit of 2026-10-04 04:46; same Grace B voiceover vo/vA_final.wav): every line's source re-checked against scripts.md; unchanged.
+
+## 2026-10-05: line 1 now = Grace hook library H095 (A) / H126 (B), word for word (grace/hooks/HOOKS.md, branch ccr-581b2714-hkmrdg) + Grace's "All of this is ONE piece of furniture." Lines 2-10 unchanged (Grace's script).

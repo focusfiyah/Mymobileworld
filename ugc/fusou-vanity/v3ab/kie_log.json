@@ -52,5 +52,187 @@
    ]
   },
   "costTime": 122
+ },
+ {
+  "t": "2026-10-05 19:57:38",
+  "submitted": "eab141d2d6749f1f2df821a92f4c3264",
+  "prompt": "The camera glides on a slow curved arc to the left around the vanity while moving forward toward it, about fifteen degre"
+ },
+ {
+  "t": "2026-10-05 19:59:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera glides on a slow curved arc to the left around the vanity while moving forward toward it, about fifteen degrees of orbit, the rug and the bed edge in the foreground sliding past faster than the vanity. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230256713-l3of8wnxckd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "eab141d2d6749f1f2df821a92f4c3264",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230385994-43b60ox1mkd.mp4"
+   ]
+  },
+  "costTime": 128
+ },
+ {
+  "t": "2026-10-05 20:04:16",
+  "submitted": "ecff41e23915506373c5de09fc7ddd00",
+  "prompt": "The camera cranes up and pulls back slowly from the rug to show the whole bedroom with the vanity, the floor and rug rec"
+ },
+ {
+  "t": "2026-10-05 20:04:17",
+  "submitted": "a373b0e1a5aed1722c2a725509162b85",
+  "prompt": "The camera orbits slowly to the right around the corner of the vanity, keeping the open drawers and the stool in the cen"
+ },
+ {
+  "t": "2026-10-05 20:04:17",
+  "submitted": "46b867c0961c2eeb1658f4e5e77ee847",
+  "prompt": "The camera cranes smoothly DOWN from the lit makeup mirror to the stool and lower drawers, staying centred on the vanity"
+ },
+ {
+  "t": "2026-10-05 20:04:17",
+  "submitted": "c31c49408dcfa3677f9012144ec9a8b3",
+  "prompt": "The camera trucks low and slowly to the left past the tall full-length mirror, close to the floor, the rug in front slid"
+ },
+ {
+  "t": "2026-10-05 20:04:17",
+  "submitted": "5cf143bcbe1df38fa6dbe97c52c66842",
+  "prompt": "The camera trucks slowly sideways to the right past the open cabinet, the cabinet door edge in front sliding past faster"
+ },
+ {
+  "t": "2026-10-05 20:04:17",
+  "submitted": "eb4a29cd4b4bde88a60c9a70cde211d3",
+  "prompt": "The camera arcs slowly to the right from the double doors toward the vanity, about fifteen degrees of orbit, the door fr"
+ },
+ {
+  "t": "2026-10-05 20:05:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera orbits slowly to the right around the corner of the vanity, keeping the open drawers and the stool in the centre, the drawers showing depth as the angle changes. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230654749-ew1ggx8xik.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "a373b0e1a5aed1722c2a725509162b85",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230740207-titny8ddvm.mp4"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-10-05 20:05:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera cranes smoothly DOWN from the lit makeup mirror to the stool and lower drawers, staying centred on the vanity, slight forward drift. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230654852-k7nbgcucike.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "46b867c0961c2eeb1658f4e5e77ee847",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230737318-p6cgy0zptnn.mp4"
+   ]
+  },
+  "costTime": 84
+ },
+ {
+  "t": "2026-10-05 20:06:35",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera cranes up and pulls back slowly from the rug to show the whole bedroom with the vanity, the floor and rug receding underneath. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230654762-irii0y91iij.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "ecff41e23915506373c5de09fc7ddd00",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230787672-etdqj208asg.mp4"
+   ]
+  },
+  "costTime": 132
+ },
+ {
+  "t": "2026-10-05 20:06:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera trucks low and slowly to the left past the tall full-length mirror, close to the floor, the rug in front sliding past faster than the mirror. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230654830-lifvzf1j5ce.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "c31c49408dcfa3677f9012144ec9a8b3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230799873-e5blwyi472r.mp4"
+   ]
+  },
+  "costTime": 144
+ },
+ {
+  "t": "2026-10-05 20:06:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera arcs slowly to the right from the double doors toward the vanity, about fifteen degrees of orbit, the door frame in front sliding past faster than the vanity. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230654756-ru9ok110rz.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "eb4a29cd4b4bde88a60c9a70cde211d3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230795846-617v2a2e0uf.mp4"
+   ]
+  },
+  "costTime": 140
+ },
+ {
+  "t": "2026-10-05 20:06:49",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera trucks slowly sideways to the right past the open cabinet, the cabinet door edge in front sliding past faster than the shelves behind it. The white vanity is a real product and stays EXACTLY as in the first frame for the whole clip: same drawers, knobs, mirrors, LED rings, shelves, items on the shelves, same size and proportions; nothing appears, disappears or changes. Only the camera moves; nothing in the room moves. No people, no hands, no arms anywhere in the frame. Bright natural daylight, the lights stay as they are, exposure stays constant. Smooth gimbal camera move, real 3D parallax (near things pass faster than far things), no zoom-only move, no cuts. No sound, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/fusou/1791230654792-40uve5r2hkb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "5cf143bcbe1df38fa6dbe97c52c66842",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791230805301-0jg2f1h5j2dh.mp4"
+   ]
+  },
+  "costTime": 150
  }
 ]

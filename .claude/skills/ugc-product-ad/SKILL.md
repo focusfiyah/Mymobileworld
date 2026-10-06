@@ -36,7 +36,7 @@ worse output, which is why this file exists.
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
 "Everything means everything." Before ANY plan goes to Ralph and before ANY paid call, run the whole checklist in
 `grace/PLAYBOOK.md` §4 yourself and save proof files in the job folder, listed in `checklist.json`
-(`python3 grace/gate.py <job> --init`): playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
+(`python3 grace/gate.py <job> --init`): audience research first (`python3 grace/audience.py <job> "<seed>"...` = AnswerThePublic-style question map, plus verbatim voice-of-customer quotes in `research/audience/voc.md`, TikTok comments of the researched videos in `research/audience/comments.md` (automatic), then `research/audience.md`: Who, Pain point experience, Communication style, What it means for the script; the audience picks the structure and words), playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
 the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on named winners (spoken + on-screen),
 `humanizer` on the final script and captions, `readability` (grade <= 6), the source of every line, and after the cut
 `tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
