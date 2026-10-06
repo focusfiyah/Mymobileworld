@@ -10,11 +10,11 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
   CWD: .
   EVIDENCE: automatic-evidence=v1; definition-sha256=4fd70847c6ffbb0ccaeda41bcc5fab22b794f592337b960a633db4e81e194a62; exit=0; EXPECT=matched; output-sha256=0de36b0fd4240b9ab6b02b35e217b58caf6b560c0da921828e57026b6d6144e7; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
-- [ ] G2: every segment's audio matches its source and sits within one frame (33 ms) of its picture, measured on the file's own audio timeline, all 5 videos
+- [x] G2: every segment's audio matches its source and sits within one frame (33 ms) of its picture, measured on the file's own audio timeline, all 5 videos
   CHECK: python3 -I qc/verify_fix.py sync
   EXPECT: sync OK
   CWD: .
-  EVIDENCE: pending
+  EVIDENCE: automatic-evidence=v1; definition-sha256=6e64503a72a52e0888a4262d39f5d3b2ca85085a907c939f1afe185207624c00; exit=0; EXPECT=matched; output-sha256=75835a4df88c8adb06521393ee00d4253f2f2ad82da6cf7d46dc7bf7d660636c; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
 - [x] G3: free STT of each final contains every line of its takes (incl. V4 "just to make sure you have enough")
   CHECK: python3 -I qc/verify_fix.py words
@@ -35,7 +35,7 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
   EVIDENCE: Composio 2026-10-06 20:39Z: CURRENT V1-V5 ids 130Y6zxf.., 11m7D03o.., 1N6yUptR.., 181GYySG.., 1sSuNb8d..; Drive sizes 51861104/49165005/50883055/53528766/57685102 = qc/hosted_r3.json; old CURRENT renamed 'v2 3D emoji, jump+audio issues' and moved to Older versions
 
 - [ ] G7: job README, CLAUDE.md, playbook lesson committed and pushed
-  CHECK: git -C .. status --porcelain --untracked-files=no -- ../.. && git -C .. diff --quiet HEAD origin/ccr-a0dae179-slh3lv && echo pushed-clean
+  CHECK: test -z "$(git status --porcelain)" && git fetch -q origin ccr-a0dae179-slh3lv && git diff --quiet HEAD origin/ccr-a0dae179-slh3lv && echo pushed-clean
   EXPECT: pushed-clean
   CWD: .
   EVIDENCE: pending
