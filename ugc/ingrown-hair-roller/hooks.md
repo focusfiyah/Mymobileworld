@@ -10,3 +10,11 @@
 | 3 | Grace style 1 "There are a ton of bump treatments out there, but I've never seen one you just roll on until now." | Grace Shnuggle hook + category gap (no roll-on in top razor-bump results) | "the bump fix you roll on" |
 | 3 alt | H131 "Before the season changes, look at this." | seasonal reminder (@battny 1.6M) | "do this before dress season" |
 | 3 alt | H092 "This is one of those products where the close-up matters." | texture/roller close-up | "watch it roll on" |
+
+## Search-question hooks (Answer-the-public research, 2026-10-06, spoken word for word, real Google queries)
+| Script | Hook | Query behind it |
+|---|---|---|
+| 1 alt | "Are your bikini line bumps acne, or ingrown hairs?" | "are razor bumps acne", "are razor bumps and ingrown hairs the same" |
+| 2 alt | "Why do I keep getting bumps right after I shave?" | "why do i keep getting ingrown hairs on my legs", "how long after shaving do razor bumps appear" |
+| 3 alt | "Do ingrown hair rollers actually work?" | "do ingrown hair rollers work", "does ingrown hair roller work" |
+On-screen text for script 1 changed to "razor bumps or acne?" (matches the top question).
