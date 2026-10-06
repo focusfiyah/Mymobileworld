@@ -108,6 +108,7 @@ products follow the same rules.
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
   what it shows (pace, cuts) before sending.
 - **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay. Enforced since 2026-10-05: `grace/gate.py --stage cut` blocks a cut script that draws text unless checklist.json has `text_overlay_ok` with Ralph's words (Base Labs shipped with hook text the same day).
+- **Overlays are premium quality, never simple or flat (Ralph 2026-10-06, Wag Bag emojis):** when an overlay is asked for, use 3D-style emojis (Microsoft Fluent 3D, MIT, free: `cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/<Name>/3D/<name>_3d.png`, 256px) or sharp high-res images, never flat clip-art (Twemoji); never enlarged past ~1.2x the source size; check at full size before review. Nothing free fits (e.g. no generator emoji exists) -> ask Ralph with the cost of one Gemini 3 Pro Image in the same 3D style. Example: `ugc/wag-bag-v2/`.
 
 ## 5. Pacing and edit
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
