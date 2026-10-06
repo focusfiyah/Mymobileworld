@@ -76,5 +76,14 @@
   "proof": [],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
- "audience_legacy": true
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/raw.json",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from grace/audience.py data + real quotes (new process 2026-10-05)"
+ }
 }
