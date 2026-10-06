@@ -35,4 +35,7 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
   EVIDENCE: Composio 2026-10-06 20:39Z: CURRENT V1-V5 ids 130Y6zxf.., 11m7D03o.., 1N6yUptR.., 181GYySG.., 1sSuNb8d..; Drive sizes 51861104/49165005/50883055/53528766/57685102 = qc/hosted_r3.json; old CURRENT renamed 'v2 3D emoji, jump+audio issues' and moved to Older versions
 
 - [ ] G7: job README, CLAUDE.md, playbook lesson committed and pushed
+  CHECK: git -C .. status --porcelain --untracked-files=no -- ../.. && git -C .. diff --quiet HEAD origin/ccr-a0dae179-slh3lv && echo pushed-clean
+  EXPECT: pushed-clean
+  CWD: .
   EVIDENCE: pending
