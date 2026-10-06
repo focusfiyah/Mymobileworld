@@ -61,6 +61,8 @@ def check_audience(job, c):
     bad = [q for q in quotes if q not in ok and len(q.split()) >= 5]
     if len(ok) < 5: errs.append(f"audience: only {len(ok)} quoted phrases found in research/audience/ data (need >= 5 real ones)")
     for q in bad[:5]: errs.append(f"audience: quote not found in the data (invented or altered?): \"{q[:70]}\"")
+    if not (data / "comments.md").exists():
+        errs.append("audience: research/audience/comments.md missing (`python3 grace/audience.py comments <job>` pulls TikTok comments of the researched videos)")
     if not (data / "voc.md").exists(): errs.append("audience: research/audience/voc.md (verbatim voice-of-customer quotes with URLs) missing")
     return errs
 
