@@ -14,6 +14,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Ask before every paid generation, including redos and retries**, with the exact cost. A failed try is not
   permission for another one.
 - An unclear instruction gets one short question, not a guess.
+- **Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session (Ralph 2026-10-06, after I said TikTok comments were unreachable untested; a 10-second test showed they work).** Run one small real request first; report what the test returned; if I did not test, say "not tested" and test it or ask. Notes from earlier sessions are leads to re-test, not facts.
 - Free fixes first (ffmpeg/PIL blur, crop, retime) before any reroll.
 - Before the first paid image: confirm the real product (top, cap, label), the person's details (e.g. nail length)
   and which client it's for.
