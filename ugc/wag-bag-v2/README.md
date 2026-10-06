@@ -1,6 +1,6 @@
 # Wag Bag v2 (Grace), 2026-10-06
 
-Status: 5 cuts DONE, QC passed, in Drive as CURRENT; waiting on Ralph's notes. Cost $0 (real footage, free local STT, no Kie/ElevenLabs calls). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph 2026-10-06).
+Status: v2 (3D Fluent emoji 💧 water / 🔋 battery / ⚡ generator / 💩❔ poop, on Grace's words) in Drive as CURRENT; v1 (flat Twemoji, food can) in Older versions. Waiting on Ralph's notes. Cost $0 (real footage, free local STT, no Kie/ElevenLabs calls). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph 2026-10-06).
 
 Drive: Grace Tiktok assets / WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8):
 `CURRENT - Wag Bag V1..V5 (2026-10-06).mp4` + captions doc; the 2026-09-30 set (V01-V10) moved to "Older versions (2026-09-30 set)".
@@ -24,8 +24,8 @@ an orange-cart line (Grace's close, playbook §1). That 1.4-1.8s line is the onl
 
 ## Edit notes
 - Part 4 raw is mirrored (box text backwards): flipped, which also matches the room to the new takes.
-- Emoji: Twemoji 15.1 (CC-BY 4.0, `emoji/LICENSE.md`), pop-in 0.22s + gentle bob. 💧 on "water", 🥫 0.25s later, 💩 on "where",
-  white ❔ 0.3s after (red ❓ vanished on the red top). V1/V4 open on Grace's own camera swing; top emojis sit wide so they clear her head.
+- Emoji v2 (Ralph: quality, not simple): Microsoft Fluent 3D (MIT), 256px shown at 170-260px, pop-in 0.22s + bob. 💧 "water", 🔋 "battery",
+  ⚡ "generator" (no generator emoji exists; free same-set stand-in, Ralph OK), 💩 "where", white ❔ 0.3s after. v1 was flat Twemoji with a food can. V1/V4 open on Grace's own camera swing; top emojis sit wide so they clear her head.
 - Audio: each segment loudnorm -16, 20-30ms fades, final -14 LUFS (measured -14.2 to -14.6).
 
 ## QC (2026-10-06)
