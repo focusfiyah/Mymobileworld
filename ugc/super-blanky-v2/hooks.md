@@ -15,3 +15,4 @@
 Category match: H113/H114/H024 = Any category/Any demonstrable product; H061/H063 = Any category; H131 = Home (seasonal); H056/H055 = Gifts + Home; H110 = Any category. Fill-ins are concrete buyer questions from the comments (size, length, washing, mom).
 
 Hooks unchanged after the Script 3 edit (pink lines removed).
+Hooks unchanged (Script 3 color direction only).
