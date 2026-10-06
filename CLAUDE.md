@@ -102,6 +102,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 
 - **Super Blanky v2 scripts (Grace), 2026-10-05:** 3 talking-head scripts from the hook library, gate OK, $0, Drive folder Grace Tiktok assets/"Super Blanky wearable blanket scripts (Grace)" (1O8UJSW3oE7JCEoOC4zbxg0MNgcQukQAx): CURRENT v2 doc on top, v1 in Older versions. `ugc/super-blanky-v2/README.md`.
 
+- **ELASCO Melt Off v3 (Grace), 2026-10-05:** 3 new scripts from the hook library (H077, H094, H062) + 2 alt hooks each, category research, gate OK, $0, Drive folder Grace Tiktok assets/"ELASCO Melt Off (Grace)" (1PvMgXdaVj0Zw7wY407DvM23i_5ahmZtv). `ugc/elasco-melt-off/README.md`.
+
 - **Beauty script pack (Grace), 2026-10-02:** 3 talking-head angles each for Bobbi Brown Prep & Brighten Duo,
   Bobbi Brown 3-Minute Eye Look Trio, ELASCO Melt Off, Shnuggle Toddler Bath; $0. Claude doc
   https://claude.ai/code/artifact/69b642ee-715d-4183-8c7e-3e7bdf76c19e; v2 (no prices, sell-side lines, Grace's

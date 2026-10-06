@@ -1,0 +1,3 @@
+# Humanizer pass (final scripts 1-3 and captions, 2026-10-05)
+Voice sample: the Grace lines in the approved packs (short, spoken, "this is the one").
+Tells found and fixed in the first draft: a "not X but Y" closer ("it's not the skin, it's the remover") became two plain sentences; "Some of them" replaced a sweeping "most removers"; one forced triad (rubbing, tugging, stinging) cut to two verbs; a filler "really" removed; "so nothing strong at midnight" cut as padding. Em dashes: none. Bold labels: none in spoken lines. Kept on purpose: the sentence fragments ("Zero oily film. Zero residue.") and the confession lines, which are Grace's voice. Library hooks left untouched (word for word). Captions checked: no hype words, #ad present.
