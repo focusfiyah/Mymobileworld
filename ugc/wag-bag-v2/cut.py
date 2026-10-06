@@ -47,7 +47,7 @@ def segment(v, k, seg):
     pops = seg.get("pops", [])
     if pops:
         for p in pops:
-            cmd += ["-framerate", str(FPS), "-i", str(pop_frames(p["png"], p["size"], b - a, p["png"][:-4]) / "%04d.png")]
+            cmd += ["-framerate", str(FPS), "-i", str(pop_frames(p["png"], p["size"], b - a, p["png"][:-4].replace("/", "_")) / "%04d.png")]
         f = [f"[0:v]{','.join(vf)}[b0]"]
         for i, p in enumerate(pops, 1):
             box = int(p["size"] * 1.3)
