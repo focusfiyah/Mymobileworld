@@ -1,0 +1,91 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "scripts.md",
+ "playbook": {
+  "proof": [
+   "playbook_applied.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_notes.md",
+   "research/shop/shop-ingrown-hair-serum.json",
+   "research/shop2/shop-ingrown-hair-roll-on.json",
+   "research/shop3/shop-razor-bump-treatment.json",
+   "research/tag_ingrownhair/tag-ingrownhair.json",
+   "research/tag_razorbumps/tag-razorbumps.json",
+   "research/videos/7682621414200970509/hook.png",
+   "research/videos/7682621414200970509/meta.json",
+   "research/videos/7683184477115370766/hook.png",
+   "research/videos/7683184477115370766/meta.json",
+   "research/videos/7683184477115370766/transcript.txt",
+   "research/videos/7683184477115370766/transcript_timed.txt",
+   "research/videos/7684080102560255245/hook.png",
+   "research/videos/7684080102560255245/meta.json",
+   "research/videos/7684080102560255245/transcript.txt",
+   "research/videos/7684080102560255245/transcript_timed.txt",
+   "research/videos/7686171517616459039/hook.png",
+   "research/videos/7686171517616459039/meta.json",
+   "research/videos/7686171517616459039/transcript.txt",
+   "research/videos/7686171517616459039/transcript_timed.txt",
+   "research/videos/7686344352926387470/hook.png",
+   "research/videos/7686344352926387470/meta.json",
+   "research/videos/7689302422979677453/hook.png",
+   "research/videos/7689302422979677453/meta.json",
+   "research/videos/7689302422979677453/transcript.txt",
+   "research/videos/7689302422979677453/transcript_timed.txt",
+   "research/videos/7689517887546985760/hook.png",
+   "research/videos/7689517887546985760/meta.json",
+   "research/videos/7691595263151983885/hook.png",
+   "research/videos/7691595263151983885/meta.json",
+   "research/videos/7691595263151983885/transcript.txt",
+   "research/videos/7691595263151983885/transcript_timed.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-06.json",
+   "research/viral/viral-state.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 4.0
+ },
+ "line_sources": {
+  "proof": [
+   "line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}
