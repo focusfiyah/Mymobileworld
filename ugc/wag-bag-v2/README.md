@@ -1,6 +1,6 @@
 # Wag Bag v2 (Grace), 2026-10-06
 
-Status: r3 (2026-10-06) in Drive as CURRENT: V3 jump + V4 clipped 'make' fixed (clips start after Grace's take joins; sample-exact audio, one-pass join), all checks pass (`GATES.md`, `qc/verify_fix.py`). Waiting on Ralph. Cost $0. V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph 2026-10-06).
+Status: r3 in Drive as CURRENT (3D emoji overlays, V3 jump + V4 'make' fixed, all gates pass, $0). NEXT: photo overlays instead of emoji (Ralph 2026-10-06): water + battery stickers done (`photos/cut/`), generator photo + poop choice waiting on Ralph; Pexels key is set, Pixabay not yet. Handoff: `handoff/NEXT_SESSION_wag-bag-overlays.md`. V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph).
 
 Drive: Grace Tiktok assets / WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8):
 `CURRENT - Wag Bag V1..V5 (2026-10-06).mp4` + captions doc; the 2026-09-30 set (V01-V10) moved to "Older versions (2026-09-30 set)".
