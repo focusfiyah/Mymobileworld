@@ -35,30 +35,40 @@ def run(cmd):
 
 
 def segment(v, k, seg):
-    out = TMP / f"v{v['n']}_{k:02d}.mp4"
+    out = TMP / f"v{v['n']}_{k:02d}.mov"
     key = json.dumps([seg, v["zoom"], v["grade"]], sort_keys=True)
     kf = out.with_suffix(".key")
     if out.exists() and kf.exists() and kf.read_text() == key: return out   # unchanged segment: reuse
-    src, a, b = seg["src"], seg["a"], seg["b"]
+    src, a = seg["src"], seg["a"]
+    b = a + round((seg["b"] - a) * FPS) / FPS   # whole frames, so picture and sound end together
     z = v["zoom"]
     vf = (["hflip"] if seg.get("hflip") else []) + [
         f"scale={round(1080*z/2)*2}:{round(1920*z/2)*2}", "crop=1080:1920", v["grade"], f"fps={FPS}", "format=yuv420p"]
-    cmd = ["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", str(a), "-to", str(b), "-i", str(SRC / f"{src}.mov")]
+    d = b - a
+    nfr = round(d * FPS)
+    ns = round(d * 48000)
+    # sound first, on the file's own timeline (iPhone audio starts 16 ms after the picture), padded to the exact clip length
+    wav = out.with_suffix(".wav")
+    run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(SRC / f"{src}.mov"), "-vn", "-af",
+         f"atrim=start={a:.4f}:end={b:.4f},asetpts=PTS-STARTPTS,aresample=48000,loudnorm=I=-16:TP=-1.5:LRA=7,aresample=48000,"
+         f"asetpts=N/SR/TB,afade=t=in:d=0.02,apad=whole_len={ns},atrim=end_sample={ns},afade=t=out:st={d - 0.03:.4f}:d=0.03",   # sample counts: loudnorm shifts timestamps
+         "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", str(wav)])
+    cmd = ["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", f"{a:.4f}", "-i", str(SRC / f"{src}.mov")]
     pops = seg.get("pops", [])
+    for p in pops:
+        cmd += ["-framerate", str(FPS), "-i", str(pop_frames(p["png"], p["size"], d, p["png"][:-4].replace("/", "_")) / "%04d.png")]
+    cmd += ["-i", str(wav)]
     if pops:
-        for p in pops:
-            cmd += ["-framerate", str(FPS), "-i", str(pop_frames(p["png"], p["size"], b - a, p["png"][:-4].replace("/", "_")) / "%04d.png")]
         f = [f"[0:v]{','.join(vf)}[b0]"]
         for i, p in enumerate(pops, 1):
             box = int(p["size"] * 1.3)
             f.append(f"[{i}:v]setpts=PTS-STARTPTS+{p['t'] - a:.3f}/TB[e{i}]")
             f.append(f"[b{i-1}][e{i}]overlay=x={p['x'] - box // 2}:y={p['y'] - box // 2}:eof_action=pass[b{i}]")
-        cmd += ["-filter_complex", ";".join(f), "-map", f"[b{len(pops)}]", "-map", "0:a"]
+        cmd += ["-filter_complex", ";".join(f), "-map", f"[b{len(pops)}]"]
     else:
-        cmd += ["-vf", ",".join(vf)]
-    d = b - a
-    cmd += ["-af", f"loudnorm=I=-16:TP=-1.5:LRA=7,afade=t=in:d=0.02,afade=t=out:st={d - 0.03:.3f}:d=0.03,aresample=48000",
-            "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", str(out)]
+        cmd += ["-vf", ",".join(vf), "-map", "0:v"]
+    cmd += ["-map", f"{len(pops) + 1}:a", "-frames:v", str(nfr), "-c:v", "libx264", "-preset", "medium", "-crf", "16",
+            "-c:a", "pcm_s16le", str(out)]
     run(cmd)
     kf.write_text(key)
     return out
@@ -66,11 +76,14 @@ def segment(v, k, seg):
 
 def build(v):
     parts = [segment(v, k, s) for k, s in enumerate(v["segments"])]
-    lst = TMP / f"v{v['n']}.txt"
-    lst.write_text("".join(f"file '{p}'\n" for p in parts))
     out = OUT / f"wag_bag_v{v['n']}.mp4"
-    run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c:v", "copy",
-         "-af", "loudnorm=I=-14:TP=-1.0:LRA=7", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(out)])
+    # one concat filter + one encode keeps every segment's sound locked to its picture
+    cmd = ["ffmpeg", "-nostdin", "-v", "error", "-y"]
+    for p in parts: cmd += ["-i", str(p)]
+    n = len(parts)
+    fc = "".join(f"[{i}:v][{i}:a]" for i in range(n)) + f"concat=n={n}:v=1:a=1[v][a0];[a0]loudnorm=I=-14:TP=-1.0:LRA=7,aresample=48000[a]"
+    run(cmd + ["-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "libx264", "-preset", "medium", "-crf", "18",
+               "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out)])
     print(out)
 
 
