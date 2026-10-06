@@ -13,17 +13,24 @@
      "pops": [
       {
        "png": "fluent/droplet_3d.png",
-       "size": 190,
+       "size": 200,
        "t": 0.84,
+       "x": 125,
+       "y": 520
+      },
+      {
+       "png": "fluent/battery_3d.png",
+       "size": 200,
+       "t": 1.62,
        "x": 955,
        "y": 520
       },
       {
-       "png": "fluent/canned_food_3d.png",
-       "size": 190,
-       "t": 1.0899999999999999,
+       "png": "fluent/high_voltage_3d.png",
+       "size": 200,
+       "t": 2.46,
        "x": 125,
-       "y": 520
+       "y": 830
       },
       {
        "png": "fluent/pile_of_poo_3d.png",
@@ -36,8 +43,8 @@
        "png": "fluent/white_question_mark_3d.png",
        "size": 170,
        "t": 3.44,
-       "x": 740,
-       "y": 1390
+       "x": 730,
+       "y": 1400
       }
      ]
     },
@@ -77,17 +84,24 @@
      "pops": [
       {
        "png": "fluent/droplet_3d.png",
-       "size": 220,
+       "size": 200,
        "t": 8.2,
-       "x": 880,
-       "y": 560
+       "x": 165,
+       "y": 500
       },
       {
-       "png": "fluent/canned_food_3d.png",
-       "size": 220,
-       "t": 8.45,
-       "x": 200,
-       "y": 560
+       "png": "fluent/battery_3d.png",
+       "size": 200,
+       "t": 8.96,
+       "x": 915,
+       "y": 500
+      },
+      {
+       "png": "fluent/high_voltage_3d.png",
+       "size": 200,
+       "t": 9.72,
+       "x": 165,
+       "y": 800
       },
       {
        "png": "fluent/pile_of_poo_3d.png",
@@ -100,8 +114,8 @@
        "png": "fluent/white_question_mark_3d.png",
        "size": 170,
        "t": 10.66,
-       "x": 740,
-       "y": 1010
+       "x": 730,
+       "y": 1020
       }
      ]
     },
@@ -147,17 +161,24 @@
      "pops": [
       {
        "png": "fluent/droplet_3d.png",
-       "size": 220,
+       "size": 200,
        "t": 14.7,
-       "x": 880,
-       "y": 560
+       "x": 165,
+       "y": 500
       },
       {
-       "png": "fluent/canned_food_3d.png",
-       "size": 220,
-       "t": 14.95,
-       "x": 200,
-       "y": 560
+       "png": "fluent/battery_3d.png",
+       "size": 200,
+       "t": 15.48,
+       "x": 915,
+       "y": 500
+      },
+      {
+       "png": "fluent/high_voltage_3d.png",
+       "size": 200,
+       "t": 16.26,
+       "x": 165,
+       "y": 800
       },
       {
        "png": "fluent/pile_of_poo_3d.png",
@@ -170,8 +191,8 @@
        "png": "fluent/white_question_mark_3d.png",
        "size": 170,
        "t": 17.26,
-       "x": 740,
-       "y": 1010
+       "x": 730,
+       "y": 1020
       }
      ]
     },
@@ -206,17 +227,24 @@
      "pops": [
       {
        "png": "fluent/droplet_3d.png",
-       "size": 190,
+       "size": 200,
        "t": 21.08,
+       "x": 125,
+       "y": 520
+      },
+      {
+       "png": "fluent/battery_3d.png",
+       "size": 200,
+       "t": 21.82,
        "x": 955,
        "y": 520
       },
       {
-       "png": "fluent/canned_food_3d.png",
-       "size": 190,
-       "t": 21.33,
+       "png": "fluent/high_voltage_3d.png",
+       "size": 200,
+       "t": 22.58,
        "x": 125,
-       "y": 520
+       "y": 830
       },
       {
        "png": "fluent/pile_of_poo_3d.png",
@@ -229,8 +257,8 @@
        "png": "fluent/white_question_mark_3d.png",
        "size": 170,
        "t": 23.5,
-       "x": 740,
-       "y": 1390
+       "x": 730,
+       "y": 1400
       }
      ]
     },
@@ -271,17 +299,24 @@
      "pops": [
       {
        "png": "fluent/droplet_3d.png",
-       "size": 220,
+       "size": 200,
        "t": 26.4,
-       "x": 880,
-       "y": 560
+       "x": 165,
+       "y": 500
       },
       {
-       "png": "fluent/canned_food_3d.png",
-       "size": 220,
-       "t": 26.65,
-       "x": 200,
-       "y": 560
+       "png": "fluent/battery_3d.png",
+       "size": 200,
+       "t": 26.86,
+       "x": 915,
+       "y": 500
+      },
+      {
+       "png": "fluent/high_voltage_3d.png",
+       "size": 200,
+       "t": 27.54,
+       "x": 165,
+       "y": 800
       },
       {
        "png": "fluent/pile_of_poo_3d.png",
@@ -294,8 +329,8 @@
        "png": "fluent/white_question_mark_3d.png",
        "size": 170,
        "t": 28.56,
-       "x": 740,
-       "y": 1010
+       "x": 730,
+       "y": 1020
       }
      ]
     },
