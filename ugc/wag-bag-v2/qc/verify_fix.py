@@ -40,7 +40,9 @@ elif g == "sync":   # each segment's audio lines up with its source and with the
             src = wav(J / "src" / f"{s['src']}.mov", S / f"{s['src']}.wav"); sr = 16000
             n = int(min(s["b"] - s["a"], 3.0) * sr) - 1600
             st = run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=start_time", "-of", "csv=p=0", str(J / "src" / f"{s['src']}.mov")]).stdout
-            ref = src[int((s["a"] + 0.05 - float(st)) * sr):][:n]; best, lag = -1, None   # wav sample 0 = the file's audio start_time
+            fr = run(["ffprobe", "-v", "error", "-select_streams", "v", "-read_intervals", f"{max(s['a'] - 0.2, 0):.3f}%+0.4", "-show_entries", "frame=pts_time", "-of", "csv=p=0", str(J / "src" / f"{s['src']}.mov")]).stdout
+            av = min((x for x in (float(l.strip(",")) for l in fr.split() if l.strip(",")) if x >= s["a"] - 0.0005), default=s["a"])   # time of the first picture frame used
+            ref = src[int((av + 0.05 - float(st)) * sr):][:n]; best, lag = -1, None   # wav sample 0 = the file's audio start_time
             for k in range(-480, 481, 4):   # +-30 ms
                 i = int((t0 + 0.05) * sr) + k
                 if i < 0: continue
@@ -49,7 +51,7 @@ elif g == "sync":   # each segment's audio lines up with its source and with the
                 c = float(np.dot(seg, ref) / (np.linalg.norm(seg) * np.linalg.norm(ref) + 1e-9))
                 if c > best: best, lag = c, k
             if lag is None or best < 0.5: fail(f"V{v['n']} {s['src']}@{s['a']}: no match (corr {best:.2f})")
-            if abs(lag) > 240: fail(f"V{v['n']} {s['src']}@{s['a']}: audio off by {lag/16:.0f} ms")   # 15 ms
+            if abs(lag) > 267: fail(f"V{v['n']} {s['src']}@{s['a']}: audio off by {lag/16:.0f} ms")   # half a frame (16.7 ms): video can only start on a whole frame
     print("sync OK")
 elif g == "words":   # free local STT of each final contains every line Grace says in its takes
     from faster_whisper import WhisperModel

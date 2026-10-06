@@ -46,11 +46,15 @@ def segment(v, k, seg):
         f"scale={round(1080*z/2)*2}:{round(1920*z/2)*2}", "crop=1080:1920", v["grade"], f"fps={FPS}", "format=yuv420p"]
     d = b - a
     nfr = round(d * FPS)
+    # Grace's phone files run ~30.3 fps (variable): start the sound at the first real picture frame at/after a
+    fr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-read_intervals", f"{max(a - 0.2, 0):.3f}%+0.4",
+                         "-show_entries", "frame=pts_time", "-of", "csv=p=0", str(SRC / f"{src}.mov")], capture_output=True, text=True).stdout
+    av = min((x for x in (float(l.strip(",")) for l in fr.split() if l.strip(",")) if x >= a - 0.0005), default=a)
     ns = round(d * 48000)
     # sound first, on the file's own timeline (iPhone audio starts 16 ms after the picture), padded to the exact clip length
     wav = out.with_suffix(".wav")
     run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(SRC / f"{src}.mov"), "-vn", "-af",
-         f"atrim=start={a:.4f}:end={b:.4f},asetpts=PTS-STARTPTS,aresample=48000,loudnorm=I=-16:TP=-1.5:LRA=7,aresample=48000,"
+         f"atrim=start={av:.4f}:end={av + d:.4f},asetpts=PTS-{av:.4f}/TB,aresample=48000:async=1:first_pts=0,loudnorm=I=-16:TP=-1.5:LRA=7,aresample=48000,"
          f"asetpts=N/SR/TB,afade=t=in:d=0.02,apad=whole_len={ns},atrim=end_sample={ns},afade=t=out:st={d - 0.03:.4f}:d=0.03",   # sample counts: loudnorm shifts timestamps
          "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le", str(wav)])
     cmd = ["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", f"{a:.4f}", "-i", str(SRC / f"{src}.mov")]

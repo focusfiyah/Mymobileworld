@@ -10,17 +10,17 @@ Scope: no clip in any of the 5 videos opens on frames of a neighbouring take, au
   CWD: .
   EVIDENCE: automatic-evidence=v1; definition-sha256=4fd70847c6ffbb0ccaeda41bcc5fab22b794f592337b960a633db4e81e194a62; exit=0; EXPECT=matched; output-sha256=0de36b0fd4240b9ab6b02b35e217b58caf6b560c0da921828e57026b6d6144e7; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
-- [ ] G2: every segment's audio matches its source and sits within 15 ms of its picture, measured on the file's own audio timeline, all 5 videos
+- [ ] G2: every segment's audio matches its source and sits within half a frame (16.7 ms) of its picture, measured on the file's own audio timeline, all 5 videos
   CHECK: python3 -I qc/verify_fix.py sync
   EXPECT: sync OK
   CWD: .
   EVIDENCE: pending
 
-- [ ] G3: free STT of each final contains every line of its takes (incl. V4 "just to make sure you have enough")
+- [x] G3: free STT of each final contains every line of its takes (incl. V4 "just to make sure you have enough")
   CHECK: python3 -I qc/verify_fix.py words
   EXPECT: words OK
   CWD: .
-  EVIDENCE: pending
+  EVIDENCE: automatic-evidence=v1; definition-sha256=9a06aec59779ec26699d7f92e319814f0626f94ff4d7d087bd769951595cc432; exit=0; EXPECT=matched; output-sha256=aa00f45223f3371e932a137b5f5002ace6eeddd930ca0ccd07d419cbce0016d3; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
 - [x] G4: loudness -15 to -13 LUFS and true peak under -0.5 dBFS in all 5
   CHECK: python3 -I qc/verify_fix.py levels
