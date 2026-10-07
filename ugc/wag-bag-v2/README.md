@@ -1,6 +1,6 @@
 # Wag Bag v2 (Grace), 2026-10-06
 
-Status: r4 in Drive as CURRENT (2026-10-06): hook overlays = real photo stickers (water, battery, brandless generator) + 3D poop and question mark, all 4 QC checks + overlay gates pass, $0. Generator = Pixabay 4628420 with the RYOBI logo removed (photos/SOURCES.md). Poop kept 3D (my recommendation; Ralph has not said otherwise). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph). Gates: GATES_overlay.md. Handoff: `handoff/NEXT_SESSION_wag-bag-overlays.md` (done).
+Status: r5 in Drive as CURRENT (2026-10-07): photo stickers (water, battery, brandless generator) now have a BLACK outline (Ralph 2026-10-07, was white; `photos/make_sticker.py`), 3D poop + question mark unchanged, all QC checks + overlay gates pass, $0. Open: should the 3D emoji get a black outline too (asked Ralph). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph). Gates: GATES_overlay.md.
 
 Drive: Grace Tiktok assets / WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8):
 `CURRENT - Wag Bag V1..V5 (2026-10-06).mp4` + captions doc; the 2026-09-30 set (V01-V10) moved to "Older versions (2026-09-30 set)".
