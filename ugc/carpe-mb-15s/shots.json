@@ -9,7 +9,7 @@
   "refs/product_slots.png",
   "refs/product_profile.png"
  ],
- "prod_block": "The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference), where white cream comes up through the slots only after the orange twist knob at the base is turned. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.",
+ "prod_block": "The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference); only a thin, small line of white lotion sits level in the slots and it never grows, rises or spills. Nobody twists or turns any part of the stick. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.",
  "shots": [
   {
    "id": "S1",
@@ -68,6 +68,33 @@
     11.8,
     16.07
    ]
+  },
+  {
+   "id": "A",
+   "from": "S2",
+   "dur": 5,
+   "hand": true,
+   "prod": true,
+   "vo": "",
+   "video": "Shot A: the hand lifts the Carpe stick slightly off the marble toward the lens and holds it steady, front-on, label facing the camera, for the whole shot. The fingers stay still around the body of the stick: no twisting, no turning, the stick does not rotate. The small line of white lotion in the slots stays exactly the same size."
+  },
+  {
+   "id": "B",
+   "from": "S3",
+   "dur": 4,
+   "hand": true,
+   "prod": true,
+   "vo": "",
+   "video": "Shot B: the hand gives the stick one quick, light swipe down across the clean dry underarm and lifts it slightly away. It leaves only a faint, barely visible clear sheen on the skin: no white patch, no white residue, no streaks. The label keeps facing the lens and never changes; the raised arm stays still, camera static."
+  },
+  {
+   "id": "C",
+   "from": "S2",
+   "dur": 4,
+   "hand": true,
+   "prod": true,
+   "vo": "",
+   "video": "Shot C: the camera slowly pushes in toward the slotted orange top of the stick in the hand until the top fills the upper half of the frame; a tiny pea-sized dab of white lotion sits in the middle of the slots and stays that size. The hand and the stick stay still: no twisting, no turning."
   }
  ],
  "voice": {
