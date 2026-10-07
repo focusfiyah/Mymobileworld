@@ -414,5 +414,83 @@
    ]
   },
   "costTime": 156
+ },
+ {
+  "t": "2026-10-07 09:48:10",
+  "submitted": "c9fa8656b40fcfd05fc7a7f619d53eb0",
+  "prompt": "Shot A: the hand lifts the Carpe stick slightly off the marble toward the lens and holds it steady, front-on, label faci"
+ },
+ {
+  "t": "2026-10-07 09:49:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot A: the hand lifts the Carpe stick slightly off the marble toward the lens and holds it steady, front-on, label facing the camera, for the whole shot. The fingers stay still around the body of the stick: no twisting, no turning, the stick does not rotate. The small line of white lotion in the slots stays exactly the same size. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference); only a thin, small line of white lotion sits level in the slots and it never grows, rises or spills. Nobody twists or turns any part of the stick. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791364504765-ua6xel0wi7d.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "c9fa8656b40fcfd05fc7a7f619d53eb0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791366580507-vajg8ybbu6b.mp4"
+   ]
+  },
+  "costTime": 91
+ },
+ {
+  "t": "2026-10-07 09:53:13",
+  "submitted": "1bb62838702b08204b1284e28f3a00c2",
+  "prompt": "Shot C: the camera slowly pushes in toward the slotted orange top of the stick in the hand until the top fills the upper"
+ },
+ {
+  "t": "2026-10-07 09:53:13",
+  "submitted": "7d75889f7be3a5fc668c8f6a266565e3",
+  "prompt": "Shot B: the hand gives the stick one quick, light swipe down across the clean dry underarm and lifts it slightly away. I"
+ },
+ {
+  "t": "2026-10-07 09:55:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot B: the hand gives the stick one quick, light swipe down across the clean dry underarm and lifts it slightly away. It leaves only a faint, barely visible clear sheen on the skin: no white patch, no white residue, no streaks. The label keeps facing the lens and never changes; the raised arm stays still, camera static. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference); only a thin, small line of white lotion sits level in the slots and it never grows, rises or spills. Nobody twists or turns any part of the stick. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791364560658-3q3srx1h8in.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "7d75889f7be3a5fc668c8f6a266565e3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791366908981-p8frqa9kh1b.mp4"
+   ]
+  },
+  "costTime": 117
+ },
+ {
+  "t": "2026-10-07 09:55:31",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot C: the camera slowly pushes in toward the slotted orange top of the stick in the hand until the top fills the upper half of the frame; a tiny pea-sized dab of white lotion sits in the middle of the slots and stays that size. The hand and the stick stay still: no twisting, no turning. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference); only a thin, small line of white lotion sits level in the slots and it never grows, rises or spills. Nobody twists or turns any part of the stick. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off). No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791364504765-ua6xel0wi7d.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "1bb62838702b08204b1284e28f3a00c2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791366922108-gkogg0x0sp.mp4"
+   ]
+  },
+  "costTime": 132
  }
 ]

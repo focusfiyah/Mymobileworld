@@ -94,7 +94,7 @@ def stills(ids):
 
 
 def clip(sid):
-    s = SHOTS[sid]; first = upload(f"stills/{sid}.png")
+    s = SHOTS[sid]; first = upload(f"stills/{s.get('from', sid)}.png")
     prompt = f"{s['video']} {blocks(sid)} {J['video_suffix']}"
     url = run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "first_frame_url": first, "generate_audio": False,
                                                                    "resolution": "720p", "aspect_ratio": "9:16", "duration": s.get("dur", 4)}})
@@ -103,7 +103,7 @@ def clip(sid):
 
 def clips(ids):
     from concurrent.futures import ThreadPoolExecutor
-    for sid in ids: upload(f"stills/{sid}.png")
+    for sid in ids: upload(f"stills/{SHOTS[sid].get('from', sid)}.png")
     with ThreadPoolExecutor(len(ids)) as ex: list(ex.map(clip, ids))
     sheet("clips", ".mp4")
 
