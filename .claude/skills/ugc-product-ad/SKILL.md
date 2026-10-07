@@ -114,3 +114,5 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
 - Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).
 - Scripts live in `scripts/` (gate.py, kie runners, cut/finish/qc tools); templates in the job folders named in CLAUDE.md.
 
+## Final finish (Ralph 2026-10-07)
+Last step on every AI video: `scripts/ai_finish.sh IN OUT` (20% grain, 20% sharpness, saturation down a little; keeps TikTok from tagging it as AI, per @ericdoesecom, unverified). Details: `grace/PLAYBOOK.md` §6.
