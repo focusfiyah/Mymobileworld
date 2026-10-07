@@ -18,36 +18,61 @@
    "hand": true,
    "prod": false,
    "still": "Medium close-up from below the collarbone, side-on to her: her left arm is raised, the forearm leaving the top edge of the frame, so the underarm and the side of the sage-green tank are in view; a clear dark damp sweat patch spreads on the tank fabric under the arm; her right hand enters from the bottom right edge and pinches the damp fabric away from her skin.",
-   "video": "Shot 1: she pinches the damp fabric and tugs it slightly away from her side, holds it for a second, camera static."
+   "video": "Shot 1: she pinches the damp fabric and tugs it slightly away from her side, holds it for a second, camera static.",
+   "vo": "If you also hate when sweat shows through your shirt, look at this. Wet spots by noon?",
+   "t": [
+    0.0,
+    4.6
+   ]
   },
   {
    "id": "S2",
    "beat": "solution",
-   "dur": 4,
+   "dur": 5,
    "hand": true,
    "prod": true,
    "still": "Medium close-up on the white marble counter beside the brass tap: the hand enters from the bottom edge holding the Carpe stick upright and front-facing toward the lens with the cap off and set beside it on the marble. The label reads exactly as in the first product reference: the white 'carpe' wordmark runs VERTICALLY up the front (reading bottom to top), the round white badge top right, the teal 'MOUNTAIN BREEZE' panel below; the top is the hard orange slotted top, flat, with only a little white cream in the slots. Match the LAST reference image exactly for the woman's skin tone, short lilac-white nails, sage-green tank and the marble-and-brass bathroom (same person, same room).",
    "video": "Shot 2: the hand holds the stick steady, then the thumb turns the orange knob at the base once and white cream rises through the slots; the hand tilts it very slightly toward the lens, steady.",
-   "look_ref": "stills/S4.png"
+   "look_ref": "stills/S4.png",
+   "vo": "Carpe Mountain Breeze is clinically tested for up to a hundred hours of sweat and odor control.",
+   "t": [
+    4.6,
+    9.7
+   ]
   },
   {
    "id": "S3",
    "beat": "how-to",
-   "dur": 3,
+   "dur": 4,
    "hand": true,
    "prod": true,
-   "still": "Tight close-up on the underarm only, side-on: her left arm is raised, the upper arm leaving the top edge of the frame, the underarm clean, smooth and dry; the frame shows only the raised arm, the underarm, the side of the sage-green tank and the hand; the frame ends well below the shoulder, so no part of her neck, chin, lips or face can be seen. Her right hand enters from the bottom right edge holding the Carpe stick, its slotted top pressed against the underarm skin, the label facing the lens. Match the LAST reference image exactly for the woman's skin tone, short lilac-white nails, sage-green tank and the marble-and-brass bathroom (same person, same room).",
-   "video": "Shot 3: one slow single swipe of the stick across the clean dry underarm, leaving a thin even white film, the hand then lifts the stick away; the raised arm stays still, camera static.",
-   "look_ref": "stills/S4.png"
+   "still": "Tight close-up on the underarm only, side-on: her left arm is raised, the upper arm leaving the top edge of the frame, the underarm clean, smooth and dry; the frame shows only the raised arm, the underarm, the side of the sage-green tank and the hand; the frame ends well below the shoulder, so no part of her neck, chin, lips or face can be seen. Her right hand enters from the bottom right edge holding the Carpe stick, its slotted top pressed against the underarm skin, the label facing the lens. The stick and its label must look EXACTLY like the stick in the LAST reference image (white 'carpe' wordmark running VERTICALLY up the front, round white badge, teal MOUNTAIN BREEZE panel); match that image too for the woman's skin tone, short lilac-white nails, sage-green tank and the marble-and-brass bathroom (same person, same room).",
+   "video": "Shot 3: the hand slides the stick in one slow single swipe down across the clean dry underarm, leaving a thin even white film, then lifts it a little away; the label keeps facing the lens and never changes; the raised arm stays still, camera static.",
+   "look_ref": "stills/S2.png",
+   "vo": "Pea-size, dry skin, at night.",
+   "t": [
+    9.7,
+    11.8
+   ]
   },
   {
    "id": "S4",
    "beat": "confession+close",
-   "dur": 4,
+   "dur": 5,
    "hand": true,
    "prod": true,
    "still": "Medium shot on the white marble counter: two identical Carpe sticks stand upright side by side facing the lens, an open plain black gym bag with no logo sits at the right edge; the hand enters from the bottom edge reaching for one of the sticks.",
-   "video": "Shot 4: the hand picks up one stick and drops it into the open black gym bag, the other stick stays standing on the marble, camera static."
+   "video": "Shot 4: the hand picks up one stick and drops it into the open black gym bag, the other stick stays standing on the marble, camera static.",
+   "vo": "Only downside? You'll want a spare. Party season's coming. It's in the orange cart.",
+   "t": [
+    11.8,
+    16.07
+   ]
   }
- ]
+ ],
+ "voice": {
+  "name": "Grace B voice",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+  "model": "eleven_v4"
+ }
 }
