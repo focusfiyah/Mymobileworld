@@ -1,0 +1,51 @@
+{
+ "product": "Carpe 100HR Sweat & Odor Control Antiperspirant Deodorant, Mountain Breeze, 1.76 oz",
+ "client": "Grace",
+ "hand_block": "The hand is the ONLY person in the video: one woman's hand, medium-dark brown skin, slim fingers, SHORT squared nails that end just past the fingertips (a short free edge of about 2 mm, much shorter than the nails in the hand reference images; use those images for skin tone, hand shape and nail colour only), with a glossy pale lilac-white base and a narrow white tip band on every nail (ignore the annotation text and leader lines in those images). Every hand and arm enters from a frame edge with the whole wrist visible; the arm shown belongs to the same woman (same skin tone, smooth skin); no face, no head, no other people: the frame is cropped at her neck.",
+ "scene_block": "Setting: a luxurious home bathroom: white Carrara marble counter and wall with soft grey veining, brushed brass tap and fixtures, a folded plush white towel, a small glass tray, warm soft window daylight from the left. Shot on a phone, natural light, realistic unretouched skin texture, no cinematic grading. She wears a plain sage-green ribbed cotton tank top in every shot, exactly the same one. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+ "video_suffix": "Fingers move naturally and stay anatomically correct (five fingers per hand). The camera does not move (locked-off). No sound. No on-screen text.",
+ "prod_refs": [
+  "refs/mb_front.png",
+  "refs/product_slots.png",
+  "refs/product_profile.png"
+ ],
+ "prod_block": "The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference), where white cream comes up through the slots only after the orange twist knob at the base is turned. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift.",
+ "shots": [
+  {
+   "id": "S1",
+   "beat": "hook+pain",
+   "dur": 5,
+   "hand": true,
+   "prod": false,
+   "still": "Medium close-up from the neck down, side-on to her: her left arm is raised, the forearm leaving the top edge of the frame, so the underarm and the side of the sage-green tank are in view; a clear dark damp sweat patch spreads on the tank fabric under the arm; her right hand enters from the bottom right edge and pinches the damp fabric away from her skin.",
+   "video": "Shot 1: she pinches the damp fabric and tugs it slightly away from her side, holds it for a second, camera static."
+  },
+  {
+   "id": "S2",
+   "beat": "solution",
+   "dur": 4,
+   "hand": true,
+   "prod": true,
+   "still": "Medium close-up on the white marble counter beside the brass tap: the hand enters from the bottom edge holding the Carpe stick upright and front-facing toward the lens with the cap off and set beside it on the marble, the orange slotted top visible.",
+   "video": "Shot 2: the hand holds the stick steady, then the thumb turns the orange knob at the base once and white cream rises through the slots; the hand tilts it very slightly toward the lens, steady."
+  },
+  {
+   "id": "S3",
+   "beat": "how-to",
+   "dur": 3,
+   "hand": true,
+   "prod": true,
+   "still": "Close-up from the neck down, side-on: her left arm is raised, the forearm leaving the top edge of the frame, the underarm clean, smooth and dry, the sage-green tank dry; her right hand enters from the bottom right edge holding the Carpe stick with its slotted top touching the underarm skin.",
+   "video": "Shot 3: one slow single swipe of the stick across the clean dry underarm, leaving a thin even white film, the hand then lifts the stick away; the raised arm stays still, camera static."
+  },
+  {
+   "id": "S4",
+   "beat": "confession+close",
+   "dur": 4,
+   "hand": true,
+   "prod": true,
+   "still": "Medium shot on the white marble counter: two identical Carpe sticks stand upright side by side facing the lens, an open plain black gym bag with no logo sits at the right edge; the hand enters from the bottom edge reaching for one of the sticks.",
+   "video": "Shot 4: the hand picks up one stick and drops it into the open black gym bag, the other stick stays standing on the marble, camera static."
+  }
+ ]
+}
