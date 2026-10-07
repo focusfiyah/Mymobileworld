@@ -1,0 +1,79 @@
+  #tiktokshopfashion: 133 videos
+  #tiktokshopoutfit: 117 videos
+  #tiktokshopclothes: 115 videos
+  #tiktokshopfinds: 143 videos
+  #siliconering: 133 videos
+  #siliconerings: 139 videos
+  #promisering: 142 videos
+  #birthstone: 143 videos
+  #ringtok: 113 videos
+  #weddingband: 135 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:388: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+1157 videos scanned, 208 shop videos posted in the last 30.0 day(s) -> ugc/thunderfit-ring/research/viral/viral-2026-10-07.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      1.1M    1.8M  1.6d  0.16  Sink Organizer Rack,Hanging Faucet Drain Rack with Drip [Home Supplies]
+                                  @sprowgoudie9678: #fyp #tiktok #tiktokshop #tiktokmademebuyit 
+                                  https://www.tiktok.com/@sprowgoudie9678/video/7693467720653737246
+  2      1.0M   22.1M 21.2d  0.37  (product not in TikTok's data)
+                                  @sarvina450: #christmas #tiktokmademebuyit #tiktokshop #fyp 
+                                  https://www.tiktok.com/@sarvina450/video/7686197199415397662
+  3      435K    3.6M  8.3d  0.12  (product not in TikTok's data)
+                                  @fynzofinds: ⬆️⬆️⬆️ #tracksuit #trackie #tiktokshop #fyp #fy
+                                  https://www.tiktok.com/@fynzofinds/video/7690999459274116384
+  4      417K    1.8M  4.3d  0.26  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+  5      350K    2.5M  7.1d  0.47  Hard Bottom Backseat Extenders for Dogs with Door Prote [Pet Supplies]
+                                  @tiktokshopdeals4you: This is definitely worth the money! #fyp #tiktokshop #ruffli
+                                  https://www.tiktok.com/@tiktokshopdeals4you/video/7691417627519913246
+  6      328K    687K  2.1d  0.44  Cider Napoleonic Core Plaid Asymmetrical Neck Ruched Sh [Womenswear & Underwear]
+                                  @marynicole__: SO SO CUTE @CiderCloset #tiktokshopfalldealsforyou #tiktoksh
+                                  https://www.tiktok.com/@marynicole__/video/7693294163588041997
+  7      253K    2.6M 10.3d  0.51  Women’s cotton wide-leg sweatpants with an elastic draw [Womenswear & Underwear]
+                                  @zcvlmnwlxk: fall coded🍂#widelegpants #falldealsforyou #drawstringwaist #
+                                  https://www.tiktok.com/@zcvlmnwlxk/video/7690259549638397214
+  8      224K    3.2M 14.3d  0.14  3-pack men’s cargo pants, solid-color casual loose work [Menswear & Underwear]
+                                  @sdfghtk4: #fyp #tiktokshop #tiktok #foryou #manfashion 
+                                  https://www.tiktok.com/@sdfghtk4/video/7688738590183984398
+  9      206K    2.3M 11.2d  0.24  (product not in TikTok's data)
+                                  @merlinepulley42: 3-in-1 winter hat,keeps your face,neck & ears toasty AF! Gra
+                                  https://www.tiktok.com/@merlinepulley42/video/7689899316252626207
+ 10      198K    2.7M 13.7d   1.3  Women's Striped Tie Long Sleeve Blouse Shirt and Wide-L [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 11      188K    2.3M 12.3d  0.15  Outdoor Reusable Latex Rain Boot Covers, Waterproof, Du [Fashion Accessories]
+                                  @zspbd666: This quick slip-on shoe cover saved my shoes from the rainy 
+                                  https://www.tiktok.com/@zspbd666/video/7689436442447105293
+ 12      183K    2.2M 12.0d  0.88  Winter New Vintage Plaid Elastic Straight Loose Thick W [Womenswear & Underwear]
+                                  @lacel0ver: The comfiest fuzzy checkered pants you need for cozy fall da
+                                  https://www.tiktok.com/@lacel0ver/video/7689601265491365151
+ 13      181K    1.1M  6.1d  0.22  LUCKMEEY Low Back Bra for Women C–F Cups, Deep V Mesh W [Womenswear & Underwear]
+                                  @angie.mmyers: Finally a comfortable backless bra that is so comfortable an
+                                  https://www.tiktok.com/@angie.mmyers/video/7691817298197318942
+ 14      169K    1.4M  8.3d   0.4  Women’s cotton-blend loose leopard-print wide-leg pants [Womenswear & Underwear]
+                                  @raesarokin: #tiktokshop #fyp #fashion #cool #OOTD
+                                  https://www.tiktok.com/@raesarokin/video/7690905956657483021
+ 15      158K    2.3M 14.6d  0.36  (product not in TikTok's data)
+                                  @user3103745690840: #tiktokshop #tiktok #tiktokshopholidayhaul #fyp #dealsforyou
+                                  https://www.tiktok.com/@user3103745690840/video/7688654720466013453
+ 16      136K    613K  4.5d  0.12  Women's Elegant Striped Knit Sweater - Cozy Loose Overs [Sports & Outdoor]
+                                  @pfxkaptu1xa: #fashion#spotlightfinds#fyp#tiktokshop#ootd
+                                  https://www.tiktok.com/@pfxkaptu1xa/video/7692402306935049486
+ 17      126K    802K  6.4d  0.26  Purebeat Women's 2-Pack Fleece Elastic-Waistband Baggy  [Womenswear & Underwear]
+                                  @fhnnb286: #womenfashion#tiktokshop#Cool#ootd
+                                  https://www.tiktok.com/@fhnnb286/video/7691617949882305823
+ 18       76K    1.6M 21.1d  0.23  MeJend 12oz 100% Cotton Heavyweight Croppend Tee, Jesus [Menswear & Underwear]
+                                  @tezshopdeals: size XS 120 5’7 super affordable #tiktokshopstockup #tiktoks
+                                  https://www.tiktok.com/@tezshopdeals/video/7685984073738652941
+ 19       65K    958K 14.8d  0.53  (product not in TikTok's data)
+                                  @staringaj: My all time favorite fire pit #fyp #firepit #cozyvibes #back
+                                  https://www.tiktok.com/@staringaj/video/7688568877822872862
+ 20       60K    396K  6.6d  0.13  Disposable Stove Burner Protector, 10pcs Aluminum Foil  [Sports & Outdoor]
+                                  @krsto.douse: #tiktok #tiktokshop #tiktokmademebuyit #tiktokshopblackfrida
+                                  https://www.tiktok.com/@krsto.douse/video/7691629379142683935
