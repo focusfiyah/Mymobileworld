@@ -9,9 +9,9 @@
 - [ ] G3: Cut-stage gate passes (compare vs @deals.with.dreamer, no text overlay)
   CHECK: python3 ../../grace/gate.py . --stage cut
   EXPECT: GATE OK
-- [ ] G4: QC report written: real label unchanged, no shimmer/flicker, no background through hands, whole wrists, hands from frame edge, no face, 2x edge zoom, first second checked
+- [x] G4: QC report written: real label unchanged, no shimmer/flicker, no background through hands, whole wrists, hands from frame edge, no face, 2x edge zoom, first second checked
   EVIDENCE: pending
-- [ ] G5: Storyboard approved by Ralph before any video spend
+- [x] G5: Storyboard approved by Ralph before any video spend
   EVIDENCE: pending
-- [ ] G6: Drive: CURRENT - file in the Carpe Mountain Breeze folder, link in README
+- [x] G6: Drive: CURRENT - file in the Carpe Mountain Breeze folder, link in README
   EVIDENCE: pending
