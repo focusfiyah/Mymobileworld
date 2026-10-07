@@ -79,7 +79,7 @@ def fetch(url, out):
 
 def one_still(sid):
     s = SHOTS[sid]
-    refs = ([upload(p) for p in HAND] if s.get("hand") else []) + ([upload(p) for p in J["prod_refs"]] if s.get("prod") else [])
+    refs = ([upload(p) for p in HAND] if s.get("hand") else []) + ([upload(p) for p in J["prod_refs"]] if s.get("prod") else []) + ([upload(s["look_ref"])] if s.get("look_ref") else [])
     prompt = f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} {blocks(sid)} {J['scene_block']}"
     url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs, "aspect_ratio": "9:16", "resolution": "1K"}})
     if url: fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
