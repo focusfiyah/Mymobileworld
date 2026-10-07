@@ -115,5 +115,113 @@
    ]
   },
   "costTime": 90
+ },
+ {
+  "t": "2026-10-07 09:01:12",
+  "submitted": "1bf6cec1639d47087cfb1110a68c931f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white marble counter beside the "
+ },
+ {
+  "t": "2026-10-07 09:01:12",
+  "submitted": "bcf2063813a98f67ac1fa3ab83a841a5",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up from below the collarbone, side-on to h"
+ },
+ {
+  "t": "2026-10-07 09:01:12",
+  "submitted": "15a8719d9cb470f31f72c6c64e57c107",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up from below the collarbone, side-on: her left a"
+ },
+ {
+  "t": "2026-10-07 09:01:12",
+  "submitted": "ad90bb7626d1933f8091b70dd67d110d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot on the white marble counter: two identical "
+ },
+ {
+  "t": "2026-10-07 09:01:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up from below the collarbone, side-on to her: her left arm is raised, the forearm leaving the top edge of the frame, so the underarm and the side of the sage-green tank are in view; a clear dark damp sweat patch spreads on the tank fabric under the arm; her right hand enters from the bottom right edge and pinches the damp fabric away from her skin. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. Setting: a luxurious home bathroom: white Carrara marble counter and wall with soft grey veining, brushed brass tap and fixtures, a folded plush white towel, a small glass tray, warm soft window daylight from the left. Shot on a phone, natural light, realistic unretouched skin texture, no cinematic grading. She wears a plain sage-green ribbed cotton tank top in every shot, exactly the same one. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bcf2063813a98f67ac1fa3ab83a841a5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/bcf2063813a98f67ac1fa3ab83a841a5_1791363692482.jpeg"
+   ]
+  },
+  "costTime": 20
+ },
+ {
+  "t": "2026-10-07 09:01:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up from below the collarbone, side-on: her left arm is raised, the forearm leaving the top edge of the frame, the underarm clean, smooth and dry, the sage-green tank dry; her right hand enters from the bottom right edge holding the Carpe stick with its slotted top touching the underarm skin. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference), where white cream comes up through the slots only after the orange twist knob at the base is turned. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Setting: a luxurious home bathroom: white Carrara marble counter and wall with soft grey veining, brushed brass tap and fixtures, a folded plush white towel, a small glass tray, warm soft window daylight from the left. Shot on a phone, natural light, realistic unretouched skin texture, no cinematic grading. She wears a plain sage-green ribbed cotton tank top in every shot, exactly the same one. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354250927-fopbneabogh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354252888-mam4qc5ch5i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354255304-5bbusb6xrug.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "15a8719d9cb470f31f72c6c64e57c107",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/15a8719d9cb470f31f72c6c64e57c107_1791363695221.jpeg"
+   ]
+  },
+  "costTime": 23
+ },
+ {
+  "t": "2026-10-07 09:02:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot on the white marble counter: two identical Carpe sticks stand upright side by side facing the lens, an open plain black gym bag with no logo sits at the right edge; the hand enters from the bottom edge reaching for one of the sticks. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference), where white cream comes up through the slots only after the orange twist knob at the base is turned. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Setting: a luxurious home bathroom: white Carrara marble counter and wall with soft grey veining, brushed brass tap and fixtures, a folded plush white towel, a small glass tray, warm soft window daylight from the left. Shot on a phone, natural light, realistic unretouched skin texture, no cinematic grading. She wears a plain sage-green ribbed cotton tank top in every shot, exactly the same one. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354250927-fopbneabogh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354252888-mam4qc5ch5i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354255304-5bbusb6xrug.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ad90bb7626d1933f8091b70dd67d110d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ad90bb7626d1933f8091b70dd67d110d_0_1791363731.jpeg"
+   ]
+  },
+  "costTime": 58
+ },
+ {
+  "t": "2026-10-07 09:03:13",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium close-up on the white marble counter beside the brass tap: the hand enters from the bottom edge holding the Carpe stick upright and front-facing toward the lens with the cap off and set beside it on the marble, the orange slotted top visible. The only person is one woman, seen from the collarbone down only: medium-dark brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length squared nails, trimmed so they end level with the fingertips (no long free edge, nothing like long almond or stiletto nails), painted glossy pale lilac-white. Every hand and arm enters from a frame edge with the whole wrist visible. The top edge of the frame sits BELOW her collarbone: no chin, no lips, no jaw, no neck, no face, no hair anywhere in the frame. No other people. The product is exactly the Carpe stick in the product reference images: bright matte orange oval twist-up stick with a rounded orange cap, a large white vertical 'carpe' wordmark, a white circular 'CONTINUOUS WICKING FOR ALL-DAY FRESH' badge, a dark teal-blue 'MOUNTAIN BREEZE' panel, 'UNDERARM' and 'NET WT 1.76 OZ (50 g)' below it; under the cap a hard orange plastic top with several parallel slots (as in the slotted-top reference), where white cream comes up through the slots only after the orange twist knob at the base is turned. Ignore the blue background, rocks and greenery in the product photo. The product keeps this exact shape, colours and layout in every frame: no morphing, no extra text, no label drift. Setting: a luxurious home bathroom: white Carrara marble counter and wall with soft grey veining, brushed brass tap and fixtures, a folded plush white towel, a small glass tray, warm soft window daylight from the left. Shot on a phone, natural light, realistic unretouched skin texture, no cinematic grading. She wears a plain sage-green ribbed cotton tank top in every shot, exactly the same one. No on-screen text or captions. No other branded products. No face, no reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354250927-fopbneabogh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354252888-mam4qc5ch5i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/carpe-mb-15s/1791354255304-5bbusb6xrug.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1bf6cec1639d47087cfb1110a68c931f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1bf6cec1639d47087cfb1110a68c931f_0_1791363788.jpeg"
+   ]
+  },
+  "costTime": 115
  }
 ]

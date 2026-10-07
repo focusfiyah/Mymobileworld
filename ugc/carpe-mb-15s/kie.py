@@ -19,7 +19,7 @@ UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path(__file__).with_name("shots.json").read_text())
 SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
-HAND = ["refs/hand_dorsal.png", "refs/hand_palm.png"]
+HAND = []  # round 2: no hand refs (their long nails overrode the prompt)
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json"); CACHE = Path("upload_cache.json"); _LOCK = threading.Lock()
