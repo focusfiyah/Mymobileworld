@@ -41,10 +41,10 @@ Scope: the hook overlays on all 5 videos use the photo stickers, every quality c
   EVIDENCE: automatic-evidence=v1; definition-sha256=aa95ba1f88753e14ec6e9bacb6f0eb81436b3749c2178835ba4db9ff3fed1ddf; exit=0; EXPECT=matched; output-sha256=e0debe9f1de872f3cb1b885f11c9bb46b9c956b5d6dce63467e94deb35037f3e; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-v2; path=7f4fb4b02918/15 entries
 
 - [x] G7: I looked at every hook at full size (2x zoom on sticker edges and Grace's head/hands) and the first second of each video
-  EVIDENCE: qc/r4_hooks.png (all 5 hooks, 4 frames each: water, battery, generator, poop + question mark, none on a face), qc/r4_zoom_v1.png (2x on sticker edges: sharp, no logo, no halo), qc/r4_final_v2_crop.png; generator reflection trimmed after the first look
+  EVIDENCE: qc/r4_hooks.png (all 5 hooks, 4 frames each: water, battery, generator, poop + question mark, none on a face), qc/r4_zoom_v1.png (2x on sticker edges: sharp, no logo, no halo), qc/r4_final_v2_crop.png, qc/r5_hooks.png + qc/r5_zoom_v3.png (black outline, 2x: sharp, no halo); generator reflection trimmed after the first look
 
 - [x] G8: the 5 new videos replace the CURRENT files in Drive (sizes match), the r3 set is renamed and moved to Older versions
-  EVIDENCE: Composio 2026-10-06 23:37Z: CURRENT V1-V5 ids 1zn5KPdS.., 13DT-CUYN.., 1h4KGblT.., 1fKQ7HQk.., 1GL9zUGH..; Drive sizes 51989750/49277642/51061760/53621484/57757402 = local out/ = qc/hosted_r4.json; r3 files renamed 'v3 3D emoji' and moved to Older versions (1liz954H..)
+  EVIDENCE: r5 (black outline, Ralph 2026-10-07): Composio 2026-10-07 00:20Z CURRENT V1-V5 ids 1vk120qQ.., 158oYtZ3.., 1GSVNnLX.., 1z9m7GhT.., 1HMfZtE7..; Drive sizes 52020862/49276758/51303577/53615141/57728234 = local out/ = qc/hosted_r5.json; r3 and r4 (white outline) sets renamed and moved to Older versions (1liz954H..)
 
 - [x] G9: job README, CLAUDE.md, playbook lesson committed and pushed
   CHECK: test -z "$(git status --porcelain)" && git fetch -q origin ccr-dae93a3a-f9m9sa && git diff --quiet HEAD origin/ccr-dae93a3a-f9m9sa && echo pushed-clean
