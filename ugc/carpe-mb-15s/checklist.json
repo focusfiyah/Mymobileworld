@@ -68,7 +68,9 @@
   ]
  },
  "compare": {
-  "proof": [],
-  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ]
  }
 }
