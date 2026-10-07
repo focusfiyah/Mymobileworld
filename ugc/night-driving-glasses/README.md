@@ -1,6 +1,6 @@
 # Night vision driving glasses, fit-over, deep blue frame (Grace)
 
-Status: 2026-10-07 research + draft script v0 (`research/v0_script.txt`, grade 3.7, ~36s). BLOCKED on (1) network: this
+Status: PAUSED 2026-10-07 (Ralph: birthstone ring video first; resume on his word). research + draft script v0 (`research/v0_script.txt`, grade 3.7, ~36s). BLOCKED on (1) network: this
 project's built-in cloud environment refuses tiktok.com, api.kie.ai, api.elevenlabs.io and Google autocomplete (tested
 2026-10-07), so coach research, viral board, audience.py and every paid step wait for Ralph to select the "My World"
 environment; (2) a photo/listing link of Grace's actual deep blue pair (many sellers share the title). Spent $0.
