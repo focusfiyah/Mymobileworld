@@ -1,6 +1,6 @@
 ---
 name: grace-product-scripts
-description: Write short talking-head TikTok Shop scripts for Ralph's client Grace for any non-clothing product (first job, the Cleanwaste Wag Bag, 2026-09-30), modeled on a reference TikTok that is doing well. Analyses the reference (transcript, frames, beats), checks product facts, writes 5 different angles of about 30 seconds each, runs them through Humanizer, and delivers a phone-friendly Claude doc plus a PDF Ralph can send Grace on WhatsApp. Use when Ralph says Grace needs scripts, angles or hooks for a product, sends a TikTok for Grace to copy the feel of, or asks for "different angles" for her. For clothing (jeans, dresses, tops), use grace-fashion-ads.
+description: Write short talking-head TikTok Shop scripts for Ralph's client Grace for any non-clothing product (first job, the Cleanwaste Wag Bag, 2026-09-30), modeled on a reference TikTok that is doing well. Analyses the reference (transcript, frames, beats), checks product facts, writes 5 different angles of about 30 seconds each, runs them through Humanizer, and delivers a phone-friendly Claude doc plus a Drive Google Doc (no PDF). Use when Ralph says Grace needs scripts, angles or hooks for a product, sends a TikTok for Grace to copy the feel of, or asks for "different angles" for her. For clothing (jeans, dresses, tops), use grace-fashion-ads.
 ---
 
 # Grace product scripts
@@ -36,8 +36,7 @@ passes; never bypass or weaken it. Show the gate result in the plan message. Ban
   if it sits"), never as her experience.
 - Each angle gets its own on-screen headline + label (the reference style: a headline with an emoji plus a small
   label), different per angle so TikTok treats the posts as distinct.
-- **Deliverables:** a Claude doc for Ralph, then a PDF of it. Grace has to sign in to open a doc link, so the PDF is
-  what Ralph sends her on WhatsApp. No local markdown copy. Also a Google Doc in Drive, filed per the Drive rule in step 5.
+- **Deliverables:** a Claude doc for Ralph. **No PDF** (Ralph 2026-10-07: "I do not need PDF for any script"). No local markdown copy. Also a Google Doc in Drive, filed per the Drive rule in step 5.
 
 ## Workflow
 
@@ -99,9 +98,7 @@ readable on a phone: no wide tables, short bullets, a 3-line intro. Sections, in
   hand), take counts, the optional inserts
 - What's in the box: 4 or 5 verified facts + one link to the official product page
 
-Then export the PDF (`export` tool, format pdf, paper letter). The result is too large to print, so it lands in a
-tool-results file: decode `data.bytes_b64` into `Grace <Product> scripts.pdf` in the working directory, render a page
-with pymupdf to check it, and send it with SendUserFile. Give Ralph the doc link and the PDF.
+Give Ralph the doc link. Never export a PDF (Ralph 2026-10-07).
 
 **Drive (Ralph 2026-10-05, every job):** put the scripts as a Google Doc in Drive "Grace Tiktok assets" in ONE folder per
 product (search first, reuse the product's existing folder, else create "<Product> scripts (Grace)"). Latest doc gets a
