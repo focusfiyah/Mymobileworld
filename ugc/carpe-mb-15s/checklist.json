@@ -1,0 +1,74 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/lines.json"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 no price/no personal use/sell-side confession/orange cart",
+   "\u00a72 pain first, specificity",
+   "\u00a73 hook library H008 word for word",
+   "\u00a74 hook-pain-solution-confession-urgency-close, CTA sells more units",
+   "\u00a75 ~3.5 wps, 15s",
+   "\u00a76 REMOVED.md, plan lock"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_carpe.txt",
+   "research/tag_carpe.txt",
+   "research/discover_carpe.txt",
+   "research/videos/7540844439825157406/transcript.txt",
+   "research/videos/7686978785794723103/transcript.txt",
+   "research/videos/7692684785881238814/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-07.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "max_grade": 1.7
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md",
+   "research/audience/comments.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}
