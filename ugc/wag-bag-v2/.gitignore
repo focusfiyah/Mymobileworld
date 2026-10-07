@@ -1,0 +1,11 @@
+# big media lives in Drive (product folder "WagBag Final Edits"); rebuild with cut.py after pulling sources
+src/*.mov
+src/*.wav
+out/
+tmp/
+qc/stt/*.wav
+qc/*takes.png
+qc/hooks.png
+qc/sheets_all.png
+qc/first2s_v1_v4.png
+qc/*.mp4

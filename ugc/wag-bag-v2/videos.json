@@ -1,0 +1,362 @@
+{
+ "videos": [
+  {
+   "n": 1,
+   "zoom": 1.0,
+   "grade": "eq=brightness=0.02",
+   "note": "natural daylight",
+   "segments": [
+    {
+     "src": "p1_new",
+     "a": 0.0,
+     "b": 4.75,
+     "pops": [
+      {
+       "png": "photo_water.png",
+       "size": 230,
+       "t": 0.84,
+       "x": 125,
+       "y": 700
+      },
+      {
+       "png": "photo_battery.png",
+       "size": 230,
+       "t": 1.62,
+       "x": 955,
+       "y": 520
+      },
+      {
+       "png": "photo_generator.png",
+       "size": 250,
+       "t": 2.46,
+       "x": 145,
+       "y": 960
+      },
+      {
+       "png": "fluent/pile_of_poo_3d.png",
+       "size": 260,
+       "t": 3.14,
+       "x": 540,
+       "y": 1560
+      },
+      {
+       "png": "fluent/white_question_mark_3d.png",
+       "size": 170,
+       "t": 3.44,
+       "x": 730,
+       "y": 1400
+      }
+     ]
+    },
+    {
+     "src": "p2_new",
+     "a": 0.0,
+     "b": 5.92
+    },
+    {
+     "src": "p2_new",
+     "a": 7.62,
+     "b": 9.42
+    },
+    {
+     "src": "old2_35",
+     "a": 0.0,
+     "b": 9.25
+    },
+    {
+     "src": "old3",
+     "a": 0.9,
+     "b": 9.66,
+     "hflip": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "zoom": 1.03,
+   "grade": "eq=brightness=0.03:saturation=1.05,colorbalance=rm=0.02:bm=-0.02",
+   "note": "warm bright",
+   "segments": [
+    {
+     "src": "p1_new",
+     "a": 7.38,
+     "b": 11.78,
+     "pops": [
+      {
+       "png": "photo_water.png",
+       "size": 230,
+       "t": 8.2,
+       "x": 165,
+       "y": 700
+      },
+      {
+       "png": "photo_battery.png",
+       "size": 230,
+       "t": 8.96,
+       "x": 915,
+       "y": 500
+      },
+      {
+       "png": "photo_generator.png",
+       "size": 250,
+       "t": 9.72,
+       "x": 165,
+       "y": 960
+      },
+      {
+       "png": "fluent/pile_of_poo_3d.png",
+       "size": 260,
+       "t": 10.36,
+       "x": 540,
+       "y": 1180
+      },
+      {
+       "png": "fluent/white_question_mark_3d.png",
+       "size": 170,
+       "t": 10.66,
+       "x": 730,
+       "y": 1020
+      }
+     ]
+    },
+    {
+     "src": "p2_new",
+     "a": 12.34,
+     "b": 18.66
+    },
+    {
+     "src": "p2_new",
+     "a": 19.08,
+     "b": 20.5
+    },
+    {
+     "src": "old2_35",
+     "a": 9.64,
+     "b": 18.45
+    },
+    {
+     "src": "old3",
+     "a": 40.32,
+     "b": 47.92,
+     "hflip": true
+    },
+    {
+     "src": "old3",
+     "a": 8.25,
+     "b": 9.66,
+     "hflip": true
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "zoom": 1.0,
+   "grade": "eq=brightness=0.03:contrast=1.03,colorbalance=bm=0.03:rm=-0.01",
+   "note": "bright cool",
+   "segments": [
+    {
+     "src": "p1_new",
+     "a": 14.03,
+     "b": 18.28,
+     "pops": [
+      {
+       "png": "photo_water.png",
+       "size": 230,
+       "t": 14.7,
+       "x": 165,
+       "y": 700
+      },
+      {
+       "png": "photo_battery.png",
+       "size": 230,
+       "t": 15.48,
+       "x": 915,
+       "y": 500
+      },
+      {
+       "png": "photo_generator.png",
+       "size": 250,
+       "t": 16.26,
+       "x": 165,
+       "y": 960
+      },
+      {
+       "png": "fluent/pile_of_poo_3d.png",
+       "size": 260,
+       "t": 16.96,
+       "x": 540,
+       "y": 1180
+      },
+      {
+       "png": "fluent/white_question_mark_3d.png",
+       "size": 170,
+       "t": 17.26,
+       "x": 730,
+       "y": 1020
+      }
+     ]
+    },
+    {
+     "src": "p2_new",
+     "a": 23.15,
+     "b": 31.98
+    },
+    {
+     "src": "old2_35",
+     "a": 18.78,
+     "b": 27.42
+    },
+    {
+     "src": "old3",
+     "a": 21.23,
+     "b": 29.02,
+     "hflip": true
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "zoom": 1.05,
+   "grade": "eq=contrast=1.05:saturation=0.97:brightness=0.025",
+   "note": "clean neutral, tighter frame",
+   "segments": [
+    {
+     "src": "p1_new",
+     "a": 20.22,
+     "b": 24.4,
+     "pops": [
+      {
+       "png": "photo_water.png",
+       "size": 230,
+       "t": 21.08,
+       "x": 125,
+       "y": 700
+      },
+      {
+       "png": "photo_battery.png",
+       "size": 230,
+       "t": 21.82,
+       "x": 955,
+       "y": 520
+      },
+      {
+       "png": "photo_generator.png",
+       "size": 250,
+       "t": 22.58,
+       "x": 145,
+       "y": 960
+      },
+      {
+       "png": "fluent/pile_of_poo_3d.png",
+       "size": 260,
+       "t": 23.2,
+       "x": 540,
+       "y": 1560
+      },
+      {
+       "png": "fluent/white_question_mark_3d.png",
+       "size": 170,
+       "t": 23.5,
+       "x": 730,
+       "y": 1400
+      }
+     ]
+    },
+    {
+     "src": "p2_new",
+     "a": 36.2,
+     "b": 45.62
+    },
+    {
+     "src": "old2_35",
+     "a": 27.65,
+     "b": 37.18
+    },
+    {
+     "src": "old3",
+     "a": 61.1,
+     "b": 68.12,
+     "hflip": true
+    },
+    {
+     "src": "old3",
+     "a": 27.26,
+     "b": 29.02,
+     "hflip": true
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "zoom": 1.02,
+   "grade": "eq=contrast=1.08:saturation=1.12:brightness=0.02",
+   "note": "bright punchy",
+   "segments": [
+    {
+     "src": "p1_new",
+     "a": 25.66,
+     "b": 29.52,
+     "pops": [
+      {
+       "png": "photo_water.png",
+       "size": 230,
+       "t": 26.4,
+       "x": 165,
+       "y": 700
+      },
+      {
+       "png": "photo_battery.png",
+       "size": 230,
+       "t": 26.86,
+       "x": 915,
+       "y": 500
+      },
+      {
+       "png": "photo_generator.png",
+       "size": 250,
+       "t": 27.54,
+       "x": 165,
+       "y": 960
+      },
+      {
+       "png": "fluent/pile_of_poo_3d.png",
+       "size": 260,
+       "t": 28.26,
+       "x": 540,
+       "y": 1180
+      },
+      {
+       "png": "fluent/white_question_mark_3d.png",
+       "size": 170,
+       "t": 28.56,
+       "x": 730,
+       "y": 1020
+      }
+     ]
+    },
+    {
+     "src": "p2_new",
+     "a": 45.98,
+     "b": 58.12
+    },
+    {
+     "src": "old2_35",
+     "a": 38.14,
+     "b": 47.2
+    },
+    {
+     "src": "old3",
+     "a": 82.38,
+     "b": 89.38,
+     "hflip": true
+    },
+    {
+     "src": "old3",
+     "a": 8.25,
+     "b": 9.66,
+     "hflip": true
+    }
+   ]
+  }
+ ]
+}
