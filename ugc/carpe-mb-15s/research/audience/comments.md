@@ -1,0 +1,166 @@
+# TikTok comments (2026-10-07), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+123 comments reachable of 294 reported across 4 videos. Buyer questions in them: 31.
+- "I see most people say apply at night and i just bought it and it says the same thing aswell, but in the morning do you use a regular deodorant or no?" (7540844439825157406)
+- "What sent is the best? I really wanna try it but I’m nervous it won’t smell as feminine as my dove deodorant💗💗" (7540844439825157406)
+- "Can't be sweating when I put it on? there's not a second of the day I'm not sweating 😮‍💨" (7540844439825157406)
+- "Can you also use this if don’t have hyperhidrosis? Bc I usually stress sweat a lot 😅" (7540844439825157406)
+- "IF it were to get on clothes and get chalky does it stain? or wipe off/come out easy?" (7540844439825157406)
+- "Do you have to combine it with deodorant?" (7540844439825157406)
+- "Why isn’t urs orange?" (7540844439825157406)
+- "do i put spray deodorant over it ? or will that defeat the purpose and does it stop the sweat from transferring onto like a grey shirt or js stops the smell" (7540844439825157406)
+- "Will this work under the girls? 🙈" (7540844439825157406)
+- "Shave first ??😌" (7540844439825157406)
+- "Does this irritate sensitive skin?" (7540844439825157406)
+- "yellow basket?" (7540844439825157406)
+- "what scent is the best?" (7540844439825157406)
+- "how do u know when it’s dry?" (7540844439825157406)
+- "does it smell good or can I still use deodorant??" (7540844439825157406)
+- "does it become chalky?" (7540844439825157406)
+- "Why is yours white?" (7540844439825157406)
+- "This is so late but do you put in on at night and in the morning?" (7540844439825157406)
+- "Jodi Foster?" (7540844439825157406)
+- "I used it exactly like this for a couple days, and I still sweat through 🙁🙁 idk what to doooo I was really wanting this it work. Is there anything I can try? I’m still gonna try it for a few more days" (7540844439825157406)
+- "I don’t shave my armpits often, does it work if you don’t shave?" (7540844439825157406)
+- "How long does it take to dry?" (7540844439825157406)
+- "Hmm and it is not going to make you sweating anywhere else, where usually u don't?🤔 We have to sweating and it is normal reaction of the body. It will probably come out from any other part ot our body..🤔" (7540844439825157406)
+- "Girl do u not get a white cast?" (7540844439825157406)
+- "Does it work with hyperhydrosis? 😵‍💫" (7540844439825157406)
+- "Does it burn the skin off though? Some of the clinical strength stuff I got burned my skin off" (7540844439825157406)
+- "But does it really help with oder?" (7540844439825157406)
+- "100 hours!?" (7686978785794723103)
+- "Girl, how are you not dying in that sweater with this weather???" (7692684785881238814)
+- "Great sunscreen! What was that Oogie Boogie sounding voice for? 💚💚" (7692684785881238814)
+- "Megan tell me this wasn’t yesterday because HOW THE HELL did you not DIE in that sweater?" (7692684785881238814)
+
+## @shop.with.shelby (? views), 96 of 246 comments reachable. https://www.tiktok.com/video/7540844439825157406
+- (460 likes) "thank u freaking queen"
+- (304 likes) "I pray to God you are telling me the truth! I am TIRED of trying to find an antiperspirant that WORKS!"
+- (178 likes) "Omg yes! The very first time I used carpe I made this mistake and didn’t wait. But now I use a mini fan to help quicken it😍"
+- (64 likes) "So true , once I started letting it dry. Omg the difference"
+- (54 likes) "1. Dry pits is necessary, 2. Yes, thats too much, and 3. Use your fingers to rub it in, because using the container to rub it on pushes bacteria into and on to the openings of the container ☺"
+- (49 likes) "i got carpe somewhere else online and it works SO WELL!!! i personally don’t like the texture when its wet so i just let it dry with a fan and then its perfect 🙏 they smell REALLY good, my two favorites are clean sport and mountain breeze bc they smell fresh but dont clash with my perfume. hope this helps anyone 🫶"
+- (29 likes) "I see most people say apply at night and i just bought it and it says the same thing aswell, but in the morning do you use a regular deodorant or no?"
+- (26 likes) "It lasts for so long to! I’ve been using it everyday for two months or more and am still on my first stick"
+- (23 likes) "What sent is the best? I really wanna try it but I’m nervous it won’t smell as feminine as my dove deodorant💗💗"
+- (19 likes) "Can't be sweating when I put it on? there's not a second of the day I'm not sweating 😮‍💨"
+- (18 likes) "Omg I was putting it on wrong 😩😩"
+- (15 likes) "Can you also use this if don’t have hyperhidrosis? Bc I usually stress sweat a lot 😅"
+- (12 likes) "IF it were to get on clothes and get chalky does it stain? or wipe off/come out easy?"
+- (7 likes) "Should I get the pack of three or just one it’s my first time buying"
+- (5 likes) "Do you have to combine it with deodorant?"
+- (4 likes) "Love this stuff 👏"
+- (4 likes) "I love carpe buuuuut it’s so expensive and the twist thing to make the deodorant come up quits working half way thru using the bottle paid 86 bucks for the bulk and every one of them quit half full"
+- (4 likes) "I bought it the other day and I don’t think I can ever buy any other deodorant again it’s amazing!!!"
+- (4 likes) "Glad I watched this. Just purchased. Have bad hyperhydrosis"
+- (2 likes) "Why isn’t urs orange?"
+- (2 likes) "Thank you so much for the REAL INSTRUCTIONS! That's what I love, watching people like you who have used the product, love it but want to give us the part that the instructions that the box missed!!"
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "✨✨✨"
+- (1 likes) "it works…"
+- (1 likes) "do i put spray deodorant over it ? or will that defeat the purpose and does it stop the sweat from transferring onto like a grey shirt or js stops the smell"
+- (1 likes) "Yes, I love this product. A little goes a long way meaning the price is very reasonable."
+- (1 likes) "Will this work under the girls? 🙈"
+- (1 likes) "The best way to apply… i live by this stuff cause i sweated so bad… exfoliate… shave and carpe… put on at night and little bit in morning"
+- (1 likes) "Thank you!!!!!!!"
+- (1 likes) "Shave first ??😌"
+- (1 likes) "Its the best deodorant ever!"
+- (1 likes) "I use this stuff. I love it"
+- (1 likes) "I love carpe it truly is the best"
+- (1 likes) "Even if I don’t let them dry (I didn’t know I needed to until I watched this lol I just got it like a week ago or so) I still don’t smell I NEVER have issues. I’d wake up smelling from sweating while I sleep. Not anymore at all"
+- (1 likes) "Does this irritate sensitive skin?"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰"
+- (0 likes) "🥰"
+- (0 likes) "😳😳😳"
+- (0 likes) "😭😭😭"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂"
+- (0 likes) "😁😁😁"
+- (0 likes) "😁"
+- (0 likes) "💕💕💕"
+- (0 likes) "yellow basket?"
+- (0 likes) "what scent is the best?"
+- (0 likes) "please explain to us what do you mean by buying it "with me own money" 😅"
+- (0 likes) "mine wont come out for some reason"
+- (0 likes) "man im not buying this until they restock sandalwood"
+- (0 likes) "it also works better if you apply before u get dressed and let it air dry before it makes contact with ur clothes bc it won’t dry properly if not"
+- (0 likes) "it also works better if you apply before u get dressed and let it air dry before it makes contact with ur clothes bc it won’t dry properly if not"
+- (0 likes) "is it supposed to be rlly white when it dries"
+- (0 likes) "im loving it"
+- (0 likes) "i really love this deodorant from carpe"
+- (0 likes) "i really love this deodorant from carpe"
+- (0 likes) "i love this product so well i’ve used it for 3 years now best thing will never go back"
+- (0 likes) "how do u know when it’s dry?"
+- (0 likes) "does it smell good or can I still use deodorant??"
+- (0 likes) "does it become chalky?"
+- (0 likes) "does it always help with smell or just sweat. no shame here."
+- (0 likes) "Why is yours white?"
+- (0 likes) "When I apply it gets creamy, and there’s no way it gets dry"
+- (0 likes) "Transfers bad to clothing. I didn’t realize until I went to do laundry today after using it for a week and EVERY shirt has white armpits. We’ll see how the shirts come out of the wash…."
+- (0 likes) "This is so late but do you put in on at night and in the morning?"
+- (0 likes) "This is so helpful 😳"
+- (0 likes) "That is exactly how I use. It works great every time I love it."
+- (0 likes) "Thankyou because I been seeing mixed reviews"
+- (0 likes) "Thanks for sharing"
+- (0 likes) "Thank you for sharing"
+- (0 likes) "Thank you for sharing"
+- (0 likes) "Question, do they sell this at like Walmart or like target"
+- (0 likes) "Pronounced “Car-pay”"
+- (0 likes) "Jodi Foster?"
+- (0 likes) "I'm allergic to deodorant, and recently burned my armpits so badly hair hasn't even grown back. (kinda a plus though) This is the only deodorant that doesn't make me break out. You just have to apply it correctly."
+- (0 likes) "I used it exactly like this for a couple days, and I still sweat through 🙁🙁 idk what to doooo I was really wanting this it work. Is there anything I can try? I’m still gonna try it for a few more days"
+- (0 likes) "I love this stuff! It’s amazing"
+- (0 likes) "I love Carpe so much"
+- (0 likes) "I don’t shave my armpits often, does it work if you don’t shave?"
+- (0 likes) "I don't like the new stuff. they said it's the same formula but I beg to differ as my results have changed from the previous older stuff."
+- (0 likes) "I also have sweaty wrmpits"
+- (0 likes) "I actually love Carpe."
+- (0 likes) "How long does it take to dry?"
+- (0 likes) "How can I buy some please, I tried the link but not possible getting through."
+- (0 likes) "Hmm and it is not going to make you sweating anywhere else, where usually u don't?🤔 We have to sweating and it is normal reaction of the body. It will probably come out from any other part ot our body..🤔"
+- (0 likes) "Girl do u not get a white cast?"
+- (0 likes) "Does it work with hyperhydrosis? 😵‍💫"
+- (0 likes) "Does it burn the skin off though? Some of the clinical strength stuff I got burned my skin off"
+- (0 likes) "Deodorant doesn't block sweating period"
+- (0 likes) "Deodorant doesn't block sweating period"
+- (0 likes) "Definitely works I love it and your absolutely right in your application process you definitely don’t need a lot it’s so amazing"
+- (0 likes) "But does it really help with oder?"
+- (0 likes) "@j.a.y.l.e.e.15"
+- (0 likes) "@Maddy ❤️❤️"
+
+## @fakeblondeellewoods (? views), 5 of 9 comments reachable. https://www.tiktok.com/video/7686951862125350158
+- (8 likes) "“I’m just a little bit nervous all the time” why are you in my brain"
+- (2 likes) "Wait this is crazy I just had a coworker tell me this deodorant is amazing this week lol"
+- (2 likes) "I’m a man and I’m not afraid to admit that I have to use this shit🤣💀"
+- (1 likes) "the hand cream works too. when i have to wear gloves in healthcare i drip so i use the hand cream and its a weird texture but i sweat WAY LESS like i can actually do vitals 😩😩"
+- (1 likes) "coming here to validate my DZ sister in christ because this is the HOLY GRAIL OF DEODORANT I AM NEVER GOING BACK bless you for the rec. I ran to Target so fast after I finished what I already had!!!"
+
+## @deals.with.dreamer (? views), 13 of 26 comments reachable. https://www.tiktok.com/video/7686978785794723103
+- (1 likes) "You know this is something I might want to try out because these are very hard to find good quality👍"
+- (1 likes) "Yes this is the BEAT"
+- (1 likes) "This deodorant is so so good. I definitely got a few for the stockings for all my kids and husband."
+- (1 likes) "This deodorant is everywhere and I think everyone uses it. You know it smells amazing reposting for your friend."
+- (1 likes) "So many of my friends swear by this"
+- (1 likes) "Oh, I haven’t heard of this one yet! I love sandlewood!"
+- (1 likes) "Love love a good deodorant that’s smells and works great"
+- (1 likes) "I’ve been wanting to try this"
+- (1 likes) "I'm very intrigued now 🤔"
+- (1 likes) "I need to try this deodorant"
+- (1 likes) "100 hrs I definitely wanna check this out"
+- (1 likes) "100 hours!?"
+- (1 likes) "100 hours is EXACTLY what I need!! 😂😂😂 I'm here for a clean deodorant"
+
+## @themagicalmillennial_ (? views), 9 of 13 comments reachable. https://www.tiktok.com/video/7692684785881238814
+- (49 likes) "Girl, how are you not dying in that sweater with this weather???"
+- (13 likes) "Hands down best deodorant"
+- (2 likes) "Great sunscreen! What was that Oogie Boogie sounding voice for? 💚💚"
+- (1 likes) "Girl your ads are so good! You’re so natural and authentic!"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "💕💕💕"
+- (0 likes) "❤️❤️❤️"
+- (0 likes) "Megan tell me this wasn’t yesterday because HOW THE HELL did you not DIE in that sweater?"
+- (0 likes) "Love that sweater!!!"
