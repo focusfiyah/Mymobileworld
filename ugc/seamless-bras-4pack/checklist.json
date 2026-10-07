@@ -1,0 +1,68 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "spoken/*.txt",
+ "playbook": {
+  "proof": [
+   "playbook_applied.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_notes.md",
+   "research/shop/shop-wireless-push-up-bra.md",
+   "research/videos/7223352593496558890/meta.json",
+   "research/videos/7332526435170651434/meta.json",
+   "research/videos/7162536472237706542/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job",
+  "status": "NOT RUN 2026-10-07: container proxy 403s tiktok.com (tested); needs the coach's headless browser"
+ },
+ "product_facts": {
+  "proof": [
+   "product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 2.7
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}
