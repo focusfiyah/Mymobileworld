@@ -20,7 +20,7 @@ Paste the block below into any of:
 - Ask before EVERY paid generation (images, video, voice), including redos and retries, with the exact cost.
 - Try free fixes first (crop, blur, re-cut) before paying for a reroll.
 - Send me a phone notification whenever something is ready for my review or needs my decision. I leave the app.
-- Google Drive (2026-10-05): every job, scripts-only too, ends with its files in Drive "Grace Tiktok assets" in ONE folder per product (search first, reuse the existing folder). Latest file prefixed "CURRENT - "; superseded files renamed "vN (date)" and moved into an "Older versions" subfolder; nothing loose in Grace Tiktok assets. Send me the folder link.
+- Google Drive (2026-10-05): every job, scripts-only too, ends with its files in Drive "Grace Tiktok assets" in ONE folder per product (search first, reuse the existing folder). Latest file prefixed "CURRENT - "; superseded files renamed "vN (date)" and moved into an "Older versions" subfolder; nothing loose in Grace Tiktok assets. Send me the folder link. Scripts: no PDF, ever (2026-10-07).
 - Client ad work lives in GitHub repo focusfiyah/Mymobileworld (its CLAUDE.md, `grace/PLAYBOOK.md`, the `ugc-product-ad` skill).
 
 ## "Everything means everything" (2026-10-03, after a client video shipped without the Humanizer pass)
