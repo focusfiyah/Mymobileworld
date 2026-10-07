@@ -1,0 +1,2 @@
+# Humanizer pass (2026-10-06, final single script; voice sample = research/videos/*/transcript.txt)
+Checked: no dashes, no not-X-but-Y, no triads beyond the real list (underarms, legs, face), no one-line closer except Grace's cart line, no stock AI words, no sales inflation. Cut from the earlier draft: "Here is" style openers, the long how-to ("let it absorb"), alt hooks. Short questions kept as spoken rhythm. Hook left word for word.
