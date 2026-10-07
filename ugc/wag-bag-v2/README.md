@@ -1,6 +1,6 @@
 # Wag Bag v2 (Grace), 2026-10-06
 
-Status: r5 in Drive as CURRENT (2026-10-07): photo stickers (water, battery, brandless generator) now have a BLACK outline (Ralph 2026-10-07, was white; `photos/make_sticker.py`), 3D poop + question mark unchanged, all QC checks + overlay gates pass, $0. Open: should the 3D emoji get a black outline too (asked Ralph). V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph). Gates: GATES_overlay.md.
+Status: r5 in Drive as CURRENT (2026-10-07): photo stickers (water, battery, brandless generator) now have a BLACK outline (Ralph 2026-10-07, was white; `photos/make_sticker.py`), 3D poop + question mark unchanged, all QC checks + overlay gates pass, $0. Ralph 2026-10-07: keep the 3D poop + question mark as they are (no outline). Job DONE. Pixabay key fixed in his environment settings (takes effect in a new session; this one used a key he pasted); the env var may be named `PIXABAY_API_KEY5`, `search_photos.py` reads `PIXABAY_API_KEY`. V1/V2 hooks say "shit": KEEP as Grace filmed (Ralph). Gates: GATES_overlay.md.
 
 Drive: Grace Tiktok assets / WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8):
 `CURRENT - Wag Bag V1..V5 (2026-10-06).mp4` + captions doc; the 2026-09-30 set (V01-V10) moved to "Older versions (2026-09-30 set)".
