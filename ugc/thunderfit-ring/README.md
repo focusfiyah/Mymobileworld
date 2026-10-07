@@ -1,6 +1,6 @@
 # ThunderFit Women's Birthstone Silicone Ring, December (blue topaz): hands-only UGC video
 
-**Client: Grace** (Ralph, 2026-10-07). Route: `ugc-product-ad` hands-only (template `../carpe-vanilla-peach/`). Voice: Grace B `bGrsdLmwBbYUgHRuMFOI`, eleven_v4 (default, not yet confirmed).
+**Client: Grace** (Ralph, 2026-10-07). Route: `ugc-product-ad` hands-only (template `../carpe-vanilla-peach/`). Voice: Grace B `bGrsdLmwBbYUgHRuMFOI`, eleven_v4. Format confirmed by Ralph 2026-10-07: hands + voiceover, no talking head.
 
 Status: **PLANNING 2026-10-07: job folder + draft hook picks | NEXT: Ralph switches the project to the "My World" environment (built-in env 403s Kie, ElevenLabs, TikTok, Amazon, tested 2026-10-07) and sends a photo of the real ring + listing bullets; then research, script, gate, plan | Kie spent $0 | ElevenLabs 0 chars**
 
