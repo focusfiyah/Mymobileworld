@@ -5,7 +5,7 @@ project's built-in cloud environment refuses tiktok.com, api.kie.ai, api.elevenl
 2026-10-07), so coach research, viral board, audience.py and every paid step wait for Ralph to select the "My World"
 environment; (2) a photo/listing link of Grace's actual deep blue pair (many sellers share the title). Spent $0.
 
-Draft route: hands-only + POV through the windshield (no AI face), Grace B voiceover, ~9 shots, Seedance 2.0 Mini clips
+Route (Ralph 2026-10-07: "These are hand and VO videos"): hands-only + POV through the windshield (no AI face), Grace B voiceover, ~9 shots, Seedance 2.0 Mini clips
 from Gemini 3 Pro Image stills. Rough quote ~$2.66 Kie (9 stills $0.81 + 9x5s clips $1.85) + ~600 ElevenLabs chars;
 firm quote goes in the plan message.
 
