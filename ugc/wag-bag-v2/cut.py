@@ -36,7 +36,9 @@ def run(cmd):
 
 def segment(v, k, seg):
     out = TMP / f"v{v['n']}_{k:02d}.mov"
-    key = json.dumps([seg, v["zoom"], v["grade"]], sort_keys=True)
+    import hashlib   # sticker files are part of the cache key (r5: a new outline reused old clips)
+    stk = [hashlib.md5((EMO / q["png"]).read_bytes()).hexdigest() for q in seg.get("pops", [])]
+    key = json.dumps([seg, v["zoom"], v["grade"], stk], sort_keys=True)
     kf = out.with_suffix(".key")
     if out.exists() and kf.exists() and kf.read_text() == key: return out   # unchanged segment: reuse
     src, a = seg["src"], seg["a"]
