@@ -1,0 +1,4 @@
+# Ingrown Hair Roller Serum (Base Laboratories) (Grace), 2026-10-06
+Status: DONE ($0). ONE script (Ralph picked one, 2026-10-06): hook H066 "This is such a specific problem...", pain (shave or wax, Google it, acne cream), solution (salicylic + glycolic acid, CICA, allantoin), how to use from the brand page (clean dry skin, once a day, no rinsing), confession, holiday CTA. ~34s, gate OK. No on-screen text (scripts only job). Drive: Grace Tiktok assets/"Ingrown Hair Roller Serum scripts (Grace)" https://drive.google.com/drive/folders/1CCqdS5vZG5CkWmT9SqJAeeKbxLUkgw9b : "CURRENT - ... script v3" on top; v1 + v2 (3 options) in "Older versions". Waiting on Ralph's review.
+Research: research/coach_notes.md (TikTok coach), research/answer_the_public.md (Google questions), product_facts.md (brand page + TikTok PDP).
+Next: Grace films; after a cut, `tiktok.py compare` vs @my.beard.journey + `gate.py --stage cut`.
