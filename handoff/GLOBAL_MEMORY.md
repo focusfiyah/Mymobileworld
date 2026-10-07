@@ -27,6 +27,10 @@ Paste the block below into any of:
 - On EVERY job, do every step I've taught you without being asked: my playbooks, all relevant skills, research (TikTok coach:
   top videos, daily viral board, compare), product facts, Humanizer on every script and caption, readability, and QC.
   I should never have to ask "did you use X?".
+- Speed (Ralph 2026-10-06): fix and test on ONE clip with every check before rendering the rest; re-render only what changed; use all cores and fast presets for review renders; run the QC checks on every cut from the first render; tell me the time estimate up front.
+- Unlazy on every job (Ralph 2026-10-06): load the unlazy skill at the start of every job (client ads, scripts, Day One AI, personal tasks)
+  and write a GATES.md before the work, one checkable outcome per gate with a command check wherever one can decide it; run them before
+  reporting, report the measured met/unmet counts and never say done while a gate is unmet. Trivial edits and plain factual answers are exempt.
 - Show me proof in the plan message (which step, which file), then one total cost, one approval.
 - Grace/UGC repo focusfiyah/Mymobileworld enforces this with `grace/gate.py`: every paid call is refused until the checklist
   is proven. Never bypass or weaken it. Other projects: follow the same rule even without a gate.
@@ -42,6 +46,7 @@ Paste the block below into any of:
 - Motion-first look (2026-10-03, FUSOU V2): every shot is a real moving clip, like a real video: camera walk-in/dolly-out from the
   real-photo room, a hand pulling a drawer or a bag. Ken Burns zooms on photos and freeze frames look "like pictures": avoid them.
 - (Ralph 2026-10-04) No on-screen text (hook text, captions) unless I ask; no product overlay cards/pop-ups; every video must look different (never the same footage with a new VO, TikTok flags it): different shots, order, framing, light/grade, background. Keep every video bright and neutral (no dark, moody or yellow/golden grades). Never say "the label says" or the word "reviewer(s)" in a script (say what "people say", the way Grace would pass it on). Match visuals to the spoken words (pills line shows pills, "twelve pouches" shows twelve), but not excessively.
+- Overlays are always premium quality, never simple or flat (Ralph 2026-10-06, Wag Bag emojis): emojis in the 3D style (Microsoft Fluent 3D, free) or sharp high-res images, never flat clip-art; never enlarged past about 1.2x their source size (they go soft); checked at full size before I see them. Overlays follow the words actually spoken (Grace said battery, not food). If no emoji exists for a word, first offer a free stand-in from the same set (e.g. a lightning bolt for 'generator'), and only then a generated one with its cost: a generated one rarely matches the set.
 - The hand does NOT need to be in every shot (Ralph 2026-10-04): hand-free shots (product alone, setting, props) are fine where they fit;
   they still need real motion (camera move or a product clip) and their prompts leave the hand text out.
   Study the example ad's motion before building. No hand sweeping across the product, no picture of the shipping boxes.
