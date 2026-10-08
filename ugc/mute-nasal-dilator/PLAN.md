@@ -21,7 +21,7 @@ Gate: `python3 grace/gate.py ugc/mute-nasal-dilator` = **GATE OK** (audience, co
 | S6 | Honestly, the worst part is losing your excuse to kick them at two a.m. | Hand clicks the lamp off, room drops to blue night, camera drifts to the quiet bed | 4 |
 | S7 | Holiday trips mean shared rooms, so grab one for you and one for your dad. It's in the orange cart. | Morning: two boxes on the nightstand, hand slides one forward like a gift, push-in | 6 |
 
-Open question: nose close-up for insertion (side profile, lower nose only, mouth and eyes out of frame, fingertips place the dilator) as S5b inside the S5 line, or skip it. Yes adds one still (+$0.09); clip seconds stay 36.
+DECIDED (Ralph 2026-10-08): nose shot SKIPPED, Grace can ask for it later (preview still stills/S5b.png, dilator shape and framing were off). Was: nose close-up for insertion (side profile, lower nose only, mouth and eyes out of frame, fingertips place the dilator) as S5b inside the S5 line, or skip it. Yes adds one still (+$0.09); clip seconds stay 36.
 
 ## Cost (Kie, 1 credit = $0.005)
 - 7 stills x $0.09 = $0.63 (storyboard shown before any clip); +$0.09 with the nose shot
