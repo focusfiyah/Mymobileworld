@@ -19,8 +19,8 @@ Gate: `python3 grace/gate.py ugc/thunderfit-ring` = GATE OK (audience, coach, vi
 
 ## Cost (Kie, 1 credit = $0.005)
 - 8 stills x $0.09 = $0.72 (storyboard shown before any clip)
-- 38 s of clips x $0.041 = $1.56 (S4 first, then the other 7)
-- Total Kie **$2.28**. ElevenLabs about 640 characters of the plan's credits.
+- 40 s of clips x $0.041 = $1.64 (S4 first, then the other 7; was 38 s, the real voiceover runs 34.8 s so S2 and S8 needed longer clips)
+- Total Kie **$2.36** (was $2.28). ElevenLabs about 640 characters of the plan's credits.
 
 ## Hook options (library)
 A H062 (picked) | B H061 "This is for the people who always take their ring off and lose it." | C H056 gift angle.

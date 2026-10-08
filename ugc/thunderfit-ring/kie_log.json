@@ -216,5 +216,31 @@
    ]
   },
   "costTime": 26
+ },
+ {
+  "t": "2026-10-08 01:28:41",
+  "submitted": "cd9a2c16915e7ffa76ae62e09426aba5",
+  "prompt": "She slides the blue ring all the way down onto her ring finger, then spreads her fingers and gently squeezes the soft ba"
+ },
+ {
+  "t": "2026-10-08 01:30:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "She slides the blue ring all the way down onto her ring finger, then spreads her fingers and gently squeezes the soft band with her thumb, it flexes slightly. The camera pulls back a little as her fingers spread. The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Handheld phone camera, smooth natural motion, real speed, the hand and ring keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791422917813-7355tbgyu9r.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "cd9a2c16915e7ffa76ae62e09426aba5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791423037896-yb11xamhwrf.mp4"
+   ]
+  },
+  "costTime": 118
  }
 ]
