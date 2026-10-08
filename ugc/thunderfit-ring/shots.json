@@ -8,16 +8,17 @@
   {
    "id": "S1",
    "hand": true,
-   "ring": false,
-   "crown": true,
-   "dur": 5,
-   "still": "Close-up at a bright gym: her hand rests on a black padded weight bench next to a clear water bottle, fingers spread, beginning to pinch the silver engagement ring on her ring finger.",
-   "video": "She slides the silver engagement ring off her ring finger and sets it down next to the water bottle, then her hand pulls away. The handheld camera pushes in slowly toward the ring on the bench.",
+   "ring": true,
+   "crown": false,
+   "dur": 4,
+   "still": "Close-up at a bright gym: the blue ring lies on a black padded weight bench next to a clear water bottle, in sharp focus in the centre of the frame; a bare hand with no rings on any finger is just pulling away at the bottom edge of the frame, fingertips leaving the bench.",
+   "video": "The bare hand finishes pulling away out of the bottom of the frame and leaves the blue ring alone on the bench next to the water bottle. The handheld camera pushes in slowly toward the blue ring. No rings on her fingers.",
    "vo": "You know that moment when you take your ring off for the gym and then cannot find it?",
    "t": [
     0.0,
     4.16
-   ]
+   ],
+   "bare": true
   },
   {
    "id": "S2",
