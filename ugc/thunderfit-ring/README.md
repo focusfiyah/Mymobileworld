@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-07). Route: `ugc-product-ad` hands-only (template `../carpe-vanilla-peach/`). Voice: Grace B `bGrsdLmwBbYUgHRuMFOI`, eleven_v4. Format confirmed by Ralph 2026-10-07: hands + voiceover, no talking head.
 
-Status: **2026-10-07: research + script v2 done, GATE OK, plan v1 (PLAN.md) sent: Kie quote $2.28 (8 stills $0.72 + 38s clips $1.56) | NEXT: Ralph sends the real ring photo + approves the plan; then stills -> storyboard -> S4 test clip -> rest -> cut | Kie spent $0 | ElevenLabs 0 chars**
+Status: **2026-10-08: Grace ring + hand photos in refs/, plan v2 | 2026-10-07: research + script v2 done, GATE OK, plan v1 (PLAN.md) sent: Kie quote $2.28 (8 stills $0.72 + 38s clips $1.56) | NEXT: Ralph sends the real ring photo + approves the plan; then stills -> storyboard -> S4 test clip -> rest -> cut | Kie spent $0 | ElevenLabs 0 chars**
 
 ## Product facts so far
 - Amazon: "ThunderFit Silicone Rings Wedding Bands for Her, Birthstone Color Silicone Promise Rings, Women's Rubber Engagement Bands", ASIN B0GP6FRXD2 (page not readable: robots/403).
