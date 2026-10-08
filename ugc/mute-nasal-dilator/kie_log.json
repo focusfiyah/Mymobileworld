@@ -212,5 +212,58 @@
    ]
   },
   "costTime": 86
+ },
+ {
+  "t": "2026-10-08 05:16:55",
+  "submitted": "15b3dd85cfd304a74becc7510976a35d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Morning light on the white bedside table: one Mute Star"
+ },
+ {
+  "t": "2026-10-08 05:17:46",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Morning light on the white bedside table: one Mute Starter Pack box standing upright, front facing the camera, her hand resting flat on top of it. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her own small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The box is the real Mute Starter Pack from the box reference photo: tall charcoal-black box, white lowercase 'mu:te' wordmark with a purple colon, white 'BREATHE MORE / SNORE LESS / SLEEP BETTER', a purple corner flag 'TRY ME FIRST', a round window showing a clear dilator, a purple band 'STARTER PACK / SMALL \u00b7 MEDIUM \u00b7 LARGE', 'RHINOMED LIMITED' at the bottom. Keep every word, colour and proportion exactly as in the reference. Same bedroom in soft morning daylight, pink and white striped cotton sheets, real phone camera look, sharp focus, shallow depth of field, no text except the real box printing, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791425335245-eiz491wl6k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791434064436-n821jnuwdob.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "15b3dd85cfd304a74becc7510976a35d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/15b3dd85cfd304a74becc7510976a35d_0_1791436663.jpeg"
+   ]
+  },
+  "costTime": 48
+ },
+ {
+  "t": "2026-10-08 05:17:50",
+  "submitted": "3f9587c004ff3a56bdcc8f52489ad0ce",
+  "prompt": "She lifts the dilator up out of the tray and gently opens its loop a little wider between two fingertips; the camera arc"
+ },
+ {
+  "t": "2026-10-08 05:20:02",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "She lifts the dilator up out of the tray and gently opens its loop a little wider between two fingertips; the camera arcs slowly around her fingers with a light rack focus. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her own small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The dilator is the real Mute nasal dilator from the tray reference: clear soft plastic, two small ribbed cylindrical stents joined by a thin U-shaped clear bridge loop, about 3 cm wide. The purple tray card holds three of them stacked in a black tray. Keep its exact shape; it is clear, never coloured. Handheld phone camera, smooth natural motion, real speed, the hand, box and dilator keep their exact shape, colour and printing in every frame, no flicker, no morphing, no extra fingers, no new text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791436668358-fmacwmkhy07.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "3f9587c004ff3a56bdcc8f52489ad0ce",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791436796241-d4hh4jtl9pu.mp4"
+   ]
+  },
+  "costTime": 126
  }
 ]
