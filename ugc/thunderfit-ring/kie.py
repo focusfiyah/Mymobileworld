@@ -29,7 +29,7 @@ PROD = "refs/real_ring_packshot.jpg"  # Grace's real December band
 
 def blocks(sid):
     s = SHOTS[sid]
-    return " ".join(([J["identity_block"]] if s["hand"] else []) + ([J["crown_block"]] if s["crown"] else [])
+    return " ".join(([J["identity_bare"] if s.get("bare") else J["identity_block"]] if s["hand"] else []) + ([J["crown_block"]] if s["crown"] else [])
                     + ([J["ring_block"]] if s["ring"] else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
@@ -103,7 +103,7 @@ def fetch(url, out):
 def stills(ids):
     for sid in ids:
         s = SHOTS[sid]
-        refs = ([upload(p) for p in (HAND_BLUE + HAND_NOBLUE if s["ring"] else HAND_NOBLUE)] if s["hand"] else []) \
+        refs = ([upload("refs/hand_dorsal.png")] if s.get("bare") else [upload(p) for p in (HAND_BLUE + HAND_NOBLUE if s["ring"] else HAND_NOBLUE)] if s["hand"] else []) \
             + ([upload(PROD)] if s["ring"] else [])
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_block']}" + ("" if s["ring"] else " There is no blue ring anywhere in this image."))

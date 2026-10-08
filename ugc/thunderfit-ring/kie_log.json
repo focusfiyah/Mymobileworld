@@ -478,5 +478,57 @@
    ]
   },
   "costTime": 138
+ },
+ {
+  "t": "2026-10-08 02:43:55",
+  "submitted": "e97af2365f2a75c02afd00731564ff4a",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up inside a car in daylight: her bare hand with n"
+ },
+ {
+  "t": "2026-10-08 02:44:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up inside a car in daylight: her bare hand with no rings on any finger reaches into the centre console cup holder full of loose coins, a black hair tie and a receipt, fingertips touching the coins. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips. Her hand is completely bare: no rings, no bracelets, no jewellery on any finger or wrist. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark. There is no blue ring anywhere in this image.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791427433012-6mfnqzo5xz7.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e97af2365f2a75c02afd00731564ff4a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e97af2365f2a75c02afd00731564ff4a_0_1791427468.jpeg"
+   ]
+  },
+  "costTime": 34
+ },
+ {
+  "t": "2026-10-08 02:44:46",
+  "submitted": "60844cfcbc6910542a370e82ace619a0",
+  "prompt": "Her bare hand digs quickly through the coins and the hair tie in the cup holder, searching, lifting a coin and dropping "
+ },
+ {
+  "t": "2026-10-08 02:48:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Her bare hand digs quickly through the coins and the hair tie in the cup holder, searching, lifting a coin and dropping it. No rings on any finger. The camera tilts down quickly and follows her hand. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips. Her hand is completely bare: no rings, no bracelets, no jewellery on any finger or wrist. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Handheld phone camera, smooth natural motion, real speed, the hand and ring keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791427484478-yqatl1fuq4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "60844cfcbc6910542a370e82ace619a0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791427715999-g83s93dkjm7.mp4"
+   ]
+  },
+  "costTime": 232
  }
 ]

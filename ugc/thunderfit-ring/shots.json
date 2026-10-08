@@ -25,13 +25,14 @@
    "ring": false,
    "crown": false,
    "dur": 5,
-   "still": "Close-up inside a car in daylight: her fingertips dig into the centre console cup holder full of loose coins, a black hair tie and a receipt. Her ring finger is bare.",
-   "video": "Her fingers dig quickly through the coins and the hair tie in the cup holder, searching, lifting a coin and dropping it. The camera tilts down quickly and follows her hand.",
+   "still": "Close-up inside a car in daylight: her bare hand with no rings on any finger reaches into the centre console cup holder full of loose coins, a black hair tie and a receipt, fingertips touching the coins.",
+   "video": "Her bare hand digs quickly through the coins and the hair tie in the cup holder, searching, lifting a coin and dropping it. No rings on any finger. The camera tilts down quickly and follows her hand.",
    "vo": "It ends up in a cup holder, a coat pocket, or you just stop wearing one.",
    "t": [
     4.16,
     8.48
-   ]
+   ],
+   "bare": true
   },
   {
    "id": "S3",
@@ -121,5 +122,6 @@
  "voice": {
   "name": "Grace B",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI"
- }
+ },
+ "identity_bare": "The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips. Her hand is completely bare: no rings, no bracelets, no jewellery on any finger or wrist. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture."
 }
