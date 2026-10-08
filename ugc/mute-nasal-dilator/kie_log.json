@@ -1,0 +1,29 @@
+[
+ {
+  "t": "2026-10-08 02:08:59",
+  "submitted": "2788747f84301d530f308bb3cd09a815",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side profile macro of the lower nose only, mouth and ey"
+ },
+ {
+  "t": "2026-10-08 02:09:31",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side profile macro of the lower nose only, mouth and eyes out of frame: her fingertips place the clear dilator just inside the nostril, only the clear bridge loop showing. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her own small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The dilator is the real Mute nasal dilator from the tray reference: clear soft plastic, two small ribbed cylindrical stents joined by a thin U-shaped clear bridge loop, about 3 cm wide. The purple tray card holds three of them stacked in a black tray. Keep its exact shape; it is clear, never coloured. Cosy bedroom at night, warm bedside lamp light, pink and white striped cotton sheets, real phone camera look, sharp focus, shallow depth of field, no text except the real box printing, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791425335245-eiz491wl6k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791425337514-467l218pwp3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2788747f84301d530f308bb3cd09a815",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1791425366685-cz9movtyf2k.jpg"
+   ]
+  },
+  "costTime": 27
+ }
+]
