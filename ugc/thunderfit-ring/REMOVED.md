@@ -1,1 +1,2 @@
 - Ralph 2026-10-08: S4 must not put the blue ring on a finger that already wears a ring (blue goes on the bare middle finger, heart ring stays on the index). Old S4 still + clip superseded ($0.09 + $0.205 spent).
+- Checked before sending cut v1 (2026-10-08): no text, no product cards, no old S4 (ring onto a ringed finger), no hand sweep over the ring, no pop-ups. Every shot is its own footage.
