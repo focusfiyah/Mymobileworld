@@ -1,38 +1,36 @@
-"""Free cut: 8 hands-only clips on the trimmed Grace B voiceover, no text overlay (default; Ralph has not asked for one).
+"""Free cut v2: 8 hands-only clips on the trimmed Grace B voiceover, no text overlay (default; Ralph has not asked for one).
 
-  python3 cut.py   -> out/thunderfit_ring_v1.mp4 (720x1280, 24fps)
+  python3 cut.py   -> out/thunderfit_ring_v2.mp4 (720x1280, 24fps)
 
-Windows come from shots.json (vo.py). Every shot is real clip footage at 1.0x (no holds, no Ken Burns). 
+Every shot is real clip footage at 1.0x (no holds, no speed changes, no Ken Burns). Ralph 2026-10-08: the ring must be on the bench at
+the very start, the removal is cut out (S1 uses only its last second), so every shot runs its full useful length back to back and the
+picture leads the words by up to ~2.4 s in the middle and re-syncs at the end (S5 lift lands on "Gym", S8 on the CTA).
+S4 skips its first 1.4 s (ring at the fingertip of a finger that wears a ring, Ralph 2026-10-08).
 """
-import json, subprocess, sys
+import json, subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(ROOT / ".claude/skills/ugc-product-ad/scripts"))
-
-J = json.loads(Path("shots.json").read_text())
-START = {"S4": 1.4, "S5": 0.5}   # S4: skip the first 1.4 s (ring still at the fingertip of the ring-wearing finger, Ralph 2026-10-08); S5 starts 0.72 s early to cover it
-JOIN = {"S4": (13.42, 17.02), "S5": (17.02, 20.42)}   # shot windows moved by the S4 trim
-SRC = {}
-
-Path("inserts").mkdir(exist_ok=True)
+SEGS = [("S1", 4.0, 1.04), ("S2", 0.0, 5.04), ("S3", 0.0, 5.04), ("S4", 1.4, 3.64),
+        ("S5", 0.0, 4.04), ("S6", 0.0, 4.04), ("S7", 0.0, 4.04), ("S8", 0.0, 8.04)]
+VO = "vo/voiceover_tight.mp3"
+total = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", VO],
+                             capture_output=True, text=True).stdout)
 inputs, chains, labels = [], [], []
-for i, s in enumerate(J["shots"]):
-    s["t"] = list(JOIN.get(s["id"], s["t"])); win = s["t"][1] - s["t"][0]; st = START.get(s["id"], 0.0)
-    clip_len = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", SRC.get(s["id"], f"clips/{s['id']}.mp4")],
-                                    capture_output=True, text=True).stdout)
-    assert st + win <= clip_len + 0.05, f"{s['id']} window {win:.2f}s needs more clip than {clip_len - st:.2f}s"
-    inputs += ["-i", SRC.get(s["id"], f"clips/{s['id']}.mp4")]
-    chains.append(f"[{i}:v]trim=start={st}:duration={win:.3f},setpts=PTS-STARTPTS,scale=720:1280,setsar=1,fps=24[v{i}]")
+for i, (sid, st, d) in enumerate(SEGS):
+    cl = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f"clips/{sid}.mp4"],
+                              capture_output=True, text=True).stdout)
+    assert st + d <= cl + 0.05, f"{sid}: needs {st + d:.2f}s of a {cl:.2f}s clip"
+    inputs += ["-i", f"clips/{sid}.mp4"]
+    chains.append(f"[{i}:v]trim=start={st}:duration={d},setpts=PTS-STARTPTS,scale=720:1280,setsar=1,fps=24[v{i}]")
     labels.append(f"[v{i}]")
-n = len(J["shots"]); total = J["shots"][-1]["t"][1]
-chains.append(f"{''.join(labels)}concat=n={n}:v=1:a=0[c0]")
-chains.append("[c0]format=yuv420p[vout]")
-inputs += ["-i", "vo/voiceover_tight.mp3"]
+n = len(SEGS)
+assert sum(d for _, _, d in SEGS) >= total, "footage shorter than the voiceover"
+chains.append(f"{''.join(labels)}concat=n={n}:v=1:a=0,format=yuv420p[vout]")
+inputs += ["-i", VO]
 chains.append(f"[{n}:a]apad,atrim=duration={total},loudnorm=I=-16:TP=-1.5,aresample=44100[aout]")
 Path("out").mkdir(exist_ok=True)
-out = "out/thunderfit_ring_v1.mp4"
-subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chains),
-                "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                "-c:a", "aac", "-b:a", "160k", "-t", str(total), "-movflags", "+faststart", out], check=True)
+out = "out/thunderfit_ring_v2.mp4"
+subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chains), "-map", "[vout]", "-map", "[aout]",
+                "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-b:a", "160k", "-t", str(total),
+                "-movflags", "+faststart", out], check=True)
 print(out, total)
