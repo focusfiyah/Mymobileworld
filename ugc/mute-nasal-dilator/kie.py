@@ -1,4 +1,4 @@
-"""Kie runner for the ThunderFit December ring ad (copied from ugc/lgxnds-creatine). Each paid step writes a preview to approve before the next one.
+"""Kie runner for the Mute nasal dilator ad (copied from ugc/thunderfit-ring). Each paid step writes a preview to approve before the next one.
 
   python3 kie.py stills [ID ...]   Nano Banana Pro stills ($0.09 each) -> stills/<ID>.png + preview/stills_sheet.png
   python3 kie.py clips  [ID ...]   Seedance 2.0 Mini, audio off ($0.041/s) -> clips/<ID>.mp4 + preview/clips_sheet.png
@@ -22,15 +22,15 @@ UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
 SHOTS = {s["id"]: s for s in J["shots"]}
 MAIN = [s["id"] for s in J["shots"]]
-HAND_NOBLUE = ["refs/hand_noblue.jpg"]  # Grace's hand, crown set + heart ring, blue ring cropped out
-HAND_BLUE = ["refs/grace_palm_rings.jpg"]  # palm with the real blue ring
-PROD = "refs/real_ring_packshot.jpg"  # Grace's real December band
+HAND = ["refs/hand_noblue.jpg"]  # Grace's real hand (crown set + heart ring), same as the ring ad
+BOX = "refs/box_front.jpg"  # Grace's real Starter Pack box
+TRAY = "refs/tray_card.jpg"  # purple tray card with the 3 clear dilators
 
 
 def blocks(sid):
     s = SHOTS[sid]
-    return " ".join(([J["identity_block"]] if s["hand"] else []) + ([J["crown_block"]] if s["crown"] else [])
-                    + ([J["ring_block"]] if s["ring"] else []))
+    return " ".join(([J["identity_block"]] if s["hand"] else []) + ([J["box_block"]] if s["box"] else [])
+                    + ([J["dilator_block"]] if s["dilator"] else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json")
@@ -56,7 +56,7 @@ def upload(path):
         return cache[k]
     for attempt in range(4):
         r = requests.post(UPLOAD, headers=HDR, files={"file": (p.name, p.read_bytes())},
-                          data={"uploadPath": "thunderfit-ring"}, timeout=120)
+                          data={"uploadPath": "mute-nasal-dilator"}, timeout=120)
         if r.ok and (r.json().get("data") or {}).get("downloadUrl"):
             break
         time.sleep(2 ** attempt)
@@ -103,10 +103,10 @@ def fetch(url, out):
 def stills(ids):
     for sid in ids:
         s = SHOTS[sid]
-        refs = ([upload(p) for p in (HAND_BLUE + HAND_NOBLUE if s["ring"] else HAND_NOBLUE)] if s["hand"] else []) \
-            + ([upload(PROD)] if s["ring"] else [])
+        refs = ([upload(p) for p in HAND] if s["hand"] else []) + ([upload(BOX)] if s["box"] else []) \
+            + ([upload(TRAY)] if s["dilator"] else [])
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
-                  f"{blocks(sid)} {J['scene_block']}" + ("" if s["ring"] else " There is no blue ring anywhere in this image."))
+                  f"{blocks(sid)} {J['scene_' + s['scene']]}")
         url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs,
                                                               "aspect_ratio": "9:16", "resolution": "1K"}})
         if url:
