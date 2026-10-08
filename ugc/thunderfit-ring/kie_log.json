@@ -530,5 +530,58 @@
    ]
   },
   "costTime": 232
+ },
+ {
+  "t": "2026-10-08 02:50:36",
+  "submitted": "0a4eac0aa1a9709c9fa69d39416fa8d7",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up at a bright gym: the blue ring lies on a black"
+ },
+ {
+  "t": "2026-10-08 02:51:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up at a bright gym: the blue ring lies on a black padded weight bench next to a clear water bottle, in sharp focus in the centre of the frame; a bare hand with no rings on any finger is just pulling away at the bottom edge of the frame, fingertips leaving the bench. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips. Her hand is completely bare: no rings, no bracelets, no jewellery on any finger or wrist. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791427433012-6mfnqzo5xz7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421838630-xszyfzp43ki.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0a4eac0aa1a9709c9fa69d39416fa8d7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1791427860027-k1kv14upoy.jpg"
+   ]
+  },
+  "costTime": 24
+ },
+ {
+  "t": "2026-10-08 02:51:12",
+  "submitted": "fc991d060fbe3fa2db014075de84f150",
+  "prompt": "The bare hand finishes pulling away out of the bottom of the frame and leaves the blue ring alone on the bench next to t"
+ },
+ {
+  "t": "2026-10-08 02:53:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The bare hand finishes pulling away out of the bottom of the frame and leaves the blue ring alone on the bench next to the water bottle. The handheld camera pushes in slowly toward the blue ring. No rings on her fingers. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips. Her hand is completely bare: no rings, no bracelets, no jewellery on any finger or wrist. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Handheld phone camera, smooth natural motion, real speed, the hand and ring keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791427869816-17adutvxs1q.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fc991d060fbe3fa2db014075de84f150",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791428029651-1y25ma1kxjm.mp4"
+   ]
+  },
+  "costTime": 159
  }
 ]
