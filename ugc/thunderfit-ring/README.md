@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-07). Route: `ugc-product-ad` hands-only (template `../carpe-vanilla-peach/`). Voice: Grace B `bGrsdLmwBbYUgHRuMFOI`, eleven_v4. Format confirmed by Ralph 2026-10-07: hands + voiceover, no talking head.
 
-Status: DONE. v4 (one-hand sink shot, Kie $3.458) APPROVED by Ralph 2026-10-10 and in Drive as CURRENT; v3 moved to Older versions.
+Status: DONE. v5 APPROVED by Ralph 2026-10-10 (free: "the beach" cut from the VO so gym/dishes match their shots; sink shot one hand). In Drive as CURRENT with the updated script doc; v3, v4 and script v1 in Older versions. Kie $3.458.
 Drive folder: https://drive.google.com/drive/folders/17g4G8jCvZZe0cuaNocFeF8z-i47ljwA4 (Grace Tiktok assets/ThunderFit Birthstone Ring (Grace)): CURRENT v3 video + script doc, uploaded 2026-10-08, size verified 14,669,869.
 
 ## Product facts so far
