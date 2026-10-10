@@ -1,6 +1,6 @@
 {
  "identity_block": "The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her own small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture.",
- "box_block": "The box is the real Mute Starter Pack from the box reference photo: tall charcoal-black box, white lowercase 'mu:te' wordmark with a purple colon, white 'BREATHE MORE / SNORE LESS / SLEEP BETTER', a purple corner flag 'TRY ME FIRST', a round window showing a clear dilator, a purple band 'STARTER PACK / SMALL · MEDIUM · LARGE', 'RHINOMED LIMITED' at the bottom. Keep every word, colour and proportion exactly as in the reference.",
+ "box_block": "The box is the real Mute Starter Pack from the box reference photo: tall charcoal-black box, white lowercase 'mu:te' wordmark with a purple colon, white 'BREATHE MORE / SNORE LESS / SLEEP BETTER', a purple corner flag 'TRY ME FIRST', a round window showing a clear dilator, a purple band 'STARTER PACK / SMALL \u00b7 MEDIUM \u00b7 LARGE', 'RHINOMED LIMITED' at the bottom. Keep every word, colour and proportion exactly as in the reference.",
  "dilator_block": "The dilator is the real Mute nasal dilator from the tray reference: clear soft plastic, two small ribbed cylindrical stents joined by a thin U-shaped clear bridge loop, about 3 cm wide. The purple tray card holds three of them stacked in a black tray. Keep its exact shape; it is clear, never coloured.",
  "scene_night": "Cosy bedroom at night, warm bedside lamp light, pink and white striped cotton sheets, real phone camera look, sharp focus, shallow depth of field, no text except the real box printing, no watermark.",
  "scene_day": "Same bedroom in soft morning daylight, pink and white striped cotton sheets, real phone camera look, sharp focus, shallow depth of field, no text except the real box printing, no watermark.",
@@ -19,7 +19,11 @@
    "dur": 6,
    "still": "Close-up of the bed edge: her hand grips the corner of a white pillow on the striped sheets, a person-shaped lump under the duvet in the soft background, face never visible.",
    "video": "She grabs the pillow and yanks it off the bed in one quick motion, then walks it out of frame toward the hallway; the handheld camera whips fast after it, swings across the dark hallway and settles on a sofa with a folded blanket.",
-   "vo": "This is for the people who always end up on the couch because somebody will not stop snoring."
+   "vo": "This is for the people who always end up on the couch because somebody will not stop snoring.",
+   "t": [
+    0.0,
+    5.22
+   ]
   },
   {
    "id": "S2",
@@ -30,7 +34,11 @@
    "dur": 5,
    "still": "Bedside table top in lamp light: a pair of orange foam earplugs and a small roll of plain white tape with no brand, her fingers reaching in from the side, an open wooden drawer below.",
    "video": "Her fingers quickly sweep the orange earplugs and the plain tape roll off the table into the open drawer, then her hand bumps the drawer shut with a snap; the camera pushes in fast, then tilts up to the lamp.",
-   "vo": "You've tried nudging them, earplugs, even mouth tape that leaves a circle on your face."
+   "vo": "You've tried nudging them, earplugs, even mouth tape that leaves a circle on your face.",
+   "t": [
+    5.22,
+    10.18
+   ]
   },
   {
    "id": "S3",
@@ -41,7 +49,11 @@
    "dur": 5,
    "still": "Her hand holds the Mute box upright above the striped sheets, front facing the camera, lamp glow behind.",
    "video": "Her hand swings the box up into frame, flips it once in the air and catches it facing the camera, then gives it a little shake; the camera orbits quickly around the box with a handheld sway.",
-   "vo": "This is Mute. It's a tiny clear dilator that sits just inside the nose and gently opens it."
+   "vo": "This is Mute. It's a tiny clear dilator that sits just inside the nose and gently opens it.",
+   "t": [
+    10.18,
+    15.9
+   ]
   },
   {
    "id": "S4",
@@ -52,7 +64,11 @@
    "dur": 4,
    "still": "Top-down on the striped sheets: her fingers pull the purple tray card halfway out of the open Mute box, the three clear dilators visible in the black tray.",
    "video": "Her fingers pull the purple tray card out of the box in one brisk slide and tilt it so the light runs across the three clear dilators; the camera swoops down from above and pushes in close, then drifts sideways.",
-   "vo": "In their trial, seventy-five percent of users said they snored less."
+   "vo": "In their trial, seventy-five percent of users said they snored less.",
+   "t": [
+    15.9,
+    19.7
+   ]
   },
   {
    "id": "S5",
@@ -64,7 +80,11 @@
    "test": true,
    "still": "Macro: her thumb and index fingertip hold one clear Mute dilator by its U-shaped bridge, just lifted out of the purple tray card below, lamp light catching the clear plastic.",
    "video": "She lifts the dilator up out of the tray and gently opens its loop a little wider between two fingertips; the camera arcs slowly around her fingers with a light rack focus.",
-   "vo": "The starter pack comes with all three sizes, so you find the one that fits, and each one lasts up to ten nights."
+   "vo": "The starter pack comes with all three sizes, so you find the one that fits, and each one lasts up to ten nights.",
+   "t": [
+    19.7,
+    25.56
+   ]
   },
   {
    "id": "S6",
@@ -75,7 +95,11 @@
    "dur": 4,
    "still": "Bedside table: her hand reaches for the switch of the warm bedside lamp, the empty purple tray card lying next to it.",
    "video": "Her hand slaps the lamp switch off and the room drops into soft blue night; she pulls the sheet up over the bed in one sweep; the camera glides fast along the bed and pushes in on the quiet bedside.",
-   "vo": "Honestly, the worst part is losing your excuse to kick them at two a.m."
+   "vo": "Honestly, the worst part is losing your excuse to kick them at two a.m.",
+   "t": [
+    25.56,
+    29.5
+   ]
   },
   {
    "id": "S7",
@@ -86,7 +110,11 @@
    "dur": 6,
    "still": "Morning light on the white bedside table: one Mute Starter Pack box standing upright, front facing the camera, her hand resting flat on top of it.",
    "video": "Her hand taps the top of the box twice, then she slides the box quickly forward toward the camera like a gift and spins it a quarter turn to face the lens; the camera pushes in fast with a slight handheld sway.",
-   "vo": "Holiday trips mean shared rooms, so grab one for you and one for your dad. It's in the orange cart."
+   "vo": "Holiday trips mean shared rooms, so grab one for you and one for your dad. It's in the orange cart.",
+   "t": [
+    29.5,
+    34.81
+   ]
   }
  ],
  "optional_nose_shot": {
