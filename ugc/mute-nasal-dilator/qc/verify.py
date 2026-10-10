@@ -1,6 +1,6 @@
 """QC for the cut: python3 -I qc/verify.py  -> prints each gate OK/FAIL (flash, sync, levels, speed)."""
 import json, re, subprocess, sys
-J = json.load(open("shots.json")); F = "out/mute_nasal_dilator_r2.mp4"
+J = json.load(open("shots.json")); F = "out/mute_nasal_dilator_r3.mp4"
 def run(c): return subprocess.run(c, capture_output=True, text=True)
 def dur(f, s="format"): return float(run(["ffprobe","-v","error","-show_entries",f"{s}=duration","-of","csv=p=0",f]).stdout.split()[0])
 ok = True
