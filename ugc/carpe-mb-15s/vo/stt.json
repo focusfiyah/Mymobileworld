@@ -1,0 +1,744 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9717127680778503,
+ "text": "If you also hate when sweat shows through your shirt, look at this. Wet spots by noon? Carpe Mountain Breeze is clinically tested for up to 100 hours of sweat and odor control. Pea size, dry skin at night. Only downside? You'll want a spare. Party season's coming. It's in the orange cart.",
+ "words": [
+  {
+   "text": "If",
+   "start": 0.1,
+   "end": 0.18,
+   "type": "word",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": " ",
+   "start": 0.18,
+   "end": 0.22,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "you",
+   "start": 0.22,
+   "end": 0.4,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 0.4,
+   "end": 0.48,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "also",
+   "start": 0.48,
+   "end": 0.82,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 0.82,
+   "end": 0.88,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "hate",
+   "start": 0.88,
+   "end": 1.06,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 1.06,
+   "end": 1.1,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "when",
+   "start": 1.1,
+   "end": 1.26,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.26,
+   "end": 1.3,
+   "type": "spacing",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": "sweat",
+   "start": 1.3,
+   "end": 1.48,
+   "type": "word",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": " ",
+   "start": 1.48,
+   "end": 1.56,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "shows",
+   "start": 1.56,
+   "end": 1.8,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 1.8,
+   "end": 1.82,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "through",
+   "start": 1.82,
+   "end": 1.94,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.94,
+   "end": 1.98,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "your",
+   "start": 1.98,
+   "end": 2.06,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 2.06,
+   "end": 2.16,
+   "type": "spacing",
+   "logprob": -6.198863957251888e-06
+  },
+  {
+   "text": "shirt,",
+   "start": 2.16,
+   "end": 2.4,
+   "type": "word",
+   "logprob": -5.165719964376573e-06
+  },
+  {
+   "text": " ",
+   "start": 2.4,
+   "end": 2.86,
+   "type": "spacing",
+   "logprob": -0.00029595286468975246
+  },
+  {
+   "text": "look",
+   "start": 2.86,
+   "end": 2.96,
+   "type": "word",
+   "logprob": -0.00029595286468975246
+  },
+  {
+   "text": " ",
+   "start": 2.96,
+   "end": 3.0,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "at",
+   "start": 3.0,
+   "end": 3.14,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 3.14,
+   "end": 3.2,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "this.",
+   "start": 3.2,
+   "end": 3.58,
+   "type": "word",
+   "logprob": -1.6689293715899112e-07
+  },
+  {
+   "text": " ",
+   "start": 3.58,
+   "end": 4.04,
+   "type": "spacing",
+   "logprob": -9.083335316972807e-05
+  },
+  {
+   "text": "Wet",
+   "start": 4.04,
+   "end": 4.18,
+   "type": "word",
+   "logprob": -9.083335316972807e-05
+  },
+  {
+   "text": " ",
+   "start": 4.18,
+   "end": 4.28,
+   "type": "spacing",
+   "logprob": -6.318072337307967e-06
+  },
+  {
+   "text": "spots",
+   "start": 4.28,
+   "end": 4.54,
+   "type": "word",
+   "logprob": -6.318072337307967e-06
+  },
+  {
+   "text": " ",
+   "start": 4.54,
+   "end": 4.58,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "by",
+   "start": 4.58,
+   "end": 4.78,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 4.78,
+   "end": 4.84,
+   "type": "spacing",
+   "logprob": -4.410734163684538e-06
+  },
+  {
+   "text": "noon?",
+   "start": 4.84,
+   "end": 5.14,
+   "type": "word",
+   "logprob": -4.792201798409223e-06
+  },
+  {
+   "text": " ",
+   "start": 5.14,
+   "end": 5.14,
+   "type": "spacing",
+   "logprob": -0.0008320921915583313
+  },
+  {
+   "text": "Carpe",
+   "start": 5.56,
+   "end": 5.86,
+   "type": "word",
+   "logprob": -0.0005112237486173399
+  },
+  {
+   "text": " ",
+   "start": 5.86,
+   "end": 5.94,
+   "type": "spacing",
+   "logprob": -0.01616232842206955
+  },
+  {
+   "text": "Mountain",
+   "start": 5.94,
+   "end": 6.18,
+   "type": "word",
+   "logprob": -0.01616232842206955
+  },
+  {
+   "text": " ",
+   "start": 6.18,
+   "end": 6.26,
+   "type": "spacing",
+   "logprob": -0.004963694605976343
+  },
+  {
+   "text": "Breeze",
+   "start": 6.26,
+   "end": 6.58,
+   "type": "word",
+   "logprob": -0.004963694605976343
+  },
+  {
+   "text": " ",
+   "start": 6.58,
+   "end": 6.62,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "is",
+   "start": 6.62,
+   "end": 6.8,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 6.8,
+   "end": 6.86,
+   "type": "spacing",
+   "logprob": -3.1470757676288486e-05
+  },
+  {
+   "text": "clinically",
+   "start": 6.86,
+   "end": 7.32,
+   "type": "word",
+   "logprob": -3.1470757676288486e-05
+  },
+  {
+   "text": " ",
+   "start": 7.32,
+   "end": 7.36,
+   "type": "spacing",
+   "logprob": -1.3232143828645349e-05
+  },
+  {
+   "text": "tested",
+   "start": 7.36,
+   "end": 7.78,
+   "type": "word",
+   "logprob": -1.3232143828645349e-05
+  },
+  {
+   "text": " ",
+   "start": 7.78,
+   "end": 7.82,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "for",
+   "start": 7.82,
+   "end": 7.92,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 7.92,
+   "end": 7.96,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "up",
+   "start": 7.96,
+   "end": 8.08,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 8.08,
+   "end": 8.14,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "to",
+   "start": 8.14,
+   "end": 8.22,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 8.22,
+   "end": 8.44,
+   "type": "spacing",
+   "logprob": -4.172316494077677e-06
+  },
+  {
+   "text": "100",
+   "start": 8.44,
+   "end": 8.84,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 8.84,
+   "end": 8.94,
+   "type": "spacing",
+   "logprob": -7.748573807475623e-06
+  },
+  {
+   "text": "hours",
+   "start": 8.94,
+   "end": 9.24,
+   "type": "word",
+   "logprob": -7.748573807475623e-06
+  },
+  {
+   "text": " ",
+   "start": 9.24,
+   "end": 9.28,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "of",
+   "start": 9.28,
+   "end": 9.42,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.42,
+   "end": 9.48,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "sweat",
+   "start": 9.48,
+   "end": 9.74,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 9.74,
+   "end": 9.76,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "and",
+   "start": 9.76,
+   "end": 9.84,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.84,
+   "end": 9.94,
+   "type": "spacing",
+   "logprob": -1.2755313036905136e-05
+  },
+  {
+   "text": "odor",
+   "start": 9.94,
+   "end": 10.1,
+   "type": "word",
+   "logprob": -1.2755313036905136e-05
+  },
+  {
+   "text": " ",
+   "start": 10.1,
+   "end": 10.18,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "control.",
+   "start": 10.18,
+   "end": 10.62,
+   "type": "word",
+   "logprob": -5.215404925706935e-07
+  },
+  {
+   "text": " ",
+   "start": 10.62,
+   "end": 10.64,
+   "type": "spacing",
+   "logprob": -0.007012754213064909
+  },
+  {
+   "text": "Pea",
+   "start": 11.08,
+   "end": 11.22,
+   "type": "word",
+   "logprob": -0.007012754213064909
+  },
+  {
+   "text": " ",
+   "start": 11.22,
+   "end": 11.32,
+   "type": "spacing",
+   "logprob": -0.016060156747698784
+  },
+  {
+   "text": "size,",
+   "start": 11.32,
+   "end": 11.7,
+   "type": "word",
+   "logprob": -0.012848578392959099
+  },
+  {
+   "text": " ",
+   "start": 11.7,
+   "end": 11.98,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "dry",
+   "start": 11.98,
+   "end": 12.18,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 12.18,
+   "end": 12.28,
+   "type": "spacing",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": "skin",
+   "start": 12.28,
+   "end": 12.6,
+   "type": "word",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": " ",
+   "start": 12.6,
+   "end": 12.96,
+   "type": "spacing",
+   "logprob": -0.005233753472566605
+  },
+  {
+   "text": "at",
+   "start": 12.96,
+   "end": 13.08,
+   "type": "word",
+   "logprob": -0.005233753472566605
+  },
+  {
+   "text": " ",
+   "start": 13.08,
+   "end": 13.14,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "night.",
+   "start": 13.14,
+   "end": 13.4,
+   "type": "word",
+   "logprob": -3.9736420376357273e-07
+  },
+  {
+   "text": " ",
+   "start": 13.4,
+   "end": 13.98,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "Only",
+   "start": 13.98,
+   "end": 14.2,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 14.2,
+   "end": 14.22,
+   "type": "spacing",
+   "logprob": -2.3603161025675945e-05
+  },
+  {
+   "text": "downside?",
+   "start": 14.22,
+   "end": 14.78,
+   "type": "word",
+   "logprob": -0.0476561716043054
+  },
+  {
+   "text": " ",
+   "start": 14.78,
+   "end": 15.18,
+   "type": "spacing",
+   "logprob": -2.264974000354414e-06
+  },
+  {
+   "text": "You'll",
+   "start": 15.2,
+   "end": 15.36,
+   "type": "word",
+   "logprob": -1.3510373169841234e-06
+  },
+  {
+   "text": " ",
+   "start": 15.36,
+   "end": 15.4,
+   "type": "spacing",
+   "logprob": -1.2993727978027891e-05
+  },
+  {
+   "text": "want",
+   "start": 15.4,
+   "end": 15.52,
+   "type": "word",
+   "logprob": -1.2993727978027891e-05
+  },
+  {
+   "text": " ",
+   "start": 15.52,
+   "end": 15.58,
+   "type": "spacing",
+   "logprob": -1.8954096958623268e-05
+  },
+  {
+   "text": "a",
+   "start": 15.58,
+   "end": 15.66,
+   "type": "word",
+   "logprob": -1.8954096958623268e-05
+  },
+  {
+   "text": " ",
+   "start": 15.66,
+   "end": 15.76,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "spare.",
+   "start": 15.76,
+   "end": 16.059,
+   "type": "word",
+   "logprob": -5.364415850787433e-07
+  },
+  {
+   "text": " ",
+   "start": 16.059,
+   "end": 16.52,
+   "type": "spacing",
+   "logprob": -0.000161038784426637
+  },
+  {
+   "text": "Party",
+   "start": 16.52,
+   "end": 16.74,
+   "type": "word",
+   "logprob": -0.000161038784426637
+  },
+  {
+   "text": " ",
+   "start": 16.74,
+   "end": 16.82,
+   "type": "spacing",
+   "logprob": -8.22540732769994e-06
+  },
+  {
+   "text": "season's",
+   "start": 16.82,
+   "end": 17.16,
+   "type": "word",
+   "logprob": -6.228660126339491e-06
+  },
+  {
+   "text": " ",
+   "start": 17.16,
+   "end": 17.2,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "coming.",
+   "start": 17.2,
+   "end": 17.54,
+   "type": "word",
+   "logprob": -2.2138865521778177e-07
+  },
+  {
+   "text": " ",
+   "start": 17.54,
+   "end": 17.9,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "It's",
+   "start": 17.9,
+   "end": 18.0,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 18.0,
+   "end": 18.04,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "in",
+   "start": 18.04,
+   "end": 18.1,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 18.1,
+   "end": 18.14,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "the",
+   "start": 18.14,
+   "end": 18.2,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 18.2,
+   "end": 18.26,
+   "type": "spacing",
+   "logprob": -0.00023314618738368154
+  },
+  {
+   "text": "orange",
+   "start": 18.26,
+   "end": 18.46,
+   "type": "word",
+   "logprob": -0.00023314618738368154
+  },
+  {
+   "text": " ",
+   "start": 18.46,
+   "end": 18.54,
+   "type": "spacing",
+   "logprob": -4.2676016164477915e-05
+  },
+  {
+   "text": "cart.",
+   "start": 18.54,
+   "end": 18.76,
+   "type": "word",
+   "logprob": -0.001555364130763337
+  }
+ ],
+ "transcription_id": "HRhgY6aRep2GqGS2xfhX",
+ "audio_duration_secs": 18.96
+}
