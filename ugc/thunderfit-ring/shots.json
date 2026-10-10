@@ -1,0 +1,128 @@
+{
+ "identity_block": "The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture.",
+ "ring_block": "The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue.",
+ "crown_block": "On the ring finger she wears her silver crown-style engagement ring set with a round clear stone, as in the reference.",
+ "scene_block": "Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark.",
+ "video_suffix": "Handheld phone camera, smooth natural motion, real speed, the hand and ring keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+ "shots": [
+  {
+   "id": "S1",
+   "hand": true,
+   "ring": true,
+   "crown": false,
+   "dur": 4,
+   "still": "Close-up at a bright gym: the blue ring lies on a black padded weight bench next to a clear water bottle, in sharp focus in the centre of the frame; a bare hand with no rings on any finger is just pulling away at the bottom edge of the frame, fingertips leaving the bench.",
+   "video": "The bare hand finishes pulling away out of the bottom of the frame and leaves the blue ring alone on the bench next to the water bottle. The handheld camera pushes in slowly toward the blue ring. No rings on her fingers.",
+   "vo": "You know that moment when you take your ring off for the gym and then cannot find it?",
+   "t": [
+    0.0,
+    4.16
+   ],
+   "bare": true
+  },
+  {
+   "id": "S2",
+   "hand": true,
+   "ring": false,
+   "crown": false,
+   "dur": 5,
+   "still": "Close-up inside a car in daylight: her bare hand with no rings on any finger reaches into the centre console cup holder full of loose coins, a black hair tie and a receipt, fingertips touching the coins.",
+   "video": "Her bare hand digs quickly through the coins and the hair tie in the cup holder, searching, lifting a coin and dropping it. No rings on any finger. The camera tilts down quickly and follows her hand.",
+   "vo": "It ends up in a cup holder, a coat pocket, or you just stop wearing one.",
+   "t": [
+    4.16,
+    8.48
+   ],
+   "bare": true
+  },
+  {
+   "id": "S3",
+   "hand": true,
+   "ring": true,
+   "crown": false,
+   "dur": 5,
+   "still": "Next to a bright window with sheer white curtains: her fingertips hold the blue ring up at eye level between thumb and index finger, light catching its pearly sheen. Her ring finger is bare.",
+   "video": "She lifts the blue ring into frame and slowly turns it between her fingertips so the sheen rolls across the band. The camera orbits slightly around her hand.",
+   "vo": "This is the ThunderFit silicone ring, and this blue is December, blue topaz.",
+   "t": [
+    8.48,
+    13.42
+   ]
+  },
+  {
+   "id": "S4",
+   "hand": true,
+   "ring": true,
+   "crown": false,
+   "dur": 5,
+   "still": "Close-up by the same bright window: her hand with the small gold heart ring on the index finger, the middle finger bare, and the blue ring held at the tip of the bare middle finger by her other hand's thumb and index finger, about to be pushed on.",
+   "video": "She pulls the blue ring off her fingertip and holds it between the thumbs and index fingers of both hands, then gently stretches it wider and lets it spring back, so the soft flexible band bends and relaxes. The blue band keeps its exact thin width and shape and stays blue. She does not put the ring on any finger. The gold heart ring stays on her index finger. The camera pulls back a little.",
+   "vo": "It's soft, it's so light you forget it's on, and there's no metal in it.",
+   "t": [
+    13.42,
+    17.74
+   ]
+  },
+  {
+   "id": "S5",
+   "hand": true,
+   "ring": true,
+   "crown": false,
+   "dur": 4,
+   "still": "Bright gym: her hand wearing the blue ring on the ring finger wraps around the black handle of a small hex dumbbell resting on the rubber floor.",
+   "video": "Her hand grips the dumbbell handle firmly and lifts it up off the floor. The camera tracks upward with the dumbbell.",
+   "vo": "Gym, dishes, the beach, just leave it on.",
+   "t": [
+    17.74,
+    20.42
+   ]
+  },
+  {
+   "id": "S6",
+   "hand": true,
+   "ring": true,
+   "crown": false,
+   "dur": 4,
+   "still": "Bright white kitchen sink, close-up: a single hand wearing the blue ring on the ring finger holds a white plate by its rim under the running tap, water splashing over the plate. Only this one hand is in the frame, nothing else holds the plate.",
+   "video": "She rinses the plate under the running water, turning it slightly, water flowing over her fingers and the blue ring. One hand only, no second hand appears at any point. The camera dollies slowly sideways.",
+   "vo": "If it ever catches on something, it's made to break away.",
+   "t": [
+    20.42,
+    23.4
+   ]
+  },
+  {
+   "id": "S7",
+   "hand": false,
+   "ring": true,
+   "crown": false,
+   "dur": 4,
+   "still": "On a light wooden dresser in morning light: the blue ring lies in a small round white ceramic trinket dish, a small plant blurred behind.",
+   "video": "The blue ring rolls a little in the dish and settles to a stop. The camera pushes in slowly toward it.",
+   "vo": "Honestly, the hard part is picking a month. They have all twelve.",
+   "t": [
+    23.4,
+    27.2
+   ]
+  },
+  {
+   "id": "S8",
+   "hand": true,
+   "ring": true,
+   "crown": false,
+   "dur": 8,
+   "still": "On a white table: a small open white gift box holds TWO identical blue rings side by side on white padding, a loose white satin ribbon beside it; her hand wearing a blue ring on the ring finger rests at the box lid.",
+   "video": "Her hand slides the white drawer box fully open, then pulls the white ribbon across the table. The camera pushes in toward the two blue rings in the box.",
+   "vo": "December birthdays and the holidays are close, so grab one for you and one for the friend who always loses hers. It's in the orange cart.",
+   "t": [
+    27.2,
+    34.79
+   ]
+  }
+ ],
+ "voice": {
+  "name": "Grace B",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI"
+ },
+ "identity_bare": "The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips. Her hand is completely bare: no rings, no bracelets, no jewellery on any finger or wrist. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture."
+}
