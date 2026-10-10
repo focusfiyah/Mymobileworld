@@ -2,7 +2,7 @@
 
 **Client: Grace** (Ralph, 2026-10-07). Route: `ugc-product-ad` hands-only (template `../carpe-vanilla-peach/`). Voice: Grace B `bGrsdLmwBbYUgHRuMFOI`, eleven_v4. Format confirmed by Ralph 2026-10-07: hands + voiceover, no talking head.
 
-Status: **2026-10-08: CUT v3 DONE `out/thunderfit_ring_v3.mp4` (34.8 s, ring on the bench from 0:00 per Ralph, 8 real clips, Grace B VO, no text), QC + gate (cut stage) OK, sent to Ralph | NEXT: Ralph review, then Drive "Grace Tiktok assets/ThunderFit Birthstone Ring (Grace)" | Kie spent $3.204 (cap $2.655 raised by Ralph for the bare-hand S2 + gym opener redos) (stills $0.81, clips $1.845); ElevenLabs ~640 chars. Rebuild: `python3 cut.py`, QC: `python3 -I qc/verify.py`**
+Status: CUT v4 DONE (2026-10-10): S6 sink redone with one hand only (Ralph: two left hands), Kie $3.458 (+$0.254, approved). v3 still the CURRENT file in Drive until Ralph OKs v4.
 Drive folder: https://drive.google.com/drive/folders/17g4G8jCvZZe0cuaNocFeF8z-i47ljwA4 (Grace Tiktok assets/ThunderFit Birthstone Ring (Grace)): CURRENT v3 video + script doc, uploaded 2026-10-08, size verified 14,669,869.
 
 ## Product facts so far
