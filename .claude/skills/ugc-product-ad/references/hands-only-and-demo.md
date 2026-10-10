@@ -20,7 +20,7 @@ prompts carry no hand text.
    write to the client's rules, record the VO (eleven_v4), get word timings with scribe_v2, and cut a free timing
    animatic. Shot windows come from the word timings.
 2. **Before the first paid still, ask:** product top/cap/label from a real photo, nail length/hand details, client.
-3. **Still S1 first** (Nano Banana Pro on Kie, 1K 9:16, $0.09 = 18 credits): refs = hand crops + product crops.
+3. **Still S1 first, ALONE (Ralph 2026-10-07: never all stills at once; the approved S1 then goes in as the look + product reference for every other still; nails in text only, no long-nail hand refs; underarm shots framed below the shoulder)** (Nano Banana Pro on Kie, 1K 9:16, $0.09 = 18 credits): refs = hand crops + product crops.
    Show it, wait. S1 then doubles as the room reference for every later still (room continuity worked).
 4. **Remaining stills on one sheet**, ask first ($0.09 each). Pin product shape in close-ups ("the same tall
    oval stick as in every other shot, not a short round jar"): macro prompts drift the shape.
