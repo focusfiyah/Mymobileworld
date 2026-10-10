@@ -3,3 +3,4 @@
 - Ralph 2026-10-08: no ring-removal shot at the start (ring must already be on the bench at 0:00); S1 uses only its last second.
 - Ralph 2026-10-08: no heart ring (or any ring on the hand) in the cup-holder shot: S2 redone bare-handed ($0.295). Old S2 in old/. Gym opener: blue birthstone ring must show from the first frame (S1 redo pending his OK, $0.254).
 - Checked v3 (2026-10-08): no text, no cards, blue ring on the bench at frame 0, no heart or silver ring before the blue ring is shown, S4 never puts the ring on a ringed finger.
+- S6 two hands (old/S6_two_hands*.png/mp4): second hand held the plate, read as two left hands; replaced 2026-10-10

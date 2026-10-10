@@ -583,5 +583,137 @@
    ]
   },
   "costTime": 159
+ },
+ {
+  "t": "2026-10-10 11:24:48",
+  "submitted": "d3a5ea517271b24058d39e52b9635bc2",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: ONE single hand on"
+ },
+ {
+  "t": "2026-10-10 11:24:55",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: ONE single hand only, her right hand seen from the back, wearing the blue ring on the ring finger, holds a white plate by its rim under the running tap, water splashing over the plate. No second hand anywhere in the frame; the plate is held by this one hand only, and the thumb is on the correct side for a right hand. Exactly one hand and one wrist visible. The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421836008-zq9fl16zch.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421780333-zawxdqgbzqh.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421838630-xszyfzp43ki.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d3a5ea517271b24058d39e52b9635bc2",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-10 11:25:00",
+  "submitted": "0aabd3b63bfa7267d394f2be498e5450",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: ONE single hand on"
+ },
+ {
+  "t": "2026-10-10 11:25:26",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: ONE single hand only, her right hand seen from the back, wearing the blue ring on the ring finger, holds a white plate by its rim under the running tap, water splashing over the plate. No second hand anywhere in the frame; the plate is held by this one hand only, and the thumb is on the correct side for a right hand. Exactly one hand and one wrist visible. The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421836008-zq9fl16zch.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421780333-zawxdqgbzqh.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421838630-xszyfzp43ki.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0aabd3b63bfa7267d394f2be498e5450",
+  "fail": [
+   "400",
+   "Inappropriate content detected. Please replace the image or video."
+  ]
+ },
+ {
+  "t": "2026-10-10 11:25:36",
+  "submitted": "54f9937cb80132310d3e35cd2f29e1aa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: a single hand wear"
+ },
+ {
+  "t": "2026-10-10 11:25:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: a single hand wearing the blue ring on the ring finger holds a white plate by its rim under the running tap, water splashing over the plate. Only this one hand is in the frame, nothing else holds the plate. The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421836008-zq9fl16zch.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421780333-zawxdqgbzqh.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791421838630-xszyfzp43ki.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "54f9937cb80132310d3e35cd2f29e1aa",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-10 11:25:55",
+  "submitted": "58e85820dd44f811cef91c351977694c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: a single hand wear"
+ },
+ {
+  "t": "2026-10-10 11:26:53",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright white kitchen sink, close-up: a single hand wearing the blue ring on the ring finger holds a white plate by its rim under the running tap, water splashing over the plate. Only this one hand is in the frame, nothing else holds the plate. The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Bright natural daylight, clean neutral colours, sharp focus on the hand, shallow depth of field, real phone camera look, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791631548897-xtakc572ykm.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791631551027-9bvtfohowyl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791631553095-hvknproc8hu.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "58e85820dd44f811cef91c351977694c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/58e85820dd44f811cef91c351977694c_0_1791631605.jpeg"
+   ]
+  },
+  "costTime": 52
+ },
+ {
+  "t": "2026-10-10 11:27:19",
+  "submitted": "45239289d1a4c22518c904d8795b3ea4",
+  "prompt": "She rinses the plate under the running water, turning it slightly, water flowing over her fingers and the blue ring. One"
+ },
+ {
+  "t": "2026-10-10 11:29:57",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "She rinses the plate under the running water, turning it slightly, water flowing over her fingers and the blue ring. One hand only, no second hand appears at any point. The camera dollies slowly sideways. The hand is Grace's real hand from the reference photos: warm brown skin, square medium-length nails painted pink with crisp white French tips, a small gold ring with a clear heart-shaped stone on one finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The blue ring is the ThunderFit silicone band from the ring reference photo: a smooth domed classic-width band about 5 mm wide, pearlescent medium blue with a soft satin sheen, solid colour, no stone, no logo, no pattern. Keep its exact shape, width and blue. Handheld phone camera, smooth natural motion, real speed, the hand and ring keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-ring/1791631635408-tgoayy73yye.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "45239289d1a4c22518c904d8795b3ea4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791631793242-7rpvb15vveh.mp4"
+   ]
+  },
+  "costTime": 156
  }
 ]
