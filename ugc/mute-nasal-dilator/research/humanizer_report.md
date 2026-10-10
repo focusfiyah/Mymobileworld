@@ -10,3 +10,6 @@
 | "With the holidays coming" | vague urgency | "Holiday trips mean shared rooms" (real seasonal reason) |
 Hook line left word for word (H061). No dashes, no "order it now", no "heads up", no price. Caption (below) checked the same way.
 Caption: "the couch era is over 😴 one tiny clear piece, three sizes in the starter pack #ad #snoring #nasaldilator #sleeptok #mute"
+
+## v3 trim (2026-10-10, Ralph: shorten the voice)
+Only cuts, no new wording except two joins: line 2 drops "that leaves a circle on your face"; line 3 "This is Mute. It's a tiny clear dilator that sits just inside the nose and gently opens it." -> "This is Mute, a tiny clear dilator that gently opens your nose." (box: "Gently opens the nose"); line 5 drops "so you find the one that fits". Hook line unchanged (H061 word for word). 98 words, no dashes, no "order it now", no "heads up", no price. Contractions kept.

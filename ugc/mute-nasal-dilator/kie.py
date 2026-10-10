@@ -20,7 +20,7 @@ def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call unti
 API = "https://api.kie.ai/api/v1/jobs"
 UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
-SHOTS = {s["id"]: s for s in J["shots"]}
+SHOTS = {s["id"]: s for s in J["shots"] + J.get("extra", [])}
 MAIN = [s["id"] for s in J["shots"]]
 HAND = ["refs/hand_noblue.jpg"]  # Grace's real hand (crown set + heart ring), same as the ring ad
 BOX = "refs/box_front.jpg"  # Grace's real Starter Pack box

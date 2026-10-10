@@ -22,7 +22,7 @@
    "vo": "This is for the people who always end up on the couch because somebody will not stop snoring.",
    "t": [
     0.0,
-    5.22
+    5.16
    ]
   },
   {
@@ -34,10 +34,10 @@
    "dur": 5,
    "still": "Bedside table top in lamp light: a pair of orange foam earplugs and a small roll of plain white tape with no brand, her fingers reaching in from the side, an open wooden drawer below.",
    "video": "Her fingers quickly sweep the orange earplugs and the plain tape roll off the table into the open drawer, then her hand bumps the drawer shut with a snap; the camera pushes in fast, then tilts up to the lamp.",
-   "vo": "You've tried nudging them, earplugs, even mouth tape that leaves a circle on your face.",
+   "vo": "You've tried nudging them, earplugs, even mouth tape.",
    "t": [
-    5.22,
-    10.18
+    5.16,
+    8.5
    ]
   },
   {
@@ -49,10 +49,10 @@
    "dur": 5,
    "still": "Her hand holds the Mute box upright above the striped sheets, front facing the camera, lamp glow behind.",
    "video": "Her hand swings the box up into frame, flips it once in the air and catches it facing the camera, then gives it a little shake; the camera orbits quickly around the box with a handheld sway.",
-   "vo": "This is Mute. It's a tiny clear dilator that sits just inside the nose and gently opens it.",
+   "vo": "This is Mute, a tiny clear dilator that gently opens your nose.",
    "t": [
-    10.18,
-    15.9
+    8.5,
+    12.74
    ]
   },
   {
@@ -66,8 +66,8 @@
    "video": "Her fingers pull the purple tray card out of the box in one brisk slide and tilt it so the light runs across the three clear dilators; the camera swoops down from above and pushes in close, then drifts sideways.",
    "vo": "In their trial, seventy-five percent of users said they snored less.",
    "t": [
-    15.9,
-    19.7
+    12.74,
+    16.48
    ]
   },
   {
@@ -80,10 +80,10 @@
    "test": true,
    "still": "Macro: her thumb and index fingertip hold one clear Mute dilator by its U-shaped bridge, just lifted out of the purple tray card below, lamp light catching the clear plastic.",
    "video": "She lifts the dilator up out of the tray and gently opens its loop a little wider between two fingertips; the camera arcs slowly around her fingers with a light rack focus.",
-   "vo": "The starter pack comes with all three sizes, so you find the one that fits, and each one lasts up to ten nights.",
+   "vo": "The starter pack has all three sizes, and each one lasts up to ten nights.",
    "t": [
-    19.7,
-    25.56
+    16.48,
+    20.66
    ]
   },
   {
@@ -97,8 +97,8 @@
    "video": "Her hand slaps the lamp switch off and the room drops into soft blue night; she pulls the sheet up over the bed in one sweep; the camera glides fast along the bed and pushes in on the quiet bedside.",
    "vo": "Honestly, the worst part is losing your excuse to kick them at two a.m.",
    "t": [
-    25.56,
-    29.5
+    20.66,
+    24.5
    ]
   },
   {
@@ -112,8 +112,8 @@
    "video": "Her hand taps the top of the box twice, then she slides the box quickly forward toward the camera like a gift and spins it a quarter turn to face the lens; the camera pushes in fast with a slight handheld sway.",
    "vo": "Holiday trips mean shared rooms, so grab one for you and one for your dad. It's in the orange cart.",
    "t": [
-    29.5,
-    34.81
+    24.5,
+    29.91
    ]
   }
  ],
@@ -122,5 +122,19 @@
   "dur": 3,
   "still": "Side profile macro of the lower nose only, mouth and eyes out of frame: her fingertips place the clear dilator just inside the nostril, only the clear bridge loop showing.",
   "video": "Her fingertips ease the dilator into place and the hand slides away out of frame; the camera holds steady on the side profile, mouth never in frame."
- }
+ },
+ "extra": [
+  {
+   "id": "S0",
+   "hand": true,
+   "box": false,
+   "dilator": true,
+   "scene": "night",
+   "dur": 4,
+   "first_frame": "stills/S5.png",
+   "still": "(uses stills/S5.png as the first frame)",
+   "video": "Her thumb and index fingertip hold the clear dilator steady by its bridge and lift it up toward the camera, her wrist turning slowly so the front of the U shape faces the lens, then she tilts it to catch the lamp light; the camera pushes in slowly then arcs gently around her fingers. The dilator stays rigid and keeps its exact shape, two small ribbed stents joined by a U-shaped bridge, it never bends or flexes.",
+   "vo": ""
+  }
+ ]
 }

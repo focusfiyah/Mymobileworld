@@ -1,10 +1,10 @@
 {
  "scripts": [
   "scripts.md",
-  "research/v2_script.txt"
+  "research/v3_script.txt"
  ],
  "vo_lines": [
-  "research/v2_script.txt"
+  "research/v3_script.txt"
  ],
  "playbook": {
   "proof": [
@@ -50,7 +50,7 @@
  },
  "readability": {
   "proof": [
-   "research/v2_readability.txt"
+   "research/v3_readability.txt"
   ],
   "note": "tiktok.py readability output for each script (grade must be <= 6)"
  },
