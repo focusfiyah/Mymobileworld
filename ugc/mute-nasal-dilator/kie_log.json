@@ -421,5 +421,55 @@
    ]
   },
   "costTime": 180
+ },
+ {
+  "t": "2026-10-10 11:55:50",
+  "submitted": "6c23ee13de51268481af59aa37701f7c",
+  "prompt": "Her thumb and index fingertip hold the clear dilator steady by its bridge and lift it up toward the camera, her wrist tu"
+ },
+ {
+  "t": "2026-10-10 11:55:57",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Her thumb and index fingertip hold the clear dilator steady by its bridge and lift it up toward the camera, her wrist turning slowly so the front of the U shape faces the lens, then she tilts it to catch the lamp light; the camera pushes in slowly then arcs gently around her fingers. The dilator stays rigid and keeps its exact shape, two small ribbed stents joined by a U-shaped bridge, it never bends or flexes. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her own small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The dilator is the real Mute nasal dilator from the tray reference: clear soft plastic, two small ribbed cylindrical stents joined by a thin U-shaped clear bridge loop, about 3 cm wide. The purple tray card holds three of them stacked in a black tray. Keep its exact shape; it is clear, never coloured. Handheld phone camera, smooth natural motion, real speed, the hand, box and dilator keep their exact shape, colour and printing in every frame, no flicker, no morphing, no extra fingers, no new text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791436668358-fmacwmkhy07.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6c23ee13de51268481af59aa37701f7c",
+  "fail": [
+   "400",
+   "The parameter `content[0].image_url` specified in the request is not valid: resource not found."
+  ]
+ },
+ {
+  "t": "2026-10-10 11:56:45",
+  "submitted": "83933031e358b0cb9c5b8ec50985f34f",
+  "prompt": "Her thumb and index fingertip hold the clear dilator steady by its bridge and lift it up toward the camera, her wrist tu"
+ },
+ {
+  "t": "2026-10-10 11:58:20",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Her thumb and index fingertip hold the clear dilator steady by its bridge and lift it up toward the camera, her wrist turning slowly so the front of the U shape faces the lens, then she tilts it to catch the lamp light; the camera pushes in slowly then arcs gently around her fingers. The dilator stays rigid and keeps its exact shape, two small ribbed stents joined by a U-shaped bridge, it never bends or flexes. The hand is Grace's real hand from the reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her own small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand enters from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The dilator is the real Mute nasal dilator from the tray reference: clear soft plastic, two small ribbed cylindrical stents joined by a thin U-shaped clear bridge loop, about 3 cm wide. The purple tray card holds three of them stacked in a black tray. Keep its exact shape; it is clear, never coloured. Handheld phone camera, smooth natural motion, real speed, the hand, box and dilator keep their exact shape, colour and printing in every frame, no flicker, no morphing, no extra fingers, no new text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mute-nasal-dilator/1791633403611-ahecmithpfn.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "83933031e358b0cb9c5b8ec50985f34f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791633495541-8pxsh8s7169.mp4"
+   ]
+  },
+  "costTime": 91
  }
 ]

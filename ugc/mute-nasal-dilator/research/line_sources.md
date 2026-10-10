@@ -8,3 +8,9 @@
 | The starter pack comes with all three sizes, so you find the one that fits, and each one lasts up to ten nights. | Box "Try all 3 sizes", Starter Pack S/M/L; "Reusable up to 10 nights"; @thehelpmom "see which one fits you best"; comment "don't have to throw away every morning"; PLAYBOOK §2 remove uncertainty |
 | Honestly, the worst part is losing your excuse to kick them at two a.m. | PLAYBOOK §1 honest sell-side confession; winners' joking partner tone ("3AM guess what woke me up") |
 | Holiday trips mean shared rooms, so grab one for you and one for your dad. It's in the orange cart. | PLAYBOOK §4 real urgency + CTA sells more units (gift); comment "My dad needs this"; winner "now I'm mad I didn't buy more"; Grace close |
+
+## v3 changes (2026-10-10)
+- Line 2 "You've tried nudging them, earplugs, even mouth tape." : same sources as v2 line 2 (audience "earplugs for snoring partner", winner "Trust me, don't try mouth tape for snoring" 1.7M), shortened.
+- Line 3 "This is Mute, a tiny clear dilator that gently opens your nose." : product_facts.md box "Gently opens the nose".
+- Line 5 "The starter pack has all three sizes, and each one lasts up to ten nights." : box "Try all 3 sizes", Starter Pack S/M/L, "Reusable up to 10 nights"; comment "don't have to throw away every morning".
+- Lines 1, 4, 6, 7 unchanged from v2 (see above).
