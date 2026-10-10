@@ -117,6 +117,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 
 - **Wag Bag v2 (Grace), 2026-10-06:** 5 real-footage videos (~30-34s): Grace's 5 NEW hook takes + 5 NEW body takes + the 2026-09-30 Part 3 (NASA poop powder, box on toilet) and Part 4 (12 kits, orange cart) takes, one take set per video, emoji pops on the hook (Ralph asked), $0. In Drive: Grace Tiktok assets/WagBag Final Edits (CURRENT - V1..V5 + captions doc; 09-30 set in 'Older versions (2026-09-30 set)'). V1/V2 "shit" hooks kept as filmed (Ralph 2026-10-06). r5 in Drive (2026-10-07): hook overlays are real photo stickers with a black outline (water, battery, brandless generator from Pixabay with the logo removed) + 3D poop and question mark, $0; r3 + r4 in Older versions. `ugc/wag-bag-v2/README.md`.
 
+- **Mute Starter Pack nasal dilator (Grace), 2026-10-08/10:** hands + VO AI ad, 29.9s, S0 dilator opener, real box print pasted back (`boxfix.py`), r4 APPROVED, in Drive (Grace Tiktok assets/Mute Nasal Dilator (Grace), folder 1C_vHSUItdACCoMOPgJmfagyYyav03rHx); Kie $2.86. `ugc/mute-nasal-dilator/README.md`.
+
 - **Jean Rameau (client #2, multi-service), 2026-10-05:** own repo focusfiyah/jean-rameau (Ralph asked for a separate repo). First service Diaspo Auto School (Brooklyn): opt-in lead funnel + ElevenLabs AI caller that vets and books, scraped referral partners. TCPA: AI calls only consented leads. Read that repo's README + PLAN.md.
 
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
