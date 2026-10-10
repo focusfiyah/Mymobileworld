@@ -1,6 +1,6 @@
 """Free cut: 7 hands-only clips on the trimmed Grace B voiceover, no text overlay (Ralph has not asked for one).
 
-  python3 cut.py   -> out/mute_nasal_dilator_r3.mp4 (720x1280, 24fps)
+  python3 cut.py   -> out/mute_nasal_dilator_r4.mp4 (720x1280, 24fps)
 
 Windows come from shots.json (vo.py). Every shot is real clip footage at 1.0x (no holds, no Ken Burns). 
 """
@@ -12,9 +12,10 @@ sys.path.insert(0, str(ROOT / ".claude/skills/ugc-product-ad/scripts"))
 
 J = json.loads(Path("shots.json").read_text())
 # ordered plan: (shot id, clip start, window start, window end). S0 (dilator held up) opens on hook line 1, S1 pillow shot finishes it.
-PLAN = [("S0", 0.0, 0.0, 2.6), ("S1", 0.0, 2.6, 5.16), ("S2", 0.0, 5.16, 8.5), ("S3", 0.0, 8.5, 12.74), ("S4", 0.0, 12.74, 16.48),
-        ("S5", 0.0, 16.48, 20.66), ("S6", 0.0, 20.66, 24.5), ("S7", 0.0, 24.5, 29.91)]
-SRC = {"S3": "fix/S3_fixed.mp4", "S4": "fix/S4_hybrid.mp4", "S7": "fix/S7_fixed.mp4"}   # real box print pasted over the AI box (boxfix.py)
+PLAN = [("S0", 0.0, 0.0, 2.6), ("S1", 0.0, 2.6, 5.16), ("S2", 0.0, 5.16, 8.5), ("S3", 0.0, 8.5, 13.24), ("S4", 0.0, 13.24, 14.74),
+        ("S4b", 2.5, 14.74, 16.18), ("S5", 0.0, 16.18, 20.66), ("S6", 0.0, 20.66, 24.5), ("S7", 0.0, 24.5, 29.91)]
+# S4b: same clip after the box under the tray melts away (clip 1.6-2.4 s skipped, Ralph 2026-10-10 "why does the box disappear")
+SRC = {"S3": "fix/S3_fixed.mp4", "S4": "fix/S4_hybrid.mp4", "S4b": "clips/S4.mp4", "S7": "fix/S7_fixed.mp4"}   # real box print pasted over the AI box (boxfix.py)
 
 Path("inserts").mkdir(exist_ok=True)
 inputs, chains, labels = [], [], []
@@ -31,7 +32,7 @@ chains.append("[c0]format=yuv420p[vout]")
 inputs += ["-i", "vo/voiceover_tight.mp3"]
 chains.append(f"[{n}:a]apad,atrim=duration={total},loudnorm=I=-16:TP=-1.5,aresample=44100[aout]")
 Path("out").mkdir(exist_ok=True)
-out = "out/mute_nasal_dilator_r3.mp4"
+out = "out/mute_nasal_dilator_r4.mp4"
 subprocess.run(["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(chains),
                 "-map", "[vout]", "-map", "[aout]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                 "-c:a", "aac", "-b:a", "160k", "-t", str(total), "-movflags", "+faststart", out], check=True)
