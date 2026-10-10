@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:318: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 48 of 156 videos posted since 2026-08-08
+48 videos -> ugc/thunderfit-ring/research/tag/tag-siliconering.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    544,600  10.8   0.38  112 2026-08-08  @oyasumisushi: Sometimes people have bad opinions (myself included) and that’s okay. 
+                                          https://www.tiktok.com/@oyasumisushi/video/7671664323005074701
+    211,300   1.2   0.24   13 2026-08-22  @lymonline: #rinfit #siliconerings #tiktokshopcreatorpicks 
+                                          https://www.tiktok.com/@lymonline/video/7676919443712249118
+    140,000   1.1   0.23  126 2026-09-15  @tiffanyleann1.0: Can’t go wrong with any of them 💖 #siliconerings #engagementring @Rinf
+                                          https://www.tiktok.com/@tiffanyleann1.0/video/7685813748346457375
+    102,200   0.7   0.11   50 2026-08-08  @harleyshriner: 
+                                          https://www.tiktok.com/@harleyshriner/video/7671624077341330718
+     41,400   0.6   0.13   23 2026-08-09  @tiffanyleann1.0: Less constricting 🤏🏻🔥 #siliconerings #engagementring #ring #rinfit @Ri
+                                          https://www.tiktok.com/@tiffanyleann1.0/video/7671799756959599903
+     26,800   0.8   0.15  149 2026-09-29  @tiffanyleann1.0: Replying to @Jordan | Mom • Wife • Nurse 🌺 love a good collection! #si
+                                          https://www.tiktok.com/@tiffanyleann1.0/video/7690775368965377311
+     22,700   3.7   0.31   22 2026-10-02  @reeserrelly: This Rinfit silicone ring is so nice for the gym or vacation #silicone
+                                          https://www.tiktok.com/@reeserrelly/video/7692134669894094111
+     22,600   0.3   0.03    7 2026-09-21  @britta2017: #rinfit #siliconerings #siliconeweddingring 
+                                          https://www.tiktok.com/@britta2017/video/7687783700989316383
+     21,200   8.9   0.75  197 2026-08-25  @rozeris000: new funky jewelry setup! @Body Art Forms @Ask & Embla Official #earstr
+                                          https://www.tiktok.com/@rozeris000/video/7677778652540439822
+     17,900   0.7   0.08   73 2026-09-08  @justamomfinds: How freaking pretty!!! #siliconering #bridesoftiktok @Rinfit Rings 
+                                          https://www.tiktok.com/@justamomfinds/video/7683298124051254559
+     14,200   4.5   0.22   45 2026-08-29  @brushwithbritt: Helppppp💍 @qalo @ThunderFit Rings @Enso Rings @Groove Life @Rinfit Rin
+                                          https://www.tiktok.com/@brushwithbritt/video/7679584681465072926
+     11,600   1.0   0.09   81 2026-08-09  @maltiverse: People Be so Judgmental of Things For 0 Reasons or 0 Experiences in li
+                                          https://www.tiktok.com/@maltiverse/video/7672094778649005343
+      4,381   8.5   0.27   94 2026-08-10  @chelseah0929: Silicone rings. Thoughts? #marriage #bluecollar #bluecollarwife #bluec
+                                          https://www.tiktok.com/@chelseah0929/video/7672527186926112014
+      3,910   0.8   0.13   12 2026-08-22  @thicknstrong33: Silicone Ring With Bling! #thicknstrong #ring #siliconerings #silicone
+                                          https://www.tiktok.com/@thicknstrong33/video/7676875293641952526
+      3,864   0.8   0.03   54 2026-08-19  @mommaellis: Thin & sturdy silicone wedding bands #siliconering #travelring #weddin
+                                          https://www.tiktok.com/@mommaellis/video/7675842199786982687
