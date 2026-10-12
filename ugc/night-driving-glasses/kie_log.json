@@ -1,0 +1,30 @@
+[
+ {
+  "t": "2026-10-12 19:24:02",
+  "submitted": "9853e8cd4f409e8a3c581122db108172",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Center console of the car at night in soft dashboard li"
+ },
+ {
+  "t": "2026-10-12 19:26:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Center console of the car at night in soft dashboard light: a pair of ordinary thin black metal rectangular prescription glasses with clear lenses lies open on the console. Grace's hand enters from the right frame edge with the whole wrist visible and holds the deep blue night driving glasses by the side of the frame, open, just above the black glasses, about to lower them over them. The blue pair is clearly bigger than the black pair. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips with small holes, no logo on the front. Keep the exact shape, colours and proportions; one pair only unless the shot says otherwise. Inside a car at night, soft dashboard glow, dark night outside lit by streetlights and passing headlights, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1791833034756-ekpsd6miqnk.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1791833037514-odh7x5ifysp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1791833040034-pbp3yy08tde.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9853e8cd4f409e8a3c581122db108172",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9853e8cd4f409e8a3c581122db108172_0_1791833169.jpeg"
+   ]
+  },
+  "costTime": 127
+ }
+]
