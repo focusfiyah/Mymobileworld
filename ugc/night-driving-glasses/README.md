@@ -1,9 +1,6 @@
 # Night vision driving glasses, fit-over, deep blue frame (Grace)
 
-Status: PAUSED 2026-10-07 (Ralph: birthstone ring video first; resume on his word). research + draft script v0 (`research/v0_script.txt`, grade 3.7, ~36s). BLOCKED on (1) network: this
-project's built-in cloud environment refuses tiktok.com, api.kie.ai, api.elevenlabs.io and Google autocomplete (tested
-2026-10-07), so coach research, viral board, audience.py and every paid step wait for Ralph to select the "My World"
-environment; (2) a photo/listing link of Grace's actual deep blue pair (many sellers share the title). Spent $0.
+Status: 2026-10-12 PLAN SENT, waiting on Ralph's approval. Gate OK (script v2 humanized, `scripts.md`, grade 3.7, ~37s). Quote Kie $2.655 (9 Gemini 3 Pro Image stills $0.81 + 9 Seedance 2.0 Mini clips, 45s x $0.041 = $1.845) + ~620 ElevenLabs chars (Grace B). Spent $0. Coach note: TikTok video pages return 'Site Maintenance' from the cloud IP; winners pulled from hashtag pages instead (`coach_tagvid.py`, same tiktok.py functions).
 
 Route (Ralph 2026-10-07: "These are hand and VO videos"): hands-only + POV through the windshield (no AI face), Grace B voiceover, ~9 shots, Seedance 2.0 Mini clips
 from Gemini 3 Pro Image stills. Rough quote ~$2.66 Kie (9 stills $0.81 + 9x5s clips $1.85) + ~600 ElevenLabs chars;
