@@ -1,74 +1,103 @@
-[
- {
-  "id": "S1",
-  "vo": "You know that moment when those new headlights come at you and everything goes white?",
-  "shot": "From frame 0: the deep blue pair rests open on the dashboard in the sharp foreground, lenses facing the road, filling the lower third. Behind it, through the windshield at night, an oncoming car's LED headlights bloom until the background washes white; the glasses stay sharp and identical. No hand.",
-  "hand": false,
-  "product": true,
-  "dur": 5
+{
+ "identity_block": "The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture.",
+ "glasses_block": "The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips with small holes, no logo on the front. Keep the exact shape, colours and proportions; one pair only unless the shot says otherwise.",
+ "scene_night": "Inside a car at night, soft dashboard glow, dark night outside lit by streetlights and passing headlights, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+ "scene_dusk": "Inside a car at dusk, deep blue evening sky, warm city and street lights, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+ "video_suffix": "Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+ "voice": {
+  "name": "Grace B",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI"
  },
- {
-  "id": "S2",
-  "vo": "You squint at the line on the road and just hope you're still in your lane.",
-  "shot": "Low POV on the white edge line as a car passes; one hand on the steering wheel enters from the bottom edge (no forearm).",
-  "hand": true,
-  "product": false,
-  "dur": 5
- },
- {
-  "id": "S3",
-  "vo": "And if you wear glasses, it's even worse.",
-  "shot": "Close-up of a pair of regular clear prescription glasses on the dashboard, headlight starbursts flaring in the lenses.",
-  "hand": false,
-  "product": false,
-  "dur": 4
- },
- {
-  "id": "S4",
-  "vo": "These are night driving glasses that go right over your regular ones.",
-  "shot": "TEST CLIP (riskiest). On the center console, the hand pinches the deep blue pair by the temples and lowers it over the regular glasses so they nest inside. Real-photo refs.",
-  "hand": true,
-  "product": true,
-  "dur": 5
- },
- {
-  "id": "S5",
-  "vo": "The yellow lens is polarized, so it cuts the glare from oncoming headlights.",
-  "shot": "POV through the yellow lens (deep blue frame rim visible at the top and sides of the frame), oncoming headlights look softer and warmer.",
-  "hand": false,
-  "product": true,
-  "dur": 5
- },
- {
-  "id": "S6",
-  "vo": "And look, there's a little yellow window on each side, so the glare can't sneak in from the side.",
-  "shot": "Side close-up of the frame: hand holds it by the black temple tip, slow camera push to the small yellow side window; streetlight glints. Never rotates.",
-  "hand": true,
-  "product": true,
-  "dur": 6
- },
- {
-  "id": "S7",
-  "vo": "Honestly, why did nobody tell us about these sooner?",
-  "shot": "The pair resting folded on the dashboard at dusk, slow push-in, city lights soft behind. No hand.",
-  "hand": false,
-  "product": true,
-  "dur": 4
- },
- {
-  "id": "S8",
-  "vo": "Girls, the clocks go back November first, so it's dark on the drive home.",
-  "shot": "Early-evening suburban street through the windshield, sky already dark blue, cars with lights on. No hand, no product.",
-  "hand": false,
-  "product": false,
-  "dur": 5
- },
- {
-  "id": "S9",
-  "vo": "Keep a pair in your car and grab one for your mom. It's in the orange cart.",
-  "shot": "Hand tucks one deep blue pair into the car door pocket; a second identical pair rests on the passenger seat. Push-in hold to the end.",
-  "hand": true,
-  "product": true,
-  "dur": 6
- }
-]
+ "shots": [
+  {
+   "id": "S1",
+   "hand": false,
+   "glasses": true,
+   "scene": "night",
+   "dur": 5,
+   "vo": "You know that moment when those new headlights come at you and everything goes white?",
+   "still": "Low camera on the dashboard looking out through the windshield at a dark two-lane road at night. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples unfolded, lenses facing the road, filling the lower third of the frame. An oncoming car's bright white LED headlights glare through the windshield behind them with starburst flare.",
+   "video": "The oncoming headlights grow brighter and closer until the background blooms almost white, then the car passes and the road darkens again; the glasses on the dashboard stay sharp, still and unchanged in the foreground; slow subtle push-in."
+  },
+  {
+   "id": "S2",
+   "hand": true,
+   "glasses": false,
+   "scene": "night",
+   "dur": 5,
+   "vo": "You squint at the line on the road and just hope you're still in your lane.",
+   "still": "Driver's point of view at night: Grace's hand rests on the bottom of the steering wheel, entering from the bottom frame edge with the wrist visible, looking down a dark road at the white edge line lit by an oncoming car's harsh glare.",
+   "video": "The car drives forward, an oncoming car's headlights flare and pass on the left, the hand grips the wheel a little tighter; slight natural road shake."
+  },
+  {
+   "id": "S3",
+   "hand": false,
+   "glasses": false,
+   "scene": "night",
+   "dur": 4,
+   "vo": "And if you wear glasses, it's even worse.",
+   "still": "Close-up on the dashboard at night of a pair of ordinary thin black metal rectangular prescription glasses with clear lenses, folded; headlight glare from passing cars makes bright starburst reflections in the clear lenses.",
+   "video": "Passing headlights sweep across, starburst reflections flare and slide across the clear lenses; slow push-in."
+  },
+  {
+   "id": "S4",
+   "hand": true,
+   "glasses": true,
+   "scene": "night",
+   "dur": 5,
+   "vo": "These are night driving glasses that go right over your regular ones.",
+   "still": "Center console of the car at night in soft dashboard light: a pair of ordinary thin black metal rectangular prescription glasses with clear lenses lies open on the console. Grace's hand enters from the right frame edge with the whole wrist visible and holds the deep blue night driving glasses by the side of the frame, open, just above the black glasses, about to lower them over them. The blue pair is clearly bigger than the black pair.",
+   "video": "The hand slowly lowers the deep blue pair straight down over the black prescription glasses until the black glasses sit nested inside the larger blue frame, then lets go and slides out of the right frame edge; the camera holds steady with a slight push-in."
+  },
+  {
+   "id": "S5",
+   "hand": false,
+   "glasses": true,
+   "scene": "night",
+   "dur": 5,
+   "vo": "The yellow lens is polarized, so it cuts the glare from oncoming headlights.",
+   "still": "Driver's point of view looking through the yellow lens of the night driving glasses at night: the deep blue frame rim is softly blurred along the top and side edges of the picture; through the yellow lens the road and an oncoming car's headlights look warm yellow and softer, with no harsh starburst.",
+   "video": "The car drives forward, the oncoming car approaches and passes, its headlights stay soft and warm yellow behind the lens; gentle road motion."
+  },
+  {
+   "id": "S6",
+   "hand": true,
+   "glasses": true,
+   "scene": "night",
+   "dur": 6,
+   "vo": "And look, there's a little yellow window on each side, so the glare can't sneak in from the side.",
+   "still": "Extreme close-up side view of the night driving glasses inside the car at night: Grace's hand enters from the bottom frame edge with the wrist visible and holds the pair by the black rubber temple tip; the small D-shaped yellow side window is in sharp focus, warm streetlight bokeh behind.",
+   "video": "Slow camera push-in toward the small yellow side window while warm streetlight glints slide across it; the hand stays still and the glasses never rotate."
+  },
+  {
+   "id": "S7",
+   "hand": false,
+   "glasses": true,
+   "scene": "dusk",
+   "dur": 4,
+   "vo": "Honestly, why did nobody tell us about these sooner?",
+   "still": "The deep blue night driving glasses resting folded on the dashboard at dusk, soft city lights blurred behind the windshield.",
+   "video": "Slow push-in toward the glasses while the city lights twinkle and drift in the bokeh; the glasses stay still."
+  },
+  {
+   "id": "S8",
+   "hand": false,
+   "glasses": false,
+   "scene": "dusk",
+   "dur": 5,
+   "vo": "Girls, the clocks go back November first, so it's dark on the drive home.",
+   "still": "Looking through the windshield of a parked car on a quiet suburban street in early evening, the sky already deep dark blue, houses with warm porch lights, a car passing with its headlights on.",
+   "video": "A car passes with its headlights on and the streetlights glow warmer as the sky darkens; slight handheld drift."
+  },
+  {
+   "id": "S9",
+   "hand": true,
+   "glasses": true,
+   "scene": "night",
+   "dur": 6,
+   "vo": "Keep a pair in your car and grab one for your mom. It's in the orange cart.",
+   "still": "Inside the car at night: Grace's hand enters from the right frame edge with the whole wrist visible and tucks one folded pair of the deep blue night driving glasses into the driver's door pocket; a second identical folded deep blue pair rests on the passenger seat.",
+   "video": "The hand slides the folded pair down into the door pocket and leaves the frame; the camera pans to the second identical pair on the passenger seat and pushes in, holding on it to the end."
+  }
+ ]
+}

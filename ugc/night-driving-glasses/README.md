@@ -1,6 +1,6 @@
 # Night vision driving glasses, fit-over, deep blue frame (Grace)
 
-Status: 2026-10-12 PLAN SENT, waiting on Ralph's approval. Gate OK (script v2 humanized, `scripts.md`, grade 3.7, ~37s). Quote Kie $2.655 (9 Gemini 3 Pro Image stills $0.81 + 9 Seedance 2.0 Mini clips, 45s x $0.041 = $1.845) + ~620 ElevenLabs chars (Grace B). Spent $0. Coach note: TikTok video pages return 'Site Maintenance' from the cloud IP; winners pulled from hashtag pages instead (`coach_tagvid.py`, same tiktok.py functions).
+Status: 2026-10-12 APPROVED ($2.655 cap). Still S4 v1 made ($0.09 spent): product right, but held sideways by two hands; asked Ralph: redo $0.09 front-facing (recommended) or keep; nails came out long (asked). Next: S4 decision, then the other 8 stills on one sheet.
 
 Route (Ralph 2026-10-07: "These are hand and VO videos"): hands-only + POV through the windshield (no AI face), Grace B voiceover, ~9 shots, Seedance 2.0 Mini clips
 from Gemini 3 Pro Image stills. Rough quote ~$2.66 Kie (9 stills $0.81 + 9x5s clips $1.85) + ~600 ElevenLabs chars;
