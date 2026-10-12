@@ -13,7 +13,7 @@ from **recurring affiliate links** in the description (not AdSense).
 - **Code and records:** GitHub `focusfiyah/Dayone-ai`, branch **main** (source of truth; the daily runs push there).
   Read its `CLAUDE.md` first. It holds the live status and handoff notes and outranks this skill if they disagree.
   - `produce.py`: renderer (cards, stitched web-page captures, cursor/highlight animation, ElevenLabs TTS, ffmpeg).
-  - `yt.py`: YouTube via Ralph's own Google OAuth client (`auth-url`, `exchange`, `whoami`, `upload`, `desc`, `thumb`, `publish`).
+  - `yt.py`: YouTube via Ralph's own Google OAuth client (`auth-url`, `exchange`, `whoami`, `upload`, `desc`, `thumb`, `publish`, `comment`).
   - `config.json`: voices, contrast voice roster, affiliate links, FTC disclosure. `data/covered.json`: covered and rejected tools.
   - `jobs/<slug>/job.json`: one script per video (template: `jobs/elevenlabs-v4-audio-tags/job.json`).
   - `brand/`: channel art (`avatar.png`, `banner.png`, `render.py`). `.secrets/yt_refresh.enc`: encrypted YouTube token.
@@ -61,6 +61,9 @@ from **recurring affiliate links** in the description (not AdSense).
 2. **Script:** `jobs/<slug>/job.json`, 8–12 segments, ~3 min. Shots: `web` (url + highlight/scroll; `start` = text to begin the capture at on long pages) or `card`.
    `sample` is a string (default demo voice), or `[["Matilda","..."],["George","..."]]` for several voices;
    `sample_voice` overrides the voice for one segment. `thumb_crop_y` picks the thumbnail region; badge "JUST LAUNCHED".
+   Engagement (Ralph 2026-10-12, 0 comments in 2 weeks): every job has `comment_question` (one easy pick-an-option question
+   about the viewer's own use), said in the outro and posted after publishing with `yt.py comment jobs/<slug>` (Ralph pins it;
+   never promise a future video). Segment 0 opens with the result the viewer gets; launch news second.
 3. **Render:** `python3 produce.py jobs/<slug>/job.json --seg N` for each N, then `--final` (`--dry` = free silent test).
    Verify: 6-frame contact sheet, duration, audio level; run speech-to-text (scribe_v2) on demo lines if tags matter.
    Then `--short` renders the daily Short from the job's `short` block (see below) and gets verified the same way.
