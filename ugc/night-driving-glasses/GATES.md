@@ -14,5 +14,5 @@ Scope: research, gated + humanized script, still storyboard and ONE plan message
 - [x] G3: still storyboard (free, no paid generation) built and sent
   EVIDENCE: /mnt/project-files/night-driving-glasses/storyboard_v1.png (free, sent 2026-10-12)
 
-- [ ] G4: plan message sent with every template field and one total cost; no paid call made
+- [x] G4: plan message sent with every template field and one total cost; no paid call made
   EVIDENCE: pending
