@@ -90,7 +90,8 @@ and ask questions, do not assume, because that's how we waste time and money."
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - **Report the running total against the quote at every paid step.**
 - **Phone notification at every review point** (Ralph, 2026-10-01: "Make that a standard"): he leaves the app, so
-  send a PushNotification (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is
+  email him (Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`, to life22watch@gmail.com; sessions have no push
+  tool) plus PushNotification when it exists (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is
   ready, or a redo needs his OK. Send the file with SendUserFile first. Not for routine progress.
 - **Delivering to Google Drive** (Ralph, 2026-10-01): use both the Google Drive connector and Composio `googledrive`;
   if one fails, use the other. Videos go through Composio `GOOGLEDRIVE_UPLOAD_FROM_URL` after hosting the file on
