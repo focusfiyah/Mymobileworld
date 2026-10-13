@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:318: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 55 of 161 videos posted since 2026-08-14
+55 videos -> research/coach/tag-mouserepellent.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  3,100,000   1.3   0.32   68 2026-09-24  @wrldoflyrics_: If you keep a clean house and think you don’t need these… watch this b
+                                          https://www.tiktok.com/@wrldoflyrics_/video/7689185394939710750
+  2,400,000   0.5   0.09   26 2026-09-04  @pastorskinner: just keep pouches away from where kids or pets can grab them #garageha
+                                          https://www.tiktok.com/@pastorskinner/video/7681748314198527263
+  1,500,000   1.4   0.36   44 2026-10-03  @_millie1k: Soon as it gets cold, here they come 😭🐭 #repellents #mouserepellent #m
+                                          https://www.tiktok.com/@_millie1k/video/7692239987319786766
+  1,400,000   1.8   0.38   60 2026-09-29  @wrldoflyrics_: If you keep a clean house and think you don't need these... watch this
+                                          https://www.tiktok.com/@wrldoflyrics_/video/7691007776465685791
+    874,100   0.9   0.25   52 2026-09-29  @wrldoflyrics_: If you keep a clean house and think you don't need these... watch this
+                                          https://www.tiktok.com/@wrldoflyrics_/video/7690994320060599582
+    757,900   0.6   0.13   46 2026-10-08  @_millie1k: Soon as it gets cold, here they come 😭🐭 #repellents #mouserepellent #m
+                                          https://www.tiktok.com/@_millie1k/video/7694357404107951374
+    602,400   0.5   0.09   30 2026-09-09  @fasilawan302: Say goodbye to secondary pollution! If you have children or pets at ho
+                                          https://www.tiktok.com/@fasilawan302/video/7683470567499926806
+    569,300   1.0   0.27   40 2026-09-29  @_millie1k: Don’t get caught this winter without these in your home 🏠 #repellents 
+                                          https://www.tiktok.com/@_millie1k/video/7690804606367993102
+    481,200   0.8   0.18  126 2026-09-25  @sofyrerepellent: 🐭 Mice inside your home? Don’t just deal with the one you see. Place S
+                                          https://www.tiktok.com/@sofyrerepellent/video/7689355951043824909
+    437,200   0.6   0.12   25 2026-10-03  @nuvorahome26: My kitchen had a mouse problem… here’s what I tried 👀 #RepelloMate #Mo
+                                          https://www.tiktok.com/@nuvorahome26/video/7692432889174101262
+    403,900   1.2   0.15   34 2026-10-06  @homewithhannah2: SXZ-Say goodbye to secondary pollution! If you have children or pets a
+                                          https://www.tiktok.com/@homewithhannah2/video/7693466597075275030
+    398,900   1.0    0.2   64 2026-10-05  @dosufinds: repelente natural para ratones, cómo evitar ratones en casa, repelente
+                                          https://www.tiktok.com/@dosufinds/video/7693016428542250270
+    380,900   0.7   0.18   40 2026-08-16  @dusty.dubs.99: This mouse repellent spray not only smells great but it will repel mic
+                                          https://www.tiktok.com/@dusty.dubs.99/video/7674610161322921230
+    201,800   0.6   0.09   15 2026-08-18  @shirley5274413: Get rid of annoying rodents without traps, these plant‑based repellent
+                                          https://www.tiktok.com/@shirley5274413/video/7675250403017100575
+    176,500   0.3   0.08   54 2026-10-05  @wrldoflyrics_: Protect your home this fall from an infestation #repellents #mouserepe
+                                          https://www.tiktok.com/@wrldoflyrics_/video/7693295489411763470
