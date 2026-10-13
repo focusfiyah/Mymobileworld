@@ -24,7 +24,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   to review + cost) every time something is ready for his review or needs his decision: a still sheet, a test clip, a
   cut, a redo/cost question. Not for routine progress. **Send BOTH, every time (Ralph 2026-10-13):** (1) phone push: PushNotification is a
   deferred tool, so load it first with ToolSearch `select:PushNotification` (earlier "no push tool" notes were wrong:
-  it was there but not loaded; a push from a cloud session worked 2026-10-13); (2) email: Composio GMAIL_SEND_EMAIL
+  it was there but not loaded; a push from a cloud session worked 2026-10-13; Ralph confirmed it reached his phone 2026-10-13 with the app closed; while he has the app open the phone shows nothing, so the email is the backup); (2) email: Composio GMAIL_SEND_EMAIL
   (account `gmail_correa-comus`) to life22watch@gmail.com. Only if ToolSearch finds no PushNotification, email alone.
 - **Google Drive uploads (standard, Ralph 2026-10-01):** use BOTH routes; if one fails, use the other. (1) Google Drive
   connector (`mcp__Google_Drive__*`): folders, docs, small text files. (2) Composio `googledrive` (account
