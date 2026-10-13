@@ -1,0 +1,37 @@
+{
+  "name": "Fungix combo",
+  "src_dir": "C:/Users/ralph/Desktop/Grace UGC assets",
+  "work_dir": "C:/dev/OpenMontage/projects/fungix-toenail-ugc/combos",
+  "out_dir": "C:/Users/ralph/Desktop/Grace UGC assets",
+  "reference": "C:/dev/OpenMontage/projects/fungix-toenail-ugc/edit_parts/reference.mp4",
+  "zoom": 1.14,
+  "parts": {
+    "hook": {"video": "Fungix (hook).MOV", "audio": "Fungix part 1 clear.mp4"},
+    "body": {"video": "FUNGIX (body).MOV"},
+    "cta":  {"video": "FUNGIX (cta).MOV"}
+  },
+  "takes": {
+    "H2": ["hook", 15.2, 29.5], "H3": ["hook", 31.0, 44.6], "H4": ["hook", 46.0, 59.4], "H5": ["hook", 61.9, 75.6],
+    "B2": ["body", 22.8, 46.7], "B3": ["body", 48.1, 68.1], "B4": ["body", 69.3, 89.9],
+    "B5": ["body", 91.1, 112.1], "B6": ["body", 113.6, 133.5],
+    "C2": ["cta", 10.5, 19.6], "C3": ["cta", 20.4, 29.7], "C4": ["cta", 30.2, 40.4],
+    "C6": ["cta", 58.6, 65.3], "C7": ["cta", 67.0, 73.2], "C8": ["cta", 73.8, 79.8]
+  },
+  "overlays": [
+    {"png": "C:/dev/OpenMontage/projects/fungix-toenail-ugc/edit_parts/overlays/toe.png",
+     "from": {"word": "someone", "in": "hook"}, "to": {"word": "this", "in": "hook", "edge": "end", "plus": 0.25}},
+    {"png": "C:/dev/OpenMontage/projects/fungix-toenail-ugc/edit_parts/overlays/collage.png",
+     "from": {"word": ["yellow", "thick"], "in": "hook"}, "to": {"word": "funky", "in": "hook", "edge": "end", "plus": 0.4}},
+    {"png": "C:/dev/OpenMontage/projects/fungix-toenail-ugc/edit_parts/overlays/card.png",
+     "from": {"word": "has", "in": "body", "plus": 0.15, "after": {"word": "oil", "in": "body", "edge": "end"}},
+     "to": {"dur": 4.6, "cap_section": "body"}}
+  ],
+  "videos": {
+    "V1": {"takes": ["H2", "B5", "C2"], "overlays": [{"bubble": ["somebody had to say it", "about the toenails…"], "from": {"t": 0}, "to": {"word": "sorry", "in": "hook", "plus": 1.2}}]},
+    "V2": {"takes": ["H3", "B6", "C3"], "overlays": [{"bubble": ["if your toenails look like this", "we need to talk…"], "from": {"t": 0}, "to": {"word": "sorry", "in": "hook", "plus": 1.2}}]},
+    "V3": {"takes": ["H4", "B3", "C4"], "overlays": [{"bubble": ["PSA for everyone hiding their", "toes in closed shoes…"], "from": {"t": 0}, "to": {"word": "sorry", "in": "hook", "plus": 1.2}}]},
+    "V4": {"takes": ["H5", "B2", "C6"], "overlays": [{"bubble": ["your partner won't tell you", "this so I will…"], "from": {"t": 0}, "to": {"word": "sorry", "in": "hook", "plus": 1.2}}]},
+    "V5": {"takes": ["H2", "B4", "C7"], "overlays": [{"bubble": ["closed-toe shoes all summer", "is not a plan…"], "from": {"t": 0}, "to": {"word": "sorry", "in": "hook", "plus": 1.2}}]},
+    "V6": {"takes": ["H3", "B2", "C8"], "overlays": [{"bubble": ["this is your sign to stop", "hiding your toes…"], "from": {"t": 0}, "to": {"word": "sorry", "in": "hook", "plus": 1.2}}]}
+  }
+}
