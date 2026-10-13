@@ -22,9 +22,10 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   and which client it's for.
 - **Phone notifications (standard, Ralph 2026-10-01):** he leaves the app, so notify him (one line, what
   to review + cost) every time something is ready for his review or needs his decision: a still sheet, a test clip, a
-  cut, a redo/cost question. Not for routine progress. **By email (Ralph, 2026-10-12):** cloud sessions have NO
-  PushNotification tool (tested 2026-10-07 + 10-12), so send Composio GMAIL_SEND_EMAIL (account `gmail_correa-comus`)
-  to life22watch@gmail.com; also PushNotification when that tool exists.
+  cut, a redo/cost question. Not for routine progress. **Send BOTH, every time (Ralph 2026-10-13):** (1) phone push: PushNotification is a
+  deferred tool, so load it first with ToolSearch `select:PushNotification` (earlier "no push tool" notes were wrong:
+  it was there but not loaded; a push from a cloud session worked 2026-10-13); (2) email: Composio GMAIL_SEND_EMAIL
+  (account `gmail_correa-comus`) to life22watch@gmail.com. Only if ToolSearch finds no PushNotification, email alone.
 - **Google Drive uploads (standard, Ralph 2026-10-01):** use BOTH routes; if one fails, use the other. (1) Google Drive
   connector (`mcp__Google_Drive__*`): folders, docs, small text files. (2) Composio `googledrive` (account
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`

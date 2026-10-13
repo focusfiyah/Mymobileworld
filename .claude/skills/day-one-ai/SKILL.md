@@ -34,8 +34,8 @@ over this skill. This skill carries only what a chat without the repo needs to a
 5. **Honest, verified:** only UI steps seen on official pages; FTC disclosure in every description.
 
 Done when (per video): the job's `job.json`, video, Short and contact sheets are checked, both uploads are PRIVATE
-with ids in `jobs/<slug>/youtube.json`, `data/covered.json` is updated and pushed to main, and Ralph has the email
-(Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`): title, both links, why this tool, affiliate status.
+with ids in `jobs/<slug>/youtube.json`, `data/covered.json` is updated and pushed to main, and Ralph has a phone push
+(ToolSearch `select:PushNotification` first) plus the email (Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`): title, both links, why this tool, affiliate status.
 
 ## Affiliate links
 `config.json` `affiliate_links` is the one list (ElevenLabs, Synthesia, Higgsfield as of 2026-10-13; Shopify declined

@@ -37,8 +37,8 @@ and [Prompting Claude Opus 5.5](https://platform.claude.com/docs/en/build-with-c
 ## 2. Saying things once
 
 - **Each fact has one home. Other skills and files link to it instead of restating it.**
-  Why: copies drift. After notifications moved to email on 2026-10-12 (Ralph missed the Syren draft because
-  sessions have no push tool), the claude.ai copy of ugc-product-ad still said "send a PushNotification".
+  Why: copies drift. After notifications moved to email on 2026-10-12 (Ralph missed the Syren draft; the push
+  tool had looked missing because it is deferred), the claude.ai copy of ugc-product-ad still said "send a PushNotification".
 - **Exception: when a skill would fail without a fact and the link would not resolve where the skill runs, keep a
   one-line summary tagged with its home, e.g. `(source: grace/PLAYBOOK.md §4)`.**
   Why: claude.ai skills are uploaded as standalone zips, so a link to a repo file or another skill's folder is dead
