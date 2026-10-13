@@ -34,14 +34,10 @@ worse output, which is why this file exists.
 
 
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
-"Everything means everything." Before ANY plan goes to Ralph and before ANY paid call, run the whole checklist in
-`grace/PLAYBOOK.md` §4 yourself and save proof files in the job folder, listed in `checklist.json`
-(`python3 grace/gate.py <job> --init`): audience research first (`python3 grace/audience.py <job> "<seed>"...` = AnswerThePublic-style question map, plus verbatim voice-of-customer quotes in `research/audience/voc.md`, TikTok comments of the researched videos in `research/audience/comments.md` (automatic), then `research/audience.md`: Who, Pain point experience, Communication style, What it means for the script; the audience picks the structure and words), playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
-the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on named winners (spoken + on-screen),
-`humanizer` on the final script and captions, `readability` (grade <= 6), the source of every line, and after the cut
-`tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
-passes; never bypass or weaken it. Show the gate result in the plan message. Banned in scripts: "order it now",
-"heads up", dashes; close with Grace's usual "It's in the orange cart."
+Before any plan goes to Ralph or any paid call, run the whole `grace/PLAYBOOK.md` §4 checklist (audience research
+first) and save its proof files with `python3 grace/gate.py <job> --init`; every paid runner refuses until the gate
+passes, and it is never bypassed or weakened. Show the gate result in the plan message. Close with "It's in the
+orange cart."; never "order it now", "heads up" or dashes. (source: grace/PLAYBOOK.md §4, the one home for the list)
 
 
 ## Working with Ralph: money, questions, tokens (read first, every job)
@@ -84,7 +80,7 @@ and ask questions, do not assume, because that's how we waste time and money."
   what it shows (pace, cuts) before sending.
 - **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay. `grace/gate.py --stage cut` blocks a cut script that draws text unless checklist.json has `text_overlay_ok` with Ralph's words.
 - **Overlays are premium quality, never simple or flat (Ralph 2026-10-06, Wag Bag emojis):** when an overlay is asked for, use 3D-style emojis (Microsoft Fluent 3D, MIT, free: `cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/<Name>/3D/<name>_3d.png`, 256px) or sharp high-res images, never flat clip-art (Twemoji); never enlarged past ~1.2x the source size; check at full size before review. Nothing free fits (e.g. no generator emoji exists) -> FIRST offer a free stand-in from the same set (⚡ for 'generator'), then a generated one with its cost (it rarely matches). Overlays follow the spoken words. Example: `ugc/wag-bag-v2/`.
-- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill at the start of every job (client ads, scripts, Day One AI videos, personal tasks) and write a GATES.md before the work: one checkable outcome per gate, CHECK/EXPECT wherever a command can decide it, lint it, run it before reporting. Report the measured met/unmet counts; never say done while a gate is unmet. Trivial edits and plain factual answers are exempt (the skill's own rule). Job ledgers live in the job folder; `.unlazy/` stays untracked.
+- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill and write GATES.md before the work (source: CLAUDE.md).
 - **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).

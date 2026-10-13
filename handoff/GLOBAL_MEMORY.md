@@ -83,8 +83,8 @@ Paste the block below into any of:
 
 Removed items stay removed: keep REMOVED.md per job; check every cut against it and the last round's notes before sending.
 
-## Skill authoring standard (Ralph, 2026-10-05, from a TikTok skills-audit prompt)
-- Skill standard (2026-10-05): SKILL.md under 200 lines, detail in references/ (table of contents if over 100 lines), code not prose where output must be consistent, templates for plan/README status/QC; clear, concise, no technical constraints.
+## Skills (Ralph, 2026-10-13)
+- Skills (2026-10-13): one home, the private repo focusfiyah/claude-skills (git = every version; repo copies and claude.ai uploads are deployments). Load skill-smith for any skill work (write, fix, audit): it holds the writing rules (one home per fact, goal + context + what done looks like, hard rules only with evidence and a why, no "think carefully/step by step") and deploy.py (updates both repos, builds the zip I upload).
 - ugc-product-ad has `templates/` (plan-message, readme-status, qc-report); Hyperframes skills were reworked the same way (upstream `hyperframes skills update` would overwrite).
 - (Ralph 2026-10-05) Before any Grace script: audience research (`python3 grace/audience.py <job> "<seed>"` AnswerThePublic-style question map + verbatim voice-of-customer quotes, then research/audience.md: who, pain-point experience, best communication style). The structure follows the product and audience; it does not always follow Grace's hook/pain/solution/confession template.
 - Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session (Ralph 2026-10-06, after I said TikTok comments were unreachable untested; a 10-second test showed they work). Run one small real request first; report what the test returned; if I did not test, say "not tested" and test it or ask. Notes from earlier sessions are leads to re-test, not facts.
