@@ -29,7 +29,7 @@ it exists. Do not copy those rules into other skills or files; link to them.
 Start from what keeps going wrong or what Ralph keeps re-explaining: a skill earns its place by saving a real,
 repeated cost. Check `skills/` first; extending an existing skill beats adding a near-duplicate. Gather the facts
 from where they already live (job READMEs, playbooks, CLAUDE.md files, the tool's own docs) and decide, fact by
-fact, whether the skill owns it or links to its owner. Copy `templates/SKILL.md` and fill it in.
+fact, whether the skill owns it or links to its owner. Copy `templates/SKILL.template.md` and fill it in.
 
 Done when: the description says what the skill does and when to use it, in the words Ralph actually uses; the body
 gives the goal, the context and what done looks like; every hard rule has a why; `python3 <skill-dir>/scripts/audit.py
@@ -75,6 +75,6 @@ fix is to update the skill.
 
 - `references/rules.md`: the writing rules and their reasons. Read before any write or fix.
 - `references/audit.md`: definitions, signals and the report template for an audit.
-- `templates/SKILL.md`: the skeleton for a new skill.
+- `templates/SKILL.template.md`: the skeleton for a new skill.
 - `scripts/audit.py`: mechanical checks over one skill or the whole library (`--help`).
 - `scripts/deploy.py`: copies a skill to its deployments and builds its upload zip.

@@ -19,6 +19,9 @@ root = a.repo or subprocess.run(["git", "-C", here, "rev-parse", "--show-topleve
 src = os.path.join(root, "skills", a.name)
 if not os.path.isfile(os.path.join(src, "SKILL.md")):
     sys.exit(f"no skill at {src}")
+extra = [os.path.relpath(os.path.join(r, f), src) for r, _, fs in os.walk(src) for f in fs if f == "SKILL.md"]
+if len(extra) != 1:  # claude.ai rejects a zip with more than one SKILL.md (skill-smith templates/, 2026-10-13)
+    sys.exit(f"{len(extra)} files named SKILL.md ({', '.join(extra)}); claude.ai allows exactly one. Rename the others.")
 if subprocess.run([sys.executable, os.path.join(here, "audit.py"), src]).returncode:
     sys.exit("audit found errors; fix them before deploying")
 cfg = json.load(open(os.path.join(root, "deploy.json")))
