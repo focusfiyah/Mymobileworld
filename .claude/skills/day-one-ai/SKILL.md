@@ -33,7 +33,7 @@ from **recurring affiliate links** in the description (not AdSense).
    publish. Rank apps where Ralph already has an affiliate link first: he wants income before more ElevenLabs spend.
    **Cost:** the normal voiceover (~2.5–3.5k ElevenLabs characters per video) is pre-approved. Tell Ralph the exact cost
    before anything else paid (extra re-voicing, AI images or video). He chose free code-rendered channel art over
-   AI images (Nano Banana Pro on Fal.ai is $0.15 per image, $0.30 at 4K; no FAL_KEY in the cloud env).
+   AI images.
 3. **Voices (eleven_v4):** narrator is **Ralph's cloned voice "Ralph Azariah"** `5YVjMzHn641xyj0jM38O`. Not his voice for
    everything: demo lines, before/after samples, dialogue and second speakers use contrast voices from
    `config.json` `contrast_voices` (default Matilda `XrExE9yKIg1WjnnlVkGX`; also Jessica, Alice, George, Liam, Chris).
@@ -49,9 +49,9 @@ from **recurring affiliate links** in the description (not AdSense).
    before its paid cloud/TTS paths. Playwright MCP (`@playwright/mcp`, pinned in `.mcp.json`, auto-approved in
    `.claude/settings.json`; also in the Mymobileworld repo) gives interactive browser tools (`browser_navigate`,
    snapshots, clicks): use it to check UI steps on a launch page before scripting them. Needs `setup.sh` first (proxy CA).
-5. Daily cadence: every day, one video. Records push straight to main.
+5. Daily cadence: every day a radar, up to 3 apps as silent drafts and ONE list to Ralph (see 2); records push straight to main.
 
-- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill at the start of every job (client ads, scripts, Day One AI videos, personal tasks) and write a GATES.md before the work: one checkable outcome per gate, CHECK/EXPECT wherever a command can decide it, lint it, run it before reporting. Report the measured met/unmet counts; never say done while a gate is unmet. Trivial edits and plain factual answers are exempt (the skill's own rule). Job ledgers live in the job folder; `.unlazy/` stays untracked.
+- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill and write GATES.md before the work (source: CLAUDE.md).
 
 ## Pipeline (per video)
 1. **Radar:** tools or features launched in the last ~72h. Prefer tools with a recurring affiliate program, especially
@@ -91,15 +91,11 @@ from **recurring affiliate links** in the description (not AdSense).
   (added 2026-09-29). ANALYTICS_SCOPE_MISSING means Ralph must re-authorize once (same flow as below). A 403 "YouTube Analytics API has not been used in project" means the API must be enabled in Cloud project 1483488540 (console.cloud.google.com/apis/library/youtubeanalytics.googleapis.com?project=1483488540), no re-auth needed. Analytics lags
   1–3 days; the public counters in the output are live.
 
-## Affiliate links Ralph has joined
-- ElevenLabs: `https://try.elevenlabs.io/6rw6sfid5efk` (22% recurring for 12 months). After he joins a new program, add
-  it to `config.json` `affiliate_links`, and update any live video with `python3 yt.py desc jobs/<slug>`.
-
-## History (2026-09-29)
-- Pilot "ElevenLabs v4 Audio Tags: How to Use Them (Real Before & After Examples)": https://youtu.be/8sdp88VhbWo
-  (**public**, Ralph's voice, new motion style, affiliate link + custom thumbnail; built from `jobs/motion-test/`).
-  It replaced the first upload (Chris narration, old motion), which was deleted. Short: https://youtube.com/shorts/tlut-IXq07s
-- Channel phone-verified (custom thumbnails work); banner set via API; Ralph uploaded the D1 profile picture.
+## Affiliate links
+`config.json` `affiliate_links` is the one list of programs Ralph has joined (ElevenLabs, Synthesia and Higgsfield as
+of 2026-10-13; Shopify declined him; Manus pending). After he joins one, add it there and update live videos with
+`python3 yt.py desc jobs/<slug>` (the Short needs the same snippet by hand). Published videos and their status are in
+the repo's `CLAUDE.md`.
 
 ## Gotchas already solved (keep the fixes)
 - Chromium in the cloud image: `produce.py` uses the preinstalled `/opt/pw-browsers` build; `setup.sh` adds every

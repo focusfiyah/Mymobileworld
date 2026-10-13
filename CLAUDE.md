@@ -78,8 +78,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   file with Kie's free upload (`upload()` in a job's kie.py → `tempfile.redpandaai.co` URL), then Composio
   `GOOGLEDRIVE_UPLOAD_FROM_URL` (account `googledrive_lin-ernst` = life22watch@gmail.com) with `parent_folder_id`.
   Check the Drive file size matches. Grace's finals go in Drive "Grace Tiktok assets" → one folder per ad.
-- After editing the project skill: re-zip to `handoff/ugc-product-ad-skill.zip`; Ralph uploads it to claude.ai
-  (description must stay ≤1024 chars).
+- After editing a skill: change it in focusfiyah/claude-skills and run skill-smith's `deploy.py` (builds the zip Ralph uploads).
 
 ## Jobs
 - **Carpe Vanilla Peach (Grace), 2026-10-01:** 36.6s hands-only tips ad, rough cut
@@ -130,11 +129,11 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 
 ## Skills (2026-10-01)
-- **Skill standard (Ralph, 2026-10-05):** SKILL.md under 200 lines, detail in `references/` (table of contents if over 100 lines), code instead of prose where output must be consistent, templates for repeated outputs (`ugc-product-ad/templates/`); clear, concise, no technical constraints. Hyperframes/media-use were reworked this way (upstream updates overwrite).
+- **Skills (Ralph 2026-10-13): one home.** Every skill Ralph owns lives in the private repo focusfiyah/claude-skills (`skills/<name>/`, git history = versions); the copies here and the claude.ai upload are deployments. Load the `skill-smith` skill for ANY skill work (write, fix, audit, re-zip): it holds the writing rules (the old skill standard) and `deploy.py`, which updates both repos and builds the upload zip. Never edit a deployed copy by hand.
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
   (day-one-ai, find-skills, grace-product-scripts, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach,
   brag-slim, scrapling, prompt-master, agent-reach).
-  When you add or edit one of those, change it in BOTH repos. `ugc-product-ad` lives only here (client work).
+  Edit them in focusfiyah/claude-skills, never here (skill-smith). `ugc-product-ad` deploys only here (client work).
 - Scan every new skill first with the `skill-inspector` skill (SkillSpector). The claude.ai account upload (zip) is the
   only copy that reaches every device and chat; repo copies load only in sessions on that repo.
 - The hyperframes/skillspector CLIs and the Chromium proxy-CA fix come from Dayone-ai's `bash setup.sh`.
