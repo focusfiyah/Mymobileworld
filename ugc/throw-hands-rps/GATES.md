@@ -4,11 +4,11 @@ OWNS: ugc/throw-hands-rps/**
 
 Scope: one AI Grace ad for the Throw Hands Rock Paper Scissors card game, matched to the format of Ralph's 3 example TikToks, delivered to Drive.
 
-- [ ] G1: Script gate passes
+- [x] G1: Script gate passes
   CWD: ../..
   CHECK: python3 grace/gate.py ugc/throw-hands-rps
   EXPECT: GATE OK
-  EVIDENCE: pending
+  EVIDENCE: 2026-10-13 gate.py printed GATE OK on script v2
 
 - [ ] G2: Plan with research proof, storyboard and one total cost sent and approved by Ralph before any paid call
   EVIDENCE: pending
