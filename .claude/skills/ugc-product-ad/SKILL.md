@@ -34,72 +34,45 @@ worse output, which is why this file exists.
 
 
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
-"Everything means everything." Before ANY plan goes to Ralph and before ANY paid call, run the whole checklist in
-`grace/PLAYBOOK.md` §4 yourself and save proof files in the job folder, listed in `checklist.json`
-(`python3 grace/gate.py <job> --init`): audience research first (`python3 grace/audience.py <job> "<seed>"...` = AnswerThePublic-style question map, plus verbatim voice-of-customer quotes in `research/audience/voc.md`, TikTok comments of the researched videos in `research/audience/comments.md` (automatic), then `research/audience.md`: Who, Pain point experience, Communication style, What it means for the script; the audience picks the structure and words), playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
-the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on named winners (spoken + on-screen),
-`humanizer` on the final script and captions, `readability` (grade <= 6), the source of every line, and after the cut
-`tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
-passes; never bypass or weaken it. Show the gate result in the plan message. Banned in scripts: "order it now",
-"heads up", dashes; close with Grace's usual "It's in the orange cart."
+Before any plan goes to Ralph or any paid call, run the whole `grace/PLAYBOOK.md` §4 checklist (audience research
+first) and save its proof files with `python3 grace/gate.py <job> --init`; every paid runner refuses until the gate
+passes, and it is never bypassed or weakened. Show the gate result in the plan message. Close with "It's in the
+orange cart."; never "order it now", "heads up" or dashes. (source: grace/PLAYBOOK.md §4, the one home for the list)
 
 
-## Working with Ralph: money, questions, tokens (read first, every job)
+## Working with Ralph (read first, every job)
 
-Ralph's words (2026-10-01): "I don't like time wasted, I like you to be efficient, low usage/token, don't waste money
-and ask questions, do not assume, because that's how we waste time and money."
+The general rules have one home, Mymobileworld `CLAUDE.md` ("How Ralph wants to work" and "Hard rules for every
+ad"): exact cost before every paid call including redos, one short question instead of a guess, free fixes first,
+the whole plan and total cost in ONE message, one test clip before any batch, the running total vs the quote at
+every paid step, an email at every review point, the Drive folder layout, no on-screen text unless he says yes for
+that ad, premium overlays, unlazy, and a current `Status:` line in the job README. Follow them from there. The
+lessons below are specific to making ads:
 
-- **Ask before EVERY paid call, including redos, retries and "one more try".** Quote the exact cost. A failed
-  attempt is not permission for a second one: stop, show it, ask.
-- **Ambiguous instruction → one short question, never a guess.** "To clarify, shorten the nails" was read as
-  "even shorter" and two unrequested edits ($0.18) were run; he had liked the version already made.
-- **Free fixes first.** Blur a wrong label line, crop, retime, re-cut in ffmpeg/PIL before any reroll.
-- **Confirm the real product before the first paid still:** applicator/top, cap, label, size. Ask for a real
-  photo if the reference is a generated sheet. The Carpe sheet showed a ribbed white dome; the real stick has an
-  orange slotted top → 5 stills redone (~$0.54).
-- **Confirm the person's details too** (nail length, jewellery, skin): the reference pixels win over the prompt.
-  Long nails in the hand sheet came out long; say "short nails" up front if that's wanted, and ask.
-- **A pasted prompt that clashes with the video** (product-sheet style, grey background, "no hands") → say so and
-  ask how to use it before spending. Run verbatim it gave a 3-panel sheet, usable only as a reference crop.
-- **Client:** ask who the ad is for at the start; apply that client's rules (Grace: no personal-use claims unless
-  true, no false scarcity, a CTA that makes buyers want more units, honest lines that sell, never a downside or warning).
-- **Lock the whole plan before the first paid call** (Ralph, 2026-10-01: "You are having me spend all my credits
-  today"; "I don't think you remembered me wanting the process to be time efficient and cost effective"): ONE
-  message with script, every shot, outfit, setting, face or no face, voiceover vs lip sync, and the total cost; one
-  approval. A mid-job change gets a new total before anything is spent.
-- **One test clip before any batch.** Carpe v2 rendered 8 clips at once and all came back wrong ($1.52); one clip
-  would have cost $0.21.
-- **Resuming a job from a handoff: re-check before paying.** Right before any paid call, re-fetch the job branch,
-  look at its `kie_log.json` / clips folder for that step, and make sure the old session is stopped (Vicks
-  VapoShower 2026-10-01: the old session rendered the 6 clips after writing its handoff, the new one rendered
-  them again: $1.07 lost).
-- **QC before sending, so Ralph never finds it first** (each miss cost him a review round, ~20 rounds / 4h on
-  Carpe v2): every clip at ≥1.0x speed; no face on screen while the voice talks unless lip-synced; product never
-  cropped off or smeared; no forehead wrinkles; same outfit and product in every shot; frame-by-frame check wherever
-  hands or the product cross the face; nothing resting on thin air (a Vicks still put the box past the vanity
-  edge and Ralph caught it: free fix = crop the frame to end at the object's base).
-- **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
-  (1) tiktok-shop-coach: research + 3 hook options (Grace: start from `grace/hooks/HOOKS.md`, cite the id) (spoken line AND on-screen hook text) modeled on proven videos;
-  (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix
-  what it shows (pace, cuts) before sending.
-- **No text overlay unless Ralph asks (Ralph 2026-10-05, LGXNDS creatine: "Remove text overlay. I did not ask you to do so"):** write the on-screen hook text options as before, but only offer them in the plan as a yes/no item; burn text into a cut only when Ralph says yes for that ad. Default cut = no text overlay. `grace/gate.py --stage cut` blocks a cut script that draws text unless checklist.json has `text_overlay_ok` with Ralph's words.
-- **Overlays are premium quality, never simple or flat (Ralph 2026-10-06, Wag Bag emojis):** when an overlay is asked for, use 3D-style emojis (Microsoft Fluent 3D, MIT, free: `cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/<Name>/3D/<name>_3d.png`, 256px) or sharp high-res images, never flat clip-art (Twemoji); never enlarged past ~1.2x the source size; check at full size before review. Nothing free fits (e.g. no generator emoji exists) -> FIRST offer a free stand-in from the same set (⚡ for 'generator'), then a generated one with its cost (it rarely matches). Overlays follow the spoken words. Example: `ugc/wag-bag-v2/`.
-- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill at the start of every job (client ads, scripts, Day One AI videos, personal tasks) and write a GATES.md before the work: one checkable outcome per gate, CHECK/EXPECT wherever a command can decide it, lint it, run it before reporting. Report the measured met/unmet counts; never say done while a gate is unmet. Trivial edits and plain factual answers are exempt (the skill's own rule). Job ledgers live in the job folder; `.unlazy/` stays untracked.
-- **On-screen text style (standard, Ralph 2026-09-18 Murano earrings; reapplied 2026-10-01):** TikTok "Classic": white
-  semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
-  text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
-- **Report the running total against the quote at every paid step.**
-- **Phone notification at every review point** (Ralph, 2026-10-01: "Make that a standard"): he leaves the app, so
-  email him (Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`, to life22watch@gmail.com; sessions have no push
-  tool) plus PushNotification when it exists (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is
-  ready, or a redo needs his OK. Send the file with SendUserFile first. Not for routine progress.
-- **Delivering to Google Drive** (Ralph, 2026-10-01): use both the Google Drive connector and Composio `googledrive`;
-  if one fails, use the other. Videos go through Composio `GOOGLEDRIVE_UPLOAD_FROM_URL` after hosting the file on
-  Kie's file host (`kie.upload`); the connector handles folders and docs but can't carry a video.
-  One folder per product in "Grace Tiktok assets" (reuse an existing one), "CURRENT - " on the latest, superseded files
-  renamed vN + date into an "Older versions" subfolder, nothing loose (Ralph 2026-10-05).
-- **Tokens:** keep the job README's `Status:` line current (what's done, what's next, what it costs) so "continue
-  the X ad" needs one file read. Short updates, chained shell steps, one contact sheet per batch.
+- **Confirm the real product before the first paid still:** applicator/top, cap, label, size; ask for a real photo
+  if the reference is a generated sheet. Why: the Carpe sheet showed a ribbed white dome, the real stick has an
+  orange slotted top, 5 stills redone (~$0.54).
+- **Confirm the person's details** (nail length, jewellery, skin); the reference pixels win over the prompt. Why:
+  long nails in the hand sheet came out long; "to clarify, shorten the nails" was misread and cost $0.18.
+- **A pasted prompt that clashes with the video** (product-sheet style, grey background, "no hands"): say so and ask
+  before spending. Why: run verbatim it gave a 3-panel sheet, usable only as a reference crop.
+- **Ask who the ad is for** and apply that client's playbook (Grace: `grace/PLAYBOOK.md`).
+- **Resuming from a handoff: re-check before paying.** Re-fetch the job branch, read its `kie_log.json` / clips
+  folder for that step, and make sure the old session has stopped. Why: Vicks VapoShower (2026-10-01) rendered the
+  same 6 clips in two sessions, $1.07 lost.
+- **QC extras beyond CLAUDE.md hard rule 3:** nothing resting on thin air (a Vicks still put the box past the vanity
+  edge; free fix = crop the frame to end at the object's base). Use `templates/qc-report.md`.
+- **Grip check on every still before its clip is paid for:** zoom on each hand that touches an item; it must pinch
+  or hold it (thumb on one side, fingers curled on the other). Fingertips resting on a card, a palm flat on a box,
+  or an item lying loose next to the hand = redo the still first, never "fix it in the video prompt". Why: Throw
+  Hands (2026-10-14) put no-grip stills S5/S7 into clips; Seedance and then Veo both dragged the card under her
+  nails and melted the loose one, $0.30+ wasted and a cut Ralph rejected. The video model copies the still's grip.
+- **When Ralph says yes to on-screen text:** TikTok "Classic" style (white semibold, no bubble, soft shadow,
+  lowercase, two balanced lines past five words, no "orange cart" line) via `scripts/classic_caption.py`.
+- **When an overlay is asked for:** Microsoft Fluent 3D emoji (MIT,
+  `cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/<Name>/3D/<name>_3d.png`, 256px) or sharp photos, never
+  past ~1.2x source; with no free match, first offer a same-set stand-in, then a generated one with its cost.
+  Overlays follow the spoken words. Example: `ugc/wag-bag-v2/`.
 
 
 ## Reference map (read the file for the route you are using; each has a table of contents)
