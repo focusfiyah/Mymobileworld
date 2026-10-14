@@ -52,5 +52,62 @@
    ]
   },
   "costTime": 163
+ },
+ {
+  "t": "2026-10-14 01:06:11",
+  "submitted": "05bb94392f6598a922294610c028fb33",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Straight overhead on the wood table (like a phone held "
+ },
+ {
+  "t": "2026-10-14 01:07:14",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Straight overhead on the wood table (like a phone held above it): four players' hands from the four frame edges, each holding a small fan of real Throw Hands cards; a messy pile of face-up cards in the centre. Grace's hands at the bottom edge. All four players have brown skin. No faces. The main player's hands are Grace's real hands from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone and her silver crown-style engagement ring on the ring finger. Every other player's hands also have warm brown skin (medium to deep brown, never pale or light). Every hand enters from the frame edge with the whole wrist visible, five fingers, realistic knuckles and skin texture, hands grip the cards they hold. The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo. Bright daylight family living room, a warm medium-brown wood dining table seen from straight above or a high angle, soft even window light, bright clean neutral colours (no dark, moody or yellow grade), real phone camera look, sharp focus, no text overlay, no logos except the real box art, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791939136220-khrsworwm9m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791939138413-huno3s52xwt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791939140926-s9wx2dyndz.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "05bb94392f6598a922294610c028fb33",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/05bb94392f6598a922294610c028fb33_0_1791940032.jpeg"
+   ]
+  },
+  "costTime": 62
+ },
+ {
+  "t": "2026-10-14 01:07:55",
+  "submitted": "91f51e5488ab6406dcd0e6d1cf833239",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Straight overhead on the wood table (like a phone held "
+ },
+ {
+  "t": "2026-10-14 01:08:58",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Straight overhead on the wood table (like a phone held above it): four players' hands from the four frame edges, each holding a small fan of real Throw Hands cards; a messy pile of face-up cards in the centre. Grace's hands at the bottom edge. All four players have brown skin. No faces. Copy the card faces and card backs exactly from the last reference photo (the earlier frame of this same table): brown-and-tan filled cartoon hand symbols in soft pastel circles, never white outline icons; only the skin of the hands changes. The main player's hands are Grace's real hands from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone and her silver crown-style engagement ring on the ring finger. Every other player's hands also have warm brown skin (medium to deep brown, never pale or light). Every hand enters from the frame edge with the whole wrist visible, five fingers, realistic knuckles and skin texture, hands grip the cards they hold. The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo. Bright daylight family living room, a warm medium-brown wood dining table seen from straight above or a high angle, soft even window light, bright clean neutral colours (no dark, moody or yellow grade), real phone camera look, sharp focus, no text overlay, no logos except the real box art, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791939136220-khrsworwm9m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791939138413-huno3s52xwt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791939140926-s9wx2dyndz.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791940073401-smkaolihau.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "91f51e5488ab6406dcd0e6d1cf833239",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/91f51e5488ab6406dcd0e6d1cf833239_0_1791940136.jpeg"
+   ]
+  },
+  "costTime": 61
  }
 ]
