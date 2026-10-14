@@ -22,13 +22,15 @@ UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 J = json.loads(Path("shots.json").read_text())
 SHOTS = {s["id"]: s for s in J["shots"] + J.get("extra", [])}
 MAIN = [s["id"] for s in J["shots"]]
-HAND = ["refs/hand_noblue.jpg"]  # Grace's real hand (crown set + heart ring), same as the ring ad
-GLASSES = ["refs/crop_2.jpg", "refs/crop_5.jpg"]  # Ralph's photos of the real deep blue pair: front + side window
+HAND = ["refs/hand_grace.jpg"]  # Grace's real hand (crown set + heart ring), same as the ring/glasses ads
+BAG = ["refs/bag_front.jpg", "refs/real_video_bag.jpg"]  # brand packshot + the real bag in hand
+POUCH = ["refs/pouch_real.jpg"]  # the real plain white pouch (pinked edges, no print)
 
 
 def blocks(sid):
     s = SHOTS[sid]
-    return " ".join(([J["identity_block"]] if s["hand"] else []) + ([J["glasses_block"]] if s["glasses"] else []))
+    return " ".join(([J["identity_block"]] if s["hand"] else []) + ([J["bag_block"]] if s["bag"] else [])
+                    + ([J["pouch_block"]] if s["pouch"] else []))
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json")
@@ -101,7 +103,8 @@ def fetch(url, out):
 def stills(ids):
     for sid in ids:
         s = SHOTS[sid]
-        refs = ([upload(p) for p in HAND] if s["hand"] else []) + ([upload(p) for p in GLASSES] if s["glasses"] else [])
+        refs = ([upload(p) for p in HAND] if s["hand"] else []) + ([upload(p) for p in BAG] if s["bag"] else []) \
+            + ([upload(p) for p in POUCH] if s["pouch"] else [])
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_' + s['scene']]}")
         url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs,
