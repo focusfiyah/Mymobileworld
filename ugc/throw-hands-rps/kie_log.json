@@ -109,5 +109,55 @@
    ]
   },
   "costTime": 61
+ },
+ {
+  "t": "2026-10-14 01:23:43",
+  "submitted": "6d50faccbe738a62308093c937eb2b23",
+  "prompt": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands o"
+ },
+ {
+  "t": "2026-10-14 01:23:43",
+  "submitted": "491dc9ad5f0808013cbc62d709a81a56",
+  "prompt": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands o"
+ },
+ {
+  "t": "2026-10-14 01:25:11",
+  "request": {
+   "model": "hailuo/2-3-image-to-video-standard",
+   "input": {
+    "prompt": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands on the left, then the top, then the right, then Grace's hand at the bottom; each hand goes in, drops one card and pulls back to its own edge; hands never touch or overlap; every hand keeps its own skin colour from the first frame; fast real speed, no slow motion. The main player's hands are Grace's real hands from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone and her silver crown-style engagement ring on the ring finger. Every other player's hands also have warm brown skin (medium to deep brown, never pale or light). Every hand enters from the frame edge with the whole wrist visible, five fingers, realistic knuckles and skin texture, hands grip the cards they hold. The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo. Handheld phone camera, smooth natural motion, real speed, the box art and card symbols keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no extra hands, every hand keeps its exact skin tone from the first frame, no text.",
+    "image_url": "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791941020840-g2nizr7k68a.png",
+    "duration": "6",
+    "resolution": "768P"
+   }
+  },
+  "taskId": "6d50faccbe738a62308093c937eb2b23",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/hailuo23/1791941107353-ws7w9l9kng.mp4"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-10-14 01:26:02",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands on the left, then the top, then the right, then Grace's hand at the bottom; each hand goes in, drops one card and pulls back to its own edge; hands never touch or overlap; every hand keeps its own skin colour from the first frame; fast real speed, no slow motion. The main player's hands are Grace's real hands from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone and her silver crown-style engagement ring on the ring finger. Every other player's hands also have warm brown skin (medium to deep brown, never pale or light). Every hand enters from the frame edge with the whole wrist visible, five fingers, realistic knuckles and skin texture, hands grip the cards they hold. The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo. Handheld phone camera, smooth natural motion, real speed, the box art and card symbols keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no extra hands, every hand keeps its exact skin tone from the first frame, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791941020895-jrx9pv12l1n.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "491dc9ad5f0808013cbc62d709a81a56",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791941157841-amxl25c64jm.mp4"
+   ]
+  },
+  "costTime": 137
  }
 ]

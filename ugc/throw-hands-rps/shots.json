@@ -3,7 +3,7 @@
  "box_block": "The Throw Hands box is the real box from the box reference photo: a tall purple card-game box with a hanging tab, big white bold 'THROW HANDS' logo, three cartoon hands (a fist at the top with a green sleeve, an open flat hand bottom left with a blue sleeve, a two-finger peace-sign hand bottom right with an orange sleeve), a white tag reading '60 seconds of CHAOS!', small W&G Games logo top left. Keep the exact artwork, colours and lettering; do not invent any text.",
  "cards_block": "The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo.",
  "scene": "Bright daylight family living room, a warm medium-brown wood dining table seen from straight above or a high angle, soft even window light, bright clean neutral colours (no dark, moody or yellow grade), real phone camera look, sharp focus, no text overlay, no logos except the real box art, no watermark.",
- "video_suffix": "Handheld phone camera, smooth natural motion, real speed, the box art and card symbols keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no extra hands, every hand keeps its exact brown skin tone, no text.",
+ "video_suffix": "Handheld phone camera, smooth natural motion, real speed, the box art and card symbols keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no extra hands, every hand keeps its exact skin tone from the first frame, no text.",
  "voice": {
   "name": "Grace B",
   "voice_id": "bGrsdLmwBbYUgHRuMFOI"
@@ -48,7 +48,7 @@
    "test": true,
    "vo": "It's rock, paper, scissors with cards, and nobody takes turns.",
    "still": "Straight overhead on the wood table (like a phone held above it): four players' hands from the four frame edges, each holding a small fan of real Throw Hands cards; a messy pile of face-up cards in the centre. Grace's hands at the bottom edge. All four players have brown skin. No faces. Copy the card faces and card backs exactly from the last reference photo (the earlier frame of this same table): brown-and-tan filled cartoon hand symbols in soft pastel circles, never white outline icons; only the skin of the hands changes.",
-   "video": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands on the left, then the top, then the right, then Grace's hand at the bottom; each hand goes in, drops one card and pulls back to its own edge; hands never touch or overlap; every hand keeps its brown skin colour; fast real speed, no slow motion.",
+   "video": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands on the left, then the top, then the right, then Grace's hand at the bottom; each hand goes in, drops one card and pulls back to its own edge; hands never touch or overlap; every hand keeps its own skin colour from the first frame; fast real speed, no slow motion.",
    "extra_refs": [
     "old/S4_v1.png"
    ]
