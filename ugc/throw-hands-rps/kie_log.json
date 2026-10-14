@@ -583,5 +583,34 @@
    ]
   },
   "costTime": 101
+ },
+ {
+  "t": "2026-10-14 03:26:14",
+  "submitted": "da1ab00514acb64babe6a2d6ea4b0d99",
+  "prompt": "Grace's right hand holds one card pinched between her thumb and two fingers by its edges, lifts it and slaps it down fla"
+ },
+ {
+  "t": "2026-10-14 03:28:08",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "Grace's right hand holds one card pinched between her thumb and two fingers by its edges, lifts it and slaps it down flat on top of the pile, then her fingers let go and lift away, leaving the card on the table; another player's hand from the top edge arrives a split second late and pulls back empty. Every card stays rigid, never bends, never sticks to a palm. The main player's hands are Grace's real hands from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone and her silver crown-style engagement ring on the ring finger. Every other player's hands also have warm brown skin (medium to deep brown, never pale or light). Every hand enters from the frame edge with the whole wrist visible, five fingers, realistic knuckles and skin texture, hands grip the cards they hold. The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo. Handheld phone camera, smooth natural motion, real speed, the box art and card symbols keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no extra hands, every hand keeps its exact skin tone from the first frame, no text.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/throw-hands-rps/1791947828152-gz1jrapk48n.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "da1ab00514acb64babe6a2d6ea4b0d99",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/da1ab00514acb64babe6a2d6ea4b0d99_0_1791948483.mp4"
+   ]
+  },
+  "costTime": 109
  }
 ]
