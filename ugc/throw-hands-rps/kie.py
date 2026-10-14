@@ -132,6 +132,16 @@ def clip(sid):
         fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
+def hailuo(sid):
+    """Same still + prompt on Hailuo 2.3 Standard image-to-video, 6s 768P (30 credits = $0.15), Ralph 2026-10-14 asked for a comparison."""
+    s = SHOTS[sid]
+    first = upload(s.get("first_frame", f"stills/{sid}.png"))
+    url = run_task({"model": "hailuo/2-3-image-to-video-standard", "input": {
+        "prompt": f"{s['video']} {blocks(sid)} {J['video_suffix']}", "image_url": first, "duration": "6", "resolution": "768P"}})
+    if url:
+        fetch(url, f"clips_hailuo/{sid}.mp4"); print("hailuo", sid, "ok", flush=True)
+
+
 def sheet(kind, ext):
     """One labelled preview image: every still, or 4 frames per clip (one row per clip)."""
     files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
@@ -166,4 +176,4 @@ def sheet(kind, ext):
 if __name__ == "__main__":
     os.chdir(Path(__file__).parent)
     cmd, ids = sys.argv[1], sys.argv[2:] or MAIN
-    {"stills": stills, "clips": clips}[cmd](ids)
+    {"stills": stills, "clips": clips, "hailuo": lambda ids: [hailuo(i) for i in ids]}[cmd](ids)
