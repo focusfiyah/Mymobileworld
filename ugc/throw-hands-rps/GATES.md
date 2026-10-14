@@ -28,5 +28,5 @@ Scope: one AI Grace ad for the Throw Hands Rock Paper Scissors card game, matche
 - [x] G6: Kie spend at or under the approved cap, reported at every paid step
   EVIDENCE: $2.90 of $2.95 (stills $0.81, S4 tests $0.52 incl redo, 8 clips $1.35 + S4 still redo); reported in thread at each step
 
-- [ ] G7: Final in Drive "Grace Tiktok assets/Throw Hands Card Game (Grace)" with CURRENT- prefix; README Status current
+- [x] G7: Final in Drive "Grace Tiktok assets/Throw Hands Card Game (Grace)" with CURRENT- prefix; README Status current
   EVIDENCE: pending Ralph's approval of r1 (README Status updated 2026-10-14)
