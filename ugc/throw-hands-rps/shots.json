@@ -17,7 +17,11 @@
    "dur": 4,
    "vo": "You know that moment when everybody at game night is on their phone?",
    "still": "High angle over the wood table. In the sharp foreground the real Throw Hands box stands upright, unopened, filling the lower third. Around the table edges four pairs of hands each hold a smartphone and scroll, nobody touching the box. No faces.",
-   "video": "The hands keep scrolling and tapping their phones, one thumb swipes up; slow camera push-in toward the box, which stays sharp, still and identical."
+   "video": "The hands keep scrolling and tapping their phones, one thumb swipes up; slow camera push-in toward the box, which stays sharp, still and identical.",
+   "t": [
+    0.0,
+    3.4
+   ]
   },
   {
    "id": "S2",
@@ -27,7 +31,11 @@
    "dur": 4,
    "vo": "Or the game drags on so long the kids give up.",
    "still": "Overhead on the wood table: a plain unbranded board game with many little pieces left mid-game, a paper score sheet. A child's small hand enters from the top edge, wrist visible, resting flat and bored on the table next to the board.",
-   "video": "The child's hand slowly pushes the board away and slides out of frame, a few pieces tip over; gentle handheld drift."
+   "video": "Grace's ringed hand slowly pushes the board away and slides out of frame, giving up; a few pieces tip over; gentle handheld drift.",
+   "t": [
+    3.4,
+    6.28
+   ]
   },
   {
    "id": "S3",
@@ -37,7 +45,11 @@
    "dur": 4,
    "vo": "This is Throw Hands.",
    "still": "Close high angle: Grace's hand grips the real Throw Hands box by its sides above the wood table, box front facing the camera, the purple deck partly slid out of the top.",
-   "video": "Her other fingers pull the purple deck the rest of the way out of the box; the box stays upright, front art facing the camera and unchanged; slow push-in."
+   "video": "Her top hand lifts the box a little by its hanging tab and tilts it gently toward the camera while her lower thumb steadies it; the box front art faces the camera and never changes; slow push-in.",
+   "t": [
+    6.28,
+    7.84
+   ]
   },
   {
    "id": "S4",
@@ -51,6 +63,10 @@
    "video": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands on the left, then the top, then the right, then Grace's hand at the bottom; each hand goes in, drops one card and pulls back to its own edge; hands never touch or overlap; every hand keeps its own skin colour from the first frame; fast real speed, no slow motion.",
    "extra_refs": [
     "old/S4_v1.png"
+   ],
+   "t": [
+    7.84,
+    11.52
    ]
   },
   {
@@ -61,7 +77,11 @@
    "dur": 4,
    "vo": "Watch the last card and slam down the one that beats it.",
    "still": "Close overhead on the centre pile: the top card is a scissors card (two-finger peace sign). Grace's hand hovers just above it from the bottom edge, gripping a rock card (closed fist), wrist visible.",
-   "video": "Grace's hand slaps the rock card flat on top of the scissors card; another player's hand from the top edge arrives a split second late and pulls back."
+   "video": "Grace's hand slaps the rock card flat on top of the scissors card; another player's hand from the top edge arrives a split second late and pulls back.",
+   "t": [
+    11.52,
+    14.34
+   ]
   },
   {
    "id": "S6",
@@ -71,7 +91,11 @@
    "dur": 4,
    "vo": "Rock beats scissors, paper beats rock, scissors beats paper.",
    "still": "Overhead: three real Throw Hands cards lie face up in a row on the wood table, scissors, rock, paper. Grace's index finger enters from the bottom edge touching the first card.",
-   "video": "Her finger taps the scissors card, then the rock card, then the paper card, one after another in rhythm; slow sideways camera slide."
+   "video": "Her finger taps the scissors card, then the rock card, then the paper card, one after another in rhythm; slow sideways camera slide.",
+   "t": [
+    14.34,
+    17.7
+   ]
   },
   {
    "id": "S7",
@@ -81,7 +105,11 @@
    "dur": 4,
    "vo": "First one out of cards wins.",
    "still": "Overhead on the pile: Grace's hand holds her last single card above the centre pile, other players' hands still holding several cards at the frame edges.",
-   "video": "She slams her last card down and both her open hands lift up off the table in a quick win; the other hands toss their cards onto the table."
+   "video": "She slams her last card down and both her open hands lift up off the table in a quick win; the other hands toss their cards onto the table.",
+   "t": [
+    17.7,
+    19.24
+   ]
   },
   {
    "id": "S8",
@@ -91,7 +119,11 @@
    "dur": 4,
    "vo": "The only problem? A round is sixty seconds, so nobody stops at one.",
    "still": "High angle: hands from three sides scoop the scattered cards back into one stack in the middle of the wood table; the real box lies to one side.",
-   "video": "The hands quickly gather and square up the deck, Grace's hands shuffle it and start dealing cards out to each side again; real speed."
+   "video": "The hands quickly gather and square up the deck, Grace's hands shuffle it and start dealing cards out to each side again; real speed.",
+   "t": [
+    19.24,
+    23.42
+   ]
   },
   {
    "id": "S9",
@@ -101,7 +133,11 @@
    "dur": 6,
    "vo": "Girls, Thanksgiving is coming. It's two to eight players, so grab one for your house and one for grandma's. It's in the orange cart.",
    "still": "High angle on a bright Thanksgiving table: a cream runner, small pumpkins and autumn leaves, a pie at the edge. Two identical real Throw Hands boxes stand side by side in the centre. Grace's hand enters from the bottom edge, wrist visible.",
-   "video": "Grace's hand picks up one of the two boxes and slides it toward the camera while the other box stays; slow push-in, hold to the end."
+   "video": "Grace's hand picks up one of the two boxes and slides it toward the camera while the other box stays; slow push-in, hold to the end.",
+   "t": [
+    23.42,
+    30.07
+   ]
   }
  ]
 }
