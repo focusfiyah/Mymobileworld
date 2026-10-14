@@ -35,7 +35,7 @@ Scope: one AI Grace ad for the Throw Hands Rock Paper Scissors card game, matche
   EXPECT: ALL_MODELS
   EVIDENCE: 2026-10-14 Kie pricing API rows + docs.kie.ai; Vidu Q3 Turbo not on Kie, vidu/replicate APIs 400/401 without a key
 - [ ] G9: Test cost approved by Ralph before any paid call
-  EVIDENCE: pending (asked 2026-10-14, $2.375)
+  EVIDENCE: Ralph declined the $2.375 test 2026-10-14; asked about an optional +$0.15 Hailuo 2.3 Std clip
 - [ ] G10: S4 still QC'd at full size, then one clip per approved model, sheet + per-model score table to Ralph
   EVIDENCE: pending
 - [ ] G11: Kie spend at or under the approved test total

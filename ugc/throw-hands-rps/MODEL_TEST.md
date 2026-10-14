@@ -1,7 +1,7 @@
 # Video model test on Throw Hands (Ralph 2026-10-14)
 
 Ralph asked to look at Seedance 2.0 / 2.0 Fast, Vidu Q3 Turbo and Hailuo 02 Pro / 2.3 Standard, and to use this ad as the test.
-Status: research done, runner `modelfight.py` ready, **no money spent; waiting on Ralph's OK for the test cost.**
+Status: Ralph 2026-10-14: no full 5-model test (too costly). Recommendation: stay on Seedance 2.0 Mini; optional single Hailuo 2.3 Standard S4 clip (+$0.15) next to the Mini S4 the ad needs anyway. Waiting on his pick.
 
 ## What each one costs and can do (Kie's own price table, read 2026-10-14 from api.kie.ai/client/v1/model-pricing/page)
 | Model | On Kie? | Price, silent, 720p-ish | One 5-6s clip | Notes |
