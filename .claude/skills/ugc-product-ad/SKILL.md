@@ -62,6 +62,7 @@ lessons below are specific to making ads:
   same 6 clips in two sessions, $1.07 lost.
 - **QC extras beyond CLAUDE.md hard rule 3:** nothing resting on thin air (a Vicks still put the box past the vanity
   edge; free fix = crop the frame to end at the object's base). Use `templates/qc-report.md`.
+- **End shot shows ONE product; the voiceover still says to grab more than one.** Why: Ralph, 2026-10-14 (Throw Hands).
 - **Grip check on every still before its clip is paid for:** zoom on each hand that touches an item; it must pinch
   or hold it (thumb on one side, fingers curled on the other). Fingertips resting on a card, a palm flat on a box,
   or an item lying loose next to the hand = redo the still first, never "fix it in the video prompt". Why: Throw

@@ -19,7 +19,7 @@ T["S8"][1] = CUT_A; T["S9"] = [CUT_A, END - (CUT_B - CUT_A)]
 T["S3"][1] = T["S4"][0] = round(T["S4"][0] + 0.31, 2)   # S3 holds the box 0.31s longer so S4 can skip the stray arm
 H = "clips_hailuo/"; S = "clips/"; V = "clips_veo/"
 PARTS = {  # shot -> [(file, start)] in order; the last part runs to fill the window
-    "S1": [(S + "S1_fixed.mp4", 0)], "S2": [(S + "S2.mp4", 0)], "S3": [(S + "S3_fixed2.mp4", 0)],
+    "S1": [(S + "S1_fixed.mp4", 0)], "S2": [(S + "S2.mp4", 0)], "S3": [(S + "S9_fixed.mp4", 4.1)],
     "S4": [(H + "S4.mp4", 0, 0.85), (H + "S4.mp4", 3.35)],
     "S5": [(V + "S5.mp4", 0, 0.67), (V + "S5.mp4", 3.85)], "S6": [(S + "S6.mp4", 0)], "S7": [(H + "S7.mp4", 4.0)],
     "S8": [(H + "S8.mp4", 0, 1.3), (H + "S4.mp4", 0.85, 1.35), (H + "S5.mp4", 4.2)], "S9": [(S + "S9_fixed.mp4", 0)],
