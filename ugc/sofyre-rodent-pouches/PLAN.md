@@ -33,6 +33,8 @@
 
 **Rev 2 (Ralph 2026-10-14, "no need to show 2 products... Lots of motion"):** S11 shows one bag (the voiceover still says "grab two bags"). Every shot now has a bigger camera move on top of the action: walk-ins, orbits, crane-ups and tracking (the dog), plus the hand moves. Cost unchanged.
 
+**Lessons carried over from Throw Hands (2026-10-14), so we stay under the cap:** every still gets a free check before its clip is paid for: each hand visibly pinches or grips what it touches (thumb on one side, fingers curled on the other, never resting on it); the pouch matches the real one (plain white, zig-zag edges); the bag print matches the real bag (paste the real print back if needed); no loose prop that can melt or flip (S7's mint and cinnamon are checked for this, and S10's pouch count is checked); same skin tone and nails in every hand shot. Anything wrong gets fixed free on the still first. The S1 test clip is checked at 10 frames per second before the other ten clips. Only one bag shows in the end shot. The $3.12 quote is the cap; any redo is asked with its price first.
+
 ## Order of work (each step checked before the next)
 1. S1 still (bag + hand + pouch) alone, then the other 10 stills on one sheet for you.
 2. S1 test clip with frame-by-frame QC (the bag print never changes, no shimmer, whole wrist, the hand comes in from the edge).
