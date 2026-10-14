@@ -102,7 +102,7 @@ def fetch(url, out):
 def stills(ids):
     for sid in ids:
         s = SHOTS[sid]
-        refs = ([upload(p) for p in HAND] if s["hand"] else []) + ([upload(p) for p in BOX] if s["box"] else []) + ([upload(p) for p in CARDS] if s["cards"] else [])
+        refs = ([upload(p) for p in HAND] if s["hand"] else []) + ([upload(p) for p in BOX] if s["box"] else []) + ([upload(p) for p in CARDS] if s["cards"] else []) + [upload(p) for p in s.get("extra_refs", [])]
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene']}")
         url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs,
