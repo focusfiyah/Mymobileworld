@@ -1,4 +1,4 @@
-# SoFyre rodent repellent pouches (Grace): plan for approval (2026-10-13)
+# SoFyre rodent repellent pouches (Grace): plan for approval (rev 2, 2026-10-14)
 
 **Format:** hands only + hand-free moving shots, no face, Grace B voiceover, no on-screen text, ~37s, 11 shots. Your two examples are talking-head videos; I kept their beats (cold weather opener, pouches placed around the house, smell, kids and pets, count) in the hands + voiceover style this project uses.
 **Product (real):** black stand-up bag, white RODENT, lime-green REPELLENT, white line-art mouse, "12 POUCHES" (from sofyre.com). Pouch: plain white sachet with zig-zag edges and no print (from the real bag in your first example). Hand: Grace's (pink nails, white French tips, heart ring and crown ring).
@@ -17,7 +17,7 @@
 | S8 | No toxic chemicals, so it's safe around kids and pets. | A golden retriever walks down a bright hallway past a pouch tucked behind a plant. | no | 4s |
 | S9 | And honestly, the best part? No traps to empty. | Hand slides a kitchen drawer closed with a pouch inside at the back. | yes | 4s |
 | S10 | There are twelve in a bag and each one lasts up to three months, | The bag with exactly twelve pouches in two rows of six in front (count checked on the still). | no | 5s |
-| S11 | so grab two bags and do the whole house before the cold hits. It's in the orange cart. | Two bags side by side by a bright window with autumn trees; slow dolly-in, hold. | no | 6s |
+| S11 | so grab two bags and do the whole house before the cold hits. It's in the orange cart. | ONE bag on the island by a bright window, leaves blowing outside; arc-and-push dolly until the bag fills the frame. | no | 6s |
 
 ## Hook options (library, word for word)
 - **A (picked) H130:** "This is going to matter once it gets cold outside." Modeled on @wrldoflyrics_ (3.1M views, 10K saves) and @_millie1k (1.5M), which both open on the cold.
@@ -31,6 +31,8 @@
 - Claims stay on the listing: peppermint + cinnamon, kids and pets safe, homes/cars/storage, 12 pouches, "up to three months" (brand site says 30 to 90 days). Not used: "kills", "no more mice", "48 hours", "65 square feet" and "spiders and ants" (those last two are a different brand's claims). SoFyre's Trustpilot is 3.8 stars with mixed results, so no promise beyond "mice don't like it".
 - Urgency is real: it's mid October and the cold is coming.
 
+**Rev 2 (Ralph 2026-10-14, "no need to show 2 products... Lots of motion"):** S11 shows one bag (the voiceover still says "grab two bags"). Every shot now has a bigger camera move on top of the action: walk-ins, orbits, crane-ups and tracking (the dog), plus the hand moves. Cost unchanged.
+
 ## Order of work (each step checked before the next)
 1. S1 still (bag + hand + pouch) alone, then the other 10 stills on one sheet for you.
 2. S1 test clip with frame-by-frame QC (the bag print never changes, no shimmer, whole wrist, the hand comes in from the edge).
@@ -42,6 +44,6 @@ Time: about 1 hour of work after your OK, plus your still review.
 |---|---|
 | 11 stills, Nano Banana Pro on Kie ($0.09 each) | $0.99 |
 | 11 clips, Seedance 2.0 Mini on Kie (52s at $0.041/s) | $2.13 |
-| **Kie total** | **$3.12** (balance now $7.75) |
+| **Kie total** | **$3.12** (balance now $4.85) |
 | ElevenLabs voiceover, Grace B | ~630 characters |
 Any redo gets its own price and your OK first.
