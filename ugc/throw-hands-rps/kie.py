@@ -86,7 +86,7 @@ def run_task(body):
         if d.get("state") == "success":
             rj = d.get("resultJson"); rj = json.loads(rj) if isinstance(rj, str) and rj else (rj or {})
             log({"request": body, "taskId": tid, "result": rj, "costTime": d.get("costTime")})
-            return (rj.get("resultUrls") or [None])[0]
+            return (rj.get("resultUrls") or (rj.get("data") or {}).get("result_urls") or [None])[0]
         if d.get("state") == "fail":
             log({"request": body, "taskId": tid, "fail": [d.get("failCode"), d.get("failMsg")]})
             print("FAILED", d.get("failCode"), d.get("failMsg")); return None
@@ -142,6 +142,18 @@ def hailuo(sid):
         fetch(url, f"clips_hailuo/{sid}.mp4"); print("hailuo", sid, "ok", flush=True)
 
 
+def veo(sid, tier="veo3_fast"):
+    """Same still on Google Veo 3.1 (the model behind Google Flow), first-frame image-to-video, 9:16 720p, 6s.
+    Kie price per clip: veo3_fast 60 credits ($0.30), veo3_lite 30 ($0.15) (kie.ai/veo-3-1, read 2026-10-14). Veo adds its own audio: cut.py drops it."""
+    s = SHOTS[sid]
+    first = upload(s.get("first_frame", f"stills/{sid}.png"))
+    url = run_task({"model": "veo-3-1", "input": {"model": tier, "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+        "prompt": f"{s.get('video_veo', s['video'])} {blocks(sid)} {J['video_suffix']}", "image_urls": [first],
+        "aspect_ratio": "9:16", "duration": 6, "resolution": "720p"}})
+    if url:
+        Path("clips_veo").mkdir(exist_ok=True); fetch(url, f"clips_veo/{sid}.mp4"); print("veo", sid, "ok", flush=True)
+
+
 def sheet(kind, ext):
     """One labelled preview image: every still, or 4 frames per clip (one row per clip)."""
     files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
@@ -176,4 +188,5 @@ def sheet(kind, ext):
 if __name__ == "__main__":
     os.chdir(Path(__file__).parent)
     cmd, ids = sys.argv[1], sys.argv[2:] or MAIN
-    {"stills": stills, "clips": clips, "hailuo": lambda ids: [hailuo(i) for i in ids]}[cmd](ids)
+    {"stills": stills, "clips": clips, "hailuo": lambda ids: [hailuo(i) for i in ids],
+     "veo": lambda ids: [veo(i) for i in ids], "veo_lite": lambda ids: [veo(i, "veo3_lite") for i in ids]}[cmd](ids)
