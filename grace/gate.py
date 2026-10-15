@@ -32,6 +32,27 @@ AUDIENCE_HEADS = ["## who", "## pain point experience", "## communication style"
 PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience")   # research that comes BEFORE the script: not required to be newer than it
 
 
+def check_readability(job, c):
+    """Per-video readability (Ralph 2026-10-15: V5 of night-driving-glasses v2 kept word for word). Each readability proof file
+    is one video (readability_vN.txt). A video above grade 6 passes ONLY if an override names that video, its rule is
+    readability, and the grade in the override equals the measured grade in its file. Without per-video files, max_grade applies."""
+    rp = (c.get("readability") or {})
+    files = [job / f for f in rp.get("proof", []) if (job / f).exists()]
+    if not files or not all(re.search(r"readability_v\d+\.txt$", f.name) for f in files):
+        rd = rp.get("max_grade")
+        return [f"readability: max grade {rd} > 6"] if rd is not None and rd > 6 else []
+    errs = []
+    for f in files:
+        m = re.search(r"Grade level \(Flesch-Kincaid\):\s*([\d.]+)", f.read_text(errors="ignore"))
+        if not m: errs.append(f"readability: no grade in {f.name}"); continue
+        grade, vid = float(m.group(1)), "V" + re.search(r"v(\d+)", f.name).group(1)
+        if grade <= 6: continue
+        ok = [o for o in overrides(c) if o.get("rule") == "readability" and vid in (o.get("videos") or [])
+              and o.get("grade") is not None and abs(float(o["grade"]) - grade) < 0.05]
+        if not ok: errs.append(f"readability: {vid} grade {grade} > 6 with no matching override")
+    return errs
+
+
 def norm(t):
     return re.sub(r"\s+", " ", t.replace("\u2019", "'").replace("\u2018", "'").replace("\u201c", '"').replace("\u201d", '"')).lower()
 
@@ -93,8 +114,7 @@ def check(job, stage="plan"):
             elif k not in PROOF_FIRST and fp.stat().st_mtime < newest:
                 errs.append(f"{k}: {f} is older than the script: redo {k} on the current script")
     errs += check_audience(job, c)
-    rd = (c.get("readability") or {}).get("max_grade")
-    if rd is not None and rd > 6: errs.append(f"readability: max grade {rd} > 6")
+    errs += check_readability(job, c)
     for o in overrides(c):   # a recorded exception covers ONLY the rule + videos it names; everything else still applies
         for f in ("rule", "videos", "by", "date", "quote", "grade"):
             if not o.get(f): errs.append(f"override missing '{f}': {o}")
