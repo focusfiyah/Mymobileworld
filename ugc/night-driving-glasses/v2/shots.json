@@ -1,0 +1,186 @@
+{
+ "identity_block": "The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring.",
+ "glasses_block": "The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only.",
+ "video_suffix": "Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+ "voice": {
+  "name": "Grace B",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI"
+ },
+ "scene_v1": "Inside a sedan on a city street at night, cool blue dashboard glow, oncoming headlights and streetlights through the windshield, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+ "scene_v2": "Inside a compact car on a wet rainy night, beige cloth seats, warm dashboard light, rain on the windshield, real phone camera look, sharp focus, no text, no logos, no watermark.",
+ "scene_v3": "Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+ "scene_v4": "Inside a family car at dusk on a suburban road, warm amber light fading to deep blue, first street lamps on, real phone camera look, sharp focus, no text, no logos, no watermark.",
+ "scene_v5": "Inside a car on a rainy downtown street at night, cool magenta and teal city light, wet windshield with bokeh, real phone camera look, sharp focus, no text, no logos, no watermark.",
+ "shots": [
+  {
+   "id": "V1-1",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v1",
+   "dur": 4,
+   "vo": "Blinding headlights at night are a whole different kind of scary.",
+   "still": "Low camera inside the car. Grace's hand lifts the night driving glasses up into the frame, the lenses facing the windshield where oncoming headlights blaze, the glasses sharp in the foreground.",
+   "video": "The hand lifts the glasses higher into the glare, then holds them steady; headlights bloom behind; slow push-in."
+  },
+  {
+   "id": "V1-3",
+   "hand": 1,
+   "glasses": 0,
+   "scene": "v1",
+   "dur": 4,
+   "vo": "And wearing glasses? That makes it even worse.",
+   "still": "Grace's hand holds a plain pair of black prescription glasses up toward the bright headlight glare, the frame sharp in the foreground. No blue glasses in this shot.",
+   "video": "The hand turns the black glasses slowly against the headlight glare; the glare shifts; slow drift to the right."
+  },
+  {
+   "id": "V1-4",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v1",
+   "dur": 6,
+   "vo": "These are night driving glasses that fit right over your regular ones. The yellow lenses are designed to help reduce glare from oncoming headlights. And look, there's a little yellow window on each side, so the glare can't sneak in from the side.",
+   "still": "Grace's hand turns the night driving glasses slowly, first front then side, the small yellow side window catching the streetlight. Sharp focus on the glasses.",
+   "video": "The hand rotates the glasses from front to side view, the yellow side window catches the light; smooth slow turn; push-in."
+  },
+  {
+   "id": "V1-6",
+   "hand": 0,
+   "glasses": 1,
+   "scene": "v1",
+   "dur": 4,
+   "vo": "Keep a pair in your car and grab one for your mom. They're in the orange cart.",
+   "still": "The night driving glasses rest on the centre console of the car, a red and white dashboard glow behind, no hand in frame, the pair sharp and centred.",
+   "video": "Slow push-in toward the glasses on the console; a passing headlight sweeps softly across the lenses; no hand."
+  },
+  {
+   "id": "V2-1",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v2",
+   "dur": 4,
+   "vo": "Nothing makes me grip the steering wheel tighter than blinding headlights at night. You're squinting, leaning forward, trying to see the road while those headlights are coming straight at you.",
+   "still": "Grace's hand gripping a steering wheel, the night driving glasses on the dashboard in front of the windshield, rain and headlight glare outside.",
+   "video": "The hand holds the wheel and tightens its grip slightly; headlight glare grows through the rain; slow push-in on the glasses."
+  },
+  {
+   "id": "V2-3",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v2",
+   "dur": 6,
+   "vo": "These night driving glasses fit right over your regular glasses, with yellow polarized lenses designed to help reduce glare. They even have yellow side windows to help with glare coming in from the sides.",
+   "still": "Grace's hand holds the night driving glasses up to the wet windshield and tilts them to show the yellow side window, rain drops on the glass behind.",
+   "video": "The hand tilts the glasses so the side window catches the light; slow turn; rain streaks across the glass."
+  },
+  {
+   "id": "V2-4",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v2",
+   "dur": 4,
+   "vo": "Keep a pair in your car before those evening drives. They're in the orange cart.",
+   "still": "Grace's hand clips the night driving glasses onto the sun visor above the windshield, the visor neat, sharp focus.",
+   "video": "The hand clips the glasses to the visor and lets go; a gentle settle; slow push-in."
+  },
+  {
+   "id": "V3-1",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v3",
+   "dur": 4,
+   "vo": "Ever had oncoming headlights hit so hard you had to squint just to stay in your lane? That split second when you can barely make out the road is stressful.",
+   "still": "Grace's hand holds the night driving glasses at arm's length, highway headlights glaring behind them through the windshield, the glasses sharp.",
+   "video": "The hand holds the glasses steady as headlights swell behind; the glare pulses softly; slow push-in."
+  },
+  {
+   "id": "V3-3",
+   "hand": 0,
+   "glasses": 1,
+   "scene": "v3",
+   "dur": 5,
+   "vo": "These night driving glasses fit right over your regular glasses, so you don't have to choose between seeing clearly and wearing your prescription frames.",
+   "still": "The night driving glasses sit folded over a pair of black prescription glasses on the passenger seat, no hand in frame, sharp focus, slow camera orbit.",
+   "video": "Slow camera orbit around the two pairs of glasses on the seat; the highway light shifts across the lenses; no hand."
+  },
+  {
+   "id": "V3-4",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v3",
+   "dur": 5,
+   "vo": "The yellow polarized lenses are designed to help reduce glare, and the side windows help address glare coming from the sides, too.",
+   "still": "Close-up: Grace's hand turns the night driving glasses so the yellow lenses and the side window face the camera, the lens colour clear and true.",
+   "video": "The hand slowly turns the glasses toward camera; the yellow lens reflects the light; close-up push-in."
+  },
+  {
+   "id": "V3-5",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v3",
+   "dur": 4,
+   "vo": "Keep a pair in your car. Tap the orange cart to check them out.",
+   "still": "Grace's hand places the night driving glasses into the car door pocket, sharp focus on the glasses.",
+   "video": "The hand slides the glasses into the door pocket and withdraws; a gentle settle; slow drift in."
+  },
+  {
+   "id": "V4-1",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v4",
+   "dur": 4,
+   "vo": "Nothing makes me grip the steering wheel tighter than blinding headlights at night. And with the clocks going back November first, we'll be dealing with more darkness on our evening drives.",
+   "still": "The night driving glasses rest on the dashboard at dusk, Grace's hand on the steering wheel at the edge of the frame, the first headlights coming on ahead through the windshield.",
+   "video": "The hand tightens on the wheel; the headlights ahead grow; slow push-in on the glasses."
+  },
+  {
+   "id": "V4-4",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v4",
+   "dur": 6,
+   "vo": "These night driving glasses fit right over your regular glasses, with yellow polarized lenses designed to help reduce glare. They even have yellow side windows to address glare coming from the sides.",
+   "still": "Grace's hand holds the night driving glasses up toward the windshield and turns them to show both yellow side windows, the warm dusk light on the lenses.",
+   "video": "The hand turns the glasses slowly to show the side windows; warm light shifts across the lenses; push-in."
+  },
+  {
+   "id": "V4-5",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v4",
+   "dur": 5,
+   "vo": "Keep a pair in your car and grab one for your mom, too. They're in the orange cart.",
+   "still": "Grace's hand drops the night driving glasses into an open glovebox, the warm dusk light falling across the glasses, sharp focus.",
+   "video": "The hand lowers the glasses into the glovebox and lets go; soft settle; slow push-in."
+  },
+  {
+   "id": "V5-1",
+   "hand": 0,
+   "glasses": 1,
+   "scene": "v5",
+   "dur": 4,
+   "vo": "Ever had oncoming headlights hit so hard you had to squint just to stay in your lane? With the clocks going back November first, those dark drives home are coming even sooner.",
+   "still": "The night driving glasses rest on the dashboard, rain on the windshield behind, headlight glare blooming in the wet glass, no hand in frame.",
+   "video": "Slow push-in on the glasses on the dash; the glare swells and softens behind the rain; no hand."
+  },
+  {
+   "id": "V5-3",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v5",
+   "dur": 6,
+   "vo": "These night driving glasses fit right over your regular glasses and feature yellow polarized lenses designed to help reduce glare, plus side windows for additional coverage.",
+   "still": "Grace's hand tilts the night driving glasses in the city light, lens then side window, the glasses sharp against the magenta blur.",
+   "video": "The hand tilts the glasses so light moves across the lens and the yellow side window; slow turn."
+  },
+  {
+   "id": "V5-4",
+   "hand": 1,
+   "glasses": 1,
+   "scene": "v5",
+   "dur": 4,
+   "vo": "Keep a pair in your car, especially with darker evenings ahead. They're in the orange cart.",
+   "still": "Grace's hand sets the night driving glasses in the car cup holder, the cup holder and the glasses sharp, the city lights blurred behind.",
+   "video": "The hand sets the glasses into the cup holder and lets go; soft settle; slow push-in."
+  }
+ ]
+}
