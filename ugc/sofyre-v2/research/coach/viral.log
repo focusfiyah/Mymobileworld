@@ -1,0 +1,108 @@
+  #tiktokshophome: 139 videos
+  #tiktokshopkitchen: 0 videos
+  #tiktokshopcleaning: 142 videos
+  #tiktokshopfinds: 136 videos
+  #rodentrepellent: 139 videos
+  #mouserepellent: 137 videos
+  #pestcontrol: 134 videos
+  #mice: 139 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:388: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+907 videos scanned, 238 shop videos posted in the last 30.0 day(s) -> research/coach/viral-2026-10-13.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      1.1M   12.8M 11.2d   0.2  (product not in TikTok's data)
+                                  @gbkunsdma7: son fáciles de despegar y pegar, no requieren taladrar y est
+                                  https://www.tiktok.com/@gbkunsdma7/video/7692136057223138568
+  2      845K   23.0M 27.2d  0.37  (product not in TikTok's data)
+                                  @sarvina450: #christmas #tiktokmademebuyit #tiktokshop #fyp 
+                                  https://www.tiktok.com/@sarvina450/video/7686197199415397662
+  3      695K   13.5M 19.4d  0.16  (product not in TikTok's data)
+                                  @khalaniadelaide1: #tiktokshop #fyp #tiktokshopbacktoschool #organizer #organiz
+                                  https://www.tiktok.com/@khalaniadelaide1/video/7689097197652053261
+  4      546K    2.5M  4.6d  0.15  Sink Organizer Rack,Hanging Faucet Drain Rack with Drip [Home Supplies]
+                                  @yolanvgahmb: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@yolanvgahmb/video/7694603268231646495
+  5      458K    1.7M  3.7d  0.29  Tear-Off Microfiber Cleaning Cloth Roll, Lint-Free High [Home Supplies]
+                                  @rljq7322u6l: #fyp #foryou #tiktokshop 
+                                  https://www.tiktok.com/@rljq7322u6l/video/7694924393893432607
+  6      456K    5.7M 12.5d  0.05  SEESE Turbo Jet Leaf Blower,Cordless Leaf Blower, Viole [Tools & Hardware]
+                                  @pinkmama002: Your daily cleaning just got easier.#blower #CarCare #carown
+                                  https://www.tiktok.com/@pinkmama002/video/7690981239267904798
+  7      420K    940K  2.2d  1.18  Women’s Ribbed Knit 2 Piece Outfit Set, Cropped Full Zi [Sports & Outdoor]
+                                  @shopwithtaye: It’s the shade of pink AND the little details for me 😭🎀💗 mat
+                                  https://www.tiktok.com/@shopwithtaye/video/7695471370209119519
+  8      353K    2.7M  7.6d  0.18  (product not in TikTok's data)
+                                  @sprowgoudie9678: #fyp #tiktok #tiktokshop #tiktokmademebuyit 
+                                  https://www.tiktok.com/@sprowgoudie9678/video/7693467720653737246
+  9      337K    3.1M  9.2d  0.16  3-in-1 Entryway Organizer:  Rack with Coat Rack, 5-Tier [Home Supplies]
+                                  @amy_abt7: #tiktokshop #organizedhome #homeorganization 
+                                  https://www.tiktok.com/@amy_abt7/video/7692893580209212685
+ 10      327K    4.3M 13.2d  0.39  Hard Bottom Backseat Extenders for Dogs with Door Prote [Pet Supplies]
+                                  @tiktokshopdeals4you: This is definitely worth the money! #fyp #tiktokshop #ruffli
+                                  https://www.tiktok.com/@tiktokshopdeals4you/video/7691417627519913246
+ 11      300K    3.1M 10.3d  0.25  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+ 12      252K    2.8M 11.1d  0.13  3-in-1 Entryway Organizer:  Rack with Coat Rack, 5-Tier [Home Supplies]
+                                  @user2988182241461: #tiktokshop #homeorganization #organizedhome 
+                                  https://www.tiktok.com/@user2988182241461/video/7692176464363392270
+ 13      247K    1.2M  4.9d  0.09  (product not in TikTok's data)
+                                  @rosesoma: Replying to @eminyverbrasion you guys this is a LUXURYYY #he
+                                  https://www.tiktok.com/@rosesoma/video/7694499134790716702
+ 14      238K    3.5M 14.7d  0.17  【FaddishDeal】Heavy-Duty Full Mesh Air Conditioner Cover [Home Supplies]
+                                  @jhbpqfzy102: The absolute best invention for your home this fall! 🍂☕️ Pro
+                                  https://www.tiktok.com/@jhbpqfzy102/video/7690856456710556942
+ 15      162K    3.1M 19.2d  0.32  Reliant Pet Mouse Repellent Pouches - Rodent Repellent  [Home Supplies]
+                                  @wrldoflyrics_: If you keep a clean house and think you don’t need these… wa
+                                  https://www.tiktok.com/@wrldoflyrics_/video/7689185394939710750
+ 16      147K    2.9M 19.7d  1.31  Women's Striped Tie Long Sleeve Blouse and Wide-Leg Pan [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 17      145K    758K  5.2d  0.13  Reliant Pet Mouse Repellent Pouches - Rodent Repellent  [Home Supplies]
+                                  @_millie1k: Soon as it gets cold, here they come 😭🐭 #repellents #mousere
+                                  https://www.tiktok.com/@_millie1k/video/7694357404107951374
+ 18      137K    1.5M 11.0d  0.36  Reliant Pet Mouse Repellent Pouches - Rodent Repellent  [Home Supplies]
+                                  @_millie1k: Soon as it gets cold, here they come 😭🐭 #repellents #mousere
+                                  https://www.tiktok.com/@_millie1k/video/7692239987319786766
+ 19      134K    2.3M 17.2d  0.24  (product not in TikTok's data)
+                                  @merlinepulley42: 3-in-1 winter hat,keeps your face,neck & ears toasty AF! Gra
+                                  https://www.tiktok.com/@merlinepulley42/video/7689899316252626207
+ 20      127K    824K  6.5d  0.39  Adjustable Stainless Steel Telescopic Long Handle Crevi [Tools & Hardware]
+                                  @mhgfrew12324595: No way-my sister actually kept such a handy tool to herself!
+                                  https://www.tiktok.com/@mhgfrew12324595/video/7693886667387653390
+ 21      119K    2.6M 21.9d   0.2  Rotating Wall Outlet Extender – 2 AC + USB-C/A Ports (3 [Home Improvement]
+                                  @tapa_mondo: #tiktokshopcreatorpicks #homeimprovement #outlet #outletexte
+                                  https://www.tiktok.com/@tapa_mondo/video/7688187518386244877
+ 22      119K    404K  3.4d  0.13  (product not in TikTok's data)
+                                  @cccvvv709: I didn't realize how dirty those edges 465 were until I actu
+                                  https://www.tiktok.com/@cccvvv709/video/7695029158052744461
+ 23      108K    2.0M 18.6d  0.15  Bathroom Sink Stopper, Universal Drain Filter with Hair [Home Supplies]
+                                  @asperjohll: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@asperjohll/video/7689413598422027534
+ 24       98K    1.4M 14.3d  0.38  Reliant Pet Mouse Repellent Pouches - Rodent Repellent  [Home Supplies]
+                                  @wrldoflyrics_: If you keep a clean house and think you don't need these... 
+                                  https://www.tiktok.com/@wrldoflyrics_/video/7691007776465685791
+ 25       84K     75K  0.9d  0.18  Women's Oversized Denim Jacket Vintage Large Button Dow [Womenswear & Underwear]
+                                  @change1e: #TikTokShopFallDealsForyou #spotlinghtfinds #fallfreshness #
+                                  https://www.tiktok.com/@change1e/video/7695973091054210317
+ 26       68K    1.6M 23.5d  0.28  (product not in TikTok's data)
+                                  @ylluhyrpfc8ocjn: Cleaning should not be so complicated👀 This disinfection spr
+                                  https://www.tiktok.com/@ylluhyrpfc8ocjn/video/7687570633441545502
+ 27       64K    1.7M 26.6d  0.26  (product not in TikTok's data)
+                                  @wyxd6744: 2026 New USB Plug-in Christmas Projector Light 🎄✨#christmas 
+                                  https://www.tiktok.com/@wyxd6744/video/7686435138552565023
+ 28       61K    874K 14.3d  0.25  Reliant Pet Mouse Repellent Pouches - Rodent Repellent  [Home Supplies]
+                                  @wrldoflyrics_: If you keep a clean house and think you don't need these... 
+                                  https://www.tiktok.com/@wrldoflyrics_/video/7690994320060599582
+ 29       60K    278K  4.6d  0.46  (product not in TikTok's data)
+                                  @mia.crtr07: so cute honestly you all NEED to get a pair #tiktokshopfinds
+                                  https://www.tiktok.com/@mia.crtr07/video/7694598242280983830
+ 30       51K    946K 18.4d  0.04  9PCS Car Window Cleaner Kit Extendable Handle Windshiel [Automotive & Motorcycle]
+                                  @joneshhh5656: #windshieldcleaner #cartips #carmusthaves #carcleaning #Uber
+                                  https://www.tiktok.com/@joneshhh5656/video/7689312635942210846
+DONE
