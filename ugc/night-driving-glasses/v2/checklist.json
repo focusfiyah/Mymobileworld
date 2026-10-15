@@ -1,0 +1,72 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "shots.json",
+ "playbook": {
+  "proof": [
+   "../research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "../research/coach/shop-night-driving-glasses.json",
+   "../research/coach/tag-nightdrivingglasses.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "../research/coach/viral-2026-10-12.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "../research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "../research/audience.md",
+   "../research/audience/questions.md",
+   "../research/audience/comments.md",
+   "../research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt",
+   "research/readability_v2.txt",
+   "research/readability_v3.txt",
+   "research/readability_v4.txt",
+   "research/readability_v5.txt"
+  ],
+  "max_grade": 7.3
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    "V5"
+   ],
+   "grade": 7.3,
+   "by": "Ralph",
+   "date": "2026-10-15",
+   "quote": "Keep word for word."
+  }
+ ]
+}

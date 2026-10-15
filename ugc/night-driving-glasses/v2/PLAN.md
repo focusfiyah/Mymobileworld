@@ -1,7 +1,7 @@
 # Night driving glasses: 5 new videos from Grace's scripts (plan, 2026-10-15)
 
 Nothing paid until Ralph approves. Words are Grace's, word for word (`scripts_grace.txt`). No on-screen text, no price.
-Voice: Grace B (same as the approved r1). Hand: Grace's hand from the reference sheet (bracelet or not: Ralph to pick).
+Voice: Grace B (same as the approved r1). Hand: Grace's hand WITH the gold bracelet (Ralph 2026-10-15). Length: keep every word (Ralph 2026-10-15).
 No footage from r1 and no stock clip is shared between videos. Every product shot shows ONE pair.
 
 ## The one conflict: word for word vs 20s or less
