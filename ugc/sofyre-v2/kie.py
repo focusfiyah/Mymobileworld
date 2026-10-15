@@ -103,7 +103,7 @@ def fetch(url, out):
 def stills(ids):
     for sid in ids:
         s = SHOTS[sid]
-        refs = ([upload(p) for p in HAND] if s["hand"] else []) + ([upload(p) for p in BAG] if s["bag"] else []) \
+        refs = ([upload(p) for p in s.get("hand_ref",HAND)] if s["hand"] else []) + ([upload(p) for p in BAG] if s["bag"] else []) \
             + ([upload(p) for p in POUCH] if s["pouch"] else [])
         prompt = (f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} "
                   f"{blocks(sid)} {J['scene_' + s['scene']]}")

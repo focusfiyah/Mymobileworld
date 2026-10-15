@@ -1,7 +1,7 @@
 # grace/PLAYBOOK.md rules applied (SoFyre v2, 2026-10-15)
 - Scripts: Ralph's own three scripts (2026-10-15 thread message), used word for word on his ask. Flags raised to him, not silently edited:
   - none of the three has a line that sells more units (v1 had "grab two bags and do the whole house");
-  - V2 closes "Orange cart." and V3 "Check the orange cart." instead of the house close "It's in the orange cart.";
+  - V2 now closes "It's in the orange cart." (Ralph 2026-10-15, same as V1); and V3 "Check the orange cart." instead of the house close "It's in the orange cart.";
   - the hooks are his own lines, not library hooks (they echo the winning cold-weather opener of @wrldoflyrics_, 3.1M).
 - §1: claims all on the listing (peppermint + cinnamon oil, repels mice, pantry/sink/garage, 12 pouches, up to three months = brand's 30-90 days); no price, no "order it now", no personal-use lines.
 - §5 pacing: ~60 words each ≈ 17 s at Grace B's 3.5 words/s (the v1 VO), pauses cut; "about 20 seconds" per Ralph.
