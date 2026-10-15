@@ -116,11 +116,14 @@
    "pouch": 0,
    "dur": 5,
    "vo": "Let's not make room for these guests.",
-   "still": "Bright living room in daytime seen from behind a grey sofa: two adults sit on the sofa with their backs to the camera, the backs of their heads and shoulders only, facing a white brick fireplace with a small calm fire. The black SoFyre bag stands upright on a wooden coffee table at the left. Grace's hand enters from the bottom right frame edge, index finger pointing forward past the two people toward the fireplace, other fingers curled. On the stone hearth beside the fireplace sits one small grey mouse.",
-   "video": "The pointing hand holds still and steady while the camera pushes in past the two people toward the hearth until the mouse is clear; the mouse twitches its nose; the people stay still with their backs to the camera. One mouse only.",
+   "still": "Bright living room in daytime, shot from just behind a long wooden console table that stands right behind a grey sofa, camera at table height. ONE single hand only, Grace's bare right hand (no bracelet), enters from the bottom right frame edge and pinches the top edge of the tall black SoFyre bag between thumb and index finger; the bag hangs just above the table surface, about a hand's height above the wood, front facing the camera. There is no second hand and no other arm anywhere in the frame. Beyond the table, exactly two adults sit on the sofa with their backs to the camera, the backs of their heads and shoulders only, in soft focus, facing a white brick fireplace with a small calm fire. One small grey mouse sits on the stone hearth by the fireplace, small but visible.",
+   "video": "Grace's hand lowers the bag and sets it down on the table, lets go and pulls back out of frame at the bottom; the bag stays upright and unchanged on the table; then the camera pushes in smoothly over the table and past the two seated people toward the hearth until the small grey mouse is clear; the mouse twitches its nose; the people stay still with their backs to the camera. One mouse only, exactly two people.",
    "t": [
     0.0,
-    1.96
+    1.9
+   ],
+   "hand_ref": [
+    "refs/hand_sheet_nobracelet.jpg"
    ]
   },
   {
@@ -135,8 +138,8 @@
    "still": "Bright pantry shelf at eye level with glass jars of pasta and rice. Grace's hand grips the side of one glass jar, fingers wrapped around it, starting to slide it aside to reveal a few small dark mouse droppings on the shelf behind it.",
    "video": "The hand slides the jar to the side revealing the droppings while the camera pushes in to them; the droppings stay still. Clean, not gross.",
    "t": [
-    1.96,
-    6.46
+    1.9,
+    6.36
    ]
   },
   {
@@ -151,8 +154,8 @@
    "still": "Overhead top-down view of a round wooden tray on a light table: the black SoFyre bag lying flat front up, a few white pouches, peppermint leaves and cinnamon sticks. Grace's hand enters from the right edge and pinches one white pouch by its edge between thumb and index finger.",
    "video": "The overhead camera slowly rotates and lowers while the hand lifts the pouch up out of frame; nothing else on the tray moves.",
    "t": [
-    6.46,
-    10.34
+    6.36,
+    10.06
    ]
   },
   {
@@ -165,10 +168,10 @@
    "dur": 5,
    "vo": "Just place them in the areas you want to protect, including under the sink",
    "still": "Open under-sink cabinet painted soft sage green, white pipes, a few cleaning bottles. Grace's hand enters from the bottom frame edge pinching one white pouch between thumb and index finger, reaching toward the back corner behind the bottles.",
-   "video": "The hand sets the pouch down in the back corner, lets go and pulls back out of frame; the camera pushes in and tilts down to the pouch.",
+   "video": "Locked camera, only a very slight push-in. The hand sets the pouch down on the cabinet floor right beside the cleaning bottles, lets go and pulls back out of frame. The bottles, sponge and pipes stay exactly where they are and never disappear or move; the pouch stays beside them.",
    "t": [
-    10.34,
-    13.98
+    10.06,
+    13.56
    ]
   },
   {
@@ -183,8 +186,8 @@
    "still": "Low view along the clean concrete floor of a bright garage to the inside corner of the closed white garage door, one white pouch lying flat on the floor by the door seal.",
    "video": "Fast low dolly along the floor toward the pouch, ending close on it; nothing moves.",
    "t": [
-    13.98,
-    15.06
+    13.56,
+    14.6
    ]
   },
   {
@@ -195,12 +198,12 @@
    "bag": 1,
    "pouch": 0,
    "dur": 4,
-   "vo": "Prepare now, not later. Orange cart.",
+   "vo": "Prepare now, not later. It's in the orange cart.",
    "still": "One black SoFyre bag stands upright alone on a white wooden fireplace mantel, front facing the camera, a small calm fire below, bright living room.",
    "video": "Quick smooth push-in and slight arc until the bag front fills the frame; the bag stays upright and unchanged. One bag only.",
    "t": [
-    15.06,
-    17.61
+    14.6,
+    17.35
    ]
   },
   {

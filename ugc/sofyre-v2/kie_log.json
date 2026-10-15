@@ -1115,5 +1115,168 @@
    ]
   },
   "costTime": 113
+ },
+ {
+  "t": "2026-10-15 07:20:27",
+  "submitted": "955299a685664c0d536a0e6530fcd8c1",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime seen from behind a long w"
+ },
+ {
+  "t": "2026-10-15 07:21:17",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime seen from behind a long wooden console table that stands behind a grey sofa. The black SoFyre bag (tall, upright) stands alone on the console table in the foreground, front facing the camera. Beyond it, two adults sit on the sofa with their backs to the camera, the backs of their heads and shoulders only, in soft focus, facing a white brick fireplace with a small calm fire. On the stone hearth by the fireplace sits one small grey mouse, small but visible. The SoFyre bag is the product from the bag reference sheet: a TALL matte BLACK stand-up zip pouch bag (its height is about one and a half times its width, like a coffee bag, never short and wide) with a faint dark polygon pattern, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, a white geometric line-art mouse face, a row of small lime-green circle icons, and a white band with small black text across the bottom. Keep its exact shape, colours and layout; it never changes. Bright cozy family home in daytime, soft neutral daylight, cream and grey tones, clean neutral white balance (not golden, not dark), real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040923090-3y41w4qgvo1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040925326-vqz2zg0ybkb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "955299a685664c0d536a0e6530fcd8c1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/955299a685664c0d536a0e6530fcd8c1_0_1792048874.jpeg"
+   ]
+  },
+  "costTime": 48
+ },
+ {
+  "t": "2026-10-15 07:21:30",
+  "submitted": "3ce54e3b65c33975da7fc11ef19b5a0f",
+  "prompt": "Locked camera, only a very slight push-in. The hand sets the pouch down on the cabinet floor right beside the cleaning b"
+ },
+ {
+  "t": "2026-10-15 07:21:30",
+  "submitted": "08a16af3789ad93d9a3fceeee5acef20",
+  "prompt": "Smooth fast push-in past the bag and over the sofa toward the hearth until the small grey mouse is clear; the mouse twit"
+ },
+ {
+  "t": "2026-10-15 07:23:24",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Smooth fast push-in past the bag and over the sofa toward the hearth until the small grey mouse is clear; the mouse twitches its nose; the people stay still with their backs to the camera; the bag stays upright and unchanged. No hands. One mouse only. The SoFyre bag is the product from the bag reference sheet: a TALL matte BLACK stand-up zip pouch bag (its height is about one and a half times its width, like a coffee bag, never short and wide) with a faint dark polygon pattern, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, a white geometric line-art mouse face, a row of small lime-green circle icons, and a white band with small black text across the bottom. Keep its exact shape, colours and layout; it never changes. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792048887795-q3ipgt1rvd9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "08a16af3789ad93d9a3fceeee5acef20",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792048995980-9axio7xacln.mp4"
+   ]
+  },
+  "costTime": 109
+ },
+ {
+  "t": "2026-10-15 07:23:49",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked camera, only a very slight push-in. The hand sets the pouch down on the cabinet floor right beside the cleaning bottles, lets go and pulls back out of frame. The bottles, sponge and pipes stay exactly where they are and never disappear or move; the pouch stays beside them. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792041623269-plcjmcu9jv.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "3ce54e3b65c33975da7fc11ef19b5a0f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792049027195-vkj466ricl.mp4"
+   ]
+  },
+  "costTime": 139
+ },
+ {
+  "t": "2026-10-15 07:45:47",
+  "submitted": "bd69879b46e5e58aea5ef02c114da946",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime. A long wooden console ta"
+ },
+ {
+  "t": "2026-10-15 07:47:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime. A long wooden console table stands right behind a grey sofa. The black SoFyre bag (tall, upright) stands on the console table, front facing the camera. Grace's hand (bare wrist, no bracelet) rests on the table next to the bag with the index finger pointing forward over the sofa toward the fireplace, other fingers curled. Beyond the table, two adults sit on the sofa with their backs to the camera, the backs of their heads and shoulders only, in soft focus, facing a white brick fireplace with a small calm fire. On the stone hearth by the fireplace sits one small grey mouse, small but visible. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The SoFyre bag is the product from the bag reference sheet: a TALL matte BLACK stand-up zip pouch bag (its height is about one and a half times its width, like a coffee bag, never short and wide) with a faint dark polygon pattern, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, a white geometric line-art mouse face, a row of small lime-green circle icons, and a white band with small black text across the bottom. Keep its exact shape, colours and layout; it never changes. Bright cozy family home in daytime, soft neutral daylight, cream and grey tones, clean neutral white balance (not golden, not dark), real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792050345300-v8h4421npck.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040923090-3y41w4qgvo1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040925326-vqz2zg0ybkb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bd69879b46e5e58aea5ef02c114da946",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bd69879b46e5e58aea5ef02c114da946_0_1792050429.jpeg"
+   ]
+  },
+  "costTime": 81
+ },
+ {
+  "t": "2026-10-15 08:10:39",
+  "submitted": "7cb482eaccf841f828eead5f0a31a6fa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime, shot from just behind a "
+ },
+ {
+  "t": "2026-10-15 08:11:36",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime, shot from just behind a long wooden console table that stands right behind a grey sofa. Grace's bare hand (no bracelet) enters from the bottom frame edge and pinches the top edge of the tall black SoFyre bag between thumb and fingers, holding it a few centimetres above the table surface, front facing the camera, about to set it down. Beyond the table, exactly two adults sit on the sofa with their backs to the camera, the backs of their heads and shoulders only, in soft focus, facing a white brick fireplace with a small calm fire. One small grey mouse sits on the stone hearth by the fireplace, small but visible. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The SoFyre bag is the product from the bag reference sheet: a TALL matte BLACK stand-up zip pouch bag (its height is about one and a half times its width, like a coffee bag, never short and wide) with a faint dark polygon pattern, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, a white geometric line-art mouse face, a row of small lime-green circle icons, and a white band with small black text across the bottom. Keep its exact shape, colours and layout; it never changes. Bright cozy family home in daytime, soft neutral daylight, cream and grey tones, clean neutral white balance (not golden, not dark), real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792050345300-v8h4421npck.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040923090-3y41w4qgvo1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040925326-vqz2zg0ybkb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7cb482eaccf841f828eead5f0a31a6fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7cb482eaccf841f828eead5f0a31a6fa_0_1792051889.jpeg"
+   ]
+  },
+  "costTime": 50
+ },
+ {
+  "t": "2026-10-15 08:28:21",
+  "submitted": "ba615f21f1dd2631ae1b566d666a70fa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime, shot from just behind a "
+ },
+ {
+  "t": "2026-10-15 08:29:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright living room in daytime, shot from just behind a long wooden console table that stands right behind a grey sofa, camera at table height. ONE single hand only, Grace's bare right hand (no bracelet), enters from the bottom right frame edge and pinches the top edge of the tall black SoFyre bag between thumb and index finger; the bag hangs just above the table surface, about a hand's height above the wood, front facing the camera. There is no second hand and no other arm anywhere in the frame. Beyond the table, exactly two adults sit on the sofa with their backs to the camera, the backs of their heads and shoulders only, in soft focus, facing a white brick fireplace with a small calm fire. One small grey mouse sits on the stone hearth by the fireplace, small but visible. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The SoFyre bag is the product from the bag reference sheet: a TALL matte BLACK stand-up zip pouch bag (its height is about one and a half times its width, like a coffee bag, never short and wide) with a faint dark polygon pattern, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, a white geometric line-art mouse face, a row of small lime-green circle icons, and a white band with small black text across the bottom. Keep its exact shape, colours and layout; it never changes. Bright cozy family home in daytime, soft neutral daylight, cream and grey tones, clean neutral white balance (not golden, not dark), real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792050345300-v8h4421npck.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040923090-3y41w4qgvo1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1792040925326-vqz2zg0ybkb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ba615f21f1dd2631ae1b566d666a70fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ba615f21f1dd2631ae1b566d666a70fa_0_1792052954.jpeg"
+   ]
+  },
+  "costTime": 52
  }
 ]

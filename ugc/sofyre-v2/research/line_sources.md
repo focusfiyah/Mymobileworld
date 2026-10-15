@@ -7,3 +7,4 @@ Claim checks (research/product_facts.md, brand site sofyre.com + listing):
 - "Twelve come in a bag" -> listing "(12 Pouches)".
 - "each lasts up to three months" -> brand site "effectively repels for 30-90 days".
 - Cold-weather timing -> real urgency (mid-October), the winners' opener (research/coach).
+- V2 close "It's in the orange cart." -> Ralph's note 2026-10-15 and the house close in grace/PLAYBOOK.md (same as V1).
