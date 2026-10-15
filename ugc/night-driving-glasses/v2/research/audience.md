@@ -1,1 +1,1 @@
-../research/audience.md
+../../research/audience.md

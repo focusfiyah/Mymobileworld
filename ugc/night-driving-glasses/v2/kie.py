@@ -13,7 +13,7 @@ import requests
 
 def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
     import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
-    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+    _s.path.insert(0, str(_h.parents[3] / "grace")); from gate import require; require(_h.parent)
 
 
 
