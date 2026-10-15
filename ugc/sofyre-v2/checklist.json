@@ -1,0 +1,59 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "captions.md",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach/tag-mouserepellent.json",
+   "research/coach/7689185394939710750/meta.json",
+   "research/coach/7676918867297406222/meta.json",
+   "research/coach/7691423762608147726/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-15.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "max_grade": 4.4
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": []
+ }
+}

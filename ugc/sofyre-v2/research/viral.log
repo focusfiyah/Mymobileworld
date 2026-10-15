@@ -1,0 +1,76 @@
+  #tiktokshophome: 141 videos
+  #tiktokshopkitchen: 137 videos
+  #tiktokshopcleaning: 141 videos
+  #tiktokshopfinds: 140 videos
+  #mouserepellent: 136 videos
+  #rodentrepellent: 134 videos
+  #pestcontrol: 133 videos
+/home/user/Mymobileworld/ugc/sofyre-v2/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/sofyre-v2/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:388: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+907 videos scanned, 96 shop videos posted in the last 3 day(s) -> research/coach/viral-2026-10-15.json
+Ranked by views gained since the last run (+) where known, else average views/day since posting.
+
+  #   per day   views   age save%  product / creator / url
+  1      639K    1.2M  1.9d  0.17  (product not in TikTok's data)
+                                  @yxx910345: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@yxx910345/video/7696054599102319902
+  2       74K    175K  2.4d  0.08  Cheflee 660W Multifunctional Stand Mixer - 6+ Speed Con [Household Appliances]
+                                  @happy_tiktokfinds: You seriously can’t pass it up #kitchenmixer #tiktokshopdeal
+                                  https://www.tiktok.com/@happy_tiktokfinds/video/7695865926683462925
+  3       71K    148K  2.1d  0.19  (product not in TikTok's data)
+                                  @yourthreadsshop: #fallfreshness #tiktokholidayhauls #spotlightfinds #tops#tik
+                                  https://www.tiktok.com/@yourthreadsshop/video/7695978516646481182
+  4       51K     82K  1.6d  0.09  SOPAMI Telescopic Disposable Dust Mop, Touch-Free Auto  [Home Supplies]
+                                  @cnb88703iim: Clip anything. Clean everything. Regret nothing.#mop #cleant
+                                  https://www.tiktok.com/@cnb88703iim/video/7696149913603722527
+  5      +32K    114K  2.1d  0.21  (product not in TikTok's data)
+                                  @change1e: #TikTokShopFallDealsForyou #spotlinghtfinds #fallfreshness #
+                                  https://www.tiktok.com/@change1e/video/7695973091054210317
+  6       32K     58K  1.8d  0.32  【FallPickDeals】MaiRêve Embroidery Microfiber Bed Cover  [Textiles & Soft Furnishings]
+                                  @mary1621official: Embroidered boho microfiber comforter set with sheets, shams
+                                  https://www.tiktok.com/@mary1621official/video/7696010761335852318
+  7      +12K     21K  2.3d  0.19  (product not in TikTok's data)
+                                  @ttspaulking: #MouseRepellent #RodentRepellent #HomeEssentials #PestContro
+                                  https://www.tiktok.com/@ttspaulking/video/7695898875596475679
+  8      5.0K     13K  2.7d  0.17  [DealsForYou]DEVOAC VM6 Electric Rotating Steam Mop-10- [Household Appliances]
+                                  @devoac_us0: #DealsForYouDays #steam #clean #mop #tiktokshop 
+                                  https://www.tiktok.com/@devoac_us0/video/7695763614388538655
+  9      3.5K    6.0K  1.7d  0.03  Karat 12" x 1000' Standard Aluminum Foil Roll - 1 roll [Kitchenware]
+                                  @keyli_aitana: 1000 pies de aluminio para tu cosina #summerwins #dealsforyo
+                                  https://www.tiktok.com/@keyli_aitana/video/7695982008945691935
+ 10      3.5K    3.9K  1.1d  0.03  (product not in TikTok's data)
+                                  @gearandgrit: Get em before they come live with you #TiktokShopFallDealsFo
+                                  https://www.tiktok.com/@gearandgrit/video/7696313018245762318
+ 11      3.0K    1.2K  0.4d  0.25  YEOREO Ease Women Off Shoulder Long Sleeve Shirts Doubl [Sports & Outdoor]
+                                  @elizabeeth35: Tiktokshop haul🌸🩰#tiktokshopfinds #tiktokshoph #haul #clothe
+                                  https://www.tiktok.com/@elizabeeth35/video/7696605847002139934
+ 12      2.5K     635  0.2d  0.63  YEOREO Women's 2-Piece Minimalist Off-Shoulder Chic Top [Womenswear & Underwear]
+                                  @princessbree_._: 10/10 🐬 #blackfriday #forwomen #viralvideo #hoildaycountdown
+                                  https://www.tiktok.com/@princessbree_._/video/7696658510410501406
+ 13      2.5K    1.4K  0.5d     0  SOPAMI Telescopic Disposable Dust Mop, Touch-Free Auto  [Home Supplies]
+                                  @ninja.phlip: Replying to @not_that_Amy making clean your home easier #Tik
+                                  https://www.tiktok.com/@ninja.phlip/video/7696551709493038366
+ 14      2.5K    6.2K  2.5d  0.06  Reliant Pet - Rodent Repellent made with Peppermint Oil [Home Supplies]
+                                  @monica.usa20: This mouse repellent spray not only smells great but it will
+                                  https://www.tiktok.com/@monica.usa20/video/7695814624981077262
+ 15      2.5K    2.9K  1.2d  0.28  SoFyre Rodent Repellent Pouches (12 Pouches) – Natural  [Home Supplies]
+                                  @hazlifefishing: I used this rodent repellent to get rid of the mice that hav
+                                  https://www.tiktok.com/@hazlifefishing/video/7696318452486671629
+ 16      2.3K    5.6K  2.4d  0.07  Sakerplus Portable Handheld Steam Cleaner, High Tempera [Household Appliances]
+                                  @happy_tiktokfinds: This thing is so powerful #steamer #steamcleaning #steamclea
+                                  https://www.tiktok.com/@happy_tiktokfinds/video/7695851517223374094
+ 17      1.9K    4.4K  2.3d  0.05  Reliant Pet - Rodent Repellent made with Peppermint Oil [Home Supplies]
+                                  @truenorth207: Reliant Pet Rodent Repellent Spray. #DealForYouDays #Holiday
+                                  https://www.tiktok.com/@truenorth207/video/7695895202866810143
+ 18      1.5K    2.3K  1.5d  0.04  PAMAX Household daily necessities, household items, cli [Home Supplies]
+                                  @charliemc654: Pamex #mousetrap #rattrap #pestcontrol
+                                  https://www.tiktok.com/@charliemc654/video/7696194907253312798
+ 19      1.4K    3.2K  2.2d  0.03  SUNNY 330LBS Adjustable Pull Up Bar 28"-38" No Drill To [Sports & Outdoor]
+                                  @discountedluke: This works great!! #pullupbar #adjustablepullupbardoor #tikt
+                                  https://www.tiktok.com/@discountedluke/video/7695918934024785183
+ 20      1.2K     342  0.3d     0  (product not in TikTok's data)
+                                  @shopwithdezz: Replying to @Antoniella💞 Don’t wait for them to settle in #M
+                                  https://www.tiktok.com/@shopwithdezz/video/7696645138650582286
