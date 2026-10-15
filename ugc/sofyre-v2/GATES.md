@@ -19,3 +19,11 @@
 - [x] G5: every end shot shows ONE bag
   CHECK: python3 -c "import json;s=json.load(open('shots.json'))['shots'];e=[[x for x in s if x['vid']==v][-1] for v in ('V1','V2','V3')];print('ONEBAG' if all('One bag only' in x['video'] for x in e) else 'NO')"
   EXPECT: ONEBAG
+
+## Cut stage (2026-10-15)
+- G6 three cuts exist, 17-18s, 720x1280, audio present, gate --stage cut OK
+  CHECK: for v in V1 V2 V3; do ffprobe -v error -show_entries format=duration -of csv=p=0 out/$v.mp4; done; python3 ../../grace/gate.py . --stage cut
+  EXPECT: 17.9 / 17.6 / 17.4 and GATE OK
+- G7 compare proof saved (research/compare_v.md). MET
+- G8 no text overlay, one bag per end shot, V3S7 shows 12 pouches. MET (visual contact sheets)
+- G9 playable review page published. MET
