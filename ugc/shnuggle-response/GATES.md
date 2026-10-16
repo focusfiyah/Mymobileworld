@@ -27,7 +27,7 @@ Scope: Two AI hands-only response videos (R1 "over priced", R2 "just the right s
   EXPECT: finals PASS
   EVIDENCE: pending
 
-- [ ] G6: QC report all clear for both cuts (hands: no jewellery, whole wrist from frame edge, grip; 2x edge zoom; first second; product unchanged; no text; no child; REMOVED.md checked)
+- [ ] G6: QC report all clear for both cuts (hands: birthstone rings only, no bracelet or watch, whole wrist from frame edge, grip; 2x edge zoom; first second; product unchanged; no text; no child; REMOVED.md checked)
   CHECK: python3 ugc/shnuggle-response/qc/gates_check.py qc_report
   EXPECT: qc_report PASS
   EVIDENCE: pending

@@ -1041,5 +1041,31 @@
    ]
   },
   "costTime": 140
+ },
+ {
+  "t": "2026-10-16 22:20:46",
+  "submitted": "c7208b0f93f87c6ed82d5ba001efb00a",
+  "prompt": "The fingers pull the small white plug up and out; the water starts swirling down through the hole; camera static. The on"
+ },
+ {
+  "t": "2026-10-16 22:23:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The fingers pull the small white plug up and out; the water starts swirling down through the hole; camera static. The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge with the wrist touching the frame edge; the forearm stays OUTSIDE the frame (no forearm, no arm), and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies. The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a pattern of small thin raised circle outlines (rings, not filled dots); a small round white plug with a little pull tab set into the flat dotted floor at the FRONT (low end) of the tub, in front of the seat bump, never on top of the bump. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts. Setting: a bright bathroom with SAGE-GREEN glossy tiles on every wall and a corner walk-in shower with a clear glass door, chrome shower head, a light grey shower tray floor; the white tub stands out clearly against the green; soft white daylight from a window, clean neutral white balance, bright, no golden, yellow or dark tones; folded white towels, a light grey bath mat. Shot on a phone, realistic, no cinematic grading. No on-screen text. Fingers stay anatomically correct (five fingers). The tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792189243912-3zaltui3gkr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c7208b0f93f87c6ed82d5ba001efb00a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792189381479-oy6x6zhu32r.mp4"
+   ]
+  },
+  "costTime": 137
  }
 ]
