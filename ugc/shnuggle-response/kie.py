@@ -81,7 +81,7 @@ def fetch(url, out):
 def one_still(sid):
     s = SHOTS[sid]
     refs = ([upload(p) for p in HAND] if s.get("hand") else []) + ([upload(p) for p in PROD + s.get("extra_refs", [])] if s.get("prod") else []) + ([upload(s["look_ref"])] if s.get("look_ref") else [])
-    look = " Match the LAST reference image for the room, tile colour, light and the woman's hand (same room, same hand, same rings)." if s.get("look_ref") else ""
+    look = " Match the LAST reference image for the room, tile colour, light and the woman's hand (same room, same hand, same rings), but NOT for how big the Shnuggle tub is: follow the size words in this prompt." if s.get("look_ref") else ""
     prompt = f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {s['still']} {blocks(sid)}{look}"
     url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs, "aspect_ratio": "9:16", "resolution": "1K"}})
     if url: fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
