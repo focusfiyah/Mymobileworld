@@ -1769,5 +1769,31 @@
    ]
   },
   "costTime": 162
+ },
+ {
+  "t": "2026-10-16 22:55:29",
+  "submitted": "efd830d845381e554c1d0ec718308ff0",
+  "prompt": "The hand grips the rim of the small grey infant tub on the floor and tilts it slightly toward the camera, then sets it b"
+ },
+ {
+  "t": "2026-10-16 22:57:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand grips the rim of the small grey infant tub on the floor and tilts it slightly toward the camera, then sets it back down; the infant tub stays on the floor beside the claw-foot bath the whole time and never goes into the bath. There is exactly ONE small infant tub in the shot from the first frame to the last; no second tub appears. Slow gentle push-in. The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge with the wrist touching the frame edge; the forearm stays OUTSIDE the frame (no forearm, no arm), and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies. Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text. SCALE: the Shnuggle is a small toddler tub, about 75 cm long; the claw-foot bathtub is a full adult bath about 170 cm long. Whenever both are seen, the Shnuggle takes up LESS THAN HALF the bath's length and clearly narrower than the bath, with lots of empty white bath around it; it never fills the bath, never touches both ends, never sticks out over the rim. Fingers stay anatomically correct (five fingers). The tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792189472773-3nvvfdzhbk4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "efd830d845381e554c1d0ec718308ff0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792191459341-t8r9ymkd2pb.mp4"
+   ]
+  },
+  "costTime": 131
  }
 ]

@@ -262,14 +262,14 @@
     "prod": false,
     "dur": 4,
     "src": "still",
-    "still": "Medium shot on the light grey tiled floor beside the claw-foot bath: a small plain pale-grey infant bath tub, no logo, no text; the hand enters from the left gripping its rim.",
-    "video": "The hand grips the rim of the small grey infant tub on the floor and tilts it slightly toward the camera, then sets it back down; the infant tub stays on the floor beside the claw-foot bath the whole time and never goes into the bath. There is exactly ONE small infant tub in the shot from the first frame to the last; no second tub appears. Slow gentle push-in.",
+    "still": "Medium shot of the light grey tiled floor in front of the claw-foot bath: a small plain pale-grey infant bath tub, no logo, no text, sits flat ON THE FLOOR about half a metre in front of the bath, with clear floor tiles visible all around it and between it and the bath (it does not touch or overlap the bath); the hand enters from the left edge, wrist touching the frame edge, gripping its rim.",
+    "video": "The hand grips the rim of the small grey infant tub on the floor and tilts it a little toward the camera, then lets it settle back flat; it stays on the floor in front of the bath the whole time and never moves toward the bath. Exactly ONE infant tub in the shot. Slow gentle push-in.",
     "t": [
      5.6,
      8.98
     ],
     "look_ref": "stills/R2-04.png",
-    "fix": "2026-10-16 r1 clip: infant tub slid into the big bath and a second one appeared on the floor -> redo with this prompt"
+    "fix": "2026-10-16: r1 clip duplicated the tub, r2 clip ($0.164) pushed it through the bath wall: the still overlapped the bath rim. New still with the tub clearly on the floor."
    },
    {
     "id": "R2-03",
