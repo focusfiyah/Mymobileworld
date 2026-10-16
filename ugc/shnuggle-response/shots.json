@@ -26,9 +26,12 @@
     "video": "The hand sets the coffee cup down on the ledge, lets go and leaves the frame at the bottom right; the camera slowly pushes in toward the tub.",
     "t": [
      0.0,
-     3.72
+     3.5
     ],
-    "look_ref": "stills/R1-11_crop.png"
+    "look_ref": "stills/R1-11_crop.png",
+    "clip": "clips_fixed/R1-01.mp4",
+    "cut_in": 1.5,
+    "fix": "2026-10-16: Seedance printed a shnuggle logo on the plain coffee sleeve; tools/fix_sleeve.py from 1.2s, shot starts after the hand leaves"
    },
    {
     "id": "R1-02",
@@ -40,7 +43,7 @@
     "video": "Slow handheld walk-in toward the tub in the shower; only the camera moves, nothing in the room moves.",
     "still": "Medium-wide shot of the corner walk-in shower: the empty Shnuggle tub stands alone on the light grey shower tray, sage-green tiles all around.",
     "t": [
-     3.72,
+     3.5,
      6.4
     ],
     "look_ref": "stills/R1-11_crop.png"
@@ -88,7 +91,14 @@
      12.88,
      16.36
     ],
-    "look_ref": "stills/R1-11_crop.png"
+    "look_ref": "stills/R1-11_crop.png",
+    "crop": [
+     0,
+     129,
+     575,
+     1022
+    ],
+    "fix": "2026-10-16: teal bangle on the wrist (x>=584 of 720) cropped out"
    },
    {
     "id": "R1-06",
@@ -253,12 +263,13 @@
     "dur": 4,
     "src": "still",
     "still": "Medium shot on the light grey tiled floor beside the claw-foot bath: a small plain pale-grey infant bath tub, no logo, no text; the hand enters from the left gripping its rim.",
-    "video": "The hand sets the small infant tub down on the floor and pushes it slightly aside; camera static.",
+    "video": "The hand grips the rim of the small grey infant tub on the floor and tilts it slightly toward the camera, then sets it back down; the infant tub stays on the floor beside the claw-foot bath the whole time and never goes into the bath. There is exactly ONE small infant tub in the shot from the first frame to the last; no second tub appears. Slow gentle push-in.",
     "t": [
      5.6,
      8.98
     ],
-    "look_ref": "stills/R2-04.png"
+    "look_ref": "stills/R2-04.png",
+    "fix": "2026-10-16 r1 clip: infant tub slid into the big bath and a second one appeared on the floor -> redo with this prompt"
    },
    {
     "id": "R2-03",
@@ -360,7 +371,7 @@
     "video": "Slow push-in over the water toward the seat bump; only the camera moves.",
     "t": [
      26.18,
-     28.18
+     29.08
     ],
     "look_ref": "stills/R2-04.png"
    },
@@ -374,10 +385,11 @@
     "still": "Side angle close-up of the light grey foam backrest inside the empty Shnuggle tub in the claw-foot bath; the Shnuggle's thick rolled rim is complete and unbroken all the way round; the hand enters from the right edge, wrist touching the frame edge, and its thumb rests on the top edge of the foam backrest.",
     "video": "The thumb runs slowly down the soft grey backrest; camera static.",
     "t": [
-     28.18,
+     29.08,
      29.78
     ],
-    "look_ref": "stills/R2-04.png"
+    "look_ref": "stills/R2-04.png",
+    "fix": "2026-10-16: teal bangle appears from 0.75s; only 0-0.7s used, R2-09 runs longer"
    },
    {
     "id": "R2-11",
@@ -390,7 +402,7 @@
     "video": "The hand gives the rim a firm nudge; the tub stays still on the wet bath floor; camera static.",
     "t": [
      29.78,
-     30.68
+     30.6
     ],
     "look_ref": "stills/R2-04.png"
    },
@@ -404,13 +416,14 @@
     "still": "Top-down close-up looking straight down INSIDE the Shnuggle tub only (its white walls fill the frame edges, the big bath is not visible): shallow clear water over the Shnuggle's own flat floor with small raised ring outlines; the small round white plug sits in that flat floor at the low front end, in front of the smooth seat bump; the hand enters from the right edge, wrist touching the frame edge, and thumb and index finger pinch the plug's little tab.",
     "video": "The fingers lift the plug out and the water swirls down the hole; camera static.",
     "t": [
-     30.68,
-     32.18
+     30.6,
+     31.8
     ],
     "extra_refs": [
      "refs/plug_crop.jpg"
     ],
-    "look_ref": "stills/R2-04.png"
+    "look_ref": "stills/R2-04.png",
+    "fix": "2026-10-16: clip jumps to another scene at 1.21s; only 0-1.2s used"
    },
    {
     "id": "R2-13",
@@ -422,7 +435,7 @@
     "still": "Wide shot from a few steps back showing the WHOLE white claw-foot bathtub end to end, all four feet visible: the small Shnuggle tub sits at the tap end inside it, empty and dry, taking up less than half of the bath's length, with a big stretch of empty white bath beside it; a folded white hooded baby towel draped over the Shnuggle's rim.",
     "video": "Slow sideways slide past the tub and towel; only the camera moves.",
     "t": [
-     32.18,
+     31.8,
      36.74
     ],
     "look_ref": "stills/R2-04.png"
