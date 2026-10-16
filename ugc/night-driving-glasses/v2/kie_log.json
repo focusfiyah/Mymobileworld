@@ -1674,5 +1674,31 @@
   "t": "2026-10-16 09:05:48",
   "submitted": "913f1274d7fc746213e6e0bbe14e2b46",
   "prompt": "Locked-off camera, no push-in. The hand slowly turns the glasses so the yellow side windows catch the passing lights; th"
+ },
+ {
+  "t": "2026-10-16 09:07:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand slowly turns the glasses so the yellow side windows catch the passing lights; the glasses stay the same size and in the same spot in the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792141544842-0dr4rjw8q2p.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "913f1274d7fc746213e6e0bbe14e2b46",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792141636916-t4t1va68sn.mp4"
+   ]
+  },
+  "costTime": 90
+ },
+ {
+  "t": "2026-10-16 09:08:03",
+  "submitted": "04e99365f95f45845e5f594aeea30e1e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand tucking the night driving glasses into a c"
  }
 ]
