@@ -13,17 +13,17 @@ def crop916(im, cx=0.5):
     w, h = im.size; cw = int(h * 9 / 16); x = int(max(0, min(w - cw, cx * w - cw / 2))); return im.crop((x, 0, x + cw, h)).resize((W, H))
 for v, S in J["videos"].items():
     cols = 7; rows = (len(S) + cols - 1) // cols; sheet = Image.new("RGB", (W * cols, (H + T) * rows), "white"); d = ImageDraw.Draw(sheet)
-    base = Image.open(PLATE[v]).convert("RGB")
+    base = Image.new("RGB", (900, 1600), {"R1": (178, 201, 171), "R2": (236, 196, 196)}[v])
     for k, s in enumerate(S):
         x, y = (k % cols) * W, (k // cols) * (H + T)
         if s["src"].startswith("plate:"):
             p = crop916(Image.open(s["src"][6:]).convert("RGB")); tag = "REAL PHOTO PLATE (free)"
         else:
-            p = crop916(base).filter(ImageFilter.GaussianBlur(6)); p = Image.blend(p, Image.new("RGB", p.size, "white"), 0.45)
+            p = crop916(base)
             if s["prod"]:
                 sc = 0.75 if any(w in s["still"].lower() for w in ("close-up", "low angle")) else 0.45
                 c = cut.resize((int(W * sc), int(W * sc * cut.height / cut.width))); p.paste(c, ((W - c.width) // 2, H - c.height - 60), c)
-            tag = "AI still: " + ("hand + " if s["hand"] else "") + ("real tub ref" if s["prod"] else "no tub")
+            tag = "AI still: " + ("Grace hand + rings, " if s["hand"] else "no hand, ") + ("real tub ref" if s["prod"] else "no tub")
         sheet.paste(p, (x, y)); d.rectangle([x, y, x + W - 1, y + H + T - 1], outline="#bbb")
         d.text((x + 8, y + 6), s["id"], font=ImageFont.truetype(FB, 22), fill="black")
         d.text((x + 8, y + H - 24), tag, font=ImageFont.truetype(F, 13), fill="#333")
