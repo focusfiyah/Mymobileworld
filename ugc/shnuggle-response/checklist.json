@@ -11,11 +11,11 @@
    "../../grace/PLAYBOOK.md"
   ],
   "rules_applied": [
-   "\u00a71 no price number, personal lines flagged not edited, no false scarcity (CTA conditional)",
-   "\u00a73 Grace category-gap hook style",
-   "\u00a74 structure (her own)",
-   "\u00a75 pace 3.0-3.6 wps",
-   "\u00a76 hands from frame edge, grip, no forearm, no text, every video different, REMOVED.md, AI finish",
+   "§1 no price number, personal lines flagged not edited, no false scarcity (CTA conditional)",
+   "§3 Grace category-gap hook style",
+   "§4 structure (her own)",
+   "§5 pace 3.0-3.6 wps",
+   "§6 hands from frame edge, grip, no forearm, no text, every video different, REMOVED.md, AI finish",
    "client script verbatim on Ralph word + override"
   ]
  },
@@ -69,7 +69,11 @@
   ]
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare/R1_compare.txt",
+   "research/compare/R2_compare.txt"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "overrides": [

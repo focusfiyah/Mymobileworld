@@ -1,0 +1,23 @@
+# A/B compare
+
+**A**: research/videos/7683397629056699679/video.mp4
+**B**: out/shnuggle_R2.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 34.9 | 39.5 |
+| words | 0 | 0 |
+| words_per_sec | None | None |
+| cuts | 18 | 10 |
+| cuts_per_10s | 5.2 | 2.5 |
+| first_word_at_s | None | None |
+| spoken_first_3s |  |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+(no captions; rerun with --stt to transcribe)
+
+
+-> research/compare/R2/compare/compare.md, research/compare/R2/compare/compare.png
