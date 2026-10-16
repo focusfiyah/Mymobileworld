@@ -1795,5 +1795,34 @@
    ]
   },
   "costTime": 131
+ },
+ {
+  "t": "2026-10-16 23:18:01",
+  "submitted": "4e7c90422e07d1b095465cdf82b60bdb",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot of the light grey tiled floor in front of t"
+ },
+ {
+  "t": "2026-10-16 23:19:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium shot of the light grey tiled floor in front of the claw-foot bath: a small plain pale-grey infant bath tub, no logo, no text, sits flat ON THE FLOOR about half a metre in front of the bath, with clear floor tiles visible all around it and between it and the bath (it does not touch or overlap the bath); the hand enters from the left edge, wrist touching the frame edge, gripping its rim. The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge with the wrist touching the frame edge; the forearm stays OUTSIDE the frame (no forearm, no arm), and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies. Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text. SCALE: the Shnuggle is a small toddler tub, about 75 cm long; the claw-foot bathtub is a full adult bath about 170 cm long. Whenever both are seen, the Shnuggle takes up LESS THAN HALF the bath's length and clearly narrower than the bath, with lots of empty white bath around it; it never fills the bath, never touches both ends, never sticks out over the rim. Match the LAST reference image for the room, tile colour, light and the woman's hand (same room, same hand, same rings), but NOT for how big the Shnuggle tub is: follow the size words in this prompt.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186181889-thle06dvyz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186184120-ntrjqluz2z.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186186432-79ubkgkc2p.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186661370-jqdy58lkyk.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4e7c90422e07d1b095465cdf82b60bdb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/4e7c90422e07d1b095465cdf82b60bdb_1792192754929.jpeg"
+   ]
+  },
+  "costTime": 73
  }
 ]

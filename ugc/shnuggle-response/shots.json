@@ -269,7 +269,13 @@
      8.98
     ],
     "look_ref": "stills/R2-04.png",
-    "fix": "2026-10-16: r1 clip duplicated the tub, r2 clip ($0.164) pushed it through the bath wall: the still overlapped the bath rim. New still with the tub clearly on the floor."
+    "fix": "2026-10-16: r1 clip duplicated the tub, r2 clip ($0.164) pushed it through the bath wall: the still overlapped the bath rim. New still with the tub clearly on the floor. | 2026-10-16 free fix (Ralph: no more paid tries): r2 clip cropped to the hand + infant tub rim being lowered into the bath; the wall crossing at the bottom is outside the crop.",
+    "crop": [
+     0,
+     180,
+     432,
+     768
+    ]
    },
    {
     "id": "R2-03",

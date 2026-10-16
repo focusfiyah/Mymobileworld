@@ -7,4 +7,5 @@ Eye checks (qc/R1_sheet.jpg, R2_sheet.jpg, *_hands.jpg, per-clip strips at 2-4 f
 - Scale: Shnuggle smaller than the claw-foot bath in every wide R2 shot (R2-01, 04, 06, 07, 13, 14).
 - No text, no child, no price, product logo/shape unchanged; REMOVED.md checked.
 - Accepted: R1-13 white sleeve cuff at the bottom-left edge (phone POV, no bracelet).
-Status: R1 ALL CLEAR. R2 waiting on R2-02.
+- R2-02 fixed free: r2 clip cropped (432x768 @ 0,180) to the hand lowering the infant tub; wall crossing outside the frame.
+Status: R1 ALL CLEAR. R2 ALL CLEAR.
