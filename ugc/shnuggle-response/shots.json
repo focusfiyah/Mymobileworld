@@ -6,8 +6,8 @@
   "voice_id": "bGrsdLmwBbYUgHRuMFOI",
   "model": "eleven_v4"
  },
- "hand_block": "The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge, no forearm, and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies.",
- "prod_block": "The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a fine pattern of small grippy dots; a small round white plug in the inside floor near the front. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts.",
+ "hand_block": "The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge with the wrist touching the frame edge; the forearm stays OUTSIDE the frame (no forearm, no arm), and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies.",
+ "prod_block": "The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a pattern of small thin raised circle outlines (rings, not filled dots); a small round white plug with a little pull tab set into the flat dotted floor at the FRONT (low end) of the tub, in front of the seat bump, never on top of the bump. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts.",
  "scenes": {
   "R1": "Setting: a bright bathroom with SAGE-GREEN glossy tiles on every wall and a corner walk-in shower with a clear glass door, chrome shower head, a light grey shower tray floor; the white tub stands out clearly against the green; soft white daylight from a window, clean neutral white balance, bright, no golden, yellow or dark tones; folded white towels, a light grey bath mat. Shot on a phone, realistic, no cinematic grading. No on-screen text.",
   "R2": "Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text."
@@ -23,7 +23,12 @@
     "dur": 5,
     "src": "still",
     "still": "Medium shot at the walk-in shower: the empty Shnuggle tub stands on the shower tray; the hand enters from the bottom right edge gripping a plain white paper takeaway coffee cup with a white lid and a kraft sleeve, NO logo, setting it down on the tiled shower ledge beside the tub.",
-    "video": "The hand sets the coffee cup down on the ledge, lets go and leaves the frame at the bottom right; the camera slowly pushes in toward the tub."
+    "video": "The hand sets the coffee cup down on the ledge, lets go and leaves the frame at the bottom right; the camera slowly pushes in toward the tub.",
+    "t": [
+     0.0,
+     3.72
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-02",
@@ -33,7 +38,12 @@
     "dur": 4,
     "src": "still",
     "video": "Slow handheld walk-in toward the tub in the shower; only the camera moves, nothing in the room moves.",
-    "still": "Medium-wide shot of the corner walk-in shower: the empty Shnuggle tub stands alone on the light grey shower tray, sage-green tiles all around."
+    "still": "Medium-wide shot of the corner walk-in shower: the empty Shnuggle tub stands alone on the light grey shower tray, sage-green tiles all around.",
+    "t": [
+     3.72,
+     6.4
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-03",
@@ -43,7 +53,12 @@
     "dur": 4,
     "src": "still",
     "still": "Top-down on the light grey bath mat: a small plain white infant bath tub with a grey mesh newborn sling, no logo, no text, next to the Shnuggle tub, the size difference obvious.",
-    "video": "Slow overhead drift from the small infant tub across to the bigger Shnuggle tub; only the camera moves."
+    "video": "Slow overhead drift from the small infant tub across to the bigger Shnuggle tub; only the camera moves.",
+    "t": [
+     6.4,
+     8.54
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-04",
@@ -53,7 +68,12 @@
     "dur": 5,
     "src": "still",
     "still": "High angle looking down into a large empty white built-in family bathtub in the same sage-green tiled bathroom, chrome tap, nothing inside it; it looks huge.",
-    "video": "The camera slowly cranes down and forward over the rim into the big empty bathtub; nothing moves, no people."
+    "video": "The camera slowly cranes down and forward over the rim into the big empty bathtub; nothing moves, no people.",
+    "t": [
+     8.54,
+     12.88
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-05",
@@ -63,17 +83,27 @@
     "dur": 4,
     "src": "still",
     "still": "Close-up of a small plain white infant tub with a newborn mesh sling, no logo, on the bathroom counter; the hand enters from the right edge and presses two fingertips into the small sling.",
-    "video": "The fingertips press the mesh sling down gently and lift off, showing how tiny it is; camera static."
+    "video": "The fingertips press the mesh sling down gently and lift off, showing how tiny it is; camera static.",
+    "t": [
+     12.88,
+     16.36
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-06",
     "vo": "and even the ones that grow with your baby typically only go up to twelve months.",
     "hand": true,
     "prod": false,
-    "dur": 4,
+    "dur": 5,
     "src": "still",
     "still": "Medium close-up: a plain grey-and-white convertible infant tub with a fold-down newborn seat, no logo, no text, on the bath mat; the hand grips the folded seat.",
-    "video": "The hand folds the little newborn seat down flat, then lets go; camera static."
+    "video": "The hand folds the little newborn seat down flat, then lets go; camera static.",
+    "t": [
+     16.36,
+     20.42
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-07",
@@ -83,7 +113,12 @@
     "dur": 6,
     "src": "still",
     "still": "Medium close-up: the Shnuggle tub on the shower tray, half filled with clear water, a plain yellow rubber duck and a grey stacking cup floating.",
-    "video": "The duck bobs gently on the water while the camera slowly pushes in."
+    "video": "The duck bobs gently on the water while the camera slowly pushes in.",
+    "t": [
+     20.42,
+     25.74
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-08",
@@ -93,7 +128,12 @@
     "dur": 4,
     "src": "still",
     "still": "The Shnuggle tub on the shower tray filled with clear water and a light layer of white bubbles, the rubber duck floating, a folded white towel on the shower ledge.",
-    "video": "Slow camera arc to the left around the front of the tub, the bubbles shimmer gently; only the camera moves."
+    "video": "Slow camera arc to the left around the front of the tub, the bubbles shimmer gently; only the camera moves.",
+    "t": [
+     25.74,
+     28.02
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-09",
@@ -103,7 +143,12 @@
     "dur": 4,
     "src": "still",
     "still": "Close-up inside the empty dry Shnuggle tub: the light grey oval foam backrest fills the frame; the hand enters from the bottom right and presses four fingertips into the foam.",
-    "video": "The fingertips press into the foam backrest, it gives softly, then springs back as the hand lifts away; camera static."
+    "video": "The fingertips press into the foam backrest, it gives softly, then springs back as the hand lifts away; camera static.",
+    "t": [
+     28.02,
+     30.04
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-10",
@@ -113,7 +158,12 @@
     "dur": 4,
     "src": "still",
     "still": "Low angle at floor level on the wet white shower tray: the base of the Shnuggle tub with its small grey foot pads on the wet tray; the hand grips the rim at the top edge of frame.",
-    "video": "The hand pushes the rim sideways; the tub stays planted on the wet tray and does not slide; camera static."
+    "video": "The hand pushes the rim sideways; the tub stays planted on the wet tray and does not slide; camera static.",
+    "t": [
+     30.04,
+     31.04
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-11",
@@ -123,7 +173,14 @@
     "dur": 4,
     "src": "still",
     "still": "Close-up inside the Shnuggle tub with shallow clear water: the small round white plug in the dotted grippy floor; thumb and index finger pinch the plug's little tab.",
-    "video": "The fingers pull the small white plug up and out; the water starts swirling down through the hole; camera static."
+    "video": "The fingers pull the small white plug up and out; the water starts swirling down through the hole; camera static.",
+    "t": [
+     31.04,
+     32.56
+    ],
+    "extra_refs": [
+     "refs/plug_crop.jpg"
+    ]
    },
    {
     "id": "R1-12",
@@ -133,7 +190,12 @@
     "dur": 5,
     "src": "still",
     "still": "The empty, dry Shnuggle tub on the bath mat outside the shower, sage-green tiles behind, a folded white towel beside it.",
-    "video": "Slow camera orbit half way around the empty tub, showing its thick rim and solid shape; only the camera moves."
+    "video": "Slow camera orbit half way around the empty tub, showing its thick rim and solid shape; only the camera moves.",
+    "t": [
+     32.56,
+     36.7
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-13",
@@ -143,7 +205,12 @@
     "dur": 6,
     "src": "still",
     "still": "Over-the-shoulder-free POV: the hand holds a phone in the lower half of the frame, its screen a soft bright blur with no readable text; the Shnuggle tub sharp on the shower tray in the background.",
-    "video": "The thumb scrolls the blurred phone screen twice, the tub stays in the background; slight handheld sway."
+    "video": "The thumb scrolls the blurred phone screen twice, the tub stays in the background; slight handheld sway.",
+    "t": [
+     36.7,
+     42.66
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    },
    {
     "id": "R1-14",
@@ -153,7 +220,12 @@
     "dur": 4,
     "src": "still",
     "still": "Wide shot: the Shnuggle tub on the shower tray with bubbles and the floating duck, a folded white hooded towel on the shower ledge, bright daylight.",
-    "video": "Slow pull-back from the tub; only the camera moves."
+    "video": "Slow pull-back from the tub; only the camera moves.",
+    "t": [
+     42.66,
+     45.65
+    ],
+    "look_ref": "stills/R1-11_crop.png"
    }
   ],
   "R2": [
@@ -165,7 +237,12 @@
     "dur": 6,
     "src": "still",
     "still": "The Shnuggle tub sits inside the white claw-foot bathtub, completely covered by a draped plain grey bath towel; the hand grips a corner of the towel at the top right edge.",
-    "video": "The hand pulls the towel off in one smooth move, revealing the white Shnuggle tub inside the big bathtub; camera static then a slight push-in."
+    "video": "The hand pulls the towel off in one smooth move, revealing the white Shnuggle tub inside the big bathtub; camera static then a slight push-in.",
+    "t": [
+     0.0,
+     5.6
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-02",
@@ -175,7 +252,12 @@
     "dur": 4,
     "src": "still",
     "still": "Medium shot on the light grey tiled floor beside the claw-foot bath: a small plain pale-grey infant bath tub, no logo, no text; the hand enters from the left gripping its rim.",
-    "video": "The hand sets the small infant tub down on the floor and pushes it slightly aside; camera static."
+    "video": "The hand sets the small infant tub down on the floor and pushes it slightly aside; camera static.",
+    "t": [
+     5.6,
+     8.98
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-03",
@@ -185,7 +267,12 @@
     "dur": 4,
     "src": "still",
     "still": "Top-down view straight into the large empty white claw-foot bathtub, chrome taps at one end, nothing inside; it looks huge.",
-    "video": "Slow overhead drift along the length of the empty bathtub; nothing moves."
+    "video": "Slow overhead drift along the length of the empty bathtub; nothing moves.",
+    "t": [
+     8.98,
+     12.44
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-04",
@@ -195,7 +282,11 @@
     "dur": 4,
     "src": "still",
     "video": "Slow push-in toward the Shnuggle tub inside the claw-foot bathtub; only the camera moves.",
-    "still": "Medium shot: the empty Shnuggle tub sits inside the white claw-foot bathtub, blush-pink tiles behind, chrome taps at one end."
+    "still": "Medium shot: the empty Shnuggle tub sits inside the white claw-foot bathtub, blush-pink tiles behind, chrome taps at one end.",
+    "t": [
+     12.44,
+     14.7
+    ]
    },
    {
     "id": "R2-05",
@@ -205,7 +296,12 @@
     "dur": 4,
     "src": "still",
     "still": "Close-up of the Shnuggle tub's front rim inside the claw-foot bath, a small plain teal rubber whale toy sitting on the rim.",
-    "video": "Slow push-in on the whale toy and rim; only the camera moves."
+    "video": "Slow push-in on the whale toy and rim; only the camera moves.",
+    "t": [
+     14.7,
+     17.2
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-06",
@@ -215,7 +311,12 @@
     "dur": 4,
     "src": "still",
     "still": "A light wood shelf against the blush-pink tiles holding a small plain pale-grey infant bath tub, no logo, stored away with folded towels.",
-    "video": "Slow pan across the shelf to the stored infant tub; only the camera moves."
+    "video": "Slow pan across the shelf to the stored infant tub; only the camera moves.",
+    "t": [
+     17.2,
+     19.92
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-07",
@@ -225,7 +326,12 @@
     "dur": 4,
     "src": "still",
     "still": "High wide angle: the small Shnuggle tub sitting inside the big white claw-foot bathtub, showing the size difference, daylight.",
-    "video": "The camera slowly rises and tilts down over the bathtub; only the camera moves."
+    "video": "The camera slowly rises and tilts down over the bathtub; only the camera moves.",
+    "t": [
+     19.92,
+     22.56
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-08",
@@ -235,7 +341,12 @@
     "dur": 5,
     "src": "still",
     "still": "Close-up: warm water runs from the chrome tap of the claw-foot bath, filling the Shnuggle tub sitting inside it, a few bubbles forming.",
-    "video": "Water keeps filling the Shnuggle tub and bubbles slowly build up; camera static."
+    "video": "Water keeps filling the Shnuggle tub and bubbles slowly build up; camera static.",
+    "t": [
+     22.56,
+     26.18
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-09",
@@ -245,7 +356,12 @@
     "dur": 4,
     "src": "still",
     "still": "Close-up inside the Shnuggle tub with warm water and bubbles: the smooth raised seat bump and the grippy dotted floor visible under the clear water.",
-    "video": "Slow push-in over the water toward the seat bump; only the camera moves."
+    "video": "Slow push-in over the water toward the seat bump; only the camera moves.",
+    "t": [
+     26.18,
+     28.18
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-10",
@@ -255,7 +371,12 @@
     "dur": 4,
     "src": "still",
     "still": "Side angle close-up of the light grey foam backrest inside the empty Shnuggle tub in the claw-foot bath; the hand's thumb rests on the top edge of the backrest.",
-    "video": "The thumb runs slowly down the soft grey backrest; camera static."
+    "video": "The thumb runs slowly down the soft grey backrest; camera static.",
+    "t": [
+     28.18,
+     29.78
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-11",
@@ -265,7 +386,12 @@
     "dur": 4,
     "src": "still",
     "still": "Close-up of the base of the Shnuggle tub sitting on the wet white floor of the claw-foot bath, small grey foot pads; the hand grips the rim at the top edge.",
-    "video": "The hand gives the rim a firm nudge; the tub stays still on the wet bath floor; camera static."
+    "video": "The hand gives the rim a firm nudge; the tub stays still on the wet bath floor; camera static.",
+    "t": [
+     29.78,
+     30.68
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-12",
@@ -275,7 +401,15 @@
     "dur": 4,
     "src": "still",
     "still": "Top-down close-up inside the Shnuggle tub with shallow water over the dotted floor; the hand's thumb and index finger pinch the small round white plug.",
-    "video": "The fingers lift the plug out and the water swirls down the hole; camera static."
+    "video": "The fingers lift the plug out and the water swirls down the hole; camera static.",
+    "t": [
+     30.68,
+     32.18
+    ],
+    "extra_refs": [
+     "refs/plug_crop.jpg"
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-13",
@@ -285,7 +419,12 @@
     "dur": 5,
     "src": "still",
     "still": "The Shnuggle tub inside the claw-foot bath, empty and dry, a folded white hooded baby towel draped over its rim.",
-    "video": "Slow sideways slide past the tub and towel; only the camera moves."
+    "video": "Slow sideways slide past the tub and towel; only the camera moves.",
+    "t": [
+     32.18,
+     36.74
+    ],
+    "look_ref": "stills/R2-04.png"
    },
    {
     "id": "R2-14",
@@ -295,7 +434,12 @@
     "dur": 4,
     "src": "still",
     "still": "Wide: the bright bathroom, the claw-foot bath with the Shnuggle tub inside and the hooded towel on its rim, eucalyptus plant, daylight.",
-    "video": "Slow pull-back and slight rise; only the camera moves."
+    "video": "Slow pull-back and slight rise; only the camera moves.",
+    "t": [
+     36.74,
+     39.55
+    ],
+    "look_ref": "stills/R2-04.png"
    }
   ]
  },
