@@ -50,7 +50,7 @@ def upload(path):
     p = Path(path); st = p.stat()
     k = f"{p}|{st.st_size}|{st.st_mtime_ns}"
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
-    if k in cache:
+    if k in cache and requests.head(cache[k], timeout=30).ok:  # hosted files expire (3-day host)
         return cache[k]
     for attempt in range(4):
         r = requests.post(UPLOAD, headers=HDR, files={"file": (p.name, p.read_bytes())},

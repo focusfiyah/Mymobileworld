@@ -1782,5 +1782,520 @@
   "t": "2026-10-16 16:25:46",
   "submitted": "148193a38e7bcb62ba213cd67d06056d",
   "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the sam"
+ },
+ {
+  "t": "2026-10-16 16:27:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the same size and in the same spot in the frame; passing lights reflect in the yellow side panels. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792167942670-u69vkgv30br.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "148193a38e7bcb62ba213cd67d06056d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792168056811-2i9e8s598n.mp4"
+   ]
+  },
+  "costTime": 112
+ },
+ {
+  "t": "2026-10-16 18:18:42",
+  "submitted": "9ef2786638a7b41974e6756f95cb0a78",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:18:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a sedan on a city street at night, cool blue dashboard glow, oncoming headlights and streetlights through the windshield, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077699724-1raky5urac0j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077702155-19lqmzl1qld.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077705708-27w4tgmeq8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9ef2786638a7b41974e6756f95cb0a78",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-16 18:18:48",
+  "submitted": "eaa171bcaa2938339a79012027832e94",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:18:55",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077699724-1raky5urac0j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077702155-19lqmzl1qld.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077705708-27w4tgmeq8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "eaa171bcaa2938339a79012027832e94",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-16 18:18:55",
+  "submitted": "edb16463012c14cc701c4af6949d659e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:19:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a family car at dusk on a suburban road, warm amber light fading to deep blue, first street lamps on, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077699724-1raky5urac0j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077702155-19lqmzl1qld.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077705708-27w4tgmeq8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "edb16463012c14cc701c4af6949d659e",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-16 18:19:02",
+  "submitted": "49010d47f7f6dbd156fbd3d48fe57631",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:19:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a car on a rainy downtown street at night, cool magenta and teal city light, wet windshield with bokeh, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077699724-1raky5urac0j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077702155-19lqmzl1qld.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077705708-27w4tgmeq8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "49010d47f7f6dbd156fbd3d48fe57631",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-16 18:19:09",
+  "submitted": "f84bd656d8432515240a429ffac843f4",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand setting the night driving glasses down int"
+ },
+ {
+  "t": "2026-10-16 18:19:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand setting the night driving glasses down into the open center console tray of the car, yellow lenses facing up toward the camera, fingers pinching the frame at the temple; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077699724-1raky5urac0j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077702155-19lqmzl1qld.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077705708-27w4tgmeq8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f84bd656d8432515240a429ffac843f4",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-10-16 18:20:30",
+  "submitted": "0c15b386c68d6c7644d0ae5907a13ca3",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:21:26",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a sedan on a city street at night, cool blue dashboard glow, oncoming headlights and streetlights through the windshield, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0c15b386c68d6c7644d0ae5907a13ca3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0c15b386c68d6c7644d0ae5907a13ca3_0_1792174883.jpeg"
+   ]
+  },
+  "costTime": 55
+ },
+ {
+  "t": "2026-10-16 18:21:30",
+  "submitted": "32f2dac6295b6fe2568637a6623eed30",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:22:27",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "32f2dac6295b6fe2568637a6623eed30",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/32f2dac6295b6fe2568637a6623eed30_0_1792174940.jpeg"
+   ]
+  },
+  "costTime": 50
+ },
+ {
+  "t": "2026-10-16 18:22:31",
+  "submitted": "e5cafeb35fef75a4b71cd6397c7b1e0d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:23:02",
+  "submitted": "25aed8e0c06b88b773e2426a3f88c29d",
+  "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side window facing the camera; the glasses stay the sam"
+ },
+ {
+  "t": "2026-10-16 18:23:16",
+  "submitted": "041a5e7b7d5a37cb311f420e6c632c6e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses at a thr"
+ },
+ {
+  "t": "2026-10-16 18:24:00",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side window on the side of the frame is clearly visible and pale yellow, lit by street light; the front lenses are turned away; fingers pinch the frame firmly; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a family car at dusk on a suburban road, warm amber light fading to deep blue, first street lamps on, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e5cafeb35fef75a4b71cd6397c7b1e0d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e5cafeb35fef75a4b71cd6397c7b1e0d_0_1792175032.jpeg"
+   ]
+  },
+  "costTime": 81
+ },
+ {
+  "t": "2026-10-16 18:24:03",
+  "submitted": "93041773018dc33d2984a1a074e6a71d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:24:13",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses at a three-quarter angle, upright as if about to put them on, so both the pale yellow front lenses and the small yellow side window on the side of the frame are clearly visible; fingers pinch the frame at the temple; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "041a5e7b7d5a37cb311f420e6c632c6e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/041a5e7b7d5a37cb311f420e6c632c6e_0_1792175048.jpeg"
+   ]
+  },
+  "costTime": 53
+ },
+ {
+  "t": "2026-10-16 18:24:33",
+  "submitted": "557e847114394122c424dd5d6e7bc9be",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses at a thr"
+ },
+ {
+  "t": "2026-10-16 18:25:00",
+  "submitted": "59698c20310b32b03150d02613a6990f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:25:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side window facing the camera; the glasses stay the same size and in the same spot in the frame; passing lights glint on the yellow side window. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174979308-amw47k9ui8.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "25aed8e0c06b88b773e2426a3f88c29d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792175126969-4piry8dvmvq.mp4"
+   ]
+  },
+  "costTime": 146
+ },
+ {
+  "t": "2026-10-16 18:25:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side windows on the outer side of the glasses are clearly visible and pale yellow, lit by street light; the front lenses are turned away; whole wrist visible, hand at the frame edge; car interior, night, rain on the window. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "59698c20310b32b03150d02613a6990f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/59698c20310b32b03150d02613a6990f_0_1792175149.jpeg"
+   ]
+  },
+  "costTime": 50
+ },
+ {
+  "t": "2026-10-16 18:25:54",
+  "submitted": "9c4f3bab320026854b5f0af9d662c9e4",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:26:44",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side windows on the outer side of the glasses are clearly visible and pale yellow, lit by street light; the front lenses are turned away; whole wrist visible, hand at the frame edge; car interior, night, rain on the window. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a family car at dusk on a suburban road, warm amber light fading to deep blue, first street lamps on, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9c4f3bab320026854b5f0af9d662c9e4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9c4f3bab320026854b5f0af9d662c9e4_0_1792175201.jpeg"
+   ]
+  },
+  "costTime": 48
+ },
+ {
+  "t": "2026-10-16 18:26:48",
+  "submitted": "2d744391042ebb8228ea7bb98e92ec6b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned s"
+ },
+ {
+  "t": "2026-10-16 18:28:10",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses turned sideways so the side of the frame faces the camera; the small yellow side windows on the outer side of the glasses are clearly visible and pale yellow, lit by street light; the front lenses are turned away; whole wrist visible, hand at the frame edge; car interior, night, rain on the window. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a car on a rainy downtown street at night, cool magenta and teal city light, wet windshield with bokeh, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2d744391042ebb8228ea7bb98e92ec6b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2d744391042ebb8228ea7bb98e92ec6b_0_1792175289.jpeg"
+   ]
+  },
+  "costTime": 81
+ },
+ {
+  "t": "2026-10-16 18:28:14",
+  "submitted": "f840e96e8da887ca658d5653ad16b640",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand setting the night driving glasses down int"
+ },
+ {
+  "t": "2026-10-16 18:29:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand setting the night driving glasses down into the open center console tray of the car, yellow lenses facing up toward the camera, fingers pinching the frame at the temple; whole wrist visible, hand enters from the frame edge. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174820683-u6y1cs141ys.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174823575-n0grckiwa5q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792174826552-m27suyk5w5g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f840e96e8da887ca658d5653ad16b640",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f840e96e8da887ca658d5653ad16b640_0_1792175381.jpeg"
+   ]
+  },
+  "costTime": 88
+ },
+ {
+  "t": "2026-10-16 18:35:45",
+  "submitted": "9e151790991b32a1049b7ba125be7e69",
+  "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the sam"
+ },
+ {
+  "t": "2026-10-16 18:35:45",
+  "submitted": "7a104f7dc79723001f675c315efea3ad",
+  "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the sam"
+ },
+ {
+  "t": "2026-10-16 18:35:45",
+  "submitted": "fbd69866ad7accdb8dc8d49ab98b3224",
+  "prompt": "Locked-off camera, no push-in. The hand gently sets the glasses into the console tray and lifts away; the glasses stay t"
+ },
+ {
+  "t": "2026-10-16 18:35:45",
+  "submitted": "f76fb09f9db51a50a173c9a20ef43203",
+  "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the sam"
+ },
+ {
+  "t": "2026-10-16 18:37:13",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the same size and in the same spot in the frame; passing lights reflect in the yellow side panels. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792175732133-d6g4dzbi0no.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "7a104f7dc79723001f675c315efea3ad",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792175830241-wia9f99qg1i.mp4"
+   ]
+  },
+  "costTime": 88
+ },
+ {
+  "t": "2026-10-16 18:37:20",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand gently sets the glasses into the console tray and lifts away; the glasses stay the same size and in the same spot in the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792175741350-pozz3rxoxwn.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fbd69866ad7accdb8dc8d49ab98b3224",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792175833834-oojtf0twpk.mp4"
+   ]
+  },
+  "costTime": 91
+ },
+ {
+  "t": "2026-10-16 18:37:32",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the same size and in the same spot in the frame; passing lights reflect in the yellow side panels. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792175739058-zcv34ve53m.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9e151790991b32a1049b7ba125be7e69",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792175848518-blp3feruixh.mp4"
+   ]
+  },
+  "costTime": 105
+ },
+ {
+  "t": "2026-10-16 18:37:46",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the glasses still, side panels facing the camera; the glasses stay the same size and in the same spot in the frame; passing lights reflect in the yellow side panels. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792175729010-0c69xb42aow5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "f76fb09f9db51a50a173c9a20ef43203",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792175858997-ummz06s1jxo.mp4"
+   ]
+  },
+  "costTime": 114
  }
 ]
