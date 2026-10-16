@@ -28,30 +28,27 @@ Only formatting changed: the R1 dash becomes a pause, "1–3" is written "one to
 2. Neither script ends with "It's in the orange cart." Kept as written.
 3. R1 CTA "flash sale... those deals can disappear... get it at a discount" and the coffee hook are deal/price talk without a number. Allowed by the playbook; TikTok has carded price talk before.
 
-## 4. Look
-- Hands: Grace's medium-brown hand and wrist from the frame edge, short natural nails with a clear finish, **no bracelets and no other jewellery**, mauve-taupe knit sweater cuff (as in her video). Hands grip what they touch. No face.
-- **No child on screen** (we don't generate babies). The baby is told by props: rubber duck, hooded towel, a small infant tub for "baby tub".
-- R1 setting: bright white bathroom with a corner walk-in shower, tub on the shower tray. R2 setting: bright bathroom with a white claw-foot bath, tub inside it. Different rooms, shots, order and grade (R1 bright cool-neutral, R2 clean neutral), no shared footage. No on-screen text.
-- The tub comes from Shnuggle's real photos as references (plus two real photo plates, free); the grey logo badge gets the real pixels pasted back where it shows (free).
+## 4. Look (updated with Ralph's answers, 2026-10-16)
+- Voice: Grace B (eleven_v4).
+- Hands: Grace's hands from the ThunderFit job: medium-brown skin, pink French-tip nails, the sky-blue birthstone silicone ring on the ring finger and the small gold ring, **no bracelets**. Hand and wrist from the frame edge, gripping what they touch, no face.
+- **Hands only where something is shown or described** (Ralph): R1 coffee cup, newborn sling, fold-down seat, backrest, feet, plug, phone (7 of 14); R2 towel reveal, infant tub, backrest, feet, plug (5 of 14). Every other shot is hand-free with a camera move.
+- **Coloured bathrooms for contrast, no white background** (Ralph): R1 sage-green tiles with a corner walk-in shower; R2 blush-pink tiles with a white claw-foot bath. Bright, neutral daylight, no yellow or dark looks. The two white-room real photos are dropped, so those 2 shots become stills (+$0.18).
+- **No child on screen** (we don't generate babies): props carry the baby (duck, whale toy, hooded towel, a small infant tub for "baby tub").
+- R1 and R2 share no footage. No on-screen text. The tub comes from Shnuggle's real photos as references; the grey logo badge gets real pixels pasted back where it shows (free).
 
-## 5. Shot lists (the free layout boards show each one: storyboard/R1_storyboard.jpg, R2_storyboard.jpg)
-**R1:** coffee cup set down beside the tub / walk-in to the tub in the shower (real photo) / hand slides an infant tub away / crane into a huge empty bathtub / fingertips press a tiny newborn sling / hand folds a newborn seat flat / duck and cup dropped into the water / slow arc round the bubbly tub / fingers press the foam backrest / hand pushes the rim, tub stays put on the wet tray / plug pulled, water drains / towel wipes the tub dry / thumb scrolls a blurred phone, tub behind / pull-back on the tub with duck and hooded towel.
-**R2:** towel pulled off to reveal the tub in the claw-foot bath / infant tub set down and pushed aside / overhead drift over the empty big bath / push-in on the tub in the bath (real photo) / whale toy set on the rim / infant tub lifted onto a shelf / high wide showing the size difference / hand shower fills the tub, bubbles / fingertips test the water / thumb runs down the backrest / hand nudges the rim, tub stays / plug pulled, water swirls / hooded towel laid on the rim / pull-back.
+## 5. Shot lists (free layout boards: storyboard/R1_storyboard.jpg, R2_storyboard.jpg; hand-free shots marked "no hand")
+**R1:** coffee cup set down beside the tub / walk-in to the tub in the shower / overhead drift from a tiny infant tub to the Shnuggle / crane into a huge empty bathtub / fingertips press a tiny newborn sling / hand folds a newborn seat flat / duck bobbing in the water / slow arc round the bubbly tub / fingers press the foam backrest / hand pushes the rim, tub stays put on the wet tray / plug pulled, water drains / slow orbit round the empty tub / thumb scrolls a blurred phone, tub behind / pull-back on the tub with duck and hooded towel.
+**R2:** towel pulled off to reveal the tub in the claw-foot bath / infant tub set down and pushed aside / overhead drift over the empty big bath / push-in on the tub in the bath / push-in on a whale toy on the rim / pan to the infant tub stored on a shelf / high wide showing the size difference / tap fills the tub, bubbles / push-in over the seat bump under water / thumb runs down the backrest / hand nudges the rim, tub stays / plug pulled, water swirls / slide past the hooded towel on the rim / pull-back.
 
 ## 6. Order of work
 1. Grace B voiceover for both + speech-to-text stutter check. 2. ONE still first (the riskiest: plug pull, hand + small part), checked at full size, then the other stills built off it, shown to you as the real still storyboard **before any video spend**. 3. ONE test clip (the plug pull) with every check, then the rest. 4. Cut, QC (hands, 2x edge zoom, first second, product unchanged, no text, no child, REMOVED.md), compare vs the top winner, AI finish (20% grain, 20% sharpness, saturation down a little). 5. Drive "Grace Tiktok assets" / "Shnuggle Toddler Tub (Grace)": CURRENT R1 + R2 + script doc, then email you.
 Time: about 2 hours of work after your OK, plus your still review.
 
-## 7. Cost (one total)
+## 7. Cost (one total, updated)
 | Item | Qty x unit | $ |
 |---|---|---|
-| Stills (Nano Banana Pro, Kie) | 26 x $0.09 | 2.34 |
+| Stills (Nano Banana Pro, Kie) | 28 x $0.09 | 2.52 |
 | Clips (Seedance 2.0 Mini, Kie, 720p) | 123 s x $0.041 | 5.04 |
-| **Kie total** | | **7.38** |
-| ElevenLabs Grace B | ~1,570 characters (from your plan, not $) | |
-Contingency: any redo is asked separately with its exact cost.
-**Kie balance now is $4.37 (873 credits): it covers the voiceover-independent stills and the test clip, but about $3.10 more (≈620 credits) is needed before the clip batch.**
-
-## 8. Questions
-1. Voice: Grace B AI voiceover (my default) or will Grace record these herself?
-2. Hand: no bracelets and no rings either (my default), short clear nails, her mauve sweater cuff. OK?
+| **Kie total** | | **7.56** |
+| ElevenLabs Grace B | ~1,570 characters | |
+Any redo is asked separately with its exact cost. Kie balance $4.37: about $3.30 more is needed before the clip batch.
