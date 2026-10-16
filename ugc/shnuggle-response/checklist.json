@@ -1,0 +1,88 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/R1.txt",
+  "vo/R2.txt"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 no price number, personal lines flagged not edited, no false scarcity (CTA conditional)",
+   "\u00a73 Grace category-gap hook style",
+   "\u00a74 structure (her own)",
+   "\u00a75 pace 3.0-3.6 wps",
+   "\u00a76 hands from frame edge, grip, no forearm, no text, every video different, REMOVED.md, AI finish",
+   "client script verbatim on Ralph word + override"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_toddler.txt",
+   "research/tag_run.txt",
+   "research/videos/7692132082188946719/transcript.txt",
+   "research/videos/7683397629056699679/transcript.txt",
+   "research/videos/7611366378741845262/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-16.json",
+   "research/viral/viral-state.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "max_grade": 6.0
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md",
+   "research/audience/comments.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    2
+   ],
+   "grade": 6.1,
+   "by": "Ralph",
+   "date": "2026-10-16",
+   "quote": "Use word for word",
+   "why": "R2 is Grace's own script used verbatim on Ralph's instruction; grade 6.1 vs max 6. R1 is 5.8 and needs no override."
+  }
+ ]
+}
