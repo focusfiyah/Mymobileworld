@@ -40,7 +40,7 @@
    "dur": 6,
    "vo": "These are night driving glasses that fit right over your regular ones. The yellow lenses are designed to help reduce glare from oncoming headlights. And look, there's a little yellow window on each side, so the glare can't sneak in from the side.",
    "still": "Grace's hand turns the night driving glasses slowly, first front then side, the small yellow side window catching the streetlight. Sharp focus on the glasses.",
-   "video": "The hand rotates the glasses from front to side view, the yellow side window catches the light; smooth slow turn; push-in."
+   "video": "The hand turns the glasses only a little, front to side, slow; the yellow side window catches the light; the whole glasses stay fully inside the frame; no camera push-in, a very small drift only."
   },
   {
    "id": "V1-6",
@@ -60,7 +60,7 @@
    "dur": 4,
    "vo": "Nothing makes me grip the steering wheel tighter than blinding headlights at night. You're squinting, leaning forward, trying to see the road while those headlights are coming straight at you.",
    "still": "Grace's hand gripping a steering wheel, the night driving glasses resting on the dashboard in front of the windshield; both lenses clearly pale yellow tinted, NOT clear or grey, the same yellow as the reference pair; rain and headlight glare outside.",
-   "video": "The hand holds the wheel and tightens its grip slightly; headlight glare grows through the rain; slow push-in on the glasses."
+   "video": "Locked-off camera, no push-in and no zoom. The glasses stay exactly the same size and in the same spot on the dashboard for the whole clip. The hand holds the wheel and tightens its grip slightly; headlight glare grows through the rain behind the windshield."
   },
   {
    "id": "V2-3",
@@ -110,7 +110,7 @@
    "dur": 5,
    "vo": "The yellow polarized lenses are designed to help reduce glare, and the side windows help address glare coming from the sides, too.",
    "still": "Close-up: Grace's hand turns the night driving glasses so the yellow lenses and the side window face the camera, the lens colour clear and true.",
-   "video": "The hand slowly turns the glasses toward camera; the yellow lens reflects the light; close-up push-in."
+   "video": "The hand turns the glasses slightly toward camera, slow and small; the yellow lens stays fully in frame; the camera holds almost still, no push-in."
   },
   {
    "id": "V3-5",
@@ -120,7 +120,7 @@
    "dur": 4,
    "vo": "Keep a pair in your car. Tap the orange cart to check them out.",
    "still": "Close-up, low camera on the passenger seat. Grace's right hand pinches the temple arm of the night driving glasses between thumb and index finger and holds them just above the seat; her fingertips never touch the lenses; both lenses and both side windows fully visible; hand from the frame edge with the whole wrist.",
-   "video": "The hand slides the glasses into the door pocket and withdraws; a gentle settle; slow drift in."
+   "video": "The hand slides the glasses gently into the door pocket and withdraws; the glasses stay in frame; the camera holds still, no drift in."
   },
   {
    "id": "V4-1",
@@ -181,6 +181,68 @@
    "vo": "Keep a pair in your car, especially with darker evenings ahead. They're in the orange cart.",
    "still": "Grace's hand sets the night driving glasses in the car cup holder, the cup holder and the glasses sharp, the city lights blurred behind.",
    "video": "The hand sets the glasses into the cup holder and lets go; soft settle; slow push-in."
+  }
+ ],
+ "extra": [
+  {
+   "id": "V5-2",
+   "hand": 0,
+   "glasses": 0,
+   "scene": "v5",
+   "dur": 4,
+   "vo": "With the clocks going back November first, those dark drives home are coming even sooner.",
+   "still": "Night city street seen through a car windshield at dusk, rain-wet road, oncoming headlights and red tail lights blurred in the distance, no people, no hands, no text.",
+   "video": "The camera drives slowly forward down the wet night road; headlights blur past; steady handheld motion, real speed."
+  },
+  {
+   "id": "V3-6",
+   "hand": 0,
+   "glasses": 0,
+   "scene": "v3",
+   "dur": 4,
+   "vo": "That split second when you can barely make out the road is stressful.",
+   "still": "Night highway seen through a car windshield, oncoming headlights glaring and blurring, dark road, no people, no hands, no text.",
+   "video": "The car drives forward down the dark highway; headlights glare and blur past; steady handheld motion, real speed."
+  },
+  {
+   "id": "V5-5",
+   "hand": 0,
+   "glasses": 0,
+   "scene": "v5",
+   "dur": 4,
+   "vo": "With the clocks going back November first, those dark drives home are coming even sooner.",
+   "still": "Night street seen from inside a car through a rain-streaked windshield, traffic lights ahead, wet asphalt, no people, no hands, no text.",
+   "video": "The camera rolls slowly forward toward the traffic lights; rain streaks on the glass; steady handheld motion, real speed."
+  },
+  {
+   "id": "V5-6",
+   "hand": 0,
+   "glasses": 0,
+   "scene": "v5",
+   "dur": 4,
+   "vo": "Keep a pair in your car, especially with darker evenings ahead.",
+   "still": "Dusk street from inside a car through a windshield, streetlights and distant headlights, wet road, no people, no hands, no text.",
+   "video": "The car rolls slowly forward down the dusk street; streetlights glide past; steady handheld motion, real speed."
+  },
+  {
+   "id": "V4-6",
+   "hand": 0,
+   "glasses": 0,
+   "scene": "v4",
+   "dur": 5,
+   "vo": "And with the clocks going back November first, we'll be dealing with more darkness on our evening drives.",
+   "still": "Dusk suburban street seen from inside a car through the windshield, sky going dark blue, first streetlights coming on, no people, no hands, no text.",
+   "video": "The car drives slowly forward down the suburban street as dusk deepens; streetlights come on and glide past; steady handheld motion, real speed."
+  },
+  {
+   "id": "V4-7",
+   "hand": 0,
+   "glasses": 0,
+   "scene": "v4",
+   "dur": 4,
+   "vo": "The last thing you need is oncoming headlights making it hard to see your lane.",
+   "still": "Night road ahead seen through a car windshield, oncoming headlights bright and blurring, lane lines visible, no people, no hands, no text.",
+   "video": "The car drives forward on the night road; oncoming headlights flare and blur past; steady handheld motion, real speed."
   }
  ]
 }
