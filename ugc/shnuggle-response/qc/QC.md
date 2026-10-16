@@ -9,3 +9,12 @@ Eye checks (qc/R1_sheet.jpg, R2_sheet.jpg, *_hands.jpg, per-clip strips at 2-4 f
 - Accepted: R1-13 white sleeve cuff at the bottom-left edge (phone POV, no bracelet).
 - R2-02 fixed free: r2 clip cropped (432x768 @ 0,180) to the hand lowering the infant tub; wall crossing outside the frame.
 Status: R1 ALL CLEAR. R2 ALL CLEAR.
+
+# QC (2026-10-16, review 2: plug removed)
+Ralph: "Remove the plug because the product does not have it that size and positioned where it is. You can mention it however do need to show it."
+- Plug-pull shots R1-11 and R2-12 cut; the voice still says "easy-drain plug" over the feet shot.
+- Plug painted out free (tools/unplug_kf.py, hand-read keyframes, frame-accurate checks): R1-12 (row blend), R1-14 (duck protected), R2-01; earlier fixes R1-02, R1-08, R1-13, R2-08.
+- Cropped above the plug: R1-07 [90,0,540,960], R2-04 [85,0,540,960] (+ the inner plug painted out).
+- Dense check every 0.45 s over all these shots in the finished cuts: no plug left. Shower-tray and big-bath drains stay (real fixtures, not the product).
+- cut_qc: R1 0 FAIL, R2 0 FAIL. Durations 45.67 s / 39.53 s.
+Status: R1 ALL CLEAR. R2 ALL CLEAR.
