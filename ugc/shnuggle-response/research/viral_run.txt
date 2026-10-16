@@ -1,0 +1,92 @@
+  #babymusthaves: 144 videos
+  #momfinds: 142 videos
+  #babyfinds: 136 videos
+  #toddlermom: 146 videos
+  #toddlerbath: 143 videos
+  #momtok: 125 videos
+  #tiktokshopfinds: 129 videos
+  #newmom: 140 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:388: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+1066 videos scanned, 53 shop videos posted in the last 3.0 day(s) -> research/viral/viral-2026-10-16.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       58K    110K  1.9d   0.4  HARPPA 3-in-1 Cuddly Rocking Bassinet - Bedside Crib Sl [Baby & Maternity]
+                                  @blandonesther2cuenta: Futuras mamás, este moisés 3 en 1 de HARPPA tiene todo para 
+                                  https://www.tiktok.com/@blandonesther2cuenta/video/7696668242034691342
+  2       15K    4.4K  0.3d  0.05  Gentle Exfoliating Body Wash and Brightening Boost Body [Beauty & Personal Care]
+                                  @user7401074704909: Such a great deal today omg.#dealsforyoudays #fyp #tiktoksho
+                                  https://www.tiktok.com/@user7401074704909/video/7697268159816027423
+  3      8.0K    7.6K  0.9d  0.26  Kitchen in the box Stand Mixer, 3.5QT/6.5QT, 450W 10-Sp [Household Appliances]
+                                  @yatziribravo1: The prettiest mixer is currently discounted! 🤌🏼✨ Don’t miss 
+                                  https://www.tiktok.com/@yatziribravo1/video/7697023400790871309
+  4      5.8K    4.5K  0.8d  0.18  VANOTOM Rechargeable 7-Color RGB Plastic Night Lamp - L [Home Improvement]
+                                  @thatonemomkadie: The best newborn product🤱🏼✨ Even our nurses at the hospital 
+                                  https://www.tiktok.com/@thatonemomkadie/video/7697090481683057951
+  5      2.7K     685  0.2d  0.73  Umay walking pad Folding Walking treadmill for Home/Off [Sports & Outdoor]
+                                  @luzveroo: Flash sale is almost over! Busy moms 🤝 At-home workouts 🫶 #h
+                                  https://www.tiktok.com/@luzveroo/video/7697283645760949518
+  6      2.1K    3.4K  1.6d  0.26  BabyBond 3-in-1 Foldable Portable Bedside Crib - BPA-Fr [Baby & Maternity]
+                                  @fridasblanco: this is a MUST HAVE for your baby’s first few months! 🍼👶🏻 #b
+                                  https://www.tiktok.com/@fridasblanco/video/7696703357418867981
+  7      2.1K    1.7K  0.8d  0.06  WildBird CloudBlend Footless Pajamas [Baby & Maternity]
+                                  @madisontts: @Wildbird I love u 😍 #babyclothes #registrymusthaves #babymu
+                                  https://www.tiktok.com/@madisontts/video/7697067284203883789
+  8      1.7K     556  0.3d     0  Black Modern Fluted Shoe Cabinet - 4 Flip Drawers with  [Furniture]
+                                  @c0urtneycc: TikTok Shop finds that are actually worth it 🤍 Linked in my 
+                                  https://www.tiktok.com/@c0urtneycc/video/7696582537220525342
+  9      1.5K     373  0.1d  1.07  UFORU 3.2 Gal/12L Hanging ABS Trash Can with Flip Lid - [Home Supplies]
+                                  @sahmggiles: Replying to @♾️ I got a second one! #trashcan #trashbin #hom
+                                  https://www.tiktok.com/@sahmggiles/video/7697325354083519757
+ 10      1.3K    2.6K  2.0d  0.12  Disney Store Toy Story Bath Set [Baby & Maternity]
+                                  @thelekasfamily: If your toddlers love Toy Story like mine they’ll love these
+                                  https://www.tiktok.com/@thelekasfamily/video/7696633894140972301
+ 11      1.2K     493  0.4d   0.2  Biobor Women's 5-in-1 Chewable Daily Nutrition Gummies  [Health]
+                                  @ufeifei21: #tiktokshopfinds #biobor #tiktokshop #womenshealthcare #fypシ
+                                  https://www.tiktok.com/@ufeifei21/video/7697225396944784654
+ 12      1.2K     324  0.3d     0  Women's Elegant Long Sleeve Colorblock Knit Dress, Spri [Womenswear & Underwear]
+                                  @bellahsz14: #fashiontiktok #tiktokshopfinds #viralfind #outfitideas #fas
+                                  https://www.tiktok.com/@bellahsz14/video/7697271697136782623
+ 13      1.1K    1.0K  0.9d   0.1  Tub Works 6-Pack Baby Emergency Car Bath Toys - Water-A [Baby & Maternity]
+                                  @poshpaddock: Finally! Clean and fun bath time! 🛁🚒🚓🚑🚨 #bathtoys #bathtimef
+                                  https://www.tiktok.com/@poshpaddock/video/7697038482157473037
+ 14      1.1K    1.2K  1.1d  0.59  MFVIM Women's 2-Piece Yoga & Gym Set - Strapless Bra To [Sports & Outdoor]
+                                  @chipotle1818: This one's INSANE GUYS #cutesetsforwomen🛍 #workoutsetsforwom
+                                  https://www.tiktok.com/@chipotle1818/video/7696963888499166478
+ 15       934    1.2K  1.3d  0.42  Littley introductory sample pack | 2oz pacifier & teeth [Baby & Maternity]
+                                  @motherhoodvsmia: No sickness aloud 🤭🤭🤭 #rsv #babymusthaves #mommusthaves #fyp
+                                  https://www.tiktok.com/@motherhoodvsmia/video/7696900719370095886
+ 16       834    1.1K  1.3d     0  Kids Vanity with Lights, Kids Vanity Set with Barber Ch [Furniture]
+                                  @jenn.marie.faves: Being a girl mom is so fun! #girlmom #momfinds #pretendplay 
+                                  https://www.tiktok.com/@jenn.marie.faves/video/7696894123319561503
+ 17       800     517  0.6d  0.97  Copper Pearl Baby Sleep Bag & Top Knot Hat Bundles | Li [Baby & Maternity]
+                                  @seleeennnaaaa: Swaddle transition, but make it Mickey Mouse! 🐭🤎 The soft we
+                                  https://www.tiktok.com/@seleeennnaaaa/video/7697134135495707918
+ 18       759     548  0.7d  0.18  Temp-tations Set of (4) 25-oz Mug Meals w/ Lid-its & Gi [Kitchenware]
+                                  @fordafamily3: Perfect for soups, leftovers, oatmeal, and cozy little meals
+                                  https://www.tiktok.com/@fordafamily3/video/7697106162759617805
+ 19       746     893  1.2d     0  Women's 2 Piece Sportswear Set, Breathable Quick-Dry, H [Sports & Outdoor]
+                                  @iam_liyahsinai: And they’re affordable🙂‍↕️#iamliyahsinai #tiktokshopfinds #b
+                                  https://www.tiktok.com/@iam_liyahsinai/video/7696930055913491742
+ 20       741     688  0.9d  0.15  15.6-Inch Smart Touchscreen Wall Planner Digital Calend [Phones & Electronics]
+                                  @heyitsmooremel: Replying to @Rosie Tate Smocks and More My FAVORITE home gad
+                                  https://www.tiktok.com/@heyitsmooremel/video/7697029354949184782
+ 21       719     803  1.1d  0.25  Ulif E10 Hangable Coat Rack - Sturdy Carbon Steel, Rust [Furniture]
+                                  @sahmggiles: I was so surprised by the quality of this! Highly recommend!
+                                  https://www.tiktok.com/@sahmggiles/video/7696959497276886286
+ 22       704    1.2K  1.7d  0.16  Cotton Hat-Shape Toddler Shower Cap, Adjustable-Length  [Sports & Outdoor]
+                                  @bryiana_mae: #bathtimefun #toddlersoftiktok #bathtime 
+                                  https://www.tiktok.com/@bryiana_mae/video/7696732735200709901
+ 23       625    1.7K  2.7d     0  Momcozy Portable Sound Machine with Night Light, White  [Home Supplies]
+                                  @satxlana: Many babies and children respond well to sound machines. I p
+                                  https://www.tiktok.com/@satxlana/video/7696357563205504270
+ 24       608     643  1.1d     0  NVWA Women's Chic 2-Piece Athleisure Activewear Set - S [Womenswear & Underwear]
+                                  @mslaurynbell: okay TikTok shop, you did your thinggg 😍🛍️💕 #tiktokshop #tik
+                                  https://www.tiktok.com/@mslaurynbell/video/7696981550289784077
+ 25       561     539  1.0d  0.19  SEESE Brushless Mini 8"ChainSaw Oil System- Portable El [Tools & Hardware]
+                                  @olexiydeals: #TikTokShop #TikTokMadeMeBuyIt #TikTokShopFinds #fallpicks #
+                                  https://www.tiktok.com/@olexiydeals/video/7696911966421421325
