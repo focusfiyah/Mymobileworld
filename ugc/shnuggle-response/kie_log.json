@@ -951,5 +951,95 @@
    ]
   },
   "costTime": 88
+ },
+ {
+  "t": "2026-10-16 22:17:44",
+  "submitted": "fe276dc1cdc2e96693ff1cceb3c07bcd",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium-wide shot showing the whole white claw-foot bath"
+ },
+ {
+  "t": "2026-10-16 22:17:45",
+  "submitted": "24255f7bfa88543a279a0b8f167c6b6d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. High wide angle from a few steps back showing the WHOLE"
+ },
+ {
+  "t": "2026-10-16 22:17:45",
+  "submitted": "00cd32d3e569ce003b9621baaaee6f64",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Wide shot of the bright bathroom: the whole claw-foot b"
+ },
+ {
+  "t": "2026-10-16 22:18:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. High wide angle from a few steps back showing the WHOLE big white claw-foot bathtub end to end, all four feet visible: the small empty Shnuggle tub sits at the tap end, taking up less than half of the bath's length, a long stretch of empty white bath beyond it, showing how small it is next to the regular bath; daylight. There are NO hands, arms or people anywhere in this shot, from the first frame to the last. The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a pattern of small thin raised circle outlines (rings, not filled dots); a small round white plug with a little pull tab set into the flat dotted floor at the FRONT (low end) of the tub, in front of the seat bump, never on top of the bump. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts. Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text. SCALE: the Shnuggle is a small toddler tub, about 75 cm long; the claw-foot bathtub is a full adult bath about 170 cm long. Whenever both are seen, the Shnuggle takes up LESS THAN HALF the bath's length and clearly narrower than the bath, with lots of empty white bath around it; it never fills the bath, never touches both ends, never sticks out over the rim. Match the LAST reference image for the room, tile colour, light and the woman's hand (same room, same hand, same rings), but NOT for how big the Shnuggle tub is: follow the size words in this prompt.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186188719-ig43elijdfl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186190700-rsh2lmtp0w.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186192633-q06lt1d6xgm.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792189062916-xk9hiwvidtl.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "24255f7bfa88543a279a0b8f167c6b6d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/24255f7bfa88543a279a0b8f167c6b6d_0_1792189125.jpeg"
+   ]
+  },
+  "costTime": 61
+ },
+ {
+  "t": "2026-10-16 22:19:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Wide shot of the bright bathroom: the whole claw-foot bath end to end with the small Shnuggle tub sitting fully INSIDE it at the tap end (less than half the bath's length, nothing sticking out over the bath's rim), a white hooded towel folded over the Shnuggle's rim, eucalyptus plant, light wood stool, daylight. There are NO hands, arms or people anywhere in this shot, from the first frame to the last. The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a pattern of small thin raised circle outlines (rings, not filled dots); a small round white plug with a little pull tab set into the flat dotted floor at the FRONT (low end) of the tub, in front of the seat bump, never on top of the bump. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts. Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text. SCALE: the Shnuggle is a small toddler tub, about 75 cm long; the claw-foot bathtub is a full adult bath about 170 cm long. Whenever both are seen, the Shnuggle takes up LESS THAN HALF the bath's length and clearly narrower than the bath, with lots of empty white bath around it; it never fills the bath, never touches both ends, never sticks out over the rim. Match the LAST reference image for the room, tile colour, light and the woman's hand (same room, same hand, same rings), but NOT for how big the Shnuggle tub is: follow the size words in this prompt.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186188719-ig43elijdfl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186190700-rsh2lmtp0w.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186192633-q06lt1d6xgm.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792189062884-z5t11p5hvb8.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "00cd32d3e569ce003b9621baaaee6f64",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/00cd32d3e569ce003b9621baaaee6f64_0_1792189136.jpeg"
+   ]
+  },
+  "costTime": 72
+ },
+ {
+  "t": "2026-10-16 22:20:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Medium-wide shot showing the whole white claw-foot bathtub: the small Shnuggle tub sits at the tap end inside it, less than half the bath's length and clearly narrower than the bath, completely covered by a draped plain grey bath towel; the hand enters from the top right edge, wrist touching the frame edge, gripping a corner of the towel. The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge with the wrist touching the frame edge; the forearm stays OUTSIDE the frame (no forearm, no arm), and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies. The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a pattern of small thin raised circle outlines (rings, not filled dots); a small round white plug with a little pull tab set into the flat dotted floor at the FRONT (low end) of the tub, in front of the seat bump, never on top of the bump. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts. Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text. SCALE: the Shnuggle is a small toddler tub, about 75 cm long; the claw-foot bathtub is a full adult bath about 170 cm long. Whenever both are seen, the Shnuggle takes up LESS THAN HALF the bath's length and clearly narrower than the bath, with lots of empty white bath around it; it never fills the bath, never touches both ends, never sticks out over the rim. Match the LAST reference image for the room, tile colour, light and the woman's hand (same room, same hand, same rings), but NOT for how big the Shnuggle tub is: follow the size words in this prompt.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186181889-thle06dvyz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186184120-ntrjqluz2z.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186186432-79ubkgkc2p.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186188719-ig43elijdfl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186190700-rsh2lmtp0w.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792186192633-q06lt1d6xgm.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-response/1792189062872-yn16ywy4awk.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "fe276dc1cdc2e96693ff1cceb3c07bcd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/fe276dc1cdc2e96693ff1cceb3c07bcd_1792189205343.jpeg"
+   ]
+  },
+  "costTime": 140
  }
 ]
