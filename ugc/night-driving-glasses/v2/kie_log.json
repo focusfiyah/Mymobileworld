@@ -1646,5 +1646,33 @@
   "t": "2026-10-16 09:04:43",
   "submitted": "020d614d694775e2db1dafd706d4c129",
   "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses up in fr"
+ },
+ {
+  "t": "2026-10-16 09:05:40",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand holding the night driving glasses up in front of a car side window at night, the yellow side windows of the glasses visible and facing the camera; both lenses pale yellow; the hand is held at the frame edge, whole wrist visible; city lights through the window. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a compact car on a wet rainy night, beige cloth seats, warm dashboard light, rain on the windshield, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077699724-1raky5urac0j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077702155-19lqmzl1qld.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792077705708-27w4tgmeq8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "020d614d694775e2db1dafd706d4c129",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/020d614d694775e2db1dafd706d4c129_0_1792141534.jpeg"
+   ]
+  },
+  "costTime": 51
+ },
+ {
+  "t": "2026-10-16 09:05:48",
+  "submitted": "913f1274d7fc746213e6e0bbe14e2b46",
+  "prompt": "Locked-off camera, no push-in. The hand slowly turns the glasses so the yellow side windows catch the passing lights; th"
  }
 ]
