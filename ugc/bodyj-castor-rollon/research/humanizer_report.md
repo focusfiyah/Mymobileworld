@@ -6,3 +6,4 @@ Tells found in draft 1 and changed:
 - Closer stack "I hate how easy this is. Now there's no excuse" implied Grace used this roller (not known): replaced with "Honestly, I'm upset I didn't find the roller first."
 - No dashes, no "game changer", "obsessed", "you need this", "order it now", no "the label says", no "reviewer".
 Hook lines left word for word (library rule). Caption: "you asked, so here's the castor oil I'd grab now 🌿 roll-on, organic, cold pressed #castoroil #castoroilroller #dryskin #ad"
+- 2026-10-17 (Ralph): S5 changed to scalp care; line now 'Your scalp, your elbows, the ends of your hair.' Re-read for AI tells: plain list of places, no triad padding; kept.
