@@ -611,5 +611,31 @@
    ]
   },
   "costTime": 71
+ },
+ {
+  "t": "2026-10-17 06:31:24",
+  "submitted": "d16ce78316a1cb2a522fd68b64c11ec4",
+  "prompt": "Shot 1: the hand lifts the roll-on off the vanity and brings it a little toward the lens, tilting it so the pink rose qu"
+ },
+ {
+  "t": "2026-10-17 06:33:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot 1: the hand lifts the roll-on off the vanity and brings it a little toward the lens, tilting it so the pink rose quartz ball faces the camera, then holds it steady. Slow, natural, handheld phone feel. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap. Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215857138-bxzs0y5bgmg.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "d16ce78316a1cb2a522fd68b64c11ec4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792218791113-u4rkb3136pk.mp4"
+   ]
+  },
+  "costTime": 108
  }
 ]

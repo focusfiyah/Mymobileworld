@@ -11,7 +11,7 @@
   "refs/bottle_top_ball.png"
  ],
  "prod_block": "The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap.",
- "video_suffix": "Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
+ "video_suffix": "The hand keeps the same warm light-medium brown skin tone and the same SHORT nails, trimmed level with the fingertips, in every frame; the nails never grow. Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
  "shots": [
   {
    "id": "S1",
@@ -22,11 +22,15 @@
    "test_first": true,
    "vo": "If you are wondering whether castor oil is only for babies, here you go.",
    "still": "Close-up on the cream marble bathroom vanity top: the BodyJ4You castor roll-on stands upright in the centre, label facing the lens, sharp and readable; her right hand enters from the bottom right edge and her fingers curl around the amber glass body below the label edge, about to lift it. Sage-green tiles and a brass tap softly blurred behind. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Take ONLY the hand, nails, skin and bottle from that last image; the room comes from the bathroom reference photo.",
-   "video": "Shot 1: the hand lifts the roll-on off the vanity and brings it a little toward the lens, tilting it so the pink rose quartz ball faces the camera, then holds it steady. Slow, natural, handheld phone feel.",
+   "video": "Shot 1: the hand lifts the roll-on just a few centimetres off the vanity and tilts it slightly so the pink rose quartz ball catches the light; the bottle stays at the same distance from the lens. Slow gentle camera push-in, natural handheld phone feel.",
    "extra_refs": [
     "refs/bathroom_sage.jpg"
    ],
-   "look_ref": "stills_r1/S1.png"
+   "look_ref": "stills_r1/S1.png",
+   "t": [
+    0.0,
+    4.06
+   ]
   },
   {
    "id": "S2",
@@ -35,7 +39,12 @@
    "src_in": 0.3,
    "src_out": 4.6,
    "vo": "I used castor oil to get my daughter's cradle cap out. But did you know people use it everywhere?",
-   "note": "Grace's own viral clip, cropped tight on the baby's head + her comb hand, no product, no other brand, no TikTok logo"
+   "note": "Grace's own viral clip, cropped tight on the baby's head + her comb hand, no product, no other brand, no TikTok logo",
+   "dur": 4.3,
+   "t": [
+    4.06,
+    9.08
+   ]
   },
   {
    "id": "S3",
@@ -49,7 +58,11 @@
    "extra_refs": [
     "refs/bathroom_sage.jpg"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    9.08,
+    12.68
+   ]
   },
   {
    "id": "S4",
@@ -63,7 +76,11 @@
    "extra_refs": [
     "refs/bathroom_sage.jpg"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    12.68,
+    15.22
+   ]
   },
   {
    "id": "S5",
@@ -77,7 +94,11 @@
    "extra_refs": [
     "refs/bedroom_mute_S6.png"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    15.22,
+    16.02
+   ]
   },
   {
    "id": "S6",
@@ -91,7 +112,11 @@
    "extra_refs": [
     "refs/bedroom_mute_S6.png"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    16.02,
+    16.98
+   ]
   },
   {
    "id": "S7",
@@ -105,7 +130,11 @@
    "extra_refs": [
     "refs/bedroom_mute_S6.png"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    16.98,
+    18.08
+   ]
   },
   {
    "id": "S8",
@@ -119,7 +148,11 @@
    "extra_refs": [
     "refs/bathroom_sage.jpg"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    18.08,
+    24.42
+   ]
   },
   {
    "id": "S9",
@@ -134,7 +167,11 @@
     "refs/bedroom_mute_S6.png",
     "refs/box_and_bottle.png"
    ],
-   "look_ref": "stills/S1.png"
+   "look_ref": "stills/S1.png",
+   "t": [
+    24.42,
+    31.77
+   ]
   }
  ]
 }
