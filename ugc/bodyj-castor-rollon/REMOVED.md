@@ -6,3 +6,4 @@
 - Any other brand; generated product (real BodyJ4You photo only, pasted back)
 - Health claims the listing can't back (hair growth, labor, detox, pain, liver)
 - Dark, moody, yellow or golden grades; Ken Burns on photos; freezes; hand sweeping across the product
+- Grace's old video: only 0.3-4.7 s (baby's head + comb), never the later frames with the other brand's bottle overlay, no TikTok logo (Ralph 2026-10-17)

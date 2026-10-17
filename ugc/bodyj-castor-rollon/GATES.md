@@ -25,8 +25,8 @@ Scope: one AI video for Grace answering "I think we all need castor oil" on her 
 - [ ] G5: Still storyboard (one still per shot, real product pasted back) shown to Ralph with ONE total cost before any video spend
   EVIDENCE: pending
 
-- [ ] G6: Ralph approved the plan and cost in his own words
-  EVIDENCE: pending
+- [x] G6: Ralph approved the plan and cost in his own words
+  EVIDENCE: Ralph 2026-10-17 05:16Z: "Option a, and ok with Kie. use these two reference sheets for the product."
 
 - [ ] G7: Final cut 1080x1920, length within 20-40 s
   CHECK: python3 check_scripts.py --cut out/bodyj_castor.mp4
