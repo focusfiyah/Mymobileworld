@@ -554,5 +554,35 @@
    ]
   },
   "costTime": 100
+ },
+ {
+  "t": "2026-10-17 06:25:34",
+  "submitted": "22916abbcad38d88449e2d29da83a83f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up from her left side at waist height, framed fro"
+ },
+ {
+  "t": "2026-10-17 06:26:49",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up from her left side at waist height, framed from just below her left shoulder down to her waist, the top edge of the frame BELOW the shoulder so no chin, lips or face can appear. She wears the mauve short-sleeve tee. Her left arm is bent at 90 degrees with the forearm held level across her stomach, so the bony tip of the left elbow points straight at the camera in the middle of the frame. Her right hand comes in from the right frame edge gripping the BodyJ4You roll-on, the pink ball pressed right on that elbow tip (not the side, not the forearm, not the inner crease), the label facing the lens. Setting: the bedroom in the bedroom reference photo: light oak wooden nightstand with a cream drum-shade lamp, bed with pink-and-white striped cotton sheets. Show it in bright soft morning daylight with a neutral white balance, not lamp light at night. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap. Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214300609-efjs5rzrwop.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214302749-zecdxdxne9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214304945-wz2jzm7sdx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215852673-u5585s8idha.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215857138-bxzs0y5bgmg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "22916abbcad38d88449e2d29da83a83f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/22916abbcad38d88449e2d29da83a83f_0_1792218406.jpeg"
+   ]
+  },
+  "costTime": 73
  }
 ]
