@@ -10,3 +10,4 @@ Setup line after each hook (Ralph's idea, 2026-10-17): "I used castor oil to get
 On-screen text options (offered yes/no only, default none, Ralph's rule):
 1. "castor oil isn't just for babies"  2. "the no-mess way to use castor oil"  3. "you all asked where to get it"
 Recommended instead of any burned text: Grace posts with TikTok's "Reply with video" on the comment "I think we all need castor oil", so TikTok shows the comment natively.
+- 2026-10-17 re-check after the scalp line swap (body line only): Option A hook unchanged, H028 word for word.
