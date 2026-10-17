@@ -243,9 +243,17 @@ async def fetch_item(ctx, url):
                                 "return s?s.textContent:null}")
         return json.loads(raw)["__DEFAULT_SCOPE__"]["webapp.video-detail"]["itemInfo"]["itemStruct"]
     except Exception:
-        return None
+        pass
     finally:
         await pg.close()
+    # Headless Chromium sometimes gets a "Site Maintenance" page here (2026-10-17) while a plain request of the same
+    # URL returns the full data; ctx.request shares the context's cookies, so the mp4 download still works.
+    try:
+        html = await (await ctx.request.get(url, timeout=60000)).text()
+        m = re.search(r'id="__UNIVERSAL_DATA_FOR_REHYDRATION__"[^>]*>(.*?)</script>', html, re.S)
+        return json.loads(m.group(1))["__DEFAULT_SCOPE__"]["webapp.video-detail"]["itemInfo"]["itemStruct"]
+    except Exception:
+        return None
 
 
 async def download_video(ctx, it, d):

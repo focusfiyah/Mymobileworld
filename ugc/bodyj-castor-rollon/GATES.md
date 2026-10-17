@@ -4,20 +4,20 @@ OWNS: ugc/bodyj-castor-rollon/**
 
 Scope: one AI video for Grace answering "I think we all need castor oil" on her cradle cap video, plan-stage first (scripts, storyboard, one total cost, Ralph's approval), then the cut, QC and Drive delivery.
 
-- [ ] G1: Script gate passes at plan stage (all 9 proofs, banned phrases clean)
+- [x] G1: Script gate passes at plan stage (all 9 proofs, banned phrases clean)
   CHECK: python3 ../../grace/gate.py .
   EXPECT: GATE OK
-  EVIDENCE: pending
+  EVIDENCE: GATE OK, 2026-10-17 01:20Z (9/9 proofs)
 
-- [ ] G2: Every script option mentions cradle cap at most once, in the first two lines, and ends with "It's in the orange cart."
+- [x] G2: Every script option mentions cradle cap at most once, in the first two lines, and ends with "It's in the orange cart."
   CHECK: python3 check_scripts.py
   EXPECT: SCRIPTS_OK
-  EVIDENCE: pending
+  EVIDENCE: SCRIPTS_OK
 
-- [ ] G3: Every script reads at grade 6 or lower
+- [x] G3: Every script reads at grade 6 or lower
   CHECK: python3 check_scripts.py --grade
   EXPECT: GRADE_OK
-  EVIDENCE: pending
+  EVIDENCE: GRADE_OK (A 3.6, B 3.3, C 2.6)
 
 - [ ] G4: Every claim in the scripts is in product_facts.md with a listing source, unbacked claims flagged
   EVIDENCE: pending

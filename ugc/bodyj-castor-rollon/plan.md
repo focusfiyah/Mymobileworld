@@ -46,7 +46,7 @@ Hair or lash growth (BodyJ's Amazon titles say "Hair Growth"; we don't repeat it
 ## Shots (one shared grid, 9 moving clips, ~32 s, Grace B voiceover, no face, no text)
 | # | Words | On screen |
 |---|---|---|
-| S1 | hook | Hand pulls the cap off the real roller on a bright white vanity, ball to camera (riskiest: tested first) |
+| S1 | hook | Hand lifts the real roller off a bright white vanity and turns the rose quartz ball to camera (riskiest: tested first; the listing photos show no cap, so no cap shot) |
 | S2 | cradle cap setup | Soft baby brush + comb on a white dresser, slow push-in. No baby, no other bottle |
 | S3 | thick, drips | Thick oil runs down a plain unlabeled bottle onto two fingertips |
 | S4 | rolls on | Macro: the roller glides on the back of the hand, thin sheen |
@@ -69,10 +69,9 @@ S1 still alone → check at full size + 2x edge zoom → the other 8 stills buil
 | Grace B voiceover (ElevenLabs) | ~520 chars + 1 STT check | in plan |
 Redos: each one asked first with its exact cost. Time once the environment has network: about 2 h to the first cut (stills 15 min, clips 30 min, voice + cut + QC 60 min).
 
-## Research done (gate 7 of 9)
-Done: playbook, product facts, coach tag #castoroil + shop "castor oil roll on" (BodyJ: 2,345 sold, 4.7 stars), Grace's video transcript + 218 comments, hooks, Humanizer, readability, line sources, audience notes. Not done: the daily viral board and the audience question map. The research sandbox stopped answering mid-run, and this container can't reach TikTok, so both re-run first thing once the environment has network, before any paid call (the gate blocks paid calls until then).
+## Research done (gate 9 of 9, GATE OK 2026-10-17)
+Playbook, product facts, coach tag #castoroil + shop "castor oil roll on" (BodyJ: 2,345 sold, 4.7 stars), Grace's video transcript + 218 comments, hooks, Humanizer, readability, line sources, audience notes, the audience question map (2,374 phrases) and the daily viral board + breakdowns of the top 3 #castoroil videos and 3 castor shop videos (research/viral_board.md). The roll-on sellers this month all sell the same pain ("love castor oil but hate how messy it gets"), which is Script A's pain line, and none of them answer a comment. Real product photos pulled from the TikTok Shop listing (refs/).
 
 ## Questions
 1. Script A, B or C? (A recommended)
 2. OK to spend $2.66 on Kie + the Grace B voice once the environment is fixed?
-3. Do you have a clear photo of the castor roll-on (cap, bottle colour, roller)? If not I'll pull the listing photos first.

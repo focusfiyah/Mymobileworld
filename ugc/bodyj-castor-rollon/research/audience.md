@@ -11,3 +11,6 @@ Casual, mom-to-mom, short and direct, family remedies passed down ("This has wor
 
 ## What it means for the script
 Open as a reply to the comment, say cradle cap once as the setup, then move to her own uses (brows, cuticles, elbows, hair ends). Name the thick, messy part as the pain and the roller as the fix. Say "hexane free" and "cold pressed" because this audience checks for it. No baby use, no medical or growth claims (commenters push back on remedies). Close on two places to keep one (purse, nightstand).
+
+## Question map (audience.py, 2,374 phrases, research/audience/questions.md)
+Most-agreed questions: "is castor oil good for skin", "which castor oil is best", "is castor oil good for your face", "does castor oil expire", "how to get rid of castor oil smell". People shop on "which one is best", so the clean/cold pressed/hexane free line earns its place; growth, packs and liver questions are claims we stay away from.
