@@ -3,8 +3,8 @@
  "client": "Grace",
  "option": "A",
  "vo": "Grace B",
- "hand_block": "The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people.",
- "scene_block": "Setting: a bright, clean home with soft natural daylight from a window on the left, white and light neutral surfaces, airy and fresh. Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
+ "hand_block": "The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee.",
+ "scene_block": "Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
  "prod_refs": [
   "refs/bottle_front.png",
   "refs/bottle_3q_high.png",
@@ -21,8 +21,12 @@
    "prod": true,
    "test_first": true,
    "vo": "If you are wondering whether castor oil is only for babies, here you go.",
-   "still": "Close-up on a bright white marble bathroom vanity top: the BodyJ4You castor roll-on stands upright in the centre, label facing the lens, sharp and readable; her right hand enters from the bottom right edge and her fingers curl around the amber glass body below the label edge, about to lift it. A blurred white towel and a small glass tray behind.",
-   "video": "Shot 1: the hand lifts the roll-on off the vanity and brings it a little toward the lens, tilting it so the pink rose quartz ball faces the camera, then holds it steady. Slow, natural, handheld phone feel."
+   "still": "Close-up on the cream marble bathroom vanity top: the BodyJ4You castor roll-on stands upright in the centre, label facing the lens, sharp and readable; her right hand enters from the bottom right edge and her fingers curl around the amber glass body below the label edge, about to lift it. Sage-green tiles and a brass tap softly blurred behind. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Take ONLY the hand, nails, skin and bottle from that last image; the room comes from the bathroom reference photo.",
+   "video": "Shot 1: the hand lifts the roll-on off the vanity and brings it a little toward the lens, tilting it so the pink rose quartz ball faces the camera, then holds it steady. Slow, natural, handheld phone feel.",
+   "extra_refs": [
+    "refs/bathroom_sage.jpg"
+   ],
+   "look_ref": "stills_r1/S1.png"
   },
   {
    "id": "S2",
@@ -40,8 +44,11 @@
    "hand": true,
    "prod": false,
    "vo": "The problem is it's thick and drips all over your fingers.",
-   "still": "Close-up over a white bathroom sink: her left hand enters from the left edge holding a plain CLEAR unlabeled glass bottle tilted down, a thick slow ribbon of pale golden oil pours onto the two fingertips of her right hand, which enters from the bottom edge; oil already runs down between her fingers and a drop hangs from the knuckle. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails. Different room and framing from it as described.",
+   "still": "Close-up over the cream marble bathroom sink: her left hand enters from the left edge holding a plain CLEAR unlabeled glass bottle tilted down, a thick slow ribbon of pale golden oil pours onto the two fingertips of her right hand, which enters from the bottom edge; oil already runs down between her fingers and a drop hangs from the knuckle. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails. Use its room only if this shot is in the same bathroom.",
    "video": "Shot 3: the thick oil keeps pouring slowly onto the fingertips, runs down the fingers and a drop falls into the sink; the fingers rub together, slick and messy. Camera static.",
+   "extra_refs": [
+    "refs/bathroom_sage.jpg"
+   ],
    "look_ref": "stills/S1.png"
   },
   {
@@ -51,8 +58,11 @@
    "hand": true,
    "prod": true,
    "vo": "This one rolls on with a rose quartz roller.",
-   "still": "Macro close-up: her right hand grips the BodyJ4You roll-on, label partly visible to the lens, pressing the pink rose quartz ball against the back of her left hand, which rests on a white towel; a thin clean sheen of oil trails behind the ball. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Different room and framing from it as described.",
+   "still": "Macro close-up: her right hand grips the BodyJ4You roll-on, label partly visible to the lens, pressing the pink rose quartz ball against the back of her left hand, which rests on a white towel; a thin clean sheen of oil trails behind the ball. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Use its room only if this shot is in the same bathroom.",
    "video": "Shot 4: the roller ball glides slowly across the back of the hand in one smooth stroke, leaving a thin even sheen; no drips. Camera static, macro.",
+   "extra_refs": [
+    "refs/bathroom_sage.jpg"
+   ],
    "look_ref": "stills/S1.png"
   },
   {
@@ -62,8 +72,11 @@
    "hand": true,
    "prod": true,
    "vo": "Brows, cuticles,",
-   "still": "Macro close-up of her left hand's fingertips resting on a white marble surface, nails toward the lens; her right hand grips the BodyJ4You roll-on and touches the pink rose quartz ball to the cuticle of the middle finger. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Different room and framing from it as described.",
-   "video": "Shot 5: the roller ball rolls along the cuticles from the middle finger to the ring finger, leaving a light sheen. Camera static.",
+   "still": "Close-up from the side at counter height: her left hand rests relaxed on the cream marble vanity edge, fingers gently curled, nails facing the lens; her right hand comes in from the top right edge holding the BodyJ4You roll-on like a pen, upside down, the pink rose quartz ball resting on the cuticle of the left index finger, the label readable. Both hands look natural and relaxed. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label.",
+   "video": "Shot 5: the roller ball dabs and rolls along the cuticles of the index and middle fingers, a light sheen appears. The left hand stays relaxed. Camera static.",
+   "extra_refs": [
+    "refs/bathroom_sage.jpg"
+   ],
    "look_ref": "stills/S1.png"
   },
   {
@@ -73,8 +86,11 @@
    "hand": true,
    "prod": true,
    "vo": "elbows,",
-   "still": "Close-up of a bent left elbow from the side, the arm in a plain white short-sleeve tee, crop well below the shoulder; her right hand enters from the right edge gripping the BodyJ4You roll-on, the pink ball touching the dry elbow skin. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Different room and framing from it as described.",
+   "still": "Close-up of a bent left elbow from the side, the arm in the mauve short-sleeve tee, crop well below the shoulder; her right hand enters from the right edge gripping the BodyJ4You roll-on, the pink ball touching the dry elbow skin. Setting: the bedroom in the bedroom reference photo: light oak wooden nightstand with a cream drum-shade lamp, bed with pink-and-white striped cotton sheets. Show it in bright soft morning daylight with a neutral white balance, not lamp light at night. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Use its room only if this shot is in the same bathroom.",
    "video": "Shot 6: the roller ball makes two small circles on the elbow, leaving a soft sheen. Camera static.",
+   "extra_refs": [
+    "refs/bedroom_mute_S6.png"
+   ],
    "look_ref": "stills/S1.png"
   },
   {
@@ -84,8 +100,11 @@
    "hand": true,
    "prod": true,
    "vo": "the ends of your hair.",
-   "still": "Close-up of the ends of a long dark brown two-strand twist of coily hair hanging over the shoulder of a plain white tee, nothing above the shoulder in frame; her left hand holds the twist end from the left edge, her right hand grips the BodyJ4You roll-on and touches the ball to the twist ends. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Different room and framing from it as described.",
+   "still": "Close-up of the ends of a long dark brown two-strand twist of coily hair hanging over the shoulder of the mauve tee, nothing above the shoulder in frame; her left hand holds the twist end from the left edge, her right hand grips the BodyJ4You roll-on and touches the ball to the twist ends. Setting: the bedroom in the bedroom reference photo: light oak wooden nightstand with a cream drum-shade lamp, bed with pink-and-white striped cotton sheets. Show it in bright soft morning daylight with a neutral white balance, not lamp light at night. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Use its room only if this shot is in the same bathroom.",
    "video": "Shot 7: the roller ball glides down the last part of the twist toward the ends, the hair gets a soft shine. Camera static.",
+   "extra_refs": [
+    "refs/bedroom_mute_S6.png"
+   ],
    "look_ref": "stills/S1.png"
   },
   {
@@ -95,8 +114,11 @@
    "hand": false,
    "prod": true,
    "vo": "USDA organic, cold pressed and hexane free. Honestly, I'm upset I didn't find the roller first.",
-   "still": "Product alone: the BodyJ4You castor roll-on stands upright on a white marble windowsill, label facing the lens and sharp, bright soft window daylight from the left, a small green plant softly blurred behind. No hands. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Different room and framing from it as described.",
+   "still": "Product alone: the BodyJ4You castor roll-on stands upright on the cream marble vanity top, label facing the lens and sharp, bright soft window daylight from the left, a small green plant softly blurred behind. No hands. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Use its room only if this shot is in the same bathroom.",
    "video": "Shot 8: slow smooth camera arc a little to the right around the bottle and a gentle push-in, the label stays facing the lens and readable; daylight shimmers softly. No hands.",
+   "extra_refs": [
+    "refs/bathroom_sage.jpg"
+   ],
    "look_ref": "stills/S1.png"
   },
   {
@@ -106,8 +128,12 @@
    "hand": true,
    "prod": true,
    "vo": "My old one isn't sold anymore, and dry winter skin is coming. Grab one for your purse and one for your nightstand. It's in the orange cart.",
-   "still": "Close-up of a white bedside nightstand with a small lamp and a folded cream knit throw: one BodyJ4You roll-on stands on the nightstand, label to the lens; her right hand enters from the right edge gripping a second identical roll-on above an open light beige tote bag on the bed edge. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. Different room and framing from it as described.",
-   "video": "Shot 9: the hand drops the second roll-on into the open tote bag; the first roll-on stays on the nightstand. Slow push-in toward the nightstand bottle.",
+   "still": "Close-up of the light oak nightstand next to the bed: the BodyJ4You roller box (white box with plum side panel, 'GEMSTONE ROLLER', pink ball picture, USDA ORGANIC seal, exactly as in the box-and-bottle reference) stands upright with the roll-on standing beside it, label facing the lens; the cream lamp base at the edge of frame; her right hand enters from the right edge, about to pick up the roll-on. Only ONE roll-on in the frame. Setting: the bedroom in the bedroom reference photo: light oak wooden nightstand with a cream drum-shade lamp, bed with pink-and-white striped cotton sheets. Show it in bright soft morning daylight with a neutral white balance, not lamp light at night. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label.",
+   "video": "Shot 9: slow push-in toward the nightstand; the hand picks up the roll-on and lifts it a little; the box stays standing still. Only one roll-on.",
+   "extra_refs": [
+    "refs/bedroom_mute_S6.png",
+    "refs/box_and_bottle.png"
+   ],
    "look_ref": "stills/S1.png"
   }
  ]
