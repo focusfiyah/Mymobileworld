@@ -34,8 +34,8 @@ from **recurring affiliate links** in the description (not AdSense).
    **Cost:** the normal voiceover (~2.5–3.5k ElevenLabs characters per video) is pre-approved. Tell Ralph the exact cost
    before anything else paid (extra re-voicing, AI images or video). He chose free code-rendered channel art over
    AI images (Nano Banana Pro on Fal.ai is $0.15 per image, $0.30 at 4K; no FAL_KEY in the cloud env).
-2b. **Original value (2026-10-16):** open with our own take, max one page-narrating segment, a real tested result when
-   possible, vary structure per video, never re-upload others' clips (see CLAUDE.md).
+2b. **Original value (2026-10-16):** open with our own take, max one page-narrating segment, a real tested result on free tiers
+   only (skip if none), vary structure per video, never re-upload others' clips (see CLAUDE.md).
 3. **Voices (eleven_v4):** narrator is **Ralph's cloned voice "Ralph Azariah"** `5YVjMzHn641xyj0jM38O`. Not his voice for
    everything: demo lines, before/after samples, dialogue and second speakers use contrast voices from
    `config.json` `contrast_voices` (default Matilda `XrExE9yKIg1WjnnlVkGX`; also Jessica, Alice, George, Liam, Chris).
