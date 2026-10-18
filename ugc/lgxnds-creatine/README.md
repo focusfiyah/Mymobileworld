@@ -5,7 +5,7 @@ hands-only demo over a voiceover; template `../gtt-kn95/` (gated, kie.py/cut.py/
 VO ElevenLabs Grace B `bGrsdLmwBbYUgHRuMFOI` (eleven_v4). ~30 s, 9:16, ~8 shots. Stills Gemini 3 Pro Image (Kie
 `nano-banana-pro`), clips Seedance 2.0 Mini (`bytedance/seedance-2-mini`). Product ref: `refs/tiktok_listing.jpg`.
 
-Status: **2026-10-05: DONE. Cut v3 `out/lgxnds_creatine_v3.mp4` is the final (v2 with the hook text overlay removed, Ralph: "Remove text overlay. I did not ask you to do so"), in Drive (Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04)) as lgxnds_creatine_ad_v3.mp4 (17e6i9KCU29ubJk4TO_jxyTfhlbQoqrnm, 9,033,729 bytes, size matches) with the script doc; v1 and v2 trashed. Kie total $2.573 vs $2.57 quote. Rebuild: `python3 cut.py`.**
+Status: **2026-10-18 REDO (Ralph: new look + VO, no "girls", label must not drift): script v2 gate OK; model test done ($0.705 = quote; Kling 3.0 Omni won, modeltest/RESULTS.md); plan v2 ($2.614 new spend) sent, waiting on Ralph's yes. v3 stays the posted final until v2 is approved.**
 
 ## Open questions for Ralph/Grace (ask in the plan message)
 - Is the Prime Sports tub unflavored with a scoop inside (the other seller's listing says so)?

@@ -515,5 +515,91 @@
    ]
   },
   "costTime": 135
+ },
+ {
+  "t": "2026-10-18 23:37:49",
+  "submitted": "17996257066ff8af41820bd1ba21fb68",
+  "prompt": "Locked-off phone camera on a bright kitchen counter in daylight. The hand enters from the right frame edge, presses the "
+ },
+ {
+  "t": "2026-10-18 23:37:49",
+  "submitted": "5406ee89563247527dd8efbf248fcb05",
+  "prompt": "Locked-off phone camera on a bright kitchen counter in daylight. The hand enters from the right frame edge, presses the "
+ },
+ {
+  "t": "2026-10-18 23:37:49",
+  "submitted": "8bce1076ac4a66790d4d664519dc0cd3",
+  "prompt": "Locked-off phone camera on a bright kitchen counter in daylight. The hand enters from the right frame edge, presses the "
+ },
+ {
+  "t": "2026-10-18 23:39:55",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "prompt": "Locked-off phone camera on a bright kitchen counter in daylight. The hand enters from the right frame edge, presses the white lid down onto the tub with its fingertips, then lifts a little and rests on the lid. The tub never moves, never turns and never tilts: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. Only the hand moves. No new objects, no text, no music.",
+    "model": "veo3_lite",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792366666747-c3r0809sp07.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792366666747-c3r0809sp07.png"
+    ],
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": 6
+   }
+  },
+  "taskId": "8bce1076ac4a66790d4d664519dc0cd3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/8bce1076ac4a66790d4d664519dc0cd3_0_1792366790.mp4"
+   ]
+  },
+  "costTime": 122
+ },
+ {
+  "t": "2026-10-18 23:40:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off phone camera on a bright kitchen counter in daylight. The hand enters from the right frame edge, presses the white lid down onto the tub with its fingertips, then lifts a little and rests on the lid. The tub never moves, never turns and never tilts: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. Only the hand moves. No new objects, no text, no music.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792366666747-c3r0809sp07.png",
+    "last_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792366666747-c3r0809sp07.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "17996257066ff8af41820bd1ba21fb68",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792366810972-491no5w70wx.mp4"
+   ]
+  },
+  "costTime": 143
+ },
+ {
+  "t": "2026-10-18 23:44:44",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Locked-off phone camera on a bright kitchen counter in daylight. The hand enters from the right frame edge, presses the white lid down onto the tub with its fingertips, then lifts a little and rests on the lid. The tub never moves, never turns and never tilts: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. Only the hand moves. No new objects, no text, no music.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792366666747-c3r0809sp07.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792366666747-c3r0809sp07.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "5406ee89563247527dd8efbf248fcb05",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/5406ee89563247527dd8efbf248fcb05_1_1792367079_1974.mp4"
+   ]
+  },
+  "costTime": 411
  }
 ]
