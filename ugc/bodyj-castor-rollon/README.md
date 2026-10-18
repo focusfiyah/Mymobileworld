@@ -1,3 +1,3 @@
 # BodyJ4You castor oil roll-on (Grace), 2026-10-17
 AI hands-only video answering "I think we all need castor oil" on Grace's cradle cap video (@shewiththeglow 7566790233325391135). Plan: plan.md (also /mnt/project-files/grace/bodyj-castor-rollon/PLAN.md). Gates: GATES.md. Removed: REMOVED.md.
-Status: APPROVED by Ralph 2026-10-17 07:30Z (cut r1, 31.97s), in Drive: https://drive.google.com/file/d/1wkx9rRv7zI8R1cBiAuiHy4kKS6YTdU8_/view (BodyJ folder, CURRENT - ... r1). Gates 10/10. Kie $3.735 vs $3.53 quote (+$0.205 S1 redo, asked). ElevenLabs ~560 chars. Done.
+Status: r1 APPROVED 2026-10-17 (in Drive). v2 (Grace's own script, 39.3s, 4 new shots) sent 2026-10-18, in Drive same folder: https://drive.google.com/file/d/1mvIp_zGLc8FUFtBwrD9p8AeWTz6cgJfs/view. Kie job total $5.095 (r1 $3.735 + v2 $1.36, each asked). Next: Ralph's notes on v2; Grace voice re-clone question open.
