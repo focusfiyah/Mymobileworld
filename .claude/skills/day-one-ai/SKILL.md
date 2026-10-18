@@ -56,7 +56,8 @@ from **recurring affiliate links** in the description (not AdSense).
 - **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill at the start of every job (client ads, scripts, Day One AI videos, personal tasks) and write a GATES.md before the work: one checkable outcome per gate, CHECK/EXPECT wherever a command can decide it, lint it, run it before reporting. Report the measured met/unmet counts; never say done while a gate is unmet. Trivial edits and plain factual answers are exempt (the skill's own rule). Job ledgers live in the job folder; `.unlazy/` stays untracked.
 
 ## Pipeline (per video)
-1. **Radar:** tools or features launched in the last ~72h. Prefer tools with a recurring affiliate program, especially
+1. **Radar:** tools or features launched in the last ~72h. Rank by YouTube demand first (`python3 yt.py demand "<brand>"`,
+   HIGH ≥100k / MID / LOW; Ralph 2026-10-18: big brands get the search views), then affiliate. Prefer tools with a recurring affiliate program, especially
    ones in `config.json` `affiliate_links`. Skip anything with ≥3 real YouTube tutorials or already in `data/covered.json`.
    Before "no video today": check every source in CLAUDE.md "Minimum radar" (PH last 3 days, TechCrunch AI, HN Show,
    all affiliate-tool changelogs), score ≥10 candidates, record `sources_checked`. Model: Opus unless Ralph says otherwise.
