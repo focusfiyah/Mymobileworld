@@ -25,7 +25,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   cut, a redo/cost question. Not for routine progress. **Phone push AND email, every time (Ralph, 2026-10-18):**
   PushNotification is a DEFERRED tool in cloud sessions (the 2026-10-07/10-12 "no push tool" tests were wrong): load it
   with ToolSearch `select:PushNotification` (status "proactive", one line), and also send Composio GMAIL_SEND_EMAIL
-  (account `gmail_correa-comus`) to life22watch@gmail.com. If either fails, say so.
+  (account `gmail_correa-comus`) to life22watch@gmail.com. If either fails, say so. Tested 2026-10-18: it reaches his phone from mobile/web
+  cloud sessions (no computer needed); it is skipped while he has the session open in the app, so email is the backup.
 - **Google Drive uploads (standard, Ralph 2026-10-01):** use BOTH routes; if one fails, use the other. (1) Google Drive
   connector (`mcp__Google_Drive__*`): folders, docs, small text files. (2) Composio `googledrive` (account
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
