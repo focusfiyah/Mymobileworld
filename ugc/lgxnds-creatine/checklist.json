@@ -1,10 +1,9 @@
 {
  "scripts": [
-  "scripts.md",
-  "research/v1_script.txt"
+  "research/v2_script.txt"
  ],
  "vo_lines": [
-  "vo/v1_lines.json"
+  "vo/v2_lines.json"
  ],
  "playbook": {
   "proof": [
@@ -12,11 +11,13 @@
   ],
   "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)",
   "rules_applied": [
-   "\u00a71 house rules (no price, sell-side confession, Grace POV)",
-   "\u00a72 psychology",
-   "\u00a73 hooks + text",
-   "\u00a74 structure + count CTA",
-   "\u00a75 pacing"
+   "\u00a71 house rules (no price, no personal use, no \"the label says\", no girls)",
+   "hook library word for word (H091)",
+   "audience step 0",
+   "no text overlay (default)",
+   "hand-free shots allowed",
+   "AI finish last",
+   "structure picked by product"
   ]
  },
  "coach_research": {
@@ -33,7 +34,7 @@
  },
  "viral_board": {
   "proof": [
-   "research/viral/viral-2026-10-04.json"
+   "research/viral/viral-2026-10-18.json"
   ],
   "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
  },
@@ -45,25 +46,25 @@
  },
  "hooks": {
   "proof": [
-   "research/hooks.md"
+   "research/v2/hooks.md"
   ],
   "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
  },
  "humanizer": {
   "proof": [
-   "research/humanizer_report.md"
+   "research/v2/humanizer_report.md"
   ],
   "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
  },
  "readability": {
   "proof": [
-   "research/v1_readability.txt"
+   "research/v2_readability.txt"
   ],
   "note": "tiktok.py readability output for each script (grade must be <= 6)"
  },
  "line_sources": {
   "proof": [
-   "research/line_sources.md"
+   "research/v2/line_sources.md"
   ],
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
@@ -74,5 +75,13 @@
   ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
- "audience_legacy": true
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "grace/audience.py 2026-10-18"
+ }
 }
