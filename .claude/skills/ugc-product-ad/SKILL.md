@@ -45,7 +45,7 @@ orange cart."; never "order it now", "heads up" or dashes. (source: grace/PLAYBO
 The general rules have one home, Mymobileworld `CLAUDE.md` ("How Ralph wants to work" and "Hard rules for every
 ad"): exact cost before every paid call including redos, one short question instead of a guess, free fixes first,
 the whole plan and total cost in ONE message, one test clip before any batch, the running total vs the quote at
-every paid step, an email AND a phone push (PushNotification is deferred: ToolSearch `select:PushNotification` first) at every review point, the Drive folder layout, no on-screen text unless he says yes for
+every paid step, an email AND a phone push (PushNotification is deferred: ToolSearch `select:PushNotification` first; skipped while he has the app open, so the email is the backup) at every review point, the Drive folder layout, no on-screen text unless he says yes for
 that ad, premium overlays, unlazy, and a current `Status:` line in the job README. Follow them from there. The
 lessons below are specific to making ads:
 
