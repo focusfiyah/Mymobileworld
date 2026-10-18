@@ -34,6 +34,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Grace/client scripts: NO PDF, ever (Ralph 2026-10-07); deliver the Claude doc + the Drive Google Doc only.**
 - **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text options) → humanizer → plan; **no text overlay in a cut unless Ralph says yes for that ad (Ralph 2026-10-05)**; after
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
+- **Lip sync (Ralph, 2026-10-18):** default stays ElevenLabs voice + the Kie sync route. If Ralph does not like how it looks, use Fal.ai `minimax/h3-max/lip-sync/image-to-video` (any repo). Ask first with the exact cost, test ONE clip, details in `ugc-product-ad/references/lipsync-options.md`. Needs a Fal key in the environment (Ralph adds it; never ask for it in chat).
 - **AI finish (Ralph 2026-10-07):** every AI-generated video ends with `ugc-product-ad/scripts/ai_finish.sh` (20% grain, 20% sharpness, saturation down a little; source and caveats in `grace/PLAYBOOK.md` §6). Also for Day One AI / personal AI video.
 - **Overlays are premium quality, never simple or flat (Ralph 2026-10-06):** 3D-style emojis (Microsoft Fluent 3D, free) or sharp high-res images, never flat clip-art, never enlarged past ~1.2x source, checked at full size; if nothing free fits, ask with the cost of a generated one. Details: `grace/PLAYBOOK.md` §4.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
