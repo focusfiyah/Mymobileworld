@@ -73,7 +73,7 @@ from **recurring affiliate links** in the description (not AdSense).
    Then `--short` renders the daily Short from the job's `short` block (see below) and gets verified the same way.
 4. **Upload:** `python3 yt.py upload jobs/<slug>` (private + thumbnail), then `python3 yt.py upload-short jobs/<slug>`
    (private Short that links the long video) → both in `jobs/<slug>/youtube.json`.
-5. Update `data/covered.json`, commit, push to main, notify Ralph by email (Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`, to life22watch@gmail.com; sessions have no push tool) (title, video + Short links, why this tool, affiliate status,
+5. Update `data/covered.json`, commit, push to main, notify Ralph by email (Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`, to life22watch@gmail.com) AND a phone push (ToolSearch `select:PushNotification` first; deferred, not missing) (title, video + Short links, why this tool, affiliate status,
    plus 2–3 lines from `python3 yt.py analytics` on how earlier uploads are doing).
 
 ## Shorts (in the daily run since 2026-09-29) and Instagram (pending)
