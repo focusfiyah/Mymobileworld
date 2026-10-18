@@ -6,6 +6,7 @@ Video: real moving clips, no Ken Burns/freezes; hand-free shots ok; no on-screen
 Models: Seedance 2.0 Mini on Kie; Kling (mine) ok for hand/3D shots, quote credits first. Image model: tight real-item crop + exact shape words.
 Grace scripts: her point of view; audience research first, structure fits the product, real urgency; close "It's in the orange cart."; never "order it now", never a price number; hooks from grace/hooks/HOOKS.md verbatim; no "label says", no word "reviewer" (say "people say"), CTA makes buyers want more units (never "plenty to share").
 Day One AI: uploads PRIVATE till I approve; my cloned voice narrates, premade for demos. Skills: SKILL.md <200 lines.
-Client's own script: verbatim only on my say (per-video override).
-Never call a tool/site/data unavailable untested this session; say "not tested".
+Client script verbatim only on my say.
+Never call a tool unavailable untested this session; say "not tested".
 AI videos end with 20% grain, 20% sharpness, less saturation (ai_finish.sh).
+Lip sync: ElevenLabs+Kie default; if I dislike it use Fal minimax/h3-max/lip-sync/image-to-video.
