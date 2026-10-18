@@ -845,5 +845,277 @@
    ]
   },
   "costTime": 150
+ },
+ {
+  "t": "2026-10-18 01:17:26",
+  "submitted": "e4426fe0f26b775b64958d2c5953cf74",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the cream marble bathroom counter: a plain "
+ },
+ {
+  "t": "2026-10-18 01:17:26",
+  "submitted": "7ab48cbd317f76640efdcced49f38cfa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up of her left hand resting flat on a white"
+ },
+ {
+  "t": "2026-10-18 01:17:26",
+  "submitted": "dd0d46d2ec8c0f64c930612a7dceb708",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up over the cream marble bathroom sink: both her "
+ },
+ {
+  "t": "2026-10-18 01:17:26",
+  "submitted": "261d9cacaef8241163fd8f0be315d1fd",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Extreme close-up of ONE eyebrow and the closed eyelid b"
+ },
+ {
+  "t": "2026-10-18 01:18:23",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up on the cream marble bathroom counter: a plain CLEAR unlabeled glass bottle of pale golden oil stands open, its plain white screw cap lying next to it; her right hand enters from the right edge with the whole wrist visible and reaches for the cap. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails. Use its room only if this shot is in the same bathroom. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215772702-n0fj7znt7qp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215857138-bxzs0y5bgmg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e4426fe0f26b775b64958d2c5953cf74",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e4426fe0f26b775b64958d2c5953cf74_0_1792286296.jpeg"
+   ]
+  },
+  "costTime": 52
+ },
+ {
+  "t": "2026-10-18 01:18:30",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up over the cream marble bathroom sink: both her hands, palms up and cupped, enter from the bottom edge with the whole wrists visible, slick with thick pale golden oil; oil runs down her wrists and drips in long strings onto the marble counter, where a few glossy oil drops and a smear already sit. A plain CLEAR unlabeled glass bottle with no cap lies on its side on the counter. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails. Use its room only if this shot is in the same bathroom. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215772702-n0fj7znt7qp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215857138-bxzs0y5bgmg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "dd0d46d2ec8c0f64c930612a7dceb708",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/dd0d46d2ec8c0f64c930612a7dceb708_0_1792286307.jpeg"
+   ]
+  },
+  "costTime": 61
+ },
+ {
+  "t": "2026-10-18 01:18:42",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Extreme close-up of ONE eyebrow and the closed eyelid below it: full, natural dark brown eyebrow, warm light-medium brown skin; her right hand enters from the right edge holding the BodyJ4You roll-on sideways, the pink rose quartz ball resting at the inner start of the eyebrow. Crop: only the brow, the closed eye, a little forehead and the temple; no nose, no mouth, no lips. Setting: the bedroom in the bedroom reference photo: light oak wooden nightstand with a cream drum-shade lamp, bed with pink-and-white striped cotton sheets. Show it in bright soft morning daylight with a neutral white balance, not lamp light at night. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails, and for the bottle and its label. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap. Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214300609-efjs5rzrwop.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214302749-zecdxdxne9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214304945-wz2jzm7sdx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215852673-u5585s8idha.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215857138-bxzs0y5bgmg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "261d9cacaef8241163fd8f0be315d1fd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/261d9cacaef8241163fd8f0be315d1fd_0_1792286317.jpeg"
+   ]
+  },
+  "costTime": 71
+ },
+ {
+  "t": "2026-10-18 01:21:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up of her left hand resting flat on a white towel on the cream marble counter, fingers slightly apart, short sheer nude nails; her right hand enters from the right edge gripping the BodyJ4You roll-on, the pink rose quartz ball pressed EXACTLY on the cuticle of her left middle finger: the thin strip of skin where the nail plate meets the finger, right at the base of the nail. The ball touches the cuticle line itself, not the nail surface, not the fingertip, not the knuckle, not the back of the hand. The camera looks straight down the top of the finger so the nail base and the ball touching it are in sharp focus, larger in frame than the rest of the hand. Setting: the bathroom in the bathroom reference photo (the image with the sage-green shower): cream-beige marble vanity top and walls, glossy sage-green vertical stacked tiles, brushed brass tap and fixtures, light oak vanity front, a small green plant; leave out the amber soap pumps. Show it in bright, clean daylight with a neutral white balance, not the warm golden evening light of the reference. Match the LAST reference image exactly for the woman's skin tone, hand shape and short sheer nude nails. Use its room only if this shot is in the same bathroom. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap. Shot on a phone, natural light, realistic unretouched skin texture, neutral white balance, bright exposure, no cinematic grading, no warm golden or yellow cast, no dark shadows. No on-screen text or captions. No other branded products. No reflection of a person.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214300609-efjs5rzrwop.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214302749-zecdxdxne9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214304945-wz2jzm7sdx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215772702-n0fj7znt7qp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792215857138-bxzs0y5bgmg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7ab48cbd317f76640efdcced49f38cfa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7ab48cbd317f76640efdcced49f38cfa_0_1792286458.jpeg"
+   ]
+  },
+  "costTime": 213
+ },
+ {
+  "t": "2026-10-18 01:23:24",
+  "submitted": "f8bf89d2ed46af23a20ed92e42123571",
+  "prompt": "Edit the FIRST image only. Keep the woman, her skin, her closed eye, her hand, the bedroom and the light exactly the sam"
+ },
+ {
+  "t": "2026-10-18 01:24:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST image only. Keep the woman, her skin, her closed eye, her hand, the bedroom and the light exactly the same. Change only two things: (1) her hand moves the roll-on up so the pink rose quartz ball rests ON the eyebrow hairs, at the middle of the eyebrow arch, not near the eye or the nose; (2) reframe as a tighter close-up so only the eyebrow, the closed eye, the temple and a little forehead and hair show: no nose tip, no lips, no mouth, no chin. The bottle and its label must look exactly like the bottle in the SECOND image (amber glass, white collar, label 'Body4You 100% Premium Quality CASTOR OIL' upright). No text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792286602568-plfqqq6tr5j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214300609-efjs5rzrwop.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f8bf89d2ed46af23a20ed92e42123571",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f8bf89d2ed46af23a20ed92e42123571_0_1792286652.jpeg"
+   ]
+  },
+  "costTime": 49
+ },
+ {
+  "t": "2026-10-18 01:24:18",
+  "submitted": "37140c82bb41a4ea13fa9c62472158f1",
+  "prompt": "Edit the FIRST image only. Keep her left hand on the towel, her nails, the mauve tee, the bathroom and the light exactly"
+ },
+ {
+  "t": "2026-10-18 01:25:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit the FIRST image only. Keep her left hand on the towel, her nails, the mauve tee, the bathroom and the light exactly the same. Change only this: her right hand moves the roll-on so the pink rose quartz ball presses ON the cuticle of her left middle finger: the thin strip of skin right at the base of the nail, where the nail meets the finger. Not on the fingertip, not on the nail surface, not on the knuckle. Show that fingernail base clearly. The bottle and its label must look exactly like the bottle in the SECOND image (label upright and readable). No text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792286656671-jyt02ro20q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792214300609-efjs5rzrwop.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "37140c82bb41a4ea13fa9c62472158f1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/37140c82bb41a4ea13fa9c62472158f1_0_1792286739.jpeg"
+   ]
+  },
+  "costTime": 82
+ },
+ {
+  "t": "2026-10-18 01:31:09",
+  "submitted": "6a95819212d9c3318006eddbcb707a67",
+  "prompt": "Shot N3: the roller ball glides slowly along the eyebrow from the inner end to the outer tail, leaving a light sheen on "
+ },
+ {
+  "t": "2026-10-18 01:31:09",
+  "submitted": "05cee4e974e74c3a3ca5e393f1eb30d2",
+  "prompt": "Shot N4: the roller ball stays on the cuticle line at the base of the middle fingernail and rolls a tiny side-to-side st"
+ },
+ {
+  "t": "2026-10-18 01:31:09",
+  "submitted": "05ed3245740750711132079752fafe74",
+  "prompt": "Shot N2: her hand picks up the white cap, screws it firmly onto the clear bottle, then pushes the bottle away across the"
+ },
+ {
+  "t": "2026-10-18 01:31:09",
+  "submitted": "2d572dc433b208dea37c6f1af498bbf0",
+  "prompt": "Shot N1: the thick oil keeps running down her wrists and drips in slow strings onto the marble; she spreads her slick fi"
+ },
+ {
+  "t": "2026-10-18 01:32:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot N1: the thick oil keeps running down her wrists and drips in slow strings onto the marble; she spreads her slick fingers apart, the oil stretching between them. Camera static. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The hand keeps the same warm light-medium brown skin tone and the same SHORT nails, trimmed level with the fingertips, in every frame; the nails never grow. Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792287060620-z3crct0vijs.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "2d572dc433b208dea37c6f1af498bbf0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792287171605-2w6w8aulyc2.mp4"
+   ]
+  },
+  "costTime": 103
+ },
+ {
+  "t": "2026-10-18 01:32:56",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot N4: the roller ball stays on the cuticle line at the base of the middle fingernail and rolls a tiny side-to-side stroke along that cuticle, leaving a thin sheen on the skin at the nail base; it never moves onto the nail surface or the knuckle. The left hand stays still. Camera static, macro. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap. The hand keeps the same warm light-medium brown skin tone and the same SHORT nails, trimmed level with the fingertips, in every frame; the nails never grow. Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792287067256-fklaphj59sl.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "05cee4e974e74c3a3ca5e393f1eb30d2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792287169384-fvspeccb4n8.mp4"
+   ]
+  },
+  "costTime": 100
+ },
+ {
+  "t": "2026-10-18 01:32:57",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot N2: her hand picks up the white cap, screws it firmly onto the clear bottle, then pushes the bottle away across the counter out of frame. Natural speed. Camera static. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The hand keeps the same warm light-medium brown skin tone and the same SHORT nails, trimmed level with the fingertips, in every frame; the nails never grow. Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792287063156-fk9qlwpjp75.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "05ed3245740750711132079752fafe74",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792287173623-j4sae7towll.mp4"
+   ]
+  },
+  "costTime": 104
+ },
+ {
+  "t": "2026-10-18 01:33:03",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Shot N3: the roller ball glides slowly along the eyebrow from the inner end to the outer tail, leaving a light sheen on the brow hairs; the eye stays closed and still. Camera static, macro. The only person is one woman, seen as hands and forearms only: warm light-medium brown skin, smooth even skin, slim fingers. Her nails are SHORT natural-length rounded nails, trimmed level with the fingertips, painted sheer glossy nude. Every hand enters from a frame edge with the whole wrist visible. A hand that touches the bottle GRIPS it with curled fingers around the glass. No face, no neck, no other people. She wears a plain soft mauve (dusty muted purple-pink) crew-neck cotton t-shirt; any visible sleeve is that mauve tee. The product is exactly the BodyJ4You castor oil roll-on in the product reference images: a short, wide cylindrical dark amber-brown glass bottle with a threaded glass neck, a white plastic collar holding a smooth, clearly soft-pink rose quartz ball (pink, not white or peach) on top (no cap anywhere); a wrap-around white label with plum-purple bands at top and bottom, the small 'Body4You' logo, '100% Premium Quality', a large plum serif 'CASTOR OIL', a round green-and-white USDA ORGANIC seal, 'CERTIFIED ORGANIC' and '1.7 FL OZ / 50 ML'. The bottle keeps this exact shape, colours and label layout in every frame: no morphing, no extra text, no label drift, no cap. The hand keeps the same warm light-medium brown skin tone and the same SHORT nails, trimmed level with the fingertips, in every frame; the nails never grow. Fingers move naturally and stay anatomically correct (five fingers per hand). The bottle and its label stay exactly the same shape and layout. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792287065299-jd1qxlpcbic.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "6a95819212d9c3318006eddbcb707a67",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792287180164-96bxszaz3ng.mp4"
+   ]
+  },
+  "costTime": 113
  }
 ]
