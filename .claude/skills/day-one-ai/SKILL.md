@@ -66,6 +66,8 @@ from **recurring affiliate links** in the description (not AdSense).
    Engagement (Ralph 2026-10-12, 0 comments in 2 weeks): every job has `comment_question` (one easy pick-an-option question
    about the viewer's own use), said in the outro and posted after publishing with `yt.py comment jobs/<slug>` (Ralph pins it;
    never promise a future video). Segment 0 opens with the result the viewer gets; launch news second.
+   Engagement card (Ralph 2026-10-18): `--final` overlays a Like / Subscribe / Comment card (Fluent 3D emojis in assets/overlay)
+   on segment 1 for 5s, long videos only; `"cta": false` in a job skips it. Disclosure stays one line: "some links above are affiliate links".
 3. **Render:** `python3 produce.py jobs/<slug>/job.json --seg N` for each N, then `--final` (`--dry` = free silent test).
    Verify: 6-frame contact sheet, duration, audio level; run speech-to-text (scribe_v2) on demo lines if tags matter.
    Then `--short` renders the daily Short from the job's `short` block (see below) and gets verified the same way.
