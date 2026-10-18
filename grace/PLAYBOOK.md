@@ -140,7 +140,7 @@ products follow the same rules.
      the voice talks without lip sync, no product cut off or smeared (lip sync near the product), no forehead
      wrinkles, outfit/product consistent in every shot, frame-by-frame check where hands/product cross the face.
   4. Report running total vs quote at every step.
-- Voices: ElevenLabs **Grace B** `bGrsdLmwBbYUgHRuMFOI` (eleven_v4) for voiceovers; Grace's Seedance clone
+- Voices: ElevenLabs **Grace C** `P8OUGBCvq8OBS4xlb65A` (eleven_v4, stability 0.4, similarity 0.8) for voiceovers (Ralph 2026-10-18: Grace said B didn't sound like her; C is an instant clone from 2.6 min of her clean Wag Bag takes, details `grace/voice/README.md`; Starter plan has no professional clone). C comes out ~7 dB quieter than B: loudnorm every C voiceover to -16 LUFS before the cut and in any preview. Grace B `bGrsdLmwBbYUgHRuMFOI` is retired; Grace's Seedance clone
   `3dmagVYZFvrGkBbWWmGC` for AI skit dialogue.
 - Before the first paid image: confirm the real product (top, cap, label, size) and the hand/person details
   (nail length). Ask before every paid generation, with the exact cost. Free fixes first.
