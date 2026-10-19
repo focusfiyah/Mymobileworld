@@ -6,21 +6,24 @@ def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call unti
     _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
 
 
-J = json.load(open("shots.json"))
+V2 = "--v2" in sys.argv  # 2026-10-19 redo: shots_v2.json -> vo/v2_* (v1 files kept)
+SH = "shots_v2.json" if V2 else "shots.json"; P = "vo/v2_" if V2 else "vo/"
+J = json.load(open(SH))
+VOICE = J.get("voice", {}).get("voice_id", "bGrsdLmwBbYUgHRuMFOI")  # Grace B
 RETIME = "--retime" in sys.argv  # reuse vo/voiceover.mp3 + vo/stt.json (no new ElevenLabs calls)
 text = " ".join(s["vo"] for s in J["shots"]).replace("LGXNDS", "Legends")  # brand is said "Legends"
 body = {"text": text, "model_id": "eleven_v4",
         "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}}
 if not RETIME:
-  json.dump({"voice_id": J["voice"]["voice_id"], **body}, open("vo/vo.json", "w"), indent=1)
+  json.dump({"voice_id": VOICE, **body}, open(P + "vo.json", "w"), indent=1)
   _gate()
-  r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{J['voice']['voice_id']}?output_format=mp3_44100_128",
+  r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128",
                   json=body, timeout=300); r.raise_for_status()
-  open("vo/voiceover.mp3", "wb").write(r.content)
+  open(P + "voiceover.mp3", "wb").write(r.content)
   r = requests.post("https://api.elevenlabs.io/v1/speech-to-text", data={"model_id": "scribe_v2", "timestamps_granularity": "word"},
-                  files={"file": open("vo/voiceover.mp3", "rb")}, timeout=300); r.raise_for_status()
-  json.dump(r.json(), open("vo/stt.json", "w"), indent=1)
-d = json.load(open("vo/stt.json"))
+                  files={"file": open(P + "voiceover.mp3", "rb")}, timeout=300); r.raise_for_status()
+  json.dump(r.json(), open(P + "stt.json", "w"), indent=1)
+d = json.load(open(P + "stt.json"))
 print("raw", d["audio_duration_secs"], "|", d["text"])
 W = [w for w in d["words"] if w["type"] == "word"]
 segs = []
@@ -35,14 +38,14 @@ segs[-1][1] = min(d["audio_duration_secs"], W[-1]["end"] + 0.25)
 pos, out = 0, []
 for w, (a, b) in zip(W, segs):
     out.append({"text": w["text"], "start": round(w["start"] - a + pos, 3), "end": round(w["end"] - a + pos, 3)}); pos += b - a
-json.dump(out, open("vo/words_trimmed.json", "w"), indent=1)
+json.dump(out, open(P + "words_trimmed.json", "w"), indent=1)
 f = "".join(f"[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.005,afade=t=out:st={b-a-0.005:.3f}:d=0.005[s{i}];"
             for i, (a, b) in enumerate(segs))
 f += "".join(f"[s{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=0:a=1[o]"
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo/voiceover.mp3", "-filter_complex", f, "-map", "[o]",
-                "-c:a", "libmp3lame", "-b:a", "192k", "vo/voiceover_tight.mp3"], check=True)
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", P + "voiceover.mp3", "-filter_complex", f, "-map", "[o]",
+                "-c:a", "libmp3lame", "-b:a", "192k", P + "voiceover_tight.mp3"], check=True)
 
-NUM = {"5": "five", "60": "sixty", "lgxnds": "legends"}  # STT writes numbers as digits
+NUM = {"5": "five", "60": "sixty", "30": "thirty", "lgxnds": "legends"}  # STT writes numbers as digits
 norm = lambda x: "".join(NUM.get(w, w) for w in re.sub(r"[^a-z0-9% ]", "", x.lower()).split())
 i, starts = 0, []
 for s in J["shots"]:  # consume transcript words until they spell this shot's line
@@ -55,5 +58,5 @@ for k, s in enumerate(J["shots"]):
     a = 0.0 if k == 0 else round(starts[k] - 0.05, 2)
     b = round(starts[k + 1] - 0.05, 2) if k + 1 < len(starts) else round(pos, 2)
     s["t"] = [a, b]; print(s["id"], a, b, round(b - a, 2), "clip", s["dur"], "OK" if b - a <= s["dur"] else "TOO LONG")
-json.dump(J, open("shots.json", "w"), indent=1)
+json.dump(J, open(SH, "w"), indent=1)
 print("tight", round(pos, 2))
