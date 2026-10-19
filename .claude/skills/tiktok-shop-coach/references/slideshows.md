@@ -39,6 +39,15 @@ Sources: [Seller University](https://seller-us.tiktok.com/university/essay?knowl
   swiping every slide and tapping the product (attentionclaw).
 - Caption and slide text get the same script checks as a video: humanizer and readability (`tiktok.py readability`).
 
+## Cost and product truth (Shnuggle test, 2026-10-19)
+
+- **Cheapest route first.** Real photos (the creator's own, or brand photos with no children in them) cost $0. Offer that
+  before AI stills, and quote any paid test with one likely redo included. Why: the first AI slideshow test cost $0.54,
+  would have needed a second $0.54 round, and Ralph stopped it as more than he expected.
+- **AI stills follow the product-truth rules** (source: grace/PLAYBOOK.md §6): the maker's real dimensions plus an everyday
+  size anchor and a real in-room photo for scale, standing-height camera, only features Ralph confirmed (the AI tub came out
+  too big, and a brand texture photo put dots on a tub that has none), and a 2x check for an added ® next to the logo.
+
 ## Done when
 
 Every slide is 9:16 with the real product filling the frame, slide 1 hooks, the last slide closes, the products are
