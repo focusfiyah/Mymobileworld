@@ -92,6 +92,7 @@ and ask questions, do not assume, because that's how we waste time and money."
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - **Report the running total against the quote at every paid step.**
+- **Lip sync fallback (Ralph 2026-10-18):** default ElevenLabs voice + Kie sync; if it looks off, Fal.ai minimax lip sync (`references/lipsync-options.md`), ask first with the cost, one test clip.
 - **Phone notification at every review point** (Ralph, 2026-10-01: "Make that a standard"): he leaves the app, so
   email him (Composio GMAIL_SEND_EMAIL, account `gmail_correa-comus`, to life22watch@gmail.com) AND a phone push
   (PushNotification is deferred: ToolSearch `select:PushNotification` first; skipped while he has the app open, so the email is the backup) (one line: what to review + any cost to approve) whenever a still sheet, test clip or cut is
