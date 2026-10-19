@@ -1,4 +1,4 @@
-# Coach compare: @myfamilypov 7697426097545252126 (765K views, top heater shop video) vs our V1 cut (2026-10-19)
+# Coach compare: @myfamilypov 7697426097545252126 (765K views, top heater shop video) vs our V1 cut 2 (2026-10-19, S4/S9 heater resized; same pace, cuts and length as cut 1)
 Tool output: research/compare/compare/compare.md + compare.png (hook frames). No paid STT: word rates from TikTok's own transcript (A) and our VO word timings (B).
 
 | | A (winner) | B (ours) |

@@ -16,3 +16,7 @@ Final: out/heater_V1.mp4 (30.09 s, 720x1280, -16.5 LUFS, AI finish applied last)
 | Matches the words | thermostat on "turn the heat up", carry on "goes wherever you are", bedroom/desk/couch on their words, warm hands on "heats up fast", panel tap on "set the exact temperature", one heater on the CTA |
 | REMOVED.md | checked: no text, no cards, no Ken Burns, no hand sweep, no box, no fake heat streaks, no bathroom; S5 ring kept on the thumb |
 | Coach compare vs the top winner | research/compare/compare_V1.md |
+
+## Cut 2 (2026-10-19, Ralph: S4 + S9 heater looked big)
+- S4 + S9 stills resized by one edit each ($0.18), new Kling clips (80 credits); heater now about half the nightstand legs (S4) and below the sofa seat (S9); the filled areas are clean at full size; clips hold the size for the whole move.
+- Size check added to every product still (PLAYBOOK §6). Everything else as cut 1. Cut gate OK after a fresh coach compare.
