@@ -1,0 +1,67 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "shots.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach/shop-night-driving-glasses.json",
+   "research/coach/tag-nightdrivingglasses.json",
+   "research/coach/7585057664544034079/meta.json",
+   "research/coach/7572453338193612087/meta.json",
+   "research/coach/7691696065942162720/meta.json",
+   "research/coach/7688661003642457358/meta.json",
+   "research/coach/7591764480929959198/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-12.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/v2_readability.txt"
+  ],
+  "max_grade": 3.7
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "research/compare_r1.md",
+   "research/coach/compare/compare.md"
+  ]
+ }
+}

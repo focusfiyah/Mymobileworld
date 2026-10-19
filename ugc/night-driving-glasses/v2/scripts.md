@@ -1,0 +1,18 @@
+# Night driving glasses v2: Grace's 5 scripts (verbatim, Ralph 2026-10-15)
+
+Words are Grace's and Ralph's: kept word for word. Only the layout (which lines sit on which shot) is ours.
+
+## V1
+Blinding headlights at night are a whole different kind of scary. You're squinting at the lane lines, just hoping you're still in your lane. And wearing glasses? That makes it even worse. These are night driving glasses that fit right over your regular ones. The yellow lenses are designed to help reduce glare from oncoming headlights. And look, there's a little yellow window on each side, so the glare can't sneak in from the side. Honestly, why did nobody tell us about these sooner? The clocks go back November first, which means darker drives home. Keep a pair in your car and grab one for your mom. They're in the orange cart.
+
+## V2
+Nothing makes me grip the steering wheel tighter than blinding headlights at night. You're squinting, leaning forward, trying to see the road while those headlights are coming straight at you. These night driving glasses fit right over your regular glasses, with yellow polarized lenses designed to help reduce glare. They even have yellow side windows to help with glare coming in from the sides. Keep a pair in your car before those evening drives. They're in the orange cart.
+
+## V3
+Ever had oncoming headlights hit so hard you had to squint just to stay in your lane? That split second when you can barely make out the road is stressful. These night driving glasses fit right over your regular glasses, so you don't have to choose between seeing clearly and wearing your prescription frames. The yellow polarized lenses are designed to help reduce glare, and the side windows help address glare coming from the sides, too. Keep a pair in your car. Tap the orange cart to check them out.
+
+## V4
+Nothing makes me grip the steering wheel tighter than blinding headlights at night. And with the clocks going back November first, we'll be dealing with more darkness on our evening drives. The last thing you need is oncoming headlights making it hard to see your lane. These night driving glasses fit right over your regular glasses, with yellow polarized lenses designed to help reduce glare. They even have yellow side windows to address glare coming from the sides. Keep a pair in your car and grab one for your mom, too. They're in the orange cart.
+
+## V5
+Ever had oncoming headlights hit so hard you had to squint just to stay in your lane? With the clocks going back November first, those dark drives home are coming even sooner. These night driving glasses fit right over your regular glasses and feature yellow polarized lenses designed to help reduce glare, plus side windows for additional coverage. Keep a pair in your car, especially with darker evenings ahead. They're in the orange cart.
