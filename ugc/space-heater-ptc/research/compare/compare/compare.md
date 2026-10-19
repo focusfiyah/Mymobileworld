@@ -1,7 +1,7 @@
 # A/B compare
 
 **A**: research/videos/7697426097545252126/video.mp4
-**B**: out/heater_V1_raw.mp4
+**B**: out/heater_V1.mp4
 
 | | A | B |
 |---|---|---|
