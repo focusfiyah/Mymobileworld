@@ -2,7 +2,7 @@
 
 OWNS: ugc/space-heater-ptc/**
 
-Scope: 3 script angles + hands-only AI videos (Grace's hands with the gold bracelet and blue birthstone ring, Grace C VO), a different room per shot, lots of motion; my product reference sheet compared with Ralph's; free room plates first; plan + one total cost approved before any paid call; QC'd, AI-finished, in Drive, Ralph notified.
+Scope: ONE script (V1, Ralph 2026-10-19: 'just choose the best one'; V2/V3 dropped) + a hands-only AI video (Grace's hands with the gold bracelet and blue birthstone ring, Grace C VO), a different room per shot, lots of motion; my product reference sheet compared with Ralph's; free room plates first; plan + one total cost approved before any paid call; QC'd, AI-finished, in Drive, Ralph notified.
 
 - [x] G1: My product reference sheet (real listing pixels only) and a side-by-side comparison with Ralph's sheet exist
   CHECK: python3 ugc/space-heater-ptc/qc/gates_check.py sheets
@@ -35,16 +35,16 @@ Scope: 3 script angles + hands-only AI videos (Grace's hands with the gold brace
 - [ ] G7: Still storyboard (paid stills) shown and approved before any video spend
   EVIDENCE:
 
-- [ ] G8: Each approved video's final exists, is 9:16, has audio and was AI-finished as the last step
+- [ ] G8: The V1 final exists, is 9:16, has audio and was AI-finished as the last step
   CHECK: python3 ugc/space-heater-ptc/qc/gates_check.py finals
   EXPECT: finals PASS
 
-- [ ] G9: QC report all clear per cut (hands from frame edge with bracelet + birthstone ring, grip, 2x edge zoom, first second, product unchanged, no text, REMOVED.md checked)
+- [ ] G9: QC report all clear on the V1 cut (hands from frame edge with bracelet + birthstone ring, grip, 2x edge zoom, first second, product unchanged, no text, REMOVED.md checked)
   EVIDENCE:
 
 - [ ] G10: Cut-stage gate passes (coach compare vs the top winner)
   CHECK: python3 grace/gate.py ugc/space-heater-ptc --stage cut
   EXPECT: GATE OK
 
-- [ ] G11: Drive "Grace Tiktok assets" / one heater folder holds CURRENT videos + script doc, link sent, Ralph emailed + pushed at each review point
+- [ ] G11: Drive "Grace Tiktok assets" / one heater folder holds the CURRENT video + script doc, link sent, Ralph emailed + pushed at each review point
   EVIDENCE:

@@ -6,7 +6,7 @@ meta = {"V1": ("One cold room", "H063", "Rooms tour: bedroom, desk, couch. Model
         "V2": ("Kids, dogs and tip-over", "H027", "Safety buyer guide. Answers the top searches: are space heaters safe, safe for pets. Modeled on @camronnbrown (3.1M)."),
         "V3": ("6 a.m. demo", "H126", "Identity humor + top-panel demo. Modeled on @drezilla13 (16.5% engagement) and @myfamilypov.")}
 vids = ""
-for v, (name, hid, why) in meta.items():
+for v, (name, hid, why) in [("V1", meta["V1"])]:   # Ralph 2026-10-19: one script only, the best one (V1)
     vo = open(f"vo/{v}.txt").read().strip(); rows = ""
     for s in [x for x in S if x["video"] == v]:
         rows += f'<tr><td class="id">{s["id"][2:]}</td><td><span class="pill {"h" if s["hand"] else "f"}">{s["kind"]}</span></td><td>{E(s["line"])}</td><td class="muted">{E(s["still"])}<br><em>{E(s["motion"])}</em></td></tr>'
