@@ -156,12 +156,11 @@ EDITS = {   # targeted edits of an otherwise-good still (PLAYBOOK §6, BodyJ les
              "Edit image 1. Change ONLY the blue silicone ring: take it off the thumb and put it on the RING finger (the fourth finger), so the thumb has "
              "no ring and there is exactly one blue ring. Keep everything else identical: the hand, its grip on the mug, the bracelets, the nails, the "
              "mug, the heater, the room, the light, the framing."),
-    "V1S8": ("stills/r3/V1S8.png", ["refs/top_panel.png", "refs/front_cutout.png"],
-             "Edit image 1. Change ONLY the heater, to match the real one in images 2 and 3: (a) the touch-panel buttons are small white-outlined round "
-             "buttons with ICONS only (lock, timer, minus, thermometer, plus, fan), no words like ECO or MODE on any button; keep the white '73' and "
-             "the red power button; (b) the rectangular heater window with vertical bars sits BEHIND the black hexagon-hole mesh, the mesh continues "
-             "over it, no open frame. Keep the hand, the finger touching the lower button, the ring, the nails, the bracelets, the table, the room, "
-             "the light and the framing identical."),
+    "V1S8": ("stills/fix/V1S8_icons.png", ["refs/front_cutout.png"],   # icons already fixed free (tools/free_fix.py S8); only the window left
+             "Edit image 1. Change ONLY the heater's front window: the rectangular heater window with vertical bars must sit BEHIND the black "
+             "hexagon-hole mesh, exactly like the real heater in image 2: the mesh continues across the window, the bars show faintly through the "
+             "holes, there is no raised frame or bezel around it. Keep everything else identical: the hand and every finger, the blue ring, the "
+             "nails, the bracelets, the top panel and its buttons and display, the table, the room, the light and the framing."),
 }
 
 
