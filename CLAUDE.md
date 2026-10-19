@@ -26,9 +26,11 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Previews play in place, never as downloads (Ralph 2026-10-19: "keep the preview so I do not have to download"):** every still sheet, test clip and cut for review goes on ONE private Artifact review page per job (video + images as published files, newest on top, republished to the same URL each round) and the link goes in the reply. File attachments are extras, never the only way to see it.
 - **Phone notifications (standard, Ralph 2026-10-01):** he leaves the app, so notify him (one line, what
   to review + cost) every time something is ready for his review or needs his decision: a still sheet, a test clip, a
-  cut, a redo/cost question. Not for routine progress. **By email (Ralph, 2026-10-12):** cloud sessions have NO
-  PushNotification tool (tested 2026-10-07 + 10-12), so send Composio GMAIL_SEND_EMAIL (account `gmail_correa-comus`)
-  to life22watch@gmail.com; also PushNotification when that tool exists.
+  cut, a redo/cost question. Not for routine progress. **Phone push AND email, every time (Ralph, 2026-10-18):**
+  PushNotification is a DEFERRED tool in cloud sessions (the 2026-10-07/10-12 "no push tool" tests were wrong): load it
+  with ToolSearch `select:PushNotification` (status "proactive", one line), and also send Composio GMAIL_SEND_EMAIL
+  (account `gmail_correa-comus`) to life22watch@gmail.com. If either fails, say so. Tested 2026-10-18: it reaches his phone from mobile/web
+  cloud sessions (no computer needed); it is skipped while he has the session open in the app, so email is the backup.
 - **Google Drive uploads (standard, Ralph 2026-10-01):** use BOTH routes; if one fails, use the other. (1) Google Drive
   connector (`mcp__Google_Drive__*`): folders, docs, small text files. (2) Composio `googledrive` (account
   `googledrive_lin-ernst` = life22watch@gmail.com): videos and other big files via `GOOGLEDRIVE_UPLOAD_FROM_URL`
