@@ -109,8 +109,8 @@ def still(sid):
         refs += [upload(p) for p in PROD]; names += ["the heater's reference sheet: these are REAL photos, copy the product exactly (shape, mesh, heater window, top panel)", "extra angles of the same heater, for its shape only (ignore its top-panel buttons)"]
     refs.append(upload(s["room"])); names.append("the room: keep this room, its furniture and its light, made neutral daylight")
     look = "stills/look_ref.png"
-    if Path(look).exists() and sid != "V1S3":
-        refs.append(upload(look)); names.append("an approved frame from this same video: match its hand, bracelet, ring, heater and light")
+    if Path(look).exists() and sid != "V1S7":   # look_ref = approved V1S7 r2 (flat bracelet, French tips)
+        refs.append(upload(look)); names.append("an approved frame from this same video: copy its hand, its FLAT gold link bracelet, its pearl chain with leaf, its single blue ring and its white French-tip nails exactly")
     prompt = ("Vertical 9:16 photo, a single frame from a phone-shot UGC video. " + s["still"] + " " + blocks(sid) + " " + J["scene_block"]
               + " Reference images in order: " + "; ".join(f"{i+1}) {n}" for i, n in enumerate(names)) + ".")
     url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs, "aspect_ratio": "9:16", "resolution": "1K"}})
