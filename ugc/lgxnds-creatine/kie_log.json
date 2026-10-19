@@ -806,5 +806,96 @@
    ]
   },
   "costTime": 104
+ },
+ {
+  "t": "2026-10-19 00:37:01",
+  "submitted": "62e5de7ebe07cef9a75b20801615d681",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The LGXNDS tub on the marble island, lid on, front labe"
+ },
+ {
+  "t": "2026-10-19 00:37:01",
+  "submitted": "9a64d6cd7f09bf843a72c816621eed19",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. On the marble island: a white ceramic mug of black coff"
+ },
+ {
+  "t": "2026-10-19 00:37:02",
+  "submitted": "6f6811ce90c007f2e8a3e08a00dc9461",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The LGXNDS tub alone on the marble island with its whit"
+ },
+ {
+  "t": "2026-10-19 00:38:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The LGXNDS tub on the marble island, lid on, front label facing the camera squarely, seen from slightly above at counter height, the whole tub fully in frame with space on both sides (the tub is about half the frame width); the hand enters from the top right edge and rests its fingertips on the white lid. The hand is the ONLY person in the video: Grace's hand, medium-dark brown skin, slim fingers, square medium-length nails painted soft pink with crisp white French tips, exactly as in the hand reference photo (use it for skin tone, hand shape and nails only, ignore its background and the ring on the bench). On her wrist she wears a thin gold flat-link bracelet watch, exactly like the gold bracelet in the bracelet reference image; no rings, no other jewellery. Only the hand and wrist enter from the frame edge, no forearm, and the hand is small (about 15% of the frame height) so the product stays the hero. Five fingers, natural knuckles and skin texture. The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. Shape (see the product reference sheet: the big front view is the REAL label, the small views show the tub from the side, top and below): about as tall as it is wide, the lid is the top quarter, rounded bottom edge. The label wraps around the curved tub like a real printed label: the print curves with the tub and stays well inside its left and right edges, nothing printed past the edge, nothing peeling or floating. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours. Setting: the kitchen in the kitchen reference image: a white marble island with soft grey veining, white shaker cabinets with brass handles, a brass faucet over a black sink, white dome pendant lights with brass fittings, light oak floor and a few green plants, softly blurred behind the counter. Bright, clean, neutral daylight (no yellow or golden tint). Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. No on-screen text or captions. Reference images: hand photos (skin, nails), the gold bracelet, the LGXNDS product reference sheet (the big front view is the real label; small views = side, top, bottom shape), a close-up of the real front label, and the kitchen (match it). The last reference image is an approved frame from this same video: match its light, kitchen, hand and bracelet exactly.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368165708-fym61jp0d8d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368167932-senpwt268m.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792370219357-6h1rwojl9qi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368170228-fphcu3lu48a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368172792-w8yqnicdijf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368491072-1hqtag0w0m7.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "62e5de7ebe07cef9a75b20801615d681",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/62e5de7ebe07cef9a75b20801615d681_0_1792370292.jpeg"
+   ]
+  },
+  "costTime": 72
+ },
+ {
+  "t": "2026-10-19 00:38:54",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. On the marble island: a white ceramic mug of black coffee in the foreground right; behind it on the left, the LGXNDS tub with its front label facing the camera squarely, fully visible and not hidden by the mug; the hand enters from the top right edge holding the white scoop of fine white powder over the mug. The hand is the ONLY person in the video: Grace's hand, medium-dark brown skin, slim fingers, square medium-length nails painted soft pink with crisp white French tips, exactly as in the hand reference photo (use it for skin tone, hand shape and nails only, ignore its background and the ring on the bench). On her wrist she wears a thin gold flat-link bracelet watch, exactly like the gold bracelet in the bracelet reference image; no rings, no other jewellery. Only the hand and wrist enter from the frame edge, no forearm, and the hand is small (about 15% of the frame height) so the product stays the hero. Five fingers, natural knuckles and skin texture. The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. Shape (see the product reference sheet: the big front view is the REAL label, the small views show the tub from the side, top and below): about as tall as it is wide, the lid is the top quarter, rounded bottom edge. The label wraps around the curved tub like a real printed label: the print curves with the tub and stays well inside its left and right edges, nothing printed past the edge, nothing peeling or floating. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours. The powder is a fine bright-white unflavored powder; the scoop is a small plain white plastic scoop. Setting: the kitchen in the kitchen reference image: a white marble island with soft grey veining, white shaker cabinets with brass handles, a brass faucet over a black sink, white dome pendant lights with brass fittings, light oak floor and a few green plants, softly blurred behind the counter. Bright, clean, neutral daylight (no yellow or golden tint). Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. No on-screen text or captions. Reference images: hand photos (skin, nails), the gold bracelet, the LGXNDS product reference sheet (the big front view is the real label; small views = side, top, bottom shape), a close-up of the real front label, and the kitchen (match it). The last reference image is an approved frame from this same video: match its light, kitchen, hand and bracelet exactly.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368165708-fym61jp0d8d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368167932-senpwt268m.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792370219402-8g7rgl0fh8o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368170228-fphcu3lu48a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368172792-w8yqnicdijf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368491072-1hqtag0w0m7.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9a64d6cd7f09bf843a72c816621eed19",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9a64d6cd7f09bf843a72c816621eed19_0_1792370328.jpeg"
+   ]
+  },
+  "costTime": 107
+ },
+ {
+  "t": "2026-10-19 00:39:20",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The LGXNDS tub alone on the marble island with its white lid on, front label facing the camera, centred, seen straight on at counter height, the whole tub in frame, the kitchen softly blurred behind. No hand, no people. No hand and no people anywhere in the frame. The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. Shape (see the product reference sheet: the big front view is the REAL label, the small views show the tub from the side, top and below): about as tall as it is wide, the lid is the top quarter, rounded bottom edge. The label wraps around the curved tub like a real printed label: the print curves with the tub and stays well inside its left and right edges, nothing printed past the edge, nothing peeling or floating. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours. Setting: the kitchen in the kitchen reference image: a white marble island with soft grey veining, white shaker cabinets with brass handles, a brass faucet over a black sink, white dome pendant lights with brass fittings, light oak floor and a few green plants, softly blurred behind the counter. Bright, clean, neutral daylight (no yellow or golden tint). Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. No on-screen text or captions. Reference images: hand photos (skin, nails), the gold bracelet, the LGXNDS product reference sheet (the big front view is the real label; small views = side, top, bottom shape), a close-up of the real front label, and the kitchen (match it). The last reference image is an approved frame from this same video: match its light, kitchen, hand and bracelet exactly.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792370219321-exn177qo3di.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368170228-fphcu3lu48a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368172792-w8yqnicdijf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368491072-1hqtag0w0m7.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6f6811ce90c007f2e8a3e08a00dc9461",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6f6811ce90c007f2e8a3e08a00dc9461_0_1792370359.jpeg"
+   ]
+  },
+  "costTime": 136
  }
 ]
