@@ -1,0 +1,99 @@
+{
+ "product": "LGXNDS Creatine Monohydrate, 100% pure micronized, unflavored, 150 g / 30 servings tub with scoop (Prime Sports shop)",
+ "client": "Grace",
+ "status": "v2 redo 2026-10-18: plan v2 $2.614 (Kling 3.0 Omni on label shots, won the model test); Ralph: his kitchen photo as background, Grace's hand with bracelet.",
+ "identity_block": "The hand is the ONLY person in the video: Grace's hand, medium-dark brown skin, slim fingers, short squared nails with a glossy pale lilac-white polish (use the hand reference images for skin tone, hand shape and nail colour only, ignore their text labels and background). On her wrist she wears a thin gold flat-link bracelet watch, exactly like the gold bracelet in the bracelet reference image; no rings, no other jewellery. Only the hand and wrist enter from the frame edge, no forearm, and the hand is small (about 15% of the frame height) so the product stays the hero. Five fingers, natural knuckles and skin texture.",
+ "tub_block": "The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours.",
+ "powder_block": "The powder is a fine bright-white unflavored powder; the scoop is a small plain white plastic scoop.",
+ "scene_block": "Setting: the kitchen in the kitchen reference image: a white marble island with soft grey veining, white shaker cabinets with brass handles, a brass faucet over a black sink, white dome pendant lights with brass fittings, light oak floor and a few green plants, softly blurred behind the counter. Bright, clean, neutral daylight (no yellow or golden tint). Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. No on-screen text or captions.",
+ "video_suffix": "The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+ "order": [
+  "S3",
+  "S1",
+  "S2",
+  "S4",
+  "S5",
+  "S6",
+  "S7"
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "vo": "Look at the texture on this.",
+   "model": "seedance",
+   "dur": 4,
+   "tub": false,
+   "powder": true,
+   "hand": true,
+   "still": "Macro close-up over the marble island: the hand holds a small white scoop heaped with fine bright-white powder near the lens, the powder surface soft and silky. No tub, no labels, no other products.",
+   "video": "The hand slowly tilts the scoop a few degrees so the fine powder slides a little like silk; the camera pushes in slowly and gently. Nothing else moves."
+  },
+  {
+   "id": "S2",
+   "vo": "It's micronized creatine, so it mixes right into your water instead of sitting at the bottom.",
+   "model": "kling",
+   "dur": 5,
+   "tub": false,
+   "powder": true,
+   "hand": true,
+   "still": "Close-up on the marble island: a plain clear unbranded water bottle full of clear water stands with its cap off; the hand holds a small white scoop of fine white powder just above the open mouth of the bottle. No tub, no labels, no other products.",
+   "video": "The hand tips the scoop and the fine white powder pours into the water in one smooth stream, then the hand takes the bottle and gives it two gentle swirls; the powder disperses into a faint haze and the water ends clear and see-through, with no clumps, no pile at the bottom and never milky. Slight handheld camera."
+  },
+  {
+   "id": "S3",
+   "vo": "This is LGXNDS. Five grams in every scoop, and the scoop is right in the tub.",
+   "model": "kling",
+   "dur": 4,
+   "tub": true,
+   "powder": true,
+   "hand": true,
+   "still": "The LGXNDS tub stands on the marble island, front label facing the camera, the lid off and resting beside it; the tub is full of fine white powder with the white scoop lying on top; the hand enters from the top right edge and its fingertips hold the scoop handle. The tub is the hero, the hand small.",
+   "video": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few degrees around the tub, very slow and smooth. The tub stays still."
+  },
+  {
+   "id": "S4",
+   "vo": "No flavor, so it goes in your water, your shake, or your morning coffee.",
+   "model": "kling",
+   "dur": 4,
+   "tub": true,
+   "powder": true,
+   "hand": true,
+   "still": "On the marble island: a white ceramic mug of black coffee in the foreground right; behind it on the left, the LGXNDS tub with its front label facing the camera; the hand enters from the top right edge holding the white scoop of fine white powder over the mug.",
+   "video": "The hand tips the scoop and the powder falls into the coffee and disappears; the camera pushes in slowly. The tub in the background stays still."
+  },
+  {
+   "id": "S5",
+   "vo": "It supports strength, power and workout recovery.",
+   "model": "kling",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "hand": false,
+   "still": "The LGXNDS tub alone on the marble island with its white lid on, front label facing the camera, centred, the kitchen softly blurred behind. No hand, no people.",
+   "video": "Only the camera moves: a slow, smooth push-in toward the tub's front label. No hand, no people, nothing else moves."
+  },
+  {
+   "id": "S6",
+   "vo": "Skip the gummies. One scoop a day, rest days too.",
+   "model": "kling",
+   "dur": 4,
+   "tub": true,
+   "powder": false,
+   "hand": true,
+   "still": "An open black gym duffel bag on the marble island; the hand holds the LGXNDS tub, lid on, front label to the camera, just above the open bag.",
+   "video": "The hand lowers the tub straight down into the open bag and lets go; the label keeps facing the camera, the tub never turns. Slight handheld camera."
+  },
+  {
+   "id": "S7",
+   "vo": "Grab the sixty servings so you're set for two months. It's in the orange cart.",
+   "model": "kling",
+   "dur": 5,
+   "tub": true,
+   "powder": false,
+   "hand": true,
+   "last_frame_same": true,
+   "still": "The LGXNDS tub on the marble island, lid on, front label facing the camera; the hand enters from the top right edge and rests its fingertips on the white lid.",
+   "video": "The hand presses the white lid down with its fingertips, then lifts a little and rests on the lid. The tub never moves. Locked-off camera."
+  }
+ ]
+}
