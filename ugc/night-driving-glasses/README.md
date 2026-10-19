@@ -1,9 +1,7 @@
 # Night vision driving glasses, fit-over, deep blue frame (Grace)
 
-Status: PAUSED 2026-10-07 (Ralph: birthstone ring video first; resume on his word). research + draft script v0 (`research/v0_script.txt`, grade 3.7, ~36s). BLOCKED on (1) network: this
-project's built-in cloud environment refuses tiktok.com, api.kie.ai, api.elevenlabs.io and Google autocomplete (tested
-2026-10-07), so coach research, viral board, audience.py and every paid step wait for Ralph to select the "My World"
-environment; (2) a photo/listing link of Grace's actual deep blue pair (many sellers share the title). Spent $0.
+Status: DONE 2026-10-12 (Ralph: 'Approved for now'). Cut r1 in Drive: Grace Tiktok assets/Night Driving Glasses (Grace) https://drive.google.com/drive/folders/1YBqPyggWJCG5PA-OkapK_9Al2816rluQ (CURRENT mp4 + script/caption doc). Kie $2.786 vs $2.95 cap; ElevenLabs ~670 chars.
+v2 (2026-10-16): 5 Grace-script videos r3 (line-by-line cuts, V2 drift fixed, side-panel shots) CURRENT in the same Drive folder; v1/rev2 in Older versions. Kie v2 job ~$10.21 (r3 round $1.72). Files in ugc/night-driving-glasses/v2.
 
 Route (Ralph 2026-10-07: "These are hand and VO videos"): hands-only + POV through the windshield (no AI face), Grace B voiceover, ~9 shots, Seedance 2.0 Mini clips
 from Gemini 3 Pro Image stills. Rough quote ~$2.66 Kie (9 stills $0.81 + 9x5s clips $1.85) + ~600 ElevenLabs chars;

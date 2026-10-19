@@ -1,0 +1,2 @@
+# Humanizer report (v2), words kept verbatim (Ralph: "Keep word for word")
+Scanned the 5 scripts for AI tells (not-X-but-Y, dashes, staged openers, stock AI words, filler). Result: no dashes; no banned phrases (grace/gate.py list); the tells are Grace's own rhythm (short sentences, "And look,", "Honestly,") which is how she talks. No words changed. Flagged for Ralph, not changed: "Honestly, why did nobody tell us about these sooner?" (V1) reads like a stock opener; left as Grace wrote it.
