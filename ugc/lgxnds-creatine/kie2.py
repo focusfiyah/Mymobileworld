@@ -10,7 +10,8 @@ import kie
 V = json.loads(Path("shots_v2.json").read_text())
 S = {s["id"]: s for s in V["shots"]}
 HAND = ["refs/v2/hand_french_bare.png"]  # Grace bare hand, French tips (Ralph 2026-10-19)
-BRACELET, TUB, ROOM = "refs/v2/bracelet_crop.png", "refs/crop_tub_hi.png", "refs/v2/kitchen_ralph.jpg"
+BRACELET, ROOM = "refs/v2/bracelet_crop.png", "refs/v2/kitchen_ralph.jpg"
+TUB = ["refs/v2/product_sheet.png", "refs/crop_tub_hi.png"]   # product reference sheet (Ralph 2026-10-19) + real front label
 LOOK = "stills_v2/look_ref.png"   # copy of the approved test still
 
 
@@ -24,8 +25,8 @@ def text(s):
 
 def still(sid):
     s = S[sid]
-    refs = ([kie.upload(p) for p in HAND] + [kie.upload(BRACELET)] if s["hand"] else []) + ([kie.upload(TUB)] if s["tub"] else []) + [kie.upload(ROOM)]
-    note = " Reference images: hand photos (skin, nails), the gold bracelet, " + ("the real LGXNDS tub, " if s["tub"] else "") + "and the kitchen (match it)."
+    refs = ([kie.upload(p) for p in HAND] + [kie.upload(BRACELET)] if s["hand"] else []) + ([kie.upload(p) for p in TUB] if s["tub"] else []) + [kie.upload(ROOM)]
+    note = " Reference images: hand photos (skin, nails), the gold bracelet, " + ("the LGXNDS product reference sheet (the big front view is the real label; small views = side, top, bottom shape), a close-up of the real front label, " if s["tub"] else "") + "and the kitchen (match it)."
     if Path(LOOK).exists():
         refs.append(kie.upload(LOOK)); note += " The last reference image is an approved frame from this same video: match its light, kitchen, hand and bracelet exactly."
     prompt = "Vertical 9:16 photo, a single frame from a phone-shot UGC video. " + text(s) + note
