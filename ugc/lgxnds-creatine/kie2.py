@@ -9,7 +9,7 @@ import kie
 
 V = json.loads(Path("shots_v2.json").read_text())
 S = {s["id"]: s for s in V["shots"]}
-HAND = ["refs/v2/hand_dorsal.png", "refs/v2/hand_palm.png"]
+HAND = ["refs/v2/hand_french_bare.png"]  # Grace bare hand, French tips (Ralph 2026-10-19)
 BRACELET, TUB, ROOM = "refs/v2/bracelet_crop.png", "refs/crop_tub_hi.png", "refs/v2/kitchen_ralph.jpg"
 LOOK = "stills_v2/look_ref.png"   # copy of the approved test still
 

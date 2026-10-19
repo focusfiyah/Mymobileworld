@@ -35,10 +35,25 @@ def fit(img):
     return (H if H is not None and inl.sum() >= 20 else None), int(inl.sum()) if inl is not None else 0
 
 
+_EDGE = {}
+
+
 def paste(img, H):
     h, w = img.shape[:2]
     real = cv2.warpPerspective(REAL_AA, H, (w, h), flags=cv2.INTER_LANCZOS4)
-    m = cv2.warpPerspective(CORE, H, (w, h)).astype(np.float32) / 255
+    m = cv2.warpPerspective(CORE, H, (w, h))
+    m = cv2.erode(m, np.ones((7, 7), np.uint8)).astype(np.float32) / 255
+    # 2026-10-19 (v2 still): the real print ran past the AI tub's right edge. Find that edge (strongest vertical line near the
+    # mask's right end, inside the mask's rows) once per homography and keep the paste 4 px left of it.
+    key = H.tobytes()
+    if key not in _EDGE:
+        ys, xs = np.where(m > 0.5); y0, y1, xr = ys.min(), ys.max(), xs.max()
+        g = cv2.GaussianBlur(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY).astype(np.float32), (0, 0), 1.5)
+        med = np.median(np.abs(np.diff(g[y0:y1, :], axis=1)), 0)   # the tub edge is a line on EVERY row; letter edges are not
+        lo, hi = max(0, xr - 80), min(len(med), xr + 30)
+        hits = [x for x in range(lo, hi) if med[x] > 2.5]
+        _EDGE[key] = hits[-1] if hits else w
+    m[:, max(0, _EDGE[key] - 4):] = 0
     dark = cv2.morphologyEx((cv2.cvtColor(img, cv2.COLOR_BGR2HSV)[..., 2] < 70).astype(np.uint8), cv2.MORPH_OPEN, np.ones((31, 31), np.uint8))
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)   # the hand always stays in front of the label
     skin = ((hsv[..., 0] < 25) & (hsv[..., 1] > 60) & (hsv[..., 2] > 40) & (hsv[..., 2] < 200)).astype(np.uint8)
@@ -48,7 +63,8 @@ def paste(img, H):
     m = cv2.GaussianBlur(m, (0, 0), 3.0)[..., None]
     # light: paper brightness of the AI tub vs the real print, text removed by a median filter, so the curved tub's shading
     # (darker toward its edges) carries onto the pasted print and no pale box shows at the tub's sides
-    pap = lambda x: cv2.GaussianBlur(cv2.medianBlur(cv2.cvtColor(x, cv2.COLOR_BGR2GRAY), 21).astype(np.float32), (0, 0), 6)
+    # 2026-10-19: close (remove dark ink) BEFORE the median, or the AI's big letters leave a grey ghost glow around the real print
+    pap = lambda x: cv2.GaussianBlur(cv2.medianBlur(cv2.morphologyEx(cv2.cvtColor(x, cv2.COLOR_BGR2GRAY), cv2.MORPH_CLOSE, np.ones((31, 31), np.uint8)), 21).astype(np.float32), (0, 0), 6)
     lum = np.clip(pap(img) / (pap(real) + 1), 0.6, 1.25)[..., None]
     out = real.astype(np.float32) * lum
     out = np.clip(out, 0, 255)
