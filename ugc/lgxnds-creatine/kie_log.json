@@ -923,5 +923,139 @@
    ]
   },
   "costTime": 119
+ },
+ {
+  "t": "2026-10-19 01:23:00",
+  "submitted": "c97d6d89f05dda975c19a37b84973181",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. On the marble island: the LGXNDS tub with its white lid"
+ },
+ {
+  "t": "2026-10-19 01:23:02",
+  "submitted": "6010d4d0dce05ba9739b36d9f855b56a",
+  "prompt": "The hand slowly tilts the scoop a few degrees so the fine powder slides a little like silk; the camera pushes in slowly "
+ },
+ {
+  "t": "2026-10-19 01:23:02",
+  "submitted": "797513b12a66c1d63c6e991264c5299c",
+  "prompt": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few "
+ },
+ {
+  "t": "2026-10-19 01:23:02",
+  "submitted": "3b4b6407e773ee320e3833e5e082301e",
+  "prompt": "The hand presses the white lid down with its fingertips, then lifts a little and rests on the lid. The tub never moves. "
+ },
+ {
+  "t": "2026-10-19 01:23:02",
+  "submitted": "179a37bb8b16b2053eeee03fb811a604",
+  "prompt": "The hand lowers the tub straight down into the open bag and lets go; the label keeps facing the camera, the tub never tu"
+ },
+ {
+  "t": "2026-10-19 01:24:03",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. On the marble island: the LGXNDS tub with its white lid on, front label facing the camera squarely, centred; to its right a white ceramic mug of black coffee; to its left a clear plastic shaker bottle half full of water. All three fully in frame, the kitchen softly blurred behind. No hand and no people anywhere in the frame. The tub is exactly the LGXNDS tub in the tub reference image: a short wide round WHITE plastic tub with a plain white screw lid, two vertical teal stripes and a vertical teal 'LGXNDS' wordmark on the left of the label, big black bold 'CREATINE' over black 'MONOHYDRATE', a solid teal band reading '100% PURE MICRONIZED' in white, three small black lines of text under it, three small teal round icons, a small teal-outlined '5G' badge at the top right, and 'DIETARY SUPPLEMENT | NET: 150G (5.29OZ) | 30 SERVINGS' along the bottom. Shape (see the product reference sheet: the big front view is the REAL label, the small views show the tub from the side, top and below): about as tall as it is wide, the lid is the top quarter, rounded bottom edge. The label wraps around the curved tub like a real printed label: the print curves with the tub and stays well inside its left and right edges, nothing printed past the edge, nothing peeling or floating. It keeps this exact shape, colours and layout in every frame: no extra text, no label drift, no other colours. Setting: the kitchen in the kitchen reference image: a white marble island with soft grey veining, white shaker cabinets with brass handles, a brass faucet over a black sink, white dome pendant lights with brass fittings, light oak floor and a few green plants, softly blurred behind the counter. Bright, clean, neutral daylight (no yellow or golden tint). Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. No on-screen text or captions. Reference images: hand photos (skin, nails), the gold bracelet, the LGXNDS product reference sheet (the big front view is the real label; small views = side, top, bottom shape), a close-up of the real front label, and the kitchen (match it). The last reference image is an approved frame from this same video: match its light, kitchen, hand and bracelet exactly.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792370219321-exn177qo3di.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368170228-fphcu3lu48a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368172792-w8yqnicdijf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368491072-1hqtag0w0m7.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c97d6d89f05dda975c19a37b84973181",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c97d6d89f05dda975c19a37b84973181_0_1792373035.jpeg"
+   ]
+  },
+  "costTime": 56
+ },
+ {
+  "t": "2026-10-19 01:24:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few degrees around the tub, very slow and smooth. The tub stays still. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792372979695-d267gu7ch7.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "797513b12a66c1d63c6e991264c5299c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792373053383-8uyzvg1de4p.mp4"
+   ]
+  },
+  "costTime": 72
+ },
+ {
+  "t": "2026-10-19 01:24:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand presses the white lid down with its fingertips, then lifts a little and rests on the lid. The tub never moves. Locked-off camera. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792372979818-oamjs6cc5e.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "last_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792372979818-oamjs6cc5e.png"
+   }
+  },
+  "taskId": "3b4b6407e773ee320e3833e5e082301e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792373066653-odi6tashdc.mp4"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-10-19 01:24:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand lowers the tub straight down into the open bag and lets go; the label keeps facing the camera, the tub never turns. Slight handheld camera. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792372979872-d1lcitcp2yf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "179a37bb8b16b2053eeee03fb811a604",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792373085428-ozu6co6hq19.mp4"
+   ]
+  },
+  "costTime": 104
+ },
+ {
+  "t": "2026-10-19 01:24:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand slowly tilts the scoop a few degrees so the fine powder slides a little like silk; the camera pushes in slowly and gently. Nothing else moves. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792372979834-04gpxqsbv5fd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6010d4d0dce05ba9739b36d9f855b56a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792373090141-yrt1dl8euir.mp4"
+   ]
+  },
+  "costTime": 109
  }
 ]

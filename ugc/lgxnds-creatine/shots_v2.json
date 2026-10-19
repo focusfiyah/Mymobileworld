@@ -26,7 +26,11 @@
    "powder": true,
    "hand": true,
    "still": "Macro close-up over the marble island: the hand holds a small white scoop heaped with fine bright-white powder near the lens, the powder surface soft and silky. No tub, no labels, no other products.",
-   "video": "The hand slowly tilts the scoop a few degrees so the fine powder slides a little like silk; the camera pushes in slowly and gently. Nothing else moves."
+   "video": "The hand slowly tilts the scoop a few degrees so the fine powder slides a little like silk; the camera pushes in slowly and gently. Nothing else moves.",
+   "t": [
+    0.0,
+    1.7
+   ]
   },
   {
    "id": "S2",
@@ -37,7 +41,11 @@
    "powder": true,
    "hand": true,
    "still": "Close-up on the marble island: a plain clear unbranded water bottle full of clear water stands with its cap off; the hand holds a small white scoop of fine white powder just above the open mouth of the bottle. No tub, no labels, no other products.",
-   "video": "The hand tips the scoop and the fine white powder pours into the water in one smooth stream, then the hand takes the bottle and gives it two gentle swirls; the powder disperses into a faint haze and the water ends clear and see-through, with no clumps, no pile at the bottom and never milky. Slight handheld camera."
+   "video": "The hand tips the scoop and the fine white powder pours into the water in one smooth stream, then the hand takes the bottle and gives it two gentle swirls; the powder disperses into a faint haze and the water ends clear and see-through, with no clumps, no pile at the bottom and never milky. Slight handheld camera.",
+   "t": [
+    1.7,
+    6.52
+   ]
   },
   {
    "id": "S3",
@@ -48,29 +56,41 @@
    "powder": true,
    "hand": true,
    "still": "The LGXNDS tub stands on the marble island, front label facing the camera, the lid off and resting beside it; the tub is full of fine white powder with the white scoop lying on top; the hand enters from the top right edge and its fingertips hold the scoop handle. The tub is the hero, the hand small.",
-   "video": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few degrees around the tub, very slow and smooth. The tub stays still."
+   "video": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few degrees around the tub, very slow and smooth. The tub stays still.",
+   "t": [
+    6.52,
+    11.26
+   ]
   },
   {
    "id": "S4",
    "vo": "No flavor, so it goes in your water, your shake, or your morning coffee.",
-   "model": "seedance",
+   "model": "kling_mcp",
    "dur": 4,
    "tub": true,
-   "powder": true,
-   "hand": true,
-   "still": "On the marble island: a white ceramic mug of black coffee in the foreground right; behind it on the left, the LGXNDS tub with its front label facing the camera squarely, fully visible and not hidden by the mug; the hand enters from the top right edge holding the white scoop of fine white powder over the mug.",
-   "video": "The hand tips the scoop and the powder falls into the coffee and disappears; the camera pushes in slowly. The tub in the background stays still."
+   "powder": false,
+   "hand": false,
+   "still": "On the marble island: the LGXNDS tub with its white lid on, front label facing the camera squarely, centred; to its right a white ceramic mug of black coffee; to its left a clear plastic shaker bottle half full of water. All three fully in frame, the kitchen softly blurred behind.",
+   "video": "Only the camera moves: a slow smooth dolly arc from left to right around the three items, keeping the tub's front label facing the camera and sharp. No hand, no people, nothing else moves, the coffee surface stays still.",
+   "t": [
+    11.26,
+    15.2
+   ]
   },
   {
    "id": "S5",
    "vo": "It supports strength, power and workout recovery.",
-   "model": "kling",
+   "model": "kling_mcp",
    "dur": 4,
    "tub": true,
    "powder": false,
    "hand": false,
    "still": "The LGXNDS tub alone on the marble island with its white lid on, front label facing the camera, centred, seen straight on at counter height, the whole tub in frame, the kitchen softly blurred behind. No hand, no people.",
-   "video": "Only the camera moves: a slow, smooth push-in toward the tub's front label. No hand, no people, nothing else moves."
+   "video": "Only the camera moves: a slow, smooth push-in toward the tub's front label. No hand, no people, nothing else moves.",
+   "t": [
+    15.2,
+    18.16
+   ]
   },
   {
    "id": "S6",
@@ -81,7 +101,11 @@
    "powder": false,
    "hand": true,
    "still": "An open black gym duffel bag on the marble island; the hand holds the LGXNDS tub, lid on, front label to the camera, just above the open bag.",
-   "video": "The hand lowers the tub straight down into the open bag and lets go; the label keeps facing the camera, the tub never turns. Slight handheld camera."
+   "video": "The hand lowers the tub straight down into the open bag and lets go; the label keeps facing the camera, the tub never turns. Slight handheld camera.",
+   "t": [
+    18.16,
+    21.12
+   ]
   },
   {
    "id": "S7",
@@ -93,7 +117,11 @@
    "hand": true,
    "last_frame_same": true,
    "still": "The LGXNDS tub on the marble island, lid on, front label facing the camera squarely, seen from slightly above at counter height, the whole tub fully in frame with space on both sides (the tub is about half the frame width); the hand enters from the top right edge and rests its fingertips on the white lid.",
-   "video": "The hand presses the white lid down with its fingertips, then lifts a little and rests on the lid. The tub never moves. Locked-off camera."
+   "video": "The hand presses the white lid down with its fingertips, then lifts a little and rests on the lid. The tub never moves. Locked-off camera.",
+   "t": [
+    21.12,
+    25.48
+   ]
   }
  ]
 }
