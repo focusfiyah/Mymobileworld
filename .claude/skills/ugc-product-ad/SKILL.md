@@ -54,6 +54,8 @@ and ask questions, do not assume, because that's how we waste time and money."
 - **Ambiguous instruction → one short question, never a guess.** "To clarify, shorten the nails" was read as
   "even shorter" and two unrequested edits ($0.18) were run; he had liked the version already made.
 - **Free fixes first.** Blur a wrong label line, crop, retime, re-cut in ffmpeg/PIL before any reroll.
+- **Product reference sheet first (Ralph 2026-10-19):** before any product still, build a free sheet (real front label big +
+  side/top/bottom shape views) and pass it on every product still. Details: `grace/PLAYBOOK.md` §6.
 - **Confirm the real product before the first paid still:** applicator/top, cap, label, size. Ask for a real
   photo if the reference is a generated sheet. The Carpe sheet showed a ribbed white dome; the real stick has an
   orange slotted top → 5 stills redone (~$0.54).
