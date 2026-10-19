@@ -1,0 +1,582 @@
+[
+ {
+  "t": "2026-10-14 05:26:58",
+  "submitted": "31977d3a167494891290497113ae6f77",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close mid shot of a pantry shelf at eye level. The blac"
+ },
+ {
+  "t": "2026-10-14 05:28:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close mid shot of a pantry shelf at eye level. The black SoFyre bag stands upright on the shelf filling the left two thirds of the frame, front facing the camera, its zip top open. Grace's hand enters from the right frame edge and pinches one white pouch by its top edge between thumb and index finger, lifting it out of the open bag. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright tidy pantry in daylight, white shelves with jars, cereal boxes and canned food, clean neutral white balance, real phone camera look, sharp focus, no text on food packaging, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955610044-k81pvygeiog.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955612001-bcd7sp8k4hd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955614384-favau0c95no.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "31977d3a167494891290497113ae6f77",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/31977d3a167494891290497113ae6f77_0_1791955683.jpeg"
+   ]
+  },
+  "costTime": 66
+ },
+ {
+  "t": "2026-10-14 05:29:23",
+  "submitted": "0acd8e5781c1930886871d873dafe3c5",
+  "prompt": "From the first frame the hand lifts the white pouch up out of the open bag and swings it toward the camera beside the ba"
+ },
+ {
+  "t": "2026-10-14 05:31:11",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "From the first frame the hand lifts the white pouch up out of the open bag and swings it toward the camera beside the bag; at the same time the camera pushes in and arcs a little to the left; the bag stays upright and unchanged with its front facing the camera the whole time. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955761343-k5v5s8chjpi.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "0acd8e5781c1930886871d873dafe3c5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791955869082-km306nm8uip.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-14 05:31:41",
+  "submitted": "9e8aa4acf61525f3fdde5ea0382664fa",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera at ground level by the closed white garage d"
+ },
+ {
+  "t": "2026-10-14 05:32:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera at ground level by the closed white garage door of a house on a cold autumn evening, frost on the grass and leaves on the driveway; a small grey field mouse sits on the concrete near the narrow gap under the garage door.  Suburban house exterior at early evening on a cold autumn day, frost on the lawn, fallen leaves, soft blue light, warm porch light, bright and clear, not dark or moody, real phone camera look, no text, no watermark.",
+    "image_input": [],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9e8aa4acf61525f3fdde5ea0382664fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9e8aa4acf61525f3fdde5ea0382664fa_0_1791955925.jpeg"
+   ]
+  },
+  "costTime": 24
+ },
+ {
+  "t": "2026-10-14 05:32:08",
+  "submitted": "35aed6cf4d4f9e06e4e7530e471825f7",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of the corner of a white pantry shelf: a handf"
+ },
+ {
+  "t": "2026-10-14 05:32:46",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of the corner of a white pantry shelf: a handful of tiny dark mouse droppings scattered on the shelf next to the chewed bottom corner of a paper flour bag and a cereal box. Bright, clean, realistic, not gory.  Bright tidy pantry in daylight, white shelves with jars, cereal boxes and canned food, clean neutral white balance, real phone camera look, sharp focus, no text on food packaging, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "35aed6cf4d4f9e06e4e7530e471825f7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/35aed6cf4d4f9e06e4e7530e471825f7_0_1791955964.jpeg"
+   ]
+  },
+  "costTime": 38
+ },
+ {
+  "t": "2026-10-14 05:32:47",
+  "submitted": "72fdb5c75a754dfc4a006c9e5b95a37d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Pantry floor-level shelf corner behind canned food; Gra"
+ },
+ {
+  "t": "2026-10-14 05:33:44",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Pantry floor-level shelf corner behind canned food; Grace's hand enters from the right frame edge holding one white pouch pinched by its edge, about to set it down in the back corner. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright tidy pantry in daylight, white shelves with jars, cereal boxes and canned food, clean neutral white balance, real phone camera look, sharp focus, no text on food packaging, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955610044-k81pvygeiog.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "72fdb5c75a754dfc4a006c9e5b95a37d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/72fdb5c75a754dfc4a006c9e5b95a37d_0_1791956021.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-10-14 05:33:45",
+  "submitted": "7251ea2134ca8e7f37e72f1140cb8d0a",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Open cabinet under a kitchen sink: white pipes, a few c"
+ },
+ {
+  "t": "2026-10-14 05:35:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Open cabinet under a kitchen sink: white pipes, a few cleaning bottles with no labels, clean cabinet floor. Grace's hand enters from the bottom frame edge pinching one white pouch, placing it on the cabinet floor beside the pipe. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright modern kitchen in daylight, white cabinets, light wood, clean neutral white balance, real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955610044-k81pvygeiog.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7251ea2134ca8e7f37e72f1140cb8d0a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7251ea2134ca8e7f37e72f1140cb8d0a_0_1791956095.jpeg"
+   ]
+  },
+  "costTime": 70
+ },
+ {
+  "t": "2026-10-14 05:35:02",
+  "submitted": "53e16399983a5c531582ed0446157a87",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Garage shelf at waist height near the side door, the pa"
+ },
+ {
+  "t": "2026-10-14 05:35:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Garage shelf at waist height near the side door, the parked silver car soft in the background. Grace's hand enters from the right frame edge setting one white pouch on the shelf. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Clean bright two-car garage in daylight, white walls, metal shelving, a parked silver car, clean neutral light, real phone camera look, sharp focus, no text, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955610044-k81pvygeiog.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "53e16399983a5c531582ed0446157a87",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/53e16399983a5c531582ed0446157a87_0_1791956144.jpeg"
+   ]
+  },
+  "costTime": 42
+ },
+ {
+  "t": "2026-10-14 05:35:48",
+  "submitted": "6534cfb2ed3cbcbfba88694ea971a50f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Kitchen counter at a low three-quarter angle: the black"
+ },
+ {
+  "t": "2026-10-14 05:36:39",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Kitchen counter at a low three-quarter angle: the black SoFyre bag stands upright, front facing the camera; in front of it lie two white pouches, a fresh green mint sprig and three cinnamon sticks. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright modern kitchen in daylight, white cabinets, light wood, clean neutral white balance, real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955612001-bcd7sp8k4hd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955614384-favau0c95no.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6534cfb2ed3cbcbfba88694ea971a50f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6534cfb2ed3cbcbfba88694ea971a50f_0_1791956196.jpeg"
+   ]
+  },
+  "costTime": 49
+ },
+ {
+  "t": "2026-10-14 05:36:40",
+  "submitted": "6bc46157bc481cded8a6ee70a5c1c437",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Hallway corner by the wall: one white pouch tucked on t"
+ },
+ {
+  "t": "2026-10-14 05:37:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Hallway corner by the wall: one white pouch tucked on the floor behind the potted plant at the baseboard; a friendly golden retriever walks along the hallway toward the camera, past the plant. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright home hallway in daylight, white walls, light wood floor, a potted plant by the wall, clean neutral light, real phone camera look, no text, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6bc46157bc481cded8a6ee70a5c1c437",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6bc46157bc481cded8a6ee70a5c1c437_0_1791956232.jpeg"
+   ]
+  },
+  "costTime": 32
+ },
+ {
+  "t": "2026-10-14 05:37:19",
+  "submitted": "d5984ed4079bc71a3006f2d225a1293f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. An open kitchen drawer seen from above at an angle, nea"
+ },
+ {
+  "t": "2026-10-14 05:38:04",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. An open kitchen drawer seen from above at an angle, neat utensils, one white pouch lying in the back corner of the drawer; Grace's hand at the front edge of the drawer, fingers curled around the drawer front. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright modern kitchen in daylight, white cabinets, light wood, clean neutral white balance, real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955610044-k81pvygeiog.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d5984ed4079bc71a3006f2d225a1293f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/d5984ed4079bc71a3006f2d225a1293f_0_1791956281.jpeg"
+   ]
+  },
+  "costTime": 42
+ },
+ {
+  "t": "2026-10-14 05:38:05",
+  "submitted": "6f2ba4b49f292a331e60ee96f36eca3a",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright kitchen counter, straight-on: the black SoFyre b"
+ },
+ {
+  "t": "2026-10-14 05:39:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Bright kitchen counter, straight-on: the black SoFyre bag stands upright at the back, front facing the camera; in front of it exactly twelve white pouches lie flat in two neat rows of six. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Bright modern kitchen in daylight, white cabinets, light wood, clean neutral white balance, real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955612001-bcd7sp8k4hd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955614384-favau0c95no.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955616435-23x1vq70l1f.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6f2ba4b49f292a331e60ee96f36eca3a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6f2ba4b49f292a331e60ee96f36eca3a_0_1791956358.jpeg"
+   ]
+  },
+  "costTime": 74
+ },
+ {
+  "t": "2026-10-14 05:39:22",
+  "submitted": "50cd47741dbde0f1a23494d196f9f074",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Kitchen island by a bright window with autumn trees out"
+ },
+ {
+  "t": "2026-10-14 05:40:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Kitchen island by a bright window with autumn trees outside: ONE black SoFyre bag stands upright, front facing the camera, a few white pouches lying beside it. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Bright modern kitchen in daylight, white cabinets, light wood, clean neutral white balance, real phone camera look, sharp focus, no text, no logos except the SoFyre bag's own print, no watermark, nothing at any edge of the frame except what the shot says.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955612001-bcd7sp8k4hd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791955614384-favau0c95no.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "50cd47741dbde0f1a23494d196f9f074",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/50cd47741dbde0f1a23494d196f9f074_0_1791956403.jpeg"
+   ]
+  },
+  "costTime": 40
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "a9a609048509227b9dd8b9ca7249a419",
+  "prompt": "The small grey mouse scurries fast along the bottom of the garage door and squeezes under the gap into the garage; the l"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "0a401df5ff34acd8cabd669fa2ea8ef9",
+  "prompt": "The golden retriever trots past the plant and the pouch toward the camera without touching the pouch while the low camer"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "b6e5e223e4550aff60c3a515af2aa1c3",
+  "prompt": "Handheld camera walks into the pantry and pushes in fast to the shelf corner, then eases to a stop on the droppings; not"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "ea7573660f37fd53f5ced4c89aa59f7c",
+  "prompt": "The hand pushes the drawer closed with its fingertips on the drawer front and lets go; the camera rises and pushes in ov"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "5d5bd11fd4abb2a00ef88b52648acbc1",
+  "prompt": "The hand sets the white pouch on the shelf and leaves frame; the camera trucks left along the shelf and swings around to"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "f41295a2a625fd0efd01760e3315cbb2",
+  "prompt": "Fast smooth orbit of the camera around the front of the bag from left to right with a slight rise, only the camera moves"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "a11ea6b9c490a17070c786a7e129be90",
+  "prompt": "The hand presses the white pouch down onto the cabinet floor beside the pipe, lets go and pulls back out of frame at the"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "63845faee0bf52eaf71b7f602617ccc9",
+  "prompt": "The camera starts low over the two rows of pouches and cranes up and forward to the bag front in one smooth move; nothin"
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "c1f6d7c3f90a384fac0c0e880ee83bef",
+  "prompt": "Smooth arc-and-push dolly around the bag from the right until its front fills the frame, autumn leaves blowing past the "
+ },
+ {
+  "t": "2026-10-14 05:42:47",
+  "submitted": "93ba409cf465d1e78ed1968c1c16dc99",
+  "prompt": "The camera moves forward with the hand as it reaches in and sets the white pouch down flat in the back corner behind the"
+ },
+ {
+  "t": "2026-10-14 05:44:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The small grey mouse scurries fast along the bottom of the garage door and squeezes under the gap into the garage; the low camera dollies quickly toward the door following it, fallen leaves skittering in the wind. One mouse only.  Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956541444-st1ij5pmdm8.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "a9a609048509227b9dd8b9ca7249a419",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956672511-1j1pmtkx3lv.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-14 05:44:35",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera starts low over the two rows of pouches and cranes up and forward to the bag front in one smooth move; nothing on the counter moves, the count of pouches never changes. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956561835-w5vdajrzhr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "63845faee0bf52eaf71b7f602617ccc9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956670647-1puc2ig85tf.mp4"
+   ]
+  },
+  "costTime": 104
+ },
+ {
+  "t": "2026-10-14 05:44:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand presses the white pouch down onto the cabinet floor beside the pipe, lets go and pulls back out of frame at the bottom edge; the camera tilts down slightly and eases back. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956550544-u5bgra8n2q8.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a11ea6b9c490a17070c786a7e129be90",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956679005-zxfuwxjqtxa.mp4"
+   ]
+  },
+  "costTime": 112
+ },
+ {
+  "t": "2026-10-14 05:44:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The camera moves forward with the hand as it reaches in and sets the white pouch down flat in the back corner behind the cans, lets go and pulls out of frame to the right; the camera keeps pushing in to the pouch. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956548661-h60pt6l3h1.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "93ba409cf465d1e78ed1968c1c16dc99",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956677432-eznqwu5o9tm.mp4"
+   ]
+  },
+  "costTime": 111
+ },
+ {
+  "t": "2026-10-14 05:45:00",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Handheld camera walks into the pantry and pushes in fast to the shelf corner, then eases to a stop on the droppings; nothing on the shelf moves.  Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956546496-iloeiivzt79.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b6e5e223e4550aff60c3a515af2aa1c3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956697294-s28hul414ye.mp4"
+   ]
+  },
+  "costTime": 131
+ },
+ {
+  "t": "2026-10-14 05:45:00",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand sets the white pouch on the shelf and leaves frame; the camera trucks left along the shelf and swings around toward the parked silver car in one smooth move. The car does not move. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956552820-r4lhyct522n.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "5d5bd11fd4abb2a00ef88b52648acbc1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956696871-18xysbpgflr.mp4"
+   ]
+  },
+  "costTime": 131
+ },
+ {
+  "t": "2026-10-14 05:45:13",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Smooth arc-and-push dolly around the bag from the right until its front fills the frame, autumn leaves blowing past the window behind; the bag stays upright and unchanged. One bag only. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956564856-dwkgl9zgeh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "c1f6d7c3f90a384fac0c0e880ee83bef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956698128-bw6awdj3h74.mp4"
+   ]
+  },
+  "costTime": 143
+ },
+ {
+  "t": "2026-10-14 05:45:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Fast smooth orbit of the camera around the front of the bag from left to right with a slight rise, only the camera moves, the bag stays upright facing the camera, nothing on the counter moves. The SoFyre bag is the real product from the bag reference photos: a matte BLACK stand-up zip pouch bag, small white serif word SOFYRE at the top center, small white '12 POUCHES' at the top right, big bold white word RODENT, big bold lime-green word REPELLENT, white word POUCHES, below them a white geometric line-art mouse face, a row of four small lime-green circle icons, and a light grey band with small black text across the bottom. Keep its exact shape, colours and layout; it stands upright and never changes. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956554987-in76wji13i.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "f41295a2a625fd0efd01760e3315cbb2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956705999-un5hqqxo1gl.mp4"
+   ]
+  },
+  "costTime": 140
+ },
+ {
+  "t": "2026-10-14 05:45:25",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand pushes the drawer closed with its fingertips on the drawer front and lets go; the camera rises and pushes in over the closing drawer. The pouch inside stays plain white. The hand is Grace's real hand from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone on one finger and her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the wrist visible, no forearm, hand small in the frame, natural relaxed fingers, five fingers, realistic knuckles and skin texture. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956559118-gusbilf5rxb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ea7573660f37fd53f5ced4c89aa59f7c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956719449-xs5wkha1ia8.mp4"
+   ]
+  },
+  "costTime": 153
+ },
+ {
+  "t": "2026-10-14 05:45:31",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The golden retriever trots past the plant and the pouch toward the camera without touching the pouch while the low camera tracks backward ahead of it. One dog only. Each pouch is the real SoFyre pouch from the pouch reference photo: a plain WHITE soft non-woven sachet about the size of a palm, slightly puffy, rectangular, with zig-zag pinked sealed edges and no print. Not a tea bag, not a box, not a packet with writing. Handheld phone camera, smooth natural motion, real speed, every object keeps its exact shape, colour and count in every frame, the black bag never changes its print, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/sofyre-rodent-pouches/1791956556871-nw9dph2782p.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "0a401df5ff34acd8cabd669fa2ea8ef9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1791956722913-ofsxg2rdj2m.mp4"
+   ]
+  },
+  "costTime": 160
+ }
+]
