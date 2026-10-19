@@ -1,0 +1,37 @@
+{
+ "product_block": "The product is the Shnuggle Toddler Bath, copied exactly from reference image 1 (real product photo) and reference image 2 (six real views of the same tub): a white plastic toddler bath tub with a smooth matte finish, an egg-shaped rounded body about 36 cm tall on a 39 x 54 cm base, a wide rolled rim that rises higher at the back, a light grey foam backrest panel inside the back wall with a faint embossed shnuggle logo, a small embossed MAX fill-line mark low on the inside wall, a light grey oval logo badge reading shnuggle on the front outside, a contoured inside floor with a raised rounded seat bump and a grippy pattern of small thin light grey circle outlines, and small light grey foot pads under the base. Copy its shape, proportions, colours, logo badge and backrest exactly; the tub is shown alone and stays empty and dry.",
+ "nothing_added": "Do not add anything to the product or around it: no plug, no knob, no drain stopper, no handle, no seat insert, no water, no bubbles, no toys, no towel, no bottles, no stickers, no extra text or labels. No people, no hands, no children. Nothing else at any edge of the frame.",
+ "look": "Photorealistic vertical 9:16 smartphone photo of a real home bathroom: pale powder-blue square wall tiles with white grout, light grey stone floor tiles, white fixtures and chrome taps. Bright soft natural daylight from a window, neutral white balance, clean and bright, no yellow or warm cast, no dark or moody shadows, sharp focus on the tub.",
+ "slides": [
+  {
+   "id": "S1",
+   "role": "hook (scale: fits inside the big bath)",
+   "still": "Seen from slightly above at a three-quarter front angle: the toddler tub stands inside an empty full-size white built-in family bathtub, its logo badge facing the camera. The big bathtub around it shows how much smaller the toddler tub is. The toddler tub fills about 40 percent of the frame."
+  },
+  {
+   "id": "S2",
+   "role": "detail (sits on the shower tray)",
+   "still": "The toddler tub stands alone on the white tray of a walk-in shower with a clear glass screen and a chrome shower head, seen at a three-quarter angle from standing height. The tub fills about half of the frame."
+  },
+  {
+   "id": "S3",
+   "role": "detail (front: backrest + logo)",
+   "still": "Eye-level straight-on front view of the toddler tub standing on the bathroom floor, the grey foam backrest and the front logo badge both centred and clearly visible, as in reference image 1. The tub fills about 60 percent of the frame."
+  },
+  {
+   "id": "S4",
+   "role": "detail (inside: seat bump, grippy floor, backrest)",
+   "still": "Looking straight down into the empty toddler tub from above, as in the top view of reference image 2: the contoured inside floor with its raised rounded seat bump, the grippy inside floor printed with small thin light grey circle outlines in rings, with concentric rings of tiny circles at the centre, exactly as in reference image 3 (pattern only), and the grey foam backrest at the top of the frame. The tub fills most of the frame; a little of the floor tiles shows around it."
+  },
+  {
+   "id": "S5",
+   "role": "proof (side profile: shape + grip feet)",
+   "still": "Low side-profile view of the toddler tub standing on the bathroom floor, as in the side view of reference image 2: the rim sloping up toward the high rounded back, and the small light grey foot pads under the base visible at floor level. The tub fills about half of the frame."
+  },
+  {
+   "id": "S6",
+   "role": "close (hero in the bath)",
+   "still": "A closer three-quarter view of the toddler tub standing inside the empty white family bathtub, seen from the bath's side at kneeling height, the logo badge and the grey backrest both visible, chrome taps softly out of focus behind. The tub fills about 55 percent of the frame."
+  }
+ ]
+}
