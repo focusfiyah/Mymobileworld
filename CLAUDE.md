@@ -41,6 +41,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Script checklist (standard, Ralph 2026-10-01):** coach hooks (spoken + on-screen text options) → humanizer → plan; **no text overlay in a cut unless Ralph says yes for that ad (Ralph 2026-10-05)**; after
   the cut, `tiktok.py compare` vs the viral reference. Details: `grace/PLAYBOOK.md` §4, `ugc-product-ad` skill.
 - **AI finish (Ralph 2026-10-07):** every AI-generated video ends with `ugc-product-ad/scripts/ai_finish.sh` (20% grain, 20% sharpness, saturation down a little; source and caveats in `grace/PLAYBOOK.md` §6). Also for Day One AI / personal AI video.
+- **Shot mix + Kling (Ralph 2026-10-18, standing):** every plan marks each shot HAND or HAND-FREE; a third to half hand-free, on the place/product lines. Hand-free dollies go to Kling first (Ralph pays for it, ~688 credits, ~32 per 5s clip; query credits before and after and report the cost), tested on ONE clip against Seedance Mini before the batch; Seedance on Kie is the paid fallback (ask first). Kling hands only if the hand stays fixed at the frame edge. (`grace/PLAYBOOK.md` §6)
 - **Overlays are premium quality, never simple or flat (Ralph 2026-10-06):** 3D-style emojis (Microsoft Fluent 3D, free) or sharp high-res images, never flat clip-art, never enlarged past ~1.2x source, checked at full size; if nothing free fits, ask with the cost of a generated one. Details: `grace/PLAYBOOK.md` §4.
 - Keep each job README's `Status:` line current (done / next / cost) so "continue the X ad" is one file read.
 
