@@ -1,0 +1,146 @@
+{
+ "identity_block": "The main player's hands are Grace's real hands from the hand reference photo: warm brown skin, square medium-length nails painted pink with crisp white French tips, her small gold ring with a clear heart-shaped stone and her silver crown-style engagement ring on the ring finger. Every other player's hands also have warm brown skin (medium to deep brown, never pale or light). Every hand enters from the frame edge with the whole wrist visible, five fingers, realistic knuckles and skin texture, hands grip the cards they hold.",
+ "box_block": "The Throw Hands box is the real box from the box reference photo: a tall purple card-game box with a hanging tab, big white bold 'THROW HANDS' logo, three cartoon hands (a fist at the top with a green sleeve, an open flat hand bottom left with a blue sleeve, a two-finger peace-sign hand bottom right with an orange sleeve), a white tag reading '60 seconds of CHAOS!', small W&G Games logo top left. Keep the exact artwork, colours and lettering; do not invent any text.",
+ "cards_block": "The cards are the real Throw Hands cards from the card reference photos: white playing cards with rounded corners, each with ONE big cartoon hand symbol (a closed fist for rock, a flat open hand for paper, or a two-finger peace sign for scissors) in a soft pastel circle, small matching symbols in the corners, no words on the face; card backs are purple with the white Throw Hands logo.",
+ "scene": "Bright daylight family living room, a warm medium-brown wood dining table seen from straight above or a high angle, soft even window light, bright clean neutral colours (no dark, moody or yellow grade), real phone camera look, sharp focus, no text overlay, no logos except the real box art, no watermark.",
+ "video_suffix": "Handheld phone camera, smooth natural motion, real speed, the box art and card symbols keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no extra hands, every hand keeps its exact skin tone from the first frame, no text.",
+ "voice": {
+  "name": "Grace B",
+  "voice_id": "bGrsdLmwBbYUgHRuMFOI"
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "hand": true,
+   "box": true,
+   "cards": false,
+   "dur": 4,
+   "vo": "You know that moment when everybody at game night is on their phone?",
+   "still": "High angle over the wood table. In the sharp foreground the real Throw Hands box stands upright, unopened, filling the lower third. Around the table edges four pairs of hands each hold a smartphone and scroll, nobody touching the box. No faces.",
+   "video": "The hands keep scrolling and tapping their phones, one thumb swipes up; slow camera push-in toward the box, which stays sharp, still and identical.",
+   "t": [
+    0.0,
+    3.4
+   ]
+  },
+  {
+   "id": "S2",
+   "hand": true,
+   "box": false,
+   "cards": false,
+   "dur": 4,
+   "vo": "Or the game drags on so long the kids give up.",
+   "still": "Overhead on the wood table: a plain unbranded board game with many little pieces left mid-game, a paper score sheet. A child's small hand enters from the top edge, wrist visible, resting flat and bored on the table next to the board.",
+   "video": "Grace's ringed hand slowly pushes the board away and slides out of frame, giving up; a few pieces tip over; gentle handheld drift.",
+   "t": [
+    3.4,
+    6.28
+   ]
+  },
+  {
+   "id": "S3",
+   "hand": true,
+   "box": true,
+   "cards": true,
+   "dur": 4,
+   "vo": "This is Throw Hands.",
+   "still": "Close high angle: Grace's hand grips the real Throw Hands box by its sides above the wood table, box front facing the camera, the purple deck partly slid out of the top.",
+   "video": "Her top hand lifts the box a little by its hanging tab and tilts it gently toward the camera while her lower thumb steadies it; the box front art faces the camera and never changes; slow push-in.",
+   "t": [
+    6.28,
+    7.84
+   ],
+   "video_veo": "Her top hand holds the box still by its hanging tab while her lower hand's thumb and fingers grip the box sides; she tilts the whole box gently toward the camera. The box is rigid cardboard: it never bends, stretches, opens or changes shape, and its front art never changes; slow push-in."
+  },
+  {
+   "id": "S4",
+   "hand": true,
+   "box": false,
+   "cards": true,
+   "dur": 5,
+   "test": true,
+   "vo": "It's rock, paper, scissors with cards, and nobody takes turns.",
+   "still": "Straight overhead on the wood table (like a phone held above it): four players' hands from the four frame edges, each holding a small fan of real Throw Hands cards; a messy pile of face-up cards in the centre. Grace's hands at the bottom edge. All four players have brown skin. No faces. Copy the card faces and card backs exactly from the last reference photo (the earlier frame of this same table): brown-and-tan filled cartoon hand symbols in soft pastel circles, never white outline icons; only the skin of the hands changes.",
+   "video": "One player at a time slaps a single card face up onto the centre pile in quick turns around the table: first the hands on the left, then the top, then the right, then Grace's hand at the bottom; each hand goes in, drops one card and pulls back to its own edge; hands never touch or overlap; every hand keeps its own skin colour from the first frame; fast real speed, no slow motion.",
+   "extra_refs": [
+    "old/S4_v1.png"
+   ],
+   "t": [
+    7.84,
+    11.52
+   ]
+  },
+  {
+   "id": "S5",
+   "hand": true,
+   "box": false,
+   "cards": true,
+   "dur": 4,
+   "vo": "Watch the last card and slam down the one that beats it.",
+   "still": "Close overhead on the centre pile: the top card is a scissors card (two-finger peace sign). Grace's hand hovers just above it from the bottom edge, gripping a rock card (closed fist), wrist visible.",
+   "video": "Grace's hand slaps the rock card flat on top of the scissors card; another player's hand from the top edge arrives a split second late and pulls back.",
+   "t": [
+    11.52,
+    14.34
+   ],
+   "video_veo": "Grace's right hand holds one card pinched between her thumb and two fingers by its edges, lifts it and slaps it down flat on top of the pile, then her fingers let go and lift away, leaving the card on the table; another player's hand from the top edge arrives a split second late and pulls back empty. Every card stays rigid, never bends, never sticks to a palm."
+  },
+  {
+   "id": "S6",
+   "hand": true,
+   "box": false,
+   "cards": true,
+   "dur": 4,
+   "vo": "Rock beats scissors, paper beats rock, scissors beats paper.",
+   "still": "Overhead: three real Throw Hands cards lie face up in a row on the wood table, scissors, rock, paper. Grace's index finger enters from the bottom edge touching the first card.",
+   "video": "Her finger taps the scissors card, then the rock card, then the paper card, one after another in rhythm; slow sideways camera slide.",
+   "t": [
+    14.34,
+    17.7
+   ]
+  },
+  {
+   "id": "S7",
+   "hand": true,
+   "box": false,
+   "cards": true,
+   "dur": 4,
+   "vo": "First one out of cards wins.",
+   "still": "Overhead on the pile: Grace's hand holds her last single card above the centre pile, other players' hands still holding several cards at the frame edges.",
+   "video": "She slams her last card down and both her open hands lift up off the table in a quick win; the other hands toss their cards onto the table.",
+   "t": [
+    17.7,
+    19.24
+   ],
+   "video_veo": "Grace's hand pinches her last card by its edges between thumb and fingers, slams it down on the pile and lets go, then both her open empty hands lift up off the table in a quick win; the other players toss their cards onto the table. The card stays on the table after her fingers release it; cards never stick to skin or slide along with a hand."
+  },
+  {
+   "id": "S8",
+   "hand": true,
+   "box": true,
+   "cards": true,
+   "dur": 4,
+   "vo": "The only problem? A round is sixty seconds, so nobody stops at one.",
+   "still": "High angle: hands from three sides scoop the scattered cards back into one stack in the middle of the wood table; the real box lies to one side.",
+   "video": "The hands quickly gather and square up the deck, Grace's hands shuffle it and start dealing cards out to each side again; real speed.",
+   "t": [
+    19.24,
+    23.42
+   ]
+  },
+  {
+   "id": "S9",
+   "hand": true,
+   "box": true,
+   "cards": false,
+   "dur": 6,
+   "vo": "Girls, Thanksgiving is coming. It's two to eight players, so grab one for your house and one for grandma's. It's in the orange cart.",
+   "still": "High angle on a bright Thanksgiving table: a cream runner, small pumpkins and autumn leaves, a pie at the edge. Two identical real Throw Hands boxes stand side by side in the centre. Grace's hand enters from the bottom edge, wrist visible.",
+   "video": "Grace's hand picks up one of the two boxes and slides it toward the camera while the other box stays; slow push-in, hold to the end.",
+   "t": [
+    23.42,
+    30.07
+   ]
+  }
+ ]
+}

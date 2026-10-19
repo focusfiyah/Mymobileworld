@@ -81,6 +81,11 @@ and ask questions, do not assume, because that's how we waste time and money."
   cropped off or smeared; no forehead wrinkles; same outfit and product in every shot; frame-by-frame check wherever
   hands or the product cross the face; nothing resting on thin air (a Vicks still put the box past the vanity
   edge and Ralph caught it: free fix = crop the frame to end at the object's base).
+- **End shot shows ONE product; the voiceover still says to grab more than one.** Why: Ralph, 2026-10-14 (Throw Hands).
+- **Grip check on every still before its clip is paid for:** zoom on each hand that touches an item; it must pinch
+  or hold it (thumb on one side, fingers curled on the other). Fingertips resting on a card, a palm flat on a box,
+  or an item lying loose next to the hand = redo the still first, never "fix it in the video prompt". Why: Throw
+  Hands (2026-10-14): no-grip stills went to clips, the card dragged under her nails, $0.30+ wasted. The video model copies the still's grip.
 - **Script checklist, every ad (standard):** Every script, before the plan goes to Ralph (Ralph 2026-10-01, after the Plant Therapy hook shipped with no on-screen text):
   (1) tiktok-shop-coach: research + 3 hook options (Grace: start from `grace/hooks/HOOKS.md`, cite the id) (spoken line AND on-screen hook text) modeled on proven videos;
   (2) humanizer pass on the script and caption; (3) after the cut, `tiktok.py compare <viral video> <our cut>` and fix

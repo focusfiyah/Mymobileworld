@@ -1,0 +1,1340 @@
+{
+ "loaderData": {
+  "layout": null,
+  "(product_name_slug$)/(product_id)/page": {
+   "basic_info": {
+    "lang": "en",
+    "device_system": "ios",
+    "is_mobile": true,
+    "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Mobile/15E148",
+    "risk_level": "medium",
+    "risk_reasons": "1013",
+    "is_tt_lite": false,
+    "is_lemon8": false,
+    "is_pangle": false,
+    "is_in_tts_commercial_in_app": false,
+    "app_id": 1233,
+    "web_id": "7696302710023439885"
+   },
+   "waf_decision": {
+    "waf_type": 2
+   },
+   "region_info": {
+    "vRegions": {
+     "VREGION_UNKNOWN": "-",
+     "VREGION_CHINAAGGREGATION": "China-Aggregation",
+     "VREGION_CHINAENTERPRISE": "China-Enterprise",
+     "VREGION_CHINABOE": "China-BOE",
+     "VREGION_CHINABOE2": "China-BOE2",
+     "VREGION_USBOE": "US-BOE",
+     "VREGION_SINGAPOREBOE": "Singapore-BOE",
+     "VREGION_CHINANORTH": "China-North",
+     "VREGION_CHINAFINTECH": "China-Fintech",
+     "VREGION_SINGAPORECENTRAL": "Singapore-Central",
+     "VREGION_SINGAPORECOMMON": "Singapore-Common",
+     "VREGION_SINGAPOREEE": "Singapore-EE",
+     "VREGION_SINGAPORESAAS": "Singapore-SaaS",
+     "VREGION_SINGAPOREGAME": "Singapore-Game",
+     "VREGION_ALIYUNNC2": "Aliyun_NC2",
+     "VREGION_USEAST": "US-East",
+     "VREGION_USEASTRED": "US-EastRed",
+     "VREGION_USWEST": "US-West",
+     "VREGION_USCENTRAL": "US-Central",
+     "VREGION_USNORTHEAST": "US-NorthEast",
+     "VREGION_USEE": "US-EE",
+     "VREGION_EUROPEWEST": "Europe-West",
+     "VREGION_EUROPENORTH": "Europe-North",
+     "VREGION_EUROPEEAST": "Europe-East",
+     "VREGION_EUROPECENTRAL": "Europe-Central",
+     "VREGION_EASTERNEUROTT": "EasternEuro-TT",
+     "VREGION_MIDDLEEASTSOUTH": "MiddleEast-South",
+     "VREGION_SOUTHAMERICAEAST": "SouthAmerica-East",
+     "VREGION_AUSTRALIASOUTHEAST": "Australia-SouthEast",
+     "VREGION_ASIAEAST": "Asia-East",
+     "VREGION_ASIASOUTHEAST": "Asia-SouthEast",
+     "VREGION_ASIASOUTH": "Asia-South",
+     "VREGION_ASIANORTHEAST": "Asia-NorthEast",
+     "VREGION_ASIASAAS": "Asia-SaaS",
+     "VREGION_I18NGAME": "I18N-Game",
+     "VREGION_CHINAINFBOE": "China-InfBOE",
+     "VREGION_CHINATEXAS": "China-Texas",
+     "VREGION_SINGAPORECOMPLIANCE": "Singapore-Compliance",
+     "VREGION_USTTP": "US-TTP",
+     "VREGION_CHINACDN": "China-CDN",
+     "VREGION_CHINAEDGE": "China-Edge",
+     "VREGION_CHINAVOLCEAST": "ChinaVolc-East",
+     "VREGION_CHINAVOLCSOUTH": "ChinaVolc-South",
+     "VREGION_CHINAEAST": "China-East",
+     "VREGION_USTTP2": "US-TTP2",
+     "VREGION_EUTTP": "EU-TTP",
+     "VREGION_CHINAPAY": "China-Pay",
+     "VREGION_SINFCHINANORTH": "ChinaSinf-North",
+     "VREGION_SINFCHINAEAST": "ChinaSinf-East",
+     "VREGION_ASIASOUTHEASTBD": "Asia-SouthEastBD",
+     "VREGION_USEASTBD": "US-EastBD",
+     "VREGION_EUCOMPLIANCE2": "EU-Compliance2",
+     "VREGION_EUCOMPLIANCE": "EU-Compliance",
+     "VREGION_IDCOMPLIANCE2": "ID-Compliance2",
+     "VREGION_IDCOMPLIANCE": "ID-Compliance",
+     "VREGION_USCOMPLIANCE": "US-Compliance",
+     "VREGION_EUTTP2": "EU-TTP2",
+     "VREGION_CHINAPAY2": "China-Pay2",
+     "VREGION_ASIACIS": "Asia-CIS",
+     "VREGION_USSOUTHWEST": "US-SouthWest"
+    },
+    "path_region": "US",
+    "ip_region": "US",
+    "sale_region": "US",
+    "real_region": "US",
+    "real_region_source": "SALE_REGION",
+    "current_v_region": "US-TTP",
+    "mssdk_region": "ttp",
+    "timezone_name": "UTC"
+   },
+   "route_info": {
+    "canonical_url": "https://shop.tiktok.com/us/pdp/fast-fun-card-game-for-2-8-players-perfect-for-parties/1732271777612075081",
+    "enter_method": "url_semantic_301",
+    "first_entrance": "product_detail",
+    "first_entrance_position": "",
+    "first_entrance_tt_scene": "seo",
+    "has_ttwid": false,
+    "is_api": false,
+    "previous_page": "product_detail",
+    "query_source": "product_detail",
+    "query_traffic_type": "seo",
+    "app_platform": 0,
+    "referer": "",
+    "referer_type": "",
+    "request_url": "https://shop.tiktok.com/us/pdp/fast-fun-card-game-for-2-8-players-perfect-for-parties/1732271777612075081?source=product_detail&enter_method=url_semantic_301",
+    "route_page_name": "pdp",
+    "route_product_id": "1732271777612075081",
+    "route_product_name_slug": "fast-fun-card-game-for-2-8-players-perfect-for-parties",
+    "host": "shop.tiktok.com",
+    "path_region": "US",
+    "page_name": "product_detail",
+    "page_version_tag": "10",
+    "page_module": ""
+   },
+   "bot_info": {
+    "is_mock_bot": false,
+    "is_bot": false,
+    "request_time": 1791935117300
+   },
+   "ab_test": {
+    "page_level": {
+     "page_id": "799928451770863216",
+     "vids": [],
+     "params": {}
+    },
+    "user_level": {
+     "enable_category_nav": true,
+     "is_new_pdp": true,
+     "shouldJumpH5Pay": 1
+    }
+   },
+   "page_config": {
+    "global_fe_config": {},
+    "components_map": [
+     {
+      "component_type": "user_info",
+      "component_name": "user_info",
+      "fe_config": {}
+     },
+     {
+      "component_type": "page_header",
+      "component_name": "page_header",
+      "fe_config": {}
+     },
+     {
+      "component_type": "call_app_bottom_popup",
+      "component_name": "call_app_bottom_popup",
+      "fe_config": {
+       "target": "wrapper_pdp"
+      }
+     },
+     {
+      "component_type": "coupon_popup",
+      "component_name": "coupon_popup",
+      "fe_config": {}
+     },
+     {
+      "component_type": "product_detail",
+      "component_name": "product_detail",
+      "fe_config": {
+       "data_source": {
+        "skip_data_return": true
+       }
+      }
+     },
+     {
+      "component_type": "deals_info",
+      "component_name": "deals_info",
+      "fe_config": {
+       "data_source": {
+        "skip_data_return": true
+       }
+      }
+     },
+     {
+      "component_type": "product_info",
+      "component_name": "product_info",
+      "fe_config": {
+       "show_protections_policy": true,
+       "show_empty_page": true,
+       "is_pay_supported": true,
+       "is_cart_supported": true,
+       "data_source": {
+        "has_pre_dependency": true,
+        "pre_dependency_modules": [
+         "product_detail",
+         "category_info",
+         "shop_info",
+         "deals_info"
+        ]
+       }
+      },
+      "component_data": {
+       "error_code": 0,
+       "error_message": "success",
+       "product_info": {
+        "status": 1,
+        "biz_code": 0,
+        "biz_type": 0,
+        "sold_count": "10490",
+        "product_id": "1732271777612075081",
+        "seller_id": "7496203187618678857",
+        "title": "Throw Hands Rock Paper Scissors Card Game \u2013 The Absurdly Fast and Chaotic Party Game for 2 to 8 Players \u2013 60 Second Game for Friends, Families, and Game Night \u2013 Ages 7+",
+        "sold_count_note": {
+         "title": "Items sold",
+         "text": "The number of items sold globally since this item was listed on TikTok Shop excluding items that have been returned."
+        },
+        "images": [
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/ae57e7ce474d422cb17ccabc1c6f39e4",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ae57e7ce474d422cb17ccabc1c6f39e4~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ae57e7ce474d422cb17ccabc1c6f39e4~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/ae57e7ce474d422cb17ccabc1c6f39e4",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ae57e7ce474d422cb17ccabc1c6f39e4~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/ae57e7ce474d422cb17ccabc1c6f39e4~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/82f8813b4fcf4e9bb4d11ceb3e69a401",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/82f8813b4fcf4e9bb4d11ceb3e69a401~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/82f8813b4fcf4e9bb4d11ceb3e69a401~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/82f8813b4fcf4e9bb4d11ceb3e69a401",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/82f8813b4fcf4e9bb4d11ceb3e69a401~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/82f8813b4fcf4e9bb4d11ceb3e69a401~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/2c40ad32aa0f4227ba1d6bc742159f1b",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2c40ad32aa0f4227ba1d6bc742159f1b~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2c40ad32aa0f4227ba1d6bc742159f1b~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/2c40ad32aa0f4227ba1d6bc742159f1b",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2c40ad32aa0f4227ba1d6bc742159f1b~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2c40ad32aa0f4227ba1d6bc742159f1b~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/4fbe847e5732419eacc3e3228071e935",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4fbe847e5732419eacc3e3228071e935~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4fbe847e5732419eacc3e3228071e935~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/4fbe847e5732419eacc3e3228071e935",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4fbe847e5732419eacc3e3228071e935~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4fbe847e5732419eacc3e3228071e935~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/7e32a81018b94d77bca3edf41c3b70c9",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7e32a81018b94d77bca3edf41c3b70c9~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7e32a81018b94d77bca3edf41c3b70c9~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/7e32a81018b94d77bca3edf41c3b70c9",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7e32a81018b94d77bca3edf41c3b70c9~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/7e32a81018b94d77bca3edf41c3b70c9~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/8aa4e4738d0a47ad90278b50605b6233",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/8aa4e4738d0a47ad90278b50605b6233~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/8aa4e4738d0a47ad90278b50605b6233~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/8aa4e4738d0a47ad90278b50605b6233",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/8aa4e4738d0a47ad90278b50605b6233~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/8aa4e4738d0a47ad90278b50605b6233~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/5749c0f4e3f443c8b12e140e631cb886",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5749c0f4e3f443c8b12e140e631cb886~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5749c0f4e3f443c8b12e140e631cb886~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/5749c0f4e3f443c8b12e140e631cb886",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5749c0f4e3f443c8b12e140e631cb886~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/5749c0f4e3f443c8b12e140e631cb886~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/f9fb4f4b9bd242089f497d6b1238ebf7",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f9fb4f4b9bd242089f497d6b1238ebf7~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f9fb4f4b9bd242089f497d6b1238ebf7~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/f9fb4f4b9bd242089f497d6b1238ebf7",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f9fb4f4b9bd242089f497d6b1238ebf7~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f9fb4f4b9bd242089f497d6b1238ebf7~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         },
+         {
+          "width": 800,
+          "height": 800,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/4765879e65dd4733a3ac91c499ef1c27",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4765879e65dd4733a3ac91c499ef1c27~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4765879e65dd4733a3ac91c499ef1c27~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ],
+          "thumb_uri": "tos-useast5-i-omjb5zjo8w-tx/4765879e65dd4733a3ac91c499ef1c27",
+          "thumb_url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4765879e65dd4733a3ac91c499ef1c27~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/4765879e65dd4733a3ac91c499ef1c27~tplv-fhlh96nyum-crop-webp:200:200.webp?dr=12190&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+          ]
+         }
+        ],
+        "specifications": [
+         {
+          "name": "Game genre",
+          "value": "Party Game"
+         },
+         {
+          "name": "Material",
+          "value": "Card stock"
+         },
+         {
+          "name": "Container type",
+          "value": "Box"
+         },
+         {
+          "name": "CPSIA tracking label",
+          "value": "Yes"
+         },
+         {
+          "name": "Manufacturer",
+          "value": "Wild Guess Games"
+         },
+         {
+          "name": "Age range",
+          "value": "7 Years Above"
+         },
+         {
+          "name": "Region of origin",
+          "value": "America"
+         },
+         {
+          "name": "Flammable liquid",
+          "value": "No"
+         },
+         {
+          "name": "Dangerous goods or hazardous materials",
+          "value": "No"
+         },
+         {
+          "name": "Contains batteries or cells?",
+          "value": "None"
+         }
+        ],
+        "header_video": {
+         "duration": 40.213,
+         "id": "v12d52gd0030d75sm2vog65sb64dnq30",
+         "post_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-afa798-tx/o8DUDVxpSiFBJJPIWGLfBiyyTBvPWeE86RbjYj~tplv-noop.image?dr=12525&refresh_token=ee8be531&x-expires=1791956757&x-signature=HNX%2BVkHg%2FfPI%2BHjTfeEQ5gHt%2BT4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=6ce186a1&idc=useast5&VideoID=v12d52gd0030d75sm2vog65sb64dnq30",
+         "media_type": "video",
+         "video_infos": [
+          {
+           "width": 1024,
+           "height": 576,
+           "url_expire": "1791956757",
+           "size": "6552155",
+           "main_url": "https://v16m-default.tiktokcdn-us.com/efc6daf94c5978680ded234f7fefeffa/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/o4fjLSFDDQBiPbjW8cB6SpEyyIGW5yJIeiGV7Y/?a=0&bti=PDM8QDI2M2A%3D&&bt=1272&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=NDc7OWRmNDtnZ2hpN2ZlNkBpM3RnOXY5cjV2OjMzZzVnNEA0LjZiXjQ1NjYxYzJiX2MxYSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "backup_url": "https://v16m-default.tiktokcdn-us.com/efc6daf94c5978680ded234f7fefeffa/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/o4fjLSFDDQBiPbjW8cB6SpEyyIGW5yJIeiGV7Y/?a=0&bti=PDM8QDI2M2A%3D&&bt=1272&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=NDc7OWRmNDtnZ2hpN2ZlNkBpM3RnOXY5cjV2OjMzZzVnNEA0LjZiXjQ1NjYxYzJiX2MxYSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "format": "mp4"
+          },
+          {
+           "width": 1280,
+           "height": 720,
+           "url_expire": "1791956757",
+           "size": "8115002",
+           "main_url": "https://v16m-default.tiktokcdn-us.com/498827afd21780a208d70832e9731b90/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/okInLAYfAOFgeMFe4UNMif9v2yvvwxQwJymmIL/?a=0&bti=PDM8QDI2M2A%3D&&bt=1576&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=OTQ7NmZoMzRnZTZlZTZmZkBpM3RnOXY5cjV2OjMzZzVnNEBhMy8tNTEtNTMxYjEzYzU0YSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "backup_url": "https://v16m-default.tiktokcdn-us.com/498827afd21780a208d70832e9731b90/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/okInLAYfAOFgeMFe4UNMif9v2yvvwxQwJymmIL/?a=0&bti=PDM8QDI2M2A%3D&&bt=1576&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=OTQ7NmZoMzRnZTZlZTZmZkBpM3RnOXY5cjV2OjMzZzVnNEBhMy8tNTEtNTMxYjEzYzU0YSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "format": "mp4"
+          }
+         ]
+        },
+        "desc_video": {
+         "duration": 40.213,
+         "id": "v12d52gd0030d75sm2vog65sb64dnq30",
+         "post_url": "https://p16-common-sign.tiktokcdn-us.com/tos-useast5-p-afa798-tx/o8DUDVxpSiFBJJPIWGLfBiyyTBvPWeE86RbjYj~tplv-noop.image?dr=12525&refresh_token=ee8be531&x-expires=1791956757&x-signature=HNX%2BVkHg%2FfPI%2BHjTfeEQ5gHt%2BT4%3D&t=9276707c&ps=14f1eb3e&shp=9e36835a&shcp=6ce186a1&idc=useast5&VideoID=v12d52gd0030d75sm2vog65sb64dnq30",
+         "media_type": "video",
+         "video_infos": [
+          {
+           "width": 1024,
+           "height": 576,
+           "url_expire": "1791956757",
+           "size": "6552155",
+           "main_url": "https://v16m-default.tiktokcdn-us.com/efc6daf94c5978680ded234f7fefeffa/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/o4fjLSFDDQBiPbjW8cB6SpEyyIGW5yJIeiGV7Y/?a=0&bti=PDM8QDI2M2A%3D&&bt=1272&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=NDc7OWRmNDtnZ2hpN2ZlNkBpM3RnOXY5cjV2OjMzZzVnNEA0LjZiXjQ1NjYxYzJiX2MxYSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "backup_url": "https://v16m-default.tiktokcdn-us.com/efc6daf94c5978680ded234f7fefeffa/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/o4fjLSFDDQBiPbjW8cB6SpEyyIGW5yJIeiGV7Y/?a=0&bti=PDM8QDI2M2A%3D&&bt=1272&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=NDc7OWRmNDtnZ2hpN2ZlNkBpM3RnOXY5cjV2OjMzZzVnNEA0LjZiXjQ1NjYxYzJiX2MxYSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "format": "mp4"
+          },
+          {
+           "width": 1280,
+           "height": 720,
+           "url_expire": "1791956757",
+           "size": "8115002",
+           "main_url": "https://v16m-default.tiktokcdn-us.com/498827afd21780a208d70832e9731b90/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/okInLAYfAOFgeMFe4UNMif9v2yvvwxQwJymmIL/?a=0&bti=PDM8QDI2M2A%3D&&bt=1576&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=OTQ7NmZoMzRnZTZlZTZmZkBpM3RnOXY5cjV2OjMzZzVnNEBhMy8tNTEtNTMxYjEzYzU0YSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "backup_url": "https://v16m-default.tiktokcdn-us.com/498827afd21780a208d70832e9731b90/6acf1715/video/tos/useast5/tos-useast5-v-afa798-tx/okInLAYfAOFgeMFe4UNMif9v2yvvwxQwJymmIL/?a=0&bti=PDM8QDI2M2A%3D&&bt=1576&ft=GS-jnInz7ThEvTOGXq8Zmo&mime_type=video_mp4&rc=OTQ7NmZoMzRnZTZlZTZmZkBpM3RnOXY5cjV2OjMzZzVnNEBhMy8tNTEtNTMxYjEzYzU0YSMwazFfMmRzajJhMC1kMi9zcw%3D%3D&vvpl=1&l=20261013234517BDB01CF3E360341ECD63&btag=e000c8000",
+           "format": "mp4"
+          }
+         ]
+        },
+        "desc_blocks": [
+         {
+          "type": "text",
+          "text": "The game where SPEED meets ROCK, PAPER, SCISSORS!\n\nThrow Hands turns \u201cRock, Paper, Scissors\u201d into an absurdly fast and absolutely chaotic card game for 2\u20138 players! With NO turns and NO time to think, players pile up \u201cRock,\u201d \u201cPaper,\u201d and \u201cScissors\u201d cards by throwing down the winning symbol again and again in a ridiculously funny race to shed all your cards first!",
+          "rich_text": {
+           "text_alignment": 1,
+           "template": "{{VGhlI_0}}{{VGhlI_1}}{{VGhlI_2}}{{VGhlI_3}}{{VGhlI_4}}{{VGhlI_5}}",
+           "arguments": {
+            "{{VGhlI_2}}": {
+             "text_attribute": {
+              "text": "\n",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhlI_3}}": {
+             "text_attribute": {
+              "text": "Throw Hands turns \u201cRock, Paper, Scissors\u201d into an absurdly fast and absolutely chaotic card game for 2\u20138 players! With ",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhlI_4}}": {
+             "text_attribute": {
+              "text": "NO turns and NO time to think",
+              "font": {
+               "font_weight": 3,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhlI_5}}": {
+             "text_attribute": {
+              "text": ", players pile up \u201cRock,\u201d \u201cPaper,\u201d and \u201cScissors\u201d cards by throwing down the winning symbol again and again in a ridiculously funny race to shed all your cards first!",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhlI_0}}": {
+             "text_attribute": {
+              "text": "The game where SPEED meets ROCK, PAPER, SCISSORS!",
+              "font": {
+               "font_weight": 3,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhlI_1}}": {
+             "text_attribute": {
+              "text": "\n",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            }
+           },
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#FF000000"
+            }
+           }
+          }
+         },
+         {
+          "type": "text",
+          "text": "In this free-for-all card-shedding game, you\u2019ll need a quick mind and even quicker hands to win. Watch the last card played, then be the first player to throw down a card with the symbol that beats it. Rock beats Scissors. Paper beats Rock. Scissors beats Paper. Don\u2019t wait for anyone, because they\u2019re not waiting for you!",
+          "rich_text": {
+           "text_alignment": 1,
+           "template": "{{SW4gd_0}}{{SW4gd_1}}{{SW4gd_2}}{{SW4gd_3}}",
+           "arguments": {
+            "{{SW4gd_0}}": {
+             "text_attribute": {
+              "text": "In this free-for-all card-shedding game, you\u2019ll need a ",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            },
+            "{{SW4gd_1}}": {
+             "text_attribute": {
+              "text": "quick mind and even quicker hands",
+              "font": {
+               "font_weight": 3,
+               "font_class": 5
+              }
+             }
+            },
+            "{{SW4gd_2}}": {
+             "text_attribute": {
+              "text": " to win. Watch the last card played, then be the first player to throw down a card with the symbol that beats it. Rock beats Scissors. Paper beats Rock. Scissors beats Paper. Don\u2019t wait for anyone, because ",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            },
+            "{{SW4gd_3}}": {
+             "text_attribute": {
+              "text": "they\u2019re not waiting for you!",
+              "font": {
+               "font_weight": 3,
+               "font_class": 5
+              }
+             }
+            }
+           },
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#FF000000"
+            }
+           }
+          }
+         },
+         {
+          "type": "text",
+          "text": "With players shouting symbols, cards flying everywhere, and no time to hesitate, this 60-second card game hilariously pushes everyone\u2019s mental reflexes to the edge!",
+          "rich_text": {
+           "text_alignment": 1,
+           "template": "{{V2l0a_0}}",
+           "arguments": {
+            "{{V2l0a_0}}": {
+             "text_attribute": {
+              "text": "With players shouting symbols, cards flying everywhere, and no time to hesitate, this 60-second card game hilariously pushes everyone\u2019s mental reflexes to the edge!",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            }
+           },
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#FF000000"
+            }
+           }
+          }
+         },
+         {
+          "type": "text",
+          "text": "Throw Hands is ridiculously easy to learn, insanely fast to play, and guaranteed to get laughs as it turns any room into a loud, competitive mess. It\u2019s the perfect game for turning up the energy at family and friends\u2019 game night!",
+          "rich_text": {
+           "text_alignment": 1,
+           "template": "{{VGhyb_0}}{{VGhyb_1}}{{VGhyb_2}}",
+           "arguments": {
+            "{{VGhyb_1}}": {
+             "text_attribute": {
+              "text": "a loud, competitive mess.",
+              "font": {
+               "font_weight": 3,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhyb_2}}": {
+             "text_attribute": {
+              "text": " It\u2019s the perfect game for turning up the energy at family and friends\u2019 game night!",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            },
+            "{{VGhyb_0}}": {
+             "text_attribute": {
+              "text": "Throw Hands is ridiculously easy to learn, insanely fast to play, and guaranteed to get laughs as it turns any room into ",
+              "font": {
+               "font_weight": 1,
+               "font_class": 5
+              }
+             }
+            }
+           },
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#FF000000"
+            }
+           }
+          }
+         },
+         {
+          "type": "text",
+          "text": "2\u20138 Players | Ages 7+ | 60 Seconds Play Time",
+          "rich_text": {
+           "text_alignment": 1,
+           "template": "{{MuKAk_0}}",
+           "arguments": {
+            "{{MuKAk_0}}": {
+             "text_attribute": {
+              "text": "2\u20138 Players | Ages 7+ | 60 Seconds Play Time",
+              "font": {
+               "font_weight": 3,
+               "font_class": 5
+              }
+             }
+            }
+           },
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#FF000000"
+            }
+           }
+          }
+         }
+        ],
+        "price": {
+         "symbol_position": 1,
+         "is_interval_price": false,
+         "real_price": "$16.89",
+         "currency": "USD",
+         "currency_symbol": "$",
+         "min_sku_price": "16.89"
+        },
+        "sale_props": [
+         {
+          "has_image": false,
+          "has_extended_images": false,
+          "prop_id": "7596951237854103318",
+          "prop_name": "Specifications",
+          "sale_prop_values": [
+           {
+            "prop_value_id": "7603375692960990990",
+            "prop_value": "Default"
+           }
+          ]
+         }
+        ],
+        "skus": [
+         {
+          "status": 1,
+          "stock": 799,
+          "purchase_limit": 200,
+          "sku_id": "1732271779519434825",
+          "sale_prop_value_ids": "7603375692960990990",
+          "sku_sale_props": [
+           {
+            "prop_id": "7596951237854103318",
+            "prop_name": "Specifications",
+            "prop_value_id": "7603375692960990990",
+            "prop_value": "Default"
+           }
+          ],
+          "price": {
+           "symbol_position": 1,
+           "price_type": 0,
+           "show_currency_space": false,
+           "sale_price_format": "16.89",
+           "currency_symbol": "$",
+           "sale_price_decimal": "16.89",
+           "currency_name": "USD"
+          },
+          "pdp_button_area_id": "default",
+          "warehouse_id": "7542183967300683533"
+         }
+        ],
+        "default_sku_id": "1732271779519434825",
+        "logistic": {
+         "delivery_option": 1,
+         "is_default": false,
+         "free_shipping": true,
+         "reachable": true,
+         "delivery_min_days": 2,
+         "delivery_max_days": 3,
+         "delivery_name": "3-day delivery",
+         "lead_time": "Oct 15 - Oct 16",
+         "shipping_fee": {
+          "price_str": "$0.00",
+          "price_val": "0",
+          "currency": "USD"
+         },
+         "original_shipping_val": "5.99",
+         "logistics_service_id": "7345700278525495083",
+         "event_tracking": {
+          "holiday_flag": "0",
+          "is_1_day_shipping": "0",
+          "is_display_fastest": "0",
+          "is_late_guarantee": "0",
+          "is_plus_effective": "0",
+          "ship_from": "local",
+          "delivery_type": "fbt",
+          "est_logistic_delivery_day_min": "0",
+          "is_next_day_delivery": "0",
+          "logistics_test_info_v2": "{\"edt_metrics\":\"{\\\"base_info\\\":{\\\"time_zone\\\":\\\"America/New_York\\\",\\\"fulfill_solution\\\":3},\\\"exp_out\\\":{\\\"sre_edt\\\":\\\"2_3\\\",\\\"exp_edt\\\":\\\"2_3\\\",\\\"before_xdd_flatten\\\":\\\"2_3\\\",\\\"xdd_res\\\":3,\\\"xdd_src\\\":3,\\\"sre_xdd_prob\\\":[{\\\"leadtime_tag\\\":2,\\\"compliance_rate\\\":0},{\\\"leadtime_tag\\\":3,\\\"compliance_rate\\\":1}],\\\"seller_xdd_status\\\":1,\\\"xdd_thresholds\\\":{\\\"2\\\":0.8,\\\"3\\\":0.8},\\\"ship_time\\\":{\\\"cd\\\":1}},\\\"ab_info\\\":[{\\\"g_conf\\\":{\\\"hit_offline\\\":\\\"{}\\\",\\\"prob\\\":\\\"{\\\\\\\"3\\\\\\\":1}\\\",\\\"res\\\":\\\"[3]\\\",\\\"threshold\\\":\\\"{\\\\\\\"3\\\\\\\":0.8}\\\"}}]}\"}",
+          "ship_in_cd": "1day",
+          "est_delivery_day_expected": "0",
+          "est_logistic_delivery_day_max": "0",
+          "is_ontime_compensation_show": "0",
+          "shipping_price_origin": "5.99",
+          "shipping_price_after_coupon": "0",
+          "ship_in_bd": "null",
+          "shipping_currency": "USD",
+          "speed_type": "3_day_delivery",
+          "est_delivery_bday_min": "2",
+          "est_delivery_day_max": "3",
+          "global_shipping": "0",
+          "is_3_day_delivery": "1",
+          "est_delivery_day_min": "2",
+          "select_service_id": "7345700278525495083",
+          "shipping_type": "3_day_delivery",
+          "is_instant_tag": "0",
+          "logistic_description_name": "3_day_delivery_info",
+          "shipping_price": "0"
+         }
+        },
+        "seller": {
+         "rating_value": 4.8,
+         "product_count": "1",
+         "follower_count": "553",
+         "seller_id": "7496203187618678857",
+         "name": "Wild Guess Games",
+         "avatar": {
+          "width": 300,
+          "height": 300,
+          "uri": "tos-useast5-i-omjb5zjo8w-tx/734bd020bf1344df81a7fe388906c110",
+          "url_list": [
+           "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/734bd020bf1344df81a7fe388906c110~tplv-fhlh96nyum-resize-png:300:300.png?dr=12184&t=555f072d&ps=933b5bde&shp=905da467&shcp=6ce186a1&idc=useast5&from=2422056039",
+           "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/734bd020bf1344df81a7fe388906c110~tplv-fhlh96nyum-resize-png:300:300.png?dr=12184&t=555f072d&ps=933b5bde&shp=905da467&shcp=6ce186a1&idc=useast5&from=2422056039"
+          ]
+         },
+         "shop_link": "aweme://ec/store?custom_params=%7B%22custom_id_type%22%3A0%2C%22decorate_insert_items%22%3A%5B1732271777612075081%5D%7D&sellerId=7496203187618678857&store_page_version=2&url_maker=shop_schema_sdk",
+         "rating": "4.8"
+        },
+        "review": {
+         "product_rating": 4.8,
+         "review_count": "922",
+         "product_rating_str": "4.8",
+         "review_count_str": "922"
+        },
+        "shipping_module": {
+         "description_list": [
+          {
+           "text": "Free 3-day delivery",
+           "rich_text": {
+            "template": "{{free_shipping_3_dd}}",
+            "arguments": {
+             "{{free_shipping_3_dd}}": {
+              "text_attribute": {
+               "text": "Free 3-day delivery",
+               "font_color": {
+                "color": "#007B7B"
+               }
+              }
+             }
+            },
+            "text_attribute": {
+             "font_color": {
+              "color": "#007B7B"
+             }
+            }
+           }
+          },
+          {
+           "text": "Estimated delivery Oct 15 \u2013 16",
+           "rich_text": {
+            "template": "Estimated delivery {{lead_time}}",
+            "arguments": {
+             "{{lead_time}}": {
+              "text_attribute": {
+               "text": "Oct 15\u2009\u2013\u200916",
+               "font_color": {
+                "color": "#000000"
+               }
+              }
+             }
+            },
+            "text_attribute": {
+             "font_color": {
+              "color": "#000000"
+             }
+            }
+           }
+          },
+          {
+           "text": "Usually ships next day",
+           "rich_text": {
+            "template": "{{shipping_days_cd_one_day}}",
+            "arguments": {
+             "{{shipping_days_cd_one_day}}": {
+              "text_attribute": {
+               "text": "Usually ships next day",
+               "font_color": {
+                "color": "#007B7B"
+               }
+              }
+             }
+            },
+            "text_attribute": {
+             "font_color": {
+              "color": "#007B7B"
+             }
+            }
+           }
+          }
+         ],
+         "appendix_list": []
+        },
+        "lock_up_shipping": [
+         {
+          "text": "Free 3-day delivery \u00b7 Usually ships next day",
+          "rich_text": {
+           "template": "{{ShippingIcon}} Free 3-day delivery \u00b7 Usually ships next day",
+           "arguments": {
+            "{{ShippingIcon}}": {
+             "link_text_type": 1,
+             "icon_attribute": {
+              "size": {
+               "width": 13,
+               "height": 13
+              },
+              "icon": {
+               "icon": {
+                "width": 48,
+                "height": 48,
+                "uri": "tos-maliva-i-o3syd03w52-us/pdp-lockup-free-shipping-light.png",
+                "url_list": [
+                 "https://p16-oec-general.ttcdn-us.com/tos-maliva-i-o3syd03w52-us/pdp-lockup-free-shipping-light.png~tplv-fhlh96nyum-resize-png:48:48.png?dr=12184&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192",
+                 "https://p19-oec-general.ttcdn-us.com/tos-maliva-i-o3syd03w52-us/pdp-lockup-free-shipping-light.png~tplv-fhlh96nyum-resize-png:48:48.png?dr=12184&t=555f072d&ps=933b5bde&shp=c940a200&shcp=9b759fb9&idc=useast5&from=3376456192"
+                ]
+               }
+              }
+             }
+            }
+           },
+           "text_attribute": {
+            "link": "aweme://roma_redirect/?spark_page=popupschema&title=Free%203-day%20delivery&ecrichtext_content=%5B%7B%22template%22:%22Save%20money%20with%20free%203-day%20delivery%21%20Discounts%20applied%20at%20checkout.%20Free%20shipping%20and%20delivery%20are%20subject%20to%20conditions%20such%20as%20cart%20total%20or%20number%20of%20items.%20Items%20arrive%20in%203%20business%20days.%22%2C%22arguments%22:%7B%22%7B%7BTerms%7D%7D%22:%7B%22link_text_type%22:0%2C%22text_attribute%22:%7B%22text%22:%22%22%2C%22font%22:%7B%22font_weight%22:2%2C%22font_class%22:5%7D%7D%7D%7D%2C%22text_attribute%22:%7B%22font%22:%7B%22font_weight%22:1%2C%22font_class%22:4%7D%2C%22font_color%22:%7B%22color%22:%22%23FF000000%22%2C%22dark_color%22:%22%23FFF6F6F6%22%7D%7D%7D%5D&height=25%25&self_adaptive_height=1",
+            "font": {
+             "font_weight": 2,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#007B7B"
+            }
+           }
+          }
+         }
+        ],
+        "compliance": {
+         "title": "Seller information",
+         "contents": [
+          "Business name: Wild Guess LLC",
+          "Business address: Georgia,United States"
+         ],
+         "rich_title": {
+          "template": "Seller information",
+          "text_attribute": {
+           "font": {
+            "font_weight": 2,
+            "font_class": 4
+           },
+           "font_color": {
+            "color": "#000000"
+           }
+          }
+         },
+         "rich_contents": [
+          {
+           "template": "Business name: Wild Guess LLC",
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#000000"
+            }
+           }
+          },
+          {
+           "template": "Business address: Georgia,United States",
+           "text_attribute": {
+            "font": {
+             "font_weight": 1,
+             "font_class": 4
+            },
+            "font_color": {
+             "color": "#000000"
+            }
+           }
+          }
+         ]
+        },
+        "legit_warnings": [],
+        "button_area_id": "default",
+        "page_sections": [
+         "head_image",
+         "top_margin",
+         "lock_up",
+         "lock_up_bottom_divider",
+         "product_highlights_top_divider",
+         "product_highlights",
+         "first_screen_divider",
+         "logistic",
+         "creator_video",
+         "creator_video_bottom_divider",
+         "seller_above_review",
+         "review",
+         "review_bottom_divider",
+         "questions",
+         "questions_bottom_divider",
+         "description_title",
+         "about_this_product_description",
+         "about_this_product_details_top_line",
+         "about_this_product_details",
+         "about_this_product_compliance_top_line",
+         "about_this_product_compliance",
+         "about_this_product_compliance_bottom_divider"
+        ]
+       },
+       "shop_info": {
+        "seller_id": "7496203187618678857",
+        "sold_count": 13769,
+        "on_sell_product_count": 1,
+        "review_count": 916,
+        "global_seller_id": "7496203187618678857",
+        "global_sold_count": "13769",
+        "followers_count": "553",
+        "video_count": "425",
+        "enable_follow": true,
+        "shop_name": "Wild Guess Games",
+        "shop_logo": {
+         "height": 300,
+         "width": 300,
+         "uri": "tos-useast5-i-omjb5zjo8w-tx/734bd020bf1344df81a7fe388906c110",
+         "url_list": [
+          "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/734bd020bf1344df81a7fe388906c110~tplv-fhlh96nyum-resize-webp:300:300.webp?dr=12185&t=555f072d&ps=933b5bde&shp=905da467&shcp=e1be8f53&idc=useast5&from=2422056039",
+          "https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/734bd020bf1344df81a7fe388906c110~tplv-fhlh96nyum-resize-webp:300:300.webp?dr=12185&t=555f072d&ps=933b5bde&shp=905da467&shcp=e1be8f53&idc=useast5&from=2422056039"
+         ]
+        },
+        "shop_rating": "4.8",
+        "shop_link": "https://shop.tiktok.com/us/store/wild-guess-games/7496203187618678857",
+        "background": {
+         "is_default": false,
+         "image": {
+          "height": 720,
+          "width": 750,
+          "uri": "tos-useast5-i-reeeghz8mm-tx/1c2466eda405483fbf6cc0f6f87c25c4",
+          "url_list": [
+           "https://p16-oec-shop-sign.tiktokcdn-us.com/tos-useast5-i-reeeghz8mm-tx/1c2466eda405483fbf6cc0f6f87c25c4~tplv-reeeghz8mm-image-webp.webp?lk3s=905da467&x-expires=1792539917&x-signature=gbNkEhW58xxjNyoJC2rITO4T65Q%3D"
+          ]
+         },
+         "shop_background_type": 0
+        },
+        "format_sold_count": "13.8K",
+        "region": "US",
+        "display_on_sell_product_count": "1",
+        "format_global_sold_count": "13.8K",
+        "format_followers_count": "500+",
+        "format_video_count": "425",
+        "store_sub_score": [
+         {
+          "score": 0.9482758620689655,
+          "type": 1,
+          "score_percentage": "95",
+          "high_light_tag": 1,
+          "platform_rate_type": 0
+         },
+         {
+          "score": 0,
+          "type": 2,
+          "score_percentage": "0",
+          "high_light_tag": 0,
+          "platform_rate_type": 0
+         },
+         {
+          "score": 0.9646408839779006,
+          "type": 3,
+          "score_percentage": "96",
+          "platform_rate_type": 1
+         }
+        ],
+        "worst_rating": "0",
+        "best_rating": "5",
+        "creator_name": "Wild Guess Games",
+        "desc": "Shop Wild Guess Games on TikTok Shop! 13.8K sold, 500+ followers. 96+% positive feedback. 0+% Ships in 48h, 95+% replies in 24h. Join the trend!",
+        "shop_exp_scores": [
+         {
+          "score": 0.96,
+          "shop_sub_score_type": 4,
+          "score_percentage": "96",
+          "format_score": "96%",
+          "score_description": "Positive feedback",
+          "experience_format_type": 1,
+          "experience_format_description": "Excellent",
+          "score_level": 3,
+          "format_numeric_score": "96%"
+         },
+         {
+          "score": 1,
+          "shop_sub_score_type": 5,
+          "score_percentage": "100",
+          "format_score": "100%",
+          "score_description": "On-time delivery",
+          "experience_format_type": 1,
+          "experience_format_description": "Excellent",
+          "score_level": 3,
+          "format_numeric_score": "100%"
+         },
+         {
+          "score": 0,
+          "shop_sub_score_type": 6,
+          "score_percentage": "",
+          "format_score": "<0h",
+          "score_description": "Issue resolution",
+          "experience_format_type": 1,
+          "score_level": 0,
+          "format_numeric_score": "<0h"
+         },
+         {
+          "score": 1,
+          "shop_sub_score_type": 7,
+          "score_percentage": "100",
+          "format_score": "100%",
+          "score_description": "Chat satisfaction",
+          "experience_format_type": 1,
+          "experience_format_description": "Excellent",
+          "score_level": 3,
+          "format_numeric_score": "100%"
+         }
+        ]
+       },
+       "vouchers": [],
+       "category_info": {
+        "recommended_categories": [
+         {
+          "category_id": "604206",
+          "category_name": "Toys & Hobbies",
+          "category_name_en": "toys-hobbies"
+         },
+         {
+          "category_id": "860168",
+          "category_name": "Games & Puzzles",
+          "category_name_en": "games-puzzles"
+         },
+         {
+          "category_id": "868744",
+          "category_name": "Card Games",
+          "category_name_en": "card-games"
+         }
+        ]
+       },
+       "reviews_info": {},
+       "hot_reviews": [],
+       "shop_performance": []
+      }
+     },
+     {
+      "component_type": "shop_info",
+      "component_name": "shop_info",
+      "fe_config": {
+       "data_source": {
+        "has_pre_dependency": true,
+        "skip_data_return": true,
+        "pre_dependency_modules": [
+         "product_detail"
+        ]
+       }
+      }
+     },
+     {
+      "component_type": "category_info",
+      "component_name": "category_info",
+      "fe_config": {
+       "data_source": {
+        "skip_data_return": true
+       }
+      }
+     },
+     {
+      "component_type": "hot_reviews",
+      "component_name": "hot_reviews",
+      "fe_config": {
+       "data_source": {
+        "request_order": 1,
+        "skip_data_return": true,
+        "has_pre_dependency": true,
+        "pre_dependency_modules": [
+         "product_detail"
+        ]
+       }
+      }
+     },
+     {
+      "component_type": "related_videos",
+      "component_name": "related_videos",
+      "fe_config": {
+       "data_source": {
+        "request_order": 1,
+        "has_pre_dependency": true,
+        "pre_dependency_modules": [
+         "product_detail"
+        ]
+       }
+      }
+     },
+     {
+      "component_type": "feed_list",
+      "component_name": "feed_list_more_from",
+      "fe_config": {
+       "title": "Explore more from {s_shopName}",
+       "is_horizontal": true,
+       "data_source": {
+        "request_order": 1,
+        "type": "more_from",
+        "params": {
+         "count": 10,
+         "shop_page": 2,
+         "product_component": 3
+        },
+        "need_load_more": false,
+        "has_pre_dependency": true,
+        "pre_dependency_modules": [
+         "product_detail"
+        ]
+       }
+      }
+     },
+     {
+      "component_type": "feed_list",
+      "component_name": "feed_list_you_may_like",
+      "fe_config": {
+       "title": "You may also like",
+       "data_source": {
+        "request_order": 1,
+        "type": "recommended_for_you",
+        "params": {
+         "count": 20,
+         "shop_page": 2,
+         "product_component": 9
+        },
+        "use_rule_based_recommendation": true,
+        "need_load_more": false,
+        "has_pre_dependency": true,
+        "pre_dependency_modules": [
+         "product_detail"
+        ]
+       }
+      }
+     },
+     {
+      "component_type": "related_link",
+      "component_name": "related_link",
+      "fe_config": {
+       "title": "People also searched for",
+       "data_source": {
+        "request_order": 1
+       }
+      }
+     },
+     {
+      "component_type": "bread_crumbs",
+      "component_name": "bread_crumbs",
+      "fe_config": {
+       "data_source": {
+        "request_order": 1,
+        "has_pre_dependency": true,
+        "pre_dependency_modules": [
+         "category_info"
+        ]
+       }
+      }
+     },
+     {
+      "component_type": "page_footer",
+      "component_name": "page_footer",
+      "fe_config": {
+       "need_expose_pool": true,
+       "data_source": {
+        "request_order": 1
+       }
+      }
+     },
+     {
+      "component_type": "call_app",
+      "component_name": "call_app",
+      "fe_config": {
+       "data_source": {}
+      },
+      "component_data": {
+       "banners": [],
+       "popups": [
+        {
+         "name": "popup_pdp",
+         "jump_link_type": "default",
+         "launch_type": "tiktok_app",
+         "image": "https://lf16-tiktok-common.ibytedtos.com/obj/tiktok-web-common-sg/mtact/static/images/tiktok/rebrand-logo.png",
+         "title": "Get the full experience on the app",
+         "description": "Follow your favorite accounts, explore new trends, and create your own videos",
+         "action_button_text": "Open TikTok",
+         "dismiss_button_text": "Not now",
+         "popup_url": {
+          "url_schemes": [
+           "snssdk1233://ec/pdp?biz_type=0&gd_label={{gd_label}}&need_mall=1&needlaunchlog=1&page_name=reflow_pdp&params_url=https%3A%2F%2Fshop.tiktok.com%2Fus%2Fpdp%2Ffast-fun-card-game-for-2-8-players-perfect-for-parties%2F1732271777612075081%3Fsource%3Dproduct_detail%26enter_method%3Durl_semantic_301&refer=web&requestParams=%7B%22product_id%22%3A%5B%221732271777612075081%22%5D%7D&trackParams="
+          ],
+          "url_fallback": "https://snssdk1233.onelink.me/bIdt?domain_source=tiktok&af_dp={{schema}}",
+          "extra": ""
+         }
+        }
+       ],
+       "buttons": [],
+       "wrappers": [
+        {
+         "name": "wrapper_pdp",
+         "jump_link_type": "default",
+         "launch_type": "tiktok_app",
+         "wrapper_url": {
+          "url_schemes": [
+           "snssdk1233://ec/pdp?biz_type=0&gd_label={{gd_label}}&need_mall=1&needlaunchlog=1&page_name=reflow_pdp&params_url=https%3A%2F%2Fshop.tiktok.com%2Fus%2Fpdp%2Ffast-fun-card-game-for-2-8-players-perfect-for-parties%2F1732271777612075081%3Fsource%3Dproduct_detail%26enter_method%3Durl_semantic_301&refer=web&requestParams=%7B%22product_id%22%3A%5B%221732271777612075081%22%5D%7D&trackParams="
+          ],
+          "url_fallback": "https://snssdk1233.onelink.me/bIdt?domain_source=tiktok&af_dp={{schema}}",
+          "extra": ""
+         }
+        },
+        {
+         "name": "wrapper_coupon_open_homepage",
+         "jump_link_type": "default",
+         "launch_type": "tiktok_app",
+         "wrapper_url": {
+          "url_schemes": [
+           "snssdk1233://shop/open_homepage?biz_type=0&gd_label={{gd_label}}&needlaunchlog=1&params_url=https%3A%2F%2Fshop.tiktok.com%2Fus%2Fpdp%2Ffast-fun-card-game-for-2-8-players-perfect-for-parties%2F1732271777612075081%3Fsource%3Dproduct_detail%26enter_method%3Durl_semantic_301&refer=web&requestParams=%7B%22product_id%22%3A%5B%221732271777612075081%22%5D%7D&trackParams="
+          ],
+          "url_fallback": "https://snssdk1233.onelink.me/bIdt?domain_source=tiktok&af_dp={{schema}}",
+          "extra": ""
+         }
+        },
+        {
+         "name": "wrapper_my_coupons",
+         "jump_link_type": "default",
+         "launch_type": "tiktok_app",
+         "wrapper_url": {
+          "url_schemes": [
+           "snssdk1233://roma_redirect?biz_type=0&gd_label={{gd_label}}&needlaunchlog=1&params_url=https%3A%2F%2Fshop.tiktok.com%2Fus%2Fpdp%2Ffast-fun-card-game-for-2-8-players-perfect-for-parties%2F1732271777612075081%3Fsource%3Dproduct_detail%26enter_method%3Durl_semantic_301&refer=web&requestParams=%7B%22product_id%22%3A%5B%221732271777612075081%22%5D%7D&roma_group_key=spark_page_roma_schema_your_offer&roma_page_key=p&spark_page=roma_schema_your_offer&trackParams="
+          ],
+          "url_fallback": "https://snssdk1233.onelink.me/bIdt?domain_source=tiktok&af_dp={{schema}}",
+          "extra": ""
+         }
+        },
+        {
+         "name": "wrapper_ad_open_homepage",
+         "jump_link_type": "default",
+         "launch_type": "tiktok_app",
+         "wrapper_url": {
+          "url_schemes": [
+           "snssdk1233://shop/open_homepage?biz_type=0&needlaunchlog=1&params_url=https%3A%2F%2Fshop.tiktok.com%2Fus%2Fpdp%2Ffast-fun-card-game-for-2-8-players-perfect-for-parties%2F1732271777612075081%3Fsource%3Dproduct_detail%26enter_method%3Durl_semantic_301&refer=web&request_params=%257B%2522product_id%2522%253A%255B%25221732271777612075081%2522%255D%257D&track_params="
+          ],
+          "url_fallback": "https://snssdk1233.onelink.me/bIdt?domain_source=tiktok&af_dp={{schema}}",
+          "extra": ""
+         }
+        }
+       ],
+       "page_context": {
+        "idc": "US-TTP",
+        "biz_name": "ECSharing",
+        "page_name": "Pdp",
+        "region": "US"
+       }
+      }
+     },
+     {
+      "component_type": "bottom_button",
+      "component_name": "bottom_button",
+      "fe_config": {
+       "is_pay_supported": true,
+       "is_cart_supported": true
+      }
+     },
+     {
+      "component_type": "reviews",
+      "component_name": "reviews",
+      "fe_config": {
+       "data_source": {
+        "request_order": 1,
+        "skip_data_return": true
+       }
+      }
+     }
+    ]
+   }
+  }
+ },
+ "errors": null
+}
