@@ -48,5 +48,5 @@ Scope: ONE script (V1, Ralph 2026-10-19: 'just choose the best one'; V2/V3 dropp
   EXPECT: GATE OK
   EVIDENCE: GATE OK --stage cut (research/compare/compare_V1.md)
 
-- [ ] G11: Drive "Grace Tiktok assets" / one heater folder holds the CURRENT video + script doc, link sent, Ralph emailed + pushed at each review point
-  EVIDENCE:
+- [x] G11: Drive "Grace Tiktok assets" / one heater folder holds the CURRENT video + script doc, link sent, Ralph emailed + pushed at each review point
+  EVIDENCE: Drive folder 13Fg74HXW-EdR-9J8KbRKWSiW0L5zTdid: CURRENT video 75343554 B (= local) + CURRENT script doc (content read back); email + push at every stop
