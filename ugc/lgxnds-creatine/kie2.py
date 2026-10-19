@@ -44,6 +44,7 @@ def clip(sid):
     else:
         body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "first_frame_url": first, "generate_audio": False,
                 "resolution": "720p", "aspect_ratio": "9:16", "duration": s["dur"]}}
+        if s.get("last_frame_same"): body["input"]["last_frame_url"] = first
     url = kie.run_task(body)
     if url:
         kie.fetch(url, f"clips_v2/{sid}.mp4"); print("clip", sid, "ok", flush=True)

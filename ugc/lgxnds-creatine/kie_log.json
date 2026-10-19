@@ -897,5 +897,31 @@
    ]
   },
   "costTime": 136
+ },
+ {
+  "t": "2026-10-19 01:07:15",
+  "submitted": "fb8a870fe7cb1c925c088c63e9220a58",
+  "prompt": "The hand tips the scoop and the fine white powder pours into the water in one smooth stream, then the hand takes the bot"
+ },
+ {
+  "t": "2026-10-19 01:09:21",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand tips the scoop and the fine white powder pours into the water in one smooth stream, then the hand takes the bottle and gives it two gentle swirls; the powder disperses into a faint haze and the water ends clear and see-through, with no clumps, no pile at the bottom and never milky. Slight handheld camera. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792372033138-oft6vz33ggr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "fb8a870fe7cb1c925c088c63e9220a58",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792372153844-79kztlhk70w.mp4"
+   ]
+  },
+  "costTime": 119
  }
 ]
