@@ -138,6 +138,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Night Driving Glasses (Grace), 2026-10-12:** hands-only AI ad, 33s, 9 shots, product on screen from frame 0 (Ralph), Grace B VO, hook H062. Cut r1 APPROVED ('for now'), in Drive (Grace Tiktok assets/Night Driving Glasses (Grace), 1YBqPyggWJCG5PA-OkapK_9Al2816rluQ). Kie $2.786 vs $2.95 cap (approved S4 still + clip redos). TikTok video pages give 'Site Maintenance' from cloud IPs: `coach_tagvid.py` pulls winners from hashtag pages. `ugc/night-driving-glasses/README.md`.
 - **Mute Starter Pack nasal dilator (Grace), 2026-10-08/10:** hands + VO AI ad, 29.9s, S0 dilator opener, real box print pasted back (`boxfix.py`), r4 APPROVED, in Drive (Grace Tiktok assets/Mute Nasal Dilator (Grace), folder 1C_vHSUItdACCoMOPgJmfagyYyav03rHx); Kie $2.86. `ugc/mute-nasal-dilator/README.md`.
 
+- **Your Wish Is Your Command book (Grace), 2026-10-19:** 3 talking-head scripts from the hook library (H076, H061, H062 + 2 alts each), gate OK, $0. Claude doc https://claude.ai/code/artifact/05dbf55e-c6d4-4e6f-91a4-9f66bdd42b72; Drive Grace Tiktok assets/"Your Wish Is Your Command book (Grace)" (1Oo1m8oiLuq2xE1131l0dh6Rs3K0z5B-u). Waiting on Ralph. `ugc/your-wish-book/README.md`.
+
 - **Jean Rameau (client #2, multi-service), 2026-10-05:** own repo focusfiyah/jean-rameau (Ralph asked for a separate repo). First service Diaspo Auto School (Brooklyn): opt-in lead funnel + ElevenLabs AI caller that vets and books, scraped referral partners. TCPA: AI calls only consented leads. Read that repo's README + PLAN.md.
 
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2

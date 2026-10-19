@@ -1,0 +1,39 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 40 of 97 videos posted since 2026-09-19
+40 videos -> ugc/your-wish-book/research/tag_booktok/tag-booktok.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  2,000,000  22.1   0.79    7 2026-09-28  @mayz.reads: edit: i’m referencing girls who purposely dumb themselves down, this i
+                                          https://www.tiktok.com/@mayz.reads/video/7690483651041152277
+  1,100,000  17.1   1.71  368 2026-10-01  @emmalovesbooks124: books you should read this fall!!!!🍂#silly #bookrecs #bookreview #book
+                                          https://www.tiktok.com/@emmalovesbooks124/video/7691505300196642079
+  1,100,000  14.6    1.9    9 2026-09-19  @writtenbylia1: #BookTok #writer #reader #fyp #author 
+                                          https://www.tiktok.com/@writtenbylia1/video/7687286645942521110
+    951,400  24.4   1.24    6 2026-10-07  @.laylareadsss: studious asf #books #reading #relatable #booktok #fypシ゚viral 
+                                          https://www.tiktok.com/@.laylareadsss/video/7693802283447962894
+    716,500  23.2   3.05  289 2026-09-30  @kayleesbookclub: WE ARE SO BACK 🎃🪦🍂 i’ve been craving a fall readathon for ages— this w
+                                          https://www.tiktok.com/@kayleesbookclub/video/7691450136123182366
+    715,500   9.6   2.95  144 2026-10-01  @itsdansbooks: Only 6 stars here folks! Bangers across the board! #booktok #bookrecom
+                                          https://www.tiktok.com/@itsdansbooks/video/7691491010953645344
+    624,100  14.9    0.5    8 2026-10-02  @.minareads: like what am I even reading😭 #fyp #booktok
+                                          https://www.tiktok.com/@.minareads/video/7692152107876535574
+    566,600  21.8   8.92  345 2026-10-01  @hina: my top 5 favorite books of all time :’) i’ve always kept these stored 
+                                          https://www.tiktok.com/@hina/video/7691792890099436831
+    497,700  21.9   7.73  266 2026-09-23  @em_ondrizek: Yesterday was the official start of fall so here are a bunch of books 
+                                          https://www.tiktok.com/@em_ondrizek/video/7688715972651273502
+    397,200  26.1   1.01  238 2026-10-01  @pagesbyblen: this is hands down the most INSANE thing ive ever done @kaylee🪿 #bookt
+                                          https://www.tiktok.com/@pagesbyblen/video/7691731247302757645
+    365,400  32.0   2.22   12 2026-10-11  @caroline.montague: When they ask if you like reading…❤️ #booktok #bookish #reading #bookc
+                                          https://www.tiktok.com/@caroline.montague/video/7695446883426110742
+    342,700  16.4   1.19    6 2026-10-09  @readingwithember: #CapCut #booktok #trigger #bookgirlies #tatu 
+                                          https://www.tiktok.com/@readingwithember/video/7694656575532764430
+    295,500  28.4   3.61   16 2026-10-19  @ange__ll1: 🐒💜#darkromance #obsession #booktok #foryoupage #fyp 
+                                          https://www.tiktok.com/@ange__ll1/video/7698267865073339661
+    206,700  22.1   1.33  235 2026-10-18  @fromthelibraryofjade: Part 1 | it’s my BIRTHDAY!!!! come with me to buy 23 books to celebrat
+                                          https://www.tiktok.com/@fromthelibraryofjade/video/7698060118134459661
+    202,600   1.4   0.38    6 2026-09-26  @bookedforhea: 📖 playing defense by clara st james, a friends with benefits, best fri
+                                          https://www.tiktok.com/@bookedforhea/video/7683084641514917140
+DONE
