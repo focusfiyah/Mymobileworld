@@ -1,0 +1,4 @@
+# Humanizer report (2026-10-16)
+Ran the humanizer checklist on both final scripts (scripts.md). Scripts are Grace's own words and are kept word for word (Ralph 2026-10-16), so nothing was rewritten.
+Tells found: R1 CTA had an em dash ("even better—those deals"): spoken as a pause, written as a comma in the VO text (no word changed). R2 "ages 1–3": written "one to three" for the voice. No stock AI words, no forced triads beyond the natural feature list (backrest, feet, plug), no staged openers, no not-X-but-Y. Both read as a person talking ("Honestly though", "I'm convinced", "I genuinely wish").
+Captions (for Grace to paste): R1 "Replying to the 'over priced' comment: here's why we're getting our money's worth 🛁 #toddlerbath #momfinds #ad" ; R2 "The toddler tub I wish I found sooner 🛁 #toddlerbathtub #toddlermom #ad". Humanized: plain, no hype words.
