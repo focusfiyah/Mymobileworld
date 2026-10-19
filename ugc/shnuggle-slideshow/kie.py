@@ -15,11 +15,11 @@ def _gate():
 base._gate = _gate
 base.LOG = HERE / "kie_log.json"; base.CACHE = HERE / "upload_cache.json"
 J = json.loads((HERE / "slides.json").read_text()); SL = {s["id"]: s for s in J["slides"]}
-REFS = ["refs/tub_front_real.png", "refs/shnuggle_tub_6view.jpg"]
+REFS = ["refs/tub_front_real.png", "refs/shnuggle_tub_6view.jpg", "refs/real_scale_in_bath.jpg"]  # 3 = real size in a real bath (Ralph 2026-10-19: tub looked too big)
 
 def one(sid):
     s = SL[sid]; refs = [base.upload(p) for p in REFS]
-    prompt = f"{s['still']} {J['product_block']} {J['nothing_added']} {J['look']}"
+    prompt = f"{s['still']} {J['product_block']} {J['size_block']} {J['size_framing']} {J['nothing_added']} {J['look']}"
     url = base.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs, "aspect_ratio": "9:16", "resolution": "2K"}})
     if url: base.fetch(url, f"stills_raw/{sid}.png"); print("still", sid, "ok", flush=True)
     else: print("still", sid, "FAILED", flush=True)

@@ -45,3 +45,6 @@ Sources:
 - Floor inside: a raised "bum bump" seat mound, grippy dotted circle texture, a small white round plug near the front pulled up by its small tab (refs/brand/ToddlerBathPlugCloseUp.jpg). A "MAX" fill line embossed on the inner wall.
 - Underneath: small grey foot pads.
 - Real plates without people: refs/brand/ToddlerBathinShowerSquareImage.jpg (in a corner shower), ShnuggleToddlerBathinBathroomBath-HighRes-Square.jpg (inside a claw-foot bath).
+
+## Size correction (2026-10-19, slideshow job)
+Shnuggle's own dimension drawing (refs/dimensions_drawing.png, mm): rim 494 wide x 680 long; base 390 wide; 387 tall at the front, 540 tall at the back. The "base 39 x 54 cm, 36 cm tall" line above was a misreading. Ralph 2026-10-19: the AI tub looked too big/tall, "use the correct dimensions of the tub".
