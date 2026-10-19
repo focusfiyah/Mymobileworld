@@ -249,6 +249,7 @@ products follow the same rules.
 - What we judge a video on: save rate first (Carpe benchmark: tips 0.71%, hard sell 0.02%), then share rate and $ per 1k views.
 
 ## 9. To add later
+- Slideshows (TikTok Shop shoppable photo posts, Ralph 2026-10-19): facts, slide order and checks live in the tiktok-shop-coach skill, `references/slideshows.md`. Open for Grace: whether she has access (beta, select sellers), and whether slide text is OK (ask Ralph first; his no-text rule is for videos). Creator commission on photo posts defaults to 60% of the video rate (Seller University), so weigh it before pushing this format.
 - Looping: curiosity loops are in §3 (Viking, 2026-10-01). Endings that flow back into the start for rewatches: not
   covered yet; add here when we need it.
 - 2026-10-03 Horbaach Beet Root+ gummies: 24.5s hands-only (VO Grace B, no overlay text at all, hand-free shots allowed per Ralph), $1.68 Kie vs $1.69 quote.
