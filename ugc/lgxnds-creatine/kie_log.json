@@ -1057,5 +1057,31 @@
    ]
   },
   "costTime": 109
+ },
+ {
+  "t": "2026-10-19 02:06:03",
+  "submitted": "eb6a466e761d1e9d03c7ee32b8ee2ad7",
+  "prompt": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few "
+ },
+ {
+  "t": "2026-10-19 02:07:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few degrees around the tub, very slow and smooth. The tub stays still. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792375560995-72bq368rcsp.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "eb6a466e761d1e9d03c7ee32b8ee2ad7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792375658249-9c6lyhlgf4d.mp4"
+   ]
+  },
+  "costTime": 97
  }
 ]

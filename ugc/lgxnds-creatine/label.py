@@ -5,7 +5,7 @@
   python3 label.py video IN OUT [--ref N]   every frame, one homography fitted on frame N (locked camera)
   python3 label.py video IN OUT --track     tub or camera moves: per-frame fit, corners smoothed over 9 frames
   python3 label.py video IN OUT --flow      better: fit frame 0, then follow the tub frame to frame
-                                            [--deshade] remove the pale box behind the print; [--wordmark] also the vertical LGXNDS; [--rigid] fast tub, [--from N] anchor + start at frame N (drops earlier frames)
+                                            [--deshade] remove the pale box behind the print; [--parts] only the teal band + 5G badge; [--wordmark] also the vertical LGXNDS; [--rigid] fast tub, [--from N] anchor + start at frame N (drops earlier frames)
 """
 import subprocess, sys
 import cv2, numpy as np
@@ -19,6 +19,10 @@ _g = cv2.cvtColor(REAL, cv2.COLOR_BGR2HSV)  # right of x=560 only the print itse
 _ink = cv2.dilate((((_g[..., 2] < 150) | (_g[..., 1] > 60))).astype(np.uint8) * 255, np.ones((7, 7), np.uint8))
 _ink[:, :560] = 0; _ink[:196] = 0; _ink[588:] = 0; _ink[:, 672:] = 0
 CORE = np.maximum(CORE, _ink)  # printed block right of the
+if "--parts" in sys.argv:   # 2026-10-19 (Ralph: a whole pasted label looks fake): only the pieces the video model garbles,
+    # the teal "100% PURE MICRONIZED" band and the 5G badge; the AI's own big letters and tub shading stay
+    CORE = np.zeros(REAL.shape[:2], np.uint8)
+    cv2.rectangle(CORE, (192, 396), (558, 436), 255, -1); cv2.rectangle(CORE, (510, 202), (566, 266), 255, -1)
 if "--wordmark" in sys.argv:   # 2026-10-19 (S3 camera arc): the AI's vertical LGXNDS turned into "LGXNDD"; paste the real one too
     cv2.rectangle(CORE, (136, 190), (190, 590), 255, -1)
 # stripes/wordmark: the homography fits it well; the AI's stripes + vertical LGXNDS stay (they render right, the cylinder edges don't fit)
