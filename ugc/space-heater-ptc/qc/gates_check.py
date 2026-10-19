@@ -43,7 +43,7 @@ def shots():
 
 def finals():
     e = []
-    for v in ("V1", "V2", "V3"):
+    for v in ("V1",):   # Ralph 2026-10-19: V1 only
         f = J / f"out/heater_{v}.mp4"
         if not f.exists(): e.append(f"missing {f.name}"); continue
         p = json.loads(subprocess.run(["ffprobe", "-v", "quiet", "-print_format", "json", "-show_streams", str(f)], capture_output=True, text=True).stdout)
