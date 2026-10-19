@@ -46,9 +46,16 @@ def clip(sid):
         body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "first_frame_url": first, "generate_audio": False,
                 "resolution": "720p", "aspect_ratio": "9:16", "duration": s["dur"]}}
         if s.get("last_frame_same"): body["input"]["last_frame_url"] = first
+        if "--refs" in sys.argv:   # 2026-10-19 (Ralph's pick): reference mode instead of a first frame (Mini can't take both),
+            # so Seedance sees the real print while it draws: image 1 = the clean still, 2 = real front label, 3 = reference sheet
+            for k in ("first_frame_url", "last_frame_url"): body["input"].pop(k, None)
+            body["input"]["reference_image_urls"] = [first, kie.upload(TUB[1]), kie.upload(TUB[0])]
+            body["input"]["prompt"] = ("Recreate reference image 1 exactly (same kitchen, framing, hand, bracelet, tub) as the first frame, then: "
+                + prompt + " The tub's front label must match reference image 2 exactly, letter for letter, including the teal band "
+                "'100% PURE MICRONIZED' and the '5G CREATINE PER SCOOP' badge; reference image 3 shows the tub's shape from every side.")
     url = kie.run_task(body)
     if url:
-        kie.fetch(url, f"clips_v2/{sid}{'_raw' if RAW else ''}.mp4"); print("clip", sid, "ok", flush=True)
+        kie.fetch(url, f"clips_v2/{sid}{'_refs' if '--refs' in sys.argv else '_raw' if RAW else ''}.mp4"); print("clip", sid, "ok", flush=True)
 
 
 if __name__ == "__main__":

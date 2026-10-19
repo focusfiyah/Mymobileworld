@@ -1083,5 +1083,35 @@
    ]
   },
   "costTime": 97
+ },
+ {
+  "t": "2026-10-19 02:13:22",
+  "submitted": "1b369758236a8e297f34d2d226c6fb31",
+  "prompt": "Recreate reference image 1 exactly (same kitchen, framing, hand, bracelet, tub) as the first frame, then: The hand slowl"
+ },
+ {
+  "t": "2026-10-19 02:15:28",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same kitchen, framing, hand, bracelet, tub) as the first frame, then: The hand slowly lifts the white scoop of powder up out of the tub and levels it with a fingertip; the camera arcs a few degrees around the tub, very slow and smooth. The tub stays still. The hand keeps exactly the same skin tone, nails and gold bracelet watch as in the first frame for the whole clip. Fingers stay anatomically correct (five fingers). The tub never turns, tilts or changes: its front label faces the camera the whole time and every printed word, logo and stripe stays sharp and exactly the same. No sound. No on-screen text. No new objects. The tub's front label must match reference image 2 exactly, letter for letter, including the teal band '100% PURE MICRONIZED' and the '5G CREATINE PER SCOOP' badge; reference image 3 shows the tub's shape from every side.",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4,
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792375560995-72bq368rcsp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792368170228-fphcu3lu48a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/lgxnds-creatine/1792370219321-exn177qo3di.png"
+    ]
+   }
+  },
+  "taskId": "1b369758236a8e297f34d2d226c6fb31",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792376123139-3lifh5y77iq.mp4"
+   ]
+  },
+  "costTime": 121
  }
 ]
