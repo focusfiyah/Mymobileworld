@@ -37,7 +37,8 @@ def still(sid):
 
 def clip(sid):
     s = S[sid]; RAW = "--raw" in sys.argv   # 2026-10-19 (Ralph: the pasted label looks fake): start from the clean Google still, no paste
-    first = kie.upload(f"stills_v2/{sid}_label.png" if s["tub"] and not RAW else f"stills_v2/{sid}.png")
+    clean = f"stills_v2/{sid}_clean.png"   # cropped/fixed still WITHOUT the pasted label (S6, S7)
+    first = kie.upload(f"stills_v2/{sid}_label.png" if s["tub"] and not RAW else clean if Path(clean).exists() else f"stills_v2/{sid}.png")
     prompt = f"{s['video']} {V['video_suffix']}"
     if s["model"] == "kling":
         body = {"model": "kling-3.0-omni/image-to-video", "input": {"prompt": prompt, "image_urls": [first, first] if s.get("last_frame_same") else [first],

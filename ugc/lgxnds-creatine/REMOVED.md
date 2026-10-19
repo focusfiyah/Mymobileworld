@@ -10,3 +10,6 @@ Cut v1 elements checked against this list 2026-10-04: none of the above appear.
 - v2 clip trims: S2 frames 41-61 (milky, hand jump) and the powder ring on the counter (cropped out); S6 frames 0-47 (label
   can't be held while the tub swings); S3 AI wordmark "LGXNDD" (real wordmark pasted).
 Cut v4 checked against this whole list 2026-10-19: none appear (no text, VO says thirty, no "girls", label real on every tub frame).
+- 2026-10-19 v5 (Ralph: "you can tell that you're putting a label on it"): the pasted label is removed everywhere; tub clips are
+  made from the clean Google stills (Seedance reference mode with the real label as a ref; Kling from the clean still). S7's second
+  lid on the counter (Seedance redrew it) patched out (lid_fix.py). Cut v5 checked against this list: no paste, no text, thirty, no "girls".
