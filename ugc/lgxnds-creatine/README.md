@@ -5,7 +5,7 @@ hands-only demo over a voiceover; template `../gtt-kn95/` (gated, kie.py/cut.py/
 VO ElevenLabs Grace B `bGrsdLmwBbYUgHRuMFOI` (eleven_v4). ~30 s, 9:16, ~8 shots. Stills Gemini 3 Pro Image (Kie
 `nano-banana-pro`), clips Seedance 2.0 Mini (`bytedance/seedance-2-mini`). Product ref: `refs/tiktok_listing.jpg`.
 
-Status: v6 (no pasted label, Grace C VO at -16 LUFS, 24.3s) on the review page https://claude.ai/artifact/W58Fq6a699YttFPs3FFWru, waiting on Ralph; v5 = same footage on Grace B. Kie $3.294 vs $2.884 plan, Kling 160 credits. Next: Drive (CURRENT, v3 to Older versions) on approval.
+Status: v6 APPROVED 2026-10-19 (no pasted label, Grace C VO at -16 LUFS, 24.3s), in Drive: Grace Tiktok assets/LGXNDS Creatine ad (2026-10-04) https://drive.google.com/drive/folders/1RT-zhSahnQ_ypNpe6NLqt_1g9a08V6Hs (CURRENT video 1l9hyWHWeBvQ9cbvkuXn7omMNNobpRNw0 + CURRENT script doc; v3 video + old script in Older versions). Kie $3.294 vs $2.884 plan, Kling 160 credits. Open: Grace C has a slight echo, re-clone later (Ralph).
 
 ## Open questions for Ralph/Grace (ask in the plan message)
 - Is the Prime Sports tub unflavored with a scoop inside (the other seller's listing says so)?
