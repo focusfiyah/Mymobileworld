@@ -625,5 +625,178 @@
    ]
   },
   "costTime": 41
+ },
+ {
+  "t": "2026-10-19 08:13:55",
+  "submitted": "69fa70d991fd92da17091db0da68b703",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first fram"
+ },
+ {
+  "t": "2026-10-19 08:13:55",
+  "submitted": "c86ee504616936660d445dfff3fe1767",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first fram"
+ },
+ {
+  "t": "2026-10-19 08:13:55",
+  "submitted": "6431fc637a6bac68974f5d8872b50fcb",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first fram"
+ },
+ {
+  "t": "2026-10-19 08:13:55",
+  "submitted": "7ee0e428b427ee04d276a44567012c67",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring) as the first frame, then:"
+ },
+ {
+  "t": "2026-10-19 08:13:55",
+  "submitted": "1f05a019a56f1232955dff4739eee5af",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first fram"
+ },
+ {
+  "t": "2026-10-19 08:13:56",
+  "submitted": "a9a9a0ad5f513fb4c6e7aaf512ae4d5f",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light, heater) as the first frame, then: Slow walk-in dolly from"
+ },
+ {
+  "t": "2026-10-19 08:15:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first frame, then: The fingertip taps the plus button twice, the display stays lit, the finger lifts away. Camera fixed, very slight push-in. Real phone video, natural motion, the heater keeps its exact shape, size and top panel in every frame, no text. The heater must match reference image 2 exactly: matte-black mesh cylinder, the rectangular heater window, the round black top panel with the white display and red power button; it never changes shape or size. Only the hand and wrist enter from the frame edge, no forearm; skin tone and short pink French-tip nails stay the same in every frame; the hand grips what it touches.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792397633097-pnhnteqnla.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "69fa70d991fd92da17091db0da68b703",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792397731385-z6d14vephl.mp4"
+   ]
+  },
+  "costTime": 98
+ },
+ {
+  "t": "2026-10-19 08:15:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first frame, then: The hand carries the heater slowly to the right, keeping it upright and at the same distance from the camera; the camera pans with it. Real phone video, natural motion, the heater keeps its exact shape, size and top panel in every frame, no text. The heater must match reference image 2 exactly: matte-black mesh cylinder, the rectangular heater window, the round black top panel with the white display and red power button; it never changes shape or size. Only the hand and wrist enter from the frame edge, no forearm; skin tone and short pink French-tip nails stay the same in every frame; the hand grips what it touches.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792397633154-dqn4krdlnjt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "6431fc637a6bac68974f5d8872b50fcb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792397732597-zbkvi5d8k8.mp4"
+   ]
+  },
+  "costTime": 101
+ },
+ {
+  "t": "2026-10-19 08:16:08",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring) as the first frame, then: The finger presses the thermostat up arrow twice, then the hand leaves the frame to the right. The camera holds steady. Real phone video, natural motion, the heater keeps its exact shape, size and top panel in every frame, no text. Only the hand and wrist enter from the frame edge, no forearm; skin tone and short pink French-tip nails stay the same in every frame; the hand grips what it touches.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792397633259-d5na9bufcnc.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "7ee0e428b427ee04d276a44567012c67",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792397764176-dmsty6p447c.mp4"
+   ]
+  },
+  "costTime": 130
+ },
+ {
+  "t": "2026-10-19 08:16:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first frame, then: The hand puts the mug down and slides out of frame; the camera slowly pushes in toward the heater. Real phone video, natural motion, the heater keeps its exact shape, size and top panel in every frame, no text. The heater must match reference image 2 exactly: matte-black mesh cylinder, the rectangular heater window, the round black top panel with the white display and red power button; it never changes shape or size. Only the hand and wrist enter from the frame edge, no forearm; skin tone and short pink French-tip nails stay the same in every frame; the hand grips what it touches.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792397633052-m86mt921zb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "1f05a019a56f1232955dff4739eee5af",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792397766648-7ow7d6oyjzg.mp4"
+   ]
+  },
+  "costTime": 132
+ },
+ {
+  "t": "2026-10-19 08:17:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light, hand, gold bracelet, blue ring, heater) as the first frame, then: The hands rub together slowly, then hold open toward the heater again. The heater and the table do not move. Real phone video, natural motion, the heater keeps its exact shape, size and top panel in every frame, no text. The heater must match reference image 2 exactly: matte-black mesh cylinder, the rectangular heater window, the round black top panel with the white display and red power button; it never changes shape or size. Only the hand and wrist enter from the frame edge, no forearm; skin tone and short pink French-tip nails stay the same in every frame; the hand grips what it touches.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792397633074-oeqdv3xlvz9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "c86ee504616936660d445dfff3fe1767",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792397859667-fhbo32r0qkd.mp4"
+   ]
+  },
+  "costTime": 227
+ },
+ {
+  "t": "2026-10-19 08:18:39",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light, heater) as the first frame, then: Slow walk-in dolly from the doorway toward the heater, slight handheld feel. Only the camera moves. Real phone video, natural motion, the heater keeps its exact shape, size and top panel in every frame, no text. The heater must match reference image 2 exactly: matte-black mesh cylinder, the rectangular heater window, the round black top panel with the white display and red power button; it never changes shape or size. No hands and no people ever enter the frame.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792397633093-v803wnvbl6i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "a9a9a0ad5f513fb4c6e7aaf512ae4d5f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792397914588-8al8lg6b1bl.mp4"
+   ]
+  },
+  "costTime": 280
  }
 ]

@@ -111,5 +111,7 @@ out = {"hand_block": HAND, "heater_block": HEATER, "scene_block": SCENE,
 for s in out["shots"]:
     s["heater"] = s["id"] != "V1S2"   # the thermostat shot shows no heater
     s["panel"] = s["id"] in ("V1S8",)   # top-panel close-ups
+    if s["id"] == "V1S3": s["trim_top"] = 84   # clip QC: a sliver of the rope-chain bracelet at the top edge
+    if s["id"] == "V1S8": s["max_len"] = 3.42   # clip QC: display glitches + fake orange glow from frame ~84; the next shot covers the rest
 json.dump(out, open("shots.json", "w"), indent=1)
 for v in SHOTS: print(v, sum(not x[3] for x in SHOTS[v]), "hand-free of", len(SHOTS[v]))
