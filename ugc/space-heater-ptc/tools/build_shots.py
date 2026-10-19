@@ -1,7 +1,7 @@
 """Writes shots.json (the one source for stills, clips and the cut). Edit SHOTS here, run it, then python3 qc/gates_check.py shots."""
 import json
-HAND = ("Grace's hand only (no face, no body): medium-brown skin, medium-length pink French-tip nails, a gold watch-link bracelet with a thin "
-        "gold pearl chain and a small gold leaf charm on the wrist, a solid sky-blue silicone band ring on the ring finger, exactly as in the hand "
+HAND = ("Grace's hand only (no face, no body): medium-brown skin, medium-length pink French-tip nails, a chunky gold LINK BRACELET (a bracelet only: NO watch, no watch face, no dial) "
+        "plus a thin gold chain with small pearls and a gold leaf charm on the wrist, a solid sky-blue silicone band ring on the ring finger, exactly as in the hand "
         "reference photos. Only the hand and wrist enter from the frame edge, no forearm, the hand small next to the heater; it grips what it touches.")
 HEATER = ("The space heater exactly as in the product reference sheet: a small matte-black cylinder, 8.7 in tall and 6.2 in wide (height about 1.4 x "
           "width), fine hexagon-hole black mesh all around, a rectangular heater window with vertical bars behind the mesh on the lower-middle front, "
@@ -14,28 +14,28 @@ SCENE = ("Bright neutral daylight, true colours, no golden or yellow tint, no da
 SHOTS = {
  "V1": [
   ("V1S1", "I know I cannot be the only one who has that one room that never warms up.", "V1_window_nook_armchair", False,
-   "Wide view of the window nook: the heater stands on the wood floor a little in front of the armchair, sunlight from the window.",
+   "Wide view of the window nook: the heater stands on the bare wood FLOOR about two feet in front of the sofa, never on the sofa or any cushion, nothing touching it, soft daylight from the window.",
    "Slow walk-in dolly from the doorway toward the heater, slight handheld feel. Only the camera moves."),
   ("V1S2", "You turn the heat up for the whole house, and that room is still cold.", "V1_breakfast_table", True,
    "A plain white digital wall thermostat on the wall beside the breakfast table; the index finger presses its up arrow. No heater in this shot.",
    "The finger presses the thermostat up arrow twice, then the hand leaves the frame to the right. The camera holds steady."),
   ("V1S3", "So this little heater just goes wherever you are.", "V1_bedroom_desk_sun", True,
-   "The hand holds the heater by its top rim from above, fingers curled under the rim, lifting it a few inches off the bedroom floor.",
+   "One hand comes in from the top edge of the frame and carries the heater by its top rim: thumb on one side, fingers curled around and under the rim on the other side, a real grip; the heater hangs a few inches above the bedroom floor. Only the hand and wrist are in frame, no arm.",
    "The hand carries the heater slowly to the right, keeping it upright and at the same distance from the camera; the camera pans with it."),
   ("V1S4", "Bedroom in the morning,", "V1_nightstand_gold", False,
    "The heater stands on the wood floor next to the gold nightstand, morning light.",
    "Slow low arc around the heater from left to right. Only the camera moves; the room stays still."),
   ("V1S5", "your desk during the day,", "V1_office_yellow_chair", True,
-   "The heater stands on the floor beside the desk and the yellow chair; the hand sets a white coffee mug on the desk, fingers through the handle.",
+   "The heater stands on the floor beside the desk and the yellow chair. It is SHORT: 8.7 inches tall, about twice the height of a coffee mug, a squat cylinder, NOT a tall tower. On the desk, the hand sets down a white coffee mug, index and middle fingers through the mug handle and the thumb on top of it.",
    "The hand puts the mug down and slides out of frame; the camera slowly pushes in toward the heater."),
   ("V1S6", "the couch at night.", "V1_living_cream_sofa", False,
    "The heater stands on the rug in front of the cream sofa, a knit throw on the sofa arm, soft lamp light plus daylight (still bright).",
    "Slow sideways truck past the sofa toward the heater. Only the camera moves; the rug and sofa stay still."),
   ("V1S7", "It's fifteen hundred watts and heats up fast. And it's quiet.", "V1_breakfast_table", True,
-   "The heater stands on the breakfast table; both hands, palms open, warm themselves a few inches in front of the mesh, not touching it.",
+   "The heater stands on the breakfast table; both hands come in from the bottom edge, palms open toward the heater a few inches from the mesh, not touching it; only hands and wrists in frame, the hands no bigger than the heater.",
    "The hands rub together slowly, then hold open toward the heater again. The heater and the table do not move."),
   ("V1S8", "You set the exact temperature right on top or with the remote, and there's an ECO mode.", "V1_office_yellow_chair", True,
-   "Close top-down view of the heater's touch panel on the desk; the index fingertip touches the plus button; the white '73' display is lit.",
+   "Close top-down view of the heater's touch panel on the desk, exactly the REAL panel in reference image 5: a white '73' display in the centre, six small white-outlined round buttons in an arc on the left and lower edge, and one red power button on the right; no X button, no snowflake button. The index fingertip touches one outlined button on the lower edge.",
    "The fingertip taps the plus button twice, the display stays lit, the finger lifts away. Camera fixed, very slight push-in."),
   ("V1S9", "The only problem? Whoever gets it first is not giving it back.", "V1_living_cream_sofa", False,
    "Closer view from a low angle: the heater on the rug, the cream sofa and knit throw behind it.",
@@ -108,5 +108,8 @@ out = {"hand_block": HAND, "heater_block": HEATER, "scene_block": SCENE,
        "shots": [{"id": i, "video": v, "line": l, "room": f"rooms/{r}.jpg", "hand": h, "kind": "HAND" if h else "HAND-FREE",
                   "model": "seedance-mini-refs" if h else "kling-3.0", "dur": 5, "still": s, "motion": m}
                  for v, lst in SHOTS.items() for (i, l, r, h, s, m) in lst]}
+for s in out["shots"]:
+    s["heater"] = s["id"] != "V1S2"   # the thermostat shot shows no heater
+    s["panel"] = s["id"] in ("V1S8",)   # top-panel close-ups
 json.dump(out, open("shots.json", "w"), indent=1)
 for v in SHOTS: print(v, sum(not x[3] for x in SHOTS[v]), "hand-free of", len(SHOTS[v]))
