@@ -21,6 +21,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - Before the first paid image: confirm the real product (top, cap, label), the person's details (e.g. nail length)
   and which client it's for.
 - **Product reference sheet for every product (Ralph 2026-10-19):** before the first product still, build one free (real front label big + side/top/bottom shape views; AI views only for shape) and pass it on every product still and clip. `grace/PLAYBOOK.md` §6.
+- **Previews play in place, never as downloads (Ralph 2026-10-19: "keep the preview so I do not have to download"):** every still sheet, test clip and cut for review goes on ONE private Artifact review page per job (video + images as published files, newest on top, republished to the same URL each round) and the link goes in the reply. File attachments are extras, never the only way to see it.
 - **Phone notifications (standard, Ralph 2026-10-01):** he leaves the app, so notify him (one line, what
   to review + cost) every time something is ready for his review or needs his decision: a still sheet, a test clip, a
   cut, a redo/cost question. Not for routine progress. **By email (Ralph, 2026-10-12):** cloud sessions have NO
