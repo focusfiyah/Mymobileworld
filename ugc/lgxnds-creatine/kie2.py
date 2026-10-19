@@ -36,7 +36,8 @@ def still(sid):
 
 
 def clip(sid):
-    s = S[sid]; first = kie.upload(f"stills_v2/{sid}_label.png" if s["tub"] else f"stills_v2/{sid}.png")
+    s = S[sid]; RAW = "--raw" in sys.argv   # 2026-10-19 (Ralph: the pasted label looks fake): start from the clean Google still, no paste
+    first = kie.upload(f"stills_v2/{sid}_label.png" if s["tub"] and not RAW else f"stills_v2/{sid}.png")
     prompt = f"{s['video']} {V['video_suffix']}"
     if s["model"] == "kling":
         body = {"model": "kling-3.0-omni/image-to-video", "input": {"prompt": prompt, "image_urls": [first, first] if s.get("last_frame_same") else [first],
@@ -47,11 +48,11 @@ def clip(sid):
         if s.get("last_frame_same"): body["input"]["last_frame_url"] = first
     url = kie.run_task(body)
     if url:
-        kie.fetch(url, f"clips_v2/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+        kie.fetch(url, f"clips_v2/{sid}{'_raw' if RAW else ''}.mp4"); print("clip", sid, "ok", flush=True)
 
 
 if __name__ == "__main__":
-    kind, ids = sys.argv[1], sys.argv[2:]
+    kind, ids = sys.argv[1], [a for a in sys.argv[2:] if not a.startswith("--")]
     for d in ("stills_v2", "clips_v2"): Path(d).mkdir(exist_ok=True)
     fn = still if kind == "stills" else clip
     with ThreadPoolExecutor(max(1, len(ids))) as ex:
