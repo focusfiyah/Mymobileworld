@@ -7,4 +7,4 @@
 | No flavor, so it goes in your water, your shake, or your morning coffee. | unflavored (listing, Ralph); audience search "creatine in coffee" |
 | It supports strength, power and workout recovery. | label claims, stated directly (Grace 2026-10-04) |
 | Skip the gummies. One scoop a day, rest days too. | TikTok comment "just use the regular powder" (12 likes); audience "should creatine be taken on rest days" |
-| Grab the sixty servings so you're set for two months. It's in the orange cart. | count CTA (playbook §4); 60-serving size sold (product_facts.md); Grace close |
+| That's thirty scoops, so one tub covers your whole month. It's in the orange cart. | count CTA (playbook §4); 30 servings on the real label (refs/crop_tub_hi.png, Ralph 2026-10-19: "The serving is 30"); Grace close |

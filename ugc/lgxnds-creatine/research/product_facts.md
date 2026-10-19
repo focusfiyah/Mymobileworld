@@ -2,7 +2,7 @@
 
 | Fact | Source |
 |---|---|
-| LGXNDS Creatine Monohydrate, "100% PURE MICRONIZED", dietary supplement, net 150 g (5.29 oz), 30 servings; 60-serving size also sold | tub label + listing title (refs/tiktok_listing.jpg, Prime Sports shop) |
+| LGXNDS Creatine Monohydrate, "100% PURE MICRONIZED", dietary supplement, net 150 g (5.29 oz), 30 servings (Ralph 2026-10-19: "The serving is 30 not 50 or 60": scripts say 30 only; a 60-serving listing variant is NOT used) | tub label + listing title (refs/tiktok_listing.jpg, Prime Sports shop) |
 | "5G CREATINE PER SCOOP" | tub label badge |
 | Label claims (all marked †): "BOOSTS STRENGTH AND POWER", "SUPPORTS WORKOUT RECOVERY", "ENHANCES FOCUS, MEMORY, AND MENTAL SHARPNESS"; icons "INCREASE MUSCLE MASS", "BOOSTS SPORTS PERFORMANCE", "NEUROPROTECTIVE BENEFITS" | tub label |
 | Listing title: "Micronized For Better Mixability And Absorption ... Supports Strength Power And Faster Recovery" | Prime Sports listing (screenshot) |
