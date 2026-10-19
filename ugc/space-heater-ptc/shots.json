@@ -53,6 +53,7 @@
    "motion": "The hand carries the heater slowly to the right, keeping it upright and at the same distance from the camera; the camera pans with it.",
    "heater": true,
    "panel": false,
+   "trim_top": 84,
    "t": [
     7.92,
     10.38
@@ -143,6 +144,7 @@
    "motion": "The fingertip taps the plus button twice, the display stays lit, the finger lifts away. Camera fixed, very slight push-in.",
    "heater": true,
    "panel": true,
+   "max_len": 3.42,
    "t": [
     17.56,
     21.86

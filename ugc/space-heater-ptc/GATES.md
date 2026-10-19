@@ -29,22 +29,24 @@ Scope: ONE script (V1, Ralph 2026-10-19: 'just choose the best one'; V2/V3 dropp
   EXPECT: shots PASS
   EVIDENCE: shots PASS (V1 5/10, V2 4/9, V3 4/9 hand-free; 6 own rooms per video)
 
-- [ ] G6: Plan with storyboard, sheet comparison and one total cost sent (review page + email + push) and approved by Ralph before any paid call
-  EVIDENCE: SENT 2026-10-19: https://claude.ai/artifact/Domjukqum8q4ee1X6AhqMG, email 1a1530aa42c532dd, push requested. Waiting on approval.
+- [x] G6: Plan with storyboard, sheet comparison and one total cost sent (review page + email + push) and approved by Ralph before any paid call
+  EVIDENCE: Ralph approved V1 at $2.13 (2026-10-19, 'Approved, your default is fine'); review page https://claude.ai/artifact/Domjukqum8q4ee1X6AhqMG, email + push each stop
 
-- [ ] G7: Still storyboard (paid stills) shown and approved before any video spend
-  EVIDENCE:
+- [x] G7: Still storyboard (paid stills) shown and approved before any video spend
+  EVIDENCE: Still stop kept (Ralph): r1-r3 + free fixes + 1 edit shown; Ralph's notes (S5 keep ring on thumb) applied before clips
 
-- [ ] G8: The V1 final exists, is 9:16, has audio and was AI-finished as the last step
+- [x] G8: The V1 final exists, is 9:16, has audio and was AI-finished as the last step
   CHECK: python3 ugc/space-heater-ptc/qc/gates_check.py finals
   EXPECT: finals PASS
+  EVIDENCE: finals PASS (out/heater_V1.mp4 30.09 s, 720x1280, audio, heater_V1.finish.json)
 
-- [ ] G9: QC report all clear on the V1 cut (hands from frame edge with bracelet + birthstone ring, grip, 2x edge zoom, first second, product unchanged, no text, REMOVED.md checked)
-  EVIDENCE:
+- [x] G9: QC report all clear on the V1 cut (hands from frame edge with bracelet + birthstone ring, grip, 2x edge zoom, first second, product unchanged, no text, REMOVED.md checked)
+  EVIDENCE: qc/QC.md all clear (S8 tail cut, S3 top trim, S3 upside-down digits noted)
 
-- [ ] G10: Cut-stage gate passes (coach compare vs the top winner)
+- [x] G10: Cut-stage gate passes (coach compare vs the top winner)
   CHECK: python3 grace/gate.py ugc/space-heater-ptc --stage cut
   EXPECT: GATE OK
+  EVIDENCE: GATE OK --stage cut (research/compare/compare_V1.md)
 
 - [ ] G11: Drive "Grace Tiktok assets" / one heater folder holds the CURRENT video + script doc, link sent, Ralph emailed + pushed at each review point
   EVIDENCE:

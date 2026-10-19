@@ -18,7 +18,7 @@ Paste the block below into any of:
 - Be efficient: low token use, short updates, no wasted time or money.
 - Ask questions, don't assume. An unclear instruction gets one short question, not a guess.
 - Ask before EVERY paid generation (images, video, voice), including redos and retries, with the exact cost.
-- Try free fixes first (crop, blur, re-cut) before paying for a reroll.
+- Try free fixes first (crop, blur, re-cut) before paying for a reroll. Still fixes: free first, then a paid one-item edit (Ralph 2026-10-19, heater): crop the wrong detail out of frame (use an earlier round's still if it had the right product), clone or inpaint, redraw small icons; only when that looks fake, a paid nano-banana edit that changes ONE item. Never paint a ring off a finger (looks weird): a ring on the wrong finger stays.
 - Email me (life22watch@gmail.com, via the Composio Gmail connection) whenever something is ready for my review or needs my decision; AND a phone push every time (PushNotification is deferred in cloud sessions: ToolSearch "select:PushNotification" first; it reaches my phone from mobile/web but is skipped while I have the app open, so email is the backup). I leave the app.
 - Google Drive (2026-10-05): every job, scripts-only too, ends with its files in Drive "Grace Tiktok assets" in ONE folder per product (search first, reuse the existing folder). Latest file prefixed "CURRENT - "; superseded files renamed "vN (date)" and moved into an "Older versions" subfolder; nothing loose in Grace Tiktok assets. Send me the folder link. Scripts: no PDF, ever (2026-10-07).
 - Client ad work lives in GitHub repo focusfiyah/Mymobileworld (its CLAUDE.md, `grace/PLAYBOOK.md`, the `ugc-product-ad` skill).

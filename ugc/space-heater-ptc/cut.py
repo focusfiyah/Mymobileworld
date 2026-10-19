@@ -22,11 +22,17 @@ def wb(src, at):
     return f"colorchannelmixer=rr={r:.3f}:gg={gg:.3f}:bb={b:.3f},eq=brightness=0.015:contrast=1.03,"
 
 
+carry = 0.0   # a shot with max_len (bad tail in its clip) hands its remaining time to the next shot
+for s in S:
+    d = round(s["t"][1] - s["t"][0] + carry, 3); carry = 0.0
+    if s.get("max_len") and d > s["max_len"]: carry = d - s["max_len"]; d = s["max_len"]
+    s["_d"] = d
 inp, ch = [], []
 for i, s in enumerate(S):
-    src = s.get("clip", f"clips/{s['id']}.mp4"); a = s.get("from", 0.0); d = round(s["t"][1] - s["t"][0], 3)
+    src = s.get("clip", f"clips/{s['id']}.mp4"); a = s.get("from", 0.0); d = s["_d"]
     inp += ["-i", src]
-    ch.append(f"[{i}:v]trim=start={a}:duration={d},setpts=PTS-STARTPTS,{wb(src, a + d / 2)}scale=720:1280:force_original_aspect_ratio=increase,"
+    tt = f"crop=iw:ih-{s['trim_top']}:0:{s['trim_top']}," if s.get("trim_top") else ""
+    ch.append(f"[{i}:v]trim=start={a}:duration={d},setpts=PTS-STARTPTS,{tt}{wb(src, a + d / 2)}scale=720:1280:force_original_aspect_ratio=increase,"
               f"crop=720:1280,setsar=1,fps=24[v{i}]")
 k = len(S)
 fc = ";".join(ch) + ";" + "".join(f"[v{i}]" for i in range(k)) + f"concat=n={k}:v=1:a=0[v]"

@@ -18,7 +18,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
   permission for another one.
 - An unclear instruction gets one short question, not a guess.
 - **Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session (Ralph 2026-10-06, after I said TikTok comments were unreachable untested; a 10-second test showed they work).** Run one small real request first; report what the test returned; if I did not test, say "not tested" and test it or ask. Notes from earlier sessions are leads to re-test, not facts.
-- Free fixes first (ffmpeg/PIL blur, crop, retime) before any reroll.
+- Free fixes first (ffmpeg/PIL blur, crop, retime) before any reroll. **Still fixes:** free first, then a paid one-item edit (Ralph 2026-10-19, heater): crop the wrong detail out of frame (use an earlier round's still if it had the right product), clone or inpaint, redraw small icons; only when that looks fake, a paid nano-banana edit that changes ONE item. Never paint a ring off a finger (looks weird): a ring on the wrong finger stays. (`ugc/space-heater-ptc/tools/free_fix.py`)
 - Before the first paid image: confirm the real product (top, cap, label), the person's details (e.g. nail length)
   and which client it's for.
 - **Product reference sheet for every product (Ralph 2026-10-19):** before the first product still, build one free (real front label big + side/top/bottom shape views; AI views only for shape) and pass it on every product still and clip. `grace/PLAYBOOK.md` §6.
