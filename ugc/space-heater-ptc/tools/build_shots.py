@@ -1,7 +1,7 @@
 """Writes shots.json (the one source for stills, clips and the cut). Edit SHOTS here, run it, then python3 qc/gates_check.py shots."""
 import json
-HAND = ("Grace's hand only (no face, no body): medium-brown skin, medium-length pink French-tip nails, a chunky gold LINK BRACELET (a bracelet only: NO watch, no watch face, no dial) "
-        "plus a thin gold chain with small pearls and a gold leaf charm on the wrist, a solid sky-blue silicone band ring on the ring finger, exactly as in the hand "
+HAND = ("Grace's hand only (no face, no body): medium-brown skin, medium-length pink nails with WHITE French tips on every nail, a FLAT gold bracelet made of flat rectangular links like a watch band (NO watch face, no dial, NOT a rope or cable chain) "
+        "plus a thin gold chain with small pearls and a gold leaf charm on the wrist, ONE solid sky-blue silicone band ring on the ring finger only (one ring, never two), exactly as in the hand "
         "reference photos. Only the hand and wrist enter from the frame edge, no forearm, the hand small next to the heater; it grips what it touches.")
 HEATER = ("The space heater exactly as in the product reference sheet: a small matte-black cylinder, 8.7 in tall and 6.2 in wide (height about 1.4 x "
           "width), fine hexagon-hole black mesh all around, a rectangular heater window with vertical bars behind the mesh on the lower-middle front, "
@@ -26,7 +26,7 @@ SHOTS = {
    "The heater stands on the wood floor next to the gold nightstand, morning light.",
    "Slow low arc around the heater from left to right. Only the camera moves; the room stays still."),
   ("V1S5", "your desk during the day,", "V1_office_yellow_chair", True,
-   "The heater stands on the floor beside the desk and the yellow chair. It is SHORT: 8.7 inches tall, about twice the height of a coffee mug, a squat cylinder, NOT a tall tower. On the desk, the hand sets down a white coffee mug, index and middle fingers through the mug handle and the thumb on top of it.",
+   "The heater stands on the floor beside the desk and the yellow chair. It is SHORT: 8.7 inches tall, about twice the height of a coffee mug, a ROUND cylinder (a circle seen from above), NOT a tall tower, NOT a rounded box, one colour all the way down with no grey base. On the desk, the hand sets down a white coffee mug, index and middle fingers through the mug handle and the thumb on top of it.",
    "The hand puts the mug down and slides out of frame; the camera slowly pushes in toward the heater."),
   ("V1S6", "the couch at night.", "V1_living_cream_sofa", False,
    "The heater stands on the rug in front of the cream sofa, a knit throw on the sofa arm, soft lamp light plus daylight (still bright).",
@@ -35,7 +35,7 @@ SHOTS = {
    "The heater stands on the breakfast table; both hands come in from the bottom edge, palms open toward the heater a few inches from the mesh, not touching it; only hands and wrists in frame, the hands no bigger than the heater.",
    "The hands rub together slowly, then hold open toward the heater again. The heater and the table do not move."),
   ("V1S8", "You set the exact temperature right on top or with the remote, and there's an ECO mode.", "V1_office_yellow_chair", True,
-   "Close top-down view of the heater's touch panel on the desk, exactly the REAL panel in reference image 5: a white '73' display in the centre, six small white-outlined round buttons in an arc on the left and lower edge, and one red power button on the right; no X button, no snowflake button. The index fingertip touches one outlined button on the lower edge.",
+   "Close top-down view of the heater's touch panel on the desk, exactly the REAL panel in reference image 5: a white '73' display in the centre, six small white-outlined round buttons in an arc on the left and lower edge, and one RED power button on the right edge of the panel; no X button, no snowflake button. The index fingertip touches one outlined button on the lower edge.",
    "The fingertip taps the plus button twice, the display stays lit, the finger lifts away. Camera fixed, very slight push-in."),
   ("V1S9", "The only problem? Whoever gets it first is not giving it back.", "V1_living_cream_sofa", False,
    "Closer view from a low angle: the heater on the rug, the cream sofa and knit throw behind it.",
