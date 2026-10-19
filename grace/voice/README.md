@@ -5,3 +5,6 @@
 - Grace B `bGrsdLmwBbYUgHRuMFOI`: retired. 1-sample instant clone; Grace said it doesn't sound like her.
 - `grace_voice_AB.mp3` = real Grace 7 s, then B, then C, each levelled to -16 LUFS.
 - Source audio (src/) is gitignored; re-download from Drive if needed.
+- **Open (Ralph 2026-10-19, LGXNDS v6):** Grace C has a slight room echo, baked into the clone (her Wag Bag takes have room echo).
+  Free ffmpeg cleanup (highpass/afftdn/gate/EQ) changed nothing measurable; DeepFilterNet can't fetch its model (GitHub raw 403).
+  Ralph chose "re-clone later": rebuild Grace C from de-echoed takes (quote the cleaning + clone cost first). Until then v6 keeps the current C.
