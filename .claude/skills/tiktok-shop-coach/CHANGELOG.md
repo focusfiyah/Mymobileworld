@@ -1,0 +1,1 @@
+- 2026-10-19: tiktok.py fetch_item falls back to a plain request when headless Chromium gets a maintenance page (ported from the 2026-10-17 repo fix).
