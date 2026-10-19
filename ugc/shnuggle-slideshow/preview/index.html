@@ -27,6 +27,12 @@ th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute
 .cap{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
 .cap b{color:var(--accent)}
 ul{margin:0;padding-left:20px;display:grid;gap:4px}
+.swipe{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
+.swipe figure{flex:0 0 min(78%,300px);margin:0;scroll-snap-align:start;display:grid;gap:6px}
+.swipe img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:10px;border:1px solid var(--line);background:var(--surface)}
+.swipe figcaption{font-size:13px;color:var(--muted)}
+.swipe .rejected img{opacity:.55}
+.swipe .rejected figcaption{color:var(--warn)}
 img{max-width:100%}
 </style>
 <main>
@@ -36,7 +42,20 @@ img{max-width:100%}
   </header>
 
   <section class="status">
-    <p><strong>Waiting for Ralph's OK.</strong> Nothing spent yet. 6 product stills at $0.09 each = <b>$0.54</b> on Kie (balance $4.19). The riskiest slide (S4, the inside view) runs first; the other 5 only after it passes QC.</p>
+    <p><strong>Round 1: slides 1 to 5 done, slide 6 needs a redo.</strong> Spent $0.54 of the $0.54 approved (Kie balance now $3.65). Slide 6 put the tub on the edge of the bath instead of inside it. Redo it for $0.09, or post these 5 (TikTok suggests 5 to 7 photos).</p>
+  </section>
+
+  <section>
+    <h2>Round 1 slides, in posting order</h2>
+    <p>Swipe sideways. No text. The tub is copied from the real photo, with a smooth inside (no dots or holes), and nothing added. Two tiny ® marks the AI drew next to the logo on slides 4 and 5 were painted out for free.</p>
+    <div class="swipe">
+      <figure><img src="r1/S1.jpg" alt="Slide 1: toddler tub inside a big family bath"><figcaption>1 · Hook</figcaption></figure>
+      <figure><img src="r1/S2.jpg" alt="Slide 2: tub on a walk-in shower tray"><figcaption>2 · Shower tray</figcaption></figure>
+      <figure><img src="r1/S3.jpg" alt="Slide 3: straight-on front, backrest and logo"><figcaption>3 · Front</figcaption></figure>
+      <figure><img src="r1/S4.jpg" alt="Slide 4: looking down inside the tub"><figcaption>4 · Inside</figcaption></figure>
+      <figure><img src="r1/S5.jpg" alt="Slide 5: three-quarter view showing the grey feet"><figcaption>5 · Grip feet</figcaption></figure>
+      <figure class="rejected"><img src="r1/S6_rejected.jpg" alt="Rejected slide 6: tub perched on the bath edge"><figcaption>6 · Rejected: on the bath edge</figcaption></figure>
+    </div>
   </section>
 
   <section>
@@ -59,16 +78,16 @@ img{max-width:100%}
       <tr><td>S1</td><td>Hook</td><td>Tub standing inside an empty family bath, from above, so you see how much smaller it is</td></tr>
       <tr><td>S2</td><td>Detail</td><td>Tub alone on a walk-in shower tray</td></tr>
       <tr><td>S3</td><td>Detail</td><td>Straight-on front: grey backrest and logo badge</td></tr>
-      <tr><td>S4</td><td>Detail</td><td>Looking down inside: seat bump, grippy circle pattern, backrest</td></tr>
-      <tr><td>S5</td><td>Proof</td><td>Side profile: sloped rim and the grey grip feet</td></tr>
+      <tr><td>S4</td><td>Detail</td><td>Looking down inside: smooth seat bump and backrest (no dots or holes)</td></tr>
+      <tr><td>S5</td><td>Proof</td><td>Three-quarter view showing the grey grip feet</td></tr>
       <tr><td>S6</td><td>Close</td><td>Closer three-quarter view inside the family bath</td></tr>
     </table>
     </div>
   </section>
 
   <section>
-    <h2>Caption options (Grace posts one)</h2>
-    <div class="cap"><p><b>A, recommended (hook H066)</b></p><p>This is such a specific problem, but if you have it, you know. Your toddler outgrew the baby tub and the big bath still feels way too big. This one sits right in the shower or the family bath. It has a soft foam backrest and a grippy inside so they stay put. It's in the orange cart.</p></div>
+    <h2>Caption (Ralph picked A)</h2>
+    <div class="cap"><p><b>A, chosen (hook H066)</b></p><p>This is such a specific problem, but if you have it, you know. Your toddler outgrew the baby tub and the big bath still feels way too big. This one sits right in the shower or the family bath. It has a soft foam backrest and a grippy inside so they stay put. It's in the orange cart.</p></div>
     <div class="cap"><p><b>B (hook H046)</b></p><p>This stays in my shower for a reason. It sits right on the shower tray and needs way less water than filling the big bath. The foam backrest is soft to lean on, and the inside is grippy. It's in the orange cart.</p></div>
     <p>Reading grade 3.4 (A) and 2.9 (B). Humanizer: clean. Hashtags: #toddlerbath #toddlermom #momfinds #tiktokshop. Grace adds the music in the app from TikTok's Commercial Music Library.</p>
   </section>

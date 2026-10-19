@@ -10,11 +10,11 @@ Ralph 2026-10-19: "stay true to the product image and not to add anything additi
 | S1 | Hook | Tub standing inside an empty full-size family bath, from slightly above: how much smaller it is |
 | S2 | Detail | Tub alone on a walk-in shower tray, 3/4 view |
 | S3 | Detail | Straight-on front: grey backrest + logo badge |
-| S4 | Detail | Top-down inside: seat bump, grippy circle pattern, backrest |
+| S4 | Detail | Top-down inside: smooth seat bump, backrest (no dots or holes: Ralph 2026-10-19) |
 | S5 | Proof | Side profile: sloped rim, grey grip feet |
 | S6 | Close | Closer 3/4 hero, tub inside the family bath |
 
-## Caption (Grace posts it; recommend A)
+## Caption: A (Ralph 2026-10-19 "Go with A")
 A (hook H066, word for word): This is such a specific problem, but if you have it, you know. Your toddler outgrew the baby tub and the big bath still feels way too big. This one sits right in the shower or the family bath. It has a soft foam backrest and a grippy inside so they stay put. It's in the orange cart.
 
 B (hook H046, word for word, blank = "shower"): This stays in my shower for a reason. It sits right on the shower tray and needs way less water than filling the big bath. The foam backrest is soft to lean on, and the inside is grippy. It's in the orange cart.
