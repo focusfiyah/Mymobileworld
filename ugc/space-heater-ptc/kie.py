@@ -156,6 +156,14 @@ EDITS = {   # targeted edits of an otherwise-good still (PLAYBOOK §6, BodyJ les
              "Edit image 1. Change ONLY the blue silicone ring: take it off the thumb and put it on the RING finger (the fourth finger), so the thumb has "
              "no ring and there is exactly one blue ring. Keep everything else identical: the hand, its grip on the mug, the bracelets, the nails, the "
              "mug, the heater, the room, the light, the framing."),
+    "V1S4": ("stills/r1b/V1S4.png", ["refs/product_sheet.png"],   # Ralph 2026-10-19: heater looks too big
+             "Edit image 1. Change ONLY the size of the black heater: make it much smaller, its true size of 8.7 inches tall, so its top reaches "
+             "only about a third of the way up to the nightstand's glass top, standing on the floor in the same spot. Fill the space it no longer "
+             "covers with the same floor, nightstand legs, cable and wall. Keep the heater's look exactly (image 2) and everything else identical."),
+    "V1S9": ("stills/r1b/V1S9.png", ["refs/product_sheet.png"],   # Ralph 2026-10-19: heater looks too big
+             "Edit image 1. Change ONLY the size of the black heater: make it much smaller, its true size of 8.7 inches tall, so its top reaches "
+             "only about halfway up the sofa seat's front, standing on the rug a little in front of the sofa. Fill the space it no longer covers "
+             "with the same rug, sofa and throw. Keep the heater's look exactly (image 2) and everything else identical."),
     "V1S8": ("stills/fix/V1S8_icons.png", ["refs/front_cutout.png"],   # icons already fixed free (tools/free_fix.py S8); only the window left
              "Edit image 1. Change ONLY the heater's front window: the rectangular heater window with vertical bars must sit BEHIND the black "
              "hexagon-hole mesh, exactly like the real heater in image 2: the mesh continues across the window, the bars show faintly through the "
