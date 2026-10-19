@@ -5,8 +5,8 @@ everything, 3 different scripts styles/angles", plus "provide a reference sheet 
 Route: `ugc-product-ad` hands-only demo over a voiceover, the LGXNDS v6 method (Gemini 3 Pro Image stills from the product sheet, no
 pasted label; hand clips Seedance 2.0 Mini reference mode on Kie; hand-free clips Kling 3.0 on Ralph's account). VO Grace C, -16 LUFS.
 
-Status: 2026-10-19 V1 approved ($2.13 plan). VO done (Grace C, 30.1 s, 580 chars). Stills: r1 $0.90 (4 OK), r2 redo of 6 $0.54 (S1, S7 OK; S2 nails, S3/S5/S8 rope-chain bracelet from my "chunky link" prompt, S5 two rings + boxy heater, S8 no red power). Asked: redo 4 more $0.36 with S7 as look ref. Next: clips (5 Seedance refs + 5 Kling turbo) -> cut.
-Spent: Kie $1.44 (balance 1210 cr), Kling 0 (528 before). Quote $2.13 Kie + ~160 Kling + 580 EL chars. Review page https://claude.ai/artifact/Domjukqum8q4ee1X6AhqMG
+Status: 2026-10-19 V1 approved ($2.13 plan). VO done (Grace C, 30.1 s). Stills r1 $0.90, r2 $0.54, r3 $0.36 (S2 OK; S3 oval heater, S5 ring on thumb, S8 ECO/MODE words + open window). Asked: targeted nano-banana edits S3 (from r2) + S5 (+ S8 optional), $0.18-0.27. OK so far: S1 S2 S4 S6 S7 S9 S10. Next: clips -> cut.
+Spent: Kie $1.80 (balance 1138 cr), Kling 0 (528 before). Quote $2.13 Kie + ~160 Kling + 580 EL chars. Review page https://claude.ai/artifact/Domjukqum8q4ee1X6AhqMG
 
 ## Files
 - `refs/listing/` real listing images (g01-g13 gallery, d01-d07 description). `refs/ralph_sheet.jpg` Ralph's AI sheet.

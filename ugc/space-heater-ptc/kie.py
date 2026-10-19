@@ -147,10 +147,41 @@ def clips(ids):
     with ThreadPoolExecutor(len(ids)) as ex:
         list(ex.map(clip, ids))
 
+EDITS = {   # targeted edits of an otherwise-good still (PLAYBOOK §6, BodyJ lesson: an edit fixes one item where fresh stills keep failing)
+    "V1S3": ("stills/r2/V1S3.png", ["stills/look_ref.png", "refs/hand/bracelet_wrist.png"],
+             "Edit image 1. Change ONLY the jewellery on the wrist: replace the rope-chain bracelet with the FLAT gold bracelet of flat rectangular links "
+             "(like a watch band, no watch face) plus the thin gold chain with small pearls and a gold leaf charm, exactly as worn in image 2 and shown in "
+             "image 3. Keep everything else identical: the hand, its grip on the rim, the blue ring, the nails, the heater, the room, the light, the framing."),
+    "V1S5": ("stills/r3/V1S5.png", ["stills/look_ref.png"],
+             "Edit image 1. Change ONLY the blue silicone ring: take it off the thumb and put it on the RING finger (the fourth finger), so the thumb has "
+             "no ring and there is exactly one blue ring. Keep everything else identical: the hand, its grip on the mug, the bracelets, the nails, the "
+             "mug, the heater, the room, the light, the framing."),
+    "V1S8": ("stills/r3/V1S8.png", ["refs/top_panel.png", "refs/front_cutout.png"],
+             "Edit image 1. Change ONLY the heater, to match the real one in images 2 and 3: (a) the touch-panel buttons are small white-outlined round "
+             "buttons with ICONS only (lock, timer, minus, thermometer, plus, fan), no words like ECO or MODE on any button; keep the white '73' and "
+             "the red power button; (b) the rectangular heater window with vertical bars sits BEHIND the black hexagon-hole mesh, the mesh continues "
+             "over it, no open frame. Keep the hand, the finger touching the lower button, the ring, the nails, the bracelets, the table, the room, "
+             "the light and the framing identical."),
+}
+
+
+def edit(sid):
+    src, extra, text = EDITS[sid]
+    url = run_task({"model": "nano-banana-pro", "input": {"prompt": text, "image_input": [upload(src)] + [upload(p) for p in extra],
+                                                          "aspect_ratio": "9:16", "resolution": "1K"}})
+    if url:
+        fetch(url, f"stills/{sid}.png"); print("edit", sid, "ok", flush=True)
+
+
+def edits(ids):
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(len(ids)) as ex:
+        list(ex.map(edit, ids))
+
 
 def sheet(kind, ext):
     """One labelled preview image: every still, or 4 frames per clip (one row per clip)."""
-    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+    files = sorted([f for f in Path(kind).glob(f"*{ext}") if f.stem in SHOTS], key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
     Path("preview").mkdir(exist_ok=True)
     if kind == "stills":
         inputs = sum([["-i", str(f)] for f in files], [])
@@ -182,4 +213,4 @@ def sheet(kind, ext):
 if __name__ == "__main__":
     os.chdir(Path(__file__).parent)
     cmd, ids = sys.argv[1], sys.argv[2:] or [s for s in MAIN if s.startswith("V1")]
-    {"stills": stills, "clips": clips}[cmd](ids)
+    {"stills": stills, "clips": clips, "edits": edits}[cmd](ids)
