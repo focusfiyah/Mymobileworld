@@ -1,0 +1,507 @@
+{
+  "product": "Shnuggle Toddler Bath Tub (white, light grey foam backrest)",
+  "client": "Grace",
+  "voice": {
+    "name": "Grace B",
+    "voice_id": "bGrsdLmwBbYUgHRuMFOI",
+    "model": "eleven_v4"
+  },
+  "hand_block": "The only person is Grace, and only her hand and wrist are seen, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring (the birthstone ring, exactly like the ring packshot) on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelets, NO watch, nothing on the wrist. The hand and wrist enter from a frame edge with the wrist touching the frame edge; the forearm stays OUTSIDE the frame (no forearm, no arm), and the hand stays small next to the tub. When the hand touches something it GRIPS it with curled fingers, never a flat palm lying on it. No face, no other people, no children, no babies.",
+  "prod_block": "The tub is exactly the Shnuggle Toddler Bath in the product reference photos: one-piece glossy white plastic oval tub, a high curved back that slopes down to a low front lip, a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; inside floor a smooth raised seat bump and a pattern of small thin raised circle outlines (rings, not filled dots); a small round white plug with a little pull tab set into the flat dotted floor at the FRONT (low end) of the tub, in front of the seat bump, never on top of the bump. It keeps this exact shape, size, colours and logo in every frame: no morphing, no extra text, no handles, no other parts.",
+  "scenes": {
+    "R1": "Setting: a bright bathroom with SAGE-GREEN glossy tiles on every wall and a corner walk-in shower with a clear glass door, chrome shower head, a light grey shower tray floor; the white tub stands out clearly against the green; soft white daylight from a window, clean neutral white balance, bright, no golden, yellow or dark tones; folded white towels, a light grey bath mat. Shot on a phone, realistic, no cinematic grading. No on-screen text.",
+    "R2": "Setting: a bright bathroom with soft BLUSH-PINK tiles on every wall, a white claw-foot bathtub with chrome taps and a chrome hand shower, light grey floor tiles, a green eucalyptus plant, a light wood stool with a folded grey towel; the white tub stands out clearly against the pink; soft white daylight, clean neutral white balance, bright, no golden, yellow or dark tones. Shot on a phone, realistic, no cinematic grading. No on-screen text. SCALE: the Shnuggle is a small toddler tub, about 75 cm long; the claw-foot bathtub is a full adult bath about 170 cm long. Whenever both are seen, the Shnuggle takes up LESS THAN HALF the bath's length and clearly narrower than the bath, with lots of empty white bath around it; it never fills the bath, never touches both ends, never sticks out over the rim."
+  },
+  "video_suffix": "Fingers stay anatomically correct (five fingers). The tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+  "videos": {
+    "R1": [
+      {
+        "id": "R1-01",
+        "vo": "One year of daily coffee could cost more than this toddler tub.",
+        "hand": true,
+        "prod": true,
+        "dur": 5,
+        "src": "still",
+        "still": "Medium shot at the walk-in shower: the empty Shnuggle tub stands on the shower tray; the hand enters from the bottom right edge gripping a plain white paper takeaway coffee cup with a white lid and a kraft sleeve, NO logo, setting it down on the tiled shower ledge beside the tub.",
+        "video": "The hand sets the coffee cup down on the ledge, lets go and leaves the frame at the bottom right; the camera slowly pushes in toward the tub.",
+        "t": [
+          0.0,
+          3.5
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "clip": "clips_fixed/R1-01.mp4",
+        "cut_in": 1.5,
+        "fix": "2026-10-16: Seedance printed a shnuggle logo on the plain coffee sleeve; tools/fix_sleeve.py from 1.2s, shot starts after the hand leaves"
+      },
+      {
+        "id": "R1-02",
+        "vo": "Honestly though, I get why it seems overpriced.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "video": "Slow handheld walk-in toward the tub in the shower; only the camera moves, nothing in the room moves.",
+        "still": "Medium-wide shot of the corner walk-in shower: the empty Shnuggle tub stands alone on the light grey shower tray, sage-green tiles all around.",
+        "t": [
+          3.5,
+          6.4
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "clip": "clips_fixed/R1-02.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      },
+      {
+        "id": "R1-03",
+        "vo": "But when your baby outgrows their baby tub",
+        "hand": false,
+        "prod": false,
+        "dur": 4,
+        "src": "still",
+        "still": "Top-down on the light grey bath mat: a small plain white infant bath tub with a grey mesh newborn sling, no logo, no text, next to the Shnuggle tub, the size difference obvious.",
+        "video": "Slow overhead drift from the small infant tub across to the bigger Shnuggle tub; only the camera moves.",
+        "t": [
+          6.4,
+          8.54
+        ],
+        "look_ref": "stills/R1-11_crop.png"
+      },
+      {
+        "id": "R1-04",
+        "vo": "and the regular tub still feels too big, finding something in between is hard.",
+        "hand": false,
+        "prod": false,
+        "dur": 5,
+        "src": "still",
+        "still": "High angle looking down into a large empty white built-in family bathtub in the same sage-green tiled bathroom, chrome tap, nothing inside it; it looks huge.",
+        "video": "The camera slowly cranes down and forward over the rim into the big empty bathtub; nothing moves, no people.",
+        "t": [
+          8.54,
+          12.88
+        ],
+        "look_ref": "stills/R1-11_crop.png"
+      },
+      {
+        "id": "R1-05",
+        "vo": "Most options I found were for babies up to around six months,",
+        "hand": true,
+        "prod": false,
+        "dur": 4,
+        "src": "still",
+        "still": "Close-up of a small plain white infant tub with a newborn mesh sling, no logo, on the bathroom counter; the hand enters from the right edge and presses two fingertips into the small sling.",
+        "video": "The fingertips press the mesh sling down gently and lift off, showing how tiny it is; camera static.",
+        "t": [
+          12.88,
+          16.36
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "crop": [
+          0,
+          129,
+          575,
+          1022
+        ],
+        "fix": "2026-10-16: teal bangle on the wrist (x>=584 of 720) cropped out"
+      },
+      {
+        "id": "R1-06",
+        "vo": "and even the ones that grow with your baby typically only go up to twelve months.",
+        "hand": true,
+        "prod": false,
+        "dur": 5,
+        "src": "still",
+        "still": "Medium close-up: a plain grey-and-white convertible infant tub with a fold-down newborn seat, no logo, no text, on the bath mat; the hand grips the folded seat.",
+        "video": "The hand folds the little newborn seat down flat, then lets go; camera static.",
+        "t": [
+          16.36,
+          20.42
+        ],
+        "look_ref": "stills/R1-11_crop.png"
+      },
+      {
+        "id": "R1-07",
+        "vo": "My baby girl is fourteen months, and this Shnuggle tub is designed to be used up to age three.",
+        "hand": false,
+        "prod": true,
+        "dur": 6,
+        "src": "still",
+        "still": "Medium close-up: the Shnuggle tub on the shower tray, half filled with clear water, a plain yellow rubber duck and a grey stacking cup floating.",
+        "video": "The duck bobs gently on the water while the camera slowly pushes in.",
+        "t": [
+          20.42,
+          25.74
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "crop": [
+          90,
+          0,
+          540,
+          960
+        ],
+        "fix": "cropped above the AI plug (Ralph 2026-10-16)"
+      },
+      {
+        "id": "R1-08",
+        "vo": "So we're definitely getting our money's worth.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "The Shnuggle tub on the shower tray filled with clear water and a light layer of white bubbles, the rubber duck floating, a folded white towel on the shower ledge.",
+        "video": "Slow camera arc to the left around the front of the tub, the bubbles shimmer gently; only the camera moves.",
+        "t": [
+          25.74,
+          28.02
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "clip": "clips_fixed/R1-08.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      },
+      {
+        "id": "R1-09",
+        "vo": "It has a supportive foam backrest,",
+        "hand": true,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Close-up inside the empty dry Shnuggle tub: the light grey oval foam backrest fills the frame; the hand enters from the bottom right and presses four fingertips into the foam.",
+        "video": "The fingertips press into the foam backrest, it gives softly, then springs back as the hand lifts away; camera static.",
+        "t": [
+          28.02,
+          30.04
+        ],
+        "look_ref": "stills/R1-11_crop.png"
+      },
+      {
+        "id": "R1-10",
+        "vo": "non-slip feet, and an easy-drain plug.",
+        "hand": true,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Low angle at floor level on the wet white shower tray: the base of the Shnuggle tub with its small grey foot pads on the wet tray; the hand grips the rim at the top edge of frame.",
+        "video": "The hand pushes the rim sideways; the tub stays planted on the wet tray and does not slide; camera static.",
+        "t": [
+          30.04,
+          32.4
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "fix": "2026-10-16 (Ralph: remove the plug, mention it only): also covers the plug line"
+      },
+      {
+        "id": "R1-12",
+        "vo": "It's sturdy and well-made, so you can potentially save it for your next toddler.",
+        "hand": false,
+        "prod": true,
+        "dur": 5,
+        "src": "still",
+        "still": "The empty, dry Shnuggle tub on the bath mat outside the shower, sage-green tiles behind, a folded white towel beside it.",
+        "video": "Slow camera orbit half way around the empty tub, showing its thick rim and solid shape; only the camera moves.",
+        "t": [
+          32.4,
+          36.7
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "clip": "clips_fixed/R1-12.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      },
+      {
+        "id": "R1-13",
+        "vo": "But before you buy, check for coupons. If you catch a flash sale, even better, those deals can disappear.",
+        "hand": true,
+        "prod": true,
+        "dur": 6,
+        "src": "still",
+        "still": "Over-the-shoulder-free POV: the hand holds a phone in the lower half of the frame, its screen a soft bright blur with no readable text; the Shnuggle tub sharp on the shower tray in the background.",
+        "video": "The thumb scrolls the blurred phone screen twice, the tub stays in the background; slight handheld sway.",
+        "t": [
+          36.7,
+          42.66
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "clip": "clips_fixed/R1-13.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      },
+      {
+        "id": "R1-14",
+        "vo": "If you need one anyway, you might as well get it at a discount.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Wide shot: the Shnuggle tub on the shower tray with bubbles and the floating duck, a folded white hooded towel on the shower ledge, bright daylight.",
+        "video": "Slow pull-back from the tub; only the camera moves.",
+        "t": [
+          42.66,
+          45.65
+        ],
+        "look_ref": "stills/R1-11_crop.png",
+        "clip": "clips_fixed/R1-14.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      }
+    ],
+    "R2": [
+      {
+        "id": "R2-01",
+        "vo": "I'm convinced nobody knows this toddler tub exists because it took me almost a month to find it.",
+        "hand": true,
+        "prod": true,
+        "dur": 6,
+        "src": "still",
+        "still": "Medium-wide shot showing the whole white claw-foot bathtub: the small Shnuggle tub sits at the tap end inside it, less than half the bath's length and clearly narrower than the bath, completely covered by a draped plain grey bath towel; the hand enters from the top right edge, wrist touching the frame edge, gripping a corner of the towel.",
+        "video": "The hand pulls the towel off in one smooth move, revealing the white Shnuggle tub inside the big bathtub; camera static then a slight push-in.",
+        "t": [
+          0.0,
+          5.6
+        ],
+        "look_ref": "stills/R2-13.png",
+        "clip": "clips_fixed/R2-01.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      },
+      {
+        "id": "R2-02",
+        "vo": "I kept finding tubs for infants and babies up to twelve months,",
+        "hand": true,
+        "prod": false,
+        "dur": 4,
+        "src": "still",
+        "still": "Medium shot of the light grey tiled floor in front of the claw-foot bath: a small plain pale-grey infant bath tub, no logo, no text, sits flat ON THE FLOOR about half a metre in front of the bath, with clear floor tiles visible all around it and between it and the bath (it does not touch or overlap the bath); the hand enters from the left edge, wrist touching the frame edge, gripping its rim.",
+        "video": "The hand grips the rim of the small grey infant tub on the floor and tilts it a little toward the camera, then lets it settle back flat; it stays on the floor in front of the bath the whole time and never moves toward the bath. Exactly ONE infant tub in the shot. Slow gentle push-in.",
+        "t": [
+          5.6,
+          8.98
+        ],
+        "look_ref": "stills/R2-04.png",
+        "fix": "2026-10-16: r1 clip duplicated the tub, r2 clip ($0.164) pushed it through the bath wall: the still overlapped the bath rim. New still with the tub clearly on the floor. | 2026-10-16 free fix (Ralph: no more paid tries): r2 clip cropped to the hand + infant tub rim being lowered into the bath; the wall crossing at the bottom is outside the crop.",
+        "crop": [
+          0,
+          180,
+          432,
+          768
+        ]
+      },
+      {
+        "id": "R2-03",
+        "vo": "but I couldn't find a true toddler-size tub for a one-year-old.",
+        "hand": false,
+        "prod": false,
+        "dur": 4,
+        "src": "still",
+        "still": "Top-down view straight into the large empty white claw-foot bathtub, chrome taps at one end, nothing inside; it looks huge.",
+        "video": "Slow overhead drift along the length of the empty bathtub; nothing moves.",
+        "t": [
+          8.98,
+          12.44
+        ],
+        "look_ref": "stills/R2-04.png"
+      },
+      {
+        "id": "R2-04",
+        "vo": "Then I found this Shnuggle toddler tub,",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "video": "Slow push-in toward the Shnuggle tub inside the claw-foot bathtub; only the camera moves.",
+        "still": "Medium shot: the empty Shnuggle tub sits inside the white claw-foot bathtub, blush-pink tiles behind, chrome taps at one end.",
+        "t": [
+          12.44,
+          14.7
+        ],
+        "clip": "clips_fixed/R2-04.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug); cropped above the bath's chain plug",
+        "crop": [
+          85,
+          0,
+          540,
+          960
+        ]
+      },
+      {
+        "id": "R2-05",
+        "vo": "and it's actually made for ages one to three.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Close-up of the Shnuggle tub's front rim inside the claw-foot bath, a small plain teal rubber whale toy sitting on the rim.",
+        "video": "Slow push-in on the whale toy and rim; only the camera moves.",
+        "t": [
+          14.7,
+          17.2
+        ],
+        "look_ref": "stills/R2-04.png"
+      },
+      {
+        "id": "R2-06",
+        "vo": "My baby girl outgrew her baby tub so fast,",
+        "hand": false,
+        "prod": false,
+        "dur": 4,
+        "src": "still",
+        "still": "A light wood shelf against the blush-pink tiles holding a small plain pale-grey infant bath tub, no logo, stored away with folded towels.",
+        "video": "Slow pan across the shelf to the stored infant tub; only the camera moves.",
+        "t": [
+          17.2,
+          19.92
+        ],
+        "look_ref": "stills/R2-04.png"
+      },
+      {
+        "id": "R2-07",
+        "vo": "and she's still too small for the regular bathtub.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "High wide angle from a few steps back showing the WHOLE big white claw-foot bathtub end to end, all four feet visible: the small empty Shnuggle tub sits at the tap end, taking up less than half of the bath's length, a long stretch of empty white bath beyond it, showing how small it is next to the regular bath; daylight.",
+        "video": "The camera slowly rises and tilts down over the bathtub; only the camera moves.",
+        "t": [
+          19.92,
+          22.56
+        ],
+        "look_ref": "stills/R2-13.png"
+      },
+      {
+        "id": "R2-08",
+        "vo": "I love that this gives her her own space that's actually sized for her.",
+        "hand": false,
+        "prod": true,
+        "dur": 5,
+        "src": "still",
+        "still": "Close-up: warm water runs from the chrome tap of the claw-foot bath, filling the Shnuggle tub sitting inside it, a few bubbles forming.",
+        "video": "Water keeps filling the Shnuggle tub and bubbles slowly build up; camera static.",
+        "t": [
+          22.56,
+          26.18
+        ],
+        "look_ref": "stills/R2-04.png",
+        "clip": "clips_fixed/R2-08.mp4",
+        "fix": "AI plug painted out (Ralph 2026-10-16: wrong size/place; voice still says easy-drain plug)"
+      },
+      {
+        "id": "R2-09",
+        "vo": "And it's made with safety in mind.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Close-up inside the Shnuggle tub with warm water and bubbles: the smooth raised seat bump and the grippy dotted floor visible under the clear water.",
+        "video": "Slow push-in over the water toward the seat bump; only the camera moves.",
+        "t": [
+          26.18,
+          29.08
+        ],
+        "look_ref": "stills/R2-04.png"
+      },
+      {
+        "id": "R2-10",
+        "vo": "There's a supportive backrest,",
+        "hand": true,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Side angle close-up of the light grey foam backrest inside the empty Shnuggle tub in the claw-foot bath; the Shnuggle's thick rolled rim is complete and unbroken all the way round; the hand enters from the right edge, wrist touching the frame edge, and its thumb rests on the top edge of the foam backrest.",
+        "video": "The thumb runs slowly down the soft grey backrest; camera static.",
+        "t": [
+          29.08,
+          29.78
+        ],
+        "look_ref": "stills/R2-04.png",
+        "fix": "2026-10-16: teal bangle appears from 0.75s; only 0-0.7s used, R2-09 runs longer"
+      },
+      {
+        "id": "R2-11",
+        "vo": "non-slip feet, and an easy-drain plug.",
+        "hand": true,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Close-up of the base of the Shnuggle tub sitting on the wet white floor of the claw-foot bath, small grey foot pads; the hand grips the rim at the top edge.",
+        "video": "The hand gives the rim a firm nudge; the tub stays still on the wet bath floor; camera static.",
+        "t": [
+          29.78,
+          31.8
+        ],
+        "look_ref": "stills/R2-04.png",
+        "fix": "2026-10-16 (Ralph: remove the plug, mention it only): also covers the plug line"
+      },
+      {
+        "id": "R2-13",
+        "vo": "If your little one is at or near the toddler stage, this is one of those products I'd save",
+        "hand": false,
+        "prod": true,
+        "dur": 5,
+        "src": "still",
+        "still": "Wide shot from a few steps back showing the WHOLE white claw-foot bathtub end to end, all four feet visible: the small Shnuggle tub sits at the tap end inside it, empty and dry, taking up less than half of the bath's length, with a big stretch of empty white bath beside it; a folded white hooded baby towel draped over the Shnuggle's rim.",
+        "video": "Slow sideways slide past the tub and towel; only the camera moves.",
+        "t": [
+          31.8,
+          36.74
+        ],
+        "look_ref": "stills/R2-04.png"
+      },
+      {
+        "id": "R2-14",
+        "vo": "because I genuinely wish I had found it sooner.",
+        "hand": false,
+        "prod": true,
+        "dur": 4,
+        "src": "still",
+        "still": "Wide shot of the bright bathroom: the whole claw-foot bath end to end with the small Shnuggle tub sitting fully INSIDE it at the tap end (less than half the bath's length, nothing sticking out over the bath's rim), a white hooded towel folded over the Shnuggle's rim, eucalyptus plant, light wood stool, daylight.",
+        "video": "Slow pull-back and slight rise; only the camera moves.",
+        "t": [
+          36.74,
+          39.55
+        ],
+        "look_ref": "stills/R2-13.png"
+      }
+    ]
+  },
+  "hand_refs": [
+    "refs/hand/S5_gym_dumbbell_ring_on.png",
+    "refs/hand/S6_sink_plate_ring_on.png",
+    "refs/hand/real_ring_packshot.jpg"
+  ],
+  "no_hand": "There are NO hands, arms or people anywhere in this shot, from the first frame to the last.",
+  "removed_shots": [
+    {
+      "id": "R1-11",
+      "vo": "and an easy-drain plug.",
+      "hand": true,
+      "prod": true,
+      "dur": 4,
+      "src": "still",
+      "still": "Close-up inside the Shnuggle tub with shallow clear water over the flat floor with small raised ring outlines: the small round white plug sits in the FLAT floor at the low front end, well in front of the smooth seat bump (the bump has nothing on it); thumb and index finger pinch the plug's little tab; the hand enters from the bottom right corner, the wrist touching the frame edge, no forearm in frame.",
+      "video": "The fingers pull the small white plug up and out; the water starts swirling down through the hole; camera static.",
+      "t": [
+        31.04,
+        32.56
+      ],
+      "extra_refs": [
+        "refs/plug_crop.jpg"
+      ],
+      "cut_in": 0.17,
+      "removed": "Ralph 2026-10-16: 'Remove the plug because the product does not have it that size and positioned where it is.'"
+    },
+    {
+      "id": "R2-12",
+      "vo": "and an easy-drain plug.",
+      "hand": true,
+      "prod": true,
+      "dur": 4,
+      "src": "still",
+      "still": "Top-down close-up looking straight down INSIDE the Shnuggle tub only (its white walls fill the frame edges, the big bath is not visible): shallow clear water over the Shnuggle's own flat floor with small raised ring outlines; the small round white plug sits in that flat floor at the low front end, in front of the smooth seat bump; the hand enters from the right edge, wrist touching the frame edge, and thumb and index finger pinch the plug's little tab.",
+      "video": "The fingers lift the plug out and the water swirls down the hole; camera static.",
+      "t": [
+        30.6,
+        31.8
+      ],
+      "extra_refs": [
+        "refs/plug_crop.jpg"
+      ],
+      "look_ref": "stills/R2-04.png",
+      "fix": "2026-10-16: clip jumps to another scene at 1.21s; only 0-1.2s used",
+      "removed": "Ralph 2026-10-16: 'Remove the plug because the product does not have it that size and positioned where it is.'"
+    }
+  ]
+}
