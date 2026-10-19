@@ -41,4 +41,4 @@ Scope: 3 new humanized talking-head scripts (v1 from 2026-10-07 kept, none of it
   EVIDENCE: https://claude.ai/code/artifact/d91883d5-9b14-422d-b1e5-fb2761a7822f rev 1, all sections from scripts.md
 
 - [ ] G9: email to life22watch@gmail.com and phone push sent
-  EVIDENCE:
+  EVIDENCE: email sent 2026-10-19 (Gmail id 1a1533975d875a4f). Push NOT sent: ToolSearch 'PushNotification' and 'push notification phone' returned no such tool in this session.
