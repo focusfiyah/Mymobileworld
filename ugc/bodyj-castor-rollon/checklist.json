@@ -1,0 +1,79 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/lines.json"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 no price, no personal-use claims beyond Grace's cradle cap use, sell-side confession, orange cart",
+   "\u00a72 pain first, specificity (cold pressed, hexane free)",
+   "\u00a73 library hooks H028/H017/H101 word for word",
+   "\u00a74 hook-pain-solution-confession-urgency-close, CTA two units",
+   "\u00a75 ~3.2 wps, ~32 s",
+   "\u00a76 REMOVED.md, plan lock, real product pasted back"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_castor_rollon.txt",
+   "research/tag_castoroil.txt",
+   "research/grace_video/transcript.vtt",
+   "research/videos/7690269608086981902/meta.json",
+   "research/videos/7689112978205068557/meta.json",
+   "research/videos/7690965370848529685/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral_board.md",
+   "research/viral/viral-2026-10-17.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "max_grade": 3.6
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md",
+   "research/audience/comments.md",
+   "research/audience/questions.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "research/compare/compare/compare.md",
+   "research/compare/notes.md"
+  ],
+  "cut": "out/bodyj_castor_rollon_r1_final.mp4"
+ }
+}
