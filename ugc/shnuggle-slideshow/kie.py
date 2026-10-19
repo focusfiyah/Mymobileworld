@@ -1,7 +1,7 @@
 """Kie runner for the Shnuggle slideshow (Grace, 2026-10-19). Gate-protected; reuses ../shnuggle-response/kie.py plumbing.
 
   python3 kie.py stills [S1 ...]   Nano Banana Pro (Gemini 3 Pro Image) stills, 2K -> stills_raw/<ID>.png
-Refs on every still: refs/tub_front_real.png (real photo), refs/shnuggle_tub_6view.jpg (real 6 views), + grippy texture on S4.
+Refs on every still: refs/tub_front_real.png (real photo), refs/shnuggle_tub_6view.jpg (real 6 views). (Grippy texture photo dropped: Ralph 2026-10-19, the dots do not exist on his product.)
 """
 import json, os, sys
 from pathlib import Path
@@ -18,7 +18,7 @@ J = json.loads((HERE / "slides.json").read_text()); SL = {s["id"]: s for s in J[
 REFS = ["refs/tub_front_real.png", "refs/shnuggle_tub_6view.jpg"]
 
 def one(sid):
-    s = SL[sid]; refs = [base.upload(p) for p in REFS + (["refs/ToddlerBathGrippyTexture_crop.jpg"] if sid == "S4" else [])]
+    s = SL[sid]; refs = [base.upload(p) for p in REFS]
     prompt = f"{s['still']} {J['product_block']} {J['nothing_added']} {J['look']}"
     url = base.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs, "aspect_ratio": "9:16", "resolution": "2K"}})
     if url: base.fetch(url, f"stills_raw/{sid}.png"); print("still", sid, "ok", flush=True)
