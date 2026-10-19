@@ -798,5 +798,59 @@
    ]
   },
   "costTime": 280
+ },
+ {
+  "t": "2026-10-19 13:11:34",
+  "submitted": "ca601108cd379026aa9c01b4609c4fc5",
+  "prompt": "Edit image 1. Change ONLY the size of the black heater: make it much smaller, its true size of 8.7 inches tall, so its t"
+ },
+ {
+  "t": "2026-10-19 13:11:34",
+  "submitted": "75d20933a57e9ace2908a2f1b09a7ddc",
+  "prompt": "Edit image 1. Change ONLY the size of the black heater: make it much smaller, its true size of 8.7 inches tall, so its t"
+ },
+ {
+  "t": "2026-10-19 13:12:24",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Change ONLY the size of the black heater: make it much smaller, its true size of 8.7 inches tall, so its top reaches only about a third of the way up to the nightstand's glass top, standing on the floor in the same spot. Fill the space it no longer covers with the same floor, nightstand legs, cable and wall. Keep the heater's look exactly (image 2) and everything else identical.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792415491692-mspa7z161uh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "75d20933a57e9ace2908a2f1b09a7ddc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/75d20933a57e9ace2908a2f1b09a7ddc_0_1792415539.jpeg"
+   ]
+  },
+  "costTime": 46
+ },
+ {
+  "t": "2026-10-19 13:12:31",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Change ONLY the size of the black heater: make it much smaller, its true size of 8.7 inches tall, so its top reaches only about halfway up the sofa seat's front, standing on the rug a little in front of the sofa. Fill the space it no longer covers with the same rug, sofa and throw. Keep the heater's look exactly (image 2) and everything else identical.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792415491623-tf6c3gxq12c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/space-heater-ptc/1792395941756-xlt981unqx.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ca601108cd379026aa9c01b4609c4fc5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ca601108cd379026aa9c01b4609c4fc5_0_1792415544.jpeg"
+   ]
+  },
+  "costTime": 51
  }
 ]
