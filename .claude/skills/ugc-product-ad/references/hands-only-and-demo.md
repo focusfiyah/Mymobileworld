@@ -16,6 +16,15 @@ voiceover is a separate ElevenLabs track, so no lip sync and no on-camera speech
 Plan hand-free shots (product alone, setting, props) where they fit; they still move (camera move or product clip) and their
 prompts carry no hand text.
 
+**Shot mix and Kling (Ralph 2026-10-18, standing for every ad):** every plan marks each shot HAND or HAND-FREE and aims for
+a third to a half hand-free, on the lines about the place or the product (the doing lines keep the hand). Hand-free
+shots are product dollies, room dollies, props that match the words, pull-backs; they also keep every video different.
+Ralph pays for Kling and has ~688 credits (query before and after, report the exact cost; ~32 credits per 5s clip), so
+route hand-free dollies to Kling first and test ONE clip against Seedance Mini before the batch; Seedance on Kie is
+the paid fallback (ask first). Kling for hand shots only when the hand stays fixed at the frame edge ("hand and wrist
+stay fixed, only the camera moves"): on FUSOU V3 its hand drifted after ~1s. Mask paste-backs eroded, start still
+checked at 2x. (source: ugc/fusou-vanity/v3ab/REMOVED.md)
+
 1. **Research + script + voiceover first (free/cheap).** Pick the format from real data (tiktok-shop-coach skill),
    write to the client's rules, record the VO (eleven_v4), get word timings with scribe_v2, and cut a free timing
    animatic. Shot windows come from the word timings.
