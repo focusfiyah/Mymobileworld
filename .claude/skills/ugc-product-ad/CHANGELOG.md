@@ -8,3 +8,4 @@
 - 2026-10-18 (Ralph): push is skipped while he has the app open; email is the backup.
 - 2026-10-14: grip check on every still before its clip (Throw Hands S5/S7 no-grip stills cost clips + a rejected cut).
 - 2026-10-14: end shot shows one product, VO still sells more than one (Ralph).
+- 2026-10-19: product-truth lesson from the Shnuggle slideshow test (real dimensions + size anchor, details confirmed by Ralph, free route first, quotes include one redo); details in grace/PLAYBOOK.md §6.

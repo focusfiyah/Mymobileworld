@@ -73,6 +73,9 @@ Paste the block below into any of:
   the palm, masks under a palm). Say it in the still prompt AND the clip prompt: "pinches ... by its top edge, NOT lying flat".
 - The image model draws a generic version of a product. Give it a tight crop of the REAL item (not the box-and-product packshot)
   plus exact shape and colour words ("fish-shape mask, NOT a flat-fold"; box "silver-grey, not blue/white/black/beige").
+- (Shnuggle slideshow, 2026-10-19) Also the maker's real dimensions with an everyday size anchor and a real in-room photo for scale
+  (the AI tub came out too big); list every product detail in the plan for my yes before spending; tests offer the free route
+  first and a quote includes one likely redo.
 - A clip can move an object the wrong way: use the half that moves right, or reverse the wrong half (free). Seedance min clip is
   4s; use the first ~1.5s or the part where the action happens.
 - The CTA must make buyers want MORE units. Never "plenty to share" or "one is enough". Close "It's in the orange cart."

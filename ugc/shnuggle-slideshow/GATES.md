@@ -32,3 +32,9 @@ Scope: A 6-slide TikTok Shop photo slideshow of the Shnuggle Toddler Bath, no te
 
 - [ ] G7: Drive: slides + caption doc in the Shnuggle Toddler Tub (Grace) folder as CURRENT, nothing loose; link in README
   EVIDENCE: pending
+
+ABANDON: G2 Ralph stopped the test 2026-10-19 before the round 2 (true size) approval; handoff: lessons in grace/PLAYBOOK.md §6
+ABANDON: G3 only 5 slides passed QC (S6 failed); test stopped by Ralph
+ABANDON: G4 S6 open in qc/QC.md; test stopped by Ralph
+ABANDON: G6 review page done (5NCFPRRD9Cxzp5Yq5zusAj) but Ralph never signed off; test stopped
+ABANDON: G7 nothing uploaded to Drive; test stopped by Ralph
