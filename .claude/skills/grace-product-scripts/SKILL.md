@@ -15,14 +15,10 @@ pain-point body → selling point and/or solution body → FOMO and/or urgency C
 
 
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
-"Everything means everything." Before ANY plan goes to Ralph and before ANY paid call, run the whole checklist in
-`grace/PLAYBOOK.md` §4 yourself and save proof files in the job folder, listed in `checklist.json`
-(`python3 grace/gate.py <job> --init`): playbook rules applied, tiktok-shop-coach research (tag/shop/discover + `video` on
-the top 3 shop videos), the daily `viral` board, product facts, hooks modeled on named winners (spoken + on-screen),
-`humanizer` on the final script and captions, `readability` (grade <= 6), the source of every line, and after the cut
-`tiktok.py compare` vs the top winner (`--stage cut`). Every paid runner calls the gate (`gate.py`) and refuses until it
-passes; never bypass or weaken it. Show the gate result in the plan message. Banned in scripts: "order it now",
-"heads up", dashes; close with Grace's usual "It's in the orange cart."
+Before any plan goes to Ralph or any paid call, run the whole `grace/PLAYBOOK.md` §4 checklist (audience research
+first) and save its proof files with `python3 grace/gate.py <job> --init`; every paid runner refuses until the gate
+passes, and it is never bypassed or weakened. Show the gate result in the plan message. Close with "It's in the
+orange cart."; never "order it now", "heads up" or dashes. (source: grace/PLAYBOOK.md §4, the one home for the list)
 
 ## Ralph's format (settled 2026-09-30, don't re-ask)
 
@@ -101,13 +97,13 @@ readable on a phone: no wide tables, short bullets, a 3-line intro. Sections, in
 Give Ralph the doc link. Never export a PDF (Ralph 2026-10-07).
 
 **Drive (Ralph 2026-10-05, every job):** put the scripts as a Google Doc in Drive "Grace Tiktok assets" in ONE folder per
-product (search first, reuse the product's existing folder, else create "<Product> scripts (Grace)"). Latest doc gets a
+product (search first, reuse the product's existing folder, else create "<Product> (Grace)"). Latest doc gets a
 "CURRENT - " prefix; an older set is renamed "vN (date)" and moved into an "Older versions" subfolder. Nothing loose in
 Grace Tiktok assets. Give Ralph the folder link.
 
 ## Gotchas
 
 - `ffmpeg` isn't installed in the cloud container; the script uses the imageio-ffmpeg binary (`pip install
-  imageio-ffmpeg`). pymupdf (`pip install pymupdf`) renders PDF pages for checking; pdftoppm isn't there.
+  imageio-ffmpeg`).
 - TikTok downloads (ssstik) can end in a ~3 s logo card. It isn't part of the ad, so leave it out of the timing.
-- If Ralph edits the doc after the PDF is sent, re-export; the PDF doesn't update itself.
+- If Ralph edits the Claude doc, re-upload the Drive copy; it doesn't sync.

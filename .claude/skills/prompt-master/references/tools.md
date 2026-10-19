@@ -43,7 +43,7 @@ Per-tool rules for the target AI. Read only the section for the tool you are wri
 These override the generic sections below when Ralph (or his clients, e.g. Grace) is the user. Full ad prompts and QC live in the `ugc-product-ad` skill; scripts in `grace-product-scripts` + `humanizer`.
 
 - **Video: Seedance 2.0 Mini on Kie** (not 2.5). One shot per prompt: subject, one clear motion, camera move, duration. Prompt text overrides the reference image, so when the look changes, rewrite every prompt block. Leave the product description out of shots that must not show the product.
-- **Stills: Gemini 3 Pro Image on Kie.** No nano-banana for product shots. Describe the real product exactly (cap, top, label) and say it must not change.
+- **Stills: Gemini 3 Pro Image on Kie.** Nano Banana models only when a route or Ralph calls for them (Ralph 2026-10-13; the ugc-product-ad routes use Kie's `nano-banana-pro`). The product itself is never generated: it comes from the brand's real photo. Describe the real product exactly (cap, top, label) and say it must not change.
 - **Hands and people:** hands enter from the frame edge, whole wrists visible, no background showing through hands, no hand sweeping across the product, no forehead wrinkles. Hand-free shots (product alone, setting, props) are fine where they fit.
 - **No on-screen text** in any generated frame unless Ralph says yes for that ad: add "no text, no captions, no logos other than the real label".
 - **Kling** (Ralph's account, MCP): good for realistic body motion and 3D dolly moves; same hand/product rules.
