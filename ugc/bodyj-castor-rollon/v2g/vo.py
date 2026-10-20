@@ -6,7 +6,7 @@ def _gate():  # SCRIPT GATE (grace/gate.py): no paid call until the PLAYBOOK §4
     _s.path.insert(0, str(_h.parents[3] / "grace")); from gate import require; require(_h.parent)
 
 
-VOICE = "bGrsdLmwBbYUgHRuMFOI"  # Grace B
+VOICE = "gjmt5xZqVE6mjSY4NfQM"  # Grace (one voice since 2026-10-20)
 RETIME = "--retime" in sys.argv  # reuse vo/voiceover.mp3 + vo/stt.json (no new ElevenLabs calls)
 text = " ".join(open("vo/text.txt").read().replace("’", "'").split())
 body = {"text": text, "model_id": "eleven_v4",

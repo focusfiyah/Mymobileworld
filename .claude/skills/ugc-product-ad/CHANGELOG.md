@@ -8,3 +8,4 @@
 - 2026-10-18 (Ralph): push is skipped while he has the app open; email is the backup.
 - 2026-10-14: grip check on every still before its clip (Throw Hands S5/S7 no-grip stills cost clips + a rejected cut).
 - 2026-10-14: end shot shows one product, VO still sells more than one (Ralph).
+- 2026-10-20 (Ralph: one Grace voice): skit-ads.md points to Mymobileworld grace/voice/README.md for Grace's clone (the old Seedance clone 3dmag... no longer exists on the account, tested 400); script notes say 'Grace voiceover', not Grace B (deleted).

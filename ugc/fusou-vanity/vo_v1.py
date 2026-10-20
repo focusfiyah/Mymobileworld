@@ -12,7 +12,7 @@ LINES = ["Tap it once. Again. Now hold it.",
          "This mirror has three light colors and it dims, so you can match wherever you're going.",
          "Heads up, it's almost six feet wide. Measure your wall first.",
          "It ships in three boxes, so if you want it up before the holidays, order it now."]
-VOICE = "bGrsdLmwBbYUgHRuMFOI"
+VOICE = "gjmt5xZqVE6mjSY4NfQM"
 text = " ".join(LINES)
 body = {"text": text, "model_id": "eleven_v4", "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}}
 _gate()

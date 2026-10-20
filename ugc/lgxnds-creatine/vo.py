@@ -9,9 +9,9 @@ def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call unti
 V2 = "--v2" in sys.argv  # 2026-10-19 redo: shots_v2.json -> vo/v2_* (v1 files kept)
 SH = "shots_v2.json" if V2 else "shots.json"; P = "vo/v2_" if V2 else "vo/"
 J = json.load(open(SH))
-VOICE = J.get("voice", {}).get("voice_id", "P8OUGBCvq8OBS4xlb65A")  # Grace C, Grace's default since 2026-10-18 (B retired)
+VOICE = J.get("voice", {}).get("voice_id", "gjmt5xZqVE6mjSY4NfQM")  # Grace, the one Grace voice since 2026-10-20 (grace/voice)
 if "--grace-c" in sys.argv:   # 2026-10-19 (Ralph's pick for LGXNDS v6): Grace C, files vo/v2c_* (Grace B v2 files kept)
-    VOICE, P = "P8OUGBCvq8OBS4xlb65A", "vo/v2c_"
+    VOICE, P = "gjmt5xZqVE6mjSY4NfQM", "vo/v2c_"
 RETIME = "--retime" in sys.argv  # reuse vo/voiceover.mp3 + vo/stt.json (no new ElevenLabs calls)
 text = " ".join(s["vo"] for s in J["shots"]).replace("LGXNDS", "Legends")  # brand is said "Legends"
 body = {"text": text, "model_id": "eleven_v4",

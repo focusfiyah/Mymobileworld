@@ -4,8 +4,8 @@ OWNS: grace/voice/**
 
 Scope: rebuild Grace's ElevenLabs voice from her own @shewiththeglow TikToks (real voice, before any AI VO), with less
 echo than Grace C, then (on Ralph's OK) delete Grace B + old Grace C and point every rule/script at the one new voice.
-Note: Ralph wrote "Gracewiththeglow"; tested 2026-10-20: @gracewiththeglow is a different woman (3 videos from 2022),
-Grace's account in every job record is @shewiththeglow.
+Note: "GraceWithTheGlow" is the display name of @shewiththeglow (Ralph's screenshot 2026-10-20); the handle
+@gracewiththeglow is a different woman (3 videos from 2022).
 
 - [x] G1: source set = only Grace's own voice: every clip comes from a @shewiththeglow video posted before 2026-09-25
   (our AI voices started 2026-10-01), listed in sources.json with id + date
@@ -29,12 +29,12 @@ Grace's account in every job record is @shewiththeglow.
 - [x] G4: A/B preview (real Grace, old C, new) is on a playable Artifact page; push + email sent to Ralph
   EVIDENCE: 2026-10-20 https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH (4 mp3s); PushNotification "Mobile push requested"; Gmail id 1a157d5219443d3d
 
-- [ ] G5: after Ralph's OK, ElevenLabs has exactly one Grace voice (the new one); Grace B + old C deleted
+- [x] G5: after Ralph's OK, ElevenLabs has exactly one Grace voice (the new one); Grace B + old C deleted
   CHECK: python3 grace/voice/check.py account
   EXPECT: ACCOUNT OK
-  EVIDENCE: pending
+  EVIDENCE: 2026-10-20 Ralph "Keep"; DELETE B + old C both {"status":"ok"}; check: only Grace voice: Grace gjmt5xZqVE6mjSY4NfQM / ACCOUNT OK
 
-- [ ] G6: rules, skills and default scripts name only the new voice id (old ids only in history/job logs)
+- [x] G6: rules, skills and default scripts name only the new voice id (old ids only in history/job logs)
   CHECK: python3 grace/voice/check.py refs
   EXPECT: REFS OK
-  EVIDENCE: pending
+  EVIDENCE: 2026-10-20 REFS OK (README "## Retired" section excluded on purpose; negative control: same text without that heading still flags the old id). Also swapped: 25 job scripts/shots.json voice ids; ugc-product-ad skill (claude-skills source, deployed, zip rebuilt).
