@@ -82,5 +82,29 @@ def refs():
     print("rule files name only", new, "\nREFS OK")
 
 
+def accent():
+    a = json.load(open(os.path.join(HERE, "accent_rank.json")))
+    used = [r for r in a["ranked"] if r["used"]]
+    assert len(used) >= 5 and all(r["posted"] < "2026-09-25" for r in used), used
+    assert min(r["sim_to_example"] for r in used) > a["controls"]["round1_train_mean"] + 0.05
+    print(f"{len(used)} clips, closeness to Ralph's example {min(r['sim_to_example'] for r in used)}+ vs round-1 set {a['controls']['round1_train_mean']}\nACCENT OK")
+
+
+def round2():
+    sys.path.insert(0, HERE)
+    from echo import load
+    import numpy as np
+    text = "Okay so I was skeptical about this one, but I've been using it every single morning for two weeks and honestly? I'm obsessed. It's in the orange cart."
+    files = {"test_A_v2.mp3": len(text), "test_D_tag.mp3": len(text) + len("[Haitian accent] "),
+             "test_C_accent.mp3": len(text), "test_E_accent_v2.mp3": len(text)}
+    for f in files:
+        x, _ = load(os.path.join(HERE, f))
+        assert len(x) > 16000 * 5, f
+    chars = sum(files.values())
+    print(f"4 test lines rendered, {chars} characters of text billed")
+    assert chars <= 500, f"over the ~450 quote: {chars}"
+    print("ROUND2 OK")
+
+
 if __name__ == "__main__":
     globals()[sys.argv[1]]()

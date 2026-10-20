@@ -38,3 +38,27 @@ Note: "GraceWithTheGlow" is the display name of @shewiththeglow (Ralph's screens
   CHECK: python3 grace/voice/check.py refs
   EXPECT: REFS OK
   EVIDENCE: 2026-10-20 REFS OK (README "## Retired" section excluded on purpose; negative control: same text without that heading still flags the old id). Also swapped: 25 job scripts/shots.json voice ids; ugc-product-ad skill (claude-skills source, deployed, zip rebuilt).
+
+## Round 2: accent (Ralph 2026-10-20: "too American", Grace is Haitian; old C didn't have it either)
+
+- [x] G7: accent-source clips are ranked by a measured accent score (Whisper P(not English)), all from @shewiththeglow before
+  2026-09-25, saved in accent_rank.json
+  CHECK: python3 grace/voice/check.py accent
+  EXPECT: ACCENT OK
+  EVIDENCE: 2026-10-20: 10 clips, closeness to Ralph's example 0.927+ vs round-1 set 0.807 / ACCENT OK. Whisper P(en) was ~0.999 on
+  every clip (no accent signal), so the score is resemblyzer similarity to Ralph's video of Grace (accent_rank.json).
+
+- [ ] G8: test lines A (v2 model), C (accent-source clone), D (accent tag) rendered on one line, levelled to -16 LUFS,
+  ElevenLabs characters used <= 500 (measured from the subscription counter)
+  CHECK: python3 grace/voice/check.py round2
+  EXPECT: ROUND2 OK
+  EVIDENCE: 2026-10-20 UNMET: 4 lines rendered (A, C, D + E added), 617 characters of text vs the ~450 quote. The subscription
+  counter lagged (moved 127, then stalled), so the check counts text length. Over-spend told to Ralph (push + email).
+
+- [x] G9: preview page shows real Grace + A, C, D; push + email sent
+  EVIDENCE: 2026-10-20 page v2 https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH (real Grace accent, E, C, A, D); push "Mobile push requested"; Gmail id 1a15a407f53d3ab6
+
+- [ ] G10: after Grace's pick, ElevenLabs has one Grace voice, PLAYBOOK/README/scripts name its id and settings
+  CHECK: python3 grace/voice/check.py account && python3 grace/voice/check.py refs
+  EXPECT: REFS OK
+  EVIDENCE: pending
