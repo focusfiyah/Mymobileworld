@@ -1,0 +1,73 @@
+  #tiktokshopbeauty: 115 videos
+  #tiktokshopskincare: 110 videos
+  #tiktokshopmakeup: 113 videos
+  #tiktokshopfinds: 137 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+446 videos scanned, 198 shop videos posted in the last 3 day(s) -> research/viral/viral-2026-10-20.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      9.7K    2.4K  0.1d  0.41  e.l.f. Sheer For It Cosmetic Blush Tint and Lip Stain [Beauty & Personal Care]
+                                  @alexxcreates: @e.l.f. Cosmetics my favorite affordable product to use on m
+                                  https://www.tiktok.com/@alexxcreates/video/7698841012831128863
+  2      7.0K    9.2K  1.3d  0.93  OKAYLOVE Bunny Lash CLusters Kit, Okaylovelashes Lash E [Beauty & Personal Care]
+                                  @rottedbitez: yall been asking for so long i finally got around to it😩 #ma
+                                  https://www.tiktok.com/@rottedbitez/video/7698406075044760863
+  3      6.5K    3.0K  0.5d  0.03  Koji Pads - Daily Facial Skincare Pads For All Skin Typ [Beauty & Personal Care]
+                                  @k_bmiller: Nighttime skincare featuring nothing but tiktok shop product
+                                  https://www.tiktok.com/@k_bmiller/video/7698725213290155294
+  4      6.4K    5.2K  0.8d  0.64  BossUp Color Changing Lip Oil lip stain Compact Gloss [Beauty & Personal Care]
+                                  @bossupcosmetics: ITS ON FLASH SALE NOW!! #SmallBusiness #bossupcosmetics #lip
+                                  https://www.tiktok.com/@bossupcosmetics/video/7698600037344890143
+  5      5.6K    5.4K  1.0d  0.07  [Beauty of Joseon Official] First-Time BOJ Mega Starter [Beauty & Personal Care]
+                                  @maehni: the value for this is SO good! <3 beauty of joseon mega star
+                                  https://www.tiktok.com/@maehni/video/7698514156072340766
+  6      5.4K    2.2K  0.4d  0.28  [NEW] [medicube] Affordable PDRN Pink Glow Edit | Ultim [Beauty & Personal Care]
+                                  @giniglow: 🧖‍♀️🩷All of these viral products in ONE BUNDLE?! #medicube #
+                                  https://www.tiktok.com/@giniglow/video/7698749686047460621
+  7      4.8K    3.0K  0.6d  0.03  e.l.f. Power Grip Gold Drip Primer & Setting Spray Duo  [Beauty & Personal Care]
+                                  @elizabethjamee: Que oferton omg 🤩 #elf #elfcosmetics #tiktokshopcreatorpicks
+                                  https://www.tiktok.com/@elizabethjamee/video/7698662777254120734
+  8      4.2K    1.1K  0.3d     0  Lion Pair Acne Cream Acne Treatment Pimples Removal Cre [Beauty & Personal Care]
+                                  @lothedon13: no bc this is actually wild... I've never posted a TikTok sh
+                                  https://www.tiktok.com/@lothedon13/video/7698798641976184094
+  9      3.3K    1.3K  0.4d  0.39  Cider Satin High Neck Cape Sleeve Maxi Dress [Womenswear & Underwear]
+                                  @bellahsz14: #fashiontiktok #tiktokshopfinds #viralfind #outfitideas #fas
+                                  https://www.tiktok.com/@bellahsz14/video/7698750448018279710
+ 10      3.2K    3.5K  1.1d  0.38  Yeokou Women's Cropped Trench Coat Double-Breasted Funn [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7698496611344862495
+ 11      3.1K     783  0.1d  0.26  Fenty Beauty Gloss Bomb Lip Gloss Duo [Beauty & Personal Care]
+                                  @sherlynyg: !Estoy enviciada con estos lipsticks! 💄😍 Pedí estos dos tono
+                                  https://www.tiktok.com/@sherlynyg/video/7698875750010588447
+ 12      2.7K     678  0.2d  0.15  [medicube] Affordable Glass Glow Skincare Set | Include [Beauty & Personal Care]
+                                  @kaleigh.15: The best feeling when you get home and Nobody can tell me di
+                                  https://www.tiktok.com/@kaleigh.15/video/7698819214420856095
+ 13      2.3K     570  0.1d     0  Hostess x Glamlite Bundle [Beauty & Personal Care]
+                                  @onecutecouponer: This might be one of the cutest gift sets I’ve seen! 😂 A Hos
+                                  https://www.tiktok.com/@onecutecouponer/video/7698847062699298078
+ 14      2.1K    2.3K  1.1d  0.35  Yeokou Fall Corduroy Overalls for Women Barrel Wide Leg [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7698500666909625630
+ 15      2.1K    2.2K  1.1d  0.31  OYS Women's Elegant Off Shoulder High Split Bodycon Eve [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7698500303154400543
+ 16      1.8K    1.8K  1.0d   0.5  Amp It by Point of View Beauty: High-impact, hydrating  [Beauty & Personal Care]
+                                  @kellyrosesarno: Lip combos from my #POV featuring #contourit and #ampit from
+                                  https://www.tiktok.com/@kellyrosesarno/video/7698519425409912077
+ 17      1.7K     428  0.2d   0.7  JOYIN 1PCS/3PCS Glitter Sparkle Jellyfish Squishies Toy [Toys & Hobbies]
+                                  @chloeannslife: i love these squishies #squishy #tiktokshop #sugarsquishy #t
+                                  https://www.tiktok.com/@chloeannslife/video/7698811415347465485
+ 18      1.7K    1.3K  0.8d     0  Peptide Pâtisserie Pout Preserve Lip Duo [Beauty & Personal Care]
+                                  @kelliecrowther: These make the Best gifts😍 2 of my fave scents in one bundle
+                                  https://www.tiktok.com/@kelliecrowther/video/7698610384340667678
+ 19      1.6K     586  0.4d  0.17  [OFFICIAL ELROEL PARTNER] Blanc Cover Cream Stick V (0. [Beauty & Personal Care]
+                                  @chelsiec93: Okay, TikTok Shop got me with this one! 🤣💕 I’m actually lovi
+                                  https://www.tiktok.com/@chelsiec93/video/7698761360536128799
+ 20      1.6K    1.0K  0.7d     0  [medicube] Kojic Acid Turmeric Gel Mask (4 sheets) | Co [Beauty & Personal Care]
+                                  @alexiss.albaa: Stocking stuffer idea for the skincare girlies! 💛 These Medi
+                                  https://www.tiktok.com/@alexiss.albaa/video/7698639840190975263

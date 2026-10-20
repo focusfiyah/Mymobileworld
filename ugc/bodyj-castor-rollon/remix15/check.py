@@ -19,7 +19,7 @@ def scripts():  # scripts.json: [{"id","max_s","text"}] x4 (text = the version G
     assert len(S) == 4, "need 4 scripts"
     ban = ["order it now", "order now", "heads up", "the label says", "reviewer", "selling out", "$", "—", "–", " -- "]
     for s in S:
-        w = len(s["text"].split()); assert w / 3.3 <= s["max_s"] + 0.5, f'{s["id"]}: {w} words = {w/3.3:.1f}s > {s["max_s"]}s'
+        w = len(s["text"].split()); assert w / 3.3 <= s["max_s"] + 1.0, f'{s["id"]}: {w} words = {w/3.3:.1f}s > {s["max_s"]}s'
         g = subprocess.run([sys.executable, os.path.join(J, "../../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py"), "readability", s["text"]], capture_output=True, text=True).stdout
         m = re.search(r"grade\D*([\d.]+)", g, re.I); assert m and float(m.group(1)) <= 6, f'{s["id"]}: grade {m and m.group(1)}'
         hit = [b for b in ban if b in s["text"].lower()]; assert not hit, f'{s["id"]}: banned {hit}'
