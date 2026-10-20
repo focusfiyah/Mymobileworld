@@ -40,5 +40,5 @@ Scope: one tracker of Grace's AI videos that made sales (6 seeded from Ralph's l
 - [x] G8: skill grace-sales-tracker in focusfiyah/claude-skills, deployed to Mymobileworld, zip built for claude.ai
   EVIDENCE: 2026-10-20 skills/grace-sales-tracker in claude-skills, audit.py 0 errors 0 warnings, deploy.py -> Mymobileworld/.claude/skills/grace-sales-tracker + dist/grace-sales-tracker-skill.zip
 
-- [ ] G9: committed and pushed (Mymobileworld + claude-skills) on claude/ai-video-sales-tracker-r3dl1y; Ralph emailed + pushed with the links
-  EVIDENCE: pending
+- [x] G9: committed and pushed (Mymobileworld + claude-skills) on claude/ai-video-sales-tracker-r3dl1y; Ralph emailed + pushed with the links
+  EVIDENCE: 2026-10-20 pushed claude/ai-video-sales-tracker-r3dl1y in Mymobileworld + claude-skills (new branch on origin); Gmail id 1a156c8a6b20ad5a sent; PushNotification 'Mobile push requested'
