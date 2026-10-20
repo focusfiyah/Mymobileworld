@@ -75,7 +75,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
    ("On-camera demo over a voiceover") and `grace/PLAYBOOK.md` §6.
 
 ## Tools and keys
-- Gemini API (tested 2026-10-20): the key is the env var `GEMINI_API_KEY`, sent as header `x-goog-api-key: $GEMINI_API_KEY` (the proxy does NOT inject it; without the header Google answers 403 "unregistered callers"). The key sees 63 models incl. gemini-2.5-flash-image, gemini-3-pro-image, gemini-3.1-flash-image. Google lists no free tier for image output on the API: ask before any image call.
+- Gemini API (tested 2026-10-20): the key is the env var `GEMINI_API_KEY`, sent as header `x-goog-api-key: $GEMINI_API_KEY` (the proxy does NOT inject it; without the header Google answers 403 "unregistered callers"). The key sees 63 models incl. gemini-2.5-flash-image, gemini-3-pro-image, gemini-3.1-flash-image. No free tier: the key needs bought credits (Ralph 2026-10-20), and Google charges more than Kie for the same model (gemini-3-pro-image $0.134 vs Kie nano-banana-pro $0.09), so image stills stay on Kie; ask before any Gemini call.
 - Kie (api.kie.ai + kieai.redpandaai.co) and ElevenLabs keys are injected by the environment proxy: never ask for
   or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
