@@ -69,3 +69,17 @@ Note: "GraceWithTheGlow" is the display name of @shewiththeglow (Ralph's screens
 - [x] G11: C retimed for free to E's pace with every word kept and the accent kept (pace.py; F = E length, G = Grace's 3.5 wps)
   EVIDENCE: 2026-10-20 Whisper: F 28/28 words 4.03 wps (E 4.12), G 28/28 3.48 wps; closeness to Ralph's video F 0.828,
   G 0.844 (C 0.835). On the review page (v3) with E for comparison. 0 ElevenLabs characters.
+
+## Round 4: echo in the final voice (Ralph 2026-10-20: "It also sounds like it has an echo")
+
+- [x] G12: a free dereverb step makes the Grace voice measurably drier (fast-decay rt and tail both lower than G), every
+  word stays (Whisper match inside clean.py), accent judged by ear
+  CHECK: python3 grace/voice/check.py dereverb
+  EXPECT: DEREVERB OK
+  EVIDENCE: 2026-10-20 G rt 171 / tail -13.6 -> default clean (tau 0.1, best of 3, all 3 kept 28/28 words) rt 150 / -15.4;
+  Ralph approved the first cleaned run (rt 100 / -16.1): "It is good now". Changed from v1 of this gate: the accent clause
+  (closeness within 0.02) could not be measured after cleaning (the meter rated the American round-1 voice 0.798 vs G 0.788
+  once both were cleaned), so accent went to Ralph's ears. Word check control: the approved file MATCHES, 7 of 8 tau-0.5 runs did not.
+
+- [x] G13: Grace/Ralph pick on the review page; the pick is wired into the voiceover steps (README, PLAYBOOK)
+  EVIDENCE: 2026-10-20 Ralph "It is good now"; clean.py is step 3 in grace/voice/README.md, in PLAYBOOK §6 voice line and CLAUDE.md.

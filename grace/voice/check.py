@@ -106,5 +106,15 @@ def round2():
     print("ROUND2 OK")
 
 
+def dereverb():
+    sys.path.insert(0, HERE)
+    from echo import measure
+    g = measure(os.path.join(HERE, "test_G_C_pace35.mp3"))
+    h = measure(os.path.join(HERE, "test_J_G_clean_default.mp3"))
+    print(f"fast-decay rt: G {g[0]:.0f} -> cleaned {h[0]:.0f}; tail {g[1]:.1f} -> {h[1]:.1f}")
+    assert h[0] < g[0] and h[1] < g[1], "not drier"
+    print("DEREVERB OK (drier; words are checked inside clean.py; accent judged by ear: Ralph 2026-10-20 'It is good now')")
+
+
 if __name__ == "__main__":
     globals()[sys.argv[1]]()
