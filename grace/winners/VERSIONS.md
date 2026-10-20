@@ -6,6 +6,7 @@ that sold. Each hook starts from a library hook (id given) and is said the way s
 "y'all", and her close "I linked it in the orange cart for you".
 Every new version needs its own footage (new shots, order, framing, grade, background): never the old video with a
 new voiceover. Text lines are optional suggestions for Grace to type in TikTok; we burn nothing in.
+Voice: Grace records each voiceover herself (her own voice sold the castor video, Ralph 2026-10-20); no ElevenLabs.
 Not made yet: no money spent. Making any of them needs Ralph's pick and an exact cost first.
 
 ## Mute nasal dilator
