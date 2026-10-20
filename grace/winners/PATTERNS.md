@@ -22,7 +22,7 @@ small sample: treat these as leads to test, not rules. The table is the sheet in
 7. **Practical, giftable products under one clear use**: sleep, driving, pests, a family game, a beauty tool. Easy to understand in one sentence.
 8. **Faceless works**: 5 of the 6 are hands + voiceover, no face. All AI made.
 9. **Grace's own wording on top of our draft**: 4 of the 5 Grace videos were re-worded when posted (new opener like "Listen," or "I wish someone thought of this sooner", the trial stat and jokes cut, a warmer CTA: "I linked it in the orange cart for you", "I'mma do y'all a favor"). Her version is the one that sold. The BodyJ video is her own script word for word.
-10. **Grace's own voice, not the ElevenLabs voiceover** (Ralph 2026-10-20): the castor video, our best seller (3 sales), is Grace speaking. The other 4 Grace videos are likely her voice too, since their posted words differ from our ElevenLabs files; to confirm. Her looser wording is probably just her talking. So new Grace videos: she records the voiceover herself from our script; ElevenLabs only as a fallback.
+10. **Grace's own voice, not the ElevenLabs voiceover** (Ralph 2026-10-20): the castor video, our best seller (3 sales), is Grace speaking. All 5 Grace sellers are her own voice (Ralph confirmed the other 4 the same day). Her looser wording is probably just her talking. So new Grace videos: she records the voiceover herself from our script; ElevenLabs only as a fallback.
 
 ## Things to watch
 - **Update 2026-10-20: BodyJ (the reply video) is up to 3 sales** (1,578 views, 526 views per sale): the reply-to-a-real-comment format is the strongest lead so far.
