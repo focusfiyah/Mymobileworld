@@ -6,7 +6,10 @@ voiceover and skit line:
 2. Pace (free, always): `python3 grace/voice/pace.py IN OUT --wps 3.5`. Caps pauses at 0.15 s and retimes to 3.5 words/s
    (Grace's natural pace in Ralph's video) with pitch and formants kept, then levels to -16 LUFS. The raw render runs
    2.9 words/s with long pauses, which Grace found too slow. Needs `pip install faster-whisper` (free local model).
-3. Then the usual STT stutter check (PLAYBOOK §6).
+3. Clean the echo (free, always): `python3 grace/voice/clean.py PACED OUT` (resemble-enhance, best of 3 runs that keep
+   every word, about 8 minutes for 30 s). The clone carries some room echo from her accent clips; Ralph approved the
+   cleaned sound 2026-10-20 ("It is good now"). Setup lines are at the top of clean.py.
+4. Then the usual STT stutter check (PLAYBOOK §6).
 
 ## How it was made (2026-10-20, three rounds)
 - Round 1 (echo): a clone from 7 of her TikToks picked for low echo alone. Grace: "too American". Those clips turned out
@@ -18,6 +21,9 @@ voiceover and skit line:
   Tests: same clone on eleven_v4 (C) 0.835, on multilingual_v2 (E) 0.839; round-1 voice on v2 or with a "[Haitian
   accent]" tag did not move (0.761 / 0.749). Grace liked C's sound with E's pace.
 - Round 3 (pace): `pace.py` retimes C for free; G (3.5 words/s, closeness 0.844) picked over F (E's 4.1).
+- Round 4 (echo): Ralph heard an echo in G (fast decay 171 ms vs 100 for the round-1 voice). WPE dereverb changed nothing
+  (the echo is in the clone's voice, not a room); resemble-enhance at temperature 0.1 brings it to 100-150 ms and keeps
+  every word (`clean.py`). The meter cannot judge accent after cleaning, so that was by ear.
 - Review page: https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH. Gates: GATES.md (`check.py`).
 - Cost: about 920 ElevenLabs characters over the three rounds (test lines only; cloning is free).
 
