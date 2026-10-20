@@ -19,5 +19,5 @@ Scope: make Grace's looser wording the standing default everywhere the word-for-
   EXPECT: PASS hor
   EVIDENCE: pending
 
-- [ ] T4: committed + pushed (Mymobileworld, Dayone-ai), REMEMBER_ME_paste.txt sent, Ralph emailed + pushed
-  EVIDENCE: pending
+- [x] T4: committed + pushed (Mymobileworld, Dayone-ai), REMEMBER_ME_paste.txt sent, Ralph emailed + pushed
+  EVIDENCE: 2026-10-20 pushed 22e4c1a (Mymobileworld) + 564bfc7 (Dayone-ai, matches origin); REMEMBER_ME_paste.txt sent (file 3be999b8); Gmail 1a157448e46e8df8; push requested
