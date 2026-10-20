@@ -62,3 +62,9 @@ Note: "GraceWithTheGlow" is the display name of @shewiththeglow (Ralph's screens
   CHECK: python3 grace/voice/check.py account && python3 grace/voice/check.py refs
   EXPECT: REFS OK
   EVIDENCE: pending
+
+## Round 3: pacing (Ralph 2026-10-20: "She likes C however it needs to be the pacing of E")
+
+- [x] G11: C retimed for free to E's pace with every word kept and the accent kept (pace.py; F = E length, G = Grace's 3.5 wps)
+  EVIDENCE: 2026-10-20 Whisper: F 28/28 words 4.03 wps (E 4.12), G 28/28 3.48 wps; closeness to Ralph's video F 0.828,
+  G 0.844 (C 0.835). On the review page (v3) with E for comparison. 0 ElevenLabs characters.
