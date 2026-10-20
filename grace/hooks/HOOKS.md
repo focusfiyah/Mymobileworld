@@ -5,8 +5,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 
 ## How to use (every Grace job)
 - Every Grace script picks its spoken hook options from here first (plus the coach-modeled hooks, PLAYBOOK §3); name the hook id in the plan's line sources. Ids match the sheet row: H016 = row 16.
-- Say hooks WORD FOR WORD as written in the sheet, no contractions or rewording (Ralph, 2026-10-05). Only the blanks (__) get filled; the humanizer pass leaves the hook line itself alone.
-  Exception (Ralph, 2026-10-20): new versions of videos that already sold (`grace/winners/VERSIONS.md`) use Grace's looser wording on top of the library hook, because her re-worded versions are the ones that sold.
+- Start from the library hook and say it in Grace's looser wording: contractions, her openers ("Listen,", "Y'all,", "Okay,"), the way she re-worded the hooks that sold (Ralph 2026-10-20: her re-worded versions are the ones that sold; keep it while it works unless he says otherwise). Keep the hook's idea and fill its blank with a concrete moment; cite the id. The voice sample is her posted scripts in `grace/winners/winners.json` (`script`). This replaces the 2026-10-05 word-for-word rule.
 - Fill every blank with a concrete moment from the product research, never a broad problem.
 - The line after the hook answers or proves it on screen right away (demo, close-up, the back/side/pocket shot).
 - Spread hook types across a product's videos (no two videos of one product on the same id; TikTok flags repeats).

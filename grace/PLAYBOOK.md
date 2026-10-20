@@ -30,7 +30,7 @@ products follow the same rules.
 - **Words to avoid:** "you NEED this", "obsessed", "game changer", "miracle", "so cute", reading off the size range.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
 - **No "plenty to share" / "one is enough" lines in the CTA (Ralph 2026-10-03, GTT KN95).** Anything that tells the buyer one unit covers it kills multi-unit sales. Close with a line that makes them want more ("Grab a couple boxes, so there's always one close"), then "It's in the orange cart."
-- **No "order it now" / "order now" (Ralph 2026-10-03).** Close with Grace's usual "It's in the orange cart." after the real reason (holidays, "don't put it off").
+- **No "order it now" / "order now" (Ralph 2026-10-03).** Close in the orange cart in Grace's words after the real reason (holidays, "don't put it off"): "It's in the orange cart." or, as in the videos that sold, "I linked it in the orange cart for you." (Ralph 2026-10-20, looser wording).
 
 ## 2. Sales psychology
 | Principle | How we use it |
@@ -46,7 +46,7 @@ products follow the same rules.
 | Take the shame out | Gift angle ("your dad will never buy this himself"): the pain is felt for someone else, and it gets shares. |
 
 ## 3. Hooks
-- **Hook library (Ralph, 2026-10-05): `grace/hooks/HOOKS.md`** (153 hooks, source `hooks.json`, id = sheet row, e.g. `H016`). Pick spoken hook options from it first on every Grace job, say them WORD FOR WORD (no contractions, Ralph 2026-10-05; only blanks get filled), cite the id in line sources, never reuse one id across a product's videos, comparison hooks (rows 71-75, 135-144) may show a second product and name its brand on screen and in the script unless told otherwise, overriding 'only our product' (Ralph 2026-10-05). More batches coming: add them to `hooks.json`, run `build.py`.
+- **Hook library (Ralph, 2026-10-05): `grace/hooks/HOOKS.md`** (153 hooks, source `hooks.json`, id = sheet row, e.g. `H016`). Pick spoken hook options from it first on every Grace job, say them in Grace's looser wording, not word for word (Ralph 2026-10-20, replaces the 2026-10-05 word-for-word rule: her re-worded versions are the ones that sold; keep it while it works), cite the id in line sources, never reuse one id across a product's videos, comparison hooks (rows 71-75, 135-144) may show a second product and name its brand on screen and in the script unless told otherwise, overriding 'only our product' (Ralph 2026-10-05). More batches coming: add them to `hooks.json`, run `build.py`.
 - Types: problem call-out, result first, comment reply, curiosity gap, contrarian, visual pattern
   break, POV, social proof (true only), direct address.
 - **Grace's own hook style (Grace 2026-10-02, Shnuggle; use it in every product):** (1) category-gap discovery:
