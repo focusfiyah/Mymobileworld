@@ -76,23 +76,27 @@ def patterns():
 
 
 def versions():
+    """Ralph 2026-10-20: Grace's looser wording. Each version names a library hook as its base, but does not read it word for word."""
     import gate
     hooks = {h["id"]: h["hook"] for h in json.load(open(os.path.join(REPO, "grace/hooks/hooks.json")))["hooks"]}
     t = open(os.path.join(HERE, "VERSIONS.md")).read()
+    if "Check with Ralph" in t:
+        fail("open 'Check with Ralph' note left")
     blocks = re.split(r"^### ", t, flags=re.M)[1:]
     S = os.path.join(REPO, ".claude/skills/tiktok-shop-coach/scripts/tiktok.py")
-    per = {}
-    used = set()
+    per, used = {}, set()
     for b in blocks:
         name = b.split(":", 1)[0].strip()
-        hid = re.search(r"^- Hook: (H\d{3})", b, re.M).group(1)
+        m = re.search(r"^- Hook base: (H\d{3})", b, re.M)
+        if not m or m.group(1) not in hooks:
+            fail(f"{name}: no library hook base")
+        hid = m.group(1)
         lines = [l[2:].strip() for l in b.splitlines() if l.startswith("> ")]
         script = " ".join(lines)
-        parts = [re.escape(p.strip()) for p in hooks[hid].split("__")]
-        rx = r"\s*.+?\s*".join(parts) + r"[.?!]"
-        if not re.match(rx, lines[0]):
-            fail(f"{name}: first line is not {hid} word for word: {lines[0]!r}")
-        if lines[-1] != "It's in the orange cart.":
+        rx = r"\s*.+?\s*".join(re.escape(p.strip()) for p in hooks[hid].split("__")) + r"[.?!]"
+        if re.match(rx, lines[0]):
+            fail(f"{name}: opens with {hid} word for word; Ralph asked for Grace's looser wording")
+        if "orange cart" not in lines[-1].lower():
             fail(f"{name}: close is {lines[-1]!r}")
         for p in gate.BANNED + [r"\$\s?\d", r"\b\d+(\.\d+)? ?(dollars|bucks)\b", r"\breviewers?\b", r"label says", r"\border\b"]:
             if re.search(p, script, re.I):
@@ -109,6 +113,15 @@ def versions():
     if len(per) != 6 or any(n != 2 for n in per.values()):
         fail(f"per product {per}")
     print("PASS versions", sum(per.values()))
+
+
+def promoted():
+    ads = {"7696231728855223582", "7696285070046301470", "7696617399759555871", "7697844264050511135"}
+    for v in db():
+        want = "Yes, by the brand (TikTok ad label)" if v["id"] in ads else "No"
+        if v.get("promoted") != want:
+            fail(f"{v['id']} promoted={v.get('promoted')!r}")
+    print("PASS promoted")
 
 
 def proofs():

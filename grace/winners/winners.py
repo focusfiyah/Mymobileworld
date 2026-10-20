@@ -24,11 +24,11 @@ HOOKS = os.path.join(REPO, "grace/hooks/hooks.json")
 
 AUTO = ["id", "url", "share_link", "account", "followers", "posted", "duration_s", "views", "likes", "comments",
         "shares", "saves", "product", "product_category", "product_url", "caption", "script", "script_source",
-        "hook", "hook_id", "hook_type", "hook_match", "pulled"]
+        "hook", "hook_id", "hook_type", "hook_match", "pulled", "promoted"]
 JUDGED = ["faceless", "format", "onscreen_text", "pain_point", "problem_solved", "why_converted", "job"]
 # Sheet column order (what Grace reads first goes left).
 COLUMNS = [("posted", "Posted"), ("account", "Account"), ("product", "Product"), ("sales", "Sales"),
-           ("views", "Views"), ("views_per_sale", "Views per sale"), ("faceless", "Faceless"),
+           ("views", "Views"), ("views_per_sale", "Views per sale"), ("promoted", "Promoted"), ("faceless", "Faceless"),
            ("format", "Format"), ("hook", "Hook (first line said)"), ("hook_type", "Hook type"),
            ("hook_id", "Library hook"), ("onscreen_text", "On-screen text"), ("pain_point", "Pain point"),
            ("problem_solved", "Problem the product solves"), ("why_converted", "Why it converted (our read)"),
@@ -112,6 +112,8 @@ def pull(link, out, sales=None, note=None):
         "hook_type": h["type"] if h and score >= 0.8 else "",
         "hook_match": f"closest {h['id']} ({h['type']}) '{h['hook']}' score {score}" if h else "",
         "pulled": date.today().isoformat(), "frames": os.path.join(folder, "sheet.png"),
+        # TikTok's ad label on Grace's videos means the brand paid to promote it (Ralph 2026-10-20): views are partly paid.
+        "promoted": "Yes, by the brand (TikTok ad label)" if meta.get("is_ad") else "No",
     }
     db = load()
     old = next((v for v in db["videos"] if v["id"] == row["id"]), None)
