@@ -27,5 +27,5 @@ Scope: apply Ralph's 5 answers to the tracker and the 12 versions, and set up Ho
 - [x] R5: Drive: new sheet + doc as CURRENT, the first ones renamed v1 (2026-10-20) inside "Older versions", nothing loose
   EVIDENCE: 2026-10-20 folder listing: CURRENT sheet 17qk... (updated in place A1:X7, read back), CURRENT doc v2 1V5w..., Older versions/ holds v1 doc 1bcd...; nothing else loose. Deviation: sheet updated in place (living tracker) instead of a v1 copy.
 
-- [ ] R6: committed + pushed; Ralph emailed + pushed
-  EVIDENCE: pending
+- [x] R6: committed + pushed; Ralph emailed + pushed
+  EVIDENCE: 2026-10-20 pushed 39fbd23 (Mymobileworld) + 669e06a (claude-skills) to claude/ai-video-sales-tracker-r3dl1y; Gmail id 1a1573d4262b9769; PushNotification 'Mobile push requested'
