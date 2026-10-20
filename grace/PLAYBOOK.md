@@ -244,6 +244,8 @@ products follow the same rules.
 
 - 2026-10-20 Sales tracker (`grace/winners/`): first 6 AI videos with a sale. Shared: product on screen in second 1, a short TikTok text line on frame 1 (all 6), one picturable problem in sentence 1, a real deadline, a CTA that asks for 2+, the main objection killed in one line. Views per sale is the number to beat (glasses 463 vs Mute 3,877). 4 of 5 were re-worded by Grace when posted; her version sold. Details `grace/winners/PATTERNS.md`.
 
+- 2026-10-20 Voice (Ralph): the castor roll-on, the first video with 3 sales, was voiced by Grace herself, not the ElevenLabs Grace B voice. Build on the selling video; for new Grace videos plan her own voiceover (she reads our script her way) before any ElevenLabs VO.
+
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
   (https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2, `grace/desk/`) scores each sample and shows her top few for the week.

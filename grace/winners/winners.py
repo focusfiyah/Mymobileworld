@@ -25,11 +25,11 @@ HOOKS = os.path.join(REPO, "grace/hooks/hooks.json")
 AUTO = ["id", "url", "share_link", "account", "followers", "posted", "duration_s", "views", "likes", "comments",
         "shares", "saves", "product", "product_category", "product_url", "caption", "script", "script_source",
         "hook", "hook_id", "hook_type", "hook_match", "pulled", "promoted"]
-JUDGED = ["faceless", "format", "onscreen_text", "pain_point", "problem_solved", "why_converted", "job"]
+JUDGED = ["faceless", "voice", "format", "onscreen_text", "pain_point", "problem_solved", "why_converted", "job"]
 # Sheet column order (what Grace reads first goes left).
 COLUMNS = [("posted", "Posted"), ("account", "Account"), ("product", "Product"), ("sales", "Sales"),
            ("views", "Views"), ("views_per_sale", "Views per sale"), ("promoted", "Promoted"), ("faceless", "Faceless"),
-           ("format", "Format"), ("hook", "Hook (first line said)"), ("hook_type", "Hook type"),
+           ("voice", "Voice"), ("format", "Format"), ("hook", "Hook (first line said)"), ("hook_type", "Hook type"),
            ("hook_id", "Library hook"), ("onscreen_text", "On-screen text"), ("pain_point", "Pain point"),
            ("problem_solved", "Problem the product solves"), ("why_converted", "Why it converted (our read)"),
            ("script", "Script used (as posted)"), ("url", "Link to video"), ("product_url", "Product link"),
