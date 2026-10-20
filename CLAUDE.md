@@ -142,6 +142,8 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 
 - **Grace AI-video sales tracker, 2026-10-20:** every AI video that made a sale: product, hook, faceless, pain point, problem solved, why it converted, script as posted, link, sales. Seeded with 6 (1 sale each), patterns + 12 new versions ($0). Intake: skill `grace-sales-tracker` (`grace/winners/winners.py pull <link> --sales N`). Drive: Grace Tiktok assets/AI Video Sales Tracker (Grace) (1X_fNJZ_b3g2faWNtkfV_5y3rbMWyF2pX). `grace/winners/README.md`.
 
+- **House of Rameau (@houseoframeau), 2026-10-20:** Ralph and Grace's shared TikTok account; we manage it together and will post videos there (Ralph). Composio TikTok connection `tiktok_buck-flunk` = this account (tested: list videos + stats work; no sales/saves; posting untested, only on Ralph's OK per video). 26 public videos, 8 shop videos (`houseoframeau/videos.json`). Grace's PLAYBOOK + all hard rules apply. `houseoframeau/README.md`.
+
 - **Grace's Creator Desk, 2026-10-01:** sample queue + results tracker, https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2
   (source + data model + stats refresh steps in `grace/desk/README.md`). Grace needs Editor access to write.
 

@@ -1,15 +1,14 @@
-# Humanizer pass on VERSIONS.md (2026-10-20)
+# Humanizer pass on VERSIONS.md v2 (2026-10-20, Grace's looser wording)
 
-Read all 12 scripts against the humanizer catalog (groups A-F). Hook lines were left alone (library, word for word).
+Voice sample used: Grace's 5 posted scripts (winners.json `script`): contractions, "Listen,", "y'all", "freaking
+genius", "I'mma do y'all a favor", "I linked it in the orange cart for you". Matched to that, not to neutral prose.
 
-Tells found and changed:
-- sofyre-B: "pouches. It smells fresh to us" (wrong pronoun, read as stitched) -> "They smell fresh to us, but mice don't like them."
-- tigereye-A: "Wear it every day as a reminder." (vague closer, §2 one-line closer that adds nothing) -> "Wear it every day as your reminder to go get it." (ties back to the hook's level-up identity; no new fact)
-- tigereye-B: "..., which makes it an easy gift." (staged justification, §3 inflation) -> cut; the next line already gives the gift reason.
-
-Checked and kept (deliberate, not tells):
-- Lists of places/uses (pantry, sink, garage, car; brows, cuticles, elbows, hair ends) come from the approved scripts and the listings, not rule-of-three padding.
-- "Honestly, I'm upset I didn't find the roller first." (bodyj-A) is Grace's approved brag-style line.
-- Contrast lines ("smells fresh to us, but mice don't like it") state a fact, not a staged not-X-but-Y.
-- No dashes, no "obsessed", "game changer", "you need this", "selling out", "order now", "heads up", no price number, no "reviewer(s)", no "the label says" (checked by check.py versions).
-- Sentence length varies (3 to 20 words); every script reads at grade 2.0-4.0 (research/readability.txt).
+Read all 12 against the catalog (groups A-F):
+- No staged contrasts or one-line closers added; the only short closers are Grace's CTA lines.
+- Lists (pantry/sink/garage/car; brows/cuticles/elbows/hair ends; pour/drip/wipe/smell) are the product's real uses
+  from the listings and the approved scripts, not rule-of-three padding.
+- No inflated claims: "help cut the glare", "snore less", "mice don't like it" stay at listing strength. sofyre-B was
+  first drafted "I want the mice gone"; changed to "stay away" because "gets rid of" is a claim the listing can't back.
+- No dashes, no banned phrases, no price, no "reviewer(s)", no "the label says" (check.py versions).
+- Sentence length varies 4 to 22 words; grades 2.2 to 4.3 (research/readability.txt).
+Kept on purpose: "Freaking genius." (Grace's own words from the BodyJ winner), "the cousin who always brings nothing" (humor in her register).
