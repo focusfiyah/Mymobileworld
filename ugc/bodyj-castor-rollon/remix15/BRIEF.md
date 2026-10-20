@@ -1,6 +1,6 @@
 # BodyJ castor roll-on: 4 x 15 s remixes of the selling video (Grace)
 
-Status: 2026-10-20 free prep done: winner pulled (ref/), clip inventory + winner shot map (INVENTORY.md), GATES.md (2 of 10 met). Waiting on Grace's 4 scripts (Ralph forwards them). $0 spent.
+Status: 2026-10-20 Grace's 4 scripts received + compared (COMPARE.md); waiting on Ralph: OK to word cuts (only #3 fits 15 s) + who records the voice. $0 spent.
 
 ## What Ralph asked (2026-10-20, his words)
 "Use the winning formula. Keep the visuals similar, similar script, change the hook as long as it makes sense. remix

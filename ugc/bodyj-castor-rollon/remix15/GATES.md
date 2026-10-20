@@ -16,10 +16,10 @@ Scope: four 15 s remixes of Grace's selling castor video (3 sales) on Grace's 4 
   CWD: ugc/bodyj-castor-rollon/remix15
   EVIDENCE: automatic-evidence=v1; definition-sha256=e472afbb68877c5f67528d7eaf6fccad67f1f3626af5b28a324baf7d1ab510a3; exit=0; EXPECT=matched; output-sha256=0459e934d290b45db3a1f2f9370129749e6711caea6f91399422c9ca14f1cc23; output-bytes=16; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bodyj-castor-rollon/remix15; path=7f4fb4b02918/15 entries
 
-- [ ] G3: Grace's 4 scripts (from Ralph) saved word for word in scripts.json and compared in ONE table (words, length at 3.3 w/s, hook vs winner, structure, grade, unbacked claims, banned phrases, winning-formula parts kept) + a recommendation, sent to Ralph before any video work
-  EVIDENCE: pending
+- [x] G3: Grace's 4 scripts (from Ralph) saved word for word in scripts.json and compared in ONE table (words, length at 3.3 w/s, hook vs winner, structure, grade, unbacked claims, banned phrases, winning-formula parts kept) + a recommendation, sent to Ralph before any video work
+  EVIDENCE: COMPARE.md table + recommendation sent to Ralph in chat and email 2026-10-20; scripts_received.json verbatim
 
-- [ ] G4: Each script is 38-52 words, grade 6 or lower, no banned phrase; any script used word for word that fails has a per-video override in ../checklist.json with Ralph's quote
+- [ ] G4: Each script Grace records fits its limit (15 s; script 4 up to 20 s, Ralph 2026-10-20) at 3.3 words/s, grade 6 or lower, no banned phrase; any script used word for word that fails has a per-video override in ../checklist.json with Ralph's quote
   CHECK: python3 check.py scripts
   EXPECT: SCRIPTS_OK
   CWD: ugc/bodyj-castor-rollon/remix15
