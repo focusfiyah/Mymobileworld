@@ -82,8 +82,8 @@ If lips are on screen, use a retake or an insert instead.
    previous line and the start of the next. Adding two syllables takes about 0.4s.
 2. **Clone and render takes** with `scripts/eleven_clone_takes.py <clip> <out_dir> "<line>" --keep
    a:b c:d ...`. `--keep` = the same speaker's *other* lines, ~10s+ total, with no SFX. Pass
-   `--voice-id` to reuse a clone. **Grace's Seedance voice is kept as `3dmagVYZFvrGkBbWWmGC`**
-   ("Grace Bruise Skit Seedance"), so reuse it rather than re-cloning.
+   `--voice-id` to reuse a clone. **Grace has one voice: the clone named in Mymobileworld
+   `grace/voice/README.md`**; reuse it rather than re-cloning (Ralph 2026-10-20: one Grace voice).
 3. **Splice each take into the full clip and test it there, never on its own.** Use
    `scripts/splice_voice_line.py <clip> <take> <out> --line s:e --gap s:e --pause s:e`.
    Take t1 scored 0.91 in isolation but read "Ornica" once spliced in, even with the room

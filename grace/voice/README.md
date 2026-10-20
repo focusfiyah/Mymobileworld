@@ -1,17 +1,27 @@
-# Grace voice clones (ElevenLabs, Starter plan = instant clones only; professional clone not allowed, tested 2026-10-18)
-- **2026-10-20 re-clone, WAITING ON RALPH'S PICK: "Grace" `gjmt5xZqVE6mjSY4NfQM`** (grace.json). Instant clone from 7 of Grace's own
-  on-camera TikToks on @shewiththeglow (sources.json; posted Mar-Aug 2026, before any AI voice; @gracewiththeglow is a different woman).
-  Picked from all 1,109 pre-2026-09-25 videos by `pick.py` (driest, no music bed in the gaps), speaker-checked (resemblyzer, see
-  sources.json), trimmed to 172 s of speech, levelled. Echo at pauses (`echo.py`): new 52 ms vs old C 110 ms vs B 78 ms.
-  Same settings as C (eleven_v4, stability 0.4, similarity 0.8, style 0); level to -16 LUFS. A/B: `grace_voice_AB_2026-10-20.mp3`
-  (real Grace, old C, new), review page https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH. Gates: GATES.md (`check.py`).
-  On Ralph's "keep": delete Grace B + old C on ElevenLabs, switch every rule/script/skill to the new id (G5, G6).
-- **Grace C `P8OUGBCvq8OBS4xlb65A` = Grace's default voice (Ralph picked it 2026-10-18).** Instant clone from her 5 clean
-  Wag Bag CURRENT V1-V5 takes (~155 s, Drive WagBag Final Edits). Settings: eleven_v4, stability 0.4, similarity 0.8, style 0.
-  It renders ~7 dB quieter than B (-19.5 vs -12.8 LUFS on the same line): loudnorm to -16 LUFS before any cut or preview.
-- Grace B `bGrsdLmwBbYUgHRuMFOI`: retired. 1-sample instant clone; Grace said it doesn't sound like her.
-- `grace_voice_AB.mp3` = real Grace 7 s, then B, then C, each levelled to -16 LUFS.
-- Source audio (src/) is gitignored; re-download from Drive if needed.
-- **Open (Ralph 2026-10-19, LGXNDS v6):** Grace C has a slight room echo, baked into the clone (her Wag Bag takes have room echo).
-  Free ffmpeg cleanup (highpass/afftdn/gate/EQ) changed nothing measurable; DeepFilterNet can't fetch its model (GitHub raw 403).
-  Ralph chose "re-clone later": rebuild Grace C from de-echoed takes (quote the cleaning + clone cost first). Until then v6 keeps the current C.
+# Grace's voice (ElevenLabs, Starter plan = instant clones only; professional clone not allowed, tested 2026-10-18)
+
+**"Grace" `gjmt5xZqVE6mjSY4NfQM` is Grace's ONE voice** (Ralph 2026-10-20: "Keep"; grace.json). Use it for every Grace
+voiceover and skit line. Settings: eleven_v4, stability 0.4, similarity 0.8, style 0. Level every voiceover to -16 LUFS
+(`loudnorm=I=-16:TP=-1.5`) before the cut and in any preview.
+
+## How it was made (2026-10-20)
+- Source: Grace's own TikToks on @shewiththeglow (display name GraceWithTheGlow). Only videos posted before 2026-09-25,
+  because our AI voiceovers on her account start 2026-10-01 and must never feed the clone.
+- `pick.py <dir>` ranked all 1,109 of them: driest first (`echo.py`), with quiet gaps between words (no music bed).
+  7 clips where she talks to camera were kept (sources.json), each speaker-checked with resemblyzer against her other
+  on-camera clips (>= 0.87; a different woman scored 0.846, so it is a rough filter, the on-camera check matters).
+- Trimmed to 172 s of speech (silenceremove), levelled to -18 LUFS, uploaded as an instant clone (no character cost).
+- Result on the same line: echo at pauses 52 ms vs 110 ms for the old Grace C (`echo.py`, lower = drier).
+  A/B: `grace_voice_AB_2026-10-20.mp3` (real Grace, old C, new). Review page https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH.
+- Gates: GATES.md (`check.py sources|train|clone|account|refs`).
+
+## To rebuild it
+Re-download with `yt-dlp --impersonate chrome` (needs `pip install curl_cffi`), run `pick.py`, look at the frames, keep
+clips where Grace talks to camera, trim, clone, then A/B against the current voice before swapping ids. Ask Ralph first;
+delete the old voice only on his OK.
+
+## Retired (deleted from ElevenLabs 2026-10-20)
+- Grace C `P8OUGBCvq8OBS4xlb65A`: cloned from her Wag Bag takes, which have room echo (baked into the clone).
+- Grace B `bGrsdLmwBbYUgHRuMFOI`: 1-sample clone; Grace said it didn't sound like her.
+- Old Seedance skit clone `3dmagVYZFvrGkBbWWmGC`: already gone from the account (API 400 on 2026-10-20).
+Job notes that name these voices are history. `test_B.mp3` / `test_C.mp3` stay as the echo meter's control.

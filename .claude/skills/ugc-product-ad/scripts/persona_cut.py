@@ -1,5 +1,5 @@
 # Skill copy of focusfiyah/Mymobileworld ugc/carpe-mountain-breeze/cut.py: copy into the job folder as cut.py (with shots.json).
-"""Free cut: an edit list of clip pieces laid end to end under the Grace B voiceover, a whip-pan into S1, CC0 SFX.
+"""Free cut: an edit list of clip pieces laid end to end under the Grace voiceover, a whip-pan into S1, CC0 SFX.
 
   python3 cut.py   -> out/carpe_mountain_breeze.mp4 (720x1280, 24fps)
 

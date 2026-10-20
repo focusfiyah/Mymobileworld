@@ -10,7 +10,7 @@ def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call unti
     _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
 
 
-VOICE = "bGrsdLmwBbYUgHRuMFOI"
+VOICE = "gjmt5xZqVE6mjSY4NfQM"
 SETTINGS = {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}
 md = open("scripts.md").read()
 

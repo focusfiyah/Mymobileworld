@@ -3,7 +3,7 @@ import json, os, subprocess, sys, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SCRATCH = os.environ.get("GV_SCRATCH", "")
-OLD = ["P8OUGBCvq8OBS4xlb65A", "bGrsdLmwBbYUgHRuMFOI"]
+OLD = ["P8OUGBCvq8OBS4xlb65A", "bGrsdLmwBbYUgHRuMFOI", "3dmagVYZFvrGkBbWWmGC"]
 
 
 def api(path):
@@ -72,6 +72,7 @@ def refs():
         if not os.path.exists(p):
             continue
         t = open(p).read()
+        t = t.split("## Retired")[0]  # the README's history section names the deleted voices on purpose
         for o in OLD:
             if o in t:
                 bad.append((f, o))
