@@ -1,1 +1,1 @@
-{"voice_id": "gjmt5xZqVE6mjSY4NfQM", "name": "Grace", "created": "2026-10-20"}
+{"voice_id": "Rh3oAQMqRVf78UIVpBoQ", "name": "Grace", "picked": "2026-10-20 (G)", "model_id": "eleven_v4", "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0}, "pace": "python3 grace/voice/pace.py IN OUT --wps 3.5"}

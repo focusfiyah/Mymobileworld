@@ -58,10 +58,11 @@ Note: "GraceWithTheGlow" is the display name of @shewiththeglow (Ralph's screens
 - [x] G9: preview page shows real Grace + A, C, D; push + email sent
   EVIDENCE: 2026-10-20 page v2 https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH (real Grace accent, E, C, A, D); push "Mobile push requested"; Gmail id 1a15a407f53d3ab6
 
-- [ ] G10: after Grace's pick, ElevenLabs has one Grace voice, PLAYBOOK/README/scripts name its id and settings
+- [x] G10: after Grace's pick, ElevenLabs has one Grace voice, PLAYBOOK/README/scripts name its id and settings
   CHECK: python3 grace/voice/check.py account && python3 grace/voice/check.py refs
   EXPECT: REFS OK
-  EVIDENCE: pending
+  EVIDENCE: 2026-10-20 Ralph "G is the one": Rh3oAQMqRVf78UIVpBoQ renamed "Grace", round-1 gjmt... deleted ({"status":"ok"});
+  PLAYBOOK/CLAUDE.md/README/grace.json + 30 job scripts and shots.json now name Rh3o...; pace step in the rule.
 
 ## Round 3: pacing (Ralph 2026-10-20: "She likes C however it needs to be the pacing of E")
 
