@@ -1,6 +1,12 @@
 # Grace's voice (ElevenLabs, Starter plan = instant clones only; professional clone not allowed, tested 2026-10-18)
 
-**"Grace" `gjmt5xZqVE6mjSY4NfQM` is Grace's ONE voice** (Ralph 2026-10-20: "Keep"; grace.json). Use it for every Grace
+**Status 2026-10-20 round 2, WAITING ON GRACE'S PICK:** Grace says the voice below sounds too American (she is Haitian; old C
+didn't have her accent either). Accent clone "Grace accent test" `Rh3oAQMqRVf78UIVpBoQ` = Ralph's 2026-10-19 video of Grace +
+the 10 TikToks that sound most like it (accent_rank.json). Tests C (eleven_v4) / E (eleven_multilingual_v2) are on the review
+page. Lesson: picking clone audio for low echo alone gave clips far from her natural voice (0.807 vs 0.93+ closeness); rank by
+closeness to a known-good sample of her real accent first, then by echo. On the pick: it becomes "Grace", the others get deleted.
+
+**"Grace" `gjmt5xZqVE6mjSY4NfQM` is Grace's ONE voice for now** (Ralph 2026-10-20: "Keep"; grace.json). Use it for every Grace
 voiceover and skit line. Settings: eleven_v4, stability 0.4, similarity 0.8, style 0. Level every voiceover to -16 LUFS
 (`loudnorm=I=-16:TP=-1.5`) before the cut and in any preview.
 
