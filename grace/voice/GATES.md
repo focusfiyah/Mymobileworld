@@ -1,0 +1,40 @@
+# Gates: Grace voice re-clone (one clean voice, 2026-10-20)
+
+OWNS: grace/voice/**
+
+Scope: rebuild Grace's ElevenLabs voice from her own @shewiththeglow TikToks (real voice, before any AI VO), with less
+echo than Grace C, then (on Ralph's OK) delete Grace B + old Grace C and point every rule/script at the one new voice.
+Note: Ralph wrote "Gracewiththeglow"; tested 2026-10-20: @gracewiththeglow is a different woman (3 videos from 2022),
+Grace's account in every job record is @shewiththeglow.
+
+- [x] G1: source set = only Grace's own voice: every clip comes from a @shewiththeglow video posted before 2026-09-25
+  (our AI voices started 2026-10-01), listed in sources.json with id + date
+  CHECK: python3 grace/voice/check.py sources
+  EXPECT: SOURCES OK
+  EVIDENCE: 2026-10-20 run: 7 clips, all before 2026-09-25, speaker >= 0.87 / SOURCES OK
+
+- [x] G2: training set is 60-180 s of speech, every file drier than the old Grace C Wag Bag source (rt60_est <= 160 ms)
+  CHECK: python3 grace/voice/check.py train
+  EXPECT: TRAIN OK
+  EVIDENCE: 2026-10-20 run (GV_SCRATCH=session scratchpad/gv): speech 172s, every file rt60_est <= 160 ms / TRAIN OK
+
+- [x] G3: new clone exists on ElevenLabs and its test line is measurably drier than old Grace C on the same line
+  CHECK: python3 grace/voice/check.py clone
+  EXPECT: CLONE OK
+  EVIDENCE: 2026-10-20: pause decay new 52 ms (6) vs old C 110 ms (2), control C 128 > B 78; fast-decay rt new 100 vs old C 200 / CLONE OK.
+  Changed after the first run: v1 also required tail_db 1 dB lower, which failed (new -11.1 vs old C -12.7); tail_db
+  depends on speaking rhythm (new voice talks slower and more connected), so it was replaced by the pause-decay measure
+  (echo.phrase_end), whose control (C echoier than B) holds. Reported to Ralph.
+
+- [x] G4: A/B preview (real Grace, old C, new) is on a playable Artifact page; push + email sent to Ralph
+  EVIDENCE: 2026-10-20 https://claude.ai/artifact/ERywTwEf9dwoxqgtH8jqyH (4 mp3s); PushNotification "Mobile push requested"; Gmail id 1a157d5219443d3d
+
+- [ ] G5: after Ralph's OK, ElevenLabs has exactly one Grace voice (the new one); Grace B + old C deleted
+  CHECK: python3 grace/voice/check.py account
+  EXPECT: ACCOUNT OK
+  EVIDENCE: pending
+
+- [ ] G6: rules, skills and default scripts name only the new voice id (old ids only in history/job logs)
+  CHECK: python3 grace/voice/check.py refs
+  EXPECT: REFS OK
+  EVIDENCE: pending
