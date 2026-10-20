@@ -1,8 +1,8 @@
 # House of Rameau (@houseoframeau): shared TikTok account (Ralph + Grace)
 
-Status: 2026-10-20 access tested and 26 public videos pulled (`videos.json`); 8 are TikTok Shop videos. One of them
-(Tiger Eye) is in Grace's sales tracker with 1 sale. Next: Ralph/Grace say which other shop videos sold; first post
-here waits for Ralph's OK on a video.
+Status: 2026-10-20 access tested and 26 public videos pulled (`videos.json`); 8 are TikTok Shop videos, 5 of them our
+AI videos. Only Tiger Eye has sold (1, in Grace's sales tracker; Ralph 2026-10-20). Next: first post here waits for
+Ralph's OK on a video.
 
 Ralph 2026-10-20: "we will be managing that together and posting videos there as well." Grace's rules
 (`grace/PLAYBOOK.md`) and all the hard rules in CLAUDE.md apply to videos made for this account.
@@ -24,18 +24,20 @@ Ralph 2026-10-20: "we will be managing that together and posting videos there as
 A House of Rameau video that sold goes into the tracker like any other: `grace/winners/winners.py pull <link> --sales N`.
 
 ## Shop videos on 2026-10-20
-| Posted | Product | Views | Note |
-|---|---|---|---|
-| 09-20 | Fungix nail fungus (Approved Science) | 68 | |
-| 09-15 | Arnica bruise cream (Approved Science) | 153 | |
-| 09-14 | ARPURRAINA Tiger Eye necklace | 61 | AI, man on camera; 1 sale (tracker) |
-| 09-14 | Restlex restless legs (Approved Science) | 53 | |
-| 09-07 | Fungix nail fungus (Approved Science) | 70 | |
-| 08-19 | Wooden HOME letters with eucalyptus wreath | 364 | |
-| 08-07 | ECAVUS zipper nursing shirts 3-pack | 371 | |
-| 08-02 | VeryVery Good Tea Energy Peach | 428 | |
+AI = the videos we made (Ralph 2026-10-20: "It's the ones we created"). Sales from Ralph, 2026-10-20.
+
+| Posted | Product | Views | Made by us (AI) | Sales |
+|---|---|---|---|---|
+| 09-20 | Fungix nail fungus (Approved Science) | 68 | yes | 0 |
+| 09-15 | Arnica bruise cream (Approved Science) | 153 | yes | 0 |
+| 09-14 | ARPURRAINA Tiger Eye necklace | 61 | yes (man on camera) | 1 |
+| 09-14 | Restlex restless legs (Approved Science) | 53 | yes | 0 |
+| 09-07 | Fungix nail fungus (Approved Science) | 70 | yes | 0 |
+| 08-19 | Wooden HOME letters with eucalyptus wreath | 364 | no | 0 |
+| 08-07 | ECAVUS zipper nursing shirts 3-pack | 371 | no | 0 |
+| 08-02 | VeryVery Good Tea Energy Peach | 428 | no | 0 |
 The account's own family videos get far more views (pregnancy reveal 49,759; godparents 3,650; most 500 to 1,900).
 The September shop videos are at 53 to 153 views.
 
-Flag: the Tiger Eye video and Grace's 6 AI sellers carry no TikTok "AI-generated" label (meta `ai_generated_label` false); Ralph's rule is to use
+Flag: none of our 5 AI videos here (nor Grace's 6 AI sellers) carry TikTok's "AI-generated" label (meta `ai_generated_label` false); Ralph's rule is to use
 TikTok's AI label where it applies.

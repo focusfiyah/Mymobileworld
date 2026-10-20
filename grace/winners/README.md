@@ -27,3 +27,4 @@ for the judgment fields, `winners.py export`, replace the sheet in Drive (older 
 4. On-screen text: no change for now (nothing burned in; the text lines stay optional for Grace).
 5. "my mom", "my kids or my dog", "every night" are true for Grace.
 House of Rameau: Composio TikTok access, shared account we pull from and will post to (`houseoframeau/README.md`).
+Later the same day: only Tiger Eye has sold on House of Rameau; AI = the videos we made; Grace's looser wording is now the default for all Grace scripts while it works (HOOKS.md, PLAYBOOK, memory files).
