@@ -26,8 +26,8 @@ def still(sid):
     if s["hand"]: refs.append(kie.upload(HAND)); names.append("Grace's hand reference sheet (skin, nails, rings, bracelets)")
     if s["product"]:
         refs += [kie.upload(s.get("main_view", FRONT)), kie.upload(SHEET)]
-        names += ["the flashlight " + ("3/4 lens-end view (main reference for this shot)" if s.get("main_view") else "front view (main reference)"), "the flashlight reference sheet (every side)"]
-    if Path(LOOK).exists() and s["hand"] and s["product"]:   # the look ref shows a hand AND the flashlight: only for shots that have both
+        names += ["the flashlight " + ("view for this shot (main reference for the angle)" if s.get("main_view") else "front view (main reference)"), "the flashlight reference sheet (every side)"]
+    if Path(LOOK).exists() and s["hand"] and s["product"] and not s.get("no_look"):   # the look ref shows a hand AND the flashlight: only for shots that have both
         refs.append(kie.upload(LOOK)); names.append("an approved frame from this same video (match its hand, rings and light)")
     note = " Reference images, in order: " + "; ".join(names) + "." if names else ""
     prompt = "Vertical 9:16 photo, a single frame from a phone-shot UGC video. " + text(s) + note
