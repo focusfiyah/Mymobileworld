@@ -1,0 +1,88 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "spoken/*.txt",
+ "playbook": {
+  "proof": [
+   "playbook_applied.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_notes.md",
+   "research/tag_syntheticwig/tag-syntheticwig.json",
+   "research/tag_wigbangs/tag-wigwithbangs.json",
+   "research/shop1.log",
+   "research/shop2.log",
+   "research/videos/7681305137561750815/hook.png",
+   "research/videos/7681305137561750815/meta.json",
+   "research/videos/7681305137561750815/transcript.txt",
+   "research/videos/7686266009304485133/hook.png",
+   "research/videos/7686266009304485133/meta.json",
+   "research/videos/7688120526841122079/hook.png",
+   "research/videos/7688120526841122079/meta.json",
+   "research/videos/7695450451751308574/hook.png",
+   "research/videos/7695450451751308574/meta.json",
+   "research/videos/7695450451751308574/transcript.txt",
+   "research/videos/7695875126197374221/hook.png",
+   "research/videos/7695875126197374221/meta.json",
+   "research/videos/7696597085788884254/hook.png",
+   "research/videos/7696597085788884254/meta.json",
+   "research/videos/7696597085788884254/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-21.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "readability_v1.txt",
+   "readability_v2.txt",
+   "readability_v3.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}
