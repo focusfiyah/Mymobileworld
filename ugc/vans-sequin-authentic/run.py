@@ -22,7 +22,7 @@ def text(s):
     else: p.append("No hands or arms anywhere in the frame.")
     if s["feet"]: p.append(V["feet_block"])
     if s["anklet"]: p.append(f"She wears {s['anklet']}.")
-    p += [V["shoe_block"], V["scene_suffix"]]
+    p += [V["shoe_block"], V["night_suffix"] if s.get("suffix") == "night" else V["scene_suffix"]]
     return " ".join(p)
 
 
