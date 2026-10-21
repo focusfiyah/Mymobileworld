@@ -15,3 +15,4 @@ Tells found and fixed:
 Kept on purpose: V3 "Glue, spray, blow dryer?" (the real steps from the top glueless video, said as a complaint list);
 "I shook it over and over. It fell right back." (short fragments are her voice).
 Dashes: none (gate scans for them). No facts, numbers or claims added in the pass.
+- r2 shot remap (2026-10-21): line text unchanged, no new tells; only the shot maps and live-audio options changed.

@@ -13,3 +13,4 @@
 | V3 alt | This is such an easy upgrade for your fall pictures (H154) | | @syeliseee 281K, 5% saves, "perfect wig for the fall" |
 
 Checked by `python3 check_scripts.py scripts` (template match against hooks.json, no id reused).
+Shot maps r2: every hook still answered on screen at once (V1 hair moving 7.5 s, V2 turn to the back 10.5 s, V3 long hair + bangs 5.0 s).
