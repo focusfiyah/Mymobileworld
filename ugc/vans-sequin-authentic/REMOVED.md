@@ -13,3 +13,5 @@
 | On-screen text, product cards | standing rule | 2026-10-04 | OK: none (cut.py draws no text, gate --stage cut OK) |
 | Shoe flipping/jumping while held (V4S2 pop at 2.917 s, V5 cut to the sole, V5S1 start, V3S2 fast flip to the sole) | Ralph (V4, V5); Claude QC (V3) | 2026-10-21 | r5: V4S2 redone + cut around the pop; V5S2 dropped, V5S1 from 1.6 s; V3S2 to 2.3 s |
 | Walking in place (V7S1: ground moved ~50 px in 4 s) | Ralph | 2026-10-21 | r5: V7S1 dropped; V5S3 + V6S1 measured, ground moves (real travel) |
+| Shoe turning / "switching side" in her hand, any rotation of a held shoe (V1, V4; V3, V2, V6 proactively) | Ralph | 2026-10-21 | r6/r7: every hold is Kling 3.0 first=last frame (cannot turn), near-still holds get a free push-in |
+| A third shoe in a video (V3: one worn + one held + one on the table) | Ralph | 2026-10-21 | r7: V3S2 still edited to one shoe |
