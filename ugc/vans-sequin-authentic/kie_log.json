@@ -2640,5 +2640,34 @@
    ]
   },
   "costTime": 140
+ },
+ {
+  "t": "2026-10-21 04:03:21",
+  "submitted": "19791d32e06acea2bf66584bdad67993",
+  "prompt": "Phone POV looking straight down at a light grey sidewalk, one continuous 5-second shot. Her hand MUST hold the sequin ch"
+ },
+ {
+  "t": "2026-10-21 04:05:33",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Phone POV looking straight down at a light grey sidewalk, one continuous 5-second shot. Her hand MUST hold the sequin checkerboard Vans shoe completely still by its collar, exactly as in the first frame: the shoe NEVER rotates, tilts, flips or turns, and her fingers stay in place. The only motion: the camera slowly pushes in a little and eases back with a slight natural handheld sway, and sunlight glints on the black sequins. Her feet below and the bag stay still. The shoe keeps exactly the print in the first frame: sequins on the black squares only, the small black woven VANS tab with white letters, the red insole with the white VANS box, black laces, marshmallow sole. The last frame matches the first frame. No new objects, no extra hands, no text, no captions.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547802032-hjnwo0s3as.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547802032-hjnwo0s3as.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "19791d32e06acea2bf66584bdad67993",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/19791d32e06acea2bf66584bdad67993_1_1792555530_1952.mp4"
+   ]
+  },
+  "costTime": 131
  }
 ]
