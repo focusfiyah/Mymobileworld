@@ -16,3 +16,5 @@
 | Shoe turning / "switching side" in her hand, any rotation of a held shoe (V1, V4; V3, V2, V6 proactively) | Ralph | 2026-10-21 | r6/r7: every hold is Kling 3.0 first=last frame (cannot turn), near-still holds get a free push-in |
 | A third shoe in a video (V3: one worn + one held + one on the table) | Ralph | 2026-10-21 | r7: V3S2 still edited to one shoe |
 | Sparkle/glint effects and near-still holds that read as pictures (r7 V3; prompt line "light glints on the sequins") | Ralph | 2026-10-21 | r8: V3 back to the round-5 clips; no "glint/sparkle" wording in any prompt |
+| Held-shoe shots in V2, V3, V4 (they turned / jumped sides, or read as stills when frozen) | Ralph | 2026-10-21 | r9: replaced by feet-only moving Kling shots (walk off rug, marble walk + crossed-leg bounce, deck heel-rock) |
+| A third shoe in V4 | Ralph | 2026-10-21 | r9: new V4 shots counted, 2 shoes per frame |

@@ -2840,5 +2840,241 @@
    ]
   },
   "costTime": 428
+ },
+ {
+  "t": "2026-10-21 04:48:09",
+  "submitted": "7e037aadab65cde21e7e9aa4cd6737f4",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Photo from low on a sunny light-wood deck: she stands f"
+ },
+ {
+  "t": "2026-10-21 04:50:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Photo from low on a sunny light-wood deck: she stands facing the camera, both feet in the sequin Vans side by side and parallel, toes toward the camera, white linen shorts, bare legs from mid-shin down, potted green plants softly blurred behind. Bright neutral daylight. Exactly TWO shoes in the whole picture, both on her feet. No hands or arms anywhere in the frame. No hands or arms anywhere in the frame. She wears two layered gold chain anklets. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = a close-up of the real side VANS tab: the shoe print MUST match images 1-4 letter for letter and colour for colour (black woven tab with white letters, sequins on the black squares only), 5 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 6 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558087116-xenon5bzbbb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7e037aadab65cde21e7e9aa4cd6737f4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7e037aadab65cde21e7e9aa4cd6737f4_0_1792558220.jpeg"
+   ]
+  },
+  "costTime": 131
+ },
+ {
+  "t": "2026-10-21 04:56:19",
+  "submitted": "42423d8baf704c58f102a0d0b3f1ebae",
+  "prompt": "Low front phone shot on a sunny light-wood deck: she stands facing the camera in the sequin checkerboard Vans, white lin"
+ },
+ {
+  "t": "2026-10-21 04:57:41",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Low front phone shot on a sunny light-wood deck: she stands facing the camera in the sequin checkerboard Vans, white linen shorts, two layered gold chain anklets, potted plants behind. One continuous 5-second shot. Motion: she rocks slowly from her heels onto her toes and back once, then shifts her weight onto one foot; the phone camera moves slightly in a natural handheld way. Both shoes keep exactly the print in the first frame: raised black sequins on the black squares only, plain off-white canvas squares, black laces, black collar binding, the small black woven VANS side tab with white letters, marshmallow sole; the shoes never change shape. Exactly TWO shoes, both on her feet, her feet always pointing the same way. No sparkle, glints, lens flares or light effects. No hands, no new objects, no text, no captions.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558577422-r0s3ytml2q.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "42423d8baf704c58f102a0d0b3f1ebae",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/42423d8baf704c58f102a0d0b3f1ebae_1_1792558659_7613.mp4"
+   ]
+  },
+  "costTime": 80
+ },
+ {
+  "t": "2026-10-21 04:58:01",
+  "submitted": "98cf19ff30785b1bbf1fe5e73be40e50",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her own feet as she "
+ },
+ {
+  "t": "2026-10-21 04:58:02",
+  "submitted": "c557446c9ae824ebff893e4688665411",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her own feet while w"
+ },
+ {
+  "t": "2026-10-21 04:58:03",
+  "submitted": "35281c64a7dd0997cdefea2b924769bf",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side photo at table height in a bright cafe: she sits a"
+ },
+ {
+  "t": "2026-10-21 04:59:17",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her own feet as she steps forward off a cream fluffy rug onto a light oak floor in a bright bedroom: both feet wear the sequin Vans, one foot half a step ahead of the other, both pointing to the top of the frame, cropped light-pink lounge pants. Exactly TWO shoes in the whole picture, both on her feet. No hands or arms anywhere in the frame. No hands or arms anywhere in the frame. She wears a delicate gold anklet with small pearls. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = a close-up of the real side VANS tab: the shoe print MUST match images 1-4 letter for letter and colour for colour (black woven tab with white letters, sequins on the black squares only), 5 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 6 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546614726-ldmkd6gzwod.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "98cf19ff30785b1bbf1fe5e73be40e50",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/98cf19ff30785b1bbf1fe5e73be40e50_0_1792558754.jpeg"
+   ]
+  },
+  "costTime": 74
+ },
+ {
+  "t": "2026-10-21 04:59:25",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her own feet while walking across a white marble tile floor in a bright cafe: both feet wear the sequin Vans, one stepping forward, toes pointing to the top of the frame, slim black pants cropped at the ankle. Exactly TWO shoes in the whole picture, both on her feet. No hands or arms anywhere in the frame. No hands or arms anywhere in the frame. She wears layered thin gold anklets. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = a close-up of the real side VANS tab: the shoe print MUST match images 1-4 letter for letter and colour for colour (black woven tab with white letters, sequins on the black squares only), 5 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 6 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558681068-weo1aicals.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c557446c9ae824ebff893e4688665411",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c557446c9ae824ebff893e4688665411_0_1792558758.jpeg"
+   ]
+  },
+  "costTime": 76
+ },
+ {
+  "t": "2026-10-21 04:59:44",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side photo at table height in a bright cafe: she sits at a round white marble table with her legs crossed at the knee, slim black pants cropped at the ankle; the top foot in a sequin Vans hangs in the air, the other foot in the other sequin Vans rests on the white marble floor; the hem of an oatmeal wool coat at the top of the frame. Exactly TWO shoes in the whole picture, both on her feet. No hands or arms anywhere in the frame. No hands or arms anywhere in the frame. She wears layered thin gold anklets. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = a close-up of the real side VANS tab: the shoe print MUST match images 1-4 letter for letter and colour for colour (black woven tab with white letters, sequins on the black squares only), 5 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 6 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558681034-lp1vquocv8s.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "35281c64a7dd0997cdefea2b924769bf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/35281c64a7dd0997cdefea2b924769bf_0_1792558780.jpeg"
+   ]
+  },
+  "costTime": 98
+ },
+ {
+  "t": "2026-10-21 05:00:01",
+  "submitted": "aff4a0e5849b0d14d8be47a7337d3f23",
+  "prompt": "Phone POV looking straight down at her feet in a bright bedroom, cream fluffy rug and light oak floor, cropped light-pin"
+ },
+ {
+  "t": "2026-10-21 05:00:01",
+  "submitted": "29930ce24539ef9fce10745f5a369b19",
+  "prompt": "Phone POV looking straight down at her feet on a white marble tile floor in a bright cafe, slim black cropped pants, lay"
+ },
+ {
+  "t": "2026-10-21 05:00:02",
+  "submitted": "1027e5a3c9e1c8c945dc501d56dcc044",
+  "prompt": "Side phone shot at table height in a bright cafe: she sits at a round white marble table with her legs crossed, slim bla"
+ },
+ {
+  "t": "2026-10-21 05:01:49",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Phone POV looking straight down at her feet on a white marble tile floor in a bright cafe, slim black cropped pants, layered thin gold anklets. One continuous 5-second shot. Motion: she walks forward with natural steps across the marble floor; the phone moves with her, looking down, and the floor tiles move past underneath. Both shoes keep exactly the print in the first frame: raised black sequins on the black squares only, plain off-white canvas squares, black laces, black collar binding, the small black woven VANS side tab with white letters, marshmallow sole; the shoes never change shape. Exactly TWO shoes, both on her feet, her feet always pointing the same way. No sparkle, glints, lens flares or light effects. No hands, no new objects, no text, no captions.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558799799-osh4t5dh75.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "29930ce24539ef9fce10745f5a369b19",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/29930ce24539ef9fce10745f5a369b19_1_1792558902_8194.mp4"
+   ]
+  },
+  "costTime": 102
+ },
+ {
+  "t": "2026-10-21 05:02:14",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Side phone shot at table height in a bright cafe: she sits at a round white marble table with her legs crossed, slim black cropped pants, layered thin gold anklets. One continuous 5-second shot. Motion: her crossed top foot bounces gently up and down a few times; the camera stays steady with a slight natural handheld drift. Both shoes keep exactly the print in the first frame: raised black sequins on the black squares only, plain off-white canvas squares, black laces, black collar binding, the small black woven VANS side tab with white letters, marshmallow sole; the shoes never change shape. Exactly TWO shoes, both on her feet, her feet always pointing the same way. No sparkle, glints, lens flares or light effects. No hands, no new objects, no text, no captions.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558799824-w3gj2qosbch.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "1027e5a3c9e1c8c945dc501d56dcc044",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/1027e5a3c9e1c8c945dc501d56dcc044_1_1792558927_9466.mp4"
+   ]
+  },
+  "costTime": 126
+ },
+ {
+  "t": "2026-10-21 05:02:26",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Phone POV looking straight down at her feet in a bright bedroom, cream fluffy rug and light oak floor, cropped light-pink lounge pants, delicate gold pearl anklet. One continuous 5-second shot. Motion: she walks forward three slow natural steps off the rug onto the oak floor; the phone moves with her, looking down at her feet, and the floor moves past underneath. Both shoes keep exactly the print in the first frame: raised black sequins on the black squares only, plain off-white canvas squares, black laces, black collar binding, the small black woven VANS side tab with white letters, marshmallow sole; the shoes never change shape. Exactly TWO shoes, both on her feet, her feet always pointing the same way. No sparkle, glints, lens flares or light effects. No hands, no new objects, no text, no captions.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792558799725-tpfrih2fb8b.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "aff4a0e5849b0d14d8be47a7337d3f23",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/aff4a0e5849b0d14d8be47a7337d3f23_1_1792558939_6131.mp4"
+   ]
+  },
+  "costTime": 138
  }
 ]
