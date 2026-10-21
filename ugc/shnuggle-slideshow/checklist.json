@@ -1,0 +1,71 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/caption_A.txt",
+  "vo/caption_B.txt"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 no price number, no order it now, no reviewers/label says",
+   "\u00a74 hook from Grace library word for word (caption), close It is in the orange cart",
+   "\u00a76 product reference sheet before the first still, product never invented, nothing added (Ralph 2026-10-19)",
+   "no on-screen text (Ralph 2026-10-19 no text)",
+   "bright neutral grade, new room look vs R1/R2",
+   "REMOVED.md (no plug, no child)",
+   "slideshow format: tiktok-shop-coach references/slideshows.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/coach_research_2026-10-16.md",
+   "research/tag_toddlerbath/tag-toddlerbath.json",
+   "research/tag_toddlerbathtub/tag-toddlerbathtub.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-19.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt",
+   "research/readability_v2.txt"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [],
+  "note": "cut stage only (video); not used for a photo post"
+ }
+}

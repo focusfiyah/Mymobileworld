@@ -50,7 +50,9 @@ that ad, premium overlays, unlazy, and a current `Status:` line in the job READM
 lessons below are specific to making ads:
 
 - **Product reference sheet first (Ralph 2026-10-19):** before any product still, build a free sheet (real front label big +
-  side/top/bottom shape views) and pass it on every product still. Details: `grace/PLAYBOOK.md` §6.
+  side/top/bottom shape views) and pass it on every product still. Also the maker's real dimensions with an everyday size
+  anchor + a real in-room photo for scale, and every product detail confirmed by Ralph in the plan before spend; a quote
+  includes one likely redo (Shnuggle 2026-10-19: AI tub too big, an invented dot pattern). Details: `grace/PLAYBOOK.md` §6.
 - **No pasted labels; product clips from reference images (Ralph 2026-10-19, LGXNDS v5: "this looks the best", remember for every future ad):** a real label pasted onto AI stills or clips reads as a sticker. Make product stills with Gemini 3 Pro Image + the product reference sheet and use them clean. Hand clips: Seedance 2.0 Mini in REFERENCE mode (no first frame): refs = the clean still, the real front label, the reference sheet; prompt "recreate reference image 1 exactly as the first frame, then <action>; the label must match reference image 2 letter for letter" (`ugc/lgxnds-creatine/kie2.py --raw --refs`). Hand-free clips: Kling 3.0 on my account from the clean still. QC the label at 2x on several frames; only free fixes after (crop, a static patch for a stray object, e.g. `lid_fix.py`).
 - **Confirm the real product before the first paid still:** applicator/top, cap, label, size; ask for a real photo
   if the reference is a generated sheet. Why: the Carpe sheet showed a ribbed white dome, the real stick has an
