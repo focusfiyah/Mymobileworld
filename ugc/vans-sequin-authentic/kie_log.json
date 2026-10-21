@@ -2669,5 +2669,56 @@
    ]
   },
   "costTime": 131
+ },
+ {
+  "t": "2026-10-21 04:08:30",
+  "submitted": "40e4534c9b8221118c4907c034214518",
+  "prompt": "Edit this photo. Change ONLY two things: (1) remove the second sequin Vans shoe lying on the white marble table at the l"
+ },
+ {
+  "t": "2026-10-21 04:09:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit this photo. Change ONLY two things: (1) remove the second sequin Vans shoe lying on the white marble table at the left edge and fill that area with the same white marble table top and the same softly blurred cafe background; (2) the logo on the red insole MUST be a solid white rectangle with red VANS letters (not a red box with white letters). Keep everything else exactly the same, pixel for pixel where possible: the shoe in her hand and its print (raised black sequins on the black squares only, plain off-white canvas squares, black laces, black collar binding with white stitching, small black woven VANS side tab with white letters, marshmallow sole), her hand, skin tone, pink and white French-tip nails, rings, gold bracelets, the oatmeal coat sleeve, the framing and the light. Exactly ONE shoe in the picture. No text, no new objects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548557987-modykflsv6i.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "40e4534c9b8221118c4907c034214518",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/40e4534c9b8221118c4907c034214518_0_1792555740.jpeg"
+   ]
+  },
+  "costTime": 31
+ },
+ {
+  "t": "2026-10-21 04:09:25",
+  "submitted": "b2bd8caf40077a11395010772b3decc3",
+  "prompt": "Phone POV looking straight down at a sunny light-wood deck; her hand holds one sequin checkerboard Vans shoe above her f"
+ },
+ {
+  "t": "2026-10-21 04:09:25",
+  "submitted": "d774f7bc3fbc308a516a6965518b82a8",
+  "prompt": "Phone POV looking straight down at a light oak floor at the edge of a cream rug; her hand holds one sequin checkerboard "
+ },
+ {
+  "t": "2026-10-21 04:09:25",
+  "submitted": "f694c12fb671bfcb83b7bdd0a37866e2",
+  "prompt": "Sitting on a light wooden park bench with autumn trees behind; her hand holds one sequin checkerboard Vans shoe beside h"
+ },
+ {
+  "t": "2026-10-21 04:09:27",
+  "submitted": "cbfce32f37e24d9a8e929be1fb42be70",
+  "prompt": "Phone POV looking down at an angle in a bright cafe with a white marble tile floor; her hand holds one sequin checkerboa"
+ },
+ {
+  "t": "2026-10-21 04:09:27",
+  "submitted": "bf495eefc6e48ff0842d61eb6792f6a6",
+  "prompt": "Close-up in a bright cafe at a round white marble table; her hand holds one sequin checkerboard Vans shoe by the collar,"
  }
 ]
