@@ -9,7 +9,7 @@ EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, n
  "V2": [("V2S1", 0, 3.6), ("V2S3", 0, 4.6)],   # r9: Ralph (sparkle, still): new Kling walk off the rug, no held shoe
  "V3": [("V3S3", 0, 4.6), ("V3S4", 0, 4.0)],   # r9: Ralph (still image): new Kling walk + crossed-leg foot bounce, no held shoe
  "V4": [("V4S3", 0, 3.1), ("V4S1", 0, 4.0)],   # r9: Ralph (jumps sides, 3 shoes): new Kling heel-rock, cut before the pivot at 3.0 s
- "V5": [("V5S1", 1.6, 4.0), ("V5S3", 0.8, 4.2), ("V5S4", 0, 3.6)],   # Ralph r4: the sole cut read as a flip
+ "V5": [("V5S1", 2.3, 4.0), ("V5S3", 0.8, 4.2), ("V5S4", 0, 3.6)],   # Ralph r4: the sole cut read as a flip; r10 (Ralph: "jumps from left to right"): start after the toe flip at 2.2 s
  "V6": [("V6S1", 0, 4.6), ("V6S2_r0", 0, 4.0), ("V6S3", 0, 4.6)],   # r8: back to round 5
  "V7": [("V7S2", 1.2, 4.0), ("V7S3", 0, 4.8)],   # Ralph r4: V7S1 walked in place
  "V8": [("V8S1", 0, 5.0), ("V8S2", 0, 4.0), ("V8S3", 0, 4.6)],
