@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 17 of 84 videos posted since 2026-09-21
+17 videos -> ugc/cleanwaste-toilet-kit/research/tag-emergencytoilet/tag-emergencytoilet.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    171,300   8.8   2.83   50 2026-09-24  @mamarashaah: Cleanwaste WAG Bags are one of those emergency preparedness essentials
+                                          https://www.tiktok.com/@mamarashaah/video/7688935690465316126
+    153,700   6.1   0.38   64 2026-10-13  @onthegear2: 🚽💩 CAN’T EVEN HAVE A SHIT! 😂 Stan pulls into the services for an emerg
+                                          https://www.tiktok.com/@onthegear2/video/7696219228495678743
+     79,100   1.8   0.13    8 2026-10-09  @pickemstore: toilet emergency @EDEKA @EDEKA Minden-Hannover EINE AKTION MIT EDEKA M
+                                          https://www.tiktok.com/@pickemstore/video/7694528024137583905
+     69,500   1.5   0.14   12 2026-10-16  @flushpin: MOM! DAD! I NEED TO PEE!” 🚨🚽😭 Every family road trip has THAT moment. 
+                                          https://www.tiktok.com/@flushpin/video/7697115815451135245
+     58,500  10.8   3.84  239 2026-10-02  @littlehistoeian:  How to Set Up an Emergency Toilet #emergencytoilet #emergencyprep #pr
+                                          https://www.tiktok.com/@littlehistoeian/video/7691905923425553677
+      5,742   1.4   0.19   26 2026-10-15  @stylecribco01: "🚗 Ideal para viajes en auto, tráfico, campismo al aire libre: solucio
+                                          https://www.tiktok.com/@stylecribco01/video/7696841516513250591
+      5,286   4.3   1.46   29 2026-09-24  @camiheals: 💩 Sanitation is always essential, grab these wag bag portable toilet k
+                                          https://www.tiktok.com/@camiheals/video/7688885316777757965
+        835   2.4   0.12   14 2026-09-26  @drduckiemech: Send help. #fyp #thetiktokshitter #emergencytoilet #ibs #bluecollar 
+                                          https://www.tiktok.com/@drduckiemech/video/7689940046610304286
+        767   1.6   0.13   24 2026-10-16  @seeryfinds: Emergency Mini Toilet #tiktokmademebuyit #emergency #roadtrip #travel 
+                                          https://www.tiktok.com/@seeryfinds/video/7697350295222865166
+        685   1.8   0.15   38 2026-09-21  @marydvorak6: #Emergencyminitoilet #EmergencyKit #Toilet #momswithkids #Bathroom 
+                                          https://www.tiktok.com/@marydvorak6/video/7688023555161787679
+        625     0      0   29 2026-10-12  @911www.com0: Easy-clean portable toilet for emergencies.#campinglife #portable #toi
+                                          https://www.tiktok.com/@911www.com0/video/7695714499889827102
+        606   3.3   0.66   26 2026-10-16  @_lifeasgenx: When there’s no bathroom in sight, thank goodness for this! 🙌🏽🚽 #WagBa
+                                          https://www.tiktok.com/@_lifeasgenx/video/7697377632496667934
+        438   0.2      0   27 2026-09-30  @lucasi617: Easy-clean portable toilet for emergencies.#bathroom #toilet #portable
+                                          https://www.tiktok.com/@lucasi617/video/7690833446532304158
+        351   1.4      0   35 2026-09-24  @marydvorak6: #PortableToilet #Emergency#MInitoilet ##Bathroom
+                                          https://www.tiktok.com/@marydvorak6/video/7689248785821633822
+        273   6.6    1.1   18 2026-10-21  @_lifeasgenx: One thing I’m keeping in my emergency kit from now on! 🚽✨ #WagBag #Ori
+                                          https://www.tiktok.com/@_lifeasgenx/video/7698908949914881310
