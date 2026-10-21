@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np, requests
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parents[2] / "grace")); from gate import require
-VOICE = "bGrsdLmwBbYUgHRuMFOI"; SETTINGS = {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}
+VOICE = "Rh3oAQMqRVf78UIVpBoQ"; SETTINGS = {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}
 SR, GAP, SPEED, PAD = 44100, 0.25, 1.2, 0.05
 md = (HERE / "scripts.md").read_text()
 
