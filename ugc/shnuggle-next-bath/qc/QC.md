@@ -8,7 +8,7 @@
 
 ## Product vs the real tub (Ralph 2026-10-21: "stay true to the original product"), checked next to the real photo at 2x
 - Shape (high back, low front lip, thick rim), tall grey foam backrest, ring pattern: S1 S4 S5 S6 S7 S8 S9 S10 S11 OK (S9, S10 re-made; S1 dots painted out).
-- Seat bump small and low (Ralph: "the bump in the middle is too big"): S4 S5 S6 S7 re-made; S8-S11 under water.
+- Seat bump (Ralph: "too big", then "can the bump be fixed"): S4 S5 S6 S7 re-made, then retouched free in r2 to one soft low oval like the real seat (review/bump_fix.jpg, before/after vs the real photo); S8-S11 under water. Rim, badge and hands untouched by the retouch (checked at 2x).
 - Badge text "shnuggle": real badge pasted and tracked on S4, S10, S11 (badge_track.py, Ralph OK "paste"); S1, S5, S8, S9 badges read correctly as made.
 - No plug shown. One toddler tub in the end shot.
 
