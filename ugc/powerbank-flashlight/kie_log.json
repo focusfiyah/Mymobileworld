@@ -566,5 +566,35 @@
    ]
   },
   "costTime": 102
+ },
+ {
+  "t": "2026-10-21 19:14:29",
+  "submitted": "54e57377cf9a72cd0b9bbc38743f9f4f",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The th"
+ },
+ {
+  "t": "2026-10-21 19:16:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The thumb presses the orange button once. A bright white beam comes straight out of the round lens in the exact direction the lens points (down and to the left of the frame) and lands as a bright round pool of light on the gravel and plants at the lower left, exactly in front of the lens; the pool of light moves with the flashlight. The rest of the garden stays dim: no other light, spot or lamp appears anywhere else, especially not in the background. The flashlight stays level in the same hand, slight handheld camera. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792610067477-dy6ya5adx3w.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792607850021-it2a0b5agu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "54e57377cf9a72cd0b9bbc38743f9f4f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792610172231-3ag86oij9av.mp4"
+   ]
+  },
+  "costTime": 103
  }
 ]
