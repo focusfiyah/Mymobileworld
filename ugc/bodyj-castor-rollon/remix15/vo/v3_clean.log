@@ -1,0 +1,5 @@
+input: rt 200 ms, tail -13.2 dB, 65 words
+seed 0: rt 200 ms, tail -15.8 dB, words match
+seed 1: rt 200 ms, tail -14.8 dB, words CHANGED
+seed 2: rt 200 ms, tail -14.5 dB, words CHANGED
+kept: rt 200 ms, tail -15.8 dB -> vo/v3_clean.mp3

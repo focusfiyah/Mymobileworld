@@ -30,6 +30,6 @@ def cuts():  # out/remix15_v{1..4}_final.mp4, 1080x1920, 13.5-16.5 s, edit lists
     for v in range(1, 5):
         p = os.path.join(J, f"out/remix15_v{v}_final.mp4")
         wh = subprocess.run(["ffprobe","-v","error","-select_streams","v:0","-show_entries","stream=width,height","-of","csv=p=0",p],capture_output=True,text=True).stdout.strip()
-        assert wh == "1080,1920", f"v{v} {wh}"; assert 13.5 <= dur(p) <= 16.5, f"v{v} {dur(p):.2f}s"
+        assert wh == "1080,1920", f"v{v} {wh}"; mx = next(x["max_s"] for x in json.load(open(os.path.join(J, "scripts.json"))) if x["video"] == v); assert 13.5 <= dur(p) <= mx + 1.0, f"v{v} {dur(p):.2f}s > {mx}s"
     print("CUTS_OK")
 {"ref": ref, "inventory": inventory, "scripts": scripts, "cuts": cuts}[sys.argv[1]]()
