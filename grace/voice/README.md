@@ -1,5 +1,6 @@
 # Grace voice clones (ElevenLabs, Starter plan = instant clones only; professional clone not allowed, tested 2026-10-18)
-- **Grace C `P8OUGBCvq8OBS4xlb65A` = Grace's default voice (Ralph picked it 2026-10-18).** Instant clone from her 5 clean
+- **Grace `Rh3oAQMqRVf78UIVpBoQ` ("Grace cloned") = Grace's voice from now on (Ralph 2026-10-21: "Yes Grace voice from now on").** Instant clone 2026-10-20 from Ralph's 2026-10-19 example video + 10 Grace TikToks. eleven_v4 0.4/0.8/0, pause trim, pace to 3.5 w/s if slower, loudnorm -16 LUFS (`ugc/powerbank-flashlight/vo.py`). First used: power bank flashlight ad (approved r4). `grace.json`.
+- Grace C `P8OUGBCvq8OBS4xlb65A`: GONE from the account (TTS 404, 2026-10-21). Was the default from 2026-10-18 (Ralph picked it then). Instant clone from her 5 clean
   Wag Bag CURRENT V1-V5 takes (~155 s, Drive WagBag Final Edits). Settings: eleven_v4, stability 0.4, similarity 0.8, style 0.
   It renders ~7 dB quieter than B (-19.5 vs -12.8 LUFS on the same line): loudnorm to -16 LUFS before any cut or preview.
 - Grace B `bGrsdLmwBbYUgHRuMFOI`: retired. 1-sample instant clone; Grace said it doesn't sound like her.
