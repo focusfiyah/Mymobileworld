@@ -147,7 +147,7 @@ products follow the same rules.
      the voice talks without lip sync, no product cut off or smeared (lip sync near the product), no forehead
      wrinkles, outfit/product consistent in every shot, frame-by-frame check where hands/product cross the face.
   4. Report running total vs quote at every step.
-- Voices: ElevenLabs **Grace C** `P8OUGBCvq8OBS4xlb65A` (eleven_v4, stability 0.4, similarity 0.8) for voiceovers (Ralph 2026-10-18: Grace said B didn't sound like her; C is an instant clone from 2.6 min of her clean Wag Bag takes, details `grace/voice/README.md`; Starter plan has no professional clone). C comes out ~7 dB quieter than B: loudnorm every C voiceover to -16 LUFS before the cut and in any preview. Grace B `bGrsdLmwBbYUgHRuMFOI` is retired; Grace's Seedance clone
+- Voices: ElevenLabs **Grace** `Rh3oAQMqRVf78UIVpBoQ` (account name "Grace cloned") is Grace's voice for every voiceover from now on (Ralph 2026-10-21: "Yes Grace voice from now on"). Instant clone (2026-10-20) from Ralph's 2026-10-19 example video + 10 of her TikToks. Settings: eleven_v4, stability 0.4, similarity 0.8, style 0; then trim pauses, speed up to 3.5 words/s only if slower (atempo, max 1.25) and loudnorm to -16 LUFS (template: `ugc/powerbank-flashlight/vo.py`); STT-check every voiceover for stutters. Grace C `P8OUGBCvq8OBS4xlb65A` is gone from the account (404 on 2026-10-21) and Grace B `bGrsdLmwBbYUgHRuMFOI` is retired (details `grace/voice/README.md`); Grace's Seedance clone
   `3dmagVYZFvrGkBbWWmGC` for AI skit dialogue.
 - Before the first paid image: confirm the real product (top, cap, label, size) and the hand/person details
   (nail length). Ask before every paid generation, with the exact cost. Free fixes first.
