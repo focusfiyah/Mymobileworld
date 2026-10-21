@@ -5,7 +5,7 @@ real ref https://www.tiktok.com/t/ZPLAYRQEp) + 2 unboxing / "perfect present" vi
 reference sheet from the product images. Route: ugc-product-ad hands-only, no pasted labels (Gemini 3 Pro stills + product sheet, Seedance 2.0 Mini
 reference mode for hand clips, Kling 3.0 for hand-free if it wins a one-clip test). Rules: grace/PLAYBOOK.md.
 
-Status: V11 (night + phone flash, Grace 2026-10-21) PLANNED: 4 shots, stills Kie $0.36 + Omni clips $1.52 = $1.88 (+$0.50 likely redo), waiting on Ralph's OK. GATES_V11.md. V1-V10 DELIVERED 2026-10-21 (below).
+Status: V11 (night + phone flash, Grace 2026-10-21) APPROVED by Ralph 2026-10-21 ("Outfit ok, free on Gemini, no sound she will use music"): stills $0 via Ralph's Gemini app (gemini_app/ = 6 refs + 4 prompts, sent), Omni clips $1.52 (+$0.41 likely redo); waiting on his 4 Gemini stills. GATES_V11.md. V1-V10 DELIVERED 2026-10-21 (below).
 Accepted flaw (Ralph 2026-10-21): in the pink-bag gift shot the shoe's design changed from the real Vans; Ralph let it go to stop spending on redos. No redo. Lesson: product lock (Google Omni clips from real close-ups, PLAYBOOK §6) on every future product shot.
 Kie balance $0.93, Kling 248 credits (checked 2026-10-21). Quote: A $5.06 Kie + ~480 Kling credits / B $7.73 Kie. Gate: GATE OK.
 Review page: https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH

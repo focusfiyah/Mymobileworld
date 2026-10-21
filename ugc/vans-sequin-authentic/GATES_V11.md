@@ -9,7 +9,8 @@ Scope: ONE new 7-15 s vertical AI video of the real Vans Premium Authentic sequi
   EXPECT: GATE OK
   CWD: ../..
 
-- [ ] G2: Ralph approved the one-message V11 plan + total cost before any paid call (his words quoted in README)
+- [x] G2: Ralph approved the one-message V11 plan + total cost before any paid call (his words quoted in README)
+  EVIDENCE: Ralph 2026-10-21 "Outfit ok, free on Gemini, no sound she will use music" (stills $0 via his Gemini app, Omni clips $1.52, music-only)
 
 - [ ] G3: Test still V11S1 QC'd at full size + 2x (night flash look, real shoe details, tab, anklet, feet parallel) before the other 3 stills; all 4 stills QC'd before any clip is paid for
 
