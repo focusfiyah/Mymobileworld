@@ -13,7 +13,7 @@ SHEET, FRONT = "refs/ralph_sheet_bottle.jpg", "refs/bottle_front.png"
 BATH, BED = "stills/S8.png", "stills/S9.png"
 PROD = ("The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz "
         "roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the "
-        "product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera.")
+        "product reference sheet exactly (the big front view is the real label); the label faces the camera wherever it is visible.")
 LOOK = "Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label."
 S = {
  "R1": {"refs": [SHEET, FRONT, BATH], "p": f"Close shot of the castor oil roll-on standing on the white marble counter of the sage-green tiled bathroom from the last reference image, soft morning sun from the window. One fat clear golden drop of castor oil sits on top of the rose quartz roller ball and catches the light like liquid gold. No hands. {PROD}"},
@@ -73,6 +73,56 @@ V234 = {
  "V4f": shot(4, "The castor oil roll-on standing next to its retail box on the white quartz top of the navy blue vanity, small plant and wooden shelf behind.", "the camera slowly pushes in on the roll-on and its box.", hand=False, box=True),
 }
 S.update(V234)
+
+# Round 4 (2026-10-21, Ralph: "Shouldn't grandma be holding the one with the roller", "The size of the roller looks pretty big",
+# "use your prompt master skill"): prompts rebuilt with the hard constraints FIRST (size, identity, hands), one action, NEVER list.
+SIZE = ("PRODUCT SIZE AND SHAPE (MUST): the roll-on is a SMALL, SQUAT 50 ml (1.7 fl oz) round bottle, only about twice as tall as it is wide "
+        "(about 9 cm tall with the ball, 4 cm wide), exactly the proportions of the product reference sheet, never a slim tube or a tall vial; "
+        "it is about as tall as her index finger. The label wraps horizontally with CASTOR OIL reading across, exactly like the reference. In a hand, her fingers wrap around it and hide most of the label height; it is NEVER "
+        "bigger than her hand and NEVER as tall as a faucet, a vase or a soap pump. Keep it in true scale with the counter, sink and faucet.")
+BOXSIZE = "The retail box is small too: 4 x 4 x 11 cm, only a little taller than the bottle."
+NEVER = ("NEVER: an oversized or giant bottle, a second roll-on, a roll-on still inside the box, extra hands or fingers, text, "
+         "captions, watermarks, a dark or yellow look, a visible mouth.")
+def pm(room, shot_txt, motion, hand=True, product=True, box=False, person=None):
+    must = ((SIZE + " " + PROD + " ") if product else "") + ((BOXSIZE + " ") if box else "") + \
+           (person or PERSON if hand else "No hands. ") + " " + BRIGHT
+    d = shot(room, "", motion, hand=hand, product=product, box=box)
+    d["p"] = must + " SHOT: " + shot_txt + (" Next to it, its real retail box exactly as in the box reference image, closed and standing." if box else "") + " " + NEVER
+    d["v"] = motion + " The bottle keeps exactly the same small size in every frame; it never grows as it comes toward the camera."
+    return d
+GRANNY = ("Her hands: an older Black grandmother's hands, brown skin with fine wrinkles, short natural unpainted nails, a thin gold "
+          "wedding band, lavender cardigan sleeves. Only her two hands and the top of her head are in frame, never her face.")
+R4 = {
+ "R3": pm(3, "Seen from above and behind: her short grey coily hair with a neat part. Her left fingertips gently hold the hair open at the part; "
+          "her right hand grips the small castor oil roll-on, ball down, and presses the pink rose quartz ball on the scalp at the part. "
+          "Exactly two hands in the frame, both hers, coming from the bottom edge. Plain bright wall behind.",
+          "she rolls the pink ball slowly along the part from front to back; a thin shiny line of oil follows the ball; her left hand stays still.",
+          person=GRANNY),
+ "V1c": pm(1, "Medium close shot by the white freestanding tub: her hand grips the small castor oil roll-on at chest height, label facing camera, "
+           "the bottle fits in her fist with only the white collar and pink ball above her thumb.", "she lifts the roll-on a little and holds it up, proud, label facing camera."),
+ "V1e": pm(1, "Extreme close shot from the eyebrow up only (frame bottom at the bridge of the nose, no mouth, no nose tip): her fingertips hold the small "
+           "castor oil roll-on, mostly hidden in her fingers, the pink ball pressed on the inner end of one eyebrow; eye closed.", "she rolls the ball slowly along the eyebrow to the tail."),
+ "V2c": pm(2, "Medium shot at the grey marble vanity beside the white vessel sink: her hand grips the small castor oil roll-on just above the counter, label facing camera, "
+           "the bottle shorter than the sink's height and tiny next to the black faucet.", "she lifts the roll-on up to chest height and holds it there, label facing camera."),
+ "V2e": pm(2, "Extreme close shot from the eyebrow up only (frame bottom at the bridge of the nose, no mouth): her fingertips hold the small castor oil roll-on, mostly hidden "
+           "in her fingers, the pink ball pressed on one eyebrow; the hairline above; eye closed.", "she rolls the ball along the eyebrow and then up into the hairline at the roots."),
+ "V2h": pm(2, "Wide-ish shot of the grey marble vanity counter beside the white vessel sink and a small plant: the small castor oil roll-on standing upright, its height about a third of the sink's height.",
+           "the camera slowly pushes in a little on the roll-on and its box.", hand=False, box=True),
+ "V3f": pm(3, "Close shot of her neck and collarbone above the mauve t-shirt neckline, frame top at the jaw line (no mouth): her fingers wrap around the small castor oil roll-on, "
+           "the pink ball pressed on the collarbone.", "she rolls the ball along the collarbone and up the side of the neck."),
+ "V3g": pm(3, "Shot of the white quartz double vanity counter by a black faucet and a small vase of greenery: the small castor oil roll-on standing upright, much shorter than the faucet.",
+           "the camera slowly pushes in a little on the roll-on and its box.", hand=False, box=True),
+ "V4a": pm(4, "The wooden wall shelf above the toilet: on the left a big old greasy unbranded 500 ml plastic bottle of castor oil, its outside smeared with thick golden oil, a drip running down "
+           "its side and a greasy puddle under it, a used oily paper towel beside it (no label text); on the right, a little apart, the small clean castor oil roll-on, about a third of the big bottle's height.",
+           "the camera slowly slides right along the shelf from the greasy bottle and stops on the small roll-on.", hand=False),
+ "V4b": pm(4, "Close shot on the white quartz top of the navy vanity: the small castor oil roll-on standing upright beside the chrome faucet base, the label and green USDA ORGANIC seal sharp, a soft real shadow.",
+           "the camera slowly pushes in toward the label until the USDA ORGANIC seal is large in frame.", hand=False),
+ "V4f": pm(4, "Shot of the white quartz top of the navy vanity, small plant and wooden shelf behind: the small castor oil roll-on standing upright, its height about a third of the faucet's height.",
+           "the camera slowly pushes in a little on the roll-on and its box.", hand=False, box=True),
+}
+S.update(R4)
+S["R3"]["refs"] = [SHEET, FRONT, str(H / "redo/stills/R3_v2_glassbottle.png")]   # grandma look from the approved R3 still, no Grace hand ref
+S["R3"]["p"] = S["R3"]["p"].replace("The room from the room reference image", "The grandmother, cardigan and light from the last reference image (but she now holds the roll-on, not a glass bottle)")
 
 def still(sid):
     s = S[sid]

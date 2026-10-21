@@ -11,7 +11,7 @@ GRADE = {"natural": "eq=saturation=1.02", "neutral": "eq=contrast=1.05:saturatio
          "cool": "colortemperature=temperature=7500:mix=0.6,eq=contrast=1.03:brightness=0.04",
          "punchy": "eq=brightness=0.05:contrast=1.06:saturation=1.10"}
 LABEL = {"S1", "S5", "S7", "S8", "S9", "N4"}
-PRE = {"N3": "crop=562:1000:80:40,", "V2e": "crop=350:622:110:10,", "V4d1": "crop=350:622:0:210,"}   # brows: mouth cropped out (no still mouth on screen during the VO)
+PRE = {"N3": "crop=562:1000:80:40,", "V1e": "crop=350:622:370:160,", "V2e": "crop=350:622:0:60,", "V4d1": "crop=350:622:0:210,"}   # brows: mouth cropped out (no still mouth on screen during the VO)
 norm = lambda t: re.sub(r"[^a-z']", "", t.lower().replace("’", "'"))
 aud = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(H / f"vo/v{N}.mp3")], capture_output=True, text=True).stdout)
 starts, j = [], 0
