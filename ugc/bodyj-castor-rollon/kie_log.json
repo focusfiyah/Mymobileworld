@@ -1253,5 +1253,529 @@
    ]
   },
   "costTime": 52
+ },
+ {
+  "t": "2026-10-21 03:50:50",
+  "submitted": "93ff2a8c66e703f2359c4c40ff6f2755",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: her right hand's fi"
+ },
+ {
+  "t": "2026-10-21 03:52:49",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: her right hand's fingertips slowly massage the golden oil into the scalp along the part in small circles, the oil glistening on the grey hair; her left hand stays low, holding the old glass bottle steady. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554648036-b3yw545xdws.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "93ff2a8c66e703f2359c4c40ff6f2755",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792554766526-4xjrj3bhll8.mp4"
+   ]
+  },
+  "costTime": 117
+ },
+ {
+  "t": "2026-10-21 03:53:34",
+  "submitted": "2f156106f3fdb92ba3c1c29c6511ddc1",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: the castor oil roll-on stands on the round "
+ },
+ {
+  "t": "2026-10-21 03:53:35",
+  "submitted": "408411e7420997fa52dfe7db5113b4e5",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot over the rim of the white freestanding tub: "
+ },
+ {
+  "t": "2026-10-21 03:53:36",
+  "submitted": "fd347069862a746bb07f9b531fd2dce4",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The castor oil roll-on standing next to its retail box "
+ },
+ {
+  "t": "2026-10-21 03:53:36",
+  "submitted": "0824d09e47f9d5e277b589a006be4a3b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Extreme close shot of one eyebrow and closed eye, from "
+ },
+ {
+  "t": "2026-10-21 03:53:36",
+  "submitted": "a516b9a1d0ee3876e290eaba530c9341",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Her hand grips the castor oil roll-on, lifting it off t"
+ },
+ {
+  "t": "2026-10-21 03:53:36",
+  "submitted": "3bc32493216436efe0e034db7bd3f9e9",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: long dark hair over her shoulder against th"
+ },
+ {
+  "t": "2026-10-21 03:53:36",
+  "submitted": "f20a72e356b4013d68097f9658dd8769",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: her left arm bent, elbow toward the camera;"
+ },
+ {
+  "t": "2026-10-21 03:53:36",
+  "submitted": "804dfdd3be3bcdab08e1adde6c6bf1eb",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: her left hand rests flat on a folded white "
+ },
+ {
+  "t": "2026-10-21 03:53:37",
+  "submitted": "eb04eb17b88ce8d0c1a6c7cc7ee474be",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: her right hand grips the castor oil roll-on"
+ },
+ {
+  "t": "2026-10-21 03:54:30",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: the castor oil roll-on stands on the round wooden stool beside the freestanding white bathtub, a plant behind it. One fat clear golden drop of oil sits on top of the rose quartz roller ball and catches the sunlight like liquid gold. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. No hands. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554812092-y93dxd136b.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2f156106f3fdb92ba3c1c29c6511ddc1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2f156106f3fdb92ba3c1c29c6511ddc1_0_1792554867.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-10-21 03:54:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: her left arm bent, elbow toward the camera; her right hand grips the castor oil roll-on and presses the rose quartz ball on the elbow. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554811919-b04ic4uh04f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814493-q13j70ln7bn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f20a72e356b4013d68097f9658dd8769",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f20a72e356b4013d68097f9658dd8769_0_1792554870.jpeg"
+   ]
+  },
+  "costTime": 55
+ },
+ {
+  "t": "2026-10-21 03:54:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: her left hand rests flat on a folded white towel on the tub rim; her right hand grips the castor oil roll-on and presses the rose quartz ball on the cuticle of the index finger. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554812104-qvbtsnhwypn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814445-qt7vp8zn1xa.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "804dfdd3be3bcdab08e1adde6c6bf1eb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/804dfdd3be3bcdab08e1adde6c6bf1eb_0_1792554872.jpeg"
+   ]
+  },
+  "costTime": 56
+ },
+ {
+  "t": "2026-10-21 03:54:34",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: her right hand grips the castor oil roll-on and presses the rose quartz ball on the back of her left hand, resting on the tub rim; her fingertips are clean and dry. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554812004-f3fxpu2a63w.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814258-57wcec2rzpd.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "eb04eb17b88ce8d0c1a6c7cc7ee474be",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/eb04eb17b88ce8d0c1a6c7cc7ee474be_0_1792554868.jpeg"
+   ]
+  },
+  "costTime": 50
+ },
+ {
+  "t": "2026-10-21 03:54:39",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot: long dark hair over her shoulder against the mauve t-shirt; her right hand grips the castor oil roll-on and presses the rose quartz ball on the hair ends. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554811998-wdpfpr351f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814161-devtjyj9axm.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "3bc32493216436efe0e034db7bd3f9e9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/3bc32493216436efe0e034db7bd3f9e9_0_1792554873.jpeg"
+   ]
+  },
+  "costTime": 58
+ },
+ {
+  "t": "2026-10-21 03:54:40",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. The castor oil roll-on standing next to its retail box on the round wooden stool beside the freestanding white bathtub, a small plant and a folded towel. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. No hands. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Next to it, its real retail box exactly as in the box reference image. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554811920-w2ojsj0j35.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814130-bt9o35609i.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "fd347069862a746bb07f9b531fd2dce4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/fd347069862a746bb07f9b531fd2dce4_0_1792554873.jpeg"
+   ]
+  },
+  "costTime": 57
+ },
+ {
+  "t": "2026-10-21 03:54:58",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Extreme close shot of one eyebrow and closed eye, from the brow up to the hairline only (no mouth, no nose tip): her hand holds the castor oil roll-on and presses the rose quartz ball at the inner end of the eyebrow. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554811935-rtd2dxeiw6f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814440-nm4zw7ewkh8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0824d09e47f9d5e277b589a006be4a3b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0824d09e47f9d5e277b589a006be4a3b_0_1792554894.jpeg"
+   ]
+  },
+  "costTime": 79
+ },
+ {
+  "t": "2026-10-21 03:55:10",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot over the rim of the white freestanding tub: her cupped hands hold thick golden castor oil that runs between her fingers and drips in long sticky strings onto the tub rim. An old unbranded clear glass bottle of oil lies tipped on the rim, no label. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554811793-na6cjyx9no.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554813926-vyooixlpg3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "408411e7420997fa52dfe7db5113b4e5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/408411e7420997fa52dfe7db5113b4e5_0_1792554908.jpeg"
+   ]
+  },
+  "costTime": 93
+ },
+ {
+  "t": "2026-10-21 03:55:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Her hand grips the castor oil roll-on, lifting it off the wooden wall shelf with rolled towels, label facing camera. The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, warm lamps and candles off, clean neutral white balance, airy and light. Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand reference image. Only her hands, arm or the named body part are in frame; never her mouth or full face. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554811972-ll5y2ba73gb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554814110-97ep2lucrhl.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a516b9a1d0ee3876e290eaba530c9341",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a516b9a1d0ee3876e290eaba530c9341_0_1792554943.jpeg"
+   ]
+  },
+  "costTime": 128
+ },
+ {
+  "t": "2026-10-21 03:56:12",
+  "submitted": "91e1bc77f7fc2884118f79c2aa24e1b0",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball "
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "63922ef1f9c435b3dc4c058744163dae",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball "
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "a45eb383fbd6a29d0cc59e7d07e40867",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: the camera slowly p"
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "deb97adfbbf0c7502ad35430bbeea2fa",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball "
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "a75c36add5bc4155d9ca11608063e74f",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the rose "
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "5ad2214dea35df1b2e9eadffb337d67f",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball "
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "c580d99b446570392701da7dd4481a90",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: her hand lifts the "
+ },
+ {
+  "t": "2026-10-21 03:56:13",
+  "submitted": "fb8f13a8e93063aa4f318c5e47ed51bd",
+  "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: the thick oil keeps"
+ },
+ {
+  "t": "2026-10-21 03:57:54",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: the thick oil keeps oozing through her fingers and dripping in slow sticky strings onto the tub rim; her fingers spread a little, showing the mess. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554970959-6o47fdmalsy.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fb8f13a8e93063aa4f318c5e47ed51bd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555069563-s46pzqs188g.mp4"
+   ]
+  },
+  "costTime": 98
+ },
+ {
+  "t": "2026-10-21 03:58:00",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball slowly along the eyebrow from the inner end to the tail; the eye stays closed. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554971012-43dg3suo3jy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5ad2214dea35df1b2e9eadffb337d67f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555076947-w8ke9vf9sz.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-21 03:58:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: the camera slowly pushes in on the roll-on and its box. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554970806-xtldnh9vwf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a45eb383fbd6a29d0cc59e7d07e40867",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555079632-udzqbkcw2th.mp4"
+   ]
+  },
+  "costTime": 108
+ },
+ {
+  "t": "2026-10-21 03:58:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball in small circles over the elbow skin, which turns softly shiny. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554970956-t7rw6v9l2rl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "63922ef1f9c435b3dc4c058744163dae",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555091563-eaz8uiwv6y.mp4"
+   ]
+  },
+  "costTime": 119
+ },
+ {
+  "t": "2026-10-21 03:58:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball over each cuticle, index to ring finger, one after another. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554970945-axlikm9r1op.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "91e1bc77f7fc2884118f79c2aa24e1b0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555077066-crhto6jct2l.mp4"
+   ]
+  },
+  "costTime": 121
+ },
+ {
+  "t": "2026-10-21 03:58:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the rose quartz ball across the back of her left hand in one smooth stroke, leaving a thin shiny line; both hands stay clean and dry. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554971061-vugwty8jkfq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a75c36add5bc4155d9ca11608063e74f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555091702-qi7r9x2z8l.mp4"
+   ]
+  },
+  "costTime": 122
+ },
+ {
+  "t": "2026-10-21 03:58:26",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: her hand lifts the roll-on toward the camera and holds it up, label facing camera, steady and proud. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554970959-95z83x1juyv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c580d99b446570392701da7dd4481a90",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555103481-2ladvcbhm22.mp4"
+   ]
+  },
+  "costTime": 132
+ },
+ {
+  "t": "2026-10-21 03:58:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same room, framing, light and objects) as the first frame, then: she rolls the ball down the hair ends; the ends turn smooth and glossy in the light. The hands keep the same skin tone and nails for the whole clip, five fingers each, whole wrists, they grip what they hold. No new hands appear. Smooth, natural, real-time motion; the camera stays steady with a slight handheld drift. Bright neutral light, no text. The roll-on bottle never changes shape; its front label must match reference image 2 letter for letter ('Body4You', '100% Premium Quality', 'CASTOR OIL', the green USDA ORGANIC seal); reference image 3 shows the bottle from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792554971008-q4fye0atcga.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "deb97adfbbf0c7502ad35430bbeea2fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792555126460-gwzc9czwu0b.mp4"
+   ]
+  },
+  "costTime": 155
  }
 ]
