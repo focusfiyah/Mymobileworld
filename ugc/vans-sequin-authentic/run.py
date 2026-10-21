@@ -12,6 +12,7 @@ V = json.loads(Path("shots.json").read_text())
 S = {s["id"]: s for s in V["shots"]}
 HAND = ["refs/hand_dorsal_bracelet.png", "refs/hand_side_bracelet.png"]
 SHOE = ["refs/product_sheet.png", "refs/shoe_pair_3q.jpg", "refs/shoe_top_sole.jpg"]
+TAB = "refs/real_vans_tab.jpg"   # real side-tab close-up (Vans 2026-10-21: the print the model sees is the print it draws)
 TEST = "stills/look_test.png"   # the approved test still: hand, nails, jewellery, polish, shoe look for every other still
 
 
@@ -27,7 +28,8 @@ def text(s):
 
 def still(sid):
     s = S[sid]
-    refs = [kie.upload(p) for p in SHOE]; note = " Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole"
+    refs = [kie.upload(p) for p in SHOE] + [kie.upload(TAB)]; note = (" Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, "
+        "4 = a close-up of the real side VANS tab: the shoe print MUST match images 1-4 letter for letter and colour for colour (black woven tab with white letters, sequins on the black squares only)")
     if s["hand"]:
         refs += [kie.upload(p) for p in HAND]; note += ", 4 and 5 = Grace's real hand (skin, nails, rings, bracelet: match exactly, ignore their grey background)"
     look = Path(f"stills/look_{s['video']}.png")
@@ -79,13 +81,13 @@ if __name__ == "__main__" and sys.argv[1] == "edit":
         list(ex.map(edit, sys.argv[2:]))
 
 
-def kling_clip(sid, prompt):
+def kling_clip(sid, prompt, hold=True):
     """Kling 3.0 Omni on Kie ($0.07/s) with the clean still as BOTH first and last frame (LGXNDS kie2.py last_frame_same):
     the clip must end where it starts, so a held shoe cannot flip or switch sides (Vans 2026-10-21, Seedance kept turning it)."""
     s = S[sid]
     first = Path(f"stills/{sid}_clean.png"); first = first if first.exists() else Path(f"stills/{sid}.png")
     u = kie.upload(str(first))
-    body = {"model": "kling-3.0-omni/image-to-video", "input": {"prompt": prompt, "image_urls": [u, u], "duration": s["dur"],
+    body = {"model": "kling-3.0-omni/image-to-video", "input": {"prompt": prompt, "image_urls": [u, u] if hold else [u], "duration": s["dur"],
             "resolution": "720p", "aspect_ratio": "auto", "audio": False}}
     url = kie.run_task(body)
     if url:
