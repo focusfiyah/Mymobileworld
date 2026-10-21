@@ -13,54 +13,67 @@
      "text": "I was worried this would look shiny and fake in daylight.",
      "shots": [
       [
-       3.0,
-       6.5
+       7.5,
+       11.0
       ]
-     ]
+     ],
+     "shows": "move"
     },
     {
      "beat": "PAIN",
      "text": "You know how synthetic hair gets. All shiny and stiff, and everybody can tell.",
      "shots": [
       [
-       6.5,
-       11.0
+       24.0,
+       28.5
       ]
-     ]
+     ],
+     "shows": "any"
     },
     {
      "beat": "SOLUTION",
      "text": "Now look at it move. Long layers and bangs right at my brows. And check these brown highlights in the light.",
      "shots": [
       [
+       42.5,
+       44.5
+      ],
+      [
+       1.3,
+       2.5
+      ],
+      [
        11.0,
-       17.5
+       14.3
       ]
-     ]
+     ],
+     "shows": "shake|bangs|highlights"
     },
     {
      "beat": "SOLUTION",
      "text": "And it's glueless. No glue at all.",
      "shots": [
       [
-       24.0,
-       26.5
+       23.0,
+       24.0
+      ],
+      [
+       17.5,
+       18.8
       ]
-     ]
+     ],
+     "shows": "fit|fallsback"
     },
     {
      "beat": "CONFESSION",
      "text": "I usually stay away from synthetic hair. Now I'm mad I waited this long.",
      "shots": [
       [
-       26.5,
-       28.0
-      ],
-      [
-       17.5,
-       21.0
+       45.5,
+       50.0
       ]
-     ]
+     ],
+     "shows": "react"
     },
     {
      "beat": "URGENCY",
@@ -68,27 +81,33 @@
      "shots": [
       [
        28.0,
-       30.0
+       29.0
       ],
       [
-       46.3,
-       48.0
+       16.0,
+       17.5
+      ],
+      [
+       19.5,
+       21.0
       ]
-     ]
+     ],
+     "shows": "pose"
     },
     {
      "beat": "CTA",
      "text": "Grab a second color too, so you can switch it up. It's in the orange cart.",
      "shots": [
       [
-       49.5,
-       51.0
+       53.0,
+       56.0
       ],
       [
-       56.0,
-       59.0
+       57.5,
+       59.2
       ]
-     ]
+     ],
+     "shows": "move|cta"
     }
    ],
    "alt_hooks": [
@@ -108,7 +127,7 @@
     "Wait till the light hits it"
    ],
    "caption": "I usually stay away from synthetic hair, and this one changed my mind. Highlight brown, long layers, bangs, glueless. #syntheticwig #wigwithbangs #highlightwig #fallhair #ad",
-   "edit_note": "Opens at 3.0 s (full-length swing) so her talking mouth is not on screen under the voice. 0.0 to 3.0 s works too if you like her hands-on-face opener, but her lips move there."
+   "edit_note": "Opens at 7.5 s: she pulls the hair forward and the highlights catch the light, so the wig is moving from frame 0. Her mouth is small here."
   },
   {
    "id": "V2",
@@ -122,96 +141,112 @@
      "shots": [
       [
        11.0,
-       14.0
+       13.3
       ]
-     ]
+     ],
+     "shows": "back"
     },
     {
      "beat": "PAIN",
      "text": "The front always looks good. The back is where a synthetic wig gives it away.",
      "shots": [
       [
-       14.0,
-       18.0
+       31.5,
+       34.2
+      ],
+      [
+       13.3,
+       15.5
       ]
-     ]
+     ],
+     "shows": "front|back"
     },
     {
      "beat": "SOLUTION",
      "text": "Full all the way down with long layers. And the highlights are back here too.",
      "shots": [
       [
-       18.0,
-       21.0
+       17.5,
+       19.5
       ],
       [
-       8.0,
-       9.5
+       28.0,
+       29.0
+      ],
+      [
+       16.0,
+       17.5
       ]
-     ]
+     ],
+     "shows": "back"
     },
     {
      "beat": "SOLUTION",
      "text": "From the side, the bangs hide the hairline.",
      "shots": [
       [
-       24.0,
-       26.5
+       24.5,
+       26.0
+      ],
+      [
+       21.5,
+       22.8
       ]
-     ]
+     ],
+     "shows": "side|bangs"
     },
     {
      "beat": "PROOF",
      "text": "I shook it over and over. It fell right back.",
      "shots": [
       [
-       3.0,
-       6.0
+       42.5,
+       45.5
       ]
-     ]
+     ],
+     "shows": "fallsback"
     },
     {
      "beat": "CONFESSION",
      "text": "I cannot believe this is synthetic hair.",
      "shots": [
       [
-       37.0,
-       40.0
+       45.5,
+       47.8
       ]
      ],
-     "live_option": "Use Grace's own live line here instead (37.0 to 40.0 s, 'Cannot believe that this is synthetic hair'): her lips match, so it is the one face moment in this video."
+     "shows": "react",
+     "live_option": "Use Grace's own live line instead: 36.8-41.2 s 'Cannot believe that this is synthetic hair' (her lips match; 4.4 s, so trim the next line's clip)."
     },
     {
      "beat": "URGENCY",
      "text": "It's glueless, so it's an easy Halloween look that works every day after.",
      "shots": [
       [
-       26.5,
-       28.0
+       23.0,
+       24.0
       ],
       [
-       28.0,
-       30.0
-      ],
-      [
-       47.0,
-       48.0
+       53.0,
+       56.0
       ]
-     ]
+     ],
+     "shows": "fit|move"
     },
     {
      "beat": "CTA",
      "text": "It comes in more than one color, so grab two. It's in the orange cart.",
      "shots": [
       [
-       44.0,
-       45.5
+       49.0,
+       51.0
       ],
       [
-       56.0,
-       59.0
+       56.5,
+       59.2
       ]
-     ]
+     ],
+     "shows": "react|cta"
     }
    ],
    "alt_hooks": [
@@ -231,7 +266,7 @@
     "The back is the real test"
    ],
    "caption": "Everybody shows the front. Here's the back of this one, highlights and all. #syntheticwig #wigwithbangs #layeredwig #halloweenhair #ad",
-   "edit_note": "Opens on the back view (11.0 s), so the hook is answered on screen at once. If H023 is used, open on the side profile (24.0 s) instead."
+   "edit_note": "Opens on the back view (11.0 s, she is already turned), so the hook is answered on screen at once. If H023 is used, open on the side profile (24.5 s) instead."
   },
   {
    "id": "V3",
@@ -244,96 +279,125 @@
      "text": "I want long hair with bangs without having to glue anything down.",
      "shots": [
       [
-       24.0,
-       28.0
+       5.0,
+       7.5
+      ],
+      [
+       1.3,
+       2.5
       ]
-     ]
+     ],
+     "shows": "length|bangs"
     },
     {
      "beat": "PAIN",
      "text": "Glue, spray, blow dryer? Not doing all that for one look.",
      "shots": [
       [
-       19.0,
-       21.0
+       29.5,
+       31.5
       ],
       [
-       28.0,
-       30.0
+       35.5,
+       37.0
       ]
-     ]
+     ],
+     "shows": "any"
     },
     {
      "beat": "SOLUTION",
      "text": "This one is glueless, and the bangs sit at my brows, so no hairline to fuss with.",
      "shots": [
       [
-       3.0,
-       7.5
+       23.0,
+       24.0
       ],
       [
-       1.0,
-       2.0
+       21.5,
+       23.0
+      ],
+      [
+       2.5,
+       5.0
       ]
-     ]
+     ],
+     "shows": "fit|bangs|hairline"
     },
     {
      "beat": "SOLUTION",
      "text": "Long layers, and these highlights look so good for fall.",
      "shots": [
       [
-       8.0,
-       11.0
+       38.0,
+       39.5
       ],
       [
-       11.0,
-       12.0
+       8.3,
+       10.2
       ]
-     ]
+     ],
+     "shows": "layers|highlights"
     },
     {
      "beat": "SOLUTION",
      "text": "It's heat resistant too, so you can change the style.",
      "shots": [
       [
-       12.0,
-       15.5
+       33.5,
+       35.5
+      ],
+      [
+       52.0,
+       53.3
       ]
-     ]
+     ],
+     "shows": "style"
     },
     {
      "beat": "CONFESSION",
      "text": "Ten out of ten. The only problem is now I want it in every color.",
      "shots": [
       [
-       46.3,
-       48.0
+       39.5,
+       42.0
       ],
       [
-       49.5,
-       51.0
+       31.5,
+       33.5
       ]
-     ]
+     ],
+     "shows": "react|shake",
+     "live_option": "Grace's own live '10 out of 10' is at 34.4-35.6 s (her lips match). If you use it for the first three words, run the heat-resistant line over 52.0-53.3 s only."
     },
     {
      "beat": "URGENCY",
      "text": "Get it before Halloween. Easy costume, and it works every day after.",
      "shots": [
       [
-       15.5,
-       18.5
+       11.0,
+       13.0
+      ],
+      [
+       17.5,
+       19.5
       ]
-     ]
+     ],
+     "shows": "any"
     },
     {
      "beat": "CTA",
      "text": "Grab two colors. It's in the orange cart.",
      "shots": [
       [
-       56.0,
-       59.0
+       54.0,
+       55.0
+      ],
+      [
+       57.5,
+       59.2
       ]
-     ]
+     ],
+     "shows": "highlights|cta"
     }
    ],
    "alt_hooks": [
@@ -353,7 +417,7 @@
     "Not doing glue for one look"
    ],
    "caption": "Glueless, so you just put it on. Long layers, bangs and brown highlights for fall. #glueless #syntheticwig #wigwithbangs #beginnerwig #ad",
-   "edit_note": "Opens on the side profile (24.0 s), then the front. Every video starts on a different shot and runs in a different order."
+   "edit_note": "Opens on the full-length front (5.0 s), then the bangs close-up. Each video starts on a different shot and runs in a different order."
   }
  ]
 }

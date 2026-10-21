@@ -71,6 +71,34 @@ def grades():
     return "grades"
 
 
-name = {"beats": beats, "scripts": scripts, "grades": grades}[sys.argv[1]]()
+def load_beats():
+    rows = re.findall(r"^\| ([\d.]+) \| ([\d.]+) \| [^|]+\| (\w+) \| ([^|]+)\|", (J / "footage/beats.md").read_text(), re.M)
+    return [(float(a), float(b), m, {x.strip() for x in tags.split(",")}) for a, b, m, tags in rows]
+
+
+def visuals():
+    """Every shot under a line must show what the line names: >=60% of the shot overlaps beats carrying its tag
+    (line 'shows' = one tag per shot when the counts match, else any of the tags for every shot; 'any' = no visual claim).
+    Also reports how much of each video's picture shows her talking mouth under the voiceover."""
+    bt = load_beats()
+    def overlap(a, b, pred):
+        return sum(max(0, min(b, y) - max(a, x)) for x, y, m, tg in bt if pred(m, tg))
+    for v in d["videos"]:
+        total = mouth = 0
+        for l in v["lines"]:
+            tags = l.get("shows", "")
+            if not tags: errs.append(f"{v['id']}: line without 'shows': {l['text'][:40]}"); continue
+            want = tags.split("|")
+            for i, (a, b) in enumerate(l["shots"]):
+                total += b - a; mouth += overlap(a, b, lambda m, tg: m == "visible")
+                if tags == "any": continue
+                need = [want[i]] if len(want) == len(l["shots"]) else want
+                got = overlap(a, b, lambda m, tg: bool(tg & set(need)))
+                if got < 0.6 * (b - a): errs.append(f"{v['id']}: '{l['text'][:45]}' shot {a}-{b} does not show {need} ({got:.1f}/{b - a:.1f}s)")
+        print(f"{v['id']}: talking mouth on screen {mouth:.1f}s of {total:.1f}s ({100 * mouth / total:.0f}%)")
+    return "visuals"
+
+
+name = {"visuals": visuals, "beats": beats, "scripts": scripts, "grades": grades}[sys.argv[1]]()
 print(f"{name} OK" if not errs else "FAILED:\n  " + "\n  ".join(errs))
 sys.exit(1 if errs else 0)
