@@ -11,3 +11,5 @@
 | Extra hands (3-4 hands) | Claude QC | 2026-10-21 | OK: V9S2 used from 0.9 s |
 | Cream insole (V5S2 after the flip) | Claude QC | 2026-10-21 | OK: V5S2 used 0-0.9 s only |
 | On-screen text, product cards | standing rule | 2026-10-04 | OK: none (cut.py draws no text, gate --stage cut OK) |
+| Shoe flipping/jumping while held (V4S2 pop at 2.917 s, V5 cut to the sole, V5S1 start, V3S2 fast flip to the sole) | Ralph (V4, V5); Claude QC (V3) | 2026-10-21 | r5: V4S2 redone + cut around the pop; V5S2 dropped, V5S1 from 1.6 s; V3S2 to 2.3 s |
+| Walking in place (V7S1: ground moved ~50 px in 4 s) | Ralph | 2026-10-21 | r5: V7S1 dropped; V5S3 + V6S1 measured, ground moves (real travel) |
