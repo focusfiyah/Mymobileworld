@@ -1,0 +1,4 @@
+{"name": "TrendyQueen V-neck", "src_dir": "src", "work_dir": "tmp", "out_dir": "out", "zoom": 1.10,
+ "parts": {"full": {"video": "raw.mov"}},
+ "takes": {"T1": ["full", 0, 45.55]},
+ "videos": {"V1": {"takes": ["T1"]}}}
