@@ -1,19 +1,18 @@
 {
  "product": "Multifunctional 3000mAh Power Bank Flashlight Torch (TINEKO, TikTok Shop), clip-on COB side light",
  "client": "Grace",
- "product_block": "The flashlight is exactly the one in the product reference sheet (the big left view is the main reference): a slim squarish bar flashlight about the length of a finger, brushed silver-grey aluminium with softly rounded edges; on top a silver-grey carabiner hook with a thin silver wire spring gate; on the front a long rounded-rectangle white COB light window; under it ONE round orange push button; the bottom third is a darker gunmetal-grey section ending in the torch head with a round lens in a square bezel. No logo, no text, no stickers on it. It keeps exactly this shape, size, colours and parts in every frame: never longer, never round like a pen, no extra buttons, no screen, no second light.",
+ "product_block": "The flashlight is exactly the one in the product reference images (image 'front' is the main view; the sheet shows it from every side): a slim squarish bar with rounded corners, about the length of a finger, uniform matte gunmetal space-grey anodized aluminium (one colour, no silver, no two-tone); at one end a gunmetal carabiner hook with a thin silver wire spring gate; on the front, just above the hook end, ONE rounded-square orange button with a small embossed arrow icon; above the button a long rounded-rectangle frosted white light window; the far end opposite the hook is the torch head with a round silver reflector and a small square LED inside a rounded-square bezel. No text, no logo, no stickers. It keeps exactly this shape, size, colour and parts in every frame: never longer, never round like a pen, no extra buttons, no screen, no second light.",
  "look_block": "Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. Bright, clean, neutral exposure (no dark or moody look, no yellow or golden tint). No on-screen text, captions or logos.",
- "hand_block": "The hand is the ONLY person in the video: Grace's hand, medium-dark brown skin, slim fingers, square medium-length nails painted soft pink with crisp white French tips, exactly as in the hand reference photo (skin tone, hand shape and nails only); a thin gold flat-link bracelet watch on the wrist like the bracelet reference; no rings. Only the hand and wrist enter from the frame edge, whole wrist visible, no forearm, hand small (about 15 to 20% of the frame height). Fingers GRIP what they touch (thumb on one side, fingers curled on the other). Five fingers, natural knuckles and skin texture.",
+ "hand_block": "The hand is the ONLY person in the video: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band. Only the hand and wrist enter from the frame edge, whole wrist visible, no forearm, hand small (about 15 to 20% of the frame height). Fingers GRIP what they touch (thumb on one side, fingers curled on the other). Five fingers, natural knuckles and skin texture.",
  "no_hand_block": "No hand and no people anywhere in the frame, nothing at any edge of the frame.",
- "video_suffix": "The hand keeps the same skin tone, nails and bracelet for the whole clip; five fingers. The flashlight never changes shape, colour or parts and its orange button and white side light stay exactly as in the first frame. No sound. No on-screen text. No new objects.",
+ "video_suffix": "The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects.",
  "refs": {
   "product": [
-   "refs/product_sheet.png",
-   "refs/front_crop.png"
+   "refs/front_crop_ralph.png",
+   "refs/product_sheet.png"
   ],
   "hand": [
-   "../lgxnds-creatine/refs/v2/hand_french_bare.png",
-   "../lgxnds-creatine/refs/v2/bracelet_crop.png"
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
   ]
  },
  "order": [
@@ -65,7 +64,7 @@
    "model": "seedance",
    "dur": 5,
    "vo": "Press the orange button for a beam you can focus.",
-   "still": "Blue-hour dusk on a backyard garden path, bright exposure: the hand holds the flashlight upright from the bottom right edge, thumb resting on the round orange button, the front white side light facing the camera, the torch head pointing forward along the path.",
+   "still": "Blue-hour dusk on a backyard garden path about twenty minutes after sunset: deep blue sky, the garden in soft low light but still clearly visible (clean neutral exposure, not black, not golden). Point of view shot: the hand enters from the bottom right edge holding the flashlight horizontally at chest height, its torch head pointing straight down the path away from the camera, so we see the flashlight from the side with the white light window and the orange button facing the camera; fingers wrapped under the body, thumb resting on the orange button. Only the hand and wrist are in frame with the wrist at the frame edge, NO forearm; the hand is small, about 15% of the frame height; the whole flashlight is visible and not covered by fingers. The light is still off.",
    "video": "The thumb presses the orange button and a bright white beam shoots out of the torch head onto the path ahead; the round spot of light on the path tightens into a smaller, sharper circle. Slight handheld camera. The flashlight itself does not change."
   },
   {
@@ -85,7 +84,7 @@
    "model": "seedance",
    "dur": 5,
    "vo": "Phone dying? Plug it in. It recharges with USB-C, same as your phone.",
-   "still": "Daylight on a white car seat or a light oak table: the flashlight lies flat next to a black smartphone, a white cable already runs from the end of the flashlight next to its hook to the phone. The hand enters from the right edge and holds the phone, screen facing up with a plain lock screen showing only a green charging battery icon (no numbers, no words).",
+   "still": "Daylight on a light oak table: the flashlight lies flat with its hook end toward the camera; a short white cable runs from the small USB port on the hook end to a black smartphone lying beside it. The hand enters from the right edge and holds the phone, screen facing up with a plain lock screen showing only a green charging battery icon (no numbers, no words).",
    "video": "The hand lifts the phone slightly and tilts its screen toward the camera, the green charging battery icon glows; slow push-in. The flashlight and cable stay still."
   },
   {
@@ -115,8 +114,9 @@
    "model": "seedance",
    "dur": 5,
    "vo": "Grab one for your keys and one for your mom's car. It's in the orange cart.",
-   "still": "Daylight inside a clean car, the centre console and a cup holder in view: the hand holds ONE flashlight by its body, front with the white side light and orange button facing the camera, and is about to clip its carabiner onto a key ring hanging from the car's ignition area. Only one flashlight in the frame.",
+   "still": "Daylight inside a clean car, the centre console and a cup holder in view: the hand holds ONE flashlight by its body near the hook end, front with the white side light and orange button facing the camera, and is about to clip its carabiner onto a key ring hanging from the car's ignition area. Only one flashlight in the frame.",
    "video": "The hand clips the carabiner onto the key ring and lets go; the flashlight hangs there facing the camera. Slow gentle push-in. Only one flashlight."
   }
- ]
+ ],
+ "look": "Hand per Ralph 2026-10-21: 'same hand rings' = Grace hand sheet with bracelet (grace/ref/hand-sheets/with_bracelet.jpg). Dusk approved."
 }
