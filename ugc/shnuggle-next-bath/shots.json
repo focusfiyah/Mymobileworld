@@ -78,8 +78,8 @@
     8.55,
     12.47
    ],
-   "clip": "clips/S4_badge.mp4",
-   "note": "real badge tracked on (badge_track.py); same fix Ralph OKd for S11"
+   "clip": "clips/S4_bump.mp4",
+   "note": "real badge tracked on (badge_track.py); same fix Ralph OKd for S11; seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
   },
   {
    "id": "S5",
@@ -94,7 +94,9 @@
     12.47,
     16.79
    ],
-   "punch": true
+   "punch": true,
+   "clip": "clips/S5_bump.mp4",
+   "note": "seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
   },
   {
    "id": "S6",
@@ -108,7 +110,9 @@
    "t": [
     16.79,
     18.21
-   ]
+   ],
+   "clip": "clips/S6_bump.mp4",
+   "note": "seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
   },
   {
    "id": "S7",
@@ -122,7 +126,9 @@
    "t": [
     18.21,
     19.87
-   ]
+   ],
+   "clip": "clips/S7_bump.mp4",
+   "note": "seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
   },
   {
    "id": "S8",
