@@ -11,7 +11,7 @@ GRADE = {"natural": "eq=saturation=1.02", "neutral": "eq=contrast=1.05:saturatio
          "cool": "colortemperature=temperature=7500:mix=0.6,eq=contrast=1.03:brightness=0.04",
          "punchy": "eq=brightness=0.05:contrast=1.06:saturation=1.10"}
 LABEL = {"S1", "S5", "S7", "S8", "S9", "N4"}
-PRE = {"N3": "crop=562:1000:80:40,"}   # brows: lips cropped out (no talking mouth during the VO)
+PRE = {"N3": "crop=562:1000:80:40,", "V2e": "crop=350:622:110:10,", "V4d1": "crop=350:622:0:210,"}   # brows: mouth cropped out (no still mouth on screen during the VO)
 norm = lambda t: re.sub(r"[^a-z']", "", t.lower().replace("’", "'"))
 aud = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(H / f"vo/v{N}.mp3")], capture_output=True, text=True).stdout)
 starts, j = [], 0
@@ -19,12 +19,20 @@ for k, a, word in E["shots"]:
     while not (norm(W[j]["text"]) == norm(word) or len(word) > 4 and difflib.SequenceMatcher(None, norm(W[j]["text"]), norm(word)).ratio() >= 0.75): j += 1   # fuzzy only for long words ("Caster")
     starts.append(0.0 if not starts else round((W[j - 1]["end"] + W[j]["start"]) / 2, 3)); j += 1
 ends = starts[1:] + [aud]
+for i, (k, a, word) in enumerate(E["shots"][:-1]):   # a clip up to 0.15 s short of its line: move the cut that much earlier (into the pause before the next word)
+    src = H / "redo/clips" / f"{k}.mp4"
+    if src.exists():
+        cl = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src)], capture_output=True, text=True).stdout) - 0.005
+        over = a + ends[i] - starts[i] - cl
+        if 0 < over <= 0.15: ends[i] -= over; starts[i + 1] -= over
 z = E["zoom"]; zf = f"scale=iw*{z}:ih*{z},crop=720:1280," if z > 1 else ""
 ins, f, plan = [], "", []
 for i, ((k, a, word), s, e) in enumerate(zip(E["shots"], starts, ends)):
-    d = e - s; assert d >= 0.6, f"v{N} {k}: {d:.2f}s shot reads as a flash"; assert a + d <= 5.04, f"v{N} {k}: {a}+{d:.2f}s > clip (never stretch)"
+    src = H / "redo/clips" / f"{k}.mp4" if (H / "redo/clips" / f"{k}.mp4").exists() else C / ("clips_label" if k in LABEL else "clips") / f"{k}.mp4"
+    cl = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src)], capture_output=True, text=True).stdout)
+    d = e - s; assert d >= 0.6, f"v{N} {k}: {d:.2f}s shot reads as a flash"; assert a + d <= cl + 0.01, f"v{N} {k}: {a}+{d:.2f}s > clip {cl:.2f}s (never stretch)"
     plan.append(f"{s:6.2f}-{e:5.2f} {k} @{a} '{word}'")
-    ins += ["-i", str(C / ("clips_label" if k in LABEL else "clips") / f"{k}.mp4")]
+    ins += ["-i", str(src)]
     a0, L = round(a * 30), round(e * 30) - round(s * 30)   # whole output frames, so cuts land exactly on the planned word gaps (no drift)
     f += f"[{i}:v]fps=30,trim=start_frame={a0}:end_frame={a0 + L},setpts=PTS-STARTPTS,{PRE.get(k, '')}scale=720:1280,{zf}scale=1080:1920:flags=lanczos,{GRADE[E['grade']]},format=yuv420p[v{i}];"
 f += "".join(f"[v{i}]" for i in range(len(E["shots"]))) + f"concat=n={len(E['shots'])}:v=1:a=0[v]"

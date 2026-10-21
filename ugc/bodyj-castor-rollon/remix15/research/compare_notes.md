@@ -11,3 +11,4 @@
 
 Same footage family and order logic as the winner (mess -> roll-on -> proof -> uses -> nightstand box). Faster cut rate because the same beats fit in half the time; no shot under 0.6 s.
 Fixed after compare: nothing (the drift fix, cuts on exact frames, was made before this, found by qc.py sync).
+- 2026-10-21 round 3 (all-new footage): compare re-run on the 4 new finals; cuts per 10 s above, same beats as the winner, every shot shows its line.

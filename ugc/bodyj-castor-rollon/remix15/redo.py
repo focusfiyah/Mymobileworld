@@ -23,7 +23,7 @@ S = {
 }
 
 ROOM = {1: "redo/rooms/room1_spa_tub.jpg", 2: "redo/rooms/room2_grey_marble.jpg", 3: "redo/rooms/room3_cream_double.jpg", 4: "redo/rooms/room4_navy_vanity.jpg"}
-HAND = "stills/S4.png"; BOX = "refs/ralph_sheet_box.jpg"
+HAND = str(H / "redo/hand_ref.png"); BOX = "refs/ralph_sheet_box.jpg"
 BRIGHT = ("The room from the room reference image (Ralph's pick for this video), shown in bright natural daylight from the window, "
           "warm lamps and candles off, clean neutral white balance, airy and light.")
 PERSON = ("Her hands: medium-brown skin, short natural nude nails, no rings, a dusty mauve cotton t-shirt sleeve, exactly like the hand in the hand "
@@ -33,7 +33,7 @@ def shot(room, p, v, hand=True, product=True, box=False):
     return {"refs": refs, "p": p + " " + BRIGHT + (" " + PERSON if hand else " No hands.") + (" " + PROD if product else "") +
             (" Next to it, its real retail box exactly as in the box reference image." if box else ""), "v": v, "product": product}
 V1 = {
- "V1a": shot(1, "Close shot: the castor oil roll-on stands on the round wooden stool beside the freestanding white bathtub, a plant behind it. One fat clear golden drop of oil sits on top of the rose quartz roller ball and catches the sunlight like liquid gold.", "the camera slowly pushes in toward the roll-on; the golden drop glistens and slowly slides down the roller ball.", hand=False),
+ "V1a": shot(1, "Close shot: the castor oil roll-on stands on the round wooden stool beside the freestanding white bathtub, a plant behind it. The roll-on is complete and unchanged: amber glass bottle, white collar, pink rose quartz ball on top. Beside it, a small shallow glass dish holds a pool of clear golden castor oil that glows in the sunlight like liquid gold.", "the camera slowly pushes in toward the roll-on and the glowing golden oil in the dish; sunlight shimmers on the oil.", hand=False),
  "V1b": shot(1, "Close shot over the rim of the white freestanding tub: her cupped hands hold thick golden castor oil that runs between her fingers and drips in long sticky strings onto the tub rim. An old unbranded clear glass bottle of oil lies tipped on the rim, no label.", "the thick oil keeps oozing through her fingers and dripping in slow sticky strings onto the tub rim; her fingers spread a little, showing the mess.", product=False),
  "V1c": shot(1, "Her hand grips the castor oil roll-on, lifting it off the wooden wall shelf with rolled towels, label facing camera.", "her hand lifts the roll-on toward the camera and holds it up, label facing camera, steady and proud."),
  "V1d": shot(1, "Close shot: her right hand grips the castor oil roll-on and presses the rose quartz ball on the back of her left hand, resting on the tub rim; her fingertips are clean and dry.", "she rolls the rose quartz ball across the back of her left hand in one smooth stroke, leaving a thin shiny line; both hands stay clean and dry."),
@@ -44,6 +44,35 @@ V1 = {
  "V1i": shot(1, "The castor oil roll-on standing next to its retail box on the round wooden stool beside the freestanding white bathtub, a small plant and a folded towel.", "the camera slowly pushes in on the roll-on and its box.", hand=False, box=True),
 }
 S.update(V1)
+
+V234 = {
+ # V2: room 2 (grey marble, wood vanity, white vessel sink)
+ "V2a": shot(2, "Close shot over the grey marble vanity counter with the white vessel sink and wood-slat wall: her hand tips an old unbranded clear glass bottle and pours very thick golden castor oil onto a metal spoon held in her other hand; the oil overflows the spoon and drips onto the marble.", "the thick oil keeps oozing slowly over the spoon edge and drips in heavy sticky strings onto the marble counter.", product=False),
+ "V2b": shot(2, "The castor oil roll-on standing alone on the grey marble vanity counter next to the white vessel sink, warm sunlight across the counter making the amber glass glow like liquid gold.", "the camera slowly arcs a little around the roll-on; light glints on the amber glass and the rose quartz ball.", hand=False),
+ "V2c": shot(2, "Her hand grips the castor oil roll-on just above the grey marble counter beside the white vessel sink, label facing camera.", "her hand lifts the roll-on up toward the camera with a little flourish and holds it there, label facing camera."),
+ "V2d": shot(2, "Close shot: her left wrist turned up, inner wrist facing camera, above the grey marble counter; her right hand grips the castor oil roll-on and presses the rose quartz ball on one spot of the inner wrist.", "she rolls the ball back and forth on that one small spot of the inner wrist, precise and neat."),
+ "V2e": shot(2, "Extreme close shot of one eyebrow and the hairline above it, eye closed, only from the eyebrow up (no mouth, no nose): her hand holds the castor oil roll-on with the rose quartz ball on the eyebrow.", "she rolls the ball along the eyebrow, then up past the brow into the hairline and the roots of her hair."),
+ "V2f": shot(2, "Close shot: her left hand resting on a grey hand towel on the marble counter; her right hand grips the castor oil roll-on and presses the rose quartz ball on the cuticle of the middle finger.", "she rolls the ball over the cuticles, then up across the dry knuckles on the back of the hand, leaving a soft sheen."),
+ "V2h": shot(2, "The castor oil roll-on standing next to its retail box on the grey marble vanity counter beside the white vessel sink and a small plant.", "the camera slowly pushes in on the roll-on and its box.", hand=False, box=True),
+ # V3: room 3 (cream double vanity, black fixtures)
+ "V3a": shot(3, "On the white quartz double vanity counter between the two sinks: a pretty faceted glass perfume bottle with pale pink perfume and a round glass cap (no brand, no writing) on a small mirrored tray, and a little apart the castor oil roll-on.", "the camera slowly slides from the perfume bottle across to the castor oil roll-on and settles on it.", hand=False),
+ "V3c": shot(3, "Close shot: her left hand flat on the white quartz vanity counter; her right hand grips the castor oil roll-on and presses the rose quartz ball on the nail of the index finger.", "she rolls the ball over each nail and cuticle, then across the skin on the back of her hand."),
+ "V3d": shot(3, "Close shot on the white quartz double vanity counter with a black faucet and white cabinets with black handles: both her hands hold the castor oil roll-on's retail box, the top flap open.", "she pulls the roll-on out of the open box with one hand and lifts it up toward the camera, label facing camera, excited.", box=True),
+ "V3e": shot(3, "Close shot over the white quartz double vanity with the black faucet: her right hand grips the castor oil roll-on and presses the rose quartz ball on the inside of her left forearm, held up and turned out; the fingertips of both hands are clean and dry.", "she rolls the ball in one smooth line up the inner forearm; her other hand opens its fingers to show they are clean and dry."),
+ "V3f": shot(3, "Close shot of her neck and collarbone above the mauve t-shirt neckline, from the chin down only (no mouth): her hand grips the castor oil roll-on and presses the rose quartz ball on the collarbone.", "she rolls the ball along the collarbone and up the side of the neck."),
+ "V3g": shot(3, "The castor oil roll-on standing next to its retail box on the white quartz double vanity counter by the black faucet and a small vase of greenery.", "the camera slowly pushes in on the roll-on and its box.", hand=False, box=True),
+ # V4: room 4 (navy vanity, wooden shelves, glass shower)
+ "V4a": shot(4, "The wooden wall shelf above the toilet in this bathroom: on the left a big old greasy unbranded plastic bottle of castor oil, its outside smeared and sticky with thick golden oil, a thick oil drip running down its side onto the shelf and a wide greasy oily ring and puddle under it, a used oily paper towel beside it (no label text); on the right, a little apart, the clean castor oil roll-on.", "the camera slowly slides right along the shelf from the messy bottle and stops on the castor oil roll-on.", hand=False),
+ "V4b": shot(4, "Close shot: the castor oil roll-on standing on the white quartz top of the navy blue vanity, life-size and in scale with the counter and the faucet beside it, the label and the green USDA ORGANIC seal sharp. It sits naturally on the counter with a soft real shadow.", "the camera slowly pushes in toward the label until the USDA ORGANIC seal and the words CASTOR OIL fill the frame.", hand=False),
+ "V4c": shot(4, "Close shot above the navy vanity: her left forearm held out; her right hand grips the castor oil roll-on and presses the rose quartz ball on the top of the forearm.", "she glides the ball in one long easy stroke along the forearm, quick and effortless."),
+ "V4d1": shot(4, "Extreme close shot of one eyebrow, eye closed, from the eyebrow up only (no mouth, no nose): her hand holds the castor oil roll-on with the rose quartz ball at the inner end of the brow. Navy and white bathroom behind.", "she rolls the ball along the eyebrow to the tail."),
+ "V4d2": shot(4, "Close shot: her left hand resting on the white quartz top of the navy vanity; her right hand grips the castor oil roll-on and presses the rose quartz ball on a dry cuticle of the thumb.", "she rolls the ball over the thumb and index finger cuticles."),
+ "V4d3": shot(4, "Close shot: her bent left elbow with rough dry skin toward the camera, the navy vanity behind; her right hand grips the castor oil roll-on and presses the rose quartz ball on the elbow.", "she rolls the ball in small circles over the rough elbow, which turns soft and shiny."),
+ "V4d4": shot(4, "Close shot: the ends of long dark hair held in her left hand in front of the striped towel by the glass shower; her right hand grips the castor oil roll-on and presses the rose quartz ball on the hair ends.", "she rolls the ball down the hair ends, which turn smooth and glossy."),
+ "V4e": shot(4, "Close shot above the clean white quartz top of the navy vanity: her hand holds the capped castor oil roll-on, her other hand open next to it, palm and fingertips completely clean and dry; the counter is spotless.", "she turns her open hand slowly to show the clean dry fingertips and sets the roll-on down on the spotless counter."),
+ "V4f": shot(4, "The castor oil roll-on standing next to its retail box on the white quartz top of the navy blue vanity, small plant and wooden shelf behind.", "the camera slowly pushes in on the roll-on and its box.", hand=False, box=True),
+}
+S.update(V234)
 
 def still(sid):
     s = S[sid]
