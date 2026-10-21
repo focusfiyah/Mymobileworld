@@ -1,0 +1,48 @@
+/home/user/Mymobileworld/ugc/space-heater-ptc/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/space-heater-ptc/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 54 of 147 videos posted since 2026-08-20
+54 videos -> research/tag/tag-spaceheater.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  3,100,000   0.7   0.16   38 2026-09-29  @camronnbrown: #heater #spaceheater #garage 
+                                          https://www.tiktok.com/@camronnbrown/video/7691044474968935694
+    765,300   2.5   0.65   38 2026-10-17  @myfamilypov: This has been a game changer after the shower #heater #spaceheater #el
+                                          https://www.tiktok.com/@myfamilypov/video/7697426097545252126
+    642,100  13.8   0.52   23 2026-09-20  @kris.hc.home: Always Curious 🤔 Stay warm and comfortable this season! The DREO Space
+                                          https://www.tiktok.com/@kris.hc.home/video/7687527452012334357
+    304,400   1.2   0.35   51 2026-10-07  @dealhuntingduo: 1500W Space Heater with Thermostat, ECO Mode and 6-Layer Safety Protec
+                                          https://www.tiktok.com/@dealhuntingduo/video/7694010310935563534
+    253,500   2.8   0.18   62 2026-10-10  @rgjb19: ALL spaces heaters are the SAME! #greenscreen #heat #heating #spacehea
+                                          https://www.tiktok.com/@rgjb19/video/7694961681218145550
+    168,500   1.1   0.25   30 2026-09-15  @ccollins15: So pretty and cozy and will keep you warm all cold weather season ✨❄️ 
+                                          https://www.tiktok.com/@ccollins15/video/7685574993123577101
+    135,200   0.9   0.16   15 2026-09-26  @rwflame_kimberly: Why Run Your Heater All Day? Set It and Forget It#SmallSpace #SpaceHea
+                                          https://www.tiktok.com/@rwflame_kimberly/video/7689018114998029599
+     65,600   0.6   0.15   31 2026-09-27  @domputmeon: Not me heating the WHOLE house when I’m sitting in ONE room. This litt
+                                          https://www.tiktok.com/@domputmeon/video/7690050175762468127
+     64,400   0.7   0.17   33 2026-09-02  @travistrujillo30: VEVOR 1500W Infrared Electric Space Heater with Remote Control, 3 Heat
+                                          https://www.tiktok.com/@travistrujillo30/video/7681054854659231007
+     32,900   0.8   0.16   37 2026-09-29  @arjunchuwan: Smart Wall Mounted Panel Heater, Electric Space Heater, Best space hea
+                                          https://www.tiktok.com/@arjunchuwan/video/7690756744749845773
+     22,300   0.6   0.12  155 2026-10-14  @legend198093: #heat #winter #warm 
+                                          https://www.tiktok.com/@legend198093/video/7696243847327714574
+     20,300   0.4   0.09   53 2026-10-10  @dealhuntingduo: 1500W Power Electric Space Heater with Thermostat, ECO Mode, 6-Layer S
+                                          https://www.tiktok.com/@dealhuntingduo/video/7695113795395521806
+     16,600  16.5   0.46   11 2026-09-25  @drezilla13: My emotional support heater 🤟 #fy #fall #fyp #relateable #whyamiliketh
+                                          https://www.tiktok.com/@drezilla13/video/7689523403325295902
+     14,600   0.7   0.18   33 2026-10-12  @myfamilypov: If you have a workshop or garage or shed that needs some heat, this is
+                                          https://www.tiktok.com/@myfamilypov/video/7695623854512737566
+     11,800   1.4   0.36   65 2026-10-17  @saracame31: #heater #electricheater #spaceheater #tiktokshopfalldealsforyou #tikto
+                                          https://www.tiktok.com/@saracame31/video/7697621890239696141
+      8,606   6.3   0.57   33 2026-09-30  @myfamilypov: This thing gets soo hot so quick! #spaceheater #miniheater #portablehe
+                                          https://www.tiktok.com/@myfamilypov/video/7691377876301565214
+      6,684   0.6   0.19   44 2026-10-16  @camronnbrown: #heater #spaceheater #rv 
+                                          https://www.tiktok.com/@camronnbrown/video/7697085497130159373
+      6,291   0.4    0.1   21 2026-10-13  @fielshop1: Calefacción compacta para espacios pequeños #TikTokShop #TikTokShopFin
+                                          https://www.tiktok.com/@fielshop1/video/7695945157706911007
+      4,876   2.1   0.25   38 2026-10-17  @myfamilypov: This is genius and heats up so quick! #standingheater #electricalheate
+                                          https://www.tiktok.com/@myfamilypov/video/7697420158297509150
+      4,599   0.7   0.13   27 2026-10-18  @sociallysarah2: #heater #spaceheater #garage #tiktokshopcreatorpicks #tiktokshopblackf
+                                          https://www.tiktok.com/@sociallysarah2/video/7698057854099541278

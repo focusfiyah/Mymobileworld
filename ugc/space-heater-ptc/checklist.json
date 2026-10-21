@@ -1,0 +1,78 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/V*.txt",
+  "vo/captions.txt"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 no price, no personal-use claims (V3 6 a.m. tagged only-if-true), sell-side confession, no false scarcity, people-say for reviews",
+   "\u00a73 hook library word for word, no id reused",
+   "\u00a74 structure hook/pain/solution/confession/urgency CTA, CTA sells more units",
+   "\u00a75 pace 3.2 wps",
+   "\u00a76 hands from frame edge with grip, bracelet + birthstone ring, a third to half hand-free (Kling), product reference sheet, no pasted label (Gemini still + Seedance refs mode), no text, every video different, REMOVED.md, AI finish"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop-space-heater.json",
+   "research/tag/spaceheater.txt",
+   "research/videos/7697426097545252126/transcript.txt",
+   "research/videos/7697579630043122975/transcript.txt",
+   "research/videos/7691044474968935694/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-19.json",
+   "research/viral/viral-state.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt",
+   "research/readability_v2.txt",
+   "research/readability_v3.txt"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md",
+   "research/audience/comments.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "research/compare/compare/compare.md",
+   "research/compare/compare_V1.md"
+  ],
+  "note": "tiktok.py compare vs the top winner after the cut"
+ }
+}
