@@ -35,7 +35,7 @@ Scope: 10 finished 7-15 s vertical AI videos of the real Vans Premium Authentic 
   EVIDENCE: REMOVED.md table checked against all 10 finals; clip_qc.py motion + 6fps frame review; clean windows in cut.py; finish applied in cut.py (ai_finish values, bitrate capped)
 
 - [ ] G8: Cuts on the Artifact review page, Ralph emailed + pushed, Ralph approved
-  EVIDENCE: pending
+  EVIDENCE: review page round 10 (v16); Ralph in chat 2026-10-21 "Go ahead for v4. Add in drive when done"; emails sent 05:2x and after Drive. UNMET PART: phone push, PushNotification not loadable in this session (ToolSearch "PushNotification" = no match, 2026-10-21).
 
-- [ ] G9: Finals in Drive "Grace Tiktok assets" one product folder, CURRENT prefix, link in README; running Kie/Kling cost vs quote recorded
-  EVIDENCE: pending
+- [x] G9: Finals in Drive "Grace Tiktok assets" one product folder, CURRENT prefix, link in README; running Kie/Kling cost vs quote recorded
+  EVIDENCE: https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_ "Vans sequin (Grace)": CURRENT - Vans V1..V10.mp4 (Drive sizes = local bytes, all 10) + CURRENT - Vans captions doc (read back OK); README Status: Kie $16.39 vs $7.73 plan, Kling 48 s on Kie.

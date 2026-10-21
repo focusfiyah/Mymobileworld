@@ -3107,5 +3107,59 @@
    ]
   },
   "costTime": 130
+ },
+ {
+  "t": "2026-10-21 05:30:09",
+  "submitted": "b365f54e4e28eb4ccd39f0352f8ffd52",
+  "prompt": "Edit this photo. Remove ONLY the third shoe: the one lying on its side behind the pair at the left, showing its cream so"
+ },
+ {
+  "t": "2026-10-21 05:30:41",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit this photo. Remove ONLY the third shoe: the one lying on its side behind the pair at the left, showing its cream sole and brown waffle tread. Fill that area with the same light-wood deck boards and the blurred potted plants behind, matching the light. Keep everything else exactly as it is, pixel for pixel: the front shoe lying flat and the shoe propped on it with the red-and-white VANS insole, their black and cream sequin checkerboard, the black woven side tab with white VANS letters, the deck, plants, framing and light. The result shows exactly TWO shoes. No new objects, no text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560605195-5lmi067bfsc.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "b365f54e4e28eb4ccd39f0352f8ffd52",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/b365f54e4e28eb4ccd39f0352f8ffd52_0_1792560638.jpeg"
+   ]
+  },
+  "costTime": 29
+ },
+ {
+  "t": "2026-10-21 05:31:10",
+  "submitted": "b689d5d2ddd49f585f77316506ebe366",
+  "prompt": "Recreate image 1 exactly as the first frame. The camera slowly dollies in toward the two shoes at deck level, drifting s"
+ },
+ {
+  "t": "2026-10-21 05:32:51",
+  "request": {
+   "model": "kling-3.0-omni/image-to-video",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame. The camera slowly dollies in toward the two shoes at deck level, drifting slightly right. The two shoes stay completely still and never turn. Their print stays exactly as in the first frame: black sequin squares on cream, black woven side tab with white VANS letters, white box with red VANS on the insole. Exactly two shoes for the whole clip, no third shoe appears. No people, no hands, no text.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560664733-30929rrizhj.png"
+    ],
+    "duration": 5,
+    "resolution": "720p",
+    "aspect_ratio": "auto",
+    "audio": false
+   }
+  },
+  "taskId": "b689d5d2ddd49f585f77316506ebe366",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/k/b689d5d2ddd49f585f77316506ebe366_1_1792560768_4942.mp4"
+   ]
+  },
+  "costTime": 98
  }
 ]
