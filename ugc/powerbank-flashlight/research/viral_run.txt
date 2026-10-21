@@ -1,0 +1,145 @@
+  #tiktokshop: 109 videos
+  #tiktokshopfinds: 110 videos
+  #tiktokshopcreatorpicks: 99 videos
+  #tiktokshopholidayhaul: 134 videos
+  #tiktokshophome: 138 videos
+  #tiktokshopbeauty: 142 videos
+  #tiktokshopfashion: 141 videos
+  #tiktokmademebuyit: 140 videos
+  #flashlight: 113 videos
+  #edcflashlight: 133 videos
+  #powerbank: 137 videos
+  #campinggear: 141 videos
+  #emergencyprep: 140 videos
+  #camping: 144 videos
+  #hurricaneprep: 140 videos
+  #tacticalflashlight: 135 videos
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+2001 videos scanned, 758 shop videos posted in the last 30.0 day(s) -> research/viral/viral-2026-10-21.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      610K    5.0M  8.2d  0.33  (product not in TikTok's data)
+                                  @samirzbavfu778: 🚗 Great for car travel, traffic jam, outdoor camping, solves
+                                  https://www.tiktok.com/@samirzbavfu778/video/7696133346329382175
+  2      536K   13.9M 25.9d  0.22  tarte CC color-correcting tinted serum [Beauty & Personal Care]
+                                  @molly.on.the.mic: he is unwell. But this stuff is UNREAL. #tartecosmetics #tar
+                                  https://www.tiktok.com/@molly.on.the.mic/video/7689554820818111775
+  3      514K    4.8M  9.3d  0.71  (product not in TikTok's data)
+                                  @ppe471: Secadora De Ropa Portatil Blan#tiktokshop 
+                                  https://www.tiktok.com/@ppe471/video/7695711684748479751
+  4      497K   13.5M 27.2d  0.16  (product not in TikTok's data)
+                                  @khalaniadelaide1: #tiktokshop #fyp #tiktokshopbacktoschool #organizer #organiz
+                                  https://www.tiktok.com/@khalaniadelaide1/video/7689097197652053261
+  5      490K    1.6M  3.3d  0.15  Stainless steel herb scissors, with 5 blades, multi-bla [Kitchenware]
+                                  @bjep3141kbp: #tiktokshop #sohochic #tiktokshopholidayhaul #fyp #dealsfory
+                                  https://www.tiktok.com/@bjep3141kbp/video/7697965067471457550
+  6      441K    742K  1.7d  0.13  XURATTIX  Electrical Outlet Extender Stick, 360° Rotati [Phones & Electronics]
+                                  @tapa_mondo: Replying to @Alisha | Cozy Home Finds how about some more so
+                                  https://www.tiktok.com/@tapa_mondo/video/7698551361167723789
+  7      402K    2.8M  7.0d   0.2  67-Inch Adjustable Portable Retractable Foldable Selfie [Phones & Electronics]
+                                  @bunniboughtit: this is a must have for content creators and it’s pink 💕✨ #t
+                                  https://www.tiktok.com/@bunniboughtit/video/7696593451613195533
+  8      371K    2.7M  7.3d  0.12  Cuttable Adjustable Silicone Faucet Splash GuardMat, Au [Home Supplies]
+                                  @yxx03857: #tiktokshop #tiktok #tiktokshopholidayhaul #fyp #dealsforyou
+                                  https://www.tiktok.com/@yxx03857/video/7696477840480505119
+  9      234K    4.9M 20.9d  0.41  Hard Bottom Backseat Extenders for Dogs with Door Prote [Pet Supplies]
+                                  @tiktokshopdeals4you: This is definitely worth the money! #fyp #tiktokshop #ruffli
+                                  https://www.tiktok.com/@tiktokshopdeals4you/video/7691417627519913246
+ 10      211K    2.6M 12.3d  0.15  Sink Organizer Rack,Hanging Faucet Drain Rack with Drip [Home Supplies]
+                                  @yolanvgahmb: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@yolanvgahmb/video/7694603268231646495
+ 11      211K    2.4M 11.4d  0.08  Foldable Over The Sink Dish Drying Rack, Carbon Steel 2 [Home Supplies]
+                                  @sunwardhome: #TikTokShopCreatorPicks #KitchenOrganization #KitchenHacks #
+                                  https://www.tiktok.com/@sunwardhome/video/7694952365992021262
+ 12      194K    1.4M  7.2d  0.06  URMCZ Men's 3-Pack Basic Menswear Plain Cargo Pants, Wi [Menswear & Underwear]
+                                  @ccitko: #mensfashion#tiktokshop#fashiontiktok#Cool#ootd
+                                  https://www.tiktok.com/@ccitko/video/7696494807182560526
+ 13      194K    3.5M 18.1d  0.25  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+ 14      183K    3.1M 16.9d  0.16  3-in-1 Entryway Organizer:  Rack with Coat Rack, 5-Tier [Home Supplies]
+                                  @amy_abt7: #tiktokshop #organizedhome #homeorganization 
+                                  https://www.tiktok.com/@amy_abt7/video/7692893580209212685
+ 15      176K    2.7M 15.4d  0.19  (product not in TikTok's data)
+                                  @sprowgoudie9678: #fyp #tiktok #tiktokshop #tiktokmademebuyit 
+                                  https://www.tiktok.com/@sprowgoudie9678/video/7693467720653737246
+ 16      166K    648K  3.9d  0.34  (product not in TikTok's data)
+                                  @jp.field.tested: DYU CampX 1200W Electric Utility Wagon | Dual Motor Heavy Du
+                                  https://www.tiktok.com/@jp.field.tested/video/7697730325379697933
+ 17      148K    1.7M 11.5d   0.3  Tear-Off Microfiber Cleaning Cloth Roll, Lint-Free High [Home Supplies]
+                                  @rljq7322u6l: #fyp #foryou #tiktokshop 
+                                  https://www.tiktok.com/@rljq7322u6l/video/7694924393893432607
+ 18      133K    1.0M  7.5d   0.7  Women's 2pcs Set Loose Striped V-Neck Drop Shoulder Lon [Womenswear & Underwear]
+                                  @staygoldlex: Finally back in stock! This loungewear set is sooo cozy and 
+                                  https://www.tiktok.com/@staygoldlex/video/7696382504067976479
+ 19      129K    1.7M 13.2d  0.05  Men’s tactical cargo pants (2–4-pack), made from stiff, [Menswear & Underwear]
+                                  @demitkshop_fyp: #mensfashion#tiktokshop#fashiontiktok#Cool#ootd 
+                                  https://www.tiktok.com/@demitkshop_fyp/video/7694280680687160607
+ 20      122K    971K  8.0d  0.53  (product not in TikTok's data)
+                                  @alpha_finds1: The best lights for cheap aswell 😍😍😍#tiktokshopmademebuyit #
+                                  https://www.tiktok.com/@alpha_finds1/video/7696218213629086998
+ 21      121K    861K  7.1d  0.07  2/4/6PCS Plush Christmas Refrigerator Door Handle Cover [Sports & Outdoor]
+                                  @cornwell.caflisch: The Fridge Just Got Its Christmas Outfit 🎄❤️#tiktokshop #fyp
+                                  https://www.tiktok.com/@cornwell.caflisch/video/7696443527403818254
+ 22      120K    147K  1.2d  3.41  Women's American Retro Sleeveless Short Dark Wash Denim [Womenswear & Underwear]
+                                  @leahstyle4: Replying to @TheeKikiBee the fall fits are FITTINGGG, the la
+                                  https://www.tiktok.com/@leahstyle4/video/7698720168956005645
+ 23      117K    582K  5.0d  3.32  Women's American Retro Sleeveless Short Dark Wash Denim [Womenswear & Underwear]
+                                  @leahstyle4: #womensfashion #fallootd #TikTokShopFallDealsForYou #TikTokS
+                                  https://www.tiktok.com/@leahstyle4/video/7697328352876711181
+ 24      117K    3.2M 27.4d  1.28  Women's Striped Tie Long Sleeve Blouse and Wide-Leg Pan [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 25      117K    2.8M 24.0d   0.5  Women’s cotton wide-leg sweatpants with an elastic draw [Womenswear & Underwear]
+                                  @zcvlmnwlxk: fall coded🍂#widelegpants #falldealsforyou #drawstringwaist #
+                                  https://www.tiktok.com/@zcvlmnwlxk/video/7690259549638397214
+ 26      104K    534K  5.1d  0.45  (product not in TikTok's data)
+                                  @ut_toki: #tiktok #tiktokshop #foruyou #tiktokmademebuyit #kitchen 
+                                  https://www.tiktok.com/@ut_toki/video/7697217716737805582
+ 27       99K    2.6M 26.3d  0.16  Bathroom Sink Stopper, Universal Drain Filter with Hair [Home Supplies]
+                                  @asperjohll: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@asperjohll/video/7689413598422027534
+ 28       96K    2.3M 23.8d  0.08  [medicube] Smooth & Clear Body Care Set | Hypochlorous  [Beauty & Personal Care]
+                                  @sdpofficial: Amazing deal! #tiktokshopcreatorpicks 
+                                  https://www.tiktok.com/@sdpofficial/video/7690328466603937054
+ 29       96K    2.4M 24.9d  0.23  (product not in TikTok's data)
+                                  @merlinepulley42: 3-in-1 winter hat,keeps your face,neck & ears toasty AF! Gra
+                                  https://www.tiktok.com/@merlinepulley42/video/7689899316252626207
+ 30       93K    2.4M 25.8d  0.86  Winter New Vintage Plaid Heart Elastic Straight Loose T [Womenswear & Underwear]
+                                  @lacel0ver: The comfiest fuzzy checkered pants you need for cozy fall da
+                                  https://www.tiktok.com/@lacel0ver/video/7689601265491365151
+ 31       87K    989K 11.3d  0.57  (product not in TikTok's data)
+                                  @cxxexskq01: #browgel #maquillaje #browtint #beauty #tiktokshop 
+                                  https://www.tiktok.com/@cxxexskq01/video/7694971024655404296
+ 32       83K    497K  6.0d  0.19  Heavy-Duty Plastic Self-Adhesive Hexagonal Ripple Hooks [Home Supplies]
+                                  @noelaniparkinson: #DealsForYouDavs #tiktokshopfinds #tiktokshopholidayhaul #ti
+                                  https://www.tiktok.com/@noelaniparkinson/video/7696940318926654751
+ 33       81K    2.3M 28.4d  0.36  (product not in TikTok's data)
+                                  @user3103745690840: #tiktokshop #tiktok #tiktokshopholidayhaul #fyp #dealsforyou
+                                  https://www.tiktok.com/@user3103745690840/video/7688654720466013453
+ 34       78K    1.0M 12.8d  0.32  Women's Fashion Casual Solid Color Mesh Patchwork Faux  [Womenswear & Underwear]
+                                  @marynicole__: and it’s so AFFORDABLE?!?! @ChicVibe Fashion #tiktokshopfall
+                                  https://www.tiktok.com/@marynicole__/video/7694418912208850189
+ 35       71K    582K  8.2d  0.11  SOPAMI Telescopic Disposable Dust Mop, Touch-Free Auto  [Home Supplies]
+                                  @cnb88703iim: Clip anything. Clean everything. Regret nothing.#mop #cleant
+                                  https://www.tiktok.com/@cnb88703iim/video/7696149913603722527
+ 36       69K    598K  8.7d  0.13  Men’s Elegant Plain Long Pea Coat - Single-Breasted, Tu [Menswear & Underwear]
+                                  @hdhfbf12: #tiktokfashion #tiktokshop #ootd #fyp #mensfashion 
+                                  https://www.tiktok.com/@hdhfbf12/video/7695955084840013070
+ 37       64K    719K 11.2d  0.22  Crocs Women's Dylan Platform Buckle Wedge Sandals [Shoes]
+                                  @dayamirys23: Respuesta a @Yamira Rodriguez #tiktokshopfalldealsforyou #ti
+                                  https://www.tiktok.com/@dayamirys23/video/7695022032672574734
+ 38       54K    327K  6.0d  0.45  Jemima Low Rise Straight Leg Jeans [Womenswear & Underwear]
+                                  @groovygirlol: Tiktokshop warrior and I don’t give a gaf #tiktokshop #tikto
+                                  https://www.tiktok.com/@groovygirlol/video/7696941252381609246
+ 39       51K    1.4M 27.5d  0.89  Plastic Picture Hanging Tool - Multifunctional Professi [Tools & Hardware]
+                                  @camronnbrown: #tools #homeimprovement #tiktokshopstockup 
+                                  https://www.tiktok.com/@camronnbrown/video/7688959189418249485
+ 40       48K    580K 12.0d  0.28  (product not in TikTok's data)
+                                  @qwercc02: #tiktokshop #gamechanger #musthave #tiktokmademebuyit#fyp
+                                  https://www.tiktok.com/@qwercc02/video/7694724993195822344

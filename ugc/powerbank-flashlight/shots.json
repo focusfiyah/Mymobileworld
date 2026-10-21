@@ -1,0 +1,182 @@
+{
+ "product": "Multifunctional 3000mAh Power Bank Flashlight Torch (TINEKO, TikTok Shop), clip-on COB side light",
+ "client": "Grace",
+ "product_block": "The flashlight is exactly the one in the product reference images (image 'front' is the main view; the sheet shows it from every side): a slim squarish bar with rounded corners, about the length of a finger, uniform matte gunmetal space-grey anodized aluminium (one colour, no silver, no two-tone); at one end a gunmetal carabiner hook with a thin silver wire spring gate; on the front, just above the hook end, ONE rounded-square orange button with a small embossed arrow icon; above the button a long rounded-rectangle frosted white light window; the far end opposite the hook is the torch head with a round silver reflector and a small square LED inside a rounded-square bezel. No text, no logo, no stickers. It keeps exactly this shape, size, colour and parts in every frame: never longer, never round like a pen, no extra buttons, no screen, no second light.",
+ "look_block": "Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. Bright, clean, neutral exposure (no dark or moody look, no yellow or golden tint). No on-screen text, captions or logos.",
+ "hand_block": "The hand is the ONLY person in the video: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band. The hand enters from the frame edge, whole wrist visible; part of the forearm may show (Ralph 2026-10-21: forearm is ok); the hand stays small enough that the flashlight is the hero. Fingers GRIP what they touch (thumb on one side, fingers curled on the other). Five fingers, natural knuckles and skin texture.",
+ "no_hand_block": "No hand and no people anywhere in the frame, nothing at any edge of the frame.",
+ "video_suffix": "The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects.",
+ "refs": {
+  "product": [
+   "refs/front_crop_ralph.png",
+   "refs/product_sheet.png"
+  ],
+  "hand": [
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "order": [
+  "S4",
+  "S3",
+  "S1",
+  "S2",
+  "S5",
+  "S6",
+  "S7",
+  "S8",
+  "S9"
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "hand": true,
+   "product": false,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "I know I cannot be the only one who uses their phone as a flashlight until it dies.",
+   "still": "Blue-hour dusk in a quiet open-air parking lot, clean neutral exposure, deep blue sky still light, a silver car parked a few steps ahead. Point of view shot: the hand holds a black smartphone upright at chest height with its SCREEN FACING THE CAMERA; the screen is on and shows a plain flat mid-grey picture filling the whole screen (no icons, no text, no app). The phone's back flashlight points AWAY from the camera, toward the car, and casts a small weak circle of white light on the asphalt ahead next to the car's front tyre; no light shines toward the camera. Fingers wrap the phone's sides, thumb on the near edge, the screen not covered. No flashlight product in this shot.",
+   "video": "The small circle of light on the asphalt ahead (from the phone's back flashlight, pointing away from the camera) flickers twice and goes out; the hand lowers the phone a little in frustration. The phone screen keeps facing the camera and stays on. Slight handheld camera. Nothing else changes.",
+   "t": [
+    0.0,
+    5.1
+   ],
+   "still_v1": "Blue-hour dusk in a quiet open-air parking lot, bright exposure, deep blue sky still light: the hand holds a black smartphone from the bottom right edge, the phone's back camera flashlight is on and casts a small weak white circle on the asphalt next to a silver car's front tyre. Phone screen not visible (we see the back). No flashlight product in this shot.",
+   "video_v1": "The phone's flashlight flickers twice and goes out; the hand lowers the phone a little in frustration. Slight handheld camera. Nothing else changes.",
+   "screen_overlay": {
+    "src": "refs/screen_grace.mp4",
+    "from": "Grace's TikTok 7688848730010766622 (@shewiththeglow, Wag Bag), 9.5-14.7 s, no captions",
+    "why": "Ralph 2026-10-21: the phone's light faced the camera; 'If you need to show something on the phone overlay Grace's Tiktok on it'"
+   },
+   "note_v2": "Ralph 2026-10-21: v1 had the phone's flashlight facing the camera; it must face the direction of the light"
+  },
+  {
+   "id": "S2",
+   "hand": false,
+   "product": false,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Then you're in a dark parking lot with no light and no phone.",
+   "still": "Wide view of the same open-air parking lot at blue-hour dusk, bright exposure, a few parked cars, one silver car in the middle ground, tall lamp posts not lit yet, deep blue sky still light, wet-free clean asphalt with white lines.",
+   "video": "Only the camera moves: a slow smooth push-in toward the silver car at eye height, like someone walking to it. Nothing in the lot moves, no people, no cars move.",
+   "note": "was Kling; Ralph 2026-10-21: 'Do not use kling'",
+   "t": [
+    5.1,
+    8.82
+   ]
+  },
+  {
+   "id": "S3",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "This is a flashlight and a power bank, and it clips right onto your keys.",
+   "still": "Daylight close-up over a light oak table by a window: the hand holds a car key ring up by the key fob; the flashlight hangs from the same ring by its carabiner hook, front with the white side light and orange button facing the camera, fully in frame and sharp. Softly blurred bright living room behind.",
+   "video": "The hand gives the key ring a small lift so the flashlight swings gently once on its hook and settles facing the camera; slow gentle push-in. The flashlight stays the same.",
+   "t": [
+    8.82,
+    12.86
+   ]
+  },
+  {
+   "id": "S4",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Press the orange button for a beam you can focus.",
+   "still": "Blue-hour dusk on a backyard garden path about twenty minutes after sunset: deep blue sky, the garden in soft low light but still clearly visible (clean neutral exposure, not black, not golden). First-person view from just behind and above the hand, looking down the gravel path: the hand holds the flashlight level and pointing straight forward down the path, AWAY from the camera, like a person aiming it. The carabiner hook end is nearest the camera (as in reference image 2), the body runs away from the camera, foreshortened, and the lens end points at the far end of the path (the lens is not visible). The front face with the orange button and the white light window faces UP toward the sky, so we see them from above, foreshortened. The thumb rests on the orange button. The flashlight is NOT upright and does NOT point at the sky. The light is still off.",
+   "video": "The thumb presses the orange button once; a bright white beam shoots out of the top end of the flashlight straight ahead along the gravel path toward its far end, and a bright round pool of light lands on the path ahead and lights it up; the side window lights up too. The flashlight stays still in the same hand and does not turn. The beam never goes into the sky and never shines toward the camera; no other light appears anywhere else. Slight handheld camera.",
+   "main_view": "refs/view_away.png",
+   "t": [
+    12.86,
+    15.44
+   ],
+   "video_v1": "The thumb slides up and presses the orange button once; a bright white beam shoots out of the round lens onto the gravel path ahead and the round spot of light on the ground tightens into a smaller, sharper circle. The flashlight stays level in the same hand. Slight handheld camera.",
+   "note_v2": "Ralph 2026-10-21: 'when you turn on the light, the flashlight is not pointing the direction of the light' (v1 lit a spot in the background)",
+   "video_v2": "The thumb presses the orange button once. A bright white beam comes straight out of the round lens in the exact direction the lens points (down and to the left of the frame) and lands as a bright round pool of light on the gravel and plants at the lower left, exactly in front of the lens; the pool of light moves with the flashlight. The rest of the garden stays dim: no other light, spot or lamp appears anywhere else, especially not in the background. The flashlight stays level in the same hand, slight handheld camera.",
+   "note_v3": "Ralph 2026-10-21: 'when you turned it on, it should have turned to the direction of the light' -> hand aims it down the path, beam follows the lens",
+   "video_v3": "The thumb presses the orange button once and a bright white beam comes out of the round lens. Then the hand slowly turns the flashlight so the lens points AWAY from the camera, straight down the gravel path, and the beam follows the lens: a bright round pool of light travels along the gravel ahead, always exactly where the lens points, ending on the path in the distance. The light never shines toward the camera. The flashlight keeps its exact shape and parts while it turns (orange button, white side window, carabiner, round lens). No other light, spot or lamp appears anywhere else. Slight handheld camera.",
+   "still_r3": "Blue-hour dusk on a backyard garden path about twenty minutes after sunset: deep blue sky, the garden in soft low light but still clearly visible (clean neutral exposure, not black, not golden). Close-up from the side: the hand holds the flashlight level and angled down the path exactly like the 3/4 product view in reference image 2, the lens end with its round reflector pointing away from the camera along the path, the white light window and the orange button facing the camera. The fingers wrap under the body and the thumb rests next to the orange button. The hand enters from the bottom right corner (part of the forearm may show); the whole flashlight is visible and not covered by fingers. The light is still off.",
+   "note_v4": "S4 v3 (turning) morphed: a second lens appeared at the hook end. v4 = new still already aimed down the path, no turn.",
+   "still_r4": "Blue-hour dusk on a backyard garden path about twenty minutes after sunset: deep blue sky, the garden in soft low light but still clearly visible (clean neutral exposure, not black, not golden). Seen from slightly behind and to the right of the hand: the hand holds the flashlight level at chest height, aimed straight down the gravel path AWAY from the camera, so its lens end faces the far end of the path (the lens itself is not visible) and we see its side: the white light window and the orange button face the camera, the carabiner hook end points back toward the camera near the hand. The thumb rests next to the orange button. The light is still off. The whole flashlight is visible and not covered by fingers.",
+   "no_look": true
+  },
+  {
+   "id": "S5",
+   "hand": false,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Hang it up and the side light works like a camping light.",
+   "still": "Inside a beige canvas camping tent at blue-hour dusk, door flap open to pine trees and a deep blue sky: the flashlight hangs by its carabiner hook from a loop at the tent ceiling, its long white side light glowing soft neutral white and lighting the tent walls, a rolled sleeping bag and a backpack below. Bright, airy exposure.",
+   "video": "Only the camera moves: a slow smooth dolly-in toward the hanging flashlight. It hangs still. Nothing else moves, no people.",
+   "note": "was Kling; Ralph 2026-10-21: 'Do not use kling'",
+   "t": [
+    15.44,
+    18.08
+   ]
+  },
+  {
+   "id": "S6",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Phone dying? Plug it in. It recharges with USB-C, same as your phone.",
+   "still": "Daylight on a light oak table: the flashlight lies flat with its hook end toward the camera; a short white cable runs from the small USB port on the hook end to a black smartphone lying beside it. The hand enters from the right edge and holds the phone, screen facing up with a plain lock screen showing only a green charging battery icon (no numbers, no words).",
+   "video": "The hand lifts off the phone and slides out of the frame to the right, revealing the whole phone screen with the green charging battery icon; the white cable stays plugged into the flashlight and the phone; slow gentle push-in. The flashlight and phone stay still.",
+   "t": [
+    18.08,
+    22.3
+   ]
+  },
+  {
+   "id": "S7",
+   "hand": false,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "My only complaint? Everybody who sees it is going to want one.",
+   "still": "Bright daylight on a hiking trail: a grey backpack hangs on a wooden fence post, the flashlight clipped by its carabiner to the backpack's shoulder strap loop, front facing the camera, green trees softly blurred behind.",
+   "video": "Only the camera moves: a slow smooth arc from left to right around the backpack, keeping the flashlight in focus. Nothing moves, no people.",
+   "note": "was Kling; Ralph 2026-10-21: 'Do not use kling'",
+   "t": [
+    22.3,
+    25.76
+   ]
+  },
+  {
+   "id": "S8",
+   "hand": false,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "The clocks go back November first, so it's dark before dinner.",
+   "still": "A bright entryway at early evening: a light console table by the front door with a bowl of keys and the flashlight lying on it, front facing up; the window beside the door shows the deep blue dusk outside; warm-neutral white ceiling light on, clean and bright.",
+   "video": "Only the camera moves: a slow push-in toward the flashlight on the table while the sky outside the window stays dusk blue. Nothing moves, no people.",
+   "note": "was Kling; Ralph 2026-10-21: 'Do not use kling'",
+   "t": [
+    25.76,
+    29.24
+   ]
+  },
+  {
+   "id": "S9",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Grab one for your keys and one for your mom's car. It's in the orange cart.",
+   "still": "Daylight inside a clean car, the centre console and a cup holder in view: the hand holds ONE flashlight by its body near the hook end, front with the white side light and orange button facing the camera, and is about to clip its carabiner onto a key ring hanging from the car's ignition area. Only one flashlight in the frame.",
+   "video": "The hand lifts the flashlight a little so the keys hanging from its carabiner swing gently, then holds it still with the orange button and white window facing the camera; slow gentle push-in. Only one flashlight.",
+   "t": [
+    29.24,
+    32.91
+   ]
+  }
+ ],
+ "look": "Hand per Ralph 2026-10-21: 'same hand rings' = Grace hand sheet with bracelet (grace/ref/hand-sheets/with_bracelet.jpg). Dusk approved.",
+ "no_kling": "Ralph 2026-10-21: 'Do not use kling' (this job): all 9 clips Seedance 2.0 Mini on Kie.",
+ "forearm_ok": "Ralph 2026-10-21: 'forearm is ok'"
+}

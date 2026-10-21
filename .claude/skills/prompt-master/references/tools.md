@@ -50,7 +50,7 @@ These override the generic sections below when Ralph (or his clients, e.g. Grace
 - **Held product: one grip, one small move.** Big turns make the model switch the grip and flip the product mid-clip; Ralph rejects any visible flip or "switch of side" (Vans 2026-10-21). Do not freeze the hold to stop the turn: Kling 3.0 with the still as both first and last frame never turned the shoe, but the clips read as still images and Ralph rejected them (Vans 2026-10-21). Keep real hand movement, check frame by frame, and cut only the window before any flip or jump.
 - **Hands and people:** hands enter from the frame edge, whole wrists visible, no background showing through hands, no hand sweeping across the product, no forehead wrinkles. Hand-free shots (product alone, setting, props) are fine where they fit.
 - **No on-screen text** in any generated frame unless Ralph says yes for that ad: add "no text, no captions, no logos other than the real label".
-- **Kling** (Ralph's account, MCP): good for realistic body motion and 3D dolly moves; same hand/product rules.
+- **No Kling** (Ralph 2026-10-21, every job unless he says otherwise): write every clip prompt for Seedance 2.0 Mini on Kie, hand-free dollies included; hand-free prompts say no hand, fingers or people appear at any time.
 - **ElevenLabs eleven_v4:** Day One AI narrator = Ralph's clone; demo lines use premade contrast voices. See Voice AI below for tags.
 - **Every paid generation needs Ralph's OK with the exact cost**, including redos. A prompt you write is free; running it is not.
 
