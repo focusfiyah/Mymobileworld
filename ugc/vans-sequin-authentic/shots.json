@@ -1,7 +1,7 @@
 {
  "status": "Plan B approved by Ralph 2026-10-21 ('Go with Kie all the way'): all stills nano-banana-pro, all clips Seedance 2.0 Mini reference mode on Kie. Music-only, no text (defaults, Ralph did not ask for VO or text). 2026-10-21 Ralph: redo V2S2 V8S1 V9S2 V1S2 ($0.36), remove the blue wrist strap from V3S2 V4S2 V8S2 V10S2 ($0.36, edits), accept the AI insole logo.",
  "hand_block": "Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring and a thin gold ring; NO blue silicone band anywhere, no wristband or watch strap other than the gold bracelets) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat.",
- "feet_block": "Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white.",
+ "feet_block": "Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white. Her two feet always point the same way, side by side and parallel like a person standing naturally (toes toward the same edge of the frame), never in opposite directions or crossed unless described.",
  "shoe_block": "The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos.",
  "scene_suffix": "Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described.",
  "video_suffix": "The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
@@ -33,8 +33,10 @@
    "hand": false,
    "feet": true,
    "anklet": "a delicate gold anklet with small pearls on the bare ankle",
-   "still": "POV photo looking down at her own feet standing on a light oak wood floor at the edge of a cream fluffy rug in a bright bedroom, cropped light-pink lounge pants. Her left foot wears one sequin Vans shoe, her right foot is bare with glossy white toenails. A pink satin mini handbag lies on the rug near the top left. No hands in the frame.",
-   "move": "the camera tilts slowly down toward her feet; her bare toes flex once; nothing else moves"
+   "still": "POV photo looking straight down at her own feet while she stands on a light oak wood floor at the edge of a cream fluffy rug in a bright bedroom, cropped light-pink lounge pants. Both feet side by side and parallel, a hand's width apart, toes pointing to the top of the frame: her left foot wears one sequin Vans shoe, her right foot is bare with glossy white toenails. A pink satin mini handbag lies on the rug near the top left. No hands in the frame.",
+   "move": "the camera tilts slowly down toward her feet; her bare toes flex once; nothing else moves",
+   "edit": "Edit this photo: remove her hand, the pink cardigan cuff and the shoe she is holding, and fill that area with the same cream fluffy rug and light oak floor. Keep everything else exactly the same: both feet side by side, the left foot in the sequin Vans, the right foot bare with white toenails and the pearl anklet, the framing and the light.",
+   "edit_src": "stills/V2S2.png"
   },
   {
    "id": "V2S2",
@@ -43,7 +45,7 @@
    "hand": true,
    "feet": true,
    "anklet": "a delicate gold anklet with small pearls on the bare ankle",
-   "still": "Same bedroom POV: her right hand comes in from the right frame edge, a soft blush-pink knit cardigan cuff over the wrist, holding ONE single sequin Vans shoe (only one, not a pair) by its heel above her feet, heel facing the camera so the black suede heel panel and the OFF THE WALL heel label show. Below: her left foot in the matching shoe, her right foot bare with white polish, on the oak floor at the cream rug edge. Exactly two shoes in the whole picture: the one in her hand and the one on her left foot.",
+   "still": "Same bedroom POV looking straight down: both feet side by side and parallel, toes pointing to the top of the frame, her left foot in one sequin Vans, her right foot bare with white polish, on the oak floor at the cream rug edge. Her right hand comes in from the right frame edge, a soft blush-pink knit cardigan cuff over the wrist, holding ONE single sequin Vans shoe (only one) by its heel above her feet, heel facing the camera so the black suede heel panel and the white OFF THE WALL heel label show. Exactly two shoes in the picture.",
    "move": "her hand turns the shoe from the heel view to its side profile, sequins sparkle in the window light; the camera stays still"
   },
   {
@@ -105,7 +107,7 @@
    "hand": true,
    "feet": true,
    "anklet": "a gold curb-chain anklet",
-   "still": "Same asphalt POV: her right hand with the grey hoodie cuff holds the sequin Vans shoe upside down above her feet, showing the gum-brown waffle sole and the marshmallow sidewall, gripping it by the toe. Black leggings and her other shoe below.",
+   "still": "Same asphalt POV looking straight down: her right hand with the grey hoodie cuff holds one sequin Vans shoe upside down above her feet, showing the gum-brown waffle sole and the marshmallow sidewall, gripping it by the toe. Below, black leggings, both feet side by side and parallel with toes pointing up the frame: her left foot wears the matching sequin shoe, her right foot is bare with glossy white toenails and a gold curb-chain anklet. Exactly two shoes in the picture.",
    "move": "her hand turns the shoe from the sole back over to the sequin top; the camera stays still"
   },
   {
@@ -195,7 +197,7 @@
    "hand": false,
    "feet": true,
    "anklet": "a gold anklet with small pearls",
-   "still": "Close-up photo on a light wood floor in a bright home entryway: one sequin Vans shoe sits open with its laces loose, and her bare foot with glossy white toenails and a pearl gold anklet hovers just above it, toes pointing into the opening; white wide-leg pants cuffed above the ankle. No hands. The open shoe is the complete sequin checkerboard shoe from toe to heel (no plain cream panels), with its black suede heel panel.",
+   "still": "Side view photo at floor level in a bright home entryway with a light wood floor and a white wall: the open sequin Vans shoe sits on the floor in profile, its toe pointing to the RIGHT edge of the frame and its heel to the left, laces loose; her bare foot, also pointing to the right, is lifted just above and behind the shoe with her toes dipping into the shoe opening, glossy white toenails, a gold anklet with small pearls, white wide-leg pants cuffed above the ankle. Her other foot stands behind it on the floor, already in the matching shoe, also pointing right. The open shoe is the complete sequin checkerboard shoe from toe to heel with its black suede heel panel. No hands.",
    "move": "her bare foot slides down into the shoe and settles in; the camera stays still"
   },
   {
@@ -205,7 +207,7 @@
    "hand": true,
    "feet": false,
    "anklet": "a gold anklet with small pearls",
-   "still": "Close-up photo looking down: her foot wears the sequin Vans on the light wood floor, and both of her hands from the top frame edge, white sleeve cuffs at the wrists, grip the two black laces near the bow.",
+   "still": "Side view close-up at floor level in the same bright entryway: her right foot is INSIDE the sequin Vans shoe, the shoe in profile with its toe pointing to the RIGHT, her ankle rising out of the collar with a gold anklet with small pearls, none of the red insole visible; both of her hands come in from the top frame edge, white sleeve cuffs at the wrists, gripping the two black laces near the bow on top of the shoe. White wide-leg pants cuffed above the ankle.",
    "move": "her hands pull the laces snug and tie a neat bow; the camera stays still",
    "edit": "Edit this photo: remove the blue silicone band from her wrist so that wrist shows only her own skin and her gold bracelets. Keep everything else exactly the same: the shoe, her hands, nails, rings, the other jewellery, the framing, the light and the background."
   },
@@ -277,7 +279,7 @@
    "hand": false,
    "feet": false,
    "anklet": "a gold tennis anklet",
-   "still": "POV photo looking down at her feet in the sequin Vans on a light wood floor in a bright living room next to a Christmas tree with white lights and wrapped presents, cropped cream knit lounge pants, a gold tennis anklet. No hands.",
+   "still": "POV photo looking straight down at her feet on a light wood floor in a bright living room next to a Christmas tree with white lights and wrapped presents, cropped cream knit lounge pants, a gold tennis anklet. Both feet in the sequin Vans, side by side and parallel, toes pointing to the top of the frame, a hand's width apart, the feet clearly inside the shoes. No hands.",
    "move": "her feet tap together; the camera tilts down slowly toward the shoes"
   }
  ]

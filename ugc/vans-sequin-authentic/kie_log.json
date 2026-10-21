@@ -1110,5 +1110,705 @@
    ]
   },
   "costTime": 121
+ },
+ {
+  "t": "2026-10-21 02:09:18",
+  "submitted": "cc44088353f7c16bbd6f6d61341eb8b5",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Photo from behind and above in a bright home entryway w"
+ },
+ {
+  "t": "2026-10-21 02:09:18",
+  "submitted": "9a03261b8ef84377bf435ff70459e24e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up photo looking down: she sits on the bottom sta"
+ },
+ {
+  "t": "2026-10-21 02:09:18",
+  "submitted": "6b8e194c9a9d1d5a3535230b61784c9e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Same bedroom POV looking straight down: both feet side "
+ },
+ {
+  "t": "2026-10-21 02:09:18",
+  "submitted": "e43d22272f320de8e48f12c1f9393f70",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her own feet while s"
+ },
+ {
+  "t": "2026-10-21 02:09:19",
+  "submitted": "99d7399ac72d84962967dbb48015e5cd",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then t"
+ },
+ {
+  "t": "2026-10-21 02:09:20",
+  "submitted": "93cb5bea3ab1476e46df964624d15a55",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:09:20",
+  "submitted": "9ee9ef9f6baf67ea6adacd1f0d65105f",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:09:21",
+  "submitted": "5d8d71fa38c980d01c9160468d4848e6",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:10:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her own feet while she stands on a light oak wood floor at the edge of a cream fluffy rug in a bright bedroom, cropped light-pink lounge pants. Both feet side by side and parallel, a hand's width apart, toes pointing to the top of the frame: her left foot wears one sequin Vans shoe, her right foot is bare with glossy white toenails. A pink satin mini handbag lies on the rug near the top left. No hands in the frame. No hands or arms anywhere in the frame. Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white. Her two feet always point the same way, side by side and parallel like a person standing naturally (toes toward the same edge of the frame), never in opposite directions or crossed unless described. She wears a delicate gold anklet with small pearls on the bare ankle. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 5 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546614726-ldmkd6gzwod.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e43d22272f320de8e48f12c1f9393f70",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e43d22272f320de8e48f12c1f9393f70_0_1792548613.jpeg"
+   ]
+  },
+  "costTime": 55
+ },
+ {
+  "t": "2026-10-21 02:10:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Photo from behind and above in a bright home entryway with a light wood floor: one sequin Vans shoe sits open on the floor with its laces loose, its toe pointing AWAY from the camera to the top of the frame and its heel nearest the camera; her bare foot, pointing the same direction as the shoe, hovers just above the opening with the toes entering it, glossy white toenails, a gold anklet with small pearls; her other foot already wears the matching shoe, parallel beside it; white wide-leg pants cuffed above the ankle. The open shoe is the complete sequin checkerboard shoe from toe to heel (no plain cream panels), with its black suede heel panel. No hands. No hands or arms anywhere in the frame. Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white. Her two feet always point the same way, side by side and parallel like a person standing naturally (toes toward the same edge of the frame), never in opposite directions or crossed unless described. She wears a gold anklet with small pearls. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "cc44088353f7c16bbd6f6d61341eb8b5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/cc44088353f7c16bbd6f6d61341eb8b5_0_1792548616.jpeg"
+   ]
+  },
+  "costTime": 59
+ },
+ {
+  "t": "2026-10-21 02:10:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up photo looking down: she sits on the bottom stair of the bright entryway, both feet in front of her on the light wood floor wearing the sequin Vans, side by side and parallel, toes pointing away from the camera; both of her hands come in from the top frame edge, white sleeve cuffs at the wrists, gripping the two black laces of the right shoe near the bow. Gold anklet with small pearls. Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring and a thin gold ring; NO blue silicone band anywhere, no wristband or watch strap other than the gold bracelets) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat. She wears a gold anklet with small pearls. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 and 5 = Grace's real hand (skin, nails, rings, bracelet: match exactly, ignore their grey background), 6 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546064258-gypjupwcdre.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546067392-myburwps2fg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9a03261b8ef84377bf435ff70459e24e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9a03261b8ef84377bf435ff70459e24e_0_1792548628.jpeg"
+   ]
+  },
+  "costTime": 71
+ },
+ {
+  "t": "2026-10-21 02:10:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her thumb gently presses along the sequin squares, then her hand flips the shoe over to show the gum-brown waffle sole; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548557987-modykflsv6i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5d8d71fa38c980d01c9160468d4848e6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548651928-y7e3k4uslkb.mp4"
+   ]
+  },
+  "costTime": 91
+ },
+ {
+  "t": "2026-10-21 02:10:59",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Same bedroom POV looking straight down: both feet side by side and parallel, toes pointing to the top of the frame, her left foot in one sequin Vans, her right foot bare with white polish, on the oak floor at the cream rug edge. Her right hand comes in from the right frame edge, a soft blush-pink knit cardigan cuff over the wrist, holding ONE single sequin Vans shoe (only one) by its heel above her feet, heel facing the camera so the black suede heel panel and the white OFF THE WALL heel label show. Exactly two shoes in the picture. Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring and a thin gold ring; NO blue silicone band anywhere, no wristband or watch strap other than the gold bracelets) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat. Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white. Her two feet always point the same way, side by side and parallel like a person standing naturally (toes toward the same edge of the frame), never in opposite directions or crossed unless described. She wears a delicate gold anklet with small pearls on the bare ankle. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 and 5 = Grace's real hand (skin, nails, rings, bracelet: match exactly, ignore their grey background), 6 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 7 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546064258-gypjupwcdre.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546067392-myburwps2fg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546614726-ldmkd6gzwod.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6b8e194c9a9d1d5a3535230b61784c9e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6b8e194c9a9d1d5a3535230b61784c9e_0_1792548655.jpeg"
+   ]
+  },
+  "costTime": 98
+ },
+ {
+  "t": "2026-10-21 02:11:00",
+  "submitted": "17170fea4c60834509ee321b7df1117c",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:11:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then the camera slowly dollies in toward the pair; sunlight glints move across the sequins; the shoes do not move. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548558020-wjkqfygjmfr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "99d7399ac72d84962967dbb48015e5cd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548673510-2wxigunfz1k.mp4"
+   ]
+  },
+  "costTime": 114
+ },
+ {
+  "t": "2026-10-21 02:11:20",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand tilts the shoe slowly toward the camera so the sequins flash in the light, then turns it so the red insole shows; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548557955-br7cqr183y6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "93cb5bea3ab1476e46df964624d15a55",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548674244-ecl9cdqc7ia.mp4"
+   ]
+  },
+  "costTime": 115
+ },
+ {
+  "t": "2026-10-21 02:11:23",
+  "submitted": "44e346ee89a623215dbcd42a13b3b05e",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:11:24",
+  "submitted": "6c330685dad8a5a327cce0243e5e6ce0",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then s"
+ },
+ {
+  "t": "2026-10-21 02:11:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her feet shift a little and one foot pivots on its heel; the camera slowly pushes in on the sequins catching the sunlight. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548558042-dlm84s7xm5a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9ee9ef9f6baf67ea6adacd1f0d65105f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548697824-r0usmopoxjk.mp4"
+   ]
+  },
+  "costTime": 139
+ },
+ {
+  "t": "2026-10-21 02:11:48",
+  "submitted": "19ae2134b64c8e8a25840ae3da833aa8",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then o"
+ },
+ {
+  "t": "2026-10-21 02:13:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand lifts the shoe a little and turns it toward the camera so the sequins sparkle; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548657447-y4n97tpmv7f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "17170fea4c60834509ee321b7df1117c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548788106-fwf4skgb2yv.mp4"
+   ]
+  },
+  "costTime": 128
+ },
+ {
+  "t": "2026-10-21 02:13:15",
+  "submitted": "c17e548057cd21effb5bc99f3fce3d9a",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then s"
+ },
+ {
+  "t": "2026-10-21 02:13:21",
+  "submitted": "b072cd6fe215b46d2e568fe7c8cb84de",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Same asphalt POV looking straight down: her right hand "
+ },
+ {
+  "t": "2026-10-21 02:13:21",
+  "submitted": "92b77614fef718e3b9453adfd8211ab1",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her feet on a light "
+ },
+ {
+  "t": "2026-10-21 02:13:21",
+  "submitted": "70982fd117d84eb4801bb0304602b54b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side view close-up at floor level in the same bright en"
+ },
+ {
+  "t": "2026-10-21 02:13:21",
+  "submitted": "8ac848ff8901636acfad64909bf3a324",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side view photo at floor level in a bright home entrywa"
+ },
+ {
+  "t": "2026-10-21 02:13:22",
+  "submitted": "1d8161254e95707198b56c1034faa10c",
+  "prompt": "Edit this photo: remove her hand, the pink cardigan cuff and the shoe she is holding, and fill that area with the same c"
+ },
+ {
+  "t": "2026-10-21 02:13:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then she walks forward with natural steps, the camera moves with her looking down at her feet. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548681722-uzos9c1ujkg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "6c330685dad8a5a327cce0243e5e6ce0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548805336-52cdyc65lom.mp4"
+   ]
+  },
+  "costTime": 123
+ },
+ {
+  "t": "2026-10-21 02:13:33",
+  "submitted": "f9f93b5205398788e0686188ed63e746",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:13:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand tilts the shoe toward the camera, showing the red insole and then the sequins along the side; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548681429-cb1psmrmcv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "44e346ee89a623215dbcd42a13b3b05e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548820520-u69pt68r0q.mp4"
+   ]
+  },
+  "costTime": 137
+ },
+ {
+  "t": "2026-10-21 02:13:47",
+  "submitted": "5eb7c45215061e04d1328e686882607b",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:14:01",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then one foot pivots on its heel to show the side of the shoe and back; the camera stays low and still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548706675-m6bnrxbs32b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "19ae2134b64c8e8a25840ae3da833aa8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548835430-mc9qtf1rqoa.mp4"
+   ]
+  },
+  "costTime": 127
+ },
+ {
+  "t": "2026-10-21 02:14:04",
+  "submitted": "1ef2da66155f34fa3bd8eca0b99bbacc",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then s"
+ },
+ {
+  "t": "2026-10-21 02:14:12",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side view photo at floor level in a bright home entryway with a light wood floor and a white wall: the open sequin Vans shoe sits on the floor in profile, its toe pointing to the RIGHT edge of the frame and its heel to the left, laces loose; her bare foot, also pointing to the right, is lifted just above and behind the shoe with her toes dipping into the shoe opening, glossy white toenails, a gold anklet with small pearls, white wide-leg pants cuffed above the ankle. Her other foot stands behind it on the floor, already in the matching shoe, also pointing right. The open shoe is the complete sequin checkerboard shoe from toe to heel with its black suede heel panel. No hands. No hands or arms anywhere in the frame. Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white. Her two feet always point the same way, side by side and parallel like a person standing naturally (toes toward the same edge of the frame), never in opposite directions or crossed unless described. She wears a gold anklet with small pearls. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8ac848ff8901636acfad64909bf3a324",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/8ac848ff8901636acfad64909bf3a324_0_1792548851.jpeg"
+   ]
+  },
+  "costTime": 51
+ },
+ {
+  "t": "2026-10-21 02:14:32",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit this photo: remove her hand, the pink cardigan cuff and the shoe she is holding, and fill that area with the same cream fluffy rug and light oak floor. Keep everything else exactly the same: both feet side by side, the left foot in the sequin Vans, the right foot bare with white toenails and the pearl anklet, the framing and the light.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548800877-ygfcwaqdih.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1d8161254e95707198b56c1034faa10c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1d8161254e95707198b56c1034faa10c_0_1792548866.jpeg"
+   ]
+  },
+  "costTime": 64
+ },
+ {
+  "t": "2026-10-21 02:14:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then she walks across the frame from left to right on the path; the camera pans slightly to follow. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548793886-ms2h4us1s6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "c17e548057cd21effb5bc99f3fce3d9a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548887850-ks222vrymkk.mp4"
+   ]
+  },
+  "costTime": 92
+ },
+ {
+  "t": "2026-10-21 02:14:50",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. POV photo looking straight down at her feet on a light wood floor in a bright living room next to a Christmas tree with white lights and wrapped presents, cropped cream knit lounge pants, a gold tennis anklet. Both feet in the sequin Vans, side by side and parallel, toes pointing to the top of the frame, a hand's width apart, the feet clearly inside the shoes. No hands. No hands or arms anywhere in the frame. She wears a gold tennis anklet. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 5 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546893540-0kum2pw7kgd.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "92b77614fef718e3b9453adfd8211ab1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/92b77614fef718e3b9453adfd8211ab1_0_1792548887.jpeg"
+   ]
+  },
+  "costTime": 86
+ },
+ {
+  "t": "2026-10-21 02:14:54",
+  "submitted": "3d609cd5e37cd14c1c781aecf017385f",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:15:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand turns the shoe slowly so the sunlight catches the sequins; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548811463-3kx0r0ll6ro.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "f9f93b5205398788e0686188ed63e746",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548905831-caa8d4uy4i.mp4"
+   ]
+  },
+  "costTime": 93
+ },
+ {
+  "t": "2026-10-21 02:15:08",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Side view close-up at floor level in the same bright entryway: her right foot is INSIDE the sequin Vans shoe, the shoe in profile with its toe pointing to the RIGHT, her ankle rising out of the collar with a gold anklet with small pearls, none of the red insole visible; both of her hands come in from the top frame edge, white sleeve cuffs at the wrists, gripping the two black laces near the bow on top of the shoe. White wide-leg pants cuffed above the ankle. Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring and a thin gold ring; NO blue silicone band anywhere, no wristband or watch strap other than the gold bracelets) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat. She wears a gold anklet with small pearls. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 and 5 = Grace's real hand (skin, nails, rings, bracelet: match exactly, ignore their grey background), 6 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546064258-gypjupwcdre.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546067392-myburwps2fg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "70982fd117d84eb4801bb0304602b54b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/70982fd117d84eb4801bb0304602b54b_0_1792548905.jpeg"
+   ]
+  },
+  "costTime": 105
+ },
+ {
+  "t": "2026-10-21 02:15:11",
+  "submitted": "2c74bd58666c13a92c7f168ce196504c",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then t"
+ },
+ {
+  "t": "2026-10-21 02:15:14",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Same asphalt POV looking straight down: her right hand with the grey hoodie cuff holds one sequin Vans shoe upside down above her feet, showing the gum-brown waffle sole and the marshmallow sidewall, gripping it by the toe. Below, black leggings, both feet side by side and parallel with toes pointing up the frame: her left foot wears the matching sequin shoe, her right foot is bare with glossy white toenails and a gold curb-chain anklet. Exactly two shoes in the picture. Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring and a thin gold ring; NO blue silicone band anywhere, no wristband or watch strap other than the gold bracelets) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat. Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white. Her two feet always point the same way, side by side and parallel like a person standing naturally (toes toward the same edge of the frame), never in opposite directions or crossed unless described. She wears a gold curb-chain anklet. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 and 5 = Grace's real hand (skin, nails, rings, bracelet: match exactly, ignore their grey background), 6 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 7 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546062211-k58ut47jwma.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546064258-gypjupwcdre.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546067392-myburwps2fg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547620372-tcqwzy629pf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546699998-bfevmqcjwbh.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "b072cd6fe215b46d2e568fe7c8cb84de",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/b072cd6fe215b46d2e568fe7c8cb84de_0_1792548912.jpeg"
+   ]
+  },
+  "costTime": 111
+ },
+ {
+  "t": "2026-10-21 02:15:30",
+  "submitted": "b947ff90aad654cbcac70e415fa1f011",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:15:32",
+  "submitted": "ecdf13c9a0e5a360c8ba7f058d3993df",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:15:32",
+  "submitted": "5049bcbf4246489f508758ee00378a87",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then t"
+ },
+ {
+  "t": "2026-10-21 02:15:33",
+  "submitted": "9afcc50570c76839cadeb9b7fab3f616",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:15:54",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her feet tap together twice; the camera tilts down slowly. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548824531-8exwujcud59.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "5eb7c45215061e04d1328e686882607b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548950653-8pxr0tctjc3.mp4"
+   ]
+  },
+  "costTime": 124
+ },
+ {
+  "t": "2026-10-21 02:15:58",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then she takes two steps toward the camera on the stripe; the camera stays low and still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548842213-9lf513o7bkl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "1ef2da66155f34fa3bd8eca0b99bbacc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548953261-oaq1zyxwr0l.mp4"
+   ]
+  },
+  "costTime": 110
+ },
+ {
+  "t": "2026-10-21 02:15:59",
+  "submitted": "b3902cab14b3647707e888477982ec7b",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then s"
+ },
+ {
+  "t": "2026-10-21 02:16:01",
+  "submitted": "cda30066b08685e9d1639c9bbe72ebd1",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:16:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand turns the shoe from the heel view to the side profile; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548891675-cokexcbldhr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "3d609cd5e37cd14c1c781aecf017385f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792548999099-nhk7tr3plye.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-21 02:16:46",
+  "submitted": "e04c69aec16006f3f0fb5ab20ec89109",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
  }
 ]
