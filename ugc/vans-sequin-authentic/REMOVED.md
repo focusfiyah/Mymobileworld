@@ -15,3 +15,4 @@
 | Walking in place (V7S1: ground moved ~50 px in 4 s) | Ralph | 2026-10-21 | r5: V7S1 dropped; V5S3 + V6S1 measured, ground moves (real travel) |
 | Shoe turning / "switching side" in her hand, any rotation of a held shoe (V1, V4; V3, V2, V6 proactively) | Ralph | 2026-10-21 | r6/r7: every hold is Kling 3.0 first=last frame (cannot turn), near-still holds get a free push-in |
 | A third shoe in a video (V3: one worn + one held + one on the table) | Ralph | 2026-10-21 | r7: V3S2 still edited to one shoe |
+| Sparkle/glint effects and near-still holds that read as pictures (r7 V3; prompt line "light glints on the sequins") | Ralph | 2026-10-21 | r8: V3 back to the round-5 clips; no "glint/sparkle" wording in any prompt |
