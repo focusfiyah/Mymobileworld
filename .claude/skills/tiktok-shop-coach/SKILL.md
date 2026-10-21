@@ -1,6 +1,6 @@
 ---
 name: tiktok-shop-coach
-description: Free TikTok Shop affiliate coach (no paid subscription). Breaks down any TikTok from a link (video, exact transcript, hook frames; why it worked or flopped), shows a daily board of the fastest-rising TikTok Shop videos with the product each sells, A/B compares a viral video with yours, checks a script's reading level, finds top videos for a keyword or hashtag without a login, lists TikTok Shop products with price, lifetime units sold and rating, and writes hooks and scripts modeled on proven videos. Use when someone pastes a TikTok link, asks why a video flopped, wants hooks or a script for a TikTok Shop product, asks what to film or which product to push, asks what's viral or trending on TikTok Shop today, wants viral videos in a niche, wants to compare their video to a viral one, mentions BMC Coach, Brands Meet Creators, The Daily Virals, Kalodata or FastMoss, or says "TikTok Shop coach".
+description: Free TikTok Shop affiliate coach (no paid subscription). Breaks down any TikTok from a link (video, exact transcript, hook frames; why it worked or flopped), shows a daily board of the fastest-rising TikTok Shop videos with the product each sells, A/B compares a viral video with yours, checks a script's reading level, finds top videos for a keyword or hashtag without a login, lists TikTok Shop products with price, lifetime units sold and rating, and writes hooks and scripts modeled on proven videos. Use when someone pastes a TikTok link, asks why a video flopped, wants hooks or a script for a TikTok Shop product, asks what to film or which product to push, asks what's viral or trending on TikTok Shop today, wants viral videos in a niche, wants to compare their video to a viral one, wants a TikTok Shop slideshow, photo carousel or shoppable photo post, mentions BMC Coach, Brands Meet Creators, The Daily Virals, Kalodata or FastMoss, or says "TikTok Shop coach".
 ---
 
 # TikTok Shop coach
@@ -123,6 +123,9 @@ client scripts, find the models with workflow 0 narrowed to the niche (`viral --
 keyword `discover` pages alone gave generic angles that Grace rejected (2026-10-02). Client rules beat this playbook
 (Grace: never say a price, no downsides; `grace/PLAYBOOK.md` in Mymobileworld). Write like a person talking: short sentences, no hype words. Run `readability` on each script before
 handing it over, and use the humanizer skill if the draft reads like an AI wrote it.
+
+### 5. Slideshow / photo carousel / shoppable photos
+Read `references/slideshows.md` (checked facts, slide order, what to ask Ralph first).
 
 ### Hand-offs
 - AI-generated ad video (no filming): `ugc-product-ad` skill.
