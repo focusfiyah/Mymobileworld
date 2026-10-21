@@ -1,6 +1,6 @@
 {
- "status": "Plan B approved by Ralph 2026-10-21 ('Go with Kie all the way'): all stills nano-banana-pro, all clips Seedance 2.0 Mini reference mode on Kie. Music-only, no text (defaults, Ralph did not ask for VO or text).",
- "hand_block": "Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring, a thin gold ring, a blue silicone band) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat.",
+ "status": "Plan B approved by Ralph 2026-10-21 ('Go with Kie all the way'): all stills nano-banana-pro, all clips Seedance 2.0 Mini reference mode on Kie. Music-only, no text (defaults, Ralph did not ask for VO or text). 2026-10-21 Ralph: redo V2S2 V8S1 V9S2 V1S2 ($0.36), remove the blue wrist strap from V3S2 V4S2 V8S2 V10S2 ($0.36, edits), accept the AI insole logo.",
+ "hand_block": "Grace's hand exactly as in the hand reference photos (skin tone, slim fingers, knuckles, nails, jewellery): medium brown skin, medium-length rounded nails in soft pink with crisp white French tips, her rings (a silver heart ring and a thin gold ring; NO blue silicone band anywhere, no wristband or watch strap other than the gold bracelets) and on the wrist a chunky gold watch-link bracelet layered with a thin gold chain with tiny pearls and a small gold leaf charm. Only the hand and wrist enter from the frame edge, the sleeve cuff covers the arm, no bare forearm. Five fingers, natural skin texture. The hand GRIPS the shoe: thumb on the outside of the collar, fingers curled around it, never resting flat.",
  "feet_block": "Her bare feet have the same medium brown skin as her hands, neatly pedicured, every toenail painted glossy solid white.",
  "shoe_block": "The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos.",
  "scene_suffix": "Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described.",
@@ -43,7 +43,7 @@
    "hand": true,
    "feet": true,
    "anklet": "a delicate gold anklet with small pearls on the bare ankle",
-   "still": "Same bedroom POV: her right hand comes in from the right frame edge, a soft blush-pink knit cardigan cuff over the wrist, holding the second sequin Vans shoe by its heel above her feet, heel facing the camera so the black suede heel panel and the OFF THE WALL heel label show. Below: her left foot in the matching shoe, her right foot bare with white polish, on the oak floor at the cream rug edge.",
+   "still": "Same bedroom POV: her right hand comes in from the right frame edge, a soft blush-pink knit cardigan cuff over the wrist, holding ONE single sequin Vans shoe (only one, not a pair) by its heel above her feet, heel facing the camera so the black suede heel panel and the OFF THE WALL heel label show. Below: her left foot in the matching shoe, her right foot bare with white polish, on the oak floor at the cream rug edge. Exactly two shoes in the whole picture: the one in her hand and the one on her left foot.",
    "move": "her hand turns the shoe from the heel view to its side profile, sequins sparkle in the window light; the camera stays still"
   },
   {
@@ -64,7 +64,8 @@
    "feet": false,
    "anklet": "",
    "still": "Close-up photo of her hand holding one sequin Vans shoe by its collar against a soft white marble caf\u00e9 background, the sequin checker squares filling much of the frame, her thumb resting on the sequins near the toe, the oatmeal coat cuff at the wrist.",
-   "move": "her thumb gently presses along the sequin squares, then her hand flips the shoe over to show the gum-brown waffle sole; the camera stays still"
+   "move": "her thumb gently presses along the sequin squares, then her hand flips the shoe over to show the gum-brown waffle sole; the camera stays still",
+   "edit": "Edit this photo: remove the blue silicone band from her wrist so that wrist shows only her own skin and her gold bracelets. Keep everything else exactly the same: the shoe, her hands, nails, rings, the other jewellery, the framing, the light and the background."
   },
   {
    "id": "V4S1",
@@ -84,7 +85,8 @@
    "feet": true,
    "anklet": "two layered gold chain anklets on the bare ankle",
    "still": "Top-down POV photo on the same sunny light-wood deck: her left hand comes in from the lower left frame edge, a light-wash denim jacket cuff over the wrist, holding one sequin Vans shoe by its collar above her feet, the side VANS tab facing the camera. Below: her right foot in the matching shoe, her left foot bare with glossy white toenails, white linen shorts at the top of the legs; a woven straw bag on the deck to the right.",
-   "move": "her hand lifts the shoe a little and turns it toward the camera so the sequins sparkle; the camera stays still"
+   "move": "her hand lifts the shoe a little and turns it toward the camera so the sequins sparkle; the camera stays still",
+   "edit": "Edit this photo: remove the blue silicone band from her wrist so that wrist shows only her own skin and her gold bracelets. Keep everything else exactly the same: the shoe, her hands, nails, rings, the other jewellery, the framing, the light and the background."
   },
   {
    "id": "V5S1",
@@ -193,7 +195,7 @@
    "hand": false,
    "feet": true,
    "anklet": "a gold anklet with small pearls",
-   "still": "Close-up photo on a light wood floor in a bright home entryway: one sequin Vans shoe sits open with its laces loose, and her bare foot with glossy white toenails and a pearl gold anklet hovers just above it, toes pointing into the opening; white wide-leg pants cuffed above the ankle. No hands.",
+   "still": "Close-up photo on a light wood floor in a bright home entryway: one sequin Vans shoe sits open with its laces loose, and her bare foot with glossy white toenails and a pearl gold anklet hovers just above it, toes pointing into the opening; white wide-leg pants cuffed above the ankle. No hands. The open shoe is the complete sequin checkerboard shoe from toe to heel (no plain cream panels), with its black suede heel panel.",
    "move": "her bare foot slides down into the shoe and settles in; the camera stays still"
   },
   {
@@ -204,7 +206,8 @@
    "feet": false,
    "anklet": "a gold anklet with small pearls",
    "still": "Close-up photo looking down: her foot wears the sequin Vans on the light wood floor, and both of her hands from the top frame edge, white sleeve cuffs at the wrists, grip the two black laces near the bow.",
-   "move": "her hands pull the laces snug and tie a neat bow; the camera stays still"
+   "move": "her hands pull the laces snug and tie a neat bow; the camera stays still",
+   "edit": "Edit this photo: remove the blue silicone band from her wrist so that wrist shows only her own skin and her gold bracelets. Keep everything else exactly the same: the shoe, her hands, nails, rings, the other jewellery, the framing, the light and the background."
   },
   {
    "id": "V8S3",
@@ -233,7 +236,7 @@
    "hand": true,
    "feet": false,
    "anklet": "",
-   "still": "Overhead photo of the open pastel pink gift box on the white duvet, white tissue paper folded over the top; both of her hands, white sleeve cuffs, grip the tissue edges at the middle.",
+   "still": "Overhead photo of the open pastel pink gift box on the white duvet with white tissue paper folded back; inside, the pair of sequin Vans lies side by side right side up, toes pointing to the top of the frame, laces up, exactly like the real pair in reference image 2 seen from above: the full black and off-white checkerboard on both shoes from toe to heel, small even squares, NO solid black panels. Exactly two hands (her left and right, no third hand), white sleeve cuffs, grip the tissue edges at the two sides of the box.",
    "move": "her hands fold the tissue open and the pair of sequin Vans is inside, side by side, sparkling in the window light; the camera pushes in slightly"
   },
   {
@@ -264,7 +267,8 @@
    "feet": false,
    "anklet": "",
    "still": "Photo of a pastel pink paper gift bag with white tissue paper on the white vanity table; her right hand from the right frame edge, a white sleeve cuff at the wrist, holds one sequin Vans shoe by its heel just above the bag opening.",
-   "move": "her hand lowers the shoe into the gift bag next to the tissue; the camera stays still"
+   "move": "her hand lowers the shoe into the gift bag next to the tissue; the camera stays still",
+   "edit": "Edit this photo: remove the blue silicone band from her wrist so that wrist shows only her own skin and her gold bracelets. Keep everything else exactly the same: the shoe, her hands, nails, rings, the other jewellery, the framing, the light and the background."
   },
   {
    "id": "V10S3",
