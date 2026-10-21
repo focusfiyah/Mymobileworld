@@ -1,0 +1,122 @@
+{
+ "product": "Multifunctional 3000mAh Power Bank Flashlight Torch (TINEKO, TikTok Shop), clip-on COB side light",
+ "client": "Grace",
+ "product_block": "The flashlight is exactly the one in the product reference sheet (the big left view is the main reference): a slim squarish bar flashlight about the length of a finger, brushed silver-grey aluminium with softly rounded edges; on top a silver-grey carabiner hook with a thin silver wire spring gate; on the front a long rounded-rectangle white COB light window; under it ONE round orange push button; the bottom third is a darker gunmetal-grey section ending in the torch head with a round lens in a square bezel. No logo, no text, no stickers on it. It keeps exactly this shape, size, colours and parts in every frame: never longer, never round like a pen, no extra buttons, no screen, no second light.",
+ "look_block": "Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. Bright, clean, neutral exposure (no dark or moody look, no yellow or golden tint). No on-screen text, captions or logos.",
+ "hand_block": "The hand is the ONLY person in the video: Grace's hand, medium-dark brown skin, slim fingers, square medium-length nails painted soft pink with crisp white French tips, exactly as in the hand reference photo (skin tone, hand shape and nails only); a thin gold flat-link bracelet watch on the wrist like the bracelet reference; no rings. Only the hand and wrist enter from the frame edge, whole wrist visible, no forearm, hand small (about 15 to 20% of the frame height). Fingers GRIP what they touch (thumb on one side, fingers curled on the other). Five fingers, natural knuckles and skin texture.",
+ "no_hand_block": "No hand and no people anywhere in the frame, nothing at any edge of the frame.",
+ "video_suffix": "The hand keeps the same skin tone, nails and bracelet for the whole clip; five fingers. The flashlight never changes shape, colour or parts and its orange button and white side light stay exactly as in the first frame. No sound. No on-screen text. No new objects.",
+ "refs": {
+  "product": [
+   "refs/product_sheet.png",
+   "refs/front_crop.png"
+  ],
+  "hand": [
+   "../lgxnds-creatine/refs/v2/hand_french_bare.png",
+   "../lgxnds-creatine/refs/v2/bracelet_crop.png"
+  ]
+ },
+ "order": [
+  "S4",
+  "S3",
+  "S1",
+  "S2",
+  "S5",
+  "S6",
+  "S7",
+  "S8",
+  "S9"
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "hand": true,
+   "product": false,
+   "model": "seedance",
+   "dur": 4,
+   "vo": "I know I cannot be the only one who uses their phone as a flashlight until it dies.",
+   "still": "Blue-hour dusk in a quiet open-air parking lot, bright exposure, deep blue sky still light: the hand holds a black smartphone from the bottom right edge, the phone's back camera flashlight is on and casts a small weak white circle on the asphalt next to a silver car's front tyre. Phone screen not visible (we see the back). No flashlight product in this shot.",
+   "video": "The phone's flashlight flickers twice and goes out; the hand lowers the phone a little in frustration. Slight handheld camera. Nothing else changes."
+  },
+  {
+   "id": "S2",
+   "hand": false,
+   "product": false,
+   "model": "kling",
+   "dur": 5,
+   "vo": "Then you're in a dark parking lot with no light and no phone.",
+   "still": "Wide view of the same open-air parking lot at blue-hour dusk, bright exposure, a few parked cars, one silver car in the middle ground, tall lamp posts not lit yet, deep blue sky still light, wet-free clean asphalt with white lines.",
+   "video": "Only the camera moves: a slow smooth push-in toward the silver car at eye height, like someone walking to it. Nothing in the lot moves, no people, no cars move."
+  },
+  {
+   "id": "S3",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "This is a flashlight and a power bank, and it clips right onto your keys.",
+   "still": "Daylight close-up over a light oak table by a window: the hand holds a car key ring up by the key fob; the flashlight hangs from the same ring by its carabiner hook, front with the white side light and orange button facing the camera, fully in frame and sharp. Softly blurred bright living room behind.",
+   "video": "The hand gives the key ring a small lift so the flashlight swings gently once on its hook and settles facing the camera; slow gentle push-in. The flashlight stays the same."
+  },
+  {
+   "id": "S4",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Press the orange button for a beam you can focus.",
+   "still": "Blue-hour dusk on a backyard garden path, bright exposure: the hand holds the flashlight upright from the bottom right edge, thumb resting on the round orange button, the front white side light facing the camera, the torch head pointing forward along the path.",
+   "video": "The thumb presses the orange button and a bright white beam shoots out of the torch head onto the path ahead; the round spot of light on the path tightens into a smaller, sharper circle. Slight handheld camera. The flashlight itself does not change."
+  },
+  {
+   "id": "S5",
+   "hand": false,
+   "product": true,
+   "model": "kling",
+   "dur": 5,
+   "vo": "Hang it up and the side light works like a camping light.",
+   "still": "Inside a beige canvas camping tent at blue-hour dusk, door flap open to pine trees and a deep blue sky: the flashlight hangs by its carabiner hook from a loop at the tent ceiling, its long white side light glowing soft neutral white and lighting the tent walls, a rolled sleeping bag and a backpack below. Bright, airy exposure.",
+   "video": "Only the camera moves: a slow smooth dolly-in toward the hanging flashlight. It hangs still. Nothing else moves, no people."
+  },
+  {
+   "id": "S6",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Phone dying? Plug it in. It recharges with USB-C, same as your phone.",
+   "still": "Daylight on a white car seat or a light oak table: the flashlight lies flat next to a black smartphone, a white cable already runs from the end of the flashlight next to its hook to the phone. The hand enters from the right edge and holds the phone, screen facing up with a plain lock screen showing only a green charging battery icon (no numbers, no words).",
+   "video": "The hand lifts the phone slightly and tilts its screen toward the camera, the green charging battery icon glows; slow push-in. The flashlight and cable stay still."
+  },
+  {
+   "id": "S7",
+   "hand": false,
+   "product": true,
+   "model": "kling",
+   "dur": 5,
+   "vo": "My only complaint? Everybody who sees it is going to want one.",
+   "still": "Bright daylight on a hiking trail: a grey backpack hangs on a wooden fence post, the flashlight clipped by its carabiner to the backpack's shoulder strap loop, front facing the camera, green trees softly blurred behind.",
+   "video": "Only the camera moves: a slow smooth arc from left to right around the backpack, keeping the flashlight in focus. Nothing moves, no people."
+  },
+  {
+   "id": "S8",
+   "hand": false,
+   "product": true,
+   "model": "kling",
+   "dur": 5,
+   "vo": "The clocks go back November first, so it's dark before dinner.",
+   "still": "A bright entryway at early evening: a light console table by the front door with a bowl of keys and the flashlight lying on it, front facing up; the window beside the door shows the deep blue dusk outside; warm-neutral white ceiling light on, clean and bright.",
+   "video": "Only the camera moves: a slow push-in toward the flashlight on the table while the sky outside the window stays dusk blue. Nothing moves, no people."
+  },
+  {
+   "id": "S9",
+   "hand": true,
+   "product": true,
+   "model": "seedance",
+   "dur": 5,
+   "vo": "Grab one for your keys and one for your mom's car. It's in the orange cart.",
+   "still": "Daylight inside a clean car, the centre console and a cup holder in view: the hand holds ONE flashlight by its body, front with the white side light and orange button facing the camera, and is about to clip its carabiner onto a key ring hanging from the car's ignition area. Only one flashlight in the frame.",
+   "video": "The hand clips the carabiner onto the key ring and lets go; the flashlight hangs there facing the camera. Slow gentle push-in. Only one flashlight."
+  }
+ ]
+}

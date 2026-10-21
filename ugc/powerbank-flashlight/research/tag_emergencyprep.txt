@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 62 of 143 videos posted since 2026-09-21
+62 videos -> research/tag/tag-emergencyprep.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,000,000  11.4   3.54   26 2026-09-27  @jeffandlaurenshow: I wish i did this sooner! 🚨 How to make an emergency kit! Simple items
+                                          https://www.tiktok.com/@jeffandlaurenshow/video/7690063821154618638
+    691,600   4.8    0.3   61 2026-10-11  @superlady333: Emergency Prep 🌀 The first things I do to keep my family safe when sev
+                                          https://www.tiktok.com/@superlady333/video/7695515884189732109
+    412,000  16.0   1.99   65 2026-10-12  @appalachianprepper4.0: The European Union has urged households to maintain at least 72 hours 
+                                          https://www.tiktok.com/@appalachianprepper4.0/video/7695821536636325134
+    344,600   5.3   0.48   23 2026-10-14  @countrygirl_prepper: Power grid emergency across 13 states #powergrid #poweroutage #emergen
+                                          https://www.tiktok.com/@countrygirl_prepper/video/7696530119422184735
+    334,600  19.7   3.34   31 2026-10-10  @dtmtg: 📍WALMART stock pile The world is becoming crazy and crazier. Every sin
+                                          https://www.tiktok.com/@dtmtg/video/7695160605132508446
+    321,200   1.1   0.28   58 2026-10-10  @mistercharsiu: These AT1 are a 4G LTE Walkie Talkie without a monthly fee! Use it for
+                                          https://www.tiktok.com/@mistercharsiu/video/7694838798022135053
+    172,600   8.8   2.83   50 2026-09-24  @mamarashaah: Cleanwaste WAG Bags are one of those emergency preparedness essentials
+                                          https://www.tiktok.com/@mamarashaah/video/7688935690465316126
+    171,400  10.5   2.04  117 2026-09-27  @oh_so_tammy: Replying to @Salonblissdallasga Preparing for the El Niño 2026–2027 wi
+                                          https://www.tiktok.com/@oh_so_tammy/video/7690206461569404173
+     85,200   7.6   1.05   59 2026-10-01  @shanman9390: #fyp #storytime #germany #family #duet this video is for entertainment
+                                          https://www.tiktok.com/@shanman9390/video/7691494047596285198
+     69,900  25.0   7.74  167 2026-09-28  @tinctured.roots: Are you guys getting prepared or is it just me 🥴🥴🥴 #holistic #herbs #c
+                                          https://www.tiktok.com/@tinctured.roots/video/7690705415004327198
+     58,300   5.8    1.5   42 2026-09-25  @countrygirl_prepper: Day 24 of 30 Things You’ll Wish You Had BEFORE an Emergency 🚨🍽️ PAPER 
+                                          https://www.tiktok.com/@countrygirl_prepper/video/7689464711305268510
+     34,900   4.4   1.37   33 2026-09-23  @nobodyscoming70: Most people get this wrong. What did YOU do the last time the power we
+                                          https://www.tiktok.com/@nobodyscoming70/video/7688789665616235789
+     32,100   3.5   0.53   66 2026-10-13  @itsmarieclarke: Have you started one? #prepping #emergency #prepper #foodies #foodrevi
+                                          https://www.tiktok.com/@itsmarieclarke/video/7696097607646547222
+     22,700   1.4   0.34   35 2026-10-16  @jusu_harbar: #survivalkit #emergencykit #beprepared #emergencypreparedness 
+                                          https://www.tiktok.com/@jusu_harbar/video/7697067413250084110
+     22,400  11.7    3.3   35 2026-10-01  @herlordshome: Since a few of you have mentioned not having the money to prepare and 
+                                          https://www.tiktok.com/@herlordshome/video/7691835701909884173

@@ -1,0 +1,30 @@
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 63 of 129 videos posted since 2026-09-21
+63 videos -> research/tag/tag-flashlight.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  2,000,000  20.0   0.96   32 2026-09-24  @krisstin.j: Jessie J🥹 #carkaraoke #fyp #relateable #2015 #tiktok 
+                                          https://www.tiktok.com/@krisstin.j/video/7688917731818622239
+    537,000   9.5   0.48   32 2026-10-14  @ch4nxml: flashlight🥀 #fy #mobilelegendsbangbang #chandxml #scsupremacy #fannymo
+                                          https://www.tiktok.com/@ch4nxml/video/7696357614766247188
+    535,700  30.9   6.69   10 2026-10-10  @mollycivilian: [ #pursuer + #flashlight ] AIIIIIIII#dieofdeath #dieofdeathroblox 
+                                          https://www.tiktok.com/@mollycivilian/video/7695012331494968594
+    418,500   7.5   0.45   18 2026-09-29  @user086108625: #fyp #flashlight #tiktokupdate #tutorial #trend
+                                          https://www.tiktok.com/@user086108625/video/7691050865930652929
+    337,800  17.7   1.03   43 2026-09-28  @jessiej: You're my flashlight 🔦🥸 #JessieJ #Flashlight #Throwback #PitchPerfect 
+                                          https://www.tiktok.com/@jessiej/video/7690713642995617038
+    194,100   4.0   0.25    7 2026-10-12  @k2077436: Any recommendations please! #mechanic #trades #flashlight #fyp #xyzbca
+                                          https://www.tiktok.com/@k2077436/video/7695579517317926164
+    173,500  17.1   1.83   16 2026-10-13  @malasributtt: #jessiej #flashlight #quotesflashlightindo 
+                                          https://www.tiktok.com/@malasributtt/video/7696069411911847175
+    173,100  19.4   1.67    9 2026-10-05  @theyaoigorl: flashlight chapter 68 on lezhin #flashlight #blmanhwarecommendation #f
+                                          https://www.tiktok.com/@theyaoigorl/video/7693190859101195551
+    155,300   3.9   0.34  108 2026-10-14  @mthonlinestore: ​#TacticalFlashlight ​#highpoweredflashlight ​#CampingGear ​#Emergency
+                                          https://www.tiktok.com/@mthonlinestore/video/7696385834311896340
+    145,400  27.4   2.17   16 2026-10-19  @euijona_: anh tôi. #flashlight 
+                                          https://www.tiktok.com/@euijona_/video/7698389530075729160
+     87,500  17.9   0.89    7 2026-10-19  @theyaoigorl: i’m done with you aaron hunter #flashlight #aaronhunter #blmanhwarecom
+                                          https://www.tiktok.com/@theyaoigorl/video/7698389523205590303
