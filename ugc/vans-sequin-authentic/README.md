@@ -5,7 +5,7 @@ real ref https://www.tiktok.com/t/ZPLAYRQEp) + 2 unboxing / "perfect present" vi
 reference sheet from the product images. Route: ugc-product-ad hands-only, no pasted labels (Gemini 3 Pro stills + product sheet, Seedance 2.0 Mini
 reference mode for hand clips, Kling 3.0 for hand-free if it wins a one-clip test). Rules: grace/PLAYBOOK.md.
 
-Status: Round 3 FIXED TEST CLIP V1S1 r1 (full LGXNDS method: real VANS tab close-up as ref 2, one grip) on the review page; asking Ralph to redo 13 batch clips with pale/blue tabs or jumps ($2.38). All 27 clips exist (old method). Kie spent ~$9.35 (46 images $4.14 + 127 s clips $5.21). Kie auto-refills.
+Status: Round 4 ALL 10 CUTS on the review page 2026-10-21 (V1-V10, 7.1-13.6 s, music-only, no text), waiting on Ralph. Kie $11.64 vs $7.73 plan (45 images $4.05 + 185 s clips $7.59; over = redos). Next on approval: Drive "Grace Tiktok assets" one product folder (CURRENT -), captions doc.
 Kie balance $0.93, Kling 248 credits (checked 2026-10-21). Quote: A $5.06 Kie + ~480 Kling credits / B $7.73 Kie. Gate: GATE OK.
 Review page: https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH
 

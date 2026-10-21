@@ -1,3 +1,13 @@
 # Removed items (check every cut against this list)
 
-(none yet)
+| Item | Removed by | Date | Checked in round 4 finals |
+|---|---|---|---|
+| Blue silicone band as a WRIST strap (ring on the finger stays, Ralph's call) | Ralph | 2026-10-21 | OK: only on fingers (V1, V5, V6, V7) |
+| Brand logos on props (Chanel CC clasp on the bag) | Claude QC, Ralph agreed (redo) | 2026-10-21 | OK: V1 bags plain (shot 1 soft clasp, shot 2 bar clasp) |
+| Vans logo printed on the gift box | Claude QC | 2026-10-21 | OK: V9 box plain pink in the used window (0-1.4, 2.6-3.4 s) |
+| Feet pointing opposite ways / empty shoes on legs | Ralph | 2026-10-21 | OK: V2, V8, V10 redone; V10S3 cut at 2.5 s before the feet vanish |
+| Grip switching mid-turn (collar to palm-up) | Ralph | 2026-10-21 | OK: windows start after the grip settles (V2S2 1.5 s, V5S1 1.3 s, V7S2 1.2 s) |
+| Pale/blue "floating" side VANS tab | Ralph | 2026-10-21 | OK: 13 clips redone with the real tab close-up; V7S1 tab tiny (left) |
+| Extra hands (3-4 hands) | Claude QC | 2026-10-21 | OK: V9S2 used from 0.9 s |
+| Cream insole (V5S2 after the flip) | Claude QC | 2026-10-21 | OK: V5S2 used 0-0.9 s only |
+| On-screen text, product cards | standing rule | 2026-10-04 | OK: none (cut.py draws no text, gate --stage cut OK) |
