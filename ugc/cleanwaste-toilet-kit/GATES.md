@@ -29,6 +29,7 @@
   EXPECT: REMOVED_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=013a407bf9538486765030b1ef6dfb1517e8b37c02c4fd804b29ca767557b9ea; exit=0; EXPECT=matched; output-sha256=fdd0ffce6701454c76a66b240abb2c3bf4ad8cf481d672c18ea787906a38db7a; output-bytes=11; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/cleanwaste-toilet-kit; path=7f4fb4b02918/15 entries
 - [x] G8: review page published with the script + reference sheet; plan sent to Ralph with one total cost; push + email sent (manual)
+  EVIDENCE: plan on artifact AiM9jZAQjFNExfb5A3rK2h v1 with one total; push sent; email Gmail id 1a15d1be98df4777
 
 # Phase 2: V1 production (Ralph 2026-10-21: V1 only, word for word, visuals match, short French tips no rings, Kie only)
 
@@ -57,6 +58,8 @@
   EXPECT: SPEND_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=6b2f57a9ed4935744ead43c396e1bfa1d9dfa5ea1e8a9da1fdf12cee9406c77d; exit=0; EXPECT=matched; output-sha256=85962fe84869b910dd0bb4029226b0cd9e26619a84b7f5fec4f1bd1e31041331; output-bytes=15; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/cleanwaste-toilet-kit; path=7f4fb4b02918/15 entries
 - [x] G15: every element of the cut checked against REMOVED.md + 2x hand edge check (manual; qc/cut_sheet.jpg, qc/*_frames.jpg)
+  EVIDENCE: qc/cut_sheet.jpg 27 frames: no text/cards/pasted label/freeze, bright neutral, unused bags, no flushing, short French tips no rings; 2x hands S5/S7 clean
 - [x] G16: final + script doc in Drive "Grace Tiktok assets" product folder as CURRENT, link in README + reply; push + email sent (manual)
+  EVIDENCE: Drive video 1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7 (75606569 bytes = local) + doc 1_0x0oMJZ_ltqqm0M2MU2yZuu5xAtnDYrWnSAey809cE in folder 1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8; README updated
 
 Manual evidence (2026-10-21): G8 plan published (artifact AiM9jZAQjFNExfb5A3rK2h v1), push + email sent (Gmail id 1a15d1be98df4777). G15 qc/cut_sheet.jpg (start/mid/end of all 9 shots): no text, no cards, no pasted label, no Ken Burns/freeze, bright neutral grade, unused bags only, no flushing, short French tips no rings, forearm modest (Ralph OK); 2x hand edges S5/S7 clean, no halo. G16 Drive video 1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7 size 75606569 = local, doc 1_0x0oMJZ_ltqqm0M2MU2yZuu5xAtnDYrWnSAey809cE, folder 1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8; push + email at delivery.
