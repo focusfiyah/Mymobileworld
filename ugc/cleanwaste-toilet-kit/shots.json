@@ -1,13 +1,14 @@
 {
  "blocks": {
-  "hand_block": "ONLY one female hand and wrist enter from the bottom or side edge of the frame, no forearm, the hand small (about 15-20% of frame height); medium-light skin, short natural nails with a clean French tip, no rings. Whole wrist visible, fingers curled around what they hold (thumb on one side, fingers on the other), nothing resting loose on the palm.",
+  "hand_block": "ONLY the hand and wrist are in frame: the frame edge cuts across the wrist, so NO forearm and no arm are visible; the hand small (about 15-20% of frame height); warm light-brown skin, SHORT natural-length nails (barely past the fingertip) with a thin white French tip and pale pink base, NO rings, NO bracelet, NO jewellery. Whole wrist visible, fingers curled around what they hold (thumb on one side, fingers on the other), nothing resting loose on the palm.",
   "no_hand": "No hands, no arms, no people anywhere in the frame, nothing entering at any edge.",
-  "box_block": "The product is the REAL Cleanwaste 12-pack box from reference image 2 (big front view on the reference sheet) and reference image 3 (tight crop of the real front): a wide low box about twice as wide as tall; bright orange sunset top half, navy and teal mountain bands below, pale aqua strip along the bottom; on the left a black rounded panel with white serif text 'The Original WAG BAG' and 'GO Anywhere Toilet Kit', a pale aqua '12-PACK' tab above it; a blue-grey bag pictured in the middle; 'CLEANWASTE' with a small shield logo top right; three dark bars 'EFFECTIVE / CLEAN / EASY TO USE' on the right; QR code and 'MADE IN THE USA' flag bottom right. The print stays inside the box edges, flat and sharp, letter for letter as in the reference; the box never changes shape or colour.",
+  "box_block": "The product is the REAL Cleanwaste 12-pack box shown on the product reference sheet (big front view) and in the tight crop of the real box front: a wide low box about twice as wide as tall; bright orange sunset top half, navy and teal mountain bands below, pale aqua strip along the bottom; on the left a black rounded panel with white serif text 'The Original WAG BAG' and 'GO Anywhere Toilet Kit', a pale aqua '12-PACK' tab above it; a blue-grey bag pictured in the middle; 'CLEANWASTE' with a small shield logo top right; three dark bars 'EFFECTIVE / CLEAN / EASY TO USE' on the right; QR code and 'MADE IN THE USA' flag bottom right. The print stays inside the box edges, flat and sharp, letter for letter as in the reference; the box never changes shape or colour. It is NOT the older blue/teal Wag Bag box with a drawn bag and a round '12 PACK' badge; only the orange-sunset box shown in the references.",
   "pouch_block": "A single kit pouch from the reference sheet: a clear plastic pouch with a white top seal, holding a navy topographic card with 'CLEANWASTE' and a bright orange lower card reading 'The original WAG BAG' with a line drawing of a folding toilet; the folded blue-grey waste bag visible behind the card.",
   "bag_block": "The waste bag is matte blue-grey plastic (slate blue, slightly glossy), plain with no print, empty and unused; the zip-close disposal bag is the same blue-grey with a zip line at the top.",
-  "contents_block": "Kit contents laid flat, unused and clean: the folded blue-grey waste bag, the folded blue-grey zip-close bag, a small black and white wrapped toilet paper packet, a small white hand-wipe packet with red and blue stripes, and the clear kit pouch with its orange card.",
-  "scene_suffix": "Vertical 9:16 phone video still, natural bright daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures, ordinary tidy home. No text, no captions, no watermark, no phone UI, no date stamp, no logos except the real box/pouch print.",
-  "video_suffix": "Natural handheld phone footage, smooth and slow, 5 seconds, bright neutral daylight that never changes. The product keeps its exact shape, colours and print in every frame; nothing new appears; the hand keeps the same skin tone and short French-tip nails; no text appears."
+  "contents_block": "Kit contents, unused and clean (match the kit-contents reference photo): the folded blue-grey waste bag, the folded blue-grey zip-close bag, a small flat black and tan wrapped toilet paper packet, a small square white hand-wipe packet printed with a red, white and blue flag, and the clear kit pouch with its navy and orange card.",
+  "scene_suffix": "Vertical 9:16 phone video still, natural bright daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures, ordinary tidy home. Every other item is plain and unbranded (blank white can labels, plain unlabeled water bottles, plain batteries): no brand names or logos on anything except the Cleanwaste box/pouch. No text, no captions, no watermark, no phone UI, no date stamp, no logos except the real box/pouch print.",
+  "video_suffix": "Natural handheld phone footage, smooth and slow, 5 seconds, bright neutral daylight that never changes. The product keeps its exact shape, colours and print in every frame; nothing new appears; the hand keeps the same skin tone and short French-tip nails; no text appears.",
+  "powder_block": "The powder is white and grey speckled granules like coarse salt (as in the kit-contents photo), a small amount at the bottom of the bag only, dry, no liquid."
  },
  "videos": [
   {
@@ -24,8 +25,9 @@
      "bag": false,
      "contents": false,
      "model": "seedance",
-     "still": "Close-up in a bright hallway: a hand holds a small black LED flashlight pointed slightly down, thumb on its button; behind it, softly out of focus, a white wire shelf with gallon water jugs and canned food. The flashlight is off.",
-     "motion": "The thumb presses the button once and the flashlight turns on (a soft white beam); the hand tilts it a few degrees. Slow push-in. The room stays fully bright."
+     "still": "Close-up in a bright hallway: a hand holds a small black LED flashlight pointed slightly down, thumb on its button; behind it, softly out of focus, a white wire shelf with gallon water jugs. The flashlight is off.",
+     "motion": "The thumb presses the button once and the flashlight turns on (a soft white beam); the hand tilts it a few degrees. Slow push-in. The room stays fully bright.",
+     "powder": false
     },
     {
      "id": "V1S2",
@@ -36,9 +38,10 @@
      "pouch": false,
      "bag": false,
      "contents": false,
-     "model": "kling",
-     "still": "A clean white toilet with the lid closed in a bright white bathroom with white subway tile and a frosted daylight window, seen from standing height a little to the side.",
-     "motion": "Only the camera moves: a slow smooth dolly-in toward the closed toilet. Nothing in the room moves."
+     "model": "seedance",
+     "still": "A clean white toilet with the lid closed in a bright white bathroom with white subway tile and a frosted daylight window, seen from standing height a little to the side. The floor around the toilet is completely empty: no boxes, no bins, no objects anywhere.",
+     "motion": "Only the camera moves: a slow smooth dolly-in toward the closed toilet. Nothing in the room moves.",
+     "powder": false
     },
     {
      "id": "V1S3",
@@ -49,9 +52,10 @@
      "pouch": false,
      "bag": false,
      "contents": false,
-     "model": "kling",
-     "still": "A white garage storage shelf, eye level: rows of bottled water and gallon jugs, canned food, two black flashlights and a pack of batteries, neatly stocked, bright daylight.",
-     "motion": "Only the camera moves: a slow sideways tracking move along the shelf from the water to the canned food to the flashlights. Nothing on the shelf moves."
+     "model": "seedance",
+     "still": "A white garage storage shelf at eye level: on the left bottled water and gallon jugs, in the middle canned food, on the right two black flashlights and a pack of batteries, then an empty bare section of shelf at the far right. Bright daylight.",
+     "motion": "Only the camera moves: a slow sideways tracking move from left to right along the shelf, past the water, the canned food and the flashlights, ending on the empty bare section. Nothing on the shelf moves and no hand appears.",
+     "powder": false
     },
     {
      "id": "V1S4",
@@ -63,8 +67,9 @@
      "bag": false,
      "contents": false,
      "model": "seedance",
-     "still": "On a light oak kitchen counter, the box stands upright on its long edge facing the camera straight on; one hand grips its right end (thumb on the front corner, fingers around the side). White kitchen behind, softly out of focus.",
-     "motion": "The hand slides the box a few centimetres toward the camera and holds it steady facing the lens; it never turns or tilts more than a few degrees. Slow push-in."
+     "still": "On a light oak kitchen counter, the box stands upright on its long edge facing the camera straight on; one hand holds its right END: fingers wrapped around the right end panel, thumb resting on the very right edge of the front, never covering any of the print. White kitchen behind, softly out of focus.",
+     "motion": "The hand slides the box a few centimetres toward the camera and holds it steady facing the lens; it never turns or tilts more than a few degrees. Slow push-in.",
+     "powder": false
     },
     {
      "id": "V1S5",
@@ -76,8 +81,9 @@
      "bag": true,
      "contents": false,
      "model": "seedance",
-     "still": "Close-up on a light oak counter: an opened kit pouch lies flat; one hand pinches the corner of the folded blue-grey waste bag, half pulled out of the pouch.",
-     "motion": "The hand slowly pulls the folded blue-grey waste bag the rest of the way out of the pouch and holds it up a little toward the lens. The bag stays folded and plain."
+     "still": "Close-up on a light oak counter: an opened clear kit pouch lies flat; one hand holds the blue-grey waste bag by its top edge, the bag's mouth slightly open toward the camera so a small heap of white granular powder is visible at the bottom inside the bag.",
+     "motion": "The hand tips the open bag a little toward the lens so the white powder inside slides gently along the bottom of the bag; the bag stays empty apart from the powder, nothing spills out.",
+     "powder": true
     },
     {
      "id": "V1S6",
@@ -88,9 +94,10 @@
      "pouch": true,
      "bag": true,
      "contents": true,
-     "model": "kling",
+     "model": "seedance",
      "still": "Top-down view of a light oak counter: the kit contents laid out in a neat row.",
-     "motion": "Only the camera moves: a slow smooth push-in from above. Nothing on the counter moves."
+     "motion": "Only the camera moves: a slow smooth push-in from above. Nothing on the counter moves.",
+     "powder": false
     },
     {
      "id": "V1S7",
@@ -102,8 +109,10 @@
      "bag": true,
      "contents": false,
      "model": "seedance",
-     "still": "Bright white bathroom: a white toilet with the lid up and the seat down; two hands from the bottom edge hold the opened, empty blue-grey waste bag by its top edge, spreading it over the seat opening.",
-     "motion": "The hands lower the empty bag into the bowl and fold its edge over the seat, then let go. The bag stays empty and clean. The toilet stays still."
+     "still": "Bright white bathroom, white toilet with the lid up and the seat down, seen from standing height. Two hands at the bottom edge of the frame hold open a large, thin, slack blue-grey plastic bag (about the size of a kitchen trash bag, opened wide) and drape its rim over the toilet seat so the empty bag hangs down into the bowl, like reference image 2.",
+     "motion": "The hands fold the bag's rim neatly around the seat, smooth it once, and let go; the empty bag stays draped in the bowl. The toilet stays still.",
+     "powder": false,
+     "seat_ref": true
     },
     {
      "id": "V1S8",
@@ -114,9 +123,10 @@
      "pouch": false,
      "bag": false,
      "contents": false,
-     "model": "kling",
-     "still": "An open clear plastic storage bin on a white hall-closet shelf, packed with emergency supplies: bottled water, a flashlight, a red first-aid pouch, and the orange Cleanwaste box standing at the front. Bright daylight.",
-     "motion": "Only the camera moves: a slow smooth dolly-in toward the bin. Nothing moves."
+     "model": "seedance",
+     "still": "A white hall-closet shelf with an open clear plastic storage bin of emergency supplies: bottled water, a flashlight, a red first-aid pouch, batteries, and the orange Cleanwaste box standing at the front of the bin. Bright daylight.",
+     "motion": "Only the camera moves: a slow smooth dolly-in toward the bin. Nothing moves and no hand appears.",
+     "powder": false
     },
     {
      "id": "V1S9",
@@ -128,144 +138,9 @@
      "bag": false,
      "contents": false,
      "model": "seedance",
-     "still": "Same white hall-closet bin of emergency supplies (water, flashlight, first-aid pouch); one hand grips the right end of the box, holding it just above the open bin, print facing the camera.",
-     "motion": "The hand lowers the box into the bin so it stands at the front, print facing the camera, then the hand leaves the frame. Slow push-in."
-    }
-   ]
-  },
-  {
-   "id": "V2",
-   "setting": "pale sage tile bathroom, pale grey stone counter, laundry room, garage, SUV trunk",
-   "shots": [
-    {
-     "id": "V2S1",
-     "line": "L1",
-     "words": "This is the kind of thing you buy before you are desperate",
-     "hand": false,
-     "box": true,
-     "pouch": false,
-     "bag": false,
-     "contents": false,
-     "model": "kling",
-     "still": "The box lying flat on a white laundry-room shelf, front facing the camera, a folded towel stack and a white basket beside it, light grey wall, bright daylight, low three-quarter angle.",
-     "motion": "Only the camera moves: a slow smooth arc and push-in toward the box. Nothing moves."
-    },
-    {
-     "id": "V2S2",
-     "line": "L2",
-     "words": "Most people stock up on water, food and flashlights, and forget the bathroom",
-     "hand": true,
-     "box": false,
-     "pouch": false,
-     "bag": false,
-     "contents": false,
-     "model": "seedance",
-     "still": "A light wood pantry shelf stocked with water bottles and canned food; one hand from the right edge holds a yellow flashlight just above the shelf.",
-     "motion": "The hand sets the flashlight down on the shelf next to the cans and leaves the frame. Slow push-in."
-    },
-    {
-     "id": "V2S3",
-     "line": "L3",
-     "words": "No water, or a well pump with no power, and that toilet won't flush",
-     "hand": false,
-     "box": false,
-     "pouch": false,
-     "bag": false,
-     "contents": false,
-     "model": "kling",
-     "still": "A white toilet with the lid closed in a bright bathroom with pale sage green tile and a white vanity, low angle from the side.",
-     "motion": "Only the camera moves: a slow smooth sideways dolly past the toilet. Nothing moves."
-    },
-    {
-     "id": "V2S4",
-     "line": "L4",
-     "words": "These Cleanwaste kits cover it",
-     "hand": true,
-     "box": true,
-     "pouch": false,
-     "bag": false,
-     "contents": false,
-     "model": "seedance",
-     "still": "Pale grey stone counter, white backsplash: one hand grips the left end of the box, which stands on its long edge facing the camera.",
-     "motion": "The hand slides the box a little toward the lens and holds it steady facing the camera. Slow push-in."
-    },
-    {
-     "id": "V2S5",
-     "line": "L5",
-     "words": "Each one has a waste bag with powder that gels liquid and helps control odor",
-     "hand": true,
-     "box": false,
-     "pouch": false,
-     "bag": true,
-     "contents": false,
-     "model": "seedance",
-     "still": "Close-up: one hand holds the folded blue-grey waste bag by its top edge against the pale grey stone counter.",
-     "motion": "The hand unfolds the empty bag once so it opens a little, then holds it still. Slow push-in."
-    },
-    {
-     "id": "V2S6",
-     "line": "L6",
-     "words": "Then toilet paper, a hand wipe, and a zip bag to seal it",
-     "hand": false,
-     "box": false,
-     "pouch": true,
-     "bag": true,
-     "contents": true,
-     "model": "kling",
-     "still": "Low angle across the pale grey stone counter: the kit contents laid out in a loose fan.",
-     "motion": "Only the camera moves: a slow smooth arc around the items. Nothing moves."
-    },
-    {
-     "id": "V2S7",
-     "line": "L7",
-     "words": "It fits your regular toilet, and it all goes out with the trash",
-     "hand": true,
-     "box": false,
-     "pouch": false,
-     "bag": true,
-     "contents": false,
-     "model": "seedance",
-     "still": "Pale sage tile bathroom: a white toilet, lid up, seat down, the empty blue-grey bag already folded over the seat opening; one hand from the right edge smooths its edge on the seat.",
-     "motion": "The hand smooths the bag edge around the seat and leaves the frame. The bag stays empty."
-    },
-    {
-     "id": "V2S8",
-     "line": "L8",
-     "words": "Honestly, I'm mad I waited this long",
-     "hand": false,
-     "box": true,
-     "pouch": false,
-     "bag": false,
-     "contents": false,
-     "model": "kling",
-     "still": "A grey garage shelf with a clear storage bin holding a radio, water bottles, a flashlight and the box at the front. Bright daylight from an open garage door.",
-     "motion": "Only the camera moves: a slow smooth dolly-in toward the bin. Nothing moves."
-    },
-    {
-     "id": "V2S9",
-     "line": "L9",
-     "words": "Winter storms are coming, and there are twelve kits in a box",
-     "hand": true,
-     "box": true,
-     "pouch": true,
-     "bag": false,
-     "contents": false,
-     "model": "seedance",
-     "still": "Top-down on the pale grey stone counter: the box open, its inside showing the kit pouches standing in a row (twelve); one hand pinches the top of one pouch.",
-     "motion": "The hand lifts one pouch straight up out of the row and holds it. The other pouches stay put."
-    },
-    {
-     "id": "V2S10",
-     "line": "L10",
-     "words": "Grab one for the house and one for the car. It's in the orange cart.",
-     "hand": true,
-     "box": true,
-     "pouch": false,
-     "bag": false,
-     "contents": false,
-     "model": "seedance",
-     "still": "Open SUV trunk in daylight, a grey trunk organizer holding a jumper cable bag and a water bottle; one hand grips the end of the box, holding it just above the organizer, print facing the camera.",
-     "motion": "The hand sets the box into the trunk organizer, print facing the camera, and leaves the frame. Slow push-in."
+     "still": "A white hall-closet shelf with an open clear plastic bin of emergency supplies (plain water bottles, a flashlight, a red first-aid pouch); one hand holds the right END of the box (fingers around the end panel, thumb on the right edge, print uncovered), holding it just above the open bin, print facing the camera.",
+     "motion": "The hand lowers the box into the bin so it stands at the front, print facing the camera, then the hand leaves the frame. Slow push-in.",
+     "powder": false
     }
    ]
   }
