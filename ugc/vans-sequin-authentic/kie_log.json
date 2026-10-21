@@ -1810,5 +1810,385 @@
   "t": "2026-10-21 02:16:46",
   "submitted": "e04c69aec16006f3f0fb5ab20ec89109",
   "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:17:26",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hands pull the laces snug and tie a neat bow; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548930556-lmnjnod2uii.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9afcc50570c76839cadeb9b7fab3f616",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549043774-jd0dopolqw.mp4"
+   ]
+  },
+  "costTime": 111
+ },
+ {
+  "t": "2026-10-21 02:17:29",
+  "submitted": "8bd93a68bf450ca7ca1f1e217b6da1b9",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:17:32",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her bare foot slides down into the shoe and settles in; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548930641-5g1gy0np35w.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "ecdf13c9a0e5a360c8ba7f058d3993df",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549047025-ghinoubd25m.mp4"
+   ]
+  },
+  "costTime": 114
+ },
+ {
+  "t": "2026-10-21 02:17:35",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hands pull the ribbon loose and lift the box lid away; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548959087-dovvdn9v8g4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "cda30066b08685e9d1639c9bbe72ebd1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549054061-gh2yq625ei.mp4"
+   ]
+  },
+  "costTime": 94
+ },
+ {
+  "t": "2026-10-21 02:17:36",
+  "submitted": "9aa82f792d1003c5201e8f04ea20430d",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:17:38",
+  "submitted": "4cfc825b786b3f0a90394bc9c258499e",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then s"
+ },
+ {
+  "t": "2026-10-21 02:17:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then the camera arcs slowly a little around her feet; she shifts her weight. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548909071-ekuaojr2s7d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "2c74bd58666c13a92c7f168ce196504c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549057987-rij8ypdskyn.mp4"
+   ]
+  },
+  "costTime": 148
+ },
+ {
+  "t": "2026-10-21 02:17:45",
+  "submitted": "b6ec2159e492c0860bfead2f8e5c5367",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then t"
+ },
+ {
+  "t": "2026-10-21 02:17:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand turns the shoe from the heel view to its side profile, sequins sparkle in the window light; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548800877-ygfcwaqdih.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "b947ff90aad654cbcac70e415fa1f011",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549067856-81s0gnefam9.mp4"
+   ]
+  },
+  "costTime": 137
+ },
+ {
+  "t": "2026-10-21 02:17:52",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then the camera tilts slowly down toward her feet; her bare toes flex once; nothing else moves. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548930598-0jhx0dasqjye.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5049bcbf4246489f508758ee00378a87",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549068484-rl66fyn5wm.mp4"
+   ]
+  },
+  "costTime": 137
+ },
+ {
+  "t": "2026-10-21 02:18:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then she shifts her weight from one foot to the other; the camera slowly pulls back. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548956804-8a1zy7pi8xc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "b3902cab14b3647707e888477982ec7b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549115398-ptff1ciaj3n.mp4"
+   ]
+  },
+  "costTime": 157
+ },
+ {
+  "t": "2026-10-21 02:18:46",
+  "submitted": "4a32c85fe68bc324da9e423ac0ec0810",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then h"
+ },
+ {
+  "t": "2026-10-21 02:19:05",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hands fold the tissue open and the pair of sequin Vans is inside, side by side, sparkling in the window light; the camera pushes in slightly. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549003080-7u59d1iw50d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "e04c69aec16006f3f0fb5ab20ec89109",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549138900-f3w19471y9i.mp4"
+   ]
+  },
+  "costTime": 138
+ },
+ {
+  "t": "2026-10-21 02:19:13",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then she swings her feet a little; the camera pushes in on the shoes. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549056737-5kigvalxzae.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "4cfc825b786b3f0a90394bc9c258499e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549146898-6h5mkxzebcs.mp4"
+   ]
+  },
+  "costTime": 89
+ },
+ {
+  "t": "2026-10-21 02:19:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand turns the shoe from the sole back over to the sequin top; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549053790-byona8zkmd8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9aa82f792d1003c5201e8f04ea20430d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549171018-l7ha1kfmvtj.mp4"
+   ]
+  },
+  "costTime": 116
+ },
+ {
+  "t": "2026-10-21 02:19:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then the camera slowly pushes down toward the shoes; light sparkles on the sequins and the disco ball; nothing moves. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549063818-a80ap64qc7b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "b6ec2159e492c0860bfead2f8e5c5367",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549180570-175hxi4lqcni.mp4"
+   ]
+  },
+  "costTime": 116
+ },
+ {
+  "t": "2026-10-21 02:20:02",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her feet tap together; the camera tilts down slowly toward the shoes. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549048124-dtxvabvar24.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "8bd93a68bf450ca7ca1f1e217b6da1b9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549197085-c4pyb5krf47.mp4"
+   ]
+  },
+  "costTime": 148
+ },
+ {
+  "t": "2026-10-21 02:20:40",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then her hand lowers the shoe into the gift bag next to the tissue; the camera stays still. The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, black collar binding, black laces, marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549124032-81umbk0zb6x.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546060131-ng5bpuy0sl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "4a32c85fe68bc324da9e423ac0ec0810",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549238058-8oun3h48msr.mp4"
+   ]
+  },
+  "costTime": 111
+ },
+ {
+  "t": "2026-10-21 02:26:09",
+  "submitted": "ffe34c343639db94a3114ecbdcb048ee",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:28:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand keeps exactly the same grip on the shoe's collar for the whole clip and slowly tilts the shoe about 30 degrees toward the camera, so the side of the shoe and the sequins catch the sunlight; the shoe never flips, never turns upside down and never changes hands; her fingers never move to a new position; the camera stays still and her feet stay still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547802032-hjnwo0s3as.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "ffe34c343639db94a3114ecbdcb048ee",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792549708798-67w8l309w1f.mp4"
+   ]
+  },
+  "costTime": 141
  }
 ]

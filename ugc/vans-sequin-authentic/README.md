@@ -5,7 +5,7 @@ real ref https://www.tiktok.com/t/ZPLAYRQEp) + 2 unboxing / "perfect present" vi
 reference sheet from the product images. Route: ugc-product-ad hands-only, no pasted labels (Gemini 3 Pro stills + product sheet, Seedance 2.0 Mini
 reference mode for hand clips, Kling 3.0 for hand-free if it wins a one-clip test). Rules: grace/PLAYBOOK.md.
 
-Status: Round 2 TEST CLIP V1S1 on the review page 2026-10-21; Ralph watching it before the 26-clip batch ($4.80). Blue ring stays on her finger (Ralph). Redos V2S2 V8S1 V9S2(x2) V1S2 + strap edits done. Spent Kie $3.445 (plan $7.73; with batch $8.24 incl. approved redos). cut.py ready (music-only, silent track, capped finish).
+Status: Round 3 FIXED TEST CLIP V1S1 r1 (full LGXNDS method: real VANS tab close-up as ref 2, one grip) on the review page; asking Ralph to redo 13 batch clips with pale/blue tabs or jumps ($2.38). All 27 clips exist (old method). Kie spent ~$9.35 (46 images $4.14 + 127 s clips $5.21). Kie auto-refills.
 Kie balance $0.93, Kling 248 credits (checked 2026-10-21). Quote: A $5.06 Kie + ~480 Kling credits / B $7.73 Kie. Gate: GATE OK.
 Review page: https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH
 
