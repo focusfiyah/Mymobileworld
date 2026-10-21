@@ -162,7 +162,7 @@ URL and Seedance rendered a $2.87 clip from a rejected frame. Key the cache on p
 
 ### In Cowork or on another machine
 
-The local toolchain (`C:\dev\OpenMontage`, keys in its `.env` and in
-`~/.claude.json`) may not be reachable. Check before assuming. The bundled
+OpenMontage lives at `/home/user/OpenMontage` in cloud sessions (Google key injected; see
+spokesperson-recipe-and-tools.md "Where the tools live"); on a PC at `C:\dev\OpenMontage`. Test before assuming. The bundled
 `scripts/` are the working reference: adapt their paths, and ask Ralph for the Kie
 and Google keys or a connector rather than guessing.
