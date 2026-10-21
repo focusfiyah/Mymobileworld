@@ -7,11 +7,11 @@ from pathlib import Path
 EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, no product change inside a window)
  "V1": [("V1S1", 0, 3.2), ("V1S2", 0, 4.0)],
  "V2": [("V2S1", 0, 3.6), ("V2S2", 1.5, 5.0)],
- "V3": [("V3S1", 0, 5.0), ("V3S2", 0, 4.0)],
- "V4": [("V4S1", 0, 3.5), ("V4S2", 0, 5.0)],
- "V5": [("V5S1", 1.3, 4.0), ("V5S2", 0, 0.9), ("V5S3", 0.8, 4.2), ("V5S4", 0, 3.6)],
+ "V3": [("V3S1", 0, 5.0), ("V3S2", 0, 2.3)],   # r4: cut before the fast flip to the sole
+ "V4": [("V4S2", 0, 2.875), ("V4S1", 0, 4.0), ("V4S2", 3.5, 4.8)],   # r4 redo: V4S2 pops at 2.917 s (frame 70), dolly between the two clean holds
+ "V5": [("V5S1", 1.6, 4.0), ("V5S3", 0.8, 4.2), ("V5S4", 0, 3.6)],   # Ralph r4: the sole cut read as a flip
  "V6": [("V6S1", 0, 4.6), ("V6S2", 0, 4.0), ("V6S3", 0, 4.6)],
- "V7": [("V7S1", 0, 4.0), ("V7S2", 1.2, 4.0), ("V7S3", 0, 4.8)],
+ "V7": [("V7S2", 1.2, 4.0), ("V7S3", 0, 4.8)],   # Ralph r4: V7S1 walked in place
  "V8": [("V8S1", 0, 5.0), ("V8S2", 0, 4.0), ("V8S3", 0, 4.6)],
  "V9": [("V9S1", 0, 1.4), ("V9S1", 2.6, 3.4), ("V9S2", 0.9, 4.8), ("V9S3", 0, 4.0)],
  "V10": [("V10S1", 0, 4.6), ("V10S2", 0, 4.0), ("V10S3", 0, 2.5)],
