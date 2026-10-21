@@ -22,6 +22,7 @@ MAIN = list(SHOTS)
 HAND = J["hand_refs"]  # Grace's hands with the birthstone ring (ThunderFit stills) + real ring packshot
 TUB = J["tub_refs"]    # product lock (Ralph 2026-10-19): real-photo product sheet + real front 3/4 cut-out
 LOOK = "stills/look_ref.png"  # copy of the approved test still (S8): room, light, hand, rings
+ROOM = ["stills/S5.png", "stills/S11.png"]  # approved round-1 frames: the same rectangular built-in bathtub + tiles (room lock)
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json"); CACHE = Path("upload_cache.json"); _LOCK = threading.Lock()
@@ -91,7 +92,9 @@ def one_still(sid):
     note = " Reference images: " + ("the hand photos (skin, nails, the two rings; ignore their backgrounds), " if s["hand"] else "") + \
            ("the Shnuggle product reference sheet and the real front 3/4 photo (copy the tub exactly from these), " if s["tub"] else "")
     if Path(LOOK).exists() and sid != "S8":
-        refs.append(upload(LOOK)); note += "and the last image, an approved frame from this same video: match its bathroom, tiles, light" + (", hand and rings" if s["hand"] else "") + " exactly, but follow this prompt for framing and for what is in the shot."
+        room = [p for p in ROOM if Path(p).exists() and not p.endswith(f"/{sid}.png")]
+        refs += [upload(LOOK)] + [upload(p) for p in room]
+        note += f"and the last {1 + len(room)} images, approved frames from this same video: match their bathroom (the same rectangular built-in bathtub with a white front panel, the same tiles), light" + (", hand and rings" if s["hand"] else "") + " exactly, but follow this prompt for framing and for what is in the shot."
     prompt = f"Vertical 9:16 photo, a single frame from a phone-shot UGC video. {text(sid)}{note}"
     url = run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": refs, "aspect_ratio": "9:16", "resolution": "1K"}})
     if url: fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
