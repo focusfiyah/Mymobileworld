@@ -2297,5 +2297,595 @@
    ]
   },
   "costTime": 114
+ },
+ {
+  "t": "2026-10-20 20:20:17",
+  "submitted": "de7036e71fa78c17740a82cf1680e27c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out th"
+ },
+ {
+  "t": "2026-10-20 20:21:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out through the windshield at a dark two-lane country road with a yellow center line. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples unfolded, lenses facing the road, filling the lower third of the frame. An oncoming car is far down the road with bright white LED headlights, starting to glare through the windshield. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a sedan on a city street at night, cool blue dashboard glow, oncoming headlights and streetlights through the windshield, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "de7036e71fa78c17740a82cf1680e27c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/de7036e71fa78c17740a82cf1680e27c_0_1792527659.jpeg"
+   ]
+  },
+  "costTime": 43
+ },
+ {
+  "t": "2026-10-20 20:21:08",
+  "submitted": "f6b336f4b8de6dc4ddde60397329f137",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bo"
+ },
+ {
+  "t": "2026-10-20 20:21:59",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bottom frame edge, pinching the side arm of the open deep blue night driving glasses held up in front of the dashboard, car interior at night. A pair of ordinary thin black metal prescription glasses with clear lenses sits nested INSIDE the larger deep blue frame, directly behind its yellow lenses: the smaller black frame is fully enclosed and clearly visible through the yellow lenses, its thin arms running alongside inside the blue arms, so it plainly shows the blue pair fits over regular glasses. Both pairs sharp, product centered well inside the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a sedan on a city street at night, cool blue dashboard glow, oncoming headlights and streetlights through the windshield, real phone camera look, sharp focus, shallow depth of field, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527664223-qblzn3pldt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f6b336f4b8de6dc4ddde60397329f137",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f6b336f4b8de6dc4ddde60397329f137_0_1792527714.jpeg"
+   ]
+  },
+  "costTime": 46
+ },
+ {
+  "t": "2026-10-20 20:22:54",
+  "submitted": "5159cfe2ca2eaadfd0ddaf961a4fcab1",
+  "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; "
+ },
+ {
+  "t": "2026-10-20 20:22:54",
+  "submitted": "a627024950b76d3e91d72e3b22608c0e",
+  "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starbur"
+ },
+ {
+  "t": "2026-10-20 20:24:29",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starburst rays spread across the windshield until the glare washes the whole frame almost pure white for a moment, then the car passes and the scene returns. The glasses stay exactly in place and the same size the whole time. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527769135-i8uiwb6r04k.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a627024950b76d3e91d72e3b22608c0e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792527863973-dj7t9c7c75m.mp4"
+   ]
+  },
+  "costTime": 90
+ },
+ {
+  "t": "2026-10-20 20:24:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; both frames keep their exact shape and size, the black glasses stay inside the blue pair; soft passing lights glide across the yellow lenses. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527771905-pzusm5w9ve.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5159cfe2ca2eaadfd0ddaf961a4fcab1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792527879735-n13n2f9v5ae.mp4"
+   ]
+  },
+  "costTime": 105
+ },
+ {
+  "t": "2026-10-20 20:26:08",
+  "submitted": "b273c5f13467f98b6716e0850df3cd3e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out th"
+ },
+ {
+  "t": "2026-10-20 20:26:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out through the windshield at a rainy suburban street, wet asphalt reflecting lights. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples unfolded, lenses facing the road, filling the lower third of the frame. An oncoming car is far down the road with bright white LED headlights, starting to glare through the windshield. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a compact car on a wet rainy night, beige cloth seats, warm dashboard light, rain on the windshield, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "b273c5f13467f98b6716e0850df3cd3e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/b273c5f13467f98b6716e0850df3cd3e_0_1792528008.jpeg"
+   ]
+  },
+  "costTime": 41
+ },
+ {
+  "t": "2026-10-20 20:26:55",
+  "submitted": "71994e2edc6a9fe9801f48df3d73ff38",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out th"
+ },
+ {
+  "t": "2026-10-20 20:27:39",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out through the windshield at a wide highway with a concrete divider. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples unfolded, lenses facing the road, filling the lower third of the frame. An oncoming car is far down the road with bright white LED headlights, starting to glare through the windshield. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "71994e2edc6a9fe9801f48df3d73ff38",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/71994e2edc6a9fe9801f48df3d73ff38_0_1792528057.jpeg"
+   ]
+  },
+  "costTime": 43
+ },
+ {
+  "t": "2026-10-20 20:27:42",
+  "submitted": "175d2f68c852681440808b8bf0986503",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out th"
+ },
+ {
+  "t": "2026-10-20 20:28:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out through the windshield at a quiet residential street at dusk turning to night, streetlights on. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples unfolded, lenses facing the road, filling the lower third of the frame. An oncoming car is far down the road with bright white LED headlights, starting to glare through the windshield. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a family car at dusk on a suburban road, warm amber light fading to deep blue, first street lamps on, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "175d2f68c852681440808b8bf0986503",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/175d2f68c852681440808b8bf0986503_0_1792528115.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-10-20 20:28:41",
+  "submitted": "639a4a4b2e88adf1a0e295ebc31b95e5",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out th"
+ },
+ {
+  "t": "2026-10-20 20:29:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low camera on the car dashboard at night looking out through the windshield at a city avenue at night with blurred shop lights. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples unfolded, lenses facing the road, filling the lower third of the frame. An oncoming car is far down the road with bright white LED headlights, starting to glare through the windshield. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a car on a rainy downtown street at night, cool magenta and teal city light, wet windshield with bokeh, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "639a4a4b2e88adf1a0e295ebc31b95e5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/639a4a4b2e88adf1a0e295ebc31b95e5_0_1792528158.jpeg"
+   ]
+  },
+  "costTime": 36
+ },
+ {
+  "t": "2026-10-20 20:29:23",
+  "submitted": "53c35ab0dfd8ddc866cccd8becfcf01e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bo"
+ },
+ {
+  "t": "2026-10-20 20:30:13",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bottom frame edge, pinching the side arm of the open deep blue night driving glasses held beside the steering wheel, car interior at night. A pair of ordinary thin black metal prescription glasses with clear lenses sits nested INSIDE the larger deep blue frame, directly behind its yellow lenses: the smaller black frame is fully enclosed and clearly visible through the yellow lenses, its thin arms running alongside inside the blue arms, so it plainly shows the blue pair fits over regular glasses. Both pairs sharp, product centered well inside the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a compact car on a wet rainy night, beige cloth seats, warm dashboard light, rain on the windshield, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527664223-qblzn3pldt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "53c35ab0dfd8ddc866cccd8becfcf01e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/53c35ab0dfd8ddc866cccd8becfcf01e_0_1792528209.jpeg"
+   ]
+  },
+  "costTime": 47
+ },
+ {
+  "t": "2026-10-20 20:30:17",
+  "submitted": "8a7fd9a30161c9a1339fd270a2a42e37",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bo"
+ },
+ {
+  "t": "2026-10-20 20:31:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bottom frame edge, pinching the side arm of the open deep blue night driving glasses held just above the center console, car interior at night. A pair of ordinary thin black metal prescription glasses with clear lenses sits nested INSIDE the larger deep blue frame, directly behind its yellow lenses: the smaller black frame is fully enclosed and clearly visible through the yellow lenses, its thin arms running alongside inside the blue arms, so it plainly shows the blue pair fits over regular glasses. Both pairs sharp, product centered well inside the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a black-interior SUV on a highway at night, neutral clean daylight-bright dashboard, oncoming highway headlights, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527664223-qblzn3pldt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8a7fd9a30161c9a1339fd270a2a42e37",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/8a7fd9a30161c9a1339fd270a2a42e37_0_1792528266.jpeg"
+   ]
+  },
+  "costTime": 49
+ },
+ {
+  "t": "2026-10-20 20:31:11",
+  "submitted": "40d69e568ad40873d58d38f90829c075",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bo"
+ },
+ {
+  "t": "2026-10-20 20:32:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bottom frame edge, pinching the side arm of the open deep blue night driving glasses held in front of the passenger seat, car interior at night. A pair of ordinary thin black metal prescription glasses with clear lenses sits nested INSIDE the larger deep blue frame, directly behind its yellow lenses: the smaller black frame is fully enclosed and clearly visible through the yellow lenses, its thin arms running alongside inside the blue arms, so it plainly shows the blue pair fits over regular glasses. Both pairs sharp, product centered well inside the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a family car at dusk on a suburban road, warm amber light fading to deep blue, first street lamps on, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527664223-qblzn3pldt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "40d69e568ad40873d58d38f90829c075",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/40d69e568ad40873d58d38f90829c075_0_1792528320.jpeg"
+   ]
+  },
+  "costTime": 49
+ },
+ {
+  "t": "2026-10-20 20:32:05",
+  "submitted": "501cc290c22b2f7d9dd456f39490d6e3",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bo"
+ },
+ {
+  "t": "2026-10-20 20:32:56",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand, whole wrist visible, entering from the bottom frame edge, pinching the side arm of the open deep blue night driving glasses held near the side window, car interior at night. A pair of ordinary thin black metal prescription glasses with clear lenses sits nested INSIDE the larger deep blue frame, directly behind its yellow lenses: the smaller black frame is fully enclosed and clearly visible through the yellow lenses, its thin arms running alongside inside the blue arms, so it plainly shows the blue pair fits over regular glasses. Both pairs sharp, product centered well inside the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a car on a rainy downtown street at night, cool magenta and teal city light, wet windshield with bokeh, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527664223-qblzn3pldt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "501cc290c22b2f7d9dd456f39490d6e3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/501cc290c22b2f7d9dd456f39490d6e3_0_1792528373.jpeg"
+   ]
+  },
+  "costTime": 48
+ },
+ {
+  "t": "2026-10-20 20:34:11",
+  "submitted": "7aa1ffe444a88a7fbd3807d50172e606",
+  "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starbur"
+ },
+ {
+  "t": "2026-10-20 20:34:11",
+  "submitted": "ff63a3fc64d73f1b133990dceacd51c6",
+  "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starbur"
+ },
+ {
+  "t": "2026-10-20 20:34:12",
+  "submitted": "02985b1145d64a86c01f1df1b37883b0",
+  "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; "
+ },
+ {
+  "t": "2026-10-20 20:34:12",
+  "submitted": "4769d295fcf3168a4a3b77fd4ce45eb8",
+  "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starbur"
+ },
+ {
+  "t": "2026-10-20 20:34:12",
+  "submitted": "ddfc2391e36082b86816afef6729d6ce",
+  "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; "
+ },
+ {
+  "t": "2026-10-20 20:34:12",
+  "submitted": "a1ea313b9f9f36eccc1d86a723475990",
+  "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; "
+ },
+ {
+  "t": "2026-10-20 20:35:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; both frames keep their exact shape and size, the black glasses stay inside the blue pair; soft passing lights glide across the yellow lenses. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792528446569-u4lx7ktkkl.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ddfc2391e36082b86816afef6729d6ce",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792528527456-rslwp746rsl.mp4"
+   ]
+  },
+  "costTime": 76
+ },
+ {
+  "t": "2026-10-20 20:35:52",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starburst rays spread across the windshield until the glare washes the whole frame almost pure white for a moment, then the car passes and the scene returns. The glasses stay exactly in place and the same size the whole time. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792528435303-lzxh8yhfpy9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ff63a3fc64d73f1b133990dceacd51c6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792528551361-kcvpt6nbzk.mp4"
+   ]
+  },
+  "costTime": 100
+ },
+ {
+  "t": "2026-10-20 20:35:53",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starburst rays spread across the windshield until the glare washes the whole frame almost pure white for a moment, then the car passes and the scene returns. The glasses stay exactly in place and the same size the whole time. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792528441956-jjnmcb2j2j.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "4769d295fcf3168a4a3b77fd4ce45eb8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792528551143-9xxr893cdc7.mp4"
+   ]
+  },
+  "costTime": 99
+ },
+ {
+  "t": "2026-10-20 20:36:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starburst rays spread across the windshield until the glare washes the whole frame almost pure white for a moment, then the car passes and the scene returns. The glasses stay exactly in place and the same size the whole time. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792528438658-i4pit484z4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "7aa1ffe444a88a7fbd3807d50172e606",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792528571833-3hymdj1bzb8.mp4"
+   ]
+  },
+  "costTime": 121
+ },
+ {
+  "t": "2026-10-20 20:36:18",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; both frames keep their exact shape and size, the black glasses stay inside the blue pair; soft passing lights glide across the yellow lenses. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792528448846-5zrntaxqwok.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "02985b1145d64a86c01f1df1b37883b0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792528575854-hzudg6mkii8.mp4"
+   ]
+  },
+  "costTime": 125
+ },
+ {
+  "t": "2026-10-20 20:36:25",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; both frames keep their exact shape and size, the black glasses stay inside the blue pair; soft passing lights glide across the yellow lenses. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792528444247-86paj5pacdd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a1ea313b9f9f36eccc1d86a723475990",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792528583636-15tlypbug9c.mp4"
+   ]
+  },
+  "costTime": 133
+ },
+ {
+  "t": "2026-10-20 21:34:30",
+  "submitted": "fc5cac8223137f566cce65108d67bacf",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Camera sits low on top of the car dashboard right behin"
+ },
+ {
+  "t": "2026-10-20 21:35:08",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Camera sits low on top of the car dashboard right behind the windshield, looking straight forward out through the windshield at a rainy suburban street at night, wet asphalt reflecting lights. Only the dashboard top and the windshield are in frame: no seats, no headrests, no car interior behind the camera. In the sharp foreground the deep blue night driving glasses sit open on the dashboard, temples folded neatly behind them, front lenses facing the camera, filling the lower third of the frame. An oncoming car far down the road has bright white LED headlights starting to glare through the rain-dotted windshield. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a compact car on a wet rainy night, beige cloth seats, warm dashboard light, rain on the windshield, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "fc5cac8223137f566cce65108d67bacf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/fc5cac8223137f566cce65108d67bacf_0_1792532106.jpeg"
+   ]
+  },
+  "costTime": 37
+ },
+ {
+  "t": "2026-10-20 21:35:12",
+  "submitted": "47acf5f20e88893cca89c7a54af45ea5",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Front view, the glasses face the camera straight on. Gr"
+ },
+ {
+  "t": "2026-10-20 21:36:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Front view, the glasses face the camera straight on. Grace's hand, whole wrist visible, entering from the bottom frame edge, pinches the bridge of the open deep blue night driving glasses, held up in front of the steering wheel, car interior at night with rain on the windshield behind. A pair of ordinary thin black metal prescription glasses with clear lenses sits nested INSIDE the larger deep blue frame, directly behind its pale yellow lenses: the smaller black frame is fully enclosed and clearly visible through both yellow lenses, its thin arms running alongside inside the blue arms, so it plainly shows the blue pair fits over regular glasses. Both pairs sharp, product centered well inside the frame. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Inside a compact car on a wet rainy night, beige cloth seats, warm dashboard light, rain on the windshield, real phone camera look, sharp focus, no text, no logos, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527664223-qblzn3pldt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527608610-t5j0wor6x6m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792527612368-n14zu1daz3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "47acf5f20e88893cca89c7a54af45ea5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/47acf5f20e88893cca89c7a54af45ea5_0_1792532202.jpeg"
+   ]
+  },
+  "costTime": 91
+ },
+ {
+  "t": "2026-10-20 21:37:43",
+  "submitted": "ef599187709cd9656989181648ac3725",
+  "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; "
+ },
+ {
+  "t": "2026-10-20 21:37:43",
+  "submitted": "db6ecb5765a3f4e72b5460d141deb0d8",
+  "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starbur"
+ },
+ {
+  "t": "2026-10-20 21:39:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera. The oncoming car drives toward the camera; its white LED headlights grow brighter and bigger, starburst rays spread across the windshield until the glare washes the whole frame almost pure white for a moment, then the car passes and the scene returns. The glasses stay exactly in place and the same size the whole time. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792532256875-lbs32qeqve.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "db6ecb5765a3f4e72b5460d141deb0d8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792532372429-bq7wx7i6qq4.mp4"
+   ]
+  },
+  "costTime": 110
+ },
+ {
+  "t": "2026-10-20 21:39:49",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Locked-off camera, no push-in. The hand holds the nested glasses steady and tilts them very slightly toward the camera; both frames keep their exact shape and size, the black glasses stay inside the blue pair; soft passing lights glide across the yellow lenses. The hand is Grace's real hand from the hand reference sheet: warm brown skin, square medium-length nails painted pink with crisp white French tips, a gold watch-style band and a thin gold chain bracelet with pearls and a small gold leaf charm on the same wrist, her silver crown-style engagement ring on the ring finger. One hand only, entering from the frame edge with the whole wrist visible, natural relaxed fingers, five fingers, realistic knuckles and skin texture. No blue ring. The night driving glasses are the real pair from the glasses reference photos: a wide fit-over wraparound frame in glossy translucent deep teal-blue, darker navy along the top fading to near-clear teal at the bottom rim, two large rectangular pale yellow lenses, a small D-shaped pale yellow lens window in each side of the frame, a short white slanted slit mark on each thick temple arm, matte black rubber temple tips, no logo on the front. Keep the exact shape, colours and proportions; one pair only. Handheld phone camera, smooth natural motion, real speed, the hand and the glasses keep their exact shape and colour in every frame, no flicker, no morphing, no extra fingers, no text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/night-driving-glasses/1792532259738-3c4x50yzy9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ef599187709cd9656989181648ac3725",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792532384600-dcj2kpa9fq.mp4"
+   ]
+  },
+  "costTime": 122
  }
 ]
