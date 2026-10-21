@@ -6,9 +6,12 @@ last word so the video ends on a visual beat."""
 import json, subprocess, sys
 from pathlib import Path
 W = json.load(open("vo/windows.json")); TAIL = 0.6
-OFFSET = {}   # per-shot start inside its clip (s), set after QC if a clip's best window is later
+OFFSET = {"V1S8": 2.5, "V1S9": 1.5}   # per-shot start inside its clip (s): S8 starts after the edit's stray hand has left (gone at 2.47 s); S9 from 1.5 s so it ends with the box set in the bin
+SHIFT = {"V1S7": 0.3}    # move this shot's end cut later (s) so the next, offset clip still fits in its 5 s
 Path("out").mkdir(exist_ok=True); Path("tmp").mkdir(exist_ok=True)
 prev, parts = 0.0, []
+for w in W:
+    if w["id"] in SHIFT: w["cut"] = round(w["cut"] + SHIFT[w["id"]], 3)
 for k, w in enumerate(W):
     d = w["cut"] - prev + (TAIL if k == len(W) - 1 else 0); prev = w["cut"]
     o = f"tmp/{w['id']}.mp4"; parts.append(o)

@@ -65,6 +65,12 @@ def edit(sid):
     import shutil
     Path("stills/v1_round2").mkdir(exist_ok=True); src = f"stills/v1_round2/{sid}.png"
     if not Path(src).exists(): shutil.copy(f"stills/{sid}.png", src)
+    if sid in REMOVE:   # the shot must not show the product at all: just take the stray item out
+        url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": "Edit image 1. Change ONLY this: " + REMOVE[sid] + " Keep everything else "
+                            "pixel-identical: shelf, cans, water, flashlights, batteries, light, framing. No text added anywhere.",
+                            "image_input": [kie.upload(src)], "aspect_ratio": "9:16", "resolution": "1K"}})
+        if url: kie.fetch(url, f"stills/{sid}.png"); print("edit", sid, "ok", flush=True)
+        return
     prompt = ("Edit image 1. Change ONLY the box: replace it with the exact real box from image 2 (tight crop of the real front) and image 3 "
               "(reference sheet), same size, position and angle as the box in image 1, the hand keeps exactly the same grip. "
               + B["box_block"] + " " + EDIT_EXTRA.get(sid, "") +
@@ -75,6 +81,7 @@ def edit(sid):
 
 
 EDIT_EXTRA = {}
+REMOVE = {"V1S3": "remove the small brown cardboard box with 'Cleanwaste' printed on it from the right end of the white shelf, and show plain empty white shelf surface where it stood (the shelf's front edge continues straight)."}
 if __name__ == "__main__" and sys.argv[1] == "edit":
     for i in sys.argv[2:]: edit(i)
 
