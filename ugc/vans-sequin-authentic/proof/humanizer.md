@@ -6,3 +6,4 @@ Tells found in draft 1 and fixed:
 - "the label says"/"reviewer" checked: none. No dashes, no "obsessed", no "game changer", no "you need this".
 Hook lines are left word for word (library rule). Each line read aloud: short, plain, Grace talking to friends. Remaining pattern: none found.
 - 2026-10-21 update: V10 hook fill 'my sister' confirmed true for Grace (Ralph); line unchanged, re-read aloud, no new tells.
+- 2026-10-21 V11 (night flash): optional line "I save these specifically for nights out. Turn the flash on and watch the black squares. It's in the orange cart." (H052 word for word + blank "nights out") and caption "Took these out at night with the flash on 🖤". Checked: no contrast staging, no triad, no dash, no "the label says"/"reviewer", no hype words, no personal claim beyond what the video shows. Read aloud: plain, short. No tells found.
