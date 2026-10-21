@@ -12,3 +12,4 @@
 - 2026-10-19: product-truth lesson from the Shnuggle slideshow test (real dimensions + size anchor, details confirmed by Ralph, free route first, quotes include one redo); details in grace/PLAYBOOK.md §6.
 - 2026-10-20 (Ralph: one Grace voice): skit-ads.md points to Mymobileworld grace/voice/README.md for Grace's clone (the old Seedance clone 3dmag... no longer exists on the account, tested 400); script notes say 'Grace voiceover', not Grace B (deleted).
 - 2026-10-21 (Ralph): product lock on every product: Gemini Omni clips via scripts/omni_clip.py (references/product-lock.md), paste-back last resort, prompt-master on every prompt, monthly budget line (grace/spend.py) and cap guard in grace/gate.py; OpenMontage paths point at the cloud copy (no PC). Why: October Kie spend ~$144, mostly redos after product drift (Vans, Cleanwaste).
+- 2026-10-21 (Ralph): caps per month: none in October 2026, $100/month from November.

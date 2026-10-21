@@ -66,7 +66,7 @@ lessons below are specific to making ads:
   reference named by its tag and the print matched letter for letter (Ralph 2026-10-21: it locks the models to what we
   want). Paste the final prompt into the plan so Ralph sees it before spend.
 - **Budget (Ralph 2026-10-21: "blowing through my budget"):** every plan and every redo question shows
-  `python3 grace/spend.py` (month so far vs his cap) next to the job's quote. At the cap, `grace/gate.py` refuses every
+  `python3 grace/spend.py` (month so far vs his cap: none in October 2026, $100/month from November) next to the job's quote. At the cap, `grace/gate.py` refuses every
   paid runner until Ralph's OK is recorded in `grace/spend.json` over_cap_ok. Spend nothing on a redo Ralph did not ask
   for; offer to let a small flaw go (Vans gift shot) before quoting a fix.
 - **Confirm the real product before the first paid still:** applicator/top, cap, label, size; ask for a real photo
