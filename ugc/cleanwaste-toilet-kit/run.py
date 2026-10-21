@@ -59,7 +59,27 @@ def clip(sid):
     if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
-if __name__ == "__main__":
+def edit(sid):
+    """Edit an existing still (Template J: only the change). Used when the still model invents a box design: keep the frame,
+    swap in the real box. Kie nano-banana-pro, $0.09. Original kept in stills/v1_round2/."""
+    import shutil
+    Path("stills/v1_round2").mkdir(exist_ok=True); src = f"stills/v1_round2/{sid}.png"
+    if not Path(src).exists(): shutil.copy(f"stills/{sid}.png", src)
+    prompt = ("Edit image 1. Change ONLY the box: replace it with the exact real box from image 2 (tight crop of the real front) and image 3 "
+              "(reference sheet), same size, position and angle as the box in image 1, the hand keeps exactly the same grip. "
+              + B["box_block"] + " " + EDIT_EXTRA.get(sid, "") +
+              " Keep everything else in image 1 pixel-identical: room, light, hand, skin, nails, bin and items. No text added anywhere.")
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(src), kie.upload(BOX), kie.upload(SHEET)],
+                                                              "aspect_ratio": "9:16", "resolution": "1K"}})
+    if url: kie.fetch(url, f"stills/{sid}.png"); print("edit", sid, "ok", flush=True)
+
+
+EDIT_EXTRA = {}
+if __name__ == "__main__" and sys.argv[1] == "edit":
+    for i in sys.argv[2:]: edit(i)
+
+
+if __name__ == "__main__" and sys.argv[1] != "edit":
     kind, ids = sys.argv[1], [a for a in sys.argv[2:] if not a.startswith("--")]
     if "--dry" in sys.argv:
         for i in ids: p, n = refs_for(S[i]); print(i, p, "\n", (text(S[i]) + " " + n) if kind == "stills" else S[i]["motion"], "\n")
