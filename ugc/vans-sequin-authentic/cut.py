@@ -5,7 +5,7 @@ EDIT: per video, the clips in order with (in, out) seconds; GRADE: a different b
 import subprocess, sys
 from pathlib import Path
 EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, no product change inside a window)
- "V1": [("V1S1_r1", 0, 3.2), ("V1S2", 0, 4.0)],   # r8: back to round 5 (Ralph: the Kling holds read as still images)
+ "V1": [("V1S1_k", 0, 4.6, {"push": 1.08}), ("V1S2", 0, 4.0)],   # r11: back to the r6 Kling hold Ralph approved (Ralph: the r5 turn "morphs from top of shoe to bottom")
  "V2": [("V2S1", 0, 3.6), ("V2S3", 0, 4.6)],   # r9: Ralph (sparkle, still): new Kling walk off the rug, no held shoe
  "V3": [("V3S3", 0, 4.6), ("V3S4", 0, 4.0)],   # r9: Ralph (still image): new Kling walk + crossed-leg foot bounce, no held shoe
  "V4": [("V4S3", 0, 3.1), ("V4S1", 0, 4.5)],   # r10 (Ralph: "3 shoes on the deck"): V4S1 = old deck still edited to 2 shoes + Kling first-frame dolly
