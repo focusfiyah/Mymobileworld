@@ -1,6 +1,6 @@
 # BodyJ castor roll-on: 4 x 15 s remixes of the selling video (Grace)
 
-Status: 2026-10-20 Grace's 4 scripts received + compared (COMPARE.md); waiting on Ralph: OK to word cuts (only #3 fits 15 s) + who records the voice. $0 spent.
+Status: 2026-10-21 4 x 15s remixes DONE, sent for review: Grace's scripts 2,1,4,3 (Ralph's cuts), ElevenLabs "Grace" voice paced 3.5 w/s, winner's clips remixed (order/zoom/grade per video), QC OK 4/4, gates 10/10. Review page https://claude.ai/code/artifact/6841627a-baca-40c2-bdfd-55d8dc8f53eb; Drive https://drive.google.com/drive/folders/1zDf5VAgV5Hoy5V3v61xl8snCiUN3GG9-. Cost: ElevenLabs 1,143 chars (~$0.19), video $0. Next: Ralph/Grace notes (Grace may re-record the VOs).
 
 ## What Ralph asked (2026-10-20, his words)
 "Use the winning formula. Keep the visuals similar, similar script, change the hook as long as it makes sense. remix

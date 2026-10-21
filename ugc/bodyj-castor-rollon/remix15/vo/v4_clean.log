@@ -1,0 +1,7 @@
+input: rt 200 ms, tail -12.0 dB, 53 words
+seed 0: rt 200 ms, tail -13.6 dB, words CHANGED
+seed 1: rt 200 ms, tail -14.0 dB, words CHANGED
+seed 2: rt 200 ms, tail -13.4 dB, words CHANGED
+WARNING: every try changed a word; keeping the uncleaned input
+kept: rt 200 ms, tail -12.0 dB -> vo/v4_clean.mp3
+WARNING: no try came out drier than the input; listen before using it

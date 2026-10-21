@@ -17,13 +17,17 @@ if not RETIME:
     r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}?output_format=mp3_44100_128", json=body, timeout=300); r.raise_for_status()
     raw.write_bytes(r.content)
 paced, final = H / f"vo/v{N}_paced.mp3", H / f"vo/v{N}.mp3"
-subprocess.run([sys.executable, str(V / "pace.py"), str(raw), str(paced), "--wps", "3.5"], check=True)
-if "--no-clean" not in sys.argv:
-    subprocess.run([sys.executable, str(V / "clean.py"), str(paced), str(final)], check=True)
+if "--words-only" in sys.argv: pass
 else:
+  subprocess.run([sys.executable, str(V / "pace.py"), str(raw), str(paced), "--wps", "3.5"], check=True)
+  if "--no-clean" not in sys.argv:
+    subprocess.run([sys.executable, str(V / "clean.py"), str(paced), str(final)], check=True)
+  else:
     final.write_bytes(paced.read_bytes())
 from faster_whisper import WhisperModel
-segs, _ = WhisperModel("base", device="cpu", compute_type="int8").transcribe(str(final), language="en", word_timestamps=True)
+sys.path.insert(0, str(V)); from echo import load   # PyAV decode breaks here; pass samples like pace.py
+segs, _ = WhisperModel("small", device="cpu", compute_type="int8").transcribe(load(str(final))[0], language="en", word_timestamps=True,
+    initial_prompt="castor oil roll-on, grandmama, Imma do y'all a favor")   # small + prompt: base heard "Caster", "I'm gonna"
 out = [{"text": w.word.strip(), "start": round(w.start, 3), "end": round(w.end, 3)} for s_ in segs for w in s_.words]
 json.dump(out, open(H / f"vo/v{N}_words.json", "w"), indent=1)
 d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(final)], capture_output=True, text=True).stdout)
