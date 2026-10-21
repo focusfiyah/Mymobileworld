@@ -10,7 +10,7 @@ EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, n
  "V3": [("V3S3", 0, 4.6), ("V3S4", 0, 4.0)],   # r9: Ralph (still image): new Kling walk + crossed-leg foot bounce, no held shoe
  "V4": [("V4S3", 0, 3.1), ("V4S1", 0, 4.5)],   # r10 (Ralph: "3 shoes on the deck"): V4S1 = old deck still edited to 2 shoes + Kling first-frame dolly
  "V5": [("V5S1", 2.3, 4.0), ("V5S3", 0.8, 4.2), ("V5S4", 0, 3.6)],   # Ralph r4: the sole cut read as a flip; r10 (Ralph: "jumps from left to right"): start after the toe flip at 2.2 s
- "V6": [("V6S1", 0, 4.6), ("V6S2_r0", 0, 4.0), ("V6S3", 0, 4.6)],   # r8: back to round 5
+ "V6": [("V6S1", 0, 4.6), ("V6S3", 0, 4.6)],   # r12 (Ralph chose the trim): the bench hold V6S2_r0 turns from 0.4 s, too short to keep, so it is dropped
  "V7": [("V7S2", 1.2, 4.0), ("V7S3", 0, 4.8)],   # Ralph r4: V7S1 walked in place
  "V8": [("V8S1", 0, 5.0), ("V8S2", 0, 4.0), ("V8S3", 0, 4.6)],
  "V9": [("V9S1", 0, 1.4), ("V9S1", 2.6, 3.4), ("V9S2", 0.9, 4.8), ("V9S3", 0, 4.0)],
