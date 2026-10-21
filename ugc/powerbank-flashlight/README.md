@@ -5,7 +5,7 @@ sheet for product lock"). Route: `ugc-product-ad` hands-only demo over a voiceov
 stills from the product reference sheet, no pasted labels; hand clips Seedance 2.0 Mini reference mode; hand-free dollies
 Kling 3.0 on Ralph's account). VO ElevenLabs Grace C (loudnorm -16 LUFS). ~37 s, 9:16, 9 shots (4 hand-free).
 
-Status: S4 test still r3 PASSES QC (blue wristband cropped out free; now stills/look_ref.png). Forearm OK + no Kling (Ralph 2026-10-21). Next: 8 stills ($0.72) + S4 test clip ($0.205) on Ralph's OK; Kie balance $2.33 < $2.52 still to spend (another session spent ~$1.08 today), top-up needed before the last clips. Kie spent $0.27 of $2.884. Review https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA
+Status: 9 stills QC done (S6 window neutralized, S9 wristband cropped, free) + S4 test clip passes (no beam spot on the path: lens points camera-side). Next: the other 8 Seedance clips ($1.599) on Ralph's OK. Kie spent $1.195 of $2.884 (exact, from Kie creditsConsumed). Kie balance topped up to $7.33 by Ralph. Review https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA
 Spent $0. Quote: Kie $2.00 (9 stills $0.81 + 5 Seedance clips $0.984 + 1 Seedance-vs-Kling test clip $0.205), Kling ~128
 credits (218 available), ElevenLabs ~600 chars. Drive: not yet (folder "Power Bank Flashlight (Grace)" at delivery).
 
