@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 27 of 58 videos posted since 2026-09-21
+27 videos -> ugc/cleanwaste-toilet-kit/research/tag-prepping/tag-prepping.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  2,700,000  11.5   0.53  121 2026-10-05  @themhoffers: We are ready for the week over here! #themhoffers #themhoffersmealprep
+                                          https://www.tiktok.com/@themhoffers/video/7693021395365776653
+  1,200,000  18.4   5.27  181 2026-09-27  @riospatricia.402: 13 Items Gone From Stores in the First 6 Hours of Grid Collapse _ Prep
+                                          https://www.tiktok.com/@riospatricia.402/video/7690043951054589214
+     46,400  18.4   2.53  152 2026-10-05  @oliviajewelfit: how to start meal prepping 101 :) answering all of your guys’s common 
+                                          https://www.tiktok.com/@oliviajewelfit/video/7693211631324597534
+     15,700  16.9   4.29  572 2026-10-10  @dmoncrea: PrepTok GRID DOWN - Creating a Warm Bubble inside your house. #emergen
+                                          https://www.tiktok.com/@dmoncrea/video/7695177563219578142
+     11,500   8.2   0.86   59 2026-10-21  @wendy_jujubee: I’m trying to do this weekly it’s a lot of work at the moment but supe
+                                          https://www.tiktok.com/@wendy_jujubee/video/7698917715787910430
+     10,100   5.3   0.39  142 2026-10-20  @taylorhinkelman: Had to do this in about 30 minutes, but figured I’d show yall how i pr
+                                          https://www.tiktok.com/@taylorhinkelman/video/7698878509321653517
+      9,575  17.1   0.81   76 2026-10-20  @lisanguyen: Steak and rice prep with a veggie surprise
+                                          https://www.tiktok.com/@lisanguyen/video/7698835840503401742
+      8,956   3.0   1.07 1461 2026-10-16  @ivorylane_uk: Government Says Prepare: Here's How to Do It for Almost Nothing #prepp
+                                          https://www.tiktok.com/@ivorylane_uk/video/7697233637443489046
+      4,079   0.6    0.1   16 2026-10-04  @danielstiktokfinds: Emergency preparedness food supply #emergencypreparedness #preparednes
+                                          https://www.tiktok.com/@danielstiktokfinds/video/7692892182520286495
+      3,542   8.8   1.72   32 2026-10-07  @theindependentprepper: Don't skip hygiene when you're prepping on a budget 🧼 Every single ite
+                                          https://www.tiktok.com/@theindependentprepper/video/7693856069063380255
+      2,417   6.7   0.37   18 2026-10-02  @doomsday.queen: What is your biggest prepping questions? #prepper #prepping #inflation
+                                          https://www.tiktok.com/@doomsday.queen/video/7692155872771853582
+      1,542  12.5    1.3  262 2026-10-08  @preporperish2: Prep your food! Preserve it 
+                                          https://www.tiktok.com/@preporperish2/video/7694279481183325471
+      1,317   6.3   0.91  148 2026-10-19  @shahzadkayaniclips: #prepper #prepping #survival 
+                                          https://www.tiktok.com/@shahzadkayaniclips/video/7698500311580806418
+      1,245  12.9   0.72  121 2026-10-20  @mayawofsywellness: Everything I meal prepped for the week! #nyc #planandprep #mealprep #h
+                                          https://www.tiktok.com/@mayawofsywellness/video/7698788824188603678
+      1,217  11.6   2.71  147 2026-10-15  @ali.manno: Emergency Prep Part 2 🚨 After living through tornado warnings, I reali
+                                          https://www.tiktok.com/@ali.manno/video/7697028265948482847

@@ -1,0 +1,15 @@
+# Cleanwaste Portable Toilet Bags (Grace), 2026-10-21
+
+Status: V1 DONE 2026-10-21, ON HOLD (Ralph: 'leave for now'). Open note: S1 should show the power out (dim room, flashlight ON shining at something); new prompt is in shots.json, redo $0.295 (still + clip) NOT approved, beam target not chosen. Current Drive cut: out/cleanwaste_v1.mp4, 29.6 s, Grace's script word for word, hands only, no text, AI finish. Drive: Grace Tiktok assets/WagBag Final Edits (https://drive.google.com/drive/folders/1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8): CURRENT video 1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7 + CURRENT script doc 1_0x0oMJZ_ltqqm0M2MU2yZuu5xAtnDYrWnSAey809cE. Kie $3.465 = approved total (quote $2.04 + Kling; Ralph: Kie only, +6 still redos, +3 box edits). ElevenLabs ~520 chars, voice 'Grace' Rh3oAQMqRVf78UIVpBoQ (Grace C deleted). Review page https://claude.ai/artifact/AiM9jZAQjFNExfb5A3rK2h. Gates 16/16 (3 manual).
+
+Client brief (Grace, via Ralph 2026-10-21): AI video(s) ~30-35 s, angle "the emergency supply people forget until the toilet stops working", her own script + beginner shot list, preparation not a bathroom emergency. Ralph: use prompt-master for image + video prompts, do everything.
+
+Route: ugc-product-ad hands-only demo over a voiceover (Grace C `P8OUGBCvq8OBS4xlb65A`, loudnorm -16 LUFS). Stills Gemini 3 Pro Image (Kie nano-banana-pro) + `refs/product_sheet.png`; hand clips Seedance 2.0 Mini reference mode (`../lgxnds-creatine/kie2.py --raw --refs` pattern); hand-free clips Kling (Ralph's account). No pasted labels, no text, ai_finish.sh last.
+
+Files: `scripts.md` (V1 Grace verbatim, V2 house version), `shots.json` (prompts, prompt-master rules, HAND/HAND-FREE), `research/` (coach.md, product_facts.md, audience.md, viral board, hooks, line sources, humanizer, readability), `refs/real/` (real photos + SOURCES.md), `make_sheet.py`, `GATES.md`, `REMOVED.md`, `captions.md`, `preview/` (review page).
+
+Product: The Original WAG BAG GO Anywhere Toilet Kit, 12-pack, TikTok Shop 1732304264401162312 (934 sold lifetime, 4.9 stars). Top winner: @mamarashaah 7688935690465316126 (171.3k views, 2.83% saves).
+
+## Build (V1)
+`python3 run.py stills|clips|edit <IDs>` (Kie, gated) -> `python3 vo.py` (voice + STT + windows) -> `python3 cut.py --final`. Free fixes: `patch_stray.py` (S2 crop below the shelf), S8 starts 2.5 s in (edit's stray hand), S9 starts 1.5 s in (ends with the box in the bin), S7 runs 0.3 s longer.
+Lessons: (1) Gemini 3 Pro redrew the box as an invented or older design in 3 of 4 small/angled box shots even with the reference sheet; an EDIT of the still ("change ONLY the box", real crop + sheet as refs) fixed it each time. (2) It adds stray branded props (a kraft "Cleanwaste" box, CLEAN HOME box, Campbell's/Energizer logos): say "every other item plain and unbranded" and "floor empty". (3) Free inpaint/per-row fill fails on an angled shelf; an edit "remove only X" worked. (4) Grace C was deleted from ElevenLabs; current Grace voice id Rh3oAQMqRVf78UIVpBoQ (2026-10-20).
