@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 69 of 161 videos posted since 2026-08-22
+69 videos -> tag_wigbangs/tag-wigwithbangs.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  5,900,000  12.6   0.91    8 2026-09-16  @tatyanna_hkitty: It’s like silkkkk #foryoupage #blackgirl #detroit #layers #syntheticwi
+                                          https://www.tiktok.com/@tatyanna_hkitty/video/7686266009304485133
+    596,500   4.7   0.67   41 2026-10-12  @niaathedollll: I LOVE A BANG WIG 😍😍😍Tap the cart for this look !!!@Fabelle Wig #bangw
+                                          https://www.tiktok.com/@niaathedollll/video/7695875126197374221
+    595,300   2.1   0.31   12 2026-10-07  @ashely9145: Girls! This is our bestseller that so many of you have been asking for
+                                          https://www.tiktok.com/@ashely9145/video/7693788402243751181
+    430,200   2.0   0.31   22 2026-10-06  @g.baby.music: This is from @beibeiwigsstore #wigtok #wiginfluencer #wigswithbangs #h
+                                          https://www.tiktok.com/@g.baby.music/video/7693655687448120590
+    365,200  13.9   2.06   27 2026-10-01  @aniyastylez: Replying to @fifi simple and easy 🫶🏾 now all of the units come with a 
+                                          https://www.tiktok.com/@aniyastylez/video/7691642948198419743
+    254,800   5.7    1.7   18 2026-08-22  @fladyhair_amazon: How to achieve Half up Half down Space Buns w Bang with Flady bob 💋🎀 H
+                                          https://www.tiktok.com/@fladyhair_amazon/video/7676419643736640798
+    166,200  18.8   5.92   49 2026-09-16  @shoing85: How to make natural straight bangs for cosplay wigs | 3-layer thinning
+                                          https://www.tiktok.com/@shoing85/video/7686002553653316878
+    121,200  18.2   0.36   94 2026-10-17  @sortaspookymom: First time in my life ever putting on a wig, I did terrible lol, but a
+                                          https://www.tiktok.com/@sortaspookymom/video/7697439283208015118
+    107,100  16.1   0.44   25 2026-09-03  @theyaoigorl: feeling like elijah wood rn #wig #hair #microbangs #babybangs 
+                                          https://www.tiktok.com/@theyaoigorl/video/7681348898996194590
+     76,800  16.8   2.98   45 2026-09-02  @syddesciencekid: bangsss😱 wig @Cute Bein Hair Shop 
+                                          https://www.tiktok.com/@syddesciencekid/video/7680946673530522910
+     63,600   2.1   0.58    9 2026-10-19  @lunayijin: Strawberry blonde is THE most underrated color 🍓✨ This 24in straight w
+                                          https://www.tiktok.com/@lunayijin/video/7698167625284635934
+     52,200  15.9   2.13   15 2026-09-24  @xohairs: 12” sdd layered fringe bob 🛍️🛍️ #fypシ゚ #layeredwig #hairvendor
+                                          https://www.tiktok.com/@xohairs/video/7689150693315513621
+     51,700  20.1   2.98   87 2026-09-27  @stylinmaru: She’s finally here!! Installing + cutting bangs on my favv Sensationne
+                                          https://www.tiktok.com/@stylinmaru/video/7690349962353216798
+     43,500  16.6   3.08   51 2026-09-29  @stylinmaru: The red wig y’all keep asking me about and a tutorial for the bangs ❤️
+                                          https://www.tiktok.com/@stylinmaru/video/7691088286151953695
+     42,900  22.0   0.61   10 2026-09-13  @shereese_: I don’t need to see NOTHING, but this bang. #shereese #wigtok 
+                                          https://www.tiktok.com/@shereese_/video/7684989957026499854
