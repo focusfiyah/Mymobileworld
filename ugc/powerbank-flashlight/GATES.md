@@ -20,4 +20,5 @@ Ralph 2026-10-21: "Grace need ai video pls ... Prompt Master Skill. Do everythin
   EVIDENCE: automatic-evidence=v1; definition-sha256=05cab2e9c4b41995b9fb3398fc6dc5630bf1be2e2e4ea7e20f5ee2defe17690d; exit=0; EXPECT=matched; output-sha256=8d545cfca588653860c6f8f98dac1f94265f8f7b6c4a972130deacf05cf250b3; output-bytes=7; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/powerbank-flashlight; path=7f4fb4b02918/15 entries
 - [x] G5: review page published with the reference sheet + plan (manual: link in the reply)
   EVIDENCE: manual: https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA published 2026-10-21
-- [ ] G6: Ralph notified by push + email with the plan and the total cost (manual)
+- [x] G6: Ralph notified by push + email with the plan and the total cost (manual)
+  EVIDENCE: manual: Gmail id 1a15f92cc490ea6a sent 2026-10-21 + PushNotification "Mobile push requested."
