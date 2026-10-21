@@ -23,5 +23,5 @@ Job: Grace's own full video (Drive "TrendyQueenDeeoV-Neck.LS.Shirt.MOV", 45.5s),
 - [x] G7: Cuts watched on a contact sheet at every cut point: no mid-gesture jump that reads as a glitch (manual)
 - [x] G8: Review page (Artifact) with the playable cut published, link in the reply (manual)
 - [x] G9: In Drive "Grace Tiktok assets" product folder as "CURRENT - ...", Drive size == local size (manual)
-- [ ] G10: Ralph notified: push + email (manual)
-- [ ] G11: README Status line + REMOVED.md written, committed and pushed on ccr-5affdde5-zcaw2d (manual)
+- [x] G10: Ralph notified: push + email (manual)
+- [x] G11: README Status line + REMOVED.md written, committed and pushed on ccr-5affdde5-zcaw2d (manual)
