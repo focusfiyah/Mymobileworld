@@ -15,7 +15,7 @@ W6 @bekstheshoppingmom 70K ("Sequin checkerboard vans!? Are you kidding!?"). Cho
 | V7 | **H004** This just makes everything feel a little more put together / H067 You either care about this detail or you really do not / H069 Maybe it is just me, but I always notice shoes first | "the shoes did the work" / "outfit, done" / "you notice shoes first too?" | W1 standing pose |
 | V8 | **H023** I needed to know how this looked from the side / H086 This is what I was hoping it would do / H029 The listing did not really show me this part | "how they look on" / "the side view though" / "on foot" | W1 + try-on |
 | V9 | **H055** I already know exactly who would love this / H056 This immediately made me think of my best friend / H129 This is peak "why did this make me so happy?" | "the gift she'll actually wear" / "for the sparkle girl" / "wrap these" | gift CTA (playbook §4), W6 |
-| V10 | **H056** This immediately made me think of my sister [only if true; neutral fill: my best friend] / H059 I know exactly the kind of person who is going to care about this detail / H129 | "for the vans girlie who loves shiny things" / "gift idea: sparkly checkers" / "her list, sorted" | gift CTA, W4 |
+| V10 | **H056** This immediately made me think of my sister (true for Grace, Ralph 2026-10-21) / H059 I know exactly the kind of person who is going to care about this detail / H129 | "for the vans girlie who loves shiny things" / "gift idea: sparkly checkers" / "her list, sorted" | gift CTA, W4 |
 
 No hook id is used twice across the 10 videos (V1 H089, V2 H030, V3 H091, V4 H098, V5 H021, V6 H131, V7 H004, V8 H023, V9 H055, V10 H056).
 H057/H069/H053/H154/H027/H031/H098 blanks filled from the product research. Comparison hooks not used (only our product).
