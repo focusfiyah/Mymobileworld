@@ -40,16 +40,23 @@ def still(sid):
 
 
 def clip(sid):
+    """LGXNDS v5 method in full (Ralph 2026-10-19, restated 2026-10-21 after the V1S1 tab read as a floating sticker):
+    reference mode, refs = 1 the clean still, 2 a close-up of the REAL side VANS tab, 3 the product reference sheet."""
     s = S[sid]
     first = Path(f"stills/{sid}_clean.png"); first = first if first.exists() else Path(f"stills/{sid}.png")
-    refs = [kie.upload(str(first)), kie.upload(SHOE[0]), kie.upload(SHOE[1])]
-    prompt = (f"Recreate reference image 1 exactly (same framing, setting, light, people, jewellery and shoe) as the first frame, then {s['move']}. "
-              "The shoe must match reference image 2 (the real product from every side) and reference image 3 exactly: sequins only on the black squares, "
-              f"black collar binding, black laces, marshmallow sole. {V['video_suffix']}")
+    refs = [kie.upload(str(first)), kie.upload("refs/real_vans_tab.jpg"), kie.upload(SHOE[0])]
+    prompt = (f"Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then {s['move']}. "
+              "The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white "
+              "VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised "
+              "or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, "
+              f"the black laces and the marshmallow sole. {V['video_suffix']}")
     body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": refs, "generate_audio": False,
             "resolution": "720p", "aspect_ratio": "9:16", "duration": s["dur"]}}
     url = kie.run_task(body)
-    if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+    if url:
+        out = Path(f"clips/{sid}.mp4")
+        if out.exists(): out.rename(f"clips/{sid}_r{len(list(Path('clips').glob(sid + '_r*.mp4')))}.mp4")
+        kie.fetch(url, str(out)); print("clip", sid, "ok", flush=True)
 
 
 if __name__ == "__main__" and sys.argv[1] in ("stills", "clips"):
