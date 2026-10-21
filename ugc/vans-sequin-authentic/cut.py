@@ -5,7 +5,7 @@ EDIT: per video, the clips in order with (in, out) seconds; GRADE: a different b
 import subprocess, sys
 from pathlib import Path
 EDIT = {
- "V1": [("V1S1", 0, 5.0), ("V1S2", 0.2, 4.0)],
+ "V1": [("V1S1", 0, 3.2), ("V1S2", 0, 4.0)],
  "V2": [("V2S1", 0, 3.6), ("V2S2", 0, 5.0)],
  "V3": [("V3S1", 0, 5.0), ("V3S2", 0, 4.0)],
  "V4": [("V4S1", 0, 3.5), ("V4S2", 0, 5.0)],
@@ -14,7 +14,7 @@ EDIT = {
  "V7": [("V7S1", 0, 4.0), ("V7S2", 0, 4.0), ("V7S3", 0, 4.8)],
  "V8": [("V8S1", 0, 5.0), ("V8S2", 0, 4.0), ("V8S3", 0, 4.6)],
  "V9": [("V9S1", 0, 5.0), ("V9S2", 0, 5.0), ("V9S3", 0, 4.0)],
- "V10": [("V10S1", 0, 4.6), ("V10S2", 0, 4.0), ("V10S3", 0, 4.6)],
+ "V10": [("V10S1", 0, 4.6), ("V10S2", 0, 4.0), ("V10S3", 0, 2.5)],
 }
 GRADE = {  # all bright and neutral; small differences so no two videos share a look
  "V1": "eq=brightness=0.02:contrast=1.03", "V2": "eq=brightness=0.035:saturation=0.97",
