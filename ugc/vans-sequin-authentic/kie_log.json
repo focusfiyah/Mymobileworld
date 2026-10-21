@@ -2210,5 +2210,375 @@
   "t": "2026-10-21 02:46:42",
   "submitted": "7f6b60137491340b974733fccd066036",
   "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:48:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand tilts the shoe toward the camera, showing the red insole and then the sequins along the side; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792550799784-5sag35z65k9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "7f6b60137491340b974733fccd066036",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792550897080-vds5hmlc1fn.mp4"
+   ]
+  },
+  "costTime": 96
+ },
+ {
+  "t": "2026-10-21 02:48:24",
+  "submitted": "498a7901369945d0631c5f19a51571ff",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:48:33",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand keeps the same grip at the heel the whole clip and turns the shoe slowly a quarter turn, from the heel view to its side profile; her fingers never move to a new position and the shoe never flips; the camera and her feet stay still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548800877-ygfcwaqdih.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "c74528d66e40d8c94124d56dcaf9949e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792550906620-6m5u5ipb9gs.mp4"
+   ]
+  },
+  "costTime": 107
+ },
+ {
+  "t": "2026-10-21 02:48:35",
+  "submitted": "741d24c32d8972f4fe85eaf57a48cec1",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:48:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand keeps the same grip the whole clip and slowly tilts the shoe about 30 degrees toward the camera so the sequins flash in the light; the shoe never flips or turns upside down and her fingers never move to a new position; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792550799810-4rmp8x6duro.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "ae5c282a37b71f2f26d14c3499a21360",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792550924447-viiu404igvn.mp4"
+   ]
+  },
+  "costTime": 124
+ },
+ {
+  "t": "2026-10-21 02:48:50",
+  "submitted": "e01183e883153ae59a115c6cf21b7b76",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:49:13",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then the camera slowly dollies in toward the pair; sunlight glints move across the sequins; the shoes do not move. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792550799846-cgx7oi5h5jt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5342f8b1893efc0e848b4880c072e804",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792550923786-cnyqmjw5hl.mp4"
+   ]
+  },
+  "costTime": 150
+ },
+ {
+  "t": "2026-10-21 02:49:17",
+  "submitted": "fc285a0a8ac45ddcbaa765ab275c31f5",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:50:11",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then one foot pivots on its heel to show the side of the shoe and back; the camera stays low and still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548706675-m6bnrxbs32b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "498a7901369945d0631c5f19a51571ff",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551008136-psc1famjj6h.mp4"
+   ]
+  },
+  "costTime": 104
+ },
+ {
+  "t": "2026-10-21 02:50:13",
+  "submitted": "28c960089019f7db75f6c427bd1e51d9",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:50:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand turns the shoe from the heel view to the side profile; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548891675-cokexcbldhr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "741d24c32d8972f4fe85eaf57a48cec1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551043981-3x7oreas70u.mp4"
+   ]
+  },
+  "costTime": 129
+ },
+ {
+  "t": "2026-10-21 02:50:48",
+  "submitted": "66efe06dd17195f1d1e92d3cbdf59901",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:51:09",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then the camera arcs slowly a little around her feet; she shifts her weight. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548909071-ekuaojr2s7d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "e01183e883153ae59a115c6cf21b7b76",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551066999-303jmjjmzok.mp4"
+   ]
+  },
+  "costTime": 138
+ },
+ {
+  "t": "2026-10-21 02:51:10",
+  "submitted": "6b62f75aeca274ae06438c8f54c54933",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:51:29",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hands pull the laces snug and tie a neat bow; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792550955407-824t8x8fdb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fc285a0a8ac45ddcbaa765ab275c31f5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551084862-8ikspa1p5xb.mp4"
+   ]
+  },
+  "costTime": 129
+ },
+ {
+  "t": "2026-10-21 02:51:30",
+  "submitted": "c72af2abf79d3d0ed7778b776c1df5ab",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:52:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her fingers slowly pull the two ribbon ends so the bow comes undone and the ribbon slides off the box, then both hands lift the lid straight up; the box is plain pastel pink with no logo, print or text anywhere, inside and out; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548959087-dovvdn9v8g4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "66efe06dd17195f1d1e92d3cbdf59901",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551159741-nsdlxyv6v2b.mp4"
+   ]
+  },
+  "costTime": 112
+ },
+ {
+  "t": "2026-10-21 02:52:43",
+  "submitted": "322a97fac4866159e477c2322c12d601",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 02:52:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then she shifts her weight from one foot to the other; the camera slowly pulls back. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792548956804-8a1zy7pi8xc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "28c960089019f7db75f6c427bd1e51d9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551156959-fticc7z3c7o.mp4"
+   ]
+  },
+  "costTime": 145
+ },
+ {
+  "t": "2026-10-21 02:53:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hands fold the tissue open and the pair of sequin Vans is inside, side by side, sparkling in the window light; the camera pushes in slightly. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549003080-7u59d1iw50d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "6b62f75aeca274ae06438c8f54c54933",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551180237-pfxyopgjqsg.mp4"
+   ]
+  },
+  "costTime": 112
+ },
+ {
+  "t": "2026-10-21 02:53:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then she swings her feet a little; the camera pushes in on the shoes. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549056737-5kigvalxzae.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c72af2abf79d3d0ed7778b776c1df5ab",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551189516-d0lyi9vl5u4.mp4"
+   ]
+  },
+  "costTime": 101
+ },
+ {
+  "t": "2026-10-21 02:54:24",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand keeps the same grip at the heel and slowly lowers the shoe straight down into the pink gift bag beside the tissue; the shoe stays upright the whole time and never lies down; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549124032-81umbk0zb6x.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "322a97fac4866159e477c2322c12d601",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792551262788-9kth5orr4g.mp4"
+   ]
+  },
+  "costTime": 100
  }
 ]
