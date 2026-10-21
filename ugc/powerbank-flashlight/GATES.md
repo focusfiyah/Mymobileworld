@@ -6,7 +6,8 @@ Phase 1 ledger (research, script, sheet, plan): all 6 met, see git history.
 - [ ] G1: Ralph's product sheet is the product reference in every product still/clip
   CHECK: python3 -c "import json;j=json.load(open('shots.json'));print('REF_OK' if j['refs']['product']==['refs/front_crop_ralph.png','refs/product_sheet.png'] and 'gunmetal' in j['product_block'] else 'NO')"
   EXPECT: REF_OK
-- [ ] G2: 9 stills exist, S4 test still approved by me at full size before the rest (manual QC: grip, product parts, rings, edges 2x)
+- [x] G2: 9 stills exist, S4 test still approved by me at full size before the rest (manual QC: grip, product parts, rings, edges 2x)
+  EVIDENCE: manual: S4 r3 QC at 2x then 8 stills; contact sheet review/stills_sheet.jpg; S6 + S9 free fixes (2026-10-21)
 - [ ] G3: 9 clips exist (all Seedance, no Kling per Ralph 2026-10-21), every clip QC'd (product unchanged, hand edges 2x, no text)
   CHECK: python3 -c "import pathlib;n=[p for p in ['S1','S2','S3','S4','S5','S6','S7','S8','S9'] if not pathlib.Path(f'clips/{p}.mp4').exists()];print('CLIPS_OK' if not n else 'MISSING '+' '.join(n))"
   EXPECT: CLIPS_OK
