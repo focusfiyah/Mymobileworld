@@ -1,0 +1,7 @@
+# Swyii Red Agate + Moonstone Agate Choker (Grace), 2026-10-21
+Status: DONE ($0), waiting on Ralph's review. 3 voiceover scripts (~29 s each) for Grace's own footage "Moonstone Agate Necklace by Swyii .MOV" (Drive id 1ERADQPCYYxN8qJtHqqQm3tL7TzWnxMuT, 2:33, red necklace, no speech): S1 H099 "just another beaded necklace", S2 H030 layered styling, S3 H132 before Thanksgiving; 2 more library hooks each, no id reused, readability 2.9 / 3.5 / 4.0. Script gate 9 of 9 (viral board ran this time). Every line has a shot window from her clip; each script a different shot order.
+Main model: @baileyduggan 1.1M views / 4,594 saves selling this same product id (research/videos/7545506844098284830).
+Doc: https://claude.ai/artifact/Ackn9R5N4f1RVSkKt3Fh9Q
+Drive: Grace Tiktok assets/"Swyii Agate Necklace (Grace)" https://drive.google.com/drive/folders/1rxeoSCW04tMk3JsTpm8tT0E6vqf8pXsj with "CURRENT - Swyii agate necklace voiceover scripts (2026-10-21)" (Google Doc 1hK8ZT8TN8e5FqXgPZS85VGVRZff2d-G4-vbyCbZwnrM). Grace's footage file is still loose in Grace Tiktok assets (hers; asked Ralph before moving it).
+Next: Ralph/Grace pick a script; Grace records the VO (or Grace C ElevenLabs on Ralph's OK, ~500 chars) and we cut it from her clip.
+Files: scripts.md, spoken/, hooks.md, line_sources.md, product_facts.md, footage_notes.md, humanizer.md, readability_v*.txt, playbook_applied.md, REMOVED.md, checklist.json, GATES.md, research/ (footage itself is gitignored).
