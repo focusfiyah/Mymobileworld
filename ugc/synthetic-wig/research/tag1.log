@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 79 of 113 videos posted since 2026-08-22
+79 videos -> tag_syntheticwig/tag-syntheticwig.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  5,900,000  12.6   0.91    8 2026-09-16  @tatyanna_hkitty: It’s like silkkkk #foryoupage #blackgirl #detroit #layers #syntheticwi
+                                          https://www.tiktok.com/@tatyanna_hkitty/video/7686266009304485133
+  2,100,000  14.5    0.8   62 2026-10-09  @kafterhours2: BURN THAT WIG!!! Synthetic bundles too!!! Hair too expensive for yall 
+                                          https://www.tiktok.com/@kafterhours2/video/7694519233044057357
+  1,800,000   3.2   0.61   19 2026-08-30  @specialtlooks: 26in vpart wig for under $20 #vpartwig #syntheticwig 
+                                          https://www.tiktok.com/@specialtlooks/video/7679972812685085982
+  1,100,000  16.8   1.54  215 2026-10-05  @xoxoendyiashennel: Proof that with customization and effort, almost ANY wig can look work
+                                          https://www.tiktok.com/@xoxoendyiashennel/video/7693292367696219422
+  1,000,000   1.1    0.1    9 2026-10-06  @oliviaxdollx: #syntheticwig #cosplaywig #gluelesswigs #pinkwig 
+                                          https://www.tiktok.com/@oliviaxdollx/video/7693344685112380703
+    768,000   6.0   0.21    6 2026-09-15  @afrofeel.synthetica: #fyp #syntheticwig #relatable #wigtok #blowthisup 
+                                          https://www.tiktok.com/@afrofeel.synthetica/video/7685727690644557077
+    596,500   4.7   0.67   41 2026-10-12  @niaathedollll: I LOVE A BANG WIG 😍😍😍Tap the cart for this look !!!@Fabelle Wig #bangw
+                                          https://www.tiktok.com/@niaathedollll/video/7695875126197374221
+    446,200   2.3   0.32   43 2026-10-14  @inkedmamafinds: Love love love 🖤🧡🤍 #wighair #syntheticwig @Countblabla 
+                                          https://www.tiktok.com/@inkedmamafinds/video/7696597085788884254
+    421,100   3.4   0.64   22 2026-10-14  @iinayahii: she looks so natural 😍 hair from @FRODIO 🛍️ #frodiohair #halfwig #synt
+                                          https://www.tiktok.com/@iinayahii/video/7696547636072992014
+    344,600   7.5   0.11    5 2026-09-16  @phomelelolentsoane1: One thing about synthetic hair is that it will tangle, you’ll be best 
+                                          https://www.tiktok.com/@phomelelolentsoane1/video/7686171664714976533
+    314,000   7.7   0.98   39 2026-10-09  @vaehhkaoir_: & the wig I got is the same one you’ll get😉 merch #syntheticwig #upart
+                                          https://www.tiktok.com/@vaehhkaoir_/video/7694771886445710605
+    296,200   7.4   1.89   43 2026-09-03  @mrsasianna: The color is what sold me 😍😍😍😍😍this wig is literally perfect. Even if 
+                                          https://www.tiktok.com/@mrsasianna/video/7681305137561750815
+    280,900  24.3    5.0   19 2026-09-21  @syeliseee: omg this is the perfect wig for the fall 🍂🍂 #foryou #outre #wiginfluen
+                                          https://www.tiktok.com/@syeliseee/video/7688120526841122079
+    268,800  39.5   2.37    8 2026-10-11  @xoxoendyiashennel: You’re not a loser 🫶🏽 #syntheticwig #synthetichair 
+                                          https://www.tiktok.com/@xoxoendyiashennel/video/7695498566751505695
+    237,400   7.6   0.52   41 2026-10-18  @novaaclipstv: If you’re a baddie on a budget grab your wig before they SELL OUT!! Th
+                                          https://www.tiktok.com/@novaaclipstv/video/7697907956888653070
