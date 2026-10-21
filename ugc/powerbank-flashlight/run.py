@@ -42,13 +42,14 @@ def clip(sid):
     refs = [kie.upload(f"stills/{sid}.png")] + ([kie.upload(FRONT), kie.upload(SHEET)] if s["product"] else [])
     prompt = ("Recreate reference image 1 exactly (same place, framing, light" + (", hand, rings, bracelets" if s["hand"] else "") + ") as the first frame, then: "
               + s["video"] + " " + J["video_suffix"]
+              + ("" if s["hand"] else " No hand, no fingers and no people appear at any time, at any edge of the frame (Seedance adds one after 1-2 s in hand-free scenes).")
               + (" The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); "
                  "reference image 3 shows it from every side." if s["product"] else ""))
     body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": refs, "generate_audio": False,
             "resolution": "720p", "aspect_ratio": "9:16", "duration": s["dur"]}}
     url = kie.run_task(body)
     if url:
-        kie.fetch(url, f"clips/{sid}{'_seedance' if s['model'] == 'kling' else ''}.mp4"); print("clip", sid, "ok", flush=True)
+        kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
 if __name__ == "__main__":
