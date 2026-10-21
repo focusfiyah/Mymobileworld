@@ -514,5 +514,246 @@
   "t": "2026-10-21 18:54:31",
   "submitted": "5fb164b1f48516b3dbee1baa64c063de",
   "prompt": "Recreate reference image 1 exactly (same bathroom, framing, hand, rings, tub, water and toys) as the first frame, then: "
+ },
+ {
+  "t": "2026-10-21 18:56:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same bathroom, framing, hand, rings, tub, water and toys) as the first frame, then: The hand lets go: the duck drops into the water with a small splash and bobs; the floating toys rock on the ripples; the hand rises back out of the top of the frame. The tub never moves or changes shape. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text. The toddler tub must match reference image 2 exactly: white glossy tub, light-grey foam backrest, grey oval 'shnuggle' badge; reference image 3 shows the tub's shape from every side.",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792608868775-hszknwm5qtk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792606916237-ci8itit70xc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792606913055-9vwktius0vn.png"
+    ]
+   }
+  },
+  "taskId": "5fb164b1f48516b3dbee1baa64c063de",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792608959113-j5gpbqyev4.mp4"
+   ]
+  },
+  "costTime": 89
+ },
+ {
+  "t": "2026-10-21 18:56:44",
+  "submitted": "e7daa56760cceae73b03aae4d08ba1b8",
+  "prompt": "Only the camera moves: a slow, smooth arc of about 20 degrees around the toddler tub from left to right while gently low"
+ },
+ {
+  "t": "2026-10-21 18:58:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Only the camera moves: a slow, smooth arc of about 20 degrees around the toddler tub from left to right while gently lowering. Nothing else moves, no water. No hands, no people. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792608455724-7zcd1bycn7c.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "e7daa56760cceae73b03aae4d08ba1b8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609122430-iatd5thed9s.mp4"
+   ]
+  },
+  "costTime": 118
+ },
+ {
+  "t": "2026-10-21 18:58:55",
+  "submitted": "3701e738b98583f18f3d3131c3540aad",
+  "prompt": "Only the camera moves: a slow, smooth pull-back with a slight rise, revealing the whole bathroom. Nothing in the room mo"
+ },
+ {
+  "t": "2026-10-21 18:58:57",
+  "submitted": "ec2004eed2155da02a03132cf9773bba",
+  "prompt": "The water keeps pouring from the tap and splashing into the big bathtub the whole time; the hand stays under the stream,"
+ },
+ {
+  "t": "2026-10-21 18:58:57",
+  "submitted": "bbb7df2b6be5542d4faeff7a40276eb9",
+  "prompt": "Only the camera moves: a slow, smooth push-in toward the toddler tub's front badge. Nothing else moves. No hands, no peo"
+ },
+ {
+  "t": "2026-10-21 18:58:57",
+  "submitted": "7009d5e37c55774dc7be23ce312e8988",
+  "prompt": "Only the camera moves: a slow crane rising up and back from the empty bathtub so it looks even bigger. Nothing moves, no"
+ },
+ {
+  "t": "2026-10-21 18:58:58",
+  "submitted": "c537ff9a9bb73a8e37fe820f7c41f3cf",
+  "prompt": "Recreate reference image 1 exactly (same bathroom, framing, hand, rings, tub, water and toys) as the first frame, then: "
+ },
+ {
+  "t": "2026-10-21 18:58:59",
+  "submitted": "fad0e0431800e1322e43414733b1198c",
+  "prompt": "Only the camera moves: a slow, smooth low dolly forward toward the two tubs, drifting slightly right toward the toddler "
+ },
+ {
+  "t": "2026-10-21 18:59:01",
+  "submitted": "5e1a53c0dc97604089443e8606c40ed7",
+  "prompt": "Recreate reference image 1 exactly (same bathroom, framing, hand, rings, tub, water and toys) as the first frame, then: "
+ },
+ {
+  "t": "2026-10-21 19:00:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The water keeps pouring from the tap and splashing into the big bathtub the whole time; the hand stays under the stream, fingers moving a little in the water. Handheld phone camera, very slight natural sway. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792609135156-4tree1pmcte.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ec2004eed2155da02a03132cf9773bba",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609210508-32bw6aofodw.mp4"
+   ]
+  },
+  "costTime": 74
+ },
+ {
+  "t": "2026-10-21 19:00:13",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Only the camera moves: a slow crane rising up and back from the empty bathtub so it looks even bigger. Nothing moves, no water. No hands, no people. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792609135275-y5icbte2xn.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "7009d5e37c55774dc7be23ce312e8988",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609208734-ow1k9hkz0j.mp4"
+   ]
+  },
+  "costTime": 71
+ },
+ {
+  "t": "2026-10-21 19:00:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Only the camera moves: a slow, smooth pull-back with a slight rise, revealing the whole bathroom. Nothing in the room moves, the water stays calm. No hands, no people. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792608457947-zaqo1jjtd2.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "3701e738b98583f18f3d3131c3540aad",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609220077-i0321s64sz.mp4"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-10-21 19:00:51",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Only the camera moves: a slow, smooth push-in toward the toddler tub's front badge. Nothing else moves. No hands, no people. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792609135319-uq965njo8eh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "bbb7df2b6be5542d4faeff7a40276eb9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609247488-e39pfxx3bws.mp4"
+   ]
+  },
+  "costTime": 112
+ },
+ {
+  "t": "2026-10-21 19:00:52",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Only the camera moves: a slow, smooth low dolly forward toward the two tubs, drifting slightly right toward the toddler tub. Nothing in the room moves; the tubs, the duck and the mat stay perfectly still. No hands, no people. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792609135217-3v6m3hzl0t9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fad0e0431800e1322e43414733b1198c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609243849-cp3sms15kv.mp4"
+   ]
+  },
+  "costTime": 107
+ },
+ {
+  "t": "2026-10-21 19:01:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same bathroom, framing, hand, rings, tub, water and toys) as the first frame, then: The hand sets the folded towel down on the rim, lets go and slides back out of the left frame edge. Everything else stays still; the tub never moves. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text. The toddler tub must match reference image 2 exactly: white glossy tub, light-grey foam backrest, grey oval 'shnuggle' badge; reference image 3 shows the tub's shape from every side.",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4,
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792609135322-2dw6qb7wir9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792606916237-ci8itit70xc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792606913055-9vwktius0vn.png"
+    ]
+   }
+  },
+  "taskId": "c537ff9a9bb73a8e37fe820f7c41f3cf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609258909-ti10dsu8wys.mp4"
+   ]
+  },
+  "costTime": 121
+ },
+ {
+  "t": "2026-10-21 19:01:08",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same bathroom, framing, hand, rings, tub, water and toys) as the first frame, then: The fingertips swirl slowly through the bubbly water; the toys drift and bob in a lazy circle. The tub never moves. Handheld phone camera, very slight sway. Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text. The toddler tub must match reference image 2 exactly: white glossy tub, light-grey foam backrest, grey oval 'shnuggle' badge; reference image 3 shows the tub's shape from every side.",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4,
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792609135300-4dth5917iod.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792606916237-ci8itit70xc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/shnuggle-next-bath/1792606913055-9vwktius0vn.png"
+    ]
+   }
+  },
+  "taskId": "5e1a53c0dc97604089443e8606c40ed7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609264797-ho4nx55t9g.mp4"
+   ]
+  },
+  "costTime": 123
  }
 ]
