@@ -3076,5 +3076,36 @@
    ]
   },
   "costTime": 138
+ },
+ {
+  "t": "2026-10-21 05:26:19",
+  "submitted": "e151cd5f0e222f6dbb61cbece29f0a19",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low-angle photo on a sunny light-wood deck: EXACTLY TWO"
+ },
+ {
+  "t": "2026-10-21 05:28:32",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Low-angle photo on a sunny light-wood deck: EXACTLY TWO sequin Vans shoes, one left and one right shoe of the same pair, both standing upright on their soles, side by side and parallel, toes pointing toward the camera's left, the outer side VANS tab of the front shoe facing the camera. Potted green plants softly blurred behind, bright neutral daylight (not golden), the shoes fill the lower half of the frame. NEVER a third shoe: no shoe lying on its side, no sole or waffle tread visible anywhere, no shoe box. Reference image 3 is for the print only, do not copy its sole view. No people, no hands, no feet. No hands or arms anywhere in the frame. The shoe is the real Vans Premium Authentic low-top in sequin checkerboard, exactly as in the product reference sheet: a black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and beads and the off-white squares are plain canvas; black leather binding around the collar with white contrast stitching; a black suede heel panel with white stitching; flat black cotton laces through four pairs of black eyelets; a small black woven VANS tab on the side; a chunky marshmallow off-white rubber sidewall; a red insole printed with a SOLID WHITE rectangle that holds the red VANS logo (white box, red letters, NOT a red box with white letters); a gum-brown waffle sole; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label in black print (never red). The checkerboard covers the whole upper from toe to heel, with no plain panels. Keep its true low-top shape and proportions, nothing added, no other logos. Shot on a phone, natural daylight, bright, clean and neutral (no yellow, golden or dark moody tint), realistic and casual like a real person filmed it. No on-screen text, no captions, no watermark, no date stamp, nothing at any edge of the frame that is not described. Reference images: 1 = the product reference sheet (the real shoe from every side), 2 = the real pair at 3/4, 3 = the real top view with the red insole and the waffle sole, 4 = a close-up of the real side VANS tab: the shoe print MUST match images 1-4 letter for letter and colour for colour (black woven tab with white letters, sequins on the black squares only), 5 = an approved frame from this ad: match its skin tone, nails, toenail polish and jewellery, 6 = an approved frame from this same video: match its setting, light and outfit.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560321550-9r4yx0yooz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560324339-k35rqgs57o.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560326544-jfq5032odvo.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560328695-yfic5w3bn8q.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560331085-noqr1cwjsur.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792560333679-ihto1omam2.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e151cd5f0e222f6dbb61cbece29f0a19",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e151cd5f0e222f6dbb61cbece29f0a19_0_1792560509.jpeg"
+   ]
+  },
+  "costTime": 130
  }
 ]
