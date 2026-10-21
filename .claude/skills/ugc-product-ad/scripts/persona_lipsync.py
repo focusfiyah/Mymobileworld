@@ -1,5 +1,5 @@
 # Skill copy of focusfiyah/Mymobileworld ugc/carpe-mountain-breeze/lipsync.py: copy into the job folder as lipsync.py (with shots.json).
-"""Lip-sync Grace's face shots to the Grace B voiceover: Kie volcengine/video-to-video-lip-sync, $0.04/s of audio.
+"""Lip-sync Grace's face shots to the Grace voiceover: Kie volcengine/video-to-video-lip-sync, $0.04/s of audio.
 
   python3 lipsync.py S10            # one shot (test first), or several: S1 V2 V5 S10
 

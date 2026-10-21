@@ -1,4 +1,4 @@
-"""Free rough cut: the 9 clips cut to the Grace B voiceover, a badge close-up insert, soft CC0 SFX.
+"""Free rough cut: the 9 clips cut to the Grace voiceover, a badge close-up insert, soft CC0 SFX.
 
   python3 cut.py   -> out/carpe_vanilla_peach_roughcut.mp4 (720x1280, 24fps)
 
