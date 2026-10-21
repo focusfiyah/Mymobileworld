@@ -330,5 +330,241 @@
    ]
   },
   "costTime": 146
+ },
+ {
+  "t": "2026-10-21 18:57:03",
+  "submitted": "5e1e247eeeaddff3e2d56fd5f67c7e45",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The ha"
+ },
+ {
+  "t": "2026-10-21 18:57:03",
+  "submitted": "ebc8f8a63dc6c170f98bc443700d43db",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The ha"
+ },
+ {
+  "t": "2026-10-21 18:57:03",
+  "submitted": "9baf10c37128169ac9b027012b6c0235",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow "
+ },
+ {
+  "t": "2026-10-21 18:57:03",
+  "submitted": "335b9f8166590fcd6ede53ca71c322da",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The ha"
+ },
+ {
+  "t": "2026-10-21 18:57:04",
+  "submitted": "b394519951c608555e35bfe8d73dfa30",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The ph"
+ },
+ {
+  "t": "2026-10-21 18:57:04",
+  "submitted": "67feada9c46ed92471aa099272b2c7b6",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow "
+ },
+ {
+  "t": "2026-10-21 18:57:04",
+  "submitted": "3914d1b222b5a31a96d4effa57fa7e05",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow "
+ },
+ {
+  "t": "2026-10-21 18:58:35",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The phone's flashlight flickers twice and goes out; the hand lowers the phone a little in frustration. Slight handheld camera. Nothing else changes. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021333-5rosm54on3o.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b394519951c608555e35bfe8d73dfa30",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609109630-28qvemvm7jb.mp4"
+   ]
+  },
+  "costTime": 87
+ },
+ {
+  "t": "2026-10-21 18:58:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The hand lifts the flashlight a little so the keys hanging from its carabiner swing gently, then holds it still with the orange button and white window facing the camera; slow gentle push-in. Only one flashlight. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021225-m2h7ek7s4eh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "ebc8f8a63dc6c170f98bc443700d43db",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609121626-fbd6se07op6.mp4"
+   ]
+  },
+  "costTime": 100
+ },
+ {
+  "t": "2026-10-21 18:58:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow push-in toward the flashlight on the table while the sky outside the window stays dusk blue. Nothing moves, no people. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. No hand, no fingers and no people appear at any time, at any edge of the frame (Seedance adds one after 1-2 s in hand-free scenes). The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021137-lmw8m1dp2h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "67feada9c46ed92471aa099272b2c7b6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609134164-qn313pq34nl.mp4"
+   ]
+  },
+  "costTime": 111
+ },
+ {
+  "t": "2026-10-21 18:59:02",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow smooth push-in toward the silver car at eye height, like someone walking to it. Nothing in the lot moves, no people, no cars move. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. No hand, no fingers and no people appear at any time, at any edge of the frame (Seedance adds one after 1-2 s in hand-free scenes).",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021065-sbbp83nvgn9.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "3914d1b222b5a31a96d4effa57fa7e05",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609140203-se5110yz7wj.mp4"
+   ]
+  },
+  "costTime": 117
+ },
+ {
+  "t": "2026-10-21 18:59:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The hand gives the key ring a small lift so the flashlight swings gently once on its hook and settles facing the camera; slow gentle push-in. The flashlight stays the same. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021183-adhzjx80hn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "5e1e247eeeaddff3e2d56fd5f67c7e45",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609142776-4zxqzgibns.mp4"
+   ]
+  },
+  "costTime": 120
+ },
+ {
+  "t": "2026-10-21 18:59:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow smooth dolly-in toward the hanging flashlight. It hangs still. Nothing else moves, no people. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. No hand, no fingers and no people appear at any time, at any edge of the frame (Seedance adds one after 1-2 s in hand-free scenes). The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021328-9glp8b12fc7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "9baf10c37128169ac9b027012b6c0235",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609138552-drfxanku2p5.mp4"
+   ]
+  },
+  "costTime": 117
+ },
+ {
+  "t": "2026-10-21 18:59:21",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The hand lifts off the phone and slides out of the frame to the right, revealing the whole phone screen with the green charging battery icon; the white cable stays plugged into the flashlight and the phone; slow gentle push-in. The flashlight and phone stay still. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609021315-rhg4g09pvi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "335b9f8166590fcd6ede53ca71c322da",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609154069-m2t2fdzmhr.mp4"
+   ]
+  },
+  "costTime": 131
+ },
+ {
+  "t": "2026-10-21 18:59:50",
+  "submitted": "704bfa8cea9ee024f6ba3c234807aa9c",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow "
+ },
+ {
+  "t": "2026-10-21 19:01:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light) as the first frame, then: Only the camera moves: a slow smooth arc from left to right around the backpack, keeping the flashlight in focus. Nothing moves, no people. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. No hand, no fingers and no people appear at any time, at any edge of the frame (Seedance adds one after 1-2 s in hand-free scenes). The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792609187809-xdr93qivwb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "704bfa8cea9ee024f6ba3c234807aa9c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792609290190-w8x0xz160qf.mp4"
+   ]
+  },
+  "costTime": 102
  }
 ]
