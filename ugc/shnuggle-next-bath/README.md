@@ -1,0 +1,5 @@
+# Shnuggle Toddler Tub, "the next bath" (Grace), 2026-10-21
+One hands-only AI video, 25-35 s, on Ralph's brief (angle: a toddler's next bath after the infant tub). Route: ugc-product-ad hands-only, product lock per PLAYBOOK §6 (real-photo product sheet `refs/product_sheet.png`, Gemini 3 Pro Image stills on Kie `nano-banana-pro`, Seedance 2.0 Mini REFERENCE mode for hand clips, Kling on Ralph's account for hand-free dollies, no pasted labels). Voice Grace C (loudnorm -16 LUFS). Reuses from `../shnuggle-response/`: brand photos, Grace's hand refs, 2026-10-16 research, REMOVED.md (no plug). New room (powder-blue tiles, alcove tub) so no footage repeats R1/R2.
+Files: PLAN.md (the plan sent to Ralph), scripts.md, shots.json (every prompt), kie.py (gated), vo.py (gated), GATES.md, checklist.json, research/.
+
+Status: PLAN SENT 2026-10-21, nothing spent. Gate OK. Waiting on Ralph: script V1 (recommended) or A (brief word for word) + one approval of Kie $2.18 + Kling ~160 credits + ElevenLabs ~590 chars. Kie balance $3.68, Kling 218 credits.
