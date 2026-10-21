@@ -1,0 +1,76 @@
+{
+ "job": "cleanwaste-toilet-kit",
+ "client": "Grace",
+ "date": "2026-10-21",
+ "route": "ugc-product-ad hands-only demo over a Grace C voiceover; Gemini 3 Pro Image stills + Seedance 2.0 Mini reference mode (hand) + Kling (hand-free)",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop-wagbag/shop-wag-bag.json",
+   "research/tag-wagbag/tag-wagbag.json",
+   "research/discover/discover-diy-bucket-toilet.json",
+   "research/videos/7688935690465316126/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-21.json",
+   "research/viral/viral-2026-10-21-prep-filtered.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "refs/real/SOURCES.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt",
+   "research/readability_v2.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [],
+  "note": "after the cut: tiktok.py compare vs @mamarashaah 7688935690465316126"
+ },
+ "client_script_verbatim": {
+  "videos": [
+   "V1"
+  ],
+  "status": "PENDING Ralph's yes (rule: Grace's own script word for word only on his word)"
+ }
+}
