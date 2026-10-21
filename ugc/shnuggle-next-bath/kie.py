@@ -22,7 +22,7 @@ MAIN = list(SHOTS)
 HAND = J["hand_refs"]  # Grace's hands with the birthstone ring (ThunderFit stills) + real ring packshot
 TUB = J["tub_refs"]    # product lock (Ralph 2026-10-19): real-photo product sheet + real front 3/4 cut-out
 LOOK = "stills/look_ref.png"  # copy of the approved test still (S8): room, light, hand, rings
-ROOM = ["stills/S5.png", "stills/S11.png"]  # approved round-1 frames: the same rectangular built-in bathtub + tiles (room lock)
+ROOM = ["stills/S11.png", "stills/S9.png"]  # approved round-1 frames: the same rectangular built-in bathtub + tiles (room lock)
 KEY = os.environ.get("KIE_API_KEY")
 HDR = {"Authorization": f"Bearer {KEY}"} if KEY else {}
 LOG = Path("kie_log.json"); CACHE = Path("upload_cache.json"); _LOCK = threading.Lock()
