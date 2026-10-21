@@ -1117,5 +1117,141 @@
    ]
   },
   "costTime": 113
+ },
+ {
+  "t": "2026-10-21 03:20:19",
+  "submitted": "f4f029412ccf6d24e77daf43cdd39d10",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of the castor oil roll-on standing on the wh"
+ },
+ {
+  "t": "2026-10-21 03:21:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of the castor oil roll-on standing on the white marble counter of the sage-green tiled bathroom from the last reference image, soft morning sun from the window. One fat clear golden drop of castor oil sits on top of the rose quartz roller ball and catches the light like liquid gold. No hands. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552818017-psvhr3fqoe.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f4f029412ccf6d24e77daf43cdd39d10",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f4f029412ccf6d24e77daf43cdd39d10_0_1792552872.jpeg"
+   ]
+  },
+  "costTime": 53
+ },
+ {
+  "t": "2026-10-21 03:21:21",
+  "submitted": "a30bac2be8b942afda3ca1e674a944b5",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A small round mirrored vanity tray on the wooden nights"
+ },
+ {
+  "t": "2026-10-21 03:22:17",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A small round mirrored vanity tray on the wooden nightstand of the bedroom from the last reference image. On the tray, left: a pretty faceted glass perfume bottle with pale pink perfume and a round glass cap, no brand, no writing. Right, a little apart: the castor oil roll-on. No hands. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552878284-mh5boszx1u.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a30bac2be8b942afda3ca1e674a944b5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a30bac2be8b942afda3ca1e674a944b5_0_1792552934.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-10-21 03:22:21",
+  "submitted": "e11330485327243a2b97a9b97a6d5f31",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Seen from above and behind, no face: an older Black gra"
+ },
+ {
+  "t": "2026-10-21 03:23:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Seen from above and behind, no face: an older Black grandmother's hands (brown skin with fine wrinkles, short natural unpainted nails, a thin gold wedding band) part her short grey coily hair and work plain golden castor oil into the scalp at the part with her fingertips. In her other hand, an old unbranded clear glass bottle of golden oil with no label. Lavender cardigan sleeve at the wrist. Soft bright bedroom light, same framing and light as the reference image, but grey hair and older hands. Only these two hands, whole wrists, coming from the bottom edge of the frame. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552939728-8r2kulec6i2.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e11330485327243a2b97a9b97a6d5f31",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e11330485327243a2b97a9b97a6d5f31_0_1792552996.jpeg"
+   ]
+  },
+  "costTime": 55
+ },
+ {
+  "t": "2026-10-21 03:23:19",
+  "submitted": "0b5c13f18a21f50f1153efdd92cd5c0a",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A white bathroom shelf in the sage-green tiled bathroom"
+ },
+ {
+  "t": "2026-10-21 03:25:00",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A white bathroom shelf in the sage-green tiled bathroom from the last reference image. Left: a big old messy unbranded plastic bottle of castor oil, thick golden oil dripped down its side and a sticky oily ring under it on the shelf, no label text. Right, a little apart: the clean castor oil roll-on. No hands. The BodyJ4You castor oil roll-on: a short squat amber-brown glass bottle, white plastic collar, a pink rose quartz roller ball on top, white label with a plum band, plum serif 'CASTOR OIL', green USDA ORGANIC seal. It must match the product reference sheet exactly (the big front view is the real label); keep it upright and the label facing camera. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552813309-46045fj42bq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552815465-u8uyu409u0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552818017-psvhr3fqoe.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0b5c13f18a21f50f1153efdd92cd5c0a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0b5c13f18a21f50f1153efdd92cd5c0a_0_1792553093.jpeg"
+   ]
+  },
+  "costTime": 94
+ },
+ {
+  "t": "2026-10-21 03:28:27",
+  "submitted": "53616a4850d918b7f6e2ca998acd1158",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Seen from above and behind, no face. EXACTLY TWO HANDS "
+ },
+ {
+  "t": "2026-10-21 03:29:23",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Seen from above and behind, no face. EXACTLY TWO HANDS in the whole frame, both hers: an older Black grandmother's hands (brown skin with fine wrinkles, short natural unpainted nails, a thin gold wedding band) part her short grey coily hair and work plain golden castor oil into the scalp at the part with her fingertips. In her other hand, an old unbranded clear glass bottle of golden oil with no label. Lavender cardigan sleeve at the wrist. Soft bright bedroom light, same framing and light as the reference image, but grey hair and older hands. Her right hand works the oil in at the part; her left hand holds the bottle low in the frame. No third hand, no hand on top of the head. Whole wrists, both coming from the bottom edge of the frame. Bright, clean, neutral daylight, true colours, no yellow or golden tint, no dark or moody look. No text, no logos other than the product label.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bodyj-castor/1792552939728-8r2kulec6i2.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "53616a4850d918b7f6e2ca998acd1158",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/53616a4850d918b7f6e2ca998acd1158_0_1792553359.jpeg"
+   ]
+  },
+  "costTime": 52
  }
 ]
