@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 65 of 137 videos posted since 2026-09-20
+65 videos -> research/tag-castoroil.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    847,600   7.6   0.91   16 2026-10-18  @yurileeeee: Oil ritual for everything🥹✨ and Ayurveda is truly amazing🙂‍↕️💖 #ayurve
+                                          https://www.tiktok.com/@yurileeeee/video/7697829836735221005
+    827,900   5.3   0.28   13 2026-09-29  @juss.tyler: Heavy on the oil ❤️ week3 #nativechild castor oil hair growth journey 
+                                          https://www.tiktok.com/@juss.tyler/video/7690965370848529685
+    429,000  12.0   3.67  306 2026-10-01  @fifalegends32: Castor Oil for Your Face - Nature’s Botox Castor Oil, Skin Care, Facia
+                                          https://www.tiktok.com/@fifalegends32/video/7691670138189319445
+    358,000   8.7    2.0   42 2026-09-27  @glowandnourish0: Rub Castor oil under your Armpits before bed 🛏️ #castoroil #skincare #
+                                          https://www.tiktok.com/@glowandnourish0/video/7690269608086981902
+    341,500   6.5   1.08   59 2026-09-30  @7mina09: Castor oil # castle oil organic castor oil # skin care @OR@ORO RECORD🇨
+                                          https://www.tiktok.com/@7mina09/video/7691384616329940245
+    100,400   8.0    0.9    9 2026-09-22  @bejapsl: #eyelashes #eyes #looksmax 
+                                          https://www.tiktok.com/@bejapsl/video/7688169021438512404
+     48,700   3.0    0.5   32 2026-10-06  @ayunonutricion: FIORA NATURALS Organic Castor Oil (16oz) - Multi-Use Normal Natural Pl
+                                          https://www.tiktok.com/@ayunonutricion/video/7693569029344169230
+     45,000   9.2   3.03   16 2026-10-13  @alongthemeadow: Coffee + Castor Oil = Powerful Under eye Serum ✨ If your eyes are look
+                                          https://www.tiktok.com/@alongthemeadow/video/7696224680671186206
+     40,600   4.0   0.41   99 2026-10-05  @themedicinecabinetrn: Can castor oil induce labor...sometimes. But it should be used with ca
+                                          https://www.tiktok.com/@themedicinecabinetrn/video/7692860141812698398
+     38,100   3.3   0.14    5 2026-10-19  @itsyogurlchloe2: #growth #day1 #viral #fyp 
+                                          https://www.tiktok.com/@itsyogurlchloe2/video/7698510613072366878
+     36,900   2.7    0.3   85 2026-09-20  @thobile0436: Castor oil for hair growth #castoroil #viralvideo #fypシ #treading_vira
+                                          https://www.tiktok.com/@thobile0436/video/7687619038821747988
+     27,500   9.8   3.18   75 2026-10-01  @coirbenji: How to grow your eyelashes safely and effectively in a month . ##fyp
+                                          https://www.tiktok.com/@coirbenji/video/7691690707022662934
+     19,400  16.6   0.67    7 2026-10-07  @da_spam_i_am: #castoroil #naturallashes #longlashes #eyelashgrowth #fyp 
+                                          https://www.tiktok.com/@da_spam_i_am/video/7694028857640357133
+     14,100   0.7   0.08    6 2026-10-17  @castoroilbenefits: Be honest, is your castor oil sitting in the cupboard right now? 🙋‍♀️ 
+                                          https://www.tiktok.com/@castoroilbenefits/video/7697691557754866966
+     11,700  14.9   0.93   27 2026-10-12  @liliths_son: Some of y’all are impossible to underestimate. 
+                                          https://www.tiktok.com/@liliths_son/video/7695889919234837773
