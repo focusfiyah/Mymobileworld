@@ -1,0 +1,196 @@
+{
+ "job": "shnuggle-next-bath",
+ "voice": {
+  "voice_id": "P8OUGBCvq8OBS4xlb65A",
+  "name": "Grace C"
+ },
+ "status": "approved 2026-10-21 (Ralph: 'Ok do not use kling'): V1 script, all clips Seedance 2.0 Mini on Kie; new total Kie $2.92",
+ "hand_refs": [
+  "refs/hand/S6_sink_plate_ring_on.png",
+  "refs/hand/S5_gym_dumbbell_ring_on.png",
+  "refs/hand/real_ring_packshot.jpg"
+ ],
+ "tub_refs": [
+  "refs/product_sheet.png",
+  "refs/brand/Shnuggle_Toddler_Bath_Light_Grey_Backrest_Cut_out.png"
+ ],
+ "hand_block": "Only Grace's hand and wrist appear, exactly the hand in the hand reference images: medium-brown skin with a warm undertone, medium-length nails with a pink French tip, a glossy sky-blue silicone band ring on the ring finger and a thin gold ring with a small stone on the index finger. NO bracelet, NO watch, nothing on the wrist. The hand and some of the forearm enter from a frame edge; the arm always continues out to that frame edge (never a floating hand). Five natural fingers; anything the hand holds is GRIPPED with curled fingers, never a flat palm. No face, no other people, no children, no babies.",
+ "no_hand": "There are NO hands, arms or people anywhere in this shot, and nothing at any edge of the frame.",
+ "tub_block": "The toddler tub is EXACTLY the Shnuggle Toddler Bath in the product reference sheet (the big front 3/4 photo is the real product; the small views show its shape from every side): a one-piece glossy white plastic oval tub with a high curved back that slopes down to a low front lip and a thick rolled rim; inside the back a light-grey oval foam backrest with a tiny embossed lowercase 'shnuggle' wordmark at its top; on the outside front a grey oval pebble badge with a white lowercase 'shnuggle' logo; on the inside floor a SMALL, LOW seat bump: a gentle smooth oval swell only about 2 cm high and about a third of the floor's width, barely noticeable (like the top-down view in the reference sheet), never a big raised pillow or cushion; around it small thin raised circle OUTLINES arranged in rings. True size and shape: from the front about as tall as it is wide; the back about twice as tall as the front lip; a toddler tub about 54 cm long and 36 cm tall, much smaller than an adult bathtub. Copy it exactly: no plug, no handles, no extra parts, no extra text, no colour change.",
+ "infant_block": "The small baby tub is a plain white infant bathtub: shallow, a rounded rectangle, smooth inside, no logo, no text, no backrest, clearly shorter and shallower than the toddler tub.",
+ "scene_block": "Setting: a bright, clean family bathroom lit by soft daylight from a frosted window on the left: pale powder-blue ceramic wall tiles with thin white grout, ONE even shade of blue everywhere, ALWAYS the same white glossy rectangular built-in alcove bathtub with a flat white front panel and a chrome wall-mounted tap (exactly the bathtub in the approved reference frames; never a freestanding, corner or oval bathtub), a light oak slatted bath mat on a pale grey stone floor. Bright, neutral, true-white colour balance: no yellow, no golden, no dark or moody look, no vignette. Realistic iPhone UGC photo, sharp, natural, slight depth of field. No text, no captions, no watermark, no logo except the tub's real grey shnuggle badge.",
+ "video_suffix": "Fingers stay anatomically correct, skin tone and nail length stay the same in every frame. The toddler tub never changes shape, size, colour or logo. No sound. No on-screen text. The seat bump inside the toddler tub stays small and low (a gentle swell, never a big pillow).",
+ "shots": [
+  {
+   "id": "S1",
+   "vo": "Your baby outgrew the baby bathtub",
+   "hand": false,
+   "tub": true,
+   "infant": true,
+   "model": "seedance",
+   "dur": 4,
+   "still": "Low camera close to the floor. On the light oak bath mat in front of the alcove bathtub stand two tubs side by side: on the left, slightly nearer the camera, the small plain infant tub with a tiny yellow rubber duck inside it; on the right, the empty Shnuggle toddler tub, its grey front badge facing the camera, clearly taller and deeper than the infant tub. Both tubs fully in frame, the bathtub and blue tiles softly blurred behind.",
+   "video": "Only the camera moves: a slow, smooth low dolly forward toward the two tubs, drifting slightly right toward the toddler tub. Nothing in the room moves; the tubs, the duck and the mat stay perfectly still. No hands, no people.",
+   "t": [
+    0.0,
+    2.03
+   ]
+  },
+  {
+   "id": "S2",
+   "vo": "but you're not ready to give them the whole tub yet.",
+   "hand": false,
+   "tub": false,
+   "model": "seedance",
+   "dur": 4,
+   "still": "High angle looking down into the large white alcove bathtub, completely empty and dry, the chrome tap at the far end and blue tiles around it. The bathtub fills most of the frame and looks huge and deep. Nothing inside it, nothing on its rim.",
+   "video": "Only the camera moves: a slow crane rising up and back from the empty bathtub so it looks even bigger. Nothing moves, no water. No hands, no people.",
+   "t": [
+    2.03,
+    4.81
+   ]
+  },
+  {
+   "id": "S3",
+   "vo": "The big tub feels huge, and it takes so much water.",
+   "hand": true,
+   "tub": false,
+   "model": "seedance",
+   "dur": 4,
+   "still": "Close on the chrome wall tap at the end of the empty rectangular built-in bathtub: a strong clear stream of water pours from the tap and splashes on the bathtub floor. ONE hand only: Grace's right hand reaches in from the RIGHT frame edge with her forearm, the arm continuing out of the frame edge (never a floating hand); she holds her relaxed, slightly curled fingers under the stream, testing the water.",
+   "video": "The water keeps pouring from the tap and splashing into the big bathtub the whole time; the hand stays under the stream, fingers moving a little in the water. Handheld phone camera, very slight natural sway.",
+   "t": [
+    4.81,
+    8.55
+   ],
+   "punch": true
+  },
+  {
+   "id": "S4",
+   "vo": "That's exactly the stage this Shnuggle toddler bath is designed for.",
+   "hand": false,
+   "tub": true,
+   "model": "seedance",
+   "dur": 4,
+   "still": "High 3/4 angle from just above the bathtub rim: the empty Shnuggle toddler tub stands on the floor inside the rectangular built-in bathtub, dry, its grey front badge facing the camera and fully visible, centred, the whole toddler tub in frame with the bathtub's white rim around it and the powder-blue tiles behind. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor. It is never on the rim, never on the edge, never overhanging.",
+   "video": "Only the camera moves: a slow, smooth push-in toward the toddler tub's front badge. Nothing else moves. No hands, no people.",
+   "t": [
+    8.55,
+    12.47
+   ],
+   "clip": "clips/S4_bump.mp4",
+   "note": "real badge tracked on (badge_track.py); same fix Ralph OKd for S11; seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
+  },
+  {
+   "id": "S5",
+   "vo": "It's bigger than their baby bath but still gives them their own little space for bathtime.",
+   "hand": false,
+   "tub": true,
+   "model": "seedance",
+   "dur": 5,
+   "still": "High angle looking down into the empty Shnuggle toddler tub standing inside the large bathtub: the roomy inside, the grey foam backrest at the back, the small, low seat bump and the circle-outline floor pattern are all visible; the big bathtub floor around it shows how much smaller the toddler tub is. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor; the big bathtub's own front wall and rim run in front of it across the lower part of the frame. It is never on the rim, never on the edge, never overhanging.",
+   "video": "Only the camera moves: a slow, smooth arc of about 20 degrees around the toddler tub from left to right while gently lowering. Nothing else moves, no water. No hands, no people.",
+   "t": [
+    12.47,
+    16.79
+   ],
+   "punch": true,
+   "clip": "clips/S5_bump.mp4",
+   "note": "seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
+  },
+  {
+   "id": "S6",
+   "vo": "There's a soft backrest",
+   "hand": true,
+   "tub": true,
+   "model": "seedance_ref",
+   "dur": 4,
+   "still": "Close-up looking into the empty Shnuggle toddler tub from above its low front lip: the tub's high curved white back wall fills the upper part of the frame, and the light-grey foam backrest is a flat oval panel set INTO that back wall, flush with it and following its curve, exactly as in the product reference sheet: it is part of the tub, not a separate pad or lid, and nothing sticks up above the tub's rim. A tiny embossed 'shnuggle' wordmark near its top. ONE hand only: Grace's right hand enters from the RIGHT frame edge with her forearm, the arm continuing out of the frame edge, and presses two fingertips into the middle of the foam panel, the foam dimpling slightly, the other fingers curled. FRAMING (must hold): a tight close-up from directly above the toddler tub, the camera looking down INTO it: the frame shows only the inside of the tub and its rim; the tub's outer wall, its base, its badge, the big bathtub's front panel, the floor and the bath mat are all OUTSIDE the frame. The tub stands on the floor of the bathtub (just out of frame), never on the bathtub's edge.",
+   "video": "The two fingertips press gently into the foam backrest, the soft foam gives a little, the fingers lift and press once more. The tub never moves. Handheld phone camera, very slight sway.",
+   "t": [
+    16.79,
+    18.21
+   ],
+   "clip": "clips/S6_bump.mp4",
+   "note": "seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
+  },
+  {
+   "id": "S7",
+   "vo": "and a grippy surface inside.",
+   "hand": true,
+   "tub": true,
+   "model": "seedance_ref",
+   "dur": 4,
+   "still": "Close-up of the inside floor of the empty Shnuggle toddler tub standing in the bathtub: the small thin raised circle outlines in rings in front of the small, low seat bump. ONE hand only, no second hand anywhere and nothing holding the rim: Grace's right hand enters from the RIGHT frame edge with her forearm, the arm continuing out of the frame edge; her index fingertip touches the circles, the other fingers curled loosely. FRAMING (must hold): a tight close-up from directly above the toddler tub, the camera looking down INTO it: the frame shows only the inside of the tub and its rim; the tub's outer wall, its base, its badge, the big bathtub's front panel, the floor and the bath mat are all OUTSIDE the frame. The tub stands on the floor of the bathtub (just out of frame), never on the bathtub's edge.",
+   "video": "The index fingertip slides slowly across the raised circle pattern from right to left, showing the grippy texture. The tub never moves. Handheld phone camera, very slight sway.",
+   "t": [
+    18.21,
+    19.87
+   ],
+   "clip": "clips/S7_bump.mp4",
+   "note": "seat bump retouched to the real small oval (bump_fix.py, free, Ralph 2026-10-21)"
+  },
+  {
+   "id": "S8",
+   "vo": "And there's room for bath toys so they can enjoy splashing around.",
+   "hand": true,
+   "tub": true,
+   "model": "seedance_ref",
+   "dur": 5,
+   "test_still": true,
+   "still": "The Shnuggle toddler tub stands inside the large alcove bathtub, filled about half way with clear water and a light layer of white bubbles, seen from a 3/4 high angle with its grey front badge visible. Grace's hand comes down from the top of the frame and pinches a yellow rubber duck between thumb and two fingers just above the water, about to drop it; a small teal whale squirt toy and a pink stacking cup already float in the water. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor; the big bathtub's own front wall and rim run in front of it across the lower part of the frame. It is never on the rim, never on the edge, never overhanging.",
+   "video": "The hand lets go: the duck drops into the water with a small splash and bobs; the floating toys rock on the ripples; the hand rises back out of the top of the frame. The tub never moves or changes shape.",
+   "t": [
+    19.87,
+    23.37
+   ],
+   "punch": true
+  },
+  {
+   "id": "S9",
+   "vo": "The only problem? They won't want to get out.",
+   "hand": true,
+   "tub": true,
+   "model": "seedance",
+   "dur": 4,
+   "still": "Close high angle into the filled Shnuggle toddler tub: bubbly water with the yellow duck, the teal whale and the pink cup floating; the grey foam backrest above the waterline at the back. Grace's hand enters from the left frame edge, fingertips trailing through the water surface. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor; the big bathtub's own front wall and rim run in front of it across the lower part of the frame. It is never on the rim, never on the edge, never overhanging.",
+   "video": "The fingertips swirl slowly through the bubbly water; the toys drift and bob in a lazy circle. The tub never moves. Handheld phone camera, very slight sway.",
+   "t": [
+    23.37,
+    25.79
+   ]
+  },
+  {
+   "id": "S10",
+   "vo": "With the holidays coming, it makes a sweet gift too.",
+   "hand": true,
+   "tub": true,
+   "model": "seedance",
+   "dur": 4,
+   "still": "The filled Shnuggle toddler tub with bubbles and the three toys (yellow duck, teal whale, pink cup) stands inside the rectangular built-in bathtub on the right of the frame. In the left foreground, Grace's hand enters from the LEFT frame edge with her forearm, the arm continuing out of the frame edge, and GRIPS a neatly folded white hooded baby towel tied with a pale blue satin ribbon bow: thumb underneath, fingers curled over the top edge, the towel hanging from her grip just above the wide white bathtub rim, about to set it down. Not a flat palm on top of the towel. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor. It is never on the rim, never on the edge, never overhanging.",
+   "video": "The hand sets the folded towel down on the rim, lets go and slides back out of the left frame edge. Everything else stays still; the tub never moves.",
+   "t": [
+    25.79,
+    28.65
+   ],
+   "clip": "clips/S10_badge.mp4",
+   "note": "real badge on (badge_track.py --static --ell); same fix Ralph OKd for S11"
+  },
+  {
+   "id": "S11",
+   "vo": "Check it out for your toddler's next bath. It's in the orange cart.",
+   "hand": false,
+   "tub": true,
+   "model": "seedance",
+   "dur": 5,
+   "still": "Wide shot of the complete bathtime setup, ready to use: the Shnuggle toddler tub filled with bubbly water and the three floating toys stands inside the large alcove bathtub, grey front badge facing the camera; the folded white hooded towel with the pale blue bow lies on the bathtub rim; blue tiles, chrome tap, oak bath mat, soft daylight. One toddler tub only. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor; the big bathtub's own front wall and rim run in front of it across the lower part of the frame. It is never on the rim, never on the edge, never overhanging.",
+   "video": "Only the camera moves: a slow, smooth pull-back with a slight rise, revealing the whole bathroom. Nothing in the room moves, the water stays calm. No hands, no people.",
+   "t": [
+    28.65,
+    31.79
+   ],
+   "clip": "clips/S11_badge.mp4",
+   "note": "real badge tracked on (badge_track.py), Ralph OK 2026-10-21 \"paste\""
+  }
+ ]
+}

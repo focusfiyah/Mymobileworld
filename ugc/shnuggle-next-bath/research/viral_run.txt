@@ -1,0 +1,83 @@
+  #tiktokshop: 114 videos
+  #tiktokshopfinds: 133 videos
+  #tiktokshopcreatorpicks: 98 videos
+  #tiktokshopholidayhaul: 143 videos
+  #tiktokshophome: 138 videos
+  #tiktokshopbeauty: 136 videos
+  #tiktokshopfashion: 135 videos
+  #tiktokmademebuyit: 128 videos
+  #toddlerbath: 142 videos
+  #babybath: 113 videos
+  #toddlermom: 130 videos
+  #momfinds: 146 videos
+  #babymusthaves: 146 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+1625 videos scanned, 437 shop videos posted in the last 3.0 day(s) -> viral/viral-2026-10-21.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      435K    728K  1.7d  0.13  XURATTIX  Electrical Outlet Extender Stick, 360° Rotati [Phones & Electronics]
+                                  @tapa_mondo: Replying to @Alisha | Cozy Home Finds how about some more so
+                                  https://www.tiktok.com/@tapa_mondo/video/7698551361167723789
+  2       62K    130K  2.1d  0.37  Reusable Grocery Bags,Large Grocery Tote Bag Water Resi [Home Supplies]
+                                  @juliesbeautybydesign: Reusable Shopping Bags#shoppingbag #reusuable #TikTokShop #b
+                                  https://www.tiktok.com/@juliesbeautybydesign/video/7698392892947041549
+  3       43K     77K  1.8d  1.25  Women's Fashion Casual Solid Color Mesh Patchwork Faux  [Womenswear & Underwear]
+                                  @zoesecrets4u: Omgggaw 🤎😩✨🤏🏼 #furtop #fallfashion #tiktokshopblackfriday #t
+                                  https://www.tiktok.com/@zoesecrets4u/video/7698476738023673101
+  4       38K     35K  0.9d  1.14  Momcozy Portable Milk Warmer for Travel – Dual Heating  [Baby & Maternity]
+                                  @officialyumibaby: We do not leave the house without this Momcozy bottle warmer
+                                  https://www.tiktok.com/@officialyumibaby/video/7698824295136398623
+  5       26K     55K  2.1d  0.05  (product not in TikTok's data)
+                                  @cha_gutierrez30: Perfecta para tu maquillague.#tiktokshopblackfriday #Discove
+                                  https://www.tiktok.com/@cha_gutierrez30/video/7698382341693099277
+  6       19K    7.0K  0.4d  0.04  (product not in TikTok's data)
+                                  @carolinecao128: #tiktokshop #tiktok #tiktokshopholidayhaul #fyp #dealsforyou
+                                  https://www.tiktok.com/@carolinecao128/video/7699033107944443158
+  7       16K     37K  2.3d  0.11  Unisex Button-Front Short-Sleeve Horror Theme Graphic B [Sports & Outdoor]
+                                  @change1e: #tiktokshopblackfriday #tiktokshopcybermonday #spotlinghtfin
+                                  https://www.tiktok.com/@change1e/video/7698324651805527310
+  8       12K     23K  1.9d  0.42  Anboor Cake Slow Rising Squishys - Whimsical Birthday G [Toys & Hobbies]
+                                  @morgan_kaleb: #tiktokshopcreatorpicks #tiktokshopblackfriday #tiktokshopho
+                                  https://www.tiktok.com/@morgan_kaleb/video/7698451822733774111
+  9       12K     11K  0.9d  0.25  Stainless steel round countertop tissue holder, freesta [Home Supplies]
+                                  @mimigadise: Stainless steel round countert #homefinds #tiktokshop #foryo
+                                  https://www.tiktok.com/@mimigadise/video/7698833539055504670
+ 10       11K    8.6K  0.8d  0.65  Lion Pair Acne Cream Acne Treatment Pimples Removal Cre [Beauty & Personal Care]
+                                  @miathehutt: 
+                                  https://www.tiktok.com/@miathehutt/video/7698884565754072351
+ 11      8.9K    5.0K  0.6d  0.34  Womens Clogs Slip-on Potato Shoes Leather Mules with Su [Shoes]
+                                  @yonikaaw: so cute!! #falltiktokshopfinds 
+                                  https://www.tiktok.com/@yonikaaw/video/7698967040157109534
+ 12      7.6K     22K  2.9d  0.19  MoreFeel Cute PP+TPE Collapsible Portable Travel Baby B [Baby & Maternity]
+                                  @blandonesther2cuenta: Mamis, miren esta bañerita 🎀🛁tan práctica para nuestros bebé
+                                  https://www.tiktok.com/@blandonesther2cuenta/video/7698091684189523214
+ 13      7.4K    4.5K  0.6d  0.07  Baby Girl Halloween Outfit Long Sleeve Pumpkin Flower P [Baby & Maternity]
+                                  @oneclassybitchh: #clothes #babytok #momlife #tiktokshopholidayhaul #tiktoksho
+                                  https://www.tiktok.com/@oneclassybitchh/video/7698948291261697310
+ 14      6.8K     19K  2.8d  0.04  Starface Hydro-Star Pink Pimple Patches + Compact, 32 c [Beauty & Personal Care]
+                                  @socalshopdeals: The cutest #tiktokshopcreatorpicks #TiktokShopBlackFriday #d
+                                  https://www.tiktok.com/@socalshopdeals/video/7698143671450979614
+ 15      5.8K     11K  1.9d  0.57  JOYIN Thanksgiving Dumpling Stress Relief Toys Set, Cut [Toys & Hobbies]
+                                  @morgan_kaleb: #tiktokshopcreatorpicks #dumplings #tiktokshopblackfriday #t
+                                  https://www.tiktok.com/@morgan_kaleb/video/7698449289890106655
+ 16      5.4K    4.5K  0.8d  1.66  [SKIN1004 Official Shop] Centella Ampoule (55ml & 100ml [Beauty & Personal Care]
+                                  @nishabeautylifestyle: POV: Your TikTok Shop samples are TAKING OVER! 😍🛍️💗✨ Skincar
+                                  https://www.tiktok.com/@nishabeautylifestyle/video/7698862225351560479
+ 17      4.9K     10K  2.2d  0.16  Heavy Duty(9.85FT), Nano Double Sided Adhesive Tape, Cl [Tools & Hardware]
+                                  @moskowitz.wichter: Wow, this nano double-sided tape is so useful! You can use i
+                                  https://www.tiktok.com/@moskowitz.wichter/video/7698372279926902047
+ 18      4.8K    4.6K  1.0d  0.18  ohora Best Sellers Collection - Gel Press-On Nails [Beauty & Personal Care]
+                                  @morgan_kaleb: #pressons #tiktokshopcreatorpicks #tiktokshopblackfriday #na
+                                  https://www.tiktok.com/@morgan_kaleb/video/7698816677563206942
+ 19      4.4K    2.5K  0.6d  0.72  Yellow Sapphire Zip Hoodie [Menswear & Underwear]
+                                  @whereisdmrj: #trending #viral #shopnow #ootd #tiktokshop 
+                                  https://www.tiktok.com/@whereisdmrj/video/7698963369423949086
+ 20      4.4K    2.6K  0.6d  0.11  2027 Vision Board Book for Women, 110+ Inspirational Pa [Computers & Office Equipment]
+                                  @oneclassybitchh: #visionboard #books #booktok #tiktokshopblackfriday #tiktoks
+                                  https://www.tiktok.com/@oneclassybitchh/video/7698946894315277599
+exit 0
