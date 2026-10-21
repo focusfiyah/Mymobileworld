@@ -2,6 +2,7 @@
 free pace to 3.5 words/s + -16 LUFS (grace/voice/pace.py) -> vo/voiceover_paced.mp3, free echo clean (grace/voice/clean.py)
 -> vo/voiceover.mp3, scribe_v2 word times on the final file -> vo/stt.json, shot windows written back into shots.json.
   python3 vo.py            full run (ElevenLabs TTS + STT are paid characters; gate-protected)
+  python3 vo.py --after-pace   reuse vo/voiceover_paced.mp3: clean + STT only
   python3 vo.py --retime   reuse vo/voiceover.mp3 + vo/stt.json (no paid calls)"""
 import json, re, subprocess, sys
 from pathlib import Path
@@ -15,13 +16,15 @@ HERE = Path(__file__).resolve().parent; VOICE_DIR = HERE.parents[1] / "grace/voi
 G = json.loads((VOICE_DIR / "grace.json").read_text())
 J = json.loads((HERE / "shots.json").read_text()); P = HERE / "vo"
 text = " ".join(s["vo"] for s in J["shots"])
-if "--retime" not in sys.argv:
+AFTER = "--after-pace" in sys.argv   # resume after a failed clean step: reuse vo/voiceover_paced.mp3 (no new TTS)
+if "--retime" not in sys.argv and not AFTER:
     body = {"text": text, "model_id": G["model_id"], "voice_settings": G["voice_settings"]}
     json.dump({"voice_id": G["voice_id"], **body}, open(P / "vo.json", "w"), indent=1)
     _gate()
     r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{G['voice_id']}?output_format=mp3_44100_128", json=body, timeout=300); r.raise_for_status()
     (P / "voiceover_raw.mp3").write_bytes(r.content)
     subprocess.run([sys.executable, str(VOICE_DIR / "pace.py"), str(P / "voiceover_raw.mp3"), str(P / "voiceover_paced.mp3"), "--wps", "3.5"], check=True)
+if "--retime" not in sys.argv:
     subprocess.run([sys.executable, str(VOICE_DIR / "clean.py"), str(P / "voiceover_paced.mp3"), str(P / "voiceover.mp3")], check=True)
     _gate()
     r = requests.post("https://api.elevenlabs.io/v1/speech-to-text", data={"model_id": "scribe_v2", "timestamps_granularity": "word"},
