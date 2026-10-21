@@ -5,7 +5,7 @@ EDIT: per video, the clips in order with (in, out) seconds; GRADE: a different b
 import subprocess, sys
 from pathlib import Path
 EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, no product change inside a window)
- "V1": [("V1S1", 0, 3.2), ("V1S2", 0, 4.0)],
+ "V1": [("V1S1", 0, 4.6, {"push": 1.08}), ("V1S2", 0, 4.0)],   # r6: V1S1 = Kling 3.0 first=last frame (never turns)
  "V2": [("V2S1", 0, 3.6), ("V2S2", 1.5, 5.0)],
  "V3": [("V3S1", 0, 5.0), ("V3S2", 0, 2.3)],   # r4: cut before the fast flip to the sole
  "V4": [("V4S2", 0, 2.875), ("V4S1", 0, 4.0), ("V4S2", 3.5, 4.8)],   # r4 redo: V4S2 pops at 2.917 s (frame 70), dolly between the two clean holds
@@ -27,11 +27,13 @@ GRADE = {  # all bright and neutral; small differences so no two videos share a 
 
 def cut(v):
     Path("out").mkdir(exist_ok=True); ins, parts = [], []
-    for i, (cid, a, b) in enumerate(EDIT[v]):
+    for i, (cid, a, b, *opt) in enumerate(EDIT[v]):
         ins += ["-ss", str(a), "-t", str(b - a), "-i", f"clips/{cid}.mp4"]
-        parts.append(f"[{i}:v]scale=1080:1920:flags=lanczos,fps=30,setsar=1,{GRADE[v]},setpts=PTS-STARTPTS[v{i}]")
+        push = (opt[0] if opt else {}).get("push")   # free smooth push-in on a near-still real clip (PLAYBOOK FUSOU V3: locked-off clips read as photos)
+        zoom = (f",scale=w='trunc(1080*(1+{push - 1}*t/{b - a})/2)*2':h=-2:eval=frame:flags=lanczos,crop=1080:1920" if push else "")
+        parts.append(f"[{i}:v]scale=1080:1920:flags=lanczos,fps=30,setsar=1{zoom},{GRADE[v]},setpts=PTS-STARTPTS[v{i}]")
     n = len(EDIT[v]); fc = ";".join(parts) + ";" + "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]"
-    dur = sum(b - a for _, a, b in EDIT[v])
+    dur = sum(e[2] - e[1] for e in EDIT[v])
     rev = f"out/{v}_review.mp4"
     subprocess.run(["ffmpeg", "-y", "-v", "error", *ins, "-f", "lavfi", "-t", str(dur), "-i", "anullsrc=r=44100:cl=stereo",
                     "-filter_complex", fc, "-map", "[v]", "-map", f"{n}:a", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",

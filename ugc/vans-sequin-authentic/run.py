@@ -77,3 +77,18 @@ def edit(sid):
 if __name__ == "__main__" and sys.argv[1] == "edit":
     with ThreadPoolExecutor(4) as ex:
         list(ex.map(edit, sys.argv[2:]))
+
+
+def kling_clip(sid, prompt):
+    """Kling 3.0 Omni on Kie ($0.07/s) with the clean still as BOTH first and last frame (LGXNDS kie2.py last_frame_same):
+    the clip must end where it starts, so a held shoe cannot flip or switch sides (Vans 2026-10-21, Seedance kept turning it)."""
+    s = S[sid]
+    first = Path(f"stills/{sid}_clean.png"); first = first if first.exists() else Path(f"stills/{sid}.png")
+    u = kie.upload(str(first))
+    body = {"model": "kling-3.0-omni/image-to-video", "input": {"prompt": prompt, "image_urls": [u, u], "duration": s["dur"],
+            "resolution": "720p", "aspect_ratio": "auto", "audio": False}}
+    url = kie.run_task(body)
+    if url:
+        out = Path(f"clips/{sid}.mp4")
+        if out.exists(): out.rename(f"clips/{sid}_r{len(list(Path('clips').glob(sid + '_r*.mp4')))}.mp4")
+        kie.fetch(url, str(out)); print("kling clip", sid, "ok", flush=True)
