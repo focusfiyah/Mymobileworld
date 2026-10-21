@@ -5,7 +5,7 @@ sheet for product lock"). Route: `ugc-product-ad` hands-only demo over a voiceov
 stills from the product reference sheet, no pasted labels; hand clips Seedance 2.0 Mini reference mode; hand-free dollies
 Kling 3.0 on Ralph's account). VO ElevenLabs Grace C (loudnorm -16 LUFS). ~37 s, 9:16, 9 shots (4 hand-free).
 
-Status: CUT r2 sent 2026-10-21 (S4 beam fixed per Ralph: lands in front of the lens), out/powerbank_flashlight_r2.mp4, 33.2 s, gate --stage cut OK. Voice "Grace cloned" Rh3oAQ... (Grace C gone). Optional: S8 redo $0.205. Kie $2.999 of $3.089 (quote + approved S4 fix). Drive after approval. Review https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA
+Status: cut r2 sent; Ralph 2026-10-21: S1 phone light faced the camera, fix = screen to camera, light pointing away, Grace's TikTok (7688848730010766622, 9.5-14.7 s) on the screen. S1 v2 prompts ready; waiting on OK for $0.295 (still $0.09 + 5 s clip $0.205). Kie $2.999 so far. Review https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA
 Spent $0. Quote: Kie $2.00 (9 stills $0.81 + 5 Seedance clips $0.984 + 1 Seedance-vs-Kling test clip $0.205), Kling ~128
 credits (218 available), ElevenLabs ~600 chars. Drive: not yet (folder "Power Bank Flashlight (Grace)" at delivery).
 
