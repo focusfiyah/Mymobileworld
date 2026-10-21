@@ -52,8 +52,21 @@ def clip(sid):
     if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and sys.argv[1] in ("stills", "clips"):
     kind, ids = sys.argv[1], sys.argv[2:]
     for d in ("stills", "clips"): Path(d).mkdir(exist_ok=True)
     with ThreadPoolExecutor(max(1, min(4, len(ids)))) as ex:
         list(ex.map(still if kind == "stills" else clip, ids))
+
+
+def edit(sid):
+    """Paid edit of an existing still (nano-banana-pro, $0.09): only the change in shots.json 'edit'. Keeps the original as <id>_orig.png."""
+    s = S[sid]; src = Path(f"stills/{sid}.png")
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": s["edit"], "image_input": [kie.upload(str(src))], "aspect_ratio": "9:16", "resolution": "1K"}})
+    if url:
+        src.rename(f"stills/{sid}_orig.png"); kie.fetch(url, str(src)); print("edit", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "edit":
+    with ThreadPoolExecutor(4) as ex:
+        list(ex.map(edit, sys.argv[2:]))
