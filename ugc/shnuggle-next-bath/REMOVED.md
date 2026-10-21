@@ -3,3 +3,4 @@ Standing (Ralph): no on-screen text or captions; no product cards or pop-ups; no
 This job: no child or baby on screen (AI children are not generated).
 - Plug-pull shots R1-11 and R2-12 (Ralph 2026-10-16): "Remove the plug because the product does not have it that size and positioned where it is. You can mention it however [don't] need to show it." The VO still says "easy-drain plug"; no plug close-up, no plug pull, no hand on a plug.
 - This job: the script does not mention the plug at all.
+- This job: no Kling (Ralph 2026-10-21: "do not use kling"); every clip is Seedance 2.0 Mini on Kie.
