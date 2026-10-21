@@ -1,0 +1,91 @@
+{
+ "scripts": [
+  "scripts.json"
+ ],
+ "vo_lines": [
+  "scripts.json"
+ ],
+ "playbook": {
+  "proof": [
+   "../../../grace/PLAYBOOK.md",
+   "../../../grace/winners/PATTERNS.md"
+  ],
+  "rules_applied": [
+   "§1 no price, orange cart close, sell-side lines only",
+   "§3 Grace's own hooks (her looser wording, Ralph 2026-10-20)",
+   "§4 hook-pain-solution-proof-close kept from the winner",
+   "§6 REMOVED.md, existing clips at 1.0x, product real",
+   "PATTERNS #1 product in first second, #6 objection answered, #10 Grace's voice (clone Grace C on Ralph's say)"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_castor_rollon.txt",
+   "research/tag_castoroil.txt",
+   "research/videos",
+   "ref/7697844264050511135/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral_board.txt"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "max_grade": 5.2
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md",
+   "research/audience/comments.md",
+   "research/audience/questions.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "research/compare_v1/compare/compare.md",
+   "research/compare_v2/compare/compare.md",
+   "research/compare_v3/compare/compare.md",
+   "research/compare_v4/compare/compare.md",
+   "research/compare_notes.md"
+  ]
+ },
+ "remix_override": {
+  "rule": "every video different (hard rule 6)",
+  "by": "Ralph",
+  "date": "2026-10-20",
+  "quote": "Use the winning formula. Keep the visuals similar, similar script, change the hook as long as it makes sense. remix the current video.",
+  "note": "same clips as the winner, but each of the 4 gets its own shot order, framing and bright grade"
+ },
+ "voice": {
+  "by": "Ralph",
+  "date": "2026-10-20",
+  "quote": "Use Grace new voice as the VO ... If Grace does not like the VO she will rerecord the VOs.",
+  "voice": "Grace C P8OUGBCvq8OBS4xlb65A"
+ }
+}
