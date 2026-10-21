@@ -1,0 +1,72 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "scripts.md",
+ "playbook": {
+  "proof": [
+   "proof/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "proof/coach_research.md",
+   "research/coach/ref_real/7679113227904503053/meta.json",
+   "research/coach/top/7697300865182420237/meta.json",
+   "research/coach/top/7696673016251452685/meta.json",
+   "research/coach/top/7694817496716643615/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-21.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "research/vans_pdp.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "proof/humanizer.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "proof/readability_v1.txt",
+   "proof/readability_v2.txt",
+   "proof/readability_v3.txt",
+   "proof/readability_v4.txt",
+   "proof/readability_v5.txt",
+   "proof/readability_v6.txt",
+   "proof/readability_v7.txt",
+   "proof/readability_v8.txt",
+   "proof/readability_v9.txt",
+   "proof/readability_v10.txt"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "proof/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "proof/compare.md",
+   "proof/compare/V5/compare/compare.md",
+   "proof/compare/V1/compare/compare.md"
+  ]
+ }
+}

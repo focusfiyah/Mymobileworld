@@ -1,0 +1,137 @@
+  #tiktokshopfashion: 113 videos
+  #tiktokshopoutfit: 112 videos
+  #tiktokshopclothes: 112 videos
+  #tiktokshopfinds: 109 videos
+  #vans: 134 videos
+  #sneakers: 137 videos
+  #sequinshoes: 146 videos
+  #checkeredvans: 132 videos
+/home/user/Dayone-ai/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Dayone-ai/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+914 videos scanned, 319 shop videos posted in the last 30.0 day(s) -> ./viral-2026-10-21.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      200K    1.3M  6.5d  0.07  URMCZ Men's 3-Pack Basic Menswear Plain Cargo Pants, Wi [Menswear & Underwear]
+                                  @ccitko: #mensfashion#tiktokshop#fashiontiktok#Cool#ootd
+                                  https://www.tiktok.com/@ccitko/video/7696494807182560526
+  2      196K    3.4M 17.4d  0.26  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+  3      184K    2.7M 14.7d  0.19  (product not in TikTok's data)
+                                  @sprowgoudie9678: #fyp #tiktok #tiktokshop #tiktokmademebuyit 
+                                  https://www.tiktok.com/@sprowgoudie9678/video/7693467720653737246
+  4      158K    1.7M 10.8d   0.3  Tear-Off Microfiber Cleaning Cloth Roll, Lint-Free High [Home Supplies]
+                                  @rljq7322u6l: #fyp #foryou #tiktokshop 
+                                  https://www.tiktok.com/@rljq7322u6l/video/7694924393893432607
+  5      146K    1.0M  6.8d  0.68  Women's 2pcs Set Loose Striped V-Neck Drop Shoulder Lon [Womenswear & Underwear]
+                                  @staygoldlex: Finally back in stock! This loungewear set is sooo cozy and 
+                                  https://www.tiktok.com/@staygoldlex/video/7696382504067976479
+  6      129K    1.2M  9.3d  1.22  YBoutique 2pcs Sweatsuit for Women-Yellow Zip-Up Hoodie [Womenswear & Underwear]
+                                  @shopwithtaye: It’s the shade of pink AND the little details for me 😭🎀💗 mat
+                                  https://www.tiktok.com/@shopwithtaye/video/7695471370209119519
+  7      124K    530K  4.3d  3.36  Women's American Retro Sleeveless Short Dark Wash Denim [Womenswear & Underwear]
+                                  @leahstyle4: #womensfashion #fallootd #TikTokShopFallDealsForYou #TikTokS
+                                  https://www.tiktok.com/@leahstyle4/video/7697328352876711181
+  8      123K    3.0M 24.5d  0.06  【Creator's Pick】GOPUNE Men's Waterproof Pants Insulated [Menswear & Underwear]
+                                  @goles5807mc: tough & affordable #outfitinspo #fashiontok #ootd #tiktoksho
+                                  https://www.tiktok.com/@goles5807mc/video/7689843513785158925
+  9      120K    3.2M 26.7d  1.27  (product not in TikTok's data)
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 10       96K    2.4M 25.1d  0.86  Winter New Vintage Plaid Heart Elastic Straight Loose T [Womenswear & Underwear]
+                                  @lacel0ver: The comfiest fuzzy checkered pants you need for cozy fall da
+                                  https://www.tiktok.com/@lacel0ver/video/7689601265491365151
+ 11       93K    492K  5.3d  0.41  A Pair of Plus Size Women's Fashion New Round Toe Flat  [Shoes]
+                                  @anikorains: Obsessed with these sneakers is an understatement! These are
+                                  https://www.tiktok.com/@anikorains/video/7696962210081361183
+ 12       82K    1.0M 12.1d  0.31  Women's Fashion Casual Solid Color Mesh Patchwork Faux  [Womenswear & Underwear]
+                                  @marynicole__: and it’s so AFFORDABLE?!?! @ChicVibe Fashion #tiktokshopfall
+                                  https://www.tiktok.com/@marynicole__/video/7694418912208850189
+ 13       75K    1.9M 25.4d   0.5  (product not in TikTok's data)
+                                  @watermelon2198: Cakep poll sneakers satu ini 😍 #sepatusneakers #sepatukorean
+                                  https://www.tiktok.com/@watermelon2198/video/7689485689641061652
+ 14       73K    586K  8.0d  0.13  Men’s Elegant Plain Long Pea Coat - Single-Breasted, Tu [Menswear & Underwear]
+                                  @hdhfbf12: #tiktokfashion #tiktokshop #ootd #fyp #mensfashion 
+                                  https://www.tiktok.com/@hdhfbf12/video/7695955084840013070
+ 15       68K    711K 10.5d  0.22  Crocs Women's Dylan Platform Buckle Wedge Sandals [Shoes]
+                                  @dayamirys23: Respuesta a @Yamira Rodriguez #tiktokshopfalldealsforyou #ti
+                                  https://www.tiktok.com/@dayamirys23/video/7695022032672574734
+ 16       67K    487K  7.3d  1.06  Chicovar Women's Lace Skirt Summer Floral Pleated Slip  [Womenswear & Underwear]
+                                  @lindaannettem: Your short sweaters just got a little more wearable 🤌🏼 this 
+                                  https://www.tiktok.com/@lindaannettem/video/7696214934732016926
+ 17       58K    310K  5.3d  0.45  Jemima Low Rise Straight Leg Jeans [Womenswear & Underwear]
+                                  @groovygirlol: Tiktokshop warrior and I don’t give a gaf #tiktokshop #tikto
+                                  https://www.tiktok.com/@groovygirlol/video/7696941252381609246
+ 18       58K    822K 14.2d  0.14  (product not in TikTok's data)
+                                  @girlypopshopfinds: 
+                                  https://www.tiktok.com/@girlypopshopfinds/video/7693646124560813342
+ 19       56K    156K  2.8d   0.3  Elegant Women's Shawl Sleeve Midi Dress Slim Fit Pleate [Womenswear & Underwear]
+                                  @zoesecrets4u: omgggg 😩🍂✨🫶 #tiktokshopfalldealsforyou #dress #outfitinspo #
+                                  https://www.tiktok.com/@zoesecrets4u/video/7697866364869971213
+ 20       45K    196K  4.4d   1.0  Vans Unisex Authentic Low Top Shoe [Shoes]
+                                  @haileyrrico: Absolutely obsessed 🤎 @vans #vans #plaid #tiktokshopfalldeal
+                                  https://www.tiktok.com/@haileyrrico/video/7697300865182420237
+ 21       38K    125K  3.3d  0.72  Halara UltraSculpt™ High Waisted Stretchy PU Tummy Cont [Sports & Outdoor]
+                                  @leahstyle4: So fall coded🍂🍁#womensfashion #halaraleggings #falloutfitins
+                                  https://www.tiktok.com/@leahstyle4/video/7697698310760484110
+ 22       36K    625K 17.6d  0.11  (product not in TikTok's data)
+                                  @pfxkaptu1xa: #fashion#spotlightfinds#fyp#tiktokshop#ootd
+                                  https://www.tiktok.com/@pfxkaptu1xa/video/7692402306935049486
+ 23       32K    191K  6.1d  0.72  Vans Unisex Premium Old Skool 36 Low Top Shoe [Shoes]
+                                  @3uddafinds: 👆Grab a pair before they sell out👆 #recentpickups #musthaves
+                                  https://www.tiktok.com/@3uddafinds/video/7696673016251452685
+ 24       31K    427K 13.6d  0.55  DOKOTOO Women's Casual  Sweaters Elegant Floral Pattern [Womenswear & Underwear]
+                                  @auntieapprovesboo: The sweater IS the outfit. 🤎 That oversized fit, asymmetrica
+                                  https://www.tiktok.com/@auntieapprovesboo/video/7693869819149536526
+ 25       31K    672K 21.5d  0.22  Purebeat Women's 2-Pack Fleece Elastic-Waistband Baggy  [Womenswear & Underwear]
+                                  @paulwilson6041io98: #womenfashion#tiktokshop#Cool#ootd
+                                  https://www.tiktok.com/@paulwilson6041io98/video/7690859774853844237
+ 26       31K    363K 11.6d  0.42  (product not in TikTok's data)
+                                  @mia.crtr07: so cute honestly you all NEED to get a pair #tiktokshopfinds
+                                  https://www.tiktok.com/@mia.crtr07/video/7694598242280983830
+ 27       29K    721K 25.0d  0.92  Fat Brain Toys Air Toobz Air-Powered STEM Building Toy  [Toys & Hobbies]
+                                  @the2momfamily: The kind of toy that buys you enough time to actually finish
+                                  https://www.tiktok.com/@the2momfamily/video/7689641700536438030
+ 28       27K    518K 19.1d  0.92  FDR Women’s Contrast Color Oversized Zip-Up Hoodie, Loo [Womenswear & Underwear]
+                                  @breeskiiiiiiiii: #fyp #tiktokshop #fdr #trending #tiktokshopforcreators 
+                                  https://www.tiktok.com/@breeskiiiiiiiii/video/7691840922341985567
+ 29       21K    513K 24.0d  0.23  TIMEOFF Women's Polka Dot 2-Piece Activewear Set - Shor [Sports & Outdoor]
+                                  @rn.ashley: This workout set is SO good omg 👌🏼🤎 #workoutset #pilatesoutf
+                                  https://www.tiktok.com/@rn.ashley/video/7690004421299801375
+ 30       20K    556K 27.9d  0.15  YEOREO CoreFlex Women's Leggings - High Waisted, Hidden [Sports & Outdoor]
+                                  @prettypickedd: So many colors for fall #tiktokshopstockup #tiktokshopcreato
+                                  https://www.tiktok.com/@prettypickedd/video/7688536387187936525
+ 31       17K    371K 21.4d  0.19  (product not in TikTok's data)
+                                  @thatgirlyisabrat: #TikTokShop #GadgetFinds #TechTok #CoolFinds #TikTokMadeMeBu
+                                  https://www.tiktok.com/@thatgirlyisabrat/video/7690990932832931086
+ 32       17K    141K  8.4d  0.07  Ricky Bobby Driver Deluxe Jumpsuit and Hat Halloween Co [Menswear & Underwear]
+                                  @ryanmzoo19d: #tiktokshop #fyp #clothingbrand 
+                                  https://www.tiktok.com/@ryanmzoo19d/video/7695779857627761951
+ 33       16K    179K 11.1d  0.49  Vans Unisex Classic Slip-On Low Top Shoe [Shoes]
+                                  @the.v.essentials: 🍂🤎Brown checkerboard Vans for fall outfits 🤎🍂 #vans #fallaes
+                                  https://www.tiktok.com/@the.v.essentials/video/7694817496716643615
+ 34       15K     30K  2.0d  0.41  Women's Ruched Halter Backless Dress, Elegant Mesh Cape [Womenswear & Underwear]
+                                  @relationship.quot25: Perfect fall dress 🍂🤎 #fallfashion #dressinspo #tiktokshopfa
+                                  https://www.tiktok.com/@relationship.quot25/video/7698160920538664223
+ 35       14K    227K 15.8d  0.12  Tipsy Elves Women's Original Halloween Costumes [Womenswear & Underwear]
+                                  @shescraftyasbelle: Ohh the fun opportunities for this throw on mesh top! I love
+                                  https://www.tiktok.com/@shescraftyasbelle/video/7693047200468733197
+ 36       14K    128K  9.2d  1.48  (product not in TikTok's data)
+                                  @http._.lalaaaa: the shower hack i didn’t know i needed 🤣🫧 #TikTokShopFinds #
+                                  https://www.tiktok.com/@http._.lalaaaa/video/7695520392718470431
+ 37       10K     12K  1.1d  1.08  Women's Fashion Casual Solid Color Mesh Patchwork Faux  [Womenswear & Underwear]
+                                  @zoesecrets4u: Omgggaw 🤎😩✨🤏🏼 #furtop #fallfashion #tiktokshopblackfriday #t
+                                  https://www.tiktok.com/@zoesecrets4u/video/7698476738023673101
+ 38      7.3K    3.1K  0.4d  0.19  Elegant Women's Shawl Sleeve Midi Dress Slim Fit Pleate [Womenswear & Underwear]
+                                  @bellahsz14: #fashiontiktok #tiktokshopfinds #viralfind #outfitideas #fas
+                                  https://www.tiktok.com/@bellahsz14/video/7698759992626728223
+ 39      7.1K    144K 20.4d  0.15  Women's Denim Overalls - Lady's Casual Women's Clothing [Womenswear & Underwear]
+                                  @bennobop: 💕#Fyp #tiktokshop #Foryou#outfitcheck 
+                                  https://www.tiktok.com/@bennobop/video/7691323379634195726
+ 40      6.8K     27K  4.0d  0.36  [medicube] Licensed Esthetician Nikki's New Year New Yo [Beauty & Personal Care]
+                                  @calleighpaige07: So many goodies!!! #tiktokshop #tiktokshophaul #haul #haulac
+                                  https://www.tiktok.com/@calleighpaige07/video/7697449897594801422
