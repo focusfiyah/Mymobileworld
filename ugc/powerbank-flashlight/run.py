@@ -25,8 +25,8 @@ def still(sid):
     s = S[sid]; refs, names = [], []
     if s["hand"]: refs.append(kie.upload(HAND)); names.append("Grace's hand reference sheet (skin, nails, rings, bracelets)")
     if s["product"]:
-        refs += [kie.upload(FRONT), kie.upload(SHEET)]
-        names += ["the flashlight's front view (main reference)", "the flashlight reference sheet (every side)"]
+        refs += [kie.upload(s.get("main_view", FRONT)), kie.upload(SHEET)]
+        names += ["the flashlight " + ("3/4 lens-end view (main reference for this shot)" if s.get("main_view") else "front view (main reference)"), "the flashlight reference sheet (every side)"]
     if Path(LOOK).exists():
         refs.append(kie.upload(LOOK)); names.append("an approved frame from this same video (match its hand, rings and light)")
     note = " Reference images, in order: " + "; ".join(names) + "." if names else ""
@@ -39,7 +39,7 @@ def still(sid):
 def clip(sid):
     """Seedance reference mode (LGXNDS v5 method, Ralph 2026-10-19): image 1 = the clean still, 2 = product front, 3 = sheet."""
     s = S[sid]
-    refs = [kie.upload(f"stills/{sid}.png")] + ([kie.upload(FRONT), kie.upload(SHEET)] if s["product"] else [])
+    refs = [kie.upload(f"stills/{sid}.png")] + ([kie.upload(s.get("main_view", FRONT)), kie.upload(SHEET)] if s["product"] else [])
     prompt = ("Recreate reference image 1 exactly (same place, framing, light" + (", hand, rings, bracelets" if s["hand"] else "") + ") as the first frame, then: "
               + s["video"] + " " + J["video_suffix"]
               + ("" if s["hand"] else " No hand, no fingers and no people appear at any time, at any edge of the frame (Seedance adds one after 1-2 s in hand-free scenes).")

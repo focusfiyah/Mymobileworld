@@ -5,7 +5,7 @@ sheet for product lock"). Route: `ugc-product-ad` hands-only demo over a voiceov
 stills from the product reference sheet, no pasted labels; hand clips Seedance 2.0 Mini reference mode; hand-free dollies
 Kling 3.0 on Ralph's account). VO ElevenLabs Grace C (loudnorm -16 LUFS). ~37 s, 9:16, 9 shots (4 hand-free).
 
-Status: APPROVED 2026-10-21 (dusk OK, Grace hand sheet with bracelet + rings, Ralph's product sheet). NO KLING (Ralph 2026-10-21): all 9 clips Seedance, new quote Kie $2.704 (incl. S4 redo). S4 test still r1 failed QC; fixed prompt ready, waiting on OK for the redo. Kie spent $0.09. Review page https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA
+Status: APPROVED 2026-10-21, no Kling (all jobs). S4 test still r1 + r2 failed QC (upright, forearm, button hidden); r3 prompt ready (3/4 lens view as main ref), waiting on OK for $0.09. Kie spent $0.18 of $2.794 quote. Review page https://claude.ai/artifact/Xp1Z3kXSxUqNjS8ygSr9MA
 Spent $0. Quote: Kie $2.00 (9 stills $0.81 + 5 Seedance clips $0.984 + 1 Seedance-vs-Kling test clip $0.205), Kling ~128
 credits (218 available), ElevenLabs ~600 chars. Drive: not yet (folder "Power Bank Flashlight (Grace)" at delivery).
 
