@@ -2,7 +2,7 @@
  "job": "cleanwaste-toilet-kit",
  "client": "Grace",
  "date": "2026-10-21",
- "route": "ugc-product-ad hands-only demo over a Grace C voiceover; Gemini 3 Pro Image stills + Seedance 2.0 Mini reference mode (hand) + Kling (hand-free)",
+ "route": "ugc-product-ad hands-only demo over a Grace C voiceover; Gemini 3 Pro Image stills (Kie nano-banana-pro) + Seedance 2.0 Mini on Kie for every clip (Ralph 2026-10-21: only Kie)",
  "scripts": [
   "scripts.md"
  ],
@@ -54,8 +54,7 @@
  },
  "readability": {
   "proof": [
-   "research/readability_v1.txt",
-   "research/readability_v2.txt"
+   "research/readability_v1.txt"
   ]
  },
  "line_sources": {
@@ -71,6 +70,8 @@
   "videos": [
    "V1"
   ],
-  "status": "PENDING Ralph's yes (rule: Grace's own script word for word only on his word)"
+  "by": "Ralph",
+  "date": "2026-10-21",
+  "quote": "Only v1, did not mention to do 2. Word for word and visuals match the script. Short French tips no rings. Only use Kie."
  }
 }

@@ -1,6 +1,6 @@
 # Cleanwaste Portable Toilet Bags (Grace), 2026-10-21
 
-Status: PLAN SENT 2026-10-21, waiting on Ralph's approval. Gate OK, $0 spent. Review page https://claude.ai/artifact/AiM9jZAQjFNExfb5A3rK2h. Quote both videos: Kie $4.58 + ~192 Kling credits (218 left) + ~1,040 ElevenLabs chars; V1 only Kie $2.04 + ~128 Kling credits. Next: one test still (V1S4 box in hand) -> storyboard -> one test clip -> batch.
+Status: V1 ONLY (Ralph 2026-10-21: word for word, visuals match the script, short French tips no rings, only Kie). Round 1 stills done ($0.81 Kie spent); 7 redos ($0.63) + 9 Seedance clips ($1.845) waiting on Ralph: new total $3.285 Kie. Review page https://claude.ai/artifact/AiM9jZAQjFNExfb5A3rK2h.
 
 Client brief (Grace, via Ralph 2026-10-21): AI video(s) ~30-35 s, angle "the emergency supply people forget until the toilet stops working", her own script + beginner shot list, preparation not a bathroom emergency. Ralph: use prompt-master for image + video prompts, do everything.
 

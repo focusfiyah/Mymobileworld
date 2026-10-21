@@ -11,3 +11,6 @@ Standing removals that apply to this job (Ralph's rules; add every new removal t
 - Same footage reused across videos with a new VO (Ralph 2026-10-04).
 - Forearms / oversized hands (Ralph 2026-10-04): only hand + wrist from the frame edge.
 Before sending: list every element in the cut (overlays, cards, hand shots, grade, framing, sounds, props) and tick it against this list and the last round's notes.
+- V2 (house version) and any second video (Ralph 2026-10-21: "Only v1, did not mention to do 2").
+- Kling on Ralph's account and any non-Kie engine (Ralph 2026-10-21: "Only use Kie").
+- Medium/long or coffin nails, rings, bracelets (Ralph 2026-10-21: "Short French tips no rings"); the LGXNDS hand photo is NOT passed as a reference (its nails are longer).
