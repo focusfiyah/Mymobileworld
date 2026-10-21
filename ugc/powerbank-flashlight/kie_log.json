@@ -1,0 +1,30 @@
+[
+ {
+  "t": "2026-10-21 18:15:43",
+  "submitted": "2dfe7c52d72a7372894a7b9a86de7228",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Blue-hour dusk on a backyard garden path, bright exposu"
+ },
+ {
+  "t": "2026-10-21 18:17:11",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Blue-hour dusk on a backyard garden path, bright exposure, deep blue sky still light: the hand holds the flashlight upright from the bottom right edge, fingers wrapped around the body near the hook end and the thumb resting on the orange button, the white light window facing the camera, the torch head pointing up and forward along the path. The hand is the ONLY person in the video: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band. Only the hand and wrist enter from the frame edge, whole wrist visible, no forearm, hand small (about 15 to 20% of the frame height). Fingers GRIP what they touch (thumb on one side, fingers curled on the other). Five fingers, natural knuckles and skin texture. The flashlight is exactly the one in the product reference images (image 'front' is the main view; the sheet shows it from every side): a slim squarish bar with rounded corners, about the length of a finger, uniform matte gunmetal space-grey anodized aluminium (one colour, no silver, no two-tone); at one end a gunmetal carabiner hook with a thin silver wire spring gate; on the front, just above the hook end, ONE rounded-square orange button with a small embossed arrow icon; above the button a long rounded-rectangle frosted white light window; the far end opposite the hook is the torch head with a round silver reflector and a small square LED inside a rounded-square bezel. No text, no logo, no stickers. It keeps exactly this shape, size, colour and parts in every frame: never longer, never round like a pen, no extra buttons, no screen, no second light. Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. Bright, clean, neutral exposure (no dark or moody look, no yellow or golden tint). No on-screen text, captions or logos. Reference images, in order: Grace's hand reference sheet (skin, nails, rings, bracelets); the flashlight's front view (main reference); the flashlight reference sheet (every side).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606536217-w5tz7p1qhug.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606538252-f1h29gh3evl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2dfe7c52d72a7372894a7b9a86de7228",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2dfe7c52d72a7372894a7b9a86de7228_0_1792606624.jpeg"
+   ]
+  },
+  "costTime": 82
+ }
+]
