@@ -7,3 +7,4 @@ This job: no child or baby on screen (AI children are not generated).
 - Forearm: ALLOWED (Ralph 2026-10-21: "forearm is ok"). The arm must still continue to the frame edge (no floating hands).
 - Big seat bump (Ralph 2026-10-21: "The bump in the middle is too big"): the real bump is a small, low oval swell about a third of the floor's width; S4, S5, S6, S7 round-1 versions rejected for it.
 - Product must stay true to the real tub (Ralph 2026-10-21): shape, tall backrest, badge text, ring pattern, small bump; checked side by side with the real photo at 2x.
+- Seat bump (Ralph 2026-10-21, final): still not true to the product after the fix round; accepted as is, "no more redos". Future Shnuggle videos: no AI close-ups of the empty tub floor.
