@@ -5,3 +5,5 @@ This job: no child or baby on screen (AI children are not generated).
 - This job: the script does not mention the plug at all.
 - This job: no Kling (Ralph 2026-10-21: "do not use kling"); every clip is Seedance 2.0 Mini on Kie.
 - Forearm: ALLOWED (Ralph 2026-10-21: "forearm is ok"). The arm must still continue to the frame edge (no floating hands).
+- Big seat bump (Ralph 2026-10-21: "The bump in the middle is too big"): the real bump is a small, low oval swell about a third of the floor's width; S4, S5, S6, S7 round-1 versions rejected for it.
+- Product must stay true to the real tub (Ralph 2026-10-21): shape, tall backrest, badge text, ring pattern, small bump; checked side by side with the real photo at 2x.
