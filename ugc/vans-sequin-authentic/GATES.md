@@ -14,8 +14,8 @@ Scope: 10 finished 7-15 s vertical AI videos of the real Vans Premium Authentic 
   EXPECT: SHEET_OK
   EVIDENCE: pending
 
-- [ ] G3: Ralph approved the one-message plan + total cost before any paid call (his words quoted in README)
-  EVIDENCE: pending
+- [x] G3: Ralph approved the one-message plan + total cost before any paid call (his words quoted in README)
+  EVIDENCE: Ralph 2026-10-21 'Go with Kie all the way' (plan B, $7.73 Kie)
 
 - [ ] G4: Every still QC'd at full size + 2x edges (grip, real shoe details, sequins only on black squares, white polish, anklet, no forearm) before its clip is paid for; one test still and one test clip first
   EVIDENCE: pending
