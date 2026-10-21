@@ -1,6 +1,6 @@
 """Free echo cleanup for a Grace voiceover: resemble-enhance (Resemble AI, MIT; weights download from HuggingFace on first run).
 
-Usage: python3 clean.py IN OUT [--tries 3] [--tau 0.1] [--lambd 0.5]
+Usage: python3 clean.py IN OUT [--tries 3] [--first 0] [--tau 0.1] [--lambd 0.5]
 The model samples randomly, so one run can come out drier or echoier than the input (2026-10-20 test on one line: fast
 decay 100 / 150 / 200 / 200 ms across runs, input 171). It runs --tries seeds and keeps the driest by echo.measure
 (lowest fast-decay rt, then lowest tail) among the runs whose words still match the input, levels it to -16 LUFS,
@@ -35,7 +35,7 @@ def words(path):
 
 ap = argparse.ArgumentParser()
 ap.add_argument("inp"); ap.add_argument("out")
-ap.add_argument("--tries", type=int, default=3); ap.add_argument("--lambd", type=float, default=0.5); ap.add_argument("--tau", type=float, default=0.1)
+ap.add_argument("--tries", type=int, default=3); ap.add_argument("--first", type=int, default=0); ap.add_argument("--lambd", type=float, default=0.5); ap.add_argument("--tau", type=float, default=0.1)
 a = ap.parse_args()
 
 raw = subprocess.run(["ffmpeg", "-v", "error", "-i", a.inp, "-ac", "1", "-ar", "44100", "-f", "f32le", "-"],
@@ -46,14 +46,15 @@ ref = words(a.inp)
 print(f"input: rt {base[0]:.0f} ms, tail {base[1]:.1f} dB, {len(ref)} words")
 best = None
 with tempfile.TemporaryDirectory() as d:
-    for seed in range(a.tries):
+    for seed in range(a.first, a.first + a.tries):   # --first: try new seeds after a run where every seed changed a word
         torch.manual_seed(seed)
         e, sr = enhance(wav, 44100, "cpu", nfe=64, solver="midpoint", lambd=a.lambd, tau=a.tau)
         p = os.path.join(d, f"s{seed}.wav")
         sf.write(p, e.numpy(), sr)
         rt, tail, _, _ = measure(p)
-        same = words(p) == ref
-        print(f"seed {seed}: rt {rt:.0f} ms, tail {tail:.1f} dB, words {'match' if same else 'CHANGED'}", flush=True)
+        got = words(p); same = got == ref
+        diff = "" if same else " " + str([(x, y) for x, y in zip(ref, got) if x != y][:3]) + ("" if len(ref) == len(got) else f" {len(ref)}->{len(got)} words")
+        print(f"seed {seed}: rt {rt:.0f} ms, tail {tail:.1f} dB, words {'match' if same else 'CHANGED'}{diff}", flush=True)
         if same and (best is None or (rt, tail) < best[:2]):
             best = (rt, tail, p)
     if best is None:

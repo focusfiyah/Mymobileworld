@@ -32,7 +32,10 @@ if "--retime" not in sys.argv:
     json.dump(r.json(), open(P / "stt.json", "w"), indent=1)
 d = json.load(open(P / "stt.json")); print("final", d["audio_duration_secs"], "|", d["text"])
 W = [w for w in d["words"] if w["type"] == "word"]
-norm = lambda x: re.sub(r"[^a-z0-9 ]", "", x.lower().replace("’", "'").replace("'", "")).replace(" ", "")
+ALIAS = {"schnuggle": "shnuggle", "wanna": "wantto"}  # STT spellings of what the script says (brand spelling; fast "want to")
+def norm(x):
+    x = re.sub(r"[^a-z0-9 ]", "", x.lower().replace("\u2019", "'").replace("'", ""))
+    return "".join(ALIAS.get(w, w) for w in x.split())
 i, starts = 0, []
 for s in J["shots"]:  # consume transcript words until they spell this shot's line (catches dropped or misheard words)
     starts.append(W[i]["start"]); target, got = norm(s["vo"]), ""

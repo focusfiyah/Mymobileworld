@@ -15,11 +15,12 @@ if n == "shot_mix":
     sh = S["shots"]; free = sum(not s["hand"] for s in sh) / len(sh); ok(n, 1 / 3 <= free <= 0.5, f"hand-free share {free:.2f}")
 if n == "vo_match":
     lines = " ".join((JOB / "vo/V1_lines.txt").read_text().split()); shots = " ".join(s["vo"] for s in S["shots"])
-    norm = lambda t: re.sub(r"[^a-z' ]", "", t.lower().replace("’", "'")).split()
+    AL = {"schnuggle": "shnuggle", "wanna": "wantto"}   # same aliases as vo.py (STT spelling of the brand; fast "want to")
+    norm = lambda t: "".join(AL.get(w, w) for w in re.sub(r"[^a-z ]", "", t.lower().replace("’", "'").replace("'", "")).split())
     stt = JOB / "vo/stt.json"
     if not stt.exists(): ok(n, False, "no vo/stt.json yet")
     heard = norm(json.loads(stt.read_text())["text"])
-    ok(n, norm(lines) == norm(shots) == heard, f"script/shots/STT differ: {len(norm(lines))}/{len(norm(shots))}/{len(heard)} words")
+    ok(n, norm(lines) == norm(shots) == heard, "script/shots/STT differ")
 if n == "product_lock":
     k = (JOB / "kie.py").read_text(); sheet = JOB / "refs/product_sheet.png"
     ok(n, sheet.exists() and "tub_refs" in k and "reference_image_urls" in k and not any(w in k for w in ("pasteback", "label_track", "label.py")), "sheet missing or kie.py does not pass tub_refs / ref mode")
