@@ -56,7 +56,7 @@ Same price per second as a new take, but everything Ralph already liked stays. A
 ## Cost and budget
 - Omni 720p is about $0.10/s ($0.51 for 5 s) vs Seedance Mini $0.041/s. Keep product shots 3-4 s; the plan quotes each
   shot's model and price and includes one likely fix.
-- Every plan and every redo question shows `python3 grace/spend.py`'s line: month so far vs Ralph's cap. At the cap,
+- Every plan and every redo question shows `python3 grace/spend.py`'s line: month so far vs Ralph's cap (none in October 2026, $100/month from November). At the cap,
   `grace/gate.py` refuses every paid runner until Ralph's OK is recorded in `grace/spend.json` over_cap_ok.
 
 ## What stays the same

@@ -62,15 +62,22 @@ def month_totals(month, job_prefix=None):
     return jobs, other, cfg
 
 
+def cap_for(month, cfg):
+    """The month's cap in USD, or None for no cap (caps_by_month overrides monthly_cap_usd)."""
+    caps = cfg.get("caps_by_month", {})
+    return caps[month] if month in caps else cfg["monthly_cap_usd"]
+
+
 def budget_errors(job_dir):
     """Called by grace/gate.py require(): refuse paid calls once the month is at the cap, unless Ralph's OK for this
     job and month is recorded in grace/spend.json over_cap_ok (his words, like checklist overrides)."""
     month = datetime.date.today().strftime("%Y-%m")
     jobs, other, cfg = month_totals(month)
-    total, cap = sum(jobs.values()) + other, cfg["monthly_cap_usd"]
+    total, cap = sum(jobs.values()) + other, cap_for(month, cfg)
     job = os.path.relpath(os.path.abspath(job_dir), ROOT)
-    print(f"BUDGET: month {month} so far ${total:.2f} of cap ${cap:.2f}; this job ${jobs.get(job, 0.0):.2f}", file=sys.stderr)
-    if not cfg.get("enforce", True) or total < cap:
+    capt = "no cap" if cap is None else f"cap ${cap:.2f}"
+    print(f"BUDGET: month {month} so far ${total:.2f} ({capt}); this job ${jobs.get(job, 0.0):.2f}", file=sys.stderr)
+    if cap is None or not cfg.get("enforce", True) or total < cap:
         return []
     ok = [o for o in cfg.get("over_cap_ok", []) if o.get("month") == month and job.startswith(o.get("job", "?"))
           and o.get("ralph")]
@@ -84,11 +91,14 @@ def main():
     ap.add_argument("--job")
     a = ap.parse_args()
     jobs, other, cfg = month_totals(a.month, a.job)
-    kie = sum(jobs.values()); total = kie + other; cap = cfg["monthly_cap_usd"]
+    kie = sum(jobs.values()); total = kie + other; cap = cap_for(a.month, cfg)
     for job, usd in sorted(jobs.items(), key=lambda x: -x[1])[:12]:
         print(f"  {job:45s} ${usd:6.2f}")
-    print(f"KIE ${kie:.2f}  OTHER ${other:.2f}  MONTH {a.month} TOTAL ${total:.2f} of cap ${cap:.2f}"
-          f" ({'OVER' if total > cap else 'left $%.2f' % (cap - total)})")
+    if cap is None:
+        print(f"KIE ${kie:.2f}  OTHER ${other:.2f}  MONTH {a.month} TOTAL ${total:.2f} (no cap this month)")
+    else:
+        print(f"KIE ${kie:.2f}  OTHER ${other:.2f}  MONTH {a.month} TOTAL ${total:.2f} of cap ${cap:.2f}"
+              f" ({'OVER' if total > cap else 'left $%.2f' % (cap - total)})")
     return 0
 
 
