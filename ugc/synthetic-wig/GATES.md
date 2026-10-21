@@ -36,10 +36,11 @@ lands in a Claude doc plus the product's Drive folder. Ralph is notified by push
 - [x] G6: Drive "Grace Tiktok assets" has ONE "Synthetic Wig (Grace)" folder with "CURRENT - " scripts doc, nothing new loose
   EVIDENCE: search for wig folders in Grace Tiktok assets returned none, then created folder 1vgVOitKBvgZbnqKNWmVAlVxN8Ns8LX7y; doc 'CURRENT - Synthetic Wig voiceover scripts v1 (2026-10-21)' 14UmV3UZKpEwiV-qbm4Rg5xHdeBvzH9v6WNu6VZEaabc inside it, read back in full (all 3 scripts). Grace's own SyntheticWig.MOV was already loose there (her upload, left in place, flagged to Ralph)
 
-- [ ] G7: README status line, CLAUDE.md job entry, playbook results line committed and pushed
+- [x] G7: README status line, CLAUDE.md job entry, playbook results line committed and pushed
   CHECK: test -z "$(git status --porcelain .)" && git fetch -q origin ccr-e66acd3b-4c4fj1 && git diff --quiet HEAD origin/ccr-e66acd3b-4c4fj1 && echo pushed-clean
   EXPECT: pushed-clean
   CWD: .
+  EVIDENCE: automatic-evidence=v1; definition-sha256=c55436f500dbe5a9b35fdd2032eebccd0a591ecf2ea43e749668635f4a921236; exit=0; EXPECT=matched; output-sha256=83fbb1afbfd2f27ded0367f10e41f60cbf06ee268604acd75d5093cf7047e84a; output-bytes=13; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/synthetic-wig; path=7f4fb4b02918/15 entries
 
 - [x] G8: Ralph notified (phone push + email) with the doc and folder links
   EVIDENCE: PushNotification 'Mobile push requested.'; Gmail GMAIL_SEND_EMAIL (gmail_correa-comus) id 1a15d171bb30c945 to life22watch@gmail.com with both links
