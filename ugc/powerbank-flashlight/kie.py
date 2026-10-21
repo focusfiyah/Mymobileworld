@@ -50,7 +50,8 @@ def upload(path):
     """Host a local file on Kie. Cache keyed on path+size+mtime so a regenerated still never reuses an old URL."""
     p = Path(path); st = p.stat()
     k = f"{p}|{st.st_size}|{st.st_mtime_ns}"
-    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    with _LOCK:   # parallel clips read/write the cache at once (S7 crashed on a half-written file, 2026-10-21)
+        cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     if k in cache:
         return cache[k]
     for attempt in range(4):
@@ -63,7 +64,9 @@ def upload(path):
     # pre-flight: the hosted file must be byte-identical to the local one
     if hashlib.sha256(requests.get(url, timeout=60).content).digest() != hashlib.sha256(p.read_bytes()).digest():
         sys.exit(f"hosted copy of {p} differs from the local file; not submitting")
-    cache[k] = url; CACHE.write_text(json.dumps(cache, indent=1))
+    with _LOCK:
+        cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+        cache[k] = url; CACHE.write_text(json.dumps(cache, indent=1))
     return url
 
 
