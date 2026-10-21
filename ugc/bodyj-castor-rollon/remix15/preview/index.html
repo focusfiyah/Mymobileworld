@@ -37,6 +37,7 @@ video{width:100%;max-width:100%;aspect-ratio:9/16;background:#000;border-radius:
 .small{font-size:13px;color:var(--muted);margin:0}
 .notes{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:10px;max-width:78ch}
 .notes ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.ab{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}.ab>div{display:flex;flex-direction:column;gap:6px}audio{width:100%}
 img{max-width:100%;border-radius:10px;display:block}
 </style>
 <div class="wrap">
@@ -46,6 +47,21 @@ img{max-width:100%;border-radius:10px;display:block}
     <p class="lede">Grace's four scripts with your cuts, in your order 2, 1, 4, 3. Voice: the ElevenLabs "Grace" voice, paced to 3.3–3.5 words a second like the winner. All footage is the winner's own clips, so it looks like the winner, but each video has its own shot order, framing and bright grade.</p>
     <div class="facts"><span>Cost <b>1,143 ElevenLabs characters</b> (≈ $0.19), video $0</span><span>QC <b>4 of 4 pass</b></span><span>Script gate <b>OK</b> (cut stage)</span></div>
   </header>
+
+  <section class="notes" id="echo" style="max-width:none">
+    <div class="eyebrow">Round 2 · echo fix · listen and pick one</div>
+    <h2>Which video 1 voice sounds closest to video 3?</h2>
+    <p class="small">More cleanup tries on 1 didn't make it drier: all 4 kept every word, but none beat the uncleaned voice on the echo meter. The likely cause is the speed-up: to fit 15 s, 1, 2 and 4 were sped up 9–16% with a smoothing setting, and 3 was slowed down. Below are free fixes on video 1. Pick the one that sounds like 3 and I'll apply it to 2 and 4.</p>
+    <div class="ab">
+      <div><b>Reference: video 3 (the one you like)</b><audio controls preload="none" src="ab_v3_reference.mp3"></audio></div>
+      <div><b>A · video 1 as sent</b><audio controls preload="none" src="ab_v1_A_current.mp3"></audio><span class="small">14.8 s</span></div>
+      <div><b>B · plain speech speed-up</b><audio controls preload="none" src="ab_v1_B_atempo.mp3"></audio><span class="small">14.8 s, a simpler speed-up with no smoothing</span></div>
+      <div><b>C · sharp speed-up</b><audio controls preload="none" src="ab_v1_C_crisp.mp3"></audio><span class="small">14.8 s, same tool, keeps the consonants sharp</span></div>
+      <div><b>D · no speed-up</b><audio controls preload="none" src="ab_v1_D_nostretch.mp3"></audio><span class="small">16.9 s, over 15 s</span></div>
+      <div><b>E · B plus strong cleanup</b><audio controls preload="none" src="ab_v1_E_atempo_strongclean.mp3"></audio><span class="small">14.8 s, driest on the meter</span></div>
+    </div>
+    <p class="small">If none sound right: a new ElevenLabs take of 1, 2 and 4 with the voice's own speed at 1.12, so there's no stretching at all: 814 characters, about $0.14. Only on your OK.</p>
+  </section>
 
   <section class="grid">
     <div class="vid"><video id="v1" src="v1.mp4" controls playsinline preload="metadata" poster=""></video>
