@@ -45,10 +45,11 @@ lands in a Claude doc plus the product's Drive folder. Ralph is notified by push
 - [x] G8: Ralph notified (phone push + email) with the doc and folder links
   EVIDENCE: r2: push requested + Gmail id 1a15d3dcddd81c39 (frame-check page, doc, folder). r1: PushNotification "Mobile push requested."; Gmail GMAIL_SEND_EMAIL (gmail_correa-comus) id 1a15d171bb30c945 to life22watch@gmail.com with both links
 
-- [ ] G9: every line plays over a shot that shows what it names (r2, Ralph 2026-10-21 "Did you match the visuals with the script"): beats rebuilt from 0.5 s frames with tags; each shot >=60% inside a beat carrying its line's tag; mouth share reported
+- [x] G9: every line plays over a shot that shows what it names (r2, Ralph 2026-10-21 "Did you match the visuals with the script"): beats rebuilt from 0.5 s frames with tags; each shot >=60% inside a beat carrying its line's tag; mouth share reported
   CHECK: python3 -I check_scripts.py visuals
   EXPECT: visuals OK
   CWD: .
+  EVIDENCE: automatic-evidence=v1; definition-sha256=5cf7f92f95132b6e06aeadb3d06a8fe693be49e4d42a4f1b02126f5b91cb60b8; exit=0; EXPECT=matched; output-sha256=3a7a76cb1c62492e62d23fb5e2c557f6e07f0a345e71c2a093adfed948b0b0d3; output-bytes=158; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/synthetic-wig; path=7f4fb4b02918/15 entries
 
 - [x] G10: I looked at the real frames under every line of V1-V3 after the remap, and they are on the review page
   EVIDENCE: qc/visual_V1..V3.jpg (start/mid/end frame of every shot) viewed 2026-10-21; fixed 1.0 s hand blur (bangs now 1.3-2.5), V2 opener blur (now 11.0), 15.8 / 29.4 / 24.1 s edge frames; published https://claude.ai/artifact/WAdHmPUQoGFvhsv24Y4GNP; negative control: old V1 glueless shot 24.0-26.5 makes the check FAIL
