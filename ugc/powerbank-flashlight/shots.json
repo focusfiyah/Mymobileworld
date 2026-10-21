@@ -32,14 +32,22 @@
    "hand": true,
    "product": false,
    "model": "seedance",
-   "dur": 4,
+   "dur": 5,
    "vo": "I know I cannot be the only one who uses their phone as a flashlight until it dies.",
-   "still": "Blue-hour dusk in a quiet open-air parking lot, bright exposure, deep blue sky still light: the hand holds a black smartphone from the bottom right edge, the phone's back camera flashlight is on and casts a small weak white circle on the asphalt next to a silver car's front tyre. Phone screen not visible (we see the back). No flashlight product in this shot.",
-   "video": "The phone's flashlight flickers twice and goes out; the hand lowers the phone a little in frustration. Slight handheld camera. Nothing else changes.",
+   "still": "Blue-hour dusk in a quiet open-air parking lot, clean neutral exposure, deep blue sky still light, a silver car parked a few steps ahead. Point of view shot: the hand holds a black smartphone upright at chest height with its SCREEN FACING THE CAMERA; the screen is on and shows a plain flat mid-grey picture filling the whole screen (no icons, no text, no app). The phone's back flashlight points AWAY from the camera, toward the car, and casts a small weak circle of white light on the asphalt ahead next to the car's front tyre; no light shines toward the camera. Fingers wrap the phone's sides, thumb on the near edge, the screen not covered. No flashlight product in this shot.",
+   "video": "The small circle of light on the asphalt ahead (from the phone's back flashlight, pointing away from the camera) flickers twice and goes out; the hand lowers the phone a little in frustration. The phone screen keeps facing the camera and stays on. Slight handheld camera. Nothing else changes.",
    "t": [
     0.0,
     5.1
-   ]
+   ],
+   "still_v1": "Blue-hour dusk in a quiet open-air parking lot, bright exposure, deep blue sky still light: the hand holds a black smartphone from the bottom right edge, the phone's back camera flashlight is on and casts a small weak white circle on the asphalt next to a silver car's front tyre. Phone screen not visible (we see the back). No flashlight product in this shot.",
+   "video_v1": "The phone's flashlight flickers twice and goes out; the hand lowers the phone a little in frustration. Slight handheld camera. Nothing else changes.",
+   "screen_overlay": {
+    "src": "refs/screen_grace.mp4",
+    "from": "Grace's TikTok 7688848730010766622 (@shewiththeglow, Wag Bag), 9.5-14.7 s, no captions",
+    "why": "Ralph 2026-10-21: the phone's light faced the camera; 'If you need to show something on the phone overlay Grace's Tiktok on it'"
+   },
+   "note_v2": "Ralph 2026-10-21: v1 had the phone's flashlight facing the camera; it must face the direction of the light"
   },
   {
    "id": "S2",
