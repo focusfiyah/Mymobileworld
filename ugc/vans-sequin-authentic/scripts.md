@@ -68,7 +68,7 @@ Shot type: HAND = Seedance 2.0 Mini, reference mode. HAND-FREE = Kling 3.0 (Ralp
 - S1 HAND-FREE 5 s: top-down flat lay on a white vanity: the pair with pearl hair clips, a gold jewellery dish, a glitter lip gloss, a pink bow and a silver disco-ball ornament; camera slowly pushes in.
 - S2 HAND 4 s: her hand sets one shoe into a pink gift bag with tissue.
 - S3 HAND-FREE 5 s: her feet in the shoes by a white-lit Christmas tree in a bright living room, gold anklet, feet tap, camera tilts down.
-- Optional voice (H056, "my sister" only if true for Grace, else "my best friend"): "This immediately made me think of my sister. Classic Vans, covered in sequins. Grab one for her and one for you before the holidays. It's in the orange cart."
+- Optional voice (H056, "my sister" is true for Grace, Ralph 2026-10-21): "This immediately made me think of my sister. Classic Vans, covered in sequins. Grab one for her and one for you before the holidays. It's in the orange cart."
 
 ## Captions (Humanizer pass done, see humanizer.md)
 V1 The checkered Vans, but the black squares are sequins ✨ #ad #vans #sequinvans

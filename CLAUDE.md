@@ -76,7 +76,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 
 ## Tools and keys
 - Kie (api.kie.ai + kieai.redpandaai.co) and ElevenLabs keys are injected by the environment proxy: never ask for
-  or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005).
+  or paste keys. Kie balance (free): `curl -sS https://api.kie.ai/api/v1/chat/credit` (1 credit = $0.005). Kie AUTO-REFILLS as it is used (Ralph 2026-10-21): a low balance is not a blocker; still quote and ask before every paid call.
 - Skill `ugc-product-ad` (project copy in `.claude/skills/`, account copy on claude.ai) has every route. The
   hands-only route's template is `ugc/carpe-vanilla-peach/` (README, shots.json, kie.py, cut.py); the on-camera demo
   route's is `ugc/carpe-mountain-breeze/` (+ lipsync.py); the exact-product route's (real photo + paste-back, complex products) is `ugc/fusou-vanity/`. Skill zip re-made 2026-10-03 (script gate + exact-product route + GTT KN95 lessons: hands grip, real-item crop refs, wrong-way motion fix).

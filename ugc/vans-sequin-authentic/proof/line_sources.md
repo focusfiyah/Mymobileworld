@@ -12,3 +12,4 @@
 | "It's in the orange cart." | playbook §1 close |
 | Visual beats (POV hold, sole flip, walk, anklets, stance) | Grace's two references (research/coach/ref_ai, ref_real) + winners W3-W6 |
 | Music-only default | all 8 researched Vans shop videos have no voice except Grace's own 27 s (305 views) |
+| V10 'my sister' (H056 blank) | Ralph 2026-10-21: true for Grace |
