@@ -1,0 +1,53 @@
+<title>TrendyQueen V-Neck Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Karla:wght@400;600&display=swap">
+<style>
+/* Layout: one column review sheet, newest round on top, cut and original side by side on wide screens */
+:root{--bg:#f6f3f4;--fg:#2a2326;--muted:#76676d;--line:#e2d9dc;--card:#fffdfd;--accent:#8a2846;--ok:#2f6b47;
+ --display:"Fraunces",Georgia,serif;--body:"Karla",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1719;--fg:#efe7ea;--muted:#a8999f;--line:#3a3135;--card:#241f22;--accent:#e08aa3;--ok:#8fd1a6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1719;--fg:#efe7ea;--muted:#a8999f;--line:#3a3135;--card:#241f22;--accent:#e08aa3;--ok:#8fd1a6;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 48px}
+main{max-width:880px;margin:0 auto;display:grid;gap:28px}
+h1{font:600 clamp(1.6rem,4vw,2.2rem)/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 1.25rem/1.2 var(--display);margin:0}
+.eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+.sub{color:var(--muted);margin:6px 0 0}
+section{border-top:1px solid var(--line);padding-top:20px;display:grid;gap:16px}
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+figure{margin:0;display:grid;gap:8px;min-width:0}
+video{width:100%;max-width:100%;aspect-ratio:9/16;background:#000;border-radius:10px}
+figcaption{font-size:.9rem;color:var(--muted)}
+figcaption b{color:var(--fg)}
+ul{margin:0;padding-left:1.1em;display:grid;gap:4px}
+.checks{font-variant-numeric:tabular-nums}
+.checks li::marker{color:var(--ok)}
+</style>
+<main>
+  <header>
+    <div class="eyebrow">Grace · real footage edit · $0</div>
+    <h1>TrendyQueen Deep V-Neck 3-Pack</h1>
+    <p class="sub">Grace's own video with the awkward pauses taken out. Same take, same words, nothing added.</p>
+  </header>
+
+  <section>
+    <h2>Round 1 · 2026-10-21</h2>
+    <div class="pair">
+      <figure>
+        <video src="cut_r1.mp4" controls playsinline preload="metadata"></video>
+        <figcaption><b>Edited cut</b> · 36.4s (preview copy; full 1080p file is in Drive)</figcaption>
+      </figure>
+      <figure>
+        <video src="original.mp4" controls playsinline preload="metadata"></video>
+        <figcaption><b>Original</b> · 45.5s, for comparison</figcaption>
+      </figure>
+    </div>
+    <ul class="checks">
+      <li>45.5s down to 36.4s: 8 pauses cut. The longest were 2.6s and 2.2s around the outfit changes.</li>
+      <li>Each colour now lands on its word: sage on "sage green", wine on "wine red", brown on "light brown".</li>
+      <li>Longest pause left: 0.37s. Every word Grace said is still there (checked by transcribing the cut).</li>
+      <li>Small 1.1x punch-in on alternate cuts to hide the jump cuts. No text, emoji or colour grade added.</li>
+      <li>No flash frames. Audio levelled to −14 LUFS.</li>
+    </ul>
+  </section>
+</main>
