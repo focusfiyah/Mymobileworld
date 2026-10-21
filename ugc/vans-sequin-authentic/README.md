@@ -6,6 +6,7 @@ reference sheet from the product images. Route: ugc-product-ad hands-only, no pa
 reference mode for hand clips, Kling 3.0 for hand-free if it wins a one-clip test). Rules: grace/PLAYBOOK.md.
 
 Status: DELIVERED 2026-10-21; r11 V1 replaced in Drive (back to the r6 Kling hold, Ralph: r5 turn morphs), old V1 in Drive Older versions; r12 V6 bench hold dropped (Ralph chose the trim; turn starts 0.4 s), Drive replaced. 10 finals + captions doc in Drive https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_ ("Vans sequin (Grace)", short names CURRENT - Vans V1..V10, Ralph asked for short names). r10: V5 starts after the toe flip (free); V4 deck still edited to 2 shoes + Kling dolly. Kie $16.39 vs $7.73 plan (redos, each asked).
+Accepted flaw (Ralph 2026-10-21): in the pink-bag gift shot the shoe's design changed from the real Vans; Ralph let it go to stop spending on redos. No redo. Lesson: product lock (Google Omni clips from real close-ups, PLAYBOOK §6) on every future product shot.
 Kie balance $0.93, Kling 248 credits (checked 2026-10-21). Quote: A $5.06 Kie + ~480 Kling credits / B $7.73 Kie. Gate: GATE OK.
 Review page: https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH
 

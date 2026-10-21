@@ -9,6 +9,8 @@ Repeatable recipes for creator-style product ads. Follow them and a job takes a
 handful of tool calls. Working it out from scratch takes fifty calls and produces
 worse output, which is why this file exists.
 
+- **Any shot that shows the product (every route below):** "Product lock" (references/product-lock.md) (Google
+  Gemini Omni clips from the real-photo references; paste-back only as a last resort). Ralph, 2026-10-21.
 - **Single spokesperson, 10s, talking to camera:** "The recipe" (references/spokesperson-recipe-and-tools.md) (Gemini Omni).
 - **Recreate a trending spokesperson video (up to 15s, product close-ups):** "Recreate a trending
   spokesperson video" (Gemini 3 Pro stills + one Seedance Mini clip). Approved by Ralph on 2026-09-14.
@@ -53,7 +55,20 @@ lessons below are specific to making ads:
   side/top/bottom shape views) and pass it on every product still. Also the maker's real dimensions with an everyday size
   anchor + a real in-room photo for scale, and every product detail confirmed by Ralph in the plan before spend; a quote
   includes one likely redo (Shnuggle 2026-10-19: AI tub too big, an invented dot pattern). Details: `grace/PLAYBOOK.md` §6.
-- **No pasted labels; product clips from reference images (Ralph 2026-10-19, LGXNDS v5: "this looks the best", remember for every future ad):** a real label pasted onto AI stills or clips reads as a sticker. Make product stills with Gemini 3 Pro Image + the product reference sheet and use them clean. Hand clips: Seedance 2.0 Mini in REFERENCE mode (no first frame): refs = the clean still, the real front label, the reference sheet; prompt "recreate reference image 1 exactly as the first frame, then <action>; the label must match reference image 2 letter for letter" (`ugc/lgxnds-creatine/kie2.py --raw --refs`). Hand-free clips: Kling 3.0 on my account from the clean still. QC the label at 2x on several frames; only free fixes after (crop, a static patch for a stray object, e.g. `lid_fix.py`).
+- **Product lock on every product (Ralph 2026-10-21):** product stills from Gemini 3 Pro Image + the reference sheet +
+  a close-up of each real logo, used clean; every clip with the product in frame on **Google Gemini Omni**
+  reference-to-video (`scripts/omni_clip.py`, about $0.10/s); Seedance 2.0 Mini only for clips without the product; no
+  Kling unless Ralph asks. A drifted take gets one Omni edit turn before any new take. **Pasting a real label is the last
+  resort** (it reads as a sticker), only with Ralph's OK for that shot. Route, prompt template, costs:
+  `references/product-lock.md`. Why: October's redos (Vans tab and gift-shot shoe, Cleanwaste boxes) cost more than
+  the first takes.
+- **Every still, edit and clip prompt is written with the `prompt-master` skill** (its "Ralph's stack"), every
+  reference named by its tag and the print matched letter for letter (Ralph 2026-10-21: it locks the models to what we
+  want). Paste the final prompt into the plan so Ralph sees it before spend.
+- **Budget (Ralph 2026-10-21: "blowing through my budget"):** every plan and every redo question shows
+  `python3 grace/spend.py` (month so far vs his cap) next to the job's quote. At the cap, `grace/gate.py` refuses every
+  paid runner until Ralph's OK is recorded in `grace/spend.json` over_cap_ok. Spend nothing on a redo Ralph did not ask
+  for; offer to let a small flaw go (Vans gift shot) before quoting a fix.
 - **Confirm the real product before the first paid still:** applicator/top, cap, label, size; ask for a real photo
   if the reference is a generated sheet. Why: the Carpe sheet showed a ribbed white dome, the real stick has an
   orange slotted top, 5 stills redone (~$0.54).
@@ -91,7 +106,8 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
   `references/persona-per-shot.md`
 - Hands-only ad, on-camera demo over a voiceover, GTT KN95 lessons: `references/hands-only-and-demo.md`
 - Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result: `references/lipsync-options.md`
-- Exact-product route (real photo + paste-back, complex products): `references/exact-product.md`
+- Product lock (every product shot: Omni clips, edit turns, budget line): `references/product-lock.md`
+- Exact-product route (real photo + paste-back, complex products; last resort since 2026-10-21): `references/exact-product.md`
 - Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).
 - Scripts live in `scripts/` (gate.py, kie runners, cut/finish/qc tools); templates in the job folders named in CLAUDE.md.
 

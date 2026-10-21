@@ -154,6 +154,11 @@ def override_lines(job):
 
 def require(job, stage="plan"):
     errs = check(job, stage)
+    # Monthly cap (Ralph 2026-10-21: "blowing through my budget"): every paid runner calls require(), so the cap
+    # stops all of them at once. Cap and Ralph's over-cap OKs live in grace/spend.json.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from spend import budget_errors
+    errs = errs + budget_errors(job)
     for l in override_lines(job): print(l, file=sys.stderr)
     if errs:
         sys.exit("SCRIPT GATE: paid call refused. Finish the checklist first (grace/PLAYBOOK.md §4):\n  - " + "\n  - ".join(errs[:25]))
