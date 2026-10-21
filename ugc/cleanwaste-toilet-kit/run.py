@@ -35,7 +35,7 @@ def text(s):
     if s["bag"]: parts.append(B["bag_block"])
     if s["contents"]: parts.append(B["contents_block"])
     if s.get("powder"): parts.append(B["powder_block"])
-    parts.append(B["scene_suffix"])
+    parts.append(B["scene_suffix_dim"] if s.get("grade_note") else B["scene_suffix"])
     return " ".join(parts)
 
 
@@ -52,7 +52,7 @@ def clip(sid):
     first = f"stills/{sid}_fix.png" if Path(f"stills/{sid}_fix.png").exists() else f"stills/{sid}.png"
     refs = [first] + [p for p in paths if p != LOOK][:3]
     prompt = (f"Recreate reference image 1 exactly (same room, framing, light, objects{', hand' if s['hand'] else ''}) as the first frame, then: "
-              + s["motion"] + " " + (B["hand_block"] if s["hand"] else B["no_hand"]) + " " + B["video_suffix"])
+              + s["motion"] + " " + (B["hand_block"] if s["hand"] else B["no_hand"]) + " " + (B["video_suffix"].replace("bright neutral daylight that never changes", "the same dim light with the flashlight beam on the whole time") if s.get("grade_note") else B["video_suffix"]))
     if s["box"]: prompt += " The box print must match reference image 3 exactly, letter for letter ('The Original WAG BAG', '12-PACK', 'CLEANWASTE'); reference image 2 shows the real box."
     url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": [kie.upload(p) for p in refs],
                         "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": 5}})
