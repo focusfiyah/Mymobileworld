@@ -8,15 +8,21 @@ HERE = Path(__file__).resolve().parent
 J = json.loads((HERE / "shots.json").read_text()); shots = J["shots"]; REVIEW = "--review" in sys.argv
 W, H = (720, 1280) if REVIEW else (1080, 1920)
 def dur(f): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(f)], capture_output=True, text=True).stdout)
-ins, f = [], ""
+PUNCH = 1.15   # coach compare 2026-10-21: winner 5.2 cuts/10 s vs ours 2.8 -> long shots get a punch-in halfway (<= 1.2x, same clip, 1.0x speed)
+ins, f, segs = [], "", []
 for i, s in enumerate(shots):
     c = HERE / s.get("clip", f"clips/{s['id']}.mp4"); a = s.get("cut_in", 0.0)
     n = round(s["t"][1] * 30) - round(s["t"][0] * 30); a0 = round(a * 30)   # whole frames on a shared 30 fps grid: no drift vs the VO
     assert (a0 + n) / 30 <= dur(c) + 0.01, f"{s['id']}: {a}+{n / 30:.2f}s > clip {dur(c):.2f}s (never stretch)"
     ins += ["-i", str(c)]
     crop = "crop=%d:%d:%d:%d," % tuple(s["crop"]) if s.get("crop") else ""
-    f += f"[{i}:v]fps=30,trim=start_frame={a0}:end_frame={a0 + n},setpts=PTS-STARTPTS,{crop}scale={W}:{H}:flags=lanczos,setsar=1,format=yuv420p[v{i}];"
-f += "".join(f"[v{i}]" for i in range(len(shots))) + f"concat=n={len(shots)}:v=1:a=0[v]"
+    parts = [(a0, a0 + n, 1.0)] if not s.get("punch") else [(a0, a0 + n // 2, 1.0), (a0 + n // 2, a0 + n, PUNCH)]
+    f += f"[{i}:v]split={len(parts)}" + "".join(f"[s{i}_{k}]" for k in range(len(parts))) + ";"
+    for k, (x0, x1, z) in enumerate(parts):
+        zc = f"crop=iw/{z}:ih/{z}:(iw-iw/{z})/2:(ih-ih/{z})/2," if z != 1.0 else ""
+        f += f"[s{i}_{k}]fps=30,trim=start_frame={x0}:end_frame={x1},setpts=PTS-STARTPTS,{crop}{zc}scale={W}:{H}:flags=lanczos,setsar=1,format=yuv420p[v{i}_{k}];"
+        segs.append(f"[v{i}_{k}]")
+f += "".join(segs) + f"concat=n={len(segs)}:v=1:a=0[v]"
 (HERE / "out").mkdir(exist_ok=True)
 tag = "_review" if REVIEW else ""
 raw, out = HERE / f"out/shnuggle_next_bath{tag}_raw.mp4", HERE / f"out/shnuggle_next_bath{tag}.mp4"

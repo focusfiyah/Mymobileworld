@@ -62,7 +62,8 @@
    "t": [
     4.81,
     8.55
-   ]
+   ],
+   "punch": true
   },
   {
    "id": "S4",
@@ -76,7 +77,9 @@
    "t": [
     8.55,
     12.47
-   ]
+   ],
+   "clip": "clips/S4_badge.mp4",
+   "note": "real badge tracked on (badge_track.py); same fix Ralph OKd for S11"
   },
   {
    "id": "S5",
@@ -90,7 +93,8 @@
    "t": [
     12.47,
     16.79
-   ]
+   ],
+   "punch": true
   },
   {
    "id": "S6",
@@ -133,14 +137,15 @@
    "t": [
     19.87,
     23.37
-   ]
+   ],
+   "punch": true
   },
   {
    "id": "S9",
    "vo": "The only problem? They won't want to get out.",
    "hand": true,
    "tub": true,
-   "model": "seedance_ref",
+   "model": "seedance",
    "dur": 4,
    "still": "Close high angle into the filled Shnuggle toddler tub: bubbly water with the yellow duck, the teal whale and the pink cup floating; the grey foam backrest above the waterline at the back. Grace's hand enters from the left frame edge, fingertips trailing through the water surface. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor; the big bathtub's own front wall and rim run in front of it across the lower part of the frame. It is never on the rim, never on the edge, never overhanging.",
    "video": "The fingertips swirl slowly through the bubbly water; the toys drift and bob in a lazy circle. The tub never moves. Handheld phone camera, very slight sway.",
@@ -154,14 +159,16 @@
    "vo": "With the holidays coming, it makes a sweet gift too.",
    "hand": true,
    "tub": true,
-   "model": "seedance_ref",
+   "model": "seedance",
    "dur": 4,
    "still": "The filled Shnuggle toddler tub with bubbles and the three toys (yellow duck, teal whale, pink cup) stands inside the rectangular built-in bathtub on the right of the frame. In the left foreground, Grace's hand enters from the LEFT frame edge with her forearm, the arm continuing out of the frame edge, and GRIPS a neatly folded white hooded baby towel tied with a pale blue satin ribbon bow: thumb underneath, fingers curled over the top edge, the towel hanging from her grip just above the wide white bathtub rim, about to set it down. Not a flat palm on top of the towel. PLACEMENT (must hold): the Shnuggle toddler tub stands flat on the BOTTOM of the big bathtub, fully inside it, its base resting on the bathtub floor. It is never on the rim, never on the edge, never overhanging.",
    "video": "The hand sets the folded towel down on the rim, lets go and slides back out of the left frame edge. Everything else stays still; the tub never moves.",
    "t": [
     25.79,
     28.65
-   ]
+   ],
+   "clip": "clips/S10_badge.mp4",
+   "note": "real badge on (badge_track.py --static --ell); same fix Ralph OKd for S11"
   },
   {
    "id": "S11",
@@ -175,7 +182,9 @@
    "t": [
     28.65,
     31.79
-   ]
+   ],
+   "clip": "clips/S11_badge.mp4",
+   "note": "real badge tracked on (badge_track.py), Ralph OK 2026-10-21 \"paste\""
   }
  ]
 }
