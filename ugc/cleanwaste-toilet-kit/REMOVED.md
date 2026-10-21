@@ -15,3 +15,4 @@ Before sending: list every element in the cut (overlays, cards, hand shots, grad
 - Kling on Ralph's account and any non-Kie engine (Ralph 2026-10-21: "Only use Kie").
 - Medium/long or coffin nails, rings, bracelets (Ralph 2026-10-21: "Short French tips no rings"); the LGXNDS hand photo is NOT passed as a reference (its nails are longer).
 - Note (Ralph 2026-10-21, this job): a forearm showing is OK as long as it is not excessive.
+- Exception (Ralph 2026-10-21): S1 flashlight shot simulates the power being out: dim room, flashlight ON and shining at something. Every other shot stays bright.

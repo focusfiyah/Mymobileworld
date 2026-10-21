@@ -8,7 +8,8 @@
   "contents_block": "Kit contents, unused and clean (match the kit-contents reference photo): the folded blue-grey waste bag, the folded blue-grey zip-close bag, a small flat black and tan wrapped toilet paper packet, a small square white hand-wipe packet printed with a red, white and blue flag, and the clear kit pouch with its navy and orange card.",
   "scene_suffix": "Vertical 9:16 phone video still, natural bright daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures, ordinary tidy home. Every other item is plain and unbranded (blank white can labels, plain unlabeled water bottles, plain batteries): no brand names or logos on anything except the Cleanwaste box/pouch. No text, no captions, no watermark, no phone UI, no date stamp, no logos except the real box/pouch print.",
   "video_suffix": "Natural handheld phone footage, smooth and slow, 5 seconds, bright neutral daylight that never changes. The product keeps its exact shape, colours and print in every frame; nothing new appears; the hand keeps the same skin tone and short French-tip nails; no text appears.",
-  "powder_block": "The powder is white and grey speckled granules like coarse salt (as in the kit-contents photo), a small amount at the bottom of the bag only, dry, no liquid."
+  "powder_block": "The powder is white and grey speckled granules like coarse salt (as in the kit-contents photo), a small amount at the bottom of the bag only, dry, no liquid.",
+  "scene_suffix_dim": "Vertical 9:16 phone video still, realistic, sharp focus on the hand and beam, neutral white balance (no yellow, no blue, no orange tint), no text, no captions, no watermark, no phone UI, no brand names or logos on anything."
  },
  "videos": [
   {
@@ -25,9 +26,10 @@
      "bag": false,
      "contents": false,
      "model": "seedance",
-     "still": "Close-up in a bright hallway: a hand holds a small black LED flashlight pointed slightly down, thumb on its button; behind it, softly out of focus, a white wire shelf with gallon water jugs. The flashlight is off.",
-     "motion": "The thumb presses the button once and the flashlight turns on (a soft white beam); the hand tilts it a few degrees. Slow push-in. The room stays fully bright.",
-     "powder": false
+     "still": "Power outage at home, daytime but the lights are off: a dim hallway lit only by weak grey light from a far window, shadows deep but detail still visible (NOT pitch black, NOT moody colour, neutral grey). One hand holds a small black LED flashlight that is ON, pointing forward and slightly down; its bright white beam cuts through the dim hallway and lights a bright circle on a white wire shelf of gallon water jugs, which glow where the beam hits.",
+     "motion": "The hand slowly sweeps the lit flashlight a little across the shelf of water jugs, the white beam and its bright circle moving with it; the hallway stays dim the whole time, the beam stays on, nothing else changes.",
+     "powder": false,
+     "grade_note": "Ralph 2026-10-21: S1 only simulates the power being out (dim room, flashlight beam); exception to the bright-grade rule for this shot."
     },
     {
      "id": "V1S2",
