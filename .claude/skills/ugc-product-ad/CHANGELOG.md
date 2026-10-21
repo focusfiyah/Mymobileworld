@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-10-21 (Ralph): no Kling on any job unless he says so; every clip Seedance 2.0 Mini on Kie, hand-free prompts say no hand appears.
 - 2026-10-13 (skill-smith audit): script-gate paragraph and unlazy paragraph shortened to one-line summaries tagged with their homes (PLAYBOOK §4, CLAUDE.md).
 - 2026-10-19 (Ralph): product reference sheet first; no pasted labels, product clips from reference images (Seedance reference mode, Kling hand-free) after LGXNDS v5. Ported from the Mymobileworld deployment copy.
 - 2026-10-13 (Ralph: "slim"): "Working with Ralph" now points to Mymobileworld CLAUDE.md for the general rules (cost asks, plan, test clip, notifications, Drive, text, overlays, unlazy) and keeps only the ad-specific lessons, each with its reason.

@@ -46,7 +46,7 @@ These override the generic sections below when Ralph (or his clients, e.g. Grace
 - **Stills: Gemini 3 Pro Image on Kie.** Nano Banana models only when a route or Ralph calls for them (Ralph 2026-10-13; the ugc-product-ad routes use Kie's `nano-banana-pro`). The product itself is never generated: it comes from the brand's real photo. Describe the real product exactly (cap, top, label) and say it must not change.
 - **Hands and people:** hands enter from the frame edge, whole wrists visible, no background showing through hands, no hand sweeping across the product, no forehead wrinkles. Hand-free shots (product alone, setting, props) are fine where they fit.
 - **No on-screen text** in any generated frame unless Ralph says yes for that ad: add "no text, no captions, no logos other than the real label".
-- **Kling** (Ralph's account, MCP): good for realistic body motion and 3D dolly moves; same hand/product rules.
+- **No Kling** (Ralph 2026-10-21, every job unless he says otherwise): write every clip prompt for Seedance 2.0 Mini on Kie, hand-free dollies included; hand-free prompts say no hand, fingers or people appear at any time.
 - **ElevenLabs eleven_v4:** Day One AI narrator = Ralph's clone; demo lines use premade contrast voices. See Voice AI below for tags.
 - **Every paid generation needs Ralph's OK with the exact cost**, including redos. A prompt you write is free; running it is not.
 
