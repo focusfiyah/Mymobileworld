@@ -21,3 +21,5 @@ Phase 1 ledger (research, script, sheet, plan): all 6 met, see git history.
   EVIDENCE: automatic-evidence=v1; definition-sha256=9b322c4de27cb04b1fc4dda5c54e18414398a903a3fb66c0c6120c6167b6bb6b; exit=0; EXPECT=matched; output-sha256=b4f6bb2295b31bed47ca6d21ff0ffa944ba3155c4d38827b2a8a3393e3c25609; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/powerbank-flashlight; path=7f4fb4b02918/15 entries
 - [x] G6: running total reported vs the quote at each paid step; cut on the review page + push + email (manual)
   EVIDENCE: manual: totals in every reply + review page v7 with cut_r1.mp4; email + push sent 2026-10-21
+- [x] G7: approved cut r4 + script/caption doc in Drive "Grace Tiktok assets/Power Bank Flashlight (Grace)", CURRENT prefix, video size = local
+  EVIDENCE: manual: Drive video 1UTojncG8YSz6FyyuSufMdMwOI4w34lOX size 85416123 = stat of out/powerbank_flashlight_r4.mp4; doc 1lV9Qv3ctHJ-VBa7UCmcu3mPr5mFY_6aSyIBlFmbCJuY (2026-10-21)
