@@ -33,3 +33,6 @@ Keys: LIB = grace/hooks/HOOKS.md id; WIN = @baileyduggan 1.1M video, same produc
 - "The holidays are close, and this one is easy to gift." LIST gift positioning; PB §4 real season
 - "Get one for you and one for your sister." PB §4 CTA sells more units; COM "one for me and the other for my bff"
 - "It's in the orange cart." PB §1
+
+## Shot match (r2, 2026-10-21)
+Every [time] cue checked on 3 frames (start/middle/end), sheets review/match/script1-3.jpg. Fixed: S1 hook 0:19 to 0:21 (opened on a plain mid shot), S1 'fall sweater' 0:44 to 0:53 (opened on a close-up), S3 'same plain chain' 1:00 to 0:35-0:37 (the old window already showed the agate necklace on), S3 extender line 1:32 to 0:02-0:08 (hand was on the shoulder, not the choker), S3 hook 2:00 to 2:03.

@@ -2,19 +2,19 @@
 
 For Grace's footage "Moonstone Agate Necklace by Swyii .MOV" (Drive, 2:33, red necklace, burgundy sweater). Each script is about 28 to 30 seconds read at a normal pace. Grace reads it as a voiceover over the clips listed next to each line; the times are from her file. Say the hook exactly as written.
 
-Tip for the edit: in the close-ups from 0:00 to 0:17 Grace's lips move, so crop just below the lips there (or use another clip) so the voice does not look out of sync. Use a different shot order for each script (listed below) so no two videos share the same footage.
+Shot times checked frame by frame against each line (2026-10-21, `review/match/`). Tip for the edit: in the close-ups from 0:00 to 0:17 Grace's lips move, so crop just below the lips there (or use another clip) so the voice does not look out of sync. Use a different shot order for each script (listed below) so no two videos share the same footage.
 
 ## Script 1: Just another beaded necklace?
 
 Hook H099 (Curiosity). Modeled on @baileyduggan 1.1M views, 4,594 saves, selling this same necklace: "This is not your daughter's beaded necklace."
 
-**HOOK** [0:19 to 0:24, necklace dangling in front of the lens]
+**HOOK** [0:21 to 0:24, necklace dangling in front of the lens]
 
 "At first I thought this was just another beaded necklace."
 
 **BODY**
 
-"Then I picked it up. [0:24 to 0:34, holding it up] Natural red agate and moonstone agate, beaded by hand, with eighteen K gold plating. [0:02 to 0:10, close-up on the neck, cropped below the lips] People say it's heavy in a good way. It sits high like a choker, and the extender drops it to your collarbone. [0:36 to 0:44, putting it on] Look at those colors with a fall sweater. [0:44 to 0:56, full body] The worst part? People ask where you got it, and you have to decide if you're sharing. [1:36 to 1:48, selfie, touching the necklace]"
+"Then I picked it up. [0:24 to 0:34, holding it up] Natural red agate and moonstone agate, beaded by hand, with eighteen K gold plating. [0:02 to 0:10, close-up on the neck, cropped below the lips] People say it's heavy in a good way. It sits high like a choker, and the extender drops it to your collarbone. [0:36 to 0:44, putting it on] Look at those colors with a fall sweater. [0:53 to 1:00, mid shot, sweater off one shoulder] The worst part? People ask where you got it, and you have to decide if you're sharing. [1:36 to 1:48, selfie, touching the necklace]"
 
 **CTA** [2:08 to 2:20, full body]
 
@@ -32,7 +32,7 @@ Caption: Not your average beaded necklace üçÇ #ad #agatenecklace #beadednecklac
 
 Hook H030 (Jewelry, on-body). Modeled on the comment under @baileyduggan's video: "I don't wear jewelry and never know how to style these but if it was layered then i would love that!!" Grace filmed it layered over a thin gold chain.
 
-**HOOK** [0:44 to 0:52, full body, necklace on]
+**HOOK** [0:44 to 0:52, close-up then mid shot, necklace on]
 
 "This looks completely different once you actually see it on."
 
@@ -56,13 +56,13 @@ Caption: How I wear a beaded necklace without it looking like a craft project ü
 
 Hook H132 (Time Pressure). Modeled on @baileyduggan 1.1M ("I love the fall earthy tones") and the buyer comment "I bought two it's perfect for fall... one for me and the other for my bff".
 
-**HOOK** [2:00 to 2:08, full body]
+**HOOK** [2:03 to 2:08, full body]
 
 "You will want this ready before Thanksgiving dinner."
 
 **BODY**
 
-"Every year it's the same sweater and the same plain chain. [1:00 to 1:08, mid shot] This year, add some color. [0:00 to 0:08, close-up, cropped below the lips] Red agate and moonstone agate in warm fall colors, beaded by hand, with eighteen K gold plating. [0:19 to 0:30, holding it up to the lens] The extender takes it from choker to collarbone. [1:32, fingers on the choker] People say it's even prettier in person, and it has real weight to it. [1:40 to 1:52, selfie] It's already sold over two thousand. [1:16 to 1:28, posing]"
+"Every year it's the same sweater and the same plain chain. [0:35 to 0:37, only her gold chain on, the necklace still in her hands] This year, add some color. [0:37 to 0:42, putting it on] Red agate and moonstone agate in warm fall colors, beaded by hand, with eighteen K gold plating. [0:21 to 0:30, holding it up to the lens] The extender takes it from choker to collarbone. [0:02 to 0:08, fingers holding the choker at her neck, cropped below the lips] People say it's even prettier in person, and it has real weight to it. [1:40 to 1:52, selfie] It's already sold over two thousand. [1:16 to 1:28, posing]"
 
 **CTA** [2:24 to 2:33]
 

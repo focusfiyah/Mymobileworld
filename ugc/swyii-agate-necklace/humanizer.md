@@ -13,3 +13,5 @@ Hook lines left as written (library rule: word for word).
 | Dashes, "obsessed", "game changer", "you need this", "order now", "reviewer", "the label says" | banned list | none present (qc/verify.py banned) |
 Captions checked: no dashes, no hype words, one emoji each, #ad first tag.
 Final remaining: triads none; the "The worst part?" / "The only problem?" question openers are Grace's sell-side confession format (PLAYBOOK §1), kept once per script.
+
+2026-10-21 r2 (Ralph: 'Did you match visuals with script'): shot windows retimed after a frame-by-frame check (review/match/); spoken lines and captions unchanged, re-read: no new tells.

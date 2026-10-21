@@ -45,3 +45,8 @@ elif c == "readme":
     if "drive.google.com/drive/folders/" not in t or "claude.ai/" not in t or "Status:" not in t: fail("README missing link/status")
     if "swyii" not in (R / "CLAUDE.md").read_text().lower(): fail("CLAUDE.md jobs line")
     print("README_OK")
+elif c == "cues":
+    h = re.findall(r'class="cue">([^<]*)', (J / "doc/swyii_scripts.html").read_text())
+    m = [x.strip("[]") for x in re.findall(r"\[\d:\d\d[^\]]*\]", (J / "scripts.md").read_text())]
+    if h != m: fail(f"html {len(h)} cues vs md {len(m)}")
+    print("CUES_MATCH", len(m))
