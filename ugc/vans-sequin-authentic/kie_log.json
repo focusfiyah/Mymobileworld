@@ -2610,5 +2610,35 @@
    ]
   },
   "costTime": 115
+ },
+ {
+  "t": "2026-10-21 03:29:02",
+  "submitted": "a962e417f3739577620e2a6e403b210e",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-21 03:31:27",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her hand holds the shoe completely still in exactly the position of reference image 1 for the whole clip: the shoe does not rotate, tilt, turn, flip or move in her hand at all and her fingers stay in place; only the camera slowly and smoothly pushes in closer toward the shoe, so the sequins catch the light; everything else in the frame stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame; sequins glint softly as the light moves. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792547802032-hjnwo0s3as.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792549567216-6mmdfw4snju.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792546057294-pem32ytt7zg.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "a962e417f3739577620e2a6e403b210e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792553480184-mr49cwbm61.mp4"
+   ]
+  },
+  "costTime": 140
  }
 ]

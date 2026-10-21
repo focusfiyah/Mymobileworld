@@ -14,7 +14,7 @@
    "feet": true,
    "anklet": "a thin gold chain anklet on the bare ankle",
    "still": "Top-down POV photo looking straight down at her own feet while she stands on a light grey concrete sidewalk. Her right hand comes in from the lower left frame edge, a white chunky fringe-knit sweater cuff over the wrist, and holds ONE sequin Vans shoe by its collar about knee height above her feet, the shoe's opening and red insole facing up toward the camera, toe pointing to the top of the frame; it fills about the middle third of the frame. Below it at the bottom of the frame, slim black cropped pants: her left foot wears the matching sequin shoe, her right foot is bare. A small plain black quilted handbag with a gold chain strap and a plain gold bar clasp (no logo of any brand) sits on the concrete near the top right corner.",
-   "move": "her hand keeps exactly the same grip on the shoe's collar for the whole clip and slowly tilts the shoe about 30 degrees toward the camera, so the side of the shoe and the sequins catch the sunlight; the shoe never flips, never turns upside down and never changes hands; her fingers never move to a new position; the camera stays still and her feet stay still"
+   "move": "her hand holds the shoe completely still in exactly the position of reference image 1 for the whole clip: the shoe does not rotate, tilt, turn, flip or move in her hand at all and her fingers stay in place; only the camera slowly and smoothly pushes in closer toward the shoe, so the sequins catch the light; everything else in the frame stays still"
   },
   {
    "id": "V1S2",
@@ -282,5 +282,6 @@
    "still": "POV photo looking straight down at her feet on a light wood floor in a bright living room next to a Christmas tree with white lights and wrapped presents, cropped cream knit lounge pants, a gold tennis anklet. Both feet in the sequin Vans, side by side and parallel, toes pointing to the top of the frame, a hand's width apart, the feet clearly inside the shoes. No hands.",
    "move": "her feet tap together; the camera tilts down slowly toward the shoes"
   }
- ]
+ ],
+ "push_move": "her hand holds the shoe completely still in exactly the position of reference image 1 for the whole clip: the shoe does not rotate, tilt, turn, flip or move in her hand at all and her fingers stay in place; only the camera slowly and smoothly pushes in closer toward the shoe, so the sequins catch the light; everything else in the frame stays still"
 }
