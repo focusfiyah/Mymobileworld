@@ -1,0 +1,17 @@
+{
+ "scripts": ["scripts.md"],
+ "vo_lines": "spoken_v*.txt",
+ "playbook": {"proof": ["playbook_applied.md"]},
+ "coach_research": {"proof": ["research/coach_notes.md", "research/shop/shop-manifestation-book.json", "research/discover/discover-your-wish-is-your-command-kevin.json",
+   "research/videos/7598719175611157815/hook.png", "research/videos/7598719175611157815/transcript.txt",
+   "research/videos/7685515091369839902/hook.png", "research/videos/7685515091369839902/transcript.txt",
+   "research/videos/7690649638071799071/hook.png", "research/videos/7690649638071799071/transcript.txt"]},
+ "viral_board": {"proof": ["research/viral/viral-2026-10-19.json", "research/viral/viral-state.json"]},
+ "product_facts": {"proof": ["product_facts.md", "research/listing_extract.txt"]},
+ "hooks": {"proof": ["hooks.md"]},
+ "humanizer": {"proof": ["humanizer.md"]},
+ "readability": {"proof": ["readability_v1.txt", "readability_v2.txt", "readability_v3.txt"]},
+ "line_sources": {"proof": ["line_sources.md"]},
+ "compare": {"proof": [], "note": "after Grace films: tiktok.py compare <winner> <cut>"},
+ "audience": {"proof": ["research/audience.md", "research/audience/raw.json", "research/audience/questions.md", "research/audience/comments.md", "research/audience/voc.md"]}
+}
