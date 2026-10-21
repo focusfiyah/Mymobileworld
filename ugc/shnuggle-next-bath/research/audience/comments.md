@@ -1,0 +1,168 @@
+# TikTok comments (2026-10-21), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+136 comments reachable of 199 reported across 7 videos. Buyer questions in them: 14.
+- "Gorgeous, but still too low for my back and waist. Why not do one with a stand? So that a person can wash the baby while standing?" (7679060356018212129)
+- "Preis?" (7679060356018212129)
+- "Do I have a kid? No did I add this into my cart for the future?YES" (7688537802807545119)
+- "How old is she in this? I just ordered the baby version for mine because I thought this would be too big… but maybe I should’ve grabbed the toddler tub😵‍💫" (7611366378741845262)
+- "Where are we putting this when it’s not in use?" (7683209043116133662)
+- "This is so cute! 🥰 But how do people wash the baby’t back and butt? 😭" (7683209043116133662)
+- "oh so he think he vip?" (7683209043116133662)
+- "Where did you get the bath seat🥰??" (7683209043116133662)
+- "Do they have to be able to sit without assistance? If that makes sense 😩 (first time mom)" (7683209043116133662)
+- "Who else is saving this but isn’t pregnant and don’t have children?" (7683397629056699679)
+- "Can I wash the seat also?" (7683397629056699679)
+- "But where do you get the hose? I like that" (7683397629056699679)
+- "where is the link to purchase?" (7683397629056699679)
+- "Does it actually fit in the bathtub? it looks bulky. I want to get one for my daughter" (7692132082188946719)
+
+## @maxicosi_eu (235700 views), 10 of 12 comments reachable. https://www.tiktok.com/video/7679060356018212129
+- (2 likes) "Love 😍😍😍"
+- (1 likes) "Gorgeous, but still too low for my back and waist. Why not do one with a stand? So that a person can wash the baby while standing?"
+- (0 likes) "😁😁😁"
+- (0 likes) "tu te casse le dos, non merci"
+- (0 likes) "[Larmes de joie][Larmes de joie][Larmes de joie]"
+- (0 likes) "Preis?"
+- (0 likes) "How can I buy"
+- (0 likes) "Dinde comprar"
+- (0 likes) "As Ivy a xx pqh e"
+- (0 likes) "@ايناس🦋🇩🇿 @⚡️MUZO⚡️"
+
+## @itskristaadams (169500 views), 2 of 2 comments reachable. https://www.tiktok.com/video/7686212920253943070
+- (6 likes) "Imagine your baby has a blowout mid bath💀"
+- (0 likes) "@kazdennn"
+
+## @mady.motherhood (273100 views), 15 of 24 comments reachable. https://www.tiktok.com/video/7688537802807545119
+- (17 likes) "Toddlers always find a way 🤣 love this tho!🩷"
+- (6 likes) "Wow looks awesome"
+- (5 likes) "Been NEEDING this lately!!"
+- (1 likes) "Okay this is genius"
+- (1 likes) "Do you have the link"
+- (1 likes) "Do I have a kid? No did I add this into my cart for the future?YES"
+- (1 likes) "@𝒮𝓊𝓂𝓂𝑒𝓇"
+- (1 likes) "@user49567903952"
+- (1 likes) "@Jaden"
+- (0 likes) "🔥"
+- (0 likes) "k m"
+- (0 likes) "cool"
+- (0 likes) "Oh need this"
+- (0 likes) "Cute!!"
+- (0 likes) "@Candyshop920"
+
+## @momfindsbyjeni (? views), 6 of 16 comments reachable. https://www.tiktok.com/video/7611366378741845262
+- (11 likes) "Not a lot of tummy time in that house"
+- (1 likes) "so helpful to see the tub size infant ratio 💐 thanks so much for posting!"
+- (1 likes) "I wanted to love this but it was small for my baby I loved that he was able to sit up and be covered with water still but his legs were too long he wanted to stretch out and couldn’t"
+- (1 likes) "$60😳😳😳😳😳"
+- (0 likes) "Stop it that’s perfect"
+- (0 likes) "How old is she in this? I just ordered the baby version for mine because I thought this would be too big… but maybe I should’ve grabbed the toddler tub😵‍💫"
+
+## @silv_rlv (? views), 70 of 85 comments reachable. https://www.tiktok.com/video/7683209043116133662
+- (353 likes) "Watching your baby move into a new stage is such a bittersweet feeling. They truly grow faster than our hearts are ready for."
+- (32 likes) "I had a similar chair but my baby likes to soak and he was crushing his walnuts. We use the skip hop tub and he scoots down to float with just his face out of the water and his legs out of the tub. He's 10mo and can sit up independently but he always scoots so he can soak."
+- (15 likes) "Got this for my boy and not very friendly to his walnuts he’s a kicker and loves bath time so he’s always going crazy and kicking"
+- (10 likes) "Wait this is kinda genius"
+- (9 likes) "Looks like it’s killing his back why not sit him up"
+- (6 likes) "What book is that"
+- (3 likes) "my 2 month old sits in her bath tub like this. if i have her in the infant bath she screams she wants to sit up always.."
+- (3 likes) "just so yall know, if your tub is textured it won't stick!!"
+- (3 likes) "cutie baby seat"
+- (3 likes) "baby looks so peaceful"
+- (3 likes) "Where are we putting this when it’s not in use?"
+- (3 likes) "This is so cute! 🥰 But how do people wash the baby’t back and butt? 😭"
+- (3 likes) "They grow up so fast 🥲"
+- (3 likes) "Aww this is too cute .. where was the his when my son was 6 months haha"
+- (2 likes) "adorable"
+- (2 likes) "How does he lean back!!! Mine smooshes his balls and wants out immediately 😂🤦‍♀️"
+- (2 likes) "He’s living the dream!!"
+- (2 likes) "Awww"
+- (2 likes) "Adorable 😮‍💨🤌🏻"
+- (1 likes) "🥰🥰🥺"
+- (1 likes) "😃"
+- (1 likes) "😁😁😁"
+- (1 likes) "how did the first tub work out , i was thinking about buying it for my baby"
+- (1 likes) "We’d love to connect with you about some new opportunities with Morefeel! Please check your DMs when you get a chance."
+- (1 likes) "Stop it 😭😭🫶🏼"
+- (1 likes) "So cuteeee my little cousin 🥰🥹✨"
+- (1 likes) "So cute"
+- (1 likes) "So cute"
+- (1 likes) "Omg he’s getting so big!!! How precious 🥹"
+- (1 likes) "Need this for my nephew! 😍"
+- (1 likes) "I like this seat 😁"
+- (1 likes) "Cute baby 😂😂"
+- (1 likes) "@sheena_rowe_444"
+- (1 likes) ""
+- (0 likes) "🙏"
+- (0 likes) "😍😍😍"
+- (0 likes) "😍😍😍"
+- (0 likes) "😁😁😁"
+- (0 likes) "♥️♥️♥️"
+- (0 likes) "wow! so adorable 😍🛀"
+- (0 likes) "wow! so adorable 😍🛀"
+- (0 likes) "oh so he think he vip?"
+- (0 likes) "[Abrazo de corazón gigante][Abrazo de corazón gigante][Ojos de corazón][Ojos de corazón]"
+- (0 likes) "Where did you get the bath seat🥰??"
+- (0 likes) "That's amazing"
+- (0 likes) "So well done 👌"
+- (0 likes) "So cool 🥰"
+- (0 likes) "O"
+- (0 likes) "O"
+- (0 likes) "Mind you these people are advertising by showing their babies in the bath 🥰"
+- (0 likes) "Kid is soo focused"
+- (0 likes) "Kid is just relaxing and chilling. All he needs is a bottle."
+- (0 likes) "I’m not ready"
+- (0 likes) "I’m not ready"
+- (0 likes) "It is so bittersweet 😭"
+- (0 likes) "I was told when I was a baby I got one foot out and put it in the other slot. so two of my legs in one slot and slid down."
+- (0 likes) "I might get this cause my baby wants to stand up every chance he gets"
+- (0 likes) "I might get this cause my baby wants to stand up every chance he gets"
+- (0 likes) "How cute your baby is 🥰💐"
+- (0 likes) "How cute your baby is 🥰💐"
+- (0 likes) "He is relaxed after a long day"
+- (0 likes) "Do they have to be able to sit without assistance? If that makes sense 😩 (first time mom)"
+- (0 likes) "Cute baby"
+- (0 likes) "Cryinggg"
+- (0 likes) "Baby"
+- (0 likes) "@lynleefaith🤍"
+- (0 likes) "@jodiiriveraaa"
+- (0 likes) "@Kiss My Ash"
+- (0 likes) "@Jacob Palomo"
+- (0 likes) "@Amayrani Torres"
+
+## @itskristaadams (? views), 24 of 50 comments reachable. https://www.tiktok.com/video/7683397629056699679
+- (50 likes) "I do not like this because humidity and mold 🙅🏽‍♀️"
+- (50 likes) "Everybody has a kitchen sink which is oftentimes safer"
+- (12 likes) "Who else is saving this but isn’t pregnant and don’t have children?"
+- (5 likes) "Can I wash the seat also?"
+- (5 likes) "But where do you get the hose? I like that"
+- (3 likes) "Oh that would be great for my cats lol"
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "yes please"
+- (1 likes) "This is cute added"
+- (1 likes) "It works it’s easy I used it"
+- (1 likes) "@Markala Dunwoody"
+- (1 likes) "@John Wick 🙌🏻👀"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰"
+- (0 likes) "😂😂😂"
+- (0 likes) "♥️♥️♥️"
+- (0 likes) "where is the link to purchase?"
+- (0 likes) "Looks good"
+- (0 likes) "@janipennigton"
+- (0 likes) "@babymamalena look at this"
+- (0 likes) "@YOUMI kh"
+- (0 likes) "@Chi 💕"
+
+## @shewiththeglow (? views), 9 of 10 comments reachable. https://www.tiktok.com/video/7692132082188946719
+- (13 likes) "over priced"
+- (4 likes) "If i follow TikTok shop, mi nav nuh money 😩🥺"
+- (2 likes) "She so cute and getting big 🤗"
+- (1 likes) "I just got one boo, you just saved my life. The one I got from target is not working out."
+- (1 likes) "Does it actually fit in the bathtub? it looks bulky. I want to get one for my daughter"
+- (0 likes) "💯🥰😁 this looks like just the right size for a toddler."
+- (0 likes) "I love this tub I got it for my 1 year old🔥"
+- (0 likes) "Damn. $70"
+- (0 likes) "$$$$$"

@@ -1,0 +1,75 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "vo/V1_lines.txt",
+  "vo/V1A_brief_verbatim.txt"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "rules_applied": [
+   "\u00a71 no price, sell-side honest line, no false scarcity (real season), Grace close 'It's in the orange cart.'",
+   "\u00a73 hook: brief's hook (Ralph gave it) + library alternatives H071/H154 offered",
+   "\u00a74 structure hook/pain/solution/urgency CTA; CTA sells more units (gift)",
+   "\u00a75 pace ~3.4 wps (Grace C), ~31 s",
+   "\u00a76 product reference sheet, no pasted labels (Gemini stills + Seedance ref mode + Kling), one test still, grip check, 2x edge zoom, hand/hand-free mix, no text, REMOVED.md, AI finish, Grace C loudnorm -16 LUFS"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_toddler.txt",
+   "research/tag_run.txt",
+   "research/videos/7688537802807545119/meta.json",
+   "research/videos/7679060356018212129/meta.json",
+   "research/videos/7686212920253943070/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral_run.txt",
+   "research/viral/viral-2026-10-21.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "research/product_facts_2026-10-16.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt",
+   "research/readability_v2.txt"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "research/compare.md",
+   "research/compare/compare/compare.md"
+  ]
+ }
+}

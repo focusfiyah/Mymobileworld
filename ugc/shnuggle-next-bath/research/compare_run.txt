@@ -1,0 +1,25 @@
+/home/user/Mymobileworld/ugc/shnuggle-next-bath/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+# A/B compare
+
+**A**: https://www.tiktok.com/@itskristaadams/video/7683397629056699679 (563,900 views, saves 1.49%)
+**B**: out/shnuggle_next_bath.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 34.9 | 31.8 |
+| words | 160 | 0 |
+| words_per_sec | 4.58 | None |
+| cuts | 18 | 9 |
+| cuts_per_10s | 5.2 | 2.8 |
+| first_word_at_s | 0.0 | None |
+| spoken_first_3s | If you don't have a lot of room in your house and you've got a baby coming, you need to see this. This is Jewel, |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.0s] If you don't have a lot of room in your house
+- [1.6s] and you've got a baby coming,
+
+-> research/compare/compare/compare.md, research/compare/compare/compare.png
