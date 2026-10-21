@@ -11,7 +11,7 @@ grace/PLAYBOOK.md §6 "Vans sequin" lesson, and the prompt-master skill's "Ralph
   `python3 -c "import json,requests; [open(p,'wb').write(requests.get(u).content) for p,u in json.load(open('handoff_media.json')).items()]"` (mkdir clips out first).
 
 ## Next steps
-1. Wait for Ralph's notes on round 9 (V2, V3, V4). Fix only what he flags; ask before every paid redo with the exact cost.
+1. Round 10 (2026-10-21): V5 fixed free. V4: waiting on Ralph's OK for $0.44 (V4S1 new still `python3 run.py stills V4S1` then run.kling_clip("V4S1", S["V4S1"]["move"] minus its first sentence, hold=False), prompts in shots.json; look_V4.png now = V4S3 still). Then re-cut V4, QC (count shoes every frame), publish finals/r10/V4.mp4.
 2. On approval: Drive "Grace Tiktok assets" -> search for an existing Vans folder, else create "Vans Premium Authentic sequin (Grace)"; upload the 10 finals as "CURRENT - Vans sequin V<n> (2026-10-21).mp4"
    via Kie host URL + Composio GOOGLEDRIVE_UPLOAD_FROM_URL (account googledrive_lin-ernst), check sizes; add a Google Doc with the 10 captions from scripts.md (no emoji in Drive docs, no PDF).
    Put the folder link in README + CLAUDE.md Jobs line, mark GATES G8/G9, email + push Ralph the link.

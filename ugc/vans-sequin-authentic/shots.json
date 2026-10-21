@@ -55,7 +55,7 @@
    "hand": true,
    "feet": true,
    "anklet": "layered thin gold anklets on both ankles",
-   "still": "POV photo looking down at an angle: her right hand comes in from the right frame edge, an oatmeal wool coat sleeve over the wrist, holding one sequin Vans shoe side-on at waist height by its collar, the side VANS tab facing the camera. Far below, out of focus, her feet in the matching shoe and one bare foot with white polish stand on a white marble tile floor of a bright caf\u00e9; a beige leather tote bag leans against her leg.",
+   "still": "POV photo looking down at an angle: her right hand comes in from the right frame edge, an oatmeal wool coat sleeve over the wrist, holding one sequin Vans shoe side-on at waist height by its collar, the side VANS tab facing the camera. Far below, out of focus, her feet in the matching shoe and one bare foot with white polish stand on a white marble tile floor of a bright café; a beige leather tote bag leans against her leg.",
    "move": "her hand keeps the same grip the whole clip and slowly tilts the shoe about 30 degrees toward the camera so the sequins flash in the light; the shoe never flips or turns upside down and her fingers never move to a new position; the camera stays still"
   },
   {
@@ -65,19 +65,20 @@
    "hand": true,
    "feet": false,
    "anklet": "",
-   "still": "Close-up photo of her hand holding one sequin Vans shoe by its collar against a soft white marble caf\u00e9 background, the sequin checker squares filling much of the frame, her thumb resting on the sequins near the toe, the oatmeal coat cuff at the wrist.",
+   "still": "Close-up photo of her hand holding one sequin Vans shoe by its collar against a soft white marble café background, the sequin checker squares filling much of the frame, her thumb resting on the sequins near the toe, the oatmeal coat cuff at the wrist.",
    "move": "her thumb gently presses along the sequin squares, then her hand flips the shoe over to show the gum-brown waffle sole; the camera stays still",
    "edit": "Edit this photo. Change ONLY two things: (1) remove the second sequin Vans shoe lying on the white marble table at the left edge and fill that area with the same white marble table top and the same softly blurred cafe background; (2) the logo on the red insole MUST be a solid white rectangle with red VANS letters (not a red box with white letters). Keep everything else exactly the same, pixel for pixel where possible: the shoe in her hand and its print (raised black sequins on the black squares only, plain off-white canvas squares, black laces, black collar binding with white stitching, small black woven VANS side tab with white letters, marshmallow sole), her hand, skin tone, pink and white French-tip nails, rings, gold bracelets, the oatmeal coat sleeve, the framing and the light. Exactly ONE shoe in the picture. No text, no new objects."
   },
   {
    "id": "V4S1",
    "video": "V4",
-   "dur": 4,
+   "dur": 5,
    "hand": false,
    "feet": false,
    "anklet": "",
-   "still": "Low-angle photo of the pair of sequin Vans sitting side by side on a sunny light-wood deck, potted green plants softly blurred behind, warm-white daylight (neutral, not golden), the shoes fill the lower half of the frame. No people, no hands, no feet.",
-   "move": "the camera slowly dollies in toward the pair;; the shoes do not move"
+   "still": "Low-angle photo on a sunny light-wood deck: EXACTLY TWO sequin Vans shoes, one left and one right shoe of the same pair, both standing upright on their soles, side by side and parallel, toes pointing toward the camera's left, the outer side VANS tab of the front shoe facing the camera. Potted green plants softly blurred behind, bright neutral daylight (not golden), the shoes fill the lower half of the frame. NEVER a third shoe: no shoe lying on its side, no sole or waffle tread visible anywhere, no shoe box. Reference image 3 is for the print only, do not copy its sole view. No people, no hands, no feet.",
+   "move": "Kling 3.0 on Kie, first frame only (hold=False), 5 s: Recreate image 1 exactly as the first frame. The camera slowly dollies in toward the two shoes at deck level, drifting slightly right. The two shoes stay completely still and never turn. Their print stays exactly as in the first frame: black sequin squares on cream, black woven side tab with white VANS letters, white box with red VANS on the insole. Exactly two shoes for the whole clip, no third shoe appears. No people, no hands, no text.",
+   "r10": "Ralph r9: 'V4 shows 3 shoes on the deck' -> new 2-shoe still + Kling dolly, $0.44, waiting on his OK"
   },
   {
    "id": "V4S2",
