@@ -19,3 +19,4 @@
 | Held-shoe shots in V2, V3, V4 (they turned / jumped sides, or read as stills when frozen) | Ralph | 2026-10-21 | r9: replaced by feet-only moving Kling shots (walk off rug, marble walk + crossed-leg bounce, deck heel-rock) |
 | A third shoe in V4 | Ralph | 2026-10-21 | r9 claim was wrong (the deck dolly V4S1 still had a 3rd shoe, sole up); r10: new 2-shoe still + Kling dolly proposed ($0.44), old still dropped as a look ref |
 | V1 round 5 turn (shoe rolls from laces to sole, "morphs") | Ralph | 2026-10-21 | r11: V1 back to the r6 Kling hold (clips/V1S1_k.mp4), Drive replaced |
+| V6 bench hold turning from insole to sole | Ralph (chose trim) | 2026-10-21 | r12: V6S2 dropped (turn from 0.4 s), Drive replaced |
