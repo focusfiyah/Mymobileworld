@@ -596,5 +596,89 @@
    ]
   },
   "costTime": 103
+ },
+ {
+  "t": "2026-10-21 19:34:10",
+  "submitted": "f8654fd23c6d9631d11a69dc6fc2d70e",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The th"
+ },
+ {
+  "t": "2026-10-21 19:34:10",
+  "submitted": "f60a5642fdc029d3ac40c421b3d7edf8",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Blue-hour dusk in a quiet open-air parking lot, clean n"
+ },
+ {
+  "t": "2026-10-21 19:34:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Blue-hour dusk in a quiet open-air parking lot, clean neutral exposure, deep blue sky still light, a silver car parked a few steps ahead. Point of view shot: the hand holds a black smartphone upright at chest height with its SCREEN FACING THE CAMERA; the screen is on and shows a plain flat mid-grey picture filling the whole screen (no icons, no text, no app). The phone's back flashlight points AWAY from the camera, toward the car, and casts a small weak circle of white light on the asphalt ahead next to the car's front tyre; no light shines toward the camera. Fingers wrap the phone's sides, thumb on the near edge, the screen not covered. No flashlight product in this shot. The hand is the ONLY person in the video: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band. The hand enters from the frame edge, whole wrist visible; part of the forearm may show (Ralph 2026-10-21: forearm is ok); the hand stays small enough that the flashlight is the hero. Fingers GRIP what they touch (thumb on one side, fingers curled on the other). Five fingers, natural knuckles and skin texture. Shot on a phone, natural light, realistic, casual like a real person filmed it, no cinematic grading. Bright, clean, neutral exposure (no dark or moody look, no yellow or golden tint). No on-screen text, captions or logos. Reference images, in order: Grace's hand reference sheet (skin, nails, rings, bracelets).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606536217-w5tz7p1qhug.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f60a5642fdc029d3ac40c421b3d7edf8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f60a5642fdc029d3ac40c421b3d7edf8_0_1792611281.jpeg"
+   ]
+  },
+  "costTime": 32
+ },
+ {
+  "t": "2026-10-21 19:35:57",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The thumb presses the orange button once and a bright white beam comes out of the round lens. Then the hand slowly turns the flashlight so the lens points AWAY from the camera, straight down the gravel path, and the beam follows the lens: a bright round pool of light travels along the gravel ahead, always exactly where the lens points, ending on the path in the distance. The light never shines toward the camera. The flashlight keeps its exact shape and parts while it turns (orange button, white side window, carabiner, round lens). No other light, spot or lamp appears anywhere else. Slight handheld camera. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects. The flashlight must match reference image 2 exactly (orange button, white light window, carabiner hook, gunmetal colour); reference image 3 shows it from every side.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792610067477-dy6ya5adx3w.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792607850021-it2a0b5agu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792606540363-d7in50a4959.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "f8654fd23c6d9631d11a69dc6fc2d70e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792611352128-a7x7b6zltot.mp4"
+   ]
+  },
+  "costTime": 103
+ },
+ {
+  "t": "2026-10-21 19:36:08",
+  "submitted": "5e0687aafde78f2bb9c3b71d35988fa9",
+  "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The sm"
+ },
+ {
+  "t": "2026-10-21 19:38:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same place, framing, light, hand, rings, bracelets) as the first frame, then: The small circle of light on the asphalt ahead (from the phone's back flashlight, pointing away from the camera) flickers twice and goes out; the hand lowers the phone a little in frustration. The phone screen keeps facing the camera and stays on. Slight handheld camera. Nothing else changes. The hand keeps the same skin tone, nails, rings and bracelets for the whole clip; five fingers. The flashlight never changes shape, colour or parts: orange button, white light window and carabiner stay exactly as in the first frame. No sound. No on-screen text. No new objects.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight/1792611366284-ggebpfv7y8k.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "5e0687aafde78f2bb9c3b71d35988fa9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792611487583-ffz6n4pjxpi.mp4"
+   ]
+  },
+  "costTime": 120
  }
 ]
