@@ -26,3 +26,11 @@ grades) means our dark beats are blue-hour dusk with bright exposure, never a bl
 ## Buyer levers seen
 Pain of being caught in the dark; 2-in-1 value (light + phone charge); hands-free; buy two (family, car); season (outages,
 camping, gifts).
+
+## V2 update, 2026-10-22 (same product, research above reused; re-run today where it changes daily)
+- Viral board re-run today: research/viral/viral-2026-10-22.json (1,313 videos scanned, 318 shop videos, 30 days, + flashlight /
+  powerbankflashlight / campinggear / emergencykit tags). Fastest-rising flashlight-power-bank videos: @en.casa.con.lia
+  (Hoodink 2-in-1, 951K views, ~123K/day, 7696715850488794381, transcript in videos/) and @zin5bamu (2-in-1 Strong
+  Flashlight Power Bank, 1.2M; same creator as the 13.7M winner 7674078707387993375 in videos/).
+- Takeaway for V2: both lead with the product working in the first frame and list features fast; Ralph's script does the
+  same (feature stack in one breath: charge, hang, beam). S1 opens on the lit side panel, matching that.
