@@ -16,8 +16,8 @@ EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, n
  "V9": [("V9S1", 0, 1.4), ("V9S1", 2.6, 3.4), ("V9S2", 0.9, 4.8), ("V9S3", 0, 4.0)],
  "V10": [("V10S1", 0, 4.6), ("V10S2", 0, 4.0), ("V10S3", 0, 2.5)],
  # V11 (Grace 2026-10-21: night, flash on): S1 opens dark ("flash off", free) then full light = the flash coming on;
- # S2 walk 0-2.5 (camera swing + blur after); S3 the two-hand bow part
- "V11": [("V11S1", 0, 3.0, {"dark": 0.6}), ("V11S2", 0.1, 2.5), ("V11S3", 1.6, 4.0), ("V11S4", 0, 2.6)],
+ # S2 walk 0.1-2.25 (the camera swing from 2.37 s reads as a cut 0.17 s before the real one); S3 the two-hand bow part
+ "V11": [("V11S1", 0, 3.0, {"dark": 0.6}), ("V11S2", 0.1, 2.25), ("V11S3", 1.6, 4.0), ("V11S4", 1.2, 3.8)],
 }
 GRADE = {  # all bright and neutral; small differences so no two videos share a look
  "V1": "eq=brightness=0.02:contrast=1.03", "V2": "eq=brightness=0.035:saturation=0.97",
