@@ -30,3 +30,16 @@ Scope: one AI Grace ad for the Throw Hands Rock Paper Scissors card game, matche
 
 - [x] G7: Final in Drive "Grace Tiktok assets/Throw Hands Card Game (Grace)" with CURRENT- prefix; README Status current
   EVIDENCE: pending Ralph's approval of r1 (README Status updated 2026-10-14)
+
+## Model test (Ralph 2026-10-14: Seedance 2.0/Fast, Vidu Q3 Turbo, Hailuo 02 Pro/2.3 Std on this ad)
+- [x] G8: Kie price + model id found for every requested model, or a tested reason it is not on Kie
+  CWD: .
+  CHECK: python3 -c "t=open('MODEL_TEST.md').read();m=['Seedance 2.0 Fast','Seedance 2.0 |','Hailuo 2.3 Standard','Hailuo 02 Pro','Vidu Q3 Turbo'];print('ALL_MODELS' if all(x in t for x in m) else [x for x in m if x not in t])"
+  EXPECT: ALL_MODELS
+  EVIDENCE: 2026-10-14 Kie pricing API rows + docs.kie.ai; Vidu Q3 Turbo not on Kie, vidu/replicate APIs 400/401 without a key
+- [ ] G9: Test cost approved by Ralph before any paid call
+  EVIDENCE: Ralph declined the $2.375 test 2026-10-14; asked about an optional +$0.15 Hailuo 2.3 Std clip
+- [ ] G10: S4 still QC'd at full size, then one clip per approved model, sheet + per-model score table to Ralph
+  EVIDENCE: pending
+- [ ] G11: Kie spend at or under the approved test total
+  EVIDENCE: pending
