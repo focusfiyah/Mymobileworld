@@ -6,8 +6,9 @@ https://docs.kie.ai/market/google/gemini-omni-flash-1-1.md.
       [--seconds 4|6|8|10] [--res 1080p] [--dry]
   python3 omni_clip.py JOB SHOT --edit --prompt-file FIX.txt [--dry]      # fix ONE detail of the shot's last take
 
-- JOB is the job folder; grace/gate.py require() runs first (script gate + monthly cap). --dry prints the cost and the
-  request and spends nothing.
+- JOB is the job folder; grace/gate.py require() runs first (script gate, monthly cap, approved Production Book) and
+  start_task() right before createTask (budget lock + paid-task ledger: a take already started or paid, here or on any
+  session branch, is refused unless GATE_REDO names it). --dry prints the cost and the request and spends nothing.
 - Reference mode (Kie: image_urls and first_frame_url cannot be combined, so refs win): the still is image 1, then one
   real close-up per logo/label in frame, then the product reference sheet (max 7 images). The prompt names each by
   number ("image 1" ...) and opens with "Recreate image 1 exactly as the first frame" (template:
@@ -90,7 +91,7 @@ def main():
     gate = find_up(job, "grace/gate.py")
     if not gate:
         sys.exit("grace/gate.py not found above the job folder")
-    sys.path.insert(0, str(gate.parent)); from gate import require; require(job)
+    sys.path.insert(0, str(gate.parent)); from gate import require, start_task, task_submitted; require(job)
     folder = job.name
     inp = {"prompt": prompt, "aspect_ratio": "9:16", "resolution": a.res}
     if a.edit:
@@ -101,6 +102,7 @@ def main():
         inp["duration"] = str(a.seconds)
         inp["image_urls"] = [upload(a.still, folder)] + [upload(r, folder) for r in a.ref]
     body = {"model": MODEL, "input": inp}
+    key = start_task(job, body, label=a.shot, usd=usd)   # saved + pushed before Kie is asked
     for attempt in range(4):  # Kie answers 500 "server is busy" under load
         r = requests.post(f"{API}/createTask", json=body, timeout=60)
         resp = r.json() if r.headers.get("content-type", "").startswith("application/json") else {"raw": r.text[:300]}
@@ -109,7 +111,9 @@ def main():
             break
         print("createTask", r.status_code, json.dumps(resp)[:300]); time.sleep(3)
     else:
+        task_submitted(job, key, None)
         log(job, {"request": body, "response": resp}); sys.exit("createTask failed")
+    task_submitted(job, key, tid)
     log(job, {"submitted": tid, "prompt": prompt[:120]}); print("submitted", tid, flush=True)
     deadline = time.time() + 900
     while time.time() < deadline:

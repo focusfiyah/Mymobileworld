@@ -11,7 +11,7 @@ import requests
 
 def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
     import sys as _s, pathlib as _p; _h = _p.Path(__file__).resolve()
-    _s.path.insert(0, str(_h.parents[2] / "grace")); from gate import require; require(_h.parent)
+    _s.path.insert(0, str(_h.parents[2] / "grace")); import gate; return gate, _h.parent
 
 
 
@@ -59,9 +59,10 @@ def upload(path):
     return url
 
 
-def run_task(body):
+def run_task(body, label=""):
+    gate, job = _gate()   # script gate + cap + approved BOOK.md + budget lock + paid-task ledger (Ralph 2026-10-22)
+    key = gate.start_task(job, body, label=label)
     for attempt in range(4):  # Kie answers 500 "server is busy" under load; an immediate retry works
-        _gate()
         r = requests.post(f"{API}/createTask", headers=HDR, json=body, timeout=60)
         resp = r.json() if r.headers.get("content-type", "").startswith("application/json") else {"raw": r.text[:300]}
         tid = (resp.get("data") or {}).get("taskId")
@@ -69,7 +70,9 @@ def run_task(body):
             break
         print("createTask", r.status_code, json.dumps(resp)[:300]); time.sleep(3)
     else:
+        gate.task_submitted(job, key, None)
         log({"request": body, "response": resp}); sys.exit("createTask failed")
+    gate.task_submitted(job, key, tid)
     log({"submitted": tid, "prompt": body["input"].get("prompt", "")[:120]})  # recoverable via recordInfo if this run dies
     print("submitted", tid, flush=True)
     deadline = time.time() + 600

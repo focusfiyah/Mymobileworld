@@ -8,8 +8,20 @@ proves EVERY step of grace/PLAYBOOK.md §4 was done, each with a real file in th
 
 Proof files must exist and be NEWER than the script file, so editing a script after a check forces that check again.
 The VO lines are also scanned for Ralph's banned phrases and AI tells.
+
+Paid calls also need (Ralph 2026-10-22, three ideas taken from Video Factory):
+  1. Production Book: the plan message saved as JOB/BOOK.md (script, every shot, prompts, one TOTAL: $X line).
+       python3 grace/gate.py <job> --book-init                       copy the template to fill in
+       python3 grace/gate.py <job> --approve-book "<Ralph's words>"  record his OK against the book's exact text
+     Editing BOOK.md after his OK voids it until he OKs the new version.
+  2. Budget lock: spend on the job since that OK, tasks in flight included, never passes the book TOTAL plus extras
+     he approved later:  python3 grace/gate.py <job> --approve-extra 0.32 "<Ralph's words>" --what "S3 redo"
+  3. Paid-task ledger (grace/paid.py): runners call start_task(job, body, label=...) right before each Kie createTask
+     and task_submitted(job, key, task_id) right after. A request already started or paid in this job, here or on any
+     session branch, is refused until GATE_REDO names it.
+A scripts-only job (no paid calls) only needs the script gate; the book shows as information.
 """
-import json, os, re, sys
+import datetime, hashlib, json, os, re, sys
 from pathlib import Path
 
 STEPS = {   # key: what proof it needs (PLAYBOOK §4 "Every script uses ALL of these" + script checklist + CTA rules)
@@ -152,23 +164,145 @@ def override_lines(job):
             for o in overrides(json.loads(p.read_text()))]
 
 
-def require(job, stage="plan"):
+BOOK = "BOOK.md"
+BOOK_HEADS = ["## 3. script", "## 4. shot list", "## 6. cost", "## 8. prompts"]
+TEMPLATE = Path(__file__).resolve().parents[1] / ".claude/skills/ugc-product-ad/templates/plan-message.md"
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import paid   # noqa: E402  (grace/paid.py, next to this file)
+
+
+def _checklist(job):
+    p = Path(job) / "checklist.json"
+    return json.loads(p.read_text()) if p.exists() else {}
+
+
+def _sha(text):
+    return hashlib.sha256(text.encode()).hexdigest()
+
+
+def book_problems(job):
+    """(problems with BOOK.md itself, its TOTAL, its text) before anyone can approve it."""
+    f = Path(job) / BOOK
+    if not f.exists():
+        return [f"no Production Book: `python3 grace/gate.py {job} --book-init`, fill it, send it to Ralph as the plan"], None, ""
+    text = f.read_text(); low = text.lower(); errs = []
+    if re.search(r"_{3,}|\$__", text):
+        errs.append(f"{BOOK} still has blanks (___ or $__): fill every field, 'n/a' needs a reason")
+    errs += [f"{BOOK} is missing the section '{h}'" for h in BOOK_HEADS if h not in low]
+    totals = re.findall(r"(?m)^TOTAL:\s*\$(\d+(?:\.\d+)?)\s*$", text)
+    if len(totals) != 1:
+        errs.append(f"{BOOK} needs exactly one line 'TOTAL: $<amount>' (the paid total Ralph approves), found {len(totals)}")
+    return errs, (float(totals[0]) if len(totals) == 1 else None), text
+
+
+def book_errors(job, c):
+    errs, total, text = book_problems(job)
+    ok = c.get("book_ok")
+    if errs:
+        return errs
+    if not ok:
+        return [f"{BOOK} is not approved: send it to Ralph, then `python3 grace/gate.py {job} --approve-book \"<his words>\"`"]
+    if ok.get("sha256") != _sha(text):
+        return [f"{BOOK} changed after Ralph approved it ({ok.get('date')}): send him the new version and record his OK again"]
+    return []
+
+
+def allowance(c):
+    ok = c.get("book_ok") or {}
+    extra = sum(float(x["usd"]) for x in c.get("budget_extra", []) if x.get("book_sha256") == ok.get("sha256"))
+    return float(ok.get("total", 0)) + extra, extra
+
+
+def lock_errors(job, c, spent_now, add):
+    """Budget lock: spend since Ralph's OK (in flight included) + this call must fit the approved total + extras."""
+    ok = c["book_ok"]; allowed, extra = allowance(c)
+    since = round(spent_now - float(ok.get("spent_at_approval", 0)), 4)
+    print(f"BOOK: approved ${ok['total']:.2f} + extras ${extra:.2f}; spent since approval ${since:.2f}; this call ${add:.2f};"
+          f" left after it ${allowed - since - add:.2f}", file=sys.stderr)
+    if since + add > allowed + 1e-6:
+        return [f"this call (${add:.2f}) would take the job to ${since + add:.2f} of the ${allowed:.2f} Ralph approved. Ask him"
+                f" with the exact cost, then `python3 grace/gate.py {job} --approve-extra <usd> \"<his words>\" --what \"<what>\"`"]
+    return []
+
+
+def approve_book(job, quote):
+    errs, total, text = book_problems(job)
+    if errs:
+        sys.exit("cannot approve:\n  - " + "\n  - ".join(errs))
+    p = Path(job) / "checklist.json"
+    if not p.exists():
+        sys.exit(f"no {p}: run --init first")
+    c = json.loads(p.read_text())
+    if c.get("book_ok"):
+        c.setdefault("book_history", []).append(c["book_ok"])
+    c["book_ok"] = {"by": "Ralph", "date": datetime.date.today().isoformat(), "quote": quote, "total": total,
+                    "sha256": _sha(text), "spent_at_approval": paid.job_spend(paid.entries(job))}
+    p.write_text(json.dumps(c, indent=1))
+    print(f"BOOK APPROVED: ${total:.2f} (job had spent ${c['book_ok']['spent_at_approval']:.2f} before this book)")
+
+
+def approve_extra(job, usd, quote, what):
+    p = Path(job) / "checklist.json"; c = json.loads(p.read_text()) if p.exists() else {}
+    if book_errors(job, c):
+        sys.exit("approve the current BOOK.md first: " + "; ".join(book_errors(job, c)))
+    c.setdefault("budget_extra", []).append({"usd": usd, "what": what, "by": "Ralph", "quote": quote,
+                                            "date": datetime.date.today().isoformat(), "book_sha256": c["book_ok"]["sha256"]})
+    p.write_text(json.dumps(c, indent=1))
+    print(f"EXTRA APPROVED: +${usd:.2f} for {what}; job allowance now ${allowance(c)[0]:.2f}")
+
+
+def require(job, stage="plan", usd=0.0, lock=True):
     errs = check(job, stage)
     # Monthly cap (Ralph 2026-10-21: "blowing through my budget"): every paid runner calls require(), so the cap
     # stops all of them at once. Cap and Ralph's over-cap OKs live in grace/spend.json.
-    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from spend import budget_errors
     errs = errs + budget_errors(job)
+    c = _checklist(job); berrs = book_errors(job, c)   # Production Book + budget lock (Ralph 2026-10-22)
+    if lock and not berrs:   # start_task() runs the lock itself, under the ledger lock
+        errs += lock_errors(job, c, paid.job_spend(paid.entries(job)), usd)
+    errs += berrs
     for l in override_lines(job): print(l, file=sys.stderr)
     if errs:
         sys.exit("SCRIPT GATE: paid call refused. Finish the checklist first (grace/PLAYBOOK.md §4):\n  - " + "\n  - ".join(errs[:25]))
 
 
+def start_task(job, body, label="", usd=None):
+    """Call right before each Kie createTask: script gate, cap, book, budget lock (in-flight tasks counted) and the
+    paid-task ledger. Returns the key for task_submitted()."""
+    from spend import price
+    usd = price(body)[1] if usd is None else usd
+    require(job, lock=False)
+    return paid.claim(job, body, usd, label, check=lambda spent: lock_errors(job, _checklist(job), spent, usd))
+
+
+def task_submitted(job, key, task_id):
+    """Call right after createTask with Kie's taskId, or None when no task was created (nothing charged)."""
+    paid.submitted(job, key, task_id)
+
+
+def book_line(job):
+    c = _checklist(job); errs = book_errors(job, c)
+    if errs:
+        return "BOOK: not ready for paid calls: " + errs[0]
+    allowed, extra = allowance(c)
+    return f"BOOK: approved by Ralph {c['book_ok']['date']}, ${allowed:.2f} allowed (book ${c['book_ok']['total']:.2f} + extras ${extra:.2f})"
+
+
 if __name__ == "__main__":
     job = sys.argv[1]
     if "--init" in sys.argv: init(job)
+    elif "--book-init" in sys.argv:
+        dst = Path(job) / BOOK
+        if dst.exists(): sys.exit(f"{dst} exists")
+        dst.write_text(TEMPLATE.read_text()); print("wrote", dst)
+    elif "--approve-book" in sys.argv: approve_book(job, sys.argv[sys.argv.index("--approve-book") + 1])
+    elif "--approve-extra" in sys.argv:
+        i = sys.argv.index("--approve-extra")
+        if "--what" not in sys.argv: sys.exit("--what \"<what the extra pays for>\" is required")
+        approve_extra(job, float(sys.argv[i + 1]), sys.argv[i + 2], sys.argv[sys.argv.index("--what") + 1])
     else:
         e = check(job, sys.argv[sys.argv.index("--stage") + 1] if "--stage" in sys.argv else "plan")
         print("GATE OK" if not e else "GATE FAILED:\n  - " + "\n  - ".join(e))
         for l in override_lines(job): print(l)
+        print(book_line(job))
         sys.exit(1 if e else 0)

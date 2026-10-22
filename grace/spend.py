@@ -26,14 +26,26 @@ PRICES = {
 }
 
 
+def price(request):
+    """List price of one Kie request body (used by grace/paid.py before the task is submitted)."""
+    model = request.get("model"); kind, usd = PRICES.get(model, ("call", 0.10))
+    if kind == "sec":
+        return model, usd * float((request.get("input") or {}).get("duration") or 5)
+    return model, usd
+
+
 def kie_cost(entry):
     r = entry.get("request") or {}
     if not isinstance(r, dict) or not entry.get("taskId") or entry.get("fail"):   # Kie does not charge failed tasks
         return None, 0.0
-    model = r.get("model"); kind, price = PRICES.get(model, ("call", 0.10))
-    if kind == "sec":
-        return model, price * float((r.get("input") or {}).get("duration") or 5)
-    return model, price
+    return price(r)
+
+
+def entry_usd(e):
+    """Charge of one finished log entry: its own "usd" when the runner logged one, else the list price."""
+    if "usd" in e and e.get("taskId"):
+        return 0.0 if e.get("fail") else float(e["usd"])
+    return kie_cost(e)[1]
 
 
 def month_totals(month, job_prefix=None):
