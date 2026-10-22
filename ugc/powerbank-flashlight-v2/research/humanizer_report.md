@@ -9,3 +9,6 @@ Checked against the humanizer skill's patterns. Ralph's script reads as spoken, 
   "the cheaper one" style); the brand is spoken only, never shown (Ralph 2026-10-22).
 Changes: none (word for word, Ralph). Only edit was Ralph's own: "flashing" -> "flickering".
 Captions: none in the video. Reading level: research/readability.txt (grade 4.5).
+
+
+Re-checked 2026-10-22 (session 2): research/script.txt has one commit (5ccaebc 19:46) and this proof was committed after it (20:08) on the same text; the script is unchanged, so this proof still applies.

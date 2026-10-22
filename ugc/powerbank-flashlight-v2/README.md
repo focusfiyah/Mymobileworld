@@ -9,3 +9,5 @@ https://claude.ai/artifact/JxLUGnQXuDX8uwAivktZSf . Open: does Grace's unit have
 Size from Grace's box (research/size.md: 29.5 x 29.5 x 157 mm with clip, 90 g, light gray ABS; flashing mode confirmed); size block first in every prompt; S1/S8 refs = view_hook_upright.png (clip shows). Storyboard v4 (B layout). Layout B + light grey (Ralph). Gemini kit v3 from Ralph's REAL photos (refs/real/, refs/product_sheet_real.png): https://claude.ai/artifact/BfZ9vrRMHETzaWSpsAp1rC (9 prompts, 6 refs), waiting on Ralph's 9 stills. Stills route ($0 Gemini app vs $0.81 Kie) waiting on Ralph. Spent $0.
 
 Status 2026-10-22 (end of session 1): Ralph sends S1-S4 stills from Gemini; S5-S9 stills + all clips go on Kie after BOOK.md OK. Handoff: handoff/NEXT_SESSION_flashlight-v2.md. Gates 5/10. Spent $0.
+
+Status 2026-10-22 (session 2): Ralph sent S1-S4 (stills/S1-S4.png, QC notes in BOOK.md). BOOK.md (TOTAL $3.69) sent for his OK; no paid call until --approve-book. Spent $0.
