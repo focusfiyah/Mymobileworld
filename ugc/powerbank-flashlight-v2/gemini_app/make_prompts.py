@@ -37,8 +37,8 @@ HAND = ("HER HAND (the only person in the photo): exactly the hand in the hand i
 
 NOHAND = "No hands, fingers or people anywhere in the photo."
 
-PLACE = ("PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at "
-         "the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. "
+PLACE = ("PLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at "
+         "the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. "
          "A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.")
 
 STYLE = ("Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no "
