@@ -9,25 +9,26 @@ ORDER = sys.argv[1].upper()
 D = Path(__file__).resolve().parent
 
 REF = {
-    "sheet": ("ref1_product_sheet.png", "the product reference sheet of the real flashlight from several sides (parts and colour)"),
-    "shape": ("ref2_true_shape.png", "the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts)"),
-    "lens": ("ref3_lens_closeup.png", "the real flashlight lying down, torch head lit: the round silver reflector inside a rounded-square bezel at the darker grey end"),
+    "sheet": ("ref1_product_sheet.png", "real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port"),
+    "shape": ("ref2_true_shape.png", "a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts"),
+    "lens": ("ref3_lens_closeup.png", "a product render showing the SHAPE of the torch lens only (a round silver reflector in a rounded-square bezel); ignore its colours and button"),
     "hand": ("ref4_grace_hand.jpg", "her real hand: skin tone, nails, rings and bracelets"),
-    "port": ("ref5_port_closeup.png", "the real clip end with the USB port beside the carabiner, cable plugged in (shape only: its colour is darker than the real light grey)"),
+    "port": ("ref5_port_closeup.png", "a real close-up of the USB-A port, revealed when the dark end cap is pulled a little away from the body"),
+    "logo": ("ref6_logo_closeup.png", "a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK"),
 }
 
 PARTS = {
-    "A": "from the clip end: the grey carabiner clip with a thin silver wire gate, then right below it ONE rounded-square orange button with a small embossed arrow icon, then a long rounded-rectangle frosted white light panel, then the plain grey body down to the torch head at the far end",
-    "B": "from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed diamond-shaped icon, then a slightly darker grey torch-head section at the far end",
+    "B": "from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) with the torch lens at its tip",
 }[ORDER]
 
 SIZE = ("SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, "
         "90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.")
 
-PRODUCT = ("THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with "
-           f"rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order {PARTS}. The torch head is a round "
-           "silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no "
-           "screen, no second light. Only one flashlight in the photo.")
+PRODUCT = ("THE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with "
+           f"rounded corners, and its parts in this order {PARTS}. The only print on it: on the front of the dark end cap a white "
+           "shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the "
+           "back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other "
+           "text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.")
 
 HAND = ("HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink "
         "nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, "
@@ -41,16 +42,17 @@ PLACE = ("PLACE: one campsite in a pine forest at blue hour, just after sunset: 
          "A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.")
 
 STYLE = ("Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no "
-         "watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.")
+         "watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.")
 
 SHOTS = [
-    ("S1", "Who in the world made this???", ["sheet", "shape", "hand"], True,
-     "Close-up at chest height: her hand grips only the darker grey torch-head end at the bottom of the flashlight and holds it upright, so the orange button and the whole light panel stay uncovered in front of the pine trees, "
+    ("S1", "Who in the world made this???", ["sheet", "shape", "logo", "hand"], True,
+     "Close-up at chest height: her hand grips only the dark metal end cap at the bottom of the flashlight and holds it upright, so the orange button and the whole light panel stay uncovered in front of the pine trees, "
      "the side panel switched on with soft white light, the orange button facing the camera, and the whole carabiner clip visible "
      "above her fingers. The flashlight fills about a third of the frame height; the tent is soft in the background."),
     ("S2", "Because what do you mean I can charge my phone with this,", ["sheet", "shape", "port"], False,
-     "On the wooden picnic table, the flashlight lies on its side, its light off. A white USB cable runs from the USB port beside "
-     "its clip (image 3) to a black smartphone lying face up next to it. The phone screen is dark except for one small green "
+     "On the wooden picnic table, the flashlight lies on its front, light off, its dark end cap pulled about 1 cm away from the body "
+     "so the USB-A port shows on the back, exactly as in image 3. A white USB cable is plugged into that port and runs to a black "
+     "smartphone lying face up next to it. The phone screen is dark except for one small green "
      "battery symbol in the middle, no words or numbers. Camera low and close along the table."),
     ("S3", "hang it up in my tent for hands-free lighting,", ["sheet", "shape"], False,
      "Inside the sage-green dome tent at blue hour: the flashlight hangs by its carabiner clip from the small fabric loop at the top "
@@ -58,26 +60,26 @@ SHOTS = [
      "flashlight is small in the frame, the whole tent interior visible."),
     ("S4", "AND use it as a regular flashlight with a focused beam?", ["sheet", "shape", "lens", "hand"], True,
      "First-person view down a narrow dirt trail between pine trees: her hand at the bottom centre of the frame holds the flashlight "
-     "pointing straight ahead and away from the camera, its torch head (image 3) facing down the trail, side panel off. A focused white "
+     "pointing straight ahead and away from the camera, its lens end facing down the trail, side panel off. A focused white "
      "beam runs straight ahead from the torch head and makes a bright round pool of light on the trail exactly where it points; no "
      "light anywhere else."),
-    ("S5", "And it has a flickering mode, too, for emergencies!", ["sheet", "shape", "lens"], False,
-     "The flashlight stands on a flat rock at the edge of the campsite, turned three-quarters so the round torch head (image 3) faces "
-     "the camera at an angle, side panel OFF and dark. The torch head is switched on with a bright white light shining toward the "
+    ("S5", "And it has a flickering mode, too, for emergencies!", ["sheet", "shape", "logo", "lens"], False,
+     "The flashlight stands on a flat rock at the edge of the campsite, turned three-quarters so the lens at the tip of the dark end cap faces "
+     "the camera at an angle, side panel OFF and dark. The lens is switched on with a bright white light shining toward the "
      "trees; nothing else is lit by it. Camera low, close to the rock."),
-    ("S6", "This is the kind of gadget that makes sense to keep with your camping gear", ["sheet", "shape"], False,
+    ("S6", "This is the kind of gadget that makes sense to keep with your camping gear", ["sheet", "shape", "logo"], False,
      "A dark-grey hiking backpack stands on the ground; the flashlight hangs from its shoulder strap by the carabiner clip, side panel on. "
      "The strap is 5 cm wide and the flashlight is about three times as tall as the strap is wide. The tent and the mountains are soft "
      "behind it."),
     ("S7", "or emergency kit.", ["sheet", "shape", "hand"], True,
      "Top-down close-up: an open plain dark-blue zip pouch on the picnic table with bandages, a small water bottle and a roll of tape "
-     "inside. Her hand grips the flashlight by its darker grey torch-head end and is lowering it into the pouch, light off, the orange button visible. The pouch has no cross, no "
+     "inside. Her hand grips the flashlight by its dark metal end cap and is lowering it into the pouch, light off, the orange button visible. The pouch has no cross, no "
      "logo and no writing."),
-    ("S8", "And it costs less than a McDonald's Happy Meal!", ["sheet", "shape", "hand"], True,
+    ("S8", "And it costs less than a McDonald's Happy Meal!", ["sheet", "shape", "logo", "hand"], True,
      "Her hand stands the flashlight upright on the picnic table, torch head down on the wood and the carabiner clip on top, side "
-     "panel on; her fingers grip only the darker grey torch-head end at the bottom, the orange button and the light panel uncovered. The whole clip is visible. Only the flashlight and her hand on the table, "
+     "panel on; her fingers grip only the dark metal end cap at the bottom, the orange button and the light panel uncovered. The whole clip is visible. Only the flashlight and her hand on the table, "
      "the campsite soft behind. No food, no packaging, no other products."),
-    ("S9", "I'm linking it in the orange cart for you!", ["sheet", "shape", "hand"], True,
+    ("S9", "I'm linking it in the orange cart for you!", ["sheet", "shape", "logo", "hand"], True,
      "Close-up: her hand clips the flashlight's carabiner onto the shoulder strap of the dark-grey backpack, thumb pressing the "
      "silver wire gate open, the orange button facing the camera, side panel on. The mountains are soft behind."),
 ]
