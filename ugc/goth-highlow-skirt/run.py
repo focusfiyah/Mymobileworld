@@ -38,7 +38,7 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
-LEN = {"FULL2": "refs/inspo_len/len_top_of_knee.png", "FULL": "refs/inspo_len/len_top_of_knee.png", "TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
+LEN = {"ONELEG2": "refs/inspo_len/len_one_leg.png", "FULL2": "refs/inspo_len/len_top_of_knee.png", "FULL": "refs/inspo_len/len_top_of_knee.png", "TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
 
 
 def len_still(sid):
@@ -47,11 +47,15 @@ def len_still(sid):
     import json
     shot = json.loads(Path("prompts/len_shots.json").read_text())[sid]
     look = Path("prompts/look.txt").read_text().strip()
-    if sid in ("FULL", "FULL2"):   # Kling motion control needs a whole person: drop the waist-down framing line for this one still
+    if sid in ("FULL", "FULL2", "ONELEG2"):   # Kling motion control needs a whole person: drop the waist-down framing line for this one still
         look = "\n".join(l for l in look.splitlines() if not l.startswith("LOOK:")) + "\nLOOK: vertical 9:16 phone photo in a mirror, full body head to boots. Bright, neutral, natural colour, no yellow or golden tint. No text, no watermark."
     prompt = "Vertical 9:16 photo, a single frame from a phone-shot mirror video. " + Path("prompts/len_still.txt").read_text().replace("<<LOOK>>", look).replace("<<SHOT>>", shot)
-    if sid in ("FULL", "FULL2"): prompt = prompt.replace("the light and the framing MUST match image 3 exactly", "the light MUST match image 3 (framing here is full body)")
+    if sid in ("FULL", "FULL2", "ONELEG2"): prompt = prompt.replace("the light and the framing MUST match image 3 exactly", "the light MUST match image 3 (framing here is full body)")
     refs = (SHEET, TIE, LOOK, LEN[sid])
+    if sid == "ONELEG2":   # keyframe for the Kling keyframe take: same framing as FULL2 / K4 (Ralph 2026-10-22)
+        refs = (SHEET, TIE, "stills/FULL2.png", LEN[sid], "../../grace/ref/grace_reference_sheet.png")
+        prompt += (" Image 3 is the approved frame of the SAME woman in the SAME framing: keep everything in it except the skirt length on one side. "
+                   "Image 5 is Grace's reference sheet: her face, skin and braids MUST match it. No phone anywhere.")
     if sid == "FULL2":   # r1 drew a stranger: give Grace's own sheet + the full-body still of her in Ralph's bedroom
         refs = (SHEET, TIE, "stills/FULL.png", LEN[sid], "../../grace/ref/grace_reference_sheet.png")
         prompt += (" Image 3 here is a full-body frame of the SAME woman in the SAME bedroom: match her body, skin, braids, outfit, boots, room and light. "
