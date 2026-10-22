@@ -47,5 +47,7 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=c623bd51170323547e693d8212262cbfbb3d50ae169b021628f07648c30539f8; exit=0; EXPECT=matched; output-sha256=df6d03e30a61feecfc415434513e258ad057ca50f7d81ca774ffa2b4dcd6898d; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
 - [x] G12: every element checked against REMOVED.md + 2x label/hand QC (manual; qc/cut_sheet.jpg)
   EVIDENCE: no text/cards/Ken Burns/freeze, no vitamin C, no red-band box, box only as Ralph's photo; one hand per shot (S5b first 1.4 s, S7 second hand cut), Grace's rings/bracelets; labels 2x: big print right in every clip, small italic line wobbles (S5 'frelps', Ralph: let it go); S3 print tracked from its own frame 0
-- [ ] G13: Ralph approves cut v2 incl. the tracked S3 (manual)
-- [ ] G14: final + script doc in Drive "Grace Tiktok assets/Youtheory Collagen Liquid (Grace)" as CURRENT, link in README + reply; push + email (manual)
+- [x] G13: Ralph approves cut v2 incl. the tracked S3 (manual)
+  EVIDENCE: Ralph 2026-10-22: "OK, upload to Drive" after cut v2 (review page v8)
+- [x] G14: final + script doc in Drive "Grace Tiktok assets/Youtheory Collagen Liquid (Grace)" as CURRENT, link in README + reply; push + email (manual)
+  EVIDENCE: folder 1ZT1jiilH98fjxqJtE5_qZZXFQ-kDT-c9: video 1It_w2AZ3gc34biPFaY_PE7a-aSFFnHlv 67461558 bytes = local; doc 1lP_YXD5leUfe76RIVa4YCgaVZX-S8h94cXeYcN79gLg (emoji checked via export); README updated

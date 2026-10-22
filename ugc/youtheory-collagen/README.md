@@ -1,6 +1,8 @@
 # Youtheory Collagen Liquid (Grace), 2026-10-22
 
-Status: CUT v2 SENT 2026-10-22 (26.0 s, out/youtheory_collagen_v2.mp4; S3 = Ralph's box, Seedance first frame + own frame-0 print tracked on, needs his OK), waiting on Ralph's approval, then Drive. Kie $4.74 (quote $3.68 + approved redos). Review page https://claude.ai/artifact/VD9ib3CWos6aH4hbrafzjX.
+Status: DONE 2026-10-22. Cut v2 APPROVED (Ralph: "OK, upload to Drive"), 26.0 s, out/youtheory_collagen_v2.mp4. Drive: Grace Tiktok assets/Youtheory Collagen Liquid (Grace) https://drive.google.com/drive/folders/1ZT1jiilH98fjxqJtE5_qZZXFQ-kDT-c9 (CURRENT - Youtheory Collagen V1.mp4 + CURRENT - Youtheory Collagen script + caption). Kie $4.74 (quote $3.68 + approved redos: S5 still, S5b retake, S3 box twice + Seedance). ElevenLabs ~520 chars. Review page https://claude.ai/artifact/VD9ib3CWos6aH4hbrafzjX. Gates 14/14.
+
+S3 = Ralph's real box (refs/real/ralph_box_front.jpg): close-up still, Seedance first-frame push-in, its own frame-0 print tracked back on (tools/s3_track.sh, tools/label_track.py --noskin), Ralph OK. S5's small 'frelps … wrinides' line let go (Ralph). S5b uses only its first 1.4 s; S7 cuts out a second hand (cut.py SPLIT).
 
 Brief (Ralph 2026-10-22): AI video for Grace, 25-35 s, aesthetic backgrounds, his script WORD FOR WORD (Ralph: "Word for word"), hands-only, vitamin C line replaced by "and you don't even need water" (vitamin C is not in the product; facts panel). Product = Ralph's photos of the current white pouch with orange tear tab (refs/real/ralph_*.jpg); the old red-band Kroger box photos are only for facts (refs/old_design/).
 
