@@ -6,7 +6,7 @@ https://shop.tiktok.com/us/pdp/womens-gothic-high-low-skirt-steampunk-pirate-des
 Route: ugc-product-ad + product lock (Omni on Kie for every clip; Gemini 3 Pro Image stills). Rules: grace/PLAYBOOK.md.
 
 Approved (Ralph 2026-10-22): "Knee high boots, with bracelet, dark brown, no text, music only, Kie" = plan at $1.62 (up to $2.03 with one redo), stills on Kie. Boot colour not given: black knee-high (the listing styles the brown skirt with black boots), shown at the storyboard.
-Status: 2026-10-22 13:31 ET: Drive has CURRENT - Goth Skirt V2.mp4 (fallback 9.7 s, cut 1 without the R3 shot) + Goth Skirt V3 Kling.mp4 (10.8 s, Kling 4.0 pull: hem rises + one leg, 80 Kling credits); cut 1 in Older versions. Waiting on Ralph: V2 or V3 as CURRENT. Kie $3.19.
+Status: 2026-10-22 13:46 ET: Drive has CURRENT - V2 (fallback), V3 Kling (pull + one leg, cuts), V4 one take (Kling 4.0 continuous 11.3 s: knee, turn, one leg; no shortest). Waiting on Ralph which is CURRENT. Kie $3.19; Kling 80 + 130 credits (8 left).
 Review page: https://claude.ai/artifact/3JRHDgMib5grRRR9ybu1QA
 
 Files: scripts.md (shots, text options, optional voice, caption), prompts/ (prompt-master), refs/product_sheet.png (make_sheet.py, real listing photos),
