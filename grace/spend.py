@@ -22,6 +22,7 @@ PRICES = {
     "volcengine/video-to-video-lip-sync": ("call", 0.24),   # $0.04/s of audio, clips ~6 s
     "veo-3-1": ("call", 0.30),                             # veo3_fast 60 credits
     "hailuo/2-3-image-to-video-standard": ("call", 0.15),  # estimate, not in any runner note
+    "google/gemini-omni-flash-1-1": ("call", 0.315),        # 4 s take (runners that log their own "usd" are counted from it)
 }
 
 
