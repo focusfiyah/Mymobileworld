@@ -15,7 +15,8 @@ Scope: ONE new 7-15 s vertical AI video of the real Vans Premium Authentic sequi
 - [x] G3: Test still V11S1 QC'd at full size + 2x (night flash look, real shoe details, tab, anklet, feet parallel) before the other 3 stills; all 4 stills QC'd before any clip is paid for
   EVIDENCE: 2026-10-22 QC at full size + 2x-6x (qc/v11/): tabs S3/S4 correct VANS®, S2 tab 'VANOe' -> fixed free (S4's tab, stills/V11S2.png); heel labels present; sequins on black squares only; feet parallel S1; max 2 shoes; French tips; no Gemini mark in corners. Open: S3 gold watch with a face (Grace's bracelet has none), asked Ralph.
 
-- [ ] G4: Riskiest clip (V11S2 walk) made and QC'd at 2x on several frames (tab, heel label, shoe count, no flip, no light effects) before the other clips
+- [x] G4: Riskiest clip (V11S2 walk) made and QC'd at 2x on several frames (tab, heel label, shoe count, no flip, no light effects) before the other clips
+  EVIDENCE: 2026-10-22 V11S2 Seedance ($0.164): 3 fps + 12 fps sheets (qc/v11/S2_sheet.png, S2_feet6.png, S2_swing.png), frame-diff shows no hidden cut; real steps, toes one way, 2 shoes, dark tab, no glints; camera swing + blur after ~2.5 s -> cut window 0-2.5 s.
 
 - [ ] G5: V11 final exists, 7-15 s, 1080x1920
   CHECK: python3 -c "import json,subprocess;d=json.loads(subprocess.run(['ffprobe','-v','error','-show_entries','stream=width,height:format=duration','-of','json','out/V11_final.mp4'],capture_output=True,text=True).stdout);s=d['streams'][0];t=float(d['format']['duration']);print('V11_OK' if (s['width'],s['height'])==(1080,1920) and 7<=t<=15 else 'BAD',t)"
