@@ -23,20 +23,21 @@ Pexels was tried for a portable generator sticker on 2026-10-06 and had nothing 
 
 ## Room backgrounds
 
-When a job needs rooms (ad stills, hand-free plates, Day One AI or personal video), they come from real Pexels and
-Pixabay photos, not AI-generated rooms and not the all-white rooms Claude kept defaulting to. Why: Ralph,
-2026-10-22: "when I want you to find different room backgrounds this is what I want you to use instead of the white
-theme backgrounds you always choose". Real rooms with colour also make each video look different (TikTok flags reused
-footage).
+When a job needs rooms (ad stills, hand-free plates, Day One AI or personal video), look for real Pexels and Pixabay
+photos first, never the all-white rooms Claude kept defaulting to. When no real room fits the shot, AI rooms are fine:
+re-run with `--allow-ai` (Pixabay's AI rooms), then a generated room (Ralph's Gemini app first, $0; a paid still only
+with the cost asked). Why: Ralph, 2026-10-22: "use instead of the white theme backgrounds you always choose", and
+"AI generated rooms are ok. Just go with real rooms 1st if they are not good then go with ai generated rooms". Rooms
+with colour also make each video look different (TikTok flags reused footage).
 
 `python3 scripts/rooms.py <job>/rooms "sage green bathroom" "terracotta kitchen" ...` keeps portrait photos of real
-rooms with no people or pets, skips Pixabay's AI-flagged images, rooms whiter than `--max-white` (pale share 0.6)
+rooms with no people or pets, skips Pixabay's AI-flagged images (unless `--allow-ai`), rooms whiter than `--max-white` (pale share 0.6)
 and dark ones, and writes `cand/`, `cand.json` (source page, licence) and a numbered `contact.jpg`. Name a colour or
 material in every query; "bright" alone brings back white rooms.
 
 Done when: each video has its own rooms (none shared between videos), every room is bright but has colour, you have
-looked at the contact sheet and dropped renders that slipped past the AI flag (glossy, too-perfect surfaces) and
-crowded or branded shots, and the job's `rooms/SOURCES.md` lists file, video, source page and licence for each
+looked at the contact sheet and dropped crowded or branded shots (AI rooms that slipped past the flag are
+fine only when no real room fits), and the job's `rooms/SOURCES.md` lists file, video, source page and licence for each
 (template: Mymobileworld `ugc/space-heater-ptc/rooms/SOURCES.md`). The room goes into the still as a reference image;
 the product still comes only from its real photo and reference sheet (source: Mymobileworld CLAUDE.md, product lock).
 
