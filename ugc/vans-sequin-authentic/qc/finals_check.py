@@ -1,4 +1,4 @@
-"""Measure the 10 finals: count, 7-15 s each, 1080x1920 or 720x1280 vertical, every pair of finals differs (mean frame diff > 20 at 3 points)."""
+"""Measure the 11 finals: count, 7-15 s each, 1080x1920 or 720x1280 vertical, every pair of finals differs (mean frame diff > 20 at 3 points)."""
 import subprocess, glob, json, sys
 import numpy as np
 fs = sorted(glob.glob("out/V*_final.mp4"))
@@ -9,7 +9,7 @@ def frame(f, t):
     raw = subprocess.run(["ffmpeg","-v","error","-ss",str(t),"-i",f,"-frames:v","1","-vf","scale=90:160","-f","rawvideo","-pix_fmt","gray","-"],capture_output=True).stdout
     return np.frombuffer(raw, np.uint8).astype(float)
 bad = []
-if len(fs) != 10: bad.append(f"{len(fs)} finals, need 10")
+if len(fs) != 11: bad.append(f"{len(fs)} finals, need 11 (V1-V10 + V11 night flash)")
 info = {}
 for f in fs:
     d, w, h = probe(f); info[f] = d

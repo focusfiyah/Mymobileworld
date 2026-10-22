@@ -5,7 +5,7 @@ real ref https://www.tiktok.com/t/ZPLAYRQEp) + 2 unboxing / "perfect present" vi
 reference sheet from the product images. Route: ugc-product-ad hands-only, no pasted labels (Gemini 3 Pro stills + product sheet, Seedance 2.0 Mini
 reference mode for hand clips, Kling 3.0 for hand-free if it wins a one-clip test). Rules: grace/PLAYBOOK.md.
 
-Status: V11 (night + phone flash, Grace 2026-10-21): Ralph 2026-10-22 'B, let the watch go' = Seedance 2.0 Mini on Kie (Omni blocked by Google 402 credits). Test clip V11S2 ($0.164) QC'd (clean window 0-2.5 s), on the review page; waiting on Ralph's go for the other 3 clips ($0.45). GATES_V11.md.
+Status: V11 (night + phone flash, Grace 2026-10-21) CUT out/V11_final.mp4 (10.1 s, music-only, no text) on the review page, waiting on Ralph's OK, then Drive 'Vans sequin (Grace)' as CURRENT - Vans V11. Kie for V11 $0.66 (4 Seedance clips; stills free in Ralph's Gemini app; Omni blocked by Google 402). GATES_V11.md 7/9.
 Accepted flaw (Ralph 2026-10-21): in the pink-bag gift shot the shoe's design changed from the real Vans; Ralph let it go to stop spending on redos. No redo. Lesson: product lock (Google Omni clips from real close-ups, PLAYBOOK §6) on every future product shot.
 Kie balance $0.93, Kling 248 credits (checked 2026-10-21). Quote: A $5.06 Kie + ~480 Kling credits / B $7.73 Kie. Gate: GATE OK.
 Review page: https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH
