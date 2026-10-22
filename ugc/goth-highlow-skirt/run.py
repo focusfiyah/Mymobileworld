@@ -38,7 +38,7 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
-LEN = {"TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
+LEN = {"ONELEG2": "refs/inspo_len/len_one_leg.png", "FULL2": "refs/inspo_len/len_top_of_knee.png", "FULL": "refs/inspo_len/len_top_of_knee.png", "TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
 
 
 def len_still(sid):
@@ -47,8 +47,21 @@ def len_still(sid):
     import json
     shot = json.loads(Path("prompts/len_shots.json").read_text())[sid]
     look = Path("prompts/look.txt").read_text().strip()
+    if sid in ("FULL", "FULL2", "ONELEG2"):   # Kling motion control needs a whole person: drop the waist-down framing line for this one still
+        look = "\n".join(l for l in look.splitlines() if not l.startswith("LOOK:")) + "\nLOOK: vertical 9:16 phone photo in a mirror, full body head to boots. Bright, neutral, natural colour, no yellow or golden tint. No text, no watermark."
     prompt = "Vertical 9:16 photo, a single frame from a phone-shot mirror video. " + Path("prompts/len_still.txt").read_text().replace("<<LOOK>>", look).replace("<<SHOT>>", shot)
-    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(r) for r in (SHEET, TIE, LOOK, LEN[sid])],
+    if sid in ("FULL", "FULL2", "ONELEG2"): prompt = prompt.replace("the light and the framing MUST match image 3 exactly", "the light MUST match image 3 (framing here is full body)")
+    refs = (SHEET, TIE, LOOK, LEN[sid])
+    if sid == "ONELEG2":   # keyframe for the Kling keyframe take: same framing as FULL2 / K4 (Ralph 2026-10-22)
+        refs = (SHEET, TIE, "stills/FULL2.png", LEN[sid], "../../grace/ref/grace_reference_sheet.png")
+        prompt += (" Image 3 is the approved frame of the SAME woman in the SAME framing: keep everything in it except the skirt length on one side. "
+                   "Image 5 is Grace's reference sheet: her face, skin and braids MUST match it. No phone anywhere.")
+    if sid == "FULL2":   # r1 drew a stranger: give Grace's own sheet + the full-body still of her in Ralph's bedroom
+        refs = (SHEET, TIE, "stills/FULL.png", LEN[sid], "../../grace/ref/grace_reference_sheet.png")
+        prompt += (" Image 3 here is a full-body frame of the SAME woman in the SAME bedroom: match her body, skin, braids, outfit, boots, room and light. "
+                   "Image 5 is Grace's reference sheet: her face, medium-dark brown skin and long dark boho braids MUST match it; she is Grace, not anyone else. "
+                   "Her hands hold ONLY the two skirt ties; there is no phone in her hands or anywhere in the picture.")
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(r) for r in refs],
                         "aspect_ratio": "9:16", "resolution": "1K"}})
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
@@ -74,6 +87,15 @@ def veo(sid, first, tier="veo3_fast", secs=6):
     if url:
         Path("clips").mkdir(exist_ok=True); n = len(list(Path("clips").glob(f"{sid}_veo_*.mp4"))) + 1
         kie.fetch(url, f"clips/{sid}_veo_{n}.mp4"); print("OK", f"clips/{sid}_veo_{n}.mp4", flush=True)
+
+
+def kie_kling(sid, first, secs=5):
+    """Kling 3.0 Omni on Kie ($0.07/s; same call as ugc/lgxnds-creatine/kie2.py). Ralph 2026-10-22: continue V4 from its
+    last frame so the shortest look (both legs) joins with no visible cut; his own Kling account had 8 credits left."""
+    url = kie.run_task({"model": "kling-3.0-omni/image-to-video", "input": {"prompt": Path(f"prompts/{sid}_kie.txt").read_text().strip(),
+                        "image_urls": [kie.upload(first)], "duration": secs, "resolution": "720p", "aspect_ratio": "auto", "audio": False}})
+    if url:
+        Path("clips").mkdir(exist_ok=True); kie.fetch(url, f"clips/{sid}_kie.mp4"); print("OK", f"clips/{sid}_kie.mp4", flush=True)
 
 
 def edit(src, out, prompt_file):
@@ -110,6 +132,8 @@ if __name__ == "__main__":
         seed(ids[0], ids[1], ids[2] if len(ids) > 2 else None)
     elif cmd == "veo":
         veo(ids[0], ids[1])
+    elif cmd == "kiekling":
+        kie_kling(ids[0], ids[1])
     elif cmd == "edit":
         edit(*ids[:3])
     elif cmd == "omnifl":

@@ -8,7 +8,7 @@ from pathlib import Path
 EDIT = [
  ("VB_veo_1", 0.0, 1.3),   # look 2: the back, ruffle tiers sway (she turns to the mirror after 1.3 s with a wrong tiered front)
  ("V1_veo_1", 0.0, 2.7),   # look 1: top of the knee, both hands working the ties (tug)
- ("R3_seed_1_skin", 0.0, 2.0),  # look 3: mid-thigh, she pulls a tie out to the side (skirt swaps shape after 2.2 s)
+ # ("R3_seed_1_skin", 0.0, 2.0),  # Ralph 2026-10-22: at 5 s the back turns short = wrong skirt; dropped  # look 3: mid-thigh, she pulls a tie out to the side (skirt swaps shape after 2.2 s)
  ("VO_veo_1_skin", 0.0, 2.5),   # look 4: one leg out, hand holding the pulled tie (slit closes after 2.7 s)
  ("VS_seed_1_skin2", 0.5, 3.7),    # look 5: shortest, both ties held at the hips, weight shift
 ]
