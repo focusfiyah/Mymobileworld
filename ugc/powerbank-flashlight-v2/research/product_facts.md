@@ -28,3 +28,5 @@ button under it; a darker gunmetal-grey section at the bottom end (the torch hea
 end). The charging-image render shows a darker gunmetal colour and a USB port beside the hook: listing renders disagree on
 colour and button icon (square diamond icon on 1/9, power-symbol round on 3/9) -> ask for a photo of Grace's sample.
 - Size + modes: Grace's box (refs/box_specs_grace.jpg): 29.5 x 29.5 x 157 mm, 90 g, light gray ABS, 18650, Type-C, modes flashlight / flashlight flashing ("explodes") / side lights. research/size.md.
+- Light modes (box, Grace 2026-10-22): flashlight on / flashlight flashing ("explodes") / side lights on -> "flickering mode ... for emergencies" is backed.
+- Material: light gray ABS per box (earlier prompts said aluminium: prompts now say matte light-grey).
