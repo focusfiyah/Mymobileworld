@@ -19,8 +19,8 @@ Scope: one ~25 s hands-only AI video of the grey TINEKO flashlight on Ralph's sc
   EXPECT: STORYBOARD_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=dff4b99fbb520d301b8fe37b1c765b4527c61ceff60bf6ff5e46494b99989a70; exit=0; EXPECT=matched; output-sha256=064234a99d97206ac171b489f1fdd1db981a13b6d3e26980a1177b35df4b2c1e; output-bytes=14; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/powerbank-flashlight-v2; path=7f4fb4b02918/15 entries
 
-- [ ] G4: Ralph approved the storyboard (his words recorded here)
-  EVIDENCE: pending
+- [x] G4: Ralph approved the storyboard (his words recorded here)
+  EVIDENCE: manual: Ralph 2026-10-22 after storyboard v3 + gates: "Let's go with Gemini. Send me what you need" (stills via his Gemini app, $0)
 
 - [x] G5: script gate passes (all PLAYBOOK §4 proofs + verbatim override recorded) before any paid call
   CHECK: python3 qc/gates.py gate
