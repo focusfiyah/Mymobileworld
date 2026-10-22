@@ -7,11 +7,17 @@ from pathlib import Path
 
 VO = "vo/voiceover_paced.mp3"
 HOLD = 0.6                      # hold the last shot a beat after the voice ends
-SRC = {}                        # shot -> source start (s), filled after QC
+SRC = {"S5b": 0.0}             # shot -> source start (s); S5b: only before 1.5 s (the arm crosses the pouch after 2 s)
+SPLIT = {"S7": [(0.0, 1.48), (4.55, None)]}
+SHIFT = {"S6": 0.56}            # S6 runs this much into the next line ("And the individual packets" over the vanity pouch) so S7 fits its clean footage   # S7: a second hand enters at 1.6 s and both hands are leaving by 4.5 s; cut it out (jump cut)
 S = json.load(open("shots.json"))["videos"][0]["shots"]
 EDIT = []
 for k, s in enumerate(S):
-    a, b = s["t"]; d = b - a + (HOLD if k == len(S) - 1 else 0)
+    a, b = s["t"]; d = b - a + (HOLD if k == len(S) - 1 else 0) + SHIFT.get(s["id"], 0) - (SHIFT.get(S[k - 1]["id"], 0) if k else 0)
+    if s["id"] in SPLIT:
+        (a1, l1), (a2, _) = SPLIT[s["id"]]; l2 = d - l1
+        assert a2 + l2 <= s["seconds"] + 1e-6, f"{s['id']} tail runs past the clip"
+        EDIT += [(s["id"], a1, l1), (s["id"], a2, l2)]; continue
     ss = SRC.get(s["id"], 0.0)
     assert ss + d <= s["seconds"] + 1e-6, f"{s['id']} window {ss}+{d:.2f} runs past its {s['seconds']} s clip"
     EDIT.append((s["id"], ss, d))
@@ -24,7 +30,7 @@ for i, (c, ss, d) in enumerate(EDIT):
 n = len(EDIT)
 fc = ";".join(chains) + ";" + "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-i", VO, "-filter_complex", fc, "-map", "[v]", "-map", f"{n}:a",
-                "-af", f"apad,atrim=0:{END:.3f}", "-t", f"{END:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "4",
+                "-af", f"apad,atrim=0:{END:.3f},loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-t", f"{END:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "4",
                 "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "out/youtheory_collagen_review.mp4"], check=True)
 # AI finish = ai_finish.sh's filter (grain 6, sharpen 0.6, saturation 0.92) with the PLAYBOOK §6 bitrate cap
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "out/youtheory_collagen_review.mp4", "-vf", "eq=saturation=0.92,unsharp=5:5:0.6:5:5:0,noise=alls=6:allf=t",

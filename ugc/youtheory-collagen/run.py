@@ -13,7 +13,7 @@ import kie
 D = json.loads(Path("shots.json").read_text()); B = D["blocks"]
 S = {s["id"]: s for s in D["videos"][0]["shots"]}
 SHEET, LOGO, WORD, TAB = "refs/product_sheet.png", "refs/closeup_C.png", "refs/closeup_D.png", "refs/closeup_E.png"
-BOXREF, HANDREF, LOOK = "refs/real/ralph_pouches_in_box.jpg", "../../grace/ref/hand-sheets/with_bracelet.jpg", "stills/look_ref.png"
+BOXREF, BOXCLOSE, HANDREF, LOOK = "refs/real/ralph_box_front.jpg", "refs/closeup_box.png", "../../grace/ref/hand-sheets/with_bracelet.jpg", "stills/look_ref.png"
 
 
 def still_refs(s):
@@ -24,7 +24,9 @@ def still_refs(s):
         add(LOGO, "a close-up of the real 'youtheory' logo and dot circle")
         add(WORD, "a close-up of the real 'collagen liquid' wordmark and claim lines")
         add(TAB, "a close-up of the real orange tear tab")
-        if s["id"] == "S3": add(BOXREF, "the real pouches standing in the open carton")
+        if s["id"] == "S3":
+            add(BOXREF, "a real photo of the display carton, torn open, with pouches inside")
+            add(BOXCLOSE, "a close-up of the real carton front print below the tear")
     if s["hand"]: add(HANDREF, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     if s["hand"] and Path(LOOK).exists() and s["id"] != "S5b":
         add(LOOK, "an approved frame from this same video: match its hand, rings, bracelets, light and colours")
@@ -55,13 +57,16 @@ OMNI = "../../.claude/skills/ugc-product-ad/scripts/omni_clip.py"
 
 
 def omni_prompt(s):
-    refs = [FRONT, TAB, SHEET] + ([HANDREF] if s["hand"] else [])
+    refs = [FRONT, TAB, SHEET] + ([HANDREF] if s["hand"] else []) + ([BOXCLOSE] if s["id"] == "S3" else [])
     head = B["omni_head"].replace("{hand}", ", hand, rings and bracelets" if s["hand"] else "")
     head = head.replace("Image 2 is the real front print of the pouch (logo, dot circle, 'collagen liquid' wordmark and claim lines)",
                         "Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines)")
     hand = (" Image 5 is Grace's hand sheet: the French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet"
             " and pearl chain with the leaf charm stay exactly as in images 1 and 5; no other jewellery appears." if s["hand"] else
             " No hand, no fingers and no people appear at any time, at any edge of the frame.")
+    if s["id"] == "S3":
+        hand += (" Image 5 is the real carton front print below its torn diagonal edge: 'gen' in coral serif, 'liquid' in grey, three claim lines with coral plus signs"
+                 " ('5,000 mg' in coral), raspberries at the lower left and a coral band at the bottom; it stays on the carton the whole clip and matches image 5 letter for letter.")
     return refs, f"{head}{hand} Motion: {s['motion']} {B['omni_tail']}"
 
 
