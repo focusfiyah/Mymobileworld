@@ -1,0 +1,18 @@
+[
+ {
+  "model": "fashn",
+  "endpoint": "fal-ai/fashn/tryon/v1.6",
+  "usd": 0.075,
+  "request_id": "01a165e5-b9b7-76a1-97bd-9b57346893e6",
+  "out": "ugc/goth-highlow-skirt/tryon/fashn.png",
+  "url": "https://cdn.fashn.ai/01a165e5-f9bb-7be3-a9fc-0e5bede649f1/output_0.png"
+ },
+ {
+  "model": "kolors",
+  "endpoint": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "usd": 0.07,
+  "request_id": "01a165e5-bad5-78b3-9a44-634f7f932b90",
+  "out": "ugc/goth-highlow-skirt/tryon/kolors.png",
+  "url": "https://v3b.fal.media/files/b/0aaf75b4/7GzmgVxGlAuzblINQ-SWx.png"
+ }
+]
