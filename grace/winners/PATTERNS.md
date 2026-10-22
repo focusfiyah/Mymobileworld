@@ -25,7 +25,7 @@ small sample: treat these as leads to test, not rules. The table is the sheet in
 10. **Grace's own voice, not the ElevenLabs voiceover** (Ralph 2026-10-20): the castor video, our best seller (3 sales), is Grace speaking. All 5 Grace sellers are her own voice (Ralph confirmed the other 4 the same day). Her looser wording is probably just her talking. So new Grace videos: she records the voiceover herself from our script; ElevenLabs only as a fallback.
 
 ## Things to watch
-- **Update 2026-10-20: BodyJ (the reply video) is up to 3 sales** (1,578 views, 526 views per sale): the reply-to-a-real-comment format is the strongest lead so far.
+- **Update 2026-10-22: BodyJ (the reply video) is up to 5 sales** (2,126 views, 425 views per sale): the reply-to-a-real-comment format is the strongest lead so far.
 - **Views per sale is the number to beat**, not views. Mute had 8 times the views of the glasses for the same one sale: a broad pain brings reach, a specific scene brings buyers.
 - **The reply video started fastest** (BodyJ: 763 views a day). It answers a real comment on her viral cradle-cap video, so the audience already wanted castor oil. Reply videos to real comments are worth more tests.
 - **The brands paid to promote 4 of the 6** (Mute, glasses, SoFyre, BodyJ: TikTok's ad label; Grace paid nothing, Ralph 2026-10-20). Their views are partly paid, so compare views per sale within the same group (promoted vs not). The two without promotion: Throw Hands (679 views) and Tiger Eye (61). The sheet's Promoted column shows which.
