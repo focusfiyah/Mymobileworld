@@ -486,5 +486,224 @@
    ]
   },
   "costTime": 219
+ },
+ {
+  "t": "2026-10-22 07:38:13",
+  "submitted": "ac2b08f3a8b55560cd78d5ede27065cb",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Both hands keep holding the two p"
+ },
+ {
+  "t": "2026-10-22 07:38:15",
+  "submitted": "b7cd76a9ad184595657b261ae15ebeb3",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Her hand keeps holding the pulled"
+ },
+ {
+  "t": "2026-10-22 07:38:15",
+  "submitted": "26e7f3ca4a4cb35612149ac87a7c58fc",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. She stands with her back to the m"
+ },
+ {
+  "t": "2026-10-22 07:40:01",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Her hand keeps holding the pulled-up tie at her side so the skirt stays gathered high over that leg, showing the leg from the upper thigh down to the boot. She slowly steps that leg forward, rests on it, then shifts her weight back; the long side and back of the skirt swing gently. Her other hand stays up near her chest.\nIt is the same skirt in every frame: same dark chocolate brown fabric, same flat brown ties, same ruffles and draped ruching, same length; it stays on her waist the whole time. Her rings and bracelets stay the same. No other people, no extra hands.\nCamera: phone held still, no zoom, no camera move. Bright natural daylight, true neutral colours, realistic fabric physics. No face, no text, no music, no speech.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792654693074-6odr229p553.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "b7cd76a9ad184595657b261ae15ebeb3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/b7cd76a9ad184595657b261ae15ebeb3_0_1792654798.mp4"
+   ]
+  },
+  "costTime": 104
+ },
+ {
+  "t": "2026-10-22 07:41:02",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Both hands keep holding the two pulled-up ties at her hips so the front stays short at her upper thighs. She shifts her weight from one boot to the other and turns her hips a little left, then right; the long ruffled back of the skirt swings behind her legs.\nIt is the same skirt in every frame: same dark chocolate brown fabric, same flat brown ties, same ruffles and draped ruching, same length; it stays on her waist the whole time. Her rings and bracelets stay the same. No other people, no extra hands.\nCamera: phone held still, no zoom, no camera move. Bright natural daylight, true neutral colours, realistic fabric physics. No face, no text, no music, no speech.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792653260665-ncc0b74zck.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "ac2b08f3a8b55560cd78d5ede27065cb",
+  "fail": [
+   "400",
+   "The Google model was unable to generate audio for this request. Please try a different prompt."
+  ]
+ },
+ {
+  "t": "2026-10-22 07:41:17",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. She stands with her back to the mirror and slowly sways her hips side to side twice; the long ruffle tiers of the skirt swing gently and settle, the hem moving just above the floor. Her boots stay in place.\nIt is the same skirt in every frame: same dark chocolate brown fabric, same flat brown ties, same ruffles and draped ruching, same length; it stays on her waist the whole time. Her rings and bracelets stay the same. No other people, no extra hands.\nCamera: phone held still, no zoom, no camera move. Bright natural daylight, true neutral colours, realistic fabric physics. No face, no text, no music, no speech.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792654693127-kz66o0ayt4j.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "26e7f3ca4a4cb35612149ac87a7c58fc",
+  "fail": [
+   "400",
+   "The Google model was unable to generate audio for this request. Please try a different prompt."
+  ]
+ },
+ {
+  "t": "2026-10-22 07:41:40",
+  "submitted": "f7b47cb861de6b02833819a30c5f1cdb",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. She stands with her back to the m"
+ },
+ {
+  "t": "2026-10-22 07:41:40",
+  "submitted": "3b7ae467ab157cf672ace4a72e2a13cc",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Both hands keep holding the two p"
+ },
+ {
+  "t": "2026-10-22 07:43:52",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. She stands with her back to the mirror and slowly sways her hips side to side twice; the long ruffle tiers of the skirt swing gently and settle, the hem moving just above the floor. Her boots stay in place.\nIt is the same skirt in every frame: same dark chocolate brown fabric, same flat brown ties, same ruffles and draped ruching, same length; it stays on her waist the whole time. Her rings and bracelets stay the same. No other people, no extra hands.\nCamera: phone held still, no zoom, no camera move. Bright natural daylight, true neutral colours, realistic fabric physics. No face, no text. Audio: quiet room ambience and a soft fabric rustle only, no music, no speech.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792654693127-kz66o0ayt4j.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "f7b47cb861de6b02833819a30c5f1cdb",
+  "fail": [
+   "400",
+   "The Google model was unable to generate audio for this request. Please try a different prompt."
+  ]
+ },
+ {
+  "t": "2026-10-22 07:44:36",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Both hands keep holding the two pulled-up ties at her hips so the front stays short at her upper thighs. She shifts her weight from one boot to the other and turns her hips a little left, then right; the long ruffled back of the skirt swings behind her legs.\nIt is the same skirt in every frame: same dark chocolate brown fabric, same flat brown ties, same ruffles and draped ruching, same length; it stays on her waist the whole time. Her rings and bracelets stay the same. No other people, no extra hands.\nCamera: phone held still, no zoom, no camera move. Bright natural daylight, true neutral colours, realistic fabric physics. No face, no text. Audio: quiet room ambience and a soft fabric rustle only, no music, no speech.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792653260665-ncc0b74zck.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "3b7ae467ab157cf672ace4a72e2a13cc",
+  "fail": [
+   "400",
+   "The Google model was unable to generate audio for this request. Please try a different prompt."
+  ]
+ },
+ {
+  "t": "2026-10-22 07:44:56",
+  "submitted": "13868b742c4f42bacb4b13e3ef672424",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. She stands facing away from the m"
+ },
+ {
+  "t": "2026-10-22 07:44:56",
+  "submitted": "45c306d269acd3c1f6b9fa2ffa9be860",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Her hands keep holding the two sk"
+ },
+ {
+  "t": "2026-10-22 07:47:21",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Her hands keep holding the two skirt ties at her waist so the front stays short. She shifts her weight from one boot to the other; the long ruffled back of the dark chocolate brown skirt swings gently behind her boots.\nIt is the same skirt in every frame: same fabric, same ruffles, same length; it stays on her waist the whole time. No other people.\nCamera: phone held still, no zoom. Bright natural daylight, true neutral colours. No face, no text. Sound: quiet room.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792653260665-ncc0b74zck.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "45c306d269acd3c1f6b9fa2ffa9be860",
+  "fail": [
+   "400",
+   "The Google model was unable to generate audio for this request. Please try a different prompt."
+  ]
+ },
+ {
+  "t": "2026-10-22 07:50:11",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. She stands facing away from the mirror and shifts her weight from one boot to the other; the long ruffle tiers of the dark chocolate brown skirt swing gently and settle just above the floor.\nIt is the same skirt in every frame: same fabric, same ruffles, same length; it stays on her waist the whole time. No other people.\nCamera: phone held still, no zoom. Bright natural daylight, true neutral colours. No face, no text. Sound: quiet room.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792654693127-kz66o0ayt4j.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "13868b742c4f42bacb4b13e3ef672424",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/13868b742c4f42bacb4b13e3ef672424_0_1792655409.mp4"
+   ]
+  },
+  "costTime": 314
+ },
+ {
+  "t": "2026-10-22 07:50:47",
+  "submitted": "d3754abe69ac83ac4b2ba6de79e262e4",
+  "prompt": "Continue this exact frame as a real 4-second phone video filmed in a mirror. Her hands keep holding the two skirt ties a"
+ },
+ {
+  "t": "2026-10-22 07:52:46",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Continue this exact frame as a real 4-second phone video filmed in a mirror. Her hands keep holding the two skirt ties at her hips so the front of the dark chocolate brown skirt stays short at her upper thighs. She shifts her weight gently from one boot to the other; the long ruffled back of the skirt sways behind her boots.\nThe skirt stays the same real skirt in every frame: same fabric, ruching, flat ties and ruffles, same length; it stays on her waist the whole time. No new hands, no extra people.\nCamera: locked off, no zoom. Bright natural daylight, true neutral colours. No face. No text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792653260665-ncc0b74zck.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "d3754abe69ac83ac4b2ba6de79e262e4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792655559409-updf5rck78q.mp4"
+   ]
+  },
+  "costTime": 113
  }
 ]

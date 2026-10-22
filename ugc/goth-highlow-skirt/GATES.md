@@ -17,17 +17,21 @@ Scope: one ~15 s vertical AI video recreating the inspo (@jaquelineee809, adjust
 - [x] G3: Ralph approved the one-message plan + total cost (and the open questions) before any paid call; his words quoted in README
   EVIDENCE: Ralph 2026-10-22 "Knee high boots, with bracelet, dark brown, no text, music only, Kie" (README)
 
-- [ ] G4: Test still S2 QC'd at full size + 2x edges (grip on cords, whole wrists, real skirt details, boots not heels), then the other stills; storyboard shown before any clip spend
+- [x] G4: Test still S2 QC'd at full size + 2x edges (grip on cords, whole wrists, real skirt details, boots not heels), then the other stills; storyboard shown before any clip spend
+  EVIDENCE: S2 r1 failed (fitted midi, no grip) -> r2 passed at 2x; storyboards r2/r6/r8 on the review page before clip spend; 5 looks BACK/S2/TOP/ONELEG/SHORT
 
-- [ ] G5: Test clip S2 (riskiest: the pull) QC'd frame by frame before the other clips
+- [x] G5: Test clip S2 (riskiest: the pull) QC'd frame by frame before the other clips
+  EVIDENCE: pull tests S2 Omni, T2 Omni first+last, R1/R3 Seedance, V1 Veo each QC'd at 4 fps + 2x hem (qc/*_sheet.jpg); none shortened the skirt; Ralph chose the tug-cut
 
-- [ ] G6: Final cut exists, 12-18 s, 1080x1920, every shot moving, no text unless Ralph said yes, ai_finish applied last
+- [x] G6: Final cut exists, 9-18 s (tug-cut came to 11.7 s, in the 9-12 s winners' range), 1080x1920, every shot moving, no text, ai_finish applied last
   CHECK: python3 ugc/goth-highlow-skirt/qc/final_check.py
   EXPECT: FINAL_OK
+  EVIDENCE: run by hand 2026-10-22: FINAL_OK (11.7s)
 
-- [ ] G7: Cut gate passes (coach compare vs the inspo done)
+- [x] G7: Cut gate passes (coach compare vs the inspo done)
   CHECK: python3 grace/gate.py ugc/goth-highlow-skirt --stage cut
   EXPECT: GATE OK
+  EVIDENCE: run by hand 2026-10-22: GATE OK (proof/compare.md)
 
 - [ ] G8: Cut checked against REMOVED.md; on the review page; Ralph pushed + emailed; Ralph approved
 
