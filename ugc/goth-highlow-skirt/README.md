@@ -6,7 +6,7 @@ https://shop.tiktok.com/us/pdp/womens-gothic-high-low-skirt-steampunk-pirate-des
 Route: ugc-product-ad + product lock (Omni on Kie for every clip; Gemini 3 Pro Image stills). Rules: grace/PLAYBOOK.md.
 
 Approved (Ralph 2026-10-22): "Knee high boots, with bracelet, dark brown, no text, music only, Kie" = plan at $1.62 (up to $2.03 with one redo), stills on Kie. Boot colour not given: black knee-high (the listing styles the brown skirt with black boots), shown at the storyboard.
-Status: Ralph 2026-10-22: the pull must raise the hem from the top of the knee to mid-thigh like the inspo. Fix proposed: Omni first+last frame (end still = edit of S2), S3 still edit, then S3+S4; $1.125 new (up to $1.44). Waiting on OK. Kie spent $0.765.
+Status: Ralph asked for the inspo one-leg look too (confirmed 9.6-12.5 s). Proposed: S2 front pull + S5 side pull (first+last frame), S3 walk + S4 turn in the one-leg look; new $1.53 (up to $1.85). Waiting on OK. Kie spent $0.765.
 Review page: https://claude.ai/artifact/3JRHDgMib5grRRR9ybu1QA
 
 Files: scripts.md (shots, text options, optional voice, caption), prompts/ (prompt-master), refs/product_sheet.png (make_sheet.py, real listing photos),
