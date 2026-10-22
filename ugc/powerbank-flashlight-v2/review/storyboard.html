@@ -1,0 +1,120 @@
+<title>Flashlight V2 Storyboard</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column of shot cards in VO order; each card = line + what we see + guide panel beside the real product view */
+:root{
+  --bg:#f3f4f6; --card:#ffffff; --fg:#1d2430; --muted:#5d6676; --line:#dde1e7;
+  --ember:#e8622c; --dusk:#2f4a6b; --chip:#e9eef5; --chipfree:#fdeee6;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#131820;--card:#1c2330;--fg:#e8ecf2;--muted:#9aa4b4;--line:#2c3544;--ember:#f07a45;--dusk:#9cb8dc;--chip:#263246;--chipfree:#3a2a22;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#131820;--card:#1c2330;--fg:#e8ecf2;--muted:#9aa4b4;--line:#2c3544;--ember:#f07a45;--dusk:#9cb8dc;--chip:#263246;--chipfree:#3a2a22;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:860px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font:700 2.2rem/1.05 var(--display);letter-spacing:.01em;margin:0;text-wrap:balance}
+h2{font:700 1.35rem/1.1 var(--display);margin:0;letter-spacing:.02em}
+.sub{color:var(--muted);margin:6px 0 0}
+.rules{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.rules ul{margin:8px 0 0;padding-left:20px;display:grid;gap:4px}
+.ask{border-left:4px solid var(--ember);background:var(--card);padding:14px 18px;border-radius:0 10px 10px 0}
+.ask strong{color:var(--ember)}
+.shot{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:12px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 12px}
+.num{font:700 1.6rem/1 var(--display);color:var(--dusk)}
+.t{font:500 .8rem var(--mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.chip{font:600 .72rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip)}
+.chip.free{background:var(--chipfree)}
+.say{font:600 1.15rem/1.35 var(--body);margin:0}
+.say::before{content:"\201C"}.say::after{content:"\201D"}
+.see{margin:0}.see b{font-weight:600}
+.fix{margin:0;color:var(--ember);font-weight:600;font-size:.95rem}
+.pics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+figure{margin:0;display:grid;gap:4px}
+figure img{width:100%;max-width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.cost{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.cost table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;margin-top:8px}
+.cost td{padding:6px 0;border-bottom:1px solid var(--line)}.cost td:last-child{text-align:right;font-family:var(--mono);font-size:.9rem}
+@media (max-width:420px){h1{font-size:1.8rem}}
+</style>
+<div class="wrap">
+<header>
+  <h1>Power Bank Flashlight V2 · storyboard</h1>
+  <p class="sub">Grace · your script word for word · 9 shots · about 25 s · one dusk campsite · built from your storyboard panels, with the real grey TINEKO from the reference sheet in every shot.</p>
+</header>
+
+<section class="rules">
+  <h2>What changes from the guide images</h2>
+  <ul>
+    <li>The flashlight is the <b>real grey TINEKO</b> from your real photos: light blue-grey body, light panel then the orange power button, dark metal end cap with the Smiling Shark logo and the lens. Never the black one.</li>
+    <li><b>Real size from Grace's box:</b> 15.7 cm long with the clip, 2.95 cm square, 90 g, light grey. That's about as long as a phone and two fingers wide, about 5 times as long as it is wide. In Grace's hand it sticks out of her fist at both ends. The clip shows in every shot where the top of the flashlight is in frame.</li>
+    <li><b>No text anywhere:</b> no captions, arrows, cart icon or the word "Charging" on the phone.</li>
+    <li><b>No McDonald's</b> or any other brand on screen.</li>
+    <li><b>Flickering mode</b> comes from the <b>round front lens</b> (the same light as the focused beam), with the side panel off.</li>
+    <li>Every shot is a real moving clip. Grace's hand (French tips, rings, bracelets) is in 5 shots; 4 shots have no hand.</li>
+    <li>Dusk campsite kept bright and neutral, with no dark or golden grade.</li>
+  </ul>
+</section>
+
+<section class="ask"><strong>Settled by Grace's box:</strong> the light modes are flashlight, flashlight flashing and side light, so the flickering line stays, and the size above is the box's own number.</section>
+
+<article class="shot"><div class="head"><span class="num">S1</span><span class="chip">Hand</span><span class="t">0.0–1.8 s</span></div>
+<p class="say">Who in the world made this???</p>
+<p class="fix">Fixed: the carabiner clip shows at the top.</p>
+<p class="see"><b>We see:</b> Grace's hand grips the lower half of the flashlight and holds it upright in front of dusk pine trees. The side panel glows, the orange button faces us, and the grey carabiner clip shows above her fingers. The camera pushes in slowly.</p>
+<div class="pics"><figure><img src="sb/panel1.jpg" alt="Your panel 1: hand holding the flashlight"><figcaption>Your guide · panel 1</figcaption></figure><figure><img src="sb/real_hook.jpg" alt="Real TINEKO upright with the carabiner clip on top"><figcaption>Real product, clip on top</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S2</span><span class="chip free">Hand-free</span><span class="t">1.8–5.2 s</span></div>
+<p class="say">Because what do you mean I can charge my phone with this,</p>
+<p class="see"><b>We see:</b> The flashlight lies on a wooden camp table with its dark end cap pulled out a little, and a white cable runs from the USB port under the cap to a phone. The phone screen shows only a green battery symbol. Slow dolly along the cable.</p>
+<div class="pics"><figure><img src="sb/panel2.jpg" alt="Your panel 2: charging a phone"><figcaption>Your guide · panel 2</figcaption></figure><figure><img src="sb/real_port.jpg" alt="Real USB port beside the hook"><figcaption>Real USB-A port under the cap</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S3</span><span class="chip free">Hand-free</span><span class="t">5.2–7.8 s</span></div>
+<p class="say">hang it up in my tent for hands-free lighting,</p>
+<p class="see"><b>We see:</b> Inside a tent, the flashlight hangs by its carabiner from the roof loop, its side panel lighting the tent softly. The camera tilts slowly from the sleeping bag up to the light.</p>
+<div class="pics"><figure><img src="sb/panel3.jpg" alt="Your panel 3: hanging in a tent"><figcaption>Your guide · panel 3</figcaption></figure><figure><img src="sb/real_hook.jpg" alt="Real front view with carabiner"><figcaption>Real product we use</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S4</span><span class="chip">Hand</span><span class="t">7.8–10.9 s</span></div>
+<p class="say">AND use it as a regular flashlight with a focused beam?</p>
+<p class="see"><b>We see:</b> First-person view: the hand at the bottom of the frame points the lens down a forest trail and the beam runs along the path. The flashlight doesn't turn (it warped last time), and the light lands only where the lens points.</p>
+<div class="pics"><figure><img src="sb/panel4.jpg" alt="Your panel 4: focused beam on a trail"><figcaption>Your guide · panel 4</figcaption></figure><figure><img src="sb/real_lens.jpg" alt="Real front lens"><figcaption>Real lens (beam source)</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S5</span><span class="chip free">Hand-free</span><span class="t">10.9–13.5 s</span></div>
+<p class="say">And it has a flickering mode, too, for emergencies!</p>
+<p class="fix">Fixed from the guide: the front lens flickers and the side panel stays dark.</p>
+<p class="see"><b>We see:</b> The flashlight stands on a rock at the edge of the campsite, turned three-quarters so we see the round lens, which flickers on and off into the trees. The camera drifts in slowly. If the model won't flicker cleanly, I add the flicker for free in the edit.</p>
+<div class="pics"><figure><img src="sb/panel5.jpg" alt="Your panel 5, to be corrected"><figcaption>Your guide · panel 5 (side light = wrong)</figcaption></figure><figure><img src="sb/real_lens.jpg" alt="Real front lens"><figcaption>Flicker comes from here</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S6</span><span class="chip free">Hand-free</span><span class="t">13.5–17.5 s</span></div>
+<p class="say">This is the kind of gadget that makes sense to keep with your camping gear</p>
+<p class="see"><b>We see:</b> The flashlight is clipped to a backpack strap with a tent and mountains behind it at dusk, side panel glowing. Slow dolly around the backpack.</p>
+<div class="pics"><figure><img src="sb/panel6.jpg" alt="Your panel 6: clipped to a backpack"><figcaption>Your guide · panel 6</figcaption></figure><figure><img src="sb/real_hook.jpg" alt="Real front view with carabiner"><figcaption>Real product we use</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S7</span><span class="chip">Hand</span><span class="t">17.5–19.0 s</span></div>
+<p class="say">or emergency kit.</p>
+<p class="see"><b>We see:</b> The hand grips the flashlight and sets it into an open emergency bag with bandages and a water bottle. The bag has no cross or logo.</p>
+<div class="pics"><figure><img src="sb/panel6.jpg" alt="Your panel 6"><figcaption>Your guide · panel 6 (kit half)</figcaption></figure><figure><img src="sb/real_hook.jpg" alt="Real side view"><figcaption>Real product we use</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S8</span><span class="chip">Hand</span><span class="t">19.0–21.6 s</span></div>
+<p class="say">And it costs less than a McDonald's Happy Meal!</p>
+<p class="fix">Fixed from the guide: no Happy Meal or other brand on screen. Only the voice says it.</p>
+<p class="fix">Fixed: the carabiner clip shows at the top.</p>
+<p class="see"><b>We see:</b> The hand stands the flashlight upright on the camp picnic table, lens end down and clip on top, with the side panel on, then lets go. Campsite blurred behind. Slow push-in.</p>
+<div class="pics"><figure><img src="sb/panel7.jpg" alt="Your panel 7, McDonald's removed in our version"><figcaption>Your guide · panel 7 (no meal box)</figcaption></figure><figure><img src="sb/real_hook.jpg" alt="Real TINEKO upright with the carabiner clip on top"><figcaption>Real product, clip on top</figcaption></figure></div></article>
+
+<article class="shot"><div class="head"><span class="num">S9</span><span class="chip">Hand</span><span class="t">21.6–24.2 s</span></div>
+<p class="say">I'm linking it in the orange cart for you!</p>
+<p class="see"><b>We see:</b> A close-up of the hand clipping the carabiner onto a backpack strap, with the orange button facing us and dusk mountains behind. No cart icon.</p>
+<div class="pics"><figure><img src="sb/panel8.jpg" alt="Your panel 8: on the backpack"><figcaption>Your guide · panel 8</figcaption></figure><figure><img src="sb/real_hook.jpg" alt="Real front view with orange button"><figcaption>Real product we use</figcaption></figure></div></article>
+
+<section class="cost">
+  <h2>Next step: picture stills of these 9 shots</h2>
+  <table>
+    <tr><td>Free: you make the 9 stills in your Gemini app (I send the images + one prompt each)</td><td>$0</td></tr>
+    <tr><td>Paid: 9 stills on Kie (Gemini 3 Pro Image), one likely redo included</td><td>$0.81–$0.90</td></tr>
+    <tr><td>Later, after you approve the stills: 9 product-lock clips (Omni on Kie) + Grace's voice</td><td>about $2.84–$3.16</td></tr>
+    <tr><td>Kie spend so far in October (no cap this month)</td><td>$151.23</td></tr>
+  </table>
+</section>
+</div>
