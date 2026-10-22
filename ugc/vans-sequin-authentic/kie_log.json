@@ -3191,5 +3191,88 @@
    ]
   },
   "costTime": 133
+ },
+ {
+  "t": "2026-10-22 01:48:21",
+  "submitted": "b6856a8f5724e8c3d42f6f6f591a4f09",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-22 01:48:21",
+  "submitted": "5df179a7c3014a4abd590ab2a709e7e9",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-22 01:48:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then the camera pushes in slowly toward the toe of the shoe; the foot stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. Light: it is night and the phone's built-in camera flash stays on the whole clip, white and neutral, lighting the shoes and her legs from the camera; the street behind stays dark with a few far-off white street lamps; no yellow or orange cast. The light never changes during the clip. Exactly one shoe on her foot in focus. No hand appears at any time. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame. No added sparkle, glints, lens flares or light effects. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792633697911-paefgt6yg4g.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632210697-qkedi3h616k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632213117-y3norehm94b.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 3
+   }
+  },
+  "response": {
+   "code": 500,
+   "msg": "Value must be within the specified range",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-10-22 01:50:33",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then her fingers pull the two laces snug and tighten the bow; the shoe and foot stay still; the camera stays still. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. Light: it is night and the phone's built-in camera flash stays on the whole clip, white and neutral, lighting the shoes and her legs from the camera; the street behind stays dark with a few far-off white street lamps; no yellow or orange cast. The light never changes during the clip. Exactly one shoe in focus on her foot and the second shoe blurred behind it, nothing else. Her hand keeps one pinch grip on the laces the whole clip, the jewellery on her hand and wrist stays exactly the same. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame. No added sparkle, glints, lens flares or light effects. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792633697946-vznvw7q7qxo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632210697-qkedi3h616k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632213117-y3norehm94b.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b6856a8f5724e8c3d42f6f6f591a4f09",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792633825928-u91s4e6uux.mp4"
+   ]
+  },
+  "costTime": 126
+ },
+ {
+  "t": "2026-10-22 01:50:58",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then she shifts her weight from one foot to the other and lifts her right heel a little, then sets it down; the camera, held low in front of her, sways gently like handheld phone footage. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. Light: it is night and the phone's built-in camera flash stays on the whole clip, white and neutral, lighting the shoes and her legs from the camera; the street behind stays dark with a few far-off white street lamps; no yellow or orange cast. The light never changes during the clip. Both feet stay side by side and parallel, toes toward the camera. Exactly two shoes. No hand appears at any time. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame. No added sparkle, glints, lens flares or light effects. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792633697821-eyu8gny85gm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632210697-qkedi3h616k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632213117-y3norehm94b.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5df179a7c3014a4abd590ab2a709e7e9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792633853821-5nhnf3ad3lh.mp4"
+   ]
+  },
+  "costTime": 152
  }
 ]
