@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 81 of 156 videos posted since 2026-08-23
+81 videos -> ugc/youtheory-collagen/research/tag/tag-youtheory.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+ 22,500,000  15.6   1.47    8 2026-10-09  @astryvn: #dreamcore #missing #creepy #conspiracy #scary 
+                                          https://www.tiktok.com/@astryvn/video/7694677076669992222
+  3,900,000  24.0   1.05   12 2026-10-02  @ajclementine: happy october from the goldbergs 🎃 #joegoldberg #lovequinn #you 
+                                          https://www.tiktok.com/@ajclementine/video/7692164318783081735
+  2,400,000  12.3   1.66   41 2026-10-10  @ladieswholorepodcast: Women really can do anything 👀✨Disclaimer: we are not saying this is t
+                                          https://www.tiktok.com/@ladieswholorepodcast/video/7695128463258291470
+  2,300,000  24.2    1.5    5 2026-10-12  @sophiabentleyy: #relatable #repost #fyp
+                                          https://www.tiktok.com/@sophiabentleyy/video/7695825776138128654
+  2,300,000  25.9   2.83   18 2026-10-06  @vextr1: i'm the one #joegoldberg #youshow #fyp #edit
+                                          https://www.tiktok.com/@vextr1/video/7693548094348135700
+  1,700,000  13.6   1.47   16 2026-10-10  @dream_core1010: dreamcore?¿#dreamcoreaesthetic #fypシ #weirdkids #theorys #etc 
+                                          https://www.tiktok.com/@dream_core1010/video/7694935074281688351
+  1,500,000  29.2   1.79   11 2026-10-18  @dany.vglz: Hello, you #couplecostumes #lovequinn #joegoldberg #youseries 
+                                          https://www.tiktok.com/@dany.vglz/video/7698080565454523669
+  1,400,000  11.9   0.53    9 2026-10-12  @mackenziekincaid1: 
+                                          https://www.tiktok.com/@mackenziekincaid1/video/7695595095965306143
+  1,300,000  20.9   2.14   22 2026-09-19  @theperksofbeingreal: hey i dont wanna sound like a stalker | #joegoldberg #corecore #mecore
+                                          https://www.tiktok.com/@theperksofbeingreal/video/7687282622778690838
+  1,300,000  27.0   2.08    5 2026-10-14  @camfant: 
+                                          https://www.tiktok.com/@camfant/video/7696378174720101663
+  1,100,000  13.7    1.3   11 2026-09-13  @coraline_content2: wanna hear yall#fypシ゚viral #coralinejones #coraline #fyppppppppppppppp
+                                          https://www.tiktok.com/@coraline_content2/video/7684934317117558047
+    970,900   9.6   0.86    7 2026-10-19  @jacobbishop13: #dreamcore #missing #creepy #conspiracy #scary
+                                          https://www.tiktok.com/@jacobbishop13/video/7698465042936712478
+    597,300  18.2   1.49   59 2026-10-19  @lexadoodledoll: FLIP THE TAPE 📼 AND PRESS PLAY ▶️ | welcome back to #conformitygate!!!
+                                          https://www.tiktok.com/@lexadoodledoll/video/7698423416512187661
+    461,300  27.0   2.35   19 2026-09-05  @rect.aep1: Joe edit // #you #youedit #joegoldberg #joegoldbergedit #fyp 
+                                          https://www.tiktok.com/@rect.aep1/video/7682136646682168607
+    341,200  14.9    1.3   10 2026-09-08  @spacexo.xo: Looking for space lovers 1,189/10,000 (followers) ‼️ Please, if you us
+                                          https://www.tiktok.com/@spacexo.xo/video/7683206295641427222
