@@ -18,7 +18,7 @@ REF = {
 
 PARTS = {
     "A": "from the clip end: the grey carabiner clip with a thin silver wire gate, then right below it ONE rounded-square orange button with a small embossed arrow icon, then a long rounded-rectangle frosted white light panel, then the plain grey body down to the torch head at the far end",
-    "B": "from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end",
+    "B": "from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed diamond-shaped icon, then a slightly darker grey torch-head section at the far end",
 }[ORDER]
 
 SIZE = ("SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, "
