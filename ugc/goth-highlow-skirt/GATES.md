@@ -14,7 +14,8 @@ Scope: one ~15 s vertical AI video recreating the inspo (@jaquelineee809, adjust
   EXPECT: SHEET_OK
   EVIDENCE: 2026-10-22 SHEET_OK (make_sheet.py, listing photos 08/25/26/27/34)
 
-- [ ] G3: Ralph approved the one-message plan + total cost (and the open questions) before any paid call; his words quoted in README
+- [x] G3: Ralph approved the one-message plan + total cost (and the open questions) before any paid call; his words quoted in README
+  EVIDENCE: Ralph 2026-10-22 "Knee high boots, with bracelet, dark brown, no text, music only, Kie" (README)
 
 - [ ] G4: Test still S2 QC'd at full size + 2x edges (grip on cords, whole wrists, real skirt details, boots not heels), then the other stills; storyboard shown before any clip spend
 
