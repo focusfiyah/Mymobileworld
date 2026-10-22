@@ -179,5 +179,117 @@
   },
   "costTime": 169,
   "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 06:41:49",
+  "submitted": "e8bb942eadc322028400b73589b8a090",
+  "prompt": "Edit image 1. Same bedroom, light, gold mirror edges, framing (waist down to the floor), black top, skin, black knee-hig"
+ },
+ {
+  "t": "2026-10-22 06:41:49",
+  "submitted": "f1059ad9520d25451cafc1aee8875312",
+  "prompt": "Edit image 1. Keep EVERYTHING the same: same bedroom, light, gold mirror edges, framing, black top, legs, black knee-hig"
+ },
+ {
+  "t": "2026-10-22 06:42:45",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Keep EVERYTHING the same: same bedroom, light, gold mirror edges, framing, black top, legs, black knee-high boots, skin, rings and bracelets, and the same dark chocolate brown skirt (it must still match image 2, the real product sheet, and image 3, the real tie close-up).\nChange only these two things:\n1. Her right hand (on the left side of the picture) has pulled its front tie up and out to the side: the hand is now at the height of her lower ribs, about a hand's width out from her body, pinching the end of the flat brown tie, and the tie runs taut from the waistband up into her fingers. Her other hand stays at the waistband holding its tie, exactly as in image 1.\n2. Because of the pull, the front of the skirt is gathered much tighter into short deep swags and the front hem has risen from the top of her knees to MID-THIGH, a little higher on the pulled side (left side of the picture). Her knees and the lower half of her thighs now show between the front hem and the boot tops. The back and sides of the skirt stay long, ruffled, down to her ankles.\nNo other changes. No text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f1059ad9520d25451cafc1aee8875312",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f1059ad9520d25451cafc1aee8875312_0_1792651360.jpeg"
+   ]
+  },
+  "costTime": 52
+ },
+ {
+  "t": "2026-10-22 06:42:49",
+  "submitted": "dbe8dfe58808456d625f91df09ac7627",
+  "prompt": "Edit image 1. Keep EVERYTHING the same: same bedroom, light, gold mirror edges, framing, black top, legs, black knee-hig"
+ },
+ {
+  "t": "2026-10-22 06:43:24",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Same bedroom, light, gold mirror edges, framing (waist down to the floor), black top, skin, black knee-high boots, and the same dark chocolate brown skirt (it must match image 2, the real product sheet, whose BACK photo shows the back: elastic waistband and four horizontal ruffle tiers).\nChange only this: she has turned around and stands with her BACK to the mirror. The mirror now shows the back of the skirt: elastic waistband, four horizontal ruffle tiers falling to her ankles, the long back hem just above the floor; the backs of her black knee-high boots show below it. Her arms hang relaxed at her sides, hands out of frame or only fingertips at the frame edge. No face.\nNo other changes. No text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e8bb942eadc322028400b73589b8a090",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e8bb942eadc322028400b73589b8a090_0_1792651399.jpeg"
+   ]
+  },
+  "costTime": 91
+ },
+ {
+  "t": "2026-10-22 06:43:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Keep EVERYTHING the same: same bedroom, light, gold mirror edges, framing, black top, legs, black knee-high boots, skin, rings and bracelets, and the same dark chocolate brown skirt (it must still match image 2, the real product sheet, and image 3, the real tie close-up).\nChange only these things:\n1. One-leg-out look: the side of the skirt on the LEFT of the picture is pulled up high by its tie, gathered into tight deep swags, and its hem now sits at her UPPER THIGH, so that whole leg shows from the upper thigh down to the boot top, like a high slit. The side on the RIGHT of the picture stays at mid-thigh. The back stays long and ruffled down to her ankles.\n2. Her hand on the left of the picture holds the end of that tie pulled up and out to the side at rib height, the tie taut from the waistband into her fingers. Her other hand rests on her hip.\n3. Her leg on the left of the picture is bent a little, knee forward, the other leg straight.\nNo other changes. No text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792651367109-28nit5bdghw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "dbe8dfe58808456d625f91df09ac7627",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/dbe8dfe58808456d625f91df09ac7627_0_1792651428.jpeg"
+   ]
+  },
+  "costTime": 60
+ },
+ {
+  "t": "2026-10-22 06:43:56",
+  "submitted": "2e91bdd23c41c4fa7fe61822d8d43b73",
+  "prompt": "Edit image 1. Keep EVERYTHING the same: same bedroom, light, gold mirror edges, framing, black top, legs, black knee-hig"
+ },
+ {
+  "t": "2026-10-22 06:45:05",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Keep EVERYTHING the same: same bedroom, light, gold mirror edges, framing, black top, legs, black knee-high boots, skin, rings and bracelets, and the same dark chocolate brown skirt (it must still match image 2, the real product sheet, and image 3, the real tie close-up).\nChange only these things:\n1. Shortest look: BOTH front sides are now pulled up high by their ties and gathered into tight deep swags, so the whole front hem sits at her UPPER THIGH on both sides, like a mini skirt in front; both legs show from the upper thigh down to the boot tops. The back stays long and ruffled down to her ankles, framing her legs.\n2. Both hands hold their tie ends at the hips, the ties pulled taut. She stands straight with both feet together.\nNo other changes. No text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792651433682-g2pw0vyl8tk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2e91bdd23c41c4fa7fe61822d8d43b73",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2e91bdd23c41c4fa7fe61822d8d43b73_0_1792651503.jpeg"
+   ]
+  },
+  "costTime": 67
  }
 ]

@@ -38,6 +38,21 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
+LEN = {"TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
+
+
+def len_still(sid):
+    """Fresh still for one skirt length (Ralph 2026-10-22: all 5 inspo looks). Edits did not change the length, so the
+    inspo frame (caption painted out) goes in as a length-only guide."""
+    import json
+    shot = json.loads(Path("prompts/len_shots.json").read_text())[sid]
+    look = Path("prompts/look.txt").read_text().strip()
+    prompt = "Vertical 9:16 photo, a single frame from a phone-shot mirror video. " + Path("prompts/len_still.txt").read_text().replace("<<LOOK>>", look).replace("<<SHOT>>", shot)
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(r) for r in (SHEET, TIE, LOOK, LEN[sid])],
+                        "aspect_ratio": "9:16", "resolution": "1K"}})
+    if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
+
+
 def edit(src, out, prompt_file):
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": Path(prompt_file).read_text().strip(),
                         "image_input": [kie.upload(r) for r in (src, SHEET, TIE)], "aspect_ratio": "9:16", "resolution": "1K"}})
@@ -66,6 +81,8 @@ if __name__ == "__main__":
     elif cmd == "stills":
         Path("stills").mkdir(exist_ok=True)
         with ThreadPoolExecutor(4) as ex: list(ex.map(still, ids))
+    elif cmd == "len":
+        with ThreadPoolExecutor(3) as ex: list(ex.map(len_still, ids))
     elif cmd == "edit":
         edit(*ids[:3])
     elif cmd == "omnifl":
