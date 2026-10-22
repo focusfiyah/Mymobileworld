@@ -558,5 +558,90 @@
   },
   "costTime": 218,
   "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 03:40:12",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. Image 5 is Grace's hand sheet: the French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm stay exactly as in images 1 and 5; no other jewellery appears. Motion: Slow push-in toward the 'VERISOL\u00ae collagen peptides' line while the hand stays still; the pouch never turns. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019608-suaenb6agtq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021906-mmqjhm24ger.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640024087-6a0vz3d73ry.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640026461-elxf6fawu9t.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640029089-nckink0q0r.jpg"
+    ]
+   }
+  },
+  "taskId": "21a16875026df75fbfae144ea617ff61",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/21a16875026df75fbfae144ea617ff61_0_1792640408.mp4"
+   ]
+  },
+  "costTime": 378,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 03:41:19",
+  "submitted": "0e044d155dd72a95549abd43e3f5d375",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the pouch is a small single-serve 1 fl oz ("
+ },
+ {
+  "t": "2026-10-22 03:42:41",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the pouch is a small single-serve 1 fl oz (30 mL) pouch, about 6.5 cm wide and 15 cm tall including its tab: a little shorter than an adult hand from wrist crease to fingertip, about one and a half times as tall as a coffee mug, never bigger than the hand holding it. It is flat and thin like a juice pouch, never a bottle, never a box. Three-quarter view from slightly above and in front on the white marble counter by the window: the opened display carton facing the camera with pouches standing inside it, and two more pouches lying flat in front of it, labels up; a linen napkin and a sprig of eucalyptus beside them. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. The product is the REAL Youtheory Collagen Liquid pouch shown in reference images: a soft glossy WHITE foil pouch shaped like a flat bottle (wide flat body with slightly crinkled edges, rounded shoulders narrowing to a short neck), topped by a flat matte burnt-orange tear-off tab with a small notch on each side. Front print, top to bottom, exactly as the close-ups: a small dark grey round 'youtheory' leaf mark with the word 'youtheory' in thin dark grey lowercase; a large circle made of round dots in orange, sky blue, leaf green and coral pink; 'collagen' in large coral-orange serif lowercase; 'liquid' in dark grey serif lowercase; two thin grey lines around 'helps reduce fine lines & wrinkles*' in grey italic; 'with clinically studied' in orange italic; 'VERISOL\u00ae collagen peptides' in bold coral-orange; a coral-orange rounded bar with white text 'berry flavor | ZERO SUGAR'; '1 fl oz (30 mL) dietary supplement' in dark grey; a small boxed disclaimer at the bottom. The print matches the references letter for letter and colour for colour, stays flat on the pouch and inside its edges; no other marks, no added \u00ae or \u2122 beyond the two in the reference, no extra text. The carton is the REAL Youtheory display box shown in images 5 and 6, matching them letter for letter and colour for colour: a white carton about as tall as the pouches, whose front panel has been torn away along a diagonal perforated line (high at the right, low at the left), so the pouches inside show above the tear. Below the tear the front panel reads, exactly as image 6: 'gen' in large coral-orange serif lowercase (the rest of the word was torn away with the top), 'liquid' in grey serif lowercase beneath it, then three lines each starting with a small coral plus sign: 'great tasting & ready to drink', 'supports skin, hair & nails*', '5,000 mg collagen per single dose*' with '5,000 mg' in coral and the rest grey; a splash of pale berry liquid with two red raspberries at the lower left corner; four small grey round icons in a row; a coral-orange band along the bottom edge with small white text and 'dietary supplement' at its right end. The pouches stand upright inside, orange tabs up. No other print, logo or text on the box. Vertical 9:16 phone photo, soft bright natural daylight from a window, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures, an airy aesthetic home styled in white, cream and light oak. Every other item is plain and unbranded: no brand names or logos on anything except the real Youtheory pouch print. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from real photos (A = the real pouch front); image 2 = a close-up of the real 'youtheory' logo and dot circle; image 3 = a close-up of the real 'collagen liquid' wordmark and claim lines; image 4 = a close-up of the real orange tear tab; image 5 = a real photo of the display carton, torn open, with pouches inside; image 6 = a close-up of the real carton front print below the tear. The pouch print must match images 1 to 4 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792638854757-y3fb7nklbem.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792638857799-qvujpxig4u.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792638860466-098xomt7wv4j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792638862848-l6adbio8stc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640475300-1u4vix1gyr9.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640477616-qucsi24ew9.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0e044d155dd72a95549abd43e3f5d375",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0e044d155dd72a95549abd43e3f5d375_0_1792640557.jpeg"
+   ]
+  },
+  "costTime": 78
+ },
+ {
+  "t": "2026-10-22 03:43:15",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. Image 5 is Grace's hand sheet: the French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm stay exactly as in images 1 and 5; no other jewellery appears. Motion: The hand sets the pouch down in front of the blender, tub and shaker and lets go; the pouch stays upright facing the lens and never flips; nothing else moves. Camera: slow push-in toward the pouch. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019666-bo41n84n8b7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021725-iw2c15cxdve.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640023426-k7jk0tjochl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640025692-pi85ikf91r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640028235-36h3vzyiury.jpg"
+    ]
+   }
+  },
+  "taskId": "cca4a3f55c1985f0422c0093b5cedaa5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/cca4a3f55c1985f0422c0093b5cedaa5_0_1792640590.mp4"
+   ]
+  },
+  "costTime": 560,
+  "usd": 0.315
  }
 ]
