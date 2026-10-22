@@ -24,12 +24,12 @@ def words(text):
     return set((text or "").lower().replace(",", " ").replace("-", " ").split())
 
 
-def why_skip(alt):
+def why_skip(alt, allow_ai=False):
     """'people', 'not a room' or 'ai' from the photo's alt text / tags, else None."""
     w, low = words(alt), (alt or "").lower()
     if any(x in w for x in SKIP):
         return "people"
-    if "ai generated" in low or "generated" in w or " ai " in f" {low} ":
+    if not allow_ai and ("ai generated" in low or "generated" in w or " ai " in f" {low} "):
         return "ai"
     if not any(x in w for x in ROOM):
         return "not a room"
@@ -45,7 +45,7 @@ def tone(img):
     return round(white, 2), round(ImageStat.Stat(small.convert("L")).mean[0])
 
 
-def search(q, per):
+def search(q, per, allow_ai=False):
     r = json.loads(get("https://api.pexels.com/v1/search?" + urllib.parse.urlencode(
         {"query": q, "orientation": "portrait", "per_page": per}), {"Authorization": os.environ["PEXELS_API_KEY"]}))
     for p in r["photos"]:
@@ -54,8 +54,8 @@ def search(q, per):
         {"key": os.environ["PIXABAY_API_KEY"], "q": q + " interior", "image_type": "photo", "orientation": "vertical",
          "per_page": max(per, 3), "safesearch": "true"})))  # "interior": plain "sage bathroom" returns sage plants
     for p in r["hits"]:
-        if p.get("isAiGenerated") or p.get("isLowQuality"):
-            yield f"pb_{p['id']}", None, p["pageURL"], "ai generated", PIXABAY
+        if p.get("isLowQuality") or (p.get("isAiGenerated") and not allow_ai):
+            yield f"pb_{p['id']}", None, p["pageURL"], None, "low quality" if p.get("isLowQuality") else "ai"
             continue
         yield f"pb_{p['id']}", p["largeImageURL"], p["pageURL"], p["tags"], PIXABAY
 
@@ -66,17 +66,18 @@ def main():
     ap.add_argument("queries", nargs="+")
     ap.add_argument("--per", type=int, default=6, help="results per query per site")
     ap.add_argument("--max-white", type=float, default=0.6, help="skip rooms whiter than this share")
+    ap.add_argument("--allow-ai", action="store_true", help="also keep AI rooms (fallback when the real ones are not good)")
     ap.add_argument("--min-bright", type=int, default=95, help="skip rooms darker than this mean")
     a = ap.parse_args()
     cand = os.path.join(a.out, "cand")
     os.makedirs(cand, exist_ok=True)
-    meta, skipped = {}, {"people": 0, "not a room": 0, "ai": 0, "white": 0, "dark": 0}
+    meta, skipped = {}, {"people": 0, "not a room": 0, "ai": 0, "low quality": 0, "white": 0, "dark": 0}
     for q in a.queries:
-        for key, url, page, alt, lic in search(q, a.per):
+        for key, url, page, alt, lic in search(q, a.per, a.allow_ai):
             f = key + ".jpg"
             if f in meta:
                 continue
-            reason = why_skip(alt)
+            reason = lic if url is None else why_skip(alt, a.allow_ai)  # url None = Pixabay flagged it
             if reason:
                 skipped[reason] += 1
                 continue

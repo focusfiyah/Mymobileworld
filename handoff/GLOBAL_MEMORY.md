@@ -29,7 +29,7 @@ PRODUCT LOCK AND MODELS
 - Every image and video prompt is written with the prompt-master skill: every reference named, the print matched letter for letter and colour for colour, small marks get their true colours in words, a held product keeps one grip and never flips, no sparkle or light-effect words.
 - Before the first product image: a free product reference sheet from real photos, the maker's real dimensions with an everyday size anchor and a real photo of it in a room for scale; list every product detail in the plan for my yes before spending.
 - Stills: Gemini 3 Pro Image (Kie nano-banana-pro). Show a still storyboard before any video spend, riskiest clip first. No Kling unless I say so (2026-10-21).
-- Room backgrounds (2026-10-22): real room photos from Pexels/Pixabay (free-assets skill, scripts/rooms.py), bright but with colour, never the all-white rooms you kept choosing; each video gets its own rooms.
+- Room backgrounds (2026-10-22): real room photos from Pexels/Pixabay first (free-assets skill, scripts/rooms.py), bright but with colour, never the all-white rooms you kept choosing; if no real room fits, AI rooms are OK; each video gets its own rooms.
 - OpenMontage (focusfiyah/OpenMontage) is part of the toolkit: it is in every cloud session and handles video assembly; all generation, Omni included, runs on Kie.
 
 VIDEO STANDARDS
