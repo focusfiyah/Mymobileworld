@@ -22,5 +22,13 @@
   "request_id": "01a165f5-b52d-75d3-90e9-c56897294001",
   "out": "ugc/goth-highlow-skirt/tryon/fashn_real.png",
   "url": "https://cdn.fashn.ai/01a165f5-e2f7-7350-863b-0fce402eec05/output_0.png"
+ },
+ {
+  "model": "fashn_real_seg",
+  "endpoint": "fal-ai/fashn/tryon/v1.6",
+  "usd": 0.075,
+  "request_id": "01a165f8-075c-7fb1-a3c0-20df7fa48d8d",
+  "out": "ugc/goth-highlow-skirt/tryon/fashn_real_seg.png",
+  "url": "https://cdn.fashn.ai/01a165f8-35dc-7981-a1ae-886b7d77763d/output_0.png"
  }
 ]

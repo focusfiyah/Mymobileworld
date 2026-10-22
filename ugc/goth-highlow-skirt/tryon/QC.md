@@ -26,3 +26,6 @@ Kolors verdict: PARTIAL PASS. First model to put the real skirt's structure on G
 | Face, arms, shoes unchanged | yes (mean diff 2.0 / 6.6 / 3.5) |
 
 FASHN re-test verdict: the best waist and front of any model so far; the hem fails because it copied the shape of the pants. A photo of Grace in shorts, bare legs or a short fitted dress should fix the shape (FASHN fills the area of the old garment). Usable now for waist-up and waist-to-knee framing.
+
+## Re-test 2: FASHN, segmentation_free off (same photo 3, $0.075)
+Worse on every count: colour washed to mauve (99,73,70 vs real 70,51,46); still a narrow column cuffed at the ankles; the plant pot was redrawn as a brown smear and the boots were redrawn. Verdict: FAIL. Keep the default (segmentation_free on). The shape needs a different input photo (shorts / bare legs), not a setting.

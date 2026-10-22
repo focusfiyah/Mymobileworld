@@ -9,6 +9,9 @@ JOBS = {
             "category": "bottoms", "mode": "quality", "garment_photo_type": "flat-lay", "num_samples": 1, "output_format": "png"}),
   "fashn_real": ("fal-ai/fashn/tryon/v1.6", 0.075, {"model_image": uri("person_real.jpg"), "garment_image": uri("garment_front.jpg"),
             "category": "bottoms", "mode": "quality", "garment_photo_type": "flat-lay", "num_samples": 1, "output_format": "png"}),
+  "fashn_real_seg": ("fal-ai/fashn/tryon/v1.6", 0.075, {"model_image": uri("person_real.jpg"), "garment_image": uri("garment_front.jpg"),
+            "category": "bottoms", "mode": "quality", "garment_photo_type": "flat-lay", "num_samples": 1, "output_format": "png",
+            "segmentation_free": False}),
   "kolors": ("fal-ai/kling/v1-5/kolors-virtual-try-on", 0.07, {"human_image_url": uri("person.jpg"), "garment_image_url": uri("garment_front.jpg")}),
 }
 def req(url, body=None):
