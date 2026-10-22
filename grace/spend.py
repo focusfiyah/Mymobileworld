@@ -28,7 +28,7 @@ PRICES = {
 
 def kie_cost(entry):
     r = entry.get("request") or {}
-    if not isinstance(r, dict) or not entry.get("taskId"):
+    if not isinstance(r, dict) or not entry.get("taskId") or entry.get("fail"):   # Kie does not charge failed tasks
         return None, 0.0
     model = r.get("model"); kind, price = PRICES.get(model, ("call", 0.10))
     if kind == "sec":
