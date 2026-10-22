@@ -6,3 +6,4 @@
 - 2026-10-21: Held product: Kling 3.0 first=last frame is the method that never turned the shoe (Vans V1-V4, V6); Seedance push-in prompt failed.
 - 2026-10-21 (later): Ralph rejected the Kling first=last holds (read as still images) and the sparkle the prompt asked for: held-product line rewritten, no-sparkle rule added.
 - 2026-10-21 (Ralph: product lock with Google Omni): Ralph's stack: product-in-frame clips are Gemini Omni reference-to-video prompts (tag binding, plain-sentence exclusions, edit turns); Seedance only for clips without the product.
+- 2026-10-22 (Ralph): Omni runs on Kie (google/gemini-omni-flash-1-1, reference mode, images named by number), not through the Gemini API key.
