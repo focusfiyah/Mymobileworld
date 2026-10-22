@@ -79,6 +79,15 @@ def veo(sid, first, tier="veo3_fast", secs=6):
         kie.fetch(url, f"clips/{sid}_veo_{n}.mp4"); print("OK", f"clips/{sid}_veo_{n}.mp4", flush=True)
 
 
+def kie_kling(sid, first, secs=5):
+    """Kling 3.0 Omni on Kie ($0.07/s; same call as ugc/lgxnds-creatine/kie2.py). Ralph 2026-10-22: continue V4 from its
+    last frame so the shortest look (both legs) joins with no visible cut; his own Kling account had 8 credits left."""
+    url = kie.run_task({"model": "kling-3.0-omni/image-to-video", "input": {"prompt": Path(f"prompts/{sid}_kie.txt").read_text().strip(),
+                        "image_urls": [kie.upload(first)], "duration": secs, "resolution": "720p", "aspect_ratio": "auto", "audio": False}})
+    if url:
+        Path("clips").mkdir(exist_ok=True); kie.fetch(url, f"clips/{sid}_kie.mp4"); print("OK", f"clips/{sid}_kie.mp4", flush=True)
+
+
 def edit(src, out, prompt_file):
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": Path(prompt_file).read_text().strip(),
                         "image_input": [kie.upload(r) for r in (src, SHEET, TIE)], "aspect_ratio": "9:16", "resolution": "1K"}})
@@ -113,6 +122,8 @@ if __name__ == "__main__":
         seed(ids[0], ids[1], ids[2] if len(ids) > 2 else None)
     elif cmd == "veo":
         veo(ids[0], ids[1])
+    elif cmd == "kiekling":
+        kie_kling(ids[0], ids[1])
     elif cmd == "edit":
         edit(*ids[:3])
     elif cmd == "omnifl":
