@@ -404,5 +404,31 @@
    ]
   },
   "costTime": 111
+ },
+ {
+  "t": "2026-10-22 07:10:54",
+  "submitted": "1f2f633adee80c8bd553d76e101179b5",
+  "prompt": "Continue this exact frame as a real 4-second phone video filmed in a mirror. Her hand at the waistband loosens the flat "
+ },
+ {
+  "t": "2026-10-22 07:12:15",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Continue this exact frame as a real 4-second phone video filmed in a mirror. Her hand at the waistband loosens the flat brown tie and lets it slide down through her fingers; the gathered front of the dark chocolate brown skirt slowly unfolds and drops under its own weight until the front hem hangs at the top of her knees, covering the top of the kneecaps. Her hand follows the tie down and stays at her waist. The back stays long and ruffled at her ankles. Her raised hand stays where it is at the top of the frame. Her feet stay planted, boots still.\nThe skirt stays the same real skirt in every frame: same dark brown fabric, soft ruching, flat ties, ruffle hems; only its front length changes. No new hands, no extra people, no jewellery added.\nCamera: locked off, no zoom, no camera move. Bright natural daylight, true neutral colours. No face. No text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792652638473-raav1y8f3qh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "1f2f633adee80c8bd553d76e101179b5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792653131143-t2ar5msu1fo.mp4"
+   ]
+  },
+  "costTime": 79
  }
 ]

@@ -6,7 +6,7 @@ https://shop.tiktok.com/us/pdp/womens-gothic-high-low-skirt-steampunk-pirate-des
 Route: ugc-product-ad + product lock (Omni on Kie for every clip; Gemini 3 Pro Image stills). Rules: grace/PLAYBOOK.md.
 
 Approved (Ralph 2026-10-22): "Knee high boots, with bracelet, dark brown, no text, music only, Kie" = plan at $1.62 (up to $2.03 with one redo), stills on Kie. Boot colour not given: black knee-high (the listing styles the brown skirt with black boots), shown at the storyboard.
-Status: T2 Omni first+last ignored the end frame ($0.315, unusable). Proposed reverse route: Seedance from the end look, let down, reversed (R1 test $0.164), 4 clips $0.66. Waiting on OK. Kie spent $1.71.
+Status: R1 reverse test FAILED (skirt slid off to the floor, $0.164). Proposed: Seedance start+end frame with matching framing, test TOP->SHORT $0.164. Waiting on OK. Kie spent $1.874.
 Review page: https://claude.ai/artifact/3JRHDgMib5grRRR9ybu1QA
 
 Files: scripts.md (shots, text options, optional voice, caption), prompts/ (prompt-master), refs/product_sheet.png (make_sheet.py, real listing photos),

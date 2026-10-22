@@ -53,6 +53,18 @@ def len_still(sid):
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
 
+def seed(sid, first, last=None, secs=4):
+    """Seedance 2.0 Mini on Kie ($0.041/s), first frame (+ optional last frame). Ralph 2026-10-22: Omni ignored the end
+    frame twice, so the pulls are filmed as the skirt dropping and played reversed in the cut (reverse route)."""
+    body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}_seed.txt").read_text().strip(),
+            "first_frame_url": kie.upload(first), "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": secs}}
+    if last: body["input"]["last_frame_url"] = kie.upload(last)
+    url = kie.run_task(body)
+    if url:
+        Path("clips").mkdir(exist_ok=True); n = len(list(Path("clips").glob(f"{sid}_seed_*.mp4"))) + 1
+        kie.fetch(url, f"clips/{sid}_seed_{n}.mp4"); print("OK", f"clips/{sid}_seed_{n}.mp4", flush=True)
+
+
 def edit(src, out, prompt_file):
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": Path(prompt_file).read_text().strip(),
                         "image_input": [kie.upload(r) for r in (src, SHEET, TIE)], "aspect_ratio": "9:16", "resolution": "1K"}})
@@ -83,6 +95,8 @@ if __name__ == "__main__":
         with ThreadPoolExecutor(4) as ex: list(ex.map(still, ids))
     elif cmd == "len":
         with ThreadPoolExecutor(3) as ex: list(ex.map(len_still, ids))
+    elif cmd == "seed":
+        seed(ids[0], ids[1], ids[2] if len(ids) > 2 else None)
     elif cmd == "edit":
         edit(*ids[:3])
     elif cmd == "omnifl":
