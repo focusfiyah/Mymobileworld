@@ -44,6 +44,9 @@ def main():
     ap.add_argument("--dry", action="store_true")
     a = ap.parse_args()
     job = Path(a.job).resolve()
+    # resolve image paths now: the runner chdirs into OpenMontage before the call
+    a.first = str(Path(a.first).resolve()) if a.first else None
+    a.ref = [str(Path(r).resolve()) for r in a.ref]
     secs = max(3, min(10, a.seconds)); usd = round(USD_PER_SEC * secs, 3)
     prompt = Path(a.prompt_file).read_text().strip()
     log = job / "omni_log.json"; entries = json.loads(log.read_text()) if log.exists() else []
