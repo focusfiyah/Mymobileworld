@@ -12,3 +12,6 @@
 | I'm linking it in the orange cart for you! | Grace's close (orange cart) | CTA; Ralph's wording over "It's in the orange cart." |
 
 Note vs PLAYBOOK structure: Ralph's script has no pain line or brag confession and its own CTA; used word for word on his say.
+
+
+Re-checked 2026-10-22 (session 2): research/script.txt has one commit (5ccaebc 19:46) and this proof was committed after it (20:08) on the same text; the script is unchanged, so this proof still applies.
