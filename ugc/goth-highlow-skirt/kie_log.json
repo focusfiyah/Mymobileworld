@@ -430,5 +430,32 @@
    ]
   },
   "costTime": 79
+ },
+ {
+  "t": "2026-10-22 07:14:22",
+  "submitted": "450b15c66193a69406db81a24725c860",
+  "prompt": "Image 1 is the first frame and image 2 the last frame of one real 4-second phone video filmed in a mirror; move smoothly"
+ },
+ {
+  "t": "2026-10-22 07:15:51",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Image 1 is the first frame and image 2 the last frame of one real 4-second phone video filmed in a mirror; move smoothly from image 1 to image 2. Her hands take the two front ties of the dark chocolate brown skirt and pull them up; the gathered front rises from mid-thigh to her upper thighs on both sides, while the long ruffled back stays at her ankles and the skirt stays on her waist the whole time. Her feet stay planted.\nThe skirt stays the same real skirt in every frame: same dark brown fabric, soft ruching, flat ties, ruffle hems. No new hands, no extra people.\nCamera: locked off, no zoom. Bright natural daylight, true neutral colours. No face. No text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792652638473-raav1y8f3qh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4,
+    "last_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792653260665-ncc0b74zck.png"
+   }
+  },
+  "taskId": "450b15c66193a69406db81a24725c860",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792653344917-4jfaxa76led.mp4"
+   ]
+  },
+  "costTime": 83
  }
 ]
