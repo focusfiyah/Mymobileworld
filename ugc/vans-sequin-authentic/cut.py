@@ -15,6 +15,9 @@ EDIT = {  # clean windows only (QC 2026-10-21: no grip switch, no extra hands, n
  "V8": [("V8S1", 0, 5.0), ("V8S2", 0, 4.0), ("V8S3", 0, 4.6)],
  "V9": [("V9S1", 0, 1.4), ("V9S1", 2.6, 3.4), ("V9S2", 0.9, 4.8), ("V9S3", 0, 4.0)],
  "V10": [("V10S1", 0, 4.6), ("V10S2", 0, 4.0), ("V10S3", 0, 2.5)],
+ # V11 (Grace 2026-10-21: night, flash on): S1 opens dark ("flash off", free) then full light = the flash coming on;
+ # S2 walk 0.1-2.25 (the camera swing from 2.37 s reads as a cut 0.17 s before the real one); S3 the two-hand bow part
+ "V11": [("V11S1", 0, 3.0, {"dark": 0.6}), ("V11S2", 0.1, 2.25), ("V11S3", 1.6, 4.0), ("V11S4", 1.2, 3.8)],
 }
 GRADE = {  # all bright and neutral; small differences so no two videos share a look
  "V1": "eq=brightness=0.02:contrast=1.03", "V2": "eq=brightness=0.035:saturation=0.97",
@@ -22,6 +25,7 @@ GRADE = {  # all bright and neutral; small differences so no two videos share a 
  "V5": "eq=contrast=1.04:brightness=0.015", "V6": "eq=brightness=0.03:saturation=1.02",
  "V7": "colorbalance=bs=0.02,eq=contrast=1.05:brightness=0.02", "V8": "eq=brightness=0.04:contrast=1.02",
  "V9": "eq=brightness=0.035:saturation=0.98", "V10": "colorbalance=bs=0.015,eq=brightness=0.03:contrast=1.03",
+ "V11": "eq=brightness=0.015:contrast=1.04",   # night: the flash keeps the shoes bright and neutral; no lift on the dark street
 }
 
 
@@ -31,7 +35,10 @@ def cut(v):
         ins += ["-ss", str(a), "-t", str(b - a), "-i", f"clips/{cid}.mp4"]
         push = (opt[0] if opt else {}).get("push")   # free smooth push-in on a near-still real clip (PLAYBOOK FUSOU V3: locked-off clips read as photos)
         zoom = (f",scale=w='trunc(1080*(1+{push - 1}*t/{b - a})/2)*2':h=-2:eval=frame:flags=lanczos,crop=1080:1920" if push else "")
-        parts.append(f"[{i}:v]scale=1080:1920:flags=lanczos,fps=30,setsar=1{zoom},{GRADE[v]},setpts=PTS-STARTPTS[v{i}]")
+        dark = (opt[0] if opt else {}).get("dark")   # V11: "flash off" for the first N s (dim, cool, grainy like a phone at night), then the flash
+        flash = (f",eq=brightness=-0.30:contrast=0.75:saturation=0.55:enable='lt(t,{dark})',colorbalance=bs=0.05:bm=0.03:enable='lt(t,{dark})',"
+                 f"noise=alls=10:allf=t:enable='lt(t,{dark})',eq=brightness=0.06:enable='between(t,{dark},{dark + 0.07})'" if dark else "")
+        parts.append(f"[{i}:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,fps=30,setsar=1{zoom},{GRADE[v]}{flash}[v{i}]")
     n = len(EDIT[v]); fc = ";".join(parts) + ";" + "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]"
     dur = sum(e[2] - e[1] for e in EDIT[v])
     rev = f"out/{v}_review.mp4"

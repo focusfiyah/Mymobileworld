@@ -22,7 +22,7 @@ def text(s):
     else: p.append("No hands or arms anywhere in the frame.")
     if s["feet"]: p.append(V["feet_block"])
     if s["anklet"]: p.append(f"She wears {s['anklet']}.")
-    p += [V["shoe_block"], V["scene_suffix"]]
+    p += [V["shoe_block"], V["night_suffix"] if s.get("suffix") == "night" else V["scene_suffix"]]
     return " ".join(p)
 
 
@@ -51,7 +51,7 @@ def clip(sid):
               "The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white "
               "VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised "
               "or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, "
-              f"the black laces and the marshmallow sole. {V['video_suffix']}")
+              f"the black laces and the marshmallow sole. {s.get('clip_note', '')} {V['video_suffix']}")
     body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": refs, "generate_audio": False,
             "resolution": "720p", "aspect_ratio": "9:16", "duration": s["dur"]}}
     url = kie.run_task(body)

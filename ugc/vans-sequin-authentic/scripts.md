@@ -81,3 +81,22 @@ V7 Skirt, jeans, these 🖤 #ad #vans #ootd
 V8 How they look on ✨ #ad #vans #sequinvans
 V9 Wrapping these for the girl who loves sparkle 🎁 #ad #vans #giftideas
 V10 For the Vans girlie who loves anything shiny 🎁✨ #ad #vans #giftsforher
+
+## V11 (Grace's request 2026-10-21, via Ralph): night, phone flash on, all-new b-roll, ~11 s
+Grace: "do new b rolls and do it at night and turn on flash to show how shiny it is." Ralph: one video for now.
+New look vs V1-V10: night city sidewalk (first night video), cream satin midi skirt, bare ankles, thin gold chain anklet.
+Light: the phone's own flash is the light on the shoes (white, neutral, bright on the subject); the street behind is dark
+with a few far-off white street lamps. No yellow/orange streetlight cast. Every shot is NEW footage (no V1-V10 clips).
+Product clips = Google Omni (product lock, Ralph 2026-10-21).
+- S1 HAND-FREE 4 s (hook): POV looking down at her feet on a dark sidewalk at night, both shoes side by side and parallel; she
+  shifts her weight and lifts one heel a little. The first ~0.6 s is the same clip darkened in the edit (flash off), then a cut to
+  full brightness: the flash turning on (free, no extra generation).
+- S2 HAND-FREE 4 s: side view at ankle height, she walks left to right along the sidewalk past the camera, flash on.
+- S3 HAND 4 s: close-up, she has crouched down; her hand comes in from the top edge and pulls the black laces of the shoe she is
+  wearing into a snug bow (grip on the laces), flash on.
+- S4 HAND-FREE 3 s: front three-quarter close-up of one shoe on her foot, standing still; the camera pushes in slowly on the
+  sequin squares, flash on.
+- Optional voice (H052, only if Ralph says yes): "I save these specifically for nights out. Turn the flash on and watch the black squares. It's in the orange cart."
+- Alt hooks: H105 "I have seen this everywhere, but nobody showed me this part" / H026 "I kept looking for a video that showed these with the flash on"
+
+V11 caption: Took these out at night with the flash on 🖤 #ad #vans #sequinvans #nightout

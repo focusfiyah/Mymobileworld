@@ -49,7 +49,8 @@
    "proof/readability_v7.txt",
    "proof/readability_v8.txt",
    "proof/readability_v9.txt",
-   "proof/readability_v10.txt"
+   "proof/readability_v10.txt",
+   "proof/readability_v11.txt"
   ]
  },
  "audience": {
@@ -66,7 +67,8 @@
   "proof": [
    "proof/compare.md",
    "proof/compare/V5/compare/compare.md",
-   "proof/compare/V1/compare/compare.md"
+   "proof/compare/V1/compare/compare.md",
+   "proof/compare_v11/compare/compare.md"
   ]
  }
 }
