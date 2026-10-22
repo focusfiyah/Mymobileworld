@@ -1,5 +1,5 @@
-"""Youtheory Collagen cut (2026-10-22): clean clip windows on Grace's voiceover, no text, AI finish last.
-  python3 cut.py            -> out/youtheory_collagen_review.mp4 (veryfast) + out/youtheory_collagen_v1.mp4 (AI finish)
+"""Youtheory Collagen cut v2 (2026-10-22; S3 = real box print, tracked): clean clip windows on Grace's voiceover, no text, AI finish last.
+  python3 cut.py            -> out/youtheory_collagen_review.mp4 (veryfast) + out/youtheory_collagen_v2.mp4 (AI finish)
 Each shot's window = its line's time in vo/words_trimmed.json (vo.py writes shots.json "t"); SRC = where in the clip it starts
 (clean footage only, QC 2026-10-22). Every clip plays at 1.0x."""
 import json, subprocess
@@ -35,5 +35,5 @@ subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-i", VO, "-filte
 # AI finish = ai_finish.sh's filter (grain 6, sharpen 0.6, saturation 0.92) with the PLAYBOOK §6 bitrate cap
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "out/youtheory_collagen_review.mp4", "-vf", "eq=saturation=0.92,unsharp=5:5:0.6:5:5:0,noise=alls=6:allf=t",
                 "-c:v", "libx264", "-crf", "18", "-maxrate", "20M", "-bufsize", "40M", "-preset", "medium", "-threads", "4", "-pix_fmt", "yuv420p",
-                "-c:a", "copy", "-movflags", "+faststart", "out/youtheory_collagen_v1.mp4"], check=True)
-print("out/youtheory_collagen_v1.mp4", round(END, 2), "s")
+                "-c:a", "copy", "-movflags", "+faststart", "out/youtheory_collagen_v2.mp4"], check=True)
+print("out/youtheory_collagen_v2.mp4", round(END, 2), "s")

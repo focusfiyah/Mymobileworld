@@ -22,3 +22,29 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=6b974d714093ba6e6d8297d58e802e5b4f27e4e2a9973a522bcb2f2d872d6c1b; exit=0; EXPECT=matched; output-sha256=fdd0ffce6701454c76a66b240abb2c3bf4ad8cf481d672c18ea787906a38db7a; output-bytes=11; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
 - [x] G6: review page published with script, reference sheet, shot list and one total; push + email sent (manual)
   EVIDENCE: plan on artifact https://claude.ai/artifact/VD9ib3CWos6aH4hbrafzjX v1 with one total ($3.38, up to $3.79); push sent; email Gmail id 1a16193e390e46f8 (2026-10-22)
+
+# Phase 2: production (Ralph 2026-10-22: "Go, French tips with rings and bracelets, size ok, paid stills")
+
+- [x] G7: cut-stage gate passes (coach compare, no text overlay)
+  CHECK: cd ../.. && python3 grace/gate.py ugc/youtheory-collagen --stage cut
+  EXPECT: GATE OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=5aa074f9c3ced0babc1f063403b38af26ce75ef5f5f18263fba5cf8bc459c6e8; exit=0; EXPECT=matched; output-sha256=1c97b16c8da6889040a1ae659812e2a6a89e307e25edb10d90fdefa97fe17478; output-bytes=91; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
+- [x] G8: final is 1080x1920, 25-35 s, audio at -16 +/- 1 LUFS
+  CHECK: python3 -c "import subprocess,re;f='out/youtheory_collagen_v2.mp4';p=subprocess.run(['ffprobe','-v','error','-show_entries','stream=width,height,codec_type:format=duration','-of','compact',f],capture_output=True,text=True).stdout;d=float(re.search(r'duration=([0-9.]+)',p).group(1));e=subprocess.run(['ffmpeg','-nostats','-i',f,'-af','ebur128','-f','null','-'],capture_output=True,text=True).stderr;i=float(re.findall(r'I:\s+(-?[0-9.]+) LUFS',e)[-1]);ok='width=1080|height=1920' in p and 'audio' in p and 25<=d<=35 and abs(i+16)<=1;print('FINAL_OK' if ok else 'BAD',d,i)"
+  EXPECT: FINAL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=04f9b615792a8edcef829b6347fda26e81d767c6b1b33a5af646799a2cec62c6; exit=0; EXPECT=matched; output-sha256=78bd1847e36834e9b33bef7a113bbe5a5f3a837df60ce3b36df70b79e50a5108; output-bytes=25; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
+- [x] G9: no freeze longer than 0.6 s and no black frames
+  CHECK: python3 -c "import subprocess;e=subprocess.run(['ffmpeg','-nostats','-i','out/youtheory_collagen_v2.mp4','-vf','freezedetect=n=0.002:d=0.6,blackdetect=d=0.1','-f','null','-'],capture_output=True,text=True).stderr;print('MOTION_OK' if 'freeze_start' not in e and 'black_start' not in e else 'BAD')"
+  EXPECT: MOTION_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=7caaab3768ed4fd76b573ba12889965ddafdc95ba0323c0a5eaac588e254de10; exit=0; EXPECT=matched; output-sha256=ad059e15b7d9efc8db91020748da25e4bd250aeedaca7e644e16bc7ac157fdef; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
+- [x] G10: voiceover echo gate <= 150 ms
+  CHECK: cd ../.. && python3 grace/voice/echo.py ugc/youtheory-collagen/vo/voiceover_paced.mp3 | python3 -c "import sys,re;v=int(re.search(r'rt60_est_ms=(\d+)',sys.stdin.read()).group(1));print('ECHO_OK' if v<=150 else 'BAD',v)"
+  EXPECT: ECHO_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=131f452af7d0e461abea1d34487060366117fa6d3110761d0133bcbe9f642238; exit=0; EXPECT=matched; output-sha256=17ac3e11ae85c2e84c56957e9352a9fecd9bd43909637e02422de4d2547a697b; output-bytes=12; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
+- [x] G11: AI finish in the final render (grain + sharpen + saturation 0.92)
+  CHECK: python3 -c "t=open('cut.py').read();print('FINISH_OK' if 'noise=alls=6' in t and 'saturation=0.92' in t and 'youtheory_collagen_v2.mp4' in t else 'BAD')"
+  EXPECT: FINISH_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=c623bd51170323547e693d8212262cbfbb3d50ae169b021628f07648c30539f8; exit=0; EXPECT=matched; output-sha256=df6d03e30a61feecfc415434513e258ad057ca50f7d81ca774ffa2b4dcd6898d; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-collagen; path=7f4fb4b02918/15 entries
+- [ ] G12: every element checked against REMOVED.md + 2x label/hand QC (manual; qc/cut_sheet.jpg)
+- [ ] G13: Ralph approves cut v2 incl. the tracked S3 (manual)
+- [ ] G14: final + script doc in Drive "Grace Tiktok assets/Youtheory Collagen Liquid (Grace)" as CURRENT, link in README + reply; push + email (manual)

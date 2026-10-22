@@ -1,6 +1,6 @@
 # Youtheory Collagen Liquid (Grace), 2026-10-22
 
-Status: PLAN r1b SENT 2026-10-22 (Ralph: "Match visuals with script": S4 = pouch replaces blender/scoop/shaker, line 5 split into label close-up + tab tear beside an untouched water glass), waiting on Ralph's OK + 4 confirms. $0 spent. Quote $3.68 (up to $4.09 with one redo), $2.87 with free stills. Review page https://claude.ai/artifact/VD9ib3CWos6aH4hbrafzjX.
+Status: CUT v2 SENT 2026-10-22 (26.0 s, out/youtheory_collagen_v2.mp4; S3 = Ralph's box, Seedance first frame + own frame-0 print tracked on, needs his OK), waiting on Ralph's approval, then Drive. Kie $4.74 (quote $3.68 + approved redos). Review page https://claude.ai/artifact/VD9ib3CWos6aH4hbrafzjX.
 
 Brief (Ralph 2026-10-22): AI video for Grace, 25-35 s, aesthetic backgrounds, his script WORD FOR WORD (Ralph: "Word for word"), hands-only, vitamin C line replaced by "and you don't even need water" (vitamin C is not in the product; facts panel). Product = Ralph's photos of the current white pouch with orange tear tab (refs/real/ralph_*.jpg); the old red-band Kroger box photos are only for facts (refs/old_design/).
 

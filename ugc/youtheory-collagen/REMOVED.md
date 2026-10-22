@@ -4,4 +4,4 @@ no hand sweeping across the product, no pictures of boxes, no dark/moody/yellow 
 This job:
 - Vitamin C: not in the product; never said or shown (Ralph 2026-10-22).
 - Old red-band box design (Kroger photos): never shown; the pouch is the current white one with the orange tab.
-- Box front panel: never shown (no photo of the current design's front).
+- Box front: only as in Ralph's box photo (refs/real/ralph_box_front.jpg, torn display carton, 2026-10-22); never the old red-band design.
