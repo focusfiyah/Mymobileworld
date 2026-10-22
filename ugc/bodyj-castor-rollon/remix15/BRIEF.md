@@ -8,8 +8,8 @@ the current video. Let's do 4 videos. 15s timeframe and she will send 4 scripts.
 make the videos."
 
 ## The winner (why we are building on it)
-- https://www.tiktok.com/@shewiththeglow/video/7697844264050511135 (posted 2026-10-18, 31 s): 3 sales, 1,578 views
-  = 526 views per sale on 2026-10-20, best of Grace's tracker (`grace/winners/winners.json`, `PATTERNS.md`).
+- https://www.tiktok.com/@shewiththeglow/video/7697844264050511135 (posted 2026-10-18, 31 s): 5 sales, 2,126 views
+  = 425 views per sale on 2026-10-22, best of Grace's tracker (`grace/winners/winners.json`, `PATTERNS.md`).
 - Reply to the comment "I think we all need castor oil" (@umi3728) on Grace's viral cradle-cap video; comment sticker on frame 1.
 - **Voice: Grace's OWN voice, not ElevenLabs** (Ralph 2026-10-20). The new 4 are voiced by Grace too, unless Ralph says otherwise.
 - Promoted by the brand (TikTok ad label).
