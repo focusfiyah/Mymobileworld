@@ -11,14 +11,14 @@ D = Path(__file__).resolve().parent
 REF = {
     "sheet": ("ref1_product_sheet.png", "real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port"),
     "shape": ("ref2_true_shape.png", "a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts"),
-    "lens": ("ref3_lens_closeup.png", "a product render showing the SHAPE of the torch lens only (a round silver reflector in a rounded-square bezel); ignore its colours and button"),
+    "lens": ("ref3_lens_closeup.png", "two real close-ups of the lens end: a rounded-square dark grey metal bezel around a clear domed zoom lens with a small square LED chip in the centre"),
     "hand": ("ref4_grace_hand.jpg", "her real hand: skin tone, nails, rings and bracelets"),
     "port": ("ref5_port_closeup.png", "a real close-up of the USB-A port, revealed when the dark end cap is pulled a little away from the body"),
     "logo": ("ref6_logo_closeup.png", "a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK"),
 }
 
 PARTS = {
-    "B": "from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) with the torch lens at its tip",
+    "B": "from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector)",
 }[ORDER]
 
 SIZE = ("SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, "
