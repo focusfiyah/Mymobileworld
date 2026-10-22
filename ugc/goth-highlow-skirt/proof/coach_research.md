@@ -1,0 +1,12 @@
+# Coach research, 2026-10-22 (tiktok-shop-coach)
+- `tag gothskirt / highlowskirt / adjustableskirt --days 60` (research/coach/tag_*.txt): 106 recent videos; shop videos filtered.
+- `shop "goth high low skirt"`: no products returned (captcha or none), so the listing was read directly (research/pdp.html).
+- `video` on the top shop videos (research/coach/top/):
+  - @local.shopus 65,400 views, 9 s, music-only ("on may way"), AI mirror-selfie full outfit, steampunk high-low skirt + corset. Comments call out "It's not the same dress" and "Ai" -> keep our skirt exact.
+  - @bubba.finds 60,500 views, 12 s, trend audio, waist-down standing poses in knee boots + leg warmers, one text line.
+  - @princessjessicayoder 2,264 views, 36 s, same skirt, talking: Halloween + "worn year round".
+  - @maincharactergirlfinds 2,855 views, 65 s, twin listing, talking: "the more you pull the higher it goes", 5'2 size small.
+  - @valunattshop 1,606 views, 53 s, same skirt, talking: Halloween, pirate, "long, flowy skirt as well".
+  - Inspo @jaquelineee809 3,116 views, 17.8 s, same skirt, mirror waist-down, music "Vogue (I Want Your Love)", text "The adjustable length sold me", heels.
+- Takeaway: in this niche the short music-only outfit videos get 20-30x the views of the talking reviews of the same skirt. Recreate the inspo short, music-only, length change as the action, boots instead of heels.
+- Viral board (research/coach/viral-2026-10-22.json, fashion + goth/high-low tags, 30 days): fashion winners are outfit-on-from-frame-0, 7-15 s, fall/Halloween timing in captions.
