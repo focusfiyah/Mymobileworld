@@ -1,5 +1,6 @@
 # Changelog
 
+- 2026-10-22 (Ralph, ideas from Video Factory): plan template is now the Production Book (BOOK.md, TOTAL line, prompts section) that grace/gate.py requires Ralph's recorded OK on; budget lock; omni_clip.py saves each paid task before createTask (paid-task ledger); scripts/gate.py is now a pointer to grace/gate.py (the drifted copy let older runners skip the monthly cap).
 - 2026-10-21 (Ralph): no Kling on any job unless he says so; every clip Seedance 2.0 Mini on Kie, hand-free prompts say no hand appears.
 - 2026-10-13 (skill-smith audit): script-gate paragraph and unlazy paragraph shortened to one-line summaries tagged with their homes (PLAYBOOK §4, CLAUDE.md).
 - 2026-10-19 (Ralph): product reference sheet first; no pasted labels, product clips from reference images (Seedance reference mode, Kling hand-free) after LGXNDS v5. Ported from the Mymobileworld deployment copy.

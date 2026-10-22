@@ -48,7 +48,7 @@ def still_prompt(s):
 def still(sid):
     refs, prompt = still_prompt(S[sid])
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(p) for p in refs],
-                        "aspect_ratio": "9:16", "resolution": "1K"}})
+                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"still {sid}")
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
 
@@ -86,7 +86,7 @@ def seedance(sid):
               + " The hand keeps Grace's French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm exactly as in reference image 2. Only this one hand appears. "
               + B["seedance_tail"])
     url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": refs, "generate_audio": False,
-                        "resolution": "720p", "aspect_ratio": "9:16", "duration": s["seconds"]}})
+                        "resolution": "720p", "aspect_ratio": "9:16", "duration": s["seconds"]}}, label=sid)
     if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
@@ -97,7 +97,7 @@ def seedance_first(sid):
               "Only the camera moves: a very slow smooth push-in toward the carton. Nothing in the scene moves, nothing is added, no hand, no fingers, no people at any time. "
               + B["seedance_tail"])
     url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "first_frame_url": kie.upload(f"stills/{sid}.png"), "generate_audio": False,
-                        "resolution": "720p", "aspect_ratio": "9:16", "duration": s["seconds"]}})
+                        "resolution": "720p", "aspect_ratio": "9:16", "duration": s["seconds"]}}, label=sid)
     if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 

@@ -1,6 +1,9 @@
-# Plan message template (Rule 0 + hard rule 1: ONE message, ONE approval)
+# Production Book / plan message (Rule 0 + hard rule 1: ONE message, ONE approval)
 
-Fill every field. Delete none. "n/a" needs a reason. Send before any paid call.
+Saved as the job's `BOOK.md` (`python3 grace/gate.py <job> --book-init`) and sent to Ralph as the plan. Fill every
+field. Delete none. "n/a" needs a reason. His OK is recorded with `--approve-book "<his words>"`; no paid call runs
+before it, editing this file afterwards needs a new OK, and spend can never pass the TOTAL below plus extras he OKs
+later (`--approve-extra`). Show `python3 grace/spend.py` (month so far) beside the total.
 
 ## 1. Job
 - Client / own content: ____  Product: ____  Route: ____ (reference file)
@@ -35,7 +38,16 @@ Free fixes planned: ____
 | Item | Qty x unit | $ |
 |---|---|---|
 Total Kie: $__  ElevenLabs: ~__ chars  Contingency redos (each asked separately): $__
-**Total: $__ . Approve?**
+Month so far (`python3 grace/spend.py`): $__
+
+TOTAL: $__
+
+**Approve?**
 
 ## 7. Questions (all of them, now)
 1. ____
+
+## 8. Prompts (final, written with prompt-master; every reference named)
+| Item | Model | Prompt file / text |
+|---|---|---|
+| ____ | | |

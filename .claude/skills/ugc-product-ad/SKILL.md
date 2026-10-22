@@ -38,7 +38,10 @@ worse output, which is why this file exists.
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
 Before any plan goes to Ralph or any paid call, run the whole `grace/PLAYBOOK.md` §4 checklist (audience research
 first) and save its proof files with `python3 grace/gate.py <job> --init`; every paid runner refuses until the gate
-passes, and it is never bypassed or weakened. Show the gate result in the plan message. Close with "It's in the
+passes, and it is never bypassed or weakened. Show the gate result in the plan message.
+No paid call before Ralph's OK on the job's Production Book (`BOOK.md`, `templates/plan-message.md`), and spend never
+passes its total plus the extras he OKs; runners save each paid task before submitting it, so no session pays twice
+(`grace/gate.py` docstring, Ralph 2026-10-22). Close with "It's in the
 orange cart."; never "order it now", "heads up" or dashes. (source: grace/PLAYBOOK.md §4, the one home for the list)
 
 
