@@ -2,3 +2,4 @@
 - McDonald's / Happy Meal box on screen (Ralph 2026-10-22: "Do not show"); spoken only.
 - Side panel lit in the flicker shot (Ralph 2026-10-22): the flicker comes from the front lens.
 - On-screen text (Ralph 2026-10-22: "No text").
+- Listing 3/9 front view (power-symbol button, squarer top): not Grace's product (Ralph 2026-10-22: "This one is not correct"). Out of the sheet (refs/product_sheet_v2.png).
