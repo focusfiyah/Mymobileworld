@@ -375,5 +375,188 @@
   "t": "2026-10-22 03:33:54",
   "submitted": "fb8c2fbf1923230c6af18ebfd302908f",
   "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is a real photo of the pouch"
+ },
+ {
+  "t": "2026-10-22 03:35:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same kitchen, framing, light, hand, rings and bracelets) as the first frame, then: The hand stirs the spoon in slow circles; the powder clumps swirl and stay lumpy on the surface; camera locked off with a tiny handheld drift. The hand keeps Grace's French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm exactly as in reference image 2. Only this one hand appears. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019194-lxo0bzavntg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792638865020-axk7qsb761e.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "d5d6e8b9ab20a530810beda0b7c33d62",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792640143054-8ipnsohrylj.mp4"
+   ]
+  },
+  "costTime": 122
+ },
+ {
+  "t": "2026-10-22 03:35:55",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. Image 5 is Grace's hand sheet: the French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm stay exactly as in images 1 and 5; no other jewellery appears. Motion: The hand lets go of the orange tab, moves left and slides the full glass of water sideways out of the left edge of the frame in one smooth move; the pouch stays standing exactly where it is, upright, facing the lens, and never moves or flips. Only this one hand appears; no second hand at any time. Camera locked off, no zoom. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019629-8dr1jbsnhn5.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021769-65sz4cef0nr.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640023999-uqu86fss97.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640026368-uf3zmikkvi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640028875-ainjwebm0fc.jpg"
+    ]
+   }
+  },
+  "taskId": "a09e25e396cfd5edf4f58cac6329bb80",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/a09e25e396cfd5edf4f58cac6329bb80_0_1792640149.mp4"
+   ]
+  },
+  "costTime": 119,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 03:35:58",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. No hand, no fingers and no people appear at any time, at any edge of the frame. Motion: Only the camera moves: a slow push-in down toward the three pouches. Nothing moves in the scene. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019588-aoilxo4g6zi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640028178-l99x10y9tk.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640030129-1971ttbwz4k.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640032263-xic9uh8n1n.png"
+    ]
+   }
+  },
+  "taskId": "fb8c2fbf1923230c6af18ebfd302908f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/fb8c2fbf1923230c6af18ebfd302908f_0_1792640151.mp4"
+   ]
+  },
+  "costTime": 118,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 03:36:04",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. Image 5 is Grace's hand sheet: the French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm stay exactly as in images 1 and 5; no other jewellery appears. Motion: The hand keeps one grip and gives the pouch a gentle little shake; the pouch never turns or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019508-dzk5cam76gw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021676-dqmtwzva36f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640024327-88u944f2e3s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640026573-8g1e4mcd5zp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640029264-rl00y60j6jq.jpg"
+    ]
+   }
+  },
+  "taskId": "2568fc1ac45a9187b5cdbafa293dd7e6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/2568fc1ac45a9187b5cdbafa293dd7e6_0_1792640157.mp4"
+   ]
+  },
+  "costTime": 127,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 03:36:10",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. No hand, no fingers and no people appear at any time, at any edge of the frame. Motion: Only the camera moves: a slow smooth dolly-in toward the pouches. Nothing in the scene moves. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019806-hu99rxc75gi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021954-ttzytn9shy.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640024310-yjcrjtce9b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640026813-1i0grsu11po.png"
+    ]
+   }
+  },
+  "taskId": "724c00368aea9d85ba536417383cc98f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/724c00368aea9d85ba536417383cc98f_0_1792640165.mp4"
+   ]
+  },
+  "costTime": 137,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-22 03:36:28",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. Image 5 is Grace's hand sheet: the French-tip nails, crown ring, gold solitaire ring, blue silicone band, flat gold link bracelet and pearl chain with the leaf charm stay exactly as in images 1 and 5; no other jewellery appears. Motion: The hand slips the pouch down into the bag beside the keys in one smooth move and lets go; the pouch keeps facing the lens and never flips. Camera locked off with a tiny handheld drift. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "6",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019660-urdihrfw2fr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021752-b39okmyq9gj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640024179-hhtg1kglk14.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640026639-gvakbf5izdq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640029047-8395l5rfxy.jpg"
+    ]
+   }
+  },
+  "taskId": "014c77bc73d0987abbf8d87498079d7b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/014c77bc73d0987abbf8d87498079d7b_0_1792640186.mp4"
+   ]
+  },
+  "costTime": 156,
+  "usd": 0.42
+ },
+ {
+  "t": "2026-10-22 03:37:35",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is a real photo of the pouch front (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. No hand, no fingers and no people appear at any time, at any edge of the frame. Motion: Only the camera moves: a slow sideways dolly across the tray, ending on the pouch. Nothing moves in the scene. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640019599-54ohur6aqrl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640021641-oi3bln5tsm.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640025122-nzdz70v5epk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792640027586-bb9sii8gxzl.png"
+    ]
+   }
+  },
+  "taskId": "80fba19e0241cddefcaf11fd41775c9a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/80fba19e0241cddefcaf11fd41775c9a_0_1792640249.mp4"
+   ]
+  },
+  "costTime": 218,
+  "usd": 0.315
  }
 ]
