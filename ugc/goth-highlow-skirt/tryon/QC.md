@@ -13,3 +13,16 @@ Inputs: person = stills/FULL2.png (already wears the earlier AI skirt: fitted mi
 
 FASHN verdict: FAIL for this test. It returned the input almost untouched, so we learned nothing about the real skirt. Most likely cause: FULL2 already wears a similar brown skirt. A fair re-test needs a person photo wearing a different bottom (plain leggings or jeans) ($0.075, asked first).
 Kolors verdict: PARTIAL PASS. First model to put the real skirt's structure on Grace without inventing a new design. Needs: a colour match (free), a cleaner hem by the boots, and the front waist strings are not readable. Worth using as the look-lock stills route, with a re-test on a neutral-bottom person photo.
+
+## Re-test: FASHN v1.6 on Grace's real photo in plain brown wide-leg pants (Ralph's photo 3, $0.075)
+
+| Product truth | FASHN on the real photo |
+|---|---|
+| Real skirt design | YES at the waist: the real bunched front and both drawstring channels, matching the listing photo at 2x |
+| Two front waist strings | YES: both cords run down from the waistband (the first result that shows them) |
+| Solid fabric, legs never visible | YES: dark centre panel, no legs show through |
+| Colour (real 70,51,46) | 59,43,41, warmer and closer than Kolors (51,43,37) |
+| Hem / silhouette | NO: the skirt kept the pants' shape. It's a narrow column pulled in at the ankles like a cuff, with no flared ruffle hem |
+| Face, arms, shoes unchanged | yes (mean diff 2.0 / 6.6 / 3.5) |
+
+FASHN re-test verdict: the best waist and front of any model so far; the hem fails because it copied the shape of the pants. A photo of Grace in shorts, bare legs or a short fitted dress should fix the shape (FASHN fills the area of the old garment). Usable now for waist-up and waist-to-knee framing.
