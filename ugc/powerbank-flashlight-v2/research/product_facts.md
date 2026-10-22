@@ -27,4 +27,4 @@ a silver carabiner hook with a thin wire gate on top; a long white COB light win
 button under it; a darker gunmetal-grey section at the bottom end (the torch head, round lens in a square bezel at the very
 end). The charging-image render shows a darker gunmetal colour and a USB port beside the hook: listing renders disagree on
 colour and button icon (square diamond icon on 1/9, power-symbol round on 3/9) -> ask for a photo of Grace's sample.
-- Size: see research/size.md (estimate ~8 x 2.3 x 2.3 cm, ~10 cm with clip; maker size not published; Grace to measure).
+- Size + modes: Grace's box (refs/box_specs_grace.jpg): 29.5 x 29.5 x 157 mm, 90 g, light gray ABS, 18650, Type-C, modes flashlight / flashlight flashing ("explodes") / side lights. research/size.md.

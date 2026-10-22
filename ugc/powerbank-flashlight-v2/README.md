@@ -6,4 +6,4 @@ no McDonald's on screen; "flickering mode" from the FRONT lens, side panel off).
 
 Status: storyboard (free, text + guide panels + real product views) sent for Ralph's OK:
 https://claude.ai/artifact/JxLUGnQXuDX8uwAivktZSf . Open: does Grace's unit have a flicker mode (not in the listing)?
-Size researched (research/size.md: maker size not published; measured ~8 x 2.3 cm, ~10 cm with clip; size block goes first in every prompt; Grace ruler check asked). Stills route ($0 Gemini app vs $0.81 Kie) waiting on Ralph. Spent $0.
+Size from Grace's box (research/size.md: 29.5 x 29.5 x 157 mm with clip, 90 g, light gray ABS; flashing mode confirmed); size block first in every prompt; S1/S8 refs = view_hook_upright.png (clip shows). Storyboard v3. Stills route ($0 Gemini app vs $0.81 Kie) waiting on Ralph. Spent $0.
