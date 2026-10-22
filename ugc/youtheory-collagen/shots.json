@@ -1,0 +1,110 @@
+{
+ "blocks": {
+  "size_first": "SIZE FIRST: the pouch is a small single-serve 1 fl oz (30 mL) pouch, about 6.5 cm wide and 15 cm tall including its tab: a little shorter than an adult hand from wrist crease to fingertip, as tall as a coffee mug is tall plus half, never bigger than the hand holding it. It is flat and thin like a juice pouch, never a bottle, never a box.",
+  "pouch_block": "The product is the REAL Youtheory Collagen Liquid pouch shown in reference images: a soft glossy WHITE foil pouch shaped like a flat bottle (wide flat body with slightly crinkled edges, rounded shoulders narrowing to a short neck), topped by a flat matte burnt-orange tear-off tab with a small notch on each side. Front print, top to bottom, exactly as the close-ups: a small dark grey round 'youtheory' leaf mark with the word 'youtheory' in thin dark grey lowercase; a large circle made of round dots in orange, sky blue, leaf green and coral pink; 'collagen' in large coral-orange serif lowercase; 'liquid' in dark grey serif lowercase; two thin grey lines around 'helps reduce fine lines & wrinkles*' in grey italic; 'with clinically studied' in orange italic; 'VERISOL\u00ae collagen peptides' in bold coral-orange; a coral-orange rounded bar with white text 'berry flavor | ZERO SUGAR'; '1 fl oz (30 mL) dietary supplement' in dark grey; a small boxed disclaimer at the bottom. The print matches the references letter for letter and colour for colour, stays flat on the pouch and inside its edges; no other marks, no added \u00ae or \u2122 beyond the two in the reference, no extra text.",
+  "box_block": "The box is the real opened Youtheory carton as in reference B of the sheet: a plain white cardboard carton with its top torn open, seen from above so only its white inside walls show; the pouches stand upright inside it in a row, orange tabs up, front labels facing the camera. The outside front panel of the box is never visible.",
+  "hand_block": "ONLY one hand and wrist are in frame, entering from the frame edge: the edge cuts across the wrist, so no forearm or arm; warm light-brown skin, SHORT natural-length nails (barely past the fingertip) with a thin white French tip and pale pink base, NO rings, NO bracelet, NO jewellery. Whole wrist visible; fingers curled around what they hold (thumb on the front edge, fingers behind), nothing resting loose on the palm.",
+  "no_hand": "No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge.",
+  "scene_suffix": "Vertical 9:16 phone photo, soft bright natural daylight from a window, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures, an airy aesthetic home styled in white, cream and light oak. Every other item is plain and unbranded: no brand names or logos on anything except the real Youtheory pouch print. No text, no captions, no watermark, no phone UI.",
+  "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{hand} exactly. Image 2 is the real front print of the pouch (logo, dot circle, 'collagen liquid' wordmark and claim lines): it stays on the pouch the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the real orange tear tab. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text.",
+  "omni_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+  "seedance_tail": "Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions."
+ },
+ "videos": [
+  {
+   "id": "V1",
+   "setting": "bright airy aesthetic home: marble kitchen, travertine vanity, oak entryway, linen flat lay",
+   "shots": [
+    {
+     "id": "S1",
+     "line": 1,
+     "words": "You want to add collagen to your wellness routine but don't want another powder to mix every morning",
+     "hand": true,
+     "product": false,
+     "model": "seedance",
+     "seconds": 6,
+     "still": "Close-up at counter height on a white marble kitchen counter in a bright airy kitchen: a clear glass of water with chalky white powder clumps floating on top, a metal spoon in the glass, a plain white unlabeled powder tub with its lid off and a white plastic scoop resting on its rim; a small vase of white tulips softly out of focus behind. One hand holds the spoon handle and stirs.",
+     "motion": "The hand stirs the spoon in slow circles; the powder clumps swirl and stay lumpy on the surface; camera locked off with a tiny handheld drift."
+    },
+    {
+     "id": "S2",
+     "line": 2,
+     "words": "That's what makes this Youtheory liquid collagen interesting",
+     "hand": true,
+     "product": true,
+     "model": "omni",
+     "seconds": 4,
+     "still": "Same white marble kitchen counter, the glass and tub pushed to the back and out of focus: one hand holds a single pouch upright at chest height in the centre of the frame, front label facing the lens, tab at the top.",
+     "motion": "The hand keeps one grip and gives the pouch a gentle little shake; the pouch never turns or flips. Camera: slow push-in."
+    },
+    {
+     "id": "S3",
+     "line": 3,
+     "words": "It comes in these little ready to drink packets",
+     "hand": false,
+     "product": true,
+     "model": "omni",
+     "seconds": 4,
+     "still": "Three-quarter view from above on the white marble counter by the window: the opened white carton with pouches standing in a row inside, orange tabs up, and two more pouches lying flat in front of it, labels up; a linen napkin and a sprig of eucalyptus beside them.",
+     "motion": "Only the camera moves: a slow smooth dolly-in toward the pouches. Nothing in the scene moves."
+    },
+    {
+     "id": "S4",
+     "line": 4,
+     "words": "No blender no scooping and no mixing",
+     "hand": true,
+     "product": true,
+     "model": "omni",
+     "seconds": 4,
+     "risk": "highest: tearing the tab, test clip first",
+     "still": "Close-up on the counter: one hand holds a pouch upright, front label facing the lens; thumb and index finger of the same hand pinch the orange tear tab at its notch.",
+     "motion": "The fingers tear the orange tab off sideways along the notch in one small motion, opening the pouch; the pouch stays upright, keeps facing the lens and never flips. Camera locked off, no zoom."
+    },
+    {
+     "id": "S5",
+     "line": 5,
+     "words": "Each serving contains five thousand milligrams of collagen peptides and you don't even need water",
+     "hand": true,
+     "product": true,
+     "model": "omni",
+     "seconds": 6,
+     "still": "Tight close-up: one hand holds a pouch so the lower half of the label fills most of the frame, the 'with clinically studied VERISOL\u00ae collagen peptides' lines and the orange 'berry flavor | ZERO SUGAR' bar sharp and centred; soft white kitchen behind.",
+     "motion": "Slow push-in toward the 'VERISOL\u00ae collagen peptides' line while the hand stays still; the pouch never turns."
+    },
+    {
+     "id": "S6",
+     "line": 6,
+     "words": "It's designed to support your beauty and wellness routine from within",
+     "hand": false,
+     "product": true,
+     "model": "omni",
+     "seconds": 4,
+     "still": "A cream travertine tray on a white bathroom vanity in soft daylight: one pouch standing propped against plain unlabeled white and glass skincare bottles, a jade roller and a folded white towel; a round mirror edge and greenery softly behind.",
+     "motion": "Only the camera moves: a slow sideways dolly across the tray, ending on the pouch. Nothing moves in the scene."
+    },
+    {
+     "id": "S7",
+     "line": 7,
+     "words": "And the individual packets make it easy to take with you when you're on the go",
+     "hand": true,
+     "product": true,
+     "model": "omni",
+     "seconds": 6,
+     "still": "An open beige leather tote bag on a light oak bench by a bright entryway, a set of keys on a plain ring and plain sunglasses beside it: one hand holds an unopened pouch just above the open bag, label facing the lens.",
+     "motion": "The hand slips the pouch down into the bag beside the keys in one smooth move and lets go; the pouch keeps facing the lens and never flips. Camera locked off with a tiny handheld drift."
+    },
+    {
+     "id": "S8",
+     "line": 8,
+     "words": "Check it out for your daily routine",
+     "hand": false,
+     "product": true,
+     "model": "omni",
+     "seconds": 4,
+     "still": "Morning flat lay from above on white linen in bright window light: three pouches fanned out side by side, labels up, next to a clear glass mug of coffee, plain sunglasses, a plain cream planner and a small vase of white tulips.",
+     "motion": "Only the camera moves: a slow push-in down toward the three pouches. Nothing moves in the scene."
+    }
+   ]
+  }
+ ]
+}
