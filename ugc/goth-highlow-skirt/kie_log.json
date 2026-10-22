@@ -291,5 +291,118 @@
    ]
   },
   "costTime": 67
+ },
+ {
+  "t": "2026-10-22 06:57:40",
+  "submitted": "6cb78fd72c68601fc613b6c74f628aa7",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top pho"
+ },
+ {
+  "t": "2026-10-22 06:57:40",
+  "submitted": "67380b19484ca60b535b3473773af830",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top pho"
+ },
+ {
+  "t": "2026-10-22 06:57:41",
+  "submitted": "bc74051e5a778e95deb0954863867c4e",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top pho"
+ },
+ {
+  "t": "2026-10-22 06:59:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top photo = the real front), image 2 a real close-up of the flat fabric tie: the skirt MUST match them exactly in shape, ruching, ties and dark chocolate brown colour. Image 3 is an approved frame from this same video: her black top, legs, skin, black knee-high boots, rings, bracelets, the bedroom, the gold mirror edges, the light and the framing MUST match image 3 exactly. Image 4 is ONLY a guide for HOW LONG the front of the skirt is and how it drapes over her legs: copy that length and drape exactly, and ignore everything else in image 4 (its black colour, its carpet and bed, its shoes, its person).\nSKIRT (MUST match the real product photos, colour for colour): the real DARK CHOCOLATE BROWN skirt (deep brown like dark chocolate, about RGB 66,49,44), lightweight polyester with a soft low sheen, NOT black, NOT satin-shiny, NOT leather. Four vertical drawstring channels (two on the front, one on each side) gather the fabric into soft horizontal ruching; each channel ends at the waistband in a FLAT brown fabric tie (thin flat strap, same brown, not a round cord) with two hanging ends. Ruffle-trimmed hems. The back is longer, with four horizontal ruffle tiers. A semi-sheer brown inner layer shows under the front hem. Plain solid brown: no print, no lace, no buckles, no logo, no text.\nPERSON: Grace, a slim woman with medium-dark brown skin, smooth bare legs. Plain black fitted long-sleeve top tucked into the skirt.\nBOOTS: black matte leather KNEE-HIGH boots, the boot top ends just below the knee, flat chunky black lug sole, NO high heel, no buckles, no laces, no logo.\nROOM (MUST match the room reference image): Ralph's bedroom: cream panelled walls, warm honey wood floor, a round shaggy cream rug, a tall arched full-length floor mirror with a thin gold frame, a big green bird-of-paradise plant in a black pot, sheer white curtains at a tall window, a bed with white bedding and a knitted beige throw. This frame IS her reflection in the arched gold mirror: she stands on the cream rug, the thin gold mirror frame edge shows down one side of the frame, the room behind her is this bedroom. Her phone is above the frame, never visible.\nLOOK: vertical 9:16 iPhone mirror photo, waist down only: the top edge of the frame cuts at her waist, the bottom edge shows the floor under her boots. Bright natural daylight from the window, true neutral colours (white stays white, the skirt stays dark chocolate brown), no orange or golden tint, no dark or moody grade, no lamp glow, no candles lit. No face, no text, no captions, no watermark.\nSHOT: shortest look exactly like image 4: BOTH front sides are pulled up high, so the whole front hem sits at her UPPER THIGHS like a mini skirt and both legs show from the upper thigh down to the boot tops; the back stays long and ruffled to her ankles, framing her legs. Both hands hold their tie ends at her hips. She stands straight, feet close together.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792652258556-7wkms9nusj9.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "67380b19484ca60b535b3473773af830",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/67380b19484ca60b535b3473773af830_0_1792652389.jpeg"
+   ]
+  },
+  "costTime": 129
+ },
+ {
+  "t": "2026-10-22 07:01:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top photo = the real front), image 2 a real close-up of the flat fabric tie: the skirt MUST match them exactly in shape, ruching, ties and dark chocolate brown colour. Image 3 is an approved frame from this same video: her black top, legs, skin, black knee-high boots, rings, bracelets, the bedroom, the gold mirror edges, the light and the framing MUST match image 3 exactly. Image 4 is ONLY a guide for HOW LONG the front of the skirt is and how it drapes over her legs: copy that length and drape exactly, and ignore everything else in image 4 (its black colour, its carpet and bed, its shoes, its person).\nSKIRT (MUST match the real product photos, colour for colour): the real DARK CHOCOLATE BROWN skirt (deep brown like dark chocolate, about RGB 66,49,44), lightweight polyester with a soft low sheen, NOT black, NOT satin-shiny, NOT leather. Four vertical drawstring channels (two on the front, one on each side) gather the fabric into soft horizontal ruching; each channel ends at the waistband in a FLAT brown fabric tie (thin flat strap, same brown, not a round cord) with two hanging ends. Ruffle-trimmed hems. The back is longer, with four horizontal ruffle tiers. A semi-sheer brown inner layer shows under the front hem. Plain solid brown: no print, no lace, no buckles, no logo, no text.\nPERSON: Grace, a slim woman with medium-dark brown skin, smooth bare legs. Plain black fitted long-sleeve top tucked into the skirt.\nBOOTS: black matte leather KNEE-HIGH boots, the boot top ends just below the knee, flat chunky black lug sole, NO high heel, no buckles, no laces, no logo.\nROOM (MUST match the room reference image): Ralph's bedroom: cream panelled walls, warm honey wood floor, a round shaggy cream rug, a tall arched full-length floor mirror with a thin gold frame, a big green bird-of-paradise plant in a black pot, sheer white curtains at a tall window, a bed with white bedding and a knitted beige throw. This frame IS her reflection in the arched gold mirror: she stands on the cream rug, the thin gold mirror frame edge shows down one side of the frame, the room behind her is this bedroom. Her phone is above the frame, never visible.\nLOOK: vertical 9:16 iPhone mirror photo, waist down only: the top edge of the frame cuts at her waist, the bottom edge shows the floor under her boots. Bright natural daylight from the window, true neutral colours (white stays white, the skirt stays dark chocolate brown), no orange or golden tint, no dark or moody grade, no lamp glow, no candles lit. No face, no text, no captions, no watermark.\nSHOT: the front hem hangs at the TOP OF HER KNEES, covering the top of the kneecaps, exactly as long as in image 4; the back stays long to her ankles. Both hands hold the two front tie ends at the waistband, pinched between thumb and finger, ready to pull. Feet a little apart.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792652258550-z3j8xgrkdx.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6cb78fd72c68601fc613b6c74f628aa7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6cb78fd72c68601fc613b6c74f628aa7_0_1792652455.jpeg"
+   ]
+  },
+  "costTime": 196
+ },
+ {
+  "t": "2026-10-22 07:03:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top photo = the real front), image 2 a real close-up of the flat fabric tie: the skirt MUST match them exactly in shape, ruching, ties and dark chocolate brown colour. Image 3 is an approved frame from this same video: her black top, legs, skin, black knee-high boots, rings, bracelets, the bedroom, the gold mirror edges, the light and the framing MUST match image 3 exactly. Image 4 is ONLY a guide for HOW LONG the front of the skirt is and how it drapes over her legs: copy that length and drape exactly, and ignore everything else in image 4 (its black colour, its carpet and bed, its shoes, its person).\nSKIRT (MUST match the real product photos, colour for colour): the real DARK CHOCOLATE BROWN skirt (deep brown like dark chocolate, about RGB 66,49,44), lightweight polyester with a soft low sheen, NOT black, NOT satin-shiny, NOT leather. Four vertical drawstring channels (two on the front, one on each side) gather the fabric into soft horizontal ruching; each channel ends at the waistband in a FLAT brown fabric tie (thin flat strap, same brown, not a round cord) with two hanging ends. Ruffle-trimmed hems. The back is longer, with four horizontal ruffle tiers. A semi-sheer brown inner layer shows under the front hem. Plain solid brown: no print, no lace, no buckles, no logo, no text.\nPERSON: Grace, a slim woman with medium-dark brown skin, smooth bare legs. Plain black fitted long-sleeve top tucked into the skirt.\nBOOTS: black matte leather KNEE-HIGH boots, the boot top ends just below the knee, flat chunky black lug sole, NO high heel, no buckles, no laces, no logo.\nROOM (MUST match the room reference image): Ralph's bedroom: cream panelled walls, warm honey wood floor, a round shaggy cream rug, a tall arched full-length floor mirror with a thin gold frame, a big green bird-of-paradise plant in a black pot, sheer white curtains at a tall window, a bed with white bedding and a knitted beige throw. This frame IS her reflection in the arched gold mirror: she stands on the cream rug, the thin gold mirror frame edge shows down one side of the frame, the room behind her is this bedroom. Her phone is above the frame, never visible.\nLOOK: vertical 9:16 iPhone mirror photo, waist down only: the top edge of the frame cuts at her waist, the bottom edge shows the floor under her boots. Bright natural daylight from the window, true neutral colours (white stays white, the skirt stays dark chocolate brown), no orange or golden tint, no dark or moody grade, no lamp glow, no candles lit. No face, no text, no captions, no watermark.\nSHOT: one-leg-out look exactly like image 4: the side of the skirt on the LEFT of the picture is pulled up high by its tie, so that leg shows from the UPPER THIGH down to the boot top like a high slit; the other side stays longer, at mid-thigh; the back stays long to her ankles. Her hand on the left of the picture holds that tie end pulled up at rib height; her other hand rests on her hip. The uncovered leg is bent a little, knee forward.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648180078-d5cmjxpgzfi.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648182515-jlhwdqnxtg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792652258593-gyk81ce9n9a.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bc74051e5a778e95deb0954863867c4e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bc74051e5a778e95deb0954863867c4e_0_1792652579.jpeg"
+   ]
+  },
+  "costTime": 319
+ },
+ {
+  "t": "2026-10-22 07:04:01",
+  "submitted": "72235fac70b35c56853febb951201c60",
+  "prompt": "Image 1 is the first frame and image 2 is the last frame of one continuous 4-second phone clip filmed in a mirror. Anima"
+ },
+ {
+  "t": "2026-10-22 07:05:54",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Image 1 is the first frame and image 2 is the last frame of one continuous 4-second phone clip filmed in a mirror. Animate smoothly from image 1 to image 2.\nMotion: her hands pull the two front ties of the dark chocolate brown skirt slowly up; the front gathers into tighter swags and the front hem rises steadily from just above her knees to MID-THIGH, with the sheer brown under-layer showing below it, while the back stays long and ruffled at her ankles. Near the end one hand lets go and lifts up out of the top of the frame; the other hand keeps hold of its tie at the waist. Her feet stay planted.\nThe skirt is the same real skirt in every frame: same dark brown fabric, soft draped ruching, flat fabric ties, ruffle hems; it never changes colour or texture, it only gets shorter at the front. Her hands never cross in front of the skirt. Rings and bracelets stay exactly as in image 1.\nCamera: phone held still in the mirror, locked off, no zoom. Vertical 9:16, bright natural daylight, true neutral colours, realistic skin and fabric. No face. No music, no voice, no captions, no on-screen text.",
+    "duration": "4",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png",
+    "last_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792652638473-raav1y8f3qh.png"
+   }
+  },
+  "taskId": "72235fac70b35c56853febb951201c60",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/72235fac70b35c56853febb951201c60_0_1792652751.mp4"
+   ]
+  },
+  "costTime": 111
  }
 ]
