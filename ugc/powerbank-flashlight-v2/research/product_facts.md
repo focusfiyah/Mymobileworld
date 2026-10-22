@@ -30,3 +30,4 @@ colour and button icon (square diamond icon on 1/9, power-symbol round on 3/9) -
 - Size + modes: Grace's box (refs/box_specs_grace.jpg): 29.5 x 29.5 x 157 mm, 90 g, light gray ABS, 18650, Type-C, modes flashlight / flashlight flashing ("explodes") / side lights. research/size.md.
 - Light modes (box, Grace 2026-10-22): flashlight on / flashlight flashing ("explodes") / side lights on -> "flickering mode ... for emergencies" is backed.
 - Material: light gray ABS per box (earlier prompts said aluminium: prompts now say matte light-grey).
+- Layout + colour (Ralph 2026-10-22, from Grace's unit): "B and light grey" = from the clip: light panel, then the orange button, then a darker grey torch-head end; body light grey. Ralph's AI sheet (refs/product_sheet.png) front views put the button next to the clip and colour it gunmetal: WRONG on both; use refs/product_sheet_listing.png (real listing pixels) for every still and clip. Last week's approved video used the A layout.
