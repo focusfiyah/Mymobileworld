@@ -56,8 +56,8 @@ lessons below are specific to making ads:
   anchor + a real in-room photo for scale, and every product detail confirmed by Ralph in the plan before spend; a quote
   includes one likely redo (Shnuggle 2026-10-19: AI tub too big, an invented dot pattern). Details: `grace/PLAYBOOK.md` §6.
 - **Product lock on every product (Ralph 2026-10-21):** product stills from Gemini 3 Pro Image + the reference sheet +
-  a close-up of each real logo, used clean; every clip with the product in frame on **Google Gemini Omni**
-  reference-to-video (`scripts/omni_clip.py`, about $0.10/s); Seedance 2.0 Mini only for clips without the product; no
+  a close-up of each real logo, used clean; every clip with the product in frame on **Google Gemini Omni 1.1 Flash on Kie**
+  (`scripts/omni_clip.py`, 4 s $0.315; never through the Gemini API key, Ralph 2026-10-22); Seedance 2.0 Mini only for clips without the product; no
   Kling unless Ralph asks. A drifted take gets one Omni edit turn before any new take. **Pasting a real label is the last
   resort** (it reads as a sticker), only with Ralph's OK for that shot. Route, prompt template, costs:
   `references/product-lock.md`. Why: October's redos (Vans tab and gift-shot shoe, Cleanwaste boxes) cost more than

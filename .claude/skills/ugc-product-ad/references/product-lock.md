@@ -18,11 +18,11 @@ stop spending; 13 of 27 Vans clips came back with a pale side tab; Cleanwaste: 3
    the plan before spend.
 2. **Stills:** Gemini 3 Pro Image (Kie `nano-banana-pro`) with the sheet + close-ups, used clean. QC at 2x against the
    real photo (shape, colours, every letter, size) before any clip is paid for.
-3. **Every clip where the product is in frame: Google Gemini Omni** reference-to-video (`gemini-omni-1.1-flash`,
-   direct Gemini API, key injected in the cloud) through OpenMontage's `gemini_omni_video` tool:
-   `python3 .claude/skills/ugc-product-ad/scripts/omni_clip.py <job> S3 --prompt-file prompts/S3.txt
-   --first stills/S3.png --ref refs/logo_side.png --ref refs/product_sheet.png --seconds 4` (`--dry` first: prints the
-   cost, spends nothing). Omni binds the product as a named reference for the whole clip; Seedance only copies the
+3. **Every clip where the product is in frame: Google Gemini Omni 1.1 Flash ON KIE** (Ralph 2026-10-22: "Use Omni on
+   kie not thru the API key"; Kie model `google/gemini-omni-flash-1-1`, cheaper than Google direct and 1080p at the
+   same price): `python3 .claude/skills/ugc-product-ad/scripts/omni_clip.py <job> S3 --prompt-file prompts/S3.txt
+   --still stills/S3.png --ref refs/logo_side.png --ref refs/product_sheet.png --seconds 4` (`--dry` first: prints the
+   cost, spends nothing). Never call Omni through the Gemini API key or OpenMontage's Google tool. Omni binds the product as a named reference for the whole clip; Seedance only copies the
    first frame and then redraws the print.
 4. **Clips with no product in frame** (room, hand-free scenery, a hand without the product): Seedance 2.0 Mini on Kie
    as before ($0.041/s). No Kling unless Ralph asks.
@@ -35,27 +35,31 @@ Unverified until the first job uses it: how well Omni holds small print through 
 product clip (the riskiest), QCs it, and only then the rest (CLAUDE.md hard rule 2).
 
 ## Prompt template (write it with prompt-master)
-Images go in order: the still is `<IMAGE_REF_0>`, close-ups `<IMAGE_REF_1>`.., the sheet last. The runner refuses a
-prompt that leaves a tag out.
+Kie's Omni takes either a first frame or reference images, not both, so it runs in reference mode: image 1 is the still,
+then one real close-up per logo/label, then the sheet (7 images at most). The runner refuses a prompt that leaves an
+image unnamed or never says "first frame".
 
 ```
-<FIRST_FRAME> <IMAGE_REF_0> is the opening frame: keep its room, light, framing and hand exactly.
-<IMAGE_REF_1> is the real <logo/label> of the product: it stays on the product the whole clip and matches
-<IMAGE_REF_1> letter for letter and colour for colour. <IMAGE_REF_2> is the product sheet: keep this exact shape,
-size and colours, no added marks, no ® or ™, no extra text.
+Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly.
+Image 2 is the real <logo/label> of the product: it stays on the product the whole clip and matches image 2
+letter for letter and colour for colour. Image 3 is the product sheet: keep this exact shape, size and colours,
+no added marks, no ® or ™, no extra text.
 Motion: <one small motion, the hand keeps one grip, the product never turns its back or flips>.
 Camera: <slow push-in / locked-off>. Vertical 9:16 phone footage, bright neutral daylight, realistic skin.
 No music, no voice, no captions, no on-screen text.
 ```
 
 ## Fixing a drifted take
-Use Omni's conversational edit before any new take: `omni_clip.py <job> S3 --edit --prompt-file fix.txt`, where
-fix.txt names only the change: "Make the side tab match <the close-up's look> exactly. Keep everything else the same."
-Same price per second as a new take, but everything Ralph already liked stays. Ask Ralph with the cost first, like any redo.
+Use an Omni edit before any new take: `omni_clip.py <job> S3 --edit --prompt-file fix.txt` sends the last take back as
+video input with a prompt naming only the change: "Make the side tab match <the close-up's look> exactly. Keep
+everything else the same." $0.84 per edit on Kie (more than a new 4 s take, $0.315), so use it only when the rest of
+the take is already right. Ask Ralph with the cost first, like any redo.
 
 ## Cost and budget
-- Omni 720p is about $0.10/s ($0.51 for 5 s) vs Seedance Mini $0.041/s. Keep product shots 3-4 s; the plan quotes each
-  shot's model and price and includes one likely fix.
+- Omni on Kie (list price, kie.ai/gemini-omni-1-1-flash, 2026-10-22; 360p/720p/1080p the same): 4 s $0.315, 6 s $0.42,
+  8 s $0.525, 10 s $0.63; edit with video input $0.84. Seedance Mini is $0.041/s (4 s $0.164). Keep product shots 4 s;
+  the plan quotes each shot's model and price and includes one likely fix. Kie logs it in the job's kie_log.json, so
+  `grace/spend.py` counts it.
 - Every plan and every redo question shows `python3 grace/spend.py`'s line: month so far vs Ralph's cap (none in October 2026, $100/month from November). At the cap,
   `grace/gate.py` refuses every paid runner until Ralph's OK is recorded in `grace/spend.json` over_cap_ok.
 

@@ -17,12 +17,12 @@ HOW I WORK
 - Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session. Run one small real request first; report what the test returned; if I did not test, say "not tested".
 
 PRODUCT LOCK AND MODELS
-- Product lock on every product (2026-10-21): every clip that shows the product is made with Google Gemini Omni (reference-to-video, gemini-omni-1.1-flash, about $0.10 a second) from the approved still + a real close-up of each logo/label + the product reference sheet, through OpenMontage's gemini_omni_video tool in the cloud. Seedance 2.0 Mini on Kie only for clips without the product. A drifted take gets one Omni edit turn (asked, with the cost) before any new take.
+- Product lock on every product (2026-10-21): every clip that shows the product is made with Google Gemini Omni (Gemini Omni 1.1 Flash on Kie, about $0.32 for a 4-second clip; never through the Gemini API key, 2026-10-22) from the approved still + a real close-up of each logo/label + the product reference sheet. Seedance 2.0 Mini on Kie only for clips without the product. A drifted take gets one Omni edit turn (asked, with the cost) before any new take.
 - Pasting real labels or pixels back is the last resort, only with my OK for that shot: a pasted label reads as a sticker.
 - Every image and video prompt is written with the prompt-master skill: every reference named, the print matched letter for letter and colour for colour, small marks get their true colours in words, a held product keeps one grip and never flips, no sparkle or light-effect words.
 - Before the first product image: a free product reference sheet from real photos, the maker's real dimensions with an everyday size anchor and a real photo of it in a room for scale; list every product detail in the plan for my yes before spending.
 - Stills: Gemini 3 Pro Image (Kie nano-banana-pro). Show a still storyboard before any video spend, riskiest clip first. No Kling unless I say so (2026-10-21).
-- OpenMontage (focusfiyah/OpenMontage) is part of the toolkit: it is in every cloud session and runs the Omni clips and video assembly.
+- OpenMontage (focusfiyah/OpenMontage) is part of the toolkit: it is in every cloud session and handles video assembly; all generation, Omni included, runs on Kie.
 
 VIDEO STANDARDS
 - Every shot is a real moving clip (camera walk-in or dolly, or a hand doing something). No Ken Burns on photos and no freezes. No hand sweeping across the product, no pictures of boxes. The hand doesn't need to be in every shot: a third to half hand-free, on the place/product lines, and their prompts say no hand appears.
