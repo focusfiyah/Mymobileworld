@@ -10,3 +10,8 @@
 | 12.8-15.5 | both sides up: shortest, upper thigh, back still long | pulls the other side, stands | same |
 | 15.8-17.7 | short front | walks, crosses legs | same |
 Looks: 1 top of knee, 2 back, 3 above knee / mid-thigh, 4 one leg, 5 shortest.
+
+## Product truths (Ralph 2026-10-22; check every still and take against these FIRST, at 2x)
+1. The drawstrings come out of the waistband at the FRONT; every pull is up and out from the waist. No tie on the side, no hand lifting the hem.
+2. The one-leg lift reaches only JUST ABOVE THE KNEE (inspo 11.4 s), never mid or upper thigh.
+3. The skirt is NOT see-through: solid fabric, legs and boots never visible through it.
