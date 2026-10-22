@@ -6,3 +6,5 @@
 | standing | Dark/moody/yellow grade | Ralph rule | bright neutral only |
 | 2026-10-22 | Black skirt (inspo colour) | Ralph | dark brown instead |
 | 2026-10-22 | On-screen text, Grace voice | Ralph | no text, music only |
+| 2026-10-22 | See-through lower skirt (AI chiffon) | Ralph | real outer layers are solid; only the lining is faintly sheer |
+| 2026-10-22 | Hands lifting the hem / side ties | Ralph | every pull is from the waistband |
