@@ -763,5 +763,35 @@
    ]
   },
   "costTime": 62
+ },
+ {
+  "t": "2026-10-22 18:20:37",
+  "submitted": "baf20191afcaf2a97d3d4d8876d7c5e8",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top pho"
+ },
+ {
+  "t": "2026-10-22 18:21:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot mirror video. Image 1 is the real product reference sheet (top photo = the real front), image 2 a real close-up of the flat fabric tie: the skirt MUST match them exactly in shape, ruching, ties and dark chocolate brown colour. Image 3 is an approved frame from this same video: her black top, legs, skin, black knee-high boots, rings, bracelets, the bedroom, the gold mirror edges, the light MUST match image 3 (framing here is full body). Image 4 is ONLY a guide for HOW LONG the front of the skirt is and how it drapes over her legs: copy that length and drape exactly, and ignore everything else in image 4 (its black colour, its carpet and bed, its shoes, its person).\nSKIRT (MUST match the real product photos, colour for colour): the real DARK CHOCOLATE BROWN skirt (deep brown like dark chocolate, about RGB 66,49,44), lightweight polyester with a soft low sheen, NOT black, NOT satin-shiny, NOT leather. Four vertical drawstring channels (two on the front, one on each side) gather the fabric into soft horizontal ruching; each channel ends at the waistband in a FLAT brown fabric tie (thin flat strap, same brown, not a round cord) with two hanging ends. Ruffle-trimmed hems. The back is longer, with four horizontal ruffle tiers. A semi-sheer brown inner layer shows under the front hem. Plain solid brown: no print, no lace, no buckles, no logo, no text.\nPERSON: Grace, a slim woman with medium-dark brown skin, smooth bare legs. Plain black fitted long-sleeve top tucked into the skirt.\nBOOTS: black matte leather KNEE-HIGH boots, the boot top ends just below the knee, flat chunky black lug sole, NO high heel, no buckles, no laces, no logo.\nROOM (MUST match the room reference image): Ralph's bedroom: cream panelled walls, warm honey wood floor, a round shaggy cream rug, a tall arched full-length floor mirror with a thin gold frame, a big green bird-of-paradise plant in a black pot, sheer white curtains at a tall window, a bed with white bedding and a knitted beige throw. This frame IS her reflection in the arched gold mirror: she stands on the cream rug, the thin gold mirror frame edge shows down one side of the frame, the room behind her is this bedroom. Her phone is above the frame, never visible.\nLOOK: vertical 9:16 phone photo in a mirror, full body head to boots. Bright, neutral, natural colour, no yellow or golden tint. No text, no watermark.\nSHOT FULL2: full-body mirror photo, head to boots, the whole person in frame, taken by a phone propped on a dresser out of shot (NO phone in her hands, no phone visible anywhere). Same woman, room, light and gold mirror edges as image 3. She faces the mirror, relaxed neutral face, long dark boho braids over her shoulders. BOTH hands rest at her waist, each one pinching one of the two short flat front ties (about a hand's length) between thumb and finger, whole wrists visible. The skirt is exactly the real dark chocolate brown skirt of images 1 and 2 at its longer length: front hem at the top of her knees, the long ruffled back at her ankles. Black fitted long-sleeve top tucked in, black knee-high boots with flat chunky soles, on the cream rug.\n Image 3 here is a full-body frame of the SAME woman in the SAME bedroom: match her body, skin, braids, outfit, boots, room and light. Image 5 is Grace's reference sheet: her face, medium-dark brown skin and long dark boho braids MUST match it; she is Grace, not anyone else. Her hands hold ONLY the two skirt ties; there is no phone in her hands or anywhere in the picture.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792688690741-cp3d85vp5bt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792688693437-a8b9ox3jrv6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792693232562-fem1k60stke.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792688698877-zn125ik6fwg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792693235099-3l9fau9s4se.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "baf20191afcaf2a97d3d4d8876d7c5e8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/baf20191afcaf2a97d3d4d8876d7c5e8_0_1792693304.jpeg"
+   ]
+  },
+  "costTime": 67
  }
 ]
