@@ -3161,5 +3161,35 @@
    ]
   },
   "costTime": 98
+ },
+ {
+  "t": "2026-10-22 01:23:35",
+  "submitted": "661bbe2e6309e6c7e558cd3667efe127",
+  "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame,"
+ },
+ {
+  "t": "2026-10-22 01:25:54",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly (same framing, setting, light, people, hands, jewellery and shoe) as the first frame, then she keeps walking forward toward the LEFT edge of the frame with natural steps: the back foot swings forward and lands, the toes point left the whole time; the camera stays low and pans slightly left to follow. The small woven VANS tab on the side of the shoe must match reference image 2 exactly, letter for letter: a BLACK woven label with white VANS letters and the registered mark, sewn flat into the canvas between the sequin squares, never white, blue or purple, never raised or floating. Reference image 3 shows the real shoe from every side: keep its sequins on the black squares only, the black collar binding, the black laces and the marshmallow sole. Light: it is night and the phone's built-in camera flash stays on the whole clip, white and neutral, lighting the shoes and her legs from the camera; the street behind stays dark with a few far-off white street lamps; no yellow or orange cast. The light never changes during the clip. Exactly two shoes, both on her feet. The walk moves forward with real steps across the sidewalk, never walking in place. No hand appears at any time. The shoe keeps exactly its shape, checker pattern, sequins on the black squares only, black collar, laces and marshmallow sole in every frame. No added sparkle, glints, lens flares or light effects. Hands and feet stay anatomically correct and keep the same skin tone, nails, polish and jewellery the whole clip. No sound. No on-screen text. No new objects, no extra hands or feet.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632208179-lyghmkrsrms.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632210697-qkedi3h616k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin/1792632213117-y3norehm94b.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "661bbe2e6309e6c7e558cd3667efe127",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792632347400-2j3rus96eso.mp4"
+   ]
+  },
+  "costTime": 133
  }
 ]
