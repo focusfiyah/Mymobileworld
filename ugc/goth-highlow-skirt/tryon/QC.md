@@ -29,3 +29,6 @@ FASHN re-test verdict: the best waist and front of any model so far; the hem fai
 
 ## Re-test 2: FASHN, segmentation_free off (same photo 3, $0.075)
 Worse on every count: colour washed to mauve (99,73,70 vs real 70,51,46); still a narrow column cuffed at the ankles; the plant pot was redrawn as a brown smear and the boots were redrawn. Verdict: FAIL. Keep the default (segmentation_free on). The shape needs a different input photo (shorts / bare legs), not a setting.
+
+## Re-test 3: FASHN on Grace's own TikTok frame (black shapewear shorts, bare legs; @shewiththeglow 7684001442977352991 at 13 s), $0.075
+FASHN returned the frame unchanged: no skirt at all, only a thin dark streak on one shin. Her outfit is a one-piece shapewear bodysuit, so FASHN finds no separate bottom garment to replace. Verdict: FAIL (no-op). FASHN needs a real separate bottom (pants worked, round 23); a bodysuit or bare legs gives it nothing to swap.
