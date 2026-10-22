@@ -5,5 +5,17 @@
   },
   "enabledMcpjsonServers": [
     "playwright"
-  ]
+  ],
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/browser_setup.sh"
+          }
+        ]
+      }
+    ]
+  }
 }
