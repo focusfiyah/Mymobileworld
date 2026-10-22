@@ -90,6 +90,17 @@ def seedance(sid):
     if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
 
 
+def seedance_first(sid):
+    """Product shot locked to the approved still as the exact first frame (Ralph 2026-10-22, S3: Omni ignored the still's framing)."""
+    s = S[sid]
+    prompt = ("Start exactly on this frame and keep everything in it unchanged: the carton, its print and the pouches stay exactly as they are, letter for letter. "
+              "Only the camera moves: a very slow smooth push-in toward the carton. Nothing in the scene moves, nothing is added, no hand, no fingers, no people at any time. "
+              + B["seedance_tail"])
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "first_frame_url": kie.upload(f"stills/{sid}.png"), "generate_audio": False,
+                        "resolution": "720p", "aspect_ratio": "9:16", "duration": s["seconds"]}})
+    if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+
+
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
     Path("stills").mkdir(exist_ok=True); Path("clips").mkdir(exist_ok=True)
@@ -97,6 +108,8 @@ if __name__ == "__main__":
         for i in ids: print(still_prompt(S[i]))
     elif kind in ("omni", "omni-dry"):
         with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(lambda i: omni(i, kind == "omni-dry"), ids))
+    elif kind == "seedance-first":
+        for i in ids: seedance_first(i)
     elif kind == "seedance":
         for i in ids: seedance(i)
     elif kind == "stills":
