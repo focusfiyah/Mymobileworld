@@ -4,7 +4,7 @@ from pathlib import Path
 D = Path(__file__).resolve().parent
 sys.argv = ["x", "B"]
 spec = importlib.util.spec_from_file_location("mp", D / "make_prompts.py"); mp = importlib.util.module_from_spec(spec); spec.loader.exec_module(mp)
-names = {"ref1": "1 · Real photos sheet", "ref2": "2 · Real, upright, clip on top", "ref3": "3 · Lens shape only", "ref4": "4 · Grace's hand",
+names = {"ref1": "1 · Real photos sheet", "ref2": "2 · Real, upright, clip on top", "ref3": "3 · Real lens close-ups", "ref4": "4 · Grace's hand",
          "ref5": "5 · Real USB-A port", "ref6": "6 · Real logo close-up"}
 files = {v[0].split("_", 1)[0]: v[0] for v in mp.REF.values()}
 refgrid = "".join(f'<figure><img src="{files[k]}" alt="{n}"><figcaption>{n}</figcaption></figure>' for k, n in sorted(names.items()))
