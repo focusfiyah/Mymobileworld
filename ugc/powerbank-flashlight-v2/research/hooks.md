@@ -10,3 +10,6 @@ casual disbelief), @en.casa.con.lia 951K today (feature stack in the first secon
 | 1 | Who in the world made this??? | Who in the world made this??? | No (Ralph: no text) |
 | 2 | (alt, not used) Who in the world made this??? | Wait, it charges your phone too?! | No |
 | 3 | (alt, not used) Who in the world made this??? | The flashlight I keep in every bag | No |
+
+
+Re-checked 2026-10-22 (session 2): research/script.txt has one commit (5ccaebc 19:46) and this proof was committed after it (20:08) on the same text; the script is unchanged, so this proof still applies.
