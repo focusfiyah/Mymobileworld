@@ -3,3 +3,4 @@
 - Side panel lit in the flicker shot (Ralph 2026-10-22): the flicker comes from the front lens.
 - On-screen text (Ralph 2026-10-22: "No text").
 - Listing 3/9 front view (power-symbol button, squarer top): not Grace's product (Ralph 2026-10-22: "This one is not correct"). Out of the sheet (refs/product_sheet_v2.png).
+- USB port beside the clip, diamond button icon, silver/gunmetal colour, no logo: listing render errors; the real unit (Ralph's photos 2026-10-22) has ports under the end cap, a power-symbol button, light blue-grey body and the SMILING SHARK logo.
