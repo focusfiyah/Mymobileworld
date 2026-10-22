@@ -6,7 +6,7 @@ https://shop.tiktok.com/us/pdp/womens-gothic-high-low-skirt-steampunk-pirate-des
 Route: ugc-product-ad + product lock (Omni on Kie for every clip; Gemini 3 Pro Image stills). Rules: grace/PLAYBOOK.md.
 
 Approved (Ralph 2026-10-22): "Knee high boots, with bracelet, dark brown, no text, music only, Kie" = plan at $1.62 (up to $2.03 with one redo), stills on Kie. Boot colour not given: black knee-high (the listing styles the brown skirt with black boots), shown at the storyboard.
-Status: storyboard r2 sent: S2 + S3 pass, S1 + S4 fail shape; asked Ralph: free route (drop S1, S4 turn from S3 still, 3 clips $0.95) or redo S1+S4 stills $0.18. Kie spent $0.45 of $1.62.
+Status: S2 test clip done ($0.315): skirt holds, small hem rise; asked Ralph to go on S3+S4 ($0.63). Kie spent $0.765 of $1.40.
 Review page: https://claude.ai/artifact/3JRHDgMib5grRRR9ybu1QA
 
 Files: scripts.md (shots, text options, optional voice, caption), prompts/ (prompt-master), refs/product_sheet.png (make_sheet.py, real listing photos),

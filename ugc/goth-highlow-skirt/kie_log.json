@@ -147,5 +147,37 @@
    ]
   },
   "costTime": 155
+ },
+ {
+  "t": "2026-10-22 06:10:24",
+  "submitted": "43e49ef32b79bbdf8b102cb3ad46e9c7",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its bedroom, light, mirror framing (waist down, gold mirror edges), he"
+ },
+ {
+  "t": "2026-10-22 06:13:18",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its bedroom, light, mirror framing (waist down, gold mirror edges), her black top, legs, black knee-high boots, hands, rings and bracelets exactly.\nImage 2 is a real close-up of the skirt's flat brown fabric tie and image 3 a real close-up of its front ruching: the skirt keeps this exact dark chocolate brown fabric, soft draped ruching and flat ties the whole clip. Image 4 is the real product sheet: keep the skirt's exact shape, four drawstring channels, ruffle hems and long ruffled back; no added print, lace, buckles, marks or text. Image 5 is Grace's hand sheet: her nails, rings, blue bands and bracelets stay exactly as in images 1 and 5; no other jewellery appears.\nMotion: her fingers close on the two front tie loops at the waistband and pull them slowly straight up about a hand's length; the front of the skirt gathers into tighter swags and its hem rises from her knees to mid-thigh, while the back stays long at her ankles. Her hands keep hold of the ties the whole time, never cross in front of the skirt and never switch grip. Her feet stay planted.\nCamera: phone held still in the mirror, locked off, no zoom. Vertical 9:16 phone footage, bright natural daylight, true neutral colours, realistic skin and fabric. No face. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792649412683-gqegzu3gext.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792649414993-227hpixju0a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792649417822-97y0rw23kmq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792649419972-ntl1ebm1oa.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792649422181-oqnuw6t5fd.jpg"
+    ]
+   }
+  },
+  "taskId": "43e49ef32b79bbdf8b102cb3ad46e9c7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/43e49ef32b79bbdf8b102cb3ad46e9c7_0_1792649592.mp4"
+   ]
+  },
+  "costTime": 169,
+  "usd": 0.315
  }
 ]

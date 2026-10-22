@@ -29,7 +29,7 @@ def still(sid):
 
 
 def omni(sid, dry=False):
-    refs = [TIE, RUCH, SHEET] + ([HAND] if sid in HANDS else [])
+    refs = [TIE, RUCH, SHEET] + ([HAND] if sid in HANDS else [])  # S4 starts from the S3 still (free route, Ralph 2026-10-22)
     cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}_clip.txt", "--still", f"stills/{sid}.png", "--seconds", "4"]
     for r in refs: cmd += ["--ref", r]
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
