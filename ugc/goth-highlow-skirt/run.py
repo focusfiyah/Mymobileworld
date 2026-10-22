@@ -65,6 +65,17 @@ def seed(sid, first, last=None, secs=4):
         kie.fetch(url, f"clips/{sid}_seed_{n}.mp4"); print("OK", f"clips/{sid}_seed_{n}.mp4", flush=True)
 
 
+def veo(sid, first, tier="veo3_fast", secs=6):
+    """Google Veo 3.1 on Kie, first-frame image-to-video, 9:16 720p (veo3_fast 60 credits = $0.30; same call as
+    ugc/throw-hands-rps/kie.py). Ralph 2026-10-22: test whether Veo can do the drawstring rise Omni/Seedance could not."""
+    url = kie.run_task({"model": "veo-3-1", "input": {"model": tier, "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+        "prompt": Path(f"prompts/{sid}_veo.txt").read_text().strip(), "image_urls": [kie.upload(first)],
+        "aspect_ratio": "9:16", "duration": secs, "resolution": "720p"}})
+    if url:
+        Path("clips").mkdir(exist_ok=True); n = len(list(Path("clips").glob(f"{sid}_veo_*.mp4"))) + 1
+        kie.fetch(url, f"clips/{sid}_veo_{n}.mp4"); print("OK", f"clips/{sid}_veo_{n}.mp4", flush=True)
+
+
 def edit(src, out, prompt_file):
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": Path(prompt_file).read_text().strip(),
                         "image_input": [kie.upload(r) for r in (src, SHEET, TIE)], "aspect_ratio": "9:16", "resolution": "1K"}})
@@ -97,6 +108,8 @@ if __name__ == "__main__":
         with ThreadPoolExecutor(3) as ex: list(ex.map(len_still, ids))
     elif cmd == "seed":
         seed(ids[0], ids[1], ids[2] if len(ids) > 2 else None)
+    elif cmd == "veo":
+        veo(ids[0], ids[1])
     elif cmd == "edit":
         edit(*ids[:3])
     elif cmd == "omnifl":

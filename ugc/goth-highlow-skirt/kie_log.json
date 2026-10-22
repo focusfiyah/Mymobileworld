@@ -457,5 +457,34 @@
    ]
   },
   "costTime": 83
+ },
+ {
+  "t": "2026-10-22 07:23:43",
+  "submitted": "4e098e0d1f7b72dfd413e8f2a52b3404",
+  "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Her two hands hold the two front "
+ },
+ {
+  "t": "2026-10-22 07:27:29",
+  "request": {
+   "model": "veo-3-1",
+   "input": {
+    "model": "veo3_fast",
+    "generation_type": "FIRST_AND_LAST_FRAMES_2_VIDEO",
+    "prompt": "A real phone video filmed in a full-length mirror, continuing exactly from this frame. Her two hands hold the two front ties of her dark chocolate brown drawstring skirt at the waistband. Slowly and steadily she pulls both ties straight up; the drawstrings cinch, the front of the skirt bunches into tighter and tighter soft ruched swags, and the front hem climbs smoothly from the top of her knees to the middle of her thighs, a little higher on her left. The long ruffled back of the skirt stays hanging at her ankles behind her legs, and the skirt stays on her waist the whole time. Her feet stay planted in the black knee-high boots.\nIt is the same skirt in every frame: same dark brown fabric, same flat brown ties, same ruffle hems, same draped ruching; only the front gets shorter. Her rings and bracelets stay the same. No other people, no extra hands.\nCamera: phone held still, no zoom, no camera move. Bright natural daylight, true neutral colours, realistic fabric physics. No face, no text, no music, no speech.",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/goth-highlow-skirt/1792648996075-yloe6ixrout.png"
+    ],
+    "aspect_ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+   }
+  },
+  "taskId": "4e098e0d1f7b72dfd413e8f2a52b3404",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/4e098e0d1f7b72dfd413e8f2a52b3404_0_1792654042.mp4"
+   ]
+  },
+  "costTime": 219
  }
 ]
