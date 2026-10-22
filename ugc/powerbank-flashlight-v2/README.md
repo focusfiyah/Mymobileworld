@@ -10,4 +10,4 @@ Size from Grace's box (research/size.md: 29.5 x 29.5 x 157 mm with clip, 90 g, l
 
 Status 2026-10-22 (end of session 1): Ralph sends S1-S4 stills from Gemini; S5-S9 stills + all clips go on Kie after BOOK.md OK. Handoff: handoff/NEXT_SESSION_flashlight-v2.md. Gates 5/10. Spent $0.
 
-Status 2026-10-22 (session 2): Ralph sent S1-S4 (stills/S1-S4.png, QC notes in BOOK.md). BOOK.md (TOTAL $3.69) sent for his OK; no paid call until --approve-book. Spent $0.
+Status 2026-10-22 (session 2): BOOK APPROVED $3.69. Stills S5-S9 made on Kie ($0.45, 2K): S8 S9 OK, S6 free-fixed (extra side strip), S5 + S7 need redos ($0.09 each, asked). VO done (Grace cloned, 22.1 s, echo 150 ms = pass). Omni on Kie: 4 tries all "500 Internal Error" (free), clips on hold, asked Ralph. Review: https://claude.ai/code/artifact/91654375-8c56-4a3f-9903-fc928826f4d8 . Spent $0.45.
