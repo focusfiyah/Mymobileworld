@@ -12,7 +12,8 @@ Scope: ONE new 7-15 s vertical AI video of the real Vans Premium Authentic sequi
 - [x] G2: Ralph approved the one-message V11 plan + total cost before any paid call (his words quoted in README)
   EVIDENCE: Ralph 2026-10-21 "Outfit ok, free on Gemini, no sound she will use music" (stills $0 via his Gemini app, Omni clips $1.52, music-only)
 
-- [ ] G3: Test still V11S1 QC'd at full size + 2x (night flash look, real shoe details, tab, anklet, feet parallel) before the other 3 stills; all 4 stills QC'd before any clip is paid for
+- [x] G3: Test still V11S1 QC'd at full size + 2x (night flash look, real shoe details, tab, anklet, feet parallel) before the other 3 stills; all 4 stills QC'd before any clip is paid for
+  EVIDENCE: 2026-10-22 QC at full size + 2x-6x (qc/v11/): tabs S3/S4 correct VANS®, S2 tab 'VANOe' -> fixed free (S4's tab, stills/V11S2.png); heel labels present; sequins on black squares only; feet parallel S1; max 2 shoes; French tips; no Gemini mark in corners. Open: S3 gold watch with a face (Grace's bracelet has none), asked Ralph.
 
 - [ ] G4: Riskiest clip (V11S2 walk) made and QC'd at 2x on several frames (tab, heel label, shoe count, no flip, no light effects) before the other clips
 
