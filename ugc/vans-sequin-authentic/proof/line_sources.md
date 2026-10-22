@@ -13,3 +13,7 @@
 | Visual beats (POV hold, sole flip, walk, anklets, stance) | Grace's two references (research/coach/ref_ai, ref_real) + winners W3-W6 |
 | Music-only default | all 8 researched Vans shop videos have no voice except Grace's own 27 s (305 views) |
 | V10 'my sister' (H056 blank) | Ralph 2026-10-21: true for Grace |
+| V11 night + flash concept | Grace's request 2026-10-21 via Ralph ("do it at night and turn on flash to show how shiny it is") |
+| V11 hook H052 "I save these specifically for nights out" | Grace hook library (word for word, blank = occasion) |
+| "watch the black squares" | vans.com "Sequin checkerboard artwork" (sequins on the black squares only, research/product_facts.md) |
+| V11 pacing (fast 2-3 s cuts, feet + walk, no voice) | #sparklyshoes top videos 2026-10-21 (research/coach/night: @2000sguxta 2.6M, 16 s, walk + feet cuts, music only) |

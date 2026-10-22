@@ -19,3 +19,6 @@ W6 @bekstheshoppingmom 70K ("Sequin checkerboard vans!? Are you kidding!?"). Cho
 
 No hook id is used twice across the 10 videos (V1 H089, V2 H030, V3 H091, V4 H098, V5 H021, V6 H131, V7 H004, V8 H023, V9 H055, V10 H056).
 H057/H069/H053/H154/H027/H031/H098 blanks filled from the product research. Comparison hooks not used (only our product).
+
+| V11 | **H052** I save these specifically for nights out / H105 I have seen this everywhere, but nobody showed me this part / H026 I kept looking for a video that showed these with the flash on | "flash on at night" / "took these out at night" | night flash (Grace 2026-10-21) |
+H052 not used in V1-V10.

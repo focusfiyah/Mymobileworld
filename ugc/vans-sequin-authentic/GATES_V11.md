@@ -1,0 +1,41 @@
+# Gates: Vans sequin V11, night + phone flash (Grace's request 2026-10-21)
+
+OWNS: ugc/vans-sequin-authentic/**
+
+Scope: ONE new 7-15 s vertical AI video of the real Vans Premium Authentic sequin checkerboard at night with the phone flash on, all-new footage (no V1-V10 clips), product shots on Google Omni (product lock), approved by Ralph, delivered to the Vans Drive folder.
+
+- [x] G1: Script gate passes on the current script (V11 section, proofs refreshed)
+  CHECK: python3 grace/gate.py ugc/vans-sequin-authentic
+  EXPECT: GATE OK
+  CWD: ../..
+  EVIDENCE: run by hand 2026-10-22 after the last script edit: GATE OK
+
+- [x] G2: Ralph approved the one-message V11 plan + total cost before any paid call (his words quoted in README)
+  EVIDENCE: Ralph 2026-10-21 "Outfit ok, free on Gemini, no sound she will use music" (stills $0 via his Gemini app, Omni clips $1.52, music-only)
+
+- [x] G3: Test still V11S1 QC'd at full size + 2x (night flash look, real shoe details, tab, anklet, feet parallel) before the other 3 stills; all 4 stills QC'd before any clip is paid for
+  EVIDENCE: 2026-10-22 QC at full size + 2x-6x (qc/v11/): tabs S3/S4 correct VANS®, S2 tab 'VANOe' -> fixed free (S4's tab, stills/V11S2.png); heel labels present; sequins on black squares only; feet parallel S1; max 2 shoes; French tips; no Gemini mark in corners. Open: S3 gold watch with a face (Grace's bracelet has none), asked Ralph.
+
+- [x] G4: Riskiest clip (V11S2 walk) made and QC'd at 2x on several frames (tab, heel label, shoe count, no flip, no light effects) before the other clips
+  EVIDENCE: 2026-10-22 V11S2 Seedance ($0.164): 3 fps + 12 fps sheets (qc/v11/S2_sheet.png, S2_feet6.png, S2_swing.png), frame-diff shows no hidden cut; real steps, toes one way, 2 shoes, dark tab, no glints; camera swing + blur after ~2.5 s -> cut window 0-2.5 s.
+
+- [x] G5: V11 final exists, 7-15 s, 1080x1920
+  CHECK: python3 -c "import json,subprocess;d=json.loads(subprocess.run(['ffprobe','-v','error','-show_entries','stream=width,height:format=duration','-of','json','out/V11_final.mp4'],capture_output=True,text=True).stdout);s=d['streams'][0];t=float(d['format']['duration']);print('V11_OK' if (s['width'],s['height'])==(1080,1920) and 7<=t<=15 else 'BAD',t)"
+  EXPECT: V11_OK
+  CWD: .
+  EVIDENCE: run by hand 2026-10-22: V11_OK 10.15 (1080x1920)
+
+- [x] G6: Cut gate passes (coach compare V11 vs the #sparklyshoes reference done, no text overlay)
+  CHECK: python3 grace/gate.py ugc/vans-sequin-authentic --stage cut
+  EXPECT: GATE OK
+  CWD: ../..
+  EVIDENCE: run by hand 2026-10-22: GATE OK (--stage cut; compare V11 vs @2000sguxta night ref + V1/V5 re-run)
+
+- [x] G7: V11 checked against REMOVED.md and frame by frame (no shimmer, shoe never changes, max 2 shoes, no sparkle effects, feet parallel), ai_finish applied last
+  EVIDENCE: REMOVED.md V11 section; qc/v11 sheets at 2-12 fps, 2x crops; clip_qc motion > 0.89/s everywhere (no freeze); scene cuts 0.6/3.0/5.17/7.6 s after trimming S2 to 2.25 s (a camera swing read as a cut 0.17 s before the join); FINALS_OK (11 finals, all differ); ai_finish in cut.py as the last step
+
+- [x] G8: V11 on the Artifact review page, Ralph emailed + pushed, Ralph approved
+  EVIDENCE: review page round 13 (v20) https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH; email + phone push sent 2026-10-22; Ralph: "OK, add to Drive and add night to filename"
+
+- [x] G9: V11 in Drive "Vans sequin (Grace)" as "CURRENT - Vans V11.mp4", link in README; Kie + Omni spend vs quote recorded
+  EVIDENCE: Drive Vans sequin (Grace) 1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_: 'CURRENT - Vans V11 night.mp4' id 1SI7MTZIQM1TZHqucMzpB_WRx9SZJOJkq, 9,493,488 bytes = local file; captions doc replaced (CURRENT with V11, old -> Older versions 'v1 (2026-10-21) - Vans captions'); README link. Kie V11 $0.66 vs $1.88 Omni plan / $0.62 Seedance quote + $0.04 S4 4 s (asked); stills $0 (Ralph's Gemini app); Omni $0 (402, not billed)
