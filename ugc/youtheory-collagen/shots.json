@@ -23,8 +23,9 @@
      "product": false,
      "model": "seedance",
      "seconds": 6,
-     "still": "Close-up at counter height on a white marble kitchen counter in a bright airy kitchen: a clear glass of water with chalky white powder clumps floating on top, a metal spoon in the glass, a plain white unlabeled powder tub with its lid off and a white plastic scoop resting on its rim; a small vase of white tulips softly out of focus behind. One hand holds the spoon handle and stirs.",
-     "motion": "The hand stirs the spoon in slow circles; the powder clumps swirl and stay lumpy on the surface; camera locked off with a tiny handheld drift."
+     "still": "Close-up at counter height on a white marble kitchen counter in a bright airy kitchen in early morning daylight, a coffee cup beside it: a clear glass of water with chalky white powder clumps floating on top, a metal spoon in the glass, a plain white unlabeled powder tub with its lid off and a white plastic scoop resting on its rim; a small vase of white tulips softly out of focus behind. One hand holds the spoon handle and stirs.",
+     "motion": "The hand stirs the spoon in slow circles; the powder clumps swirl and stay lumpy on the surface; camera locked off with a tiny handheld drift.",
+     "plan_no": 1
     },
     {
      "id": "S2",
@@ -35,7 +36,8 @@
      "model": "omni",
      "seconds": 4,
      "still": "Same white marble kitchen counter, the glass and tub pushed to the back and out of focus: one hand holds a single pouch upright at chest height in the centre of the frame, front label facing the lens, tab at the top.",
-     "motion": "The hand keeps one grip and gives the pouch a gentle little shake; the pouch never turns or flips. Camera: slow push-in."
+     "motion": "The hand keeps one grip and gives the pouch a gentle little shake; the pouch never turns or flips. Camera: slow push-in.",
+     "plan_no": 2
     },
     {
      "id": "S3",
@@ -46,7 +48,8 @@
      "model": "omni",
      "seconds": 4,
      "still": "Three-quarter view from above on the white marble counter by the window: the opened white carton with pouches standing in a row inside, orange tabs up, and two more pouches lying flat in front of it, labels up; a linen napkin and a sprig of eucalyptus beside them.",
-     "motion": "Only the camera moves: a slow smooth dolly-in toward the pouches. Nothing in the scene moves."
+     "motion": "Only the camera moves: a slow smooth dolly-in toward the pouches. Nothing in the scene moves.",
+     "plan_no": 3
     },
     {
      "id": "S4",
@@ -56,20 +59,34 @@
      "product": true,
      "model": "omni",
      "seconds": 4,
-     "risk": "highest: tearing the tab, test clip first",
-     "still": "Close-up on the counter: one hand holds a pouch upright, front label facing the lens; thumb and index finger of the same hand pinch the orange tear tab at its notch.",
-     "motion": "The fingers tear the orange tab off sideways along the notch in one small motion, opening the pouch; the pouch stays upright, keeps facing the lens and never flips. Camera locked off, no zoom."
+     "still": "White marble kitchen counter: at the back, lined up and clearly visible, a plain white blender, a plain white unlabeled powder tub with a white scoop sticking out of the powder, and a plain clear shaker bottle with a mixing ball; in the front centre, one hand sets a single pouch down standing upright, label facing the lens.",
+     "motion": "The hand sets the pouch down in front of the blender, tub and shaker and lets go; the pouch stays upright facing the lens and never flips; nothing else moves. Camera: slow push-in toward the pouch.",
+     "plan_no": 4
     },
     {
      "id": "S5",
      "line": 5,
-     "words": "Each serving contains five thousand milligrams of collagen peptides and you don't even need water",
+     "words": "Each serving contains five thousand milligrams of collagen peptides",
      "hand": true,
      "product": true,
      "model": "omni",
-     "seconds": 6,
+     "seconds": 4,
      "still": "Tight close-up: one hand holds a pouch so the lower half of the label fills most of the frame, the 'with clinically studied VERISOL\u00ae collagen peptides' lines and the orange 'berry flavor | ZERO SUGAR' bar sharp and centred; soft white kitchen behind.",
-     "motion": "Slow push-in toward the 'VERISOL\u00ae collagen peptides' line while the hand stays still; the pouch never turns."
+     "motion": "Slow push-in toward the 'VERISOL\u00ae collagen peptides' line while the hand stays still; the pouch never turns.",
+     "plan_no": 5
+    },
+    {
+     "id": "S5b",
+     "line": 5,
+     "words": "and you don't even need water",
+     "hand": true,
+     "product": true,
+     "model": "omni",
+     "seconds": 4,
+     "risk": "highest: tearing the tab, test clip first",
+     "still": "Close-up on the marble counter in daylight: a full clear glass of water stands pushed aside, untouched, at the left edge; one hand holds a pouch upright in the centre, front label facing the lens, thumb and index finger of the same hand pinching the orange tear tab at its notch.",
+     "motion": "The fingers tear the orange tab off sideways along the notch in one small motion, opening the pouch; the glass of water is never touched; the pouch stays upright facing the lens and never flips. Camera locked off, no zoom.",
+     "plan_no": 6
     },
     {
      "id": "S6",
@@ -80,7 +97,8 @@
      "model": "omni",
      "seconds": 4,
      "still": "A cream travertine tray on a white bathroom vanity in soft daylight: one pouch standing propped against plain unlabeled white and glass skincare bottles, a jade roller and a folded white towel; a round mirror edge and greenery softly behind.",
-     "motion": "Only the camera moves: a slow sideways dolly across the tray, ending on the pouch. Nothing moves in the scene."
+     "motion": "Only the camera moves: a slow sideways dolly across the tray, ending on the pouch. Nothing moves in the scene.",
+     "plan_no": 7
     },
     {
      "id": "S7",
@@ -91,7 +109,8 @@
      "model": "omni",
      "seconds": 6,
      "still": "An open beige leather tote bag on a light oak bench by a bright entryway, a set of keys on a plain ring and plain sunglasses beside it: one hand holds an unopened pouch just above the open bag, label facing the lens.",
-     "motion": "The hand slips the pouch down into the bag beside the keys in one smooth move and lets go; the pouch keeps facing the lens and never flips. Camera locked off with a tiny handheld drift."
+     "motion": "The hand slips the pouch down into the bag beside the keys in one smooth move and lets go; the pouch keeps facing the lens and never flips. Camera locked off with a tiny handheld drift.",
+     "plan_no": 8
     },
     {
      "id": "S8",
@@ -102,7 +121,8 @@
      "model": "omni",
      "seconds": 4,
      "still": "Morning flat lay from above on white linen in bright window light: three pouches fanned out side by side, labels up, next to a clear glass mug of coffee, plain sunglasses, a plain cream planner and a small vase of white tulips.",
-     "motion": "Only the camera moves: a slow push-in down toward the three pouches. Nothing moves in the scene."
+     "motion": "Only the camera moves: a slow push-in down toward the three pouches. Nothing moves in the scene.",
+     "plan_no": 9
     }
    ]
   }
