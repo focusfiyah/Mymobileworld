@@ -32,5 +32,5 @@ any session branch is refused until it is named in GATE_REDO.
   EXPECT: MERGED OK
   EVIDENCE: pending
 
-- [ ] G6: live rules Google Doc refreshed and the skill zip rebuilt for Ralph's upload
-  EVIDENCE: pending
+- [x] G6: live rules Google Doc refreshed and the skill zip rebuilt for Ralph's upload
+  EVIDENCE: 2026-10-22 new doc 1cKyf8PYZi1XSVbRjSUfpbWrccjguenEiX2qN1HFEcBc read back via the Drive connector, its Budget line ends with the Production Book sentence; old doc 115Clq5j... trashed; LIVE_DOC.txt updated. Zip: claude-skills dist/ugc-product-ad-skill.zip built by deploy.py, copied to handoff/ugc-product-ad-skill.zip.
