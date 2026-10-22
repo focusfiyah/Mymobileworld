@@ -34,6 +34,8 @@ Scope: ONE new 7-15 s vertical AI video of the real Vans Premium Authentic sequi
 - [x] G7: V11 checked against REMOVED.md and frame by frame (no shimmer, shoe never changes, max 2 shoes, no sparkle effects, feet parallel), ai_finish applied last
   EVIDENCE: REMOVED.md V11 section; qc/v11 sheets at 2-12 fps, 2x crops; clip_qc motion > 0.89/s everywhere (no freeze); scene cuts 0.6/3.0/5.17/7.6 s after trimming S2 to 2.25 s (a camera swing read as a cut 0.17 s before the join); FINALS_OK (11 finals, all differ); ai_finish in cut.py as the last step
 
-- [ ] G8: V11 on the Artifact review page, Ralph emailed + pushed, Ralph approved
+- [x] G8: V11 on the Artifact review page, Ralph emailed + pushed, Ralph approved
+  EVIDENCE: review page round 13 (v20) https://claude.ai/artifact/L6jv2tbQ5AySPMuUiSr9GH; email + phone push sent 2026-10-22; Ralph: "OK, add to Drive and add night to filename"
 
-- [ ] G9: V11 in Drive "Vans sequin (Grace)" as "CURRENT - Vans V11.mp4", link in README; Kie + Omni spend vs quote recorded
+- [x] G9: V11 in Drive "Vans sequin (Grace)" as "CURRENT - Vans V11.mp4", link in README; Kie + Omni spend vs quote recorded
+  EVIDENCE: Drive Vans sequin (Grace) 1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_: 'CURRENT - Vans V11 night.mp4' id 1SI7MTZIQM1TZHqucMzpB_WRx9SZJOJkq, 9,493,488 bytes = local file; captions doc replaced (CURRENT with V11, old -> Older versions 'v1 (2026-10-21) - Vans captions'); README link. Kie V11 $0.66 vs $1.88 Omni plan / $0.62 Seedance quote + $0.04 S4 4 s (asked); stills $0 (Ralph's Gemini app); Omni $0 (402, not billed)
