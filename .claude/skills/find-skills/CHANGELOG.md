@@ -1,0 +1,1 @@
+- 2026-10-22: upstream check (CLI 1.7.4); stay pinned at skills@1.7.0 on Ralph's word, note in SOURCE.md.
