@@ -10,13 +10,14 @@ import kie
 
 SHEET, TIE, RUCH, HAND, LOOK = "refs/product_sheet.png", "refs/closeup_tie.png", "refs/closeup_ruching.png", "../../grace/ref/hand-sheets/with_bracelet.jpg", "stills/S2.png"
 HANDS = {"S2"}
+ROOM = "refs/room.jpg"
 OMNI = "../../.claude/skills/ugc-product-ad/scripts/omni_clip.py"
 
 
 def still_prompt(sid):
     look = Path("prompts/look.txt").read_text().strip()
     p = Path(f"prompts/{sid}_still.txt").read_text().replace("<<LOOK>>", look)
-    refs = [SHEET, TIE, RUCH] + ([HAND] if sid in HANDS else [LOOK])
+    refs = [SHEET, TIE, RUCH] + ([HAND] if sid in HANDS else [LOOK]) + [ROOM]
     return refs, "Vertical 9:16 photo, a single frame from a phone-shot mirror video. " + p
 
 
