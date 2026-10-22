@@ -1,0 +1,187 @@
+<title>Flashlight V2 Gemini Kit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: steps first, the 5 reference images, then one card per shot with its upload list and prompt */
+:root{--bg:#f3f4f6;--card:#fff;--fg:#1d2430;--muted:#5d6676;--line:#dde1e7;--ember:#e8622c;--dusk:#2f4a6b;--chip:#e9eef5;--chipfree:#fdeee6;--code:#f6f7f9;
+--display:"Barlow Condensed","Arial Narrow",sans-serif;--body:"Source Sans 3",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#131820;--card:#1c2330;--fg:#e8ecf2;--muted:#9aa4b4;--line:#2c3544;--ember:#f07a45;--dusk:#9cb8dc;--chip:#263246;--chipfree:#3a2a22;--code:#161c26;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#131820;--card:#1c2330;--fg:#e8ecf2;--muted:#9aa4b4;--line:#2c3544;--ember:#f07a45;--dusk:#9cb8dc;--chip:#263246;--chipfree:#3a2a22;--code:#161c26;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:820px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font:700 2.1rem/1.05 var(--display);margin:0;text-wrap:balance} h2{font:700 1.3rem/1.1 var(--display);margin:0 0 8px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.refs{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.ups{display:grid;grid-template-columns:repeat(auto-fill,minmax(90px,110px));gap:8px}
+figure{margin:0;display:grid;gap:4px;min-width:0} figure img{width:100%;max-width:100%;border-radius:6px;border:1px solid var(--line);background:var(--chip);aspect-ratio:3/4;object-fit:contain}
+figcaption{font:500 .7rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.shot{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:10px;min-width:0}
+.head{display:flex;gap:10px;align-items:baseline} .num{font:700 1.6rem/1 var(--display);color:var(--dusk)}
+.chip{font:600 .72rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip)} .chip.free{background:var(--chipfree)}
+.say{font:600 1.1rem/1.35 var(--body);margin:0} .say::before{content:"\201C"} .say::after{content:"\201D"}
+.lbl{margin:4px 0 0;font:600 .75rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+pre{margin:0;white-space:pre-wrap;word-break:break-word;background:var(--code);border:1px solid var(--line);border-radius:6px;padding:12px;font:13px/1.5 var(--mono);max-height:260px;overflow:auto}
+.copy{justify-self:start;font:600 .95rem var(--body);background:var(--ember);color:#fff;border:0;border-radius:8px;padding:10px 16px;cursor:pointer}
+.copy:focus-visible{outline:3px solid var(--dusk);outline-offset:2px}
+</style>
+<div class="wrap">
+<header><h1>Flashlight V2 · Gemini kit</h1><p style="color:var(--muted);margin:6px 0 0">9 stills for Grace's flashlight video. The real flashlight: light grey, orange button below the light panel, 15.7 cm with the clip.</p></header>
+<section class="box"><h2>How to do each shot</h2><ol>
+<li>Save the 5 images below once (press and hold an image, then Save).</li>
+<li>For each shot, open a <b>new</b> Gemini chat and pick the image model (Nano Banana Pro if it offers a choice).</li>
+<li>Upload that shot's images <b>in the order shown</b>, tap Copy prompt, paste and send.</li>
+<li>Send the picture back here. I'll check it at 2x and do any free fixes. A Gemini mark in the corner is fine; I crop it.</li></ol></section>
+<section class="box"><h2>The 5 reference images</h2><div class="refs"><figure><img src="ref1_product_sheet.png" alt="1 · Product sheet"><figcaption>1 · Product sheet</figcaption></figure><figure><img src="ref2_true_shape.png" alt="2 · True shape, clip on top"><figcaption>2 · True shape, clip on top</figcaption></figure><figure><img src="ref3_lens_closeup.png" alt="3 · Lens end, lit"><figcaption>3 · Lens end, lit</figcaption></figure><figure><img src="ref4_grace_hand.jpg" alt="4 · Grace's hand"><figcaption>4 · Grace's hand</figcaption></figure><figure><img src="ref5_port_closeup.png" alt="5 · USB port by the clip"><figcaption>5 · USB port by the clip</figcaption></figure></div></section>
+<article class="shot" id="s1"><div class="head"><span class="num">S1</span><span class="chip">Hand</span></div>
+<p class="say">Who in the world made this???</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref4_grace_hand.jpg" alt="ref4_grace_hand.jpg"><figcaption>Upload 3: ref4</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S1">I am uploading 3 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = her real hand: skin tone, nails, rings and bracelets.
+
+Make one photo (shot S1 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: Close-up at chest height: her hand grips only the darker grey torch-head end at the bottom of the flashlight and holds it upright, so the orange button and the whole light panel stay uncovered in front of the pine trees, the side panel switched on with soft white light, the orange button facing the camera, and the whole carabiner clip visible above her fingers. The flashlight fills about a third of the frame height; the tent is soft in the background.
+
+HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S1" id="c-S1">Copy prompt</button></article><article class="shot" id="s2"><div class="head"><span class="num">S2</span><span class="chip free">Hand-free</span></div>
+<p class="say">Because what do you mean I can charge my phone with this,</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref5_port_closeup.png" alt="ref5_port_closeup.png"><figcaption>Upload 3: ref5</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S2">I am uploading 3 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = the real clip end with the USB port beside the carabiner, cable plugged in (shape only: its colour is darker than the real light grey).
+
+Make one photo (shot S2 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: On the wooden picnic table, the flashlight lies on its side, its light off. A white USB cable runs from the USB port beside its clip (image 3) to a black smartphone lying face up next to it. The phone screen is dark except for one small green battery symbol in the middle, no words or numbers. Camera low and close along the table.
+
+No hands, fingers or people anywhere in the photo.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S2" id="c-S2">Copy prompt</button></article><article class="shot" id="s3"><div class="head"><span class="num">S3</span><span class="chip free">Hand-free</span></div>
+<p class="say">hang it up in my tent for hands-free lighting,</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S3">I am uploading 2 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts).
+
+Make one photo (shot S3 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: Inside the sage-green dome tent at blue hour: the flashlight hangs by its carabiner clip from the small fabric loop at the top of the tent, side panel on, lighting the tent walls with soft white light. A rolled sleeping bag and a pillow below. The flashlight is small in the frame, the whole tent interior visible.
+
+No hands, fingers or people anywhere in the photo.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S3" id="c-S3">Copy prompt</button></article><article class="shot" id="s4"><div class="head"><span class="num">S4</span><span class="chip">Hand</span></div>
+<p class="say">AND use it as a regular flashlight with a focused beam?</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref3_lens_closeup.png" alt="ref3_lens_closeup.png"><figcaption>Upload 3: ref3</figcaption></figure><figure><img src="ref4_grace_hand.jpg" alt="ref4_grace_hand.jpg"><figcaption>Upload 4: ref4</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S4">I am uploading 4 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = the real flashlight lying down, torch head lit: the round silver reflector inside a rounded-square bezel at the darker grey end; Image 4 = her real hand: skin tone, nails, rings and bracelets.
+
+Make one photo (shot S4 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: First-person view down a narrow dirt trail between pine trees: her hand at the bottom centre of the frame holds the flashlight pointing straight ahead and away from the camera, its torch head (image 3) facing down the trail, side panel off. A focused white beam runs straight ahead from the torch head and makes a bright round pool of light on the trail exactly where it points; no light anywhere else.
+
+HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S4" id="c-S4">Copy prompt</button></article><article class="shot" id="s5"><div class="head"><span class="num">S5</span><span class="chip free">Hand-free</span></div>
+<p class="say">And it has a flickering mode, too, for emergencies!</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref3_lens_closeup.png" alt="ref3_lens_closeup.png"><figcaption>Upload 3: ref3</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S5">I am uploading 3 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = the real flashlight lying down, torch head lit: the round silver reflector inside a rounded-square bezel at the darker grey end.
+
+Make one photo (shot S5 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: The flashlight stands on a flat rock at the edge of the campsite, turned three-quarters so the round torch head (image 3) faces the camera at an angle, side panel OFF and dark. The torch head is switched on with a bright white light shining toward the trees; nothing else is lit by it. Camera low, close to the rock.
+
+No hands, fingers or people anywhere in the photo.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S5" id="c-S5">Copy prompt</button></article><article class="shot" id="s6"><div class="head"><span class="num">S6</span><span class="chip free">Hand-free</span></div>
+<p class="say">This is the kind of gadget that makes sense to keep with your camping gear</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S6">I am uploading 2 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts).
+
+Make one photo (shot S6 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: A dark-grey hiking backpack stands on the ground; the flashlight hangs from its shoulder strap by the carabiner clip, side panel on. The strap is 5 cm wide and the flashlight is about three times as tall as the strap is wide. The tent and the mountains are soft behind it.
+
+No hands, fingers or people anywhere in the photo.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S6" id="c-S6">Copy prompt</button></article><article class="shot" id="s7"><div class="head"><span class="num">S7</span><span class="chip">Hand</span></div>
+<p class="say">or emergency kit.</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref4_grace_hand.jpg" alt="ref4_grace_hand.jpg"><figcaption>Upload 3: ref4</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S7">I am uploading 3 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = her real hand: skin tone, nails, rings and bracelets.
+
+Make one photo (shot S7 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: Top-down close-up: an open plain dark-blue zip pouch on the picnic table with bandages, a small water bottle and a roll of tape inside. Her hand grips the flashlight by its darker grey torch-head end and is lowering it into the pouch, light off, the orange button visible. The pouch has no cross, no logo and no writing.
+
+HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S7" id="c-S7">Copy prompt</button></article><article class="shot" id="s8"><div class="head"><span class="num">S8</span><span class="chip">Hand</span></div>
+<p class="say">And it costs less than a McDonald&#x27;s Happy Meal!</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref4_grace_hand.jpg" alt="ref4_grace_hand.jpg"><figcaption>Upload 3: ref4</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S8">I am uploading 3 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = her real hand: skin tone, nails, rings and bracelets.
+
+Make one photo (shot S8 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: Her hand stands the flashlight upright on the picnic table, torch head down on the wood and the carabiner clip on top, side panel on; her fingers grip only the darker grey torch-head end at the bottom, the orange button and the light panel uncovered. The whole clip is visible. Only the flashlight and her hand on the table, the campsite soft behind. No food, no packaging, no other products.
+
+HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S8" id="c-S8">Copy prompt</button></article><article class="shot" id="s9"><div class="head"><span class="num">S9</span><span class="chip">Hand</span></div>
+<p class="say">I&#x27;m linking it in the orange cart for you!</p>
+<p class="lbl">Upload in this order</p><div class="ups"><figure><img src="ref1_product_sheet.png" alt="ref1_product_sheet.png"><figcaption>Upload 1: ref1</figcaption></figure><figure><img src="ref2_true_shape.png" alt="ref2_true_shape.png"><figcaption>Upload 2: ref2</figcaption></figure><figure><img src="ref4_grace_hand.jpg" alt="ref4_grace_hand.jpg"><figcaption>Upload 3: ref4</figcaption></figure></div>
+<p class="lbl">Paste this prompt</p><pre id="p-S9">I am uploading 3 reference images. Image 1 = the product reference sheet of the real flashlight from several sides (parts and colour); Image 2 = the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts); Image 3 = her real hand: skin tone, nails, rings and bracelets.
+
+Make one photo (shot S9 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.
+
+SCENE: Close-up: her hand clips the flashlight&#x27;s carabiner onto the shoulder strap of the dark-grey backpack, thumb pressing the silver wire gate open, the orange button facing the camera, side panel on. The mountains are soft behind.
+
+HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.
+
+THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end. The torch head is a round silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.
+
+PLACE: one campsite in a pine forest at blue hour, just after sunset: the sky is still bright blue with a soft pale glow at the horizon, the scene is evenly and clearly lit, true neutral colours, no orange, yellow or golden cast, not dark or moody. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.
+
+Real photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no logos or brand names anywhere, no lens flare, no sparkles, no light streaks.</pre>
+<button type="button" class="copy" data-t="p-S9" id="c-S9">Copy prompt</button></article>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>{const t=document.getElementById(b.dataset.t).textContent;
+const done=()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy prompt',1600)};
+const sel=()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(b.dataset.t));const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected: press Copy'};
+try{navigator.clipboard.writeText(t).then(done,sel)}catch(e){sel()}}));
+</script>

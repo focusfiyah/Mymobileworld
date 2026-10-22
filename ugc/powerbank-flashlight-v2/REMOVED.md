@@ -1,0 +1,4 @@
+- Orange button next to the clip (layout A) + gunmetal colour: wrong for Grace's unit (Ralph 2026-10-22: "B and light grey").
+- McDonald's / Happy Meal box on screen (Ralph 2026-10-22: "Do not show"); spoken only.
+- Side panel lit in the flicker shot (Ralph 2026-10-22): the flicker comes from the front lens.
+- On-screen text (Ralph 2026-10-22: "No text").

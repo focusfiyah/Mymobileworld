@@ -11,22 +11,22 @@ D = Path(__file__).resolve().parent
 REF = {
     "sheet": ("ref1_product_sheet.png", "the product reference sheet of the real flashlight from several sides (parts and colour)"),
     "shape": ("ref2_true_shape.png", "the real flashlight standing upright with its carabiner clip on top (its true slim proportions and the order of its parts)"),
-    "lens": ("ref3_lens_closeup.png", "a close-up of the real torch head: the round silver reflector with a small square LED inside a rounded-square bezel"),
+    "lens": ("ref3_lens_closeup.png", "the real flashlight lying down, torch head lit: the round silver reflector inside a rounded-square bezel at the darker grey end"),
     "hand": ("ref4_grace_hand.jpg", "her real hand: skin tone, nails, rings and bracelets"),
-    "port": ("ref5_port_closeup.png", "a close-up of the real clip end: the carabiner and the USB port beside it"),
+    "port": ("ref5_port_closeup.png", "the real clip end with the USB port beside the carabiner, cable plugged in (shape only: its colour is darker than the real light grey)"),
 }
 
 PARTS = {
     "A": "from the clip end: the grey carabiner clip with a thin silver wire gate, then right below it ONE rounded-square orange button with a small embossed arrow icon, then a long rounded-rectangle frosted white light panel, then the plain grey body down to the torch head at the far end",
-    "B": "from the clip end: the grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed arrow icon, then a slightly darker grey torch-head section at the far end",
+    "B": "from the clip end: the light grey carabiner clip with a thin silver wire gate, then a long rounded-rectangle frosted white light panel, then ONE rounded-square orange button with a small embossed icon, then a slightly darker grey torch-head section at the far end",
 }[ORDER]
 
 SIZE = ("SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, "
         "90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.")
 
 PRODUCT = ("THE FLASHLIGHT must match the reference images exactly, part for part and colour for colour: a slim square bar with "
-           f"rounded corners in matte grey (the exact grey of image 1), and its parts in this order {PARTS}. The torch head is a round "
-           "silver reflector with a small square LED in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no "
+           f"rounded corners in matte LIGHT grey (the exact light grey of images 1 and 2; only the torch-head end is a slightly darker grey), and its parts in this order {PARTS}. The torch head is a round "
+           "silver reflector in a rounded-square bezel. No text, no logo, no stickers, no extra buttons, no "
            "screen, no second light. Only one flashlight in the photo.")
 
 HAND = ("HER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink "
@@ -45,7 +45,7 @@ STYLE = ("Real photo taken on a phone, casual and realistic, like a real person 
 
 SHOTS = [
     ("S1", "Who in the world made this???", ["sheet", "shape", "hand"], True,
-     "Close-up at chest height: her hand grips the lower half of the flashlight and holds it upright in front of the pine trees, "
+     "Close-up at chest height: her hand grips only the darker grey torch-head end at the bottom of the flashlight and holds it upright, so the orange button and the whole light panel stay uncovered in front of the pine trees, "
      "the side panel switched on with soft white light, the orange button facing the camera, and the whole carabiner clip visible "
      "above her fingers. The flashlight fills about a third of the frame height; the tent is soft in the background."),
     ("S2", "Because what do you mean I can charge my phone with this,", ["sheet", "shape", "port"], False,
@@ -71,11 +71,11 @@ SHOTS = [
      "behind it."),
     ("S7", "or emergency kit.", ["sheet", "shape", "hand"], True,
      "Top-down close-up: an open plain dark-blue zip pouch on the picnic table with bandages, a small water bottle and a roll of tape "
-     "inside. Her hand grips the flashlight by its body and is lowering it into the pouch, light off. The pouch has no cross, no "
+     "inside. Her hand grips the flashlight by its darker grey torch-head end and is lowering it into the pouch, light off, the orange button visible. The pouch has no cross, no "
      "logo and no writing."),
     ("S8", "And it costs less than a McDonald's Happy Meal!", ["sheet", "shape", "hand"], True,
      "Her hand stands the flashlight upright on the picnic table, torch head down on the wood and the carabiner clip on top, side "
-     "panel on; her fingers grip the middle of the body. The whole clip is visible. Only the flashlight and her hand on the table, "
+     "panel on; her fingers grip only the darker grey torch-head end at the bottom, the orange button and the light panel uncovered. The whole clip is visible. Only the flashlight and her hand on the table, "
      "the campsite soft behind. No food, no packaging, no other products."),
     ("S9", "I'm linking it in the orange cart for you!", ["sheet", "shape", "hand"], True,
      "Close-up: her hand clips the flashlight's carabiner onto the shoulder strap of the dark-grey backpack, thumb pressing the "
