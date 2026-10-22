@@ -38,7 +38,7 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
-LEN = {"FULL": "refs/inspo_len/len_top_of_knee.png", "TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
+LEN = {"FULL2": "refs/inspo_len/len_top_of_knee.png", "FULL": "refs/inspo_len/len_top_of_knee.png", "TOP": "refs/inspo_len/len_top_of_knee.png", "ONELEG": "refs/inspo_len/len_one_leg.png", "SHORT": "refs/inspo_len/len_shortest.png"}
 
 
 def len_still(sid):
@@ -47,10 +47,10 @@ def len_still(sid):
     import json
     shot = json.loads(Path("prompts/len_shots.json").read_text())[sid]
     look = Path("prompts/look.txt").read_text().strip()
-    if sid == "FULL":   # Kling motion control needs a whole person: drop the waist-down framing line for this one still
-        look = "\n".join(l for l in look.splitlines() if not l.startswith("LOOK:")) + "\nLOOK: vertical 9:16 iPhone mirror selfie, full body head to boots. Bright, neutral, natural colour, no yellow or golden tint. No text, no watermark."
+    if sid in ("FULL", "FULL2"):   # Kling motion control needs a whole person: drop the waist-down framing line for this one still
+        look = "\n".join(l for l in look.splitlines() if not l.startswith("LOOK:")) + "\nLOOK: vertical 9:16 phone photo in a mirror, full body head to boots. Bright, neutral, natural colour, no yellow or golden tint. No text, no watermark."
     prompt = "Vertical 9:16 photo, a single frame from a phone-shot mirror video. " + Path("prompts/len_still.txt").read_text().replace("<<LOOK>>", look).replace("<<SHOT>>", shot)
-    if sid == "FULL": prompt = prompt.replace("the light and the framing MUST match image 3 exactly", "the light MUST match image 3 (framing here is full body)")
+    if sid in ("FULL", "FULL2"): prompt = prompt.replace("the light and the framing MUST match image 3 exactly", "the light MUST match image 3 (framing here is full body)")
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(r) for r in (SHEET, TIE, LOOK, LEN[sid])],
                         "aspect_ratio": "9:16", "resolution": "1K"}})
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
