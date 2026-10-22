@@ -51,7 +51,13 @@ def len_still(sid):
         look = "\n".join(l for l in look.splitlines() if not l.startswith("LOOK:")) + "\nLOOK: vertical 9:16 phone photo in a mirror, full body head to boots. Bright, neutral, natural colour, no yellow or golden tint. No text, no watermark."
     prompt = "Vertical 9:16 photo, a single frame from a phone-shot mirror video. " + Path("prompts/len_still.txt").read_text().replace("<<LOOK>>", look).replace("<<SHOT>>", shot)
     if sid in ("FULL", "FULL2"): prompt = prompt.replace("the light and the framing MUST match image 3 exactly", "the light MUST match image 3 (framing here is full body)")
-    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(r) for r in (SHEET, TIE, LOOK, LEN[sid])],
+    refs = (SHEET, TIE, LOOK, LEN[sid])
+    if sid == "FULL2":   # r1 drew a stranger: give Grace's own sheet + the full-body still of her in Ralph's bedroom
+        refs = (SHEET, TIE, "stills/FULL.png", LEN[sid], "../../grace/ref/grace_reference_sheet.png")
+        prompt += (" Image 3 here is a full-body frame of the SAME woman in the SAME bedroom: match her body, skin, braids, outfit, boots, room and light. "
+                   "Image 5 is Grace's reference sheet: her face, medium-dark brown skin and long dark boho braids MUST match it; she is Grace, not anyone else. "
+                   "Her hands hold ONLY the two skirt ties; there is no phone in her hands or anywhere in the picture.")
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": prompt, "image_input": [kie.upload(r) for r in refs],
                         "aspect_ratio": "9:16", "resolution": "1K"}})
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
