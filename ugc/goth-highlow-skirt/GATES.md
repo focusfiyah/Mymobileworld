@@ -33,6 +33,8 @@ Scope: one ~15 s vertical AI video recreating the inspo (@jaquelineee809, adjust
   EXPECT: GATE OK
   EVIDENCE: run by hand 2026-10-22: GATE OK (proof/compare.md)
 
-- [ ] G8: Cut checked against REMOVED.md; on the review page; Ralph pushed + emailed; Ralph approved
+- [x] G8: Cut checked against REMOVED.md; on the review page; Ralph pushed + emailed; Ralph approved
+  EVIDENCE: REMOVED.md (heels, black skirt, text, voice) none in the cut; review page round 12; email + push sent; Ralph 2026-10-22 "Approved, upload to Drive"
 
-- [ ] G9: In Drive "Grace Tiktok assets" product folder as CURRENT, link in README; Kie cost vs quote recorded; job branch merged to main
+- [x] G9: In Drive "Grace Tiktok assets" product folder as CURRENT, link in README; Kie cost vs quote recorded; job branch merged to main
+  EVIDENCE: https://drive.google.com/drive/folders/1dSRBdxMyA0_lZ4ZThrLCMpHfD0a59LED : CURRENT - Goth Skirt V1.mp4 (Drive size 10880381 = local) + CURRENT - Goth Skirt caption (read back OK); README Status: Kie $3.10 vs $1.62; merged to main 2026-10-22
