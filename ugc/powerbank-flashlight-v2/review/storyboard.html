@@ -37,12 +37,33 @@ figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:upperca
 .cost table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;margin-top:8px}
 .cost td{padding:6px 0;border-bottom:1px solid var(--line)}.cost td:last-child{text-align:right;font-family:var(--mono);font-size:.9rem}
 @media (max-width:420px){h1{font-size:1.8rem}}
+.round{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:14px}
+.round .lead{margin:0;color:var(--muted)}
+.grid9{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.st{display:grid;gap:6px;align-content:start}
+.st img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+.st .h{display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
+.st .n{font:700 1.2rem/1 var(--display);color:var(--dusk)}
+.tag{font:600 .66rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:var(--chip)}
+.tag.ok{background:#dcefe2;color:#1f5a33}.tag.fix{background:#fdf1d8;color:#7a5408}.tag.redo{background:#fbe0dc;color:#8a2a1c}
+.st p{margin:0;font-size:.86rem;line-height:1.35}
+@media (max-width:560px){.grid9{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 <div class="wrap">
 <header>
   <h1>Power Bank Flashlight V2 · storyboard</h1>
   <p class="sub">Grace · your script word for word · 9 shots · about 25 s · one dusk campsite · built from your storyboard panels, with the real grey TINEKO from the reference sheet in every shot.</p>
 </header>
+<section class="round"><h2>Cut r1 · 22.6 s (newest)</h2>
+<p class="lead">Your script word for word in Grace's cloned voice (echo 150 ms, passes), 9 shots, no text, AI finish on. Omni made S3, S4 and S6; Seedance made S1, S2, S5, S7, S8 and S9 after Omni failed again. S5's front lens flickers about 3 times a second, added free in the edit, with the side panel off. Gate: GATE OK.</p>
+<video src="clips/cut_r1.mp4" controls playsinline loop style="width:min(100%,360px);aspect-ratio:9/16;border-radius:6px;border:1px solid var(--line);background:var(--chip)"></video>
+<p class="lead">Small things I found at 2x, your call: the tiny SMILING SHARK print on the cap is garbled in S1 and S4 (unreadable at phone size); S6 has a faint green lens ghost for about a second.</p></section>
+<section class="round"><h2>Round 3 · S7 clip on Seedance</h2>
+<p class="lead">Seedance 2.0 Mini, reference mode from your approved S8 frame, $0.164. Checked at 2x: clip on top, panel, orange button, dark cap, same rings and nails, clean hand edges; it goes into the pouch end cap first. The panel stays lit, like S8, to show the light.</p>
+<video src="clips/S7.mp4" controls playsinline muted loop style="width:min(100%,360px);aspect-ratio:9/16;border-radius:6px;border:1px solid var(--line);background:var(--chip)"></video></section>
+<section class="round"><h2>Round 2 · the 9 stills (S5 + S7 redone)</h2>
+<p class="lead">S1–S4 from your Gemini app, S5–S9 from Kie with your S1 and S2 as references. Dusk sky darker, the lights glow. Checked at 2x. Clips are on hold: Kie's Omni answered "500 Internal Error" on all 7 tries (S4, S3, S8, even a bare 2-image request), each failing in about 13 s, so nothing was charged for clips.</p>
+<div class="grid9"><figure class="st"><img src="st/S1.jpg" alt="Still S1"><div class="h"><span class="n">S1</span><span class="tag ok">OK</span></div><p>Yours. Matches the real unit.</p></figure><figure class="st"><img src="st/S2.jpg" alt="Still S2"><div class="h"><span class="n">S2</span><span class="tag fix">free fix</span></div><p>Yours. Wood looks over-sharp; soft blur + crop the orange blob at the left edge (free).</p></figure><figure class="st"><img src="st/S3.jpg" alt="Still S3"><div class="h"><span class="n">S3</span><span class="tag ok">OK</span></div><p>Yours. Matches.</p></figure><figure class="st"><img src="st/S4.jpg" alt="Still S4"><div class="h"><span class="n">S4</span><span class="tag ok">OK</span></div><p>Yours. Part order, button, logo, rings all right.</p></figure><figure class="st"><img src="st/S5.jpg" alt="Still S5"><div class="h"><span class="n">S5</span><span class="tag ok">redo OK</span></div><p>Redo (Kie). Lies on the rock, lens lit, beam toward the camp, side panel off: the flicker can come from this lens. Small orange blob at the left edge: free patch.</p></figure><figure class="st"><img src="st/S6.jpg" alt="Still S6"><div class="h"><span class="n">S6</span><span class="tag fix">free fix</span></div><p>Kie. It drew a second lit strip on the side; painted out free (shown fixed).</p></figure><figure class="st"><img src="st/S7.jpg" alt="Still S7"><div class="h"><span class="n">S7</span><span class="tag fix">replaced by clip</span></div><p>Redo (Kie), still wrong: no carabiner clip, bronze caps, button above the panel, logo on the body. Your call: your Gemini app ($0) or one more Kie try ($0.09).</p></figure><figure class="st"><img src="st/S8.jpg" alt="Still S8"><div class="h"><span class="n">S8</span><span class="tag ok">OK</span></div><p>Kie. Clip on top, panel lit, button, logo, nails right.</p></figure><figure class="st"><img src="st/S9.jpg" alt="Still S9"><div class="h"><span class="n">S9</span><span class="tag ok">OK</span></div><p>Kie. Product right. Her blue band came out as a wristband instead of a ring: small, I'd let it go.</p></figure></div></section>
 
 <section class="rules">
   <h2>What changes from the guide images</h2>

@@ -80,12 +80,23 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare_report.md",
+   "research/compare_r1/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "verbatim_ok": {
   "by": "Ralph",
   "date": "2026-10-22",
   "quote": "No text, word for word"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-22",
+  "quote": "Approved 1. yes 2. No. And wanted it a bit darker to match what the product does. To showcase the lights. If you noticed 1-4 are slightly",
+  "total": 3.69,
+  "sha256": "23384450432236b8837c40e97af42843bb3995cbdbeacec3f58b4f109241c3c2",
+  "spent_at_approval": 0.0
  }
 }
