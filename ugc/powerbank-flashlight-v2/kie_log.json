@@ -413,5 +413,36 @@
    "Internal Error, Please try again later."
   ],
   "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:26:31",
+  "submitted": "902c5de18584543f3ca59f87e27135cb",
+  "prompt": "Reference image 1 is an approved frame from this same video: use its exact flashlight, her hand (skin, French-tip nails,"
+ },
+ {
+  "t": "2026-10-23 00:28:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Reference image 1 is an approved frame from this same video: use its exact flashlight, her hand (skin, French-tip nails, rings, bracelets), the campsite and the dusk light. Reference image 2 is the real flashlight standing upright: carabiner clip on top, then the light blue-grey body with the long frosted light panel, ONE square orange power button, and the dark grey brushed-metal end cap at the bottom. Reference image 3 is a close-up of the print on that end cap: a white shark logo and the words SMILING SHARK, matching letter for letter. Reference image 4 is the real product sheet: exact slim shape, 15.7 cm long with the clip, about as long as a phone, 2.95 cm square, and its colours.\nScene: close-up on the weathered wooden picnic table: an open plain dark-blue zip pouch with bandages, a small water bottle and a roll of tape inside; the pouch has no cross, no logo and no writing. Her hand holds the flashlight upright by the upper body just below the carabiner clip, the orange button and the light panel facing the camera, side panel off, and slowly lowers it, end cap first, into the pouch until it rests among the items, then lets go.\nThe flashlight is the light blue-grey square bar from images 1, 2 and 4 the whole time: never black, never round, no bronze or copper parts, the clip always on top, the button below the panel. The hand keeps one grip and the flashlight never flips or turns around. Only one flashlight and one hand.\nCamera: slow push-in. Dusk sky darkened closer to night while the campsite stays visible, true neutral colours, no golden cast. Vertical 9:16 phone footage. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715167148-if80902tifp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715169624-y4hbhcsn9uc.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "902c5de18584543f3ca59f87e27135cb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792715310581-wmnrgn181qb.mp4"
+   ]
+  },
+  "costTime": 121
  }
 ]
