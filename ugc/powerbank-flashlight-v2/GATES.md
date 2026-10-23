@@ -43,5 +43,5 @@ Scope: one ~25 s hands-only AI video of the grey TINEKO flashlight on Ralph's sc
 - [x] G9: cut 9:16, no text, REMOVED.md checked, AI finish, gate --stage cut OK, review page + push + email
   EVIDENCE: manual 2026-10-23: out/flashlight_v2_r1.mp4 1080x1920 22.6 s, no text, REMOVED.md checked (research/compare_report.md), AI finish in cut.py, gate --stage cut GATE OK, review page v9, email sent; phone push tool not available this session
 
-- [ ] G10: approved cut + script doc in Drive "Grace Tiktok assets/Power Bank Flashlight (Grace)" as CURRENT, size matches; job branch merged to main
-  EVIDENCE: pending
+- [x] G10: approved cut + script doc in Drive "Grace Tiktok assets/Power Bank Flashlight (Grace)" as CURRENT, size matches; job branch merged to main
+  EVIDENCE: manual 2026-10-23: Ralph "Approved"; Drive folder 1r_tveoqKXNKBRcBei6G-wSHfIGOFoIW9: CURRENT - Flashlight V2.mp4 (10THQFZmreJ9IHCLKv2vStjSaBsITZIyJ, 58,861,345 bytes = local) + CURRENT - Flashlight V2 script (1Okl2wel8AG0l3Zm238o3FGH1NEPaCEBGwcB4Q-YhjTw); V1 files stay (a different video); job branch merged to main
