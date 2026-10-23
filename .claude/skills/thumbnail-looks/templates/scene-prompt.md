@@ -3,7 +3,7 @@
 The structure of the prompt pack's 620-word prompt, for a Day One intro, sting or end card. Fill only the BRAND
 block per piece; the rest refers to it by name. First used 2026-10-23 for the Day One sting: the filled prompt is
 Dayone-ai `intro/SCENE.md`, the renderer `intro/intro.py` (Playwright frames + numpy sound from one timeline) and its
-checks `intro/check.py`; copy those for the next one. Blender is not in the cloud container; HyperFrames installs
+checks `intro/check.py`; reuse the renderer and checks, not the look: Ralph turned that sting down because the three versions looked the same (2026-10-23). Blender is not in the cloud container; HyperFrames installs
 with Dayone-ai `setup.sh`. Any paid generation it leads to needs Ralph's OK with the cost first.
 
 ```text

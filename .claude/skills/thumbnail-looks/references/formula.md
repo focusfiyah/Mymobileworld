@@ -38,3 +38,7 @@ judges the channel as a whole, and identical thumbnails are the most visible sig
   timeline file that both the motion and the sound read, so hits land on their frame.
 - **Silence is a hit.** After the click the music stopped for 1.4 s; the quiet made the next beat land. Useful in
   a cold open: cut the bed under the result reveal.
+- **Different means a different layout, not new words and a new colour.** The first Day One intro sting (2026-10-23)
+  kept one split-flap board and swapped only the tool name and colour; Ralph: "No they all look the same". The
+  thumbnails passed because each one uses a different band. Anything meant to vary per video changes its format,
+  not just its fill.
