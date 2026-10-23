@@ -55,8 +55,9 @@ Scope: four 15 s remixes of Grace's selling castor video (3 sales) on Grace's 4 
   CHECK: python3 -c "import pathlib as p;f=p.Path('qc/r5/FINDINGS.md').read_text();ok=all(s in f for s in ['V1g','V1h','Redo list'])and all(p.Path(f'qc/r5/r4_v{n}_shots.jpg').exists() for n in '1234');print('FIND_OK' if ok else 'FIND_MISSING')"
   EXPECT: FIND_OK
   CWD: ugc/bodyj-castor-rollon/remix15
+  EVIDENCE: run by hand 2026-10-23 (CHECK lines need Ralph's approval to run through the checker): FIND_OK
 - [ ] G12: Ralph answered in ONE message: bracelet or no-bracelet sheet, the shots to redo, the exact total cost; his OK recorded before any paid call
-  EVIDENCE: pending
+  EVIDENCE: asked 2026-10-23 (BOOK.md TOTAL $9.96, review page v10, email 1a1670dc958d1311); waiting on his answer
 - [ ] G13: Every new still and clip prompt written with prompt-master, Grace's chosen hand sheet passed as a reference on every hand still and clip; no Kling
   EVIDENCE: pending
 - [ ] G14: One test clip passes QC (tone vs sheet at 2x, nails/rings, whole wrists, product unchanged, no headless body) before the batch
