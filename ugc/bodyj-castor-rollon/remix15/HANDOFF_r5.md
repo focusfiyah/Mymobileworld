@@ -48,3 +48,6 @@ Free check done (`qc/r5/FINDINGS.md`, sheets on the review page v10); free fixes
 (TOTAL $9.96, option B $3.88), prompts for both sheets in `r5/prompts/` (`r5.py`). Asked Ralph (email) the 3 questions; waiting.
 Live rules applied: product clips on Omni (Kie), Seedance only for V1b/V2a; no Kling. Next on his OK: `python3 ../../../grace/gate.py .
 --approve-book "<his words>"`, `python3 r5.py stills --sheet <s> <IDs>`, test clip V1d, then the rest.
+ON HOLD (Ralph 2026-10-23: "Hold on this, will come back to it"). He confirmed the findings ("You were correct"); no preference on
+sheet/scope/Flow, so the proposal is: no-bracelet sheet, all 25 shots, Flow skipped, TOTAL $9.96 (Kie top-up ~$6.10 before the
+clip batch). NOT approved yet: wait for his "yes, $9.96" before any paid call.
