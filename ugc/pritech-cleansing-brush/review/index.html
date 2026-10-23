@@ -1,0 +1,130 @@
+<title>PRITECH Scrubber Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column, newest round on top; plan = ask box, script, shot cards, product truth, cost */
+:root{
+  --bg:#f2f4f3; --card:#ffffff; --fg:#1b2420; --muted:#5a6762; --line:#d9e0dc;
+  --accent:#2f6b57; --warn:#c2552d; --chip:#e6eeea; --chipfree:#f6ebe4;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#7cc3a8;--warn:#f08a62;--chip:#24302b;--chipfree:#3a2c24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#7cc3a8;--warn:#f08a62;--chip:#24302b;--chipfree:#3a2c24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:860px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font:700 2.2rem/1.05 var(--display);letter-spacing:.01em;margin:0;text-wrap:balance}
+h2{font:700 1.35rem/1.1 var(--display);margin:0;letter-spacing:.02em}
+.sub{color:var(--muted);margin:6px 0 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:10px;min-width:0}
+.box ul,.box ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.ask{border-left:4px solid var(--warn);background:var(--card);padding:14px 18px;border-radius:0 10px 10px 0;display:grid;gap:8px}
+.ask strong{color:var(--warn)}
+.ask ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.script{font:600 1.1rem/1.45 var(--body);margin:0}
+.shot{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:8px;grid-template-columns:1fr 110px;align-items:start}
+.shot > div{min-width:0;display:grid;gap:6px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.num{font:700 1.5rem/1 var(--display);color:var(--accent)}
+.chip{font:600 .7rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip)}
+.chip.free{background:var(--chipfree)}
+.say{font:600 1.05rem/1.35 var(--body);margin:0}
+.say::before{content:"\201C"}.say::after{content:"\201D"}
+.see{margin:0;font-size:.95rem}
+.shot img{width:100%;max-width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+figure{margin:0;display:grid;gap:6px}
+figure img{width:100%;max-width:100%;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.rooms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.rooms img{aspect-ratio:3/4;object-fit:cover}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}td:last-child{text-align:right;font-family:var(--mono);font-size:.9rem;white-space:nowrap;padding-left:10px}
+.total td{font-weight:600;border-bottom:none}
+.muted{color:var(--muted);margin:0}
+@media (max-width:480px){h1{font-size:1.8rem}.shot{grid-template-columns:1fr 84px}.rooms{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<div class="wrap">
+<header>
+  <h1>PRITECH Face Scrubber · plan</h1>
+  <p class="sub">Grace · her storyboard script word for word · black PRITECH wand · 9 shots, about 27 s · no full face · no text · nothing spent yet.</p>
+</header>
+
+<section class="ask">
+  <p style="margin:0"><strong>Your OK on the plan, plus 4 quick answers.</strong> Total <b>$3.66</b> (one likely redo included), or <b>$2.85</b> if you make the stills in your Gemini app.</p>
+  <ol>
+    <li>Grace's hand sheet: <b>with</b> the bracelet or <b>without</b>? I'd go without (water and foam).</li>
+    <li>Nails: as on her hand sheet, or short natural?</li>
+    <li>Stills: Kie ($0.81) or your Gemini app ($0)?</li>
+    <li>On-screen text: none, as usual? The storyboard captions stay off unless you say so.</li>
+  </ol>
+</section>
+
+<section class="box">
+  <h2>What changes from the storyboard</h2>
+  <ul>
+    <li>The product is the <b>black PRITECH wand</b>, never the pink egg brush in the storyboard.</li>
+    <li><b>No full face:</b> the two face shots show the cheek and jaw from the side, eyes and mouth out of frame, so no lip sync.</li>
+    <li>The heat comes from the <b>silver metal end</b>, not the bristles (listing: constant 40°C = 104°F). The heat shot shows the metal end. No glowing bristles.</li>
+    <li>Length: the script runs about 27 s in Grace's voice, not 15 s.</li>
+    <li>Every claim checks out: soft silicone (box), 5 vibration levels (listing), 104°F (listing).</li>
+    <li>Kept as written (your word-for-word call), flagged only: no brag-style confession line, the close doesn't push more units, and it says "Go grab yours from the orange cart" instead of "It's in the orange cart."</li>
+  </ul>
+</section>
+
+<section class="box">
+  <h2>Script</h2>
+  <p class="script">If you're not washing your face with a cleansing brush, what are you doing? Your hands leave makeup and oil behind, and using a dirty face towel can transfer bacteria right back onto your skin. This one has soft silicone bristles, five vibration settings, and a warming feature that heats up to 104°F for that extra little spa feel. And for something you do every single day, you might as well do it right. Go grab yours from the orange cart before you forget!</p>
+  <p class="muted">Script gate OK. Reading grade 7.3, kept under your "Word for word" (recorded). Voiced "one hundred and four degrees Fahrenheit".</p>
+</section>
+
+<section class="box">
+  <h2>Shots</h2>
+  <p class="muted">6 with Grace's hand, 3 hand-free. Product shots on Omni (product lock), the two no-product shots on Seedance.</p>
+</section>
+<article class="shot"><div><div class="head"><span class="num">S1</span><span class="chip">hand</span><span class="chip">cheek only</span></div><p class="say">If you're not washing your face with a cleansing brush, what are you doing?</p><p class="see">Side view of Grace's foamy cheek and jaw, the black brush making small circles. Product on screen from frame 0, like the 490K PRITECH winner.</p></div><img src="img/room_A.jpg" alt="Room A, sage tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S2</span><span class="chip">hand</span></div><p class="say">Your hands leave makeup and oil behind,</p><p class="see">Two hands under the running tap, foundation and mascara smudges still on the fingertips.</p></div><img src="img/room_B.jpg" alt="Room B, pink tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S3</span><span class="chip">hand</span></div><p class="say">and using a dirty face towel can transfer bacteria right back onto your skin.</p><p class="see">Hand grips a crumpled grey face towel with makeup smears and lifts it off the sink edge.</p></div><img src="img/room_B.jpg" alt="Room B, pink tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S4</span><span class="chip free">hand-free</span></div><p class="say">This one has soft silicone bristles,</p><p class="see">Macro push-in on the bristle head, brush standing in its stand, a few water drops.</p></div><img src="img/room_A.jpg" alt="Room A, sage tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S5</span><span class="chip">hand</span></div><p class="say">five vibration settings,</p><p class="see">Thumb presses the top vibration button; the drops on the bristles shiver.</p></div><img src="img/room_A.jpg" alt="Room A, sage tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S6</span><span class="chip">hand</span><span class="chip">test clip + Flow trial</span></div><p class="say">and a warming feature that heats up to 104°F</p><p class="see">Thumb presses the °C button, camera tilts down to the silver metal end. Riskiest shot (small button icons), so it's the one test clip, made on Kie and as a $0 take in your Flow app.</p></div><img src="img/room_A.jpg" alt="Room A, sage tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S7</span><span class="chip">hand</span><span class="chip">cheek only</span></div><p class="say">for that extra little spa feel.</p><p class="see">Metal end glides in slow circles on the cheek, rolled towel and candle soft behind.</p></div><img src="img/room_A.jpg" alt="Room A, sage tile"></article>
+<article class="shot"><div><div class="head"><span class="num">S8</span><span class="chip free">hand-free</span></div><p class="say">And for something you do every single day, you might as well do it right.</p><p class="see">Slow dolly along a bright window counter: brush in its stand, a plain cleanser bottle, a plant.</p></div><img src="img/room_C.jpg" alt="Room C, window bath"></article>
+<article class="shot"><div><div class="head"><span class="num">S9</span><span class="chip free">hand-free</span></div><p class="say">Go grab yours from the orange cart before you forget!</p><p class="see">End shot: one brush in its stand, slow push-in, grey PRITECH on the stand.</p></div><img src="img/room_C.jpg" alt="Room C, window bath"></article>
+
+<section class="box">
+  <h2>The real product</h2>
+  <figure><img src="img/sheet.jpg" alt="Product reference sheet"><figcaption>Reference sheet from real photos: your black photo, real close-ups, teal and pink views for shape only</figcaption></figure>
+  <p class="muted">Matte black body and black silicone nubs, 3 buttons (vibration, on/off, °C), wide silver chrome end, black stand with grey PRITECH. No maker size found (Amazon refused my requests today), so I'm going by in-hand videos: about 15–16 cm, roughly one hand long. OK to use that?</p>
+</section>
+
+<section class="box">
+  <h2>Rooms</h2>
+  <div class="rooms">
+    <figure><img src="img/room_A.jpg" alt="Sage tile bathroom"><figcaption>A · sage tile (S1, S4–S7)</figcaption></figure>
+    <figure><img src="img/room_B.jpg" alt="Pink tile bathroom"><figcaption>B · pink tile (S2, S3)</figcaption></figure>
+    <figure><img src="img/room_C.jpg" alt="Window bath"><figcaption>C · window bath (S8, S9)</figcaption></figure>
+  </div>
+  <p class="muted">Real Pexels photos, free licence.</p>
+</section>
+
+<section class="box">
+  <h2>Research behind it</h2>
+  <ul>
+    <li>TikTok Shop: this PRITECH brush has sold 150,341 (4.6 stars, 16,505 reviews).</li>
+    <li>Top videos: @brazilian.princess1 490K (PRITECH on a foamy cheek from frame 0, 13 s), @ttspaulking 110K (PRITECH, "still washing your face with your HANDS?", Haitian audience), @sudscrub 694K (bacteria angle).</li>
+    <li>What people ask: "are facial cleansing brushes worth it", "face scrubber vs hands", "heated?". Some worry about breakouts, so the video makes no skin claims beyond the script.</li>
+  </ul>
+</section>
+
+<section class="box">
+  <h2>Cost</h2>
+  <table>
+    <tr><td>9 stills, Gemini 3 Pro Image on Kie</td><td>$0.81</td></tr>
+    <tr><td>7 product clips, Omni on Kie, 4 s</td><td>$2.205</td></tr>
+    <tr><td>2 no-product clips, Seedance 2.0 Mini, 4 s</td><td>$0.328</td></tr>
+    <tr><td>One likely redo, asked before it runs</td><td>$0.315</td></tr>
+    <tr><td>S6 Flow trial take (your credits)</td><td>$0</td></tr>
+    <tr class="total"><td>Total</td><td>$3.66</td></tr>
+  </table>
+  <p class="muted">October so far: $154.23 (no cap this month). Voice: about 330 ElevenLabs characters. Time after your OK: stills about 10 min, then your storyboard check, then about 30 min to the first cut.</p>
+</section>
+</div>
