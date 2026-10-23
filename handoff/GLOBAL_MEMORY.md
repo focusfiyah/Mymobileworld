@@ -51,5 +51,8 @@ GRACE
 DAY ONE AI
 Uploads stay PRIVATE until I approve. My cloned voice narrates; premade voices for demos. Quote the cost before any extra paid generation.
 
+MY NOTES (OBSIDIAN)
+- Obsidian notes (2026-10-23): my Obsidian vault on my phone (OnePlus N10, Android) syncs with the private GitHub repo focusfiyah/obsidian-vault through the GitSync app. For anything about my notes, attach that repo (add_repo), follow its CLAUDE.md, pull before editing and push to main right after; never delete or rename my notes or change Obsidian settings without asking.
+
 SKILLS
 One home for my skills: the private repo focusfiyah/claude-skills; load skill-smith for any skill work. SKILL.md under 200 lines, detail in references/.
