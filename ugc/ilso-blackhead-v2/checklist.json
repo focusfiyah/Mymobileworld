@@ -1,0 +1,61 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "spoken/*.txt",
+ "playbook": {
+  "proof": [
+   "playbook_applied.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_notes.md",
+   "research/tag/tag-ilso.json",
+   "research/tag/tag-sebumsoftener.json",
+   "research/videos/7622876796169637134/meta.json",
+   "research/videos/7646171586357136654/meta.json",
+   "research/videos/7684878883270708511/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-19.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "product_facts.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "humanizer.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "readability.txt"
+  ],
+  "max_grade": 4.0
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [],
+  "note": "after a cut only (scripts job, nothing to compare yet)"
+ }
+}

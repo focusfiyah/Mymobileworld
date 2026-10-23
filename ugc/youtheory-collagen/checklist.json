@@ -1,0 +1,91 @@
+{
+ "job": "youtheory-collagen",
+ "client": "Grace",
+ "date": "2026-10-22",
+ "route": "ugc-product-ad hands-only demo over the Grace voiceover; stills Gemini 3 Pro Image (Kie nano-banana-pro) + product sheet; product clips Google Omni 1.1 Flash on Kie (product lock); no-product clips Seedance 2.0 Mini on Kie; no Kling",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-collagen-liquid.json",
+   "research/tag/tag-liquidcollagen.json",
+   "research/videos/7689468443514440990/transcript.txt",
+   "research/videos/7695514910389849375/transcript.txt",
+   "research/videos/7696307320204086541/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-22.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "refs/real/SOURCES.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "client_script_verbatim": {
+  "videos": [
+   "V1"
+  ],
+  "by": "Ralph",
+  "date": "2026-10-22",
+  "quote": "Word for word"
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    "V1"
+   ],
+   "grade": 6.9,
+   "by": "Ralph",
+   "date": "2026-10-22",
+   "quote": "Word for word"
+  }
+ ],
+ "compare": {
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/compare/compare.md"
+  ]
+ }
+}

@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 39 of 101 videos posted since 2026-09-22
+39 videos -> /home/user/Mymobileworld/ugc/youtheory-collagen/research/tag/tag-liquidcollagen.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    104,500   2.0   0.51   57 2026-09-25  @shetoovirtuous: Replying to @TheJassyOne I live by this. I take mines every single mor
+                                          https://www.tiktok.com/@shetoovirtuous/video/7689468443514440990
+     49,500   3.3   0.41   37 2026-10-11  @she_ssuchadoll: Your self-care routine already has enough steps—why make your suppleme
+                                          https://www.tiktok.com/@she_ssuchadoll/video/7695514910389849375
+     30,200   6.6   2.32   82 2026-10-19  @annasigniture_squad: Supplement I take everyday #fyp #fypシ゚viral #liquidcollagen #fypシ #hea
+                                          https://www.tiktok.com/@annasigniture_squad/video/7698406667112697106
+     17,800   6.9   1.61   70 2026-10-11  @body_biotics: ✨ COLLAGEN GIRLIES, THIS ONE IS FOR YOU! 💗 Swedish Collagen Deluxe! 💗✨
+                                          https://www.tiktok.com/@body_biotics/video/7695520153018141970
+      8,555   1.2   0.13   33 2026-10-11  @she_ssuchadoll: Another supplement pill to swallow? Girl, let’s make it easier! 💅🏽✨ Na
+                                          https://www.tiktok.com/@she_ssuchadoll/video/7695515603267767582
+      4,627   2.9   0.13  127 2026-10-07  @cindycarosa: 8 weeks taking spolied child liquid collagen TRUTH!! NO B.S.#spoliedch
+                                          https://www.tiktok.com/@cindycarosa/video/7694016325420682526
+      3,890   2.1   0.03   23 2026-10-21  @trendynatalya: Trying the Youtheory collagen liquid berry flavor, zero sugar, and no 
+                                          https://www.tiktok.com/@trendynatalya/video/7699143237767941406
+      2,518   3.4   0.16  146 2026-09-27  @cindycarosa: Day 51 7 weeks 2 days in#collagenjourney #deinfluencing #spoiledchiled
+                                          https://www.tiktok.com/@cindycarosa/video/7690263701214989599
+      1,423   0.4   0.21   34 2026-10-14  @josina_munson: Your skin will thank you ✨👀 #collagen #liquidcollagen #youtheory #tikt
+                                          https://www.tiktok.com/@josina_munson/video/7696307320204086541
+      1,190   0.3      0   41 2026-10-14  @josina_munson: Don’t skip your collagen 🤯 #collagen #liquidcollagen #youtheory #tikto
+                                          https://www.tiktok.com/@josina_munson/video/7696308791985343758
+      1,165   4.9   0.17   65 2026-10-14  @cindycarosa: Spolied child liquid collagen Truth! NO B.S.#spoliedchildliquidcollage
+                                          https://www.tiktok.com/@cindycarosa/video/7696635202654850335
+      1,148   0.1      0   25 2026-10-20  @onebasicmama: #collagenpeptides #collagen #hairskinnails #liquidcollagen 
+                                          https://www.tiktok.com/@onebasicmama/video/7698877992285621535
+      1,016   0.6    0.1   20 2026-10-12  @inaaronwetrustttt: Crazy deal! #tiktokshopfalldealsforyou #tiktokshopcreatorpicks 
+                                          https://www.tiktok.com/@inaaronwetrustttt/video/7695571059495439647
+        914   6.2   0.33  156 2026-10-20  @cindycarosa: DAY 74 spolied child liquid collagen #collagenjourney #spoiledchiledli
+                                          https://www.tiktok.com/@cindycarosa/video/7698849060702244126
+        881   1.5      0   18 2026-10-01  @heatherdedeaux085: This liquid collagen is my new best friend!! Has my skin glowing! #liq
+                                          https://www.tiktok.com/@heatherdedeaux085/video/7691725745932061965

@@ -1,0 +1,21 @@
+submitted 1ac654cddc2b65f00d570346ededeb88
+submitted a3fffb155cbe4d7df2ba20c76e24e421
+submitted 744bcdc8b851677bcfc1d35c828118e4
+submitted 6bdb01f304923d5ac2b143c119e107cd
+still V1S2 ok
+still V1S3 ok
+still V1S5 ok
+still V1S8 ok
+Traceback (most recent call last):
+  File "/home/user/Mymobileworld/ugc/space-heater-ptc/kie.py", line 185, in <module>
+    {"stills": stills, "clips": clips}[cmd](ids)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/user/Mymobileworld/ugc/space-heater-ptc/kie.py", line 126, in stills
+    sheet("stills", ".png")
+    ~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/user/Mymobileworld/ugc/space-heater-ptc/kie.py", line 153, in sheet
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+  File "/home/user/Mymobileworld/ugc/space-heater-ptc/kie.py", line 153, in <lambda>
+    files = sorted(Path(kind).glob(f"*{ext}"), key=lambda p: (MAIN + list(SHOTS)).index(p.stem))
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+ValueError: 'look_ref' is not in list

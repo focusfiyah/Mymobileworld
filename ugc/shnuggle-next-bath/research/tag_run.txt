@@ -1,0 +1,77 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 39 of 138 videos posted since 2026-09-21
+39 videos -> ./tag-toddlerbath.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    830,100   3.7   0.52   60 2026-10-14  @thebabyboss58: Splash-Splash Mama-Dada! 🛁 Cute 3D Baby Bath Mess! 😂 When Toddler Take
+                                          https://www.tiktok.com/@thebabyboss58/video/7696537698479213856
+    431,500   2.0   0.33   85 2026-10-12  @itsjunelimbu: Our little evening ritual 🛁🫧 A relaxing bath, gentle skincare, and a l
+                                          https://www.tiktok.com/@itsjunelimbu/video/7695718488748444960
+    320,800   2.7   0.05   16 2026-10-14  @melsaarinen: I’m out of ideas, is this just a normal toddler thing? #bathtime #firs
+                                          https://www.tiktok.com/@melsaarinen/video/7696485361551281414
+    299,100   0.9   0.22   10 2026-10-12  @watermsyb0t: cutest bath toys 🛁 they light up & make bath time fun 🩵✨ #bathtoys #to
+                                          https://www.tiktok.com/@watermsyb0t/video/7695768225065258262
+    273,100   3.5    0.5    9 2026-09-23  @mady.motherhood: Bath time without the soaked floors 🙌🏻🛁 This tub topper keeps all the 
+                                          https://www.tiktok.com/@mady.motherhood/video/7688537802807545119
+     96,500   1.5   0.28   29 2026-10-18  @maudgui: My kid has sensory issues and used to lose it if even one drop of wate
+                                          https://www.tiktok.com/@maudgui/video/7697553046481456415
+     87,800   1.4   0.37   37 2026-10-02  @shewiththeglow: Too big for the baby tub, but too little for the big tub? This toddler
+                                          https://www.tiktok.com/@shewiththeglow/video/7692132082188946719
+     50,900   4.1   0.78   13 2026-10-14  @hisamantharose: Bath toys that make bath time more fun 🫧 We’ve been loving these Fishe
+                                          https://www.tiktok.com/@hisamantharose/video/7696596800068750622
+     29,500   4.5   0.05    5 2026-09-22  @riri_beth: please help, how do i make it stop 🫠🫠#boymom #toddler 
+                                          https://www.tiktok.com/@riri_beth/video/7688438677202062622
+     12,800   6.6    0.2  170 2026-10-17  @janesssamcleod: get ready for chaossssss 🤣👶🏻🫶🏻🛁🍼 #pumpingmama #tripletmom #tripletsoft
+                                          https://www.tiktok.com/@janesssamcleod/video/7697460440451910925
+     11,100   2.7   0.25   20 2026-10-09  @mirandathejames: ✨🏰👑✨ #bathtime #girlmom #bath #disneyprincess #toddlersoftiktok @Amazo
+                                          https://www.tiktok.com/@mirandathejames/video/7694788170344402190
+      9,757   0.6   0.07    7 2026-10-04  @chlobellexx: My little ones favorite bath toy ever! #toys #bathtoys #kidstoys #todd
+                                          https://www.tiktok.com/@chlobellexx/video/7692643611669810446
+      6,684   1.0   0.24   10 2026-09-30  @lulukids2026: 🛁🫧 Splash, scrub, and smile! Join our adorable 3-year-old friend durin
+                                          https://www.tiktok.com/@lulukids2026/video/7688067174769937677
+      5,093   2.2   0.51   25 2026-09-26  @alexgracelindsay: linked in my Amazon storefront! #bathtoy #toddlertoy 
+                                          https://www.tiktok.com/@alexgracelindsay/video/7689654726509530399
+      4,006   1.6   0.32   10 2026-09-27  @mumubabyofficial: 🛁😂 Mumu’s Funny Foamy Bath Song! Covered in foam from head to toe, Mum
+                                          https://www.tiktok.com/@mumubabyofficial/video/7690211533586058518
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 62 of 175 videos posted since 2026-08-22
+62 videos -> ./tag-babybathtub.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    927,000   0.6   0.09   30 2026-10-02  @forever_comfy: #fypシ #tanzaniantiktok🇹🇿 #babybathtub 
+                                          https://www.tiktok.com/@forever_comfy/video/7692148832683003143
+    597,100   6.6   0.97   61 2026-09-20  @queen.jmr: Levi still has his umbilical cord so sponge bath it is! 🫧🧼🩵 #spongebat
+                                          https://www.tiktok.com/@queen.jmr/video/7687649165521816862
+    562,800   5.2   1.49   34 2026-09-09  @itskristaadams: Baby gear that actually knows how to get out of the way 🙌🏼🛁 #jooldream
+                                          https://www.tiktok.com/@itskristaadams/video/7683397629056699679
+    235,600   3.2   0.92   17 2026-08-31  @maxicosi_eu: POV: you find a baby bath that actually thinks about the whole routine
+                                          https://www.tiktok.com/@maxicosi_eu/video/7679060356018212129
+    169,500   3.6   1.05   22 2026-09-16  @itskristaadams: Hopefully it’s still discounted when you see this 🙌🏼🛁 #jooldreamteam #
+                                          https://www.tiktok.com/@itskristaadams/video/7686212920253943070
+    143,000   0.4   0.09   10 2026-09-04  @melaniec.cabral: BABY BATHTUB NEWBORN MAY KASAMA NG NET #bathtub #bathtubforbabies #hig
+                                          https://www.tiktok.com/@melaniec.cabral/video/7681626547534531857
+    102,300   1.2   0.26   36 2026-10-02  @nurliman_: Today kita mandikan adik dalam bath tub 🛁 #besenmandibaby #babybathtub
+                                          https://www.tiktok.com/@nurliman_/video/7692076268212423957
+     99,200   4.6   0.32   64 2026-10-09  @drjoe_md: Here’s something surprising about bleach baths for eczema: At the extr
+                                          https://www.tiktok.com/@drjoe_md/video/7694736015721860382
+     95,600   1.2   0.26   30 2026-10-03  @blossom.baby.store: Bath station (0789505927) available #goviral #fyp #blossombabystore 
+                                          https://www.tiktok.com/@blossom.baby.store/video/7692482355386223893
+     56,800   8.0   2.39   34 2026-10-11  @thesnugandcoofficial: small space folding baby bathtub you need for newborn 🤍 This Jool baby
+                                          https://www.tiktok.com/@thesnugandcoofficial/video/7695564166035262726
+     52,100   0.6    0.2   19 2026-09-22  @fresh_finds_uk: Foldable Baby Bath Tub, Baby Essentials For Newborn Baby Bathtub With 
+                                          https://www.tiktok.com/@fresh_finds_uk/video/7688388097100352790
+     50,000   0.8   0.12   32 2026-09-01  @mariola.ahmeti: Älskar verkligen denna badbalja från Twistshake 🫧🛁 Färgen Mocha är så 
+                                          https://www.tiktok.com/@mariola.ahmeti/video/7680471814417485078
+     22,200   4.2   0.19   69 2026-10-18  @blandonesther2cuenta: Mamis, miren esta bañerita 🎀🛁tan práctica para nuestros bebés! Se plie
+                                          https://www.tiktok.com/@blandonesther2cuenta/video/7698091684189523214
+     13,300   1.5   0.38   35 2026-10-17  @itskristaadams: Small bathroom? This baby bathtub is a lifesaver for space 😭🛁 #newmomm
+                                          https://www.tiktok.com/@itskristaadams/video/7697466563984723231
+     11,000   1.1   0.24   28 2026-09-21  @jordandepascale: This fold n store baby bath by @Jool Baby is GENIUS! Aesthetic and fun
+                                          https://www.tiktok.com/@jordandepascale/video/7687942620277984543
+done

@@ -1,0 +1,81 @@
+  #tiktokshop: 60 videos
+  #tiktokshopfinds: 87 videos
+  #tiktokshopcreatorpicks: 93 videos
+  #tiktokshopholidayhaul: 86 videos
+  #tiktokshophome: 144 videos
+  #tiktokshopbeauty: 109 videos
+  #tiktokshopfashion: 107 videos
+  #tiktokmademebuyit: 136 videos
+  #flashlight: 132 videos
+  #powerbankflashlight: 142 videos
+  #campinggear: 147 videos
+  #emergencykit: 114 videos
+/home/user/Mymobileworld/ugc/powerbank-flashlight-v2/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/powerbank-flashlight-v2/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+1313 videos scanned, 318 shop videos posted in the last 30.0 day(s) -> research/viral/viral-2026-10-22.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      581K    5.4M  9.3d  0.32  (product not in TikTok's data)
+                                  @samirzbavfu778: 🚗 Great for car travel, traffic jam, outdoor camping, solves
+                                  https://www.tiktok.com/@samirzbavfu778/video/7696133346329382175
+  2      518K   14.0M 27.0d  0.22  tarte CC color-correcting tinted serum [Beauty & Personal Care]
+                                  @molly.on.the.mic: he is unwell. But this stuff is UNREAL. #tartecosmetics #tar
+                                  https://www.tiktok.com/@molly.on.the.mic/video/7689554820818111775
+  3      478K   13.5M 28.3d  0.16  (product not in TikTok's data)
+                                  @khalaniadelaide1: #tiktokshop #fyp #tiktokshopbacktoschool #organizer #organiz
+                                  https://www.tiktok.com/@khalaniadelaide1/video/7689097197652053261
+  4      413K    1.8M  4.4d  0.16  Stainless steel herb scissors, with 5 blades, multi-bla [Kitchenware]
+                                  @bjep3141kbp: #tiktokshop #sohochic #tiktokshopholidayhaul #fyp #dealsfory
+                                  https://www.tiktok.com/@bjep3141kbp/video/7697965067471457550
+  5      360K    2.9M  8.1d   0.2  67-Inch Adjustable Portable Retractable Foldable Selfie [Phones & Electronics]
+                                  @bunniboughtit: this is a must have for content creators and it’s pink 💕✨ #t
+                                  https://www.tiktok.com/@bunniboughtit/video/7696593451613195533
+  6      335K    2.8M  8.4d  0.12  (product not in TikTok's data)
+                                  @yxx03857: #tiktokshop #tiktok #tiktokshopholidayhaul #fyp #dealsforyou
+                                  https://www.tiktok.com/@yxx03857/video/7696477840480505119
+  7      286K    492K  1.7d  0.16  XURATTIX  Electrical Outlet Extender Stick, 360° Rotati [Phones & Electronics]
+                                  @tapa_mondo: #outlet #outletextender #homeimprovement #homeimprovements #
+                                  https://www.tiktok.com/@tapa_mondo/video/7698944690132929805
+  8      274K    1.7M  6.2d  0.48  Fall/Winter Elegant and soft retro practical texture cl [Luggage & Bags]
+                                  @atnorah: makeup bag dream 🎀✨ #makeupbag #chicfinds #makeuporganizatio
+                                  https://www.tiktok.com/@atnorah/video/7697174938444205325
+  9      227K    5.0M 22.0d  0.41  Hard Bottom Backseat Extenders for Dogs with Door Prote [Pet Supplies]
+                                  @tiktokshopdeals4you: This is definitely worth the money! #fyp #tiktokshop #ruffli
+                                  https://www.tiktok.com/@tiktokshopdeals4you/video/7691417627519913246
+ 10      225K    651K  2.9d  0.63  (product not in TikTok's data)
+                                  @kcamadi5: #tiktokshop #fyp #tiktok #tiktokmademebuyit #xmasgiftideas 
+                                  https://www.tiktok.com/@kcamadi5/video/7698506053205445910
+ 11      204K    413K  2.0d  0.37  Women's Sportswear Set, Sexy Casual Fitness, Tight Elas [Sports & Outdoor]
+                                  @thefaceglow: 10/10 #tiktokfashion #tiktokshopfalldealsforyou #tiktokshopb
+                                  https://www.tiktok.com/@thefaceglow/video/7698831581003255053
+ 12      198K    5.6M 28.3d  0.08  1/2/3/4/5/6 Women's Jelly Bras, 1/2/3/4/6PCS Deep V Sea [Womenswear & Underwear]
+                                  @poyle12: Girl, if you're tired of bras that feel stiff and uncomforta
+                                  https://www.tiktok.com/@poyle12/video/7689066019049983262
+ 13      194K    2.6M 13.4d  0.16  Sink Organizer Rack,Hanging Faucet Drain Rack with Drip [Home Supplies]
+                                  @yolanvgahmb: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@yolanvgahmb/video/7694603268231646495
+ 14      192K    2.4M 12.5d  0.08  Foldable Over The Sink Dish Drying Rack, Carbon Steel 2 [Home Supplies]
+                                  @sunwardhome: #TikTokShopCreatorPicks #KitchenOrganization #KitchenHacks #
+                                  https://www.tiktok.com/@sunwardhome/video/7694952365992021262
+ 15      183K    3.5M 19.2d  0.25  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+ 16      172K    3.1M 18.0d  0.16  (product not in TikTok's data)
+                                  @amy_abt7: #tiktokshop #organizedhome #homeorganization 
+                                  https://www.tiktok.com/@amy_abt7/video/7692893580209212685
+ 17      170K    1.8M 10.6d  0.36  (product not in TikTok's data)
+                                  @issacgloverdnt: My new favourite kitchen tool for powdering everything.#grin
+                                  https://www.tiktok.com/@issacgloverdnt/video/7695661425460628758
+ 18      164K    2.7M 16.5d  0.19  (product not in TikTok's data)
+                                  @sprowgoudie9678: #fyp #tiktok #tiktokshop #tiktokmademebuyit 
+                                  https://www.tiktok.com/@sprowgoudie9678/video/7693467720653737246
+ 19      157K    1.0M  6.4d  0.28  TOLACCEA Large Expandable Casual Travel Backpack - 40L- [Luggage & Bags]
+                                  @tolaccea: OMG!!This bag saved me a lot of money 💰 🥹#dufflebag #carryon
+                                  https://www.tiktok.com/@tolaccea/video/7697222447212301582
+ 20      155K    3.1M 20.0d  0.13  (product not in TikTok's data)
+                                  @user2988182241461: #tiktokshop #homeorganization #organizedhome 
+                                  https://www.tiktok.com/@user2988182241461/video/7692176464363392270

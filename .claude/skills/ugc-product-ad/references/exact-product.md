@@ -5,6 +5,8 @@
 - Exact-product route: complex products that must not drift (FUSOU vanity, 2026-10-03, approved)
 
 ## Exact-product route: complex products that must not drift (FUSOU vanity, 2026-10-03, approved)
+**Last resort since 2026-10-21 (Ralph):** try the product-lock route (`references/product-lock.md`, Google Omni clips)
+first; paste real pixels back only when that and free fixes have failed, with Ralph's OK for the shot.
 Use for furniture, appliances and anything with many parts (drawers, knobs, mirrors). Prompt-only stills and crops redrawn
 by the model drift; this route kept the product pixel-exact across 6 videos. Template job: Mymobileworld `ugc/fusou-vanity/`
 (README, step2.py stills, step3.py clips, cut.py on word timings, build_doc.py scripts doc).

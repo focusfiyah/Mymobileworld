@@ -1,0 +1,78 @@
+  #tiktokshopbeauty: 85 videos
+  #tiktokshopskincare: 83 videos
+  #tiktokshopmakeup: 86 videos
+  #tiktokshopfinds: 137 videos
+  #wig: 143 videos
+  #wigs: 71 videos
+  #syntheticwig: 109 videos
+  #wigwithbangs: 137 videos
+  #glueless: 143 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+910 videos scanned, 391 shop videos posted in the last 30.0 day(s) -> viral/viral-2026-10-21.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      703K    2.6M  3.7d   0.2  SWEETFULL Hand Warmers Rechargeable - Cute Bear Design, [Household Appliances]
+                                  @hannahkrustykrab: Who else regrets buying hand warmers at full price last wint
+                                  https://www.tiktok.com/@hannahkrustykrab/video/7697218690105773325
+  2      546K   13.9M 25.4d  0.22  tarte CC color-correcting tinted serum [Beauty & Personal Care]
+                                  @molly.on.the.mic: he is unwell. But this stuff is UNREAL. #tartecosmetics #tar
+                                  https://www.tiktok.com/@molly.on.the.mic/video/7689554820818111775
+  3      346K    1.6M  4.6d  0.45  Fall/Winter Elegant and soft retro practical texture cl [Luggage & Bags]
+                                  @atnorah: makeup bag dream 🎀✨ #makeupbag #chicfinds #makeuporganizatio
+                                  https://www.tiktok.com/@atnorah/video/7697174938444205325
+  4      181K    2.7M 14.9d  0.19  (product not in TikTok's data)
+                                  @sprowgoudie9678: #fyp #tiktok #tiktokshop #tiktokmademebuyit 
+                                  https://www.tiktok.com/@sprowgoudie9678/video/7693467720653737246
+  5      164K    2.9M 17.7d  0.66  [Blend Natural]UNice Upgrade V Part Glueless Kinky Stra [Fashion Accessories]
+                                  @therealalyssalicious: Like girl god BLESS YOU!!! as a natural girly who hasn’t fla
+                                  https://www.tiktok.com/@therealalyssalicious/video/7692429291308535054
+  6      134K    2.7M 20.1d  0.61  e.l.f. Glow Reviver Lip Oil Stick, Nourishing Lip Oil S [Beauty & Personal Care]
+                                  @maehni: so pretty!! im obsessed <3 elf shimmer lip oil stick dry thi
+                                  https://www.tiktok.com/@maehni/video/7691545926241946910
+  7      126K    1.2M  9.5d  1.22  YBoutique 2pcs Sweatsuit for Women-Yellow Zip-Up Hoodie [Womenswear & Underwear]
+                                  @shopwithtaye: It’s the shade of pink AND the little details for me 😭🎀💗 mat
+                                  https://www.tiktok.com/@shopwithtaye/video/7695471370209119519
+  8      126K    2.2M 17.5d  2.12  Tuneful 613 Blonde Body Wave Wig 13x6 Lace Front Wig P4 [Fashion Accessories]
+                                  @starrstrruk: #hairstylist #trending #wiginfluencer 
+                                  https://www.tiktok.com/@starrstrruk/video/7692505878863318285
+  9      119K    3.2M 26.9d  1.27  Women's Striped Tie Long Sleeve Blouse and Wide-Leg Pan [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 10      112K    522K  4.6d  0.44  304 Stainless Steel 4-Piece Deep Fryer Pot Set - Durabl [Kitchenware]
+                                  @ut_toki: #tiktok #tiktokshop #foruyou #tiktokmademebuyit #kitchen 
+                                  https://www.tiktok.com/@ut_toki/video/7697217716737805582
+ 11       81K    237K  2.9d  0.52  BrownBomb Butterfly Body Wave Wig 13×6 HD Lace Pre Pluc [Fashion Accessories]
+                                  @novaaclipstv: If you’re a baddie on a budget grab your wig before they SEL
+                                  https://www.tiktok.com/@novaaclipstv/video/7697907956888653070
+ 12       71K    596K  8.4d  0.67  FABÉLLE Curtain Bangs Straight Wigs Glueless Simulated  [Fashion Accessories]
+                                  @niaathedollll: I LOVE A BANG WIG 😍😍😍Tap the cart for this look !!!@Fabelle 
+                                  https://www.tiktok.com/@niaathedollll/video/7695875126197374221
+ 13       69K    446K  6.5d  0.32  [Iridescent] Calico Wig with Bangs 4x2 Realistic Scalp  [Fashion Accessories]
+                                  @inkedmamafinds: Love love love 🖤🧡🤍 #wighair #syntheticwig @Countblabla 
+                                  https://www.tiktok.com/@inkedmamafinds/video/7696597085788884254
+ 14       67K    716K 10.7d  0.22  Crocs Women's Dylan Platform Buckle Wedge Sandals [Shoes]
+                                  @dayamirys23: Respuesta a @Yamira Rodriguez #tiktokshopfalldealsforyou #ti
+                                  https://www.tiktok.com/@dayamirys23/video/7695022032672574734
+ 15       65K    296K  4.5d  1.35  ShowRealHair Chioma Pixie Cut Wigs Pin Curl Pixie Cut W [Fashion Accessories]
+                                  @tay_kaedence: I’m wearing ( Black-025 ) If you’d like to see it in it’s na
+                                  https://www.tiktok.com/@tay_kaedence/video/7697150272413404430
+ 16       64K    421K  6.6d  0.64  [New Arrival] Frodio Veralux™ Synthetic Fiber + Human H [Fashion Accessories]
+                                  @iinayahii: she looks so natural 😍 hair from @FRODIO 🛍️ #frodiohair #hal
+                                  https://www.tiktok.com/@iinayahii/video/7696547636072992014
+ 17       62K    590K  9.6d  5.39  Choppy Layers Wig 13x6 HD Lace Frontal Wig With Bangs B [Fashion Accessories]
+                                  @mariaa_inc: how to install a wig with out glue, beginner friendly 🫶🏼 Pro
+                                  https://www.tiktok.com/@mariaa_inc/video/7695450451751308574
+ 18       58K    1.6M 27.7d  0.73  (product not in TikTok's data)
+                                  @dailydaanaat: #tiktokshopbr1010 #skincare #cuidadoscomapele #porosdilatado
+                                  https://www.tiktok.com/@dailydaanaat/video/7688636162705018130
+ 19       53K    453K  8.5d  0.18  【Black Friday】8-Color Matte Finish Concealer Palette, C [Beauty & Personal Care]
+                                  @xtinabeauty9: This is wild!! Look at the price of this!!! #tiktokshopcreat
+                                  https://www.tiktok.com/@xtinabeauty9/video/7695835578784304415
+ 20       50K    566K 11.2d  0.54  [Special Deal] Frodio Veralux™ Fiber Full Lace Boho Bra [Fashion Accessories]
+                                  @lovelymimi865: Purchase now from Tiktok shop @FRODIO #wig #bohobraidwig 🔥🔥
+                                  https://www.tiktok.com/@lovelymimi865/video/7694831498511387917

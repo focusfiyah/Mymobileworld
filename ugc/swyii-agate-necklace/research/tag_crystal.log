@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 59 of 136 videos posted since 2026-08-22
+59 videos -> research/tag/tag-crystalnecklace.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  3,900,000   2.1   0.27    8 2026-10-04  @graciehilliard: the perfect statement piece #statementpiece #gemstonenecklace #dropnec
+                                          https://www.tiktok.com/@graciehilliard/video/7692950598244666637
+    430,500  15.0   0.46    9 2026-08-24  @user9343104536979: #crystals #crystalhealing #1111 #amethyst #crystalbracelets 
+                                          https://www.tiktok.com/@user9343104536979/video/7677538586148850962
+    316,600  11.0   0.96   14 2026-10-13  @lunatherjewelry: What do you think?#ClearQuartzJewelry #BubbleJewelry #CrystalNecklace 
+                                          https://www.tiktok.com/@lunatherjewelry/video/7695965047402614046
+    237,200  26.6   2.34   12 2026-08-24  @aubbre47: #swarovskicrystals #getonfyp #girly #xyzbca #heartnecklace 
+                                          https://www.tiktok.com/@aubbre47/video/7677421557680966942
+    125,800  25.0   1.79  102 2026-09-04  @fatstinkycrotchgoblin0: @pixiedreamshop #greenscreen 
+                                          https://www.tiktok.com/@fatstinkycrotchgoblin0/video/7681818854225431821
+    102,100   3.6   0.17   47 2026-09-17  @botanicalh2o_team: Replying to @sasleslie Cuff Necklaces and Crystal Charms release next 
+                                          https://www.tiktok.com/@botanicalh2o_team/video/7686319951673642248
+     65,700   8.9   3.19   83 2026-09-14  @mysticmills_: Replying to @Puffy All zodiac signs now posted! Crystals available now
+                                          https://www.tiktok.com/@mysticmills_/video/7685296104010681622
+     38,700   3.8   0.65   35 2026-09-02  @sunlit008: The crystal necklaces I have are from my profile introduction, and all
+                                          https://www.tiktok.com/@sunlit008/video/7680901169958358303
+     32,000   5.7   0.84   13 2026-09-18  @mlplovr: Crystal necklace!!! Love cute jewelry 🦢🧁 #jewelrytiktok #necklace #cry
+                                          https://www.tiktok.com/@mlplovr/video/7686603212572445982
+     25,600   1.4   0.27   45 2026-09-14  @mamaritasss: They will love it! #necklace #crystals #bestiegoals #giftsforher 
+                                          https://www.tiktok.com/@mamaritasss/video/7685437877970357534
+     24,400  11.4   0.56    8 2026-09-14  @gairacrystals: 11:11 - make a wish✨ Clear Quartz holds intention, and the fox guides 
+                                          https://www.tiktok.com/@gairacrystals/video/7685433238461877534
+     23,300   7.4   2.38   43 2026-09-10  @awaken_crystalshop: 🔮Crystals bracelets I’d wear if… #crystalshopuk #crystalhealing #cryst
+                                          https://www.tiktok.com/@awaken_crystalshop/video/7683837616097070368
+     19,400   1.3   0.13   22 2026-09-15  @crystalauction2: Heart ❤️ crystal #crystalpendant #fyp #CrystalCarving #crystal #dreamc
+                                          https://www.tiktok.com/@crystalauction2/video/7685711608525475103
+     14,500  14.9   0.82   48 2026-10-06  @calscrystals: 10.5.26 ✨ The necklace drop is HERE ✨ Natural gemstones, sterling silv
+                                          https://www.tiktok.com/@calscrystals/video/7693383114214739231
+     13,400   3.2   0.22  250 2026-08-31  @user9162303150257: #tiktok #movie #fyp #obsession #bear 
+                                          https://www.tiktok.com/@user9162303150257/video/7680103549333720333

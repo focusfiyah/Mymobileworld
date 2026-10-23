@@ -1,0 +1,50 @@
+[
+ {
+  "model": "fashn",
+  "endpoint": "fal-ai/fashn/tryon/v1.6",
+  "usd": 0.075,
+  "request_id": "01a165e5-b9b7-76a1-97bd-9b57346893e6",
+  "out": "ugc/goth-highlow-skirt/tryon/fashn.png",
+  "url": "https://cdn.fashn.ai/01a165e5-f9bb-7be3-a9fc-0e5bede649f1/output_0.png"
+ },
+ {
+  "model": "kolors",
+  "endpoint": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "usd": 0.07,
+  "request_id": "01a165e5-bad5-78b3-9a44-634f7f932b90",
+  "out": "ugc/goth-highlow-skirt/tryon/kolors.png",
+  "url": "https://v3b.fal.media/files/b/0aaf75b4/7GzmgVxGlAuzblINQ-SWx.png"
+ },
+ {
+  "model": "fashn_real",
+  "endpoint": "fal-ai/fashn/tryon/v1.6",
+  "usd": 0.075,
+  "request_id": "01a165f5-b52d-75d3-90e9-c56897294001",
+  "out": "ugc/goth-highlow-skirt/tryon/fashn_real.png",
+  "url": "https://cdn.fashn.ai/01a165f5-e2f7-7350-863b-0fce402eec05/output_0.png"
+ },
+ {
+  "model": "fashn_real_seg",
+  "endpoint": "fal-ai/fashn/tryon/v1.6",
+  "usd": 0.075,
+  "request_id": "01a165f8-075c-7fb1-a3c0-20df7fa48d8d",
+  "out": "ugc/goth-highlow-skirt/tryon/fashn_real_seg.png",
+  "url": "https://cdn.fashn.ai/01a165f8-35dc-7981-a1ae-886b7d77763d/output_0.png"
+ },
+ {
+  "model": "fashn_shorts",
+  "endpoint": "fal-ai/fashn/tryon/v1.6",
+  "usd": 0.075,
+  "request_id": "01a1660c-53de-7500-b468-0d74889b5c22",
+  "out": "ugc/goth-highlow-skirt/tryon/fashn_shorts.png",
+  "url": "https://cdn.fashn.ai/01a1660c-9024-7933-84fe-5aa0a718c639/output_0.png"
+ },
+ {
+  "model": "kolors_shorts",
+  "endpoint": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "usd": 0.07,
+  "request_id": "01a1662f-d8af-7ae0-9f76-b4096aa11ee7",
+  "out": "ugc/goth-highlow-skirt/tryon/kolors_shorts.png",
+  "url": "https://v3b.fal.media/files/b/0aaf779a/hbCh01KXGwTJERODfO33N.png"
+ }
+]

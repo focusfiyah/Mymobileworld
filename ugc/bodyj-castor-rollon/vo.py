@@ -7,7 +7,7 @@ def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call unti
 
 
 J = json.load(open("shots.json"))
-VOICE = "bGrsdLmwBbYUgHRuMFOI"  # Grace B (vo/lines.json)
+VOICE = "Rh3oAQMqRVf78UIVpBoQ"  # Grace (one voice since 2026-10-20, vo/lines.json)
 for s in J["shots"]:  # S2 is Grace's real clip: its length is src_out - src_in
     s.setdefault("dur", round(s.get("src_out", 0) - s.get("src_in", 0), 2))
 RETIME = "--retime" in sys.argv  # reuse vo/voiceover.mp3 + vo/stt.json (no new ElevenLabs calls)

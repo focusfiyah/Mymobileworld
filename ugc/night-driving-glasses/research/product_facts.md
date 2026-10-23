@@ -13,7 +13,7 @@ Yellow Lens Unisex Design Enhance Night Drive Safety" + "(We have the deep blue 
 | Small yellow side window in each temple (wrap side shield) | B sides | yes ("a little yellow window on each side") |
 | Vent slots on top of the frame front; white slanted slit on each temple | B top/sides | still prompts |
 | Matte black rubber temple tips with small holes | B | still prompts |
-| Temple print "0311 62[]16-125 UV400 CE UKCA" | B side crop | UV400 not used (daytime, off-topic) |
+| Temple print "0311 62[]16-125 UV400 CE UKCA" (62 mm lens, 16 mm bridge, 125 mm temple) | B side crop | UV400 not used (daytime, off-topic) |
 | "Enhance Night Drive Safety" | A title | NOT used: safety claim; eye-care sources say yellow lenses can reduce night vision (SlashGear) |
 | "Night Vision" / "HD" | A title | NOT used as a promise ("see better at night") |
 | Clocks go back Sunday Nov 1, 2026 (US DST ends first Sunday of November) | calendar | yes, real urgency |

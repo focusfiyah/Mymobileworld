@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 46 of 86 videos posted since 2026-09-21
+46 videos -> ugc/cleanwaste-toilet-kit/research/tag-poweroutage/tag-poweroutage.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,300,000   5.2    0.4   67 2026-10-14  @noahlnvestbites: Learn about the new electricity cut schedules from the National Govern
+                                          https://www.tiktok.com/@noahlnvestbites/video/7696515381178944781
+    734,500   8.7   0.19   66 2026-10-04  @sockienorris: Opening up my freezer after a 2 day power outage #norrisnuts #sockieno
+                                          https://www.tiktok.com/@sockienorris/video/7692714634440330517
+    586,100  16.6   0.18  147 2026-09-24  @kylieapitts: I feel like it’s always something😅🤣☠️ Monday night we had an unexpecte
+                                          https://www.tiktok.com/@kylieapitts/video/7689120893238299934
+    578,700   8.8    0.4   17 2026-10-17  @wectnews6: WATCH: Dramatic footage captures the exact moment a major transformer 
+                                          https://www.tiktok.com/@wectnews6/video/7697482212282830094
+    547,600   7.5   0.73  188 2026-10-15  @nbcbayarea: More than 11,000 PG&E customers in the Bay Area could see dayslong pow
+                                          https://www.tiktok.com/@nbcbayarea/video/7696699836422212895
+    533,900  18.3   2.49  102 2026-09-23  @appalachianprepper4.0: The federal government is telling Americans to prepare for major emerg
+                                          https://www.tiktok.com/@appalachianprepper4.0/video/7688861564090273037
+    375,000   8.3   2.62   62 2026-09-23  @superlifehacksandtips: Power outage ,Preparation and survival tips #power #storm #survival #s
+                                          https://www.tiktok.com/@superlifehacksandtips/video/7688832214611561758
+    343,000   5.3   0.48   23 2026-10-14  @countrygirl_prepper: Power grid emergency across 13 states #powergrid #poweroutage #emergen
+                                          https://www.tiktok.com/@countrygirl_prepper/video/7696530119422184735
+    162,900   8.1   0.67   24 2026-10-02  @kcci8: Over 18,000 MidAmerican Energy customers in Des Moines are without pow
+                                          https://www.tiktok.com/@kcci8/video/7692045054394846477
+    159,800   3.3   0.22   62 2026-10-16  @ethana0550: Attention! Power cuts in your province will last from 1 to 4 hours. Ch
+                                          https://www.tiktok.com/@ethana0550/video/7697273018267045133
+    152,800   8.3   0.96   62 2026-10-01  @after_darkarchives: 
+                                          https://www.tiktok.com/@after_darkarchives/video/7691547061661011214
+     91,500  16.1   0.73   14 2026-10-01  @txnursemama: No yummy bulk foods for me today. #costco #arlingtontx #poweroutage #c
+                                          https://www.tiktok.com/@txnursemama/video/7691774189920980237
+     85,200  31.4   4.88  167 2026-10-03  @tayrenee._: Prepare yourselves for what’s to come Seek the Lord daily we are the l
+                                          https://www.tiktok.com/@tayrenee._/video/7692580576871648542
+     81,500   2.5   0.29   75 2026-10-17  @goodbye.home: Breaking Power Outages across the U.S. - Trump Annouces State of Emerg
+                                          https://www.tiktok.com/@goodbye.home/video/7697667322923797773
+     61,500   9.4   1.35   23 2026-10-16  @athomewithlucas: Nationwide Blackout 🤔 #powercut #weather #lookup #greenscreens #foryou
+                                          https://www.tiktok.com/@athomewithlucas/video/7697403422667967774

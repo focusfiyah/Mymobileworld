@@ -1,0 +1,38 @@
+/home/user/Dayone-ai/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Dayone-ai/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 78 of 131 videos posted since 2026-08-22
+78 videos -> tag_vans/tag-vans.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    822,400   1.0   0.14    8 2026-10-06  @girlypopshopfinds: 
+                                          https://www.tiktok.com/@girlypopshopfinds/video/7693646124560813342
+    364,700   8.2   0.35    7 2026-10-14  @d.v.n_061: #fyy #relatablevideos #shoe #viral 
+                                          https://www.tiktok.com/@d.v.n_061/video/7696395819829841184
+    241,400  17.8   0.62   16 2026-09-17  @chrisheynjr: Got my vans on but they look like sneakers 
+                                          https://www.tiktok.com/@chrisheynjr/video/7686501011090984222
+    235,600  17.4   2.08   12 2026-09-04  @rxxa051: 👟:👕 @sneakerbeast.org Code:rxxa link in bio witch one let me know in t
+                                          https://www.tiktok.com/@rxxa051/video/7681731401741339936
+    203,300  10.8   0.78    7 2026-09-06  @healbalenci: shop @PkStockX #fyp #designer #clean #shoes #viral 
+                                          https://www.tiktok.com/@healbalenci/video/7682500371591220511
+    196,200   8.3    1.0   11 2026-10-16  @haileyrrico: Absolutely obsessed 🤎 @vans #vans #plaid #tiktokshopfalldealsforyou #t
+                                          https://www.tiktok.com/@haileyrrico/video/7697300865182420237
+    190,700   4.0   0.72   12 2026-10-14  @3uddafinds: 👆Grab a pair before they sell out👆 #recentpickups #musthaves #vans #fa
+                                          https://www.tiktok.com/@3uddafinds/video/7696673016251452685
+    154,600  15.3   1.27   13 2026-08-30  @vtgjoey_thrifts: These are so beautiful🥹🥹#fyp #pearlized #vans #r3ps #viral 
+                                          https://www.tiktok.com/@vtgjoey_thrifts/video/7679875542778203405
+    148,500  12.7   1.31   10 2026-09-23  @sobaneparis: be fast #fyp #vans #uggs #boots 
+                                          https://www.tiktok.com/@sobaneparis/video/7688812483120860447
+    133,700  17.5   1.89   12 2026-09-13  @abidickson_x: @vans 
+                                          https://www.tiktok.com/@abidickson_x/video/7685070473297759521
+     88,500  15.2   0.91   15 2026-10-13  @1borrowedfeelings7: alin size vans #fyp #repost #fyppppppppppppppppppppppp #fypppppppppppp
+                                          https://www.tiktok.com/@1borrowedfeelings7/video/7696006516855426324
+     85,900  15.1   1.06    5 2026-08-25  @lillljayyy._: Jokes I got 2 pairs #4upage #viral #vans 
+                                          https://www.tiktok.com/@lillljayyy._/video/7677776324513025293
+     73,000  25.7   2.81    7 2026-09-08  @notstarr: don’t hate on me 🥲#fyp #xyzbca #secretaccount #vans 
+                                          https://www.tiktok.com/@notstarr/video/7683218419340070158
+     64,300  22.5   2.21    5 2026-10-17  @madeanotheroneagain: Way better in person #madeanotheroneagain #fyp #vans 
+                                          https://www.tiktok.com/@madeanotheroneagain/video/7697469613860261134
+     58,100  10.4   1.29   25 2026-10-16  @teejharris: Couldn’t decide on which lace 😭🔥🔥 #skatetok #fashiontok #fypシ #skate 
+                                          https://www.tiktok.com/@teejharris/video/7697080244984991007

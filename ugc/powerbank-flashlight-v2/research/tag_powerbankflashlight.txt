@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/powerbank-flashlight/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 90: kept 44 of 135 videos posted since 2026-07-23
+44 videos -> research/tag/tag-powerbankflashlight.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+ 13,700,000   0.8   0.11   30 2026-08-15  @zin5bamu: 2-1 rechargeable flashlight and power bank. Be prepared for that next 
+                                          https://www.tiktok.com/@zin5bamu/video/7674078707387993375
+    604,300   0.4   0.05   36 2026-10-15  @en.casa.con.lia: Hoodink 2-in-1 Portable Strong Flashlight Power Bank #linternas #linte
+                                          https://www.tiktok.com/@en.casa.con.lia/video/7696715850488794381
+    519,000   0.6   0.14   30 2026-09-17  @macson102: I didn’t think I needed this… until the power went out. #powerbank #em
+                                          https://www.tiktok.com/@macson102/video/7686468355523415326
+    475,500   1.8   0.36   30 2026-07-26  @polatkemal20: Nitecore powerbank and Flashlight. #nitecore #edc #powerbank #flashlig
+                                          https://www.tiktok.com/@polatkemal20/video/7666836294294588704
+    198,400   1.0   0.29   30 2026-08-25  @macson102: Power outage? You’re still covered.#powerbank #emergencylight #solarch
+                                          https://www.tiktok.com/@macson102/video/7677895094648786206
+    134,900   1.3   0.36   30 2026-08-29  @macson102: I didn’t think I needed this… until the power went out. #powerbank #em
+                                          https://www.tiktok.com/@macson102/video/7678968653143903519
+    131,800   0.3   0.09   38 2026-10-20  @mondgrau3: 10000mAh Solar Powered Power Bank, Type-C Input/Output, with Compass F
+                                          https://www.tiktok.com/@mondgrau3/video/7698823859008458017
+    100,700   0.6   0.08  178 2026-10-11  @olightworld: Marauder Mini 2 is powerful. Marauder 3 takes it further. 🔦 Up to 25,0
+                                          https://www.tiktok.com/@olightworld/video/7695213305765334303
+     43,700   1.1   0.12   37 2026-08-18  @farmboyshop: Flashlight na nagiging powerbank at merong 5000mah battery! Matagal ma
+                                          https://www.tiktok.com/@farmboyshop/video/7675157525129465108
+     31,200   0.3   0.06   15 2026-09-01  @remalynbicera: ang mura nalang to #powerbank #minipowerbank 
+                                          https://www.tiktok.com/@remalynbicera/video/7680360950490336519
+     29,300   0.7   0.08   32 2026-09-20  @stuff_haul: POWERBANK 20000w with Flashlight na🔋😍#fyp #powerbank #minipowerbank #p
+                                          https://www.tiktok.com/@stuff_haul/video/7687603973909531920
+     28,400   1.4   0.21   63 2026-10-09  @polatkemal20: Nitecore Flashlight and powerbank #powerbank #flashlight #edc #outdoor
+                                          https://www.tiktok.com/@polatkemal20/video/7694578445925354784
+     24,200   0.4   0.05   11 2026-08-30  @frosty.deals: Glow Up Gear 2-in-1 Flashlight Power Bank Rechargeable Zoom Light 🔦 De
+                                          https://www.tiktok.com/@frosty.deals/video/7679844484380626198
+     21,400   0.4   0.06   27 2026-10-19  @bradk_fishn: 2-in-1 Massive flashlight powerbank. Floodlight or spotlight. #blackfr
+                                          https://www.tiktok.com/@bradk_fishn/video/7698215347685494046
+     15,700   0.6   0.08   35 2026-07-25  @zealandria_shop: 4 in 1 - PowerBank with Flashlight ‼️ #powebank #minipowerbank ##porta
+                                          https://www.tiktok.com/@zealandria_shop/video/7666353965176474888
