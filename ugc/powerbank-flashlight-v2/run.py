@@ -71,3 +71,17 @@ if __name__ == "__main__":
         with ThreadPoolExecutor(len(ids)) as ex: list(ex.map(still, ids))
     elif kind in ("omni", "omni-dry"):
         with ThreadPoolExecutor(len(ids)) as ex: list(ex.map(lambda i: omni(i, kind == "omni-dry"), ids))
+
+
+def seedance_s7():
+    """S7 as a Seedance 2.0 Mini clip in reference mode, no still (Ralph 2026-10-23: "For that one redo switch to seedance";
+    two Kie S7 stills drew the wrong product). 4 s = $0.164."""
+    refs = ["stills/S8.png", REF["shape"], REF["logo"], REF["sheet"]]
+    prompt = Path("prompts/seedance_S7.txt").read_text()
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": [kie.upload(small(r)) for r in refs],
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}, label="S7 seedance")
+    if url: kie.fetch(url, "clips/S7.mp4"); print("clip S7 ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "seedance-s7":
+    seedance_s7()

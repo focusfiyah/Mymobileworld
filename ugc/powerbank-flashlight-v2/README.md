@@ -10,4 +10,4 @@ Size from Grace's box (research/size.md: 29.5 x 29.5 x 157 mm with clip, 90 g, l
 
 Status 2026-10-22 (end of session 1): Ralph sends S1-S4 stills from Gemini; S5-S9 stills + all clips go on Kie after BOOK.md OK. Handoff: handoff/NEXT_SESSION_flashlight-v2.md. Gates 5/10. Spent $0.
 
-Status 2026-10-23 (session 2): BOOK APPROVED $3.69. Stills: S1-S4 Ralph, S5 redo OK, S6 free-fixed, S8 S9 OK, S7 redo still wrong (no clip, bronze caps): Ralph picks Gemini app or one more Kie try. VO done (22.1 s, echo 150). Omni on Kie: 7 tries all 500 in ~13 s (free), incl. a bare 2-image request: clips on hold, Ralph picks wait or Seedance. Spent $0.63.
+Status 2026-10-23 (session 2): BOOK APPROVED $3.69. Stills S1-S6, S8, S9 OK. S7 = Seedance clip from S8 (Ralph: "For that one redo switch to seedance"), QC pass. VO done (22.1 s, echo 150). Omni on Kie: 7 tries all 500 (free); other 8 clips wait on Ralph (retry Omni or Seedance). Spent $0.79.
