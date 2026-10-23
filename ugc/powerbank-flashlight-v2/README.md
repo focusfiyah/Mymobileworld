@@ -10,4 +10,4 @@ Size from Grace's box (research/size.md: 29.5 x 29.5 x 157 mm with clip, 90 g, l
 
 Status 2026-10-22 (end of session 1): Ralph sends S1-S4 stills from Gemini; S5-S9 stills + all clips go on Kie after BOOK.md OK. Handoff: handoff/NEXT_SESSION_flashlight-v2.md. Gates 5/10. Spent $0.
 
-Status 2026-10-23 (session 2): cut r1 (22.6 s) on the review page for Ralph, gate --stage cut OK, gates 9/10. Clips: Omni S3 S4 S6, Seedance S1 S2 S5 S7 S8 S9. Spent $2.555 of $3.69. Next: Ralph's notes, then Drive (CURRENT - Flashlight V2.mp4 + script doc) and merge to main.
+Status 2026-10-23: DONE. Cut r1 APPROVED (Ralph: "Approved"), in Drive (Grace Tiktok assets/Power Bank Flashlight (Grace), https://drive.google.com/drive/folders/1r_tveoqKXNKBRcBei6G-wSHfIGOFoIW9) as CURRENT - Flashlight V2.mp4 + CURRENT - Flashlight V2 script. Kie $2.555 vs $3.69 approved (5 Kie stills + 2 redos $0.63, Omni S3 S4 S6 $0.945, Seedance S1 S2 S5 S7 S8 S9 $0.984); ElevenLabs 426 chars. Gates 10/10.

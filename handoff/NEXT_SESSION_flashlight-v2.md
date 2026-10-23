@@ -22,7 +22,9 @@ line, GATES.md, research/, refs/real/, gemini_app/). Previous session: session_0
 - Grace's hand: grace/ref/hand-sheets/with_bracelet.jpg (French tips, crown ring, gold solitaire, blue band, gold
   watch-link bracelet, pearl chain with leaf charm). Grip on the dark end cap so the button + panel stay visible.
 
-## Where it stands
+## DONE 2026-10-23: cut r1 approved and in Drive (see the job README). Nothing left.
+
+## Where it stood
 - Gates (unlazy): 5 of 10 met (G1 script, G2 size, G3 storyboard, G4 approval, G5 script gate OK).
 - Gemini kit (free route): https://claude.ai/artifact/BfZ9vrRMHETzaWSpsAp1rC = gemini_app/ (6 refs ref1..ref6,
   prompt_S1..S9.txt, make_prompts.py B, make_kit.py). Prompt Master "Ralph's stack" style, size block first.
