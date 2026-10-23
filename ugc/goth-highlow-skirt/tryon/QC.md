@@ -32,3 +32,6 @@ Worse on every count: colour washed to mauve (99,73,70 vs real 70,51,46); still 
 
 ## Re-test 3: FASHN on Grace's own TikTok frame (black shapewear shorts, bare legs; @shewiththeglow 7684001442977352991 at 13 s), $0.075
 FASHN returned the frame unchanged: no skirt at all, only a thin dark streak on one shin. Her outfit is a one-piece shapewear bodysuit, so FASHN finds no separate bottom garment to replace. Verdict: FAIL (no-op). FASHN needs a real separate bottom (pants worked, round 23); a bodysuit or bare legs gives it nothing to swap.
+
+## Re-test 4: Kolors on the same TikTok shapewear frame, $0.07
+Best overall so far. Silhouette right: full, flowing, long, wider at the hem (not a column), the dark centre panel low down, and solid fabric with no legs showing. Mean colour 70,50,40 vs real 70,51,46: brightness right, but the satin sheen reads a little khaki/olive (a little less blue); a free colour shift fixes that. Misses: the front ruching is softer and smoother than the real deep bunching; only the right drawstring channel shows its gathering clearly and the left is faint; no hanging string tails at the waist. Her face, arms, hands and room are unchanged; the black shapewear cincher still shows above the skirt (it reads as a black top). Verdict: PARTIAL PASS, the best base so far for look-lock stills.
