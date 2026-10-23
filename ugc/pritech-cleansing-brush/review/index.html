@@ -40,6 +40,16 @@ table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
 td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}td:last-child{text-align:right;font-family:var(--mono);font-size:.9rem;white-space:nowrap;padding-left:10px}
 .total td{font-weight:600;border-bottom:none}
 .muted{color:var(--muted);margin:0}
+.grid9{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.st{display:grid;gap:6px;align-content:start}
+.st img{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+.st .h{display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
+.st .n{font:700 1.2rem/1 var(--display);color:var(--accent)}
+.tag{font:600 .66rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.tag.ok{background:var(--chip)}.tag.fix{background:var(--chipfree)}.tag.redo{background:var(--warn);color:var(--card)}
+.st p{margin:0;font-size:.86rem;line-height:1.35}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:560px){.grid9{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:480px){h1{font-size:1.8rem}.shot{grid-template-columns:1fr 84px}.rooms{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style>
 <div class="wrap">
@@ -49,13 +59,60 @@ td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}td:last-
 </header>
 
 <section class="ask">
-  <p style="margin:0"><strong>Your OK on the plan, plus 4 quick answers.</strong> Total <b>$3.66</b> (one likely redo included), or <b>$2.85</b> if you make the stills in your Gemini app.</p>
+  <p style="margin:0"><strong>Storyboard ready. Two answers, then clips start.</strong></p>
   <ol>
-    <li>Grace's hand sheet: <b>with</b> the bracelet or <b>without</b>? I'd go without (water and foam).</li>
-    <li>Nails: as on her hand sheet, or short natural?</li>
-    <li>Stills: Kie ($0.81) or your Gemini app ($0)?</li>
-    <li>On-screen text: none, as usual? The storyboard captions stay off unless you say so.</li>
+    <li>Stills OK? If yes I run the <b>S6 test clip</b> on Kie Omni ($0.315) before the rest.</li>
+    <li><b>S7</b> shows her eye and nose beside the metal end. Redo with a tighter cheek-only framing for <b>$0.09</b>, or keep it (it's a side view, not her full face)?</li>
   </ol>
+  <p class="muted">Spent $0.81 of $3.66. October so far $155.04.</p>
+</section>
+
+<section class="box">
+  <h2>Round 1 · the 9 stills (newest)</h2>
+  <p class="muted">Gemini 3 Pro Image on Kie, your answers applied: hand sheet without the bracelet, French tips, no text. Checked at 2x: clean hand edges, the hands grip, black body with three buttons, chrome end, grey PRITECH on the stand.</p>
+  <div class="grid9">
+    <figure class="st"><img src="st/S1.jpg" alt="Still S1"><div class="h"><span class="n">S1</span><span class="tag fix">free fix</span></div><p>Cropped free: the first take showed her eye. Now brush on her foamy cheek, no eye.</p></figure>
+    <figure class="st"><img src="st/S2.jpg" alt="Still S2"><div class="h"><span class="n">S2</span><span class="tag ok">OK</span></div><p>Makeup left on the fingertips under the tap.</p></figure>
+    <figure class="st"><img src="st/S3.jpg" alt="Still S3"><div class="h"><span class="n">S3</span><span class="tag ok">OK</span></div><p>Grips the dirty towel. Blue band landed on her index finger: small, I'd let it go.</p></figure>
+    <figure class="st"><img src="st/S4.jpg" alt="Still S4"><div class="h"><span class="n">S4</span><span class="tag ok">OK</span></div><p>Bristles with water drops, PRITECH on the stand.</p></figure>
+    <figure class="st"><img src="st/S5.jpg" alt="Still S5"><div class="h"><span class="n">S5</span><span class="tag fix">free fix</span></div><p>Cropped free: a blue watch strap showed at the wrist.</p></figure>
+    <figure class="st"><img src="st/S6.jpg" alt="Still S6"><div class="h"><span class="n">S6</span><span class="tag ok">OK</span></div><p>Test clip + Flow trial. Index finger by the °C button, chrome end in frame.</p></figure>
+    <figure class="st"><img src="st/S7.jpg" alt="Still S7"><div class="h"><span class="n">S7</span><span class="tag redo">your call</span></div><p>Metal end on her cheek, but her eye and nose show. Redo $0.09 or keep?</p></figure>
+    <figure class="st"><img src="st/S8.jpg" alt="Still S8"><div class="h"><span class="n">S8</span><span class="tag ok">OK</span></div><p>Window counter, plain white bottle, one brush.</p></figure>
+    <figure class="st"><img src="st/S9.jpg" alt="Still S9"><div class="h"><span class="n">S9</span><span class="tag ok">OK</span></div><p>End shot: one brush, PRITECH readable.</p></figure>
+  </div>
+</section>
+
+<section class="box">
+  <h2>Voiceover</h2>
+  <p class="muted">Grace cloned voice, script word for word, 24.6 s. The echo check read 200 ms (limit 150), so the free cleanup is running; the cleaned file goes here when it passes.</p>
+</section>
+
+<section class="box">
+  <h2>Flow trial kit · S6 (when you have a minute)</h2>
+  <p class="muted">Free take in your Google Flow app, to compare with the Kie one. Note your credits before and after (Account screen). Long-press each image to save it.</p>
+  <ol>
+    <li>Flow: new project › Video › model <b>Gemini Omni Flash</b> (if it's missing, Veo 3.1 Fast, and tell me) › 9:16 › 4 s.</li>
+    <li>Add as Ingredients, in this order (if Flow offers a start frame, put image 1 there instead):</li>
+  </ol>
+  <div class="rooms">
+    <figure><img src="flow/1_still_S6.png" alt="Flow image 1, the S6 still"><figcaption>1 · still S6</figcaption></figure>
+    <figure><img src="flow/2_buttons.png" alt="Flow image 2, real buttons"><figcaption>2 · real buttons</figcaption></figure>
+    <figure><img src="flow/3_product_sheet.png" alt="Flow image 3, product sheet"><figcaption>3 · product sheet</figcaption></figure>
+  </div>
+  <p style="margin:0"><b>Prompt</b> (copy it whole):</p>
+  <pre id="flowprompt" style="white-space:pre-wrap;margin:0;font:500 .85rem/1.45 var(--mono);background:var(--chip);padding:12px;border-radius:6px">Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((•)) / O / °C, moulded black on black, matching image 2 exactly; image 3 is the product sheet: the wide flat silver chrome band at the bottom end, no lights, no glow, no added marks. Motion: her index finger presses the °C button once, then the camera tilts slowly down to the silver chrome end; the hand keeps one grip and the brush never turns or flips. Bright neutral daylight. No music, no voice, no captions, no on-screen text.</pre>
+  <button id="copyflow" type="button" style="justify-self:start;font:600 .9rem var(--body);padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg)">Copy prompt</button>
+  <p class="muted">Send the clip back in this chat, or put it in the job's Drive folder.</p>
+</section>
+<script>
+document.getElementById('copyflow').addEventListener('click',function(){var t=document.getElementById('flowprompt').textContent,b=this;
+navigator.clipboard.writeText(t).then(function(){b.textContent='Copied'},function(){var r=document.createRange();r.selectNodeContents(document.getElementById('flowprompt'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected, copy it'});});
+</script>
+
+<section class="box">
+  <h2>Plan (approved)</h2>
+  <p class="muted">Your answers: no bracelet, French tips as on the hand sheet, stills on Kie, no text. Book approved at $3.66.</p>
 </section>
 
 <section class="box">

@@ -37,7 +37,7 @@ Voiced "104°F" = "one hundred and four degrees Fahrenheit". Flags (kept as writ
 
 Outfit: white waffle robe at the shoulder edge, beige towel headband just at the top of frame (S1/S7).
 Setting: real Pexels rooms (rooms/SOURCES.md): A sage tile + wood vanity, B pink tile, C bright window bath. Bright neutral grade, no candles lit dark, no text.
-Nails / person details: Grace's hand reference sheet (ASK below: with or without bracelet). Skin tone from grace/ref. Cheek shots never show eyes or mouth (Ralph: "Don't show full face"), so no lip sync.
+Nails / person details: Grace's hand sheet WITHOUT the bracelet: medium-brown skin, short squared French tips, silver crown ring stack (ring finger), small gold heart-stone ring (middle finger), blue silicone band (thumb), bare wrist. Skin tone from grace/ref. Cheek shots never show eyes or mouth (Ralph: "Don't show full face"), so no lip sync.
 Real product confirmed: matte black body + black silicone nubs, 3 front buttons ((•)) / O / °C, silver chrome end, black stand with grey PRITECH (refs/product_sheet.png, Ralph's photo). Size estimate ~15-16 cm, about one hand long (no maker size found: Amazon refuses cloud requests, tested today, 503).
 
 ## 5. Order of work
@@ -57,11 +57,12 @@ Month so far (`python3 grace/spend.py`): $154.23 (no cap in October).
 
 TOTAL: $3.66
 
-## 7. Questions for Ralph (one reply)
-1. Grace's hand: the sheet WITH the bracelet or WITHOUT? (I'd go without: water and foam.)
-2. Nails: as on her hand sheet, or short natural?
-3. Stills: Kie ($0.81) or your Gemini app ($0)?
-4. On-screen text: none (default). Storyboard captions are not burned in unless you say so.
+## 7. Ralph's answers (2026-10-23: "1. Without 2.yes like hand sheet 3. Kie 4. No")
+1. Hand sheet WITHOUT the bracelet (grace/ref/hand-sheets/without_bracelet.jpg).
+2. Nails as on the hand sheet: short squared French tips (pale pink, white tips).
+3. Stills on Kie ($0.81, in the TOTAL).
+4. No on-screen text.
+Size: the ~15-16 cm estimate stands (not answered; it is the only figure found).
 
 ## 8. Prompts
 Still prompts: shots.json `still` (Gemini 3 Pro Image; refs = refs/product_sheet.png, refs/closeup_head.png, refs/closeup_buttons.png, refs/closeup_stand_logo.png, the room photo, Grace's hand sheet). Clip prompts: shots.json `clip` (Omni reference mode: image 1 = approved still, 2..n = real close-ups, last = sheet; Seedance for S2/S3 with "no brush, no product appears"). All written with prompt-master (Ralph's stack).
