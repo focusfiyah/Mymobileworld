@@ -41,3 +41,10 @@ stay true to Graces skin tone, it looks like a different hand with a different s
 - Spend so far: ElevenLabs 1,143 chars; Kie round 3 ~$11.14, round 4 ~$5.14; Kling 0.
 - Winner now at 5 sales / 2,126 views (2026-10-22).
 - Kie logs can contain signed Volcengine URLs: GitHub push protection blocks them; strip `?X-Tos-...` from kie_log.json before committing.
+
+## Status 2026-10-23 (session BodyJ castor roll-on)
+Free check done (`qc/r5/FINDINGS.md`, sheets on the review page v10); free fixes V1i/V3g/V4f made from the round-4 raw clips
+(re-downloaded from Kie's result host into `redo/clips/`, originals `*_r4.mp4`, ping-pong of the clean window). BOOK.md written
+(TOTAL $9.96, option B $3.88), prompts for both sheets in `r5/prompts/` (`r5.py`). Asked Ralph (email) the 3 questions; waiting.
+Live rules applied: product clips on Omni (Kie), Seedance only for V1b/V2a; no Kling. Next on his OK: `python3 ../../../grace/gate.py .
+--approve-book "<his words>"`, `python3 r5.py stills --sheet <s> <IDs>`, test clip V1d, then the rest.
