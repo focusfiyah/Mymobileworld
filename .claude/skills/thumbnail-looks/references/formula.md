@@ -1,4 +1,4 @@
-# The prompt pack method, mapped to Day One
+# The prompt pack method, mapped to thumbnails
 
 Source: "Prompt Pack: Pixar to Clawd" (Clawd Motion Lab; the film, lamp rig and sound written by Claude from one
 620-word prompt), a 6-page PDF Ralph shared on 2026-10-23. The film: a famous studio-logo intro plays straight for
@@ -12,7 +12,7 @@ judges the channel as a whole, and identical thumbnails are the most visible sig
 
 ## The six rules of the formula
 
-| Prompt pack rule | What it meant in the film | What it means for a Day One look |
+| Prompt pack rule | What it meant in the film | What it means for a thumbnail look |
 |---|---|---|
 | Recognition first | Two seconds of the intro played straight, so nobody doubts what they are watching | The tool's own name and brand colour (sampled from its page) and its real page or result lead the frame; viewers search the brand |
 | Flip the famous beat | The lamp gets switched off and Clawd takes its beat | A familiar format (the band) carries our twist: the tool's result inside it |
