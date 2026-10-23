@@ -13,6 +13,14 @@ REF = {"sheet": G + "ref1_product_sheet.png", "shape": G + "ref2_true_shape.png"
        "hand": G + "ref4_grace_hand.jpg", "port": G + "ref5_port_closeup.png", "logo": G + "ref6_logo_closeup.png"}
 STILL_REFS = {"S5": ["sheet", "shape", "logo", "lens"], "S6": ["sheet", "shape", "logo"], "S7": ["sheet", "shape", "hand"],
               "S8": ["sheet", "shape", "logo", "hand"], "S9": ["sheet", "shape", "logo", "hand"]}
+# Redo fixes after the 2026-10-22 QC (Ralph: "Redo"): S5 stood on its lens end, S7 drew a black round torch
+FIX = {"S5": ("FIX: the flashlight lies on its back on the flat rock, propped at a slight angle, with the lens end (the tip of the dark "
+              "end cap) pointing toward the camera and a little to the side; the lens is clearly visible and lit bright white, the "
+              "light beam shining out past the camera toward the trees. The lens is never touching or hidden against the rock. "
+              "The carabiner clip is at the far end, away from the camera. Side panel OFF and dark."),
+       "S7": ("FIX: the flashlight in her hand is the light blue-grey square bar from images 1 and 2, never a black or round torch: "
+              "blue-grey body, frosted light panel, square orange button, dark grey end cap with SMILING SHARK, carabiner clip on the "
+              "other end, all visible as she lowers it into the pouch.")}
 HAND_SHOTS = {"S1", "S4", "S7", "S8", "S9"}
 # Omni image order must match the numbering in prompts/clip_Sx.txt: still, logo, [lens|port], sheet, [hand]
 CLIP_EXTRA = {"S2": ["port"], "S4": ["lens"], "S5": ["lens"]}
@@ -29,14 +37,24 @@ def still(sid):
     text = re.sub(r"^I am uploading \d+ reference images\. (.*?)\.\n", lambda m: f"I am uploading {len(refs)} reference images. {m.group(1)}; " + "; ".join(extra) + ".\n", text, count=1)
     text += ("\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own "
              "light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n")
+    if sid in FIX: text += "\n" + FIX[sid] + "\n"
     Path("prompts").mkdir(exist_ok=True); Path(f"prompts/still_{sid}.txt").write_text(text)
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": text, "image_input": [kie.upload(p) for p in refs],
                         "aspect_ratio": "9:16", "resolution": "2K"}}, label=f"still {sid}")
+    if Path(f"stills/{sid}.png").exists():  # keep the earlier take
+        n = 1
+        while Path(f"stills/{sid}_r{n}.png").exists(): n += 1
+        Path(f"stills/{sid}.png").rename(f"stills/{sid}_r{n}.png")
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
 
 def small(path):  # Kie Omni answered 500 twice on the full-size PNG inputs (8 MB total); youtheory's working takes used ~1 MB files
-    return f"omni_in/{Path(path).stem}.jpg"
+    out = Path(f"omni_in/{Path(path).stem}.jpg")
+    if not out.exists() or out.stat().st_mtime < Path(path).stat().st_mtime:
+        from PIL import Image
+        out.parent.mkdir(exist_ok=True); im = Image.open(path).convert("RGB")
+        im.thumbnail((1080, 1920) if "stills" in path else (1400, 1400), Image.LANCZOS); im.save(out, quality=90)
+    return str(out)
 
 
 def omni(sid, dry=False):
