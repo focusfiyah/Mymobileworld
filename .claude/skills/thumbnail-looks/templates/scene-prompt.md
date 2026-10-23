@@ -1,9 +1,10 @@
 # Scene prompt template (from the Pixar to Clawd prompt pack)
 
 The structure of the prompt pack's 620-word prompt, for a Day One intro, sting or end card. Fill only the BRAND
-block per piece; the rest refers to it by name. Untested on this channel (2026-10-23): no render has been made from
-it yet. Blender is not installed in the cloud container; HyperFrames is (see the hyperframes skill). Any paid
-generation it leads to needs Ralph's OK with the cost first.
+block per piece; the rest refers to it by name. First used 2026-10-23 for the Day One sting: the filled prompt is
+Dayone-ai `intro/SCENE.md`, the renderer `intro/intro.py` (Playwright frames + numpy sound from one timeline) and its
+checks `intro/check.py`; copy those for the next one. Blender is not in the cloud container; HyperFrames installs
+with Dayone-ai `setup.sh`. Any paid generation it leads to needs Ralph's OK with the cost first.
 
 ```text
 BRAND
