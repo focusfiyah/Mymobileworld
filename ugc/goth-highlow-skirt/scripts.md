@@ -3,11 +3,13 @@
 Ask (Ralph 2026-10-22): Grace needs this video generated; inspo https://www.tiktok.com/t/ZPLADgmcu (@jaquelineee809), "except instead of heels do boots".
 Sound: music-only like the inspo (Grace adds the inspo's sound "Vogue (I Want Your Love)" or a trending one when she posts). No text unless Ralph says yes.
 
-## Shots (all four show the skirt = Google Omni on Kie, 4 s each)
-- S1 HAND-FREE 0-3.5 s: mirror view, waist down. Strings let out, the skirt hangs long, front hem near her ankles. She shifts her weight, one boot steps forward.
-- S2 HAND 3.5-7.5 s: both hands grip the two front cords at the waist and pull them up. The front gathers and rises to just above the knee, the back stays long.
-- S3 HAND-FREE 7.5-11.5 s: high-low now (front above the knee, back to mid-calf). She takes two steps toward the mirror, the back ruffles swing.
-- S4 HAND-FREE 11.5-15.5 s: she turns a quarter to the side and back to show the side tie and the long ruffled back, then faces the mirror again.
+## Shots v2 (2026-10-23, try-on route; replaces the v1 shot list)
+Real skirt put on Grace by Kling Kolors virtual try-on (fal) from the real listing photos, on frames of Grace from her own TikTok (@shewiththeglow, white room). Each look is its own 4 s Omni clip on Kie with a small move; the length changes on a cut as her hand tugs a front string (tug-cut, the edit Ralph approved on cut 1). Music-only, no text.
+- L1 HAND 0-3 s: front, skirt just above the knee. Both hands at the waistband on the two front strings, she tugs once.
+- L2 HAND-FREE 3-6 s: three-quarter side turn, the long ruffled back tiers swing.
+- L3 HAND 6-9 s: front, one side pulled up, one leg out to JUST above the knee. She shifts her weight onto that leg.
+- L4 HAND 9-12 s: front, both sides up (shortest), back still long. Hands at the waist strings, small sway.
+- L5 HAND-FREE 12-15 s: shortest look, she steps toward the camera and crosses one leg in front.
 
 ## On-screen text (only on Ralph's yes), pick one
 - "the strings sold me" (H034)

@@ -13,3 +13,13 @@
 | "Halloween's next week." | real date: Oct 31 |
 | "It's in the orange cart." | PLAYBOOK §1 close |
 | Caption | same sources; #ad disclosure (PLAYBOOK §1) |
+
+## Shots v2 (2026-10-23)
+| Shot | Source |
+|---|---|
+| L1 knee + tug | inspo 0-2.3 s (top of the knee) + product truth 1 (strings at the front waist) |
+| L2 side/back tiers | inspo 2.4-3.4 s back view; no back frame of Grace exists in the white room, so a 3/4 side turn (Ralph's call in BOOK §7) |
+| L3 one leg just above the knee | inspo 7.2-12.5 s + product truth 2 |
+| L4 shortest | inspo 12.8-15.5 s |
+| L5 step + crossed leg | inspo 15.8-17.7 s |
+| Try-on route | tests rounds 22-26: Kolors on Grace's own frame kept the real skirt's shape (round 26) |
