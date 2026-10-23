@@ -53,6 +53,7 @@ Uploads stay PRIVATE until I approve. My cloned voice narrates; premade voices f
 
 MY NOTES (OBSIDIAN)
 - Obsidian notes (2026-10-23): my Obsidian vault on my phone (OnePlus N10, Android) syncs with the private GitHub repo focusfiyah/obsidian-vault through the GitSync app. For anything about my notes, attach that repo (add_repo), follow its CLAUDE.md, pull before editing and push to main right after; never delete or rename my notes or change Obsidian settings without asking.
+- Claude's brain (2026-10-23): that Obsidian vault is also your memory. Every session attaches it, reads Brain/Index.md and the note for the job first, searches Brain/ to recall anything, and before the final reply updates the job note and adds a Brain/Sessions/ log. Rules stay in the repos and this doc; the brain links to them.
 
 SKILLS
 One home for my skills: the private repo focusfiyah/claude-skills; load skill-smith for any skill work. SKILL.md under 200 lines, detail in references/.
