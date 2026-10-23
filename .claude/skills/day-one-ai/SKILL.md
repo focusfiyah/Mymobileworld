@@ -33,7 +33,7 @@ over this skill. This skill carries only what a chat without the repo needs to a
    else paid gets the exact cost first. Quote ElevenLabs in characters (the key can't read the balance).
 5. **Honest, verified:** only UI steps seen on official pages; FTC disclosure in every description.
 6. **Own thumbnail look per video** (Ralph 2026-10-23): every job gets a `look` block, made and checked with the
-   `day-one-looks` skill. Why: YouTube demonetizes template-based, repetitive channels, and all 25 thumbnails up to
+   `thumbnail-looks` skill. Why: YouTube demonetizes template-based, repetitive channels, and all 25 thumbnails up to
    then came from one template.
 
 Done when (per video): the job's `job.json`, video, Short and contact sheets are checked, both uploads are PRIVATE
