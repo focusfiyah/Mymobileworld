@@ -1,6 +1,6 @@
 # BodyJ castor roll-on: 4 x 15 s remixes of the selling video (Grace)
 
-Status: 2026-10-21 round 4 DONE, sent for review: grandma holds the roll-on; 10 oversized shots remade at real size (prompt-master prompts, size+shape first, camera locked); QC OK 4/4; review page https://claude.ai/code/artifact/6841627a-baca-40c2-bdfd-55d8dc8f53eb; Drive CURRENT - V1..V4 (round 4), round 3 + round 1 in Older versions. Kie: round 3 ~$11.14 + round 4 ~$5.14; ElevenLabs 1,143 chars; Kling 0. Next: Ralph's notes.
+Status: 2026-10-23 round 4 has issues (Ralph: V1 shows a head missing; hands not Grace's skin tone). Round 5 handed off: HANDOFF_r5.md (cause: wrong hand ref, Grace's real hand sheets not used). Kie so far: r3 ~$11.14 + r4 ~$5.14.
 
 ## What Ralph asked (2026-10-20, his words)
 "Use the winning formula. Keep the visuals similar, similar script, change the hook as long as it makes sense. remix
