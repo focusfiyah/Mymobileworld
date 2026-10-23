@@ -1,0 +1,76 @@
+  #tiktokshopbeauty: 60 videos
+  #tiktokshopskincare: 141 videos
+  #tiktokshopmakeup: 111 videos
+  #tiktokshopfinds: 139 videos
+  #collagen: 114 videos
+  #liquidcollagen: 107 videos
+  #supplements: 138 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+782 videos scanned, 132 shop videos posted in the last 3.0 day(s) -> /home/user/Mymobileworld/ugc/youtheory-collagen/research/viral/viral-2026-10-22.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      263K    578K  2.2d  0.62  (product not in TikTok's data)
+                                  @kcamadi5: #tiktokshop #fyp #tiktok #tiktokmademebuyit #xmasgiftideas 
+                                  https://www.tiktok.com/@kcamadi5/video/7698506053205445910
+  2       37K    9.2K  0.2d  0.36  Blush Wood Eau De Parfum [Beauty & Personal Care]
+                                  @melanieangelese: love tt shop so much😚 #melanieangelese #tiktokshop #haul #sk
+                                  https://www.tiktok.com/@melanieangelese/video/7699245895300238605
+  3       19K     43K  2.2d  0.43  [SKIN1004 Official Shop] LAB IN NATURE Azelaic Acid 10  [Beauty & Personal Care]
+                                  @chelsea_bananas: I love when magic comes in a bottle 😮‍💨🤍✨ @SKIN1004 US #skin
+                                  https://www.tiktok.com/@chelsea_bananas/video/7698491533758106894
+  4       19K     46K  2.5d  1.26  Scented Body Oils ~ Choose Your Scent - Handcrafted Mul [Beauty & Personal Care]
+                                  @sadiebaby08: cool girl tiktok shop finds 🦓⭐️👼🏻🪽 @Fly Kicks @Revice @LUMEN
+                                  https://www.tiktok.com/@sadiebaby08/video/7697825159532662030
+  5       13K     10K  0.8d  0.31  Flower Knows Teddy Kiss Set, Complete Cosmetics & Acces [Beauty & Personal Care]
+                                  @liz_santy: #tiktokshopblackfriday #fyp #makeup #fypシ #christmas 
+                                  https://www.tiktok.com/@liz_santy/video/7699029872437464334
+  6      9.7K    4.3K  0.4d  0.72  Neversink Naturals Grass-Fed Beef Gelatin Powder, Unfla [Health]
+                                  @weheartseeds: Can’t thank small @Mariana enough for introducing us to this
+                                  https://www.tiktok.com/@weheartseeds/video/7699157581402541326
+  7      8.1K    3.9K  0.5d  0.03  Youtheory Collagen Liquid - 5,000 mg - For Hair Growth, [Health]
+                                  @trendynatalya: Trying the Youtheory collagen liquid berry flavor, zero suga
+                                  https://www.tiktok.com/@trendynatalya/video/7699143237767941406
+  8      7.8K    9.1K  1.2d   0.6  Lion Pair Acne Cream Acne Treatment Pimples Removal Cre [Beauty & Personal Care]
+                                  @miathehutt: 
+                                  https://www.tiktok.com/@miathehutt/video/7698884565754072351
+  9      6.3K    1.6K  0.2d  0.45  Hard Feelings Eau De Parfum - EWG Verified Woodsy Flora [Beauty & Personal Care]
+                                  @hotgina1: @Uncommon Beauty This perfume is so incredible😍😍 100/10 for 
+                                  https://www.tiktok.com/@hotgina1/video/7699228585575353613
+ 10      4.4K    9.7K  2.2d  0.63  Naturium The Energizer Mandelic Acid Body Wash (500ml)  [Beauty & Personal Care]
+                                  @lushoctober: #tiktokshopblackfriday #tiktokcybermonday #discoveryourgift 
+                                  https://www.tiktok.com/@lushoctober/video/7698505471753276702
+ 11      4.4K    5.4K  1.2d  1.38  [SKIN1004 Official Shop] Centella Ampoule (55ml & 100ml [Beauty & Personal Care]
+                                  @nishabeautylifestyle: POV: Your TikTok Shop samples are TAKING OVER! 😍🛍️💗✨ Skincar
+                                  https://www.tiktok.com/@nishabeautylifestyle/video/7698862225351560479
+ 12      2.6K    2.8K  1.1d  0.57  Youtheory Collagen Liquid - 5,000 mg - For Hair Growth, [Health]
+                                  @londondagreat1: This skin is skinning and I deserve this glass skin✨ #youthe
+                                  https://www.tiktok.com/@londondagreat1/video/7698919777066077454
+ 13      2.3K    1.4K  0.6d   0.3  Zoyava Collagen Supplement - Type I, II, III, V and X - [Health]
+                                  @fitnhealthyeve: BLOWN AWAY! I feel like I took 15 years off my face!! 😍😍😍 #m
+                                  https://www.tiktok.com/@fitnhealthyeve/video/7699106333160787231
+ 14      1.7K    2.1K  1.2d  0.15  【Black Friday】Women's Gothic-Inspired V-Neck Mini Dress [Womenswear & Underwear]
+                                  @bellahsz14: #fashiontiktok #tiktokshopfinds #viralfind #outfitideas #fas
+                                  https://www.tiktok.com/@bellahsz14/video/7698870737603398942
+ 15      1.6K     425  0.3d  0.71  The Combo Setting Spray Duo | ONE/SIZE On 'Til Dawn & P [Beauty & Personal Care]
+                                  @thejazmynrenae: my holy grails!! 🎀😍✨ #tiktokshopbeautyfinds #tiktokshopcreat
+                                  https://www.tiktok.com/@thejazmynrenae/video/7699222865140272397
+ 16      1.3K     647  0.5d  0.62  【Black Friday】Backless Halter Neck Plain Slim Fit Slit  [Womenswear & Underwear]
+                                  @bellahsz14: #fashiontiktok #tiktokshopfinds #viralfind #outfitideas #fas
+                                  https://www.tiktok.com/@bellahsz14/video/7699142258578296094
+ 17      1.1K     279  0.1d  0.36  Mama Natural Multi Collagen Protein Powder - Unflavored [Health]
+                                  @karelbysjk: POV: wow 😳, empezaste agregar tu collagen a tus bebidas y ah
+                                  https://www.tiktok.com/@karelbysjk/video/7699282887241157902
+ 18      1.1K    2.1K  1.9d  0.14  [Beauty of Joseon Official] First-Time BOJ Mega Starter [Beauty & Personal Care]
+                                  @princesslasirena: Skincare haul of my dreams! 🎀🧴✨ Korean skincare is taking ov
+                                  https://www.tiktok.com/@princesslasirena/video/7698602626488798494
+ 19      1.0K     336  0.3d     0  Pinspark Women's 2-Piece Crew Neck Short Sleeve Casual  [Sports & Outdoor]
+                                  @aljibesblanca: Lo que yo amo estos #comfyset 😍 #tiktokshop #tiktokshopfinds
+                                  https://www.tiktok.com/@aljibesblanca/video/7699200923200916750
+ 20       960    1.1K  1.2d     0  Youtheory Collagen Liquid - 5,000 mg - For Hair Growth, [Health]
+                                  @onebasicmama: #collagenpeptides #collagen #hairskinnails #liquidcollagen 
+                                  https://www.tiktok.com/@onebasicmama/video/7698877992285621535

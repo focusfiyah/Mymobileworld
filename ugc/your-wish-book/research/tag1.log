@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 36 of 90 videos posted since 2026-08-20
+36 videos -> ugc/your-wish-book/research/tag_manifestationbook/tag-manifestationbook.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    458,700   7.3    1.5   72 2026-09-28  @teaandtruecrimewithbella: Everyone needs this book!! 📖 #manifestation #psalms #bookrecommendatio
+                                          https://www.tiktok.com/@teaandtruecrimewithbella/video/7690649638071799071
+    151,800  17.1   8.06    8 2026-08-28  @teaguemanifesting: 
+                                          https://www.tiktok.com/@teaguemanifesting/video/7679177969016835358
+    151,300  15.4    6.2  102 2026-09-25  @444angelprincess: 
+                                          https://www.tiktok.com/@444angelprincess/video/7689543131196329229
+    127,700  10.1   2.52   20 2026-10-15  @control.your.energy: Law of Attraction Book: How to Master your Energy ⚡️Only in my bio 🔗 #
+                                          https://www.tiktok.com/@control.your.energy/video/7696913462982708502
+    110,600  13.1   3.61   26 2026-10-14  @control.your.energy: Manifestation Book: The 7 Keys to Manifest your Dreams 📖⚡️ #manifestat
+                                          https://www.tiktok.com/@control.your.energy/video/7696598300081917206
+     96,200  26.0   9.64  179 2026-09-06  @courtneyalexischo: 🔮 MY 3-PAGE MANIFESTING JOURNALING ROUTINE!!!!!! 1. braindump 2. grati
+                                          https://www.tiktok.com/@courtneyalexischo/video/7682209376983076110
+     63,100   8.6   1.49   11 2026-10-17  @control.your.energy: LAW OF ATTRACTION Book: How to Master your Energy ⚡️Only in my bio 🔗 #
+                                          https://www.tiktok.com/@control.your.energy/video/7697752207390870786
+     38,300  13.9   3.79    5 2026-08-21  @5plys: Books that will change your life! #spirituality #books #booktok #spiri
+                                          https://www.tiktok.com/@5plys/video/7676365851540409613
+     36,500  25.7   8.43   64 2026-09-01  @thestacirene: THIS is how you journal your way to your DREAM LIFE! Scripting will re
+                                          https://www.tiktok.com/@thestacirene/video/7680416484899720461
+     26,200  19.1    5.9  194 2026-09-20  @nicolerivera660: everything I manifested to get me to nyc 🥹 @activationsapp was incredi
+                                          https://www.tiktok.com/@nicolerivera660/video/7687766997274217758
+     11,100  11.7   1.86   13 2026-09-23  @ericjohncampbell: I write about noticing what feels right in my book, "A Manual for Mani
+                                          https://www.tiktok.com/@ericjohncampbell/video/7688529395312626958
+     10,700  15.7   5.31  299 2026-09-26  @ashera_tips: Replying to @Charity Nicole #manifestmoney #asheragoddess #alchemy #da
+                                          https://www.tiktok.com/@ashera_tips/video/7689959643287817495
+     10,000  14.5   3.31  154 2026-10-12  @jazzymanifests: 🔗manifestation coaching + ebooks/resources in bio✨ #manifestation #law
+                                          https://www.tiktok.com/@jazzymanifests/video/7695806360889412894
+      6,897  11.6   1.84   14 2026-09-30  @ericjohncampbell: The way an activity feels can tell you something about what matters to
+                                          https://www.tiktok.com/@ericjohncampbell/video/7691359067889028365
+      6,512  23.9   5.41  199 2026-08-30  @hizzibtw: manifest with me 🌀🧚🏼‍♀️⭐️ #hizzibtw #manifestationjournal #journalwith
+                                          https://www.tiktok.com/@hizzibtw/video/7679883804248509709

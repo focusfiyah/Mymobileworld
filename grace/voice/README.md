@@ -1,15 +1,20 @@
 # Grace's voice (ElevenLabs, Starter plan = instant clones only; professional clone not allowed, tested 2026-10-18)
 
-**"Grace" `Rh3oAQMqRVf78UIVpBoQ` is Grace's ONE voice** (Grace's pick, 2026-10-20; grace.json). Use it for every Grace
-voiceover and skit line:
-1. Render: eleven_v4, stability 0.4, similarity 0.8, style 0.
-2. Pace (free, always): `python3 grace/voice/pace.py IN OUT --wps 3.5`. Caps pauses at 0.15 s and retimes to 3.5 words/s
-   (Grace's natural pace in Ralph's video) with pitch and formants kept, then levels to -16 LUFS. The raw render runs
-   2.9 words/s with long pauses, which Grace found too slow. Needs `pip install faster-whisper` (free local model).
-3. Clean the echo (free, always): `python3 grace/voice/clean.py PACED OUT` (resemble-enhance, best of 3 runs that keep
-   every word, about 8 minutes for 30 s). The clone carries some room echo from her accent clips; Ralph approved the
-   cleaned sound 2026-10-20 ("It is good now"). Setup lines are at the top of clean.py.
-4. Then the usual STT stutter check (PLAYBOOK §6).
+**"Grace" `Rh3oAQMqRVf78UIVpBoQ` is Grace's ONE voice** (Grace's pick 2026-10-20; account name "Grace cloned"; Ralph
+2026-10-21: "Yes Grace voice from now on"; grace.json). Use it for every Grace voiceover and skit line.
+
+**The sound Ralph approved is the power bank flashlight VO (2026-10-21); the Shnuggle next-bath VO the same day had an
+echo.** Measured with `echo.py` (lower = drier): flashlight final 150 ms, Shnuggle final 171 ms (raw 200, after
+`pace.py` 200, after `clean.py` 171). Same voice, same settings: the raw renders differ, and pace.py + clean.py did not
+bring Shnuggle down to the flashlight's level. So:
+1. Render: eleven_v4, stability 0.4, similarity 0.8, style 0, speed 1.0.
+2. Tighten and pace the flashlight way (template `ugc/powerbank-flashlight/vo.py`): scribe_v2 word times, cut the
+   pauses between words, then ffmpeg `atempo` up to 3.5 words/s (never above 1.25x) + `loudnorm=I=-16:TP=-1.5`.
+3. **Echo gate before the VO goes in any cut:** `python3 grace/voice/echo.py FINAL.mp3` must read rt60_est_ms <= 150
+   (the approved flashlight level). Above it: run `clean.py` (free, about 8 min) and measure again; still above, ask
+   Ralph before a new render (ElevenLabs characters, quote them). Put the reading in the plan/QC report.
+4. Then the usual STT stutter check (PLAYBOOK §6) and listen once on the review page.
+`pace.py` and `clean.py` stay as tools, not as the default steps.
 
 ## How it was made (2026-10-20, three rounds)
 - Round 1 (echo): a clone from 7 of her TikToks picked for low echo alone. Grace: "too American". Those clips turned out

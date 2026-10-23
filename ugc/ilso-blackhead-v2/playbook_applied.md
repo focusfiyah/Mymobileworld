@@ -1,0 +1,6 @@
+# grace/PLAYBOOK.md applied (read 2026-10-19)
+- §1 house rules: no personal-use claims (Grace hasn't used it; results are "people say", demo lines tagged [say only what you see]); no price; no false scarcity (Thanksgiving Nov 26 and holiday pictures are real dates); honest line is a sell-side confession ("The worst part is how satisfying it is", "I'm a little mad nobody showed me this sooner", "The hardest part is sitting still for fifteen minutes"); no "label says", no "reviewer"; CTA sells more units (one for you + a friend/stocking), closes "It's in the orange cart."
+- §2 psychology: pain first (strawberry nose, strip pain), move away from pain, remove uncertainty (what's in it, how long, how), specificity (ten to fifteen minutes, forty pads), gift angle.
+- §3 hooks: library hooks word for word (H063, H072, H132 + 2 alts each), none of v1's 9 ids reused; Grace's 3 hook styles covered: category gap (S3 "There are a ton of blackhead products out there, but..."), finally + exact situation (S1 "This ilso kit is finally the one"), features one by one with what each does (S3). Text hook = curiosity only, offered yes/no.
+- §4 structure: hook, pain beat, solution/selling point, honest brag, real urgency, orange-cart close. Coach research on top shop sellers + viral board.
+- §5 pacing: 109 to 113 words each, about 33 to 35 s at 3.3 words/sec; numbers as words.

@@ -1,1 +1,3 @@
 - 2026-10-19: tiktok.py fetch_item falls back to a plain request when headless Chromium gets a maintenance page (ported from the 2026-10-17 repo fix).
+- 2026-10-19: added references/slideshows.md (TikTok Shop shoppable photo posts: facts checked against Seller University, slide order, text needs Ralph's OK) + workflow 5 and description triggers; Ralph asked to learn the format.
+- 2026-10-19: product-truth lesson from the Shnuggle slideshow test (real dimensions + size anchor, details confirmed by Ralph, free route first, quotes include one redo); details in grace/PLAYBOOK.md §6.

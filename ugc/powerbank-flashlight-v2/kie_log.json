@@ -1,0 +1,840 @@
+[
+ {
+  "t": "2026-10-22 23:17:34",
+  "submitted": "23382ac15d5b50e7b5a643756ca0810e",
+  "prompt": "I am uploading 4 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-22 23:17:35",
+  "submitted": "e505b72a8d28782d758824434d5146cc",
+  "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-22 23:17:38",
+  "submitted": "bf106c6b3310fb20d058c1390c4c88a7",
+  "prompt": "I am uploading 6 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-22 23:17:40",
+  "submitted": "73d5ec8b2c705de2819d8fb7cd064fd7",
+  "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-22 23:17:41",
+  "submitted": "521183329df99e248f31f2ef63e0e209",
+  "prompt": "I am uploading 6 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-22 23:17:43",
+  "submitted": "9c34e3d89bb5b4e4be6ddcb83771971d",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-22 23:17:52",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 5 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: first-person, she walks slowly down the trail; the hand keeps one grip and the flashlight keeps pointing straight ahead; the focused beam always comes out of the lens at the far end of the dark cap and its round pool of light moves along the trail ahead with her steps; the side panel stays off. Camera: gentle walking forward, slight natural bob.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711026978-w5fz2qm8pg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711029538-645szgpiyqd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711032216-tdeiqeyby7c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711034421-ucu1g91xwx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711036767-233n8bnodfs.jpg"
+    ]
+   }
+  },
+  "taskId": "9c34e3d89bb5b4e4be6ddcb83771971d",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-22 23:18:24",
+  "submitted": "24683f3a9c57bd385ce29379b279da00",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-22 23:18:49",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 5 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: first-person, she walks slowly down the trail; the hand keeps one grip and the flashlight keeps pointing straight ahead; the focused beam always comes out of the lens at the far end of the dark cap and its round pool of light moves along the trail ahead with her steps; the side panel stays off. Camera: gentle walking forward, slight natural bob.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711085868-lxhikmzax28.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711088300-5vqaudqxee.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711090508-ongq64lrlr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711092764-ut80oqvnix.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711098661-tohzzny8cs.jpg"
+    ]
+   }
+  },
+  "taskId": "24683f3a9c57bd385ce29379b279da00",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-22 23:19:00",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 6 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK; Image 4 = her real hand: skin tone, nails, rings and bracelets; Image 5 = an approved photo from this same series: match its hand, skin, French-tip nails, rings and bracelets exactly; Image 6 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S9 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: Close-up: her hand clips the flashlight's carabiner onto the shoulder strap of the dark-grey backpack, thumb pressing the silver wire gate open, the orange button facing the camera, side panel on. The mountains are soft behind.\n\nHER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711025722-m2befqgaa9b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711028420-qctyp54otio.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711030675-b5q430ejtuw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711033037-qr9ey1wya8s.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034905-4ucbf8t7seb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "bf106c6b3310fb20d058c1390c4c88a7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bf106c6b3310fb20d058c1390c4c88a7_0_1792711136.jpeg"
+   ]
+  },
+  "costTime": 92
+ },
+ {
+  "t": "2026-10-22 23:19:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = her real hand: skin tone, nails, rings and bracelets; Image 4 = an approved photo from this same series: match its hand, skin, French-tip nails, rings and bracelets exactly; Image 5 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S7 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: Top-down close-up: an open plain dark-blue zip pouch on the picnic table with bandages, a small water bottle and a roll of tape inside. Her hand grips the flashlight by its dark metal end cap and is lowering it into the pouch, light off, the orange button visible. The pouch has no cross, no logo and no writing.\n\nHER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711025714-ws50ayc20ol.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711028331-i4kgg87blq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711033575-t9qseqz404b.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711035660-150f3uv9rmk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "73d5ec8b2c705de2819d8fb7cd064fd7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/73d5ec8b2c705de2819d8fb7cd064fd7_0_1792711136.jpeg"
+   ]
+  },
+  "costTime": 89
+ },
+ {
+  "t": "2026-10-22 23:19:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 4 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK; Image 4 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S6 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: A dark-grey hiking backpack stands on the ground; the flashlight hangs from its shoulder strap by the carabiner clip, side panel on. The strap is 5 cm wide and the flashlight is about three times as tall as the strap is wide. The tent and the mountains are soft behind it.\n\nNo hands, fingers or people anywhere in the photo.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711026294-3lb943o4k9r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711028752-bswaug9jij.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711031829-fq1gxc1q25.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "23382ac15d5b50e7b5a643756ca0810e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/23382ac15d5b50e7b5a643756ca0810e_0_1792711139.jpeg"
+   ]
+  },
+  "costTime": 100
+ },
+ {
+  "t": "2026-10-22 23:19:10",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 6 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK; Image 4 = her real hand: skin tone, nails, rings and bracelets; Image 5 = an approved photo from this same series: match its hand, skin, French-tip nails, rings and bracelets exactly; Image 6 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S8 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: Her hand stands the flashlight upright on the picnic table, torch head down on the wood and the carabiner clip on top, side panel on; her fingers grip only the dark metal end cap at the bottom, the orange button and the light panel uncovered. The whole clip is visible. Only the flashlight and her hand on the table, the campsite soft behind. No food, no packaging, no other products.\n\nHER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711025756-rs8o8p33we.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711030434-qdzk86i4q3f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711033044-4d9vcihcj0n.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711033575-t9qseqz404b.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711035711-k9pllgr6bl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "521183329df99e248f31f2ef63e0e209",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/521183329df99e248f31f2ef63e0e209_0_1792711145.jpeg"
+   ]
+  },
+  "costTime": 96
+ },
+ {
+  "t": "2026-10-22 23:20:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK; Image 4 = two real close-ups of the lens end: a rounded-square dark grey metal bezel around a clear domed zoom lens with a small square LED chip in the centre; Image 5 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S5 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: The flashlight stands on a flat rock at the edge of the campsite, turned three-quarters so the lens at the tip of the dark end cap faces the camera at an angle, side panel OFF and dark. The lens is switched on with a bright white light shining toward the trees; nothing else is lit by it. Camera low, close to the rock.\n\nNo hands, fingers or people anywhere in the photo.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711025676-o2dh96c8rzq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711028765-h77l80zp31.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711031628-8fqmrjq6tgw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034861-b5u6kcfndg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "e505b72a8d28782d758824434d5146cc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e505b72a8d28782d758824434d5146cc_0_1792711196.jpeg"
+   ]
+  },
+  "costTime": 155
+ },
+ {
+  "t": "2026-10-22 23:20:11",
+  "submitted": "6097f42f7189fe31aabfd0ef476263ea",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-22 23:20:28",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 5 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: first-person, she walks slowly down the trail; the hand keeps one grip and the flashlight keeps pointing straight ahead; the focused beam always comes out of the lens at the far end of the dark cap and its round pool of light moves along the trail ahead with her steps; the side panel stays off. Camera: gentle walking forward, slight natural bob.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711195516-yxlvh7h844p.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711197645-qh5xfv331ph.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711199652-gaxbtgcr9pj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711201889-q3togc5kj4.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711204141-40m921tjld2.jpg"
+    ]
+   }
+  },
+  "taskId": "6097f42f7189fe31aabfd0ef476263ea",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-22 23:20:47",
+  "submitted": "45f53299ffec8676b690cae7d8cf64cb",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the p"
+ },
+ {
+  "t": "2026-10-22 23:21:04",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: the flashlight sways very gently on its carabiner from the fabric loop, the side panel stays lit with steady soft white light, the tent fabric moves slightly in a breeze. Camera: slow push-in toward the flashlight. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711237087-37j1l3nyr8n.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711239419-6v3pdtml2r.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792711241289-ou2a9c4z5t.jpg"
+    ]
+   }
+  },
+  "taskId": "45f53299ffec8676b690cae7d8cf64cb",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:05:28",
+  "submitted": "4b79d43fcc783fd50b6a08cfb92e92a0",
+  "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-23 00:05:30",
+  "submitted": "0c2ab734c0239546857e10874fda9012",
+  "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB"
+ },
+ {
+  "t": "2026-10-23 00:05:36",
+  "submitted": "08f06c53e63962c620722775e1c83e15",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-23 00:05:53",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 5 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: first-person, she walks slowly down the trail; the hand keeps one grip and the flashlight keeps pointing straight ahead; the focused beam always comes out of the lens at the far end of the dark cap and its round pool of light moves along the trail ahead with her steps; the side panel stays off. Camera: gentle walking forward, slight natural bob.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713920833-xhbsmnym8si.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713923918-19otzzc5jiy.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713926095-me8am21riws.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713928089-9vlsumsg6cj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713930063-2g566v6yqjb.jpg"
+    ]
+   }
+  },
+  "taskId": "08f06c53e63962c620722775e1c83e15",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:06:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = a real close-up of the print on the dark end cap: a white shark logo and the words SMILING SHARK; Image 4 = two real close-ups of the lens end: a rounded-square dark grey metal bezel around a clear domed zoom lens with a small square LED chip in the centre; Image 5 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S5 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: The flashlight stands on a flat rock at the edge of the campsite, turned three-quarters so the lens at the tip of the dark end cap faces the camera at an angle, side panel OFF and dark. The lens is switched on with a bright white light shining toward the trees; nothing else is lit by it. Camera low, close to the rock.\n\nNo hands, fingers or people anywhere in the photo.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n\nFIX: the flashlight lies on its back on the flat rock, propped at a slight angle, with the lens end (the tip of the dark end cap) pointing toward the camera and a little to the side; the lens is clearly visible and lit bright white, the light beam shining out past the camera toward the trees. The lens is never touching or hidden against the rock. The carabiner clip is at the far end, away from the camera. Side panel OFF and dark.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711026294-3lb943o4k9r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711028331-i4kgg87blq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711033044-4d9vcihcj0n.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034861-b5u6kcfndg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "0c2ab734c0239546857e10874fda9012",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/ggc/0c2ab734c0239546857e10874fda9012_1792713971830.jpeg"
+   ]
+  },
+  "costTime": 46
+ },
+ {
+  "t": "2026-10-23 00:06:31",
+  "submitted": "b3e77450a121d0f04d32dbccb0e396a9",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-23 00:06:49",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her hand sets the flashlight down upright on the table, torch head on the wood and clip on top, then lets go and the hand moves out of frame; the flashlight stays standing, still and upright, side panel lit steady. Camera: slow push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713978102-edu4al0ojl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713979929-eqw86v5qlgi.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713982250-fp57d66v2cf.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792713984812-scu3a67yirb.jpg"
+    ]
+   }
+  },
+  "taskId": "b3e77450a121d0f04d32dbccb0e396a9",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:06:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "I am uploading 5 reference images. Image 1 = real photos of the flashlight: front, back, a close-up of its logo, its USB-A port, and its end cap pulled off showing the USB-C port; Image 2 = a real photo of the flashlight standing upright with its carabiner clip on top: its true slim proportions and the order of its parts; Image 3 = her real hand: skin tone, nails, rings and bracelets; Image 4 = an approved photo from this same series: match its hand, skin, French-tip nails, rings and bracelets exactly; Image 5 = an approved photo of the same campsite from this series: match its tent, picnic table, pine trees, mountains, colours and how dark the scene is.\n\nMake one photo (shot S7 of a 9-photo video series). SIZE FIRST: the flashlight is 15.7 cm long including its clip and 2.95 cm square, about 5 times as long as it is wide, 90 g. It is about as long as a phone and as wide as two fingers. Slim, never stubby, never a big torch.\n\nSCENE: Top-down close-up: an open plain dark-blue zip pouch on the picnic table with bandages, a small water bottle and a roll of tape inside. Her hand grips the flashlight by its dark metal end cap and is lowering it into the pouch, light off, the orange button visible. The pouch has no cross, no logo and no writing.\n\nHER HAND (the only person in the photo): exactly the hand in the hand image: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band, a chunky gold watch-link bracelet and a thin gold chain with small pearls and a gold leaf charm on the wrist. The hand enters from the edge of the frame with the whole wrist visible; the fingers truly grip what they hold.\n\nTHE FLASHLIGHT must match the real photos exactly, part for part and colour for colour: a slim square bar with rounded corners, and its parts in this order from the clip end: a light blue-grey plastic carabiner clip with a thin silver wire gate; the light blue-grey matte body with a long rounded-rectangle frosted pale light panel; then ONE square orange button with an embossed power symbol; then a darker grey brushed-metal end cap (about a quarter of the length) whose tip is the lens: a rounded-square dark grey bezel around a clear domed zoom lens with a small square LED chip in its centre (no silver reflector). The only print on it: on the front of the dark end cap a white shark logo with the words SMILING SHARK in white bold letters, exactly as in the logo close-up, letter for letter; on the back of the cap a few lines of tiny white spec text; on the back of the body one small round hole near the clip. No other text, no stickers, no extra buttons, no screen, no second light. Only one flashlight in the photo.\n\nPLACE: one campsite in a pine forest at blue hour, just after sunset: the dusk sky is darkened closer to night, a deep navy blue with only a faint pale glow at the horizon, while the campsite stays clearly visible: tent, table, ground and trees easy to see, true neutral colours, no orange, yellow or golden cast. A sage-green dome tent, a weathered wooden picnic table, pine trees and distant mountains.\n\nReal photo taken on a phone, casual and realistic, like a real person took it. Vertical 9:16. No text, no captions, no watermark, no other logos or brand names anywhere, no lens flare, no sparkles, no light streaks.\n\nLIGHT: the scene is dim like the approved campsite photo, the dusk sky darkened closer to night, so the flashlight's own light glows clearly and is the brightest thing in the photo, while the campsite stays visible.\n\nFIX: the flashlight in her hand is the light blue-grey square bar from images 1 and 2, never a black or round torch: blue-grey body, frosted light panel, square orange button, dark grey end cap with SMILING SHARK, carabiner clip on the other end, all visible as she lowers it into the pouch.\n",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711026294-3lb943o4k9r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711028331-i4kgg87blq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711033575-t9qseqz404b.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711035711-k9pllgr6bl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792711034379-a5itrlcxzh6.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "4b79d43fcc783fd50b6a08cfb92e92a0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4b79d43fcc783fd50b6a08cfb92e92a0_0_1792714007.jpeg"
+   ]
+  },
+  "costTime": 82
+ },
+ {
+  "t": "2026-10-23 00:07:08",
+  "submitted": "bf96a3e29ce95ab14d2e60bc3cf53b09",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is the real produc"
+ },
+ {
+  "t": "2026-10-23 00:07:24",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is the real product sheet: keep the flashlight's exact slim shape, parts, print and colours as in images 1 and 2; no added marks or text.\nMotion: her hand sets the flashlight down upright on the table, clip on top, then lets go and moves out of frame; the flashlight stays standing still, side panel lit steady. Camera: slow push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night while the campsite stays visible, true neutral colours. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792714019440-5fzxoyn3gtj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792714021959-xpzr5vwyxq.jpg"
+    ]
+   }
+  },
+  "taskId": "bf96a3e29ce95ab14d2e60bc3cf53b09",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:26:31",
+  "submitted": "902c5de18584543f3ca59f87e27135cb",
+  "prompt": "Reference image 1 is an approved frame from this same video: use its exact flashlight, her hand (skin, French-tip nails,"
+ },
+ {
+  "t": "2026-10-23 00:28:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Reference image 1 is an approved frame from this same video: use its exact flashlight, her hand (skin, French-tip nails, rings, bracelets), the campsite and the dusk light. Reference image 2 is the real flashlight standing upright: carabiner clip on top, then the light blue-grey body with the long frosted light panel, ONE square orange power button, and the dark grey brushed-metal end cap at the bottom. Reference image 3 is a close-up of the print on that end cap: a white shark logo and the words SMILING SHARK, matching letter for letter. Reference image 4 is the real product sheet: exact slim shape, 15.7 cm long with the clip, about as long as a phone, 2.95 cm square, and its colours.\nScene: close-up on the weathered wooden picnic table: an open plain dark-blue zip pouch with bandages, a small water bottle and a roll of tape inside; the pouch has no cross, no logo and no writing. Her hand holds the flashlight upright by the upper body just below the carabiner clip, the orange button and the light panel facing the camera, side panel off, and slowly lowers it, end cap first, into the pouch until it rests among the items, then lets go.\nThe flashlight is the light blue-grey square bar from images 1, 2 and 4 the whole time: never black, never round, no bronze or copper parts, the clip always on top, the button below the panel. The hand keeps one grip and the flashlight never flips or turns around. Only one flashlight and one hand.\nCamera: slow push-in. Dusk sky darkened closer to night while the campsite stays visible, true neutral colours, no golden cast. Vertical 9:16 phone footage. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715167148-if80902tifp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715169624-y4hbhcsn9uc.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "902c5de18584543f3ca59f87e27135cb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792715310581-wmnrgn181qb.mp4"
+   ]
+  },
+  "costTime": 121
+ },
+ {
+  "t": "2026-10-23 00:35:52",
+  "submitted": "89bc951654ad84a57bf7c41005beb9ef",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-23 00:38:05",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 5 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: first-person, she walks slowly down the trail; the hand keeps one grip and the flashlight keeps pointing straight ahead; the focused beam always comes out of the lens at the far end of the dark cap and its round pool of light moves along the trail ahead with her steps; the side panel stays off. Camera: gentle walking forward, slight natural bob.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715734457-md65120dhr.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715736613-rnwub9dy6b.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715740290-e2ec2wdana.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715742192-guys5af9zql.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715744205-t1qn2qesdd.jpg"
+    ]
+   }
+  },
+  "taskId": "89bc951654ad84a57bf7c41005beb9ef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/89bc951654ad84a57bf7c41005beb9ef_0_1792715881.mp4"
+   ]
+  },
+  "costTime": 132,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-23 00:39:38",
+  "submitted": "1f997eb6df68354569fb01b992779724",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the p"
+ },
+ {
+  "t": "2026-10-23 00:39:40",
+  "submitted": "f68449c6a5765d45d44a1c522e79e27f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the p"
+ },
+ {
+  "t": "2026-10-23 00:39:42",
+  "submitted": "ce11790606c9517adf92332f73db854b",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-23 00:39:44",
+  "submitted": "97def40bd995707aa5e3275765f9d6d8",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the p"
+ },
+ {
+  "t": "2026-10-23 00:39:45",
+  "submitted": "a7b0c7169a69373b5ac23af634016671",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the p"
+ },
+ {
+  "t": "2026-10-23 00:39:47",
+  "submitted": "4f21f0ec0d834eca563bc0ee7d311401",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-23 00:39:49",
+  "submitted": "82458ace40b8e15a71ebeea18e483b58",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up"
+ },
+ {
+  "t": "2026-10-23 00:40:17",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the ports under the end cap: the end cap pulled about 1 cm off the body; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: none on the flashlight or the cable, they stay exactly still; the green battery symbol on the phone screen pulses softly once. Camera: slow push-in along the table toward the flashlight and phone. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953593-j9rg05nudje.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715955851-s2wpg6pgtki.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715957896-lxzdzobzw7.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715959869-iktejiixin.jpg"
+    ]
+   }
+  },
+  "taskId": "97def40bd995707aa5e3275765f9d6d8",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:40:22",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her hand lifts the flashlight a little toward the camera and tilts it slightly so the lit panel catches the light; she keeps one grip on the dark end cap the whole time, the orange button and the panel stay uncovered, the carabiner clip stays on top, the flashlight never turns around or flips. Camera: slow push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953709-tp9rhvor5zo.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715955874-djqgecfdd2l.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715957985-xwf6iafmtcn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715960399-zwrsirhxlk.jpg"
+    ]
+   }
+  },
+  "taskId": "82458ace40b8e15a71ebeea18e483b58",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:40:24",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her hand sets the flashlight down upright on the table, torch head on the wood and clip on top, then lets go and the hand moves out of frame; the flashlight stays standing, still and upright, side panel lit steady. Camera: slow push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953534-whmu0iz2sbc.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715955601-yy8lu1n86s.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715957401-kv1cq50w5iq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715959633-m5l0ezjfqmh.jpg"
+    ]
+   }
+  },
+  "taskId": "ce11790606c9517adf92332f73db854b",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:40:27",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nImage 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: the lens at the tip of the dark cap flickers: its white light blinks on and off quickly, about three times a second, the whole clip; the side panel stays OFF and dark the whole time; nothing else changes. Camera: slow low arc around the rock. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953454-ordwbf0pcpo.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715955531-jdtuwo8bu2.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715958098-p4kj9ewioho.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715960205-20b5xsnrd3c.jpg"
+    ]
+   }
+  },
+  "taskId": "a7b0c7169a69373b5ac23af634016671",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:40:29",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nImage 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her thumb presses the silver wire gate open, the carabiner hooks onto the backpack strap and the gate snaps shut, then the hand lets go and the flashlight hangs from the strap; the flashlight never flips or turns its back. Camera: locked-off close-up, slight push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953723-q3zv96co02.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715955704-ghhh6x03475.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715957741-ycu2r9ajqjb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715959873-hnyfznvjb7.jpg"
+    ]
+   }
+  },
+  "taskId": "4f21f0ec0d834eca563bc0ee7d311401",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-23 00:41:10",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: the flashlight sways very gently on its carabiner from the fabric loop, the side panel stays lit with steady soft white light, the tent fabric moves slightly in a breeze. Camera: slow push-in toward the flashlight. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953479-3iunx1iaieh.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715955525-8g4ge9mc03e.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715957980-1sa8pbh90a9.jpg"
+    ]
+   }
+  },
+  "taskId": "1f997eb6df68354569fb01b992779724",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/1f997eb6df68354569fb01b992779724_0_1792716065.mp4"
+   ]
+  },
+  "costTime": 103,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-23 00:41:28",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing exactly.\nImage 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nImage 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: the flashlight sways gently on the backpack strap, side panel lit steady. Camera: slow sideways dolly past the backpack with a slight push-in. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715953715-q0jc4hywcg.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715956635-6ydmw7n9vtj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/powerbank-flashlight-v2/1792715958702-u7dz2n5lxpa.jpg"
+    ]
+   }
+  },
+  "taskId": "f68449c6a5765d45d44a1c522e79e27f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/f68449c6a5765d45d44a1c522e79e27f_0_1792716085.mp4"
+   ]
+  },
+  "costTime": 121,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-23 00:41:58",
+  "submitted": "52dd3bc7a58c0e5bc06a9d95b2378f3e",
+  "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nReference image "
+ },
+ {
+  "t": "2026-10-23 00:41:59",
+  "submitted": "3240ffe460282faba694be842a2df1f1",
+  "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nReference image "
+ },
+ {
+  "t": "2026-10-23 00:42:01",
+  "submitted": "4a653ed635781f3679970732979c6320",
+  "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing exactly.\nReference image 2 is a re"
+ },
+ {
+  "t": "2026-10-23 00:42:03",
+  "submitted": "fd44ae2cc17a72bdd0a176e29ad4f358",
+  "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nReference image "
+ },
+ {
+  "t": "2026-10-23 00:42:05",
+  "submitted": "37a3e9729e2ac27dff6aa0e64c5d1312",
+  "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing exactly.\nReference image 2 is a re"
+ },
+ {
+  "t": "2026-10-23 00:43:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nReference image 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nReference image 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nReference image 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her thumb presses the silver wire gate open, the carabiner hooks onto the backpack strap and the gate snaps shut, then the hand lets go and the flashlight hangs from the strap; the flashlight never flips or turns its back. Camera: locked-off close-up, slight push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716101127-w9c6oictc9c.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716103264-t23fle2fbeb.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fd44ae2cc17a72bdd0a176e29ad4f358",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792716222696-23vxlmgi5ue.mp4"
+   ]
+  },
+  "costTime": 109
+ },
+ {
+  "t": "2026-10-23 00:43:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing exactly.\nReference image 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nReference image 3 is a real close-up of the ports under the end cap: the end cap pulled about 1 cm off the body; match it exactly.\nReference image 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: none on the flashlight or the cable, they stay exactly still; the green battery symbol on the phone screen pulses softly once. Camera: slow push-in along the table toward the flashlight and phone. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716101077-3hj8zsh0hfb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716103591-j2k14hi0nwm.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "37a3e9729e2ac27dff6aa0e64c5d1312",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792716224146-4zf21nzcknt.mp4"
+   ]
+  },
+  "costTime": 109
+ },
+ {
+  "t": "2026-10-23 00:44:01",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing exactly.\nReference image 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nReference image 3 is a real close-up of the lens end: rounded-square dark grey bezel, clear domed lens, small square LED chip; match it exactly.\nReference image 4 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nMotion: the lens at the tip of the dark cap flickers: its white light blinks on and off quickly, about three times a second, the whole clip; the side panel stays OFF and dark the whole time; nothing else changes. Camera: slow low arc around the rock. No hand or person appears at any time.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716101106-h9gqzc4st1p.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716103400-t1d4fs31meb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "4a653ed635781f3679970732979c6320",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792716234905-tk3681f0pm.mp4"
+   ]
+  },
+  "costTime": 125
+ },
+ {
+  "t": "2026-10-23 00:44:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nReference image 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nReference image 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nReference image 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her hand sets the flashlight down upright on the table, torch head on the wood and clip on top, then lets go and the hand moves out of frame; the flashlight stays standing, still and upright, side panel lit steady. Camera: slow push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715167148-if80902tifp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716101371-b775i68vddl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "52dd3bc7a58c0e5bc06a9d95b2378f3e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792716241880-sxogv40k53.mp4"
+   ]
+  },
+  "costTime": 137
+ },
+ {
+  "t": "2026-10-23 00:44:11",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: keep its place, light, framing and hand exactly.\nReference image 2 is a real close-up of the print on the dark metal end cap: a white shark logo and the words SMILING SHARK in white bold letters; wherever the cap's front shows, the print matches image 2 letter for letter and colour for colour.\nReference image 3 is the real product sheet: keep the flashlight's exact slim shape (15.7 cm long with its clip, about as long as a phone, 2.95 cm square), its parts in order from the clip end (light blue-grey carabiner clip with a thin silver wire gate, light blue-grey matte body with a long frosted light panel, ONE square orange button with a power symbol, darker grey brushed-metal end cap whose tip is the lens) and its colours. No added marks, no extra text, no second flashlight.\nReference image 4 is her real hand: same skin, French-tip nails, rings and bracelets as image 1; whole wrist, the hand comes in from the frame edge.\nMotion: her hand lifts the flashlight a little toward the camera and tilts it slightly so the lit panel catches the light; she keeps one grip on the dark end cap the whole time, the orange button and the panel stay uncovered, the carabiner clip stays on top, the flashlight never turns around or flips. Camera: slow push-in.\nVertical 9:16 phone footage, dusk sky darkened closer to night (deep navy) while the campsite stays clearly visible, true neutral colours, no golden cast, realistic skin. No music, no voice, no captions, no on-screen text, no other logos.\n",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716101148-kx2ecabtdrr.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715171653-lv4wwk91f7f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792715179750-huya9ter5t5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/youtheory-collagen/1792716101371-b775i68vddl.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "3240ffe460282faba694be842a2df1f1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792716250587-3tdr7ucfkjw.mp4"
+   ]
+  },
+  "costTime": 142
+ }
+]

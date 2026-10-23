@@ -1,0 +1,5 @@
+# Your Wish Is Your Command book (Grace), 2026-10-19
+Status: v1 DONE ($0). 3 talking-head scripts (H076 the steps, H061 vision board gift, H062 sixty-eight seconds), 2 alt library hooks each, gate OK, readability 3.2/3.3/3.5. Claude doc https://claude.ai/code/artifact/05dbf55e-c6d4-4e6f-91a4-9f66bdd42b72 ; Drive folder Grace Tiktok assets/"Your Wish Is Your Command book (Grace)" https://drive.google.com/drive/folders/1Oo1m8oiLuq2xE1131l0dh6Rs3K0z5B-u with "CURRENT - Your Wish Is Your Command scripts (Grace, 2026-10-19)" (doc 1P8fxgyZti_7crMj4itv7E6tqzoyPxbbt8QHQL44efac). Waiting on Ralph's review.
+Product: TikTok Shop listing by Trustar Publishing (the publisher), product 1732129481923727781; Kevin Trudeau, 498 pages. Listing bullets promise money/control: never used (product_facts.md). Author has an FTC history and a 2014 federal sentence: raised with Ralph.
+Next: Grace films; after a cut, `tiktok.py compare <winner> <cut>` + `gate.py --stage cut` (winners in hooks.md).
+Files: scripts.md, spoken_v*.txt, hooks.md, line_sources.md, product_facts.md, humanizer.md, readability_v*.txt, playbook_applied.md, checklist.json, GATES.md, check.mjs, research/.

@@ -18,26 +18,20 @@
 
 ## Where the tools live
 
-Everything below runs through **OpenMontage at `C:\dev\OpenMontage`**. Assets
-usually sit somewhere else (a Desktop folder), so the toolchain will not be
-visible from the working directory — go to it explicitly.
-
-```bash
-cd "C:/dev/OpenMontage"
-export PYTHONIOENCODING=utf-8     # required; tool output contains → and crashes cp1252
-.venv/Scripts/python.exe -c "..."
-```
+Everything below runs through **OpenMontage** (repo focusfiyah/OpenMontage). Ralph has no PC for now
+(2026-10-20), so the home is the cloud session: `/home/user/OpenMontage`, attached to every session; Google
+(`GEMINI_API_KEY`) is injected there and `gemini_omni_video`, `veo_video` and `video_compose` report available
+(tested 2026-10-21). fal tools show unavailable because the cloud key is named `fal_key`; use the direct Google tool.
 
 ```python
+import sys; sys.path.insert(0, "/home/user/OpenMontage")
 from tools.tool_registry import registry
 registry.discover()
-registry._tools["gemini_omni_video"].execute({...})
+registry._tools["gemini_omni_video"].execute({...})   # add "model": "gemini-omni-1.1-flash"
 ```
 
-Scripts saved under `projects/` also need `PYTHONPATH=C:/dev/OpenMontage`.
-Availability is `get_info()["status"] == "available"`. `projects/` is gitignored,
-so put scratch scripts and working assets there. Full detail and more gotchas:
-the `openmontage-toolchain` memory.
+For a product clip use `scripts/omni_clip.py` (gate, budget, log, audio strip); see `references/product-lock.md`.
+On Ralph's PC (when he has one again) the same repo sits at `C:\dev\OpenMontage` with its own `.venv`.
 
 For a single short ad, call the generation tool directly and assemble with
 `video_compose` — the full pipeline ceremony in `AGENT_GUIDE.md` is for real

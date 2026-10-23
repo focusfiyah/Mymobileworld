@@ -1,0 +1,225 @@
+# TikTok comments (2026-10-21), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+176 comments reachable of 639 reported across 5 videos. Buyer questions in them: 35.
+- "Are they genuine stones? Does it come with a card of authenticity?" (7545506844098284830)
+- "does it tarnish ?" (7545506844098284830)
+- "Hey 👋👋 can I use one of your pictures as mural art,am currently on a project and you will be paid and credited for it?" (7545506844098284830)
+- "Do they have it in silver?" (7545506844098284830)
+- "Are there longer options? with more stones instead of the chain?" (7545506844098284830)
+- "does it tarnish/ can i shower with it on?" (7662706161568714014)
+- "Which one would be best for reclaiming loving myself when I feel attacked by everyone i care about right now?" (7662706161568714014)
+- "where can I buy this?? i have bien looking for it but I can't find it aaaaaah" (7662706161568714014)
+- "where I can buy this? and how I will know what is suitable for me? 😊" (7662706161568714014)
+- "wait how much do they cost??" (7662706161568714014)
+- "for the ...time where to buy ????" (7662706161568714014)
+- "How long is the delivery time to Sweden?" (7662706161568714014)
+- "How can I order one ?" (7662706161568714014)
+- "Do you ship to slovenia ?" (7662706161568714014)
+- "Where i can order it?" (7662706161568714014)
+- "How do I order one ? Do you ship to Canada ?" (7662706161568714014)
+- "Hello! Maybe you will not see this but I really love this protection necklace and would really want one!!! Where can I buy one ??????? And do you advise on the right stone?? ☺️" (7662706161568714014)
+- "Bonjour c'est quoi le nom de vôtre site svp?" (7662706161568714014)
+- "where to buy in canada?" (7662706161568714014)
+- "where can l get one?" (7662706161568714014)
+- "were can I get it?" (7662706161568714014)
+- "i'm obsessed! where can I buy this?😭🧚🏼‍♂️🦋 do you ship to Norway? 🥹✨" (7662706161568714014)
+- "en pierre de lune ?" (7662706161568714014)
+- "don't have tiktok shop so where can I buy?" (7662706161568714014)
+- "do you have worldwide shipping?" (7662706161568714014)
+- "any One Wish Willows by chance ?" (7662706161568714014)
+- "Where to buy that?" (7662706161568714014)
+- "This is so pretty omfg!?" (7662706161568714014)
+- "Is this real or is this AI? 🤔😅❣️" (7662706161568714014)
+- "I am from South Africa... how can I order?" (7662706161568714014)
+- "How to avail?" (7662706161568714014)
+- "How much?" (7662706161568714014)
+- "Hi how to purchase?" (7662706161568714014)
+- "Are you shipping to UAE ? And how much is this please ?" (7662706161568714014)
+- "Hola hermosa, puedes poner el link de tu blusa?" (7698570559319264543)
+
+## @baileyduggan (1100000 views), 58 of 127 comments reachable. https://www.tiktok.com/video/7545506844098284830
+- (615 likes) "Oh, I hope not. I don’t have a daughter.😂"
+- (514 likes) "ITS CARNELIAN not red agate"
+- (412 likes) "This looks very make able"
+- (63 likes) "I don’t buy jewelry, I make it lol"
+- (61 likes) "SO cute - I clip these to the bottom of my macrame plant holders so they sparkle in the window ✨"
+- (28 likes) "Love these colors for fall"
+- (12 likes) "Just go to hobby lobby 😭 you can get it for $4"
+- (11 likes) "Carnelian, not agate boo. Coming from someone who lives near the shores that birth the one and only Lake Superior agates 💅💅💅 cute tho!"
+- (10 likes) "Oooo the moonlight color is cute too"
+- (10 likes) "Oh I love the moonlight one too!"
+- (9 likes) "It looks vintage! I love the colors!"
+- (6 likes) "Damn yall, can’t you just say it’s pretty and walk away 💀"
+- (5 likes) "what lipstick are you wearing btw- buying this!"
+- (3 likes) "whats on your lipss"
+- (3 likes) "Your makeup is so beautiful!"
+- (3 likes) "This is so gorgeous!"
+- (3 likes) "This is gorgeous!"
+- (2 likes) "okay this is gorg!!!! 😍"
+- (2 likes) "need this but tigers eye"
+- (2 likes) "Those would make a beautiful rosary!!"
+- (2 likes) "Sooooo pretty 🥰 also this video blew up!"
+- (2 likes) "Soo cute😍"
+- (2 likes) "So cute! Happy Wednesday did all the engagement things!"
+- (2 likes) "I'm the daughter that makes jewelry, thanks to know mom's don't like it lmao"
+- (2 likes) "I love it"
+- (2 likes) "I have this & it’s GORGEOUS!"
+- (2 likes) "I bought two it’s perfect for fall. It is really pretty! I bought one for me and the other for my bff 😁"
+- (2 likes) "Are they genuine stones? Does it come with a card of authenticity?"
+- (1 likes) "😳😳😳"
+- (1 likes) "omg so cute 😍"
+- (1 likes) "not me wearing that tshirt yesterday and also receiving the same necklace yesterday 😭"
+- (1 likes) "natural stone(蓝色玛瑙)"
+- (1 likes) "love all their necklaces but the one I got pulls my little baby hairs on my neck 🥲"
+- (1 likes) "i love how everyone forgets people that people like silver, always gold never any silver options 😢"
+- (1 likes) "does it tarnish ?"
+- (1 likes) "beautiful 🥰"
+- (1 likes) "Why are people being so mean.."
+- (1 likes) "This is gorgeous!"
+- (1 likes) "That’s so pretty!❤"
+- (1 likes) "It matches you so well"
+- (1 likes) "I don’t wear jewelry and never know how to style these but if it was layered then i would love that!!"
+- (1 likes) "Beautiful necklace on you!"
+- (0 likes) "🥰"
+- (0 likes) "the way this isn’t red agate really makes me want to buy it😍 reliable and totally not cheap 😍"
+- (0 likes) "even nicer when you buy a hand made one from a small business"
+- (0 likes) "YOUR EYES"
+- (0 likes) "Way pretty 🔥"
+- (0 likes) "Too short. I'd have to buy two. Very pretty."
+- (0 likes) "THIS IS SILVER ACCENTS PLEASE PLEASE PLEEAAZSEEEE"
+- (0 likes) "Sooo pretty"
+- (0 likes) "Ok but your lashes are BEAUTIFUL 😩"
+- (0 likes) "Love this color!!"
+- (0 likes) "I love mine..I have the gray one too..worth it"
+- (0 likes) "I love crystal jewelry it literally speaks to my soul perfect for grounding"
+- (0 likes) "Hey 👋👋 can I use one of your pictures as mural art,am currently on a project and you will be paid and credited for it?"
+- (0 likes) "Do they have it in silver?"
+- (0 likes) "Bought it from your link! I love supporting shop creators like myself ❤🔥"
+- (0 likes) "Are there longer options? with more stones instead of the chain?"
+
+## @sunlit008 (915900 views), 117 of 509 comments reachable. https://www.tiktok.com/video/7662706161568714014
+- (791 likes) "is there a crystal to keep people from online stalking you"
+- (330 likes) "Look, I'm spiritual asf, but Holy Buzzword Batman."
+- (102 likes) "does it tarnish/ can i shower with it on?"
+- (59 likes) "The style is giving the Heart of Kandracar from W.I.T.C.H and now I might have to beg my bf to get tgis for me for my bday"
+- (27 likes) "oh my god it's a soul gem"
+- (15 likes) "See I want it but I don’t buy jewelry off just anybody especially spiritual jewelry😭 you never know the energy put over things"
+- (15 likes) "1. these are beautiful! Second 2. These orbs remind me of a magical orb(nosta) a book character has and the orb turns hot and red when someone tells the truth and blue,cold when someone lies. I imagined it like this:"
+- (12 likes) "that's so pretty 😍"
+- (9 likes) "OMG IT IS SO BEAUTIFUL I WANT IT😍"
+- (9 likes) "I don't believe in it but it looks pretty"
+- (8 likes) "This looks like a soul gem💔"
+- (6 likes) "how much dose cost and do y post two people ho live in Adelaide South Australia I'm a cancer star sign"
+- (6 likes) "Which one would be best for reclaiming loving myself when I feel attacked by everyone i care about right now?"
+- (5 likes) "make green"
+- (5 likes) "honey, why do you keep calling everyone honey"
+- (5 likes) "I want one 😍"
+- (4 likes) "Mais Whaou j adore"
+- (3 likes) "where can I buy this?? i have bien looking for it but I can't find it aaaaaah"
+- (3 likes) "where I can buy this? and how I will know what is suitable for me? 😊"
+- (3 likes) "wait how much do they cost??"
+- (3 likes) "soooo pretty 😍 💓"
+- (3 likes) "for the ...time where to buy ????"
+- (3 likes) "WHERE DO I BUY THISS"
+- (3 likes) "This is so prettyyy"
+- (3 likes) "Im js gonna get it cuz it’s pretty 🥀"
+- (3 likes) "How long is the delivery time to Sweden?"
+- (2 likes) "those are so pretty!"
+- (2 likes) "those are BEAUTIFUL 🖤"
+- (2 likes) "kool"
+- (2 likes) "beautiful gosh"
+- (2 likes) "Where’s the link to buy it plz ❤️"
+- (2 likes) "So beautiful"
+- (2 likes) "Need these"
+- (2 likes) "How can I order one ?"
+- (2 likes) "Do you ship to slovenia ?"
+- (1 likes) "wow"
+- (1 likes) "stupenda 😍"
+- (1 likes) "love it but the crystal falls out so much!"
+- (1 likes) "kool"
+- (1 likes) "is it fake"
+- (1 likes) "i want one 2"
+- (1 likes) "i really want thissss"
+- (1 likes) "how to order"
+- (1 likes) "how do you know which crystal to buy"
+- (1 likes) "does it come with a silver chain gold isnt my colour nor rose gold"
+- (1 likes) "can you put the link to it"
+- (1 likes) "beautifull"
+- (1 likes) "beautiful ✨️"
+- (1 likes) "Where i can order it?"
+- (1 likes) "Where do I get one lol"
+- (1 likes) "Where can I buy this"
+- (1 likes) "Where can I buy one"
+- (1 likes) "That’s nice! It could make a great bracelet 😍"
+- (1 likes) "So shinny"
+- (1 likes) "So beautiful 🙏🏻"
+- (1 likes) "Need it"
+- (1 likes) "Is there anything for men as my husband I always say he’s an empath and so draining for him affects his mental health"
+- (1 likes) "I want this 😞😞😞"
+- (1 likes) "I want one x"
+- (1 likes) "I want one but live in norway"
+- (1 likes) "I want one"
+- (1 likes) "I need this"
+- (1 likes) "I need that then..."
+- (1 likes) "I need one like this 🥰🥰🥰🥰"
+- (1 likes) "I love this it so beautiful 🥰"
+- (1 likes) "How do I order one ? Do you ship to Canada ?"
+- (1 likes) "Hello! Maybe you will not see this but I really love this protection necklace and would really want one!!! Where can I buy one ??????? And do you advise on the right stone?? ☺️"
+- (1 likes) "Do you post to New Zealand"
+- (1 likes) "Can this be used as a pendulum"
+- (1 likes) "Bonjour c'est quoi le nom de vôtre site svp?"
+- (0 likes) "würde gern eine Kette haben"
+- (0 likes) "where to buy in canada?"
+- (0 likes) "where to buy"
+- (0 likes) "where can l get one?"
+- (0 likes) "were can I get it?"
+- (0 likes) "love this it so beautiful"
+- (0 likes) "love"
+- (0 likes) "im a severe empath yo the point it effects my mental health i would live one of these xx"
+- (0 likes) "i'm obsessed! where can I buy this?😭🧚🏼‍♂️🦋 do you ship to Norway? 🥹✨"
+- (0 likes) "i NEED THIS"
+- (0 likes) "how to order"
+- (0 likes) "how much"
+- (0 likes) "how much"
+- (0 likes) "how can I oder"
+- (0 likes) "how can I get this to nigeria"
+- (0 likes) "en pierre de lune ?"
+- (0 likes) "don't have tiktok shop so where can I buy?"
+- (0 likes) "do you have worldwide shipping?"
+- (0 likes) "beautiful 🩷🩷"
+- (0 likes) "any One Wish Willows by chance ?"
+- (0 likes) "Wow, this is so beautiful🤩"
+- (0 likes) "Where to buy that?"
+- (0 likes) "Where can I buy it plz x"
+- (0 likes) "WHYS IT SO EXPENSIVE NOOO"
+- (0 likes) "This is so pretty omfg!?"
+- (0 likes) "The interchangeable crystal spheres are such a clever detail 😍"
+- (0 likes) "That is so beautiful 😍"
+- (0 likes) "Omg send me"
+- (0 likes) "Love this"
+- (0 likes) "Love how this stone shimmers under the light 😌"
+- (0 likes) "It is so cute!! I love how it just sits in their"
+- (0 likes) "Is this real or is this AI? 🤔😅❣️"
+- (0 likes) "Is it in newzealand and we’re can I buy please"
+- (0 likes) "I want 😍😍😍"
+- (0 likes) "I want one 😫 help 😫"
+- (0 likes) "I want one"
+- (0 likes) "I want one"
+- (0 likes) "I want one"
+- (0 likes) "I need that then..."
+- (0 likes) "I am from South Africa... how can I order?"
+- (0 likes) "How to avail?"
+- (0 likes) "How much?"
+- (0 likes) "How do we buy one"
+- (0 likes) "How do i buy one"
+- (0 likes) "Hi how to purchase?"
+- (0 likes) "Are you shipping to UAE ? And how much is this please ?"
+- (0 likes) ""
+
+## @meiorra (1159 views), 0 of 0 comments reachable. https://www.tiktok.com/video/7697340386771012878
+
+## @anaduran916 (860 views), 1 of 3 comments reachable. https://www.tiktok.com/video/7698570559319264543
+- (1 likes) "Hola hermosa, puedes poner el link de tu blusa?"
+
+## @shewiththeglow (665 views), 0 of 0 comments reachable. https://www.tiktok.com/video/7698798919421054238

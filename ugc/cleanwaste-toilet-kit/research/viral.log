@@ -1,0 +1,139 @@
+  #tiktokshophome: 60 videos
+  #tiktokshopkitchen: 84 videos
+  #tiktokshopcleaning: 60 videos
+  #tiktokshopfinds: 88 videos
+  #wagbag: 57 videos
+  #emergencytoilet: 109 videos
+  #emergencypreparedness: 84 videos
+  #poweroutage: 111 videos
+  #prepping: 110 videos
+  #campingtoilet: 87 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+834 videos scanned, 197 shop videos posted in the last 30.0 day(s) -> ugc/cleanwaste-toilet-kit/research/viral/viral-2026-10-21.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      703K    2.6M  3.7d   0.2  SWEETFULL Hand Warmers Rechargeable - Cute Bear Design, [Household Appliances]
+                                  @hannahkrustykrab: Who else regrets buying hand warmers at full price last wint
+                                  https://www.tiktok.com/@hannahkrustykrab/video/7697218690105773325
+  2      622K    4.8M  7.7d  0.33  (product not in TikTok's data)
+                                  @samirzbavfu778: 🚗 Great for car travel, traffic jam, outdoor camping, solves
+                                  https://www.tiktok.com/@samirzbavfu778/video/7696133346329382175
+  3      568K    2.7M  4.8d  0.13  SEESE Car Vacuum Portable Cordless, 20000Pa 2 in 1 Vacu [Tools & Hardware]
+                                  @lznn2424glg: Use the blower mode to push dust out of tight AC vents first
+                                  https://www.tiktok.com/@lznn2424glg/video/7697233717764345101
+  4      506K   13.5M 26.7d  0.16  (product not in TikTok's data)
+                                  @khalaniadelaide1: #tiktokshop #fyp #tiktokshopbacktoschool #organizer #organiz
+                                  https://www.tiktok.com/@khalaniadelaide1/video/7689097197652053261
+  5      451K    8.9M 19.8d  0.05  SEESE Turbo Jet Leaf Blower,Cordless Leaf Blower, Viole [Tools & Hardware]
+                                  @pinkmama002: Your daily cleaning just got easier.#blower #CarCare #carown
+                                  https://www.tiktok.com/@pinkmama002/video/7690981239267904798
+  6      414K    1.5M  3.6d  0.13  SEESE Car Vacuum Portable Cordless, 20000Pa 2 in 1 Vacu [Tools & Hardware]
+                                  @lznn2424glg: Don't buy at full price! Major discount plus free shipping i
+                                  https://www.tiktok.com/@lznn2424glg/video/7697600613638524173
+  7      263K    5.9M 22.4d  0.37  (product not in TikTok's data)
+                                  @gbkunsdma7: Luces de Silueta LED de Pared para Halloween #homedecor #tik
+                                  https://www.tiktok.com/@gbkunsdma7/video/7690687942716673288
+  8      220K    2.4M 10.9d  0.08  Foldable Over The Sink Dish Drying Rack, Carbon Steel 2 [Home Supplies]
+                                  @sunwardhome: #TikTokShopCreatorPicks #KitchenOrganization #KitchenHacks #
+                                  https://www.tiktok.com/@sunwardhome/video/7694952365992021262
+  9      188K    3.1M 16.4d  0.16  3-in-1 Entryway Organizer:  Rack with Coat Rack, 5-Tier [Home Supplies]
+                                  @amy_abt7: #tiktokshop #organizedhome #homeorganization 
+                                  https://www.tiktok.com/@amy_abt7/video/7692893580209212685
+ 10      178K    3.1M 17.4d  0.15  2-Tier Rust-Proof Retractable Adjustable Kitchen Counte [Home Supplies]
+                                  @meibeyafg18: #tiktokshopfindsfyp #homeorganization #kitchenorganization #
+                                  https://www.tiktok.com/@meibeyafg18/video/7690550204696759583
+ 11      169K    3.7M 21.9d  0.17  【FaddishDeal】Heavy-Duty Full Mesh Outdoor AC Unit Cover [Home Supplies]
+                                  @jhbpqfzy102: The absolute best invention for your home this fall! 🍂☕️ Pro
+                                  https://www.tiktok.com/@jhbpqfzy102/video/7690856456710556942
+ 12      164K    1.3M  7.9d  0.16  (product not in TikTok's data)
+                                  @yxx910345: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@yxx910345/video/7696054599102319902
+ 13      147K    1.2M  8.1d  0.16  (product not in TikTok's data)
+                                  @thchngcth8410: #fyp #TikTokShop #tiktok #kitchen #foryou 
+                                  https://www.tiktok.com/@thchngcth8410/video/7695735864546135327
+ 14      132K    1.9M 14.4d  0.15  Cheflee 660W Multifunctional Stand Mixer - 6+ Speed Con [Household Appliances]
+                                  @happy_tiktokfinds: Luxury, without luxury price #kitchenmixer #kitchenstandmixe
+                                  https://www.tiktok.com/@happy_tiktokfinds/video/7693664210844142861
+ 15      126K    1.2M  9.5d  1.22  YBoutique 2pcs Sweatsuit for Women-Yellow Zip-Up Hoodie [Womenswear & Underwear]
+                                  @shopwithtaye: It’s the shade of pink AND the little details for me 😭🎀💗 mat
+                                  https://www.tiktok.com/@shopwithtaye/video/7695471370209119519
+ 16      122K    1.3M 10.7d  0.22  (product not in TikTok's data)
+                                  @cccvvv709: I didn't realize how dirty those edges 465 were until I actu
+                                  https://www.tiktok.com/@cccvvv709/video/7695029158052744461
+ 17      119K    3.2M 26.9d  1.27  Women's Striped Tie Long Sleeve Blouse and Wide-Leg Pan [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 18      112K    523K  4.7d  0.44  304 Stainless Steel 4-Piece Deep Fryer Pot Set - Durabl [Kitchenware]
+                                  @ut_toki: #tiktok #tiktokshop #foruyou #tiktokmademebuyit #kitchen 
+                                  https://www.tiktok.com/@ut_toki/video/7697217716737805582
+ 19      101K    2.6M 25.8d  0.16  Bathroom Sink Stopper, Universal Drain Filter with Hair [Home Supplies]
+                                  @asperjohll: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@asperjohll/video/7689413598422027534
+ 20       83K    319K  3.8d   0.1  100PCS Disposable Elastic Food Covers - Kitchenware Pla [Home Supplies]
+                                  @alizp704: 100 PCS Elastic Disposable Food Covers, Food-Grade PE Stretc
+                                  https://www.tiktok.com/@alizp704/video/7697572735848893726
+ 21       74K    565K  7.7d  0.11  SOPAMI Telescopic Disposable Dust Mop, Touch-Free Auto  [Home Supplies]
+                                  @cnb88703iim: Clip anything. Clean everything. Regret nothing.#mop #cleant
+                                  https://www.tiktok.com/@cnb88703iim/video/7696149913603722527
+ 22       67K    716K 10.7d  0.22  Crocs Women's Dylan Platform Buckle Wedge Sandals [Shoes]
+                                  @dayamirys23: Respuesta a @Yamira Rodriguez #tiktokshopfalldealsforyou #ti
+                                  https://www.tiktok.com/@dayamirys23/video/7695022032672574734
+ 23       61K    834K 13.8d  0.39  Adjustable Stainless Steel Telescopic Long Handle Crevi [Tools & Hardware]
+                                  @mhgfrew12324595: No way-my sister actually kept such a handy tool to herself!
+                                  https://www.tiktok.com/@mhgfrew12324595/video/7693886667387653390
+ 24       58K    324K  5.5d  0.45  Jemima Low Rise Straight Leg Jeans [Womenswear & Underwear]
+                                  @groovygirlol: Tiktokshop warrior and I don’t give a gaf #tiktokshop #tikto
+                                  https://www.tiktok.com/@groovygirlol/video/7696941252381609246
+ 25       52K    1.4M 27.1d  0.89  Plastic Picture Hanging Tool - Multifunctional Professi [Tools & Hardware]
+                                  @camronnbrown: #tools #homeimprovement #tiktokshopstockup 
+                                  https://www.tiktok.com/@camronnbrown/video/7688959189418249485
+ 26       48K    281K  5.8d  0.58  Reusable Food-Safe Funnel with Filter Screen, Multi-Pur [Kitchenware]
+                                  @user4818812132854: Orders placed through this video link not only get a discoun
+                                  https://www.tiktok.com/@user4818812132854/video/7696838332994587918
+ 27       37K    322K  8.6d  0.08  Cotton Cloth Home Slippers for Women & Men, Cozy Slip-o [Shoes]
+                                  @fluffysteps4: Cotton Cloth Home Slippers for#tiktokshop #fyppppppppppppppp
+                                  https://www.tiktok.com/@fluffysteps4/video/7695724079923481870
+ 28       36K    306K  8.4d  0.09  Cheflee 660W Multifunctional Stand Mixer - 6+ Speed Con [Household Appliances]
+                                  @happy_tiktokfinds: You seriously can’t pass it up #kitchenmixer #tiktokshopdeal
+                                  https://www.tiktok.com/@happy_tiktokfinds/video/7695865926683462925
+ 29       32K    155K  4.8d  0.13  3 Pack Plastic Bag Holder Trash Dispenser Organizer Han [Home Supplies]
+                                  @ut_toki: #tiktok #tiktokshop #kitchen #foruyou #tiktokmademebuyit 
+                                  https://www.tiktok.com/@ut_toki/video/7697215562316778765
+ 30       32K    716K 22.7d  0.23  (product not in TikTok's data)
+                                  @rita.maore: #tiktokshop #fyp #dealsforyoudays #tiktokfinds 
+                                  https://www.tiktok.com/@rita.maore/video/7690585214422109470
+ 31       31K    688K 22.2d  0.17  (product not in TikTok's data)
+                                  @cr7_legacy87: The grout lines between my tiles looked black until I stood 
+                                  https://www.tiktok.com/@cr7_legacy87/video/7690771335856868621
+ 32       29K    724K 25.2d  0.92  Fat Brain Toys Air Toobz Air-Powered STEM Building Toy  [Toys & Hobbies]
+                                  @the2momfamily: The kind of toy that buys you enough time to actually finish
+                                  https://www.tiktok.com/@the2momfamily/video/7689641700536438030
+ 33       29K    320K 11.2d  0.28  Alervites AT1 Portable PoC Walkie Talkie - Lifetime Fre [Phones & Electronics]
+                                  @mistercharsiu: These AT1 are a 4G LTE Walkie Talkie without a monthly fee! 
+                                  https://www.tiktok.com/@mistercharsiu/video/7694838798022135053
+ 34       26K    282K 10.9d  0.36  (product not in TikTok's data)
+                                  @uaql61: #fyp #tiktokmademebuyit #Home #tiktokshop #products #fouryou
+                                  https://www.tiktok.com/@uaql61/video/7694952214707719446
+ 35       24K    367K 15.1d  0.28  Double-Sided Anti-Adhesive Round Frying Pan Skillet - N [Kitchenware]
+                                  @yordis.martnez8: 🍳 Una excelente opción para complementar tu colección de ute
+                                  https://www.tiktok.com/@yordis.martnez8/video/7693410271888461069
+ 36       24K     84K  3.5d  0.92  Bakers Rack with Power Outlet and LED Light, 42.5 inch  [Furniture]
+                                  @pencioix7aj: ☕ My coffee corner just got a cozy upgrade with this LED bak
+                                  https://www.tiktok.com/@pencioix7aj/video/7697550598450859277
+ 37       23K     13K  0.6d  1.57  Waffle Bath Mat Runner Non Slip, Ultra Soft Absorbent B [Home Supplies]
+                                  @alysiamagen: My fav rugs! #rugs #homedecor #tiktokshop #blackfriday #fall
+                                  https://www.tiktok.com/@alysiamagen/video/7698784896721947935
+ 38       19K    271K 14.5d  0.06  Foldable Over The Sink Dish Drying Rack, Carbon Steel 2 [Home Supplies]
+                                  @sunwardcasa: If you also want to have a kitchen storage artifact to solve
+                                  https://www.tiktok.com/@sunwardcasa/video/7693557423809875214
+ 39       18K    306K 17.1d  0.86  【Black Friday】Women's Ribbed Knit Sleeveless Bodycon Mi [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7692646261119339807
+ 40       18K    339K 19.3d  0.25  (product not in TikTok's data)
+                                  @vanessa_b79: Perfect for baking, serving, or even displaying in your kitc
+                                  https://www.tiktok.com/@vanessa_b79/video/7691830565913251086

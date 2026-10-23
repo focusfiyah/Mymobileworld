@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 65 of 129 videos posted since 2026-09-22
+65 videos -> /home/user/Mymobileworld/ugc/youtheory-collagen/research/tag/tag-collagen.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  4,700,000   4.9   0.17  212 2026-10-17  @vietphuongthoa98: 1 nồi collagen luôn nè 😆
+                                          https://www.tiktok.com/@vietphuongthoa98/video/7697681408881380615
+  4,000,000  10.7   0.19    6 2026-10-18  @fueledbyyher: #facemask #peachandlily #collagenmask 
+                                          https://www.tiktok.com/@fueledbyyher/video/7697830058651618590
+  3,600,000   6.0   0.35  124 2026-10-07  @amandaa_solis: #biodance #eyepatch #undereye #diamondpatch #amazonprimebigdealdays @B
+                                          https://www.tiktok.com/@amandaa_solis/video/7693713398583872781
+  2,500,000  13.3   4.46  181 2026-10-04  @themarianasmith: 
+                                          https://www.tiktok.com/@themarianasmith/video/7692606169902238989
+    552,600  21.5   5.52  135 2026-09-25  @cristina_styled: A que edad comenzaste a tomar colageno? 🧴🍲💊 #CapCut #colagenohidroliza
+                                          https://www.tiktok.com/@cristina_styled/video/7689544998445944077
+    474,000   3.8   0.52   72 2026-10-08  @munchwithlilly: Thank you @Mariana because im addicted to making this 😋 #eatingshow #e
+                                          https://www.tiktok.com/@munchwithlilly/video/7694330309818551582
+    462,000   9.8   1.49   58 2026-10-06  @themarianasmith: 
+                                          https://www.tiktok.com/@themarianasmith/video/7693611289045781773
+    263,100   9.9   1.42  140 2026-10-17  @yesminvanne: Famosa gelatina de colágeno 😋 Me encantó! Vídeo de: @Mariana 
+                                          https://www.tiktok.com/@yesminvanne/video/7697721515185425695
+    163,900   7.6    0.7   69 2026-10-07  @dewwwdropzzz: #health #antiaging #skincare #millennial #collagen 
+                                          https://www.tiktok.com/@dewwwdropzzz/video/7693963786599861534
+    145,100   4.3   1.25  173 2026-10-19  @ola.beaute: Why Does Collagen Cost €30 or €150? اي كولاجين اشتري ؟#collagen #frenc
+                                          https://www.tiktok.com/@ola.beaute/video/7698400007149423904
+    121,900   8.7   2.24   60 2026-10-15  @sandaypost: collagen jelly recipe ✨ mother @Mariana put me onnnn! eating a whole s
+                                          https://www.tiktok.com/@sandaypost/video/7696886445759302942
+    111,000   3.4   0.71   55 2026-09-24  @official_mw04: #marisatomei #beautytok #beatuy 
+                                          https://www.tiktok.com/@official_mw04/video/7688924796620492054
+     79,500  23.1   6.19   54 2026-09-25  @imabbysigua: EAT YOUR SKINCARE // Ep. 18 fall beauty drink 🍁 for collagen boosting 
+                                          https://www.tiktok.com/@imabbysigua/video/7689551593984855310
+     72,600  14.7   3.56  158 2026-10-13  @nifemi__adeyemo: I’ve been trying a few more and they’ve been amazing so far, but I’m w
+                                          https://www.tiktok.com/@nifemi__adeyemo/video/7696062070776696071
+     71,700  18.9   5.25   62 2026-10-09  @egbeayuk.imani: Taking care of my hair from within ✨#collagen #marinecollagen #cevitol
+                                          https://www.tiktok.com/@egbeayuk.imani/video/7694767312032763158

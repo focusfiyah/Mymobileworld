@@ -1,0 +1,102 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)",
+  "rules_applied": [
+   "Ralph's script word for word (his say 2026-10-22: 'No text, word for word')",
+   "no on-screen text",
+   "no other brand on screen (McDonald's spoken only)",
+   "hands-only, 5 HAND / 4 HAND-FREE",
+   "product lock: Omni on Kie for product clips",
+   "real size from the box first in every prompt",
+   "Grace cloned voice + echo gate",
+   "AI finish last",
+   "bright neutral dusk, no golden grade",
+   "no price number"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_flashlight.txt",
+   "research/tag_powerbankflashlight.txt",
+   "research/videos/7674078707387993375/transcript.txt",
+   "research/videos/7696715850488794381/transcript.txt",
+   "research/videos/7686468355523415326/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-22.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "research/size.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 4.5
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "research/compare_report.md",
+   "research/compare_r1/compare/compare.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "verbatim_ok": {
+  "by": "Ralph",
+  "date": "2026-10-22",
+  "quote": "No text, word for word"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-22",
+  "quote": "Approved 1. yes 2. No. And wanted it a bit darker to match what the product does. To showcase the lights. If you noticed 1-4 are slightly",
+  "total": 3.69,
+  "sha256": "23384450432236b8837c40e97af42843bb3995cbdbeacec3f58b4f109241c3c2",
+  "spent_at_approval": 0.0
+ }
+}

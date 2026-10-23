@@ -1,0 +1,26 @@
+[
+ {
+  "t": "2026-10-22 01:06:07",
+  "shot": "V11S2",
+  "model": "gemini-omni-1.1-flash",
+  "interaction_id": null,
+  "edit_of": null,
+  "seconds": 4,
+  "usd": 0.0,
+  "ok": false,
+  "error": "Gemini Omni input preparation failed: Reference image not found: /home/user/OpenMontage/ugc/vans-sequin-authentic/stills/V11S2.png",
+  "out": "/home/user/Mymobileworld/ugc/vans-sequin-authentic/clips/V11S2_omni_0.mp4"
+ },
+ {
+  "t": "2026-10-22 01:06:16",
+  "shot": "V11S2",
+  "model": "gemini-omni-1.1-flash",
+  "interaction_id": null,
+  "edit_of": null,
+  "seconds": 4,
+  "usd": 0.0,
+  "ok": false,
+  "error": "Gemini Omni interaction failed (402): [{\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"",
+  "out": "/home/user/Mymobileworld/ugc/vans-sequin-authentic/clips/V11S2_omni_1.mp4"
+ }
+]
