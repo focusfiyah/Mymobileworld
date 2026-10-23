@@ -48,3 +48,21 @@ Scope: four 15 s remixes of Grace's selling castor video (3 sales) on Grace's 4 
 
 - [x] G10: Nothing paid without Ralph's OK and exact cost; running total reported ($0 so far)
   EVIDENCE: Only paid step: ElevenLabs 1,143 characters (Ralph's 'Yes, start' card, ~$0.19 Starter); Kie file host free; video $0
+
+## Round 5 (2026-10-23): Ralph's notes "v1 it shows a head missing" + "her hands do not stay true to Grace's skin tone"
+
+- [ ] G11: Free check done before any spend: every round-4 shot compared to Grace's real hand sheet (3 frames per shot) and every headless shot found; findings + redo list written
+  CHECK: python3 -c "import pathlib as p;f=p.Path('qc/r5/FINDINGS.md').read_text();ok=all(s in f for s in ['V1g','V1h','Redo list'])and all(p.Path(f'qc/r5/r4_v{n}_shots.jpg').exists() for n in '1234');print('FIND_OK' if ok else 'FIND_MISSING')"
+  EXPECT: FIND_OK
+  CWD: ugc/bodyj-castor-rollon/remix15
+  EVIDENCE: run by hand 2026-10-23 (CHECK lines need Ralph's approval to run through the checker): FIND_OK
+- [ ] G12: Ralph answered in ONE message: bracelet or no-bracelet sheet, the shots to redo, the exact total cost; his OK recorded before any paid call
+  EVIDENCE: asked 2026-10-23 (BOOK.md TOTAL $9.96, review page v10, email 1a1670dc958d1311); waiting on his answer
+- [ ] G13: Every new still and clip prompt written with prompt-master, Grace's chosen hand sheet passed as a reference on every hand still and clip; no Kling
+  EVIDENCE: pending
+- [ ] G14: One test clip passes QC (tone vs sheet at 2x, nails/rings, whole wrists, product unchanged, no headless body) before the batch
+  EVIDENCE: pending
+- [ ] G15: Four new cuts pass qc.py, check.py cuts, gate --stage cut, REMOVED.md, AI finish; no headless shot; every hand matches the sheet
+  EVIDENCE: pending
+- [ ] G16: Same review page republished, Drive CURRENT replaced (round 4 to Older versions as v3), Ralph emailed + pushed
+  EVIDENCE: pending
