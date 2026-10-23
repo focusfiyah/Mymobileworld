@@ -5,3 +5,6 @@ Tells found -> fix:
 - No closers, triads, dashes, bold labels, inflated words or sales language left. "Pull these strings ... / Let them out ..." kept: a two-step demo, not a rhythm-by-rule pair.
 - No fact, number or claim added or dropped (5 colours, Halloween Oct 31, strings change length: all sourced in research/line_sources.md).
 Final lines = scripts.md as saved.
+
+## 2026-10-23 re-check on scripts.md v2
+Spoken lines, caption and on-screen options are unchanged from v1 (already humanized above). New text is the v2 shot list (plan text, not spoken or shown on screen). Checked it for AI tells anyway: no dashes, no not-X-but-Y contrasts, no triads, no one-line closers, plain words. No change needed.
