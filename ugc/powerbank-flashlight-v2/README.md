@@ -10,4 +10,4 @@ Size from Grace's box (research/size.md: 29.5 x 29.5 x 157 mm with clip, 90 g, l
 
 Status 2026-10-22 (end of session 1): Ralph sends S1-S4 stills from Gemini; S5-S9 stills + all clips go on Kie after BOOK.md OK. Handoff: handoff/NEXT_SESSION_flashlight-v2.md. Gates 5/10. Spent $0.
 
-Status 2026-10-23 (session 2): BOOK APPROVED $3.69. Stills S1-S6, S8, S9 OK. S7 = Seedance clip from S8 (Ralph: "For that one redo switch to seedance"), QC pass. VO done (22.1 s, echo 150). Omni on Kie: 7 tries all 500 (free); other 8 clips wait on Ralph (retry Omni or Seedance). Spent $0.79.
+Status 2026-10-23 (session 2): cut r1 (22.6 s) on the review page for Ralph, gate --stage cut OK, gates 9/10. Clips: Omni S3 S4 S6, Seedance S1 S2 S5 S7 S8 S9. Spent $2.555 of $3.69. Next: Ralph's notes, then Drive (CURRENT - Flashlight V2.mp4 + script doc) and merge to main.

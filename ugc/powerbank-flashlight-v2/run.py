@@ -85,3 +85,19 @@ def seedance_s7():
 
 if __name__ == "__main__" and sys.argv[1] == "seedance-s7":
     seedance_s7()
+
+
+def seedance(sid):
+    """Fallback when Omni on Kie fails (Ralph 2026-10-23: "Retry Omni first, then Seedance if it fails"): Seedance 2.0 Mini
+    reference mode with the same references and prompt as the Omni take ($0.164 for 4 s)."""
+    refs = [f"stills/{sid}.png", REF["logo"]] + [REF[r] for r in CLIP_EXTRA.get(sid, [])] + [REF["sheet"]] + ([REF["hand"]] if sid in HAND_SHOTS else [])
+    prompt = Path(f"prompts/clip_{sid}.txt").read_text().replace("Recreate image 1", "Recreate reference image 1").replace("Image ", "Reference image ")
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": [kie.upload(small(r)) for r in refs],
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}, label=f"{sid} seedance")
+    if url:
+        if Path(f"clips/{sid}.mp4").exists(): Path(f"clips/{sid}.mp4").rename(f"clips/{sid}_prev.mp4")
+        kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "seedance":
+    with ThreadPoolExecutor(len(sys.argv) - 2) as ex: list(ex.map(seedance, sys.argv[2:]))

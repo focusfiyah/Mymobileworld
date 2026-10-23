@@ -27,21 +27,21 @@ Scope: one ~25 s hands-only AI video of the grey TINEKO flashlight on Ralph's sc
   EXPECT: SCRIPTGATE_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=40d51ba4aa4ebcd23e16e050d9fffdb3b88ef015649b0b2f0705039983a033cf; exit=0; EXPECT=matched; output-sha256=4f7f8f0c523a60031853f1b96bc0441faf0f699c16dda20a65fa030577bcbe19; output-bytes=14; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/powerbank-flashlight-v2; path=7f4fb4b02918/15 entries
 
-- [ ] G6: 9 stills exist, each QC'd at 2x (size vs hand/phone/strap, clip shows where the top is in frame, grip, rings, no text, no brand)
+- [x] G6: 9 stills exist, each QC'd at 2x (size vs hand/phone/strap, clip shows where the top is in frame, grip, rings, no text, no brand)
   CHECK: python3 qc/gates.py stills
   EXPECT: STILLS_OK
-  EVIDENCE: pending
+  EVIDENCE: manual + CHECK STILLS_OK 2026-10-23: S1-S4 Ralph's Gemini stills, S5 (redo), S6 (side strip inpainted), S8, S9 Kie; QC 2x notes on the review page; S7 replaced by a Seedance clip on Ralph's word
 
-- [ ] G7: 9 clips exist (Omni on Kie for product shots), each QC'd: product shape/size unchanged, flicker from the front lens on S5, beam lands where the lens points on S4, edges 2x, no second product
+- [x] G7: 9 clips exist (Omni on Kie for product shots), each QC'd: product shape/size unchanged, flicker from the front lens on S5, beam lands where the lens points on S4, edges 2x, no second product
   CHECK: python3 qc/gates.py clips
   EXPECT: CLIPS_OK
-  EVIDENCE: pending
+  EVIDENCE: manual + CHECK CLIPS_OK 2026-10-23: Omni S3 S4 S6; Seedance S1 S2 S5 S7 S8 S9 (Omni 500s, Ralph: 'Retry Omni first, then Seedance if it fails'); 4-frame strips + 2x crops; S5 flicker from the front lens via tools/flicker.py, panel off; S4 beam from the lens down the trail. Open for Ralph: cap print garbled at 2x on S1/S4, faint green ghost S6
 
-- [ ] G8: Grace cloned voice, word for word by STT, echo gate <= 150 ms
-  EVIDENCE: pending
+- [x] G8: Grace cloned voice, word for word by STT, echo gate <= 150 ms
+  EVIDENCE: manual 2026-10-23: vo/voiceover_paced.mp3, Grace cloned Rh3oAQMqRVf78UIVpBoQ, scribe_v2 transcript matches the script word for word (vo.py asserts), echo.py rt60_est_ms=150
 
-- [ ] G9: cut 9:16, no text, REMOVED.md checked, AI finish, gate --stage cut OK, review page + push + email
-  EVIDENCE: pending
+- [x] G9: cut 9:16, no text, REMOVED.md checked, AI finish, gate --stage cut OK, review page + push + email
+  EVIDENCE: manual 2026-10-23: out/flashlight_v2_r1.mp4 1080x1920 22.6 s, no text, REMOVED.md checked (research/compare_report.md), AI finish in cut.py, gate --stage cut GATE OK, review page v9, email sent; phone push tool not available this session
 
 - [ ] G10: approved cut + script doc in Drive "Grace Tiktok assets/Power Bank Flashlight (Grace)" as CURRENT, size matches; job branch merged to main
   EVIDENCE: pending
