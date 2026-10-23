@@ -38,5 +38,13 @@
   "request_id": "01a1660c-53de-7500-b468-0d74889b5c22",
   "out": "ugc/goth-highlow-skirt/tryon/fashn_shorts.png",
   "url": "https://cdn.fashn.ai/01a1660c-9024-7933-84fe-5aa0a718c639/output_0.png"
+ },
+ {
+  "model": "kolors_shorts",
+  "endpoint": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "usd": 0.07,
+  "request_id": "01a1662f-d8af-7ae0-9f76-b4096aa11ee7",
+  "out": "ugc/goth-highlow-skirt/tryon/kolors_shorts.png",
+  "url": "https://v3b.fal.media/files/b/0aaf779a/hbCh01KXGwTJERODfO33N.png"
  }
 ]
