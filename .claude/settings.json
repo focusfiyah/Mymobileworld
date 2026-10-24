@@ -6,7 +6,8 @@
     "CAMOFOX_CRASH_REPORT_ENABLED": "false"
   },
   "enabledMcpjsonServers": [
-    "camofox-browser"
+    "camofox-browser",
+    "broll"
   ],
   "hooks": {
     "SessionStart": [
@@ -19,6 +20,10 @@
           {
             "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/camofox_setup.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/broll_setup.sh"
           }
         ]
       }
