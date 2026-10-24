@@ -16,3 +16,4 @@
 - 2026-10-21 (Ralph): caps per month: none in October 2026, $100/month from November.
 - 2026-10-22 (Ralph: "Use Omni on kie not thru the API key"): omni_clip.py now calls Kie google/gemini-omni-flash-1-1 (reference mode, 4 s $0.315, edit $0.84), logs to kie_log.json; product-lock.md updated.
 - 2026-10-24: product-lock.md: Flow first for product clips until Ralph's Flow credits run out, Kie second (Ralph after the PRITECH trial).
+- 2026-10-24: prompt-master must be LOADED (Skill tool) before any still/edit/clip prompt, every session (Ralph: "make sure you are doing that from now on and any future sessions"; JIYU round 1 written from memory, 6 of 10 stills redone).
