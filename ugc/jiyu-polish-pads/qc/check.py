@@ -1,8 +1,8 @@
-"""QC for out/jiyu_v1.mp4 (2026-10-24, from ugc/pritech-cleansing-brush/qc/check.py): prints CHECK_OK only if all pass.
+"""QC for out/jiyu_v2.mp4 (2026-10-24, from ugc/pritech-cleansing-brush/qc/check.py): prints CHECK_OK only if all pass.
 flash: every detected scene cut sits on a planned shot boundary (+-0.08 s); sync: shot boundaries = vo.py line starts (+-0.12 s);
 levels: integrated loudness -17..-15 LUFS, no silence > 0.6 s before the voice ends; black: no black frames."""
 import json, re, subprocess, sys
-F = "out/jiyu_v1.mp4"; S = json.load(open("shots.json")); bad = []
+F = "out/jiyu_v2.mp4"; S = json.load(open("shots.json")); bad = []
 run = lambda c: subprocess.run(c, capture_output=True, text=True)
 SHIFT = {"S6": 0.60}   # same as cut.py
 bounds, t = [], 0.0

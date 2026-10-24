@@ -726,5 +726,58 @@
    ]
   },
   "costTime": 75
+ },
+ {
+  "t": "2026-10-24 19:20:48",
+  "submitted": "bedaa1156294b1ada861ea11f53549c6",
+  "prompt": "Image 1 is the photo to edit. Image 2 is Grace's real hand sheet. Change ONLY the hand: remove the extra finger with the"
+ },
+ {
+  "t": "2026-10-24 19:21:26",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is Grace's real hand sheet. Change ONLY the hand: remove the extra finger with the silver crown rings that points up at the top left of the jar, so the hand is anatomically correct with exactly FIVE digits: ONE thumb (the digit with the thin blue ring that lies across the front of the jar) and FOUR fingers whose tips wrap around the right side of the jar. Where the removed finger was, show the mint-green tile wall and the round mirror behind, matching the background. Keep everything else exactly the same: the jar, its chunky cobalt-blue JIYU letters, the pink lid, the four fingers, nails, gold rings, skin tone, the room, the light and the framing. No new fingers, no other hands.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792868276485-ux5weesprh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bedaa1156294b1ada861ea11f53549c6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bedaa1156294b1ada861ea11f53549c6_0_1792869684.jpeg"
+   ]
+  },
+  "costTime": 38
+ },
+ {
+  "t": "2026-10-24 19:22:08",
+  "submitted": "87d5a2ff221a692b215835d0027e55f3",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, hand, grip, nails and rings exactly. Motion: the sam"
+ },
+ {
+  "t": "2026-10-24 19:23:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, hand, grip, nails and rings exactly. Motion: the same one hand keeps its grip around the side of the jar and slowly lifts it a few centimetres, then holds; the jar stays upright, never turns, tilts or flips, and stays the same size. The jar's chunky cobalt-blue JIYU letters, frosted mint-aqua body and pink lid stay exactly as in the first frame in every frame: never redraw the letters, never a plain font, no other text. Exactly one hand in the frame, nothing on her wrist. Camera: locked-off, slight handheld sway. Vertical 9:16, bright neutral light, realistic textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792869701247-omgbokxvgsr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "87d5a2ff221a692b215835d0027e55f3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792869816368-krlt0gv47a.mp4"
+   ]
+  },
+  "costTime": 91
  }
 ]
