@@ -1,0 +1,93 @@
+<title>JIYU Pads Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column, newest round on top; plan = ask box, script, shot cards, product truth, cost */
+:root{
+  --bg:#f2f4f3; --card:#ffffff; --fg:#1b2420; --muted:#5a6762; --line:#d9e0dc;
+  --accent:#2c55a8; --warn:#c2552d; --chip:#e6eeea; --chipfree:#f6ebe4;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;--chipfree:#3a2c24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;--chipfree:#3a2c24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:860px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font:700 2.2rem/1.05 var(--display);letter-spacing:.01em;margin:0;text-wrap:balance}
+h2{font:700 1.35rem/1.1 var(--display);margin:0;letter-spacing:.02em}
+.sub{color:var(--muted);margin:6px 0 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:10px;min-width:0}
+.box ul,.box ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.ask{border-left:4px solid var(--warn);background:var(--card);padding:14px 18px;border-radius:0 10px 10px 0;display:grid;gap:8px}
+.ask strong{color:var(--warn)}
+.ask ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.script{font:600 1.1rem/1.45 var(--body);margin:0}
+.shot{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:8px;grid-template-columns:1fr 110px;align-items:start}
+.shot > div{min-width:0;display:grid;gap:6px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.num{font:700 1.5rem/1 var(--display);color:var(--accent)}
+.chip{font:600 .7rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip)}
+.chip.free{background:var(--chipfree)}
+.say{font:600 1.05rem/1.35 var(--body);margin:0}
+.say::before{content:"\201C"}.say::after{content:"\201D"}
+.see{margin:0;font-size:.95rem}
+.shot img{width:100%;max-width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+figure{margin:0;display:grid;gap:6px}
+figure img{width:100%;max-width:100%;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.rooms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.rooms img{aspect-ratio:3/4;object-fit:cover}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}td:last-child{text-align:right;font-family:var(--mono);font-size:.9rem;white-space:nowrap;padding-left:10px}
+.total td{font-weight:600;border-bottom:none}
+.muted{color:var(--muted);margin:0}
+.grid9{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.st{display:grid;gap:6px;align-content:start}
+.st img{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+.st .h{display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
+.st .n{font:700 1.2rem/1 var(--display);color:var(--accent)}
+.tag{font:600 .66rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.tag.ok{background:var(--chip)}.tag.fix{background:var(--chipfree)}.tag.redo{background:var(--warn);color:var(--card)}
+.st p{margin:0;font-size:.86rem;line-height:1.35}
+.st video{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:560px){.grid9{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){h1{font-size:1.8rem}.shot{grid-template-columns:1fr 84px}.rooms{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<div class="wrap">
+<header>
+  <h1>JIYU Cleansing Polish Pads · plan</h1>
+  <p class="sub">Grace · her storyboard script word for word · 10 shots, about 31 s · half face only · no text · nothing spent yet.</p>
+</header>
+<section class="ask"><strong>Your answers + OK needed</strong><ol>
+<li>Use the REAL jar (pink lid, mint jar, blue JIYU) instead of the storyboard's lavender one? Does Grace have it? A photo of hers helps.</li>
+<li>S1 shows JIYU's original toner pads jar (same brand) for "the perfect toner pad": OK?</li>
+<li>Half face = cheek, jaw and nose side, no eyes, no mouth (lips on screen would need lip sync): OK?</li>
+<li>Grace's hand without bracelet, short French tips (as PRITECH): OK?</li>
+<li>Stills on Kie ($0.90) or your Gemini app ($0)?</li>
+<li>On-screen text: the storyboard has captions; default is none. Want any?</li>
+</ol></section>
+<section class="box"><h2>The storyboard jar doesn't exist</h2>
+<p class="muted">JIYU's own photos (jiyuskin.com) show the Cleansing Polish Pads in a frosted mint jar with a pink lid and giant blue JIYU letters. The lavender jar and the white "100 Pads" jar in the storyboard are AI-made. The pad's real texture is a fine dimple, not big bubbles.</p>
+<div class="rooms"><figure><img src="img/sb_jar.jpg" alt="Storyboard lavender jar"><figcaption>storyboard (not real)</figcaption></figure><figure><img src="img/real_jar.jpg" alt="Real JIYU polish pads jar"><figcaption>real jar</figcaption></figure><figure><img src="img/pad.jpg" alt="Real pad texture"><figcaption>real pad texture</figcaption></figure></div>
+<figure><img src="img/sheet.jpg" alt="Product reference sheet from real photos"><figcaption>product sheet (real photos, free)</figcaption></figure>
+<figure><img src="img/original.jpg" alt="JIYU original toner pads"><figcaption>original toner pads (S1)</figcaption></figure>
+</section>
+<section class="box"><h2>Script (Grace's, word for word)</h2><p class="script">I thought JIYU had already made the perfect toner pad… then they dropped THESE. This is what you grab when your skin needs more than hydration. These are their NEW Cleansing Polish Pads, with two different textures, one side exfoliates, the other smooths. The formula combines multiple exfoliating acids to help with rough texture, clogged pores and blemishes, plus niacinamide to help balance excess oil and improve the appearance of uneven skin tone. Use them up to three times a week at night when your skin needs that extra reset. Especially if your skin&#x27;s been feeling rough and bumpy instead of baby-smooth, these are linked in the orange cart!</p>
+<p class="muted">Every claim is on JIYU's page. Only change: the long dash is a comma. Reading grade 8.3, kept on your "word for word".</p></section>
+<section style="display:grid;gap:10px"><h2>Shots</h2><div class="shot"><div><div class="head"><span class="num">S1</span><span class="chip">HAND</span><span class="chip">Omni · Flow first</span><span class="chip">room B</span></div><p class="say">I thought JIYU had already made the perfect toner pad…</p><p class="see">Hand holds JIYU&#x27;s ORIGINAL toner pads jar (peach, lime lid) to camera, small tilt</p></div><img src="img/room_B.jpg" alt="Room B for S1"></div><div class="shot"><div><div class="head"><span class="num">S2</span><span class="chip free">HAND-FREE</span><span class="chip">Omni · Flow first</span><span class="chip">room B</span></div><p class="say">then they dropped THESE.</p><p class="see">The NEW jar alone on the vanity, quick push-in</p></div><img src="img/room_B.jpg" alt="Room B for S2"></div><div class="shot"><div><div class="head"><span class="num">S3</span><span class="chip">HAND</span><span class="chip">Omni · Flow first</span><span class="chip">room B</span></div><p class="say">This is what you grab when your skin needs more than hydration.</p><p class="see">Hand wraps around the new jar and lifts it</p></div><img src="img/room_B.jpg" alt="Room B for S3"></div><div class="shot"><div><div class="head"><span class="num">S4</span><span class="chip free">HAND-FREE</span><span class="chip">Omni · Flow first</span><span class="chip">room C</span></div><p class="say">These are their NEW Cleansing Polish Pads,</p><p class="see">Lid open: pad stack + clear tweezers, slow orbit</p></div><img src="img/room_C.jpg" alt="Room C for S4"></div><div class="shot"><div><div class="head"><span class="num">S5</span><span class="chip">HAND</span><span class="chip">Omni · Flow first</span><span class="chip">room C</span></div><p class="say">with two different textures, one side exfoliates, the other smooths.</p><p class="see">Fingers pinch a pad, dimpled side to the lens, turn to the smooth side. Riskiest: test clip</p></div><img src="img/room_C.jpg" alt="Room C for S5"></div><div class="shot"><div><div class="head"><span class="num">S6</span><span class="chip">HAND</span><span class="chip">Seedance</span><span class="chip">room A</span><span class="chip">half face</span></div><p class="say">The formula combines multiple exfoliating acids to help with rough texture, clogged pores and blemishes,</p><p class="see">Pad in small circles on the cheek near the nose</p></div><img src="img/room_A.jpg" alt="Room A for S6"></div><div class="shot"><div><div class="head"><span class="num">S7</span><span class="chip free">HAND-FREE</span><span class="chip">Seedance</span><span class="chip">room A</span><span class="chip">half face</span></div><p class="say">plus niacinamide to help balance excess oil and improve the appearance of uneven skin tone.</p><p class="see">Smooth even cheek and jaw turning into the light</p></div><img src="img/room_A.jpg" alt="Room A for S7"></div><div class="shot"><div><div class="head"><span class="num">S8</span><span class="chip">HAND</span><span class="chip">Omni · Flow first</span><span class="chip">room A</span></div><p class="say">Use them up to three times a week at night when your skin needs that extra reset.</p><p class="see">Evening, bright vanity lights, tweezers lift a pad out</p></div><img src="img/room_A.jpg" alt="Room A for S8"></div><div class="shot"><div><div class="head"><span class="num">S9</span><span class="chip">HAND</span><span class="chip">Seedance</span><span class="chip">room C</span><span class="chip">half face</span></div><p class="say">Especially if your skin&#x27;s been feeling rough and bumpy instead of baby-smooth,</p><p class="see">Fingertips glide along a smooth jaw</p></div><img src="img/room_C.jpg" alt="Room C for S9"></div><div class="shot"><div><div class="head"><span class="num">S10</span><span class="chip free">HAND-FREE</span><span class="chip">Omni · Flow first</span><span class="chip">room C</span></div><p class="say">these are linked in the orange cart!</p><p class="see">ONE jar on the marble counter, slow push-in</p></div><img src="img/room_C.jpg" alt="Room C for S10"></div></section>
+<section class="box"><h2>Rooms (real Pexels photos)</h2><div class="rooms"><figure><img src="img/room_A.jpg" alt="Room A pink tile"><figcaption>A pink tile</figcaption></figure><figure><img src="img/room_B.jpg" alt="Room B mint tile and wood"><figcaption>B mint tile + wood</figcaption></figure><figure><img src="img/room_C.jpg" alt="Room C grey marble"><figcaption>C marble + flowers</figcaption></figure></div></section>
+<section class="box"><h2>Cost</h2><table>
+<tr><td>10 stills, Gemini 3 Pro Image on Kie</td><td>$0.90</td></tr>
+<tr><td>7 product clips, Omni in your Flow app (84 credits)</td><td>$0.00</td></tr>
+<tr><td>Same 7 on Kie only if Flow fails (asked first)</td><td>$2.205</td></tr>
+<tr><td>3 no-product clips, Seedance 2.0 Mini</td><td>$0.492</td></tr>
+<tr><td>One likely redo (asked first)</td><td>$0.315</td></tr>
+<tr class="total"><td>Cap (TOTAL in BOOK.md) · expected with Flow $1.71</td><td>$3.91</td></tr>
+</table><p class="muted">October so far: $158.70 (no cap this month). Machine time about 35 to 40 min plus your review stops.</p></section>
+<section class="box"><h2>Research behind it</h2><ul>
+<li>Script gate: OK (audience, coach, viral board, facts, hooks, humanizer, readability override).</li>
+<li>JIYU original toner pads: 336,877 sold on TikTok Shop. Polish Pads: 3,084 sold, 4.8 stars.</li>
+<li>Model videos: @illaalvarez 190K (dual-texture pad close-up), @elvinasworld 2.3M (jar in hand at frame 0).</li>
+<li>Top buyer question: "how many times do you use it in a week please" (Grace's script answers it).</li>
+</ul></section>
+</div>
