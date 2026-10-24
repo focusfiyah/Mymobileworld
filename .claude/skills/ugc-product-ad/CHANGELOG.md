@@ -15,3 +15,4 @@
 - 2026-10-21 (Ralph): product lock on every product: Gemini Omni clips via scripts/omni_clip.py (references/product-lock.md), paste-back last resort, prompt-master on every prompt, monthly budget line (grace/spend.py) and cap guard in grace/gate.py; OpenMontage paths point at the cloud copy (no PC). Why: October Kie spend ~$144, mostly redos after product drift (Vans, Cleanwaste).
 - 2026-10-21 (Ralph): caps per month: none in October 2026, $100/month from November.
 - 2026-10-22 (Ralph: "Use Omni on kie not thru the API key"): omni_clip.py now calls Kie google/gemini-omni-flash-1-1 (reference mode, 4 s $0.315, edit $0.84), logs to kie_log.json; product-lock.md updated.
+- 2026-10-24: product-lock.md: Flow first for product clips until Ralph's Flow credits run out, Kie second (Ralph after the PRITECH trial).
