@@ -24,6 +24,20 @@
       "env": {
         "BROLL_AGENT_MODEL": "claude-code"
       }
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@0.0.83",
+        "--headless",
+        "--isolated",
+        "--no-sandbox",
+        "--executable-path",
+        "/opt/pw-browsers/chromium"
+      ],
+      "env": {}
     }
   }
 }

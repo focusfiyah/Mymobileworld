@@ -1,8 +1,8 @@
-# Gates: camofox-browser replaces the Playwright MCP (Ralph 2026-10-24)
+# Gates: camofox-browser first, Playwright MCP as backup (Ralph 2026-10-24)
 
 OWNS: tools/camofox/**, .claude/hooks/camofox_setup.sh, .mcp.json, .claude/settings.json, CLAUDE.md, handoff/**
 
-Scope: camofox-browser installs itself in every cloud session, is the agent's browser tool in both repos instead of the Playwright MCP, telemetry off, Python Playwright kept for the scripts that import it, rules and memory saved, merged to main.
+Scope: camofox-browser installs itself in every cloud session, is the first browser tool in both repos with the Playwright MCP kept as backup, telemetry off, Python Playwright kept for the scripts that import it, rules and memory saved, merged to main.
 
 - [ ] G1: the setup hook installs camofox + Camoufox from a clean state and the server answers
   CHECK: python3 tools/camofox/verify.py health
@@ -16,11 +16,11 @@ Scope: camofox-browser installs itself in every cloud session, is the agent's br
   CHECK: python3 tools/camofox/verify.py mcp
   EXPECT: CAMOFOX_MCP_OK
 
-- [ ] G4: both repos register camofox-browser (no playwright MCP), telemetry off, both hooks run, hook copies identical
+- [ ] G4: both repos register camofox-browser AND the playwright MCP (Ralph: "Both"), telemetry off, both hooks run, hook copies identical
   CHECK: python3 tools/camofox/verify.py config
   EXPECT: CAMOFOX_CONFIG_OK
 
-- [ ] G5: CLAUDE.md + the four handoff memory files mention camofox in both repos, MEMORY_SHORT <= 2,000 chars
+- [ ] G5: CLAUDE.md + the four handoff memory files carry the camofox-first, Playwright-backup rule in both repos, MEMORY_SHORT <= 2,000 chars
   CHECK: python3 tools/camofox/verify.py docs
   EXPECT: CAMOFOX_DOCS_OK
 
