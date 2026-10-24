@@ -19,10 +19,11 @@ def still_refs(s):
     def add(p, what): r.append(p); names.append(f"image {len(r)} = {what}")
     p = s["product"]
     if p == "original":
+        add("refs/closeup_orig_front.png", "the LETTER close-up: the real original jar front, giant blocky dark-green JIYU letters on peach-coral")
         add(ORIG, "JIYU's ORIGINAL toner pads jar, real photos: peach-coral jar, lime-green lid, dark-green JIYU letters")
     if p == "new" or s["id"] == "S5":
+        add(FRONT, "the LETTER close-up: the real jar front, giant blocky cobalt-blue JIYU letters on frosted mint-aqua")
         add(SHEET, "the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly")
-        add(FRONT, "a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua")
         add(LID, "a real close-up of the pastel pink lid top with the small cobalt-blue JIYU")
     if p in ("new", "pad", "pad-face"):
         add(PAD, "a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo)")
