@@ -1,0 +1,15 @@
+<script>
+(async()=>{const note=document.getElementById('dlnote');
+let dl=null;try{dl=await claude.use("downloads")}catch(e){}
+if(!dl){document.querySelectorAll('.sv,.svp').forEach(b=>b.style.display='none');note.style.display='block';}
+document.querySelectorAll('.sv').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const src=b.dataset.src;b.textContent='...';
+ try{const blob=await (await fetch(src)).blob();await dl.save({filename:src.split('/').pop(),data:blob});b.textContent='Saved';}
+ catch(e){b.textContent=(e&&e.code==='declined')?'Save':'Try again';}}));
+document.querySelectorAll('.svp').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const id=b.dataset.p;
+ try{await dl.save({filename:id.slice(1)+'-prompt.txt',data:document.getElementById(id).innerText});b.textContent='Saved';}
+ catch(e){b.textContent='Save prompt';}}));
+document.querySelectorAll('.cp').forEach(b=>b.addEventListener('click',async()=>{const el=document.getElementById(b.dataset.p);
+ try{await navigator.clipboard.writeText(el.innerText);b.textContent='Copied';}
+ catch(e){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected: tap Copy';}}));
+})();
+</script>

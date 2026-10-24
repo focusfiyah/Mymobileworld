@@ -66,5 +66,8 @@ TOTAL: $2.835
 4. Sound: silent for Grace's TikTok sound (default), or the optional voice line in Grace's voice (~130 chars)?
 5. On-screen text: none (default), or the ref's "sequin low top vans 🔥"?
 
+## 7b. Ralph's answers (2026-10-24: "Ok, yes, Kie, silent, no text and go ahead")
+1. Brick sidewalk + sage leggings + cream sleeve OK. 2. Grace's V11 hand: yes. 3. Stills on Kie ($0.54). 4. Silent (no voice). 5. No text.
+
 ## 8. Prompts
 Every still and clip prompt is in shots.json (`still`, `clip`), written with prompt-master (loaded this session, Ralph's stack). Still refs, numbered and named in each prompt: 1 product sheet, 2 sequin close-up, 3 side tab, 4 heel label, 5 insole logo, 6 skin, 7 Grace's hand, 8 the brick sidewalk photo. Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), then one real close-up per logo in that frame, then the sheet. Every prompt: print letter for letter and colour for colour, one grip, never turns or flips, at most two shoes, feet side by side and parallel, true colours of each small mark in words, no sparkle words, no text, no music, no voice.

@@ -7,4 +7,5 @@ Status: PLAN sent 2026-10-24, waiting on Ralph's OK of BOOK.md (TOTAL $2.835, ex
 
 Files: BOOK.md (the plan), scripts.md (shots, optional voice, caption), shots.json (still + clip prompts, prompt-master), GATES.md, REMOVED.md,
 refs/ (sheet, close-ups incl. new real_insole_logo.jpg, place photos), rooms/SOURCES.md, research/ + proof/ (gate proofs).
+Review page: https://claude.ai/artifact/Eq5MwGpn9fzGAcY4vDz2xk
 Drive: Grace Tiktok assets/"Vans sequin (Grace)" https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_ (V12 goes here).
