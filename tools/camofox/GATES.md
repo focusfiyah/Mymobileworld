@@ -29,9 +29,9 @@ Scope: camofox-browser installs itself in every cloud session, is the first brow
   EXPECT: CAMOFOX_MERGED_OK
 
 - [x] G7: live Google Doc "Ralph standing rules (live)" refreshed (handoff/live_rules.py ran without error)
-  EVIDENCE: 2026-10-24 new doc 1O9r0jaUCsstyiWaeWfBrzZQbusUPUqALV50d10H1qj0 read back with the Browser (2026-10-24) line; old 154uyZqp... trashed; LIVE_DOC.txt updated
+  EVIDENCE: 2026-10-24 (camofox-first rule) new doc 1D29_J_yb0Dj6q86dxdkeKpjyA-yQqw9F9fVVJRws4pk read back with the 'Browser (2026-10-24, "Both")' line; previous doc 1L6Fmtzr... trashed; LIVE_DOC.txt updated
 
 - [x] G8: honest comparison vs Playwright reported (same pages, both browsers, this session)
-  EVIDENCE: 2026-10-24 example.com + nowsecure.nl OK on both; google.com/search blocked on both (camofox 'unusual traffic', Playwright 429 /sorry); tiktok.com/@houseoframeau 0 video links + 'Something went wrong' on both; bot.sannysoft.com webdriver passed on camofox
+  EVIDENCE: 2026-10-24 example.com + nowsecure.nl OK on both; google.com/search blocked on both (camofox 'unusual traffic', Playwright 429 /sorry); tiktok.com/@houseoframeau 0 video links + 'Something went wrong' on both; bot.sannysoft.com webdriver passed on camofox. Round 2: Amazon + Reddit camofox only; TikTok Shop product + video both; Cloudflare challenge neither
 
 Run 2026-10-24 (commands run by hand; unlazy CHECK approvals need Ralph's say): G1-G6 printed their success tokens, see final report.
