@@ -63,12 +63,14 @@ if __name__ == "__main__":
 def still_r2(sid):
     """Round 2 (2026-10-24): prompt-master prompts in prompts/stills_r2.json. mode edit = image 1 is the round-1 still, ONE
     item changes (letters); mode new = fresh still. Output stills/<ID>_r2.png; round-1 files stay."""
-    p = json.loads(Path("prompts/stills_r2.json").read_text())[sid]
+    p = json.loads(Path(f"prompts/stills_{RND}.json").read_text())[sid]
     refs = ([p["base"]] if p["mode"] == "edit" else []) + p["refs"]
     url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": p["prompt"], "image_input": [kie.upload(r) for r in refs],
-                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"still r2 {sid}")
-    if url: kie.fetch(url, f"stills/{sid}_r2.png"); print("still r2", sid, "ok", flush=True)
+                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"still {RND} {sid}")
+    if url: kie.fetch(url, f"stills/{sid}_{RND}.png"); print("still", RND, sid, "ok", flush=True)
 
 
-if __name__ == "__main__" and sys.argv[1] == "stills2":
+RND = "r2"
+if __name__ == "__main__" and sys.argv[1] in ("stills2", "stills3"):
+    RND = "r3" if sys.argv[1] == "stills3" else "r2"
     with ThreadPoolExecutor(max(1, len(sys.argv[2:]))) as ex: list(ex.map(still_r2, sys.argv[2:]))
