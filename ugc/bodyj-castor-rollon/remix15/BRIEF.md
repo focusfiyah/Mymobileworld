@@ -1,6 +1,6 @@
 # BodyJ castor roll-on: 4 x 15 s remixes of the selling video (Grace)
 
-Status: 2026-10-23 V3 grandma long-hair fix planned (BOOK.md, TOTAL $0.81, waiting on Ralph; r5 book on hold in BOOK_r5_onhold.md). Earlier: round 4 has issues (Ralph: V1 shows a head missing; hands not Grace's skin tone). Round 5 handed off: HANDOFF_r5.md (cause: wrong hand ref, Grace's real hand sheets not used). Kie so far: r3 ~$11.14 + r4 ~$5.14.
+Status: 2026-10-23 V3 grandma long hair DONE (R3 only: Kie still $0.09 + Omni clip $0.315 = $0.405 of $0.81 approved), Drive CURRENT - V3 Favorite perfume grandma (round 4 in Older versions as v3), review page v12. Round 5 still on hold (BOOK_r5_onhold.md; rename to BOOK.md when Ralph restarts it). Earlier: round 4 has issues (Ralph: V1 shows a head missing; hands not Grace's skin tone). Round 5 handed off: HANDOFF_r5.md (cause: wrong hand ref, Grace's real hand sheets not used). Kie so far: r3 ~$11.14 + r4 ~$5.14.
 
 ## What Ralph asked (2026-10-20, his words)
 "Use the winning formula. Keep the visuals similar, similar script, change the hook as long as it makes sense. remix
