@@ -20,6 +20,7 @@
 | A third shoe in V4 | Ralph | 2026-10-21 | r9 claim was wrong (the deck dolly V4S1 still had a 3rd shoe, sole up); r10: new 2-shoe still + Kling dolly proposed ($0.44), old still dropped as a look ref |
 | V1 round 5 turn (shoe rolls from laces to sole, "morphs") | Ralph | 2026-10-21 | r11: V1 back to the r6 Kling hold (clips/V1S1_k.mp4), Drive replaced |
 | V6 bench hold turning from insole to sole | Ralph (chose trim) | 2026-10-21 | r12: V6S2 dropped (turn from 0.4 s), Drive replaced |
+| Held shoe from the wrong side of the pair (S1: a LEFT shoe in her right hand while her left foot already wears the left shoe) | Ralph | 2026-10-24 | V12: held shoe must be the other foot's shoe; check left/right on every hold still |
 
 ## V11 night flash (2026-10-22) checked against every row above
 Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ralph: "Keep S3"); no brand logos on props (no props); no feet pointing opposite ways (S1, S2 checked at 3 and 12 fps); no grip switch (S3 two-hand bow, one grip each); side tab black with white letters (S2 still fixed free, clips checked); no extra hands (2 hands = her own two, S3); no walking in place (S2 real steps); no held-shoe turn (no held shoe); max 2 shoes in every frame; no sparkle/glint effects (prompts say none; the shin highlight at ~7.8 s is the flash on skin); no text, no cards; scene cuts 0.6 (flash on), 3.0, 5.17, 7.6 s, none closer than 0.25 s.

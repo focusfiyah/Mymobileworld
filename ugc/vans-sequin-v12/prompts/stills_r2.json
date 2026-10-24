@@ -20,5 +20,14 @@
    "refs/ref5_skin_toes.png"
   ],
   "prompt": "Image 1 is the photo to edit. Change ONLY her feet at the bottom of the frame: remove the white slide sandals; her feet are bare on the bricks with glossy white toenail polish, her skin exactly like image 2, the gold anklets stay. Keep everything else in image 1 exactly the same: the held shoe, its insole, heel label and checkerboard, her hand, nails, rings, bracelets, sleeve, leggings, the bricks and the light. No text, no captions."
+ },
+ "S1": {
+  "mode": "edit",
+  "base": "stills/S1.png",
+  "refs": [
+   "refs/real_top_sole.jpg",
+   "refs/product_sheet.png"
+  ],
+  "prompt": "Image 1 is the photo to edit. Change ONLY the shoe held in her hand: it must be the RIGHT shoe of the pair, the mirror image of the shoe she wears on her LEFT foot at the bottom of the frame, so it fits her bare RIGHT foot. Seen from above with the opening up: the straight outer edge of the insole is on the right, the curved arch edge on the left, toe pointing to the upper left, exactly like the left shoe in image 2 mirrored. Keep it in her RIGHT hand with the same grip; the red insole with the white VANS box (image 2) stays sharp and readable, letters not mirrored. Keep everything else in image 1 exactly the same: her hand, nails, rings, bracelets, sleeve, feet, the worn shoe, leggings, bricks and light. No text, no captions."
  }
 }
