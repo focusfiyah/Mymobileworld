@@ -466,5 +466,64 @@
    ]
   },
   "costTime": 64
+ },
+ {
+  "t": "2026-10-24 02:28:23",
+  "submitted": "e4c1c8604f77df6daa33a281b6f9bc9c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand"
+ },
+ {
+  "t": "2026-10-24 02:28:27",
+  "submitted": "24e770ddd5838d2ffab53d333e1c4158",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three b"
+ },
+ {
+  "t": "2026-10-24 02:29:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. Close-up on a wood vanity: the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((\u2022)), a circle O, a \u00b0C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no \u00ae or \u2122, no other text. It lies on its side on a neatly rolled thick white towel, the wide flat silver chrome end pointing toward the camera, the bristle head resting on the towel. An unlit cream pillar candle and a small green plant soft behind; sage green tile wall (room reference). Calm spa mood, bright and neutral, not dark. No hand, no fingers, no people. Show the brush from a three-quarter side angle so its gentle curve shows, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright neutral daylight, true colours, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the three moulded buttons, black on black: ((\u2022)) on top, O in the middle, \u00b0C at the bottom; image 4 = the real bathroom to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792807725385-gefxavuecw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792796216307-7ahke3azf2h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792796219427-f7gmznl0ds9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792796221237-ubwhq413kdn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e4c1c8604f77df6daa33a281b6f9bc9c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e4c1c8604f77df6daa33a281b6f9bc9c_0_1792808956.jpeg"
+   ]
+  },
+  "costTime": 56
+ },
+ {
+  "t": "2026-10-24 02:30:16",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((\u2022)) / O / \u00b0C, moulded black on black, matching image 2 exactly; image 3 is the product sheet: keep its slim black shape and the wide flat silver chrome band at the bottom end, no lights, no glow, no added marks. Motion: her index finger presses the \u00b0C button once, then the camera tilts slowly down to the silver chrome end; the hand keeps one grip and the brush never turns or flips. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792808897233-po41omr2blm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792808899879-y3oe728q4d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792808901606-qy6jdm0rnli.png"
+    ]
+   }
+  },
+  "taskId": "24e770ddd5838d2ffab53d333e1c4158",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/24e770ddd5838d2ffab53d333e1c4158_0_1792809011.mp4"
+   ]
+  },
+  "costTime": 105,
+  "usd": 0.315
  }
 ]
