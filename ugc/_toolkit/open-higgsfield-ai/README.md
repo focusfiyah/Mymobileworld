@@ -1,6 +1,7 @@
 # Open-Higgsfield-AI review (Ralph 2026-10-24: "Read and install ... should help with our image and video production")
 
 Status: done 2026-10-24, $0. Ralph picked A: take the useful parts into our toolkit, don't run the app.
+The updated ugc-product-ad skill zip was uploaded to claude.ai by Ralph 2026-10-24.
 
 ## What the repo is
 github.com/Autom8AI/Open-Higgsfield-AI @ 3c47454: a 2026-10-18 fork (by "Matas", rebranded MATAI) of
