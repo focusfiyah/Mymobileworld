@@ -622,5 +622,83 @@
    ]
   },
   "costTime": 70
+ },
+ {
+  "t": "2026-10-24 17:22:06",
+  "submitted": "c582ce5c55aed18d37b6184bfd282a8e",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips glide slowly a"
+ },
+ {
+  "t": "2026-10-24 17:22:08",
+  "submitted": "871417a8240496d4b3bfe98097f69bb7",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips move the white"
+ },
+ {
+  "t": "2026-10-24 17:22:09",
+  "submitted": "35e85e239fb97ac940cccbf043f7316a",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing and skin. Motion: she turns her head a few degrees to"
+ },
+ {
+  "t": "2026-10-24 17:23:32",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing and skin. Motion: she turns her head a few degrees toward the window light and back, slowly; smooth, even, softly dewy skin on the cheek and jaw. Her face stays turned away from the camera the whole clip: her eye, nose and lips NEVER come into view; she does not turn toward the camera. No hand, fingers, product or people appear at any time. Camera: very slow push-in. Vertical 9:16, bright neutral daylight, realistic skin texture. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792862513053-bp16yfye7uu.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "35e85e239fb97ac940cccbf043f7316a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792862608445-a6owmc32uv7.mp4"
+   ]
+  },
+  "costTime": 86
+ },
+ {
+  "t": "2026-10-24 17:23:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips glide slowly along her smooth jawline toward her ear. Her face stays turned away from the camera the whole clip: her eye, nose and lips NEVER come into view; she does not turn toward the camera. Exactly one hand, her right hand, the same short squared French-tip nails, crown ring stack and small gold heart ring as the first frame; nothing on her wrist. No product appears. Camera: locked-off close-up. Vertical 9:16, bright neutral daylight, realistic skin texture. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792862512751-e8xtb4kbr64.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c582ce5c55aed18d37b6184bfd282a8e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792862610671-w5sogzbbjt.mp4"
+   ]
+  },
+  "costTime": 92
+ },
+ {
+  "t": "2026-10-24 17:23:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips move the white pad, dimpled side down, in small slow circles on her cheek; the pad stays the same size and texture. Her face stays turned away from the camera the whole clip: her eye, nose and lips NEVER come into view; she does not turn toward the camera. Exactly one hand, her right hand, the same short squared French-tip nails, crown ring stack and small gold heart ring as the first frame; nothing on her wrist. No jar, no other hands. Camera: locked-off close-up, slight handheld sway. Vertical 9:16, bright neutral daylight, realistic skin texture. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792862512998-efzmu7ruix4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "871417a8240496d4b3bfe98097f69bb7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792862608158-0hjp5yfra6c.mp4"
+   ]
+  },
+  "costTime": 106
  }
 ]
