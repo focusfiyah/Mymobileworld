@@ -28,8 +28,10 @@ Scope: broll-mcp (github.com/edigeh/broll-mcp, MIT, pinned d8fda0a) is safety-re
   CHECK: python3 tools/broll/verify.py merged
   EXPECT: BROLL_MERGED_OK
 
-- [ ] G7: live Google Doc "Ralph standing rules (live)" refreshed with the b-roll line
-  EVIDENCE: pending
+- [x] G7: live Google Doc "Ralph standing rules (live)" refreshed with the b-roll line
+  EVIDENCE: 2026-10-24 new doc 1L6FmtzrETiSC5eIWtqiZh7m6XkGUCI-Gk3f9u8FMqrs read back with the "B-roll (2026-10-24" line; old 1O9r0jaU... trashed; LIVE_DOC.txt updated
 
-- [ ] G8: free-assets skill points to broll-mcp (claude-skills repo, deployed via skill-smith), zip ready for Ralph
-  EVIDENCE: pending
+- [x] G8: free-assets skill points to broll-mcp (claude-skills repo, deployed via skill-smith), zip ready for Ralph
+  EVIDENCE: 2026-10-24 claude-skills main 7f6128f; audit.py 0 errors 0 warnings; deployed to both repos; dist/free-assets-skill.zip (6,086 bytes) sent to Ralph
+
+Run 2026-10-24 (commands run by hand; unlazy CHECK approvals need Ralph's say): G1-G6 printed their success tokens (search 87 matches; cut 4.004 s, commercial_use allowed, 640x480 B&W).
