@@ -66,5 +66,8 @@ TOTAL: $3.91
 5. Stills on Kie ($0.90) or your Gemini app ($0)?
 6. On-screen text: the storyboard has captions. Default is none; want any?
 
+## 7b. Ralph's answers (2026-10-24: "Yes, use real jar from question 1, ok, ok, Kie, no captions.")
+1. Real jar (pink lid, mint, blue JIYU). 2. S1 original jar OK. 3. Half face (no eyes, no mouth) OK. 4. Not answered: hand sheet without bracelet, French tips, as stated above. 5. Stills on Kie ($0.90, in the TOTAL). 6. No captions, no on-screen text.
+
 ## 8. Prompts
 Every still and clip prompt is in shots.json (`still`, `clip`), written with prompt-master (Ralph's stack): refs = room photo + hand sheet + refs/closeup_jiyu_front.png + refs/closeup_lid_top.png + refs/product_sheet.png (+ refs/original_sheet.png on S1, refs/closeup_pad_texture.png on S5/S6). Size first (8.5 cm, sits in one palm), true colours in words, one grip, never flips, no ® or ™, hand-free shots say no hand appears at any time.
