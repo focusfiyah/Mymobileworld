@@ -48,6 +48,7 @@ td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}td:last-
 .tag{font:600 .66rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:var(--chip);color:var(--fg)}
 .tag.ok{background:var(--chip)}.tag.fix{background:var(--chipfree)}.tag.redo{background:var(--warn);color:var(--card)}
 .st p{margin:0;font-size:.86rem;line-height:1.35}
+.st video{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
 button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 @media (max-width:560px){.grid9{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:480px){h1{font-size:1.8rem}.shot{grid-template-columns:1fr 84px}.rooms{grid-template-columns:repeat(2,minmax(0,1fr))}}
@@ -59,16 +60,39 @@ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 </header>
 
 <section class="ask">
-  <p style="margin:0"><strong>S6 test clip is in. OK to make the other 8 clips?</strong></p>
+  <p style="margin:0"><strong>7 of 8 clips in. S1 needs your call.</strong></p>
   <ol>
-    <li>S6 (below): Omni held the slim black brush, the buttons and the chrome end. At 2.5 s it flipped the brush to its back, so I kept 0 to 2.5 s and let her finger ease back off the button (free). Raw take shown too.</li>
-    <li>Batch: S1, S4, S5, S7, S8, S9 on Omni (6 x $0.315) + S2, S3 on Seedance (2 x $0.164) = <b>$2.22</b>. That leaves $0.31 for one redo, as planned.</li>
+    <li><b>S1</b> (brush on her foamy cheek): Kie refused the still with "unsafe image upload" (its filter, likely the foamy skin). Refused = $0. I'd crop it tighter on the brush and hand (free) and retry Omni for <b>$0.315</b>; if Kie refuses again (free), Seedance from the same still for <b>$0.164</b>. OK?</li>
+    <li><b>S6, Flow vs Kie:</b> which one goes in the cut? Both turn the brush near the end, both fixed free the same way.</li>
   </ol>
-  <p class="muted">Spent $1.85 of $4.38 (plan $3.66 + your $0.63 + $0.09). October so far $156.08.</p>
+  <p class="muted">Spent $3.76 of $4.38. Left $0.62. October so far $157.98.</p>
 </section>
 
 <section class="box">
-  <h2>S6 test clip (newest)</h2>
+  <h2>Clips · batch (newest)</h2>
+  <p class="muted">Checked frame by frame and at 2x: slim curved brush the whole way, no glow, no stray hands, hands keep one grip. S2: the makeup washed off after 1 s, so I kept the first second and played it back (free), so the smudges stay for "your hands leave makeup and oil behind".</p>
+  <div class="grid9">
+    <figure class="st"><video src="clips/S2_fix.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S2</span><span class="tag fix">free fix</span></div><p>Makeup stays on the fingertips.</p></figure>
+    <figure class="st"><video src="clips/S3.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S3</span><span class="tag ok">OK</span></div><p>Lifts the dirty towel.</p></figure>
+    <figure class="st"><video src="clips/S4.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S4</span><span class="tag ok">OK</span></div><p>Push-in to the bristles.</p></figure>
+    <figure class="st"><video src="clips/S5.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S5</span><span class="tag ok">OK</span></div><p>Thumb at the top button, drops on the head.</p></figure>
+    <figure class="st"><video src="clips/S7.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S7</span><span class="tag ok">OK</span></div><p>Towel shot, push-in to the silver end.</p></figure>
+    <figure class="st"><video src="clips/S8.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S8</span><span class="tag ok">OK</span></div><p>Slow dolly along the window counter.</p></figure>
+    <figure class="st"><video src="clips/S9.mp4" controls playsinline muted loop></video><div class="h"><span class="n">S9</span><span class="tag ok">OK</span></div><p>End shot, one brush, PRITECH readable.</p></figure>
+  </div>
+</section>
+
+<section class="box">
+  <h2>S6 · Flow vs Kie</h2>
+  <p class="muted">Same still, refs and prompt. Flow: Omni 1.1 Flash, 12 credits (Flow showed it before generating), 720x1280, $0. Kie: Omni 1.1 Flash, $0.315, 1080x1920. Both hold the slim brush, buttons and rings at 2x; Flow is a touch softer (720p). Both turn the brush after about 2.5 s (Flow to its side, Kie to its back), so both use 0 to 2.5 s played back (free).</p>
+  <div class="rooms" style="grid-template-columns:repeat(2,minmax(0,1fr))">
+    <figure><video src="clips/S6_flow_fix.mp4" controls playsinline muted loop style="width:100%;max-width:100%;aspect-ratio:9/16;border-radius:6px;border:1px solid var(--line);background:var(--chip)"></video><figcaption>Flow · free · fixed</figcaption></figure>
+    <figure><video src="clips/S6_fix.mp4" controls playsinline muted loop style="width:100%;max-width:100%;aspect-ratio:9/16;border-radius:6px;border:1px solid var(--line);background:var(--chip)"></video><figcaption>Kie · $0.315 · fixed</figcaption></figure>
+  </div>
+</section>
+
+<section class="box">
+  <h2>S6 test clip</h2>
   <p class="muted">"and a warming feature that heats up to 104°F" · Omni on Kie, 1080x1920, 24 fps. Checked at 2x: clean hand edges, sharp buttons, same rings and French tips, no glow.</p>
   <div class="rooms" style="grid-template-columns:repeat(2,minmax(0,1fr))">
     <figure><video src="clips/S6_fix.mp4" controls playsinline muted loop style="width:100%;max-width:100%;aspect-ratio:9/16;border-radius:6px;border:1px solid var(--line);background:var(--chip)"></video><figcaption>Use this · 3.6 s, free fix</figcaption></figure>
