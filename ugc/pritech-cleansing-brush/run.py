@@ -48,3 +48,31 @@ if __name__ == "__main__":
         for i in ids: print(still_prompt(S[i]))
     elif kind == "stills":
         with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(still, ids))
+
+
+OMNI = "../../.claude/skills/ugc-product-ad/scripts/omni_clip.py"
+OMNI_REFS = {"S1": [HEAD, BTN, SHEET], "S4": [HEAD, SHEET], "S5": [BTN, HEAD, SHEET], "S6": [BTN, SHEET],
+             "S7": [HEAD, SHEET], "S8": [LOGO, SHEET], "S9": [LOGO, SHEET]}   # order = image 2.. in each clip prompt
+
+
+def omni(sid, dry=False):
+    import subprocess
+    Path("prompts").mkdir(exist_ok=True); pf = Path(f"prompts/{sid}.txt"); pf.write_text(S[sid]["clip"])
+    cmd = ["python3", OMNI, ".", sid, "--prompt-file", str(pf), "--still", f"stills/{sid}.png", "--seconds", "4"]
+    for r in OMNI_REFS[sid]: cmd += ["--ref", r]
+    subprocess.run(cmd + (["--dry"] if dry else []), check=False)
+
+
+def seedance(sid):
+    """No product in frame (S2, S3): Seedance 2.0 Mini reference mode; image 1 = the still, image 2 = Grace's hand sheet."""
+    refs = [kie.upload(f"stills/{sid}.png"), kie.upload(HANDREF)]
+    prompt = (S[sid]["clip"] + " The hand keeps Grace's short squared French-tip nails, silver crown ring stack, small gold heart ring and blue thumb band exactly as in reference image 2,"
+              " bare wrist, no bracelet, no watch. Vertical 9:16, realistic phone footage.")
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "reference_image_urls": refs, "generate_audio": False,
+                        "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}, label=sid)
+    if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] in ("omni", "omni-dry", "seedance"):
+    with ThreadPoolExecutor(max(1, len(sys.argv[2:]))) as ex:
+        list(ex.map((lambda i: omni(i, sys.argv[1] == "omni-dry")) if sys.argv[1] != "seedance" else seedance, sys.argv[2:]))
