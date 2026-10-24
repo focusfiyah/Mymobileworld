@@ -74,3 +74,17 @@ RND = "r2"
 if __name__ == "__main__" and sys.argv[1] in ("stills2", "stills3", "stills4"):
     RND = {"stills2": "r2", "stills3": "r3", "stills4": "r4"}[sys.argv[1]]
     with ThreadPoolExecutor(max(1, len(sys.argv[2:]))) as ex: list(ex.map(still_r2, sys.argv[2:]))
+
+
+def seedance(sid):
+    """No product print in frame (S6, S7, S9 face shots): Seedance 2.0 Mini, first-frame mode so the framing that hides
+    the eyes and mouth is kept; prompts in prompts/seedance.json (prompt-master, 2026-10-24)."""
+    cur = json.loads(Path("stills/current.json").read_text())[sid]
+    p = json.loads(Path("prompts/seedance.json").read_text())[sid]
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": p["prompt"], "first_frame_url": kie.upload(f"stills/{cur}.png"),
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": p["dur"]}}, label=f"clip {sid}")
+    if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "seedance":
+    with ThreadPoolExecutor(max(1, len(sys.argv[2:]))) as ex: list(ex.map(seedance, sys.argv[2:]))
