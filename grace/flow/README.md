@@ -1,4 +1,10 @@
-# Google Flow route (trial, Ralph 2026-10-23)
+# Google Flow route (standing rule since 2026-10-24)
+
+**Flow first for every product clip, Kie second (Ralph 2026-10-24, after the PRITECH trial: "we can do it until credits run out").**
+Measured on the trial: Omni 1.1 Flash = 12 credits per 4 s clip (Flow shows the cost before generating; Veo 3.1 Lite 10, Veo 3.1 Fast 20),
+download 720p or 1080p (ask for the 1080 download). Send the kit as files in the chat (SendUserFile: prompt txt + the images in upload order)
+and on the review page. Kie Omni only when his credits run out, he can't make it, or the Flow take fails QC (asked with cost).
+The trial steps below stay as the how-to.
 
 Ralph has the Google Flow phone app on his Google AI Pro plan: 1,050 credits a month (1,000 + 50 daily), no rollover,
 visible watermark already off (screenshot 2026-10-23). Flow runs Gemini Omni Flash (the model we pay Kie $0.315 per 4 s

@@ -18,7 +18,12 @@ stop spending; 13 of 27 Vans clips came back with a pale side tab; Cleanwaste: 3
    the plan before spend.
 2. **Stills:** Gemini 3 Pro Image (Kie `nano-banana-pro`) with the sheet + close-ups, used clean. QC at 2x against the
    real photo (shape, colours, every letter, size) before any clip is paid for.
-3. **Every clip where the product is in frame: Google Gemini Omni 1.1 Flash ON KIE** (Ralph 2026-10-22: "Use Omni on
+3. **Flow first (Ralph 2026-10-24, after the PRITECH trial: "we can do it until credits run out"):** every clip where the
+   product is in frame is first a free take Ralph makes in his Google Flow phone app (Omni 1.1 Flash, 12 credits per 4 s
+   clip, 1,050 a month, no rollover; he downloads it at 1080) from your kit: the still, a close-up of each logo, the sheet
+   and one prompt (format and steps: Mymobileworld `grace/flow/README.md`). QC it exactly like a paid take. Kie (below)
+   only when his Flow credits run out, he can't make it, or the Flow take fails QC, asked with the cost.
+   **Otherwise: Google Gemini Omni 1.1 Flash ON KIE** (Ralph 2026-10-22: "Use Omni on
    kie not thru the API key"; Kie model `google/gemini-omni-flash-1-1`, cheaper than Google direct and 1080p at the
    same price): `python3 .claude/skills/ugc-product-ad/scripts/omni_clip.py <job> S3 --prompt-file prompts/S3.txt
    --still stills/S3.png --ref refs/logo_side.png --ref refs/product_sheet.png --seconds 4` (`--dry` first: prints the

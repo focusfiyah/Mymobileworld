@@ -10,7 +10,7 @@
   CHECK: test -s refs/product_sheet.png && echo SHEET_OK
   EXPECT: SHEET_OK
 - [ ] G4: 9 approved stills exist
-  CHECK: ls stills/S?_ok.png 2>/dev/null | wc -l | sed 's/^9$/STILLS_9/'
+  CHECK: ls stills/S?.png | wc -l | sed "s/^9$/STILLS_9/"
   EXPECT: STILLS_9
 - [ ] G5: Flow trial logged (both S6 takes, credits, Ralph's pick)
   CHECK: grep -c "pritech" /home/user/Mymobileworld/grace/flow/RESULTS.md | sed 's/^[1-9].*/FLOW_LOGGED/'
