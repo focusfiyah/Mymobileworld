@@ -8,7 +8,7 @@ from pathlib import Path
 import kie
 
 S = {s["id"]: s for s in json.loads(Path("shots.json").read_text())}
-SHEET, HEAD, BTN, LOGO = "refs/product_sheet.png", "refs/closeup_head.png", "refs/closeup_buttons.png", "refs/closeup_stand_logo.png"
+SHEET, HEAD, BTN, LOGO = "refs/product_sheet_v2.png", "refs/closeup_head.png", "refs/closeup_buttons.png", "refs/closeup_stand_logo.png"
 HANDREF = "../../grace/ref/hand-sheets/without_bracelet.jpg"
 BUTTONS = {"S1", "S5", "S6", "S7"}      # buttons can be in frame
 STAND = {"S4", "S8", "S9"}              # the stand with its PRITECH print is in frame
@@ -18,7 +18,7 @@ def still_refs(s):
     r, names = [], []
     def add(p, what): r.append(p); names.append(f"image {len(r)} = {what}")
     if s["product"]:
-        add(SHEET, "the product reference sheet built from real photos (the big left photo is the real black brush)")
+        add(SHEET, "the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly")
         add(HEAD, "a real close-up of the black bristle head")
         if s["id"] in BUTTONS: add(BTN, "a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom")
         if s["id"] in STAND: add(LOGO, "a real close-up of the grey 'PRITECH' print on the black stand")
