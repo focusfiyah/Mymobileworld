@@ -1,6 +1,6 @@
 ---
 name: free-assets
-description: Ralph's list of free sources for stock video clips, photos, music, sound effects, emoji and overlay art, with what each is good for and the licence check before use. Use when any job, client ad (Grace), Day One AI video or personal project needs b-roll, a stock photo or sticker, background music, a sound effect, an emoji, a room background for a still or clip, or when Ralph says "resources", "free stock", "Mixkit", "Pixabay", "Pexels", "different rooms", "room backgrounds", "where do we get a sound/clip/photo". For generating media with AI use ugc-product-ad or media-use; for HyperFrames catalog assets use media-use.
+description: Ralph's list of free sources for stock video clips, photos, music, sound effects, emoji and overlay art, with what each is good for and the licence check before use. Use when any job, client ad (Grace), Day One AI video or personal project needs b-roll, a stock photo or sticker, background music, a sound effect, an emoji, a room background for a still or clip, or when Ralph says "b rolls", "archive.org", "resources", "free stock", "Mixkit", "Pixabay", "Pexels", "different rooms", "room backgrounds", "where do we get a sound/clip/photo". For generating media with AI use ugc-product-ad or media-use; for HyperFrames catalog assets use media-use.
 ---
 
 # Free assets
@@ -13,6 +13,7 @@ Add a source here when he gives one; check this list before paying for generatio
 | Source | Gives | Notes |
 |---|---|---|
 | https://mixkit.co/ (added 2026-10-14) | stock video, music, sound effects, video templates, art; no account | Each item type has its own licence (https://mixkit.co/license/). Terms NOT read yet (pop-up behind a cookie banner): read the item's licence before first use, then record the result under Licence checks below. Never use a "Restricted" video. |
+| broll MCP: archive.org public-domain film (added 2026-10-24) | b-roll clips cut to length while editing: old, mostly black-and-white SD film (Prelinger, NASA, newsreels) | Tools `search_footage` → `inspect_item` (keyframe per scene, pick by looking) → `extract_clip` (1-60 s, verified) with a provenance JSON per clip; copy both into the job. Use only clips with `commercial_use: "allowed"` in a monetized video. Fits Day One AI and Ralph's retro/space/history cutaways; Grace's bright modern ads take the stock sources above first. Setup and review: Mymobileworld CLAUDE.md (broll-mcp) and `tools/broll/SOURCE.md`. |
 | Microsoft Fluent 3D emoji (MIT) | premium 3D emoji for overlays | `cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/<Name>/3D/<name>_3d.png`, 256px: never enlarge past about 1.2x. No emoji for a word: offer a free stand-in from the same set first (source: grace/PLAYBOOK.md §4 overlays). |
 | Pexels | room backgrounds | Needs `PEXELS_API_KEY` (env var). Pexels License: free commercial use, no attribution. |
 | Pixabay | room backgrounds, isolated photos (stickers) | Needs `PIXABAY_API_KEY` (env var); an invalid key returns HTTP 400. Photos may carry a brand logo: remove it by masking and inpainting, never a flat fill (Wag Bag r4). |
