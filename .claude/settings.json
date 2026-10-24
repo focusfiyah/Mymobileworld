@@ -2,10 +2,11 @@
   "env": {
     "HYPERFRAMES_NO_TELEMETRY": "1",
     "DO_NOT_TRACK": "1",
-    "KAPSO_TELEMETRY_DISABLED": "1"
+    "KAPSO_TELEMETRY_DISABLED": "1",
+    "CAMOFOX_CRASH_REPORT_ENABLED": "false"
   },
   "enabledMcpjsonServers": [
-    "playwright"
+    "camofox-browser"
   ],
   "hooks": {
     "SessionStart": [
@@ -14,6 +15,10 @@
           {
             "type": "command",
             "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/browser_setup.sh"
+          },
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/camofox_setup.sh"
           }
         ]
       }

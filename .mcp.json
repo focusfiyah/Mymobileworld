@@ -1,18 +1,17 @@
 {
   "mcpServers": {
-    "playwright": {
+    "camofox-browser": {
       "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
-        "@playwright/mcp@0.0.83",
-        "--headless",
-        "--isolated",
-        "--no-sandbox",
-        "--executable-path",
-        "/opt/pw-browsers/chromium"
+        "@askjo/camofox-browser-mcp@1.18.1"
       ],
-      "env": {}
+      "env": {
+        "CAMOFOX_BASE_URL": "http://127.0.0.1:9377",
+        "CAMOFOX_USER_ID": "claude",
+        "CAMOFOX_CRASH_REPORT_ENABLED": "false"
+      }
     }
   }
 }
