@@ -23,3 +23,16 @@ if __name__ == "__main__":
         for i in ids: print(S[i]["still_refs"], S[i]["still"])
     elif kind == "stills":
         with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(still, ids))
+
+
+def still_r2(sid):
+    """Round 2 (2026-10-24): prompts/stills_r2.json; mode edit = image 1 is the round-1 still, ONE item changes. -> stills/<ID>_r2.png"""
+    p = json.loads(Path("prompts/stills_r2.json").read_text())[sid]
+    refs = ([p["base"]] if p["mode"] == "edit" else []) + p["refs"]
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": p["prompt"], "image_input": [kie.upload(r) for r in refs],
+                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"still r2 {sid}")
+    if url: kie.fetch(url, f"stills/{sid}_r2.png"); print("still r2", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "stills2":
+    with ThreadPoolExecutor(max(1, len(sys.argv[2:]))) as ex: list(ex.map(still_r2, sys.argv[2:]))

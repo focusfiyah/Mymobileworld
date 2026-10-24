@@ -1,6 +1,95 @@
-{"sub": "Grace · recreation of @sophmademebuyit (18 s, 75.7K) · 6 shots, 16 s · music only, no text · Kie stills, Flow clips · cap $2.835",
- "ask": {"title": "Stills rendering", "text": "All 6 stills are on Kie now ($0.54). The storyboard shows up here when they're done and checked."},
+{
+ "sub": "Grace \u00b7 recreation of @sophmademebuyit (18 s, 75.7K) \u00b7 6 shots, 16 s \u00b7 music only, no text \u00b7 $0.54 spent of $2.835",
+ "ask": {
+  "title": "Stop 1: storyboard + S1 Flow take + 2 redos to OK",
+  "text": "4 of 6 stills pass. <b>S1 Flow kit is below</b>: please make it (12 credits) and send the clip back. <b>S2</b> (feet point opposite ways) and <b>S4</b> (white sandals under the held shoe) need a redo: S2 new still $0.09 + S4 one-item edit $0.09 = <b>$0.18</b>, from the approved redo line. OK?"
+ },
  "sections": [
-  {"type": "html", "h": "The reference", "body": "<video controls playsinline preload=\"metadata\" src=\"ref.mp4\" style=\"width:100%;max-width:360px;border-radius:8px\"></video><p class=\"muted\">@sophmademebuyit, 18 s, music only. Her shoe turn (insole, side, heel) becomes 3 separate holds here (S1, S3, S4), so no clip ever turns the shoe.</p>"},
-  {"type": "html", "h": "Place and logos (real photos)", "body": "<div class=\"rooms\"><figure><img src=\"img/ground.jpg\" alt=\"Red herringbone brick\"><figcaption>brick sidewalk (Pexels)</figcaption></figure><figure><img src=\"img/insole.jpg\" alt=\"Real insole logo\"><figcaption>insole logo</figcaption></figure><figure><img src=\"img/tab.jpg\" alt=\"Real side tab\"><figcaption>side tab</figcaption></figure><figure><img src=\"img/heel.jpg\" alt=\"Real heel label\"><figcaption>heel label</figcaption></figure><figure><img src=\"img/sheet.jpg\" alt=\"Product sheet\"><figcaption>product sheet</figcaption></figure><figure><img src=\"img/hand.jpg\" alt=\"Grace's hand\"><figcaption>Grace's hand</figcaption></figure></div>"}
- ]}
+  {
+   "type": "kits",
+   "h": "Flow kit \u00b7 S1 first (riskiest)",
+   "note": "Open S1, save its 4 images, copy the prompt, make it in Flow (Gemini Omni Flash, 4 s, 12 credits), download at 1080 and send it back.",
+   "items": [
+    {
+     "id": "S1",
+     "what": "held shoe, insole up, small tilt",
+     "open": true,
+     "prompt": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour the whole clip; only the black squares carry sequins. Motion: her hand keeps the same grip on the side of the held shoe and tilts it slowly about 10 degrees toward the lens and back, the red insole stays facing the camera; the shoe never turns over, never shows its sole and never flips. Her feet stay still on the bricks: one foot in its shoe, the other bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "imgs": [
+      [
+       "kit/S1-1_still_S1.jpg",
+       "still S1"
+      ],
+      [
+       "kit/S1-2_insole_logo.jpg",
+       "insole logo"
+      ],
+      [
+       "kit/S1-3_side_tab.jpg",
+       "side tab"
+      ],
+      [
+       "kit/S1-4_product_sheet.jpg",
+       "product sheet"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "h": "Storyboard \u00b7 round 1 \u00b7 $0.54",
+   "note": "Checked at 2x: logos vs the real close-ups, shoe count, grip, five fingers.",
+   "items": [
+    {
+     "src": "st/S1.jpg",
+     "n": "S1",
+     "tag": "pass",
+     "p": "One hand grips the held shoe, red insole + white VANS box match the real one; her other foot bare (she is holding that shoe). Test clip."
+    },
+    {
+     "src": "st/S2.jpg",
+     "n": "S2",
+     "tag": "redo",
+     "cls": "redo",
+     "p": "One foot points at the camera, the other away (heel label showing). Feet must point the same way."
+    },
+    {
+     "src": "st/S3.jpg",
+     "n": "S3",
+     "tag": "pass",
+     "p": "Side-on hold, black side tab with white letters, one hand. The tab's tiny letters are soft; the clip gets the real tab close-up."
+    },
+    {
+     "src": "st/S4.jpg",
+     "n": "S4",
+     "tag": "redo",
+     "cls": "redo",
+     "p": "Hold and heel label OK, but she wears white sandals under it. Edit: bare feet, as in S1."
+    },
+    {
+     "src": "st/S5.jpg",
+     "n": "S5",
+     "tag": "pass",
+     "p": "Cuban anklet over the collar, black side tab with white VANS."
+    },
+    {
+     "src": "st/S6.jpg",
+     "n": "S6",
+     "tag": "pass",
+     "p": "Both feet side by side, same direction, two anklets, bushes behind."
+    }
+   ]
+  },
+  {
+   "type": "html",
+   "h": "The reference",
+   "body": "<video controls playsinline preload=\"metadata\" src=\"ref.mp4\" style=\"width:100%;max-width:360px;border-radius:8px\"></video><p class=\"muted\">@sophmademebuyit, 18 s, music only. Her shoe turn (insole, side, heel) becomes 3 separate holds here (S1, S3, S4), so no clip ever turns the shoe.</p>"
+  },
+  {
+   "type": "html",
+   "h": "Place and logos (real photos)",
+   "body": "<div class=\"rooms\"><figure><img src=\"img/ground.jpg\" alt=\"Red herringbone brick\"><figcaption>brick sidewalk (Pexels)</figcaption></figure><figure><img src=\"img/insole.jpg\" alt=\"Real insole logo\"><figcaption>insole logo</figcaption></figure><figure><img src=\"img/tab.jpg\" alt=\"Real side tab\"><figcaption>side tab</figcaption></figure><figure><img src=\"img/heel.jpg\" alt=\"Real heel label\"><figcaption>heel label</figcaption></figure><figure><img src=\"img/sheet.jpg\" alt=\"Product sheet\"><figcaption>product sheet</figcaption></figure><figure><img src=\"img/hand.jpg\" alt=\"Grace's hand\"><figcaption>Grace's hand</figcaption></figure></div>"
+  }
+ ]
+}
