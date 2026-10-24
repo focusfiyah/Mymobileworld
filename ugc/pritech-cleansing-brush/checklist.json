@@ -88,5 +88,15 @@
   "total": 3.66,
   "sha256": "1a25a9221e65cb40741c89812748cb4c05aa34d1c603da0100f22feff7ff949e",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 0.63,
+   "what": "slim-brush still redo: S6 test then S1 S4 S5 S7 S8 S9 (7 x 0.09)",
+   "by": "Ralph",
+   "quote": "Ok and redo",
+   "date": "2026-10-24",
+   "book_sha256": "1a25a9221e65cb40741c89812748cb4c05aa34d1c603da0100f22feff7ff949e"
+  }
+ ]
 }
