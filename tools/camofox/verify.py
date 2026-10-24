@@ -65,9 +65,9 @@ def mcp():
 def config():
     for r in REPOS:
         m = json.load(open(f"{ROOT}/{r}/.mcp.json"))["mcpServers"]
-        assert "camofox-browser" in m and "playwright" not in m, (r, list(m))
+        assert "camofox-browser" in m and "playwright" in m, (r, list(m))  # camofox first, Playwright backup (Ralph 2026-10-24)
         s = json.load(open(f"{ROOT}/{r}/.claude/settings.json"))
-        assert s["enabledMcpjsonServers"] == ["camofox-browser"], (r, s["enabledMcpjsonServers"])
+        assert {"camofox-browser", "playwright"} <= set(s["enabledMcpjsonServers"]), (r, s["enabledMcpjsonServers"])
         assert s["env"].get("CAMOFOX_CRASH_REPORT_ENABLED") == "false", r
         hooks = json.dumps(s["hooks"])
         assert "camofox_setup.sh" in hooks and "browser_setup.sh" in hooks, r  # Python Playwright stays for scripts
@@ -82,7 +82,8 @@ def docs():
              "handoff/CLAUDE_PREFERENCES.txt", "handoff/MEMORY_SHORT.txt"]
     for r in REPOS:
         for f in files:
-            assert "camofox" in open(f"{ROOT}/{r}/{f}").read().lower(), f"{r}/{f} lacks camofox"
+            t = open(f"{ROOT}/{r}/{f}").read().lower()
+            assert "camofox" in t and "playwright" in t and "backup" in t, f"{r}/{f} lacks the camofox-first rule"
         short = open(f"{ROOT}/{r}/handoff/MEMORY_SHORT.txt").read()
         assert len(short) <= 2000, f"{r} MEMORY_SHORT {len(short)} chars"
     print("CAMOFOX_DOCS_OK")

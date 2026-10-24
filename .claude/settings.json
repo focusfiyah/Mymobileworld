@@ -7,7 +7,8 @@
   },
   "enabledMcpjsonServers": [
     "camofox-browser",
-    "broll"
+    "broll",
+    "playwright"
   ],
   "hooks": {
     "SessionStart": [
