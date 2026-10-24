@@ -65,7 +65,7 @@ lessons below are specific to making ads:
   resort** (it reads as a sticker), only with Ralph's OK for that shot. Route, prompt template, costs:
   `references/product-lock.md`. Why: October's redos (Vans tab and gift-shot shoe, Cleanwaste boxes) cost more than
   the first takes.
-- **Every still, edit and clip prompt is written with the `prompt-master` skill** (its "Ralph's stack"), every
+- **Every still, edit and clip prompt is written with the `prompt-master` skill, loaded with the Skill tool first in every session** (Ralph 2026-10-24: JIYU round-1 stills written from memory of its rules, 6 of 10 redone) (its "Ralph's stack"), every
   reference named by its tag and the print matched letter for letter (Ralph 2026-10-21: it locks the models to what we
   want). Paste the final prompt into the plan so Ralph sees it before spend.
 - **Budget (Ralph 2026-10-21: "blowing through my budget"):** every plan and every redo question shows
