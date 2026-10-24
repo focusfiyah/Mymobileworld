@@ -763,5 +763,36 @@
   },
   "costTime": 129,
   "usd": 0.315
+ },
+ {
+  "t": "2026-10-24 04:02:47",
+  "submitted": "3977c8ea85138a0e10a62dcb396ff31d",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real b"
+ },
+ {
+  "t": "2026-10-24 04:04:43",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the real buttons; image 4 is the product sheet: keep this exact slim shape, size and black colour, no added marks, no \u00ae or \u2122, no extra text. Motion: the hand keeps one grip and moves the brush in small slow circles on the foamy cheek; the brush never turns its back or flips; her eyes and mouth never enter the frame. Camera: locked-off, slight handheld sway. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792814552736-rw3jc3y08wl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792814555353-jdewlxhfci9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792814557298-80ncfh6v47r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-cleansing-brush/1792814559510-77h3nplz1xa.png"
+    ]
+   }
+  },
+  "taskId": "3977c8ea85138a0e10a62dcb396ff31d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/3977c8ea85138a0e10a62dcb396ff31d_0_1792814679.mp4"
+   ]
+  },
+  "costTime": 113,
+  "usd": 0.315
  }
 ]
