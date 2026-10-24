@@ -1,0 +1,27 @@
+{
+ "S2": {
+  "mode": "new",
+  "refs": [
+   "refs/closeup_jiyu_front.png",
+   "refs/product_sheet.png",
+   "rooms/room_B.jpg"
+  ],
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. SIZE FIRST: a small squat jar about 8.5 cm wide and 7 cm tall, palm-sized. The JIYU letters MUST match image 1 letter for letter and colour for colour: chunky flat-cut cobalt-blue display blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge to the pink lid, wrapping around the curve so the J and the U disappear round the sides. NEVER a plain or regular font, no other words or small text anywhere on the jar. CAMERA ANGLE: the jar is seen from a high three-quarter angle, about 30 degrees above and turned 30 degrees, exactly like the big left photo in image 2, so the letters curve around the jar. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon thumb tab, small cobalt-blue JIYU on the lid top. No \u00ae or \u2122, no added marks. Subject: the jar standing alone on the light wood vanity top, lid closed. No hands, no people. Setting: the mint-green tile bathroom with the round gold mirror from image 3, soft behind. Composition: the jar about a quarter of the frame, a little right of centre. Lighting: bright neutral daylight. Style: photorealistic phone photo, one frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark."
+ },
+ "S3": {
+  "mode": "new",
+  "refs": [
+   "refs/closeup_jiyu_front.png",
+   "refs/product_sheet.png",
+   "rooms/room_B.jpg",
+   "refs/hand.jpg"
+  ],
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. Image 4 = Grace's real hand sheet. SIZE FIRST: a small squat jar about 8.5 cm wide and 7 cm tall; it fits inside her hand. The JIYU letters MUST match image 1 letter for letter and colour for colour: chunky flat-cut cobalt-blue display blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge to the pink lid, wrapping around the curve so the J and the U disappear round the sides. NEVER a plain or regular font, no other words or small text anywhere on the jar. CAMERA ANGLE: the jar is seen from a high three-quarter angle, about 30 degrees above and turned 30 degrees, exactly like the big left photo in image 2, so the letters curve around the jar. GRIP: her hand comes in from the RIGHT side of the frame and wraps around the SIDE of the jar body like holding a cup: thumb on the near side, four fingers curled around the far side, palm against the jar; NOTHING touches the lid; the jar is lifted 2 cm off the wood vanity. Hand exactly as image 4: medium-brown skin, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, thin blue silicone ring on the THUMB only; NOTHING on her wrist: no bracelet, no band, no watch; the whole wrist visible. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon tab. No \u00ae or \u2122. Setting: the mint-green tile bathroom from image 3, soft behind. Lighting: bright neutral daylight. Style: photorealistic phone photo, one frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark."
+ },
+ "S8": {
+  "mode": "edit",
+  "base": "stills/S8.png",
+  "refs": [],
+  "prompt": "Image 1 is the photo to edit. Change ONLY her upper wrist: remove the blue band so the wrist is bare medium-brown skin with natural creases, matching the hand's skin tone; no bracelet, no band, no watch. Keep everything else exactly the same: the tweezers, the pad, the jar and its letters, both hands, rings and nails, the pink tiles, the window, the light and the framing."
+ }
+}
