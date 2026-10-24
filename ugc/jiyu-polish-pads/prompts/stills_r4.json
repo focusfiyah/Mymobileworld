@@ -1,0 +1,28 @@
+{
+ "S3": {
+  "mode": "new",
+  "refs": [
+   "refs/closeup_jiyu_front.png",
+   "refs/product_sheet.png",
+   "rooms/room_B.jpg",
+   "refs/hand.jpg"
+  ],
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. Image 4 = Grace's real hand sheet. HARD RULES: exactly ONE hand in the frame, her RIGHT hand, anatomically correct with one thumb and four fingers. SIZE: the jar is small, about 8.5 cm wide and 7 cm tall: it is no taller than her fingers are long, and her hand looks bigger than the jar. The JIYU letters MUST match image 1 letter for letter and colour for colour: chunky flat-cut cobalt-blue display blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge to the pink lid, wrapping around the curve so the J and the U disappear round the sides. NEVER a plain or regular font, no other words or small text on the jar. GRIP: her right arm enters from the bottom-right corner of the frame; she holds the jar from the side like a cup: her THUMB lies on the front-left of the jar facing the camera, her four fingers wrap around the BACK of the jar so only their fingertips show at the right edge of the jar; palm against the jar; nothing touches the lid; the jar is lifted 2 cm off the wood vanity. CAMERA ANGLE: a high three-quarter view of the jar, about 30 degrees above, like the big left photo in image 2. Hand exactly as image 4: medium-brown skin, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, thin blue silicone ring on the thumb; NOTHING on her wrist: no bracelet, no band, no watch; the whole wrist visible. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon tab. No \u00ae or \u2122. Setting: the mint-green tile bathroom from image 3, soft behind. Lighting: bright neutral daylight. Style: photorealistic phone photo, one frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark."
+ },
+ "S5": {
+  "mode": "edit",
+  "base": "stills/S5_r2.png",
+  "refs": [
+   "refs/closeup_jiyu_front.png"
+  ],
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY the lower part: remove the second hand that holds the jar completely, so exactly ONE hand remains in the photo (the hand pinching the pad). The jar now stands upright on its own on a grey marble counter just below, in the same soft focus; its letters still match image 2 letter for letter and colour for colour. Keep everything else exactly the same: the pad and its dimpled texture, the hand that pinches it, its nails and rings, the jar's shape and colours, the room, the light and the framing. No other hands, fingers or arms anywhere."
+ },
+ "S8": {
+  "mode": "edit",
+  "base": "stills/S8_r3.png",
+  "refs": [
+   "refs/closeup_jiyu_front.png"
+  ],
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY the lower part: remove the lower hand that holds the jar completely, so exactly ONE hand remains in the photo (the hand holding the tweezers). The jar now stands on its own on the white counter, upright, lid open, with the same pad being lifted out; the visible JIYU letters match image 2 letter for letter and colour for colour. Keep everything else exactly the same: the tweezers, the pad, the upper hand, its nails and rings, the pink tiles, the night window, the light and the framing. No other hands, fingers or arms anywhere."
+ }
+}
