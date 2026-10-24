@@ -39,7 +39,7 @@ def make_repo(tmp):
     for w in ("user.name", "user.email"):
         sh(work, "git", "config", w, "test@example.com")
     (work / "grace").mkdir()
-    for f in ("gate.py", "paid.py", "spend.py"):
+    for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json"):
         shutil.copy(HERE / "grace" / f, work / "grace" / f)
     (work / "grace/spend.json").write_text(json.dumps({"monthly_cap_usd": 100, "caps_by_month": {time.strftime("%Y-%m"): None}, "other": []}))
     tpl = work / ".claude/skills/ugc-product-ad/templates"; tpl.mkdir(parents=True)
@@ -149,6 +149,15 @@ def main():
         e, m = exits(gate.start_task, job, body("S5 tablet drops in"), "S5")
         ok("request already paid on another session's branch is refused", e and "origin/session-b" in m and "task_B5" in m, m)
 
+        # Kie input fields: a misnamed image field is refused before anything is claimed or sent
+        n_before = len(json.loads((job / "paid_tasks.json").read_text()))
+        wrong = {"model": "nano-banana-pro", "input": {"prompt": "S6 still", "image_urls": ["https://x/1.png"], "resolution": "1K"}}
+        e, m = exits(gate.start_task, job, wrong, "S6")
+        ok("nano-banana-pro with image_urls (its field is image_input) refused", e and "KIE FIELDS" in m and "image_input" in m, m)
+        ok("refused field check claims nothing", len(json.loads((job / "paid_tasks.json").read_text())) == n_before)
+        ok("documented fields pass the field check",
+           importlib.import_module("kie_fields").check({**wrong, "input": {"prompt": "S6", "image_input": ["https://x/1.png"]}}) == [])
+
         # the key ignores hosted URLs anywhere (nano-banana image_input, Omni video_list) but not the prompt
         nb = lambda pr, u: {"model": "nano-banana-pro", "input": {"prompt": pr, "image_input": [u, u], "resolution": "1K"}}
         ok("same still request with new upload URLs has the same key",
@@ -159,7 +168,7 @@ def main():
 
         # the copy in this repo is the one under test
         ok("tested copies match grace/", all((work / "grace" / f).read_text() == (HERE / "grace" / f).read_text()
-                                             for f in ("gate.py", "paid.py", "spend.py")))
+                                             for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json")))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     failed = [n for n, c in results if not c]
