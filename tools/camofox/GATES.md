@@ -28,8 +28,10 @@ Scope: camofox-browser installs itself in every cloud session, is the agent's br
   CHECK: python3 tools/camofox/verify.py merged
   EXPECT: CAMOFOX_MERGED_OK
 
-- [ ] G7: live Google Doc "Ralph standing rules (live)" refreshed (handoff/live_rules.py ran without error)
-  EVIDENCE: pending
+- [x] G7: live Google Doc "Ralph standing rules (live)" refreshed (handoff/live_rules.py ran without error)
+  EVIDENCE: 2026-10-24 new doc 1O9r0jaUCsstyiWaeWfBrzZQbusUPUqALV50d10H1qj0 read back with the Browser (2026-10-24) line; old 154uyZqp... trashed; LIVE_DOC.txt updated
 
-- [ ] G8: honest comparison vs Playwright reported (same pages, both browsers, this session)
-  EVIDENCE: pending
+- [x] G8: honest comparison vs Playwright reported (same pages, both browsers, this session)
+  EVIDENCE: 2026-10-24 example.com + nowsecure.nl OK on both; google.com/search blocked on both (camofox 'unusual traffic', Playwright 429 /sorry); tiktok.com/@houseoframeau 0 video links + 'Something went wrong' on both; bot.sannysoft.com webdriver passed on camofox
+
+Run 2026-10-24 (commands run by hand; unlazy CHECK approvals need Ralph's say): G1-G6 printed their success tokens, see final report.
