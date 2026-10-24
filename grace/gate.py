@@ -267,9 +267,13 @@ def require(job, stage="plan", usd=0.0, lock=True):
 
 
 def start_task(job, body, label="", usd=None):
-    """Call right before each Kie createTask: script gate, cap, book, budget lock (in-flight tasks counted) and the
-    paid-task ledger. Returns the key for task_submitted()."""
+    """Call right before each Kie createTask: input fields (grace/kie_fields.py), script gate, cap, book, budget lock
+    (in-flight tasks counted) and the paid-task ledger. Returns the key for task_submitted()."""
     from spend import price
+    from kie_fields import check as field_errors   # a misnamed input field is ignored by Kie, not refused
+    errs = field_errors(body)
+    if errs:
+        sys.exit("KIE FIELDS: paid call refused, nothing sent:\n  - " + "\n  - ".join(errs))
     usd = price(body)[1] if usd is None else usd
     require(job, lock=False)
     return paid.claim(job, body, usd, label, check=lambda spent: lock_errors(job, _checklist(job), spent, usd))

@@ -108,7 +108,7 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
 - One recurring persona, per-shot Grok clips, trim dead air, animated CTA, lip sync, Kie stills and prices:
   `references/persona-per-shot.md`
 - Hands-only ad, on-camera demo over a voiceover, GTT KN95 lessons: `references/hands-only-and-demo.md`
-- Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result: `references/lipsync-options.md`
+- Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result; Kie talking-avatar models (one still + the voice, no clip first, untested) for talking-head lines: `references/lipsync-options.md`
 - Product lock (every product shot: Omni clips, edit turns, budget line): `references/product-lock.md`
 - Exact-product route (real photo + paste-back, complex products; last resort since 2026-10-21): `references/exact-product.md`
 - Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).
