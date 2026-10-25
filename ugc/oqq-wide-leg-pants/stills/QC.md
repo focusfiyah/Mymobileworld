@@ -19,3 +19,4 @@
 - S6 r4 (Kie $0.09, Ralph: "Do the redos"): black and off-white sequin Vans, both toes the same way, front seam + waistband, five fingers on each hand. PASS.
 ## Final stills (2026-10-25)
 S1 PASS (r1) · S2 PASS (r2; clip dropped: feet both ways) · S3 PASS (r1) · S4 PASS (r1) · S5 PASS (r3) · S6 PASS (r4) · S7 PASS (r3) · S8 PASS (r1)
+- 2026-10-25 after approval: Ralph: "The pockets are wrong. The first shot and the last shot have the pockets incorrect" (S4, S8 drew a slanted slit; S3 and the listing show a flat rectangular patch pocket on the outer hip, straight top edge under the waistband, phone top showing). Prompts rewritten with that exact pocket + an on-body pocket close-up from S3 (refs/pocket_on_body.jpg); S8 now shows the phone in the pocket instead of up at her face. Waiting on Ralph: paid redo ($0.81) or free re-cut without S4/S8.

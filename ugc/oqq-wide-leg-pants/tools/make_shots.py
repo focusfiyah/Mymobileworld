@@ -9,7 +9,7 @@ def pants(c):
             "Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide "
             "sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg "
             "from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the "
-            "top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). "
+            "top of the shoe and brushes the floor. THE POCKET (image 2): ONE flat tonal patch pocket sewn onto the OUTER SIDE of the hip, a tall rectangle about the size of a phone, outlined by a thin stitched seam, its straight top edge running level just under the waistband; it opens ONLY along that top edge, and a phone sits upright inside with only its top showing above the edge. There is NO slanted, curved or slash pocket opening anywhere and no front trouser pockets. "
             "Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos, no ® or ™, no text.")
 SHOES = ("ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (images 4 and 5): large black squares covered in black sequins, "
          "large off-white squares plain canvas (black and OFF-WHITE only, never brown, tan or beige checks), black laces through black eyelets (no gold or metal eyelets), "
@@ -24,7 +24,7 @@ ROOM = {"black": "PLACE: the real kitchen in image 7: sage-green kitchen island 
         "brown": "PLACE: the real kitchen in image 7: grey upholstered bar stools with wooden legs, white cabinets, dark island, grey wood floor."}
 LIGHT = ("LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, "
          "no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.")
-REF_DESC = {"refs/product_sheet.png": "the real pants from every side (listing photos, black and dark brown)", "refs/real_pocket.jpg": "the real hidden side pocket with a phone in it",
+REF_DESC = {"refs/product_sheet.png": "the real pants from every side (listing photos, black and dark brown)", "refs/real_pocket.jpg": "the real side pocket: a flat rectangular patch pocket on the outer hip, straight top edge under the waistband, phone top showing", "refs/pocket_on_body.jpg": "the SAME pocket as it must look on her (a flat rectangle on the outer hip, straight top edge, phone top showing)",
             "refs/real_back_logo.jpg": "the real centre-back OQQ circle mark", "refs/vans_product_sheet.png": "the real shoe from every side", "refs/real_vans_tab.jpg": "the real woven VANS side tab (small black tab, white VANS letters)",
             "refs/grace_body_sheet.jpg": "her real body and skin tone (ignore its clothes and room)", "refs/room.jpg": "the real room", "refs/room_b.jpg": "the real room", "refs/vans_real_heel_label.jpg": "the real Vans heel label (small WHITE OFF THE WALL label, black print)"}
 LEGS = {"S2", "S5", "S7"}   # knees-to-floor shots: no top, no hands, no back mark (2026-10-25: chest framing in the body block won over "knees to floor" and S7 turned into a back view)
@@ -55,8 +55,8 @@ SHOTS = [
   "SCENE (the inspo's shot): mirror-style photo of her right side, chest to floor, standing beside a black bar stool; her left hand rests on the stool's back with a relaxed grip, whole wrist visible; her right hand at her side. The full leg from waistband to floor is in frame.",
   "she shifts her weight from foot to foot and sways her hips gently, the wide legs sway and the hems stay on the floor over her shoes; the hand resting on the counter edge in image 1 stays there and her other hand stays relaxed at her side; the phone stays tucked in the side pocket with only its top showing; slight handheld camera", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S4", "HAND", "black", [8.0, 10.6], "The waist sits up high, and there's a hidden pocket right here for my phone.",
-  "SCENE: close-up of her right hip from the front-side, from the bottom of the tank to mid-thigh: the high waistband and the hidden pocket under it. Her right hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the pocket opening, thumb on the front, whole wrist visible.",
-  "the hand already holding the phone in image 1 slides it straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on her hip and waist the whole time", ["refs/real_pocket.jpg", "refs/product_sheet.png"]),
+  "SCENE: close-up of the outer side of her hip, from the bottom of the tank to mid-thigh: the high waistband and, just under it, the flat rectangular patch pocket with its straight level top edge. Her hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the top edge of the patch pocket, fingers on the back of the phone, whole wrist visible.",
+  "the hand already holding the phone in image 1 slides it straight down through the straight top edge of the patch pocket until only the top of the phone shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on her hip and waist the whole time", ["refs/real_pocket.jpg", "refs/pocket_on_body.jpg", "refs/product_sheet.png"]),
  ("S5", "HAND-FREE", "black", [10.6, 12.8], "I've got them in black,",
   "camera low at shin height IN FRONT of her, FRONT view of her lower legs standing on the oak floor: the black wide hems pool over the shoes and only the toe caps of both sequin Vans show.",
   "she rocks gently from heel to toe and back twice and shifts her weight from foot to foot, the wide hems sway and settle over the toe caps; both feet stay facing the camera and never turn; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
@@ -67,8 +67,8 @@ SHOTS = [
   "camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey wood floor: the brown wide hems swing forward and the toe caps of both sequin Vans show under them.",
   "she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S8", "HAND", "brown", [18.2, 20.5], "I linked them in the orange cart for you.",
-  "SCENE: mirror-style photo of her right side, chest to floor, in the middle of the kitchen; her right hand on her right hip, fingers forward, whole wrist visible.",
-  "she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
+  "SCENE: mirror-style photo of her side, chest to floor, in the middle of the kitchen, the outer side of her hip toward the camera so the flat rectangular patch pocket shows clearly, the pocket is the same chocolate brown as the pants (image 3 shows its shape on her black pair: copy the shape, keep this pair brown), a phone upright inside it with only its top showing; one hand rests flat on her hip just in front of the pocket, fingers together, whole wrist visible; her other arm relaxed out of frame.",
+  "the hand on her hip slides slowly down the front of her thigh and back up while she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; the phone stays in the pocket; slight handheld camera", ["refs/real_pocket.jpg", "refs/pocket_on_body.jpg", "refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
 ]
 def refs_for(sid, c):
     if sid in LEGS:
@@ -79,6 +79,9 @@ def refs_for(sid, c):
             r.remove("refs/real_back_logo.jpg")   # back mark only where the back shows
         if sid == "S4":
             r = [x for x in r if "vans" not in x]  # feet out of frame
+        if sid in ("S4", "S8"):   # Ralph 2026-10-25: these two drew a slanted slit; S3's patch pocket is the look
+            if "refs/real_pocket.jpg" not in r: r.insert(1, "refs/real_pocket.jpg")
+            r.insert(r.index("refs/real_pocket.jpg") + 1, "refs/pocket_on_body.jpg")
     return r
 
 
@@ -113,7 +116,7 @@ for sid, kind, c, win, line, scene, motion, extra in SHOTS:
     still = " ".join(x for x in body if x)
     if kind == "HAND-FREE" and sid not in LEGS:
         still += " No hands, arms or fingers anywhere in the frame."
-    names = {"refs/real_back_logo.jpg": "the real centre-back OQQ circle mark: a small white round mark", "refs/real_pocket.jpg": "the real hidden side pocket (tonal, phone top showing)",
+    names = {"refs/real_back_logo.jpg": "the real centre-back OQQ circle mark: a small white round mark", "refs/real_pocket.jpg": "the real side pocket: a flat rectangular patch pocket on the outer hip with a straight level top edge (never a slanted slit)", "refs/pocket_on_body.jpg": "the same pocket on her body, the look to keep",
              "refs/real_vans_tab.jpg": "the real woven VANS side tab: small black tab, white VANS letters", "refs/product_sheet.png": "the pants product sheet", "refs/vans_real_heel_label.jpg": "the real Vans heel label: a small WHITE OFF THE WALL label with black print"}
     lines = [f"Image {i+2} is {names[r]}." for i, r in enumerate(extra)]
     keep = "her skin, top and pants exactly; her feet stay out of the frame" if sid == "S4" else "her skin, top, pants and shoes exactly"
