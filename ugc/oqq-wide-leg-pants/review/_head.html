@@ -1,0 +1,55 @@
+<title>OQQ Pants Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column, newest round on top; plan = ask box, script, shot cards, product truth, cost */
+:root{
+  --bg:#f2f4f3; --card:#ffffff; --fg:#1b2420; --muted:#5a6762; --line:#d9e0dc;
+  --accent:#2c55a8; --warn:#c2552d; --chip:#e6eeea; --chipfree:#f6ebe4;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;--chipfree:#3a2c24;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;--chipfree:#3a2c24;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}
+.wrap{max-width:860px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:20px}
+h1{font:700 2.2rem/1.05 var(--display);letter-spacing:.01em;margin:0;text-wrap:balance}
+h2{font:700 1.35rem/1.1 var(--display);margin:0;letter-spacing:.02em}
+.sub{color:var(--muted);margin:6px 0 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:10px;min-width:0}
+.box ul,.box ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.ask{border-left:4px solid var(--warn);background:var(--card);padding:14px 18px;border-radius:0 10px 10px 0;display:grid;gap:8px}
+.ask strong{color:var(--warn)}
+.ask ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.script{font:600 1.1rem/1.45 var(--body);margin:0}
+.shot{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:8px;grid-template-columns:1fr 110px;align-items:start}
+.shot > div{min-width:0;display:grid;gap:6px}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 10px}
+.num{font:700 1.5rem/1 var(--display);color:var(--accent)}
+.chip{font:600 .7rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:999px;background:var(--chip)}
+.chip.free{background:var(--chipfree)}
+.say{font:600 1.05rem/1.35 var(--body);margin:0}
+.say::before{content:"\201C"}.say::after{content:"\201D"}
+.see{margin:0;font-size:.95rem}
+.shot img{width:100%;max-width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+figure{margin:0;display:grid;gap:6px}
+figure img{width:100%;max-width:100%;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.rooms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.rooms img{aspect-ratio:3/4;object-fit:cover}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+td{padding:6px 0;border-bottom:1px solid var(--line);vertical-align:top}td:last-child{text-align:right;font-family:var(--mono);font-size:.9rem;white-space:nowrap;padding-left:10px}
+.total td{font-weight:600;border-bottom:none}
+.muted{color:var(--muted);margin:0}
+.grid9{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.st{display:grid;gap:6px;align-content:start}
+.st img{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+.st .h{display:flex;gap:6px;align-items:baseline;flex-wrap:wrap}
+.st .n{font:700 1.2rem/1 var(--display);color:var(--accent)}
+.tag{font:600 .66rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;background:var(--chip);color:var(--fg)}
+.tag.ok{background:var(--chip)}.tag.fix{background:var(--chipfree)}.tag.redo{background:var(--warn);color:var(--card)}
+.st p{margin:0;font-size:.86rem;line-height:1.35}
+.st video{width:100%;max-width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line);background:var(--chip)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:560px){.grid9{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){h1{font-size:1.8rem}.shot{grid-template-columns:1fr 84px}.rooms{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kitimgs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.kitimgs img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;border:1px solid var(--line)}.kitp{white-space:pre-wrap;font:13px/1.4 var(--mono);background:var(--chip);padding:10px;border-radius:8px;margin:0;max-width:100%;overflow-wrap:anywhere}details.box summary{cursor:pointer;font-size:1.02rem}details.box button{font:600 .85rem var(--body);padding:6px 12px;border-radius:8px;border:1px solid var(--accent);background:var(--card);color:var(--accent)}.kitimgs figure{display:grid;gap:4px}.kitimgs .sv{width:100%}.dlnote{display:none}</style>
