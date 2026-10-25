@@ -57,6 +57,8 @@ TOTAL: $2.14
 **Approve?**
 
 ## 7. Questions (all of them, now)
+Answered by Ralph 2026-10-25: (1) "Neck down"; (2) "No, wanted her legs to show with the boots" (bare legs + black knee-high boots, no tights). Plan needs a new step + new total before approval.
+
 1. Grace wears a pink satin head wrap in all 4 photos. Crop every shot from the neck down (like cut 1's waist-down framing), or keep her face in?
 2. The body photos are sheer black tights, so her legs read as black tights under the skirt in the short looks. OK?
 
