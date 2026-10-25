@@ -1,42 +1,125 @@
 {
  "sub": "Grace \u00b7 recreation of @sophmademebuyit (18 s, 75.7K) \u00b7 6 shots, 16 s \u00b7 music only, no text \u00b7 $1.08 spent of $2.835",
  "ask": {
-  "title": "Stop 2: make the new S1 Flow take",
-  "text": "All 6 stills pass now. S1 is a fresh still: her right hand holds the <b>RIGHT</b> shoe (side tab on its outer edge), left foot in its shoe, right foot bare. Please make the S1 take from the kit below (5 images now: I added the real right-shoe photo) and send it back. The other 5 kits come right after S1 passes."
+  "title": "Stop 3: make the S2-S6 Flow takes",
+  "text": "Your S1 take passes on the pair (right shoe, right hand). One note: from about 1.3 to 2.6 s the shoe tips onto its outer side and back (no flip). I'd use the clean insole-up parts. 5 more kits below, 12 credits each (60 total). Send each clip back as it's done."
  },
  "sections": [
   {
    "type": "kits",
-   "h": "Flow kit \u00b7 S1 (new still)",
-   "note": "Open S1, save its 4 images, copy the prompt, make it in Flow (Gemini Omni Flash, 4 s, 12 credits), download at 1080 and send it back.",
+   "h": "Flow kits \u00b7 S2 to S6",
+   "note": "One shot at a time: open it, save its images, copy its prompt, make it in Flow (Gemini Omni Flash, 9:16, 4 s), download at 1080, send it back.",
    "items": [
     {
-     "id": "S1",
-     "what": "right shoe in her right hand, insole up, small tilt",
-     "open": true,
-     "prompt": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings, blue band and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the real RIGHT shoe from above: the held shoe stays this RIGHT shoe the whole clip. Image 5 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark matches its image letter for letter and colour for colour; only the black squares carry sequins. Motion: her right hand keeps the same grip and tilts the held shoe slowly about 10 degrees toward the lens and back. The red insole faces the camera for all 4 seconds; the shoe never turns onto its side, never shows its sole and never flips. Her feet stay still on the bricks: the LEFT foot in its shoe, the RIGHT foot bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "id": "S2",
+     "what": "POV walk on the bricks, both shoes point away",
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, outfit and anklets exactly. Image 2 is the real woven side tab: a small black tab with white VANS letters. Image 3 is the real heel label: a small white OFF THE WALL skateboard label with black print. Image 4 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no \u00ae or \u2122, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour and stays on the shoe the whole clip; only the black squares carry sequins. Motion: she walks forward at a relaxed pace, four real steps, the camera moves forward with her so the bricks clearly travel down and out of the bottom of the frame (no walking in place); both shoes point away from the camera toward the top of the frame the whole time, the same direction; no hand appears at any time. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, at most two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
      "imgs": [
       [
-       "kit/S1-1_still_S1.jpg",
-       "still S1"
+       "kit/S2-1_still_S2.jpg",
+       "still S2"
       ],
       [
-       "kit/S1-2_insole_logo.jpg",
-       "insole logo"
-      ],
-      [
-       "kit/S1-3_side_tab.jpg",
+       "kit/S2-2_side_tab.jpg",
        "side tab"
       ],
       [
-       "kit/S1-4_right_shoe.jpg",
-       "right shoe"
+       "kit/S2-3_heel_label.jpg",
+       "heel label"
       ],
       [
-       "kit/S1-5_product_sheet.jpg",
+       "kit/S2-4_product_sheet.jpg",
        "product sheet"
       ]
      ]
+    },
+    {
+     "id": "S3",
+     "what": "side-on hold, side tab, small lift",
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, outfit and anklets exactly. Image 2 is the real woven side tab: a small black tab with white VANS letters. Image 3 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no \u00ae or \u2122, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour and stays on the shoe the whole clip; only the black squares carry sequins. Motion: the hand keeps the same grip and lifts the shoe a few centimetres, then lowers it a little; the shoe keeps its outer side to the camera the whole clip, it never turns, rotates or flips. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, at most two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "imgs": [
+      [
+       "kit/S3-1_still_S3.jpg",
+       "still S3"
+      ],
+      [
+       "kit/S3-2_side_tab.jpg",
+       "side tab"
+      ],
+      [
+       "kit/S3-3_product_sheet.jpg",
+       "product sheet"
+      ]
+     ]
+    },
+    {
+     "id": "S4",
+     "what": "heel to the lens, push-in, bare feet",
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, outfit and anklets exactly. Image 2 is the real heel label: a small WHITE label on the back of the sidewall with a black OFF THE WALL skateboard print. Image 3 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no \u00ae or \u2122, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour and stays on the shoe the whole clip; only the black squares carry sequins. Motion: the hand keeps the same grip and holds the shoe steady, a small natural hand sway only; the shoe keeps its heel to the camera the whole clip, it never turns, rotates or flips; her bare feet stay still on the bricks; the camera pushes in slowly toward the heel label. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, exactly one shoe in frame, her feet are bare. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "imgs": [
+      [
+       "kit/S4-1_still_S4.jpg",
+       "still S4"
+      ],
+      [
+       "kit/S4-2_heel_label.jpg",
+       "heel label"
+      ],
+      [
+       "kit/S4-3_product_sheet.jpg",
+       "product sheet"
+      ]
+     ]
+    },
+    {
+     "id": "S5",
+     "what": "anklet close-up, heel-to-toe rock",
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, outfit and anklets exactly. Image 2 is the real woven side tab: a small black tab with white VANS letters. Image 3 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no \u00ae or \u2122, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour and stays on the shoe the whole clip; only the black squares carry sequins. Motion: she rocks her foot once from heel to toe and back, the anklet moves with it; the camera is still; no hand appears at any time. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, at most two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "imgs": [
+      [
+       "kit/S5-1_still_S5.jpg",
+       "still S5"
+      ],
+      [
+       "kit/S5-2_side_tab.jpg",
+       "side tab"
+      ],
+      [
+       "kit/S5-3_product_sheet.jpg",
+       "product sheet"
+      ]
+     ]
+    },
+    {
+     "id": "S6",
+     "what": "low front, feet side by side, one heel pivot",
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, outfit and anklets exactly. Image 2 is the real woven side tab: a small black tab with white VANS letters. Image 3 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no \u00ae or \u2122, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour and stays on the shoe the whole clip; only the black squares carry sequins. Motion: her right foot pivots out on its heel about 30 degrees and back, then she shifts her weight; both shoes stay on her feet, both point toward the camera at the end; the camera is still; no hand appears at any time. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, at most two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "imgs": [
+      [
+       "kit/S6-1_still_S6.jpg",
+       "still S6"
+      ],
+      [
+       "kit/S6-2_side_tab.jpg",
+       "side tab"
+      ],
+      [
+       "kit/S6-3_product_sheet.jpg",
+       "product sheet"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "h": "S1 \u00b7 your Flow take \u00b7 PASS",
+   "items": [
+    {
+     "src": "S1_flow.mp4",
+     "n": "S1",
+     "tag": "pass",
+     "p": "Right shoe in her right hand, left foot shod, right foot bare, insole box held, no flicker. Tips onto its side 1.3-2.6 s and back."
     }
    ]
   },
