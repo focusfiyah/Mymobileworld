@@ -1,10 +1,89 @@
 {
- "sub": "Recreation of @krunch.7 (555.8K views) with Grace's body, both colours, sequin Vans. Plan round 1, 2026-10-25.",
+ "sub": "Recreation of @krunch.7 with Grace's body, black then brown, sequin Vans, music only, no text. Round 2, 2026-10-25: plan approved, first 2 Gemini kits.",
  "ask": {
-  "title": "Plan ready: 6 questions, then one OK",
-  "text": "1. Grace's height, size and which length she got (Regular or Longer)? S3 says them out loud (the top buyer question).<br>2. Grace's voice (script below) or music only?<br>3. Shoes = the sequin checkerboard Vans from the Vans videos (your \"vans crocs shiny ones\")?<br>4. Black + white crop tank in the sage kitchen, brown + cream puff-sleeve crop top in the grey-stool kitchen: OK?<br>5. Stills on Kie ($0.72) or your Gemini app ($0)?<br>6. No on-screen text (default)?<br><b>TOTAL $4.275 cap, expected $0.72.</b> First paid step: only the S3 and S4 stills ($0.18), then your 2 Flow takes, before anything else."
+  "title": "Your turn: 2 Gemini stills (S3, S4)",
+  "text": "For each kit: tap Save on each image, open a new Gemini chat, upload them in the order shown, tap Copy prompt, paste it and send. Send me both results at full size. I check each at 2x (solid matte fabric, seam line, pocket, your skin tone, five fingers, two shoes) before any Flow clip. If you hit your Gemini limit, tell me and I make the rest on Kie ($0.09 each)."
  },
  "sections": [
+  {
+   "type": "gemkits",
+   "h": "Gemini still kits (S3 first)",
+   "note": "Plan approved: music only, Gemini app stills first, Kie after your limit, no text. These two go first because S3 is the move the inspo sells and S4 (hand + phone + pocket) is the most likely to go wrong.",
+   "items": [
+    {
+     "id": "S3",
+     "what": "Black, the inspo side shot: hand on the bar stool, hem on the floor (the move the inspo sells)",
+     "open": true,
+     "imgs": [
+      [
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ],
+      [
+       "kit/pocket.jpg",
+       "pocket"
+      ],
+      [
+       "kit/back_mark.jpg",
+       "back mark"
+      ],
+      [
+       "kit/vans_sheet.jpg",
+       "vans sheet"
+      ],
+      [
+       "kit/vans_tab.jpg",
+       "vans tab"
+      ],
+      [
+       "kit/grace_body.jpg",
+       "grace body"
+      ],
+      [
+       "kit/room_sage.jpg",
+       "room sage"
+      ]
+     ],
+     "prompt": "Make ONE new realistic phone photo, tall vertical 9:16, using the 7 images I uploaded as references, in the order below. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. Image 3 = the real centre-back OQQ circle mark. Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab. Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room. SCENE (the inspo's shot): mirror-style photo of her right side, chest to floor, standing beside a black bar stool; her left hand rests on the stool's back with a relaxed grip, whole wrist visible; her right hand at her side. The full leg from waistband to floor is in frame. HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A white ribbed cropped square-neck tank that ends at the top of the waistband, a strip of bare waist showing between them. THE PANTS must match images 1 and 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in TRUE BLACK. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos, no \u00ae or \u2122, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (images 4 and 5): black squares covered in black sequins, off-white squares plain canvas, black laces, a small BLACK woven side tab with white VANS letters (image 5), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, both pointing the same way as her body. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. PLACE: the real kitchen in image 7: sage-green kitchen island with a white marble top, black round bar stools, warm oak floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere."
+    },
+    {
+     "id": "S4",
+     "what": "Black, hip close-up, phone going into the hidden pocket",
+     "open": true,
+     "imgs": [
+      [
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ],
+      [
+       "kit/pocket.jpg",
+       "pocket"
+      ],
+      [
+       "kit/back_mark.jpg",
+       "back mark"
+      ],
+      [
+       "kit/vans_sheet.jpg",
+       "vans sheet"
+      ],
+      [
+       "kit/vans_tab.jpg",
+       "vans tab"
+      ],
+      [
+       "kit/grace_body.jpg",
+       "grace body"
+      ],
+      [
+       "kit/room_sage.jpg",
+       "room sage"
+      ]
+     ],
+     "prompt": "Make ONE new realistic phone photo, tall vertical 9:16, using the 7 images I uploaded as references, in the order below. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. Image 3 = the real centre-back OQQ circle mark. Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab. Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room. SCENE: close-up of her right hip from the front-side, from the bottom of the tank to mid-thigh: the high waistband and the hidden pocket under it. Her right hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the pocket opening, thumb on the front, whole wrist visible. HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A white ribbed cropped square-neck tank that ends at the top of the waistband, a strip of bare waist showing between them. THE PANTS must match images 1 and 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in TRUE BLACK. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos, no \u00ae or \u2122, no text. Her feet are out of frame. PLACE: the real kitchen in image 7: sage-green kitchen island with a white marble top, black round bar stools, warm oak floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere."
+    }
+   ]
+  },
   {
    "type": "html",
    "h": "The inspo, mapped",
@@ -29,11 +108,6 @@
    "type": "html",
    "h": "Rooms (real Pexels photos)",
    "body": "<div class=\"rooms\"><figure><img src=\"img/room_a.jpg\" alt=\"Sage kitchen\"><figcaption>Black look \u00b7 sage island</figcaption></figure><figure><img src=\"img/room_b.jpg\" alt=\"Grey stool kitchen\"><figcaption>Brown look \u00b7 grey stools</figcaption></figure><figure><img src=\"img/top3.jpg\" alt=\"Top 3 sellers\"><figcaption>Top 3 #widelegpants sellers</figcaption></figure></div>"
-  },
-  {
-   "type": "html",
-   "h": "Cost",
-   "body": "<table><tr><td>Stills, Gemini 3 Pro Image on Kie, 8 x $0.09 (or $0 in your Gemini app)</td><td>$0.72</td></tr>\n<tr><td>Product clips in your Flow app, 10 takes x 12 credits (120 credits)</td><td>$0.00</td></tr>\n<tr><td>Same clips on Kie only if Flow fails or you can't, asked first, 10 x $0.315</td><td>$3.15</td></tr>\n<tr><td>One likely redo (still + clip), asked first</td><td>$0.405</td></tr>\n<tr class=\"total\"><td>TOTAL (cap). Expected with Flow: $0.72</td><td>$4.275</td></tr></table>\n<p class=\"muted\">Month so far $163.00 (no cap in October). ElevenLabs ~500 chars if you pick the voice.</p>"
   }
  ]
 }

@@ -1,6 +1,6 @@
 # OQQ wide-leg pants (black + brown): script V1 (Grace's voice, inspo @krunch.7)
 Inspo https://www.tiktok.com/@krunch.7/video/7595052726132673823 (26.8 s, 555.8K, her own voice). Beat table research/inspo_beats.md.
-Voice: ElevenLabs "Grace cloned" Rh3oAQMqRVf78UIVpBoQ (only if Ralph picks voice; otherwise music only, silent track for Grace's TikTok sound).
+Sound: MUSIC ONLY (Ralph 2026-10-25). VO lines below kept on file for a later VO version (voice would be "Grace cloned" Rh3oAQMqRVf78UIVpBoQ).
 Blanks in [brackets] = Grace's real facts, filled from Ralph's answer before any voice is made.
 
 ## VO lines (one per shot)

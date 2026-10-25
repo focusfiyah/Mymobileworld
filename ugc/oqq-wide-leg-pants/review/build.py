@@ -27,6 +27,16 @@ for sec in st["sections"]:
                        f'<div class="kitimgs">{imgs}</div><p style="margin:0">3. Paste this prompt: <button class="cp" data-p="p{k["id"]}">Copy prompt</button> <button class="svp" data-p="p{k["id"]}">Save prompt</button></p>'
                        f'<pre id="p{k["id"]}" class="kitp">{E(k["prompt"])}</pre><p class="muted">4. Download at 1080 and send it back in the chat.</p></details>')
         out.append((R / "_script.html").read_text())
+    elif sec["type"] == "gemkits":
+        out.append(f'<section class="box"><h2>{E(sec["h"])}</h2><p class="muted">{E(sec["note"])}</p><p id="dlnote" class="muted dlnote">Saving is off on this page: long-press each image to save it, and use Copy prompt.</p></section>')
+        for k in sec["items"]:
+            imgs = "".join(f'<figure><img src="{p}" alt="{E(k["id"])} image {i+1}"><figcaption>{i+1} · {E(lbl)}</figcaption><button class="sv" data-src="{p}">Save</button></figure>'
+                           for i, (p, lbl) in enumerate(k["imgs"]))
+            out.append(f'<details class="box"{" open" if k.get("open") else ""}><summary><b>{E(k["id"])}</b> · {E(k["what"])}</summary>'
+                       f'<ol><li>Open a new chat in the Gemini app (image model, Nano Banana Pro if it asks).</li><li>Upload these {len(k["imgs"])} images in this order (tap Save under each one).</li></ol>'
+                       f'<div class="kitimgs">{imgs}</div><p style="margin:0">3. Paste this prompt: <button class="cp" data-p="p{k["id"]}">Copy prompt</button> <button class="svp" data-p="p{k["id"]}">Save prompt</button></p>'
+                       f'<pre id="p{k["id"]}" class="kitp">{E(k["prompt"])}</pre><p class="muted">4. Send me the image at full size in the chat.</p></details>')
+        out.append((R / "_script.html").read_text())
     elif sec["type"] == "html":
         out.append(f'<section class="box"><h2>{E(sec["h"])}</h2>{sec["body"]}</section>')
 out.append("</div>")

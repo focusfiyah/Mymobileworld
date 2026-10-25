@@ -8,3 +8,4 @@
 | S5-S6 two colours, get more than one | Ralph ("Got it in black and brown"); inspo "I find something that I like, I'm buying multiple"; PLAYBOOK §1 sell-side confession |
 | S7 fall, grab both | PLAYBOOK §4 CTA sells more units + real season (fall); listing colours |
 | S8 close | PLAYBOOK §1 close in her words ("I linked it in the orange cart for you.") |
+Re-checked 2026-10-25 after scripts.md switched to music only: the VO lines are unchanged, every source above still holds.

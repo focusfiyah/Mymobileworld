@@ -9,7 +9,7 @@
 - [x] G3: Refs exist: real-photo product sheet, pocket close-up, Vans sequin close-ups, Grace body sheet, room photo
   CHECK: test -s refs/product_sheet.png && test -s refs/real_pocket.jpg && test -s refs/real_vans_tab.jpg && test -s refs/grace_body_sheet.jpg && test -s refs/room.jpg && echo REFS_OK
   EXPECT: REFS_OK
-- [ ] G4: Production Book approved by Ralph before any paid call
+- [x] G4: Production Book approved by Ralph before any paid call
   CHECK: cd /home/user/Mymobileworld && python3 grace/gate.py ugc/oqq-wide-leg-pants 2>&1
   EXPECT: BOOK: approved
 - [ ] G5: Every planned still exists and passed QC at 2x (stills/QC.md lists each one PASS)

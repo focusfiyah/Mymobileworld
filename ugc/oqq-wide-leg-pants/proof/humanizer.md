@@ -8,3 +8,4 @@ Draft tells found and changed:
 - "Trust me, you'll want both colors." (staged candor + closer) -> S7 gives the reason (fall, both colours go with everything) and the ask.
 - Caption: dropped "obsessed" (banned) and a dash; kept one emoji pair.
 Remaining patterns: none found on a read-aloud pass (no dashes, no triads, no bold, no one-line closer). Facts unchanged: height/size/length stay blanks until Ralph fills them.
+Re-read 2026-10-25 after the music-only note was added: lines unchanged, no new tells.
