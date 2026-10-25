@@ -44,3 +44,4 @@ FAIL, both. Kolors kept Grace's black shorts and drew only a short dark olive ru
 
 ## 2026-10-25 Gemini app skirt stills (Ralph, $0)
 L1 knee PASS, L2 back PASS, L4 shortest PASS (two drawstrings, ruching, front at thigh, back long, solid). L3 one leg r1 FAIL: length right but the skirt became a single-drawstring wrap skirt with a diagonal ruffle; redo prompt keeps both channels + ruching close-up ref (prompts/v2_gem_L3.txt).
+L3 one leg r2 PASS (both drawstrings + ruching kept, picture-left side up, one leg above the knee). All 4 stills approved for Flow; 9:16 neck-down start frames in flow_kit/still_L1..L4.jpg.
