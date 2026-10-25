@@ -6,3 +6,4 @@
 | C | "Yep, I got them in brown now." | had to get the 2nd color | H099 idea (first thought it was just one pair) + the inspo opener | @krunch.7 inspo opener "Yep, I got them in brown now" |
 
 Re-checked 2026-10-25 for the music-only version: no spoken hook; the opening shot (back view at frame 0, H021's idea) is the visual hook; text options stay unused (Ralph: no text).
+Re-checked 2026-10-25 20:10 (file times reset by a branch merge; hooks unchanged, music only).

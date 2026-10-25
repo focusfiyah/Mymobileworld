@@ -9,3 +9,4 @@
 | S7 fall, grab both | PLAYBOOK §4 CTA sells more units + real season (fall); listing colours |
 | S8 close | PLAYBOOK §1 close in her words ("I linked it in the orange cart for you.") |
 Re-checked 2026-10-25 after scripts.md switched to music only: the VO lines are unchanged, every source above still holds.
+Re-checked 2026-10-25 20:10 (file times reset by a branch merge; lines unchanged).

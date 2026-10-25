@@ -47,28 +47,28 @@ FEET = {
 SHOTS = [
  ("S1", "HAND", "black", [0.0, 2.6], "Okay, y'all keep asking what the back of these looks like.",
   "SCENE: mirror-style photo from behind and a little to her right, chest to floor: she stands with her back three-quarters to the camera next to the island, weight on her left leg; her right hand rests flat on the back of her right hip, fingers together, whole wrist visible. The white circle mark shows at the centre back under the waistband.",
-  "she shifts her weight slowly from foot to foot and her right hand slides down over the back of her hip and thigh; the wide legs sway and the hem stays on the floor; slight handheld camera, no cut", ["refs/real_back_logo.jpg", "refs/product_sheet.png"]),
+  "she shifts her weight slowly from foot to foot and the hand resting on her hip in image 1 slides down over the back of her hip and thigh; the wide legs sway and the hem stays on the floor; slight handheld camera, no cut", ["refs/real_back_logo.jpg", "refs/vans_real_heel_label.jpg", "refs/product_sheet.png"]),
  ("S2", "HAND-FREE", "black", [2.6, 5.0], "If wide-leg pants always stop at your ankles, look at this length.",
   "low camera at knee height, SIDE view of her lower legs on the oak floor: the black wide hems fall over her shoes and brush the floor, only the front half of each sequin Vans shows.",
   "she takes two slow steps across the frame from right to left, the hems swing and settle back over the shoes; the camera stays low and pans with her; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S3", "HAND", "black", [5.0, 8.0], "I'm [height], wearing a [size] in the [Regular or Longer], and they go all the way down over my sneakers.",
   "SCENE (the inspo's shot): mirror-style photo of her right side, chest to floor, standing beside a black bar stool; her left hand rests on the stool's back with a relaxed grip, whole wrist visible; her right hand at her side. The full leg from waistband to floor is in frame.",
-  "she shifts her weight from foot to foot and sways her hips gently, the wide legs sway and the hems stay on the floor over her shoes; her right hand stays resting on the marble counter edge, her left hand relaxed at her side; the phone stays tucked in the side pocket with only its top showing; slight handheld camera", ["refs/product_sheet.png"]),
+  "she shifts her weight from foot to foot and sways her hips gently, the wide legs sway and the hems stay on the floor over her shoes; the hand resting on the counter edge in image 1 stays there and her other hand stays relaxed at her side; the phone stays tucked in the side pocket with only its top showing; slight handheld camera", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S4", "HAND", "black", [8.0, 10.6], "The waist sits up high, and there's a hidden pocket right here for my phone.",
   "SCENE: close-up of her right hip from the front-side, from the bottom of the tank to mid-thigh: the high waistband and the hidden pocket under it. Her right hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the pocket opening, thumb on the front, whole wrist visible.",
-  "her right hand slides the phone straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black", ["refs/real_pocket.jpg", "refs/product_sheet.png"]),
+  "the hand already holding the phone in image 1 slides it straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on her hip and waist the whole time", ["refs/real_pocket.jpg", "refs/product_sheet.png"]),
  ("S5", "HAND-FREE", "black", [10.6, 12.8], "I've got them in black,",
   "camera low at shin height IN FRONT of her, FRONT view of her lower legs standing on the oak floor: the black wide hems pool over the shoes and only the toe caps of both sequin Vans show.",
   "she rocks gently from heel to toe and back twice and shifts her weight from foot to foot, the wide hems sway and settle over the toe caps; both feet stay facing the camera and never turn; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S6", "HAND", "brown", [12.8, 15.8], "and in brown too, because when I find something I like, I get more than one.",
   "mirror-style photo of her FRONT, turned slightly to her left, chest to floor, standing beside a grey upholstered bar stool: her left hand rests on the top of the stool's back with a relaxed grip, whole wrist visible; her right hand rests on her right hip. We see the front of the pants: the wide waistband, the front seam line down each leg and the full length to the floor.",
-  "she sways her hips gently and shifts her weight from foot to foot, the wide brown legs sway and the hems stay on the floor over her shoes; her left hand stays on the stool; slight handheld camera", ["refs/product_sheet.png"]),
+  "she sways her hips gently and shifts her weight from foot to foot, the wide brown legs sway and the hems stay on the floor over her shoes; the hand resting on the stool in image 1 stays on the stool and the hand on her hip stays on her hip; slight handheld camera", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S7", "HAND-FREE", "brown", [15.8, 18.2], "Black and brown go with everything for fall, so grab both.",
   "camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey wood floor: the brown wide hems swing forward and the toe caps of both sequin Vans show under them.",
   "she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S8", "HAND", "brown", [18.2, 20.5], "I linked them in the orange cart for you.",
   "SCENE: mirror-style photo of her right side, chest to floor, in the middle of the kitchen; her right hand on her right hip, fingers forward, whole wrist visible.",
-  "she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera", ["refs/product_sheet.png"]),
+  "she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
 ]
 def refs_for(sid, c):
     if sid in LEGS:
@@ -118,9 +118,9 @@ for sid, kind, c, win, line, scene, motion, extra in SHOTS:
     lines = [f"Image {i+2} is {names[r]}." for i, r in enumerate(extra)]
     keep = "her skin, top and pants exactly; her feet stay out of the frame" if sid == "S4" else "her skin, top, pants and shoes exactly"
     clip = (f"Recreate image 1 exactly as the first frame: keep its place, light, framing, {keep}. " + " ".join(lines) +
-            f" The pants stay {PANTS[c].split(' (')[0].lower()}, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; "
+            f" The pants stay {PANTS[c].split(' (')[0].lower()}, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line" + ("" if sid == "S4" else " and a full-length wide straight leg") + "; "
             f"they must match the product sheet colour for colour. Motion: {motion}. Her face never enters the frame. Hands keep five fingers and whole wrists. "
-            + ("Exactly two shoes, worn the right way round; " + FEET[sid] + " " if sid != "S4" else "") + "No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.")
+            + ("Exactly two shoes, worn the right way round; " + FEET[sid] + " " if sid != "S4" else "") + "No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.")
     out["shots"].append({"id": sid, "kind": kind, "colour": c, "window": win, "line": line, "still_refs": refs, "still": still,
                          "clip_refs": ["stills/%s.png" % sid] + extra, "motion": motion, "clip": clip})
 json.dump(out, open("shots.json", "w"), indent=1)

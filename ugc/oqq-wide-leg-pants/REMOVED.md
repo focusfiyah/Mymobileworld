@@ -11,3 +11,4 @@ Carried from the Vans sequin jobs (same shoe) and the goth skirt (same kind of f
 | See-through / sheer fabric where the real one is solid | Ralph (goth skirt) | 2026-10-22 |
 | Skin tone changing between shots | Ralph (goth skirt) | 2026-10-25 |
 | Grace's face in frame | plan (inspo has no face) | 2026-10-25 |
+| Brand logo on a prop (Omni drew an Apple logo on the plain phone in S4) | Claude QC | 2026-10-25 |

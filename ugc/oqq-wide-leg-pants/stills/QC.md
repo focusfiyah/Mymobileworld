@@ -16,3 +16,6 @@
 - S5 r3 PASS: front, knees down, toes at the lens, parallel, sequin Vans right.
 - S7 r3 PASS: front walk toward the camera, soles flat, toes at the lens.
 - S6 r3 FAIL: front view and hands right, but the shoes are a different pair at 2x (small brown/tan canvas checks, black heel panel, gold eyelets). Shoe colours now spelled out in every prompt (black and off-white only, black eyelets, checkerboard round the heel). Redo asked ($0.09).
+- S6 r4 (Kie $0.09, Ralph: "Do the redos"): black and off-white sequin Vans, both toes the same way, front seam + waistband, five fingers on each hand. PASS.
+## Final stills (2026-10-25)
+S1 PASS (r1) · S2 PASS (r2; clip dropped: feet both ways) · S3 PASS (r1) · S4 PASS (r1) · S5 PASS (r3) · S6 PASS (r4) · S7 PASS (r3) · S8 PASS (r1)

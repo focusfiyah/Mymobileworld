@@ -64,8 +64,11 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
-  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+  "proof": [
+   "proof/compare.md",
+   "research/coach/cmp/compare/compare.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut>"
  },
  "book_ok": {
   "by": "Ralph",
@@ -74,5 +77,15 @@
   "total": 3.645,
   "sha256": "6f5dbafb8a80d3bb6671134e7f2367e03b8f9d3de649bcd2018ee49665278c2c",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 0.14,
+   "what": "8 Omni clips on Kie ($2.52) take the job past the $3.645 book by $0.135",
+   "by": "Ralph",
+   "quote": "Do the redos and you are doing the clips.",
+   "date": "2026-10-25",
+   "book_sha256": "6f5dbafb8a80d3bb6671134e7f2367e03b8f9d3de649bcd2018ee49665278c2c"
+  }
+ ]
 }

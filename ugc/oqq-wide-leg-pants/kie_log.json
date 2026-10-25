@@ -406,5 +406,277 @@
    ]
   },
   "costTime": 152
+ },
+ {
+  "t": "2026-10-25 20:04:46",
+  "submitted": "2f018693a0125e38213aa349892f8f20",
+  "prompt": "SHOT: mirror-style photo of her FRONT, turned slightly to her left, chest to floor, standing beside a grey upholstered b"
+ },
+ {
+  "t": "2026-10-25 20:06:08",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: mirror-style photo of her FRONT, turned slightly to her left, chest to floor, standing beside a grey upholstered bar stool: her left hand rests on the top of the stool's back with a relaxed grip, whole wrist visible; her right hand rests on her right hip. We see the front of the pants: the wide waistband, the front seam line down each leg and the full length to the floor. FEET: She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the LEFT edge, the heels hidden behind; both soles flat on the floor. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. Image 3 = the real shoe from every side. Image 4 = the real woven VANS side tab (small black tab, white VANS letters). Image 5 = her real body and skin tone (ignore its clothes and room). Image 6 = the real room. HER: Grace, exactly the body in image 5: slim build, medium-deep brown skin exactly like image 5 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A cream boxy cropped long-sleeve top with full puffed sleeves that ends just above the waistband. THE PANTS must match image 1 and image 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in DARK CHOCOLATE BROWN (exactly the brown in image 1 and image 2). Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). No logos, no \u00ae or \u2122, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (image 3): large black squares covered in black sequins, large off-white squares plain canvas (black and OFF-WHITE only, never brown, tan or beige checks), black laces through black eyelets (no gold or metal eyelets), the same checkerboard all the way round the heel (no solid black heel panel), a small BLACK woven side tab with white VANS letters (image 4), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. PLACE: the real kitchen in image 6: grey upholstered bar stools with wooden legs, white cabinets, dark island, grey wood floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958654584-ncmxd36l2xb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958656810-y299lfojn2i.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958658977-4d90f1fw4ay.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958661286-ji6bfzlor4f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958663708-s70lnoj186.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958666073-ungeh4liub.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2f018693a0125e38213aa349892f8f20",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2f018693a0125e38213aa349892f8f20_0_1792958763.jpeg"
+   ]
+  },
+  "costTime": 80
+ },
+ {
+  "t": "2026-10-25 20:06:58",
+  "submitted": "d6230832ae0af7e79a8829ec381c7d99",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top and pants exactly; her feet s"
+ },
+ {
+  "t": "2026-10-25 20:09:19",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top and pants exactly; her feet stay out of the frame. Image 2 is the real hidden side pocket (tonal, phone top showing). Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line; they must match the product sheet colour for colour. Motion: the hand already holding the phone in image 1 slides it straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on her hip and waist the whole time. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958806255-yhfe8bfhtz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958809036-00j4lp32nuj9d.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958811207-mqqr4ewj4.png"
+    ]
+   }
+  },
+  "taskId": "d6230832ae0af7e79a8829ec381c7d99",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/d6230832ae0af7e79a8829ec381c7d99_0_1792958952.mp4"
+   ]
+  },
+  "costTime": 136,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:13:55",
+  "submitted": "27dcdd0ce094d12f7e7843a3fbb5837e",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:13:59",
+  "submitted": "fd1efeae8916e903c69089a983a4fde3",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:14:04",
+  "submitted": "07f164bdd082007172d11552e6e61917",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:14:09",
+  "submitted": "676ea5642051434dcdb41addf83e6c52",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:14:13",
+  "submitted": "e4f75a129d6e803aa2aa1b41d762af9a",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:14:17",
+  "submitted": "3a567ebc7b130efd9e7c32096be1538f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:14:20",
+  "submitted": "d1b6dc34147cff5ede1654034f67dfd5",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Ima"
+ },
+ {
+  "t": "2026-10-25 20:15:48",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she rocks gently from heel to toe and back twice and shifts her weight from foot to foot, the wide hems sway and settle over the toe caps; both feet stay facing the camera and never turn; no hand appears at any time. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; FRONT VIEW: she stands facing the camera, feet side by side about hip-width apart and parallel: both toe caps point AT the lens, the heels are hidden behind; both soles stay flat on the floor; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959230249-uj8z0674l3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959232594-vowzvyg4y9n.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959234600-mvt90vo284k.png"
+    ]
+   }
+  },
+  "taskId": "676ea5642051434dcdb41addf83e6c52",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/676ea5642051434dcdb41addf83e6c52_0_1792959343.mp4"
+   ]
+  },
+  "costTime": 101,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:15:51",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real centre-back OQQ circle mark: a small white round mark. Image 3 is the real Vans heel label: a small WHITE OFF THE WALL label with black print. Image 4 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she shifts her weight slowly from foot to foot and the hand resting on her hip in image 1 slides down over the back of her hip and thigh; the wide legs sway and the hem stays on the floor; slight handheld camera, no cut. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces away from the camera toward the island: both toes point AWAY from the camera, the backs of both heels face the camera. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959218593-dnaiugmeq8p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959221813-qqr2l67wiw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959223949-lq09wqjsywp.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959225962-ouhywaby4g.png"
+    ]
+   }
+  },
+  "taskId": "27dcdd0ce094d12f7e7843a3fbb5837e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/27dcdd0ce094d12f7e7843a3fbb5837e_0_1792959341.mp4"
+   ]
+  },
+  "costTime": 112,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:15:53",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay dark chocolate brown, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she sways her hips gently and shifts her weight from foot to foot, the wide brown legs sway and the hems stay on the floor over her shoes; the hand resting on the stool in image 1 stays on the stool and the hand on her hip stays on her hip; slight handheld camera. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the LEFT edge, the heels hidden behind; both soles flat on the floor. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959234440-vg3kdn5lqen.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959237425-mme9jaw2k5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959239824-ilw2fwfkiwe.png"
+    ]
+   }
+  },
+  "taskId": "e4f75a129d6e803aa2aa1b41d762af9a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/e4f75a129d6e803aa2aa1b41d762af9a_0_1792959348.mp4"
+   ]
+  },
+  "costTime": 103,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:15:57",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay dark chocolate brown, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; FRONT VIEW: she walks straight TOWARD the camera: both toe caps point AT the lens and are the closest thing to the camera, the heels are hidden behind; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels; both soles stay flat on the floor in a short, calm step, so the bottoms of the shoes never show. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959238460-eiwblf44pw7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959240455-ls3daqz3yn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959242937-hn5nln5o12w.png"
+    ]
+   }
+  },
+  "taskId": "3a567ebc7b130efd9e7c32096be1538f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/3a567ebc7b130efd9e7c32096be1538f_0_1792959350.mp4"
+   ]
+  },
+  "costTime": 100,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:16:00",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she shifts her weight from foot to foot and sways her hips gently, the wide legs sway and the hems stay on the floor over her shoes; the hand resting on the counter edge in image 1 stays there and her other hand stays relaxed at her side; the phone stays tucked in the side pocket with only its top showing; slight handheld camera. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the left edge, the heels behind. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959226537-z8yw9clau4i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959228291-rbxyv5by1u.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959230761-l3qoli1ubvq.png"
+    ]
+   }
+  },
+  "taskId": "07f164bdd082007172d11552e6e61917",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/07f164bdd082007172d11552e6e61917_0_1792959353.mp4"
+   ]
+  },
+  "costTime": 116,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:16:08",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay dark chocolate brown, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959242346-qvlqa3pm44.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959244447-wui07u2crz.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959246659-p7lyd90jvug.png"
+    ]
+   }
+  },
+  "taskId": "d1b6dc34147cff5ede1654034f67dfd5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/d1b6dc34147cff5ede1654034f67dfd5_0_1792959359.mp4"
+   ]
+  },
+  "costTime": 104,
+  "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 20:16:13",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she takes two slow steps across the frame from right to left, the hems swing and settle back over the shoes; the camera stays low and pans with her; no hand appears at any time. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; she is mid-step walking toward the LEFT edge of the frame: BOTH shoes point the same way, toes to the LEFT edge and heels to the right edge; her left foot is ahead (further left) flat on the floor, her right foot behind with its heel just lifting; the two shoes are parallel and never point opposite ways. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959222399-hkalw7lt745.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959224696-qcresm047p.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792959226846-3m1988hqjfr.png"
+    ]
+   }
+  },
+  "taskId": "fd1efeae8916e903c69089a983a4fde3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/fd1efeae8916e903c69089a983a4fde3_0_1792959364.mp4"
+   ]
+  },
+  "costTime": 132,
+  "usd": 0.315
  }
 ]
