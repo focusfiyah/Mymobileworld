@@ -34,6 +34,6 @@ def still_r2(sid):
     if url: kie.fetch(url, f"stills/{sid}_{RND}.png"); print("still", RND, sid, "ok", flush=True)
 
 
-RND = {"stills3": "r3"}.get(sys.argv[1] if len(sys.argv) > 1 else "", "r2")
-if __name__ == "__main__" and sys.argv[1] in ("stills2", "stills3"):
+RND = {"stills3": "r3", "stills4": "r4"}.get(sys.argv[1] if len(sys.argv) > 1 else "", "r2")
+if __name__ == "__main__" and sys.argv[1] in ("stills2", "stills3", "stills4"):
     with ThreadPoolExecutor(max(1, len(sys.argv[2:]))) as ex: list(ex.map(still_r2, sys.argv[2:]))

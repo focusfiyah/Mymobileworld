@@ -294,5 +294,82 @@
   "t": "2026-10-24 23:57:39",
   "submitted": "19d96b17df499081b2f61ca4417c82de",
   "prompt": "Image 1 is the photo to edit. Image 2 is a real photo of the RIGHT shoe of this Vans pair seen from above (toe at the bo"
+ },
+ {
+  "t": "2026-10-24 23:58:17",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is a real photo of the RIGHT shoe of this Vans pair seen from above (toe at the bottom, opening at the top). Replace ONLY the shoe held in her hand with this RIGHT shoe from image 2, turned to the same pose as the held shoe in image 1 (toe pointing to the upper left, opening and red insole facing the camera), so it is the mirror image of the LEFT shoe she wears on her left foot and fits her bare right foot. The red insole with the white box and red VANS logo stays readable exactly like image 2, letters not mirrored. Her right hand keeps the same grip on the side of the shoe. Keep everything else in image 1 pixel for pixel: her hand, nails, rings, blue thumb band, bracelets, sleeve, her feet, the worn shoe, leggings, bricks, framing and light. No text, no captions.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792884993111-kdytl3i4nyn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792886251072-xsx52zewbk.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "19d96b17df499081b2f61ca4417c82de",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/19d96b17df499081b2f61ca4417c82de_0_1792886294.jpeg"
+   ]
+  },
+  "costTime": 39
+ },
+ {
+  "t": "2026-10-24 23:59:25",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real shoe from every side. Image 2 = the real sequin squares up close. Image 3 = the real woven side tab. Image 4 = the real heel label. Image 5 = the real insole logo. Image 6 = her skin tone only (ignore its outfit and place). Image 7 = her real hand. Image 8 = the real brick sidewalk. SCENE: Close-up photo: her right hand holds one empty shoe with its HEEL facing the camera in front of the brick sidewalk: the black heel panel with white stitching and the small white OFF THE WALL skateboard label on the back of the sidewall (image 4) sharp and centred; her thumb hooks over the top of the heel collar, fingers under the sole. Below the held shoe her two BARE feet stand on the bricks with glossy white toenail polish and both anklets; she wears NO shoes and NO sandals on her feet, so the held shoe is the only shoe in the photo. HER: medium brown skin exactly like image 6; sage-green ribbed ankle-length leggings that end just above the ankle bone; bare ankles; a thin gold chain anklet on her left ankle and a gold Cuban-link chain anklet on her right ankle. HER HAND: exactly like image 7: medium brown skin, slim fingers, long soft pink nails with white French tips, her silver ring stack, the gold trillion-stone ring, the blue silicone band on the thumb, the flat gold bracelet of rectangular links like a watch band (NO watch face) and the thin pearl chain with a gold leaf. A cream chunky-knit sweater sleeve cuff at the wrist. The hand enters from the frame edge, whole wrist visible, five fingers, and it GRIPS the shoe: thumb on one side, fingers curled round the other. THE SHOE must match images 1 to 5 exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top in sequin checkerboard (image 1 = every side, image 2 = the sequin squares up close). A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain canvas; black leather binding around the collar with white stitching; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab on the outer side with white VANS letters, sewn flat (image 3); a chunky off-white rubber sidewall; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label with black print (image 4); inside, a deep RED insole with a WHITE rectangle holding the red VANS skateboard-tail logo (image 5); a gum-brown waffle sole. Keep its true low-top shape and size: an adult women's sneaker, exactly the length of her own foot (about 25 cm). No other logos, no \u00ae or \u2122 added, no extra text. PLACE: a bright city sidewalk paved in red-orange clay bricks laid in a herringbone pattern exactly like image 8, thin grey mortar lines, dry and clean. LIGHT: bright overcast daylight, soft and even, neutral white balance: the bricks stay brick red, the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The sequins look like real sequins in daylight, nothing more: no added sparkles, glints, stars, lens flare or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. Only two shoes exist in the scene at most. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881814635-h4b26178qnn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881817990-spal3d4fw1e.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881820039-wr6ufebevfq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881822950-b31h4ligvoj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881824488-y3yz4q6tqea.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881826783-x5hvu8bmygp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881828914-fub5jm6tg8h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881830555-9fd1bc22wnq.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7d1768daf44e849ebef101fe3997ca73",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7d1768daf44e849ebef101fe3997ca73_0_1792886361.jpeg"
+   ]
+  },
+  "costTime": 109
+ },
+ {
+  "t": "2026-10-25 00:05:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real shoe from every side. Image 2 = the real sequin squares up close. Image 3 = the real woven side tab. Image 4 = the real heel label. Image 5 = the real insole logo. Image 6 = her skin tone only (ignore its outfit and place). Image 7 = her real hand. Image 8 = the real brick sidewalk. Image 9 = the real RIGHT shoe of the pair from above. SCENE: POV photo looking straight down from her own eyes. Her LEFT foot wears the LEFT sequin Vans shoe, laced, standing on the bricks at the bottom-left of the frame. Her RIGHT foot is bare (glossy white toenail polish) at the bottom-right, because her RIGHT hand holds the matching RIGHT shoe about 40 cm above it. The held shoe is the RIGHT shoe exactly like image 9 (a real photo of the right shoe from above): seen from above with the opening and red insole facing the camera, toe pointing to the upper left, its small black side tab sits on the RIGHT edge of the shoe in this view and its curved arch edge is on the left. Her right hand grips the shoe's right side, thumb on top, fingers curled under. HER: medium brown skin exactly like image 6; sage-green ribbed ankle-length leggings that end just above the ankle bone; bare ankles; a thin gold chain anklet on her left ankle and a gold Cuban-link chain anklet on her right ankle. HER HAND: exactly like image 7: medium brown skin, slim fingers, long soft pink nails with white French tips, her silver ring stack, the gold trillion-stone ring, the blue silicone band on the thumb, the flat gold bracelet of rectangular links like a watch band (NO watch face) and the thin pearl chain with a gold leaf. A cream chunky-knit sweater sleeve cuff at the wrist. The hand enters from the frame edge, whole wrist visible, five fingers, and it GRIPS the shoe: thumb on one side, fingers curled round the other. THE SHOE must match images 1 to 5 exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top in sequin checkerboard (image 1 = every side, image 2 = the sequin squares up close). A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain canvas; black leather binding around the collar with white stitching; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab on the outer side with white VANS letters, sewn flat (image 3); a chunky off-white rubber sidewall; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label with black print (image 4); inside, a deep RED insole with a WHITE rectangle holding the red VANS skateboard-tail logo (image 5); a gum-brown waffle sole. Keep its true low-top shape and size: an adult women's sneaker, exactly the length of her own foot (about 25 cm). No other logos, no \u00ae or \u2122 added, no extra text. PLACE: a bright city sidewalk paved in red-orange clay bricks laid in a herringbone pattern exactly like image 8, thin grey mortar lines, dry and clean. LIGHT: bright overcast daylight, soft and even, neutral white balance: the bricks stay brick red, the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The sequins look like real sequins in daylight, nothing more: no added sparkles, glints, stars, lens flare or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. Only two shoes exist in the scene at most. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881814635-h4b26178qnn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881817990-spal3d4fw1e.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881820039-wr6ufebevfq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881822950-b31h4ligvoj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881824488-y3yz4q6tqea.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881826783-x5hvu8bmygp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881828914-fub5jm6tg8h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792881830555-9fd1bc22wnq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1792886251072-xsx52zewbk.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "response": {
+   "code": 500,
+   "msg": "image_input supports at most 8 files",
+   "data": null
+  }
  }
 ]
