@@ -1,4 +1,4 @@
-# Production Book: Goth High-Low Skirt v2 (try-on route), 2026-10-23, rev 3 2026-10-25 (bare legs + boots, neck down)
+# Production Book: Goth High-Low Skirt v2 (try-on route), 2026-10-23, rev 4 2026-10-25 (bare legs + boots, neck down; step A in Ralph's Gemini app)
 
 ## 1. Job
 - Client / own content: Grace  Product: dark brown goth high-low drawstring skirt (TikTok Shop listing, research/listing/)  Route: one base edit per Grace body photo (black long-sleeve top + bare legs + black knee-high boots; Ralph's Gemini app $0 first, else Kie nano-banana-pro) -> real skirt put on by virtual try-on (Kling Kolors on fal) -> clips Flow first ($0), Google Omni on Kie only when Flow can't (ugc-product-ad references/product-lock.md), tug-cut edit
@@ -31,7 +31,7 @@ Source of each line: research/line_sources.md (v1 caption + v2 shots table)
 Outfit: black fitted long-sleeve top (Ralph 2026-10-25, the cut 1 top) + the real brown skirt + BARE LEGS + black knee-high boots, flat lug sole, the cut 1 boots (refs/boots_cut1.png) (Ralph 2026-10-25: "No, wanted her legs to show with the boots"); every shot cropped from the NECK DOWN (Ralph 2026-10-25: "Neck down"), feet in frame  Setting: Grace's own room from her 4 body photos (sun mirror, fiddle-leaf plant, blue curtain, oak floor; grace/ref/body/)  Nails / person details: Grace's own, unchanged by try-on  Real product confirmed (top, cap, label): drawstrings at the FRONT waistband, solid dark chocolate brown, long ruffled back (research/inspo_beats.md product truths)
 
 Stills, two steps per look:
-- Step A, base edit (3 photos, L1 and L4 share front.jpg): top + bare legs + boots in ONE edit, prompts/v2_base_front.txt and v2_base_back.txt (written with prompt-master), refs: image 1 = Grace photo, image 2 = tryon/garment_top_black_ls.jpg (the cut 1 top), image 3 = refs/boots_cut1.png (the cut 1 boots). $0 route first: I send Ralph the 3 images + the prompt, he runs it in his Gemini app and sends the result back; paid route only if he can't or it fails QC: Kie nano-banana-pro edit $0.09 each.
+- Step A, base edit (3 photos, L1 and L4 share front.jpg): top + bare legs + boots in ONE edit, prompts/v2_base_front.txt and v2_base_back.txt (written with prompt-master), refs: image 1 = Grace photo, image 2 = tryon/garment_top_black_ls.jpg (the cut 1 top), image 3 = refs/boots_cut1.png (the cut 1 boots). Ralph 2026-10-25: "Gemini": he runs the 3 edits in his Gemini app ($0) from the kit I send (flow_kit-style folder tryon/gemini_kit/), sends the results back, I QC them at 2x (bare legs match his arms, boots right foot/left foot, top, nothing else changed). A failed edit gets a second Gemini try, not a paid one; Kie only on his word with the cost.
 - Step B, skirt try-on (Kolors, fal, no text prompt): human_image_url = the step A result, garment_image_url = the real listing photo below. Then free fixes: colour shift to the real chocolate brown (70,51,46), neck-down crop, same framing on every look.
 | Look | Grace photo (grace/ref/body/) | Real listing photo (skirt) |
 |---|---|---|
@@ -48,23 +48,22 @@ Free fixes planned: colour shift toward the real chocolate brown (round 26 read 
 ## 6. Cost (one total)
 | Item | Qty x unit | $ |
 |---|---|---|
-| Step A base edit: Ralph's Gemini app ($0 first); paid fallback Kie nano-banana-pro | 3 x $0.09 | 0.27 |
+| Step A base edit: Ralph's Gemini app (Ralph 2026-10-25 "Gemini") | 3 x $0 | 0 |
 | Step B Kolors skirt try-on (fal) | 4 x $0.07 | 0.28 |
 | Clips: Ralph's Flow app ($0 first); paid fallback Omni 4 s on Kie | 5 x $0.315 | 1.575 |
-Expected spend if Gemini app + Flow both work: **$0.28** (fal only). Ceiling if every fallback is used: Kie $1.845 + fal $0.28.
+Expected spend if Flow works: **$0.28** (fal only). Ceiling if every clip falls back to Kie Omni: Kie $1.575 + fal $0.28.
 Dropped from rev 2: the separate Kolors top pass (4 x $0.07): the base edit puts the top on in the same step.
 Contingency redos (each asked separately with its cost): up to $0.50 (redo cap for this job); the likely one is a Kolors skirt redo on L4 ($0.07).
 ElevenLabs: 0 chars (music-only). Month so far (`python3 grace/spend.py`): $162.79 (no cap in October; from November $100/month).
 
-TOTAL: $2.13
+TOTAL: $1.86
 
 **Approve?** (TOTAL is the ceiling with every paid fallback; nothing paid runs where the $0 route works.)
 
 ## 7. Questions (all of them, now)
 Answered by Ralph 2026-10-25: (1) "Neck down"; (2) "No, wanted her legs to show with the boots" (bare legs + black knee-high boots, no tights). Both are in this book (step A + neck-down crop).
 
-1. Step A: will you run the 3 base edits in your Gemini app ($0; I send the images + one prompt), or should I use Kie nano-banana-pro ($0.27)?
-2. Under the skirt the base edit puts short black fitted shorts (they replace the tights at the hips, so the shortest look never shows underwear). OK?
+Answered by Ralph 2026-10-25: "Gemini, ok": (1) step A in his Gemini app; (2) short black fitted shorts under the skirt OK.
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 | Item | Model | Prompt file / text |

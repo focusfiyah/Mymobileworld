@@ -15,6 +15,10 @@ work; it was ported by hand or re-made later, so the commits never showed as mer
 counts as missing from main only when main still has the version the branch started from, or when the branch's last
 edit of it is newer than main's (newest edit wins, as in the merge rule). Files identical on main, and files main
 edited after the branch did, are left out.
+
+Files Ralph decided NOT to merge are listed in handoff/branch_sync_declined.txt of the repo being checked (one path or
+folder prefix per line, # notes allowed) and never come up again (Ralph 2026-10-25: "no merge, once again you took care
+of the merge in a previous session and mentioned it would not come up again"). Add a line every time he says no.
 """
 import subprocess, sys, time
 
@@ -39,7 +43,17 @@ def last_edit(base, ref, path):
     return int(t) if t else 0
 
 
-def missing(ref, main_blobs):
+def declined():
+    """Path prefixes Ralph said not to merge (handoff/branch_sync_declined.txt in the checked repo)."""
+    f = git("rev-parse", "--show-toplevel") + "/handoff/branch_sync_declined.txt"
+    try:
+        lines = open(f).read().splitlines()
+    except OSError:
+        return ()
+    return tuple(l.split("#", 1)[0].strip() for l in lines if l.split("#", 1)[0].strip())
+
+
+def missing(ref, main_blobs, skip=()):
     """Files whose change on ref is not on main, or None when ref shares no history with main."""
     base = git("merge-base", "origin/main", ref)
     if not base:
@@ -48,7 +62,7 @@ def missing(ref, main_blobs):
     out = []
     for f in git("diff", "--name-only", base, ref).splitlines():
         b, m, o = ref_blobs.get(f), main_blobs.get(f), base_blobs.get(f)
-        if b == m:
+        if b == m or (skip and f.startswith(skip)):
             continue                      # main already has this exact version
         if m == o or last_edit(base, ref, f) > last_edit(base, "origin/main", f):
             out.append(f)                 # main never took the change, or the branch's edit is the newer one
@@ -59,7 +73,7 @@ def main():
     days = int(sys.argv[sys.argv.index("--days") + 1]) if "--days" in sys.argv else 14
     git("fetch", "-q", "--prune", "origin")
     since = time.time() - days * 86400; left = unrelated = 0
-    main_blobs = blobs("origin/main")
+    main_blobs = blobs("origin/main"); skip = declined()
     for line in git("for-each-ref", "refs/remotes/origin", "--format=%(committerdate:unix) %(refname:short)").splitlines():
         ts, ref = line.split(" ", 1)
         if ref in ("origin/main", "origin/HEAD", "origin") or int(ts) < since:
@@ -67,7 +81,7 @@ def main():
         ahead = git("rev-list", "--count", f"origin/main..{ref}")
         if ahead in ("", "0"):
             continue
-        files = missing(ref, main_blobs)
+        files = missing(ref, main_blobs, skip)
         if files is None:
             unrelated += 1
             continue

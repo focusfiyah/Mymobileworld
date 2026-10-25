@@ -43,9 +43,11 @@ def main():
         branch("br-ported", {"handoff/rule.txt": "ported rule\n"}, 20)            # main later gets the same text by hand
         branch("br-old", {"R.md": "r branch edit\n"}, 30)                         # main edits R.md after this
         branch("br-newer", {"CLAUDE.md": "rules v1 + branch rule\n"}, 300)        # newer than main's CLAUDE.md edit
+        branch("br-declined", {"grace/voice/old_voice.json": "retired\n", "ugc/done/kit/a.txt": "x\n"}, 50)   # Ralph said no merge
         sh(w, "git", "checkout", "-q", "-b", "br-none", base); sh(w, "git", "push", "-q", "origin", "br-none")
         sh(w, "git", "checkout", "-q", "main")
         commit(w, {"handoff/rule.txt": "ported rule\n"}, "port by hand", 40)
+        commit(w, {"handoff/branch_sync_declined.txt": "# Ralph said no merge\ngrace/voice/old_voice.json\nugc/done/kit/  # folder\n"}, "declined", 45)
         commit(w, {"R.md": "r main edit\n", "CLAUDE.md": "rules v2\n"}, "main moves on", 200)
         sh(w, "git", "push", "-q", "origin", "main")
 
@@ -56,6 +58,7 @@ def main():
             ("work ported to main by hand not listed", "br-ported" not in out),
             ("file main edited after the branch not listed", "br-old" not in out),
             ("branch with nothing ahead not listed", "br-none" not in out),
+            ("files Ralph declined to merge not listed", "br-declined" not in out),
             ("summary counts 2 branches", "2 branch(es) not on main" in out),
         ]
         results = [(n, c) for n, c in checks]
