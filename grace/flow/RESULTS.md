@@ -21,3 +21,4 @@
 
 Flow model menu seen 2026-10-23 (Ralph's screenshot): Omni 1.1 Flash 12 credits/video, Veo 3.1 Lite 10, Veo 3.1 Fast 20. 1,050 credits a month = about 87 Omni clips.
 - 2026-10-25 Goth skirt v2 L1 knee (one tug at the strings): Flow Omni Flash, 1080x1920 24fps 4.0 s; QC PASS (real ruching + both strings held, fingers pinch the strings at the waistband, whole wrists, hem never lifted by hand, boots right, no head in frame). Ralph's take.
+- 2026-10-25 Goth skirt v2 L1 knee, bedroom-mirror stills: Flow Omni Flash 1080x1920 24fps 4.0 s; QC PASS (both strings + ruching kept, hands take the strings at the waistband and pull them up and out to the hips, no hand at the hem, boots right, mirror frame fixed, no head). Starts with hands already at the waist (not the still's first frame). Ralph's take.

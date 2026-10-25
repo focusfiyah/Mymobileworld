@@ -47,3 +47,4 @@ L1 knee PASS, L2 back PASS, L4 shortest PASS (two drawstrings, ruching, front at
 L3 one leg r2 PASS (both drawstrings + ruching kept, picture-left side up, one leg above the knee). All 4 stills approved for Flow; 9:16 neck-down start frames in flow_kit/still_L1..L4.jpg.
 L1 Flow take (clips/L1_flow.mp4) PASS at 3 fps + 2x (0.0/1.8/3.5 s): both drawstrings, real ruching, fingers pinch the strings at the waistband and tug, whole wrists, no hand at the hem, boots unchanged, head never in frame.
 2026-10-25 bedroom 2 (Ralph's pick) via Gemini app on the 4 approved stills: all PASS at 2x (skirt unchanged, hands whole, boots right). Waist-to-floor 9:16 crops right-aligned so the mirror frame shows (flow_kit/room_L1..L4.jpg). Clip prompts v2_L1..L5 updated: mirror, bedroom, tripod, fixed frame.
+L1 bedroom Flow take (clips/L1_room_flow.mp4) PASS at 3 fps + 2x (0.6/1.0/1.2/2.6 s). Note: frame 0 already has her hands at the waist, so the cut uses the tug (about 0.8-3.0 s).
