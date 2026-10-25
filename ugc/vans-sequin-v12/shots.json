@@ -9,6 +9,7 @@
   "clip_refs": [
    "refs/real_insole_logo.jpg",
    "refs/real_vans_tab.jpg",
+   "refs/real_right_shoe_top.jpg",
    "refs/product_sheet.png"
   ],
   "motion": "the hand keeps the same grip on the heel collar and tilts the shoe slowly about 10 degrees toward the lens and back; the shoe never turns over, never rotates to its sole and never flips; the worn foot stays still on the bricks",
@@ -22,8 +23,9 @@
    "refs/ref6_hand.png",
    "refs/ground_herringbone.jpg"
   ],
-  "clip": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour the whole clip; only the black squares carry sequins. Motion: her hand keeps the same grip on the side of the held shoe and tilts it slowly about 10 degrees toward the lens and back, the red insole stays facing the camera; the shoe never turns over, never shows its sole and never flips. Her feet stay still on the bricks: one foot in its shoe, the other bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
-  "clip_note": "2026-10-24: rewritten to the approved still (side grip, one bare foot), prompt-master"
+  "clip": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings, blue band and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the real RIGHT shoe from above: the held shoe stays this RIGHT shoe the whole clip. Image 5 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark matches its image letter for letter and colour for colour; only the black squares carry sequins. Motion: her right hand keeps the same grip and tilts the held shoe slowly about 10 degrees toward the lens and back. The red insole faces the camera for all 4 seconds; the shoe never turns onto its side, never shows its sole and never flips. Her feet stay still on the bricks: the LEFT foot in its shoe, the RIGHT foot bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+  "clip_note": "2026-10-24: rewritten to the approved still (side grip, one bare foot), prompt-master",
+  "still_file": "stills/S1_r4.png"
  },
  "S2": {
   "kind": "HAND-FREE",

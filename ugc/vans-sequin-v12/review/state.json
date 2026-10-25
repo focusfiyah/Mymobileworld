@@ -1,20 +1,20 @@
 {
- "sub": "Grace \u00b7 recreation of @sophmademebuyit (18 s, 75.7K) \u00b7 6 shots, 16 s \u00b7 music only, no text \u00b7 $0.54 spent of $2.835",
+ "sub": "Grace \u00b7 recreation of @sophmademebuyit (18 s, 75.7K) \u00b7 6 shots, 16 s \u00b7 music only, no text \u00b7 $1.08 spent of $2.835",
  "ask": {
-  "title": "Stop 1: storyboard + S1 Flow take + 2 redos to OK",
-  "text": "4 of 6 stills pass. <b>S1 Flow kit is below</b>: please make it (12 credits) and send the clip back. <b>S2</b> (feet point opposite ways) and <b>S4</b> (white sandals under the held shoe) need a redo: S2 new still $0.09 + S4 one-item edit $0.09 = <b>$0.18</b>, from the approved redo line. OK?"
+  "title": "Stop 2: make the new S1 Flow take",
+  "text": "All 6 stills pass now. S1 is a fresh still: her right hand holds the <b>RIGHT</b> shoe (side tab on its outer edge), left foot in its shoe, right foot bare. Please make the S1 take from the kit below (5 images now: I added the real right-shoe photo) and send it back. The other 5 kits come right after S1 passes."
  },
  "sections": [
   {
    "type": "kits",
-   "h": "Flow kit \u00b7 S1 first (riskiest)",
+   "h": "Flow kit \u00b7 S1 (new still)",
    "note": "Open S1, save its 4 images, copy the prompt, make it in Flow (Gemini Omni Flash, 4 s, 12 credits), download at 1080 and send it back.",
    "items": [
     {
      "id": "S1",
-     "what": "held shoe, insole up, small tilt",
+     "what": "right shoe in her right hand, insole up, small tilt",
      "open": true,
-     "prompt": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark on the shoe matches its image letter for letter and colour for colour the whole clip; only the black squares carry sequins. Motion: her hand keeps the same grip on the side of the held shoe and tilts it slowly about 10 degrees toward the lens and back, the red insole stays facing the camera; the shoe never turns over, never shows its sole and never flips. Her feet stay still on the bricks: one foot in its shoe, the other bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+     "prompt": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings, blue band and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the real RIGHT shoe from above: the held shoe stays this RIGHT shoe the whole clip. Image 5 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark matches its image letter for letter and colour for colour; only the black squares carry sequins. Motion: her right hand keeps the same grip and tilts the held shoe slowly about 10 degrees toward the lens and back. The red insole faces the camera for all 4 seconds; the shoe never turns onto its side, never shows its sole and never flips. Her feet stay still on the bricks: the LEFT foot in its shoe, the RIGHT foot bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
      "imgs": [
       [
        "kit/S1-1_still_S1.jpg",
@@ -29,10 +29,39 @@
        "side tab"
       ],
       [
-       "kit/S1-4_product_sheet.jpg",
+       "kit/S1-4_right_shoe.jpg",
+       "right shoe"
+      ],
+      [
+       "kit/S1-5_product_sheet.jpg",
        "product sheet"
       ]
      ]
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "h": "Storyboard \u00b7 fixes \u00b7 $0.54",
+   "note": "S1: two edits kept the left shoe, so it's a fresh still. S2 redone. S4 fresh, heel label colours fixed free (it came out black).",
+   "items": [
+    {
+     "src": "st/S1_v2.jpg",
+     "n": "S1",
+     "tag": "pass",
+     "p": "RIGHT shoe in her right hand (tab on its outer edge), left foot in the left shoe, right foot bare. Insole box matches."
+    },
+    {
+     "src": "st/S2_v2.jpg",
+     "n": "S2",
+     "tag": "pass",
+     "p": "POV, both shoes point away from the camera, the same way. Both anklets."
+    },
+    {
+     "src": "st/S4_v2.jpg",
+     "n": "S4",
+     "tag": "pass",
+     "p": "Heel to the lens, one shoe, bare feet. Heel label made white with black print (free colour swap)."
     }
    ]
   },
