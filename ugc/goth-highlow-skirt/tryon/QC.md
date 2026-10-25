@@ -38,3 +38,6 @@ Best overall so far. Silhouette right: full, flowing, long, wider at the hem (no
 
 ## 2026-10-25 L4 shortest test (book rev 5): Kolors on Gemini A1 + listing 01 (full on-model photo), $0.07
 FAIL. (1) Kolors took the whole outfit from the photo: the black long-sleeve top became the model's strapless pinstripe corset. (2) Length: the front hem fell below the knee with a ragged edge, not the upper thigh. (3) Output only 723x1296 (input 1536x2752). Lesson: give Kolors a skirt-only crop (tryon/g_01_skirt.jpg), never a full-outfit photo; Kolors does not hold a pulled-up length, so the short looks need another route.
+
+## 2026-10-25 option 1: Kolors L1 knee (A1 + garment_front) and L2 back (A3 + garment_back), $0.14
+FAIL, both. Kolors kept Grace's black shorts and drew only a short dark olive ruffle band below them (thigh to knee); no waistband, no front ruching, no drawstrings, no long back, wrong colour. On the Gemini bases (separate shorts) Kolors treats the shorts as the bottom and adds a hem under it. Kolors is dropped for this job: 3 tries on the new bases, 0 usable ($0.21).

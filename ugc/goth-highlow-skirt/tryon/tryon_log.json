@@ -54,5 +54,21 @@
   "request_id": "01a1719d-8e9f-7e61-b3e2-3c56e19ef99a",
   "out": "ugc/goth-highlow-skirt/tryon/L4_shortest.png",
   "url": "https://v3b.fal.media/files/b/0aafc280/mqphrvgAwACxBKpTkAKwW.png"
+ },
+ {
+  "model": "L1_knee",
+  "endpoint": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "usd": 0.07,
+  "request_id": "01a171a6-c8fa-7211-8650-f8c758959e58",
+  "out": "ugc/goth-highlow-skirt/tryon/L1_knee.png",
+  "url": "https://v3b.fal.media/files/b/0aafc2bc/hHvhG2Zh3y6BCpsY907Dj.png"
+ },
+ {
+  "model": "L2_back",
+  "endpoint": "fal-ai/kling/v1-5/kolors-virtual-try-on",
+  "usd": 0.07,
+  "request_id": "01a171a6-d1f1-7703-b624-e5261bf2dba8",
+  "out": "ugc/goth-highlow-skirt/tryon/L2_back.png",
+  "url": "https://v3b.fal.media/files/b/0aafc2bc/d9DO1L3HqhZDttwCc0jO4.png"
  }
 ]
