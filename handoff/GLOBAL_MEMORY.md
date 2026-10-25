@@ -52,6 +52,7 @@ GRACE
 
 DAY ONE AI
 Uploads stay PRIVATE until I approve. My cloned voice narrates; premade voices for demos. Quote the cost before any extra paid generation.
+- Day One AI numbers rules (2026-10-25, "Do everything you recommended"): pick topics by title-match demand (yt.py demand counts only videos whose title has the feature words, plus tutorials already up), not brand size; new Higgsfield features first; skip small toggles; borrow the search words and tags of the biggest video on the topic; tutorials about 2:15-2:45 with the result in the first 2 sentences; Shorts show one complete result and stand alone. Details in Dayone-ai CLAUDE.md "Numbers rules v2".
 
 MY NOTES (OBSIDIAN)
 - Obsidian notes (2026-10-23): my Obsidian vault on my phone (OnePlus N10, Android) syncs with the private GitHub repo focusfiyah/obsidian-vault through the GitSync app. For anything about my notes, attach that repo (add_repo), follow its CLAUDE.md, pull before editing and push to main right after; never delete or rename my notes or change Obsidian settings without asking.
