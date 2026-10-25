@@ -1,2 +1,11 @@
 # Still QC (2x)
 - S3 r1 (Ralph's Gemini app, 2026-10-25): FAIL, shoes on backwards (Ralph): she faces left, both toes point right. Pants pass at 2x (solid matte black, front seam, wide waistband, pocket panel, full length to the floor); skin, almond nails, five fingers, room OK. Cause: prompt said "pointing the same way as her body", vague on a side view. Fix: $0 Gemini edit prompt (prompts/S3_gemini_edit_r2.txt); every still/clip prompt now names the toe direction in frame terms (FEET in tools/make_shots.py).
+- Round 1 on Kie (2026-10-25, 8 x $0.09 = $0.72, Ralph: "Just use Kie to make the stills and continue"), checked at 2x (qc/storyboard_r1.jpg, qc/r1_2x*.jpg):
+- S1 PASS: back view, white OQQ mark, hand on hip (5 fingers, whole wrist), heels to camera.
+- S2 FAIL: feet point opposite ways (back shoe toe left, front shoe toe right): REMOVED.md item. Redo asked ($0.09).
+- S3 PASS (framing changed: front three-quarter, hand on counter, phone in the pocket, toes to camera). Plays AFTER S4 (phone goes in, then shows in the pocket). The inspo's side shot is S8.
+- S4 PASS: phone into the side pocket, 5 fingers, almond nails, solid matte black.
+- S5 PASS: black walk-away, heels to camera, OQQ mark; elbows at the top edge only.
+- S6 PASS: brown back three-quarter, hand on grey stool, phone top out of the pocket.
+- S7 FAIL: back view walking away (planned front walk toward camera), repeats S5, hands in a hand-free shot. Redo asked ($0.09).
+- S8 PASS: brown right side, phone up (inspo mirror moment, face out of frame), hand on hip, toes right.

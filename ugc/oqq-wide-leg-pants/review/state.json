@@ -1,105 +1,192 @@
 {
- "sub": "Round 3, 2026-10-25: S3 checked (pants pass, shoes backwards), $0 edit prompt; S4 kit still open.",
+ "sub": "Round 4, 2026-10-25: 8 stills on Kie ($0.72), 6 pass, 2 need a redo; Flow kits for the 6.",
  "ask": {
-  "title": "S3: shoes on backwards, $0 fix in Gemini",
-  "text": "Paste the S3 edit prompt (Copy button below) in the same Gemini chat as your S3 photo and send me the result. Then make S4 from its kit if you haven't yet. Every other prompt now says which way the toes point, so this won't repeat."
+  "title": "2 quick calls",
+  "text": "1. Redo S2 (feet point opposite ways) and S7 (came out as a back view, I planned her walking toward the camera) on Kie: <b>$0.18</b> for both, inside the approved total. OK?<br>2. Clips: your Flow app ($0, 6 kits below, S4 first) or Kie Omni ($0.315 each, $2.52 for all 8, inside the approved total)?"
  },
  "sections": [
   {
-   "type": "gemkits",
-   "h": "Round 3 \u00b7 S3 fix: shoes on backwards ($0 Gemini edit)",
-   "note": "Your S3 (left): she faces left but both toes point right. The pants pass at 2x: solid matte black, front seam, wide waistband, pocket, full length to the floor; skin, nails and hands OK. Fix: in the SAME Gemini chat as that photo, paste the edit prompt below (no new uploads). If the edit changes the pants or still gets the feet wrong, use the S3 fresh-still kit further down instead; its prompt now names the direction.",
+   "type": "grid",
+   "h": "Storyboard round 1 (Kie)",
+   "note": "Play order: S1 back, S2 length, S4 phone goes in, S3 phone in the pocket, S5 black walks away, S6 brown, S7 brown walk, S8 brown side with the phone up.",
    "items": [
     {
-     "id": "S3e",
-     "what": "Edit prompt for your S3 photo",
-     "open": true,
-     "imgs": [
-      [
-       "img/S3_r1.jpg",
-       "your S3 (shoes backwards)"
-      ]
-     ],
-     "prompt": "Edit this photo. Change ONLY her two sneakers: they are on backwards. She faces the LEFT edge of the photo (the stool is in front of her), so turn both shoes around: the toe of each shoe must point to the LEFT edge of the photo, the same way her knees and the front of her body face, and each heel points to the right, at the back of her foot under the hem. Both stay the same sequin black and off-white checkerboard Vans with white rubber soles, one shoe on each foot, and the black wide hems still cover the back half of each shoe. Keep everything else exactly the same: her body, skin, nails, white top, the black pants, both hands, the stool, the kitchen, the light and the framing. No text.\n"
+     "src": "st/S1.jpg",
+     "n": "S1",
+     "tag": "pass",
+     "p": "Back view, white OQQ mark, hand on hip."
+    },
+    {
+     "src": "st/S2.jpg",
+     "n": "S2",
+     "tag": "redo",
+     "cls": "redo",
+     "p": "Feet point opposite ways (back toe left, front toe right)."
+    },
+    {
+     "src": "st/S4.jpg",
+     "n": "S4",
+     "tag": "pass",
+     "p": "Phone into the hidden pocket, 5 fingers."
+    },
+    {
+     "src": "st/S3.jpg",
+     "n": "S3",
+     "tag": "pass",
+     "p": "Came out as a front view with the phone in the pocket; plays after S4."
+    },
+    {
+     "src": "st/S5.jpg",
+     "n": "S5",
+     "tag": "pass",
+     "p": "Black walks away, heels to camera."
+    },
+    {
+     "src": "st/S6.jpg",
+     "n": "S6",
+     "tag": "pass",
+     "p": "Brown, hand on the grey stool."
+    },
+    {
+     "src": "st/S7.jpg",
+     "n": "S7",
+     "tag": "redo",
+     "cls": "redo",
+     "p": "Back view again (planned: walking toward the camera)."
+    },
+    {
+     "src": "st/S8.jpg",
+     "n": "S8",
+     "tag": "pass",
+     "p": "Brown side, phone up like the inspo, face out of frame."
     }
    ]
   },
   {
-   "type": "gemkits",
-   "h": "Gemini still kits (S3 first)",
-   "note": "Plan approved: music only, Gemini app stills first, Kie after your limit, no text. These two go first because S3 is the move the inspo sells and S4 (hand + phone + pocket) is the most likely to go wrong.",
+   "type": "html",
+   "h": "2x checks",
+   "body": "<figure><img src=\"img/r1_2x.jpg\" alt=\"2x crops\"><figcaption>S2 feet (fail) \u00b7 S4 hand + pocket \u00b7 S3 feet \u00b7 S6 legs</figcaption></figure>"
+  },
+  {
+   "type": "kits",
+   "h": "Flow kits for the 6 that pass (if you pick Flow)",
+   "note": "Same steps as the Vans kits. Start with S4.",
    "items": [
     {
-     "id": "S3",
-     "what": "Black, the inspo side shot: hand on the bar stool, hem on the floor (the move the inspo sells) (fresh-still kit, prompt now says which way the toes point)",
-     "open": false,
-     "imgs": [
-      [
-       "kit/pants_sheet.jpg",
-       "pants sheet"
-      ],
-      [
-       "kit/pocket.jpg",
-       "pocket"
-      ],
-      [
-       "kit/back_mark.jpg",
-       "back mark"
-      ],
-      [
-       "kit/vans_sheet.jpg",
-       "vans sheet"
-      ],
-      [
-       "kit/vans_tab.jpg",
-       "vans tab"
-      ],
-      [
-       "kit/grace_body.jpg",
-       "grace body"
-      ],
-      [
-       "kit/room_sage.jpg",
-       "room sage"
-      ]
-     ],
-     "prompt": "Make ONE new realistic phone photo, tall vertical 9:16, using the 7 images I uploaded as references, in the order below. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. Image 3 = the real centre-back OQQ circle mark. Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab. Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room. SCENE (the inspo's shot): mirror-style photo of her right side, chest to floor, standing beside a black bar stool; her left hand rests on the stool's back with a relaxed grip, whole wrist visible; her right hand at her side. The full leg from waistband to floor is in frame. HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A white ribbed cropped square-neck tank that ends at the top of the waistband, a strip of bare waist showing between them. THE PANTS must match images 1 and 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in TRUE BLACK. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos, no \u00ae or \u2122, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (images 4 and 5): black squares covered in black sequins, off-white squares plain canvas, black laces, a small BLACK woven side tab with white VANS letters (image 5), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. FEET DIRECTION: She faces the LEFT edge of the frame (the stool is in front of her): her knees and both toes point to the LEFT edge, both heels point to the right edge. PLACE: the real kitchen in image 7: sage-green kitchen island with a white marble top, black round bar stools, warm oak floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere."
-    },
-    {
      "id": "S4",
-     "what": "Black, hip close-up, phone going into the hidden pocket",
+     "what": "BLACK \u00b7 phone slides into the hidden pocket (riskiest, do first)",
      "open": true,
      "imgs": [
       [
-       "kit/pants_sheet.jpg",
-       "pants sheet"
+       "st/S4.jpg",
+       "S4 still (start frame)"
       ],
       [
        "kit/pocket.jpg",
        "pocket"
       ],
       [
-       "kit/back_mark.jpg",
-       "back mark"
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ]
+     ],
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real hidden side pocket (tonal, phone top showing). Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: her right hand slides the phone straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
+    },
+    {
+     "id": "S3",
+     "what": "BLACK \u00b7 front, hand on the counter, phone in the pocket, sway",
+     "open": false,
+     "imgs": [
+      [
+       "st/S3.jpg",
+       "S3 still (start frame)"
       ],
       [
-       "kit/vans_sheet.jpg",
-       "vans sheet"
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ]
+     ],
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she shifts her weight from foot to foot and sways her hips gently, the wide legs sway and the hems stay on the floor over her shoes; her right hand stays resting on the marble counter edge, her left hand relaxed at her side; the phone stays tucked in the side pocket with only its top showing; slight handheld camera. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the left edge, the heels behind. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
+    },
+    {
+     "id": "S1",
+     "what": "BLACK \u00b7 back view, hand slides down the hip",
+     "open": false,
+     "imgs": [
+      [
+       "st/S1.jpg",
+       "S1 still (start frame)"
+      ],
+      [
+       "kit/back_mark.jpg",
+       "OQQ back mark"
+      ],
+      [
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ]
+     ],
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real centre-back OQQ circle mark: a small white round mark. Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she shifts her weight slowly from foot to foot and her right hand slides down over the back of her hip and thigh; the wide legs sway and the hem stays on the floor; slight handheld camera, no cut. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces away from the camera toward the island: both toes point AWAY from the camera, the backs of both heels face the camera. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
+    },
+    {
+     "id": "S5",
+     "what": "BLACK \u00b7 walks away, hems over the heels",
+     "open": false,
+     "imgs": [
+      [
+       "st/S5.jpg",
+       "S5 still (start frame)"
       ],
       [
        "kit/vans_tab.jpg",
-       "vans tab"
+       "Vans side tab"
       ],
       [
-       "kit/grace_body.jpg",
-       "grace body"
+       "kit/vans_heel.jpg",
+       "Vans heel label"
       ],
       [
-       "kit/room_sage.jpg",
-       "room sage"
+       "kit/pants_sheet.jpg",
+       "pants sheet"
       ]
      ],
-     "prompt": "Make ONE new realistic phone photo, tall vertical 9:16, using the 7 images I uploaded as references, in the order below. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. Image 3 = the real centre-back OQQ circle mark. Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab. Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room. SCENE: close-up of her right hip from the front-side, from the bottom of the tank to mid-thigh: the high waistband and the hidden pocket under it. Her right hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the pocket opening, thumb on the front, whole wrist visible. HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A white ribbed cropped square-neck tank that ends at the top of the waistband, a strip of bare waist showing between them. THE PANTS must match images 1 and 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in TRUE BLACK. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos, no \u00ae or \u2122, no text. Her feet are out of frame. PLACE: the real kitchen in image 7: sage-green kitchen island with a white marble top, black round bar stools, warm oak floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere."
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the real Vans heel label: a small WHITE OFF THE WALL label with black print. Image 4 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she walks away from the camera, three relaxed steps, the hems swing over her heels; the floor travels (no walking in place); no hand appears at any time. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She walks away from the camera: both toes point AWAY from the camera, the backs of both heels face the camera. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
+    },
+    {
+     "id": "S6",
+     "what": "BROWN \u00b7 back three-quarter, hand on the grey stool, hip rock",
+     "open": false,
+     "imgs": [
+      [
+       "st/S6.jpg",
+       "S6 still (start frame)"
+      ],
+      [
+       "kit/back_mark.jpg",
+       "OQQ back mark"
+      ],
+      [
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ]
+     ],
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real centre-back OQQ circle mark: a small white round mark. Image 3 is the pants product sheet. The pants stay dark chocolate brown, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she rocks her hips side to side and shifts her weight, the brown wide legs sway and the hem stays on the floor; her hand stays on the stool; slight handheld camera. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces away from the camera, turned a little to the left: both toes point away from the camera and slightly left, the heels face the camera. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
+    },
+    {
+     "id": "S8",
+     "what": "BROWN \u00b7 side, phone up (the inspo's mirror moment), sway",
+     "open": false,
+     "imgs": [
+      [
+       "st/S8.jpg",
+       "S8 still (start frame)"
+      ],
+      [
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ]
+     ],
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the pants product sheet. The pants stay dark chocolate brown, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
     }
    ]
   },

@@ -4,7 +4,7 @@ Ask (Ralph 2026-10-25): "Grace needs a fashion AI video" for the OQQ Women's Hig
 she has them in black and brown; inspo https://www.tiktok.com/t/ZPLAg5udN/ (@krunch.7, 555.8K, same pants in brown); "style with sneakers",
 the shiny Vans (sequin checkerboard Authentic from the Vans jobs). Route: AI recreation on Grace's body photos + product lock, Flow first.
 
-Status: BOOK APPROVED 2026-10-25 ($3.645 cap; music only, Gemini app stills first then Kie after his limit, no text). Round 2: S3 + S4 Gemini kits on the review page; waiting on his 2 stills. Spent $0.
+Status: 2026-10-25 round 4: 8 stills on Kie ($0.72), 6 pass (S1 S3 S4 S5 S6 S8), S2 (feet opposite) + S7 (back view, planned front) need a redo; asked Ralph: redo $0.18 OK? clips Flow or Kie Omni ($2.52)? Flow kits for the 6 on the review page. Kie $0.72 of $3.645.
 Review page: https://claude.ai/artifact/8FXb6VhgRPCWm6bKWaNy79
 
 Files: BOOK.md (the plan), scripts.md, shots.json (built by tools/make_shots.py, prompt-master), GATES.md, REMOVED.md,

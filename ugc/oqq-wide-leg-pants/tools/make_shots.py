@@ -33,11 +33,11 @@ STILL_REFS = {"black": ["refs/product_sheet.png", "refs/real_pocket.jpg", "refs/
 FEET = {
  "S1": "She faces away from the camera toward the island: both toes point AWAY from the camera, the backs of both heels face the camera.",
  "S2": "She walks toward the LEFT edge of the frame: both toes point to the LEFT edge, both heels to the right.",
- "S3": "She faces the LEFT edge of the frame (the stool is in front of her): her knees and both toes point to the LEFT edge, both heels point to the right edge.",
+ "S3": "She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the left edge, the heels behind.",
  "S5": "She walks away from the camera: both toes point AWAY from the camera, the backs of both heels face the camera.",
  "S6": "She faces away from the camera, turned a little to the left: both toes point away from the camera and slightly left, the heels face the camera.",
  "S7": "She walks straight toward the camera: both toes point AT the camera, the heels are hidden behind.",
- "S8": "She faces the LEFT edge of the frame: her knees and both toes point to the LEFT edge, both heels point to the right edge.",
+ "S8": "She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge.",
 }
 SHOTS = [
  ("S1", "HAND", "black", [0.0, 2.6], "Okay, y'all keep asking what the back of these looks like.",
@@ -48,7 +48,7 @@ SHOTS = [
   "she takes two slow steps across the frame from right to left, the hems swing and settle back over the shoes; the camera stays low and pans with her; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S3", "HAND", "black", [5.0, 8.0], "I'm [height], wearing a [size] in the [Regular or Longer], and they go all the way down over my sneakers.",
   "SCENE (the inspo's shot): mirror-style photo of her right side, chest to floor, standing beside a black bar stool; her left hand rests on the stool's back with a relaxed grip, whole wrist visible; her right hand at her side. The full leg from waistband to floor is in frame.",
-  "she rocks her hips gently and shifts her weight from foot to foot, the wide legs sway and the hem stays on the floor over her shoes; her left hand stays on the stool the whole time; slight handheld camera", ["refs/product_sheet.png"]),
+  "she shifts her weight from foot to foot and sways her hips gently, the wide legs sway and the hems stay on the floor over her shoes; her right hand stays resting on the marble counter edge, her left hand relaxed at her side; the phone stays tucked in the side pocket with only its top showing; slight handheld camera", ["refs/product_sheet.png"]),
  ("S4", "HAND", "black", [8.0, 10.6], "The waist sits up high, and there's a hidden pocket right here for my phone.",
   "SCENE: close-up of her right hip from the front-side, from the bottom of the tank to mid-thigh: the high waistband and the hidden pocket under it. Her right hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the pocket opening, thumb on the front, whole wrist visible.",
   "her right hand slides the phone straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black", ["refs/real_pocket.jpg", "refs/product_sheet.png"]),
@@ -63,7 +63,7 @@ SHOTS = [
   "she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S8", "HAND", "brown", [18.2, 20.5], "I linked them in the orange cart for you.",
   "SCENE: mirror-style photo of her right side, chest to floor, in the middle of the kitchen; her right hand on her right hip, fingers forward, whole wrist visible.",
-  "she smooths her hand down the waistband and turns slowly a quarter turn away from the camera, the wide legs swing and settle; slight handheld camera", ["refs/product_sheet.png"]),
+  "she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera", ["refs/product_sheet.png"]),
 ]
 out = {"shots": []}
 for sid, kind, c, win, line, scene, motion, extra in SHOTS:
