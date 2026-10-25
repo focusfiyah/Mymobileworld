@@ -11,8 +11,9 @@ def pants(c):
             "from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the "
             "top of the shoe and brushes the floor. A hidden tonal pocket sits on the outer side of the hip just under the waistband (image 2). "
             "Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos, no ® or ™, no text.")
-SHOES = ("ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (images 4 and 5): black squares covered in black sequins, "
-         "off-white squares plain canvas, black laces, a small BLACK woven side tab with white VANS letters (image 5), off-white rubber sidewall, gum sole. "
+SHOES = ("ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (images 4 and 5): large black squares covered in black sequins, "
+         "large off-white squares plain canvas (black and OFF-WHITE only, never brown, tan or beige checks), black laces through black eyelets (no gold or metal eyelets), "
+         "the same checkerboard all the way round the heel (no solid black heel panel), a small BLACK woven side tab with white VANS letters (image 5), off-white rubber sidewall, gum sole. "
          "The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. "
          "The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects.")
 HER = ("HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white "
@@ -26,7 +27,7 @@ LIGHT = ("LIGHT: bright daylight, soft and even, neutral white balance: true bla
 REF_DESC = {"refs/product_sheet.png": "the real pants from every side (listing photos, black and dark brown)", "refs/real_pocket.jpg": "the real hidden side pocket with a phone in it",
             "refs/real_back_logo.jpg": "the real centre-back OQQ circle mark", "refs/vans_product_sheet.png": "the real shoe from every side", "refs/real_vans_tab.jpg": "the real woven VANS side tab (small black tab, white VANS letters)",
             "refs/grace_body_sheet.jpg": "her real body and skin tone (ignore its clothes and room)", "refs/room.jpg": "the real room", "refs/room_b.jpg": "the real room", "refs/vans_real_heel_label.jpg": "the real Vans heel label (small WHITE OFF THE WALL label, black print)"}
-LEGS = {"S2", "S7"}   # knees-to-floor shots: no top, no hands, no back mark (2026-10-25: chest framing in the body block won over "knees to floor" and S7 turned into a back view)
+LEGS = {"S2", "S5", "S7"}   # knees-to-floor shots: no top, no hands, no back mark (2026-10-25: chest framing in the body block won over "knees to floor" and S7 turned into a back view)
 OLD_REFS_HEAD = ("Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. "
              "Image 3 = the real centre-back OQQ circle mark. Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab. "
              "Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room.")
@@ -38,8 +39,8 @@ FEET = {
  "S1": "She faces away from the camera toward the island: both toes point AWAY from the camera, the backs of both heels face the camera.",
  "S2": "she is mid-step walking toward the LEFT edge of the frame: BOTH shoes point the same way, toes to the LEFT edge and heels to the right edge; her left foot is ahead (further left) flat on the floor, her right foot behind with its heel just lifting; the two shoes are parallel and never point opposite ways.",
  "S3": "She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the left edge, the heels behind.",
- "S5": "She walks away from the camera: both toes point AWAY from the camera, the backs of both heels face the camera.",
- "S6": "She faces away from the camera, turned a little to the left: both toes point away from the camera and slightly left, the heels face the camera.",
+ "S5": "FRONT VIEW: she stands facing the camera, feet side by side about hip-width apart and parallel: both toe caps point AT the lens, the heels are hidden behind; both soles stay flat on the floor; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels.",
+ "S6": "She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the LEFT edge, the heels hidden behind; both soles flat on the floor.",
  "S7": "FRONT VIEW: she walks straight TOWARD the camera: both toe caps point AT the lens and are the closest thing to the camera, the heels are hidden behind; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels; both soles stay flat on the floor in a short, calm step, so the bottoms of the shoes never show.",
  "S8": "She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge.",
 }
@@ -57,11 +58,11 @@ SHOTS = [
   "SCENE: close-up of her right hip from the front-side, from the bottom of the tank to mid-thigh: the high waistband and the hidden pocket under it. Her right hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the pocket opening, thumb on the front, whole wrist visible.",
   "her right hand slides the phone straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black", ["refs/real_pocket.jpg", "refs/product_sheet.png"]),
  ("S5", "HAND-FREE", "black", [10.6, 12.8], "I've got them in black,",
-  "SCENE: low camera behind her at knee height, back view of her lower legs (knees to floor): black hems over the heels of the sequin Vans, oak floor. No hands, arms or fingers anywhere in the frame.",
-  "she walks away from the camera, three relaxed steps, the hems swing over her heels; the floor travels (no walking in place); no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/vans_real_heel_label.jpg", "refs/product_sheet.png"]),
+  "camera low at shin height IN FRONT of her, FRONT view of her lower legs standing on the oak floor: the black wide hems pool over the shoes and only the toe caps of both sequin Vans show.",
+  "she rocks gently from heel to toe and back twice and shifts her weight from foot to foot, the wide hems sway and settle over the toe caps; both feet stay facing the camera and never turn; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S6", "HAND", "brown", [12.8, 15.8], "and in brown too, because when I find something I like, I get more than one.",
-  "SCENE: mirror-style photo from behind and to her left, back three-quarter view, chest to floor; her left hand rests on the back of a grey upholstered bar stool, whole wrist visible.",
-  "she rocks her hips side to side and shifts her weight, the brown wide legs sway and the hem stays on the floor; her hand stays on the stool; slight handheld camera", ["refs/real_back_logo.jpg", "refs/product_sheet.png"]),
+  "mirror-style photo of her FRONT, turned slightly to her left, chest to floor, standing beside a grey upholstered bar stool: her left hand rests on the top of the stool's back with a relaxed grip, whole wrist visible; her right hand rests on her right hip. We see the front of the pants: the wide waistband, the front seam line down each leg and the full length to the floor.",
+  "she sways her hips gently and shifts her weight from foot to foot, the wide brown legs sway and the hems stay on the floor over her shoes; her left hand stays on the stool; slight handheld camera", ["refs/product_sheet.png"]),
  ("S7", "HAND-FREE", "brown", [15.8, 18.2], "Black and brown go with everything for fall, so grab both.",
   "camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey wood floor: the brown wide hems swing forward and the toe caps of both sequin Vans show under them.",
   "she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
@@ -74,12 +75,10 @@ def refs_for(sid, c):
         r = ["refs/product_sheet.png", "refs/vans_product_sheet.png", "refs/real_vans_tab.jpg", "refs/room.jpg" if c == "black" else "refs/room_b.jpg", "refs/grace_body_sheet.jpg"]
     else:
         r = list(STILL_REFS[c])
-        if sid not in ("S1", "S5", "S6"):
+        if sid != "S1":
             r.remove("refs/real_back_logo.jpg")   # back mark only where the back shows
         if sid == "S4":
             r = [x for x in r if "vans" not in x]  # feet out of frame
-    if sid == "S5":
-        r.append("refs/vans_real_heel_label.jpg")
     return r
 
 
@@ -117,7 +116,8 @@ for sid, kind, c, win, line, scene, motion, extra in SHOTS:
     names = {"refs/real_back_logo.jpg": "the real centre-back OQQ circle mark: a small white round mark", "refs/real_pocket.jpg": "the real hidden side pocket (tonal, phone top showing)",
              "refs/real_vans_tab.jpg": "the real woven VANS side tab: small black tab, white VANS letters", "refs/product_sheet.png": "the pants product sheet", "refs/vans_real_heel_label.jpg": "the real Vans heel label: a small WHITE OFF THE WALL label with black print"}
     lines = [f"Image {i+2} is {names[r]}." for i, r in enumerate(extra)]
-    clip = ("Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. " + " ".join(lines) +
+    keep = "her skin, top and pants exactly; her feet stay out of the frame" if sid == "S4" else "her skin, top, pants and shoes exactly"
+    clip = (f"Recreate image 1 exactly as the first frame: keep its place, light, framing, {keep}. " + " ".join(lines) +
             f" The pants stay {PANTS[c].split(' (')[0].lower()}, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; "
             f"they must match the product sheet colour for colour. Motion: {motion}. Her face never enters the frame. Hands keep five fingers and whole wrists. "
             + ("Exactly two shoes, worn the right way round; " + FEET[sid] + " " if sid != "S4" else "") + "No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.")

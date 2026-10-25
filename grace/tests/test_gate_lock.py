@@ -39,7 +39,7 @@ def make_repo(tmp):
     for w in ("user.name", "user.email"):
         sh(work, "git", "config", w, "test@example.com")
     (work / "grace").mkdir()
-    for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json"):
+    for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json", "prompt_check.py"):
         shutil.copy(HERE / "grace" / f, work / "grace" / f)
     (work / "grace/spend.json").write_text(json.dumps({"monthly_cap_usd": 100, "caps_by_month": {time.strftime("%Y-%m"): None}, "other": []}))
     tpl = work / ".claude/skills/ugc-product-ad/templates"; tpl.mkdir(parents=True)
@@ -66,7 +66,7 @@ def fill_book(job, total):
 
 
 def body(prompt, url="https://tempfile.redpandaai.co/a.png"):
-    return {"model": "google/gemini-omni-flash-1-1", "input": {"prompt": prompt, "image_urls": [url], "aspect_ratio": "9:16"}}
+    return {"model": "google/gemini-omni-flash-1-1", "input": {"prompt": prompt + " No text.", "image_urls": [url], "aspect_ratio": "9:16"}}
 
 
 def main():
@@ -99,6 +99,24 @@ def main():
         exits(gate.approve_book, job, "OK v2")
         ok("re-approval keeps the earlier OK in book_history",
            len(json.loads((job / "checklist.json").read_text()).get("book_history", [])) == 1)
+
+        # 4. prompt check (Ralph 2026-10-25): unread or broken prompts are refused before anything is claimed
+        pc = importlib.import_module("prompt_check")
+        e, m = exits(gate.start_task, job, body("S1 hand lifts the bottle"), "S1")
+        ok("unmarked prompt refused + saved for reading", e and "PROMPT CHECK" in m and "not marked" in m
+           and any((job / "proof/pending_prompts").glob("*.txt")), m)
+        ok("refused prompt claims nothing", not (job / "paid_tasks.json").exists() or json.loads((job / "paid_tasks.json").read_text()) == [])
+        bad = "Recreate image 3 exactly, she walks in her sneakers. No text."
+        ok("lint: image number past the refs sent", any("image [3]" in x for x in pc.lint(bad, 1)), str(pc.lint(bad, 1)))
+        ok("lint: shoes on a person with no toe direction", any("toe direction" in x for x in pc.lint(bad, 3)))
+        ok("lint: chest vs knees framing conflict", any("framing conflict" in x for x in pc.lint(
+            "Her face is never in frame: the frame cuts at her chest. Nothing above her knees is in the frame. No text.", 0)))
+        ok("lint: negated sparkle is fine, plain sparkle is not",
+           pc.lint("A shoe. No added sparkles or glints. No text.") == [] and pc.lint("Sparkle on the shoe. No text.") != [])
+        e, m = exits(gate.start_task, job, body(bad), "SX"); ok("lint failure refused even if never marked", e and "lint:" in m, m)
+        ok("mark refuses a prompt that fails lint", pc.mark(job, [("SX", bad, 1)]) != [])
+        test_prompts = ["S1 hand lifts the bottle", "S2 bottle on the counter", "S3 close-up of the cap", "S5 tablet drops in"]
+        ok("mark records clean prompts", pc.mark(job, [(p, p + " No text.", 1) for p in test_prompts]) == [])
 
         # 3. ledger: saved + pushed at start
         e, m = exits(gate.start_task, job, body("S1 hand lifts the bottle"), "S1"); ok("first paid task allowed", not e, m)
@@ -168,7 +186,7 @@ def main():
 
         # the copy in this repo is the one under test
         ok("tested copies match grace/", all((work / "grace" / f).read_text() == (HERE / "grace" / f).read_text()
-                                             for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json")))
+                                             for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json", "prompt_check.py")))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     failed = [n for n, c in results if not c]

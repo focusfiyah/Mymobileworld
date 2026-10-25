@@ -16,6 +16,8 @@ Paid calls also need (Ralph 2026-10-22, three ideas taken from Video Factory):
      Editing BOOK.md after his OK voids it until he OKs the new version.
   2. Budget lock: spend on the job since that OK, tasks in flight included, never passes the book TOTAL plus extras
      he approved later:  python3 grace/gate.py <job> --approve-extra 0.32 "<Ralph's words>" --what "S3 redo"
+  4. Prompt check (grace/prompt_check.py, Ralph 2026-10-25): every prompt is linted and must be marked checked for the
+     job (read in full first) before start_task() lets it through.
   3. Paid-task ledger (grace/paid.py): runners call start_task(job, body, label=...) right before each Kie createTask
      and task_submitted(job, key, task_id) right after. A request already started or paid in this job, here or on any
      session branch, is refused until GATE_REDO names it.
@@ -274,6 +276,8 @@ def start_task(job, body, label="", usd=None):
     errs = field_errors(body)
     if errs:
         sys.exit("KIE FIELDS: paid call refused, nothing sent:\n  - " + "\n  - ".join(errs))
+    import prompt_check   # Ralph 2026-10-25: prompts linted and read in full before any paid call
+    prompt_check.require(job, body)
     usd = price(body)[1] if usd is None else usd
     require(job, lock=False)
     return paid.claim(job, body, usd, label, check=lambda spent: lock_errors(job, _checklist(job), spent, usd))

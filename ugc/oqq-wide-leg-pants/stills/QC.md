@@ -12,3 +12,7 @@
 - Round 2 (2026-10-25, Kie $0.18, Ralph: "Make sure to double check your prompts so that the still come out right"). Prompt fixes first: the body block's "frame cuts at her chest" and the top description fought "knees to floor" on S2/S7, and S7's back-mark ref + "when the back shows" pulled a back view; now legs-only shots carry no top/waist/back-mark text, and the shot, framing and foot direction come first (tools/make_shots.py LEGS, refs_for).
 - S2 r2 PASS: knees-to-floor side view, both toes point left, back heel lifting; side tab sits a little forward of the real position (small).
 - S7 r2 FAIL: front view is right, but her lifted foot shows its sole and heel to the camera, reads as a backwards shoe. Asked: redo $0.09 with "both soles flat on the floor, the soles never show", or drop S7.
+- Round 3 (2026-10-25, Kie $0.27; Ralph: "Do not need to keep showing the backside so often. Front side and little of backside is good"; S5 + S6 rewritten as front views, S7 front walk). Every prompt linted (grace/prompt_check.py, new standard) and read in full before the run.
+- S5 r3 PASS: front, knees down, toes at the lens, parallel, sequin Vans right.
+- S7 r3 PASS: front walk toward the camera, soles flat, toes at the lens.
+- S6 r3 FAIL: front view and hands right, but the shoes are a different pair at 2x (small brown/tan canvas checks, black heel panel, gold eyelets). Shoe colours now spelled out in every prompt (black and off-white only, black eyelets, checkerboard round the heel). Redo asked ($0.09).
