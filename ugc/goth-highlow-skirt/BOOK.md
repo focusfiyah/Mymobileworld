@@ -1,4 +1,4 @@
-# Production Book: Goth High-Low Skirt v2 (try-on route), 2026-10-23, rev 4 2026-10-25 (bare legs + boots, neck down; step A in Ralph's Gemini app)
+# Production Book: Goth High-Low Skirt v2 (try-on route), 2026-10-23, rev 5 2026-10-25 (bare legs + boots, neck down; step A done in Ralph's Gemini app)
 
 ## 1. Job
 - Client / own content: Grace  Product: dark brown goth high-low drawstring skirt (TikTok Shop listing, research/listing/)  Route: one base edit per Grace body photo (black long-sleeve top + bare legs + black knee-high boots; Ralph's Gemini app $0 first, else Kie nano-banana-pro) -> real skirt put on by virtual try-on (Kling Kolors on fal) -> clips Flow first ($0), Google Omni on Kie only when Flow can't (ugc-product-ad references/product-lock.md), tug-cut edit
@@ -32,7 +32,8 @@ Outfit: black fitted long-sleeve top (Ralph 2026-10-25, the cut 1 top) + the rea
 
 Stills, two steps per look:
 - Step A, base edit (3 photos, L1 and L4 share front.jpg): top + bare legs + boots in ONE edit, prompts/v2_base_front.txt and v2_base_back.txt (written with prompt-master), refs: image 1 = Grace photo, image 2 = tryon/garment_top_black_ls.jpg (the cut 1 top), image 3 = refs/boots_cut1.png (the cut 1 boots). Ralph 2026-10-25: "Gemini": he runs the 3 edits in his Gemini app ($0) from the kit I send (flow_kit-style folder tryon/gemini_kit/), sends the results back, I QC them at 2x (bare legs match his arms, boots right foot/left foot, top, nothing else changed). A failed edit gets a second Gemini try, not a paid one; Kie only on his word with the cost.
-- Step B, skirt try-on (Kolors, fal, no text prompt): human_image_url = the step A result, garment_image_url = the real listing photo below. Then free fixes: colour shift to the real chocolate brown (70,51,46), neck-down crop, same framing on every look.
+- Step A DONE 2026-10-25: Ralph's 3 Gemini results in tryon/gemini_out/ (A1_front, A2_front_face, A3_back), QC'd at 2x (review round 32). No phone in them, so framing stays neck down (the inspo itself frames waist to floor).
+- Step B, skirt try-on (Kolors, fal, no text prompt): human_image_url = the step A result (tryon/gemini_out/), garment_image_url = the real listing photo below. Then free fixes: colour shift to the real chocolate brown (70,51,46), neck-down crop, same framing on every look.
 | Look | Grace photo (grace/ref/body/) | Real listing photo (skirt) |
 |---|---|---|
 | L1 knee | front.jpg | 07 (on model, front at the knee) |
