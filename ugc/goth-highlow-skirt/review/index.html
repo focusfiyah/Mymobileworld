@@ -31,6 +31,7 @@ td.n{white-space:nowrap}
 .tag{font:600 .72rem var(--body);letter-spacing:.05em;padding:1px 6px;border-radius:4px;border:1px solid var(--line);white-space:nowrap}
 .hand{color:var(--accent);border-color:var(--accent)}
 .total td{font-weight:600}
+.kitimgs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.kitimgs img{aspect-ratio:3/4;object-fit:cover;border:1px solid var(--line)}.kitimgs figure{display:grid;gap:4px}.kitp{white-space:pre-wrap;font-size:.85rem;background:var(--bg);padding:10px;border-radius:8px;margin:0;overflow-wrap:anywhere}details.box{display:grid;gap:10px;border-top:1px solid var(--line);padding-top:12px}details.box summary{cursor:pointer;font-size:1.02rem;margin-bottom:8px}details.box button{font:600 .85rem var(--body);padding:6px 12px;border-radius:8px;border:1px solid var(--accent);background:var(--card);color:var(--accent);cursor:pointer}.kitimgs .sv{width:100%}.dlnote{display:none}.btns{margin:8px 0}
 </style>
 <div class="wrap">
   <header>
@@ -41,9 +42,28 @@ td.n{white-space:nowrap}
 
   <section class="round">
     <div><span class="pill">Round 31 · Gemini app kit · book rev 4 · $1.86</span></div>
-    <h2>Your answers are in: Gemini app for step A, black shorts OK</h2>
-    <p>The kit for the 3 Gemini runs was sent in the chat (folder tryon/gemini_kit): for each run, upload that run's Grace photo, then the top, then the boots, in that order, and paste the prompt from PROMPTS.txt (the same prompts as round 30 below). Send the 3 results back at full size. I check each one at 2x: bare legs match her arms, the right boot on each foot, the top, and nothing else changed.</p>
-    <p>Book rev 4: step A is now $0, so TOTAL drops to $1.86 (Kolors $0.28 + Kie Omni $1.575 only if Flow can't make the clips). Expected spend is still $0.28.</p>
+    <h2>Gemini kit: 3 runs, each with its images and its prompt</h2>
+    <p>Your answers are in: Gemini app for step A, black shorts OK. For each run: tap Save on the 3 images, open a new Gemini chat, upload them in the order shown, tap Copy prompt and paste it. Send me the 3 results at full size. I check each one at 2x: bare legs match her arms, the right boot on each foot, the top, nothing else changed.</p>
+    <p class="meta dlnote" id="dlnote">Save buttons aren't available in this view: press and hold an image to save it.</p>
+    <details class="box" open><summary><b>A1</b> · front, feeds L1 and L4</summary>
+      <p>Upload these 3 in this order, then paste the prompt.</p>
+      <div class="kitimgs"><figure><img src="kit/A1_front_image1.jpg" alt="1. Grace photo"><figcaption>1. Grace photo</figcaption><button class="sv" data-src="kit/A1_front_image1.jpg">Save</button></figure><figure><img src="kit/image2_top.jpg" alt="2. The top"><figcaption>2. The top</figcaption><button class="sv" data-src="kit/image2_top.jpg">Save</button></figure><figure><img src="kit/image3_boots.png" alt="3. The boots"><figcaption>3. The boots</figcaption><button class="sv" data-src="kit/image3_boots.png">Save</button></figure></div>
+      <div class="btns"><button class="cp" data-p="pA1">Copy prompt</button> <button class="svp" data-p="pA1">Save prompt</button></div>
+      <pre class="kitp" id="pA1">Edit image 1, a real photo of a woman seen from the front. Change ONLY three things and keep every other pixel the same. 1) Top: replace the pink tank with the black fitted long-sleeve crew-neck top shown in image 2 (plain matte black knit, sleeves to the wrists, hem at the waist), same fit on her body. 2) Legs: remove the sheer black tights. Her legs are bare, with exactly the same warm brown skin tone and real skin texture as her arms and hands in image 1, no lighter, no darker, no shine. At her hips she wears short plain black fitted shorts that end at the very top of the thigh. 3) Feet: black knee-high boots exactly like image 3: matte black smooth leather, round toe, flat chunky lug rubber sole, plain shaft to just below the knee, no buckles, no laces, no heel. Left boot on her left foot, right boot on her right foot, both toes pointing at the camera, the same foot position as image 1. Keep exactly the same: her pose, stance, body shape, arms, hands, long almond nails with white polish, the room, sun mirror, plant, blue curtain, oak floor, light, camera angle and framing. Do not add a skirt, a bag, jewellery or any other item. No text, no watermark. Same aspect ratio as image 1.</pre>
+    </details>
+    <details class="box" open><summary><b>A2</b> · front with face, feeds L3</summary>
+      <p>Upload these 3 in this order, then paste the prompt.</p>
+      <div class="kitimgs"><figure><img src="kit/A2_front_face_image1.jpg" alt="1. Grace photo"><figcaption>1. Grace photo</figcaption><button class="sv" data-src="kit/A2_front_face_image1.jpg">Save</button></figure><figure><img src="kit/image2_top.jpg" alt="2. The top"><figcaption>2. The top</figcaption><button class="sv" data-src="kit/image2_top.jpg">Save</button></figure><figure><img src="kit/image3_boots.png" alt="3. The boots"><figcaption>3. The boots</figcaption><button class="sv" data-src="kit/image3_boots.png">Save</button></figure></div>
+      <div class="btns"><button class="cp" data-p="pA2">Copy prompt</button> <button class="svp" data-p="pA2">Save prompt</button></div>
+      <pre class="kitp" id="pA2">Edit image 1, a real photo of a woman seen from the front. Change ONLY three things and keep every other pixel the same. 1) Top: replace the pink tank with the black fitted long-sleeve crew-neck top shown in image 2 (plain matte black knit, sleeves to the wrists, hem at the waist), same fit on her body. 2) Legs: remove the sheer black tights. Her legs are bare, with exactly the same warm brown skin tone and real skin texture as her arms and hands in image 1, no lighter, no darker, no shine. At her hips she wears short plain black fitted shorts that end at the very top of the thigh. 3) Feet: black knee-high boots exactly like image 3: matte black smooth leather, round toe, flat chunky lug rubber sole, plain shaft to just below the knee, no buckles, no laces, no heel. Left boot on her left foot, right boot on her right foot, both toes pointing at the camera, the same foot position as image 1. Keep exactly the same: her pose, stance, body shape, arms, hands, long almond nails with white polish, the room, sun mirror, plant, blue curtain, oak floor, light, camera angle and framing. Do not add a skirt, a bag, jewellery or any other item. No text, no watermark. Same aspect ratio as image 1.</pre>
+    </details>
+    <details class="box" open><summary><b>A3</b> · back, feeds L2</summary>
+      <p>Upload these 3 in this order, then paste the prompt.</p>
+      <div class="kitimgs"><figure><img src="kit/A3_back_image1.jpg" alt="1. Grace photo"><figcaption>1. Grace photo</figcaption><button class="sv" data-src="kit/A3_back_image1.jpg">Save</button></figure><figure><img src="kit/image2_top.jpg" alt="2. The top"><figcaption>2. The top</figcaption><button class="sv" data-src="kit/image2_top.jpg">Save</button></figure><figure><img src="kit/image3_boots.png" alt="3. The boots"><figcaption>3. The boots</figcaption><button class="sv" data-src="kit/image3_boots.png">Save</button></figure></div>
+      <div class="btns"><button class="cp" data-p="pA3">Copy prompt</button> <button class="svp" data-p="pA3">Save prompt</button></div>
+      <pre class="kitp" id="pA3">Edit image 1, a real photo of a woman seen from behind. Change ONLY three things and keep every other pixel the same. 1) Top: replace the pink tank with the black fitted long-sleeve crew-neck top shown in image 2 (plain matte black knit, sleeves to the wrists, hem at the waist), same fit on her body. 2) Legs: remove the sheer black tights. Her legs are bare, with exactly the same warm brown skin tone and real skin texture as her arms and hands in image 1, no lighter, no darker, no shine. At her hips she wears short plain black fitted shorts that end at the very top of the thigh. 3) Feet: black knee-high boots exactly like image 3: matte black smooth leather, round toe, flat chunky lug rubber sole, plain shaft to just below the knee, no buckles, no laces, no heel. Left boot on her left foot, right boot on her right foot, seen from behind: the backs of both boot shafts and heels of the lug soles face the camera, the same foot position as image 1. Keep exactly the same: her pose, stance, body shape, arms, hands, long almond nails with white polish, the room, sun mirror, plant, blue curtain, oak floor, light, camera angle and framing. Do not add a skirt, a bag, jewellery or any other item. No text, no watermark. Same aspect ratio as image 1.</pre>
+    </details>
+    <p class="meta">Book rev 4: step A $0, TOTAL $1.86 (Kolors $0.28 + Kie Omni only where Flow can't). Not approved yet; nothing paid runs until you OK it.</p>
   </section>
 
   <section class="round">
@@ -452,3 +472,18 @@ td.n{white-space:nowrap}
     <p class="meta">October Kie spend so far: $149.70 (no cap this month). Kie balance $9.88.</p>
   </section>
 </div>
+<script>
+(async()=>{const note=document.getElementById('dlnote');
+let dl=null;try{dl=await claude.use("downloads")}catch(e){}
+if(!dl){document.querySelectorAll('.sv,.svp').forEach(b=>b.style.display='none');note.style.display='block';}
+document.querySelectorAll('.sv').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const src=b.dataset.src;b.textContent='...';
+ try{const blob=await (await fetch(src)).blob();await dl.save({filename:src.split('/').pop(),data:blob});b.textContent='Saved';}
+ catch(e){b.textContent=(e&&e.code==='declined')?'Save':'Try again';}}));
+document.querySelectorAll('.svp').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const id=b.dataset.p;
+ try{await dl.save({filename:id.slice(1)+'-prompt.txt',data:document.getElementById(id).innerText});b.textContent='Saved';}
+ catch(e){b.textContent='Save prompt';}}));
+document.querySelectorAll('.cp').forEach(b=>b.addEventListener('click',async()=>{const el=document.getElementById(b.dataset.p);
+ try{await navigator.clipboard.writeText(el.innerText);b.textContent='Copied';}
+ catch(e){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected: tap Copy';}}));
+})();
+</script>

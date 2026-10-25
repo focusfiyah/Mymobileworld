@@ -17,7 +17,7 @@ Not tested yet (third-party figures, 2026-10-23): Omni Flash 4 s about 7 to 15 c
 whether Flow's Omni takes a start frame and ingredients together; download resolution. The trial measures these.
 
 
-**Kit delivery (2026-10-24, JIYU: Ralph "It's not clear how you provided the 6 flow kits" after 29 loose files in the chat):** put each shot's kit on the job's review page as its own card (the line, the steps, the images in upload order with a Save button each, the prompt with Copy and Save buttons; the page declares the `downloads` capability). Template: `ugc/jiyu-polish-pads/review/index.html` (Flow kits section). Send files in the chat only for a single shot.
+**Kit delivery (2026-10-24, JIYU: Ralph "It's not clear how you provided the 6 flow kits" after 29 loose files in the chat):** put each shot's kit on the job's review page as its own card (the line, the steps, the images in upload order with a Save button each, the prompt with Copy and Save buttons; the page declares the `downloads` capability). Template: `ugc/jiyu-polish-pads/review/index.html` (Flow kits section). Send files in the chat only for a single shot. Same card for Gemini-app still kits (Ralph 2026-10-25, goth skirt: kit was sent as loose files; copy `ugc/goth-highlow-skirt/review/index.html` round 31).
 
 ## The trial (next job with a product clip, then ask Ralph)
 1. Pick the riskiest product clip (the one most likely to drift: small print, a hand move, a turn).
