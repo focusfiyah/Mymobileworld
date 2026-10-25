@@ -3,7 +3,7 @@
 Ask (Ralph 2026-10-24): "recreate this using Grace" https://www.tiktok.com/t/ZPLAqjmEX (@sophmademebuyit/video/7666181406359407885, 18 s, 75.7K, music only).
 Same shoe as `ugc/vans-sequin-authentic/` (V1-V11; refs, research and REMOVED.md copied from there). Route: hands-only AI + product lock, Flow first.
 
-Status: S1 Flow take 2 PASS (Ralph "S1 got fixed"; tips onto its side 1.3-2.6 s, clean windows 0-1.3 + 2.7-4.0). Kits S2-S6 on the review page, waiting on Ralph's Flow takes. Spent $1.08 of $2.835 (still redos $0.54, lesson in PLAYBOOK §6).
+Status: cut v1 (15.5 s, out/V12_final.mp4) on the review page, QC CHECK_OK, cut gate OK; waiting on Ralph. All 6 clips = his free Flow takes. Spent $1.08 of $2.835. Next on OK: Drive CURRENT - Vans V12 + caption line.
 
 Files: BOOK.md (the plan), scripts.md (shots, optional voice, caption), shots.json (still + clip prompts, prompt-master), GATES.md, REMOVED.md,
 refs/ (sheet, close-ups incl. new real_insole_logo.jpg, place photos), rooms/SOURCES.md, research/ + proof/ (gate proofs).
