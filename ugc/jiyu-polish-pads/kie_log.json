@@ -1,0 +1,783 @@
+[
+ {
+  "t": "2026-10-24 05:56:32",
+  "submitted": "75a4a27e3fd825b400a563ecb2fa0ced",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands. HALF FACE ONLY: one side of her face from the"
+ },
+ {
+  "t": "2026-10-24 05:56:47",
+  "submitted": "a813b08252b96413da8c28a14917c7a1",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown sk"
+ },
+ {
+  "t": "2026-10-24 05:56:49",
+  "submitted": "1cd51189fbd551b184610c3c5e2cd72d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. HALF FACE ONLY: one side of her face from the cheekbone"
+ },
+ {
+  "t": "2026-10-24 05:56:51",
+  "submitted": "ea27f45a98fa5eef9683fbfee698d797",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. HALF FACE ONLY: one side of her face from the cheekbone"
+ },
+ {
+  "t": "2026-10-24 05:56:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands. HALF FACE ONLY: one side of her face from the cheekbone down to the jaw and neck, medium-dark brown skin with real pores and fine texture, black hair pulled back; her eyes and her mouth are NEVER in frame. Smooth, even, softly dewy (not oily) skin on the cheek and jaw in bright window light, pink tile soft behind (room reference). Extreme close side view. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the real bathroom to use as the background (same tiles, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371887-ppjucd6n3lk.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "75a4a27e3fd825b400a563ecb2fa0ced",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/75a4a27e3fd825b400a563ecb2fa0ced_0_1792821409.jpeg"
+   ]
+  },
+  "costTime": 30
+ },
+ {
+  "t": "2026-10-24 05:56:53",
+  "submitted": "9bea26ea228aec8ba000db98f2e5a2a0",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown sk"
+ },
+ {
+  "t": "2026-10-24 05:56:55",
+  "submitted": "fe277c9d7293c5675a431bc4ec8b1db1",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown sk"
+ },
+ {
+  "t": "2026-10-24 05:56:56",
+  "submitted": "201c303fad97d7170048be74332dbb7d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown sk"
+ },
+ {
+  "t": "2026-10-24 05:56:58",
+  "submitted": "33f3b038878884974f0b5c361f8ca831",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands, no people. ONE the real JIYU Cleansing Polish"
+ },
+ {
+  "t": "2026-10-24 05:57:00",
+  "submitted": "18e1d85fa8c46acc502464d4166193e0",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands, no people. the real JIYU Cleansing Polish Pad"
+ },
+ {
+  "t": "2026-10-24 05:57:01",
+  "submitted": "875324915634b13a863ccd046fa8c54d",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands, no people. the real JIYU Cleansing Polish Pad"
+ },
+ {
+  "t": "2026-10-24 05:57:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the whole wrist visible, the hand enters from the frame edge and GRIPS what it touches. The hand holds up JIYU's ORIGINAL toner pads jar exactly as its reference photos: same small squat size, PEACH-CORAL jar body, LIME-GREEN flip lid, giant DARK-GREEN letters J I Y U wrapping the jar; no other text, gripping it from the side with the thumb on the front, label facing the camera, at chest height in front of a mint-green tile bathroom with a wood vanity (room reference). The jar fills about a third of the frame. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = JIYU's ORIGINAL toner pads jar, real photos: peach-coral jar, lime-green lid, dark-green JIYU letters; image 2 = the real bathroom to use as the background (same tiles, colours and light); image 3 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The jar must match its reference photos exactly in shape, size and colours; every JIYU letter matches its close-up letter for letter and colour for colour; no lavender or purple anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372122-wwrqwn648vg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376090-n7uir7n9khd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821375907-okgkwd8xh3k.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a813b08252b96413da8c28a14917c7a1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a813b08252b96413da8c28a14917c7a1_0_1792821436.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-10-24 05:57:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. HALF FACE ONLY: one side of her face from the cheekbone down to the jaw and neck, medium-dark brown skin with real pores and fine texture, black hair pulled back; her eyes and her mouth are NEVER in frame. Grace's hand exactly as the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the whole wrist visible, the hand enters from the frame edge and GRIPS what it touches. Her fingertips press one real JIYU polish pad exactly as its pad close-up: a thin WHITE round cotton pad about 6 cm across, one side covered in a fine raised dimpled quilt texture, the other side flat and soft, slightly damp with the dimpled side on her cheek near the nose. Pink tile bathroom soft behind (room reference). Close side view. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 2 = the real bathroom to use as the background (same tiles, colours and light); image 3 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821373772-bwcrjvgu2y7.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376652-e87vgs2yvfg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ea27f45a98fa5eef9683fbfee698d797",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ea27f45a98fa5eef9683fbfee698d797_0_1792821436.jpeg"
+   ]
+  },
+  "costTime": 48
+ },
+ {
+  "t": "2026-10-24 05:57:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. HALF FACE ONLY: one side of her face from the cheekbone down to the jaw and neck, medium-dark brown skin with real pores and fine texture, black hair pulled back; her eyes and her mouth are NEVER in frame. Grace's hand exactly as the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the whole wrist visible, the hand enters from the frame edge and GRIPS what it touches. Her fingertips glide along her smooth jawline toward the ear. Grey marble and yellow flowers soft behind (room reference). Close side view. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the real bathroom to use as the background (same tiles, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371747-pjvsys38jth.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821375907-okgkwd8xh3k.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1cd51189fbd551b184610c3c5e2cd72d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1cd51189fbd551b184610c3c5e2cd72d_0_1792821448.jpeg"
+   ]
+  },
+  "costTime": 63
+ },
+ {
+  "t": "2026-10-24 05:57:49",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the whole wrist visible, the hand enters from the frame edge and GRIPS what it touches. Thumb and index finger pinch the edge of one real JIYU polish pad exactly as its pad close-up: a thin WHITE round cotton pad about 6 cm across, one side covered in a fine raised dimpled quilt texture, the other side flat and soft, slightly damp, held up close to the camera with the DIMPLED textured side facing the lens and filling half the frame; the open jar soft and out of focus below. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly; image 2 = a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua; image 3 = a real close-up of the pastel pink lid top with the small cobalt-blue JIYU; image 4 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 5 = the real bathroom to use as the background (same tiles, colours and light); image 6 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372274-dpil407q3fm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821375393-9xiez55twgt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821377252-bh6yhhzta4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371747-pjvsys38jth.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376652-e87vgs2yvfg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9bea26ea228aec8ba000db98f2e5a2a0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9bea26ea228aec8ba000db98f2e5a2a0_0_1792821465.jpeg"
+   ]
+  },
+  "costTime": 75
+ },
+ {
+  "t": "2026-10-24 05:57:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the whole wrist visible, the hand enters from the frame edge and GRIPS what it touches. The hand wraps around the real JIYU Cleansing Polish Pads jar exactly as its reference photos: SIZE FIRST, a small squat jar about 8.5 cm wide and 7 cm tall, it sits inside one palm, about as tall as a hand is wide, never bigger; frosted translucent MINT-AQUA jar body, a PASTEL PINK flip lid with a small half-moon thumb tab on the front, giant COBALT-BLUE letters J I Y U wrapping the jar body exactly as its reference photos (letters fill the whole height of the jar, cut off at the sides), a small cobalt-blue JIYU on the lid top; no other text, no lavender or purple, no white label, no added marks, no \u00ae or \u2122 on the wood vanity, fingers curled around the jar, thumb on the front edge, JIYU letters still readable between the fingers. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly; image 2 = a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua; image 3 = a real close-up of the pastel pink lid top with the small cobalt-blue JIYU; image 4 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 5 = the real bathroom to use as the background (same tiles, colours and light); image 6 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The jar must match its reference photos exactly in shape, size and colours; every JIYU letter matches its close-up letter for letter and colour for colour; no lavender or purple anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372056-jc323owxkci.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821375989-zmgq1mk1dnm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821378237-xxj8zp4h158.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376090-n7uir7n9khd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376652-e87vgs2yvfg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "fe277c9d7293c5675a431bc4ec8b1db1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/fe277c9d7293c5675a431bc4ec8b1db1_0_1792821469.jpeg"
+   ]
+  },
+  "costTime": 74
+ },
+ {
+  "t": "2026-10-24 05:57:55",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands, no people. ONE the real JIYU Cleansing Polish Pads jar exactly as its reference photos: SIZE FIRST, a small squat jar about 8.5 cm wide and 7 cm tall, it sits inside one palm, about as tall as a hand is wide, never bigger; frosted translucent MINT-AQUA jar body, a PASTEL PINK flip lid with a small half-moon thumb tab on the front, giant COBALT-BLUE letters J I Y U wrapping the jar body exactly as its reference photos (letters fill the whole height of the jar, cut off at the sides), a small cobalt-blue JIYU on the lid top; no other text, no lavender or purple, no white label, no added marks, no \u00ae or \u2122, lid closed, on the grey marble counter beside the white basin with the yellow flowers behind (room reference); the JIYU letters face the camera. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly; image 2 = a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua; image 3 = a real close-up of the pastel pink lid top with the small cobalt-blue JIYU; image 4 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 5 = the real bathroom to use as the background (same tiles, colours and light). The jar must match its reference photos exactly in shape, size and colours; every JIYU letter matches its close-up letter for letter and colour for colour; no lavender or purple anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372047-uk3z52yihp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376153-xc35qjpweu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821378233-3ya0whekn64.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371747-pjvsys38jth.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "33f3b038878884974f0b5c361f8ca831",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/33f3b038878884974f0b5c361f8ca831_0_1792821468.jpeg"
+   ]
+  },
+  "costTime": 68
+ },
+ {
+  "t": "2026-10-24 05:57:57",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands, no people. the real JIYU Cleansing Polish Pads jar exactly as its reference photos: SIZE FIRST, a small squat jar about 8.5 cm wide and 7 cm tall, it sits inside one palm, about as tall as a hand is wide, never bigger; frosted translucent MINT-AQUA jar body, a PASTEL PINK flip lid with a small half-moon thumb tab on the front, giant COBALT-BLUE letters J I Y U wrapping the jar body exactly as its reference photos (letters fill the whole height of the jar, cut off at the sides), a small cobalt-blue JIYU on the lid top; no other text, no lavender or purple, no white label, no added marks, no \u00ae or \u2122, lid flipped open showing a neat stack of white round pads inside and the clear tweezers clipped inside the pink lid, on a grey marble counter by a white basin, yellow flowers soft behind (room reference). Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly; image 2 = a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua; image 3 = a real close-up of the pastel pink lid top with the small cobalt-blue JIYU; image 4 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 5 = the real bathroom to use as the background (same tiles, colours and light). The jar must match its reference photos exactly in shape, size and colours; every JIYU letter matches its close-up letter for letter and colour for colour; no lavender or purple anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372124-y00t9cefcmb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376160-9fonx0t7kz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821378525-pnu4tjsfwy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371747-pjvsys38jth.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "18e1d85fa8c46acc502464d4166193e0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/18e1d85fa8c46acc502464d4166193e0_0_1792821471.jpeg"
+   ]
+  },
+  "costTime": 67
+ },
+ {
+  "t": "2026-10-24 05:58:24",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. No hands, no people. the real JIYU Cleansing Polish Pads jar exactly as its reference photos: SIZE FIRST, a small squat jar about 8.5 cm wide and 7 cm tall, it sits inside one palm, about as tall as a hand is wide, never bigger; frosted translucent MINT-AQUA jar body, a PASTEL PINK flip lid with a small half-moon thumb tab on the front, giant COBALT-BLUE letters J I Y U wrapping the jar body exactly as its reference photos (letters fill the whole height of the jar, cut off at the sides), a small cobalt-blue JIYU on the lid top; no other text, no lavender or purple, no white label, no added marks, no \u00ae or \u2122, standing alone on the wood vanity top, lid closed, the JIYU letters facing the camera, mint tile and round mirror soft behind (room reference). The jar takes about a quarter of the frame. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly; image 2 = a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua; image 3 = a real close-up of the pastel pink lid top with the small cobalt-blue JIYU; image 4 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 5 = the real bathroom to use as the background (same tiles, colours and light). The jar must match its reference photos exactly in shape, size and colours; every JIYU letter matches its close-up letter for letter and colour for colour; no lavender or purple anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372015-pv1ojdnz1c9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821375961-seqdk4zrl3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821378216-m3fihiuh4i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376090-n7uir7n9khd.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "875324915634b13a863ccd046fa8c54d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/875324915634b13a863ccd046fa8c54d_0_1792821500.jpeg"
+   ]
+  },
+  "costTime": 95
+ },
+ {
+  "t": "2026-10-24 05:58:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Grace's hand exactly as the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the whole wrist visible, the hand enters from the frame edge and GRIPS what it touches. Evening in the pink tile bathroom with the bright vanity lights on (bright and neutral, not yellow), deep blue dusk in a small window. The hand holds the clear tweezers from the lid and lifts one white pad out of the real JIYU Cleansing Polish Pads jar exactly as its reference photos: SIZE FIRST, a small squat jar about 8.5 cm wide and 7 cm tall, it sits inside one palm, about as tall as a hand is wide, never bigger; frosted translucent MINT-AQUA jar body, a PASTEL PINK flip lid with a small half-moon thumb tab on the front, giant COBALT-BLUE letters J I Y U wrapping the jar body exactly as its reference photos (letters fill the whole height of the jar, cut off at the sides), a small cobalt-blue JIYU on the lid top; no other text, no lavender or purple, no white label, no added marks, no \u00ae or \u2122, lid open on the counter. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin and plastic texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real jar, copy its squat shape, size and colours exactly; image 2 = a real close-up of the jar front: giant cobalt-blue JIYU letters on frosted mint-aqua; image 3 = a real close-up of the pastel pink lid top with the small cobalt-blue JIYU; image 4 = a real close-up of one JIYU pad: white, fine dimpled quilt texture (copy only the pad; ignore the hand and nail polish in that photo); image 5 = the real bathroom to use as the background (same tiles, colours and light); image 6 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The jar must match its reference photos exactly in shape, size and colours; every JIYU letter matches its close-up letter for letter and colour for colour; no lavender or purple anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821372133-qnnsawx10tf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376007-9kj78bgk43g.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821378361-dmvpwv8she6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821371695-8hlsynlmser.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821373772-bwcrjvgu2y7.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792821376652-e87vgs2yvfg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "201c303fad97d7170048be74332dbb7d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/201c303fad97d7170048be74332dbb7d_0_1792821516.jpeg"
+   ]
+  },
+  "costTime": 119
+ },
+ {
+  "t": "2026-10-24 06:19:11",
+  "submitted": "c69c1660c7a59fd63cccad5ebde58fb6",
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of JIYU's original toner pads jar. Change ONLY the letters on t"
+ },
+ {
+  "t": "2026-10-24 06:19:13",
+  "submitted": "ed24a9bd9d19243430848406a7f6dc71",
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 "
+ },
+ {
+  "t": "2026-10-24 06:19:14",
+  "submitted": "f9b3e82ec7efcda0b197cc94bb9016e6",
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front; image 3 is a real close-up of the pink lid to"
+ },
+ {
+  "t": "2026-10-24 06:19:16",
+  "submitted": "14ac0d72df4c60b3709540682907ccf0",
+  "prompt": "Image 1 = the real bathroom to use as the background. Image 2 = Grace's real hand sheet: copy her skin tone, short squar"
+ },
+ {
+  "t": "2026-10-24 06:19:18",
+  "submitted": "0459b35b8b35075bedc8e11889c1566a",
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY two things. (1) Remove the blue b"
+ },
+ {
+  "t": "2026-10-24 06:19:20",
+  "submitted": "0143a2eee927c2e805831f09936179cd",
+  "prompt": "Image 1 = the real bathroom to use as the background. Image 2 = Grace's real hand sheet: copy her skin tone, short squar"
+ },
+ {
+  "t": "2026-10-24 06:19:37",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of JIYU's original toner pads jar. Change ONLY the letters on the peach jar: replace them with the exact JIYU lettering from image 2, letter for letter and colour for colour: a heavy custom display font of chunky flat-cut DARK-GREEN blocks that fill the jar from its bottom edge up to the lime-green lid, the J cut off at the left edge and the U cut off at the right edge where the jar curves. NEVER a plain font. Keep everything else exactly the same: the hand, rings, nails, grip, the jar's shape, size and colours, the lime-green lid, the room, the light and the framing. No other text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822706704-7zz1571w0fj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709050-2j18f8fzwqs.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c69c1660c7a59fd63cccad5ebde58fb6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c69c1660c7a59fd63cccad5ebde58fb6_0_1792822775.jpeg"
+   ]
+  },
+  "costTime": 40
+ },
+ {
+  "t": "2026-10-24 06:19:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real bathroom to use as the background. Image 2 = Grace's real hand sheet: copy her skin tone, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, blue silicone band on the thumb. NOTHING on her wrist: no bracelet, no band, no watch; the blue silicone band is a thin ring on her THUMB only. HARD RULE: her eyes, nose and lips are NEVER in the frame. Camera behind her shoulder, looking past her ear at the side of her cheek and jaw; her face is turned away so the curve of her cheek hides her eye, nose and mouth; the top edge of the photo cuts across her cheekbone. Subject: a woman with medium-dark brown skin with real pores, black hair slicked back into a low bun, bare shoulder. Action: her fingertips glide slowly along her smooth jawline toward the ear; the hand comes in from the bottom edge of the frame, whole wrist visible. Skin: smooth, even, softly dewy, not oily. Setting: the grey marble bathroom with yellow flowers from image 1, soft behind. Composition: close-up of the side of the cheek, jaw and ear. Lighting: bright neutral daylight. Style: photorealistic phone photo, a single frame of a UGC video. Aspect ratio 9:16. No product, no text, no captions, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822706689-3edfvb5rw2e.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "14ac0d72df4c60b3709540682907ccf0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/14ac0d72df4c60b3709540682907ccf0_1792822787277.jpeg"
+   ]
+  },
+  "costTime": 43
+ },
+ {
+  "t": "2026-10-24 06:19:50",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY two things. (1) Remove the blue band from her wrist: the wrist is bare skin, no bracelet, no band, no watch. (2) The jar in the background: remove the small words under the letters and make the JIYU letters match image 2 letter for letter and colour for colour (chunky flat-cut cobalt-blue display blocks filling the jar from its bottom edge to the pink lid, J cut off at the left edge, U cut off at the right edge). NEVER a plain font, no small text. Keep everything else exactly the same: the pad, its dimpled texture, the fingers, nails, rings, the room, the soft focus, the light and the framing.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822706662-5jdebluafjx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0459b35b8b35075bedc8e11889c1566a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0459b35b8b35075bedc8e11889c1566a_0_1792822785.jpeg"
+   ]
+  },
+  "costTime": 39
+ },
+ {
+  "t": "2026-10-24 06:19:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front; image 3 is a real close-up of the pink lid top. Change ONLY the lettering: the letters on the jar body MUST match image 2 letter for letter and colour for colour (chunky flat-cut cobalt-blue display blocks filling the jar from its bottom edge to the lid, J cut off at the left edge, U cut off at the right edge), and the small JIYU on the lid MUST match image 3. NEVER a plain font. Keep everything else exactly the same: the jar's shape, size and colours, the pink lid and its tab, the wood vanity, the mint tile, the light and the framing. No other text.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822706536-js5qwwwntin.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822710797-2ucvtpyg57f.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f9b3e82ec7efcda0b197cc94bb9016e6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f9b3e82ec7efcda0b197cc94bb9016e6_0_1792822788.jpeg"
+   ]
+  },
+  "costTime": 47
+ },
+ {
+  "t": "2026-10-24 06:20:22",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. Image 4 = Grace's real hand sheet. SIZE FIRST: the jar is small and squat, about 8.5 cm wide and 7 cm tall, it fits inside one palm and is never bigger than the hand. The JIYU letters MUST match image 2 letter for letter and colour for colour: a heavy custom display font of chunky flat-cut cobalt-blue blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge up to the pink lid, the J cut off at the left edge and the U cut off at the right edge where the jar curves away. NEVER a plain or regular font. No other words, no small text, no ingredient lines anywhere on the jar. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon thumb tab, small cobalt-blue JIYU on the lid top. No \u00ae or \u2122, no added marks. Action: Grace's hand GRIPS the jar from the side: four fingers curled around the far side of the jar body, the thumb pressed on the near side, the palm against the jar, nothing resting on the lid; the jar has just lifted 2 cm off the wood vanity. Hand exactly as image 4: medium-brown skin, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, blue silicone band on the thumb, the whole wrist visible. NOTHING on her wrist: no bracelet, no band, no watch; the blue silicone band is a thin ring on her THUMB only. , the arm enters from the right edge of the frame. Setting: the mint-green tile bathroom with the wood vanity and round mirror from image 3, soft behind. Composition: medium close-up, jar about a quarter of the frame, letters facing the camera between the fingers. Lighting: bright neutral daylight. Style: photorealistic phone photo, a single frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709306-0a7i7t3teab6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822711518-12wf95lt0pu.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ed24a9bd9d19243430848406a7f6dc71",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ed24a9bd9d19243430848406a7f6dc71_0_1792822818.jpeg"
+   ]
+  },
+  "costTime": 80
+ },
+ {
+  "t": "2026-10-24 06:20:35",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real bathroom to use as the background. Image 2 = Grace's real hand sheet: copy her skin tone, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, blue silicone band on the thumb. NOTHING on her wrist: no bracelet, no band, no watch; the blue silicone band is a thin ring on her THUMB only. Image 3 = a real JIYU pad: copy only the pad (white, about 6 cm across, fine dimpled quilt texture), ignore the hand and nail polish in that photo. HARD RULE: her eyes, nose and lips are NEVER in the frame. Camera behind her shoulder, looking past her ear at the side of her cheek and jaw; her face is turned away so the curve of her cheek hides her eye, nose and mouth; the top edge of the photo cuts across her cheekbone. Subject: a woman with medium-dark brown skin with real pores, black hair slicked back into a low bun, bare shoulder. Action: her fingertips press the pad, dimpled side down, on her cheek and move it in small circles; the hand comes in from the bottom edge of the frame, whole wrist visible. Setting: the pink tile bathroom from image 1, soft behind. Composition: close-up of the side of the cheek, jaw and ear. Lighting: bright neutral daylight. Style: photorealistic phone photo, a single frame of a UGC video. Aspect ratio 9:16. No jar, no text, no captions, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822706673-fa2umbckre8.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822711175-8nmkf9xse27.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0143a2eee927c2e805831f09936179cd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1792822831182-7g25s49s2ym.jpg"
+   ]
+  },
+  "costTime": 81
+ },
+ {
+  "t": "2026-10-24 06:33:29",
+  "submitted": "bf75546c90e3495a561bd80d9b2f6a87",
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 "
+ },
+ {
+  "t": "2026-10-24 06:33:31",
+  "submitted": "9ba2f87699886be935cbfc5246e61462",
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 "
+ },
+ {
+  "t": "2026-10-24 06:33:33",
+  "submitted": "58264ee3e9468b3b20f36f18435fb4fa",
+  "prompt": "Image 1 is the photo to edit. Change ONLY her upper wrist: remove the blue band so the wrist is bare medium-brown skin w"
+ },
+ {
+  "t": "2026-10-24 06:34:04",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Change ONLY her upper wrist: remove the blue band so the wrist is bare medium-brown skin with natural creases, matching the hand's skin tone; no bracelet, no band, no watch. Keep everything else exactly the same: the tweezers, the pad, the jar and its letters, both hands, rings and nails, the pink tiles, the window, the light and the framing.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792823599025-4khvcg72jm9.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "58264ee3e9468b3b20f36f18435fb4fa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/58264ee3e9468b3b20f36f18435fb4fa_0_1792823643.jpeg"
+   ]
+  },
+  "costTime": 36
+ },
+ {
+  "t": "2026-10-24 06:34:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. SIZE FIRST: a small squat jar about 8.5 cm wide and 7 cm tall, palm-sized. The JIYU letters MUST match image 1 letter for letter and colour for colour: chunky flat-cut cobalt-blue display blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge to the pink lid, wrapping around the curve so the J and the U disappear round the sides. NEVER a plain or regular font, no other words or small text anywhere on the jar. CAMERA ANGLE: the jar is seen from a high three-quarter angle, about 30 degrees above and turned 30 degrees, exactly like the big left photo in image 2, so the letters curve around the jar. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon thumb tab, small cobalt-blue JIYU on the lid top. No \u00ae or \u2122, no added marks. Subject: the jar standing alone on the light wood vanity top, lid closed. No hands, no people. Setting: the mint-green tile bathroom with the round gold mirror from image 3, soft behind. Composition: the jar about a quarter of the frame, a little right of centre. Lighting: bright neutral daylight. Style: photorealistic phone photo, one frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709306-0a7i7t3teab6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822711518-12wf95lt0pu.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9ba2f87699886be935cbfc5246e61462",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9ba2f87699886be935cbfc5246e61462_0_1792823654.jpeg"
+   ]
+  },
+  "costTime": 50
+ },
+ {
+  "t": "2026-10-24 06:34:26",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. Image 4 = Grace's real hand sheet. SIZE FIRST: a small squat jar about 8.5 cm wide and 7 cm tall; it fits inside her hand. The JIYU letters MUST match image 1 letter for letter and colour for colour: chunky flat-cut cobalt-blue display blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge to the pink lid, wrapping around the curve so the J and the U disappear round the sides. NEVER a plain or regular font, no other words or small text anywhere on the jar. CAMERA ANGLE: the jar is seen from a high three-quarter angle, about 30 degrees above and turned 30 degrees, exactly like the big left photo in image 2, so the letters curve around the jar. GRIP: her hand comes in from the RIGHT side of the frame and wraps around the SIDE of the jar body like holding a cup: thumb on the near side, four fingers curled around the far side, palm against the jar; NOTHING touches the lid; the jar is lifted 2 cm off the wood vanity. Hand exactly as image 4: medium-brown skin, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, thin blue silicone ring on the THUMB only; NOTHING on her wrist: no bracelet, no band, no watch; the whole wrist visible. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon tab. No \u00ae or \u2122. Setting: the mint-green tile bathroom from image 3, soft behind. Lighting: bright neutral daylight. Style: photorealistic phone photo, one frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709306-0a7i7t3teab6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822711518-12wf95lt0pu.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bf75546c90e3495a561bd80d9b2f6a87",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bf75546c90e3495a561bd80d9b2f6a87_0_1792823663.jpeg"
+   ]
+  },
+  "costTime": 61
+ },
+ {
+  "t": "2026-10-24 17:03:54",
+  "submitted": "5bc425a6785db77d66a91a5d92f7538f",
+  "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 "
+ },
+ {
+  "t": "2026-10-24 17:03:56",
+  "submitted": "5ef8442ac977f45700acaf11e2853895",
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY the lower part: remove the lower "
+ },
+ {
+  "t": "2026-10-24 17:03:58",
+  "submitted": "c9662ceb9c445817ec7ef8f029cbc06d",
+  "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY the lower part: remove the second"
+ },
+ {
+  "t": "2026-10-24 17:04:34",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY the lower part: remove the lower hand that holds the jar completely, so exactly ONE hand remains in the photo (the hand holding the tweezers). The jar now stands on its own on the white counter, upright, lid open, with the same pad being lifted out; the visible JIYU letters match image 2 letter for letter and colour for colour. Keep everything else exactly the same: the tweezers, the pad, the upper hand, its nails and rings, the pink tiles, the night window, the light and the framing. No other hands, fingers or arms anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792861399159-yd3t6i19g0f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5ef8442ac977f45700acaf11e2853895",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/5ef8442ac977f45700acaf11e2853895_0_1792861471.jpeg"
+   ]
+  },
+  "costTime": 42
+ },
+ {
+  "t": "2026-10-24 17:04:36",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is a real close-up of the jar front. Change ONLY the lower part: remove the second hand that holds the jar completely, so exactly ONE hand remains in the photo (the hand pinching the pad). The jar now stands upright on its own on a grey marble counter just below, in the same soft focus; its letters still match image 2 letter for letter and colour for colour. Keep everything else exactly the same: the pad and its dimpled texture, the hand that pinches it, its nails and rings, the jar's shape and colours, the room, the light and the framing. No other hands, fingers or arms anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792861399431-zqkbbod0acf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c9662ceb9c445817ec7ef8f029cbc06d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c9662ceb9c445817ec7ef8f029cbc06d_0_1792861472.jpeg"
+   ]
+  },
+  "costTime": 40
+ },
+ {
+  "t": "2026-10-24 17:05:04",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the LETTER close-up of the real jar front. Image 2 = the product sheet of the real jar (real photos). Image 3 = the real bathroom to use as the background. Image 4 = Grace's real hand sheet. HARD RULES: exactly ONE hand in the frame, her RIGHT hand, anatomically correct with one thumb and four fingers. SIZE: the jar is small, about 8.5 cm wide and 7 cm tall: it is no taller than her fingers are long, and her hand looks bigger than the jar. The JIYU letters MUST match image 1 letter for letter and colour for colour: chunky flat-cut cobalt-blue display blocks on frosted mint-aqua, so tall they fill the jar from its bottom edge to the pink lid, wrapping around the curve so the J and the U disappear round the sides. NEVER a plain or regular font, no other words or small text on the jar. GRIP: her right arm enters from the bottom-right corner of the frame; she holds the jar from the side like a cup: her THUMB lies on the front-left of the jar facing the camera, her four fingers wrap around the BACK of the jar so only their fingertips show at the right edge of the jar; palm against the jar; nothing touches the lid; the jar is lifted 2 cm off the wood vanity. CAMERA ANGLE: a high three-quarter view of the jar, about 30 degrees above, like the big left photo in image 2. Hand exactly as image 4: medium-brown skin, short squared French-tip nails (pale pink, white tips), silver crown ring stack on the ring finger, small gold heart-stone ring on the middle finger, thin blue silicone ring on the thumb; NOTHING on her wrist: no bracelet, no band, no watch; the whole wrist visible. Product: the real JIYU Cleansing Polish Pads jar exactly as image 2: frosted mint-aqua body, pastel pink flip lid with a small half-moon tab. No \u00ae or \u2122. Setting: the mint-green tile bathroom from image 3, soft behind. Lighting: bright neutral daylight. Style: photorealistic phone photo, one frame of a UGC video. Aspect ratio 9:16. No text, no captions, no watermark.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822708830-l4990f1s7in.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709306-0a7i7t3teab6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822711518-12wf95lt0pu.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5bc425a6785db77d66a91a5d92f7538f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/5bc425a6785db77d66a91a5d92f7538f_0_1792861497.jpeg"
+   ]
+  },
+  "costTime": 70
+ },
+ {
+  "t": "2026-10-24 17:22:06",
+  "submitted": "c582ce5c55aed18d37b6184bfd282a8e",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips glide slowly a"
+ },
+ {
+  "t": "2026-10-24 17:22:08",
+  "submitted": "871417a8240496d4b3bfe98097f69bb7",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips move the white"
+ },
+ {
+  "t": "2026-10-24 17:22:09",
+  "submitted": "35e85e239fb97ac940cccbf043f7316a",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing and skin. Motion: she turns her head a few degrees to"
+ },
+ {
+  "t": "2026-10-24 17:23:32",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing and skin. Motion: she turns her head a few degrees toward the window light and back, slowly; smooth, even, softly dewy skin on the cheek and jaw. Her face stays turned away from the camera the whole clip: her eye, nose and lips NEVER come into view; she does not turn toward the camera. No hand, fingers, product or people appear at any time. Camera: very slow push-in. Vertical 9:16, bright neutral daylight, realistic skin texture. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792862513053-bp16yfye7uu.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "35e85e239fb97ac940cccbf043f7316a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792862608445-a6owmc32uv7.mp4"
+   ]
+  },
+  "costTime": 86
+ },
+ {
+  "t": "2026-10-24 17:23:34",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips glide slowly along her smooth jawline toward her ear. Her face stays turned away from the camera the whole clip: her eye, nose and lips NEVER come into view; she does not turn toward the camera. Exactly one hand, her right hand, the same short squared French-tip nails, crown ring stack and small gold heart ring as the first frame; nothing on her wrist. No product appears. Camera: locked-off close-up. Vertical 9:16, bright neutral daylight, realistic skin texture. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792862512751-e8xtb4kbr64.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c582ce5c55aed18d37b6184bfd282a8e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792862610671-w5sogzbbjt.mp4"
+   ]
+  },
+  "costTime": 92
+ },
+ {
+  "t": "2026-10-24 17:23:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, skin and hand. Motion: her fingertips move the white pad, dimpled side down, in small slow circles on her cheek; the pad stays the same size and texture. Her face stays turned away from the camera the whole clip: her eye, nose and lips NEVER come into view; she does not turn toward the camera. Exactly one hand, her right hand, the same short squared French-tip nails, crown ring stack and small gold heart ring as the first frame; nothing on her wrist. No jar, no other hands. Camera: locked-off close-up, slight handheld sway. Vertical 9:16, bright neutral daylight, realistic skin texture. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792862512998-efzmu7ruix4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "871417a8240496d4b3bfe98097f69bb7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792862608158-0hjp5yfra6c.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-24 18:58:04",
+  "submitted": "35b5e24503e51fb51d0f50e29613e260",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, hand, grip, nails and rings exactly. Motion: the sam"
+ },
+ {
+  "t": "2026-10-24 18:59:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, hand, grip, nails and rings exactly. Motion: the same one hand keeps its grip around the side of the jar and slowly lifts it a few centimetres, then holds; the jar stays upright, never turns, tilts or flips, and stays the same size. The jar's chunky cobalt-blue JIYU letters, frosted mint-aqua body and pink lid stay exactly as in the first frame in every frame: never redraw the letters, never a plain font, no other text. Exactly one hand in the frame, nothing on her wrist. Camera: locked-off, slight handheld sway. Vertical 9:16, bright neutral light, realistic textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792868276485-ux5weesprh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "35b5e24503e51fb51d0f50e29613e260",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792868355997-l9lsddjp8l.mp4"
+   ]
+  },
+  "costTime": 75
+ },
+ {
+  "t": "2026-10-24 19:20:48",
+  "submitted": "bedaa1156294b1ada861ea11f53549c6",
+  "prompt": "Image 1 is the photo to edit. Image 2 is Grace's real hand sheet. Change ONLY the hand: remove the extra finger with the"
+ },
+ {
+  "t": "2026-10-24 19:21:26",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the photo to edit. Image 2 is Grace's real hand sheet. Change ONLY the hand: remove the extra finger with the silver crown rings that points up at the top left of the jar, so the hand is anatomically correct with exactly FIVE digits: ONE thumb (the digit with the thin blue ring that lies across the front of the jar) and FOUR fingers whose tips wrap around the right side of the jar. Where the removed finger was, show the mint-green tile wall and the round mirror behind, matching the background. Keep everything else exactly the same: the jar, its chunky cobalt-blue JIYU letters, the pink lid, the four fingers, nails, gold rings, skin tone, the room, the light and the framing. No new fingers, no other hands.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792868276485-ux5weesprh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792822709052-z4qgpvs9fyn.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bedaa1156294b1ada861ea11f53549c6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bedaa1156294b1ada861ea11f53549c6_0_1792869684.jpeg"
+   ]
+  },
+  "costTime": 38
+ },
+ {
+  "t": "2026-10-24 19:22:08",
+  "submitted": "87d5a2ff221a692b215835d0027e55f3",
+  "prompt": "Start exactly on the first frame and keep its room, light, framing, hand, grip, nails and rings exactly. Motion: the sam"
+ },
+ {
+  "t": "2026-10-24 19:23:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep its room, light, framing, hand, grip, nails and rings exactly. Motion: the same one hand keeps its grip around the side of the jar and slowly lifts it a few centimetres, then holds; the jar stays upright, never turns, tilts or flips, and stays the same size. The jar's chunky cobalt-blue JIYU letters, frosted mint-aqua body and pink lid stay exactly as in the first frame in every frame: never redraw the letters, never a plain font, no other text. Exactly one hand in the frame, nothing on her wrist. Camera: locked-off, slight handheld sway. Vertical 9:16, bright neutral light, realistic textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/jiyu-polish-pads/1792869701247-omgbokxvgsr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "87d5a2ff221a692b215835d0027e55f3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792869816368-krlt0gv47a.mp4"
+   ]
+  },
+  "costTime": 91
+ }
+]

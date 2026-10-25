@@ -8,7 +8,8 @@ sys.path.insert(0, os.path.join(REPO, "grace"))
 REQ = ["product", "url", "sales", "views", "faceless", "format", "hook", "hook_id", "hook_type", "pain_point",
        "problem_solved", "why_converted", "script", "onscreen_text"]
 SEED = {"7696231728855223582", "7696285070046301470", "7696617399759555871", "7696627904985304351",
-        "7697844264050511135", "7685441537894780190"}
+        "7697844264050511135", "7685441537894780190",
+        "7699252578239925535"}
 
 
 def db():
@@ -116,7 +117,8 @@ def versions():
 
 
 def promoted():
-    ads = {"7696231728855223582", "7696285070046301470", "7696617399759555871", "7697844264050511135"}
+    ads = {"7696231728855223582", "7696285070046301470", "7696617399759555871", "7697844264050511135",
+           "7699252578239925535"}
     for v in db():
         want = "Yes, by the brand (TikTok ad label)" if v["id"] in ads else "No"
         if v.get("promoted") != want:

@@ -9,6 +9,12 @@ merged.)
 Run it at the start of every session (one fetch, a few seconds) and merge what it lists before relying on CLAUDE.md,
 the playbook or the skills. Every job ends with its branch merged into main (CLAUDE.md, "Merging").
 Prints SYNC_OK when nothing recent is left unmerged.
+
+It compares content, not commits (Ralph 2026-10-24: 29 branches were listed although main already had all their
+work; it was ported by hand or re-made later, so the commits never showed as merged). A file the branch changed
+counts as missing from main only when main still has the version the branch started from, or when the branch's last
+edit of it is newer than main's (newest edit wins, as in the merge rule). Files identical on main, and files main
+edited after the branch did, are left out.
 """
 import subprocess, sys, time
 
@@ -16,13 +22,44 @@ RULE_FILES = ("CLAUDE.md", "grace/PLAYBOOK.md", "grace/voice/", "handoff/", ".cl
 
 
 def git(*a):
-    return subprocess.run(["git", *a], capture_output=True, text=True).stdout.strip()
+    return subprocess.run(["git", *a], capture_output=True, text=True, errors="replace").stdout.strip()
+
+
+def blobs(commit):
+    """{path: blob id} for every file in a commit (one call instead of one per file)."""
+    out = {}
+    for line in git("ls-tree", "-r", commit).splitlines():
+        meta, path = line.split("\t", 1)
+        out[path] = meta.split()[2]
+    return out
+
+
+def last_edit(base, ref, path):
+    t = git("log", "-1", "--format=%ct", f"{base}..{ref}", "--", path)
+    return int(t) if t else 0
+
+
+def missing(ref, main_blobs):
+    """Files whose change on ref is not on main, or None when ref shares no history with main."""
+    base = git("merge-base", "origin/main", ref)
+    if not base:
+        return None
+    ref_blobs, base_blobs = blobs(ref), blobs(base)
+    out = []
+    for f in git("diff", "--name-only", base, ref).splitlines():
+        b, m, o = ref_blobs.get(f), main_blobs.get(f), base_blobs.get(f)
+        if b == m:
+            continue                      # main already has this exact version
+        if m == o or last_edit(base, ref, f) > last_edit(base, "origin/main", f):
+            out.append(f)                 # main never took the change, or the branch's edit is the newer one
+    return out
 
 
 def main():
     days = int(sys.argv[sys.argv.index("--days") + 1]) if "--days" in sys.argv else 14
     git("fetch", "-q", "--prune", "origin")
-    since = time.time() - days * 86400; left = 0
+    since = time.time() - days * 86400; left = unrelated = 0
+    main_blobs = blobs("origin/main")
     for line in git("for-each-ref", "refs/remotes/origin", "--format=%(committerdate:unix) %(refname:short)").splitlines():
         ts, ref = line.split(" ", 1)
         if ref in ("origin/main", "origin/HEAD", "origin") or int(ts) < since:
@@ -30,10 +67,17 @@ def main():
         ahead = git("rev-list", "--count", f"origin/main..{ref}")
         if ahead in ("", "0"):
             continue
-        files = git("diff", "--name-only", f"origin/main...{ref}").splitlines()
+        files = missing(ref, main_blobs)
+        if files is None:
+            unrelated += 1
+            continue
+        if not files:
+            continue
         rules = [f for f in files if f.startswith(RULE_FILES)]
         left += 1
-        print(f"{ref}: +{ahead} commits, {len(files)} files" + (f", RULE FILES: {', '.join(rules[:6])}" if rules else ""))
+        print(f"{ref}: {len(files)} files main lacks (+{ahead} commits)" + (f", RULE FILES: {', '.join(rules[:6])}" if rules else ""))
+    if unrelated:
+        print(f"({unrelated} branch(es) share no history with main and were skipped)")
     print("SYNC_OK" if not left else f"{left} branch(es) not on main: merge them (keep both sides of rule edits, newest rule wins)")
 
 

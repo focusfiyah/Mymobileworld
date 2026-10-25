@@ -65,7 +65,7 @@ lessons below are specific to making ads:
   resort** (it reads as a sticker), only with Ralph's OK for that shot. Route, prompt template, costs:
   `references/product-lock.md`. Why: October's redos (Vans tab and gift-shot shoe, Cleanwaste boxes) cost more than
   the first takes.
-- **Every still, edit and clip prompt is written with the `prompt-master` skill** (its "Ralph's stack"), every
+- **Every still, edit and clip prompt is written with the `prompt-master` skill, loaded with the Skill tool first in every session** (Ralph 2026-10-24: JIYU round-1 stills written from memory of its rules, 6 of 10 redone) (its "Ralph's stack"), every
   reference named by its tag and the print matched letter for letter (Ralph 2026-10-21: it locks the models to what we
   want). Paste the final prompt into the plan so Ralph sees it before spend.
 - **Budget (Ralph 2026-10-21: "blowing through my budget"):** every plan and every redo question shows
@@ -108,7 +108,7 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
 - One recurring persona, per-shot Grok clips, trim dead air, animated CTA, lip sync, Kie stills and prices:
   `references/persona-per-shot.md`
 - Hands-only ad, on-camera demo over a voiceover, GTT KN95 lessons: `references/hands-only-and-demo.md`
-- Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result: `references/lipsync-options.md`
+- Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result; Kie talking-avatar models (one still + the voice, no clip first, untested) for talking-head lines: `references/lipsync-options.md`
 - Product lock (every product shot: Omni clips, edit turns, budget line): `references/product-lock.md`
 - Exact-product route (real photo + paste-back, complex products; last resort since 2026-10-21): `references/exact-product.md`
 - Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).

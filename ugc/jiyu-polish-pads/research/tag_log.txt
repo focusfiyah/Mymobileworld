@@ -1,0 +1,114 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 52 of 86 videos posted since 2026-08-25
+52 videos -> ugc/jiyu-polish-pads/research/tag/tag-jiyu.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,000,000   1.4   0.29   86 2026-09-11  @greyfinds: Straight from the CEO & co-founder of JIYU ✨ I got to hear about the s
+                                          https://www.tiktok.com/@greyfinds/video/7684428824297196813
+    741,500  33.4   1.39   22 2026-10-22  @kiiikiii_official: NEON #KiiiKiii #키키 #JIYU #HAUM
+                                          https://www.tiktok.com/@kiiikiii_official/video/7699367800736845063
+    586,400   8.2   3.48  148 2026-10-03  @koreanestheticsaves: Revealing the 3 Target products behind my skin at 47, and it isn't bot
+                                          https://www.tiktok.com/@koreanestheticsaves/video/7692288896335449357
+    152,100   7.0   3.31  119 2026-10-12  @skincare_with_james: https://amzn.to/463vgpr The only Cleansing Pads I trust 👆 #jiyupartner
+                                          https://www.tiktok.com/@skincare_with_james/video/7695872458355756302
+    134,400  35.4    2.8   10 2026-10-22  @kiiikiii_official: マイメロディ ジユちゃん 🎀🩷 #KiiiKiii #키키 #JIYU #지유 
+                                          https://www.tiktok.com/@kiiikiii_official/video/7699461000730381589
+     97,500  17.4   6.09  144 2026-10-03  @healty_lives: get jiyu toner pads now. #syntheticperformer #jiyupartner #ad
+                                          https://www.tiktok.com/@healty_lives/video/7692462861657836808
+     62,100  12.1   1.65    6 2026-10-04  @kiiijiyu: jiyu my cute pretty handsome fairy #JIYU #KiiiKiii #키키 #kpop #fyp 
+                                          https://www.tiktok.com/@kiiijiyu/video/7692868089737760007
+     46,600   5.1    1.2   17 2026-10-02  @x.vilkiss: i really love kiiikiiis asmr, so i’ll be posting it from time to time🐞
+                                          https://www.tiktok.com/@x.vilkiss/video/7692012711357566230
+     41,200   3.1   1.11  165 2026-10-08  @kim.hana.wellness: 🚨 Warning: This might become your new skincare obsession. 🧴🔥 #syntheti
+                                          https://www.tiktok.com/@kim.hana.wellness/video/7694122147995847967
+     33,700  12.0   1.06  102 2026-10-09  @kiiijiyu: cute and pretty doll face ❤️ ©️放星星的momo #JIYU #KiiiKiii #키키 #kpop #fyp
+                                          https://www.tiktok.com/@kiiijiyu/video/7694701574047976712
+     31,400  15.0   5.08  158 2026-10-23  @sunnyfromsunnybread: Skincare Products 🧚‍♀️ @cecith_official @epii US @Blanc Nature US Stor
+                                          https://www.tiktok.com/@sunnyfromsunnybread/video/7699667973971184948
+     26,600  31.4   3.16   14 2026-10-02  @walnuttc: this is jiyu from kiiikiii. STAN KIIIKIII + ZB2BLE #art #artwork #digi
+                                          https://www.tiktok.com/@walnuttc/video/7692087539259297045
+     23,900  29.6   3.36   11 2026-10-03  @glitterunicornincloud: 𖥻⋆ ˚ ׁ ׅ i believe in angels ݁˖ ❤︎ ୭˚. ᵎᵎ #jiyu #kiiikiii #fyp 
+                                          https://www.tiktok.com/@glitterunicornincloud/video/7692436781622611221
+     11,600   2.1   0.65   34 2026-09-16  @kiatiktokfinds: #tiktokshopstockup #jiyuskincare #koreanskincare #tiktokshopcreatorpic
+                                          https://www.tiktok.com/@kiatiktokfinds/video/7686241956866886942
+      9,624  31.3   5.57   16 2026-09-09  @cyberseob: shes always eating bread and healing for @walnut 🥺 - oc 4elcu ib lwsli
+                                          https://www.tiktok.com/@cyberseob/video/7683551736065182994
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 36 of 81 videos posted since 2026-08-25
+36 videos -> ugc/jiyu-polish-pads/research/tag/tag-exfoliatingpads.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  6,800,000   5.2   0.33   12 2026-09-13  @ijustwantimprovement: literally my fav ! #selfimprovement 
+                                          https://www.tiktok.com/@ijustwantimprovement/video/7684957717428964639
+  3,900,000   0.7    0.1   15 2026-09-26  @a.closmain: Texture care made simple ✨ @celimax.global Pore Relief Pad helps remov
+                                          https://www.tiktok.com/@a.closmain/video/7689860140958371080
+  2,600,000   1.9   0.16   13 2026-09-15  @ijustwantimprovement: no more insecurity… #selfimprovement 
+                                          https://www.tiktok.com/@ijustwantimprovement/video/7685679068792098078
+    917,100   0.6   0.15   67 2026-10-06  @ashleysmixon: A little exfoliation goes a long way✨ Smooth, fresh, glowy skin withou
+                                          https://www.tiktok.com/@ashleysmixon/video/7693585227612015903
+    249,200   2.4   0.65   61 2026-09-03  @charinecheungg: a body pad to exfoliate and brighten might be the key step you’re miss
+                                          https://www.tiktok.com/@charinecheungg/video/7681219235124645121
+    220,900   6.8   1.29   42 2026-10-16  @princessameliawu: Don’t miss out on thisss 🍊♥️ @celimax.global #celimax #txabodypad #bod
+                                          https://www.tiktok.com/@princessameliawu/video/7697335428877274398
+    190,500   4.8    0.6   16 2026-10-07  @illaalvarez: dead skin + clogged pores?! 😩 LOOK what these pads do 😳 #celimax #pore
+                                          https://www.tiktok.com/@illaalvarez/video/7693960982145551624
+    177,000   0.7   0.18   66 2026-09-07  @cammie_spon: They are line smoothing, cleansing & exfoliating and my skin feels lik
+                                          https://www.tiktok.com/@cammie_spon/video/7682806217659436302
+    163,800   8.7   0.62   12 2026-10-22  @datgirltracy: @celimax.global Pore Relief Pad for a more smoother looking skin✨ #cel
+                                          https://www.tiktok.com/@datgirltracy/video/7699511132322663712
+    143,500   6.1   1.46   32 2026-09-26  @skincare.zombie: broke hamsters, listen 🐹💸 This 2-in-1 toner pad from d’Alba could actu
+                                          https://www.tiktok.com/@skincare.zombie/video/7689807006361734413
+    126,500   9.9   2.01   46 2026-10-05  @skincare.zombie: EXTREME CLEANSER COMPETITION 🍏 Exfoliation AND deep cleansing in one d
+                                          https://www.tiktok.com/@skincare.zombie/video/7693194582602927373
+     64,400  11.9   3.36   11 2026-10-14  @doristenara: La trinité Pads exfoliants @medicube global Microfoliant @Dermalogica 
+                                          https://www.tiktok.com/@doristenara/video/7696606732574936353
+     53,300   0.2   0.05   46 2026-09-21  @johnbshop0: Exfoliating pads from skintific #skintific #porepads #exfoliatingpads 
+                                          https://www.tiktok.com/@johnbshop0/video/7687842825760738590
+     43,400   2.6    0.2   68 2026-10-16  @ashleysmixon: Glowing skin isn’t just about hydration. Exfoliation matters, too! ✨ @
+                                          https://www.tiktok.com/@ashleysmixon/video/7697274419164630303
+     30,400   7.7   1.06  137 2026-10-15  @brutechoi: I have loved these toner pads from @celimax.global for so long and now
+                                          https://www.tiktok.com/@brutechoi/video/7696900340981009677
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 44 of 60 videos posted since 2026-08-25
+44 videos -> ugc/jiyu-polish-pads/research/tag/tag-tonerpads.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  2,300,000   4.3   0.39   12 2026-09-29  @elvinasworld: literally gives you twice the product #skincare #skincaretips #tonerpa
+                                          https://www.tiktok.com/@elvinasworld/video/7691027790921043221
+    672,300   2.1    0.6   16 2026-09-02  @aercastillo: If you struggle with textured forehead bumps or clogged pores, you nee
+                                          https://www.tiktok.com/@aercastillo/video/7680751946700950814
+    314,300   4.7   0.42   15 2026-10-17  @datgirltracy: @celimax.global Pore Relief Toner Pad✨ #celimax #yesstyle #PoreReliefP
+                                          https://www.tiktok.com/@datgirltracy/video/7697612861312486689
+    182,700  29.0   4.65   22 2026-10-23  @yoitslari: parte 2 ??#paravoce #skintok #skincarecoreano #tonerpads 
+                                          https://www.tiktok.com/@yoitslari/video/7699846878656990497
+    143,500   6.1   1.46   32 2026-09-26  @skincare.zombie: broke hamsters, listen 🐹💸 This 2-in-1 toner pad from d’Alba could actu
+                                          https://www.tiktok.com/@skincare.zombie/video/7689807006361734413
+     97,500  17.4   6.09  144 2026-10-03  @healty_lives: get jiyu toner pads now. #syntheticperformer #jiyupartner #ad
+                                          https://www.tiktok.com/@healty_lives/video/7692462861657836808
+     72,300   7.6   2.15   58 2026-10-19  @_lilyis: if you’re searching for an exfoliating toner that works under makeup w
+                                          https://www.tiktok.com/@_lilyis/video/7698252439970909454
+     58,000  12.4   4.88  147 2026-10-20  @koreanestheticsaves: Revealing the Target alternatives I use instead of a $500 treatment at
+                                          https://www.tiktok.com/@koreanestheticsaves/video/7698603182355680542
+     48,300   8.0   1.31   56 2026-10-20  @mokay261: Biodance toner pad sales ကြီးပြန်ရပြီနော် #mokaycosmetics #ပစ္စည်းစစ်မ
+                                          https://www.tiktok.com/@mokay261/video/7698733951086578964
+     38,400   6.4   0.61   13 2026-10-19  @medicube_official: The instant cooling pad my skin has been craving ❄️✨ Safe for sensitiv
+                                          https://www.tiktok.com/@medicube_official/video/7698287600624209166
+     30,800   7.4   2.19   49 2026-10-17  @hudsonsqrd: Korean toner pads based on your skin concern! #kbeauty #koreanskincare
+                                          https://www.tiktok.com/@hudsonsqrd/video/7697652566708063519
+     30,400   7.7   1.06  137 2026-10-15  @brutechoi: I have loved these toner pads from @celimax.global for so long and now
+                                          https://www.tiktok.com/@brutechoi/video/7696900340981009677
+     28,600   4.7   1.66   49 2026-10-12  @kbeauty_code: ✅ Best Toner Pad for Every Skin Concern 👩🏻‍⚕️🇰🇷 1️⃣ Clogged Pores & Bl
+                                          https://www.tiktok.com/@kbeauty_code/video/7695799948511661342
+     21,300   4.8   0.37    5 2026-10-08  @koreababe1: Like i’m in a kdrama 😭 #kskincare #koreanskincare #tonerpads 
+                                          https://www.tiktok.com/@koreababe1/video/7694276566762736904
+     20,000   6.6   1.25    8 2026-09-20  @deallias: toner pads for every skin type dry: benton guava 70 toner pad textured
+                                          https://www.tiktok.com/@deallias/video/7687692351619222805

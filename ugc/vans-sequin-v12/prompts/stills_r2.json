@@ -1,0 +1,33 @@
+{
+ "S2": {
+  "mode": "new",
+  "refs": [
+   "refs/product_sheet.png",
+   "refs/shoe_closeup.jpg",
+   "refs/real_vans_tab.jpg",
+   "refs/real_heel_label.jpg",
+   "refs/real_insole_logo.jpg",
+   "refs/ref5_skin_toes.png",
+   "refs/ref6_hand.png",
+   "refs/ground_herringbone.jpg"
+  ],
+  "prompt": "Image 1 = the real shoe from every side. Image 2 = the real sequin squares up close. Image 3 = the real woven side tab. Image 4 = the real heel label. Image 5 = the real insole logo. Image 6 = her skin tone only (ignore its outfit and place). Image 7 = her real hand. Image 8 = the real brick sidewalk. SCENE: POV photo taken from her own eyes, looking straight down at her own feet as she walks on the brick sidewalk: the tops of her sage leggings at the bottom edge of the frame, her shins going up into the frame, her left foot a half step ahead of her right. BOTH shoes point AWAY from the camera toward the top edge of the frame, the same direction, toes ahead and laces facing up toward the camera; the heels are nearest the camera and NO heel label is visible. Both feet in the sequin Vans. HER: medium brown skin exactly like image 6; sage-green ribbed ankle-length leggings that end just above the ankle bone; bare ankles; a thin gold chain anklet on her left ankle and a gold Cuban-link chain anklet on her right ankle. No hands, arms or fingers anywhere in the frame. THE SHOE must match images 1 to 5 exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top in sequin checkerboard (image 1 = every side, image 2 = the sequin squares up close). A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain canvas; black leather binding around the collar with white stitching; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab on the outer side with white VANS letters, sewn flat (image 3); a chunky off-white rubber sidewall; on the back of the sidewall a small WHITE 'OFF THE WALL' skateboard label with black print (image 4); inside, a deep RED insole with a WHITE rectangle holding the red VANS skateboard-tail logo (image 5); a gum-brown waffle sole. Keep its true low-top shape and size: an adult women's sneaker, exactly the length of her own foot (about 25 cm). No other logos, no \u00ae or \u2122 added, no extra text. PLACE: a bright city sidewalk paved in red-orange clay bricks laid in a herringbone pattern exactly like image 8, thin grey mortar lines, dry and clean. LIGHT: bright overcast daylight, soft and even, neutral white balance: the bricks stay brick red, the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The sequins look like real sequins in daylight, nothing more: no added sparkles, glints, stars, lens flare or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. Only two shoes exist in the scene at most. No text, no captions, no watermark anywhere."
+ },
+ "S4": {
+  "mode": "edit",
+  "base": "stills/S4.png",
+  "refs": [
+   "refs/ref5_skin_toes.png"
+  ],
+  "prompt": "Image 1 is the photo to edit. Change ONLY her feet at the bottom of the frame: remove the white slide sandals; her feet are bare on the bricks with glossy white toenail polish, her skin exactly like image 2, the gold anklets stay. Keep everything else in image 1 exactly the same: the held shoe, its insole, heel label and checkerboard, her hand, nails, rings, bracelets, sleeve, leggings, the bricks and the light. No text, no captions."
+ },
+ "S1": {
+  "mode": "edit",
+  "base": "stills/S1.png",
+  "refs": [
+   "refs/real_top_sole.jpg",
+   "refs/product_sheet.png"
+  ],
+  "prompt": "Image 1 is the photo to edit. Change ONLY the shoe held in her hand: it must be the RIGHT shoe of the pair, the mirror image of the shoe she wears on her LEFT foot at the bottom of the frame, so it fits her bare RIGHT foot. Seen from above with the opening up: the straight outer edge of the insole is on the right, the curved arch edge on the left, toe pointing to the upper left, exactly like the left shoe in image 2 mirrored. Keep it in her RIGHT hand with the same grip; the red insole with the white VANS box (image 2) stays sharp and readable, letters not mirrored. Keep everything else in image 1 exactly the same: her hand, nails, rings, bracelets, sleeve, feet, the worn shoe, leggings, bricks and light. No text, no captions."
+ }
+}

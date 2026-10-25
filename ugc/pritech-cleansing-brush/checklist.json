@@ -1,0 +1,116 @@
+{
+ "job": "pritech-cleansing-brush",
+ "client": "Grace",
+ "date": "2026-10-23",
+ "route": "ugc-product-ad hands-only demo over the Grace voiceover, no full face (cheek/jaw crops, eyes and mouth out of frame); stills Gemini 3 Pro Image (Kie nano-banana-pro) + product sheet; product clips Google Omni 1.1 Flash on Kie (product lock); no-product clips Seedance 2.0 Mini on Kie; Flow trial on the riskiest clip; no Kling",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-pritech-facial-cleansing-brush.json",
+   "research/tag/tag-facialcleansingbrush.json",
+   "research/videos/7677716245260651789/sheet.png",
+   "research/videos/7693267386773835039/sheet.png",
+   "research/videos/7691467758017547533/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-23.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "client_script_verbatim": {
+  "videos": [
+   "V1"
+  ],
+  "by": "Ralph",
+  "date": "2026-10-23",
+  "quote": "Use the script in the storyboard. Word for word"
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    "V1"
+   ],
+   "grade": 7.3,
+   "by": "Ralph",
+   "date": "2026-10-23",
+   "quote": "Use the script in the storyboard. Word for word"
+  }
+ ],
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-23",
+  "quote": "1. Without 2.yes like hand sheet 3. Kie 4. No",
+  "total": 3.66,
+  "sha256": "1a25a9221e65cb40741c89812748cb4c05aa34d1c603da0100f22feff7ff949e",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.63,
+   "what": "slim-brush still redo: S6 test then S1 S4 S5 S7 S8 S9 (7 x 0.09)",
+   "by": "Ralph",
+   "quote": "Ok and redo",
+   "date": "2026-10-24",
+   "book_sha256": "1a25a9221e65cb40741c89812748cb4c05aa34d1c603da0100f22feff7ff949e"
+  },
+  {
+   "usd": 0.09,
+   "what": "S7 hand-free towel + candle still (replaces the face shot)",
+   "by": "Ralph",
+   "quote": "Ok, towel shot and run S6",
+   "date": "2026-10-24",
+   "book_sha256": "1a25a9221e65cb40741c89812748cb4c05aa34d1c603da0100f22feff7ff949e"
+  }
+ ],
+ "compare": {
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/compare/compare.md"
+  ]
+ }
+}

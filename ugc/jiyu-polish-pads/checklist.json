@@ -1,0 +1,99 @@
+{
+ "job": "jiyu-polish-pads",
+ "client": "Grace",
+ "date": "2026-10-24",
+ "route": "ugc-product-ad hands-only demo over the Grace voiceover, half-face only (no eyes, no full face); stills Gemini 3 Pro Image (Kie nano-banana-pro) + real-photo product sheet; product clips Google Omni 1.1 Flash: Flow first (Ralph's app), Kie second; no-product clips Seedance 2.0 Mini on Kie; no Kling",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-jiyu-toner-pads.json",
+   "research/tag/tag-jiyu.json",
+   "research/tag/tag-exfoliatingpads.json",
+   "research/videos/7691027790921043221/sheet.png",
+   "research/videos/7693960982145551624/sheet.png",
+   "research/videos/7680751946700950814/transcript.txt"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-24.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "client_script_verbatim": {
+  "videos": [
+   "V1"
+  ],
+  "by": "Ralph",
+  "date": "2026-10-24",
+  "quote": "Use script word for word"
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    "V1"
+   ],
+   "grade": 8.3,
+   "by": "Ralph",
+   "date": "2026-10-24",
+   "quote": "Use script word for word"
+  }
+ ],
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-24",
+  "quote": "Yes, use real jar from question 1, ok, ok, Kie, no captions.",
+  "total": 3.91,
+  "sha256": "dbcb31631259a51662fb629b2d581dca7561304c26a262638e2dadbe5e9b5313",
+  "spent_at_approval": 0.0
+ },
+ "compare": {
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/compare/compare.md"
+  ]
+ }
+}

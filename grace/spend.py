@@ -23,6 +23,14 @@ PRICES = {
     "veo-3-1": ("call", 0.30),                             # veo3_fast 60 credits
     "hailuo/2-3-image-to-video-standard": ("call", 0.15),  # estimate, not in any runner note
     "google/gemini-omni-flash-1-1": ("call", 0.315),        # 4 s take (runners that log their own "usd" are counted from it)
+    # Portrait + voice -> talking video, per second of audio (kie.ai/pricing 2026-10-24; highest tier where it varies).
+    # These have no "duration" input, so their runners pass usd=<audio seconds> x rate to start_task().
+    "kling/ai-avatar-standard": ("sec", 0.04),               # 720p
+    "kling/ai-avatar-pro": ("sec", 0.08),                    # 1080p
+    "omnihuman-1-5": ("sec", 0.135),
+    "omnihuman-2-0": ("sec", 0.07),                          # 720p
+    "infinitalk/from-audio": ("sec", 0.06),                  # 720p; 480p is $0.015
+    "wan/2-2-a14b-speech-to-video-turbo": ("sec", 0.12),     # 720p; 580p $0.09, 480p $0.06
 }
 
 

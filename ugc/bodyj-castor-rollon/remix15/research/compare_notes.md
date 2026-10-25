@@ -12,3 +12,4 @@
 Same footage family and order logic as the winner (mess -> roll-on -> proof -> uses -> nightstand box). Faster cut rate because the same beats fit in half the time; no shot under 0.6 s.
 Fixed after compare: nothing (the drift fix, cuts on exact frames, was made before this, found by qc.py sync).
 - 2026-10-21 round 3 (all-new footage): compare re-run on the 4 new finals; cuts per 10 s above, same beats as the winner, every shot shows its line.
+- 2026-10-23 V3 grandma long hair (R3 remade): compare re-run, research/compare_v3_r6 (19.0 s, 6 cuts, 3.2 per 10 s, same as round 4; only R3 changed).

@@ -7,3 +7,5 @@
 - 2026-10-21 (later): Ralph rejected the Kling first=last holds (read as still images) and the sparkle the prompt asked for: held-product line rewritten, no-sparkle rule added.
 - 2026-10-21 (Ralph: product lock with Google Omni): Ralph's stack: product-in-frame clips are Gemini Omni reference-to-video prompts (tag binding, plain-sentence exclusions, edit turns); Seedance only for clips without the product.
 - 2026-10-22 (Ralph): Omni runs on Kie (google/gemini-omni-flash-1-1, reference mode, images named by number), not through the Gemini API key.
+- 2026-10-24: Ralph's stack: product clips go to Ralph's Flow app first, Kie second (Ralph).
+- 2026-10-24 (Ralph: "yes add it to prompt-master", after the Vans V12 redos): Ralph's stack: say who wears and holds what (pairs, feet, real photo of the exact side) in the first prompt; fresh still instead of an edit when the product is wrong; nano-banana-pro max 8 refs.

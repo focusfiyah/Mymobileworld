@@ -1,5 +1,30 @@
 {
   "mcpServers": {
+    "camofox-browser": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@askjo/camofox-browser-mcp@1.18.1"
+      ],
+      "env": {
+        "CAMOFOX_BASE_URL": "http://127.0.0.1:9377",
+        "CAMOFOX_USER_ID": "claude",
+        "CAMOFOX_CRASH_REPORT_ENABLED": "false"
+      }
+    },
+    "broll": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/edigeh/broll-mcp@d8fda0a4972235fb7591187242a4e583aca84f12",
+        "broll-mcp"
+      ],
+      "env": {
+        "BROLL_AGENT_MODEL": "claude-code"
+      }
+    },
     "playwright": {
       "type": "stdio",
       "command": "npx",

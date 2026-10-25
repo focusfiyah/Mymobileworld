@@ -1,0 +1,77 @@
+  #tiktokshopbeauty: 59 videos
+  #tiktokshopskincare: 72 videos
+  #tiktokshopmakeup: 87 videos
+  #tiktokshopfinds: 84 videos
+  #facialcleansingbrush: 83 videos
+  #facebrush: 87 videos
+  #skincaretools: 87 videos
+  #facescrubber: 58 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+564 videos scanned, 225 shop videos posted in the last 30.0 day(s) -> research/viral/viral-2026-10-23.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      498K   14.0M 28.1d  0.22  tarte CC color-correcting tinted serum [Beauty & Personal Care]
+                                  @molly.on.the.mic: he is unwell. But this stuff is UNREAL. #tartecosmetics #tar
+                                  https://www.tiktok.com/@molly.on.the.mic/video/7689554820818111775
+  2      198K    4.3M 21.7d  0.08  (product not in TikTok's data)
+                                  @euneysss.0317: Replying to @(shen) ❦ #skincare #siliconebrush #siliconeface
+                                  https://www.tiktok.com/@euneysss.0317/video/7691916279220899078
+  3      181K    717K  4.0d  0.63  (product not in TikTok's data)
+                                  @kcamadi5: #tiktokshop #fyp #tiktok #tiktokmademebuyit #xmasgiftideas 
+                                  https://www.tiktok.com/@kcamadi5/video/7698506053205445910
+  4      173K    3.5M 20.2d  0.25  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+  5      163K    2.6M 16.0d   0.1  Facial Cleansing Brush, PRITECH Heatable Vibrating Face [Beauty & Personal Care]
+                                  @joshjshowcase: Why your hands aren’t enough to clean your face. And why I u
+                                  https://www.tiktok.com/@joshjshowcase/video/7693622417079520542
+  6      152K    4.1M 27.0d  0.11  Facial Cleansing Brush, PRITECH Heatable Vibrating Face [Beauty & Personal Care]
+                                  @joshjshowcase: Using a face scrubber to exfoliate your skin is honestly 10x
+                                  https://www.tiktok.com/@joshjshowcase/video/7679608342133624094
+  7      140K    3.1M 22.1d  0.29  Facial Cleansing Brush, PRITECH Heatable Vibrating Face [Beauty & Personal Care]
+                                  @goldencar__: the HEATED WAND!!! sold me. i absolutely love skincare but i
+                                  https://www.tiktok.com/@goldencar__/video/7691785575967313183
+  8      123K    2.8M 22.7d   0.6  e.l.f. Glow Reviver Lip Oil Stick, Nourishing Lip Oil S [Beauty & Personal Care]
+                                  @maehni: so pretty!! im obsessed <3 elf shimmer lip oil stick dry thi
+                                  https://www.tiktok.com/@maehni/video/7691545926241946910
+  9      108K    3.2M 29.6d  1.29  Women's Striped Tie Long Sleeve Blouse and Wide-Leg Pan [Womenswear & Underwear]
+                                  @maddiejunee: #tiktokmademebuyit #autumnoutfits #tiktokshop #autumnaesthet
+                                  https://www.tiktok.com/@maddiejunee/video/7688997099278585118
+ 10       93K    2.7M 29.0d   0.1  Jenny Patinkin The Big Reveal US Lashes and Brows Touch [Beauty & Personal Care]
+                                  @let.me.try.it.mom: Oh you need these #tweezers #jennypatinkin #beautytools 
+                                  https://www.tiktok.com/@let.me.try.it.mom/video/7689213138352278815
+ 11       86K    704K  8.2d   0.2  Heavy-Duty Plastic Self-Adhesive Hexagonal Ripple Hooks [Home Supplies]
+                                  @noelaniparkinson: #DealsForYouDavs #tiktokshopfinds #tiktokshopholidayhaul #ti
+                                  https://www.tiktok.com/@noelaniparkinson/video/7696940318926654751
+ 12       74K    1.0M 13.5d  0.57  (product not in TikTok's data)
+                                  @cxxexskq01: #browgel #maquillaje #browtint #beauty #tiktokshop 
+                                  https://www.tiktok.com/@cxxexskq01/video/7694971024655404296
+ 13       65K    760K 11.7d  0.34  【Buy 1 Get 1 Free】Dr.ville Dual-Ended 2-in-1 Glycerin & [Beauty & Personal Care]
+                                  @mall6744: #mascara #makeup #waterproofmascara #fyp #tiktokshop 
+                                  https://www.tiktok.com/@mall6744/video/7695641183879580941
+ 14       43K    479K 11.2d  0.18  (product not in TikTok's data)
+                                  @xtinabeauty9: This is wild!! Look at the price of this!!! #tiktokshopcreat
+                                  https://www.tiktok.com/@xtinabeauty9/video/7695835578784304415
+ 15       37K    227K  6.2d  0.22  (product not in TikTok's data)
+                                  @sdazxsptfll: #fyp #foryou #tiktokshop #spotlightfinds #coat 
+                                  https://www.tiktok.com/@sdazxsptfll/video/7697679354200902942
+ 16       36K    342K  9.5d  0.26  【Black Friday】8-Color Matte Finish Concealer Palette, C [Beauty & Personal Care]
+                                  @mrsasianna: That priceeee omg #concealer #makeuppalette #tiktokshopcyber
+                                  https://www.tiktok.com/@mrsasianna/video/7696465857387515167
+ 17       33K    694K 21.1d  0.08  Sud Scrub Face Scrubber – Antimicrobial Silicone Facial [Beauty & Personal Care]
+                                  @sudscrub: You’re probably cleaning everything except this. #FaceScrubb
+                                  https://www.tiktok.com/@sudscrub/video/7691467758017547533
+ 18       32K    558K 17.5d  0.07  Menswear Men's Classic Round Neck Shortsleeve T-Shirt - [Menswear & Underwear]
+                                  @iacsmsvb0xt: #fyp #tiktokshop #fouyou #spotlightfinds #fashion 
+                                  https://www.tiktok.com/@iacsmsvb0xt/video/7693497476870868254
+ 19       32K    484K 15.2d  0.47  [New Launch] SKINTIFIC Ultra Cover Powder Foundation Hy [Beauty & Personal Care]
+                                  @jerlenimarte: #makeup #powder #tiktokshopcreatorpicks 
+                                  https://www.tiktok.com/@jerlenimarte/video/7694342894143966478
+ 20       31K    279K  8.8d  0.23  The Conjuring & Annabelle Glamlite Makeup Set [Beauty & Personal Care]
+                                  @beautybabe_blossom: @Glamlite @Anthuhny @Ms.Gisselle Glamlite AMAZING!!! #fyp #t
+                                  https://www.tiktok.com/@beautybabe_blossom/video/7696692476387626271

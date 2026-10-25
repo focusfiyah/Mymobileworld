@@ -1,0 +1,143 @@
+{
+ "sub": "Grace \u00b7 recreation of @sophmademebuyit (18 s, 75.7K) \u00b7 15.5 s \u00b7 music only, no text \u00b7 $1.08 spent of $2.835",
+ "ask": {
+  "title": "Cut v1 ready: approve or note changes",
+  "text": "15.5 s, silent for Grace's sound, no text. All checks pass. Spent $1.08 of $2.835 (all 6 clips were your free Flow takes). On your OK: Drive 'Vans sequin (Grace)' as CURRENT - Vans V12 + caption."
+ },
+ "sections": [
+  {
+   "type": "html",
+   "h": "Cut v1 \u00b7 15.5 s",
+   "body": "<video controls playsinline preload=\"metadata\" src=\"cut_v1.mp4\" style=\"width:100%;max-width:400px;border-radius:8px\"></video><ul><li>S1 your right-shoe take, clean parts only (0-1.3 + 2.7-4.0 s). S3 from 2.4 s, after its tip to the side.</li><li>Checks: cuts only on the clip boundaries, no black frames, no flicker, 2x on every hand and logo, REMOVED.md list clear.</li><li>Vs the ref: 15.5 s vs 18.3 s (the turning parts were cut, not filled), 2.6 cuts per 10 s vs 1.6. Same opening beat.</li><li>Caption: Every black square on these is sequins \ud83d\udda4 #ad #vans #sequinvans #vansauthentic</li></ul>"
+  },
+  {
+   "type": "grid",
+   "h": "Your Flow takes \u00b7 S2 to S6 \u00b7 all pass",
+   "items": [
+    {
+     "src": "S2_flow.mp4",
+     "n": "S2",
+     "tag": "pass",
+     "p": "Real walk, both shoes point away, bricks travel."
+    },
+    {
+     "src": "S3_flow.mp4",
+     "n": "S3",
+     "tag": "trim",
+     "cls": "fix",
+     "p": "Tips to the sole 1.4-2.3 s; the cut uses 2.4-4.0 s (side tab, one hand)."
+    },
+    {
+     "src": "S4_flow.mp4",
+     "n": "S4",
+     "tag": "pass",
+     "p": "Heel to the lens, push-in, bare feet, white heel label."
+    },
+    {
+     "src": "S5_flow.mp4",
+     "n": "S5",
+     "tag": "pass",
+     "p": "Heel-to-toe rock, Cuban anklet, black side tab."
+    },
+    {
+     "src": "S6_flow.mp4",
+     "n": "S6",
+     "tag": "pass",
+     "p": "Feet side by side, one heel pivot and back, bushes behind."
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "h": "S1 \u00b7 your Flow take \u00b7 PASS",
+   "items": [
+    {
+     "src": "S1_flow.mp4",
+     "n": "S1",
+     "tag": "pass",
+     "p": "Right shoe in her right hand, left foot shod, right foot bare, insole box held, no flicker. Tips onto its side 1.3-2.6 s and back."
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "h": "Storyboard \u00b7 fixes \u00b7 $0.54",
+   "note": "S1: two edits kept the left shoe, so it's a fresh still. S2 redone. S4 fresh, heel label colours fixed free (it came out black).",
+   "items": [
+    {
+     "src": "st/S1_v2.jpg",
+     "n": "S1",
+     "tag": "pass",
+     "p": "RIGHT shoe in her right hand (tab on its outer edge), left foot in the left shoe, right foot bare. Insole box matches."
+    },
+    {
+     "src": "st/S2_v2.jpg",
+     "n": "S2",
+     "tag": "pass",
+     "p": "POV, both shoes point away from the camera, the same way. Both anklets."
+    },
+    {
+     "src": "st/S4_v2.jpg",
+     "n": "S4",
+     "tag": "pass",
+     "p": "Heel to the lens, one shoe, bare feet. Heel label made white with black print (free colour swap)."
+    }
+   ]
+  },
+  {
+   "type": "grid",
+   "h": "Storyboard \u00b7 round 1 \u00b7 $0.54",
+   "note": "Checked at 2x: logos vs the real close-ups, shoe count, grip, five fingers.",
+   "items": [
+    {
+     "src": "st/S1.jpg",
+     "n": "S1",
+     "tag": "pass",
+     "p": "One hand grips the held shoe, red insole + white VANS box match the real one; her other foot bare (she is holding that shoe). Test clip."
+    },
+    {
+     "src": "st/S2.jpg",
+     "n": "S2",
+     "tag": "redo",
+     "cls": "redo",
+     "p": "One foot points at the camera, the other away (heel label showing). Feet must point the same way."
+    },
+    {
+     "src": "st/S3.jpg",
+     "n": "S3",
+     "tag": "pass",
+     "p": "Side-on hold, black side tab with white letters, one hand. The tab's tiny letters are soft; the clip gets the real tab close-up."
+    },
+    {
+     "src": "st/S4.jpg",
+     "n": "S4",
+     "tag": "redo",
+     "cls": "redo",
+     "p": "Hold and heel label OK, but she wears white sandals under it. Edit: bare feet, as in S1."
+    },
+    {
+     "src": "st/S5.jpg",
+     "n": "S5",
+     "tag": "pass",
+     "p": "Cuban anklet over the collar, black side tab with white VANS."
+    },
+    {
+     "src": "st/S6.jpg",
+     "n": "S6",
+     "tag": "pass",
+     "p": "Both feet side by side, same direction, two anklets, bushes behind."
+    }
+   ]
+  },
+  {
+   "type": "html",
+   "h": "The reference",
+   "body": "<video controls playsinline preload=\"metadata\" src=\"ref.mp4\" style=\"width:100%;max-width:360px;border-radius:8px\"></video><p class=\"muted\">@sophmademebuyit, 18 s, music only. Her shoe turn (insole, side, heel) becomes 3 separate holds here (S1, S3, S4), so no clip ever turns the shoe.</p>"
+  },
+  {
+   "type": "html",
+   "h": "Place and logos (real photos)",
+   "body": "<div class=\"rooms\"><figure><img src=\"img/ground.jpg\" alt=\"Red herringbone brick\"><figcaption>brick sidewalk (Pexels)</figcaption></figure><figure><img src=\"img/insole.jpg\" alt=\"Real insole logo\"><figcaption>insole logo</figcaption></figure><figure><img src=\"img/tab.jpg\" alt=\"Real side tab\"><figcaption>side tab</figcaption></figure><figure><img src=\"img/heel.jpg\" alt=\"Real heel label\"><figcaption>heel label</figcaption></figure><figure><img src=\"img/sheet.jpg\" alt=\"Product sheet\"><figcaption>product sheet</figcaption></figure><figure><img src=\"img/hand.jpg\" alt=\"Grace's hand\"><figcaption>Grace's hand</figcaption></figure></div>"
+  }
+ ]
+}

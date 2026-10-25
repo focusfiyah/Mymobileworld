@@ -1,0 +1,183 @@
+{
+ "built": "2026-10-24",
+ "models": {
+  "nano-banana-pro": {
+   "fields": [
+    "aspect_ratio",
+    "image_input",
+    "output_format",
+    "prompt",
+    "resolution"
+   ],
+   "doc": "https://docs.kie.ai/market/google/pro-image-to-image.md"
+  },
+  "nano-banana-2": {
+   "fields": [
+    "aspect_ratio",
+    "image_input",
+    "output_format",
+    "prompt",
+    "resolution"
+   ],
+   "doc": "https://docs.kie.ai/market/google/nanobanana2.md"
+  },
+  "nano-banana-2-lite": {
+   "fields": [
+    "aspect_ratio",
+    "image_urls",
+    "prompt"
+   ],
+   "doc": "https://docs.kie.ai/market/google/nano-banana-2-lite.md"
+  },
+  "bytedance/seedance-2-mini": {
+   "fields": [
+    "aspect_ratio",
+    "duration",
+    "first_frame_url",
+    "generate_audio",
+    "last_frame_url",
+    "nsfw_checker",
+    "prompt",
+    "reference_audio_urls",
+    "reference_image_urls",
+    "reference_video_urls",
+    "resolution",
+    "web_search"
+   ],
+   "doc": "https://docs.kie.ai/market/bytedance/seedance-2-mini.md"
+  },
+  "google/gemini-omni-flash-1-1": {
+   "fields": [
+    "aspect_ratio",
+    "audio_ids",
+    "character_ids",
+    "duration",
+    "first_frame_url",
+    "image_urls",
+    "last_frame_url",
+    "prompt",
+    "resolution",
+    "seed",
+    "video_list"
+   ],
+   "doc": "https://docs.kie.ai/market/google/gemini-omni-flash-1-1.md"
+  },
+  "kling-3.0-omni/image-to-video": {
+   "fields": [
+    "aspect_ratio",
+    "audio",
+    "customize_multi_shots",
+    "duration",
+    "elements",
+    "image_urls",
+    "multi_prompt",
+    "prefer_multi_shots",
+    "prompt",
+    "resolution"
+   ],
+   "doc": "https://docs.kie.ai/market/kling/v3-omni-image-to-video.md"
+  },
+  "hailuo/2-3-image-to-video-standard": {
+   "fields": [
+    "duration",
+    "image_url",
+    "nsfw_checker",
+    "prompt",
+    "resolution"
+   ],
+   "doc": "https://docs.kie.ai/market/hailuo/2-3-image-to-video-standard.md"
+  },
+  "veo-3-1": {
+   "fields": [
+    "aspect_ratio",
+    "duration",
+    "enable_fallback",
+    "enable_translation",
+    "generation_type",
+    "image_urls",
+    "model",
+    "prompt",
+    "resolution",
+    "watermark"
+   ],
+   "doc": "https://docs.kie.ai/veo3-api/generate-veo-3-video.md"
+  },
+  "volcengine/video-to-video-lip-sync": {
+   "fields": [
+    "align_audio",
+    "align_audio_reverse",
+    "audio_url",
+    "mode",
+    "open_scenedet",
+    "separate_vocal",
+    "templ_start_seconds",
+    "video_url"
+   ],
+   "doc": "https://docs.kie.ai/market/volcengine/video-to-video-lip-sync.md"
+  },
+  "kling/ai-avatar-standard": {
+   "fields": [
+    "audio_url",
+    "image_url",
+    "prompt"
+   ],
+   "doc": "https://docs.kie.ai/market/kling/ai-avatar-standard.md"
+  },
+  "kling/ai-avatar-pro": {
+   "fields": [
+    "audio_url",
+    "image_url",
+    "prompt"
+   ],
+   "doc": "https://docs.kie.ai/market/kling/ai-avatar-pro.md"
+  },
+  "omnihuman-1-5": {
+   "fields": [
+    "audio_url",
+    "image_url",
+    "mask_url",
+    "output_resolution",
+    "pe_fast_mode",
+    "prompt",
+    "seed"
+   ],
+   "doc": "https://docs.kie.ai/market/omnihuman-1-5.md"
+  },
+  "omnihuman-2-0": {
+   "fields": [
+    "audio_url",
+    "enable_watermark",
+    "image_urls",
+    "prompt"
+   ],
+   "doc": "https://docs.kie.ai/market/omnihuman-2-0.md"
+  },
+  "infinitalk/from-audio": {
+   "fields": [
+    "audio_url",
+    "image_url",
+    "prompt",
+    "resolution",
+    "seed"
+   ],
+   "doc": "https://docs.kie.ai/market/infinitalk/from-audio.md"
+  },
+  "wan/2-2-a14b-speech-to-video-turbo": {
+   "fields": [
+    "audio_url",
+    "frames_per_second",
+    "guidance_scale",
+    "image_url",
+    "negative_prompt",
+    "nsfw_checker",
+    "num_frames",
+    "num_inference_steps",
+    "prompt",
+    "resolution",
+    "seed",
+    "shift"
+   ],
+   "doc": "https://docs.kie.ai/market/wan/2-2-a14b-speech-to-video-turbo.md"
+  }
+ }
+}

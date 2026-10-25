@@ -1,0 +1,81 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "scripts.md",
+ "playbook": {
+  "proof": [
+   "proof/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "proof/coach_research.md",
+   "research/coach/tag-sequinvans.json",
+   "research/coach/ref_v12/7666181406359407885/meta.json",
+   "research/coach/top/7695243619074116877/meta.json",
+   "research/coach/top/7697921977448746273/meta.json",
+   "research/coach/top/7696253262659341582/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-24.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "research/vans_pdp.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "proof/humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "proof/readability_v12.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "proof/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "proof/compare.md",
+   "research/compare/compare/compare.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-24",
+  "quote": "Ok, yes, Kie, silent, no text and go ahead",
+  "total": 2.835,
+  "sha256": "acfe0a6b7e37979906fb45aca48ba5cfe4c05be14e5332aea0ed88128f68f552",
+  "spent_at_approval": 0.0
+ }
+}
