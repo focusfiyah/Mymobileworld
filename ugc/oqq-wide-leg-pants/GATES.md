@@ -26,5 +26,5 @@
   EXPECT: GATE OK
 - [x] G9: QC report: 2x edges, first second, pants colour/seam/pocket vs real photos, shoes vs Vans close-ups, solid (not sheer) fabric, REMOVED.md, AI finish
   EVIDENCE: qc/QC.md (2026-10-25): cuts on boundaries only, hands 2x, S4 logo painted out, S2 dropped, REMOVED.md rows checked
-- [ ] G10: Drive folder "OQQ Wide Leg Pants (Grace)" has CURRENT video + script/caption doc, link in README
-  EVIDENCE: (manual) Drive link
+- [x] G10: Drive folder "OQQ Wide Leg Pants (Grace)" has CURRENT video + script/caption doc, link in README
+  EVIDENCE: https://drive.google.com/drive/folders/1bdMzWT73_xUbJNBNECwyfJreyBhLkm1K (CURRENT - OQQ pants V1.mp4 15,909,630 bytes = local; CURRENT - OQQ pants captions doc), link in README
