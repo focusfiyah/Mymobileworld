@@ -41,3 +41,6 @@ FAIL. (1) Kolors took the whole outfit from the photo: the black long-sleeve top
 
 ## 2026-10-25 option 1: Kolors L1 knee (A1 + garment_front) and L2 back (A3 + garment_back), $0.14
 FAIL, both. Kolors kept Grace's black shorts and drew only a short dark olive ruffle band below them (thigh to knee); no waistband, no front ruching, no drawstrings, no long back, wrong colour. On the Gemini bases (separate shorts) Kolors treats the shorts as the bottom and adds a hem under it. Kolors is dropped for this job: 3 tries on the new bases, 0 usable ($0.21).
+
+## 2026-10-25 Gemini app skirt stills (Ralph, $0)
+L1 knee PASS, L2 back PASS, L4 shortest PASS (two drawstrings, ruching, front at thigh, back long, solid). L3 one leg r1 FAIL: length right but the skirt became a single-drawstring wrap skirt with a diagonal ruffle; redo prompt keeps both channels + ruching close-up ref (prompts/v2_gem_L3.txt).
