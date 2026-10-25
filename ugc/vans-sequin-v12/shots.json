@@ -25,7 +25,18 @@
   ],
   "clip": "Recreate image 1 exactly as the first frame: keep its bricks, light, framing, her skin, leggings, anklets, white toenails, her hand, nails, rings, blue band and bracelets exactly. Image 2 is the real red insole logo: a white rectangle with the red VANS skateboard-tail logo. Image 3 is the real woven side tab: a small black tab with white VANS letters. Image 4 is the real RIGHT shoe from above: the held shoe stays this RIGHT shoe the whole clip. Image 5 is the product sheet: keep this exact shoe shape, size, checkerboard and colours, no added marks, no extra text. Every mark matches its image letter for letter and colour for colour; only the black squares carry sequins. Motion: her right hand keeps the same grip and tilts the held shoe slowly about 10 degrees toward the lens and back. The red insole faces the camera for all 4 seconds; the shoe never turns onto its side, never shows its sole and never flips. Her feet stay still on the bricks: the LEFT foot in its shoe, the RIGHT foot bare. Exactly one hand, five fingers. Camera: handheld phone, steady. Vertical 9:16 phone footage, bright neutral overcast daylight, realistic skin, two shoes in frame. No sparkle effects, no music, no voice, no captions, no on-screen text.",
   "clip_note": "2026-10-24: rewritten to the approved still (side grip, one bare foot), prompt-master",
-  "still_file": "stills/S1_r4.png"
+  "still_file": "stills/S1_r4.png",
+  "use": [
+   [
+    0.0,
+    1.3
+   ],
+   [
+    2.7,
+    4.0
+   ]
+  ],
+  "use_note": "Ralph 2026-10-24: 'Use the clean parts' (the shoe tips onto its side 1.3-2.6 s)"
  },
  "S2": {
   "kind": "HAND-FREE",
