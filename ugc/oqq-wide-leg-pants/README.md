@@ -4,7 +4,7 @@ Ask (Ralph 2026-10-25): "Grace needs a fashion AI video" for the OQQ Women's Hig
 she has them in black and brown; inspo https://www.tiktok.com/t/ZPLAg5udN/ (@krunch.7, 555.8K, same pants in brown); "style with sneakers",
 the shiny Vans (sequin checkerboard Authentic from the Vans jobs). Route: AI recreation on Grace's body photos + product lock, Flow first.
 
-Status: 2026-10-25 round 5: prompts fixed (framing + toe direction first, per-shot refs); 7 of 8 stills pass (S7 lifted foot reads backwards). Asked Ralph: S7 redo $0.09 or drop; clips Flow or Kie Omni. Kie $0.90 of $3.645.
+Status: 2026-10-25 round 6: Ralph: mostly front views, one back shot; new standard: every prompt linted + read in full before it runs (grace/prompt_check.py, saved everywhere). S5 + S7 front views PASS, S6 wrong shoes (asked $0.09 redo). 7 of 8 stills pass. Clips: Flow kits on the review page, or Kie Omni (asked). Kie $1.17 of $3.645.
 Review page: https://claude.ai/artifact/8FXb6VhgRPCWm6bKWaNy79
 
 Files: BOOK.md (the plan), scripts.md, shots.json (built by tools/make_shots.py, prompt-master), GATES.md, REMOVED.md,
