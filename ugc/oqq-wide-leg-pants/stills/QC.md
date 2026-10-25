@@ -1,0 +1,2 @@
+# Still QC (2x)
+- S3 r1 (Ralph's Gemini app, 2026-10-25): FAIL, shoes on backwards (Ralph): she faces left, both toes point right. Pants pass at 2x (solid matte black, front seam, wide waistband, pocket panel, full length to the floor); skin, almond nails, five fingers, room OK. Cause: prompt said "pointing the same way as her body", vague on a side view. Fix: $0 Gemini edit prompt (prompts/S3_gemini_edit_r2.txt); every still/clip prompt now names the toe direction in frame terms (FEET in tools/make_shots.py).

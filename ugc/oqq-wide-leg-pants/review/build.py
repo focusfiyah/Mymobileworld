@@ -32,8 +32,9 @@ for sec in st["sections"]:
         for k in sec["items"]:
             imgs = "".join(f'<figure><img src="{p}" alt="{E(k["id"])} image {i+1}"><figcaption>{i+1} · {E(lbl)}</figcaption><button class="sv" data-src="{p}">Save</button></figure>'
                            for i, (p, lbl) in enumerate(k["imgs"]))
+            steps = (f'<ol><li>Open the Gemini chat where you made this photo (no new uploads).</li><li>Paste the edit prompt below and send.</li></ol>' if k["id"].endswith("e") else f'<ol><li>Open a new chat in the Gemini app (image model, Nano Banana Pro if it asks).</li><li>Upload these {len(k["imgs"])} images in this order (tap Save under each one).</li></ol>')
             out.append(f'<details class="box"{" open" if k.get("open") else ""}><summary><b>{E(k["id"])}</b> · {E(k["what"])}</summary>'
-                       f'<ol><li>Open a new chat in the Gemini app (image model, Nano Banana Pro if it asks).</li><li>Upload these {len(k["imgs"])} images in this order (tap Save under each one).</li></ol>'
+                       + steps +
                        f'<div class="kitimgs">{imgs}</div><p style="margin:0">3. Paste this prompt: <button class="cp" data-p="p{k["id"]}">Copy prompt</button> <button class="svp" data-p="p{k["id"]}">Save prompt</button></p>'
                        f'<pre id="p{k["id"]}" class="kitp">{E(k["prompt"])}</pre><p class="muted">4. Send me the image at full size in the chat.</p></details>')
         out.append((R / "_script.html").read_text())
