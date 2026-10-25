@@ -11,3 +11,6 @@ Spoken lines, caption and on-screen options are unchanged from v1 (already human
 
 ## 2026-10-25 re-check (shots v2 rev: Grace body photos, black long-sleeve top, real back view)
 Spoken lines, caption and on-screen options unchanged. Only plan text changed; no AI tells. No change needed.
+
+## 2026-10-25 re-check (session 2: neck-down framing, bare legs + black knee-high boots)
+Spoken lines, caption and on-screen options unchanged. Only the shot-list sentence changed (plan text, not spoken or shown); checked it: no dashes, no contrasts, no triads, plain words. No change needed.

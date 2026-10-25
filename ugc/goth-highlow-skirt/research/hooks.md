@@ -19,3 +19,6 @@ No new hooks: the video stays music-only with no text unless Ralph says yes. The
 
 ## 2026-10-25 re-check
 No hook change (music-only, text only on Ralph yes; H034/H095/H030 unchanged).
+
+## 2026-10-25 re-check (session 2)
+No hook change: framing and legs/boots only.

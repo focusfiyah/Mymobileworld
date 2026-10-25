@@ -1,7 +1,7 @@
-# Production Book: Goth High-Low Skirt v2 (try-on route), 2026-10-23, rev 2026-10-25
+# Production Book: Goth High-Low Skirt v2 (try-on route), 2026-10-23, rev 3 2026-10-25 (bare legs + boots, neck down)
 
 ## 1. Job
-- Client / own content: Grace  Product: dark brown goth high-low drawstring skirt (TikTok Shop listing, research/listing/)  Route: virtual try-on stills (Kling Kolors on fal) + Google Omni clips on Kie (ugc-product-ad references/product-lock.md), tug-cut edit
+- Client / own content: Grace  Product: dark brown goth high-low drawstring skirt (TikTok Shop listing, research/listing/)  Route: one base edit per Grace body photo (black long-sleeve top + bare legs + black knee-high boots; Ralph's Gemini app $0 first, else Kie nano-banana-pro) -> real skirt put on by virtual try-on (Kling Kolors on fal) -> clips Flow first ($0), Google Omni on Kie only when Flow can't (ugc-product-ad references/product-lock.md), tug-cut edit
 - Job folder: `ugc/goth-highlow-skirt/`  Target length: 15 s  Shots: 5
 
 ## 2. Gate result (`python3 grace/gate.py ugc/goth-highlow-skirt`)
@@ -28,9 +28,11 @@ Source of each line: research/line_sources.md (v1 caption + v2 shots table)
 | L3 HAND | 6-9 | none | one side up, one leg out to JUST above the knee | yes | n/a: music-only | Omni: she shifts her weight onto that leg |
 | L4 HAND | 9-12 | none | shortest: both sides up, back still long | yes | n/a: music-only | Omni: hands at the waist strings, small sway |
 | L5 HAND-FREE | 12-15 | none | shortest, steps toward camera, crosses one leg | yes | n/a: music-only | Omni: no hand touches the skirt |
-Outfit: black fitted long-sleeve top (Ralph 2026-10-25, the cut 1 top, put on by try-on) + the real brown skirt, black sheer tights, feet in frame  Setting: Grace's own room from her 4 body photos (sun mirror, fiddle-leaf plant, blue curtain, oak floor; grace/ref/body/)  Nails / person details: Grace's own, unchanged by try-on  Real product confirmed (top, cap, label): drawstrings at the FRONT waistband, solid dark chocolate brown, long ruffled back (research/inspo_beats.md product truths)
+Outfit: black fitted long-sleeve top (Ralph 2026-10-25, the cut 1 top) + the real brown skirt + BARE LEGS + black knee-high boots, flat lug sole, the cut 1 boots (refs/boots_cut1.png) (Ralph 2026-10-25: "No, wanted her legs to show with the boots"); every shot cropped from the NECK DOWN (Ralph 2026-10-25: "Neck down"), feet in frame  Setting: Grace's own room from her 4 body photos (sun mirror, fiddle-leaf plant, blue curtain, oak floor; grace/ref/body/)  Nails / person details: Grace's own, unchanged by try-on  Real product confirmed (top, cap, label): drawstrings at the FRONT waistband, solid dark chocolate brown, long ruffled back (research/inspo_beats.md product truths)
 
-Stills (Kling Kolors try-on, fal), two passes per look: pass 1 puts the black long-sleeve top on (garment tryon/garment_top_black_ls.jpg, cropped from the approved FULL2 still), pass 2 puts the real skirt on that result
+Stills, two steps per look:
+- Step A, base edit (3 photos, L1 and L4 share front.jpg): top + bare legs + boots in ONE edit, prompts/v2_base_front.txt and v2_base_back.txt (written with prompt-master), refs: image 1 = Grace photo, image 2 = tryon/garment_top_black_ls.jpg (the cut 1 top), image 3 = refs/boots_cut1.png (the cut 1 boots). $0 route first: I send Ralph the 3 images + the prompt, he runs it in his Gemini app and sends the result back; paid route only if he can't or it fails QC: Kie nano-banana-pro edit $0.09 each.
+- Step B, skirt try-on (Kolors, fal, no text prompt): human_image_url = the step A result, garment_image_url = the real listing photo below. Then free fixes: colour shift to the real chocolate brown (70,51,46), neck-down crop, same framing on every look.
 | Look | Grace photo (grace/ref/body/) | Real listing photo (skirt) |
 |---|---|---|
 | L1 knee | front.jpg | 07 (on model, front at the knee) |
@@ -40,30 +42,33 @@ Stills (Kling Kolors try-on, fal), two passes per look: pass 1 puts the black lo
 | L5 step | the L4 still (same look) | n/a: reuses the L4 still |
 
 ## 5. Order of work
-Still storyboard first: the riskiest still (L4 shortest, does try-on keep a pulled-up length?) first as the ONE test still, then the other three, every still checked at 2x against the product truths, then the storyboard to Ralph. Clips: L1 first as the ONE test clip, then the batch after his OK.
+Still storyboard first: base edit of front.jpg first (it feeds L1 and L4), then the riskiest still (L4 shortest, does try-on keep a pulled-up length over bare legs + boots?) as the ONE test still, then the other three, every still checked at 2x against the product truths, then the storyboard to Ralph. Clips: Flow first ($0): I send Ralph the kit per clip (approved still, ruching close-up, product sheet, boots close-up, the prompt) in the chat and on the review page; L1 first as the ONE test take, then the rest after his OK. Kie Omni ($0.315) only for a clip Flow can't make or that fails QC, asked first with the cost.
 Free fixes planned: colour shift toward the real chocolate brown (round 26 read a little khaki); crop to the same framing on every look; AI finish last.
 
 ## 6. Cost (one total)
 | Item | Qty x unit | $ |
 |---|---|---|
-| Kolors try-on, top pass (fal) | 4 x $0.07 | 0.28 |
-| Kolors try-on, skirt pass (fal) | 4 x $0.07 | 0.28 |
-| Omni clips 4 s (Kie) | 5 x $0.315 | 1.575 |
-Total Kie: $1.575  fal: $0.56  ElevenLabs: 0 chars (music-only)  Contingency redos (each asked separately): up to $0.50 (redo cap for this job)
-Month so far (`python3 grace/spend.py`): $151.67 (no cap in October)
+| Step A base edit: Ralph's Gemini app ($0 first); paid fallback Kie nano-banana-pro | 3 x $0.09 | 0.27 |
+| Step B Kolors skirt try-on (fal) | 4 x $0.07 | 0.28 |
+| Clips: Ralph's Flow app ($0 first); paid fallback Omni 4 s on Kie | 5 x $0.315 | 1.575 |
+Expected spend if Gemini app + Flow both work: **$0.28** (fal only). Ceiling if every fallback is used: Kie $1.845 + fal $0.28.
+Dropped from rev 2: the separate Kolors top pass (4 x $0.07): the base edit puts the top on in the same step.
+Contingency redos (each asked separately with its cost): up to $0.50 (redo cap for this job); the likely one is a Kolors skirt redo on L4 ($0.07).
+ElevenLabs: 0 chars (music-only). Month so far (`python3 grace/spend.py`): $162.79 (no cap in October; from November $100/month).
 
-TOTAL: $2.14
+TOTAL: $2.13
 
-**Approve?**
+**Approve?** (TOTAL is the ceiling with every paid fallback; nothing paid runs where the $0 route works.)
 
 ## 7. Questions (all of them, now)
-Answered by Ralph 2026-10-25: (1) "Neck down"; (2) "No, wanted her legs to show with the boots" (bare legs + black knee-high boots, no tights). Plan needs a new step + new total before approval.
+Answered by Ralph 2026-10-25: (1) "Neck down"; (2) "No, wanted her legs to show with the boots" (bare legs + black knee-high boots, no tights). Both are in this book (step A + neck-down crop).
 
-1. Grace wears a pink satin head wrap in all 4 photos. Crop every shot from the neck down (like cut 1's waist-down framing), or keep her face in?
-2. The body photos are sheer black tights, so her legs read as black tights under the skirt in the short looks. OK?
+1. Step A: will you run the 3 base edits in your Gemini app ($0; I send the images + one prompt), or should I use Kie nano-banana-pro ($0.27)?
+2. Under the skirt the base edit puts short black fitted shorts (they replace the tights at the hips, so the shortest look never shows underwear). OK?
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 | Item | Model | Prompt file / text |
 |---|---|---|
-| L1-L4 stills | Kling Kolors try-on (fal) | no text prompt: pass 1 human_image_url = Grace photo, garment_image_url = tryon/garment_top_black_ls.jpg; pass 2 human_image_url = pass 1 result, garment_image_url = real listing photo (table above) |
-| L1-L5 clips | Omni on Kie (omni_clip.py) | prompts/v2_L1..L5.txt: ref 1 = the approved still (first frame), ref 2 = real front close-up refs/closeup_ruching.png, ref 3 = refs/product_sheet.png; "the skirt must match reference 2 and 3 fold for fold and colour for colour; drawstrings only at the front waistband; no hand lifts the hem; solid fabric, legs never show through" + the move from section 4 |
+| Step A base edits | Gemini app ($0) / Kie nano-banana-pro | prompts/v2_base_front.txt (front.jpg, front_face.jpg), prompts/v2_base_back.txt (back.jpg); image 1 = Grace photo, image 2 = top, image 3 = boots |
+| L1-L4 stills | Kling Kolors try-on (fal) | no text prompt: human_image_url = step A result, garment_image_url = real listing photo (table above) |
+| L1-L5 clips | Flow app ($0) / Omni on Kie (omni_clip.py) | prompts/v2_L1..L5.txt (rewritten with prompt-master 2026-10-25): image 1 = the approved still (first frame), image 2 = refs/closeup_ruching.png, image 3 = refs/product_sheet.png, image 4 = refs/boots_cut1.png; neck-down framing, bare legs + boots, drawstrings only at the front waistband, hands never below the hips, solid fabric, no music/voice + the move from section 4 |

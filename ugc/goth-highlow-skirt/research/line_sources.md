@@ -24,3 +24,5 @@
 | L5 step + crossed leg | inspo 15.8-17.7 s |
 | Try-on route | tests rounds 22-26: Kolors on Grace's own frame kept the real skirt's shape (round 26) |
 | Black long-sleeve top | Ralph 2026-10-25 (the cut 1 top) |
+| Neck-down framing | Ralph 2026-10-25 "Neck down" |
+| Bare legs + black knee-high boots (no tights) | Ralph 2026-10-25 "No, wanted her legs to show with the boots" |

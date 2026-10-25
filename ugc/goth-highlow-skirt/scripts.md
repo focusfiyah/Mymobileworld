@@ -4,7 +4,7 @@ Ask (Ralph 2026-10-22): Grace needs this video generated; inspo https://www.tikt
 Sound: music-only like the inspo (Grace adds the inspo's sound "Vogue (I Want Your Love)" or a trending one when she posts). No text unless Ralph says yes.
 
 ## Shots v2 (2026-10-23, try-on route; replaces the v1 shot list)
-Real skirt put on Grace by Kling Kolors virtual try-on (fal) from the real listing photos, on Grace's 4 real body photos (grace/ref/body/, her room), with the black fitted long-sleeve top tried on first (Ralph 2026-10-25). Each look is its own 4 s Omni clip on Kie with a small move; the length changes on a cut as her hand tugs a front string (tug-cut, the edit Ralph approved on cut 1). Music-only, no text.
+Real skirt put on Grace by Kling Kolors virtual try-on (fal) from the real listing photos, on Grace's 4 real body photos (grace/ref/body/, her room), with the black fitted long-sleeve top tried on first (Ralph 2026-10-25). Every shot framed from the neck down (Ralph 2026-10-25: "Neck down"); bare legs with black knee-high boots, flat lug sole, no tights (Ralph 2026-10-25: "wanted her legs to show with the boots"). Each look is its own 4 s Omni clip on Kie with a small move; the length changes on a cut as her hand tugs a front string (tug-cut, the edit Ralph approved on cut 1). Music-only, no text.
 - L1 HAND 0-3 s: front, skirt just above the knee. Both hands at the waistband on the two front strings, she tugs once.
 - L2 HAND-FREE 3-6 s: back view, the long ruffled back tiers swing, then a half turn to the side.
 - L3 HAND 6-9 s: front, one side pulled up, one leg out to JUST above the knee. She shifts her weight onto that leg.
