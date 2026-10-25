@@ -8,3 +8,6 @@ Final lines = scripts.md as saved.
 
 ## 2026-10-23 re-check on scripts.md v2
 Spoken lines, caption and on-screen options are unchanged from v1 (already humanized above). New text is the v2 shot list (plan text, not spoken or shown on screen). Checked it for AI tells anyway: no dashes, no not-X-but-Y contrasts, no triads, no one-line closers, plain words. No change needed.
+
+## 2026-10-25 re-check (shots v2 rev: Grace body photos, black long-sleeve top, real back view)
+Spoken lines, caption and on-screen options unchanged. Only plan text changed; no AI tells. No change needed.

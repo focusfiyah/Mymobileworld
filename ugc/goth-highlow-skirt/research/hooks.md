@@ -16,3 +16,6 @@ Each option = on-screen text (only if Ralph says yes) + spoken line (only if Ral
 
 ## 2026-10-23 re-check on scripts.md v2
 No new hooks: the video stays music-only with no text unless Ralph says yes. The on-screen options stay H034 / H095 / H030 from the library, word for word (checked against grace/hooks/HOOKS.md ids).
+
+## 2026-10-25 re-check
+No hook change (music-only, text only on Ralph yes; H034/H095/H030 unchanged).

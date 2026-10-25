@@ -18,8 +18,9 @@
 | Shot | Source |
 |---|---|
 | L1 knee + tug | inspo 0-2.3 s (top of the knee) + product truth 1 (strings at the front waist) |
-| L2 side/back tiers | inspo 2.4-3.4 s back view; no back frame of Grace exists in the white room, so a 3/4 side turn (Ralph's call in BOOK §7) |
+| L2 back tiers | inspo 2.4-3.4 s back view; Grace's real back photo (grace/ref/body/back.jpg, 2026-10-25) |
 | L3 one leg just above the knee | inspo 7.2-12.5 s + product truth 2 |
 | L4 shortest | inspo 12.8-15.5 s |
 | L5 step + crossed leg | inspo 15.8-17.7 s |
 | Try-on route | tests rounds 22-26: Kolors on Grace's own frame kept the real skirt's shape (round 26) |
+| Black long-sleeve top | Ralph 2026-10-25 (the cut 1 top) |
