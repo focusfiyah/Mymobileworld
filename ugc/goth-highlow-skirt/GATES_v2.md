@@ -29,3 +29,4 @@ Scope: replicate the inspo (@jaquelineee809) with the real skirt on Grace; THIS 
 - [ ] G7: Nothing paid this session (no new fal/Kie entries before his OK)
   CHECK: python3 -c "import json;d=json.load(open('tryon/tryon_log.json'));print('NOSPEND_OK' if len(d)==6 else 'BAD',len(d))"
   EXPECT: NOSPEND_OK
+  EVIDENCE: 2026-10-25 email sent (Gmail id 1a1717601c04ca38); phone push NOT sent: ToolSearch select:PushNotification returned "No matching deferred tools found" this session
