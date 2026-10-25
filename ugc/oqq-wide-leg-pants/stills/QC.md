@@ -9,3 +9,6 @@
 - S6 PASS: brown back three-quarter, hand on grey stool, phone top out of the pocket.
 - S7 FAIL: back view walking away (planned front walk toward camera), repeats S5, hands in a hand-free shot. Redo asked ($0.09).
 - S8 PASS: brown right side, phone up (inspo mirror moment, face out of frame), hand on hip, toes right.
+- Round 2 (2026-10-25, Kie $0.18, Ralph: "Make sure to double check your prompts so that the still come out right"). Prompt fixes first: the body block's "frame cuts at her chest" and the top description fought "knees to floor" on S2/S7, and S7's back-mark ref + "when the back shows" pulled a back view; now legs-only shots carry no top/waist/back-mark text, and the shot, framing and foot direction come first (tools/make_shots.py LEGS, refs_for).
+- S2 r2 PASS: knees-to-floor side view, both toes point left, back heel lifting; side tab sits a little forward of the real position (small).
+- S7 r2 FAIL: front view is right, but her lifted foot shows its sole and heel to the camera, reads as a backwards shoe. Asked: redo $0.09 with "both soles flat on the floor, the soles never show", or drop S7.

@@ -1,13 +1,13 @@
 {
- "sub": "Round 4, 2026-10-25: 8 stills on Kie ($0.72), 6 pass, 2 need a redo; Flow kits for the 6.",
+ "sub": "Round 5, 2026-10-25: prompts fixed (framing + foot direction first), S2 passes, S7 still off. Kie $0.90.",
  "ask": {
-  "title": "2 quick calls",
-  "text": "1. Redo S2 (feet point opposite ways) and S7 (came out as a back view, I planned her walking toward the camera) on Kie: <b>$0.18</b> for both, inside the approved total. OK?<br>2. Clips: your Flow app ($0, 6 kits below, S4 first) or Kie Omni ($0.315 each, $2.52 for all 8, inside the approved total)?"
+  "title": "2 calls left",
+  "text": "1. S7: redo once more on Kie (<b>$0.09</b>, prompt now says both soles flat on the floor, the soles never show), or drop S7 and run 7 shots?<br>2. Clips: your Flow app ($0, 7 kits below, S4 first) or Kie Omni ($0.315 each, $2.205 for 7 or $2.52 for 8)?"
  },
  "sections": [
   {
    "type": "grid",
-   "h": "Storyboard round 1 (Kie)",
+   "h": "Storyboard (round 2: S2 + S7 redone)",
    "note": "Play order: S1 back, S2 length, S4 phone goes in, S3 phone in the pocket, S5 black walks away, S6 brown, S7 brown walk, S8 brown side with the phone up.",
    "items": [
     {
@@ -19,9 +19,9 @@
     {
      "src": "st/S2.jpg",
      "n": "S2",
-     "tag": "redo",
-     "cls": "redo",
-     "p": "Feet point opposite ways (back toe left, front toe right)."
+     "tag": "pass",
+     "cls": "ok",
+     "p": "Redone: both toes point left, back heel lifting."
     },
     {
      "src": "st/S4.jpg",
@@ -52,7 +52,7 @@
      "n": "S7",
      "tag": "redo",
      "cls": "redo",
-     "p": "Back view again (planned: walking toward the camera)."
+     "p": "Front view now, but the lifted foot shows its sole and heel: reads backwards."
     },
     {
      "src": "st/S8.jpg",
@@ -65,7 +65,7 @@
   {
    "type": "html",
    "h": "2x checks",
-   "body": "<figure><img src=\"img/r1_2x.jpg\" alt=\"2x crops\"><figcaption>S2 feet (fail) \u00b7 S4 hand + pocket \u00b7 S3 feet \u00b7 S6 legs</figcaption></figure>"
+   "body": "<figure><img src=\"img/r2_2x.jpg\" alt=\"Round 2 shoes at 2x\"><figcaption>Round 2 \u00b7 S2 shoes (pass) \u00b7 S7 lifted foot (fail)</figcaption></figure>"
   },
   {
    "type": "kits",
@@ -91,6 +91,26 @@
       ]
      ],
      "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real hidden side pocket (tonal, phone top showing). Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: her right hand slides the phone straight down into the hidden pocket until only its top edge shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
+    },
+    {
+     "id": "S2",
+     "what": "BLACK \u00b7 knees-down side view, two steps to the left",
+     "open": false,
+     "imgs": [
+      [
+       "st/S2.jpg",
+       "S2 still (start frame)"
+      ],
+      [
+       "kit/vans_tab.jpg",
+       "Vans side tab"
+      ],
+      [
+       "kit/pants_sheet.jpg",
+       "pants sheet"
+      ]
+     ],
+     "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. Image 2 is the real woven VANS side tab: small black tab, white VANS letters. Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; they must match the product sheet colour for colour. Motion: she takes two slow steps across the frame from right to left, the hems swing and settle back over the shoes; the camera stays low and pans with her; no hand appears at any time. Her face never enters the frame. Hands keep five fingers and whole wrists. Exactly two shoes, worn the right way round; she is mid-step walking toward the LEFT edge of the frame: BOTH shoes point the same way, toes to the LEFT edge and heels to the right edge; her left foot is ahead (further left) flat on the floor, her right foot behind with its heel just lifting; the two shoes are parallel and never point opposite ways. No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16."
     },
     {
      "id": "S3",

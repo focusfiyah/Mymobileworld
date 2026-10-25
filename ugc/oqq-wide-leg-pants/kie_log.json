@@ -255,5 +255,65 @@
    ]
   },
   "costTime": 165
+ },
+ {
+  "t": "2026-10-25 19:43:41",
+  "submitted": "e3087cd3f7a043327ed0f111832fe1a0",
+  "prompt": "SHOT: camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey w"
+ },
+ {
+  "t": "2026-10-25 19:43:43",
+  "submitted": "2e616c4e280f66418aee7cd81973674b",
+  "prompt": "SHOT: low camera at knee height, SIDE view of her lower legs on the oak floor: the black wide hems fall over her shoes a"
+ },
+ {
+  "t": "2026-10-25 19:45:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey wood floor: the brown wide hems swing forward and the toe caps of both sequin Vans show under them. FRAMING: only her lower legs and feet, from just above the knees down to the floor; nothing above her knees is in the frame (no top, no waist, no hands, no arms). FEET: FRONT VIEW: she walks straight TOWARD the camera: both toe caps point AT the lens and are the closest thing to the camera, the heels are hidden behind; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real shoe from every side. Image 3 = the real woven VANS side tab (small black tab, white VANS letters). Image 4 = the real room. Image 5 = her real body and skin tone (ignore its clothes and room). Any skin that shows (a glimpse of ankle) matches image 5. THE PANTS must match image 1 exactly, colour for colour: the DARK BROWN pair of the real OQQ wide-leg pants. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. One thin stitched seam line runs down the front of each leg. Below the knee the legs are wide and straight (not flared, not tapered) down to a full-length hem that covers the top of the shoe and brushes the floor. No logos, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (image 2): black squares covered in black sequins, off-white squares plain canvas, black laces, a small BLACK woven side tab with white VANS letters (image 3), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. PLACE: the real kitchen in image 4: grey upholstered bar stools with wooden legs, white cabinets, dark island, grey wood floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957008289-4gjmkps7cwn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957014338-obkbbuq4irp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957017940-4ci2n0fi9sy.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957021372-4u8anzp3ft.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957020218-lcu86bodryl.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e3087cd3f7a043327ed0f111832fe1a0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e3087cd3f7a043327ed0f111832fe1a0_0_1792957512.jpeg"
+   ]
+  },
+  "costTime": 96
+ },
+ {
+  "t": "2026-10-25 19:45:24",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: low camera at knee height, SIDE view of her lower legs on the oak floor: the black wide hems fall over her shoes and brush the floor, only the front half of each sequin Vans shows. FRAMING: only her lower legs and feet, from just above the knees down to the floor; nothing above her knees is in the frame (no top, no waist, no hands, no arms). FEET: she is mid-step walking toward the LEFT edge of the frame: BOTH shoes point the same way, toes to the LEFT edge and heels to the right edge; her left foot is ahead (further left) flat on the floor, her right foot behind with its heel just lifting; the two shoes are parallel and never point opposite ways. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real shoe from every side. Image 3 = the real woven VANS side tab (small black tab, white VANS letters). Image 4 = the real room. Image 5 = her real body and skin tone (ignore its clothes and room). Any skin that shows (a glimpse of ankle) matches image 5. THE PANTS must match image 1 exactly, colour for colour: the BLACK pair of the real OQQ wide-leg pants. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. One thin stitched seam line runs down the front of each leg. Below the knee the legs are wide and straight (not flared, not tapered) down to a full-length hem that covers the top of the shoe and brushes the floor. No logos, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (image 2): black squares covered in black sequins, off-white squares plain canvas, black laces, a small BLACK woven side tab with white VANS letters (image 3), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. PLACE: the real kitchen in image 4: sage-green kitchen island with a white marble top, black round bar stools, warm oak floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957008289-4gjmkps7cwn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957014338-obkbbuq4irp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957017940-4ci2n0fi9sy.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957022564-rpxzkbq2j89.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792957020218-lcu86bodryl.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2e616c4e280f66418aee7cd81973674b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2e616c4e280f66418aee7cd81973674b_0_1792957520.jpeg"
+   ]
+  },
+  "costTime": 101
  }
 ]

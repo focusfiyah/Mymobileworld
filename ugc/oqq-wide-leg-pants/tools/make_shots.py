@@ -23,7 +23,11 @@ ROOM = {"black": "PLACE: the real kitchen in image 7: sage-green kitchen island 
         "brown": "PLACE: the real kitchen in image 7: grey upholstered bar stools with wooden legs, white cabinets, dark island, grey wood floor."}
 LIGHT = ("LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, "
          "no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.")
-REFS_HEAD = ("Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. "
+REF_DESC = {"refs/product_sheet.png": "the real pants from every side (listing photos, black and dark brown)", "refs/real_pocket.jpg": "the real hidden side pocket with a phone in it",
+            "refs/real_back_logo.jpg": "the real centre-back OQQ circle mark", "refs/vans_product_sheet.png": "the real shoe from every side", "refs/real_vans_tab.jpg": "the real woven VANS side tab (small black tab, white VANS letters)",
+            "refs/grace_body_sheet.jpg": "her real body and skin tone (ignore its clothes and room)", "refs/room.jpg": "the real room", "refs/room_b.jpg": "the real room", "refs/vans_real_heel_label.jpg": "the real Vans heel label (small WHITE OFF THE WALL label, black print)"}
+LEGS = {"S2", "S7"}   # knees-to-floor shots: no top, no hands, no back mark (2026-10-25: chest framing in the body block won over "knees to floor" and S7 turned into a back view)
+OLD_REFS_HEAD = ("Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real hidden side pocket with a phone in it. "
              "Image 3 = the real centre-back OQQ circle mark. Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab. "
              "Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room.")
 STILL_REFS = {"black": ["refs/product_sheet.png", "refs/real_pocket.jpg", "refs/real_back_logo.jpg", "refs/vans_product_sheet.png",
@@ -32,11 +36,11 @@ STILL_REFS = {"black": ["refs/product_sheet.png", "refs/real_pocket.jpg", "refs/
                         "refs/real_vans_tab.jpg", "refs/grace_body_sheet.jpg", "refs/room_b.jpg"]}
 FEET = {
  "S1": "She faces away from the camera toward the island: both toes point AWAY from the camera, the backs of both heels face the camera.",
- "S2": "She walks toward the LEFT edge of the frame: both toes point to the LEFT edge, both heels to the right.",
+ "S2": "she is mid-step walking toward the LEFT edge of the frame: BOTH shoes point the same way, toes to the LEFT edge and heels to the right edge; her left foot is ahead (further left) flat on the floor, her right foot behind with its heel just lifting; the two shoes are parallel and never point opposite ways.",
  "S3": "She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the left edge, the heels behind.",
  "S5": "She walks away from the camera: both toes point AWAY from the camera, the backs of both heels face the camera.",
  "S6": "She faces away from the camera, turned a little to the left: both toes point away from the camera and slightly left, the heels face the camera.",
- "S7": "She walks straight toward the camera: both toes point AT the camera, the heels are hidden behind.",
+ "S7": "FRONT VIEW: she walks straight TOWARD the camera: both toe caps point AT the lens and are the closest thing to the camera, the heels are hidden behind; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels; both soles stay flat on the floor in a short, calm step, so the bottoms of the shoes never show.",
  "S8": "She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge.",
 }
 SHOTS = [
@@ -44,7 +48,7 @@ SHOTS = [
   "SCENE: mirror-style photo from behind and a little to her right, chest to floor: she stands with her back three-quarters to the camera next to the island, weight on her left leg; her right hand rests flat on the back of her right hip, fingers together, whole wrist visible. The white circle mark shows at the centre back under the waistband.",
   "she shifts her weight slowly from foot to foot and her right hand slides down over the back of her hip and thigh; the wide legs sway and the hem stays on the floor; slight handheld camera, no cut", ["refs/real_back_logo.jpg", "refs/product_sheet.png"]),
  ("S2", "HAND-FREE", "black", [2.6, 5.0], "If wide-leg pants always stop at your ankles, look at this length.",
-  "SCENE: low camera at knee height, side view of her lower legs only (knees to floor) on the oak floor: the black hems fall over her shoes and brush the floor, only the front half of each sequin Vans shows. No hands, arms or fingers anywhere in the frame.",
+  "low camera at knee height, SIDE view of her lower legs on the oak floor: the black wide hems fall over her shoes and brush the floor, only the front half of each sequin Vans shows.",
   "she takes two slow steps across the frame from right to left, the hems swing and settle back over the shoes; the camera stays low and pans with her; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S3", "HAND", "black", [5.0, 8.0], "I'm [height], wearing a [size] in the [Regular or Longer], and they go all the way down over my sneakers.",
   "SCENE (the inspo's shot): mirror-style photo of her right side, chest to floor, standing beside a black bar stool; her left hand rests on the stool's back with a relaxed grip, whole wrist visible; her right hand at her side. The full leg from waistband to floor is in frame.",
@@ -59,27 +63,65 @@ SHOTS = [
   "SCENE: mirror-style photo from behind and to her left, back three-quarter view, chest to floor; her left hand rests on the back of a grey upholstered bar stool, whole wrist visible.",
   "she rocks her hips side to side and shifts her weight, the brown wide legs sway and the hem stays on the floor; her hand stays on the stool; slight handheld camera", ["refs/real_back_logo.jpg", "refs/product_sheet.png"]),
  ("S7", "HAND-FREE", "brown", [15.8, 18.2], "Black and brown go with everything for fall, so grab both.",
-  "SCENE: camera on the floor in front of her, low front view of her lower legs (knees to floor) walking toward the camera on the grey wood floor: the brown hems swing, the toe caps of both sequin Vans show under them. No hands, arms or fingers anywhere in the frame.",
+  "camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey wood floor: the brown wide hems swing forward and the toe caps of both sequin Vans show under them.",
   "she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S8", "HAND", "brown", [18.2, 20.5], "I linked them in the orange cart for you.",
   "SCENE: mirror-style photo of her right side, chest to floor, in the middle of the kitchen; her right hand on her right hip, fingers forward, whole wrist visible.",
   "she holds the phone still up by her face at the top edge of the frame (her face never shows) and her other hand slides down over her hip; she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; slight handheld camera", ["refs/product_sheet.png"]),
 ]
+def refs_for(sid, c):
+    if sid in LEGS:
+        r = ["refs/product_sheet.png", "refs/vans_product_sheet.png", "refs/real_vans_tab.jpg", "refs/room.jpg" if c == "black" else "refs/room_b.jpg", "refs/grace_body_sheet.jpg"]
+    else:
+        r = list(STILL_REFS[c])
+        if sid not in ("S1", "S5", "S6"):
+            r.remove("refs/real_back_logo.jpg")   # back mark only where the back shows
+        if sid == "S4":
+            r = [x for x in r if "vans" not in x]  # feet out of frame
+    if sid == "S5":
+        r.append("refs/vans_real_heel_label.jpg")
+    return r
+
+
+def n(refs, key):
+    return refs.index(key) + 1
+
+
 out = {"shots": []}
 for sid, kind, c, win, line, scene, motion, extra in SHOTS:
-    still = " ".join([REFS_HEAD, scene, HER, TOP[c], pants(c), (SHOES + " FEET DIRECTION: " + FEET[sid]) if sid != "S4" else "Her feet are out of frame.", ROOM[c], LIGHT])
-    if sid == "S5":
-        still += " Image 8 = the real Vans heel label: a small WHITE OFF THE WALL label with black print on the back of each heel."
-    if kind == "HAND-FREE":
+    refs = refs_for(sid, c)
+    head = " ".join(f"Image {i+1} = {REF_DESC[r]}." for i, r in enumerate(refs))
+    pants_txt = pants(c).replace("images 1 and 2", "image 1" + (f" and image {n(refs,'refs/real_pocket.jpg')}" if "refs/real_pocket.jpg" in refs else ""))
+    pants_txt = pants_txt.replace("(image 2)", f"(image {n(refs,'refs/real_pocket.jpg')})" if "refs/real_pocket.jpg" in refs else "")
+    if "refs/real_back_logo.jpg" in refs:
+        pants_txt = pants_txt.replace("(image 3) when the back shows", f"(image {n(refs,'refs/real_back_logo.jpg')})")
+    else:
+        pants_txt = pants_txt.replace("Only the small white round OQQ circle mark at the centre back under the waistband (image 3) when the back shows; no other logos", "No logos")
+    shoes_txt = SHOES.replace("(images 4 and 5)", f"(image {n(refs,'refs/vans_product_sheet.png')})").replace("(image 5)", f"(image {n(refs,'refs/real_vans_tab.jpg')})") if sid != "S4" else ""
+    body_n = n(refs, "refs/grace_body_sheet.jpg")
+    room_txt = ROOM[c].replace("image 7", f"image {n(refs, 'refs/room.jpg' if c == 'black' else 'refs/room_b.jpg')}")
+    if sid in LEGS:
+        first = ("SHOT: " + scene + " FRAMING: only her lower legs and feet, from just above the knees down to the floor; nothing above her knees is in the frame (no top, no waist, no hands, no arms). FEET: " + FEET[sid])
+        herx = f"Any skin that shows (a glimpse of ankle) matches image {body_n}."
+        pants_txt = (f"THE PANTS must match image 1 exactly, colour for colour: the {'BLACK' if c == 'black' else 'DARK BROWN'} pair of the real OQQ wide-leg pants. "
+                     "Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. One thin stitched seam line runs down the front of each leg. "
+                     "Below the knee the legs are wide and straight (not flared, not tapered) down to a full-length hem that covers the top of the shoe and brushes the floor. No logos, no text.")
+        body = [first, head, herx, pants_txt, shoes_txt, room_txt, LIGHT]
+    else:
+        first = "SHOT: " + scene + (" FEET: " + FEET[sid] if sid != "S4" else " Her feet are out of frame.")
+        herx = HER.replace("image 6", f"image {body_n}")
+        body = [first, head, herx, TOP[c], pants_txt, shoes_txt, room_txt, LIGHT]
+    still = " ".join(x for x in body if x)
+    if kind == "HAND-FREE" and sid not in LEGS:
         still += " No hands, arms or fingers anywhere in the frame."
     names = {"refs/real_back_logo.jpg": "the real centre-back OQQ circle mark: a small white round mark", "refs/real_pocket.jpg": "the real hidden side pocket (tonal, phone top showing)",
              "refs/real_vans_tab.jpg": "the real woven VANS side tab: small black tab, white VANS letters", "refs/product_sheet.png": "the pants product sheet", "refs/vans_real_heel_label.jpg": "the real Vans heel label: a small WHITE OFF THE WALL label with black print"}
     lines = [f"Image {i+2} is {names[r]}." for i, r in enumerate(extra)]
-    clip = (f"Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. " + " ".join(lines) +
+    clip = ("Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top, pants and shoes exactly. " + " ".join(lines) +
             f" The pants stay {PANTS[c].split(' (')[0].lower()}, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line and a full-length wide straight leg; "
             f"they must match the product sheet colour for colour. Motion: {motion}. Her face never enters the frame. Hands keep five fingers and whole wrists. "
-            + ("Exactly two shoes, worn the right way round; " + FEET[sid] + " " if sid != "S4" else "") + "No added marks, no ® or ™, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.")
-    out["shots"].append({"id": sid, "kind": kind, "colour": c, "window": win, "line": line, "still_refs": STILL_REFS[c] + (["refs/vans_real_heel_label.jpg"] if sid == "S5" else []), "still": still,
+            + ("Exactly two shoes, worn the right way round; " + FEET[sid] + " " if sid != "S4" else "") + "No added marks, no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.")
+    out["shots"].append({"id": sid, "kind": kind, "colour": c, "window": win, "line": line, "still_refs": refs, "still": still,
                          "clip_refs": ["stills/%s.png" % sid] + extra, "motion": motion, "clip": clip})
 json.dump(out, open("shots.json", "w"), indent=1)
 print(len(out["shots"]), "shots;", sum(s["kind"] == "HAND-FREE" for s in out["shots"]), "hand-free; max still chars", max(len(s["still"]) for s in out["shots"]))
