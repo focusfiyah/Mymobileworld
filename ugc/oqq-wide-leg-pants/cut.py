@@ -2,11 +2,11 @@
 "Probably music", "No text"). python3 cut.py oqq -> out/oqq_review.mp4 then out/oqq_final.mp4 (AI finish, last step).
 EDIT = clean windows only (QC 2026-10-25): S4 = the 2.1 s before the phone turns, Apple logo painted out free
 (tools/logo_out.py -> clips/S4_fixed.mp4); S7 = the walk; S6 ends before her body turns; S2 dropped (feet point both ways).
-Black look first (S1 back, S4 phone in, S3 front, S5 feet), then brown (S6, S7, S8)."""
+Black look first (S4 phone in, S1 back as the 2nd shot (Ralph 2026-10-25: "do not start with the back side. Make it the 2nd shot"), S3 front, S5 feet), then brown (S6, S7, S8)."""
 import subprocess, sys
 from pathlib import Path
 EDIT = {
- "oqq": [("S1", 0, 2.6), ("S4_fixed", 0, 2.1), ("S3", 0, 2.6), ("S5", 0, 2.4), ("S6", 0, 2.6), ("S7", 0.4, 2.8), ("S8", 0, 2.8)],
+ "oqq": [("S4_fixed", 0, 2.1), ("S1", 0, 2.6), ("S3", 0, 2.6), ("S5", 0, 2.4), ("S6", 0, 2.6), ("S7", 0.4, 2.8), ("S8", 0, 2.8)],
 }
 GRADE = {"oqq": "colorbalance=rs=-0.01:bs=0.008,eq=brightness=0.02:contrast=1.03"}   # bright, neutral: black stays black, brown stays chocolate, oak floor not yellow
 
