@@ -12,3 +12,5 @@ Script: Ralph's, kept word for word pending his OK, so tells are reported, not c
 
 Caption (mine, humanized): first draft "Boost your energy the easy way with these delicious B12 pouches! ✨" had "boost",
 a sales tone, an exclamation and a sparkle emoji. Final in captions.md.
+
+2026-10-26 re-run on the final script: line 6b is now "and B12 promotes brain health" (Ralph's swap), which also reads less like a label; no new tells, no dashes, no banned phrases.

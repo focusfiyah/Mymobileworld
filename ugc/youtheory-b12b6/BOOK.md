@@ -20,10 +20,10 @@ Sent to Ralph: https://claude.ai/artifact/LvrMBi3CNvBuXW4MCHv16j (2026-10-26, re
 | Banned-phrase check | gate.py | OK |
 
 ## 3. Script (Ralph's, word for word: Q1)
-> A pouch a day keeps laziness away. Because sometimes, you don't need more motivation. Your body may need B vitamins! This delicious raspberry-flavored B6 and B12 pouch makes it easy. There are twelve in a box, so I'd stock up on a few! B6 and B12 support normal energy metabolism, and B12 supports normal nervous system function. Tap the orange cart and grab yours while they're in stock!
+> A pouch a day keeps laziness away. Because sometimes, you don't need more motivation. Your body may need B vitamins! This delicious raspberry-flavored B6 and B12 pouch makes it easy. There are twelve in a box, so I'd stock up on a few! B6 and B12 support normal energy metabolism, and B12 promotes brain health. Tap the orange cart and grab yours while they're in stock!
 
 Only change: "12" written as "twelve" so the voice and timing match. Source of each line: research/line_sources.md.
-Flags, kept as written: "B12 supports normal nervous system function" is not on the box, pouch or listing (they say "promotes brain health"); the close is "Tap the orange cart..." instead of Grace's "It's in the orange cart."; "while they're in stock" is soft urgency.
+Line 6b swapped to the box wording "promotes brain health" (Ralph: "3. Say box"). Flags, kept as written: the close is "Tap the orange cart..." instead of Grace's "It's in the orange cart."; "while they're in stock" is soft urgency.
 
 ## 4. Shot list (straw in the pouch in EVERY shot, per your note)
 | # | VO words | On screen | HAND? | Clip | Room |
@@ -35,7 +35,7 @@ Flags, kept as written: "B12 supports normal nervous system function" is not on 
 | S5 | "B6 and B12 pouch makes it easy." | Hand lifts the pouch up out of frame top as if to sip from the straw (no face) | HAND | Omni 4 s | B |
 | S6 | "There are twelve in a box, so I'd stock up on a few!" | Grace's real open display box full of pouches; hand sets the straw pouch down beside it (RISKIEST: box print + pouch + hand) | HAND | Omni 4 s | B |
 | S7 | "B6 and B12 support normal energy metabolism," | Pouch on an entryway bench by a yoga mat, tote and sneakers, slow dolly in | HAND-FREE | Omni 4 s | C entryway |
-| S8 | "and B12 supports normal nervous system function." | Pouch on a plant-filled desk by the laptop and an open notebook, slow push-in | HAND-FREE | Omni 4 s | D plant office |
+| S8 | "and B12 promotes brain health." | Pouch on a plant-filled desk by the laptop and an open notebook, slow push-in | HAND-FREE | Omni 4 s | D plant office |
 | S9 | "Tap the orange cart and grab yours while they're in stock!" | ONE pouch with straw held toward the lens, slow push-in | HAND | Omni 4 s | D |
 
 Face: none. Voiceover only (Grace cloned, echo gate <=150 ms), no lip sync.
@@ -69,6 +69,9 @@ TOTAL: $4.455
 4. Straw: plain white paper straw in the torn-open top, OK? (Or pink to match the pouch?)
 5. Stills on Kie ($0.90) or your Gemini app ($0)?
 6. On-screen text: default none. Want any?
+
+## 7b. Ralph's answers (2026-10-26: "1. None 2. Yes 3. Say box 4. Yes 5. Yes 6. Kie 7. Yes")
+1. Product details correct. 2. Script word for word. 3. Line 6b = "and B12 promotes brain health" (box wording). 4. Hand sheet with bracelet. 5. White paper straw in the torn-open top. 6. Stills redo on Kie ($0.81); clips on Kie too (his earlier "You can also create the stills and shots"). 7. No on-screen text.
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Every still prompt: prompts/still_S1..S9.txt; every Omni clip prompt: prompts/S1..S9.txt; refs per shot: prompts/refs.json. All pass grace/prompt_check.py lint.

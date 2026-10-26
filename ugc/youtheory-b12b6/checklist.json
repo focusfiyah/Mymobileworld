@@ -78,9 +78,19 @@
  "book_ok": {
   "by": "Ralph",
   "date": "2026-10-26",
-  "quote": "You can also create and the stills and shots. (Ralph 2026-10-26, in chat; clips wait for the storyboard)",
-  "total": 3.735,
-  "sha256": "ad082af23ab74752673ea3416668007d23cee0bebbbfc3853352d0675d4c39a9",
-  "spent_at_approval": 0.0
- }
+  "quote": "1. None 2. Yes 3. Say box 4. Yes 5. Yes 6. Kie 7. Yes (Ralph 2026-10-26, after the review page)",
+  "total": 4.455,
+  "sha256": "0803f68412d6163b82ee0e72cc404e1a5ee99762934b0869b455cc9bb9615155",
+  "spent_at_approval": 0.81
+ },
+ "book_history": [
+  {
+   "by": "Ralph",
+   "date": "2026-10-26",
+   "quote": "You can also create and the stills and shots. (Ralph 2026-10-26, in chat; clips wait for the storyboard)",
+   "total": 3.735,
+   "sha256": "ad082af23ab74752673ea3416668007d23cee0bebbbfc3853352d0675d4c39a9",
+   "spent_at_approval": 0.0
+  }
+ ]
 }
