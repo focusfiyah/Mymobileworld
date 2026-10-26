@@ -1,42 +1,134 @@
 {
  "blocks": {
-  "size_first": "SIZE FIRST: the mini bag charm is tiny, about 3 inches (8 cm) tall to the top of its handles and about 2.5 inches (6.5 cm) wide, small enough to sit in an adult palm; a white wireless earbuds case fits inside it with its top just showing. It is far smaller than the handbag it hangs on and smaller than a coffee mug.",
-  "product_block": "The bag charm is the REAL product in the reference images and it must not change: a mini bucket-shaped bag in deep burgundy (wine red) pebbled grain faux leather, matte, wider at the top than the base, open top with no zip and no flap; two rolled round burgundy handles with darker brown-burgundy painted edges rising in two arches; one vertical burgundy strap down the front that passes through a small rectangular gold buckle loop at the top rim; a polished gold padlock hanging from a small gold ring and round gold grommet on that strap, with a U-shaped shackle and three engraved horizontal lines on its body, no letters and no logo; four small round gold feet under the base; a thin silk twilly scarf in pink, light blue and white with thin black line art knotted around the base of the right-hand handle, its long tail hanging down past the base with frayed ends. No text, no logo, no monogram anywhere on the bag; all hardware is gold, never silver.",
+  "size_first": "SIZE FIRST: the mini bag charm is tiny, about 3 inches (8 cm) tall to the top of its handles and about 2.5 inches (6.5 cm) wide, small enough to sit in an adult palm and it is empty: nothing sticks out of its open top except a little white tissue paper, as in image 1. It is far smaller than the handbag it hangs on and smaller than a coffee mug. The gold key ring is about the size of a fingertip.",
+  "product_block": "The bag charm is the REAL product in the reference images and it must not change: a mini bucket-shaped bag in deep burgundy (wine red) pebbled grain faux leather, matte, wider at the top than the base, open top with no zip and no flap; two rolled round burgundy handles with darker brown-burgundy painted edges rising in two arches; one vertical burgundy strap down the front that passes through a small rectangular gold buckle loop at the top rim; a polished gold padlock hanging from a small gold ring and round gold grommet on that strap, with a U-shaped shackle and three engraved horizontal lines on its body, no letters and no logo; four small round gold feet under the base; a small polished gold split key ring on a short gold chain, attached at the base of the left-hand handle; the chain ends in that plain ring only, with no key, no charm and no tag on it; a thin silk twilly scarf in pink, light blue and white with thin black line art knotted around the base of the right-hand handle, its long tail hanging down past the base with frayed ends. No text, no logo, no monogram anywhere on the bag; all hardware is gold, never silver. It is always this open-top bucket shape: never a flap bag, no front flap, no turn lock. The twilly scarf belongs to the bag charm only: no scarf on any other bag.",
   "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a FLAT gold bracelet of rectangular links like a watch band (NO watch face) and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a silver ring with a small heart-shaped stone and a blue silicone band that is a RING worn on the ring finger, never on the wrist. Whole wrist visible, a little forearm in a soft cream knit sleeve may show, five fingers, natural knuckles and skin texture. The fingers GRIP what they touch, thumb on one side and fingers on the other.",
   "no_hand": "No hand, arm, fingers or people anywhere in the frame.",
   "handbag_block": "The handbag is a plain chocolate-brown smooth leather top-handle bag, slouchy and soft, with no logo, no hardware text and no charms other than the burgundy mini bag charm.",
   "light": "Bright soft daylight, clean neutral white balance, never yellow, golden, dark or moody.",
   "suffix": "Vertical 9:16 photo, a single frame from a phone video, realistic leather grain and fabric texture, sharp focus on the bag charm. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI.",
-  "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{hand} and the bag charm exactly. The bag charm is the real product in images 2 to {sheet}: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it.",
+  "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{hand} and the bag charm exactly. The bag charm is the real product in images 2 to {sheet}: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it.",
   "omni_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text."
  },
  "shots": [
-  {"id": "S1", "words": "For the person who loves anything mini…", "hand": true, "room": "rooms/roomA_wood_table.jpg", "props": "",
+  {
+   "id": "S1",
+   "words": "For the person who loves anything mini\u2026",
+   "hand": true,
+   "room": "rooms/roomA_wood_table.jpg",
+   "props": "",
    "still": "Close view in front of the wooden table in the room photo, the pink candle soft and out of focus behind. The hand has entered from the bottom right edge and holds the mini bag charm up by its two handles, pinched together between thumb and index finger at the top, the charm hanging upright just below the fingers, its front with the gold padlock facing the lens, about a third of the frame tall.",
-   "motion": "The hand slowly brings the charm closer to the lens until it fills most of the frame; the charm keeps facing the lens and never turns or swings."},
-  {"id": "S2", "words": "How cute is this little purse?!", "hand": false, "room": "rooms/roomA_wood_table.jpg", "props": "a plain white ceramic coffee mug",
+   "motion": "The hand slowly brings the charm closer to the lens until it fills most of the frame; the charm keeps facing the lens and never turns or swings.",
+   "t": [
+    0.0,
+    2.16
+   ]
+  },
+  {
+   "id": "S2",
+   "words": "How cute is this little purse?!",
+   "hand": false,
+   "room": "rooms/roomA_wood_table.jpg",
+   "props": "a plain white ceramic coffee mug",
    "still": "Low eye-level view across the wooden table top in the room photo. The mini bag charm stands on the table, front with the gold padlock facing the lens, slightly left of centre; a plain white ceramic coffee mug stands a hand's width behind it to the right, clearly taller than the charm, to show how small it is. The pink candle is soft in the background.",
-   "motion": "Camera: a slow, low push-in toward the charm; nothing on the table moves."},
-  {"id": "S3", "words": "You know how your earbuds always end up at the bottom of your bag?", "hand": true, "room": "rooms/roomB_sofa_window.jpg", "props": "", "no_product": true,
+   "motion": "Camera: a slow, low push-in toward the charm; nothing on the table moves.",
+   "t": [
+    2.16,
+    4.18
+   ]
+  },
+  {
+   "id": "S3",
+   "words": "You know how your earbuds always end up at the bottom of your bag?",
+   "hand": true,
+   "room": "rooms/roomB_sofa_window.jpg",
+   "props": "",
+   "no_product": true,
    "still": "Looking down into a big open chocolate-brown smooth leather tote bag resting on the cream sofa from the room photo. The hand has entered from the top right edge and reaches deep into the bag, fingers searching among a jumble at the bottom: a plain white wireless earbuds case half hidden under folded receipts, a set of keys and a plain black wallet. The bag interior is a plain tan lining. No bag charm in this shot.",
-   "motion": "The hand digs through the jumble at the bottom of the bag, pushing the receipts aside, as if searching; the bag stays still. Camera: small handheld drift."},
-  {"id": "S4", "words": "It clips right onto your handbag,", "hand": true, "room": "rooms/roomB_sofa_window.jpg", "props": "", "needs_clasp": true,
-   "still": "Close view of the handle of the chocolate-brown handbag on the cream sofa from the room photo, the window soft behind. The hand has entered from the right edge holding the mini bag charm by its clasp at the handbag's handle; the charm hangs below with its front and gold padlock facing the lens. CLASP: [waiting for the listing photo of the real clasp].",
-   "motion": "The fingers close the clasp around the handbag's handle and let go; the charm settles and hangs still from the handle, front facing the lens."},
-  {"id": "S5", "words": "and you can stash your earbuds, lip balm, keys, or other tiny essentials inside.", "hand": true, "room": "rooms/roomA_wood_table.jpg", "props": "a plain white wireless earbuds case and a plain pink lip balm tube with no label",
-   "still": "Close top-down three-quarter view of the mini bag charm standing open on the wooden table from the room photo. A plain pink lip balm tube with no label already stands inside it, its cap peeking out of the open top. The hand has entered from the top right edge holding a plain white wireless earbuds case between thumb and two fingers just above the open top of the charm.",
-   "motion": "The hand lowers the earbuds case straight down into the open top of the charm next to the lip balm until only its top shows, lets go and leaves the frame at the top right; the charm stays standing and does not move."},
-  {"id": "S6", "words": "The scarf and gold hardware", "hand": false, "room": "rooms/roomA_wood_table.jpg", "props": "",
+   "motion": "The hand digs through the jumble at the bottom of the bag, pushing the receipts aside, as if searching; the bag stays still. Camera: small handheld drift.",
+   "t": [
+    4.18,
+    7.37
+   ]
+  },
+  {
+   "id": "S4",
+   "words": "It clips right onto your handbag,",
+   "hand": true,
+   "room": "rooms/roomB_sofa_window.jpg",
+   "props": "",
+   "still": "Close view of the top handle of the chocolate-brown handbag on the cream sofa from the room photo, the window soft behind. The hand has entered from the right edge and pinches the charm's small gold key ring between thumb and index finger, the ring already looped around the handbag's handle; the charm hangs below on its short gold chain with its front and gold padlock facing the lens.",
+   "motion": "The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens.",
+   "t": [
+    7.37,
+    9.01
+   ]
+  },
+  {
+   "id": "S5",
+   "words": "and you can stash your earbuds, lip balm, keys, or other tiny essentials inside.",
+   "hand": true,
+   "room": "rooms/roomA_wood_table.jpg",
+   "props": "a plain white wireless earbuds case and a plain pink lip balm tube with no label",
+   "still": "Close three-quarter view from slightly above of the mini bag charm standing open on the wooden table from the room photo. A plain pink lip balm tube with no label already stands inside it, its cap peeking out of the open top. The hand has entered from the top right edge holding a plain white wireless earbuds case between thumb and two fingers just above the open top of the charm. Here, and only here, the lip balm and the earbuds case go inside the charm.",
+   "motion": "The hand lowers the earbuds case straight down into the open top of the charm next to the lip balm until only its top shows, lets go and leaves the frame at the top right; the charm stays standing and does not move.",
+   "t": [
+    9.01,
+    13.74
+   ],
+   "filled": true
+  },
+  {
+   "id": "S6",
+   "words": "The scarf and gold hardware",
+   "hand": false,
+   "room": "rooms/roomA_wood_table.jpg",
+   "props": "",
    "still": "Macro close-up of the front of the mini bag charm standing on the wooden table: the gold padlock with its three engraved lines, the gold grommet and ring, the rectangular gold buckle loop at the rim and the knotted pink, light blue and white twilly scarf on the right-hand handle all in sharp focus, the pebbled burgundy grain clearly visible. The room is a soft blur behind.",
-   "motion": "Camera: a very slow push-in and slight rise from the padlock up to the scarf knot; the charm does not move."},
-  {"id": "S7", "words": "make it look so much more expensive than a typical bag charm.", "hand": false, "room": "rooms/roomB_sofa_window.jpg", "props": "",
-   "still": "Three-quarter view of the chocolate-brown handbag sitting upright on the cream sofa from the room photo, the bright window behind. The mini bag charm hangs from the base of the handbag's left handle, front with the gold padlock facing the lens, its scarf tail hanging down beside it.",
-   "motion": "Camera: a slow arc a little to the right around the handbag, keeping the charm in the centre and in focus; the charm hangs still."},
-  {"id": "S8", "words": "AND it makes the cutest little stocking stuffer!", "hand": true, "room": "rooms/roomC_fireplace.jpg", "props": "a plain cream cable-knit Christmas stocking",
+   "motion": "Camera: a very slow push-in and slight rise from the padlock up to the scarf knot; the charm does not move.",
+   "t": [
+    13.74,
+    15.15
+   ]
+  },
+  {
+   "id": "S7",
+   "words": "make it look so much more expensive than a typical bag charm.",
+   "hand": false,
+   "room": "rooms/roomB_sofa_window.jpg",
+   "props": "",
+   "still": "Three-quarter view of the chocolate-brown handbag sitting upright on the cream sofa from the room photo, the bright window behind. The mini bag charm hangs on its short gold chain and gold key ring from the base of the handbag's left handle, front with the gold padlock facing the lens, its scarf tail hanging down beside it.",
+   "motion": "Camera: a slow arc a little to the right around the handbag, keeping the charm in the centre and in focus; the charm hangs still.",
+   "t": [
+    15.15,
+    18.26
+   ]
+  },
+  {
+   "id": "S8",
+   "words": "AND it makes the cutest little stocking stuffer!",
+   "hand": true,
+   "room": "rooms/roomC_fireplace.jpg",
+   "props": "a plain cream cable-knit Christmas stocking",
    "still": "Close view of a plain cream cable-knit Christmas stocking with no text, hanging in front of the fireplace from the room photo, the green tree soft at the left. The hand has entered from the right edge and holds the mini bag charm by its two handles just above the open top of the stocking, front and gold padlock facing the lens.",
-   "motion": "The hand lowers the charm into the stocking until its handles, scarf knot and the top of its front peek out of the cuff, then lets go and leaves the frame at the right; the stocking sways a little."},
-  {"id": "S9", "words": "Grab one for yourself and one for a friend who loves all things mini. It's linked in the orange cart!", "hand": false, "room": "rooms/roomD_tree_bows.jpg", "props": "",
-   "still": "The chocolate-brown handbag stands on a low wooden side table in front of the green Christmas tree with white bows from the room photo. The mini bag charm hangs from the handbag's handle in the centre of the frame, front with the gold padlock facing the lens, the only bag charm in the frame. The tree is soft behind.",
-   "motion": "Camera: a slow pull-back that shows a little more of the tree; the charm hangs still in the centre."}
+   "motion": "The hand lowers the charm into the stocking until its handles, scarf knot and the top of its front peek out of the cuff, then lets go and leaves the frame at the right; the stocking sways a little.",
+   "t": [
+    18.26,
+    21.11
+   ]
+  },
+  {
+   "id": "S9",
+   "words": "Grab one for yourself and one for a friend who loves all things mini. It's linked in the orange cart!",
+   "hand": false,
+   "room": "rooms/roomD_tree_bows.jpg",
+   "props": "",
+   "still": "The chocolate-brown handbag stands on a low wooden side table in front of the green Christmas tree with white bows from the room photo. The mini bag charm hangs on its short gold chain and gold key ring from the handbag's handle in the centre of the frame, front with the gold padlock facing the lens, the only bag charm in the frame. The tree is soft behind.",
+   "motion": "Camera: a slow pull-back that shows a little more of the tree; the charm hangs still in the centre.",
+   "t": [
+    21.11,
+    26.29
+   ]
+  }
  ]
 }

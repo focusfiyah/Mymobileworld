@@ -38,7 +38,7 @@ Source of each line: research/line_sources.md. No on-screen text (the storyboard
 | S1 | 0-2.5 | For the person who loves anything mini… | Hand holds the charm up by its two handles in front of a wooden table (pink candle soft behind) and brings it toward the lens | HAND | Flow (Omni) |
 | S2 | 2.5-4.3 | How cute is this little purse?! | Charm standing on the table next to a white mug for scale, slow low push-in | HAND-FREE | Flow |
 | S3 | 4.3-6.8 | You know how your earbuds... bottom of your bag? | Hand digs through a big brown tote, earbuds case lost under receipts and keys (no charm) | HAND | Seedance 2.0 Mini (Kie) |
-| S4 | 6.8-8.6 | It clips right onto your handbag, | Hand closes the charm's clip onto the brown handbag's handle (**riskiest: waits for the clip photo**) | HAND | Flow |
+| S4 | 6.8-8.6 | It clips right onto your handbag, | Hand slides the charm's gold key ring chain onto the brown handbag's handle (riskiest) | HAND | Flow |
 | S5 | 8.6-12.2 | and you can stash your earbuds, lip balm, keys... inside. | Charm open on the table, lip balm inside, hand lowers an earbuds case in | HAND | Flow |
 | S6 | 12.2-13.8 | The scarf and gold hardware | Macro push from the gold padlock up to the scarf knot | HAND-FREE | Flow |
 | S7 | 13.8-16.6 | make it look so much more expensive than a typical bag charm. | Charm hanging on the brown handbag on a cream sofa by a bright window, slow arc | HAND-FREE | Flow |
@@ -51,7 +51,7 @@ Not used from the storyboard: the colours lineup (shot 2) and the other colours 
 Real product (refs/product_sheet.png, from your listing photo 10/10): deep burgundy pebbled faux leather, bucket shape, open top (no zip, no flap); two rolled handles with darker painted edges; front strap through a small rectangular gold buckle; gold padlock (three engraved lines, no letters) on a gold ring + grommet; four gold feet; pink / light blue / white twilly scarf knotted on the right handle with a long frayed tail. No logo anywhere.
 
 ## 5. Order of work (machine time ~35 min + your stops; each Flow take ~2-3 min on your phone)
-All 8 stills at once (S4 after the clip photo) -> still storyboard on the review page (stop 1) -> S4 Flow kit first, the riskiest (hand + clip on the handle) (stop 2: you make it, I QC it) -> Flow kits for the rest on the review page + S3 on Seedance -> VO (Grace cloned, echo check) -> cut + QC (2x edges, first second, charm never changes, REMOVED.md, verify_fix) + compare vs @the_little_beannn -> AI finish -> review page (stop 3) -> Drive "Mini Bag Charm (Grace)" as CURRENT.
+All 9 stills at once -> still storyboard on the review page (stop 1) -> S4 Flow kit first, the riskiest (hand + key ring on the handle) (stop 2: you make it, I QC it) -> Flow kits for the rest on the review page + S3 on Seedance -> VO (Grace cloned, echo check) -> cut + QC (2x edges, first second, charm never changes, REMOVED.md, verify_fix) + compare vs @the_little_beannn -> AI finish -> review page (stop 3) -> Drive "Mini Bag Charm (Grace)" as CURRENT.
 Free fixes first: trim to the clean window before any redo.
 
 ## 6. Cost (one total)
@@ -80,6 +80,9 @@ Sent to Ralph: https://claude.ai/artifact/Uns9WGWdYcjDBsdbbeCezb (2026-10-26)
 5. Hand: Grace's sheet with the bracelet (default) or without?
 6. On-screen text: none (default), or the storyboard's overlays?
 7. Stills on Kie ($0.81) or your Gemini app ($0, I send the kit)? Clips in Flow first (default).
+
+## 7b. Ralph's answers (2026-10-26: "1. Key ring chain 2. Burgundy only 3. Yes 4.Your version 5.with 6.none 7. Kie")
+1. Attaches with a gold key ring on a short gold chain (in every prompt; placed at the left handle base). 2. Burgundy only, no lineup. 3. AirPods case fits. 4. Script V1 (with the 2 edits). 5. Hand sheet with the bracelet. 6. No on-screen text. 7. Stills on Kie ($0.81).
 
 ## 8. Prompts
 Every still and clip prompt: prompts/still_<ID>.txt and prompts/<ID>.txt (built by build_prompts.py from shots.json, written with prompt-master, linted and marked checked; S4 re-marked once the clip is known). Still refs, numbered and named: 1 product sheet, 2 real padlock + buckle close-up, 3 real scarf + handle close-up, 4 the room photo, 5 Grace's hand sheet. Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), 2-3 the real close-ups, 4 the sheet, 5 the hand sheet. Every prompt: size first, the charm matched colour for colour, gold hardware never silver, no letters on the padlock, one grip, never turns or flips, no sparkle words, no text, no music, no voice.

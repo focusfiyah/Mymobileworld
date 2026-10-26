@@ -23,3 +23,13 @@
   EXPECT: BOOK_OK
 - [x] G8: review page published with script, sheet, shot list, prompts and the total; push + email sent (manual)
   EVIDENCE: 2026-10-26 page https://claude.ai/artifact/Uns9WGWdYcjDBsdbbeCezb v1; Gmail GMAIL_SEND_EMAIL (gmail_correa-comus) id 1a17a90f5781e696; PushNotification "Mobile push requested."
+
+# Phase 2 (2026-10-26, after Ralph's OK): stills
+- [ ] G9: all 9 stills exist at 9:16
+  CHECK: python3 -c "from PIL import Image;import os;ok=[i for i in range(1,10) if os.path.exists(f'stills/S{i}.png') and abs(Image.open(f'stills/S{i}.png').size[0]/Image.open(f'stills/S{i}.png').size[1]-9/16)<0.02];print('STILLS_OK' if len(ok)==9 else 'MISSING',ok)"
+  EXPECT: STILLS_OK
+- [ ] G10: job spend stays within the approved book
+  CHECK: cd ../.. && python3 grace/gate.py ugc/mini-bag-charm
+  EXPECT: \$3.90 allowed
+- [ ] G11: every still QC'd at 2x (product details, grip, hand jewellery, key ring, no text, REMOVED.md) with a verdict in qc/stills_r1.md (manual)
+- [ ] G12: storyboard on the review page + push + email (manual)

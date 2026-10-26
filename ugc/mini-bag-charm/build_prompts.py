@@ -19,7 +19,8 @@ def still(s):
     add(s["room"], "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     bag = "handbag" in s["still"].lower() or "tote" in s["still"].lower()
-    parts = [B["size_first"] if prod else "", s["still"], B["hand_block"] if s["hand"] else B["no_hand"],
+    size = B["size_first"].replace(" and it is empty: nothing sticks out of its open top except a little white tissue paper, as in image 1.", "; a white wireless earbuds case fits inside it with its top just showing.") if s.get("filled") else B["size_first"]
+    parts = [size if prod else "", s["still"], B["hand_block"] if s["hand"] else B["no_hand"],
              B["product_block"] if prod else "No bag charm or mini bag appears anywhere in this frame.",
              B["handbag_block"] if bag and prod else "",
              f"Other props: {s['props']}, plain and unbranded." if s["props"] else "", B["light"], B["suffix"] if prod else B["suffix"].replace("sharp focus on the bag charm", "sharp focus on the hand and the bottom of the tote"),

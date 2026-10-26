@@ -28,6 +28,8 @@ cost = """<table><tr><td>Stills, Gemini 3 Pro Image on Kie</td><td>9 x $0.09</td
 <tr class="tot"><td>TOTAL (incl. the Kie fallback)</td><td></td><td>$3.899</td></tr></table>
 <p class="note">Expected with Flow: <b>$1.06</b>. ElevenLabs about 450 characters (Grace cloned). Month so far $176.80, no cap in October. Nothing has been spent on this job yet.</p>"""
 script_html = "".join(f"<li>{E(l.split('. ',1)[1]).replace('[+]','<mark>added</mark>')}</li>" for l in script)
+NOTES = [l.strip("| ").split(" | ") for l in Path("qc/stills_r1.md").read_text().splitlines() if l.startswith("| S")]
+STORY = "".join(f'<figure><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{v.lower()}">{i} {v}</b> {E(n)}</figcaption></figure>' for i, v, n in NOTES)
 page = f"""<title>Mini Bag Charm Plan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Mulish:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -56,12 +58,14 @@ figcaption{{font:500 .75rem var(--mono);color:var(--muted)}}
 details summary{{cursor:pointer;font:500 .8rem var(--mono);color:var(--wine)}} details summary:focus-visible{{outline:2px solid var(--wine)}}
 pre{{white-space:pre-wrap;font:400 .78rem/1.5 var(--mono);background:var(--bg);padding:10px;border-radius:6px;overflow-x:auto;margin:6px 0 0}}
 table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} td{{padding:6px 4px;border-bottom:1px solid var(--line)}} td:last-child{{text-align:right}}
-.tot td{{font-weight:700;border-bottom:none}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
+.tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · plan for your OK · $0 spent</p></header>
-<section class="ask"><h2>Your OK on this plan + 7 answers</h2><ol>{''.join('<li>'+E(q.split('. ',1)[1] if '. ' in q else q)+'</li>' for q in qs)}</ol>
-<p class="note">Reply with the numbers, e.g. "1 here's the link, 2 burgundy only, 3 yes, 4 V1, 5 with, 6 none, 7 Kie". Total if every clip ran on Kie: <b>$3.899</b>; with Flow: <b>$1.06</b>.</p></section>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · still storyboard round 1 · $0.81 spent of $3.90</p></header>
+<section class="ask"><h2>Storyboard round 1: 6 pass, 3 need a redo</h2>
+<p class="note">Redo S1, S7 and S9 with the fixed prompts: 3 x $0.09 = <b>$0.27</b> (the book has one redo; the job stays inside its $3.90). Small flaw you can let go for free: the blue band sits on the thumb or index finger in S1, S4 and S5 instead of the ring finger.</p></section>
+<section class="box"><h2>Stills, round 1 (9 on Kie, $0.81)</h2><div class="grid sb">{STORY}</div></section>
+<section class="box"><h2>Voiceover (Grace cloned, 26.3 s)</h2><audio src="vo.mp3" controls preload="metadata" style="width:100%"></audio><p class="note">Echo 150 ms (passes, the approved flashlight level). Paced to 3.5 words/s, -16 LUFS. S5 and S9 lines run 4.7 s and 5.2 s, so those two get 8 s Flow takes.</p></section>
 <section class="box"><h2>The real product (what every prompt copies)</h2>
 <ul class="facts"><li><b>Shape</b>: mini bucket bag, open top (no zip, no flap), deep burgundy pebbled faux leather</li><li><b>Handles</b>: two rolled handles with darker painted edges</li><li><b>Gold</b>: rectangular buckle on the front strap, padlock with three engraved lines (no letters), ring + grommet, four little feet</li><li><b>Scarf</b>: pink, light blue and white twilly knotted on the right handle, long frayed tail</li><li><b>Missing</b>: the clip that attaches it to a bag is not in this photo (question 1)</li></ul>
 <div class="grid"><figure><img src="img/sheet.jpg" alt="Product reference sheet"><figcaption>Reference sheet, real pixels from your listing photo only</figcaption></figure>
