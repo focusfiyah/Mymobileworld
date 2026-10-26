@@ -55,5 +55,7 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=5faacbb7a0efc5c2b435824e9aca07ed3fc76496b2fca556b1e63e7b077a5207; exit=0; EXPECT=matched; output-sha256=df6d03e30a61feecfc415434513e258ad057ca50f7d81ca774ffa2b4dcd6898d; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/youtheory-b12b6; path=7f4fb4b02918/15 entries
 - [x] G14: every element checked against REMOVED.md + 2x print/hand QC (manual; qc/cut_sheet.jpg)
   EVIDENCE: REMOVED.md list checked on qc/cut_sheet.jpg + clip frames: no text/captions/cards, no Ken Burns, no freeze/black (G11), no screw cap/spout/lid, no "essential daily vitamins", straw only S5-S8 with neck whole, S1-S4 + S9 as sold; prints 2x: S7 + S9 real lines (Ralph OK), S6 box drifts after 2 s (cut at 2.43 s, Ralph OK), S9 glare avoided (first 1.3 s); hands 2x clean (S1, S3, S5, S9), one hand per shot
-- [ ] G15: Ralph approves cut v1 (manual)
-- [ ] G16: final + script doc in Drive "Grace Tiktok assets/Youtheory B12B6 (Grace)" as CURRENT, link in README + reply (manual)
+- [x] G15: Ralph approves cut v1 (manual)
+  EVIDENCE: Ralph 2026-10-26: "Approved, upload to Drive" after cut v1 (review page v10)
+- [x] G16: final + script doc in Drive "Grace Tiktok assets/Youtheory B12B6 (Grace)" as CURRENT, link in README + reply (manual)
+  EVIDENCE: folder 1tkecbO2mjdPRARLbZLt4UrC3I8aJfb7f: video 1fVOif3UXvaYcZa181rHli_rlV1YXX0er 51358145 bytes = local; doc 1FWwvGBiPW7WmKEHh37lYqcvHP0m7qv9zKiXqPd9qK1c (emoji checked via text export: f09f8d93); first doc with the same name trashed; README updated

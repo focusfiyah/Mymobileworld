@@ -1,5 +1,9 @@
 # Youtheory B12B6 Liquid (Grace), 2026-10-26
 
-Status: CUT v1 SENT 2026-10-26 for review (review page v10, out/youtheory_b12b6_v1.mp4, 19.8 s). All 9 clips Seedance first-frame (S7 print tracked, S9 first 1.3 s). Gates 14/16 (G15 his OK, G16 Drive). Kie $4.49 of $4.49 allowed. Next: his OK, then Drive "Youtheory B12B6 (Grace)" + script/caption doc, merge, brain.
+Status: DONE 2026-10-26. Cut v1 APPROVED (Ralph: "Approved, upload to Drive"), 19.8 s, out/youtheory_b12b6_v1.mp4. Drive: Grace Tiktok assets/Youtheory B12B6 (Grace) https://drive.google.com/drive/folders/1tkecbO2mjdPRARLbZLt4UrC3I8aJfb7f (CURRENT - Youtheory B12B6 V1.mp4 + CURRENT - Youtheory B12B6 script + caption). Kie $4.49 (book $4.455 + $0.03 extra, all asked; incl. round-1 spout stills $0.81 from my prompt error, S6 Omni test $0.315 failed, S7 redo $0.09 failed). ElevenLabs ~780 chars. Review page https://claude.ai/artifact/LvrMBi3CNvBuXW4MCHv16j. Gates 16/16.
 
-Files: BOOK.md (plan), shots.json + build_prompts.py (prompts/), make_sheet.py (refs/), research/, rooms/SOURCES.md, REMOVED.md, GATES.md, review/ (build_review.py).
+Brief (Ralph 2026-10-26): AI video for Grace on his script (word for word; line 6 swapped to the box wording "promotes brain health", his "Say box"), straw in the pouch (then: "No straw needed in the beginning ... showcase the pouch as is"). Real product from Grace's photos: flat white pouch, flat magenta TEAR-OFF tab (Ralph: "It is a tear off top not screw"), no "essential daily vitamins" (listing render only).
+
+Route: stills Gemini 3 Pro Image (Kie nano-banana-pro) + refs/product_sheet.png + real close-ups + real torn-top ref (refs/closeup_I_torn_straw.png); every clip Seedance 2.0 Mini first-frame from its approved still (Ralph "Ok on seedance" after Omni swapped the real box for an invented carton on S6). S1-S4 + S9 as sold, S5-S8 straw. Free fixes with his OK: S9 claim lines + S7 lower print drawn from the real print (tools_s9_claims.py, tools_s7_label.py; S7 tracked through its push with tools/label_track.py); S8 book-spine text blurred. Cut: cut.py (S8 runs into the CTA, S9 first 1.3 s: foil glare after 1.5 s).
+
+Files: BOOK.md, scripts.md, shots.json + build_prompts.py (prompts/), product_truth.json, make_sheet.py (refs/), research/, rooms/SOURCES.md, REMOVED.md, GATES.md, captions.md, review/ (build_review.py), qc/.
