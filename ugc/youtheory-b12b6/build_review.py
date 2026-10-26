@@ -17,8 +17,8 @@ STORY = [("S1","PASS","As sold, tab on, no straw. Her fingers wrap the edge; tin
  ("S6","PASS","Redone with S5 as the top reference: neck whole, half-torn tab like S5, box of pouches at the left. Tiny '30 ml' reads '50 ml' (not readable on a phone)."),
  ("S7","PASS","Close on the bench, neck and shoulders whole, readable."),
  ("S8","KEPT","Spine text blurred free."),
- ("S9","FIX?","As sold, tab on, serif print right. The two small claim lines under liquid are gibberish (it is the close end shot, so they can be read).")]
-story = "".join(f"""<figure class="st"><img src="st/{i}_{'r5' if i=='S9' else ('r4' if i=='S6' else 'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
+ ("S9","PASS","As sold, held to the lens. The two claim lines replaced free with the real lines (your A), drawn as ink on its own foil.")]
+story = "".join(f"""<figure class="st"><img src="st/{i}_{'r6' if i=='S9' else ('r4' if i=='S6' else 'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
 page = f"""<title>B12B6 Pouch Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Work+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -51,10 +51,9 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
-<section class="ask"><strong>Last two decisions</strong><ol>
-<li>S9's two claim lines: (a) <b>free</b>, paste the two real lines ("promotes brain health*", "helps support energy production*") from the real pouch photo over them (a pasted label, so your OK for this shot), (b) redo $0.09, or (c) let it go.</li>
-<li>Start the clips: S6 first as the test clip on Kie (Omni, 4 s, <b>$0.315</b>), then the other 8 after you see it (8 x $0.315 = $2.52). Job so far $2.52 of $4.455; October $169.73.</li></ol></section>
-<section class="box"><h2>Storyboard, round 4 (S1-S4 as sold, straw from S5)</h2><div class="stgrid">{story}</div></section>
+<section class="ask"><strong>Storyboard done: all 9 stills pass</strong><ol>
+<li>Start the clips: S6 first as the test clip on Kie (Omni, 4 s, <b>$0.315</b>), the other 8 after you see it (8 x $0.315 = $2.52). Job so far $2.52 of $4.455; October $169.73.</li></ol></section>
+<section class="box"><h2>Storyboard, final (S1-S4 as sold, straw S5-S8, S9 as sold)</h2><div class="stgrid">{story}</div></section>
 <details class="box"><summary><b>Plan you approved</b> (answers: 1 none, 2 yes, 3 say box, 4 yes, 5 yes, 6 Kie, 7 yes)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
 <li>Check the <b>real product details</b> below (top, shape, print, box). Anything wrong?</li>

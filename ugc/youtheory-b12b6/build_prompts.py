@@ -33,10 +33,10 @@ def still(s):
 
 
 def clip(s):
-    r = [f"stills/{s['id']}.png", LOGO, WORD, SHEET, TORN if s["straw"] else REAL]
+    r = [f"stills/{s['id']}.png", LOGO, WORD, SHEET] + ([] if s["straw"] else [REAL])
     head = B["omni_head"].replace("{hand}", ", hand, rings and bracelets" if s["hand"] else "")
     if s["straw"]:
-        extra = " Image 5 is the real torn-open top with the straw: the top of the pouch looks exactly like image 5 in every frame."
+        extra = " The torn-open top, the straw and any half-torn tab stay exactly as in image 1 in every frame."
     else:
         head = head.replace(" and the white paper straw standing in the pouch", "").replace(" The straw stays upright in the torn-open top of the pouch in every frame; the pouch has a flat tear-off top, no screw cap and no spout.", " The pouch is unopened: its flat magenta tear-off tab stays on top in every frame; no straw, no screw cap, no spout.")
         extra = " Image 5 is a real photo of the unopened pouch: its top looks exactly like image 5 in every frame."
