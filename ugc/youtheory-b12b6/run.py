@@ -25,8 +25,16 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
+def seedance_first(sid):
+    """Ralph 2026-10-26 ("Ok on both"): S6 on Seedance 2.0 Mini from the exact approved still (Omni swapped the real box for an invented carton)."""
+    prompt = Path(f"prompts/{sid}_seedance.txt").read_text().strip()
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": prompt, "first_frame_url": kie.upload(f"stills/{sid}.png"), "generate_audio": False,
+                        "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}, label=f"{sid} seedance first-frame")
+    if url: kie.fetch(url, f"clips/{sid}_seedance.mp4"); print("clip", sid, "ok", flush=True)
+
+
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
     Path("stills").mkdir(exist_ok=True); Path("clips").mkdir(exist_ok=True)
-    fn = {"stills": still, "omni": omni, "omni-dry": lambda i: omni(i, True)}[kind]
+    fn = {"stills": still, "omni": omni, "omni-dry": lambda i: omni(i, True), "seedance-first": seedance_first}[kind]
     with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(fn, ids))

@@ -15,10 +15,11 @@ STORY = [("S1","PASS","As sold, tab on, no straw. Her fingers wrap the edge; tin
  ("S4","PASS","As sold next to the raspberries."),
  ("S5","KEPT","Your pick: the moment it is opened, half-torn tab."),
  ("S6","PASS","Redone with S5 as the top reference: neck whole, half-torn tab like S5, box of pouches at the left. Tiny '30 ml' reads '50 ml' (not readable on a phone)."),
- ("S7","PASS","Close on the bench, neck and shoulders whole, readable."),
+ ("S7","FIX?","Redone at true scale: pouch a third of the tote, resting on the cushion. At this size the magenta flavor bar came out as plain text and the claim lines are garbled."),
  ("S8","KEPT","Spine text blurred free."),
  ("S9","PASS","As sold, held to the lens. The two claim lines replaced free with the real lines (your A), drawn as ink on its own foil.")]
-story = "".join(f"""<figure class="st"><img src="st/{i}_{'r6' if i=='S9' else ('r4' if i=='S6' else 'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
+VER = {"S9": "r6", "S6": "r4", "S7": "r8"}
+story = "".join(f"""<figure class="st"><img src="st/{i}_{VER.get(i,'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
 page = f"""<title>B12B6 Pouch Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Work+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -51,10 +52,11 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
-<section class="ask"><strong>S6 test clip failed: your call</strong><ol>
-<li><b>S6 (my pick):</b> Seedance 2.0 Mini starting on the exact approved still, so the real box stays: 4 s = <b>$0.164</b>. It is a product clip off Omni, so it needs your OK for this shot (the Collagen box shot was done this way). Or a new Omni take with fixed words ("display box", no other boxes, cartons or bottles): $0.315, same risk it ignores the still.</li>
-<li><b>S7 redo</b> with the fixed prompt (pouch resting on the cushion at true scale, no close-up reference): <b>$0.09</b>.</li>
-<li>Job so far $2.925 of $4.455 (test $0.315 + failed S7 $0.09 included); October $170.14.</li></ol></section>
+<section class="ask"><strong>S6 test passed on Seedance: three calls</strong><ol>
+<li><b>S6 OK?</b> The pouch, torn tab, straw and hand hold all 4 s. From about 2 s the soft box behind drifts to "12B6" with garbled lines; the cut uses 0 to 2.4 s (its voice window), where the box is mostly right.</li>
+<li><b>S7 free fix?</b> Draw the real flavor bar and claim lines on its pouch, same as S9 (a pasted label, so your OK).</li>
+<li><b>The other 8 clips:</b> Seedance from each exact still like S6, 8 x $0.164 = <b>$1.31</b> (my pick: Omni ignored the still on S6), or Omni 8 x $0.315 = $2.52. Job so far $3.18 of $4.455; Seedance keeps it at $4.49 (+$0.03 over), Omni $5.70 (+$1.24 over), so either needs your OK for the extra. October $170.40.</li></ol></section>
+<section class="box"><h2>S6 test clip (Seedance from the exact still)</h2><video src="S6_seedance.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video></section>
 <section class="box"><h2>S6 test clip (Omni): rejected</h2><video src="S6_omni_fail.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video>
 <p class="sub">From frame 0 Omni swapped Grace's real display box for an invented juice carton with gibberish print, and the pouch print smears mid-clip. The torn tab and straw held.</p></section>
 <section class="box"><h2>Storyboard, final (S1-S4 as sold, straw S5-S8, S9 as sold)</h2><div class="stgrid">{story}</div></section>
