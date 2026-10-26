@@ -20,6 +20,6 @@ from Ralph's screenshots (refs/real/listing_*.jpg). See refs/real/SOURCES.md.
 - Line 4 "delicious raspberry-flavored B6 and B12 pouch": backed (raspberry flavor, "great tasting").
 - Line 5 "twelve in a box": backed.
 - Line 6a "B6 and B12 support normal energy metabolism": close to the box ("helps convert food into energy", "support the proper metabolism"); backed in substance.
-- Line 6b "B12 supports normal nervous system function": NOT on the box, pouch or listing images we have. It is a widely used B12 nutrient-function claim, but the packaging only says "promotes brain health". FLAG. Free swap if Ralph wants it: "and B12 promotes brain health" (pouch + box wording).
+- Line 6b now "B12 promotes brain health" (box + pouch wording, Ralph 2026-10-26 "Say box"). Was "B12 supports normal nervous system function": NOT on the box, pouch or listing images we have. It is a widely used B12 nutrient-function claim, but the packaging only says "promotes brain health". FLAG. Free swap if Ralph wants it: "and B12 promotes brain health" (pouch + box wording).
 - Line 1 "keeps laziness away" / line 3 "Your body may need B vitamins": a framing, not a product claim; fine. No illness claim anywhere.
 - Line 7 "while they're in stock": soft urgency, no fake deadline; the PLAYBOOK wants real urgency, flagged as mild.

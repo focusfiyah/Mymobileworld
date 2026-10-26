@@ -9,15 +9,25 @@ shots = "".join(f"""<article class="shot"><div class="sh"><span class="num">{s['
 <p class="say">{E(s['words'])}</p><p class="see">{E(s['still'])}</p><p class="mv"><b>Motion:</b> {E(s['motion'])}</p>
 <details><summary>Full still prompt</summary><pre>{E(Path('prompts/still_'+s['id']+'.txt').read_text())}</pre></details>
 <details><summary>Full clip prompt</summary><pre>{E(Path('prompts/'+s['id']+'.txt').read_text())}</pre></details></article>""" for s in SH)
+STORY = [("S1","PASS","As sold, tab on, no straw. Her fingers wrap the edge; tiny 'help support' line is off by one letter (not readable on a phone)."),
+ ("S2","PASS","As sold, tab on, by the alarm clock. Tiny '30 mL' reads '35 mL' (not readable on a phone)."),
+ ("S3","PASS","As sold, thin serif print, ready for the shake."),
+ ("S4","PASS","As sold next to the raspberries."),
+ ("S5","KEPT","Your pick: the moment it is opened, half-torn tab."),
+ ("S6","PASS","Redone with S5 as the top reference: neck whole, half-torn tab like S5, box of pouches at the left. Tiny '30 ml' reads '50 ml' (not readable on a phone)."),
+ ("S7","PASS","Close on the bench, neck and shoulders whole, readable."),
+ ("S8","KEPT","Spine text blurred free."),
+ ("S9","FIX?","As sold, tab on, serif print right. The two small claim lines under liquid are gibberish (it is the close end shot, so they can be read).")]
+story = "".join(f"""<figure class="st"><img src="st/{i}_{'r5' if i=='S9' else ('r4' if i=='S6' else 'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
 page = f"""<title>B12B6 Pouch Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Work+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
 /* Layout: one column, decision box first, then product truth (photos), script, shots with full prompts, cost */
-:root{{--bg:#f7f3f5;--card:#ffffff;--fg:#2a1820;--muted:#6f5a64;--line:#e6d9df;--accent:#b0185e;--warn:#b4471b;--chip:#f3e4ec;--chipfree:#e7efe9;
+:root{{--bg:#f7f3f5;--card:#ffffff;--fg:#2a1820;--muted:#6f5a64;--line:#e6d9df;--accent:#b0185e;--warn:#b4471b;--chip:#f3e4ec;--chipfree:#e7efe9;--good:#2f7d4f;
 --display:"Fraunces",Georgia,serif;--body:"Work Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}}
-@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#1a1216;--card:#24191f;--fg:#f2e8ed;--muted:#b9a4ae;--line:#3a2a32;--accent:#f06aa6;--warn:#f0905e;--chip:#3a2430;--chipfree:#22332a;color-scheme:dark}}}}
-:root[data-theme="dark"]{{--bg:#1a1216;--card:#24191f;--fg:#f2e8ed;--muted:#b9a4ae;--line:#3a2a32;--accent:#f06aa6;--warn:#f0905e;--chip:#3a2430;--chipfree:#22332a;color-scheme:dark}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#1a1216;--card:#24191f;--fg:#f2e8ed;--muted:#b9a4ae;--line:#3a2a32;--accent:#f06aa6;--warn:#f0905e;--chip:#3a2430;--chipfree:#22332a;--good:#7fd19f;color-scheme:dark}}}}
+:root[data-theme="dark"]{{--bg:#1a1216;--card:#24191f;--fg:#f2e8ed;--muted:#b9a4ae;--line:#3a2a32;--accent:#f06aa6;--warn:#f0905e;--chip:#3a2430;--chipfree:#22332a;--good:#7fd19f;color-scheme:dark}}
 body{{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}}
 .wrap{{max-width:860px;margin:0 auto;padding-block:24px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}}
 h1{{font:600 2.1rem/1.1 var(--display);margin:0;text-wrap:balance;color:var(--accent)}} h2{{font:600 1.35rem/1.2 var(--display);margin:0}}
@@ -36,10 +46,16 @@ figcaption{{font:500 .75rem var(--mono);color:var(--muted)}}
 .see,.mv{{margin:0;font-size:.95rem}} summary{{cursor:pointer;color:var(--accent);font-weight:600}}
 pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);padding:10px;border-radius:6px;margin:6px 0 0;overflow-x:auto}}
 table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}} td,th{{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left}} td:last-child,th:last-child{{text-align:right}}
+figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}}.ok{{color:var(--good)}}.bad{{color:var(--warn)}}
 .tot td{{font-weight:600;color:var(--accent)}}
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
+<section class="ask"><strong>Last two decisions</strong><ol>
+<li>S9's two claim lines: (a) <b>free</b>, paste the two real lines ("promotes brain health*", "helps support energy production*") from the real pouch photo over them (a pasted label, so your OK for this shot), (b) redo $0.09, or (c) let it go.</li>
+<li>Start the clips: S6 first as the test clip on Kie (Omni, 4 s, <b>$0.315</b>), then the other 8 after you see it (8 x $0.315 = $2.52). Job so far $2.52 of $4.455; October $169.73.</li></ol></section>
+<section class="box"><h2>Storyboard, round 4 (S1-S4 as sold, straw from S5)</h2><div class="stgrid">{story}</div></section>
+<details class="box"><summary><b>Plan you approved</b> (answers: 1 none, 2 yes, 3 say box, 4 yes, 5 yes, 6 Kie, 7 yes)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
 <li>Check the <b>real product details</b> below (top, shape, print, box). Anything wrong?</li>
 <li>Your script <b>word for word</b> ("12" written as "twelve")?</li>
@@ -57,7 +73,7 @@ table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}} t
 <li>Print: youtheory logo, magenta dot circle, magenta "B12B6", grey "liquid", "promotes brain health*", "helps support energy production*", magenta "raspberry flavor" bar, "1 fl oz (30 ml)", "dietary supplement". No "essential daily vitamins" (that is only on the listing render).</li>
 <li>Box: Grace's torn-open display carton, front "B6 liquid", three + lines incl. "1,000 mcg of B12 per serving", raspberry splash, 12 pouches.</li></ul>
 <figure><img src="img/sheet.jpg" alt="Product reference sheet"><figcaption>Product reference sheet passed on every still and clip</figcaption></figure></section>
-<section class="box"><h2>Script (your words)</h2><p class="script">A pouch a day keeps laziness away. Because sometimes, you don't need more motivation. Your body may need B vitamins! This delicious raspberry-flavored B6 and B12 pouch makes it easy. There are twelve in a box, so I'd stock up on a few! B6 and B12 support normal energy metabolism, and B12 supports normal nervous system function. Tap the orange cart and grab yours while they're in stock!</p>
+<section class="box"><h2>Script (your words)</h2><p class="script">A pouch a day keeps laziness away. Because sometimes, you don't need more motivation. Your body may need B vitamins! This delicious raspberry-flavored B6 and B12 pouch makes it easy. There are twelve in a box, so I'd stock up on a few! B6 and B12 support normal energy metabolism, and B12 promotes brain health. Tap the orange cart and grab yours while they're in stock!</p>
 <p class="sub">Gate OK. Readability grade 5.7. Voiceover made (Grace voice, 19.7 s, echo 150 ms = pass).</p></section>
 <section class="box"><h2>Rooms (real Pexels photos)</h2><div class="grid">
 <figure><img src="img/room_A.jpg" alt="Bedroom"><figcaption>A bedroom: S1, S2</figcaption></figure><figure><img src="img/room_B.jpg" alt="Kitchen"><figcaption>B kitchen: S3-S6</figcaption></figure>
@@ -70,6 +86,7 @@ table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}} t
 <tr><td>Same 9 on Kie only if Flow fails, asked first, 9 x $0.315</td><td>2.835</td></tr>
 <tr class="tot"><td>Most it can cost</td><td>4.455</td></tr></table>
 <p class="sub">Expected with Flow: $1.62 ($0.81 if the redo is in Gemini). October so far: $168.02, no cap this month.</p></section>
+</details>
 <section class="box"><h2>Round 1 stills: rejected</h2><figure><img src="img/r1_wrong.jpg" alt="Round 1 stills with a screw spout"><figcaption>All drew a screw spout (my prompt said "cap twisted off"). Not used.</figcaption></figure></section>
 </div>"""
 Path("review/index.html").write_text(page); print(len(page))
