@@ -5,3 +5,4 @@ This job:
 - "essential daily vitamins" beside B12B6: on the listing render only, not on Grace's real pouch; never shown.
 - A pouch without a straw: Ralph 2026-10-26 "Pls ensure there's a straw in it throughout the video"; every pouch Grace holds or that stands alone has the straw.
 - Price numbers, "order it now", other brands: never.
+- Screw cap, spout or nozzle on the pouch: the real top is a flat magenta TEAR-OFF tab (Ralph 2026-10-26: "It is a tear off top not screw").

@@ -37,3 +37,6 @@ videos, no B12 product (#b12 page returned 0 videos to the board run; the separa
 ## Failed this session (exact output)
 - `shop "youtheory b12"` x2, `shop "vitamin b12 b6 liquid"`: "No products returned ... (no results, or TikTok served a captcha)."
 - `tag youtheory`: the hashtag page is mostly unrelated #you content (Joe Goldberg edits); its shop videos are Youtheory collagen, one B12B6 (@sammiescart, 133 views).
+
+
+CORRECTION 2026-10-26 (Ralph: "It is a tear off top not screw"): the pouch top is a flat magenta tear-off tab, not a screw cap or spout; lines above that say "spout" or "screw" are wrong. Winners tear it and sip from the opening.

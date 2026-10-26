@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 D = json.loads(Path("shots.json").read_text()); B = D["blocks"]; SH = D["videos"][0]["shots"]
 SHEET, LOGO, WORD = "refs/product_sheet.png", "refs/closeup_F.png", "refs/closeup_G.png"
+TORN = "refs/closeup_I_torn_straw.png"
 BOX, BOXC, HAND = "refs/real/grace_box_front_open.jpg", "refs/closeup_box.png", "../../grace/ref/hand-sheets/with_bracelet.jpg"
 
 
@@ -14,6 +15,7 @@ def still(s):
     add(SHEET, "the product reference sheet built from real photos (A = the real pouch front)")
     add(LOGO, "a close-up of the real 'youtheory' logo and magenta dot circle")
     add(WORD, "a close-up of the real 'B12B6 liquid' wordmark, claim lines and 'raspberry flavor' bar")
+    add(TORN, "the real pouch with its tear-off tab torn off and the white paper straw in the opening: the exact top to draw")
     box = ""
     if s.get("box"):
         add(BOX, "a real photo of the display carton, torn open, with pouches inside")
@@ -23,14 +25,14 @@ def still(s):
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     parts = ["Vertical 9:16 photo, a single frame from a phone-shot UGC video.", B["size_first"], s["still"],
              B["hand_block"] if s["hand"] else B["no_hand"], B["pouch_block"], B["straw_block"], box, B["scene_suffix"],
-             "Reference images: " + "; ".join(n) + ". The pouch print must match images 1 to 3 letter for letter and colour for colour."]
+             "Reference images: " + "; ".join(n) + ". The pouch print must match images 1 to 3 letter for letter and colour for colour, and its top must look exactly like image 4."]
     return r, " ".join(p for p in parts if p)
 
 
 def clip(s):
-    r = [f"stills/{s['id']}.png", LOGO, WORD, SHEET]
+    r = [f"stills/{s['id']}.png", LOGO, WORD, SHEET, TORN]
     head = B["omni_head"].replace("{hand}", ", hand, rings and bracelets" if s["hand"] else "")
-    extra = ""
+    extra = " Image 5 is the real torn-open top with the straw: the top of the pouch looks exactly like image 5 in every frame."
     if s["hand"]:
         r.append(HAND); extra += f" Image {len(r)} is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and {len(r)}; no other jewellery appears."
     if s.get("box"):

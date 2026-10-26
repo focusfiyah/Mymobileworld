@@ -37,3 +37,6 @@ Skeptics are present, so the tone stays soft ("may", "support"), never a promise
 - Contradictions to avoid: no caffeine claim, no "instead of coffee" promise (Reddit: "B12 would be the last thing" vs caffeine); not for under 18 or pregnant/nursing (label), so the hand is adult and nothing suggests kids or pregnancy.
 - **Straw: NO.** Every Youtheory B12B6 winner drinks straight from the pouch's pink-capped spout or holds it; the label says "Shake well and consume one (1) liquid packet per day directly by mouth." Show shake, twist the cap, sip from the spout. No straw, no glass.
 - Visual ideas from winners: pouch in a purse or car cup holder (portability), box + pouches on a bright kitchen counter, a 2 pm desk slump before the sip.
+
+
+CORRECTION 2026-10-26 (Ralph: "It is a tear off top not screw"): the pouch top is a flat magenta tear-off tab, not a screw cap or spout; lines above that say "spout" or "screw" are wrong. Winners tear it and sip from the opening.
