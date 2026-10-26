@@ -21,4 +21,5 @@
 - [ ] G7: BOOK.md has one TOTAL line and a Sent to Ralph link
   CHECK: python3 -c "import re;t=open('BOOK.md').read();print('BOOK_OK' if len(re.findall(r'TOTAL: [$][0-9.]+',t))==1 and re.search(r'Sent to Ralph: https://claude\.ai/\S+',t) else 'NO')"
   EXPECT: BOOK_OK
-- [ ] G8: review page published with script, sheet, shot list, prompts and the total; push + email sent (manual)
+- [x] G8: review page published with script, sheet, shot list, prompts and the total; push + email sent (manual)
+  EVIDENCE: 2026-10-26 page https://claude.ai/artifact/Uns9WGWdYcjDBsdbbeCezb v1; Gmail GMAIL_SEND_EMAIL (gmail_correa-comus) id 1a17a90f5781e696; PushNotification "Mobile push requested."
