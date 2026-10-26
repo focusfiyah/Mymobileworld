@@ -1,6 +1,6 @@
 # The offer: one fixed plan (draft for Ralph, 2026-10-26)
 
-Working name: **Always Answered** (Ralph picks the final name; options at the bottom).
+Name: **Always Answered** (Ralph, 2026-10-26). Price approved as written; extras (domain, chamber, short-video account, cold email) OFF.
 
 ## Front Desk plan
 

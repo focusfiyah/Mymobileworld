@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Always Answered</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Every call answered and fresh reviews every month, for service businesses in Freeport, Baldwin and Brooklyn.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;600&family=Kalam:wght@400&family=Courier+Prime&&display=swap">
+<style>
+/* look: ticket: a carbon-copy service work order */
+
+:root{--desk:#d9dee3;--paper:#fbf4cf;--paper2:#fff9df;--ink:#1d2740;--carbon:#2b4c9b;--stamp:#c3361f;--rule:#d8c98a;--muted:#5a5f6e;
+  --head:"Barlow Condensed","Arial Narrow",sans-serif;--body:"Barlow",Arial,sans-serif;--hand:"Kalam","Comic Sans MS",cursive;--mono:"Courier Prime",Courier,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--desk:#151b24;--paper:#2a2a1f;--paper2:#302f23;--ink:#efe9cf;--carbon:#8fb0ff;--stamp:#ff7a5c;--rule:#4e4a33;--muted:#b8b39a;color-scheme:dark}}
+:root[data-theme="dark"]{--desk:#151b24;--paper:#2a2a1f;--paper2:#302f23;--ink:#efe9cf;--carbon:#8fb0ff;--stamp:#ff7a5c;--rule:#4e4a33;--muted:#b8b39a;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--desk);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.55}
+.desk{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px)); padding-block:1.5rem 3rem}
+.sheet{max-width:52rem;margin:0 auto;background:var(--paper);border-radius:4px;box-shadow:0 1px 0 var(--rule),0 18px 40px -24px rgba(0,0,0,.45);position:relative;overflow:hidden}
+.sheet::before{content:"";position:absolute;inset:0 0 auto;height:14px;background:radial-gradient(circle at 7px 7px,var(--desk) 3px,transparent 3.5px) 0 0/24px 14px repeat-x}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 1rem;align-items:flex-end;padding:1.8rem 1.2rem .8rem;border-bottom:3px double var(--ink)}
+.firm{font-family:var(--head);font-weight:800;font-size:1.6rem;letter-spacing:.02em;text-transform:uppercase}
+.no{font-family:var(--mono);font-size:.9rem}.no b{color:var(--stamp);font-size:1.1rem}
+.row{display:grid;grid-template-columns:7.5rem 1fr;border-bottom:1px solid var(--rule);min-height:2.6rem}
+.row>span:first-child{font-family:var(--head);text-transform:uppercase;letter-spacing:.08em;font-size:.78rem;color:var(--muted);padding:.75rem .6rem .3rem 1.2rem;border-right:1px solid var(--rule)}
+.row>.v{padding:.45rem 1.2rem .45rem .8rem;min-width:0}
+.hand{font-family:var(--hand);color:var(--carbon);font-size:1.15rem;line-height:1.35}
+h1{font-family:var(--head);font-weight:800;font-size:clamp(2.3rem,8vw,3.8rem);line-height:.98;text-transform:uppercase;margin:0;text-wrap:balance}
+h2{font-family:var(--head);font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:1.35rem;margin:0}
+.hero{padding:1.3rem 1.2rem 1.4rem;display:flex;flex-direction:column;gap:1rem;position:relative}
+.lead{max-width:34rem;color:var(--muted);font-size:1.12rem}
+.stamp{position:absolute;right:1rem;top:1.1rem;transform:rotate(-11deg);border:3px solid var(--stamp);color:var(--stamp);font-family:var(--head);font-weight:800;font-size:1.25rem;letter-spacing:.12em;padding:.15rem .6rem;border-radius:6px;opacity:.85;text-transform:uppercase}
+.ctas{display:flex;flex-wrap:wrap;gap:.7rem}
+.btn{display:inline-flex;flex-wrap:wrap;align-items:center;gap:.2rem .5rem;min-height:3rem;padding:.6rem 1.1rem;font-family:var(--head);font-size:1.15rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;border:2px solid var(--ink);color:var(--ink);background:transparent;border-radius:3px}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn:focus-visible,summary:focus-visible{outline:3px solid var(--carbon);outline-offset:2px}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.draft{outline:1px dashed var(--stamp);outline-offset:2px}
+.sec{padding:1.2rem;border-top:3px double var(--ink);display:flex;flex-direction:column;gap:.9rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:0;border:1px solid var(--rule)}
+.st{padding:.8rem 1rem;border:1px solid var(--rule);display:flex;flex-direction:column;gap:.2rem}
+.st b{font-family:var(--head);font-size:2.6rem;line-height:1;color:var(--stamp)}
+.st a{font-size:.82rem;color:var(--muted)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1.2rem}
+.cols>div{min-width:0}
+ul.boxes{list-style:none;margin:.5rem 0 0;padding:0;display:flex;flex-direction:column;gap:.5rem}
+ul.boxes li{display:grid;grid-template-columns:1.4rem 1fr;gap:.4rem}
+ul.boxes li::before{content:"\2713";font-family:var(--hand);color:var(--carbon);font-size:1.2rem;line-height:1.2;border:1.5px solid var(--ink);width:1.1rem;height:1.1rem;display:inline-flex;align-items:center;justify-content:center;margin-top:.25rem;font-size:.9rem}
+ol.steps{margin:0;padding-left:1.9rem;display:flex;flex-direction:column;gap:.6rem}
+ol.steps li::marker{font-family:var(--mono);color:var(--carbon)}
+.total{display:grid;grid-template-columns:1fr auto;gap:.3rem 1rem;align-items:end;border:2px solid var(--ink);padding:.9rem 1rem}
+.total .lbl{font-family:var(--head);text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;color:var(--muted)}
+.total .amt{font-family:var(--head);font-size:3.2rem;font-weight:800;line-height:1}
+.total p{grid-column:1/-1;margin:0}
+.found{border:2px dashed var(--stamp);padding:.8rem 1rem;color:var(--ink)}
+.found b{color:var(--stamp);font-family:var(--head);text-transform:uppercase;letter-spacing:.06em}
+details{border-bottom:1px solid var(--rule);padding:.6rem 0}
+summary{cursor:pointer;font-weight:600}
+details p{margin:.4rem 0 0;color:var(--muted)}
+.sig{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.4rem 1rem;padding:1rem 1.2rem 1.4rem;border-top:1px solid var(--rule);font-size:.85rem;color:var(--muted)}
+.sig .hand{font-size:1.3rem}
+a{color:var(--carbon)}
+p{margin:0}
+
+</style>
+</head>
+<body>
+
+<div class="desk"><main class="sheet">
+  <div class="top"><span class="firm" data-name>Always Answered</span><span class="no">SERVICE TICKET &nbsp;No. <b>0001</b></span></div>
+  <div class="row"><span>For</span><span class="v">Service businesses in Freeport, Baldwin and Brooklyn</span></div>
+  <section class="hero">
+    <span class="stamp" aria-hidden="true">Answered</span>
+    <h1>Every call answered.<br>Fresh reviews every month.</h1>
+    <p class="lead">When you&#x27;re on a job, your phone still gets picked up. The assistant books the work or sends you the details within a minute, and new reviews keep coming in.</p>
+    <div class="ctas">
+      <a class="btn primary" data-call>Call and hear it: <span class="num" data-phone>(516) 000-0000</span></a>
+      <a class="btn" data-book target="_blank" rel="noopener">Book a 15-minute call</a>
+    </div>
+  </section>
+  <div class="row"><span>Example</span><span class="v">Tuesday evening, your phone</span></div>
+  <div class="row"><span>6:48 PM</span><span class="v hand">&#10007; Rang out. Caller tried the next company.</span></div><div class="row"><span>6:48 PM</span><span class="v hand">&#10003; Answered. No heat upstairs. Booked Wed 8:00 AM. Details sent to you.</span></div><div class="row"><span>9:15 PM</span><span class="v hand">&#10003; Answered. Quote for a water heater. Name and number sent to you.</span></div>
+  <div class="row"><span>Try it</span><span class="v">Try this tonight: call your own business at 7 PM. If it rings out, that customer is now calling someone else.</span></div>
+  <section class="sec"><h2>What missed calls and old reviews cost you</h2><div class="stats"><div class="st"><b>44%</b><span>of business calls go unanswered, out of 70 million calls studied.</span><a href="https://justcall.io/blog/missed-call-statistics.html" target="_blank" rel="noopener">Invoca, 2026</a></div><div class="st"><b>78%</b><span>of people have given up on a business after nobody picked up.</span><a href="https://beside.com/blog/missed-calls-cost-small-business" target="_blank" rel="noopener">CallRail survey, 2025</a></div><div class="st"><b>74%</b><span>of people look for reviews from the last 3 months before they choose.</span><a href="https://www.brightlocal.com/research/local-consumer-review-survey/" target="_blank" rel="noopener">BrightLocal, 2026</a></div></div></section>
+  <section class="sec"><h2>Work to be done</h2><div class="cols">
+    <div><b>Your calls</b><ul class="boxes"><li>Every call answered, day and night, on your own number.</li><li>During your hours it can pass the call to you.</li><li>Otherwise it books the job or takes the name, number and what they need, and emails you within a minute.</li><li>Every Monday, a list of every call and what got booked.</li><li>We set it up from your services, prices and hours, and fix it every week.</li></ul></div>
+    <div><b>Your reviews</b><ul class="boxes"><li>After each job, your customer gets a short email or WhatsApp message, or scans a card at your counter, asking for a Google review.</li><li>We ask every customer the same way. No fake reviews, ever.</li><li>We write a reply to every new review in your voice. You approve it first.</li><li>Each month, your new reviews and star average.</li></ul></div></div></section>
+  <section class="sec"><h2>How it starts</h2><ol class="steps"><li><b>Call or book a 15-minute call.</b> Tell us your services, prices, hours and area.</li><li><b>We build your assistant</b> on your business, and you call it to hear it before anything goes live.</li><li><b>Turn on call forwarding</b> from your phone. We send the steps for your phone company. Your number stays the same.</li></ol></section>
+  <section class="sec"><h2>Total</h2>
+    <div class="total"><span class="lbl">Per month</span><span class="amt num">$397</span><p>a month, plus $497 one-time setup. Month to month. Cancel any time. Includes up to 500 call minutes a month. Most small businesses use far less.</p></div>
+    <div class="found"><b>Founding offer: first 3 businesses.</b> No setup fee and the first 14 days free. If you like it, we ask for a short testimonial.</div>
+    <div class="ctas"><a class="btn primary" data-book target="_blank" rel="noopener">Book a 15-minute call</a></div></section>
+  <section class="sec"><h2>Notes</h2><div><details><summary>Does it sound like a robot?</summary><p>Call our line and hear it for yourself. It talks like a calm front desk person and keeps calls short.</p></details><details><summary>Does it pretend to be a person?</summary><p>No. It answers as your assistant and says the call may be recorded. If a caller asks, it says it&#x27;s an AI assistant.</p></details><details><summary>Do I need a new phone number?</summary><p>No. You forward your calls to us when you can&#x27;t pick up, or all the time. Your customers call the same number they always have.</p></details><details><summary>What if a caller wants me?</summary><p>During the hours you pick, it passes the call to you. After hours it takes a message and you get it by email right away.</p></details><details><summary>Will it call my customers?</summary><p>No. It only answers calls. It never makes calls.</p></details><details><summary>Is there a contract?</summary><p>No. It&#x27;s month to month and you can cancel any time.</p></details></div></section>
+  <div class="sig"><span><span data-name>Always Answered</span> · Serving Nassau County and Brooklyn · <span class="num" data-phone>(516) 000-0000</span></span><span>Numbers above come from the studies linked under each one.</span></div>
+</main></div>
+<script>
+const CONFIG = {"name": "Always Answered", "phone": "", "booking": ""};
+(function(){
+  document.querySelectorAll("[data-name]").forEach(el => el.textContent = CONFIG.name);
+  const tel = (CONFIG.phone || "").replace(/[^0-9+]/g, "");
+  document.querySelectorAll("[data-phone]").forEach(el => { if (CONFIG.phone) el.textContent = CONFIG.phone; else el.classList.add("draft"); });
+  document.querySelectorAll("[data-call]").forEach(a => { if (tel) a.href = "tel:" + tel; else a.removeAttribute("href"); });
+  document.querySelectorAll("[data-book]").forEach(a => { if (CONFIG.booking) a.href = CONFIG.booking; else { a.removeAttribute("href"); a.classList.add("draft"); } });
+})();
+</script>
+</body>
+</html>
