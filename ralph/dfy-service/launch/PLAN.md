@@ -33,7 +33,7 @@ TOTAL: $1.60 for the first month (number + test calls), plus the optional domain
 
 Month to date (grace/spend.py, 2026-10-26): Kie $168.91 + other $0.65 = $169.56; no cap in October. This plan adds no Kie spend.
 
-## Decisions
+## Decisions (Ralph answered 2026-10-26: Always Answered; transfers to 786-496-3177, 10-6 Mon-Sat; after hours to the booking page; price OK; all extras OFF)
 1. Name: Always Answered, Always On Desk, or South Shore Front Desk?
 2. Calls passed to you: which number (Jean's test log shows you calling from 516-469-6970) and which hours (draft: 10 am to 6 pm,
    Monday to Saturday)?

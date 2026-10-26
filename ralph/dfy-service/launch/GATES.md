@@ -34,3 +34,19 @@ Scope: Ralph picked the #1 + #3 bundle as one fixed plan, sold to Jean's network
 
 - [x] G7: plan + page sent to Ralph (doc section, page link), email + push; brain note updated, BRAIN_OK; merged to main
   EVIDENCE: Doc "Launch plan" section (rev 9) + website preview https://claude.ai/artifact/X3Hc8iZ4evAvodEGaPqMs3; Gmail 1a176e593f596e15; push requested; brain BRAIN_OK, vault pushed; Mymobileworld merged to main
+
+## Round 2 (Ralph 2026-10-26: Always Answered, transfers to 786-496-3177 10-6 Mon-Sat, after hours to booking, price OK, extras off; redesign with thumbnail-looks; Pipecat?)
+
+- [x] G8: Ralph's answers saved in AGENT.md, PLAN.md, OFFER.md (after hours = booking page, no callbacks)
+  CHECK: python3 ralph/dfy-service/launch/verify.py agent
+  EXPECT: AGENT_OK
+  EVIDENCE: AGENT_OK; AGENT.md status line + UNAVAILABLE rule rewritten; PLAN/OFFER decision lines added (2026-10-26)
+
+- [x] G9: three landing looks from one brand block (site/looks.py), each a different familiar format, measured with the thumbnail-looks sameness score, all at or under 0.30 vs each other and the v1 page, no side scroll at 390 and 1280
+  CHECK: python3 -I ralph/dfy-service/launch/site/looks.py measure
+  EXPECT: LOOKS_OK
+  EVIDENCE: LOOKS_OK, worst shared 0.23 (lockscreen vs v1 phone) after two measured fixes (0.40 then 0.32); review page https://claude.ai/artifact/9KDzAvC72Z7RgrttjXjPXT
+
+- [x] G10: Pipecat answer with sources and a recommendation (research/pipecat.md); marked not tested
+  EVIDENCE: research/pipecat.md written 2026-10-26, 4 source links, "Not tested this session"
+
