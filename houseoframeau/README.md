@@ -9,6 +9,7 @@ Ralph 2026-10-20: "we will be managing that together and posting videos there as
 
 ## Access (tested 2026-10-20)
 - Composio TikTok connection `tiktok_buck-flunk` = House of Rameau (display name "House of Rameau🧑‍🧑‍🧒✨", bio "Az & Chana✨🧑‍🧑‍🧒").
+- Since 2026-10-26 Composio has a second TikTok account, `tiktok_bac-stouth` = Ralph's @azariah2244 ("Azariah", 700 followers), and it is the DEFAULT. Every House of Rameau TikTok call must pass `account: tiktok_buck-flunk`, or it reads/posts on Azariah.
 - Works: `TIKTOK_LIST_VIDEOS` (public videos, 20 a page, `cursor` for the next page: views, likes, comments, shares,
   caption, length) and `TIKTOK_GET_USER_STATS` (1,055 followers, 1,034 following, 4,686 likes, 26 videos on 2026-10-20).
 - Not in that API: saves, sales/orders, GMV, watch time, traffic sources, private or draft videos. Saves, the shop
