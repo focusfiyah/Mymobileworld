@@ -228,7 +228,12 @@ def lock_errors(job, c, spent_now, add):
 
 
 def approve_book(job, quote):
+    """Ralph 2026-10-26 (B12B6: "You didn't even show me anything and just went to making the stills"): his OK counts only
+    on a book he has seen, so BOOK.md must say where it was sent ("Sent to Ralph: <review page link or chat, date>")
+    before it can be approved; an upfront "go ahead" given before he saw the plan is not an approval of it."""
     errs, total, text = book_problems(job)
+    if not re.search(r"(?mi)^Sent to Ralph:\s*\S+", text):
+        errs.append(f"{BOOK} has no 'Sent to Ralph: <review page link or chat, date>' line: show him the plan first, then record his OK on it")
     if errs:
         sys.exit("cannot approve:\n  - " + "\n  - ".join(errs))
     p = Path(job) / "checklist.json"

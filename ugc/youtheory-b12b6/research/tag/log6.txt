@@ -1,0 +1,16 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 4 of 59 videos posted since 2026-08-27
+4 videos -> ugc/youtheory-b12b6/research/tag/tag-b12vitamin.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    102,700   4.7   0.93  408 2026-10-03  @drasifkhan.03: 5 Biggest Symptoms of Vitamin B12 Deficiency — Vitamin B12 Deficiency 
+                                          https://www.tiktok.com/@drasifkhan.03/video/7692323258590350612
+     86,700   4.3   1.14   56 2026-09-12  @gui.farmacianatural: #whynotnatural #b12 #vitaminab12 
+                                          https://www.tiktok.com/@gui.farmacianatural/video/7684466056219381023
+     12,900  13.8   3.42   66 2026-10-15  @justheretohellp: I’ve been taking b12 for brain 🧠 fog / memory loss to help me retain i
+                                          https://www.tiktok.com/@justheretohellp/video/7696961223685885197
+     11,800   2.2   0.43   66 2026-09-03  @evelynneschrader: Is your body lacking vitamin B12? Discover 7 surprising signs of defic
+                                          https://www.tiktok.com/@evelynneschrader/video/7681371540650249486

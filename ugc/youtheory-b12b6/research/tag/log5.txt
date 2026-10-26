@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 20 of 56 videos posted since 2026-08-27
+20 videos -> ugc/youtheory-b12b6/research/tag/tag-liquidb12.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+      1,825   5.8   0.16   18 2026-10-06  @negrete_farm: B12 6000 Liquid 60ml vitamin B12 Supplement for Roosters chickens y po
+                                          https://www.tiktok.com/@negrete_farm/video/7693558233251745055
+      1,345   1.0   0.07   59 2026-10-08  @glenny1974: @youtheory B12-B6 liquid pouches on the go. These are quicker to absor
+                                          https://www.tiktok.com/@glenny1974/video/7694341668517989662
+      1,257   0.6      0    9 2026-10-10  @dailyfitcheckuk: 46.5K sold and now 20% OFF?! 😳🔥 VIVO LIFE Liquid B12 Complex comes in 
+                                          https://www.tiktok.com/@dailyfitcheckuk/video/7695080576004492576
+        628   1.6   0.64   27 2026-10-25  @emmas_lifew_ithatwist: Liquid b12 complex #tiktokshopmademebuyit #tiktokmademebuylt #dealdrop
+                                          https://www.tiktok.com/@emmas_lifew_ithatwist/video/7700408233558658326
+        467   0.2      0   11 2026-10-22  @olvrsbestbuys: Genuinely helps so much, get yours now! #b12 #health #musthave #tiktok
+                                          https://www.tiktok.com/@olvrsbestbuys/video/7699527183160593697
+        430   0.2      0   20 2026-10-24  @lovelybushra77: #viralvideos #fyp #liquid #B12 #complex 
+                                          https://www.tiktok.com/@lovelybushra77/video/7700301270074084630
+        429   4.0      0  209 2026-10-09  @staceystephens37: 🍊✨ GIVE YOUR DAILY ROUTINE A B12 BOOST! ✨🍊 Meet the VIVO LIFE Liquid B
+                                          https://www.tiktok.com/@staceystephens37/video/7694614787707194646
+        412   0.2      0   20 2026-10-25  @vinnycash777: B12 liquid dropper 
+                                          https://www.tiktok.com/@vinnycash777/video/7700421559747497230
+        385   2.9   0.26   39 2026-09-08  @just4you464: B vitamins in a simple liquid routine 👀🔥 B12, B6, B1, Niacin + Folate—
+                                          https://www.tiktok.com/@just4you464/video/7683234127193099534
+        375   1.3      0   13 2026-10-22  @andrewthompsonx: Tasty orange‑flavoured liquid B12, no tablets needed 🧡 #VivoLife #Liqu
+                                          https://www.tiktok.com/@andrewthompsonx/video/7699375356569996566
+        346   2.6   0.58   11 2026-10-19  @naisemfiltro.uk: 🍊 Make your daily routine a little easier with Liquid B12 Complex! ✨ 💧
+                                          https://www.tiktok.com/@naisemfiltro.uk/video/7698468784788573473
+        337   2.4   0.59   32 2026-09-27  @trustedwellnessco: Before buying any supplement on TikTok Shop, always make sure you're p
+                                          https://www.tiktok.com/@trustedwellnessco/video/7690239475179359501
+        288   1.0      0   63 2026-10-24  @shaunadixon85: Looking for a liquid vitamin B12 supplement? 🍊 The VIVOLIFE Liquid B12
+                                          https://www.tiktok.com/@shaunadixon85/video/7700260418962476310
+        271   2.6      0   10 2026-10-25  @shareestiktokfinds: Concentrated liquid B12 reduces tiredness effectively: Concentrated li
+                                          https://www.tiktok.com/@shareestiktokfinds/video/7700565642096758038
+        263     0      0   26 2026-10-16  @christopherm1005: Liquid B12 complex in an orange flavour is a great way to support ener
+                                          https://www.tiktok.com/@christopherm1005/video/7697297038479805718

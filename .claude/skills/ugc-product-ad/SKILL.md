@@ -72,6 +72,14 @@ lessons below are specific to making ads:
   `python3 grace/spend.py` (month so far vs his cap: none in October 2026, $100/month from November) next to the job's quote. At the cap, `grace/gate.py` refuses every
   paid runner until Ralph's OK is recorded in `grace/spend.json` over_cap_ok. Spend nothing on a redo Ralph did not ask
   for; offer to let a small flaw go (Vans gift shot) before quoting a fix.
+- **Real product photos always win (Ralph 2026-10-26, B12B6):** a detail from research, another creator's video or a listing
+  render goes into a product prompt only after it is checked against the real photos. Write `JOB/product_truth.json` (photos,
+  facts, forbid) from them before the first prompt; `grace/prompt_check.py` refuses any prompt that describes a forbidden
+  detail. Why: a research note said "screw spout", Grace's photos showed a tear-off tab, all 9 stills drew a spout ($0.81).
+- **Show the plan before the first paid call, even after an upfront "go ahead" (Ralph 2026-10-26):** his OK counts only on
+  a book he has seen (`BOOK.md` needs a `Sent to Ralph:` line before `--approve-book`); act on his upfront choices
+  (Kie vs Flow/Gemini) without asking them again. Why: the B12B6 stills ran before he saw anything, so he could not catch
+  the wrong top.
 - **Confirm the real product before the first paid still:** applicator/top, cap, label, size; ask for a real photo
   if the reference is a generated sheet. Why: the Carpe sheet showed a ribbed white dome, the real stick has an
   orange slotted top, 5 stills redone (~$0.54).

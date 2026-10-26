@@ -1,0 +1,11 @@
+{
+ "photos": ["refs/real/grace_pouch_front_flat.jpg", "refs/real/grace_pouch_back_flat.jpg", "refs/real/grace_pouch_in_hand.jpg", "refs/real/grace_box_front_open.jpg", "refs/real/grace_box_end_pouches.jpg", "refs/real/grace_box_back.jpg"],
+ "facts": [
+  "top: flat magenta TEAR-OFF tab (Ralph 2026-10-26: 'It is a tear off top not screw'); no cap, no spout",
+  "flat white glossy foil pouch, straight sides, flat bottom, square shoulders, narrow neck, ~6.5 x 15 cm, 1 fl oz",
+  "front: youtheory logo, magenta dot circle, magenta B12B6, grey liquid, promotes brain health*, helps support energy production*, magenta raspberry flavor bar",
+  "no 'essential daily vitamins' line (listing render only)",
+  "box: torn-open display carton, 12 pouches, front 'B6 liquid', 1,000 mcg of B12 per serving"
+ ],
+ "forbid": ["screw cap", "spout", "nozzle", "flip cap", "lid", "stand-up pouch", "essential daily vitamins"]
+}

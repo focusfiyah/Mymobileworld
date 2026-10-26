@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 32 of 83 videos posted since 2026-08-27
+32 videos -> ugc/youtheory-b12b6/research/tag/tag-b12energy.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    386,500   0.8   0.13   37 2026-10-14  @razthebricky: #b12 #centrum #energy #vitamin #tiktokmademebuylt
+                                          https://www.tiktok.com/@razthebricky/video/7696583133302443286
+     38,400   2.0   0.19   76 2026-09-22  @52887lf4: Feeling fatigued? Learn how Vitamin B12 can boost your energy levels i
+                                          https://www.tiktok.com/@52887lf4/video/7688300987597065485
+      8,853   0.2   0.06   23 2026-09-25  @fitnesslifetok1: A simple way to support your energy 💥 #EnergyBoost #vitaminb12 #wellne
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7689519186946641174
+      8,599   0.2   0.03   20 2026-10-17  @fitnesslifetok1: Boosting energy just go easier 💪🏻🔥 #EnergyBoost #vitaminb12 #wellnesst
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7697697653852835094
+      5,496   0.2   0.02   21 2026-09-20  @fitnesslifetok1: No more energy dips 🤩 #EnergyBoost #vitaminb12 #wellnesstok #healthtok
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7687661093182786838
+      4,082     0      0    6 2026-09-22  @fitnesslifetok1: Sale is only on for a limited time ‼️ ##EnergyBoost##vitaminb12##welln
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7688437528768204035
+      2,086   0.2      0   21 2026-09-22  @fitnesslifetok1: A simple way to support your energy 💥 #EnergyBoost #vitaminb12 #wellne
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7688420802898955522
+      2,054   0.1   0.05   23 2026-10-09  @fitnesslifetok1: A simple way to support your energy 💥 #EnergyBoost #vitaminb12 #wellne
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7694682860661247254
+      2,019   0.2    0.1    5 2026-09-23  @fitnesslifetok1: This isn’t on for long ‼️ #energyboost #vitaminb12 #wellness #fitness 
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7688699727180729622
+      1,946   0.3   0.05   16 2026-10-23  @fitnesslifetok1: This takes 5 seconds ⏱️ #EnergyBoost #vitaminb12 #wellnesstok #healtht
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7699877791382113558
+      1,731   0.1      0    6 2026-10-16  @fitnesslifetok1: Little find, big savings energy 🤝💰 #EnergyBoost #vitaminb12 #wellnesst
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7697266033958194454
+      1,519   0.1      0    6 2026-10-17  @fitnesslifetok1: Worth checking before the deal disappears ⏳👀 #EnergyBoost #vitaminb12 
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7697714874209684758
+      1,307   0.2   0.08    8 2026-10-08  @fitnesslifetok1: A simple way to support your energy 💥 #EnergyBoost #vitaminb12 #wellne
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7694236247048441110
+      1,188     0      0   19 2026-09-24  @fitnesslifetok1: Keep energy and productivity consistent through the day 🔑 #EnergyBoost
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7689099176751451414
+      1,171   0.8   0.26   22 2026-09-29  @fitnesslifetok1: Easy and simple way to boost energy 💪🏻 #EnergyBoost #vitaminb12 #welln
+                                          https://www.tiktok.com/@fitnesslifetok1/video/7690926053874879766

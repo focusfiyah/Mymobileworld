@@ -13,6 +13,16 @@ prompt, then mark it:
   python3 grace/prompt_check.py lint <file.txt | shots.json> [--refs N]   lint only (free), prints PROMPT_LINT_OK
   python3 grace/prompt_check.py mark <job> <file.txt | shots.json ...>    lint + record each prompt as checked
   shots.json files: every string under "still", "clip" or "prompt" is a prompt; "still_refs" / "clip_refs" give N.
+
+Product truth (Ralph 2026-10-26, Youtheory B12B6: "Yes make standing rule"): the real product photos always win. A detail
+from research, another creator's video or a listing render goes into a product prompt only after it is checked against the
+real photos. Every job from 2026-10-26 on has JOB/product_truth.json, written from the real photos BEFORE the first prompt:
+  {"photos": ["refs/real/front.jpg", ...],            real photos the facts come from (must exist)
+   "facts": ["flat magenta tear-off tab on top", ...], what the photos show (for the plan and the reader)
+   "forbid": ["screw cap", "spout", ...]}              details the real product does NOT have
+mark() and require() refuse a prompt that describes a forbidden detail (a mention inside a negation, "no spout", is fine).
+Why: the B12B6 stills were sent with "screw cap twisted off" taken from a research note while Grace's photos showed a
+tear-off top; all 9 came back with a spout ($0.81 redo).
 """
 import datetime, hashlib, json, re, sys
 from pathlib import Path
@@ -22,6 +32,36 @@ NEG = r"\b(no|not|never|without|nor)\b"
 FEET = r"\b(shoe|shoes|sneaker|sneakers|feet|foot|boots?|heels?)\b"
 TOE_DIR = r"\btoes?\b[^.]{0,80}\b(point|face|faces|facing|aim)|\btoes?(?: caps?)? (?:to|at|toward|towards|away)\b"
 FRAME_TOP = r"(frame (?:cuts|starts|begins) at (?:her|his) (\w+)|nothing above (?:her|his) (\w+))"
+
+
+TRUTH_FROM = "2026-10-26"   # jobs dated on/after this need product_truth.json
+
+
+def truth(job):
+    """(truth dict or None, problems). Required for jobs whose checklist.json date is on/after TRUTH_FROM."""
+    j = Path(job); f = j / "product_truth.json"
+    if not f.exists():
+        c = j / "checklist.json"
+        date = json.loads(c.read_text()).get("date", "") if c.exists() else ""
+        if date and date >= TRUTH_FROM:
+            return None, [f"no {f}: write it from the real product photos first (photos, facts, forbid), Ralph 2026-10-26"]
+        return None, []
+    d = json.loads(f.read_text()); errs = []
+    if not d.get("photos"):
+        errs.append(f"{f.name}: list the real photos the facts come from")
+    errs += [f"{f.name}: photo {x} does not exist" for x in d.get("photos", []) if not (j / x).exists()]
+    return d, errs
+
+
+def truth_errors(prompt, d):
+    """A forbidden product detail described in the prompt (not inside a negation)."""
+    errs, low = [], prompt.lower()
+    for term in (d or {}).get("forbid", []):
+        for m in re.finditer(r"\b" + re.escape(term.lower()) + r"\b", low):
+            clause = re.split(r"[.;:()]", low[max(0, m.start() - 80):m.start()])[-1]
+            if not re.search(NEG, clause):
+                errs.append(f"describes '{term}', which the real product photos do not show (product_truth.json)"); break
+    return errs
 
 
 def _hash(text):
@@ -78,9 +118,11 @@ def mark(job, items):
     """Lint each (label, prompt, n) and record the clean ones as checked. Returns the problems found."""
     f = _store(job); f.parent.mkdir(parents=True, exist_ok=True)
     done = json.loads(f.read_text()) if f.exists() else {}
-    problems = []
+    d, problems = truth(job)
+    if problems:
+        return problems
     for label, text, n in items:
-        e = lint(text, n)
+        e = lint(text, n) + truth_errors(text, d)
         if e:
             problems += [f"{label}: {x}" for x in e]
             continue
@@ -104,8 +146,9 @@ def _body_prompts(body):
 def require(job, body):
     """Refuse (sys.exit) a paid body whose prompt fails lint or was not marked checked for this job."""
     done = json.loads(_store(job).read_text()) if _store(job).exists() else {}
+    d, terr = truth(job)
     for k, text, n in _body_prompts(body):
-        e = lint(text, n)
+        e = terr + lint(text, n) + truth_errors(text, d)
         if e or _hash(text) not in done:
             pend = Path(job) / "proof" / "pending_prompts" / f"{_hash(text)[:12]}.txt"
             pend.parent.mkdir(parents=True, exist_ok=True); pend.write_text(text)

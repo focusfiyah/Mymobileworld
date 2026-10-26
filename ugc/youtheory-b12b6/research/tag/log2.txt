@@ -1,0 +1,18 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 5 of 59 videos posted since 2026-09-26
+5 videos -> ugc/youtheory-b12b6/research/tag/tag-b12.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+     85,900   4.0   0.47   79 2026-10-10  @dr_peterdunbar: Learn about the signs of vitamin B12 deficiency and how it can affect 
+                                          https://www.tiktok.com/@dr_peterdunbar/video/7694995800811703565
+     12,900  13.8   3.42   66 2026-10-15  @justheretohellp: I’ve been taking b12 for brain 🧠 fog / memory loss to help me retain i
+                                          https://www.tiktok.com/@justheretohellp/video/7696961223685885197
+      5,048   3.4   1.33   23 2026-10-16  @rmarsuppclarity: Clinics charge hundreds for MIC B12 injections. Here's what it actuall
+                                          https://www.tiktok.com/@rmarsuppclarity/video/7697344882700012814
+         63   4.8      0    9 2026-10-04  @shante_005: Looking for a simple way to add vitamin B12 to your daily wellness rou
+                                          https://www.tiktok.com/@shante_005/video/7692599207286279437
+         49     0      0   59 2026-10-22  @anewchapterwithchrist: If you're tired of feeling exhausted all the time, these chewable berr
+                                          https://www.tiktok.com/@anewchapterwithchrist/video/7699555792021638413

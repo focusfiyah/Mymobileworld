@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 90: kept 56 of 84 videos posted since 2026-07-28
+56 videos -> ugc/youtheory-b12b6/research/tag/tag-youtheoryb12.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+      1,370   1.4   0.36   60 2026-10-05  @glenny1974: Replying to @deanna_caroon this are definitely a game changer. @youthe
+                                          https://www.tiktok.com/@glenny1974/video/7693246171233406238
+      1,320   1.9   0.38   15 2026-10-13  @jenniferdaniel859: Prefer liquid vitamins over another pill? 👀 Youtheory Liquid B12 + B6 
+                                          https://www.tiktok.com/@jenniferdaniel859/video/7695951776133942542
+      1,102   1.7   0.09   64 2026-09-02  @glenny1974: @youtheory B12-B6 liquid pouches are a game changer. These are like an
+                                          https://www.tiktok.com/@glenny1974/video/7680885712845327646
+      1,033   1.4   0.19   61 2026-10-02  @buffystiktokdeals: the grandbabies are coming! #b12 #b6 #tiredness #energy #youtheory 
+                                          https://www.tiktok.com/@buffystiktokdeals/video/7692152666872384799
+        917   2.8   0.44   26 2026-08-09  @thenicolebrownlife: Do you want the convenience of great vitamins that give you a physical
+                                          https://www.tiktok.com/@thenicolebrownlife/video/7672077259263511839
+        698     0      0   26 2026-10-25  @kurvykara: When 8 hours of sleep still isn't enough…@youtheory #womensvitamins #Y
+                                          https://www.tiktok.com/@kurvykara/video/7700601204992134430
+        671   0.7   0.15  100 2026-08-22  @sngbeautysoftglamplug: I refuse to add another pill to my routine. #youtheory #b12 #vitaminb1
+                                          https://www.tiktok.com/@sngbeautysoftglamplug/video/7676706802309909774
+        532   1.9   0.56   59 2026-10-08  @soldelmar65: #tiktokshopstockup youtheory B12 B6 liquid daily essential #suplemento
+                                          https://www.tiktok.com/@soldelmar65/video/7694337695757143310
+        526   0.6   0.38   15 2026-09-23  @mandygbeauty: Youtheory B12B6 liquid is meant to help support energy and brain healt
+                                          https://www.tiktok.com/@mandygbeauty/video/7688703946436693278
+        505  15.6   1.58   28 2026-09-18  @ms..ts.tiktok.sho: Do you need energy and focus?! Grab these B6 B12 pouches from @youtheo
+                                          https://www.tiktok.com/@ms..ts.tiktok.sho/video/7687002169295342862
+        475   1.9   0.21   18 2026-09-18  @marybeautycare4: Youtheory Vitamin B12 B6 Liquid | Liquid Vitamin Supplement | Berry Fl
+                                          https://www.tiktok.com/@marybeautycare4/video/7686928013723831566
+        317   4.1   0.32   23 2026-09-18  @lindsarita287: Youtheory Vitamin B12 B6, Daily Energy and Brain Support Supplement, L
+                                          https://www.tiktok.com/@lindsarita287/video/7687014133195148557
+        310   1.0   0.32   21 2026-07-30  @ukraniak: Vitamina B12 ready to go ! Abres y listo .. ! @youtheory #tiktokshopsu
+                                          https://www.tiktok.com/@ukraniak/video/7668403468889033997
+        262   5.0   1.15   15 2026-08-19  @soldelmar65: #youtheory B12 B6 liquid daily essential #suplementos 
+                                          https://www.tiktok.com/@soldelmar65/video/7675554609506602254
+        257   3.1   1.17   50 2026-08-14  @soldelmar65: Respuesta a @Araceli #youtheory B12 B6 vitamin liquid daily essential 
+                                          https://www.tiktok.com/@soldelmar65/video/7673965138927488270
