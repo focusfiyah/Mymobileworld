@@ -4,7 +4,7 @@ Ask (Ralph 2026-10-25): "Grace needs a fashion AI video" for the OQQ Women's Hig
 she has them in black and brown; inspo https://www.tiktok.com/t/ZPLAg5udN/ (@krunch.7, 555.8K, same pants in brown); "style with sneakers",
 the shiny Vans (sequin checkerboard Authentic from the Vans jobs). Route: AI recreation on Grace's body photos + product lock, Flow first.
 
-Status: 2026-10-26 CUT 2 sent (15.6 s): S4 patch pocket fixed (Seedance + free logo paint-out), back view 2nd, ends on S7 (S8 out: its redo put the pocket on the back + black shoe toes). Asked Ralph: keep cut 2 (free) or S8 one-item edit $0.09 + clip $0.315. Drive CURRENT is still cut 1 (re-ordered) until he picks. Kie $4.21 of $4.59.
+Status: APPROVED cut 2, 2026-10-26 (Ralph: "Keep and put on drive"). 15.6 s, music only, 6 shots: S4 patch pocket opener (Seedance + free logo paint-out), S1 back 2nd, S3, S5, S6, S7 walk (S2 + S8 out). In Drive "OQQ Wide Leg Pants (Grace)" https://drive.google.com/drive/folders/1bdMzWT73_xUbJNBNECwyfJreyBhLkm1K as CURRENT - OQQ pants V1.mp4 (14,297,959 bytes = local) + CURRENT - OQQ pants captions; earlier cuts in Older versions (v1 back first, v2 slit pockets). Kie $4.21 of $4.59 approved. GATES 10/10.
 Review page: https://claude.ai/artifact/8FXb6VhgRPCWm6bKWaNy79
 
 Files: BOOK.md (the plan), scripts.md, shots.json (built by tools/make_shots.py, prompt-master), GATES.md, REMOVED.md,
