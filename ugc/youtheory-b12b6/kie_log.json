@@ -973,5 +973,187 @@
    ]
   },
   "costTime": 89
+ },
+ {
+  "t": "2026-10-26 04:38:25",
+  "submitted": "a9e892720faf461b96ccc0ae9b9c5b2d",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails"
+ },
+ {
+  "t": "2026-10-26 04:38:37",
+  "submitted": "19819c337c4db0fdde23b8e88def21ce",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its flat mage"
+ },
+ {
+  "t": "2026-10-26 04:38:39",
+  "submitted": "b2ac01c6e6a1a0d974a933521058a7a9",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails"
+ },
+ {
+  "t": "2026-10-26 04:38:40",
+  "submitted": "a61a60c5965225e3fe1b050e1f270b06",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its flat mage"
+ },
+ {
+  "t": "2026-10-26 04:38:42",
+  "submitted": "8c5ae9d7d2a7e451919e934554b94336",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its torn-open"
+ },
+ {
+  "t": "2026-10-26 04:38:44",
+  "submitted": "8dd20ba5796eae84ed1930c44ec17e31",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails"
+ },
+ {
+  "t": "2026-10-26 04:38:46",
+  "submitted": "8ff060eb941dbc0015567e9731dba1b6",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails"
+ },
+ {
+  "t": "2026-10-26 04:40:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails, rings and bracelets, the white pouch with its flat magenta tear-off tab still on top (unopened, no straw), and its print letter for letter. Only one small move: The hand keeps one grip and gives the pouch two gentle little shakes up and down; the pouch never turns or flips. Camera: steady, tiny push-in. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. Only this one hand appears. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792989493210-10mw2xznbne.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "8dd20ba5796eae84ed1930c44ec17e31",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989600798-lgr5aphrgr8.mp4"
+   ]
+  },
+  "costTime": 89
+ },
+ {
+  "t": "2026-10-26 04:40:10",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its torn-open top and the white paper straw standing in it, and its print letter for letter. Nothing in the scene moves; only the camera moves: slow push-in with a slight drift left; the plants stay soft behind. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. No hand, fingers, arms or people appear at any time, nothing enters at any edge. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792989493269-ton4b1jjfsf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "8c5ae9d7d2a7e451919e934554b94336",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989603594-kmryof6amz.mp4"
+   ]
+  },
+  "costTime": 94
+ },
+ {
+  "t": "2026-10-26 04:40:26",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails, rings and bracelets, the white pouch with its flat magenta tear-off tab still on top (unopened, no straw), and its print letter for letter. Only one small move: The hand keeps one grip and lifts the pouch straight up about 10 cm toward the lens, label facing the camera the whole time; the pouch never turns or flips. Camera: slow push-in. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. Only this one hand appears. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792989493207-0qgrazpznh5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b2ac01c6e6a1a0d974a933521058a7a9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989621941-nxwfsl5l3n.mp4"
+   ]
+  },
+  "costTime": 119
+ },
+ {
+  "t": "2026-10-26 04:40:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its flat magenta tear-off tab still on top (unopened, no straw), and its print letter for letter. Nothing in the scene moves; only the camera moves: slow arc a little to the right around the pouch and bowl, ending with the label still facing the lens. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. No hand, fingers, arms or people appear at any time, nothing enters at any edge. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792989493321-nhzgp6f3y1.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "19819c337c4db0fdde23b8e88def21ce",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989627616-b603tz82qjw.mp4"
+   ]
+  },
+  "costTime": 127
+ },
+ {
+  "t": "2026-10-26 04:40:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails, rings and bracelets, the white pouch with its torn-open top and half-torn magenta tab and the white paper straw standing in it, and its print letter for letter. Only one small move: The hand keeps one grip and lifts the pouch slowly straight up until the straw tip leaves the top edge of the frame; the pouch stays upright and never turns or flips. No face, lips or person appear at any time. Camera: steady. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. Only this one hand appears. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792986624998-5b1kna72u8m.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a9e892720faf461b96ccc0ae9b9c5b2d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989622191-akb59nrog2.mp4"
+   ]
+  },
+  "costTime": 126
+ },
+ {
+  "t": "2026-10-26 04:40:51",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the hand with its French-tip nails, rings and bracelets, the white pouch with its flat magenta tear-off tab still on top (unopened, no straw), and its print letter for letter. Only one small move: The hand keeps one grip and holds the pouch steady toward the lens with a tiny tilt of a few degrees; the pouch never turns or flips. Camera: slow push-in. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. Only this one hand appears. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792989493198-hikgh3f9aql.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "8ff060eb941dbc0015567e9731dba1b6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989641162-574iklwh7n7.mp4"
+   ]
+  },
+  "costTime": 130
+ },
+ {
+  "t": "2026-10-26 04:41:05",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its flat magenta tear-off tab still on top (unopened, no straw), and its print letter for letter. Nothing in the scene moves; only the camera moves: slow dolly in toward the pouch with a slight drift left to right. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. No hand, fingers, arms or people appear at any time, nothing enters at any edge. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792989493157-f7suqcac8zk.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a61a60c5965225e3fe1b050e1f270b06",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792989662989-zjkdu6x0q5.mp4"
+   ]
+  },
+  "costTime": 156
  }
 ]
