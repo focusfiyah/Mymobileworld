@@ -76,6 +76,9 @@ TOTAL: $4.455
 ## 7c. Storyboard round 2 (Ralph 2026-10-26: "Keep S5, s6 the whole top is off, no good. You can redo the others as well including s6 unless you can fix. You don't need a straw in every shot. No straw needed in the beginning at least you need to showcase the pouch as is somewhere.")
 S5 and S8 kept (S8 spine text blurred free). Redo on Kie: S3, S4, S6, S7, S9 (5 x $0.09 = $0.45, his OK); S1 + S2 redo to show the pouch as sold (2 x $0.09 = $0.18, asked). S1-S4 unopened, tab on, no straw (S3's shake = shake well before opening); S5 = the moment it is opened (half-torn tab); S6-S9 straw in, neck and shoulders whole.
 
+## 7d. S9 as sold (Ralph 2026-10-26: "Ok run")
+S9 failed 3 times as a torn pouch with a straw; it now shows the pouch as sold (tab on, no straw) held to the lens, 1 x $0.09. S6 redone OK with S5 as the top reference.
+
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Every still prompt: prompts/still_S1..S9.txt; every Omni clip prompt: prompts/S1..S9.txt; refs per shot: prompts/refs.json. All pass grace/prompt_check.py lint.
 Still refs: 1 product sheet, 2 logo + dot circle close-up, 3 "B12B6 liquid" + claims + flavor bar close-up, (S6: 4 real box photo, 5 box print close-up), room photo, Grace's hand sheet on hand shots. Clip refs: 1 the approved still, 2-3 the close-ups, 4 the sheet, 5 hand sheet (hand shots), box close-up (S6). Size first, print letter for letter and colour for colour, straw in every frame, one grip, never flips, hand-free shots say no hand appears at any time, no text, no music or voice.
