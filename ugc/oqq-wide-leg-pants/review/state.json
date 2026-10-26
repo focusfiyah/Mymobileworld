@@ -1,22 +1,34 @@
 {
- "sub": "Cut 1, re-ordered 2026-10-25 (Ralph: back view as the 2nd shot). APPROVED, in Drive. 17.5 s, music only, no text. Kie $3.78.",
+ "sub": "Cut 2, 2026-10-26: pocket fixed in the opening shot (S4), back view 2nd, ends on the walk. 15.6 s, music only, no text. Kie $4.21.",
  "ask": {
-  "title": "In Drive",
-  "text": "Re-ordered cut is CURRENT in Drive: <a href=\"https://drive.google.com/drive/folders/1bdMzWT73_xUbJNBNECwyfJreyBhLkm1K\">OQQ Wide Leg Pants (Grace)</a>. The back-first version is in Older versions."
+  "title": "Cut 2 + one call on S8",
+  "text": "S4 now shows the real flat patch pocket (Seedance take, Apple logo painted out free). S8's redo came back with the pocket on the back of the hip and the shoe toes solid black, so cut 2 ends on the walk instead. Keep it like this ($0), or try S8 once more as a one-item edit of its first still (swap only the slit for the patch pocket): <b>$0.09</b> + its clip $0.315 (already in your OK)?"
  },
  "sections": [
   {
    "type": "grid",
-   "h": "Cut 1 (play here)",
-   "note": "Silent on purpose: Grace adds the TikTok sound when she posts. Checked: cuts clean, every hand at 2x, shoes face the right way, no logos, REMOVED.md list.",
+   "h": "Cut 2 (play here)",
+   "note": "S4 phone into the patch pocket, S1 back (2nd), S3 front, S5 feet, S6 brown, S7 walk. Cuts clean, no logos.",
    "items": [
     {
-     "src": "vid/oqq_v1.mp4",
-     "n": "Cut 1",
-     "tag": "17.5 s",
-     "p": "Opens on the phone going into the pocket, back view 2nd, then front, feet, and the brown look."
+     "src": "vid/oqq_v2.mp4",
+     "n": "Cut 2",
+     "tag": "15.6 s",
+     "p": "Opens on the real patch pocket; back view second; ends on the walk."
+    },
+    {
+     "src": "img/S8_r6.jpg",
+     "n": "S8 redo",
+     "tag": "not used",
+     "cls": "redo",
+     "p": "Pocket on the back of the hip, shoe toes solid black."
     }
    ]
+  },
+  {
+   "type": "html",
+   "h": "S4 pocket at full size",
+   "body": "<figure><img src=\"img/S4_pocket.jpg\" alt=\"S4 pocket frames\"><figcaption>S4 \u00b7 phone into the flat patch pocket, logo painted out</figcaption></figure>"
   },
   {
    "type": "grid",

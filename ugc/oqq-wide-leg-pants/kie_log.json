@@ -855,5 +855,67 @@
    "Request blocked: The generation was blocked by Google safety review."
   ],
   "usd": 0
+ },
+ {
+  "t": "2026-10-26 00:10:11",
+  "submitted": "819eaedf85934af92c4f2db401eb31a7",
+  "prompt": "SHOT: SCENE: a friend films her from the side at hip height (not a mirror selfie: her hands hold no phone and no phone i"
+ },
+ {
+  "t": "2026-10-26 00:10:13",
+  "submitted": "a4ebe24d2ba90716d768dbdea0ad5e99",
+  "prompt": "Recreate reference image 1 exactly as the first frame (same kitchen, framing, white ribbed crop tank, black pants, her h"
+ },
+ {
+  "t": "2026-10-26 00:11:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: SCENE: a friend films her from the side at hip height (not a mirror selfie: her hands hold no phone and no phone is near her face), chest to floor, in the middle of the kitchen, the outer side of her hip square to the camera so the flat rectangular patch pocket shows clearly ON THE SIDE SEAM of the hip (not toward the back), the pocket is the same chocolate brown as the pants (image 3 shows its shape on her black pair: copy the shape, keep this pair brown), the only phone in the whole picture sits upright inside that pocket with only its top showing; one hand rests flat on her hip just in front of the pocket, fingers together, whole wrist visible; her other arm relaxed out of frame. FEET: She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge. BOTH shoes show the same black and off-white checkerboard (neither shoe is solid black). Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real side pocket: a flat rectangular patch pocket on the outer hip, straight top edge under the waistband, phone top showing. Image 3 = the SAME pocket as it must look on her (a flat rectangle on the outer hip, straight top edge, phone top showing). Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab (small black tab, white VANS letters). Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room. HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A cream boxy cropped long-sleeve top with full puffed sleeves that ends just above the waistband. THE PANTS must match image 1 and image 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in DARK CHOCOLATE BROWN (exactly the brown in image 1 and image 2). Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. THE POCKET (image 2): ONE flat tonal patch pocket sewn onto the OUTER SIDE of the hip, a tall rectangle about the size of a phone, outlined by a thin stitched seam, its straight top edge running level just under the waistband; it opens ONLY along that top edge, and a phone sits upright inside with only its top showing above the edge. There is NO slanted, curved or slash pocket opening anywhere and no front trouser pockets. No logos, no \u00ae or \u2122, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (image 4): large black squares covered in black sequins, large off-white squares plain canvas (black and OFF-WHITE only, never brown, tan or beige checks), black laces through black eyelets (no gold or metal eyelets), the same checkerboard all the way round the heel (no solid black heel panel), a small BLACK woven side tab with white VANS letters (image 5), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. PLACE: the real kitchen in image 7: grey upholstered bar stools with wooden legs, white cabinets, dark island, grey wood floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958654584-ncmxd36l2xb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958656810-y299lfojn2i.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972246080-1xu400s5sie.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958658977-4d90f1fw4ay.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958661286-ji6bfzlor4f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958663708-s70lnoj186.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958666073-ungeh4liub.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "819eaedf85934af92c4f2db401eb31a7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/819eaedf85934af92c4f2db401eb31a7_0_1792973510.jpeg"
+   ]
+  },
+  "costTime": 103
+ },
+ {
+  "t": "2026-10-26 00:12:31",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame (same kitchen, framing, white ribbed crop tank, black pants, her hand, nails and the plain light grey phone), then: the hand holding the phone tucks it straight down into the flat rectangular patch pocket on the outer side of her hip, through the pocket's straight level top edge, until only the top of the phone shows, then lets go and rests at her side. One grip, the phone never turns or flips. The pocket must match reference image 2: a flat tonal rectangle sewn on the outer hip, outlined by a thin stitched seam, opening only along its straight top edge just under the waistband; never a slanted or curved slit. Reference image 3 is the pants product sheet: the pants stay true black, smooth, matte and solid (never sheer), with the wide plain waistband and the front seam line. The camera stays on her hip and the pocket the whole time; her face never enters the frame; her feet stay out of the frame. Hands keep five fingers and whole wrists. No logos on the phone or anywhere, no text, no captions, no sparkle or light effects. No music, no voice.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792973402026-ml7s45o3na.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958656810-y299lfojn2i.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958654584-ncmxd36l2xb.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a4ebe24d2ba90716d768dbdea0ad5e99",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792973548558-iqf7huimjvc.mp4"
+   ]
+  },
+  "costTime": 141
  }
 ]

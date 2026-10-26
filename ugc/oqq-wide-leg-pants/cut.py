@@ -6,7 +6,7 @@ Black look first (S4 phone in, S1 back as the 2nd shot (Ralph 2026-10-25: "do no
 import subprocess, sys
 from pathlib import Path
 EDIT = {
- "oqq": [("S4_fixed", 0, 2.1), ("S1", 0, 2.6), ("S3", 0, 2.6), ("S5", 0, 2.4), ("S6", 0, 2.6), ("S7", 0.4, 2.8), ("S8", 0, 2.8)],
+ "oqq": [("S4_fixed", 0, 2.6), ("S1", 0, 2.6), ("S3", 0, 2.6), ("S5", 0, 2.4), ("S6", 0, 2.6), ("S7", 0.4, 3.2)],   # cut 2 (2026-10-26): S4 = Seedance patch-pocket take, logo painted out; S8 out until its pocket is right
 }
 GRADE = {"oqq": "colorbalance=rs=-0.01:bs=0.008,eq=brightness=0.02:contrast=1.03"}   # bright, neutral: black stays black, brown stays chocolate, oak floor not yellow
 
