@@ -8,3 +8,9 @@ BOOK: approved $4.46 + extras $0.00; spent since approval $0.09; this call $0.09
 BOOK: approved $4.46 + extras $0.00; spent since approval $0.18; this call $0.09; left after it $4.19
 BOOK: approved $4.46 + extras $0.00; spent since approval $0.27; this call $0.09; left after it $4.10
 BOOK: approved $4.46 + extras $0.00; spent since approval $0.36; this call $0.09; left after it $4.00
+PAID LEDGER: git commit failed, other sessions will NOT see this claim: fatal: cannot lock ref 'HEAD': is at cfc003cd3af5e16dc3741b43cdf38e90a3db1cc0 but expected ecdde20b7f207098d2d75bc7d79c3b5d992a8be1
+submitted feeb6e7841678cdbf36003c0182a39be
+PAID LEDGER: git push failed, other sessions will NOT see this claim: To https://github.com/focusfiyah/Mymobileworld
+ ! [remote rejected]   HEAD -> ccr-c6e873ab-jr9fsm (cannot lock ref 'refs/heads/ccr-c6e873ab-jr9fsm': is at e073146abd5546c311b331004527a76318e4dfb2 but 
+submitted a5b337abb6f5086bf2a101eadf17ca79
+submitted 428cdbe4cab8a1b04e01cd58b6b9eb5d
