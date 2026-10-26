@@ -32,7 +32,9 @@ stop spending; 13 of 27 Vans clips came back with a pale side tab; Cleanwaste: 3
 4. **Clips with no product in frame** (room, hand-free scenery, a hand without the product): Seedance 2.0 Mini on Kie
    as before ($0.041/s). No Kling unless Ralph asks.
 5. **QC every Omni take at 2x on several frames** against the close-ups (letters, colours, shape) and the hand rules
-   (grip, whole wrist, no flip). Omni renders audio; the runner strips it.
+   (grip, whole wrist, no flip). Omni renders audio; the runner strips it. Before that, the runner checks the still is
+   9:16 before paying and the clip against its still after the download (Mymobileworld `grace/clip_check.py`,
+   2026-10-26): a CLIP_CHECK_FAIL means look first and fetch the task again; Kie bills a clip that ignored the image.
 6. **Paste-back is the last resort:** only when free fixes (crop, trim to the clean window, static patch) and one
    Omni edit turn have failed, and only with Ralph's OK for that shot. A pasted label reads as a sticker (LGXNDS 2026-10-19).
 

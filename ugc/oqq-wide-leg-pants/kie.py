@@ -80,8 +80,16 @@ def run_task(body, label=""):
         d = (requests.get(f"{API}/recordInfo", headers=HDR, params={"taskId": tid}, timeout=30).json() or {}).get("data") or {}
         if d.get("state") == "success":
             rj = d.get("resultJson"); rj = json.loads(rj) if isinstance(rj, str) and rj else (rj or {})
-            log({"request": body, "taskId": tid, "result": rj, "costTime": d.get("costTime")})
-            return (rj.get("resultUrls") or [None])[0]
+            # billed = what Kie actually charged (creditsConsumed, 1 credit = $0.005; Ralph 2026-10-26)
+            billed = d.get("creditsConsumed")
+            log({"request": body, "taskId": tid, "result": rj, "costTime": d.get("costTime"),
+                 **({"credits": billed, "usd": round(float(billed) * 0.005, 4)} if billed is not None else {})})
+            out = (rj.get("resultUrls") or [None])[0]
+            imgs = [v for k in ("first_frame_url", "reference_image_urls", "image_urls") for v in
+                    ([body["input"][k]] if isinstance(body["input"].get(k), str) else body["input"].get(k) or [])]
+            if out and imgs:
+                _SRC[out] = imgs[0]   # fetch() checks the clip against this still (image 1)
+            return out
         if d.get("state") == "fail":
             log({"request": body, "taskId": tid, "fail": [d.get("failCode"), d.get("failMsg")]})
             print("FAILED", d.get("failCode"), d.get("failMsg")); return None
@@ -89,8 +97,24 @@ def run_task(body, label=""):
     log({"request": body, "taskId": tid, "fail": "timeout"}); return None
 
 
-def fetch(url, out):
+_SRC = {}   # result url -> hosted url of the still it was made from
+
+
+def fetch(url, out, still=None):
+    """Download; a clip is then checked against its still (grace/clip_check.py, Ralph 2026-10-26: Kie bills a clip
+    that ignored the image). still defaults to the local file behind the request's image 1 (upload_cache.json)."""
     Path(out).parent.mkdir(exist_ok=True)
     Path(out).write_bytes(requests.get(url, timeout=180).content)
+    if not str(out).endswith(".mp4"):
+        return True
+    if still is None and url in _SRC:
+        cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+        still = next((k.split("|")[0] for k, v in cache.items() if v == _SRC[url]), None)
+    if not still or not Path(still).exists():
+        print(f"CLIP_CHECK_SKIPPED {out}: no local still to compare; look at it yourself", flush=True); return True
+    gate, _ = _gate(); sys.path.insert(0, str(Path(gate.__file__).parent)); import clip_check
+    ok, score = clip_check.report(still, out)
+    log({"clip_check": str(out), "still": str(still), "ok": ok, "score": score})
+    return ok
 
 

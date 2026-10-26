@@ -92,6 +92,11 @@ def main():
     if not gate:
         sys.exit("grace/gate.py not found above the job folder")
     sys.path.insert(0, str(gate.parent)); from gate import require, start_task, task_submitted; require(job)
+    import clip_check   # grace/clip_check.py (Ralph 2026-10-26): wrong-shape still = cropped clip; checked before paying
+    if not a.edit:
+        errs = clip_check.check_still(a.still, "9:16")
+        if errs:
+            sys.exit("CLIP_CHECK_FAIL before spending: " + "; ".join(errs))
     folder = job.name
     inp = {"prompt": prompt, "aspect_ratio": "9:16", "resolution": a.res}
     if a.edit:
@@ -120,7 +125,10 @@ def main():
         d = (requests.get(f"{API}/recordInfo", params={"taskId": tid}, timeout=30).json() or {}).get("data") or {}
         if d.get("state") == "success":
             rj = d.get("resultJson"); rj = json.loads(rj) if isinstance(rj, str) and rj else (rj or {})
-            log(job, {"request": body, "taskId": tid, "result": rj, "costTime": d.get("costTime"), "usd": usd})
+            billed = d.get("creditsConsumed")   # what Kie actually charged (1 credit = $0.005), else the list price
+            log(job, {"request": body, "taskId": tid, "result": rj, "costTime": d.get("costTime"),
+                      "usd": round(float(billed) * 0.005, 4) if billed is not None else usd,
+                      **({"credits": billed} if billed is not None else {})})
             break
         if d.get("state") == "fail":
             log(job, {"request": body, "taskId": tid, "fail": [d.get("failCode"), d.get("failMsg")], "usd": 0})
@@ -133,6 +141,15 @@ def main():
     raw.write_bytes(requests.get((rj.get("resultUrls") or [None])[0], timeout=300).content)
     out = job / "clips" / f"{a.shot}.mp4"
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(raw), "-an", "-c:v", "copy", str(out)], check=True)
+    # Kie bills a clip that ignored the image: compare the opening second with the still (an --edit is compared only
+    # when --still is given too)
+    if a.still:
+        ok, score = clip_check.report(a.still, out, aspect="9:16", seconds=None if a.edit else a.seconds)
+        log(job, {"clip_check": str(out), "still": a.still, "ok": ok, "score": score})
+    else:
+        ok = None; print(f"CLIP_CHECK_SKIPPED {out}: pass --still to compare the edit with its still")
+    if ok is False:
+        sys.exit(f"{out} saved but FAILED the clip check: look at it before anyone else does")
     print(f"OK {out} (${usd}); QC the product at 2x on several frames before it goes anywhere")
 
 

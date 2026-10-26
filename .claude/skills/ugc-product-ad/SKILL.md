@@ -83,6 +83,9 @@ lessons below are specific to making ads:
 - **Resuming from a handoff: re-check before paying.** Re-fetch the job branch, read its `kie_log.json` / clips
   folder for that step, and make sure the old session has stopped. Why: Vicks VapoShower (2026-10-01) rendered the
   same 6 clips in two sessions, $1.07 lost.
+- **Clip check on every paid clip (2026-10-26):** the runners (`omni_clip.py`, a job's `kie.py` copied from
+  `ugc/oqq-wide-leg-pants/`) compare each downloaded clip's opening second with its still (`grace/clip_check.py`,
+  calibrated on 242 real pairs) and log Kie's billed credits, which `grace/spend.py` counts instead of list prices.
 - **QC extras beyond CLAUDE.md hard rule 3:** nothing resting on thin air (a Vicks still put the box past the vanity
   edge; free fix = crop the frame to end at the object's base). Use `templates/qc-report.md`.
 - **End shot shows ONE product; the voiceover still says to grab more than one.** Why: Ralph, 2026-10-14 (Throw Hands).

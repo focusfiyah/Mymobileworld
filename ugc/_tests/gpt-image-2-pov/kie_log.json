@@ -1,0 +1,26 @@
+[
+ {
+  "t": "2026-10-26 04:08:35",
+  "submitted": "a2b0e2bf703f8ef0147044d5b1bf393d"
+ },
+ {
+  "t": "2026-10-26 04:09:13",
+  "request": {
+   "model": "gpt-image-2-text-to-image",
+   "input": {
+    "prompt": "iPhone photo, first-person point of view: I am lying in bed with my head on the pillow, turned toward a bright window on my left. My right hand holds a smartphone up beside my face, entering from the lower right edge of the frame, whole wrist visible, five fingers, thumb on the side of the phone. The phone is held at a natural angle off to one side, never straight overhead, and its screen faces the camera: sharp, evenly lit, no glare. The screen shows a clean minimal app on a white background with exactly this text and nothing else:\n- at the top, a small rounded-square app icon: a plain blue sunrise symbol, no letters in it;\n- the heading \"Day One AI\" in bold black;\n- under it, two lines in dark grey: \"Tutorial ready: 2:31\" and \"Thumbnail done\";\n- at the bottom, one small line in light grey: \"Saved as a private draft\".\nEvery word on the screen MUST be spelled exactly as written inside the quotes, crisp and readable. Foreground: a white pillow and a rumpled white duvet. Background: a tidy bedroom with white walls, a light wood nightstand and a green plant, softly out of focus behind the phone. Bright, neutral morning daylight with neutral white balance (never yellow, golden or dark), true colours. Photoreal, shot on a phone, shallow depth of field. Portrait 9:16. No other text anywhere in the image: no watermark, no captions, no logos besides the app icon described. Never show my face.",
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "a2b0e2bf703f8ef0147044d5b1bf393d",
+  "costTime": 34,
+  "credits": 10.0,
+  "usd": 0.05,
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/a2/a2b0e2bf703f8ef0147044d5b1bf393d_1792987748354.png"
+   ]
+  }
+ }
+]

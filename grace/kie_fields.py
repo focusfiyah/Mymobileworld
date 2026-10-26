@@ -19,6 +19,7 @@ DOCS = [   # docs.kie.ai pages (OpenAPI spec inside), one per model we use or ha
     "market/hailuo/2-3-image-to-video-standard", "veo3-api/generate-veo-3-video", "market/volcengine/video-to-video-lip-sync",
     "market/kling/ai-avatar-standard", "market/kling/ai-avatar-pro", "market/omnihuman-1-5", "market/omnihuman-2-0",
     "market/infinitalk/from-audio", "market/wan/2-2-a14b-speech-to-video-turbo",
+    "market/gpt/gpt-image-2-text-to-image",
 ]
 
 

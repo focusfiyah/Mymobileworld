@@ -1,5 +1,5 @@
 {
- "built": "2026-10-24",
+ "built": "2026-10-26",
  "models": {
   "nano-banana-pro": {
    "fields": [
@@ -178,6 +178,15 @@
     "shift"
    ],
    "doc": "https://docs.kie.ai/market/wan/2-2-a14b-speech-to-video-turbo.md"
+  },
+  "gpt-image-2-text-to-image": {
+   "fields": [
+    "aspect_ratio",
+    "background",
+    "prompt",
+    "resolution"
+   ],
+   "doc": "https://docs.kie.ai/market/gpt/gpt-image-2-text-to-image.md"
   }
  }
 }

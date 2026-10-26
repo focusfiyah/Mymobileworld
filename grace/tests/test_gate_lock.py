@@ -7,6 +7,7 @@ import contextlib, importlib, io, json, os, shutil, subprocess, sys, tempfile, t
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[2]
+os.environ.setdefault("SPEND_OFFLINE", "1")   # grace/billed.py: no Kie lookups for the fake task ids
 results = []
 
 
@@ -39,7 +40,7 @@ def make_repo(tmp):
     for w in ("user.name", "user.email"):
         sh(work, "git", "config", w, "test@example.com")
     (work / "grace").mkdir()
-    for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json", "prompt_check.py"):
+    for f in ("gate.py", "paid.py", "spend.py", "billed.py", "kie_fields.py", "kie_fields.json", "prompt_check.py"):
         shutil.copy(HERE / "grace" / f, work / "grace" / f)
     (work / "grace/spend.json").write_text(json.dumps({"monthly_cap_usd": 100, "caps_by_month": {time.strftime("%Y-%m"): None}, "other": []}))
     tpl = work / ".claude/skills/ugc-product-ad/templates"; tpl.mkdir(parents=True)
@@ -186,7 +187,7 @@ def main():
 
         # the copy in this repo is the one under test
         ok("tested copies match grace/", all((work / "grace" / f).read_text() == (HERE / "grace" / f).read_text()
-                                             for f in ("gate.py", "paid.py", "spend.py", "kie_fields.py", "kie_fields.json", "prompt_check.py")))
+                                             for f in ("gate.py", "paid.py", "spend.py", "billed.py", "kie_fields.py", "kie_fields.json", "prompt_check.py")))
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     failed = [n for n, c in results if not c]
