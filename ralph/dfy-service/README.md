@@ -1,6 +1,6 @@
 # Done-for-you service research (Ralph's own, 2026-10-26)
 
-Status: DONE 2026-10-26, waiting on Ralph's 3 answers (which offer first, who to sell to, will he do sales calls). $0 spent.
+Status: 2026-10-26 launch kit built (launch/), $0; waiting on Ralph's 5 decisions in launch/PLAN.md (name, transfer number + hours, after-hours callbacks, price, extras). Ralph's picks: #1 + #3 as one fixed plan; Jean's network, Freeport/Baldwin, Reddit, online; no sales calls.
 Doc: https://claude.ai/artifact/MKsDAs1BTwncytZpydrTAk ("Done-for-you service: top 3 pain points")
 
 - Ralph sent 2 TikToks (Shane Hummus via @behind.the.car: "How To Make $10K/Month on YouTube Using Claude AI With Under 1,000 Subscribers", parts 1-2) and asked for the top 3 pain points businesses will pay a done-for-you service to fix, and whether something beats done-for-you.
