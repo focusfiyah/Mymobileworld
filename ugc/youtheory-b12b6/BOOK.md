@@ -25,7 +25,7 @@ Sent to Ralph: https://claude.ai/artifact/LvrMBi3CNvBuXW4MCHv16j (2026-10-26, re
 Only change: "12" written as "twelve" so the voice and timing match. Source of each line: research/line_sources.md.
 Line 6b swapped to the box wording "promotes brain health" (Ralph: "3. Say box"). Flags, kept as written: the close is "Tap the orange cart..." instead of Grace's "It's in the orange cart."; "while they're in stock" is soft urgency.
 
-## 4. Shot list (straw in the pouch in EVERY shot, per your note)
+## 4. Shot list (S1-S4 the pouch as sold, tab on, no straw; S5-S9 tab torn, white straw in: Ralph 2026-10-26)
 | # | VO words | On screen | HAND? | Clip | Room |
 |---|---|---|---|---|---|
 | S1 | "A pouch a day keeps laziness away." | Pouch with straw on a bedside table, rumpled bed at the edge; hand comes in, grips it and lifts it toward the lens | HAND | Omni 4 s | A bedroom nightstand + snake plant |
@@ -72,6 +72,9 @@ TOTAL: $4.455
 
 ## 7b. Ralph's answers (2026-10-26: "1. None 2. Yes 3. Say box 4. Yes 5. Yes 6. Kie 7. Yes")
 1. Product details correct. 2. Script word for word. 3. Line 6b = "and B12 promotes brain health" (box wording). 4. Hand sheet with bracelet. 5. White paper straw in the torn-open top. 6. Stills redo on Kie ($0.81); clips on Kie too (his earlier "You can also create the stills and shots"). 7. No on-screen text.
+
+## 7c. Storyboard round 2 (Ralph 2026-10-26: "Keep S5, s6 the whole top is off, no good. You can redo the others as well including s6 unless you can fix. You don't need a straw in every shot. No straw needed in the beginning at least you need to showcase the pouch as is somewhere.")
+S5 and S8 kept (S8 spine text blurred free). Redo on Kie: S3, S4, S6, S7, S9 (5 x $0.09 = $0.45, his OK); S1 + S2 redo to show the pouch as sold (2 x $0.09 = $0.18, asked). S1-S4 unopened, tab on, no straw (S3's shake = shake well before opening); S5 = the moment it is opened (half-torn tab); S6-S9 straw in, neck and shoulders whole.
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Every still prompt: prompts/still_S1..S9.txt; every Omni clip prompt: prompts/S1..S9.txt; refs per shot: prompts/refs.json. All pass grace/prompt_check.py lint.

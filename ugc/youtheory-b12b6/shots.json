@@ -3,13 +3,14 @@
  "blocks": {
   "size_first": "SIZE FIRST: the pouch is a small single-serve 1 fl oz (30 mL) pouch, about 6.5 cm wide and 15 cm tall including its flat tear-off tab: a little shorter than an adult hand from wrist crease to fingertip, about one and a half times as tall as a coffee mug, never bigger than the hand holding it. It is flat and thin like a juice pouch, never a bottle, never a box.",
   "pouch_block": "The product is the REAL Youtheory B12B6 Liquid pouch in the reference images: a FLAT soft glossy WHITE foil pouch, thin like an envelope: straight vertical sides, a straight flat bottom edge with no gusset, and square shoulders that step in to a short straight neck a little under half the pouch's width, with fine crinkled seal edges all round. It is not a stand-up pouch and has no spout. Front print, top to bottom, exactly as the close-ups: a small dark grey round 'youtheory' leaf mark with a tiny orange leaf inside and the word 'youtheory' in thin dark grey lowercase; a large circle made of round dots in shades of magenta and deep raspberry pink; 'B12B6' in large magenta letters in a THIN, elegant, high-contrast SERIF typeface like Didot or Bodoni (hairline serifs, thin strokes, NEVER bold, NEVER sans-serif), the '12' and '6' smaller than the capital 'B's, exactly as image 3; 'liquid' in large grey lowercase in the same thin serif directly below it; nothing to the right of 'B12B6'; two thin grey lines around 'promotes brain health*' in grey italic; 'helps support energy production*' in grey italic; a magenta rounded bar with white bold text 'raspberry flavor'; '1 fl oz (30 ml)' at the left and 'dietary supplement' in grey italic at the right; a small boxed disclaimer at the bottom. The print matches the references letter for letter and colour for colour, stays flat on the pouch and inside its edges; no other marks, no extra text, no added symbols.",
-  "straw_block": "STRAW, every frame: the pouch has a flat magenta TEAR-OFF top (no screw cap, no spout, no nozzle, no lid). That tab has been torn off straight across the neck, so the top of the white neck is a plain flat torn foil edge with a thin magenta strip, and ONE plain white paper straw stands upright in that torn opening, about 10 cm above the pouch, straight and unbent. The torn-off tab is not in the frame. The reference images show the tab still on; in this frame it is torn off. The straw is always there and never moves out of the pouch.",
+  "straw_block": "STRAW: the pouch has a flat magenta TEAR-OFF tab (no screw cap, no spout, no nozzle). Only that small flat tab above the neck has been torn off; the neck and the square shoulders stay whole, exactly like image 4, with a thin magenta strip left along the torn top edge, and ONE plain white paper straw stands upright in that opening, about 10 cm above the pouch, straight and unbent. The torn-off tab is not in the frame. The reference sheet shows the tab still on; in this frame it is torn off. The straw never moves out of the pouch.",
   "box_block": "The carton is the REAL Youtheory display box in images 5 and 6, matching them letter for letter and colour for colour: a white carton about as tall as the pouches, whose front panel is torn away along a diagonal perforated line (high at the right, low at the left), so the white pouches with flat magenta tear-off tabs show above the tear. Below the tear the front reads, exactly as image 6: 'B6' in large magenta serif (the 'B12' was torn away with the top), 'liquid' in grey serif lowercase beneath it, then three lines each starting with a small magenta plus sign: 'great tasting & ready to drink', 'promotes brain health*', '1,000 mcg of B12 per serving' with '1,000 mcg' in magenta and the rest grey; a splash of pale pink liquid with red raspberries at the lower left; four small grey round icons in a row; a deep raspberry band along the bottom edge with small white text, 'dietary supplement' at the right.",
   "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a FLAT gold bracelet of rectangular links like a watch band (NO watch face) and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a thin gold solitaire ring and a blue silicone band. Whole wrist visible, a little forearm may show. Fingers GRIP the pouch body below the shoulders (thumb on the front edge, fingers curled behind) and never cover the B12B6 wordmark; nothing rests loose on the palm. Five fingers, natural knuckles and skin texture.",
   "no_hand": "No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge.",
   "scene_suffix": "Vertical 9:16 phone photo, soft bright natural daylight from a window, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the pouch, realistic textures. The room matches the room reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Youtheory print. No text, no captions, no watermark, no phone UI.",
   "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{hand} and the white paper straw standing in the pouch exactly. Image 2 is the real logo and magenta dot circle, image 3 the real 'B12B6 liquid' wordmark, claim lines and 'raspberry flavor' bar: they stay on the pouch the whole clip and match images 2 and 3 letter for letter and colour for colour. Image 4 is the product sheet: keep this exact pouch shape, small size and colours, no added marks, no extra text. The straw stays upright in the torn-open top of the pouch in every frame; the pouch has a flat tear-off top, no screw cap and no spout.",
-  "omni_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text."
+  "omni_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and foil. No music, no voice, no captions, no on-screen text.",
+  "intact_block": "AS SOLD, unopened: the flat magenta tear-off tab is still on top of the neck, exactly as in image 1 (A) and the real photo: a flat magenta rectangle with slightly rounded corners and a soft darker magenta shape in its centre, as wide as the neck. No straw anywhere, no screw cap, no spout."
  },
  "videos": [
   {
@@ -28,7 +29,8 @@
      "t": [
       0.0,
       1.94
-     ]
+     ],
+     "straw": false
     },
     {
      "id": "S2",
@@ -43,7 +45,8 @@
      "t": [
       1.94,
       4.23
-     ]
+     ],
+     "straw": false
     },
     {
      "id": "S3",
@@ -58,7 +61,8 @@
      "t": [
       4.23,
       5.85
-     ]
+     ],
+     "straw": false
     },
     {
      "id": "S4",
@@ -73,7 +77,8 @@
      "t": [
       5.85,
       7.5
-     ]
+     ],
+     "straw": false
     },
     {
      "id": "S5",
@@ -88,7 +93,8 @@
      "t": [
       7.5,
       9.77
-     ]
+     ],
+     "straw": true
     },
     {
      "id": "S6",
@@ -104,7 +110,8 @@
      "t": [
       9.77,
       12.2
-     ]
+     ],
+     "straw": true
     },
     {
      "id": "S7",
@@ -119,7 +126,8 @@
      "t": [
       12.2,
       14.94
-     ]
+     ],
+     "straw": true
     },
     {
      "id": "S8",
@@ -134,7 +142,8 @@
      "t": [
       14.94,
       16.65
-     ]
+     ],
+     "straw": true
     },
     {
      "id": "S9",
@@ -149,7 +158,8 @@
      "t": [
       16.65,
       19.14
-     ]
+     ],
+     "straw": true
     }
    ]
   }
