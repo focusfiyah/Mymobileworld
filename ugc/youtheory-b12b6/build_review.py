@@ -15,10 +15,11 @@ STORY = [("S1","PASS","As sold, tab on, no straw. Her fingers wrap the edge; tin
  ("S4","PASS","As sold next to the raspberries."),
  ("S5","KEPT","Your pick: the moment it is opened, half-torn tab."),
  ("S6","PASS","Redone with S5 as the top reference: neck whole, half-torn tab like S5, box of pouches at the left. Tiny '30 ml' reads '50 ml' (not readable on a phone)."),
- ("S7","PASS","Close on the bench, neck and shoulders whole, readable."),
+ ("S7","FIX?","Redone at true scale: pouch a third of the tote, resting on the cushion. At this size the magenta flavor bar came out as plain text and the claim lines are garbled."),
  ("S8","KEPT","Spine text blurred free."),
- ("S9","FIX?","As sold, tab on, serif print right. The two small claim lines under liquid are gibberish (it is the close end shot, so they can be read).")]
-story = "".join(f"""<figure class="st"><img src="st/{i}_{'r5' if i=='S9' else ('r4' if i=='S6' else 'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
+ ("S9","PASS","As sold, held to the lens. The two claim lines replaced free with the real lines (your A), drawn as ink on its own foil.")]
+VER = {"S9": "r6", "S6": "r4", "S7": "r8"}
+story = "".join(f"""<figure class="st"><img src="st/{i}_{VER.get(i,'r3')}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
 page = f"""<title>B12B6 Pouch Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Work+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -51,10 +52,18 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
-<section class="ask"><strong>Last two decisions</strong><ol>
-<li>S9's two claim lines: (a) <b>free</b>, paste the two real lines ("promotes brain health*", "helps support energy production*") from the real pouch photo over them (a pasted label, so your OK for this shot), (b) redo $0.09, or (c) let it go.</li>
-<li>Start the clips: S6 first as the test clip on Kie (Omni, 4 s, <b>$0.315</b>), then the other 8 after you see it (8 x $0.315 = $2.52). Job so far $2.52 of $4.455; October $169.73.</li></ol></section>
-<section class="box"><h2>Storyboard, round 4 (S1-S4 as sold, straw from S5)</h2><div class="stgrid">{story}</div></section>
+<section class="ask"><strong>Cut v1 ready for your review (19.8 s)</strong><ol>
+<li>Watch it below (sound on). Grace's voice, your script with the box wording on line 6, no text, AI finish on.</li>
+<li>S7's lower print and S9's claim lines are the real print, drawn on (your OK); S7's is tracked through its camera push.</li>
+<li>Spent: Kie $4.49 of $4.49 allowed (8 Seedance clips $1.31 incl. S7, stills and redos); October $171.70. ElevenLabs ~780 chars (2 voice renders).</li>
+<li>On your OK: Drive folder "Youtheory B12B6 (Grace)" with CURRENT video + script and caption doc, then merge.</li></ol></section>
+<section class="box"><h2>Cut v1</h2><video src="cut_v1.mp4" controls playsinline style="width:100%;max-width:400px;border-radius:8px"></video>
+<p class="sub">Checks: 1080x1920, -16.4 LUFS, no freeze or black frames, voice echo 150 ms, cut gate OK (compare vs @jenniferdaniel859: ours 3.6 words/s, voice at 0.0 s). Caption: raspberry B12 and B6 in a little pouch, one a day straight from the pouch 🍓 twelve in a box</p></section>
+<section class="box"><h2>Clips (Seedance from each exact still)</h2><div class="grid"><figure><video src="S1_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S1</figcaption></figure><figure><video src="S2_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S2</figcaption></figure><figure><video src="S3_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S3</figcaption></figure><figure><video src="S4_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S4</figcaption></figure><figure><video src="S5_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S5</figcaption></figure><figure><video src="S8_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S8</figcaption></figure><figure><video src="S9_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S9</figcaption></figure></div></section>
+<section class="box"><h2>S6 test clip (Seedance from the exact still)</h2><video src="S6_seedance.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video></section>
+<section class="box"><h2>S6 test clip (Omni): rejected</h2><video src="S6_omni_fail.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video>
+<p class="sub">From frame 0 Omni swapped Grace's real display box for an invented juice carton with gibberish print, and the pouch print smears mid-clip. The torn tab and straw held.</p></section>
+<section class="box"><h2>Storyboard, final (S1-S4 as sold, straw S5-S8, S9 as sold)</h2><div class="stgrid">{story}</div></section>
 <details class="box"><summary><b>Plan you approved</b> (answers: 1 none, 2 yes, 3 say box, 4 yes, 5 yes, 6 Kie, 7 yes)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
 <li>Check the <b>real product details</b> below (top, shape, print, box). Anything wrong?</li>

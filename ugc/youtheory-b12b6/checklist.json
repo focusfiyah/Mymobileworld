@@ -68,8 +68,10 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
-  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/compare/compare.md"
+  ]
  },
  "job": "youtheory-b12b6",
  "client": "Grace",
@@ -107,6 +109,16 @@
    "total": 4.455,
    "sha256": "fefb40b976b5cdbf2f2e8ba8e5e919a9b67bda6f08a07b0b7332b4008f113323",
    "spent_at_approval": 1.62
+  }
+ ],
+ "budget_extra": [
+  {
+   "usd": 0.03,
+   "what": "8 Seedance clips end the job $0.03 over the book",
+   "by": "Ralph",
+   "quote": "Ok on seedance (Ralph 2026-10-26, 8 clips on Seedance first-frame, $1.31)",
+   "date": "2026-10-26",
+   "book_sha256": "756f673899b84875ec68f4ed50e1e7c177b3cf733e0048f09c4c6e5e3b1a98a5"
   }
  ]
 }
