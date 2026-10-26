@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 56 of 90 videos posted since 2026-08-27
+56 videos -> research/coach/tag-fallbedding.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  5,800,000   0.8   0.15   22 2026-10-05  @alexhigdon_: the SOFTEST & cuddliest bedding I’ve ever owned 😴 #bedsure #cozybeddin
+                                          https://www.tiktok.com/@alexhigdon_/video/7692993357932514574
+  5,200,000   0.6   0.14   17 2026-09-03  @the.littlebird: Cozy season is officially here 🍂 Reply FALL BEDDING to shop this look!
+                                          https://www.tiktok.com/@the.littlebird/video/7681414423751331086
+  4,900,000   0.7   0.13   17 2026-09-13  @alexhigdon_: FINALLY!!! Has been sold out for soooo long!! #fallbedding #cozybeddin
+                                          https://www.tiktok.com/@alexhigdon_/video/7685165963335027982
+  4,000,000   0.4   0.09    8 2026-10-02  @shop.lex.finds: The perfect moody green I’m obsessssed ✨ 🌲 #bedding #comforterset #bed
+                                          https://www.tiktok.com/@shop.lex.finds/video/7692152270724549919
+  3,100,000  11.9    2.1   25 2026-09-01  @lauri__b: The perfect cozy bedding combo 🍂🧸☕️| Links in my bio Amazon Storefront
+                                          https://www.tiktok.com/@lauri__b/video/7680555027739446541
+  1,700,000   0.8   0.15   18 2026-10-10  @alexhigdon_: brown cozy bedding for fall>>> #fallbedding #cozybedding 
+                                          https://www.tiktok.com/@alexhigdon_/video/7695052892251639054
+    484,800   1.5   0.31   45 2026-09-22  @barb_320: “Warm autumn color,cozy and a farmhouse feel 🤎I’m obsessed with this c
+                                          https://www.tiktok.com/@barb_320/video/7688402763964763405
+    436,000   7.2   1.26   28 2026-09-14  @homewithfey: Cozy fall bedding 🤎🍂 There’s just something about a cozy bedroom this 
+                                          https://www.tiktok.com/@homewithfey/video/7685399936304696590
+    327,000   0.4   0.12    9 2026-09-22  @myfamilyapproved: Because sometimes you just need the world to be quiet and your bed to 
+                                          https://www.tiktok.com/@myfamilyapproved/video/7688329561494342925
+    239,600  15.6    3.7   67 2026-09-06  @kayymrose: The perfect fall bedding recipe all using Amazon finds🍂🧸🕯️🎃 #fluffybed
+                                          https://www.tiktok.com/@kayymrose/video/7682446190960446734
+    193,500   1.2    0.2   23 2026-10-21  @alexhigdon_: cozy fall bedding >>> #cozybedding #fallbedding 
+                                          https://www.tiktok.com/@alexhigdon_/video/7698940107641916685
+    176,900  10.4   2.29   32 2026-08-27  @___claudiafernandez___: Never “ too early for fall bedding “🍂 #bedding #duvetset #homedecor #b
+                                          https://www.tiktok.com/@___claudiafernandez___/video/7677584755197480223
+    152,300   7.3   0.63   10 2026-10-11  @fizzingwhizzbie: clipmaxxing yet again lemme clean my room rq #bedroom #cozy #roomtour 
+                                          https://www.tiktok.com/@fizzingwhizzbie/video/7695535503726136590
+    141,200   1.7   0.46   30 2026-09-10  @dailywithcallie: #7piececomforterset #chocolatebrownbedding #fallbedding #beddinginspo 
+                                          https://www.tiktok.com/@dailywithcallie/video/7683964691449679117
+    136,100   7.4   0.65   16 2026-09-12  @annaschottin: cozy season is finally here 
+                                          https://www.tiktok.com/@annaschottin/video/7684466488203398431

@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 47 of 88 videos posted since 2026-08-27
+47 videos -> research/coach/tag-beddingset.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  5,800,000   0.8   0.15   22 2026-10-05  @alexhigdon_: the SOFTEST & cuddliest bedding I’ve ever owned 😴 #bedsure #cozybeddin
+                                          https://www.tiktok.com/@alexhigdon_/video/7692993357932514574
+  5,200,000   0.6   0.14   17 2026-09-03  @the.littlebird: Cozy season is officially here 🍂 Reply FALL BEDDING to shop this look!
+                                          https://www.tiktok.com/@the.littlebird/video/7681414423751331086
+  3,300,000   1.1   0.19    6 2026-10-16  @samanthakayde: wait they finally dropped the black checkered comforter bedding set!! 
+                                          https://www.tiktok.com/@samanthakayde/video/7697248894794599694
+  3,100,000  11.9    2.1   25 2026-09-01  @lauri__b: The perfect cozy bedding combo 🍂🧸☕️| Links in my bio Amazon Storefront
+                                          https://www.tiktok.com/@lauri__b/video/7680555027739446541
+  2,200,000   1.1   0.19   15 2026-09-06  @mina.ledean: genius design for all seasons 🍂🌸⛈️☀️ suuuch a steal @Bedsure US Local 
+                                          https://www.tiktok.com/@mina.ledean/video/7682493128208567583
+  1,600,000   0.7   0.18    7 2026-09-24  @myfamilyapproved: The cozy upgrade your bedroom was missing 🤍 The Bedsure Boho Arch Tuft
+                                          https://www.tiktok.com/@myfamilyapproved/video/7689140376694836494
+    674,700   1.5   0.37   15 2026-10-18  @cosybayhome: I redecorated my whole room for under $100 and this is the star. Cosyb
+                                          https://www.tiktok.com/@cosybayhome/video/7698010337974422798
+    596,700   0.8   0.16   14 2026-10-05  @monbixhome: literally the hack when you want a cozy, put-together bed without figu
+                                          https://www.tiktok.com/@monbixhome/video/7693022210973355278
+    544,800  18.2   1.09    6 2026-09-04  @caitapps: Do you have a favourite? 💘💘 #homedecor #colourfulhome #bedding #beddin
+                                          https://www.tiktok.com/@caitapps/video/7681808536208149781
+    502,800   0.9   0.25   16 2026-09-09  @beddream_official: This set is HUGE and so soft! Your bed will look like a luxury hotel f
+                                          https://www.tiktok.com/@beddream_official/video/7683323548919680269
+    484,700   1.5   0.31   45 2026-09-22  @barb_320: “Warm autumn color,cozy and a farmhouse feel 🤎I’m obsessed with this c
+                                          https://www.tiktok.com/@barb_320/video/7688402763964763405
+    424,000  22.3   1.55    7 2026-10-07  @sleepoversheets: How our sheets feel: 🐰✨💕🧺 #beddingset #bedroomdecor #cute #cottonbeddi
+                                          https://www.tiktok.com/@sleepoversheets/video/7694075353417010445
+    410,400  20.7   2.36   15 2026-09-06  @jessfinds444you: @Juicy Couture leopard bed sets at @Ross for $54.99 🐆💗 i was so tempte
+                                          https://www.tiktok.com/@jessfinds444you/video/7682251011930524959
+    399,000  26.9   2.77    5 2026-10-23  @heyavarae: I’m in love #simplyshabbychic #shabbychic #viral #loveshackfancy 
+                                          https://www.tiktok.com/@heyavarae/video/7700011860371852557
+    383,700  22.1   2.34    9 2026-09-05  @yeseniasfinds: ​Run, to Ross! 🏃💨 They just stocked these insane Ed Hardy 4-piece luxe
+                                          https://www.tiktok.com/@yeseniasfinds/video/7681863737388600606
