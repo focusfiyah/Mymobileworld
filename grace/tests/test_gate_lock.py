@@ -90,6 +90,10 @@ def main():
         fill_book(job, "0.70")
         e, m = exits(gate.require, job); ok("filled but unapproved book refused", e and "not approved" in m, m)
         e, m = exits(gate.approve_extra, job, 0.1, "yes", "x"); ok("extra refused before the book is approved", e, m)
+        import re as _re
+        bt = _re.sub(r"(?mi)^Sent to Ralph:.*\n?", "", (job / "BOOK.md").read_text()); (job / "BOOK.md").write_text(bt)
+        e, m = exits(gate.approve_book, job, "go ahead"); ok("approve-book refused before the plan was sent to Ralph", e and "Sent to Ralph" in m, m)
+        (job / "BOOK.md").write_text(bt + "\nSent to Ralph: https://claude.ai/artifact/test (2026-10-26)\n")
         e, m = exits(gate.approve_book, job, "Approved, go"); ok("approve-book records Ralph's OK", not e, m)
         c = json.loads((job / "checklist.json").read_text())["book_ok"]
         ok("approval stores total + text hash + quote", c["total"] == 0.70 and len(c["sha256"]) == 64 and c["quote"] == "Approved, go", str(c))

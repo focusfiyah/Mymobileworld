@@ -11,3 +11,4 @@
 - 2026-10-24 (Ralph: "yes add it to prompt-master", after the Vans V12 redos): Ralph's stack: say who wears and holds what (pairs, feet, real photo of the exact side) in the first prompt; fresh still instead of an edit when the product is wrong; nano-banana-pro max 8 refs.
 - 2026-10-25: Ralph uploaded the 2026-10-24 zip to claude.ai.
 - 2026-10-25: Ralph's stack: read every prompt end to end against its shot before it runs (framing and toe direction first, per-shot refs, image numbers); paid Kie calls refused until marked checked. Why: OQQ pants, 5 of 14 stills wrong from prompt conflicts; Ralph: "Make it a standard to double check your prompts".
+- 2026-10-26: real product photos are the truth (B12B6 spout stills).

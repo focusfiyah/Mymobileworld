@@ -5,6 +5,8 @@ field. Delete none. "n/a" needs a reason. His OK is recorded with `--approve-boo
 before it, editing this file afterwards needs a new OK, and spend can never pass the TOTAL below plus extras he OKs
 later (`--approve-extra`). Show `python3 grace/spend.py` (month so far) beside the total.
 
+Sent to Ralph: ____ (review page link + date; `--approve-book` refuses without it, Ralph 2026-10-26)
+
 ## 1. Job
 - Client / own content: ____  Product: ____  Route: ____ (reference file)
 - Job folder: `ugc/<job>/`  Target length: ___ s  Shots: ___

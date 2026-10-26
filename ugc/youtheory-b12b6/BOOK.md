@@ -1,5 +1,7 @@
 # Production Book: Youtheory B12B6 Liquid (Grace), 2026-10-26
 
+Sent to Ralph: https://claude.ai/artifact/LvrMBi3CNvBuXW4MCHv16j (2026-10-26, review page v1)
+
 ## 1. Job
 - Client: Grace  Product: Youtheory B12B6 Liquid, raspberry, 12 x 1 fl oz pouches  Route: hands-only AI + product lock (`.claude/skills/ugc-product-ad/references/product-lock.md`), template `ugc/youtheory-collagen/`
 - Job folder: `ugc/youtheory-b12b6/`  Target length: ~23-25 s (68 words at Grace's ~3 words/s)  Shots: 9 (5 HAND / 4 HAND-FREE)
