@@ -1,0 +1,76 @@
+  #tiktokshopbeauty: 58 videos
+  #tiktokshopskincare: 59 videos
+  #tiktokshopmakeup: 59 videos
+  #tiktokshopfinds: 59 videos
+  #vitaminb12: 59 videos
+  #b12: 0 videos
+  #supplements: 58 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+335 videos scanned, 32 shop videos posted in the last 3.0 day(s) -> ugc/youtheory-b12b6/research/viral/viral-2026-10-26.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      2.6M    816K  0.3d  0.03  BASED Multi-Active Skin Elixir | Renews, Brightens, Smo [Beauty & Personal Care]
+                                  @based: BASED Skin Elixir is now available on Tik Tok Shop! #BASED
+                                  https://www.tiktok.com/@based/video/7700389727479893261
+  2      397K    999K  2.5d  0.06  tarte colored clay CC undereye corrector [Beauty & Personal Care]
+                                  @morganliving: Why is espresso shot for your dark circles so accurate💀 @tar
+                                  https://www.tiktok.com/@morganliving/video/7699864461787630862
+  3      170K     56K  0.3d  0.47  HOOMIC 73-Inch Fan-Shaped Corner Cat Tree, Space-Saving [Pet Supplies]
+                                  @leekirra: Best TikTok shop find of the year 😜 #fyp 
+                                  https://www.tiktok.com/@leekirra/video/7700677036762860813
+  4       16K     43K  2.7d  0.03  Blackhead Remover Pore Vacuum USB Rechargeable Blackhea [Beauty & Personal Care]
+                                  @mafiababy305: #skincare #piel #tiktokshop 
+                                  https://www.tiktok.com/@mafiababy305/video/7699780429154356494
+  5      5.3K    1.3K  0.3d  0.82  WTVANE Spiky Lash Clusters Fluff Manga Lash Clusters wi [Beauty & Personal Care]
+                                  @avaaaisabelaaa: lash day w/ @Wtvane lashes🩷 #lashes #beauty #fyp #fypシ゚viral
+                                  https://www.tiktok.com/@avaaaisabelaaa/video/7700704383331355934
+  6      4.8K    4.0K  0.8d  0.05  CARSLAN Black Magnet Oil Blotting Setting Sheet With Po [Beauty & Personal Care]
+                                  @misunderstood214_: saves my makeup every time #makeuphacks #tiktokshop #tiktokf
+                                  https://www.tiktok.com/@misunderstood214_/video/7700491379977358623
+  7      2.9K    4.4K  1.5d  0.96  (product not in TikTok's data)
+                                  @mia.crtr07: perf set for autumn and it’s cheap on sale rn xx #tiktokshop
+                                  https://www.tiktok.com/@mia.crtr07/video/7700232042432285974
+  8      1.9K    3.9K  2.1d  0.46  NEW! ColourPop Colour Me Merry Advent Calendar 2026 [Beauty & Personal Care]
+                                  @kellyrosesarno: @ColourPop Cosmetics Advent Calendar #TikTokShopCreatorPicks
+                                  https://www.tiktok.com/@kellyrosesarno/video/7699797593177541902
+  9      1.7K     530  0.3d  0.57  ASWULK Women's Cropped Jacket Zip Up Lightweight Oversi [Womenswear & Underwear]
+                                  @hernamesmariah: TikTok Shop Beauty Haul💗💄 #tiktokshop #tiktokshopblackfriday
+                                  https://www.tiktok.com/@hernamesmariah/video/7700684762184289567
+ 10      1.0K    2.1K  2.0d  0.47  [cocokind] Best Sellers Kit - Limited Edition | 3-Piece [Beauty & Personal Care]
+                                  @baddieaesthetic08: Cocokind best sellers set✨ #cocokind #bestsellers #viralskin
+                                  https://www.tiktok.com/@baddieaesthetic08/video/7700052710426430750
+ 11       864     807  0.9d  0.37  CHASIN' RABBITS Freeze Tag Ice Roller 1.69 fl.oz, Cold  [Beauty & Personal Care]
+                                  @eshalkhanb: A closer look at this K beauty skincare find 💜✨ @체이싱래빗 @chas
+                                  https://www.tiktok.com/@eshalkhanb/video/7700452295963577614
+ 12       852     213  0.1d  0.47  Emotional Support Soft Pillow, 20"x20" Self-Care Cuddle [Textiles & Soft Furnishings]
+                                  @thesidneyjewel: Amazing finds this week #beauty #beautyfinds #beautytok #tik
+                                  https://www.tiktok.com/@thesidneyjewel/video/7700754923742383390
+ 13       769     515  0.7d  0.78  (product not in TikTok's data)
+                                  @sheena.tiktok76: Ageing is inevitable. Looking after your skin is a choice! ✨
+                                  https://www.tiktok.com/@sheena.tiktok76/video/7700528875478043926
+ 14       675    1.6K  2.4d  0.18  Mini Brands Mini Brands Ulta Beauty Capsule Series 2 [Home Supplies]
+                                  @kellyrosesarno: @Ulta Beauty x @minibrands #TikTokShopCreatorPicks #TikTokSh
+                                  https://www.tiktok.com/@kellyrosesarno/video/7699795798975892750
+ 15       607     320  0.5d  0.94  Stainless Steel Mixing Bowl Set, 15pcs/set Including 6  [Kitchenware]
+                                  @spiceitupwithnae: This is one of my favorite home finds from TikTok Shop! Y’al
+                                  https://www.tiktok.com/@spiceitupwithnae/video/7700603453164227854
+ 16       542    1.2K  2.1d  0.35  Fenty Beauty TikTok Shop Early Access Exclusive Red Lip [Beauty & Personal Care]
+                                  @aestheticaleestyles: @Fenty Beauty Exclusive Tiktok Shop early access ! #redlips 
+                                  https://www.tiktok.com/@aestheticaleestyles/video/7700007108162440479
+ 17       528     132  0.1d     0  Leopard Print Satin Sleep Cap with Cute Bow and Bear Ea [Fashion Accessories]
+                                  @kizzyperuso: #tiktokshopcreatorpicks #bfcm #tiktokshopdealsforyou #blackf
+                                  https://www.tiktok.com/@kizzyperuso/video/7700728511534976287
+ 18       504     934  1.9d  0.21  Beginner 10-Piece Synthetic Makeup Brushes Set with Sto [Beauty & Personal Care]
+                                  @888lureynalemondrop: #MakeupBrushes #BeautyFinds #TikTokShopFinds #MakeupEssentia
+                                  https://www.tiktok.com/@888lureynalemondrop/video/7700111064914021646
+ 19       436     109  0.0d     0  (product not in TikTok's data)
+                                  @gudiyausa1: Your reminder to keep skincare SIMPLE! 💚✨ Meet your new skin
+                                  https://www.tiktok.com/@gudiyausa1/video/7700784372537986334
+ 20       383     336  0.9d     0  Peri Meno Bundle, Wild Yam, Cooling Spray, Magnesium Sl [Beauty & Personal Care]
+                                  @cindylofficial: #tiktokshopblackfriday #calmingskincare #soothingskincare #r
+                                  https://www.tiktok.com/@cindylofficial/video/7700473386262105375

@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 28 of 85 videos posted since 2026-09-26
+28 videos -> ugc/youtheory-b12b6/research/tag/tag-energysupplement.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+     95,000   5.1   1.55   52 2026-10-11  @garrie.buttar: Supplements you need. #supplements #vitamind3 #omega3 #magnesium #mult
+                                          https://www.tiktok.com/@garrie.buttar/video/7695535490467941653
+     42,900   6.1   2.12   42 2026-10-20  @therealchadcampbell: TOP 4 supplements that every dude should take‼️💪🏻 DM me "HEALTH" to bo
+                                          https://www.tiktok.com/@therealchadcampbell/video/7698802632193789198
+     33,800  10.1   2.24   54 2026-10-16  @whatsuppwithlucas: GNC’s $1 Drink Days are officially confirmed 👀 Here’s the cheat sheet 
+                                          https://www.tiktok.com/@whatsuppwithlucas/video/7697389052235975966
+     10,200  21.7   0.59   13 2026-10-08  @itstyla24: 3 AM check-in… how we holding up? 👀#nightshift #3am #fyp 
+                                          https://www.tiktok.com/@itstyla24/video/7694192804016295199
+      8,462  10.7   1.18   30 2026-10-20  @viral.hoomau: 🚨 BEFORE YOU BUY MAGNESIUM GLYCINATE… WATCH THIS! 👀💊🔥 💥 NOT ALL MAGNES
+                                          https://www.tiktok.com/@viral.hoomau/video/7698872844561681695
+      7,572   7.7   2.77   43 2026-10-06  @thewellnesspharm: told by a pharmacist! supplements I genuinely feel a difference from &
+                                          https://www.tiktok.com/@thewellnesspharm/video/7693391335482576158
+      3,184   2.1   0.31    7 2026-10-18  @frankradosta: @Steel Supplements | 10% OFF – Code FAMILYTIME 💪 A little extra energy
+                                          https://www.tiktok.com/@frankradosta/video/7698106618428312845
+      2,602   3.0   0.08   25 2026-10-20  @heathermoraski: Mobility before my runs is super important, but so is making sure I ge
+                                          https://www.tiktok.com/@heathermoraski/video/7698694586121686303
+      1,604   2.0   0.31   22 2026-10-20  @weareblow: Drop your energy drinks and pick up the all day energy booster that fi
+                                          https://www.tiktok.com/@weareblow/video/7698547022034455822
+      1,388   7.5   3.46  181 2026-09-29  @drtoddstrong: CHRONIC FATIGUE 5 SUPPLEMENTS #gut #leakygut #guthealth #bloating #fat
+                                          https://www.tiktok.com/@drtoddstrong/video/7691019880325303566
+      1,202   1.1   0.25   29 2026-10-15  @bfdbsdfv4: Struggling with the 2 PM afternoon slump? 😴⚡ #nmn #dailysupplement #lo
+                                          https://www.tiktok.com/@bfdbsdfv4/video/7696488562237263118
+      1,091   3.5   0.18   33 2026-10-16  @moreniiiitaa_: ✨ It’s been a MINUTE since I tried a new energy powder 👀⚡️Let’s see wh
+                                          https://www.tiktok.com/@moreniiiitaa_/video/7697368750504299806
+        944   2.0   0.21   15 2026-10-25  @wwwcandy81: Respuesta a @yolanda..190 #tiktokshop #vitamins #supplement #neurobion
+                                          https://www.tiktok.com/@wwwcandy81/video/7698079177102101791
+        813   1.1      0   21 2026-10-19  @sadexnicole333: Finding ways to get my daily essentials in all at once. IM8 comes in m
+                                          https://www.tiktok.com/@sadexnicole333/video/7698507921243622687
+        808   1.2   0.37   54 2026-10-22  @suzisfinds: #supplementsthatwork #bfcm #energy #nad #giftideas 
+                                          https://www.tiktok.com/@suzisfinds/video/7699303139341503775

@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 51 of 111 videos posted since 2026-08-27
+51 videos -> ugc/youtheory-b12b6/research/tag/tag-youtheory.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  3,600,000  19.2   1.06   28 2026-10-22  @manualofreality: What crazy theories you're sharing? #learnontiktok #explained #psychol
+                                          https://www.tiktok.com/@manualofreality/video/7699620608623004950
+  3,600,000  17.3   1.03    5 2026-10-12  @sophiabentleyy: #relatable #repost #fyp
+                                          https://www.tiktok.com/@sophiabentleyy/video/7695825776138128654
+  2,600,000  25.2   2.75   18 2026-10-06  @vextr1: i'm the one #joegoldberg #youshow #fyp #edit
+                                          https://www.tiktok.com/@vextr1/video/7693548094348135700
+  2,400,000  29.6   1.75   16 2026-10-14  @younetflixs: If only they lasted…😕 #joegoldberg #lovequinn #lovers #younetflix #cre
+                                          https://www.tiktok.com/@younetflixs/video/7696418603872079107
+  1,700,000   9.2   0.88    7 2026-10-19  @jacobbishop13: #dreamcore #missing #creepy #conspiracy #scary
+                                          https://www.tiktok.com/@jacobbishop13/video/7698465042936712478
+  1,400,000  20.4   2.11   22 2026-09-19  @theperksofbeingreal: hey i dont wanna sound like a stalker | #joegoldberg #corecore #mecore
+                                          https://www.tiktok.com/@theperksofbeingreal/video/7687282622778690838
+    691,900   9.3   0.82   12 2026-10-25  @jacobbishop13: #dreamcore #conspiracy #theroy #scary #comment 
+                                          https://www.tiktok.com/@jacobbishop13/video/7700423164735589663
+    243,000  13.9   1.05   61 2026-10-18  @oscars: John Carpenter tells Reece Feldman that your THE THING theories are wr
+                                          https://www.tiktok.com/@oscars/video/7697814130949885215
+    226,400  21.5   2.87   22 2026-10-05  @azyntj0: love quinn superior. | #joegoldberg #joegoldbergedit #lovequinn #you #
+                                          https://www.tiktok.com/@azyntj0/video/7693018207019339026
+    193,900  27.8    3.7   28 2026-10-14  @nolan.1btx: poor paco #joegoldberg #you #edit #viral #corecore 
+                                          https://www.tiktok.com/@nolan.1btx/video/7696633016969366817
+    166,200  20.3   1.77    6 2026-10-16  @zaywayyz: The one that got away❤️ #foryoupage #xyzbca #viral #theonethatgotaway 
+                                          https://www.tiktok.com/@zaywayyz/video/7697131325853043981
+    139,800  33.3   6.21   16 2026-09-15  @p4rfaitsorb3t: had a lil typo so reupload. if someone else said this already I'm gonn
+                                          https://www.tiktok.com/@p4rfaitsorb3t/video/7685659786406333717
+    116,000   7.7   0.94   67 2026-10-22  @thereelspotbobbyfoster: FROM Ending Theory Explained: We all know that FROM likes to plant clu
+                                          https://www.tiktok.com/@thereelspotbobbyfoster/video/7699637388569545998
+    101,800  25.5   7.34  123 2026-09-18  @jason_swet: Is “taste” really an advantage if you can’t articulate it?
+                                          https://www.tiktok.com/@jason_swet/video/7686923992581623054
+     88,600  16.3   1.84   60 2026-10-17  @elliesworldspam: Which one are you? #matrix #conspiracy #simulation #conspiracytheory #
+                                          https://www.tiktok.com/@elliesworldspam/video/7697755903025630484

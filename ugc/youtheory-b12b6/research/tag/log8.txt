@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 21 of 74 videos posted since 2026-09-26
+21 videos -> ugc/youtheory-b12b6/research/tag/tag-neurobion.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+     73,800   3.7    0.6   33 2026-09-28  @farmaciasannicolas: 💊✨ ¡5 veces más B12! 👀 ¿Neurobion o Neurobion Advance? Ambos contienen
+                                          https://www.tiktok.com/@farmaciasannicolas/video/7690656454537186568
+     49,800   6.7   0.72  129 2026-10-20  @myomin388: အာရုံကြောဆေး လူတိုင်းသောက်သင့်ရဲ့လား။ သောက်တိုင်းရော အကျိုးရှိရဲ့လား #
+                                          https://www.tiktok.com/@myomin388/video/7698656421495262485
+     38,300   5.8   0.85   10 2026-10-24  @hf.medical.2.0: Neurobion tablet uses benefits. vitaminb12 tablet review. #creatorsear
+                                          https://www.tiktok.com/@hf.medical.2.0/video/7700235201439599890
+     34,600   2.2   0.18   14 2026-10-15  @wwwcandy81: #comboviral #neurobionb12fortevitaminas #saludybienestar #vitamins 
+                                          https://www.tiktok.com/@wwwcandy81/video/7694100400986754317
+     33,800   0.7    0.1   29 2026-10-21  @farmaciajireh0387: Farmacia Jireh!! #neurobion N#neurobion advance#nervios #salud
+                                          https://www.tiktok.com/@farmaciajireh0387/video/7699179309985991957
+     28,800   2.5   0.15   13 2026-10-03  @wwwcandy81: #neurobionb12fortevitaminas #neurobioninmunesupport #vitaminasymineral
+                                          https://www.tiktok.com/@wwwcandy81/video/7689272758500347149
+     16,300   2.3   0.13   16 2026-10-11  @wwwcandy81: #neurobionb12fortevitaminas #supplement #neurobioninmunesupport #vitam
+                                          https://www.tiktok.com/@wwwcandy81/video/7694147817731804430
+     12,200   8.4   0.47   97 2026-10-17  @jackielaughs3: #neurobion 
+                                          https://www.tiktok.com/@jackielaughs3/video/7697643062029258015
+      2,730   1.0   0.11   24 2026-10-20  @latinsaborusa: ¿Te preguntas para qué sirve realmente Neurobion B12 Extra Forte? Su s
+                                          https://www.tiktok.com/@latinsaborusa/video/7698781271459187981
+      2,303   0.7   0.09   21 2026-10-21  @latinsaborusa: Aprovecha el descuento disponible en Neurobion B12 Forte y pídelo hoy 
+                                          https://www.tiktok.com/@latinsaborusa/video/7699137361568877837
+      2,091   1.3   0.19   31 2026-10-21  @latinsaborusa: Si sientes entumecimiento u hormigueo, conoce Neurobion B12 Forte en e
+                                          https://www.tiktok.com/@latinsaborusa/video/7699121341038955789
+      1,587   0.9   0.19   23 2026-10-08  @lizethdelcid376: neurobion B12 complex #neurobion #neurobionb12complex #neurobionb12for
+                                          https://www.tiktok.com/@lizethdelcid376/video/7694181319625952526
+        934   0.5   0.11   19 2026-10-08  @danieladiazamadecasa: Vitaminas de Neurobion. #vitaminab12 #neurobion #tiktokshopblackfriday
+                                          https://www.tiktok.com/@danieladiazamadecasa/video/7694369131184819486
+        676   2.2    0.3   23 2026-10-09  @elisabernardo18: #neurobion #B12 #forte #neurobionb12fortevitaminas #vitaminas 
+                                          https://www.tiktok.com/@elisabernardo18/video/7694500177440165151
+        488   1.2    0.2   18 2026-10-08  @danieladiazamadecasa: Vitaminas de Neurobion. #vitaminab12 #neurobion #tiktokshopblackfriday
+                                          https://www.tiktok.com/@danieladiazamadecasa/video/7694153839682800927

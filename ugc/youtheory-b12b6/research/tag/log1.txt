@@ -1,0 +1,18 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 5 of 60 videos posted since 2026-09-26
+5 videos -> ugc/youtheory-b12b6/research/tag/tag-vitaminb12.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+     11,500   5.0   1.27  109 2026-10-05  @lilyywhitten: I never knew what B12 was or did before recently 🙂 #pots #b12deficienc
+                                          https://www.tiktok.com/@lilyywhitten/video/7693289313328450830
+      3,980   4.5   0.63   84 2026-10-16  @tjdoranx: Best foods for vitamin B12, ranked 👇 Vitamin B12 helps keep your nerve
+                                          https://www.tiktok.com/@tjdoranx/video/7697100716925537567
+        719   0.6      0    9 2026-10-09  @carlylifeat40: One vitamin, some important jobs! 💗 Vitamin B12 supports energy metabo
+                                          https://www.tiktok.com/@carlylifeat40/video/7694747070627908897
+         63   4.8      0    9 2026-10-04  @shante_005: Looking for a simple way to add vitamin B12 to your daily wellness rou
+                                          https://www.tiktok.com/@shante_005/video/7692599207286279437
+         49     0      0   59 2026-10-22  @anewchapterwithchrist: If you're tired of feeling exhausted all the time, these chewable berr
+                                          https://www.tiktok.com/@anewchapterwithchrist/video/7699555792021638413

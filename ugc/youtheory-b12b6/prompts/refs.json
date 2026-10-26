@@ -1,0 +1,141 @@
+{
+ "S1": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_A.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S1.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S2": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_A.jpg"
+  ],
+  "clip_refs": [
+   "stills/S2.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S3": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_B.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S3.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S4": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_B.jpg"
+  ],
+  "clip_refs": [
+   "stills/S4.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S5": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_B.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S5.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S6": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/real/grace_box_front_open.jpg",
+   "refs/closeup_box.png",
+   "rooms/room_B.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S6.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg",
+   "refs/closeup_box.png"
+  ]
+ },
+ "S7": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_C.jpg"
+  ],
+  "clip_refs": [
+   "stills/S7.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S8": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_D.jpg"
+  ],
+  "clip_refs": [
+   "stills/S8.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S9": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "rooms/room_D.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S9.png",
+   "refs/closeup_F.png",
+   "refs/closeup_G.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ }
+}
