@@ -1,0 +1,206 @@
+<title>Always Answered</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Every call answered and fresh reviews every month, for service businesses in Freeport, Baldwin and Brooklyn.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow reading column; a call-log card in the hero is the signature; bands alternate ground tones. */
+:root{
+  --bg:#f2f5f6; --band:#e6ecee; --card:#ffffff; --ink:#13263a; --muted:#4d6172;
+  --accent:#c9502a; --accent-ink:#ffffff; --sea:#1f6b74; --line:#cfd9dd; --ok:#2f7d4f; --miss:#b3402a;
+  --display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1b26; --band:#14232f; --card:#192b39; --ink:#e7eef2; --muted:#a3b4c0;
+  --accent:#e2683f; --accent-ink:#10161c; --sea:#5fb3bb; --line:#2a3d4c; --ok:#6cc08d; --miss:#ef8a6c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1b26; --band:#14232f; --card:#192b39; --ink:#e7eef2; --muted:#a3b4c0;
+  --accent:#e2683f; --accent-ink:#10161c; --sea:#5fb3bb; --line:#2a3d4c; --ok:#6cc08d; --miss:#ef8a6c; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:1.0625rem;line-height:1.6}
+.wrap{max-width:46rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:3rem}
+.band{background:var(--band)}
+h1,h2,h3{font-family:var(--display);line-height:1.08;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.3rem,7vw,3.6rem);font-weight:850;font-stretch:78%;letter-spacing:-.01em}
+h2{font-size:clamp(1.6rem,4.5vw,2.2rem);font-weight:800;font-stretch:82%}
+h3{font-size:1.15rem;font-weight:700;font-stretch:95%}
+p{margin:0}
+.stack{display:flex;flex-direction:column;gap:1rem}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--sea)}
+.lead{font-size:1.2rem;color:var(--muted);max-width:36rem}
+.brand{display:flex;align-items:center;gap:.6rem;font-family:var(--display);font-weight:800;font-stretch:85%;font-size:1.15rem;padding-block:1.1rem}
+.brand svg{flex:none}
+.ctas{display:flex;flex-wrap:wrap;gap:.75rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:3rem;padding:.7rem 1.2rem;border-radius:.5rem;font-weight:600;text-decoration:none;border:2px solid var(--accent);font-size:1rem}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--ink);border-color:var(--line);background:var(--card)}
+.btn:focus-visible{outline:3px solid var(--sea);outline-offset:2px}
+.num{font-family:var(--mono);font-weight:500;font-variant-numeric:tabular-nums}
+.draft{border:1px dashed var(--accent);border-radius:.35rem;padding:0 .3rem}
+/* call log card */
+.log{background:var(--card);border:1px solid var(--line);border-radius:.6rem;font-family:var(--mono);font-size:.86rem;overflow:hidden}
+.log header{display:flex;justify-content:space-between;gap:1rem;padding:.6rem .9rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase}
+.log ol{list-style:none;margin:0;padding:0}
+.log li{display:grid;grid-template-columns:4.6rem 1fr;gap:.2rem .8rem;padding:.7rem .9rem;border-bottom:1px solid var(--line)}
+.log li:last-child{border-bottom:0}
+.log .t{color:var(--muted);font-variant-numeric:tabular-nums}
+.log .what{min-width:0}
+.tag{display:inline-block;font-size:.72rem;padding:.05rem .45rem;border-radius:1rem;margin-right:.35rem;font-weight:500}
+.tag.miss{color:var(--miss);border:1px solid var(--miss)}
+.tag.ok{color:var(--ok);border:1px solid var(--ok)}
+.check{border-left:4px solid var(--sea);padding:.2rem 0 .2rem 1rem;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:1rem}
+.stat{display:flex;flex-direction:column;gap:.3rem}
+.stat b{font-family:var(--display);font-size:2.6rem;font-weight:850;font-stretch:80%;line-height:1;color:var(--accent)}
+.stat a{color:var(--muted);font-size:.85rem}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1.25rem}
+.two > div{min-width:0;background:var(--card);border:1px solid var(--line);border-radius:.6rem;padding:1.2rem}
+ul.plain{margin:.6rem 0 0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.45rem}
+ol.steps{margin:0;padding-left:1.9rem;display:flex;flex-direction:column;gap:.8rem}
+ol.steps li::marker{font-family:var(--mono);color:var(--sea)}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1rem}
+.price b{font-family:var(--display);font-size:3.2rem;font-weight:900;font-stretch:78%;line-height:1}
+.founding{background:var(--card);border:2px solid var(--accent);border-radius:.6rem;padding:1rem 1.2rem}
+details{border-bottom:1px solid var(--line);padding-block:.8rem}
+summary{cursor:pointer;font-weight:600}
+summary:focus-visible{outline:3px solid var(--sea);outline-offset:2px}
+details p{margin-top:.5rem;color:var(--muted)}
+footer{padding-block:2rem;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+a{color:var(--sea)}
+@media (prefers-reduced-motion:no-preference){.ring{animation:ring 2.4s ease-in-out 1}}
+@keyframes ring{0%,100%{transform:rotate(0)}10%{transform:rotate(-12deg)}20%{transform:rotate(10deg)}30%{transform:rotate(-6deg)}40%{transform:rotate(0)}}
+</style>
+
+<div class="wrap">
+  <div class="brand">
+    <svg class="ring" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path fill="var(--accent)" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+    <span data-name>Always Answered</span>
+  </div>
+</div>
+
+<section style="padding-top:1rem">
+  <div class="wrap stack" style="gap:1.4rem">
+    <p class="eyebrow">For service businesses in Freeport, Baldwin and Brooklyn</p>
+    <h1>Every call answered. Fresh reviews every month.</h1>
+    <p class="lead">When you're on a job, your phone still gets picked up. The assistant books the work or sends you the details within a minute, and new reviews keep coming in.</p>
+    <div class="ctas">
+      <a class="btn primary" id="call-btn" href="#">Call and hear it: <span class="num" data-phone>(516) 000-0000</span></a>
+      <a class="btn ghost" id="book-btn" href="#" target="_blank" rel="noopener">Book a 15-minute call</a>
+    </div>
+    <div class="log" role="img" aria-label="Example call log: two evening calls that used to go to voicemail, now answered and booked">
+      <header><span>Example: Tuesday</span><span>Your phone / Assistant</span></header>
+      <ol>
+        <li><span class="t">6:48 PM</span><span class="what"><span class="tag miss">before</span>Rang out. Caller tried the next company.</span></li>
+        <li><span class="t">6:48 PM</span><span class="what"><span class="tag ok">now</span>Answered. No heat upstairs. Booked Wed 8:00 AM. Details sent to you.</span></li>
+        <li><span class="t">9:15 PM</span><span class="what"><span class="tag ok">now</span>Answered. Quote for a water heater. Name and number sent to you.</span></li>
+      </ol>
+    </div>
+    <p class="check">Try this tonight: call your own business at 7 PM. If it rings out, that customer is now calling someone else.</p>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap stack" style="gap:1.6rem">
+    <h2>What missed calls and old reviews cost you</h2>
+    <div class="stats">
+      <div class="stat"><b class="num">44%</b><span>of business calls go unanswered, out of 70 million calls studied.</span><a href="https://justcall.io/blog/missed-call-statistics.html" target="_blank" rel="noopener">Invoca, 2026</a></div>
+      <div class="stat"><b class="num">78%</b><span>of people have given up on a business after nobody picked up.</span><a href="https://beside.com/blog/missed-calls-cost-small-business" target="_blank" rel="noopener">CallRail survey, 2025</a></div>
+      <div class="stat"><b class="num">74%</b><span>of people look for reviews from the last 3 months before they choose.</span><a href="https://www.brightlocal.com/research/local-consumer-review-survey/" target="_blank" rel="noopener">BrightLocal, 2026</a></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap stack" style="gap:1.4rem">
+    <h2>What you get</h2>
+    <div class="two">
+      <div>
+        <h3>Your calls</h3>
+        <ul class="plain">
+          <li>Every call answered, day and night, on your own number.</li>
+          <li>During your hours it can pass the call to you.</li>
+          <li>Otherwise it books the job or takes the name, number and what they need, and emails you within a minute.</li>
+          <li>Every Monday, a list of every call and what got booked.</li>
+          <li>We set it up from your services, prices and hours, and fix it every week.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Your reviews</h3>
+        <ul class="plain">
+          <li>After each job, your customer gets a short email or WhatsApp message, or scans a card at your counter, asking for a Google review.</li>
+          <li>We ask every customer the same way. No fake reviews, ever.</li>
+          <li>We write a reply to every new review in your voice. You approve it first.</li>
+          <li>Each month, your new reviews and star average.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap stack" style="gap:1.2rem">
+    <h2>How it starts</h2>
+    <ol class="steps">
+      <li><b>Call or book a 15-minute call.</b> Tell us your services, prices, hours and area.</li>
+      <li><b>We build your assistant</b> on your business and you call it to hear it before anything goes live.</li>
+      <li><b>Turn on call forwarding</b> from your phone. We send the steps for your phone company. Your number stays the same.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap stack" style="gap:1.2rem">
+    <h2>One plan, one price</h2>
+    <div class="price"><b class="num">$397</b><span>a month, plus $497 one-time setup. Month to month. Cancel any time.</span></div>
+    <p>Includes up to 500 call minutes a month. Most small businesses use far less.</p>
+    <div class="founding stack" style="gap:.4rem">
+      <h3>Founding offer: first 3 businesses</h3>
+      <p>No setup fee and the first 14 days free. If you like it, we ask for a short testimonial.</p>
+    </div>
+    <div class="ctas">
+      <a class="btn primary" id="book-btn-2" href="#" target="_blank" rel="noopener">Book a 15-minute call</a>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap stack" style="gap:.2rem">
+    <h2 style="margin-bottom:.8rem">Questions</h2>
+    <details><summary>Does it sound like a robot?</summary><p>Call our line and hear it for yourself. It talks like a calm front desk person and keeps calls short.</p></details>
+    <details><summary>Does it pretend to be a person?</summary><p>No. It answers as your assistant and says the call may be recorded. If a caller asks, it says it's an AI assistant.</p></details>
+    <details><summary>Do I need a new phone number?</summary><p>No. You forward your calls to us when you can't pick up, or all the time. Your customers call the same number they always have.</p></details>
+    <details><summary>What if a caller wants me?</summary><p>During the hours you pick, it passes the call to you. After hours it takes a message and you get it by email right away.</p></details>
+    <details><summary>Will it call my customers?</summary><p>No. It only answers calls. It never makes calls.</p></details>
+    <details><summary>Is there a contract?</summary><p>No. It's month to month and you can cancel any time.</p></details>
+  </div>
+</section>
+
+<div class="wrap">
+  <footer class="stack" style="gap:.4rem">
+    <p><span data-name>Always Answered</span> · Serving Nassau County and Brooklyn · <span class="num" data-phone>(516) 000-0000</span></p>
+    <p>Numbers on this page come from the studies linked under each one.</p>
+  </footer>
+</div>
+
+<script>
+// Fill these in once the line and booking page exist.
+const CONFIG = { name: "Always Answered", phone: "", booking: "" };
+(function(){
+  document.querySelectorAll("[data-name]").forEach(el => el.textContent = CONFIG.name);
+  const tel = CONFIG.phone.replace(/[^0-9+]/g, "");
+  document.querySelectorAll("[data-phone]").forEach(el => {
+    if (CONFIG.phone) el.textContent = CONFIG.phone; else el.classList.add("draft");
+  });
+  const call = document.getElementById("call-btn");
+  if (tel) call.href = "tel:" + tel; else call.removeAttribute("href");
+  ["book-btn", "book-btn-2"].forEach(id => {
+    const a = document.getElementById(id);
+    if (CONFIG.booking) a.href = CONFIG.booking; else { a.removeAttribute("href"); a.classList.add("draft"); }
+  });
+})();
+</script>
