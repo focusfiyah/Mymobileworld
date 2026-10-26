@@ -16,6 +16,12 @@ cost = """<table><tr><td>Stills, Gemini 3 Pro Image on Kie</td><td>11 x $0.09</t
 <tr><td>Same 11 on Kie only if Flow fails (asked first)</td><td>11 x $0.315</td><td>$3.465</td></tr>
 <tr class="tot"><td>TOTAL (incl. the Kie fallback)</td><td></td><td>$4.725</td></tr></table>
 <p class="note">Expected with Flow: <b>$1.26</b>. ElevenLabs about 560 characters (Grace cloned). Month so far $169.56, no cap in October.</p>"""
+NOTES = [("S1","PASS","Walk-in view, pumpkin pillow, stripes right."),("S2","PASS","Hand grips the comforter edge, pocket shows."),
+ ("S3","REDO","Hand rests flat on the phone (no grip); blue band on the wrist instead of a ring."),("S4","PASS","Phone in the pocket, hand grips the top. Riskiest clip, goes first."),
+ ("S5","PASS","Whole set, flat sheet fold."),("S6","PASS","Shams, pillowcases, pumpkin."),("S7","REDO","Blue band on the wrist (it is a ring in Grace's sheet)."),
+ ("S8","REDO","Hand lies flat instead of gripping the edge to fold it; blue band on the wrist."),("S9","PASS","Lying-in-bed POV, covers over the legs."),
+ ("S10","REDO","Shows a whole bed with WHITE pillows that aren't in the set; should be a close-up of the edge."),("S11","REDO","A wristwatch with a face (Grace wears a link bracelet, no watch).")]
+STORY = "".join(f'<figure><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{v.lower()}">{i} {v}</b> {E(n)}</figcaption></figure>' for i,v,n in NOTES)
 page = f"""<title>Monbix Comforter Plan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600&family=Karla:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
@@ -45,11 +51,17 @@ details summary{{cursor:pointer;font:500 .8rem var(--mono);color:var(--accent)}}
 pre{{white-space:pre-wrap;font:400 .78rem/1.5 var(--mono);background:var(--bg);padding:10px;border-radius:6px;overflow-x:auto;margin:6px 0 0}}
 table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} td{{padding:6px 4px;border-bottom:1px solid var(--line)}} td:last-child{{text-align:right}}
 .tot td{{font-weight:600;border-bottom:none}} .note{{margin:0;color:var(--muted)}}
-.facts li b{{color:var(--rust)}}
+.facts li b{{color:var(--rust)}} .pass{{color:var(--accent)}} .redo{{color:var(--rust)}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}}
 </style>
 <div class="wrap">
-<header><h1>Monbix Remy comforter set, POV</h1><p class="sub">Grace · Autumn Leaf, queen · 11 shots, about 29 s · Grace's voice, no on-screen text · nothing spent yet</p></header>
-<section class="ask"><h2>Your OK on this plan + 6 answers</h2><ol>{''.join('<li>'+E(q.split('. ',1)[1] if '. ' in q else q)+'</li>' for q in qs)}</ol>
+<header><h1>Monbix Remy comforter set, POV</h1><p class="sub">Grace · Autumn Leaf, queen · cut v1 ready for review · $4.86 spent</p></header>
+<section class="box"><h2>Cut v1 (28.6 s, AI finish on)</h2><video src="monbix_v1.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<ul><li>QC: levels -16.6 LUFS, echo 150 ms (passes), no black or flash frames, every clip at 1.0x, no text, no pumpkin, hands checked at 2x.</li>
+<li>Free fixes: S5 dropped (it drew the pocket on the flat sheet; S6 covers both lines), S2 starts after the white pillows leave the frame, S9 cropped 1.25x so no toes show.</li>
+<li><b>Your call:</b> in S8 (18-19 s) a second hand comes in to fold the comforter, and both wrists wear the same bracelets. Keep it, or redo that one clip for $0.315.</li>
+<li>Spent $4.86 of the $5.17 you OK'd. Month $174.42 (no cap in October).</li></ul></section>
+<section class="box"><h2>Storyboard, round 1 (11 stills, $0.99)</h2><div class="grid sb">{STORY}</div></section>
+<section class="ask" hidden><h2>Your OK on this plan + 6 answers</h2><ol>{''.join('<li>'+E(q.split('. ',1)[1] if '. ' in q else q)+'</li>' for q in qs)}</ol>
 <p class="note">Reply with the numbers, e.g. "1 yes 2 yes 3 with 4 yes 5 none 6 Flow". Total if everything ran on Kie: <b>$4.725</b>; with Flow: <b>$1.26</b>.</p></section>
 <section class="box"><h2>The real product (what every prompt copies)</h2>
 <ul class="facts"><li><b>Comforter</b>: solid terracotta on both sides, soft quilting, no stripes</li><li><b>2 shams</b>: solid terracotta. <b>2 pillowcases, flat + fitted sheet</b>: thin terracotta-and-white stripes</li><li><b>Pockets</b>: one sewn striped pocket on EACH long side of the fitted sheet (Monbix's own video: "pockets on BOTH sides of the fitted sheet")</li><li>No logo anywhere. The throw and small cushion in the listing photo are staging, never shown.</li></ul>

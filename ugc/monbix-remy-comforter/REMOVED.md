@@ -6,3 +6,4 @@ This job:
 - Throw blanket and small square cushion from the listing photo: staging, not in the set, never shown.
 - "breathable", "cooling", "doesn't trap heat": a creator's words, not on the listing; never said.
 - Price numbers, "order it now", other brands, the other creators' brown pumpkin pillows: never.
+- Pumpkin pillow (Ralph 2026-10-26: "Redo all 5 and remove the pumpkin."): no pumpkin or accent cushion in any shot.

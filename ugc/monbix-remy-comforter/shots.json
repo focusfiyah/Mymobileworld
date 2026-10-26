@@ -5,12 +5,13 @@
   "pocket_block": "The fitted sheet has ONE sewn striped patch pocket on each long side of the bed, on the side drop of the mattress, made of the same terracotta-and-white stripe with its stripes running the same way as the side drop (horizontal), stitched on three sides and open at the top, exactly like the real pocket close-up.",
   "pillow_block": "One fall accent pillow sits in front of the pillows, centred: a round cream boucle pumpkin-shaped pillow about 14 inches across with soft lobes and a short sage-green velvet stem. It is plain, no text, no face. It is the only extra item on the bed: no throw blanket, no other cushions.",
   "room_block": "The room is the real bedroom in the room photo: olive-green painted wall, warm wood headboard, small framed prints on the wall, a wooden nightstand at the right with a plain lamp. Bright soft morning daylight from a window off frame to the left; clean neutral white balance, never yellow, golden, dark or moody.",
-  "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a FLAT gold bracelet of rectangular links like a watch band (NO watch face) and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a thin gold heart ring and a blue silicone band. Whole wrist visible, a little forearm may show, five fingers, natural knuckles and skin texture.",
+  "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a FLAT gold bracelet of rectangular links like a watch band (NO watch face) and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a silver ring with a small heart-shaped stone and a thin gold solitaire ring, and a blue silicone band that is a RING worn on the ring finger, never on the wrist. On the wrist ONLY the flat gold link bracelet and the pearl chain: no watch, no watch face, no blue band and no other bracelet on the wrist. Whole wrist visible, a little forearm may show, five fingers, natural knuckles and skin texture.",
   "no_hand": "No hand, arm, fingers or people anywhere in the frame.",
   "phone_block": "The phone is a plain black smartphone with a black case, screen off and dark, no logo, no camera bump details, no text.",
   "suffix": "Vertical 9:16 photo, a single frame from a first-person (POV) phone video shot from the angle described above, realistic fabric texture, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI.",
   "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{hand} and bedding exactly. The bedding is the real Monbix set in images 2 to {sheet}: the comforter and shams stay solid terracotta, the sheets and pillowcases stay thin terracotta-and-white stripes, matching the close-ups colour for colour and stripe width for stripe width; no labels, logos or text appear.",
-  "omni_tail": "Vertical 9:16 first-person phone footage, bright neutral daylight that never changes, realistic fabric that moves and folds naturally, the stripes never warp, shimmer or change width. No music, no voice, no captions, no on-screen text."
+  "omni_tail": "Vertical 9:16 first-person phone footage, bright neutral daylight that never changes, realistic fabric that moves and folds naturally, the stripes never warp, shimmer or change width. No music, no voice, no captions, no on-screen text.",
+  "no_pumpkin": "No pumpkin pillow, no accent or decorative cushion and no throw blanket anywhere: only the set's two shams and two pillowcases are on the bed."
  },
  "videos": [
   {
@@ -22,9 +23,13 @@
      "hand": false,
      "pocket": false,
      "phone": false,
-     "pillow": true,
+     "pillow": false,
      "still": "View from standing at the foot of the bed, looking straight at the fully made bed and the headboard wall. The comforter lies smooth over the whole bed and drapes over both sides; at the head the striped flat sheet is folded down over the comforter's top edge in a wide neat band; two solid terracotta shams stand against the headboard and two striped pillowcases lie in front of them.",
-     "motion": "Camera: a slow, steady walk-in dolly toward the bed, like someone stepping into their room in the morning; nothing on the bed moves."
+     "motion": "Camera: a slow, steady walk-in dolly toward the bed, like someone stepping into their room in the morning; nothing on the bed moves.",
+     "t": [
+      0.0,
+      2.51
+     ]
     },
     {
      "id": "S2",
@@ -34,7 +39,11 @@
      "phone": false,
      "pillow": false,
      "still": "Close view at the long side of the bed, the camera low at mattress height, the nightstand edge at the right. The hand has entered from the right edge and GRIPS the hanging edge of the comforter between thumb and fingers, lifting it about a hand's height, so the striped side drop of the fitted sheet shows underneath with the empty striped pocket half revealed.",
-     "motion": "The hand keeps its grip and lifts the comforter edge slowly up and back onto the bed, revealing the whole empty striped pocket on the side of the mattress; the pocket stays still and sewn flat. Camera: steady, a tiny push-in toward the pocket."
+     "motion": "The hand keeps its grip and lifts the comforter edge slowly up and back onto the bed, revealing the whole empty striped pocket on the side of the mattress; the pocket stays still and sewn flat. Camera: steady, a tiny push-in toward the pocket.",
+     "t": [
+      2.51,
+      4.53
+     ]
     },
     {
      "id": "S3",
@@ -43,8 +52,12 @@
      "pocket": false,
      "phone": true,
      "pillow": false,
-     "still": "POV looking down at the top of the slept-in bed: the comforter is pushed back in soft rumpled folds and the striped fitted sheet shows beside it. The hand has entered from the bottom right edge and grips a phone that is half pulled out from under a fold of the comforter, thumb on the screen side, fingers behind.",
-     "motion": "The hand keeps one grip and pulls the phone the rest of the way out from under the comforter fold and lifts it a little toward the lens; the phone never turns over. Camera: steady handheld."
+     "still": "POV looking down at the top of the slept-in bed: the comforter is pushed back in soft rumpled folds and the striped fitted sheet shows beside it. A plain black phone is half hidden under a fold of the comforter. The hand has entered from the bottom right edge and GRIPS the visible end of the phone between the thumb on top and two fingers underneath, as if pulling it out; the fingers wrap around the phone's edge, the palm is not flat on it.",
+     "motion": "The hand keeps one grip and pulls the phone the rest of the way out from under the comforter fold and lifts it a little toward the lens; the phone never turns over. Camera: steady handheld.",
+     "t": [
+      4.53,
+      7.56
+     ]
     },
     {
      "id": "S4",
@@ -54,7 +67,11 @@
      "phone": true,
      "pillow": false,
      "still": "Close view of the long side of the bed at mattress height: the striped side drop of the fitted sheet with its striped pocket in the centre of the frame, the comforter edge folded up out of the way at the top of the frame. The hand has entered from the right edge and grips the top of the phone, which is halfway down inside the pocket, screen facing the mattress.",
-     "motion": "The hand slides the phone straight down into the pocket until only its top third shows, lets go, and pulls away out of the right edge of the frame; the pocket stretches a little and stays sewn on. Camera: steady."
+     "motion": "The hand slides the phone straight down into the pocket until only its top third shows, lets go, and pulls away out of the right edge of the frame; the pocket stretches a little and stays sewn on. Camera: steady.",
+     "t": [
+      7.56,
+      10.6
+     ]
     },
     {
      "id": "S5",
@@ -62,9 +79,14 @@
      "hand": false,
      "pocket": false,
      "phone": false,
-     "pillow": true,
+     "pillow": false,
      "still": "High view from beside the foot of the bed, looking down the whole length of the made bed at a slight angle: the smooth terracotta comforter, the striped flat sheet folded over at the head, two solid terracotta shams at the back, two striped pillowcases in front of them.",
-     "motion": "Camera: a slow glide forward over the bed from the foot toward the pillows; nothing on the bed moves."
+     "motion": "Camera: a slow glide forward over the bed from the foot toward the pillows; nothing on the bed moves.",
+     "t": [
+      10.6,
+      12.58
+     ],
+     "dropped": "2026-10-26: r3 still put the pocket on the flat sheet; S6 covers both lines (free fix)"
     },
     {
      "id": "S6",
@@ -72,9 +94,13 @@
      "hand": false,
      "pocket": false,
      "phone": false,
-     "pillow": true,
+     "pillow": false,
      "still": "Close view of the head of the bed from the side at pillow height: two solid terracotta shams standing at the back, two striped pillowcases in front, the striped flat sheet folded over the comforter's top edge below them.",
-     "motion": "Camera: a slow sideways slide along the pillows from right to left; nothing moves."
+     "motion": "Camera: a slow sideways slide along the pillows from right to left; nothing moves.",
+     "t": [
+      12.58,
+      14.79
+     ]
     },
     {
      "id": "S7",
@@ -84,7 +110,11 @@
      "phone": false,
      "pillow": false,
      "still": "POV close view looking down at the middle of the bed: the soft terracotta comforter fills most of the frame, the striped flat sheet fold at the top edge. The hand has entered from the right edge and rests palm-down on the comforter, fingers gently pressing in so the soft fabric dimples around them.",
-     "motion": "The hand presses softly down into the comforter, the fabric sinks and puffs back up around the fingers, then the hand lifts slightly; the hand stays in one place and does not slide across the bed. Camera: steady."
+     "motion": "The hand presses softly down into the comforter, the fabric sinks and puffs back up around the fingers, then the hand lifts slightly; the hand stays in one place and does not slide across the bed. Camera: steady.",
+     "t": [
+      14.79,
+      16.28
+     ]
     },
     {
      "id": "S8",
@@ -92,9 +122,13 @@
      "hand": true,
      "pocket": false,
      "phone": false,
-     "pillow": true,
-     "still": "View from the side of the bed near the head: the pillows at the top of the frame, the comforter pulled up to them. The hand has entered from the right edge and grips the top edge of the comforter between thumb and fingers.",
-     "motion": "The hand keeps its grip and folds the comforter's top edge down toward the foot of the bed in one smooth move, showing the striped flat sheet under it, then lets go and leaves the frame at the right. Camera: steady."
+     "pillow": false,
+     "still": "View from the side of the bed near the head: the pillows at the top of the frame, the comforter pulled up to them. The hand has entered from the right edge and GRIPS the top edge of the comforter: the thumb on top of the fabric and the fingers curled under the edge, lifting it about two inches off the bed, ready to fold it down.",
+     "motion": "The hand keeps its grip and folds the comforter's top edge down toward the foot of the bed in one smooth move, showing the striped flat sheet under it, then lets go and leaves the frame at the right. Camera: steady.",
+     "t": [
+      16.28,
+      19.66
+     ]
     },
     {
      "id": "S9",
@@ -105,7 +139,11 @@
      "pillow": false,
      "still": "POV lying in the bed, head on the pillow, looking down the length of the bed: the terracotta comforter covers the whole body up to the chest, the striped flat sheet folded over its top edge in the foreground, two small soft bumps of the feet under the comforter at the far end, the olive-green wall and bright morning window light beyond the foot of the bed. The body is completely under the covers: no skin, no hands, no feet showing.",
      "motion": "The two feet bumps under the comforter wiggle slowly and the comforter rises gently with breathing; nothing comes out from under the covers. Camera: steady, a tiny natural sway.",
-     "no_hand_override": "No hands, arms, feet or skin anywhere in the frame; no other person in the room."
+     "no_hand_override": "No hands, arms, feet or skin anywhere in the frame; no other person in the room.",
+     "t": [
+      19.66,
+      22.89
+     ]
     },
     {
      "id": "S10",
@@ -114,8 +152,12 @@
      "pocket": false,
      "phone": false,
      "pillow": false,
-     "still": "Close detail view of the side of the bed in the morning light: the solid terracotta comforter draping over the edge in soft folds, the striped flat sheet showing beneath its hem, the colour warm and true.",
-     "motion": "Camera: a slow sideways slide along the edge of the bed from left to right; the fabric hangs still."
+     "still": "Tight close-up detail: the frame shows ONLY the side edge of the mattress at the middle of the bed: the solid terracotta comforter draping over the edge in soft folds, the hem of the striped flat sheet showing just below it, and the striped fitted sheet's side drop. No pillows, no headboard, no wall and no nightstand are in the frame. Morning light from the left makes the colour warm and true.",
+     "motion": "Camera: a slow sideways slide along the edge of the bed from left to right; the fabric hangs still.",
+     "t": [
+      22.89,
+      25.04
+     ]
     },
     {
      "id": "S11",
@@ -123,9 +165,13 @@
      "hand": true,
      "pocket": false,
      "phone": false,
-     "pillow": true,
-     "still": "View from standing at the side of the foot of the bed, the whole made bed in frame. The hand has entered from the right edge and holds the cream pumpkin pillow by its sides, just setting it down in front of the pillows.",
-     "motion": "The hand sets the pumpkin pillow down in front of the pillows, gives it one light pat, and pulls back out of the right edge of the frame. Camera: a slow pull-back showing the whole made bed."
+     "pillow": false,
+     "still": "View from standing at the side of the foot of the bed, the whole made bed in frame. The hand has entered from the right edge and GRIPS the top corner of the front striped pillow between thumb and fingers, straightening it as it stands against the solid terracotta sham behind it.",
+     "motion": "The hand gives the striped pillow one small tug to straighten it, lets go and pulls back out of the right edge of the frame. Camera: a slow pull-back showing the whole made bed.",
+     "t": [
+      25.04,
+      28.0
+     ]
     }
    ]
   }
