@@ -9,7 +9,7 @@ from pathlib import Path
 VO, CLIP, HOLD = "vo/voiceover_paced.mp3", 4.0, 0.6
 SRC = {"S2": 2.35}                         # shot -> source start (s), QC 2026-10-26: S2's white pillows (not in the set) show before 2.35 s
 LATE = {"S2": 0.52}                        # shot starts this much later than its line (S1 holds longer) so S2 fits its clean window
-CROP = {"S9": "crop=864:1536:108:0,"}      # S9: toes poke out under the comforter edge at 2.4-3.1 s; a 1.25x crop from the top hides them
+CROP = {}                                  # S9 r2 (2026-10-26, Ralph: lie along the bed) needs no crop; r1 needed one to hide toes
 S = [s for s in json.load(open("shots.json"))["videos"][0]["shots"]]
 keep = []
 for s in S:                                # a dropped shot's line goes to the next kept shot
