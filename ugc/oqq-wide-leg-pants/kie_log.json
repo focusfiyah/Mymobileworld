@@ -678,5 +678,182 @@
   },
   "costTime": 132,
   "usd": 0.315
+ },
+ {
+  "t": "2026-10-25 23:50:57",
+  "submitted": "c38a1d048a9a5775c2848fced97b1ef6",
+  "prompt": "SHOT: SCENE: mirror-style photo of her side, chest to floor, in the middle of the kitchen, the outer side of her hip tow"
+ },
+ {
+  "t": "2026-10-25 23:50:59",
+  "submitted": "66df5accccfcb89351e720900ce952a2",
+  "prompt": "SHOT: SCENE: close-up of the outer side of her hip, from the bottom of the tank to mid-thigh: the high waistband and, ju"
+ },
+ {
+  "t": "2026-10-25 23:52:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: SCENE: mirror-style photo of her side, chest to floor, in the middle of the kitchen, the outer side of her hip toward the camera so the flat rectangular patch pocket shows clearly, the pocket is the same chocolate brown as the pants (image 3 shows its shape on her black pair: copy the shape, keep this pair brown), a phone upright inside it with only its top showing; one hand rests flat on her hip just in front of the pocket, fingers together, whole wrist visible; her other arm relaxed out of frame. FEET: She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real side pocket: a flat rectangular patch pocket on the outer hip, straight top edge under the waistband, phone top showing. Image 3 = the SAME pocket as it must look on her (a flat rectangle on the outer hip, straight top edge, phone top showing). Image 4 = the real shoe from every side. Image 5 = the real woven VANS side tab (small black tab, white VANS letters). Image 6 = her real body and skin tone (ignore its clothes and room). Image 7 = the real room. HER: Grace, exactly the body in image 6: slim build, medium-deep brown skin exactly like image 6 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A cream boxy cropped long-sleeve top with full puffed sleeves that ends just above the waistband. THE PANTS must match image 1 and image 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in DARK CHOCOLATE BROWN (exactly the brown in image 1 and image 2). Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. THE POCKET (image 2): ONE flat tonal patch pocket sewn onto the OUTER SIDE of the hip, a tall rectangle about the size of a phone, outlined by a thin stitched seam, its straight top edge running level just under the waistband; it opens ONLY along that top edge, and a phone sits upright inside with only its top showing above the edge. There is NO slanted, curved or slash pocket opening anywhere and no front trouser pockets. No logos, no \u00ae or \u2122, no text. ON HER FEET, both feet: the real Vans Premium Authentic low-top in sequin checkerboard (image 4): large black squares covered in black sequins, large off-white squares plain canvas (black and OFF-WHITE only, never brown, tan or beige checks), black laces through black eyelets (no gold or metal eyelets), the same checkerboard all the way round the heel (no solid black heel panel), a small BLACK woven side tab with white VANS letters (image 5), off-white rubber sidewall, gum sole. The hem covers most of each shoe so only the front half and toe cap show. Exactly two shoes, one on each foot, worn the right way round: the toe of each shoe points where her knees and the front of her body point, the heel at the back under the hem. The sequins look like real sequins in daylight: no added sparkles, glints, stars or light effects. PLACE: the real kitchen in image 7: grey upholstered bar stools with wooden legs, white cabinets, dark island, grey wood floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958654584-ncmxd36l2xb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958656810-y299lfojn2i.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972246080-1xu400s5sie.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958658977-4d90f1fw4ay.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958661286-ji6bfzlor4f.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958663708-s70lnoj186.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958666073-ungeh4liub.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c38a1d048a9a5775c2848fced97b1ef6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c38a1d048a9a5775c2848fced97b1ef6_0_1792972337.jpeg"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-10-25 23:52:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: SCENE: close-up of the outer side of her hip, from the bottom of the tank to mid-thigh: the high waistband and, just under it, the flat rectangular patch pocket with its straight level top edge. Her hand holds a plain phone in a light grey case with no logo, upright, its bottom edge just inside the top edge of the patch pocket, fingers on the back of the phone, whole wrist visible. Her feet are out of frame. Image 1 = the real pants from every side (listing photos, black and dark brown). Image 2 = the real side pocket: a flat rectangular patch pocket on the outer hip, straight top edge under the waistband, phone top showing. Image 3 = the SAME pocket as it must look on her (a flat rectangle on the outer hip, straight top edge, phone top showing). Image 4 = her real body and skin tone (ignore its clothes and room). Image 5 = the real room. HER: Grace, exactly the body in image 4: slim build, medium-deep brown skin exactly like image 4 on every bit of skin, long almond nails with white nude polish. Her face is NEVER in frame: the top edge of the frame cuts at her chest. A white ribbed cropped square-neck tank that ends at the top of the waistband, a strip of bare waist showing between them. THE PANTS must match image 1 and image 2 exactly, colour for colour: the real OQQ high-waisted wide-leg pants in TRUE BLACK. Smooth matte stretch jersey, solid and opaque (never sheer, nothing shows through), no shine. A wide plain high waistband about a hand wide sitting at her natural waist, no drawstring, no buttons, no belt loops, no fly. One thin stitched seam line runs down the front of each leg from the waistband to the hem. Fitted over the hip and thigh, then wide and straight from the knee down to a full-length hem that covers the top of the shoe and brushes the floor. THE POCKET (image 2): ONE flat tonal patch pocket sewn onto the OUTER SIDE of the hip, a tall rectangle about the size of a phone, outlined by a thin stitched seam, its straight top edge running level just under the waistband; it opens ONLY along that top edge, and a phone sits upright inside with only its top showing above the edge. There is NO slanted, curved or slash pocket opening anywhere and no front trouser pockets. No logos, no \u00ae or \u2122, no text. PLACE: the real kitchen in image 5: sage-green kitchen island with a white marble top, black round bar stools, warm oak floor. LIGHT: bright daylight, soft and even, neutral white balance: true black stays black, the brown stays chocolate, no yellow, orange or golden cast, no dark or moody grade. A real phone photo, casual and realistic, vertical 9:16. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958654584-ncmxd36l2xb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958656810-y299lfojn2i.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972246061-fa17wctexqc.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792958663708-s70lnoj186.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972248535-tj7l8e7vr7.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "66df5accccfcb89351e720900ce952a2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/66df5accccfcb89351e720900ce952a2_0_1792972337.jpeg"
+   ]
+  },
+  "costTime": 83
+ },
+ {
+  "t": "2026-10-25 23:53:15",
+  "submitted": "3b7f1c071aa84f0e54af0d5685620eba",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top and pants exactly; her feet s"
+ },
+ {
+  "t": "2026-10-25 23:54:30",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top and pants exactly; her feet stay out of the frame. Image 2 is the real side pocket: a flat rectangular patch pocket on the outer hip with a straight level top edge (never a slanted slit). Image 3 is the same pocket on her body, the look to keep. Image 4 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line; they must match the product sheet colour for colour. Motion: the hand already holding the phone in image 1 slides it straight down through the straight top edge of the patch pocket until only the top of the phone shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on her hip and waist the whole time. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972380662-rmc9r2632fb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972382936-21untwuqatbh.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972384930-s4gxx4nkefa.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972388040-ukdh2phjiaa.png"
+    ]
+   }
+  },
+  "taskId": "3b7f1c071aa84f0e54af0d5685620eba",
+  "fail": [
+   "400",
+   "Request blocked: The generation was blocked by Google safety review."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-25 23:54:56",
+  "submitted": "6d9809425a6ef286dfd92123b7ecf8a4",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top and pants exactly; her feet s"
+ },
+ {
+  "t": "2026-10-25 23:56:03",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing, her skin, top and pants exactly; her feet stay out of the frame. Image 2 is the real side pocket: a flat rectangular patch pocket on the outer hip with a straight level top edge (never a slanted slit). Image 3 is the same pocket on her body, the look to keep. Image 4 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line; they must match the product sheet colour for colour. Motion: the hand already holding the phone in image 1 slides it straight down through the straight top edge of the patch pocket until only the top of the phone shows, then smooths the fabric over it and lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on her hip and waist the whole time. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972483117-29au2t0sdw8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972485605-91br7ke5nnb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972487513-d6c0a4qpf8e.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972489455-g6ahnu0am3b.png"
+    ]
+   }
+  },
+  "taskId": "6d9809425a6ef286dfd92123b7ecf8a4",
+  "fail": [
+   "400",
+   "Request blocked: The generation was blocked by Google safety review."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-25 23:56:43",
+  "submitted": "b759e57cc0268b1a016fac1b71c36982",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and the pants exactly; her feet stay out of "
+ },
+ {
+  "t": "2026-10-25 23:58:40",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and the pants exactly; her feet stay out of the frame. Image 2 is the real side pocket: a flat rectangular patch pocket on the outer hip with a straight level top edge (never a slanted slit). Image 3 is the same pocket on her body, the look to keep. Image 4 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line; they must match the product sheet colour for colour. Motion: the hand holding the phone in image 1 tucks the phone into the side patch pocket through its straight top edge until only the top of the phone shows, then lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on the side pocket the whole time. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972590578-gzsazwj86wu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972593050-ohppttn2mtr.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972594999-p105ujtzqfo.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972596947-398kwjey1h3.png"
+    ]
+   }
+  },
+  "taskId": "b759e57cc0268b1a016fac1b71c36982",
+  "fail": [
+   "400",
+   "Request blocked: The generation was blocked by Google safety review."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-25 23:59:02",
+  "submitted": "dfca491b620c9bc314ebb1ee796f84af",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and the pants exactly; her feet stay out of "
+ },
+ {
+  "t": "2026-10-26 00:00:16",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light, framing and the pants exactly; her feet stay out of the frame. Image 2 is the real side pocket: a flat rectangular patch pocket on the outer hip with a straight level top edge (never a slanted slit). Image 3 is the pants product sheet. The pants stay true black, smooth, matte and solid (never sheer), with the high plain waistband, the front seam line; they must match the product sheet colour for colour. Motion: the hand holding the phone in image 1 tucks the phone into the side patch pocket through its straight top edge until only the top of the phone shows, then lets go; one grip, the phone never turns or flips; the pocket stays tonal black; the camera stays on the side pocket the whole time. Her face never enters the frame. Hands keep five fingers and whole wrists. No added marks or brand logos on anything (any phone stays plain, no Apple or other logo), no \u00ae or \u2122, no text, no captions, no sparkle or light effects. No music, no voice. 4 seconds, 9:16.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972730405-gcjsm62wfbq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972732607-qnltnqoi80m.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1792972734708-qnpp3g4tzok.png"
+    ]
+   }
+  },
+  "taskId": "dfca491b620c9bc314ebb1ee796f84af",
+  "fail": [
+   "400",
+   "Request blocked: The generation was blocked by Google safety review."
+  ],
+  "usd": 0
  }
 ]

@@ -42,7 +42,7 @@ FEET = {
  "S5": "FRONT VIEW: she stands facing the camera, feet side by side about hip-width apart and parallel: both toe caps point AT the lens, the heels are hidden behind; both soles stay flat on the floor; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels.",
  "S6": "She faces the camera, turned a little to her left: both toes point toward the camera and slightly to the LEFT edge, the heels hidden behind; both soles flat on the floor.",
  "S7": "FRONT VIEW: she walks straight TOWARD the camera: both toe caps point AT the lens and are the closest thing to the camera, the heels are hidden behind; we see the front of her shins with the front seam line of each leg, never the back of her legs or her heels; both soles stay flat on the floor in a short, calm step, so the bottoms of the shoes never show.",
- "S8": "She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge.",
+ "S8": "She faces the RIGHT edge of the frame: her knees and both toes point to the RIGHT edge, both heels point to the left edge. BOTH shoes show the same black and off-white checkerboard (neither shoe is solid black).",
 }
 SHOTS = [
  ("S1", "HAND", "black", [0.0, 2.6], "Okay, y'all keep asking what the back of these looks like.",
@@ -67,7 +67,7 @@ SHOTS = [
   "camera low on the floor IN FRONT of her, FRONT view of her lower legs as she walks toward the camera on the grey wood floor: the brown wide hems swing forward and the toe caps of both sequin Vans show under them.",
   "she walks toward the camera, three relaxed steps, both feet pointing forward, the hems swing over the shoes; she stops just before the lens; no hand appears at any time", ["refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
  ("S8", "HAND", "brown", [18.2, 20.5], "I linked them in the orange cart for you.",
-  "SCENE: mirror-style photo of her side, chest to floor, in the middle of the kitchen, the outer side of her hip toward the camera so the flat rectangular patch pocket shows clearly, the pocket is the same chocolate brown as the pants (image 3 shows its shape on her black pair: copy the shape, keep this pair brown), a phone upright inside it with only its top showing; one hand rests flat on her hip just in front of the pocket, fingers together, whole wrist visible; her other arm relaxed out of frame.",
+  "SCENE: a friend films her from the side at hip height (not a mirror selfie: her hands hold no phone and no phone is near her face), chest to floor, in the middle of the kitchen, the outer side of her hip square to the camera so the flat rectangular patch pocket shows clearly ON THE SIDE SEAM of the hip (not toward the back), the pocket is the same chocolate brown as the pants (image 3 shows its shape on her black pair: copy the shape, keep this pair brown), the only phone in the whole picture sits upright inside that pocket with only its top showing; one hand rests flat on her hip just in front of the pocket, fingers together, whole wrist visible; her other arm relaxed out of frame.",
   "the hand on her hip slides slowly down the front of her thigh and back up while she shifts her weight and sways gently, the wide brown legs swing and settle over the shoes; the phone stays in the pocket; slight handheld camera", ["refs/real_pocket.jpg", "refs/pocket_on_body.jpg", "refs/real_vans_tab.jpg", "refs/product_sheet.png"]),
 ]
 def refs_for(sid, c):

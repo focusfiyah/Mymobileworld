@@ -4,7 +4,7 @@ Ask (Ralph 2026-10-25): "Grace needs a fashion AI video" for the OQQ Women's Hig
 she has them in black and brown; inspo https://www.tiktok.com/t/ZPLAg5udN/ (@krunch.7, 555.8K, same pants in brown); "style with sneakers",
 the shiny Vans (sequin checkerboard Authentic from the Vans jobs). Route: AI recreation on Grace's body photos + product lock, Flow first.
 
-Status: 2026-10-25 Ralph after approval: "The pockets are wrong. The first shot and the last shot" (S4, S8 slanted slit vs the real flat patch pocket in S3). S4 + S8 prompts rewritten and lint-clean; asked: paid redo $0.81 (2 Kie stills + 2 Omni clips) or free re-cut without S4/S8 (opens on S3, ends on S7, ~12.4 s). Drive CURRENT unchanged until then. Kie $3.78.
+Status: 2026-10-26 pocket redo in progress (Ralph "A, redo them", +$0.81): S4 still PASS; S4 Omni clip blocked by Google safety review 4x (free); S8 still FAIL (selfie phone + 2 phones), prompt fixed. Asked: S8 still redo $0.09 + S4 clip on Seedance 2.0 Mini $0.164 (both inside the $4.59 allowed). Kie $3.96.
 Review page: https://claude.ai/artifact/8FXb6VhgRPCWm6bKWaNy79
 
 Files: BOOK.md (the plan), scripts.md, shots.json (built by tools/make_shots.py, prompt-master), GATES.md, REMOVED.md,
