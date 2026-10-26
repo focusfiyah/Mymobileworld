@@ -1,0 +1,31 @@
+<title>Ralph Avatar Test</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: one narrow review column, newest round on top, each round a plain section with its media */
+:root{--bg:#f5f7f6;--fg:#1c2421;--muted:#5d6b66;--line:#d6dedb;--card:#ffffff;--accent:#1f7a5c;
+--display:"Bricolage Grotesque",Georgia,serif;--body:"Source Sans 3",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121816;--fg:#e6ece9;--muted:#9aa9a3;--line:#2a3532;--card:#1a2220;--accent:#5cc7a0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121816;--fg:#e6ece9;--muted:#9aa9a3;--line:#2a3532;--card:#1a2220;--accent:#5cc7a0;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+main{max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font:700 1.9rem/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 1.15rem/1.3 var(--display);margin:0}
+.lede{color:var(--muted);margin:6px 0 0}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.tag{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-weight:600}
+audio{width:100%}
+blockquote{margin:0;padding-left:12px;border-left:3px solid var(--accent)}
+dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0;font-variant-numeric:tabular-nums}
+dt{color:var(--muted)}dd{margin:0}
+</style>
+<main>
+<header><h1>Ralph Avatar Test</h1><p class="lede">Your real photo + your cloned voice, run on two models side by side. Nothing gets posted.</p></header>
+<section>
+<span class="tag">Round 1 · voice line · 2026-10-26</span>
+<h2>Your cloned voice, 12.1 seconds</h2>
+<audio controls preload="metadata" src="line.mp3"></audio>
+<blockquote>Most people use AI like a search bar. One question, one answer, close the tab. But you can hand it real work, like sorting your receipts or sending you a sales recap every Monday. Here's how.</blockquote>
+<dl><dt>Voice</dt><dd>ElevenLabs "Ralph Azariah" clone, 191 characters</dd><dt>Reading level</dt><dd>Grade 3.0</dd><dt>Next</dt><dd>Your photo → fal H3 Max ($0.97) + Kie Kling Avatar ($0.48)</dd></dl>
+</section>
+</main>
