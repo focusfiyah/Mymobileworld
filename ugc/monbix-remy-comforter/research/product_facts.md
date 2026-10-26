@@ -17,3 +17,5 @@ Sources: (L) TikTok Shop listing https://shop.tiktok.com/us/pdp/melex-home-7-pie
 | 54,830 sold, 4.7 stars from 6,924 reviews | L product_info sold_count, review | not spoken (no numbers needed) |
 
 Physical truth (for prompts), from real frames (T, N) and listing photos: comforter SOLID terracotta both sides, prewashed crinkled microfiber, soft quilting lines; shams solid terracotta; pillowcases + flat + fitted sheet thin terracotta-and-white stripes, heathered terracotta bands, print on one side (pale back); one sewn striped patch pocket on each long side of the fitted sheet's side drop; no logo, label or text anywhere. Throw and small square cushion in listing photo A are staging, not in the set.
+
+Update 2026-10-26 (Ralph: "You saw this when we did the nose ad. That was the bed sheet"): Grace owns this sheet; her photo under the Mute box (ugc/mute-nasal-dilator/refs/grace_box_photo.jpg, crop refs/real/stripe_real_grace.jpg) is the stripe truth: terracotta bands a little wider than the off-white bands, distressed heathered print.

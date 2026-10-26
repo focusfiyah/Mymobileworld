@@ -53,8 +53,9 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 <p class="note">Reply with the numbers, e.g. "1 yes 2 yes 3 with 4 yes 5 none 6 Flow". Total if everything ran on Kie: <b>$4.725</b>; with Flow: <b>$1.26</b>.</p></section>
 <section class="box"><h2>The real product (what every prompt copies)</h2>
 <ul class="facts"><li><b>Comforter</b>: solid terracotta on both sides, soft quilting, no stripes</li><li><b>2 shams</b>: solid terracotta. <b>2 pillowcases, flat + fitted sheet</b>: thin terracotta-and-white stripes</li><li><b>Pockets</b>: one sewn striped pocket on EACH long side of the fitted sheet (Monbix's own video: "pockets on BOTH sides of the fitted sheet")</li><li>No logo anywhere. The throw and small cushion in the listing photo are staging, never shown.</li></ul>
-<figure><img src="img/sheet.jpg" alt="Product reference sheet"><figcaption>Reference sheet, real pixels only: listing photos + frames from the two creator videos</figcaption></figure>
-<div class="grid"><figure><img src="img/pocket_frames.jpg" alt="Real pocket frames"><figcaption>The real pocket (@tori_didit, 13.4M)</figcaption></figure>
+<figure><img src="img/sheet.jpg" alt="Product reference sheet"><figcaption>Reference sheet, real pixels only. Stripe = Grace's own sheet from the nose ad photo (terracotta bands a little wider than the white)</figcaption></figure>
+<div class="grid"><figure><img src="img/grace_sheet.jpg" alt="Grace's sheet"><figcaption>Grace's own sheet (Mute box photo): the stripe every prompt copies</figcaption></figure>
+<figure><img src="img/pocket_frames.jpg" alt="Real pocket frames"><figcaption>The real pocket (@tori_didit, 13.4M)</figcaption></figure>
 <figure><img src="img/room.jpg" alt="Room"><figcaption>The bedroom: real Pexels photo, olive wall</figcaption></figure></div></section>
 <section class="box"><h2>Script (Grace cloned voice)</h2><blockquote>{E(script)}</blockquote>
 <p class="note">Hook H102 in her wording. Grade 4.1. Humanizer done. Line sources and the gate result are in BOOK.md. The colour name is in because the top comment on both examples is "What color is this?". "Breathable/cooling" left out: the creator said it, the listing doesn't.</p></section>
