@@ -1,0 +1,401 @@
+# TikTok comments (2026-10-26), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+304 comments reachable of 991 reported across 5 videos. Buyer questions in them: 83.
+- "So it comes with the stripes sheets, two striped pillowcases, two solid and the comfort???" (7637460620719230239)
+- "What material is it made out of?👀👀" (7637460620719230239)
+- "what brand are your pillows? they look HEAVENLY 😩" (7637460620719230239)
+- "So.. where are your pillows from?" (7637460620719230239)
+- "Where did you get your pillows!? Those look comfy as hell 😅" (7637460620719230239)
+- "What does it made out of?" (7637460620719230239)
+- "Ok I have an honest question. When you walk in and see the stripes do they mess with your eyes? I know it sounds weird but I get dizzy🙂‍↔️" (7637460620719230239)
+- "where can I get it?" (7637460620719230239)
+- "Whats the material? Cotton? Polyester? Bamboo?" (7637460620719230239)
+- "What color is this ?" (7637460620719230239)
+- "Which color is this?" (7637460620719230239)
+- "Where the link ?" (7637460620719230239)
+- "Where is your bed from?" (7637460620719230239)
+- "When are the making more oversized queen in burnt orange? 😭😭" (7637460620719230239)
+- "What fabric is it?" (7637460620719230239)
+- "What color is yours?" (7637460620719230239)
+- "What color is this one called? The caramel?" (7637460620719230239)
+- "What color is this ???" (7637460620719230239)
+- "What color did you order?" (7637460620719230239)
+- "What color did you order?" (7637460620719230239)
+- "Ooo that warm rust color made the whole bedroom feel sooo cozy 😍👏 and a 7 piece set is such a win. Does the comforter feel lightweight or more on the plush side?" (7637460620719230239)
+- "It’s pretty do u have issues with it slipping off the bed?" (7637460620719230239)
+- "Is this the caramel color?" (7637460620719230239)
+- "Is the the autumn color?" (7637460620719230239)
+- "Is that the Autum or Carmel color?" (7637460620719230239)
+- "Is it a comforter or duvet?" (7637460620719230239)
+- "How does the comforter look after it’s washed?" (7637460620719230239)
+- "Did you get the king or oversized king?" (7637460620719230239)
+- "where did you get your bed frame?" (7637460620719230239)
+- "are the sheets deep pockets?" (7637460620719230239)
+- "Which color is this?" (7637460620719230239)
+- "Which color is this?" (7637460620719230239)
+- "Where the pillows from?" (7637460620719230239)
+- "What size are you all getting for a King? I want the comforter to flow well over BOTH sides of the bed." (7637460620719230239)
+- "What color is this set? The Autumn color?" (7637460620719230239)
+- "What color is this ? 🌈🌈🌈" (7637460620719230239)
+- "What color is that one?" (7637460620719230239)
+- "It’s not a duvet is it ?" (7637460620719230239)
+- "Is it hot? Cause my room doesn't cool very well so I need a lighter comforter" (7637460620719230239)
+- "How do I make sure I selected the option with striped sheets?" (7637460620719230239)
+- "How did you guys get all the wrinkles out???" (7637460620719230239)
+- "Does anyone have a king size bed? I wanna which size king I should get. I want my comforter to be oversized" (7637460620719230239)
+- "They got pumpkin spiced bed sheets now ?" (7652491533177998623)
+- "Be honest though, are the sheets soft or they are cheaper thread count?" (7652491533177998623)
+- "Where are the stripe sheets from? Is it in the set?" (7652491533177998623)
+- "Is this soft???" (7652491533177998623)
+- "Will oversized king sheets fit well on a regular king? I want oversized comforter 😁" (7652491533177998623)
+- "Which color is this?? Autumn leaf?" (7652491533177998623)
+- "When are they restocking?" (7652491533177998623)
+- "What size did you get for your bed?" (7652491533177998623)
+- "What color is this???" (7652491533177998623)
+- "Omg when will this restock?!" (7652491533177998623)
+- "What color is this?" (7652491533177998623)
+- "Is this fall leaf or the Carmel one?" (7652491533177998623)
+- "Is this color autumn leaves?" (7652491533177998623)
+- "what color is this?" (7652491533177998623)
+- "Y’all tryna tell me you change your bedding to match the season?! 😮‍💨🤑" (7652491533177998623)
+- "Will they be restocking this color?" (7652491533177998623)
+- "My walls and rug are grey donwe think this would match ?" (7652491533177998623)
+- "I got the olive green color and I absolutely love it, but I want the brown. When will they restock?" (7652491533177998623)
+- "Does this specific one come with the striped sheets? I ordered this one pictured with the striped sheets and it's scaring me how everyone is saying they didn't get them or they got different pattern sheets... I've been waiting for this autumn color and finally got it so I'm PRAYING it's this lol 🙏🏼 ALSOOOO I randomly just checked to see and the oversized queen is in stock and I ran so fast to buy it I been waiting patiently to get this color I'm excited !!! They go fast so I had to get it. I actually was gonna get something totally different but ended up canceling it and got my $$ money within 10 min and randomly saw this and ran to order it 😝😝😝 I'm just praying mine comes like this what is pictured 🙏🏼" (7652491533177998623)
+- "Do they smell like pumpkin??" (7652491533177998623)
+- "Did you put the sheet with the white side up? So when you fold it like that the stripes show? How did you get the stripes to show like" (7652491533177998623)
+- "But how do they hold up in the wash?" (7652491533177998623)
+- "Are the sheets linked somewhere?" (7652491533177998623)
+- "So what color is this ? Autumn? The pic doesn’t look the same when you pic your color to order." (7652491533177998623)
+- "Is this a different color than in the shopping cart?" (7652491533177998623)
+- "100% cotton???" (7652491533177998623)
+- "Are they cool? I sleep hot affff and always have issues with how suffocating most comforters are" (7697248894794599694)
+- "when will the black be back?" (7697248894794599694)
+- "is it a duvet cover?" (7697248894794599694)
+- "how heavy is the comforter?" (7697248894794599694)
+- "What about just the comforter???😩" (7697248894794599694)
+- "What about for a twin xl? What size should I get?" (7697248894794599694)
+- "Song?!?" (7697248894794599694)
+- "Sold out , do they usually restock?" (7697248894794599694)
+- "Im in Az. Is it heavy? Hot to sleep in?" (7697248894794599694)
+- "I looove this but is it hot?" (7697248894794599694)
+- "Can you fit in a standard washing machine?" (7697248894794599694)
+- "But is it good for cold climate?" (7697248894794599694)
+- "Montreal this puffy anyone have it already ?" (7698010337974422798)
+- "Is this regular or oversized fit?" (7693022210973355278)
+- "Do the sheets pill??? Someone please help" (7693022210973355278)
+
+## 7637460620719230239 (? views), 100 of 488 comments reachable. https://www.tiktok.com/video/7637460620719230239
+- (415 likes) "Letting everyone in these comments they lying cause it do not come with the fitted striped sheet"
+- (331 likes) "So it comes with the stripes sheets, two striped pillowcases, two solid and the comfort???"
+- (162 likes) "I have this bedding & it’s amazing! Unfortunately, mine didn’t come with the striped sheets. But it’s so soft & comfortable."
+- (47 likes) "They need to make this in a duvet version!!!"
+- (38 likes) "Girl, you did your top sheet wrong. You’re supposed to put it upside down where the white part faces up so when you fold your sheets over the design showd instead of the White showing thank me later."
+- (20 likes) "does the material collect the little lint balls like some material does ughh"
+- (10 likes) "What material is it made out of?👀👀"
+- (9 likes) "what brand are your pillows? they look HEAVENLY 😩"
+- (8 likes) "So.. where are your pillows from?"
+- (8 likes) "How you get it to be that fluffy"
+- (7 likes) "Where did you get your pillows!? Those look comfy as hell 😅"
+- (7 likes) "Someone tell me when the autumn color comes back in stock plzzzzz"
+- (7 likes) "I’m tryna see the book shelves lol"
+- (7 likes) "7 piece bundle 👀 SAY LESSSS"
+- (6 likes) "I HAVE THE SAGE COLOR AND ITS AWESOME. IM GETTING THIS ONE"
+- (6 likes) "Girl where are your pillows from plssss 🙏🏻"
+- (4 likes) "I want it but they sold out that cover"
+- (4 likes) "I just want the sheets!!"
+- (4 likes) "I have this. it's great 👍"
+- (4 likes) "I guess when u order it doesn’t come with the striped sheets 😫 that’s why I wanted the set."
+- (3 likes) "Yall is it the same fluffy"
+- (3 likes) "What does it made out of?"
+- (3 likes) "TikTok shop got the best stuff😭"
+- (3 likes) "Ok I have an honest question. When you walk in and see the stripes do they mess with your eyes? I know it sounds weird but I get dizzy🙂‍↔️"
+- (2 likes) "where can I get it?"
+- (2 likes) "Whats the material? Cotton? Polyester? Bamboo?"
+- (2 likes) "What color is this ?"
+- (2 likes) "Ughhh I want it but it’s polyester 😅"
+- (2 likes) "Ugh. I just bought one! Fine, I’ll get another one!"
+- (2 likes) "They need to restock !!! It’s fall we all want fall colors !!"
+- (2 likes) "Pinnnnnnnk"
+- (2 likes) "Pillow information pleaseee👀😂"
+- (2 likes) "Nice, but when my feet start getting rough, will it catch to it 🤨"
+- (2 likes) "I wish they would restock the twin sizes and colors"
+- (2 likes) "I want but not if there’s no fitted and everyone says it didn’t come with it"
+- (2 likes) "I purchased this and it is AMAZING!! She is not lying."
+- (2 likes) "I love love mine"
+- (2 likes) "I just got mine and Olive green and oh my gosh, it is so soft and comfy!"
+- (2 likes) "And it’s soo cozy too I have the same set"
+- (1 likes) "polyester 😏"
+- (1 likes) "is this cotton or flannel"
+- (1 likes) "Yep I’m going to need these"
+- (1 likes) "Which color is this?"
+- (1 likes) "Where the link ?"
+- (1 likes) "Where is your bed from?"
+- (1 likes) "Where did you get your pillows from 💚"
+- (1 likes) "When are the making more oversized queen in burnt orange? 😭😭"
+- (1 likes) "What pillow do you have"
+- (1 likes) "What is color is this"
+- (1 likes) "What fabric is it?"
+- (1 likes) "What color is yours?"
+- (1 likes) "What color is this one called? The caramel?"
+- (1 likes) "What color is this ???"
+- (1 likes) "What color did you order?"
+- (1 likes) "What color did you order?"
+- (1 likes) "Someone tell me when this color is back in stock"
+- (1 likes) "Someone tell me when this color is back in stock"
+- (1 likes) "Ooo that warm rust color made the whole bedroom feel sooo cozy 😍👏 and a 7 piece set is such a win. Does the comforter feel lightweight or more on the plush side?"
+- (1 likes) "Omg this looks so comfy"
+- (1 likes) "Love but they don't have the orange one 🥺"
+- (1 likes) "It’s pretty do u have issues with it slipping off the bed?"
+- (1 likes) "Is this the caramel color?"
+- (1 likes) "Is the the autumn color?"
+- (1 likes) "Is that the Autum or Carmel color?"
+- (1 likes) "Is it a comforter or duvet?"
+- (1 likes) "I just received mine and went with this color now I want the green one"
+- (1 likes) "I just got mine and the fitted sheet was horizontal and everything else striped was vertical 😵‍💫"
+- (1 likes) "I have the olive green color and love it 💯"
+- (1 likes) "I got the comforter but no sheets."
+- (1 likes) "How does the comforter look after it’s washed?"
+- (1 likes) "FINALLY this color is back in stock for the oversized queen and I ran and snatched it up real quick! 🍁😌"
+- (1 likes) "Did you get the king or oversized king?"
+- (1 likes) "Cute!"
+- (1 likes) "Color is that I don’t see it"
+- (1 likes) "Can u wash your the comeforter"
+- (0 likes) "yes!! I love this comforter!! plan on buying more!!"
+- (0 likes) "where did you get your bed frame?"
+- (0 likes) "are the sheets deep pockets?"
+- (0 likes) "Wish you could pick sheet size separately, I want a king comforter but I need queen sheets"
+- (0 likes) "Which color is this?"
+- (0 likes) "Which color is this?"
+- (0 likes) "Where the pillows from?"
+- (0 likes) "Where did you get your actual bed"
+- (0 likes) "What size are you all getting for a King? I want the comforter to flow well over BOTH sides of the bed."
+- (0 likes) "What colors I’m looking for a sage color"
+- (0 likes) "What color is this set? The Autumn color?"
+- (0 likes) "What color is this set in video"
+- (0 likes) "What color is this ? 🌈🌈🌈"
+- (0 likes) "What color is that one?"
+- (0 likes) "Nbcnn"
+- (0 likes) "It’s not a duvet is it ?"
+- (0 likes) "Is it hot? Cause my room doesn't cool very well so I need a lighter comforter"
+- (0 likes) "Idk why I thought you said “suh-thun” (southern) piece bundle at first… prob bc I’m from Alabama 😅🥴"
+- (0 likes) "I wish it was a duvet cover I would absolutely buy them"
+- (0 likes) "How do I make sure I selected the option with striped sheets?"
+- (0 likes) "How do I just buy the sheets"
+- (0 likes) "How did you guys get all the wrinkles out???"
+- (0 likes) "Does anyone have a king size bed? I wanna which size king I should get. I want my comforter to be oversized"
+- (0 likes) "Are the sheets deep pocket"
+- (0 likes) "Always out of stock UGH"
+
+## 7652491533177998623 (? views), 100 of 281 comments reachable. https://www.tiktok.com/video/7652491533177998623
+- (603 likes) "They got pumpkin spiced bed sheets now ?"
+- (339 likes) "This color is perfect because my dog is orange and she sheds like crazy 😭"
+- (39 likes) "I just wanna stay in bed all morning and listen to leaves crackle on the street"
+- (23 likes) "Immediately adding to the cart"
+- (21 likes) "Girl! Bye *adds to cart*"
+- (16 likes) "Update for anyone who is considering getting this DO IT.. it is seriously the most softest bedding I have ever bought"
+- (13 likes) "Don’t tease me like this, I’m trying to make it to August without buying a fall item 😩🍂"
+- (9 likes) "Be honest though, are the sheets soft or they are cheaper thread count?"
+- (8 likes) "It’s a need not a want 😍🤎🍂"
+- (7 likes) "I NEED THIS 😫"
+- (6 likes) "this is lowkey perfect bc his fav color is orange"
+- (6 likes) "Ohhhh cozy!!!!"
+- (5 likes) "Oh that looks so perfect!!!"
+- (4 likes) "Where are the stripe sheets from? Is it in the set?"
+- (4 likes) "Only if it was made of cotton😪"
+- (4 likes) "Love 😍"
+- (4 likes) "Is this soft???"
+- (4 likes) "Girl this my all year color for my bed got two whole sheet sets a comforter and fuzzy king sized blanket all in this burnt/pumpkin orange ."
+- (3 likes) "they are out of the caramel color!!!"
+- (3 likes) "Will oversized king sheets fit well on a regular king? I want oversized comforter 😁"
+- (3 likes) "Which color is this?? Autumn leaf?"
+- (3 likes) "When are they restocking?"
+- (3 likes) "What size did you get for your bed?"
+- (3 likes) "What color is this???"
+- (3 likes) "Ugh I was gonna buy but the Autumn Leaf is out of stock 🥺"
+- (3 likes) "The prettiest bedding set for fall"
+- (3 likes) "Stop I’m sold 😍"
+- (3 likes) "Omg when will this restock?!"
+- (3 likes) "Okay I got this is and it is a great set."
+- (3 likes) "Beautiful!"
+- (2 likes) "what color way is this"
+- (2 likes) "loveeit"
+- (2 likes) "What color is this?"
+- (2 likes) "Ugh I loveeeeeee"
+- (2 likes) "This perfect"
+- (2 likes) "This is PERFECTION!!!"
+- (2 likes) "The cutest fall bedding!"
+- (2 likes) "Solddddd😩🙈"
+- (2 likes) "SIKE! I love in Houston where I don’t need heavy blankets"
+- (2 likes) "RIP Richard Gilmore"
+- (2 likes) "Omg this is gorgeous!"
+- (2 likes) "Omg that looks so cozy. Need it now 🎃🤎"
+- (2 likes) "Nice!!!! 🍁🍂🤎🧡"
+- (2 likes) "Love the color"
+- (2 likes) "Is this fall leaf or the Carmel one?"
+- (2 likes) "Is this color autumn leaves?"
+- (2 likes) "Is it 100% Cotten"
+- (2 likes) "Immediate add 🤦‍♀️"
+- (2 likes) "I was just thinking i needed a fall set 😍 just ordered 🫶"
+- (2 likes) "I need this and some pumpkin pillows ❤️"
+- (2 likes) "Girl you got 6 kids how do you have slow mornings 🥲"
+- (2 likes) "119 dollars for a bedding set is crazyyy"
+- (1 likes) "what color is this?"
+- (1 likes) "sadly here in Oklahoma fall never really comes. it's just continuously stays roasting hot"
+- (1 likes) "ooh this is beautiful 😍"
+- (1 likes) "of course this color is sold out 😭 its so pretty"
+- (1 likes) "beautiful"
+- (1 likes) "Y’all tryna tell me you change your bedding to match the season?! 😮‍💨🤑"
+- (1 likes) "Yep now I need it"
+- (1 likes) "Will they be restocking this color?"
+- (1 likes) "Wait I love this"
+- (1 likes) "Ughhh I need this"
+- (1 likes) "They’re always out of stock!!! 😩"
+- (1 likes) "They don’t have this color 😭"
+- (1 likes) "That looks so cozy 🥰"
+- (1 likes) "So pretty, I want this"
+- (1 likes) "So perfect"
+- (1 likes) "So beautiful"
+- (1 likes) "So I have the same headboard and comforter and sitting here before realizing like these sheets would go perfect… 🤣"
+- (1 likes) "SO PRETTY"
+- (1 likes) "Ordered 🫶🏻"
+- (1 likes) "Oh my fall 🍂 I need this"
+- (1 likes) "Oh my"
+- (1 likes) "Oh"
+- (1 likes) "My walls and rug are grey donwe think this would match ?"
+- (1 likes) "Looooveee"
+- (1 likes) "LOVE those colors!!"
+- (1 likes) "Just put mine up today and I love it."
+- (1 likes) "Im SO MAD my bed size is sold out in the Carmel 😭😭😭😭😭"
+- (1 likes) "I love this 😍✨🍁🎃"
+- (1 likes) "I have this exact set and I swear, this is the softest, most comfortable bed set ever. 🧡🎃"
+- (1 likes) "I got this and it’s pink. Idk if you used a filter for the video or mine was just screwed but it’s basically a soft pink. Not an autumn orange"
+- (1 likes) "I got the olive green color and I absolutely love it, but I want the brown. When will they restock?"
+- (1 likes) "I NEED, not want but NEED"
+- (1 likes) "Does this specific one come with the striped sheets? I ordered this one pictured with the striped sheets and it's scaring me how everyone is saying they didn't get them or they got different pattern sheets... I've been waiting for this autumn color and finally got it so I'm PRAYING it's this lol 🙏🏼 ALSOOOO I randomly just checked to see and the oversized queen is in stock and I ran so fast to buy it I been waiting patiently to get this color I'm excited !!! They go fast so I had to get it. I actually was gonna get something totally different but ended up canceling it and got my $$ money within 10 min and randomly saw this and ran to order it 😝😝😝 I'm just praying mine comes like this what is pictured 🙏🏼"
+- (1 likes) "Do they smell like pumpkin??"
+- (1 likes) "Did you put the sheet with the white side up? So when you fold it like that the stripes show? How did you get the stripes to show like"
+- (1 likes) "CUTE!!!"
+- (1 likes) "But how do they hold up in the wash?"
+- (1 likes) "But I want color, and there isn't any. 🥺"
+- (1 likes) "Are the sheets linked somewhere?"
+- (1 likes) "Ahhh I can’t wait to put on fall bedding!!"
+- (0 likes) "Too bad it's polyester. So nice."
+- (0 likes) "The king comforter is definitely is too small for a king size bed and the king size sheets are too big for a king size bed! I wish I would’ve put them on the bed before I washed them cause I would be sending them back!"
+- (0 likes) "So what color is this ? Autumn? The pic doesn’t look the same when you pic your color to order."
+- (0 likes) "It’s julyyyy"
+- (0 likes) "Is this a different color than in the shopping cart?"
+- (0 likes) "Idk it look scratchy"
+- (0 likes) "I love the color 😍 so beautiful ugh can't wait for fall"
+- (0 likes) "100% cotton???"
+
+## 7697248894794599694 (? views), 65 of 148 comments reachable. https://www.tiktok.com/video/7697248894794599694
+- (79 likes) "my little emo heart cries in "having 3 orange cats and a tan dog" 😭"
+- (32 likes) "Nooooo black is gone already!😔"
+- (9 likes) "they don't have a full size 💔"
+- (6 likes) "I have the green one,literally OBSESSED🥰"
+- (5 likes) "and it's gones already 😅😅 as of 10/17/25"
+- (3 likes) "Not with my dogs😩"
+- (2 likes) "I have an orange cat and she decorates my comforters with her love and cuddles she’d love this!!"
+- (2 likes) "Black is never available"
+- (1 likes) "thought your mask was a bra for a second."
+- (1 likes) "that looks cozy"
+- (1 likes) "someone ping me when black is back"
+- (1 likes) "need these bad"
+- (1 likes) "Ordered mine!! [Heart eyes]"
+- (1 likes) "I need this BUT ITS STILL SOLD OUT"
+- (1 likes) "I got the hunter green and i LOVE IT. so thick and fluffy!!!"
+- (1 likes) "Are they cool? I sleep hot affff and always have issues with how suffocating most comforters are"
+- (1 likes) "@𝔤𝔬𝔱𝔥𝔯𝔞𝔫𝔠𝔥𝔴𝔦𝔣𝔢🕸️"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "😳🥰🥰"
+- (0 likes) "😍"
+- (0 likes) "when will the black be back?"
+- (0 likes) "unfortunately i have a white rabbit"
+- (0 likes) "still sold out. 🥺"
+- (0 likes) "oh I love it 🖤"
+- (0 likes) "is it a duvet cover?"
+- (0 likes) "how heavy is the comforter?"
+- (0 likes) "all sold out"
+- (0 likes) "What about just the comforter???😩"
+- (0 likes) "What about for a twin xl? What size should I get?"
+- (0 likes) "Wannttt! That looks so comfy dude."
+- (0 likes) "Those are gorgeous"
+- (0 likes) "This is what dark grey looks like btw!!"
+- (0 likes) "The eye mask is what I’m here for"
+- (0 likes) "Song?!?"
+- (0 likes) "Someone let me know when the over sized king gets back in stock 😒"
+- (0 likes) "Sold out , do they usually restock?"
+- (0 likes) "Soft"
+- (0 likes) "No it’s sold out 😭"
+- (0 likes) "Need navy blue"
+- (0 likes) "My dog got too many white hairs for all that 😭"
+- (0 likes) "Love this!!"
+- (0 likes) "Love this!"
+- (0 likes) "It’s sold out 😡😡😡"
+- (0 likes) "Im in Az. Is it heavy? Hot to sleep in?"
+- (0 likes) "If I didn’t have a blonde hair dog that sheds……"
+- (0 likes) "I wish😢my dog is white"
+- (0 likes) "I want this so bad but I have 5 cats and 3 are white. 😞"
+- (0 likes) "I want that eye mask"
+- (0 likes) "I want it so bad"
+- (0 likes) "I thought this was a scene from tlou2"
+- (0 likes) "I need it as a duvet cover pls"
+- (0 likes) "I looove this but is it hot?"
+- (0 likes) "I like"
+- (0 likes) "I have the dark grey, absolutely love!!!"
+- (0 likes) "Got it! 🖤"
+- (0 likes) "Damn it! I got the gray because of no black. Nowww the black drops 😤😑😂"
+- (0 likes) "Cries in Dalmatian owner bc the white hair sound destroy this 😭😭"
+- (0 likes) "Can you play chess on this"
+- (0 likes) "Can you fit in a standard washing machine?"
+- (0 likes) "But is it good for cold climate?"
+- (0 likes) "Black is there for me but I want the blue that’s currently out of stock. Probably just gonna get the mallard green"
+- (0 likes) "Black is still not available:("
+- (0 likes) "@Hannah"
+- (0 likes) "@Emma 🐞"
+- (0 likes) "@Emma 🐞"
+
+## 7698010337974422798 (? views), 26 of 40 comments reachable. https://www.tiktok.com/video/7698010337974422798
+- (35 likes) "You had me until the first review😂😂😂"
+- (23 likes) "They got me before to.. Plush no where!!! Flat like a pancake"
+- (11 likes) "I’m glad I PR trained myself to immediately read the reviews 😂😂😭"
+- (9 likes) "Let me gone head and take this out my cart"
+- (8 likes) "All the reviews are bad 😂"
+- (3 likes) "[Tears of joy] Scam"
+- (2 likes) "READ THE REVIEWS, Y'ALL! 😂🤦🏿‍♀️"
+- (2 likes) "Def glad I looked at the reviews!"
+- (2 likes) "After the first review….. no thanks lmaooo"
+- (2 likes) ""
+- (1 likes) "😂 what you get is a paper thin blanket"
+- (1 likes) "for $40 yeah probably junk"
+- (1 likes) "I think I am 1/2 bear because when it gets cold I want to stay under the cover all the time I need this for my hybernation"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "😳😳😳"
+- (0 likes) "❤️"
+- (0 likes) "is tgere a way to get queen sheets and king comforter"
+- (0 likes) "[Twin hearts][Twin hearts][Twin hearts]"
+- (0 likes) "[Big LOL][Big LOL][Big LOL]"
+- (0 likes) "Yeah they did this with that mattress topper too smh"
+- (0 likes) "Worst comforter set"
+- (0 likes) "Montreal this puffy anyone have it already ?"
+- (0 likes) "I need California King 😢"
+- (0 likes) "@🪶🃏Jolene 🃏🪶"
+- (0 likes) "@kyralynne_"
+
+## 7693022210973355278 (? views), 13 of 34 comments reachable. https://www.tiktok.com/video/7693022210973355278
+- (4 likes) "Brown is expected to restock around mid-October in Full, Queen, Oversized Queen, King & Oversized King. Quantities will be limited! 👀✨🫶"
+- (3 likes) "Literally the best bedding video."
+- (2 likes) "Is it a comforter or a comforter cover"
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "This looks like a dream!✨"
+- (1 likes) "Love it"
+- (1 likes) "Is this regular or oversized fit?"
+- (1 likes) "I have a kind bed and would love to recreate this in my weekend reset video 😍 I already know it’s going for o look so good!"
+- (1 likes) "I drool over thisssss"
+- (0 likes) "i need a black and white checkered and grid pattern so bad!"
+- (0 likes) "We have various sizes & colors, multiple styles. Fitted sheet with side pockets. Soft solid tone for a warm bedroom."
+- (0 likes) "I need this set"
+- (0 likes) "Do the sheets pill??? Someone please help"

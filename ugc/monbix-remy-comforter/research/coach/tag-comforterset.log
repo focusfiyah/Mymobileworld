@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 21 of 88 videos posted since 2026-08-27
+21 videos -> research/coach/tag-comforterset.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  5,400,000   0.7   0.16   51 2026-09-02  @rachel_nicole410: The secret is out.... Get the oversized king!! @Bedsure #comforter #co
+                                          https://www.tiktok.com/@rachel_nicole410/video/7681023106122648862
+  3,300,000   1.1   0.19    6 2026-10-16  @samanthakayde: wait they finally dropped the black checkered comforter bedding set!! 
+                                          https://www.tiktok.com/@samanthakayde/video/7697248894794599694
+  2,300,000   2.0   0.46   33 2026-09-30  @reallaurakay: easiest bedroom hack ever 🤌🏼🤎 #comforterset #7piececomforterset #luxur
+                                          https://www.tiktok.com/@reallaurakay/video/7691389308934032671
+  2,200,000   1.1   0.19   15 2026-09-06  @mina.ledean: genius design for all seasons 🍂🌸⛈️☀️ suuuch a steal @Bedsure US Local 
+                                          https://www.tiktok.com/@mina.ledean/video/7682493128208567583
+    674,600   1.5   0.37   15 2026-10-18  @cosybayhome: I redecorated my whole room for under $100 and this is the star. Cosyb
+                                          https://www.tiktok.com/@cosybayhome/video/7698010337974422798
+    656,300   0.6   0.11   15 2026-10-01  @cosybayhome: Fall reset just got easier 🍂 This quilt set is *so* soft & cozy 🔥 7-pi
+                                          https://www.tiktok.com/@cosybayhome/video/7691525727367318814
+    596,600   0.8   0.16   14 2026-10-05  @monbixhome: literally the hack when you want a cozy, put-together bed without figu
+                                          https://www.tiktok.com/@monbixhome/video/7693022210973355278
+    484,700   1.5   0.31   45 2026-09-22  @barb_320: “Warm autumn color,cozy and a farmhouse feel 🤎I’m obsessed with this c
+                                          https://www.tiktok.com/@barb_320/video/7688402763964763405
+    327,000   0.4   0.12    9 2026-09-22  @myfamilyapproved: Because sometimes you just need the world to be quiet and your bed to 
+                                          https://www.tiktok.com/@myfamilyapproved/video/7688329561494342925
+    187,900   2.8   0.15   37 2026-10-11  @gabriella_vigorito: Seasonal bedding is the best! Because it’s one bedspread that works fo
+                                          https://www.tiktok.com/@gabriella_vigorito/video/7695530083334901006
+    141,200   1.7   0.46   30 2026-09-10  @dailywithcallie: #7piececomforterset #chocolatebrownbedding #fallbedding #beddinginspo 
+                                          https://www.tiktok.com/@dailywithcallie/video/7683964691449679117
+    135,900   0.9   0.13   14 2026-10-22  @horrorbanshee: They FINALLY gave us black!🖤 #moodyaesthetic #bedding #comforterset #g
+                                          https://www.tiktok.com/@horrorbanshee/video/7699298142490987807
+    125,600   1.0   0.19   46 2026-10-09  @meditating_blackhawk: This is TOO COMFORTABLE‼️#comforterset #beddingset #sleep #comfortable
+                                          https://www.tiktok.com/@meditating_blackhawk/video/7694760899675950367
+     93,500   5.3   0.96   43 2026-09-30  @firstlady1976: 🩷🎀Pink plush cozy bedding 3pcs set #amazonfinds #bedding #pinkdecor #a
+                                          https://www.tiktok.com/@firstlady1976/video/7691470185382956301
+     85,200   0.8   0.18   16 2026-10-20  @shop.lex.finds: If you’ve been waiting, now’s your chance!! #comforterset #comforter #
+                                          https://www.tiktok.com/@shop.lex.finds/video/7698746759991889183

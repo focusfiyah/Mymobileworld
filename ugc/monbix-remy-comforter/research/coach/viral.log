@@ -1,0 +1,78 @@
+  #tiktokshophome: 86 videos
+  #tiktokshopkitchen: 84 videos
+  #tiktokshopcleaning: 86 videos
+  #tiktokshopfinds: 84 videos
+  #comforterset: 88 videos
+  #beddingset: 87 videos
+  #fallbedding: 84 videos
+  #bedding: 88 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+636 videos scanned, 169 shop videos posted in the last 30.0 day(s) -> research/coach/viral-2026-10-26.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      635K    2.4M  3.8d   0.3  Adjustable Under-Sink Storage Rack, Thick PP Telescopic [Home Supplies]
+                                  @user8473634931408: #DealsForYouDays #tiktokshopholiday #tiktokshop #HomeEssenti
+                                  https://www.tiktok.com/@user8473634931408/video/7699441649641999646
+  2      469K    2.4M  5.1d  0.15  XURATTIX  Electrical Outlet Extender Stick, 360° Rotati [Phones & Electronics]
+                                  @tapa_mondo: #outlet #outletextender #homeimprovement #homeimprovements #
+                                  https://www.tiktok.com/@tapa_mondo/video/7698944690132929805
+  3      424K    2.0M  4.7d  0.41  304 Stainless Steel  Deep Fryer Pot Set - Durable, Comp [Kitchenware]
+                                  @gtmp80801ov: A deep fryer AND an oil strainer in one?! Kitchen genius 🤯✨#
+                                  https://www.tiktok.com/@gtmp80801ov/video/7699095193772936478
+  4      400K    9.9M 24.7d  0.05  SEESE Turbo Jet Leaf Blower,Cordless Leaf Blower, Viole [Tools & Hardware]
+                                  @pinkmama002: Your daily cleaning just got easier.#blower #CarCare #carown
+                                  https://www.tiktok.com/@pinkmama002/video/7690981239267904798
+  5      395K    2.3M  5.8d  0.51  (product not in TikTok's data)
+                                  @elliejadef: Cool girl cutlery 😌💫 #kitchenfinds #homefinds #kitchenware #
+                                  https://www.tiktok.com/@elliejadef/video/7698682174752689431
+  6      341K    3.3M  9.7d  0.19  【Fall Deals For You 】Bedsure Checkered Farmhouse Shabby [Textiles & Soft Furnishings]
+                                  @samanthakayde: wait they finally dropped the black checkered comforter bedd
+                                  https://www.tiktok.com/@samanthakayde/video/7697248894794599694
+  7      274K    5.8M 21.2d  0.15  Besure 3 Pieces Fluffy Faux Rabbit Fur Bubble Comforter [Textiles & Soft Furnishings]
+                                  @alexhigdon_: the SOFTEST & cuddliest bedding I’ve ever owned 😴 #bedsure #
+                                  https://www.tiktok.com/@alexhigdon_/video/7692993357932514574
+  8      219K    2.1M  9.6d  0.47  Fall/Winter Elegant and soft retro practical texture cl [Luggage & Bags]
+                                  @atnorah: makeup bag dream 🎀✨ #makeupbag #chicfinds #makeuporganizatio
+                                  https://www.tiktok.com/@atnorah/video/7697174938444205325
+  9      182K     82K  0.5d   0.4  HOOMIC 73-Inch Fan-Shaped Corner Cat Tree, Space-Saving [Pet Supplies]
+                                  @leekirra: Best TikTok shop find of the year 😜 #fyp 
+                                  https://www.tiktok.com/@leekirra/video/7700677036762860813
+ 10      174K    546K  3.1d  0.28  XURATTIX  Electrical Outlet Extender Stick, 360° Rotati [Phones & Electronics]
+                                  @tapa_mondo: #DiscoverYourGift #outlet #outletextender #homeimprovement #
+                                  https://www.tiktok.com/@tapa_mondo/video/7699678638874037518
+ 11      171K    4.0M 23.4d  0.09  【Fall Deals For You 】Bedsure Checkered Farmhouse Shabby [Textiles & Soft Furnishings]
+                                  @shop.lex.finds: The perfect moody green I’m obsessssed ✨ 🌲 #bedding #comfort
+                                  https://www.tiktok.com/@shop.lex.finds/video/7692152270724549919
+ 12      155K    3.5M 22.6d  0.25  Women's Vintage Polka Dot Tote Bag - Cutecore Casual Sl [Luggage & Bags]
+                                  @lujushop: A giant chocolate bow AND tiny polka dots?? Yeah this was ma
+                                  https://www.tiktok.com/@lujushop/video/7692467043072789773
+ 13      155K    956K  6.2d  0.13  Rotating Wall Outlet Extender – 2 AC + USB-C/A Ports (3 [Home Improvement]
+                                  @tapa_mondo: Replying to @jv_madrid08 this is genius… #outlet #outletexte
+                                  https://www.tiktok.com/@tapa_mondo/video/7698554165995375886
+ 14      155K    2.6M 16.8d  0.16  (product not in TikTok's data)
+                                  @yolanvgahmb: #DealsForYouDays #tiktokshopholiday #fyp #tiktokshop #HomeEs
+                                  https://www.tiktok.com/@yolanvgahmb/video/7694603268231646495
+ 15      151K    2.4M 15.9d  0.08  Foldable Over The Sink Dish Drying Rack, Carbon Steel 2 [Home Supplies]
+                                  @sunwardhome: #TikTokShopCreatorPicks #KitchenOrganization #KitchenHacks #
+                                  https://www.tiktok.com/@sunwardhome/video/7694952365992021262
+ 16      148K    1.9M 12.8d  0.06  (product not in TikTok's data)
+                                  @tariq.rana06: #fyp #tiktokshop #homefinds #hack#tiktokmademebuyita1
+                                  https://www.tiktok.com/@tariq.rana06/video/7696080933581032726
+ 17      140K    914K  6.5d  0.14  Women's Hooded Double-Sided Fleece Cardigan Long Sleeve [Womenswear & Underwear]
+                                  @ulysses8876: #tiktok #tiktokshop #tiktokmademebuyit #fyp
+                                  https://www.tiktok.com/@ulysses8876/video/7698421413761273102
+ 18      139K    874K  6.3d  0.61  (product not in TikTok's data)
+                                  @kcamadi5: #tiktokshop #fyp #tiktok #tiktokmademebuyit #xmasgiftideas 
+                                  https://www.tiktok.com/@kcamadi5/video/7698506053205445910
+ 19      133K    3.1M 23.4d  0.13  (product not in TikTok's data)
+                                  @user2988182241461: #tiktokshop #homeorganization #organizedhome 
+                                  https://www.tiktok.com/@user2988182241461/video/7692176464363392270
+ 20      125K    1.9M 15.2d  0.08  BEDELITE Multi-Size Wave Fluffy Sherpa Bed Comforter Se [Textiles & Soft Furnishings]
+                                  @yoannahome: Este edredón será todo lo que necesites para todo el inviern
+                                  https://www.tiktok.com/@yoannahome/video/7695190275508948238
+RESEARCH_DONE
