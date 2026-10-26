@@ -9,16 +9,16 @@ shots = "".join(f"""<article class="shot"><div class="sh"><span class="num">{s['
 <p class="say">{E(s['words'])}</p><p class="see">{E(s['still'])}</p><p class="mv"><b>Motion:</b> {E(s['motion'])}</p>
 <details><summary>Full still prompt</summary><pre>{E(Path('prompts/still_'+s['id']+'.txt').read_text())}</pre></details>
 <details><summary>Full clip prompt</summary><pre>{E(Path('prompts/'+s['id']+'.txt').read_text())}</pre></details></article>""" for s in SH)
-STORY = [("S1","PASS","Pouch small on the nightstand; the lamp is lit (warm glow), the room stays bright."),
- ("S2","PASS","Torn top, straw, thin serif print."),
- ("S3","REDO","B12B6 drawn in a bold sans font; the real one is a thin serif."),
- ("S4","REDO","Same bold sans B12B6, and an invented disclaimer line."),
- ("S5","PASS","Thin serif print, good grip. The torn tab still hangs off one side, like it was just torn: OK, or redo?"),
- ("S6","PASS","Box print right. Her thumb covers part of B6 at the start; in the clip she sets it down and lets go, so it shows."),
- ("S7","REDO","Pouch tiny and its print unreadable; reframed close."),
- ("S8","PASS","Fake book-spine and screen text blurred free."),
- ("S9","REDO","Bold sans B12B6 again.")]
-story = "".join(f"""<figure class="st"><img src="st/{i}_r2.jpg" alt="{i} still"><figcaption><b class="{'ok' if v=='PASS' else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
+STORY = [("S1","PASS","As sold, tab on, no straw. Her fingers wrap the edge; tiny 'help support' line is off by one letter (not readable on a phone)."),
+ ("S2","PASS","As sold, tab on, by the alarm clock. Tiny '30 mL' reads '35 mL' (not readable on a phone)."),
+ ("S3","PASS","As sold, thin serif print, ready for the shake."),
+ ("S4","PASS","As sold next to the raspberries."),
+ ("S5","KEPT","Your pick: the moment it is opened, half-torn tab."),
+ ("S6","REDO?","Box print right, but her fingers pinch the top and hide the neck."),
+ ("S7","PASS","Close on the bench, neck and shoulders whole, readable."),
+ ("S8","KEPT","Spine text blurred free."),
+ ("S9","REDO?","Top cut straight across again and the claim lines are gibberish.")]
+story = "".join(f"""<figure class="st"><img src="st/{i}_r3.jpg" alt="{i} still"><figcaption><b class="{'ok' if v in ('PASS','KEPT') else 'bad'}">{i} {v}</b> {E(n)}</figcaption></figure>""" for i,v,n in STORY)
 page = f"""<title>B12B6 Pouch Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Work+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -51,11 +51,10 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
-<section class="ask"><strong>Storyboard round 2: your call</strong><ol>
-<li>Redo S3, S4, S7, S9 on Kie: 4 x $0.09 = <b>$0.36</b> (job so far $1.62 of $4.455; October $168.83). Font now forced to the thin serif, S7 framed close.</li>
-<li>S5: keep the half-torn tab hanging off, or redo it with the tab fully gone?</li>
+<section class="ask"><strong>Storyboard round 3: your call</strong><ol>
+<li>Redo S6 and S9 with your kept S5 as the reference for the top (neck and shoulders whole, half-torn tab, straw): 2 x $0.09 = <b>$0.18</b> (job so far $2.25 of $4.455; October $169.46).</li>
 <li>Then the clips on Kie (Omni), S6 first as the test clip.</li></ol></section>
-<section class="box"><h2>Storyboard, round 2 (no spouts this time)</h2><div class="stgrid">{story}</div></section>
+<section class="box"><h2>Storyboard, round 3 (S1-S4 as sold, straw from S5)</h2><div class="stgrid">{story}</div></section>
 <details class="box"><summary><b>Plan you approved</b> (answers: 1 none, 2 yes, 3 say box, 4 yes, 5 yes, 6 Kie, 7 yes)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
 <li>Check the <b>real product details</b> below (top, shape, print, box). Anything wrong?</li>

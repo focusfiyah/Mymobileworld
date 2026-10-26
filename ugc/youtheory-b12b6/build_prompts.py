@@ -16,7 +16,8 @@ def still(s):
     add(SHEET, "the product reference sheet built from real photos (A = the real pouch front)")
     add(LOGO, "a close-up of the real 'youtheory' logo and magenta dot circle")
     add(WORD, "a close-up of the real 'B12B6 liquid' wordmark, claim lines and 'raspberry flavor' bar")
-    if s["straw"]: add(TORN, "the real pouch with its tear-off tab torn off and the white paper straw in the opening: the exact top to draw")
+    if s["straw"] and s["id"] != "S5": add("stills/S5.png", "an approved frame from this video: copy its pouch top exactly (the neck and square shoulders whole, the torn tab edge at the top of the neck, the white paper straw standing in the opening)")
+    elif s["straw"]: add(TORN, "the real pouch with its tear-off tab torn off and the white paper straw in the opening: the exact top to draw")
     else: add(REAL, "a real photo of Grace's unopened pouch, tab on")
     box = ""
     if s.get("box"):
@@ -26,7 +27,7 @@ def still(s):
     add(s["room"], "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     parts = ["Vertical 9:16 photo, a single frame from a phone-shot UGC video.", B["size_first"], s["still"],
-             B["hand_block"] if s["hand"] else B["no_hand"], B["pouch_block"], B["straw_block"] if s["straw"] else B["intact_block"], box, B["scene_suffix"],
+             B["hand_block"] if s["hand"] else B["no_hand"], B["pouch_block"], (B["straw_block"].replace("The torn-off tab is not in the frame.", "The half-torn tab still hangs from one side of the top, exactly as in image 4, because it was just opened.").replace("has been torn off;", "has been torn open;").replace("in this frame it is torn off", "in this frame it is torn open") if s["id"] != "S5" else B["straw_block"]) if s["straw"] else B["intact_block"], box, B["scene_suffix"],
              "Reference images: " + "; ".join(n) + ". The pouch print must match images 1 to 3 letter for letter and colour for colour, and its top must look exactly like image 4."]
     return r, " ".join(p for p in parts if p)
 
