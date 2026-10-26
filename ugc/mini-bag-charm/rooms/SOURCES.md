@@ -1,0 +1,5 @@
+# Room sources (real photos, free commercial use, no attribution)
+- roomA_wood_table.jpg: https://pixabay.com/photos/table-candle-decoration-interior-4222263/ (Pixabay Content License (free commercial use, no attribution)) table, candle, decoration, interior, romantic, celebration, candlestick, candlelight, living room, table, table, table, candle, candle, candle, candle, candle, living room, living room, living room
+- roomC_fireplace.jpg: https://www.pexels.com/photo/brown-woven-basket-near-the-fireplace-5870788/ (Pexels License (free commercial use, no attribution)) Warm festive interior with a Christmas tree and fireplace setting the holiday mood.
+- roomD_tree_bows.jpg: https://www.pexels.com/photo/elegant-christmas-tree-in-classic-living-room-29640022/ (Pexels License (free commercial use, no attribution)) A beautifully decorated Christmas tree in a classic living room setting with vintage decor accents.
+- roomB_sofa_window.jpg: https://pixabay.com/photos/4226020/ (Pixabay Content License, free commercial use, no attribution); pulled by rooms.py, its cand.json was lost to a 429 on that run

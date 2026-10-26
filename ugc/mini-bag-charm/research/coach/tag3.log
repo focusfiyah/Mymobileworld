@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/mini-bag-charm/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/mini-bag-charm/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 54 of 60 videos posted since 2026-09-26
+54 videos -> research/coach/tag-stockingstuffer.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  2,500,000   0.3   0.06   60 2026-09-30  @nikkiyef: Grab these Christmas dumpling squishies before they’re gone!!#dumpling
+                                          https://www.tiktok.com/@nikkiyef/video/7691263787994762527
+    981,500   1.1   0.25   15 2026-10-20  @besttoygift: Perfect stocking stuffer for Christmas 🎄#toys #kidstoys #giftforkids #
+                                          https://www.tiktok.com/@besttoygift/video/7698590149319380255
+    344,000  15.1   1.84   15 2026-10-14  @yvettejpino: Stocking stuffers! #targetfinds #christmasfinds #stockingstufferideas 
+                                          https://www.tiktok.com/@yvettejpino/video/7696639181887622430
+    228,600  12.5   1.47   67 2026-10-22  @paigeconstantino: this deal is my FAV sooo many great things!!🤭🛍️🍭💁🏼‍♀️🫧🎀 #ulta #afforda
+                                          https://www.tiktok.com/@paigeconstantino/video/7699511302980390157
+    154,100   7.9   3.35   78 2026-10-12  @bullseyeonthebargain: Stocking stuffer ideas teen girl edition!! #stockingstuffers #giftguid
+                                          https://www.tiktok.com/@bullseyeonthebargain/video/7695921994054831391
+    145,500  19.7   4.45   84 2026-10-21  @samcity_: practical gift ideas (or stocking stuffers) for the girl in your life 
+                                          https://www.tiktok.com/@samcity_/video/7699219273394294037
+    111,800   8.7   3.13   86 2026-10-12  @just_jess_t: Teen girl stocking stuffers that are actually CUTE!! 🎀🎄 I found so man
+                                          https://www.tiktok.com/@just_jess_t/video/7695616297572273438
+    102,100  14.4   5.85  121 2026-10-05  @occupationalemily: You all know that junk hates to see me coming (and stocking stuffers a
+                                          https://www.tiktok.com/@occupationalemily/video/7692969654943223054
+     92,000  10.4   3.67  213 2026-10-06  @dayinthegoodlife: I have all of them linked with the orange shopping cart and a lot of t
+                                          https://www.tiktok.com/@dayinthegoodlife/video/7693667404555078925
+     66,000  14.5   0.44   42 2026-10-20  @nicoleburchcomedy: Careful stuffing your stocking this year! 🎄🎅 #nurserachel #er #stayout
+                                          https://www.tiktok.com/@nicoleburchcomedy/video/7698836439215246622
+     62,600   4.3   0.88   33 2026-10-22  @xoaprillmae: Arguably the hardest to shop for! Teen boy stocking stuffer ideas #sto
+                                          https://www.tiktok.com/@xoaprillmae/video/7699562214444813598
+     60,800  13.2   2.41   90 2026-10-25  @elden.brady: Stocking stuffers! Everything linked on my Amazon Storefront in my bio
+                                          https://www.tiktok.com/@elden.brady/video/7700432963040775454
+     60,100  12.2   1.33   30 2026-10-21  @jenn.ordway: Sooo many fun holiday squishies! 🎄🎅🏻 All the best ones are 🔗 in my AMZ
+                                          https://www.tiktok.com/@jenn.ordway/video/7699191515070876941
+     55,200   7.3   1.63  115 2026-10-16  @kathilipp: I stopped filling everyone’s stockings myself—and Christmas got more f
+                                          https://www.tiktok.com/@kathilipp/video/7697312973265587470
+     46,500   5.4   1.79  290 2026-10-05  @lucyksmith: 2026 Gift Guides!!!! First up- Stocking Stuffers for Her 🎅🏻🎄💕 #holiday
+                                          https://www.tiktok.com/@lucyksmith/video/7693320164561014046

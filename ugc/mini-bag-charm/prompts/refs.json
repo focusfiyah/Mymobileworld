@@ -1,0 +1,131 @@
+{
+ "S1": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomA_wood_table.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S1.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S2": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomA_wood_table.jpg"
+  ],
+  "clip_refs": [
+   "stills/S2.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S3": {
+  "still_refs": [
+   "rooms/roomB_sofa_window.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S3.png"
+  ]
+ },
+ "S4": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomB_sofa_window.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S4.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S5": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomA_wood_table.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S5.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S6": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomA_wood_table.jpg"
+  ],
+  "clip_refs": [
+   "stills/S6.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S7": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomB_sofa_window.jpg"
+  ],
+  "clip_refs": [
+   "stills/S7.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png"
+  ]
+ },
+ "S8": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomC_fireplace.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S8.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S9": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "rooms/roomD_tree_bows.jpg"
+  ],
+  "clip_refs": [
+   "stills/S9.png",
+   "refs/real/closeup_lock.png",
+   "refs/real/closeup_scarf.png",
+   "refs/product_sheet.png"
+  ]
+ }
+}
