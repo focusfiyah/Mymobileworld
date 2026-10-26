@@ -22,13 +22,13 @@ put(lst['main_01'], (30, 20), 760, 760, 'A  whole set (throw + small cushion NOT
 put(lst['main_08'].crop((0, 150, 800, 640)), (820, 20), 760, 600, 'B  the 7 pieces')
 put(Image.open('refs/real/pocket_real_tori2.png'), (1610, 20), 760, 680, 'C  REAL side pocket (fitted sheet)')
 put(Image.open('refs/closeup_pocket_listing.png'), (30, 840), 560, 560, 'D  pocket each side')
-put(Image.open('refs/real/stripe_real_niki.png'), (620, 840), 560, 420, 'E  REAL stripe close-up')
+put(Image.open('refs/real/stripe_real_grace.jpg'), (620, 840), 560, 420, "E  REAL stripe, Grace's own sheet")
 put(Image.open('refs/real/comforter_texture_tori.png'), (1210, 840), 560, 460, 'F  REAL comforter (solid)')
 put(Image.open('refs/real/flatsheet_back_tori.png'), (1800, 840), 570, 560, 'G  REAL flat sheet, pale back')
 lines = ['Monbix Remy Stripe comforter set, colour "Autumn Leaf" (terracotta / burnt orange). Queen = 7 pieces:',
          '1 comforter: SOLID terracotta both sides, prewashed crinkled microfiber, soft quilting lines, no pattern, no logo.',
          '2 shams: solid terracotta. 2 pillowcases + flat sheet + fitted sheet: thin terracotta and white stripes,',
-         'heathered (slubby) terracotta bands, white bands about as wide. Print is on one side: sheet backs are pale.',
+         'terracotta bands a little wider than the off-white ones, distressed print texture. Print on one side: backs pale.',
          'Fitted sheet: ONE sewn-on striped patch pocket on EACH long side of the bed (phone / book size), on the side drop.',
          'Queen stripes run head to foot on top of the bed. No labels, logos or text anywhere on the bedding.']
 for i, t in enumerate(lines): d.text((30, 1480 + i * 46), t, fill='black', font=f)

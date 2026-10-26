@@ -4,7 +4,7 @@ Ralph's stack: size first, numbered references named in the prompt and matched c
 import json
 from pathlib import Path
 D = json.loads(Path("shots.json").read_text()); B = D["blocks"]; SH = D["videos"][0]["shots"]
-SHEET, STRIPE, COMF, POCKET = "refs/product_sheet.png", "refs/real/stripe_real_niki.png", "refs/real/comforter_texture_tori.png", "refs/real/pocket_real_tori2.png"
+SHEET, STRIPE, COMF, POCKET = "refs/product_sheet.png", "refs/real/stripe_real_grace.jpg", "refs/real/comforter_texture_tori.png", "refs/real/pocket_real_tori2.png"
 ROOM, HAND = "rooms/roomA_olive_bedroom.jpg", "../../grace/ref/hand-sheets/with_bracelet.jpg"
 
 
@@ -12,7 +12,7 @@ def still(s):
     r, n = [], []
     def add(p, what): r.append(p); n.append(f"image {len(r)} = {what}")
     add(SHEET, "the product reference sheet built from real photos of this exact set")
-    add(STRIPE, "a real close-up of the sheet and pillowcase stripe (colour and stripe width)")
+    add(STRIPE, "a real close-up of Grace's own sheet from this set (stripe colour, width and print texture)")
     add(COMF, "a real close-up of the solid terracotta comforter fabric")
     if s["pocket"]: add(POCKET, "a real close-up of the fitted sheet's striped side pocket")
     add(ROOM, "the real room photo to use as the setting")

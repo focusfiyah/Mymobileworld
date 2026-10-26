@@ -43,7 +43,7 @@ Hook (H102) / pain / solution (pockets both sides) / what's in the set / selling
 Face: none. Voiceover only (Grace cloned `Rh3oAQMqRVf78UIVpBoQ`, echo gate <=150 ms), no lip sync.
 Setting: rooms/roomA_olive_bedroom.jpg (Pexels 15683265; rooms/SOURCES.md). Bright neutral grade, no text, AI finish last.
 Hand: Grace's hand sheet WITH bracelet (Q3).
-Real product (refs/product_sheet.png, real pixels only): comforter SOLID terracotta both sides with soft quilting; 2 solid shams; 2 striped pillowcases + flat + fitted sheet in thin terracotta-and-white stripes; ONE striped pocket on EACH long side of the fitted sheet. No logo anywhere. Throw + small cushion in the listing photo are staging, never shown.
+Real product (refs/product_sheet.png, real pixels only): comforter SOLID terracotta both sides with soft quilting; 2 solid shams; 2 striped pillowcases + flat + fitted sheet in thin terracotta-and-off-white stripes, the terracotta bands a little wider, distressed print texture (Grace's OWN sheet, seen under the Mute box in the nose ad, is the stripe reference: Ralph 2026-10-26); ONE striped pocket on EACH long side of the fitted sheet. No logo anywhere. Throw + small cushion in the listing photo are staging, never shown.
 Fall pillow (Ralph's ask, Q2): one cream boucle pumpkin pillow with a sage-green stem (the 5.3M video used brown ones; cream keeps ours different and pops on the terracotta).
 Phone (S3, S4): plain black phone, screen off.
 
@@ -75,4 +75,4 @@ TOTAL: $4.725
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Still prompts: prompts/still_S1..S11.txt; Omni clip prompts: prompts/S1..S11.txt; refs per shot: prompts/refs.json. All pass grace/prompt_check.py lint and are marked checked (read end to end: fixed the shared "eye line" camera line that fought the low shots, and "no people" in the lying-down POV).
-Still refs: 1 product sheet, 2 real stripe close-up, 3 real comforter close-up, (pocket shots: 4 real pocket close-up), room photo, Grace's hand sheet on hand shots. Clip refs: 1 the approved still, 2 stripe, 3 comforter, (pocket), sheet, hand sheet (hand shots).
+Still refs: 1 product sheet, 2 Grace's real sheet close-up, 3 real comforter close-up, (pocket shots: 4 real pocket close-up), room photo, Grace's hand sheet on hand shots. Clip refs: 1 the approved still, 2 stripe, 3 comforter, (pocket), sheet, hand sheet (hand shots).
