@@ -46,7 +46,7 @@ OWNS: grace/clip_check.py, grace/billed.py, grace/billed.json, grace/spend.py, g
 - [x] G10: all three repos committed, merged into main and pushed
   CHECK: python3 tools/clipcheck/check_rest.py merged
   EXPECT: MERGED_OK
-  EVIDENCE: 2026-10-26 ran by hand after the final push: see commit 'Gates: evidence' (MERGED_OK printed before this edit; re-run after push below)
+  EVIDENCE: 2026-10-26 ran by hand after the final push: MERGED_OK (Mymobileworld, Dayone-ai, claude-skills: branch head is on origin/main, nothing uncommitted)
 
 - [x] G11: live rules Google Doc refreshed with the new rule; Ralph notified (push + email) with the review page link
   EVIDENCE: 2026-10-26 new doc 1CYz2luEHLKeulI5TuAGIUFLW8BwNWgwER5PqPuSpXKk read back with the Clip check rule, old 1J3nVj... trashed, LIVE_DOC.txt updated in both repos; Gmail sent (id 1a176705f278b0b8), PushNotification 'Mobile push requested', review page https://claude.ai/artifact/Xb2LBGTj7V2VPbvNY5mEbT, skill zip sent in chat
