@@ -49,14 +49,14 @@ Free fixes first: crop/retime before any reroll.
 ## 6. Cost (one total)
 | Item | Qty x unit | $ |
 |---|---|---|
-| Stills, Gemini 3 Pro Image on Kie (nano-banana-pro) | 9 x $0.09 | 0.81 |
-| One likely still redo, asked before it runs | 1 x $0.09 | 0.09 |
+| Round 1 stills, Gemini 3 Pro Image on Kie (spent; wrong screw top from my prompt, rejected) | 9 x $0.09 | 0.81 |
+| Stills redo on Kie (or $0 in Ralph's Gemini app) | 9 x $0.09 | 0.81 |
 | Product clips, Omni 1.1 Flash: Flow first on your phone (12 credits each, 108 credits) | 9 x $0 | 0.00 |
 | ...same 9 on Kie only if Flow fails or you can't (asked first) | 9 x $0.315 | 2.835 |
-Expected spend with Flow: $0.90 ($0 if you make the stills in your Gemini app too). The total includes the Kie fallback so nothing surprises you. ElevenLabs: ~400 chars (Grace cloned).
-Month so far (`python3 grace/spend.py`): $167.21 (no cap in October).
+Expected spend with Flow: $1.62 ($0.81 if the redo is made in your Gemini app). The total includes the Kie fallback so nothing surprises you. ElevenLabs: ~400 chars (Grace cloned).
+Month so far (`python3 grace/spend.py`): $168.02 (no cap in October).
 
-TOTAL: $3.735
+TOTAL: $4.455
 
 **Approve?**
 
