@@ -51,8 +51,12 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
-<section class="ask"><strong>Storyboard done: all 9 stills pass</strong><ol>
-<li>Start the clips: S6 first as the test clip on Kie (Omni, 4 s, <b>$0.315</b>), the other 8 after you see it (8 x $0.315 = $2.52). Job so far $2.52 of $4.455; October $169.73.</li></ol></section>
+<section class="ask"><strong>S6 test clip failed: your call</strong><ol>
+<li><b>S6 (my pick):</b> Seedance 2.0 Mini starting on the exact approved still, so the real box stays: 4 s = <b>$0.164</b>. It is a product clip off Omni, so it needs your OK for this shot (the Collagen box shot was done this way). Or a new Omni take with fixed words ("display box", no other boxes, cartons or bottles): $0.315, same risk it ignores the still.</li>
+<li><b>S7 redo</b> with the fixed prompt (pouch resting on the cushion at true scale, no close-up reference): <b>$0.09</b>.</li>
+<li>Job so far $2.925 of $4.455 (test $0.315 + failed S7 $0.09 included); October $170.14.</li></ol></section>
+<section class="box"><h2>S6 test clip (Omni): rejected</h2><video src="S6_omni_fail.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video>
+<p class="sub">From frame 0 Omni swapped Grace's real display box for an invented juice carton with gibberish print, and the pouch print smears mid-clip. The torn tab and straw held.</p></section>
 <section class="box"><h2>Storyboard, final (S1-S4 as sold, straw S5-S8, S9 as sold)</h2><div class="stgrid">{story}</div></section>
 <details class="box"><summary><b>Plan you approved</b> (answers: 1 none, 2 yes, 3 say box, 4 yes, 5 yes, 6 Kie, 7 yes)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
