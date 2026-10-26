@@ -137,13 +137,14 @@
      "pocket": false,
      "phone": false,
      "pillow": false,
-     "still": "POV lying in the bed, head on the pillow, looking down the length of the bed: the terracotta comforter covers the whole body up to the chest, the striped flat sheet folded over its top edge in the foreground, two small soft bumps of the feet under the comforter at the far end, the olive-green wall and bright morning window light beyond the foot of the bed. The body is completely under the covers: no skin, no hands, no feet showing.",
-     "motion": "The two feet bumps under the comforter wiggle slowly and the comforter rises gently with breathing; nothing comes out from under the covers. Camera: steady, a tiny natural sway.",
-     "no_hand_override": "No hands, arms, feet or skin anywhere in the frame; no other person in the room.",
+     "still": "POV of a person lying on their back in the bed, head on the pillows at the HEADBOARD end, looking straight down the LENGTH of the bed toward its foot. The headboard, the pillows and the olive-green headboard wall are BEHIND the camera and never in the frame. In the frame: the terracotta comforter covering the body from the chest down, the striped flat sheet folded over its top edge in the foreground, two small soft bumps of the feet under the comforter at the far end, and the comforter draping over the FOOT end of the bed. Beyond the foot of the bed: the opposite wall of the same bedroom, a bright window with sheer curtains and soft morning light. The body lies straight along the bed, never across it.",
+     "motion": "The two feet bumps at the far end wiggle slowly under the comforter and the comforter rises gently with breathing; nothing comes out from under the covers, no toes or skin show at any time. Camera: steady, a tiny natural sway.",
+     "no_hand_override": "No hands, arms, feet, toes or skin anywhere in the frame; no other person in the room.",
      "t": [
       19.66,
       22.89
-     ]
+     ],
+     "room_override": "The room is the same bedroom as the room photo (olive-green painted walls, warm wood furniture), seen from the bed toward the wall OPPOSITE the headboard; the headboard, its framed prints and the pillows are behind the camera. Bright soft morning daylight from the window ahead; clean neutral white balance, never yellow, golden, dark or moody."
     },
     {
      "id": "S10",

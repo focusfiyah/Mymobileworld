@@ -54,12 +54,12 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 .facts li b{{color:var(--rust)}} .pass{{color:var(--accent)}} .redo{{color:var(--rust)}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}}
 </style>
 <div class="wrap">
-<header><h1>Monbix Remy comforter set, POV</h1><p class="sub">Grace · Autumn Leaf, queen · cut v1 ready for review · $4.86 spent</p></header>
-<section class="box"><h2>Cut v1 (28.6 s, AI finish on)</h2><video src="monbix_v1.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<header><h1>Monbix Remy comforter set, POV</h1><p class="sub">Grace · Autumn Leaf, queen · cut v2 ready for review · $5.27 spent</p></header>
+<section class="box"><h2>Cut v2 (28.6 s, AI finish on)</h2><video src="monbix_v1.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
 <ul><li>QC: levels -16.6 LUFS, echo 150 ms (passes), no black or flash frames, every clip at 1.0x, no text, no pumpkin, hands checked at 2x.</li>
-<li>Free fixes: S5 dropped (it drew the pocket on the flat sheet; S6 covers both lines), S2 starts after the white pillows leave the frame, S9 cropped 1.25x so no toes show.</li>
-<li><b>Your call:</b> in S8 (18-19 s) a second hand comes in to fold the comforter, and both wrists wear the same bracelets. Keep it, or redo that one clip for $0.315.</li>
-<li>Spent $4.86 of the $5.17 you OK'd. Month $174.42 (no cap in October).</li></ul></section>
+<li>Free fixes: S5 dropped (it drew the pocket on the flat sheet; S6 covers both lines), S2 starts after the white pillows leave the frame, S9 redone (no crop needed).</li>
+<li>v2 (your note): S9 now lies along the bed, head on the pillows, looking down to the footboard and the window (new still + clip, $0.405). S8's second hand kept (your call: "The hand is fine").</li>
+<li>Spent $5.27 of the $5.58 you OK'd. Month $174.83 (no cap in October).</li></ul></section>
 <section class="box"><h2>Storyboard, round 1 (11 stills, $0.99)</h2><div class="grid sb">{STORY}</div></section>
 <section class="ask" hidden><h2>Your OK on this plan + 6 answers</h2><ol>{''.join('<li>'+E(q.split('. ',1)[1] if '. ' in q else q)+'</li>' for q in qs)}</ol>
 <p class="note">Reply with the numbers, e.g. "1 yes 2 yes 3 with 4 yes 5 none 6 Flow". Total if everything ran on Kie: <b>$4.725</b>; with Flow: <b>$1.26</b>.</p></section>

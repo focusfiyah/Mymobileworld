@@ -15,11 +15,11 @@ def still(s):
     add(STRIPE, "a real close-up of Grace's own sheet from this set (stripe colour, width and print texture)")
     add(COMF, "a real close-up of the solid terracotta comforter fabric")
     if s["pocket"]: add(POCKET, "a real close-up of the fitted sheet's striped side pocket")
-    add(ROOM, "the real room photo to use as the setting")
+    add(ROOM, "the real room photo: use its wall colour and wood tones" if s.get("room_override") else "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     parts = [B["size_first"] if (s["pocket"] or s["phone"] or s["id"] in ("S1", "S5", "S11")) else "", s["still"],
              B["hand_block"] if s["hand"] else s.get("no_hand_override", B["no_hand"]), B["bedding_block"], B["pocket_block"] if s["pocket"] else "",
-             B["phone_block"] if s["phone"] else "", B["pillow_block"] if s["pillow"] else B["no_pumpkin"], B["room_block"], B["suffix"],
+             B["phone_block"] if s["phone"] else "", B["pillow_block"] if s["pillow"] else B["no_pumpkin"], s.get("room_override", B["room_block"]), B["suffix"],
              "Reference images: " + "; ".join(n) + ". The bedding must match images 1 to 3" + (" and the pocket image 4" if s["pocket"] else "") + " colour for colour and stripe width for stripe width."]
     return r, " ".join(p for p in parts if p)
 

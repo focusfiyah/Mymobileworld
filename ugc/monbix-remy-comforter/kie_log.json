@@ -1021,5 +1021,73 @@
   "still": "stills/S2.png",
   "ok": true,
   "score": 0.652
+ },
+ {
+  "t": "2026-10-26 07:27:18",
+  "submitted": "4276e4cba3979db9fb8ee6844c081084",
+  "prompt": "POV of a person lying on their back in the bed, head on the pillows at the HEADBOARD end, looking straight down the LENG"
+ },
+ {
+  "t": "2026-10-26 07:28:29",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "POV of a person lying on their back in the bed, head on the pillows at the HEADBOARD end, looking straight down the LENGTH of the bed toward its foot. The headboard, the pillows and the olive-green headboard wall are BEHIND the camera and never in the frame. In the frame: the terracotta comforter covering the body from the chest down, the striped flat sheet folded over its top edge in the foreground, two small soft bumps of the feet under the comforter at the far end, and the comforter draping over the FOOT end of the bed. Beyond the foot of the bed: the opposite wall of the same bedroom, a bright window with sheer curtains and soft morning light. The body lies straight along the bed, never across it. No hands, arms, feet, toes or skin anywhere in the frame; no other person in the room. The bedding is the REAL Monbix Remy comforter set in colour Autumn Leaf, exactly as in the reference images, and it must not change: the COMFORTER is SOLID warm terracotta (burnt orange) on both sides, matte prewashed microfiber with a soft natural crinkle and soft quilting lines, no stripes, no pattern, no piping, no label; the two SHAMS are solid terracotta with a flat flange edge; the two PILLOWCASES, the FLAT SHEET and the FITTED SHEET are thin terracotta-and-off-white stripes: the terracotta bands are a little wider than the off-white bands and have a distressed, heathered print texture with tiny lighter flecks, exactly like Grace's real sheet in the stripe close-up, colour for colour and width for width; the stripes run head to foot on top of the bed; the flat sheet's print is on one side only, its back is pale. No labels, logos, tags or text anywhere on the bedding. No duvet cover, no zipper, no buttons, no ruffles, no fringe. No pumpkin pillow, no accent or decorative cushion and no throw blanket anywhere: only the set's two shams and two pillowcases are on the bed. The room is the same bedroom as the room photo (olive-green painted walls, warm wood furniture), seen from the bed toward the wall OPPOSITE the headboard; the headboard, its framed prints and the pillows are behind the camera. Bright soft morning daylight from the window ahead; clean neutral white balance, never yellow, golden, dark or moody. Vertical 9:16 photo, a single frame from a first-person (POV) phone video shot from the angle described above, realistic fabric texture, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from real photos of this exact set; image 2 = a real close-up of Grace's own sheet from this set (stripe colour, width and print texture); image 3 = a real close-up of the solid terracotta comforter fabric; image 4 = the real room photo: use its wall colour and wood tones. The bedding must match images 1 to 3 colour for colour and stripe width for stripe width.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792994125229-wjtztkfmpv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792994127892-i3rovsgcwes.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792994130768-4k8knr5t9up.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792994133958-azycxz694pk.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4276e4cba3979db9fb8ee6844c081084",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/4276e4cba3979db9fb8ee6844c081084_0_1792999703.jpeg"
+   ]
+  },
+  "costTime": 67
+ },
+ {
+  "t": "2026-10-26 07:29:00",
+  "submitted": "4d2f89aee7bd987ec7c82c08f6e687bd",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and bedding exactly. The bedding is the real "
+ },
+ {
+  "t": "2026-10-26 07:30:56",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and bedding exactly. The bedding is the real Monbix set in images 2 to 4: the comforter and shams stay solid terracotta, the sheets and pillowcases stay thin terracotta-and-white stripes, matching the close-ups colour for colour and stripe width for stripe width; no labels, logos or text appear. Image 2 is the real stripe, image 3 the real comforter fabric, image 4 the product sheet. No pumpkin pillow or extra cushion appears. No hand, fingers or skin appear at any time. Motion: The two feet bumps at the far end wiggle slowly under the comforter and the comforter rises gently with breathing; nothing comes out from under the covers, no toes or skin show at any time. Camera: steady, a tiny natural sway. Vertical 9:16 first-person phone footage, bright neutral daylight that never changes, realistic fabric that moves and folds naturally, the stripes never warp, shimmer or change width. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792999724817-n8ukvciv4z.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792999727198-6vin67ewczi.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792999729314-700bqsha3yu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/monbix-remy-comforter/1792999731837-nrog80zywt.png"
+    ]
+   }
+  },
+  "taskId": "4d2f89aee7bd987ec7c82c08f6e687bd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/4d2f89aee7bd987ec7c82c08f6e687bd_0_1792999850.mp4"
+   ]
+  },
+  "costTime": 113,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-26 07:31:07",
+  "clip_check": "/home/user/Mymobileworld/ugc/monbix-remy-comforter/clips/S9.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.842
  }
 ]
