@@ -71,7 +71,36 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare_report.md",
+   "research/compare/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
- }
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-26",
+  "quote": "1 yes 2 yes 3 with 4 yes 5 none 6 kie. She does have whole set however it's not being used at the moment. Just use what you have and make it work",
+  "total": 4.725,
+  "sha256": "a688a5ec3936cab268a57dd2dbcac484c3c7de0c25e033bcffe1840b883c8aac",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.18,
+   "what": "5 still redos (S3 S7 S8 S10 S11) at $0.45, $0.27 was in the book",
+   "by": "Ralph",
+   "quote": "Redo all 5 and remove the pumpkin.",
+   "date": "2026-10-26",
+   "book_sha256": "a688a5ec3936cab268a57dd2dbcac484c3c7de0c25e033bcffe1840b883c8aac"
+  },
+  {
+   "usd": 0.27,
+   "what": "S1 S5 S6 still redos without the pumpkin",
+   "by": "Ralph",
+   "quote": "Redo S1, S5, S6, $0.27 (Recommended)",
+   "date": "2026-10-26",
+   "book_sha256": "a688a5ec3936cab268a57dd2dbcac484c3c7de0c25e033bcffe1840b883c8aac"
+  }
+ ]
 }

@@ -48,7 +48,7 @@ Fall pillow (Ralph's ask, Q2): one cream boucle pumpkin pillow with a sage-green
 Phone (S3, S4): plain black phone, screen off.
 
 ## 5. Order of work (machine ~35-40 min + your review stops)
-All 11 stills at once on Kie -> still storyboard on the review page (stop 1) -> S4 (phone into the pocket, the riskiest) as a Flow kit to you first -> Flow kits for the other 10 while the Grace voice renders -> cut + QC (2x edges, first second, stripes never shimmer, pocket on the side, REMOVED.md, verify_fix) + compare vs @tori_didit -> AI finish -> review page (stop 2) -> Drive "Monbix Comforter Set (Grace)".
+All 11 stills at once on Kie -> still storyboard on the review page (stop 1) -> S4 (phone into the pocket, the riskiest) test clip on Kie Omni first -> the other 10 clips at once while the Grace voice renders -> cut + QC (2x edges, first second, stripes never shimmer, pocket on the side, REMOVED.md, verify_fix) + compare vs @tori_didit -> AI finish -> review page (stop 2) -> Drive "Monbix Comforter Set (Grace)".
 Free fixes first: crop/retime before any reroll.
 
 ## 6. Cost (one total)
@@ -56,9 +56,8 @@ Free fixes first: crop/retime before any reroll.
 |---|---|---|
 | Stills, Gemini 3 Pro Image on Kie (nano-banana-pro, 1K 9:16) | 11 x $0.09 | 0.99 |
 | One likely redo (about 3 stills) | 3 x $0.09 | 0.27 |
-| Clips, Omni 1.1 Flash: Flow first on your phone (12 credits each, 132 credits) | 11 x $0 | 0.00 |
-| ...same 11 on Kie only if Flow fails or you can't (asked first) | 11 x $0.315 | 3.465 |
-Expected spend with Flow: $1.26. The total includes the Kie fallback so nothing surprises you. ElevenLabs: ~560 chars (Grace cloned).
+| Clips, Omni 1.1 Flash on Kie (Ralph: "6 kie") | 11 x $0.315 | 3.465 |
+Redo clips are not in the total: each one is asked with its cost. ElevenLabs: ~560 chars (Grace cloned).
 Month so far (`python3 grace/spend.py`): $169.56 (no cap in October).
 
 TOTAL: $4.725
@@ -72,6 +71,9 @@ TOTAL: $4.725
 4. Script as written? ("has sold out before" is true: the creator and commenters say it sold out; it is in stock today.)
 5. On-screen text: default none. Want "pov: your bed has pockets now" burned in?
 6. Clips: Flow first on your phone (132 of your credits), or straight to Kie ($3.47)?
+
+## 7b. Ralph's answers (2026-10-26: "1 yes 2 yes 3 with 4 yes 5 none 6 kie. She does have whole set however it's not being used at the moment. Just use what you have and make it work")
+1. Product details right. 2. Cream pumpkin pillow. 3. Hand sheet WITH bracelet. 4. Script as written. 5. No on-screen text. 6. Clips on Kie (Omni), not Flow. Grace's set is not available to photograph: use the references we have.
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Still prompts: prompts/still_S1..S11.txt; Omni clip prompts: prompts/S1..S11.txt; refs per shot: prompts/refs.json. All pass grace/prompt_check.py lint and are marked checked (read end to end: fixed the shared "eye line" camera line that fought the low shots, and "no people" in the lying-down POV).

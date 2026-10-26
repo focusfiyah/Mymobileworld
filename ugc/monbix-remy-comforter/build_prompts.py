@@ -19,7 +19,7 @@ def still(s):
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     parts = [B["size_first"] if (s["pocket"] or s["phone"] or s["id"] in ("S1", "S5", "S11")) else "", s["still"],
              B["hand_block"] if s["hand"] else s.get("no_hand_override", B["no_hand"]), B["bedding_block"], B["pocket_block"] if s["pocket"] else "",
-             B["phone_block"] if s["phone"] else "", B["pillow_block"] if s["pillow"] else "", B["room_block"], B["suffix"],
+             B["phone_block"] if s["phone"] else "", B["pillow_block"] if s["pillow"] else B["no_pumpkin"], B["room_block"], B["suffix"],
              "Reference images: " + "; ".join(n) + ". The bedding must match images 1 to 3" + (" and the pocket image 4" if s["pocket"] else "") + " colour for colour and stripe width for stripe width."]
     return r, " ".join(p for p in parts if p)
 
@@ -33,6 +33,7 @@ def clip(s):
     extra += (", image 4 the real side pocket: it stays sewn flat on the side of the mattress, open at the top" if s["pocket"] else "") + f", image {sheet_n} the product sheet."
     if s["phone"]: extra += " The phone stays a plain black phone with its screen off."
     if s["pillow"]: extra += " The cream pumpkin pillow stays the same shape and colour."
+    else: extra += " No pumpkin pillow or extra cushion appears."
     if s["hand"]:
         r.append(HAND); extra += f" Image {len(r)} is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and {len(r)}; the hand enters and leaves from the frame edge and grips what it touches; no other jewellery appears."
     else: extra += " No hand, fingers or skin appear at any time." if s.get("no_hand_override") else " No hand, fingers or people appear at any time."

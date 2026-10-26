@@ -1,4 +1,4 @@
-"""Youtheory B12B6 (2026-10-26) voiceover, copied from the approved power bank flashlight VO: Grace (eleven_v4) from shots.json vo lines -> vo/voiceover.mp3, scribe_v2 word times -> vo/stt.json,
+"""Monbix comforter (2026-10-26) voiceover, copied from ugc/youtheory-b12b6, copied from the approved power bank flashlight VO: Grace (eleven_v4) from shots.json vo lines -> vo/voiceover.mp3, scribe_v2 word times -> vo/stt.json,
 pauses trimmed -> vo/voiceover_tight.mp3 + vo/words_trimmed.json, shot windows written back into shots.json."""
 import json, subprocess, sys, requests, re
 def _gate():  # SCRIPT GATE (grace/gate.py, Ralph 2026-10-03): no paid call until the PLAYBOOK §4 checklist is proven
@@ -15,7 +15,7 @@ if "--grace-c" in sys.argv:   # 2026-10-19 (Ralph's pick for LGXNDS v6): Grace C
     VOICE, P = "P8OUGBCvq8OBS4xlb65A", "vo/v2c_"
 RETIME = "--retime" in sys.argv  # reuse vo/voiceover.mp3 + vo/stt.json (no new ElevenLabs calls)
 import pathlib
-text = " ".join(l.split(". ", 1)[1] for l in pathlib.Path("scripts.md").read_text().split("## V1")[1].splitlines() if l[:2].rstrip(".").isdigit())  # Ralph's script, word for word
+text = " ".join(l.strip() for l in pathlib.Path("scripts.md").read_text().split("## V1")[1].splitlines() if l.strip())  # the approved script, word for word
 body = {"text": text, "model_id": "eleven_v4",
         "voice_settings": {"stability": 0.4, "similarity_boost": 0.8, "style": 0.0, "speed": 1.0}}
 if not RETIME:
