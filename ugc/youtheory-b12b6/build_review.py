@@ -52,10 +52,13 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Youtheory B12B6 Liquid</h1><p class="sub">Grace, hands-only AI video, ~20 s, 9 shots. Plan for your OK before anything else is paid for. Round 1 stills were wrong (below).</p></header>
-<section class="ask"><strong>7 more clips in, all pass QC: one call left</strong><ol>
-<li><b>S7 free fix?</b> Draw the real magenta flavor bar and claim lines on its pouch, same as S9 (a pasted label, so your OK). Then its clip on Seedance, $0.164 (already in the $1.31 you OK'd), then the cut.</li>
-<li>S9: a bright foil glare sweeps the pouch from about 1.5 s, so the CTA line opens on the end of S8 (pouch on the desk) and cuts to S9's clean first 1.3 s for "grab yours while they're in stock". Free.</li>
-<li>Job so far $4.33 of $4.49; October $171.54.</li></ol></section>
+<section class="ask"><strong>Cut v1 ready for your review (19.8 s)</strong><ol>
+<li>Watch it below (sound on). Grace's voice, your script with the box wording on line 6, no text, AI finish on.</li>
+<li>S7's lower print and S9's claim lines are the real print, drawn on (your OK); S7's is tracked through its camera push.</li>
+<li>Spent: Kie $4.49 of $4.49 allowed (8 Seedance clips $1.31 incl. S7, stills and redos); October $171.70. ElevenLabs ~780 chars (2 voice renders).</li>
+<li>On your OK: Drive folder "Youtheory B12B6 (Grace)" with CURRENT video + script and caption doc, then merge.</li></ol></section>
+<section class="box"><h2>Cut v1</h2><video src="cut_v1.mp4" controls playsinline style="width:100%;max-width:400px;border-radius:8px"></video>
+<p class="sub">Checks: 1080x1920, -16.4 LUFS, no freeze or black frames, voice echo 150 ms, cut gate OK (compare vs @jenniferdaniel859: ours 3.6 words/s, voice at 0.0 s). Caption: raspberry B12 and B6 in a little pouch, one a day straight from the pouch 🍓 twelve in a box</p></section>
 <section class="box"><h2>Clips (Seedance from each exact still)</h2><div class="grid"><figure><video src="S1_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S1</figcaption></figure><figure><video src="S2_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S2</figcaption></figure><figure><video src="S3_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S3</figcaption></figure><figure><video src="S4_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S4</figcaption></figure><figure><video src="S5_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S5</figcaption></figure><figure><video src="S8_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S8</figcaption></figure><figure><video src="S9_clip.mp4" controls playsinline muted loop style="width:100%;border-radius:8px"></video><figcaption>S9</figcaption></figure></div></section>
 <section class="box"><h2>S6 test clip (Seedance from the exact still)</h2><video src="S6_seedance.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video></section>
 <section class="box"><h2>S6 test clip (Omni): rejected</h2><video src="S6_omni_fail.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video>

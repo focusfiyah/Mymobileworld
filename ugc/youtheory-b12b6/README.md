@@ -1,5 +1,5 @@
 # Youtheory B12B6 Liquid (Grace), 2026-10-26
 
-Status: 8 of 9 CLIPS DONE 2026-10-26 on Seedance first-frame (S1-S6, S8, S9; Ralph "Ok on seedance", +$0.03 extra recorded), QC pass (S9 glare after 1.5 s: CTA opens on S8 tail, S9 0-1.3 s). Asked: S7 free label fix yes/no, then S7 clip $0.164, then cut. Kie so far $4.33 of $4.49. Review page v9.
+Status: CUT v1 SENT 2026-10-26 for review (review page v10, out/youtheory_b12b6_v1.mp4, 19.8 s). All 9 clips Seedance first-frame (S7 print tracked, S9 first 1.3 s). Gates 14/16 (G15 his OK, G16 Drive). Kie $4.49 of $4.49 allowed. Next: his OK, then Drive "Youtheory B12B6 (Grace)" + script/caption doc, merge, brain.
 
 Files: BOOK.md (plan), shots.json + build_prompts.py (prompts/), make_sheet.py (refs/), research/, rooms/SOURCES.md, REMOVED.md, GATES.md, review/ (build_review.py).

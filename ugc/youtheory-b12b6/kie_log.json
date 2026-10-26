@@ -1155,5 +1155,31 @@
    ]
   },
   "costTime": 156
+ },
+ {
+  "t": "2026-10-26 05:17:42",
+  "submitted": "4a4fc018364f46bddf4a20c2d43e0090",
+  "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its torn-open"
+ },
+ {
+  "t": "2026-10-26 05:19:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on this frame and keep everything in it unchanged: the room, the light, the white pouch with its torn-open top and the white paper straw standing in it, and its print letter for letter. Nothing in the scene moves; only the camera moves: slow dolly in from a little higher, ending level with the pouch. The pouch print never changes and nothing is added: no other products, boxes, bottles or text. No hand, fingers, arms or people appear at any time, nothing enters at any edge. Natural handheld phone footage, smooth and slow, bright neutral daylight that never changes. No text, no captions.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/youtheory-b12b6/1792991853720-6okhdzfumsr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "4a4fc018364f46bddf4a20c2d43e0090",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1792991973975-rce2u8rq08.mp4"
+   ]
+  },
+  "costTime": 114
  }
 ]
