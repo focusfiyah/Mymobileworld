@@ -4,10 +4,13 @@
 - Client: Grace  Product: Youtheory B12B6 Liquid, raspberry, 12 x 1 fl oz pouches  Route: hands-only AI + product lock (`.claude/skills/ugc-product-ad/references/product-lock.md`), template `ugc/youtheory-collagen/`
 - Job folder: `ugc/youtheory-b12b6/`  Target length: ~23-25 s (68 words at Grace's ~3 words/s)  Shots: 9 (5 HAND / 4 HAND-FREE)
 
-## 2. Gate result (`python3 grace/gate.py ugc/youtheory-b12b6`): @@GATE@@
+## 2. Gate result (`python3 grace/gate.py ugc/youtheory-b12b6`): GATE OK
 | Proof | File | Result |
 |---|---|---|
-@@ROWS@@
+| Playbook rules read | research/playbook.md | OK |
+| Audience research | research/audience.md + audience/ (1,746 search phrases, 22 TikTok comments, Reddit) | OK: they say "tired", ask "does b12 give you energy", skeptics present (keep "may") |
+| Coach research (shop/tag + video x5) | research/coach.md, shop/, tag/, videos/ | OK: listing 7,757 sold, 4.6 stars; only ready-to-drink pouch in the top 25; Youtheory B12 videos all under 1.4k views |
+| Daily viral board | research/viral/viral-2026-10-26.json | OK (no B12 product on today's board) |
 | Product facts (source) | research/product_facts.md | OK, 1 claim flagged (Q2) |
 | Hooks modeled on named winners | research/hooks.md | Ralph's hook, word for word; on-screen options offered only |
 | Humanizer | research/humanizer.md, captions.md | OK, no words changed; line 6 reads like a label (Q2) |
@@ -36,8 +39,8 @@ Flags, kept as written: "B12 supports normal nervous system function" is not on 
 Face: none. Voiceover only (Grace cloned, echo gate <=150 ms), no lip sync.
 Setting: 4 real Pexels rooms (rooms/SOURCES.md, colour, not all-white). Bright neutral grade, no text, AI finish last.
 Hand (Q3): Grace's hand sheet WITH bracelet, as on Youtheory Collagen: French tips, silver crown ring, gold solitaire, blue silicone band, flat gold link bracelet + pearl chain.
-Real product (refs/product_sheet.png, from Grace's photos + the listing): white glossy foil pouch ~6.5 x 15 cm, magenta tear tab, magenta dot circle, magenta "B12B6", grey "liquid", "promotes brain health*", "helps support energy production*", magenta "raspberry flavor" bar. Grace's pouch has NO "essential daily vitamins" (the listing render does; removed from the sheet). Box = her real display box, torn open along the perforation (front "B6 liquid", three + lines, raspberry splash).
-Straw (Q4): the magenta tab torn off, ONE plain white paper straw standing upright in the opening (as Ashwagandha v2).
+Real product (refs/product_sheet.png, from Grace's photos + the listing): white glossy foil pouch ~6.5 x 15 cm, magenta screw cap over a spout, magenta dot circle, magenta "B12B6", grey "liquid", "promotes brain health*", "helps support energy production*", magenta "raspberry flavor" bar. Grace's pouch has NO "essential daily vitamins" (the listing render does; removed from the sheet). Box = her real display box, torn open along the perforation (front "B6 liquid", three + lines, raspberry splash).
+Straw (Q4): the pink screw cap twisted off, ONE plain white paper straw standing upright in the open spout (as Ashwagandha v2). Research note: every Youtheory B12 winner sips straight from the spout; your call stands, the straw stays.
 
 ## 5. Order of work (machine time ~35-40 min + your review stops)
 All 9 stills at once -> still storyboard on the review page (stop 1) -> S6 test clip as a Flow kit to you, nothing on Kie unless Flow fails (stop 2) -> Flow kits for the other 8 while the Grace voice renders -> cut + QC (2x edges, first second, straw in every frame, REMOVED.md, verify_fix) + compare vs the top winner -> AI finish -> review page (stop 3) -> Drive.
@@ -61,7 +64,7 @@ TOTAL: $3.735
 1. Use your script word for word (only "12" written as "twelve")?
 2. "B12 supports normal nervous system function" isn't on the box/pouch/listing. Keep it, or swap free to "and B12 promotes brain health" (their wording)?
 3. Hand: Grace's sheet WITH bracelet (French tips, rings + bracelets, as on Collagen)?
-4. Straw: plain white paper straw in the torn-open top, OK? (Or pink to match the pouch?)
+4. Straw: plain white paper straw in the open spout (cap off), OK? (Or pink to match the pouch?)
 5. Stills on Kie ($0.90) or your Gemini app ($0)?
 6. On-screen text: default none. Want any?
 

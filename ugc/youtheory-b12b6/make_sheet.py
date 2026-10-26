@@ -24,12 +24,12 @@ put(Image.open(R + 'grace_pouch_in_hand.jpg').convert('RGB').crop((40, 200, 520,
 put(Image.open(R + 'grace_pouch_back_flat.jpg').convert('RGB').crop((150, 260, 400, 680)), (620, 900, ), 480, 1040, 'C  back (facts)')
 put(Image.open(R + 'grace_box_front_open.jpg').convert('RGB').crop((40, 330, 450, 780)), (1130, 20), 560, 620, 'D  box front (torn open)')
 put(Image.open(R + 'grace_box_end_pouches.jpg').convert('RGB').crop((150, 230, 420, 620)), (1130, 700), 560, 600, 'E  box end + pouches')
-crops = {'F logo + dot circle': (330, 270, 560, 500), 'G B12B6 liquid + claims': (290, 490, 600, 760), 'H flavor bar': (330, 715, 560, 760), 'I tear tab': (350, 55, 540, 160)}
+crops = {'F logo + dot circle': (330, 270, 560, 500), 'G B12B6 liquid + claims': (290, 490, 600, 760), 'H flavor bar': (330, 715, 560, 760), 'I magenta spout cap': (350, 55, 540, 160)}
 y = 20
 for k, bx in crops.items():
     c = lst.crop(bx); c.save('refs/closeup_' + k.split()[0] + '.png')
     a = put(c, (1730, y), 640, 420 if 'flavor' not in k and 'tab' not in k else 200, k); y += a.height + 70
 d.text((30, 1830), 'Single-serve 1 fl oz (30 mL) foil pouch, about 6.5 cm wide x 15 cm tall incl. tab.', fill='black', font=f)
-d.text((30, 1880), 'White glossy foil, magenta tear-off tab, magenta dot circle, magenta B12B6.', fill='black', font=f)
+d.text((30, 1880), 'White glossy foil, magenta screw cap over a spout, magenta dot circle, magenta B12B6.', fill='black', font=f)
 d.text((30, 1930), '12 pouches per box. Raspberry flavor.', fill='black', font=f)
 s.save('refs/product_sheet.png'); print(s.size)
