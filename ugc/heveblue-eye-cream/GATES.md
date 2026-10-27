@@ -23,3 +23,13 @@
   EXPECT: BOOK_OK
 - [x] G8: review page published with script, sheet, shot list, prompts and the total; push + email sent (manual)
   EVIDENCE: 2026-10-27 page https://claude.ai/artifact/Tc331r1KmPWRDFzm7d9p4K v1; Gmail GMAIL_SEND_EMAIL (gmail_correa-comus) id 1a17c3e760c0d89f; PushNotification "Mobile push requested."
+
+# Phase 2-3 (2026-10-27, after Ralph's OK): stills, clips, cut, delivery
+- [x] G9: cut QC passes (manual record of `python3 qc/check_cut.py out/heveblue_v1.mp4`)
+  EVIDENCE: 2026-10-27 CUT_QC_OK, 34.90 s, -16.93 LUFS, peak -1.92 dB; qc/cut_v1.md
+- [x] G10: cut-stage gate passes
+  EVIDENCE: 2026-10-27 `python3 grace/gate.py ugc/heveblue-eye-cream --stage cut` -> GATE OK
+- [x] G11: voice echo <= 150 ms
+  EVIDENCE: 2026-10-27 echo.py vo/voiceover_clean.wav rt60_est_ms=150
+- [x] G12: delivered to Drive, sizes match (manual)
+  EVIDENCE: 2026-10-27 folder 1B03FVJ3c-fQU9KF1nQDAbkZqljcBG8MV; video 1Zb3zdpYoZx_g3bIPozO7ywsIqnKyoNeU size 89984395 = local; doc 1KKbyz8Btb-L7x5sT5hAMyodovr7YnOts8La6n_nOaCE read back
