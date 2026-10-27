@@ -120,6 +120,22 @@
    "quote": "Run S2, +$0.01 (Recommended)",
    "date": "2026-10-27",
    "book_sha256": "c659cd1db8008dd6078e9ebe7293e498abdd5bbd262038b6fb7101d24071bb88"
+  },
+  {
+   "usd": 0.76,
+   "what": "size fix for the kept v1 shots: S7 + S9 stills and clips, S8 clip from the right-size still",
+   "by": "Ralph",
+   "quote": "Redo S7, S8, S9, $0.75 (Recommended)",
+   "date": "2026-10-27",
+   "book_sha256": "c659cd1db8008dd6078e9ebe7293e498abdd5bbd262038b6fb7101d24071bb88"
+  },
+  {
+   "usd": 0.18,
+   "what": "S7 + S9 stills retry with the approved S4 still as size reference",
+   "by": "Ralph",
+   "quote": "Retry with S4 as reference, $0.18 (Recommended)",
+   "date": "2026-10-27",
+   "book_sha256": "c659cd1db8008dd6078e9ebe7293e498abdd5bbd262038b6fb7101d24071bb88"
   }
  ]
 }

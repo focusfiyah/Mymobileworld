@@ -16,6 +16,7 @@ def still(s):
         add(SHEET, "the product reference sheet built from real photos of this exact bag charm")
         add(LOCK, "a real close-up of its gold buckle loop, grommet and padlock")
         add(SCARF, "a real close-up of its twilly scarf and right-hand handle")
+    if s.get("size_ref"): add(s["size_ref"], "a photo of this same charm hanging on this same brown handbag at its TRUE size: copy exactly this size ratio between the charm and the handbag, and ignore the hand in it")
     add(s["room"], "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
     bag = "handbag" in s["still"].lower() or "tote" in s["still"].lower()

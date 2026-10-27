@@ -110,12 +110,13 @@
    "hand": false,
    "room": "rooms/roomB_sofa_window.jpg",
    "props": "",
-   "still": "Three-quarter view of the chocolate-brown handbag sitting upright on the cream sofa from the room photo, the bright window behind. The mini bag charm hangs on its short gold chain and gold key ring from the base of the handbag's left handle, front with the gold padlock facing the lens, its scarf tail hanging down beside it.",
+   "still": "Three-quarter view of the chocolate-brown handbag sitting upright on the cream sofa from the room photo, the bright window behind. The mini bag charm hangs on its short gold chain and gold key ring from the base of the handbag's left handle, front with the gold padlock facing the lens, its scarf tail hanging down beside it. Next to the handbag the charm is TINY: the handbag is about six times wider and three times taller than the charm, and the whole charm, handles included, is smaller than the handbag's handle loop. The padlock face is plain polished gold with only its three engraved lines: no mark, symbol or letter.",
    "motion": "Camera: a slow arc a little to the right around the handbag, keeping the charm in the centre and in focus; the charm hangs still.",
    "t": [
     15.15,
     18.26
-   ]
+   ],
+   "size_ref": "refs/size_ref_S4.png"
   },
   {
    "id": "S8",
@@ -124,7 +125,7 @@
    "room": "rooms/roomC_fireplace.jpg",
    "props": "a plain cream cable-knit Christmas stocking",
    "still": "Close view of a plain cream cable-knit Christmas stocking with no text, hanging in front of the fireplace from the room photo, the green tree soft at the left. The hand has entered from the right edge and holds the mini bag charm by its two handles just above the open top of the stocking, front and gold padlock facing the lens. The charm is small next to the stocking: it is much narrower than the stocking's cuff. The charm is tiny next to the hand: its body is no wider than three of the fingers.",
-   "motion": "The hand lowers the charm into the stocking until only its handles, scarf knot and the top edge of its front peek out of the cuff, then lets go and leaves the frame at the right; the stocking sways a little.",
+   "motion": "The hand lowers the charm straight down INTO the stocking: its body disappears fully inside the cuff and only its two handles and the scarf knot stay visible above the cuff, then the fingers let go and the hand leaves the frame at the right; the stocking sways a little and the charm stays inside.",
    "t": [
     18.26,
     21.11
@@ -136,12 +137,13 @@
    "hand": false,
    "room": "rooms/roomD_tree_bows.jpg",
    "props": "",
-   "still": "The chocolate-brown handbag stands on a low wooden side table in front of the green Christmas tree with white bows from the room photo. The mini bag charm hangs on its short gold chain and gold key ring from the handbag's handle in the centre of the frame, front with the gold padlock facing the lens, the only bag charm in the frame. The tree is soft behind.",
+   "still": "The chocolate-brown handbag stands on a low wooden side table in front of the green Christmas tree with white bows from the room photo. The mini bag charm hangs on its short gold chain and gold key ring from the handbag's handle in the centre of the frame, front with the gold padlock facing the lens, the only bag charm in the frame. The tree is soft behind. Next to the handbag the charm is TINY: the handbag is about six times wider and three times taller than the charm, and the whole charm, handles included, is smaller than the handbag's handle loop. The padlock face is plain polished gold with only its three engraved lines: no mark, symbol or letter. No hand, fingers or fingertips anywhere, not even at the frame edge.",
    "motion": "Camera: a slow pull-back that shows a little more of the tree; the charm hangs still in the centre.",
    "t": [
     21.11,
     26.29
-   ]
+   ],
+   "size_ref": "refs/size_ref_S4.png"
   }
  ]
 }

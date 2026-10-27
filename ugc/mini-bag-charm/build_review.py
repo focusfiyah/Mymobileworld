@@ -93,14 +93,15 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 .tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .kitimgs{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}} .kitimgs button,.cp,.svp{{font:600 .8rem var(--body);padding:6px 10px;border-radius:6px;border:1px solid var(--wine);background:var(--card);color:var(--wine);cursor:pointer}} details.box summary{{cursor:pointer;font:600 1rem var(--body)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · cut v2 ready · $4.82 spent of $4.82 OK'd</p></header>
-<section class="ask"><h2>Cut v2 · your size fix · 26.9 s</h2><video src="cut_v2.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
-<ul><li>Real size now in every prompt (9.5 cm tall with handles, 5.5 cm wide): S1, S2, S4, S8 redone so the charm is smaller than Grace's hand and about mug height.</li>
-<li>One item at a time: "stash your earbuds" = only the AirPods case (it fills the opening); "lip balm, keys, or other tiny essentials inside" = only the gloss.</li>
-<li>S6, S7, S9 kept from v1 (no hand or mug to compare with), as you picked. S8 (stocking) now uses v1's clip too, where the charm goes inside (your note).</li>
-<li>QC: -16.5 LUFS, no black or flash frames, 1080x1920, every clip at 1.0x, no text, AI finish on, hands clean at 2x. Free fixes: a key S1's still added was painted out; S1 plays from 1 s in (its scarf hides for half a second at the start).</li>
-<li>Spent $4.82 of the $4.82 you OK'd (book $3.90 + extras). On your OK, v2 replaces v1 in Drive (v1 moves to Older versions).</li></ul>
-<figure><img src="cut_sheet_v2.jpg" alt="Cut v2 frames"><figcaption>12 frames across cut v2</figcaption></figure></section>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · cut v3 ready · $5.76 spent of $5.76 OK'd</p></header>
+<section class="ask"><h2>Cut v3 · real size in every shot · 26.9 s</h2><video src="cut_v3.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<ul><li>Your note: S7 (sofa), S8 (stocking) and S9 (tree end shot) were still the v1 size. All three are redone at 9.5 x 5.5 cm. S7 and S9 used the approved S4 shot as a size reference; S7's padlock is plain now (v1 showed a mark).</li>
+<li>S8: the charm is small next to the stocking and drops all the way inside.</li>
+<li>S6 (close-up of the padlock and scarf) is the only v1 shot left: there is nothing in it to judge size by.</li>
+<li>QC: -16.5 LUFS, no black or flash frames, 1080x1920, every clip at 1.0x, no text, AI finish on.</li>
+<li>Spent $5.76 of the $5.76 you OK'd. On your OK, v3 replaces v2 in Drive (v2 moves to Older versions).</li></ul>
+<figure><img src="cut_sheet_v3.jpg" alt="Cut v3 frames"><figcaption>12 frames across cut v3</figcaption></figure></section>
+<section class="box"><h2>Cut v2 (approved 2026-10-27, replaced by v3)</h2><p class="note">S7, S8, S9 still at the v1 size.</p></section>
 <section class="box"><h2>Cut v1 (approved 2026-10-27, replaced by v2)</h2><p class="note">Charm drawn too big; earbuds and lip balm together in one shot.</p></section>
 <section class="box"><h2>S3 clip · Seedance · 4 s</h2><video src="S3.mp4" controls playsinline preload="metadata" style="width:100%;max-width:360px;border-radius:8px;border:1px solid var(--line)"></video><p class="note">Clip check OK (0.96), no flicker (max jump 1.46). Flaw: the bracelet turns into a watch with a face (question 2).</p></section>
 <section class="box"><h2>Stills, round 2 (3 redos, $0.27)</h2><div class="grid sb">{STORY2}</div></section>

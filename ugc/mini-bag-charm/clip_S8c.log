@@ -1,0 +1,47 @@
+BUDGET: month 2026-10 so far $181.62 (no cap); this job $4.82
+Traceback (most recent call last):
+  File "/home/user/Mymobileworld/ugc/mini-bag-charm/run.py", line 49, in <module>
+    with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(fn, ids))
+                                                     ~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 625, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 318, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 460, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/concurrent/futures/_base.py", line 402, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/user/Mymobileworld/ugc/mini-bag-charm/run.py", line 33, in seedance_prod
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}_seedance.txt").read_text().strip(), "first_frame_url": kie.upload(f"stills/{sid}.png"),
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": DUR.get(sid, 4)}}, label=f"{sid} seedance first-frame")
+  File "/home/user/Mymobileworld/ugc/mini-bag-charm/kie.py", line 64, in run_task
+    key = gate.start_task(job, body, label=label)
+  File "/home/user/Mymobileworld/grace/gate.py", line 288, in start_task
+    return paid.claim(job, body, usd, label, check=lambda spent: lock_errors(job, _checklist(job), spent, usd))
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Mymobileworld/grace/paid.py", line 169, in claim
+    ents = entries(job)
+  File "/home/user/Mymobileworld/grace/paid.py", line 87, in entries
+    f = _git(repo, "fetch", "-q", "origin")
+  File "/home/user/Mymobileworld/grace/paid.py", line 45, in _git
+    return subprocess.run(["git", "-C", str(repo), *a], capture_output=True, text=True, timeout=120)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 1223, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 2156, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/subprocess.py", line 1270, in _check_timeout
+    raise TimeoutExpired(
+    ...<2 lines>...
+            stderr=b''.join(stderr_seq) if stderr_seq else None)
+subprocess.TimeoutExpired: Command '['git', '-C', '/home/user/Mymobileworld', 'fetch', '-q', 'origin']' timed out after 120 seconds
