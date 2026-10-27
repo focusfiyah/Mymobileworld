@@ -1,0 +1,11 @@
+# Cut v1 QC (2026-10-27)
+- check_cut.py: 34.90 s, last word 34.04 s, -16.93 LUFS, peak -1.92 dB, luma 89-177: CUT_QC_OK
+- Voice: Grace cloned, echo 150 ms after clean.py (gate <= 150), ElevenLabs STT on the final matches the script (whole-file read "orange part"; the last 3.6 s alone read "orange cart", the word is right), no repeats or fragments
+- Every clip 1.0x, clip check OK on all 10 (0.89-0.98); S6 + S10 redone (Ralph OK) with no push-in
+- 2x edges: S3, S5, S7, S9 hands and S4/S5 faces: no halo, smear or fringe; whole fingers; rings sometimes on other fingers (stays, standing rule)
+- No mouth while the voice talks: S4 nose-up crop, S5 cropped 1.25x (lips at the lower-left edge removed), S7 jaw and neck only
+- Product: white tube, black serif print, HB oval, long chrome, black ring, flared tip in every shot; S6 cap on; S9 one tube; S10 one tube (end shot)
+- Water opener: tip stays in the water 0-4 s (Seedance); rings boosted free with tools/ripple.py (S1, S2), buzz 200 Hz under S1-S2 only
+- REMOVED.md: no text, no cards, no Ken Burns, no price, no banned phrases, bright neutral grade, no hand sweep, no box, no sparkle, nothing suggestive
+- Compare vs @maddybeautyfinds 1.8M: research/compare_report.md
+- AI finish applied (grain 6, unsharp 0.6, saturation 0.92), out/heveblue_v1.mp4

@@ -36,13 +36,20 @@ def words(path):
 ap = argparse.ArgumentParser()
 ap.add_argument("inp"); ap.add_argument("out")
 ap.add_argument("--tries", type=int, default=3); ap.add_argument("--first", type=int, default=0); ap.add_argument("--lambd", type=float, default=0.5); ap.add_argument("--tau", type=float, default=0.1)
+ap.add_argument("--script", help="text file with the exact script: compare each seed with it instead of Whisper's reading of the input (HEVEBLUE 2026-10-27: Whisper misheard the input 'mom's stocking' as 'mom stalking' and every cleaner seed was rejected for being right)")
 a = ap.parse_args()
 
 raw = subprocess.run(["ffmpeg", "-v", "error", "-i", a.inp, "-ac", "1", "-ar", "44100", "-f", "f32le", "-"],
                      capture_output=True, check=True).stdout
 wav = torch.from_numpy(np.frombuffer(raw, np.float32).copy())
 base = measure(a.inp)
-ref = words(a.inp)
+NUMW = {"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thousand","hundred"}
+norm = lambda ws: [w for w in ws if w not in NUMW]   # Whisper writes numbers as digits, which words() drops
+ref = norm(re.sub(r"[^a-z' ]", " ", open(a.script).read().lower()).split()) if a.script else words(a.inp)
+import difflib
+def miss(got):   # script word positions Whisper does not read back (unusual words like 'yuja' are always misheard)
+    return {i for t, i1, i2, _, _ in difflib.SequenceMatcher(None, ref, got, autojunk=False).get_opcodes() if t != "equal" for i in range(i1, max(i2, i1 + 1))}
+in_miss = miss(norm(words(a.inp))) if a.script else set()
 print(f"input: rt {base[0]:.0f} ms, tail {base[1]:.1f} dB, {len(ref)} words")
 best = None
 with tempfile.TemporaryDirectory() as d:
@@ -52,7 +59,7 @@ with tempfile.TemporaryDirectory() as d:
         p = os.path.join(d, f"s{seed}.wav")
         sf.write(p, e.numpy(), sr)
         rt, tail, _, _ = measure(p)
-        got = words(p); same = got == ref
+        got = norm(words(p)) if a.script else words(p); same = (miss(got) <= in_miss) if a.script else got == ref   # --script: no word wrong that the input had right
         diff = "" if same else " " + str([(x, y) for x, y in zip(ref, got) if x != y][:3]) + ("" if len(ref) == len(got) else f" {len(ref)}->{len(got)} words")
         print(f"seed {seed}: rt {rt:.0f} ms, tail {tail:.1f} dB, words {'match' if same else 'CHANGED'}{diff}", flush=True)
         if same and (best is None or (rt, tail) < best[:2]):

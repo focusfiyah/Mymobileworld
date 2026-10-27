@@ -1,6 +1,6 @@
 # HEVEBLUE Black Yuja Bean Lifting Auto Eye Cream (Grace), 2026-10-27
 
-Status: plan sent 2026-10-27 (review page https://claude.ai/artifact/Tc331r1KmPWRDFzm7d9p4K), waiting on Ralph's OK + 7 answers. Next: `python3 grace/gate.py ugc/heveblue-eye-cream --approve-book "<his words>"`, then 10 stills (S1 + S5 first), storyboard. Spent $0 of $4.243 book (expected $1.41 with Flow).
+Status: cut v1 sent 2026-10-27 (review page https://claude.ai/artifact/Tc331r1KmPWRDFzm7d9p4K), waiting on Ralph. Kie $3.52 of $4.24 book (11 stills incl. S1 redo, Omni S1 test, 12 Seedance clips incl. S6+S10 redo). Next: on approval, Drive "HEVEBLUE Eye Cream (Grace)" as CURRENT + script doc.
 
 - Route: hands + hand-free AI over Grace's cloned voice, product lock, Flow first; Seedance for S3/S4 (no product).
 - Inspo: @momfindsbyfaith 730K (Ralph's idea), @maddybeautyfinds 1.8M, @alexandraryoo 629K: same product, tip in water at frame 0.

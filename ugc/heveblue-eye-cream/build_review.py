@@ -26,7 +26,7 @@ cost = "".join("<tr>" + "".join(f"<td>{E(c.strip())}</td>" for c in r.strip('|')
 note = re.search(r"(Expected spend with Flow:.*?)\nMonth so far.*?: (.*?)\n", book, re.S)
 script_html = "".join(f"<li>{E(l.split('. ',1)[1])}</li>" for l in script)
 q_html = "".join(f"<li>{E(q.split('. ',1)[1])}</li>" for q in qs)
-STORY = Path("review/storyboard.html").read_text() if Path("review/storyboard.html").exists() else ""
+STORY = (Path("review/cut.html").read_text() if Path("review/cut.html").exists() else "") + (Path("review/storyboard.html").read_text() if Path("review/storyboard.html").exists() else "")
 page = f"""<title>HEVEBLUE Eye Cream Plan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -74,7 +74,7 @@ td {{ border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; 
 <header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; approved 2026-10-27 &middot; stills round 1</span>
 <h1>Black Yuja Bean Lifting Auto Eye Cream</h1>
 <p>Hands + hand-free AI video over Grace's cloned voice, about 34 s, 10 shots. Opens like the two biggest videos for this exact tube: the chrome tip touches a glass of water and the rings show the buzz.</p></header>
-<div class="ask"><b>Stills ready: one question on S1</b><span>Let the short chrome on S1 go, or redo S1 for $0.09. Plan approved, $4.24 allowed.</span></div>
+<div class="ask"><b>Cut v1 ready for your OK</b><span>34.9 s. Kie spent $3.52 of $4.24 approved. Notes or approve.</span></div>
 {STORY}
 <section><h2>Your answers</h2><p>{E(re.search(r"## 7b.*?\n(1\. .*?)\n", book, re.S).group(1))}</p><details><summary>The questions</summary><ol class="q">{q_html}</ol></details></section>
 <section><h2>Script, Grace cloned voice</h2><ol class="script">{script_html}</ol>

@@ -764,5 +764,75 @@
   "still": "stills/S4.png",
   "ok": true,
   "score": 0.974
+ },
+ {
+  "t": "2026-10-27 13:08:50",
+  "submitted": "9f8a56e2e6eb99b93f649ecfb051f86a",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The camera barely moves: a tiny, slo"
+ },
+ {
+  "t": "2026-10-27 13:08:52",
+  "submitted": "08208eb87a4d002e8fb9ede96786637a",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The camera barely moves: a tiny, slo"
+ },
+ {
+  "t": "2026-10-27 13:10:54",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The camera barely moves: a tiny, slow handheld drift to the side at the same distance, no push-in and no zoom. The tube lies flat on the dish the whole time: it never lifts, tilts, stands up, rolls or moves at all. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271276-tq1dss42wmk.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "08208eb87a4d002e8fb9ede96786637a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793106652438-zt4m8sdyr9b.mp4"
+   ]
+  },
+  "costTime": 124,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 13:10:55",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The camera barely moves: a tiny, slow handheld drift to the side at the same distance, no push-in and no zoom. The tube lies still on the beans the whole time and never moves; the beans and the yuja stay still. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap stays on the whole time. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271254-yg5gg55pbs.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9f8a56e2e6eb99b93f649ecfb051f86a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793106643842-cy5xcl3y4kl.mp4"
+   ]
+  },
+  "costTime": 126,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 13:10:57",
+  "clip_check": "clips/S10_seedance.mp4",
+  "still": "stills/S10.png",
+  "ok": true,
+  "score": 0.967
+ },
+ {
+  "t": "2026-10-27 13:10:58",
+  "clip_check": "clips/S6_seedance.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.888
  }
 ]
