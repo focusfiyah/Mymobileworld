@@ -8,3 +8,6 @@ Tells looked for (patterns.md A-F): contrasts (not X but Y), one-line closers, s
 - First drafts changed: V2 "so it gets it all off" -> "so you get a real deep clean" (box says "Deep cleaning"; "all off" was a claim we can't back). V4 "about a minute and you're done" cut (no timer fact found). V4 "leave most of it sitting there" -> "leaves makeup behind" (Grace's own V1 wording). V3 "look forward to it now" -> "look forward to it" (length).
 - Captions: lower case, one plain line each, no hype words, #ad first.
 Result: no remaining tells; reads as spoken.
+
+## 15 s pass (2026-10-27, Ralph: "Lets drop the timefrane to 15s")
+Cut to 50-54 words each; nothing added that the earlier pass didn't back. Removed: V2 "Yeah," and "so you get a real deep clean"; V3 "Who has time or money for a facial every week?" folded into "so you get a facial at home, no spa bill" (pain kept, no price number), "Wash with the soft bristles, then rub the warm end in little circles" cut; V4 "This brush does the work: soft bristles, five speeds" (colon list of two, spoken). Rechecked: no dashes, no triads, no banned words, confessions kept in Grace's style. Captions unchanged.

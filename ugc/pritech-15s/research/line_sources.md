@@ -18,3 +18,21 @@
 | V4 | This brush does the work for you, with soft silicone bristles and five speeds. | Box "Soft silicone"; listing 5 levels |
 | V4 | I'm mad it makes washing this easy. Now I have no excuse. | PLAYBOOK §1 confession ("now I have no excuse") |
 | V4 | The holidays are coming, so grab one for your bestie too. It's in the orange cart. | Real season; gift CTA; #tiktokshopblackfriday / #discoveryourgift on today's board |
+
+## 15 s versions (2026-10-27): same sources, shorter lines
+| Video | Line | Source |
+|---|---|---|
+| V2 | You know when you dry your face and the towel still has makeup on it? | H062; @sudscrub towel pain |
+| V2 | Your hands are leaving it behind. | @joshjshowcase 2.7M hands call-out; Grace's V1 line |
+| V2 | This brush has soft silicone bristles and five speeds. | Box "Soft silicone"; listing 5 levels |
+| V2 | Only problem? Washing with your hands feels sad now. | PLAYBOOK §1 confession |
+| V2 | Grab one for your sister too. It's in the orange cart. | PLAYBOOK §4 more units + Grace's close |
+| V3 | This looked like a normal face brush until I saw the silver end. | H102; "heated?" comment |
+| V3 | It warms up to a hundred and four degrees, so you get a facial at home, no spa bill. | Listing 40°C metal end; PLAYBOOK §2 move away from pain (spa cost, no number) |
+| V3 | I hate how much I look forward to it. | PLAYBOOK §1 confession |
+| V3 | Cold weather's coming, get one for your mom. It's in the orange cart. | Real season; gift CTA |
+| V4 | This is for everybody who falls asleep in their makeup. | H061 identity call-out |
+| V4 | A quick splash with your hands leaves it behind. | Grace's V1 line; hands call-out |
+| V4 | This brush does the work: soft bristles, five speeds. | Box "Soft silicone"; listing 5 levels |
+| V4 | I'm mad it's this easy, now I have no excuse. | PLAYBOOK §1 confession |
+| V4 | Holidays are coming, grab one for your bestie. It's in the orange cart. | Real season; gift CTA; gift tags on today's board |

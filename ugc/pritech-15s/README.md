@@ -1,6 +1,6 @@
 # PRITECH Heated Face Scrubber, black: V2-V4, 15-20 s each (Grace), 2026-10-27
 
-Status: STORYBOARD SENT 2026-10-27. Book $8.00 approved (Ralph "1. Yours 2.kie omni 3.kie 4.same"). 21 stills done ($1.89), 5 fixed free (free_fix.py); asking OK for 2 still redos (V3S1 handle print, V3S5 backwards) $0.18. VO: V2 17.8 s, V3 18.8 s, V4 18.0 s; echo V3/V4 150 ms, V2 200 ms being cleaned free. Next: storyboard OK -> V3S5 Omni test + 6 Seedance -> 14 Omni -> cuts. Review page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb.
+Status: 15 S PLAN SENT 2026-10-27 (Ralph: "S7 on V2, it's not good. Lets drop the timefrane to 15s"). New book $7.39 (was $8.00 approved), waiting on his OK: 15 s scripts, 3 stills (V3S1, V3S5 redos + new V2S7) $0.27, then new 15 s VOs (~810 chars), 13 Omni + 5 Seedance. Spent $1.89. Review page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb.
 
 Brief (Ralph 2026-10-27): "We need 3 more videos of the Pritech heating facial cleansing brush. 15 - 20s each. Use info from previous session." Previous job: ugc/pritech-cleansing-brush (V1, approved 2026-10-24).
 
