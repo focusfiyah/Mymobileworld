@@ -3,12 +3,12 @@ but redraws the tiny real charm (a flap, a mark on the padlock, a wide scarf), s
 background (ORB + RANSAC, still -> frame), the AI charm is covered with the clean plate warped the same way, and the
 real composite layer (charm, chain, ring, shadow) is warped on top. Free; a paste-back, so used only on Ralph's OK.
   python3 tools/track_paste.py S7 [--follow]  -> clips/S7_track.mp4  (--follow: the charm hangs from a moving hand, S4)"""
-import subprocess, sys
+import os, subprocess, sys
 import cv2, numpy as np
 
 CHAIN = set()
 ANCHOR = {}  # tried on S9 2026-10-27: jumps late in the clip; was {"S9": (440, 560, 600, 700)}          # plate box: the right handle base + bag top edge
-BOX = {"S4": (0.8, 1.9, 0.0, 2.7), "S9": (0.7, 1.4, 0.1, 2.4)}   # left, right, up, down, in charm widths/heights
+BOX = {"S4": (0.8, 1.9, 0.0, 2.7), "S9": (0.7, 1.4, 0.1, 2.4), "S7": (0.6, 1.3, 0.1, 1.9)}   # left, right, up, down, in charm widths/heights
 PLATE = {"S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
 
 
@@ -28,6 +28,32 @@ def charm_colours(f, loose=False):
     blue = (b > r + 15) & (b > 120)
     gold = ((r > 110) & (g > 75) & (b < g * 0.75) & (r > b + 40)) if loose else ((r > 150) & (g > 100) & (b < g * 0.7))
     return (burg | pink | blue | gold).astype(np.uint8) * 255
+
+
+HANG = {"S4": (338, 749)}                     # still px where the charm's handles meet the chain (composite.swap hang)
+_ring = {}
+
+
+def hang_chain(f, g, M, hang):
+    """Find the gold key ring the AI hand moves (gold blob above the charm), draw a short gold chain from its bottom
+    to the real charm's handles, so the charm never floats."""
+    FH, FW = f.shape[:2]; tx, ty = M @ np.array([hang[0], hang[1], 1.0])
+    b, gg, r = [f[..., i].astype(int) for i in range(3)]
+    gold = ((r > 140) & (gg > 95) & (b < gg * 0.72) & (r > b + 50)).astype(np.uint8)
+    y0, y1, x0, x1 = int(ty - 140), int(ty - 3), int(tx - 70), int(tx + 70)
+    ys, xs = np.nonzero(gold[y0:y1, x0:x1])
+    if "p" not in _ring: return g
+    rx, ry = _ring["p"]
+    if ty - ry < 4: return g
+    S = 4; lay = np.zeros((FH * S, FW * S, 4), np.uint8); n = max(2, int((ty - ry) / 7))
+    for i in range(n):
+        a0, a1 = i / n, (i + 1) / n
+        cx = (rx + (tx - rx) * (a0 + a1) / 2) * S; cy = (ry + (ty - ry) * (a0 + a1) / 2) * S
+        L = (ty - ry) / n * S; rw = (2.0 if i % 2 == 0 else 0.8) * S
+        cv2.ellipse(lay, (int(cx), int(cy)), (int(rw), int(L * 0.62)), 0, 0, 360, (52, 132, 176, 255), max(2, int(1.1 * S)), cv2.LINE_AA)
+        cv2.ellipse(lay, (int(cx), int(cy)), (max(1, int(rw - 1)), max(1, int(L * 0.62 - 1))), 0, 0, 360, (120, 200, 236, 255), max(1, int(0.4 * S)), cv2.LINE_AA)
+    lay = cv2.resize(lay, (FW, FH), interpolation=cv2.INTER_AREA).astype(np.float32)
+    a = lay[..., 3:] / 255; return g * (1 - a) + lay[..., :3] * a
 
 
 def run(sid, follow=False):
@@ -102,6 +128,21 @@ def run(sid, follow=False):
         hx = np.array(hx, float); good = ~np.isnan(hx[:, 0])
         for j in range(2): hx[:, j] = np.interp(np.arange(len(hx)), np.nonzero(good)[0], hx[good, j])
         hx = np.array([hx[max(0, i - 4):i + 5].mean(0) for i in range(len(hx))])
+    ring_xy = None
+    if sid in HANG:                                                # where the AI ring hangs in each frame, smoothed
+        pts = []
+        for i, f in enumerate(src):
+            tx, ty = Ms[i] @ np.array([HANG[sid][0], HANG[sid][1], 1.0])
+            b_, g_, r_ = [f[..., j].astype(int) for j in range(3)]
+            gold = ((r_ > 140) & (g_ > 95) & (b_ < g_ * 0.72) & (r_ > b_ + 50)).astype(np.uint8)
+            y0, y1, x0, x1 = int(ty - 150), int(ty - 2), int(tx - 60), int(tx + 110)
+            ys, xs = np.nonzero(gold[y0:y1, x0:x1])
+            if len(ys) > 25:
+                yb = ys.max(); pts.append((x0 + float(np.median(xs[ys >= yb - 4])), y0 + float(yb)))
+            else: pts.append((np.nan, np.nan))
+        pts = np.array(pts); ok = ~np.isnan(pts[:, 0])
+        for j in range(2): pts[:, j] = np.interp(np.arange(len(pts)), np.nonzero(ok)[0], pts[ok, j])
+        ring_xy = np.array([pts[max(0, i - 3):i + 4].mean(0) for i in range(len(pts))])
     out = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{FW}x{FH}", "-r", "24",
                             "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", f"clips/{sid}_track.mp4"],
                            stdin=subprocess.PIPE)
@@ -112,6 +153,10 @@ def run(sid, follow=False):
             p0 = M @ np.array([x + w / 2, y + (h * 0.6 if sid == "S9" else 0), 1.0])
             if hang0 is None: hang0 = hx[0] - p0
             M[:, 2] += (hx[i] - p0) - hang0
+        if ring_xy is not None:                                    # hang the charm 10 px of chain below the ring
+            tx, ty = M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]); rx, ry = ring_xy[i]
+            M[0, 2] += rx - tx; M[1, 2] += max(0.0, (ry + 10) - ty) if ry + 10 > ty else (ry + 10) - ty
+            _ring["p"] = (rx, ry)
         wp = cv2.warpAffine(plate, Ms[i], (FW, FH), borderMode=cv2.BORDER_REPLICATE)
         ws = cv2.warpAffine(still, M, (FW, FH), borderMode=cv2.BORDER_REPLICATE)
         wa = cv2.warpAffine(ov_a, M, (FW, FH)).astype(np.float32)[..., None] / 255
@@ -129,6 +174,11 @@ def run(sid, follow=False):
         if sid in BOX:                                            # near-still camera: cover the whole box with the clean plate
             l, r_, t, b_ = BOX[sid]; cov = np.zeros((FH, FW), np.uint8)
             cov[max(0, int(Y - t * Hd)):int(Y + b_ * Hd), max(0, int(X - l * Wd)):int(X + r_ * Wd)] = 255
+            if sid in HANG:                                       # never over the ring or the fingers above the charm
+                hy = int((M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]))[1]); cov[:hy + 2] = 0
+                pb_, pg_, pr_ = [wp[..., j].astype(int) for j in range(3)]   # the plate still holds the still's hand: skip it
+                skin = (pr_ > 140) & (pg_ > 95) & (pr_ - pb_ > 30) & (pr_ > pg_)
+                cov[cv2.dilate(skin.astype(np.uint8), np.ones((15, 15), np.uint8)) > 0] = 0
         if sid == "S8":                                           # never paint over the cuff's own white fur
             fi = f.astype(int); cov[(fi.min(2) > 160) & (fi.max(2) - fi.min(2) < 45)] = 0
         ring = cv2.dilate(cov, np.ones((15, 15), np.uint8)) & ~cov
@@ -136,10 +186,19 @@ def run(sid, follow=False):
             # local colour match: the frame-minus-plate difference around the box, spread smoothly inside it
             d = np.clip(f.astype(np.float32) - wp.astype(np.float32) + 128, 0, 255).astype(np.uint8)
             q = 4; ds = cv2.resize(d, (FW // q, FH // q), interpolation=cv2.INTER_AREA)
-            mq = cv2.dilate(cv2.resize(cov, (FW // q, FH // q), interpolation=cv2.INTER_NEAREST), np.ones((3, 3), np.uint8))
+            fb, fg, fr = [f[..., j].astype(int) for j in range(3)]       # fingers next to the box must not tint it
+            fskin = ((fr > 140) & (fg > 95) & (fr - fb > 30) & (fr > fg)).astype(np.uint8) * 255
+            unk = cov | cv2.dilate(fskin, np.ones((9, 9), np.uint8)) | cv2.dilate(charm_colours(f), np.ones((9, 9), np.uint8))
+            if sid in HANG: unk[:hy + 4] = 255                        # the AI ring and chain above the charm: not leather
+            mq = cv2.dilate(cv2.resize(unk, (FW // q, FH // q), interpolation=cv2.INTER_NEAREST), np.ones((3, 3), np.uint8))
             ds = cv2.inpaint(ds, mq, 5, cv2.INPAINT_TELEA)
             off = cv2.GaussianBlur(cv2.resize(ds, (FW, FH), interpolation=cv2.INTER_LINEAR).astype(np.float32), (0, 0), 6) - 128
-            fill = np.clip(wp.astype(np.float32) + off, 0, 255); cov = cv2.GaussianBlur(cov, (31, 31), 0)
+            fill = np.clip(wp.astype(np.float32) + off, 0, 255)
+            if sid in HANG:                                       # where the plate shows the still's hand, use the live frame
+                pb_, pg_, pr_ = [wp[..., j].astype(int) for j in range(3)]
+                pskin = cv2.dilate(((pr_ > 140) & (pg_ > 95) & (pr_ - pb_ > 30) & (pr_ > pg_)).astype(np.uint8), np.ones((31, 31), np.uint8)) > 0
+                fill[pskin] = f[pskin]
+            cov = cv2.GaussianBlur(cov, (31, 31), 0)
         else:
             fill = cv2.inpaint(f, cov, 7, cv2.INPAINT_TELEA).astype(np.float32)   # from the frame itself: no misaligned plate
         ca = cv2.GaussianBlur(cov, (9, 9), 0).astype(np.float32)[..., None] / 255
@@ -149,6 +208,10 @@ def run(sid, follow=False):
             fur = cv2.GaussianBlur(cv2.morphologyEx(fur, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)), (5, 5), 0)
             wa = wa * (1 - fur.astype(np.float32)[..., None] / 255)
         g = g * (1 - wa) + ws.astype(np.float32) * wa
+        if sid in HANG:                                           # S4: the real charm always hangs from the ring the hand moves
+            g = hang_chain(f, g, M, HANG[sid])
+        if os.environ.get("DEBUG_FRAME") == str(i):
+            cv2.imwrite("/tmp/claude-0/dbg_cov.png", (cov if cov.dtype == np.uint8 else cov).astype(np.uint8)); cv2.imwrite("/tmp/claude-0/dbg_fill.png", fill.astype(np.uint8)); cv2.imwrite("/tmp/claude-0/dbg_f.png", f)
         out.stdin.write(np.clip(g, 0, 255).astype(np.uint8).tobytes())
     out.stdin.close(); out.wait(); print(sid, "tracked", len(src), "frames -> clips/" + sid + "_track.mp4")
 
