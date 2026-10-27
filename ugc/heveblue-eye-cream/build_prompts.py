@@ -17,6 +17,7 @@ def still(s):
         add(SHEET, "the product reference sheet built from real photos of this exact eye cream")
         add(PRINT, "a real close-up of the print on the white tube")
         add(CAP if s["cap"] == "on" else TIP, "a real close-up of the black cap on the tube" if s["cap"] == "on" else "a real close-up of the chrome applicator, black ring and flared tip")
+    for er in s.get("extra_refs", []): add(er[0], er[1])
     add(s["room"], "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist)")
     if s["face"]: add(FACE, "Grace's face, for her skin tone, brows and eyes only")

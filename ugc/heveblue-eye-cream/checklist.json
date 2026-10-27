@@ -84,5 +84,23 @@
   "total": 4.243,
   "sha256": "0a647a21654f1c72dbcbb149f050d126297df17fa00f88f4a3c60c1af1362f26",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 0.12,
+   "what": "v2 notes: S1 new still (hand holds glass, tip on the rim, no tip in water) + clip, S2 crop + clip, S5 new still (right hand, flat end under the eye) + 6 s clip: $0.75, up to $0.84 with one still redo",
+   "by": "Ralph",
+   "quote": "Run it",
+   "date": "2026-10-27",
+   "book_sha256": "0a647a21654f1c72dbcbb149f050d126297df17fa00f88f4a3c60c1af1362f26"
+  },
+  {
+   "usd": 0.01,
+   "what": "rounding inside the quoted 'up to $0.84': S2 push-in clip from S1's last frame, $0.164",
+   "by": "Ralph",
+   "quote": "Run it",
+   "date": "2026-10-27",
+   "book_sha256": "0a647a21654f1c72dbcbb149f050d126297df17fa00f88f4a3c60c1af1362f26"
+  }
+ ]
 }

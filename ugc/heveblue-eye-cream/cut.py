@@ -1,6 +1,6 @@
 """HEVEBLUE eye cream cut (2026-10-27), from ugc/mini-bag-charm/cut.py: clean clip windows on Grace's voiceover, no text,
 a free 200 Hz buzz (12,000 a minute) under S1-S2 only (Ralph's answer 7), AI finish last. Every clip plays at 1.0x.
-  python3 cut.py [VO]   -> out/heveblue_v1_review.mp4 (veryfast) + out/heveblue_v1.mp4 (AI finish)
+  python3 cut.py [VO]   -> out/heveblue_v2_review.mp4 (veryfast) + out/heveblue_v2.mp4 (AI finish)
 Shot windows come from vo.py (shots.json "t"). A window longer than its clip ends at the clip's end and the next shot starts
 that much earlier; LATE moves a shot's start later (the shot before plays longer)."""
 import json, subprocess, sys
@@ -12,8 +12,8 @@ CLIPLEN = {"S5": 6.0, "S9": 6.0}
 FILE = {"S1": "clips/S1_ripple.mp4", "S2": "clips/S2_ripple.mp4"}   # free ripple boost on the water (tools/ripple.py)
 SRC = {}
 LATE = {"S2": 0.34}                        # S2's line runs 4.34 s on a 4 s clip: S1 plays 0.34 s longer (same water scene)
-CROP = {"S5": "crop=iw*0.8:ih*0.8:iw*0.2:0,"}   # 1.25x, right/top: removes the lips at the lower-left edge (no mouth while the voice talks)
-BUZZ = ("sfx/buzz_200hz_8s.wav", 0.0, "S3")      # from 0 s to the start of S3, -> under S1 + S2 only
+CROP = {"S5": "crop=iw*0.82:ih*0.82:iw*0.04:0,", "S2": "crop=iw*0.77:ih*0.77:iw*0.12:ih*0.23,"}   # S2: cuts the big garbled tube text at the end of the push-in   # v2 (right hand, right eye): 1.25x left/top, removes the lips at the right edge
+BUZZ = ("sfx/buzz_glass_8s.wav", 0.0, "S3")      # from 0 s to the start of S3, -> under S1 + S2 only
 S = json.load(open("shots.json"))["shots"]
 keep = [[s["id"], s["t"][0]] for s in S]
 starts = [a + LATE.get(sid, 0) for sid, a in keep]
@@ -45,9 +45,9 @@ adur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=
 assert abs(adur - END) < 0.05, f"audio {adur:.2f} s vs picture {END:.2f} s"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-i", "out/_mix.wav", "-filter_complex", fc, "-map", "[v]", "-map", f"{n}:a",
                 "-t", f"{END:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "4",
-                "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "out/heveblue_v1_review.mp4"], check=True)
+                "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "out/heveblue_v2_review.mp4"], check=True)
 # AI finish = ai_finish.sh's filter (grain 6, sharpen 0.6, saturation 0.92) with the PLAYBOOK §6 bitrate cap
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "out/heveblue_v1_review.mp4", "-vf", "eq=saturation=0.92,unsharp=5:5:0.6:5:5:0,noise=alls=6:allf=t",
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "out/heveblue_v2_review.mp4", "-vf", "eq=saturation=0.92,unsharp=5:5:0.6:5:5:0,noise=alls=6:allf=t",
                 "-c:v", "libx264", "-crf", "18", "-maxrate", "20M", "-bufsize", "40M", "-preset", "medium", "-threads", "4", "-pix_fmt", "yuv420p",
-                "-c:a", "copy", "-movflags", "+faststart", "out/heveblue_v1.mp4"], check=True)
-print("out/heveblue_v1.mp4", round(END, 2), "s; buzz 0 -", round(bz_end, 2))
+                "-c:a", "copy", "-movflags", "+faststart", "out/heveblue_v2.mp4"], check=True)
+print("out/heveblue_v2.mp4", round(END, 2), "s; buzz 0 -", round(bz_end, 2))
