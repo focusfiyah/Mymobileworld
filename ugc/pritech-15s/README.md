@@ -1,6 +1,6 @@
 # PRITECH Heated Face Scrubber, black: V2-V4, 15-20 s each (Grace), 2026-10-27
 
-Status: PLAN SENT 2026-10-27, waiting on Ralph's OK (4 questions in BOOK.md §7). $0 spent. Book TOTAL $2.88 (20 Kie stills + 5 Seedance clips + one redo; 15 product clips in Ralph's Flow app). Review page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb.
+Status: PLAN ROUND 2 SENT 2026-10-27 (Ralph: "Different visuals for each and match them with script": 21 shots, no idea repeated, every line shown). Waiting on his OK + 4 questions (BOOK.md §7). $0 spent. Book TOTAL $3.13 (21 Kie stills + 6 Seedance + one redo; 15 product clips in his Flow app). Review page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb.
 
 Brief (Ralph 2026-10-27): "We need 3 more videos of the Pritech heating facial cleansing brush. 15 - 20s each. Use info from previous session." Previous job: ugc/pritech-cleansing-brush (V1, approved 2026-10-24).
 
