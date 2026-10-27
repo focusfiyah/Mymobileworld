@@ -2,4 +2,16 @@
   warnings.warn(
 input: rt 200 ms, tail -15.5 dB, 65 words
 Already up to date.
-  0%|          | 0/1 [00:00<?, ?it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [02:24<00:00, 144.92s/it]100%|██████████| 1/1 [02:24<00:00, 144.92s/it]
+seed 0: rt 171 ms, tail -14.6 dB, words match
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [02:04<00:00, 124.36s/it]100%|██████████| 1/1 [02:04<00:00, 124.36s/it]
+seed 1: rt 150 ms, tail -14.7 dB, words match
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [02:12<00:00, 132.21s/it]100%|██████████| 1/1 [02:12<00:00, 132.21s/it]
+seed 2: rt 200 ms, tail -16.2 dB, words match
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [03:17<00:00, 197.53s/it]100%|██████████| 1/1 [03:17<00:00, 197.53s/it]
+seed 3: rt 200 ms, tail -15.9 dB, words match
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [02:08<00:00, 128.56s/it]100%|██████████| 1/1 [02:08<00:00, 128.56s/it]
+seed 4: rt 200 ms, tail -16.4 dB, words match
+kept: rt 150 ms, tail -14.7 dB -> vo/V2/voiceover_clean2.mp3
+vo/V2/voiceover_clean2.mp3	phrase_end_ms=90.0	ends=8
+vo/V2/voiceover_clean2.mp3	rt60_est_ms=171	tail_db=-14.7	speech_s=8.9	decays=48

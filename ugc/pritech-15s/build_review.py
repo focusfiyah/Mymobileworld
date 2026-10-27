@@ -3,6 +3,7 @@ import html, json, re
 from PIL import Image
 e = html.escape
 B = open("BOOK.md").read(); S = json.load(open("shots.json")); sc = open("scripts.md").read()
+CUTS = json.load(open("review/cuts.json")) if __import__("os").path.exists("review/cuts.json") else []
 ASK = open("review/ask.html").read() if __import__("os").path.exists("review/ask.html") else ""
 NOTES = json.load(open("review/notes.json")) if __import__("os").path.exists("review/notes.json") else {}
 rows, cur = {}, None
@@ -30,6 +31,8 @@ for v in ["V2", "V3", "V4"]:
 <div class="tbl"><table><thead><tr><th>#</th><th>Words</th><th>On screen</th><th>Shot</th><th>Clip</th></tr></thead><tbody>{trs}</tbody></table></div></section>'''
 for k in "DEFGHI": files[f"img/room_{k}.jpg"] = f"ugc/pritech-15s/review/img/room_{k}.jpg"
 files["img/sheet.jpg"] = "ugc/pritech-15s/review/img/sheet.jpg"
+CUTHTML = ("<section class=\"vid\" id=\"cuts\"><h2>Cuts</h2><div class=\"cuts\">" + "".join(f'<figure><video src="{c["file"]}" controls playsinline preload="metadata"></video><figcaption><b>{e(c["title"])}</b><br><span class="small">{e(c["note"])}</span></figcaption></figure>' for c in CUTS) + "</div></section>") if CUTS else ""
+for c in CUTS: files[c["file"]] = "ugc/pritech-15s/review/" + c["file"]
 page = f"""<title>PRITECH Scrubber V2-V4</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Karla:wght@400;600&display=swap">
@@ -55,6 +58,7 @@ figure{{margin:0;display:grid;gap:4px}} .st img{{border-radius:6px;aspect-ratio:
 th,td{{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var(--line)}} th{{color:var(--mute);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em}}
 td.n{{font-variant-numeric:tabular-nums;font-weight:600}} td.vo{{min-width:140px}}
 .pill{{display:inline-block;padding:2px 8px;border-radius:999px;font-size:.75rem;font-weight:600;white-space:nowrap}} .pill.hand{{background:var(--hand);color:var(--accent)}} .pill.free{{background:var(--free);color:var(--freefg)}}
+.cuts{{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}} .cuts video{{width:100%;aspect-ratio:9/16;background:#000;border-radius:8px;display:block}}
 .rooms{{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}} .rooms img{{border-radius:6px;width:100%;display:block}}
 </style>
 <main>
@@ -62,6 +66,7 @@ td.n{{font-variant-numeric:tabular-nums;font-weight:600}} td.vo{{min-width:140px
 <h1>Three new 15-second videos: V2, V3, V4</h1>
 <p class="meta">Book total ${total} on Kie. Black PRITECH wand, same as V1; all new rooms, shots and order.</p></header>
 {ASK}
+{CUTHTML}
 {vids}
 <section class="vid"><h2>Rooms and product reference</h2><p class="small">Six new real rooms (Pexels/Pixabay), none from V1, and the real-photo product sheet every still and clip uses.</p>
 <div class="rooms">{"".join(f'<figure><img src="img/room_{k}.jpg" alt="Room {k}"><figcaption class="small">Room {k}</figcaption></figure>' for k in "DEFGHI")}</div>

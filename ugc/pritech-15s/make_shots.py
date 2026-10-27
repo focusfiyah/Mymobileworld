@@ -6,7 +6,7 @@ SIZE = "SIZE FIRST: a slim wand, as long as her hand from wrist crease to finger
 SIZE_FREE = "SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide."
 BRUSH = ("the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; "
          "its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, "
-         "three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. "
+         "three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a short shiny silver chrome band at the bottom end, flush with the handle and exactly as wide as it. "
          "It never glows and has no lights. There is NO word, logo or print anywhere on the brush itself: its handle is plain matte black apart from the three moulded buttons (the grey word PRITECH exists only on the separate stand). No ® or ™.")
 HAND = ("Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, "
         "a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, "
@@ -20,10 +20,10 @@ CLIPEND = "No music, no voice, no captions, no on-screen text."
 KEEP = "The hand keeps one grip and the brush never turns, flips or changes shape."
 NOPRINT = "No word, logo or print appears on the brush handle at any time."
 
-def s(id, hand, product, room, line, still, clip, refs=(), btn=False, stand=False, face=False):
+def s(id, hand, product, room, line, still, clip, refs=(), btn=False, stand=False, face=False, metal=False):
     v = id[:2]
     return {"id": id, "video": v, "hand": hand, "product": product, "face": face, "room": room, "line": line,
-            "buttons": btn, "stand": stand, "still": still + " " + END.format(light=LIGHT[v]), "clip": clip, "clip_refs": list(refs)}
+            "buttons": btn, "stand": stand, "metal": metal, "still": still + " " + END.format(light=LIGHT[v]), "clip": clip, "clip_refs": list(refs)}
 
 SHOTS = [
  # ---------------- V2: the towel / your hands (rooms D blush basin, E walnut vanity), 7 shots. Theme: proof on fabric and skin, then the fix.
@@ -65,10 +65,10 @@ SHOTS = [
 
  # ---------------- V3: the warm silver end (rooms F blue tile + tub, G blue bath + window), 7 shots. Theme: warmth, spa at home, cold weather.
  s("V3S1", True, True, "F", "This looked like a normal face brush until I noticed the silver end.",
-   SIZE + " Close-up: " + HAND + " She holds " + BRUSH + " Seen from below its base: she holds it pointing away from the camera at a steep angle, so the wide flat silver chrome end is the closest thing to the lens, big and sharp in the lower half of the frame, and the bristle head is far away at the top, smaller. Her fingers wrap the middle of the handle; no bracelet, no band on the wrist. "
+   SIZE + " Close-up: " + HAND + " She holds " + BRUSH + " She holds it across the frame at an angle, close to the camera: the bristle head toward the upper right, the silver end toward the lower left, nearest the lens. The silver end is a short shiny chrome band flush with the handle, exactly as wide as the handle, ending in a flat round end face, exactly like image 4; it is NOT a disc, NOT a pedestal, NOT a base, NOT wider than the handle, NOT a blade. Her fingers wrap the middle of the handle; no bracelet, no band on the wrist. "
    "Deep blue tile wall and a white tub soft behind (room reference). Keep the brush's slim shape and gentle curve exactly like the big photo in image 1.",
-   "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((•)) / O / °C; image 3 is the product sheet: keep this exact slim black shape and the wide flat silver chrome end, no lights, no glow, no added marks. "
-   "Motion: the camera slowly pushes in toward the silver chrome end. " + KEEP + " Bright cool daylight. " + NOPRINT + " " + CLIPEND, refs=("BTN", "SHEET"), btn=True),
+   "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((•)) / O / °C; image 3 is the real silver end, a short chrome band flush with the handle; image 4 is the product sheet: keep this exact slim black shape and that short chrome band end (never a disc, pedestal or blade), no lights, no glow, no added marks. "
+   "Motion: the camera slowly pushes in toward the silver chrome end. " + KEEP + " Bright cool daylight. " + NOPRINT + " " + CLIPEND, refs=("BTN", "METAL", "SHEET"), btn=True, metal=True),
  s("V3S2", True, True, "F", "It warms up to a hundred and four degrees.",
    SIZE + " Close side view: " + HAND + " She holds " + BRUSH + " She holds it upright, buttons facing the camera, her thumb on the bottom °C button; the silver chrome end shows below her hand. "
    "Deep blue tile soft behind (room reference). " + ANGLE,
@@ -86,9 +86,9 @@ SHOTS = [
    "Motion: the other hand presses the pump once more and a little more white cleanser drops onto the nubs; the pump bottle stays plain with no label. " + KEEP + " Camera locked-off. Bright cool daylight. " + NOPRINT + " " + CLIPEND, refs=("HEAD", "SHEET")),
  s("V3S5", True, True, "F", "then rub the warm end in little circles.",
    SIZE + " Close side view: " + NOFACE + " Her cheek is rinsed clean and slightly damp, no foam; light blue towel headband at the top edge, white waffle robe at the shoulder. " + HAND + " She holds " + BRUSH +
-   " She holds it UPSIDE DOWN: the bristle head points DOWN and away from her face, out of the bottom edge of the frame, and ONLY the wide flat silver chrome end at the other end of the wand is pressed flat against her cheekbone. The bristles never touch her face. Her eyes are above the top edge of the frame. Deep blue tile soft behind (room reference).",
-   "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the product sheet: keep this exact slim black shape and the wide flat silver chrome end, no lights, no glow, no steam, no added marks. "
-   "Motion: the hand glides the silver end in small slow circles on the cheekbone. " + KEEP + " Her eyes and mouth never come into frame. Camera locked-off. Bright cool daylight. " + NOPRINT + " " + CLIPEND, refs=("SHEET",), face=True),
+   " She holds the whole slim wand diagonally: the bristle head is down near her jaw and out of the bottom edge of the frame, and the other end, the short shiny chrome band, rests flat against her cheekbone. The chrome band is flush with the handle, exactly as wide as the handle, with a flat round end face, exactly like image 3; it is NOT a blade, NOT a plate, NOT a disc, NOT wider than the handle. The bristles never touch her face. Her eyes are above the top edge of the frame. Deep blue tile soft behind (room reference).",
+   "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real silver end, a short chrome band flush with the handle; image 3 is the product sheet: keep this exact slim black shape and that short chrome band end (never a blade, plate or disc), no lights, no glow, no steam, no added marks. "
+   "Motion: the hand glides the silver end in small slow circles on the cheekbone. " + KEEP + " Her eyes and mouth never come into frame. Camera locked-off. Bright cool daylight. " + NOPRINT + " " + CLIPEND, refs=("METAL", "SHEET"), face=True, metal=True),
  s("V3S6", False, True, "F", "I hate how much I look forward to it.",
    SIZE_FREE + " " + BRUSH + " It lies on a wooden bath tray across a white tub of clear bath water, next to a white mug of tea and a folded white washcloth, the silver chrome end toward the camera. "
    "Deep blue tile soft behind (room reference). " + NOHAND + " " + ANGLE,
@@ -148,7 +148,7 @@ BY["V2S7"] = s("V2S7", False, True, "D", OLD_LINE,
    "Motion: only the camera moves, a slow push-in toward the standing brush; nothing moves. No hand, fingers or people appear at any time. Bright neutral daylight. " + NOPRINT + " " + CLIPEND, refs=("BTN", "SHEET"), btn=True)
 SHOTS = [BY[x["id"]] for x in SHOTS]
 
-P = {"SHEET": "refs/product_sheet_v2.png", "HEAD": "refs/closeup_head.png", "BTN": "refs/closeup_buttons.png", "LOGO": "refs/closeup_stand_logo.png"}
+P = {"METAL": "refs/closeup_metal_end.png", "SHEET": "refs/product_sheet_v2.png", "HEAD": "refs/closeup_head.png", "BTN": "refs/closeup_buttons.png", "LOGO": "refs/closeup_stand_logo.png"}
 HANDREF = "../../grace/ref/hand-sheets/without_bracelet.jpg"
 for x in SHOTS:   # the exact text and images sent (as in V1 run.py), so prompt_check reads what is paid for
     r, names = [], []
@@ -158,6 +158,7 @@ for x in SHOTS:   # the exact text and images sent (as in V1 run.py), so prompt_
         add(P["HEAD"], "a real close-up of the black bristle head")
         if x["buttons"]: add(P["BTN"], "a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom")
         if x["stand"]: add(P["LOGO"], "a real close-up of the grey 'PRITECH' print on the black stand")
+        if x.get("metal"): add(P["METAL"], "a real photo of the black brush's silver end: a short chrome band flush with the handle, same width, flat round end face")
     add(f"rooms/room_{x['room']}.jpg", "the real room to use as the background (same tiles, colours and light)")
     if x["hand"]: add(HANDREF, "Grace's real hand sheet (skin tone, nails, rings, bare wrist)")
     note = "Reference images: " + "; ".join(names) + "."
