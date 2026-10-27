@@ -11,3 +11,5 @@ Result: no remaining tells; reads as spoken.
 
 ## 15 s pass (2026-10-27, Ralph: "Lets drop the timefrane to 15s")
 Cut to 50-54 words each; nothing added that the earlier pass didn't back. Removed: V2 "Yeah," and "so you get a real deep clean"; V3 "Who has time or money for a facial every week?" folded into "so you get a facial at home, no spa bill" (pain kept, no price number), "Wash with the soft bristles, then rub the warm end in little circles" cut; V4 "This brush does the work: soft bristles, five speeds" (colon list of two, spoken). Rechecked: no dashes, no triads, no banned words, confessions kept in Grace's style. Captions unchanged.
+
+(2026-10-27 later: Ralph kept the 15-20 s versions, "If you have to redo the VO then leave to the original time-frames"; the 15 s pass above is not used. Final = scripts.md, the first pass.)

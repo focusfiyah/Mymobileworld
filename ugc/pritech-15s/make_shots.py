@@ -138,23 +138,15 @@ SHOTS = [
    "Motion: only the camera moves, a slow push-in toward the brush and the gift; nothing moves. No hand, fingers or people appear at any time. Bright clean morning light. " + NOPRINT + " " + CLIPEND, refs=("LOGO", "SHEET"), stand=True),
 ]
 
-# ---- 15 s cut (Ralph 2026-10-27: "Lets drop the timefrane to 15s"; "S7 on V2, it's not good"): new lines, dropped shots, order
-LINES = {"V2S1": "You know when you dry your face and the towel still has makeup on it?", "V2S2": "Your hands are leaving it behind.",
-         "V2S5": "This brush has soft silicone bristles", "V2S4": "and five speeds.", "V2S6": "Only problem? Washing with your hands feels sad now.",
-         "V2S7": "Grab one for your sister too. It's in the orange cart.",
-         "V3S1": "This looked like a normal face brush until I saw the silver end.", "V3S2": "It warms up to a hundred and four degrees,",
-         "V3S5": "so you get a facial at home, no spa bill.", "V3S6": "I hate how much I look forward to it.", "V3S7": "Cold weather's coming, get one for your mom. It's in the orange cart.",
-         "V4S1": "This is for everybody who falls asleep in their makeup.", "V4S2": "A quick splash with your hands leaves it behind.",
-         "V4S3": "This brush does the work:", "V4S4": "soft bristles,", "V4S5": "five speeds.", "V4S6": "I'm mad it's this easy, now I have no excuse.",
-         "V4S7": "Holidays are coming, grab one for your bestie. It's in the orange cart."}
-ORDER = ["V2S1", "V2S2", "V2S5", "V2S4", "V2S6", "V2S7", "V3S1", "V3S2", "V3S5", "V3S6", "V3S7", "V4S1", "V4S2", "V4S3", "V4S4", "V4S5", "V4S6", "V4S7"]
+# ---- V2 S7 replaced (Ralph 2026-10-27: "S7 on V2, it's not good"); 15-20 s kept ("If you have to redo the VO then leave to the original time-frames")
 BY = {x["id"]: x for x in SHOTS}
-BY["V2S7"] = s("V2S7", False, True, "D", "",
+OLD_LINE = BY["V2S7"]["line"]
+BY["V2S7"] = s("V2S7", False, True, "D", OLD_LINE,
    SIZE_FREE + " One " + BRUSH + " It stands upright on its flat silver chrome end on the cream tile ledge right beside the blush pink basin, bristle head at the top, buttons facing the camera, wet with small water drops. "
    "Only one brush, no stand. Gold tap and cream tiles soft behind (room reference). " + NOHAND + " " + ANGLE,
    "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real three buttons ((•)) / O / °C; image 3 is the product sheet, only one brush, no added marks, no lights. "
    "Motion: only the camera moves, a slow push-in toward the standing brush; nothing moves. No hand, fingers or people appear at any time. Bright neutral daylight. " + NOPRINT + " " + CLIPEND, refs=("BTN", "SHEET"), btn=True)
-SHOTS = [dict(BY[i], line=LINES[i]) for i in ORDER]
+SHOTS = [BY[x["id"]] for x in SHOTS]
 
 P = {"SHEET": "refs/product_sheet_v2.png", "HEAD": "refs/closeup_head.png", "BTN": "refs/closeup_buttons.png", "LOGO": "refs/closeup_stand_logo.png"}
 HANDREF = "../../grace/ref/hand-sheets/without_bracelet.jpg"

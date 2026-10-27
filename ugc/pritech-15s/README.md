@@ -1,6 +1,6 @@
 # PRITECH Heated Face Scrubber, black: V2-V4, 15-20 s each (Grace), 2026-10-27
 
-Status: 15 S PLAN SENT 2026-10-27 (Ralph: "S7 on V2, it's not good. Lets drop the timefrane to 15s"). New book $7.39 (was $8.00 approved), waiting on his OK: 15 s scripts, 3 stills (V3S1, V3S5 redos + new V2S7) $0.27, then new 15 s VOs (~810 chars), 13 Omni + 5 Seedance. Spent $1.89. Review page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb.
+Status: 2026-10-27 back to 15-20 s (Ralph: "If you have to redo the VO then leave to the original time-frames"); approved $8.00 book restored; V2S7 replaced by a new end shot. Asking OK for 3 stills $0.27 (total $8.18). Running inside the book: test clips V2S5 (Omni) + V2S2 (Seedance), V2 echo cleanup. Spent $1.89 before the tests. Review page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb.
 
 Brief (Ralph 2026-10-27): "We need 3 more videos of the Pritech heating facial cleansing brush. 15 - 20s each. Use info from previous session." Previous job: ugc/pritech-cleansing-brush (V1, approved 2026-10-24).
 

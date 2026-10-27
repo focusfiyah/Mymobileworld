@@ -36,3 +36,5 @@
 | V4 | This brush does the work: soft bristles, five speeds. | Box "Soft silicone"; listing 5 levels |
 | V4 | I'm mad it's this easy, now I have no excuse. | PLAYBOOK §1 confession |
 | V4 | Holidays are coming, grab one for your bestie. It's in the orange cart. | Real season; gift CTA; gift tags on today's board |
+
+(2026-10-27 later: the 15 s lines above are not used; Ralph kept the 15-20 s scripts. The first table is the final one.)
