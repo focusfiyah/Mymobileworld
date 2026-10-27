@@ -287,6 +287,8 @@ products follow the same rules.
 
 - 2026-10-26 Monbix Remy comforter set (Autumn Leaf): POV + Grace voice, 28.6 s, 10 Omni clips on Kie, cut v2 APPROVED. Kie $5.27 vs $4.725 book (+$0.85 OK'd redos). Lessons: (1) Grace's own product photo from an earlier job (sheet under the Mute box) beat creator frames; grep earlier jobs' refs for the same product first; (2) check every hand item against the hand sheet: the blue silicone band went onto the wrist in 3 stills and a watch appeared; (3) look at background items too (white pillows not in the set); (4) a lying-in-bed POV needs head-on-pillows / headboard-behind-camera / footboard-ahead in words, or it lies across the bed (Ralph caught it). `ugc/monbix-remy-comforter/`.
 
+- 2026-10-27 Mini Bag Charm (burgundy PU basket charm): hands + hand-free over Grace's voice, 26.9 s, 9 Seedance first-frame clips, cut v1 APPROVED. Kie $2.84 vs $3.90 book. Lessons: (1) a size line saying the earbuds fit inside put earbuds in every still: say the item is empty and fill it only in its shot; (2) 'key ring' alone drew a key on the chain: say 'the chain ends in a plain ring only'; (3) Omni on Kie gave 5 straight 500s ($0): Seedance first-frame from the approved still worked at once; (4) Seedance invents hardware on small chains and turns watch-band bracelets into watches: trim to the clean window, start the next shot early.
+
 ## 8. Tracking and sample volume (2026-10-01)
 - Grace gets 25+ samples a week. She doesn't film them all: **Grace's Creator Desk**
   (https://claude.ai/artifact/78TpktwxYTM4cf4z5xnyS2, `grace/desk/`) scores each sample and shows her top few for the week.
