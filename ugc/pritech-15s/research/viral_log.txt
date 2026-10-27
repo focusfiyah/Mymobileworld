@@ -1,0 +1,77 @@
+  #tiktokshopbeauty: 60 videos
+  #tiktokshopskincare: 57 videos
+  #tiktokshopmakeup: 58 videos
+  #tiktokshopfinds: 60 videos
+  #facialcleansingbrush: 58 videos
+  #facebrush: 59 videos
+  #skincaretools: 58 videos
+  #facescrubber: 58 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+436 videos scanned, 198 shop videos posted in the last 30.0 day(s) -> research/viral/viral-2026-10-27.json
+Ranked by views gained since the last run (+) where known, else average views/day since posting.
+
+  #   per day   views   age save%  product / creator / url
+  1      601K    914K  1.5d  0.16  MAC Nude Icons Lip Duo - Lip Pencil + M·A·Cximal Sleek  [Beauty & Personal Care]
+                                  @morganliving: Such a stunning pinky n00d lip combo😍 @M.A.C Cosmetics Store
+                                  https://www.tiktok.com/@morganliving/video/7700636972104043790
+  2      548K    2.6M  4.7d  0.31  Adjustable Under-Sink Storage Rack, Thick PP Telescopic [Home Supplies]
+                                  @user8473634931408: #DealsForYouDays #tiktokshopholiday #tiktokshop #HomeEssenti
+                                  https://www.tiktok.com/@user8473634931408/video/7699441649641999646
+  3      389K    1.4M  3.6d  0.07  tarte colored clay CC undereye corrector [Beauty & Personal Care]
+                                  @morganliving: Why is espresso shot for your dark circles so accurate💀 @tar
+                                  https://www.tiktok.com/@morganliving/video/7699864461787630862
+  4      280K    376K  1.3d  0.05  BASED Multi-Active Skin Elixir | Renews, Brightens, Smo [Beauty & Personal Care]
+                                  @based: The BASED Skin Elixir is now on Tik Tok shop! #BASED
+                                  https://www.tiktok.com/@based/video/7700685273104944398
+  5      208K    2.2M 10.6d  0.46  Fall/Winter Elegant and soft retro practical texture cl [Luggage & Bags]
+                                  @atnorah: makeup bag dream 🎀✨ #makeupbag #chicfinds #makeuporganizatio
+                                  https://www.tiktok.com/@atnorah/video/7697174938444205325
+  6      131K    2.8M 21.4d  0.09  Facial Cleansing Brush, PRITECH Heatable Vibrating Face [Beauty & Personal Care]
+                                  @giovanni.welch: #ShopWithConfidence #sensitiveskin #gentleskincare #facialbr
+                                  https://www.tiktok.com/@giovanni.welch/video/7693266870367030558
+  7      112K    377K  3.4d  0.74  BUXOM Plump Shot Fill & Blur Cosmetic Face Primer - Lig [Beauty & Personal Care]
+                                  @lushoctober: #tiktokshopblackfriday #tiktokcybermonday #discoveryourgift 
+                                  https://www.tiktok.com/@lushoctober/video/7699944792540712223
+  8      108K    791K  7.3d  0.62  Women's Loose Thick Warm Winter Pants Adjustable Drawst [Sports & Outdoor]
+                                  @shopwithtaye: Proof you can be comfy and still have a cute little outfit 🤭
+                                  https://www.tiktok.com/@shopwithtaye/video/7698484752252194078
+  9       79K    1.7M 21.4d  0.14  MAC Cool-Toned Soft Pink Lip Trio [Beauty & Personal Care]
+                                  @morganliving: The perfect cool-toned pink lip combo🎀💋 @M.A.C Cosmetics Sto
+                                  https://www.tiktok.com/@morganliving/video/7693244381163244813
+ 10      +79K    432K 12.4d  0.22  Dual-Ended Solid Stick Blending Concealer & Foundation  [Beauty & Personal Care]
+                                  @_itskelsssss: Honestly super impressed with this #foundation #makeup #foun
+                                  https://www.tiktok.com/@_itskelsssss/video/7696610441765588254
+ 11       74K    328K  4.5d  0.25  Trace It by Point of View Beauty - Precision multi-effe [Beauty & Personal Care]
+                                  @lexallynn: These are unreal!! @Point of View Beauty #povbeauty #tiktoks
+                                  https://www.tiktok.com/@lexallynn/video/7699544501357989151
+ 12      +62K    689K 18.5d  0.51  [New Launch] SKINTIFIC Ultra Cover Powder Foundation Hy [Beauty & Personal Care]
+                                  @jerlenimarte: #makeup #powder #tiktokshopcreatorpicks 
+                                  https://www.tiktok.com/@jerlenimarte/video/7694342894143966478
+ 13      +60K    958K 15.0d  0.36  【Buy 1 Get 1 Free】Dr.ville Dual-Ended 2-in-1 Glycerin & [Beauty & Personal Care]
+                                  @mall6744: #mascara #makeup #waterproofmascara #fyp #tiktokshop 
+                                  https://www.tiktok.com/@mall6744/video/7695641183879580941
+ 14       52K    417K  8.0d  0.22  e.l.f. Glow Reviver Lip Oil Stick, Nourishing Lip Oil S [Beauty & Personal Care]
+                                  @maehni: literally the prettiest shades ever. elf shimmer glow revive
+                                  https://www.tiktok.com/@maehni/video/7698160543009361182
+ 15      +30K    2.7M 19.3d   0.1  Facial Cleansing Brush, PRITECH Heatable Vibrating Face [Beauty & Personal Care]
+                                  @joshjshowcase: Why your hands aren’t enough to clean your face. And why I u
+                                  https://www.tiktok.com/@joshjshowcase/video/7693622417079520542
+ 16       29K    334K 11.5d  0.07  [medicube] Miranda’s Barrier Support Set | Helps to Pro [Beauty & Personal Care]
+                                  @trendmart070: K-Beauty Girlies, Put This on Your List! 👀 #medicube #kbeaut
+                                  https://www.tiktok.com/@trendmart070/video/7696845902035651854
+ 17       27K    487K 18.2d  0.15  Shark Depuffi Facial Sculpting Device - FH220 [Beauty & Personal Care]
+                                  @kierra_b_lifestyle: The pink bedazzled Shark De-Puffi might be the PRETTIEST bea
+                                  https://www.tiktok.com/@kierra_b_lifestyle/video/7694453494161427726
+ 18      +21K     77K 13.2d  0.21  [Dr.G] Best Sellers Bundle | 7-Pc K-Beauty Essentials F [Beauty & Personal Care]
+                                  @momfindsbyfaith: #drg skincare set #tiktokshopcreatorpicks #tiktokshopblackfr
+                                  https://www.tiktok.com/@momfindsbyfaith/video/7696295216675917070
+ 19       18K    243K 13.5d  0.02  Black Lymphatic Contour Face Brush [Beauty & Personal Care]
+                                  @kitsch: de-puff o’clock ⏰😱 a quick brush-through and the whole face 
+                                  https://www.tiktok.com/@kitsch/video/7696199800429071629
+ 20       17K    354K 21.1d  0.14  Women's 8-Shade Matte Liquid Eyeshadow Pen Kit - Velvet [Beauty & Personal Care]
+                                  @jcdbd067: 8-color matte liquid eyeshadow set — velvet matte finish, wa
+                                  https://www.tiktok.com/@jcdbd067/video/7693354718541729054

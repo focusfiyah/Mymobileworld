@@ -1,0 +1,66 @@
+{
+ "job": "pritech-15s",
+ "client": "Grace",
+ "date": "2026-10-27",
+ "route": "ugc-product-ad hands + hand-free demo over the Grace voiceover, 3 videos 15-20 s, no full face (cheek/jaw crops); stills Gemini 3 Pro Image (Kie nano-banana-pro) + V1 product sheet and real close-ups; product clips Omni 1.1 Flash in Ralph's Google Flow app first (Kie Omni only if Flow fails or credits run out, asked); no-product clips Seedance 2.0 Mini on Kie; no Kling",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-pritech-facial-cleansing-brush.json",
+   "research/tag/tag-facialcleansingbrush.json",
+   "research/videos/7693266870367030558/sheet.png",
+   "research/videos/7693622417079520542/transcript.txt",
+   "research/videos/7677716245260651789/sheet.png"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-27.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v2.txt",
+   "research/readability_v3.txt",
+   "research/readability_v4.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ }
+}

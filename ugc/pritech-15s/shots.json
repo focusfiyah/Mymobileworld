@@ -1,0 +1,489 @@
+[
+ {
+  "id": "V2S1",
+  "video": "V2",
+  "hand": true,
+  "product": false,
+  "face": true,
+  "room": "D",
+  "line": "You know that moment you dry your face and the towel still comes up with makeup on it?",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close side view of her cheek and jaw (medium-dark brown skin, damp, clean), Only her cheek and jaw are in frame; her eyes and mouth are never in frame. A blush pink towel headband just at the top edge, white tee strap at the shoulder. Grace's hand (medium-brown skin, short squared French-tip nails, silver crown ring stack, small gold heart ring, blue thumb band, bare wrist, whole wrist visible, entering from the frame edge) pulls a small plain white face towel away from her cheek; the towel faces the camera and shows clear beige foundation smears and a few black mascara marks. Blush pink basin, cream tiles and a gold tap soft behind (room reference). No brush, no product. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same tiles, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+  "clip": "Recreate reference image 1 exactly as the first frame, then the hand slowly pulls the white towel a little further away from the cheek and turns it a little toward the camera so the beige makeup smears read clearly. Only this one hand appears, whole wrist, the same rings as reference image 2. No brush, no product appears at any time. Her eyes and mouth never come into frame. Camera locked-off. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V2S1.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "still_refs": [
+   "rooms/room_D.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "seedance-2-mini"
+ },
+ {
+  "id": "V2S2",
+  "video": "V2",
+  "hand": true,
+  "product": false,
+  "face": false,
+  "room": "D",
+  "line": "Yeah, your hands are leaving it behind.",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Macro close-up of Grace's fingertips (medium-brown skin, short squared French-tip nails, the silver crown ring stack and small gold heart ring on one hand, blue thumb band, bare wrists, whole wrists) under a thin stream from a gold tap over a blush pink basin; beige foundation smudges and black mascara marks are still on the fingertips. Cream tile soft behind (room reference). No brush, no product, no face. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same tiles, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+  "clip": "Recreate reference image 1 exactly as the first frame, then the fingertips rub together slowly under the thin stream of water; the beige foundation and black mascara smudges stay on the fingertips. Only these two hands appear, whole wrists, the same rings as reference image 2. No brush, no product, no face at any time. Camera locked-off. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V2S2.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "still_refs": [
+   "rooms/room_D.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "seedance-2-mini"
+ },
+ {
+  "id": "V2S3",
+  "video": "V2",
+  "hand": true,
+  "product": true,
+  "face": false,
+  "room": "D",
+  "line": "This brush has soft silicone bristles",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Close-up: Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She holds the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. She holds it upright, bristle head toward the camera, and the index fingertip of her other hand presses into the black nubs so they bend softly. Water drops on the nubs. Blush pink basin and cream tile soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = the real room to use as the background (same tiles, colours and light); image 4 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hands exactly. Image 2 is the real black bristle head; image 3 is the product sheet: keep this exact slim shape, size and matte black colour, no lights, no added marks. Motion: the fingertip presses into the nubs twice and they bend softly and spring back. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V2S3.png",
+   "refs/closeup_head.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "rooms/room_D.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V2S4",
+  "video": "V2",
+  "hand": true,
+  "product": true,
+  "face": true,
+  "room": "D",
+  "line": "and five speeds, so you get a real deep clean.",
+  "buttons": true,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Close three-quarter view: Only her cheek and jaw are in frame; her eyes and mouth are never in frame. Her cheek is covered in white cleanser foam; blush pink towel headband at the top edge. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She presses the bristle head of the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. The bristle head lies flat on her foamy cheek, her thumb rests on the top vibration button ((•)). Blush pink basin and cream tile soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom; image 4 = the real room to use as the background (same tiles, colours and light); image 5 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the real three buttons ((•)) / O / °C, moulded black on black; image 4 is the product sheet, no added marks, no lights. Motion: the hand moves the brush in small slow circles on the foamy cheek; the foam spreads a little. The hand keeps one grip and the brush never turns, flips or changes shape. Her eyes and mouth never come into frame. Camera locked-off. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V2S4.png",
+   "refs/closeup_head.png",
+   "refs/closeup_buttons.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_buttons.png",
+   "rooms/room_D.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V2S5",
+  "video": "V2",
+  "hand": false,
+  "product": true,
+  "face": false,
+  "room": "E",
+  "line": "Only problem? Washing with your hands feels sad after this.",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. It lies on its side on a folded white hand towel on a walnut vanity next to a round white vessel sink, the bristle head wet with water drops, the silver chrome end toward the camera. A small vase of pink flowers soft behind (room reference). No hand, no fingers, no people. Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = the real room to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real bristle head and image 3 the product sheet: keep this exact slim black shape and the silver chrome end, no lights, no glow, no added marks. Motion: only the camera moves, a slow sideways dolly along the vanity; nothing in the room moves. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V2S5.png",
+   "refs/closeup_head.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "rooms/room_E.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V2S6",
+  "video": "V2",
+  "hand": false,
+  "product": true,
+  "face": false,
+  "room": "E",
+  "line": "Grab one for you and one for your sister. It's in the orange cart.",
+  "buttons": false,
+  "stand": true,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. One the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. It stands upright in its matte black stand, grey PRITECH readable on the stand front, on a walnut vanity top beside a round white vessel sink, seen from a slightly low angle. Only one brush. Round mirror and white tiles soft behind (room reference). No hand, no fingers, no people. Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the grey 'PRITECH' print on the black stand; image 4 = the real room to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real grey PRITECH on the black stand, matching it letter for letter; image 3 is the product sheet, only one brush, no added marks, no lights. Motion: only the camera moves, a slow push-in toward the brush; nothing moves. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V2S6.png",
+   "refs/closeup_stand_logo.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_stand_logo.png",
+   "rooms/room_E.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V3S1",
+  "video": "V3",
+  "hand": true,
+  "product": true,
+  "face": false,
+  "room": "F",
+  "line": "This looked like a normal face brush until I noticed the silver end.",
+  "buttons": true,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Close-up: Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She holds the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. She holds it tilted toward the camera, the wide flat silver chrome end nearest the lens and the bristle head higher up, a little further away. Deep blue tile wall and a white tub soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom; image 4 = the real room to use as the background (same tiles, colours and light); image 5 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((•)) / O / °C; image 3 is the product sheet: keep this exact slim black shape and the wide flat silver chrome end, no lights, no glow, no added marks. Motion: the camera slowly pushes in toward the silver chrome end. The hand keeps one grip and the brush never turns, flips or changes shape. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S1.png",
+   "refs/closeup_buttons.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_buttons.png",
+   "rooms/room_F.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V3S2",
+  "video": "V3",
+  "hand": true,
+  "product": true,
+  "face": false,
+  "room": "F",
+  "line": "It warms up to a hundred and four degrees.",
+  "buttons": true,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Close side view: Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She holds the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. She holds it upright, buttons facing the camera, her thumb on the bottom °C button; the silver chrome end shows below her hand. Deep blue tile soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom; image 4 = the real room to use as the background (same tiles, colours and light); image 5 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((•)) / O / °C, moulded black on black, matching image 2 exactly; image 3 is the product sheet, no added marks, no lights. Motion: the thumb presses the bottom °C button once and lifts off. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S2.png",
+   "refs/closeup_buttons.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_buttons.png",
+   "rooms/room_F.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V3S3",
+  "video": "V3",
+  "hand": false,
+  "product": false,
+  "face": false,
+  "room": "G",
+  "line": "Who has time or money for a facial every week?",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Spa corner of a bright blue-tiled bath: two neatly rolled thick white towels, a small eucalyptus sprig in a glass and an unlit white candle on the tub ledge, frosted window light. Calm and bright, not dark. No brush, no product, no hand, no people (room reference). Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same tiles, colours and light).",
+  "clip": "Recreate reference image 1 exactly as the first frame, then the camera makes a slow sideways dolly along the tub ledge past the rolled towels; nothing in the room moves, the candle stays unlit. No brush, no product, no hand, fingers or people appear at any time. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S3.png"
+  ],
+  "still_refs": [
+   "rooms/room_G.jpg"
+  ],
+  "clip_model": "seedance-2-mini"
+ },
+ {
+  "id": "V3S4",
+  "video": "V3",
+  "hand": true,
+  "product": true,
+  "face": true,
+  "room": "F",
+  "line": "Wash with the soft bristles,",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Close side view: Only her cheek and jaw are in frame; her eyes and mouth are never in frame. Her cheek is covered in white cleanser foam; a light blue towel headband just at the top edge, white waffle robe at the shoulder. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She presses the bristle head of the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. The bristle head lies flat on her foamy cheek. Deep blue tile soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = the real room to use as the background (same tiles, colours and light); image 4 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the product sheet: keep this exact slim shape, size and black colour, no added marks, no lights. Motion: the hand moves the brush in small slow circles on the foamy cheek. The hand keeps one grip and the brush never turns, flips or changes shape. Her eyes and mouth never come into frame. Camera locked-off. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S4.png",
+   "refs/closeup_head.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "rooms/room_F.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V3S5",
+  "video": "V3",
+  "hand": true,
+  "product": true,
+  "face": true,
+  "room": "F",
+  "line": "then rub the warm end in little circles.",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Close side view: Only her cheek and jaw are in frame; her eyes and mouth are never in frame. Her cheek is rinsed clean and slightly damp, no foam; light blue towel headband at the top edge, white waffle robe at the shoulder. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She holds the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. She holds it upside down so the wide flat silver chrome end touches her cheekbone and the bristle head points down out of the frame. Deep blue tile soft behind (room reference). Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = the real room to use as the background (same tiles, colours and light); image 4 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the product sheet: keep this exact slim black shape and the wide flat silver chrome end, no lights, no glow, no steam, no added marks. Motion: the hand glides the silver end in small slow circles on the cheekbone. The hand keeps one grip and the brush never turns, flips or changes shape. Her eyes and mouth never come into frame. Camera locked-off. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S5.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "rooms/room_F.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V3S6",
+  "video": "V3",
+  "hand": false,
+  "product": true,
+  "face": false,
+  "room": "F",
+  "line": "I hate how much I look forward to it.",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. It lies on its side on a folded white waffle towel on the edge of a white tub, the wide flat silver chrome end toward the camera, water drops on the black nubs. Deep blue tile soft behind (room reference). No hand, no fingers, no people. Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = the real room to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real bristle head and image 3 the product sheet: keep this exact slim black shape and the silver chrome end, no lights, no glow, no added marks. Motion: only the camera moves, a slow half-arc around the brush from the silver end toward its side; nothing moves. No hand, fingers or people appear at any time. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S6.png",
+   "refs/closeup_head.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "rooms/room_F.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V3S7",
+  "video": "V3",
+  "hand": false,
+  "product": true,
+  "face": false,
+  "room": "G",
+  "line": "Cold weather's coming, so get one for your mom too. It's in the orange cart.",
+  "buttons": false,
+  "stand": true,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. One the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. It stands upright in its matte black stand, grey PRITECH readable on the stand front, on the white tub ledge under a frosted window, blue tiles around. Only one brush. No hand, no fingers, no people. (room reference) Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright cool daylight, crisp and clean, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the grey 'PRITECH' print on the black stand; image 4 = the real room to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real grey PRITECH on the black stand, matching it letter for letter; image 3 is the product sheet, only one brush, no added marks, no lights. Motion: only the camera moves, a slow push-in toward the brush; nothing moves. No hand, fingers or people appear at any time. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V3S7.png",
+   "refs/closeup_stand_logo.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_stand_logo.png",
+   "rooms/room_G.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V4S1",
+  "video": "V4",
+  "hand": false,
+  "product": false,
+  "face": false,
+  "room": "H",
+  "line": "This is for everybody who always falls asleep with their makeup on.",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close-up of a rumpled light blue-grey pillowcase on an unmade bed in soft morning light; on the pillowcase a clear beige foundation smudge and two small black mascara marks, as if a face slept there in makeup. No person, no hand, no brush, no product (room reference). Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same tiles, colours and light).",
+  "clip": "Recreate reference image 1 exactly as the first frame, then the camera slowly pushes in toward the makeup smudge on the pillowcase; the fabric does not move. No person, hand, brush or product appears at any time. Bright clean morning light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S1.png"
+  ],
+  "still_refs": [
+   "rooms/room_H.jpg"
+  ],
+  "clip_model": "seedance-2-mini"
+ },
+ {
+  "id": "V4S2",
+  "video": "V4",
+  "hand": true,
+  "product": false,
+  "face": false,
+  "room": "I",
+  "line": "A quick splash with your hands leaves makeup behind.",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot over a white marble vanity sink: Grace's two hands (medium-brown skin, short squared French-tip nails, the silver crown ring stack and small gold heart ring on the right hand, blue thumb band, bare wrists, whole wrists) cupped full of water just above the basin, the tap running; faint beige foundation marks on the fingertips. Grey vanity, marble wall and a green plant soft behind (room reference). No brush, no product, no face. Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same tiles, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+  "clip": "Recreate reference image 1 exactly as the first frame, then the cupped hands lift the water quickly up and out of the top of the frame, and come back down wet. Only these two hands appear, whole wrists, the same rings as reference image 2. No brush, no product, no face at any time. Camera locked-off. Bright clean light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S2.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "still_refs": [
+   "rooms/room_I.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "seedance-2-mini"
+ },
+ {
+  "id": "V4S3",
+  "video": "V4",
+  "hand": true,
+  "product": true,
+  "face": false,
+  "room": "I",
+  "line": "This brush does the work for you,",
+  "buttons": true,
+  "stand": true,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. Her hand lifts the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. up out of its matte black stand (grey PRITECH on the stand front) on a white marble vanity top, the brush just above the stand. Green plant and marble wall soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom; image 4 = a real close-up of the grey 'PRITECH' print on the black stand; image 5 = the real room to use as the background (same tiles, colours and light); image 6 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real grey PRITECH on the black stand, letter for letter; image 3 is the real three buttons ((•)) / O / °C; image 4 is the product sheet, no added marks, no lights. Motion: the hand lifts the brush straight up out of the stand and a little toward the camera; the stand stays on the counter. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright clean light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S3.png",
+   "refs/closeup_stand_logo.png",
+   "refs/closeup_buttons.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_buttons.png",
+   "refs/closeup_stand_logo.png",
+   "rooms/room_I.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V4S4",
+  "video": "V4",
+  "hand": true,
+  "product": true,
+  "face": true,
+  "room": "I",
+  "line": "with soft silicone bristles",
+  "buttons": false,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Low angle close-up of her jawline and the side of her neck, seen from below; Only her cheek and jaw are in frame; her eyes and mouth are never in frame. White cleanser foam along the jaw, a grey tee at the shoulder. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She presses the bristle head of the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. The bristle head lies flat along her foamy jawline. Marble wall soft behind (room reference). Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = the real room to use as the background (same tiles, colours and light); image 4 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the product sheet: keep this exact slim shape, size and black colour, no added marks, no lights. Motion: the hand moves the brush in small slow strokes along the foamy jawline. The hand keeps one grip and the brush never turns, flips or changes shape. Her eyes and mouth never come into frame. Camera locked-off. Bright clean light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S4.png",
+   "refs/closeup_head.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "rooms/room_I.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V4S5",
+  "video": "V4",
+  "hand": true,
+  "product": true,
+  "face": false,
+  "room": "I",
+  "line": "and five speeds.",
+  "buttons": true,
+  "stand": false,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, as long as her hand from wrist crease to fingertip and only about two fingers wide; her fingers look big next to it, never the other way round. Macro close-up from the front: Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible, the hand enters from the frame edge and GRIPS the handle with the fingers wrapped around it. She holds the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. She holds it upright, buttons facing the camera, her thumb on the top vibration button ((•)); water drops sit on the black nubs. White marble and grey vanity soft behind (room reference). Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the three moulded buttons, black on black: ((•)) on top, O in the middle, °C at the bottom; image 4 = the real room to use as the background (same tiles, colours and light); image 5 = Grace's real hand sheet (skin tone, nails, rings, bare wrist). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((•)) / O / °C, moulded black on black, matching image 2 exactly; image 3 is the real bristle head; image 4 is the product sheet, no added marks, no lights. Motion: the thumb presses the top ((•)) button once; the water drops on the nubs shiver from the vibration. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright clean light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S5.png",
+   "refs/closeup_buttons.png",
+   "refs/closeup_head.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_buttons.png",
+   "rooms/room_I.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V4S6",
+  "video": "V4",
+  "hand": false,
+  "product": true,
+  "face": false,
+  "room": "I",
+  "line": "I'm mad it makes washing this easy. Now I have no excuse.",
+  "buttons": false,
+  "stand": true,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. It stands upright in its matte black stand (grey PRITECH on the stand front) next to the white marble sink, wet with water drops, a small green plant beside it. No hand, no fingers, no people. (room reference) Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the grey 'PRITECH' print on the black stand; image 4 = the real room to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real grey PRITECH on the black stand, letter for letter; image 3 is the product sheet, no added marks, no lights. Motion: only the camera moves, a slow arc around the brush from its side toward its front; nothing moves. No hand, fingers or people appear at any time. Bright clean light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S6.png",
+   "refs/closeup_stand_logo.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_stand_logo.png",
+   "rooms/room_I.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ },
+ {
+  "id": "V4S7",
+  "video": "V4",
+  "hand": false,
+  "product": true,
+  "face": false,
+  "room": "I",
+  "line": "The holidays are coming, so grab one for your bestie too. It's in the orange cart.",
+  "buttons": false,
+  "stand": true,
+  "still": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: a slim wand, about as long as an adult hand and only about two fingers wide. One the real PRITECH face scrubber, BLACK: one SLIM matte black curved wand, about 15-16 cm long and only about two fingers wide, about 5 times as long as it is wide; its head is a forward-tilted oval paddle that flows straight out of the handle, barely wider than the handle (no neck, no round disc, no bulb), covered in short black silicone nubs in rings, three small moulded buttons on the front of the handle top to bottom (a vibration icon ((•)), a circle O, a °C sign), a wide flat silver chrome band at the bottom end. It never glows and has no lights, no added marks, no ® or ™, no other text. It stands upright in its matte black stand, grey PRITECH readable on the stand front, on the white marble counter beside a small gift wrapped in plain white paper with a red ribbon (no tag, no text). Only one brush. No hand, no fingers, no people. (room reference) Show the brush from a three-quarter side angle so its gentle curve and the forward tilt of the head show, exactly like the big photo in image 1. Vertical 9:16 phone photo, bright clean morning light, neutral white balance, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real black brush, copy its slim shape and proportions exactly; image 2 = a real close-up of the black bristle head; image 3 = a real close-up of the grey 'PRITECH' print on the black stand; image 4 = the real room to use as the background (same tiles, colours and light). The brush must match images 1 and 2 exactly in shape, size and matte black colour; any print matches its close-up letter for letter and colour for colour.",
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real grey PRITECH on the black stand, matching it letter for letter; image 3 is the product sheet, only one brush, no added marks, no lights. Motion: only the camera moves, a slow push-in toward the brush; nothing moves. No hand, fingers or people appear at any time. Bright clean light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/V4S7.png",
+   "refs/closeup_stand_logo.png",
+   "refs/product_sheet_v2.png"
+  ],
+  "still_refs": [
+   "refs/product_sheet_v2.png",
+   "refs/closeup_head.png",
+   "refs/closeup_stand_logo.png",
+   "rooms/room_I.jpg"
+  ],
+  "clip_model": "omni (Flow first)"
+ }
+]

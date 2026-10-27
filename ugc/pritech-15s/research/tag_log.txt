@@ -1,0 +1,76 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 42 of 84 videos posted since 2026-08-24
+42 videos -> research/tag/tag-facialcleansingbrush.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    489,500   0.6   0.08   13 2026-08-24  @brazilian.princess1: This helps keep my pores so clean, I’ll never go back to just using my
+                                          https://www.tiktok.com/@brazilian.princess1/video/7677716245260651789
+    110,300   0.8   0.16   78 2026-10-05  @ttspaulking: #TikTokShopBlackFriday #FacialCleansingBrush #SkincareTok #SkincareRou
+                                          https://www.tiktok.com/@ttspaulking/video/7693267386773835039
+     82,700   0.4   0.02   31 2026-09-30  @nurseangietoks: #facewashing #facialtreatment #facialwash #facialcleansingbrush 
+                                          https://www.tiktok.com/@nurseangietoks/video/7691154241632750861
+     72,800   1.4   0.11   27 2026-09-07  @thuma.p: Do you still use your facial brush in 2026 #facialwash #facialbrush #f
+                                          https://www.tiktok.com/@thuma.p/video/7682670339918204180
+     53,200   0.5   0.12   85 2026-10-07  @ttspaulking: #TikTokShopBlackFriday #FacialCleansingBrush #CityTasteTest #SkincareR
+                                          https://www.tiktok.com/@ttspaulking/video/7693734104109534495
+     28,100   3.0   0.37   22 2026-09-27  @_vickeycathey: 
+                                          https://www.tiktok.com/@_vickeycathey/video/7690312984689691935
+     17,300   0.8   0.07   54 2026-10-21  @honeyjoyjacinto96: mini finger facial brush mini finger face brush facial brush face brus
+                                          https://www.tiktok.com/@honeyjoyjacinto96/video/7698762491081280788
+     16,000   0.2   0.03   37 2026-09-13  @kylefinds_fit: Your hands are not cleaning your face well…. #harrys 
+                                          https://www.tiktok.com/@kylefinds_fit/video/7685115602842684703
+     15,600   1.1   0.33   76 2026-10-13  @wesell21: Watch how this brush makes me 20 years younger 😭✨ Lymphatic drainage r
+                                          https://www.tiktok.com/@wesell21/video/7696215242187017503
+     11,800   0.9   0.14   29 2026-09-19  @heyitsmichelleb: One of those simple skincare tools you’ll actually want to use every d
+                                          https://www.tiktok.com/@heyitsmichelleb/video/7686476808295877902
+     10,900   3.1   0.39   38 2026-10-01  @meaganandjonathan: My lollipop brush IS THE PERFECT brush for deep but gentle cleaning of
+                                          https://www.tiktok.com/@meaganandjonathan/video/7691791421962980638
+      7,123   0.5   0.14   35 2026-09-30  @bigmaybs: Trust me, this is the best thing that has happened to my skincare rout
+                                          https://www.tiktok.com/@bigmaybs/video/7691262728639450390
+      6,586   2.9   0.61   26 2026-10-14  @brantnk: Trying to get clear skin? Start your skincare routine with a facial sc
+                                          https://www.tiktok.com/@brantnk/video/7696590199198928142
+      6,048   0.5      0   60 2026-10-18  @ilia.devs: Upgrade tha morning routineeee 🫰🏽🧖🏽‍♀️🫧 #cleansingbrush #glassskin #fo
+                                          https://www.tiktok.com/@ilia.devs/video/7697853295905443086
+      4,819   3.3   0.37   41 2026-10-07  @blackgurlmya: this has been a great addition to my skin care routine🩷 #pretich #faci
+                                          https://www.tiktok.com/@blackgurlmya/video/7694040897473858846
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 40 of 86 videos posted since 2026-08-24
+40 videos -> research/tag/tag-facebrush.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  2,000,000   0.6   0.16   47 2026-09-23  @iamrenz041: 2 in 1 SPA Bath Brush with Face Brush.💯 #FaceBrush #2in1SPABathBrush #
+                                          https://www.tiktok.com/@iamrenz041/video/7688414869422443796
+    676,000   0.5   0.14   74 2026-10-03  @danafiles: POV: you almost scrolled past the thing everyone’s about to be obsesse
+                                          https://www.tiktok.com/@danafiles/video/7692450987524525325
+    186,200   2.1   0.29   28 2026-10-02  @david.yusupov: Trying out @douxds face brush, might have to add this to my nightly sk
+                                          https://www.tiktok.com/@david.yusupov/video/7691884624372436255
+    154,500  10.9   1.91  117 2026-09-11  @shellasmr: i almost fell asleep watching this back ngl #asmr #asmrbrushing #asmrp
+                                          https://www.tiktok.com/@shellasmr/video/7683764790573010189
+    152,100   0.3   0.07   18 2026-10-18  @joshjshowcase: Easy tool to use to promote clearer skin: a face scrubber #tiktokshopc
+                                          https://www.tiktok.com/@joshjshowcase/video/7697313763019492638
+     72,800   1.4   0.11   27 2026-09-07  @thuma.p: Do you still use your facial brush in 2026 #facialwash #facialbrush #f
+                                          https://www.tiktok.com/@thuma.p/video/7682670339918204180
+     50,300   6.7   1.02   93 2026-10-05  @chelsasmr: Face & shoulder brushing to help you relax and fall asleep 🌙 #asmr #as
+                                          https://www.tiktok.com/@chelsasmr/video/7693318579579587870
+     27,500   7.0   1.51  146 2026-10-12  @alchemystudiosasmr: Replying to @Mia Dawn 🦇🕸️ ASMR: gentle and slow face brushing with whi
+                                          https://www.tiktok.com/@alchemystudiosasmr/video/7695912553297300749
+     21,000   6.3    1.0   67 2026-10-10  @blushasmr444: ASMR face brushing. ♥️ #asmr #asmrsounds #brushing #asmrbrushing 
+                                          https://www.tiktok.com/@blushasmr444/video/7695142141609217294
+     18,100   0.5    0.1   40 2026-09-24  @lilt0822: Loving this @Kitsch facial brush🤩 #skincare #facialtreatment #facialbr
+                                          https://www.tiktok.com/@lilt0822/video/7689216005603642655
+     17,300   0.8   0.07   54 2026-10-21  @honeyjoyjacinto96: mini finger facial brush mini finger face brush facial brush face brus
+                                          https://www.tiktok.com/@honeyjoyjacinto96/video/7698762491081280788
+     16,000   0.2   0.03   37 2026-09-13  @kylefinds_fit: Your hands are not cleaning your face well…. #harrys 
+                                          https://www.tiktok.com/@kylefinds_fit/video/7685115602842684703
+     15,600   1.1   0.33   76 2026-10-13  @wesell21: Watch how this brush makes me 20 years younger 😭✨ Lymphatic drainage r
+                                          https://www.tiktok.com/@wesell21/video/7696215242187017503
+     15,100   8.9   1.54  119 2026-10-13  @lordblackbirdasmr: #asmr #lofiasmr #asmrfacetouching 
+                                          https://www.tiktok.com/@lordblackbirdasmr/video/7696291711777148173
+     12,100   1.4   0.12   19 2026-10-20  @piink.mango: Since you got your degree and shii 🙄 #facebrush #siliconebrush #tiktok
+                                          https://www.tiktok.com/@piink.mango/video/7698763123058085134
