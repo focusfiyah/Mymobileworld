@@ -5,7 +5,7 @@ from PIL import Image
 D = json.loads(Path("shots.json").read_text()); SH = D["shots"]; E = html.escape
 book = Path("BOOK.md").read_text()
 script = re.search(r"V1, recommended:\n(.*?)\nWhy:", book, re.S).group(1).strip().splitlines()
-qs = re.search(r"## 7\. Questions\n(.*?)\n\n## 8", book, re.S).group(1).strip().splitlines()
+qs = re.search(r"## 7\. Questions\n(.*?)\n\n## 7b", book, re.S).group(1).strip().splitlines()
 total = re.search(r"TOTAL: \$([0-9.]+)", book).group(1)
 IMG = Path("review/img"); IMG.mkdir(parents=True, exist_ok=True)
 ROOMS = {"rooms/roomA_sage_bathroom.jpg": "sage tile bathroom", "rooms/roomB_pink_bathroom.jpg": "pink tile bathroom", "rooms/roomC_bedroom_vanity.jpg": "bright bedroom vanity",
@@ -71,12 +71,12 @@ td {{ border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; 
 @media (max-width:480px) {{ .shb {{ grid-template-columns:1fr; }} .shb img {{ width:100%; max-width:220px; }} }}
 </style>
 <div class="wrap">
-<header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; plan &middot; 2026-10-27 &middot; nothing spent yet</span>
+<header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; approved 2026-10-27 &middot; stills round 1</span>
 <h1>Black Yuja Bean Lifting Auto Eye Cream</h1>
 <p>Hands + hand-free AI video over Grace's cloned voice, about 34 s, 10 shots. Opens like the two biggest videos for this exact tube: the chrome tip touches a glass of water and the rings show the buzz.</p></header>
-<div class="ask"><b>Approve the plan? Total ${total}</b><span>Expected with your Flow app: {re.search(r'\$[0-9.]+[0-9]', note.group(1)).group(0)}. Answer the 7 questions below (defaults are marked).</span></div>
+<div class="ask"><b>Stills ready: one question on S1</b><span>Let the short chrome on S1 go, or redo S1 for $0.09. Plan approved, $4.24 allowed.</span></div>
 {STORY}
-<section><h2>Questions</h2><ol class="q">{q_html}</ol></section>
+<section><h2>Your answers</h2><p>{E(re.search(r"## 7b.*?\n(1\. .*?)\n", book, re.S).group(1))}</p><details><summary>The questions</summary><ol class="q">{q_html}</ol></details></section>
 <section><h2>Script, Grace cloned voice</h2><ol class="script">{script_html}</ol>
 <p class="note">Hook H094 from Grace's library (options B H077, C H099 in research/hooks.md). Reading grade 2.6. Gate: GATE OK. No price, no on-screen text, no "order it now". Caption: Hear that? It turns on by itself 👀 Yuja water, black bean and collagen, with a massage tip built in. #ad #heveblue #eyecream #kbeauty #koreanskincare #tiktokshopfinds</p></section>
 <section><h2>The opener we copy</h2><div class="grid2">

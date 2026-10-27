@@ -86,5 +86,9 @@ TOTAL: $4.243
 6. On-screen text: none (default), or "does your eye cream do this?" on the opener?
 7. Buzz sound: add a free real vibration sound under S1-S2 (default yes), or voice only?
 
+## 7b. Ralph's answers (2026-10-27: "1. Without 2.keep 3. Under eye neck close 4. No 5.kie and Kie 6 none 7. First 2 shots")
+1. Hand sheet WITHOUT the bracelet (bare wrist; rings as in the sheet: crown stack ring on the ring finger, gold heart ring on the middle finger, blue band on the thumb). 2. Water opener kept. 3. Face crops on S4, S5, S7 (under-eye and neck, no mouth). 4. No sample: go with the 16 x 2 cm estimate. 5. Stills on Kie, the 8 product clips on Kie (Omni 1.1 Flash, $0.315 each; Seedance first-frame if Omni gives 500s), no Flow kits. 6. No on-screen text. 7. Free buzz sound effect under S1 and S2 only.
+Expected spend now: $3.76 (10 stills + 2 Seedance + 8 Omni on Kie) within the $4.243 TOTAL.
+
 ## 8. Prompts
 Every still and clip prompt: prompts/still_<ID>.txt and prompts/<ID>.txt (built by build_prompts.py from shots.json, written with prompt-master, linted PROMPT_LINT_OK and marked checked). Still refs, numbered and named: 1 product sheet, 2 real print close-up, 3 real chrome tip close-up (or the black cap when it is on), 4 the room photo, 5 Grace's hand sheet, 6 Grace's face (face shots). Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), 2 print, 3 tip or cap, 4 sheet, 5 hand sheet. Every prompt: size first, the print matched letter for letter, chrome never gold, no button or light, one grip on the chrome, never turns or flips, no mouth in face crops, no sparkle words, no text, no music, no voice.
