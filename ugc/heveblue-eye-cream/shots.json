@@ -1,0 +1,179 @@
+{
+ "blocks": {
+  "size_first": "SIZE FIRST: the eye cream is ONE slim tube about 16 cm long and 2 cm wide (15 ml), about as long as an adult hand from the wrist crease to the fingertip and about as wide as one and a half fingers. It is about 8 times as long as it is wide, exactly the proportions in image 1. It is never bigger than the hand holding it.",
+  "product_block": "The eye cream is the REAL product in the reference images and it must not change: the top 60% is a soft matte WHITE squeeze tube whose far end is a flat crimped white seal; the bottom 40% is the polished chrome applicator: a smooth silver cylinder a little narrower than the tube, one thin matte BLACK ring band at its end, then a short polished chrome tip shaped like a spool that narrows into a waist and flares into a flat round end face with one tiny hole in the centre. The print on the white tube is all black, serif capitals, centred, exactly as in image 2: 'BLACK YUJA BEAN / LIFTING AUTO / EYE CREAM', then a thin black oval outline with a black 'HB' monogram and tiny curved 'HEVE' above and 'BLUE' below inside the oval, then seven small lines of ingredients and '15ml / 0.50 FL. OZ.'. No other text, no colour on the tube, no button, no switch, no light, no gold or rose gold metal, no roller ball.",
+  "cap_on": "The matte BLACK cylinder cap is ON: it covers the chrome tip and the black ring, so only the white tube and part of the chrome cylinder show, exactly as in image 3.",
+  "cap_off": "The black cap is OFF and nowhere in the frame; the chrome tip is bare and shaped exactly as in image 3.",
+  "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a FLAT gold bracelet of rectangular links like a watch band (NO watch face) and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a silver ring with a small heart-shaped stone and a blue silicone band worn as a RING on the ring finger, never on the wrist. Whole wrist visible, a little forearm in a soft cream knit sleeve may show, five fingers, natural knuckles and skin texture. The fingers GRIP the tube: thumb on one side, fingers on the other, on the chrome part.",
+  "face_block": "The skin is Grace's, exactly as in the face reference: medium-dark brown skin with real pores and texture, defined arched brows, almond dark-brown eyes, natural lashes, no heavy makeup. Relaxed face, smooth relaxed forehead, no frown.",
+  "no_hand": "No hand, arm, fingers or people anywhere in the frame.",
+  "light": "Bright soft daylight, clean neutral white balance, never yellow, golden, dark or moody.",
+  "suffix": "Vertical 9:16 photo, a single frame from a phone video, realistic textures, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI, no date stamp.",
+  "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{who} and the eye cream exactly. The eye cream is the real product in images 2 to {sheet}: a matte white tube with black serif print and the black 'HB' oval logo, and a polished chrome applicator with one black ring band and a chrome spool-shaped tip. Its print must match image 2 letter for letter and colour for colour; its shape and size never change.",
+  "omni_tail": "One continuous handheld phone shot, 4 seconds, bright neutral daylight that never changes. The tube never turns, flips, bends or changes size; no second tube appears. No text, no captions, no music, no voice."
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "t": [
+    0.0,
+    3.3
+   ],
+   "words": "Okay, watch what happens when I touch the tip of this eye cream.",
+   "hand": true,
+   "face": false,
+   "cap": "off",
+   "room": "rooms/roomA_sage_bathroom.jpg",
+   "props": "one clear glass coupe (a wide shallow stemmed glass) half full of clear water",
+   "still": "Close eye-level view of the wooden bathroom counter from the room photo, the sage tiles and round mirror soft and out of focus behind. A clear glass coupe half full of clear water stands on the counter in the lower third of the frame. ONE hand enters from the top right edge holding the eye cream upright, chrome tip pointing DOWN, white crimped end pointing UP; the thumb and two fingers pinch the chrome cylinder. The flat end of the chrome tip just touches the centre of the water surface. The tube fills about 45% of the frame height and is never taller than the hand is long.",
+   "motion": "The flat chrome tip rests on the water surface and stays still; at once fine, fast, tight concentric ripples run out from the tip across the whole water surface and keep coming the whole time, like the water is shivering. The hand and tube do not move. No splash, no bubbles, the water stays clear. Camera holds, a very slight push-in.",
+   "risk": "money move: water ripples from the vibrating tip",
+   "see": "Hand holds the tube tip-down; the chrome tip touches the water in a glass coupe on a bathroom counter, rings spread (riskiest, made first)"
+  },
+  {
+   "id": "S2",
+   "t": [
+    3.3,
+    7.4
+   ],
+   "words": "Hear that? It turns on by itself. Twelve thousand vibrations a minute.",
+   "hand": true,
+   "face": false,
+   "cap": "off",
+   "room": "rooms/roomA_sage_bathroom.jpg",
+   "props": "the same clear glass coupe of water",
+   "still": "Top-down macro view straight into the clear glass coupe of water on the wooden counter: the water surface fills most of the frame, the flat round chrome end of the tip touches the middle of the surface, the chrome cylinder and black ring rise toward the top edge, and the hand's fingertips pinch the chrome at the very top edge of the frame. Tight concentric ripple rings already spread from the tip.",
+   "motion": "Fine, fast concentric ripple rings pulse out from the chrome tip across the water the whole time, steady and even. The tip, tube and fingers stay perfectly still. No splash, no bubbles. Camera holds, tiny handheld drift only.",
+   "see": "Top-down macro into the glass: fine rings pulse out from the tip"
+  },
+  {
+   "id": "S3",
+   "t": [
+    7.4,
+    11.6
+   ],
+   "words": "Let's be for real, most eye cream is just lotion that ends up on your finger,",
+   "hand": true,
+   "face": false,
+   "no_product": true,
+   "room": "rooms/roomB_pink_bathroom.jpg",
+   "props": "",
+   "still": "Close view in front of the pink tiled bathroom from the room photo, soft and out of focus behind. ONE hand enters from the bottom right edge, palm up, ring finger and middle finger raised toward the lens; a smear of ivory-white eye cream sits on the pad of the ring finger, thick and shiny, clearly left over. The hand fills the lower half of the frame.",
+   "motion": "The thumb slowly rubs the cream on the ring finger pad, spreading the leftover cream across the fingertip; the cream stays on the finger. Camera holds.",
+   "see": "Fingertip with leftover eye cream, thumb rubs it around (no product)"
+  },
+  {
+   "id": "S4",
+   "t": [
+    11.6,
+    13.8
+   ],
+   "words": "Then your concealer still creases by lunch.",
+   "hand": false,
+   "face": true,
+   "no_product": true,
+   "room": "rooms/roomC_bedroom_vanity.jpg",
+   "props": "",
+   "still": "Extreme close-up of the left side of Grace's face from the eyebrow down to the top of the cheek, by a bright window: one open eye looking slightly down, the under-eye area in sharp focus with a thin layer of light concealer that has settled into fine creases under the eye. The bridge of the nose touches the frame edge; NO mouth, NO lips and no chin anywhere in the frame. The bright bedroom from the room photo is soft and out of focus at the edge.",
+   "motion": "Very slow push-in on the creased concealer under the eye; she blinks once, slowly. Nothing else moves.",
+   "see": "Under-eye close-up, concealer settled into fine creases, slow push-in, she blinks (no mouth)"
+  },
+  {
+   "id": "S5",
+   "t": [
+    13.8,
+    18.4
+   ],
+   "words": "This one has the massage tip built in, so a tiny dot gets worked right in.",
+   "hand": true,
+   "face": true,
+   "cap": "off",
+   "room": "rooms/roomB_pink_bathroom.jpg",
+   "props": "",
+   "still": "Close-up of the left side of Grace's face from the eyebrow down to the top of the cheek, the pink tiled bathroom soft behind; NO mouth, NO lips and no chin in the frame. Her eye is relaxed and looking up and away from the tip. ONE hand enters from the bottom right edge holding the eye cream at an angle, fingers on the chrome cylinder; the flat chrome tip rests gently on the skin just under the outer corner of the eye, with a small ivory-white dot of cream on the skin beside it. The tube points down and out of frame; only the chrome part and a little of the white tube show.",
+   "motion": "The chrome tip glides slowly and gently along under the eye from the outer corner toward the inner corner, spreading the small dot of cream into a thin sheen that sinks in. The eye stays relaxed and open. One slow pass, the grip never changes.",
+   "risk": "tip on the face under the eye",
+   "see": "Chrome tip glides under her eye spreading a small dot of cream (no mouth)"
+  },
+  {
+   "id": "S6",
+   "t": [
+    18.4,
+    21.3
+   ],
+   "words": "It's yuja water, black bean and collagen for dry skin.",
+   "hand": false,
+   "face": false,
+   "cap": "on",
+   "room": "rooms/roomE_marble_counter.jpg",
+   "props": "a shallow speckled stone bowl full of shiny black soybeans and one yuja (a small yellow citrus) cut in half beside it",
+   "still": "Close three-quarter view from above of the grey marble bathroom counter from the room photo, the yellow flowers soft behind. A shallow speckled stone bowl full of shiny black soybeans; the eye cream lies diagonally across the beans with the cap on, its print facing up and readable; a yuja cut in half lies on the counter beside the bowl, juicy yellow flesh up. The tube fills about 55% of the frame width.",
+   "motion": "Slow, smooth push-in toward the tube's print; nothing in the frame moves.",
+   "see": "Tube, cap on, lying in a stone bowl of black beans, a cut yuja beside it, slow push-in"
+  },
+  {
+   "id": "S7",
+   "t": [
+    21.3,
+    23.9
+   ],
+   "words": "It goes on smile lines and your neck too.",
+   "hand": true,
+   "face": false,
+   "cap": "off",
+   "room": "rooms/roomB_pink_bathroom.jpg",
+   "props": "",
+   "still": "Close-up of the right side of Grace's neck from just under the jawline down to the collarbone, her chin lifted slightly; NO mouth, NO lips and no eyes in the frame. Her braids are swept behind her shoulder. ONE hand enters from the bottom left edge holding the eye cream by the chrome cylinder; the flat chrome tip rests on the side of the neck with a small sheen of cream. The pink tiled bathroom is soft behind.",
+   "motion": "The chrome tip glides slowly upward along the side of the neck toward the jawline, one smooth pass; the grip never changes. The head stays still.",
+   "see": "Tip glides up the side of her neck toward the jaw (no mouth)"
+  },
+  {
+   "id": "S8",
+   "t": [
+    23.9,
+    27.3
+   ],
+   "words": "People say that cool metal tip makes plain eye cream feel boring.",
+   "hand": false,
+   "face": false,
+   "cap": "off",
+   "room": "rooms/roomC_bedroom_vanity.jpg",
+   "props": "a small clear glass tumbler",
+   "still": "Close view of the cream vanity top in the bright bedroom from the room photo, the ornate gold mirror and small pine plant soft behind. The eye cream stands upright in a small clear glass tumbler, chrome tip pointing UP, white crimped end down inside the glass, print facing the lens. The tube fills about 50% of the frame height; the tumbler is about a third as tall as the tube.",
+   "motion": "Slow camera arc a little to the right around the tumbler; the tube and glass stay still.",
+   "see": "Tube standing tip-up in a small glass tumbler on a bedroom vanity, slow camera arc"
+  },
+  {
+   "id": "S9",
+   "t": [
+    27.3,
+    31.6
+   ],
+   "words": "Cold weather dries out under eyes, so grab one for you and one for your mom's stocking.",
+   "hand": true,
+   "face": false,
+   "cap": "on",
+   "room": "rooms/roomD_fireplace.jpg",
+   "props": "",
+   "still": "Close view of the red and white knit Christmas stockings hanging on the stone fireplace from the room photo. ONE hand enters from the right edge holding the eye cream with the cap on, white tube up, print facing the lens, and lowers it into the open top of one red stocking; half the tube is already inside the stocking. Exactly one eye cream in the frame.",
+   "motion": "The hand slowly lowers the tube a little further into the stocking and lets go, leaving the white top and print showing above the cuff; the hand leaves the frame to the right. The stockings sway very slightly.",
+   "see": "Hand drops ONE capped tube into a red Christmas stocking on the fireplace"
+  },
+  {
+   "id": "S10",
+   "t": [
+    31.6,
+    34.5
+   ],
+   "words": "I linked it in the orange cart for you.",
+   "hand": false,
+   "face": false,
+   "cap": "off",
+   "room": "rooms/roomF_teal_vanity.jpg",
+   "props": "a small plain white ceramic dish",
+   "still": "Close view of the wooden vanity top against the deep teal wall from the room photo, the gold wall lamp soft behind. ONE eye cream lies on a small plain white ceramic dish, cap off, chrome tip pointing to the right, print facing up and readable. The tube fills about 60% of the frame width. Exactly one tube.",
+   "motion": "Slow push-in toward the print and the chrome tip; nothing moves.",
+   "see": "End: ONE tube on a small white dish on a vanity by a teal wall, slow push-in"
+  }
+ ]
+}

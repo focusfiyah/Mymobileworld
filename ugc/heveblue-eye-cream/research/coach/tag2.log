@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/heveblue-eye-cream/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/heveblue-eye-cream/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 27 of 59 videos posted since 2026-09-27
+27 videos -> research/coach/tag-eyecream.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,800,000   1.1   0.09  101 2026-09-28  @maddybeautyfinds: Korea is definitely living in the year 2200😳 #heveblue #eyecream #kbea
+                                          https://www.tiktok.com/@maddybeautyfinds/video/7690713735131909407
+  1,000,000   1.2    0.2   24 2026-10-20  @mnna773: Cette crème visage 6 en 1 vous fera paraître 10 ans plus jeune. Le sec
+                                          https://www.tiktok.com/@mnna773/video/7698690413355486477
+    669,400  12.2   4.59   65 2026-10-09  @samantha_ccole8: Replying to @Kim all the answers! I know they are pricey but you need 
+                                          https://www.tiktok.com/@samantha_ccole8/video/7694471664624585998
+    667,600  14.8   2.59   57 2026-10-10  @vpucino: THE ANSWER TO EVERYONES BURNING QUESTION #fyp #skin #glassskin #skinca
+                                          https://www.tiktok.com/@vpucino/video/7695116156826357022
+    438,800   6.6   0.99   52 2026-10-16  @abbythebadassmom: Some eye creams I would skip on they are just moisturizers in little j
+                                          https://www.tiktok.com/@abbythebadassmom/video/7697375803624967438
+    269,300   0.7   0.25   39 2026-09-29  @daliladailyfinds: this soft pink eye cream is packed with caffeine, peptides, vitamin E 
+                                          https://www.tiktok.com/@daliladailyfinds/video/7690805389717146894
+    222,400  11.1   2.27  138 2026-10-12  @samanthamauvis: I started this account 3yrs ago based on reviews - here’s my latest. I
+                                          https://www.tiktok.com/@samanthamauvis/video/7695670388226854151
+    201,400  10.7   2.95   52 2026-10-04  @gigidogan: Banana bright eye cream from Olehenriksen is that girl 💗 #brightundere
+                                          https://www.tiktok.com/@gigidogan/video/7692913821945433377
+    167,200   2.7   1.31   10 2026-10-03  @watermelonsugarskin: ✨Best k-beauty eye cream + eye patches for your concern ‼️All availabl
+                                          https://www.tiktok.com/@watermelonsugarskin/video/7692519233942555936
+    106,700   1.5    0.4   47 2026-10-17  @_lilyis: if you’re searching for an eye cream that help undereye hollowness, ma
+                                          https://www.tiktok.com/@_lilyis/video/7697726598514068750
+     79,600   0.2   0.02   11 2026-10-23  @simplecosmeticspro_: Tired-looking under-eyes? EyeGlow has entered the chat 👀✨ Meet your ne
+                                          https://www.tiktok.com/@simplecosmeticspro_/video/7699903917647334670
+     39,000   5.9   1.53  174 2026-10-19  @james_s_welsh: Don’t let anyone tell you eye creams are a waste of money!…But also…ha
+                                          https://www.tiktok.com/@james_s_welsh/video/7698447020733762848
+     21,100   4.7    1.4   31 2026-10-18  @markbbig: I’m DONE wasting money on TikTok-viral eye creams. 💀 #eyecream #ahc #k
+                                          https://www.tiktok.com/@markbbig/video/7697274967397846302
+     19,800   5.1    2.4   79 2026-10-22  @sparklesandskin: Top 5 K-beauty eye creams for fine lines & dark circles 👁️✨ All listed
+                                          https://www.tiktok.com/@sparklesandskin/video/7699463199598415126
+     16,300  12.0   0.52   50 2026-09-29  @susiesushi5: Genuinely try an eye cream and thank me later (but you have to be cons
+                                          https://www.tiktok.com/@susiesushi5/video/7691106313165622559
