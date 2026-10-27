@@ -45,3 +45,5 @@
   EVIDENCE: page v4; Gmail 1a17ad7078c5f660; push requested
 - [x] G16: delivered to Drive (manual)
   EVIDENCE: 2026-10-27 folder 1sTBKhYHwoJdWXRzf_ZNvrmLhY1i83Tm8; video 14Qxy7HO6dXsunGqSJhbmPaXc-FMTi2S0 size 69197662 = local; doc 1qyVnUEJ3-j0-7u8MR52LIfRf--RTdD_tP73RFR68EyQ read back via Composio, emoji intact
+- [x] G17: v2 delivered (manual)
+  EVIDENCE: 2026-10-27 CURRENT - Mini Bag Charm V2.mp4 id 1t3yUupoX5v2iYCUH78pWsQetVMR67CGC size 69270724 = local; v1 renamed "v1 (2026-10-27) - Mini Bag Charm.mp4" into Older versions 1WU3NcV_PpN-AzP925TsQ5IKBtHoY1wf7
