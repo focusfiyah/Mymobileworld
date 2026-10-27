@@ -20,12 +20,13 @@ def still(sid):
 
 def omni(sid, dry=False):
     refs = R[sid]["clip_refs"]
-    cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}.txt", "--still", refs[0], "--seconds", "4"]
+    cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}.txt", "--still", refs[0], "--seconds", str(SEC.get(sid, 4))]
     for r in refs[1:]: cmd += ["--ref", r]
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
 DUR = {}
+SEC = {s["id"]: s.get("seconds", 4) for s in json.loads(Path("shots.json").read_text())["shots"]}
 
 
 def seedance_prod(sid):

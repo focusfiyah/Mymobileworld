@@ -45,7 +45,7 @@ def clip(s):
         r.append(HAND); extra += f" Image {len(r)} is Grace's hand sheet: the French-tip nails and rings stay exactly, the wrist stays bare, as in images 1 and {len(r)}; the hand keeps one grip on the chrome and enters and leaves from the frame edge; no second hand and no other jewellery appear."
     else: extra += " No hand, fingers or people appear at any time." if not s["face"] else ""
     if s["face"]: extra += " Her face stays exactly as in image 1; no mouth or lips come into the frame."
-    return r, f"{head}{extra} Motion: {s['motion']} {B['omni_tail']}"
+    return r, f"{head}{extra} Motion: {s['motion']} {B['omni_tail'].replace('4 seconds', str(s.get('seconds', 4)) + ' seconds')}"
 
 
 if __name__ == "__main__":
