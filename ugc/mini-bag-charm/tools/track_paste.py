@@ -174,6 +174,14 @@ def run(sid, follow=False):
         if sid in BOX:                                            # near-still camera: cover the whole box with the clean plate
             l, r_, t, b_ = BOX[sid]; cov = np.zeros((FH, FW), np.uint8)
             cov[max(0, int(Y - t * Hd)):int(Y + b_ * Hd), max(0, int(X - l * Wd)):int(X + r_ * Wd)] = 255
+            pb2, pg2, pr2 = [wp[..., j].astype(int) for j in range(3)]   # the plate only where it is the handbag's leather:
+            # not leather = clearly curtain (blue-green), tree (green) or bright sofa/wall; everything else counts as the bag
+            other = ((pg2 > pr2 + 5) | (pb2 > pr2 + 5) | ((pr2 > 190) & (pg2 > 175))).astype(np.uint8)
+            other = cv2.morphologyEx(other, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+            lea = (cv2.dilate(other, np.ones((3, 3), np.uint8)) == 0).astype(np.uint8)
+            rest = cov.copy(); rest[lea > 0] = 0                       # curtain/tree/sofa in the box: only the AI's own colours,
+            cov[lea == 0] = 0                                          # painted from the live frame (no parallax smear)
+            rest = cv2.dilate(charm_colours(f, True) & rest, np.ones((9, 9), np.uint8))
             if sid in HANG:                                       # never over the ring or the fingers above the charm
                 hy = int((M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]))[1]); cov[:hy + 2] = 0
                 pb_, pg_, pr_ = [wp[..., j].astype(int) for j in range(3)]   # the plate still holds the still's hand: skip it
@@ -198,6 +206,9 @@ def run(sid, follow=False):
                 pb_, pg_, pr_ = [wp[..., j].astype(int) for j in range(3)]
                 pskin = cv2.dilate(((pr_ > 140) & (pg_ > 95) & (pr_ - pb_ > 30) & (pr_ > pg_)).astype(np.uint8), np.ones((31, 31), np.uint8)) > 0
                 fill[pskin] = f[pskin]
+            if rest.any():
+                inp = cv2.inpaint(f, rest, 7, cv2.INPAINT_TELEA).astype(np.float32)
+                fill = np.where((rest > 0)[..., None], inp, fill); cov = np.maximum(cov, rest)
             cov = cv2.GaussianBlur(cov, (31, 31), 0)
         else:
             fill = cv2.inpaint(f, cov, 7, cv2.INPAINT_TELEA).astype(np.float32)   # from the frame itself: no misaligned plate
