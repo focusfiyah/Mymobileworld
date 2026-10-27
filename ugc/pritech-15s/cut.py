@@ -6,10 +6,10 @@ import json, subprocess, sys
 from pathlib import Path
 
 HOLD = 0.6                       # hold the last shot a beat after the voice ends
-VO = {"V2": "vo/V2/voiceover_final.mp3", "V3": "vo/V3/voiceover_paced.mp3", "V4": "vo/V4/voiceover_paced.mp3"}
-FIX = {"V2S5": "V2S5_fix", "V2S2": "V2S2_fix", "V2S7": "V2S7_fix", "V3S3": "V3S3_fix"}   # shot -> clips/<file>.mp4 (free fixes, clip_fix.py)
+VO = {"V2": "vo/V2/voiceover_final.wav", "V3": "vo/V3/voiceover_paced.mp3", "V4": "vo/V4/voiceover_paced.mp3"}
+FIX = {"V2S5": "V2S5_fix", "V2S2": "V2S2_fix", "V2S7": "V2S7_fix", "V3S3": "V3S3_fix", "V3S5": "V3S5_fix"}   # shot -> clips/<file>.mp4 (free fixes, clip_fix.py)
 START = {"V4S5": 1.0, "V2S3": 1.99}           # shot -> start second inside its clip (V4S5: the drops jump at 1.7 s)
-SHIFT = {"V2S1": -0.22, "V2S3": -0.1, "V2S4": 0.5, "V4S1": 0.35, "V4S6": 0.47}   # V2S1's line runs 4.20 s, its clip 4.04 s: cut to V2S2 0.22 s early; V2S4 runs 0.5 s into V2S5's line (V2S5 has 1.3 s clean)
+SHIFT = {"V2S1": -0.22, "V2S3": -0.1, "V2S4": 0.5, "V4S1": 0.35, "V4S6": 0.47, "V3S6": 0.32}   # V2S1's line runs 4.20 s, its clip 4.04 s: cut to V2S2 0.22 s early; V2S4 runs 0.5 s into V2S5's line (V2S5 has 1.3 s clean)
 S = json.load(open("shots.json"))
 SPLIT = {"V2S1": (2.0, 1.3, 0.39, 0.5), "V4S1": (2.0, 1.3, 0.52, 0.45)}   # shot -> (cut at s, punch-in zoom, centre x, centre y): a second framing on the hook (coach compare: the 2.7M winner cuts 3x in its first 3 s)
 DROP = {"V4S4"}                  # shot dropped; its words play over the next shot (V4S4: Omni drew her lips twice, Ralph chose free)

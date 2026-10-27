@@ -80,5 +80,13 @@
    "date": "2026-10-27",
    "book_sha256": "a376084c5bb01986f14233b9e9e90f1637a9a4c7a6da25987571ad0a4a9225b1"
   }
- ]
+ ],
+ "compare": {
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/V2/compare/compare.md",
+   "research/compare/V3/compare/compare.md",
+   "research/compare/V4/compare/compare.md"
+  ]
+ }
 }
