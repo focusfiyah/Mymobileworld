@@ -1,9 +1,9 @@
 # Production Book: PRITECH Heated Face Scrubber, black, 3 new videos V2-V4 (Grace), 2026-10-27
 
-Sent to Ralph: https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb (2026-10-27, round 2 shots)
+Sent to Ralph: https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb (2026-10-27, round 2 shots; Kie Omni cost shown on the page as +$0.315 each / $4.73 for all)
 
 ## 1. Job
-- Client / own content: Grace  Product: PRITECH heatable vibrating face scrubber, BLACK (BCM-1485), same as V1  Route: hands + hand-free AI over Grace's voice, no full face, product lock with Flow first (`.claude/skills/ugc-product-ad/references/product-lock.md`, `grace/flow/README.md`)
+- Client / own content: Grace  Product: PRITECH heatable vibrating face scrubber, BLACK (BCM-1485), same as V1  Route: hands + hand-free AI over Grace's voice, no full face, product lock = Omni 1.1 Flash on Kie (Ralph's pick 2026-10-27, `.claude/skills/ugc-product-ad/references/product-lock.md`)
 - Job folder: `ugc/pritech-15s/`  Target length: 15-20 s each (V2 18.4 s, V3 19.5 s, V4 17.8 s at Grace's measured 3.53 words/sec)  Shots: 21 (7 per video; 9 HAND-FREE, 3 per video)
 - Reused from V1 for $0: the approved product sheet (real photos only), the real close-ups (bristle head, buttons, PRITECH on the stand), Grace's hand sheet, all research. NOT reused: any V1 footage, room, framing or order (every video looks different, hard rule 6).
 
@@ -47,23 +47,23 @@ Each video has its own theme and no shot idea is used twice across V2-V4 (round 
 |---|---|---|---|---|---|---|
 | S1 | "You know that moment you dry your face and the towel still comes up with makeup on it?" | Towel on its ring with beige foundation + mascara smears, push-in | HAND-FREE | no | Seedance $0.164 | D blush basin |
 | S2 | "Yeah, your hands are leaving it behind." | Fingertips rub under a thin gold tap, makeup still on them | HAND | no | Seedance $0.164 | D blush basin |
-| S3 | "This brush has soft silicone bristles" | Macro of the wet bristles, a drop rolls off a soft nub | HAND-FREE | no | Flow (Omni) $0 | D blush basin |
-| S4 | "and five speeds," | Thumb taps ((•)) three times, the drops on the nubs shiver harder each tap | HAND | no | Flow (Omni) $0 | D blush basin |
-| S5 | "so you get a real deep clean." | Bristles circle on her foamy cheek | HAND | cheek/jaw only | Flow (Omni) $0 | D blush basin |
+| S3 | "This brush has soft silicone bristles" | Macro of the wet bristles, a drop rolls off a soft nub | HAND-FREE | no | Kie Omni $0.315 | D blush basin |
+| S4 | "and five speeds," | Thumb taps ((•)) three times, the drops on the nubs shiver harder each tap | HAND | no | Kie Omni $0.315 | D blush basin |
+| S5 | "so you get a real deep clean." | Bristles circle on her foamy cheek | HAND | cheek/jaw only | Kie Omni $0.315 | D blush basin |
 | S6 | "Only problem? Washing with your hands feels sad after this." | Bare palms rub cleanser together, slow and half-hearted | HAND | no | Seedance $0.164 | E walnut vanity |
-| S7 | "Grab one for you and one for your sister. It's in the orange cart." | END: one brush on a CLEAN folded white towel (the hook towel, fixed), push-in from above | HAND-FREE | no | Flow (Omni) $0 | E walnut vanity |
+| S7 | "Grab one for you and one for your sister. It's in the orange cart." | END: one brush on a CLEAN folded white towel (the hook towel, fixed), push-in from above | HAND-FREE | no | Kie Omni $0.315 | E walnut vanity |
 
 **V3** (warmth: the silver end, spa at home, cold weather; bright cool daylight; deep blue tile + tub, blue bath with frosted window; light blue headband, white waffle robe)
 
 | # | VO words | On screen | HAND? | Face? | Clip | Room |
 |---|---|---|---|---|---|---|
-| S1 | "This looked like a normal face brush until I noticed the silver end." | Brush tilted to the lens, silver end nearest, push-in | HAND | no | Flow (Omni) $0 | F blue tile + tub |
-| S2 | "It warms up to a hundred and four degrees." | Thumb presses the °C button | HAND | no | Flow (Omni) $0 | F blue tile + tub |
+| S1 | "This looked like a normal face brush until I noticed the silver end." | Brush tilted to the lens, silver end nearest, push-in | HAND | no | Kie Omni $0.315 | F blue tile + tub |
+| S2 | "It warms up to a hundred and four degrees." | Thumb presses the °C button | HAND | no | Kie Omni $0.315 | F blue tile + tub |
 | S3 | "Who has time or money for a facial every week?" | Spa corner: rolled towels, eucalyptus, unlit candle, dolly | HAND-FREE | no | Seedance $0.164 | G blue bath + window |
-| S4 | "Wash with the soft bristles," | Plain pump bottle drops cleanser onto the bristles | HAND | no | Flow (Omni) $0 | F blue tile + tub |
-| S5 | "then rub the warm end in little circles." | Silver end glides in small circles on her clean cheekbone | HAND | cheek/jaw only | Flow (Omni) $0 | F blue tile + tub |
-| S6 | "I hate how much I look forward to it." | Brush on a wooden bath tray with a mug of tea over the bath, push-in | HAND-FREE | no | Flow (Omni) $0 | F blue tile + tub |
-| S7 | "Cold weather's coming, so get one for your mom too. It's in the orange cart." | END: brush on a cream knit blanket by a frosty window, push-in | HAND-FREE | no | Flow (Omni) $0 | G blue bath + window |
+| S4 | "Wash with the soft bristles," | Plain pump bottle drops cleanser onto the bristles | HAND | no | Kie Omni $0.315 | F blue tile + tub |
+| S5 | "then rub the warm end in little circles." | Silver end glides in small circles on her clean cheekbone | HAND | cheek/jaw only | Kie Omni $0.315 | F blue tile + tub |
+| S6 | "I hate how much I look forward to it." | Brush on a wooden bath tray with a mug of tea over the bath, push-in | HAND-FREE | no | Kie Omni $0.315 | F blue tile + tub |
+| S7 | "Cold weather's coming, so get one for your mom too. It's in the orange cart." | END: brush on a cream knit blanket by a frosty window, push-in | HAND-FREE | no | Kie Omni $0.315 | G blue bath + window |
 
 **V4** (bedtime: the pillowcase, quick and easy; bright clean morning light; blue-grey bedroom + white marble vanity; grey tee)
 
@@ -71,11 +71,11 @@ Each video has its own theme and no shot idea is used twice across V2-V4 (round 
 |---|---|---|---|---|---|---|
 | S1 | "This is for everybody who always falls asleep with their makeup on." | Pillowcase with a foundation smudge + mascara marks, push-in | HAND-FREE | no | Seedance $0.164 | H blue-grey bed |
 | S2 | "A quick splash with your hands leaves makeup behind." | Cupped hands splash water up out of frame at the marble sink | HAND | no | Seedance $0.164 | I marble vanity |
-| S3 | "This brush does the work for you," | Hand lifts the brush up out of its stand | HAND | no | Flow (Omni) $0 | I marble vanity |
-| S4 | "with soft silicone bristles" | Bristles stroke along her foamy jawline, seen from below | HAND | cheek/jaw only | Flow (Omni) $0 | I marble vanity |
-| S5 | "and five speeds." | Brush switched on lying on wet marble: the water around it ripples and jumps | HAND-FREE | no | Flow (Omni) $0 | I marble vanity |
-| S6 | "I'm mad it makes washing this easy. Now I have no excuse." | Brush rinsed under the tap, foam gone in two seconds | HAND | no | Flow (Omni) $0 | I marble vanity |
-| S7 | "The holidays are coming, so grab one for your bestie too. It's in the orange cart." | END: brush in its stand on the bedside table next to a small wrapped gift, push-in | HAND-FREE | no | Flow (Omni) $0 | H blue-grey bed |
+| S3 | "This brush does the work for you," | Hand lifts the brush up out of its stand | HAND | no | Kie Omni $0.315 | I marble vanity |
+| S4 | "with soft silicone bristles" | Bristles stroke along her foamy jawline, seen from below | HAND | cheek/jaw only | Kie Omni $0.315 | I marble vanity |
+| S5 | "and five speeds." | Brush switched on lying on wet marble: the water around it ripples and jumps | HAND-FREE | no | Kie Omni $0.315 | I marble vanity |
+| S6 | "I'm mad it makes washing this easy. Now I have no excuse." | Brush rinsed under the tap, foam gone in two seconds | HAND | no | Kie Omni $0.315 | I marble vanity |
+| S7 | "The holidays are coming, so grab one for your bestie too. It's in the orange cart." | END: brush in its stand on the bedside table next to a small wrapped gift, push-in | HAND-FREE | no | Kie Omni $0.315 | H blue-grey bed |
 
 Nails / person details: Grace's hand sheet WITHOUT the bracelet, like V1: medium-brown skin, short squared French tips, silver crown ring stack, small gold heart ring, blue thumb band, bare wrist. Face shots = cheek or jaw only, eyes and mouth never in frame (REMOVED.md), so no lip sync.
 Real product (from the real photos, product_truth.json): slim matte black curved wand ~15-16 cm, oval head of black silicone nubs, 3 moulded buttons ((•)) / O / °C, wide silver chrome end, black stand with grey PRITECH. Forbidden: glowing bristles, pink egg brush, screens, LED rings.
@@ -83,36 +83,36 @@ Rooms: 6 new real Pexels/Pixabay photos, none from V1 (rooms/SOURCES.md, contact
 
 ## 5. Order of work and time
 1. Stills: all 21 at once (~6 min) -> still storyboard on the review page (your stop 1).
-2. Riskiest clip first: V3 S5 (silver end on the cheek; Kie refused a foamy-cheek still on V1) as the ONE test: Flow kit for you (your stop 2) + the 6 Seedance no-product clips run while you make it (~5 min).
-3. After the test passes: Flow kits for the other 14 product clips (on one review page, Save/Copy buttons), you make them (your stop 3).
+2. Riskiest clip first: V3 S5 (silver end on the cheek; Kie refused a foamy-cheek still on V1) as the ONE Kie Omni test clip, with the 6 Seedance no-product clips alongside (~5 min).
+3. After the test passes QC: the other 14 Omni clips at once (~6 min).
 4. Grace voice, 3 VOs (echo gate <= 150 ms), 3 cuts, QC (2x edges, first second, REMOVED.md, verify_fix), compare vs @joshjshowcase 2.7M, AI finish -> review page (your stop 4) -> Drive.
-Machine time ~35-40 min for the first video + ~10 min for each of the other two (they run side by side) = about 1 hour, plus your Flow time and review stops.
-Free fixes planned: crop/retime/trim any turn or flip (V1's flip after 2.5 s was trimmed free); Kie Omni only if a Flow take fails QC, asked with the cost.
+Machine time ~35-40 min for the first video + ~10 min for each of the other two (they run side by side) = about 1 hour, plus your review stops (storyboard, cuts).
+Free fixes planned: crop/retime/trim any turn or flip (V1's flip after 2.5 s was trimmed free); an Omni edit turn ($0.84) or redo only when asked, with the cost.
 
 ## 6. Cost (one total)
 | Item | Qty x unit | $ |
 |---|---|---|
 | Stills, Gemini 3 Pro Image on Kie (nano-banana-pro), like V1 | 21 x $0.09 | 1.89 |
 | No-product clips, Seedance 2.0 Mini on Kie, 4 s | 6 x $0.164 | 0.984 |
-| Product clips, Omni 1.1 Flash in your Google Flow app | 15 x 12 credits = 180 of your 1,050 | 0.00 |
-| One likely redo (a still + a Seedance clip), asked before it runs | $0.09 + $0.164 | 0.254 |
-Total Kie: $3.128 incl. the redo. ElevenLabs: ~1,040 chars (Grace cloned, 3 VOs). If you'd rather not make 15 Flow takes: Kie Omni for all 15 = +$4.725. $0 still option: you make the 21 stills in your Gemini app from my kit -> total $1.15.
+| Product clips, Omni 1.1 Flash on Kie, 4 s (Ralph's pick: "kie omni") | 15 x $0.315 | 4.725 |
+| One likely redo (a still + an Omni clip), asked before it runs | $0.09 + $0.315 | 0.405 |
+Total Kie: $8.004 incl. the redo. ElevenLabs: ~1,040 chars (Grace cloned, 3 VOs).
 Month so far (`python3 grace/spend.py`): $181.62 (no cap in October; from November $100/month).
 
-TOTAL: $3.13
+TOTAL: $8.00
 
 **Approve?**
 
-## 7. Questions (all of them, now)
-1. Scripts: OK to use my three (above), or does Grace have her own for these?
-2. Product clips: Flow for all 15 (your standing rule, $0, ~15 takes for you), or Kie Omni for some/all (+$0.315 each)?
-3. Stills on Kie ($1.80, like V1) or your Gemini app ($0)?
-4. Same hand as V1 (no bracelet, French tips) and no on-screen text?
+## 7. Ralph's answers (2026-10-27: "1. Yours 2.kie omni 3.kie 4.same")
+1. Scripts: mine (V2 H062, V3 H102, V4 H061), as in §3.
+2. Product clips: Kie Omni for all 15 ($4.725, in the TOTAL), not Flow.
+3. Stills on Kie ($1.89).
+4. Same hand as V1 (sheet without the bracelet, short squared French tips); no on-screen text.
 
 ## 8. Prompts (final, written with prompt-master after loading it; every reference named; linted PROMPT_LINT_OK)
 | Item | Model | Prompt file / text |
 |---|---|---|
 | 21 stills | Kie nano-banana-pro (Gemini 3 Pro Image), 9:16 1K | shots.json `still` (exact text sent) + `still_refs` (sheet, close-ups that frame shows, room, hand sheet) |
-| 15 product clips | Omni 1.1 Flash (Flow kit; Kie only if asked) | shots.json `clip`, image 1 = approved still, then the real close-ups, last = sheet (`clip_refs`) |
+| 15 product clips | Omni 1.1 Flash on Kie (omni_clip.py), 4 s | shots.json `clip`, image 1 = approved still, then the real close-ups, last = sheet (`clip_refs`) |
 | 6 no-product clips | Kie Seedance 2.0 Mini, reference mode, 4 s | shots.json `clip` + `clip_refs` (still, hand sheet when a hand shows); "no brush, no product appears" |
 Generator: make_shots.py (shared product/hand blocks copied from V1's approved prompts).

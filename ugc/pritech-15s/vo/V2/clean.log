@@ -1,0 +1,5 @@
+/usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+input: rt 200 ms, tail -15.5 dB, 65 words
+Already up to date.
+  0%|          | 0/1 [00:00<?, ?it/s]
