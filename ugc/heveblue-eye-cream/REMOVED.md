@@ -11,3 +11,5 @@ Check every cut against this list and the last round's notes before it goes to R
 - Sparkle, glint or light-effect words and effects (2026-10-21)
 - Innuendo: no line or shot that plays on the vibration as anything but a face tool (this job)
 - Mouth or lips on screen while the voice talks (no lip sync planned)
+- Tip dipped into the water (Ralph 2026-10-27: the tip touches the glass, the water only trembles)
+- Tip held backwards with its side on the skin (Ralph 2026-10-27: the flat end of the tip presses under the eye)
