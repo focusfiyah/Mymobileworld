@@ -32,7 +32,7 @@ SEC = {s["id"]: s.get("seconds", 4) for s in json.loads(Path("shots.json").read_
 def seedance_prod(sid):
     """Product clips on Seedance 2.0 Mini first-frame (Ralph 2026-10-27, Omni on Kie gave 500s: "Seedance from the stills now")."""
     url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}_seedance.txt").read_text().strip(), "first_frame_url": kie.upload(f"stills/{sid}.png"),
-                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": DUR.get(sid, 4)}}, label=f"{sid} seedance first-frame")
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": SEC.get(sid, 4)}}, label=f"{sid} seedance first-frame")
     if url: kie.fetch(url, f"clips/{sid}_seedance.mp4", still=f"stills/{sid}.png"); print("clip", sid, "ok", flush=True)
 
 

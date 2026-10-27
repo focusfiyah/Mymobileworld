@@ -342,5 +342,427 @@
   "costTime": 244,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-10-27 08:05:34",
+  "submitted": "95b06561a7fbfb1a17a131a445569f13",
+  "prompt": "SIZE FIRST: the eye cream is ONE slim tube about 16 cm long and 2 cm wide (15 ml), about as long as an adult hand from t"
+ },
+ {
+  "t": "2026-10-27 08:06:44",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the eye cream is ONE slim tube about 16 cm long and 2 cm wide (15 ml), about as long as an adult hand from the wrist crease to the fingertip and about as wide as one and a half fingers. It is about 8 times as long as it is wide, exactly the proportions in image 1. It is never bigger than the hand holding it. Close eye-level view of the wooden bathroom counter from the room photo, the sage tiles and round mirror soft and out of focus behind. A clear glass coupe half full of clear water stands on the counter in the lower third of the frame. ONE hand enters from the top right edge holding the eye cream upright, chrome tip pointing DOWN, white crimped end pointing UP; the thumb and two fingers pinch the chrome cylinder. The flat round end of the chrome tip is DIPPED a few millimetres INTO the water at the centre of the glass: the water surface meets the chrome, with a small ring of ripples around the tip. The tip is never above the water. The tube fills about 45% of the frame height and is never taller than the hand is long. PROPORTIONS, exactly as image 1: the polished chrome part is LONG, about 40% of the whole tube's length (as long as the hand's index finger), a straight chrome cylinder from the white tube down to the thin black ring, then the short flared tip below the ring; the white part is the other 60%. The 'HB' monogram sits INSIDE a thin black outlined upright oval, exactly as image 2. Under the oval only seven very short lines of tiny text, each line about a third of the tube's width, then lots of plain white space; never a long paragraph of text. ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, medium-length square natural pink nails with crisp white French tips; a BARE wrist with no bracelet, no watch and no chain; rings exactly as in the sheet: a silver crown-shaped stack ring on the ring finger, a thin GOLD ring with a small clear heart-shaped stone on the middle finger, and a glossy blue silicone band on the THUMB, never on the wrist. Whole wrist visible, a little forearm in a soft cream knit sleeve may show, five fingers, natural knuckles and skin texture. The fingers GRIP the tube: thumb on one side, fingers on the other, on the chrome part. The eye cream is the REAL product in the reference images and it must not change: the top 60% is a soft matte WHITE squeeze tube whose far end is a flat crimped white seal; the bottom 40% is the polished chrome applicator: a smooth silver cylinder a little narrower than the tube, one thin matte BLACK ring band at its end, then a short polished chrome tip that narrows into a waist and flares into a flat round end face with one tiny hole in the centre. The print on the white tube is copied from image 2 exactly: small, thin, elegant black SERIF capitals like a classic book face (never bold, never sans-serif), three short centred lines in the upper part of the tube, each line only about half the tube's width; below them a thin black outlined oval with a black 'HB' monogram inside; below that seven lines of very small black capitals and one tiny volume line near the chrome. The three title lines read BLACK YUJA BEAN, LIFTING AUTO, EYE CREAM and nothing else. Most of the tube is plain white space. No other words anywhere on the tube, no colour, no button, no switch, no light, no gold or rose gold metal, no roller ball. The black cap is OFF and nowhere in the frame; the chrome tip is bare and shaped exactly as in image 3. Other props: one clear glass coupe (a wide shallow stemmed glass) half full of clear water, plain and unbranded. Bright soft daylight, clean neutral white balance, never yellow, golden, dark or moody. Vertical 9:16 photo, a single frame from a phone video, realistic textures, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI, no date stamp. Reference images: image 1 = the product reference sheet built from real photos of this exact eye cream; image 2 = a real close-up of the print on the white tube; image 3 = a real close-up of the chrome applicator, black ring and flared tip; image 4 = the real room photo to use as the setting; image 5 = Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist). The eye cream must match images 1 to 3 letter for letter, colour for colour and shape for shape.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793087219365-99va4fih8ag.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793087221739-yvdy9uw6qvp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793087224142-pgezjcr248.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793087226164-0buh69uxj71t.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793087228529-8kkfat8vvvx.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "95b06561a7fbfb1a17a131a445569f13",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/95b06561a7fbfb1a17a131a445569f13_0_1793088399.jpeg"
+   ]
+  },
+  "costTime": 67,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-27 08:12:14",
+  "submitted": "90ab10fb1ace0e6cab43b893b6c59cd4",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and rings and the eye cream exactly. Th"
+ },
+ {
+  "t": "2026-10-27 08:14:28",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and rings and the eye cream exactly. The eye cream is the real product in images 2 to 4: a matte white tube with black serif print and the black 'HB' oval logo, and a polished chrome applicator with one black ring band and a short chrome tip that flares into a flat round end. Its print must match image 2 letter for letter and colour for colour; its shape and size never change. Image 2 is the real print, image 3 the real chrome tip and black ring, image 4 the product sheet. The cap is off and never appears. Image 5 is Grace's hand sheet: the French-tip nails and rings stay exactly, the wrist stays bare, as in images 1 and 5; the hand keeps one grip on the chrome and enters and leaves from the frame edge; no second hand and no other jewellery appear. Motion: The flat chrome tip rests on the water surface and stays still; at once fine, fast, tight concentric ripples run out from the tip across the whole water surface and keep coming the whole time, like the water is shivering. The hand and tube do not move. No splash, no bubbles, the water stays clear. Camera holds, a very slight push-in. One continuous handheld phone shot, 4 seconds, bright neutral daylight that never changes. The tube never turns, flips, bends or changes size; no second tube appears. No text, no captions, no music, no voice.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793088717678-m85bjgurev8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793088719809-kosu7c3suy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793088721792-belpkvf6r1j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793088723777-b0dh7vxfnhf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793088726208-leykhm402tp.jpg"
+    ]
+   }
+  },
+  "taskId": "90ab10fb1ace0e6cab43b893b6c59cd4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/90ab10fb1ace0e6cab43b893b6c59cd4_0_1793088866.mp4"
+   ]
+  },
+  "costTime": 135,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 08:14:30",
+  "clip_check": "/home/user/Mymobileworld/ugc/heveblue-eye-cream/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": false,
+  "score": 0.219
+ },
+ {
+  "t": "2026-10-27 08:18:53",
+  "submitted": "34584f1d245aa8403112a900ee77fa5c",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The flat chrome tip stays dipped in "
+ },
+ {
+  "t": "2026-10-27 08:20:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The flat chrome tip stays dipped in the water the whole time and never lifts out; at once fine, fast, tight concentric ripples run out from the tip across the whole water surface and keep coming the whole time, like the water is shivering. The hand and tube do not move. No splash, no bubbles, the water stays clear. Camera holds, a very slight push-in. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. Only this one hand: it keeps its French-tip nails and its rings and a bare wrist with no bracelet or watch; it keeps one grip on the tube; no second hand appears. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089125540-5lhi90g7gsv.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "34584f1d245aa8403112a900ee77fa5c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089239106-204os94bliu.mp4"
+   ]
+  },
+  "costTime": 108,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:20:43",
+  "clip_check": "clips/S1_seedance.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.974
+ },
+ {
+  "t": "2026-10-27 08:21:38",
+  "submitted": "2baf015cc1d73409ee827fab2373f87f",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Slow, smooth push-in toward the tube"
+ },
+ {
+  "t": "2026-10-27 08:21:40",
+  "submitted": "8b493c9fb63575b45179688ba354e42a",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Slow push-in toward the print and th"
+ },
+ {
+  "t": "2026-10-27 08:21:42",
+  "submitted": "ce55c1e9cfc13f38bae300841e1a8132",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Slow camera arc a little to the righ"
+ },
+ {
+  "t": "2026-10-27 08:21:43",
+  "submitted": "5c4cda280358c8a1f976d101a96cd183",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The chrome tip glides slowly and gen"
+ },
+ {
+  "t": "2026-10-27 08:21:45",
+  "submitted": "301eb4c3772761f6c7e49ba4f6b28f93",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The chrome tip glides slowly upward "
+ },
+ {
+  "t": "2026-10-27 08:21:47",
+  "submitted": "f357cea2e9f0b898a6ff58dcd226f5a1",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The hand slowly lowers the tube a li"
+ },
+ {
+  "t": "2026-10-27 08:21:49",
+  "submitted": "58aac3046b66c31ab6574bf48b327eb5",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Fine, fast concentric ripple rings p"
+ },
+ {
+  "t": "2026-10-27 08:23:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Slow camera arc a little to the right around the tumbler; the tube and glass stay still. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271219-bxwjqrvi37.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ce55c1e9cfc13f38bae300841e1a8132",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089382119-8uwh15mzag.mp4"
+   ]
+  },
+  "costTime": 95,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:23:06",
+  "clip_check": "clips/S8_seedance.mp4",
+  "still": "stills/S8.png",
+  "ok": true,
+  "score": 0.977
+ },
+ {
+  "t": "2026-10-27 08:23:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The chrome tip glides slowly upward along the side of the neck toward the jawline, one smooth pass; the grip never changes. The head stays still. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. Only this one hand: it keeps its French-tip nails and its rings and a bare wrist with no bracelet or watch; it keeps one grip on the tube; no second hand appears. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271283-z29ongnk08l.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "301eb4c3772761f6c7e49ba4f6b28f93",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089386275-rpq1p3tr1t.mp4"
+   ]
+  },
+  "costTime": 96,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:23:10",
+  "clip_check": "clips/S7_seedance.mp4",
+  "still": "stills/S7.png",
+  "ok": true,
+  "score": 0.976
+ },
+ {
+  "t": "2026-10-27 08:23:11",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The chrome tip glides slowly and gently along under the eye from the outer corner toward the inner corner, spreading the small dot of cream into a thin sheen that sinks in. The eye stays relaxed and open. One slow pass, the grip never changes. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. Only this one hand: it keeps its French-tip nails and its rings and a bare wrist with no bracelet or watch; it keeps one grip on the tube; no second hand appears. Her face, skin, eye and brows stay exactly as in the first frame; no mouth or lips come into the frame. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271331-d5aam6tb3yh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "5c4cda280358c8a1f976d101a96cd183",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089383990-s6tfh81d60e.mp4"
+   ]
+  },
+  "costTime": 103,
+  "credits": 49.2,
+  "usd": 0.246
+ },
+ {
+  "t": "2026-10-27 08:23:14",
+  "clip_check": "clips/S5_seedance.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.987
+ },
+ {
+  "t": "2026-10-27 08:23:22",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Fine, fast concentric ripple rings pulse out from the chrome tip across the water the whole time, steady and even. The tip, tube and fingers stay perfectly still. No splash, no bubbles. Camera holds, tiny handheld drift only. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. Only this one hand: it keeps its French-tip nails and its rings and a bare wrist with no bracelet or watch; it keeps one grip on the tube; no second hand appears. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271219-ffz5leksvcj.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "58aac3046b66c31ab6574bf48b327eb5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089397252-g2h7alp36ze.mp4"
+   ]
+  },
+  "costTime": 101,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:23:24",
+  "clip_check": "clips/S2_seedance.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.966
+ },
+ {
+  "t": "2026-10-27 08:23:25",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Slow, smooth push-in toward the tube's print; nothing in the frame moves. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap stays on the whole time. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271254-yg5gg55pbs.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "2baf015cc1d73409ee827fab2373f87f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089401013-8e7trj2h2gt.mp4"
+   ]
+  },
+  "costTime": 122,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:23:28",
+  "clip_check": "clips/S6_seedance.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.887
+ },
+ {
+  "t": "2026-10-27 08:23:28",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: The hand slowly lowers the tube a little further into the stocking and lets go, leaving the white top and print showing above the cuff; the hand leaves the frame to the right. The stockings sway very slightly. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap stays on the whole time. Only this one hand: it keeps its French-tip nails and its rings and a bare wrist with no bracelet or watch; it keeps one grip on the tube; no second hand appears. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271499-f2cgykkjjxm.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "f357cea2e9f0b898a6ff58dcd226f5a1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089405778-8cr550fyy1b.mp4"
+   ]
+  },
+  "costTime": 112,
+  "credits": 49.2,
+  "usd": 0.246
+ },
+ {
+  "t": "2026-10-27 08:23:28",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Slow push-in toward the print and the chrome tip; nothing moves. The eye cream tube stays exactly as in the first frame the whole time: the same matte white tube with the same small black serif print and black HB oval logo, the same long polished chrome part, one black ring and the flared chrome tip; it never turns, flips, bends, grows or shrinks, and no second tube appears. The black cap never appears. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089271276-tq1dss42wmk.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "8b493c9fb63575b45179688ba354e42a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089403828-5ih2jovgxhs.mp4"
+   ]
+  },
+  "costTime": 120,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:23:31",
+  "clip_check": "clips/S10_seedance.mp4",
+  "still": "stills/S10.png",
+  "ok": true,
+  "score": 0.968
+ },
+ {
+  "t": "2026-10-27 08:23:31",
+  "clip_check": "clips/S9_seedance.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.958
+ },
+ {
+  "t": "2026-10-27 08:23:42",
+  "submitted": "3bf7de757fe5e71d1fe515cb9d4e91f0",
+  "prompt": "Animate this image as the first frame. Very slow push-in on the creased concealer under the eye; she blinks once, slowly"
+ },
+ {
+  "t": "2026-10-27 08:23:44",
+  "submitted": "6d17e6df03efa978b089969c9f353848",
+  "prompt": "Animate this image as the first frame. The thumb slowly rubs the cream on the ring finger pad, spreading the leftover cr"
+ },
+ {
+  "t": "2026-10-27 08:25:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The thumb slowly rubs the cream on the ring finger pad, spreading the leftover cream across the fingertip; the cream stays on the finger. Camera holds. No eye cream tube or product appears. The hand keeps its French-tip nails and rings and a bare wrist with no bracelet; no second hand appears. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089411917-xb5mumkezk.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6d17e6df03efa978b089969c9f353848",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089502830-xjbx60tvc3i.mp4"
+   ]
+  },
+  "costTime": 82,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:25:08",
+  "clip_check": "clips/S3_seedance.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.979
+ },
+ {
+  "t": "2026-10-27 08:25:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. Very slow push-in on the creased concealer under the eye; she blinks once, slowly. Nothing else moves. No eye cream tube or product appears. No hand or fingers appear at any time. Her face keeps the same skin, eye and brows; no mouth comes into the frame. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/heveblue-eye-cream/1793089411961-37mdthan9qq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "3bf7de757fe5e71d1fe515cb9d4e91f0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793089513813-c6v37fve5ds.mp4"
+   ]
+  },
+  "costTime": 96,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 08:25:19",
+  "clip_check": "clips/S4_seedance.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.974
  }
 ]

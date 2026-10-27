@@ -1,0 +1,14 @@
+/usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+input: rt 200 ms, tail -11.6 dB, 120 words
+Cloning into '/usr/local/lib/python3.13/dist-packages/resemble_enhance/model_repo'...
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:27<02:27, 147.22s/it]100%|██████████| 2/2 [02:53<00:00, 76.04s/it] 100%|██████████| 2/2 [02:53<00:00, 86.72s/it]
+seed 0: rt 150 ms, tail -13.3 dB, words CHANGED [('of', 'in'), ('mom', "mom's"), ('stalking', 'stocking')]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:36<02:36, 156.86s/it]100%|██████████| 2/2 [03:04<00:00, 80.78s/it] 100%|██████████| 2/2 [03:04<00:00, 92.19s/it]
+seed 1: rt 150 ms, tail -14.1 dB, words CHANGED [('of', 'in'), ('mom', "mom's"), ('stalking', 'stocking')]
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:17<02:17, 137.82s/it]100%|██████████| 2/2 [02:43<00:00, 71.65s/it] 100%|██████████| 2/2 [02:43<00:00, 81.57s/it]
+seed 2: rt 150 ms, tail -13.1 dB, words CHANGED [('of', 'in'), ('mom', "mom's"), ('stalking', 'stocking')]
+WARNING: every try changed a word; keeping the uncleaned input
+kept: rt 200 ms, tail -11.6 dB -> vo/voiceover_clean.wav
+WARNING: no try came out drier than the input; listen before using it
