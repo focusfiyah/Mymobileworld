@@ -12,7 +12,7 @@ Add a source here when he gives one; check this list before paying for generatio
 
 | Source | Gives | Notes |
 |---|---|---|
-| https://mixkit.co/ (added 2026-10-14) | stock video, music, sound effects, video templates, art; no account | Each item type has its own licence (https://mixkit.co/license/). Terms NOT read yet (pop-up behind a cookie banner): read the item's licence before first use, then record the result under Licence checks below. Never use a "Restricted" video. |
+| https://mixkit.co/ (added 2026-10-14) | stock video, music, sound effects, video templates, art; no account | Each item type has its own licence (https://mixkit.co/license/); music and sound effects were read 2026-10-27 (Licence checks below). The page text loads from `https://mixkit.co/license/modal/<type>/` (e.g. `sfxFree`, `musicFree`), readable with curl. Only `assets.mixkit.co` files are Mixkit free; the envato preview links on its pages are paid Envato items. Read video, template and art licences before their first use. Never use a "Restricted" video. |
 | broll MCP: archive.org public-domain film (added 2026-10-24) | b-roll clips cut to length while editing: old, mostly black-and-white SD film (Prelinger, NASA, newsreels) | Tools `search_footage` → `inspect_item` (keyframe per scene, pick by looking) → `extract_clip` (1-60 s, verified) with a provenance JSON per clip; copy both into the job. Use only clips with `commercial_use: "allowed"` in a monetized video. Fits Day One AI and Ralph's retro/space/history cutaways; Grace's bright modern ads take the stock sources above first. Setup and review: Mymobileworld CLAUDE.md (broll-mcp) and `tools/broll/SOURCE.md`. |
 | Microsoft Fluent 3D emoji (MIT) | premium 3D emoji for overlays | `cdn.jsdelivr.net/gh/microsoft/fluentui-emoji@main/assets/<Name>/3D/<name>_3d.png`, 256px: never enlarge past about 1.2x. No emoji for a word: offer a free stand-in from the same set first (source: grace/PLAYBOOK.md §4 overlays). |
 | Pexels | room backgrounds | Needs `PEXELS_API_KEY` (env var). Pexels License: free commercial use, no attribution. |
@@ -51,9 +51,12 @@ brand logo, face or readable text in it is cleared or approved by Ralph.
   sound effects separately, and music is the type most likely to carry claim or attribution rules on TikTok and YouTube.
 - A stock clip must look different in every video and never replaces a shot the spoken words need. Why: Ralph's
   rule that no two videos share footage (TikTok flags it).
-- Day One AI: no music until its licence is checked for monetized use (focusfiyah/Dayone-ai CLAUDE.md). Mixkit music
-  is the first thing to check for that.
+- Day One AI: music only with a licence checked for monetized use (focusfiyah/Dayone-ai CLAUDE.md). Mixkit music passed
+  that check on 2026-10-27 (below); other music sources still need their own check.
 
 ## Licence checks
 
-(none recorded yet: add `date, item type, what the licence says, attribution needed yes/no` here)
+Format: date, item type, what the licence says, attribution needed yes/no.
+
+- 2026-10-27, Mixkit music (Stock Music Free License): commercial and non-commercial use, any web or social platform incl. ads; not allowed: CDs/DVDs, games, TV/radio, a music-only release, remixing as music, registering it with Content ID or any rights service. Attribution: no. First used in the AI on Autopilot explainer reel (Dayone-ai `products/ai-on-autopilot/reels/explainer/`).
+- 2026-10-27, Mixkit sound effects (Sound Effects Free License): commercial and non-commercial use in YouTube, social posts, ads, films, games, TV/radio, CDs; not allowed: redistributing the sound on its own, as stock or in a template, claiming it, or registering it with a rights service. Attribution: no.
