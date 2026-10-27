@@ -117,10 +117,10 @@ SHOTS = [
    "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real grey PRITECH on the black stand, letter for letter; image 3 is the real three buttons ((•)) / O / °C; image 4 is the product sheet, no added marks, no lights. "
    "Motion: the hand lifts the brush straight up out of the stand and a little toward the camera; the stand stays on the counter. " + KEEP + " Camera locked-off. Bright clean light. " + NOPRINT + " " + CLIPEND, refs=("LOGO", "BTN", "SHEET"), btn=True, stand=True),
  s("V4S4", True, True, "I", "with soft silicone bristles",
-   SIZE + " Low angle close-up of her jawline and the side of her neck, seen from below; " + NOFACE + " White cleanser foam along the jaw, a grey tee at the shoulder. " + HAND + " She presses the bristle head of " + BRUSH +
+   SIZE + " Close side view at jaw level (NOT from below): her jawline and the side of her neck fill the frame; her chin sits at the top-left corner and EVERYTHING above her chin is out of frame: no lips, no mouth, no nose, no eyes. White cleanser foam along the jaw, a grey tee at the shoulder. " + HAND + " She presses the bristle head of " + BRUSH +
    " The bristle head lies flat along her foamy jawline. Marble wall soft behind (room reference). " + ANGLE,
    "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the product sheet: keep this exact slim shape, size and black colour, no added marks, no lights. "
-   "Motion: the hand moves the brush in small slow strokes along the foamy jawline. " + KEEP + " Her eyes and mouth never come into frame. Camera locked-off. Bright clean light. " + NOPRINT + " " + CLIPEND, refs=("HEAD", "SHEET"), face=True),
+   "Motion: the hand moves the brush in small slow strokes along the foamy jawline. " + KEEP + " The hand keeps the same medium-brown skin, French-tip nails and rings as image 1. Keep the framing of image 1 exactly: nothing above her chin ever comes into frame, no lips, no mouth. Camera locked-off. Bright clean light. " + NOPRINT + " " + CLIPEND, refs=("HEAD", "SHEET"), face=True),
  s("V4S5", False, True, "I", "and five speeds.",
    SIZE_FREE + " " + BRUSH + " It lies flat on a wet white marble counter, buttons up, small water drops and a thin film of water on the marble around the bristle head. "
    "Grey vanity soft behind (room reference). " + NOHAND + " " + ANGLE,

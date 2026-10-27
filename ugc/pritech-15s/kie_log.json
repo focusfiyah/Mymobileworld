@@ -646,5 +646,702 @@
   "t": "2026-10-27 06:17:22",
   "submitted": "c375335125cd7fe64e00d9c488eef17e",
   "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real b"
+ },
+ {
+  "t": "2026-10-27 06:18:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the thumb slowly rubs across the fingertips of the same hand under the thin stream of water; the beige foundation and black mascara smudges stay on the fingertips. Only this one hand appears, whole wrist, the same rings as reference image 2; no second hand comes in. No brush, no product, no face at any time. Camera locked-off. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793081808728-oitld6aj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793079368001-x1vv4j4r96m.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "fdbdb79ef3c02a0beabc028e7feb850a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793081919834-teslvrsd6gp.mp4"
+   ]
+  },
+  "costTime": 100,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 06:18:50",
+  "clip_check": "clips/V2S2.mp4",
+  "still": "stills/V2S2.png",
+  "ok": true,
+  "score": 0.946
+ },
+ {
+  "t": "2026-10-27 06:19:29",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the product sheet, no added marks, no lights. Motion: the hand moves the brush in small slow circles on the foamy cheek; the foam spreads a little. The hand keeps one grip and the brush never turns, flips or changes shape. Her eyes and mouth never come into frame. Camera locked-off. Bright neutral daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793081816514-68kjcfm7037.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793081818428-9rpug4sd4qj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793081821000-rr8n1gfzpm9.png"
+    ]
+   }
+  },
+  "taskId": "c375335125cd7fe64e00d9c488eef17e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/c375335125cd7fe64e00d9c488eef17e_0_1793081962.mp4"
+   ]
+  },
+  "costTime": 129,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:19:32",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V2S5.mp4",
+  "still": "stills/V2S5.png",
+  "ok": true,
+  "score": 0.833
+ },
+ {
+  "t": "2026-10-27 06:21:49",
+  "submitted": "5439e56958aa36ea2d7f3ff986cd2d0b",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the camera slowly pushes in toward the makeup smears on the "
+ },
+ {
+  "t": "2026-10-27 06:22:15",
+  "submitted": "b3bffeb9b6e15788a0dce8b8b11431c9",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the camera slowly pushes in toward the makeup smudge on the "
+ },
+ {
+  "t": "2026-10-27 06:22:26",
+  "submitted": "ac07190121e0cda6697cdd6604155824",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the camera makes a slow sideways dolly along the tub ledge p"
+ },
+ {
+  "t": "2026-10-27 06:22:28",
+  "submitted": "e83d187e90727866fa201d1721e37af5",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the cupped hands lift the water quickly up and out of the to"
+ },
+ {
+  "t": "2026-10-27 06:22:30",
+  "submitted": "512a4c6e59e49aada4ad78e40f24982f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real b"
+ },
+ {
+  "t": "2026-10-27 06:22:32",
+  "submitted": "1ede361a55de900eb37050e1f27a26d6",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hands exactly. Image 2 is the real bristl"
+ },
+ {
+  "t": "2026-10-27 06:22:34",
+  "submitted": "e9b33984e60fa1d25140cd46cf507977",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real bristle head "
+ },
+ {
+  "t": "2026-10-27 06:22:35",
+  "submitted": "b0f960da6285a67df009d4a083043625",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real bristle"
+ },
+ {
+  "t": "2026-10-27 06:22:37",
+  "submitted": "26bf4bf51f83c987d2af9ddb9d58bc6b",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the palms rub the cleanser together slowly, lazily, and stop"
+ },
+ {
+  "t": "2026-10-27 06:22:39",
+  "submitted": "2b21c3d50a19a57cf4296be79c97766f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real black bristle"
+ },
+ {
+  "t": "2026-10-27 06:22:40",
+  "submitted": "f99c514d5a697ee79c444809b5f98c82",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real grey PRITECH "
+ },
+ {
+  "t": "2026-10-27 06:22:42",
+  "submitted": "ac2552b514c28c3ab7dbe1525ec96093",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real bristle head;"
+ },
+ {
+  "t": "2026-10-27 06:22:44",
+  "submitted": "241468bfd7992eda65610399b21679b1",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three b"
+ },
+ {
+  "t": "2026-10-27 06:22:46",
+  "submitted": "4d87931b866489f9c2ebb85ba287da57",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real grey PR"
+ },
+ {
+  "t": "2026-10-27 06:22:48",
+  "submitted": "023ca038165eee1ddc0fbccfcce47706",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three b"
+ },
+ {
+  "t": "2026-10-27 06:22:50",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real three buttons ((\u2022)) / O / \u00b0C; image 3 is the real bristle head; image 4 is the product sheet, no added marks, no lights, no glow. Motion: the brush is switched on and vibrates in place: the water drops and the film of water around the bristle head ripple and jump; the brush itself stays in place and never turns. Camera locked-off. No hand, fingers or people appear at any time. Bright clean light. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082092280-76zd9g6tnk7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082094421-5qyq7ju0x34.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082096357-kbfbkgpe7gp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082098401-97vxct74uue.png"
+    ]
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-10-27 06:23:11",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the camera slowly pushes in toward the makeup smears on the towel; the towel hangs still. No person, hand, brush or product appears at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082083021-s2egify0yp.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5439e56958aa36ea2d7f3ff986cd2d0b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793082186431-7b8p9eq0177.mp4"
+   ]
+  },
+  "costTime": 92,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 06:23:14",
+  "clip_check": "clips/V2S1.mp4",
+  "still": "stills/V2S1.png",
+  "ok": true,
+  "score": 0.918
+ },
+ {
+  "t": "2026-10-27 06:23:29",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the camera makes a slow sideways dolly along the tub ledge past the rolled towels; nothing in the room moves, the candle stays unlit. No brush, no product, no hand, fingers or people appear at any time. Bright cool daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082083090-pigpy7i1all.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ac07190121e0cda6697cdd6604155824",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793082204802-eg2jez6x52.mp4"
+   ]
+  },
+  "costTime": 103,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 06:23:32",
+  "clip_check": "clips/V3S3.mp4",
+  "still": "stills/V3S3.png",
+  "ok": true,
+  "score": 0.899
+ },
+ {
+  "t": "2026-10-27 06:23:36",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, skin and hand exactly. Image 2 is the real bristle head; image 3 is the product sheet: keep this exact slim shape, size and black colour, no added marks, no lights. Motion: the hand moves the brush in small slow strokes along the foamy jawline. The hand keeps one grip and the brush never turns, flips or changes shape. Her eyes and mouth never come into frame. Camera locked-off. Bright clean light. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082092432-lnwd8jtr24.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082094711-jpodjuwcde.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082096797-0ud1bodbkpw8.png"
+    ]
+   }
+  },
+  "taskId": "512a4c6e59e49aada4ad78e40f24982f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/512a4c6e59e49aada4ad78e40f24982f_0_1793082214.mp4"
+   ]
+  },
+  "costTime": 107,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:23:40",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V4S4.mp4",
+  "still": "stills/V4S4.png",
+  "ok": false,
+  "score": 0.427
+ },
+ {
+  "t": "2026-10-27 06:23:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the cupped hands lift the water quickly up and out of the top of the frame, and come back down wet. Only these two hands appear, whole wrists, the same rings as reference image 2. No brush, no product, no face at any time. Camera locked-off. Bright clean light. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082082987-5suofwq526q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793079368001-x1vv4j4r96m.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e83d187e90727866fa201d1721e37af5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793082224807-qz1rtnzg3mp.mp4"
+   ]
+  },
+  "costTime": 121,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 06:23:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the camera slowly pushes in toward the makeup smudge on the pillowcase; the fabric does not move. No person, hand, brush or product appears at any time. Bright clean morning light. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082083092-byhebivas6f.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b3bffeb9b6e15788a0dce8b8b11431c9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793082224695-1s5w286rffz.mp4"
+   ]
+  },
+  "costTime": 127,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 06:23:52",
+  "clip_check": "clips/V4S2.mp4",
+  "still": "stills/V4S2.png",
+  "ok": true,
+  "score": 0.942
+ },
+ {
+  "t": "2026-10-27 06:23:53",
+  "clip_check": "clips/V4S1.mp4",
+  "still": "stills/V4S1.png",
+  "ok": true,
+  "score": 0.947
+ },
+ {
+  "t": "2026-10-27 06:23:53",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real black bristle head; image 3 is the product sheet: keep this exact slim shape and matte black colour, no lights, no glow, no added marks. Motion: only the camera moves, a slow macro push-in across the wet nubs while one water drop rolls off a nub; the brush never moves. No hand, fingers or people appear at any time. Bright neutral daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082092052-yk11b27wlyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082094508-yl5somcwp5s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082096970-qflrgp9hlf.png"
+    ]
+   }
+  },
+  "taskId": "2b21c3d50a19a57cf4296be79c97766f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/2b21c3d50a19a57cf4296be79c97766f_0_1793082230.mp4"
+   ]
+  },
+  "costTime": 106,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:23:55",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hands exactly. Image 2 is the real bristle head; image 3 is the product sheet: keep this exact slim shape, size and black colour, no added marks, no lights. Motion: the other hand presses the pump once more and a little more white cleanser drops onto the nubs; the pump bottle stays plain with no label. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright cool daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082091144-3gz9u38zurx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082093364-2dmp0g0zda2.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082095433-5u2l8pc1iza.png"
+    ]
+   }
+  },
+  "taskId": "1ede361a55de900eb37050e1f27a26d6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/1ede361a55de900eb37050e1f27a26d6_0_1793082232.mp4"
+   ]
+  },
+  "costTime": 120,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:23:55",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real grey PRITECH on the black stand, matching it letter for letter; image 3 is the product sheet, only one brush, no added marks, no lights. Motion: only the camera moves, a slow push-in toward the brush and the gift; nothing moves. No hand, fingers or people appear at any time. Bright clean morning light. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082091536-yxfqdmnqmaj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082093730-2etmlgq15gy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082095762-6b8rb838ks.png"
+    ]
+   }
+  },
+  "taskId": "f99c514d5a697ee79c444809b5f98c82",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/f99c514d5a697ee79c444809b5f98c82_0_1793082232.mp4"
+   ]
+  },
+  "costTime": 105,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:23:57",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V2S3.mp4",
+  "still": "stills/V2S3.png",
+  "ok": true,
+  "score": 0.948
+ },
+ {
+  "t": "2026-10-27 06:23:57",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real bristle head; image 3 is the product sheet, only one brush, no added marks, no lights. Motion: only the camera moves, a slow push-in toward the brush on the knit blanket; nothing moves. No hand, fingers or people appear at any time. Bright cool daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082092227-8n86pqympxv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082094431-5yhw5zc7bdf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082096558-4k1sb1vd1as.png"
+    ]
+   }
+  },
+  "taskId": "ac2552b514c28c3ab7dbe1525ec96093",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/ac2552b514c28c3ab7dbe1525ec96093_0_1793082228.mp4"
+   ]
+  },
+  "costTime": 98,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:23:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the palms rub the cleanser together slowly, lazily, and stop. Only these two hands appear, whole wrists, the same rings as reference image 2. No brush, no product, no face at any time. Camera locked-off. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082083115-7uuuksfq88j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793079368001-x1vv4j4r96m.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "26bf4bf51f83c987d2af9ddb9d58bc6b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793082235043-14uq7p2fvel.mp4"
+   ]
+  },
+  "costTime": 114,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 06:23:59",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V3S4.mp4",
+  "still": "stills/V3S4.png",
+  "ok": true,
+  "score": 0.584
+ },
+ {
+  "t": "2026-10-27 06:23:59",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V4S7.mp4",
+  "still": "stills/V4S7.png",
+  "ok": true,
+  "score": 0.874
+ },
+ {
+  "t": "2026-10-27 06:24:01",
+  "clip_check": "clips/V2S6.mp4",
+  "still": "stills/V2S6.png",
+  "ok": true,
+  "score": 0.925
+ },
+ {
+  "t": "2026-10-27 06:24:02",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V3S7.mp4",
+  "still": "stills/V3S7.png",
+  "ok": true,
+  "score": 0.868
+ },
+ {
+  "t": "2026-10-27 06:24:08",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((\u2022)) / O / \u00b0C, moulded black on black, matching image 2 exactly; image 3 is the product sheet, no added marks, no lights. Motion: the thumb presses the bottom \u00b0C button once and lifts off. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright cool daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082092517-2bhdbl40ciy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082094425-fqpdggcvptv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082096561-0b7t3ylfepd.png"
+    ]
+   }
+  },
+  "taskId": "241468bfd7992eda65610399b21679b1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/241468bfd7992eda65610399b21679b1_0_1793082239.mp4"
+   ]
+  },
+  "costTime": 106,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:24:08",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real bristle head; image 3 is the product sheet: keep this exact slim black shape, no added marks, no lights. Motion: the water rinses the foam off the nubs in two seconds and the clean black nubs show. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright clean light. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082091398-7ux8g4aalds.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082093370-8edgxp44cfw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082095163-wnx5ni7ahkb.png"
+    ]
+   }
+  },
+  "taskId": "b0f960da6285a67df009d4a083043625",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/b0f960da6285a67df009d4a083043625_0_1793082247.mp4"
+   ]
+  },
+  "costTime": 128,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:24:11",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V3S2.mp4",
+  "still": "stills/V3S2.png",
+  "ok": true,
+  "score": 0.917
+ },
+ {
+  "t": "2026-10-27 06:24:11",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V4S6.mp4",
+  "still": "stills/V4S6.png",
+  "ok": true,
+  "score": 0.678
+ },
+ {
+  "t": "2026-10-27 06:24:12",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real three buttons ((\u2022)) / O / \u00b0C, moulded black on black, matching image 2 exactly; image 3 is the real bristle head; image 4 is the product sheet, no added marks, no lights. Motion: the thumb taps the top ((\u2022)) button three times; with each tap the water drops on the nubs shiver harder. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright neutral daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082092503-kwgcmv16gnj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082094731-y7sx8cna76.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082096782-8yfecwnhmsa.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082098620-yae62451ff.png"
+    ]
+   }
+  },
+  "taskId": "023ca038165eee1ddc0fbccfcce47706",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/023ca038165eee1ddc0fbccfcce47706_0_1793082249.mp4"
+   ]
+  },
+  "costTime": 108,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:24:14",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V2S4.mp4",
+  "still": "stills/V2S4.png",
+  "ok": true,
+  "score": 0.921
+ },
+ {
+  "t": "2026-10-27 06:24:26",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real grey PRITECH on the black stand, letter for letter; image 3 is the real three buttons ((\u2022)) / O / \u00b0C; image 4 is the product sheet, no added marks, no lights. Motion: the hand lifts the brush straight up out of the stand and a little toward the camera; the stand stays on the counter. The hand keeps one grip and the brush never turns, flips or changes shape. Camera locked-off. Bright clean light. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082091915-uk0oczteig.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082093854-xguzwvoh048.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082095504-5uh65gmiuls.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082097709-gqfypwobnpl.png"
+    ]
+   }
+  },
+  "taskId": "4d87931b866489f9c2ebb85ba287da57",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/4d87931b866489f9c2ebb85ba287da57_0_1793082259.mp4"
+   ]
+  },
+  "costTime": 121,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:24:28",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V4S3.mp4",
+  "still": "stills/V4S3.png",
+  "ok": true,
+  "score": 0.886
+ },
+ {
+  "t": "2026-10-27 06:24:30",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real bristle head and image 3 the product sheet: keep this exact slim black shape and the silver chrome end, no lights, no glow, no added marks. Motion: only the camera moves, a slow push-in toward the bath tray; the water stays calm, nothing else moves. No hand, fingers or people appear at any time. Bright cool daylight. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082091459-21ztm53teet.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082093425-hlj1s0glzgg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082095480-2nefir5dx5h.png"
+    ]
+   }
+  },
+  "taskId": "e9b33984e60fa1d25140cd46cf507977",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/e9b33984e60fa1d25140cd46cf507977_0_1793082267.mp4"
+   ]
+  },
+  "costTime": 152,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:24:33",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V3S6.mp4",
+  "still": "stills/V3S6.png",
+  "ok": true,
+  "score": 0.907
+ },
+ {
+  "t": "2026-10-27 06:26:43",
+  "submitted": "f78213bf9fe61d581cc64db7ef99b965",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real three buttons"
+ },
+ {
+  "t": "2026-10-27 06:28:40",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real three buttons ((\u2022)) / O / \u00b0C; image 3 is the real bristle head; image 4 is the product sheet, no added marks, no lights, no glow. Motion: the brush is switched on and vibrates in place: the water drops and the film of water around the bristle head ripple and jump; the brush itself stays in place and never turns. Camera locked-off. No hand, fingers or people appear at any time. Bright clean light. No word, logo or print appears on the brush handle at any time. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082390787-mavidef8ivc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082392779-tglgd08026n.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082394527-s1azeq9jqjd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/pritech-15s/1793082396271-vs6cna56w2e.png"
+    ]
+   }
+  },
+  "taskId": "f78213bf9fe61d581cc64db7ef99b965",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/f78213bf9fe61d581cc64db7ef99b965_0_1793082518.mp4"
+   ]
+  },
+  "costTime": 116,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 06:28:43",
+  "clip_check": "/home/user/Mymobileworld/ugc/pritech-15s/clips/V4S5.mp4",
+  "still": "stills/V4S5.png",
+  "ok": true,
+  "score": 0.842
  }
 ]

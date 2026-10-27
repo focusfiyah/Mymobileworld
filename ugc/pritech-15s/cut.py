@@ -6,10 +6,10 @@ import json, subprocess, sys
 from pathlib import Path
 
 HOLD = 0.6                       # hold the last shot a beat after the voice ends
-VO = {"V2": "vo/V2/voiceover_final.mp3", "V3": "vo/V3/voiceover_paced.mp3", "V4": "vo/V4/voiceover_paced.mp3"}
-FIX = {}                         # shot -> clips/<file>.mp4 (free fixes)
-START = {}                       # shot -> start second inside its clip
-SHIFT = {"V2S1": -0.22}          # V2S1's line runs 4.20 s, its clip 4.04 s: cut to V2S2 0.22 s early (hands show under "Yeah")
+VO = {"V2": "vo/V2/voiceover_clean.mp3", "V3": "vo/V3/voiceover_paced.mp3", "V4": "vo/V4/voiceover_paced.mp3"}
+FIX = {"V2S5": "V2S5_fix", "V2S2": "V2S2_fix", "V2S3": "V2S3_fix", "V3S3": "V3S3_fix"}   # shot -> clips/<file>.mp4 (free fixes, clip_fix.py)
+START = {"V4S5": 1.55}           # shot -> start second inside its clip (V4S5: the drops jump at 1.7 s)
+SHIFT = {"V2S1": -0.22, "V2S4": 0.5}   # V2S1's line runs 4.20 s, its clip 4.04 s: cut to V2S2 0.22 s early; V2S4 runs 0.5 s into V2S5's line (V2S5 has 1.3 s clean)
 S = json.load(open("shots.json"))
 dur = lambda f: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout)
 
