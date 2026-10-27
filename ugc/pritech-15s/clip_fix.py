@@ -3,10 +3,11 @@
   V2S2: Seedance turns the hand from 0.9 s (crown ring and makeup gone): keep 0-0.85 s, forward-back-forward
   V2S3: Omni jumps to a macro at 1.96 s: its line uses the macro part 1.99-3.99 s (cut.py START)
   V2S7: the end shot = V2S3 0-1.9 s (push-in on the wet brush leaning on the basin), forward then back
+  V3S5: Omni pulled out and her eye shows top-right: crop the right 20% (1.25x), 0-2.4 s, no loop
   V3S3: a toilet edge comes in at the right from 2.8 s: keep 0-1.55 s"""
 import subprocess, sys
 SRC = {"V2S7": "V2S3"}   # V2S7 end shot = V2S3's push-in on the brush leaning on the basin (Ralph: old S7 "not good"; the paid S7 still drew a flared foot)
-FIX = {"V2S7": (1.9, "null"), "V2S5": (0.65, "null"), "V2S2": (0.85, "null", 3), "V2S3": (1.05, "null"), "V3S3": (1.55, "null")}
+FIX = {"V3S5": (2.4, "crop=864:1536:0:192,scale=1080:1920:flags=lanczos", 1), "V2S7": (1.9, "null"), "V2S5": (0.65, "null"), "V2S2": (0.85, "null", 3), "V2S3": (1.05, "null"), "V3S3": (1.55, "null")}
 for sid in sys.argv[1:]:
     t, vf, n = (FIX[sid] + (2,))[:3]
     parts = "".join(f"[p{i}]" if i % 2 == 0 else f"[r{i}]" for i in range(n))
