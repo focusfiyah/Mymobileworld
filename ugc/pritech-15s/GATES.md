@@ -2,6 +2,7 @@
 
 - [ ] G1: script gate passes (audience, coach, viral board, facts, hooks, humanizer, readability, line sources, banned phrases)
   CHECK: cd ../.. && python3 grace/gate.py ugc/pritech-15s
+  EVIDENCE: 2026-10-27 run by hand: GATE OK
   EXPECT: GATE OK
 - [ ] G2: each script is 15-20 s at Grace's measured 3.53 words/sec and reads at grade 6 or lower
   CHECK: python3 -c "import re;t=open('scripts.md').read();r=[];[r.append((v,len(re.search(r'## '+v+r':.*\n(.+)',t).group(1).split())/3.53,float(re.search(r'Flesch-Kincaid\):\s*([\d.]+)',open('research/readability_'+v.lower()+'.txt').read()).group(1)))) for v in ['V2','V3','V4']];print('LEN_OK' if all(15<=s<=20 and g<=6 for _,s,g in r) else 'BAD',r)"
@@ -18,8 +19,8 @@
 - [ ] G6: BOOK.md has one TOTAL line and a Sent to Ralph link
   CHECK: python3 -c "import re;t=open('BOOK.md').read();print('BOOK_OK' if len(re.findall(r'TOTAL: [$][0-9.]+',t))==1 and re.search(r'Sent to Ralph: https://claude\.ai/\S+',t) else 'NO')"
   EXPECT: BOOK_OK
-- [ ] G7: review page published with scripts, shot lists, rooms and the total; push + email sent (manual)
-  EVIDENCE: pending
+- [x] G7: review page published with scripts, shot lists, rooms and the total; push + email sent (manual)
+  EVIDENCE: 2026-10-27 page https://claude.ai/artifact/Ud3ZURCMtYjMBMSK24vHdb v1; Gmail id 1a17ba999f96cd8e; PushNotification 'Mobile push requested.'
 
 # Phase 2+ (after Ralph's OK): stills -> storyboard -> Flow kit / clips -> VO -> cuts
 - [ ] G8: 20 stills exist at 9:16 and pass 2x QC (product shape, buttons, rings, no face beyond cheek/jaw) (manual + size check)
