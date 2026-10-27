@@ -9,6 +9,7 @@ from pathlib import Path
 VO, HOLD = "vo/voiceover_paced.mp3", 0.6
 CLIPLEN = {"S9": 6.0}
 USE = {}                                   # v2: S1 r3 clip is clean from 1.0 s (SRC)
+FILE = {"S8": "clips/S8_seedance_big.mp4"}  # Ralph 2026-10-27: v1 S8 goes inside the stocking; v2 S8 stayed outside
 SRC = {"S1": 1.0}                          # QC 2026-10-27 v2: S1 scarf hides behind the charm 0.25-0.75 s
 LATE = {}
 CROP = {}                                  # S9 r2 (2026-10-26, Ralph: lie along the bed) needs no crop; r1 needed one to hide toes
@@ -34,7 +35,7 @@ END = pos
 Path("out").mkdir(exist_ok=True)
 inputs, chains = [], []
 for i, (c, ss, d) in enumerate(EDIT):
-    inputs += ["-ss", f"{ss:.3f}", "-t", f"{d:.3f}", "-i", f"clips/{c}_seedance.mp4"]
+    inputs += ["-ss", f"{ss:.3f}", "-t", f"{d:.3f}", "-i", FILE.get(c, f"clips/{c}_seedance.mp4")]
     chains.append(f"[{i}:v]setpts=PTS-STARTPTS,{CROP.get(c, '')}scale=1080:1920:flags=lanczos,fps=30,format=yuv420p[v{i}]")
 n = len(EDIT)
 fc = ";".join(chains) + ";" + "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]"
