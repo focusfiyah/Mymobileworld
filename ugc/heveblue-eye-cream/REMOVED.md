@@ -13,3 +13,4 @@ Check every cut against this list and the last round's notes before it goes to R
 - Mouth or lips on screen while the voice talks (no lip sync planned)
 - Tip dipped into the water or on the side of the glass (Ralph 2026-10-27: the tip touches the RIM of the glass, the water only trembles)
 - Tip held backwards or at/above eye level (Ralph 2026-10-27: the flat end of the tip presses on the under-eye skin below the lower lashes)
+- Left hand applying in S5 (Ralph 2026-10-27: use her right hand)
