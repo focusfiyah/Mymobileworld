@@ -1,7 +1,7 @@
 {
  "blocks": {
   "size_first": "SIZE FIRST: the mini bag charm is TINY, the maker's measurements: 9.5 cm (3.7 in) tall to the top of its handles and 5.5 cm (2.2 in) wide. Its body is only about as wide as three adult fingers side by side and about as tall as one finger is long; with its handles it is about half as tall as an adult hand is long. It is smaller than a coffee mug and many times smaller than any handbag. One wireless earbuds case alone fills its opening. The gold key ring is about the size of a fingertip. It is empty: nothing sticks out of its open top except a little white tissue paper, as in image 1.",
-  "product_block": "The bag charm is the REAL product in the reference images and it must not change: a mini bucket-shaped bag in deep burgundy (wine red) pebbled grain faux leather, matte, wider at the top than the base, open top with no zip and no flap; two rolled round burgundy handles with darker brown-burgundy painted edges rising in two arches; one vertical burgundy strap down the front that passes through a small rectangular gold buckle loop at the top rim; a polished gold padlock hanging from a small gold ring and round gold grommet on that strap, with a U-shaped shackle and three engraved horizontal lines on its body, no letters and no logo; four small round gold feet under the base; a small polished gold split key ring on a short gold chain, attached at the base of the left-hand handle; the chain ends in that plain ring only, with no key, no charm and no tag on it; a thin silk twilly scarf in pink, light blue and white with thin black line art knotted around the base of the right-hand handle, its long tail hanging down past the base with frayed ends. No text, no logo, no monogram anywhere on the bag; all hardware is gold, never silver. It is always this open-top bucket shape: never a flap bag, no front flap, no turn lock. The twilly scarf belongs to the bag charm only: no scarf on any other bag.",
+  "product_block": "The bag charm is the REAL product in the reference images and it must not change: a mini bucket-shaped bag in deep burgundy (wine red) pebbled grain faux leather, matte, wider at the top than the base, open top with no zip and no flap; two rolled round burgundy handles with darker brown-burgundy painted edges rising in two arches; one vertical burgundy strap down the front that passes through a small rectangular gold buckle loop at the top rim; a polished gold padlock hanging from a small gold ring and round gold grommet on that strap, with a U-shaped shackle and three engraved horizontal lines on its body, no letters and no logo; four small round gold feet under the base; a small polished gold split key ring on a short gold chain, attached at the base of the left-hand handle; the chain ends in that plain ring only, with no key, no charm and no tag on it; a thin silk twilly scarf in pink, light blue and white with thin black line art knotted around the base of the right-hand handle, its long tail hanging down past the base with frayed ends. No text, no logo, no monogram anywhere on the bag; all hardware is gold, never silver. It is always this open-top bucket shape: never a flap bag, no front flap, no turn lock. The twilly scarf belongs to the bag charm only: no scarf on any other bag. The scarf is tied in ONE small knot around the base of the RIGHT-hand handle only, exactly as in the real photos; it is never draped over both handles, never tied as a bow over the top and never wide, and its single long tail hangs straight down past the base on the right.",
   "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips; on the wrist a FLAT gold bracelet of rectangular links like a watch band (NO watch face) and a thin gold chain with small pearls and a gold leaf charm; rings exactly as in the sheet: a silver crown-shaped stack ring, a silver ring with a small heart-shaped stone and a blue silicone band that is a RING worn on the ring finger, never on the wrist. Whole wrist visible, a little forearm in a soft cream knit sleeve may show, five fingers, natural knuckles and skin texture. The fingers GRIP what they touch, thumb on one side and fingers on the other.",
   "no_hand": "No hand, arm, fingers or people anywhere in the frame.",
   "handbag_block": "The handbag is a plain chocolate-brown smooth leather top-handle bag, slouchy and soft, with no logo, no hardware text and no charms other than the burgundy mini bag charm.",
@@ -58,11 +58,12 @@
    "room": "rooms/roomB_sofa_window.jpg",
    "props": "",
    "still": "Close view of the top handle of the chocolate-brown handbag on the cream sofa from the room photo, the window soft behind. The hand has entered from the right edge and pinches the charm's small gold key ring between thumb and index finger, the ring already looped around the handbag's handle; the charm hangs below on its short gold chain with its front and gold padlock facing the lens. The charm is tiny next to the hand: its body is only as wide as one wireless earbuds case, the back of the hand is clearly WIDER than the whole charm, and the charm with its handles is no taller than the hand's two middle fingers are long.",
-   "motion": "The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens.",
+   "motion": "The fingers close the gold key ring around the handbag's handle and then let go; the charm hangs still from the ring, front facing the lens.",
    "t": [
     7.37,
     9.01
-   ]
+   ],
+   "note_2026_10_27": "real-photo composite (tools/composite.py): the real listing charm at its true size"
   },
   {
    "id": "S5a",
@@ -111,25 +112,29 @@
    "room": "rooms/roomB_sofa_window.jpg",
    "props": "",
    "still": "Three-quarter view of the chocolate-brown handbag sitting upright on the cream sofa from the room photo, the bright window behind. The mini bag charm hangs on its short gold chain and gold key ring from the base of the handbag's left handle, front with the gold padlock facing the lens, its scarf tail hanging down beside it. Next to the handbag the charm is TINY: the handbag is about six times wider and three times taller than the charm, and the whole charm, handles included, is smaller than the handbag's handle loop. The padlock face is plain polished gold with only its three engraved lines: no mark, symbol or letter.",
-   "motion": "Camera: a slow arc a little to the right around the handbag, keeping the charm in the centre and in focus; the charm hangs still.",
+   "motion": "Camera: a very slow, slight push-in toward the handbag, only a little closer by the end; the charm hangs still and keeps facing the lens. The camera stays far: the move is very slight, the handbag stays fully in frame and the charm stays small in the frame, about one sixth of the frame width, for the whole clip; no close-up.",
    "t": [
     15.15,
     18.26
    ],
-   "size_ref": "refs/size_ref_S4.png"
+   "size_ref": "refs/size_ref_S4.png",
+   "note_2026_10_27": "real-photo composite (tools/composite.py): the real listing charm at its true size"
   },
   {
    "id": "S8",
    "words": "AND it makes the cutest little stocking stuffer!",
-   "hand": true,
+   "hand": false,
    "room": "rooms/roomC_fireplace.jpg",
    "props": "a plain cream cable-knit Christmas stocking",
-   "still": "Close view of a plain cream cable-knit Christmas stocking with no text, hanging in front of the fireplace from the room photo, the green tree soft at the left. The hand has entered from the right edge and holds the mini bag charm by its two handles just above the open top of the stocking, front and gold padlock facing the lens. The charm is small next to the stocking: it is much narrower than the stocking's cuff. The charm is tiny next to the hand: its body is no wider than three of the fingers.",
-   "motion": "The hand lowers the charm straight down INTO the stocking: its body disappears fully inside the cuff and only its two handles and the scarf knot stay visible above the cuff, then the fingers let go and the hand leaves the frame at the right; the stocking sways a little and the charm stays inside.",
+   "still": "Close view of a plain cream cable-knit Christmas stocking with no text, hanging in front of the fireplace from the room photo, the green tree soft at the left. The hand has entered from the right edge and holds the mini bag charm by its two handles just above the open top of the stocking, front and gold padlock facing the lens. The charm is small next to the stocking: it is much narrower than the stocking's cuff. The charm is tiny next to the hand: its body is no wider than three of the fingers. The stocking is a regular adult Christmas stocking and far bigger than the charm: its cuff opening is about four times as wide as the charm, so the charm drops inside it the way a small tube of eye cream would.",
+   "motion": "Camera: a very slow, slight push-in toward the stocking, only a little closer by the end; the charm sits still inside the stocking cuff with its lower half hidden inside, and the stocking hangs still. The camera stays far: the whole stocking cuff stays in frame and the charm stays small, about one sixth of the frame width, for the whole clip; no close-up.",
    "t": [
     18.26,
     21.11
-   ]
+   ],
+   "size_ref": "stills/S1.png",
+   "size_ref_text": "a photo of this same charm held by this same hand at its TRUE size: copy exactly this size ratio between the charm and the hand, and ignore its room",
+   "note_2026_10_27": "real-photo composite (tools/composite.py): real charm inside a Pexels stocking (px 5727880), hand-free, Grace's eye-cream fit"
   },
   {
    "id": "S9",
@@ -138,12 +143,13 @@
    "room": "rooms/roomD_tree_bows.jpg",
    "props": "",
    "still": "The chocolate-brown handbag stands on a low wooden side table in front of the green Christmas tree with white bows from the room photo. The mini bag charm hangs on its short gold chain and gold key ring from the handbag's handle in the centre of the frame, front with the gold padlock facing the lens, the only bag charm in the frame. The tree is soft behind. Next to the handbag the charm is TINY: the handbag is about six times wider and three times taller than the charm, and the whole charm, handles included, is smaller than the handbag's handle loop. The padlock face is plain polished gold with only its three engraved lines: no mark, symbol or letter. No hand, fingers or fingertips anywhere, not even at the frame edge.",
-   "motion": "Camera: a slow pull-back that shows a little more of the tree; the charm hangs still in the centre.",
+   "motion": "Camera: a very slow, slight push-in toward the handbag, only a little closer by the end; the charm hangs still in the centre and keeps facing the lens. The camera stays far: the move is very slight, the handbag stays fully in frame and the charm stays small in the frame, about one sixth of the frame width, for the whole clip; no close-up.",
    "t": [
     21.11,
     26.29
    ],
-   "size_ref": "refs/size_ref_S4.png"
+   "size_ref": "refs/size_ref_S4.png",
+   "note_2026_10_27": "real-photo composite (tools/composite.py): the real listing charm at its true size"
   }
  ]
 }
