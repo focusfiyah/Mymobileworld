@@ -12,14 +12,19 @@ START = {"V4S5": 1.0, "V2S3": 1.99}           # shot -> start second inside its 
 SHIFT = {"V2S1": -0.22, "V2S3": -0.1, "V2S4": 0.5, "V4S1": 0.35, "V4S6": 0.47, "V3S6": 0.32}   # V2S1's line runs 4.20 s, its clip 4.04 s: cut to V2S2 0.22 s early; V2S4 runs 0.5 s into V2S5's line (V2S5 has 1.3 s clean)
 S = json.load(open("shots.json"))
 SPLIT = {"V2S1": (2.0, 1.3, 0.39, 0.5), "V4S1": (2.0, 1.3, 0.52, 0.45)}   # shot -> (cut at s, punch-in zoom, centre x, centre y): a second framing on the hook (coach compare: the 2.7M winner cuts 3x in its first 3 s)
-DROP = {"V4S4"}                  # shot dropped; its words play over the next shot (V4S4: Omni drew her lips twice, Ralph chose free)
+DROP = {"V4S4", "V2S5"}         # dropped shots; their words play over the shot before (V4S4: Omni drew her lips twice; V2S5: bristles faced the camera, the back of the head on her cheek, Ralph 2026-10-27)
 dur = lambda f: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout)
 
 
 def cut(v):
     win = dict(json.load(open(f"vo/{v}/windows.json"))); allv = [s for s in S if s["video"] == v]
-    for k, s in enumerate(allv):   # a dropped shot's window goes to the next shot
-        if s["id"] in DROP: win[allv[k + 1]["id"]] = [win[s["id"]][0], win[allv[k + 1]["id"]][1]]
+    for k, s in enumerate(allv):   # a dropped shot's window goes to a neighbour: the shot before when it was itself shifted to cover this line (V2S4), else the next one
+        if s["id"] in DROP:
+            prev = allv[k - 1]["id"] if k else None
+            if prev and prev in SHIFT and SHIFT[prev] > 0:
+                win[prev] = [win[prev][0], win[s["id"]][1]]; SHIFT.pop(prev)
+            else:
+                win[allv[k + 1]["id"]] = [win[s["id"]][0], win[allv[k + 1]["id"]][1]]
     shots = [s for s in allv if s["id"] not in DROP]
     edit = []
     for k, s in enumerate(shots):
