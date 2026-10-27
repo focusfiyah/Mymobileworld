@@ -25,6 +25,16 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
+DUR = {"S5": 5, "S9": 6}   # their lines run 4.7 s and 5.2 s
+
+
+def seedance_prod(sid):
+    """Product clips on Seedance 2.0 Mini first-frame (Ralph 2026-10-27, Omni on Kie gave 500s: "Seedance from the stills now")."""
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}_seedance.txt").read_text().strip(), "first_frame_url": kie.upload(f"stills/{sid}.png"),
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": DUR.get(sid, 4)}}, label=f"{sid} seedance first-frame")
+    if url: kie.fetch(url, f"clips/{sid}_seedance.mp4", still=f"stills/{sid}.png"); print("clip", sid, "ok", flush=True)
+
+
 def seedance_first(sid):
     """No product in frame (S3): Seedance 2.0 Mini, first frame = the approved still (BOOK.md, $0.164)."""
     url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}.txt").read_text().strip(), "first_frame_url": kie.upload(f"stills/{sid}.png"),
@@ -35,5 +45,5 @@ def seedance_first(sid):
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
     Path("stills").mkdir(exist_ok=True); Path("clips").mkdir(exist_ok=True)
-    fn = {"stills": still, "omni": omni, "omni-dry": lambda i: omni(i, True), "seedance-first": seedance_first}[kind]
+    fn = {"stills": still, "omni": omni, "omni-dry": lambda i: omni(i, True), "seedance-first": seedance_first, "seedance": seedance_prod}[kind]
     with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(fn, ids))

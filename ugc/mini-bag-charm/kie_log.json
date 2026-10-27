@@ -384,5 +384,469 @@
   "still": "stills/S3.png",
   "ok": true,
   "score": 0.963
+ },
+ {
+  "t": "2026-10-27 00:20:22",
+  "submitted": "e3579f02f6cd340896716c6531f92512",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm "
+ },
+ {
+  "t": "2026-10-27 00:20:39",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. Image 5 is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and 5; the hand keeps one grip, enters and leaves from the frame edge; the charm never turns, flips or swings; no other jewellery appears. Motion: The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060401873-uiqc240ciz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060403933-zn3g7820ta.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060406005-j88n27171vr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060408175-qi3ltg55i7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060410356-8dpfn8ynung.jpg"
+    ]
+   }
+  },
+  "taskId": "e3579f02f6cd340896716c6531f92512",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-27 00:21:47",
+  "submitted": "d50f9ee9373a899b7b959a4e0207967c",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm "
+ },
+ {
+  "t": "2026-10-27 00:22:04",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. Image 5 is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and 5; the hand keeps one grip, enters and leaves from the frame edge; the charm never turns, flips or swings; no other jewellery appears. Motion: The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060490835-oc5ut2djl2o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060492903-xmyq1pdhu7e.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060495071-qen9bnzch1o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060497121-35xab2uev0s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060499876-eb4q4y4jay4.jpg"
+    ]
+   }
+  },
+  "taskId": "d50f9ee9373a899b7b959a4e0207967c",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-27 00:24:12",
+  "submitted": "f109cd2eed8134ba7db1c0edfaf02d29",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm "
+ },
+ {
+  "t": "2026-10-27 00:24:29",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. Image 5 is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and 5; the hand keeps one grip, enters and leaves from the frame edge; the charm never turns, flips or swings; no other jewellery appears. Motion: The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060635152-4xrtyaypr24.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060637394-oefx4by47s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060639179-a7j7s0zmkx7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060641232-3uf96uul4no.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060644465-bvcoivkz7kr.jpg"
+    ]
+   }
+  },
+  "taskId": "f109cd2eed8134ba7db1c0edfaf02d29",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-27 00:25:13",
+  "submitted": "ba310b1bfb3f37eff09494d7bcb35118",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm "
+ },
+ {
+  "t": "2026-10-27 00:25:30",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. Image 5 is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and 5; the hand keeps one grip, enters and leaves from the frame edge; the charm never turns, flips or swings; no other jewellery appears. Motion: The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060694333-1uhwvi4paml.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060696381-5k5s8ffv8sh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060698205-dy79h3ombjn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060700615-49lfd2o0p5a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060704646-c8edchxd7bm.jpg"
+    ]
+   }
+  },
+  "taskId": "ba310b1bfb3f37eff09494d7bcb35118",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-27 00:25:55",
+  "submitted": "68bda5b7814f8c846fc53c8d352dd8e6",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and the bag charm exactly. The bag charm is t"
+ },
+ {
+  "t": "2026-10-27 00:26:11",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. No hand, fingers or people appear at any time. Motion: Camera: a slow, low push-in toward the charm; nothing on the table moves. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060739424-oqo2hjul5f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060741802-bcwb57wbzab.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060743782-03qtlj1moagy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793060746032-ggajri67uzu.png"
+    ]
+   }
+  },
+  "taskId": "68bda5b7814f8c846fc53c8d352dd8e6",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-27 00:36:07",
+  "submitted": "3e11a789fe05e1ea7e6add7d8e0303b5",
+  "prompt": "Animate this image as the first frame. The fingers slide the gold key ring around the handle until it closes, then let g"
+ },
+ {
+  "t": "2026-10-27 00:37:29",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The fingers slide the gold key ring around the handle until it closes, then let go; the charm drops a little on its chain and hangs still from the handle, front facing the lens. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. Only one hand: its French-tip nails, rings and bracelets stay exactly as in the first frame, the flat gold link bracelet never becomes a watch, the hand keeps one grip and enters and leaves from the frame edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061354020-7t3xx1i3djv.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "3e11a789fe05e1ea7e6add7d8e0303b5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061447888-51n2c49tbgk.mp4"
+   ]
+  },
+  "costTime": 82,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:37:33",
+  "clip_check": "clips/S4_seedance.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.961
+ },
+ {
+  "t": "2026-10-27 00:38:09",
+  "submitted": "4c184b70464a781e87427f20367a46a6",
+  "prompt": "Animate this image as the first frame. Camera: a slow, low push-in toward the charm; nothing on the table moves. The bur"
+ },
+ {
+  "t": "2026-10-27 00:38:28",
+  "submitted": "28fa2fcd4a77a62bc724712d19c3902d",
+  "prompt": "Animate this image as the first frame. The hand lowers the charm into the stocking until its handles, scarf knot and the"
+ },
+ {
+  "t": "2026-10-27 00:38:30",
+  "submitted": "a69966ab7651512df396b196d51d015f",
+  "prompt": "Animate this image as the first frame. The hand slowly brings the charm closer to the lens until it fills most of the fr"
+ },
+ {
+  "t": "2026-10-27 00:38:32",
+  "submitted": "6b66d23d855ab2e77792f60682c730ce",
+  "prompt": "Animate this image as the first frame. Camera: a slow arc a little to the right around the handbag, keeping the charm in"
+ },
+ {
+  "t": "2026-10-27 00:38:34",
+  "submitted": "42dd3cba8e37555e9c2bb7a5dbc7170e",
+  "prompt": "Animate this image as the first frame. Camera: a very slow push-in and slight rise from the padlock up to the scarf knot"
+ },
+ {
+  "t": "2026-10-27 00:38:36",
+  "submitted": "49c2ab2b2a49b6e546e8544d38df26e4",
+  "prompt": "Animate this image as the first frame. The hand lowers the earbuds case straight down into the open top of the charm nex"
+ },
+ {
+  "t": "2026-10-27 00:38:38",
+  "submitted": "ad0bc0bea8028583306f723962f6e090",
+  "prompt": "Animate this image as the first frame. Camera: a slow pull-back that shows a little more of the tree; the charm hangs st"
+ },
+ {
+  "t": "2026-10-27 00:39:52",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The hand slowly brings the charm closer to the lens until it fills most of the frame; the charm keeps facing the lens and never turns or swings. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. Only one hand: its French-tip nails, rings and bracelets stay exactly as in the first frame, the flat gold link bracelet never becomes a watch, the hand keeps one grip and enters and leaves from the frame edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468658-sv4kq9hstqo.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a69966ab7651512df396b196d51d015f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061584204-8k73kq4yk6h.mp4"
+   ]
+  },
+  "costTime": 90,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:39:54",
+  "clip_check": "clips/S1_seedance.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.973
+ },
+ {
+  "t": "2026-10-27 00:40:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The hand lowers the earbuds case straight down into the open top of the charm next to the lip balm until only its top shows, lets go and leaves the frame at the top right; the charm stays standing and does not move. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. Only one hand: its French-tip nails, rings and bracelets stay exactly as in the first frame, the flat gold link bracelet never becomes a watch, the hand keeps one grip and enters and leaves from the frame edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468606-lvuho55fbae.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 5
+   }
+  },
+  "taskId": "49c2ab2b2a49b6e546e8544d38df26e4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061616748-fcq3zj76wcm.mp4"
+   ]
+  },
+  "costTime": 114,
+  "credits": 41.0,
+  "usd": 0.205
+ },
+ {
+  "t": "2026-10-27 00:40:25",
+  "clip_check": "clips/S5_seedance.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.974
+ },
+ {
+  "t": "2026-10-27 00:40:33",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. Camera: a very slow push-in and slight rise from the padlock up to the scarf knot; the charm does not move. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468548-td35f13gulg.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "42dd3cba8e37555e9c2bb7a5dbc7170e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061627545-vdkp2rwcjc.mp4"
+   ]
+  },
+  "costTime": 126,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:40:36",
+  "clip_check": "clips/S6_seedance.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.976
+ },
+ {
+  "t": "2026-10-27 00:40:38",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. Camera: a slow arc a little to the right around the handbag, keeping the charm in the centre and in focus; the charm hangs still. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468551-qjuhp8vs1rf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6b66d23d855ab2e77792f60682c730ce",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061631438-w0bxp2em8om.mp4"
+   ]
+  },
+  "costTime": 133,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:40:40",
+  "clip_check": "clips/S7_seedance.mp4",
+  "still": "stills/S7.png",
+  "ok": true,
+  "score": 0.971
+ },
+ {
+  "t": "2026-10-27 00:40:41",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. Camera: a slow, low push-in toward the charm; nothing on the table moves. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468574-qm8eob8e85n.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "4c184b70464a781e87427f20367a46a6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061637105-m4i4actcx0n.mp4"
+   ]
+  },
+  "costTime": 151,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:40:43",
+  "clip_check": "clips/S2_seedance.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.97
+ },
+ {
+  "t": "2026-10-27 00:40:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The hand lowers the charm into the stocking until its handles, scarf knot and the top of its front peek out of the cuff, then lets go and leaves the frame at the right; the stocking sways a little. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. Only one hand: its French-tip nails, rings and bracelets stay exactly as in the first frame, the flat gold link bracelet never becomes a watch, the hand keeps one grip and enters and leaves from the frame edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468683-5ntp99v6tme.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "28fa2fcd4a77a62bc724712d19c3902d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061657766-7oe4ec6gvvh.mp4"
+   ]
+  },
+  "costTime": 166,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:41:01",
+  "clip_check": "clips/S8_seedance.mp4",
+  "still": "stills/S8.png",
+  "ok": true,
+  "score": 0.968
+ },
+ {
+  "t": "2026-10-27 00:41:16",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. Camera: a slow pull-back that shows a little more of the tree; the charm hangs still in the centre. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468623-4ae71xq2ngq.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "ad0bc0bea8028583306f723962f6e090",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061669172-eqdr2b4pdzj.mp4"
+   ]
+  },
+  "costTime": 163,
+  "credits": 49.2,
+  "usd": 0.246
+ },
+ {
+  "t": "2026-10-27 00:41:18",
+  "clip_check": "clips/S9_seedance.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.958
+ },
+ {
+  "t": "2026-10-27 00:43:55",
+  "submitted": "2df63fabbe86a32174aa164508ad42b8",
+  "prompt": "Animate this image as the first frame. The hand keeps pinching both handles together between thumb and index finger for "
+ },
+ {
+  "t": "2026-10-27 00:45:18",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The hand keeps pinching both handles together between thumb and index finger for the WHOLE clip and never lets go or changes grip; it slowly brings the charm closer to the lens. The chain on the left ends in the same small plain gold ring: no new charm, ring, emblem or logo ever appears on it. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape, matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small gold key ring on a short gold chain, and the pink, light blue and white twilly scarf knotted on its right-hand handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. Only one hand: its French-tip nails, rings and bracelets stay exactly as in the first frame, the flat gold link bracelet never becomes a watch, the hand keeps one grip and enters and leaves from the frame edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793061468658-sv4kq9hstqo.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "2df63fabbe86a32174aa164508ad42b8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793061916931-mdya1lydczn.mp4"
+   ]
+  },
+  "costTime": 84,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 00:45:21",
+  "clip_check": "clips/S1_seedance.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.973
  }
 ]

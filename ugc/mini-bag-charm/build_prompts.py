@@ -4,7 +4,7 @@ size first, numbered references named in the prompt and matched colour for colou
 import json
 from pathlib import Path
 D = json.loads(Path("shots.json").read_text()); B = D["blocks"]; SH = D["shots"]
-SHEET, FRONT, LOCK, SCARF = "refs/product_sheet.png", "refs/real/closeup_front.png", "refs/real/closeup_lock.png", "refs/real/closeup_scarf.png"
+SHEET, FRONT, LOCK, SCARF = "refs/product_sheet.png", "refs/real/closeup_front.png", "refs/real/closeup_lock_ref.png", "refs/real/closeup_scarf_ref.png"
 HAND = "../../grace/ref/hand-sheets/with_bracelet.jpg"
 
 

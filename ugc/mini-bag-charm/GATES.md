@@ -33,3 +33,12 @@
   EXPECT: \$3.90 allowed
 - [ ] G11: every still QC'd at 2x (product details, grip, hand jewellery, key ring, no text, REMOVED.md) with a verdict in qc/stills_r1.md (manual)
 - [ ] G12: storyboard on the review page + push + email (manual)
+
+# Phase 3 (2026-10-27): clips + cut
+- [ ] G13: cut QC passes (length, loudness, no black/flash frames, 1080x1920)
+  CHECK: python3 qc/check_cut.py out/minibag_v1.mp4
+  EXPECT: CUT_QC_OK
+- [ ] G14: cut-stage gate passes (compare proof, no text in the cut script)
+  CHECK: cd ../.. \&\& python3 grace/gate.py ugc/mini-bag-charm --stage cut
+  EXPECT: GATE OK
+- [ ] G15: cut on the review page + push + email (manual)
