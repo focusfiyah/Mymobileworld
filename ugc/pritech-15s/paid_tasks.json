@@ -481,5 +481,15 @@
   "status": "submitted",
   "session": "a987ae91-a6e2-502c-9272-308feedc7a09",
   "taskId": "022389b9c527c2acd9e370f1616271be"
+ },
+ {
+  "t": "2026-10-27 06:33:42",
+  "id": "7d840925f0b2",
+  "key": "6ddee4ff9a975b8a",
+  "model": "google/gemini-omni-flash-1-1",
+  "label": "V4S4",
+  "usd": 0.315,
+  "status": "started",
+  "session": "a987ae91-a6e2-502c-9272-308feedc7a09"
  }
 ]
