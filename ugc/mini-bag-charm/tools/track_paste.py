@@ -3,7 +3,8 @@ but redraws the tiny real charm (a flap, a mark on the padlock, a wide scarf), s
 background (ORB + RANSAC, still -> frame), the AI charm is covered with the clean plate warped the same way, and the
 real composite layer (charm, chain, ring, shadow) is warped on top. Free; a paste-back, so used only on Ralph's OK.
   python3 tools/track_paste.py S7 [--follow]  -> clips/S7_track.mp4  (--follow: the charm hangs from a moving hand, S4)"""
-import os, subprocess, sys
+import json, os, subprocess, sys
+from pathlib import Path
 import cv2, numpy as np
 
 CHAIN = set()
@@ -30,6 +31,7 @@ def charm_colours(f, loose=False):
     return (burg | pink | blue | gold).astype(np.uint8) * 255
 
 
+GAP_MAX = 12.0                                # px: the pasted charm must stay on what it hangs from (S4 v4 floated)                # QC limits (set on Mini Bag Charm v5 vs v6, 2026-10-27)
 HANG = {"S4": (338, 749)}                     # still px where the charm's handles meet the chain (composite.swap hang)
 _ring = {}
 
@@ -146,6 +148,7 @@ def run(sid, follow=False):
     out = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{FW}x{FH}", "-r", "24",
                             "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", f"clips/{sid}_track.mp4"],
                            stdin=subprocess.PIPE)
+    seam, gap = [], []; prev_go = None
     for i, f in enumerate(src):
         M = Ms[i].copy()
         if follow and sid == "S9": M[:, :2] = Ms[0][:, :2]                  # S9: the camera barely zooms; keep the frame-0 scale
@@ -180,7 +183,7 @@ def run(sid, follow=False):
             other = cv2.morphologyEx(other, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
             lea = (cv2.dilate(other, np.ones((3, 3), np.uint8)) == 0).astype(np.uint8)
             rest = cov.copy(); rest[lea > 0] = 0                       # curtain/tree/sofa in the box: only the AI's own colours,
-            cov[lea == 0] = 0                                          # painted from the live frame (no parallax smear)
+            if not os.environ.get("TP_NOLEATHER"): cov[lea == 0] = 0  # painted from the live frame (no parallax smear)
             rest = cv2.dilate(charm_colours(f, True) & rest, np.ones((9, 9), np.uint8))
             if sid in HANG:                                       # never over the ring or the fingers above the charm
                 hy = int((M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]))[1]); cov[:hy + 2] = 0
@@ -214,6 +217,22 @@ def run(sid, follow=False):
             fill = cv2.inpaint(f, cov, 7, cv2.INPAINT_TELEA).astype(np.float32)   # from the frame itself: no misaligned plate
         ca = cv2.GaussianBlur(cov, (9, 9), 0).astype(np.float32)[..., None] / 255
         g = f.astype(np.float32) * (1 - ca) + fill * ca
+        # QC (drift): the patch must move WITH the picture around it. Optical flow just inside its edge vs just outside,
+        # per sector around it; a patch that slides against its surroundings (S7 curtain, v5) adds up px of slip.
+        go = cv2.cvtColor(np.clip(g, 0, 255).astype(np.uint8), cv2.COLOR_BGR2GRAY)
+        if prev_go is not None and cov.max() > 0:
+            fl = cv2.calcOpticalFlowFarneback(prev_go, go, None, 0.5, 3, 21, 3, 5, 1.1, 0)
+            cm = (cov > 127).astype(np.uint8); inner = cm & ~cv2.erode(cm, np.ones((15, 15), np.uint8))
+            outer = cv2.dilate(cm, np.ones((15, 15), np.uint8)) & ~cm
+            ys, xs = np.nonzero(cm); cy, cx = ys.mean(), xs.mean(); yy, xx = np.mgrid[0:FH, 0:FW]
+            sect = ((np.arctan2(yy - cy, xx - cx) + np.pi) / (2 * np.pi) * 8).astype(int) % 8
+            sl = []
+            for k_ in range(8):
+                ii, oo = (inner > 0) & (sect == k_), (outer > 0) & (sect == k_)
+                if ii.sum() > 30 and oo.sum() > 30:
+                    sl.append(np.linalg.norm(np.median(fl[ii], 0) - np.median(fl[oo], 0)))
+            seam.append(sl)
+        prev_go = go
         if sid == "S8":                                           # the real charm stays BEHIND this frame's own white cuff
             fi = f.astype(int); fur = ((fi.min(2) > 165) & (fi.max(2) - fi.min(2) < 40)).astype(np.uint8) * 255
             fur = cv2.GaussianBlur(cv2.morphologyEx(fur, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)), (5, 5), 0)
@@ -225,6 +244,18 @@ def run(sid, follow=False):
             cv2.imwrite("/tmp/claude-0/dbg_cov.png", (cov if cov.dtype == np.uint8 else cov).astype(np.uint8)); cv2.imwrite("/tmp/claude-0/dbg_fill.png", fill.astype(np.uint8)); cv2.imwrite("/tmp/claude-0/dbg_f.png", f)
         out.stdin.write(np.clip(g, 0, 255).astype(np.uint8).tobytes())
     out.stdin.close(); out.wait(); print(sid, "tracked", len(src), "frames -> clips/" + sid + "_track.mp4")
+    K = max(len(x) for x in seam) if seam else 0                  # slip per sector, added up over a 0.5 s window
+    S = np.array([x + [0.0] * (8 - len(x)) for x in seam]) if seam else np.zeros((0, 8))
+    win = 12; slip = [float(S[max(0, i - win):i + 1].sum(0).max()) for i in range(len(S))] if len(S) else [0.0]
+    qc = {"slip_px_per_half_s": [round(x, 2) for x in slip]}
+    os.makedirs("qc", exist_ok=True); json.dump(qc, open(f"qc/track_{sid}.json", "w"))
+    # the drift strip: product + a wide margin, every 0.2 s, 2x (grace/qc/strip.py); LOOK at it before any cut goes out
+    sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "grace" / "qc")); import strip
+    X0, Y0, W0, H0 = cv2.boundingRect(cv2.warpAffine(diff, Ms[0], (FW, FH)))
+    box = [max(0, X0 - W0), max(0, Y0 - H0 // 2), min(FW, 3 * W0), min(FH, int(2.5 * H0))]
+    strip.sheet(f"clips/{sid}_track.mp4", box, out=f"qc/strip_{sid}.jpg")
+    print(f"TRACK_QC {sid}: patch slip max {max(slip):.1f} px per 0.5 s (info only, a number alone missed the v5 curtain smear)"
+          f" -> LOOK at qc/strip_{sid}.jpg: attached to its holder, background moves with the camera, no smear/blocks/AI leftovers, no slide")
 
 
 if __name__ == "__main__":
