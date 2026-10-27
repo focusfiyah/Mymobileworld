@@ -30,7 +30,7 @@ cost = """<table><tr><td>Stills, Gemini 3 Pro Image on Kie</td><td>9 x $0.09</td
 script_html = "".join(f"<li>{E(l.split('. ',1)[1]).replace('[+]','<mark>added</mark>')}</li>" for l in script)
 NOTES = [l.strip("| ").split(" | ") for l in Path("qc/stills_r1.md").read_text().splitlines() if l.startswith("| S")]
 STORY = "".join(f'<figure><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{v.lower()}">{i} {v}</b> {E(n)}</figcaption></figure>' for i, v, n in NOTES)
-ORDER = ["S4", "S1", "S2", "S5", "S6", "S7", "S8", "S9"]
+ORDER = []   # Flow kits retired 2026-10-27 (Ralph: "Use Kie")
 LEN = {"S5": "8 s (the line is 4.7 s; if Flow only offers 4 s, make 4 s and tell me)", "S9": "8 s (the line is 5.2 s; if Flow only offers 4 s, make 4 s and tell me)"}
 WORDS = {s["id"]: s["words"] for s in SH}
 def card(i):
@@ -93,15 +93,15 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 .tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .kitimgs{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}} .kitimgs button,.cp,.svp{{font:600 .8rem var(--body);padding:6px 10px;border-radius:6px;border:1px solid var(--wine);background:var(--card);color:var(--wine);cursor:pointer}} details.box summary{{cursor:pointer;font:600 1rem var(--body)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · cut v1 ready · $2.84 spent of $3.90</p></header>
-<section class="ask"><h2>Cut v1 ready · 26.9 s · your OK?</h2><video src="cut_v1.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
-<ul><li>All 9 clips are Seedance 2.0 Mini from the approved stills (Omni on Kie gave 500 errors 5 times, $0; your call: Seedance). S1 redone once ($0.164, your OK).</li>
-<li>QC: -16.5 LUFS, no black or flash frames, 1080x1920, every clip at 1.0x, no text, AI finish on (grain, sharpen, saturation down). Hands clean at 2x. Echo 150 ms.</li>
-<li>Free fixes: S1 ends at 1.95 s (it turns after that) and S2 starts 0.2 s early.</li>
-<li>Small flaws, left as is unless you say: the key ring picks up a thin bar in S1; the link bracelet shows a small watch face in S3 (you let it go) and S5; the blue band is on the thumb in some shots.</li>
-<li>Compared with @the_little_beannn (331K): same order (in hand, items go in, on a bigger bag) and both open on the charm in hand. Theirs cuts 9.8 times per 10 s (music only, one item per cut), ours 3.0 (9 shots on Grace's voice); more cuts would need more clips.</li>
-<li>Spent $2.84 of the $3.90 book (Kie). On your OK it goes to Drive "Mini Bag Charm (Grace)" as CURRENT with the script doc.</li></ul>
-<figure><img src="cut_sheet.jpg" alt="Cut frames"><figcaption>12 frames across the cut</figcaption></figure></section>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · cut v2 ready · $4.82 spent of $4.82 OK'd</p></header>
+<section class="ask"><h2>Cut v2 · your size fix · 26.9 s</h2><video src="cut_v2.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<ul><li>Real size now in every prompt (9.5 cm tall with handles, 5.5 cm wide): S1, S2, S4, S8 redone so the charm is smaller than Grace's hand and about mug height.</li>
+<li>One item at a time: "stash your earbuds" = only the AirPods case (it fills the opening); "lip balm, keys, or other tiny essentials inside" = only the gloss.</li>
+<li>S6, S7, S9 kept from v1 (no hand or mug to compare with), as you picked.</li>
+<li>QC: -16.5 LUFS, no black or flash frames, 1080x1920, every clip at 1.0x, no text, AI finish on, hands clean at 2x. Free fixes: a key S1's still added was painted out; S1 plays from 1 s in (its scarf hides for half a second at the start).</li>
+<li>Spent $4.82 of the $4.82 you OK'd (book $3.90 + extras). On your OK, v2 replaces v1 in Drive (v1 moves to Older versions).</li></ul>
+<figure><img src="cut_sheet_v2.jpg" alt="Cut v2 frames"><figcaption>12 frames across cut v2</figcaption></figure></section>
+<section class="box"><h2>Cut v1 (approved 2026-10-27, replaced by v2)</h2><p class="note">Charm drawn too big; earbuds and lip balm together in one shot.</p></section>
 <section class="box"><h2>S3 clip · Seedance · 4 s</h2><video src="S3.mp4" controls playsinline preload="metadata" style="width:100%;max-width:360px;border-radius:8px;border:1px solid var(--line)"></video><p class="note">Clip check OK (0.96), no flicker (max jump 1.46). Flaw: the bracelet turns into a watch with a face (question 2).</p></section>
 <section class="box"><h2>Stills, round 2 (3 redos, $0.27)</h2><div class="grid sb">{STORY2}</div></section>
 <section class="box"><h2>Stills, round 1 (9 on Kie, $0.81)</h2><div class="grid sb">{STORY}</div></section>

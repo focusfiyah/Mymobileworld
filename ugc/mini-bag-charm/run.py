@@ -25,7 +25,7 @@ def omni(sid, dry=False):
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
-DUR = {"S5": 5, "S9": 6}   # their lines run 4.7 s and 5.2 s
+DUR = {"S9": 6}   # their lines run 4.7 s and 5.2 s
 
 
 def seedance_prod(sid):

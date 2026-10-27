@@ -1,0 +1,24 @@
+BUDGET: month 2026-10 so far $180.80 (no cap); this job $4.00
+BUDGET: month 2026-10 so far $180.80 (no cap); this job $4.00
+BUDGET: month 2026-10 so far $180.80 (no cap); this job $4.00
+BUDGET: month 2026-10 so far $180.80 (no cap); this job $4.00
+BUDGET: month 2026-10 so far $180.80 (no cap); this job $4.00
+BOOK: approved $3.90 + extras $0.91; spent since approval $4.00; this call $0.16; left after it $0.65
+BOOK: approved $3.90 + extras $0.91; spent since approval $4.16; this call $0.16; left after it $0.48
+BOOK: approved $3.90 + extras $0.91; spent since approval $4.33; this call $0.16; left after it $0.32
+BOOK: approved $3.90 + extras $0.91; spent since approval $4.49; this call $0.16; left after it $0.16
+BOOK: approved $3.90 + extras $0.91; spent since approval $4.65; this call $0.16; left after it $-0.01
+submitted ed809c0c6383588d3d615f3ce8d8bfa1
+submitted 437982d6720ee7adc8ed39a75febfbf0
+submitted 0403ebfd51ae35cb9e63ab935296e7b8
+submitted 13c920c145ea6f953d1bd2d0d713d1ab
+CLIP_CHECK_OK clips/S8_seedance.mp4 (score 0.92)
+clip S8 ok
+CLIP_CHECK_OK clips/S1_seedance.mp4 (score 0.99)
+clip S1 ok
+CLIP_CHECK_OK clips/S5b_seedance.mp4 (score 0.98)
+clip S5b ok
+CLIP_CHECK_OK clips/S4_seedance.mp4 (score 0.95)
+clip S4 ok
+BUDGET LOCK: paid call refused:
+  - this call ($0.16) would take the job to $4.82 of the $4.81 Ralph approved. Ask him with the exact cost, then `python3 grace/gate.py /home/user/Mymobileworld/ugc/mini-bag-charm --approve-extra <usd> "<his words>" --what "<what>"`

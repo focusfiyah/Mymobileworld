@@ -54,7 +54,7 @@
    "../../grace/ref/hand-sheets/with_bracelet.jpg"
   ]
  },
- "S5": {
+ "S5a": {
   "still_refs": [
    "refs/product_sheet.png",
    "refs/real/closeup_lock_ref.png",
@@ -63,7 +63,23 @@
    "../../grace/ref/hand-sheets/with_bracelet.jpg"
   ],
   "clip_refs": [
-   "stills/S5.png",
+   "stills/S5a.png",
+   "refs/real/closeup_lock_ref.png",
+   "refs/real/closeup_scarf_ref.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ]
+ },
+ "S5b": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/real/closeup_lock_ref.png",
+   "refs/real/closeup_scarf_ref.png",
+   "rooms/roomA_wood_table.jpg",
+   "../../grace/ref/hand-sheets/with_bracelet.jpg"
+  ],
+  "clip_refs": [
+   "stills/S5b.png",
    "refs/real/closeup_lock_ref.png",
    "refs/real/closeup_scarf_ref.png",
    "refs/product_sheet.png",
