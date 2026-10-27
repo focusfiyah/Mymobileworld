@@ -30,6 +30,38 @@ cost = """<table><tr><td>Stills, Gemini 3 Pro Image on Kie</td><td>9 x $0.09</td
 script_html = "".join(f"<li>{E(l.split('. ',1)[1]).replace('[+]','<mark>added</mark>')}</li>" for l in script)
 NOTES = [l.strip("| ").split(" | ") for l in Path("qc/stills_r1.md").read_text().splitlines() if l.startswith("| S")]
 STORY = "".join(f'<figure><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{v.lower()}">{i} {v}</b> {E(n)}</figcaption></figure>' for i, v, n in NOTES)
+ORDER = ["S4", "S1", "S2", "S5", "S6", "S7", "S8", "S9"]
+LEN = {"S5": "8 s (the line is 4.7 s; if Flow only offers 4 s, make 4 s and tell me)", "S9": "8 s (the line is 5.2 s; if Flow only offers 4 s, make 4 s and tell me)"}
+WORDS = {s["id"]: s["words"] for s in SH}
+def card(i):
+    imgs = [(f"kit/{i}-1_still.jpg", "still " + i), (f"kit/{i}-2_padlock.jpg", "padlock close-up"), (f"kit/{i}-3_scarf.jpg", "scarf close-up"), (f"kit/{i}-4_sheet.jpg", "product sheet")]
+    fig = "".join(f'<figure><img src="{a}" alt="{i} image {n+1}"><figcaption>{n+1} · {b}</figcaption><button class="sv" data-src="{a}">Save</button></figure>' for n, (a, b) in enumerate(imgs))
+    first = ' <span class="chip warn">make this one first</span>' if i == "S4" else ""
+    return f"""<details class="box"{' open' if i == 'S4' else ''}><summary><b>{i}</b>{first} · &ldquo;{E(WORDS[i])}&rdquo;</summary>
+<ol><li>Flow: new project › Video › <b>Gemini Omni Flash</b> › 9:16 › {LEN.get(i, '4 s')}</li><li>Add these 4 images in this order (tap Save under each one). Number 1 goes in the start frame if Flow asks.</li></ol>
+<div class="kitimgs">{fig}</div>
+<p style="margin:0">3. Paste this prompt: <button class="cp" data-p="p{i}">Copy prompt</button> <button class="svp" data-p="p{i}">Save prompt</button></p>
+<pre id="p{i}" class="kitp">{E(Path('prompts/flow_'+i+'.txt').read_text().strip())}</pre>
+<p class="note">4. Download at 1080 and send it back in the chat.</p></details>"""
+KITS = "".join(card(i) for i in ORDER)
+SCRIPT = """<p class="note dlnote" id="dlnote" hidden>Saving isn't available in this view: long-press an image to save it, and press and hold the prompt text to copy it.</p>
+<script>
+(async()=>{const note=document.getElementById('dlnote');
+let dl=null;try{dl=await claude.use("downloads")}catch(e){}
+if(!dl){document.querySelectorAll('.sv,.svp').forEach(b=>b.hidden=true);note.hidden=false;}
+document.querySelectorAll('.sv').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const src=b.dataset.src;b.textContent='...';
+ try{const blob=await (await fetch(src)).blob();await dl.save({filename:src.split('/').pop(),data:blob});b.textContent='Saved';}
+ catch(e){b.textContent=(e&&e.code==='declined')?'Save':'Try again';}}));
+document.querySelectorAll('.svp').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const id=b.dataset.p;
+ try{await dl.save({filename:id.slice(1)+'-prompt.txt',data:document.getElementById(id).innerText});b.textContent='Saved';}
+ catch(e){b.textContent='Save prompt';}}));
+document.querySelectorAll('.cp').forEach(b=>b.addEventListener('click',async()=>{const el=document.getElementById(b.dataset.p);
+ try{await navigator.clipboard.writeText(el.innerText);b.textContent='Copied';}
+ catch(e){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected: tap Copy';}}));
+})();
+</script>"""
+NOTES2 = [l.strip("| ").split(" | ") for l in Path("qc/stills_r2.md").read_text().splitlines() if l.startswith("| S")]
+STORY2 = "".join(f'<figure><img src="st/{i}_r2.jpg" alt="{i} still"><figcaption><b class="{v.lower()}">{i} {v}</b> {E(n)}</figcaption></figure>' for i, v, n in NOTES2)
 page = f"""<title>Mini Bag Charm Plan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Mulish:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
@@ -58,12 +90,18 @@ figcaption{{font:500 .75rem var(--mono);color:var(--muted)}}
 details summary{{cursor:pointer;font:500 .8rem var(--mono);color:var(--wine)}} details summary:focus-visible{{outline:2px solid var(--wine)}}
 pre{{white-space:pre-wrap;font:400 .78rem/1.5 var(--mono);background:var(--bg);padding:10px;border-radius:6px;overflow-x:auto;margin:6px 0 0}}
 table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} td{{padding:6px 4px;border-bottom:1px solid var(--line)}} td:last-child{{text-align:right}}
-.tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
+.tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .kitimgs{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}} .kitimgs button,.cp,.svp{{font:600 .8rem var(--body);padding:6px 10px;border-radius:6px;border:1px solid var(--wine);background:var(--card);color:var(--wine);cursor:pointer}} details.box summary{{cursor:pointer;font:600 1rem var(--body)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · still storyboard round 1 · $0.81 spent of $3.90</p></header>
-<section class="ask"><h2>Storyboard round 1: 6 pass, 3 need a redo</h2>
-<p class="note">Redo S1, S7 and S9 with the fixed prompts: 3 x $0.09 = <b>$0.27</b> (the book has one redo; the job stays inside its $3.90). Small flaw you can let go for free: the blue band sits on the thumb or index finger in S1, S4 and S5 instead of the ring finger.</p></section>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · hands + hand-free AI over Grace's voice · Flow kits ready · $1.24 spent of $3.90</p></header>
+<section class="ask"><h2>Your Flow takes: 8 kits below, S4 first</h2><ol>
+<li>Make <b>S4</b> first (the riskiest: hand + key ring on the handle) and send it back. I check it, then you make the other 7. 12 credits each, about 120 for all 8 (S5 and S9 are 8 s).</li>
+<li>S3 (Seedance, $0.164) moves well, but Seedance turned Grace's flat link bracelet into a <b>watch with a face</b>. Redo it with "no watch" for $0.164 (inside the $3.90), or let it go?</li></ol>
+<p class="note">Stills are done: 9 of 9 pass after the 3 redos you OK'd. $1.24 spent of $3.90.</p></section>
+<section class="box"><h2>Flow kits · tap a shot to open it</h2><p class="note">One shot at a time: open it, save its 4 images, copy its prompt, make it in Flow, send the clip back.</p></section>
+{KITS}{SCRIPT}
+<section class="box"><h2>S3 clip · Seedance · 4 s</h2><video src="S3.mp4" controls playsinline preload="metadata" style="width:100%;max-width:360px;border-radius:8px;border:1px solid var(--line)"></video><p class="note">Clip check OK (0.96), no flicker (max jump 1.46). Flaw: the bracelet turns into a watch with a face (question 2).</p></section>
+<section class="box"><h2>Stills, round 2 (3 redos, $0.27)</h2><div class="grid sb">{STORY2}</div></section>
 <section class="box"><h2>Stills, round 1 (9 on Kie, $0.81)</h2><div class="grid sb">{STORY}</div></section>
 <section class="box"><h2>Voiceover (Grace cloned, 26.3 s)</h2><audio src="vo.mp3" controls preload="metadata" style="width:100%"></audio><p class="note">Echo 150 ms (passes, the approved flashlight level). Paced to 3.5 words/s, -16 LUFS. S5 and S9 lines run 4.7 s and 5.2 s, so those two get 8 s Flow takes.</p></section>
 <section class="box"><h2>The real product (what every prompt copies)</h2>

@@ -12,3 +12,4 @@ Checked: product vs sheet (shape, padlock, buckle, feet, scarf on the charm's ri
 | S8 | PASS | Cream knit stocking at the fireplace, hand holds the charm by its handles. |
 | S9 | REDO | The twilly scarf moved onto the big handbag; the charm has none; earbuds inside. |
 Prompt fixes already made (free): charm empty except S5; chain ends in a plain ring, no key; always open bucket, never a flap bag; the scarf belongs to the charm only.
+- 2026-10-26 Ralph: "Redo all 3, $0.27 (Recommended)" (S1 S7 S9); blue band: "Let it go, $0 (Recommended)"
