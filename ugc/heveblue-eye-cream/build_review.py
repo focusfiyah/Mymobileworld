@@ -74,7 +74,7 @@ td {{ border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; 
 <header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; approved 2026-10-27 &middot; stills round 1</span>
 <h1>Black Yuja Bean Lifting Auto Eye Cream</h1>
 <p>Hands + hand-free AI video over Grace's cloned voice, about 34 s, 10 shots. Opens like the two biggest videos for this exact tube: the chrome tip touches a glass of water and the rings show the buzz.</p></header>
-<div class="ask"><b>Cut v2 ready for your OK</b><span>Your notes: tip on the rim (no water dip), right hand under the eye. Kie $4.37 of $4.37 OK'd.</span></div>
+<div class="ask"><b>Cut v2 ready for your OK</b><span>Your notes: tip on the rim (no water dip), right hand under the eye; the water now vibrates more. Kie $4.37 of $4.37 OK'd.</span></div>
 {STORY}
 <section><h2>Your answers</h2><p>{E(re.search(r"## 7b.*?\n(1\. .*?)\n", book, re.S).group(1))}</p><details><summary>The questions</summary><ol class="q">{q_html}</ol></details></section>
 <section><h2>Script, Grace cloned voice</h2><ol class="script">{script_html}</ol>
