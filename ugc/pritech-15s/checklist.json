@@ -1,0 +1,84 @@
+{
+ "job": "pritech-15s",
+ "client": "Grace",
+ "date": "2026-10-27",
+ "route": "ugc-product-ad hands + hand-free demo over the Grace voiceover, 3 videos 15-20 s, no full face (cheek/jaw crops); stills Gemini 3 Pro Image (Kie nano-banana-pro) + V1 product sheet and real close-ups; product clips Omni 1.1 Flash in Ralph's Google Flow app first (Kie Omni only if Flow fails or credits run out, asked); no-product clips Seedance 2.0 Mini on Kie; no Kling",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-pritech-facial-cleansing-brush.json",
+   "research/tag/tag-facialcleansingbrush.json",
+   "research/videos/7693266870367030558/sheet.png",
+   "research/videos/7693622417079520542/transcript.txt",
+   "research/videos/7677716245260651789/sheet.png"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-27.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v2.txt",
+   "research/readability_v3.txt",
+   "research/readability_v4.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-27",
+  "quote": "1. Yours 2.kie omni 3.kie 4.same",
+  "total": 8.0,
+  "sha256": "a376084c5bb01986f14233b9e9e90f1637a9a4c7a6da25987571ad0a4a9225b1",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.28,
+   "what": "V2S7 new end shot, V3S1 + V3S5 + V4S4 redo stills (4 x 0.09) and their 4 Omni clips (4 x 0.315) = 1.62; 0.28 over the 8.00 book (Ralph asked: 'Reply yes ... .62 ... .28')",
+   "by": "Ralph",
+   "quote": "yes",
+   "date": "2026-10-27",
+   "book_sha256": "a376084c5bb01986f14233b9e9e90f1637a9a4c7a6da25987571ad0a4a9225b1"
+  }
+ ]
+}
