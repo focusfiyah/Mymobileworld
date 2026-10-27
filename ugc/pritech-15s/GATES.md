@@ -27,5 +27,5 @@
   EVIDENCE: 2026-10-27 21 stills + redos V3S1 x3, V3S5 x3, V4S4 x2, V2S7 x1 (not used); free crops/paint-out in free_fix.py and the r3 crops; QC sheets in the session; V4S4 dropped from the cut.
 - [x] G9: 3 cuts, each 15-20 s, AI finish applied, echo <= 150 ms, flash check clean, compare vs @joshjshowcase run (manual)
   EVIDENCE: 2026-10-27 out/pritech_V2.mp4 18.43 s, V3 19.40 s, V4 18.60 s (ffprobe); AI finish in cut.py; echo.py V2 voiceover_final.wav 150, V3/V4 paced 150; luma jumps outside cuts: none (>12); research/compare/V2-V4; grace/gate.py --stage cut GATE OK. Review page v7.
-- [ ] G10: Drive folder has CURRENT V2-V4 + script doc; brain check BRAIN_OK (manual)
-  EVIDENCE: pending
+- [x] G10: Drive folder has CURRENT V2-V4 + script doc; brain check BRAIN_OK (manual)
+  EVIDENCE: 2026-10-27 Drive ids V2 1DWTbUvzGa7TT1dguFaT8pfX6CKV10yPZ (48,120,928 B = local), V3 1x1m9DtJ2BxyD-rlRm975N91lTXHnjZx_ (50,594,981 B = local), V4 1Fb0Jw6DGZLtxUHIbgM7hLEUxni4HyfUg (48,601,585 B = local), doc 1RL_MKP8nMxMmRR47ysPrwqZgZxWyz0Ebd-GrtJOrz1I (read back); brain check run at handoff.
