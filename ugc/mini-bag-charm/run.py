@@ -20,11 +20,12 @@ def still(sid):
 
 def omni(sid, dry=False):
     refs = R[sid]["clip_refs"]
-    cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}.txt", "--still", refs[0], "--seconds", "4"]
+    cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}.txt", "--still", refs[0], "--seconds", str(OMNI_S.get(sid, 4))]
     for r in refs[1:]: cmd += ["--ref", r]
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
 
+OMNI_S = {"S9": 6}
 DUR = {"S9": 6}   # their lines run 4.7 s and 5.2 s
 
 

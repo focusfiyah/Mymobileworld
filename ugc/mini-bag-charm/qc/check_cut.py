@@ -1,5 +1,5 @@
 """QC on the cut (2026-10-26): duration, audio levels, last word inside the video, no black/flash frames, AI finish applied.
-  python3 qc/check_cut.py out/minibag_v3.mp4   -> prints CUT_QC_OK or the failures"""
+  python3 qc/check_cut.py out/minibag_v4.mp4   -> prints CUT_QC_OK or the failures"""
 import json, re, subprocess, sys
 f = sys.argv[1]; bad = []
 run = lambda c: subprocess.run(c, capture_output=True, text=True)

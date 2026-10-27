@@ -6,6 +6,9 @@ real composite layer (charm, chain, ring, shadow) is warped on top. Free; a past
 import subprocess, sys
 import cv2, numpy as np
 
+CHAIN = set()
+ANCHOR = {}  # tried on S9 2026-10-27: jumps late in the clip; was {"S9": (440, 560, 600, 700)}          # plate box: the right handle base + bag top edge
+BOX = {"S4": (0.8, 1.9, 0.0, 2.7), "S9": (0.7, 1.4, 0.1, 2.4)}   # left, right, up, down, in charm widths/heights
 PLATE = {"S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
 
 
@@ -17,13 +20,13 @@ def frames(path):
         yield f
 
 
-def charm_colours(f):
+def charm_colours(f, loose=False):
     """Pixels that belong to a burgundy charm, its pink / light blue / pale scarf, its tissue or its gold hardware."""
     b, g, r = [f[..., i].astype(int) for i in range(3)]
-    burg = (r > 55) & (r < 175) & (g < r * 0.45) & (b > g) & (b < r * 0.8)
+    burg = ((r > 35) & (r < 175) & (g < r * 0.5) & (b > g) & (b < r * 0.85)) if loose else ((r > 55) & (r < 175) & (g < r * 0.45) & (b > g) & (b < r * 0.8))
     pink = (r > 150) & (r - g > 30) & (b > g) & (g > r * 0.45)        # pink scarf, not a red stocking
     blue = (b > r + 15) & (b > 120)
-    gold = (r > 150) & (g > 100) & (b < g * 0.7)
+    gold = ((r > 110) & (g > 75) & (b < g * 0.75) & (r > b + 40)) if loose else ((r > 150) & (g > 100) & (b < g * 0.7))
     return (burg | pink | blue | gold).astype(np.uint8) * 255
 
 
@@ -39,6 +42,11 @@ def run(sid, follow=False):
     keep = np.zeros(plate.shape[:2], np.uint8)                     # track the handbag NEAR the charm (no parallax from the far room)
     keep[max(0, y - h):y + 3 * h, max(0, x - 2 * w):x + 3 * w] = 255
     keep[max(0, y - h // 3):y + int(1.6 * h), max(0, x - w // 3):x + int(1.4 * w)] = 0
+    if sid in BOX:                                                 # only the handbag's own leather (the tree/room move differently)
+        pb, pg, pr = [plate[..., i].astype(int) for i in range(3)]
+        leather = ((pr > 50) & (pr < 210) & (pr > pg + 8) & (pg > pb) & (pr - pb > 20) & (pg > pr * 0.5)).astype(np.uint8) * 255
+        leather = cv2.dilate(leather, np.ones((21, 21), np.uint8))   # + its outline against the room: strong edges to track
+        keep[leather == 0] = 0
     orb = cv2.ORB_create(4000, fastThreshold=7); kp0, d0 = orb.detectAndCompute(cv2.cvtColor(plate, cv2.COLOR_BGR2GRAY), keep)
     bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
     src = list(frames(f"clips/{sid}_seedance.mp4")); FH, FW = src[0].shape[:2]
@@ -49,13 +57,48 @@ def run(sid, follow=False):
         a = np.float32([kp0[m.queryIdx].pt for m in mt]); b = np.float32([kp1[m.trainIdx].pt for m in mt])
         M, inl = cv2.estimateAffinePartial2D(a, b, method=cv2.RANSAC, ransacReprojThreshold=2.5)
         Ms.append(M)
+    if sid in ANCHOR:                                              # lock onto the handle base the charm hangs from (no drift)
+        (ax0, ay0, ax1, ay1) = ANCHOR[sid]; tpl = cv2.cvtColor(plate[ay0:ay1, ax0:ax1], cv2.COLOR_BGR2GRAY)
+        cx, cy = (ax0 + ax1) / 2, (ay0 + ay1) / 2; k0 = float(np.hypot(*Ms[0][:, 0])); out_M = []
+        for f in src:
+            g = cv2.cvtColor(f, cv2.COLOR_BGR2GRAY); best = (-2, 0, 0, 0)
+            for sc in np.linspace(0.92, 1.35, 22):
+                t = cv2.resize(tpl, None, fx=k0 * sc, fy=k0 * sc, interpolation=cv2.INTER_AREA)
+                r = cv2.matchTemplate(g, t, cv2.TM_CCOEFF_NORMED); _, mv, _, ml = cv2.minMaxLoc(r)
+                if mv > best[0]: best = (mv, k0 * sc, ml[0] + t.shape[1] / 2, ml[1] + t.shape[0] / 2)
+            _, k, mx, my = best; out_M.append(np.array([[k, 0, mx - k * cx], [0, k, my - k * cy]]))
+        Ms = out_M
+    elif sid in CHAIN:                                             # low-texture leather: chain frame to frame with optical flow
+        A = lambda M: np.vstack([M, [0, 0, 1]])
+        cur = A(Ms[0]); chained = [Ms[0]]
+        for i in range(1, len(src)):
+            g0 = cv2.cvtColor(src[i - 1], cv2.COLOR_BGR2GRAY); g1 = cv2.cvtColor(src[i], cv2.COLOR_BGR2GRAY)
+            km = cv2.warpAffine(keep, cur[:2], (FW, FH))
+            p0 = cv2.goodFeaturesToTrack(g0, 600, 0.005, 6, mask=km)
+            p1, st, _ = cv2.calcOpticalFlowPyrLK(g0, g1, p0, None, winSize=(31, 31), maxLevel=4)
+            ok = st.ravel() == 1
+            Mi, _ = cv2.estimateAffinePartial2D(p0[ok], p1[ok], method=cv2.RANSAC, ransacReprojThreshold=1.5)
+            cur = A(Mi) @ cur; chained.append(cur[:2].copy())
+        Ms = chained
     Ms = np.array(Ms); k = 7                                       # smooth the track (no jitter)
     Ms = np.array([Ms[max(0, i - k):i + k + 1].mean(0) for i in range(len(Ms))])
     hang0 = None; hx = []
     if follow:                                                     # where the AI charm hangs in each frame
+        prev = None
         for f in src:
-            m = charm_colours(f); m[:int(FH * 0.45)] = 0; ys, xs = np.nonzero(m)
-            hx.append((np.median(xs), np.percentile(ys, 3)) if len(xs) > 200 else (np.nan, np.nan))
+            m = charm_colours(f)
+            if sid == "S9":                                       # only the burgundy body, in a window that follows it
+                b, g, r = [f[..., i].astype(int) for i in range(3)]
+                m = ((r > 35) & (r < 175) & (g < r * 0.5) & (b > g) & (b < r * 0.85)).astype(np.uint8) * 255
+                if prev is None: prev = (M0x := Ms[0] @ np.array([x + w / 2, y + h * 0.6, 1.0]))
+                win = np.zeros_like(m); px, py = int(prev[0]), int(prev[1]); win[max(0, py - 110):py + 110, max(0, px - 90):px + 90] = 255; m &= win
+                m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+            else:
+                m[:int(FH * 0.45)] = 0
+            ys, xs = np.nonzero(m)
+            if len(xs) > 200:
+                hx.append((np.median(xs), np.median(ys))); prev = hx[-1]
+            else: hx.append((np.nan, np.nan))
         hx = np.array(hx, float); good = ~np.isnan(hx[:, 0])
         for j in range(2): hx[:, j] = np.interp(np.arange(len(hx)), np.nonzero(good)[0], hx[good, j])
         hx = np.array([hx[max(0, i - 4):i + 5].mean(0) for i in range(len(hx))])
@@ -64,8 +107,9 @@ def run(sid, follow=False):
                            stdin=subprocess.PIPE)
     for i, f in enumerate(src):
         M = Ms[i].copy()
+        if follow and sid == "S9": M[:, :2] = Ms[0][:, :2]                  # S9: the camera barely zooms; keep the frame-0 scale
         if follow:
-            p0 = M @ np.array([x + w / 2, y, 1.0])
+            p0 = M @ np.array([x + w / 2, y + (h * 0.6 if sid == "S9" else 0), 1.0])
             if hang0 is None: hang0 = hx[0] - p0
             M[:, 2] += (hx[i] - p0) - hang0
         wp = cv2.warpAffine(plate, Ms[i], (FW, FH), borderMode=cv2.BORDER_REPLICATE)
@@ -76,11 +120,28 @@ def run(sid, follow=False):
         roi = np.zeros((FH, FW), np.uint8); X, Y, Wd, Hd = bx
         e = 0.35 if sid == 'S8' else 1.0               # S8: the AI charm sits where the real one does; spare the red stocking
         roi[max(0, Y - int(e * Hd)):Y + int((1 + e) * Hd), max(0, X - int(e * Wd)):X + int((1 + e) * Wd)] = 255
-        cov = cv2.dilate(charm_colours(f) & roi, np.ones((13, 13), np.uint8))
+        L = sid == "S9"
+        if L:                                                     # S9: loose colours, but only just around the charm body (not the bag's handle)
+            near = np.zeros((FH, FW), np.uint8); near[int(Y + 0.25 * Hd):int(Y + 1.45 * Hd), max(0, int(X - 0.35 * Wd)):int(X + 1.35 * Wd)] = 255
+            cov = cv2.dilate(charm_colours(f, True) & near, np.ones((9, 9), np.uint8))
+        else:
+            cov = cv2.dilate(charm_colours(f) & roi, np.ones((13, 13), np.uint8))
+        if sid in BOX:                                            # near-still camera: cover the whole box with the clean plate
+            l, r_, t, b_ = BOX[sid]; cov = np.zeros((FH, FW), np.uint8)
+            cov[max(0, int(Y - t * Hd)):int(Y + b_ * Hd), max(0, int(X - l * Wd)):int(X + r_ * Wd)] = 255
         if sid == "S8":                                           # never paint over the cuff's own white fur
             fi = f.astype(int); cov[(fi.min(2) > 160) & (fi.max(2) - fi.min(2) < 45)] = 0
         ring = cv2.dilate(cov, np.ones((15, 15), np.uint8)) & ~cov
-        fill = cv2.inpaint(f, cov, 7, cv2.INPAINT_TELEA).astype(np.float32)   # from the frame itself: no misaligned plate
+        if sid in BOX:
+            # local colour match: the frame-minus-plate difference around the box, spread smoothly inside it
+            d = np.clip(f.astype(np.float32) - wp.astype(np.float32) + 128, 0, 255).astype(np.uint8)
+            q = 4; ds = cv2.resize(d, (FW // q, FH // q), interpolation=cv2.INTER_AREA)
+            mq = cv2.dilate(cv2.resize(cov, (FW // q, FH // q), interpolation=cv2.INTER_NEAREST), np.ones((3, 3), np.uint8))
+            ds = cv2.inpaint(ds, mq, 5, cv2.INPAINT_TELEA)
+            off = cv2.GaussianBlur(cv2.resize(ds, (FW, FH), interpolation=cv2.INTER_LINEAR).astype(np.float32), (0, 0), 6) - 128
+            fill = np.clip(wp.astype(np.float32) + off, 0, 255); cov = cv2.GaussianBlur(cov, (31, 31), 0)
+        else:
+            fill = cv2.inpaint(f, cov, 7, cv2.INPAINT_TELEA).astype(np.float32)   # from the frame itself: no misaligned plate
         ca = cv2.GaussianBlur(cov, (9, 9), 0).astype(np.float32)[..., None] / 255
         g = f.astype(np.float32) * (1 - ca) + fill * ca
         if sid == "S8":                                           # the real charm stays BEHIND this frame's own white cuff

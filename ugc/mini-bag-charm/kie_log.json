@@ -2029,5 +2029,189 @@
   "still": "stills/S5a.png",
   "ok": true,
   "score": 0.986
+ },
+ {
+  "t": "2026-10-27 20:52:57",
+  "submitted": "efc6263ce87e8bad5446a131afde8529",
+  "prompt": "Animate this image as the first frame. A barely visible, slow drift of the camera a little to the left; the charm hangs "
+ },
+ {
+  "t": "2026-10-27 20:53:00",
+  "submitted": "bb6dcd3759d7756248e3b206b8cdc5a8",
+  "prompt": "Animate this image as the first frame. The fingers let go of the gold key ring and the hand slides slowly out of the fra"
+ },
+ {
+  "t": "2026-10-27 20:53:09",
+  "submitted": "d83e31f498366dc7551f05690d106ddc",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm "
+ },
+ {
+  "t": "2026-10-27 20:54:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. A barely visible, slow drift of the camera a little to the left; the charm hangs perfectly still in place and keeps facing the lens. The camera stays still: no zoom, no push-in, no close-up; the charm stays small in the frame for the whole clip. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape and the same TINY size (9.5 cm tall with its handles, 5.5 cm wide, never growing), matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small plain gold ring on a short gold chain with nothing hanging from it (no key, no charm, no emblem), and the pink, light blue and white twilly scarf on its handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793132648065-qe6581ezdu.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "efc6263ce87e8bad5446a131afde8529",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793134454217-scijepe9nj.mp4"
+   ]
+  },
+  "costTime": 83,
+  "credits": 49.2,
+  "usd": 0.246
+ },
+ {
+  "t": "2026-10-27 20:54:23",
+  "clip_check": "clips/S9_seedance.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.972
+ },
+ {
+  "t": "2026-10-27 20:54:29",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The fingers let go of the gold key ring and the hand slides slowly out of the frame to the right; the ring stays closed on the handbag's handle and the charm hangs perfectly still from it, front facing the lens, never swinging or turning. The camera stays still: no zoom, no push-in, no close-up; the charm stays small in the frame for the whole clip. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape and the same TINY size (9.5 cm tall with its handles, 5.5 cm wide, never growing), matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small plain gold ring on a short gold chain with nothing hanging from it (no key, no charm, no emblem), and the pink, light blue and white twilly scarf on its handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. Only one hand: its French-tip nails, rings and bracelets stay exactly as in the first frame, the flat gold link bracelet never becomes a watch, the hand keeps one grip and enters and leaves from the frame edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793134358188-gl4xfnc84nh.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "bb6dcd3759d7756248e3b206b8cdc5a8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793134462047-vn8cgs7pk5m.mp4"
+   ]
+  },
+  "costTime": 87,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-27 20:54:31",
+  "clip_check": "clips/S4_seedance.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.962
+ },
+ {
+  "t": "2026-10-27 20:56:05",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand, rings and bracelets and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, the small gold key ring on a short gold chain at the left-hand handle, the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. Image 5 is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and 5; the hand keeps one grip, enters and leaves from the frame edge; the charm never turns, flips or swings; no other jewellery appears. Motion: The hand holds the charm still by both of its handles and gives it one tiny, slow lift of a few millimetres; the camera stays still and the charm keeps facing the lens, never turning or swinging. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793134370737-nd9yumb4v4e.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793134372839-h7ujheroylo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793134376473-9d9ki2c6yvo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793134379065-aa8b3x3z0pp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793134381604-7kd6sf3k67v.jpg"
+    ]
+   }
+  },
+  "taskId": "d83e31f498366dc7551f05690d106ddc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/d83e31f498366dc7551f05690d106ddc_0_1793134563.mp4"
+   ]
+  },
+  "costTime": 176,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-27 20:56:10",
+  "clip_check": "/home/user/Mymobileworld/ugc/mini-bag-charm/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.64
+ },
+ {
+  "t": "2026-10-27 21:43:36",
+  "submitted": "dede0047712907000a6c8ce6ed0410df",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and the bag charm exactly. The bag charm is t"
+ },
+ {
+  "t": "2026-10-27 21:45:57",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and the bag charm exactly. The bag charm is the real product in images 2 to 4: deep burgundy pebbled faux leather, two rolled burgundy handles, gold rectangular buckle loop and gold padlock with three engraved lines and no letters, four gold feet, a small plain gold key ring on the handbag's handle with a short gold chain down to the charm's two handles (no key, nothing else hanging), the pink, light blue and white twilly scarf knotted on the right-hand handle; it matches the close-ups colour for colour and never changes shape, size or colour; no text, letters or logos appear on it. Image 2 is the real gold buckle and padlock, image 3 the real scarf and handle, image 4 the product sheet. No hand, fingers or people appear at any time. Motion: A barely visible, slow drift of the camera a little to the left; the charm hangs perfectly still from its gold key ring on the handbag's handle and keeps facing the lens. The camera stays still: no zoom, no push-in, no close-up; the charm stays small in the frame for the whole clip. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic leather and fabric, the padlock and scarf never warp, shimmer or change. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "6",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793137393213-psz0uqu577.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793137395420-g23xauy0iz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793137397873-lss7cb481pm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793137400882-ikg3qt6n42q.png"
+    ]
+   }
+  },
+  "taskId": "dede0047712907000a6c8ce6ed0410df",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/dede0047712907000a6c8ce6ed0410df_0_1793137549.mp4"
+   ]
+  },
+  "costTime": 135,
+  "usd": 0.42,
+  "credits": 84.0
+ },
+ {
+  "t": "2026-10-27 21:46:00",
+  "clip_check": "/home/user/Mymobileworld/ugc/mini-bag-charm/clips/S9.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.891
+ },
+ {
+  "t": "2026-10-27 22:19:01",
+  "submitted": "790f9b359e373acf7d136646e844a0a3",
+  "prompt": "Animate this image as the first frame. The camera is locked off on a tripod and does not move at all: no drift, no zoom,"
+ },
+ {
+  "t": "2026-10-27 22:20:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The camera is locked off on a tripod and does not move at all: no drift, no zoom, no push-in. Only the tree lights twinkle softly in the background; the handbag and the charm stay perfectly still in place, the charm small and facing the lens for the whole clip. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape and the same TINY size (9.5 cm tall with its handles, 5.5 cm wide, never growing), matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, the small plain gold ring on a short gold chain with nothing hanging from it (no key, no charm, no emblem), and the pink, light blue and white twilly scarf on its handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793132648065-qe6581ezdu.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 6
+   }
+  },
+  "taskId": "790f9b359e373acf7d136646e844a0a3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793139613535-oe9opjnenn.mp4"
+   ]
+  },
+  "costTime": 75,
+  "credits": 49.2,
+  "usd": 0.246
+ },
+ {
+  "t": "2026-10-27 22:20:24",
+  "clip_check": "clips/S9_seedance.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.972
  }
 ]

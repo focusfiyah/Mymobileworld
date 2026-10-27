@@ -93,8 +93,16 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 .tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .kitimgs{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}} .kitimgs button,.cp,.svp{{font:600 .8rem var(--body);padding:6px 10px;border-radius:6px;border:1px solid var(--wine);background:var(--card);color:var(--wine);cursor:pointer}} details.box summary{{cursor:pointer;font:600 1rem var(--body)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · round 4 (Grace: "still way too big", "it changes the design") · 2 decisions below · $7.36 spent of $7.37 OK'd</p></header>
-<section class="ask"><h2>Round 4 · the real charm, at its real size · your call on 2 things</h2>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · cut v4 ready · real charm at its real size · $8.75 spent of $8.77 OK'd</p></header>
+<section class="ask"><h2>Cut v4 · the real charm, at 9.5 x 5.5 cm · 26.9 s</h2><video src="cut_v4.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<ul><li><b>Size (Grace: "still way too big"):</b> S4, S7, S8 and S9 show the REAL charm cut from your listing photo at its true size next to the handbag and the stocking.</li>
+<li><b>Design (Grace: "it should look like this throughout"):</b> the scarf is knotted on the right handle with its long tail, the padlock is plain with three lines, and nothing else hangs from the ring in every shot. Seedance kept redrawing the tiny charm, so on S4, S7, S8 and S9 the real charm is laid onto each frame (your OK). S1 is an Omni take with an extra key it drew painted out.</li>
+<li><b>Stocking (Grace's eye-cream photo):</b> S8 is a real stocking photo with the real charm tucked inside the cuff, much smaller than the opening.</li>
+<li>Unchanged from v3: S2, S3, S5b, S6 (close-ups with nothing to judge the size by, or no charm in frame).</li>
+<li>QC: CUT_QC_OK (-16.5 LUFS, 1080x1920, every clip at 1.0x), flicker only at the shot cuts, hands clean at 2x, no text, AI finish on.</li>
+<li>Spent this round: $3.00 of the $3.01 you OK'd (S9 Omni came back as a giant charm, $0.42 billed). On your OK, v4 replaces v3 in Drive (v3 moves to Older versions).</li></ul>
+<figure><img src="cut_sheet_v4.jpg" alt="Cut v4 frames"><figcaption>12 frames across cut v4</figcaption></figure></section>
+<section class="box"><h2>Round 4 working notes · the real charm, and why paste-back</h2>
 <figure><img src="v4_stills.jpg" alt="The six round-4 stills"><figcaption>S1 · S4 · S5a · S7 · S8 · S9. S4, S7, S8 and S9 use the REAL charm cut from your listing photo, placed at 9.5 x 5.5 cm. S1 and S5a got the scarf fixed: knotted on the right handle, long tail.</figcaption></figure>
 <p class="note"><b>What went wrong:</b> Seedance keeps the size but redraws the tiny charm a second or two into each clip. Top row is the first frame, bottom row is later in the same clip: S4 gets a flap and a wide scarf, S8 turns into a flap bag, S9 pushes in too close and puts a mark on the padlock, and S1's padlock gets a mark while a chain dangles.</p>
 <figure><img src="v4_drift.jpg" alt="First frame vs later frame for S4, S8, S9, S1"><figcaption>First frame (top) vs later (bottom): S4 · S8 · S9 · S1</figcaption></figure>
