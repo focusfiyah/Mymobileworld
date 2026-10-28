@@ -1,6 +1,6 @@
 # Ralph AI consultant site (2026-10-28)
 
-Status: DONE 2026-10-28 (+ "All of this, from my phone" section, Ralph asked): LIVE at https://focusfiyah.github.io, form activated and tested (test reached Gmail). 13 of 13 gates met. Optional: swap the email in the page for the FormSubmit random code (needs the code from the activation page). Cost $0.
+Status: DONE 2026-10-28 (+ "All of this, from my phone" section, Ralph asked; + "Is this a fit?" section above the form, Acuna idea 6, live 2026-10-28): LIVE at https://focusfiyah.github.io, form activated and tested (test reached Gmail). 13 of 13 gates met. Optional: swap the email in the page for the FormSubmit random code (needs the code from the activation page). Cost $0.
 
 - Site source: repo focusfiyah/focusfiyah.github.io (`index.html`, `media/`, `PRODUCT.md`), live address https://focusfiyah.github.io once pushed to main (GitHub Pages, free). Custom domain later (Ralph).
 - Review page: https://claude.ai/artifact/RA6YtvCKGPqkztYQuNWtmg (v1 = 3 mockups, v2 = full page preview).
