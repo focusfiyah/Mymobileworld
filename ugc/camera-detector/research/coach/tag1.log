@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/camera-detector/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/camera-detector/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 22 of 59 videos posted since 2026-08-29
+22 videos -> research/coach/tag-cameradetector.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    538,900   9.5   2.69   68 2026-10-22  @ups_gadgets01: How to use your Samsung phone to detect if there’s an hidden camera in
+                                          https://www.tiktok.com/@ups_gadgets01/video/7699352574201187606
+    191,500   8.6   2.78   30 2026-09-02  @user6191215178177: Hidden Camera Detectors, GPS Tracker, Vibration sensor Door and window
+                                          https://www.tiktok.com/@user6191215178177/video/7680943338752609549
+    173,400   1.2   0.24   36 2026-09-04  @lism792: This camera detector very small and easy to use. I use it every single
+                                          https://www.tiktok.com/@lism792/video/7681667760237202718
+    122,500   2.3   0.69   25 2026-10-15  @arsl_home: #porositonline #cameradetector #
+                                          https://www.tiktok.com/@arsl_home/video/7696865080238968072
+     78,100   1.2   0.22   27 2026-09-12  @liuxing1238: Hidden camera detector, protect your privacy in hotels & Airbnb#privac
+                                          https://www.tiktok.com/@liuxing1238/video/7684609765292510495
+     54,500   7.3   0.89   58 2026-09-22  @audreedoesgrwm: AND ITS FREE!!! SO GUYS DECEMBER IS COMING UP SO TRY THIS IN YOUR HOTE
+                                          https://www.tiktok.com/@audreedoesgrwm/video/7688254940271119634
+     49,900   1.1   0.25   14 2026-09-01  @bingrpcqx41c: Always trust your paranoid instincts. Stay safe with this hidden camer
+                                          https://www.tiktok.com/@bingrpcqx41c/video/7680533068012162334
+     31,300   0.5   0.13   33 2026-09-27  @liuxing1238: My Best Friend Told Me to Bring This Detector. I Found a Hidden Camera
+                                          https://www.tiktok.com/@liuxing1238/video/7690177339338034463
+     29,200   0.4   0.11   30 2026-09-14  @user6191215178177: This camera detector very small and easy to use. I use it every single
+                                          https://www.tiktok.com/@user6191215178177/video/7685428214168046862
+     18,400   2.9   0.33   30 2026-09-08  @stackitsteph_: 😳😳🔥#networkscannerdevicefinder #spycamerascanner 
+                                          https://www.tiktok.com/@stackitsteph_/video/7683316617798798606
+     11,400   1.6   0.22   54 2026-10-03  @kelliecreates: Before I unpack in any hotel or Airbnb, I do this first 🧳 This little 
+                                          https://www.tiktok.com/@kelliecreates/video/7692285269713702157
+      3,751   1.8   0.37   20 2026-10-10  @nzanyakma: Kalau korang selalu stay hotel atau homestay, this might be worth addi
+                                          https://www.tiktok.com/@nzanyakma/video/7694849901812927762
+      1,103   0.3      0   38 2026-09-30  @guliocqzd43: This camera detector very smalland easy to use. Iuse itevey single tim
+                                          https://www.tiktok.com/@guliocqzd43/video/7691363504757935374
+        746   0.1      0   14 2026-08-31  @tgjpzytya0k: This camera detector is really practical. Compact and portable, super 
+                                          https://www.tiktok.com/@tgjpzytya0k/video/7680188214908325151
+        610   0.5   0.16   33 2026-10-26  @eui315: This camera detector is very small and easy to use. I use it every sin
+                                          https://www.tiktok.com/@eui315/video/7701004034244693262
