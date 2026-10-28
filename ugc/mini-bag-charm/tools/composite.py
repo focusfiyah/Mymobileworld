@@ -16,10 +16,41 @@ def charm():
     m = m.filter(ImageFilter.GaussianBlur(3))
     a = c.split()[3]; fill = Image.composite(o, c, m)
     fill.putalpha(Image.composite(Image.new("L", c.size, 255), a, m))
-    lit = ImageEnhance.Brightness(fill).enhance(1.22); lit.putalpha(fill.split()[3])
+    lit = ImageEnhance.Color(ImageEnhance.Brightness(fill).enhance(0.97)).enhance(0.85); lit.putalpha(fill.split()[3])   # v8: no glowing tissue
     tm = Image.new("L", c.size, 0); ImageDraw.Draw(tm).polygon([(96, 325), (102, 250), (300, 243), (478, 252), (490, 325)], fill=255)
     tm = Image.composite(tm, Image.new("L", c.size, 0), a.point(lambda v: 255 if v < 128 else 0)).filter(ImageFilter.GaussianBlur(2))
     return Image.composite(lit, fill, tm)
+
+
+def look(c, bg, ox, oy, turn=0.05):
+    """v8 (Grace 2026-10-28: 'she can tell it was pasted'): make the studio photo sit in the room. A slight turn (the far
+    side a little smaller), the room's own light across it (the plate's brightness around it, top lit, bottom in shade)
+    and the room's white balance. The hue stays the listing's burgundy (tools/hue_check.py)."""
+    import numpy as np, cv2
+    a = np.asarray(c).astype(np.float32); h, w = a.shape[:2]
+    src = np.float32([[0, 0], [w, 0], [w, h], [0, h]]); d = turn * h / 2
+    dst = np.float32([[0, 0], [w * (1 - turn / 2), d], [w * (1 - turn / 2), h - d], [0, h]])
+    al = a[..., 3:] / 255; a[..., :3] *= al                       # premultiplied, so the edge does not pull in black
+    a = cv2.warpPerspective(a, cv2.getPerspectiveTransform(src, dst), (w, h), flags=cv2.INTER_LINEAR)
+    al = np.maximum(a[..., 3:] / 255, 1e-3); a[..., :3] = np.where(al > 0.004, a[..., :3] / al, 0)
+    P = np.asarray(bg.convert("RGB")).astype(np.float32); H, W = P.shape[:2]
+    L = P.mean(2); Lb = cv2.GaussianBlur(L, (0, 0), max(8, w * 0.35))
+    x0, y0 = max(0, ox), max(0, oy); x1, y1 = min(W, ox + w), min(H, oy + h)
+    g = np.ones((h, w), np.float32); reg = Lb[y0:y1, x0:x1]
+    g[y0 - oy:y1 - oy, x0 - ox:x1 - ox] = reg / max(reg.mean(), 1)
+    g = np.clip(1 + 0.8 * (g - 1), 0.8, 1.2) * np.linspace(1.06, 0.9, h)[:, None]
+    hi = P[L > np.percentile(L, 80)].mean(0); wb = (hi / hi.mean()) ** 0.4
+    a[..., :3] = np.clip(a[..., :3] * g[..., None] * wb, 0, 255)
+    return Image.fromarray(a.astype(np.uint8), "RGBA")
+
+
+def shadow(size, c, ox, oy, k=1.0):
+    """Two shadows: a tight contact one where the charm touches the bag and a soft wider one."""
+    sh = Image.new("RGBA", size, (0, 0, 0, 0))
+    for (dx, dy, op, bl) in [(3, 4, 0.5, 3), (7, 9, 0.2, 8)]:
+        blk = Image.new("RGBA", c.size, (22, 10, 8, 255)); blk.putalpha(c.split()[3].point(lambda v: int(v * op * k)))
+        lay = Image.new("RGBA", size, (0, 0, 0, 0)); lay.alpha_composite(blk, (ox + dx, oy + dy)); sh.alpha_composite(lay.filter(ImageFilter.GaussianBlur(bl)))
+    return sh
 
 
 def gold_chain(d, p0, p1, links, w):
@@ -30,8 +61,8 @@ def gold_chain(d, p0, p1, links, w):
         x1, y1 = p0[0] + (p1[0] - p0[0]) * t1, p0[1] + (p1[1] - p0[1]) * t1
         cx, cy, L = (x0 + x1) / 2, (y0 + y1) / 2, ((x1 - x0) ** 2 + (y1 - y0) ** 2) ** .5
         rx, ry = (w * 0.9, L * 0.62) if i % 2 == 0 else (w * 0.35, L * 0.62)
-        d.ellipse([cx - rx, cy - ry, cx + rx, cy + ry], outline=(176, 132, 52, 255), width=max(2, int(w * 0.5)))
-        d.ellipse([cx - rx + 1, cy - ry + 1, cx + rx - 1, cy + ry - 1], outline=(236, 200, 120, 255), width=max(1, int(w * 0.18)))
+        d.ellipse([cx - rx, cy - ry, cx + rx, cy + ry], outline=(150, 110, 52, 255), width=max(2, int(w * 0.5)))
+        d.ellipse([cx - rx + 1, cy - ry + 1, cx + rx - 1, cy + ry - 1], outline=(214, 178, 112, 255), width=max(1, int(w * 0.18)))
 
 
 def build(sid):
@@ -44,12 +75,10 @@ def build(sid):
     al = c.split()[3].point(lambda v: 255 if v > 128 else 0); top = al.getbbox()[1] + 1
     xs = [x for x in range(c.width) if al.getpixel((x, top))]; ax, ay = sum(xs) // len(xs), top
     ox, oy = hx - ax, hy + 10 + chain_len - ay
-    sh = Image.new("RGBA", bg.size, (0, 0, 0, 0)); a = c.split()[3].point(lambda v: int(v * 0.45))
-    blk = Image.new("RGBA", c.size, (25, 12, 8, 255)); blk.putalpha(a); sh.alpha_composite(blk, (ox + 6, oy + 7))
-    sh = sh.filter(ImageFilter.GaussianBlur(6)); out = bg.copy(); out.alpha_composite(sh)
+    c = look(c, bg, ox, oy); out = bg.copy(); out.alpha_composite(shadow(bg.size, c, ox, oy))
     S = 4; lay = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
-    r = 9 * S; d.ellipse([hx * S - r, hy * S - r * 1.15, hx * S + r, hy * S + r * 1.15], outline=(176, 132, 52, 255), width=3 * S)
-    d.ellipse([hx * S - r + 3, hy * S - r * 1.15 + 3, hx * S + r - 3, hy * S + r * 1.15 - 3], outline=(240, 208, 130, 255), width=S)
+    r = 9 * S; d.ellipse([hx * S - r, hy * S - r * 1.15, hx * S + r, hy * S + r * 1.15], outline=(150, 110, 52, 255), width=int(2.4 * S))
+    d.ellipse([hx * S - r + 3, hy * S - r * 1.15 + 3, hx * S + r - 3, hy * S + r * 1.15 - 3], outline=(214, 178, 112, 255), width=S)
     gold_chain(d, ((hx) * S, (hy + 10) * S), ((ox + ax) * S, (oy + ay + 4) * S), 6, 2.2 * S)
     lay = lay.resize((W, H), Image.LANCZOS); out.alpha_composite(lay)
     # the handle passes THROUGH the ring: put the handle's own pixels back over the ring's upper half
@@ -77,6 +106,7 @@ def stocking(out="stills/S8.png", body=100, cx=285, sink=0.45, tilt=-10):
         return pts[-1][1]
     al = c.split()[3].point(lambda v: 255 if v > 128 else 0); bb = al.getbbox()
     vis_h = bb[3] - bb[1]; ox = cx - c.width // 2; oy = int(edge(cx) - bb[1] - vis_h * (1 - sink))
+    c = look(c, bg, ox, oy, turn=0.03)
     lay = Image.new("RGBA", bg.size, (0, 0, 0, 0)); lay.alpha_composite(c, (ox, oy))
     lay.save("stills/overlay_S8.png")                     # uncut: in the clip each frame's own cuff hides its lower part
     # inside the stocking it is darker: shade the part just above the rim
@@ -134,9 +164,7 @@ def swap(src="stills/S4e.png", out="stills/S4.png", body=118, hang=(338, 749)):
     al = c.split()[3].point(lambda v: 255 if v > 128 else 0); top = al.getbbox()[1] + 1
     xs = [x for x in range(c.width) if al.getpixel((x, top))]; ax = sum(xs) // len(xs)
     ox, oy = hang[0] - ax, hang[1] - top
-    sh = Image.new("RGBA", bg.size, (0, 0, 0, 0)); blk = Image.new("RGBA", c.size, (20, 10, 8, 255))
-    blk.putalpha(c.split()[3].point(lambda v: int(v * 0.4))); sh.alpha_composite(blk, (ox + 8, oy + 10))
-    bg.alpha_composite(sh.filter(ImageFilter.GaussianBlur(8))); bg.alpha_composite(c, (ox, oy))
+    c = look(c, bg, ox, oy); bg.alpha_composite(shadow(bg.size, c, ox, oy)); bg.alpha_composite(c, (ox, oy))
     bg.convert("RGB").save(out); print("S4 swap at", (ox, oy), c.size)
 
 

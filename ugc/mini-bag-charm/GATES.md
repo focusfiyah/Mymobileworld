@@ -49,3 +49,20 @@
   EVIDENCE: 2026-10-27 CURRENT - Mini Bag Charm V2.mp4 id 1t3yUupoX5v2iYCUH78pWsQetVMR67CGC size 69270724 = local; v1 renamed "v1 (2026-10-27) - Mini Bag Charm.mp4" into Older versions 1WU3NcV_PpN-AzP925TsQ5IKBtHoY1wf7
 - [x] G18: v3 delivered (manual)
   EVIDENCE: 2026-10-27 CURRENT - Mini Bag Charm V3.mp4 id 1rJ12UqgxNpHEssdUSUOyex7B7XOMKM-Z size 69222464 = local; v2 renamed "v2 (2026-10-27) - Mini Bag Charm.mp4" into Older versions
+
+# Phase 6 (2026-10-28, Grace: "she can tell it was pasted"; Ralph picked the free re-composite)
+- [x] G30: the pasted charm keeps Grace's burgundy (listing hue ~352 deg) in S4, S7, S8, S9 of the new cut
+  CHECK: python3 tools/hue_check.py
+  EXPECT: HUE_OK
+- [x] G31: the charm is no sharper than the footage around it (edge steepness charm/surround <= 1.1; v7 S7 measured 1.22)
+  CHECK: python3 tools/hue_check.py --sharp
+  EXPECT: SHARP_OK
+- [x] G32: S4 charm swings with the hand's moves; S7/S9 sway gently (looked at in the drift strips, manual)
+  EVIDENCE: qc/track_S4.json sway -5.9..3.6 deg; S7/S9 +-0.8; strips qc/strip_S4/S7.jpg looked at
+- [x] G33: 2x strips of S4/S7/S8/S9 looked at: room light on it, contact shadow, tissue not glowing, no halo, attached, no slide (manual)
+  EVIDENCE: 2x crops v7 vs v8 (review/v8_compare.jpg); fixed on the way: warp fringe, S8 ghost above handle + left sliver, S9 bag-edge smear, S9 over-blur
+- [x] G34: cut QC passes on v8
+  CHECK: python3 qc/check_cut.py out/minibag_v8.mp4
+  EXPECT: CUT_QC_OK
+- [x] G35: v8 on the review page with v7 beside it + push + email (manual)
+  EVIDENCE: artifact Uns9WGWdYcjDBsdbbeCezb version 13
