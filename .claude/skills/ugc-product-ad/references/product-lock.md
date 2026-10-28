@@ -73,3 +73,19 @@ the take is already right. Ask Ralph with the cost first, like any redo.
 ## What stays the same
 Script gate, one plan + one approval, storyboard before video spend, one test clip, free fixes first, AI finish, QC
 templates. Grace's voice: `grace/voice/README.md`.
+
+## When the AI keeps redrawing a tiny product (Mini Bag Charm, 2026-10-27)
+**Rule (Ralph 2026-10-28, "Yes save rules"): for a small or detailed product that will be pasted back, generate every
+clip with NO product in it** (the bag, stocking or hand empty; a hand pinching a plain gold ring or nothing), then add
+the real product as the only one in frame. Plan it that way in the storyboard, before any still. When a clip already
+has the AI's copy, cover only that copy, its scarf and its shadow, never a whole box over the object it sits on.
+Why: on Mini Bag Charm most of 10 cuts went to hiding the AI's own charm (bigger than the real one, it peeked out
+between the fingers and under the real one), and box patches swapped in a different bag edge because the AI redraws
+the host's shape frame to frame.
+
+Seedance kept the true size but redrew a 9.5 cm charm within 1-2 s (a flap, a wide scarf, a mark on the padlock), and
+Omni drew a whole handbag as the charm in a wide shot. What held, with Ralph's per-shot paste-back OK: the real charm
+cut from the listing photo, placed at its true size on a charm-free still (`ugc/mini-bag-charm/tools/composite.py`),
+a clip with a LOCKED or very slow camera, then the real charm laid onto every frame with the AI's own charm covered
+by the clean plate, the patch stopping at the object's edge, and the charm hung from whatever the hand moves
+(`ugc/mini-bag-charm/tools/track_paste.py`). Then the drift strip (SKILL.md QC) on every such shot.

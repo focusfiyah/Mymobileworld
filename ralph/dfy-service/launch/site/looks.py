@@ -17,8 +17,8 @@ OUT = HERE / "looks"
 BRAND = {
     "name": "Always Answered",
     "phone": "",          # our Twilio line, once bought (shown as a placeholder until then)
-    "booking": "",        # Calendly link, once made
-    "area": "Freeport, Baldwin and Brooklyn",
+    "booking": "https://calendly.com/teamrrgrp/30min",        # Calendly link, once made
+    "area": "Nassau County and Brooklyn",
     "area_footer": "Serving Nassau County and Brooklyn",
     "h1a": "Every call answered.",
     "h1b": "Fresh reviews every month.",
@@ -43,7 +43,6 @@ BRAND = {
     "reviews": [
         "After each job, your customer gets a short email or WhatsApp message, or scans a card at your counter, asking for a Google review.",
         "We ask every customer the same way. No fake reviews, ever.",
-        "We write a reply to every new review in your voice. You approve it first.",
         "Each month, your new reviews and star average.",
     ],
     "steps": [
@@ -53,8 +52,42 @@ BRAND = {
     ],
     "price": "$397", "price_line": "a month, plus $497 one-time setup. Month to month. Cancel any time.",
     "minutes": "Includes up to 500 call minutes a month. Most small businesses use far less.",
-    "founding_t": "Founding offer: first 3 businesses",
-    "founding": "No setup fee and the first 14 days free. If you like it, we ask for a short testimonial.",
+    "founding_t": "Black Friday special",
+    "founding": "Get half off the setup fee when you agree to share a short testimonial after your first month. Sign up by November 30.",
+    # Ralph 2026-10-28: stats first, 3 plans ("3 plans (Recommended)"), Black Friday special, never say we're new
+    "hook_t": "Almost half the calls to businesses never get answered.",
+    "hook_stats": [
+        ("44%", "of business calls go unanswered, out of 70 million calls studied.", "Invoca, 2026",
+         "https://justcall.io/blog/missed-call-statistics.html"),
+        ("78%", "of people have given up on a business after nobody picked up.", "CallRail survey, 2025",
+         "https://beside.com/blog/missed-calls-cost-small-business"),
+        ("21%", "call another business instead. Usually the one down the street.", "CallRail survey, 2025",
+         "https://beside.com/blog/missed-calls-cost-small-business"),
+    ],
+    "cost": "Say 3 calls a week ring out, and each one was a $300 job. That's about $3,900 a month going to someone else.",
+    "cost_note": "Example math. Put in your own numbers.",
+    "review_stat": ("74%", "of people look for reviews from the last 3 months before they choose.", "BrightLocal, 2026",
+                    "https://www.brightlocal.com/research/local-consumer-review-survey/"),
+    "plans": [
+        ("Calls Only", "$197", "$297", False, [
+            "Every call answered, day and night, on your own number",
+            "Calls passed to you during your hours",
+            "Bookings and messages emailed to you within a minute",
+            "Monday report of every call",
+            "Up to 200 call minutes a month"]),
+        ("Front Desk", "$397", "$497", True, [
+            "Everything in Calls Only",
+            "Up to 500 call minutes a month",
+            "Review requests after every job, by email, WhatsApp or a counter card",
+            "Monthly report of new reviews and your star average"]),
+        ("Pro", "$597", "$497", False, [
+            "Everything in Front Desk",
+            "Up to 1,000 call minutes a month",
+            "2 phone lines, for two locations or numbers",
+            "Replies to every new review, written in your voice, sent after you approve",
+            "Monthly check-in call"]),
+    ],
+    "plans_note": "Month to month. Cancel any time. Extra call minutes are $0.25 each.",
     "faq": [
         ("Does it sound like a robot?", "Call our line and hear it for yourself. It talks like a calm front desk person and keeps calls short."),
         ("Does it pretend to be a person?", "No. It answers as your assistant and says the call may be recorded. If a caller asks, it says it's an AI assistant."),
@@ -208,65 +241,103 @@ p{margin:0}
 # ---------------------------------------------------------------- band 2: shop door glass, gold leaf + hours plate
 def door():
     css = """
-:root{--glass:#0f2b2c;--glass2:#123536;--gold:#d8a84a;--gold2:#f0cf7d;--vinyl:#f5f2ea;--plate:#101414;--ink:#e9efe9;--muted:#a9bcb7;--line:#2a4a49;--red:#e0624a;
-  --display:"DM Serif Display",Georgia,serif;--body:"Work Sans",Arial,sans-serif;--sign:"Oswald","Arial Narrow",sans-serif;color-scheme:dark}
-/* Single-look design on purpose: a dark glass door at dusk; every colour set explicitly. */
+:root{--navy:#0b1e5b;--royal:#1f4fd8;--royal2:#3a67f0;--sky:#e8eefc;--paper:#ffffff;--wash:#f4f7fd;--ink:#101a33;--muted:#4a5878;--line:#d5def3;
+  --onblue:#ffffff;--onblue2:#c9d6fb;--warn:#c2410c;
+  --display:"DM Serif Display",Georgia,serif;--body:"Work Sans",Arial,sans-serif;--sign:"Oswald","Arial Narrow",sans-serif;color-scheme:light}
+/* Single-look design on purpose (Ralph 2026-10-28: royal blue reads trustworthy): every colour set explicitly. */
 *{box-sizing:border-box}
-body{background:var(--glass);color:var(--ink);font-family:var(--body);font-size:1.05rem;line-height:1.6}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.05rem;line-height:1.6}
 .wrap{max-width:62rem;margin:0 auto;GUTTER}
-.door{background:linear-gradient(160deg,var(--glass2),var(--glass) 55%);border-bottom:1px solid var(--line)}
-.door .wrap{padding-block:2.2rem 2.6rem;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:2rem;align-items:start}
+.hook{background:var(--navy);color:var(--onblue)}
+.hook .wrap{padding-block:2.4rem 2.6rem}
+.kick{font-family:var(--sign);letter-spacing:.28em;text-transform:uppercase;color:var(--onblue2);font-size:.8rem}
+.hook h1{font-family:var(--display);font-weight:400;font-size:clamp(2.2rem,6.4vw,3.8rem);line-height:1.05;margin:.6rem 0 1.6rem;max-width:46rem;text-wrap:balance}
+.decals{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:1.4rem}
+.decal{display:flex;flex-direction:column;align-items:flex-start;gap:.35rem;min-width:0}
+.decal b{font-family:var(--display);font-weight:400;font-size:3.4rem;line-height:1;color:var(--onblue);border-bottom:3px solid var(--royal2);padding-bottom:.2rem}
+.decal span{color:var(--onblue2)}
+.decal a{color:var(--onblue2);font-size:.82rem}
+.cost{margin-top:1.8rem;background:var(--royal);border-radius:12px;padding:1.1rem 1.3rem;display:flex;flex-direction:column;gap:.25rem;max-width:44rem}
+.cost p{margin:0;font-size:1.15rem;font-weight:600;color:var(--onblue);text-wrap:pretty}
+.cost small{color:var(--onblue2)}
+.door{background:linear-gradient(180deg,var(--sky),var(--paper));border-bottom:1px solid var(--line)}
+.door .wrap{padding-block:2.4rem 2.6rem;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:2rem;align-items:start}
 @media (max-width:760px){.door .wrap{grid-template-columns:1fr}}
-.gold{font-family:var(--display);color:var(--gold);text-shadow:0 1px 0 #7a5418,0 0 1px var(--gold2)}
-.since{font-family:var(--sign);letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-size:.8rem;border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);display:inline-block;padding:.2rem .1rem}
-h1{margin:.7rem 0 0;font-size:clamp(2.5rem,7.5vw,4.4rem);line-height:1.02;font-weight:400;text-wrap:balance}
+.since{font-family:var(--sign);letter-spacing:.3em;text-transform:uppercase;color:var(--royal);font-size:.8rem;border-top:1px solid var(--royal);border-bottom:1px solid var(--royal);display:inline-block;padding:.2rem .1rem}
+h2.big{margin:.7rem 0 0;font-family:var(--display);font-size:clamp(2.3rem,6.8vw,4rem);line-height:1.03;font-weight:400;color:var(--navy);text-wrap:balance}
 .lead{color:var(--muted);max-width:32rem;margin-top:1rem;font-size:1.12rem}
 .ctas{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.4rem}
-.btn{display:inline-flex;align-items:center;gap:.5rem;min-height:3rem;padding:.6rem 1.15rem;border-radius:999px;text-decoration:none;font-weight:600;border:1.5px solid var(--gold);color:var(--gold2)}
-.btn.primary{background:var(--gold);color:#1a1405;border-color:var(--gold)}
-.btn:focus-visible,summary:focus-visible{outline:3px solid var(--vinyl);outline-offset:2px}
+.btn{display:inline-flex;align-items:center;gap:.5rem;min-height:3rem;padding:.6rem 1.15rem;border-radius:999px;text-decoration:none;font-weight:600;border:1.5px solid var(--royal);color:var(--royal);background:var(--paper);transition:background-color .2s ease,color .2s ease}
+.btn.primary{background:var(--royal);color:var(--onblue);border-color:var(--royal)}
+@media (hover:hover){.btn:hover{background:var(--sky)}.btn.primary:hover{background:var(--navy);border-color:var(--navy)}}
+.btn:focus-visible,summary:focus-visible{outline:3px solid var(--royal2);outline-offset:2px}
 .num{font-variant-numeric:tabular-nums;font-family:var(--sign);letter-spacing:.04em;white-space:nowrap}
-.draft{outline:1px dashed var(--red);outline-offset:3px}
-.plate{background:var(--plate);border-radius:10px;padding:1.2rem 1.3rem 1.3rem;box-shadow:inset 0 0 0 2px #2b2f2f,0 20px 40px -24px #000;font-family:var(--sign);color:var(--vinyl)}
-.plate h2{font-family:var(--sign);font-weight:500;letter-spacing:.35em;text-align:center;font-size:1.05rem;margin:0 0 .6rem;color:var(--vinyl)}
+.draft{outline:1px dashed var(--warn);outline-offset:3px}
+.plate{background:var(--navy);border-radius:12px;padding:1.2rem 1.3rem 1.3rem;box-shadow:0 20px 40px -24px rgba(11,30,91,.55);font-family:var(--sign);color:var(--onblue)}
+.plate h3{font-family:var(--sign);font-weight:500;letter-spacing:.35em;text-align:center;font-size:1.05rem;margin:0 0 .6rem;color:var(--onblue)}
 .plate dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.25rem 1rem;font-size:1.05rem;letter-spacing:.06em}
-.plate dt{text-transform:uppercase;color:var(--muted)}
-.plate dd{margin:0;text-align:right}
-.plate .open{margin-top:.9rem;text-align:center;border:2px solid var(--red);color:var(--red);border-radius:6px;padding:.25rem;letter-spacing:.2em;font-weight:600}
-.plate small{display:block;margin-top:.7rem;color:var(--muted);letter-spacing:.02em;font-family:var(--body);font-size:.85rem;text-align:center}
+.plate dt{text-transform:uppercase;color:var(--onblue2)}
+.plate dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+.plate .open{margin-top:.9rem;text-align:center;background:var(--royal);color:var(--onblue);border-radius:6px;padding:.3rem;letter-spacing:.2em;font-weight:600}
+.plate small{display:block;margin-top:.7rem;color:var(--onblue2);letter-spacing:.02em;font-family:var(--body);font-size:.85rem;text-align:center}
 section{padding-block:2.6rem}
-h2.t{font-family:var(--display);font-weight:400;color:var(--gold);font-size:clamp(1.7rem,4.5vw,2.4rem);margin:0 0 1.2rem;text-wrap:balance}
-.decals{display:grid;grid-template-columns:repeat(auto-fit,minmax(11rem,1fr));gap:1.2rem}
-.decal{display:flex;flex-direction:column;align-items:flex-start;gap:.35rem}
-.decal b{font-family:var(--display);font-weight:400;font-size:3.2rem;line-height:1;color:var(--vinyl);border-bottom:2px solid var(--gold);padding-bottom:.2rem}
-.decal a{color:var(--muted);font-size:.82rem}
-.panes{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
-.panes>div{background:var(--glass);padding:1.2rem;min-width:0}
-.panes h3{font-family:var(--sign);text-transform:uppercase;letter-spacing:.2em;font-weight:500;color:var(--gold);font-size:.95rem;margin:0 0 .6rem}
+section.wash{background:var(--wash)}
+h2.t{font-family:var(--display);font-weight:400;color:var(--navy);font-size:clamp(1.7rem,4.5vw,2.4rem);margin:0 0 1.2rem;text-wrap:balance}
+.panes{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem}
+.panes>div{background:var(--paper);padding:1.2rem;min-width:0;border-radius:12px;box-shadow:0 0 0 1px var(--line),0 8px 24px -18px rgba(11,30,91,.4)}
+.panes h3{font-family:var(--sign);text-transform:uppercase;letter-spacing:.2em;font-weight:500;color:var(--royal);font-size:.95rem;margin:0 0 .6rem}
 .panes ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.45rem}
+.panes .stat{margin-top:.9rem;padding-top:.8rem;border-top:1px solid var(--line);color:var(--muted);font-size:.92rem}
+.panes .stat b{font-family:var(--display);font-weight:400;color:var(--royal);font-size:1.5rem;margin-right:.3rem}
 ol.steps{margin:0;padding-left:1.9rem;display:flex;flex-direction:column;gap:.7rem}
-ol.steps li::marker{font-family:var(--display);color:var(--gold)}
-.price{display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;align-items:baseline}
-.price b{font-family:var(--display);font-weight:400;font-size:4rem;line-height:1;color:var(--gold)}
-.price span{color:var(--muted);max-width:28rem}
-.found{margin-top:1.2rem;border:1px solid var(--gold);border-radius:8px;padding:1rem 1.2rem}
-.found h3{font-family:var(--display);font-weight:400;color:var(--gold2);margin:0 0 .3rem;font-size:1.3rem}
+ol.steps li::marker{font-family:var(--display);color:var(--royal)}
+.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(15.5rem,1fr));gap:1rem;align-items:stretch}
+.plan{position:relative;display:flex;flex-direction:column;gap:.6rem;background:var(--paper);border-radius:14px;padding:1.4rem 1.3rem;min-width:0;box-shadow:0 0 0 1px var(--line),0 10px 30px -22px rgba(11,30,91,.45)}
+.plan.pop{box-shadow:0 0 0 2px var(--royal),0 18px 40px -22px rgba(31,79,216,.6)}
+.plan .badge{position:absolute;top:-.8rem;left:1.3rem;background:var(--royal);color:var(--onblue);font-family:var(--sign);letter-spacing:.15em;text-transform:uppercase;font-size:.75rem;padding:.2rem .6rem;border-radius:999px}
+.plan h3{margin:0;font-family:var(--sign);text-transform:uppercase;letter-spacing:.18em;font-weight:500;color:var(--royal);font-size:1rem}
+.plan .amt{display:flex;align-items:baseline;gap:.35rem}
+.plan .amt b{font-family:var(--display);font-weight:400;font-size:3rem;line-height:1;color:var(--navy);font-variant-numeric:tabular-nums}
+.plan .amt span,.plan .setup{color:var(--muted)}
+.plan .setup{font-size:.92rem}
+.plan ul{margin:.2rem 0 0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.4rem;flex:1}
+.plan .btn{align-self:flex-start;margin-top:.4rem}
+.pnote{margin-top:1rem;color:var(--muted)}
+.found{margin-top:1.4rem;background:var(--navy);color:var(--onblue);border-radius:14px;padding:1.2rem 1.4rem;display:flex;flex-direction:column;gap:.3rem}
+.found h3{font-family:var(--display);font-weight:400;color:var(--onblue);margin:0;font-size:1.5rem}
+.found p{color:var(--onblue2)}
 details{border-bottom:1px solid var(--line);padding:.75rem 0}
-summary{cursor:pointer;font-weight:600}
+summary{cursor:pointer;font-weight:600;color:var(--navy)}
 details p{margin:.4rem 0 0;color:var(--muted)}
 footer{padding-block:2rem;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
-a{color:var(--gold2)}
+a{color:var(--royal)}
 p{margin:0}
 .check{margin-top:1.4rem;color:var(--muted);font-style:italic;max-width:32rem}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
 """.replace("GUTTER", GUTTER)
     b = BRAND
     days = [("Mon", "10 AM - 6 PM"), ("Tue", "10 AM - 6 PM"), ("Wed", "10 AM - 6 PM"), ("Thu", "10 AM - 6 PM"), ("Fri", "10 AM - 6 PM"), ("Sat", "10 AM - 6 PM"), ("Sun", "Closed")]
     hours = "".join(f"<dt>{d}</dt><dd>{h}</dd>" for d, h in days)
+    hook = "".join(f'<div class="decal"><b>{e(n)}</b><span>{e(t)}</span><a href="{u}" target="_blank" rel="noopener">{e(src)}</a></div>'
+                   for n, t, src, u in b["hook_stats"])
+    rn, rt, rs, ru = b["review_stat"]
+    plans = "".join(
+        f'<div class="plan{" pop" if pop else ""}">' + ('<span class="badge">Most popular</span>' if pop else "")
+        + f'<h3>{e(name)}</h3><div class="amt"><b>{e(price)}</b><span>a month</span></div>'
+        + f'<div class="setup">plus {e(setup)} one-time setup</div><ul>{li(items)}</ul>'
+        + f'<a class="btn{" primary" if pop else ""}" data-book target="_blank" rel="noopener">Book a 15-minute call</a></div>'
+        for name, price, setup, pop, items in b["plans"])
     body = f"""
-<header class="door"><div class="wrap">
+<header class="hook"><div class="wrap">
+  <p class="kick">What a missed call costs you</p>
+  <h1>{e(b['hook_t'])}</h1>
+  <div class="decals">{hook}</div>
+  <div class="cost"><p>{e(b['cost'])}</p><small>{e(b['cost_note'])}</small></div>
+</div></header>
+<section class="door"><div class="wrap">
   <div>
     <span class="since" data-name>{e(b['name'])}</span>
-    <h1 class="gold">{e(b['h1a'])}<br>{e(b['h1b'])}</h1>
+    <h2 class="big">{e(b['h1a'])}<br>{e(b['h1b'])}</h2>
     <p class="lead">For service businesses in {e(b['area'])}. {e(b['sub'])}</p>
     <div class="ctas">
       <a class="btn primary" data-call>Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
@@ -275,24 +346,24 @@ p{margin:0}
     <p class="check">{e(b['check'])}</p>
   </div>
   <aside class="plate" aria-label="Example: a shop's hours sign, and the phone line that keeps answering after closing">
-    <h2>HOURS</h2>
+    <h3>HOURS</h3>
     <dl>{hours}</dl>
     <div class="open">PHONE ANSWERED 24/7</div>
     <small>Your shop closes. Your phone doesn't. At 6:48 PM tonight, a "no heat upstairs" call gets booked for Wed 8:00 AM.</small>
   </aside>
-</div></header>
-<section><div class="wrap"><h2 class="t">What missed calls and old reviews cost you</h2><div class="decals">{stats_html('decal')}</div></div></section>
-<section style="padding-top:0"><div class="wrap"><h2 class="t">What you get</h2><div class="panes">
+</div></section>
+<section><div class="wrap"><h2 class="t">What you get</h2><div class="panes">
   <div><h3>Your calls</h3><ul>{li(b['calls'])}</ul></div>
-  <div><h3>Your reviews</h3><ul>{li(b['reviews'])}</ul></div></div></div></section>
-<section style="padding-top:0"><div class="wrap"><h2 class="t">How it starts</h2><ol class="steps">{steps_html()}</ol></div></section>
-<section style="padding-top:0"><div class="wrap"><h2 class="t">One plan, one price</h2>
-  <div class="price"><b class="num" style="font-family:var(--display)">{e(b['price'])}</b><span>{e(b['price_line'])} {e(b['minutes'])}</span></div>
-  <div class="found"><h3>{e(b['founding_t'])}</h3><p>{e(b['founding'])}</p></div>
-  <div class="ctas"><a class="btn primary" data-book target="_blank" rel="noopener">Book a 15-minute call</a></div></div></section>
-<section style="padding-top:0"><div class="wrap"><h2 class="t">Questions</h2>{faq_html()}</div></section>
+  <div><h3>Your reviews</h3><ul>{li(b['reviews'])}</ul>
+    <p class="stat"><b>{e(rn)}</b>{e(rt)} <a href="{ru}" target="_blank" rel="noopener">{e(rs)}</a></p></div></div></div></section>
+<section class="wash"><div class="wrap"><h2 class="t">How it starts</h2><ol class="steps">{steps_html()}</ol></div></section>
+<section><div class="wrap"><h2 class="t">Plans and prices</h2>
+  <div class="plans">{plans}</div>
+  <p class="pnote">{e(b['plans_note'])}</p>
+  <div class="found"><h3>{e(b['founding_t'])}</h3><p>{e(b['founding'])}</p></div></div></section>
+<section class="wash"><div class="wrap"><h2 class="t">Questions</h2>{faq_html()}</div></section>
 <div class="wrap"><footer><span data-name>{e(b['name'])}</span> · {e(b['area_footer'])} · <span class="num" data-phone>{phone_text()}</span><br>Numbers on this page come from the studies linked under each one.</footer></div>"""
-    return head("door: shop door glass with gold-leaf letters and an hours plate", "family=DM+Serif+Display&family=Work+Sans:wght@400;600&family=Oswald:wght@500;600&", css) + body
+    return head("door: royal blue, problem numbers first, three plans", "family=DM+Serif+Display&family=Work+Sans:wght@400;600&family=Oswald:wght@500;600&", css) + body
 
 
 # ---------------------------------------------------------------- band 3: phone lock screen, notifications stacking
@@ -385,7 +456,7 @@ p{margin:0}
   <div><h3>Your calls</h3><ul>{li(b['calls'])}</ul></div>
   <div><h3>Your reviews</h3><ul>{li(b['reviews'])}</ul></div></div></div></section>
 <section style="padding-top:0"><div class="wrap"><h2>How it starts</h2><ol class="steps">{steps_html()}</ol></div></section>
-<section style="padding-top:0"><div class="wrap"><h2>One plan, one price</h2>
+<section style="padding-top:0"><div class="wrap"><h2>Plans and prices</h2>
   <div class="price"><b class="num">{e(b['price'])}</b><span>{e(b['price_line'])} {e(b['minutes'])}</span></div>
   <div class="found"><h3>{e(b['founding_t'])}</h3><p>{e(b['founding'])}</p></div>
   <div class="ctas"><a class="btn primary" data-book target="_blank" rel="noopener">Book a 15-minute call</a></div></div></section>

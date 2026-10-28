@@ -1,7 +1,8 @@
 # Grace's voice (ElevenLabs, Starter plan = instant clones only; professional clone not allowed, tested 2026-10-18)
 
-**"Grace" `Rh3oAQMqRVf78UIVpBoQ` is Grace's ONE voice** (Grace's pick 2026-10-20; account name "Grace cloned"; Ralph
-2026-10-21: "Yes Grace voice from now on"; grace.json). Use it for every Grace voiceover and skit line.
+**"Grace" `KI3g39BKXX7dow9OHoHI` is Grace's ONE voice** (account name "Grace cloned v5"; Ralph 2026-10-28: "The new Grace voice is
+approved"; built from 6 of her own posted VOs, round 5 below; grace.json). It replaced `Rh3oAQMqRVf78UIVpBoQ` (round 4, now
+"Grace cloned (old)" in the account, kept until Ralph says delete). Use it for every Grace voiceover and skit line.
 
 **The sound Ralph approved is the power bank flashlight VO (2026-10-21); the Shnuggle next-bath VO the same day had an
 echo.** Measured with `echo.py` (lower = drier): flashlight final 150 ms, Shnuggle final 171 ms (raw 200, after
@@ -44,3 +45,24 @@ swapping ids. Ask Ralph first; delete the old voice only on his OK.
 - Grace B `bGrsdLmwBbYUgHRuMFOI`: 1-sample clone; Grace said it didn't sound like her.
 - Old Seedance skit clone `3dmagVYZFvrGkBbWWmGC`: already gone from the account (API 400 on 2026-10-20).
 Job notes that name these voices are history. `test_B.mp3` / `test_C.mp3` stay as the echo meter's control.
+
+## Round 5: learn from the VOs Grace records herself (Ralph 2026-10-28)
+Ralph: "She still does not like her voice clone. We need to keep improving it with the VOs that she does not
+accepting the ones we provide to her." Grace keeps re-recording our scripts in her own voice (all 7 of her selling
+videos), so those recordings are the best samples we have: her current voice, her phone, her pace, her accent.
+1. For every Grace VO (her posted TikTok, or a file she sends): pull the audio (`tiktok.py video`), remove the music
+   (`demucs --two-stems=vocals`, venv `/root/.demucs-venv`, `r5/sep.sh`), cut silence, check echo (`echo.py`), add it to
+   `r5/samples.json` (source link, product, seconds, echo).
+2. Rebuild the clone from her newest own VOs (instant clone, free), keep the current voice until Ralph picks.
+3. A/B on the review page: the current voice vs the new one on the same line, next to Grace's own take of a line
+   (ElevenLabs characters: ask Ralph with the count first).
+4. Swap ids in grace.json + CLAUDE.md only on Ralph's OK; delete the old voice only on his OK.
+
+### Round 5 test result (2026-10-28)
+- Test clone "Grace v5 own VOs (test)" `KI3g39BKXX7dow9OHoHI` (`r5/v5.json`), built from 6 of her own posted VOs; her
+  PRITECH Oct 23 take held out as the reference. One render of the PRITECH script, 494 characters.
+- Closeness to her real take (resemblyzer, `r5/measure.py`): new 0.893, current clone 0.804 (V1 final). Echo 150 ms
+  both (gate OK). Scores `r5/ab/scores.json`; review page https://claude.ai/artifact/8ffWs9JrDiC9Q5GS9GsZs3.
+- 2026-10-28 APPROVED (Ralph: "The new Grace voice is approved"): grace.json now names `KI3g39BKXX7dow9OHoHI`, renamed
+  "Grace cloned v5" in ElevenLabs; the old voice is "Grace cloned (old)" until Ralph says delete. Job vo.py files copied
+  from older jobs hardcode the old id: read the id from grace/voice/grace.json instead.

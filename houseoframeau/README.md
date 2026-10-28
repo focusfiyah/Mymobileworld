@@ -3,6 +3,8 @@
 Status: 2026-10-20 access tested and 26 public videos pulled (`videos.json`); 8 are TikTok Shop videos, 5 of them our
 AI videos. Only Tiger Eye has sold (1, in Grace's sales tracker; Ralph 2026-10-20). Next: first post here waits for
 Ralph's OK on a video.
+2026-10-28: now our AI-video test account (own cut each, drafts to the inbox). First draft: PRITECH V3 own cut
+(`posts/pritech-v3/`), in the inbox 2026-10-28 (status SEND_TO_USER_INBOX); Ralph posts it with the product.
 
 Ralph 2026-10-20: "we will be managing that together and posting videos there as well." Grace's rules
 (`grace/PLAYBOOK.md`) and all the hard rules in CLAUDE.md apply to videos made for this account.
@@ -42,3 +44,17 @@ The September shop videos are at 53 to 153 views.
 
 Flag: none of our 5 AI videos here (nor Grace's 6 AI sellers) carry TikTok's "AI-generated" label (meta `ai_generated_label` false); Ralph's rule is to use
 TikTok's AI label where it applies.
+
+## Test account for our AI videos (Ralph 2026-10-28)
+Ralph: "we will be posting the AI videos that we do to House of Rameau to test them out on this account."
+- Every AI video we make for Grace can also go here as a test. Post only on Ralph's OK for that video.
+- Its own version, not Grace's file: a different shot order, framing or grade (`remix.py` style), so TikTok does not
+  read it as a copy of her post, unless Ralph says the same cut is fine.
+- Route (schema checked 2026-10-28): `TIKTOK_UPLOAD_VIDEO` with `publish: false`, `is_aigc: true`,
+  `account: tiktok_buck-flunk` = a draft in the House of Rameau TikTok inbox. Ralph adds the TikTok Shop product link
+  and caption in the app and posts it: the posting API has no product-link field, and an unaudited app may only post
+  SELF_ONLY. Direct publish (`TIKTOK_PUBLISH_VIDEO`) only for a video with no product, on Ralph's word.
+- Never use the default TikTok account (`tiktok_bac-stouth`, @azariah2244): another session posts a digital product
+  there (Ralph 2026-10-28).
+- After posting: add it to `videos.json` (mark AI + the job folder), refresh views weekly, and log any sale in Grace's
+  tracker (`grace/winners/winners.py pull <link> --sales N`) so the two accounts can be compared on the same video.

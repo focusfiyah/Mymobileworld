@@ -1,6 +1,6 @@
 # HEVEBLUE Black Yuja Bean Lifting Auto Eye Cream (Grace), 2026-10-27
 
-Status: DONE 2026-10-27, cut v1 APPROVED (Ralph: "Appy"), in Drive: Grace Tiktok assets/HEVEBLUE Eye Cream (Grace) https://drive.google.com/drive/folders/1B03FVJ3c-fQU9KF1nQDAbkZqljcBG8MV (CURRENT - HEVEBLUE Eye Cream V1.mp4, 90.0 MB = local + CURRENT - HEVEBLUE Eye Cream script). Kie $3.52 of $4.24 book.
+Status: DONE 2026-10-27. Cut v2 APPROVED (rim touch, water vibrates more, right hand S5), in Drive as CURRENT - HEVEBLUE Eye Cream V2 + script V2 (folder 1B03FVJ3c-fQU9KF1nQDAbkZqljcBG8MV), v1 in Older versions. Kie $4.37 of $4.37 OK.
 
 - Route: hands + hand-free AI over Grace's cloned voice, product lock, Flow first; Seedance for S3/S4 (no product).
 - Inspo: @momfindsbyfaith 730K (Ralph's idea), @maddybeautyfinds 1.8M, @alexandraryoo 629K: same product, tip in water at frame 0.

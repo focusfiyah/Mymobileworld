@@ -9,7 +9,7 @@ REQ = ["product", "url", "sales", "views", "faceless", "format", "hook", "hook_i
        "problem_solved", "why_converted", "script", "onscreen_text"]
 SEED = {"7696231728855223582", "7696285070046301470", "7696617399759555871", "7696627904985304351",
         "7697844264050511135", "7685441537894780190",
-        "7699252578239925535"}
+        "7699252578239925535", "7700400913759980831"}
 
 
 def db():
@@ -118,7 +118,7 @@ def versions():
 
 def promoted():
     ads = {"7696231728855223582", "7696285070046301470", "7696617399759555871", "7697844264050511135",
-           "7699252578239925535"}
+           "7699252578239925535", "7700400913759980831"}
     for v in db():
         want = "Yes, by the brand (TikTok ad label)" if v["id"] in ads else "No"
         if v.get("promoted") != want:
@@ -136,6 +136,24 @@ def proofs():
     if os.path.getmtime(os.path.join(HERE, "research/humanizer.md")) < os.path.getmtime(os.path.join(HERE, "VERSIONS.md")) - 1:
         fail("humanizer proof older than VERSIONS.md")
     print("PASS proofs")
+
+
+def style():
+    t = open(os.path.join(HERE, "STYLE_pritech.md")).read()
+    rows = re.findall(r"^\| (\d+) \| [\d.]+-[\d.]+ \|", t, re.M)
+    if [int(r) for r in rows] != list(range(1, 15)):
+        fail(f"shot map rows {rows}")
+    for k in ["ZPLAonsjU", "ZPLAEVuMv", "Black Friday", "NOT made yet", "S2", "S6", "don't want to mix"]:
+        if k not in t:
+            fail(f"STYLE_pritech.md misses {k}")
+    print("PASS style", len(rows))
+
+
+def playbook():
+    t = open(os.path.join(REPO, "grace/PLAYBOOK.md")).read()
+    if "grace/winners/STYLE_pritech.md" not in t or "never mix her" not in t:
+        fail("PLAYBOOK has no pointer to STYLE_pritech.md")
+    print("PASS playbook")
 
 
 if __name__ == "__main__":

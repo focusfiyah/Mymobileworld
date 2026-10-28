@@ -8,3 +8,12 @@
 - 2026-10-27 Ralph: "Seedance from the stills now" (Omni on Kie: 5 tries, all 500, $0)
 - 2026-10-27 S1 Seedance r1: clean 0-0.7 s only (hand lets go, a gold logo-ring charm appears ~1.5 s). Ralph: "Redo S1 on Seedance, $0.164 (Recommended)"
 - 2026-10-27 Ralph: "V2 when putting in stocking stuffer its outside of it on V1 it went inside. Edit so that v1 shot is used on V2" -> cut.py FILE S8 = v1 clip ($0)
+
+## Round 4 (2026-10-27) lessons
+- Seedance 2.0 Mini first-frame keeps a tiny product's size but redraws it within 1-2 s (flap, wide scarf, padlock mark). A strong push-in makes it worse (S9 take 1).
+- Free fix that holds: track the camera on the handbag NEAR the product (ORB + RANSAC partial affine, smoothed), cover the AI product with an inpaint from the frame itself, warp the real composite layer on top (tools/track_paste.py). Works on slow camera moves (S7, S8); fails when a hand moves the product (S4 take 1).
+- Short lines: use the clean opening of a take (S5a 1.66 s).
+- Round 4b: Seedance with "the hand slides out" still dropped its own charm lower (S4); a clean-plate box cover + paste-back fixed it. Omni 6 s on a tiny product at a distance redrew the whole handbag as the charm (S9, $0.42 lost): Omni only for close-ups. A LOCKED-camera Seedance take ("locked off on a tripod") + clean-plate box cover is the reliable end-shot recipe. Omni S1 close-up held the design but added a key (painted out free, tools/key_out.py).
+- Cut v4 -> v5 (Ralph: "I see some video drifts"): a pasted charm must follow what it hangs from (S4: track the AI ring, hang the charm 10 px of chain below it); a clean-plate cover's colour match must never sample skin or the AI hardware above it (tinted patch); the key-removal mask needs a fixed ring radius (a too-small Hough radius cut a notch).
+- Cut v5 -> v6 (Ralph: 'Slight drift here as well', S7 curtain): a clean-plate patch must stop at the object's edge; background behind it (curtain) moves with parallax and smears. Patch only non-curtain/tree pixels; the AI's own colours outside it are painted from the live frame.
+- Cut v6 -> v7 (Ralph: 'The shadow moves with the hand however when the hands moves away the shadow stays', S4): a clean plate made from the still keeps the still's look (hand shading, my old paint-out) and shows it after the live hand leaves. Build the plate from the clip itself: each pixel from the first frame where no AI charm, scarf, chain or hand covers it, despeckle, no colour-offset map. A skin test must not match lit brown leather (r>170, g>115, b>85).

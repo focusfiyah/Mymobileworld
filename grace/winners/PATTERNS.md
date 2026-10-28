@@ -25,6 +25,7 @@ small sample: treat these as leads to test, not rules. The table is the sheet in
 10. **Grace's own voice, not the ElevenLabs voiceover** (Ralph 2026-10-20): the castor video, our best seller (3 sales), is Grace speaking. All 5 Grace sellers are her own voice (Ralph confirmed the other 4 the same day). Her looser wording is probably just her talking. So new Grace videos: she records the voiceover herself from our script; ElevenLabs only as a fallback.
 
 ## Things to watch
+- **Update 2026-10-27: PRITECH face brush, 1 sale on 1,022 views** (brand-promoted, 20 s, hands only; Grace's re-edit of our AI V1 clips plus her Oct 23 video, same voice and script as that Oct 23 post, which had 1,327 views and no sale reported). Fits patterns 1, 2, 3 and 6 (product lit up in hand at frame 0, a callout text line, the dirty towel as the pain you can see, three features in one line); no deadline and a one-unit CTA, so a gift/Black Friday version that asks for two is the obvious test.
 - **Update 2026-10-22: BodyJ (the reply video) is up to 5 sales** (2,126 views, 425 views per sale): the reply-to-a-real-comment format is the strongest lead so far.
 - **Views per sale is the number to beat**, not views. Mute had 8 times the views of the glasses for the same one sale: a broad pain brings reach, a specific scene brings buyers.
 - **The reply video started fastest** (BodyJ: 763 views a day). It answers a real comment on her viral cradle-cap video, so the audience already wanted castor oil. Reply videos to real comments are worth more tests.

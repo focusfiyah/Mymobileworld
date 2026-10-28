@@ -6,6 +6,7 @@ Cut: ____  Date: ____  Checked on the FINAL file, frame by frame where hands or 
 |---|---|---|
 | Real product identical in every shot (top, cap, label, color) | | frames |
 | Product never cropped off or smeared | | |
+| Drift strip (`grace/qc/strip.py`) looked at for every pasted/patched/tracked shot: attached, background moves with the camera, no smear/blocks/AI leftovers, no slide | | strip files |
 | No shimmer/flicker (measured on final) | | number |
 | Hands: from frame edge, whole wrists, no background through hands, `qc_hands.py` all frames | | |
 | No forehead wrinkles / face artifacts | | |

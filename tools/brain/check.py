@@ -8,11 +8,14 @@ Checks the Obsidian vault (default /home/user/obsidian-vault, or --vault):
   2. a Brain/Sessions note for today exists and Brain/Index.md lists it;
   3. every Brain/Jobs note touched today is listed in Brain/Jobs.md and has a "## Status" section;
   4. every Brain note created today is linked from at least one other note (no orphans);
-  5. each --terms word or phrase is found in at least one Brain note (case-insensitive): the recall test.
+  5. each --terms word or phrase is found in at least one Brain note (case-insensitive): the recall test;
+  6. Brain/Active work.md exists and no longer lists this session (Ralph 2026-10-28: every session claims its topic there
+     at the start and removes its line at the end). Session id = session_ + $CLAUDE_CODE_REMOTE_SESSION_ID after cse_,
+     or --session.
 Prints BRAIN_OK or BRAIN_FAIL with each problem; exit 0 / 1. "Today" = notes changed in the working tree or in
 commits since local midnight (git), with the session date from --date (default today).
 """
-import argparse, datetime, re, subprocess, sys
+import argparse, datetime, os, re, subprocess, sys
 from pathlib import Path
 
 LINK = re.compile(r"\[\[([^\]|#]+)")
@@ -37,6 +40,9 @@ def main():
     ap.add_argument("--vault", default="/home/user/obsidian-vault")
     ap.add_argument("--terms", default="", help="comma-separated words a later session would search for")
     ap.add_argument("--date", default=datetime.date.today().isoformat())
+    rid = os.environ.get("CLAUDE_CODE_REMOTE_SESSION_ID", "")
+    ap.add_argument("--session", default=("session_" + rid.split("cse_", 1)[1]) if rid.startswith("cse_") else "",
+                    help="this session's id, as it appears in Brain/Active work.md")
     a = ap.parse_args()
     vault = Path(a.vault); brain = vault / "Brain"
     notes = {p: p.read_text(errors="ignore") for p in brain.rglob("*.md")}
@@ -76,6 +82,12 @@ def main():
     for term in [x.strip() for x in a.terms.split(",") if x.strip()]:   # 5. recall test
         if not any(term.lower() in t.lower() for t in notes.values()):
             errs.append(f"recall: '{term}' is in no Brain note")
+
+    active = brain / "Active work.md"                              # 6. active work board
+    if not active.exists():
+        errs.append("Brain/Active work.md is missing")
+    elif a.session and a.session in notes.get(active, ""):
+        errs.append(f"Brain/Active work.md still lists {a.session}: remove your line when the work is done")
 
     print(f"BRAIN_OK ({len(notes)} notes, {len(changed)} changed today, terms found)" if not errs
           else "BRAIN_FAIL:\n  - " + "\n  - ".join(errs))
