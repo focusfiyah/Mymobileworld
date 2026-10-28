@@ -1,0 +1,52 @@
+<title>Grace Voice Round 5</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one narrow listening column, three takes stacked, the real take first as the reference */
+:root{--bg:#f6f4f7;--fg:#1f1a24;--muted:#6b6274;--line:#ddd6e2;--card:#ffffff;--accent:#7a3e8f;--good:#2f7d4f;
+--display:"Fraunces",Georgia,serif;--body:"Source Sans 3",system-ui,sans-serif;--data:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17131b;--fg:#efe9f3;--muted:#a79db1;--line:#352d3d;--card:#211b27;--accent:#c58fdb;--good:#6fcf97;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17131b;--fg:#efe9f3;--muted:#a79db1;--line:#352d3d;--card:#211b27;--accent:#c58fdb;--good:#6fcf97;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+main{max-width:640px;margin:0 auto;display:grid;gap:22px}
+h1{font:600 1.9rem/1.15 var(--display);margin:0;text-wrap:balance}
+p{margin:0;color:var(--muted)}
+.take{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:grid;gap:10px}
+.take.ref{border-color:var(--accent)}
+.label{font:600 .78rem var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+h2{font:600 1.15rem var(--body);margin:0}
+audio{width:100%}
+.nums{display:flex;flex-wrap:wrap;gap:8px 18px;font:.85rem var(--data);color:var(--muted);font-variant-numeric:tabular-nums}
+.nums b{color:var(--fg);font-weight:600}
+.best b{color:var(--good)}
+.script{font-size:.92rem;border-left:3px solid var(--line);padding-left:12px}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono&display=swap">
+<main>
+<div style="display:grid;gap:8px">
+<h1>Grace's voice: does the new clone sound more like her?</h1>
+<p>Same PRITECH script, three takes. The new clone was built only from Grace's own posted voiceovers, and her real take of this script was kept out of it, so the comparison is fair. Closeness is a voice-match score against her real take (1.0 = identical voice). Echo has to be at or under 150 ms.</p>
+</div>
+
+<section class="take ref">
+<span class="label">Reference</span>
+<h2>Grace herself (her Oct 23 post)</h2>
+<audio controls preload="none" src="grace_real_take.mp3"></audio>
+</section>
+
+<section class="take">
+<span class="label">New, round 5</span>
+<h2>New clone from her own voiceovers</h2>
+<audio controls preload="none" src="v5_paced.mp3"></audio>
+<div class="nums best"><span>closeness <b>0.893</b></span><span>echo <b>150 ms</b></span></div>
+</section>
+
+<section class="take">
+<span class="label">Current</span>
+<h2>Current clone, as sent for V1 (Oct 24)</h2>
+<audio controls preload="none" src="v1_final.mp3"></audio>
+<div class="nums"><span>closeness <b>0.804</b></span><span>echo <b>150 ms</b></span></div>
+</section>
+
+<p class="script">"If you're not washing your face with a cleansing brush, what are you doing? Your hands leave makeup and oil behind, and using a dirty face towel can transfer bacteria right back onto your skin. This one has soft silicone bristles, five vibration settings, and a warming feature that heats up to one hundred and four degrees Fahrenheit for that extra little spa feel. And for something you do every single day, you might as well do it right. Go grab yours from the orange cart before you forget!"</p>
+<p>Cost: 494 ElevenLabs characters (one render). Cloning is free. The voice in use changes only on Ralph's OK.</p>
+</main>

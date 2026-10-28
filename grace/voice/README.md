@@ -56,3 +56,10 @@ videos), so those recordings are the best samples we have: her current voice, he
 3. A/B on the review page: the current voice vs the new one on the same line, next to Grace's own take of a line
    (ElevenLabs characters: ask Ralph with the count first).
 4. Swap ids in grace.json + CLAUDE.md only on Ralph's OK; delete the old voice only on his OK.
+
+### Round 5 test result (2026-10-28)
+- Test clone "Grace v5 own VOs (test)" `KI3g39BKXX7dow9OHoHI` (`r5/v5.json`), built from 6 of her own posted VOs; her
+  PRITECH Oct 23 take held out as the reference. One render of the PRITECH script, 494 characters.
+- Closeness to her real take (resemblyzer, `r5/measure.py`): new 0.893, current clone 0.804 (V1 final). Echo 150 ms
+  both (gate OK). Scores `r5/ab/scores.json`; review page https://claude.ai/artifact/8ffWs9JrDiC9Q5GS9GsZs3.
+- Not swapped: grace.json still names `Rh3oAQMqRVf78UIVpBoQ` until Ralph (and Grace) pick by ear.

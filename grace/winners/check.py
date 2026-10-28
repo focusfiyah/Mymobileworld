@@ -143,7 +143,7 @@ def style():
     rows = re.findall(r"^\| (\d+) \| [\d.]+-[\d.]+ \|", t, re.M)
     if [int(r) for r in rows] != list(range(1, 15)):
         fail(f"shot map rows {rows}")
-    for k in ["ZPLAonsjU", "ZPLAEVuMv", "Black Friday", "NOT made yet", "S2", "S6"]:
+    for k in ["ZPLAonsjU", "ZPLAEVuMv", "Black Friday", "NOT made yet", "S2", "S6", "don't want to mix"]:
         if k not in t:
             fail(f"STYLE_pritech.md misses {k}")
     print("PASS style", len(rows))
@@ -151,7 +151,7 @@ def style():
 
 def playbook():
     t = open(os.path.join(REPO, "grace/PLAYBOOK.md")).read()
-    if "grace/winners/STYLE_pritech.md" not in t or "remix style" not in t:
+    if "grace/winners/STYLE_pritech.md" not in t or "never mix her" not in t:
         fail("PLAYBOOK has no pointer to STYLE_pritech.md")
     print("PASS playbook")
 
