@@ -19,8 +19,8 @@ Scope: the free comment-to-DM bot on @realgoodhustles is proven on a real commen
 - [x] G4: running again sends nothing twice
   EVIDENCE: 2026-10-28: second live run printed sent [] failed [] skipped 3 total_done 1.
 
-- [ ] G5: Ralph confirms the DM arrived in @azariahlife's inbox (may sit in Message requests)
-  EVIDENCE: pending (asked 2026-10-28)
+- [x] G5: Ralph confirms the DM arrived in @azariahlife's inbox (may sit in Message requests)
+  EVIDENCE: 2026-10-28 Ralph: "I checked the Zarya Life. The message was there, and it was good to go." (voice typing for @azariahlife)
 
 - [x] G6: the tracker lists all 7 ideas with item 1 marked done
   CHECK: python3 ralph/acuna-ideas/verify.py tracker
