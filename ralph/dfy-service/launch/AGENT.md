@@ -8,7 +8,7 @@ Lessons carried over from Jean's line: check the hour with {{system__time_hour}}
 never argue about names, never say a service is "not offered" unless listed.
 
 Ralph's answers (2026-10-26): name Always Answered; transfer target +17864963177; hours 10 am to 6 pm Monday to Saturday (New York);
-after-hours callers are sent to the booking page, never promised a callback. BOOKING_LINK = https://calendly.com/teamrrgrp/30min (Ralph sent it 2026-10-28; he is switching the event to 15 minutes, so the ending may change). Still open: our Twilio number.
+after-hours callers are sent to the booking page, never promised a callback. BOOKING_LINK = https://calendly.com/teamrrgrp/30min (15-minute Google Meet event, checked 2026-10-28; the link still ends /30min). Still open: our Twilio number.
 
 ## First message (spoken)
 Thanks for calling Always Answered. I'm the front desk assistant. This call may be recorded. How can I help you?
