@@ -11,7 +11,7 @@ no sales calls (people call our line or book a time).
 
 ## What you tap on your phone (about 15 minutes total)
 1. Pick the name (Always Answered, Always On Desk, or South Shore Front Desk).
-2. DONE 2026-10-28: Calendly https://calendly.com/teamrrgrp/30min (a 30-minute event; the site and script still say 15-minute, waiting on Ralph).
+2. DONE 2026-10-28: Calendly https://calendly.com/teamrrgrp/30min (Ralph 2026-10-28: he will switch the event to 15 minutes; if the link's ending changes, swap it in looks.py, site/looks/*.html, AGENT.md).
 3. GitHub: make a new PUBLIC repo named after the business at github.com/new (the free plan only hosts websites from public
    repos; it holds just the website). I push the page, then you turn on Settings > Pages > main (about 3 min).
 4. Twilio: buy one 516 local number in your Twilio account, then in ElevenLabs import it (Phone numbers > Import from Twilio). Your
