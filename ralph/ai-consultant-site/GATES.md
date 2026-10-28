@@ -60,3 +60,19 @@ Scope: a free one-page site at https://focusfiyah.github.io (repo focusfiyah/foc
 
 - [x] G13: Brain note + session log written and tools/brain/check.py prints BRAIN_OK
   EVIDENCE: met 2026-10-28: Brain/Jobs/AI Consultant Site.md + session log, BRAIN_OK
+
+## Round 2: "Is this a fit?" section (Acuna idea 6, Ralph 2026-10-28: "Do 6. Since my consultant landing page is live")
+
+- [x] G14: the page has an "Is this a fit?" section (4 good-fit lines, 4 skip lines) right above the form, built with web-design-stack, every claim already true for Ralph's work (no income promise, consented calls only, no fake reviews, he checks before live)
+  EVIDENCE: 2026-10-28: section.fit in index.html on branch fit-section; Impeccable detect 0 findings (after raising the list headings 20 -> 26 px for type hierarchy); copy grade 2.2, no dashes, one "not X, Y" line rewritten (Humanizer); CSS braces 156/156.
+
+- [x] G15: the full check suite still passes with the new section
+  CHECK: python3 ralph/ai-consultant-site/verify.py all
+  EXPECT: FORM_OK
+  EVIDENCE: 2026-10-28: RENDER_OK, HERO_OK, PRIVACY_OK, MEDIA_OK, COPY_OK (grade 5.4), MOTION_OK, DETECT_OK, FORM_OK.
+
+- [x] G16: Ralph can see it before it goes live
+  EVIDENCE: 2026-10-28: review page https://claude.ai/artifact/RA6YtvCKGPqkztYQuNWtmg version 4 = the new page with a "Preview, not live yet" bar and a jump link; 390 px and 1440 px screenshots looked at (no sideways scroll, no console errors).
+
+- [ ] G17: Ralph OKs it, it is merged to main and https://focusfiyah.github.io serves it
+  EVIDENCE: pending
