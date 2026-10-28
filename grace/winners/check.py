@@ -138,5 +138,23 @@ def proofs():
     print("PASS proofs")
 
 
+def style():
+    t = open(os.path.join(HERE, "STYLE_pritech.md")).read()
+    rows = re.findall(r"^\| (\d+) \| [\d.]+-[\d.]+ \|", t, re.M)
+    if [int(r) for r in rows] != list(range(1, 15)):
+        fail(f"shot map rows {rows}")
+    for k in ["ZPLAonsjU", "ZPLAEVuMv", "Black Friday", "NOT made yet", "S2", "S6"]:
+        if k not in t:
+            fail(f"STYLE_pritech.md misses {k}")
+    print("PASS style", len(rows))
+
+
+def playbook():
+    t = open(os.path.join(REPO, "grace/PLAYBOOK.md")).read()
+    if "grace/winners/STYLE_pritech.md" not in t or "remix style" not in t:
+        fail("PLAYBOOK has no pointer to STYLE_pritech.md")
+    print("PASS playbook")
+
+
 if __name__ == "__main__":
     globals()[sys.argv[1]]()
