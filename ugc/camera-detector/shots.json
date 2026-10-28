@@ -1,0 +1,186 @@
+{
+ "blocks": {
+  "size_first": "SIZE FIRST: the camera detector is ONE small pocket gadget: a soft rounded oval body about 6 cm tall, 4 cm wide and 1.8 cm thick, about the size of an AirPods case and about as tall as an adult thumb is long, with a thin black silicone teardrop loop about 5 cm long hanging from its narrow bottom end. It sits easily inside a palm and is never bigger than the hand near it; exactly the proportions in image 1.",
+  "product_block": "The camera detector is the REAL product in the reference images and it must not change: a matte BLACK soft rounded oval body with no logo, no text and no print anywhere on it. A tall rounded-rectangle viewing window runs through the middle of the body inside a glossy black bezel; its filter glass is glossy TEAL-GREEN with a thin red edge on one side, never purple, never pink, never clear. A thin black silicone teardrop loop comes out of the narrow bottom end.",
+  "face_back": "The camera sees its BACK face, exactly as image 2: three tiny round holes in a row above the window, and below the window two small black pill-shaped raised buttons side by side, the left one with a small circle, the right one with a small sun icon, black on black.",
+  "face_front": "The camera sees its FRONT face, exactly as image 2: at the top a small round black sensor on the left and one small square white flashlight LED on the right; four small clear dome LEDs, two on each side of the window.",
+  "leds_off": "The four dome LEDs are off and clear.",
+  "leds_red": "The four dome LEDs on the front face glow bright red.",
+  "flash_on": "Only the small square flashlight LED on the FRONT face (pointing away from the camera) is on, shining white; no light shows on the side the camera sees.",
+  "hand_block": "ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, medium-length square natural pink nails with crisp white French tips; a BARE wrist with no bracelet, no watch and no chain; rings exactly as in the sheet: a silver crown-shaped stack ring on the ring finger, a thin GOLD ring with a small clear heart-shaped stone on the middle finger, and a glossy blue silicone band on the THUMB, never on the wrist. Whole wrist visible, a little forearm in a soft cream knit sleeve may show, five fingers, natural knuckles and skin texture.",
+  "no_hand": "No hand, arm, fingers or people anywhere in the frame.",
+  "light": "Bright soft light, clean neutral white balance, never yellow, golden or moody.",
+  "suffix": "Vertical 9:16 photo, a single frame from a phone video, realistic textures, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI, no date stamp.",
+  "omni_head": "Recreate image 1 exactly as the first frame: keep its room, light, framing{who} and the camera detector exactly. The camera detector is the real product in images 2 to {sheet}: a small matte black rounded oval gadget with a tall teal-green viewing window in a glossy black bezel and a thin black silicone teardrop loop; no logo or text anywhere on it. Its buttons, holes and LEDs must match image 2 exactly; its shape and size never change.",
+  "omni_tail": "One continuous handheld phone shot, 4 seconds, light that never changes. The detector never turns, flips or changes size; no second detector appears. No text, no captions, no music, no voice.",
+  "leds_red_back": "The red LEDs are on the FRONT face, which points away from the camera: no LED shows on the side the camera sees, only a soft red glow lands on what is in front of the detector."
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "t": [
+    0.0,
+    4.4
+   ],
+   "words": "Listen, y'all have seen these camera finders everywhere, but nobody shows you the part that matters.",
+   "hand": true,
+   "face": "back",
+   "leds": "off",
+   "room": "rooms/roomB_navy_tile_bathroom.jpg",
+   "props": "",
+   "still": "POV from Grace's eye level standing in the doorway of the hotel bathroom from the room photo (navy tiles, glass shower, white sink, lit mirror), the bathroom sharp behind. Her RIGHT hand enters from the bottom right edge and holds the camera detector upright at chest height in the lower middle of the frame, thumb on the left side of the body and fingers curled behind it, the loop hanging below her fingers. The detector fills about 15% of the frame height.",
+   "motion": "The camera walks slowly forward into the bathroom toward the glass shower; the hand and the detector stay in the same place in the frame the whole time."
+  },
+  {
+   "id": "S2",
+   "t": [
+    4.4,
+    7.4
+   ],
+   "words": "Let's be for real, a tiny lens can hide in a smoke detector,",
+   "no_product": true,
+   "hand": false,
+   "face": null,
+   "room": "rooms/roomA_hotel_colour_art.jpg",
+   "props": "",
+   "still": "Looking up at the white ceiling of the hotel room from the room photo, the top of the colourful wall art just visible at the bottom edge. One plain round white ceiling smoke detector sits in the upper middle of the frame, about a quarter of the frame wide, its small green status light off; on its side rim there is ONE tiny round black pinhole about 3 mm wide, easy to miss.",
+   "motion": "Slow steady push-in toward the smoke detector until it fills about half the frame; nothing else moves."
+  },
+  {
+   "id": "S3",
+   "t": [
+    7.4,
+    9.6
+   ],
+   "words": "or even the shower head.",
+   "no_product": true,
+   "hand": false,
+   "face": null,
+   "room": "rooms/roomB_navy_tile_bathroom.jpg",
+   "props": "",
+   "still": "Close view up into the glass shower of the hotel bathroom from the room photo: a round polished chrome rain shower head on a chrome arm against the navy tiles fills the upper half of the frame; the water is off and the shower is dry.",
+   "motion": "Slow tilt up and gentle push-in toward the shower head; nothing else moves."
+  },
+  {
+   "id": "S4",
+   "t": [
+    9.6,
+    13.5
+   ],
+   "words": "So turn it on, the red lights flash, and you look through this little window.",
+   "hand": true,
+   "face": "back",
+   "leds": "red",
+   "room": "rooms/roomA_hotel_colour_art.jpg",
+   "props": "",
+   "still": "POV close-up in the hotel room from the room photo (bed, colourful wall art, wood floor softly out of focus behind). Her RIGHT hand enters from the bottom right edge and holds the camera detector upright about 25 cm in front of the camera in the middle of the frame, thumb resting on the left button, fingers curled behind the body, the loop hanging below. The detector fills about 30% of the frame height. The red LEDs face away from the camera toward the room, so the camera sees only a faint red glow on the wall ahead.",
+   "motion": "Her thumb presses the left button once; a soft red glow pulses on the wall ahead; then the camera moves slowly closer to the detector until its window fills about half the frame, as if she lifts it to her eye; the hand keeps the same grip."
+  },
+  {
+   "id": "S5",
+   "t": [
+    13.5,
+    16.5
+   ],
+   "words": "A hidden lens shines right back at you as a bright red dot.",
+   "free": true,
+   "no_product": true,
+   "hand": false,
+   "face": null,
+   "room": "rooms/roomA_hotel_colour_art.jpg",
+   "props": "",
+   "note": "FREE, no generation: S2's smoke-detector clip seen through the window (ffmpeg red filter + the real window shape as a black mask + one small red pinpoint on the pinhole, tracked). The product's own view, as in every winner."
+  },
+  {
+   "id": "S6",
+   "t": [
+    16.5,
+    19.3
+   ],
+   "words": "At night, hang it on the door handle,",
+   "hand": true,
+   "face": "front",
+   "leds": "off",
+   "room": "rooms/roomC_gold_lever_door.jpg",
+   "props": "",
+   "still": "Close eye-level view of the cream hotel room door from the room photo with its gold lever handle in the upper middle of the frame; evening, the room lights on, neutral white light. Her RIGHT hand enters from the right edge and slips the black silicone loop of the camera detector over the end of the gold lever, thumb and index finger pinching the loop; the detector hangs just below the lever with its front face toward the camera. No key tag, no other item on the handle.",
+   "motion": "The hand slides the loop onto the lever, lets go and moves out of the right edge; the detector swings gently twice and settles hanging under the lever."
+  },
+  {
+   "id": "S7",
+   "t": [
+    19.3,
+    21.2
+   ],
+   "words": "and if anybody moves that door, it goes off.",
+   "hand": false,
+   "face": "front",
+   "leds": "red",
+   "room": "rooms/roomC_gold_lever_door.jpg",
+   "props": "",
+   "still": "Close eye-level view of the cream hotel room door from the room photo, evening, room lights on, neutral white light: the gold lever handle in the upper middle of the frame and the camera detector hanging under it by its black silicone loop, front face toward the camera, swinging a little. No key tag, no other item on the handle.",
+   "motion": "The gold lever dips down a little by itself as if pushed from the other side of the door, the door shifts slightly, the detector swings and its four red LEDs flash quickly on and off; camera locked off."
+  },
+  {
+   "id": "S8",
+   "t": [
+    21.2,
+    23.9
+   ],
+   "words": "It even has a flashlight for when you get up in the dark.",
+   "hand": true,
+   "face": "back",
+   "leds": "flash",
+   "room": "rooms/roomE_bedroom_colour_pillows.jpg",
+   "props": "",
+   "still": "POV at night in the hotel bedroom from the room photo, the room lights off and the room in soft blue night shade, still easy to see. Her RIGHT hand enters from the bottom right edge holding the camera detector low and pointed forward and down, its back face toward the camera. A white flashlight beam comes out of the far side of the detector (the side facing away from the camera) and lights ONE soft white pool on the floor straight ahead of it, between the bed and the wall; no other light appears anywhere else.",
+   "motion": "The camera walks slowly forward along the bed; the white pool of light stays on the floor exactly in front of the detector and moves ahead with it; the detector does not turn."
+  },
+  {
+   "id": "S9",
+   "t": [
+    23.9,
+    26.6
+   ],
+   "words": "Once you have it, you'll be checking every bathroom you walk into.",
+   "hand": true,
+   "face": "back",
+   "leds": "red",
+   "room": "rooms/roomF_vessel_sink_bathroom.jpg",
+   "props": "",
+   "still": "POV in the hotel bathroom from the room photo (round white vessel sinks on a beige counter, mirror above), bright. Her RIGHT hand enters from the bottom right edge and holds the camera detector up at eye level toward the mirror and the ceiling vent above it, back face toward the camera, thumb on the side of the body and fingers curled behind it. The detector fills about 20% of the frame height. A faint red glow from its far side shows on the mirror.",
+   "motion": "The camera pans slowly from the mirror up to the ceiling; the hand keeps the detector in the same place in the frame with the same grip."
+  },
+  {
+   "id": "S10",
+   "t": [
+    26.6,
+    30.6
+   ],
+   "words": "Holiday trips are coming up, so grab the two-pack, one for you and one for your bestie.",
+   "hand": true,
+   "face": "back",
+   "leds": "off",
+   "two": true,
+   "room": "rooms/roomE_bedroom_colour_pillows.jpg",
+   "props": "an open soft-grey carry-on suitcase on the bed with folded clothes inside",
+   "still": "High angle view of an open soft-grey carry-on suitcase lying on the bed of the hotel bedroom from the room photo, colourful pillows behind, bright daylight. Folded clothes inside. TWO identical camera detectors lie side by side on top of the folded clothes, back faces up, loops pointing down. Her RIGHT hand enters from the bottom right edge and pinches the right detector's body between thumb and index finger.",
+   "motion": "Her hand lifts the right detector a few centimetres and moves it out of the bottom right edge; the left detector stays where it is; slow gentle push-in."
+  },
+  {
+   "id": "S11",
+   "t": [
+    30.6,
+    33.5
+   ],
+   "words": "I linked it in the orange cart for you.",
+   "hand": false,
+   "face": "back",
+   "leds": "off",
+   "room": "rooms/roomD_red_wallpaper_teal_nightstand.jpg",
+   "props": "the small lamp from the room photo",
+   "still": "Eye-level view of the teal-green nightstand from the room photo with the red patterned wallpaper behind and the small lamp: ONE camera detector lies flat on the nightstand top near the front edge, back face up, its loop resting on the wood, filling about 15% of the frame height. Bright daylight.",
+   "motion": "Slow steady push-in toward the detector; nothing else moves."
+  }
+ ]
+}
