@@ -100,3 +100,12 @@
 - [x] G47: hue, sharpness, cut QC on v11
   CHECK: python3 tools/hue_check.py && python3 tools/hue_check.py --sharp && python3 qc/check_cut.py out/minibag_v11.mp4
   EXPECT: CUT_QC_OK
+
+# Phase 10 (2026-10-28, Ralph on v11: "It is not good" -> "Free re-cut, no pasted shots", script "Yes, cut it")
+- [x] G48: cut QC on the 18 s re-cut with the trimmed word list
+  CHECK: python3 qc/check_cut.py out/minibag_v12.mp4 --words vo/words_v12.json
+  EXPECT: CUT_QC_OK
+- [x] G49: both voice joins clean (silence, then a whole word); S1 key-ring stub cut out; every frame of S1 looked at (manual)
+  EVIDENCE: RMS at both joins; S1 opening stops at 1.45 s
+- [x] G50: v12 on the review page + push + email (manual)
+  EVIDENCE: artifact version 17

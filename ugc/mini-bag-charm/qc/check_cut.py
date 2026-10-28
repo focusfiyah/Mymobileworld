@@ -4,7 +4,8 @@ import json, re, subprocess, sys
 f = sys.argv[1]; bad = []
 run = lambda c: subprocess.run(c, capture_output=True, text=True)
 dur = float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).stdout)
-w = json.load(open("vo/words_trimmed.json")); last = w[-1]["end"]
+wf = sys.argv[sys.argv.index("--words") + 1] if "--words" in sys.argv else "vo/words_trimmed.json"   # v12: trimmed recording
+w = json.load(open(wf)); last = w[-1]["end"]
 if dur < last + 0.2: bad.append(f"video {dur:.2f}s ends before the last word {last:.2f}s")
 ln = run(["ffmpeg", "-i", f, "-af", "loudnorm=print_format=json", "-f", "null", "-"]).stderr
 j = json.loads(ln[ln.rfind("{"):ln.rfind("}") + 1]); I, TP = float(j["input_i"]), float(j["input_tp"])
