@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "videos": [
   {
    "id": "7700400913759980831",
@@ -28,17 +28,18 @@
    "frames": "/tmp/claude-0/-home-user/a22c8252-2d0c-523f-8338-9dafee75637e/scratchpad/w/7700400913759980831/sheet.png",
    "promoted": "Yes, by the brand (TikTok ad label)",
    "faceless": "Yes (hands only)",
-   "voice": "Voiceover (Grace's own or ElevenLabs: not confirmed yet)",
-   "format": "Hands + voiceover, product demo: device lights up in hand on an acrylic stand, hands under the tap, makeup-stained towel, device on its charging base, lather on the cheek (no face), charging port close-up",
+   "voice": "Grace's own voice, reused from her Oct 23 video https://www.tiktok.com/t/ZPLAonsjU/ (Ralph 2026-10-28)",
+   "format": "Grace's re-edit: clips from her Oct 23 PRITECH video plus our AI V1 footage (hands only): brush lights up in hand on an acrylic stand, hands under the tap, makeup-stained towel, brush on its charging base, lather on the cheek (no face), charging port close-up",
    "onscreen_text": "you're still washing you face.. without THIS???",
    "pain_point": "Washing with your hands leaves makeup and oil behind, and towels put bacteria back on your skin",
    "problem_solved": "Soft silicone bristles with 5 vibration settings clean deeper than hands, and the warming feature (up to 104 degrees) gives a spa feel at home",
    "why_converted": "Callout hook that makes the viewer feel behind (what are you doing?), plus the dirty towel as visible proof of the pain in the first 5 seconds. Three concrete features in one line, then a daily-habit justification (you do it every day, do it right). Short (20 s), product in hand from frame 0, Black Friday / gift hashtags in the season. Brand-promoted (ad label), so views are partly paid.",
-   "job": "Not made in our repo (no job folder): Grace's own production",
+   "job": "ugc/pritech-cleansing-brush (our V1, 2026-10-24); Grace mixed its clips with her Oct 23 video (Ralph 2026-10-28)",
    "sales": 1,
    "views_per_sale": 1022,
    "hook_type_override": "Problem Callout (own line, no library match)",
-   "hook_id_override": "own line"
+   "hook_id_override": "own line",
+   "note": "Same script and voice as her Oct 23 video (1,327 views, no sale reported); new footage mix + new caption got the sale"
   },
   {
    "id": "7699252578239925535",
