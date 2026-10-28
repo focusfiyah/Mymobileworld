@@ -47,3 +47,11 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
 
 - [x] G12: branch merged to main, Brain job note + session log written, brain check prints BRAIN_OK, Active work line removed
   EVIDENCE: 2026-10-28 merged to Mymobileworld main 3d211040; vault 5dd0721; brain check BRAIN_OK; Active work line not on main (never landed), none to remove
+
+## v2 (2026-10-28, Ralph: "the portfolio picture of Grace. Give me something better. Where she is smiling ... reduce the videos make it a top 10. If the brand wants to see more they can visit her Tiktok")
+- [x] V2-G1: hero shows a smiling photo of Grace at rest (frame 0.55 s of her own intro, light free finish), intro plays with sound + captions on tap
+  EVIDENCE: 2026-10-28 Playwright: #watch -> paused False, muted False, captions showing; 2x face crop before/after checked, no halo
+- [x] V2-G2: exactly 10 videos, ranked by views, ending in a TikTok link tile
+  EVIDENCE: 2026-10-28 10 articles, 10 rank badges, tile links to tiktok.com/@shewiththeglow; check.py files 22 refs FILES_OK, stats 24 STATS_OK, copy grade 6.9 COPY_OK, MOTION_OK, detect 0 findings, nesting 0 errors
+- [x] V2-G3: republished to the same Artifact (v2), dropped media removed; Drive CURRENT v2 doc + photo (149,479 bytes, matches), v1 doc in Older versions
+  EVIDENCE: 2026-10-28 version 1793193647-8e38; Drive 1qnlFTBNn-NXKJUEUtAHgpfPR6fjsc4_snRQ_WySBzOg + 19m-NsTnEw6xmoYsbJGGf3qjdTmMjpA9h

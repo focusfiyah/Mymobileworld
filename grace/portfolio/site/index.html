@@ -202,7 +202,8 @@ p { text-wrap: pretty; margin: 0; }
 }
 .record b { color: var(--pink-ink); font-weight: 800; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.sound[aria-pressed="true"] .when-off, .sound[aria-pressed="false"] .when-on { display: none; }
+#hero-video { opacity: 0; }
+.window.is-playing #hero-video { opacity: 1; }
 
 .burst {
   position: absolute;
@@ -273,57 +274,39 @@ section { padding-block: 64px; }
 .stats dt { font-size: 0.78rem; font-weight: 600; color: var(--pink-deep); letter-spacing: 0.03em; }
 .stats dd { margin: 0; font-size: 1.05rem; font-weight: 800; color: var(--pink-ink); white-space: nowrap; }
 
-/* ---------- filter (tabs sliding) ---------- */
-.filters {
-  position: relative;
-  display: inline-flex;
-  flex-wrap: nowrap;
-  gap: 4px;
-  padding: 4px;
-  border-radius: 999px;
-  box-shadow: inset 0 0 0 2px var(--white);
-  max-width: 100%;
-  overflow-x: auto;
-  scrollbar-width: none;
-}
-.filters::-webkit-scrollbar { display: none; }
-.filter-scroller { max-width: 100%; overflow-x: auto; margin-bottom: 28px; scrollbar-width: none; }
-.filters-pill {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  height: calc(100% - 8px);
-  border-radius: 999px;
-  background: var(--white);
-  box-shadow: 0 4px 12px -4px rgb(0 0 0 / 0.5);
-  transition: transform var(--tabs-dur) var(--tabs-ease), width var(--tabs-dur) var(--tabs-ease);
-  z-index: 0;
-}
-.filter {
-  position: relative;
-  z-index: 1;
-  appearance: none;
-  border: 0;
-  background: transparent;
-  color: var(--white);
-  min-height: 44px;
-  padding: 8px 18px;
-  border-radius: 999px;
-  font: 700 var(--step--1) / 1 var(--font-sans);
-  white-space: nowrap;
-  cursor: pointer;
-  transition: color var(--tabs-dur) var(--tabs-ease);
-}
-.filter[aria-selected="true"] { color: var(--pink); }
-.filter:not([aria-selected="true"]):hover { text-decoration: underline; text-underline-offset: 0.25em; }
-
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: clamp(14px, 2.4vw, 26px);
 }
 .grid .box { display: grid; gap: 12px; padding-bottom: 16px; }
-.grid .box[hidden] { display: none; }
+.shelf + .grid { margin-top: clamp(28px, 4vw, 48px); }
+.rank {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  left: 10px;
+  min-width: 38px;
+  height: 38px;
+  padding-inline: 10px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--pink);
+  font-weight: 800;
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  box-shadow: 0 4px 10px -4px rgb(0 0 0 / 0.5);
+}
+.label .views { font-variant-numeric: tabular-nums; }
+.label .views b { font-weight: 800; }
+.more-tile { text-decoration: none; transition: scale 160ms ease-out; }
+.more-tile:active { scale: 0.98; }
+.more-window { display: grid; place-items: center; background: var(--pink); }
+.more-window p { color: var(--white); text-align: center; font-weight: 700; font-size: 0.95rem; line-height: 1.2; padding: 12px; }
+.more-window b { display: block; font-size: clamp(2rem, 1.4rem + 2vw, 3rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1; margin-bottom: 6px; }
+.more-tile:hover h3 { text-decoration: underline; text-underline-offset: 0.2em; }
 .grid .label h3 { font-size: 1.06rem; }
 .grid .label p { font-size: 0.86rem; }
 .empty { display: none; }
@@ -398,7 +381,7 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .pill::after, .filters-pill, .filter, .float, .copy .swap > span, .play span { transition: none; }
+  .pill::after, .more-tile, .float, .copy .swap > span, .play span { transition: none; }
   .pill:active, .play:active span { scale: 1; }
 }
 </style>
@@ -420,18 +403,19 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
           <p><b class="num" data-stat="views:7566790233325391135">2.8M</b>views on one of her videos</p>
         </div>
         <div class="window" id="hero-window">
-          <video id="hero-video" src="media/hero.mp4" poster="media/hero.jpg" muted loop playsinline preload="metadata" aria-label="Grace introduces herself to brands">
+          <img src="media/hero-smile.jpg" alt="Grace smiling at the camera in a pink top" fetchpriority="high">
+          <video id="hero-video" src="media/hero.mp4" poster="media/hero-smile.jpg" playsinline preload="none" aria-label="Grace introduces herself to brands">
             <track kind="captions" srclang="en" label="English" id="hero-cc">
           </video>
+          <button class="play" id="hero-play" type="button" aria-label="Play Grace's intro"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
         </div>
         <div class="hero-copy">
           <h1>UGC creator and TikTok Shop affiliate. Beauty, fashion, lifestyle, and products that solve real everyday problems.</h1>
           <p class="record"><b class="num" data-stat="followers">11.4K</b> followers · <b class="num" data-stat="likes">66.1K</b> likes · <b class="num" data-stat="videos">1,229</b> videos posted</p>
           <div class="hero-actions">
-            <button class="pill pill--ink sound" id="sound" type="button" aria-pressed="false">
-              <svg class="when-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
-              <svg class="when-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path d="m22 9-6 6"/><path d="m16 9 6 6"/></svg>
-              <span class="when-off">Hear Grace</span><span class="when-on">Mute</span>
+            <button class="pill pill--ink" id="watch" type="button">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg>
+              Watch her intro
             </button>
             <a class="pill pill--ring" href="#contact">Email Grace</a>
           </div>
@@ -443,12 +427,13 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
   <section aria-labelledby="best">
     <div class="wrap">
       <div class="section-head">
-        <h2 id="best">The ones that took off</h2>
-        <p>All three filmed at home. The numbers come straight from TikTok.</p>
+        <h2 id="best">Her top 10</h2>
+        <p>Picked from videos she filmed herself, most viewed first. Numbers come straight from TikTok.</p>
       </div>
       <div class="shelf">
         <article class="box" data-video="7566790233325391135">
           <div class="window">
+            <span class="rank" aria-label="Number 1">1</span>
             <img src="media/7566790233325391135.jpg" alt="Grace brushing castor oil through her baby's hair" loading="lazy">
             <button class="play" type="button" aria-label="Play the cradle cap video"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
@@ -465,6 +450,7 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
         </article>
         <article class="box" data-video="7692132082188946719">
           <div class="window">
+            <span class="rank" aria-label="Number 2">2</span>
             <img src="media/7692132082188946719.jpg" alt="Grace unboxing the Shnuggle toddler tub at home" loading="lazy">
             <button class="play" type="button" aria-label="Play the Shnuggle toddler tub video"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
@@ -481,6 +467,7 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
         </article>
         <article class="box" data-video="7688848730010766622">
           <div class="window">
+            <span class="rank" aria-label="Number 3">3</span>
             <img src="media/7688848730010766622.jpg" alt="Grace talking about the WAG Bag toilet kit in her bathroom" loading="lazy">
             <button class="play" type="button" aria-label="Play the WAG Bag video"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
@@ -496,110 +483,69 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
           </dl>
         </article>
       </div>
-    </div>
-  </section>
-
-  <section aria-labelledby="more">
-    <div class="wrap">
-      <div class="section-head">
-        <h2 id="more">More of her work</h2>
-        <p>Tap any video to watch it with sound.</p>
-      </div>
-      <div class="filter-scroller">
-        <div class="filters" role="tablist" aria-label="Filter videos by category">
-          <span class="filters-pill" aria-hidden="true"></span>
-          <button class="filter" id="f-all" role="tab" type="button" aria-selected="true" data-cat="all">All</button>
-          <button class="filter" id="f-family" role="tab" type="button" aria-selected="false" data-cat="family">Family</button>
-          <button class="filter" id="f-beauty" role="tab" type="button" aria-selected="false" data-cat="beauty">Beauty and wellness</button>
-          <button class="filter" id="f-fashion" role="tab" type="button" aria-selected="false" data-cat="fashion">Fashion</button>
-          <button class="filter" id="f-everyday" role="tab" type="button" aria-selected="false" data-cat="everyday">Home and everyday</button>
-        </div>
-      </div>
-      <div class="grid" id="grid">
-        <article class="box" data-video="7693020238731857182" data-cat="family">
+      <div class="grid">
+        <article class="box" data-video="7688454638500187423">
           <div class="window">
-            <img src="media/7693020238731857182.jpg" alt="Grace's daughter playing in the toddler tub" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Shnuggle toddler tub"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Shnuggle toddler tub</h3><p>Comment reply, with her daughter</p></div>
-        </article>
-        <article class="box" data-video="7698798919421054238" data-cat="fashion">
-          <div class="window">
-            <img src="media/7698798919421054238.jpg" alt="Grace in a pink top showing a tiger eye necklace" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Tiger eye necklace"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Tiger eye necklace</h3><p>Styling, talking to camera</p></div>
-        </article>
-        <article class="box" data-video="7688454638500187423" data-cat="everyday">
-          <div class="window">
+            <span class="rank" aria-label="Number 4">4</span>
             <img src="media/7688454638500187423.jpg" alt="Grace opening a WAG Bag kit" loading="lazy">
             <button class="play" type="button" aria-label="Play: WAG Bag toilet kit"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
-          <div class="label"><h3>WAG Bag toilet kit</h3><p>Comment reply, talking to camera</p></div>
+          <div class="label"><h3>WAG Bag toilet kit</h3><p>Comment reply, talking to camera</p><p class="views"><b data-stat="views:7688454638500187423">13.5K</b> views</p></div>
         </article>
-        <article class="box" data-video="7684001442977352991" data-cat="fashion">
+        <article class="box" data-video="7698798919421054238">
           <div class="window">
+            <span class="rank" aria-label="Number 5">5</span>
+            <img src="media/7698798919421054238.jpg" alt="Grace in a pink top showing a tiger eye necklace" loading="lazy">
+            <button class="play" type="button" aria-label="Play: Tiger eye necklace"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
+          </div>
+          <div class="label"><h3>Tiger eye necklace</h3><p>Styling, talking to camera</p><p class="views"><b data-stat="views:7698798919421054238">4,544</b> views</p></div>
+        </article>
+        <article class="box" data-video="7693020238731857182">
+          <div class="window">
+            <span class="rank" aria-label="Number 6">6</span>
+            <img src="media/7693020238731857182.jpg" alt="Grace's daughter playing in the toddler tub" loading="lazy">
+            <button class="play" type="button" aria-label="Play: Shnuggle toddler tub"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
+          </div>
+          <div class="label"><h3>Shnuggle toddler tub</h3><p>Comment reply, with her daughter</p><p class="views"><b data-stat="views:7693020238731857182">4,096</b> views</p></div>
+        </article>
+        <article class="box" data-video="7684001442977352991">
+          <div class="window">
+            <span class="rank" aria-label="Number 7">7</span>
             <img src="media/7684001442977352991.jpg" alt="Grace showing a before and after in a black faja" loading="lazy">
             <button class="play" type="button" aria-label="Play: Attirify compression faja"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
-          <div class="label"><h3>Attirify compression faja</h3><p>Before and after try-on</p></div>
+          <div class="label"><h3>Attirify compression faja</h3><p>Before and after try-on</p><p class="views"><b data-stat="views:7684001442977352991">796</b> views</p></div>
         </article>
-        <article class="box" data-video="7672890224556461343" data-cat="beauty">
+        <article class="box" data-video="7692223164117552415">
           <div class="window">
-            <img src="media/7672890224556461343.jpg" alt="Grace holding a bottle of MaryRuth's Skin Restore" loading="lazy">
-            <button class="play" type="button" aria-label="Play: MaryRuth’s Skin Restore"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>MaryRuth’s Skin Restore</h3><p>Talking to camera</p></div>
-        </article>
-        <article class="box" data-video="7695187475387452702" data-cat="family">
-          <div class="window">
-            <img src="media/7695187475387452702.jpg" alt="The toddler tub set inside a bathtub" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Shnuggle toddler tub"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Shnuggle toddler tub</h3><p>Show and tell in her bathroom</p></div>
-        </article>
-        <article class="box" data-video="7692223164117552415" data-cat="everyday">
-          <div class="window">
+            <span class="rank" aria-label="Number 8">8</span>
             <img src="media/7692223164117552415.jpg" alt="Grace wearing a blue wearable blanket" loading="lazy">
             <button class="play" type="button" aria-label="Play: Wearable blanket"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
-          <div class="label"><h3>Wearable blanket</h3><p>Try-on at home</p></div>
+          <div class="label"><h3>Wearable blanket</h3><p>Try-on at home</p><p class="views"><b data-stat="views:7692223164117552415">740</b> views</p></div>
         </article>
-        <article class="box" data-video="7690971247802354974" data-cat="fashion">
+        <article class="box" data-video="7690971247802354974">
           <div class="window">
+            <span class="rank" aria-label="Number 9">9</span>
             <img src="media/7690971247802354974.jpg" alt="Grace trying on brown shapewear" loading="lazy">
             <button class="play" type="button" aria-label="Play: YIANNA shapewear"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
-          <div class="label"><h3>YIANNA shapewear</h3><p>Try-on</p></div>
+          <div class="label"><h3>YIANNA shapewear</h3><p>Try-on</p><p class="views"><b data-stat="views:7690971247802354974">629</b> views</p></div>
         </article>
-        <article class="box" data-video="7652914939320880415" data-cat="beauty">
+        <article class="box" data-video="7672890224556461343">
           <div class="window">
-            <img src="media/7652914939320880415.jpg" alt="Grace holding a can of GURU energy drink" loading="lazy">
-            <button class="play" type="button" aria-label="Play: GURU energy drink"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
+            <span class="rank" aria-label="Number 10">10</span>
+            <img src="media/7672890224556461343.jpg" alt="Grace holding a bottle of MaryRuth's Skin Restore" loading="lazy">
+            <button class="play" type="button" aria-label="Play: MaryRuth’s Skin Restore"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
           </div>
-          <div class="label"><h3>GURU energy drink</h3><p>Talking to camera</p></div>
+          <div class="label"><h3>MaryRuth’s Skin Restore</h3><p>Talking to camera</p><p class="views"><b data-stat="views:7672890224556461343">549</b> views</p></div>
         </article>
-        <article class="box" data-video="7692814586587778334" data-cat="family">
-          <div class="window">
-            <img src="media/7692814586587778334.jpg" alt="Grace carrying the toddler tub box" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Shnuggle toddler tub"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
+        <a class="box more-tile" href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">
+          <div class="window more-window">
+            <p><b class="num" data-stat="videos">1,229</b>videos on her TikTok</p>
           </div>
-          <div class="label"><h3>Shnuggle toddler tub</h3><p>Unboxing</p></div>
-        </article>
-        <article class="box" data-video="7689969239263857950" data-cat="everyday">
-          <div class="window">
-            <img src="media/7689969239263857950.jpg" alt="Grace showing a WAG Bag over the toilet" loading="lazy">
-            <button class="play" type="button" aria-label="Play: WAG Bag toilet kit"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>WAG Bag toilet kit</h3><p>Demo in her bathroom</p></div>
-        </article>
-        <article class="box" data-video="7648473613485526302" data-cat="beauty">
-          <div class="window">
-            <img src="media/7648473613485526302.jpg" alt="Grace holding a jar of VEV magnesium gummies" loading="lazy">
-            <button class="play" type="button" aria-label="Play: VEV magnesium gummies"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>VEV magnesium gummies</h3><p>Close-ups and talking to camera</p></div>
-        </article>
+          <div class="label"><h3>See them all</h3><p>@shewiththeglow on TikTok</p></div>
+        </a>
       </div>
     </div>
   </section>
@@ -677,15 +623,9 @@ Thank you for considering me.
 <script>
 // captions ship inline (artifacts do not serve .vtt files)
 document.getElementById("hero-cc").src = URL.createObjectURL(new Blob([document.getElementById("hero-vtt").textContent.trim() + "\n"], { type: "text/vtt" }));
-const grid = document.getElementById("grid");
 
 /* one video plays at a time; posters swap for a real video on tap */
 let current = null;
-function stopCurrent() {
-  if (!current) return;
-  current.pause();
-  current = null;
-}
 document.addEventListener("click", e => {
   const btn = e.target.closest(".play");
   if (!btn) return;
@@ -700,7 +640,7 @@ document.addEventListener("click", e => {
     vid.playsInline = true;
     vid.preload = "auto";
     vid.setAttribute("aria-label", btn.getAttribute("aria-label").replace(/^Play:? (the )?/i, ""));
-    vid.addEventListener("play", () => { if (current && current !== vid) current.pause(); current = vid; if (vid !== heroVideo) heroQuiet(); });
+    vid.addEventListener("play", () => { if (current && current !== vid) current.pause(); current = vid; });
     win.insertBefore(vid, btn);
   }
   win.classList.add("is-playing");
@@ -709,64 +649,18 @@ document.addEventListener("click", e => {
   vid.focus({ preventScroll: true });
 });
 
-/* hero: plays muted on loop unless the viewer prefers reduced motion; the button turns sound on from the start */
+/* hero: a smiling photo at rest; "Watch her intro" plays it with sound and captions */
 const heroVideo = document.getElementById("hero-video");
-const sound = document.getElementById("sound");
-const reduce = matchMedia("(prefers-reduced-motion: reduce)");
-function heroQuiet() {
-  heroVideo.muted = true;
-  heroVideo.textTracks[0].mode = "hidden";
-  sound.setAttribute("aria-pressed", "false");
-  heroVideo.pause();
-}
-if (!reduce.matches) heroVideo.play().catch(() => {});
-sound.addEventListener("click", () => {
-  const on = sound.getAttribute("aria-pressed") !== "true";
-  sound.setAttribute("aria-pressed", String(on));
-  if (on) {
-    if (current && current !== heroVideo) current.pause();
-    heroVideo.currentTime = 0;
-    heroVideo.muted = false;
-    heroVideo.loop = false;
-    heroVideo.textTracks[0].mode = "showing";
-    heroVideo.play().catch(() => {});
-    current = heroVideo;
-  } else {
-    heroVideo.muted = true;
-    heroVideo.loop = true;
-    heroVideo.textTracks[0].mode = "hidden";
-    if (reduce.matches) heroVideo.pause();
-  }
+heroVideo.addEventListener("play", () => {
+  if (current && current !== heroVideo) current.pause();
+  current = heroVideo;
+  heroVideo.controls = true;
+  heroVideo.textTracks[0].mode = "showing";
 });
-heroVideo.addEventListener("ended", () => {
-  sound.setAttribute("aria-pressed", "false");
-  heroVideo.muted = true;
-  heroVideo.loop = true;
-  heroVideo.textTracks[0].mode = "hidden";
-  if (!reduce.matches) heroVideo.play().catch(() => {});
+document.getElementById("watch").addEventListener("click", () => {
+  document.getElementById("hero-play").click();
+  document.getElementById("hero-window").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
 });
-
-/* filter tabs: the white pill slides to the chosen category */
-const tabs = [...document.querySelectorAll(".filter")];
-const pill = document.querySelector(".filters-pill");
-function placePill(tab, animate) {
-  if (!animate) pill.style.transition = "none";
-  pill.style.transform = `translateX(${tab.offsetLeft}px)`;
-  pill.style.width = `${tab.offsetWidth}px`;
-  if (!animate) { pill.offsetWidth; pill.style.transition = ""; }
-}
-function choose(tab) {
-  tabs.forEach(t => t.setAttribute("aria-selected", String(t === tab)));
-  placePill(tab, true);
-  const cat = tab.dataset.cat;
-  stopCurrent();
-  grid.querySelectorAll("[data-cat]").forEach(c => { c.hidden = !(cat === "all" || c.dataset.cat === cat); });
-}
-tabs.forEach(t => t.addEventListener("click", () => choose(t)));
-const firstTab = tabs.find(t => t.getAttribute("aria-selected") === "true");
-document.fonts.ready.then(() => placePill(firstTab, false));
-placePill(firstTab, false);
-addEventListener("resize", () => placePill(tabs.find(t => t.getAttribute("aria-selected") === "true"), false));
 
 /* copy email: works inside the artifact frame from a click; falls back to selecting the address */
 const copyBtn = document.getElementById("copy");
