@@ -98,7 +98,9 @@ lessons below are specific to making ads:
   edge; free fix = crop the frame to end at the object's base). Use `templates/qc-report.md`.
 - **Drift strip on every pasted, patched or tracked product shot, before any cut goes out:**
   `python3 grace/qc/strip.py CLIP --box X,Y,W,H --from S --to S` (box ~2.5x the product, the window the cut uses;
-  `track_paste.py` writes it as `qc/strip_<shot>.jpg`). Look at every tile at 2x: the product stays on what holds it,
+  `track_paste.py` writes it as `qc/strip_<shot>.jpg`), then again on the FINAL cut at every frame of each pasted
+  window (15 fps), never sample frames (Ralph 2026-10-28: v9 passed sample crops, he still found a half-covered ring,
+  a reshaped bag edge and AI handles between the fingers). Look at every tile at 2x: the product stays on what holds it,
   the background beside it moves with the camera (no smear, blur, blocks or seam), nothing left of the AI's own
   product, no slide. Why: Ralph caught drift twice on Mini Bag Charm (2026-10-27: a charm floating off its ring, a
   curtain smearing beside a patch), then "Make sure you have in your QC process to check for that"; a motion number
