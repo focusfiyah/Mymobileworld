@@ -50,7 +50,7 @@ def render():
             errs = []
             pg.on("console", lambda m: errs.append(m.text) if m.type == "error" else None)
             pg.on("pageerror", lambda e: errs.append(str(e)))
-            pg.goto(url, wait_until="networkidle"); pg.wait_for_timeout(800)
+            pg.goto(url, wait_until="load", timeout=60000); pg.wait_for_timeout(800)
             sw = pg.evaluate("document.documentElement.scrollWidth")
             if errs: fail(f"{w}px console errors: {errs}")
             if sw > w: fail(f"{w}px page scrolls sideways (scrollWidth {sw})")
@@ -63,7 +63,7 @@ def render():
 def hero():
     def run(b, url):
         pg = b.new_page(viewport={"width": 390, "height": 844})
-        pg.goto(url, wait_until="networkidle"); pg.wait_for_timeout(600)
+        pg.goto(url, wait_until="load", timeout=60000); pg.wait_for_timeout(600)
         for sel in [".over h1", ".pitch", ".actions .btn"]:
             r = pg.locator(sel).bounding_box()
             if not r: fail(f"{sel} missing")
@@ -166,7 +166,7 @@ def form():
             sent.append(route.request.post_data)
             route.fulfill(status=200, content_type="application/json", body='{"success":"true","message":"ok"}') if not os.environ.get("FAILMODE") else route.fulfill(status=500, body="{}")
         pg.route("https://formsubmit.co/**", handler)
-        pg.goto(url, wait_until="networkidle")
+        pg.goto(url, wait_until="load", timeout=60000); pg.wait_for_timeout(800)
         pg.click("#f-send"); pg.wait_for_timeout(200)
         if "fill in" not in pg.inner_text("#f-status"): fail("empty form shows no error")
         pg.fill("#f-name", "Test"); pg.fill("#f-email", "not-an-email"); pg.fill("#f-msg", "hello")
@@ -179,7 +179,7 @@ def form():
         if body.get("email") != "test@example.com" or body.get("message") != "hello": fail("posted body wrong: " + sent[0])
         pg2 = b.new_page(viewport={"width": 390, "height": 844})
         pg2.route("https://formsubmit.co/**", lambda r: r.fulfill(status=500, body="{}"))
-        pg2.goto(url, wait_until="networkidle")
+        pg2.goto(url, wait_until="load", timeout=60000); pg2.wait_for_timeout(800)
         pg2.fill("#f-name", "Test"); pg2.fill("#f-email", "test@example.com"); pg2.fill("#f-msg", "hello")
         pg2.click("#f-send"); pg2.wait_for_timeout(1200)
         if "didn't send" not in pg2.inner_text("#f-status"): fail("server error shows no error message")

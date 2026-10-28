@@ -2,19 +2,22 @@
 Usage: python3 clips.py  (writes /home/user/focusfiyah.github.io/media/<name>.mp4 + .jpg poster)"""
 import subprocess as sp, re, os
 UGC = "/home/user/Mymobileworld/ugc"
+DL = "/tmp/claude-0/-home-user/d532a940-ce98-56c2-93b0-73c4f8def487/scratchpad/lp/dl"  # Vans V1 from Drive (not in git)
 OUT = "/home/user/focusfiyah.github.io/media"
-CLIPS = [  # name, source, where in the ad (0-1) the wanted shot is
-    ("pouch", "youtheory-b12b6/out/youtheory_b12b6_v1.mp4", 0.2),
-    ("vanity", "fusou-vanity/v3ab/out/fusou_v3A_motion.mp4", 0.2),
-    ("oils", "plant-therapy-top6/out/plant_therapy_top6.mp4", 0.8),
-    ("tablet", "vicks-vaposhower/out/vicks_vaposhower.mp4", (12.9, 3.4)),  # scene detect misses this cut
-    ("scoop", "lgxnds-creatine/out/lgxnds_creatine_v3.mp4", 0.5),
-    ("heater", "space-heater-ptc/out/heater_V1.mp4", 0.8),
-    ("tub", "shnuggle-next-bath/out/shnuggle_next_bath.mp4", 0.8),
-    ("stick", "carpe-mb-15s/out/carpe_mb_15s_r2.mp4", 0.5),
-    ("jar", "jiyu-polish-pads/out/jiyu_v2.mp4", 0.2),
-    ("juice", "youtheory-ashwagandha/out/youtheory-ashwagandha_v5.mp4", 0.5),
-    ("serum", "base-labs/oil/out/oil.mp4", (23.5, 1.65)),  # skips the packshot pop-up
+CLIPS = [  # name, source, where in the ad (0-1) or (start, length); only videos that made sales (Grace's tracker + Ralph 2026-10-28)
+    # reel
+    ("castor", "bodyj-castor-rollon/out/bodyj_castor_v2g_r1_final.mp4", 0.15),
+    ("vans", DL + "/vans_v1.mp4", (0.2, 3.8)),
+    ("cards", "throw-hands-rps/out/throw_hands_r2b_raw.mp4", 0.55),
+    ("beam", "powerbank-flashlight-v2/out/flashlight_v2_r1.mp4", 0.35),
+    ("brush", "pritech-cleansing-brush/out/pritech_review.mp4", 0.65),
+    # grid
+    ("path", "powerbank-flashlight/out/powerbank_flashlight_r4.mp4", 0.45),
+    ("pouches", "sofyre-rodent-pouches/out/sofyre_r1_raw.mp4", 0.55),
+    ("dilator", "mute-nasal-dilator/out/mute_nasal_dilator_r4.mp4", 0.55),
+    ("roller", "bodyj-castor-rollon/out/bodyj_castor_v2g_r1_final.mp4", 0.55),
+    ("box", "throw-hands-rps/out/throw_hands_r2b_raw.mp4", 0.25),
+    ("rinse", "pritech-cleansing-brush/out/pritech_review.mp4", 0.15),
 ]
 def dur(f):
     return float(sp.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f]))
