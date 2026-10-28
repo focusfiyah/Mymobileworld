@@ -3,7 +3,7 @@
 Usage: python3 clean.py IN OUT [--tries 3] [--first 0] [--tau 0.1] [--lambd 0.5]
 The model samples randomly, so one run can come out drier or echoier than the input (2026-10-20 test on one line: fast
 decay 100 / 150 / 200 / 200 ms across runs, input 171). It runs --tries seeds and keeps the driest by echo.measure
-(lowest fast-decay rt, then lowest tail) among the runs whose words still match the input, levels it to -16 LUFS,
+(lowest fast-decay rt, then lowest tail) among the runs whose words still match the input, levels it with one plain gain toward -16 LUFS (peak <= -1 dBFS; a limiter raised the echo reading, 2026-10-27),
 and warns if no run beat the input. The word check matters: one run turned "I'm obsessed" into "I hope Cess". Both sides
 are transcribed by the same local Whisper model, so its own mishearings cancel out. If no run keeps every word, the
 uncleaned input is kept. --tau is the model's randomness: at the package default 0.5, 7 of 8 runs changed a word; at
@@ -36,13 +36,20 @@ def words(path):
 ap = argparse.ArgumentParser()
 ap.add_argument("inp"); ap.add_argument("out")
 ap.add_argument("--tries", type=int, default=3); ap.add_argument("--first", type=int, default=0); ap.add_argument("--lambd", type=float, default=0.5); ap.add_argument("--tau", type=float, default=0.1)
+ap.add_argument("--script", help="text file with the exact script: compare each seed with it instead of Whisper's reading of the input (HEVEBLUE 2026-10-27: Whisper misheard the input 'mom's stocking' as 'mom stalking' and every cleaner seed was rejected for being right)")
 a = ap.parse_args()
 
 raw = subprocess.run(["ffmpeg", "-v", "error", "-i", a.inp, "-ac", "1", "-ar", "44100", "-f", "f32le", "-"],
                      capture_output=True, check=True).stdout
 wav = torch.from_numpy(np.frombuffer(raw, np.float32).copy())
 base = measure(a.inp)
-ref = words(a.inp)
+NUMW = {"zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thousand","hundred"}
+norm = lambda ws: [w for w in ws if w not in NUMW]   # Whisper writes numbers as digits, which words() drops
+ref = norm(re.sub(r"[^a-z' ]", " ", open(a.script).read().lower()).split()) if a.script else words(a.inp)
+import difflib
+def miss(got):   # script word positions Whisper does not read back (unusual words like 'yuja' are always misheard)
+    return {i for t, i1, i2, _, _ in difflib.SequenceMatcher(None, ref, got, autojunk=False).get_opcodes() if t != "equal" for i in range(i1, max(i2, i1 + 1))}
+in_miss = miss(norm(words(a.inp))) if a.script else set()
 print(f"input: rt {base[0]:.0f} ms, tail {base[1]:.1f} dB, {len(ref)} words")
 best = None
 with tempfile.TemporaryDirectory() as d:
@@ -52,7 +59,7 @@ with tempfile.TemporaryDirectory() as d:
         p = os.path.join(d, f"s{seed}.wav")
         sf.write(p, e.numpy(), sr)
         rt, tail, _, _ = measure(p)
-        got = words(p); same = got == ref
+        got = norm(words(p)) if a.script else words(p); same = (miss(got) <= in_miss) if a.script else got == ref   # --script: no word wrong that the input had right
         diff = "" if same else " " + str([(x, y) for x, y in zip(ref, got) if x != y][:3]) + ("" if len(ref) == len(got) else f" {len(ref)}->{len(got)} words")
         print(f"seed {seed}: rt {rt:.0f} ms, tail {tail:.1f} dB, words {'match' if same else 'CHANGED'}{diff}", flush=True)
         if same and (best is None or (rt, tail) < best[:2]):
@@ -60,7 +67,15 @@ with tempfile.TemporaryDirectory() as d:
     if best is None:
         print("WARNING: every try changed a word; keeping the uncleaned input")
         best = (base[0], base[1], a.inp)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", best[2], "-af", "loudnorm=I=-16:TP=-1.5", "-ar", "44100", "-b:a", "128k", a.out], check=True)
+    # Level with ONE plain gain, no limiter: toward -16 LUFS but never past -1 dBFS peak. Any limiter (one-pass loudnorm, or loudnorm
+    # linear=true with its true-peak cap) reshaped the word tails and pushed echo.py from the kept take's 150 ms to 171
+    # (PRITECH V2, 2026-10-27: four runs read 171 after leveling; the raw take and a plain-gain copy read 150).
+    import re as _re
+    st = subprocess.run(["ffmpeg", "-v", "info", "-i", best[2], "-af", "ebur128=peak=true", "-f", "null", "-"], capture_output=True, text=True).stderr
+    li = float(_re.findall(r"^\s+I:\s+(-?[\d.]+) LUFS", st, _re.M)[-1]); pk = float(_re.findall(r"^\s+Peak:\s+(-?[\d.]+) dBFS", st, _re.M)[-1])
+    g = min(-16 - li, -1.0 - pk)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", best[2], "-af", f"volume={g:.2f}dB", "-ar", "44100"] + ([] if a.out.endswith(".wav") else ["-b:a", "192k"]) + [a.out], check=True)
+    import shutil as _sh; _sh.copy(best[2], a.out + ".raw.wav")   # the kept take before leveling, to measure (echo.py) without the encoder
 print(f"kept: rt {best[0]:.0f} ms, tail {best[1]:.1f} dB -> {a.out}")
 if not (best[0] < base[0] or best[1] < base[1] - 1):
     print("WARNING: no try came out drier than the input; listen before using it")

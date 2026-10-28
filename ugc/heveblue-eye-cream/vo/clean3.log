@@ -1,0 +1,11 @@
+/usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+input: rt 200 ms, tail -11.6 dB, 116 words
+Already up to date.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [04:20<04:20, 260.54s/it]100%|██████████| 2/2 [04:48<00:00, 123.55s/it]100%|██████████| 2/2 [04:48<00:00, 144.10s/it]
+seed 0: rt 150 ms, tail -13.3 dB, words match
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:45<02:45, 165.22s/it]100%|██████████| 2/2 [03:15<00:00, 85.62s/it] 100%|██████████| 2/2 [03:15<00:00, 97.56s/it]
+seed 1: rt 150 ms, tail -14.1 dB, words match
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:46<02:46, 166.56s/it]100%|██████████| 2/2 [03:18<00:00, 87.22s/it] 100%|██████████| 2/2 [03:18<00:00, 99.12s/it]
+seed 2: rt 150 ms, tail -13.1 dB, words match
+kept: rt 150 ms, tail -14.1 dB -> vo/voiceover_clean.wav

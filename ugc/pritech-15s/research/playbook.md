@@ -1,0 +1,7 @@
+# Playbook rules applied (grace/PLAYBOOK.md read 2026-10-27)
+- §1: Grace's point of view, no expert voice; no price; no false scarcity (seasons are real: cold weather, holidays); sell-side confessions only (V2 "Only problem?", V3 "I hate how much I look forward to it", V4 "Now I have no excuse"); no "order it now", no "you need this", "obsessed", "game changer"; #ad in captions.
+- §1 [only if true]: the confessions are Grace speaking as an owner. She has the black PRITECH (Ralph 2026-10-23: "She has the black one"), so they are kept; flagged in the plan for Ralph.
+- §3: hooks from HOOKS.md in her looser wording (H062, H102, H061), no id repeated across PRITECH videos, spread of types (pain call-out, curiosity, identity). On-screen text offered only.
+- §4: Grace's structure: hook, pain, selling points, confession, real urgency + more-units CTA (one for a sister / mom / bestie), "It's in the orange cart." Pain has its own beat in every video.
+- §5: 3.5 words/sec (V1 measured 3.53) -> 63-69 words = 18-20 s.
+- §6 / hard rules: every shot a moving clip; a third or more hand-free (V2 2/6, V3 3/7, V4 3/7); no text; each video its own rooms, framing, order and grade (V2 bright neutral, V3 bright cool, V4 bright clean morning), none reused from V1; product clips Flow first; no Kling; REMOVED.md carried over from V1 (no full face, no pink egg brush, no glowing bristles, no storyboard text).

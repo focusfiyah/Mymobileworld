@@ -1,0 +1,76 @@
+  #tiktokshopbeauty: 87 videos
+  #tiktokshopskincare: 58 videos
+  #tiktokshopmakeup: 59 videos
+  #tiktokshopfinds: 59 videos
+  #eyecream: 59 videos
+  #kbeauty: 60 videos
+  #koreanskincare: 60 videos
+/home/user/Mymobileworld/ugc/heveblue-eye-cream/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/heveblue-eye-cream/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+418 videos scanned, 36 shop videos posted in the last 3.0 day(s) -> research/coach/viral-2026-10-27.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      571K    929K  1.6d  0.16  MAC Nude Icons Lip Duo - Lip Pencil + M·A·Cximal Sleek  [Beauty & Personal Care]
+                                  @morganliving: Such a stunning pinky n00d lip combo😍 @M.A.C Cosmetics Store
+                                  https://www.tiktok.com/@morganliving/video/7700636972104043790
+  2       10K    5.6K  0.5d  0.41  tartelette™ tubing mascara [Beauty & Personal Care]
+                                  @ittycheers: Go buy it right now while you still can! #fyp #tiktokshop #t
+                                  https://www.tiktok.com/@ittycheers/video/7701040719858896141
+  3      1.6K    1.4K  0.8d  0.36  SHA CERLIN Fabric Upholstered Headboard Modern Velvet C [Furniture]
+                                  @lilyy_turcotte: Love all of these and they’re all on sale for black Friday c
+                                  https://www.tiktok.com/@lilyy_turcotte/video/7700927021022465294
+  4      1.6K    3.7K  2.3d   0.3  Fall Essentials: Barrier Therapy Cream Duo - Dry, Distr [Beauty & Personal Care]
+                                  @hotgina1: Prequel has some amazing skincare and beauty products🙌🏼❤️ #b
+                                  https://www.tiktok.com/@hotgina1/video/7700377195016965390
+  5      1.5K     384  0.2d  0.26  [Dr.Althea Officia] 3-Step Acne Care Set (Boosting) [Beauty & Personal Care]
+                                  @yoselinceniti: Skincare #tiktokshopblackfriday #TikTokShopCyberMonday #blac
+                                  https://www.tiktok.com/@yoselinceniti/video/7701165968168439070
+  6      1.1K     332  0.3d   0.6  Women's Autumn Striped Top, Lace Patchwork Button Knit  [Womenswear & Underwear]
+                                  @presleylc: I loveeee! #falloutfitinspo #DiscoverYourGift #tiktokshopbla
+                                  https://www.tiktok.com/@presleylc/video/7701042041072946446
+  7       972     485  0.5d  0.21  [House of B Official] 2-Step Overnight Glutathione Coll [Beauty & Personal Care]
+                                  @naenaecontentcreator1: ✨ Ladies, let me put y’all on! 💕 I have some VERY LUXURIOUS 
+                                  https://www.tiktok.com/@naenaecontentcreator1/video/7701017115049938189
+  8       948     237  0.2d  0.42  [medicube] Miranda’s Barrier Support Set | Helps to Pro [Beauty & Personal Care]
+                                  @shopwithme207: One of the best Medicube skincare products 👌#DarkSpotCare #t
+                                  https://www.tiktok.com/@shopwithme207/video/7701149682243833102
+  9       899     496  0.5d     0  Women's 14K Gold Plated Chunky Stackable Bracelets Set  [Fashion Accessories]
+                                  @uhatechloe: TikTok Shop Haul!! || pt. 1 || 💋✨🎉💐🌴✨🛒🔥 #foryoupage #tiktoks
+                                  https://www.tiktok.com/@uhatechloe/video/7701035832311811341
+ 10       672    1.0K  1.5d   0.4  ASWULK Women's Cropped Jacket Zip Up Lightweight Oversi [Womenswear & Underwear]
+                                  @hernamesmariah: TikTok Shop Beauty Haul💗💄 #tiktokshop #tiktokshopblackfriday
+                                  https://www.tiktok.com/@hernamesmariah/video/7700684762184289567
+ 11       548     583  1.1d     0  [medicube] Mix & Match Boba Cream Set | Tiktok Viral Ca [Beauty & Personal Care]
+                                  @zeetiktoktrik: These Medicube capsule creams are so satisfying to look at! 
+                                  https://www.tiktok.com/@zeetiktoktrik/video/7700845382875614495
+ 12       504     126  0.2d  0.79  [Estée Lauder] Wake Up Radiant Nighttime Skincare Set | [Beauty & Personal Care]
+                                  @brookieshopz: Tiktok Shop Exclusive @Estée Lauder #esteelauder #skincare #
+                                  https://www.tiktok.com/@brookieshopz/video/7701162230628355358
+ 13       440     267  0.6d  0.37  Women's Luxe 64g Adjustable Tint Concealer & Foundation [Beauty & Personal Care]
+                                  @sassyy.af: #fyp #blackfriday #tiktokshop #foundation #makeup 
+                                  https://www.tiktok.com/@sassyy.af/video/7701015458014612749
+ 14       419     492  1.2d   0.2  Dark Underarms, Knees & Elbows Brightening Mask | SIOT  [Beauty & Personal Care]
+                                  @nnekacleaver: #TikTokShop 
+                                  https://www.tiktok.com/@nnekacleaver/video/7700804793341578510
+ 15       397    1.0K  2.5d   0.1  [OFFICIAL d'Alba] White Truffle Intensive Volufiline Gr [Beauty & Personal Care]
+                                  @fwmuse: wonderful deal #TikTokShop #skincare 
+                                  https://www.tiktok.com/@fwmuse/video/7700302816719424799
+ 16       357     220  0.6d  0.91  [medicube] Milky Glow Lock Collagen Duo l Collagen Glaz [Beauty & Personal Care]
+                                  @lisettegonzalez946: Respuesta a @ojitos tú mereces esto?🥰#tiktokshop #pielseca #
+                                  https://www.tiktok.com/@lisettegonzalez946/video/7701012071797804318
+ 17       310     427  1.4d     0  [SKIN1004 Official Shop] Madagascar Centella Tea-Trica  [Beauty & Personal Care]
+                                  @authenticallyme_jb: #creatorsearchinsights #skincaretobuy #koreanskincareproduct
+                                  https://www.tiktok.com/@authenticallyme_jb/video/7700729569938099470
+ 18       309     360  1.2d     0  Renew It Bundle by Point of View: A trio of ultra-hydra [Beauty & Personal Care]
+                                  @its_just_sica: #pointofviewbeauty #skinprep #beauty #makeup #tiktokshop 
+                                  https://www.tiktok.com/@its_just_sica/video/7700808585105771807
+ 19       182     151  0.8d 18.54  [Dr.Melaxin Official] AM & PM Brightening Routine Set,  [Beauty & Personal Care]
+                                  @jesjenison: #[Dr.Melaxin Official] AM & PM#tiktokshop#skincare#
+                                  https://www.tiktok.com/@jesjenison/video/7700931974713625869
+ 20       178     369  2.1d     0  Peri Meno Bundle, Wild Yam, Cooling Spray, Magnesium Sl [Beauty & Personal Care]
+                                  @cindylofficial: #tiktokshopblackfriday #calmingskincare #soothingskincare #r
+                                  https://www.tiktok.com/@cindylofficial/video/7700473386262105375

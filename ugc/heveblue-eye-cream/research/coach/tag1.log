@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/heveblue-eye-cream/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/heveblue-eye-cream/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 63 of 85 videos posted since 2026-08-28
+63 videos -> research/coach/tag-heveblue.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,800,000   1.1   0.09  101 2026-09-28  @maddybeautyfinds: Korea is definitely living in the year 2200😳 #heveblue #eyecream #kbea
+                                          https://www.tiktok.com/@maddybeautyfinds/video/7690713735131909407
+  1,800,000   3.4   0.37   31 2026-10-17  @thebodyytemple: Best remedy for Troubled Skin | STOP PICKING. START BALANCING. @Hevebl
+                                          https://www.tiktok.com/@thebodyytemple/video/7697501223531891989
+    730,000   0.9   0.08   61 2026-09-02  @momfindsbyfaith: @heveblue.us #heveblue #kbeauty #koreanskincare #eyecream #beautytech 
+                                          https://www.tiktok.com/@momfindsbyfaith/video/7680831216869821710
+    629,400   0.5   0.03   53 2026-10-06  @alexandraryoo: @Heveblue US the best in the game when it comes to sensitive skin! #ti
+                                          https://www.tiktok.com/@alexandraryoo/video/7693373692079901965
+    302,200   0.8    0.1  106 2026-10-01  @makeup_mabell: Un contorno de ojos hidratante es clave para que el corrector se vea s
+                                          https://www.tiktok.com/@makeup_mabell/video/7691528678282382623
+    152,400   4.8   0.13   24 2026-10-19  @natashkaats: Scalp care deserves a place in your hair routine ✨The HEVEBLUE Salmon 
+                                          https://www.tiktok.com/@natashkaats/video/7698428797871279380
+    137,600   2.5   0.19   54 2026-09-18  @eli.ann21: The perfect combination 💕 @Heveblue US #HEVEBLUE #EyeCream #Kbeauty #s
+                                          https://www.tiktok.com/@eli.ann21/video/7686983000340532494
+    119,700   8.7   0.36   37 2026-10-06  @itsritta1: tiny bumps & uneven texture? 🥲 I’ve been trying the HEVEBLUE Derma Zin
+                                          https://www.tiktok.com/@itsritta1/video/7693502288790326546
+     82,000   3.9   0.08   18 2026-10-26  @mmarruss: Hydrated skin without the heavy feeling 💚 Using the HEVEBLUE Derma Zin
+                                          https://www.tiktok.com/@mmarruss/video/7701106025058897173
+     76,800  27.8    0.4   19 2026-10-20  @jgerenaiavictoria: Healthy hair starts with a healthy scalp! 🌿💗 My scalp care essential —
+                                          https://www.tiktok.com/@jgerenaiavictoria/video/7698838580315131188
+     47,300   9.2   2.31   64 2026-10-15  @kristingl: These toners are just that good @numbuzin No.1 Toner @ONE THING Global
+                                          https://www.tiktok.com/@kristingl/video/7696941488785083661
+     40,300   2.8    0.4   27 2026-10-17  @serenasrosess: @Heveblue US salmon caring centella cream dropped at Sephora and I had
+                                          https://www.tiktok.com/@serenasrosess/video/7697520743378128159
+     26,900   0.4    0.1   29 2026-09-22  @ascensionbae: This is wild and No you don’t charge it 🫠 it just works 😅@Heveblue US 
+                                          https://www.tiktok.com/@ascensionbae/video/7688451945643707678
+     25,800   7.3   2.06   54 2026-09-15  @kelly_kim_: sharing is caring @Heveblue US @opiccola 
+                                          https://www.tiktok.com/@kelly_kim_/video/7685622882625391903
+     24,400   5.6   0.89   48 2026-09-18  @kristingl: Every single product was sold out when I visited Olive Young…but is He
+                                          https://www.tiktok.com/@kristingl/video/7686902508786060558

@@ -1,0 +1,13 @@
+/usr/local/lib/python3.13/dist-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+input: rt 200 ms, tail -11.6 dB, 116 words
+Already up to date.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [03:07<03:07, 187.45s/it]100%|██████████| 2/2 [03:33<00:00, 92.69s/it] 100%|██████████| 2/2 [03:33<00:00, 106.90s/it]
+seed 0: rt 150 ms, tail -13.3 dB, words CHANGED [('yuja', 'huge'), ('water', 'in'), ('black', 'water')] 116->117 words
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:56<02:56, 176.52s/it]100%|██████████| 2/2 [03:29<00:00, 91.80s/it] 100%|██████████| 2/2 [03:29<00:00, 104.51s/it]
+seed 1: rt 150 ms, tail -14.1 dB, words CHANGED [('yuja', 'huge'), ('water', 'in'), ('black', 'water')] 116->117 words
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [02:52<02:52, 172.71s/it]100%|██████████| 2/2 [03:24<00:00, 89.89s/it] 100%|██████████| 2/2 [03:24<00:00, 102.32s/it]
+seed 2: rt 150 ms, tail -13.1 dB, words CHANGED [('yuja', 'huge'), ('water', 'in'), ('black', 'water')] 116->117 words
+WARNING: every try changed a word; keeping the uncleaned input
+kept: rt 200 ms, tail -11.6 dB -> vo/voiceover_clean.wav
+WARNING: no try came out drier than the input; listen before using it
