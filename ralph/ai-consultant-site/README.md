@@ -1,6 +1,8 @@
 # Ralph AI consultant site (2026-10-28)
+Status (2026-10-28, round 2): outside feedback said the design could pop more; 3 new looks built as full sample pages (r2/a.html bold colour, r2/b.html bento tiles, r2/c.html phone story, my pick), on review page https://claude.ai/artifact/F6TEtGRLuofgeNG5hhFnP5, waiting on Ralph's pick; gates GATES-r2.md 6/8; detector findings (contrast, small text) to fix on the chosen one before it goes live. $0.
 
-Status: DONE 2026-10-28 (+ "All of this, from my phone" section, Ralph asked; + "Is this a fit?" section above the form, Acuna idea 6, live 2026-10-28): LIVE at https://focusfiyah.github.io, form activated and tested (test reached Gmail). 13 of 13 gates met. Optional: swap the email in the page for the FormSubmit random code (needs the code from the activation page). Cost $0.
+
+Round 1: DONE 2026-10-28 (+ "All of this, from my phone" section, Ralph asked; + "Is this a fit?" section above the form, Acuna idea 6, live 2026-10-28): LIVE at https://focusfiyah.github.io, form activated and tested (test reached Gmail). 13 of 13 gates met. Optional: swap the email in the page for the FormSubmit random code (needs the code from the activation page). Cost $0.
 
 - Site source: repo focusfiyah/focusfiyah.github.io (`index.html`, `media/`, `PRODUCT.md`), live address https://focusfiyah.github.io once pushed to main (GitHub Pages, free). Custom domain later (Ralph).
 - Review page: https://claude.ai/artifact/RA6YtvCKGPqkztYQuNWtmg (v1 = 3 mockups, v2 = full page preview).
