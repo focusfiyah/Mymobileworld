@@ -2248,5 +2248,75 @@
   "still": "stills/S8L.png",
   "ok": true,
   "score": 0.927
+ },
+ {
+  "t": "2026-10-28 04:49:50",
+  "submitted": "02dc4e93d996e0df8c8f46af481ff167",
+  "prompt": "Animate this image as the first frame. The camera stays completely still for the whole clip: no zoom, no push-in, no clo"
+ },
+ {
+  "t": "2026-10-28 04:49:52",
+  "submitted": "0054bada50be8ed360d770a4a5d3529a",
+  "prompt": "Animate this image as the first frame. Camera: a very slow, slight push-in toward the handbag, only a little closer by t"
+ },
+ {
+  "t": "2026-10-28 04:51:26",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. Camera: a very slow, slight push-in toward the handbag, only a little closer by the end. The brown leather handbag sits still on the cream sofa and never changes shape; its two handles stay still. Nothing hangs from the handbag or its handles at any time: no charm, no mini bag, no keychain, no ring, no tag, no scarf, no ribbon. The teal curtain and the window stay still. No hand, fingers or people appear at any time. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793162973661-l8ce5lbgx4.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "0054bada50be8ed360d770a4a5d3529a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793163082800-52ivyem5slo.mp4"
+   ]
+  },
+  "costTime": 95,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-28 04:51:28",
+  "clip_check": "clips/S7N_seedance.mp4",
+  "still": "stills/S7N.png",
+  "ok": true,
+  "score": 0.96
+ },
+ {
+  "t": "2026-10-28 04:51:49",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The camera stays completely still for the whole clip: no zoom, no push-in, no close-up. The hand holds the small plain gold key ring at the top edge of the dark brown handbag, keeps holding it for one second, then the fingers let go and the hand slides slowly out of the frame to the right. The small gold ring stays exactly where it is on the handbag and hangs still. Nothing hangs from the gold ring at any time: no charm, no mini bag, no keys, no tag, no pendant, no scarf, no ribbon. The handbag, the sofa and the room stay exactly as in the first frame and never change shape. Only one hand: its French-tip nails, gold rings and gold bracelets stay exactly as in the first frame; it keeps one grip until it lets go and leaves from the right edge. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793162973621-awquznf9uee.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "02dc4e93d996e0df8c8f46af481ff167",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793163103155-72x96fu4n7.mp4"
+   ]
+  },
+  "costTime": 119,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-28 04:51:51",
+  "clip_check": "clips/S4N_seedance.mp4",
+  "still": "stills/S4N.png",
+  "ok": true,
+  "score": 0.961
  }
 ]

@@ -15,7 +15,10 @@ TEMPORAL = set()                              # clean plate = per-pixel median o
                                               # the AI charm nor the hand covers it (S4 v6: the still's hand shadow stuck)
 FIRST_PLATE = {"S4", "S8L"}                     # S8L: still camera, charm and hand move away: clean plate from its own frames
 BOX = {"S4": (0.8, 1.9, 0.0, 3.5), "S9": (0.7, 1.4, 0.1, 2.4)}   # left, right, up, down, in charm widths/heights
-PLATE = {"S8L": "rooms/roomE_stocking2_crop.png", "S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
+# v11 (Ralph 2026-10-28 "Yes save rules": clips made with NO charm): S4N/S7N clips have no AI charm, so nothing is covered
+NOCOVER = {"S4N", "S7N"}
+STILL = {"S4N": "stills/S4.png", "S7N": "stills/S7.png"}     # the charm composite; the clip itself started from the charm-free plate
+PLATE = {"S4N": "stills/S4N.png", "S7N": "stills/S7N.png", "S8L": "rooms/roomE_stocking2_crop.png", "S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
 
 
 def frames(path):
@@ -40,13 +43,13 @@ GAP_MAX = 12.0                                # px: the pasted charm must stay o
 # v8 (Grace 2026-10-28, 'she can tell it was pasted'): the real charm swings from where it hangs (S4: a pendulum driven
 # by the hand's moves; S7/S9: a slow small sway), matches the footage's softness, light changes and grain, and takes
 # a little of the room's colour on its edge. SOFT = blur in frame px (set with tools/hue_check.py --sharp).
-PIVOT = {"S4": (338, 749), "S7": (537, 534), "S9": (529, 672)}
-SWAY = {"S7": 0.8, "S9": 0.8}                 # idle sway, degrees; S4 is the pendulum
-SOFT = {"S4": 0.55, "S7": 0.55, "S8": 0.35, "S8L": 0.35, "S9": 0.7}
-HANG = {"S4": (338, 749), "S7": (537, 534)}       # S7 v8: hang from the clip's own AI clasp (my drawn ring + patch smeared the handle)
-GAP = {"S4": 13, "S7": 1}                            # S4 v8: hangs right under the AI's own ring and chain (none drawn)                         # px of chain between the ring's bottom and the charm's handles
+PIVOT = {"S4N": (338, 749), "S7N": (537, 498), "S4": (338, 749), "S7": (537, 534), "S9": (529, 672)}
+SWAY = {"S7": 0.8, "S9": 0.8, "S7N": 0.8}                 # idle sway, degrees; S4 is the pendulum
+SOFT = {"S4N": 0.55, "S7N": 0.55, "S4": 0.55, "S7": 0.55, "S8": 0.35, "S8L": 0.35, "S9": 0.7}
+HANG = {"S4": (338, 749), "S7": (537, 534), "S4N": (338, 749)}       # S7 v8: hang from the clip's own AI clasp (my drawn ring + patch smeared the handle)
+GAP = {"S4": 13, "S7": 1, "S4N": 13}                            # S4 v8: hangs right under the AI's own ring and chain (none drawn)                         # px of chain between the ring's bottom and the charm's handles
 STAY = set()                                      # tried on S4 2026-10-28: the charm then hung from nothing once the hand let go
-FOLLOW_RING = {"S4"}
+FOLLOW_RING = {"S4", "S4N"}
 AIBOX = {}                                        # S8L: the AI charm's box per frame (filled by the follow pre-pass)                     # still px where the charm's handles meet the chain (composite.swap hang)
 _ring = {}
 
@@ -88,7 +91,7 @@ def hang_chain(f, g, M, hang):
 
 
 def run(sid, follow=False):
-    still = cv2.imread(f"stills/{sid}.png"); plate = cv2.imread(PLATE[sid])
+    still = cv2.imread(STILL.get(sid, f"stills/{sid}.png")); plate = cv2.imread(PLATE[sid])
     diff = (np.abs(still.astype(int) - plate.astype(int)).max(2) > 3).astype(np.uint8) * 255
     diff = cv2.morphologyEx(diff, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
     ov_a = cv2.GaussianBlur(diff, (3, 3), 0)                       # the real layer: charm, chain, ring, shadow
@@ -223,7 +226,8 @@ def run(sid, follow=False):
             pts.append(best[1] if best is not None and best[0] < 60 else (np.nan, np.nan))
         pts = np.array(pts); ok = ~np.isnan(pts[:, 0])
         for j in range(2): pts[:, j] = np.interp(np.arange(len(pts)), np.nonzero(ok)[0], pts[ok, j])
-        ring_xy = np.array([pts[max(0, i - 3):i + 4].mean(0) for i in range(len(pts))])
+        rk = 1 if sid == "S4N" else 3                              # S4N v11: a fast drop lagged with +-3 frames of smoothing
+        ring_xy = np.array([pts[max(0, i - rk):i + rk + 1].mean(0) for i in range(len(pts))])
     n = len(src); fps = 24.0; th = np.zeros(n)
     if sid in HANG and ring_xy is not None:                        # pendulum: L = 6 cm, 1 m = ~1170 frame px here
         Lp, g_, c_ = 70.0, 9.8 * 1170, 5.0
@@ -391,6 +395,7 @@ def run(sid, follow=False):
                 cov[cv2.dilate(skin.astype(np.uint8), np.ones((15, 15), np.uint8)) > 0] = 0
         if sid == "S8":                                           # never paint over the cuff's own white fur
             fi = f.astype(int); cov[(fi.min(2) > 160) & (fi.max(2) - fi.min(2) < 45)] = 0
+        if sid in NOCOVER: cov = np.zeros((FH, FW), np.uint8)    # no AI charm in this clip: nothing to hide
         ring = cv2.dilate(cov, np.ones((15, 15), np.uint8)) & ~cov
         if sid in BOX:
             # local colour match: the frame-minus-plate difference around the box, spread smoothly inside it

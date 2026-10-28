@@ -4,7 +4,7 @@ in every pasted shot (clips/S4/S7/S8/S9_track.mp4) the charm's body keeps the li
   python3 tools/hue_check.py [--sharp]   -> HUE_OK / SHARP_OK or the failures"""
 import colorsys, json, sys
 import cv2, numpy as np
-SHOTS, TOL, SHARP_MAX = ["S4", "S7", "S8L", "S9"], 8.0, 1.1
+SHOTS, TOL, SHARP_MAX = ["S4N", "S7N", "S8L", "S9"], 8.0, 1.1
 
 
 def hue(rgb):

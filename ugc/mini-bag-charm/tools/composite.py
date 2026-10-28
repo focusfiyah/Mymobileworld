@@ -5,7 +5,7 @@ import sys
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
 CUT, ORIG = "refs/cutout/charm_real_cutout.png", "refs/real/listing_burgundy_10of10.jpg"
 # hang = point on the handbag handle base where the ring goes; body = charm bag-body width in px; bright = light match
-SPEC = {"S7": dict(bg="stills/S7bg.png", hang=(537, 498), body=92, bright=0.86, tilt=-4, ring=False),   # v8: the clip's own AI clasp holds it
+SPEC = {"S7": dict(bg="stills/S7bg.png", hang=(537, 498), body=92, bright=0.86, tilt=-4),   # v11: drawn ring again (the S7N clip has no AI clasp to hang from)
         "S9": dict(bg="stills/S9bg.png", hang=(529, 672), body=92, bright=0.95, tilt=-4)}
 
 

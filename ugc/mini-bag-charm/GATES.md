@@ -91,3 +91,12 @@
   EXPECT: CUT_QC_OK
 - [x] G44: v10 on the review page + push + email (manual)
   EVIDENCE: artifact Uns9WGWdYcjDBsdbbeCezb version 15
+
+# Phase 9 (2026-10-28, Ralph: drift still at 7-8 s and 16-18 s; OK up to $0.64, "This is the last expense")
+- [x] G45: S4 and S7 remade from charm-free start frames, no AI charm in the clips (manual)
+  EVIDENCE: Seedance tasks 02dc4e93d996e0df8c8f46af481ff167 (S4N), 0054bada50be8ed360d770a4a5d3529a (S7N), $0.32, no redo
+- [x] G46: every frame of S4/S7 in the final cut: charm on its ring, nothing patched, no AI leftovers (manual)
+  EVIDENCE: review/v11_S4.jpg, review/v11_S7.jpg
+- [x] G47: hue, sharpness, cut QC on v11
+  CHECK: python3 tools/hue_check.py && python3 tools/hue_check.py --sharp && python3 qc/check_cut.py out/minibag_v11.mp4
+  EXPECT: CUT_QC_OK
