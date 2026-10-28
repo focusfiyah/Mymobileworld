@@ -1,5 +1,5 @@
 # Mini Bag Charm, burgundy (Grace), 2026-10-26
-Status: DONE 2026-10-28: cut v7 APPROVED (Ralph: "Approved"), in Drive Grace Tiktok assets/Mini Bag Charm (Grace) https://drive.google.com/drive/folders/1sTBKhYHwoJdWXRzf_ZNvrmLhY1i83Tm8 as CURRENT - Mini Bag Charm V7.mp4 (69.4 MB) + CURRENT - Mini Bag Charm script; v1, v2, v3 in Older versions. Real listing charm at 9.5 x 5.5 cm laid onto S4/S7/S8/S9 frame by frame (tools/composite.py + tools/track_paste.py, Ralph OK on paste-back), S1 Omni with its added key painted out, S5a clean first 1.66 s. Kie $8.75 of $8.77 OK'd. Review https://claude.ai/artifact/Uns9WGWdYcjDBsdbbeCezb
+Status: 2026-10-28 cut v10 sent for review (Ralph v9 notes: S4 patch reshaped the bag + half-covered ring, S7 rim, S8 AI handles/tissue between fingers; every frame checked). v7 stays CURRENT in Drive until Ralph OKs. Kie $8.91 of $9.26 OK'd.
 Format: hands + hand-free AI over Grace's cloned voice, 9 shots, ~26 s, no text. Model: @the_little_beannn 331K.
 Files: BOOK.md (plan), scripts.md, shots.json + build_prompts.py -> prompts/, refs/product_sheet.png (make_sheet.py), product_truth.json, research/, rooms/ (SOURCES.md), GATES.md, REMOVED.md, review/ (build_review.py).
 Run (after --approve-book): `python3 run.py stills S1 S2 ...`; S3 Seedance; product clips = Flow kits first, Kie Omni fallback `python3 run.py omni S5`.

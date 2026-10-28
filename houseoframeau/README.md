@@ -3,6 +3,8 @@
 Status: 2026-10-20 access tested and 26 public videos pulled (`videos.json`); 8 are TikTok Shop videos, 5 of them our
 AI videos. Only Tiger Eye has sold (1, in Grace's sales tracker; Ralph 2026-10-20). Next: first post here waits for
 Ralph's OK on a video.
+2026-10-28: now our AI-video test account (own cut each, drafts to the inbox). First draft: PRITECH V3 own cut
+(`posts/pritech-v3/`), in the inbox 2026-10-28 (status SEND_TO_USER_INBOX); Ralph posts it with the product.
 
 Ralph 2026-10-20: "we will be managing that together and posting videos there as well." Grace's rules
 (`grace/PLAYBOOK.md`) and all the hard rules in CLAUDE.md apply to videos made for this account.
