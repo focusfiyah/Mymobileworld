@@ -18,7 +18,7 @@ BRAND = {
     "name": "Always Answered",
     "phone": "",          # our Twilio line, once bought (shown as a placeholder until then)
     "booking": "https://calendly.com/teamrrgrp/30min",        # Calendly link, once made
-    "area": "Freeport, Baldwin and Brooklyn",
+    "area": "Nassau County and Brooklyn",
     "area_footer": "Serving Nassau County and Brooklyn",
     "h1a": "Every call answered.",
     "h1b": "Fresh reviews every month.",
