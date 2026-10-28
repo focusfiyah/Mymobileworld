@@ -55,3 +55,5 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
   EVIDENCE: 2026-10-28 10 articles, 10 rank badges, tile links to tiktok.com/@shewiththeglow; check.py files 22 refs FILES_OK, stats 24 STATS_OK, copy grade 6.9 COPY_OK, MOTION_OK, detect 0 findings, nesting 0 errors
 - [x] V2-G3: republished to the same Artifact (v2), dropped media removed; Drive CURRENT v2 doc + photo (149,479 bytes, matches), v1 doc in Older versions
   EVIDENCE: 2026-10-28 version 1793193647-8e38; Drive 1qnlFTBNn-NXKJUEUtAHgpfPR6fjsc4_snRQ_WySBzOg + 19m-NsTnEw6xmoYsbJGGf3qjdTmMjpA9h
+- [x] V2-G4: hero photo = Ralph's pick (his circled frame, "Use this one"): closed-lip smile at 33.00 s of her intro, same light free finish; republished (version 1793194831-4cae); Drive CURRENT - Portfolio photo v2.jpg 1zY707s_uwit-wVhzOa9Kw2sWHV9qKHMx (198,811 bytes, matches) + CURRENT - Portfolio v2 doc 1b882gfZXD1BVI3XsaDFFzAWMoJbwTr38Xy1R_iYoefI; earlier photo + draft doc in Older versions
+  EVIDENCE: 2026-10-28 frames 32.3-33.1 s compared at 2x; 33.00 s matches his circled frame (lips closed, eyes open)
