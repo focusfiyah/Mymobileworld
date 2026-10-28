@@ -55,8 +55,8 @@ Scope: a free one-page site at https://focusfiyah.github.io (repo focusfiyah/foc
   EXPECT: LIVE_OK
   EVIDENCE: met 2026-10-28: LIVE_OK, https://focusfiyah.github.io serves this index.html
 
-- [ ] G12: a test message sent through the live form reached life22watch@gmail.com
-  EVIDENCE: pending: FormSubmit replied 'This form needs Activation'; activation email in Ralph's inbox 2026-10-28 04:55 UTC, waiting for his tap
+- [x] G12: a test message sent through the live form reached life22watch@gmail.com
+  EVIDENCE: met 2026-10-28: after Ralph activated, FormSubmit replied success true and Gmail shows 'New consult request from your site' at 05:57 UTC (message 1a18115b29a7097d)
 
 - [x] G13: Brain note + session log written and tools/brain/check.py prints BRAIN_OK
   EVIDENCE: met 2026-10-28: Brain/Jobs/AI Consultant Site.md + session log, BRAIN_OK
