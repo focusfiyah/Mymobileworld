@@ -82,3 +82,12 @@
   EXPECT: CUT_QC_OK
 - [x] G41: v9 on the review page + push + email (manual)
   EVIDENCE: artifact Uns9WGWdYcjDBsdbbeCezb version 14
+
+# Phase 8 (2026-10-28, Ralph on v9: "Still have drift or misalignment" at S4, S7, S8)
+- [x] G42: every frame of S4, S7, S8 in the final cut looked at (15 fps / 10 fps strips), no patch blotch, bag shape change, AI leftover or gap under the fingers (manual)
+  EVIDENCE: review/v10_S4.jpg, v10_S7.jpg, v10_S8.jpg
+- [x] G43: hue, sharpness, cut QC on v10
+  CHECK: python3 tools/hue_check.py && python3 tools/hue_check.py --sharp && python3 qc/check_cut.py out/minibag_v10.mp4
+  EXPECT: CUT_QC_OK
+- [x] G44: v10 on the review page + push + email (manual)
+  EVIDENCE: artifact Uns9WGWdYcjDBsdbbeCezb version 15
