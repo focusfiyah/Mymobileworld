@@ -9,7 +9,11 @@ import cv2, numpy as np
 
 CHAIN = set()
 ANCHOR = {}  # tried on S9 2026-10-27: jumps late in the clip; was {"S9": (440, 560, 600, 700)}          # plate box: the right handle base + bag top edge
-BOX = {"S4": (0.8, 1.9, 0.0, 2.7), "S9": (0.7, 1.4, 0.1, 2.4), "S7": (0.6, 1.3, 0.1, 1.9)}   # left, right, up, down, in charm widths/heights
+LIVE = {}
+TEMPORAL = set()                              # clean plate = per-pixel median of the clip's own frames where neither
+                                              # the AI charm nor the hand covers it (S4 v6: the still's hand shadow stuck)
+FIRST_PLATE = {"S4"}
+BOX = {"S4": (0.8, 1.9, 0.0, 3.5), "S9": (0.7, 1.4, 0.1, 2.4), "S7": (0.6, 1.3, 0.1, 1.9)}   # left, right, up, down, in charm widths/heights
 PLATE = {"S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
 
 
@@ -148,6 +152,48 @@ def run(sid, follow=False):
     out = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{FW}x{FH}", "-r", "24",
                             "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", f"clips/{sid}_track.mp4"],
                            stdin=subprocess.PIPE)
+    fplate = None
+    if sid in FIRST_PLATE:                                         # static camera: the clip's own first frame IS the clean plate
+        fplate = src[0].copy()                                     # (same light as every later frame); where the charm sat at
+        m0 = cv2.dilate(cv2.warpAffine(diff, Ms[0], (FW, FH)), np.ones((31, 31), np.uint8)) > 0   # frame 0, the old plate,
+        old = cv2.warpAffine(plate, Ms[0], (FW, FH), borderMode=cv2.BORDER_REPLICATE).astype(np.float32)
+        rg = cv2.dilate(m0.astype(np.uint8), np.ones((25, 25), np.uint8)).astype(bool) & ~m0          # colour-matched to it
+        old += fplate[rg].astype(np.float32).mean(0) - old[rg].mean(0)
+        fplate[m0] = np.clip(old[m0], 0, 255).astype(np.uint8)
+        # frame 0 still copies the still's own paint-out (a straight bag bottom); by 0.5 s the model has redrawn it,
+        # so take the 0.5 s frame wherever the AI charm, scarf, chain and hand are not
+        got = np.zeros(fplate.shape[:2], bool); out_p = fplate.astype(np.float32).copy()
+        for k5 in [12, 6, 18, 24, 30, 36, 48, 60, 72, 84, len(src) - 1]:   # each pixel from the first frame where it is clean
+            if k5 >= len(src): continue
+            f5 = src[k5]; fb5, fg5, fr5 = [f5[..., j].astype(int) for j in range(3)]
+            pale5 = (fr5 > 175) & (fg5 > 150) & (fb5 > 150) & ((fb5 - fg5 > 8) | (fr5 - fg5 > 15))
+            skin5 = (fr5 > 170) & (fg5 > 115) & (fb5 > 85) & (fr5 - fb5 > 30) & (fr5 > fg5)
+            dark5 = (fr5 < 50) & (fg5 < 32) & (fb5 < 40)
+            bad5 = cv2.dilate(charm_colours(f5, True) | (pale5 | skin5 | dark5).astype(np.uint8) * 255, np.ones((31, 31), np.uint8)) > 0
+            take = ~bad5 & ~got; out_p[take] = f5[take]; got |= take
+        soft = cv2.GaussianBlur(got.astype(np.float32), (0, 0), 3)[..., None]
+        fplate = np.clip(out_p * soft + fplate * (1 - soft), 0, 255).astype(np.uint8)
+        med = cv2.medianBlur(fplate, 21); spk = np.abs(fplate.astype(int) - med.astype(int)).max(2) > 26   # thin AI chain bits
+        spk = cv2.dilate(spk.astype(np.uint8), np.ones((5, 5), np.uint8)) > 0; fplate[spk] = med[spk]; print(sid, "plate: clean in some frame for", round(float(got.mean()) * 100, 1), "% of pixels")
+        cv2.imwrite(f"qc/plate_{sid}_first.png", fplate)
+    if sid in TEMPORAL:                                            # camera is static here: build the plate in frame space
+        acc = []; okm = []
+        for f in src[::3]:
+            fb4, fg4, fr4 = [f[..., j].astype(int) for j in range(3)]
+            pale = (fr4 > 175) & (fg4 > 150) & (fb4 > 150) & ((fb4 - fg4 > 8) | (fr4 - fg4 > 15))
+            skin4 = (fr4 > 120) & (fg4 > 70) & (fr4 - fb4 > 25) & (fr4 > fg4) & (fr4 - fg4 < 90)
+            vdark = (fr4 < 50) & (fg4 < 32) & (fb4 < 40)                                   # the AI charm's darkest inside
+            bad = cv2.dilate(charm_colours(f, True) | (pale | skin4 | vdark).astype(np.uint8) * 255, np.ones((21, 21), np.uint8)) > 0
+            acc.append(f); okm.append(~bad)
+        A = np.array(acc, np.float32); O = np.array(okm)[..., None]
+        A[~np.broadcast_to(O, A.shape)] = np.nan
+        tp = np.nanmedian(A, 0); miss = np.isnan(tp[..., 0])
+        base = cv2.resize(plate, (FW, FH)) if plate.shape[:2] != (FH, FW) else plate
+        fallback = cv2.warpAffine(plate, Ms[0], (FW, FH), borderMode=cv2.BORDER_REPLICATE).astype(np.float32)
+        tp[miss] = fallback[miss]; tplate = np.clip(tp, 0, 255).astype(np.uint8)
+        mm = cv2.dilate(miss.astype(np.uint8) * 255, np.ones((7, 7), np.uint8))          # never seen clean: paint it from the
+        tplate = cv2.inpaint(tplate, mm, 11, cv2.INPAINT_TELEA)                          # clip's own clean surroundings
+        cv2.imwrite(f"qc/plate_{sid}_temporal.png", tplate); print(sid, "temporal plate:", round(float(miss.mean()) * 100, 1), "% from the old plate")
     seam, gap = [], []; prev_go = None
     for i, f in enumerate(src):
         M = Ms[i].copy()
@@ -160,7 +206,7 @@ def run(sid, follow=False):
             tx, ty = M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]); rx, ry = ring_xy[i]
             M[0, 2] += rx - tx; M[1, 2] += max(0.0, (ry + 10) - ty) if ry + 10 > ty else (ry + 10) - ty
             _ring["p"] = (rx, ry)
-        wp = cv2.warpAffine(plate, Ms[i], (FW, FH), borderMode=cv2.BORDER_REPLICATE)
+        wp = fplate if fplate is not None else tplate if sid in TEMPORAL else cv2.warpAffine(plate, Ms[i], (FW, FH), borderMode=cv2.BORDER_REPLICATE)
         ws = cv2.warpAffine(still, M, (FW, FH), borderMode=cv2.BORDER_REPLICATE)
         wa = cv2.warpAffine(ov_a, M, (FW, FH)).astype(np.float32)[..., None] / 255
         # cover the AI charm: its colours near where the real one sits, grown a little, filled from the warped plate
@@ -172,6 +218,14 @@ def run(sid, follow=False):
         if L:                                                     # S9: loose colours, but only just around the charm body (not the bag's handle)
             near = np.zeros((FH, FW), np.uint8); near[int(Y + 0.25 * Hd):int(Y + 1.45 * Hd), max(0, int(X - 0.35 * Wd)):int(X + 1.35 * Wd)] = 255
             cov = cv2.dilate(charm_colours(f, True) & near, np.ones((9, 9), np.uint8))
+        elif sid in LIVE:                                         # cover only the AI charm's own colours, painted from the live
+            l, r_, t, b_ = LIVE[sid]                              # frame (default fill below), so real shadows come and go with
+            box2 = np.zeros((FH, FW), np.uint8)                   # the hand (S4 v6: the plate kept the still's hand shadow)
+            box2[max(0, int(Y - t * Hd)):int(Y + b_ * Hd), max(0, int(X - l * Wd)):int(X + r_ * Wd)] = 255
+            hy2 = int((M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]))[1]) if sid in HANG else 0; box2[:hy2 + 2] = 0
+            fb3, fg3, fr3 = [f[..., j].astype(int) for j in range(3)]
+            pale = (fr3 > 175) & (fg3 > 150) & (fb3 > 150) & ((fb3 - fg3 > 8) | (fr3 - fg3 > 15))     # the pale pink/blue scarf
+            cov = cv2.dilate((charm_colours(f, True) | (pale.astype(np.uint8) * 255)) & box2, np.ones((15, 15), np.uint8))
         else:
             cov = cv2.dilate(charm_colours(f) & roi, np.ones((13, 13), np.uint8))
         if sid in BOX:                                            # near-still camera: cover the whole box with the clean plate
@@ -183,12 +237,13 @@ def run(sid, follow=False):
             other = cv2.morphologyEx(other, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
             lea = (cv2.dilate(other, np.ones((3, 3), np.uint8)) == 0).astype(np.uint8)
             rest = cov.copy(); rest[lea > 0] = 0                       # curtain/tree/sofa in the box: only the AI's own colours,
-            if not os.environ.get("TP_NOLEATHER"): cov[lea == 0] = 0  # painted from the live frame (no parallax smear)
+            if not os.environ.get("TP_NOLEATHER") and fplate is None: cov[lea == 0] = 0  # live frame there (no parallax smear);
+            if fplate is not None: rest[:] = 0                         # a static first-frame plate lines up everywhere
             rest = cv2.dilate(charm_colours(f, True) & rest, np.ones((9, 9), np.uint8))
             if sid in HANG:                                       # never over the ring or the fingers above the charm
                 hy = int((M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]))[1]); cov[:hy + 2] = 0
                 pb_, pg_, pr_ = [wp[..., j].astype(int) for j in range(3)]   # the plate still holds the still's hand: skip it
-                skin = (pr_ > 140) & (pg_ > 95) & (pr_ - pb_ > 30) & (pr_ > pg_)
+                skin = (pr_ > 170) & (pg_ > 115) & (pb_ > 85) & (pr_ - pb_ > 30) & (pr_ > pg_)   # real skin, not lit brown leather
                 cov[cv2.dilate(skin.astype(np.uint8), np.ones((15, 15), np.uint8)) > 0] = 0
         if sid == "S8":                                           # never paint over the cuff's own white fur
             fi = f.astype(int); cov[(fi.min(2) > 160) & (fi.max(2) - fi.min(2) < 45)] = 0
@@ -198,16 +253,17 @@ def run(sid, follow=False):
             d = np.clip(f.astype(np.float32) - wp.astype(np.float32) + 128, 0, 255).astype(np.uint8)
             q = 4; ds = cv2.resize(d, (FW // q, FH // q), interpolation=cv2.INTER_AREA)
             fb, fg, fr = [f[..., j].astype(int) for j in range(3)]       # fingers next to the box must not tint it
-            fskin = ((fr > 140) & (fg > 95) & (fr - fb > 30) & (fr > fg)).astype(np.uint8) * 255
+            fskin = ((fr > 170) & (fg > 115) & (fb > 85) & (fr - fb > 30) & (fr > fg)).astype(np.uint8) * 255
             unk = cov | cv2.dilate(fskin, np.ones((9, 9), np.uint8)) | cv2.dilate(charm_colours(f), np.ones((9, 9), np.uint8))
             if sid in HANG: unk[:hy + 4] = 255                        # the AI ring and chain above the charm: not leather
             mq = cv2.dilate(cv2.resize(unk, (FW // q, FH // q), interpolation=cv2.INTER_NEAREST), np.ones((3, 3), np.uint8))
             ds = cv2.inpaint(ds, mq, 5, cv2.INPAINT_TELEA)
             off = cv2.GaussianBlur(cv2.resize(ds, (FW, FH), interpolation=cv2.INTER_LINEAR).astype(np.float32), (0, 0), 6) - 128
+            if fplate is not None: off = 0.0                       # the first-frame plate already has this clip's light
             fill = np.clip(wp.astype(np.float32) + off, 0, 255)
             if sid in HANG:                                       # where the plate shows the still's hand, use the live frame
                 pb_, pg_, pr_ = [wp[..., j].astype(int) for j in range(3)]
-                pskin = cv2.dilate(((pr_ > 140) & (pg_ > 95) & (pr_ - pb_ > 30) & (pr_ > pg_)).astype(np.uint8), np.ones((31, 31), np.uint8)) > 0
+                pskin = cv2.dilate(((pr_ > 170) & (pg_ > 115) & (pb_ > 85) & (pr_ - pb_ > 30) & (pr_ > pg_)).astype(np.uint8), np.ones((31, 31), np.uint8)) > 0
                 fill[pskin] = f[pskin]
             if rest.any():
                 inp = cv2.inpaint(f, rest, 7, cv2.INPAINT_TELEA).astype(np.float32)

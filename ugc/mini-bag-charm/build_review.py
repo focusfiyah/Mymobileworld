@@ -93,8 +93,12 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 .tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .kitimgs{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}} .kitimgs button,.cp,.svp{{font:600 .8rem var(--body);padding:6px 10px;border-radius:6px;border:1px solid var(--wine);background:var(--card);color:var(--wine);cursor:pointer}} details.box summary{{cursor:pointer;font:600 1rem var(--body)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · cut v6 ready (S7 curtain drift fixed) · real charm at its real size · $8.75 spent of $8.77 OK'd</p></header>
-<section class="ask"><h2>Cut v6 · S7 curtain drift fixed · 26.9 s</h2><video src="cut_v6.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · cut v7 ready (S4 shadow fixed) · real charm at its real size · $8.75 spent of $8.77 OK'd</p></header>
+<section class="ask"><h2>Cut v7 · S4 shadow fixed · 26.9 s</h2><video src="cut_v7.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<ul><li><b>S4 (0:08, sofa + hand):</b> the dark patch under the charm is gone. It came from the background I used to cover the AI's own charm: it had the old still's look baked in, so it stayed after the hand left. That background is now taken from the clip itself, so the bag and sofa look the same as the rest of the shot once the hand moves away.</li>
+<li>Drift strip checked over the S4 window in the final cut (every 0.2 s, 2x): charm on its ring, no shadow, no patch, no AI leftovers. QC: CUT_QC_OK, gate OK. $0.</li></ul>
+<figure><img src="cut_sheet_v7.jpg" alt="Cut v7 frames"><figcaption>12 frames across cut v7</figcaption></figure></section>
+<section class="box"><h2>Cut v6 (replaced by v7: Ralph saw the S4 shadow stay after the hand left)</h2><video src="cut_v6.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
 <ul><li><b>S7 (0:16, sofa by the window):</b> the patch behind the charm now stops at the handbag's edge, so the teal curtain beside it no longer smears as the camera moves. Checked on all 20 frames of the shot.</li>
 <li>S4 and S9 re-made the same way and checked frame by frame: clean. Everything else as in v5. QC: CUT_QC_OK, gate OK. $0.</li></ul>
 <figure><img src="cut_sheet_v6.jpg" alt="Cut v6 frames"><figcaption>12 frames across cut v6</figcaption></figure></section>
