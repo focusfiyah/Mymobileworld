@@ -165,7 +165,7 @@ products follow the same rules.
      the voice talks without lip sync, no product cut off or smeared (lip sync near the product), no forehead
      wrinkles, outfit/product consistent in every shot, frame-by-frame check where hands/product cross the face.
   4. Report running total vs quote at every step.
-- Voice: ElevenLabs **Grace** `Rh3oAQMqRVf78UIVpBoQ` (account name "Grace cloned"), Grace's ONE voice for every voiceover and skit line (Grace's pick 2026-10-20; Ralph 2026-10-21: "Yes Grace voice from now on"; every older clone is deleted). Render eleven_v4 0.4/0.8/0, then tighten + pace the way the power bank flashlight VO did (the sound Ralph approved), and pass the **echo gate: `grace/voice/echo.py` <= 150 ms** before the VO goes in a cut (Shnuggle next-bath read 171 ms and Ralph heard the echo). Steps: `grace/voice/README.md`.
+- Voice: ElevenLabs **Grace** `KI3g39BKXX7dow9OHoHI` (account name "Grace cloned v5"), Grace's ONE voice for every voiceover and skit line (Ralph 2026-10-28: "The new Grace voice is approved"; built from her own posted voiceovers, it replaced `Rh3oAQMqRVf78UIVpBoQ`). Render eleven_v4 0.4/0.8/0, then tighten + pace the way the power bank flashlight VO did (the sound Ralph approved), and pass the **echo gate: `grace/voice/echo.py` <= 150 ms** before the VO goes in a cut (Shnuggle next-bath read 171 ms and Ralph heard the echo). Steps: `grace/voice/README.md`.
 - Before the first paid image: confirm the real product (top, cap, label, size) and the hand/person details
   (nail length). Ask before every paid generation, with the exact cost. Free fixes first.
 - **Outfit changes go in the TEXT too** (Carpe v2, 2026-10-01, cost $1.52): the stills were edited to a grey tee but the
