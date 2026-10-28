@@ -48,8 +48,11 @@ Ralph: "we will be posting the AI videos that we do to House of Rameau to test t
 - Every AI video we make for Grace can also go here as a test. Post only on Ralph's OK for that video.
 - Its own version, not Grace's file: a different shot order, framing or grade (`remix.py` style), so TikTok does not
   read it as a copy of her post, unless Ralph says the same cut is fine.
-- Post with `TIKTOK_PUBLISH_VIDEO`, `account: tiktok_buck-flunk`, AI label on (`is_aigc`). The first post is also the
-  first real test of posting through the API: check it shows as public (an unaudited app may force private), and
-  say what it returned.
+- Route (schema checked 2026-10-28): `TIKTOK_UPLOAD_VIDEO` with `publish: false`, `is_aigc: true`,
+  `account: tiktok_buck-flunk` = a draft in the House of Rameau TikTok inbox. Ralph adds the TikTok Shop product link
+  and caption in the app and posts it: the posting API has no product-link field, and an unaudited app may only post
+  SELF_ONLY. Direct publish (`TIKTOK_PUBLISH_VIDEO`) only for a video with no product, on Ralph's word.
+- Never use the default TikTok account (`tiktok_bac-stouth`, @azariah2244): another session posts a digital product
+  there (Ralph 2026-10-28).
 - After posting: add it to `videos.json` (mark AI + the job folder), refresh views weekly, and log any sale in Grace's
   tracker (`grace/winners/winners.py pull <link> --sales N`) so the two accounts can be compared on the same video.

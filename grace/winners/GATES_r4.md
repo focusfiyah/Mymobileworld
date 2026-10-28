@@ -24,5 +24,5 @@ Scope: learn the edit style of Grace's selling PRITECH re-edit (saved as a lesso
   EXPECT: PASS rule
   EVIDENCE: 2026-10-28 PASS rule (main). Also: restored the 2026-10-27 drift-strip rule that my first push dropped from the handoff files; live doc 1pCwM9Pb... has both
 
-- [ ] V3: new clone + A/B test: only after Ralph OKs the ElevenLabs characters (ask with the exact count)
-  EVIDENCE: pending
+- [x] V3: new clone + A/B test: only after Ralph OKs the ElevenLabs characters (ask with the exact count)
+  EVIDENCE: 2026-10-28 Ralph: "go ahead with voice clone test". Clone KI3g39BKXX7dow9OHoHI from 6 own VOs (PRITECH Oct 23 held out), 494 chars rendered. Closeness to her held-out real take 0.893 vs current 0.804, echo 150 ms. grace/voice/r5/ab/scores.json, review https://claude.ai/artifact/8ffWs9JrDiC9Q5GS9GsZs3. Swap waits on Ralph/Grace.

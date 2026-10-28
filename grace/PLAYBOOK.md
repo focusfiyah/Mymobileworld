@@ -126,10 +126,11 @@ products follow the same rules.
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - Overlays: search-result "screenshot" card timed to the claim word, condition photos (never before/after),
   animated CTA. No burned-in captions unless Ralph asks.
-- **Grace's remix style (2026-10-28, PRITECH sold after she re-edited our V1):** her real product footage opens and closes
-  the video (hook + a fast CTA run ending on the real box), our AI clips carry the pain and feature lines, one clip per
-  phrase cut on its first word, the face-use shot on the payoff line. Deliver AI clips separately too so she can remix.
-  Shot map and rules: `grace/winners/STYLE_pritech.md` (Black Friday PRITECH brief there, not made yet).
+- **Grace's edit style, built into our AI videos (2026-10-28, from her PRITECH re-edit that sold; Ralph: never mix her
+  real footage into ours):** open on the product working in a hand from frame 0, the pain lines show the pain, then one
+  clip per feature on its words, every cut on a phrase's first word (middle shots ~1.5 s, 0.2-0.6 s cuts over the CTA),
+  the face-use shot on the payoff line, close on a fast run of moving product-in-hand shots. Shot map and rules:
+  `grace/winners/STYLE_pritech.md` (Black Friday PRITECH brief there, not made yet).
 
 ## 6. Production notes
 - **Product lock + budget (Ralph 2026-10-21: "product lock on all products ... Google Omni"; "spending too much on redos ... blowing through my budget"; October Kie spend about $144 by `grace/spend.py`):** every clip that shows the product is a Google Gemini Omni 1.1 Flash take, first in Ralph's Google Flow phone app until his credits run out (Ralph 2026-10-24, CLAUDE.md), otherwise on Kie (Ralph 2026-10-22: "Use Omni on kie not thru the API key"; 4 s $0.315) from the approved still + a real close-up of each logo + the sheet (`ugc-product-ad` `references/product-lock.md`, `scripts/omni_clip.py`); Seedance Mini only where the product is not in frame; pasting real labels/pixels back is the last resort, with Ralph's OK per shot. Every prompt via prompt-master. Every plan and redo question shows `python3 grace/spend.py` (month so far vs cap; no cap in October 2026, $100/month from November, Ralph 2026-10-21); at the cap `grace/gate.py` refuses all paid runners until Ralph's OK is in `grace/spend.json`. Offer to let a small flaw go before quoting a fix (Vans gift shot below). **Production Book + budget lock + paid-task ledger (Ralph 2026-10-22):** the plan is the job's `BOOK.md`; no paid call before his recorded OK on it, spend never passes its TOTAL plus extras he OKs, and each paid task is saved and pushed before Kie is asked so no session pays twice (CLAUDE.md, `grace/gate.py`).
