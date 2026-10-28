@@ -2,11 +2,15 @@
 
 Name: **Always Answered** (Ralph, 2026-10-26). Price approved as written; extras (domain, chamber, short-video account, cold email) OFF.
 
-## Front Desk plan
+## Plans (Ralph 2026-10-28: "3 plans (Recommended)"; the page shows Front Desk as most popular)
+
+**Calls Only:** $197 a month + $297 setup, 200 call minutes. **Front Desk:** $397 a month + $497 setup, 500 minutes, adds review requests and a monthly review report. **Pro:** $597 a month + $497 setup, 1,000 minutes, adds review replies in the owner's voice, 2 phone lines and a monthly check-in call. Month to month, cancel any time, extra minutes $0.25 each.
+
+## Front Desk plan (details below)
 
 **Price:** $397 a month, $497 one-time setup. Month to month, cancel any time.
 
-**Founding offer:** the first 3 businesses pay no setup fee and get the first 14 days free, in exchange for a short testimonial if they're happy.
+**Black Friday special (Ralph 2026-10-28, replaces the founding offer):** half off the setup fee for anyone who agrees to share a short testimonial after their first month; sign up by November 30. Never say on the site or in calls that the business is new.
 
 **Calls (pain #1):**
 - An assistant answers every call, day and night, on the business's own number (they forward calls to us; no new number for their customers).
