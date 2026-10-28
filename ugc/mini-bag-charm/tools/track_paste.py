@@ -9,12 +9,13 @@ import cv2, numpy as np
 
 CHAIN = set()
 ANCHOR = {}  # tried on S9 2026-10-27: jumps late in the clip; was {"S9": (440, 560, 600, 700)}          # plate box: the right handle base + bag top edge
-LIVE = {}
+LIVE = {"S7": (0.6, 1.3, 0.1, 1.9)}    # v8: S7 covers only the AI charm's own colours from the live frame (the still's
+                                        # background patch stopped matching as the camera pushed in: pink blob, faint blocks)
 TEMPORAL = set()                              # clean plate = per-pixel median of the clip's own frames where neither
                                               # the AI charm nor the hand covers it (S4 v6: the still's hand shadow stuck)
-FIRST_PLATE = {"S4"}
-BOX = {"S4": (0.8, 1.9, 0.0, 3.5), "S9": (0.7, 1.4, 0.1, 2.4), "S7": (0.6, 1.3, 0.1, 1.9)}   # left, right, up, down, in charm widths/heights
-PLATE = {"S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
+FIRST_PLATE = {"S4", "S8L"}                     # S8L: still camera, charm and hand move away: clean plate from its own frames
+BOX = {"S4": (0.8, 1.9, 0.0, 3.5), "S9": (0.7, 1.4, 0.1, 2.4)}   # left, right, up, down, in charm widths/heights
+PLATE = {"S8L": "rooms/roomE_stocking2_crop.png", "S4": "stills/plate_S4.png", "S7": "stills/S7bg.png", "S8": "rooms/roomE_stocking2_crop.png", "S9": "stills/S9bg.png"}
 
 
 def frames(path):
@@ -39,11 +40,28 @@ GAP_MAX = 12.0                                # px: the pasted charm must stay o
 # v8 (Grace 2026-10-28, 'she can tell it was pasted'): the real charm swings from where it hangs (S4: a pendulum driven
 # by the hand's moves; S7/S9: a slow small sway), matches the footage's softness, light changes and grain, and takes
 # a little of the room's colour on its edge. SOFT = blur in frame px (set with tools/hue_check.py --sharp).
-PIVOT = {"S4": (338, 749), "S7": (537, 498), "S9": (529, 672)}
+PIVOT = {"S4": (338, 749), "S7": (537, 534), "S9": (529, 672)}
 SWAY = {"S7": 0.8, "S9": 0.8}                 # idle sway, degrees; S4 is the pendulum
-SOFT = {"S4": 0.55, "S7": 0.55, "S8": 0.35, "S9": 0.7}
-HANG = {"S4": (338, 749)}                     # still px where the charm's handles meet the chain (composite.swap hang)
+SOFT = {"S4": 0.55, "S7": 0.55, "S8": 0.35, "S8L": 0.35, "S9": 0.7}
+HANG = {"S4": (338, 749), "S7": (537, 534)}       # S7 v8: hang from the clip's own AI clasp (my drawn ring + patch smeared the handle)
+GAP = {"S4": 2, "S7": 1}                          # S4 v8: hangs right under the AI's own ring and chain (none drawn)                         # px of chain between the ring's bottom and the charm's handles
+STAY = set()                                      # tried on S4 2026-10-28: the charm then hung from nothing once the hand let go
+FOLLOW_RING = {"S4"}                     # still px where the charm's handles meet the chain (composite.swap hang)
 _ring = {}
+
+
+def arm_mask(f):
+    """S8L: the hand and arm only = skin-coloured blobs that reach in from a frame edge (+ the French tips next to
+    them). A plain skin colour test also hit the charm and the wooden mantel (see-through charm, 2026-10-28)."""
+    b, g, r = [f[..., j].astype(int) for j in range(3)]
+    sk = ((r > 120) & (g > 75) & (b > 55) & (r > g) & (g > b * 0.9) & (r - b > 25) & (g > r * 0.5)).astype(np.uint8)
+    sk = cv2.morphologyEx(sk, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(sk); keep = np.zeros_like(sk)
+    for k in range(1, n):
+        X_, Y_, W_, H_ = st[k, :4]                                 # touches the top, left or right edge (the arm comes in there)
+        if st[k, 4] > 1500 and (Y_ <= 3 or X_ <= 3 or X_ + W_ >= f.shape[1] - 3): keep[lab == k] = 1
+    nails = (np.minimum(np.minimum(r, g), b) > 175) & (cv2.dilate(keep, np.ones((11, 11), np.uint8)) > 0)
+    return (keep | nails.astype(np.uint8)).astype(np.uint8)
 
 
 def hang_chain(f, g, M, hang):
@@ -131,6 +149,18 @@ def run(sid, follow=False):
                 if prev is None: prev = (M0x := Ms[0] @ np.array([x + w / 2, y + h * 0.6, 1.0]))
                 win = np.zeros_like(m); px, py = int(prev[0]), int(prev[1]); win[max(0, py - 110):py + 110, max(0, px - 90):px + 90] = 255; m &= win
                 m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+            elif sid == "S8L":                                    # v8 (Ralph 2026-10-28: 'see the motion of putting into the
+                b, g, r = [f[..., i].astype(int) for i in range(3)]   # stocking'): the AI charm's burgundy body as the hand moves it
+                m = ((r > 45) & (r < 160) & (g < r * 0.45) & (b > g * 1.05) & (b < r * 0.8)).astype(np.uint8) * 255
+                m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+                # the stocking's own shaded folds and loop match these colours too: take the blob nearest the charm's last spot
+                if prev is None: prev = Ms[0] @ np.array([x + w / 2, y + h * 0.5, 1.0])
+                n8, lab8, st8, cen8 = cv2.connectedComponentsWithStats(m); best8 = None
+                for k8 in range(1, n8):
+                    if st8[k8, 4] < 400: continue
+                    d8 = np.hypot(cen8[k8][0] - prev[0], cen8[k8][1] - prev[1])
+                    if d8 < 110 and (best8 is None or d8 < best8[0]): best8 = (d8, k8)
+                m = (lab8 == best8[1]).astype(np.uint8) * 255 if best8 else np.zeros_like(m)
             else:
                 m[:int(FH * 0.45)] = 0
             ys, xs = np.nonzero(m)
@@ -140,6 +170,24 @@ def run(sid, follow=False):
         hx = np.array(hx, float); good = ~np.isnan(hx[:, 0])
         for j in range(2): hx[:, j] = np.interp(np.arange(len(hx)), np.nonzero(good)[0], hx[good, j])
         hx = np.array([hx[max(0, i - 4):i + 5].mean(0) for i in range(len(hx))])
+        if sid == "S8L":                                           # the true-size charm's handles go to the fingertips while the
+            P0 = Ms[0] @ np.array([x + w / 2, y, 1.0]); tg = []; top0 = None   # hand holds it (the AI drew a bigger charm, so
+            for i, f in enumerate(src):                            # following its centre left a gap under the fingers)
+                b, g, r = [f[..., j].astype(int) for j in range(3)]
+                m = ((r > 45) & (r < 160) & (g < r * 0.45) & (b > g * 1.05) & (b < r * 0.8)).astype(np.uint8)
+                cxy = hx[i]; n8, lab8, st8, cen8 = cv2.connectedComponentsWithStats(m); bt = None
+                for k8 in range(1, n8):
+                    if st8[k8, 4] > 400 and np.hypot(cen8[k8][0] - cxy[0], cen8[k8][1] - cxy[1]) < 40: bt = st8[k8, 1]
+                if bt is None: tg.append((np.nan, np.nan)); continue
+                if top0 is None: top0 = bt - P0[1]
+                arm = arm_mask(f); ys, xs = np.nonzero(arm[:, max(0, int(cxy[0]) - 90):int(cxy[0]) + 90])
+                tip = ys.max() if len(ys) else -1
+                ty_ = (tip - 6) if tip >= bt - 35 else bt - top0
+                tg.append((cxy[0] - (hx[0][0] - P0[0]), ty_))
+            tg = np.array(tg, float); ok8 = ~np.isnan(tg[:, 0])
+            for j in range(2): tg[:, j] = np.interp(np.arange(len(tg)), np.nonzero(ok8)[0], tg[ok8, j])
+            hx = np.array([tg[max(0, i - 2):i + 3].mean(0) for i in range(len(tg))])
+            hx[:, 0] += hx[0][0] - P0[0] if False else 0
     ring_xy = None
     if sid in HANG:                                                # where the AI ring hangs in each frame, smoothed
         pts = []
@@ -147,11 +195,26 @@ def run(sid, follow=False):
             tx, ty = Ms[i] @ np.array([HANG[sid][0], HANG[sid][1], 1.0])
             b_, g_, r_ = [f[..., j].astype(int) for j in range(3)]
             gold = ((r_ > 140) & (g_ > 95) & (b_ < g_ * 0.72) & (r_ > b_ + 50)).astype(np.uint8)
-            y0, y1, x0, x1 = int(ty - 150), int(ty - 2), int(tx - 60), int(tx + 110)
-            ys, xs = np.nonzero(gold[y0:y1, x0:x1])
-            if len(ys) > 25:
-                yb = ys.max(); pts.append((x0 + float(np.median(xs[ys >= yb - 4])), y0 + float(yb)))
-            else: pts.append((np.nan, np.nan))
+            prev = next((p for p in reversed(pts) if not np.isnan(p[0])), None) if sid in FOLLOW_RING else None
+            if prev is None:
+                y0, y1, x0, x1 = int(ty - 150), int(ty - 2), int(tx - 60), int(tx + 110)
+                ys, xs = np.nonzero(gold[y0:y1, x0:x1])
+                if len(ys) > 25:
+                    yb = ys.max(); pts.append((x0 + float(np.median(xs[ys >= yb - 4])), y0 + float(yb)))
+                else: pts.append((np.nan, np.nan))
+                continue
+            # v8 (Ralph 2026-10-28, S4 '6-9s the bag does something weird'): when the hand lets go, the AI ring drops below the
+            # charm's old top and the lowest-gold rule grabbed the rim clasp (charm jumped up, a chain drawn toward the hand).
+            # Follow the same ring frame to frame: the gold blob nearest its last bottom point.
+            px_, py_ = prev; y0, y1, x0, x1 = max(0, int(py_ - 70)), int(py_ + 45), max(0, int(px_ - 60)), int(px_ + 60)
+            n_, lab, st, cen = cv2.connectedComponentsWithStats(gold[y0:y1, x0:x1])
+            best = None
+            for k in range(1, n_):
+                if st[k, 4] < 20: continue
+                ys, xs = np.nonzero(lab == k); yb = ys.max(); cand = (x0 + float(np.median(xs[ys >= yb - 4])), y0 + float(yb))
+                dist = np.hypot(cand[0] - px_, cand[1] - py_)
+                if best is None or dist < best[0]: best = (dist, cand)
+            pts.append(best[1] if best is not None and best[0] < 60 else (np.nan, np.nan))
         pts = np.array(pts); ok = ~np.isnan(pts[:, 0])
         for j in range(2): pts[:, j] = np.interp(np.arange(len(pts)), np.nonzero(ok)[0], pts[ok, j])
         ring_xy = np.array([pts[max(0, i - 3):i + 4].mean(0) for i in range(len(pts))])
@@ -162,9 +225,9 @@ def run(sid, follow=False):
         t_, w_ = 0.0, 0.0
         for i in range(n):
             for _ in range(8):
-                dt = 1 / fps / 8; acc = -(g_ / Lp) * np.sin(t_) - c_ * w_ - ax_[i] / Lp * np.cos(t_)
+                dt = 1 / fps / 8; acc = -(g_ / Lp) * np.sin(t_) - c_ * w_ - 0.4 * ax_[i] / Lp * np.cos(t_)
                 w_ += acc * dt; t_ += w_ * dt
-            th[i] = np.clip(np.degrees(t_), -12, 12)
+            th[i] = np.clip(np.degrees(t_), -4, 4)
     elif sid in SWAY:
         th = SWAY[sid] * np.sin(2 * np.pi * np.arange(n) / fps / 2.4)
     lum = []
@@ -216,7 +279,9 @@ def run(sid, follow=False):
         soft = cv2.GaussianBlur(got.astype(np.float32), (0, 0), 3)[..., None]
         fplate = np.clip(out_p * soft + fplate * (1 - soft), 0, 255).astype(np.uint8)
         med = cv2.medianBlur(fplate, 21); spk = np.abs(fplate.astype(int) - med.astype(int)).max(2) > 26   # thin AI chain bits
-        spk = cv2.dilate(spk.astype(np.uint8), np.ones((5, 5), np.uint8)) > 0; fplate[spk] = med[spk]; print(sid, "plate: clean in some frame for", round(float(got.mean()) * 100, 1), "% of pixels")
+        spk = cv2.dilate(spk.astype(np.uint8), np.ones((5, 5), np.uint8)) > 0
+        if sid == "S8L": spk[:] = False                            # keep the pine needles sharp
+        fplate[spk] = med[spk]; print(sid, "plate: clean in some frame for", round(float(got.mean()) * 100, 1), "% of pixels")
         cv2.imwrite(f"qc/plate_{sid}_first.png", fplate)
     if sid in TEMPORAL:                                            # camera is static here: build the plate in frame space
         acc = []; okm = []
@@ -246,7 +311,9 @@ def run(sid, follow=False):
             M[:, 2] += (hx[i] - p0) - hang0
         if ring_xy is not None:                                    # hang the charm 10 px of chain below the ring
             tx, ty = M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]); rx, ry = ring_xy[i]
-            M[0, 2] += rx - tx; M[1, 2] += max(0.0, (ry + 10) - ty) if ry + 10 > ty else (ry + 10) - ty
+            if sid not in STAY:                                   # v8 (Ralph 2026-10-28, '6-9s the bag does something weird'):
+                gp = GAP.get(sid, 10); M[0, 2] += rx - tx; M[1, 2] += (ry + gp) - ty   # S4's AI hand
+                # LIFTS the ring; pinning the charm under it yanked the charm up. STAY: the charm hangs where it is, the chain stretches
             _ring["p"] = (rx, ry)
         if sid in PIVOT and th[i]:                                 # swing about where it hangs (in still px)
             px_, py_ = PIVOT[sid]; R = cv2.getRotationMatrix2D((float(px_), float(py_)), float(th[i]), 1.0)
@@ -260,7 +327,7 @@ def run(sid, follow=False):
         # cover the AI charm: its colours near where the real one sits, grown a little, filled from the warped plate
         bx = cv2.boundingRect(cv2.warpAffine(diff, M, (FW, FH)))
         roi = np.zeros((FH, FW), np.uint8); X, Y, Wd, Hd = bx
-        e = 0.35 if sid == 'S8' else 1.0               # S8: the AI charm sits where the real one does; spare the red stocking
+        e = 0.35 if sid in ('S8', 'S8L') else 1.0               # S8: the AI charm sits where the real one does; spare the red stocking
         roi[max(0, Y - int(e * Hd)):Y + int((1 + e) * Hd), max(0, X - int(e * Wd)):X + int((1 + e) * Wd)] = 255
         L = sid == "S9"
         if L:                                                     # S9: loose colours, but only just around the charm body (not the bag's handle)
@@ -273,7 +340,11 @@ def run(sid, follow=False):
             hy2 = int((M @ np.array([HANG[sid][0], HANG[sid][1], 1.0]))[1]) if sid in HANG else 0; box2[:hy2 + 2] = 0
             fb3, fg3, fr3 = [f[..., j].astype(int) for j in range(3)]
             pale = (fr3 > 175) & (fg3 > 150) & (fb3 > 150) & ((fb3 - fg3 > 8) | (fr3 - fg3 > 15))     # the pale pink/blue scarf
-            cov = cv2.dilate((charm_colours(f, True) | (pale.astype(np.uint8) * 255)) & box2, np.ones((15, 15), np.uint8))
+            if sid == "S7": pale = (fr3 > 175) & (fg3 > 140) & (fb3 > 150) & ((fb3 - fg3 > 12) | (fr3 - fg3 > 25))   # not the cream sofa
+            if sid == "S7":                                       # + the AI scarf's light grey tail on the bag front (below the rim)
+                lt = (np.minimum(np.minimum(fr3, fg3), fb3) > 125); lt[:hy2 + 30] = False; pale = pale | lt
+            cov = cv2.dilate((charm_colours(f, sid != "S7") | (pale.astype(np.uint8) * 255)) & box2, np.ones((15, 15), np.uint8))   # S7: strict
+            # colours (loose ones match the handbag's own dark rim)
         else:
             cov = cv2.dilate(charm_colours(f, sid == "S8") & roi, np.ones((13, 13), np.uint8))   # S8 v8: loose, the AI charm's dark edge peeked out late
         if sid in BOX:                                            # near-still camera: cover the whole box with the clean plate
@@ -322,15 +393,27 @@ def run(sid, follow=False):
                 inp = fill.copy() if sid == "S9" else cv2.inpaint(f, rest, 7, cv2.INPAINT_TELEA).astype(np.float32)   # S9 v8: the real
                 # photo behind the AI scarf (locked camera), light-matched; inpainting smeared the bag edge
                 fill = np.where((rest > 0)[..., None], inp, fill); cov = np.maximum(cov, rest)
+            restm = rest.copy() if rest.any() else None
             cov = cv2.GaussianBlur(cov, (31, 31), 0)
-        elif sid == "S8":                                         # v8: the AI charm is bigger than the real one; its handle
+            if sid == "S7" and fplate is None:                    # v8: the soft edge stays on the leather (it left a faint
+                ls = cv2.GaussianBlur(lea.astype(np.float32), (0, 0), 2)          # block on the curtain)
+                cov = cov.astype(np.float32) * ls
+                if restm is not None: cov = np.maximum(cov, cv2.GaussianBlur(restm, (9, 9), 0).astype(np.float32))
+                cov = np.clip(cov, 0, 255).astype(np.uint8)
+        elif sid in ("S8", "S8L"):                                # v8: the AI charm is bigger than the real one; its handle
             top = np.zeros((FH, FW), np.uint8)                    # top and scarf left a pale ghost when inpainted. Cover a taller
-            top[max(0, Y - int(0.7 * Hd)):Y + int(0.6 * Hd), max(0, X - int(0.4 * Wd)):X + int(1.4 * Wd)] = 255   # area and fill it
+            rt, dn = (2.4, 1.1) if sid == "S8L" else (1.4, 0.6)   # S8L: the AI scarf ribbons trail further right and down
+            top[max(0, Y - int(0.7 * Hd)):Y + int(dn * Hd), max(0, X - int(0.4 * Wd)):X + int(rt * Wd)] = 255   # area and fill it
             fb3, fg3, fr3 = [f[..., j].astype(int) for j in range(3)]                                 # from the real photo,
             pale = (fr3 > 150) & (fb3 > 130) & ((fb3 - fg3 > 8) | (fr3 - fg3 > 15)) & (np.abs(fr3 - fb3) < 90)   # camera-tracked
-            cov = np.maximum(cov, cv2.dilate((charm_colours(f, True) | pale.astype(np.uint8) * 255) & top, np.ones((15, 15), np.uint8)))
-            fi = f.astype(int); cov[(fi.min(2) > 160) & (fi.max(2) - fi.min(2) < 45)] = 0
-            wpl = cv2.warpAffine(plate, Ms[i], (FW, FH), borderMode=cv2.BORDER_REPLICATE).astype(np.float32)
+            kd = 21 if sid == "S8L" else 15
+            cov = np.maximum(cov, cv2.dilate((charm_colours(f, True) | pale.astype(np.uint8) * 255) & top, np.ones((kd, kd), np.uint8)))
+            fi = f.astype(int); fur9 = (fi.min(2) > 160) & (fi.max(2) - fi.min(2) < 45)   # S8L: the AI's pale
+            if sid == "S8L": fur9 &= ~(((fi[..., 2] - fi[..., 1]) > 14) | ((fi[..., 0] - fi[..., 1]) > 26))   # fur: r-g <= 7, b-g <= 23 (measured)
+            cov[fur9] = 0
+            if sid == "S8L":                                      # pink ribbon passed the looser fur test and stayed as a ghost
+                cov[cv2.dilate(arm_mask(f), np.ones((5, 5), np.uint8)) > 0] = 0
+            wpl = fplate.astype(np.float32) if fplate is not None else cv2.warpAffine(plate, Ms[i], (FW, FH), borderMode=cv2.BORDER_REPLICATE).astype(np.float32)
             ring2 = (cv2.dilate(cov, np.ones((21, 21), np.uint8)) > 0) & (cov == 0)
             fill = wpl + (f[ring2].astype(np.float32).mean(0) - wpl[ring2].mean(0) if ring2.any() else 0)
         else:
@@ -353,6 +436,18 @@ def run(sid, follow=False):
                     sl.append(np.linalg.norm(np.median(fl[ii], 0) - np.median(fl[oo], 0)))
             seam.append(sl)
         prev_go = go
+        if sid == "S8L":                                          # fingers (and their French tips) stay in front of the charm
+            fb7, fg7, fr7 = [f[..., j].astype(int) for j in range(3)]
+            hand = cv2.GaussianBlur((arm_mask(f) * 255).astype(np.uint8), (5, 5), 0).astype(np.float32)[..., None] / 255
+            ais = (fr7 > 45) & (fr7 < 160) & (fg7 < fr7 * 0.45) & (fb7 > fg7 * 1.05) & (fb7 < fr7 * 0.8)
+            ys_, xs_ = np.nonzero(ais & (cv2.warpAffine(diff, M, (FW, FH)) > 0) | ais & (roi > 0))
+            ai_bot = ys_.max() if len(ys_) else 0
+            ys2, _ = np.nonzero(wa[..., 0] > 0.5); our_bot = ys2.max() if len(ys2) else 0
+            if our_bot > ai_bot + 6:                              # the AI charm's bottom is hidden: it is inside the cuff
+                fi = f.astype(int); fur = ((fi.min(2) > 165) & (fi.max(2) - fi.min(2) < 40)).astype(np.uint8) * 255
+                fur = cv2.GaussianBlur(cv2.morphologyEx(fur, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)), (5, 5), 0)
+                wa = wa * (1 - fur.astype(np.float32)[..., None] / 255)
+            wa = wa * (1 - hand)
         if sid == "S8":                                           # the real charm stays BEHIND this frame's own white cuff
             fi = f.astype(int); fur = ((fi.min(2) > 165) & (fi.max(2) - fi.min(2) < 40)).astype(np.uint8) * 255
             fur = cv2.GaussianBlur(cv2.morphologyEx(fur, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8)), (5, 5), 0)

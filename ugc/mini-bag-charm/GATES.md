@@ -66,3 +66,19 @@
   EXPECT: CUT_QC_OK
 - [x] G35: v8 on the review page with v7 beside it + push + email (manual)
   EVIDENCE: artifact Uns9WGWdYcjDBsdbbeCezb version 13
+
+# Phase 7 (2026-10-28, Ralph on v8: "6-9s the bag does something weird", "Drift in at these points" (S7 0:17), "wanted to see the motion of putting into stocking stuffer"; OK $0.49 for the S8 clip)
+- [x] G36: S4 charm hangs from the AI's own ring and chain (no jump, no drawn chain toward the hand) (manual)
+  EVIDENCE: qc/v9_strip_S4.jpg looked at; ring followed frame to frame (FOLLOW_RING)
+- [x] G37: S7 handle, rim and curtain clean at 0:15-0:18, charm on the AI clasp (manual)
+  EVIDENCE: qc/v9_strip_S7.jpg + 2x crops frames 5/30/55/74
+- [x] G38: S8 shows the hand lowering the charm into the stocking, fingers in front, cuff hides it inside, no ghosts (manual)
+  EVIDENCE: qc/v9_strip_S8.jpg; Seedance task a3ef23d1ab9c87a72c2435794f8bedcd $0.16
+- [x] G39: hue and sharpness hold on all four pasted shots
+  CHECK: python3 tools/hue_check.py && python3 tools/hue_check.py --sharp
+  EXPECT: SHARP_OK
+- [x] G40: cut QC passes on v9
+  CHECK: python3 qc/check_cut.py out/minibag_v9.mp4
+  EXPECT: CUT_QC_OK
+- [x] G41: v9 on the review page + push + email (manual)
+  EVIDENCE: artifact Uns9WGWdYcjDBsdbbeCezb version 14

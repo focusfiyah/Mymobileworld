@@ -5,7 +5,7 @@ import sys
 from PIL import Image, ImageDraw, ImageFilter, ImageEnhance
 CUT, ORIG = "refs/cutout/charm_real_cutout.png", "refs/real/listing_burgundy_10of10.jpg"
 # hang = point on the handbag handle base where the ring goes; body = charm bag-body width in px; bright = light match
-SPEC = {"S7": dict(bg="stills/S7bg.png", hang=(537, 498), body=92, bright=0.86, tilt=-4),
+SPEC = {"S7": dict(bg="stills/S7bg.png", hang=(537, 498), body=92, bright=0.86, tilt=-4, ring=False),   # v8: the clip's own AI clasp holds it
         "S9": dict(bg="stills/S9bg.png", hang=(529, 672), body=92, bright=0.95, tilt=-4)}
 
 
@@ -76,6 +76,9 @@ def build(sid):
     xs = [x for x in range(c.width) if al.getpixel((x, top))]; ax, ay = sum(xs) // len(xs), top
     ox, oy = hx - ax, hy + 10 + chain_len - ay
     c = look(c, bg, ox, oy); out = bg.copy(); out.alpha_composite(shadow(bg.size, c, ox, oy))
+    if not s.get("ring", True):                          # no drawn ring/chain: the charm's handles at the hang point
+        print(sid, "charm top (HANG point for track_paste):", (hx, oy + ay)); out.alpha_composite(c, (ox, oy))
+        out.convert("RGB").save(f"stills/{sid}.png"); return
     S = 4; lay = Image.new("RGBA", (W * S, H * S), (0, 0, 0, 0)); d = ImageDraw.Draw(lay)
     r = 9 * S; d.ellipse([hx * S - r, hy * S - r * 1.15, hx * S + r, hy * S + r * 1.15], outline=(150, 110, 52, 255), width=int(2.4 * S))
     d.ellipse([hx * S - r + 3, hy * S - r * 1.15 + 3, hx * S + r - 3, hy * S + r * 1.15 - 3], outline=(214, 178, 112, 255), width=S)

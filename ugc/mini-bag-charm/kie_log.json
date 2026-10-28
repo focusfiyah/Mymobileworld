@@ -2213,5 +2213,40 @@
   "still": "stills/S9.png",
   "ok": true,
   "score": 0.972
+ },
+ {
+  "t": "2026-10-28 03:05:48",
+  "submitted": "a3ef23d1ab9c87a72c2435794f8bedcd",
+  "prompt": "Animate this image as the first frame. The camera stays completely still for the whole clip: no zoom, no push-in, no clo"
+ },
+ {
+  "t": "2026-10-28 03:07:22",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame. The camera stays completely still for the whole clip: no zoom, no push-in, no close-up. For the first half second nothing moves. Then ONE hand comes in from the TOP edge of the frame, pinches the mini bag charm's two handles between its thumb and two fingers, and lifts the charm slowly and smoothly straight up out of the stocking, until the charm leaves the frame through the top edge just before the clip ends. The charm hangs level under the fingers the whole time. The stocking and its white fur cuff stay still and keep their shape, and the stocking is empty after the charm leaves. The burgundy mini bag charm stays exactly as in the first frame for the whole clip: the same open-top bucket shape and the same TINY size (9.5 cm tall with its handles, 5.5 cm wide, never growing), matte pebbled burgundy leather, two rolled handles with darker edges, the gold rectangular buckle and the gold padlock with three engraved lines and no letters, four small gold feet, and the pink, light blue and white twilly scarf on its handle. It never changes shape, size or colour, never turns, flips or swings, and no text, letters or logos appear on it. The hand: warm medium-brown skin, short French-tip nails, two thin gold rings, one thin gold bracelet; the wrist comes in from the top edge, one hand only, it keeps the same pinch and never lets go of the charm. No ring, chain or key appears; nothing else goes into or comes out of the stocking. Bright neutral daylight that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/mini-bag-charm/1793156729537-beoo7gi071a.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a3ef23d1ab9c87a72c2435794f8bedcd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793156835903-9eta8gciils.mp4"
+   ]
+  },
+  "costTime": 91,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-28 03:07:24",
+  "clip_check": "clips/S8L_seedance.mp4",
+  "still": "stills/S8L.png",
+  "ok": true,
+  "score": 0.927
  }
 ]
