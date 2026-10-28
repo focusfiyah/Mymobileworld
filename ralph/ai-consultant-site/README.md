@@ -1,6 +1,6 @@
 # Ralph AI consultant site (2026-10-28)
 
-Status: v2 preview sent 2026-10-28 (Ralph: clips only from videos that sold incl. flashlight + castor oil; YouTube = the new-look thumbnails). All automatic checks pass; waiting on his OK to go live. Cost $0.
+Status: LIVE at https://focusfiyah.github.io (2026-10-28, Ralph OK). 12 of 13 gates met; open: form activation (Ralph taps the FormSubmit email), then a test message + swap in the FormSubmit alias. Cost $0.
 
 - Site source: repo focusfiyah/focusfiyah.github.io (`index.html`, `media/`, `PRODUCT.md`), live address https://focusfiyah.github.io once pushed to main (GitHub Pages, free). Custom domain later (Ralph).
 - Review page: https://claude.ai/artifact/RA6YtvCKGPqkztYQuNWtmg (v1 = 3 mockups, v2 = full page preview).
