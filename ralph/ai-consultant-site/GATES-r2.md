@@ -48,3 +48,9 @@ MP = ralph/ai-consultant-site/r2
   CHECK: cd /home/user/Mymobileworld && for c in render hero privacy media copy motion detect form live; do timeout 300 python3 ralph/ai-consultant-site/verify.py $c | tail -1; done | grep -c _OK
   EXPECT: 9
   EVIDENCE: met 2026-10-29: 9 of 9 (detector: orange text deepened to #d03709 for 4.6:1, band inset, form fields regular weight; motion 2/2 scroll effects, marquee loop is a warning only, kept for Ralph's "more dynamic")
+
+## Apps section (Ralph 2026-10-29: "mention that we develop apps, like the RAM app we will be developing")
+- [x] G12: the live page has an Apps section that names RAM and marks it as in development (nothing built yet, so no "running since")
+  CHECK: curl -s https://focusfiyah.github.io/ | grep -c 'id="apps"\|In development\|Ready Avatar Motion\|<span>Apps</span>'
+  EXPECT: 4
+  EVIDENCE: met 2026-10-29: section + "In development" tag + "Coming soon" card + Apps in the band; all 9 site checks pass after it (detector caught grey text on the yellow card, fixed)
