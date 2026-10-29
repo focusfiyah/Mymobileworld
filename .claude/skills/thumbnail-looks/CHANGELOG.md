@@ -12,3 +12,4 @@
 - 2026-10-23: scene template first used (Day One sting, Dayone-ai intro/); its note now points there.
 - 2026-10-23: Ralph turned the board sting down ("they all look the same"); lesson in formula.md, template note updated.
 - 2026-10-29: closest() compares scores only; a 0.0 tie with the (0.0, None) start crashed `render --band` (AI on Autopilot r03p cover).
+- 2026-10-29: optional "ink" key in a spec/look block sets the dark background colour (ink bands could only be #141414, so a poster cover read 0.37 alike the last ink-topped cover; navy took it to 0.12).
