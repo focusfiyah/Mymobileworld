@@ -1,5 +1,5 @@
 # Ralph AI avatar test (2026-10-26)
 
-Status: 2026-10-29: best free version = review/free_twin_glasses_lips.mp4: Ralph's Talking 03 (rimless glasses, his standing look; grey KEPT, Ralph 2026-10-29) + free Chatterbox voice + MuseTalk 1.5 on CPU, then tools/lips_only.py keeps the real footage and takes only the lips (soft oval from MuseTalk's face box, work/base03.pkl). $0; 44 min run + 1 min fix. Earlier: free_twin_v1 (Talking 04, no glasses), free_twin_glasses_v1 (whole lower face redrawn, blurry beard patch). Paid test ($1.73, Glasses 01 photo) and SadTalker not run. Waiting on Ralph's look.
+Status: 2026-10-29: Ralph: free twin is 'good enough, no need for paid' (paid test dropped). Best = review/free_twin_glasses_lips_v2.mp4 (lips_only.py v2: smoothed face box, LAB colour match, light sharpen). Photo-only SadTalker tested (tools/sadtalker_setup.sh, shares the MuseTalk venv; review/free_photo_sadtalker.mp4, 26 min): mouth barely opens, softer face, still head -> backup only. Disk: Chatterbox venv removed to make room (reinstall: Dayone-ai reels/presenter_setup.sh). $0 total.
 
 Files: script.txt, humanizer.md, readability.txt, vo/line.mp3, kling_prompt.txt, BOOK.md, GATES.md, run.py, check.py, out/.
