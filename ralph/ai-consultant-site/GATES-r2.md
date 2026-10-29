@@ -28,8 +28,22 @@ MP = ralph/ai-consultant-site/r2
   EVIDENCE: met 2026-10-28: full-page shots at both widths + C chapter shots looked at; fixed A word-swap overlap, A/C sideways overflow, B grid + chat text colour, A hook contrast; 3 recordings (27 s each) checked as frame strips
 - [x] G6: review Artifact updated with the three options (live sample links + images + recordings); phone push + email sent
   EVIDENCE: met 2026-10-28: https://claude.ai/artifact/F6TEtGRLuofgeNG5hhFnP5 (new URL; the old review page RA6Ytv... was not reused because this session no longer had its publish), push requested, Gmail 1a1843ada0180426
-- [ ] G7: Ralph picked an option
-  EVIDENCE:
+- [x] G7: Ralph picked an option
+  EVIDENCE: met 2026-10-29: Ralph: "Option A, let's not use the word \"my\". Also remove the phone part, its not a cool as I thought"
 - [ ] G8: Brain note + session log updated, my Active work line removed, BRAIN_OK
   CHECK: cd /home/user/Mymobileworld && python3 tools/brain/check.py --terms "redesign options,AI consultant" | tail -1 | cut -c1-8
   EXPECT: BRAIN_OK
+
+## Build of the pick (2026-10-29)
+- [x] G9: the live page is option A with no "my" in any visible text or placeholder
+  CHECK: curl -s https://focusfiyah.github.io/ | sed 's/<[^>]*>/ /g' | grep -ciE '\bmy\b'
+  EXPECT: 0
+  EVIDENCE: met 2026-10-29: 0 (YouTube heading, "my system", tools heading and the form hint reworded)
+- [x] G10: the phone section is gone (no hook block, no draft or phone screenshots)
+  CHECK: curl -s https://focusfiyah.github.io/ | grep -cE 'id="phone"|Just my phone|draft-|phone-live'
+  EXPECT: 0
+  EVIDENCE: met 2026-10-29: 0; draft-1..3.jpg, phone-live.jpg and the unused brush/cards clips removed from media/
+- [x] G11: every site check passes on the new live page (render, hero, privacy, media, copy, motion, detect, form, live)
+  CHECK: cd /home/user/Mymobileworld && for c in render hero privacy media copy motion detect form live; do timeout 300 python3 ralph/ai-consultant-site/verify.py $c | tail -1; done | grep -c _OK
+  EXPECT: 9
+  EVIDENCE: met 2026-10-29: 9 of 9 (detector: orange text deepened to #d03709 for 4.6:1, band inset, form fields regular weight; motion 2/2 scroll effects, marquee loop is a warning only, kept for Ralph's "more dynamic")

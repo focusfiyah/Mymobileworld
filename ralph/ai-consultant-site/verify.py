@@ -64,7 +64,7 @@ def hero():
     def run(b, url):
         pg = b.new_page(viewport={"width": 390, "height": 844})
         pg.goto(url, wait_until="load", timeout=60000); pg.wait_for_timeout(600)
-        for sel in [".over h1", ".pitch", ".actions .btn"]:
+        for sel in ["nav .logo", "h1", ".lede", ".cta .btn"]:  # round 2 layout (option A, 2026-10-29)
             r = pg.locator(sel).bounding_box()
             if not r: fail(f"{sel} missing")
             if r["y"] < 0 or r["y"] + r["height"] > 844 or r["x"] < 0 or r["x"] + r["width"] > 390:
