@@ -57,5 +57,5 @@ video with its own places, outfits, shots, order and framing; QC'd, AI-finished,
   EVIDENCE: automatic-evidence=v1; definition-sha256=b79dea976e72e1b6067f0f2881fee2fa2d5b070e23fdd59b15c85cefea9c7d7a; exit=0; EXPECT=matched; output-sha256=2e5e607b0a9c874d136a73ee1418601852edf5361c18d774956e7bb6d660ee81; output-bytes=88; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
 - [x] G13: QC on every cut: 2x edges, first second, no held-shoe turn or flip, max 2 shoes, logos vs close-ups, REMOVED.md, verify_fix (flash, sync, levels)
   EVIDENCE: qc/QC.md (2026-10-29): tools/cutqc.py CUTQC_OK x5 (sync r 1.000, peak -3.3 dB); clip strips, 2x first seconds, replaced windows, blue-band scan; every REMOVED.md row checked; V16K wrist band found and cropped out
-- [ ] G14: Drive "Vans sequin (Grace)" has CURRENT - Vans V13..V17 + captions, sizes match, link in README
-  EVIDENCE: pending
+- [x] G14: Drive "Vans sequin (Grace)" has CURRENT - Vans V13..V17 + captions, sizes match, link in README
+  EVIDENCE: 2026-10-29 Drive folder 1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_: CURRENT - Vans V13..V17.mp4 (Drive sizes 53430710/53414278/53577792/53476748/53168650 = local out/deliver byte for byte), CURRENT - Vans captions (1Y_ML3FL1Tlj8fw6x4yLZWFcWMKQIy7WmIEW-d1i_5XE, V13-V17 lines, emoji checked in a text export), old captions doc -> Older versions as 'Vans captions v3 (2026-10-25)'; folder listing via Composio FIND_FILE shows one captions doc
