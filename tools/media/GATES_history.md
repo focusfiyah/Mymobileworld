@@ -24,6 +24,7 @@
   CHECK: python3 -c "import shutil;f=shutil.disk_usage('/').free/1e9;print('FREE20_OK' if f>=20 else f)"
   EXPECT: FREE20_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=298ba24818793756a2115a2b83f7f8af5613232c69f1c4265bbaf78e516212a4; exit=0; EXPECT=matched; output-sha256=00cb1343d5a23e80f14e75a1a7b29183340753fff46607a2a2d51d005e1e2b16; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/tools/media; path=7f4fb4b02918/15 entries
-- [ ] H7: Brain updated
+- [x] H7: Brain updated
   CHECK: cd /home/user/Mymobileworld && python3 tools/brain/check.py --terms "history cleanup,Repo media"
   EXPECT: BRAIN_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=9ad50c38c8d010fac79d3fb63915e8c3d4185c1c81d80bfd88ea53d3db04f235; exit=0; EXPECT=matched; output-sha256=6ccf283c559cdacc72ddd15ea722d973e427203a1a5ac0530774fa97c97241e8; output-bytes=52; shell=/bin/sh; cwd=/home/user/Mymobileworld/tools/media; path=7f4fb4b02918/15 entries
