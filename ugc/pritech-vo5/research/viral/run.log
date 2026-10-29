@@ -1,0 +1,73 @@
+  #tiktokshopbeauty: 60 videos
+  #tiktokshopskincare: 60 videos
+  #tiktokshopmakeup: 57 videos
+  #tiktokshopfinds: 58 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+225 videos scanned, 55 shop videos posted in the last 3.0 day(s) -> ugc/pritech-vo5/research/viral/viral-2026-10-29.json
+Ranked by views gained since the last run (+) where known, else average views/day since posting.
+
+  #   per day   views   age save%  product / creator / url
+  1       31K     61K  2.0d  0.06  [medicube] Zero Pore Pads (AHA + BHA) |  Korean No.1 Vi [Beauty & Personal Care]
+                                  @alysonkern: My favvvv skincare & plus side, it’s affordable 🫧🛁🧼🧴@medicub
+                                  https://www.tiktok.com/@alysonkern/video/7701185382133681422
+  2       16K     19K  1.2d  0.12  Lip Butter [Beauty & Personal Care]
+                                  @kayaliyahh: I literally have 4 different ones now 😭😭 #Beautyfinds #kylie
+                                  https://www.tiktok.com/@kayaliyahh/video/7701481963495935246
+  3       15K    6.2K  0.4d  0.14  [Coming Soon] [medicube] 2026 Advent Calendar [Beauty & Personal Care]
+                                  @giniglow: 🎁🧖‍♀️medicube 2026 advent calendar this year is insane🤯🤯🤯🤯Me
+                                  https://www.tiktok.com/@giniglow/video/7701771108759981326
+  4      3.8K    4.2K  1.1d  0.26  [Dr.G] Best Sellers Bundle | 7-Pc K-Beauty Essentials F [Beauty & Personal Care]
+                                  @iamsk8bordb: Replying to @kris10cas10 it’s the most popular in Korea #drg
+                                  https://www.tiktok.com/@iamsk8bordb/video/7701290885551574286
+  5      3.7K    4.3K  1.2d  0.14  [medicube] Mix & Match Boba Cream Set | Tiktok Viral Ca [Beauty & Personal Care]
+                                  @tsio11: #thebestproduct #skincareroutine #face #tiktokshop #medicube
+                                  https://www.tiktok.com/@tsio11/video/7701487081205402894
+  6      2.4K    5.8K  2.4d   0.4  tartelette™ tubing mascara [Beauty & Personal Care]
+                                  @ittycheers: Go buy it right now while you still can! #fyp #tiktokshop #t
+                                  https://www.tiktok.com/@ittycheers/video/7701040719858896141
+  7      2.4K    2.7K  1.2d  0.37  2aN Dual Color Face Blusher, Buildable & Blendable Chee [Beauty & Personal Care]
+                                  @jennny.512: these are my holy grails 🎀 #2aN #blush #kbeauty #makeuptok #
+                                  https://www.tiktok.com/@jennny.512/video/7701495193958141198
+  8      2.1K    1.1K  0.5d     0  On 'Til Dawn Mattifying Waterproof Setting Spray - Tran [Beauty & Personal Care]
+                                  @toshya90: Your makeup deserves to stay ALL day! 💦✨ One/Size setting sp
+                                  https://www.tiktok.com/@toshya90/video/7701735996185988383
+  9      1.8K     444  0.2d  0.23  Ebossy Women's Fitted Cable Knit Deep V-Neck Open Front [Womenswear & Underwear]
+                                  @liahj.1: 🔥🔥🔥 #ttsfinds #tiktokshop #ttsfashionfinds #fashioninspo #fa
+                                  https://www.tiktok.com/@liahj.1/video/7701862955771563277
+ 10      1.8K    2.3K  1.3d     0  [Dr.Melaxin Official] Calcium Multi Balm Eye Care Routi [Beauty & Personal Care]
+                                  @ttshopalexia: #eyebags #darkcircles #kbeauty #blackfridaydeals #tiktokshop
+                                  https://www.tiktok.com/@ttshopalexia/video/7701445576495353102
+ 11      1.6K     398  0.2d   0.5  The Body Mist Edit [Beauty & Personal Care]
+                                  @thesidneyjewel: Literally the BEST beauty finds🤩🩷 #beauty #haul #hauls #beau
+                                  https://www.tiktok.com/@thesidneyjewel/video/7701841117569977630
+ 12      1.3K    3.2K  2.4d  0.56  Lightwork VIII Freedom Palette [Beauty & Personal Care]
+                                  @kellyrosesarno: Replying to @✨🥀𝚁𝚘𝚜𝚎 𝚂𝚊𝚛𝚊𝚑🥀✨ let’s play with makeup then! @Da
+                                  https://www.tiktok.com/@kellyrosesarno/video/7699808208709373197
+ 13      1.2K    2.4K  2.0d  0.21  [Dr.Althea Officia] 3-Step Acne Care Set (Boosting) [Beauty & Personal Care]
+                                  @yoselinceniti: Skincare #tiktokshopblackfriday #TikTokShopCyberMonday #blac
+                                  https://www.tiktok.com/@yoselinceniti/video/7701165968168439070
+ 14       997     519  0.5d     0  【Black Friday】Made By Mitchell Colour Is Back 6-Piece M [Beauty & Personal Care]
+                                  @omgmeghanleigh: This bundle is the perfect way to try some new products or s
+                                  https://www.tiktok.com/@omgmeghanleigh/video/7701567122161274126
+ 15       868    1.1K  1.2d     0  [Dr.Althea Officia] 3-Step Acne Care Set (Boosting) [Beauty & Personal Care]
+                                  @yoselinceniti: Nunca había tenido mi piel así realmente estoy muy feliz si 
+                                  https://www.tiktok.com/@yoselinceniti/video/7701463207688342815
+ 16      +851    2.3K  2.3d  0.57  Flower Knows Frosty Swan Set, 9 items makeup box with p [Beauty & Personal Care]
+                                  @je.niif3r: So beautiful ❄️… @Flower Knows Makeup 💗… #flowerknows #flowe
+                                  https://www.tiktok.com/@je.niif3r/video/7701068902167481613
+ 17       768     192  0.2d  1.56  Vault (K)it by Point of View Beauty - Holiday Box Set  [Beauty & Personal Care]
+                                  @lupeariass: POV: You just found the cutest beauty gift set 🎁✨ #povbeauty
+                                  https://www.tiktok.com/@lupeariass/video/7701842168276684045
+ 18       710     243  0.3d     0  Clinique Ready To Glow Skincare + Makeup Set ($149 Valu [Beauty & Personal Care]
+                                  @_janiyad: 
+                                  https://www.tiktok.com/@_janiyad/video/7701794533020880142
+ 19       684     318  0.5d     0  (product not in TikTok's data)
+                                  @beckimck: Random haul #haul #ttshop #tiktokshopfinds #random 
+                                  https://www.tiktok.com/@beckimck/video/7701621674789113120
+ 20       575     566  1.0d  0.35  MAC Studio Fix Powder Plus Foundation [Beauty & Personal Care]
+                                  @thequeenofmedia: Beauty Products I highly Recommend for women seeking a profe
+                                  https://www.tiktok.com/@thequeenofmedia/video/7701556525877251358
