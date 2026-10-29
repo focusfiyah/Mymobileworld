@@ -1,7 +1,7 @@
 """House of Rameau version (2026-10-29, Ralph: every AI video gets a HofR version "with the version and the extras"):
 the same voiceover, its own look so TikTok doesn't see a copy of Grace's post: later windows of each clip, a 1.12x
 reframe that alternates left/right, a brighter, cooler grade, the hook on screen from frame 0 (whole, held 5 s, inside
-the safe zone) and TikTok Classic captions after it. AI finish last.
+the safe zone). No captions (Ralph 2026-10-29: "no captions for HofR videos"). AI finish last.
   python3 hor_cut.py  -> out/camera_detector_hor_v1.mp4"""
 import json, subprocess, sys
 from pathlib import Path
@@ -51,7 +51,7 @@ for w in W:
     if len(cur) >= 4 or w["text"][-1] in ".,?!":
         caps.append((cur[0]["start"], cur[-1]["end"], " ".join(x["text"] for x in cur).lower().strip(".,!?"))); cur = []
 if cur: caps.append((cur[0]["start"], cur[-1]["end"], " ".join(x["text"] for x in cur).lower().strip(".,!?")))
-caps = [c for c in caps if "orange cart" not in c[2]]
+caps = []   # Ralph 2026-10-29: "Actually no captions for HofR videos"
 for i, (a, b, t) in enumerate(caps): caption_png(t).save(f"out/hor/cap{i:02d}.png")
 inputs, chains = [], []
 for i, (c, ss, d) in enumerate(EDIT):
