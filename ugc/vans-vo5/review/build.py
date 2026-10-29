@@ -1,0 +1,133 @@
+"""Review page for Vans V13-V17 (one page per job, republished each round). python3 review/build.py -> review/index.html"""
+import html, json, re
+from pathlib import Path
+
+J = Path(__file__).resolve().parent.parent
+S = json.loads((J / "shots.json").read_text())
+L = json.loads((J / "tools/labels.json").read_text())
+book = (J / "BOOK.md").read_text()
+total = re.search(r"\nTOTAL: \$([\d.]+)", book).group(1)
+e = html.escape
+LOOK = {"V13": ("Cafe", "Green cafe + stone cafe sidewalk", "Light-wash straight jeans, cream knit cuff", "Black satin slip midi skirt"),
+        "V14": ("Bedroom", "Sage-green bedroom + sunny park path", "Grey joggers, oatmeal sweatshirt cuff", "Cream pleated satin midi skirt"),
+        "V15": ("Living room", "Teal sofa living room + cobblestone alley", "Brown corduroy pants, camel sweater cuff", "Red and black plaid mini skirt"),
+        "V16": ("Loft", "Colourful brick loft + rainbow painted steps", "Olive cargo pants, black ribbed cuff", "White wide-leg linen trousers"),
+        "V17": ("Kitchen", "Bright kitchen with a mint table + wooden boardwalk", "Cream wide-leg sweatpants, denim cuff", "Pastel floral midi dress")}
+LOGO = {"real_vans_tab.jpg": "side tab", "real_heel_label.jpg": "heel label", "real_insole_logo.jpg": "insole"}
+CAP = {m.group(1): m.group(2) for m in re.finditer(r"- (V1\d) [^:]+: (.+)", (J / "scripts.md").read_text())}
+
+vids = []
+for v, (name, place, main, dress) in LOOK.items():
+    rows = []
+    for k, s in S.items():
+        if s["video"] != v: continue
+        logos = ", ".join(LOGO[x.split("/")[-1]] for x in s["clip_refs"][1:-1])
+        kind = "hand" if s["kind"] == "HAND" else "free"
+        test = " test" if k == "V14B" else ""
+        rows.append(f'<tr class="{kind}{test}"><td class="t">{s["window"][0]:.1f}–{s["window"][1]:.1f}</td>'
+                    f'<td class="say">{e(s["line"])}</td><td>{e(L[k].replace(" (TEST CLIP)", ""))}'
+                    f'{"<span class=chip>test clip</span>" if test else ""}</td>'
+                    f'<td><span class="chip {kind}">{s["kind"].lower()}</span></td><td class="lg">{logos}</td></tr>')
+    vids.append(f"""<section class="vid" id="{v.lower()}">
+  <div class="vhead"><span class="vnum">{v}</span><h2>{name}</h2></div>
+  <div class="looks"><figure><img src="img/{v}_in.jpg" alt="{name} indoor place photo" loading="lazy"><figcaption>Inside</figcaption></figure>
+  <figure><img src="img/{v}_out.jpg" alt="{name} outdoor place photo" loading="lazy"><figcaption>Outside</figcaption></figure>
+  <dl><dt>Places</dt><dd>{place}</dd><dt>Everyday</dt><dd>{main}</dd><dt>Dress it up</dt><dd>{dress}</dd><dt>Caption</dt><dd>{e(CAP.get(v, ''))}</dd></dl></div>
+  <div class="tw"><table><thead><tr><th>Time (s)</th><th>Grace says</th><th>On screen</th><th>Shot</th><th>Logos</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div>
+</section>""")
+
+prompts = "".join(f'<details><summary>{k} · {e(L[k].replace(" (TEST CLIP)", ""))}</summary><p class="pl">Still ({len(s["still_refs"])} refs: {", ".join(r.split("/")[-1] for r in s["still_refs"])})</p>'
+                  f'<pre>{e(s["still"])}</pre><p class="pl">Clip (Omni 4 s; image 1 = the approved still)</p><pre>{e(s["clip"])}</pre></details>' for k, s in S.items())
+
+page = f"""<title>Vans V13–V17 Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column; ask first, then Grace's post + voice, the five videos as place strips + shot tables, cost, prompts */
+:root{{
+  --bg:#f2f4f3; --card:#ffffff; --fg:#1b2420; --muted:#5a6762; --line:#d9e0dc;
+  --accent:#2c55a8; --warn:#c2552d; --chip:#e6eeea; --free:#efe9f6; --test:#fff4e0;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}}
+@media (prefers-color-scheme:dark){{:root:not([data-theme="light"]){{--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;--free:#2a2433;--test:#3a3020;color-scheme:dark}}}}
+:root[data-theme="dark"]{{--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;--free:#2a2433;--test:#3a3020;color-scheme:dark}}
+body{{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body)}}
+.wrap{{max-width:900px;margin:0 auto;padding-block:24px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}}
+h1{{font:700 2.3rem/1.05 var(--display);margin:0;text-wrap:balance}}
+h2{{font:700 1.45rem/1.1 var(--display);margin:0;letter-spacing:.02em}}
+.sub{{color:var(--muted);margin:6px 0 0}}
+.box{{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:10px;min-width:0}}
+.ask{{border-left:4px solid var(--warn);background:var(--card);padding:14px 18px;border-radius:0 10px 10px 0;display:grid;gap:8px}}
+.ask strong{{color:var(--warn)}} .ask ol{{margin:0;padding-left:20px;display:grid;gap:6px}}
+.total{{font:700 2rem/1 var(--display);color:var(--accent)}}
+.media{{display:grid;grid-template-columns:minmax(0,220px) 1fr;gap:16px;align-items:start}}
+.media video{{width:100%;border-radius:8px;background:#000}}
+.media audio{{width:100%}}
+.script p{{margin:0 0 6px}} .script .t{{font:500 .78rem var(--mono);color:var(--muted);margin-right:6px}}
+.vid{{display:grid;gap:12px}}
+.vhead{{display:flex;align-items:baseline;gap:10px}}
+.vnum{{font:700 1.6rem/1 var(--display);color:var(--accent)}}
+.looks{{display:grid;grid-template-columns:repeat(2,minmax(0,140px)) 1fr;gap:12px;align-items:start}}
+.looks figure{{margin:0}} .looks img{{border-radius:8px;aspect-ratio:9/16;object-fit:cover;width:100%;display:block}}
+.looks figcaption{{font-size:.78rem;color:var(--muted)}}
+dl{{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;min-width:0}}
+dt{{font:600 .72rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:3px}} dd{{margin:0}}
+.tw{{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}}
+table{{border-collapse:collapse;width:100%;font-size:.92rem;min-width:640px}}
+th{{text-align:left;font:600 .72rem var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:10px 10px;border-bottom:1px solid var(--line)}}
+td{{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}}
+tr:last-child td{{border-bottom:0}}
+td.t{{font:500 .78rem var(--mono);white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}}
+td.say{{font-style:italic;color:var(--muted);max-width:240px}} td.lg{{font-size:.82rem;color:var(--muted)}}
+tr.test td{{background:var(--test)}}
+.chip{{font:600 .68rem var(--body);letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--chip);white-space:nowrap;margin-left:6px}}
+.chip.free{{background:var(--free)}} td .chip.hand,td .chip.free{{margin-left:0}}
+.cost table{{min-width:0}} .cost td:last-child,.cost th:last-child{{text-align:right;font-variant-numeric:tabular-nums}}
+details{{border-top:1px solid var(--line);padding:8px 0}} summary{{cursor:pointer;font-weight:600}}
+pre{{white-space:pre-wrap;font:500 .78rem/1.5 var(--mono);background:var(--bg);padding:10px;border-radius:8px;margin:6px 0;overflow-x:auto}}
+.pl{{margin:8px 0 0;font-size:.82rem;color:var(--muted)}}
+.truth img{{border-radius:8px;max-width:360px;width:100%}}
+ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
+@media (max-width:620px){{.media{{grid-template-columns:1fr}} .media video{{max-width:240px}} .looks{{grid-template-columns:repeat(2,minmax(0,1fr))}} .looks dl{{grid-column:1/-1}}}}
+</style>
+<main class="wrap">
+<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan for your OK, 29 Oct 2026. Nothing has been spent.</p></header>
+
+<div class="ask"><strong>Your call</strong>
+<div><span class="total">${total}</span> total cap · expected $22.28 all on Kie, $4.95 if your Flow app makes the clips · script gate OK</div>
+<ol>
+<li>Clips: all 55 on Kie ($17.33, about 15 min) or free takes in your Flow app (660 credits, about 55 takes on your phone)? With 55 clips I'd go Kie, or split.</li>
+<li>Stills on Kie ($4.95) or your Gemini app ($0, 55 images by hand)?</li>
+<li>The five looks below: OK, or swap any place or outfit?</li>
+<li>Grace's hand (pink French tips, rings, bracelets) and anklets as on V12: OK?</li>
+<li>House of Rameau: one $0 version of each (reframed, regraded, a hook text, no captions), posted only on your OK?</li>
+</ol></div>
+
+<section class="box"><h2>Grace's post and voice</h2>
+<div class="media"><video src="media/grace_post.mp4" controls playsinline preload="metadata"></video>
+<div class="script"><audio src="media/grace_vo.mp3" controls preload="none"></audio>
+<p class="sub">Her audio, used as posted. I split it to check for music: the music part measured −68.6 dB (silent), so there is nothing under her voice to remove.</p>
+{''.join(f'<p><span class="t">{S["V13" + b]["window"][0]:.1f}</span>{e(S["V13" + b]["line"])}</p>' for b in "ABCDEFGHIJK")}
+</div></div></section>
+
+{''.join(vids)}
+
+<section class="box truth"><h2>The real shoe (Vans' own photos)</h2>
+<img src="img/product_sheet.jpg" alt="Real Vans Premium Authentic sequin checkerboard from every side" loading="lazy">
+<ul class="facts">{''.join(f'<li>{e(f)}</li>' for f in json.loads((J / "product_truth.json").read_text())["facts"][:9])}</ul>
+<p class="sub">New in these prompts vs V12: the black tongue and the vertical black heel stripe are named. Every side-on shot says which shoe of the pair faces the lens, so the side tab is always on the visible side.</p></section>
+
+<section class="box cost"><h2>Cost</h2><div class="tw"><table><thead><tr><th>Item</th><th>Qty × unit</th><th>$</th></tr></thead><tbody>
+<tr><td>Stills, Gemini 3 Pro Image on Kie</td><td>55 × $0.09</td><td>4.95</td></tr>
+<tr><td>Clips, Omni 1.1 Flash 4 s on Kie</td><td>55 × $0.315</td><td>17.33</td></tr>
+<tr><td>…or the clips in your Flow app (660 credits)</td><td>55 × $0</td><td>0.00</td></tr>
+<tr><td>One likely redo per video, each asked first</td><td>5 × $0.405</td><td>2.03</td></tr>
+<tr><td><strong>Total cap</strong></td><td></td><td><strong>{total}</strong></td></tr></tbody></table></div>
+<p class="sub">ElevenLabs 0 characters (Grace's own voice). October so far $201.62, no cap this month; anything that runs after Oct 31 counts toward November's $100.</p>
+<p class="sub">Time: about 85 min of machine time plus your three stops (storyboard, the V14B test clip, the five cuts).</p></section>
+
+<section class="box"><h2>Every prompt (55 stills + 55 clips)</h2><p class="sub">Written with prompt-master, all lint clean. Tap a shot to read both prompts.</p>{prompts}</section>
+</main>
+"""
+(J / "review/index.html").write_text(page)
+print("review/index.html", len(page), "chars")
