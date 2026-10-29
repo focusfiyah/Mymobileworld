@@ -48,6 +48,8 @@ Starter spec rebranded "DAY ONE AI", 15 s, 889 frames at 60 fps, 1080p, no music
   12 min 52 s (~0.87 s per frame; ~1.6 s per frame per worker). The screenshot, not the blur samples, is the bottleneck.
 - Same 106 frames (beats 5-10) at full quality vs review mode: still share 45.2% vs 45.2%, median motion 2.6 vs 2.7.
   Review renders give the same `finish.py` dynamism numbers, so check on them and render full quality once at the end.
+  Visually (same frames): median pixel difference ~1 of 255, but the fastest whip shows ~6 stepped copies of the
+  type in review mode where full quality blends one smooth smear, so the delivered film is always full quality.
 - `finish.py` on the retimed starter: frames, size, H.264 level, loudness and holds PASS; still frames 42% (target
   <= 40%) and median motion 2.03 (target 2.5) FAIL. The starter is a short template with few blocks; a real film
   needs more moving blocks (Fly, Chain, Counters, camera moves) to clear those two. The hardware-decoder check is
