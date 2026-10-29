@@ -123,3 +123,14 @@
 - [x] G54 No Kie spend for this phase (kie_log.json unchanged since v12: no new task after 2026-10-28)
   CHECK: python3 -c "import json;L=json.load(open('kie_log.json'));d=[str(x.get('t','')) for x in (L if isinstance(L,list) else L.get('tasks',[]))];print('G54_OK' if not any('2026-10-29' in x for x in d) else 'G54_FAIL')"
   EXPECT: G54_OK
+
+## Phase 12: cut v13 from Ralph's Flow takes (2026-10-29)
+- [x] G55 Four Flow takes in clips/flow13 matched to their cards by first-frame distance (F1 e8ca, F2 a2af, F3 cc03, F4 4195), 1080x1920, every frame checked at 4-12 fps zoom
+  CHECK: python3 -c "import os;print('G55_OK' if all(os.path.exists(f'clips/flow13/F{i}_flow.mp4') for i in (1,2,3,4)) else 'G55_FAIL')"
+  EXPECT: G55_OK
+- [x] G56 v13 passes the cut QC (length, last word, loudness, levels)
+  CHECK: python3 qc/check_cut.py out/minibag_v13.mp4 --words vo/words_v13.json
+  EXPECT: CUT_QC_OK
+- [x] G57 Review page v19 shows cut v13, its sheet and the 4 takes
+  CHECK: python3 -c "s=open('review/index.html').read();print('G57_OK' if all(x in s for x in ('cut_v13.mp4','cut_sheet_v13.jpg','F1_flow.mp4','F4_flow.mp4')) else 'G57_FAIL')"
+  EXPECT: G57_OK
