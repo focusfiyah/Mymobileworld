@@ -60,3 +60,9 @@ MP = ralph/ai-consultant-site/r2
   CHECK: curl -s https://focusfiyah.github.io/ | grep -ciE 'Ready Avatar|\bRAM\b|In development|Coming soon'
   EXPECT: 0
   EVIDENCE: met 2026-10-29: 0; section "Custom apps, built around your business", card "Your app / Made for one business: yours." with 4 example uses, "Custom apps" in the band; all 9 site checks pass. G12 (RAM card) replaced by this.
+
+## Tiny Table showcase (Ralph 2026-10-29: "The app that we created for the meal plan for the baby ... put on there to showcase one that we already developed")
+- [x] G14: the Apps section shows Tiny Table (name checked in Mymobileworld meal-plans/tiny-table-app.html, title "Tiny Table") with a working demo clip, still no RAM
+  CHECK: curl -s https://focusfiyah.github.io/ | grep -c 'Tiny Table\|media/tinytable.mp4'; curl -s https://focusfiyah.github.io/ | grep -ciE 'Ready Avatar|\bRAM\b'
+  EXPECT: 2 then 0
+  EVIDENCE: met 2026-10-29: 2 and 0; clip served 200 (517 KB, silent, 21.5 s tap-through: ate it, next day, shopping list, plate builder); all 9 site checks pass
