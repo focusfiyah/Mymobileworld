@@ -104,6 +104,7 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 <p class="sub">Your plan answers (29 Oct): everything on Kie, looks OK, Grace's hand as on V12, 11 shots per video, 5 videos, no House of Rameau versions.</p></div>
 <section class="box"><h2>Storyboard round 1 (stills)</h2>
 <p class="sub">Fails, already fixed in the prompts: V13A, V13I, V15D, V15G solid black toe (the real toe is checkerboard) · V14H, V16J empty shoe on a walking foot · V14G feet pointing opposite ways · V15A no grip · V14B holds a loose shoe instead of tightening the bow.</p>
+<figure class="sb"><img src="img/r1_fails.jpg" alt="The 9 failed stills, each labelled with its fault" loading="lazy"><figcaption>The 9 failed stills, each with its fault</figcaption></figure>
 {SB}
 </section>
 
