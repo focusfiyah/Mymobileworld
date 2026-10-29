@@ -1,0 +1,86 @@
+{
+ "job": "pritech-vo5",
+ "client": "Grace",
+ "date": "2026-10-29",
+ "route": "ugc-product-ad hands + hand-free demo over Grace's OWN voiceover (from her post), 5 videos x 20.9 s, 9 shots each, no full face; stills Gemini 3 Pro Image (Kie nano-banana-pro) + product sheet and real close-ups; product clips Omni 1.1 Flash (Flow first, or Kie Omni on Ralph's pick); no-product clips Seedance 2.0 Mini on Kie; no Kling",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-pritech-facial-cleansing-brush.json",
+   "research/tag/tag-facialcleansingbrush.json",
+   "research/videos/7693266870367030558/sheet.png",
+   "research/videos/7693622417079520542/transcript.txt",
+   "research/videos/7677716245260651789/sheet.png",
+   "research/7701760026418990367/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-29.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v5.txt",
+   "research/readability_v6.txt",
+   "research/readability_v7.txt",
+   "research/readability_v8.txt",
+   "research/readability_v9.txt"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ]
+ },
+ "overrides": [
+  {
+   "rule": "readability",
+   "videos": [
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9"
+   ],
+   "grade": 7.1,
+   "by": "Ralph",
+   "date": "2026-10-29",
+   "quote": "Use the VO from the link",
+   "why": "Grace's own recorded VO, used as is for all five videos; it cannot be reworded without a new recording."
+  }
+ ]
+}
