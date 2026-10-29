@@ -31,8 +31,8 @@ video with its own places, outfits, shots, order and framing; QC'd, AI-finished,
   CHECK: python3 tools/check.py book
   EXPECT: BOOK_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=c814749f19890f0b756713843e24bb93656345aec45dcba92219716b5b1f3df2; exit=0; EXPECT=matched; output-sha256=9e3343135cc993ebad1c7063868498f46d4d79987594dbe5fd96d7c1283ddd4a; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
-- [ ] G7: Review page published with the plan, places and Grace's VO playable; Ralph told by push + email
-  EVIDENCE: pending
+- [x] G7: Review page published with the plan, places and Grace's VO playable; Ralph told by push + email
+  EVIDENCE: https://claude.ai/artifact/SK6yEMLyJ45i2UcoofCJ5s v1 (video + mp3 + 10 place photos + 55 shot rows + 110 prompts); PushNotification "Mobile push requested"; Gmail id 1a185b34ad0fa812 sent 2026-10-29
 
 ## Phase 2: make (after Ralph's OK on BOOK.md)
 - [ ] G8: Production Book approved by Ralph before any paid call

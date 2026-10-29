@@ -64,6 +64,7 @@ Real product (Vans' own photos, product_truth.json): only the black squares are 
 2. The riskiest clip first, V14B (her hand tightening the lace bow on a worn shoe) (stop 2: one clip, ~3 min).
 3. The other 54 clips at once (~15 min), each checked against its still (clip_check.py) and at 2x.
 4. Five cuts on Grace's audio at once (~10 min), QC on every cut (2x edges, first second, shoe count, no turn, logos vs close-ups, REMOVED.md, verify_fix), coach compare vs her post, AI finish (stop 3: review page with all five).
+Edit in Grace's own style (grace/winners/STYLE_pritech.md, in force since 2026-10-28; free): every video opens on the shoe moving in her hand at frame 0; cuts land on the first word of each phrase; the last line closes on a fast run (0.3-0.6 s each) of that video's own hand shots instead of one held ending; no still-life ending.
 5. Drive "Vans sequin (Grace)" as CURRENT - Vans V13..V17 + captions.
 Free fixes first: trim to the clean window, crop; a redo only on your OK with its cost.
 
@@ -87,6 +88,7 @@ TOTAL: ${total:.2f}
 3. The five looks (places + outfits above): OK, or swap any?
 4. Grace's hand and anklets as on V12: OK?
 5. House of Rameau: one version of each at $0 (reframed + regraded, a hook text from research/hooks.md, no captions), posted only on your OK per video. Make them?
+6. Grace's style also likes ~1.5 s middle shots; this plan's are ~2.5 s (11 per video). Keep 11 (this TOTAL), or 16 per video (+25 stills and clips, +$10.13, cap $34.43)?
 
 ## 8. Prompts (final, prompt-master loaded this session; all 55 still + 55 clip prompts in shots.json, linted PROMPT_LINT_OK)
 Still refs, numbered in each prompt: 1 product sheet (real photos), 2 sequin close-up, then a real close-up of each logo that shot shows (side tab / heel label / insole), her skin ref (feet shots), her hand ref (hand shots), last the place photo; 8 at most. Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), then each logo close-up, then the sheet. Every prompt: framing and toe direction first, which shoe of the pair faces the lens, who wears/holds what, one grip and never turns, print letter for letter and colour for colour, no sparkle words, no text.

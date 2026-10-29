@@ -52,9 +52,9 @@ Everyday: grey joggers, oatmeal sweatshirt cuff. Dressy shot: cream pleated sati
 
 | # | Window (s) | Grace says | On screen | HAND? | Logos in frame |
 |---|---|---|---|---|---|
-| V14A | 0.0-2.8 | Who told Vans to come out with these sparkly low tops? | Low push-in on both feet on the white rug | HAND-FREE | side tab |
+| V14A | 0.0-2.8 | Who told Vans to come out with these sparkly low tops? | Hand holds one shoe side-on by the sage wall | HAND | side tab |
 | V14B | 2.8-5.3 | Because whoever made that decision deserves a raise. | Sitting on the bed, hand pulls the lace bow snug (TEST CLIP) | HAND | side tab |
-| V14C | 5.3-8.7 | These are the Premium Authentic, and they really took the classic Vans look | Hand holds one shoe side-on by the sage wall | HAND | side tab |
+| V14C | 5.3-8.7 | These are the Premium Authentic, and they really took the classic Vans look | Low push-in on both feet on the white rug | HAND-FREE | side tab |
 | V14D | 8.7-10.8 | and gave it a major upgrade. | Slide along one shoe standing alone on the rug | HAND-FREE | side tab |
 | V14E | 10.8-14.1 | The sequins add just the right amount of shine without being over the top, | The pair in a window light patch, slow arc | HAND-FREE | side tab, heel label |
 | V14F | 14.1-15.2 | so you can dress it up | Cream pleated skirt, one step, pleats swing | HAND-FREE | side tab |
@@ -65,11 +65,11 @@ Everyday: grey joggers, oatmeal sweatshirt cuff. Dressy shot: cream pleated sati
 | V14K | 25.3-27.6 | Tap that orange cart and get your size before they're gone. | Hand tilts one shoe, red insole to camera | HAND | insole |
 
 ### V15 Living room: teal velvet sofa living room (cream rug, coffee table) + cobblestone alley
-Everyday: brown corduroy straight pants, camel sweater cuff. Dressy shot: red and black plaid mini skirt. gold chain anklet (right). 4 HAND / 7 HAND-FREE.
+Everyday: brown corduroy straight pants, camel sweater cuff. Dressy shot: red and black plaid mini skirt. gold chain anklet (right). 5 HAND / 6 HAND-FREE.
 
 | # | Window (s) | Grace says | On screen | HAND? | Logos in frame |
 |---|---|---|---|---|---|
-| V15A | 0.0-2.8 | Who told Vans to come out with these sparkly low tops? | Foot steps down onto cobblestones toward camera | HAND-FREE | side tab |
+| V15A | 0.0-2.8 | Who told Vans to come out with these sparkly low tops? | Hand brings one shoe close to the lens, side tab big | HAND | side tab |
 | V15B | 2.8-5.3 | Because whoever made that decision deserves a raise. | Hand raises one shoe toward the bright window | HAND | side tab |
 | V15C | 5.3-8.7 | These are the Premium Authentic, and they really took the classic Vans look | The pair on the coffee table, slow arc | HAND-FREE | side tab, heel label |
 | V15D | 8.7-10.8 | and gave it a major upgrade. | Fingers pinch one raised sequin on the toe | HAND | side tab |
@@ -79,18 +79,18 @@ Everyday: brown corduroy straight pants, camel sweater cuff. Dressy shot: red an
 | V15H | 16.3-19.8 | And they're actually so comfortable, so you're getting the style and the comfort. | Side tracking walk along the alley | HAND-FREE | side tab |
 | V15I | 19.8-22.0 | These are new, but I wouldn't wait too long to grab them, | Hand slides one shoe off a bookshelf | HAND | side tab, heel label |
 | V15J | 22.0-25.3 | because when the shiny girlies find these, they're going to sell them out fast. | Quick steps across the alley, low side view | HAND-FREE | side tab |
-| V15K | 25.3-27.6 | Tap that orange cart and get your size before they're gone. | Hand brings one shoe close to the lens, side tab big | HAND | side tab |
+| V15K | 25.3-27.6 | Tap that orange cart and get your size before they're gone. | Heel to camera in the alley: stripe + OFF THE WALL label | HAND | heel label |
 
 ### V16 Loft: colourful loft (red brick wall, patchwork rug, white sofa) + rainbow painted steps
-Everyday: olive cargo pants, black ribbed cuff. Dressy shot: white wide-leg linen trousers. gold chain anklet (left). 3 HAND / 8 HAND-FREE.
+Everyday: olive cargo pants, black ribbed cuff. Dressy shot: white wide-leg linen trousers. gold chain anklet (left). 4 HAND / 7 HAND-FREE.
 
 | # | Window (s) | Grace says | On screen | HAND? | Logos in frame |
 |---|---|---|---|---|---|
-| V16A | 0.0-2.8 | Who told Vans to come out with these sparkly low tops? | Steps up the painted rainbow stairs (side view) | HAND-FREE | side tab |
+| V16A | 0.0-2.8 | Who told Vans to come out with these sparkly low tops? | Hand lifts one shoe off a yellow painted step | HAND | side tab |
 | V16B | 2.8-5.3 | Because whoever made that decision deserves a raise. | Two hands raise the pair, heels to camera | HAND | heel label |
 | V16C | 5.3-8.7 | These are the Premium Authentic, and they really took the classic Vans look | Crane down to both feet on the patchwork rug | HAND-FREE | side tab |
 | V16D | 8.7-10.8 | and gave it a major upgrade. | Macro push-in on toe sequins, shoe alone on the rug | HAND-FREE | side tab |
-| V16E | 10.8-14.1 | The sequins add just the right amount of shine without being over the top, | Sitting on the rainbow steps, heel lifts | HAND-FREE | side tab |
+| V16E | 10.8-14.1 | The sequins add just the right amount of shine without being over the top, | Steps up the painted rainbow stairs in the sun (side view) | HAND-FREE | side tab |
 | V16F | 14.1-15.2 | so you can dress it up | White linen wide-leg trousers by the brick wall, one step | HAND-FREE | side tab |
 | V16G | 15.2-16.3 | or keep it casual. | Cargos, right foot pivots on its heel and back | HAND-FREE | side tab |
 | V16H | 16.3-19.8 | And they're actually so comfortable, so you're getting the style and the comfort. | Walks down the rainbow steps toward camera | HAND-FREE | side tab |
@@ -120,6 +120,7 @@ Everyday: cream wide-leg sweatpants, light-blue denim cuff. Dressy shot: pastel 
 2. The riskiest clip first, V14B (her hand tightening the lace bow on a worn shoe) (stop 2: one clip, ~3 min).
 3. The other 54 clips at once (~15 min), each checked against its still (clip_check.py) and at 2x.
 4. Five cuts on Grace's audio at once (~10 min), QC on every cut (2x edges, first second, shoe count, no turn, logos vs close-ups, REMOVED.md, verify_fix), coach compare vs her post, AI finish (stop 3: review page with all five).
+Edit in Grace's own style (grace/winners/STYLE_pritech.md, in force since 2026-10-28; free): every video opens on the shoe moving in her hand at frame 0; cuts land on the first word of each phrase; the last line closes on a fast run (0.3-0.6 s each) of that video's own hand shots instead of one held ending; no still-life ending.
 5. Drive "Vans sequin (Grace)" as CURRENT - Vans V13..V17 + captions.
 Free fixes first: trim to the clean window, crop; a redo only on your OK with its cost.
 
@@ -143,6 +144,7 @@ TOTAL: $24.30
 3. The five looks (places + outfits above): OK, or swap any?
 4. Grace's hand and anklets as on V12: OK?
 5. House of Rameau: one version of each at $0 (reframed + regraded, a hook text from research/hooks.md, no captions), posted only on your OK per video. Make them?
+6. Grace's style also likes ~1.5 s middle shots; this plan's are ~2.5 s (11 per video). Keep 11 (this TOTAL), or 16 per video (+25 stills and clips, +$10.13, cap $34.43)?
 
 ## 8. Prompts (final, prompt-master loaded this session; all 55 still + 55 clip prompts in shots.json, linted PROMPT_LINT_OK)
 Still refs, numbered in each prompt: 1 product sheet (real photos), 2 sequin close-up, then a real close-up of each logo that shot shows (side tab / heel label / insole), her skin ref (feet shots), her hand ref (hand shots), last the place photo; 8 at most. Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), then each logo close-up, then the sheet. Every prompt: framing and toe direction first, which shoe of the pair faces the lens, who wears/holds what, one grip and never turns, print letter for letter and colour for colour, no sparkle words, no text.

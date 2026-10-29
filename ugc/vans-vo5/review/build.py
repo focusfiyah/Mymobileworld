@@ -101,6 +101,7 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 <li>The five looks below: OK, or swap any place or outfit?</li>
 <li>Grace's hand (pink French tips, rings, bracelets) and anklets as on V12: OK?</li>
 <li>House of Rameau: one $0 version of each (reframed, regraded, a hook text, no captions), posted only on your OK?</li>
+<li>Grace's edit style likes ~1.5 s middle shots; these are ~2.5 s (11 per video). Keep 11, or 16 per video (+$10.13, cap $34.43)?</li>
 </ol></div>
 
 <section class="box"><h2>Grace's post and voice</h2>
@@ -110,6 +111,7 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 {''.join(f'<p><span class="t">{S["V13" + b]["window"][0]:.1f}</span>{e(S["V13" + b]["line"])}</p>' for b in "ABCDEFGHIJK")}
 </div></div></section>
 
+<section class="box"><h2>How they're cut: Grace's own style</h2><p>From her PRITECH re-edit (in force since 28 Oct), all free: every video opens on the shoe moving in her hand at frame 0, cuts land on the first word of each phrase, and the last line closes on a quick run of that video's own hand shots (0.3–0.6 s each) instead of one held ending.</p></section>
 {''.join(vids)}
 
 <section class="box truth"><h2>The real shoe (Vans' own photos)</h2>
