@@ -65,7 +65,7 @@ def stills():
 
 def clips():
     S = json.loads((J / "shots.json").read_text())
-    miss = [k for k in S if not (J / f"clips/{k}.mp4").exists()]
+    miss = [k for k in S if not (J / f"clips/{k}_sd.mp4").exists() and not (J / f"clips/{k}.mp4").exists()]
     return not miss, f"missing {miss[:8]}"
 
 

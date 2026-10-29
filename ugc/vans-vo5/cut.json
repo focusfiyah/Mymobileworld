@@ -1,0 +1,29 @@
+{
+ "V14I": {
+  "max": 2.2,
+  "why": "flips from 2.25 s (QC 2026-10-29)"
+ },
+ "_run": {
+  "V13": [
+   "A",
+   "H"
+  ],
+  "V14": [
+   "B",
+   "I"
+  ],
+  "V15": [
+   "B",
+   "D",
+   "I"
+  ],
+  "V16": [
+   "A"
+  ],
+  "V17": [
+   "A",
+   "D"
+  ]
+ },
+ "_run_why": "2026-10-29 QC: only tails where her hand still holds the moving shoe (V13I tail was a still life); V16/V17 add their redo shots after the redo"
+}

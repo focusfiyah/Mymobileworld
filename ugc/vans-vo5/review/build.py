@@ -39,6 +39,7 @@ for v, (name, place, main, dress) in LOOK.items():
 prompts = "".join(f'<details><summary>{k} · {e(L[k].replace(" (TEST CLIP)", ""))}</summary><p class="pl">Still ({len(s["still_refs"])} refs: {", ".join(r.split("/")[-1] for r in s["still_refs"])})</p>'
                   f'<pre>{e(s["still"])}</pre><p class="pl">Clip (Omni 4 s; image 1 = the approved still)</p><pre>{e(s["clip"])}</pre></details>' for k, s in S.items())
 
+CUTS = "".join(f'<figure class="cut"><video src="media/{v}_v1.mp4" controls playsinline preload="metadata"></video><figcaption>{v} {LOOK[v][0]}</figcaption></figure>' for v in LOOK)
 SB = "".join(f'<figure class="sb"><img src="img/sb_{v}.jpg" alt="{v} storyboard, 11 stills" loading="lazy"><figcaption>{v} {LOOK[v][0]}: A to K left to right, top row then bottom</figcaption></figure>' for v in LOOK)
 page = f"""<title>Vans V13–V17 Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -88,14 +89,21 @@ details{{border-top:1px solid var(--line);padding:8px 0}} summary{{cursor:pointe
 pre{{white-space:pre-wrap;font:500 .78rem/1.5 var(--mono);background:var(--bg);padding:10px;border-radius:8px;margin:6px 0;overflow-x:auto}}
 .pl{{margin:8px 0 0;font-size:.82rem;color:var(--muted)}}
 .sb{{margin:0}} .sb img{{width:100%;border-radius:8px;display:block}} .sb figcaption{{font-size:.8rem;color:var(--muted);margin-top:4px}}
+.cuts{{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}} .cut{{margin:0}} .cut video{{width:100%;border-radius:8px;background:#000}} .cut figcaption{{font-size:.8rem;color:var(--muted)}}
 .truth img{{border-radius:8px;max-width:360px;width:100%}}
 ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 @media (max-width:620px){{.media{{grid-template-columns:1fr}} .media video{{max-width:240px}} .looks{{grid-template-columns:repeat(2,minmax(0,1fr))}} .looks dl{{grid-column:1/-1}}}}
 </style>
 <main class="wrap">
-<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Round 1 stills below.</p></header>
+<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Cut v1 of all five below.</p></header>
 
-<div class="ask"><strong>Re-test V14B: Seedance wins. Your call on the other 54</strong>
+<div class="ask"><strong>Cut v1: all five videos. Your review + one redo question</strong>
+<div>Each cut is 27.5 s on Grace's own voice, in Grace's edit style (hand shot first, cuts on each phrase, a quick hand-shot close). My QC: audio matches her VO exactly, no flashes or dark frames, levels OK, clean edges at 2x on every first second, cut gate OK. Spent $15.41 of $24.30.</div>
+<ol><li><strong>4 shots still in these cuts fail my check</strong> and need a redo, $0.66 (4 × $0.164): V14 at 16.1–19.8 s (feet drift away on the walk), V16 at 2.8–5.2 s (the held pair turns), V16 at 19.8–22.1 s and V17 at 19.8–22.1 s (the held shoe rotates). OK to redo them?</li>
+<li>Anything else you want changed in the five cuts?</li></ol>
+<div class="cuts">{CUTS}</div>
+<figure class="sb"><img src="img/first_second_2x.jpg" alt="First second of each video at 2x"><figcaption>First second of V13–V17 at 2x (0.0 s top, 0.8 s bottom)</figcaption></figure></div>
+<div class="ask"><strong>Re-test V14B: Seedance won ("Ok on seed")</strong>
 <div>Seedance 2.0 Mini from our exact still ($0.164): the side tab reads VANS, the black squares look like sequins, Grace's long pink French tips, no band on the wrist, five fingers. Omni with the fixed prompt ($0.315): the tab still garbled ("LGCDI"), the squares still drawn as outlines. Spent $6.55 of $24.30.</div>
 <ol><li>Run the other 54 clips on Seedance 2.0 Mini: 54 × $0.164 = <strong>$8.86</strong> (instead of $17.01 on Omni). It's Seedance, not the Omni product lock, so every clip gets the 2x logo check before you see it.</li></ol>
 <div class="media"><video src="media/V14B_seedance.mp4" controls playsinline muted preload="metadata"></video><video src="media/V14B_omni2.mp4" controls playsinline muted preload="metadata"></video></div>

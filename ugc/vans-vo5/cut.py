@@ -42,6 +42,12 @@ def snap_points():
     return pts
 
 
+def clip(k):
+    """Seedance first-frame take (Ralph 2026-10-29: "Ok on seed") unless QC picked another file in cut.json."""
+    f = CUT.get(k, {}).get("file")
+    return J / f if f else J / f"clips/{k}_sd.mp4"
+
+
 def piece(src, start, length, out, grade):
     run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.3f}", "-i", str(src), "-t", f"{length:.3f}", "-an",
          "-vf", f"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps={FPS},{grade},setsar=1",
@@ -51,13 +57,17 @@ def piece(src, start, length, out, grade):
 def build(v):
     pts = snap_points(); tmp = J / f"out/tmp_{v}"; tmp.mkdir(parents=True, exist_ok=True)
     rows = sorted((k for k, s in S.items() if s["video"] == v), key=lambda k: S[k]["window"][0])
+    for n, k in enumerate(rows):   # cut.json "max": a shot that is only clean for N s starts later (the shot before it runs longer)
+        mx = CUT.get(k, {}).get("max")
+        if mx and pts[n + 1] - pts[n] > mx: pts[n] = round(pts[n + 1] - mx, 3)
     hands = [k for k in rows if S[k]["kind"] == "HAND" and S[k]["beat"] not in ("K",)]
     parts, plan = [], []
     for n, k in enumerate(rows):
-        a, b = pts[n], pts[n + 1]; length = b - a; src = J / f"clips/{k}.mp4"; t0 = CUT.get(k, {}).get("from", 0.0)
+        a, b = pts[n], pts[n + 1]; length = b - a; src = clip(k); t0 = CUT.get(k, {}).get("from", 0.0)
         if S[k]["beat"] == "K":   # Grace's close: the K hold, then a quick run of this video's own hand shots (their unused tails)
-            head = max(0.9, length - 3 * 0.42); run_len = (length - head) / 3
-            plan += [(src, t0, head)] + [(J / f"clips/{h}.mp4", min(dur(J / f"clips/{h}.mp4"), 4.0) - run_len - 0.15, run_len) for h in hands[-3:]]
+            runs = [v + b for b in CUT.get("_run", {}).get(v, [])] or hands[-3:]   # tails QC'd: her hand still holds the moving shoe
+            head = max(0.9, length - len(runs) * 0.42); run_len = (length - head) / len(runs)
+            plan += [(src, t0, head)] + [(clip(h), min(dur(clip(h)), 4.0) - run_len - 0.15, run_len) for h in runs]
         else:
             plan.append((src, t0, length))
     for i, (src, st, ln) in enumerate(plan):
