@@ -1,0 +1,118 @@
+{
+ "unit": "ugc/synthetic-wig",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/synthetic-wig/footage/sheet1.jpg": [
+     116183,
+     "a6906f8e3b41c5b170655098e4244163fde6bbc45d99c294505fa3a008fc8097"
+    ],
+    "ugc/synthetic-wig/footage/sheet2.jpg": [
+     152016,
+     "49a5635a3885a4182bf8a0749b1219b8ed3b68480b10de1ddc90b03674d00c68"
+    ],
+    "ugc/synthetic-wig/preview/visual_V1.jpg": [
+     189986,
+     "885a25b44ef6cf47c72e7c136eaab20c5910bef3dd308592dd075c1ae2d6b373"
+    ],
+    "ugc/synthetic-wig/preview/visual_V2.jpg": [
+     206203,
+     "df08a04e55b1edc4fd8aec7d023639d5b3284788ac723769c1a350dba1b54a23"
+    ],
+    "ugc/synthetic-wig/preview/visual_V3.jpg": [
+     239876,
+     "ac8567db5d3bf70e7b2c7092047fb3633947bea5c76169e291283724ca337b45"
+    ],
+    "ugc/synthetic-wig/qc/dense_0.jpg": [
+     211498,
+     "954c759b7d795203b5f68d661ae00c324b447fd8b76044a9a498949b5d36788b"
+    ],
+    "ugc/synthetic-wig/qc/dense_1.jpg": [
+     217992,
+     "a3974ffa35e051640d1332407ff9c9dc66038605c9b706d0520797f1c92244c3"
+    ],
+    "ugc/synthetic-wig/qc/dense_2.jpg": [
+     226483,
+     "0572cdf5eed8d598ca0d1f2cddb3fd90e8fcb659969d4d05f58ff03afda7ed22"
+    ],
+    "ugc/synthetic-wig/qc/visual_V1.jpg": [
+     189986,
+     "885a25b44ef6cf47c72e7c136eaab20c5910bef3dd308592dd075c1ae2d6b373"
+    ],
+    "ugc/synthetic-wig/qc/visual_V2.jpg": [
+     206203,
+     "df08a04e55b1edc4fd8aec7d023639d5b3284788ac723769c1a350dba1b54a23"
+    ],
+    "ugc/synthetic-wig/qc/visual_V3.jpg": [
+     239876,
+     "ac8567db5d3bf70e7b2c7092047fb3633947bea5c76169e291283724ca337b45"
+    ],
+    "ugc/synthetic-wig/research/hooks_top4.jpg": [
+     224054,
+     "2d167da8618d6811c646e0bfbdb856aa59b8c48837cd85c5346a2b89ac704944"
+    ],
+    "ugc/synthetic-wig/research/videos/7681305137561750815/hook.png": [
+     1461469,
+     "58025d680459992a658845d40b64fbdf7f7b91c29926902432511ac911e68a3d"
+    ],
+    "ugc/synthetic-wig/research/videos/7681305137561750815/sheet.png": [
+     2963504,
+     "e359aa9b85f857ca5f08702cc24b42aeb6f82a1ec66bfbc257933e0a1aa0e963"
+    ],
+    "ugc/synthetic-wig/research/videos/7686266009304485133/hook.png": [
+     820025,
+     "b7ee701f8a37b222e11c851dff6faf6463fdb51f128f464451f916414516ff0e"
+    ],
+    "ugc/synthetic-wig/research/videos/7686266009304485133/sheet.png": [
+     1250111,
+     "f9fb98bcd770fe25a7822d5412147752a1c7691cc5b351fdbb4e65548f87fbea"
+    ],
+    "ugc/synthetic-wig/research/videos/7688120526841122079/hook.png": [
+     1231961,
+     "8a4434968dd3a694e882a3c24595e2585b2164f9e7bb9ba43ee875ae27defa1c"
+    ],
+    "ugc/synthetic-wig/research/videos/7688120526841122079/sheet.png": [
+     2468756,
+     "099a0af2c11c170c81b9f2b10339f6a72ba7e34b04bca6651932b24684ea6419"
+    ],
+    "ugc/synthetic-wig/research/videos/7695450451751308574/hook.png": [
+     1291037,
+     "0cac9a43932d6ccb64d6730fa10fa6c944545f81724a1da465dfd85a9515a8d9"
+    ],
+    "ugc/synthetic-wig/research/videos/7695450451751308574/sheet.png": [
+     2552854,
+     "c281c5ad1148998e27afb22cccbbba784c69bd95bdd9ad5c0698bdd077a1fbf0"
+    ],
+    "ugc/synthetic-wig/research/videos/7695875126197374221/hook.png": [
+     993523,
+     "1635771b0253e5312364f8007065b4d2c56211055915e88628876aee22747732"
+    ],
+    "ugc/synthetic-wig/research/videos/7695875126197374221/sheet.png": [
+     2149580,
+     "594392578f543d943cdc039d5cac332a4e974ba16fa887cbf28903071644c6f7"
+    ],
+    "ugc/synthetic-wig/research/videos/7696597085788884254/hook.png": [
+     1533096,
+     "b7485c8d36044e55c38204805502fd19d431d29b4c8c08bd084402e72070f7d7"
+    ],
+    "ugc/synthetic-wig/research/videos/7696597085788884254/sheet.png": [
+     2989337,
+     "c983d024c618df19072fa7398caed4a99c8abcd9a856a9c106fd806ae2560a31"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__synthetic-wig.set1.part01.tar",
+     "size": 24145920,
+     "sha256": "1ce4fbd2e9b339e2a7aa432091965e16df8962f41cc908bf2e9ebe0b53b64e3e",
+     "hosted": "2026-10-29",
+     "drive_id": "1vGlMxcqjG30rkowEBGXbvlxtWzDXVXzB",
+     "drive_folder": "1zPmru85xgqxLPkSXfQnMbyE6M9FrBRV1"
+    }
+   ]
+  }
+ ]
+}

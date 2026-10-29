@@ -1,0 +1,546 @@
+{
+ "unit": "ugc/base-labs",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/base-labs/oil/clips/S1.mp4": [
+     3120246,
+     "670910e3a68d7226e6c22ac5c21bb074e9c7459b6a124b438a9041b79edd9940"
+    ],
+    "ugc/base-labs/oil/clips/S2.mp4": [
+     1826100,
+     "4137d41c523e7d08109ee9299a6871df941719d0b1e020b4cbfd7c7a115ada25"
+    ],
+    "ugc/base-labs/oil/clips/S3.mp4": [
+     2078830,
+     "0f53fdcd5ebd96e9e51b7a33250ec8d972a79b546d6ae7f42dbdb8983b58f5a3"
+    ],
+    "ugc/base-labs/oil/clips/S4.mp4": [
+     3269775,
+     "6684e2a3322e59f2c62858282ce768e788e1ad84673bff8370c7b7dbbf3a2c03"
+    ],
+    "ugc/base-labs/oil/clips/S4a.mp4": [
+     2472582,
+     "565a92659d50961f09a28525bf68b7dbbe2a9f71a4d833098aad5c02fe1854b8"
+    ],
+    "ugc/base-labs/oil/clips/S4b.mp4": [
+     2227009,
+     "478ac1606c817ee45e209a400b0393b0b4a8491f45e27df4c19aa927b5ed43f9"
+    ],
+    "ugc/base-labs/oil/clips/S5.mp4": [
+     2837012,
+     "c5bf1411aac8e58c70038eefa880cf0312c1f77ca1285b8531cab9d1d7e4632a"
+    ],
+    "ugc/base-labs/oil/clips/S6.mp4": [
+     2698314,
+     "70de3509bbe27c79384109033b498cc14da22329a354a89dd8b9d87dd6d62a49"
+    ],
+    "ugc/base-labs/oil/clips_old/S2_still_hand.png": [
+     524225,
+     "ca599f3c1a2534460f95353540ba6b1ca256a4016616bf17c30f5259ef8bb506"
+    ],
+    "ugc/base-labs/oil/clips_old/S2_ui.png": [
+     560279,
+     "e70fd230cb8d862e5b71ba5f823f467d70845272e2f577bfee843790aef3cf00"
+    ],
+    "ugc/base-labs/oil/clips_old/S3.mp4": [
+     2303832,
+     "a2694f88bf2bdb6cb03ec3d451a4a29f33c093eae8caffc5a301ea43946063a1"
+    ],
+    "ugc/base-labs/oil/out/oil.mp4": [
+     9021331,
+     "6a19cffef2fb9ce72f8959bffc4c2a9981ecd2afac812bf256a50f895d78b84a"
+    ],
+    "ugc/base-labs/oil/out/old_forearm/oil_A.mp4": [
+     8218299,
+     "6734b77bb5e3bb003bdf2e1b9aae1800df36e864202d8f65c916b6a06d85b8ee"
+    ],
+    "ugc/base-labs/oil/out/old_forearm/oil_B.mp4": [
+     8221921,
+     "4795b5a8139efc282a493e2b2ce1be77fefd184c45fdaa0e291dd76affbdddf6"
+    ],
+    "ugc/base-labs/oil/out/old_forearm/oil_C.mp4": [
+     8221356,
+     "f011d75fbeb26f2fab80532795e4e5a06e72d69e87746d296b98013dd1b99e5d"
+    ],
+    "ugc/base-labs/oil/out/old_text/oil_A.mp4": [
+     9018882,
+     "2a9cbc05da9d406ba4f64539ad3a97ba9d41af5e91a81aa99b14f2e6712bdb3b"
+    ],
+    "ugc/base-labs/oil/out/old_text/oil_B.mp4": [
+     9022504,
+     "23ef8a6364da3482beb993e85885cf2607c551495018dc7fbdfef118eea9bb81"
+    ],
+    "ugc/base-labs/oil/out/old_text/oil_C.mp4": [
+     9021939,
+     "1505fc290ab19bd9e3c0024616b03ce9b1dcdcf73b28c82b1086c85cf73c15c5"
+    ],
+    "ugc/base-labs/oil/preview/_S1.png": [
+     456930,
+     "184bd11d511c2a0c828f54d717a834c4f50584342945f1dc81e08f0ed60daeb4"
+    ],
+    "ugc/base-labs/oil/preview/_S2.png": [
+     297373,
+     "6b9da1d79cecde461a505ba4a59b8f97c73ae2ff81fe5d6c3aae425746ac48b0"
+    ],
+    "ugc/base-labs/oil/preview/_S3.png": [
+     336212,
+     "372caebb466cfcc0307129ab8becf3806fb2d0fc7db85cb425c2c3fc411cc2a4"
+    ],
+    "ugc/base-labs/oil/preview/_S4.png": [
+     406594,
+     "cf9d677b905d8ccabacb8b4b0b9f464a91f129d91f5f6aaf66ba307c53cdc810"
+    ],
+    "ugc/base-labs/oil/preview/_S4a.png": [
+     327087,
+     "4921dda2ee687208cf7fceca93eb14faf987ae0da322bf7fcc7a295ded22c9bd"
+    ],
+    "ugc/base-labs/oil/preview/_S4b.png": [
+     322099,
+     "a39a02ad6f5bcb5d7e01273d286dfcad82ca01cd38b2c33657f44091f5ed2f26"
+    ],
+    "ugc/base-labs/oil/preview/_S5.png": [
+     424547,
+     "547f43a7bfdfdaf20d6f0def76e3f8eb087b29c522a8b0b4f0d5f4dbb2be1c2c"
+    ],
+    "ugc/base-labs/oil/preview/_S6.png": [
+     410397,
+     "6cc15ecedba0460f271def81843ab0bf33a67554256938aef208adc8c14c9c47"
+    ],
+    "ugc/base-labs/oil/preview/clips_sheet.png": [
+     2981740,
+     "f794254fd1cdf63caa547baaf4e191e106d98327b2385358a205fc5e02584da4"
+    ],
+    "ugc/base-labs/oil/preview/stills_sheet.png": [
+     976974,
+     "5c8383045b799a1230ac5c97f77a61f7a42bb84f6c7da1ea3aefcbaa0a4d00b4"
+    ],
+    "ugc/base-labs/oil/refs/hand_dorsal.png": [
+     252383,
+     "6ff4b904426cd1cc74d9cd692940f8a22f87cf67c073a6c50fc48838b4af839f"
+    ],
+    "ugc/base-labs/oil/refs/hand_palm.png": [
+     240384,
+     "2defc78920f890ac048768f0c7eb68aad21254f0e451daf536ccdef7e284ae5a"
+    ],
+    "ugc/base-labs/oil/refs/popup.png": [
+     609204,
+     "f7336860b4931742890bc4c77c0508b03960be3c7c69a0faf052eeebeb5f1067"
+    ],
+    "ugc/base-labs/oil/refs/real_box_bottle.jpg": [
+     167077,
+     "1d1267914e2952ec8f715d726f5d85ce837802b4da4cd5291483d262556ffe87"
+    ],
+    "ugc/base-labs/oil/research/compare_honei/compare/A/hook.png": [
+     1340616,
+     "4e7af49c64b505eda681b1005f97b766a53038235e15aa7195eae8f66f25fd72"
+    ],
+    "ugc/base-labs/oil/research/compare_honei/compare/A/sheet.png": [
+     2679441,
+     "ee7dada6ec846e953b6c5e0508e72765f99f2f1d07388b5b0bfa9f92b7bfe6ff"
+    ],
+    "ugc/base-labs/oil/research/compare_honei/compare/A/video.mp4": [
+     2742189,
+     "e2aab83d95c5d11357df6e9c0e3fcf78a61e60ed471e27702dd4c70bdeb8db6e"
+    ],
+    "ugc/base-labs/oil/research/compare_honei/compare/B/hook.png": [
+     1134757,
+     "456274d4b1ba5182fdaccf898486390027d3435ac42d6698d4db2513820c5c38"
+    ],
+    "ugc/base-labs/oil/research/compare_honei/compare/B/sheet.png": [
+     2195928,
+     "2302aeef60d1d1131e864dff454a9c5069f6d948aa6bcc449d67d9d7d7324246"
+    ],
+    "ugc/base-labs/oil/research/compare_honei/compare/compare.png": [
+     2476091,
+     "c7f2dd8b4d9836a211e8abc142221550c71a314ba12244bcfb69665ddd29cc2f"
+    ],
+    "ugc/base-labs/oil/research/compare_kat/compare/A/hook.png": [
+     1265022,
+     "902407e37ab075e265f8030d0cbd8c04616910a380fc48f70a0dfcdf2b3bfc64"
+    ],
+    "ugc/base-labs/oil/research/compare_kat/compare/A/sheet.png": [
+     2905288,
+     "3ae919fb20c5e43fb410f3cf4ae86eeecc8d8800060b4b5e299efc383350392a"
+    ],
+    "ugc/base-labs/oil/research/compare_kat/compare/A/video.mp4": [
+     15898053,
+     "9ce3334d99005d91eec8d677dacc3eb2c032104af69fefed843c8b76fb86270b"
+    ],
+    "ugc/base-labs/oil/research/compare_kat/compare/B/hook.png": [
+     1134757,
+     "456274d4b1ba5182fdaccf898486390027d3435ac42d6698d4db2513820c5c38"
+    ],
+    "ugc/base-labs/oil/research/compare_kat/compare/B/sheet.png": [
+     2203354,
+     "6046f56117a963ba09fa2ee42c57d57411eb4e7bbbb1d5a4008151803bcdc3e9"
+    ],
+    "ugc/base-labs/oil/research/compare_kat/compare/compare.png": [
+     2399955,
+     "183c30600cff29ac694b170ef921033f27e08cc1d910e2f68eca067a430de7d5"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7691276694162017566/hook.png": [
+     1348388,
+     "158f2ddec524adeece135745b9959e4c51213a5836f37fd770c2d04acc62be26"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7691276694162017566/sheet.png": [
+     2372349,
+     "565bf6c3f9bee643908892e37e15ef372b7971147ee5e608855af15e56cd42c9"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7691276694162017566/video.mp4": [
+     3683414,
+     "024aa5900d97987956ebcfc29e29bcce66fb8f0f3a40404ec4307907d642ad1a"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7692291375341047071/hook.png": [
+     1522477,
+     "d908854083b2344049ac2f4f1d15797a9845b8b434ed4ef9915b114ddefa4126"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7692291375341047071/sheet.png": [
+     3149857,
+     "796a40eab0f93d8233dc78a060ffed96ce6e345a57a82e326242bf23ea40123e"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7692291375341047071/video.mp4": [
+     7869773,
+     "6246668af8c650489bde7ba09f57e1bf389cf3702d41c94b939d8adf78a6b7ae"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7692481740165762334/hook.png": [
+     1340226,
+     "35580644da072a23216a1eec1fbfd5a41217bbe5c70b06d4d29b53d699e3ea92"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7692481740165762334/sheet.png": [
+     2662712,
+     "6436bbd10161637036341bf033b2f7540ad4c92d0b75b74f96d6a7cb2359141e"
+    ],
+    "ugc/base-labs/oil/research/videos2b/7692481740165762334/video.mp4": [
+     14445714,
+     "b9816e1e557cc8ecfef1dadbac010b99ec7bbb9bda779d9eecb7a0e8bdfdfd87"
+    ],
+    "ugc/base-labs/oil/stills/S1.png": [
+     528862,
+     "cdfb1904ee3c75b8c2f4ca8224f2db5c0b7b05bead5acc164e21e6fff1a464f2"
+    ],
+    "ugc/base-labs/oil/stills/S2.png": [
+     992350,
+     "9bfa29750fd8fa5defca3463d41bbf2907e07f8da349926f4c24988fb467140c"
+    ],
+    "ugc/base-labs/oil/stills/S3.png": [
+     533467,
+     "894b20f7afb3c2f196981f23700e76ba76eafed0bf7c7721503a7a58131d917b"
+    ],
+    "ugc/base-labs/oil/stills/S4.png": [
+     563533,
+     "669443c01c7d8ddab439f31664f227a7f2b445dc194ca02533d58c5fb3c6bb20"
+    ],
+    "ugc/base-labs/oil/stills/S4a.png": [
+     552772,
+     "16e344b8989f83ad189434d777a4379b19fda1936a5cf58bfc64e611e5430b78"
+    ],
+    "ugc/base-labs/oil/stills/S4b.png": [
+     509825,
+     "f89a5e4b35ba9d2f4b2df1004af8cc69181bd232bf6531f2634eba977dca9461"
+    ],
+    "ugc/base-labs/oil/stills/S5.png": [
+     515835,
+     "7bfab3feaafb1bc39bb8235ab3f7a166b772c33bae06434aaea7c665c6843724"
+    ],
+    "ugc/base-labs/oil/stills/S6.png": [
+     475609,
+     "32cef6c8340f01285c7adc1acaf65348e08dca464b5ec0263f55f2ea3ad1904b"
+    ],
+    "ugc/base-labs/pads/clips/S1.mp4": [
+     3022450,
+     "2509e7c33d56cc0508be4cd6006db95fa2d1484659ff250801b6d72743182ee9"
+    ],
+    "ugc/base-labs/pads/clips/S2.mp4": [
+     1784063,
+     "0ab8074929d5224629a3425c379148a26b075a1e55c7f9706f116287b9522a74"
+    ],
+    "ugc/base-labs/pads/clips/S3.mp4": [
+     2024651,
+     "556c7c5e908327e97b10ec4b14cfc8787473eb5d80e9532be1e23ebc333dbfbe"
+    ],
+    "ugc/base-labs/pads/clips/S4.mp4": [
+     3221971,
+     "9fbd3ec6603177c744ffd834b98fe7e259b938a3a5d405afe789f2b1b75294b5"
+    ],
+    "ugc/base-labs/pads/clips/S4a.mp4": [
+     2438316,
+     "a88cf2e1c186d09709818123185b5419f496090f4a826784fa00c334d1c95435"
+    ],
+    "ugc/base-labs/pads/clips/S4b.mp4": [
+     2472831,
+     "c3720306371d8361c57aa0257826f4c0fa764e297a0d69feaf7f9253ddb651e2"
+    ],
+    "ugc/base-labs/pads/clips/S5.mp4": [
+     2165430,
+     "fb22b27b387a557db354d2c15d7e60c48c6ac2dbdd93730f3a83f1b523c828ec"
+    ],
+    "ugc/base-labs/pads/clips/S6.mp4": [
+     3024610,
+     "4c5e30de12954e5f6ac25a60689e65f1a7fbc36364c0c729421ee7db40e27230"
+    ],
+    "ugc/base-labs/pads/clips_old/S2.mp4": [
+     2401605,
+     "3e392d0ee368c86f911c7ebde1fb4bffc33f43c06336bb5622a21f2c7dd5f31b"
+    ],
+    "ugc/base-labs/pads/clips_old/S5.mp4": [
+     2422640,
+     "3e8d9b7a2f5b4f4e7c55e5119d96c924566475240db75027ea83177dc19d60c6"
+    ],
+    "ugc/base-labs/pads/clips_old/S6.mp4": [
+     3495259,
+     "470133bcf3b847eb54e4f4dceea44eae01a81118b20b2b67aa98f24b79a92361"
+    ],
+    "ugc/base-labs/pads/out/old_forearm/pads_A.mp4": [
+     7764566,
+     "88dbbfeee87c3bbb38c64198e90430a418065154039fd605e45ea2b57e2964cd"
+    ],
+    "ugc/base-labs/pads/out/old_forearm/pads_B.mp4": [
+     7766336,
+     "42009ffe24ab5ec6146144636852a8b9ca689ccff38f1da6a3870c577ac6ab5b"
+    ],
+    "ugc/base-labs/pads/out/old_forearm/pads_C.mp4": [
+     7765701,
+     "6fdef0d0d8ad6b36d34db79bea3e69897d8527e719510266a89a74889e72336d"
+    ],
+    "ugc/base-labs/pads/out/old_text/pads_A.mp4": [
+     8144270,
+     "969577aca89e88f57eeb022cfd72a969fbef5bc01c36b5a471275338022ac4a4"
+    ],
+    "ugc/base-labs/pads/out/old_text/pads_B.mp4": [
+     8146040,
+     "ed3ae580dbf6a5d0841c69963286443d8ab024e759d3338a3eb541037ae698b0"
+    ],
+    "ugc/base-labs/pads/out/old_text/pads_C.mp4": [
+     8145405,
+     "70d1412eef274ea96ac2e73ef44fa48bf41482b6b6f4908fd26741ead92cae89"
+    ],
+    "ugc/base-labs/pads/out/pads.mp4": [
+     8143512,
+     "3c42250e05c26204e6a0633ccc5eb325e6d5157f45a33a43b3ac914d4f315bb6"
+    ],
+    "ugc/base-labs/pads/preview/_S1.png": [
+     424905,
+     "c0054d3d6094bbaa0c13a57ab02581a7334af3879d75aac39c1210b2abed3b76"
+    ],
+    "ugc/base-labs/pads/preview/_S2.png": [
+     271037,
+     "bcc024b681ae20052fcb8aa8c9846d28240b1787b70c3d459868a18ab137cc8c"
+    ],
+    "ugc/base-labs/pads/preview/_S3.png": [
+     357484,
+     "e4ce2323dddba61c9f55f20280caca884f18d4a22700b06ab70e2fa3e2d1b3f1"
+    ],
+    "ugc/base-labs/pads/preview/_S4.png": [
+     401019,
+     "50e2df3ca3370fdb112b307524abba466fe7ad8679f50bdb468b91c43dfc19c8"
+    ],
+    "ugc/base-labs/pads/preview/_S4a.png": [
+     359728,
+     "bc970865423333bba57ae74f8e0e1967e6f99cc42b56b5335c27302fe6ec5fbb"
+    ],
+    "ugc/base-labs/pads/preview/_S4b.png": [
+     385346,
+     "75ab0a633d64edc9ea76ba3c252ac9ff30f4c0086cc820bd68274baec9bd4735"
+    ],
+    "ugc/base-labs/pads/preview/_S5.png": [
+     330347,
+     "148b2bfc1ac51672681ba43ca533bbe60e42c37ae4138aca3fb910475fcae84d"
+    ],
+    "ugc/base-labs/pads/preview/_S6.png": [
+     391360,
+     "d7380f1b3d51bc058cf0672256f29982677b0c85cbeb584f483d4aca6ad67d99"
+    ],
+    "ugc/base-labs/pads/preview/clips_sheet.png": [
+     2921598,
+     "034ce3311f62434eb32733f5005231c818c7e22a15fb01d41646fce5060f370c"
+    ],
+    "ugc/base-labs/pads/preview/stills_sheet.png": [
+     1344252,
+     "2c1f6bcf539cc109fe4e1c498a0189f6a5c7c00cc23bbe5b33bfeffcd9c2aeaa"
+    ],
+    "ugc/base-labs/pads/refs/hand_dorsal.png": [
+     252383,
+     "6ff4b904426cd1cc74d9cd692940f8a22f87cf67c073a6c50fc48838b4af839f"
+    ],
+    "ugc/base-labs/pads/refs/hand_palm.png": [
+     240384,
+     "2defc78920f890ac048768f0c7eb68aad21254f0e451daf536ccdef7e284ae5a"
+    ],
+    "ugc/base-labs/pads/refs/popup.png": [
+     169610,
+     "d89bb94b647a46302ca113410f19c154b15fb0c15376f36bd9e647457b808f99"
+    ],
+    "ugc/base-labs/pads/refs/real_box.jpg": [
+     99552,
+     "cb51351c95824348d851f4a8a078c5f2a4248dadc7cb7be2e7b4941948b3f166"
+    ],
+    "ugc/base-labs/pads/refs/real_jar.jpg": [
+     135954,
+     "267ae3114bf3265926d8e715d4848a69cee41fae7cf878c7de614fa515c45baf"
+    ],
+    "ugc/base-labs/pads/research/compare_alexa/compare/A/hook.png": [
+     987032,
+     "096c4f283c8d4e28ba8a4bc5b3a5f4c6ca99eeefe598cd5f70e15ae575320fc4"
+    ],
+    "ugc/base-labs/pads/research/compare_alexa/compare/A/sheet.png": [
+     2329702,
+     "7efaa9ee68f6b6772aa49115113edc375ff3c1aaf99911bb08d31f7dcde0723a"
+    ],
+    "ugc/base-labs/pads/research/compare_alexa/compare/A/video.mp4": [
+     1749710,
+     "0267614d86139fa05649d791ed82a706183795da01bf404871b192b8e126d614"
+    ],
+    "ugc/base-labs/pads/research/compare_alexa/compare/B/hook.png": [
+     1052979,
+     "496fc28df90d8c2c06a68ecfb3d82fea5099b103e3487f4b5251adb1720e023b"
+    ],
+    "ugc/base-labs/pads/research/compare_alexa/compare/B/sheet.png": [
+     2200215,
+     "caa90981581861991df53ab4bbfdcb246a59597989b31e61121af73baf190297"
+    ],
+    "ugc/base-labs/pads/research/compare_alexa/compare/compare.png": [
+     2039760,
+     "b9d391822847d9c4a6a73ffed0f235aa54a11302ab1bfd6b27b8c142d330dcd8"
+    ],
+    "ugc/base-labs/pads/research/compare_kat/compare/A/hook.png": [
+     1265022,
+     "902407e37ab075e265f8030d0cbd8c04616910a380fc48f70a0dfcdf2b3bfc64"
+    ],
+    "ugc/base-labs/pads/research/compare_kat/compare/A/sheet.png": [
+     2905288,
+     "3ae919fb20c5e43fb410f3cf4ae86eeecc8d8800060b4b5e299efc383350392a"
+    ],
+    "ugc/base-labs/pads/research/compare_kat/compare/A/video.mp4": [
+     15898053,
+     "9ce3334d99005d91eec8d677dacc3eb2c032104af69fefed843c8b76fb86270b"
+    ],
+    "ugc/base-labs/pads/research/compare_kat/compare/B/hook.png": [
+     1052979,
+     "496fc28df90d8c2c06a68ecfb3d82fea5099b103e3487f4b5251adb1720e023b"
+    ],
+    "ugc/base-labs/pads/research/compare_kat/compare/B/sheet.png": [
+     2042666,
+     "b80f1dabcdce86269c90f243a3dadf254da2e8d6cdbd86e79f92c915025fd7cf"
+    ],
+    "ugc/base-labs/pads/research/compare_kat/compare/compare.png": [
+     2317816,
+     "df6bbc473c286e2912993fbba0907f643e57a40159934edb8bd233c2d519a35a"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7691276694162017566/hook.png": [
+     1348388,
+     "158f2ddec524adeece135745b9959e4c51213a5836f37fd770c2d04acc62be26"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7691276694162017566/sheet.png": [
+     2372349,
+     "565bf6c3f9bee643908892e37e15ef372b7971147ee5e608855af15e56cd42c9"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7691276694162017566/video.mp4": [
+     3683414,
+     "024aa5900d97987956ebcfc29e29bcce66fb8f0f3a40404ec4307907d642ad1a"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7692291375341047071/hook.png": [
+     1522477,
+     "d908854083b2344049ac2f4f1d15797a9845b8b434ed4ef9915b114ddefa4126"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7692291375341047071/sheet.png": [
+     3149857,
+     "796a40eab0f93d8233dc78a060ffed96ce6e345a57a82e326242bf23ea40123e"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7692291375341047071/video.mp4": [
+     7869773,
+     "6246668af8c650489bde7ba09f57e1bf389cf3702d41c94b939d8adf78a6b7ae"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7692481740165762334/hook.png": [
+     1340226,
+     "35580644da072a23216a1eec1fbfd5a41217bbe5c70b06d4d29b53d699e3ea92"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7692481740165762334/sheet.png": [
+     2662712,
+     "6436bbd10161637036341bf033b2f7540ad4c92d0b75b74f96d6a7cb2359141e"
+    ],
+    "ugc/base-labs/pads/research/videos2b/7692481740165762334/video.mp4": [
+     14445714,
+     "b9816e1e557cc8ecfef1dadbac010b99ec7bbb9bda779d9eecb7a0e8bdfdfd87"
+    ],
+    "ugc/base-labs/pads/stills/S1.png": [
+     533074,
+     "0a1b419fb05e568a37c128d39735c594a261b9406b3fd570c1d37e9e5b2d78be"
+    ],
+    "ugc/base-labs/pads/stills/S2.png": [
+     679715,
+     "c09ca943fcf88bc43ae29e55525c9f41caa36a2e476051f31da4fc191995c1c5"
+    ],
+    "ugc/base-labs/pads/stills/S3.png": [
+     563218,
+     "76af5f82d204373cd40c46c48003634a899ee657b2714e0cbb90bd2002273e4e"
+    ],
+    "ugc/base-labs/pads/stills/S4.png": [
+     549378,
+     "76d8be96b2288232841354379d436a52e716b17ced2af9ee51f5fb54b9605d2e"
+    ],
+    "ugc/base-labs/pads/stills/S4a.png": [
+     578074,
+     "1803b6358e3a5ec4a36f50dfacb4b069eef71f54581f596a785e4fdf70690182"
+    ],
+    "ugc/base-labs/pads/stills/S4b.png": [
+     588300,
+     "515931b202b4a315c2dc30864b93154b241d2976d4c914665b3f0ea8edef1f9f"
+    ],
+    "ugc/base-labs/pads/stills/S5.png": [
+     524824,
+     "0cf1b3f6635bf733075abe01d236bde5f34f87874400f9c8ddbd2c25cbd0aaf6"
+    ],
+    "ugc/base-labs/pads/stills/S6.png": [
+     479349,
+     "70da5738df7d8512bc9a6b6901c4d2a881733f7b235bdd783109e4f325acc017"
+    ],
+    "ugc/base-labs/storyboard_body.png": [
+     1186791,
+     "ffba40da6e48138be9d4fe8158b361abb65e2d99ad558d5bca11622f8b14d77b"
+    ],
+    "ugc/base-labs/storyboard_stills.png": [
+     1979986,
+     "04f27575293c075b61dc29faaa9d5c061dcd02a61eb6a6e40a1c875c9814df99"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__base-labs.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "a65d205c02d823ae30f07db141e1275114a6e00c68cfeac1af6d5aba5fcd6039",
+     "hosted": "2026-10-29",
+     "drive_id": "1n9ftUXO966HGSgFIK88eSC0ZMtTCT8lo",
+     "drive_folder": "194YFBXr7Dlp0RSemRqWTWEG7dV97H0fl"
+    },
+    {
+     "name": "ugc__base-labs.set1.part02.tar",
+     "size": 95000000,
+     "sha256": "2a75ae324f3c4d524de9231cdde9617c51684a5308caecac95fd27bdae4a61f0",
+     "hosted": "2026-10-29",
+     "drive_id": "1MEw6c5AtJiirW_tYNSEJIn1fqtHz3K-3",
+     "drive_folder": "194YFBXr7Dlp0RSemRqWTWEG7dV97H0fl"
+    },
+    {
+     "name": "ugc__base-labs.set1.part03.tar",
+     "size": 95000000,
+     "sha256": "9e421b28653f5d13e384c6ce56c22e31484137b9552f20aff150d0018c6b6a41",
+     "hosted": "2026-10-29",
+     "drive_id": "1x6gJsnuSHo_GIfDKLJifapAVk7REn45x",
+     "drive_folder": "194YFBXr7Dlp0RSemRqWTWEG7dV97H0fl"
+    },
+    {
+     "name": "ugc__base-labs.set1.part04.tar",
+     "size": 63753920,
+     "sha256": "55c9842a3ad89bc299b2ac6ddf264906ab4c23c742171d6a445bab280a0d1025",
+     "hosted": "2026-10-29",
+     "drive_id": "1fkaMRULkab-XTFdKk0PbOcY3qSOGKLyc",
+     "drive_folder": "194YFBXr7Dlp0RSemRqWTWEG7dV97H0fl"
+    }
+   ]
+  }
+ ]
+}

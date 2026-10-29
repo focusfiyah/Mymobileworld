@@ -1,0 +1,126 @@
+{
+ "unit": "grace/voice",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "grace/voice/grace_voice_AB.mp3": [
+     481533,
+     "380f0504006ad9d85a39bb8a1d90bdb42761dd811bc8679d198ac363b94248aa"
+    ],
+    "grace/voice/grace_voice_AB_2026-10-20.mp3": [
+     488276,
+     "3023b6171978a7b75efed779ff56f29b126dc11715945dc06ced527710b4e385"
+    ],
+    "grace/voice/r5/ab/grace_real_take.mp3": [
+     497206,
+     "8613c262caf78bb4c25a2a94c2a5c771a1a8c774b05fc63255759cfcc75b1f9a"
+    ],
+    "grace/voice/r5/ab/v1_final.mp3": [
+     591247,
+     "c6ecfbc8c8f09dfdfed4cbe433c70a0778ad4cba28f5c5764f7d4b424ef9c6fc"
+    ],
+    "grace/voice/r5/ab/v1_paced.mp3": [
+     611936,
+     "40de421c2d4a18182cd62b33ea9f4704c55523630459cc4c3b8947856b3cbed2"
+    ],
+    "grace/voice/r5/ab/v5_paced.mp3": [
+     611936,
+     "f64157bd69c957eebba63e27e8db562309b3c84716e0cfbe777b3b0a1a714ad5"
+    ],
+    "grace/voice/r5/ab/v5_raw.mp3": [
+     423435,
+     "9457857455c07e1bb7f464bc1b77d181316069d3dcf88d2d7d5b84735cac9e57"
+    ],
+    "grace/voice/r5/samples/7696231728855223582.mp3": [
+     652060,
+     "a2b165c54298a892d9495cba6927f9dc86adeed5012d5e615bdf5087bc54eafe"
+    ],
+    "grace/voice/r5/samples/7696285070046301470.mp3": [
+     741085,
+     "85b487ce2bbf62444719fda36782411951391e330b6a246af1cab79b715e092b"
+    ],
+    "grace/voice/r5/samples/7696617399759555871.mp3": [
+     796883,
+     "86899f263f64e8398e6c2fa7a452299b445d8c9c0d5cb8a1c4ee752bc92662ac"
+    ],
+    "grace/voice/r5/samples/7696627904985304351.mp3": [
+     707231,
+     "78ba84633cc589d30cd824f3b1068d2aef072bd98402994408ee188b482b85a6"
+    ],
+    "grace/voice/r5/samples/7697844264050511135.mp3": [
+     763028,
+     "b0a7b5ec4a13a6ed81117183e908dc41169362694aae1020b442fa95d303270f"
+    ],
+    "grace/voice/r5/samples/7699252578239925535.mp3": [
+     659583,
+     "054d65ec4393a4178f8f27ce59e72afed0863ca81f40f9a2c666942ad27ed019"
+    ],
+    "grace/voice/r5/samples/7699909360125840671.mp3": [
+     497206,
+     "8613c262caf78bb4c25a2a94c2a5c771a1a8c774b05fc63255759cfcc75b1f9a"
+    ],
+    "grace/voice/test_A_v2.mp3": [
+     120834,
+     "63c08ed54696611c08355e9acd897b3d62ece0f94ad60472bbdbaf002f4ce1b6"
+    ],
+    "grace/voice/test_B.mp3": [
+     171407,
+     "a402c89c0bb7f2caaeb57bc92d81eb1e4669624683055901545b488935419caa"
+    ],
+    "grace/voice/test_C.mp3": [
+     160958,
+     "b61272fc979187ae4a1d6479ec76fa80b32f6dfc94eabfec1797d91bf6937b63"
+    ],
+    "grace/voice/test_C_accent.mp3": [
+     160958,
+     "e1642e023e35f374f42246180ebf764279d12f2b02c5c81c889d66fd1f2e36dd"
+    ],
+    "grace/voice/test_D_tag.mp3": [
+     159704,
+     "40c6920d92ad067dcda85d68241b1285bf28600d370ea76361eae85d5144ece8"
+    ],
+    "grace/voice/test_E_accent_v2.mp3": [
+     116236,
+     "86bc2c49724f996263c1660fbb77e2370af956e6689d02a19f2014cbf643f5e2"
+    ],
+    "grace/voice/test_F_C_paceE.mp3": [
+     116236,
+     "ce2900e0608130ef6af8f11073e3a12c32dd6dc698bdc06a3c35f25d3a944cd9"
+    ],
+    "grace/voice/test_G_C_pace35.mp3": [
+     134626,
+     "f26bb70dd9f5fe9de9adb864deaedcfaae8eb544c2aee991be6d8bce1e639d52"
+    ],
+    "grace/voice/test_H_G_clean_approved.mp3": [
+     134626,
+     "be27289856a304a9a6666a5b230a60ce6427979a1a2f2a516ca6a61f880cd6a8"
+    ],
+    "grace/voice/test_J_G_clean_default.mp3": [
+     134626,
+     "76449417b4019f2b9b625db5e9bc4ab9dc137ea0b4f52b6cac6bc6b68b6d6662"
+    ],
+    "grace/voice/test_new.mp3": [
+     166391,
+     "2268bb625624ac967c396e3e5dfcb145d1daf15dc3a4e9aa952212fa230f163b"
+    ],
+    "grace/voice/test_oldC.mp3": [
+     153435,
+     "7ca0a6c18bfcefaa9e86f399e333983061cdff81a1403011134f462ae4e9c961"
+    ]
+   },
+   "parts": [
+    {
+     "name": "grace__voice.set1.part01.tar",
+     "size": 10280960,
+     "sha256": "9988825fea5ba7dcb3cc870df0ba22d8923ccd9e886a6a84b86623e1ac6baa90",
+     "hosted": "2026-10-29",
+     "drive_id": "1tIp3Gc1j5mj6uwE-83gGCzy3UBrmyc0l",
+     "drive_folder": "1N9dizKUGw8dHxhsaV_ahilBe_CPWokE2"
+    }
+   ]
+  }
+ ]
+}

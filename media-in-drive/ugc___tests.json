@@ -1,0 +1,38 @@
+{
+ "unit": "ugc/_tests",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/_tests/gpt-image-2-pov/preview_half.jpg": [
+     93590,
+     "4c673bb911bf51b753337653f6f722dbd695e4f8f255871ac6793c947ce69223"
+    ],
+    "ugc/_tests/gpt-image-2-pov/still.png": [
+     4028673,
+     "8c5f2502ac2251fda9174c0b04a90813149a11d23c9c01c9aa277b5d2968a1c0"
+    ],
+    "ugc/_tests/gpt-image-2-pov/zoom_hand.png": [
+     991120,
+     "479d17ea7ff5d45915c323dff34d72bd19bf205862f62c9cc59508d3195ae61a"
+    ],
+    "ugc/_tests/gpt-image-2-pov/zoom_screen.png": [
+     766705,
+     "128342a5674b0d2b0bf9d2ea8e467c6dac06d95d5b2b2d5dae3a180dd8c3b1c0"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc___tests.set1.part01.tar",
+     "size": 5888000,
+     "sha256": "69aecb29dd99c24da979bd9cb78ae5fb5eb01f0c420fd0426cb4af4e747584cf",
+     "hosted": "2026-10-29",
+     "drive_id": "1up1qGNEVCLvlKWnJtDBv35b_c4h4fJol",
+     "drive_folder": "1rV_CZ5f88unKS47kyHy7As36AcRVpCpF"
+    }
+   ]
+  }
+ ]
+}

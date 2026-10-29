@@ -1,0 +1,830 @@
+{
+ "unit": "ugc/throw-hands-rps",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/throw-hands-rps/clips/S1.mp4": [
+     2852879,
+     "0ffbee5cd435355eb7e88d98358717696bbcabcaf1ab7cff97716de69bc94850"
+    ],
+    "ugc/throw-hands-rps/clips/S1_fixed.mp4": [
+     3310047,
+     "bbd84e1389f2ba088887882d41f50d3ee2a9e57a25565dc91d2db8a42128b626"
+    ],
+    "ugc/throw-hands-rps/clips/S2.mp4": [
+     3141671,
+     "26035ad0f2d29b880838cf5c2dece5a23929cd327c6e992601de85bcb83de7d7"
+    ],
+    "ugc/throw-hands-rps/clips/S3.mp4": [
+     3453683,
+     "6400302cd380d9a56c9d7fab13e404e1d4b1fbc02402c52d8f811de886486894"
+    ],
+    "ugc/throw-hands-rps/clips/S3_a.mp4": [
+     3354128,
+     "2e8e1a8ab4f4d00d12553932d2fce082df7a6e8e4a17d59375414fe6811b6a3d"
+    ],
+    "ugc/throw-hands-rps/clips/S3_fixed.mp4": [
+     3248472,
+     "c73051e899cb7b596783d7f503152ca78e0c70a2a5564d42ad988ae40cbfc3d9"
+    ],
+    "ugc/throw-hands-rps/clips/S3_fixed2.mp4": [
+     3068799,
+     "a2937c7931419c720a407ee8e89859bde8228b8ded157e80afb67abdcc510d6d"
+    ],
+    "ugc/throw-hands-rps/clips/S3_fixed3.mp4": [
+     3088308,
+     "f1e07132235b17dee37a1de3cf190ad48201f5faf7a83f90359c66713cd7599a"
+    ],
+    "ugc/throw-hands-rps/clips/S3_fixed4.mp4": [
+     3138301,
+     "064f4fd3c2f30cfe7aff959968190c5d966322507b2e658a9b3b2499cdb7a15b"
+    ],
+    "ugc/throw-hands-rps/clips/S3_full.mp4": [
+     3602049,
+     "c176fb72af81fecbc453d7994331dea6defd495a84ede21aa5145c62acf26309"
+    ],
+    "ugc/throw-hands-rps/clips/S4.mp4": [
+     4355844,
+     "4892f0aac6219a17ede1fe6f1d63aa388e329fc9e1e2815f5299e36f2ef43b6b"
+    ],
+    "ugc/throw-hands-rps/clips/S6.mp4": [
+     3710978,
+     "93b51dda850f1a370fe9707299e5d005d9a514d5bb5148b193bd684aa8b4ba17"
+    ],
+    "ugc/throw-hands-rps/clips/S9.mp4": [
+     6026336,
+     "cbbc3e8a945f6946a52d6ef90aff967e22ba83004f0cd85de033ce7ab5864d62"
+    ],
+    "ugc/throw-hands-rps/clips/S9_fixed.mp4": [
+     7253432,
+     "5182c5cec7117a9c8d652afbaa04d97a02392b570f21fc3fe3f5e19f154063e8"
+    ],
+    "ugc/throw-hands-rps/clips_hailuo/S4.mp4": [
+     2200227,
+     "54257263b20b7f3cc6b504b0b9c2d306bcbe912fd94fe7f7edc82420fbb47958"
+    ],
+    "ugc/throw-hands-rps/clips_hailuo/S5.mp4": [
+     2149917,
+     "054525ecbedc298aafda46c153065e323da7b40229f59596854cc46bc459b571"
+    ],
+    "ugc/throw-hands-rps/clips_hailuo/S7.mp4": [
+     1994489,
+     "4ff758f28f4382ba6e7dae9ee09e7fe30bc54357af6ca52c6c0a85928ed6b061"
+    ],
+    "ugc/throw-hands-rps/clips_hailuo/S8.mp4": [
+     2551855,
+     "ffdbc061325174d7bde8f3fbb822e0512a99fe5ddc5912affa9c6481eef2fc07"
+    ],
+    "ugc/throw-hands-rps/clips_veo/S5.mp4": [
+     3820529,
+     "58a504c500c6f7c0da47712d888774555880b34c62bdfe01c05411173465c209"
+    ],
+    "ugc/throw-hands-rps/fix/S3_fixed2_check.jpg": [
+     503347,
+     "92eff57b34af950756e96f834ff89ac381e327549df96f99bf60939d2765c6e6"
+    ],
+    "ugc/throw-hands-rps/fix/S3_fixed3_check.jpg": [
+     505874,
+     "a731b040d35afcb816bf869a1d2ed46c486fd7acc105456a5bd932fff0fee018"
+    ],
+    "ugc/throw-hands-rps/fix/S3_fixed_check.jpg": [
+     449442,
+     "3b9641fb3feea1a424a4d93bdfdaa48b17c29196f317211a2fd5981b3e22c086"
+    ],
+    "ugc/throw-hands-rps/fix/S3_full_check.jpg": [
+     520068,
+     "06d6cf48b6ab72775ccf2bcbdf0929fcb544067693d42e62edde14b300925b54"
+    ],
+    "ugc/throw-hands-rps/fix/fix_S3_check.jpg": [
+     442353,
+     "a94d8d68d5912b40426ca3fb8e3ae6b547bd65b7dd1bd8084eb91abd031f76e2"
+    ],
+    "ugc/throw-hands-rps/fix/fix_S3b_check.jpg": [
+     442492,
+     "bdcf47f4801782a83660f6e88915df18e0ee565c721584b8d8b2a544592329d5"
+    ],
+    "ugc/throw-hands-rps/old/S3_v1.png": [
+     611832,
+     "6f3cff95dfbb18d2493d3c696c2b743b4fee9c9a15bd0036cc8af3a81ba5bed1"
+    ],
+    "ugc/throw-hands-rps/old/S4_clip_v1.mp4": [
+     4441730,
+     "069407e97b5783fbf577843d0e1b06b243ef9b3d0658de75d0350b84f1ffdb02"
+    ],
+    "ugc/throw-hands-rps/old/S4_v1.png": [
+     802806,
+     "ab121118cd207f7dd8b556c74e79f1181e05fe528539ac70b03368ef12fa9ab3"
+    ],
+    "ugc/throw-hands-rps/old/S4_v2.png": [
+     714215,
+     "63f11419ca6775bc83d09ec3e7fa0e4c7947ba5af75c2a9933d66efa6d002bf9"
+    ],
+    "ugc/throw-hands-rps/old/S4_v3.png": [
+     806861,
+     "9b85f66e855be66dc4991954b5ee65955fda689797ce8e67d78f266aa5cb5442"
+    ],
+    "ugc/throw-hands-rps/old/S8_v1.png": [
+     766804,
+     "0f67e61871b3144a7d1afd47557f37ca9da544f84a25384182f572527d56ba90"
+    ],
+    "ugc/throw-hands-rps/old/S9_v1.png": [
+     787100,
+     "12ef1f528b742fc3da11d45236e256a5b2efafc7b4b1cb8800f5b997307b06d5"
+    ],
+    "ugc/throw-hands-rps/out/throw_hands_r1_raw.mp4": [
+     15237905,
+     "a2569bb55d87d4edfb23b37745cf1bfe172ef91912f6349a655e5cc108302200"
+    ],
+    "ugc/throw-hands-rps/out/throw_hands_r2_raw.mp4": [
+     15928621,
+     "ef25d416ad58b01dce7a6dec3111d774b1967c430246dd7c375166e0a15418a2"
+    ],
+    "ugc/throw-hands-rps/out/throw_hands_r2_review.mp4": [
+     3366031,
+     "cf8e804b9f8220dda5ebb7e2b2f2ddd0ae71f91abe0b436389168c54210fe77e"
+    ],
+    "ugc/throw-hands-rps/out/throw_hands_r2b_raw.mp4": [
+     15903892,
+     "c6ca26f9d0a1f4a596d06be91162e6b48c92b8830142d5d00f7a43b8fba68ac6"
+    ],
+    "ugc/throw-hands-rps/out/throw_hands_r2b_review.mp4": [
+     3375317,
+     "4ee530293952916b452c17404ea4f8fd5b6712537ef90be92b221a07023db78e"
+    ],
+    "ugc/throw-hands-rps/preview/_S1.png": [
+     496557,
+     "cf29b5b6c58b68d4400eafc0bb123762660dca451010fb3f720bf2a8431fc342"
+    ],
+    "ugc/throw-hands-rps/preview/_S2.png": [
+     518923,
+     "964524cfe8534abb7c7955b360f5a65f7b6b30915ef06fae7fd660a4edc1b917"
+    ],
+    "ugc/throw-hands-rps/preview/_S3.png": [
+     485460,
+     "03044aa388fc6fdcff97d603c7a21ed94783002f19ff527aa5f54fd2b84122eb"
+    ],
+    "ugc/throw-hands-rps/preview/_S4.png": [
+     640847,
+     "279ead1fb93edb5b9627bb0ddbfd527a09c438a52ba3d25c5b27650468358119"
+    ],
+    "ugc/throw-hands-rps/preview/_S6.png": [
+     483811,
+     "81962640233f1f12e216329f617d6d7a077ddb3fedb4e0eddd8bef23c4624c64"
+    ],
+    "ugc/throw-hands-rps/preview/_S9.png": [
+     647864,
+     "2af11757c8d18e6392422a82cf663a02569fba5614892254e5fd766cee5be3d9"
+    ],
+    "ugc/throw-hands-rps/preview/clips_sheet.png": [
+     3274376,
+     "03a23e6152815e4cd40676b9000d0383a55352ddd433a5b1b015d3cebc3f85a0"
+    ],
+    "ugc/throw-hands-rps/preview/listing_sheet.jpg": [
+     312225,
+     "46d5c6ee41ba89cea41ac2fbd5f5cefd8a7ccd289b02f2f470bfcfbd25bebc69"
+    ],
+    "ugc/throw-hands-rps/preview/stills_sheet.png": [
+     2862710,
+     "5bba8cb65e9d7c0f7ea4f19d05e224cf7e0ed7cb68fdf0dbadbbafee88b1b054"
+    ],
+    "ugc/throw-hands-rps/preview/storyboard_v1.png": [
+     878606,
+     "2141f422872c9bd0235fc72e405ca8517927d3c89c0c12f653a1bf5a79d88387"
+    ],
+    "ugc/throw-hands-rps/qc/S1_4fps.png": [
+     1508360,
+     "a251b43643bd5a67e6a73b34626cadcacd3cb7b157f25bdaa57b7e9af671e5ec"
+    ],
+    "ugc/throw-hands-rps/qc/S2_4fps.png": [
+     1598178,
+     "f9def54c0192a9f2cdbd1cb02d2b2e66b7ecd0c9a8f8eb8dd12cf00aeab0f782"
+    ],
+    "ugc/throw-hands-rps/qc/S3_4fps.png": [
+     1489075,
+     "ee511bfd7f17455662d017674b25544782f4e75b4e2a9b6345d7e3d2f8208ef0"
+    ],
+    "ugc/throw-hands-rps/qc/S3_fg.png": [
+     13534,
+     "78a8c62f9a12b535baa4b5c290249019538c0a73da5eec029b530213c2c61bd1"
+    ],
+    "ugc/throw-hands-rps/qc/S3_fg_small.png": [
+     14437,
+     "e5508647bf98c4dc1a3e80c38b899f6e26c59aeeaef6d3ba55839d807353a568"
+    ],
+    "ugc/throw-hands-rps/qc/S3_grid.png": [
+     1276792,
+     "2fe706fe141c8753f32d19e8a7298fd16caa89c528c778e8ce699afea222d188"
+    ],
+    "ugc/throw-hands-rps/qc/S3_old_tr.png": [
+     129325,
+     "a56b4c08af8f92ddcc47b82d75ff8fedae59134d6e5847c06579e7aaafa9692f"
+    ],
+    "ugc/throw-hands-rps/qc/S3_paste_crop.png": [
+     524227,
+     "c40ff0d5b1777e2d36bd4b345c648d6f701ae27c6f482596e831a7229a472630"
+    ],
+    "ugc/throw-hands-rps/qc/S3_rem.png": [
+     3589,
+     "d7b37f4dfda7e8b49d1b328c4bf948b2f65b30919685c3631a77cfddef2944c4"
+    ],
+    "ugc/throw-hands-rps/qc/S3_right.png": [
+     303502,
+     "3c5786224fe174386936cc6132597268c5e9d222e423c8dacdfffa2cea7e9226"
+    ],
+    "ugc/throw-hands-rps/qc/S3_right_fg.png": [
+     15674,
+     "f5d585c2028e6e82af23f87bf75a11ed514e81990e144600323b1c602331a2a4"
+    ],
+    "ugc/throw-hands-rps/qc/S3_zoom2x.png": [
+     690078,
+     "aa13e098afba52bd3bc5c57cfeef62fc566dc7a93bc629111d94e42b5e3399be"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_0.1.png": [
+     1238572,
+     "ea03ba331a24d66b54944dec0cc21190a3da4c38e8b4583f6f94db49a149c650"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_0.3.png": [
+     1271662,
+     "1f812b93d7aa75251e59e5a678f7daf3a044913254c219b2fdab87c27115c3e5"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_0.6.png": [
+     1298462,
+     "909a29eec0f25335b3cf6d3e4a4a67b137987ded704c28a91ff14196e805403a"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_0.9.png": [
+     1316911,
+     "9a69ee759e8edbc27e16deaf581bd673aa9786bc520b6a512a2a6b1c6c070246"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_05.png": [
+     1308176,
+     "8995f6ff88ede7fb1444424f4cd1f0a73ab327f37de7d9e17964cd8a68f1feb9"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_1.2.png": [
+     1309433,
+     "07738e4099f1e3a7bcdc8378cd6a71f47ffc8495122f0fd95b91e7052c5f9eda"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_1.5.png": [
+     1326194,
+     "67cfbdc26b5183f84a714c4d3fd0b87d871b2c7fa874b972726aa2dbc7def3ec"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_10fps.png": [
+     1248230,
+     "4440a79b694d6a40c22afa02058ba9667d2130fc64fc2b8b2a434752e542cf05"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_14.png": [
+     1353663,
+     "8f951e462830974eeef5927390ba5b27ff3b0beb151d94ee0298452777ac57bd"
+    ],
+    "ugc/throw-hands-rps/qc/S3f_pair.png": [
+     1675498,
+     "1bde8955c31aaf65eba43cb2195cf28fb6a789d486d55baa37610e32ea6acdd9"
+    ],
+    "ugc/throw-hands-rps/qc/S4_clip_strip.png": [
+     4255543,
+     "18fff5380525bdf30bea9d93273f89095a40544c5b619aac30773d4baf0b8bec"
+    ],
+    "ugc/throw-hands-rps/qc/S4_h_4fps.png": [
+     3009245,
+     "c1144882bf434e8583da509465db8cb270f031ad9ea337e8d3da2f8baabfa619"
+    ],
+    "ugc/throw-hands-rps/qc/S4_hailuo.png": [
+     3710739,
+     "10752b4717075e19ad074d9bd4799832c3b22790e91013c469b3e6f89d1e2cba"
+    ],
+    "ugc/throw-hands-rps/qc/S4_hailuo_big.png": [
+     2166616,
+     "32e3953adabb65dd71fa45545ed45a4bb1efae6063d67b2f2538ee1ee249b25a"
+    ],
+    "ugc/throw-hands-rps/qc/S4_seed_big.png": [
+     1820376,
+     "1a4223e24f9bdb4073485e14032c9cfc2936b4890373e015052c2489be1e2009"
+    ],
+    "ugc/throw-hands-rps/qc/S4_seed_v2.png": [
+     3060992,
+     "52bd46af90cfc732e19af2defba9531c434c0b4e6f283d2a7cffda1831c968d8"
+    ],
+    "ugc/throw-hands-rps/qc/S4_skinmask.png": [
+     34341,
+     "cb1c23ea0f9ddd45c5593c88e0dfd88f05488e19e09d17cbbf37cecca61b258a"
+    ],
+    "ugc/throw-hands-rps/qc/S4_zoom_bottom.png": [
+     850771,
+     "b19faad338fbe99c13afbd028b6573373303aa7c5d20b33e764868aa92902a4e"
+    ],
+    "ugc/throw-hands-rps/qc/S4_zoom_mid.png": [
+     1505371,
+     "581a6841624155347a2370d585e0e43bdf6499eb13d572d20d264ef3095cabce"
+    ],
+    "ugc/throw-hands-rps/qc/S4a.png": [
+     858698,
+     "cb6117dc837314d7488f3521a2ce4132d75b741fa756d88b23aec4f8e590eadd"
+    ],
+    "ugc/throw-hands-rps/qc/S4b.png": [
+     1348468,
+     "52c4b87c4b9a2a8216d1aba3f317310ac2450b68554b19e70961bf7c80f26fc4"
+    ],
+    "ugc/throw-hands-rps/qc/S5_4fps.png": [
+     2426172,
+     "7e031712015ffda1d66dabbb4934fdb98cde870be6aa959daaf714840f098f30"
+    ],
+    "ugc/throw-hands-rps/qc/S5_tail.png": [
+     2922676,
+     "2c68b385ddad8376beb3dff7656bebdc176356081d72a948ccbc7f7a35ed7efb"
+    ],
+    "ugc/throw-hands-rps/qc/S6_4fps.png": [
+     1473936,
+     "7ee742c7b729a68d2df80b799c25f18c3dd91b219cd16976192fc802a6b33120"
+    ],
+    "ugc/throw-hands-rps/qc/S7_4fps.png": [
+     2355392,
+     "0324b7f5eaa1f79185b869834e3f925bf1837b0bf2236e6d75ac398067ec3680"
+    ],
+    "ugc/throw-hands-rps/qc/S7_tail.png": [
+     1562841,
+     "0024341dd469df0a0540a0c4c4109726a52b96bd6980a5f7d3aa45270efa0353"
+    ],
+    "ugc/throw-hands-rps/qc/S8_4fps.png": [
+     2235421,
+     "692a1f383ae272f5bbdc267a21e17ab4136a52df62be5722a7f45ebdf1c6aaed"
+    ],
+    "ugc/throw-hands-rps/qc/S8_box.png": [
+     323422,
+     "3ab8069529cccbf3b49e66a6dc564482e44c301e9530ea4503a8f722daa64714"
+    ],
+    "ugc/throw-hands-rps/qc/S8_box_fix.png": [
+     664987,
+     "efd4217256804259a5bc19303f6a9e7de92f42bc05cc26abd5d0d0834d0731f8"
+    ],
+    "ugc/throw-hands-rps/qc/S8_grid.png": [
+     520895,
+     "3fbd3ea079d742ac3ee91b47865db00c8534f2a569df325d0ba01428ac5c58c1"
+    ],
+    "ugc/throw-hands-rps/qc/S8_head.png": [
+     1560386,
+     "9265301ba84bcb85a12bdbf45dcc21819c49cb7edde21b9ed7eaad3976bdff56"
+    ],
+    "ugc/throw-hands-rps/qc/S8_rm.png": [
+     416082,
+     "b71def90089f4e3d24efb4e78e3a9187c920c691812ce366c756707e28455196"
+    ],
+    "ugc/throw-hands-rps/qc/S9_4fps.png": [
+     2417312,
+     "0bd37425305c7f4328a55a60493cd18b3c27389ae479e83653dbaa8d929d9929"
+    ],
+    "ugc/throw-hands-rps/qc/S9_box.png": [
+     281826,
+     "74877b62af43dba76a8074ece2d0837dd8471796594e64ebb1703e5e6a1c56ea"
+    ],
+    "ugc/throw-hands-rps/qc/S9_box2.png": [
+     351236,
+     "d5386fc61275d5650d1aeefd8e9a3e0b40a35e611de9b4dfc46bcc94e460175f"
+    ],
+    "ugc/throw-hands-rps/qc/S9_box_fix.png": [
+     821530,
+     "445bbec74ee751fe3711d2c3a024e3fc0201100262c0ca304b05999c0ebe41ef"
+    ],
+    "ugc/throw-hands-rps/qc/S9_grid.png": [
+     752537,
+     "2053651beecdf9aa71ad97bbae76374130b1b8888ecaece4ce6f59b132ad5c93"
+    ],
+    "ugc/throw-hands-rps/qc/S9_vs_cards.png": [
+     560813,
+     "b7bd40669c0e8d11b31afe57552d54f09b54e05194073140d4653786230a9353"
+    ],
+    "ugc/throw-hands-rps/qc/S9c_05.png": [
+     1528919,
+     "f34b60a6e8c44fd457252129f4e1a49054e74fa47d12a668ef0360e1163d1a91"
+    ],
+    "ugc/throw-hands-rps/qc/S9c_55.png": [
+     1428984,
+     "d2dc1092ab771d72302eabfe120954755b5e51e1c7879ef031d647d74a8876d0"
+    ],
+    "ugc/throw-hands-rps/qc/S9c_pair.png": [
+     667893,
+     "80ec19f301e117edf49ccceeb1afcc6e148c2ba40b192e6822dcc449bf194fde"
+    ],
+    "ugc/throw-hands-rps/qc/S9f_3fps.png": [
+     3900401,
+     "3f530617e0e4d239ca65484ec176a617471e98f74ad98110320c264e4022567a"
+    ],
+    "ugc/throw-hands-rps/qc/S9f_mid.png": [
+     3202655,
+     "83b9dcf66590d9e61f065f706f79ba202c40d564add26cc21e14af833a448edb"
+    ],
+    "ugc/throw-hands-rps/qc/box_check.png": [
+     1080864,
+     "51f6b8911d136ebc616f9b182bb694699bb05a8a14fdc0ca2e6c539b0711e0d1"
+    ],
+    "ugc/throw-hands-rps/qc/fb_S3.png": [
+     1260091,
+     "ccfa1e451f32a57c9da62e4e34815560d873a0c0a434753407adcbf03a19f17c"
+    ],
+    "ugc/throw-hands-rps/qc/fb_S5.png": [
+     2003956,
+     "783fcdb83cff2a0803f5411492a66df1b459eea2db39b22ec34509cb16437962"
+    ],
+    "ugc/throw-hands-rps/qc/fb_S7.png": [
+     937291,
+     "70614cdd1ab9dfddbff5ef06d70834ba6b10410ed59be248d7a7e0b75cf82bdf"
+    ],
+    "ugc/throw-hands-rps/qc/r1_S4.png": [
+     2037827,
+     "8290fc61ef6446d15ae637b51e8549d5ceab3f9ebe928a272826f6098a5dd10b"
+    ],
+    "ugc/throw-hands-rps/qc/r1_S8.png": [
+     2576581,
+     "bb7631c6372cc354ecea6c3acadb08e20776274b8cb89cc62fd1d529771dea9b"
+    ],
+    "ugc/throw-hands-rps/qc/r1_first_zoom.png": [
+     1481349,
+     "80f506cc818da32dcd5751bc1d6c76f9bfaa080485dd216d1af22f4df983d79a"
+    ],
+    "ugc/throw-hands-rps/qc/realbox_grid.png": [
+     446345,
+     "f91ba6625920a276fbc47042f8d04e9f3d2a322c370c418513da6562563430d1"
+    ],
+    "ugc/throw-hands-rps/qc/realbox_half.png": [
+     435134,
+     "9fdb9509f51a3fdf71112a07732b2ad80ff509638909f7f8422f1333aa9397c8"
+    ],
+    "ugc/throw-hands-rps/qc/skin_cmp.png": [
+     990647,
+     "d9a892e71522cdfe58545f9a5bfa8fcaee6cc75f8eb014af22999e0fd3864774"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_S7_stills.png": [
+     1930563,
+     "302f44ea20a43829dc5b56c2af003915309f559688b7136aad52d147b946791a"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_box.png": [
+     1107337,
+     "70bfce21560a84675be161692e1843527e3f508fb084f7ffe98c932a16680e6c"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_box2.png": [
+     2232292,
+     "b839c539f137a8b163aa7f0a0b8851455544192a47973c8f99cffdc8013385eb"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_box_fix2.png": [
+     1259475,
+     "211f783fcdb6e731e5b444be95aa9696f7448d349b32b1245d5d2bb1c3395643"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_box_orig.png": [
+     1124716,
+     "82a66f73c88229a2cca000313b1dc6c0adcd6a937ed376a6e083b120a3f6877d"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_cmp.png": [
+     6363101,
+     "269f5ee8f8150de844a46ce8c54a0d0813b7f35110a545ea82983a548bddeca1"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_fix2_8fps.png": [
+     3251260,
+     "53f42a875d6bfda5f48ef2d1d9041d9f8639b23ffd60d23c894f86c56b4dd3b0"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_fix2_zoom.png": [
+     448654,
+     "005a5fb80fc88a7ed0137f0034cd08e6cc9ce381b480e768eb31df7ab5caad9d"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_fix3_zoom.png": [
+     642407,
+     "535d7c2ee98db51a0cf73db309063d4d73dc15cd02d2cf3402d864ce46869fcd"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_fix4_zoom.png": [
+     982079,
+     "8921ad5bfe07e67e79a6df824d63443a969969221987b2defa7e3c9cf5af4e67"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_full_8fps.png": [
+     3423072,
+     "393ddee7df64ddcd7b6fbee4bb6ff080baefdb69add39bd60adf405a1cd2c059"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S3_orig_8fps.png": [
+     3110496,
+     "cc5961b54f59030615c051b0fc3af45769f5f85da020ffed2c17abec32ec32fa"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S5_sheet.png": [
+     5504970,
+     "039ead9bfcef257281e868b36efd8c4067ead4f372de17a88b4709a461879643"
+    ],
+    "ugc/throw-hands-rps/qc/veo/S9tail.png": [
+     1246889,
+     "45d2f5d025469bc9dab06f138835432995a05cddf28f6a27c30de06c4256bb40"
+    ],
+    "ugc/throw-hands-rps/qc/veo/c_S1S9.png": [
+     2694796,
+     "3bb67240e870da0622729ff54eae2f769404d2c4a25428f65b516fd13f1bcaac"
+    ],
+    "ugc/throw-hands-rps/qc/veo/c_S1_fixed.png": [
+     1055780,
+     "d0b6a809d873c4437197f5ccbe7559e486bd1522a2ae31582b033e1c120d2d50"
+    ],
+    "ugc/throw-hands-rps/qc/veo/c_S9_fixed.png": [
+     1638859,
+     "d43bd1237c3fc68741d66bb83376343d291a0060423250975f04dc5337089e3f"
+    ],
+    "ugc/throw-hands-rps/qc/veo/f3_0.8.png": [
+     182022,
+     "f2e08694e71bc56337ae864344d7b28a5ba3f3b4f151a4025e951b1ab50ffe4f"
+    ],
+    "ugc/throw-hands-rps/qc/veo/f3_2.0.png": [
+     223348,
+     "41b044b73a1c48c5880e95c56c2a036f5a6cb06e2704891b3dcc4a49fd6b69e4"
+    ],
+    "ugc/throw-hands-rps/qc/veo/f3_3.2.png": [
+     211402,
+     "19f755f4170a189340f99fd4fec1065fdfb5c92b41317ef47301a43a42af441e"
+    ],
+    "ugc/throw-hands-rps/qc/veo/g_0.4.png": [
+     152032,
+     "584c089daa729020f5833babf11672875789c8054d554a155218a2b4a46534dd"
+    ],
+    "ugc/throw-hands-rps/qc/veo/g_1.0.png": [
+     167006,
+     "878c428345137e6c3dccf4df0288480dabec29878b9d80d068111495e2880496"
+    ],
+    "ugc/throw-hands-rps/qc/veo/g_1.6.png": [
+     179521,
+     "6e6c898182ca9e6b87750b25d915137b6518660dbcd2918da890041940455ca7"
+    ],
+    "ugc/throw-hands-rps/qc/veo/g_2.4.png": [
+     199152,
+     "969142c8647fba56dd82bc077e61c6ddf1eabf0dff6bd5149c9e0831c07cdb0d"
+    ],
+    "ugc/throw-hands-rps/qc/veo/g_3.2.png": [
+     207459,
+     "3618c77c9d86bbda339f8efbe861ac8bb1a00ba1bb4a169370d212870f919ceb"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1_S3_fixed.png": [
+     2778257,
+     "d995a5222c42f136d98f46090d88cd546ce212a47a12c2603ad21826e6b9981f"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1_S5.png": [
+     4453283,
+     "5d7de2ef505d11b69e98e30fd83f10ccf2dbba09636df09a747f1d64bce1b2df"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1_S7.png": [
+     4286486,
+     "d512bd89dab269a6b7d87f0a26b1dd4a3fa940ed0aba2b6eacd9ac3a8dbb7f8d"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1b_S4.png": [
+     2878447,
+     "d5ca104739f583d58b0f6854d6d05b16eb8102709f679466c5be4fa4741b7e9e"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1b_S6.png": [
+     1850174,
+     "3188537c7b10048397498187c13550e1d3a41c212e623a19415bd97aa3711fd7"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1b_S6S8.png": [
+     4560566,
+     "f1734ab7dc081729cbd484fcb99afc1d488cda69278945d017bf63dfc54bc82d"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r1b_S8.png": [
+     2708956,
+     "491b01b13a29e500d96c77c719303c230da068678970199a2794796bfe13ff96"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r2_changed.png": [
+     4715822,
+     "13dc60a47181a11f155507669aaf0157442ad8a408a7c117ee7d3737cded7982"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r2_s5.png": [
+     1679610,
+     "aef7de47bf5beeb28c01c0f4e326aafa15c8501f2ef11cd500ae9f0d72715dc5"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r2_s7.png": [
+     862906,
+     "198729637aba117d4df4dbf219a6c95637c734ece8619211544cf4484cd1c715"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r2_s8.png": [
+     2172030,
+     "fa80669a9c48c2aab6c04ff4838fbf505200719dae36e69cf9c926f27118b1a1"
+    ],
+    "ugc/throw-hands-rps/qc/veo/r2b_S3.png": [
+     1332243,
+     "3d809e8e75169bdafdac21960731cfe288f572f951791d720ee125d1f5de234b"
+    ],
+    "ugc/throw-hands-rps/qc/veo/veo_S5_detail.png": [
+     4659967,
+     "a1516c335e88a8336ec77edd5a2d6fc8878907f8484fd09ce983336f193fd50f"
+    ],
+    "ugc/throw-hands-rps/qc/veo/veo_S5_smear.png": [
+     3001837,
+     "aa2fa2831b53ef31154bfea6c7f6e64eaf9b8592127ca4f5d777b431d98a1d08"
+    ],
+    "ugc/throw-hands-rps/qc/veo/veo_S5_tail.png": [
+     2836613,
+     "73c37f0524fe0c9b28845df0fffe41ab1f32c69702c5640e438a302a65dcdf67"
+    ],
+    "ugc/throw-hands-rps/refs/box_real_front.png": [
+     335006,
+     "8878a0fbc0bbada1bb98af3800029f15d3617dc1c1eb9cf9bb66d3112fe60f04"
+    ],
+    "ugc/throw-hands-rps/refs/ex_overhead.jpg": [
+     69420,
+     "07850e90a2197cea0ed0286d17aa9610cc56dcae183b8755fab14e43014e308e"
+    ],
+    "ugc/throw-hands-rps/refs/grace_hand.jpg": [
+     133651,
+     "2b2ba7a425ab08ffa29b7e1452931730b5ed50d670006727c6b092074d16b819"
+    ],
+    "ugc/throw-hands-rps/refs/listing_0.jpg": [
+     201280,
+     "a5ceef908411b436d5ffd48f08a024173cb8e1f89044e7832c62e201c36a2776"
+    ],
+    "ugc/throw-hands-rps/refs/listing_1.jpg": [
+     480031,
+     "b631abced4f5b7d19f8ebfec66a971b9bac0df4e1de79377e77eca35d386481e"
+    ],
+    "ugc/throw-hands-rps/refs/listing_2.jpg": [
+     351116,
+     "ff8b88518c0f266e3882441ede3deca2fdc0e86f82ac7eeb7726bf9b76d8dace"
+    ],
+    "ugc/throw-hands-rps/refs/listing_3.jpg": [
+     267587,
+     "2c3217a9de328f3263865faacfce9db8d513202363e1e2031733dae266afb708"
+    ],
+    "ugc/throw-hands-rps/refs/listing_4.jpg": [
+     306487,
+     "d56324527a5366d527f3e61a7cb5cdca169ca53cd504b14470f74fe41dd25ed4"
+    ],
+    "ugc/throw-hands-rps/refs/listing_5.jpg": [
+     243408,
+     "d8beebb7454b43c0a3e273ff8cf61700f9e181bed366d69f5bbdf29a9c3160a8"
+    ],
+    "ugc/throw-hands-rps/refs/listing_6.jpg": [
+     229299,
+     "fcc1e8a0befc0f7287a4d82fa3779357d6069f17a1a3135510a9084454f6707d"
+    ],
+    "ugc/throw-hands-rps/refs/listing_7.jpg": [
+     521213,
+     "17df3fd8dcce34a7e7e7c679095fb00e1e4c01ca375a7e77fa87a1f63d724f5a"
+    ],
+    "ugc/throw-hands-rps/refs/listing_8.jpg": [
+     337435,
+     "4e4ff5766d28bf95038b928a92686379e94886ffc69eee4cd71e6e4c15c528bd"
+    ],
+    "ugc/throw-hands-rps/refs/real_box.jpg": [
+     358905,
+     "6ad57b8abb4f5b1506a5f4ba4ae287968c8563d0279b33b367d5a134053b4b86"
+    ],
+    "ugc/throw-hands-rps/refs/real_cards.jpg": [
+     500007,
+     "baf31e2facad7551df210b3a720bf4e3dbe4e80c74c6585910aed2078fb24627"
+    ],
+    "ugc/throw-hands-rps/refs/real_cards_hand.jpg": [
+     340891,
+     "5cc6b9971bb6b1197504f0b7107c82cee0015bf068e0b22c601701083fd080a1"
+    ],
+    "ugc/throw-hands-rps/refs/real_table_play.jpg": [
+     905254,
+     "106b98165000d5924b1a88cb462e63fca4891610a4a14fa4b4afa45650ffc8d7"
+    ],
+    "ugc/throw-hands-rps/research/compare_r1/compare/A/hook.png": [
+     1505004,
+     "e2e592d2e6ff311f85dddf29c9129a73b09de5571aac4f124c4bf02cccc31cfb"
+    ],
+    "ugc/throw-hands-rps/research/compare_r1/compare/A/sheet.png": [
+     3232795,
+     "e07a22e4b63bc5c633c531c4025ca57470bd5729ef8628df6841bc35d1bc20d6"
+    ],
+    "ugc/throw-hands-rps/research/compare_r1/compare/B/hook.png": [
+     1854537,
+     "a2e6c8ee48ddc38e141e5834a90393966cea642a2ab2b0648e451acf03a0c93b"
+    ],
+    "ugc/throw-hands-rps/research/compare_r1/compare/B/sheet.png": [
+     4010785,
+     "8eb2203e9a9f9059e37c708dd9dbb3348afc2140b5b814cb9bd821ea8b4e6d49"
+    ],
+    "ugc/throw-hands-rps/research/compare_r1/compare/compare.png": [
+     3360471,
+     "ef0a4533a9620514dad187d688bc6c27406a805eeeea9ef7d9f41b6fbdc7fb4e"
+    ],
+    "ugc/throw-hands-rps/research/videos/7659861170408426783/hook.png": [
+     1505004,
+     "e2e592d2e6ff311f85dddf29c9129a73b09de5571aac4f124c4bf02cccc31cfb"
+    ],
+    "ugc/throw-hands-rps/research/videos/7659861170408426783/sheet.png": [
+     3242979,
+     "d11e6465cfc42b9241aeb7ab992ab41a8eecba0b65a898237cb75b1647e74572"
+    ],
+    "ugc/throw-hands-rps/research/videos/7659935273374993695/hook.png": [
+     1461718,
+     "fab9d0093904c05918262b78e6fff08a7263e7d2cc0e4525f91928269991ae43"
+    ],
+    "ugc/throw-hands-rps/research/videos/7659935273374993695/sheet.png": [
+     3089276,
+     "fad688386dc5970b85c18a113c6ae16be19e9c5b57d0e1e3f3f6394d81774734"
+    ],
+    "ugc/throw-hands-rps/research/videos/7688471002140953870/hook.png": [
+     1559085,
+     "6430de6a0c1ffd1e3c177b63077381f1ff4e529f59dc28379e989c18f2bf113e"
+    ],
+    "ugc/throw-hands-rps/research/videos/7688471002140953870/sheet.png": [
+     3350664,
+     "d2eefe8d94b72f4d5ad36d74d43919f9bf670b9f5fab882bf52a1b2d07b1bf4a"
+    ],
+    "ugc/throw-hands-rps/research/videos/7691898929427909918/hook.png": [
+     1425447,
+     "d903627b7ddd047df54a9296e4104344a5d01640ff2ba2cad98e36674f6c2b5f"
+    ],
+    "ugc/throw-hands-rps/research/videos/7691898929427909918/sheet.png": [
+     3164693,
+     "46902c9c6d6a8695282d6a9717d6a51ab40107526170e655349143f723e93fed"
+    ],
+    "ugc/throw-hands-rps/research/videos/7695062630859312397/hook.png": [
+     1452260,
+     "027daf387969639948d59ca972dca67572a0c99b90fe5c831432a4289aab8208"
+    ],
+    "ugc/throw-hands-rps/research/videos/7695062630859312397/sheet.png": [
+     3307595,
+     "a4504b05600e7a59b131973dc58d8a6ddef209bb7bf1e30501ccd7e33562689f"
+    ],
+    "ugc/throw-hands-rps/research/videos/7696285070046301470/hook.png": [
+     1286716,
+     "7ff5ac3bcaea8846c3cb2d1ccbb6ed65dce4f58c8d38c90002c28f5931558905"
+    ],
+    "ugc/throw-hands-rps/research/videos/7696285070046301470/sheet.png": [
+     2544988,
+     "5c753a3e515c855ab9e0a2b65261de72f35be35e755a9352295bad226154b2b7"
+    ],
+    "ugc/throw-hands-rps/stills/S1.png": [
+     646504,
+     "4f2c8685a39f97c55705e6a3d4dea1fbf76d601239ea959b88fac547cbb2e46d"
+    ],
+    "ugc/throw-hands-rps/stills/S2.png": [
+     685920,
+     "278d6d30f667063be0bbe22fd9f312a5ceae61b92fa1ba687bb94a1dae9e68fd"
+    ],
+    "ugc/throw-hands-rps/stills/S3.png": [
+     1521981,
+     "57c5c24c9dffa3f923a8599491645604c02f205cf25070c20a59d4b089837a31"
+    ],
+    "ugc/throw-hands-rps/stills/S4.png": [
+     806861,
+     "9b85f66e855be66dc4991954b5ee65955fda689797ce8e67d78f266aa5cb5442"
+    ],
+    "ugc/throw-hands-rps/stills/S5.png": [
+     774998,
+     "fdb1fef2ce1bc9ad7b09b3d0aa8aa2ba6234685f3b61ba02188dac0d7974f6aa"
+    ],
+    "ugc/throw-hands-rps/stills/S6.png": [
+     776737,
+     "3afd689e366506b6639bee62d61a199c0a35318bc5eea95155cfb6fde8fd005b"
+    ],
+    "ugc/throw-hands-rps/stills/S7.png": [
+     789566,
+     "938ba5d562c3c457b6c55747c90da25a1744dd48c71c0c73e8df47b04dbcefc8"
+    ],
+    "ugc/throw-hands-rps/stills/S8.png": [
+     1786830,
+     "b6fd98a5a43c791654c8d8164be048d5b44550deb5bc8544e5e179f6d45adccb"
+    ],
+    "ugc/throw-hands-rps/stills/S9.png": [
+     1868219,
+     "854292c39e7308aead1a9138601c73911a688ce06ba853df805a3895177f9603"
+    ],
+    "ugc/throw-hands-rps/vo/voiceover.mp3": [
+     551332,
+     "e6c098acfbe40e30175a53b382698eb46e1b071a6a7cc3c3d78a4dff439af56c"
+    ],
+    "ugc/throw-hands-rps/vo/voiceover_tight.mp3": [
+     723531,
+     "dd839c6f1f270f565215734dde900203b665cb03dfdc7149860f1d75e0c8cdda"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__throw-hands-rps.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "9c9ba55c8631334739d9292cbdf9bfcd84b9f1237bb6877ea37d491f2940f67c",
+     "hosted": "2026-10-29",
+     "drive_id": "1wP4BMOpSF6lu5XDp9ax24ZJ9E0pzIvGu",
+     "drive_folder": "1XJLIzWr4MZ7F0SV8fGdWfxfFNyck9xJc"
+    },
+    {
+     "name": "ugc__throw-hands-rps.set1.part02.tar",
+     "size": 95000000,
+     "sha256": "9f250d3d91d81f63a1418701e83a7ccea835e77c5188618b60aadd73ff50ef96",
+     "hosted": "2026-10-29",
+     "drive_id": "19C3hVuatPDwt6ti5hxwyLrcIpiswHdet",
+     "drive_folder": "1XJLIzWr4MZ7F0SV8fGdWfxfFNyck9xJc"
+    },
+    {
+     "name": "ugc__throw-hands-rps.set1.part03.tar",
+     "size": 95000000,
+     "sha256": "49c55c0802fd988aaba37e16bb0b19d280186c0085c1987d8a7cf16707171877",
+     "hosted": "2026-10-29",
+     "drive_id": "1fRNtgOdzrcq0zaIzqQ9R-aMCioweo3RU",
+     "drive_folder": "1XJLIzWr4MZ7F0SV8fGdWfxfFNyck9xJc"
+    },
+    {
+     "name": "ugc__throw-hands-rps.set1.part04.tar",
+     "size": 89036480,
+     "sha256": "57da9a55357e08d66404f9b0bebe60317dbbb6c2f532aad88d4247b039ba0661",
+     "hosted": "2026-10-29",
+     "drive_id": "1hy4k90gRQtkBm6djHXoAqxzJ4VKN2l4u",
+     "drive_folder": "1XJLIzWr4MZ7F0SV8fGdWfxfFNyck9xJc"
+    }
+   ]
+  }
+ ]
+}

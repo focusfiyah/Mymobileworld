@@ -1,0 +1,458 @@
+{
+ "unit": "ugc/carpe-mb-15s",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/carpe-mb-15s/clips/A.mp4": [
+     2972399,
+     "4d217998c10af909022fcfb391acbae1459faa866634a6319b0dd5126da2a533"
+    ],
+    "ugc/carpe-mb-15s/clips/B.mp4": [
+     2636569,
+     "5081a0b3c668402d10838f284dd7c6def6596aa3d16d32aa9d3ba8aa8b4e8da8"
+    ],
+    "ugc/carpe-mb-15s/clips/C.mp4": [
+     2020899,
+     "1764b2677442e5364bc7ed87ab14165cff1c1e0e417474eda4f76f8f7706c901"
+    ],
+    "ugc/carpe-mb-15s/clips/S1.mp4": [
+     4299387,
+     "ada347151fefc982808c3ac4dcf12113f917dda8a9f497a99091c69c7e87c875"
+    ],
+    "ugc/carpe-mb-15s/clips/S2.mp4": [
+     2637015,
+     "177c923da895113dcae3c5775193e05839c37e6e9dfdfcf39529e98d170c7a17"
+    ],
+    "ugc/carpe-mb-15s/clips/S3.mp4": [
+     2930092,
+     "fd336ccca7d7a7d686863db1fe48854393130d5d4cff5583ec09b0cfee1b28e3"
+    ],
+    "ugc/carpe-mb-15s/clips/S4.mp4": [
+     2793759,
+     "873c8ae858a59c0f6ce85fa37b19a876245fa50c42b8ab2a3042e1d452da8eba"
+    ],
+    "ugc/carpe-mb-15s/clips_fixed/A.mp4": [
+     2664345,
+     "3880b86ab0be05188033aa0ab7fbf2250b3bb31fc6ee4e2d3531f8c6e99b13fd"
+    ],
+    "ugc/carpe-mb-15s/clips_fixed/B.mp4": [
+     2647245,
+     "4e476a06d1b551b9d1fc16b4cff48fa685b373c041fcd9afc6aee03e24d511ff"
+    ],
+    "ugc/carpe-mb-15s/clips_fixed/C.mp4": [
+     1519483,
+     "9042ebe108e7345ae150be03fcbc4af295eabfc1cf12867cd44cf08723e0ed3b"
+    ],
+    "ugc/carpe-mb-15s/out/carpe_mb_15s.mp4": [
+     12952207,
+     "1e84b1b2a13d8f849d7ac864963f9122ba6a85353621b247a3c6dab1431b37bd"
+    ],
+    "ugc/carpe-mb-15s/out/carpe_mb_15s_r1.mp4": [
+     13914116,
+     "dad2dc32bc7acd85bfee2ad08eb09f872217893d527a48ab649a902c938b98e7"
+    ],
+    "ugc/carpe-mb-15s/out/carpe_mb_15s_r2.mp4": [
+     13705560,
+     "3727056f79c4e4bad212b0feaf5a0e8771a7914f550036913b0dd4c76d771c30"
+    ],
+    "ugc/carpe-mb-15s/preview/_A.png": [
+     535916,
+     "bcb6055ba8fae4c26f26680fd74b5b511f26c39e02ca3ac0e45ea91b4ed9a44f"
+    ],
+    "ugc/carpe-mb-15s/preview/_S1.png": [
+     458587,
+     "7ecb75b6a0da668de08080ac185738f59166bba5be324975dae41cb4b7a579f6"
+    ],
+    "ugc/carpe-mb-15s/preview/_S2.png": [
+     528189,
+     "1d5ff5c33cc42fce9be882ba62205e136bc18a6d3239b080960c6b15e3bf8740"
+    ],
+    "ugc/carpe-mb-15s/preview/_S3.png": [
+     427794,
+     "1d948e05f48a92f7fcf8f5958d1271e8d3176587a16a6f454925fa0f1af00bf3"
+    ],
+    "ugc/carpe-mb-15s/preview/_S4.png": [
+     474878,
+     "fc660ea037db624b39bb9b7581f4f4b44bc829ee448b4f8b20cba5f16d6668c6"
+    ],
+    "ugc/carpe-mb-15s/preview/clips_sheet.png": [
+     2426748,
+     "688c441c43b229603fdc4b690fb52caab16070cbb31069a6e7b7e581de53d848"
+    ],
+    "ugc/carpe-mb-15s/preview/stills_r2_review.png": [
+     892301,
+     "6458fdfdb2cd4392712b5535af20ad1b3a29fa2dbff93c6c3b94f42e566a82df"
+    ],
+    "ugc/carpe-mb-15s/preview/stills_sheet.png": [
+     757058,
+     "88e4ea2d49efcaa391d69077b7e556f2cb94bab9908ae90ee82800d5e7be5bea"
+    ],
+    "ugc/carpe-mb-15s/preview/storyboard_r3.png": [
+     715475,
+     "e62bdc18e981af79de48b2a06aa6b99794bbb7ff44c352d2ac8c8baf63e47769"
+    ],
+    "ugc/carpe-mb-15s/qc/A_1.5.png": [
+     1071869,
+     "43c9ed7ef37ca23dd36fa73c49ef0a586b27d3b5e9506cb4c0378c224a5b166a"
+    ],
+    "ugc/carpe-mb-15s/qc/A_4.8.png": [
+     1181119,
+     "05ba317ae98bb1a8ec9e9e361c8b604969277b58493922e036d384256661057a"
+    ],
+    "ugc/carpe-mb-15s/qc/A_4.8_fix.png": [
+     773675,
+     "512c34d5d3d7eb3fa48beb1b38a88320703878c495c77667dfcabc0db7e2a260"
+    ],
+    "ugc/carpe-mb-15s/qc/A_check.png": [
+     621428,
+     "eb798388e33d03e5460142bfbe9a4a2feed2db92cc447c66256068a74f7b76b0"
+    ],
+    "ugc/carpe-mb-15s/qc/A_frames.png": [
+     951032,
+     "72b7bebfe10980c381982ed36cd211b1142ada180dcd585be5e7aeb1a2a75240"
+    ],
+    "ugc/carpe-mb-15s/qc/Af_0.3.png": [
+     1118506,
+     "d0ab306098130fdf7672cdb4985d510a219cd5c5d72f1bd1b34667d34de5fa5c"
+    ],
+    "ugc/carpe-mb-15s/qc/Af_1.5.png": [
+     1054660,
+     "c90c0584dd4af5e221064bfd0dce6f16e4b5daa34a645ab67b7d36f42e190daa"
+    ],
+    "ugc/carpe-mb-15s/qc/Af_4.8.png": [
+     1157300,
+     "bdde4c86054def9e8e198ffa72652619e6c262288717c932138b7ff9a86b1b81"
+    ],
+    "ugc/carpe-mb-15s/qc/Af_check.png": [
+     459733,
+     "5bfd3c9a7ddad7f62be9a5aa0f242a7ac2c3d47dc4ededa8f00eb7287927005e"
+    ],
+    "ugc/carpe-mb-15s/qc/Af_seq.png": [
+     391517,
+     "7a21f4157da20c8e3237b7b7db957274de1148e1027a162288062f131daa9214"
+    ],
+    "ugc/carpe-mb-15s/qc/BC_check.png": [
+     769948,
+     "0b1225e475260d5396c2dac4e30643462d16d6e0ed1217ab3edde6dd178d48d6"
+    ],
+    "ugc/carpe-mb-15s/qc/BC_frames.png": [
+     2222128,
+     "5db831b732bf57e400a3feb90e5868ffd3f61c935fa27952953c8f98364f9d11"
+    ],
+    "ugc/carpe-mb-15s/qc/BCf.png": [
+     685661,
+     "d1da8faf2d2559c372ee99f8d21b711b69bdb7b491966d9a0a5ab41fe579859c"
+    ],
+    "ugc/carpe-mb-15s/qc/B_1.2.png": [
+     1122806,
+     "82ee821f42d6fdb9b0cacba7b982d4a1212eeb54fff96e9450e821fd573d557c"
+    ],
+    "ugc/carpe-mb-15s/qc/B_early.png": [
+     904355,
+     "2858cbb24b0420bd0043b8e9d737b5b20c30b4723262c2befd84c4b8080877d3"
+    ],
+    "ugc/carpe-mb-15s/qc/B_frames.png": [
+     1374403,
+     "bc4eaccf828dd6b57ad4846d1e14e2e749078f3d7c46a7ce81b154662daf9ba5"
+    ],
+    "ugc/carpe-mb-15s/qc/Bf.png": [
+     1144802,
+     "e861285e3da3500d2d5c0c28e2d92f5f05303e132c36295ca6c59f256aa64a16"
+    ],
+    "ugc/carpe-mb-15s/qc/Bt_0.0.png": [
+     1350587,
+     "eea35c4201847b3468ec5641baf948e2aa522dd5993648ab066dc31fea62ddcf"
+    ],
+    "ugc/carpe-mb-15s/qc/Bt_0.5.png": [
+     1147979,
+     "5b62cb4c65e3c6ecba0615723ea9f95c8af0883de5caa11a6cee23faa6540177"
+    ],
+    "ugc/carpe-mb-15s/qc/Bt_0.9.png": [
+     1145464,
+     "33c91fe9071f745e3b6e467d1464b1e1d51d70662c200d987af6835633c40cfc"
+    ],
+    "ugc/carpe-mb-15s/qc/Bt_0.9_fix.png": [
+     764012,
+     "97f327093d43eca26a3462da2cf09c87c7cc5450d5189645b8c7987d859e0337"
+    ],
+    "ugc/carpe-mb-15s/qc/C_2.0.png": [
+     1248884,
+     "08b2ebba71d0fa82dd936dd467ad8dbb360c1e226767ec8d84d80abb9a6b4f60"
+    ],
+    "ugc/carpe-mb-15s/qc/C_2.0_fix.png": [
+     814607,
+     "1afd29d2e5a46484ed7e2707d1ca46c0cfcbd8b0927d28e9215dab6bf070033c"
+    ],
+    "ugc/carpe-mb-15s/qc/C_frames.png": [
+     1329641,
+     "b4b5ebd45a1797423fc36012a39bb0c363931077f547049303e1b6a9ea2e1fd9"
+    ],
+    "ugc/carpe-mb-15s/qc/Cf.png": [
+     1234588,
+     "1251e9b595f9001d863de0b39aa2280585ceae7d28e0b6bf6bbdd3604c644b4e"
+    ],
+    "ugc/carpe-mb-15s/qc/S124_frames.png": [
+     3353176,
+     "3778cafb22cf4d6c4a4b1434cb1b9a6dbec50843a88d49f2ab1c18059dcc7996"
+    ],
+    "ugc/carpe-mb-15s/qc/S1_crop.png": [
+     848869,
+     "4ddd67e456bd3dc7485ee382696c53b3ff5e3b84de9a8cba9035cbf0e730c835"
+    ],
+    "ugc/carpe-mb-15s/qc/S1_fixed_top.png": [
+     316519,
+     "9275c8ebf3e81de2f538d762db4bc51fff1fb53d4325cf49d7c47cc476da2362"
+    ],
+    "ugc/carpe-mb-15s/qc/S1_frames.png": [
+     1257214,
+     "ee0c3c247e2a4f3df88134064df60067a749cbd83aa2571897cfef9075a37482"
+    ],
+    "ugc/carpe-mb-15s/qc/S1_top.png": [
+     120991,
+     "14049da366aebbc2e4b9707c2f03947bb20edf9b2f5e46a8e16491088d2553a7"
+    ],
+    "ugc/carpe-mb-15s/qc/S2_detail.png": [
+     764338,
+     "1739232a07d716637f1767583059fa2fc37f138103f37dd23acbbb2fd5a5a069"
+    ],
+    "ugc/carpe-mb-15s/qc/S2_frames.png": [
+     1470908,
+     "c76a79f77ba7fc11d9525cdc7b1829fb5fbef6745e12fccdffca191bd4ee3243"
+    ],
+    "ugc/carpe-mb-15s/qc/S2_nails.png": [
+     238686,
+     "f4b294583eb420e4256e0063636c8b1b739025f0cdd341b959763baa78d1ffa6"
+    ],
+    "ugc/carpe-mb-15s/qc/S3S4_nails.png": [
+     412462,
+     "55e7e8adcd834e73295a2e88dee7ee6f3f41f451dd6c52a06747f8679948fc10"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_clip_frames.png": [
+     1979167,
+     "cb168c5067162c8fc129b78f9a0222d787c9d849ec58024ea9b1ba6c2e382373"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_crop.png": [
+     850902,
+     "eec62f6b1eedba869ad98ba6daf441f3634eed5f8306a75f84a127d663bf86b6"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_detail.png": [
+     674263,
+     "84d884bacbddced382d4b804f32f7358a7ac1c05685b05eadf264d4bdbb641db"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_f05.png": [
+     1182916,
+     "9f8966d8c8d3c229d944b14e76b16f55f9fd042c7c8980c1e9a43e2fe0d039e4"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_f30.png": [
+     1276684,
+     "ec3d151dcb004983ee42a77cd9aa0a8fc17882028f3eea3858e792e2d1c82b9e"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_fixed_top.png": [
+     394936,
+     "1e2da450b7c71de3892c4c3a389a6b89635a64fd026a2b12d0f3d2b5f7d21fff"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_label.png": [
+     464531,
+     "6688487e9129f792a17b5bfac6dda5ba6479e35c2e84b4469dfbd592ecba131c"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_r4_top.png": [
+     167409,
+     "d69cdd40252c0a89798e75ac7b7cd031108b6605e29bd12f1f8a4a9299f73a27"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_top.png": [
+     112274,
+     "4563bcd4241080d0f890ec014a7bd5c60e12df2bae695e2735055d00deac68d6"
+    ],
+    "ugc/carpe-mb-15s/qc/S3_zoom.png": [
+     845671,
+     "9e2373520f8c921a4bdf71cb20dc2fac3b345f0a0ed0c1da8afd5a7fb205da31"
+    ],
+    "ugc/carpe-mb-15s/qc/S4_frames.png": [
+     1293227,
+     "da5e66bac9f002702556ea87f75b6e5e0d29eef7c9bb7e8158fa1c6a36f170af"
+    ],
+    "ugc/carpe-mb-15s/qc/cut_f0.png": [
+     2141108,
+     "507561b430f6374c6e247bf1701a27230a6d3aa76f40eccf5b1d822e69308a7c"
+    ],
+    "ugc/carpe-mb-15s/qc/cut_r2_sheet.png": [
+     3042183,
+     "b0a34b90767fd5ae2b84350d8e0d944b957c6854c88799d43f7c8ab124c11324"
+    ],
+    "ugc/carpe-mb-15s/qc/cut_r3_sheet.png": [
+     3240742,
+     "00ab594f2bc791cf5e8e064f592cebff70814f0b0fa6826a69981d0ba916269b"
+    ],
+    "ugc/carpe-mb-15s/qc/cut_sheet.png": [
+     3000207,
+     "1e704a1aa6dc0286062ea3bfa6e2fff8da2b9d6b5d20769ea343c391308edaa9"
+    ],
+    "ugc/carpe-mb-15s/qc/label_test.png": [
+     1078841,
+     "558851d6cbfde64aa310630f5101f6eb6944c15226f829c646c4582be386f61a"
+    ],
+    "ugc/carpe-mb-15s/qc/r2_S1_side.png": [
+     464646,
+     "a233984f94abfb687f11114fbb1285be93e56d422abe5babd2aa12d46a67798f"
+    ],
+    "ugc/carpe-mb-15s/qc/r2_S1_top.png": [
+     157520,
+     "508a79ec9bbb428b977acf7fb1d5e7b8203f456d5e5f2a6068c0ff88dca21632"
+    ],
+    "ugc/carpe-mb-15s/qc/r2_join.png": [
+     817983,
+     "ff4d18fbeee5c3f931e21700b9c17d21eaa736208941533a4227d49cb0abbeaf"
+    ],
+    "ugc/carpe-mb-15s/qc/r3_tops.png": [
+     552909,
+     "3860a469de7c342e958ec738a3565ddf63e61a66b7cf8a54dd4b7321f4eb86c4"
+    ],
+    "ugc/carpe-mb-15s/qc/r4_S3.png": [
+     392300,
+     "c3b96fce1022ee847689741dcac83ba7bb934e0a882cba22bf8211685c2c3cf3"
+    ],
+    "ugc/carpe-mb-15s/refs/hand_dorsal.png": [
+     252383,
+     "6ff4b904426cd1cc74d9cd692940f8a22f87cf67c073a6c50fc48838b4af839f"
+    ],
+    "ugc/carpe-mb-15s/refs/hand_palm.png": [
+     240384,
+     "2defc78920f890ac048768f0c7eb68aad21254f0e451daf536ccdef7e284ae5a"
+    ],
+    "ugc/carpe-mb-15s/refs/mb_front.png": [
+     372229,
+     "99f15798365a2540b670a46b5553243b849ec6b5732286e6c32a7f30b77b4431"
+    ],
+    "ugc/carpe-mb-15s/refs/product_profile.png": [
+     24316,
+     "d27c8231b52023f867ee45e37495161beaf5e2f3c81c5a7f136ec2733c236237"
+    ],
+    "ugc/carpe-mb-15s/refs/product_slots.png": [
+     334726,
+     "774ca34d4ead363aeb0c0e047ba3b8fcafca19686a75ac5375986b7c17e266d5"
+    ],
+    "ugc/carpe-mb-15s/research/compare/A/hook.png": [
+     1261148,
+     "ce6b1109e2fac5208b5d455e0f834d0619a679f85d064a4812df698ae4276d74"
+    ],
+    "ugc/carpe-mb-15s/research/compare/A/sheet.png": [
+     2753759,
+     "e7981dce0ecfc299b31ed1585b1c5ee82fac78d032b52f4cc410e8efb5e5c74e"
+    ],
+    "ugc/carpe-mb-15s/research/compare/B/hook.png": [
+     1183568,
+     "8516797bac3ffa6156c643acb7056d00a8579dcf566f1bf51697e73f0a44c8df"
+    ],
+    "ugc/carpe-mb-15s/research/compare/B/sheet.png": [
+     2626649,
+     "dfe85640d763cef490d6776d21f416e69c32f9f336164a59ea4725e346976763"
+    ],
+    "ugc/carpe-mb-15s/research/compare/compare.png": [
+     2444934,
+     "c07be9442adf6a2b05522c040ea92c3b0095e52f863475303997d1335dc70845"
+    ],
+    "ugc/carpe-mb-15s/research/videos/7686978785794723103/video.mp4": [
+     3253545,
+     "b9d1f30d57d59eb51949aed7b2af831d426bdc70217c43cb409491f376922abd"
+    ],
+    "ugc/carpe-mb-15s/stills/S1.png": [
+     1546642,
+     "6b9f194cdb08580f923dee32211e2728f0309fa0e57b9546455fe9f654a2b9e1"
+    ],
+    "ugc/carpe-mb-15s/stills/S2.png": [
+     1416392,
+     "587819c6083b132e2a33d58124a4d4cb704af204eb4629d164d607eb8e42ed0f"
+    ],
+    "ugc/carpe-mb-15s/stills/S3.png": [
+     1460778,
+     "f87213b96942e929e17727d3d45142a3fa2a51a5025defceb8f78922d7f4cf05"
+    ],
+    "ugc/carpe-mb-15s/stills/S4.png": [
+     635922,
+     "f01dc7657a930b300c0cdf957517330bb4832ec0333faa08974ee6033413993f"
+    ],
+    "ugc/carpe-mb-15s/stills_r1/S1.png": [
+     651768,
+     "ec50892275df95ee56bf7fbefbac495f514633254cdd8f99265f066149ef9de4"
+    ],
+    "ugc/carpe-mb-15s/stills_r1/S2.png": [
+     588366,
+     "9bd144a10f176606c2aed30a214832b757aca8c7bb93f88ec6af640c08cb05bd"
+    ],
+    "ugc/carpe-mb-15s/stills_r1/S3.png": [
+     646467,
+     "ecd8aca15b9aaf3dd3baac13dbf24b68cd5f54e3088046553cd80cbc4ff31e6d"
+    ],
+    "ugc/carpe-mb-15s/stills_r1/S4.png": [
+     578297,
+     "7c9fee2e04cba8faab34275828209ad9fa7f23f89743a904a11301d0c187070c"
+    ],
+    "ugc/carpe-mb-15s/stills_r2/S1.png": [
+     722840,
+     "ec8f600487054aa8388cdee2465468a4284d42bfecf08e9f1d998bd30c7ceec3"
+    ],
+    "ugc/carpe-mb-15s/stills_r2/S2.png": [
+     579403,
+     "c06ab068c0eca0d6ae97225f5e3449aeb19a1bcb7073575ab5ad099ec7e4e7ef"
+    ],
+    "ugc/carpe-mb-15s/stills_r2/S3.png": [
+     649919,
+     "b4bd4026639eaf88a44af9824b0fb4d776c9a15957a307139da4ff82b97d492f"
+    ],
+    "ugc/carpe-mb-15s/stills_r2/S4.png": [
+     635922,
+     "f01dc7657a930b300c0cdf957517330bb4832ec0333faa08974ee6033413993f"
+    ],
+    "ugc/carpe-mb-15s/stills_r3/S2.png": [
+     653470,
+     "252cb2341032606e0b0a8237a5b8cac052b1127ea898056a6548217d709fd75c"
+    ],
+    "ugc/carpe-mb-15s/stills_r3/S3.png": [
+     610076,
+     "1ce1bc3c9f74e2647156c31a5934639d3c7a1f103c524e79ef40c0c061ac0e47"
+    ],
+    "ugc/carpe-mb-15s/stills_r3/S3_cropped.png": [
+     1208533,
+     "bf6a840aebd2c6060733eae4e35c1d759d4a426296c00c96dbad00136ef8526b"
+    ],
+    "ugc/carpe-mb-15s/stills_r3/S3_r4_raw.png": [
+     673506,
+     "d3a2df715cac51c5c059e3cc7821a3b39140963361f5550a82afd5eb7a48dded"
+    ],
+    "ugc/carpe-mb-15s/vo/voiceover.mp3": [
+     304318,
+     "1c7373bbd161e0102262823f1280c912fda2987def434063b80386379e29abd8"
+    ],
+    "ugc/carpe-mb-15s/vo/voiceover_15.mp3": [
+     362414,
+     "e435ad64459aba1fbf11285ab6f4fa2d63de8d0af62b8a185448b1f0c7486a5b"
+    ],
+    "ugc/carpe-mb-15s/vo/voiceover_tight.mp3": [
+     387492,
+     "8c1b3fbb86803ed8d2844fa5f95a527e19c1c8d0ebd9a5671ea032fde3c410c5"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__carpe-mb-15s.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "2b7daafd4e18e3c24f27f63dac537aa5db24265b829af261456a35bacff5f695",
+     "hosted": "2026-10-29",
+     "drive_id": "1gvqZFEvteXqpDu3o21kXebJeKY5ye4wj",
+     "drive_folder": "1AIpGVkVb3OTQKOZz-qPKvU5uE9yWVCe0"
+    },
+    {
+     "name": "ugc__carpe-mb-15s.set1.part02.tar",
+     "size": 68010560,
+     "sha256": "874a62309e7d6eb6a856e6fa5dbe1b1fbdd07267234ce568dc185585ec658327",
+     "hosted": "2026-10-29",
+     "drive_id": "1o3H0JvoeTnQ2jzUkLVxzXhhh7Qp7Qi6K",
+     "drive_folder": "1AIpGVkVb3OTQKOZz-qPKvU5uE9yWVCe0"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "unit": "ralph/dfy-service",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ralph/dfy-service/launch/site/looks/_door_desktop_dark.png": [
+     228775,
+     "538fcd0c4c13cb3e7ef7b6196cfc85b041d99f0d70d58241f13f16b89e0c7e3e"
+    ],
+    "ralph/dfy-service/launch/site/looks/_door_desktop_light.png": [
+     228775,
+     "538fcd0c4c13cb3e7ef7b6196cfc85b041d99f0d70d58241f13f16b89e0c7e3e"
+    ],
+    "ralph/dfy-service/launch/site/looks/_door_phone_dark.png": [
+     129084,
+     "3b1e65f9f2041f41f2bbb7966b825903a9a46a3237e15642f0d74678d2ec54a7"
+    ],
+    "ralph/dfy-service/launch/site/looks/_door_phone_light.png": [
+     129084,
+     "3b1e65f9f2041f41f2bbb7966b825903a9a46a3237e15642f0d74678d2ec54a7"
+    ],
+    "ralph/dfy-service/launch/site/looks/_lockscreen_desktop_dark.png": [
+     158090,
+     "edffdbd42fe5894cd90bf8383e3b89bcbe9cdb044531d71f6543b02e1cdb5c70"
+    ],
+    "ralph/dfy-service/launch/site/looks/_lockscreen_desktop_light.png": [
+     159408,
+     "13789e179027aaae7f71f1ffa3299b1c23f9c6fd723751af4c43f4c25d6b3123"
+    ],
+    "ralph/dfy-service/launch/site/looks/_lockscreen_phone_dark.png": [
+     91520,
+     "1a78ab9f3588e6083f8877c20ac0a15bf9f6667fd3072fc7c9c674d2674169d3"
+    ],
+    "ralph/dfy-service/launch/site/looks/_lockscreen_phone_light.png": [
+     93875,
+     "e72b90a3109af421523cb936e9ac988cd38a251b3c8c40fe35a56f568ba70c73"
+    ],
+    "ralph/dfy-service/launch/site/looks/_looks_desktop.png": [
+     363047,
+     "e514fc85bb12930a587d877be1acc29514cd2da109979fb161567b9515ae275a"
+    ],
+    "ralph/dfy-service/launch/site/looks/_looks_sheet.png": [
+     827426,
+     "5b6b3ab811733b46a2e10a5dc2b480cb36611358bc847b2687be60dbd6144f20"
+    ],
+    "ralph/dfy-service/launch/site/looks/_ticket_desktop_dark.png": [
+     113622,
+     "781d1fc33cebf9a3c75f13f79553983f263df3c12aae377c6aa4311da68d8cca"
+    ],
+    "ralph/dfy-service/launch/site/looks/_ticket_desktop_light.png": [
+     115514,
+     "5e8caf33757d3d6f1bfe7eac3afb968724c5985e09155c645d615cc3d781793f"
+    ],
+    "ralph/dfy-service/launch/site/looks/_ticket_phone_dark.png": [
+     69440,
+     "33d309a01d41f1d00c27e2585d350f532f30b80f900693937bc5ea33797b5447"
+    ],
+    "ralph/dfy-service/launch/site/looks/_ticket_phone_light.png": [
+     70291,
+     "41b44711f873202db72182a2b19e11c6f1f5184c7337ed26e136567e74d1591a"
+    ],
+    "ralph/dfy-service/launch/site/looks/_v1-calllog_desktop_dark.png": [
+     93412,
+     "d70c3368856578d3cf65e3f20a173529f8c19e45b833669abcad37b57d147ebe"
+    ],
+    "ralph/dfy-service/launch/site/looks/_v1-calllog_desktop_light.png": [
+     92289,
+     "827ae13f7834b827b08f18c07aae9fea3c2a85fcf5ade428d4bf12e80886b1f8"
+    ],
+    "ralph/dfy-service/launch/site/looks/_v1-calllog_phone_dark.png": [
+     72687,
+     "987de9181d6ac1c424d0667a2347e7b2c8ef5fc165cc460636fe8a77945fd45a"
+    ],
+    "ralph/dfy-service/launch/site/looks/_v1-calllog_phone_light.png": [
+     71351,
+     "da19f95955cf3d382d1e3c7f08b9099a9c1b00c20a4c1f6a055d0c18fad2c0d4"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ralph__dfy-service.set1.part01.tar",
+     "size": 3123200,
+     "sha256": "e62e6467df5d4707d4dfdd8d5c332f55adb1b4ff22ba8eeea46fb11fffbe6307",
+     "hosted": "2026-10-29",
+     "drive_id": "1Ng3-0afoAtbnsa52y-wSPn5Zn-id4bFy",
+     "drive_folder": "1zdKV85mzy0tbwLmTbjVIkQCWKKMT8tsk"
+    }
+   ]
+  }
+ ]
+}

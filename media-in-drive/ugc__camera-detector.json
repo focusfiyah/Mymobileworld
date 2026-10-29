@@ -1,0 +1,602 @@
+{
+ "unit": "ugc/camera-detector",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/camera-detector/qc/S10_strip.jpg": [
+     108396,
+     "69861990b5540cedb23448a00e69e9e5f5d0800d97ee3d8743e5c284041ce081"
+    ],
+    "ugc/camera-detector/qc/S11_strip.jpg": [
+     80178,
+     "41fe7a34898c8fd21c42b633dd04b431a903631847afabe5d539b9005a028641"
+    ],
+    "ugc/camera-detector/qc/S1_strip.jpg": [
+     104189,
+     "26d0f5123cd3d247e08c8e600d0a85c9da8bd720cfa977c3d2478075ad7881b4"
+    ],
+    "ugc/camera-detector/qc/S2_f2.png": [
+     380320,
+     "ce0e04d5f6d4e35deb3b35ac00da96a2e5d30c4cad4fea3860e48cdb8f8758fb"
+    ],
+    "ugc/camera-detector/qc/S2_f2_zoom.png": [
+     147146,
+     "1c49db1894bd5088adb5169076567ceeca647f6d9fd10c30b417bbb93b49bce3"
+    ],
+    "ugc/camera-detector/qc/S2_strip.jpg": [
+     28600,
+     "3aaff4494475ba40a6e49f2316a8265f9b5d3908d62ed507f861c5381b0ded9e"
+    ],
+    "ugc/camera-detector/qc/S3_strip.jpg": [
+     75882,
+     "3e1a6e38a4152a32624b37266cc67d2e49cf6c04708a27453c5b6567ea5fb391"
+    ],
+    "ugc/camera-detector/qc/S4_strip.jpg": [
+     114027,
+     "bfb29442d433c36812f3ce41010cd2f929cfcdaadcb29a3bf10a3f96772a1cf9"
+    ],
+    "ugc/camera-detector/qc/S4_zoom.jpg": [
+     39470,
+     "65bd8a70d0553fe6acccba626fa9b29f1ed70b38106d79189ad265f6713519f9"
+    ],
+    "ugc/camera-detector/qc/S5_f.png": [
+     213073,
+     "9bef732204b5128a9d651cdb2b043a951b381b5877f40181d694b7d1edd8ade7"
+    ],
+    "ugc/camera-detector/qc/S5_strip.jpg": [
+     27124,
+     "483bcbb76c66180ad4c5d41de04b3fbce951189a53d091a5a55aca25860094c3"
+    ],
+    "ugc/camera-detector/qc/S5_track_2x.jpg": [
+     60845,
+     "e13ab00ff55b89c07d9b3d9d08c7ea7db79dc299af3509d3befa877f65d92079"
+    ],
+    "ugc/camera-detector/qc/S5_track_all.jpg": [
+     41356,
+     "fa21e9508d6be14c042658c5d076456dc8c0ed1b0636b7023ff8ab7e52837d7c"
+    ],
+    "ugc/camera-detector/qc/S6_strip.jpg": [
+     51566,
+     "fcf1d54d3f66cd26c5074a60d321e6e40f5328da3bd742c1e00d4db17dd88409"
+    ],
+    "ugc/camera-detector/qc/S7_strip.jpg": [
+     60520,
+     "0277ef50899026aa1f1e8bbd9a8d258bbf28850cb64fa686dfc512369017fece"
+    ],
+    "ugc/camera-detector/qc/S8_strip.jpg": [
+     62592,
+     "02ecc4a7cc0a79585f4ef5b2bf2e0f4be88123fd06b528df56b994ce604be242"
+    ],
+    "ugc/camera-detector/qc/S9_strip.jpg": [
+     74141,
+     "7370b0d945aa14cf9c2b59026ea34b20ebe401d208b7669c872d182206c00f1d"
+    ],
+    "ugc/camera-detector/qc/cut_v1_sheet.jpg": [
+     211371,
+     "ad84b81fb2c35c70ba88a01da1043af708119231f25766d0c70da7b776d9dc38"
+    ],
+    "ugc/camera-detector/qc/hor2_f0.png": [
+     484243,
+     "57c3f61b2d753bc33da84b0af7db7875137cc276fe63718e5a60e1bd36f4c12d"
+    ],
+    "ugc/camera-detector/qc/hor2_f12.png": [
+     501235,
+     "95a70f5e4b55f888873f67ac65024102f04d2ebebc91bbe1ef8c4f9d98a52d0e"
+    ],
+    "ugc/camera-detector/qc/hor2_f2.png": [
+     457528,
+     "1ab8fec7f77045e75e9c92f5580de91a4e573eb10a850a810a0a66d2d3292a3e"
+    ],
+    "ugc/camera-detector/qc/hor2_f30.png": [
+     474379,
+     "989597d6f1989879760236fcd5f37998cd0dc4a572b1de6150850c45535cd2a1"
+    ],
+    "ugc/camera-detector/qc/hor2_frames.jpg": [
+     129673,
+     "cf60fb3de9b69fdf8adf3d9368f9fd87baf136afa6d6ef778d909a36944b5c01"
+    ],
+    "ugc/camera-detector/qc/hor_f0.png": [
+     489266,
+     "f079615310b1ab9a645739843ddca6028ccf09edeacd53b73eb3af5e53a3815f"
+    ],
+    "ugc/camera-detector/qc/hor_f12.png": [
+     501456,
+     "c29ff86d399d295a92c2d660e92db4e38db20759d07ab473580b11b0e9e1e8d2"
+    ],
+    "ugc/camera-detector/qc/hor_f2.png": [
+     463865,
+     "237b3f5020dc567e2b94e6578e08f63beaa6a32b8016e3157cb63304035db637"
+    ],
+    "ugc/camera-detector/qc/hor_frames.jpg": [
+     93866,
+     "d857894e526c9e36875c67c55fbbfe045a91f7fd6362d728eb416b4fba740827"
+    ],
+    "ugc/camera-detector/qc/hor_v1_sheet.jpg": [
+     131116,
+     "c2d75a998d3b4bef7cdcecb8bd10df3f8ac49f82103b679492df001e38fb4785"
+    ],
+    "ugc/camera-detector/qc/strips_a.jpg": [
+     535903,
+     "11b43c7f0439c0543908f154f67e5da1bd369c57e8464be105928d1f038286db"
+    ],
+    "ugc/camera-detector/qc/strips_b.jpg": [
+     391256,
+     "40d8781e4660c0dcc12a12c137e6f6dba8da9f96499b40164ecedee06d19be9f"
+    ],
+    "ugc/camera-detector/ref/real/box_back.jpg": [
+     1598697,
+     "34cc49d057e8ddd053ac8950dd9ae8a4b89b132bf113f67ebad012bd451c573e"
+    ],
+    "ugc/camera-detector/ref/real/box_end_colour.jpg": [
+     1774873,
+     "843a8403f1e6c1c9049e42e5b521f9dc2411010d22bc5c097262b28ce1d858f9"
+    ],
+    "ugc/camera-detector/ref/real/box_front.jpg": [
+     1618910,
+     "1651e5a36b25e0f6b03fab089baed1b9b5acce57f2902db524567cc86a794c32"
+    ],
+    "ugc/camera-detector/ref/real/box_side_compact.jpg": [
+     1413873,
+     "8bd1d0a806b55f29d5cfdfb70c4b5f3a5167395b163ac61defaf12fcaf9d6c75"
+    ],
+    "ugc/camera-detector/ref/real/box_side_specs.jpg": [
+     1439036,
+     "dedce539f707f8c69850a43ef81c7259bec5a69f8f624e1d5650a46c3fe8b570"
+    ],
+    "ugc/camera-detector/ref/real/device_back_buttons.jpg": [
+     1532587,
+     "32fad475514eb086f4884fc863053d83c08ab45e5e026e1ca6d279916c4e10a4"
+    ],
+    "ugc/camera-detector/ref/real/device_front_leds.jpg": [
+     1528256,
+     "6b64a109cb7f672aa107e5bd1176ba025f7ba7998ae0f0ae72986981696452f9"
+    ],
+    "ugc/camera-detector/refs/product_sheet.png": [
+     2155359,
+     "d22f719a484a284d0899149be625ddefcc63cedc7f8f2fc32bac645c570a92cf"
+    ],
+    "ugc/camera-detector/refs/real/body_back.jpg": [
+     412076,
+     "670934e70bc26a1f3db1b1be047183f5479782d100dbf8c774c03b7c138c3093"
+    ],
+    "ugc/camera-detector/refs/real/body_front.jpg": [
+     443426,
+     "97204e914f6ccd0fb84b0f770eb4010bf00b276ae4987d378900d8f25325c896"
+    ],
+    "ugc/camera-detector/refs/real/closeup_back_buttons.jpg": [
+     597888,
+     "cfdc58d0b2600767a2972878fc60114b1b121a25df243e32cb39d12e4dd2381d"
+    ],
+    "ugc/camera-detector/refs/real/closeup_front_leds.jpg": [
+     616044,
+     "c6065a05dc61c0479c64307ae421296d6024b9d4acdc05b1445004cf18195975"
+    ],
+    "ugc/camera-detector/refs/real/listing_pair.jpg": [
+     56720,
+     "ec6c7b6de13803bcb15ba0d1dbee7f19b1cd0ec0df4d9eaca1dc4dbf6a3a193f"
+    ],
+    "ugc/camera-detector/refs/real/listing_size.jpg": [
+     129433,
+     "84968c17c64d19099dc35ca41c3400338ae0b6c6ea42e4479d930696a4f152c2"
+    ],
+    "ugc/camera-detector/research/coach/inspo/7680943338752609549/hook.png": [
+     918861,
+     "6b7dfcd12afc5dd6d12b451252458d426ec0c42edea77a146abea81a01ff155e"
+    ],
+    "ugc/camera-detector/research/coach/inspo/7680943338752609549/sheet.png": [
+     1998340,
+     "1940252ee323aa3f1c4355fa299c8556ee3035fc26da67351b11de7f1d0341d7"
+    ],
+    "ugc/camera-detector/research/coach/inspo/7693104034340818207/hook.png": [
+     880906,
+     "da5ad251ead5d0b1c67712867e65c5023016672ef15b490276085fe722e77c3f"
+    ],
+    "ugc/camera-detector/research/coach/inspo/7693104034340818207/sheet.png": [
+     1539031,
+     "16ec8f0d092ecc8690253d3506de2a04910103402b7a1bf69ae11bf111aeeb61"
+    ],
+    "ugc/camera-detector/research/coach/top/7473737093483892014/hook.png": [
+     799072,
+     "246afceb885f21d0b270c7a6c52bc4bc9c1d9dd3f3915a109f8cc1306f8e1954"
+    ],
+    "ugc/camera-detector/research/coach/top/7473737093483892014/sheet.png": [
+     2263456,
+     "cfb65319fa8083444acd9756d7d579b96a250c33b1296378e39b4e8eec0c3caa"
+    ],
+    "ugc/camera-detector/research/coach/top/7534905185676594463/hook.png": [
+     1115881,
+     "e98551f2eafc18ec48768d09549f380ac761acbc934b6414ba02bc854f06ed04"
+    ],
+    "ugc/camera-detector/research/coach/top/7534905185676594463/sheet.png": [
+     2462710,
+     "52f27b5e5b96b54fe9847e6278e24796400e8db1f0537228e261fc3dbb3215c1"
+    ],
+    "ugc/camera-detector/research/coach/top/7680533068012162334/hook.png": [
+     1027385,
+     "009f19b4c07fa62474f8115bd9ac497b2a8fb81a674e0628fec3511b23fc1332"
+    ],
+    "ugc/camera-detector/research/coach/top/7680533068012162334/sheet.png": [
+     1652746,
+     "47e777c0b0d2383aa64b0dc502bfa02bc716ca420efe3b9c29ef49cf1a275cfd"
+    ],
+    "ugc/camera-detector/research/coach/top/7681667760237202718/hook.png": [
+     682508,
+     "fffc3f6afaedb2ef8d64c048b8ac95e22576a16a1328281569ee046caf367f32"
+    ],
+    "ugc/camera-detector/research/coach/top/7681667760237202718/sheet.png": [
+     1955894,
+     "0bdc1df4fb032fc80ea1b1e82056ea6781394dfed20fa1761d0a24897323f292"
+    ],
+    "ugc/camera-detector/research/coach/top/7684609765292510495/hook.png": [
+     825965,
+     "78bbc15e4a569b49e8985b017add1ae6efbe134db596821861640b8d47fdc929"
+    ],
+    "ugc/camera-detector/research/coach/top/7684609765292510495/sheet.png": [
+     1960902,
+     "4479e9fcd1b4e83a10b2ebf135d392708ec5d1654c62c77df38d8ae27a38c9d7"
+    ],
+    "ugc/camera-detector/research/coach/top/7690177339338034463/hook.png": [
+     933121,
+     "38449c2294467b65c1a825af5d41407200c9acd5c00aba953ce8d10c6affceea"
+    ],
+    "ugc/camera-detector/research/coach/top/7690177339338034463/sheet.png": [
+     1866129,
+     "662afb85762abe712f5acd9c1731a09995188033f77abd211352650d59a51506"
+    ],
+    "ugc/camera-detector/research/compare/compare/A/hook.png": [
+     682508,
+     "fffc3f6afaedb2ef8d64c048b8ac95e22576a16a1328281569ee046caf367f32"
+    ],
+    "ugc/camera-detector/research/compare/compare/A/sheet.png": [
+     1955894,
+     "0bdc1df4fb032fc80ea1b1e82056ea6781394dfed20fa1761d0a24897323f292"
+    ],
+    "ugc/camera-detector/research/compare/compare/A/video.mp4": [
+     5548424,
+     "6adef443101635e5a4758989fd672b97c433116a38c2dcb40232652243e033f8"
+    ],
+    "ugc/camera-detector/research/compare/compare/B/hook.png": [
+     1589915,
+     "132113cbb1c2b145a22f474797cb94dbd3e3d8c00f8e7cc31028e44e24d4a45f"
+    ],
+    "ugc/camera-detector/research/compare/compare/B/sheet.png": [
+     3191873,
+     "d1cabb10d3d0ab5eeda9349abb78a8e44679fe4ec7e6845615dff8f45ef2ce9c"
+    ],
+    "ugc/camera-detector/research/compare/compare/compare.png": [
+     2272697,
+     "efe7ab3099c6ebefb6c0d02064c2fd8261d42489b9cd3a8accddddf4810f2f6c"
+    ],
+    "ugc/camera-detector/research/listing/img1.jpg": [
+     144356,
+     "e19a9d444b4e41b8dcee6da0f8b318051dee2f722e88fbdbc7db5d0f7bba3387"
+    ],
+    "ugc/camera-detector/research/listing/img1.webp": [
+     55336,
+     "046bbe70de7e2b1e24837400ae5224892d01d0b40009e80237e740c841626a60"
+    ],
+    "ugc/camera-detector/research/listing/img2.jpg": [
+     162887,
+     "163850f097e564583c86805d1aaa48d9d3e90b6bd49756eb04a8ea61a011c069"
+    ],
+    "ugc/camera-detector/research/listing/img2.webp": [
+     63440,
+     "ea8dbe21bc7e1d07ed62783a87037cd7403f8db167170dac7ea6b3fa34e3ce18"
+    ],
+    "ugc/camera-detector/research/listing/img3.jpg": [
+     144920,
+     "aa97256a0a5121a490e242c85dea8572f15dd375163b0814e1d7d0fd2b0c2007"
+    ],
+    "ugc/camera-detector/research/listing/img3.webp": [
+     53930,
+     "c1d2df53d3dce411639e69c7636d9d9c8091c9560e007b29ec5d65503060ca29"
+    ],
+    "ugc/camera-detector/research/listing/img4.jpg": [
+     140407,
+     "0fcd5f167e3b785d054744a27d1364c3bba935a01a4f39d1f4d0c6104b4271aa"
+    ],
+    "ugc/camera-detector/research/listing/img4.webp": [
+     55370,
+     "f1b8405b5d665db2715fd91aabfcee0b8abba62eedc271fe491f4114ac601523"
+    ],
+    "ugc/camera-detector/research/listing/img5.jpg": [
+     118109,
+     "f2b95c0b66e96af5e34043a4ebef6b4b6c10052ba24c71a4f207caaa6910e9c1"
+    ],
+    "ugc/camera-detector/research/listing/img5.webp": [
+     42886,
+     "06336dc97737adf80520f4833b08bd8747c68542f6a569a5ccc06a558625546b"
+    ],
+    "ugc/camera-detector/research/listing/img6.jpg": [
+     129433,
+     "84968c17c64d19099dc35ca41c3400338ae0b6c6ea42e4479d930696a4f152c2"
+    ],
+    "ugc/camera-detector/research/listing/img6.webp": [
+     51498,
+     "d9e5b4a69b85945c0db994bd41c884408c74299960f7e6b5b6c465517131f8ea"
+    ],
+    "ugc/camera-detector/research/listing/img7.jpg": [
+     147053,
+     "0cc6f19bce7ebf745248833e97a1eb338259d358504c11db415467dd76debc92"
+    ],
+    "ugc/camera-detector/research/listing/img7.webp": [
+     58810,
+     "e24ec48002a588f4ae936b88a641746facbec3535c2caf007cc409245a5526b0"
+    ],
+    "ugc/camera-detector/research/listing/img8.jpg": [
+     56720,
+     "ec6c7b6de13803bcb15ba0d1dbee7f19b1cd0ec0df4d9eaca1dc4dbf6a3a193f"
+    ],
+    "ugc/camera-detector/research/listing/img8.webp": [
+     15228,
+     "f457ef1006a4997e26375e0e99338fc24f9c3e2c6316db71a6bd7beecb462653"
+    ],
+    "ugc/camera-detector/research/listing/img9.jpg": [
+     71171,
+     "83c1e717df3fec6ad4ea61ca2aa09f041358b9ed947e22a06a119ad17b406379"
+    ],
+    "ugc/camera-detector/research/listing/img9.webp": [
+     23416,
+     "6312f01be2f15d718bfa68781d40100e92eab0d9920d00dbcd0439249a8e89c8"
+    ],
+    "ugc/camera-detector/research/listing/sheet.jpg": [
+     235416,
+     "f0766f93c7b737c9377f58f00d63572ca040d8e681fbf60c2c368af9e24ac1a0"
+    ],
+    "ugc/camera-detector/review/cut/grace_poster.jpg": [
+     36567,
+     "a8979c0d7ab578d12f7c70abfc47731b850cf0876dc48f87f44e7b853dc31d04"
+    ],
+    "ugc/camera-detector/review/cut/grace_v1.mp4": [
+     4025131,
+     "4cb7163f72bd1c06ea28036d6ff8e40511529e33279eb1ef0200f8e874ffb492"
+    ],
+    "ugc/camera-detector/review/cut/hor_poster.jpg": [
+     37056,
+     "f330cc2251f2c589bbaa224f7bfdad19620b0170434cbd196a61ec805008d3f6"
+    ],
+    "ugc/camera-detector/review/cut/hor_v1.mp4": [
+     3896708,
+     "7ca5230de90116d51833aadb878c8a141c27dd03c445785d03550a19173edeea"
+    ],
+    "ugc/camera-detector/review/img/ex1.jpg": [
+     135249,
+     "5305c9d9a32ce64babfde9cdfa37b88a6653028df66582f698bc31129f702128"
+    ],
+    "ugc/camera-detector/review/img/ex2.jpg": [
+     128019,
+     "5903cfdaa7adf5fee1f8400a79839fe728bb9dc4dc54d35d473263f7009032fe"
+    ],
+    "ugc/camera-detector/review/img/hand_with.jpg": [
+     51145,
+     "99878871dd0a879ecc45a24a5749edf8d9bbd7b842a239e6f89f44c4fa439fd2"
+    ],
+    "ugc/camera-detector/review/img/hand_without.jpg": [
+     50916,
+     "36c017eb07decea22794d00424042c64d73392a219f18a32d13d1bde1273ed59"
+    ],
+    "ugc/camera-detector/review/img/real_box_back.jpg": [
+     74539,
+     "8a0df3c0d692e0bcd78678f5a0923221fe4eae0634d94ddae2963807bea4ffa0"
+    ],
+    "ugc/camera-detector/review/img/real_box_end_colour.jpg": [
+     63715,
+     "3d6984a3f341080e482c46d221ca7fe013638aa0a2b6b7fb1de72b098e59cc87"
+    ],
+    "ugc/camera-detector/review/img/real_box_front.jpg": [
+     67429,
+     "a43638a13aba2824e699f5be882fc74d37a7996acbfbf20c0e85c3924decf894"
+    ],
+    "ugc/camera-detector/review/img/real_box_side_compact.jpg": [
+     47496,
+     "a06b93a9cbe5b789a419f2162007325d8fd09abdf3e1bd5c7dee520db18b0501"
+    ],
+    "ugc/camera-detector/review/img/real_box_side_specs.jpg": [
+     53325,
+     "0329d44b4b8e1b2accd1049f54acc87ec0284b64585abf5823028cca6891d7dd"
+    ],
+    "ugc/camera-detector/review/img/real_device_back_buttons.jpg": [
+     20740,
+     "a3415808268721ffd7ae556247a94200c5c41bb9c03089dfcf76634f86f5b01d"
+    ],
+    "ugc/camera-detector/review/img/real_device_front_leds.jpg": [
+     21999,
+     "eb78c0ad121944b1527b5da2fdde34ad58261ede2c615ab78b3a447ed0414df7"
+    ],
+    "ugc/camera-detector/review/img/roomA_hotel_colour_art.jpg": [
+     79593,
+     "72ea83e0f8c6c3c337e518e7af4496b6d6b300377e3596b6197717b1a2a15c25"
+    ],
+    "ugc/camera-detector/review/img/roomB_navy_tile_bathroom.jpg": [
+     76390,
+     "65e3ab98fecfea7217f3b3c8fa97f7ce16ff809656bd93b513c4df88e867a3b6"
+    ],
+    "ugc/camera-detector/review/img/roomC_gold_lever_door.jpg": [
+     66307,
+     "5afb1ea9f74a37ad059f4b45c739c323993df2bce2b9f6eed422ac34b0bbbc69"
+    ],
+    "ugc/camera-detector/review/img/roomD_red_wallpaper_teal_nightstand.jpg": [
+     109032,
+     "9e85879b8a32fcb6f9d34b31c5e696a03e38957eb18042cfdb016397301b6b82"
+    ],
+    "ugc/camera-detector/review/img/roomE_bedroom_colour_pillows.jpg": [
+     72396,
+     "e6fd8b6b803b2d7fbc429915a1846e9ff21e251125c5cab2b3a5782e8d12dc62"
+    ],
+    "ugc/camera-detector/review/img/roomF_vessel_sink_bathroom.jpg": [
+     69973,
+     "cdb835fd232c12f4c191dbac0b67dedb41b5a2c463a64ec13f9b40ade3b5f75c"
+    ],
+    "ugc/camera-detector/review/img/sheet.jpg": [
+     144683,
+     "088f6445cee0f8b94760ad175fdff7a02a9140eff969db4e27a75be1e73cba50"
+    ],
+    "ugc/camera-detector/review/st/S1.jpg": [
+     84913,
+     "1f102be4600aa3be1643189894f7bbec1818ef20891d9ab9ee81b942bb6aab30"
+    ],
+    "ugc/camera-detector/review/st/S10.jpg": [
+     109867,
+     "6ba1848627a63dcaf9464f7aaafa93030bbfb868ffce8602469ddf84c069deb0"
+    ],
+    "ugc/camera-detector/review/st/S11.jpg": [
+     89107,
+     "e0ae17357e70ed09e0e883c45fd08f43b76627163a0221767af7ab371428df87"
+    ],
+    "ugc/camera-detector/review/st/S2.jpg": [
+     50750,
+     "df11e1344e916a3d495c99b72d0a68b796ee091e2537fdb014d1fb555f87e6d6"
+    ],
+    "ugc/camera-detector/review/st/S3.jpg": [
+     83742,
+     "0b45bb39ca8f6bb0acccf202cfbdeb67ea643e8c9c219618e9b333f6d35a98aa"
+    ],
+    "ugc/camera-detector/review/st/S4.jpg": [
+     76176,
+     "755a976bb9440a2a4c89eabdf614d3fe0cb7ea35dd91d350c64b94c1f00967e2"
+    ],
+    "ugc/camera-detector/review/st/S6.jpg": [
+     59882,
+     "efbb6b93060a400b6bf6b9b2b56f8c1cec0d48a6495987ac0b861242e744b87e"
+    ],
+    "ugc/camera-detector/review/st/S7.jpg": [
+     63415,
+     "76dda0e2b0fed766d6d8c9a7406f4700203b2ec8d5c28f822e87e7e1b4c72e4e"
+    ],
+    "ugc/camera-detector/review/st/S8.jpg": [
+     68775,
+     "09c55f5f8b42e1cf44bad255585b27d47d2aadbdbf4fe758a13e66de711348e1"
+    ],
+    "ugc/camera-detector/review/st/S9.jpg": [
+     81171,
+     "54eaf389a7413c90753fdbf5d188db5943cd1bde8cc5a0557688d7a076475a3c"
+    ],
+    "ugc/camera-detector/rooms/contact.jpg": [
+     820853,
+     "14d9e8165b1baa7b2815e416cfaf7d5e14bf94bfe813652bbc2840e9c269ef36"
+    ],
+    "ugc/camera-detector/rooms/roomA_hotel_colour_art.jpg": [
+     431263,
+     "599e80d55e3f2bedabbb442cbead9c90f02197975ee932a6296f1da214f31ce9"
+    ],
+    "ugc/camera-detector/rooms/roomB_navy_tile_bathroom.jpg": [
+     187688,
+     "0f7610c9db98fd17cbf727cac03e546f083f9f5e39732347cf85a526f8af26a9"
+    ],
+    "ugc/camera-detector/rooms/roomC_gold_lever_door.jpg": [
+     340471,
+     "45bcabc56eaf901a281f831f4c3213b2cd3c5000caf4575d347c65a4ac21dca3"
+    ],
+    "ugc/camera-detector/rooms/roomD_red_wallpaper_teal_nightstand.jpg": [
+     516212,
+     "66602c741b0861c4e862abbe5f22d7afded96f1ec39c00a2fabd06ac902a8602"
+    ],
+    "ugc/camera-detector/rooms/roomE_bedroom_colour_pillows.jpg": [
+     330077,
+     "b9b637f75f6127a801b9bd7da53e2d8f84c623bef321c5536ca611477a6f58b4"
+    ],
+    "ugc/camera-detector/rooms/roomF_vessel_sink_bathroom.jpg": [
+     337275,
+     "144caccc9a6fe3f2ebb15a2ec29c6ff11e51e52730873f5a291a0bbb23c1d62c"
+    ],
+    "ugc/camera-detector/stills/S1.png": [
+     633955,
+     "bc02ffdd46958c871a38ea755f1899b3b8d1e56a4a0af61a9d44f5c576c6913c"
+    ],
+    "ugc/camera-detector/stills/S10.png": [
+     783794,
+     "67937e28270b4f896d9220935ba41f4a15c11d105272af689227efa176efa520"
+    ],
+    "ugc/camera-detector/stills/S11.png": [
+     622335,
+     "89ed24638848a44645d1f426ed8ec653156bed0e51df61287540d5242698631f"
+    ],
+    "ugc/camera-detector/stills/S2.png": [
+     519539,
+     "4faec76be22e19a61dd39a5d3c257cbfe7a0965c376514378368887ffbcb2869"
+    ],
+    "ugc/camera-detector/stills/S3.png": [
+     597015,
+     "cfe8a798aa05285cfe01699f63f2947a0bf86d4596b4329c440afd89dd919853"
+    ],
+    "ugc/camera-detector/stills/S4.png": [
+     594110,
+     "745b12c0dd1049daf717abe67b3a888da65a1071d9c72e05dd356228e9573193"
+    ],
+    "ugc/camera-detector/stills/S6.png": [
+     521314,
+     "0c5c72d76af880b92309668948f4e1ccd1e82e9a9afbf83d9725f33f2a6b1e38"
+    ],
+    "ugc/camera-detector/stills/S7.png": [
+     531197,
+     "014886f2a0dd28385cce9ed9d6e575316fe32320792c1c4afd606fea42618d17"
+    ],
+    "ugc/camera-detector/stills/S8.png": [
+     585945,
+     "02ee425323862a9b05a680f37354ba63c5d46cdb13bc0a120e03aa17f0c08466"
+    ],
+    "ugc/camera-detector/stills/S9.png": [
+     707944,
+     "a39ab0659012e3dc91e80894e1e4f3dc2a654debe44aafe2acbe51633baf9e1c"
+    ],
+    "ugc/camera-detector/stills/round1/S1.png": [
+     633955,
+     "bc02ffdd46958c871a38ea755f1899b3b8d1e56a4a0af61a9d44f5c576c6913c"
+    ],
+    "ugc/camera-detector/stills/round1/S10.png": [
+     760741,
+     "abe6be1f0f34586ee8367c3bc2bfbc2cef826468983d146d1682dc2b33f57751"
+    ],
+    "ugc/camera-detector/stills/round1/S10_r2.png": [
+     640469,
+     "7405bb8cacb904ec7852c286114a5d1815a695090c4be460e405425c5368f4dc"
+    ],
+    "ugc/camera-detector/stills/round1/S11.png": [
+     609036,
+     "436426da37a6c5c17ea23a1498549f2665d810d127e62942ecef2e3bf73c46dd"
+    ],
+    "ugc/camera-detector/stills/round1/S2.png": [
+     519539,
+     "4faec76be22e19a61dd39a5d3c257cbfe7a0965c376514378368887ffbcb2869"
+    ],
+    "ugc/camera-detector/stills/round1/S3.png": [
+     597015,
+     "cfe8a798aa05285cfe01699f63f2947a0bf86d4596b4329c440afd89dd919853"
+    ],
+    "ugc/camera-detector/stills/round1/S4.png": [
+     613371,
+     "e3dc70dfcd3ee3ab467c256661499478c38254f1be5b34fe63fe0b5cd53f8592"
+    ],
+    "ugc/camera-detector/stills/round1/S6.png": [
+     521314,
+     "0c5c72d76af880b92309668948f4e1ccd1e82e9a9afbf83d9725f33f2a6b1e38"
+    ],
+    "ugc/camera-detector/stills/round1/S7.png": [
+     531197,
+     "014886f2a0dd28385cce9ed9d6e575316fe32320792c1c4afd606fea42618d17"
+    ],
+    "ugc/camera-detector/stills/round1/S8.png": [
+     585945,
+     "02ee425323862a9b05a680f37354ba63c5d46cdb13bc0a120e03aa17f0c08466"
+    ],
+    "ugc/camera-detector/stills/round1/S9.png": [
+     643048,
+     "67a293a609614aa76f7d46091f2eebaf7b639a4cb2699bc3498ca433cd90c85b"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__camera-detector.set1.part01.tar",
+     "size": 87674880,
+     "sha256": "7962739a27ff7f963eab076e5d1218746624b525a1eb3081fe49b225190497b4",
+     "hosted": "2026-10-29",
+     "drive_id": "1y6wAokkLnHYMT0QDQei101wSGiHjTZgn",
+     "drive_folder": "1tY5SOaydPlQk00-xRFeJf8_JbJ7neD4t"
+    }
+   ]
+  }
+ ]
+}

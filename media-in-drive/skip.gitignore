@@ -1,0 +1,12 @@
+# Scratch that media.py never stores (untracked files matching these are skipped)
+.playwright-mcp/
+__pycache__/
+ugc/*/out/_remix/
+ugc/*/out/*_raw.mp4
+ugc/*/research/videos/*/video.mp4
+ugc/goth-highlow-skirt/research/inspo/*/f/
+ugc/*/rooms/cand/
+ugc/*/rooms*/cand/
+ugc/*/qc/clips/
+ralph/avatar-test/in/
+ralph/avatar-test/work/

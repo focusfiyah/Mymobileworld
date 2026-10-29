@@ -1,0 +1,374 @@
+{
+ "unit": "ugc/neuro-sour-mints",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-10-29",
+   "files": {
+    "ugc/neuro-sour-mints/clips/S1.mp4": [
+     2365942,
+     "a4b98f0f67690f8b39f8dfc0660e65479ba7489cc7b6554d49c430c2909939dd"
+    ],
+    "ugc/neuro-sour-mints/clips/S3.mp4": [
+     4054251,
+     "97f8bb6f7e78bb3a126766fadcc288d17a9931b5570bf7aba8425f32e699bf63"
+    ],
+    "ugc/neuro-sour-mints/clips/S3_v1_rotates.mp4": [
+     3972839,
+     "2602b7220f86be9f5343279b58f47cd30f3a62721285bd5ce7e28494c7f7c394"
+    ],
+    "ugc/neuro-sour-mints/clips/S5.mp4": [
+     1735480,
+     "142ca3804d906173b9fe913a81965adbcb4f4eb52acb968a2d1db58304a5ad1f"
+    ],
+    "ugc/neuro-sour-mints/out/_crop.png": [
+     580806,
+     "18b4de2ab07550b36d1a0a2f65ec11a685c6d48653680b8a3a6b206c4f671809"
+    ],
+    "ugc/neuro-sour-mints/out/_seg/S1.mp4": [
+     1207332,
+     "0e2058f3d715a8b46e450eb58b4a171ba780ee74fe0c43fd6dde6b90897a536b"
+    ],
+    "ugc/neuro-sour-mints/out/_seg/S2.mp4": [
+     358584,
+     "25ba099e697df991a3b244579d67d06a86f4883d05edd76a659521fed283da98"
+    ],
+    "ugc/neuro-sour-mints/out/_seg/S3.mp4": [
+     2825909,
+     "64038b94bfba9dcd5bb803299afff6dc09df74c4f1008995fa96635f67e73642"
+    ],
+    "ugc/neuro-sour-mints/out/_seg/S4.mp4": [
+     281466,
+     "a57050f4e193c17e6a2a5ad7660cd3e999b752b661b7abee0058865d72e8bdad"
+    ],
+    "ugc/neuro-sour-mints/out/_seg/S5.mp4": [
+     1007933,
+     "45d0d728ff5ef47d359a18b30f8583630581dc96071dfb0b26b8baa959b7c0f9"
+    ],
+    "ugc/neuro-sour-mints/out/_seg/hook.png": [
+     15906,
+     "4ba6b15314fe300385bd15b668f15d095ac8423bea060776ca754b73fea91afb"
+    ],
+    "ugc/neuro-sour-mints/out/_seg2/S1.mp4": [
+     1354749,
+     "e2cf3f4a537d5e97c9781c5b6d47a645b40d7481464d0dcb4bedf6f210690924"
+    ],
+    "ugc/neuro-sour-mints/out/_seg2/S2.mp4": [
+     368315,
+     "0d6fda5a199a5b56f0edecf9129b74664eff55db1c437acccc9156579701cee4"
+    ],
+    "ugc/neuro-sour-mints/out/_seg2/S3.mp4": [
+     2705450,
+     "b682c9fd2d06d242a5e156ea33165e02d1ecbfa1c2746cc1785bd5ec39f9d33e"
+    ],
+    "ugc/neuro-sour-mints/out/_seg2/S4.mp4": [
+     249551,
+     "cadd675190c4ef9979cd26b8d3853b9a020b00aab7ac71ce3d5df859befbbae0"
+    ],
+    "ugc/neuro-sour-mints/out/_seg2/S5.mp4": [
+     847633,
+     "efe2fa1a69a960e87ab1ee5855f8c8bfacd8b9c0b20f3e5d0d78a6585813343f"
+    ],
+    "ugc/neuro-sour-mints/out/_seg2/hook.png": [
+     14886,
+     "9e9c7209ed21fd43568ce21c0f7c5cff2e26c165f67aa62e311c21be966336a6"
+    ],
+    "ugc/neuro-sour-mints/out/_seg3/S1.mp4": [
+     1308841,
+     "83f24e4e70943548d59ba063cc5884a0e87e5732df9be85f36b5b068efacc6ec"
+    ],
+    "ugc/neuro-sour-mints/out/_seg3/S2.mp4": [
+     342124,
+     "3f4e3961f554918c4445155c5c67877559ff16835486db184fddd73011ce56d7"
+    ],
+    "ugc/neuro-sour-mints/out/_seg3/S3.mp4": [
+     2617096,
+     "99d54bb5f994e3914f6517ee723f0aa612e2a87429a687edd64416d4d283e40c"
+    ],
+    "ugc/neuro-sour-mints/out/_seg3/S4.mp4": [
+     192986,
+     "568b163d1bdaefaedfafe4cff437db65e138044e8a483da236ba02f86c5b60e8"
+    ],
+    "ugc/neuro-sour-mints/out/_seg3/S5.mp4": [
+     804256,
+     "383e84509ce14d9a719e672a5d695b5f6bc109d9e338171ba38409070dda27ce"
+    ],
+    "ugc/neuro-sour-mints/out/_seg3/hook.png": [
+     16693,
+     "56cb7c1f656ce2331ea23c29c2fbac72badb955ebe035160783839691027a635"
+    ],
+    "ugc/neuro-sour-mints/out/_seg4/S1.mp4": [
+     1089295,
+     "5d9302a375d84fdded34294ac2f741a1ba75fc51ab3aec89229606843525ea57"
+    ],
+    "ugc/neuro-sour-mints/out/_seg4/S2.mp4": [
+     244267,
+     "2c07391529bb1d3fb17e01b874630179475aedfefd4495971a6b88fb87c7042f"
+    ],
+    "ugc/neuro-sour-mints/out/_seg4/S3.mp4": [
+     2856044,
+     "b7b0d985944051c6b19845b1f0ed0e67959817dbca4e37e2f38a6bf401d0b32e"
+    ],
+    "ugc/neuro-sour-mints/out/_seg4/S4.mp4": [
+     255919,
+     "eb3eb70e2ee1eda9cef965a7a9fde95765250ab978042de93471feed9c3b0862"
+    ],
+    "ugc/neuro-sour-mints/out/_seg4/S5.mp4": [
+     836883,
+     "15f58efa092a0389c6e0314460e3d1a067b1830e0e2016feca63821aa4441e3d"
+    ],
+    "ugc/neuro-sour-mints/out/_seg4/hook.png": [
+     23734,
+     "18465d8a34f8bf8a74d78c8820820d4b7b0df97fa4208dd31f1ecea915fc512b"
+    ],
+    "ugc/neuro-sour-mints/out/_seg5/S1.mp4": [
+     1148848,
+     "93580e18bb0c95238aadb97135835364f5cbcfd88288be14f18656eb7ec22d76"
+    ],
+    "ugc/neuro-sour-mints/out/_seg5/S2.mp4": [
+     321241,
+     "c0221d9b9c1948a1f57b157327df7c46a999cbfad6d9c3efb5904c31be4776b8"
+    ],
+    "ugc/neuro-sour-mints/out/_seg5/S3.mp4": [
+     2690065,
+     "d42e6c05537253b75d1b0bcf72d21894261d8c7ae3d38a463fea4b0c6ceead29"
+    ],
+    "ugc/neuro-sour-mints/out/_seg5/S4.mp4": [
+     263750,
+     "af43ea84528d496f73cd4020971f61ca8b66d80505eeaceb7de6a0b5b6df12d5"
+    ],
+    "ugc/neuro-sour-mints/out/_seg5/S5.mp4": [
+     944272,
+     "4fba4bdfc10625e340190d49fb47d2dbdd81615a1bf32cfdbe9505d5349b9d6f"
+    ],
+    "ugc/neuro-sour-mints/out/_seg5/hook.png": [
+     11377,
+     "4e5beb4556d60268a5ceda0ff352379b2f18417a107735e2b9aa623b4eb7e796"
+    ],
+    "ugc/neuro-sour-mints/out/final/Neuro Sour Mints 1.mp4": [
+     6248487,
+     "684350f65104a10e07cfc9d06aeea7d35a15dd5d6fa63da6dfec62cf0588f74d"
+    ],
+    "ugc/neuro-sour-mints/out/final/Neuro Sour Mints 2.mp4": [
+     7932416,
+     "c5a6a57a3635a4aef96e9ee83afedd6ecbaa87ac4fde06aa74298f7af3623889"
+    ],
+    "ugc/neuro-sour-mints/out/final/Neuro Sour Mints 3.mp4": [
+     7075096,
+     "829f1e70c49bf2363087338a5f28a99de9dfeccc6321e81adb6aedb056d12eca"
+    ],
+    "ugc/neuro-sour-mints/out/final/Neuro Sour Mints 4.mp4": [
+     7066546,
+     "7921e5991e82e9a737e99bac74ee56f838368371e052eac6a0e51c973fbd9c0a"
+    ],
+    "ugc/neuro-sour-mints/out/neuro-sour-mints.mp4": [
+     5294318,
+     "4be87684ed01ad67206987a2038067a90556fcc3ed7c3b6941a61eb0d52acc23"
+    ],
+    "ugc/neuro-sour-mints/out/neuro-sour-mints_v2.mp4": [
+     5152638,
+     "ca96571629c4b09c6a4ec55991256d2b3fe28886cefcff0ae312c320d17a5ebf"
+    ],
+    "ugc/neuro-sour-mints/out/neuro-sour-mints_v3.mp4": [
+     4887248,
+     "1f1c6a7db1029e8b54a8922114ae41695154af5dbb7af87ecaa934e644f3dd8f"
+    ],
+    "ugc/neuro-sour-mints/out/neuro-sour-mints_v4.mp4": [
+     4899551,
+     "7901b147bfcf3bb29bc4e672c75ff421ef08d1cbb6f1ea7c4509e9452ad2e852"
+    ],
+    "ugc/neuro-sour-mints/out/neuro-sour-mints_v5.mp4": [
+     4990404,
+     "f707aaeae82ab80f4378014a607a746ad816ea4be7ecd4828657be1399cf468f"
+    ],
+    "ugc/neuro-sour-mints/preview/_S1.png": [
+     389580,
+     "7b078c99ba6b8a79378bd210979f58cff7bb44ea84175a366f21d8d13e137f04"
+    ],
+    "ugc/neuro-sour-mints/preview/_S3.png": [
+     457402,
+     "ee58a4bc0bce44df966ca21733830deb9ad069f80cc01e929b97a3d994e47ed0"
+    ],
+    "ugc/neuro-sour-mints/preview/_S5.png": [
+     352231,
+     "76755c21c72c10969ee0da5a7a4ccd4e1ebfd37fa0828e400ac5a0f9629e100f"
+    ],
+    "ugc/neuro-sour-mints/preview/clips_sheet.png": [
+     1199323,
+     "023e6b234ad3d567a11e6f2c9be24b1edfc3fbc47b12c6bb74f0dfec67b8ac40"
+    ],
+    "ugc/neuro-sour-mints/preview/stills_sheet.png": [
+     900843,
+     "8c64e0cc376b8d0e508451e97e634e6eb578ed2e872d2631df03d08453d6627c"
+    ],
+    "ugc/neuro-sour-mints/refs/bag_crop.png": [
+     181173,
+     "3169064f45a3b4a3d009955503a2095354321fa94792ec1abb3e2ea28042fb5c"
+    ],
+    "ugc/neuro-sour-mints/refs/flavors_crop.png": [
+     336340,
+     "5b76306d5eea184a21bd18a68d43b448c33d8e8cb22e53eed7c9e722b889017b"
+    ],
+    "ugc/neuro-sour-mints/refs/hand_dorsal.png": [
+     252383,
+     "6ff4b904426cd1cc74d9cd692940f8a22f87cf67c073a6c50fc48838b4af839f"
+    ],
+    "ugc/neuro-sour-mints/refs/hand_palm.png": [
+     240384,
+     "2defc78920f890ac048768f0c7eb68aad21254f0e451daf536ccdef7e284ae5a"
+    ],
+    "ugc/neuro-sour-mints/refs/tiktok_listing.jpg": [
+     145045,
+     "e26520d7da879fce326b5e9440b1d8949cde1162b2616de7ee975288077565e3"
+    ],
+    "ugc/neuro-sour-mints/research/compare/compare/A/hook.png": [
+     1546187,
+     "9b729915052a77d2790fe770beb140b5a9cd5e5c20397cd3c4e67ece2078fdfe"
+    ],
+    "ugc/neuro-sour-mints/research/compare/compare/A/sheet.png": [
+     3181310,
+     "dd9082e6c68a24b379194c6fbd4e51152bb04e91292e496bfa4600a2c43b36e6"
+    ],
+    "ugc/neuro-sour-mints/research/compare/compare/A/video.mp4": [
+     9462693,
+     "af01dc42c0e04585923b396878e5e1fda4bf65a42e17199994b60e1428161b6d"
+    ],
+    "ugc/neuro-sour-mints/research/compare/compare/B/hook.png": [
+     1212358,
+     "7de8e7abd5b57824c5fe815a5e22aa4c1ff0597a5cd5c554a418390fb3e94c5e"
+    ],
+    "ugc/neuro-sour-mints/research/compare/compare/B/sheet.png": [
+     2343539,
+     "6776fe7c330c9dd56f9e8a46de06734a642409063e601113137a1fc2976f121f"
+    ],
+    "ugc/neuro-sour-mints/research/compare/compare/compare.png": [
+     2759119,
+     "211743e1c7bed8911dbf630d0bc493b7bf52643109200613828320b26ced084b"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7684488917411826957/hook.png": [
+     1546187,
+     "9b729915052a77d2790fe770beb140b5a9cd5e5c20397cd3c4e67ece2078fdfe"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7684488917411826957/sheet.png": [
+     3181310,
+     "dd9082e6c68a24b379194c6fbd4e51152bb04e91292e496bfa4600a2c43b36e6"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7684488917411826957/video.mp4": [
+     9462693,
+     "af01dc42c0e04585923b396878e5e1fda4bf65a42e17199994b60e1428161b6d"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7688728547266956558/hook.png": [
+     1308563,
+     "71783328fb364e9021ae15201a7418e32e29f1e2bcb68d13cda1adba48165d39"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7688728547266956558/sheet.png": [
+     2847272,
+     "930c86d94c629b6b1e3ca8e9dee44170add606d0782411a9c2b275f89d2d7009"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7688728547266956558/video.mp4": [
+     3860040,
+     "e7723ca9a7de178018d5d416a45a9341881fbde370c9e1cd5d323655401e5ab2"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7690467352017669390/hook.png": [
+     1072061,
+     "b9501b890df2e9c01ff62cc27341839c58993c9276b78f4662dad7d674677195"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7690467352017669390/sheet.png": [
+     2298219,
+     "0a9a81948d1f5d38f6640a05903e20bb236479c3354f41b85f8e32488fad65d9"
+    ],
+    "ugc/neuro-sour-mints/research/videos/7690467352017669390/video.mp4": [
+     2037228,
+     "ca2df9d9297ed620a4fc0e6076eac245349a3cfbcff1e59e3bae1f3c2b95bbae"
+    ],
+    "ugc/neuro-sour-mints/stills/S1.png": [
+     1122081,
+     "f4098211e5b2f9e26a8b89624cbeb65226f2f3e027fdb8e410edec6bae767bc9"
+    ],
+    "ugc/neuro-sour-mints/stills/S1_raw.png": [
+     1133495,
+     "7611852d2192a3c57fb4a8e6d979e43d15b8527a85942d0011ba2548851a09ed"
+    ],
+    "ugc/neuro-sour-mints/stills/S2.png": [
+     557823,
+     "fca10b588c32fde48a720de73e1b1d089aef53fd38b548c766abaa6982b6b7d9"
+    ],
+    "ugc/neuro-sour-mints/stills/S3.png": [
+     1150105,
+     "49d109532a6530dc10879c02d7f5f10ebe502872be7ff9d643fe99723a483f51"
+    ],
+    "ugc/neuro-sour-mints/stills/S3_raw.png": [
+     1161667,
+     "009a444cbb2b1cd0067acd2f343b83ea924ab1953593a57a2e565141350a7ea4"
+    ],
+    "ugc/neuro-sour-mints/stills/S5.png": [
+     569527,
+     "516c00682aa72b62318bf6115374b6e78db7198bdbd5be34cdb9f25a37ef28c1"
+    ],
+    "ugc/neuro-sour-mints/vo/v2/voiceover.mp3": [
+     283838,
+     "c601c49f2836fa36310efc1f9b2c97c641f80ae5e907d87b8c72cf5dd66123bd"
+    ],
+    "ugc/neuro-sour-mints/vo/v2/voiceover_tight.mp3": [
+     356145,
+     "94606218719ac2d2ca2dea638fdeca2181a99125d020f655a84895510d36b99e"
+    ],
+    "ugc/neuro-sour-mints/vo/v3/voiceover.mp3": [
+     248311,
+     "e9c063c2a8b9dbe799257cd8332a2788c9b19ca8d5ea11f200f8444d7eaa3b1d"
+    ],
+    "ugc/neuro-sour-mints/vo/v3/voiceover_tight.mp3": [
+     326679,
+     "0736d47748df2e91179d607d03bb529e889bc848f2a56f71ce814b0a1061d9c5"
+    ],
+    "ugc/neuro-sour-mints/vo/v4/voiceover.mp3": [
+     262104,
+     "c7fd806f8dfbb935df24c5eaf1bde8db00ad601f86d2f6311c481e4c318869ab"
+    ],
+    "ugc/neuro-sour-mints/vo/v4/voiceover_tight.mp3": [
+     334202,
+     "470d99f2d7edd3205d7d39510a43102c835f0e4eff2409c5d6bfc49706584afd"
+    ],
+    "ugc/neuro-sour-mints/vo/v5/voiceover.mp3": [
+     278822,
+     "288543b3ce334ee98712ba3d0875decf494500bc4540a1aa6209cef3ebbd0053"
+    ],
+    "ugc/neuro-sour-mints/vo/v5/voiceover_tight.mp3": [
+     350502,
+     "af17427497f6a2c3b4ad2fd7bd601dba1b889dc2487ca0a302290e610904d53a"
+    ],
+    "ugc/neuro-sour-mints/vo/voiceover.mp3": [
+     430124,
+     "a36b928d4d0ca950b2f43daff8a97008de279282b35db42d3d0372a4f0a7cdbb"
+    ],
+    "ugc/neuro-sour-mints/vo/voiceover_orig.mp3": [
+     308079,
+     "253c5d636d79938b883e001bc3e438150fe563319f6261a33ad3ddddecec3b2b"
+    ],
+    "ugc/neuro-sour-mints/vo/voiceover_tight.mp3": [
+     380595,
+     "d530f00ed3465dbe8303e6d632e9ebaeb8faff1f7dd9913ed55fb1cde0504491"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__neuro-sour-mints.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "6d7dbe488232a9654024e8243e8abd9987221bf1dccd5a4e63814210a4618ab6",
+     "hosted": "2026-10-29",
+     "drive_id": "1Yc8L28cvcLb89icjvbNxf8ncOsXBu8SG",
+     "drive_folder": "1rofq3G_Qk_OiUTxjx2AM3kEfJRDWmeeq"
+    },
+    {
+     "name": "ugc__neuro-sour-mints.set1.part02.tar",
+     "size": 60361280,
+     "sha256": "c1a88c37f2c4cb8e77ba669c3462d50a355375e6476119471f3f79d8a1908652",
+     "hosted": "2026-10-29",
+     "drive_id": "1FFocaFNqrhZmBwL0bIblZ5LYO5msOdTl",
+     "drive_folder": "1rofq3G_Qk_OiUTxjx2AM3kEfJRDWmeeq"
+    }
+   ]
+  }
+ ]
+}
