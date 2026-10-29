@@ -110,8 +110,43 @@ def render():
     print("RENDER_OK" if not probs else "RENDER_BAD", probs)
 
 
+FINAL_JS = """() => {
+  const miss = [...document.querySelectorAll('.dots i')].filter(d => getComputedStyle(d).backgroundColor === 'rgb(255, 138, 107)').length;
+  const nums = [...document.querySelectorAll('[data-count]')].map(e => e.textContent.trim());
+  const op = s => Math.min(...[...document.querySelectorAll(s)].map(n => +getComputedStyle(n).opacity));
+  const draw = getComputedStyle(document.querySelector('.steps')).getPropertyValue('--draw').trim();
+  const tr = [...document.querySelectorAll('.steps li > .ic, .msg .stars .ic, .note .mark')].map(n => getComputedStyle(n).transform).filter(x => x !== 'none' && x !== 'matrix(1, 0, 0, 1, 0, 0)');
+  return {miss, nums, notes: op('.note'), stars: op('.msg .stars .ic'), terms: op('.cost .term, .cost .op'), draw, tr};
+}"""
+
+
+def final():
+    from playwright.sync_api import sync_playwright
+    probs = []
+    with sync_playwright() as p:
+        br = p.chromium.launch(executable_path="/opt/pw-browsers/chromium")
+        for w, h in ((390, 844), (1440, 900)):
+            for mode in ("normal", "reduce", "nojs"):
+                ctx = br.new_context(viewport={"width": w, "height": h}, reduced_motion="reduce" if mode == "reduce" else "no-preference",
+                                     java_script_enabled=mode != "nojs")
+                pg = ctx.new_page()
+                pg.goto(PAGE.as_uri(), wait_until="networkidle")
+                if mode == "normal":
+                    for y in range(0, pg.evaluate("document.body.scrollHeight"), 250):
+                        pg.evaluate(f"window.scrollTo(0,{y})"); pg.wait_for_timeout(80)
+                    pg.wait_for_timeout(2500)
+                r = pg.evaluate(FINAL_JS)
+                ok = (r["miss"] == 44 and r["nums"] == ["44%", "$3,900"] and min(r["notes"], r["stars"], r["terms"]) >= 0.99
+                      and r["draw"] == "1" and not r["tr"])
+                if not ok:
+                    probs.append((w, mode, r))
+                ctx.close()
+        br.close()
+    print("FINAL_OK" if not probs else "FINAL_BAD", probs)
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "all"
-    fns = dict(words=words, order=order, plans=plans, bf=bf, banned=banned, graphics=graphics, blue=blue, render=render)
+    fns = dict(final=final, words=words, order=order, plans=plans, bf=bf, banned=banned, graphics=graphics, blue=blue, render=render)
     for k in (fns if cmd == "all" else [cmd]):
         fns[k]()
