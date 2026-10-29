@@ -1329,6 +1329,36 @@
      "drive_folder": "1XpvwyQnMt2yExZ8hzNUzHi9op8gkFDyR"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/jiyu-polish-pads/_git_history/db1275ac8690_jiyu_review.mp4": [
+     24805929,
+     "ef27abc5da0c6b8ea7ecc63cc567a6ce6e6238e3a4a5bb4bf4648d8467efe796"
+    ],
+    "ugc/jiyu-polish-pads/_git_history/5fd899d5b695_S1_cur.jpg": [
+     61137,
+     "778894e1b455c0fb3c4000fe56e02e24f7a058db847d26224a4b428157fea634"
+    ]
+   },
+   "origins": {
+    "ugc/jiyu-polish-pads/_git_history/db1275ac8690_jiyu_review.mp4": "ugc/jiyu-polish-pads/out/jiyu_review.mp4",
+    "ugc/jiyu-polish-pads/_git_history/5fd899d5b695_S1_cur.jpg": "ugc/jiyu-polish-pads/review/st/S1_cur.jpg"
+   },
+   "parts": [
+    {
+     "name": "ugc__jiyu-polish-pads.history2.part01.tar",
+     "size": 24872960,
+     "sha256": "7b6c079522644980db215cb1dcea8bd0fa45792affd226d7816c4731a760b346",
+     "hosted": "2026-10-29",
+     "drive_id": "1j-TCOfLHS5pIgGcrT94Qdb1DPJDw3-UM",
+     "drive_folder": "1KMaqy_12CScNFRKkDdZSPazETGeMxm7e"
+    }
+   ]
   }
  ]
 }

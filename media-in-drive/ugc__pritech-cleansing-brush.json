@@ -873,6 +873,36 @@
      "drive_folder": "11M2uUwwTbXxFf0lSrIqMKdO6YxJR0yxY"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/pritech-cleansing-brush/_git_history/c1363912f64d_S7.jpg": [
+     86473,
+     "eebad69aca31b35f6a469d3f039c24da8299f23313b0876aa495157f635c2595"
+    ],
+    "ugc/pritech-cleansing-brush/_git_history/d14daa844178_1_still_S6.png": [
+     1200663,
+     "3ba3167c44365d9648971066d9c81dd60b0e9ac8dd986cd26a349ff5318fadf5"
+    ]
+   },
+   "origins": {
+    "ugc/pritech-cleansing-brush/_git_history/c1363912f64d_S7.jpg": "ugc/pritech-cleansing-brush/review/st2/S7.jpg",
+    "ugc/pritech-cleansing-brush/_git_history/d14daa844178_1_still_S6.png": "ugc/pritech-cleansing-brush/review/flow/1_still_S6.png"
+   },
+   "parts": [
+    {
+     "name": "ugc__pritech-cleansing-brush.history2.part01.tar",
+     "size": 1290240,
+     "sha256": "3a8c91fb70b505e2d75df4b4cf411e2b8a832ba0758404f091fe6d6dbd3a04f0",
+     "hosted": "2026-10-29",
+     "drive_id": "1Ml8xpnehMVThHd6ptNoMnsoLCZuh9Fg_",
+     "drive_folder": "130FKejAzYnj2sLAGtr1Qw5nbSCBkyccg"
+    }
+   ]
   }
  ]
 }

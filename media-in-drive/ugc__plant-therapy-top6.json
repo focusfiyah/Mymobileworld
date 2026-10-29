@@ -201,6 +201,51 @@
      "drive_folder": "1Bf1UaD4Quhgui_evnjbDZIE0alUQxhnS"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/plant-therapy-top6/_git_history/53c79faaa998_plant_therapy_top6.mp4": [
+     7430476,
+     "bbf98be249131d6b43be5aae105bd331f2439eb353ef3996c335c61ea54032e2"
+    ],
+    "ugc/plant-therapy-top6/_git_history/1157fbce4da1_hook_text.png": [
+     14974,
+     "3d713700bf64932fb1ab1fccdf2500efff00237e68992929da09c83042e25c1d"
+    ],
+    "ugc/plant-therapy-top6/_git_history/11d6fefe2ead_plant_therapy_top6.mp4": [
+     7342794,
+     "9542cf614161f75856d39367185122d43163e43e353d0a853bff37b9b7105366"
+    ],
+    "ugc/plant-therapy-top6/_git_history/441ca1d3b63f_stills_sheet.png": [
+     1944165,
+     "2e073db6bf02592366f929d95ff2c494a08c39d1b05a59ccda4cc76b8ba68cd5"
+    ],
+    "ugc/plant-therapy-top6/_git_history/5dd6fad6164c_stills_sheet.png": [
+     268400,
+     "3e7e80f42575552b52ab9efa0cd1e56f9e45972a98144f5361548bf825668381"
+    ]
+   },
+   "origins": {
+    "ugc/plant-therapy-top6/_git_history/53c79faaa998_plant_therapy_top6.mp4": "ugc/plant-therapy-top6/out/plant_therapy_top6.mp4",
+    "ugc/plant-therapy-top6/_git_history/1157fbce4da1_hook_text.png": "ugc/plant-therapy-top6/inserts/hook_text.png",
+    "ugc/plant-therapy-top6/_git_history/11d6fefe2ead_plant_therapy_top6.mp4": "ugc/plant-therapy-top6/out/plant_therapy_top6.mp4",
+    "ugc/plant-therapy-top6/_git_history/441ca1d3b63f_stills_sheet.png": "ugc/plant-therapy-top6/preview/stills_sheet.png",
+    "ugc/plant-therapy-top6/_git_history/5dd6fad6164c_stills_sheet.png": "ugc/plant-therapy-top6/preview/stills_sheet.png"
+   },
+   "parts": [
+    {
+     "name": "ugc__plant-therapy-top6.history2.part01.tar",
+     "size": 17008640,
+     "sha256": "54223a2a3915b8640b052060c044580d8975e32c864e8fb5e1ec5d3acba0047d",
+     "hosted": "2026-10-29",
+     "drive_id": "1q8qdHZu2VXGkYqqv64Y0KZM1XKIRmMW7",
+     "drive_folder": "1jRaUQBvQ6YxHWTP8C2RnfJkVFRmJZ-6z"
+    }
+   ]
   }
  ]
 }

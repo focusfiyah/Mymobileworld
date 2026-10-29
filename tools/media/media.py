@@ -167,7 +167,7 @@ def cmd_pack(units):
 
 
 def cmd_pending():
-    out = [{"repo": r["repo"], "unit": r["unit"], "folder": r["unit"].replace("/", " - "), **p}
+    out = [{"repo": r["repo"], "unit": r["unit"], "folder": r["unit"].replace("/", " - "), "sub": s.get("sub"), **p}
            for r in all_records() for s in r["sets"] for p in s["parts"] if not p.get("drive_id")]
     print(json.dumps(out, indent=1))
 

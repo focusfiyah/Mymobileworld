@@ -685,6 +685,51 @@
      "drive_folder": "1JwjsCcMGYWrfWU1Dz-57ywCWrXDgyXEv"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/space-heater-ptc/_git_history/8081f8ceb268_hook.png": [
+     1153325,
+     "838bb454876a92a35355ff0d579e15d40eaf1bbb75308204c869217ffacbebba"
+    ],
+    "ugc/space-heater-ptc/_git_history/98bec9ffad85_sheet.png": [
+     2874782,
+     "493bd058397318e52aaf78c5e452085b41cc0e11c650b23bce510ea260d74238"
+    ],
+    "ugc/space-heater-ptc/_git_history/4b3e29ccb271_compare.png": [
+     2165752,
+     "3a674b3689ad0e075310fe02b7544456a93f43f1c214a0ace7f00842b3f96773"
+    ],
+    "ugc/space-heater-ptc/_git_history/a6e00437a9b1_stills_sheet.png": [
+     2661929,
+     "3885c77e05cc532884c8631bc9fe58743a0ee4a8ae944f007b371e8048410a9d"
+    ],
+    "ugc/space-heater-ptc/_git_history/5f2e9d27e493_stills_sheet.png": [
+     2656450,
+     "d3a24d113d93295ceec4f8330e6f4e0e6f0a608889e8636b0bd4e8c98c354fd5"
+    ]
+   },
+   "origins": {
+    "ugc/space-heater-ptc/_git_history/8081f8ceb268_hook.png": "ugc/space-heater-ptc/research/compare/compare/B/hook.png",
+    "ugc/space-heater-ptc/_git_history/98bec9ffad85_sheet.png": "ugc/space-heater-ptc/research/compare/compare/B/sheet.png",
+    "ugc/space-heater-ptc/_git_history/4b3e29ccb271_compare.png": "ugc/space-heater-ptc/research/compare/compare/compare.png",
+    "ugc/space-heater-ptc/_git_history/a6e00437a9b1_stills_sheet.png": "ugc/space-heater-ptc/preview/stills_sheet.png",
+    "ugc/space-heater-ptc/_git_history/5f2e9d27e493_stills_sheet.png": "ugc/space-heater-ptc/preview/stills_sheet.png"
+   },
+   "parts": [
+    {
+     "name": "ugc__space-heater-ptc.history2.part01.tar",
+     "size": 11520000,
+     "sha256": "1d5fbe4830eb845d9f21b19231793e74341cb43103408bf865fbf4b684233e50",
+     "hosted": "2026-10-29",
+     "drive_id": "1hLcI-nfhLjKvN-d3MYNrf0T_rmtbsieg",
+     "drive_folder": "1nzareGrkW3HeD3m0hmGfWLmOrgbYj8O3"
+    }
+   ]
   }
  ]
 }

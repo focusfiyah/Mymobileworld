@@ -84,6 +84,8 @@ def main():
         files = missing(ref, main_blobs, skip)
         if files is None:
             unrelated += 1
+            print(f"{ref}: OLD HISTORY (shares no history with main, e.g. from before the 2026-10-29 media cleanup): "
+                  "never merge it; copy its non-media files onto a fresh branch from main by hand")
             continue
         if not files:
             continue

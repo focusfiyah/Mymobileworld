@@ -597,6 +597,51 @@
      "drive_folder": "1tY5SOaydPlQk00-xRFeJf8_JbJ7neD4t"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/camera-detector/_git_history/270fbb2c7b6a_hor_v1.mp4": [
+     4011408,
+     "7ab1c550deda70bd0fb0ad60c6d86ea17497221dd4b1c1ec65da04603e2d974a"
+    ],
+    "ugc/camera-detector/_git_history/e8c0f30c8d2e_S10.jpg": [
+     112929,
+     "5719a289f50c0b79a4867cc9b3611eb581cfb3f6e605cec186d6331b306c77a1"
+    ],
+    "ugc/camera-detector/_git_history/ae9cab6d8efc_S11.jpg": [
+     85920,
+     "37ea2d603a5946763887953602d4c6b9555e211391bd6385f511b8076d1c3f15"
+    ],
+    "ugc/camera-detector/_git_history/ef51131eac89_S4.jpg": [
+     72278,
+     "dcb6a466234bad5f0f2ec5d7f76aa9bdfbbe1a037b59e048acfecdc21f82282a"
+    ],
+    "ugc/camera-detector/_git_history/800396c28fee_S9.jpg": [
+     78770,
+     "a9168f614567dad6b2752676bda2f8c83500ca7f50feb0bd761e23d5623b221c"
+    ]
+   },
+   "origins": {
+    "ugc/camera-detector/_git_history/270fbb2c7b6a_hor_v1.mp4": "ugc/camera-detector/review/cut/hor_v1.mp4",
+    "ugc/camera-detector/_git_history/e8c0f30c8d2e_S10.jpg": "ugc/camera-detector/review/st/S10.jpg",
+    "ugc/camera-detector/_git_history/ae9cab6d8efc_S11.jpg": "ugc/camera-detector/review/st/S11.jpg",
+    "ugc/camera-detector/_git_history/ef51131eac89_S4.jpg": "ugc/camera-detector/review/st/S4.jpg",
+    "ugc/camera-detector/_git_history/800396c28fee_S9.jpg": "ugc/camera-detector/review/st/S9.jpg"
+   },
+   "parts": [
+    {
+     "name": "ugc__camera-detector.history2.part01.tar",
+     "size": 4372480,
+     "sha256": "69ddb1909ee230eb7c5427a42496652ed08f3b6912624d59e2f2e38414531ffd",
+     "hosted": "2026-10-29",
+     "drive_id": "1LoFjD_kNDnhk9uegFYBvkHz6l08IEiIa",
+     "drive_folder": "1eKuMaiLDY6OGTrVJx6i24qe0rbUAVj1r"
+    }
+   ]
   }
  ]
 }

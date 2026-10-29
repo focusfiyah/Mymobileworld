@@ -665,6 +665,46 @@
      "drive_folder": "1XV1r2DHe7CF9PUDFma2AU0CuHmLvJjcZ"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/sofyre-v2/_git_history/405a4a7ef773__V2S1.png": [
+     479803,
+     "ab710016038cffecd28e6884e7effa9bae08d5e429a4b26e67a4a9c01fb62a80"
+    ],
+    "ugc/sofyre-v2/_git_history/deccec79fa1d__V2S4.png": [
+     326110,
+     "cdf5c8e6e7034f1203de87ead8cde4ae2866c031d6c28835a49f634e69046357"
+    ],
+    "ugc/sofyre-v2/_git_history/05eeb39c7393_clips_sheet.png": [
+     8360084,
+     "b944f6a0af500cf09bff43369389ee253ba9c8f8ad3f68ea954262c03e2d658d"
+    ],
+    "ugc/sofyre-v2/_git_history/73cbb850f63d_stills_sheet.png": [
+     5637080,
+     "72652f62a8df9ecb841c952a6e6972dcb4a4d3708eaa8efeba4403e14ca90244"
+    ]
+   },
+   "origins": {
+    "ugc/sofyre-v2/_git_history/405a4a7ef773__V2S1.png": "ugc/sofyre-v2/preview/_V2S1.png",
+    "ugc/sofyre-v2/_git_history/deccec79fa1d__V2S4.png": "ugc/sofyre-v2/preview/_V2S4.png",
+    "ugc/sofyre-v2/_git_history/05eeb39c7393_clips_sheet.png": "ugc/sofyre-v2/preview/clips_sheet.png",
+    "ugc/sofyre-v2/_git_history/73cbb850f63d_stills_sheet.png": "ugc/sofyre-v2/preview/stills_sheet.png"
+   },
+   "parts": [
+    {
+     "name": "ugc__sofyre-v2.history2.part01.tar",
+     "size": 14807040,
+     "sha256": "75f9abfc7f26ed6ede5b7267b491acd8a542e44d772f0ea966fe7f9fc36989be",
+     "hosted": "2026-10-29",
+     "drive_id": "1H9xSViP_5oFEdU4O-lVKHqrD9ZnxwJ6l",
+     "drive_folder": "1PDtHnKsRAqQXglxTc1aa-Whv3UTxAS_w"
+    }
+   ]
   }
  ]
 }

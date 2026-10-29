@@ -225,6 +225,46 @@
      "drive_folder": "1gG_BgIQgZOGzpaCzeC8n54R_JdLUfNNv"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/wag-bag-v2/_git_history/82540270e33a_battery.png": [
+     133866,
+     "8779cee954760aab86f377cd72d04795ab6894ecadb0afefa44f214d5821e231"
+    ],
+    "ugc/wag-bag-v2/_git_history/414c02c3d50c_water.png": [
+     267253,
+     "7b1cbd4b6cd3572c46b277cc4fa3b640e5b646c24f5994f911042c69688dc6f7"
+    ],
+    "ugc/wag-bag-v2/_git_history/434f3bbba82e_photo_generator.png": [
+     321266,
+     "316bf94fb4bb2045c538e2b1b8ccb106b15983820e1b7d5a34d480b9b9cb2ae0"
+    ],
+    "ugc/wag-bag-v2/_git_history/fa11729026f1_generator.png": [
+     290562,
+     "2d4fada0c8734b5da71b477c96997619a7af7b0b7e4ba1abe312a6d5624d3713"
+    ]
+   },
+   "origins": {
+    "ugc/wag-bag-v2/_git_history/82540270e33a_battery.png": "ugc/wag-bag-v2/photos/cut/battery.png",
+    "ugc/wag-bag-v2/_git_history/414c02c3d50c_water.png": "ugc/wag-bag-v2/photos/cut/water.png",
+    "ugc/wag-bag-v2/_git_history/434f3bbba82e_photo_generator.png": "ugc/wag-bag-v2/emoji/photo_generator.png",
+    "ugc/wag-bag-v2/_git_history/fa11729026f1_generator.png": "ugc/wag-bag-v2/photos/cut/generator.png"
+   },
+   "parts": [
+    {
+     "name": "ugc__wag-bag-v2.history2.part01.tar",
+     "size": 1024000,
+     "sha256": "b2322be3602e675107d22e469fea7501295ebb23034066a0659cf2286faef6c2",
+     "hosted": "2026-10-29",
+     "drive_id": "1wZr9ykKbtoN-myU7qw3KER1clFDllWjX",
+     "drive_folder": "1h4A--smYyPVqn8dX7lNAgD0tJvuUJwKq"
+    }
+   ]
   }
  ]
 }

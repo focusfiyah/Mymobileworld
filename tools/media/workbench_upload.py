@@ -23,6 +23,8 @@ def one(p):
     if p["name"] in results:
         return results[p["name"]]
     fid = folder(p["folder"], folder(p["repo"], ROOTF))
+    if p.get("sub"):                       # git-history sets: "Older versions (from git history)" inside the job folder
+        fid = folder(p["sub"], fid)
     for a in range(3):
         r, e = run_composio_tool("GOOGLEDRIVE_UPLOAD_FROM_URL", {"source_url": p["kie_url"], "name": p["name"],
                                  "parent_folder_id": fid, "mime_type": "application/x-tar"}, account=ACC)

@@ -397,6 +397,51 @@
      "drive_folder": "1CQ25hRWlXJMFX34l7Lt4ELTYk4bIJNdd"
     }
    ]
+  },
+  {
+   "set": 2,
+   "kind": "git-history",
+   "sub": "Older versions (from git history)",
+   "date": "2026-10-29",
+   "files": {
+    "ugc/heveblue-eye-cream/_git_history/f8eeb32e34da__mix.wav": [
+     3076556,
+     "675778917d0c4b6db5fbbe6486292c8fc8a5bc18be5db08823f78e860154d5a6"
+    ],
+    "ugc/heveblue-eye-cream/_git_history/6e18eefe27e0_cut_sheet_v2.jpg": [
+     144321,
+     "b897cbefc0ce4a1e65f83c29e5a75bbc57b18567f10ca68885f902665d63b7a5"
+    ],
+    "ugc/heveblue-eye-cream/_git_history/298c9607bc3a_S1_r1.jpg": [
+     74586,
+     "41758225544bd6ad4ae18f6b7f0817794a1327ff9b3901b55a874c78c32b0f7c"
+    ],
+    "ugc/heveblue-eye-cream/_git_history/f1af623ea27b_S2_r1.jpg": [
+     68822,
+     "2fdc108422c31d038fbc19ce541fe056e5f572177aa659e8c179db2befc71b9e"
+    ],
+    "ugc/heveblue-eye-cream/_git_history/9c4524b0cd50_voiceover_clean.wav": [
+     3024518,
+     "4ee75016ce423394ba6cf1ad589bb89dbdcde6093d676f2d6280fcf010de5f8b"
+    ]
+   },
+   "origins": {
+    "ugc/heveblue-eye-cream/_git_history/f8eeb32e34da__mix.wav": "ugc/heveblue-eye-cream/out/_mix.wav",
+    "ugc/heveblue-eye-cream/_git_history/6e18eefe27e0_cut_sheet_v2.jpg": "ugc/heveblue-eye-cream/review/cut_sheet_v2.jpg",
+    "ugc/heveblue-eye-cream/_git_history/298c9607bc3a_S1_r1.jpg": "ugc/heveblue-eye-cream/review/st/S1_r1.jpg",
+    "ugc/heveblue-eye-cream/_git_history/f1af623ea27b_S2_r1.jpg": "ugc/heveblue-eye-cream/review/st/S2_r1.jpg",
+    "ugc/heveblue-eye-cream/_git_history/9c4524b0cd50_voiceover_clean.wav": "ugc/heveblue-eye-cream/vo/voiceover_clean.wav"
+   },
+   "parts": [
+    {
+     "name": "ugc__heveblue-eye-cream.history2.part01.tar",
+     "size": 6400000,
+     "sha256": "f4e7a2de57d655cfcc733bb63c8064760489841a2227b720c80afb0cb625279a",
+     "hosted": "2026-10-29",
+     "drive_id": "10Bv-lnRXcDaxxCNZ7VofeLNEc6gz_H3Z",
+     "drive_folder": "1O-E50nxxe2g_NMil32tiM9cS4niJAmct"
+    }
+   ]
   }
  ]
 }
