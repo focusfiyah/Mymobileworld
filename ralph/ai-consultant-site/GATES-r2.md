@@ -52,5 +52,5 @@ MP = ralph/ai-consultant-site/r2
 ## Apps section (Ralph 2026-10-29: "mention that we develop apps, like the RAM app we will be developing")
 - [x] G12: the live page has an Apps section that names RAM and marks it as in development (nothing built yet, so no "running since")
   CHECK: curl -s https://focusfiyah.github.io/ | grep -c 'id="apps"\|In development\|Ready Avatar Motion\|<span>Apps</span>'
-  EXPECT: 4
-  EVIDENCE: met 2026-10-29: section + "In development" tag + "Coming soon" card + Apps in the band; all 9 site checks pass after it (detector caught grey text on the yellow card, fixed)
+  EXPECT: 5
+  EVIDENCE: met 2026-10-29: 5 matching lines (section, "In development" tag, card, Apps twice in the band); section + "In development" tag + "Coming soon" card + Apps in the band; all 9 site checks pass after it (detector caught grey text on the yellow card, fixed)
