@@ -48,9 +48,11 @@ def clip(k):
     return J / f if f else J / f"clips/{k}_sd.mp4"
 
 
-def piece(src, start, length, out, grade):
+def piece(src, start, length, out, grade, zoom=None):
+    """zoom = (factor, x-centre 0..1, y-centre 0..1): a free crop from cut.json, e.g. to keep a removed item out of frame."""
+    pre = f"crop=iw/{zoom[0]}:ih/{zoom[0]}:(iw-iw/{zoom[0]})*{zoom[1]}:(ih-ih/{zoom[0]})*{zoom[2]}," if zoom else ""
     run(["ffmpeg", "-v", "error", "-y", "-ss", f"{start:.3f}", "-i", str(src), "-t", f"{length:.3f}", "-an",
-         "-vf", f"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps={FPS},{grade},setsar=1",
+         "-vf", f"{pre}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps={FPS},{grade},setsar=1",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "4", str(out)])
 
 
@@ -70,9 +72,11 @@ def build(v):
             plan += [(src, t0, head)] + [(clip(h), min(dur(clip(h)), 4.0) - run_len - 0.15, run_len) for h in runs]
         else:
             plan.append((src, t0, length))
+    plan_main = {k: i for i, k in enumerate(rows)}   # piece index of each shot's main use (zoom applies there only)
     for i, (src, st, ln) in enumerate(plan):
         if st + ln > dur(src) + 1e-3: sys.exit(f"{src.name}: needs {st + ln:.2f}s, has {dur(src):.2f}s (fix cut.json)")
-        out = tmp / f"{i:02d}.mp4"; piece(src, st, ln, out, GRADE[v]); parts.append(out)
+        z = next((CUT[k].get("zoom") for k in CUT if isinstance(CUT[k], dict) and src.name == f"{k}_sd.mp4" and i == plan_main.get(k)), None)
+        out = tmp / f"{i:02d}.mp4"; piece(src, st, ln, out, GRADE[v], z); parts.append(out)
     (tmp / "list.txt").write_text("".join(f"file '{p}'\n" for p in parts))
     raw = J / f"out/{v}_raw.mp4"
     run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"), "-i", str(VO),

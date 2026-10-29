@@ -39,6 +39,7 @@ for v, (name, place, main, dress) in LOOK.items():
 prompts = "".join(f'<details><summary>{k} · {e(L[k].replace(" (TEST CLIP)", ""))}</summary><p class="pl">Still ({len(s["still_refs"])} refs: {", ".join(r.split("/")[-1] for r in s["still_refs"])})</p>'
                   f'<pre>{e(s["still"])}</pre><p class="pl">Clip (Omni 4 s; image 1 = the approved still)</p><pre>{e(s["clip"])}</pre></details>' for k, s in S.items())
 
+CUTS2 = "".join(f'<figure class="cut"><video src="media/{v}_v2.mp4" controls playsinline preload="metadata"></video><figcaption>{v} {LOOK[v][0]} v2</figcaption></figure>' for v in LOOK)
 CUTS = "".join(f'<figure class="cut"><video src="media/{v}_v1.mp4" controls playsinline preload="metadata"></video><figcaption>{v} {LOOK[v][0]}</figcaption></figure>' for v in LOOK)
 SB = "".join(f'<figure class="sb"><img src="img/sb_{v}.jpg" alt="{v} storyboard, 11 stills" loading="lazy"><figcaption>{v} {LOOK[v][0]}: A to K left to right, top row then bottom</figcaption></figure>' for v in LOOK)
 page = f"""<title>Vans V13–V17 Review</title>
@@ -95,9 +96,13 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 @media (max-width:620px){{.media{{grid-template-columns:1fr}} .media video{{max-width:240px}} .looks{{grid-template-columns:repeat(2,minmax(0,1fr))}} .looks dl{{grid-column:1/-1}}}}
 </style>
 <main class="wrap">
-<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Cut v1 of all five below.</p></header>
+<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Cut v2 of all five below.</p></header>
 
-<div class="ask"><strong>Cut v1: all five videos. Your review + one redo question</strong>
+<div class="ask"><strong>Cut v2: all five videos, ready for your OK</strong>
+<div>The 4 redos are in ($0.66): the V14 walk keeps her feet under the camera, the V16 pair holds still, and V16/V17 use only the steady part of their holds. I also caught Grace's blue band on her wrist in V16's last shot (a removed item) and cropped it out free. QC on all five: audio = Grace's VO, no flashes or dark frames, every REMOVED.md item checked. Spent $16.07 of $24.30.</div>
+<ol><li>Approve the five, and I'll put them in Drive "Vans sequin (Grace)" as CURRENT - Vans V13 to V17 with the captions.</li><li>Or tell me what to change.</li></ol>
+<div class="cuts">{CUTS2}</div></div>
+<div class="ask"><strong>Cut v1 (replaced by v2)</strong>
 <div>Each cut is 27.5 s on Grace's own voice, in Grace's edit style (hand shot first, cuts on each phrase, a quick hand-shot close). My QC: audio matches her VO exactly, no flashes or dark frames, levels OK, clean edges at 2x on every first second, cut gate OK. Spent $15.41 of $24.30.</div>
 <ol><li><strong>4 shots still in these cuts fail my check</strong> and need a redo, $0.66 (4 × $0.164): V14 at 16.1–19.8 s (feet drift away on the walk), V16 at 2.8–5.2 s (the held pair turns), V16 at 19.8–22.1 s and V17 at 19.8–22.1 s (the held shoe rotates). OK to redo them?</li>
 <li>Anything else you want changed in the five cuts?</li></ol>

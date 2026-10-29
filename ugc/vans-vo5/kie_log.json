@@ -3429,5 +3429,109 @@
    ]
   },
   "costTime": 90
+ },
+ {
+  "t": "2026-10-29 05:35:18",
+  "submitted": "348ecd053f813c370c365502e255e99c",
+  "prompt": "Start exactly on the first frame and keep the place, light and framing, her skin, soft grey cotton joggers cuffed just a"
+ },
+ {
+  "t": "2026-10-29 05:35:20",
+  "submitted": "dca43d5c85f9228ef709525191ef695f",
+  "prompt": "Start exactly on the first frame and keep the place, light and framing, her hands, long pink French-tip nails, rings, br"
+ },
+ {
+  "t": "2026-10-29 05:35:22",
+  "submitted": "a4207caeba604925e649a335ddbf465d",
+  "prompt": "Start exactly on the first frame and keep the place, light and framing, her hands, long pink French-tip nails, rings, br"
+ },
+ {
+  "t": "2026-10-29 05:36:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep the place, light and framing, her hands, long pink French-tip nails, rings, bracelets and the blue band on her finger (never on her wrist) exactly as they are in it. The shoe never changes: black and off-white checkerboard, only the black squares are raised black sequins, the off-white squares plain canvas, the toe checkerboard too; black collar binding and black laces; the white OFF THE WALL heel label keeps its black print; off-white rubber sidewall. Her feet are out of frame; the two held shoes are the only shoes in the scene. Toe direction stays as in the first frame the whole clip: both toes pointing away from the lens. Motion: both hands hold the pair still at the same angle with only a tiny 1 cm bob; the heels keep facing the camera the whole clip; the shoes never turn, tilt or show their sides. Camera: locked off. Only the hands already in the first frame, five fingers each, whole wrists. Vertical 9:16 phone footage, bright neutral window daylight, realistic. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1793250415956-06xn385kuai9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "dca43d5c85f9228ef709525191ef695f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793252204642-j2verqsfif.mp4"
+   ]
+  },
+  "costTime": 90
+ },
+ {
+  "t": "2026-10-29 05:36:50",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep the place, light and framing, her hands, long pink French-tip nails, rings, bracelets and the blue band on her finger (never on her wrist) exactly as they are in it. The shoe never changes: black and off-white checkerboard, only the black squares are raised black sequins, the off-white squares plain canvas, the toe checkerboard too; black collar binding and black laces; the small black side tab keeps its white VANS letters sharp and readable; off-white rubber sidewall. Her feet are out of frame; this one shoe is the only shoe in the scene. Toe direction stays as in the first frame the whole clip: toe pointing to the RIGHT edge. Motion: the hand lifts the shoe straight up about 3 cm and holds it there; the shoe keeps exactly the angle it has in the first frame, it never turns, tilts or swings. Camera: locked off. Only the hands already in the first frame, five fingers each, whole wrists. Vertical 9:16 phone footage, bright neutral window daylight, realistic. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1793250467353-e8tnkz11n5b.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a4207caeba604925e649a335ddbf465d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793252203502-bj1d4zxam.mp4"
+   ]
+  },
+  "costTime": 87
+ },
+ {
+  "t": "2026-10-29 05:36:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep the place, light and framing, her skin, soft grey cotton joggers cuffed just above the ankle bone and anklet exactly as they are in it. The shoe never changes: black and off-white checkerboard, only the black squares are raised black sequins, the off-white squares plain canvas, the toe checkerboard too; black collar binding and black laces; the small black side tab keeps its white VANS letters sharp and readable; off-white rubber sidewall. She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene. Toe direction stays as in the first frame the whole clip: both toes pointing to the TOP edge of the frame. Motion: she takes two slow steps forward and the camera moves with her at exactly her pace, so both shoes stay at the bottom of the frame, the same size and close to the lens the whole clip, while the path slides down under them; both feet point forward; no hand appears at any time. Camera: moves forward with her. Vertical 9:16 phone footage, bright neutral daylight, realistic. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1793250209434-ibux6bzdl8.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "348ecd053f813c370c365502e255e99c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793252216019-jmsedn44f8e.mp4"
+   ]
+  },
+  "costTime": 106
+ },
+ {
+  "t": "2026-10-29 05:37:08",
+  "submitted": "d5bbcb5c85dbe0630bd93a0278b65e2f",
+  "prompt": "Start exactly on the first frame and keep the place, light and framing, her hands, long pink French-tip nails, rings, br"
+ },
+ {
+  "t": "2026-10-29 05:38:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep the place, light and framing, her hands, long pink French-tip nails, rings, bracelets and the blue band on her finger (never on her wrist) exactly as they are in it. The shoe never changes: black and off-white checkerboard, only the black squares are raised black sequins, the off-white squares plain canvas, the toe checkerboard too; black collar binding and black laces; the small black side tab keeps its white VANS letters sharp and readable; the white OFF THE WALL heel label keeps its black print; off-white rubber sidewall. Her feet are out of frame; this one shoe is the only shoe in the scene. Toe direction stays as in the first frame the whole clip: toe pointing to the RIGHT edge. Motion: the hand lifts the shoe straight up about 3 cm and holds it there; the shoe keeps exactly the angle it has in the first frame, it never turns, tilts or swings. Camera: locked off. Only the hands already in the first frame, five fingers each, whole wrists. Vertical 9:16 phone footage, bright neutral window daylight, realistic. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1793250537725-szb6z9bwxtf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "d5bbcb5c85dbe0630bd93a0278b65e2f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793252319277-1i7i00j7mr9.mp4"
+   ]
+  },
+  "costTime": 93
  }
 ]

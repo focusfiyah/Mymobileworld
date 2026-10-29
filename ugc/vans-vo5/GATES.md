@@ -35,22 +35,27 @@ video with its own places, outfits, shots, order and framing; QC'd, AI-finished,
   EVIDENCE: https://claude.ai/artifact/SK6yEMLyJ45i2UcoofCJ5s v1 (video + mp3 + 10 place photos + 55 shot rows + 110 prompts); PushNotification "Mobile push requested"; Gmail id 1a185b34ad0fa812 sent 2026-10-29
 
 ## Phase 2: make (after Ralph's OK on BOOK.md)
-- [ ] G8: Production Book approved by Ralph before any paid call
+- [x] G8: Production Book approved by Ralph before any paid call
   CHECK: cd /home/user/Mymobileworld && python3 grace/gate.py ugc/vans-vo5 2>&1
   EXPECT: BOOK: approved
-- [ ] G9: 55 stills exist and passed QC (2 shoes max, grip, five fingers, correct side of the pair, logos vs close-ups)
+  EVIDENCE: automatic-evidence=v1; definition-sha256=536b6b6b4aaef5f8f27931aac28512e71eedd49d73a41d54c98b156e0c838ab8; exit=0; EXPECT=matched; output-sha256=2e5e607b0a9c874d136a73ee1418601852edf5361c18d774956e7bb6d660ee81; output-bytes=88; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
+- [x] G9: 55 stills exist and passed QC (2 shoes max, grip, five fingers, correct side of the pair, logos vs close-ups)
   CHECK: python3 tools/check.py stills
   EXPECT: STILLS_OK
-- [ ] G10: 55 clips exist
+  EVIDENCE: automatic-evidence=v1; definition-sha256=1a0835c33ae58410fe0325b70fd86c37f9353990b52da84eadf3a90deebfeca9; exit=0; EXPECT=matched; output-sha256=3e4cefd4e84028c7541d488567d9183bc4f81181266f3f1ef912b44d4960d51b; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
+- [x] G10: 55 clips exist
   CHECK: python3 tools/check.py clips
   EXPECT: CLIPS_OK
-- [ ] G11: 5 final cuts, 1080x1920, length within 0.2 s of the VO, audio = Grace's VO
+  EVIDENCE: automatic-evidence=v1; definition-sha256=ce6569917d0389660a5f02e74b1b762252c2f0cf47192f877d1a6d76f837a6e7; exit=0; EXPECT=matched; output-sha256=e4543291756688621fb6b61d03da089b559a00890565e641b0d68b66a9359fd1; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
+- [x] G11: 5 final cuts, 1080x1920, length within 0.2 s of the VO, audio = Grace's VO
   CHECK: python3 tools/check.py cuts
   EXPECT: CUTS_OK
-- [ ] G12: Cut gate (compare vs Grace's post, no text) passes
+  EVIDENCE: automatic-evidence=v1; definition-sha256=3b78ffe6c188a08e855c048ec20d98e47bfb4f017c88ccb5c9f7bd063841cd59; exit=0; EXPECT=matched; output-sha256=2d4f718d2719eaa1a3c77703b75c5837a814a3f128ef9fb997f420c4c8562304; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
+- [x] G12: Cut gate (compare vs Grace's post, no text) passes
   CHECK: cd /home/user/Mymobileworld && python3 grace/gate.py ugc/vans-vo5 --stage cut 2>&1
   EXPECT: GATE OK
-- [ ] G13: QC on every cut: 2x edges, first second, no held-shoe turn or flip, max 2 shoes, logos vs close-ups, REMOVED.md, verify_fix (flash, sync, levels)
-  EVIDENCE: pending
+  EVIDENCE: automatic-evidence=v1; definition-sha256=b79dea976e72e1b6067f0f2881fee2fa2d5b070e23fdd59b15c85cefea9c7d7a; exit=0; EXPECT=matched; output-sha256=2e5e607b0a9c874d136a73ee1418601852edf5361c18d774956e7bb6d660ee81; output-bytes=88; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-vo5; path=7f4fb4b02918/15 entries
+- [x] G13: QC on every cut: 2x edges, first second, no held-shoe turn or flip, max 2 shoes, logos vs close-ups, REMOVED.md, verify_fix (flash, sync, levels)
+  EVIDENCE: qc/QC.md (2026-10-29): tools/cutqc.py CUTQC_OK x5 (sync r 1.000, peak -3.3 dB); clip strips, 2x first seconds, replaced windows, blue-band scan; every REMOVED.md row checked; V16K wrist band found and cropped out
 - [ ] G14: Drive "Vans sequin (Grace)" has CURRENT - Vans V13..V17 + captions, sizes match, link in README
   EVIDENCE: pending

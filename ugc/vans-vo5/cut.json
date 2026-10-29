@@ -18,12 +18,30 @@
    "I"
   ],
   "V16": [
-   "A"
+   "A",
+   "B"
   ],
   "V17": [
    "A",
    "D"
   ]
  },
- "_run_why": "2026-10-29 QC: only tails where her hand still holds the moving shoe (V13I tail was a still life); V16/V17 add their redo shots after the redo"
+ "_run_why": "2026-10-29 QC: only tails where her hand still holds the moving shoe (V13I tail was a still life); V16/V17 add their redo shots after the redo",
+ "V16I": {
+  "from": 1.5,
+  "why": "r2 redo: settles from insole-up to side-on by 1.5 s, then holds steady (QC 2026-10-29)"
+ },
+ "V17I": {
+  "from": 1.65,
+  "why": "r2 redo: tilts up by ~1.6 s, then holds steady (QC 2026-10-29)"
+ },
+ "V16K": {
+  "from": 0.75,
+  "zoom": [
+   1.28,
+   0.55,
+   0.0
+  ],
+  "why": "blue band on the wrist (removed item) at the bottom edge + insole-to-side turn before 0.7 s: start 0.75 s, crop 1.28x from the top (QC 2026-10-29)"
+ }
 }
