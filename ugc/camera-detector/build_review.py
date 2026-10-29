@@ -82,12 +82,11 @@ td {{ border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; 
 @media (max-width:480px) {{ .shb {{ grid-template-columns:1fr; }} .shb img {{ width:100%; max-width:220px; }} }}
 </style>
 <div class="wrap">
-<header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; plan &middot; 2026-10-28 &middot; nothing spent yet</span>
+<header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; approved 2026-10-29 &middot; stills round 1</span>
 <h1>Hidden Camera Detector, black</h1>
 <p>Hands + hand-free AI video over Grace's cloned voice, about 34 s, 11 shots, no face. The hook shows the one thing none of the winners show: how to use it. Look through the window and a hidden lens shines back as a red dot.</p></header>
-<div class="ask"><b>Your OK on the plan + 7 quick answers</b><span>TOTAL ${total} (expected about $1.41 with Flow). No paid call runs before your OK.</span></div>
 {STORY}
-<section><h2>Questions</h2><ol class="q">{q_html}</ol></section>
+<section><h2>Your answers (2026-10-29)</h2><p>Grace; no bracelet; S5 red view kept; S8 night; straight to Kie; no 2-pack, so line 8 says "grab two"; no on-screen text.</p><details><summary>The questions</summary><ol class="q">{q_html}</ol></details></section>
 <section><h2>Script, Grace cloned v5</h2><ol class="script">{script_html}</ol>
 <p class="note">Hook H105 from Grace's library (options B H028, C H132 in research/hooks.md). Reading grade 4.9. Gate: GATE OK. No price, no on-screen text, no "order it now". Caption: Nobody shows you this part 👀 Look through the little window and a hidden lens shines back red. Then hang it on the door at night. #ad #cameradetector #travelsafety #hotelsafety #airbnb #tiktokshopfinds</p>
 <div class="flag"><b>Flag:</b> both your examples say it beeps the second it finds a camera. Nothing on the box or listing backs that, and buyers ask "why does mine not beep?" (the listing sits at 3.7 stars, mostly from people who never looked through the window). Our script never claims it.</div></section>
