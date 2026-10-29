@@ -13,7 +13,7 @@ MD = (HERE.parent / "AGENT.md").read_text()
 CFG = HERE / "agent.json"
 API = "https://api.elevenlabs.io/v1/convai"
 VOICE = "EXAVITQu4vr4xnSDxMaL"            # Sarah, premade
-TRANSFER = "+17864963177"                 # Ralph (AGENT.md, 2026-10-26)
+TRANSFER = "+15164696970"                 # Ralph (2026-10-29: changed from 786-496-3177)
 SPOKEN_LINK = "calendly dot com, slash team R R G R P, slash thirty min"
 
 

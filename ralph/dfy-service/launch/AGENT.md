@@ -1,13 +1,13 @@
 # Always Answered - Front Desk (our own line, inbound only, DRAFT v1 2026-10-26)
 
-Status: BUILT 2026-10-29 in ElevenLabs as "Always Answered - Front Desk" agent_9001m6504b34ft0tqkvzndktcpjw (premade voice Sarah, New York time, temperature 0, LLM qwen35-397b-a17b like Jean's line, conference transfer to +17864963177, end_call; builder agent/build_agent.py, --update after edits). Number: (516) 788-7489 bought by Ralph 2026-10-29, waiting on his import into ElevenLabs (Twilio SID + token are his to type). Then: assign the agent, 2 test calls, switch on the site's call buttons. APPROVED by Ralph 2026-10-26 (name Always Answered; transfer to 786-496-3177, 10 am-6 pm Mon-Sat; after hours: booking page only, no callbacks).
+Status: BUILT 2026-10-29 in ElevenLabs as "Always Answered - Front Desk" agent_9001m6504b34ft0tqkvzndktcpjw (premade voice Sarah, New York time, temperature 0, LLM qwen35-397b-a17b like Jean's line, conference transfer to +15164696970 (changed from 786-496-3177 on Ralph's word 2026-10-29), end_call; builder agent/build_agent.py, --update after edits). Number: (516) 788-7489 bought by Ralph 2026-10-29, waiting on his import into ElevenLabs (Twilio SID + token are his to type). Then: assign the agent, 2 test calls, switch on the site's call buttons. APPROVED by Ralph 2026-10-26 (name Always Answered; transfer to 786-496-3177, changed to 516-469-6970 on 2026-10-29, 10 am-6 pm Mon-Sat; after hours: booking page only, no callbacks).
 This agent answers OUR business line. It is the live demo: owners call it to hear what their own assistant would sound like.
 Built the same way as Jean's line ([[Diaspo Phone Assistant]], jean-rameau `diaspo-auto-school/agent/inbound.md`): ElevenLabs agent,
 premade voice (never Ralph's or a client's clone), Twilio number imported in ElevenLabs, transfer tool to Ralph, end_call tool.
 Lessons carried over from Jean's line: check the hour with {{system__time_hour}} before any transfer, call the transfer tool once,
 never argue about names, never say a service is "not offered" unless listed.
 
-Ralph's answers (2026-10-26): name Always Answered; transfer target +17864963177; hours 10 am to 6 pm Monday to Saturday (New York);
+Ralph's answers (2026-10-26): name Always Answered; transfer target +15164696970 (2026-10-29; was +17864963177); hours 10 am to 6 pm Monday to Saturday (New York);
 after-hours callers are sent to the booking page, never promised a callback. BOOKING_LINK = https://calendly.com/teamrrgrp/30min (15-minute Google Meet event, checked 2026-10-28; the link still ends /30min). Still open: our Twilio number.
 
 ## First message (spoken)
