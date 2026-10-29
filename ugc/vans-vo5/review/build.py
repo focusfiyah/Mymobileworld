@@ -96,9 +96,11 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 @media (max-width:620px){{.media{{grid-template-columns:1fr}} .media video{{max-width:240px}} .looks{{grid-template-columns:repeat(2,minmax(0,1fr))}} .looks dl{{grid-column:1/-1}}}}
 </style>
 <main class="wrap">
-<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Cut v3 below.</p></header>
+<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Approved 29 Oct 2026 and delivered to Drive.</p></header>
 
-<div class="ask"><strong>Cut v3: V14 and V17 fixed, ready for your OK</strong>
+<div class="ask"><strong>Delivered 29 Oct: approved and in Drive</strong>
+<div>All five are in Drive "Vans sequin (Grace)" as CURRENT - Vans V13 to V17, with the captions doc: <a href="https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_">open the folder</a>. Kie $16.83 of $24.30.</div></div>
+<div class="ask"><strong>Cut v3: V14 and V17 fixed (approved)</strong>
 <div>Your notes, fixed ($0.76): V14's pair-on-the-floor shot redone with checkerboard all over (the only black left is the real heel stripe), V14's walk now steps toward the camera and then cuts to her side-on step on the path, and V17's walk is a side-on walk on the boardwalk with real steps. Nothing slides. V13, V15, V16 unchanged.</div>
 <ol><li>Approve, and I'll put all five in Drive "Vans sequin (Grace)" as CURRENT - Vans V13 to V17 with the captions.</li></ol>
 <div class="cuts"><figure class="cut"><video src="media/V14_v3.mp4" controls playsinline preload="metadata"></video><figcaption>V14 Bedroom v3</figcaption></figure><figure class="cut"><video src="media/V17_v3.mp4" controls playsinline preload="metadata"></video><figcaption>V17 Kitchen v3</figcaption></figure></div></div>
