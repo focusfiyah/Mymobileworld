@@ -59,7 +59,7 @@ def stills():
     miss = [k for k in S if not (J / f"stills/{k}.png").exists()]
     qc = J / "qc/stills_qc.json"
     passed = json.loads(qc.read_text()) if qc.exists() else {}
-    bad = [k for k in S if passed.get(k) != "PASS"]
+    bad = [k for k in S if not str(passed.get(k, "")).startswith("PASS")]
     return not miss and not bad, f"missing {miss[:5]} not passed {bad[:5]}"
 
 

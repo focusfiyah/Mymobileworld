@@ -95,8 +95,15 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 <main class="wrap">
 <header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Round 1 stills below.</p></header>
 
-<div class="ask"><strong>Storyboard, round 1: your call</strong>
-<div>46 of 55 stills pass my check. 9 failed and are redone with fixed prompts: <span class="total">$0.81</span> (9 × $0.09). Then the one test clip, V14B (her hand tightening the lace bow), <strong>$0.315</strong>. Spent so far $4.95 of the $24.30 cap.</div>
+<div class="ask"><strong>Test clip V14B: failed my check, your call</strong>
+<div>The 9 redone stills all pass. The V14B test clip on Omni ($0.315) fails: the side tab reads "VANDO", the black squares came out as scribbled outlines instead of sequins, the hands lost Grace's long French tips and bracelets, and the blue band sits on her wrist (a removed item). Omni on Kie also re-framed the shot instead of starting from our still. Spent $6.07 of $24.30.</div>
+<ol>
+<li>Test V14B again two ways, side by side, then run the other 54 on the winner: Seedance 2.0 Mini starting from our exact still ($0.164) and Omni with a fixed prompt (Grace's hand reference added, band stays on her finger) ($0.315). Both: <strong>$0.48</strong>.</li>
+<li>If Seedance wins, the 54 clips cost $8.86 instead of $17.01.</li>
+</ol>
+<div class="media"><video src="media/V14B_omni.mp4" controls playsinline muted preload="metadata"></video><figure class="sb"><img src="img/V14B_2x.jpg" alt="V14B test clip at 2x: garbled side tab, outline squares, short nails, blue band"><figcaption>2x at 0.0, 1.5, 2.4, 3.5 s</figcaption></figure></div></div>
+<div class="ask"><strong>Storyboard, round 1</strong>
+<div>Done: the 9 failed stills were redone ($0.81) and all pass (sheet below).</div>
 <ol>
 <li>OK to redo the 9 stills ($0.81) and run the V14B test clip ($0.315)?</li>
 <li>Anything in the 46 passing stills you want changed before the clips? (A free swap now saves a paid clip later.)</li>
