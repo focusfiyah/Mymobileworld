@@ -21,3 +21,9 @@ Look checks: every clip strip at 2 fps (qc/clips_V1x.jpg), the failing ones at 4
 | Held shoe from the wrong side of the pair | Side-on holds show the outer side with the tab, as written. |
 | Solid black sequin toe | Four stills redone (r2); none in the clips. |
 | Empty worn shoe | Fixed in the r2 stills (V14H, V16J). |
+
+## Cut v3 (2026-10-29, Ralph's v2 notes: V14 solid black side, V14/V17 feet dragging)
+- V14E: new still + Seedance clip; checkerboard on both shoes' toes and sides, the only black at the back is the real heel stripe.
+- V14H: new still + clip (walk toward camera). The clip walks backwards for its first 2 s, so only 2.0-3.9 s is used, then the line's second half ("so you're getting...") cuts to V14G's unused side-on step 1.0-2.86 s. Free.
+- V17H: new still + clip, side tracking walk on the boardwalk; heels lift, nothing slides.
+- CUTQC_OK V14, V17. V13, V15, V16 unchanged (Ralph: "Others are fine").

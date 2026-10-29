@@ -70,6 +70,11 @@ def build(v):
             runs = [v + b for b in CUT.get("_run", {}).get(v, [])] or hands[-3:]   # tails QC'd: her hand still holds the moving shoe
             head = max(0.9, length - len(runs) * 0.42); run_len = (length - head) / len(runs)
             plan += [(src, t0, head)] + [(clip(h), min(dur(clip(h)), 4.0) - run_len - 0.15, run_len) for h in runs]
+        elif CUT.get(k, {}).get("parts"):   # one window from two clean pieces: [[file, from, len], [file, from, null = the rest]]
+            used = 0.0
+            for f, st, ln in CUT[k]["parts"]:
+                ln = ln if ln is not None else length - used
+                plan.append((J / f, st, ln)); used += ln
         else:
             plan.append((src, t0, length))
     plan_main = {k: i for i, k in enumerate(rows)}   # piece index of each shot's main use (zoom applies there only)

@@ -43,5 +43,20 @@
    0.0
   ],
   "why": "blue band on the wrist (removed item) at the bottom edge + insole-to-side turn before 0.7 s: start 0.75 s, crop 1.28x from the top (QC 2026-10-29)"
+ },
+ "V14H": {
+  "parts": [
+   [
+    "clips/V14H_sd.mp4",
+    2.0,
+    1.9
+   ],
+   [
+    "clips/V14G_sd.mp4",
+    1.0,
+    null
+   ]
+  ],
+  "why": "r3 clip walks backwards toward the camera for 2 s, then forward 2.0-3.9 s: use the forward 1.9 s, then cut on 'so you're getting...' to V14G's unused side-on step (QC 2026-10-29)"
  }
 }

@@ -3,7 +3,7 @@
 Ask (Ralph 2026-10-29): "Grace wants 5 more ai videos of this. Use the audio from the link as the VO and match the visuals. Different visuals for each video." https://www.tiktok.com/t/ZPLDRH7Rk = Grace's own post (@shewiththeglow 7699252578239925535, 27.6 s, 535 views).
 Same shoe as `ugc/vans-sequin-authentic/` (V1-V11) and `ugc/vans-sequin-v12/`; refs, research and REMOVED.md copied from there. Route: hands + feet AI, product lock (Omni on Kie or Ralph's Flow), 11 shots per video on the same 11 word windows, own places/outfits/shot ideas per video.
 
-Status: CUT V2 SENT 2026-10-29, waiting on Ralph OK: out/V13..V17.mp4 (4 redos in, V16K wrist band cropped free), QC qc/QC.md, cut gate OK. Spent $16.07 of $24.30. Next on OK: Drive "Vans sequin (Grace)" CURRENT - Vans V13..V17 + captions doc.
+Status: CUT V3 SENT 2026-10-29 (V14E, V14H, V17H fixed per Ralph; V13/V15/V16 approved as is), waiting on OK for Drive. Spent $16.83 of $24.30.
 Review page: https://claude.ai/artifact/SK6yEMLyJ45i2UcoofCJ5s
 Drive: Grace Tiktok assets/"Vans sequin (Grace)" https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_ (V13-V17 go here).
 
