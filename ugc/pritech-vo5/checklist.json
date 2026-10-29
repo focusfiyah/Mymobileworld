@@ -90,5 +90,25 @@
   "total": 14.34,
   "sha256": "ba6f2744635f5be2dc8bbf541bc3901b437ec96ac1a33ba7ae9b93ce25a813f5",
   "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.135,
+   "what": "6 still redos V5S1 V5S7 V6S4 V6S5 V7S2 V8S5 (6 x 0.09 = 0.54; 0.405 from the book's redo line, 0.135 over)",
+   "by": "Ralph",
+   "quote": "Yes",
+   "date": "2026-10-29",
+   "book_sha256": "ba6f2744635f5be2dc8bbf541bc3901b437ec96ac1a33ba7ae9b93ce25a813f5"
+  }
+ ],
+ "compare": {
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/V5/compare/compare.md",
+   "research/compare/V6/compare/compare.md",
+   "research/compare/V7/compare/compare.md",
+   "research/compare/V8/compare/compare.md",
+   "research/compare/V9/compare/compare.md"
+  ]
  }
 }

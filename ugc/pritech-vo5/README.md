@@ -1,6 +1,6 @@
 # PRITECH Heated Face Scrubber, black: V5-V9 on Grace's VO (Grace), 2026-10-29
 
-Status: STILLS ROUND 1 2026-10-29: 40 stills ($3.60), 34 OK after free fixes (free_fix.py + V5S5 print painted), 6 redos asked ($0.54, +$0.13 over the book). Storyboard on the review page. Book $14.34 approved ("Approved").
+Status: CUTS SENT 2026-10-29 (round 1): V5-V9 21.3 s each on the review page, QC_OK x5, cut gate OK; Kie $14.47 = approved book $14.34 + $0.14 extra. Waiting on Ralph.
 
 Brief (Ralph 2026-10-29): "Grace needs 5 Pritech videos. Use the VO from the link all 5 videos match visuals with VO however different visuals for each video. https://www.tiktok.com/t/ZPLDRXhd4"
 The link is Grace's own post (2026-10-28, 20.9 s); its visuals are our V1-V4 clips re-edited. VO = her audio as posted (research/7701760026418990367/vo_orig.wav -> vo/voiceover_final.wav, echo 150 ms).

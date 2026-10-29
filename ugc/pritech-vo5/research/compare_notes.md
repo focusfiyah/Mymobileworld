@@ -1,8 +1,9 @@
-# Coach compare (2026-10-27): our cuts vs @joshjshowcase 2.7M PRITECH (https://www.tiktok.com/@joshjshowcase/video/7693622417079520542)
-research/compare/V2/compare/compare.md, research/compare/V4/compare/compare.md V3: research/compare/V3/compare/compare.md (19.4 s, 3.1 cuts per 10 s; opens on the brush, so no punch-in added: the clip pushes in by itself).
-- Length: winner 22.0 s; ours V2 18.4 s, V4 18.6 s. OK (Ralph's 15-20 s).
-- Pace: winner 4.6 cuts per 10 s and 3 shots in its first 3 s; ours 3.3 (V2) and 2.7 (V4), and each hook held one shot for ~4 s.
-  Fixed (free): each hook now cuts at 2.0 s to a 1.3x punch-in on the makeup smears (cut.py SPLIT), so the first 3 s carry 2 framings.
-- Frame 0: winner shows the product at frame 0; our V2/V4 hooks show the pain (towel, pillowcase) and the brush arrives at 6-8 s. Kept: the hooks
-  are about the towel and the pillowcase (Ralph: visuals match the script). V3 opens on the brush.
-- Words/sec: winner 4.73 (on-screen captions); ours ~3.5 (Grace's voice pace). Our transcript needs --stt (paid ElevenLabs), not run.
+# Compare vs the top PRITECH winner (2026-10-29)
+
+A = @joshjshowcase 7693622417079520542 (2.8M views, 22.0 s, 104 words, 4.73 words/sec, 10 cuts = 4.6 per 10 s, product on a face from 0 s).
+B = our V5-V9 (21.3 s each, Grace's VO 89 words = 4.26 words/sec, 8 shots = 7 cuts = 3.3 per 10 s; the detector counts 6 because push-ins blend).
+- Length and pace: within 1 s and 0.5 words/sec of the winner. Kept (the VO is Grace's, fixed).
+- Cuts: ours a little slower (one shot per VO beat, 1.3-3.0 s). Not changed: Ralph asked for visuals that match each line, and every beat already has its own shot.
+- Hook: the winner opens on hands and a face; ours open on the brush in frame from 0 s in all five (each a different look), as Grace's own post does. No text (Ralph: no on-screen text).
+- Nothing fixed from this compare.
+Files: research/compare/V5..V9/compare/compare.md + compare.png.

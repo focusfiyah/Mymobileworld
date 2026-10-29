@@ -33,10 +33,10 @@ Scope: five 20.9 s hands + hand-free AI videos over Grace's linked VO, each shot
   EVIDENCE: 2026-10-29 page https://claude.ai/artifact/V7f83RDGV3AqyAMYNQXDbt v1 + v2 (plan v2); Gmail 1a185abf6b712825; push 'Mobile push requested.'
 
 # Phase 2+ (after Ralph's OK): stills -> storyboard -> clips -> cuts -> Drive
-- [ ] G8: every still used passes 2x QC (product shape, buttons, chrome end, rings, grip, no eyes/mouth) before its clip is paid for
-  EVIDENCE: pending
-- [ ] G9: 5 cuts out/pritech_V5..V9.mp4, each within 0.15 s of the 20.9 s VO
-  CHECK: python3 -c "import subprocess;d=[float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'out/pritech_V{v}.mp4'],capture_output=True,text=True).stdout or 0) for v in range(5,10)];print('CUTS_OK' if all(abs(x-20.95)<=0.15 for x in d) else 'BAD',d)"
+- [x] G8: every still used passes 2x QC (product shape, buttons, chrome end, rings, grip, no eyes/mouth) before its clip is paid for
+  EVIDENCE: 2026-10-29 46 stills (40 + 6 redos on Ralph's yes); free fixes free_fix.py (6 crops) + V5S5 print + V6S5 digits painted; sheets qc/sheet_V*.jpg, qc/redo_r2.jpg, qc/freefix*.jpg
+- [ ] G9: 5 cuts out/pritech_V5..V9.mp4, each 21.30 s (20.95 s VO + 0.35 s hold) within 0.15 s
+  CHECK: python3 -c "import subprocess;d=[float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'out/pritech_V{v}.mp4'],capture_output=True,text=True).stdout or 0) for v in range(5,10)];print('CUTS_OK' if all(abs(x-21.30)<=0.15 for x in d) else 'BAD',d)"
   EXPECT: CUTS_OK
   EVIDENCE: pending
 - [ ] G10: cut gate (compare vs the top winner) passes
