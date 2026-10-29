@@ -39,6 +39,7 @@ for v, (name, place, main, dress) in LOOK.items():
 prompts = "".join(f'<details><summary>{k} · {e(L[k].replace(" (TEST CLIP)", ""))}</summary><p class="pl">Still ({len(s["still_refs"])} refs: {", ".join(r.split("/")[-1] for r in s["still_refs"])})</p>'
                   f'<pre>{e(s["still"])}</pre><p class="pl">Clip (Omni 4 s; image 1 = the approved still)</p><pre>{e(s["clip"])}</pre></details>' for k, s in S.items())
 
+SB = "".join(f'<figure class="sb"><img src="img/sb_{v}.jpg" alt="{v} storyboard, 11 stills" loading="lazy"><figcaption>{v} {LOOK[v][0]}: A to K left to right, top row then bottom</figcaption></figure>' for v in LOOK)
 page = f"""<title>Vans V13–V17 Review</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
@@ -86,23 +87,25 @@ tr.test td{{background:var(--test)}}
 details{{border-top:1px solid var(--line);padding:8px 0}} summary{{cursor:pointer;font-weight:600}}
 pre{{white-space:pre-wrap;font:500 .78rem/1.5 var(--mono);background:var(--bg);padding:10px;border-radius:8px;margin:6px 0;overflow-x:auto}}
 .pl{{margin:8px 0 0;font-size:.82rem;color:var(--muted)}}
+.sb{{margin:0}} .sb img{{width:100%;border-radius:8px;display:block}} .sb figcaption{{font-size:.8rem;color:var(--muted);margin-top:4px}}
 .truth img{{border-radius:8px;max-width:360px;width:100%}}
 ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 @media (max-width:620px){{.media{{grid-template-columns:1fr}} .media video{{max-width:240px}} .looks{{grid-template-columns:repeat(2,minmax(0,1fr))}} .looks dl{{grid-column:1/-1}}}}
 </style>
 <main class="wrap">
-<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan for your OK, 29 Oct 2026. Nothing has been spent.</p></header>
+<header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Round 1 stills below.</p></header>
 
-<div class="ask"><strong>Your call</strong>
-<div><span class="total">${total}</span> total cap · expected $22.28 all on Kie, $4.95 if your Flow app makes the clips · script gate OK</div>
+<div class="ask"><strong>Storyboard, round 1: your call</strong>
+<div>46 of 55 stills pass my check. 9 failed and are redone with fixed prompts: <span class="total">$0.81</span> (9 × $0.09). Then the one test clip, V14B (her hand tightening the lace bow), <strong>$0.315</strong>. Spent so far $4.95 of the $24.30 cap.</div>
 <ol>
-<li>Clips: all 55 on Kie ($17.33, about 15 min) or free takes in your Flow app (660 credits, about 55 takes on your phone)? With 55 clips I'd go Kie, or split.</li>
-<li>Stills on Kie ($4.95) or your Gemini app ($0, 55 images by hand)?</li>
-<li>The five looks below: OK, or swap any place or outfit?</li>
-<li>Grace's hand (pink French tips, rings, bracelets) and anklets as on V12: OK?</li>
-<li>House of Rameau: one $0 version of each (reframed, regraded, a hook text, no captions), posted only on your OK?</li>
-<li>Grace's edit style likes ~1.5 s middle shots; these are ~2.5 s (11 per video). Keep 11, or 16 per video (+$10.13, cap $34.43)?</li>
-</ol></div>
+<li>OK to redo the 9 stills ($0.81) and run the V14B test clip ($0.315)?</li>
+<li>Anything in the 46 passing stills you want changed before the clips? (A free swap now saves a paid clip later.)</li>
+</ol>
+<p class="sub">Your plan answers (29 Oct): everything on Kie, looks OK, Grace's hand as on V12, 11 shots per video, 5 videos, no House of Rameau versions.</p></div>
+<section class="box"><h2>Storyboard round 1 (stills)</h2>
+<p class="sub">Fails, already fixed in the prompts: V13A, V13I, V15D, V15G solid black toe (the real toe is checkerboard) · V14H, V16J empty shoe on a walking foot · V14G feet pointing opposite ways · V15A no grip · V14B holds a loose shoe instead of tightening the bow.</p>
+{SB}
+</section>
 
 <section class="box"><h2>Grace's post and voice</h2>
 <div class="media"><video src="media/grace_post.mp4" controls playsinline preload="metadata"></video>

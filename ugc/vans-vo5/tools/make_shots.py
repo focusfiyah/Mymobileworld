@@ -36,7 +36,7 @@ SHOE = ("THE SHOE must match the product sheet and every close-up exactly, lette
         "canvas; black leather binding round the collar with white stitching; a black tongue; natural tan canvas lining; flat "
         "black cotton laces through four pairs of black eyelets; a small BLACK woven tab with white VANS letters on the outer side; "
         "a vertical black heel stripe; a chunky smooth off-white rubber sidewall with a small WHITE 'OFF THE WALL' label at the "
-        "back; a deep RED insole with a WHITE rectangle holding the red VANS logo; a gum-brown waffle sole. True size: an adult "
+        "back; a deep RED insole with a WHITE rectangle holding the red VANS logo; a gum-brown waffle sole. The toe box is the same black and off-white checkerboard as the rest of the upper: never a solid black toe or a solid black sequin panel anywhere. True size: an adult "
         "women's sneaker about 25 cm long, exactly the length of her own foot. No other logos, no ® or ™ added, no extra text.")
 HAND = ("HER HAND exactly like the hand reference: medium brown skin, slim fingers, long soft pink nails with white French tips, "
         "a silver ring stack, a gold ring with one clear trillion stone, a blue silicone band on the thumb, a flat gold bracelet of "
@@ -73,7 +73,7 @@ VID = {
          "dress": "a pastel floral midi dress, small pink and blue flowers on cream, hem at mid-calf", "anklet": "a thin gold beaded anklet on her right ankle"},
 }
 
-WORN = "She wears the pair: the left shoe on her left foot, the right shoe on her right foot; these are the only two shoes in the scene."
+WORN = "She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene."
 ONE = "Her feet are out of frame; this one shoe is the only shoe in the scene."
 PAIR = "No person's feet in frame; the pair are the only two shoes in the scene."
 
@@ -95,19 +95,19 @@ SPEC = {
  ],
  "V14": [
   ("A", "HAND", "in", None, ["TAB"], ONE, "Close-up: her right hand holds ONE shoe side-on at chest height in front of the sage-green wall, gripping it round the heel collar, the toe pointing to the RIGHT edge, the black side tab facing the camera.", "the hand keeps the same grip and lifts the shoe about 5 cm; the shoe stays side-on and never turns or flips", "slow push-in"),
-  ("B", "HAND", "in", "main", ["TAB"], WORN, "Seated on the edge of the bed: view from above of her right foot on the rug, the toe pointing to the lower-LEFT corner; her right hand holds the two lace loops of the bow on that shoe, one loop between thumb and finger on each side.", "she pulls the two lace loops gently outward to tighten the bow, once; the foot stays still; the shoe never moves", "locked off"),
+  ("B", "HAND", "in", "main", ["TAB"], WORN, "Seated on the edge of the bed: view from above of her right foot on the rug, fully inside its laced shoe, the toe pointing to the lower-LEFT corner; she leans down and her right hand pinches the two loops of the tied black bow on top of that worn shoe, thumb and index finger on one loop, middle finger on the other. She holds no other shoe.", "she pulls the two lace loops gently outward to tighten the bow, once; the foot stays still; the shoe never moves", "locked off"),
   ("C", "HAND-FREE", "in", "main", ["TAB"], WORN, "Low front view at rug height: both feet standing side by side on the white textured rug, both toe caps pointing at the lens, legs from mid-calf down in the grey joggers, the bed soft behind.", "her feet stay still and side by side; no hand appears at any time", "slow push-in toward the toes"),
   ("D", "HAND-FREE", "in", None, ["TAB"], "No person in frame; this one shoe stands alone on the rug and is the only shoe in the scene.", "Close-up at rug height of ONE shoe standing upright alone on the white textured rug, side view, the toe pointing to the LEFT edge, the sequin squares of the side filling the frame.", "the shoe stays still; no hand appears at any time", "the camera slides slowly along the side from the toe toward the heel"),
   ("E", "HAND-FREE", "in", None, ["TAB", "HEEL"], PAIR, "The pair stand side by side on the honey wood floor in a patch of soft window daylight, three-quarter view, both toes pointing to the LEFT edge, the bed soft behind.", "the shoes stay still; no hand or person appears at any time", "the camera arcs slowly a few degrees to the right"),
   ("F", "HAND-FREE", "in", "dress", ["TAB"], WORN, "Low front view on the wood floor: her legs from mid-calf down in the cream pleated satin skirt, both toe caps pointing at the lens.", "she takes one small step toward the camera; the pleats swing; no hand appears at any time", "locked off"),
-  ("G", "HAND-FREE", "out", "main", ["TAB"], WORN, "Side view at path level in the park: her feet in the grey joggers stepping onto the grey asphalt path from the grass, both toes pointing to the RIGHT edge of the frame.", "she takes one step forward along the path; no hand appears at any time", "locked off"),
+  ("G", "HAND-FREE", "out", "main", ["TAB"], WORN, "Side view at path level in the park: her feet in the grey joggers stepping onto the grey asphalt path from the grass, both feet parallel, both toes pointing to the RIGHT edge of the frame, the left foot planted and the right foot one step ahead.", "she takes one step forward along the path; no hand appears at any time", "locked off"),
   ("H", "HAND-FREE", "out", "main", ["TAB"], WORN, "POV looking straight down from her own eyes at both feet on the grey asphalt park path, both toes pointing to the TOP edge of the frame, green grass on both sides.", "she walks forward at a relaxed pace, four real steps, the camera moves with her so the path clearly travels down and out of the bottom of the frame; both feet point forward the whole time; no hand appears at any time", "moves forward with her"),
   ("I", "HAND", "in", None, ["TAB", "HEEL"], ONE, "Low view beside the bed: her right hand picks ONE shoe up off the honey wood floor, gripping it by the heel collar, side view, the toe pointing to the LEFT edge, the black side tab facing the camera.", "the hand lifts the shoe straight up about 15 cm off the floor; same grip, it never turns or flips", "locked off"),
   ("J", "HAND-FREE", "out", "main", ["HEEL"], WORN, "Low view behind her on the park path: both heels facing the camera, both toes pointing to the TOP edge of the frame, the black heel stripes and white heel labels visible.", "she walks quickly away along the path, three real steps; the path stays fixed; no hand appears at any time", "locked off, low"),
   ("K", "HAND", "in", None, ["INSOLE"], ONE, "Close-up above the white rug: her right hand holds ONE shoe by the outer side with the opening tilted toward the camera, the toe pointing to the TOP edge, the red insole with the white VANS box clearly visible.", "the hand tilts the shoe about 10 degrees toward the lens and back; the insole faces the camera the whole time; it never turns or flips", "locked off"),
  ],
  "V15": [
-  ("A", "HAND", "in", None, ["TAB"], ONE, "Close-up beside the teal sofa: her right hand holds ONE shoe near the lens, side-on, gripping it round the heel collar, the toe pointing to the RIGHT edge, the black side tab large in frame.", "the hand keeps the same grip and brings the shoe a little closer to the lens; it never turns or flips", "slow push-in"),
+  ("A", "HAND", "in", None, ["TAB"], ONE, "Close-up beside the teal sofa: her right hand holds ONE shoe near the lens, side-on, her fingers curled round under the sole and her thumb hooked over the heel collar, the toe pointing to the RIGHT edge, the black side tab large in frame.", "the hand keeps the same grip and brings the shoe a little closer to the lens; it never turns or flips", "slow push-in"),
   ("B", "HAND", "in", None, ["TAB"], ONE, "Her right hand holds ONE shoe up toward a bright window beside the teal sofa, side-on, gripping it round the heel collar, the toe pointing to the LEFT edge, the black side tab facing the camera.", "the hand raises the shoe slowly about 10 cm, same grip; the shoe stays side-on and never turns or flips", "locked off"),
   ("C", "HAND-FREE", "in", None, ["TAB", "HEEL"], PAIR, "The pair stand side by side on the round wooden coffee table in front of the teal sofa, three-quarter view, both toes pointing to the RIGHT edge.", "the shoes stay still; no hand or person appears at any time", "the camera arcs slowly a few degrees to the left around them"),
   ("D", "HAND", "in", None, ["TAB"], ONE, "Extreme close-up of the toe of ONE shoe resting on the teal velvet sofa cushion, the toe pointing to the lower-LEFT corner; her right thumb and index finger pinch the edge of one raised black sequin.", "the fingers pinch the sequin lightly and let go; the hand moves only a few millimetres; the shoe stays still", "locked off"),
@@ -158,7 +158,7 @@ def still_prompt(v, place, outfit, logos, who, scene, kind):
     d = VID[v]
     parts = [intro, "SCENE: " + scene, who]
     side = re.search(r"toes? pointing to the (LEFT|RIGHT) edge", scene)
-    if side and "side tab facing the camera" in scene and who == ONE:
+    if side and re.search(r"side tab (facing the camera|large in frame)", scene) and who == ONE:
         parts.append(f"The held shoe is the {side.group(1)} shoe of the pair, so its outer side with the black tab faces the camera.")
     elif side and who == PAIR:
         parts.append(f"The shoe nearer the camera is the {side.group(1)} shoe, so its outer side with the black tab faces the camera.")

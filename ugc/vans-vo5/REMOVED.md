@@ -24,3 +24,5 @@
 
 ## V11 night flash (2026-10-22) checked against every row above
 Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ralph: "Keep S3"); no brand logos on props (no props); no feet pointing opposite ways (S1, S2 checked at 3 and 12 fps); no grip switch (S3 two-hand bow, one grip each); side tab black with white letters (S2 still fixed free, clips checked); no extra hands (2 hands = her own two, S3); no walking in place (S2 real steps); no held-shoe turn (no held shoe); max 2 shoes in every frame; no sparkle/glint effects (prompts say none; the shin highlight at ~7.8 s is the flash on skin); no text, no cards; scene cuts 0.6 (flash on), 3.0, 5.17, 7.6 s, none closer than 0.25 s.
+| Solid black sequin toe / panel (real toe is checkerboard) | Claude QC (V13A, V13I, V15D, V15G r1 stills) | 2026-10-29 | V13-V17: SHOE block now says the toe is checkerboard, never solid black |
+| Empty worn shoe (red insole showing on a walking foot) | Claude QC (V14H, V16J r1 stills) | 2026-10-29 | WORN block: both feet fully inside, feet hide the insoles |

@@ -90,6 +90,9 @@ TOTAL: ${total:.2f}
 5. House of Rameau: one version of each at $0 (reframed + regraded, a hook text from research/hooks.md, no captions), posted only on your OK per video. Make them?
 6. Grace's style also likes ~1.5 s middle shots; this plan's are ~2.5 s (11 per video). Keep 11 (this TOTAL), or 16 per video (+25 stills and clips, +$10.13, cap $34.43)?
 
+## 7b. Ralph's answers (2026-10-29: "The cost is high for 6 videos. Cut It down to 11. You are doing everything on Kie, looks are ok, same look for Grace," then picked "11 shots per video, keep plan", "5 videos (Grace's ask)", HofR "Not this time")
+1. Clips: all on Kie (Omni). 2. Stills: Kie. 3. Looks OK. 4. Grace's hand and anklets as on V12. 5. No House of Rameau versions this time. 6. Keep 11 shots per video (not 16). 5 videos.
+
 ## 8. Prompts (final, prompt-master loaded this session; all 55 still + 55 clip prompts in shots.json, linted PROMPT_LINT_OK)
 Still refs, numbered in each prompt: 1 product sheet (real photos), 2 sequin close-up, then a real close-up of each logo that shot shows (side tab / heel label / insole), her skin ref (feet shots), her hand ref (hand shots), last the place photo; 8 at most. Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), then each logo close-up, then the sheet. Every prompt: framing and toe direction first, which shoe of the pair faces the lens, who wears/holds what, one grip and never turns, print letter for letter and colour for colour, no sparkle words, no text.
 Example, V14B still ({len(ex['still_refs'])} refs): {ex['still']}

@@ -1,4 +1,4 @@
-"""Kie helpers for the Vans sequin V12 ad (copied from ugc/jiyu-polish-pads): upload, run_task (script gate first), fetch. Each paid step writes a preview to approve before the next one.
+"""Kie helpers for Vans V13-V17 (copied from ugc/vans-sequin-v12): upload, run_task (script gate + BOOK lock first), fetch.
 
 
 Key: KIE_API_KEY env var, or none if the environment proxy injects it for api.kie.ai. Every request and
