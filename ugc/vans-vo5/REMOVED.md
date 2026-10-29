@@ -27,3 +27,5 @@ Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ral
 | Solid black sequin toe / panel (real toe is checkerboard) | Claude QC (V13A, V13I, V15D, V15G r1 stills) | 2026-10-29 | V13-V17: SHOE block now says the toe is checkerboard, never solid black |
 | Empty worn shoe (red insole showing on a walking foot) | Claude QC (V14H, V16J r1 stills) | 2026-10-29 | WORN block: both feet fully inside, feet hide the insoles |
 | Blue silicone band on the WRIST (Omni moved it there in the V14B test clip) | Claude QC (existing Ralph rule 2026-10-21) | 2026-10-29 | clip prompts: band stays on her finger as in image 1; recolour fix tried and rejected (olive with a blue edge) |
+| Feet sliding / "dragging" on the ground (Seedance POV walks: V14H park path, V17H boardwalk) | Ralph | 2026-10-29 | replaced by walk-toward-camera (V14H) and side tracking walk (V17H), prompts say each heel lifts, nothing slides |
+| Solid black side on a shoe (V14E pair shot, in the still) | Ralph | 2026-10-29 | V14E redone with the checkerboard spelled out for the toe and outer side |
