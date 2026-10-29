@@ -30,9 +30,10 @@ MP = ralph/ai-consultant-site/r2
   EVIDENCE: met 2026-10-28: https://claude.ai/artifact/F6TEtGRLuofgeNG5hhFnP5 (new URL; the old review page RA6Ytv... was not reused because this session no longer had its publish), push requested, Gmail 1a1843ada0180426
 - [x] G7: Ralph picked an option
   EVIDENCE: met 2026-10-29: Ralph: "Option A, let's not use the word \"my\". Also remove the phone part, its not a cool as I thought"
-- [ ] G8: Brain note + session log updated, my Active work line removed, BRAIN_OK
+- [x] G8: Brain note + session log updated, my Active work line removed, BRAIN_OK
   CHECK: cd /home/user/Mymobileworld && python3 tools/brain/check.py --terms "redesign options,AI consultant" | tail -1 | cut -c1-8
   EXPECT: BRAIN_OK
+  EVIDENCE: met 2026-10-29: BRAIN_OK (158 notes, terms found), Active work line removed
 
 ## Build of the pick (2026-10-29)
 - [x] G9: the live page is option A with no "my" in any visible text or placeholder
