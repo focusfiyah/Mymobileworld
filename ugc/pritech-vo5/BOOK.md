@@ -15,7 +15,7 @@ Sent to Ralph: https://claude.ai/artifact/V7f83RDGV3AqyAMYNQXDbt (2026-10-29, pl
 | Daily viral board | research/viral/viral-2026-10-29.json (today, 55 shop videos) | OK |
 | Product facts | research/product_facts.md (2026-10-29 table) | 5 of 6 VO claims backed; 1 flagged (below) |
 | Audience | research/audience.md | OK (from V1) |
-| Hooks | research/hooks.md (spoken hook fixed; 3 on-screen options per video for the House of Rameau versions) | OK |
+| Hooks | research/hooks.md (spoken hook fixed; 3 on-screen options per video, kept for later; none used this round) | OK |
 | Humanizer | research/humanizer.md, captions.md | VO verbatim; captions humanized |
 | Readability | research/readability_v5..v9.txt | 7.1, OVERRIDE recorded: your words "Use the VO from the link" |
 | Banned phrases | gate.py | OK |
@@ -104,8 +104,7 @@ Rooms: 10 new real Pexels/Pixabay photos, none used in V1-V4 (rooms/SOURCES.md, 
 3. After the test passes QC: the other 24 product clips at once (~8 min).
 4. 5 cuts on Grace's VO, QC (2x edges, first second, REMOVED.md, verify_fix), compare vs @joshjshowcase 2.7M, AI finish -> review page (your stop 2) -> Drive.
 Machine time ~40 min for the first video + ~10 min for each of the other four (they run side by side) = about 1.5 hours, plus your two review stops.
-House of Rameau: 5 HofR versions (own order/framing, on-screen hook text from research/hooks.md, no captions) cut free after you approve Grace's; posting each only on your OK.
-
+House of Rameau: no HofR versions this round (Ralph 2026-10-29: "No HofR videos for this round").
 ## 6. Cost (one total)
 | Item | Qty x unit | $ |
 |---|---|---|
@@ -122,7 +121,7 @@ TOTAL: $14.34
 ## 7. Ralph's answers (2026-10-29: "1. Kie 2. Grace voice not our clone 3. No onscreen. Maybe a way to save on cost to not use so many hands and more hands free")
 1. Product clips: Kie Omni (in the TOTAL).
 2. The VO is Grace's own voice. It is the same take as her Oct 23 PRITECH post, already a clone sample (grace/voice/r5/samples.json 7699909360125840671); this music-free copy is noted there.
-3. No on-screen text in Grace's five (House of Rameau versions keep the hook text, cut free after you approve).
+3. No on-screen text in Grace's five. No House of Rameau versions this round (Ralph: "No HofR videos for this round").
 4. More hands-free: 26 of 40 hand-free (was 17 of 45); hands only on the hands/oily-skin lines, the heat on skin, one button press and the foamy-cheek use.
 
 ## 8. Prompts (final, written with prompt-master after loading it; every reference named; linted PROMPT_LINT_OK)
