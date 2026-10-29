@@ -13,10 +13,10 @@ Scope: five 20.9 s hands + hand-free AI videos over Grace's linked VO, each shot
   CHECK: cd ../.. && python3 grace/prompt_check.py lint ugc/pritech-vo5/shots.json
   EXPECT: PROMPT_LINT_OK
   EVIDENCE: 2026-10-29 PROMPT_LINT_OK
-- [x] G3: 5 videos x 9 shots, every VO beat covered once per video, 3-4 hand-free per video, no shot id or still prompt reused
-  CHECK: python3 -c "import json;s=json.load(open('shots.json'));ok=len(s)==45 and len({x['still'] for x in s})==45;exec(\"for v in 'V5 V6 V7 V8 V9'.split():\n x=[a for a in s if a['video']==v];ok=ok and sorted(a['beat'] for a in x)==list(range(1,10)) and 3<=sum(not a['hand'] for a in x)<=4\");print('SHOTS_OK' if ok else 'BAD')"
+- [x] G3: 5 videos x 8 shots, every VO beat covered once per video, at least 5 hand-free per video (Ralph 2026-10-29 "more hands free"), no still prompt reused
+  CHECK: python3 -c "import json;s=json.load(open('shots.json'));ok=len(s)==40 and len({x['still'] for x in s})==40;exec(\"for v in 'V5 V6 V7 V8 V9'.split():\n x=[a for a in s if a['video']==v];ok=ok and sorted(a['beat'] for a in x)==list(range(1,9)) and sum(not a['hand'] for a in x)>=5\");print('SHOTS_OK' if ok else 'BAD')"
   EXPECT: SHOTS_OK
-  EVIDENCE: 2026-10-29 SHOTS_OK
+  EVIDENCE: 2026-10-29 plan v2 SHOTS_OK
 - [x] G4: 10 new real rooms with sources, none used in V1-V4
   CHECK: python3 -c "import os,re;a=open('rooms/SOURCES.md').read();b=open('../pritech-15s/rooms/SOURCES.md').read()+open('../pritech-cleansing-brush/rooms/SOURCES.md').read();ids=re.findall(r'= (p[xb]_\d+)',a);print('ROOMS_OK' if len(set(ids))==10 and all(os.path.exists(f'rooms/room_V{v}{k}.jpg') for v in '56789' for k in 'AB') and not any(i in b for i in ids) else 'NO',ids)"
   EXPECT: ROOMS_OK
@@ -30,7 +30,7 @@ Scope: five 20.9 s hands + hand-free AI videos over Grace's linked VO, each shot
   EXPECT: BOOK_OK
   EVIDENCE: 2026-10-29 BOOK_OK
 - [x] G7: review page published with the VO, shot lists, rooms and the total; push + email sent
-  EVIDENCE: 2026-10-29 page https://claude.ai/artifact/V7f83RDGV3AqyAMYNQXDbt v1; Gmail 1a185abf6b712825; push 'Mobile push requested.'
+  EVIDENCE: 2026-10-29 page https://claude.ai/artifact/V7f83RDGV3AqyAMYNQXDbt v1 + v2 (plan v2); Gmail 1a185abf6b712825; push 'Mobile push requested.'
 
 # Phase 2+ (after Ralph's OK): stills -> storyboard -> clips -> cuts -> Drive
 - [ ] G8: every still used passes 2x QC (product shape, buttons, chrome end, rings, grip, no eyes/mouth) before its clip is paid for

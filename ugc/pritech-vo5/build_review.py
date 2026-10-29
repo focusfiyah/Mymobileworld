@@ -18,7 +18,7 @@ for line in B.splitlines():
     if m and cur: rows[cur].append(m.groups())
 total = re.search(r"TOTAL: \$([\d.]+)", B).group(1)
 vo = re.search(r"^> (.+)$", B, re.M).group(1)
-flow = re.search(r"Kie total then \$([\d.]+)", B).group(1)
+flow = (re.search(r"Kie total then \$([\d.]+)", B) or re.search(r"(x)", "x")).group(1)
 
 # media: Grace's VO (mp3 for the phone), her post's contact sheet, room thumbs
 if not os.path.exists("review/media/vo.mp3"):
@@ -87,7 +87,7 @@ a{{color:var(--accent)}} a:focus-visible{{outline:2px solid var(--accent);outlin
 </style>
 <main>
 <header><p class="eyebrow">Grace · PRITECH heated face scrubber, black · 2026-10-29</p><h1>Five new videos on Grace's voiceover</h1>
-<p class="look">Same 20.9 s VO from her post in all five, 9 shots each, 45 shot ideas with none repeated, 10 new real rooms. Script gate OK.</p></header>
+<p class="look">Same 20.9 s VO from her post in all five, {len(S)//5} shots each, {len(S)} shot ideas with none repeated, {sum(not x['hand'] for x in S)} hands-free, 10 new real rooms. Script gate OK.</p></header>
 {ASKHTML}
 {CUTHTML}
 <section class="vid" id="vo"><h2>The voiceover</h2><blockquote>{e(vo)}</blockquote>
