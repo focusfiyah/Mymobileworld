@@ -1,0 +1,203 @@
+# lead-magnets: details
+
+Moved out of SKILL.md (skill standard: SKILL.md under 200 lines).
+
+## Contents
+- Lead Magnet Types
+- Matching Lead Magnets to Buyer Stage
+- Gating Strategy
+- Landing Page & Delivery
+- Promotion & Distribution
+- Measuring Success
+
+## Lead Magnet Types
+
+| Type | Best For | Effort | Time to Create |
+|------|----------|--------|----------------|
+| Checklist | Quick wins, process steps | Low | 1-2 hours |
+| Cheat sheet | Reference material, shortcuts | Low | 2-4 hours |
+| Template (doc/spreadsheet/Notion) | Repeatable processes, workflows | Low-Med | 2-8 hours |
+| Swipe file | Inspiration, examples | Medium | 4-8 hours |
+| Ebook/guide | Deep education, authority | High | 1-3 weeks |
+| Mini-course (email) | Education + nurture | Medium | 1-2 weeks |
+| Mini-course (video) | Education + personality | High | 2-4 weeks |
+| Quiz/assessment | Segmentation, engagement | Medium | 1-2 weeks |
+| Webinar | Authority, live engagement | Medium | 1 week prep |
+| Resource library | Ongoing value, return visits | High | Ongoing |
+| Free trial/community access | Product experience | Varies | Varies |
+
+**For detailed creation guidance per format**: See [references/format-guide.md](references/format-guide.md)
+
+**Agent skills as a lead magnet**: a course, webinar series, podcast, or newsletter archive you own can ship as an installable agent skill. See [references/content-to-skill.md](references/content-to-skill.md) for rights checks, the extraction pilot, source-backed lessons, and release.
+
+---
+
+## Matching Lead Magnets to Buyer Stage
+
+### Awareness Stage
+Goal: Educate on the problem. Attract people who don't know you yet.
+
+| Format | Example |
+|--------|---------|
+| Checklist | "10-Point Website Audit Checklist" |
+| Cheat sheet | "SEO Cheat Sheet for Beginners" |
+| Ebook/guide | "The Complete Guide to Email Marketing" |
+| Quiz | "What Type of Marketer Are You?" |
+
+### Consideration Stage
+Goal: Help evaluate solutions. Build trust and demonstrate expertise.
+
+| Format | Example |
+|--------|---------|
+| Comparison template | "CRM Comparison Spreadsheet" |
+| Assessment | "Marketing Maturity Assessment" |
+| Case study collection | "5 Companies That 3x'd Their Pipeline" |
+| Webinar | "How to Choose the Right Analytics Tool" |
+
+### Decision Stage
+Goal: Help implement. Remove friction to purchase.
+
+| Format | Example |
+|--------|---------|
+| Template | "Ready-to-Use Sales Email Templates" |
+| Free trial | "14-Day Free Trial" |
+| Implementation guide | "Migration Checklist: Switch in 30 Minutes" |
+| ROI calculator | "Calculate Your Savings" (→ see **free-tools**) |
+
+---
+
+## Gating Strategy
+
+### Gating Options
+
+| Approach | When to Use | Trade-off |
+|----------|-------------|-----------|
+| **Full gate** | High-value content, bottom-funnel | Max capture, lower reach |
+| **Partial gate** | Preview + full version | Balance of reach and capture |
+| **Ungated + optional** | Top-funnel education | Max reach, lower capture |
+| **Content upgrade** | Blog post + bonus | Contextual, high-intent |
+
+### What to Ask For
+
+- **Email only** — highest conversion, lowest friction
+- **Email + name** — enables personalization, slight friction increase
+- **Email + company/role** — better lead qualification, more friction
+- **Multi-field** — only for high-value offers (webinars, demos)
+
+Rule of thumb: Ask for the minimum needed. Every extra field reduces conversion by 5-10%.
+
+### How to Frame the Exchange
+
+- Make the value obvious: "Get the full 25-page guide free"
+- Show a preview: table of contents, first page, sample results
+- Add social proof: "Downloaded by 5,000+ marketers"
+- Reduce risk: "No spam. Unsubscribe anytime."
+
+**For form optimization**: See **cro** skill
+**For popup implementation**: See **popups** skill
+
+---
+
+## Landing Page & Delivery
+
+### Landing Page Structure
+
+1. **Headline** — Clear benefit: what they'll get and why it matters
+2. **Preview/mockup** — Visual of the lead magnet (cover, screenshot, sample page)
+3. **What's inside** — 3-5 bullet points of key takeaways
+4. **Social proof** — Download count, testimonials, logos
+5. **Form** — Minimal fields, clear CTA button
+6. **FAQ** — Address hesitations (Is it really free? What format?)
+
+**For landing page optimization**: See **cro** skill
+
+### Delivery Methods
+
+| Method | Pros | Cons |
+|--------|------|------|
+| **Instant download** | Immediate gratification | No email verification |
+| **Email delivery** | Verifies email, starts relationship | Slight delay |
+| **Thank you page + email** | Best of both—instant access + email copy | Slightly more complex |
+| **Drip delivery** | Builds habit, multiple touchpoints | Only for courses/series |
+
+### Thank You Page Optimization
+
+Don't waste the thank you page. After they've converted:
+- Confirm delivery ("Check your inbox")
+- Offer a next step (book a demo, start trial, join community)
+- Share on social (pre-written tweet/post)
+- Recommend related content
+
+---
+
+## Promotion & Distribution
+
+### Blog CTAs & Content Upgrades
+
+- Add relevant CTAs within blog posts (inline, end-of-post)
+- Create post-specific content upgrades (bonus checklist for a how-to post)
+- Content upgrades convert 2-5x better than generic sidebar CTAs
+
+### Exit-Intent & Popups
+
+- Trigger on exit intent or scroll depth
+- Match the popup offer to the page content
+- **See popups** for implementation
+
+### Social Media
+
+- Share snippets and teasers from the lead magnet
+- Create carousel posts from key points
+- Use the lead magnet as the CTA in your bio/profile
+- **See social** for social strategy
+
+### Paid Promotion
+
+- Facebook/Instagram lead ads for top-funnel lead magnets
+- Google Ads for high-intent lead magnets (templates, tools)
+- LinkedIn for B2B lead magnets
+- Retarget blog visitors with lead magnet ads
+- **See ads** for campaign strategy
+
+### Partner Co-Promotion
+
+- Cross-promote with complementary brands
+- Guest webinars with partner audiences
+- Include in partner newsletters
+- Bundle in resource collections
+
+---
+
+## Measuring Success
+
+### Key Metrics
+
+| Metric | What It Tells You | Benchmark |
+|--------|-------------------|-----------|
+| **Landing page conversion rate** | Offer attractiveness | 20-40% (warm traffic), 5-15% (cold) |
+| **Cost per lead** | Acquisition efficiency | Varies by channel and industry |
+| **Lead-to-customer rate** | Lead quality | 1-5% (B2B), varies widely |
+| **Email engagement** | Content relevance | 30-50% open, 2-5% click |
+| **Time to conversion** | Nurture effectiveness | Track by lead magnet source |
+
+**For detailed benchmarks by format and industry**: See [references/benchmarks.md](references/benchmarks.md)
+
+### A/B Testing Ideas
+
+- **Headline**: Benefit-focused vs. curiosity-driven
+- **Format**: Checklist vs. guide on same topic
+- **Gate level**: Full gate vs. partial preview
+- **Form fields**: Email-only vs. email + name
+- **CTA copy**: "Download Free Guide" vs. "Get Your Copy"
+- **Delivery**: Instant download vs. email delivery
+
+### Lead Quality Signals
+
+Good lead magnet attracted quality leads if:
+- Higher-than-average email engagement
+- Leads progress to trial/demo at expected rates
+- Low unsubscribe rate after delivery
+- Leads match ICP demographics
+
+---
+

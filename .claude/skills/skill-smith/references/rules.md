@@ -123,3 +123,7 @@ Use these only in skills where the situation arises.
 - **Commit to focusfiyah/claude-skills, deploy with `scripts/deploy.py`, and send Ralph the zip when the claude.ai
   copy changed.**
   Why: the account copy is the only one that reaches every chat and device, and it never updates itself.
+- **Send claude.ai one zip per skill, never a zip of zips; for many skills from one plugin in his claude.ai directory,
+  point Ralph to the plugin instead.**
+  Why: claude.ai refused a bundle of 24 skill zips with "Zip cannot contain nested zip files" (2026-10-29); one
+  upload per skill is the only route, so 19 uploads became one plugin tap.
