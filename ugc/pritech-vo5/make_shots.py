@@ -204,6 +204,36 @@ SHOTS = [
    "only the camera moves, a slow push-in toward the brush on the sill; nothing moves.", refs=("BTN", "SHEET"), btn=True),
 ]
 
+# ---- Round-1 still QC fixes (2026-10-29), each written against what came back wrong; redo only on Ralph's OK.
+BY = {x["id"]: x for x in SHOTS}
+BACK = ("The soft black nubs press flat against her skin, so the camera sees only the smooth matte black BACK of the oval head and the side of the handle; "
+        "no nubs face the camera.")
+BY["V5S1"] = s("V5S1", 1, False, True, "V5A",
+   SIZE_FREE + " One " + BRUSH + " It lies on its side on the wooden stool vanity top right beside a round stone bowl basin, bristle head toward the basin, buttons up, small water drops on the nubs. "
+   "NO stand, NO base, NO holder of any kind: the brush lies directly on the wood. Only one brush. Mint tile wall and round mirror soft behind (room reference). " + NOHAND + " " + ANGLE,
+   "only the camera moves, a slow push-in toward the brush lying on the wood; nothing moves.", refs=("BTN", "SHEET"), btn=True)
+BY["V5S7"] = s("V5S7", 7, True, True, "V5A",
+   SIZE + " Close three-quarter view from the side: " + NOFACE + " Her cheek is covered in white cleanser foam; a sage green towel headband at the top edge, white tee at the shoulder. " + HAND + " She holds " + BRUSH +
+   " and presses its bristle head flat onto her foamy cheek. " + BACK + " Mint tile soft behind (room reference). " + ANGLE,
+   "the hand moves the brush in small slow circles on the foamy cheek, the back of the head always toward the camera; the foam spreads a little. Her eyes and mouth never come into frame. Camera locked-off.", refs=("HEAD", "SHEET"), face=True)
+BY["V6S4"] = s("V6S4", 4, True, True, "V6B",
+   SIZE + " Close-up: " + HAND + " She holds " + BRUSH + " and presses the bristle head into the open palm of her other hand (whole wrist). The wand is ONE piece of matte black from the head to the silver end: no ring, band, collar or chrome between the head and the handle; the only chrome is the short band at the very bottom end. Teal-blue tile soft behind (room reference). " + ANGLE,
+   "the brush is switched on: the soft nubs bend against the palm and the skin of the open palm jiggles fast under them.", refs=("HEAD", "SHEET"))
+BY["V6S5"] = s("V6S5", 5, True, True, "V6A",
+   SIZE + " Close side view of the side of her neck ONLY: the top edge of the frame is at her jawline and the bottom edge at her collarbone; her chin, lips, mouth, nose and eyes are all out of frame. A grey sports tank strap at the shoulder. " + HAND +
+   " She holds " + BRUSH + " UPSIDE DOWN: the bristle head points down toward her shoulder, below her hand, and the short silver chrome end points UP and rests flat on the side of her neck. " + METALEND + " The bristles never touch her skin. Oxblood red tile soft behind (room reference).",
+   "the silver end glides slowly down the side of the neck; the bristle head stays pointing down.", refs=("METAL", "SHEET"), face=True, metal=True)
+BY["V7S2"] = s("V7S2", 2, True, False, "V7B",
+   "Close-up from BEHIND and beside her ear: the camera sees only her ear, the back of her jaw and the side of her cheek; her eye, nose, lips and mouth are hidden on the far side of her face and never in frame. Her cheek still has a light layer of beige foundation after a quick hand wash; a white satin robe collar at the shoulder, dark hair pulled back. "
+   + HANDS_NP.replace("hands", "right hand") + " touches one fingertip to the cheek. Bulb mirror soft behind (room reference). No brush, no product.",
+   SEED + "the fingertip swipes across the cheek and turns toward the camera, showing a beige foundation smudge on it. Only this one hand appears, whole wrist, the same rings as reference image 2. Her eye, nose and mouth never come into frame. No brush, no product at any time. Camera locked-off.")
+BY["V8S5"] = s("V8S5", 5, False, True, "V8B",
+   SIZE_FREE + " Exactly ONE brush in the whole frame, nothing else on the rim: " + BRUSH + " It lies alone on the wide flat rim of a white freestanding tub, the silver chrome end nearest the camera. " + METALEND + " Wood-plank wall soft behind (room reference). " + NOHAND,
+   "only the camera moves, a slow slide along the handle toward the silver chrome end; nothing moves.", refs=("METAL", "SHEET"), metal=True)
+BY["V9S3"]["clip"] = BY["V9S3"]["clip"].replace("the hands twist and wring out the face cloth and slightly beige water drips into the basin.", "the right hand squeezes the top of the face cloth against the basin edge and slightly beige water drips into the basin.")  # still: one hand lies flat on the cloth
+SHOTS = [BY[x["id"]] for x in SHOTS]
+REDO = ["V5S1", "V5S7", "V6S4", "V6S5", "V7S2", "V8S5"]
+
 P = {"METAL": "refs/closeup_metal_end.png", "SHEET": "refs/product_sheet_v2.png", "HEAD": "refs/closeup_head.png", "BTN": "refs/closeup_buttons.png", "LOGO": "refs/closeup_stand_logo.png"}
 HANDREF = "../../grace/ref/hand-sheets/without_bracelet.jpg"
 for x in SHOTS:   # the exact text and images sent, so prompt_check reads what is paid for
