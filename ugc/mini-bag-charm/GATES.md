@@ -134,3 +134,8 @@
 - [x] G57 Review page v19 shows cut v13, its sheet and the 4 takes
   CHECK: python3 -c "s=open('review/index.html').read();print('G57_OK' if all(x in s for x in ('cut_v13.mp4','cut_sheet_v13.jpg','F1_flow.mp4','F4_flow.mp4')) else 'G57_FAIL')"
   EXPECT: G57_OK
+
+## Phase 13: v13 approved, Drive (2026-10-29, Ralph "Approved")
+- [x] G58 Drive folder holds CURRENT - Mini Bag Charm V13.mp4 (47,309,792 bytes = local) + CURRENT script V13 doc (read back); V12 video + doc renamed "(2026-10-28)" in Older versions (manual: Drive API results this session)
+  CHECK: python3 -c "import os;print('G58_LOCAL_OK' if os.path.getsize('out/minibag_v13.mp4')==47309792 else 'G58_FAIL')"
+  EXPECT: G58_LOCAL_OK
