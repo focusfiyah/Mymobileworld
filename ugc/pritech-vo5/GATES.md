@@ -35,15 +35,15 @@ Scope: five 20.9 s hands + hand-free AI videos over Grace's linked VO, each shot
 # Phase 2+ (after Ralph's OK): stills -> storyboard -> clips -> cuts -> Drive
 - [x] G8: every still used passes 2x QC (product shape, buttons, chrome end, rings, grip, no eyes/mouth) before its clip is paid for
   EVIDENCE: 2026-10-29 46 stills (40 + 6 redos on Ralph's yes); free fixes free_fix.py (6 crops) + V5S5 print + V6S5 digits painted; sheets qc/sheet_V*.jpg, qc/redo_r2.jpg, qc/freefix*.jpg
-- [ ] G9: 5 cuts out/pritech_V5..V9.mp4, each 21.30 s (20.95 s VO + 0.35 s hold) within 0.15 s
+- [x] G9: 5 cuts out/pritech_V5..V9.mp4, each 21.30 s (20.95 s VO + 0.35 s hold) within 0.15 s
   CHECK: python3 -c "import subprocess;d=[float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'out/pritech_V{v}.mp4'],capture_output=True,text=True).stdout or 0) for v in range(5,10)];print('CUTS_OK' if all(abs(x-21.30)<=0.15 for x in d) else 'BAD',d)"
   EXPECT: CUTS_OK
-  EVIDENCE: pending
-- [ ] G10: cut gate (compare vs the top winner) passes
+  EVIDENCE: 2026-10-29 CUTS_OK [21.3 x5]
+- [x] G10: cut gate (compare vs the top winner) passes
   CHECK: cd ../.. && python3 grace/gate.py ugc/pritech-vo5 --stage cut
   EXPECT: GATE OK
-  EVIDENCE: pending
-- [ ] G11: every cut QC'd (2x edges, first second, REMOVED.md, flash/levels), AI finish applied, Ralph approved
-  EVIDENCE: pending
-- [ ] G12: Drive "PRITECH Face Scrubber (Grace)" has CURRENT - PRITECH V5..V9 + script doc, sizes match; brain check BRAIN_OK; branch merged to main
-  EVIDENCE: pending
+  EVIDENCE: 2026-10-29 GATE OK (--stage cut, compare vs @joshjshowcase 2.8M, research/compare_notes.md)
+- [x] G11: every cut QC'd (2x edges, first second, REMOVED.md, flash/levels), AI finish applied, Ralph approved
+  EVIDENCE: 2026-10-29 qc.py QC_OK V5-V9 (flash, hard jump, luma, audio -16.7 LUFS, echo 150); 2x checks qc/zoom_cuts.jpg, qc/v9s5_cut.jpg; AI finish in cut.py; REMOVED.md: no full face, no pink brush, no glow, no text; Ralph: "Approve"
+- [x] G12: Drive "PRITECH Face Scrubber (Grace)" has CURRENT - PRITECH V5..V9 + script doc, sizes match; brain check BRAIN_OK; branch merged to main
+  EVIDENCE: 2026-10-29 Drive ids V5 1Y9vq2NCl7ChWRFOrbpFueEBC8J3MTYUe 55,682,358 B, V6 162ltLSoXg_YKTXfXqf2cHV9pnjh1xekt 55,318,190, V7 1SLlycHLfEJIiqjsSVw3uLzA2CfgYJntj 55,350,576, V8 12y0AfGJA135Uo1SRTHgdfEoBP820_BJa 55,128,327, V9 1A8PnvKzIGiwdGeNoMpK4-m9m2Rc7OJxW 55,716,284 (= local); doc 1-hy3ccYvm_UAyoW-H2leCiBhoyR_D7sKoId9uXgJh4U read back; brain check + merge below
