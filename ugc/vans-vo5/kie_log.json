@@ -1960,5 +1960,70 @@
   "still": "stills/V14B.png",
   "ok": true,
   "score": 0.924
+ },
+ {
+  "t": "2026-10-29 04:59:13",
+  "submitted": "0335337828e61b3fabd7b6df5fe2c149",
+  "prompt": "Start exactly on the first frame and keep the place, light and framing, her skin, soft grey cotton joggers cuffed just a"
+ },
+ {
+  "t": "2026-10-29 04:59:19",
+  "submitted": "eeb4af58309075c8e80e3d0a2fd4f144",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its place, light and framing, her skin, soft grey cotton joggers cuffe"
+ },
+ {
+  "t": "2026-10-29 05:00:48",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Start exactly on the first frame and keep the place, light and framing, her skin, soft grey cotton joggers cuffed just above the ankle bone and anklet, her hands, long pink French-tip nails, rings, bracelets and the blue band on her finger (never on her wrist) exactly as they are in it. The shoe never changes: black and off-white checkerboard, only the black squares are raised black sequins, the off-white squares plain canvas, the toe checkerboard too; black collar binding and black laces; the small black side tab keeps its white VANS letters sharp and readable; off-white rubber sidewall. She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene. Toe direction stays as in the first frame the whole clip: toe pointing to the lower-LEFT corner. Motion: she pulls the two lace loops gently outward to tighten the bow, once; the foot stays still; the shoe never moves. Camera: locked off. Only the hands already in the first frame, five fingers each, whole wrists. Vertical 9:16 phone footage, bright neutral window daylight, realistic. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1793249937982-uwl430r15qe.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "0335337828e61b3fabd7b6df5fe2c149",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793250045374-t7elap6fnd.mp4"
+   ]
+  },
+  "costTime": 95
+ },
+ {
+  "t": "2026-10-29 05:01:24",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its place, light and framing, her skin, soft grey cotton joggers cuffed just above the ankle bone and anklet, her hand, nails, rings, blue band and bracelets exactly. Image 2 is the real woven side tab: a small BLACK tab with white VANS letters, sewn flat on the outer side: it stays on the shoe the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the product sheet: keep this exact shoe shape, size, checkerboard and colours; only the black squares carry sequins, the toe is checkerboard too; no added marks, no extra text. Image 4 is her real hand: long soft pink nails with white French tips, a silver ring stack, a gold trillion-stone ring, a flat gold bracelet of rectangular links and a thin pearl chain with a gold leaf; her hands match image 4 the whole clip. The blue silicone band stays on her finger exactly where image 1 shows it, never on her wrist. She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene. Toe direction stays as in image 1 the whole clip: toe pointing to the lower-LEFT corner. Motion: she pulls the two lace loops gently outward to tighten the bow, once; the foot stays still; the shoe never moves. Camera: locked off. Exactly the hands in image 1, five fingers each, whole wrists. Vertical 9:16 phone footage, bright neutral window daylight, realistic. No sparkle effects, no music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-vo5/1793249942710-p7gg6p6x5if.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-vo5/1793249947316-rt4ddv7tlmj.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-vo5/1793249949806-hzw2c98bhs.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-vo5/1793249952008-s76mz4bppk.png"
+    ]
+   }
+  },
+  "taskId": "eeb4af58309075c8e80e3d0a2fd4f144",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/eeb4af58309075c8e80e3d0a2fd4f144_0_1793250077.mp4"
+   ]
+  },
+  "costTime": 120,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-29 05:01:28",
+  "clip_check": "/home/user/Mymobileworld/ugc/vans-vo5/clips/V14B.mp4",
+  "still": "stills/V14B.png",
+  "ok": true,
+  "score": 0.901
  }
 ]

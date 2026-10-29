@@ -21,7 +21,7 @@ for v, (name, place, main, dress) in LOOK.items():
     rows = []
     for k, s in S.items():
         if s["video"] != v: continue
-        logos = ", ".join(LOGO[x.split("/")[-1]] for x in s["clip_refs"][1:-1])
+        logos = ", ".join(LOGO[x.split("/")[-1]] for x in s["clip_refs"] if x.split("/")[-1] in LOGO)
         kind = "hand" if s["kind"] == "HAND" else "free"
         test = " test" if k == "V14B" else ""
         rows.append(f'<tr class="{kind}{test}"><td class="t">{s["window"][0]:.1f}–{s["window"][1]:.1f}</td>'
@@ -95,7 +95,13 @@ ul.facts{{margin:0;padding-left:20px;display:grid;gap:3px}}
 <main class="wrap">
 <header><h1>Vans sequin V13–V17</h1><p class="sub">Five AI videos on Grace's own voice, one look each. Plan approved 29 Oct 2026. Round 1 stills below.</p></header>
 
-<div class="ask"><strong>Test clip V14B: failed my check, your call</strong>
+<div class="ask"><strong>Re-test V14B: Seedance wins. Your call on the other 54</strong>
+<div>Seedance 2.0 Mini from our exact still ($0.164): the side tab reads VANS, the black squares look like sequins, Grace's long pink French tips, no band on the wrist, five fingers. Omni with the fixed prompt ($0.315): the tab still garbled ("LGCDI"), the squares still drawn as outlines. Spent $6.55 of $24.30.</div>
+<ol><li>Run the other 54 clips on Seedance 2.0 Mini: 54 × $0.164 = <strong>$8.86</strong> (instead of $17.01 on Omni). It's Seedance, not the Omni product lock, so every clip gets the 2x logo check before you see it.</li></ol>
+<div class="media"><video src="media/V14B_seedance.mp4" controls playsinline muted preload="metadata"></video><video src="media/V14B_omni2.mp4" controls playsinline muted preload="metadata"></video></div>
+<p class="sub">Left: Seedance (winner). Right: Omni, fixed prompt.</p>
+<figure class="sb"><img src="img/V14B_test2_2x.jpg" alt="2x: top row Omni with a garbled tab, bottom row Seedance with VANS readable"><figcaption>2x at 0.5, 1.8, 3.2 s. Top: Omni (tab "LGCDI"). Bottom: Seedance (tab VANS).</figcaption></figure></div>
+<div class="ask"><strong>First test clip V14B (Omni): failed my check</strong>
 <div>The 9 redone stills all pass. The V14B test clip on Omni ($0.315) fails: the side tab reads "VANDO", the black squares came out as scribbled outlines instead of sequins, the hands lost Grace's long French tips and bracelets, and the blue band sits on her wrist (a removed item). Omni on Kie also re-framed the shot instead of starting from our still. Spent $6.07 of $24.30.</div>
 <ol>
 <li>Test V14B again two ways, side by side, then run the other 54 on the winner: Seedance 2.0 Mini starting from our exact still ($0.164) and Omni with a fixed prompt (Grace's hand reference added, band stays on her finger) ($0.315). Both: <strong>$0.48</strong>.</li>

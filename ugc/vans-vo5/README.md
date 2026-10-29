@@ -3,7 +3,7 @@
 Ask (Ralph 2026-10-29): "Grace wants 5 more ai videos of this. Use the audio from the link as the VO and match the visuals. Different visuals for each video." https://www.tiktok.com/t/ZPLDRH7Rk = Grace's own post (@shewiththeglow 7699252578239925535, 27.6 s, 535 views).
 Same shoe as `ugc/vans-sequin-authentic/` (V1-V11) and `ugc/vans-sequin-v12/`; refs, research and REMOVED.md copied from there. Route: hands + feet AI, product lock (Omni on Kie or Ralph's Flow), 11 shots per video on the same 11 word windows, own places/outfits/shot ideas per video.
 
-Status: TEST CLIP V14B FAILED QC 2026-10-29 (Omni on Kie: tab "VANDO", outline squares, hands not Grace, blue band on wrist, re-framed). 55/55 stills pass (9 redone, $0.81). Asked Ralph: re-test V14B on Seedance first-frame $0.164 + fixed Omni $0.315 side by side, then 54 clips on the winner. Spent $6.07 of $24.30.
+Status: V14B RE-TEST 2026-10-29: Seedance first-frame wins (tab VANS, sequins, Grace hands); Omni fixed prompt still garbles the tab. Asked Ralph: other 54 on Seedance $8.86. Spent $6.55 of $24.30.
 Review page: https://claude.ai/artifact/SK6yEMLyJ45i2UcoofCJ5s
 Drive: Grace Tiktok assets/"Vans sequin (Grace)" https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_ (V13-V17 go here).
 

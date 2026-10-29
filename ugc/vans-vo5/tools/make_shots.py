@@ -183,7 +183,12 @@ def clip_prompt(v, sid, logos, who, motion, camera, kind, place, outfit, scene):
     for k in logos:
         lines.append(f"Image {n} is {R[k][1]}: it stays on the shoe the whole clip and matches image {n} letter for letter and colour for colour.")
         n += 1
-    lines.append(f"Image {n} is the product sheet: keep this exact shoe shape, size, checkerboard and colours; only the black squares carry sequins; no added marks, no extra text.")
+    lines.append(f"Image {n} is the product sheet: keep this exact shoe shape, size, checkerboard and colours; only the black squares carry sequins, the toe is checkerboard too; no added marks, no extra text.")
+    if kind == "HAND":
+        n += 1
+        lines.append(f"Image {n} is her real hand: long soft pink nails with white French tips, a silver ring stack, a gold trillion-stone ring, "
+                     "a flat gold bracelet of rectangular links and a thin pearl chain with a gold leaf; her hands match image {n} the whole clip. "
+                     "The blue silicone band stays on her finger exactly where image 1 shows it, never on her wrist.".replace("{n}", str(n)))
     lines.append(who)
     toes = re.findall(r"(?:both )?toe(?: caps?)?s? pointing (?:to|at|away from) [^,;.]+", scene)
     if toes: lines.append("Toe direction stays as in image 1 the whole clip: " + "; ".join(dict.fromkeys(toes)) + ".")
@@ -192,7 +197,27 @@ def clip_prompt(v, sid, logos, who, motion, camera, kind, place, outfit, scene):
     if kind == "HAND": lines.append("Exactly the hands in image 1, five fingers each, whole wrists.")
     lines.append(f"Vertical 9:16 phone footage, bright neutral {'window daylight' if place == 'in' else 'daylight'}, realistic. "
                  "No sparkle effects, no music, no voice, no captions, no on-screen text.")
-    return " ".join(lines), [f"stills/{sid}.png"] + [R[k][0] for k in logos] + [R["SHEET"][0]]
+    return " ".join(lines), [f"stills/{sid}.png"] + [R[k][0] for k in logos] + [R["SHEET"][0]] + ([R["HAND"][0]] if kind == "HAND" else [])
+
+
+def seedance_prompt(v, logos, who, motion, camera, kind, place, outfit, scene):
+    """Seedance 2.0 Mini first-frame (the approved still IS frame 0): no image references, the print described in words."""
+    d = VID[v]; keep = "the place, light and framing"
+    if outfit: keep += ", her skin, " + (d["dress"] if outfit == "dress" else d["main"]) + " and anklet"
+    if kind == "HAND": keep += ", her hands, long pink French-tip nails, rings, bracelets and the blue band on her finger (never on her wrist)"
+    lines = [f"Start exactly on the first frame and keep {keep} exactly as they are in it.",
+             "The shoe never changes: black and off-white checkerboard, only the black squares are raised black sequins, the off-white squares plain canvas, the toe checkerboard too; black collar binding and black laces; "
+             + ("the small black side tab keeps its white VANS letters sharp and readable; " if "TAB" in logos else "")
+             + ("the white OFF THE WALL heel label keeps its black print; " if "HEEL" in logos else "")
+             + ("the red insole keeps its white box with the red VANS logo; " if "INSOLE" in logos else "")
+             + "off-white rubber sidewall.", who]
+    toes = re.findall(r"(?:both )?toe(?: caps?)?s? pointing (?:to|at|away from) [^,;.]+", scene)
+    if toes: lines.append("Toe direction stays as in the first frame the whole clip: " + "; ".join(dict.fromkeys(toes)) + ".")
+    lines += [f"Motion: {motion}.", f"Camera: {camera}."]
+    if kind == "HAND": lines.append("Only the hands already in the first frame, five fingers each, whole wrists.")
+    lines.append(f"Vertical 9:16 phone footage, bright neutral {'window daylight' if place == 'in' else 'daylight'}, realistic. "
+                 "No sparkle effects, no music, no voice, no captions, no on-screen text.")
+    return " ".join(lines)
 
 
 def main():
@@ -204,7 +229,7 @@ def main():
             c, cr = clip_prompt(v, sid, logos, who, motion, camera, kind, place, outfit, scene)
             out[sid] = {"video": v, "beat": w, "window": list(WIN[w]), "line": LINE[w], "kind": kind,
                         "place": f"{v}_{place}", "outfit": outfit, "scene": scene, "motion": motion,
-                        "still": s, "still_refs": sr, "clip": c, "clip_refs": cr, "model": "omni-4s"}
+                        "still": s, "still_refs": sr, "clip": c, "clip_refs": cr, "clip_sd": seedance_prompt(v, logos, who, motion, camera, kind, place, outfit, scene), "model": "omni-4s"}
     (J / "shots.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
     print(len(out), "shots")
 

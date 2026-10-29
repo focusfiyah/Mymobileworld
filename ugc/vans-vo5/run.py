@@ -42,3 +42,23 @@ if __name__ == "__main__" and sys.argv[1] == "clips":
     ids = [i for i in sys.argv[2:] if not i.startswith("--")]
     ids = list(S) if ids == ["all"] else ids
     with ThreadPoolExecutor(min(20, len(ids))) as ex: list(ex.map(clip, ids))
+
+
+def seedance(sid):
+    """Seedance 2.0 Mini first-frame on Kie ($0.164 / 4 s): frame 0 = the approved still, prompt prompts/<ID>_sd.txt -> clips/<ID>_sd.mp4"""
+    import subprocess
+    out = Path(f"clips/{sid}_sd.mp4")
+    if out.exists(): print("seedance", sid, "exists, skipped", flush=True); return
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}_sd.txt").read_text().strip(),
+                        "first_frame_url": kie.upload(f"stills/{sid}.png"), "generate_audio": False, "resolution": "720p",
+                        "aspect_ratio": "9:16", "duration": 4}}, label=f"{sid} seedance first-frame")
+    if url:
+        kie.fetch(url, str(out))
+        r = subprocess.run(["python3", "../../grace/clip_check.py", f"stills/{sid}.png", str(out)], capture_output=True, text=True)
+        print("seedance", sid, "ok", (r.stdout + r.stderr).strip().splitlines()[-1:], flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "seedance":
+    ids = [i for i in sys.argv[2:] if not i.startswith("--")]
+    ids = list(S) if ids == ["all"] else ids
+    with ThreadPoolExecutor(min(20, len(ids))) as ex: list(ex.map(seedance, ids))

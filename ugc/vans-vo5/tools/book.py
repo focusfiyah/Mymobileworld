@@ -22,7 +22,7 @@ for v, (name, place, main, dress, ank) in V.items():
     rows.append("| # | Window (s) | Grace says | On screen | HAND? | Logos in frame |\n|---|---|---|---|---|---|")
     for k, s in S.items():
         if s["video"] != v: continue
-        logos = ", ".join({"real_vans_tab.jpg": "side tab", "real_heel_label.jpg": "heel label", "real_insole_logo.jpg": "insole"}[x.split("/")[-1]] for x in s["clip_refs"][1:-1])
+        logos = ", ".join({"real_vans_tab.jpg": "side tab", "real_heel_label.jpg": "heel label", "real_insole_logo.jpg": "insole"}[x.split("/")[-1]] for x in s["clip_refs"] if x.split("/")[-1] in ("real_vans_tab.jpg", "real_heel_label.jpg", "real_insole_logo.jpg"))
         rows.append(f"| {k} | {s['window'][0]:.1f}-{s['window'][1]:.1f} | {s['line']} | {L[k]} | {s['kind']} | {logos} |")
 
 ex = S["V14B"]
