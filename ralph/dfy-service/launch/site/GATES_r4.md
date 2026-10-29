@@ -37,3 +37,14 @@ Live site changes only on Ralph's OK of the preview.
 - [ ] G12: Make Interfaces Feel Better full review ends in Approve (manual)
 - [ ] G13: phone + desktop screenshots looked at full size (manual)
 - [ ] G14: preview on the private review page + push + email sent to Ralph (manual)
+
+## Round 4b: motion graphics (Ralph 2026-10-29: "Can we add motion graphics as well", picked "Animate the graphics")
+Dots fill in, 44% and $3,900 count up, the sum builds, the phone icon rings, the step line draws, stars fill, notes land.
+Scroll budget raised from 2 to 5 on Ralph's pick (his words beat the skill's budget).
+- [ ] G15: motion budget passes at the raised limit, reduced-motion path present
+  CHECK: python3 /home/user/Mymobileworld/.claude/skills/web-design-stack/scripts/motion_check.py /home/user/always-answered/index.html --scroll-max 5 --tween-max 20
+  EXPECT: MOTION_OK
+- [ ] G16: after a full scroll every animated graphic ends in its true final state (44 orange dots, 44%, $3,900, notes, stars, step line), with motion on, with reduced motion and with JS off
+  CHECK: python3 /home/user/Mymobileworld/ralph/dfy-service/launch/site/v4/check.py final
+  EXPECT: FINAL_OK
+- [ ] G17: frames taken mid-animation looked at (dots filling, sum building) (manual)
