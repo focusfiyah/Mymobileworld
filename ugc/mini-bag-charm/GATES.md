@@ -109,3 +109,33 @@
   EVIDENCE: RMS at both joins; S1 opening stops at 1.45 s
 - [x] G50: v12 on the review page + push + email (manual)
   EVIDENCE: artifact version 17
+
+## Phase 11: v13 Flow kit from Grace's real photos (Ralph 2026-10-29 "Flow kit")
+- [x] G51 Four 9:16 start frames (1080x1920) cut from Grace's own photos, plus padlock, scarf and sheet refs from her photos
+  CHECK: python3 -c "from PIL import Image;import sys;ok=all(Image.open(f'kit_v13/F{i}-1_start.jpg').size==(1080,1920) for i in (1,2,3,4)) and all(__import__('os').path.exists('kit_v13/'+f) for f in ('ref_padlock.jpg','ref_scarf.jpg','ref_sheet_grace.jpg'));print('G51_OK' if ok else 'G51_FAIL')"
+  EXPECT: G51_OK
+- [x] G52 Four prompts lint clean, name images 1-4, say first frame and no hand, and are marked checked
+  CHECK: python3 -c "import re;t=[open(f'prompts/flow_F{i}.txt').read() for i in (1,2,3,4)];ok=all('first frame' in x and 'No hand' in x and all(f'mage {n}' in x or f'images 2 to 4' in x for n in (1,2,3,4)) for x in t);print('G52_OK' if ok else 'G52_FAIL')" && for i in 1 2 3 4; do python3 ../../grace/prompt_check.py lint prompts/flow_F$i.txt --refs 4; done
+  EXPECT: G52_OK[\s\S]*PROMPT_LINT_OK[\s\S]*PROMPT_LINT_OK[\s\S]*PROMPT_LINT_OK[\s\S]*PROMPT_LINT_OK
+- [x] G53 Review page carries 4 kit cards (16 Save buttons, 4 prompts) and the downloads script; published v18 with kit13 files (manual: Artifact list shows 7 kit13 files)
+  CHECK: python3 -c "s=open('review/index.html').read();print('G53_OK' if s.count('class=\"sv\"')==16 and all(f'id=\"pF{i}\"' in s for i in (1,2,3,4)) and 'claude.use(\"downloads\")' in s else 'G53_FAIL')"
+  EXPECT: G53_OK
+- [x] G54 No Kie spend for this phase (kie_log.json unchanged since v12: no new task after 2026-10-28)
+  CHECK: python3 -c "import json;L=json.load(open('kie_log.json'));d=[str(x.get('t','')) for x in (L if isinstance(L,list) else L.get('tasks',[]))];print('G54_OK' if not any('2026-10-29' in x for x in d) else 'G54_FAIL')"
+  EXPECT: G54_OK
+
+## Phase 12: cut v13 from Ralph's Flow takes (2026-10-29)
+- [x] G55 Four Flow takes in clips/flow13 matched to their cards by first-frame distance (F1 e8ca, F2 a2af, F3 cc03, F4 4195), 1080x1920, every frame checked at 4-12 fps zoom
+  CHECK: python3 -c "import os;print('G55_OK' if all(os.path.exists(f'clips/flow13/F{i}_flow.mp4') for i in (1,2,3,4)) else 'G55_FAIL')"
+  EXPECT: G55_OK
+- [x] G56 v13 passes the cut QC (length, last word, loudness, levels)
+  CHECK: python3 qc/check_cut.py out/minibag_v13.mp4 --words vo/words_v13.json
+  EXPECT: CUT_QC_OK
+- [x] G57 Review page v19 shows cut v13, its sheet and the 4 takes
+  CHECK: python3 -c "s=open('review/index.html').read();print('G57_OK' if all(x in s for x in ('cut_v13.mp4','cut_sheet_v13.jpg','F1_flow.mp4','F4_flow.mp4')) else 'G57_FAIL')"
+  EXPECT: G57_OK
+
+## Phase 13: v13 approved, Drive (2026-10-29, Ralph "Approved")
+- [x] G58 Drive folder holds CURRENT - Mini Bag Charm V13.mp4 (47,309,792 bytes = local) + CURRENT script V13 doc (read back); V12 video + doc renamed "(2026-10-28)" in Older versions (manual: Drive API results this session)
+  CHECK: python3 -c "import os;print('G58_LOCAL_OK' if os.path.getsize('out/minibag_v13.mp4')==47309792 else 'G58_FAIL')"
+  EXPECT: G58_LOCAL_OK

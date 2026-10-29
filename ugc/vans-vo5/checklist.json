@@ -1,0 +1,78 @@
+{
+ "date": "2026-10-29",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "scripts.md",
+ "playbook": {
+  "proof": [
+   "proof/playbook.md"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "proof/coach_research.md",
+   "ref/meta.json",
+   "research/coach/tag-sequinvans.json",
+   "research/coach/top/7695243619074116877/meta.json",
+   "research/coach/top/7696253262659341582/meta.json",
+   "research/coach/top/7697921977448746273/meta.json"
+  ]
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-29.json"
+  ]
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "research/vans_pdp.md",
+   "product_truth.json"
+  ]
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ]
+ },
+ "humanizer": {
+  "proof": [
+   "proof/humanizer.md"
+  ]
+ },
+ "readability": {
+  "proof": [
+   "proof/readability_vo.txt"
+  ]
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ]
+ },
+ "line_sources": {
+  "proof": [
+   "proof/line_sources.md"
+  ]
+ },
+ "compare": {
+  "proof": [
+   "proof/compare.md"
+  ]
+ },
+ "client_vo_verbatim": {
+  "by": "Ralph",
+  "date": "2026-10-29",
+  "quote": "Use the audio from the link as the VO and match the visuals. Different visuals for each video.",
+  "source": "https://www.tiktok.com/t/ZPLDRH7Rk"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-29",
+  "quote": "The cost is high for 6 videos. Cut It down to 11. You are doing everything on Kie, looks are ok, same look for Grace, + picked: 11 shots per video, keep plan (Kie, cap $24.30); 5 videos; HofR not this time",
+  "total": 24.3,
+  "sha256": "3dd718833626b68d27fa213978cef1ba595f57a025749b8c2b148ce27b6e77a2",
+  "spent_at_approval": 0.0
+ }
+}

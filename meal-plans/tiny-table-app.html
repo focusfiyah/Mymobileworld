@@ -60,7 +60,9 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; } /* only one tab shows, also when the file runs outside an Artifact page */
 body {
+  margin: 0;
   background: var(--bg);
   color: var(--ink);
   font-family: var(--f-body);

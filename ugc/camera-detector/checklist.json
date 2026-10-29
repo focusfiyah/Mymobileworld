@@ -1,0 +1,96 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo_lines.txt",
+ "playbook": {
+  "proof": [
+   "proof/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/coach/shop-camera-detector.json",
+   "research/coach/tag-cameradetector.json",
+   "research/coach/tag-hiddencamera.json",
+   "research/coach/discover-hidden-camera-detector.json",
+   "research/coach/inspo/7680943338752609549/meta.json",
+   "research/coach/inspo/7693104034340818207/meta.json",
+   "research/coach/top/7534905185676594463/meta.json",
+   "research/coach/top/7473737093483892014/meta.json",
+   "research/coach/top/7681667760237202718/meta.json",
+   "research/coach/top/7684609765292510495/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-28.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "product_truth.json"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "proof/humanizer.md",
+   "scripts.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "research/compare_report.md",
+   "research/compare/compare/compare.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-29",
+  "quote": "1. Yes 2. Yes 3. Yes ok ( that's does not have to be a hard rule, if needed then we do it 4. Yes 5. Straight to Kie 6. No 7. No",
+  "total": 4.243,
+  "sha256": "f4ed861b9690febe51a4d951233fbb3a6710ccb85edda1d197f618449333ab0a",
+  "spent_at_approval": 0.0
+ },
+ "text_overlay_ok": {
+  "by": "Ralph",
+  "date": "2026-10-29",
+  "quote": "for HofR we are going to keep on screen text. Basically everything will be done for HofR / for HofR yes to the version and the extras",
+  "scope": "House of Rameau version only (hor_cut.py); Grace's cut (cut.py) stays text-free"
+ }
+}

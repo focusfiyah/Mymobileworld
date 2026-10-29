@@ -1,0 +1,62 @@
+{
+ "V14I": {
+  "max": 2.2,
+  "why": "flips from 2.25 s (QC 2026-10-29)"
+ },
+ "_run": {
+  "V13": [
+   "A",
+   "H"
+  ],
+  "V14": [
+   "B",
+   "I"
+  ],
+  "V15": [
+   "B",
+   "D",
+   "I"
+  ],
+  "V16": [
+   "A",
+   "B"
+  ],
+  "V17": [
+   "A",
+   "D"
+  ]
+ },
+ "_run_why": "2026-10-29 QC: only tails where her hand still holds the moving shoe (V13I tail was a still life); V16/V17 add their redo shots after the redo",
+ "V16I": {
+  "from": 1.5,
+  "why": "r2 redo: settles from insole-up to side-on by 1.5 s, then holds steady (QC 2026-10-29)"
+ },
+ "V17I": {
+  "from": 1.65,
+  "why": "r2 redo: tilts up by ~1.6 s, then holds steady (QC 2026-10-29)"
+ },
+ "V16K": {
+  "from": 0.75,
+  "zoom": [
+   1.28,
+   0.55,
+   0.0
+  ],
+  "why": "blue band on the wrist (removed item) at the bottom edge + insole-to-side turn before 0.7 s: start 0.75 s, crop 1.28x from the top (QC 2026-10-29)"
+ },
+ "V14H": {
+  "parts": [
+   [
+    "clips/V14H_sd.mp4",
+    2.0,
+    1.9
+   ],
+   [
+    "clips/V14G_sd.mp4",
+    1.0,
+    null
+   ]
+  ],
+  "why": "r3 clip walks backwards toward the camera for 2 s, then forward 2.0-3.9 s: use the forward 1.9 s, then cut on 'so you're getting...' to V14G's unused side-on step (QC 2026-10-29)"
+ }
+}

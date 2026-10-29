@@ -16,7 +16,9 @@ CLIPS = [  # name, source, where in the ad (0-1) or (start, length); only videos
     ("pouches", "sofyre-rodent-pouches/out/sofyre_r1_raw.mp4", 0.55),
     ("dilator", "mute-nasal-dilator/out/mute_nasal_dilator_r4.mp4", 0.55),
     ("roller", "bodyj-castor-rollon/out/bodyj_castor_v2g_r1_final.mp4", 0.55),
-    ("box", "throw-hands-rps/out/throw_hands_r2b_raw.mp4", 0.25),
+    # ("box", card game) replaced 2026-10-29 by the night driving glasses clip (Ralph). Source = the posted video that sold,
+    # downloaded with tiktok.py video https://www.tiktok.com/@shewiththeglow/video/7696285070046301470 (not in git);
+    # glasses = 18.10 s + 4.40 s (hand holding the glasses, no on-screen text in that shot).
     ("rinse", "pritech-cleansing-brush/out/pritech_review.mp4", 0.15),
 ]
 def dur(f):

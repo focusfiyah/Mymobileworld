@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ralph, AI Consultant</title>
+<meta name="description" content="Sample B, bento: Ralph builds AI for creators and small businesses.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%278%27 fill=%27%23111%27/%3E%3Ctext x=%2716%27 y=%2723%27 font-family=%27Arial,sans-serif%27 font-weight=%27700%27 font-size=%2720%27 text-anchor=%27middle%27 fill=%27%23d4f36b%27%3ER%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&display=swap">
+<style>
+/* B: bento. The page is a wall of tiles, each tile one proof; colour codes the kind of work. */
+:root{
+  --bg:#eceef2; --tile:#fff; --ink:#111214; --mute:#555b66;
+  --lime:#d4f36b; --sky:#c4e4ff; --pink:#ffd0e3; --peach:#ffdcc7; --mint:#cdf3dd;
+  --font:"Onest",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --ease:cubic-bezier(0.22,1,0.36,1); --r:28px; --gap:12px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-underline-offset:.2em}
+:focus-visible{outline:3px solid #2a5bd7;outline-offset:3px;border-radius:10px}
+img,video{display:block;max-width:100%}
+h1,h2,h3{margin:0;letter-spacing:-.035em;text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+.page{max-width:1320px;margin:0 auto;padding:var(--gap) max(var(--gap),env(safe-area-inset-right,0px)) 0 max(var(--gap),env(safe-area-inset-left,0px))}
+.bento{display:grid;gap:var(--gap)}
+.t{position:relative;border-radius:var(--r);overflow:hidden;background:var(--tile);padding:28px;min-width:0;
+  box-shadow:0 1px 2px rgba(17,18,20,.05);transition:transform 250ms var(--ease),box-shadow 250ms var(--ease)}
+.t.v{padding:0;background:#d9dce2}
+.t.v video{width:100%;height:100%;object-fit:cover}
+.t.v:hover{transform:translateY(-3px);box-shadow:0 18px 36px -22px rgba(17,18,20,.5)}
+.chip{position:absolute;left:14px;top:14px;z-index:1;font-size:13px;font-weight:700;background:#fff;color:var(--ink);padding:6px 12px;border-radius:999px;box-shadow:0 4px 12px -6px rgba(0,0,0,.35)}
+.cap{position:absolute;left:14px;bottom:14px;z-index:1;font-size:15px;font-weight:700;background:rgba(17,18,20,.72);color:#fff;padding:7px 12px;border-radius:12px;backdrop-filter:blur(6px)}
+.label{font-size:14px;font-weight:700;color:var(--mute);display:flex;align-items:center;gap:8px}
+.label.live::before{content:"";width:8px;height:8px;border-radius:50%;background:#14a35f;box-shadow:0 0 0 3px rgba(20,163,95,.2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 26px;border-radius:16px;background:var(--lime);color:var(--ink);font:inherit;font-weight:700;font-size:17px;text-decoration:none;border:0;cursor:pointer;
+  transition:transform 150ms var(--ease),box-shadow 250ms var(--ease);box-shadow:0 10px 24px -12px rgba(212,243,107,.9)}
+.btn:hover{transform:translateY(-2px)}
+.btn:active{transform:scale(.97)}
+.btn.ink{background:var(--ink);color:#fff;box-shadow:0 10px 24px -14px rgba(0,0,0,.6)}
+
+/* Hero bento */
+.hero{grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(3,minmax(180px,auto));
+  grid-template-areas:"name name v1 hook" "name name v1 v2" "call call yt v2"}
+.name{grid-area:name;background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:space-between;gap:32px;padding:clamp(28px,3.4vw,48px)}
+.name .label{color:#b6bac4}
+.name h1{font-size:clamp(76px,10vw,152px);line-height:.84;font-weight:800;letter-spacing:-.06em}
+.name p{font-size:clamp(20px,1.9vw,26px);line-height:1.3;font-weight:500;max-width:22ch;margin-top:18px;color:#e9eaee}
+.name .row{display:flex;align-items:center;gap:12px 22px;flex-wrap:wrap}
+.name .row a:not(.btn){font-weight:600;padding:12px 2px}
+.v1{grid-area:v1}.v2{grid-area:v2}
+.hook{grid-area:hook;background:var(--lime);display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.hook b{font-size:clamp(24px,2.3vw,32px);line-height:1;font-weight:800;letter-spacing:-.04em}
+.call{grid-area:call;display:flex;flex-direction:column;gap:10px;justify-content:flex-end;min-height:260px}
+.call .label{margin-bottom:auto}
+.msg{max-width:80%;padding:11px 15px;border-radius:18px;font-size:16px;line-height:1.4}
+.msg small{display:block;font-size:12px;font-weight:700;opacity:.65}
+.msg.them{align-self:flex-start;background:#eef0f3;border-bottom-left-radius:6px}
+.msg.ai{align-self:flex-end;background:#2a5bd7;color:#fff;border-bottom-right-radius:6px}
+.js .call .msg{opacity:0;transform:translateY(10px);transition:opacity 350ms var(--ease),transform 350ms var(--ease)}
+.js .call .msg.in{opacity:1;transform:none}
+.yt{grid-area:yt;background:var(--sky);display:flex;flex-direction:column;gap:12px;padding:20px}
+.stack{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;box-shadow:0 12px 26px -16px rgba(0,0,0,.5)}
+.stack img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 600ms var(--ease)}
+.stack img.on{opacity:1}
+.yt a{font-weight:700;font-size:15px}
+
+/* Sections */
+.sec{margin-top:calc(var(--gap) * 6)}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:16px 40px;flex-wrap:wrap;padding:0 8px 18px}
+.sh h2{font-size:clamp(36px,4.6vw,64px);line-height:.98;font-weight:800;max-width:16ch}
+.sh p{color:var(--mute);max-width:46ch;font-size:18px}
+.services{grid-template-columns:repeat(4,minmax(0,1fr))}
+.services .t{min-height:200px;display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.services .t:nth-child(1){background:var(--peach)}
+.services .t:nth-child(2){background:var(--sky)}
+.services .t:nth-child(3){background:var(--mint)}
+.services .t:nth-child(4){background:var(--pink)}
+.services b{font-size:24px;font-weight:800;letter-spacing:-.03em;line-height:1.1}
+.services span{color:#2d3038}
+.ico{width:44px;height:44px;border-radius:14px;background:rgba(255,255,255,.7);display:grid;place-items:center}
+.ico svg{width:22px;height:22px}
+
+.work{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:250px;grid-auto-flow:row dense}
+.work .intro{grid-column:span 2;background:var(--peach);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.work .intro h3{font-size:clamp(28px,2.8vw,40px);font-weight:800;line-height:1}
+.work .intro p{color:#2d3038}
+.work .v.big{grid-column:span 2;grid-row:span 2}
+.work .v{grid-row:span 2}
+.work .note{grid-column:span 2;background:var(--lime);display:flex;align-items:flex-end}
+.work .note b{font-size:clamp(24px,2.4vw,34px);line-height:1.05;font-weight:800;letter-spacing:-.03em;max-width:18ch}
+
+.ytgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.ytgrid .intro{background:var(--sky);display:flex;flex-direction:column;gap:16px;justify-content:space-between}
+.ytgrid .intro h3{font-size:clamp(26px,2.6vw,36px);font-weight:800;line-height:1.02}
+.ytgrid .intro p{color:#2d3038}
+.ytgrid a.t{padding:14px;display:flex;flex-direction:column;gap:10px;text-decoration:none}
+.ytgrid a.t:hover{transform:translateY(-3px);box-shadow:0 18px 36px -22px rgba(17,18,20,.5)}
+.ytgrid a.t img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:16px}
+.ytgrid a.t span{font-weight:600;font-size:15px;padding:0 4px 4px}
+
+.duo{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.duo .t h3{font-size:clamp(26px,2.6vw,36px);font-weight:800;line-height:1.02;margin:12px 0}
+.duo .t > p{color:var(--mute)}
+.chat{display:flex;flex-direction:column;gap:10px;margin-top:22px}
+.tools{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:10px}
+.tools li{background:#f3f4f6;border-radius:18px;padding:16px 18px}
+.tools b{display:block;font-size:18px}
+.tools span{color:var(--mute);font-size:15px}
+
+.phone{grid-template-columns:repeat(4,minmax(0,1fr))}
+.phone .big{grid-column:span 2;background:var(--ink);color:#fff;display:flex;flex-direction:column;justify-content:space-between;gap:28px;padding:clamp(28px,3.4vw,48px)}
+.phone .big h2{font-size:clamp(44px,5.4vw,80px);line-height:.92;font-weight:800}
+.phone .big h2 span{color:var(--lime)}
+.phone .big p{color:#d3d6dd;font-size:18px;max-width:42ch}
+.phone .shot{padding:16px;display:flex;flex-direction:column;gap:12px}
+.phone .shot img{width:100%;height:auto;border-radius:16px;background:#f3f4f6}
+.phone .shot.now{background:var(--lime)}
+.phone .shot.now .scr{border-radius:26px;padding:7px;background:var(--ink)}
+.phone .shot.now img{border-radius:20px}
+.phone .shot b{font-size:15px}
+
+.steps{grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;display:flex;flex-direction:column;gap:8px;min-height:220px;justify-content:flex-end}
+.steps li::before{content:counter(s);position:absolute;top:22px;left:26px;font-size:64px;font-weight:800;line-height:1;letter-spacing:-.05em;color:#d9dce2}
+.steps b{font-size:22px;font-weight:800;letter-spacing:-.02em}
+.steps span{color:var(--mute)}
+.fit{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.fit .yes{background:var(--mint)}
+.fit h3{font-size:26px;font-weight:800;margin-bottom:12px}
+.fit ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.fit li{display:flex;gap:10px;align-items:baseline}
+.fit .yes li::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:#14a35f;translate:0 -2px}
+.fit .no li{color:var(--mute)}
+.fit .no li::before{content:"";flex:none;width:10px;height:3px;border-radius:2px;background:#a1a6b0;translate:0 -5px}
+.consult{grid-template-columns:minmax(0,5fr) minmax(0,7fr);scroll-margin-top:12px}
+.consult .ask{background:var(--lime);display:flex;flex-direction:column;justify-content:space-between;gap:24px;padding:clamp(28px,3.4vw,48px)}
+.consult h2{font-size:clamp(44px,5.4vw,80px);line-height:.92;font-weight:800}
+.consult .ask p{font-size:18px;color:#2d3038;max-width:30ch}
+form.t{display:grid;gap:16px;padding:clamp(22px,3vw,40px)}
+label{display:grid;gap:8px;font-size:15px;font-weight:700}
+input,textarea{font:inherit;font-size:17px;color:var(--ink);background:#f3f4f6;border:2px solid transparent;border-radius:16px;padding:14px 16px;min-height:54px;width:100%;transition:border-color 250ms}
+textarea{min-height:130px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--ink)}
+input::placeholder,textarea::placeholder{color:#6a7080}
+.status{font-size:15px;color:var(--mute)}
+footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:40px 8px calc(32px + env(safe-area-inset-bottom,0px));color:var(--mute);font-weight:500}
+
+@media (max-width:980px){
+  .hero{grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none;grid-template-areas:"name name" "v1 v2" "hook hook" "call call" "yt yt"}
+  .v1,.v2{aspect-ratio:9/14}
+  .services,.work,.phone{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ytgrid,.duo,.consult,.fit,.steps{grid-template-columns:minmax(0,1fr)}
+  .ytgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ytgrid .intro{grid-column:1/-1}
+  .work .v.big{grid-column:span 2;grid-row:span 1;aspect-ratio:4/5}
+  .work{grid-auto-rows:auto}
+  .work .v{grid-row:span 1;aspect-ratio:9/14}
+}
+@media (max-width:600px){
+  :root{--r:24px;--gap:10px}
+  body{font-size:16px}
+  .t{padding:22px}
+  .name .btn{width:100%}
+  .services{grid-template-columns:minmax(0,1fr)}
+  .services .t{min-height:0;flex-direction:row;align-items:center;justify-content:flex-start;gap:16px}
+  .ytgrid{grid-template-columns:minmax(0,1fr)}
+  .phone .big{grid-column:1/-1}
+  .work .intro{grid-column:1/-1}
+}
+@media (prefers-reduced-motion:reduce){
+  .t,.btn,.stack img{transition:none}
+  .js .call .msg{opacity:1;transform:none;transition:none}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add("js")</script>
+<div class="page">
+<header class="bento hero">
+  <div class="t name">
+    <span class="label">AI consultant</span>
+    <div>
+      <h1>Ralph</h1>
+      <p>I build AI for creators and small businesses, and I keep it running.</p>
+    </div>
+    <div class="row"><a class="btn" href="#consult">Ask for a free consult</a><a href="#work">See the work</a></div>
+  </div>
+  <div class="t v v1"><span class="chip">Sold on TikTok Shop</span><video src="media/castor.mp4" poster="media/castor.jpg" autoplay muted loop playsinline aria-hidden="true"></video></div>
+  <div class="t hook"><span class="label">How I work</span><b>No desktop. No laptop. Just my phone.</b></div>
+  <div class="t v v2"><span class="chip">Sold on TikTok Shop</span><video src="media/vans.mp4" poster="media/vans.jpg" autoplay muted loop playsinline aria-hidden="true"></video></div>
+  <div class="t call" role="group" aria-label="Example call to the phone assistant">
+    <span class="label live">Phone assistant, answering now</span>
+    <p class="msg them"><small>Caller, 9:40 pm</small>Can I book a lesson this weekend?</p>
+    <p class="msg ai"><small>Assistant</small>Yes. I'll take your name and number for a callback.</p>
+  </div>
+  <div class="t yt">
+    <div class="stack" aria-hidden="true">
+      <img class="on" src="media/yt-higgsfield-content-factory.jpg" alt="" width="960" height="540">
+      <img src="media/yt-higgsfield-3d-angles.jpg" alt="" width="960" height="540">
+      <img src="media/yt-higgsfield-playable-games.jpg" alt="" width="960" height="540">
+      <img src="media/yt-ideogram-vector.jpg" alt="" width="960" height="540">
+      <img src="media/yt-canva-craft.jpg" alt="" width="960" height="540">
+    </div>
+    <a href="https://www.youtube.com/@dayoneaitools1" target="_blank" rel="noopener">My AI tutorial channel</a>
+  </div>
+</header>
+
+<main>
+  <section class="sec" aria-label="What I build">
+    <div class="bento services">
+      <div class="t"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="13" height="14" rx="3"/><path d="m16 10 5-3v10l-5-3"/></svg></span><div><b>AI product videos</b><br><span>Ads that look filmed, made from your real product photos.</span></div></div>
+      <div class="t"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-3 2a11 11 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><div><b>AI phone assistant</b><br><span>Answers every call, books people in and sends you the details.</span></div></div>
+      <div class="t"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg></span><div><b>Content on autopilot</b><br><span>A channel that finds the topic, writes it, voices it and edits it.</span></div></div>
+      <div class="t"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 7a4 4 0 0 0 5 5l-8 8a2.8 2.8 0 0 1-4-4l8-8a4 4 0 0 0-1-1Z"/></svg></span><div><b>Custom tools</b><br><span>Trackers and checks built around how you already work.</span></div></div>
+    </div>
+  </section>
+
+  <section class="sec" id="work">
+    <div class="sh"><h2>Product videos that sold</h2></div>
+    <div class="bento work">
+      <div class="t intro"><span class="label live">Running since Oct 1, 2026</span><div><h3>For a TikTok Shop creator</h3><p style="margin-top:12px">She sends the product. I write the script, make every shot from her real product photos, add the voice and edit it. No two videos look the same.</p></div></div>
+      <div class="t v big"><span class="chip">Clip-on flashlight</span><video data-src="media/path.mp4" poster="media/path.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+      <div class="t v"><span class="chip">Repellent pouches</span><video data-src="media/pouches.mp4" poster="media/pouches.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+      <div class="t v"><span class="chip">Nasal dilators</span><video data-src="media/dilator.mp4" poster="media/dilator.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+      <div class="t v"><span class="chip">Castor oil roll-on</span><video data-src="media/roller.mp4" poster="media/roller.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+      <div class="t v"><span class="chip">Card game</span><video data-src="media/box.mp4" poster="media/box.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></div>
+      <div class="t note"><b>Every clip here is from a video that made sales on TikTok Shop.</b></div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="bento ytgrid">
+      <div class="t intro"><span class="label live">Running since Sep 29, 2026</span><h3>Day One AI, my own YouTube channel</h3><p>When a new AI tool comes out, my system finds it, writes the how-to, voices it and edits it. I watch every video before it goes public.</p><a class="btn ink" href="https://www.youtube.com/@dayoneaitools1" target="_blank" rel="noopener" style="align-self:flex-start">Watch the channel</a></div>
+      <a class="t" href="https://youtu.be/YjuJMqgZeRA" target="_blank" rel="noopener"><img src="media/yt-higgsfield-content-factory.jpg" alt="Thumbnail: Higgsfield Content Factory tutorial" width="960" height="540"><span>Higgsfield Content Factory</span></a>
+      <a class="t" href="https://youtu.be/bTl0btJGRvE" target="_blank" rel="noopener"><img src="media/yt-higgsfield-3d-angles.jpg" alt="Thumbnail: Higgsfield 3D Angles tutorial" width="960" height="540"><span>Higgsfield 3D Angles</span></a>
+      <a class="t" href="https://youtu.be/6M9Ca79Z2r4" target="_blank" rel="noopener"><img src="media/yt-higgsfield-playable-games.jpg" alt="Thumbnail: Higgsfield Playable tutorial" width="960" height="540"><span>Higgsfield Playable</span></a>
+      <a class="t" href="https://youtu.be/_fENrvfyXzA" target="_blank" rel="noopener"><img src="media/yt-ideogram-vector.jpg" alt="Thumbnail: Ideogram Vector tutorial" width="960" height="540"><span>Ideogram Vector 1.0</span></a>
+      <a class="t" href="https://youtu.be/IgqOV92Bz3A" target="_blank" rel="noopener"><img src="media/yt-canva-craft.jpg" alt="Thumbnail: Canva Craft tutorial" width="960" height="540"><span>Canva Craft</span></a>
+    </div>
+  </section>
+
+  <section class="sec bento duo">
+    <div class="t">
+      <span class="label live">Running since Oct 11, 2026</span>
+      <h3>A phone assistant for a Brooklyn driving school</h3>
+      <p>It answers day and night, answers questions about lessons, and after hours takes a name and number and sends the owner the message. Names and numbers below are made up.</p>
+      <div class="chat">
+        <p class="msg them"><small>Caller</small>Sure. It's Maria, 555 0142.</p>
+        <p class="msg ai"><small>Assistant</small>Thanks, Maria. That's 555 0142, right? I'll send it to the owner now.</p>
+      </div>
+    </div>
+    <div class="t">
+      <span class="label">Behind every job</span>
+      <h3>Tools I built for my own work</h3>
+      <p>I can build the same kind of thing around your business.</p>
+      <ul class="tools">
+        <li><b>A script check</b><span>No paid video gets made until the script passes every rule.</span></li>
+        <li><b>A spend tracker</b><span>Adds up what each video cost, step by step.</span></li>
+        <li><b>A frame checker</b><span>Looks at every frame for glitches before a client sees it.</span></li>
+        <li><b>A memory for every client</b><span>Custom AI skills that remember how each client likes things done.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec bento phone" id="phone">
+    <div class="t big">
+      <h2>No desktop. No laptop. <span>Just my phone.</span></h2>
+      <p>Every video, script, phone assistant and tool on this page was made on the phone in my hand. The heavy work runs in the cloud. I steer it, check it and send it out with my thumbs.</p>
+    </div>
+    <figure class="t shot" style="margin:0"><img src="media/draft-1.jpg" alt="The first draft of this page" width="996" height="1302"><b>Where we started</b></figure>
+    <figure class="t shot now" style="margin:0"><div class="scr"><img src="media/phone-live.jpg" alt="The page live on a phone" width="585" height="1266"></div><b>Where we are now</b></figure>
+  </section>
+
+  <section class="sec">
+    <div class="sh"><h2>How it works</h2><p>Three steps. The first one is free.</p></div>
+    <ol class="bento steps">
+      <li class="t"><b>Tell me what eats your week</b><span>We talk for free. You tell me what you do and what takes too long.</span></li>
+      <li class="t"><b>I build it and show you</b><span>You see it working before anything goes live.</span></li>
+      <li class="t"><b>I run it, or hand it over</b><span>You pick: I keep it running, or I show you how and hand it over.</span></li>
+    </ol>
+  </section>
+
+  <section class="sec">
+    <div class="sh"><h2>Is this a fit?</h2><p>Straight answer before you write. If it's not a fit, I'll tell you on the first message.</p></div>
+    <div class="bento fit">
+      <div class="t yes"><h3>A good fit if</h3><ul>
+        <li>The same jobs eat your week and you want them off your plate.</li>
+        <li>You want something built and working that you can use.</li>
+        <li>You'll look at what I make before it goes live and tell me what's off.</li>
+        <li>You want me to keep it running, or to hand it over when it's ready.</li></ul></div>
+      <div class="t no"><h3>Skip this if</h3><ul>
+        <li>You want a promise of sales or income. I don't make those.</li>
+        <li>You want calls or texts sent to people who never asked for them.</li>
+        <li>You want fake reviews or made-up results.</li>
+        <li>You want it live today without checking it first.</li></ul></div>
+    </div>
+  </section>
+
+  <section class="sec bento consult" id="consult">
+    <div class="t ask"><h2>Ask for a free consult</h2><p>Tell me what you do and what takes too much of your time. I'll reply by email.</p></div>
+    <form class="t" id="consult-form" novalidate>
+      <label for="f-name">Your name<input id="f-name" name="name" type="text" autocomplete="name" required></label>
+      <label for="f-email">Email<input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required></label>
+      <label for="f-msg">What do you need help with?<textarea id="f-msg" name="message" required placeholder="For example: my phone rings while I'm with customers."></textarea></label>
+      <div><button class="btn ink" type="submit">Send</button></div>
+      <p class="status" id="f-status" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+<footer><span>Ralph, AI consultant</span><a href="https://www.youtube.com/@dayoneaitools1" target="_blank" rel="noopener">Day One AI on YouTube</a></footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/ScrollTrigger.min.js"></script>
+<script>
+(function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var vids = [].slice.call(document.querySelectorAll("video"));
+  if (reduce) vids.forEach(function (v) { v.removeAttribute("autoplay"); if (v.dataset.src) v.src = v.dataset.src; v.pause(); });
+  else if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { var v = e.target;
+      if (e.isIntersecting) { if (v.dataset.src && !v.src) v.src = v.dataset.src; var p = v.play(); if (p && p.catch) p.catch(function () {}); } else v.pause(); }); }, { rootMargin: "200px" });
+    vids.forEach(function (v) { io.observe(v); });
+  }
+
+  // Hero call tile: the two lines arrive like a live chat
+  var msgs = [].slice.call(document.querySelectorAll(".call .msg"));
+  if (reduce) msgs.forEach(function (m) { m.classList.add("in"); });
+  else msgs.forEach(function (m, k) { setTimeout(function () { m.classList.add("in"); }, 700 + k * 1100); });
+
+  // YouTube tile: thumbnails take turns
+  var th = [].slice.call(document.querySelectorAll(".stack img")), n = 0;
+  if (!reduce) setInterval(function () { th[n].classList.remove("on"); n = (n + 1) % th.length; th[n].classList.add("on"); }, 2600);
+
+  if (window.gsap && window.ScrollTrigger) {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.matchMedia().add("(prefers-reduced-motion: no-preference)", function () {
+      gsap.from(".hero > .t", { y: 24, opacity: 0, scale: .97, duration: .7, ease: "power3.out", stagger: .07 });
+      ScrollTrigger.batch(".sec .t", { start: "top 88%", once: true,
+        onEnter: function (els) { gsap.from(els, { y: 28, opacity: 0, duration: .6, ease: "power3.out", stagger: .08 }); } });
+    });
+  }
+
+  document.getElementById("consult-form").addEventListener("submit", function (e) { e.preventDefault();
+    document.getElementById("f-status").textContent = "Sample page: on the live site this sends to your email."; });
+})();
+</script>
+</body>
+</html>

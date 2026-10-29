@@ -1,0 +1,39 @@
+{
+ "photos": [
+  "ref/real/device_back_buttons.jpg",
+  "ref/real/device_front_leds.jpg",
+  "ref/real/box_front.jpg",
+  "ref/real/box_back.jpg",
+  "ref/real/box_side_specs.jpg",
+  "ref/real/box_end_colour.jpg",
+  "refs/real/closeup_back_buttons.jpg",
+  "refs/real/closeup_front_leds.jpg"
+ ],
+ "facts": [
+  "Grace's unit is BLACK (box end: Black ticked). Model LY-10 'Multi-function Camera Detector', ABS + PC + silicone, 60 mAh 3.7 V battery (box side panel)",
+  "body: one soft matte black rounded oval (a stadium/pill shape), about 6 cm tall x 4 cm wide x 1.8 cm thick, 50 g; about the size of an AirPods case; a black silicone teardrop loop comes out of the narrow bottom end, about 11 cm long overall with the loop (listing 4.29 x 1.61 x 0.71 in)",
+  "a tall rounded-rectangle viewing window through the middle of the body, in a glossy black bezel; the filter glass looks glossy teal-green with a thin red edge from an angle; looking through it the world looks red",
+  "BACK face (the side you look from): three tiny round speaker holes in a row near the top, the window, and below it two pill-shaped raised buttons side by side: the left one with a small circle (power), the right one with a small sun icon (flashlight); no other print, no logo",
+  "FRONT face (the side that points at the room): at the top a small round black sensor on the left, a tiny slot in the middle and one square white flashlight LED on the right; four clear dome LEDs, two on each side of the window; the four LEDs glow red when scanning or alarming; the flashlight LED shines white",
+  "USB-C port on one long side edge (listing side view); no logo or text anywhere on the device",
+  "how it is used: turn it on, the red LEDs flash, hold the window up to one eye with the LEDs facing the room and look through it; a camera lens bounces the red light back as a bright red pinpoint (listing: optical filter lens + infrared spectrum scanning; box: dual infrared detection modes)",
+  "door alarm: hang it by the loop on a door handle; the vibration sensor sets off a loud alarm and flashing red LEDs when the door or handle moves (box back point 2, listing point 3)",
+  "built-in LED flashlight (box: LED night light; box back point 3: portable flashlight)",
+  "it does NOT beep when it finds a camera (buyer comment: 'why does mine not beep? when finding cameras?'); no GPS, no RF scanning, no app",
+  "sold as 1-pack and 2-pack, black or white (listing variants)"
+ ],
+ "forbid": [
+  "purple window",
+  "pink window",
+  "logo",
+  "brand name",
+  "display",
+  "antenna",
+  "GPS",
+  "beeps when it finds",
+  "keyring",
+  "metal ring",
+  "white body",
+  "digital screen"
+ ]
+}

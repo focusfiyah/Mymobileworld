@@ -5,7 +5,7 @@ A target is either a Day One job folder (jobs/<slug>, run from the Dayone-ai roo
 file (any project, 16:9 or 9:16; every relative path in it resolves against the spec's own folder):
 
   {"name": "pbf-v2", "out": "cover.png", "size": "9:16", "top": "...", "big": "...", "badge": "",
-   "image": "still.png" | "url": "https://...", "prompt", "stat", "stat_label", "focus", "accent",
+   "image": "still.png" | "url": "https://...", "prompt", "stat", "stat_label", "focus", "accent", "ink",
    "pool": ["../*/cover.png"], "ledger": "../looks.json", "mark": null}
 
   looks.py render TARGET              3 candidate looks + a labelled sheet (_looks_sheet.png next to the target)
@@ -304,8 +304,8 @@ def busy_focus(img):
     return f"{round((x + .5) / 8 * 100)}% {round((y + .5) / 5 * 100)}%"
 
 
-def palette(accent, bg):
-    ink, paper = "#141414", "#f4f1ea"
+def palette(accent, bg, ink=None):
+    ink, paper = ink or "#141414", "#f4f1ea"
     on_accent = ink if luma(hexrgb(accent)) > 150 else "#ffffff"
     r, g, b = hexrgb(accent)
     note = "#%02x%02x%02x" % tuple(int(c + (255 - c) * 0.72) for c in (r, g, b))      # accent, light, for paper
@@ -416,7 +416,9 @@ def closest(img, t):
     for f in t.pool_files():
         if f.resolve() == t.out.resolve():
             continue
-        best = max(best, (shared(c, cells(f, grid)), f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem))
+        cand = (shared(c, cells(f, grid)), f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem)
+        if cand[0] > best[0]:   # compare scores only: a tie at 0.0 against the (0.0, None) start used to crash
+            best = cand
     return best
 
 
@@ -489,8 +491,8 @@ def eligible(fields, size="16:9"):
             and (size == "16:9" or "v" in s)]
 
 
-def build(band, fields, img, accent, out, size="16:9", mark=None):
-    pal = palette(accent, BAND_BG[band])
+def build(band, fields, img, accent, out, size="16:9", mark=None, ink=None):
+    pal = palette(accent, BAND_BG[band], ink)
     f = {k: html.escape(v) for k, v in fields.items()}
     f.update(IMG=data_uri(img), MARK=data_uri(mark, "PNG") if mark and Path(mark).exists() else "")
     # the loupe magnifies, but never past 1.2x the source pixels (Ralph's overlay rule: past that it goes soft)
@@ -526,7 +528,7 @@ def cmd_render(a):
     if not cands:
         sys.exit(f"no band left for {t.size}: every eligible one was used in the last {REPEAT_WINDOW}")
     pages = [build(b, fields, t.image(mobile=True) if b == "phone" else img, accent, t.dir / f"_look_{b}.png",
-                   t.size, t.mark) for b in cands]
+                   t.size, t.mark, t.look.get("ink")) for b in cands]
     reps = render_png(pages, t.size)
     rows = []
     for b, rep in zip(cands, reps):

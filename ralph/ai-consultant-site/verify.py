@@ -2,8 +2,8 @@
 Site source: /home/user/focusfiyah.github.io (served locally on a free port for browser checks)."""
 import sys, os, re, json, glob, subprocess as sp, threading, http.server, socketserver, functools, html
 
-SITE = "/home/user/focusfiyah.github.io"
-INDEX = os.path.join(SITE, "index.html")
+SITE = os.environ.get("SITE", "/home/user/focusfiyah.github.io")  # SITE/PAGE env: run the checks on a mockup folder (r2)
+INDEX = os.path.join(SITE, os.environ.get("PAGE", "index.html"))
 SHOTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "proof")
 SKILL = (glob.glob("/root/.claude/skills/synced/*/web-design-stack") + ["/home/user/Mymobileworld/.claude/skills/web-design-stack"])[0]
 
@@ -18,7 +18,7 @@ def serve():
     h = functools.partial(Quiet, directory=SITE)
     srv = socketserver.TCPServer(("127.0.0.1", 0), h)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
-    return srv, f"http://127.0.0.1:{srv.server_address[1]}/"
+    return srv, f"http://127.0.0.1:{srv.server_address[1]}/{os.environ.get('PAGE', '')}"
 
 
 def browser(fn):
@@ -64,7 +64,7 @@ def hero():
     def run(b, url):
         pg = b.new_page(viewport={"width": 390, "height": 844})
         pg.goto(url, wait_until="load", timeout=60000); pg.wait_for_timeout(600)
-        for sel in [".over h1", ".pitch", ".actions .btn"]:
+        for sel in ["nav .logo", "h1", ".lede", ".cta .btn"]:  # round 2 layout (option A, 2026-10-29)
             r = pg.locator(sel).bounding_box()
             if not r: fail(f"{sel} missing")
             if r["y"] < 0 or r["y"] + r["height"] > 844 or r["x"] < 0 or r["x"] + r["width"] > 390:
