@@ -1,5 +1,5 @@
 # Ralph AI avatar test (2026-10-26)
 
-Status: 2026-10-29: two voice takes ready: ElevenLabs (vo/line.mp3, 12.1 s) and the FREE Chatterbox clone Ralph approved for AI on Autopilot (vo/line_cbx.wav, 14.4 s, words checked, vo_cbx.py + words_check.py). run.py now uses the free voice by default (VO=vo/line.mp3 for ElevenLabs); avatar test with it = fal $1.15 + Kie $0.58 = $1.73 (Ralph OK'd $1.80). Waiting on his photo.
+Status: 2026-10-29: FREE real-video twin works: MuseTalk 1.5 on CPU (tools/musetalk_setup.sh, /root/.ram-tools/musetalk) + Ralph's Talking 04 video (Drive, trimmed to work/base04.mp4) + his free Chatterbox voice -> review/free_twin_v1.mp4, $0, 46 min first run (15 min face map once per base video, ~16 min per 14 s line). QC: lips follow words; mouth/beard area softer than the face; mouth a bit open in pauses. Paid test ($1.73) still waiting on his photo + OK. SadTalker not tested yet (disk).
 
 Files: script.txt, humanizer.md, readability.txt, vo/line.mp3, kling_prompt.txt, BOOK.md, GATES.md, run.py, check.py, out/.
