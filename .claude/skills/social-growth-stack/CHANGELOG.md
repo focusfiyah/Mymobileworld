@@ -1,0 +1,1 @@
+- 2026-10-29: created (Ralph: "Yes" to bringing in the picked social media + marketing skills; the order of work, his accounts, free tools instead of WoopSocial, his content-mix idea).
