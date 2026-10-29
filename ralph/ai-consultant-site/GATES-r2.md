@@ -54,3 +54,9 @@ MP = ralph/ai-consultant-site/r2
   CHECK: curl -s https://focusfiyah.github.io/ | grep -c 'id="apps"\|In development\|Ready Avatar Motion\|<span>Apps</span>'
   EXPECT: 5
   EVIDENCE: met 2026-10-29: 5 matching lines (section, "In development" tag, card, Apps twice in the band); section + "In development" tag + "Coming soon" card + Apps in the band; all 9 site checks pass after it (detector caught grey text on the yellow card, fixed)
+
+## Apps section, general (Ralph 2026-10-29: "No don't mention it. Just say in general that we develop customized apps. Make it sound good")
+- [x] G13: RAM is not named anywhere on the live page; the Apps section speaks about custom apps in general
+  CHECK: curl -s https://focusfiyah.github.io/ | grep -ciE 'Ready Avatar|\bRAM\b|In development|Coming soon'
+  EXPECT: 0
+  EVIDENCE: met 2026-10-29: 0; section "Custom apps, built around your business", card "Your app / Made for one business: yours." with 4 example uses, "Custom apps" in the band; all 9 site checks pass. G12 (RAM card) replaced by this.

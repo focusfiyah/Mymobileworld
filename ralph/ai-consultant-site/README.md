@@ -1,5 +1,5 @@
 # Ralph AI consultant site (2026-10-28)
-Status (2026-10-29): LIVE with option A (bold colour), Ralph's pick, no "my", phone section removed (Ralph). All 9 site checks pass; gates GATES-r2.md 10 of 11 + G8 brain. Form unchanged (FormSubmit, mocked test passes; no new live send). Review page https://claude.ai/artifact/F6TEtGRLuofgeNG5hhFnP5. $0. + 2026-10-29 Apps section: RAM (Ready Avatar Motion) shown as in development, Apps added to the band (Ralph).
+Status (2026-10-29): LIVE with option A (bold colour), Ralph's pick, no "my", phone section removed (Ralph). All 9 site checks pass; gates GATES-r2.md 10 of 11 + G8 brain. Form unchanged (FormSubmit, mocked test passes; no new live send). Review page https://claude.ai/artifact/F6TEtGRLuofgeNG5hhFnP5. $0. + 2026-10-29 Apps section: "Custom apps, built around your business" (general; RAM not named, Ralph), "Custom apps" in the band.
 
 
 Round 1: DONE 2026-10-28 (+ "All of this, from my phone" section, Ralph asked; + "Is this a fit?" section above the form, Acuna idea 6, live 2026-10-28): LIVE at https://focusfiyah.github.io, form activated and tested (test reached Gmail). 13 of 13 gates met. Optional: swap the email in the page for the FormSubmit random code (needs the code from the activation page). Cost $0.
