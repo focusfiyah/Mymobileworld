@@ -6,7 +6,7 @@ fal MiniMax H3 Max lip sync (768P) and Kie Kling AI Avatar Standard, side by sid
 The Kie task goes through grace/paid.py (ledger, repeat guard); the fal spend is added to grace/spend.json other.
 The Grace script gate (TikTok Shop research proofs) does not apply to this personal test.
 """
-import datetime, hashlib, json, subprocess, sys, threading, time
+import datetime, hashlib, json, os, subprocess, sys, threading, time
 from pathlib import Path
 import requests
 
@@ -32,8 +32,11 @@ def upload(p):
     return url
 
 
+VO = HERE / os.environ.get("VO", "vo/line_cbx.wav")   # free Chatterbox voice (default, 2026-10-29); VO=vo/line.mp3 = ElevenLabs
+
+
 def audio_s():
-    return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(HERE / "vo/line.mp3")]))
+    return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(VO)]))
 
 
 def kie(img, aud):
@@ -83,6 +86,6 @@ if __name__ == "__main__":
         im = ImageOps.exif_transpose(Image.open(sys.argv[2])).convert("RGB"); im.thumbnail((2048, 2048))
         im.save(HERE / "in/photo.jpg", quality=95); print("in/photo.jpg", im.size, round(im.size[0] / im.size[1], 2))
     elif sys.argv[1] == "go":
-        img, aud = upload(HERE / "in/photo.jpg"), upload(HERE / "vo/line.mp3"); print(img, aud)
+        img, aud = upload(HERE / "in/photo.jpg"), upload(VO); print(img, aud)
         ts = [threading.Thread(target=f, args=(img, aud)) for f in (kie, fal)]
         [t.start() for t in ts]; [t.join() for t in ts]
