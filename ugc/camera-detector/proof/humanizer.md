@@ -7,3 +7,6 @@ Tells found in the first draft and fixed:
 - CTA drafted as "one for the door and one for your bag" (staged pair that doesn't hold up: one unit does both); now a real second person, "one for you and one for your bestie".
 Remaining: the hook keeps the library's "seen everywhere / nobody shows" turn on purpose (H105). No dashes, no bold, no closers.
 Caption: two plain lines + hashtags, one emoji, #ad first.
+
+## 2026-10-29 change (Ralph: Grace's link has no 2-pack)
+Line 8 "grab the two-pack" -> "grab two, one for you and one for your bestie." Read aloud again: no new tells, no dash, still one concrete second person.

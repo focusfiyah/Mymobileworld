@@ -28,7 +28,7 @@ Sent to Ralph: https://claude.ai/artifact/WxfuVo6J1eMDS5c779TVNC (2026-10-28)
 5. At night, hang it on the door handle, and if anybody moves that door, it goes off.
 6. It even has a flashlight for when you get up in the dark.
 7. Once you have it, you'll be checking every bathroom you walk into.
-8. Holiday trips are coming up, so grab the two-pack, one for you and one for your bestie.
+8. Holiday trips are coming up, so grab two, one for you and one for your bestie.
 9. I linked it in the orange cart for you.
 Why: the hook promises the one thing none of the winners show (how to use it), the pain names real hiding spots (listing + the 677K shower-head video), lines 3-4 are the how-to and the proof (answers "do these work" and the "just a flashing red light" reviews), then the door alarm and flashlight, a brag-style honest line, real holiday-travel timing with two units, her orange-cart close.
 Caption: "Nobody shows you this part 👀 Look through the little window and a hidden lens shines back red. Then hang it on the door at night. #ad #cameradetector #travelsafety #hotelsafety #airbnb #tiktokshopfinds"
@@ -47,7 +47,7 @@ Flag: both your examples (and 3 top videos) say it "beeps / blasts an alarm the 
 | S7 | 19.3-21.2 | and if anybody moves that door, it goes off. | The lever dips by itself, the detector swings, its 4 LEDs flash red | HAND-FREE | Flow first (Omni) |
 | S8 | 21.2-23.9 | It even has a flashlight for when you get up in the dark. | Night POV in a bedroom: the white beam lights one pool on the floor ahead (question 4) | HAND | Flow first (Omni) |
 | S9 | 23.9-26.6 | Once you have it, you'll be checking every bathroom you walk into. | POV in a second hotel bathroom (vessel sinks): detector held up toward the mirror and ceiling vent, pan up | HAND | Flow first (Omni) |
-| S10 | 26.6-30.6 | Holiday trips are coming up, so grab the two-pack, one for you and one for your bestie. | Open carry-on on the bed: two detectors on folded clothes, her hand takes one | HAND | Flow first (Omni) |
+| S10 | 26.6-30.6 | Holiday trips are coming up, so grab two, one for you and one for your bestie. | Open carry-on on the bed: two detectors on folded clothes, her hand takes one | HAND | Flow first (Omni) |
 | S11 | 30.6-33.5 | I linked it in the orange cart for you. | End: ONE detector on a teal nightstand by red patterned wallpaper, slow push-in | HAND-FREE | Flow first (Omni) |
 Rooms: 6 real photos (rooms/SOURCES.md, Pexels/Pixabay): colourful hotel room, navy-tile bathroom, gold-lever door, red-wallpaper + teal nightstand, colourful-pillow bedroom, vessel-sink bathroom. Bright neutral grade (S8 night: cool blue shade).
 Hand: Grace's sheet without the bracelet (as HEVEBLUE; question 2), French tips, her rings, cream knit sleeve. No face, no lip sync.
@@ -68,7 +68,7 @@ Free fixes first: trim to the clean window before any redo.
 | Product clips, Omni 1.1 Flash in your Flow app (12 credits each, 96 credits) | 8 x $0 | 0.00 |
 | ...same 8 on Kie only if Flow fails or you can't (asked first) | 8 x $0.315 | 2.52 |
 | One likely clip redo, asked before it runs | 1 x $0.315 | 0.315 |
-Expected spend with Flow: $1.41. The total includes the Kie fallback so nothing surprises you. ElevenLabs: ~700 chars (Grace cloned v5).
+Expected spend with Flow: $1.41. The total includes the Kie fallback so nothing surprises you. (Ralph 2026-10-29: straight to Kie, so expected $3.75: 10 stills + 2 Seedance + 8 Omni.) ElevenLabs: ~700 chars (Grace cloned v5).
 Month so far (`python3 grace/spend.py`): $198.55 (no cap in October; $100 cap starts in 4 days).
 
 TOTAL: $4.243
@@ -83,6 +83,10 @@ TOTAL: $4.243
 5. Stills on Kie ($0.90) or your Gemini app ($0, I send the kit)? Clips in Flow first (default) or straight to Kie?
 6. Two-pack: does Grace's shop link carry the 2-pack (the listing has Black-2PCS)? If not, line 8 becomes "grab two".
 7. On-screen text: none (default), or "check your hotel room like this" on the opener?
+
+## 7b. Ralph's answers (2026-10-29: "1. Yes 2. Yes 3. Yes ok ( that's does not have to be a hard rule, if needed then we do it 4. Yes 5. Straight to Kie 6. No 7. No")
+1. Grace. 2. Hand sheet WITHOUT the bracelet. 3. S5 red through-the-window shot kept (product's own light effects are not a hard no when the product needs them). 4. S8 night flashlight in cool blue shade. 5. Stills on Kie, the 8 product clips straight to Kie (Omni 1.1 Flash, $0.315 each; Seedance first-frame if Omni gives 500s), no Flow kits. 6. Grace's link has no 2-pack: line 8 is "grab two" (as offered in question 6). 7. No on-screen text in Grace's version.
+Expected spend now: $3.75 within the $4.243 TOTAL.
 
 ## 8. Prompts
 Every still and clip prompt: prompts/still_<ID>.txt and prompts/<ID>.txt (built by build_prompts.py from shots.json, written with prompt-master, linted PROMPT_LINT_OK and marked checked). Still refs, numbered and named: 1 product sheet, 2 the real close-up of the face the camera sees (back or front), 3 the room photo, 4 Grace's hand sheet. Clip refs: 1 the approved still ("Recreate image 1 exactly as the first frame"), 2 the real face close-up, 3 sheet, 4 hand sheet. Every prompt: size first (AirPods case), teal-green window never purple, no logo or text on the device, LEDs only on the front face, one grip, never turns or flips, no sparkle words, no text, no music, no voice. S2/S3 (no product): Seedance first frame, no hand at any time.

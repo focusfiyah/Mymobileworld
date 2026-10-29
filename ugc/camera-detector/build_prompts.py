@@ -19,6 +19,7 @@ def still(s):
     if prod:
         add(SHEET, "the product reference sheet built from real photos of this exact camera detector")
         add(FACE[s["face"]], f"a real close-up of the detector's {s['face'].upper()} face")
+    for er in s.get("extra_refs", []): add(er[0], er[1])
     add(s["room"], "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist)")
     two = "TWO identical camera detectors, both exactly as described; no third one." if s.get("two") else "Only ONE camera detector in the frame."
@@ -45,7 +46,7 @@ def clip(s):
                                   " the hand keeps one grip and enters and leaves from the frame edge; no second hand and no other jewellery appear.")
     else:
         extra += " No hand, fingers or people appear at any time."
-    tail = B["omni_tail"].replace("light that never changes", "night light that never changes" if s["leds"] == "flash" else "bright neutral light that never changes")
+    tail = B["omni_tail"].replace("4 seconds", f"{s.get('seconds', 4)} seconds").replace("light that never changes", "night light that never changes" if s["leds"] == "flash" else "bright neutral light that never changes")
     if s.get("two"): tail = tail.replace("no second detector appears", "no third detector appears")
     if "locked off" in s["motion"]: tail = tail.replace("One continuous handheld phone shot", "One continuous phone shot from a tripod")
     return r, f"{head}{extra} Motion: {s['motion']} {tail}"
@@ -59,3 +60,23 @@ if __name__ == "__main__":
         Path(f"prompts/still_{s['id']}.txt").write_text(p1 + "\n"); Path(f"prompts/{s['id']}.txt").write_text(p2 + "\n")
         refs[s["id"]] = {"still_refs": r1, "clip_refs": r2}
     Path("prompts/refs.json").write_text(json.dumps(refs, indent=1)); print("built", len(refs), "shots")
+
+
+def seedance(s):
+    """Product clips on Seedance 2.0 Mini first-frame when Omni on Kie gives 500s (BOOK.md 7b, Ralph 2026-10-29)."""
+    keep = ("The camera detector stays exactly as in the first frame the whole time: the same small matte black rounded oval body, "
+            "the same tall teal-green window in its glossy black bezel, the same buttons, holes and LEDs on the same face, the same short "
+            "black teardrop loop; it never turns, flips, grows, shrinks or changes shape, and no "
+            + ("third detector appears." if s.get("two") else "second detector appears."))
+    hand = (" The hand keeps its French-tip nails, rings and bare wrist and one grip; no second hand appears."
+            if s["hand"] else " No hand, fingers or people appear at any time.")
+    light = "Soft cool night light that never changes." if s.get("leds") == "flash" else "Bright neutral light that never changes."
+    return (f"Animate this image as the first frame, keeping its room, light and framing. Motion: {s['motion']} {keep}{hand} "
+            f"{light} No music, no voice, no captions, no on-screen text.")
+
+
+if __name__ == "__main__":
+    for s in SH:
+        if s.get("free") or s.get("no_product"): continue
+        Path(f"prompts/{s['id']}_seedance.txt").write_text(seedance(s) + "\n")
+    print("seedance prompts ok")

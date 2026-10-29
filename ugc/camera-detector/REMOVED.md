@@ -14,3 +14,4 @@ Check every cut against this list and the last round's notes before it goes to R
 - Purple or pink window (listing renders): the real window is teal-green (this job)
 - A white unit: Grace's is black (this job)
 - Key tag on the door lever (room photo C has one): kept out of the S6/S7 stills by the prompt (this job)
+- Captions on House of Rameau versions (Ralph 2026-10-29: "Actually no captions for HofR videos"); the hook text stays

@@ -44,6 +44,27 @@ def card(i):
 <pre id="p{i}" class="kitp">{E(Path('prompts/flow_'+i+'.txt').read_text().strip())}</pre>
 <p class="note">4. Download at 1080 and send it back in the chat.</p></details>"""
 KITS = "".join(card(i) for i in ORDER)
+
+# v13 Flow kit (Ralph 2026-10-29 "Flow kit"): 4 hand-free clips that START from Grace's own photos (refs/grace_real), nothing pasted
+import shutil
+K13 = Path("review/kit13"); K13.mkdir(parents=True, exist_ok=True)
+for p in Path("kit_v13").glob("*.jpg"): shutil.copy(p, K13 / p.name)
+F13 = [("F2", "For the person who loves anything", "S1 hook, 0.0-1.5 s", "07 front, on her cream handbag"),
+       ("F1", "mini, how cute is this little purse?", "S2, 1.5-4.2 s", "01 front close-up on the desk"),
+       ("F4", "Grab one for yourself and one for a friend who loves all things mini.", "S6, 12.3-16.4 s", "09 side, on the handbag"),
+       ("F3", "It's linked in the orange cart.", "S1 end, 16.4-18.2 s", "08 from above, on the handbag")]
+def card13(i, line, slot, photo):
+    imgs = [(f"kit13/{i}-1_start.jpg", "start frame (Grace's photo " + photo.split()[0] + ")"), ("kit13/ref_padlock.jpg", "padlock close-up"), ("kit13/ref_scarf.jpg", "scarf close-up"), ("kit13/ref_sheet_grace.jpg", "product sheet")]
+    fig = "".join(f'<figure><img src="{a}" alt="{i} image {n+1}"><figcaption>{n+1} · {b}</figcaption><button class="sv" data-src="{a}">Save</button></figure>' for n, (a, b) in enumerate(imgs))
+    first = ' <span class="chip warn">make this one first</span>' if i == "F2" else ""
+    return f"""<details class="box"{' open' if i == 'F2' else ''}><summary><b>{i}</b>{first} · {E(slot)} · &ldquo;{E(line)}&rdquo;</summary>
+<p class="note">From Grace's photo {E(photo)}. HAND-FREE, slow camera move, the charm only sways a little.</p>
+<ol><li>Flow: new project › Video › <b>Gemini Omni Flash</b> › 9:16 › 4 s</li><li>Add these 4 images in this order (tap Save under each one). Number 1 goes in the start frame if Flow asks.</li></ol>
+<div class="kitimgs">{fig}</div>
+<p style="margin:0">3. Paste this prompt: <button class="cp" data-p="p{i}">Copy prompt</button> <button class="svp" data-p="p{i}">Save prompt</button></p>
+<pre id="p{i}" class="kitp">{E(Path('prompts/flow_'+i+'.txt').read_text().strip())}</pre>
+<p class="note">4. Download at 1080 and send it back in the chat.</p></details>"""
+KITS13 = "".join(card13(*x) for x in F13)
 SCRIPT = """<p class="note dlnote" id="dlnote" hidden>Saving isn't available in this view: long-press an image to save it, and press and hold the prompt text to copy it.</p>
 <script>
 (async()=>{const note=document.getElementById('dlnote');
@@ -93,7 +114,20 @@ table{{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}} t
 .tot td{{font-weight:700;border-bottom:none}} .sb{{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}} .pass{{color:var(--gold)}} .kitimgs{{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}} .kitimgs button,.cp,.svp{{font:600 .8rem var(--body);padding:6px 10px;border-radius:6px;border:1px solid var(--wine);background:var(--card);color:var(--wine);cursor:pointer}} details.box summary{{cursor:pointer;font:600 1rem var(--body)}} .redo{{color:var(--wine)}} .note{{margin:0;color:var(--muted)}} .facts b{{color:var(--gold)}}
 </style>
 <div class="wrap">
-<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · cut v12 ready (18 s, no pasted shots) · $9.24 spent, no more spend</p></header>
+<header><h1>Mini Bag Charm, burgundy</h1><p class="sub">Grace · cut v13 APPROVED 2026-10-29, in Drive as CURRENT · $9.24 Kie total</p></header>
+<section class="ask"><h2>Cut v13 · Grace's real charm (your Flow takes) · 18.2 s</h2><video src="cut_v13.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
+<ul><li><b>What changed from v12:</b> the 4 charm shots are now your Flow takes, all made from Grace's photos: hook = F2 (on the handbag's chain), "how cute is this little purse" = F1 (close-up on the desk), "grab one for yourself" = F4 (side view on the handbag), "orange cart" = F3 (from above). The earbuds and stash shots (S3, S5a, S5b) and Grace's recording are the same as v12. $0.</li>
+<li><b>Trimmed out, free:</b> F2's first 1.4 s (the padlock's clasp re-forms between 0.9 and 1.35 s; from 1.4 s it holds steady); F3's first 2 s (a fingertip pinches the strap at the top edge in the first second).</li>
+<li><b>Checked:</b> every frame of the 4 takes for jumps or a changing charm; first second and edges at 2x; levels -16.6 LUFS, peak -1.5; no text; REMOVED.md list; AI finish on.</li>
+<li><b>Two things to look at:</b> (1) in the hook the handbag's chain clips onto the charm's front strap; on Grace's handbag it hangs from a ring through the handle. (2) S5a and S5b are still the AI charm from v12: their scarf print and padlock sit a little differently from Grace's real one. Say if either should go.</li></ul>
+<details class="box"><summary>The 4 Flow takes as you made them</summary><div class="grid sb"><video src="F2_flow.mp4" controls playsinline muted preload="metadata" style="width:100%"></video><video src="F1_flow.mp4" controls playsinline muted preload="metadata" style="width:100%"></video><video src="F4_flow.mp4" controls playsinline muted preload="metadata" style="width:100%"></video><video src="F3_flow.mp4" controls playsinline muted preload="metadata" style="width:100%"></video></div></details>
+<figure><img src="cut_sheet_v13.jpg" alt="v13 every half second"><figcaption>Every half second of v13</figcaption></figure></section>
+<section class="box"><h2>v13 Flow kit · Grace's real charm · 4 clips, $0 (done)</h2>
+<ul><li><b>Why:</b> each clip STARTS from one of Grace's own photos, so the charm on screen is her real one in real light. Nothing is pasted on top.</li>
+<li><b>Cost:</b> 4 x 12 Flow credits = 48 credits, $0 on Kie.</li>
+<li><b>Order:</b> make <b>F2 first</b> (the hanging sway is the riskiest move). If the padlock and scarf look right to you, make the other 3. I check every frame of all 4 before they go in the cut.</li>
+<li><b>Where they go:</b> they replace the AI charm shots S1, S2, S6 and the S1 end in v12. Same voiceover, same length; S3, S5a and S5b stay.</li></ul></section>
+<section style="display:grid;gap:12px">{KITS13}{SCRIPT}</section>
 <section class="ask"><h2>Cut v12 · no pasted shots · 18.2 s</h2><video src="cut_v12.mp4" controls playsinline preload="metadata" style="width:100%;max-width:420px;border-radius:8px;border:1px solid var(--line)"></video>
 <ul><li><b>Your note on v11:</b> the pasted real charm still read as a sticker (the stocking and bag shots). A flat studio photo can't turn, catch the room's light or cast a real shadow, so it always gives itself away.</li>
 <li><b>Re-cut (your pick, $0):</b> only the shots that look filmed: S1, S2, S3, S5a, S5b, S6. Grace's same recording, trimmed: "For the person who loves anything mini, how cute is this little purse? You know how your earbuds always end up at the bottom of your bag? And you can stash your earbuds, lip balm, keys, or other tiny essentials inside. Grab one for yourself and one for a friend who loves all things mini. It's linked in the orange cart."</li>
