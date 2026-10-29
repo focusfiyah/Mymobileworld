@@ -19,6 +19,7 @@ def still(s):
     if prod:
         add(SHEET, "the product reference sheet built from real photos of this exact camera detector")
         add(FACE[s["face"]], f"a real close-up of the detector's {s['face'].upper()} face")
+    for er in s.get("extra_refs", []): add(er[0], er[1])
     add(s["room"], "the real room photo to use as the setting")
     if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist)")
     two = "TWO identical camera detectors, both exactly as described; no third one." if s.get("two") else "Only ONE camera detector in the frame."

@@ -165,8 +165,14 @@
    "two": true,
    "room": "rooms/roomE_bedroom_colour_pillows.jpg",
    "props": "an open soft-grey carry-on suitcase on the bed with folded clothes inside",
-   "still": "High angle view of an open soft-grey carry-on suitcase lying on the bed of the hotel bedroom from the room photo, colourful pillows behind, bright daylight. Folded clothes inside. TWO identical camera detectors lie side by side on top of the folded clothes, back faces up, loops pointing down, a hand's width apart. Her RIGHT hand enters from the bottom right edge and PINCHES the right detector: thumb on its left side and index finger on its right side, the other fingers curled under; the left detector is not touched.",
-   "motion": "Her hand lifts the right detector a few centimetres and moves it out of the bottom right edge; the left detector stays where it is; slow gentle push-in."
+   "still": "High angle view of an open soft-grey carry-on suitcase lying on the bed of the hotel bedroom from the room photo, colourful pillows behind, bright daylight. Folded clothes inside. TWO identical camera detectors, each exactly like the one held in image 3 (copy only the detector from image 3, not its room or hand), lie flat side by side on top of the folded clothes, back faces up, loops pointing down, a hand's width apart. Her RIGHT hand enters from the bottom right edge and PINCHES the right detector: thumb on its left side and index finger on its right side, the other fingers curled under; the left detector is not touched.",
+   "motion": "Her thumb slides the right detector a few centimetres to the right across the folded clothes, then her hand moves out of the right edge; both detectors stay flat; slow gentle push-in.",
+   "extra_refs": [
+    [
+     "stills/S9.png",
+     "an approved still of this exact camera detector: copy its oval pebble shape, its TALL vertical window (taller than wide, never sideways) and its short teardrop loop"
+    ]
+   ]
   },
   {
    "id": "S11",

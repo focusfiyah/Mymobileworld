@@ -82,7 +82,7 @@ td {{ border-bottom:1px solid var(--line); padding:8px 6px; vertical-align:top; 
 @media (max-width:480px) {{ .shb {{ grid-template-columns:1fr; }} .shb img {{ width:100%; max-width:220px; }} }}
 </style>
 <div class="wrap">
-<header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; approved 2026-10-29 &middot; stills round 1</span>
+<header style="display:grid;gap:8px"><span class="eyebrow">Grace &middot; approved 2026-10-29 &middot; cut v1</span>
 <h1>Hidden Camera Detector, black</h1>
 <p>Hands + hand-free AI video over Grace's cloned voice, about 34 s, 11 shots, no face. The hook shows the one thing none of the winners show: how to use it. Look through the window and a hidden lens shines back as a red dot.</p></header>
 {STORY}

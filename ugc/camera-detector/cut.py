@@ -35,7 +35,9 @@ for i, (c, ss, d) in enumerate(EDIT):
     chains.append(f"[{i}:v]setpts=PTS-STARTPTS,{CROP.get(c, '')}scale=1080:1920:flags=lanczos,fps=30,format=yuv420p[v{i}]")
 n = len(EDIT)
 fc = ";".join(chains) + ";" + "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[v]"
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", VO, "-af", f"aresample=44100,loudnorm=I=-16:TP=-2.5:LRA=11,apad,atrim=0:{END:.3f}", "-ar", "44100", "out/_mix.wav"], check=True)
+# loudnorm drops the tail of any padding in the same chain (2026-10-29), so normalise first, then pad to the picture length
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", VO, "-af", "aresample=44100,loudnorm=I=-16:TP=-2.5:LRA=11", "-ar", "44100", "out/_vo.wav"], check=True)
+subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "out/_vo.wav", "-af", f"apad=whole_dur={END:.3f}", "-t", f"{END:.3f}", "-ar", "44100", "out/_mix.wav"], check=True)
 adur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", "out/_mix.wav"], capture_output=True, text=True).stdout)
 assert abs(adur - END) < 0.05, f"audio {adur:.2f} s vs picture {END:.2f} s"
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-i", "out/_mix.wav", "-filter_complex", fc, "-map", "[v]", "-map", f"{n}:a",

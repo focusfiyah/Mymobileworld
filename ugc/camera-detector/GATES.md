@@ -34,3 +34,18 @@
   EVIDENCE: 2026-10-28 ran the CHECK by hand -> BOOK_OK
 - [x] G9: review page published with script, sheet, shot list, prompts and the total; push + email sent (manual)
   EVIDENCE: 2026-10-28 page https://claude.ai/artifact/WxfuVo6J1eMDS5c779TVNC v1; Gmail GMAIL_SEND_EMAIL (gmail_correa-comus) id 1a18454eeff2e38b; PushNotification "Mobile push requested."
+
+# Phase 2-3 (2026-10-29, after Ralph's OK): stills, clips, cut, HofR version
+- [x] G10: cut QC passes on Grace's cut (manual record of `python3 qc/check_cut.py out/camera_detector_v1.mp4`)
+  EVIDENCE: 2026-10-29 CUT_QC_OK, 33.33 s, -16.68 LUFS, peak -2.47 dB
+- [x] G11: cut-stage gate passes (compare vs @lism792 173K recorded)
+  EVIDENCE: 2026-10-29 `python3 grace/gate.py ugc/camera-detector --stage cut` -> GATE OK
+- [x] G12: voice echo <= 150 ms
+  EVIDENCE: 2026-10-29 echo.py vo/voiceover_paced.mp3 rt60_est_ms=150
+- [x] G13: HofR version: whole hook in frame 0, held, in the safe zone; cut QC passes
+  EVIDENCE: 2026-10-29 hook_check.py out/camera_detector_hor_v1.mp4 --hook 420,395,240,160 -> HOOK_OK (diff 2.5); check_cut.py -> CUT_QC_OK
+- [x] G14: every frame looked at against REMOVED.md (no text in Grace's cut, no box, no key tag, black unit, teal window, no beep claim)
+  EVIDENCE: 2026-10-29 qc/cut_v1_sheet.jpg (1.5 fps, 50 tiles) + per-clip strips qc/*_strip.jpg
+- [x] G15: review page has both cuts playable; push + email sent (manual)
+  EVIDENCE: 2026-10-29 https://claude.ai/artifact/WxfuVo6J1eMDS5c779TVNC v3
+- [ ] G16: delivered to Drive (CURRENT - ...), sizes match (after Ralph's OK)

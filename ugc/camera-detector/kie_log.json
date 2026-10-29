@@ -796,5 +796,72 @@
   "still": "stills/S11.png",
   "ok": true,
   "score": 0.975
+ },
+ {
+  "t": "2026-10-29 02:16:32",
+  "submitted": "c2cefe8f8bc87bb02ccccd8ff87f5a34",
+  "prompt": "SIZE FIRST: the camera detector is ONE small pocket gadget: a soft rounded oval body about 6 cm tall, 4 cm wide and 1.8 "
+ },
+ {
+  "t": "2026-10-29 02:17:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the camera detector is ONE small pocket gadget: a soft rounded oval body about 6 cm tall, 4 cm wide and 1.8 cm thick, about the size of an AirPods case and about as tall as an adult thumb is long, with a thin black silicone teardrop loop about 5 cm long hanging from its narrow bottom end. It sits easily inside a palm and is never bigger than the hand near it; exactly the proportions in image 1. High angle view of an open soft-grey carry-on suitcase lying on the bed of the hotel bedroom from the room photo, colourful pillows behind, bright daylight. Folded clothes inside. TWO identical camera detectors, each exactly like the one held in image 3 (copy only the detector from image 3, not its room or hand), lie flat side by side on top of the folded clothes, back faces up, loops pointing down, a hand's width apart. Her RIGHT hand enters from the bottom right edge and PINCHES the right detector: thumb on its left side and index finger on its right side, the other fingers curled under; the left detector is not touched. ONLY one hand enters from the frame edge: Grace's hand exactly as in the hand reference sheet: medium-brown skin, slim fingers, medium-length square natural pink nails with crisp white French tips; a BARE wrist with no bracelet, no watch and no chain; rings exactly as in the sheet: a silver crown-shaped stack ring on the ring finger, a thin GOLD ring with a small clear heart-shaped stone on the middle finger, and a glossy blue silicone band on the THUMB, never on the wrist. Whole wrist visible, a little forearm in a soft cream knit sleeve may show, five fingers, natural knuckles and skin texture. The camera detector is the REAL product in the reference images and it must not change: a matte BLACK soft rounded oval body with no logo, no text and no print anywhere on it. A tall rounded-rectangle viewing window runs through the middle of the body inside a glossy black bezel; its filter glass is glossy TEAL-GREEN with a thin red edge on one side, never purple, never pink, never clear. A SHORT thick black silicone teardrop loop, about as long as the body, comes out of the narrow end opposite the sensor and flashlight; never a long cord, strap or lanyard. The body is an oval like a smooth pebble with fully rounded ends, never a rectangle or a box. The camera sees its BACK face, exactly as image 2: three tiny round holes in a row above the window, and below the window two small black pill-shaped raised buttons side by side, the left one with a small circle, the right one with a small sun icon, black on black. The four dome LEDs are off and clear. TWO identical camera detectors, both exactly as described; no third one. Other props: an open soft-grey carry-on suitcase on the bed with folded clothes inside, plain and unbranded. Bright soft light, clean neutral white balance, never yellow, golden or moody. Vertical 9:16 photo, a single frame from a phone video, realistic textures, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI, no date stamp. Reference images: image 1 = the product reference sheet built from real photos of this exact camera detector; image 2 = a real close-up of the detector's BACK face; image 3 = an approved still of this exact camera detector: copy its oval pebble shape, its TALL vertical window (taller than wide, never sideways) and its short teardrop loop; image 4 = the real room photo to use as the setting; image 5 = Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist). The detector must match images 1 and 2 exactly in shape, colour, buttons, holes and LEDs.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/camera-detector/1793236854802-r4guah0ti0c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/camera-detector/1793236860377-55pnnl15u55.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/camera-detector/1793237741805-u1f96jxzpv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/camera-detector/1793236863582-z32ctr9iu8k.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/camera-detector/1793236864814-xvn2oajbr7k.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c2cefe8f8bc87bb02ccccd8ff87f5a34",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c2cefe8f8bc87bb02ccccd8ff87f5a34_0_1793240265.jpeg"
+   ]
+  },
+  "costTime": 75,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-29 02:18:08",
+  "submitted": "6d07fbffd245eca74da266a5229b6118",
+  "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Her thumb slides the right detector "
+ },
+ {
+  "t": "2026-10-29 02:19:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this image as the first frame, keeping its room, light and framing. Motion: Her thumb slides the right detector a few centimetres to the right across the folded clothes, then her hand moves out of the right edge; both detectors stay flat; slow gentle push-in. The camera detector stays exactly as in the first frame the whole time: the same small matte black rounded oval body, the same tall teal-green window in its glossy black bezel, the same buttons, holes and LEDs on the same face, the same short black teardrop loop; it never turns, flips, grows, shrinks or changes shape, and no third detector appears. The hand keeps its French-tip nails, rings and bare wrist and one grip; no second hand appears. Bright neutral light that never changes. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/camera-detector/1793240281382-orfudtn4iw.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6d07fbffd245eca74da266a5229b6118",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793240375737-55eairlpuhd.mp4"
+   ]
+  },
+  "costTime": 90,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-29 02:19:50",
+  "clip_check": "clips/S10_seedance.mp4",
+  "still": "stills/S10.png",
+  "ok": true,
+  "score": 0.955
  }
 ]
