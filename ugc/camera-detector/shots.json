@@ -20,7 +20,7 @@
    "id": "S1",
    "t": [
     0.0,
-    4.4
+    5.22
    ],
    "words": "Listen, y'all have seen these camera finders everywhere, but nobody shows you the part that matters.",
    "hand": true,
@@ -29,13 +29,14 @@
    "room": "rooms/roomB_navy_tile_bathroom.jpg",
    "props": "",
    "still": "POV from Grace's eye level standing in the doorway of the hotel bathroom from the room photo (navy tiles, glass shower, white sink, lit mirror), the bathroom sharp behind. Her RIGHT hand enters from the bottom right edge and holds the camera detector upright at chest height in the lower middle of the frame, thumb on the left side of the body and fingers curled behind it, the loop hanging below her fingers. The detector fills about 15% of the frame height.",
-   "motion": "The camera walks slowly forward into the bathroom toward the glass shower; the hand and the detector stay in the same place in the frame the whole time."
+   "motion": "The camera walks slowly forward into the bathroom toward the glass shower; the hand and the detector stay in the same place in the frame the whole time.",
+   "seconds": 6
   },
   {
    "id": "S2",
    "t": [
-    4.4,
-    7.4
+    5.22,
+    8.42
    ],
    "words": "Let's be for real, a tiny lens can hide in a smoke detector,",
    "no_product": true,
@@ -49,8 +50,8 @@
   {
    "id": "S3",
    "t": [
-    7.4,
-    9.6
+    8.42,
+    9.92
    ],
    "words": "or even the shower head.",
    "no_product": true,
@@ -64,8 +65,8 @@
   {
    "id": "S4",
    "t": [
-    9.6,
-    13.5
+    9.92,
+    13.62
    ],
    "words": "So turn it on, the red lights flash, and you look through this little window.",
    "hand": true,
@@ -74,13 +75,13 @@
    "room": "rooms/roomA_hotel_colour_art.jpg",
    "props": "",
    "still": "POV close-up in the hotel room from the room photo (bed, colourful wall art, wood floor softly out of focus behind). Her RIGHT hand enters from the bottom right edge and holds the camera detector upright about 25 cm in front of the camera in the middle of the frame, thumb resting on the left button, fingers curled behind the body, the short teardrop loop hanging just below her fingers. The detector fills about 30% of the frame height. The red LEDs face away from the camera toward the room, so the camera sees only a faint red glow on the wall ahead.",
-   "motion": "Her thumb presses the left button once; a soft red glow pulses on the wall ahead; then the camera moves slowly closer to the detector until its window fills about half the frame, as if she lifts it to her eye; the hand keeps the same grip."
+   "motion": "Her thumb presses the left button once; a soft red glow pulses on the wall ahead; the camera eases a little closer to the detector; the hand keeps the same grip."
   },
   {
    "id": "S5",
    "t": [
-    13.5,
-    16.5
+    13.62,
+    16.88
    ],
    "words": "A hidden lens shines right back at you as a bright red dot.",
    "free": true,
@@ -94,8 +95,8 @@
   {
    "id": "S6",
    "t": [
-    16.5,
-    19.3
+    16.88,
+    18.64
    ],
    "words": "At night, hang it on the door handle,",
    "hand": true,
@@ -109,8 +110,8 @@
   {
    "id": "S7",
    "t": [
-    19.3,
-    21.2
+    18.64,
+    21.22
    ],
    "words": "and if anybody moves that door, it goes off.",
    "hand": false,
@@ -124,8 +125,8 @@
   {
    "id": "S8",
    "t": [
-    21.2,
-    23.9
+    21.22,
+    23.86
    ],
    "words": "It even has a flashlight for when you get up in the dark.",
    "hand": true,
@@ -139,8 +140,8 @@
   {
    "id": "S9",
    "t": [
-    23.9,
-    26.6
+    23.86,
+    27.08
    ],
    "words": "Once you have it, you'll be checking every bathroom you walk into.",
    "hand": true,
@@ -154,10 +155,10 @@
   {
    "id": "S10",
    "t": [
-    26.6,
-    30.6
+    27.08,
+    31.08
    ],
-   "words": "Holiday trips are coming up, so grab the two-pack, one for you and one for your bestie.",
+   "words": "Holiday trips are coming up, so grab two, one for you and one for your bestie.",
    "hand": true,
    "face": "back",
    "leds": "off",
@@ -170,8 +171,8 @@
   {
    "id": "S11",
    "t": [
-    30.6,
-    33.5
+    31.08,
+    32.73
    ],
    "words": "I linked it in the orange cart for you.",
    "hand": false,
