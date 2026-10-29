@@ -416,7 +416,9 @@ def closest(img, t):
     for f in t.pool_files():
         if f.resolve() == t.out.resolve():
             continue
-        best = max(best, (shared(c, cells(f, grid)), f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem))
+        cand = (shared(c, cells(f, grid)), f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem)
+        if cand[0] > best[0]:   # compare scores only: a tie at 0.0 against the (0.0, None) start used to crash
+            best = cand
     return best
 
 

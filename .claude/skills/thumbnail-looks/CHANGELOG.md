@@ -11,3 +11,4 @@
 - 2026-10-23 (Ralph: "Will use this skill when called for on anything outside Day One"): Day One always, other channels only on his call.
 - 2026-10-23: scene template first used (Day One sting, Dayone-ai intro/); its note now points there.
 - 2026-10-23: Ralph turned the board sting down ("they all look the same"); lesson in formula.md, template note updated.
+- 2026-10-29: closest() compares scores only; a 0.0 tie with the (0.0, None) start crashed `render --band` (AI on Autopilot r03p cover).
