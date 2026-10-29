@@ -1,6 +1,6 @@
 # Always Answered - Front Desk (our own line, inbound only, DRAFT v1 2026-10-26)
 
-Status: APPROVED by Ralph 2026-10-26 (name Always Answered; transfer to 786-496-3177, 10 am-6 pm Mon-Sat; after hours: booking page only, no callbacks). Not built yet: needs the Twilio number + booking link.
+Status: BUILT 2026-10-29 in ElevenLabs as "Always Answered - Front Desk" agent_9001m6504b34ft0tqkvzndktcpjw (premade voice Sarah, New York time, temperature 0, LLM qwen35-397b-a17b like Jean's line, conference transfer to +17864963177, end_call; builder agent/build_agent.py, --update after edits). Number: (516) 788-7489 bought by Ralph 2026-10-29, waiting on his import into ElevenLabs (Twilio SID + token are his to type). Then: assign the agent, 2 test calls, switch on the site's call buttons. APPROVED by Ralph 2026-10-26 (name Always Answered; transfer to 786-496-3177, 10 am-6 pm Mon-Sat; after hours: booking page only, no callbacks).
 This agent answers OUR business line. It is the live demo: owners call it to hear what their own assistant would sound like.
 Built the same way as Jean's line ([[Diaspo Phone Assistant]], jean-rameau `diaspo-auto-school/agent/inbound.md`): ElevenLabs agent,
 premade voice (never Ralph's or a client's clone), Twilio number imported in ElevenLabs, transfer tool to Ralph, end_call tool.
