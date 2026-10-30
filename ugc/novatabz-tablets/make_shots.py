@@ -2,9 +2,9 @@
 Product facts come only from product_truth.json (Ralph's 3 photos + the Amazon listing). Run: python3 make_shots.py"""
 import json, os
 
-JAR = ("the real NovaTabz jar: a short wide CLEAR GLASS jar, 2.17 inches wide and 1.65 inches tall (fits in a palm, smaller than a coffee mug), "
+JAR = ("the real NovaTabz jar: a short wide CLEAR GLASS jar, 2.17 inches wide and 1.65 inches tall, so it is WIDER THAN IT IS TALL, squat like a small candle jar (fits in a palm, smaller than a coffee mug), "
        "with a threaded glass neck and glass visible above and below a turquoise paper label that wraps its middle. Label front, exactly as image 2, letter for letter and colour for colour: "
-       "a white rectangle with turquoise capitals TOOTHPASTE TABLETS; below it NOVA over TABZ in big white serif capitals; PEPPERMINT in spaced white capitals; "
+       "a white rectangle with turquoise capitals TOOTHPASTE TABLETS; below it NOVA on one line and TABZ on the line below it, in big white serif capitals with thin serifs (two lines, never one); PEPPERMINT in spaced white capitals; "
        "62 / TABLETS in white on the left; NET WT / 23G / (0.8 OZ) in white on the right. No other words, no ® or ™.")
 LID = "a brushed SILVER metal screw lid with a finely ridged side edge and a plain flat top (image 3)"
 TABS = "plain WHITE round flat tablets with rounded edges, each about the size of an aspirin, no print, no colour, no stripes"
@@ -28,17 +28,19 @@ def s(id, words, hand, product, room, still, motion):
 SHOTS = [
  s("S1", "At first I thought these were breath mints.", True, True, "B",
    SIZE + " Close-up on a white counter in a pink-tile bathroom: " + JAR + " It stands open, its lid (" + LID + ") lying beside it, full of " + TABS + ". " + HAND +
-   " Her thumb and index finger pinch ONE white tablet just above the open jar. Only one jar.",
+   " Her thumb and index finger pinch ONE white tablet just above the open jar. The blue band is a thin ring on her thumb only; nothing blue anywhere else, no other objects at the frame edges. Only one jar.",
    "the fingers lift the one tablet slowly up toward the lens; the jar stays still on the counter."),
  s("S2", "Nope, toothpaste. No more crusty tubes.", False, False, "A",
    "Close-up into a white vessel sink on a grey vanity, leaf-print wallpaper soft behind (room reference): dried white and pale blue toothpaste globs stuck around the drain and the rim, "
    "a squeezed, plain white unbranded toothpaste tube with a crusty cap lying on the counter edge. No words on the tube. " + NOHAND,
    "the camera slowly pushes in toward the dried toothpaste globs around the drain; nothing moves. No person or hand appears at any time."),
  s("S3", "Chew one, brush, and it foams like paste.", True, False, "C",
-   "Close-up over a wooden bathroom vanity with a matte black tap and a small plant, concrete wall soft behind (room reference): " + HAND + " She GRIPS a bamboo toothbrush by the handle, its bristles covered in fluffy white foam, held over the basin.",
-   "the hand gives the brush a small shake over the basin and tiny bubbles in the white foam pop and settle. Only this hand appears, whole wrist, the same rings as reference image 2. No face appears."),
+   "Tight close-up of Grace's LOWER FACE ONLY, framed from just under her nose to her chin, as in the mouth reference: medium-brown skin, full lips with a soft mauve-pink tint, long black braids at the edges. Her EYES ARE NEVER IN FRAME. "
+   "She is brushing her teeth with a bamboo toothbrush, lips parted, the brush head inside her mouth on her front teeth, soft fluffy WHITE foam on her teeth and at the corners of her lips. " + HAND +
+   " Her hand GRIPS the bamboo handle with the fingers wrapped around it. Behind her, out of focus, a bright bathroom with a wooden vanity and a small green plant. ONE continuous photo filling the whole frame: no inset, no box, no split screen, no second picture. The blue band is a thin silicone ring on her THUMB only; nothing on her wrist. Clean natural teeth.",
+   "she brushes in small side-to-side strokes and the white foam builds a little at her lips; the frame stays from under the nose to the chin and her eyes never come into frame. Only this one hand appears, whole wrist, the same rings as reference image 2. Lips and skin tone stay the same as reference image 3."),
  s("S4", "Only downside? No excuse for a messy sink.", False, True, "A",
-   SIZE.replace("her fingers look normal next to it, the jar never looks bigger than her hand", "it is shorter than the toothbrush cup beside it") + " A spotless, shiny white vessel sink on a long grey vanity, leaf-print wallpaper behind (room reference); " + JAR +
+   SIZE.replace("her fingers look normal next to it, the jar never looks bigger than her hand", "it is only about HALF as tall as the glass toothbrush cup beside it and much smaller than the sink bowl") + " A spotless, shiny white vessel sink on a long grey vanity, leaf-print wallpaper behind (room reference); " + JAR +
    " Closed with its lid (" + LID + ")" + ", standing beside a clear glass cup with a bamboo toothbrush. Clean counter. Only one jar. " + NOHAND,
    "only the camera moves, a slow sideways slide along the clean vanity toward the jar; nothing moves."),
  s("S5", "No fluoride, no liquid, so they fly through holiday security.", True, True, "D",
@@ -50,6 +52,7 @@ SHOTS = [
 ]
 P = {"SHEET": "refs/product_sheet.png", "LABEL": "refs/real/closeup_label.png", "LID": "refs/real/closeup_lid.png"}
 HANDREF = "../../grace/ref/hand-sheets/without_bracelet.jpg"
+MOUTH = "refs/real/grace_mouth.jpg"   # Ralph 2026-10-30: "You can show mouth and teeth if needed"
 os.makedirs("prompts", exist_ok=True)
 for x in SHOTS:
     r, names = [], []
@@ -58,14 +61,15 @@ for x in SHOTS:
         add(P["SHEET"], "the product sheet from real photos: copy the clear glass jar, turquoise label, silver lid and white tablets exactly")
         add(P["LABEL"], "a real close-up of the label print")
         add(P["LID"], "a real photo of the silver lid")
-    add(f"rooms/room_{x['room']}.jpg", "the real room to use as the background (same colours and light)")
+    if x["id"] != "S3": add(f"rooms/room_{x['room']}.jpg", "the real room to use as the background (same colours and light)")   # S3: the room photo came back pasted in as a box
     if x["hand"]: add(HANDREF, "Grace's real hand sheet (skin tone, nails, rings, bare wrist)")
+    if x["id"] == "S3": add(MOUTH, "Grace's real lower face (lips, skin tone): copy her lips and skin exactly")
     note = "Reference images: " + "; ".join(names) + "."
     if x["product"]: note += " The jar must match images 1, 2 and 3 exactly in shape, size and colour; the label print matches image 2 letter for letter and colour for colour."
     x["still"] = "Vertical 9:16 photo, a single frame from a phone-shot UGC video. " + x["still"] + " " + note
     x["still_refs"] = r
     st = f"stills/{x['id']}.png"
-    x["clip_refs"] = [st, P["LABEL"], P["LID"], P["SHEET"]] if x["product"] else [st] + ([HANDREF] if x["hand"] else [])
+    x["clip_refs"] = [st, P["LABEL"], P["LID"], P["SHEET"]] if x["product"] else [st] + ([HANDREF] if x["hand"] else []) + ([MOUTH] if x["id"] == "S3" else [])
     x["clip_model"] = "omni (Flow first)" if x["product"] else "seedance-2-mini"
     open(f"prompts/still_{x['id']}.txt", "w").write(x["still"]); open(f"prompts/clip_{x['id']}.txt", "w").write(x["clip"])
 SEE = {"S1": "Fingers pinch one white tablet up out of the open jar, pink-tile counter", "S2": "Dried toothpaste globs in the vessel sink, plain crusty unbranded tube, push-in", "S3": "Hand holds a foamy bamboo toothbrush over the wood vanity basin, bubbles settle", "S4": "Spotless sink, jar beside the toothbrush cup, slow side slide", "S5": "Hand sets the closed jar into a clear toiletry pouch in an open suitcase", "S6": "END: one closed jar on the pink-tile counter, push-in to the label"}

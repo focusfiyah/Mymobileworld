@@ -26,3 +26,12 @@
 - [ ] G9: brain note + session log written and the brain check passes
   CHECK: cd ../.. && python3 tools/brain/check.py --terms "NovaTabz toothpaste tablets"
   EXPECT: BRAIN_OK
+
+# Phase 2 (2026-10-30, after Ralph's OK): stills, clips, cut
+- [x] G10: cut QC passes (manual record of `python3 qc/check_cut.py out/novatabz_v1.mp4`)
+  EVIDENCE: 2026-10-30 CUT_QC_OK, 15.20 s, -17.32 LUFS, peak -2.09 dB
+- [x] G11: cut-stage gate passes
+  EVIDENCE: 2026-10-30 `python3 grace/gate.py ugc/novatabz-tablets --stage cut` -> GATE OK
+- [x] G12: voice echo <= 150 ms
+  EVIDENCE: 2026-10-30 echo.py vo/voiceover_paced.mp3 rt60_est_ms=150
+- [ ] G13: delivered to Drive, sizes match (manual; after Ralph approves the cut)

@@ -69,7 +69,36 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare_report.md",
+   "research/compare/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
- }
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-30",
+  "quote": "Kie Omni; Kie (Recommended); Without bracelet (Recommended); Yes, no text, go",
+  "total": 2.53,
+  "sha256": "4f12d0a9528f69c73761d4a78f1379c8ee16207fcae5922e35962795d58d15c5",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.09,
+   "what": "S3 new still: lower-face crop, Grace brushing with white foam at the lips (no eyes); clip stays Seedance",
+   "by": "Ralph",
+   "quote": "Yes, mouth shot (+$0.09)",
+   "date": "2026-10-30",
+   "book_sha256": "4f12d0a9528f69c73761d4a78f1379c8ee16207fcae5922e35962795d58d15c5"
+  },
+  {
+   "usd": 0.09,
+   "what": "S3 mouth still redo (round 1 pasted the room as a box, blue band on the wrist); covers the ~$0.05 the clips then go over",
+   "by": "Ralph",
+   "quote": "Redo mouth still ($0.09)",
+   "date": "2026-10-30",
+   "book_sha256": "4f12d0a9528f69c73761d4a78f1379c8ee16207fcae5922e35962795d58d15c5"
+  }
+ ]
 }
