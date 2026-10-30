@@ -48,3 +48,14 @@ Scroll budget raised from 2 to 5 on Ralph's pick (his words beat the skill's bud
   CHECK: python3 /home/user/Mymobileworld/ralph/dfy-service/launch/site/v4/check.py final
   EXPECT: FINAL_OK
 - [ ] G17: frames taken mid-animation looked at (dots filling, sum building) (manual)
+
+## Round 4c: phone number (Ralph 2026-10-30: "Add phone number now")
+- [ ] G18: the number is on the ElevenLabs Always Answered agent
+  CHECK: curl -sS https://api.elevenlabs.io/v1/convai/phone-numbers | python3 -c "import sys,json;d=json.load(sys.stdin);print('NUMBER_OK' if any(p.get('phone_number')=='+15167887489' and (p.get('assigned_agent') or {}).get('agent_id')=='agent_9001m6504b34ft0tqkvzndktcpjw' for p in d) else 'NOT_YET')"
+  EXPECT: NUMBER_OK
+- [ ] G19: the live site shows (516) 788-7489 with working tel:+15167887489 buttons, no dashed placeholder
+  CHECK: python3 -c "import urllib.request,time;h=urllib.request.urlopen('https://focusfiyah.github.io/always-answered/?r='+str(time.time())).read().decode();print('SITE_OK' if 'tel:+15167887489' in h and '(516) 788-7489' in h and '000-0000' not in h else 'NOT_YET')"
+  EXPECT: SITE_OK
+- [ ] G20: the round 4 page has the number as static text and links (works with JS off)
+  CHECK: python3 -c "h=open('/home/user/always-answered/index.html').read() if False else open('/home/user/Mymobileworld/ralph/dfy-service/launch/site/v4/index.html').read();print('V4_OK' if h.count('href=\"tel:+15167887489\"')>=2 and '(516) 788-7489' in h and 'data-call hidden' not in h else 'V4_BAD')"
+  EXPECT: V4_OK

@@ -16,7 +16,8 @@ OUT = HERE / "looks"
 
 BRAND = {
     "name": "Always Answered",
-    "phone": "",          # our Twilio line, once bought (shown as a placeholder until then)
+    "phone": "(516) 788-7489",  # the assistant's Twilio line on ElevenLabs (Ralph 2026-10-30: "Add phone number now")
+    "tel": "+15167887489",
     "booking": "https://calendly.com/teamrrgrp/30min",        # Calendly link, once made
     "area": "Nassau County and Brooklyn",
     "area_footer": "Serving Nassau County and Brooklyn",
@@ -113,7 +114,7 @@ SCRIPT = """<script>
 const CONFIG = %s;
 (function(){
   document.querySelectorAll("[data-name]").forEach(el => el.textContent = CONFIG.name);
-  const tel = (CONFIG.phone || "").replace(/[^0-9+]/g, "");
+  const tel = CONFIG.tel || (CONFIG.phone || "").replace(/[^0-9+]/g, "");
   document.querySelectorAll("[data-phone]").forEach(el => { if (CONFIG.phone) el.textContent = CONFIG.phone; else el.classList.add("draft"); });
   document.querySelectorAll("[data-call]").forEach(a => { if (tel) a.href = "tel:" + tel; else a.removeAttribute("href"); });
   document.querySelectorAll("[data-book]").forEach(a => { if (CONFIG.booking) a.href = CONFIG.booking; else { a.removeAttribute("href"); a.classList.add("draft"); } });
@@ -216,7 +217,7 @@ p{margin:0}
     <h1>{e(b['h1a'])}<br>{e(b['h1b'])}</h1>
     <p class="lead">{e(b['sub'])}</p>
     <div class="ctas">
-      <a class="btn primary" data-call>Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
+      <a class="btn primary" data-call href="tel:{BRAND['tel']}">Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
       <a class="btn" data-book target="_blank" rel="noopener">Book a 15-minute call</a>
     </div>
   </section>
@@ -340,7 +341,7 @@ p{margin:0}
     <h2 class="big">{e(b['h1a'])}<br>{e(b['h1b'])}</h2>
     <p class="lead">For service businesses in {e(b['area'])}. {e(b['sub'])}</p>
     <div class="ctas">
-      <a class="btn primary" data-call>Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
+      <a class="btn primary" data-call href="tel:{BRAND['tel']}">Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
       <a class="btn" data-book target="_blank" rel="noopener">Book a 15-minute call</a>
     </div>
     <p class="check">{e(b['check'])}</p>
@@ -445,7 +446,7 @@ p{margin:0}
     <h1>{e(b['h1a'])} {e(b['h1b'])}</h1>
     <p class="lead">For service businesses in {e(b['area'])}. {e(b['sub'])}</p>
     <div class="ctas">
-      <a class="btn primary" data-call>Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
+      <a class="btn primary" data-call href="tel:{BRAND['tel']}">Call and hear it: <span class="num" data-phone>{phone_text()}</span></a>
       <a class="btn" data-book target="_blank" rel="noopener">Book a 15-minute call</a>
     </div>
     <p class="check">{e(b['check'])}</p>
@@ -479,7 +480,7 @@ def standalone(frag):
 
 def build():
     OUT.mkdir(exist_ok=True)
-    cfg = json.dumps({k: BRAND[k] for k in ("name", "phone", "booking")})
+    cfg = json.dumps({k: BRAND[k] for k in ("name", "phone", "tel", "booking")})
     for band, fn in BANDS.items():
         frag = fn() + "\n" + (SCRIPT % cfg) + "\n"
         (OUT / f"{band}.html").write_text(frag)

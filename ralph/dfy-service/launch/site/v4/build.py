@@ -13,7 +13,8 @@ SITE = pathlib.Path("/home/user/always-answered")
 e = html.escape
 
 CONFIG = {"name": "Always Answered",
-          "phone": "",  # the 516 Twilio line, once bought; call buttons stay hidden until then
+          "phone": "(516) 788-7489",  # the assistant's line on ElevenLabs (Ralph 2026-10-30: "Add phone number now"); "" hides the call buttons
+          "tel": "+15167887489",
           "booking": "https://calendly.com/teamrrgrp/30min"}  # 15-minute event (link kept /30min)
 
 STATS = [("78%", "give up after nobody picks up.", "CallRail, 2025",
@@ -31,14 +32,14 @@ REVIEWS = ["After every job: email, WhatsApp or counter card",
            "No fake reviews, ever"]
 STEPS = [("calendar", "Book a 15-minute call", "Share your services and hours."),
          ("ear", "Hear it first", "We build it. You test it first."),
-         ("forward", "Turn on forwarding", "Same number. We send the steps.")]
+         ("forward", "Turn on forwarding", "Same number. Steps included.")]
 PLANS = [("Calls Only", "$197", "$297", False, ["Every call answered, 24/7", "Calls passed to you in your hours",
                                                "Bookings emailed in a minute", "Monday call report", "200 minutes a month"]),
          ("Front Desk", "$397", "$497", True, ["Everything in Calls Only", "500 minutes a month",
                                               "Review requests after every job", "Monthly review report"]),
          ("Pro", "$597", "$497", False, ["Everything in Front Desk", "1,000 minutes a month", "2 phone lines",
                                          "Review replies you approve", "Monthly check-in call"])]
-FAQ = [("Does it sound like a robot?", "No. Hear it on a 15-minute call."),
+FAQ = [("Does it sound like a robot?", "No. Call (516) 788-7489 and hear it."),
        ("Does it pretend to be a person?", "No. It says it's your assistant and that calls may be recorded. Asked, it says it's AI."),
        ("Will it call my customers?", "No. It only answers calls.")]
 LOG = [("6:48 PM", "Call answered", "“No heat upstairs.”"),
@@ -257,7 +258,7 @@ SCRIPT = """<script>
 const CONFIG = %s;
 (function(){
   document.querySelectorAll("[data-name]").forEach(el => el.textContent = CONFIG.name);
-  const tel = (CONFIG.phone || "").replace(/[^0-9+]/g, "");
+  const tel = CONFIG.tel || (CONFIG.phone || "").replace(/[^0-9+]/g, "");
   document.querySelectorAll("[data-phone]").forEach(el => { el.textContent = CONFIG.phone; });
   document.querySelectorAll("[data-call]").forEach(a => { if (tel) { a.href = "tel:" + tel; a.hidden = false; } else a.hidden = true; });
   document.querySelectorAll("[data-book]").forEach(a => { a.href = CONFIG.booking; });
@@ -308,7 +309,11 @@ const CONFIG = %s;
 def page():
     book = '<a class="btn primary" data-book href="{b}" target="_blank" rel="noopener">{ic}Book a 15-minute call</a>'.format(
         b=CONFIG["booking"], ic=ic("calendar"))
-    call = '<a class="btn" data-call hidden>{}Call and hear it <span class="num" data-phone></span></a>'.format(ic("phone"))
+    tel, ph = CONFIG["tel"], e(CONFIG["phone"])
+    call = (f'<a class="btn primary" data-call href="tel:{tel}">{ic("phone")}Call and hear it <span class="num" data-phone>{ph}</span></a>'
+            if tel else '<a class="btn" data-call hidden>Call and hear it <span class="num" data-phone></span></a>')
+    if tel:
+        book = book.replace('class="btn primary"', 'class="btn"')
     dots = "".join('<i class="m"></i>' if k < 44 else "<i></i>" for k in range(100))
     side = "".join(f'<div><b>{e(n)}</b><span>{e(t)} <a class="src" href="{u}" target="_blank" rel="noopener">{e(s)}</a></span></div>'
                    for n, t, s, u in STATS)
@@ -369,7 +374,7 @@ def page():
   <div>
     <h2>Every call answered. Fresh reviews every month.</h2>
     <p class="lead">An AI front desk for service businesses in Nassau County and Brooklyn. You work. We answer.</p>
-    <div class="ctas">{book}{call}</div>
+    <div class="ctas">{call}{book}</div>
   </div>
   <figure class="shot">
     <img src="img/tech-1600.webp" srcset="img/tech-800.webp 800w, img/tech-1600.webp 1600w" sizes="(max-width:820px) 100vw, 600px" width="1600" height="924"
@@ -401,7 +406,7 @@ def page():
   </div>
 </div></section>
 <section class="wash"><div class="wrap"><h2 class="t">Questions</h2><div class="faq">{faq}</div></div></section>
-<div class="wrap"><footer><span class="logo">{MARK}<span data-name>Always Answered</span></span><span class="num" data-phone></span></footer></div>
+<div class="wrap"><footer><span class="logo">{MARK}<span data-name>Always Answered</span></span><a class="num" data-phone href="tel:{CONFIG['tel']}">{e(CONFIG['phone'])}</a></footer></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/ScrollTrigger.min.js" defer></script>
 {SCRIPT.replace("%s", json.dumps(CONFIG), 1)}

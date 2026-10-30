@@ -80,7 +80,7 @@ p{margin:0}
     <h1>Every call answered. Fresh reviews every month.</h1>
     <p class="lead">For service businesses in Nassau County and Brooklyn. When you&#x27;re on a job, your phone still gets picked up. The assistant books the work or sends you the details within a minute, and new reviews keep coming in.</p>
     <div class="ctas">
-      <a class="btn primary" data-call>Call and hear it: <span class="num" data-phone>(516) 000-0000</span></a>
+      <a class="btn primary" data-call href="tel:+15167887489">Call and hear it: <span class="num" data-phone>(516) 788-7489</span></a>
       <a class="btn" data-book target="_blank" rel="noopener">Book a 15-minute call</a>
     </div>
     <p class="check">Try this tonight: call your own business at 7 PM. If it rings out, that customer is now calling someone else.</p>
@@ -96,12 +96,12 @@ p{margin:0}
   <div class="found"><h3>Black Friday special</h3><p>Get half off the setup fee when you agree to share a short testimonial after your first month. Sign up by November 30.</p></div>
   <div class="ctas"><a class="btn primary" data-book target="_blank" rel="noopener">Book a 15-minute call</a></div></div></section>
 <section style="padding-top:0"><div class="wrap"><h2>Questions</h2><details><summary>Does it sound like a robot?</summary><p>Call our line and hear it for yourself. It talks like a calm front desk person and keeps calls short.</p></details><details><summary>Does it pretend to be a person?</summary><p>No. It answers as your assistant and says the call may be recorded. If a caller asks, it says it&#x27;s an AI assistant.</p></details><details><summary>Do I need a new phone number?</summary><p>No. You forward your calls to us when you can&#x27;t pick up, or all the time. Your customers call the same number they always have.</p></details><details><summary>What if a caller wants me?</summary><p>During the hours you pick, it passes the call to you. After hours it takes a message and you get it by email right away.</p></details><details><summary>Will it call my customers?</summary><p>No. It only answers calls. It never makes calls.</p></details><details><summary>Is there a contract?</summary><p>No. It&#x27;s month to month and you can cancel any time.</p></details></div></section>
-<div class="wrap"><footer><span data-name>Always Answered</span> · Serving Nassau County and Brooklyn · <span class="num" data-phone>(516) 000-0000</span><br>Numbers on this page come from the studies linked under each one.</footer></div>
+<div class="wrap"><footer><span data-name>Always Answered</span> · Serving Nassau County and Brooklyn · <span class="num" data-phone>(516) 788-7489</span><br>Numbers on this page come from the studies linked under each one.</footer></div>
 <script>
-const CONFIG = {"name": "Always Answered", "phone": "", "booking": "https://calendly.com/teamrrgrp/30min"};
+const CONFIG = {"name": "Always Answered", "phone": "(516) 788-7489", "tel": "+15167887489", "booking": "https://calendly.com/teamrrgrp/30min"};
 (function(){
   document.querySelectorAll("[data-name]").forEach(el => el.textContent = CONFIG.name);
-  const tel = (CONFIG.phone || "").replace(/[^0-9+]/g, "");
+  const tel = CONFIG.tel || (CONFIG.phone || "").replace(/[^0-9+]/g, "");
   document.querySelectorAll("[data-phone]").forEach(el => { if (CONFIG.phone) el.textContent = CONFIG.phone; else el.classList.add("draft"); });
   document.querySelectorAll("[data-call]").forEach(a => { if (tel) a.href = "tel:" + tel; else a.removeAttribute("href"); });
   document.querySelectorAll("[data-book]").forEach(a => { if (CONFIG.booking) a.href = CONFIG.booking; else { a.removeAttribute("href"); a.classList.add("draft"); } });
