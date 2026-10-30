@@ -56,7 +56,7 @@ figure{{margin:0;display:grid;gap:6px}} figure img{{border-radius:8px;border:1px
 <section><h2>Your answers needed</h2><ol class="q">{''.join(f'<li>{e(q)}</li>' for q in qs)}</ol></section>
 <section><div class="total"><b>${total}</b><span>total if Kie makes everything (includes one likely redo)</span></div>
 <table>{''.join(f'<tr><td>{e(a)}</td><td>{e(b)}</td><td>${c}</td></tr>' for a,b,c in cost)}</table>
-<p class="muted">Flow option: you make the 4 product clips free in your Flow app, Kie total $1.53. Month so far $232.92 (no cap in October).</p></section>
+<p class="muted">Flow option: you make the 4 product clips free in your Flow app, Kie total $1.53. Kling option: the 3 no-product clips on Kling (120 of this job's 133 shared credits) take $0.49 off either total. Month so far $232.92 (no cap in October).</p></section>
 <section><h2>Script</h2><blockquote>{e(script)}</blockquote>
 <p class="muted">52 words, reading grade 2.5, about 15 s. Hook H062. Gate 9 of 9. No on-screen text unless you say yes.</p></section>
 <section><h2>Shots</h2>{rows}</section>
