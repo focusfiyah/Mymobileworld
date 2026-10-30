@@ -212,5 +212,301 @@
   "costTime": 189,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 06:25:56",
+  "submitted": "1476f7a640d776fb19b171a8f54458ef",
+  "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas"
+ },
+ {
+  "t": "2026-10-30 06:25:58",
+  "submitted": "6e599901e742542268433f7440f30b71",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then both hands lift the grey lid up and away out of the top of t"
+ },
+ {
+  "t": "2026-10-30 06:26:00",
+  "submitted": "f5bcc62205d3782e6ad85e356d854603",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the fingers bend the plastic branch tip down and let it spri"
+ },
+ {
+  "t": "2026-10-30 06:26:01",
+  "submitted": "545e1bd864fb780ef4655057f979a634",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then the soft white mist keeps rising and curling up from the dif"
+ },
+ {
+  "t": "2026-10-30 06:26:07",
+  "submitted": "49cddde343da91bbe583864569108bd7",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Christm"
+ },
+ {
+  "t": "2026-10-30 06:27:18",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 6 is the product sheet made from real photos (front, back, box, cap off). Low close view of the small round light-wood side table beside the red armchair of image 1, the tinsel tree soft behind. On it the closed Christmas Cheer box of image 2 stands upright on the left with its whole front visible, and to its RIGHT, beside it and not covering it, exactly three bottles stand in a row, left to right: Christmas Tree (image 3, hot pink label with a chartreuse tree), Sugar Plum Fairy (image 4, lavender label with a cream blob, no tree), Vanilla Spice (image 5, cream label with a taupe circle and a vanilla pod, no tree), labels facing the camera. Each is a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball; every label and print matches its image letter for letter and colour for colour; image 6 shows their true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as a lipstick. One set only. No hand, no fingers, no people, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337767241-64ykcxzj8n5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341539046-ipq492l5x5.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337770307-l0z3ivlno8n.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337772174-wdt447yr20a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337774862-9w43xaxvr9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337775867-5mrhirc93xk.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "1476f7a640d776fb19b171a8f54458ef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1476f7a640d776fb19b171a8f54458ef_0_1793341636.jpeg"
+   ]
+  },
+  "costTime": 91,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 06:27:30",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the soft white mist keeps rising and curling up from the diffuser while the camera makes a slow small arc to the left around it. No bottles, no box, no product at any time. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341539085-1urklebiwbl.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "545e1bd864fb780ef4655057f979a634",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793341648333-5rnwygh3uxf.mp4"
+   ]
+  },
+  "costTime": 96,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 06:27:33",
+  "clip_check": "clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.965
+ },
+ {
+  "t": "2026-10-30 06:27:58",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then both hands lift the grey lid up and away out of the top of the frame, showing the folded branches inside; the camera tilts down a little into the tote. No face at any time. No bottles, no box, no product at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341539112-0u9y9mh7pqw.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6e599901e742542268433f7440f30b71",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793341675535-emhz5hag5is.mp4"
+   ]
+  },
+  "costTime": 127,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 06:28:00",
+  "clip_check": "clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.975
+ },
+ {
+  "t": "2026-10-30 06:28:06",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then the fingers bend the plastic branch tip down and let it spring back up, the tinsel shivers; the camera holds still. No face at any time. No bottles, no box, no product at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341539114-l2o9jtttbt.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "f5bcc62205d3782e6ad85e356d854603",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793341681857-mse7h97duxi.mp4"
+   ]
+  },
+  "costTime": 132,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 06:28:09",
+  "clip_check": "clips/S2.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.97
+ },
+ {
+  "t": "2026-10-30 06:29:26",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is a real photo of the open bottle neck: a black ring stays on the neck and a small clear-white plastic dropper insert sits in the opening. Image 4 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: two drops fall one after the other from the dropper insert into the water and small ripples spread; the bottle stays tilted the same way. The hand keeps one grip and nothing turns, flips or changes shape. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341542752-zsqa9wys2rl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341547983-8xx1g3xunuw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341549963-jtzju8s3iom.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793341552031-wvayajj911.png"
+    ]
+   }
+  },
+  "taskId": "49cddde343da91bbe583864569108bd7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/49cddde343da91bbe583864569108bd7_0_1793341763.mp4"
+   ]
+  },
+  "costTime": 199,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 06:29:29",
+  "clip_check": "/home/user/Mymobileworld/ugc/plant-therapy-christmas-cheer/clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.55
+ },
+ {
+  "t": "2026-10-30 06:33:59",
+  "submitted": "ea6f4f909856cf0371c7ce62f31528df",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Christm"
+ },
+ {
+  "t": "2026-10-30 06:34:04",
+  "submitted": "e4a56da6dc3e3fc1d5ffe9415bce93a7",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Christmas Tre"
+ },
+ {
+  "t": "2026-10-30 06:34:09",
+  "submitted": "232f7c5a06cc4f930e691114d1571e8f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Christmas Che"
+ },
+ {
+  "t": "2026-10-30 06:36:03",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: the hand lowers the box straight down into the gift bag until half of it is inside; the red tissue paper rustles. The hand keeps one grip and nothing turns, flips or changes shape. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342026716-jlfna039iw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342029203-e6etbh72dxb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342031403-jstiwaafdy.png"
+    ]
+   }
+  },
+  "taskId": "ea6f4f909856cf0371c7ce62f31528df",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/ea6f4f909856cf0371c7ce62f31528df_0_1793342155.mp4"
+   ]
+  },
+  "costTime": 119,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 06:36:07",
+  "clip_check": "/home/user/Mymobileworld/ugc/plant-therapy-christmas-cheer/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.889
+ },
+ {
+  "t": "2026-10-30 06:36:25",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: only the camera moves, a slow push-in past the three bottles toward the Christmas tree; the bottles never move. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342026680-1gf3vsyf5vb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342028633-mbx61c7kay7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342030381-b1lpqrr72u.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342032448-4af27kgo3hm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342034659-7u5b03xleyx.png"
+    ]
+   }
+  },
+  "taskId": "e4a56da6dc3e3fc1d5ffe9415bce93a7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/e4a56da6dc3e3fc1d5ffe9415bce93a7_0_1793342184.mp4"
+   ]
+  },
+  "costTime": 143,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 06:36:28",
+  "clip_check": "/home/user/Mymobileworld/ugc/plant-therapy-christmas-cheer/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.62
+ },
+ {
+  "t": "2026-10-30 06:36:47",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 6 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: only the camera moves, a slow push-in toward the box and the three bottles; nothing moves. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342026611-utvtazw1vz8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342029014-fizcrfr0jy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342031756-t4r1bjlbkxe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342033855-vw3p08h0ioo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342036322-0tgz2a4giy1d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793342039755-wozwnhfsesg.png"
+    ]
+   }
+  },
+  "taskId": "232f7c5a06cc4f930e691114d1571e8f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/232f7c5a06cc4f930e691114d1571e8f_0_1793342199.mp4"
+   ]
+  },
+  "costTime": 152,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 06:36:51",
+  "clip_check": "/home/user/Mymobileworld/ugc/plant-therapy-christmas-cheer/clips/S7.mp4",
+  "still": "stills/S7.png",
+  "ok": true,
+  "score": 0.599
  }
 ]

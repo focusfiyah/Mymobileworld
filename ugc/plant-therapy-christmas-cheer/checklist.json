@@ -68,8 +68,11 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
-  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ],
+  "note": "tiktok.py compare vs @gretchen_sahm 10.2K"
  },
  "book_ok": {
   "by": "Ralph",
