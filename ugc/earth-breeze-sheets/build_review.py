@@ -38,9 +38,13 @@ pre{{white-space:pre-wrap;font-size:.82rem;background:var(--bg);padding:10px;bor
 .small{{color:var(--muted);font-size:.88rem}}
 </style>
 <main>
-<header style="display:grid;gap:6px"><span class=eyebrow>Grace · plan v1 · 30 Oct 2026</span><h1>Earth Breeze Laundry Detergent Sheets</h1>
+<header style="display:grid;gap:6px"><span class=eyebrow>Grace · cut v1 · 30 Oct 2026</span><h1>Earth Breeze Laundry Detergent Sheets</h1>
 <p class=small>One 15-20 s hands + hand-free video over the Grace cloned v5 voice. Kie only. Script gate: GATE OK.</p></header>
 <div class=total><span>Total, one approval</span><b>$3.75</b><span class=small>Kie, includes one likely redo. ElevenLabs ~300 chars. October so far $232.92 (no cap this month).</span></div>
+<section><h2>Cut v1 · 17.2 s · for your OK</h2><div class=two><figure style=margin:0><video src="earth_breeze_v1.mp4" controls playsinline preload="metadata" style="width:100%;border-radius:8px"></video><figcaption class=small>Grace's version: no text, AI finish on.</figcaption></figure><figure style=margin:0><video src="earth_breeze_hor_v1.mp4" controls playsinline preload="metadata" style="width:100%;border-radius:8px"></video><figcaption class=small>House of Rameau version: own framing, in-points and cooler grade, hook text from frame 0 (HOOK_OK), no captions. Posts only on your OK.</figcaption></figure></div>
+<p class=small>QC: every cut within 0.1 s of its line, no freeze or black frames, -17 LUFS, voice echo 150 ms (passes), hands and edges clean at 2x, REMOVED.md checked. Washer brand logos cropped (S1, S4, S7) or softly blurred (S3), free. One flag: in S8 the two boxes' small print slips at 2x ("LOAOS", "NO NARSH" on one box); hard to see at phone size, so I let it go rather than spend. Kie $3.52 of $3.75.</p>
+<img src="storyboard_final.jpg" alt="Final stills S1 to S9"></section>
+<section><h2>Storyboard round 1 · 9 stills</h2><img src="storyboard_r1.jpg" alt="Nine stills S1 to S9"><p class=small>Good: S1-S7 (S5 and S7 print match the real box letter for letter at 2x; hands grip, whole wrists). Redo asked: S9 drew a made-up box design; S8 boxes too far, print garbled at 2x. The washer brand logos (Electrolux, Indesit) get blurred or cropped for free in the cut.</p></section>
 <section><h2>Script · 58 words · grade 3.7</h2><blockquote>{e(script)}</blockquote>
 <p class=small>Hook H094, modeled on the three biggest sheet videos (1.7M, 339K, 290K): all open on the sheet melting in water. Top search: “do laundry detergent sheets work”. “No harsh chemical residue” is the box's own wording. Thanksgiving is 26 Nov. Sources per line in research/line_sources.md.</p></section>
 <section><h2>Questions</h2><ol class=q>

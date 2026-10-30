@@ -66,6 +66,7 @@ TOTAL: $3.75
 **Approve?**
 
 ## 7. Questions (all of them, now)
+Ralph's answers 2026-10-30: 1 without bracelet, 2 Omni (stays in the total), 3 House of Rameau version yes, plan approved.
 1. Hand sheet: WITHOUT the bracelet (my default) or WITH it?
 2. S1, S2, S6 show only the plain white sheet (no print). Keep them on Omni as the product-lock rule says (in the total), or Seedance to save $0.45?
 3. House of Rameau version with hook text 1 "this is a whole load of laundry": yes?

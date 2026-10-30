@@ -106,12 +106,13 @@ SHOTS = [
       "only the camera moves, a slow push-in toward the box; nothing in the room moves.",
       ["sheet", "front"]),
     s("S8", [13.6, 16.4], "Grab a couple boxes before Thanksgiving guests show up.", False, True, "D", "omni",
-      "EXACTLY TWO identical boxes lie flat side by side, fronts up and facing the camera, on a neat stack of fresh folded white towels at the foot of the made guest bed. "
-      "Both boxes the same size and print. No other products.",
+      "Close, low camera at the foot of the made guest bed: EXACTLY TWO identical boxes lie flat side by side, fronts up and facing the camera, on a neat stack of fresh folded white towels; "
+      "the two boxes fill the lower half of the frame so every word of their print is large and sharp, the bed, floral pillows and rattan lamp soft behind. "
+      "Both boxes the same size and print, each matching image 2 letter for letter. No other products.",
       "only the camera moves, a slow dolly in along the bed toward the two boxes on the towels; nothing moves.",
       ["sheet", "front"]),
     s("S9", [16.4, 18.5], "It's in the orange cart.", True, True, "B", "omni",
-      "Mid close shot: her hand holds ONE box upright toward the camera by its lower half, the front facing the camera and fully visible, thumb on the front's bottom corner only; "
+      "Mid close shot: her hand holds ONE box upright toward the camera by its lower half, the front facing the camera and fully visible, thumb on the front's bottom corner only; the box front is EXACTLY the real design in image 2 (sea turtle, t-shirt panel, swoosh ring, arc text), never a simplified or redrawn design; "
       "the green-tile bathroom with the washer soft behind. Only one box.",
       "the hand brings the box a little closer to the lens with one small steady move and holds it there.",
       ["sheet", "front", "hand"]),

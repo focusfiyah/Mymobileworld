@@ -1,0 +1,696 @@
+[
+ {
+  "t": "2026-10-30 05:18:05",
+  "submitted": "b95cd3777d94750e0867378215d66fe0",
+  "prompt": "Close shot: a clean dark navy cotton t-shirt, freshly washed, folded neatly on top of the washer in the green-tile bathr"
+ },
+ {
+  "t": "2026-10-30 05:18:17",
+  "submitted": "79f45a18d40da7db98033f4d54d7ecc8",
+  "prompt": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin pape"
+ },
+ {
+  "t": "2026-10-30 05:18:18",
+  "submitted": "35a0edb049a18e0e1dfd9ab1284d16f3",
+  "prompt": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin pape"
+ },
+ {
+  "t": "2026-10-30 05:18:20",
+  "submitted": "145bbd4db07e308b2d1b18bc5aeab65b",
+  "prompt": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin pape"
+ },
+ {
+  "t": "2026-10-30 05:18:22",
+  "submitted": "e90f6575f1e802645d75f927b1e4868d",
+  "prompt": "Low side shot by the washer: her hand GRIPS the handle of a big heavy plain white plastic laundry jug with NO label, NO "
+ },
+ {
+  "t": "2026-10-30 05:18:23",
+  "submitted": "afac146fe49ab75b741989fe7088f3da",
+  "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a sma"
+ },
+ {
+  "t": "2026-10-30 05:18:25",
+  "submitted": "b4168ba27065923a5f53b222ccd5df98",
+  "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a sma"
+ },
+ {
+  "t": "2026-10-30 05:18:26",
+  "submitted": "e0fe841694bce95c9d87e17358c1ff0d",
+  "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a sma"
+ },
+ {
+  "t": "2026-10-30 05:18:28",
+  "submitted": "ba5eb2fa587cb2b0fcaaecc822d987a1",
+  "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a sma"
+ },
+ {
+  "t": "2026-10-30 05:18:30",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Close shot: a clean dark navy cotton t-shirt, freshly washed, folded neatly on top of the washer in the green-tile bathroom; deep even colour, smooth soft fabric, no marks, no white streaks, no print on the shirt. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the real room to use as the background (same green tiles, washer, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466120-rbaayoka1ge.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "b95cd3777d94750e0867378215d66fe0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/b95cd3777d94750e0867378215d66fe0_0_1793337507.jpeg"
+   ]
+  },
+  "costTime": 33,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:18:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Top-down close-up into the wide clear glass bowl of water on top of the washer: the one white sheet floats flat on the water, its edges already soft and see-through, tiny bubbles around it. No box in the frame. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = a real close-up of the plain white sheets (no print); image 2 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466427-n2ddnzbrwut.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468437-b27pvnqmx4b.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "35a0edb049a18e0e1dfd9ab1284d16f3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/35a0edb049a18e0e1dfd9ab1284d16f3_0_1793337522.jpeg"
+   ]
+  },
+  "costTime": 43,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:18:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Low side shot by the washer: her hand GRIPS the handle of a big heavy plain white plastic laundry jug with NO label, NO logo and NO words on it, lifting it off the floor; a thin blue drip runs down its side from under its cap. Only the jug, no other laundry product. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = Grace's hand sheet (her real hands, rings and nails); image 2 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466526-d7gpdnqh0is.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468764-064tiz4zr48p.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e90f6575f1e802645d75f927b1e4868d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e90f6575f1e802645d75f927b1e4868d_0_1793337525.jpeg"
+   ]
+  },
+  "costTime": 41,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:18:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Close shot from slightly above: her hand comes in from the top edge and pinches ONE plain white sheet by one corner, holding it flat just above a wide clear glass bowl full of water that sits on top of the front-loading washer. The water is clear and still. No box in the frame. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = a real close-up of the plain white sheets (no print); image 2 = Grace's hand sheet (her real hands, rings and nails); image 3 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466496-6xok3y853ts.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468698-qg13etrtvs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468437-b27pvnqmx4b.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "145bbd4db07e308b2d1b18bc5aeab65b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/145bbd4db07e308b2d1b18bc5aeab65b_0_1793337529.jpeg"
+   ]
+  },
+  "costTime": 49,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:18:54",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Close shot into the open front-loading washer: her hand holds one white sheet at the open door, above a pile of colourful clothes in the drum. No box in the frame. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = a real close-up of the plain white sheets (no print); image 2 = Grace's hand sheet (her real hands, rings and nails); image 3 = the real room to use as the background (same green tiles, washer, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466503-hy0tg71rc7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466526-d7gpdnqh0is.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466120-rbaayoka1ge.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "79f45a18d40da7db98033f4d54d7ecc8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/79f45a18d40da7db98033f4d54d7ecc8_0_1793337533.jpeg"
+   ]
+  },
+  "costTime": 57,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:19:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. One box stands upright on top of the front-loading washer, front facing the camera, leaning lightly against the wall beside the potted plant and a small stack of folded towels. Only one box. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466563-45t60176uje.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337469053-6kk42763dcw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468764-064tiz4zr48p.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "afac146fe49ab75b741989fe7088f3da",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/afac146fe49ab75b741989fe7088f3da_0_1793337541.jpeg"
+   ]
+  },
+  "costTime": 53,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:19:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. Mid close shot: her hand holds ONE box upright toward the camera by its lower half, the front facing the camera and fully visible, thumb on the front's bottom corner only; the green-tile bathroom with the washer soft behind. Only one box. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = Grace's hand sheet (her real hands, rings and nails); image 4 = the real room to use as the background (same green tiles, washer, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466569-aav0w8rb8m5.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337469375-kwvbl0yu4rb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468698-qg13etrtvs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466120-rbaayoka1ge.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "b4168ba27065923a5f53b222ccd5df98",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/b4168ba27065923a5f53b222ccd5df98_0_1793337547.jpeg"
+   ]
+  },
+  "costTime": 57,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:19:11",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. EXACTLY TWO identical boxes lie flat side by side, fronts up and facing the camera, on a neat stack of fresh folded white towels at the foot of the made guest bed. Both boxes the same size and print. No other products. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = the real room to use as the background (same bright guest bedroom, floral pillows, rattan lamp, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466481-l12k0gttn3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337469005-l2tv82xx8jd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337473491-2bnpihnnqe3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e0fe841694bce95c9d87e17358c1ff0d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e0fe841694bce95c9d87e17358c1ff0d_0_1793337544.jpeg"
+   ]
+  },
+  "costTime": 51,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:19:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. Mid shot like the real how-to photo: one hand holds the box upright by its lower half with the front facing the camera, and the other hand's fingers pinch ONE plain white sheet and pull it halfway up out of the slot along the box's TOP edge. The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Only one box. Blue patterned tile wall soft behind. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = Grace's hand sheet (her real hands, rings and nails); image 4 = the real room to use as the background (same blue patterned tiles, woven hamper, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466611-klp1uytrs6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337469023-37s5gdtrhbl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468698-qg13etrtvs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337471052-pprnxmka59b.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ba5eb2fa587cb2b0fcaaecc822d987a1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ba5eb2fa587cb2b0fcaaecc822d987a1_0_1793337552.jpeg"
+   ]
+  },
+  "costTime": 57,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:22:17",
+  "submitted": "7e99c6758070283594237f2c15cc8689",
+  "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a sma"
+ },
+ {
+  "t": "2026-10-30 05:22:19",
+  "submitted": "850a8856bcd9171143275a8a0a669397",
+  "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a sma"
+ },
+ {
+  "t": "2026-10-30 05:22:21",
+  "submitted": "1b9e64a57135f33e7ed641ad57e5c638",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then: her hand heaves the heavy jug up a few centimetres, it sway"
+ },
+ {
+  "t": "2026-10-30 05:22:25",
+  "submitted": "5d7ac9e7c4d43368e45b23e7100f7bc9",
+  "prompt": "Recreate reference image 1 exactly as the first frame, then: the camera glides slowly along the folded navy shirt from i"
+ },
+ {
+  "t": "2026-10-30 05:22:27",
+  "submitted": "6035d8c65711aca47bb43ad61ed53335",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real box fro"
+ },
+ {
+  "t": "2026-10-30 05:22:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. Close, low camera at the foot of the made guest bed: EXACTLY TWO identical boxes lie flat side by side, fronts up and facing the camera, on a neat stack of fresh folded white towels; the two boxes fill the lower half of the frame so every word of their print is large and sharp, the bed, floral pillows and rattan lamp soft behind. Both boxes the same size and print, each matching image 2 letter for letter. No other products. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = the real room to use as the background (same bright guest bedroom, floral pillows, rattan lamp, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466569-aav0w8rb8m5.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337469005-l2tv82xx8jd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337473491-2bnpihnnqe3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "850a8856bcd9171143275a8a0a669397",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/850a8856bcd9171143275a8a0a669397_1793337757099.jpeg"
+   ]
+  },
+  "costTime": 26,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:23:39",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. Mid close shot: her hand holds ONE box upright toward the camera by its lower half, the front facing the camera and fully visible, thumb on the front's bottom corner only; the box front is EXACTLY the real design in image 2 (sea turtle, t-shirt panel, swoosh ring, arc text), never a simplified or redrawn design; the green-tile bathroom with the washer soft behind. Only one box. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = Grace's hand sheet (her real hands, rings and nails); image 4 = the real room to use as the background (same green tiles, washer, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466569-aav0w8rb8m5.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337469005-l2tv82xx8jd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468698-qg13etrtvs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337466120-rbaayoka1ge.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7e99c6758070283594237f2c15cc8689",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7e99c6758070283594237f2c15cc8689_0_1793337813.jpeg"
+   ]
+  },
+  "costTime": 86,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:23:53",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then: the camera glides slowly along the folded navy shirt from its collar to its hem; nothing else moves. No hand, fingers or people appear at any time. No detergent box, no laundry sheet appears. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337723245-33s0vjhgzt3.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5d7ac9e7c4d43368e45b23e7100f7bc9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793337828489-z39n7ol42y9.mp4"
+   ]
+  },
+  "costTime": 93,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 05:23:56",
+  "clip_check": "clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.938
+ },
+ {
+  "t": "2026-10-30 05:24:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame, then: her hand heaves the heavy jug up a few centimetres, it sways and pulls her wrist down, and the blue drip slides further down its side. Camera locked off. No detergent box, no laundry sheet appears. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337723192-r4upkm26i1o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337468698-qg13etrtvs.jpg"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "1b9e64a57135f33e7ed641ad57e5c638",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793337849177-mheqclvv4or.mp4"
+   ]
+  },
+  "costTime": 116,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 05:24:16",
+  "clip_check": "clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.916
+ },
+ {
+  "t": "2026-10-30 05:27:33",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: the fingers slide the white sheet up and out of the top slot in one smooth pull while the other hand holds the box still. The hand keeps one grip and the box never turns, flips, grows or changes shape; the print never changes. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337726834-6e0ta4943aa.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337729066-axndtdayw0p.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793337730994-k68n4nrused.png"
+    ]
+   }
+  },
+  "taskId": "6035d8c65711aca47bb43ad61ed53335",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/6035d8c65711aca47bb43ad61ed53335_0_1793338046.mp4"
+   ]
+  },
+  "costTime": 303,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 05:27:37",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.844
+ },
+ {
+  "t": "2026-10-30 05:28:38",
+  "submitted": "5cb954327bde75016353349014286eea",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real plain white shee"
+ },
+ {
+  "t": "2026-10-30 05:28:45",
+  "submitted": "457c95b88c9b3a47ace998ca56f7e787",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real plain w"
+ },
+ {
+  "t": "2026-10-30 05:28:47",
+  "submitted": "3112547dd51feebfedb1431410909c2f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real plain w"
+ },
+ {
+  "t": "2026-10-30 05:28:48",
+  "submitted": "72e79bcfc86d040c7b2a08afd3726dce",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real box fro"
+ },
+ {
+  "t": "2026-10-30 05:28:50",
+  "submitted": "08184a14d632a8fafc370f6ccc9d9b3d",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real box front print,"
+ },
+ {
+  "t": "2026-10-30 05:30:09",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real plain white sheets, no print. Motion: the sheet softens, splits into soft pieces and melts into cloudy white water with a little light foam while the camera slowly pushes down toward the bowl. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338104911-m1tegbfh138.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338106494-07w6vgz4c7fo.png"
+    ]
+   }
+  },
+  "taskId": "5cb954327bde75016353349014286eea",
+  "fail": [
+   "500",
+   "Internal Error, Please try again later."
+  ],
+  "usd": 0
+ },
+ {
+  "t": "2026-10-30 05:30:24",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real plain white sheets, no print. Motion: her fingers let go and the white sheet drops flat onto the water and floats; its edges start to turn see-through. The camera holds steady. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338104966-3qqmh86dx17.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338107622-6on6u4u8dx.png"
+    ]
+   }
+  },
+  "taskId": "457c95b88c9b3a47ace998ca56f7e787",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/457c95b88c9b3a47ace998ca56f7e787_0_1793338221.mp4"
+   ]
+  },
+  "costTime": 106,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 05:30:28",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.952
+ },
+ {
+  "t": "2026-10-30 05:30:36",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: the hand brings the box a little closer to the lens with one small steady move and holds it there. The hand keeps one grip and the box never turns, flips, grows or changes shape; the print never changes. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338104947-w8ltk7urje.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338107615-oq2nmppcvd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338109804-dgy0ys0cxz5.png"
+    ]
+   }
+  },
+  "taskId": "72e79bcfc86d040c7b2a08afd3726dce",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/72e79bcfc86d040c7b2a08afd3726dce_0_1793338228.mp4"
+   ]
+  },
+  "costTime": 107,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 05:30:38",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: only the camera moves, a slow push-in toward the box; nothing in the room moves. The box never moves, grows or changes; the print never changes. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338105365-e24z81nj0q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338107574-9plt9h1n62h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338109920-cbb2pwpwkyl.png"
+    ]
+   }
+  },
+  "taskId": "08184a14d632a8fafc370f6ccc9d9b3d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/08184a14d632a8fafc370f6ccc9d9b3d_0_1793338235.mp4"
+   ]
+  },
+  "costTime": 112,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 05:30:39",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S9.mp4",
+  "still": "stills/S9.png",
+  "ok": true,
+  "score": 0.934
+ },
+ {
+  "t": "2026-10-30 05:30:40",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S7.mp4",
+  "still": "stills/S7.png",
+  "ok": true,
+  "score": 0.797
+ },
+ {
+  "t": "2026-10-30 05:30:59",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real plain white sheets, no print. Motion: her hand tosses the white sheet into the drum; it lands flat on top of the clothes and the hand pulls back out of frame. Camera steady. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338105072-0z33f1yb6w8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793338107939-nnfy1agdfq.png"
+    ]
+   }
+  },
+  "taskId": "3112547dd51feebfedb1431410909c2f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/3112547dd51feebfedb1431410909c2f_0_1793338255.mp4"
+   ]
+  },
+  "costTime": 138,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 05:31:02",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.922
+ },
+ {
+  "t": "2026-10-30 06:25:43",
+  "submitted": "76f2654251a419426b9c76886d1ba41d",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real box front print,"
+ },
+ {
+  "t": "2026-10-30 06:27:39",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: only the camera moves, a slow dolly in along the bed toward the two boxes on the towels; nothing moves. The box never moves, grows or changes; the print never changes. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793341530621-t25p55nbd3r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793341532808-rnh5rv71op9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793341535858-zypeb8ef6rh.png"
+    ]
+   }
+  },
+  "taskId": "76f2654251a419426b9c76886d1ba41d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/76f2654251a419426b9c76886d1ba41d_0_1793341653.mp4"
+   ]
+  },
+  "costTime": 112,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 06:27:43",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S8.mp4",
+  "still": "stills/S8.png",
+  "ok": false,
+  "score": 0.287
+ },
+ {
+  "t": "2026-10-30 06:28:15",
+  "submitted": "5909a2cffbd8a27121d4c505a116fbd2",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real plain white shee"
+ },
+ {
+  "t": "2026-10-30 06:29:55",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real plain white sheets, no print. Motion: the sheet softens, splits into soft pieces and melts into cloudy white water with a little light foam while the camera slowly pushes down toward the bowl. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793341687118-ijbv7lhshcc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/earth-breeze-sheets/1793341689205-b0c09f5fvbi.png"
+    ]
+   }
+  },
+  "taskId": "5909a2cffbd8a27121d4c505a116fbd2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/5909a2cffbd8a27121d4c505a116fbd2_0_1793341793.mp4"
+   ]
+  },
+  "costTime": 100,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 06:29:58",
+  "clip_check": "/home/user/Mymobileworld/ugc/earth-breeze-sheets/clips/S2.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.898
+ }
+]

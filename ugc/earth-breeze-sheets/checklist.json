@@ -68,11 +68,28 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare_notes.md",
+   "research/compare/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "job": "earth-breeze-sheets",
  "client": "Grace",
  "date": "2026-10-30",
- "route": "ugc-product-ad hands + hand-free over the Grace cloned v5 voiceover; stills Gemini 3 Pro Image (Kie nano-banana-pro) + product sheet from the listing images; product clips Omni 1.1 Flash on Kie (Ralph 2026-10-30: Kie only), no-product clips Seedance 2.0 Mini; no Kling"
+ "route": "ugc-product-ad hands + hand-free over the Grace cloned v5 voiceover; stills Gemini 3 Pro Image (Kie nano-banana-pro) + product sheet from the listing images; product clips Omni 1.1 Flash on Kie (Ralph 2026-10-30: Kie only), no-product clips Seedance 2.0 Mini; no Kling",
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-30",
+  "quote": "Without bracelet; Omni; HofR yes; Approve, start stills (Ralph 2026-10-30, answer picker after the review page)",
+  "total": 3.75,
+  "sha256": "5ed9e7dda50a7644b93dd746908af4b3e031fe75fbf942594a1c2be11109953c",
+  "spent_at_approval": 0.0
+ },
+ "text_overlay_ok": {
+  "by": "Ralph",
+  "date": "2026-10-30",
+  "quote": "House of Rameau version with hook text 'this is a whole load of laundry' from frame 0, no captions: Yes (answer picker 2026-10-30); standing rule 2026-10-29 'for HofR we are going to keep on screen text'",
+  "scope": "cut_hor.py only; Grace's cut.py has no text"
+ }
 }
