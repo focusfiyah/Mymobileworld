@@ -1,0 +1,166 @@
+[
+ {
+  "id": "S1",
+  "t": [
+   0.0,
+   3.31
+  ],
+  "line": "Okay, I can't be the only one whose feet are done by bedtime.",
+  "hand": true,
+  "product": false,
+  "room": "A",
+  "still": "Close-up, camera low at the foot of the bed in the reference bedroom (rattan headboard, sage green and white bedding, plants; image 1): Grace sits on the white duvet, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts, one foot drawn up in front of her, its toes pointing to the LEFT edge of the frame; Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) grips the top of that foot, thumb pressing into the arch, a thin layer of white lotion already shining on the top of the foot. Only her legs, feet and one hand are in frame: no face. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same headboard, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+  "still_refs": [
+   "rooms/room_A.jpg",
+   "refs/hand_sheet.jpg"
+  ],
+  "clip": "Recreate reference image 1 exactly as the first frame, then her thumb presses slow circles into the arch of her foot and the fingers rub the white lotion in over the top of the foot; the toes keep pointing to the LEFT edge of the frame. The same one hand stays gripping the foot, whole wrist in frame, the same rings as reference image 2. No jar, no bottle, no product packaging anywhere in the frame. No face. Camera handheld, almost still. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S1.png",
+   "refs/hand_sheet.jpg"
+  ],
+  "clip_model": "seedance-2.0-mini"
+ },
+ {
+  "id": "S2",
+  "t": [
+   3.31,
+   5.0
+  ],
+  "line": "Every night I rub this magnesium",
+  "hand": true,
+  "product": true,
+  "room": "B",
+  "still": "Close-up beside the reference nightstand (gold-frame side table, black lamp, tulips; image 4): Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) holds ONE open jar in the palm, fingers curled around its side, label facing the camera, while two fingertips of the other hand scoop a dollop of thick white lotion from it. The jar is the real Arnica + Lavender lotion: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING \u00b7 LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label. Its black lid lies upside down on the table beside it. Only one jar. No face. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet (real photos; the jar's size on a palm); image 2 = a real close-up of the lavender label: the print must match it letter for letter and colour for colour; image 3 = Grace's real hand sheet; image 4 = the real room to use as the background.",
+  "still_refs": [
+   "refs/sheet/product_sheet.jpg",
+   "refs/sheet/logo_lavender.jpg",
+   "refs/hand_sheet.jpg",
+   "rooms/room_B.jpg"
+  ],
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real lavender label: the print matches it letter for letter and colour for colour at every moment, including the MADE IN USA flag tag; image 3 is the product reference sheet: keep the exact amber glass jar and ribbed black lid. Motion: the two fingertips lift a dollop of white lotion out of the jar; the hand holding the jar keeps the same grip and the jar does not turn or flip. Same two hands only, whole wrists. No added marks, no \u00ae or \u2122. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S2.png",
+   "refs/sheet/logo_lavender.jpg",
+   "refs/sheet/product_sheet.jpg"
+  ],
+  "clip_model": "omni"
+ },
+ {
+  "id": "S3",
+  "t": [
+   5.0,
+   6.3
+  ],
+  "line": "into my legs and feet.",
+  "hand": true,
+  "product": false,
+  "room": "A",
+  "still": "VIEW FIRST: the camera stands at the FOOT of the bed and looks back toward the headboard. Grace sits on the bed with her back to the rattan headboard (the headboard is BEHIND her, at the top of the frame), facing the camera and the far wall; one leg stretched out straight toward the camera along the sage and white duvet, the other knee bent, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts; the toes of the straight leg point DOWN toward the bottom edge of the frame, at the lens. Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) lies flat on that shin, palm down, smoothing a streak of white lotion up toward the knee. The frame cuts at her waist: no face, no chest; the rattan headboard and the sage pillows show behind her hips. Only her legs, hips and one hand in frame. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same headboard, colours and light); image 2 = Grace's real hand sheet.",
+  "still_refs": [
+   "rooms/room_A.jpg",
+   "refs/hand_sheet.jpg"
+  ],
+  "clip": "Recreate reference image 1 exactly as the first frame, then the palm glides slowly up the shin to the knee, rubbing the white lotion in until it shines; she stays facing the camera with the headboard behind her and the toes pointing at the lens; the same one hand, whole wrist, the same rings as reference image 2. No jar, no bottle, no product packaging anywhere in the frame. No face. Camera handheld, slow push-in. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S3.png",
+   "refs/hand_sheet.jpg"
+  ],
+  "clip_model": "seedance-2.0-mini"
+ },
+ {
+  "id": "S4",
+  "t": [
+   6.3,
+   9.85
+  ],
+  "line": "Three scents: arnica lavender, citrus rose, citrus serenity.",
+  "hand": false,
+  "product": true,
+  "room": "B",
+  "still": "Eye-level close shot of the reference nightstand top (gold-frame side table, black lamp switched on, tulips; image 4): three closed jars stand in a row, the same jar shape each: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top. Left: the rose-pink Citrus Rose cream (a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in pink and SOLACE in light grey, rose-pink body with a white script 'Nighttime', white 'MAGNESIUM CREAM', the line 'HYDRATING | DEEP RELIEF', and a white box with pink 'CITRUS ROSE'; no flag tag). Middle, slightly forward and the sharpest: the lavender Arnica lotion (a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING \u00b7 LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label). Right, partly behind the lamp base and softer: the orange Citrus Serenity cream, the same label layout in orange with 'CITRUS SERENITY'. Exactly three jars. No hand, fingers or people appear. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet (the bottom-left photo shows the three jars in this order); image 2 = a real close-up of the lavender label: print letter for letter and colour for colour; image 3 = a real close-up of the Citrus Rose label: print letter for letter and colour for colour; image 4 = the real room to use as the background.",
+  "still_refs": [
+   "refs/sheet/product_sheet.jpg",
+   "refs/sheet/logo_lavender.jpg",
+   "refs/sheet/logo_rose.jpg",
+   "rooms/room_B.jpg"
+  ],
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real lavender label and image 3 the real Citrus Rose label: each print matches its image letter for letter and colour for colour at every moment; image 4 is the product reference sheet: keep the three amber glass jars with ribbed black lids. Motion: only the camera moves, a slow push-in toward the middle lavender jar; the jars do not move. No hand, fingers or people appear. Exactly three jars. No added marks, no \u00ae or \u2122. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S4.png",
+   "refs/sheet/logo_lavender.jpg",
+   "refs/sheet/logo_rose.jpg",
+   "refs/sheet/product_sheet.jpg"
+  ],
+  "clip_model": "omni"
+ },
+ {
+  "id": "S5",
+  "t": [
+   9.85,
+   12.01
+  ],
+  "line": "Winding down is my favorite part now.",
+  "hand": false,
+  "product": false,
+  "room": "A",
+  "still": "Wide-ish shot along the reference bed (rattan headboard, sage and white bedding, plants, small lamp on; image 1): her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts stretched out and crossed at the ankles on top of a cream knit blanket, soles toward the camera with the toes pointing up toward the top of the frame, skin softly glowing from lotion. Body cropped at the hips: no face, no hands in frame. No jar, no bottle, no product packaging anywhere in the frame. No hands or fingers; only her legs. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background.",
+  "still_refs": [
+   "rooms/room_A.jpg"
+  ],
+  "clip": "Recreate reference image 1 exactly as the first frame, then the feet relax and the toes stretch once slowly; the legs stay crossed at the ankles. No hands appear at any time, no face. No jar, no bottle, no product packaging anywhere in the frame. Camera: slow dolly in along the bed. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S5.png"
+  ],
+  "clip_model": "seedance-2.0-mini"
+ },
+ {
+  "id": "S6",
+  "t": [
+   12.01,
+   14.05
+  ],
+  "line": "One for you, one to gift for the holidays.",
+  "hand": true,
+  "product": true,
+  "room": "C",
+  "still": "Close-up on the small round wooden stool beside the reference bed (green bedding, small Christmas tree behind, softly out of focus; image 4): Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) sets ONE closed Citrus Rose jar down next to a small present wrapped in plain kraft paper with a green ribbon; thumb on one side of the jar, fingers curled around the other, label toward the camera, seen at three-quarter view. The jar: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in pink and SOLACE in light grey, rose-pink body with a white script 'Nighttime', white 'MAGNESIUM CREAM', the line 'HYDRATING | DEEP RELIEF', and a white box with pink 'CITRUS ROSE'; no flag tag. Only one jar. No face. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet; image 2 = a real close-up of the Citrus Rose label: print letter for letter and colour for colour; image 3 = Grace's real hand sheet; image 4 = the real room to use as the background.",
+  "still_refs": [
+   "refs/sheet/product_sheet.jpg",
+   "refs/sheet/logo_rose.jpg",
+   "refs/hand_sheet.jpg",
+   "rooms/room_C.jpg"
+  ],
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real Citrus Rose label: the print matches it letter for letter and colour for colour at every moment; image 3 is the product reference sheet: keep the amber glass jar and ribbed black lid. Motion: the hand sets the jar down on the stool next to the wrapped present and lets go, the fingers sliding away to the frame edge; the jar does not turn. One hand only, whole wrist. Exactly one jar. No added marks, no \u00ae or \u2122. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S6.png",
+   "refs/sheet/logo_rose.jpg",
+   "refs/sheet/product_sheet.jpg"
+  ],
+  "clip_model": "omni"
+ },
+ {
+  "id": "S7",
+  "t": [
+   14.05,
+   15.14
+  ],
+  "line": "It's in the orange cart.",
+  "hand": false,
+  "product": true,
+  "room": "B",
+  "still": "Close shot of the reference nightstand (gold-frame side table, black lamp switched on, tulips; image 3): ONE closed Arnica + Lavender jar stands alone on the table top in front of the books, label to the camera: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING \u00b7 LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label. Only one jar. No hand, fingers or people appear. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet; image 2 = a real close-up of the lavender label: print letter for letter and colour for colour; image 3 = the real room to use as the background.",
+  "still_refs": [
+   "refs/sheet/product_sheet.jpg",
+   "refs/sheet/logo_lavender.jpg",
+   "rooms/room_B.jpg"
+  ],
+  "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real lavender label: the print matches it letter for letter and colour for colour at every moment, including the MADE IN USA flag tag; image 3 is the product reference sheet. Motion: only the camera moves, a slow push-in toward the jar; the jar does not move. No hand, fingers or people appear. Exactly one jar. No added marks, no \u00ae or \u2122. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+  "clip_refs": [
+   "stills/S7.png",
+   "refs/sheet/logo_lavender.jpg",
+   "refs/sheet/product_sheet.jpg"
+  ],
+  "clip_model": "omni"
+ }
+]
