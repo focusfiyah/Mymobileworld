@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 18 of 85 videos posted since 2026-08-31
+18 videos -> ugc/earth-breeze-sheets/research/tag/tag-laundrydetergentsheets.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,600,000  19.1   5.53  154 2026-09-12  @jeeves_ny: Ranking every laundry aisle product, 0-10: Baking soda 5/10 - helpful,
+                                          https://www.tiktok.com/@jeeves_ny/video/7684731608670260494
+     11,400   0.2   0.04   18 2026-09-05  @freshflowz: Looking for laundry detergent sheets? These concentrated fresh-linen d
+                                          https://www.tiktok.com/@freshflowz/video/7682147067480853782
+      5,902   1.0   0.15   38 2026-09-18  @laurenmalea: Earth Breeze just gave laundry day a cozy fall upgrade 🍂 Their new lim
+                                          https://www.tiktok.com/@laurenmalea/video/7686971512779279646
+      2,019   0.6   0.15   37 2026-10-08  @toporganize: Tru Earth laundry detergent sheets make laundry day a little simpler 🧺
+                                          https://www.tiktok.com/@toporganize/video/7694312422215126285
+      1,531  25.7   3.98    6 2026-09-29  @lexus.mxrie: Make sure to check for coupons 🫶🏼✨@Glory Days #laundrysheetsdetergent 
+                                          https://www.tiktok.com/@lexus.mxrie/video/7690758861078252813
+        372   1.6   0.54   24 2026-10-14  @koiboyfeed: If you’re here because you love fish then switch over to laundry deter
+                                          https://www.tiktok.com/@koiboyfeed/video/7696583036946746637
+        360   0.8      0   13 2026-10-14  @yuio72916: One thin sheet does it all! AOMEE 5-in-1 laundry sheets. Fast dissolvi
+                                          https://www.tiktok.com/@yuio72916/video/7696468335382367502
+        256   0.4      0   15 2026-10-24  @itstomthecatuk: My first time trying lavender laundry detergent sheets! I wasn't sure 
+                                          https://www.tiktok.com/@itstomthecatuk/video/7700312869170089238
+        236   4.2   0.85   20 2026-10-28  @broganb1999: Concentrated Laundry Detergent Sheets #girlssupportgirls #teamwork #fo
+                                          https://www.tiktok.com/@broganb1999/video/7701603574756805921
+        212  11.8      0   12 2026-10-28  @mayi17202212: AOMEE Laundry Detergent Sheets 3-Piece Care Set, 160 Sheets Total, Eve
+                                          https://www.tiktok.com/@mayi17202212/video/7701527904823397645
+        116  16.4   3.45   43 2026-10-19  @saltysalle: If you love the idea of making your own laundry detergent but don’t ha
+                                          https://www.tiktok.com/@saltysalle/video/7698456938522201357
+         57     0      0   56 2026-10-26  @roxanerobertsgregoire: Earth Breeze Laundry Detergent Sheets Buy 2 Get 1 Free: Powerful Clean
+                                          https://www.tiktok.com/@roxanerobertsgregoire/video/7701045024892505358
+         56   8.9   1.79   14 2026-10-30  @denisegauna2: If you’re tired of bulky detergent bottles, you need to try Glory Days
+                                          https://www.tiktok.com/@denisegauna2/video/7702263235822538015
+         32   9.4      0   22 2026-10-26  @simply.rhonda: Still using bulky laundry detergent? 🧺👀 Earth Breeze Laundry Detergent
+                                          https://www.tiktok.com/@simply.rhonda/video/7701062523902020878
+         10  10.0      0   62 2026-10-29  @apatrick60: I’m about to start mailing out personal invitations because apparently
+                                          https://www.tiktok.com/@apatrick60/video/7702151580652506398

@@ -1,0 +1,76 @@
+  #tiktokshophome: 86 videos
+  #tiktokshopkitchen: 84 videos
+  #tiktokshopcleaning: 59 videos
+  #tiktokshopfinds: 58 videos
+  #laundry: 60 videos
+  #laundryhacks: 60 videos
+  #earthbreeze: 58 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+451 videos scanned, 61 shop videos posted in the last 3.0 day(s) -> ugc/earth-breeze-sheets/research/viral/viral-2026-10-30.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      304K    486K  1.6d  0.32  AIR U 3-in-1 Floor Scrub Brush with Adjustable Durable  [Home Supplies]
+                                  @airutidylife: I returned my electric spin brush and got THIS 😍#tiktokshopm
+                                  https://www.tiktok.com/@airutidylife/video/7701286310618631455
+  2       30K     68K  2.3d  0.41  Sikaic 71" Kitchen Pantry Cabinet, Large Storage Cabine [Furniture]
+                                  @kayla.ttsfinds: This has to be my new favorite piece of furniture I own. It’
+                                  https://www.tiktok.com/@kayla.ttsfinds/video/7701468988135542029
+  3       13K    3.1K  0.2d  0.73  WENTRONIC Y01 Over-Ear Wireless Bluetooth Waterproof He [Phones & Electronics]
+                                  @ittycheers: Welcome besties!! #tiktokshopfinds #fyp #jesuslovesyou 
+                                  https://www.tiktok.com/@ittycheers/video/7702231804593392909
+  4      4.4K    4.8K  1.1d  0.04  MaryRuth’s Advanced Hair Care Bundle – Daily Liquid Hai [Health]
+                                  @ikellymarcelino: Trusted brand in our home 🏠♥️ #tiktokshop #tiktokshopcreator
+                                  https://www.tiktok.com/@ikellymarcelino/video/7701916511388110093
+  5      2.8K    2.0K  0.7d   0.1  Tolife TZ-K1 Air Purifier Kills most Viruses Allergens/ [Household Appliances]
+                                  @djdealznow: #airpurifier #cleanhome #tiktokshop #tiktokdeals #foryoupage
+                                  https://www.tiktok.com/@djdealznow/video/7701923966335733023
+  6      2.2K    1.1K  0.5d  0.26  CGK | Holiday Duvet Cover Set – Festive Prints, Soft, I [Textiles & Soft Furnishings]
+                                  @ximm.enaa: #christmasdecor #christmasbedding #tiktokshop #fyp #homedeco
+                                  https://www.tiktok.com/@ximm.enaa/video/7702128648454737183
+  7      2.0K     594  0.3d  0.17  UFORU 3-Layer Transparent Plastic Corner Bathroom Count [Home Supplies]
+                                  @tru2myself_: I Love 💕 #fyp #blackfriday #tiktokshop #homeessentials #fory
+                                  https://www.tiktok.com/@tru2myself_/video/7702180426109979935
+  8      1.7K     831  0.5d  0.24  PHIVILLA 24" Counter Height Bar Stools Set of 2/4, Boho [Furniture]
+                                  @gisselleperezzz: I always get asked where my stools are from, & Black Friday 
+                                  https://www.tiktok.com/@gisselleperezzz/video/7702142370799701262
+  9      1.6K    2.1K  1.3d  0.67  【2/3 Packages Shipping】XIZZI 108" U-Shaped Chenille Uph [Furniture]
+                                  @yasmilopezz17: El mejor momento para obtenerlo con envío gratis ✨😌#cloudsof
+                                  https://www.tiktok.com/@yasmilopezz17/video/7701835774794272030
+ 10      1.5K    3.4K  2.2d  0.23  Earth Breeze Miracle Stain Remover Spray, 4fl oz Non-To [Home Supplies]
+                                  @stefanienicoleroque: Ok I honestly wasn’t expecting it to work THIS well 😳 The st
+                                  https://www.tiktok.com/@stefanienicoleroque/video/7701501787047529741
+ 11      1.2K    1.5K  1.3d   0.4  Farmhouse Christmas Kitchen Rugs 2-Piece Set, Red Buffa [Home Supplies]
+                                  @lindakitchen8: Farmhouse Christmas kitchen rug two piece set@BUSINESS AGENT
+                                  https://www.tiktok.com/@lindakitchen8/video/7701852154297961758
+ 12      1.1K     523  0.5d     0  Earth Breeze Laundry Detergent Sheets Buy 2 Get 1 Free: [Home Supplies]
+                                  @melvici: #laundrytok #laundry #earthbreeze #cleantok #budgetfriendly 
+                                  https://www.tiktok.com/@melvici/video/7702077123875310861
+ 13       984     589  0.6d  0.34  DECOLURE 6-Piece Bamboo Cooling Bedding Set - Breathabl [Textiles & Soft Furnishings]
+                                  @kodaktaylor: #bamboosheets #coolingsheets #sheetset #tiktokshopblackfrida
+                                  https://www.tiktok.com/@kodaktaylor/video/7702097875135761678
+ 14       967     563  0.6d     0  Earth Breeze Miracle Stain Remover Spray, 16fl oz Non-T [Home Supplies]
+                                  @imjustfoody: Earth breeze stain remover #TiktokShopBlackFriday #TiktokSho
+                                  https://www.tiktok.com/@imjustfoody/video/7701895395940519199
+ 15       943    1.2K  1.3d  0.08  Z Gallerie Neve 18x18in Indoor Opulent Decorative Pillo [Textiles & Soft Furnishings]
+                                  @krunch.7: I’m obsessed 🖤 @Z Gallerie #homedecor #pillows #tiktokshopbl
+                                  https://www.tiktok.com/@krunch.7/video/7701836526078020895
+ 16       943     543  0.6d  0.18  Under Sink Organizer 2 Tier Pull Out CabinetOrganizer S [Home Improvement]
+                                  @laicoino.laicoino: #undersinkstorage #pulloutorganizer #tiktokshopfindsfyp #hom
+                                  https://www.tiktok.com/@laicoino.laicoino/video/7701279368554761486
+ 17       705     579  0.8d     0  Earth Breeze Dishwasher Detergent Tablets, Free & Clear [Home Supplies]
+                                  @pepinsz: Good deal #dealsforyoudays #earthbreeze #tiktokshopcreatorpi
+                                  https://www.tiktok.com/@pepinsz/video/7701835169333824798
+ 18       614     154  0.2d  0.65  【Black Friday】Women's Plain Knit Cardigan Set, Button F [Womenswear & Underwear]
+                                  @lala.od: #tiktokshopfinds #lalafashionfinds #tiktokshopfashion #outfi
+                                  https://www.tiktok.com/@lala.od/video/7702226870913322254
+ 19       491     680  1.4d  0.29  HONGBAKE 7-Piece Multi-Size Carbon Steel Baking Pan Set [Kitchenware]
+                                  @ximm.enaa: #bakeware #hongbake #tiktokshop #kitchenfinds 
+                                  https://www.tiktok.com/@ximm.enaa/video/7701806225893182751
+ 20       483     642  1.3d  0.31  Wooden HOME Letters with Artificial Eucalyptus Wreath,  [Home Supplies]
+                                  @kary_mf: #homedecor #tiktokshopblackfriday #blackfridaysale 
+                                  https://www.tiktok.com/@kary_mf/video/7701826861810060558
