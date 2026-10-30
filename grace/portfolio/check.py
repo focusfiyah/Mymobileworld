@@ -66,7 +66,7 @@ def stats():
             want = fmt(acct[key])
         if shown.strip() != want:
             bad.append(f"{key}: page {shown!r} vs TikTok {want!r}")
-    if n < 10:
+    if n < 10:  # per-video stats only
         bad.append(f"only {n} stats tagged")
     # only self-filmed videos (Ralph 2026-10-28): every id on the page must be in videos.json, none from the AI list
     ai = {"7696231728855223582", "7696617399759555871", "7697844264050511135", "7700400913759980831",
@@ -76,6 +76,11 @@ def stats():
             bad.append(f"AI-made video {vid} on the page")
         if vid not in by_id:
             bad.append(f"video {vid} has no TikTok record")
+    # Grace 2026-10-30: never "2.8M views", no followers / likes / videos-posted account numbers
+    for key in re.findall(r'data-stat="(\w+)"', PAGE):
+        bad.append(f"account number {key} on the page")
+    if "2.8M" in PAGE:
+        bad.append("2.8M on the page")
     print(f"{n} stats checked")
     return bad
 

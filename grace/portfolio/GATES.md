@@ -57,3 +57,14 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
   EVIDENCE: 2026-10-28 version 1793193647-8e38; Drive 1qnlFTBNn-NXKJUEUtAHgpfPR6fjsc4_snRQ_WySBzOg + 19m-NsTnEw6xmoYsbJGGf3qjdTmMjpA9h
 - [x] V2-G4: hero photo = Ralph's pick (his circled frame, "Use this one"): closed-lip smile at 33.00 s of her intro, same light free finish; republished (version 1793194831-4cae); Drive CURRENT - Portfolio photo v2.jpg 1zY707s_uwit-wVhzOa9Kw2sWHV9qKHMx (198,811 bytes, matches) + CURRENT - Portfolio v2 doc 1b882gfZXD1BVI3XsaDFFzAWMoJbwTr38Xy1R_iYoefI; earlier photo + draft doc in Older versions
   EVIDENCE: 2026-10-28 frames 32.3-33.1 s compared at 2x; 33.00 s matches his circled frame (lips closed, eyes open)
+
+## v3 (2026-10-30, Grace: "super light green almost white background color", "Don't say 2.8M views", "Remove 11.4K followers · 66.1K likes · 1,229 videos posted")
+- [x] V3-G1: page background is a super light green, almost white (#f1f8f2); pink stays as the accent
+  EVIDENCE: 2026-10-30 Playwright screenshots 390 px + 1280 px checked; no horizontal scroll (scrollWidth = width)
+- [x] V3-G2: no "2.8M" and no account numbers (followers, likes, videos posted) anywhere on the page
+  CHECK: python3 grace/portfolio/check.py stats
+  EXPECT: STATS_OK
+  EVIDENCE: 2026-10-30 starburst, record line, card 1 Views and tile count removed; check.py now fails on 2.8M or any account stat; 18 stats STATS_OK, copy grade 6.8 COPY_OK
+- [x] V3-G3: republished to the same Artifact (version 1793325070-1085), media kept
+  EVIDENCE: 2026-10-30 publish result Version 4
+- [ ] V3-G4: Drive CURRENT doc updated (waiting for Grace's remaining notes, then one update)

@@ -6,14 +6,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Yellowtail&display=swap">
 <style>
-/* Layout: one pink owns the page edge to edge; white appears only as packaging (the box fronts that hold her videos), a script logotype sweeps across once, and one starburst carries the one big number. */
+/* Layout: a light green, almost white page (Grace 2026-10-30); pink is the accent (logotype, buttons, the TikTok tile); white box fronts hold her videos. No account numbers on the page (Grace 2026-10-30). */
 :root {
   --pink: #d0206a;          /* the hue, at full strength, everywhere */
-  --pink-deep: #8e0f45;     /* same hue, shadowed: logotype stroke, starburst, ink on white */
+  --pink-deep: #8e0f45;     /* same hue, shadowed: handle, shadows, ink on white */
   --pink-ink: #4a0722;      /* same hue, darkest: body text on white box fronts */
-  --white: #ffffff;         /* the only relief */
+  --white: #ffffff;         /* box fronts */
+  --bg: #f1f8f2;            /* the page: super light green, almost white (Grace 2026-10-30) */
+  --ink: #2a1019;           /* text on the page */
   --gloss: rgb(255 255 255 / 0.22);
-  --shadow: 0 1px 2px rgb(0 0 0 / 0.18), 0 10px 24px -6px rgb(0 0 0 / 0.35), 0 28px 60px -20px rgb(0 0 0 / 0.45);
+  --shadow: 0 1px 2px rgb(20 60 30 / 0.10), 0 10px 24px -8px rgb(20 60 30 / 0.16), 0 28px 60px -24px rgb(20 60 30 / 0.20);
   --font-script: "Yellowtail", "Brush Script MT", cursive;
   --font-sans: "Urbanist", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --step--1: clamp(0.84rem, 0.8rem + 0.2vw, 0.95rem);
@@ -30,10 +32,10 @@
   color-scheme: light;
 }
 * { box-sizing: border-box; }
-html { background: var(--pink); scroll-behavior: smooth; scroll-padding-top: 24px; }
+html { background: var(--bg); scroll-behavior: smooth; scroll-padding-top: 24px; }
 body {
-  background: var(--pink);
-  color: var(--white);
+  background: var(--bg);
+  color: var(--ink);
   font-family: var(--font-sans);
   font-size: var(--step-0);
   line-height: 1.55;
@@ -41,9 +43,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
-::selection { background: var(--white); color: var(--pink); }
-html { scrollbar-color: var(--white) var(--pink-deep); }
-:focus-visible { outline: 3px solid var(--white); outline-offset: 3px; border-radius: 12px; }
+::selection { background: var(--pink); color: var(--white); }
+html { scrollbar-color: var(--pink) var(--bg); }
+:focus-visible { outline: 3px solid var(--pink-deep); outline-offset: 3px; border-radius: 12px; }
 .box :focus-visible { outline-color: var(--pink-deep); }
 a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 2px; }
 h1, h2, h3 { text-wrap: balance; margin: 0; }
@@ -62,7 +64,7 @@ p { text-wrap: pretty; margin: 0; }
 .top { padding-block: 18px 0; }
 .top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .top .pill { min-height: 44px; padding: 8px 18px; font-size: var(--step--1); }
-.handle { font-weight: 700; letter-spacing: 0.02em; text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
+.handle { color: var(--pink-deep); font-weight: 700; letter-spacing: 0.02em; text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
 .handle:hover { text-decoration: underline; }
 
 /* ---------- pills (gloss) ---------- */
@@ -82,7 +84,7 @@ p { text-wrap: pretty; margin: 0; }
   border-radius: 999px;
   background: var(--pill-bg);
   color: var(--pill-fg);
-  box-shadow: inset 0 0 0 2px var(--white), 0 6px 16px -6px rgb(0 0 0 / 0.45);
+  box-shadow: 0 6px 16px -8px rgb(142 15 69 / 0.45);
   font: 700 var(--step-0) / 1 var(--font-sans);
   letter-spacing: 0.01em;
   text-decoration: none;
@@ -104,11 +106,10 @@ p { text-wrap: pretty; margin: 0; }
 .pill:hover::after { transform: skewX(-18deg) translateX(420%); }
 .pill:active { scale: 0.96; }
 .pill svg { width: 20px; height: 20px; flex: none; }
-.pill--white { --pill-bg: var(--white); --pill-fg: var(--pink); box-shadow: 0 6px 16px -6px rgb(0 0 0 / 0.45); }
-.pill--white::after { background: linear-gradient(100deg, transparent, rgb(208 32 106 / 0.12), transparent); }
+.pill--white { --pill-bg: var(--pink); --pill-fg: var(--white); box-shadow: 0 6px 16px -6px rgb(142 15 69 / 0.5); }
 .pill--ring { --pill-bg: var(--white); --pill-fg: var(--pink); box-shadow: inset 0 0 0 2px var(--pink); }
 .pill--ring::after { background: linear-gradient(100deg, transparent, rgb(208 32 106 / 0.12), transparent); }
-.pill--ink { --pill-bg: var(--pink); --pill-fg: var(--white); box-shadow: 0 6px 16px -6px rgb(0 0 0 / 0.45); }
+.pill--ink { --pill-bg: var(--pink); --pill-fg: var(--white); box-shadow: 0 6px 16px -8px rgb(142 15 69 / 0.45); }
 
 /* ---------- the box (white packaging front with a video window) ---------- */
 .box {
@@ -175,14 +176,14 @@ p { text-wrap: pretty; margin: 0; }
   font-weight: 400;
   font-size: var(--step-3);
   line-height: 0.9;
-  color: var(--white);
+  color: var(--pink);
   transform: rotate(-7deg);
   margin: 0 0 -0.32em;
   text-align: center;
   letter-spacing: 0;
-  -webkit-text-stroke: 0.06em var(--pink-deep);
+  -webkit-text-stroke: 0.07em var(--white);
   paint-order: stroke fill;
-  text-shadow: 0 0.06em 0.14em rgb(0 0 0 / 0.35);
+  text-shadow: 0 0.05em 0.12em rgb(142 15 69 / 0.28);
   max-width: 100%;
 }
 .hero-box {
@@ -193,41 +194,10 @@ p { text-wrap: pretty; margin: 0; }
 }
 .hero-copy { display: grid; gap: 16px; padding-inline: 12px; }
 .hero-copy h1 { font-size: var(--step-1); line-height: 1.2; font-weight: 800; color: var(--pink-ink); }
-.record {
-  font-size: var(--step--1);
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  color: var(--pink-deep);
-  font-variant-numeric: tabular-nums;
-}
-.record b { color: var(--pink-ink); font-weight: 800; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 #hero-video { opacity: 0; }
 .window.is-playing #hero-video { opacity: 1; }
 
-.burst {
-  position: absolute;
-  z-index: 4;
-  top: 18%;
-  right: -34px;
-  width: 132px;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  transform: rotate(10deg);
-  filter: drop-shadow(0 8px 14px rgb(0 0 0 / 0.45));
-}
-.burst svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-.burst p {
-  position: relative;
-  width: 70%;
-  text-align: center;
-  color: var(--white);
-  font-weight: 700;
-  font-size: 0.82rem;
-  line-height: 1.1;
-}
-.burst p b { display: block; font-size: 1.7rem; font-weight: 800; line-height: 1; letter-spacing: -0.02em; }
 
 @media (min-width: 1000px) {
   .hero { padding-block: 12px 72px; }
@@ -240,8 +210,6 @@ p { text-wrap: pretty; margin: 0; }
   }
   .hero-copy { padding: 0 0 36px; gap: 22px; }
   .hero-copy h1 { font-size: var(--step-2); line-height: 1.12; letter-spacing: -0.01em; }
-  .hero-copy .record { font-size: var(--step-0); }
-  .burst { top: 6%; right: auto; left: 318px; }
 }
 
 /* ---------- sections ---------- */
@@ -263,7 +231,8 @@ section { padding-block: 64px; }
 .label p { font-size: var(--step--1); color: var(--pink-ink); }
 .stats {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
   gap: 4px;
   margin: 4px 8px 0;
   padding-top: 12px;
@@ -319,7 +288,8 @@ section { padding-block: 64px; }
   min-height: 44px;
   padding: 8px 20px;
   border-radius: 999px;
-  box-shadow: inset 0 0 0 2px var(--white);
+  box-shadow: inset 0 0 0 2px var(--pink);
+  color: var(--pink-ink);
   font-weight: 700;
 }
 .about { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
@@ -373,9 +343,6 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
 }
 @media (max-width: 640px) {
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .burst { width: 108px; right: -10px; top: 8%; }
-  .burst p b { font-size: 1.4rem; }
-  .burst p { font-size: 0.78rem; }
   .grid .label { padding-inline: 4px; }
   section { padding-block: 48px; }
 }
@@ -398,10 +365,6 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
     <div class="wrap">
       <p class="logotype" id="name" role="heading" aria-level="1">Grace With The Glow</p>
       <div class="box hero-box">
-        <div class="burst">
-          <svg viewBox="0 0 100 100" aria-hidden="true"><polygon fill="#8e0f45" points="50.0,0.0 57.1,9.6 67.1,3.0 70.5,14.5 82.1,11.7 81.4,23.6 93.3,25.0 88.5,36.0 99.2,41.3 91.0,50.0 99.2,58.7 88.5,64.0 93.3,75.0 81.4,76.4 82.1,88.3 70.5,85.5 67.1,97.0 57.1,90.4 50.0,100.0 42.9,90.4 32.9,97.0 29.5,85.5 17.9,88.3 18.6,76.4 6.7,75.0 11.5,64.0 0.8,58.7 9.0,50.0 0.8,41.3 11.5,36.0 6.7,25.0 18.6,23.6 17.9,11.7 29.5,14.5 32.9,3.0 42.9,9.6"/></svg>
-          <p><b class="num" data-stat="views:7566790233325391135">2.8M</b>views on one of her videos</p>
-        </div>
         <div class="window" id="hero-window">
           <img src="media/hero-smile.jpg" alt="Grace smiling at the camera in a pink top" fetchpriority="high">
           <video id="hero-video" src="media/hero.mp4" poster="media/hero-smile.jpg" playsinline preload="none" aria-label="Grace introduces herself to brands">
@@ -411,7 +374,6 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
         </div>
         <div class="hero-copy">
           <h1>UGC creator and TikTok Shop affiliate. Beauty, fashion, lifestyle, and products that solve real everyday problems.</h1>
-          <p class="record"><b class="num" data-stat="followers">11.4K</b> followers · <b class="num" data-stat="likes">66.1K</b> likes · <b class="num" data-stat="videos">1,229</b> videos posted</p>
           <div class="hero-actions">
             <button class="pill pill--ink" id="watch" type="button">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg>
@@ -442,7 +404,6 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
             <p>Her own routine with her baby.</p>
           </div>
           <dl class="stats">
-            <div><dt>Views</dt><dd data-stat="views:7566790233325391135">2.8M</dd></div>
             <div><dt>Likes</dt><dd data-stat="likes:7566790233325391135">44.3K</dd></div>
             <div><dt>Saves</dt><dd data-stat="saves:7566790233325391135">4,006</dd></div>
             <div><dt>Shares</dt><dd data-stat="shares:7566790233325391135">1,096</dd></div>
@@ -542,7 +503,7 @@ footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; 
         </article>
         <a class="box more-tile" href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">
           <div class="window more-window">
-            <p><b class="num" data-stat="videos">1,229</b>videos on her TikTok</p>
+            <p><b>More</b>on her TikTok</p>
           </div>
           <div class="label"><h3>See them all</h3><p>@shewiththeglow on TikTok</p></div>
         </a>
