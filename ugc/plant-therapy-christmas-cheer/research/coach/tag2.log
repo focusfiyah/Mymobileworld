@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 40 of 86 videos posted since 2026-08-31
+40 videos -> ugc/plant-therapy-christmas-cheer/research/coach/tag-planttherapy.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+    178,900  11.0   1.27   15 2026-09-22  @leafmealone.96: Sometimes therapy looks like this 🪴🤍 #planttok #plantlover #houseplant
+                                          https://www.tiktok.com/@leafmealone.96/video/7688459840657558814
+    176,400   2.0   0.11  308 2026-09-24  @tisgoodfou: Leave the past with the dead leaves. 🍂#LetGo #Healing #Succulent #Plan
+                                          https://www.tiktok.com/@tisgoodfou/video/7689006650782387469
+     38,200  18.9   1.38    7 2026-09-10  @fayesplants: My kind of therapy 🌿🤎 A quiet house, hundreds of leaves, warm lights, 
+                                          https://www.tiktok.com/@fayesplants/video/7683975155533548822
+     28,700   9.6   0.83   27 2026-10-04  @plantgirl.ph: This is why we choose a life with plants. 💚🪴🥰 #plantgirlph #plantsmake
+                                          https://www.tiktok.com/@plantgirl.ph/video/7692859800786390290
+     15,000   9.5   0.95   99 2026-09-05  @nicole.dawna: Let the fall festivities begin, in a crunchy way ofc ;) #planttherapyp
+                                          https://www.tiktok.com/@nicole.dawna/video/7682092668536622350
+     13,700  11.2   1.45   41 2026-09-20  @kansodesigns: Maybe that’s what makes caring for plants so special. 🌿 We give them w
+                                          https://www.tiktok.com/@kansodesigns/video/7687609279615995157
+     13,400   4.2   0.25  386 2026-09-15  @tisgoodfou: Today, choose a little peace. 🍃#Healing #Relaxing #Succulent #PlantThe
+                                          https://www.tiktok.com/@tisgoodfou/video/7685904085362511117
+     10,900  14.8   1.28   79 2026-09-09  @taylorgarveyy: We’d all do well w touching more grass 🪴🫜
+                                          https://www.tiktok.com/@taylorgarveyy/video/7683629499015089439
+      7,460   3.4   0.21 1134 2026-09-16  @tisgoodfou: Let nature reset your mind. 🌿#Nature #PlantTherapy #Succulent #Relaxin
+                                          https://www.tiktok.com/@tisgoodfou/video/7686225486652919053
+      5,372  10.0   1.01   11 2026-09-19  @kansodesigns: There’s something special about having a hobby that gives you a reason
+                                          https://www.tiktok.com/@kansodesigns/video/7687240104674446600
+      3,820   6.9    0.6   31 2026-09-21  @planttherapynp: Mental Health Monday 🌱 Consistency matters. Perfection doesn’t. This i
+                                          https://www.tiktok.com/@planttherapynp/video/7688101024170609934
+      3,232  22.4   1.05   14 2026-10-21  @momsgotthegoods: Sometimes I just need to look at my plants and not be responsible for 
+                                          https://www.tiktok.com/@momsgotthegoods/video/7698966709322992909
+      3,027  10.7   0.17    9 2026-10-09  @therealmccoytherapygroup: Never gonna miss my part of the song 💚 #plantcare #plantsandpraise #ba
+                                          https://www.tiktok.com/@therealmccoytherapygroup/video/7694669177944116494
+      2,866   0.9   0.03   67 2026-10-15  @jazminer17: save ur bank and stop falling for MLMS😭 #essentialoils #jazminer17 #pl
+                                          https://www.tiktok.com/@jazminer17/video/7696801711892991246
+      2,321   6.3    0.6   26 2026-10-24  @yesi.duenas: “My jungle, my rules. No guilt, no drama, just growth. 💚” #PlantTok #P
+                                          https://www.tiktok.com/@yesi.duenas/video/7700343736294837534

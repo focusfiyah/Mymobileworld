@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 42 of 59 videos posted since 2026-08-31
+42 videos -> ugc/plant-therapy-christmas-cheer/research/coach/tag-christmasessentialoils.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+     23,300   0.8   0.13   10 2026-10-19  @heatheratl: It’s so perfect✨🥹🚂 the most charming essential oil diffuser for Christ
+                                          https://www.tiktok.com/@heatheratl/video/7698440095107484959
+     15,100   0.6   0.21  102 2026-10-21  @alliebama17: Seven R&W diffuser oils, seven completely different vibes! 🎄🌸🧊 From no
+                                          https://www.tiktok.com/@alliebama17/video/7698969967609253150
+     10,200   0.9    0.1   31 2026-10-14  @gretchen_sahm: Plant therapy is bringing Christmas vibes right in time #essentialoils
+                                          https://www.tiktok.com/@gretchen_sahm/video/7696339238706482462
+      9,865   0.4   0.04   15 2026-10-24  @rrrgoods: I’ve never seen a diffuser like this. Use as a humidifier alone or add
+                                          https://www.tiktok.com/@rrrgoods/video/7700186144625020191
+      9,078   0.2   0.03   23 2026-10-13  @annmarieeckhart: Plant Therapy Christmas Cheer Essential Oil Blend 3 Set
+                                          https://www.tiktok.com/@annmarieeckhart/video/7696276798249749773
+      4,217   0.8   0.24    7 2026-10-18  @tristfrwxce: unbelievable product by @Plant Therapy! You can diffuse or I just put 
+                                          https://www.tiktok.com/@tristfrwxce/video/7697802904811457823
+      3,985   9.9    0.1   24 2026-10-18  @life.with.little.ones: immediate Christmas vibes fill the air with these essential oils from 
+                                          https://www.tiktok.com/@life.with.little.ones/video/7698097778878090509
+      2,560   0.9   0.08   31 2026-10-07  @itsrondaj: New R&W Co Christmas scents 🎄✨ Breaking down the fragrance notes + wha
+                                          https://www.tiktok.com/@itsrondaj/video/7694000242370350367
+      2,347   0.7   0.13   14 2026-10-15  @katemlowery: Plant therapy new essential oils just dropped 🌱🌲 #planttherapy #essent
+                                          https://www.tiktok.com/@katemlowery/video/7697031569797565727
+      1,246   0.6   0.08   35 2026-09-24  @donna505050: Fill your home with the smell of Christmas #essentialoils #home #chris
+                                          https://www.tiktok.com/@donna505050/video/7689205878792244513
+      1,215   0.8      0   25 2026-10-18  @tristfrwxce: Christmas scents 100% all natural essential oils by @Plant Therapy - t
+                                          https://www.tiktok.com/@tristfrwxce/video/7698151277422824735
+      1,031   1.0   0.29   49 2026-10-20  @alliebama17: Fresh Christmas greenery 🌲 or warm, cozy holiday spices? 🍊🎄 R&W Christ
+                                          https://www.tiktok.com/@alliebama17/video/7698555779506261279
+        960   6.4   0.21   10 2026-10-21  @ourhome.becoming: 🌲✨Christmas faves countdown, day 1! This vintage train essential oil d
+                                          https://www.tiktok.com/@ourhome.becoming/video/7699212862668934414
+        840   2.0   0.24   11 2026-10-09  @summer_moon_11.11: Bring on the cozy Christmas vibes! 🎄✨ This Plant Therapy Christmas Che
+                                          https://www.tiktok.com/@summer_moon_11.11/video/7694804417886915854
+        814   0.4      0   44 2026-10-28  @kellielynn071: Add this to your wish list this holiday season! #essentialoils #aromat
+                                          https://www.tiktok.com/@kellielynn071/video/7701816700680834317
