@@ -42,5 +42,7 @@ Ralph's choices (2026-10-30): my script + Grace cloned v5 voice, 1 video 15-20 s
   EVIDENCE: tools/hookcheck/hook_check.py out/earth_breeze_hor_v1.mp4 --hook 250,410,580,210 -> HOOK_OK
 - [x] G15: REMOVED.md + 2x QC (hands, edges, first second, prints) (manual)
   EVIDENCE: qc/ strips; S8 small-print slip flagged to Ralph, not fixed (no spend); washer logos cropped/blurred free
-- [ ] G16: Ralph approves cut v1 (manual)
-- [ ] G17: final + script doc in Drive "Grace Tiktok assets/Earth Breeze ... (Grace)" as CURRENT (manual)
+- [x] G16: Ralph approves cut v1 (manual)
+  EVIDENCE: Ralph 2026-10-30: "Ok" after cut v1 + HofR v1 (review page v3)
+- [x] G17: final + script doc in Drive "Grace Tiktok assets/Earth Breeze ... (Grace)" as CURRENT (manual)
+  EVIDENCE: folder 1PKD7A0Gf0qiynWVS0QKXabboeLCMtcjU: video 1zpJSL6te8PWau5rxmURMcHwKLNnKj8gZ 44739528 bytes = local; doc 12J3-2QCUme6c5uWN2b5ytsAS6RHE0h-sAkmsXN3Ases; job media in Repo media (MEDIA_OK)
