@@ -56,7 +56,7 @@ Machine time ~35-40 min plus your two review stops. House of Rameau version (own
 | Product clips, Omni 1.1 Flash on Kie, 4 s | 4 x $0.315 | 1.26 |
 | One likely redo (a still + an Omni clip), asked before it runs | $0.09 + $0.315 | 0.41 |
 Flow option: you make the 4 product clips free in your Flow app (48 credits) -> Kie total $1.53.
-Kling option (Ralph 2026-10-30: Kling available, 668 credits shared by 5 sessions, this job's share 133): S2, S3, S5 (no product) on Kling 3.0 turbo 5 s, 3 x 40 = 120 credits, instead of Seedance -> Kie $0.49 less ($2.30, or $1.04 with Flow too). Product clips stay on Omni (product lock).
+Kling: 0 booked. Ralph 2026-10-30 (via the Niagara session): keep 300 credits for other projects, max 80 per Grace session, only where a shot needs it. Seedance stays first for S2 S3 S5; Kling (40 credits a clip, asked first) only if one of them fails QC.
 VO: ElevenLabs Grace cloned v5, ~280 characters.
 Month so far (`python3 grace/spend.py`): KIE $232.27  OTHER $0.65  MONTH 2026-10 TOTAL $232.92 (no cap in October; $100 cap from November 1)
 
@@ -69,7 +69,6 @@ TOTAL: $2.79
 2. Product clips S1 S4 S6 S7: Kie Omni ($1.26, I do it all) or your Flow app ($0, I send 4 kits)?
 3. Voice: Grace cloned v5 (~280 ElevenLabs characters), or is Grace recording this one herself?
 4. Your attached picture did not reach me. Was it the TikTok Shop listing (74 sold, 4.4 stars)? If it was something else, please send it again.
-5. Kling for the 3 no-product clips S2 S3 S5 (120 of this job's 133 credits, saves $0.49 of Kie)?
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Every still and clip prompt is in `shots.json` (built by `make_shots.py`), linted PROMPT_LINT_OK and read end to end; the full text is on the review page.

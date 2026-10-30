@@ -1,6 +1,6 @@
 # Plant Therapy Christmas Cheer Essential Oil Blend 3 Set (Grace), 15 s
 
-Status: **PLAN v1 sent 2026-10-30 (+ Kling option: S2 S3 S5 on Kling, 120 of this job's 133 shared credits, ledger obsidian-vault Brain/Kling credits.md). Waiting on Ralph's OK + 5 answers. $0 spent. Book TOTAL $2.79 (Flow $1.53; Kling takes $0.49 off).** Review page https://claude.ai/artifact/HHa8EJ3Xp8diKpLcUrYB6V
+Status: **PLAN v1 sent 2026-10-30 Kling 0 booked, fallback only, max 80 (obsidian-vault Brain/Kling credits.md). Waiting on Ralph's OK + 4 answers. $0 spent. Book TOTAL $2.79 (Flow $1.53).** Review page https://claude.ai/artifact/HHa8EJ3Xp8diKpLcUrYB6V
 
 - Route: hands + hand-free AI over Grace cloned v5 (ugc-product-ad), product lock (Omni), Seedance for no-product clips. 7 shots, 3 hand-free.
 - Plan: `BOOK.md`; prompts: `make_shots.py` -> `shots.json` (PROMPT_LINT_OK); product truth `product_truth.json`; research `research/`; rooms `rooms/SOURCES.md`.
