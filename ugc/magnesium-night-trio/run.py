@@ -16,7 +16,19 @@ def still(sid):
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
 
+def seedance(sid):
+    """Seedance 2.0 Mini, reference mode (image 1 = the still), for the no-jar clips ($0.164 each, 4 s)."""
+    s = S[sid]
+    body = {"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}_clip.txt").read_text().strip(),
+            "reference_image_urls": [kie.upload(r) for r in s["clip_refs"]],
+            "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}
+    url = kie.run_task(body, label=f"seedance {sid}")
+    if url: kie.fetch(url, f"clips/{sid}.mp4"); print("clip", sid, "ok", flush=True)
+
+
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
+    if kind == "seedance":
+        with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(seedance, ids))
     if kind == "stills":
         with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(still, ids))
