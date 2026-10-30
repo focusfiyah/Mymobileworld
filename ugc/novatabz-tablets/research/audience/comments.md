@@ -1,0 +1,141 @@
+# TikTok comments (2026-10-30), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+107 comments reachable of 1151 reported across 4 videos. Buyer questions in them: 22.
+- "People got a sink right? Not a cup" (7680276084679626014)
+- "does it give you anxiety? teeth whitening stuff makes me grind my teeth" (7680276084679626014)
+- "Anyone remember those red things we would chew in school that would show that we didn’t brush our teeth well enough?" (7680276084679626014)
+- "Do you know where should we get it from? 💜" (7680276084679626014)
+- "Does it last all day?" (7680276084679626014)
+- "how do you literally chew? I think I can only chew" (7680276084679626014)
+- "Why you never show the before?" (7680276084679626014)
+- "What if I use both?" (7680276084679626014)
+- "Question is how long does it last?" (7680276084679626014)
+- "why did you spit in a cup?" (7680276084679626014)
+- "Like how long or how many days till your teeth whitens i wanted to know if this is legit? So i can get one" (7680276084679626014)
+- "Do they stay white once you rinse ????" (7680276084679626014)
+- "lol amazing. Why do all of you spit in the glass at the end?" (7680276084679626014)
+- "You spit it out then?!😳 I’ve been eating them!😳" (7680276084679626014)
+- "Pero por qué no pone el antes?" (7680276084679626014)
+- "May we see the before, please?" (7680276084679626014)
+- "So people spit it into a cup to drink it later or?" (7680276084679626014)
+- "Is it safe to use on sensitive teeth?" (7680276084679626014)
+- "I would like to try this but I have 2 fake teeth in the front. Anyone else know if it works on fake teeth??" (7680276084679626014)
+- "How long does the white last?" (7680276084679626014)
+- "Do these ACTUALLY work??? I need ASAP!" (7680276084679626014)
+- "Can this help my teeth look good even if i have small teeth? Always felt self conscious about them." (7680276084679626014)
+
+## @nextgenthreads (31200000 views), 106 of 1150 comments reachable. https://www.tiktok.com/video/7680276084679626014
+- (1990 likes) "OK. I just ordered these. They better work."
+- (374 likes) "I only have 1 tooth left but I would like to have it white"
+- (249 likes) "People got a sink right? Not a cup"
+- (125 likes) "Dude is gonna light up the place tomorrow 🤣"
+- (117 likes) "Just ordered mine! Hoping for the BEST!"
+- (98 likes) "POV: Those that are still on bed be like.."
+- (89 likes) "This reminds me of Ross Geller🤣"
+- (81 likes) "ok this is actually genius why didnt i think of this"
+- (77 likes) "I want my 3 teeth to gleam like that 🫢"
+- (69 likes) "Wow that's impressive thank you."
+- (68 likes) "Bros saving it for later 😂"
+- (64 likes) "does it give you anxiety? teeth whitening stuff makes me grind my teeth"
+- (61 likes) "I'm going to give it a try !"
+- (58 likes) ""
+- (48 likes) "damn dood your reaction was hellairious.thanks for sharing."
+- (47 likes) "The episode of friends where Ross whitens his teeth and they glow on his date…. That’s all 😂😂😂😂"
+- (38 likes) "Nice smile!"
+- (21 likes) ""
+- (18 likes) "Anyone remember those red things we would chew in school that would show that we didn’t brush our teeth well enough?"
+- (12 likes) "now be extra real and keep a cam on yaself while the day passes thru bfast n lunch while at work lol"
+- (11 likes) "I want one too for my teeth🥰🥰🥰🥰"
+- (11 likes) "Do you know where should we get it from? 💜"
+- (9 likes) "Never gave us a before 🥺😂"
+- (7 likes) "Good boy"
+- (6 likes) "okay Ross!"
+- (6 likes) "OMG! This is amazing!! I must try it!"
+- (6 likes) "Does it last all day?"
+- (5 likes) "Stoooooppppp this is so awesome. I used their traveling purple mouthwash and it’s a 10 out of 10."
+- (5 likes) "But why did you have to make that noise while spitting 😂😂😂 … great ad btw! I want some now!"
+- (4 likes) "how do you literally chew? I think I can only chew"
+- (4 likes) "Why you never show the before?"
+- (4 likes) "What if I use both?"
+- (4 likes) "This makes sense with color theory. Interesting"
+- (4 likes) "Spitting in the cup just pissed me off"
+- (4 likes) "Question is how long does it last?"
+- (3 likes) "why did you spit in a cup?"
+- (3 likes) "let’s se a before next time"
+- (3 likes) "We need a before and after"
+- (3 likes) "Too expensive can i just buy the cup when you’re done"
+- (3 likes) "Or hear me out, just spit it in the sink…"
+- (3 likes) "Like how long or how many days till your teeth whitens i wanted to know if this is legit? So i can get one"
+- (3 likes) "I think it is a temporary white stain. It is good for special occasions."
+- (3 likes) "I like when you showed the b4"
+- (3 likes) "Hydroxy-APPETITE 😂😂😂"
+- (3 likes) "Do they stay white once you rinse ????"
+- (2 likes) "🤔🤔🤔 I might try it"
+- (2 likes) "wow , looks nie"
+- (2 likes) "stunning butbi think you hadbyourbteeth done cause they are perfection"
+- (2 likes) "lol amazing. Why do all of you spit in the glass at the end?"
+- (2 likes) "literally bought em just now"
+- (2 likes) "let me know if they work please"
+- (2 likes) "You spit it out then?!😳 I’ve been eating them!😳"
+- (2 likes) "You pulled a Ross 😂😂"
+- (2 likes) "Will it work for me"
+- (2 likes) "Why does everyone spit it in a cup instead of the sink 😭"
+- (2 likes) "What are side effects"
+- (2 likes) "We need the BEFORE pics first!"
+- (2 likes) "Those are disclosing tablets. Tells you where you have plaque. Lol"
+- (2 likes) "They work I tried them"
+- (2 likes) "Pero por qué no pone el antes?"
+- (2 likes) "May we see the before, please?"
+- (2 likes) "I was the 10 thousandth like btw"
+- (2 likes) "I want to see the before and after pictures."
+- (2 likes) "I want ittttt"
+- (2 likes) "I NEED TO GO VIRAL"
+- (2 likes) "How long do it last thou"
+- (2 likes) "Hmm, I think I am going to order these; hopefully, it is not a scam."
+- (2 likes) "Ay we have the same name"
+- (2 likes) "Alright I ordered it"
+- (2 likes) ""
+- (1 likes) "yo! you funny how you said in the beginning"
+- (1 likes) "why did you spit in a clean glass and not the sink 🤔"
+- (1 likes) "the yellow is still there Purple makes yellow teeth look whiter through color theory and an optical illusion rather than actual bleaching or stain removal."
+- (1 likes) "so first it was purple whitening strips then it was whitening serum then it was whitening something something now it's whitening tablet"
+- (1 likes) "shi lowly jelly"
+- (1 likes) "it’s disclosing time"
+- (1 likes) "is it good when u have braces"
+- (1 likes) "i just ordered them we shall see"
+- (1 likes) "boy🤣🤣🤣🤣"
+- (1 likes) "Ye I’m getting this shi next week"
+- (1 likes) "Why couldn’t they fit 10 more pieces to make it even 🥲💔"
+- (1 likes) "This would have been my honest reaction"
+- (1 likes) "They got the 10% part right but it has to be nano hydroxyapitie or it does little to nothing."
+- (1 likes) "So people spit it into a cup to drink it later or?"
+- (1 likes) "OMG Id probably think it’s a piece of candy of gum and swallow it 🤣"
+- (1 likes) "No té vimos él amtes"
+- (1 likes) "Just make it a damned toothpaste, then"
+- (1 likes) "I’m buying the"
+- (1 likes) "It’s disclosing time"
+- (1 likes) "Is it safe to use on sensitive teeth?"
+- (1 likes) "Imagine going to this dudes house and he serves you in that glass.😂"
+- (1 likes) "I would like to try this but I have 2 fake teeth in the front. Anyone else know if it works on fake teeth??"
+- (1 likes) "I want to do but I have a fake tooth in the front so it wouldnt turn and I would look awful"
+- (1 likes) "I never understood why they don’t just spit in the sink. Save a glass to clean"
+- (1 likes) "I just ordered one"
+- (1 likes) "I appreciate you having clean nails with the product close ups lol"
+- (1 likes) "How long does the white last?"
+- (1 likes) "Hahahaha now you look like Ross from friends"
+- (1 likes) "Does it actually work cause the strips did not"
+- (1 likes) "Do these work forreal because I want chip skylark teeth!!!"
+- (1 likes) "Do these ACTUALLY work??? I need ASAP!"
+- (1 likes) "Can this help my teeth look good even if i have small teeth? Always felt self conscious about them."
+- (1 likes) "Can I get a free sample, if it works for me I’ll purchase for family and friends.😁"
+- (1 likes) "Before and after pictures please….."
+- (0 likes) "NGL..thought this was a whole different vid🤦"
+- (0 likes) "I don’t have teef to brush"
+
+## @king_okiki15 (1549 views), 0 of 0 comments reachable. https://www.tiktok.com/video/7692511318053539103
+
+## @tiktokshopprincessdi (1462 views), 1 of 1 comments reachable. https://www.tiktok.com/video/7699250764820139277
+- (1 likes) "🥰🥰🥰🥰🥰🥰"
+
+## @itsoneidaaa (1429 views), 0 of 0 comments reachable. https://www.tiktok.com/video/7699912991046749471

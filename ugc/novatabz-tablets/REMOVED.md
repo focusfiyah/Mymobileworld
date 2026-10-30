@@ -1,0 +1,3 @@
+# REMOVED, NovaTabz (2026-10-30): check every cut against this list
+Standing (Ralph's rules): no on-screen text or captions (no text overlay unless Ralph says yes), no product overlay cards or pop-ups, no Ken Burns on photos, no freezes, no price number, no "order it now", no "label says", no "reviewer", no dark, moody, golden or yellow grade, no hand sweeping across the product, no pictures of boxes, no innuendo, no light effects (sparkle, glint, flare).
+This job: no whitening, enamel-repair or cavity claims (the listing doesn't make them); no other toothpaste brand on screen (pain shots use a plain unbranded tube); end shot shows ONE jar.

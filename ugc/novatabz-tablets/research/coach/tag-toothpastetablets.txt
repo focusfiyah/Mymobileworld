@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/ugc/novatabz-tablets/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/ugc/novatabz-tablets/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 37 of 85 videos posted since 2026-08-31
+37 videos -> research/coach/tag-toothpastetablets.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+ 31,200,000   0.7   0.18   44 2026-08-31  @nextgenthreads: Now we can just brush & whiten our teeth at the same time 🙌🏽 #drdent #
+                                          https://www.tiktok.com/@nextgenthreads/video/7680276084679626014
+  1,400,000   6.0   1.28   21 2026-10-24  @certifieddealzz: purple shampoo but for your teeth 🫪🦷‼️#yellowteeth #whiteningtoothpast
+                                          https://www.tiktok.com/@certifieddealzz/video/7700375948922768670
+  1,300,000   0.2   0.04   45 2026-09-24  @ssensoo: #drdent #toothpastetablets #tablets #teethwhitening #whiteningstrips 
+                                          https://www.tiktok.com/@ssensoo/video/7688944218605210910
+    959,900   0.6   0.17   56 2026-10-09  @confidentlyher.info: Rebuild and remineralize your teeth naturally! @Mouthology #nanohydrox
+                                          https://www.tiktok.com/@confidentlyher.info/video/7694468592934472974
+    934,500   1.1   0.29   80 2026-09-15  @faithfuldoc: #drdent #drdentteethwhitening #purpletoothpaste #tiktokshopstockup #to
+                                          https://www.tiktok.com/@faithfuldoc/video/7685566877229223199
+    586,800   0.3   0.07   48 2026-09-10  @dealswithannie: Those results 🫪 #drdent #teethwhitening #teethwhiteningproducts #purpl
+                                          https://www.tiktok.com/@dealswithannie/video/7683865787488144662
+    560,600   0.1   0.03   17 2026-09-01  @shopm4dness: The results are actually insane..😳 #toothpastetablets #drdent #fyp
+                                          https://www.tiktok.com/@shopm4dness/video/7680715594794126622
+    453,500   0.2   0.04   24 2026-09-24  @prestonkramer01: All I use for my toothpaste now #drdent 
+                                          https://www.tiktok.com/@prestonkramer01/video/7689151047092227358
+    247,600   0.2   0.03   40 2026-10-16  @ttshopperuk: Drdent purple toothpaste tablets! #drdent#tiktokmademebuyit#teethwhite
+                                          https://www.tiktok.com/@ttshopperuk/video/7697243042398424352
+     55,900   0.2   0.04   28 2026-09-09  @yanriquetoks: The results are actually crazy… 😳🦷 #drdent #teethwhitening #yellowteet
+                                          https://www.tiktok.com/@yanriquetoks/video/7683385651487706399
+     45,900   0.9   0.15   37 2026-09-04  @myfamilypov: This worked far better than the strips, and leaves no mess #drdent #pu
+                                          https://www.tiktok.com/@myfamilypov/video/7681798579316460830
+     37,600  14.8    1.6   35 2026-10-03  @dipperandjinx: the chewing sensation is similar to sweet tart candy or tums! let me k
+                                          https://www.tiktok.com/@dipperandjinx/video/7692571123770346766
+     24,500   6.1   0.62   66 2026-09-21  @wuzzamsupa: Let's see if I can give my new business the #SupaEffect !! It's not ab
+                                          https://www.tiktok.com/@wuzzamsupa/video/7688072373047708958
+      7,726   2.0   0.08  141 2026-09-03  @chaotic.pet.lover: I may use it once a day and my other toothpaste for my second brushing
+                                          https://www.tiktok.com/@chaotic.pet.lover/video/7681381328087960846
+      4,741   7.2   1.62   36 2026-10-23  @sanaxgoddess: @NOBS Routines #nobs #nobstoothpaste #nobstoothpastetablets 
+                                          https://www.tiktok.com/@sanaxgoddess/video/7699854776216866062

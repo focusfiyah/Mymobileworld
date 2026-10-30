@@ -14,6 +14,11 @@ def folder(name, parent):
     with lock:
         if k in folders:
             return folders[k]
+        # a fresh workbench has no cache: reuse the existing Drive folder (2026-10-30, a duplicate "Mymobileworld" was made)
+        q = f"'{parent}' in parents and name = '{name}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
+        f, e = proxy_execute("GET", "https://www.googleapis.com/drive/v3/files", "googledrive", query_params={"q": q, "fields": "files(id)"})
+        if not e and f.get("files"):
+            folders[k] = f["files"][0]["id"]; json.dump(folders, open(FP, "w")); return folders[k]
         r, e = run_composio_tool("GOOGLEDRIVE_CREATE_FOLDER", {"name": name, "parent_id": parent}, account=ACC)
         if e:
             raise RuntimeError(e)

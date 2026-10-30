@@ -1,0 +1,33 @@
+{
+ "photos": [
+  "refs/jar_front_render.jpg",
+  "refs/jar_open_mint.jpg",
+  "refs/jar_box.jpg",
+  "refs/product_sheet.png",
+  "refs/real/closeup_label.png",
+  "refs/real/closeup_lid.png",
+  "refs/real/closeup_tablets.png"
+ ],
+ "facts": [
+  "short wide CLEAR GLASS jar with a threaded glass neck, glass visible above and below the label",
+  "brushed SILVER metal screw lid with a finely ridged (knurled) side edge, plain flat top",
+  "turquoise (teal) paper label wraps the middle of the jar",
+  "label front: white rectangle with turquoise text TOOTHPASTE TABLETS; NOVA over TABZ in big white serif capitals; PEPPERMINT in spaced white capitals below",
+  "label left: 62 / TABLETS in white; label right: NET WT / 23G / (0.8 OZ) in white; tiny white text on the side panels",
+  "tablets are plain WHITE, round, flat with rounded edges, about the size of an aspirin, no print, no colour, no stripes",
+  "jar is 2.17 x 2.17 x 1.65 inches: fits in a palm, smaller than a coffee mug",
+  "box: white cube, turquoise NOVA TABZ circle on top, turquoise print"
+ ],
+ "forbid": [
+  "plastic jar",
+  "purple tablet",
+  "blue tablet",
+  "striped tablet",
+  "gold lid",
+  "white lid",
+  "flip-top",
+  "pump",
+  "blister pack",
+  "printed tablet"
+ ]
+}

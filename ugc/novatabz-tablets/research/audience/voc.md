@@ -1,0 +1,6 @@
+# Voice of customer, verbatim (2026-10-30)
+- "Great toothpaste tablets. Chew a bit and they start to foam. Brush like regular paste." (NovaTabz buyer, Amazon https://www.amazon.com/dp/B0GZX9TRT2)
+- "Makes your teeth feel amazing" (NovaTabz buyer, Amazon, same URL)
+- "It was super easy to use, effective, and left a nice tingling aftertaste. Recommended, especially for frequent travelers!" (NovaTabz buyer, Amazon, same URL)
+- Amazon summary of NovaTabz reviews: "they work well even when in a hurry", "great minty taste and how they foam up nicely" (same URL)
+- Category doubts (toothpaste tablet buyers, via web search summary 2026-10-30, Hello / other brands): "leave a chalk gritty feeling and don't foam up like toothpaste"; "too crumbly and don't work up enough of a lather"; "these do foam like crazy when you brush"; "if I'm using two tablets per brushing they only last a month" (https://travel-made-simple.com/?p=13257, https://daily.slickdeals.net/health-beauty/are-toothpaste-tablets-worth-it, https://aedit.com/aedition/toothpaste-tablets-benefits)
