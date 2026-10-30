@@ -1,6 +1,6 @@
 # Grace UGC portfolio (2026-10-28)
 
-Status: v3 published 2026-10-30 (same link https://claude.ai/artifact/JeSC2FCYMuNH3RsREQDR2C): Grace's notes, super light green page (#f1f8f2) with pink accents, no 2.8M and no account numbers (followers/likes/videos posted). Grace has more notes coming; Drive doc updated after those. Drive Grace Tiktok assets/UGC Portfolio (Grace) https://drive.google.com/drive/folders/1Y3o9H--fhMzCiGk0yxg1JwWuy4Qxc0Mu. Cost $0.
+Status: v3 published 2026-10-30 (same link https://claude.ai/artifact/JeSC2FCYMuNH3RsREQDR2C): Grace's notes, super light green page (#f1f8f2) with pink accents, no 2.8M callout (the #1 card keeps its Views stat) and no account numbers (followers/likes/videos posted). Grace has more notes coming; Drive doc updated after those. Drive Grace Tiktok assets/UGC Portfolio (Grace) https://drive.google.com/drive/folders/1Y3o9H--fhMzCiGk0yxg1JwWuy4Qxc0Mu. Cost $0.
 
 A one-page portfolio so higher-priced brands reach out to Grace ("Grace With The Glow", TikTok @shewiththeglow) for UGC.
 - Page: `site/index.html` + `site/media/` (16 web-encoded videos + posters + hero captions). Published as a private claude.ai Artifact (link in the Brain note and the final message).

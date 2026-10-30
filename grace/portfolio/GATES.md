@@ -64,7 +64,7 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
 - [x] V3-G2: no "2.8M" and no account numbers (followers, likes, videos posted) anywhere on the page
   CHECK: python3 grace/portfolio/check.py stats
   EXPECT: STATS_OK
-  EVIDENCE: 2026-10-30 starburst, record line, card 1 Views and tile count removed; check.py now fails on 2.8M or any account stat; 18 stats STATS_OK, copy grade 6.8 COPY_OK
+  EVIDENCE: 2026-10-30 starburst, record line and tile count removed; card 1 Views 2.8M put back (Ralph 2026-10-30: "you didn't put the view count for her number 1 video"); check.py now fails on 2.8M or any account stat; 18 stats STATS_OK, copy grade 6.8 COPY_OK
 - [x] V3-G3: republished to the same Artifact (version 1793325070-1085), media kept
   EVIDENCE: 2026-10-30 publish result Version 4
 - [ ] V3-G4: Drive CURRENT doc updated (waiting for Grace's remaining notes, then one update)

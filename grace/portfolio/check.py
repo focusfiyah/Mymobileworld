@@ -76,11 +76,12 @@ def stats():
             bad.append(f"AI-made video {vid} on the page")
         if vid not in by_id:
             bad.append(f"video {vid} has no TikTok record")
-    # Grace 2026-10-30: never "2.8M views", no followers / likes / videos-posted account numbers
+    # Grace 2026-10-30: no "2.8M views" callout (the #1 card's own Views stat stays, Ralph 2026-10-30),
+    # no followers / likes / videos-posted account numbers
     for key in re.findall(r'data-stat="(\w+)"', PAGE):
         bad.append(f"account number {key} on the page")
-    if "2.8M" in PAGE:
-        bad.append("2.8M on the page")
+    if PAGE.count("2.8M") != 1 or "views on one of her videos" in PAGE:
+        bad.append("2.8M shown outside the #1 card's stats")
     print(f"{n} stats checked")
     return bad
 
