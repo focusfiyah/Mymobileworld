@@ -1,0 +1,57 @@
+"""Shots + prompts for the Nighttime Magnesium Signature Trio (Grace), written with prompt-master (Ralph's stack), 2026-10-30."""
+import json
+TAIL = "Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark."
+HANDS = "Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge)"
+LEGS = "her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts"
+JAR = ("a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top")
+LAV = (JAR + "; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING · LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label")
+ROSE = (JAR + "; its wraparound label: white top band with MAGNUM in pink and SOLACE in light grey, rose-pink body with a white script 'Nighttime', white 'MAGNESIUM CREAM', the line 'HYDRATING | DEEP RELIEF', and a white box with pink 'CITRUS ROSE'; no flag tag")
+NOJAR = "No jar, no bottle, no product packaging anywhere in the frame."
+NOHAND = "No hand, fingers or people appear."
+CLIPEND = "No music, no voice, no captions, no on-screen text."
+S = []
+def add(**k): S.append(k)
+
+add(id="S1", t=[0.0, 2.9], line="Okay, I can't be the only one whose feet are done by bedtime.", hand=True, product=False, room="A",
+    still=f"Close-up, camera low at the foot of the bed in the reference bedroom (rattan headboard, sage green and white bedding, plants; image 1): Grace sits on the white duvet, {LEGS}, one foot drawn up in front of her, its toes pointing to the LEFT edge of the frame; {HANDS} grips the top of that foot, thumb pressing into the arch, a thin layer of white lotion already shining on the top of the foot. Only her legs, feet and one hand are in frame: no face. {NOJAR} {TAIL} Reference images: image 1 = the real room to use as the background (same headboard, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+    still_refs=["rooms/room_A.jpg", "refs/hand_sheet.jpg"],
+    clip=f"Recreate reference image 1 exactly as the first frame, then her thumb presses slow circles into the arch of her foot and the fingers rub the white lotion in over the top of the foot; the toes keep pointing to the LEFT edge of the frame. The same one hand stays gripping the foot, whole wrist in frame, the same rings as reference image 2. {NOJAR} No face. Camera handheld, almost still. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S1.png", "refs/hand_sheet.jpg"], clip_model="seedance-2.0-mini")
+
+add(id="S2", t=[2.9, 5.6], line="Every night I rub this magnesium", hand=True, product=True, room="B",
+    still=f"Close-up beside the reference nightstand (gold-frame side table, black lamp, tulips; image 4): {HANDS} holds ONE open jar in the palm, fingers curled around its side, label facing the camera, while two fingertips of the other hand scoop a dollop of thick white lotion from it. The jar is the real Arnica + Lavender lotion: {LAV}. Its black lid lies upside down on the table beside it. Only one jar. No face. {TAIL} Reference images: image 1 = the product reference sheet (real photos; the jar's size on a palm); image 2 = a real close-up of the lavender label: the print must match it letter for letter and colour for colour; image 3 = Grace's real hand sheet; image 4 = the real room to use as the background.",
+    still_refs=["refs/sheet/product_sheet.jpg", "refs/sheet/logo_lavender.jpg", "refs/hand_sheet.jpg", "rooms/room_B.jpg"],
+    clip=f"Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real lavender label: the print matches it letter for letter and colour for colour at every moment, including the MADE IN USA flag tag; image 3 is the product reference sheet: keep the exact amber glass jar and ribbed black lid. Motion: the two fingertips lift a dollop of white lotion out of the jar; the hand holding the jar keeps the same grip and the jar does not turn or flip. Same two hands only, whole wrists. No added marks, no ® or ™. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S2.png", "refs/sheet/logo_lavender.jpg", "refs/sheet/product_sheet.jpg"], clip_model="omni")
+
+add(id="S3", t=[5.6, 7.4], line="into my legs and feet.", hand=True, product=False, room="A",
+    still=f"Side view on the reference bed (image 1), Grace sitting with one leg stretched out on the sage and white duvet, toes pointing to the RIGHT edge of the frame, {LEGS}; {HANDS} lies flat on her shin, palm down, smoothing a streak of white lotion up toward the knee. Only legs and one hand in frame, no face. {NOJAR} {TAIL} Reference images: image 1 = the real room to use as the background; image 2 = Grace's real hand sheet.",
+    still_refs=["rooms/room_A.jpg", "refs/hand_sheet.jpg"],
+    clip=f"Recreate reference image 1 exactly as the first frame, then the palm glides slowly up the shin to the knee, rubbing the white lotion in until it shines; the same one hand, whole wrist, the same rings as reference image 2. {NOJAR} No face. Camera handheld, slow push-in. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S3.png", "refs/hand_sheet.jpg"], clip_model="seedance-2.0-mini")
+
+add(id="S4", t=[7.4, 10.3], line="Three scents: arnica lavender, citrus rose, citrus serenity.", hand=False, product=True, room="B",
+    still=f"Eye-level close shot of the reference nightstand top (gold-frame side table, black lamp switched on, tulips; image 4): three closed jars stand in a row, the same jar shape each: {JAR}. Left: the rose-pink Citrus Rose cream ({ROSE}). Middle, slightly forward and the sharpest: the lavender Arnica lotion ({LAV}). Right, partly behind the lamp base and softer: the orange Citrus Serenity cream, the same label layout in orange with 'CITRUS SERENITY'. Exactly three jars. {NOHAND} {TAIL} Reference images: image 1 = the product reference sheet (the bottom-left photo shows the three jars in this order); image 2 = a real close-up of the lavender label: print letter for letter and colour for colour; image 3 = a real close-up of the Citrus Rose label: print letter for letter and colour for colour; image 4 = the real room to use as the background.",
+    still_refs=["refs/sheet/product_sheet.jpg", "refs/sheet/logo_lavender.jpg", "refs/sheet/logo_rose.jpg", "rooms/room_B.jpg"],
+    clip=f"Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real lavender label and image 3 the real Citrus Rose label: each print matches its image letter for letter and colour for colour at every moment; image 4 is the product reference sheet: keep the three amber glass jars with ribbed black lids. Motion: only the camera moves, a slow push-in toward the middle lavender jar; the jars do not move. {NOHAND} Exactly three jars. No added marks, no ® or ™. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S4.png", "refs/sheet/logo_lavender.jpg", "refs/sheet/logo_rose.jpg", "refs/sheet/product_sheet.jpg"], clip_model="omni")
+
+add(id="S5", t=[10.3, 12.5], line="Winding down is my favorite part now.", hand=False, product=False, room="A",
+    still=f"Wide-ish shot along the reference bed (rattan headboard, sage and white bedding, plants, small lamp on; image 1): {LEGS} stretched out and crossed at the ankles on top of a cream knit blanket, soles toward the camera with the toes pointing up toward the top of the frame, skin softly glowing from lotion. Body cropped at the hips: no face, no hands in frame. {NOJAR} No hands or fingers; only her legs. {TAIL} Reference images: image 1 = the real room to use as the background.",
+    still_refs=["rooms/room_A.jpg"],
+    clip=f"Recreate reference image 1 exactly as the first frame, then the feet relax and the toes stretch once slowly; the legs stay crossed at the ankles. No hands appear at any time, no face. {NOJAR} Camera: slow dolly in along the bed. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S5.png"], clip_model="seedance-2.0-mini")
+
+add(id="S6", t=[12.5, 14.9], line="One for you, one to gift for the holidays.", hand=True, product=True, room="C",
+    still=f"Close-up on the small round wooden stool beside the reference bed (green bedding, small Christmas tree behind, softly out of focus; image 4): {HANDS} sets ONE closed Citrus Rose jar down next to a small present wrapped in plain kraft paper with a green ribbon; thumb on one side of the jar, fingers curled around the other, label toward the camera, seen at three-quarter view. The jar: {ROSE}. Only one jar. No face. {TAIL} Reference images: image 1 = the product reference sheet; image 2 = a real close-up of the Citrus Rose label: print letter for letter and colour for colour; image 3 = Grace's real hand sheet; image 4 = the real room to use as the background.",
+    still_refs=["refs/sheet/product_sheet.jpg", "refs/sheet/logo_rose.jpg", "refs/hand_sheet.jpg", "rooms/room_C.jpg"],
+    clip=f"Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real Citrus Rose label: the print matches it letter for letter and colour for colour at every moment; image 3 is the product reference sheet: keep the amber glass jar and ribbed black lid. Motion: the hand sets the jar down on the stool next to the wrapped present and lets go, the fingers sliding away to the frame edge; the jar does not turn. One hand only, whole wrist. Exactly one jar. No added marks, no ® or ™. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S6.png", "refs/sheet/logo_rose.jpg", "refs/sheet/product_sheet.jpg"], clip_model="omni")
+
+add(id="S7", t=[14.9, 17.5], line="It's in the orange cart.", hand=False, product=True, room="B",
+    still=f"Close shot of the reference nightstand (gold-frame side table, black lamp switched on, tulips; image 3): ONE closed Arnica + Lavender jar stands alone on the table top in front of the books, label to the camera: {LAV}. Only one jar. {NOHAND} {TAIL} Reference images: image 1 = the product reference sheet; image 2 = a real close-up of the lavender label: print letter for letter and colour for colour; image 3 = the real room to use as the background.",
+    still_refs=["refs/sheet/product_sheet.jpg", "refs/sheet/logo_lavender.jpg", "rooms/room_B.jpg"],
+    clip=f"Recreate image 1 exactly as the first frame: keep its room, light and framing. Image 2 is the real lavender label: the print matches it letter for letter and colour for colour at every moment, including the MADE IN USA flag tag; image 3 is the product reference sheet. Motion: only the camera moves, a slow push-in toward the jar; the jar does not move. {NOHAND} Exactly one jar. No added marks, no ® or ™. Bright neutral light. {CLIPEND}",
+    clip_refs=["stills/S7.png", "refs/sheet/logo_lavender.jpg", "refs/sheet/product_sheet.jpg"], clip_model="omni")
+json.dump(S, open("shots.json", "w"), indent=1, ensure_ascii=False)
+print(len(S), "shots")

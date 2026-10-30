@@ -1,0 +1,78 @@
+  #tiktokshopbeauty: 37 videos
+  #tiktokshopskincare: 60 videos
+  #tiktokshopmakeup: 59 videos
+  #tiktokshopfinds: 81 videos
+  #magnesiumlotion: 59 videos
+  #magnesiumcream: 58 videos
+  #sleeptok: 60 videos
+  #nighttimeroutine: 58 videos
+  #bodycare: 57 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+498 videos scanned, 59 shop videos posted in the last 3.0 day(s) -> ugc/magnesium-night-trio/research/coach/viral-2026-10-30.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       85K    126K  1.5d  0.12  [Coming Soon] [medicube] 2026 Advent Calendar [Beauty & Personal Care]
+                                  @giniglow: 🎁🧖‍♀️medicube 2026 advent calendar this year is insane🤯🤯🤯🤯Me
+                                  https://www.tiktok.com/@giniglow/video/7701771108759981326
+  2       19K     29K  1.5d  0.05  Rare Beauty Jumbo Brow Harmony Flexible Lifting Gel + T [Beauty & Personal Care]
+                                  @gisselleperezzz: Shout out to Selena Gomez for thisss🩷 #rarebeauty #tiktoksho
+                                  https://www.tiktok.com/@gisselleperezzz/video/7701761016304160013
+  3       13K    3.2K  0.2d  0.72  WENTRONIC Y01 Over-Ear Wireless Bluetooth Waterproof He [Phones & Electronics]
+                                  @ittycheers: Welcome besties!! #tiktokshopfinds #fyp #jesuslovesyou 
+                                  https://www.tiktok.com/@ittycheers/video/7702231804593392909
+  4       11K    3.2K  0.3d  0.32  (product not in TikTok's data)
+                                  @scarlett.grace_x: My favourite part of the day 💤 #bedtime #relaxing #sweettrea
+                                  https://www.tiktok.com/@scarlett.grace_x/video/7702214415701003542
+  5      9.2K    3.9K  0.4d  0.57  [medicube] PDRN Pink Peptide SerumㅣPink Glow SerumㅣSalm [Beauty & Personal Care]
+                                  @ittycheers: your sign to upgrade your skincare routine! shop it below!🎀 
+                                  https://www.tiktok.com/@ittycheers/video/7702164918295940366
+  6      4.3K    5.0K  1.2d  1.05  [medicube] All Day Relief Set |  Hypochlorous Acid Rice [Beauty & Personal Care]
+                                  @mo.yobaby: This is just part 1 of the haul. More sample haul coming. ❤️
+                                  https://www.tiktok.com/@mo.yobaby/video/7701890084353723661
+  7      2.7K     866  0.3d  0.46  COVER CASE - 12 PAN FOUNDATION PALETTE WITH MAKEUP BRUS [Beauty & Personal Care]
+                                  @ilovebubbies: Loveeee this pallete thank u Mitchel @🇺🇸MADEBYMITCHELL🇺🇸 #ti
+                                  https://www.tiktok.com/@ilovebubbies/video/7702201744503131423
+  8      2.7K    6.8K  2.5d   0.1  Korean Caffeine Peptide Hydrogel Eye Mask (60 Pairs) -  [Beauty & Personal Care]
+                                  @lydiaplathwyse: ✨#skincare #morningvibes #tiktokshop 
+                                  https://www.tiktok.com/@lydiaplathwyse/video/7701376114416995597
+  9      2.5K    1.5K  0.6d  4.11  [NEW] [medicube] Affordable PDRN Pink Glow Edit | Ultim [Beauty & Personal Care]
+                                  @biniita0: [NEW] [medicube] Affordable PDRN Pink Glow Edit | Ultimate 7
+                                  https://www.tiktok.com/@biniita0/video/7702102295391096094
+ 10      2.2K     549  0.0d  0.36  [Centellian24] Expert Madeca Cream Active Renew PDRN 50 [Beauty & Personal Care]
+                                  @maridabola: I love #tiktokshop @Centellian24 #DiscoverYourGift #skincare
+                                  https://www.tiktok.com/@maridabola/video/7702313900829658398
+ 11      2.0K    4.9K  2.4d  0.36  Kaja 3-in-1 Eyeshadow Stack - Beauty Bento - Perfect Ey [Beauty & Personal Care]
+                                  @lil.mama84: #freesample #fyp #makeup #tiktokshop 
+                                  https://www.tiktok.com/@lil.mama84/video/7701426131173526814
+ 12       754     793  1.1d  0.13  Magnum Solace Magnesium Body Care Set - Hydrating Night [Beauty & Personal Care]
+                                  @wfhlifewithashley: Magnum Solace Magnesium lotion set #discoveryourgift #ttspat
+                                  https://www.tiktok.com/@wfhlifewithashley/video/7701845771439705358
+ 13       630     737  1.2d     0  Calming Magnesium Dual-Action Kit Body Care: Magnesium  [Beauty & Personal Care]
+                                  @krisfordfinds: Struggle with migraines, body aches, tension or stress? Try 
+                                  https://www.tiktok.com/@krisfordfinds/video/7701740022944320782
+ 14       591     954  1.6d  0.21  Flower Knows Swan Ballet Collection Six-Color Makeup Pa [Beauty & Personal Care]
+                                  @zu27d: @Flower Knows Makeup #fyp #viral #tiktokshop #flowerknows #m
+                                  https://www.tiktok.com/@zu27d/video/7701721599715724557
+ 15       568     735  1.3d  0.68  The Body Mist Edit [Beauty & Personal Care]
+                                  @thesidneyjewel: Literally the BEST beauty finds🤩🩷 #beauty #haul #hauls #beau
+                                  https://www.tiktok.com/@thesidneyjewel/video/7701841117569977630
+ 16       500     506  1.0d     0  [TIRTIR Official] Mask Fit Red Cushion Foundation Korea [Beauty & Personal Care]
+                                  @allyax32: The coverage is INSANE!! 😍💗 My FAVORITE TikTok Shop find EVE
+                                  https://www.tiktok.com/@allyax32/video/7701945717564263710
+ 17       436    1.2K  2.6d  0.87  6-Piece Sakura Collagen Skincare Kit - Cleanser, Serum, [Beauty & Personal Care]
+                                  @mariamsowdalaba: #fulanigirls🇬🇳 #fy #tiktokshop #skincare #kbeauty 
+                                  https://www.tiktok.com/@mariamsowdalaba/video/7701337010895654174
+ 18       382     439  1.2d  0.68  Nighttime Magnesium Signature Trio 3-Piece 15oz Body Ca [Beauty & Personal Care]
+                                  @kristensebring: Restless legs, trouble relaxing, or muscle cramps at night -
+                                  https://www.tiktok.com/@kristensebring/video/7701817544314866958
+ 19       372     615  1.7d     0  (product not in TikTok's data)
+                                  @abidtaem: #TikTokShop #TikTokShopUK #TikTokShopFinds #TikTokMadeMeBuyI
+                                  https://www.tiktok.com/@abidtaem/video/7701707677767994646
+ 20       348     105  0.3d     0  JIYU Glow Up Bundle - Toner Pads & NAD+ Moisturizer, Ko [Beauty & Personal Care]
+                                  @shopbyjake: take advantage now #tiktokshopblackfriday #tiktokshopcybermo
+                                  https://www.tiktok.com/@shopbyjake/video/7702208928649596190
