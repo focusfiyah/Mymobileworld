@@ -5,7 +5,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 
 ## How to use (every Grace job)
 - Every Grace script picks its spoken hook options from here first (plus the coach-modeled hooks, PLAYBOOK §3); name the hook id in the plan's line sources. Ids match the sheet row: H016 = row 16.
-- Start from the library hook and say it in Grace's looser wording: contractions, her openers ("Listen,", "Y'all,", "Okay,"), the way she re-worded the hooks that sold (Ralph 2026-10-20: her re-worded versions are the ones that sold; keep it while it works unless he says otherwise). Keep the hook's idea and fill its blank with a concrete moment; cite the id. The voice sample is her posted scripts in `grace/winners/winners.json` (`script`). This replaces the 2026-10-05 word-for-word rule.
+- Say hooks WORD FOR WORD as written in the sheet, no contractions or rewording (Ralph, 2026-10-05). Only the blanks (__) get filled; the humanizer pass leaves the hook line itself alone.
 - Fill every blank with a concrete moment from the product research, never a broad problem.
 - The line after the hook answers or proves it on screen right away (demo, close-up, the back/side/pocket shot).
 - Spread hook types across a product's videos (no two videos of one product on the same id; TikTok flags repeats).
@@ -237,6 +237,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: The pain point is narrow but meaningful
 - Best for: Niche products, Fashion, Beauty, Home
 - Note: Great for highly targeted content.
+- Used in: base-oil A scripts v3 (2026-10-05)
 
 ## Problem/Solution
 
@@ -437,6 +438,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: A common habit or annoyance invites recognition
 - Best for: Any category
 - Note: Avoid generic engagement bait. The question should lead naturally to the product.
+- Used in: base-oil B scripts v3 (2026-10-05)
 
 ## Reassurance
 
@@ -583,11 +585,13 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: The product fits a very recognizable little situation
 - Best for: Any category
 - Note: Finish with a concrete moment viewers can picture.
+- Used in: base-pads B scripts v3 (2026-10-05)
 
 **H063. "I know I cannot be the only one who __"**
 - Use when: A slightly quirky habit or frustration creates relatability
 - Best for: Any category
 - Note: The more specific the behavior, the better.
+- Used in: magnesium-night-trio V1 (2026-10-30)
 
 ## Comparison
 
@@ -686,6 +690,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: The obvious explanation is not the whole story
 - Best for: Beauty, Home, Fashion, Lifestyle
 - Note: Only use when you have a credible alternative explanation.
+- Used in: base-pads A scripts v3 (2026-10-05)
 
 **H078. "I stopped trying to make __ work for me"**
 - Use when: A common approach does not fit your personal needs
@@ -795,6 +800,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: One feature meaningfully changes the use or appeal
 - Best for: Any category
 - Note: Do not delay the reveal too long.
+- Used in: base-pads C scripts v3 (2026-10-05)
 
 **H102. "This looked pretty normal until I noticed __"**
 - Use when: A hidden or less-obvious feature is the selling point
@@ -846,6 +852,7 @@ Fill-in-the-blank hook templates for Grace's videos. Source of truth: `hooks.jso
 - Use when: Seasonal anticipation + preparedness
 - Best for: Fashion, Beauty, Home
 - Note: Explain how the product supports the transition.
+- Used in: base-oil C scripts v3 (2026-10-05)
 
 **H132. "You will want this ready before __"**
 - Use when: Future pacing + convenience
