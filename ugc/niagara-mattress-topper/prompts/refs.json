@@ -1,0 +1,122 @@
+{
+ "S1": {
+  "still": [
+   "rooms/roomA_window_bedroom.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip": [
+   "stills/S1.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "model": "seedance"
+ },
+ "S2": {
+  "still": [
+   "rooms/roomA_window_bedroom.jpg"
+  ],
+  "clip": [
+   "stills/S2.png"
+  ],
+  "model": "seedance"
+ },
+ "S3": {
+  "still": [
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/niagara_tag.png",
+   "refs/closeups/edge_skirt.png",
+   "rooms/roomA_window_bedroom.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip": [
+   "stills/S3.png",
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/niagara_tag.png",
+   "refs/closeups/edge_skirt.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "model": "omni"
+ },
+ "S4": {
+  "still": [
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "rooms/roomA_window_bedroom.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip": [
+   "stills/S4.png",
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "model": "omni"
+ },
+ "S5": {
+  "still": [
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "rooms/roomC_laundry.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip": [
+   "stills/S5.png",
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "model": "omni"
+ },
+ "S6": {
+  "still": [
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "rooms/roomA_window_bedroom.jpg"
+  ],
+  "clip": [
+   "stills/S6.png",
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png"
+  ],
+  "model": "omni"
+ },
+ "S7": {
+  "still": [
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "rooms/roomB_guest_bedroom.jpg"
+  ],
+  "clip": [
+   "stills/S7.png",
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png"
+  ],
+  "model": "omni"
+ },
+ "S8": {
+  "still": [
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "rooms/roomA_window_bedroom.jpg",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "clip": [
+   "stills/S8.png",
+   "refs/product_sheet.png",
+   "refs/closeups/bamboo_print.png",
+   "refs/closeups/edge_skirt.png",
+   "../../grace/ref/hand-sheets/without_bracelet.jpg"
+  ],
+  "model": "omni"
+ }
+}

@@ -1,0 +1,13 @@
+  #tiktokshophome: 0 videos
+  #tiktokshopkitchen: 0 videos
+  #tiktokshopcleaning: 0 videos
+  #tiktokshopfinds: 0 videos
+  #mattresstopper: 0 videos
+  #bedding: 0 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+0 videos scanned, 0 shop videos posted in the last 3 day(s) -> ugc/niagara-mattress-topper/research/coach/viral-2026-10-30.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url

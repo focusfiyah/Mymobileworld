@@ -1,0 +1,15 @@
+# Voice of customer, verbatim (2026-10-30)
+TikTok comments on https://www.tiktok.com/@hammyk6/video/7612749940963495199 (55.1M) and https://www.tiktok.com/@homevibeswithmia/video/7615214285068848415 (7.7M), from research/audience/comments.md:
+- "How can I buy this without you making any money?" (7612749940963495199)
+- "You said it don’t get hot?" (7612749940963495199)
+- "$5k??? my husband and I just bought a 14in king-size mattress with memory foam and 80 springs for $300... y'all crazy asf" (7612749940963495199)
+- "I just need to know from someone if its cooling?" (7612749940963495199)
+- "no memory foam in it?" (7612749940963495199)
+- "Just bought it should I do a review ???" (7612749940963495199)
+- "I have a California king bed and my mattress is super old and I always wake up with back pain. Will this help make it more comfortable?" (7612749940963495199)
+- "wait so no need for bed sheet or wha??" (7612749940963495199)
+- "Is it memory foam?" (7612749940963495199)
+- "Do u put sheets over it?" (7612749940963495199)
+- "Can it be a mattress?" (7612749940963495199)
+- "Are we supposed to lay on it as is or do we have to put a sheet over it?" (7612749940963495199)
+Niagara buyers on deal/listing pages (WebSearch 2026-10-30, https://www.desertcart.nz/products/78347788): "not as thick feeling as I had hoped", "comfortable upgrade - but not super plush" (why the script says "puffy like a cloud" from the listing and never "thick" as a number).
