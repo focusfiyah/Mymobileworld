@@ -1,0 +1,90 @@
+{
+ "blocks": {
+  "size_first": "SIZE FIRST: a queen bed, mattress 60 x 80 inches and about 12 inches deep. The topper covers the whole top of the mattress, edge to edge, and is about as thick as a hand is wide; its quilted squares are each about the size of a dinner plate, about 6 squares across the bed.",
+  "topper_block": "The topper is the REAL Niagara Ultra Soft bamboo mattress topper in NAVY BLUE, exactly as in image 1 and the close-ups, and it must not change: deep navy soft knit fabric with a fine dotted texture; square puffy pillow-top quilting, every square softly pillowed; a light-blue jacquard print on the squares, alternating the word 'Bamboo' in a light-blue rounded italic font and small light-blue bamboo leaf sprigs, matching image 2 letter for letter and colour for colour; a thick puffy rolled border all the way round the top; a smooth solid navy fabric skirt with elastic that wraps down the sides of the mattress like a fitted sheet. No zipper, no straps, no buttons, no piping, no stripes, no foam layer, no white or green fabric, no hang tag, no card or label other than the small light-blue Niagara tag.",
+  "tag_block": "At one bottom corner the skirt has the small light-blue rectangular Niagara tag with white text, exactly as in image 3.",
+  "room_A": "The room is the real bedroom in the room photo: tall vintage window panes with bright daylight, white walls, soft white pillows on the bed. Bright soft daylight, clean neutral white balance, never yellow, golden, dark or moody.",
+  "room_B": "The room is the real guest bedroom in the room photo: white walls, round woven wall plates, a rattan pendant lamp, white pillows with small floral cushions. On the nightstand a small sprig of green pine in a glass. Bright soft daylight, clean neutral white balance, never yellow, golden, dark or moody.",
+  "room_C": "The room is the real laundry room in the room photo: a white front-loading washing machine with its round door open, pale tiles, a white radiator. The washer has no visible brand name or text. Bright soft daylight, clean neutral white balance.",
+  "hand_block": "ONLY Grace's hands, exactly as in the hand reference sheet: medium-brown skin, slim fingers, natural pink nails with crisp white French tips, her rings and bracelet exactly as in the sheet. The hands enter from the frame edge, whole wrists visible, five fingers each, natural knuckles and skin texture, and they GRIP what they touch.",
+  "no_hand": "No hand, arm, fingers or people anywhere in the frame.",
+  "suffix": "Vertical 9:16 photo, a single frame from a first-person (POV) phone video, realistic fabric texture, sharp focus. Every other item is plain and unbranded. No text, no captions, no watermark, no phone UI.",
+  "omni_head": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper{hand}. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 2 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape.",
+  "omni_tail": "4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks."
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "words": "You know that moment your mattress gets hot at night?",
+   "hand": true,
+   "product": false,
+   "room": "A",
+   "still": "POV looking down at the head of the bed: a plain white bed with a white fitted sheet and a white pillow, slightly rumpled. Grace's right hand has entered from the right edge and grips the side of the white pillow, lifting it a little as if to flip it to the cool side.",
+   "motion": "The hand flips the white pillow over to its other side and pats it down once, then slides back out of the right edge."
+  },
+  {
+   "id": "S2",
+   "words": "Skip the new mattress.",
+   "hand": false,
+   "product": false,
+   "room": "A",
+   "still": "View from the end of the bed at standing height: a bare plain white mattress with quilted stitching, nothing on it except the white pillows at the head, the window panes behind.",
+   "motion": "Slow push in toward the bare mattress, the camera drifting a little to the left. No hand, fingers or people appear at any time."
+  },
+  {
+   "id": "S3",
+   "words": "Put this bamboo topper on it.",
+   "hand": true,
+   "product": true,
+   "tag": true,
+   "room": "A",
+   "still": "Close view at the bottom corner of the bed nearest the camera, the camera at mattress height: the navy topper already lies on top of the mattress; both of Grace's hands enter from the bottom edge and grip the navy elastic skirt at the corner, pulling it down over the corner of the white mattress like a fitted sheet. The small Niagara tag shows on the skirt.",
+   "motion": "The hands stretch the navy skirt down over the mattress corner until it hugs it, then let go and slide out of the bottom edge."
+  },
+  {
+   "id": "S4",
+   "words": "It breathes, and it's puffy like a cloud.",
+   "hand": true,
+   "product": true,
+   "room": "A",
+   "still": "POV close view looking down at the middle of the navy topper: four puffy squares fill the frame, one with the light-blue word 'Bamboo', one with a bamboo leaf sprig. Grace's right hand has entered from the right edge, fingers spread flat on the centre square.",
+   "motion": "The hand presses slowly down into the puffy square, which sinks deep around the fingers, then lifts and the square puffs back up to its full shape."
+  },
+  {
+   "id": "S5",
+   "words": "It even goes in the washer.",
+   "hand": true,
+   "product": true,
+   "room": "C",
+   "still": "Close view at the open round door of the white front-loading washer at knee height: the navy topper, loosely folded, is half inside the drum, its light-blue 'Bamboo' print and puffy squares showing on the part still outside. Both of Grace's hands enter from the bottom edge and grip the folded topper. Here the topper is OFF the bed, loosely folded: its navy skirt hangs loose, not on a mattress.",
+   "motion": "The hands push the rest of the folded navy topper into the drum, then let go and slide out of the bottom edge."
+  },
+  {
+   "id": "S6",
+   "words": "People say the only problem is getting out of bed.",
+   "hand": false,
+   "product": true,
+   "room": "A",
+   "still": "POV lying on the bed, head on the pillow, looking down along the bed: a white duvet pushed back in soft folds at the bottom, the navy topper with its puffy squares and light-blue 'Bamboo' print filling the lower half of the frame, morning window light.",
+   "motion": "The camera sinks a little into the pillow and drifts slowly down the length of the bed, as if settling in. No hand, fingers or people appear at any time."
+  },
+  {
+   "id": "S7",
+   "words": "Grab one for the guest bed before the holidays.",
+   "hand": false,
+   "product": true,
+   "room": "B",
+   "still": "View from the doorway at standing height: the guest bed made with the navy topper on the mattress, white pillows and small floral cushions at the head, the woven wall plates above, the pine sprig on the nightstand.",
+   "motion": "Slow dolly in toward the guest bed. No hand, fingers or people appear at any time."
+  },
+  {
+   "id": "S8",
+   "words": "It's in the orange cart.",
+   "hand": true,
+   "product": true,
+   "room": "A",
+   "still": "Low close view across the navy topper at mattress height: rows of puffy squares going back toward the pillows and the window. Grace's right hand enters from the right edge, palm flat on the nearest square.",
+   "motion": "The hand smooths slowly across the puffy squares toward the pillows, then lifts out of the right edge."
+  }
+ ]
+}
