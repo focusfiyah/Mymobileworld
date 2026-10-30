@@ -1,0 +1,758 @@
+{
+ "language_code": "eng",
+ "language_probability": 0.9565058946609497,
+ "text": "At first, I thought these were breath mints. Nope, toothpaste. No more crusty tubes. Chew one, brush, and it foams like paste. Only downside, no excuse for a messy sink. No fluoride, no liquid, so they fly through holiday security. Grab one for home and one for your carry-on. It's in the orange cart.",
+ "words": [
+  {
+   "text": "At",
+   "start": 0.08,
+   "end": 0.2,
+   "type": "word",
+   "logprob": -7.497983460780233e-05
+  },
+  {
+   "text": " ",
+   "start": 0.2,
+   "end": 0.3,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "first,",
+   "start": 0.3,
+   "end": 0.58,
+   "type": "word",
+   "logprob": -0.001435971197976708
+  },
+  {
+   "text": " ",
+   "start": 0.58,
+   "end": 0.72,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "I",
+   "start": 0.72,
+   "end": 0.78,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 0.78,
+   "end": 0.82,
+   "type": "spacing",
+   "logprob": -5.483612312673358e-06
+  },
+  {
+   "text": "thought",
+   "start": 0.82,
+   "end": 0.98,
+   "type": "word",
+   "logprob": -5.483612312673358e-06
+  },
+  {
+   "text": " ",
+   "start": 0.98,
+   "end": 1.02,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "these",
+   "start": 1.02,
+   "end": 1.18,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 1.18,
+   "end": 1.2,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "were",
+   "start": 1.2,
+   "end": 1.4,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 1.4,
+   "end": 1.44,
+   "type": "spacing",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": "breath",
+   "start": 1.44,
+   "end": 1.68,
+   "type": "word",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": " ",
+   "start": 1.68,
+   "end": 1.78,
+   "type": "spacing",
+   "logprob": -5.6503606174374e-05
+  },
+  {
+   "text": "mints.",
+   "start": 1.78,
+   "end": 2.14,
+   "type": "word",
+   "logprob": -3.846379748514058e-05
+  },
+  {
+   "text": " ",
+   "start": 2.14,
+   "end": 2.52,
+   "type": "spacing",
+   "logprob": -3.2186455882765586e-06
+  },
+  {
+   "text": "Nope,",
+   "start": 2.52,
+   "end": 2.78,
+   "type": "word",
+   "logprob": -0.0004978003869837266
+  },
+  {
+   "text": " ",
+   "start": 2.78,
+   "end": 3.08,
+   "type": "spacing",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "toothpaste.",
+   "start": 3.08,
+   "end": 3.74,
+   "type": "word",
+   "logprob": -8.019530820423494e-07
+  },
+  {
+   "text": " ",
+   "start": 3.74,
+   "end": 4.12,
+   "type": "spacing",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": "No",
+   "start": 4.12,
+   "end": 4.3,
+   "type": "word",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": " ",
+   "start": 4.3,
+   "end": 4.34,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "more",
+   "start": 4.34,
+   "end": 4.52,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 4.52,
+   "end": 4.58,
+   "type": "spacing",
+   "logprob": -0.0008285188814625144
+  },
+  {
+   "text": "crusty",
+   "start": 4.58,
+   "end": 4.92,
+   "type": "word",
+   "logprob": -0.000690432401218762
+  },
+  {
+   "text": " ",
+   "start": 4.92,
+   "end": 5.04,
+   "type": "spacing",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": "tubes.",
+   "start": 5.04,
+   "end": 5.48,
+   "type": "word",
+   "logprob": -1.7086647770743941e-06
+  },
+  {
+   "text": " ",
+   "start": 5.48,
+   "end": 5.72,
+   "type": "spacing",
+   "logprob": -2.4437606043647975e-05
+  },
+  {
+   "text": "Chew",
+   "start": 5.72,
+   "end": 5.94,
+   "type": "word",
+   "logprob": -2.4437606043647975e-05
+  },
+  {
+   "text": " ",
+   "start": 5.94,
+   "end": 5.98,
+   "type": "spacing",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "one,",
+   "start": 6.04,
+   "end": 6.22,
+   "type": "word",
+   "logprob": -1.355972173655573e-05
+  },
+  {
+   "text": " ",
+   "start": 6.22,
+   "end": 6.46,
+   "type": "spacing",
+   "logprob": -1.311301275563892e-06
+  },
+  {
+   "text": "brush,",
+   "start": 6.46,
+   "end": 6.8,
+   "type": "word",
+   "logprob": -1.9271175763909316e-05
+  },
+  {
+   "text": " ",
+   "start": 6.8,
+   "end": 6.96,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "and",
+   "start": 6.96,
+   "end": 7.02,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 7.02,
+   "end": 7.06,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "it",
+   "start": 7.06,
+   "end": 7.22,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 7.22,
+   "end": 7.26,
+   "type": "spacing",
+   "logprob": -1.156323378381785e-05
+  },
+  {
+   "text": "foams",
+   "start": 7.26,
+   "end": 7.56,
+   "type": "word",
+   "logprob": -1.156323378381785e-05
+  },
+  {
+   "text": " ",
+   "start": 7.56,
+   "end": 7.62,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "like",
+   "start": 7.62,
+   "end": 7.78,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 7.78,
+   "end": 7.84,
+   "type": "spacing",
+   "logprob": -5.722029527532868e-06
+  },
+  {
+   "text": "paste.",
+   "start": 7.84,
+   "end": 8.32,
+   "type": "word",
+   "logprob": -4.768357939610723e-06
+  },
+  {
+   "text": " ",
+   "start": 8.32,
+   "end": 8.56,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "Only",
+   "start": 8.56,
+   "end": 8.74,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 8.74,
+   "end": 8.8,
+   "type": "spacing",
+   "logprob": -1.1086402082582936e-05
+  },
+  {
+   "text": "downside,",
+   "start": 8.8,
+   "end": 9.34,
+   "type": "word",
+   "logprob": -1.3377820626677325e-05
+  },
+  {
+   "text": " ",
+   "start": 9.34,
+   "end": 9.34,
+   "type": "spacing",
+   "logprob": -2.9802276912960224e-06
+  },
+  {
+   "text": "no",
+   "start": 9.78,
+   "end": 9.92,
+   "type": "word",
+   "logprob": -2.9802276912960224e-06
+  },
+  {
+   "text": " ",
+   "start": 9.92,
+   "end": 9.96,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "excuse",
+   "start": 9.96,
+   "end": 10.4,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 10.4,
+   "end": 10.44,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "for",
+   "start": 10.44,
+   "end": 10.52,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.52,
+   "end": 10.56,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "a",
+   "start": 10.56,
+   "end": 10.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 10.62,
+   "end": 10.66,
+   "type": "spacing",
+   "logprob": -7.521823135903105e-05
+  },
+  {
+   "text": "messy",
+   "start": 10.66,
+   "end": 10.9,
+   "type": "word",
+   "logprob": -7.521823135903105e-05
+  },
+  {
+   "text": " ",
+   "start": 10.9,
+   "end": 11.02,
+   "type": "spacing",
+   "logprob": -1.2040065485052764e-05
+  },
+  {
+   "text": "sink.",
+   "start": 11.02,
+   "end": 11.34,
+   "type": "word",
+   "logprob": -1.0156572579944623e-05
+  },
+  {
+   "text": " ",
+   "start": 11.34,
+   "end": 11.56,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "No",
+   "start": 11.56,
+   "end": 11.76,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 11.76,
+   "end": 11.8,
+   "type": "spacing",
+   "logprob": -2.861018856492592e-06
+  },
+  {
+   "text": "fluoride,",
+   "start": 11.82,
+   "end": 12.3,
+   "type": "word",
+   "logprob": -2.781546198902005e-06
+  },
+  {
+   "text": " ",
+   "start": 12.3,
+   "end": 12.52,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "no",
+   "start": 12.52,
+   "end": 12.68,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 12.68,
+   "end": 12.74,
+   "type": "spacing",
+   "logprob": -5.125986263010418e-06
+  },
+  {
+   "text": "liquid,",
+   "start": 12.74,
+   "end": 13.1,
+   "type": "word",
+   "logprob": -4.427762304106052e-06
+  },
+  {
+   "text": " ",
+   "start": 13.1,
+   "end": 13.22,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "so",
+   "start": 13.22,
+   "end": 13.32,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.32,
+   "end": 13.34,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "they",
+   "start": 13.34,
+   "end": 13.58,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 13.58,
+   "end": 13.64,
+   "type": "spacing",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": "fly",
+   "start": 13.64,
+   "end": 14.0,
+   "type": "word",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": " ",
+   "start": 14.0,
+   "end": 14.02,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "through",
+   "start": 14.02,
+   "end": 14.18,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 14.18,
+   "end": 14.2,
+   "type": "spacing",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": "holiday",
+   "start": 14.2,
+   "end": 14.52,
+   "type": "word",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": " ",
+   "start": 14.52,
+   "end": 14.62,
+   "type": "spacing",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "security.",
+   "start": 14.62,
+   "end": 15.16,
+   "type": "word",
+   "logprob": -9.536738111314157e-07
+  },
+  {
+   "text": " ",
+   "start": 15.16,
+   "end": 15.32,
+   "type": "spacing",
+   "logprob": -6.6756979322235566e-06
+  },
+  {
+   "text": "Grab",
+   "start": 15.32,
+   "end": 15.54,
+   "type": "word",
+   "logprob": -6.6756979322235566e-06
+  },
+  {
+   "text": " ",
+   "start": 15.54,
+   "end": 15.6,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "one",
+   "start": 15.6,
+   "end": 15.72,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 15.72,
+   "end": 15.76,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "for",
+   "start": 15.76,
+   "end": 15.88,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 15.88,
+   "end": 15.94,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "home",
+   "start": 15.94,
+   "end": 16.3,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 16.3,
+   "end": 16.36,
+   "type": "spacing",
+   "logprob": -1.4781842764932662e-05
+  },
+  {
+   "text": "and",
+   "start": 16.36,
+   "end": 16.52,
+   "type": "word",
+   "logprob": -1.4781842764932662e-05
+  },
+  {
+   "text": " ",
+   "start": 16.52,
+   "end": 16.6,
+   "type": "spacing",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": "one",
+   "start": 16.6,
+   "end": 16.68,
+   "type": "word",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": " ",
+   "start": 16.68,
+   "end": 16.76,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "for",
+   "start": 16.76,
+   "end": 16.86,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 16.86,
+   "end": 16.88,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "your",
+   "start": 16.88,
+   "end": 16.98,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 16.98,
+   "end": 17.04,
+   "type": "spacing",
+   "logprob": -6.198863957251888e-06
+  },
+  {
+   "text": "carry-on.",
+   "start": 17.04,
+   "end": 17.54,
+   "type": "word",
+   "logprob": -7.31196963165025e-05
+  },
+  {
+   "text": " ",
+   "start": 17.54,
+   "end": 17.76,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "It's",
+   "start": 17.76,
+   "end": 17.86,
+   "type": "word",
+   "logprob": -2.0861622829215776e-07
+  },
+  {
+   "text": " ",
+   "start": 17.86,
+   "end": 17.9,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "in",
+   "start": 17.9,
+   "end": 17.96,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 17.96,
+   "end": 18.0,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "the",
+   "start": 18.0,
+   "end": 18.1,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 18.1,
+   "end": 18.16,
+   "type": "spacing",
+   "logprob": -0.0005619138828478754
+  },
+  {
+   "text": "orange",
+   "start": 18.16,
+   "end": 18.38,
+   "type": "word",
+   "logprob": -0.0005619138828478754
+  },
+  {
+   "text": " ",
+   "start": 18.38,
+   "end": 18.46,
+   "type": "spacing",
+   "logprob": -3.659658250398934e-05
+  },
+  {
+   "text": "cart.",
+   "start": 18.46,
+   "end": 18.74,
+   "type": "word",
+   "logprob": -0.025414928258396686
+  }
+ ],
+ "transcription_id": "ocRM4dLroEmqIdBhqF12",
+ "audio_duration_secs": 18.88
+}
