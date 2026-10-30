@@ -15,6 +15,9 @@ API = "https://api.elevenlabs.io/v1/convai"
 VOICE = "EXAVITQu4vr4xnSDxMaL"            # Sarah, premade
 TRANSFER = "+15164696970"                 # Ralph (2026-10-29: changed from 786-496-3177)
 SPOKEN_LINK = "calendly dot com, slash team R R G R P, slash thirty min"
+# 2026-10-30: with an empty description the model hung up on Ralph right after he said "Sure" to the demo
+END_CALL_RULE = ("End the call ONLY after the caller has said goodbye or clearly said they are done AND you have said goodbye "
+                 "out loud. Never right after you asked a question, after a yes/sure/okay, or during the demo. If unsure, do not call it.")
 
 
 def sec(h):
@@ -42,7 +45,7 @@ def body():
                 "agent": {"first_message": sec("First message").replace("\n", " "), "language": "en",
                           "prompt": {"prompt": prompt, "llm": "qwen35-397b-a17b", "temperature": 0.0, "timezone": "America/New_York",
                                      "built_in_tools": {
-                                         "end_call": {"type": "system", "name": "end_call", "description": "",
+                                         "end_call": {"type": "system", "name": "end_call", "description": END_CALL_RULE,
                                                       "params": {"system_tool_type": "end_call"}},
                                          "transfer_to_number": {
                                              "type": "system", "name": "transfer_to_number",
