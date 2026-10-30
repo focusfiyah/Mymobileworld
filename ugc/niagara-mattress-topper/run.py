@@ -18,9 +18,16 @@ def still(sid):
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
 
+def seedance_first(sid):
+    """No product in frame (S1, S2): Seedance 2.0 Mini, first frame = the approved still (BOOK.md, $0.164)."""
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}.txt").read_text().strip(), "first_frame_url": kie.upload(f"stills/{sid}.png"),
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}, label=f"{sid} seedance first-frame")
+    if url: kie.fetch(url, f"clips/{sid}_seedance.mp4", still=f"stills/{sid}.png"); print("clip", sid, "ok", flush=True)
+
+
 def omni(sid, dry=False):
     refs = R[sid]["clip"]
-    cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}.txt", "--still", refs[0], "--seconds", "4"]
+    cmd = ["python3", OMNI, ".", sid, "--prompt-file", f"prompts/{sid}.txt", "--still", refs[0], "--seconds", "4", "--res", "1080p"]
     for r in refs[1:]: cmd += ["--ref", r]
     subprocess.run(cmd + (["--dry"] if dry else []), check=False)
 
@@ -28,5 +35,5 @@ def omni(sid, dry=False):
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
     Path("stills").mkdir(exist_ok=True); Path("clips").mkdir(exist_ok=True)
-    fn = {"stills": still, "omni": omni, "omni-dry": lambda i: omni(i, True)}[kind]
+    fn = {"stills": still, "omni": omni, "omni-dry": lambda i: omni(i, True), "seedance-first": seedance_first}[kind]
     with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(fn, ids))

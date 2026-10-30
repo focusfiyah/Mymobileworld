@@ -246,5 +246,314 @@
   "costTime": 58,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 19:03:13",
+  "submitted": "ab345531e47a9e5d6c44c98b0de41ef3",
+  "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, ring"
+ },
+ {
+  "t": "2026-10-30 19:09:44",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, rings, bare wrist. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 3 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape. Motion: The hand presses slowly down into the puffy square, which sinks deep around the fingers, then lifts and the square puffs back up to its full shape. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. References: image 1 = the approved still, the first frame; image 2 = the product reference sheet built from real photos of this exact navy topper; image 3 = a real close-up of the light-blue 'Bamboo' word and leaf print; image 4 = a real close-up of the puffy rolled border and the smooth navy skirt; image 5 = Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist).",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793386973532-t7wteisty0a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793386976363-eojuc3obl5j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793386980081-60sgiptmnp3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793386982194-b9kg93jl5il.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793386984765-2h9iure0d3l.jpg"
+    ]
+   }
+  },
+  "taskId": "ab345531e47a9e5d6c44c98b0de41ef3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/ab345531e47a9e5d6c44c98b0de41ef3_0_1793387379.mp4"
+   ]
+  },
+  "costTime": 388,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 19:09:52",
+  "clip_check": "/home/user/Mymobileworld/ugc/niagara-mattress-topper/clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.894
+ },
+ {
+  "t": "2026-10-30 19:10:42",
+  "submitted": "b06d9cdf7e6f8ba1551490b6e0d0f1fb",
+  "prompt": "Recreate image 1 exactly as the first frame, the same hand with its French-tip nails and rings and a bare wrist, then: T"
+ },
+ {
+  "t": "2026-10-30 19:10:44",
+  "submitted": "c440e2ac58cd9d754c2745cd3c18875d",
+  "prompt": "Recreate image 1 exactly as the first frame, then: Slow push in toward the bare mattress, the camera drifting a little t"
+ },
+ {
+  "t": "2026-10-30 19:11:06",
+  "submitted": "83fb7faacac0db3aefa234ba218c2106",
+  "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper. The navy topper must ke"
+ },
+ {
+  "t": "2026-10-30 19:11:09",
+  "submitted": "fed42776858b24a90f1191c09bbca513",
+  "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper. The navy topper must ke"
+ },
+ {
+  "t": "2026-10-30 19:11:11",
+  "submitted": "b50e46bbb5f7233c53b2df178923b4c3",
+  "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, ring"
+ },
+ {
+  "t": "2026-10-30 19:11:13",
+  "submitted": "8131b22fe007c47212512619552c2a63",
+  "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, ring"
+ },
+ {
+  "t": "2026-10-30 19:11:15",
+  "submitted": "0aa478342ac4b1ed46f593d4277f7bf2",
+  "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, ring"
+ },
+ {
+  "t": "2026-10-30 19:11:58",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame, the same hand with its French-tip nails and rings and a bare wrist, then: The hand flips the white pillow over to its other side and pats it down once, then slides back out of the right edge. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. Only this one hand appears; no other hand or people.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387429390-hhz7qt49wr.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b06d9cdf7e6f8ba1551490b6e0d0f1fb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793387512977-cuh5mwlicmt.mp4"
+   ]
+  },
+  "costTime": 77,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 19:12:00",
+  "clip_check": "clips/S1_seedance.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.911
+ },
+ {
+  "t": "2026-10-30 19:12:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame, then: Slow push in toward the bare mattress, the camera drifting a little to the left. No hand, fingers or people appear at any time. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387429348-kqvfj3xezqi.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "c440e2ac58cd9d754c2745cd3c18875d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793387547174-8ei8rl7scl6.mp4"
+   ]
+  },
+  "costTime": 111,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-10-30 19:12:40",
+  "clip_check": "clips/S2_seedance.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.933
+ },
+ {
+  "t": "2026-10-30 19:12:48",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 3 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape. Motion: Slow dolly in toward the guest bed. No hand, fingers or people appear at any time. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. References: image 1 = the approved still, the first frame; image 2 = the product reference sheet built from real photos of this exact navy topper; image 3 = a real close-up of the light-blue 'Bamboo' word and leaf print; image 4 = a real close-up of the puffy rolled border and the smooth navy skirt.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387433758-zekpcyse89c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387436272-szvclbxp9rk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387439250-zdc241onfpq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387441653-p5aumd4ok4.png"
+    ]
+   }
+  },
+  "taskId": "fed42776858b24a90f1191c09bbca513",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/fed42776858b24a90f1191c09bbca513_0_1793387567.mp4"
+   ]
+  },
+  "costTime": 116,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 19:12:52",
+  "clip_check": "/home/user/Mymobileworld/ugc/niagara-mattress-topper/clips/S7.mp4",
+  "still": "stills/S7.png",
+  "ok": true,
+  "score": 0.831
+ },
+ {
+  "t": "2026-10-30 19:12:59",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, rings, bare wrist. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 3 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape. Motion: The hands push the rest of the folded navy topper into the drum, then let go and slide out of the bottom edge. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. References: image 1 = the approved still, the first frame; image 2 = the product reference sheet built from real photos of this exact navy topper; image 3 = a real close-up of the light-blue 'Bamboo' word and leaf print; image 4 = a real close-up of the puffy rolled border and the smooth navy skirt; image 5 = Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist).",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387433956-pfdg2x5rz1s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387436507-thmjbph6fw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387438817-ql2qczre9m.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387440960-uytcb9jm6e.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387443046-0vzn5jm2x3v.jpg"
+    ]
+   }
+  },
+  "taskId": "b50e46bbb5f7233c53b2df178923b4c3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/b50e46bbb5f7233c53b2df178923b4c3_0_1793387572.mp4"
+   ]
+  },
+  "costTime": 117,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 19:13:03",
+  "clip_check": "/home/user/Mymobileworld/ugc/niagara-mattress-topper/clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.939
+ },
+ {
+  "t": "2026-10-30 19:13:09",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, rings, bare wrist. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 3 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape. Motion: The hand smooths slowly across the puffy squares toward the pillows, then lifts out of the right edge. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. References: image 1 = the approved still, the first frame; image 2 = the product reference sheet built from real photos of this exact navy topper; image 3 = a real close-up of the light-blue 'Bamboo' word and leaf print; image 4 = a real close-up of the puffy rolled border and the smooth navy skirt; image 5 = Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist).",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387433757-cm97c5towx9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387437157-5ledth2rsks.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387440424-9uhbf4uvxh9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387442805-zzgbe42poo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387444998-ejuvry4opjs.jpg"
+    ]
+   }
+  },
+  "taskId": "8131b22fe007c47212512619552c2a63",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/8131b22fe007c47212512619552c2a63_0_1793387581.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 19:13:13",
+  "clip_check": "/home/user/Mymobileworld/ugc/niagara-mattress-topper/clips/S8.mp4",
+  "still": "stills/S8.png",
+  "ok": true,
+  "score": 0.92
+ },
+ {
+  "t": "2026-10-30 19:14:01",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 3 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape. Motion: The camera sinks a little into the pillow and drifts slowly down the length of the bed, as if settling in. No hand, fingers or people appear at any time. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. References: image 1 = the approved still, the first frame; image 2 = the product reference sheet built from real photos of this exact navy topper; image 3 = a real close-up of the light-blue 'Bamboo' word and leaf print; image 4 = a real close-up of the puffy rolled border and the smooth navy skirt.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387434156-5yi9z67vgpf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387436722-yspke5gnts.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387439389-y2hegnoyaqn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387441700-eu8yzz0zju.png"
+    ]
+   }
+  },
+  "taskId": "83fb7faacac0db3aefa234ba218c2106",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/83fb7faacac0db3aefa234ba218c2106_0_1793387635.mp4"
+   ]
+  },
+  "costTime": 188,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 19:14:05",
+  "clip_check": "/home/user/Mymobileworld/ugc/niagara-mattress-topper/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.795
+ },
+ {
+  "t": "2026-10-30 19:14:35",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: same framing, room, light and the same navy topper and the same hands, rings, bare wrist. The navy topper must keep its print exactly: the light-blue word 'Bamboo' and bamboo leaf sprigs match image 3 letter for letter and colour for colour on every frame; the quilting squares and the rolled border keep their shape. Motion: The hands stretch the navy skirt down over the mattress corner until it hugs it, then let go and slide out of the bottom edge. 4 seconds, one continuous handheld phone shot, slow and steady, bright neutral light. No text, no captions, no music, no voice, no added marks. References: image 1 = the approved still, the first frame; image 2 = the product reference sheet built from real photos of this exact navy topper; image 3 = a real close-up of the light-blue 'Bamboo' word and leaf print; image 4 = a real close-up of the small light-blue Niagara tag; image 5 = a real close-up of the puffy rolled border and the smooth navy skirt; image 6 = Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist).",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387433769-znh5xv4npyq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387436566-gddh5to9caq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387440074-g5a3x6oydx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387442038-dw0pa5etwqk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387443816-piyqeejk7q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/niagara-mattress-topper/1793387445829-x46mpbm0dj.jpg"
+    ]
+   }
+  },
+  "taskId": "0aa478342ac4b1ed46f593d4277f7bf2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/0aa478342ac4b1ed46f593d4277f7bf2_0_1793387674.mp4"
+   ]
+  },
+  "costTime": 212,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-10-30 19:14:38",
+  "clip_check": "/home/user/Mymobileworld/ugc/niagara-mattress-topper/clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.949
  }
 ]

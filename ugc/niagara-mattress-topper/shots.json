@@ -20,7 +20,11 @@
    "product": false,
    "room": "A",
    "still": "POV looking down at the head of the bed: a plain white bed with a white fitted sheet and a white pillow, slightly rumpled. Grace's right hand has entered from the right edge and grips the side of the white pillow, lifting it a little as if to flip it to the cool side.",
-   "motion": "The hand flips the white pillow over to its other side and pats it down once, then slides back out of the right edge."
+   "motion": "The hand flips the white pillow over to its other side and pats it down once, then slides back out of the right edge.",
+   "t": [
+    0.0,
+    2.5
+   ]
   },
   {
    "id": "S2",
@@ -29,7 +33,11 @@
    "product": false,
    "room": "A",
    "still": "View from the end of the bed at standing height: a bare plain white mattress with quilted stitching, nothing on it except the white pillows at the head, the window panes behind.",
-   "motion": "Slow push in toward the bare mattress, the camera drifting a little to the left. No hand, fingers or people appear at any time."
+   "motion": "Slow push in toward the bare mattress, the camera drifting a little to the left. No hand, fingers or people appear at any time.",
+   "t": [
+    2.5,
+    3.72
+   ]
   },
   {
    "id": "S3",
@@ -39,7 +47,11 @@
    "tag": true,
    "room": "A",
    "still": "Close view at the bottom corner of the bed nearest the camera, the camera at mattress height: the navy topper already lies on top of the mattress; both of Grace's hands enter from the bottom edge and grip the navy elastic skirt at the corner, pulling it down over the corner of the white mattress like a fitted sheet. The small Niagara tag shows on the skirt.",
-   "motion": "The hands stretch the navy skirt down over the mattress corner until it hugs it, then let go and slide out of the bottom edge."
+   "motion": "The hands stretch the navy skirt down over the mattress corner until it hugs it, then let go and slide out of the bottom edge.",
+   "t": [
+    3.72,
+    5.38
+   ]
   },
   {
    "id": "S4",
@@ -48,7 +60,11 @@
    "product": true,
    "room": "A",
    "still": "POV close view looking down at the middle of the navy topper: four puffy squares fill the frame, one with the light-blue word 'Bamboo', one with a bamboo leaf sprig. Grace's right hand has entered from the right edge, fingers spread flat on the centre square.",
-   "motion": "The hand presses slowly down into the puffy square, which sinks deep around the fingers, then lifts and the square puffs back up to its full shape."
+   "motion": "The hand presses slowly down into the puffy square, which sinks deep around the fingers, then lifts and the square puffs back up to its full shape.",
+   "t": [
+    5.38,
+    7.98
+   ]
   },
   {
    "id": "S5",
@@ -57,7 +73,11 @@
    "product": true,
    "room": "C",
    "still": "Close view at the open round door of the white front-loading washer at knee height: the navy topper, loosely folded, is half inside the drum, its light-blue 'Bamboo' print and puffy squares showing on the part still outside. Both of Grace's hands enter from the bottom edge and grip the folded topper. Here the topper is OFF the bed, loosely folded: its navy skirt hangs loose, not on a mattress.",
-   "motion": "The hands push the rest of the folded navy topper into the drum, then let go and slide out of the bottom edge."
+   "motion": "The hands push the rest of the folded navy topper into the drum, then let go and slide out of the bottom edge.",
+   "t": [
+    7.98,
+    9.46
+   ]
   },
   {
    "id": "S6",
@@ -66,7 +86,11 @@
    "product": true,
    "room": "A",
    "still": "POV lying on the bed, head on the pillow, looking down along the bed: a white duvet pushed back in soft folds at the bottom, the navy topper with its puffy squares and light-blue 'Bamboo' print filling the lower half of the frame, morning window light.",
-   "motion": "The camera sinks a little into the pillow and drifts slowly down the length of the bed, as if settling in. No hand, fingers or people appear at any time."
+   "motion": "The camera sinks a little into the pillow and drifts slowly down the length of the bed, as if settling in. No hand, fingers or people appear at any time.",
+   "t": [
+    9.46,
+    12.14
+   ]
   },
   {
    "id": "S7",
@@ -75,7 +99,11 @@
    "product": true,
    "room": "B",
    "still": "View from the doorway at standing height: the guest bed made with the navy topper on the mattress, white pillows and small floral cushions at the head, the woven wall plates above, the pine sprig on the nightstand.",
-   "motion": "Slow dolly in toward the guest bed. No hand, fingers or people appear at any time."
+   "motion": "Slow dolly in toward the guest bed. No hand, fingers or people appear at any time.",
+   "t": [
+    12.14,
+    14.36
+   ]
   },
   {
    "id": "S8",
@@ -84,7 +112,11 @@
    "product": true,
    "room": "A",
    "still": "Low close view across the navy topper at mattress height: rows of puffy squares going back toward the pillows and the window. Grace's right hand enters from the right edge, palm flat on the nearest square.",
-   "motion": "The hand smooths slowly across the puffy squares toward the pillows, then lifts out of the right edge."
+   "motion": "The hand smooths slowly across the puffy squares toward the pillows, then lifts out of the right edge.",
+   "t": [
+    14.36,
+    15.47
+   ]
   }
  ]
 }
