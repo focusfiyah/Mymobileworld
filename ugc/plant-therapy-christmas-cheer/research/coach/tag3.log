@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 30: kept 42 of 83 videos posted since 2026-09-30
+42 videos -> ugc/plant-therapy-christmas-cheer/research/coach/tag-essentialoils.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,200,000  13.3   0.32   87 2026-10-16  @lovinmy2lile_s: Rage bait Eli with me. With all the best intentions 😇 check out Eli’s 
+                                          https://www.tiktok.com/@lovinmy2lile_s/video/7697255746496482574
+    317,100   0.9   0.25   78 2026-10-16  @plfcji2017: Want your home to smell like a hotel lobby? Try the Corefavor waterles
+                                          https://www.tiktok.com/@plfcji2017/video/7697243825420487949
+     50,400   9.4   1.07   53 2026-10-09  @simplyasmryt: asmr which essential oil do you prefer? 🪷 #asmr #asmrroleplay #essenti
+                                          https://www.tiktok.com/@simplyasmryt/video/7694458951378701582
+     43,300   1.7   0.45   43 2026-10-21  @tamimsv: Corefaver essential oil diffuser #oil#essentialoil#homefinds 
+                                          https://www.tiktok.com/@tamimsv/video/7698948645160291597
+     11,200   0.5   0.09   25 2026-10-25  @imreallygeno: Dont leave your car stinking! #essentialoils #humidifier #aromatherapy
+                                          https://www.tiktok.com/@imreallygeno/video/7700609497185766670
+      9,143   7.7   0.36   66 2026-10-29  @aspenessence: what would you name this soap? it is made with vetiver, patchouli & ba
+                                          https://www.tiktok.com/@aspenessence/video/7702095998113598750
+      7,614   1.6   0.25   63 2026-10-25  @ngochanhphan40: Discover the essential oil filter trick that most drivers overlook! Le
+                                          https://www.tiktok.com/@ngochanhphan40/video/7700611546359041293
+      6,943   0.5   0.06   37 2026-10-06  @ttsolivia: Your sign to switch to an essential oil diffuser!! #essentialoildiffus
+                                          https://www.tiktok.com/@ttsolivia/video/7693402680944856351
+      4,421   2.1   0.16  256 2026-10-21  @fuhzy909: Smelling essential oils with my Deaf son #motherhood #parenting #signl
+                                          https://www.tiktok.com/@fuhzy909/video/7699035579681475853
+      4,353   9.5   3.22   35 2026-10-14  @officialhustlepretty: Every ingredient, nothing hidden. Just good stuff your skin actually d
+                                          https://www.tiktok.com/@officialhustlepretty/video/7696564282833653022
+      3,146  10.2   3.88   28 2026-10-29  @bielunele: cold relief shower steamers 🌿 ingredients: — baking soda 1 cup — citri
+                                          https://www.tiktok.com/@bielunele/video/7702086160536866070
+      2,866   0.9   0.03   67 2026-10-15  @jazminer17: save ur bank and stop falling for MLMS😭 #essentialoils #jazminer17 #pl
+                                          https://www.tiktok.com/@jazminer17/video/7696801711892991246
+      2,643   1.2   0.19   46 2026-10-26  @lisetrguezp: Essential Oil Diffuser - 120ml Aroma Oil Included, Wall-Mountable, USB
+                                          https://www.tiktok.com/@lisetrguezp/video/7701080148728220942
+      1,728  16.1    2.6   97 2026-10-05  @laramonicamagic: Day 3 of our Venus retrograde survival guide! Today we have an essenti
+                                          https://www.tiktok.com/@laramonicamagic/video/7693329085241625864
+        977  10.0   1.84  148 2026-10-20  @theforbiddenfruit33: Why we love essential oils. 💧🌿 Whether you’re looking for an all natur
+                                          https://www.tiktok.com/@theforbiddenfruit33/video/7698758999495200013

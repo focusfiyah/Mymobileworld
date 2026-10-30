@@ -1,0 +1,10 @@
+== black
+0
+== freeze
+== loudness
+    I:         -16.3 LUFS
+== cuts
+pts_time:2.16667 pts_time:4.23333 pts_time:6.06667 pts_time:8.33333 pts_time:10.5667 pts_time:12.5 
+expected [2.15, 4.23, 6.07, 8.33, 10.55, 12.51]
+video,1080,1920,30/1
+audio,0/0

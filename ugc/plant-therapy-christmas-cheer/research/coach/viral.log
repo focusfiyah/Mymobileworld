@@ -1,0 +1,76 @@
+  #tiktokshopholidayhaul: 60 videos
+  #giftideas: 59 videos
+  #tiktokshopchristmas: 58 videos
+  #tiktokshopfinds: 57 videos
+  #essentialoils: 60 videos
+  #diffuser: 57 videos
+  #christmasgifts: 59 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+390 videos scanned, 32 shop videos posted in the last 3.0 day(s) -> ugc/plant-therapy-christmas-cheer/research/coach/viral-2026-10-30.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1      487K    122K  0.2d  0.18  Craftikit Women's Christmas Pajamas - Color Your Own Ma [Womenswear & Underwear]
+                                  @dani_martnz1: Este año la tradición será diferente: ¡pijamas navideñas dis
+                                  https://www.tiktok.com/@dani_martnz1/video/7702236167374327070
+  2      275K    730K  2.7d  0.19  33ft 240LED/66ft 480LED  PVC Candy Cane Rope Decorative [Home Improvement]
+                                  @toodour.5: #christmas #vibe #tiktokshop 
+                                  https://www.tiktok.com/@toodour.5/video/7701285723852328223
+  3       65K     49K  0.8d   0.2  LED Firecracker Fairy String Lights, 65.6ft 600 LEDs /  [Home Supplies]
+                                  @saqi_jan58: Decorating doesn’t need to look basic this year 🎄#ChristmasD
+                                  https://www.tiktok.com/@saqi_jan58/video/7702037618782915854
+  4       20K     35K  1.8d  0.12  Antimbee 6-Pack No-Drill Curtain Rod Brackets, Self-Adh [Textiles & Soft Furnishings]
+                                  @user8752017808248: #tiktokshop #tiktok #tiktokshopholidayhaul #fyp #dealsforyou
+                                  https://www.tiktok.com/@user8752017808248/video/7701657482078309662
+  5      9.7K    5.2K  0.5d  3.33  Jet Lag™ Eye Patches (15 pairs) [Beauty & Personal Care]
+                                  @dayinthegoodlife: everything is linked in the orange shopping cart or in my sh
+                                  https://www.tiktok.com/@dayinthegoodlife/video/7702117372487814414
+  6      5.6K    8.3K  1.5d  0.16  CoreFavor Waterless Essential Oil Diffuser - 120ml Arom [Household Appliances]
+                                  @demarkreactz: #essentialoils #blackfriday 
+                                  https://www.tiktok.com/@demarkreactz/video/7701765805607865614
+  7      5.2K    3.0K  0.6d  0.17  Black Friday Deals,Translucent Glitter Christmas Santa  [Toys & Hobbies]
+                                  @morgan_kaleb: #christmas #stockingstufferideas #tiktokshopblackfriday #tik
+                                  https://www.tiktok.com/@morgan_kaleb/video/7702102683699711262
+  8      2.5K    5.5K  2.2d  0.84  3PCS Solid Wood-Framed Canvas Wall Art - Wabi-Sabi Geom [Home Supplies]
+                                  @darlingdorestant0: #tiktokshopdealsforyoudayse #tiktokshop #memorialday#tiktoks
+                                  https://www.tiktok.com/@darlingdorestant0/video/7701503895691873550
+  9      2.0K     507  0.3d   0.2  Sweetcrispy Pencil Shape Pre-Lit Christmas Tree, Slim C [Home Supplies]
+                                  @tonya.ms: It’s gorgeous and beginning to look a lot like Christmas🎄 #c
+                                  https://www.tiktok.com/@tonya.ms/video/7702221398663499039
+ 10      1.1K     838  0.8d  0.12  Disposable Tin Foil Food Covers - High-Quality Disposab [Kitchenware]
+                                  @funnycutedog_27: #tiktokshop#tiktokshoprestock#tiktokshopholidayhaul#dealsfor
+                                  https://www.tiktok.com/@funnycutedog_27/video/7702031231327685918
+ 11       821     449  0.5d  0.22  tarte maracuja juicy lip tattoo - 3-in-1 lip stain, lin [Beauty & Personal Care]
+                                  @cmbrown198: #fyp #momlife #tiktokviral #tiktokshopaffiliate #christmassh
+                                  https://www.tiktok.com/@cmbrown198/video/7702114116239920415
+ 12       706     521  0.7d     0  4/6 Pcs Christmas Mini Artificial Cabinet Wreaths - Nor [Home Supplies]
+                                  @shelikestoshop: #tiktokshopcreatorpicks #tiktokshopblackfriday #christmascou
+                                  https://www.tiktok.com/@shelikestoshop/video/7702043250370022686
+ 13       585     701  1.2d     0  HEYDUDE Remi Field Boot - Women's Comfortable Slip on B [Shoes]
+                                  @stylenovafinds: Great deal #tiktokshopholidayhaul #tiktikshopblackfriday #ti
+                                  https://www.tiktok.com/@stylenovafinds/video/7701849355577314573
+ 14       395     103  0.3d  0.97  Shark UZ565H Pro Cordless Vacuum w/ Clean Sense IQ & Mu [Household Appliances]
+                                  @zeetiktoktrik: I just found a similar Shark.. vacuum at an amazing price on
+                                  https://www.tiktok.com/@zeetiktoktrik/video/7702220175025736990
+ 15       272      68  0.1d  1.47  [Mary&May Official] NEW Spicule PDRN Cream DUO - Micro- [Beauty & Personal Care]
+                                  @taaraakathayatkc: A little skincare haul! From eye cream to everyday skincare 
+                                  https://www.tiktok.com/@taaraakathayatkc/video/7702275671602613517
+ 16       248      62  0.1d     0  Oven Skirt Curtain with Pockets Cottage Kitchen Storage [Kitchenware]
+                                  @angelicareyna83: Christmas around the corner 🎄🎅🏻#christmas #christmascountdow
+                                  https://www.tiktok.com/@angelicareyna83/video/7702254813240741134
+ 17       180      45  0.2d     0  Christmas Refrigerator Magnets,Christmas Tree Magnets f [Home Supplies]
+                                  @aneluca_: #christmasdecor #BFCM #christmastime #TikTokShopBlackFriday 
+                                  https://www.tiktok.com/@aneluca_/video/7702246779076496653
+ 18       150     182  1.2d  6.04  PURA D'OR Organic Sweet Almond Oil 16oz (473ml) Glass B [Beauty & Personal Care]
+                                  @mama.beck051: This is a perfect oil to pair with an essential oil for arom
+                                  https://www.tiktok.com/@mama.beck051/video/7701867947634986253
+ 19       148      62  0.4d  1.61  (product not in TikTok's data)
+                                  @haelorao: #tiktokshop #tiktokshopholidayhaul #tiktokshopblackfriday #c
+                                  https://www.tiktok.com/@haelorao/video/7702122844032863518
+ 20       125      56  0.4d     0  Aromely My Way Scented Essential Oils - Inspired by 1 H [Home Supplies]
+                                  @impulsebuyorbye: Get this Essential oils for your diffuser before it sells ou
+                                  https://www.tiktok.com/@impulsebuyorbye/video/7702150957500615966

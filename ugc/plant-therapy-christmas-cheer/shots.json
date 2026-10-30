@@ -1,0 +1,189 @@
+{
+ "job": "plant-therapy-christmas-cheer",
+ "refs": {
+  "ROOM_A": "rooms/pick/A_armchair_tree.jpg",
+  "ROOM_B": "rooms/pick/B_gift_table.jpg",
+  "ROOM_C": "rooms/pick/C_coat_closet.jpg",
+  "TREE": "refs/closeup_tree.png",
+  "PLUM": "refs/closeup_plum.png",
+  "VAN": "refs/closeup_vanilla.png",
+  "BOX": "refs/closeup_box_clean.png",
+  "NECK": "refs/real_neck_capoff.jpg",
+  "SHEET": "refs/product_sheet.png",
+  "HAND": "../../grace/ref/hand-sheets/without_bracelet.jpg"
+ },
+ "shots": [
+  {
+   "id": "S1",
+   "t": [
+    0.0,
+    2.5
+   ],
+   "line": "You know that moment when the fake tree's up,",
+   "hand": false,
+   "product": true,
+   "room": "A",
+   "still_refs": [
+    "rooms/pick/A_armchair_tree.jpg",
+    "refs/closeup_tree.png",
+    "refs/closeup_plum.png",
+    "refs/closeup_vanilla.png",
+    "refs/product_sheet.png"
+   ],
+   "still": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the product sheet made from real photos (front, back, box, cap off). Show the room of image 1 exactly: the red velvet armchair with its pillows and the decorated artificial Christmas tree with silver tinsel. Add one small round light-wood side table in the lower left foreground. On it stand exactly three bottles in a row, left to right: Christmas Tree (image 2), Sugar Plum Fairy (image 3), Vanilla Spice (image 4), labels facing the camera. Each is a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball; every label and print matches its image letter for letter and colour for colour; image 5 shows their true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as a lipstick. The bottles are sharp in the lower third, the tree and armchair behind them. No hand, no fingers, no people, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S1.png",
+    "refs/closeup_tree.png",
+    "refs/closeup_plum.png",
+    "refs/closeup_vanilla.png",
+    "refs/product_sheet.png"
+   ],
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: only the camera moves, a slow push-in past the three bottles toward the Christmas tree; the bottles never move. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Omni 1.1 Flash (Flow $0 / Kie $0.315)"
+  },
+  {
+   "id": "S2",
+   "t": [
+    2.5,
+    4.4
+   ],
+   "line": "but the house doesn't smell like Christmas?",
+   "hand": true,
+   "product": false,
+   "room": "A",
+   "still_refs": [
+    "rooms/pick/A_armchair_tree.jpg",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg"
+   ],
+   "still": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is Grace's hand sheet. Close-up of the decorated artificial Christmas tree from image 1: plastic needle tips with silver tinsel, a gold bauble and a red bauble, the red armchair soft behind. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible; the hand enters from the frame edge on the right and pinches one plastic branch tip between thumb and fingers. No bottles, no box, no diffuser, no product. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S2.png"
+   ],
+   "clip": "Recreate reference image 1 exactly as the first frame, then the fingers bend the plastic branch tip down and let it spring back up, the tinsel shivers; the camera holds still. No face at any time. No bottles, no box, no product at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Seedance 2.0 Mini on Kie ($0.164)"
+  },
+  {
+   "id": "S3",
+   "t": [
+    4.4,
+    6.1
+   ],
+   "line": "Ours smelled like the storage box.",
+   "hand": true,
+   "product": false,
+   "room": "C",
+   "still_refs": [
+    "rooms/pick/C_coat_closet.jpg",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg"
+   ],
+   "still": "Image 1 is the real room photo (coat closet with colourful coats on hangers, wooden hangers, white wire baskets). Image 2 is Grace's hand sheet. Show the coat closet of image 1 exactly. On its floor in the foreground sits a clear plastic storage tote with a grey snap lid, packed with folded green artificial tree branch sections and a few red and gold baubles. Grace's two hands exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, both whole wrists visible; the hands enter from the bottom frame edge; both hands grip the two sides of the grey lid, lifting it a little. No bottles, no box, no product, no face. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S3.png"
+   ],
+   "clip": "Recreate reference image 1 exactly as the first frame, then both hands lift the grey lid up and away out of the top of the frame, showing the folded branches inside; the camera tilts down a little into the tote. No face at any time. No bottles, no box, no product at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Seedance 2.0 Mini on Kie ($0.164)"
+  },
+  {
+   "id": "S4",
+   "t": [
+    6.1,
+    8.6
+   ],
+   "line": "A few drops of Christmas Tree in my diffuser,",
+   "hand": true,
+   "product": true,
+   "room": "A",
+   "still_refs": [
+    "rooms/pick/A_armchair_tree.jpg",
+    "refs/closeup_tree.png",
+    "refs/real_neck_capoff.jpg",
+    "refs/product_sheet.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg"
+   ],
+   "still": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is a real photo of the open bottle neck: a black ring stays on the neck and a small clear-white plastic dropper insert sits in the opening. Image 4 is the product sheet made from real photos (front, back, box, cap off). Image 5 is Grace's hand sheet. On the small light-wood side table beside the red armchair of image 1 sits a matte white ceramic ultrasonic diffuser with its top cover off, its round tank half full of clear water. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible; the hand enters from the frame edge at the upper right and GRIPS ONE bottle, the Christmas Tree bottle of image 2 (every label and print matches its image letter for letter and colour for colour): a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball. It is cap off, tilted down at 45 degrees over the open water tank with its label facing the camera: the open neck shows the black ring and the small clear-white plastic dropper insert of image 3. Thumb on the side of the label, fingers wrapped around the back. Image 4 shows its true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as an adult thumb; the hand looks big next to it. One drop hangs from the dropper insert. No other bottles, no box. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S4.png",
+    "refs/closeup_tree.png",
+    "refs/real_neck_capoff.jpg",
+    "refs/product_sheet.png"
+   ],
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is a real photo of the open bottle neck: a black ring stays on the neck and a small clear-white plastic dropper insert sits in the opening. Image 4 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: two drops fall one after the other from the dropper insert into the water and small ripples spread; the bottle stays tilted the same way. The hand keeps one grip and nothing turns, flips or changes shape. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Omni 1.1 Flash (Flow $0 / Kie $0.315)"
+  },
+  {
+   "id": "S5",
+   "t": [
+    8.6,
+    11.0
+   ],
+   "line": "and now people ask where the real tree is.",
+   "hand": false,
+   "product": false,
+   "room": "A",
+   "still_refs": [
+    "rooms/pick/A_armchair_tree.jpg"
+   ],
+   "still": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Show the room of image 1: in the foreground a matte white ceramic ultrasonic diffuser stands on a small round light-wood side table with soft white mist rising from its top; the decorated artificial Christmas tree with silver tinsel and the red armchair behind it. No bottles, no box, no product. No hand, no fingers, no people. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S5.png"
+   ],
+   "clip": "Recreate reference image 1 exactly as the first frame, then the soft white mist keeps rising and curling up from the diffuser while the camera makes a slow small arc to the left around it. No bottles, no box, no product at any time. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Seedance 2.0 Mini on Kie ($0.164)"
+  },
+  {
+   "id": "S6",
+   "t": [
+    11.0,
+    13.1
+   ],
+   "line": "Get one to gift too before Christmas.",
+   "hand": true,
+   "product": true,
+   "room": "B",
+   "still_refs": [
+    "rooms/pick/B_gift_table.jpg",
+    "refs/closeup_box_clean.png",
+    "refs/product_sheet.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg"
+   ],
+   "still": "Image 1 is the real room photo (gift-wrapping table with pink and gold wrapped gifts, a pink-lit Christmas tree behind). Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the product sheet made from real photos (front, back, box, cap off). Image 4 is Grace's hand sheet. At the gift-wrapping table of image 1 (pink-lit tree and pink and gold wrapped gifts kept). Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible; the hand enters from the frame edge on the right and GRIPS the closed Christmas Cheer box of image 2 by its two sides (thumb on one side, fingers on the other), box front facing the camera, every label and print matches its image letter for letter and colour for colour; image 3 shows the real box and bottles. The box is small, about as wide as three small bottles side by side and a little taller than one bottle; the hand looks big next to it. It is held just above an open plain kraft-paper gift bag with red tissue paper. One box only, no loose bottles. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S6.png",
+    "refs/closeup_box_clean.png",
+    "refs/product_sheet.png"
+   ],
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: the hand lowers the box straight down into the gift bag until half of it is inside; the red tissue paper rustles. The hand keeps one grip and nothing turns, flips or changes shape. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Omni 1.1 Flash (Flow $0 / Kie $0.315)"
+  },
+  {
+   "id": "S7",
+   "t": [
+    13.1,
+    14.8
+   ],
+   "line": "It's in the orange cart.",
+   "hand": false,
+   "product": true,
+   "room": "A",
+   "still_refs": [
+    "rooms/pick/A_armchair_tree.jpg",
+    "refs/closeup_box_clean.png",
+    "refs/closeup_tree.png",
+    "refs/closeup_plum.png",
+    "refs/closeup_vanilla.png",
+    "refs/product_sheet.png"
+   ],
+   "still": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 6 is the product sheet made from real photos (front, back, box, cap off). Low close view of the small round light-wood side table beside the red armchair of image 1, the tinsel tree soft behind. On it the closed Christmas Cheer box of image 2 stands upright on the left with its whole front visible, and to its RIGHT, beside it and not covering it, exactly three bottles stand in a row, left to right: Christmas Tree (image 3, hot pink label with a chartreuse tree), Sugar Plum Fairy (image 4, lavender label with a cream blob, no tree), Vanilla Spice (image 5, cream label with a taupe circle and a vanilla pod, no tree), labels facing the camera. Each is a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball; every label and print matches its image letter for letter and colour for colour; image 6 shows their true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as a lipstick. One set only. No hand, no fingers, no people, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+   "clip_refs": [
+    "stills/S7.png",
+    "refs/closeup_box_clean.png",
+    "refs/closeup_tree.png",
+    "refs/closeup_plum.png",
+    "refs/closeup_vanilla.png",
+    "refs/product_sheet.png"
+   ],
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark. Image 3 is the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 4 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 5 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 6 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: only the camera moves, a slow push-in toward the box and the three bottles; nothing moves. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "model": "Omni 1.1 Flash (Flow $0 / Kie $0.315)"
+  }
+ ]
+}

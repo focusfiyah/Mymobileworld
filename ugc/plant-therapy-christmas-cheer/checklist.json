@@ -1,0 +1,85 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo_lines.txt",
+ "playbook": {
+  "proof": [
+   "proof/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/coach/shop-christmas-essential-oil.json",
+   "research/coach/tag-christmasessentialoils.json",
+   "research/coach/top/7696339238706482462/meta.json",
+   "research/coach/top/7696276798249749773/meta.json",
+   "research/coach/top/7698097778878090509/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-10-30.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "product_truth.json"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "proof/humanizer.md",
+   "scripts.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 2.5
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md",
+   "research/audience/questions.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ],
+  "note": "tiktok.py compare vs @gretchen_sahm 10.2K"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-10-30",
+  "quote": "Approve, I'll resend pic (2026-10-30 question cards: no bracelet, Kie Omni $1.26, Grace cloned v5)",
+  "total": 2.79,
+  "sha256": "42b6c2cf285c3b97b4da2e88473611001b9bbe7b910bbd38551700dd5ae72422",
+  "spent_at_approval": 0.0
+ }
+}
