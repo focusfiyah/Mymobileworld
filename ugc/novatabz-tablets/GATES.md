@@ -34,4 +34,7 @@
   EVIDENCE: 2026-10-30 `python3 grace/gate.py ugc/novatabz-tablets --stage cut` -> GATE OK
 - [x] G12: voice echo <= 150 ms
   EVIDENCE: 2026-10-30 echo.py vo/voiceover_paced.mp3 rt60_est_ms=150
-- [ ] G13: delivered to Drive, sizes match (manual; after Ralph approves the cut)
+- [x] G13: delivered to Drive, sizes match (manual; after Ralph approves the cut)
+  EVIDENCE: 2026-10-30 folder 123pSTGJcl3jt-siO2dtb4FPXAEzFT1HT; V1 14fOHIEn8In1jAG3jNb4WG9oUlq7IOhVD 40205779 = local; HofR 1e2tcsi4pD6pPQpMYK1VhhIRDmua5iEhd 40267799 = local; script doc 1mX-PLK9rOUgqSc6rKPiP5l-8TDJBq_1M8I87C8Cc324
+- [x] G14: HofR version shows the whole hook from frame 0 (manual record of `tools/hookcheck/hook_check.py out/novatabz_hor_v1.mp4 --hook 267,420,545,218`)
+  EVIDENCE: 2026-10-30 HOOK_OK; CUT_QC_OK
