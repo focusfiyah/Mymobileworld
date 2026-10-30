@@ -11,10 +11,19 @@ sheet = thumb("refs/product_sheet.png", "sheet.jpg", 1100)
 front = thumb("refs/listing_1.jpg", "front.jpg", 900)
 total = re.search(r"TOTAL: \$([\d.]+)", B).group(1)
 script = re.search(r"^> (.+)$", B, re.M).group(1)
-qs = re.findall(r"^\d\. (.+)$", B.split("## 7. Questions")[1].split("## 8.")[0], re.M)
+qs = ["S7: redo the still for $0.09 (box and two labels wrong)?", "S4 and S5 show two different white diffusers. Let it go, or redo S5 to match S4 for $0.09?"]
 cost = re.findall(r"^\| ([^|]+) \| ([^|]+) \| ([\d.]+) \|$", B, re.M)
 ON = {m.group(1): m.group(2) for m in re.finditer(r'^\| (S\d) \| [^|]+ \| "[^"]+" \| ([^|]+) \|', B, re.M)}
 rows = ""
+sb = ""
+if os.path.exists("stills/S1.png"):
+    import subprocess
+    os.makedirs("review/media", exist_ok=True)
+    subprocess.run(["cp", "vo/voiceover_final.mp3", "review/media/vo.mp3"], check=True)
+    NOTE = json.load(open("review/notes.json")) if os.path.exists("review/notes.json") else {}
+    for s_ in S:
+        f = thumb(f"stills/{s_['id']}.png", f"sb_{s_['id']}.jpg", 720)
+        sb += f'<figure><img src="{f}" alt="Still {s_["id"]}"><figcaption><b>{s_["id"]}</b> {e(s_["line"])}<br>{e(NOTE.get(s_["id"], ""))}</figcaption></figure>'
 for s in S:
     tag = "HAND" if s["hand"] else "HAND-FREE"
     rows += f"""<article class="shot"><img src="{rooms[s['room']]}" alt="Room {s['room']}" loading="lazy">
@@ -47,12 +56,14 @@ table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}} t
 .line{{font-weight:600}} .model{{color:var(--muted);font-size:.9rem}}
 details summary{{cursor:pointer;color:var(--pine);font-weight:600;font-size:.9rem}} .pr{{font-size:.85rem;color:var(--muted);overflow-wrap:anywhere;margin-top:6px}}
 figure{{margin:0;display:grid;gap:6px}} figure img{{border-radius:8px;border:1px solid var(--line)}} figcaption{{font-size:.88rem;color:var(--muted)}}
+.sbg{{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}} .sbg figcaption{{font-size:.8rem}}
 .two{{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}}
 @media (max-width:440px){{.shot{{grid-template-columns:88px 1fr}} .shot img{{width:88px}}}}
 </style>
 <main>
-<header style="display:grid;gap:6px"><span class="eyebrow">Grace &middot; plan v1 &middot; 2026-10-30</span><h1>Plant Therapy Christmas Cheer, 15 s</h1>
-<p class="muted">Hands + hand-free AI video over Grace's voice. Nothing has been spent yet. Reply with your OK and the answers below.</p></header>
+<header style="display:grid;gap:6px"><span class="eyebrow">Grace &middot; storyboard round 1 &middot; 2026-10-30</span><h1>Plant Therapy Christmas Cheer, 15 s</h1>
+<p class="muted">Hands + hand-free AI video over Grace's voice. Plan approved. Spent so far: $0.63 Kie (7 stills). Storyboard below.</p></header>
+{('<section><h2>Still storyboard (round 1)</h2><p class="muted">Voice: Grace cloned v5, 13.6 s, echo 150 ms (limit 150).</p><audio controls src="media/vo.mp3" style="width:100%"></audio><div class="sbg">' + sb + '</div></section>') if sb else ''}
 <section><h2>Your answers needed</h2><ol class="q">{''.join(f'<li>{e(q)}</li>' for q in qs)}</ol></section>
 <section><div class="total"><b>${total}</b><span>total if Kie makes everything (includes one likely redo)</span></div>
 <table>{''.join(f'<tr><td>{e(a)}</td><td>{e(b)}</td><td>${c}</td></tr>' for a,b,c in cost)}</table>

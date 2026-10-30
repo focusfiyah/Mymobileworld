@@ -2,15 +2,15 @@
 Writes shots.json. Windows are estimates (3.6 words/s) until the voiceover's word times."""
 import json
 R = {"ROOM_A": "rooms/pick/A_armchair_tree.jpg", "ROOM_B": "rooms/pick/B_gift_table.jpg", "ROOM_C": "rooms/pick/C_coat_closet.jpg",
-     "TREE": "refs/closeup_tree.png", "PLUM": "refs/closeup_plum.png", "VAN": "refs/closeup_vanilla.png", "BOX": "refs/closeup_box.png",
-     "NECK": "refs/real_neck_capoff.jpg", "SHEET": "refs/product_sheet.png", "HAND": "grace/ref/hand-sheets/without_bracelet.jpg"}
+     "TREE": "refs/closeup_tree.png", "PLUM": "refs/closeup_plum.png", "VAN": "refs/closeup_vanilla.png", "BOX": "refs/closeup_box_clean.png",
+     "NECK": "refs/real_neck_capoff.jpg", "SHEET": "refs/product_sheet.png", "HAND": "../../grace/ref/hand-sheets/without_bracelet.jpg"}
 NAME = {"ROOM_A": "the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall)",
         "ROOM_B": "the real room photo (gift-wrapping table with pink and gold wrapped gifts, a pink-lit Christmas tree behind)",
         "ROOM_C": "the real room photo (coat closet with colourful coats on hangers, wooden hangers, white wire baskets)",
         "TREE": "the real Christmas Tree bottle: hot pink label, chartreuse yellow-green tree with a yellow star and pale aqua dots, dark green 'Plant Therapy', 'Christmas Tree', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'",
         "PLUM": "the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'",
         "VAN": "the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'",
-        "BOX": "the real Christmas Cheer box: white carton with small pink, orange, purple and green stars and a thin line ornament, dark text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice'",
+        "BOX": "the real Christmas Cheer box: a pale cream-white carton printed only with small pink, orange, purple, mint and yellow stars, two thin line-drawn baubles and snowflakes, and dark charcoal text 'Plant Therapy', 'Christmas Cheer', 'Essential Oil Blend Set', 'Christmas Tree, Sugar Plum Fairy, & Vanilla Spice', '1 FL. OZ. /30 mL (3 X 1/3 FL. OZ. /10 mL)'; the box has NO tree picture, NO pink panel and NO KidSafe mark",
         "NECK": "a real photo of the open bottle neck: a black ring stays on the neck and a small clear-white plastic dropper insert sits in the opening",
         "SHEET": "the product sheet made from real photos (front, back, box, cap off)",
         "HAND": "Grace's hand sheet"}
@@ -84,7 +84,7 @@ SHOTS = [
       ["BOX", "SHEET"], "the hand lowers the box straight down into the gift bag until half of it is inside; the red tissue paper rustles."),
  shot(7, False, True, "A", ["ROOM_A", "BOX", "TREE", "PLUM", "VAN", "SHEET"],
       "Low close view of the small round light-wood side table beside the red armchair of image 1, the tinsel tree soft behind. "
-      f"On it the closed Christmas Cheer box of image 2 stands upright, and in front of it exactly three bottles in a row, left to right: Christmas Tree (image 3), Sugar Plum Fairy (image 4), Vanilla Spice (image 5), "
+      f"On it the closed Christmas Cheer box of image 2 stands upright on the left with its whole front visible, and to its RIGHT, beside it and not covering it, exactly three bottles stand in a row, left to right: Christmas Tree (image 3, hot pink label with a chartreuse tree), Sugar Plum Fairy (image 4, lavender label with a cream blob, no tree), Vanilla Spice (image 5, cream label with a taupe circle and a vanilla pod, no tree), "
       f"labels facing the camera. Each is a {BOTTLE}; {PRINT}; image 6 shows their true shape. {SIZE_FREE} One set only. No hand, no fingers, no people, no diffuser.",
       ["BOX", "TREE", "PLUM", "VAN", "SHEET"], "only the camera moves, a slow push-in toward the box and the three bottles; nothing moves."),
 ]

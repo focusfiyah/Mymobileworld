@@ -65,10 +65,7 @@ TOTAL: $2.79
 **Approve?**
 
 ## 7. Questions (all of them, now)
-1. Hand sheet: WITHOUT the bracelet (default) or WITH it?
-2. Product clips S1 S4 S6 S7: Kie Omni ($1.26, I do it all) or your Flow app ($0, I send 4 kits)?
-3. Voice: Grace cloned v5 (~280 ElevenLabs characters), or is Grace recording this one herself?
-4. Your attached picture did not reach me. Was it the TikTok Shop listing (74 sold, 4.4 stars)? If it was something else, please send it again.
+Answered by Ralph 2026-10-30 (question cards): 1. hand sheet WITHOUT the bracelet; 2. product clips on Kie Omni ($1.26); 3. voice Grace cloned v5; 4. "Approve, I'll resend pic" (start the stills, check his picture when it arrives).
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 Every still and clip prompt is in `shots.json` (built by `make_shots.py`), linted PROMPT_LINT_OK and read end to end; the full text is on the review page.
