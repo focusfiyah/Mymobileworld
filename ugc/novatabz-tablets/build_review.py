@@ -27,7 +27,7 @@ if stills:
 def shot(s):
     pic = f"still_{s['id']}" if stills else f"room_{s['room']}"
     alt = "still" if stills else f"{ROOMS[s['room']]} room photo"
-    chips = f"<span class='chip {'free' if not s['hand'] else ''}'>{'HAND' if s['hand'] else 'HAND-FREE'}</span><span class='chip'>{'Flow / Omni' if s['product'] else 'Seedance on Kie'}</span><span class='chip'>{ROOMS[s['room']]}</span>" + ("<span class='chip warn'>test clip first</span>" if s['id'] == 'S9' else "")
+    chips = f"<span class='chip {'free' if not s['hand'] else ''}'>{'HAND' if s['hand'] else 'HAND-FREE'}</span><span class='chip'>{'Flow / Omni' if s['product'] else 'Seedance on Kie'}</span>{"<span class='chip'>Kling fallback</span>" if s['id'] in ('S1','S5') else ''}<span class='chip' hidden></span><span class='chip'>{ROOMS[s['room']]}</span>" + ("<span class='chip warn'>test clip first</span>" if s['id'] == 'S5' else "")
     return f"""<article class="shot"><div class="sh"><span class="num">{s['id']}</span>{chips}</div>
 <div class="shb"><img src="img/{pic}.jpg" alt="{alt}" loading="lazy"><div class="tx"><p class="say">&ldquo;{E_(s['words'])}&rdquo;</p><p class="see">{E_(s['see'])}</p>
 <details><summary>Still prompt</summary><pre>{E_(Path('prompts/still_'+s['id']+'.txt').read_text())}</pre></details>
@@ -69,10 +69,10 @@ td {{ border-bottom:1px solid var(--line); padding:6px 8px 6px 0; vertical-align
 @media (max-width:520px) {{ .shb {{ grid-template-columns:1fr; }} .shb img {{ width:100%; }} }}
 </style>
 <div class="wrap">
-<header style="display:grid;gap:8px"><span class="eyebrow">Grace · TikTok Shop · plan v1 · 2026-10-30</span><h1>NovaTabz toothpaste tablets</h1>
-<p>Hands and hand-free AI video over Grace's cloned voice (v5), about 30 s, 12 shots, no on-screen text. Script gate passed: research, hook H099, Humanizer, reading grade 3.5.</p></header>
+<header style="display:grid;gap:8px"><span class="eyebrow">Grace · TikTok Shop · plan v2 (15 s) · 2026-10-30</span><h1>NovaTabz toothpaste tablets</h1>
+<p>Hands and hand-free AI video over Grace's cloned voice (v5), 15 s, 6 shots, no on-screen text. Script gate passed: research, hook H099, Humanizer, reading grade 1.8. Kling: up to 80 credits as a fallback for S1 and S5 only, booked in the shared ledger.</p></header>
 <section class="ask"><span class="eyebrow" style="color:var(--tealink)">Your OK + 5 answers</span><div class="total">TOTAL ${total}</div><p>{E_(expected)}</p><ol>{''.join(f'<li>{E_(q)}</li>' for q in qs)}</ol></section>
-<section><h2>Script</h2><ol class="script">{''.join(f'<li>{E_(l)}</li>' for l in script)}</ol><p class="see">Where each line comes from: hook H099 + a NovaTabz creator's "yeah, this is toothpaste" + a viewer comment "I've been eating them!"; the how-to from the listing and an Amazon buyer ("Chew a bit and they start to foam"); the facts only from the listing (no whitening or enamel claims).</p></section>
+<section><h2>Script</h2><ol class="script">{''.join(f'<li>{E_(l)}</li>' for l in script)}</ol><p class="see">Where each line comes from: hook H099 + a NovaTabz creator's "yeah, this is toothpaste" + a viewer comment "I've been eating them!"; the how-to from the listing and an Amazon buyer ("Chew a bit and they start to foam"); the facts only from the listing (no whitening or enamel claims). Cut for 15 s: the hydroxyapatite line (now in the caption), the minty-clean line and the month line.</p></section>
 <section><h2>Real product</h2><div class="wide"><img src="img/sheet.jpg" alt="NovaTabz product sheet from your 3 photos"></div><p>Clear glass jar 2.17 × 2.17 × 1.65 in, brushed silver ridged screw lid, turquoise label, plain white round tablets. Built only from your photos.</p></section>
 <section><h2>Shots</h2>{''.join(shot(s) for s in SH)}</section>
 <section><h2>Rooms and hand</h2><div class="pics">{''.join(f'<figure><img src="img/room_{k}.jpg" alt="{v}"><figcaption>{k}: {v} (Pexels)</figcaption></figure>' for k,v in ROOMS.items())}
@@ -81,4 +81,4 @@ td {{ border-bottom:1px solid var(--line); padding:6px 8px 6px 0; vertical-align
 <div class="wide"><img src="img/same.jpg" alt="NovaTabz creator first 3 seconds"></div><p class="see">@king_okiki15, same product: tube vs tablet, "yeah, this is toothpaste". NovaTabz videos are all under 2K views, so there's room for Grace here.</p></section>
 <section><h2>Cost</h2><div class="tbl"><table>{cost}</table></div><p class="see">ElevenLabs about 560 characters. Month so far: {E_(month)}.</p></section>
 </div>"""
-Path("review/index.html").write_text(page); print("ok", len(page))
+Path("review/index.html").write_text(page.replace("<span class='chip' hidden></span>", "")); print("ok", len(page))

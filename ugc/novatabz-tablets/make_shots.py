@@ -1,4 +1,4 @@
-"""Builds shots.json + prompts/ for NovaTabz V1 (Grace cloned v5 VO, ~30 s), written with prompt-master (loaded 2026-10-30).
+"""Builds shots.json + prompts/ for NovaTabz V1 (Grace cloned v5 VO, 15 s, Ralph 2026-10-30), written with prompt-master (loaded 2026-10-30).
 Product facts come only from product_truth.json (Ralph's 3 photos + the Amazon listing). Run: python3 make_shots.py"""
 import json, os
 
@@ -30,42 +30,21 @@ SHOTS = [
    SIZE + " Close-up on a white counter in a pink-tile bathroom: " + JAR + " It stands open, its lid (" + LID + ") lying beside it, full of " + TABS + ". " + HAND +
    " Her thumb and index finger pinch ONE white tablet just above the open jar. Only one jar.",
    "the fingers lift the one tablet slowly up toward the lens; the jar stays still on the counter."),
- s("S2", "Nope, it's toothpaste.", False, True, "A",
-   SIZE.replace("her fingers look normal next to it, the jar never looks bigger than her hand", "it is shorter than the toothbrush cup beside it") + " On a long grey bathroom vanity next to a white vessel sink, leaf-print wallpaper soft behind (room reference): " + JAR +
-   " Open, full of " + TABS + ", its lid (" + LID + ") leaning against it, a clear glass cup with one bamboo toothbrush beside it. Only one jar. " + NOHAND,
-   "only the camera moves, a slow push-in toward the open jar; nothing else moves."),
- s("S3", "No more dried paste in the sink", False, False, "A",
+ s("S2", "Nope, toothpaste. No more crusty tubes.", False, False, "A",
    "Close-up into a white vessel sink on a grey vanity, leaf-print wallpaper soft behind (room reference): dried white and pale blue toothpaste globs stuck around the drain and the rim, "
    "a squeezed, plain white unbranded toothpaste tube with a crusty cap lying on the counter edge. No words on the tube. " + NOHAND,
    "the camera slowly pushes in toward the dried toothpaste globs around the drain; nothing moves. No person or hand appears at any time."),
- s("S4", "or a tube leaking in your bag.", True, False, "D",
-   "Close-up on top of a cream suitcase in a bright cream living room (room reference): " + HAND.replace("the hand enters", "both hands enter") +
-   " Her hands hold open a clear zip toiletry pouch; inside, a squeezed plain white unbranded tube has leaked white toothpaste smeared over a little bottle and the inside of the pouch. No words on anything.",
-   "the hands pull the pouch open a little wider to show the toothpaste smear; the smear does not move. Only these two hands appear, whole wrists, the same rings as reference image 2."),
- s("S5", "Chew one,", True, False, "C",
-   "Close-up beside a wooden bathroom vanity with a small green plant and a concrete wall (room reference): " + HAND + " She holds ONE plain white round flat tablet, about the size of an aspirin, between thumb and index finger, held up in front of the plant. No jar.",
-   "the hand slowly lifts the tablet up and out of the top of the frame. Only this hand appears, whole wrist, the same rings as reference image 2. No face appears."),
- s("S6", "brush with a wet toothbrush,", True, False, "C",
-   "Close-up over a wooden bathroom vanity with a matte black tap and a small plant (room reference): " + HAND + " She grips a bamboo toothbrush by the handle and holds its clean white bristles under the running tap. No paste on the brush.",
-   "clear water runs over the bristles and the hand turns the brush a little under the stream. Only this hand appears, whole wrist, the same rings as reference image 2."),
- s("S7", "and it foams like regular paste.", False, False, "A",
-   "Macro close-up: a bamboo toothbrush lies across the rim of a white vessel sink, its bristles covered in fluffy white foam, leaf-print wallpaper soft behind (room reference). " + NOHAND,
-   "tiny bubbles in the white foam slowly pop and settle while the camera slowly pushes in. No person or hand appears at any time."),
- s("S8", "Nano hydroxyapatite, no fluoride, and a glass jar instead of a tube.", False, True, "A",
-   SIZE.replace("her fingers look normal next to it, the jar never looks bigger than her hand", "it is about as tall as a coffee mug is wide") + " Eye-level close-up on a long grey bathroom vanity, leaf-print wallpaper soft behind (room reference): " + JAR + " Closed with its lid (" + LID + ")" + ", white tablets visible through the clear glass above and below the label. Only one jar. " + NOHAND,
-   "only the camera moves, a slow arc a little to the right around the closed jar; the jar does not move."),
- s("S9", "People say it leaves a nice tingly, minty clean.", True, True, "B",
-   SIZE + " Close-up on a white counter in a pink-tile bathroom, a small fresh mint sprig beside the jar: " + JAR + " Closed with its lid (" + LID + ")" + ". " + HAND +
-   " Her fingers GRIP the ridged edge of the silver lid from above, the thumb on one side and the fingers on the other. Only one jar.",
-   "the fingers twist the silver lid and lift it straight up off the jar, showing the white tablets inside."),
- s("S10", "The only downside? Nobody has an excuse for a messy sink now.", False, True, "A",
+ s("S3", "Chew one, brush, and it foams like paste.", True, False, "C",
+   "Close-up over a wooden bathroom vanity with a matte black tap and a small plant, concrete wall soft behind (room reference): " + HAND + " She GRIPS a bamboo toothbrush by the handle, its bristles covered in fluffy white foam, held over the basin.",
+   "the hand gives the brush a small shake over the basin and tiny bubbles in the white foam pop and settle. Only this hand appears, whole wrist, the same rings as reference image 2. No face appears."),
+ s("S4", "Only downside? No excuse for a messy sink.", False, True, "A",
    SIZE.replace("her fingers look normal next to it, the jar never looks bigger than her hand", "it is shorter than the toothbrush cup beside it") + " A spotless, shiny white vessel sink on a long grey vanity, leaf-print wallpaper behind (room reference); " + JAR +
    " Closed with its lid (" + LID + ")" + ", standing beside a clear glass cup with a bamboo toothbrush. Clean counter. Only one jar. " + NOHAND,
    "only the camera moves, a slow sideways slide along the clean vanity toward the jar; nothing moves."),
- s("S11", "With holiday trips coming, they're not a liquid, so they fly through security.", True, True, "D",
+ s("S5", "No fluoride, no liquid, so they fly through holiday security.", True, True, "D",
    SIZE + " Close-up into an open cream suitcase in a bright cream living room (room reference), folded clothes and a clear zip toiletry pouch inside: " + HAND + " She GRIPS " + JAR + " Closed with its lid (" + LID + ")" + ", the thumb on one side and the fingers wrapped around the other. Only one jar.",
    "the hand lowers the jar and sets it into the clear toiletry pouch, then lets go."),
- s("S12", "Sixty-two is about a month, so grab one for home and one for your carry-on. It's in the orange cart.", False, True, "B",
+ s("S6", "Grab one for home and one for your carry-on. It's in the orange cart.", False, True, "B",
    SIZE.replace("her fingers look normal next to it, the jar never looks bigger than her hand", "it fills only the middle third of the frame") + " A white counter in a pink-tile bathroom with a green leaf print behind (room reference): " + JAR + " Closed with its lid (" + LID + ")" + ". Only one jar. " + NOHAND,
    "only the camera moves, a slow push-in toward the jar's label; nothing moves."),
 ]
@@ -89,7 +68,7 @@ for x in SHOTS:
     x["clip_refs"] = [st, P["LABEL"], P["LID"], P["SHEET"]] if x["product"] else [st] + ([HANDREF] if x["hand"] else [])
     x["clip_model"] = "omni (Flow first)" if x["product"] else "seedance-2-mini"
     open(f"prompts/still_{x['id']}.txt", "w").write(x["still"]); open(f"prompts/clip_{x['id']}.txt", "w").write(x["clip"])
-SEE = {"S1": "Fingers pinch one white tablet up out of the open jar, pink-tile counter", "S2": "Open jar full of tablets beside a toothbrush cup on the grey vanity, push-in", "S3": "Dried toothpaste globs in the vessel sink, plain crusty unbranded tube, push-in", "S4": "Hands open a toiletry pouch on a suitcase: a plain tube leaked paste inside", "S5": "Hand holds one white tablet up, lifts it out of frame (toward the mouth, no face)", "S6": "Hand holds a bamboo toothbrush under the running tap", "S7": "Macro: white foam on the toothbrush resting on the sink rim, bubbles settle", "S8": "Closed jar on the vanity, slow arc around it, tablets through the glass", "S9": "Hand twists the silver lid off, mint sprig beside the jar", "S10": "Spotless sink, jar beside the toothbrush cup, slow side slide", "S11": "Hand sets the closed jar into a clear toiletry pouch in an open suitcase", "S12": "END: one closed jar on the pink-tile counter, push-in to the label"}
+SEE = {"S1": "Fingers pinch one white tablet up out of the open jar, pink-tile counter", "S2": "Dried toothpaste globs in the vessel sink, plain crusty unbranded tube, push-in", "S3": "Hand holds a foamy bamboo toothbrush over the wood vanity basin, bubbles settle", "S4": "Spotless sink, jar beside the toothbrush cup, slow side slide", "S5": "Hand sets the closed jar into a clear toiletry pouch in an open suitcase", "S6": "END: one closed jar on the pink-tile counter, push-in to the label"}
 for x in SHOTS: x["see"] = SEE[x["id"]]
 json.dump({"shots": SHOTS}, open("shots.json", "w"), indent=1, ensure_ascii=False)
 print(len(SHOTS), "shots;", sum(x["product"] for x in SHOTS), "product;", sum(not x["hand"] for x in SHOTS), "hand-free")

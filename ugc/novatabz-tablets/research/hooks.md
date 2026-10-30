@@ -5,3 +5,5 @@
 | B | H128 "I know exactly how unexciting this sounds, but watch" | "I know toothpaste is boring, but watch this." | "toothpaste... but make it a tablet" | @nextgenthreads 31.2M frame-0 demo |
 | C | H147 "One small switch made __ much easier" | "One small switch made my sink so much cleaner." | "the tube was the problem" | @tiktokshopprincessdi (tube mess) |
 H062/H061 skipped: used most across Grace's recent jobs.
+
+15 s version (2026-10-30): hook A kept, spoken in 8 words.
