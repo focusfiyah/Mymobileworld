@@ -20,4 +20,5 @@
   CHECK: test -s rooms/SOURCES.md && echo ROOMS_OK
   EXPECT: ROOMS_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=8cf7dd31a048d687ad6d8aeeb89da93b9b0e4a66631ca89a7502e2201a50fecb; exit=0; EXPECT=matched; output-sha256=1ccb5983fef497bb2ba16b269aa647998346add8d40ccd6a936d8bcdf86aa08d; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/niagara-mattress-topper; path=7f4fb4b02918/15 entries
-- [ ] G6: (manual) review page with script, storyboard, product sheet and total published and sent to Ralph (push + email)
+- [x] G6: (manual) review page with script, storyboard, product sheet and total published and sent to Ralph (push + email)
+  EVIDENCE: plan page v1 https://claude.ai/artifact/JgpTEMyjSHpVkrNMw7Zuae published 2026-10-30 (script, shots, product sheet, TOTAL), storyboard v2 and cut v3 on the same page; push + Gmail sent each time (ids 1a18e04e7278ca54, 1a18e155431c5adc, 1a18e3ff64811f87); Ralph replied "Ok" to plan and cut
