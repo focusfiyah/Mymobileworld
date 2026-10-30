@@ -6,7 +6,7 @@ from pathlib import Path
 D = json.loads(Path("shots.json").read_text()); B = D["blocks"]
 SHEET, PRINT, TAG, EDGE = "refs/product_sheet.png", "refs/closeups/bamboo_print.png", "refs/closeups/niagara_tag.png", "refs/closeups/edge_skirt.png"
 ROOM = {"A": "rooms/roomA_window_bedroom.jpg", "B": "rooms/roomB_guest_bedroom.jpg", "C": "rooms/roomC_laundry.jpg"}
-HAND = "../../grace/ref/hand-sheets/with_bracelet.jpg"
+HAND = "../../grace/ref/hand-sheets/without_bracelet.jpg"
 
 
 def refs(s, first=None):
@@ -19,7 +19,7 @@ def refs(s, first=None):
         if s.get("tag"): add(TAG, "a real close-up of the small light-blue Niagara tag")
         add(EDGE, "a real close-up of the puffy rolled border and the smooth navy skirt")
     if not first: add(ROOM[s["room"]], "the real room photo to use as the setting")
-    if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelet)")
+    if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bare wrist)")
     return r, n
 
 
@@ -46,11 +46,11 @@ def clip(s):
     first = f"stills/{s['id']}.png"
     r, n = refs(s, first)
     if s["product"]:
-        head = B["omni_head"].replace("{hand}", " and the same hands, rings and bracelet" if s["hand"] else "")
+        head = B["omni_head"].replace("{hand}", " and the same hands, rings, bare wrist" if s["hand"] else "")
         head = head.replace("image 2", "image 3").replace("Recreate image 1", "Recreate image 1")
         body = f"{head} Motion: {s['motion']} {B['omni_tail']} References: " + "; ".join(n) + "."
     else:
-        body = f"Recreate image 1 exactly as the first frame{', same hand, nails, rings and bracelet as the hand sheet' if s['hand'] else ''}, then: {s['motion']} {B['omni_tail']} References: " + "; ".join(n) + "."
+        body = f"Recreate image 1 exactly as the first frame{', same hand, nails, rings, bare wrist as the hand sheet' if s['hand'] else ''}, then: {s['motion']} {B['omni_tail']} References: " + "; ".join(n) + "."
     return r, body
 
 
