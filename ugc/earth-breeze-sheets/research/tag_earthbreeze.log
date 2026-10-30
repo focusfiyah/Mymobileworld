@@ -1,0 +1,38 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 63 of 84 videos posted since 2026-08-31
+63 videos -> ugc/earth-breeze-sheets/research/tag/tag-earthbreeze.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+      5,902   1.0   0.15   38 2026-09-18  @laurenmalea: Earth Breeze just gave laundry day a cozy fall upgrade 🍂 Their new lim
+                                          https://www.tiktok.com/@laurenmalea/video/7686971512779279646
+      3,407   2.6   0.23   52 2026-10-28  @stefanienicoleroque: Ok I honestly wasn’t expecting it to work THIS well 😳 The stain came o
+                                          https://www.tiktok.com/@stefanienicoleroque/video/7701501787047529741
+      3,043   0.3   0.03   60 2026-10-21  @myearthbreeze: One factory. A whole lot of scent opinions. 👀🧺 We asked our Kentucky c
+                                          https://www.tiktok.com/@myearthbreeze/video/7698933192962755853
+      2,769   0.4   0.04    8 2026-10-21  @myearthbreeze: Our Fresh Scent and Fragrance Free laundry detergent sheets are made i
+                                          https://www.tiktok.com/@myearthbreeze/video/7698933842614291726
+      1,403   7.0   0.93   37 2026-10-09  @niqsoshinky: ☝🏿grab some real detergent right here!☝🏿 #earthbreeze #laundrydetergen
+                                          https://www.tiktok.com/@niqsoshinky/video/7694763414924643597
+      1,083  19.7   4.06  116 2026-10-08  @spongygirly: Earth breeze laundry sheets! Get yours linked below ⬇️ I love how soft
+                                          https://www.tiktok.com/@spongygirly/video/7693763577097882893
+      1,061   1.7   0.57    7 2026-10-17  @ashleyugc: little swaps for a more mindful home 🫧🌿 these plastic-free dishwasher 
+                                          https://www.tiktok.com/@ashleyugc/video/7697744614245158158
+        797  14.4   0.38   24 2026-10-24  @firsttimewithus: Your dishwasher routine deserves a cleaner upgrade 🌿✨ Making more inte
+                                          https://www.tiktok.com/@firsttimewithus/video/7700383366541053215
+        633   1.6   0.16   36 2026-10-17  @naomi.stoltzfus3: Tip no.3 is by far the best one!#laundrytips #laundrydetergentsheets #
+                                          https://www.tiktok.com/@naomi.stoltzfus3/video/7697706085548952846
+        626   1.4   0.16   10 2026-10-26  @the.poetic.mama: If you truly care about what goes into your body, you need to make thi
+                                          https://www.tiktok.com/@the.poetic.mama/video/7700762032445885710
+        625   0.6   0.16   28 2026-10-25  @melanielavon: Trying out the Earth Breeze Pure Clean Dishwasher Tablets! 🍽️✨ I love 
+                                          https://www.tiktok.com/@melanielavon/video/7700597270718336270
+        612   0.3      0   28 2026-10-25  @the.mindful.shelf: I will never go back now! #earthbreeze #dishwashertablets #cleaningtok
+                                          https://www.tiktok.com/@the.mindful.shelf/video/7700658480058780942
+        608   0.3      0   35 2026-10-08  @successlayne: 🫧😱🫧 Where have these laundry detergent sheets been all my life #earthb
+                                          https://www.tiktok.com/@successlayne/video/7694311779190443294
+        602   3.0    0.5   17 2026-10-24  @vsternau: I'm so glad I made the switch. #ecofriendly #earthbreeze #dishwasher #
+                                          https://www.tiktok.com/@vsternau/video/7700302019034139918
+        585   1.4   0.34   23 2026-10-04  @homedinger_mom: I’m a crunchy wannabe but every little bit counts. Love that @Earth Br
+                                          https://www.tiktok.com/@homedinger_mom/video/7692612598445002015

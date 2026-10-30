@@ -1,0 +1,78 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "vo/*_lines.json",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-laundry-sheets.json",
+   "research/tag/tag-earthbreeze.json",
+   "research/videos/7643312643444313375/transcript.txt",
+   "research/videos/7647808849239395615/transcript.txt",
+   "research/videos/7612738946044398861/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-10-30.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "refs/real/listing/SOURCES.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "job": "earth-breeze-sheets",
+ "client": "Grace",
+ "date": "2026-10-30",
+ "route": "ugc-product-ad hands + hand-free over the Grace cloned v5 voiceover; stills Gemini 3 Pro Image (Kie nano-banana-pro) + product sheet from the listing images; product clips Omni 1.1 Flash on Kie (Ralph 2026-10-30: Kie only), no-product clips Seedance 2.0 Mini; no Kling"
+}

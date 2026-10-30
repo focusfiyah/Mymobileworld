@@ -1,0 +1,221 @@
+{
+ "shots": [
+  {
+   "id": "S1",
+   "t": [
+    0.0,
+    2.6
+   ],
+   "line": "Okay, watch what happens when I drop this in water.",
+   "hand": true,
+   "product": true,
+   "box": false,
+   "room": "A",
+   "model": "omni",
+   "still": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Close shot from slightly above: her hand comes in from the top edge and pinches ONE plain white sheet by one corner, holding it flat just above a wide clear glass bowl full of water that sits on top of the front-loading washer. The water is clear and still. No box in the frame. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = a real close-up of the plain white sheets (no print); image 2 = Grace's hand sheet (her real hands, rings and nails); image 3 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real plain white sheets, no print. Motion: her fingers let go and the white sheet drops flat onto the water and floats; its edges start to turn see-through. The camera holds steady. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/closeup_sheet_stack.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg",
+    "rooms/room_A.jpg"
+   ],
+   "clip_refs": [
+    "stills/S1.png",
+    "refs/closeup_sheet_stack.png"
+   ]
+  },
+  {
+   "id": "S2",
+   "t": [
+    2.6,
+    4.6
+   ],
+   "line": "That's a whole load, melting away.",
+   "hand": false,
+   "product": true,
+   "box": false,
+   "room": "A",
+   "model": "omni",
+   "still": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Top-down close-up into the wide clear glass bowl of water on top of the washer: the one white sheet floats flat on the water, its edges already soft and see-through, tiny bubbles around it. No box in the frame. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = a real close-up of the plain white sheets (no print); image 2 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real plain white sheets, no print. Motion: the sheet softens, splits into soft pieces and melts into cloudy white water with a little light foam while the camera slowly pushes down toward the bowl. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/closeup_sheet_stack.png",
+    "rooms/room_A.jpg"
+   ],
+   "clip_refs": [
+    "stills/S2.png",
+    "refs/closeup_sheet_stack.png"
+   ]
+  },
+  {
+   "id": "S3",
+   "t": [
+    4.6,
+    6.4
+   ],
+   "line": "No more hauling a heavy jug,",
+   "hand": true,
+   "product": false,
+   "box": false,
+   "room": "A",
+   "model": "seedance",
+   "still": "Low side shot by the washer: her hand GRIPS the handle of a big heavy plain white plastic laundry jug with NO label, NO logo and NO words on it, lifting it off the floor; a thin blue drip runs down its side from under its cap. Only the jug, no other laundry product. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = Grace's hand sheet (her real hands, rings and nails); image 2 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+   "clip": "Recreate reference image 1 exactly as the first frame, then: her hand heaves the heavy jug up a few centimetres, it sways and pulls her wrist down, and the blue drip slides further down its side. Camera locked off. No detergent box, no laundry sheet appears. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "../../grace/ref/hand-sheets/without_bracelet.jpg",
+    "rooms/room_A.jpg"
+   ],
+   "clip_refs": [
+    "stills/S3.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg"
+   ]
+  },
+  {
+   "id": "S4",
+   "t": [
+    6.4,
+    8.3
+   ],
+   "line": "and it leaves no harsh chemical residue.",
+   "hand": false,
+   "product": false,
+   "box": false,
+   "room": "B",
+   "model": "seedance",
+   "still": "Close shot: a clean dark navy cotton t-shirt, freshly washed, folded neatly on top of the washer in the green-tile bathroom; deep even colour, smooth soft fabric, no marks, no white streaks, no print on the shirt. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the real room to use as the background (same green tiles, washer, colours and light).",
+   "clip": "Recreate reference image 1 exactly as the first frame, then: the camera glides slowly along the folded navy shirt from its collar to its hem; nothing else moves. No hand, fingers or people appear at any time. No detergent box, no laundry sheet appears. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "rooms/room_B.jpg"
+   ],
+   "clip_refs": [
+    "stills/S4.png"
+   ]
+  },
+  {
+   "id": "S5",
+   "t": [
+    8.3,
+    10.0
+   ],
+   "line": "Just pull one out",
+   "hand": true,
+   "product": true,
+   "box": true,
+   "room": "C",
+   "model": "omni",
+   "still": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. Mid shot like the real how-to photo: one hand holds the box upright by its lower half with the front facing the camera, and the other hand's fingers pinch ONE plain white sheet and pull it halfway up out of the slot along the box's TOP edge. The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Only one box. Blue patterned tile wall soft behind. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = Grace's hand sheet (her real hands, rings and nails); image 4 = the real room to use as the background (same blue patterned tiles, woven hamper, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: the fingers slide the white sheet up and out of the top slot in one smooth pull while the other hand holds the box still. The hand keeps one grip and the box never turns, flips, grows or changes shape; the print never changes. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/closeup_front.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg",
+    "rooms/room_C.jpg"
+   ],
+   "clip_refs": [
+    "stills/S5.png",
+    "refs/closeup_front.png",
+    "refs/product_sheet.png"
+   ]
+  },
+  {
+   "id": "S6",
+   "t": [
+    10.0,
+    11.6
+   ],
+   "line": "and toss it in.",
+   "hand": true,
+   "product": true,
+   "box": false,
+   "room": "B",
+   "model": "omni",
+   "still": "The sheet: ONE plain matte WHITE paper-thin rectangle, 14 x 11 cm (about the size of an adult palm), soft like thin paper, with NO print, NO colour, NO holes, NO perforation line. Close shot into the open front-loading washer: her hand holds one white sheet at the open door, above a pile of colourful clothes in the drum. No box in the frame. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = a real close-up of the plain white sheets (no print); image 2 = Grace's hand sheet (her real hands, rings and nails); image 3 = the real room to use as the background (same green tiles, washer, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real plain white sheets, no print. Motion: her hand tosses the white sheet into the drum; it lands flat on top of the clothes and the hand pulls back out of frame. Camera steady. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/closeup_sheet_stack.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg",
+    "rooms/room_B.jpg"
+   ],
+   "clip_refs": [
+    "stills/S6.png",
+    "refs/closeup_sheet_stack.png"
+   ]
+  },
+  {
+   "id": "S7",
+   "t": [
+    11.6,
+    13.6
+   ],
+   "line": "I'm kinda mad nobody told me sooner.",
+   "hand": false,
+   "product": true,
+   "box": true,
+   "room": "A",
+   "model": "omni",
+   "still": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. One box stands upright on top of the front-loading washer, front facing the camera, leaning lightly against the wall beside the potted plant and a small stack of folded towels. Only one box. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = the real room to use as the background (same laundry corner, washer, plant, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: only the camera moves, a slow push-in toward the box; nothing in the room moves. The box never moves, grows or changes; the print never changes. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/closeup_front.png",
+    "rooms/room_A.jpg"
+   ],
+   "clip_refs": [
+    "stills/S7.png",
+    "refs/closeup_front.png",
+    "refs/product_sheet.png"
+   ]
+  },
+  {
+   "id": "S8",
+   "t": [
+    13.6,
+    16.4
+   ],
+   "line": "Grab a couple boxes before Thanksgiving guests show up.",
+   "hand": false,
+   "product": true,
+   "box": true,
+   "room": "D",
+   "model": "omni",
+   "still": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. EXACTLY TWO identical boxes lie flat side by side, fronts up and facing the camera, on a neat stack of fresh folded white towels at the foot of the made guest bed. Both boxes the same size and print. No other products. No hand, no fingers, no people. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = the real room to use as the background (same bright guest bedroom, floral pillows, rattan lamp, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: only the camera moves, a slow dolly in along the bed toward the two boxes on the towels; nothing moves. The box never moves, grows or changes; the print never changes. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/closeup_front.png",
+    "rooms/room_D.jpg"
+   ],
+   "clip_refs": [
+    "stills/S8.png",
+    "refs/closeup_front.png",
+    "refs/product_sheet.png"
+   ]
+  },
+  {
+   "id": "S9",
+   "t": [
+    16.4,
+    18.5
+   ],
+   "line": "It's in the orange cart.",
+   "hand": true,
+   "product": true,
+   "box": true,
+   "room": "B",
+   "model": "omni",
+   "still": "SIZE FIRST: the box is a FLAT, SLIM portrait box about 25 cm tall, 16 cm wide and only about 1 cm thick, as big as a small tablet and as thin as a phone; an adult hand covers about half its width. It is NOT a carton, NOT a cube, NOT a tub. The real Earth Breeze Laundry Detergent Sheets box, Fresh Scent, exactly as the big photo on the product sheet: sky-blue to light aqua front with small bubbles; a green tab top-left reading 'FRESH SCENT' in white; top-right 'Lasts up to 60 LOADS' in white beside a clear bubble; white arc text 'powerful clean. safe ingredients.'; the 'earth breeze' logo in heavy dark navy lowercase letters with a light-blue and white swoosh ring behind it; a white paper banner reading 'laundry detergent sheets' in navy; a water line; a sea turtle bottom-left with a small heart reading 'No Mess, No Plastic Jug'; navy 'NO HARSH CHEMICAL RESIDUE'; a dark navy t-shirt split down the middle on the right; '30 SHEETS' along the bottom. No other words, no badges, no flags, no \u00ae other than the one on the logo. Mid close shot: her hand holds ONE box upright toward the camera by its lower half, the front facing the camera and fully visible, thumb on the front's bottom corner only; the green-tile bathroom with the washer soft behind. Only one box. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral daylight, true colours, realistic skin texture, no text, no captions, no watermark, no logos other than the real box print. Reference images: image 1 = the product sheet, real photos only: the big left photo is the real box front, copy its shape, proportions and print exactly; the stack at right shows the plain white sheets; image 2 = a real close-up of the box front print, which must match letter for letter and colour for colour; image 3 = Grace's hand sheet (her real hands, rings and nails); image 4 = the real room to use as the background (same green tiles, washer, colours and light).",
+   "clip": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real box front print, which must match letter for letter and colour for colour; image 3 is the product sheet: keep this exact flat slim box shape and print. Motion: the hand brings the box a little closer to the lens with one small steady move and holds it there. The hand keeps one grip and the box never turns, flips, grows or changes shape; the print never changes. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/closeup_front.png",
+    "../../grace/ref/hand-sheets/without_bracelet.jpg",
+    "rooms/room_B.jpg"
+   ],
+   "clip_refs": [
+    "stills/S9.png",
+    "refs/closeup_front.png",
+    "refs/product_sheet.png"
+   ]
+  }
+ ]
+}
