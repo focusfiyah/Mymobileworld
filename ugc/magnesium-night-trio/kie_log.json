@@ -207,5 +207,34 @@
   "costTime": 68,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 06:30:21",
+  "submitted": "a7aa74b9de251e0b9af0350fd50149bd",
+  "prompt": "VIEW FIRST: the camera stands at the FOOT of the bed and looks back toward the headboard. Grace sits on the bed with her"
+ },
+ {
+  "t": "2026-10-30 06:31:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "VIEW FIRST: the camera stands at the FOOT of the bed and looks back toward the headboard. Grace sits on the bed with her back to the rattan headboard (the headboard is BEHIND her, at the top of the frame), facing the camera and the far wall; one leg stretched out straight toward the camera along the sage and white duvet, the other knee bent, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts; the toes of the straight leg point DOWN toward the bottom edge of the frame, at the lens. Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) lies flat on that shin, palm down, smoothing a streak of white lotion up toward the knee. The frame cuts at her waist: no face, no chest; the rattan headboard and the sage pillows show behind her hips. Only her legs, hips and one hand in frame. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same headboard, colours and light); image 2 = Grace's real hand sheet.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570515-wzb9tq244h.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573272-1aoxtzebjd.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a7aa74b9de251e0b9af0350fd50149bd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a7aa74b9de251e0b9af0350fd50149bd_0_1793341859.jpeg"
+   ]
+  },
+  "costTime": 39,
+  "credits": 18.0,
+  "usd": 0.09
  }
 ]
