@@ -1,6 +1,6 @@
 # Plant Therapy Christmas Cheer Essential Oil Blend 3 Set (Grace), 15 s
 
-Status: **CUT v1 sent 2026-10-30 (14.2 s, out/christmas_cheer_v1.mp4), waiting on Ralph's OK. Kie billed $2.47 of $2.79 (S7 still redo OK'd). Kling 0. Next on OK: Drive folder + script doc, HofR version, media pack, merge.** Review page https://claude.ai/artifact/HHa8EJ3Xp8diKpLcUrYB6V
+Status: **DONE 2026-10-30: cut v1 APPROVED (14.2 s). Drive: Grace Tiktok assets/Plant Therapy Christmas Cheer (Grace) https://drive.google.com/drive/folders/1JaroYpWM1uz616yJWI2ZNdiDF7-xpExA (CURRENT - Christmas Cheer V1.mp4 + script doc + HofR - Christmas Cheer V1.mp4, not posted). Kie billed $2.47 of $2.79. Kling 0. Media in Drive (media-in-drive record).**
 
 - Route: hands + hand-free AI over Grace cloned v5 (ugc-product-ad), product lock (Omni), Seedance for no-product clips. 7 shots, 3 hand-free.
 - Plan: `BOOK.md`; prompts: `make_shots.py` -> `shots.json` (PROMPT_LINT_OK); product truth `product_truth.json`; research `research/`; rooms `rooms/SOURCES.md`.
