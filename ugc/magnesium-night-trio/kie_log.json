@@ -1,0 +1,211 @@
+[
+ {
+  "t": "2026-10-30 05:19:44",
+  "submitted": "ff14d110abdf3abdc8fc7ad388999c4f",
+  "prompt": "Wide-ish shot along the reference bed (rattan headboard, sage and white bedding, plants, small lamp on; image 1): her ba"
+ },
+ {
+  "t": "2026-10-30 05:19:56",
+  "submitted": "2528a74bd5641c2a46e850da485f5713",
+  "prompt": "Side view on the reference bed (image 1), Grace sitting with one leg stretched out on the sage and white duvet, toes poi"
+ },
+ {
+  "t": "2026-10-30 05:19:57",
+  "submitted": "05df0dbfbacc6a7eaf0e5c3d5d3aaa7b",
+  "prompt": "Close-up, camera low at the foot of the bed in the reference bedroom (rattan headboard, sage green and white bedding, pl"
+ },
+ {
+  "t": "2026-10-30 05:19:59",
+  "submitted": "bf89008c394850387555d9732a827814",
+  "prompt": "Close-up on the small round wooden stool beside the reference bed (green bedding, small Christmas tree behind, softly ou"
+ },
+ {
+  "t": "2026-10-30 05:20:01",
+  "submitted": "ee974659d86f0a1f335e7a1eeb75d738",
+  "prompt": "Close-up beside the reference nightstand (gold-frame side table, black lamp, tulips; image 4): Grace's hand (medium-brow"
+ },
+ {
+  "t": "2026-10-30 05:20:02",
+  "submitted": "750a58b63400ec2b344907b494a5a8b0",
+  "prompt": "Eye-level close shot of the reference nightstand top (gold-frame side table, black lamp switched on, tulips; image 4): t"
+ },
+ {
+  "t": "2026-10-30 05:20:04",
+  "submitted": "043026236bf2c705d5b006478255bd24",
+  "prompt": "Close shot of the reference nightstand (gold-frame side table, black lamp switched on, tulips; image 3): ONE closed Arni"
+ },
+ {
+  "t": "2026-10-30 05:20:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Wide-ish shot along the reference bed (rattan headboard, sage and white bedding, plants, small lamp on; image 1): her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts stretched out and crossed at the ankles on top of a cream knit blanket, soles toward the camera with the toes pointing up toward the top of the frame, skin softly glowing from lotion. Body cropped at the hips: no face, no hands in frame. No jar, no bottle, no product packaging anywhere in the frame. No hands or fingers; only her legs. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570494-foe4pzjj9ut.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ff14d110abdf3abdc8fc7ad388999c4f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ff14d110abdf3abdc8fc7ad388999c4f_0_1793337609.jpeg"
+   ]
+  },
+  "costTime": 32,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:20:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Side view on the reference bed (image 1), Grace sitting with one leg stretched out on the sage and white duvet, toes pointing to the RIGHT edge of the frame, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts; Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) lies flat on her shin, palm down, smoothing a streak of white lotion up toward the knee. Only legs and one hand in frame, no face. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background; image 2 = Grace's real hand sheet.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570515-wzb9tq244h.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573299-xhf42y54cjq.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2528a74bd5641c2a46e850da485f5713",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2528a74bd5641c2a46e850da485f5713_0_1793337620.jpeg"
+   ]
+  },
+  "costTime": 39,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:20:29",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Close-up, camera low at the foot of the bed in the reference bedroom (rattan headboard, sage green and white bedding, plants; image 1): Grace sits on the white duvet, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts, one foot drawn up in front of her, its toes pointing to the LEFT edge of the frame; Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) grips the top of that foot, thumb pressing into the arch, a thin layer of white lotion already shining on the top of the foot. Only her legs, feet and one hand are in frame: no face. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same headboard, colours and light); image 2 = Grace's real hand sheet (skin tone, nails, rings, bare wrist).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570590-87vmdyt69zo.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573272-1aoxtzebjd.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "05df0dbfbacc6a7eaf0e5c3d5d3aaa7b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/05df0dbfbacc6a7eaf0e5c3d5d3aaa7b_1793337622759.jpeg"
+   ]
+  },
+  "costTime": 40,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:20:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Close shot of the reference nightstand (gold-frame side table, black lamp switched on, tulips; image 3): ONE closed Arnica + Lavender jar stands alone on the table top in front of the books, label to the camera: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING \u00b7 LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label. Only one jar. No hand, fingers or people appear. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet; image 2 = a real close-up of the lavender label: print letter for letter and colour for colour; image 3 = the real room to use as the background.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570560-k1f9znm9iyl.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573362-x2agv69sdug.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337575898-htv0hkpxhid.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "043026236bf2c705d5b006478255bd24",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/043026236bf2c705d5b006478255bd24_0_1793337644.jpeg"
+   ]
+  },
+  "costTime": 49,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:20:50",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Close-up on the small round wooden stool beside the reference bed (green bedding, small Christmas tree behind, softly out of focus; image 4): Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) sets ONE closed Citrus Rose jar down next to a small present wrapped in plain kraft paper with a green ribbon; thumb on one side of the jar, fingers curled around the other, label toward the camera, seen at three-quarter view. The jar: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in pink and SOLACE in light grey, rose-pink body with a white script 'Nighttime', white 'MAGNESIUM CREAM', the line 'HYDRATING | DEEP RELIEF', and a white box with pink 'CITRUS ROSE'; no flag tag. Only one jar. No face. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet; image 2 = a real close-up of the Citrus Rose label: print letter for letter and colour for colour; image 3 = Grace's real hand sheet; image 4 = the real room to use as the background.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570181-wl8oq4wc7c.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573121-t7brygpik1d.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573272-1aoxtzebjd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337575468-k502vkeo6an.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bf89008c394850387555d9732a827814",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bf89008c394850387555d9732a827814_0_1793337649.jpeg"
+   ]
+  },
+  "costTime": 62,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:21:04",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Close-up beside the reference nightstand (gold-frame side table, black lamp, tulips; image 4): Grace's hand (medium-brown skin, short squared French-tip nails: pink base with white tips, the silver crown ring stack and small gold heart ring on one hand, a blue band on the thumb, bare wrist, whole wrist in frame, entering from the frame edge) holds ONE open jar in the palm, fingers curled around its side, label facing the camera, while two fingertips of the other hand scoop a dollop of thick white lotion from it. The jar is the real Arnica + Lavender lotion: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING \u00b7 LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label. Its black lid lies upside down on the table beside it. Only one jar. No face. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet (real photos; the jar's size on a palm); image 2 = a real close-up of the lavender label: the print must match it letter for letter and colour for colour; image 3 = Grace's real hand sheet; image 4 = the real room to use as the background.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570589-ky5y0b1rdxo.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573391-592l3l13a1o.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573272-1aoxtzebjd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337575812-atzlk5zzmj9.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ee974659d86f0a1f335e7a1eeb75d738",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ee974659d86f0a1f335e7a1eeb75d738_0_1793337661.jpeg"
+   ]
+  },
+  "costTime": 72,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-10-30 05:21:05",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Eye-level close shot of the reference nightstand top (gold-frame side table, black lamp switched on, tulips; image 4): three closed jars stand in a row, the same jar shape each: a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top. Left: the rose-pink Citrus Rose cream (a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in pink and SOLACE in light grey, rose-pink body with a white script 'Nighttime', white 'MAGNESIUM CREAM', the line 'HYDRATING | DEEP RELIEF', and a white box with pink 'CITRUS ROSE'; no flag tag). Middle, slightly forward and the sharpest: the lavender Arnica lotion (a short, wide, round jar of dark amber-brown glass, about the size of a palm, with a black screw lid with fine vertical ribbing around its side and a flat black top; its wraparound label: white top band with MAGNUM in purple and SOLACE in light grey between two thin grey lines, lavender-purple body with a white script 'Nighttime', white bold 'MAGNESIUM' over 'LOTION', a small 'with', a white box with purple 'ARNICA', and the small bottom line 'MOISTURIZING \u00b7 LAVENDER 5 OZ'; a small red-white-blue 'MADE IN USA' flag tag at the upper left of the label). Right, partly behind the lamp base and softer: the orange Citrus Serenity cream, the same label layout in orange with 'CITRUS SERENITY'. Exactly three jars. No hand, fingers or people appear. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the product reference sheet (the bottom-left photo shows the three jars in this order); image 2 = a real close-up of the lavender label: print letter for letter and colour for colour; image 3 = a real close-up of the Citrus Rose label: print letter for letter and colour for colour; image 4 = the real room to use as the background.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570545-d7o0p40sjkt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337573391-kmzqtu8f35.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337575511-ogpa75memq.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337575812-atzlk5zzmj9.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "750a58b63400ec2b344907b494a5a8b0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/750a58b63400ec2b344907b494a5a8b0_0_1793337659.jpeg"
+   ]
+  },
+  "costTime": 68,
+  "credits": 18.0,
+  "usd": 0.09
+ }
+]
