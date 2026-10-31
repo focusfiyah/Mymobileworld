@@ -40,5 +40,5 @@ Scope: move job-specific rules and setup/test history out of both CLAUDE.md file
   CWD: ../..
   EVIDENCE: automatic-evidence=v1; definition-sha256=a17f6e3b670773c17cd0c8afb38edb3af10aa49dad4dc96f4b256761e568aecf; exit=0; EXPECT=matched; output-sha256=798134079a1cfeba93f508c486dd91129160a0e2f4cfd0e63480e11bf9a07f64; output-bytes=93; shell=/bin/sh; cwd=/home/user/Mymobileworld; path=7f4fb4b02918/15 entries
 
-- [ ] G7: pushed to main in Mymobileworld, Dayone-ai and claude-skills; day-one-ai skill redeployed; brain updated; Ralph told with the measured numbers
-  EVIDENCE: pending
+- [x] G7: pushed to main in Mymobileworld, Dayone-ai and claude-skills; day-one-ai skill redeployed; brain updated; Ralph told with the measured numbers
+  EVIDENCE: main = Mymobileworld 4672ef04, Dayone-ai 7bed9c2, claude-skills b225298 (rev-list 0/0); day-one-ai deployed + zip sent (dc4cd7dc); brain check BRAIN_OK; Gmail 1a191dfb8d0e6bf3; push requested; RGH session messaged (delivered)
