@@ -5,3 +5,4 @@
 - 2026-10-13: done condition: phone push + email to Ralph (Ralph 2026-10-13).
 - 2026-10-18 (Ralph): push is skipped while he has the app open; email is the backup.
 - 2026-10-23 (Ralph): decision 6, an own thumbnail look per video via the new day-one-looks skill (renamed thumbnail-looks the same day).
+- 2026-10-31: the pipeline and channel rules moved from Dayone-ai CLAUDE.md to rules/day-one-videos.md (slim plan, Ralph "Go"); pointers updated.

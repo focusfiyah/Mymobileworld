@@ -32,3 +32,9 @@ archive.org footage is mostly old public-domain film: black-and-white, newsreel,
 Good for Day One AI and Ralph's own videos (retro cutaways, space, history, "back in the day" beats). For Grace's TikTok
 ads it rarely fits (bright neutral modern look, hard rule 7): use free-assets (Pexels/Pixabay/Mixkit) first there.
 Always check `commercial_use` in the provenance file: only "allowed" goes in a monetized video.
+
+## Moved from CLAUDE.md (2026-10-31)
+
+Moved word for word from Mymobileworld and Dayone-ai CLAUDE.md (same text in both) on 2026-10-31 (slim plan, Ralph: "Go"); the rule itself stays in CLAUDE.md.
+
+- SkillSpector 100/100 from test fixtures, code only talks to archive.org -> CAUTION; review + checks: `tools/broll/SOURCE.md`, `tools/broll/verify.py` (Mymobileworld). Re-review before moving the pin.

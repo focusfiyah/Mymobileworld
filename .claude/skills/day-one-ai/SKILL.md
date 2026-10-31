@@ -8,12 +8,12 @@ Channel **Day One AI** (@dayoneaitools1, id `UCCV19HOfKIrAiNa5IZakr_w`): faceles
 by AI, aiming to be the first "how to use [new AI tool]" video within ~48h of launch. It earns from **recurring
 affiliate links** in the description, not AdSense, so apps where Ralph already has a link come first.
 
-**The repo's `CLAUDE.md` (GitHub `focusfiyah/Dayone-ai`, branch main) is the one home** for the pipeline, the
-script schema, motion style, Shorts, engagement rules, published videos and status. Read it before any run; it wins
-over this skill. This skill carries only what a chat without the repo needs to act safely.
+**The repo's `rules/day-one-videos.md` (GitHub `focusfiyah/Dayone-ai`, branch main) is the one home** for the
+pipeline, the script schema, motion style, Shorts, engagement rules, published videos and status; the repo's
+`CLAUDE.md` holds the rules for every job. Read both before any run; they win over this skill. This skill carries only what a chat without the repo needs to act safely.
 
 ## Starting a run
-- In a session on the repo: `bash setup.sh`, then follow CLAUDE.md "Pipeline". A session that started in
+- In a session on the repo: `bash setup.sh`, then follow `rules/day-one-videos.md` "Pipeline". A session that started in
   Mymobileworld attaches the repo first (`add_repo focusfiyah/Dayone-ai`).
 - From a chat: `create_session` with `source_url=https://github.com/focusfiyah/Dayone-ai` and the task as prompt.
 - The daily routine `trig_01Q8jo4ocwirrSZEuvzF9hUf` belongs to Ralph (claude.ai Routines page; prompt in

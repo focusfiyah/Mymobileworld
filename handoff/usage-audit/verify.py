@@ -20,7 +20,7 @@ def keep():
     need = {f'{MMW}/CLAUDE.md': ['Rule 0: the SCRIPT GATE', 'Hard rules for every ad', 'House of Rameau (@houseoframeau)', 'Posting volume (2026-10-30', 'Jean Rameau (client #2', 'Skills (Ralph 2026-10-13): one home', 'handoff/history/JOBS_LOG.md', 'handoff/history/SKILL_INSTALL_LOG.md'],
             f'{D1}/CLAUDE.md': ["Ralph's decisions (do not re-ask)", 'Daily routine (fixed 2026-09-29)', 'Instagram (Ralph 2026-10-28', 'Higgsfield Ads Studio', 'Skill standard (Ralph, 2026-10-05)', 'handoff/history/STATUS_LOG.md']}
     for p, ks in need.items():
-        t = rd(p)
+        t = rd(p) + ''.join(rd(str(x)) for x in __import__('pathlib').Path(p).parent.glob('rules/*.md'))  # 2026-10-31: job rules moved to rules/
         for k in ks: assert k in t, (p, k)
     for p in [f'{MMW}/handoff/history/JOBS_LOG.md', f'{MMW}/handoff/history/SKILL_INSTALL_LOG.md', f'{D1}/handoff/history/STATUS_LOG.md']: assert os.path.getsize(p) > 5000, p
     print('KEEP_OK')

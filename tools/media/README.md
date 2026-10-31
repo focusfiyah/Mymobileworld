@@ -41,3 +41,9 @@ The rule: Mymobileworld CLAUDE.md "Job media lives in Drive". Run every command 
 - A session or branch from before the cleanup still holds the old history: git refuses to merge it ("unrelated
   histories") and `handoff/branch_sync.py` prints OLD HISTORY for it (test: `handoff/tests/test_old_history.py`).
   Never merge one with --allow-unrelated-histories: copy its non-media files onto a fresh branch from main instead.
+
+## Moved from CLAUDE.md (2026-10-31)
+
+Moved word for word from Mymobileworld and Dayone-ai CLAUDE.md (same text in both) on 2026-10-31 (slim plan, Ralph: "Go"); the rule itself stays in CLAUDE.md.
+
+- Tool: Mymobileworld `tools/media/media.py` (steps in `tools/media/README.md`): `pack` tars a job's new media into parts of at most 95 MB (Kie's file host limit) on Kie's free host, a Composio workbench call pulls them into Drive and reads back Drive's own sha256, `record` + `untrack` finish it; `get UNIT` brings a job's files back, every file checked by sha256 (restore tested 2026-10-29). Why: tracked media was 10.2 GB, the repo cost ~20 GB of every session's disk and the avatar tools kept running out of room. **History cleaned 2026-10-29** (Ralph: "Go ahead with the cleanup"): every media file was removed from all of Mymobileworld's git history after the history-only versions went to Drive (each job's "Older versions (from git history)" subfolder); a fresh clone is 0.02 GB instead of ~10.6 GB. Steps: `tools/media/README.md` "History cleanup".

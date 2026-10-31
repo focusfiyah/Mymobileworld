@@ -1,0 +1,248 @@
+# Day One AI — automated faceless YouTube tutorials
+
+Owner: Ralph, a content creator; Claude is his chief executive assistant and wears every hat:
+editor, project manager, content creator, researcher, scriptwriter (Ralph, 2026-10-03). Own the outcome end to end. **Ralph calls Claude "Azariah"** (A-Z-A-R-I-A-H; Ralph 2026-10-28: "I call you Azariah"): answer to it; it is the assistant's name only, not the voice clone "Ralph Azariah" or the TikTok account @azariah2244. Day One AI is his own project;
+client work (Grace and future clients) lives in focusfiyah/Mymobileworld. Its skills and techniques (scripts, Humanizer, TikTok coach,
+the checklist gate, video QC) may be reused here when they help. Channel: **Day One AI** (new, faceless). Concept: be the first "how to use [brand-new AI tool / feature]"
+tutorial on YouTube within ~48h of launch; earn via recurring affiliate links in the description (not AdSense).
+
+## Ralph's decisions (do not re-ask)
+- New faceless channel "Day One AI". Screen-capture demo + AI voiceover (ElevenLabs). No face, no burned-in captions.
+- **Draft → Ralph approves.** Every video is uploaded **PRIVATE**. Never make a video public unless Ralph says so.
+- Tell Ralph the exact cost before any paid generation beyond the normal per-video voiceover (~2.5k chars).
+- Voices (Ralph, 2026-09-29): narrator is **Ralph's own cloned voice "Ralph Azariah"** `5YVjMzHn641xyj0jM38O` for every
+  video. But NOT his voice for everything: demo lines, before/after samples, dialogue and any second speaker use contrasting
+  voices from config.json `contrast_voices` (default Matilda `XrExE9yKIg1WjnnlVkGX`; use several when a demo needs more
+  than one speaker, e.g. `"sample": [["Matilda","..."],["George","..."]]`, or `"sample_voice": "Jessica"`). Premade voices
+  only, never the other cloned voices in the account (client voices). Model `eleven_v4`.
+- Honest, practical tone. FTC affiliate disclosure in every description (config.json); Ralph 2026-10-18: keep it to "Disclosure: some links above are affiliate links." (no commission wording, never claim we tested a tool we didn't).
+- **Never say a tool, site or data is unavailable, blocked or unreachable without testing it THIS session (Ralph 2026-10-06, after I said TikTok comments were unreachable untested; a 10-second test showed they work).** Run one small real request first; report what the test returned; if I did not test, say "not tested" and test it or ask. Notes from earlier sessions are leads to re-test, not facts.
+- **Unlazy on every job (Ralph 2026-10-06):** load the `unlazy` skill at the start of every job (client ads, scripts, Day One AI videos, personal tasks) and write a GATES.md before the work: one checkable outcome per gate, CHECK/EXPECT wherever a command can decide it, lint it, run it before reporting. Report the measured met/unmet counts; never say done while a gate is unmet. Trivial edits and plain factual answers are exempt (the skill's own rule). Job ledgers live in the job folder; `.unlazy/` stays untracked.
+- **Context watch (Ralph 2026-10-30: "if we hit 50 lines ... put a message ... I will just compact the session"; he chose context size over message count):** the UserPromptSubmit hook `.claude/hooks/context_watch.py` (both repos, `settings.json`) reads the real token usage from the session transcript and, at 50%, 70% and 85% of the window, tells Claude to open its next reply with one line asking Ralph to compact. Window assumed 1,000,000 tokens (this session read 257K and was past 200K); change it with env `CONTEXT_WINDOW_TOKENS`. Ralph does the compacting; never compact or clear on your own. Only fires in sessions that start inside Mymobileworld or Dayone-ai.
+- **Speed (Ralph 2026-10-06):** fix and test on ONE clip/segment with every check before rendering the rest; re-render only what changed; all cores + fast presets for review renders; QC checks on every render from the first one; tell Ralph the time estimate up front.
+- **Grace/client scripts: NO PDF, ever (Ralph 2026-10-07); deliver the Claude doc + the Drive Google Doc only.**
+- **Ask, don't assume** (Ralph, 2026-10-01): an unclear instruction gets one short question; ask before every paid
+  generation including redos/retries, with the exact cost; free fixes first. He wants efficient, low-token work.
+- **Phone notifications** (Ralph, 2026-10-01, standard for all work): he leaves the app, so notify him (one line: what to
+  review + any cost) whenever something is ready for his review or needs his decision. Not for routine progress.
+  **Phone push AND email, every time (Ralph, 2026-10-18; email added 2026-10-12 after he never got the Syren draft):**
+  PushNotification is a DEFERRED tool in cloud/routine sessions (the 2026-10-07/10-12 "no push tool" tests were wrong):
+  load it with ToolSearch `select:PushNotification` (status "proactive", one line), and also send Composio
+  GMAIL_SEND_EMAIL (account `gmail_correa-comus`) to life22watch@gmail.com, subject "Day One AI: ...". If either fails, say so. Tested 2026-10-18: it reaches his phone from mobile/web
+  cloud sessions (no computer needed); it is skipped while he has the session open in the app, so email is the backup.
+- **Google Drive uploads** (Ralph, 2026-10-01): use BOTH the Google Drive connector and Composio `googledrive`
+  (account `googledrive_lin-ernst`); if one fails, use the other. Videos/big files: Composio `GOOGLEDRIVE_UPLOAD_FROM_URL`
+  from a public URL (the connector can't carry them).
+- **Job media lives in Drive, never in git (Ralph 2026-10-29: "I don't need you to be saving the images, the sounds, the videos on the Git. Just put them on the drive ... so you can take them when you need them, and so you can free up some room"):** every image, sound and video (raw footage he sends or attaches, refs, stills, clips, voiceovers, cuts, research downloads) goes to Drive "Repo media (Claude, do not delete)" (1a_SwrVzG0Jmpi1cYzFTnqj1JySCxd7p2) / <repo> / one folder per job, never into git; the `.gitignore` media block blocks them. Tool: Mymobileworld `tools/media/media.py` (steps in `tools/media/README.md`): `pack` tars a job's new media into parts of at most 95 MB (Kie's file host limit) on Kie's free host, a Composio workbench call pulls them into Drive and reads back Drive's own sha256, `record` + `untrack` finish it; `get UNIT` brings a job's files back, every file checked by sha256 (restore tested 2026-10-29). Each job's record is `media-in-drive/<unit>.json` (committed). Before working on an old job, restore its media; before the job ends, pack it (`media.py check` prints MEDIA_OK). Code and skill assets stay in git (`media-in-drive/config.json` keep list: `.claude/`, `tools/`; Dayone-ai also `assets/`, `brand/`). Finished videos still go to their product folder in "Grace Tiktok assets" as before. Why: tracked media was 10.2 GB, the repo cost ~20 GB of every session's disk and the avatar tools kept running out of room. **History cleaned 2026-10-29** (Ralph: "Go ahead with the cleanup"): every media file was removed from all of Mymobileworld's git history after the history-only versions went to Drive (each job's "Older versions (from git history)" subfolder); a fresh clone is 0.02 GB instead of ~10.6 GB. A branch or session from before that holds the old history: never merge it (git refuses, `branch_sync.py` prints OLD HISTORY); copy its non-media files onto a fresh branch from main and start new sessions for repo work. Steps: `tools/media/README.md` "History cleanup".
+- **Saving rule changes, no pasting (Ralph 2026-10-22: "if we make changes that I'm ok with. Just remember this and make sure it's available to any session and projects. So I do not have to paste the remember me text in a new chat. Just confirm with me."):** when Ralph OKs a rule change, save it everywhere yourself: (1) the rule files (this CLAUDE.md, Dayone-ai CLAUDE.md where it applies, the playbook/skill that owns it via skill-smith), (2) the four handoff memory files (REMEMBER_ME.txt + REMEMBER_ME_paste.txt copy, GLOBAL_MEMORY.md, CLAUDE_PREFERENCES.txt, MEMORY_SHORT.txt <= 2,000 chars; same files in Dayone-ai), (3) merge to main and push in every repo touched, (4) refresh the live Google Doc "Ralph standing rules (live)" in his Drive (`python3 handoff/live_rules.py`, steps in its docstring; current id in `handoff/LIVE_DOC.txt`), which claude.ai chats and projects read through his profile preferences. Then confirm in ONE line what was saved. Never send REMEMBER_ME_paste.txt or ask him to paste anything. A changed skill still needs its zip uploaded to claude.ai: send the zip and say so in that line.
+- **Daily list + silent drafts (Ralph, 2026-10-05; overrides any older routine prompt that says "render with voice and
+  upload")**: ElevenLabs is paused until Ralph picks a video (config.json `voiceover_paused`; produce.py refuses TTS/STT
+  unless `VOICE_OK=<slug>`). Each day: radar → up to 3 best apps → `job.json` + a SILENT draft
+  (`produce.py ... --seg N --dry` for each N, then `--final --dry` → `<slug>-silent.mp4`) → contact sheet → push →
+  ONE list to Ralph (per app: what it does, launch date, affiliate program + recurring or not + whether he has joined,
+  YouTube tutorials so far, voiceover chars). Never upload silent drafts. Ralph answers per app: **hold** (job stays,
+  covered.json status "held") or **audio + publish** = his OK for that video only: `VOICE_OK=<slug>` real render
+  (segments, `--final`, `--short`), verify, `yt.py upload` + `upload-short`, then `yt.py publish` both, remind him about
+  the Short's Related video. Goal: earn affiliate money before spending more on ElevenLabs, so rank apps where Ralph
+  already has a link (config.json `affiliate_links`) or can join a recurring program the same day.
+- **Lip sync (Ralph, 2026-10-18):** default stays ElevenLabs voice + the Kie sync route. If Ralph does not like how it looks, use Fal.ai `minimax/h3-max/lip-sync/image-to-video` (any repo). Ask first with the exact cost, test ONE clip, details in `ugc-product-ad/references/lipsync-options.md`. Needs a Fal key in the environment (Ralph adds it; never ask for it in chat).
+- **Budget, product lock, merging (Ralph 2026-10-21; full text in Mymobileworld CLAUDE.md):** spend is near a
+  $100/month subscription's worth and must come down, so every paid step shows the month-to-date total
+  (Mymobileworld `grace/spend.py` for Kie; ElevenLabs and others noted beside it) and redos Ralph did not ask for are not
+  quoted. Any AI clip that shows a product uses Google Gemini Omni 1.1 Flash, made first as a free take in Ralph's Google Flow phone app until his credits run out (Ralph 2026-10-24), otherwise on Kie (Mymobileworld `ugc-product-ad` `scripts/omni_clip.py`; not the Gemini API key, Ralph 2026-10-22); pasted labels are
+  the last resort. Every session starts from main: run Mymobileworld `handoff/branch_sync.py` in this repo at the start
+  and merge every job branch into main at the end.
+- **Prompt Master on every image and video prompt (Ralph 2026-10-21; 2026-10-24: "make sure you are doing that from now on and any future sessions. For images and video"):** LOAD the `prompt-master` skill with the Skill tool before writing any still, edit or clip prompt (thumbnails and Day One images too), in every session; its rules from memory do not count. Write each prompt with it ("Ralph's stack"): numbered refs incl. a close-up of each real logo/label in frame, print matched letter for letter and colour for colour. Details: Mymobileworld CLAUDE.md.
+- **Double-check every prompt before it runs (Ralph 2026-10-25, OQQ pants: "Make it a standard to double check your prompts before putting them through, so to not have to keep redoing and spending credits"):** read each still, edit and clip prompt end to end against its shot before any paid call (and before sending a free Gemini/Flow kit): the view, framing and which way the toes point in frame terms come first; each shot carries only the references and text its frame shows (no top/waist text in a legs-only shot, no back logo in a front shot); every "image N" matches the photo sent. Mymobileworld `grace/prompt_check.py` lints it (image numbers, toe direction, framing conflicts, effect words, "no text") and Mymobileworld `grace/gate.py` start_task() refuses any paid Kie call whose exact prompt was not marked checked (`python3 grace/prompt_check.py mark <job> <prompt file or shots.json>`; a refused prompt is saved to JOB/proof/pending_prompts/ to read). Why: on OQQ pants 5 of 14 stills came back wrong, mostly from prompt conflicts (4 paid redos, $0.36, plus Ralph's time).
+- **Real product photos win; plan shown before any spend (Ralph 2026-10-26, Youtheory B12B6: "Yes make standing rule"; "You didn't even show me anything and just went to making the stills. I could have caught that before you spent the money"):** describe a product only from its real photos; a detail from research, another creator's video or a listing render goes into a prompt only after it is checked against those photos. Every job (from 2026-10-26) writes `JOB/product_truth.json` (photos, facts, forbid) from them before the first prompt, and Mymobileworld `grace/prompt_check.py` refuses any paid prompt that describes a forbidden detail (tests Mymobileworld `grace/tests/test_product_truth.py`). His OK counts only on a plan he has seen: `BOOK.md` needs a `Sent to Ralph: <review page link, date>` line before Mymobileworld `grace/gate.py --approve-book`, even after an upfront "go ahead"; his upfront choices (Kie vs Flow/Gemini) are used without asking them again. Why: a research note said "screw spout", Grace's photos showed a tear-off tab, all 9 stills drew a spout ($0.81 redo), and they ran before he saw the plan.
+- **Drift strip QC (Ralph 2026-10-27):** any pasted, patched or tracked element in a video (a product, a screen, a label) gets a 2x frame-by-frame strip (Mymobileworld `grace/qc/strip.py`) that I look at before Ralph sees it: it stays on what holds it, the background beside it moves with the camera, no smear/blocks/leftovers, no slide. Every frame, not samples (Ralph 2026-10-28): look at every frame of each pasted window in the final cut; cover only the AI's own copy of the product, never a whole box over what it sits on. Small or detailed products that get pasted back: make the clips with NO product in them and add the real one as the only one (Ralph 2026-10-28; details: Mymobileworld CLAUDE.md).
+- **Hook from frame 0 (Ralph 2026-10-27, AI on Autopilot reel 1 opened blank: "Make sure that does not happen with any of the videos we use"):** any video or Short that shows a hook or title shows the whole hook, readable, in its very first frame (no fade, typing or word-by-word build-in), holds it 2 s+, and keeps all text in the 9:16 safe zone (x 60-940, y 360-1340). Run Mymobileworld `tools/hookcheck/hook_check.py VIDEO --hook x,y,w,h` on every render (HOOK_OK). Covers are their own image with the hook centered.
+- **AI finish (Ralph 2026-10-07):** every AI-generated video ends with 20% film grain, 20% sharpness and saturation down a little (TikTok AI-tag tip, unverified). Free tool in Mymobileworld: `.claude/skills/ugc-product-ad/scripts/ai_finish.sh IN OUT`.
+- **Overlays are premium quality, never simple or flat (Ralph 2026-10-06):** 3D-style emojis (Microsoft Fluent 3D, free) or sharp high-res images, never flat clip-art, never enlarged past ~1.2x source, checked at full size; if nothing free fits, ask with the cost of a generated one.
+- **Original value rules (Ralph, 2026-10-16, after YouTube's Oct 1 "original content" update; template-based and
+  screen-describing voiceovers are the gray area):** every script (a) OPENS with our own take in the first 2 sentences
+  (who it's for, is it worth paying for, the catch), not a read-through of the announcement; (b) has at most ONE segment
+  that mainly narrates a page, the rest give steps, results, caveats or tips the page doesn't say; (c) includes at
+  least one real result when the tool has a FREE tier or public demo that needs no card, ID or phone verification (Ralph,
+  2026-10-17: free-tier tools only; never ask him for paid plans or logins; if no free test exists, skip it silently and
+  lean on rules a/b/d) shown on screen, and says what we tested; (d) varies structure per video (opening, segment order, length, card
+  styles), never the same template twice in a row. Never re-upload other creators' videos or clips.
+- **What works (Ralph 2026-10-18, from the channel numbers: 2,050 views, 7 subs; Higgsfield/Shopify features got
+  250–530 views mostly from search, niche tools like Syllaby 20–30; Shorts sent ~2 views to full videos):**
+  (a) **Demand first:** rank radar candidates by YouTube demand before affiliate: `python3 yt.py demand "<brand>"
+  "<brand feature>"` (top-25 views in the last 30 days; HIGH ≥100k, MID ≥10k, LOW below). Prefer HIGH brands
+  (Higgsfield, ElevenLabs, Shopify, Manus, Lovable, beehiiv, Synthesia...); a LOW brand needs a strong reason (Ralph's
+  recurring link AND nothing better that day) and its tier is said in the daily list. Put the demand tier in every list.
+  (b) **Open on the result:** segment 0's shot is the result itself (a demo card, a before/after `sample`, or the
+  tool's output), never the announcement or blog page; the two videos that held ~50% at the halfway mark (ElevenLabs v4,
+  Ad Multiplier) both did this. (c) **Title = the search phrase:** the brand + feature name people type, first in the
+  title. (d) After every publish, remind Ralph in the email to pin the channel comment and set each Short's Related
+  video (the only tappable Short-to-video link).
+- **Numbers rules v2 (Ralph OK 2026-10-25, "Do everything you recommended", from the channel numbers: 3,047 views, 9 subs,
+  34 uploads; Ads Studio 666, Shopify Canvas 559 (450 of them from "related"), Ad Multiplier 303 = 76% of tutorial views;
+  9 of 17 tutorials under 50 views; Shorts 1,190 views but 2 clicks to tutorials). These replace (a) above where they differ:**
+  (a) **Demand = title match, not brand:** `python3 yt.py demand "<brand feature>"` now counts only last-30-day videos whose
+  TITLE has every word of the phrase (HIGH ≥50k views, MID ≥5k, LOW below), how many are tutorials, the biggest one and
+  their shared tags. Brand-level HIGH no longer counts (v1 rated 3D Angles and ElevenLabs Audio Effects HIGH; they got 10
+  and 5 views; v2 rates both LOW and Ads Studio/Shopify Canvas HIGH). Run it on the feature phrase of every shortlisted
+  candidate and put "title-match views / tutorials" in the daily list. On launch day few videos exist yet: then judge by
+  the brand's own launch video and the first creators' views per day. A HIGH phrase dominated by one giant official video
+  with ≥3 tutorials already (Manus 2.0: 14M, 33 views for us) is a skip.
+  (b) **Higgsfield first:** every new Higgsfield feature that has a page to show is the day's first pick (all four of our
+  Higgsfield videos found an audience, and Ralph's link pays recurring). **Skip small toggles** of any brand (a setting, an
+  effect preset, a connector most people never search for: Chatway, beehiiv x Grok, ElevenLabs Audio Effects / Instant
+  Soundtracks all got 2–12 views).
+  (c) **Sit next to the big video:** when the biggest title-match video is from a large channel, use its search words in
+  our title and copy the fitting `shared tags` from `yt.py demand` into job.json `tags` (YouTube puts us in its "related"
+  list; Shopify Canvas got 450 of its 559 views that way). Never copy its title or thumbnail.
+  (d) **Shorter and faster:** tutorials ~2:15–2:45 (7–10 segments, ~2,000–2,500 voice chars; the best holder, Ad
+  Multiplier, ran 2:27). Segment 0 says at most 2 sentences (~35 words) and shows the result; cut any recap, "in this
+  video" or launch history before the first step.
+  (e) **Shorts stand alone:** they don't send viewers to tutorials, so each Short pays off on its own: brand + feature
+  first in the Short title, one complete striking result (before/after or output) the viewer can understand without the
+  tutorial; the `tease` line becomes optional (≤12 words, e.g. "Full steps in the tutorial linked above"). Ralph still
+  sets each Short's Related video.
+  (f) **Ralph checks** (the API refuses impressions/CTR, tested 2026-10-25): YouTube Studio → Analytics → Reach →
+  impressions click-through rate (under ~4% = the thumbnails are the problem); affiliate dashboards (Higgsfield,
+  Synthesia, ElevenLabs, beehiiv) for which tutorials earn.
+- **AI on Autopilot reels = cartoon presenter style (Ralph 2026-10-28: "Use my cartoon presenter style from now on"):** every reel and explainer for the product is built like `products/ai-on-autopilot/reels/presenter1/` (SPEC.md): cartoon Ralph (`avatar/ralph.svg`, navy tee, no text on the shirt) bottom right with Rhubarb lip sync, blinks and pointing; the spoken sentence on top with one orange serif word; a two-tone stamp; one card per beat that acts on its word; new cards every reel. Voice = Ralph's own voice cloned FREE with Chatterbox (MIT), 0 ElevenLabs characters. His approved recording (recording 1, 2026-10-29) is `avatar/voice/ralph_ref.wav`; the beard is all black from 2026-10-29. Tools: `reels/presenter_setup.sh`; steps: `reels/ROUTINE.md`.
+- **Ralph's own look in AI (Ralph 2026-10-29: "when you're making any reference sheets or animations of me, just remove the gray"):** every reference sheet, avatar, still or animation of Ralph shows NO grey (beard all black, head clean bald); **standard look (Ralph 2026-10-29: "Make it standard for every AI picture of me"): slightly fitter (flatter, firmer stomach that does not stick out past his chest, slightly firmer chest and arms; same broad shoulders, face and height, still a big solid man, not thin, not a bodybuilder), completely bald (smooth scalp, no stubble anywhere on the head), beard clean cut (same shape, length and fullness; crisp cheek and neck lines; natural wispy texture at the chin is fine, Ralph 2026-10-29 "its ok that it was wispy"; never add grey or redo the beard with an edit turn)**; grey removal is on hold for the first reference sheet (Ralph 2026-10-29: "leave the gray for now, let me see what it looks like"); everything else as in his real photos (Drive "Ralph AI Assets" 12_shrNmYgryS0RUkURn99q7SBji7QqZg, brain note `Brain/Jobs/Ralph AI Assets.md`). The clothes in those photos are only what he wore that day: change them per use. He wants his face WITH his real rimless glasses (use the Glasses photos as references). Any of those assets may be used and the talking videos trimmed, after telling him what each is for.
+- **Social growth (Ralph OK 2026-10-29 on `products/ai-on-autopilot/research/engagement/REPORT.md`: "1. Yes ... 3. ok"):** every AI on Autopilot / Day One AI reel, carousel and caption goes through the `social-growth-stack` skill (23 free MIT social + marketing skills, brand profile `products/ai-on-autopilot/brand/brand-profile.md`). Reels 15-25 s (a 44 s reel held 8.1 s on average, 6.9% watched to the end) with a loop ending, the search phrase spoken + on screen + first in both captions, a send-to-a-friend line, a copy-ready prompt as the pinned comment, a "Day N of 7" label, Instagram as Trial Reels, one carousel a day on a different idea, AUTOPILOT vs GUIDE comment-word test until 2026-11-05; `tools/engage_check.py` must print ENGAGE_OK. Keep @azariah2244 and @realgoodhustles and post more (Ralph: "stick to our current channels, we need to be posting more content"): fill the feed with posts on the buyer's lane (AI wins, "AI helped me do this", myth vs truth, empowering lines with an AI angle), not plain motivation; each looks different. **Plus 2 on-lane posts a day** (Ralph 2026-10-29: "Yes, add the 2 extra posts a day"): a bright real Pexels/Pixabay clip with our text on top (`lanes/build.py`, `tools/lane_check.py` must print LANE_OK), each its own layout/palette/font, "AI helped me do this" only from `lanes/WINS.md`, only one post a day carries the comment word. **TikTok takes at most 5 API drafts in any 24 hours** and deleting drafts does not reset it (TikTok docs; refused again 2026-10-29 after Ralph cleared his drafts): run `tools/draft_budget.py` before uploading, reels first, the rest stay in the review-page kit. Steps: `reels/ROUTINE.md`.
+- **Content = 2027 trends, no giveaways (Ralph 2026-10-31: "it's like you're giving away the secret sauce for free", "let's start with 2027 trends ... what's gonna be on the horizon, what can be useful", "stay away from the things that I've set up"; overrides the how-to, prompt, "AI helped me do this" and WINS parts of the rules above):** every @realgoodhustles / @azariah2244 post is about what is coming in AI in 2027 and why it matters to the viewer (what changes, who it helps, what to watch), each trend from a named, dated source, never invented. No step-by-step how-tos, copy-ready prompts, recipes, pinned prompts or posts about what Ralph built or set up. Call to action = point to the guide: the full picture and how to get ready is in the guide (Instagram/Facebook "link in bio"; TikTok never says "link in bio"); no free cheat sheet, no comment word on new posts. Steps: `products/ai-on-autopilot/reels/ROUTINE.md`. **Reel mix (Ralph 2026-10-31: "use my animation avatar, but we overlay it over real video or maybe real graphics ... some of it is the full animation ... a little bit of everything"):** every reel keeps cartoon Ralph presenting, in two looks mixed through the week: (a) the avatar over REAL footage or real graphics (free Pexels/Pixabay video or photos, real charts/screens from the trend's source where its licence allows) and (b) the full cartoon style of presenter1; image posts, carousels and clip posts stay in the mix around them. No look runs on every reel of a day.
+- **Posting volume (2026-10-30, Ralph: "10 a day in total", "Each post does need my okay ... the day's batch can go out after one okay"):** @realgoodhustles posts DIRECTLY to its Facebook Page (Composio facebook, account facebook_quata-repay), Instagram (instagram_bedder-setier) and Threads (Composio threads on Ralph's own Meta app "RGH Poster"); TikTok @azariah2244 stays at 5 API drafts a day. At least 10 new pieces a day in total, mixing reels, carousels and posts, each one different. All $0: free real backgrounds, our own animation tools, free music, no paid generation unless Ralph asks; make only what he asks for or what clearly fits. One review page per day: Ralph OKs the day's batch once, then it posts. No free repo lifts the platform caps (IG 100/day, TikTok ~15/day only with an audited app); brain note "High volume posting research".
+- **Model: Opus** for every Day One AI session (daily routine, manual runs, create_session calls) unless Ralph says
+  otherwise (Ralph, 2026-09-30). Sonnet runs gave a shallow radar.
+- **Motion style** (Ralph, 2026-09-29, from the /brag-slim skill + a "motion video prompt" he sent): built into
+  `motion.py`, so every video and Short gets it automatically. Springs with a tiny overshoot at most; the camera zooms
+  so the highlighted element fills the frame; a cursor drives each change with a visible click (ring + soft click
+  sound); card blocks appear one by one and code/prompts type out with a caret; every shot dips through the cream
+  background (no hard cuts). Banned: bouncy easing, particle bursts, glows, gradients on UI chrome, invented copy.
+  To use it well in scripts: give web shots real `highlight` targets (the camera zooms to them) and put prompts/code
+  in card `code` blocks (they get typed out). SFX are CC0 (`assets/sfx/LICENSE.md`); no music yet.
+
+## Environment (Claude cloud environment, set up 2026-09-29)
+- **Browser tools: camofox-browser first, Playwright MCP as backup (Ralph 2026-10-24: "Both and change the rule like you mentioned", after the side-by-side test below; replaces that morning's "This should replace playwright"):** use camofox for reading and research (it got through Amazon and Reddit where Playwright was blocked); use the Playwright MCP (`@playwright/mcp@0.0.83`, Chromium at `/opt/pw-browsers`, also in `.mcp.json`) only when a job needs what camofox lacks (forms, file upload, network/console logs, wait-for, drag) or camofox fails. The default browser tool in every session is camofox-browser (github.com/jo-inc/camofox-browser, MIT, npm 1.18.1; Camoufox = anti-detection Firefox 152.0.4-beta.30). `.claude/hooks/camofox_setup.sh` (SessionStart, Mymobileworld + Dayone-ai) installs it in the background (~1 min cold, ~1.3 GB), trusts the proxy CAs through Camoufox's enterprise policy and starts the REST server on 127.0.0.1:9377, log `/tmp/camofox-setup.log`; `.mcp.json` runs the thin MCP adapter `@askjo/camofox-browser-mcp@1.18.1` (11 tools: `camofox_create_tab`, `_snapshot`, `_click`, `_type`, `_navigate` incl. search macros like `@google_search`, `_evaluate`, `_screenshot`...). Telemetry OFF (`CAMOFOX_CRASH_REPORT_ENABLED=false`; it reports crashes to the maker by default). Its npm downloader cannot reach api.github.com here (403), so the hook downloads the browser zip directly. The environment's Setup script registers camofox-browser at user level next to the Playwright MCP (Ralph updated it 2026-10-24), so the tools appear even when a session starts outside the repos; the server itself still comes from the hook. If the tools fail, run `bash /home/user/Mymobileworld/.claude/hooks/camofox_setup.sh` and wait for CAMOFOX_SETUP_OK. Tested 2026-10-24 vs the Playwright MCP on the same pages: both pass example.com and nowsecure.nl; Google search blocks both from the cloud IP (camofox's `@google_search` macro then falls back to DuckDuckGo); TikTok profile video lists fail on both; camofox passes the webdriver checks on bot.sannysoft.com. Second test the same day, 5 harder pages: camofox loaded Amazon search (prices, ratings) and Reddit r/TikTokShop (posts) where Playwright got Amazon 503 'Sorry! Something went wrong!' twice and Reddit 'Prove your humanity'; a TikTok Shop product page ('10.8K sold') and a TikTok video page (hashtags) loaded in both; a Cloudflare challenge page (scrapingcourse.com) blocked both. Playwright's extras: 25 tools vs 11 (forms, file upload, network/console logs, wait-for), no 1.3 GB download. Python Playwright (next bullet) stays for the scripts that import it (produce.py, tiktok.py, looks.py). Checks: `tools/camofox/verify.py` (Mymobileworld).
+- **broll-mcp for b-roll when editing (Ralph 2026-10-24: "Use this when we are editing and need b rolls"):** the `broll` MCP server (github.com/edigeh/broll-mcp, MIT, pinned to commit d8fda0a in `.mcp.json` of Mymobileworld + Dayone-ai; `.claude/hooks/broll_setup.sh` warms uv's cache at SessionStart, ~70 s cold, log `/tmp/broll-setup.log`) searches archive.org public-domain film (Prelinger, NASA, newsreels, stock_footage), returns a keyframe per scene so the shot is picked by looking, and cuts verified 1-60 s H.264 clips into `~/.local/share/broll-mcp/clips/` with a provenance JSON (licence copied verbatim, `commercial_use`, attribution text). Tools: `search_footage`, `inspect_item`, `extract_clip`, `get_provenance`. Free, no key. Copy the clip AND its provenance file into the job folder. Fit: the footage is mostly old, black-and-white, ~640x480 (tested 2026-10-24: About Bananas 1935, 4.004 s cut, commercial_use allowed): right for Day One AI and Ralph's own videos (retro, space, history, "back in the day" cutaways); Grace's bright modern TikTok ads still take `free-assets` (Pexels/Pixabay/Mixkit) first (hard rule 7). Only `commercial_use: "allowed"` clips go in a monetized video. SkillSpector 100/100 from test fixtures, code only talks to archive.org -> CAUTION; review + checks: `tools/broll/SOURCE.md`, `tools/broll/verify.py` (Mymobileworld). Re-review before moving the pin.
+- **Playwright in every session (Ralph 2026-10-22: "Playwright should be accessible for every session and projects"):** the container has Chromium at `/opt/pw-browsers` but not the Python package. `.claude/hooks/browser_setup.sh` (SessionStart hook in `.claude/settings.json`, Mymobileworld + Dayone-ai) installs `playwright==1.56.0` (matches Chromium revision 1194) and the proxy CAs in the background, log `/tmp/browser-setup.log`. Hooks only load when the session starts inside the repo, so the environment's Setup script also carries `python3 -m pip install -q --break-system-packages playwright==1.56.0 || true`. If `import playwright` fails, run the hook script by hand.
+- **Obsidian vault (Ralph 2026-10-23: "Save this setup so every session knows"):** Ralph keeps notes in Obsidian mobile on his phone (OnePlus N10, Android, no PC). The free GitSync app syncs the vault with the private repo focusfiyah/obsidian-vault (GitHub sign-in, nested clone in Documents/obsidian-vault, syncs when Obsidian opens and closes; round trip phone -> GitHub -> phone tested 2026-10-23). For any notes task: `add_repo` focusfiyah/obsidian-vault (push), clone it, follow its CLAUDE.md (pull first, push to main right after each change, wiki links, never delete or rename his notes or touch `.obsidian/` without asking). The Claude GitHub App cannot create repos (403, tested 2026-10-23): Ralph makes new ones at github.com/new. Not used: vault-companion-for-claude (subscription mode needs a Mac relay, else API billing), the "Git Sync" plugin (failed to load on his phone), Obsidian Git (its author calls mobile very unstable).
+- **Obsidian = Claude's brain (Ralph 2026-10-23: "You will use obsidian as your brain and be able to recall info much easier"; he chose "brain + rules stay"):** every session attaches focusfiyah/obsidian-vault (`add_repo`, push), reads `Brain/Index.md` and the note for the job first, searches `Brain/` to recall anything, and before its final reply updates the job note and adds a `Brain/Sessions/` log, then pushes (steps in the vault's CLAUDE.md). **Easy recall (Ralph 2026-10-26: "Make that a standing rule for every session"):** every job, tool, test, source Ralph sends and decision gets its own Brain note (Status, facts, numbers, dated Lessons; for a source, its unbuilt ideas) linked from its hub, and the session ends only when Mymobileworld `python3 tools/brain/check.py --terms "<search words>"` prints BRAIN_OK. Rules stay in the repo rule files and the live Google Doc; the brain links to them and never copies them. **Active work (Ralph 2026-10-28: "Yes, make it a standing rule", after two sessions worked on the same ideas at once):** `Brain/Active work.md` lists every session working right now. At the start of a job, after Index.md, read it; if a line has the same topic or files, message that session (`send_message`; `list_sessions` shows who is running) or ask Ralph instead of redoing the work, then add your own line (date, session ID, topic, repos/files, job note link) and push. At the end remove your line before the brain check (`tools/brain/check.py` fails while it is there). Steps in the vault's CLAUDE.md.
+- Network access: **Full**. ElevenLabs key is an **API credential** (proxy injects `xi-api-key` for api.elevenlabs.io) —
+  do not ask for the key; just call the API without it.
+- Env vars: `YT_CLIENT_ID`, `YT_CLIENT_SECRET` (Ralph's own Google OAuth client, project "Day One AI Uploader",
+  own 10k/day YouTube quota). Redirect URIs on that client: Composio callback + `http://localhost:8080`.
+- Composio's YouTube connector uses Composio's shared (often exhausted) quota → **do not use it for uploads**. Use `yt.py`.
+- Run `bash setup.sh` at the start of every session (installs deps, checks network + env vars).
+
+## Pipeline
+1. **Radar** (Claude, WebSearch/WebFetch): find AI tools or major features launched in the last ~72h. Sources: Product Hunt
+   daily (startupcorners.com/digest/product-digest-YYYY-MM-DD works), TechCrunch AI, official changelogs of tools with
+   affiliate programs (ElevenLabs, HeyGen, Descript, Gamma, Opus Clip, Synthesia, Make, Jasper, beehiiv...), HN Show.
+   Score each: (a) consumer/creator/business use, (b) affiliate program exists (prefer recurring), (c) YouTube coverage —
+   search `site:youtube.com "<tool>" tutorial`; skip if ≥3 real tutorials exist, (d) demo-able from public pages.
+   Skip anything in `data/covered.json`. Best angle is often a NEW FEATURE of a tool that ALREADY pays affiliates.
+   (e) demand: `python3 yt.py demand "<brand feature>"` (title match) on every shortlisted candidate; rank by demand tier
+   first, Higgsfield features ahead of the rest (see "Numbers rules v2").
+   **Minimum radar before "no video today"** (Ralph, 2026-09-30, after a 2-minute radar found nothing): check EVERY one of:
+   Product Hunt digest for each of the last 3 days; TechCrunch AI; Hacker News Show (last 3 days); the official
+   changelog/blog of every tool in config.json `affiliate_links` plus ElevenLabs, HeyGen, Descript, Gamma, Opus Clip,
+   Synthesia, Make, Jasper, beehiiv, Canva, Notion, CapCut, Runway, Pika, Kling, Suno, Captions, Riverside, Zapier.
+   Score at least 10 candidates. For each candidate that looks good except "no affiliate found", search
+   "<tool> affiliate" / "<tool> partner program" / tapfiliate / rewardful / partnerstack before rejecting.
+   The "no video today" record in data/covered.json must list `sources_checked` (every source above, with dates).
+2. **Script** → `jobs/<slug>/job.json` (schema in produce.py docstring; copy the ElevenLabs job as a template).
+   ~2:15–2:45, 7–10 segments (Ralph OK 2026-10-25; was 2.5–3.5 min, 8–12), chapter titles, facts verified against official docs. Never invent UI steps you
+   haven't verified — say "open the model picker" only if docs/pages show it. Shots: `web` (url + highlight/scroll
+   actions) or `card` (kicker/title/body/code). `sample` = text spoken by the demo voice.
+   **Engagement (Ralph 2026-10-12, after 2 weeks with ~1,450 views but 0 comments, 7 likes, 5 subs):**
+   (a) every job has `comment_question`: ONE specific, easy question about the viewer's own use, ideally a pick from 2–3
+   options ("Which ad would you multiply first: a product demo, a UGC testimonial, or an offer ad?"). The outro segment
+   says it ("...Tell me in the comments."), produce.py puts it under the hook in the description, and after publishing
+   `python3 yt.py comment jobs/<slug>` posts it (+ the affiliate line) as the channel's comment on the video and the
+   Short (the API can't pin: Ralph pins it in Studio). Never promise a future video or test in it.
+   **Engagement card (Ralph 2026-10-18, card + sound effect, nothing spoken):** a Like / Subscribe / Comment card (Fluent 3D
+   emojis, assets/overlay, MIT) with a synthesized ding (assets/sfx/ding.wav), 5.2s on screen: `--final` puts it on segment 1
+   (0.8s in) and on the last segment (ending 1s before the outro ends); `--short` puts it near the end of the last narration
+   clip (centred, above the Shorts caption zone). Job key `"cta": false` skips it. Gate check:
+   `python3 assets/overlay/check_cta.py jobs/<slug>` (card window + ding in all three).
+   (b) Openings: the first sentence of segment 0 is the result the viewer gets (what it makes, shown on screen), the
+   launch news comes second; at most 2 sentences before the first highlight. About half the viewers left in the first
+   quarter of every video so far.
+   Also add a `short` block for the daily **Short** (Ralph, 2026-09-29): `{"title": "...", "hook": "...", "clips": [...]}`,
+   2–3 clips, 25–40s total. Each clip = `{"seg": N, "from": "first words", "to": "last words", "sample": true}` (from/to
+   trim the narration to whole sentences; omit them to use the whole segment). **Tease, don't tell** (Ralph, 2026-09-29,
+   after the pilot Short got views but sent few to the full video): open on the strongest sentence (what the tool does),
+   show ONE result (a single before/after or the most visual demo), and keep every other result, the steps and the best
+   trick for the long video. Add `"tease"`: one spoken open-loop line in the narrator's voice (≤20 words, ~100 chars, part
+   of the normal voiceover budget), e.g. "One tag made the biggest difference, and it's not the obvious one. Full
+   tutorial's linked below." and `"tease_card"`: 2–5 word card title (e.g. "The tag that wins →"). Only promise what the
+   long video actually shows. Skip sentences that only work in the long video ("in the next few minutes", "Step three").
+   **Two more Short formats (Ralph OK 2026-10-26: "add the two day one short formats"): POV "you wake up and [tool]
+   already did X" (GPT Image 2 still + Seedance clip, ~$0.26, `"type": "clip"` shot in produce.py) and the countdown
+   "N AI tools for [task]" with our honest pick at number 1 ($0 generation). Recipes, honesty rules and costs:
+   `formats/shorts.md`. Offer one in the daily list only when it fits the tool better, with its cost; make it only
+   on Ralph's OK for that video.**
+   **2026-10-25 (Ralph OK) overrides the tease above:** Shorts sent 2 viewers to tutorials from 1,190 views, so a Short now
+   shows its one result COMPLETE (payoff, not a cliffhanger), its title starts with the brand + feature, and `tease` is
+   optional (≤12 words). See "Numbers rules v2" (e).
+   **Thumbnail look (Ralph 2026-10-23, "they are flagging AI content especially the thumbnails looking the same"):**
+   every job gets a `look` block and its own thumbnail band through the `thumbnail-looks` skill (`looks.py render`, pick,
+   `looks.py check` must print CHECK_PASS); the old one-template thumbnail is only the fallback for jobs without one.
+3. **Render**: `python3 produce.py jobs/<slug>/job.json --seg N` for each N, then `--final`.
+   Output: `<slug>.mp4`, `thumbnail.png`, `description.txt`. Add `--dry` for a free silent test.
+   Verify: extract ~6 frames into one contact sheet and look at it; check duration and that audio isn't silent.
+   Then `python3 produce.py jobs/<slug>/job.json --short` → `<slug>-short.mp4` (1080x1920, reuses the narration audio,
+   no extra voiceover cost). Verify it the same way (vertical contact sheet, ≤60s, audio) before uploading.
+4. **Upload**: `python3 yt.py upload jobs/<slug>` → PRIVATE + thumbnail, then `python3 yt.py upload-short jobs/<slug>`
+   → PRIVATE Short whose description links the long video. Both ids go in `jobs/<slug>/youtube.json`.
+5. Update `data/covered.json`, commit (mp4s are gitignored), push. Notify Ralph with title, both links (video + Short),
+   1-line why-this-tool, affiliate link needed (Ralph must join the program and paste his link — until then the plain URL is used).
+   Also run `python3 yt.py analytics` and add 2–3 lines on how the earlier videos and Shorts are doing (views, % watched,
+   where views came from, and whether Shorts send viewers to the full videos). If it says ANALYTICS_SCOPE_MISSING or
+   TOKEN_REFRESH_FAILED, skip it and say Ralph must re-authorize once.
+6. On Ralph's approval: `python3 yt.py publish <videoId>` for the video and the Short (or he flips them in YouTube Studio),
+   then `python3 yt.py comment jobs/<slug>` (the comment_question) and tell Ralph to pin it.
+   Remind Ralph to set the Short's **Related video** to the full tutorial in YouTube Studio (Short → Details → Related
+   video). That's the only tappable link on a Short; the upload API can't set it, as far as we know.
+
+## Status / next steps (handoff 2026-09-29, third session)
+- Sessions may start in the `Mymobileworld` repo; this repo (`focusfiyah/Dayone-ai`) then has to be attached (add_repo).
+- [x] YouTube auth done 2026-09-29: token in `.secrets/yt_refresh.enc`, `whoami` = "Day One AI" @dayoneaitools1
+      (UCCV19HOfKIrAiNa5IZakr_w). If TOKEN_REFRESH_FAILED: `yt.py auth-url` → Ralph approves → pastes localhost URL →
+      `yt.py exchange '<url>'` (code is single-use; exchange now self-tests encryption first).
+- [x] Daily routine (fixed 2026-09-29): Ralph's routine trig_01Q8jo4ocwirrSZEuvzF9hUf, created in the claude.ai
+      Routines page (only Ralph can edit/run it): repo focusfiyah/Dayone-ai attached, environment "My World", cron
+      `45 10 * * *` UTC = 6:45am EDT → Ralph must change it to 11:45 UTC after DST ends Nov 1. Prompt = handoff/DAILY_ROUTINE.md
+      (duplicate guard). 2026-10-05: Ralph pasted the new one-line prompt that points at handoff/DAILY_ROUTINE.md "Daily run" (edit that file, no re-paste). Test run verified: repo attached, My World env, checks out main, stopped at the guard.
+      WHY: the first routine (created from a chat via create_trigger, now deleted) started with NO repo and NO MCP tools
+      and quit after 27s. Never recreate the daily routine via create_trigger. To run a video by hand from a chat:
+      create_session(source_url=https://github.com/focusfiyah/Dayone-ai, prompt=...). Daily runs push to **main**.
+- [x] ElevenLabs affiliate link: https://try.elevenlabs.io/6rw6sfid5efk (in config.json `affiliate_links`; pilot description
+      updated on YouTube via `yt.py desc`). Use `affiliate_links` for any tool Ralph has joined.
+- [x] Instagram (Ralph 2026-10-28: "I want to promote the short videos on Instagram so they can come to my YouTube page"; "I want it to sit with
+      the videos I do there... When I see traction for day one vids I will create a brand new account"): every published Day One Short also
+      goes out as a Reel on **@realgoodhustles** (his digital-product account, Creator, Composio `instagram_bedder-setier`, IG user id
+      17841476004957767). `python3 ig_cut.py jobs/<slug>` drops the YouTube end card and prints a public mp4 URL (Kie temp file), then
+      Composio INSTAGRAM_POST_IG_USER_MEDIA (REELS, share_to_feed) + _PUBLISH + GET_IG_MEDIA to verify. Caption: brand + feature + the result
+      in one line, then "Full step-by-step on YouTube: search \"Day One AI <feature>\"" + 4 hashtags (caption links are not tappable; Ralph
+      added https://www.youtube.com/@dayoneaitools1 to his bio). Type `#` as is, never `%23` (the Runway App Studio Reel went out
+      2026-10-28 with `%23runway`... dead hashtags; Ralph fixed it by hand): the GET_IG_MEDIA check must show the caption with no `%`. First: Higgsfield Playable https://www.instagram.com/reel/DfBjxULAA0X/.
+      Old Shorts can't be cut free (files gone with old containers; yt-dlp bot-blocked from the cloud IP, tested 2026-10-28);
+      Ralph 2026-10-28: "Just go with the new ones moving forward. We will leave the old ones as is" (don't offer old ones again).
+      A separate Day One AI account only when Ralph says so.
+- [x] Shopify Canvas (jobs/shopify-canvas, 2026-10-02): https://youtu.be/sLoQ8E-Yo5c + Short https://youtube.com/shorts/JiWxw02DcFE,
+      PUBLISHED 2026-10-02 on Ralph's OK with the plain shopify.com link: Shopify DECLINED Ralph's affiliate application
+      (2026-10-02). Don't pick Shopify-only features as radar topics unless Ralph reapplies and gets in. Short's Related
+      video SET by Ralph (2026-10-05).
+- [x] Higgsfield Ads Studio (jobs/higgsfield-ads-studio, 2026-10-06): https://youtu.be/Ah9LmV7bDMM + Short https://youtube.com/shorts/oTIJXuGAFCc,
+      PUBLISHED 2026-10-06 on Ralph's OK. Ralph's Higgsfield affiliate link https://higgsfield.ai?fpr=dayoneai1 (config.json; up to 25% recurring 12 mo).
+      Ralph: always mention the viewer discount (up to 50% off for 3 hours after logging in through the link) → job key `affiliate_note`
+      (adds a 🎁 line under the link in both descriptions) + say it in the outro. Short's Related video: Ralph to set.
+- Updating an affiliate link on uploaded videos: `yt.py desc` updates only the long video; the Short needs the same
+  snippet PUT with youtube.json short.video_id (done by hand for Synthesia). New-session prompt: handoff/NEXT_SESSION.md.
+- [x] Manus 2.0 (jobs/manus-2-0): https://youtu.be/IATJW0lNK4w + Short https://youtube.com/shorts/MwHDGZq5QKM PUBLISHED 2026-10-18 on
+      Ralph's OK WITHOUT an affiliate link ("going for views, engagement and subscribers"); plain manus.im, disclosure removed,
+      comment_question added. If his Manus link arrives later (manus.tapfiliate.com): config.json, job affiliate_url, `yt.py desc` + the Short by hand.
+
+- **Skill standard (Ralph, 2026-10-05):** SKILL.md under 200 lines, detail in `references/` (table of contents if over 100 lines), code instead of prose where output must be consistent, templates for repeated outputs (`ugc-product-ad/templates/`); clear, concise, no technical constraints. Hyperframes/media-use were reworked this way (upstream updates overwrite).
+
+- **Build history (moved out 2026-10-30 to keep this file small):** `handoff/history/STATUS_LOG.md` holds the dated setup log (pilot, voice tests, analytics, HyperFrames, Playwright MCP, skill installs, per-video publish records). The still-active facts are the bullets above.
