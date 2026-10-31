@@ -134,7 +134,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - **Skills (Ralph 2026-10-13): one home.** Every skill Ralph owns lives in the private repo focusfiyah/claude-skills (`skills/<name>/`, git history = versions); the copies here and the claude.ai upload are deployments. Load the `skill-smith` skill for ANY skill work (write, fix, audit, re-zip): it holds the writing rules (the old skill standard) and `deploy.py`, which updates both repos and builds the upload zip. Never edit a deployed copy by hand.
 - Cloud sessions often start here, so `.claude/skills/` carries copies of every focusfiyah/Dayone-ai project skill
   (day-one-ai, find-skills, grace-product-scripts, humanizer, hyperframes*, media-use, skill-inspector, tiktok-shop-coach,
-  brag-slim, scrapling, prompt-master, agent-reach, skill-smith, unlazy, ugc-take-combos, thumbnail-looks).
+  brag-slim, scrapling, prompt-master, agent-reach, skill-smith, unlazy, ugc-take-combos, thumbnail-looks, banana, context-engineering).
   Edit them in focusfiyah/claude-skills, never here (skill-smith). `ugc-product-ad` deploys only here (client work).
 - Scan every new skill first with the `skill-inspector` skill (SkillSpector). The claude.ai account upload (zip) is the
   only copy that reaches every device and chat; repo copies load only in sessions on that repo.
