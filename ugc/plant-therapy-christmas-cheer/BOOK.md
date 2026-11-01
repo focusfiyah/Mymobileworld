@@ -1,3 +1,30 @@
+# Production Book v2: Plant Therapy Christmas Cheer (Grace, ~17 s), 2026-11-01
+
+Sent to Ralph: https://claude.ai/artifact/HHa8EJ3Xp8diKpLcUrYB6V (2026-11-01, v2 plan in the question cards + README v2 section)
+
+## v2 change (Ralph 2026-11-01: "the only scent talked about is the Christmas Tree we need to mention and visualize the other 3 as well")
+Script v2 (64 words, grade 2.1, ~17 s, Ralph: "Keep all"):
+> You know that moment when the fake tree's up, but the house doesn't smell like Christmas? Ours smelled like the storage box. Christmas Tree smells like a fresh cut tree. Sugar Plum Fairy is sweet and citrusy, and Vanilla Spice is warm and cozy. Now people ask where the real tree is. Get one to gift too before Christmas. It's in the orange cart.
+
+Shots (order S1 S2 S3 S4 S4b S4c S5 S6 S7): the 7 approved v1 clips reused on their matching lines (S4 drops now under "Christmas Tree smells like a fresh cut tree"), plus
+| S4b | "Sugar Plum Fairy is sweet and citrusy," | hand holds the Sugar Plum Fairy bottle (cap on) above halved clementines on the side table | HAND | Omni on Kie | A |
+| S4c | "and Vanilla Spice is warm and cozy." | Vanilla Spice bottle beside cinnamon sticks + vanilla pods, push-in | HAND-FREE | Omni on Kie | A |
+Prompts: shots.json S4b/S4c (prompt-master, PROMPT_LINT_OK). Hand: without bracelet. VO: Grace cloned v5, ~350 characters.
+Kling: allowed only if a clip needs it, a few credits at most (Ralph 2026-11-01: "You can also use Kling if needed but don't use up all the credits").
+
+## Cost (one total)
+| Item | Qty x unit | $ |
+|---|---|---|
+| Stills S4b S4c, nano-banana-pro | 2 x $0.09 | 0.18 |
+| Omni clips S4b S4c | 2 x $0.315 | 0.63 |
+| One likely redo, asked first | $0.09 + $0.315 | 0.41 |
+Month so far (`python3 grace/spend.py`): MONTH 2026-11 TOTAL $0.00 of cap $100.00
+
+TOTAL: $1.22
+
+
+---
+# v1 book (history)
 # Production Book: Plant Therapy Christmas Cheer Essential Oil Blend 3 Set (Grace, 15 s), 2026-10-30
 
 Sent to Ralph: https://claude.ai/artifact/HHa8EJ3Xp8diKpLcUrYB6V (2026-10-30, plan v1)
@@ -60,7 +87,7 @@ Kling: 0 booked. Ralph 2026-10-30 (via the Niagara session): keep 300 credits fo
 VO: ElevenLabs Grace cloned v5, ~280 characters.
 Month so far (`python3 grace/spend.py`): KIE $232.27  OTHER $0.65  MONTH 2026-10 TOTAL $232.92 (no cap in October; $100 cap from November 1)
 
-TOTAL: $2.79
+v1 TOTAL was $2.79 (spent $2.47)
 
 **Approve?**
 

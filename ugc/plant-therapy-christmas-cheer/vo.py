@@ -36,9 +36,9 @@ subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "vo/voiceover_tight.
                 "-ar", "44100", "-c:a", "libmp3lame", "-b:a", "192k", "vo/voiceover_final.mp3"], check=True)
 for w in out: w["start"] = round(w["start"] / k, 3); w["end"] = round(w["end"] / k, 3)
 json.dump(out, open("vo/words.json", "w"), indent=1)
-# shot windows: line i spans its first word start .. next line's first word start (shots = the 7 lines in make_shots.LINES)
+# shot windows: line i spans its first word start .. next line's first word start (shots = the 7 lines in make_shots.V2_LINES)
 import make_shots
-n = [len(l.split()) for l in make_shots.LINES]; idx, starts = 0, []
+n = [len(l.split()) for l in make_shots.V2_LINES]; idx, starts = 0, []
 for c in n: starts.append(out[idx]["start"] if idx < len(out) else None); idx += c
 dur = pos / k; starts[0] = 0.0
 win = [(round(starts[i], 2), round(starts[i + 1] if i + 1 < len(starts) else dur, 2)) for i in range(len(starts))]

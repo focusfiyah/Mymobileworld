@@ -76,10 +76,20 @@
  },
  "book_ok": {
   "by": "Ralph",
-  "date": "2026-10-30",
-  "quote": "Approve, I'll resend pic (2026-10-30 question cards: no bracelet, Kie Omni $1.26, Grace cloned v5)",
-  "total": 2.79,
-  "sha256": "42b6c2cf285c3b97b4da2e88473611001b9bbe7b910bbd38551700dd5ae72422",
-  "spent_at_approval": 0.0
- }
+  "date": "2026-11-01",
+  "quote": "Keep all, ~17 s; Option 1 (Kie Omni $1.22). You can also use Kling if needed but don't use up all the credits (2026-11-01 question cards)",
+  "total": 1.22,
+  "sha256": "0ad0f8282415f0babe1a8a105521e31327ea5a3f61665e26fa09ed1d8a14dfa5",
+  "spent_at_approval": 2.472
+ },
+ "book_history": [
+  {
+   "by": "Ralph",
+   "date": "2026-10-30",
+   "quote": "Approve, I'll resend pic (2026-10-30 question cards: no bracelet, Kie Omni $1.26, Grace cloned v5)",
+   "total": 2.79,
+   "sha256": "42b6c2cf285c3b97b4da2e88473611001b9bbe7b910bbd38551700dd5ae72422",
+   "spent_at_approval": 0.0
+  }
+ ]
 }

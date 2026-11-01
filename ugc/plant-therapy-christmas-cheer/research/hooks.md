@@ -7,3 +7,5 @@
 | 3 | H061 | "This is for the people who always want their house to smell like Christmas." | "your house, but it smells like christmas" | @gretchen_sahm 10.2K "My house smells like a non toxic North Pole" (comment: "spoke straight to my soul") |
 
 Why 1: it names the exact pain people search for (fake tree, no smell) in the first 3 s, and the same-product winner opened on a smell question.
+
+V2 (2026-11-01): same hook (H062, option 1) kept; the body now names all three scents. On-screen option unchanged.

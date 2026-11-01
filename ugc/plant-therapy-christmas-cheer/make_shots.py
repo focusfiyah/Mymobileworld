@@ -88,5 +88,27 @@ SHOTS = [
       f"labels facing the camera. Each is a {BOTTLE}; {PRINT}; image 6 shows their true shape. {SIZE_FREE} One set only. No hand, no fingers, no people, no diffuser.",
       ["BOX", "TREE", "PLUM", "VAN", "SHEET"], "only the camera moves, a slow push-in toward the box and the three bottles; nothing moves."),
 ]
-json.dump({"job": "plant-therapy-christmas-cheer", "refs": R, "shots": SHOTS}, open("shots.json", "w"), indent=1)
+
+# v2 (Ralph 2026-11-01: all three scents named and shown). v1 shots S1-S7 reused as approved; two new product shots.
+V2_LINES = ["You know that moment when the fake tree's up,", "but the house doesn't smell like Christmas?", "Ours smelled like the storage box.",
+            "Christmas Tree smells like a fresh cut tree.", "Sugar Plum Fairy is sweet and citrusy,", "and Vanilla Spice is warm and cozy.",
+            "Now people ask where the real tree is.", "Get one to gift too before Christmas.", "It's in the orange cart."]
+ORDER = ["S1", "S2", "S3", "S4", "S4b", "S4c", "S5", "S6", "S7"]
+def v2(sid, *a):
+    s = shot(4, *a); s["id"] = sid; s["line"] = V2_LINES[ORDER.index(sid)]; s["t"] = None
+    s["clip_refs"][0] = f"stills/{sid}.png"; return s
+SHOTS += [
+ v2("S4b", True, True, "A", ["ROOM_A", "PLUM", "SHEET", "HAND"],
+    "On the small round light-wood side table beside the red armchair of image 1 sits a small white plate with two clementines cut in half, juicy orange segments facing up, the tinsel tree soft behind. "
+    f"{HAND} on the right and GRIPS ONE bottle, the Sugar Plum Fairy bottle of image 2 ({PRINT}): a {BOTTLE}. Its black cap is ON. It is held upright just above the clementine halves with its lavender label facing the camera. "
+    f"Thumb on the side of the label, fingers wrapped around the back. Image 3 shows its true shape. {SIZE} No other bottles, no box, no diffuser.",
+    ["PLUM", "SHEET"], "the hand slowly lowers the bottle a little toward the clementine halves and holds it there while the camera pushes in slowly."),
+ v2("S4c", False, True, "A", ["ROOM_A", "VAN", "SHEET"],
+    "Low close view of the small round light-wood side table beside the red armchair of image 1, the tinsel tree soft behind. "
+    f"ONE bottle stands upright on the table: the Vanilla Spice bottle of image 2 ({PRINT}), label facing the camera: a {BOTTLE}. "
+    "Beside it on a small cream linen napkin lie three cinnamon sticks and two dark brown vanilla pods. "
+    f"Image 3 shows its true shape. {SIZE_FREE} No hand, no fingers, no people, no other bottles, no box, no diffuser.",
+    ["VAN", "SHEET"], "only the camera moves, a slow push-in toward the Vanilla Spice bottle; nothing moves."),
+]
+json.dump({"job": "plant-therapy-christmas-cheer", "refs": R, "order": ORDER, "v2_lines": V2_LINES, "shots": SHOTS}, open("shots.json", "w"), indent=1)
 print(len(SHOTS), "shots;", sum(not s["hand"] for s in SHOTS), "hand-free;", sum(s["product"] for s in SHOTS), "product clips")

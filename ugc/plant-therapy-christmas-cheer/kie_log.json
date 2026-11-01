@@ -508,5 +508,195 @@
   "still": "stills/S7.png",
   "ok": true,
   "score": 0.599
+ },
+ {
+  "t": "2026-11-01 23:17:09",
+  "submitted": "2173d17cc3a596c420ddcc1988fb3903",
+  "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas"
+ },
+ {
+  "t": "2026-11-01 23:17:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the product sheet made from real photos (front, back, box, cap off). Image 4 is Grace's hand sheet. On the small round light-wood side table beside the red armchair of image 1 sits a small white plate with two clementines cut in half, juicy orange segments facing up, the tinsel tree soft behind. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible; the hand enters from the frame edge on the right and GRIPS ONE bottle, the Sugar Plum Fairy bottle of image 2 (every label and print matches its image letter for letter and colour for colour): a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball. Its black cap is ON. It is held upright just above the clementine halves with its lavender label facing the camera. Thumb on the side of the label, fingers wrapped around the back. Image 3 shows its true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as an adult thumb; the hand looks big next to it. No other bottles, no box, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337767241-64ykcxzj8n5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337772174-wdt447yr20a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337775867-5mrhirc93xk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337768950-iht0s6zoh9g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "2173d17cc3a596c420ddcc1988fb3903",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-11-01 23:17:11",
+  "submitted": "c46b402e96f4daa5bf31a6c4db0ea869",
+  "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas"
+ },
+ {
+  "t": "2026-11-01 23:17:11",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the product sheet made from real photos (front, back, box, cap off). Low close view of the small round light-wood side table beside the red armchair of image 1, the tinsel tree soft behind. ONE bottle stands upright on the table: the Vanilla Spice bottle of image 2 (every label and print matches its image letter for letter and colour for colour), label facing the camera: a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball. Beside it on a small cream linen napkin lie three cinnamon sticks and two dark brown vanilla pods. Image 3 shows its true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as a lipstick. No hand, no fingers, no people, no other bottles, no box, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337767241-64ykcxzj8n5.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337774862-9w43xaxvr9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793337775867-5mrhirc93xk.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "c46b402e96f4daa5bf31a6c4db0ea869",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-11-01 23:18:11",
+  "submitted": "0d5d00002a0a6a88b4fe9cafbd26956e",
+  "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas"
+ },
+ {
+  "t": "2026-11-01 23:18:13",
+  "submitted": "abe2f9f97511e16cc707c0a40c6c3c22",
+  "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas"
+ },
+ {
+  "t": "2026-11-01 23:20:07",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the product sheet made from real photos (front, back, box, cap off). Low close view of the small round light-wood side table beside the red armchair of image 1, the tinsel tree soft behind. ONE bottle stands upright on the table: the Vanilla Spice bottle of image 2 (every label and print matches its image letter for letter and colour for colour), label facing the camera: a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball. Beside it on a small cream linen napkin lie three cinnamon sticks and two dark brown vanilla pods. Image 3 shows its true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as a lipstick. No hand, no fingers, no people, no other bottles, no box, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575043183-yei552szhd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575045610-x9nw4sx0lj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575048433-0xeon8oxhjp.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "abe2f9f97511e16cc707c0a40c6c3c22",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/abe2f9f97511e16cc707c0a40c6c3c22_0_1793575205.jpeg"
+   ]
+  },
+  "costTime": 116,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-01 23:21:27",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the real room photo (red velvet armchair, plaid pillow, striped tree pillow, a decorated artificial Christmas tree with silver tinsel, red and white striped wall). Image 2 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the product sheet made from real photos (front, back, box, cap off). Image 4 is Grace's hand sheet. On the small round light-wood side table beside the red armchair of image 1 sits a small white plate with two clementines cut in half, juicy orange segments facing up, the tinsel tree soft behind. Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible; the hand enters from the frame edge on the right and GRIPS ONE bottle, the Sugar Plum Fairy bottle of image 2 (every label and print matches its image letter for letter and colour for colour): a small amber glass bottle, round with straight sides and a rounded shoulder, a black ribbed screw cap with a smooth black band under the ribs, the label wrapped round the middle with bare amber glass above it and a dark band of glass below it; no dropper bulb, no pump, no roller ball. Its black cap is ON. It is held upright just above the clementine halves with its lavender label facing the camera. Thumb on the side of the label, fingers wrapped around the back. Image 3 shows its true shape. SIZE FIRST: each bottle is small, about 6 cm tall with its cap and 2.5 cm wide, about as tall as an adult thumb; the hand looks big next to it. No other bottles, no box, no diffuser. Vertical 9:16 phone photo, bright neutral daylight, true colours, realistic textures, no text, no captions, no watermark, no logos other than the real labels.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575043183-yei552szhd.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575046050-v5juxzw9gbd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575048433-0xeon8oxhjp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575050891-8obt568tkn4.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "2K"
+   }
+  },
+  "taskId": "0d5d00002a0a6a88b4fe9cafbd26956e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0d5d00002a0a6a88b4fe9cafbd26956e_0_1793575283.jpeg"
+   ]
+  },
+  "costTime": 197,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-01 23:22:03",
+  "submitted": "60fa62d518dc41b17a844c196f479b6e",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Vanilla Spice"
+ },
+ {
+  "t": "2026-11-01 23:22:05",
+  "submitted": "b0fd12c756c0e12801d9f8e2415fd20a",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Sugar P"
+ },
+ {
+  "t": "2026-11-01 23:23:53",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. Image 2 is the real Sugar Plum Fairy bottle: soft lavender label, big cream-peach blob, small purple stars, dark green 'Plant Therapy', 'Sugar Plum Fairy', 'ESSENTIAL OIL BLEND', white 'KidSafe' pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: the hand slowly lowers the bottle a little toward the clementine halves and holds it there while the camera pushes in slowly. The hand keeps one grip and nothing turns, flips or changes shape. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575308910-fg88xypm1e4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575311525-zj6b09s2oaj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575313650-88uvrc6ijg8.png"
+    ]
+   }
+  },
+  "taskId": "b0fd12c756c0e12801d9f8e2415fd20a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/b0fd12c756c0e12801d9f8e2415fd20a_0_1793575428.mp4"
+   ]
+  },
+  "costTime": 108,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-01 23:23:57",
+  "clip_check": "/home/user/Mymobileworld/ugc/plant-therapy-christmas-cheer/clips/S4b.mp4",
+  "still": "stills/S4b.png",
+  "ok": true,
+  "score": 0.502
+ },
+ {
+  "t": "2026-11-01 23:24:08",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light and framing exactly. Image 2 is the real Vanilla Spice bottle: cream label, big taupe-brown circle, dark plum vanilla pod, olive leaves, a cinnamon stick, dark green 'Plant Therapy', 'Vanilla Spice', 'ESSENTIAL OIL BLEND', no KidSafe pill, '1/3 FL. OZ. (10 mL)'. Image 3 is the product sheet made from real photos (front, back, box, cap off). Every label and print matches its image letter for letter and colour for colour; the product keeps its exact small size and shape, no added marks. Motion: only the camera moves, a slow push-in toward the Vanilla Spice bottle; nothing moves. No hand, fingers or people appear at any time. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575308674-z599ydxh3q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575311252-myhupwxdq1.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/plant-therapy-christmas-cheer/1793575313402-1jfugfrk8fm.png"
+    ]
+   }
+  },
+  "taskId": "60fa62d518dc41b17a844c196f479b6e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/60fa62d518dc41b17a844c196f479b6e_0_1793575446.mp4"
+   ]
+  },
+  "costTime": 128,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-01 23:24:11",
+  "clip_check": "/home/user/Mymobileworld/ugc/plant-therapy-christmas-cheer/clips/S4c.mp4",
+  "still": "stills/S4c.png",
+  "ok": true,
+  "score": 0.921
  }
 ]
