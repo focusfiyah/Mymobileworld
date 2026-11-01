@@ -12,6 +12,8 @@ file (any project, 16:9 or 9:16; every relative path in it resolves against the 
   looks.py render TARGET --band B     final image in band B, recorded in the target's ledger
   looks.py render TARGET --auto       final image in the best candidate (least alike, text fits)
   looks.py check TARGET [TARGET ...]  sameness vs the pool, band repeat and text fit; prints CHECK_PASS n/n
+  looks.py prints TARGET [--youtube] [--add NAME=IMAGE ...]   store colour prints of earlier thumbnails (committed),
+                                      so the sameness check still works after the image files move to Drive
   looks.py control [--pool GLOB]      the old one-template thumbnails must all read as too alike
   looks.py selftest [--out DIR]       every band fits a real title at each size; an absurd one must fail
   looks.py bands                      list the bands and the sizes each one has
@@ -34,6 +36,7 @@ SIZES = {
     "9:16": dict(w=1080, h=1920, grid=(18, 32), safe=(0, 240, 1080, 1680), nogo=[(960, 1000, 1080, 1680)]),
 }
 CLOSE, LIMIT = 30.0, 0.30                    # RGB distance that counts as "same colour", max shared share
+MIN_COMPARED = 10                            # Day One: check refuses to pass with fewer earlier thumbnails to compare
 REPEAT_WINDOW = 5                            # a band may not repeat within the last 5 thumbnails
 FONTS = ("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Anton&family=Bebas+Neue"
          "&family=DM+Serif+Display&family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@700"
@@ -409,17 +412,71 @@ def shared(a, b):
 
 
 def closest(img, t):
-    """The most alike earlier image in the target's pool, as (shared, name)."""
+    """The most alike earlier thumbnail, as (shared, name): the image files in the pool, plus the stored colour prints
+    of every earlier thumbnail (the image files leave git for Drive, so without the prints the pool comes up empty and
+    every look passes with 0.00, which happened 2026-10-30 to 2026-11-01)."""
     grid = SIZES[t.size]["grid"]
     c = cells(img, grid)
-    best = (0.0, None)
+    seen, best = {}, (0.0, None)
     for f in t.pool_files():
         if f.resolve() == t.out.resolve():
             continue
-        cand = (shared(c, cells(f, grid)), f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem)
-        if cand[0] > best[0]:   # compare scores only: a tie at 0.0 against the (0.0, None) start used to crash
-            best = cand
+        seen[f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem] = cells(f, grid)
+    for name, sizes in load_prints(t).items():
+        if name != t.name and name not in seen and t.size in sizes:
+            seen[name] = unpack(sizes[t.size], grid)
+    for name, other in seen.items():
+        s = shared(c, other)
+        if s > best[0]:   # compare scores only: a tie at 0.0 against the (0.0, None) start used to crash
+            best = (s, name)
     return best
+
+
+def compared(t):
+    """How many earlier thumbnails closest() can compare against (files + prints, self excluded)."""
+    names = {f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem for f in t.pool_files()
+             if f.resolve() != t.out.resolve()}
+    names |= {n for n, s in load_prints(t).items() if t.size in s}
+    return len(names - {t.name})
+
+
+def need_compared(t, led):
+    """Every earlier look in the ledger must be comparable (its file or its print), and on Day One at least
+    MIN_COMPARED thumbnails: an empty pool used to pass every look silently."""
+    earlier = sum(1 for k, v in led.items() if k != t.name and v.get("size", "16:9") == t.size)
+    return max(earlier, MIN_COMPARED if t.dayone else 0)
+
+
+# ---------------------------------------------------------------- prints (committed colour grids of every thumbnail)
+def pack(arr):
+    return base64.b64encode(np.clip(np.rint(arr), 0, 255).astype(np.uint8).tobytes()).decode()
+
+
+def unpack(s, grid):
+    return np.frombuffer(base64.b64decode(s), np.uint8).reshape(grid[1], grid[0], 3).astype(float)
+
+
+def load_prints(t):
+    return json.loads(t.prints_path.read_text()) if t.prints_path.exists() else {}
+
+
+def add_print(t, name, img):
+    """Store a thumbnail's colour grid (2 KB) so later looks are compared with it after the image leaves git."""
+    pr = load_prints(t)
+    pr.setdefault(name, {})[t.size] = pack(cells(img, SIZES[t.size]["grid"]))
+    t.prints_path.parent.mkdir(parents=True, exist_ok=True)
+    t.prints_path.write_text(json.dumps(pr, indent=1, sort_keys=True) + "\n")
+
+
+def to_frame(im, size):
+    """A downloaded thumbnail at the target's aspect: YouTube's 4:3 sizes carry black bars around the 16:9 picture."""
+    im = im.convert("RGB")
+    w, h = SIZES[size]["w"], SIZES[size]["h"]
+    if abs(im.width / im.height - w / h) > 0.05:
+        ch = round(im.width * h / w)
+        top = (im.height - ch) // 2
+        im = im.crop((0, top, im.width, top + ch))
+    return im.resize((w, h))
 
 
 # ---------------------------------------------------------------- ledger
@@ -447,6 +504,8 @@ class Target:
             self.name, self.dir, self.out, self.size = p.name, p, p / "thumbnail.png", "16:9"
             self.base, self.look = p, look
             self.pool, self.ledger_path = [str(Path("jobs/*/thumbnail.png").resolve())], Path("data/looks.json").resolve()
+            self.prints_path = Path("data/looks_prints.json").resolve()
+            self.dayone = True
             self.mark = Path("brand/avatar.png") if Path("brand/avatar.png").exists() else None
             top, big, badge = job.get("thumb_top", job.get("tool", "")), job.get("thumb_big", ""), job.get("thumb_badge", "JUST LAUNCHED")
             self.url = look.get("url") or job.get("thumb_url") or first_web
@@ -458,6 +517,8 @@ class Target:
             self.out, self.size = p.parent / look.get("out", "thumbnail.png"), look.get("size", "16:9")
             self.pool = [str((p.parent / g).resolve()) for g in look.get("pool", [])]
             self.ledger_path = (p.parent / look.get("ledger", "looks.json")).resolve()
+            self.prints_path = self.ledger_path.with_name(self.ledger_path.stem + "_prints.json")
+            self.dayone = False
             self.mark = p.parent / look["mark"] if look.get("mark") else None
             top, big, badge = look.get("top", ""), look.get("big", ""), ""
             self.url, self.crop_y = look.get("url"), look.get("crop_y", 0)
@@ -546,6 +607,7 @@ def cmd_render(a):
                            fit=pick["fit"], shared=pick["shared"], closest=pick["closest"], size=t.size)
         t.ledger_path.parent.mkdir(parents=True, exist_ok=True)
         t.ledger_path.write_text(json.dumps(led, indent=1) + "\n")
+        add_print(t, t.name, Image.open(t.out))
         print(f"THUMB {t.out} band={pick['band']} shared={pick['shared']:.2f}")
     else:
         sheet(t.dir, rows, size=t.size)
@@ -572,6 +634,9 @@ def cmd_check(a):
             errs.append(f"no {t.out.name}")
         elif t.name not in led:
             errs.append(f"not made with looks.py (no entry in {t.ledger_path.name})")
+        elif compared(t) < need_compared(t, led):
+            errs.append(f"only {compared(t)} earlier thumbnails to compare with (need {need_compared(t, led)}); "
+                        f"add their prints (`looks.py prints`) to {t.prints_path.name}")
         else:
             s, who = closest(t.out, t)
             if s >= LIMIT:
@@ -586,11 +651,44 @@ def cmd_check(a):
     sys.exit(0 if passed == len(a.targets) else 1)
 
 
+def cmd_prints(a):
+    """Store colour prints of earlier thumbnails: every image file in the target's pool, plus (--youtube, Day One) the
+    live thumbnail of every uploaded video in jobs/*/youtube.json, plus --add NAME=IMAGE pairs."""
+    import glob, urllib.request
+    t = Target(a.target)
+    n = 0
+    for f in t.pool_files():
+        name = f.parent.name if f.name in ("thumbnail.png", "cover.png") else f.stem
+        add_print(t, name, Image.open(f)); n += 1
+    if a.youtube:
+        for y in sorted(glob.glob("jobs/*/youtube.json")):
+            vid = json.loads(Path(y).read_text()).get("video_id")
+            if not vid:
+                continue
+            for q in ("maxresdefault", "sddefault", "hqdefault"):
+                try:
+                    data = urllib.request.urlopen(f"https://i.ytimg.com/vi/{vid}/{q}.jpg", timeout=30).read()
+                    break
+                except Exception:
+                    data = None
+            if not data:
+                print(f"  {Path(y).parent.name}: no thumbnail at i.ytimg.com (deleted or private)"); continue
+            add_print(t, Path(y).parent.name, to_frame(Image.open(io.BytesIO(data)), t.size)); n += 1
+    for pair in a.add or []:
+        name, img = pair.split("=", 1)
+        add_print(t, name, to_frame(Image.open(img), t.size)); n += 1
+    print(f"PRINTS {n} stored, {len(load_prints(t))} in {t.prints_path.name}")
+
+
 def cmd_control(a):
     import glob
     led = ledger(Path(a.ledger))
     old = [Path(f) for f in sorted(glob.glob(a.pool)) if Path(f).parent.name not in led]
     C = [cells(f) for f in old]
+    pp = Path(a.ledger).with_name(Path(a.ledger).stem + "_prints.json")
+    if len(C) < 5 and pp.exists():   # the image files live in Drive now: use the stored prints of the template ones
+        old = [n for n in json.loads(pp.read_text()) if n not in led]
+        C = [unpack(json.loads(pp.read_text())[n]["16:9"], SIZES["16:9"]["grid"]) for n in old]
     pairs = [shared(C[i], C[j]) for i, j in itertools.combinations(range(len(C)), 2)]
     flagged = sum(p >= LIMIT for p in pairs)
     print(f"{len(old)} template thumbnails, {flagged}/{len(pairs)} pairs at or over {LIMIT} shared "
@@ -640,6 +738,8 @@ def main():
     c = sub.add_parser("check"); c.add_argument("targets", nargs="+")
     k = sub.add_parser("control"); k.add_argument("--pool", default="jobs/*/thumbnail.png"); k.add_argument("--ledger", default="data/looks.json")
     sub.add_parser("bands")
+    pp = sub.add_parser("prints"); pp.add_argument("target"); pp.add_argument("--youtube", action="store_true")
+    pp.add_argument("--add", nargs="*", metavar="NAME=IMAGE")
     t = sub.add_parser("selftest"); t.add_argument("--out", help="keep the renders here and write a sheet per size")
     t.add_argument("--mark", default="brand/avatar.png" if Path("brand/avatar.png").exists() else None)
     a = ap.parse_args()
@@ -648,7 +748,7 @@ def main():
             sizes = "16:9" + (" 9:16" if "v" in s else "")
             print(f"{b:8s} {sizes:10s} needs={','.join(s['needs']) or '-':12s} {s['note']}")
         return
-    {"render": cmd_render, "check": cmd_check, "control": cmd_control, "selftest": cmd_selftest}[a.cmd](a)
+    {"render": cmd_render, "check": cmd_check, "prints": cmd_prints, "control": cmd_control, "selftest": cmd_selftest}[a.cmd](a)
 
 
 if __name__ == "__main__":

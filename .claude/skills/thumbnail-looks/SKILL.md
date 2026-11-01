@@ -34,7 +34,7 @@ channel, so each channel is compared with its own history.
    last five, plus a `_looks_sheet.png` with each one's shared-frame score. Look at it at full size.
 3. `looks.py render TARGET --band <band>` (or `--auto`) writes the final image and records it in the ledger. On Day
    One, `produce.py --final` does this when the job has a `look` block; `produce.py JOB.json --thumb` redoes only it.
-4. `looks.py check TARGET` must print `CHECK_PASS`.
+4. `looks.py check TARGET` must print `CHECK_PASS`. Commit the prints file with the ledger.
 
 Done when: `looks.py check` passes, you have looked at the image at full size (no cookie box, no bot-check page, the
 result or product visible, the title readable) and it sits on the job's review page.
@@ -52,6 +52,12 @@ result or product visible, the title readable) and it sits on the job's review p
 - **Sameness:** the share of the frame (32x18 cells; 18x32 for 9:16) whose average colour matches an earlier
   thumbnail's within 30 RGB units. Limit 0.30. Calibrated 2026-10-23: every pair of the 22 old Day One template
   thumbnails shares 0.37 or more (`looks.py control`, the positive control); the first new looks shared 0.08 to 0.16.
+- **Prints, so the check still sees old thumbnails (2026-11-01):** image files leave git for Drive, so every final
+  render also stores the thumbnail's 32x18 colour grid (2 KB) in a committed prints file next to the ledger
+  (`data/looks_prints.json` on Day One). `looks.py prints TARGET --youtube` rebuilds it from every uploaded video's
+  live YouTube thumbnail; `--add NAME=IMAGE` adds any other. `check` fails when it has fewer earlier thumbnails to
+  compare with than the ledger holds (Day One: at least 10). Why: from 2026-10-30 the pool was empty, two looks
+  passed at 0.00, and one of them (Gemini edit files, `stack` band) shared 0.47 with the old template.
 - **Band repeat:** the same band may not come back within five looks on that ledger.
 - **Text fit and safe zones:** each title shrinks to fit its box down to a floor that still reads at phone size;
   text that overflows, sits on the picture, badge or mark, or leaves the safe area fails. Safe areas: on 16:9, clear
