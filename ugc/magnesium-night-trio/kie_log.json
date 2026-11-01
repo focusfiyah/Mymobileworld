@@ -577,5 +577,94 @@
   "still": "ugc/magnesium-night-trio/stills/S6.png",
   "ok": true,
   "score": 0.862
+ },
+ {
+  "t": "2026-11-01 23:12:24",
+  "submitted": "5fd1f5a935ac5775c9d3bd126514ef35",
+  "prompt": "VIEW FIRST: the camera is low at the FOOT of the bed, looking along the bed toward the rattan headboard (image 1). Grace"
+ },
+ {
+  "t": "2026-11-01 23:12:24",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "VIEW FIRST: the camera is low at the FOOT of the bed, looking along the bed toward the rattan headboard (image 1). Grace lies on her back, propped on the sage pillows against the headboard, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts: BOTH legs stretched out STRAIGHT along the bed toward the camera, knees straight and relaxed (no bent knees), resting side by side on a cream knit blanket, ankles gently crossed, right ankle over left; both feet upright at the near end of the bed, soles toward the camera, toes pointing UP toward the top of the frame. Natural, healthy leg anatomy: two legs, two feet, each with five toes, knees and ankles bending the normal way. The frame cuts at her waist: no face, no chest, no hands or fingers in frame; only her legs, feet and the lilac shorts. Skin softly glowing from lotion. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same headboard, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793337570515-wzb9tq244h.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5fd1f5a935ac5775c9d3bd126514ef35",
+  "fail": [
+   "400",
+   "Image fetch failed. Check access settings or use our File Upload API instead."
+  ]
+ },
+ {
+  "t": "2026-11-01 23:12:40",
+  "submitted": "a9ccdac3cca1e7b44ebcdce906fa6bef",
+  "prompt": "VIEW FIRST: the camera is low at the FOOT of the bed, looking along the bed toward the rattan headboard (image 1). Grace"
+ },
+ {
+  "t": "2026-11-01 23:13:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "VIEW FIRST: the camera is low at the FOOT of the bed, looking along the bed toward the rattan headboard (image 1). Grace lies on her back, propped on the sage pillows against the headboard, her bare legs and feet (same medium-brown skin, short toenails with a nude pink polish), lilac cotton sleep shorts: BOTH legs stretched out STRAIGHT along the bed toward the camera, knees straight and relaxed (no bent knees), resting side by side on a cream knit blanket, ankles gently crossed, right ankle over left; both feet upright at the near end of the bed, soles toward the camera, toes pointing UP toward the top of the frame. Natural, healthy leg anatomy: two legs, two feet, each with five toes, knees and ankles bending the normal way. The frame cuts at her waist: no face, no chest, no hands or fingers in frame; only her legs, feet and the lilac shorts. Skin softly glowing from lotion. No jar, no bottle, no product packaging anywhere in the frame. Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, bright neutral evening lamp light plus soft daylight, true colours, realistic skin texture, no text, no captions, no watermark. Reference images: image 1 = the real room to use as the background (same headboard, colours and light).",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793574752272-x7iizsfrvjp.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a9ccdac3cca1e7b44ebcdce906fa6bef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a9ccdac3cca1e7b44ebcdce906fa6bef_0_1793574816.jpeg"
+   ]
+  },
+  "costTime": 58,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-01 23:14:07",
+  "submitted": "57fa9571232b7d803b65c96e125e01e2",
+  "prompt": "Recreate reference image 1 exactly as the first frame: Grace lies back against the pillows with both knees up and her sh"
+ },
+ {
+  "t": "2026-11-01 23:16:26",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: Grace lies back against the pillows with both knees up and her shins crossed, feet resting on the knit blanket, toes toward the camera. Then the toes of both feet stretch once slowly and relax, and the legs sway very slightly; the knees stay up, the shins stay crossed, the pose does not change. Natural leg anatomy at every moment: two legs, two feet, knees and ankles never bend the wrong way. No hands appear at any time, no face. No jar, no bottle, no product packaging anywhere in the frame. Camera: slow dolly in toward the feet. Bright neutral light. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793574840014-jumkx3ybb.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "57fa9571232b7d803b65c96e125e01e2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793574980664-8u27dcn8r4q.mp4"
+   ]
+  },
+  "costTime": 136,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-01 23:16:29",
+  "clip_check": "clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.943
  }
 ]
