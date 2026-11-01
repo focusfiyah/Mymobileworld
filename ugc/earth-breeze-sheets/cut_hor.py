@@ -15,7 +15,7 @@ CLIPLEN = {"S3": 1.95, "S1": 4.0}  # S3: the washer behind melts after ~2 s
 FILE = {"S3": "clips/S3_fix.mp4"}  # washer logo blurred (free)
 SRC = {"S1": 0.3, "S2": 1.1, "S4": 1.6, "S5": 1.7, "S6": 1.1, "S7": 1.2, "S8": 1.0, "S9": 1.9}  # where each clip's action is
 CROP = {"S1": "crop=810:1440:120:60,", "S2": "crop=900:1600:90:200,", "S3": "scale=1080:1920,crop=900:1600:180:320,",
-        "S4": "scale=1080:1920,crop=860:1530:180:120,", "S5": "crop=920:1636:100:180,", "S6": "crop=900:1600:0:220,",
+        "S4": "scale=1080:1920,crop=860:1530:180:120,", "S5": "crop=680:1209:200:20,", "S6": "crop=900:1600:0:220,",
         "S7": "crop=880:1564:150:40,", "S8": "crop=900:1600:90:160,", "S9": "crop=920:1636:80:100,"}
 S = json.load(open("shots.json"))["shots"]
 keep = [[s["id"], s["t"][0]] for s in S]
