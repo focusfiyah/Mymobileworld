@@ -1,6 +1,6 @@
 # Bare Anatomy Rosemary & Rice Water Hair Spray, 3-pack (Grace)
 
-Status (2026-11-02): video job (Ralph "All on kie"): plan v1 sent (review page https://claude.ai/artifact/W6yuV9J7ewgwm9ytzV4WBs, TOTAL $3.60), waiting for his OK + hair answer. $0 spent.
+Status (2026-11-02): cut v1 (11.4 s, music-free) on the review page https://claude.ai/artifact/W6yuV9J7ewgwm9ytzV4WBs, waiting for Ralph. Kie $2.97 of $3.60. Next: Drive on his OK.
 Drive: https://drive.google.com/drive/folders/10eauHORrJBo17zYsndVO7bMNx2YSIwW0 (CURRENT - Rosemary Spray script FINAL; v1 18s + v2 with text options in Older versions)
 Listing: https://shop.tiktok.com/us/pdp/rosemary-rice-water-hair-spray-200ml-pack-of-3-non-greasy/1729505063356962201 (190.8K sold, #1 in its search)
 
