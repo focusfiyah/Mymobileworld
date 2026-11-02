@@ -6,6 +6,8 @@ Look: bright and neutral, hands-only (no face), every shot a moving clip. 3 of 7
 The pictures tell the story. On-screen text is a second layer that goes on **only if Ralph says yes** (house rule: no text by default).
 Without text, the post caption below carries the words.
 
+## FINAL (Ralph 2026-11-02): no on-screen text ("1. No"); one video, opens on the spray (hook A shot, "One video, spray first"). The text column below is NOT used; the caption carries the words.
+
 ## Hook (pick one; hook ids from Grace's hook library)
 | # | On-screen text (only on yes) | Library hook | Modeled on |
 |---|---|---|---|
