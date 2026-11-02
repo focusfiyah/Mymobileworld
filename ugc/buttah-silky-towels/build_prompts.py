@@ -20,7 +20,7 @@ def still(s):
         add(BADGE, "a close-up of the real window strip, three badges and white text lines")
         add(REAL, "the real pouch front")
     add(s["room"], "the real room photo to use as the setting")
-    if s["hand"]: add(HAND, "Grace's hand reference sheet (skin, French-tip nails, rings, bracelets)")
+    # Ralph 2026-11-02: Grace's hand with no rings and no bracelet -> no hand sheet image (its rings would be copied); hand in words only
     parts = ["Vertical 9:16 photo, a single frame from a phone-shot UGC video."]
     if s["pouch"]: parts.append(B["size_first"] + (" " + B["size_folded"] if s["towel"] else ""))
     elif s["towel"]: parts.append(B["size_towel"])
@@ -39,7 +39,7 @@ def clip(s):
         return [f"stills/{s['id']}.png"], (f"Animate this exact first frame: keep its room, light and framing exactly. {s['motion']} "
                 f"{B['no_hand']} No towel pack or product appears. {B['omni_tail']}")
     r = [f"stills/{s['id']}.png"]; ex = []
-    head = "Recreate image 1 exactly as the first frame: keep its room, light, framing" + (", hand, nails and rings" if s["hand"] else "") + " exactly."
+    head = "Recreate image 1 exactly as the first frame: keep its room, light, framing" + (", hand and nails" if s["hand"] else "") + " exactly."
     if s["pouch"]:
         r += [LOGO, BADGE]
         ex.append("Image 2 is the real 'buttah.' logo and 'Silky Soft Towels' line, image 3 the real window strip, three badges and white text lines: they stay on the pouch the whole clip and match images 2 and 3 letter for letter and colour for colour.")
@@ -48,7 +48,7 @@ def clip(s):
               else f"Image {len(r)} is the real towel: it stays a plain white waffle towel with no print; no towel pack or packaging appears in this clip.")
     if s["pouch"]: ex.append("The pouch stays closed with no lid, flap or opening, and never bends, turns or flips.")
     if s["hand"]:
-        r.append(HAND); ex.append(f"Image {len(r)} is Grace's hand sheet: the French-tip nails, rings and bracelets stay exactly as in images 1 and {len(r)}; no other jewellery appears.")
+        ex.append("The hand stays exactly as in image 1: medium-brown skin, short French-tip nails, no rings, no bracelet, no watch, no jewellery appears at any time.")
     else: ex.append("No hand, fingers or people appear at any time.")
     return r, f"{head} {' '.join(ex)} Motion: {s['motion']} {B['omni_tail']}"
 

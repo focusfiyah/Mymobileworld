@@ -38,11 +38,11 @@ Source of each line: research/line_sources.md (H006 + @mayahome02 637.9K switch 
 | S6 | 8.4-10.4 | holiday travel | Pouch on top of a packed carry-on on a hotel bed, push-in | HAND-FREE | Omni 4 s | hotel |
 | S7 | 10.4-12.0 | orange cart | ONE pouch standing on the vanity beside a towel stack, dolly in | HAND-FREE | Omni 4 s | bath_B_teal |
 (S4, the towel under the tap, was cut to fit 12 s.)
-No face in any shot (no lip sync needed). Outfit: n/a, hands only. Nails / person: Grace's hand sheet (French tips, her rings; with or without bracelet = question 1).
+No face in any shot (no lip sync needed). Outfit: n/a, hands only. Nails / person: Grace's bare hand, medium-brown skin, short French-tip nails, no rings, no bracelet, no watch (Ralph 2026-11-02).
 Real product confirmed from the brand's photos (refs/product_sheet.png, product_truth.json): soft flat pouch, mint-teal glossy edges, black front, 'buttah.' white serif, 'Silky Soft Towels' teal with italic 'Towels', window strip, 3 badges, 'THE WASHCLOTH UPGRADE / LARGE | SINGLE-USE | DRY OR WET / 24 COUNT'; plain white waffle towels, 11.875 x 10.875 in open. No shot pulls a towel out of the pouch (no listing photo shows how it opens).
 
 ## 5. Order of work
-Stills first, all 6 at once ($0.54), storyboard on the review page for your look (QC at 2x: print letter for letter, grip, size vs the hand, 3 badges, no lid). Then ONE test clip: S5 (riskiest: hand + moving pouch + print), then the other 5 at once. Cut to the line windows, QC (flash, levels, drift, every frame of the print), AI finish last, silent master for your music. Then a House of Rameau version ($0, own order and grade, on-screen hook text, no captions) only on your yes.
+Stills first, all 6 at once ($0.54), storyboard on the review page for your look (QC at 2x: print letter for letter, grip, size vs the hand, 3 badges, no lid). Then ONE test clip: S5 (riskiest: hand + moving pouch + print), then the other 5 at once. Cut to the line windows, QC (flash, levels, drift, every frame of the print), AI finish last, silent master for your music. No House of Rameau version for now (Ralph 2026-11-02: later).
 Free fixes planned: crop, retime, colour match; a small print wobble is fixed by framing, not a redo.
 Time: about 30-35 min of machine time after your OK, plus your two review stops (storyboard, cut).
 
@@ -60,10 +60,10 @@ TOTAL: $2.68
 
 **Approve?**
 
-## 7. Questions (all of them, now)
-1. Grace's hand sheet for this video: WITH the gold bracelet or WITHOUT?
-2. Pouch size: the brand does not give it; I estimated about 17 x 15 cm (a little wider than her hand) from the brand's in-hand photo. OK, or can Grace measure hers?
-3. House of Rameau version after V1 ($0 re-cut with on-screen hook text): yes or no?
+## 7. Questions (answered by Ralph 2026-11-02)
+1. Hand: Grace's hand, no rings, no bracelet (described in words; the hand sheet photo is not passed because its rings would be copied).
+2. Pouch size: use the 17 x 15 cm estimate.
+3. House of Rameau version: no, later. No captions.
 
 ## 8. Prompts (final, written with prompt-master; every reference named; all 12 pass grace/prompt_check.py lint)
 | Item | Model | Prompt file |
@@ -71,4 +71,4 @@ TOTAL: $2.68
 | Stills S1-S3, S5-S7 | nano-banana-pro (Kie) | prompts/still_S1.txt ... still_S7.txt (no S4) (full text on the review page) |
 | Clips S1, S3, S5-S7 | google/gemini-omni-flash-1-1 (Kie) | prompts/S1.txt, S3.txt ... S7.txt |
 | Clip S2 | bytedance/seedance-2-mini (Kie), first frame = approved still | prompts/S2_seedance.txt |
-References per shot: prompts/refs.json (product sheet, logo close-up, badge close-up, real pouch front, real room photo, Grace's hand sheet).
+References per shot: prompts/refs.json (product sheet or towel reference, logo close-up, badge close-up, real pouch front, real room photo).
