@@ -15,7 +15,7 @@ Scope: the plan Ralph approves before any spend: script gate passed, 5 linted pr
   EVIDENCE: automatic-evidence=v1; definition-sha256=c714dee3ddfe2723b55608d7e282723e3416ae4a56b032877db7352b569c8981; exit=0; EXPECT=matched; output-sha256=5c4f728c7c01f694f1f5cd0ff2c5c73b84f583e2b6210c48e82bf87254d8a796; output-bytes=15; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/cerave-winter-bundle; path=7f4fb4b02918/15 entries
 
 - [x] G3: every shot shows all four products and every reference file exists
-  CHECK: cd /home/user/Mymobileworld/ugc/cerave-winter-bundle && python3 -c "import json,os;S=json.load(open('shots.json'));bad=[r for s in S for r in s['still_refs']+s['clip_refs'][1:] if not os.path.exists(r)];miss=[s['id'] for s in S if not all(w in s['still'] for w in ['Hydrating Facial Cleanser','AM Facial Moisturizing Lotion','Intensive','Healing Lip Balm'])];print(len(S),bad,miss);print('REFS_OK' if len(S)==6 and not bad and not miss else 'REFS_BAD')"
+  CHECK: cd /home/user/Mymobileworld/ugc/cerave-winter-bundle && python3 -c "import json,os;S=json.load(open('shots.json'));bad=[r for s in S for r in s['still_refs']+s['clip_refs'][1:] if not os.path.exists(r)];four=['Hydrating Facial Cleanser','AM Facial Moisturizing Lotion','Intensive','Healing Lip Balm'];w=[s['id'] for s in S if (s['group'] and not all(x in s['still'] for x in four)) or (not s['group'] and any(x in s['still']+s['clip'] for x in four[1:]))];n=sum(not s['group'] for s in S);print(len(S),n,bad,w);print('REFS_OK' if len(S)==5 and n==3 and not bad and not w else 'REFS_BAD')"
   EXPECT: REFS_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=043ecfd176b3809847dc071a209d0e9ab4dd4cd161f938685ce014c277341a1a; exit=0; EXPECT=matched; output-sha256=8762901f7ea962c5c6f3985ce66257373b68f0b17fb9e61f0cb74cc20374b730; output-bytes=16; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/cerave-winter-bundle; path=7f4fb4b02918/15 entries
 
@@ -29,5 +29,5 @@ Scope: the plan Ralph approves before any spend: script gate passed, 5 linted pr
   EXPECT: BOOK_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=cd66e5ca68b35bd7f7720276a6fb7a5cdd31049d9bfeacb374976c2d708ba767; exit=0; EXPECT=matched; output-sha256=314bbafde5738464b38ec428c336d2f4d81df67001a874147b94a34a7f904ea8; output-bytes=12; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/cerave-winter-bundle; path=7f4fb4b02918/15 entries
 
-- [x] G6: review page shows the storyboard, script, product sheet, room and hand sheet; Ralph notified by push + email
-  EVIDENCE: 2026-11-02 review page https://claude.ai/artifact/MsGgDxqTuqxumSVXt4aH4m v1 (sections Total, Questions, Spoken script, Storyboard S1-S6 with prompts, References: sheet, room, both hand sheets); PushNotification "Mobile push requested"; Gmail sent id 1a19df46a55dda46
+- [ ] G6: review page shows the storyboard, script, product sheet, room and hand sheet; Ralph notified by push + email
+  EVIDENCE: v1 2026-11-02 review page https://claude.ai/artifact/MsGgDxqTuqxumSVXt4aH4m v1 (sections Total, Questions, Spoken script, Storyboard S1-S6 with prompts, References: sheet, room, both hand sheets); PushNotification "Mobile push requested"; Gmail sent id 1a19df46a55dda46

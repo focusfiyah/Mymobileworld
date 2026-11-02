@@ -1,0 +1,19 @@
+S5: Kie google/gemini-omni-flash-1-1 4s 1080p 9:16 -> $0.315
+S4: Kie google/gemini-omni-flash-1-1 4s 1080p 9:16 -> $0.315
+BUDGET: month 2026-11 so far $2.49 (cap $100.00); this job $1.17
+BUDGET: month 2026-11 so far $2.49 (cap $100.00); this job $1.17
+PAID LEDGER: git fetch failed, checking the branches as last fetched: error: cannot lock ref 'refs/remotes/origin/ccr-627f660b-mdkjm6': is at afa8debeea7fe51c6ad79b770c9322831c1d864e but expected 8bfc8c49c9c510c9a112a426cc2b964e46b42032
+error: cannot lock ref 'refs/remo
+BOOK: approved $2.43 + extras $0.00; spent since approval $1.17; this call $0.00; left after it $1.26
+BOOK: approved $2.43 + extras $0.00; spent since approval $1.17; this call $0.00; left after it $1.26
+BUDGET: month 2026-11 so far $2.49 (cap $100.00); this job $1.17
+BUDGET: month 2026-11 so far $2.49 (cap $100.00); this job $1.17
+BOOK: approved $2.43 + extras $0.00; spent since approval $1.17; this call $0.32; left after it $0.95
+BOOK: approved $2.43 + extras $0.00; spent since approval $1.49; this call $0.32; left after it $0.63
+submitted d9d54a4152f96162889e18ff54697ea7
+submitted 2ae08bd7e0dbc48a9a45a07fe408757b
+CLIP_CHECK_OK /home/user/Mymobileworld/ugc/cerave-winter-bundle/clips/S4.mp4 (score 0.93)
+OK /home/user/Mymobileworld/ugc/cerave-winter-bundle/clips/S4.mp4 ($0.315); QC the product at 2x on several frames before it goes anywhere
+CLIP_CHECK_FAIL /home/user/Mymobileworld/ugc/cerave-winter-bundle/clips/S5.mp4 (score 0.49):
+  - opening second does not look like the still (score 0.49 < 0.5): the model may have ignored the image; look before anyone else does
+/home/user/Mymobileworld/ugc/cerave-winter-bundle/clips/S5.mp4 saved but FAILED the clip check: look at it before anyone else does

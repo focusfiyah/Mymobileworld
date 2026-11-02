@@ -15,12 +15,15 @@ script = re.search(r"^> (.+)$", B, re.M).group(1)
 T = {m.group(1): m.group(2) for m in re.finditer(r"^\| (S\d) \| ([\d.\-]+) \|", B, re.M)}
 qs = re.findall(r"^\d\. (.+)$", B.split("## 7.")[1].split("## 8.")[0], re.M)
 rows = ""
+NOTE = json.load(open('review/notes.json')) if os.path.exists('review/notes.json') else {}
+for _s in S:
+    if os.path.exists(f'stills/{_s["id"]}.png'): thumb(f'stills/{_s["id"]}.png', f'full_{_s["id"]}.jpg', 768)
 for s in S:
     tag = "HAND" if s["hand"] else "HAND-FREE"
     st = f'stills/{s["id"]}.png'
-    img = f'<img src="{thumb(st, "sb_"+s["id"]+".jpg", 520)}" alt="Still {s["id"]}">' if os.path.exists(st) else f'<div class="ph">still {s["id"]}<br>after your OK</div>'
-    rows += f"""<article class="shot">{img}<div class="sb"><div class="meta"><b>{s['id']}</b><span class="pill {'' if s['hand'] else 'hf'}">{tag}</span><span class="t">{T.get(s['id'],'')} s</span></div>
-<p class="line">{e(s['label'])}</p><p class="model">Omni 1.1 Flash on Kie, 4 s &middot; still: Gemini 3 Pro Image</p>
+    img = f'<a href="img/full_{s["id"]}.jpg"><img src="{thumb(st, "sb_"+s["id"]+".jpg", 520)}" alt="Still {s["id"]}"></a>' if os.path.exists(st) else f'<div class="ph">still {s["id"]}<br>after your OK</div>'
+    rows += f"""<article class="shot">{img}<div class="sb"><div class="meta"><b>{s['id']}</b><span class="pill {'' if s['hand'] else 'hf'}">{tag}</span><span class="pill hf">{"ALL FOUR" if s["group"] else "GREEN ONLY"}</span><span class="t">{T.get(s['id'],'')} s</span></div>
+<p class="line">{e(s['label'])}</p><p class="qc">{e(NOTE.get(s['id'], ''))}</p><p class="model">Omni 1.1 Flash on Kie, 4 s &middot; still: Gemini 3 Pro Image</p>
 <details><summary>Still prompt</summary><p class="pr">{e(s['still'])}</p></details><details><summary>Clip prompt</summary><p class="pr">{e(s['clip'])}</p></details></div></article>"""
 cost = re.findall(r"^\| ([^|]+) \| ([^|]+) \| ([\d.]+) \|$", B, re.M)
 crow = "".join(f"<tr><td>{e(a)}</td><td>{e(b)}</td><td>${c}</td></tr>" for a, b, c in cost)
@@ -48,18 +51,19 @@ table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}} t
 .sb{{min-width:0;display:grid;gap:6px;align-content:start}}
 .meta{{display:flex;gap:8px;align-items:center;flex-wrap:wrap}} .t{{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.9rem}}
 .pill{{font-size:.72rem;letter-spacing:.06em;font-weight:600;padding:2px 8px;border-radius:99px;border:1px solid var(--blue);color:var(--blue)}} .pill.hf{{border-color:var(--green);color:var(--green)}}
-.line{{font-weight:600}} .model{{color:var(--muted);font-size:.9rem}}
+.line{{font-weight:600}} .qc{{font-size:.92rem;border-left:3px solid var(--blue);padding-left:8px}} .model{{color:var(--muted);font-size:.9rem}}
 details summary{{cursor:pointer;color:var(--blue);font-size:.9rem}} .pr{{font-size:.85rem;color:var(--muted);overflow-wrap:anywhere}}
 .refs{{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}} figure{{margin:0;display:grid;gap:4px}} figure img{{border-radius:8px;border:1px solid var(--line)}} figcaption{{font-size:.85rem;color:var(--muted)}}
 @media (max-width:420px){{.shot{{grid-template-columns:96px 1fr}} .shot img,.ph{{width:96px}}}}
 </style>
 <main>
-<header><p class="eyebrow">Grace &middot; TikTok Shop &middot; 10 s music-only</p><h1>CeraVe Winter Skin Bundle</h1><p class="muted">Plan for your OK. Nothing has been spent on this job.</p></header>
-<section><h2>Total</h2><div class="total"><b>${total}</b><span class="muted">Kie, 6 stills + 6 Omni clips + one likely redo. November so far: $1.32 of $100.</span></div>
+<header><p class="eyebrow">Grace &middot; TikTok Shop &middot; 10 s music-only</p><h1>CeraVe Winter Skin Bundle</h1><p class="muted">Cut v1 ready. Spent $2.29 of the $2.43 book. Tap a still to see it full size.</p></header>
+<section><h2>Total</h2><div class="total"><b>${total}</b><span class="muted">Kie, 5 stills + 5 Omni clips + one likely redo. November so far: $1.32 of $100.</span></div>
 <table>{crow}</table></section>
-<section><h2>Questions</h2><ol class="q">{''.join(f'<li>{e(q)}</li>' for q in qs)}</ol></section>
+<section><h2>Your answers</h2><ol class="q">{''.join(f'<li>{e(q)}</li>' for q in qs)}</ol></section>
 <section><h2>Spoken script for later</h2><blockquote>{e(script)}</blockquote><p class="muted">Hook H005 word for word, blank filled with real buyer words ("it hurts to even open my mouth", "every winter"). Grade 3.3. The video itself has no voice; music added later.</p></section>
-<section><h2>Storyboard (all four products in every shot)</h2><p class="muted">S1 is the test clip. After S5 a 1.5 s fast run reuses spare windows of S1, S4 and S3 ($0), then S6 ends on all four.</p>{rows}</section>
+<section><h2>Cut v1 (10.0 s, silent for your music)</h2><video controls playsinline muted preload="metadata" src="media/cut_v1.mp4" style="width:100%;max-width:360px;border-radius:10px;background:#000"></video><p class="muted">Order: green cleanser pumped into her palm (nozzle now over her palm), push-in on the cleanser, she sets it down beside the other three, quick run, slow arc on all four. QC: no black or frozen frames, labels hold, hand edges clean at 2x, AI finish on, no text. S3 dropped (your call). Small print on the bottles blurs as in any phone video; the big words are right.</p></section>
+<section><h2>Storyboard v2: green cleanser first, the group of four at the end</h2><p class="muted">Your change: S1-S3 show only the green cleanser, S4 brings in the other three, S5 ends on all four. A 1.2 s fast run between S4 and S5 reuses spare windows of S1 and S3 ($0). S1 is the test clip.</p>{rows}</section>
 <section><h2>References</h2><div class="refs">
 <figure><img src="{sheet}" alt="Product sheet"><figcaption>Product sheet: real CeraVe fronts; cream tube from the listing (navy text)</figcaption></figure>
 <figure><img src="{room}" alt="Room"><figcaption>Room: real Pexels bathroom (free licence)</figcaption></figure>

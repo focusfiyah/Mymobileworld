@@ -70,7 +70,18 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "proof/compare.md",
+   "proof/compare/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-02",
+  "quote": "Approved, go (plan v2, $2.43, 2026-11-02)",
+  "total": 2.43,
+  "sha256": "dae0b4831736655ac559dee46583154cbe29a2b736f3a89c2bf31066de1b792f",
+  "spent_at_approval": 0.0
  }
 }
