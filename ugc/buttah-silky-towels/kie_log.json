@@ -171,5 +171,258 @@
    ]
   },
   "costTime": 98
+ },
+ {
+  "t": "2026-11-02 20:42:58",
+  "submitted": "49dc0a01fefd6afd19f05544a84a1a8c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the pouch is a soft flat pack about 17 cm w"
+ },
+ {
+  "t": "2026-11-02 20:44:26",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the pouch is a soft flat pack about 17 cm wide, 15 cm tall and 4 cm thick, as in image G of the sheet: a little wider than an adult hand, about the size of a thick paperback, never bigger than the hand holding it, never a box, tub or canister. On the teal bedspread of the room photo: a plain beige canvas tote bag with no logo lies on its side, its open mouth toward the lens. The hand holds the pouch by its right teal edge just above the bag opening, the pouch held SIDEWAYS: WIDER THAN TALL, its long edge horizontal, exactly the flat soft pack in image 4 (glossy mint-teal edges with crinkled sealed ends on the LEFT and RIGHT, a matte black front panel, only a THIN window strip). It is NOT a tall stand-up pouch: no hang hole, no zipper, no big window panel. Front print facing the lens: thumb on the front teal edge, fingers curled behind, never covering the 'buttah.' logo. ONLY one hand enters from the frame edge: Grace's bare hand exactly as in her hand reference sheet: medium-brown skin with lighter palms, slim fingers, medium-length squoval nails with mauve-pink polish and crisp white French tips. NO rings on any finger, NO bracelet, NO watch, no jewellery of any kind. Whole wrist visible, a little forearm may show. Five fingers, natural knuckles and skin texture. The product is the REAL buttah. Silky Soft Towels 24-count soft pack in the references: a flat soft rectangular plastic pouch, wider than tall, with glossy mint-teal plastic edges and crinkled heat-sealed ends on the left and right; a large matte BLACK panel covers the front. Front print, top to bottom, exactly as the close-ups: 'buttah.' in large thin white lowercase serif letters ending in a full stop; 'Silky Soft Towels' in mint-teal serif with only the word 'Towels' in italic; a thin horizontal window strip where the white waffle towel inside shows through; three small round white outline badges in a row (a leaf, a globe, wavy lines); 'THE WASHCLOTH UPGRADE' in small white capitals; 'LARGE | SINGLE-USE | DRY OR WET' in thin white capitals; '24 COUNT' in tiny white capitals. A thin line of small teal text runs along the top seam. The pouch is closed and has no lid, no flap and no opening on the front. The print matches the references letter for letter and colour for colour and stays flat inside the black panel; no other marks, no added symbols, no stickers. Vertical 9:16 phone photo, soft bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the subject, realistic textures. The room matches the room reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real buttah. print. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos (its panels D, E, F, H are the towel references); image 2 = a close-up of the real 'buttah.' logo and 'Silky Soft Towels' line; image 3 = a close-up of the real window strip, three badges and white text lines; image 4 = the real pouch front; image 5 = the real room photo to use as the setting; image 6 = Grace's no-jewellery hand reference sheet (skin, nails; no rings, no bracelet). The pouch print must match images 2 to 4 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793650836370-ha80gfo95o8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793650839150-7fwl44qs5rn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793650841189-e2z9k8xkslg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793650843577-oudm8k1ozz.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793650845083-kfpcqvmvl6.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652154472-9w2s22j6qb4.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "49dc0a01fefd6afd19f05544a84a1a8c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/49dc0a01fefd6afd19f05544a84a1a8c_0_1793652261.jpeg"
+   ]
+  },
+  "costTime": 85
+ },
+ {
+  "t": "2026-11-02 20:44:59",
+  "submitted": "e90f96030cdfd617d0632cf737067910",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and nails exactly. Image 2 is the real "
+ },
+ {
+  "t": "2026-11-02 20:47:11",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and nails exactly. Image 2 is the real 'buttah.' logo and 'Silky Soft Towels' line, image 3 the real window strip, three badges and white text lines: they stay on the pouch the whole clip and match images 2 and 3 letter for letter and colour for colour. Image 4 is the product sheet: keep this exact soft flat pouch shape, size and colours; no added marks, no extra text. The pouch stays closed with no lid, flap or opening, and never bends, turns or flips. Image 5 is Grace's hand sheet: the hand stays exactly as in images 1 and 5, mauve-pink French-tip nails, no rings, no bracelet, no watch; no jewellery appears at any time. Motion: The hand keeps one grip and slides the pouch straight down into the tote until only its top third shows, front print facing the lens the whole time; the pouch never turns or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652282887-u3ssfuv6qm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652284746-d8qqew8y85f.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652286458-9r2zql4wou.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652288226-hsbc5g6x7cc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652291420-tcixjefopvj.jpg"
+    ]
+   }
+  },
+  "taskId": "e90f96030cdfd617d0632cf737067910",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/e90f96030cdfd617d0632cf737067910_0_1793652424.mp4"
+   ]
+  },
+  "costTime": 128,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 20:47:15",
+  "clip_check": "/home/user/Mymobileworld/ugc/buttah-silky-towels/clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.948
+ },
+ {
+  "t": "2026-11-02 20:49:50",
+  "submitted": "454dfa4b139a579210eb6ab8ac78b481",
+  "prompt": "Animate this exact first frame: keep its room, light and framing exactly. One water drop falls from the washcloth's lowe"
+ },
+ {
+  "t": "2026-11-02 20:50:04",
+  "submitted": "fb942b02e5e5f2686996232de47b349b",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and nails exactly. Image 2 is the real "
+ },
+ {
+  "t": "2026-11-02 20:50:09",
+  "submitted": "bdc2c32e95676eaf423540e7550a071e",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is the real 'buttah.' logo a"
+ },
+ {
+  "t": "2026-11-02 20:50:11",
+  "submitted": "319218ddbab570ba76f927945ca5f700",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is the real 'buttah.' logo a"
+ },
+ {
+  "t": "2026-11-02 20:50:13",
+  "submitted": "b2357b900de5aab87265b6427c57878f",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and nails exactly. Image 2 is the real "
+ },
+ {
+  "t": "2026-11-02 20:51:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this exact first frame: keep its room, light and framing exactly. One water drop falls from the washcloth's lower corner into the basin; nothing else moves. Camera: slow dolly in toward the washcloth. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. No towel pack or product appears. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652583213-mlv0q4gbgch.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "454dfa4b139a579210eb6ab8ac78b481",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793652670065-2ncnes46u61.mp4"
+   ]
+  },
+  "costTime": 83
+ },
+ {
+  "t": "2026-11-02 20:51:52",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and nails exactly. Image 2 is the real towel: it stays a plain white waffle towel with no print; no towel pack or packaging appears in this clip. Image 3 is Grace's hand sheet: the hand stays exactly as in images 1 and 3, mauve-pink French-tip nails, no rings, no bracelet, no watch; no jewellery appears at any time. Motion: The hand keeps its pinch and gives one small gentle shake; the towel sways and settles, its waffle texture catching the light. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652585990-cnhm5zhxgtq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652589625-93gwkexjhur.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652591498-knr3tjl8jc.jpg"
+    ]
+   }
+  },
+  "taskId": "fb942b02e5e5f2686996232de47b349b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/fb942b02e5e5f2686996232de47b349b_0_1793652708.mp4"
+   ]
+  },
+  "costTime": 112,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 20:51:55",
+  "clip_check": "/home/user/Mymobileworld/ugc/buttah-silky-towels/clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.925
+ },
+ {
+  "t": "2026-11-02 20:51:59",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is the real 'buttah.' logo and 'Silky Soft Towels' line, image 3 the real window strip, three badges and white text lines: they stay on the pouch the whole clip and match images 2 and 3 letter for letter and colour for colour. Image 4 is the product sheet: keep this exact soft flat pouch shape, size and colours and the plain white waffle towels; no added marks, no extra text. The pouch stays closed with no lid, flap or opening, and never bends, turns or flips. No hand, fingers or people appear at any time. Motion: Nothing in the scene moves. Camera: slow dolly in until the pouch fills the middle third of the frame. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652585932-mh1m2eyvma.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652587907-dh4c25kfzse.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652592285-36xvdhzf1xg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652594281-ostbrb5kp0i.png"
+    ]
+   }
+  },
+  "taskId": "319218ddbab570ba76f927945ca5f700",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/319218ddbab570ba76f927945ca5f700_0_1793652716.mp4"
+   ]
+  },
+  "costTime": 113,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 20:52:01",
+  "clip_check": "/home/user/Mymobileworld/ugc/buttah-silky-towels/clips/S7.mp4",
+  "still": "stills/S7.png",
+  "ok": true,
+  "score": 0.706
+ },
+ {
+  "t": "2026-11-02 20:52:05",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing exactly. Image 2 is the real 'buttah.' logo and 'Silky Soft Towels' line, image 3 the real window strip, three badges and white text lines: they stay on the pouch the whole clip and match images 2 and 3 letter for letter and colour for colour. Image 4 is the product sheet: keep this exact soft flat pouch shape, size and colours; no added marks, no extra text. The pouch stays closed with no lid, flap or opening, and never bends, turns or flips. No hand, fingers or people appear at any time. Motion: Nothing in the scene moves. Camera: slow push-in from above toward the pouch with a slight drift to the right. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652585954-16gb7glj97l.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652588632-t61o2eff1yt.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652590777-6ar8dwdyjxf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652592793-qsf6gfgih4.png"
+    ]
+   }
+  },
+  "taskId": "bdc2c32e95676eaf423540e7550a071e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/bdc2c32e95676eaf423540e7550a071e_0_1793652717.mp4"
+   ]
+  },
+  "costTime": 119,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 20:52:09",
+  "clip_check": "/home/user/Mymobileworld/ugc/buttah-silky-towels/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.945
+ },
+ {
+  "t": "2026-11-02 20:52:18",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing, hand and nails exactly. Image 2 is the real 'buttah.' logo and 'Silky Soft Towels' line, image 3 the real window strip, three badges and white text lines: they stay on the pouch the whole clip and match images 2 and 3 letter for letter and colour for colour. Image 4 is the product sheet: keep this exact soft flat pouch shape, size and colours and the plain white waffle towels; no added marks, no extra text. The pouch stays closed with no lid, flap or opening, and never bends, turns or flips. Image 5 is Grace's hand sheet: the hand stays exactly as in images 1 and 5, mauve-pink French-tip nails, no rings, no bracelet, no watch; no jewellery appears at any time. Motion: The hand keeps its pinch and lifts the top folded towel straight up about 15 cm and away toward the right edge; the pouch and the rest of the stack never move. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652586056-0x81ppyoc21.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652588301-ifqzs6thgo9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652590208-ip1nnbhngwr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652592209-gi1cf111tcq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/buttah-silky-towels/1793652594642-3x0ylf69s5t.jpg"
+    ]
+   }
+  },
+  "taskId": "b2357b900de5aab87265b6427c57878f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/b2357b900de5aab87265b6427c57878f_0_1793652731.mp4"
+   ]
+  },
+  "costTime": 124,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 20:52:20",
+  "clip_check": "/home/user/Mymobileworld/ugc/buttah-silky-towels/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.795
  }
 ]

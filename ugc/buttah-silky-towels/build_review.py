@@ -45,11 +45,17 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 </style>
 <div class="wrap">
 <header><h1>buttah. Silky Soft <em>Towels</em></h1><p class="sub">Grace, 24 count travel pack. Music-only video, ~12 s, 6 shots, with a script Grace can voice later. Plan for your OK; nothing has been paid for yet.</p></header>
-<section class="ask"><strong>Storyboard round 1: your call on S5 (spent $0.54 of $2.68)</strong><ol>
-<li><b>S5 is the wrong pack</b>: it drew a tall stand-up pouch with a hang hole and a big window, and "Towels" lost its italic. Redo with the prompt fixed (pack held sideways, wider than tall, no hang hole, no big window): <b>$0.09</b>, from the redo allowance in the book.</li>
-<li>S3: the open towel hangs longer than the real one (real is almost square, 30 x 28 cm). Let it go, or redo for $0.09?</li>
-<li>S1, S6, S7: print matches letter for letter at 2x (logo, italic Towels, window strip, 3 badges, white lines). S1 hand: bare, French tips, no rings, pinch grip. S2: no product, no hands.</li></ol></section>
-<section class="box"><h2>Storyboard round 1</h2><div class="stgrid">STORY</div></section>
+<section class="ask"><strong>Cut v1 ready for your review (12.0 s, no sound)</strong><ol>
+<li>Watch it below. No audio track, so you can add the music; no text, no captions; AI finish on (grain, sharpness, saturation down a little).</li>
+<li>Each shot sits on Grace's script line, so her voiceover drops straight on: hook 0-2.8 s, washcloth 2.8-4.2, towel 4.2-6.2, tote 6.2-8.4, carry-on 8.4-10.4, end pouch 10.4-12.0.</li>
+<li>Checks: 1080x1920, no frozen or black frames, bright (luma 109-135), print right at 2x on the end shot, cut gate OK (compare vs @mayahome02: 4.2 cuts per 10 s vs their 3.3).</li>
+<li>Spent: Kie $2.37 of $2.68 (November $3.69 of $100). On your OK: Drive folder "Buttah Silky Soft Towels (Grace)" with the video + the script doc, then merge.</li></ol></section>
+<section class="box"><h2>Cut v1</h2><video src="cut_v1.mp4" controls playsinline muted loop style="width:100%;max-width:400px;border-radius:8px"></video></section>
+<details class="box"><summary><b>S5 test clip</b> (approved)</summary>
+<section class="box"><h2>S5 test clip (Omni 1.1 Flash, 4 s)</h2><video src="S5_clip.mp4" controls playsinline muted loop style="width:100%;max-width:360px;border-radius:8px"></video>
+<figure><img src="st/S5_zoom.jpg" alt="S5 clip frames at 2x"><figcaption>2x at 0.8 s and 2.4 s: big print holds, small lines drift</figcaption></figure></section>
+</details>
+<section class="box"><h2>Storyboard (S5 redone)</h2><div class="stgrid">STORY</div></section>
 <details class="box"><summary><b>Plan you approved</b> ($2.68; bare hand, no rings or bracelet; pouch 17 x 15 cm; no HofR for now; no captions)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
 <li><b>Approve the plan</b> below: total <b>$2.68</b> on Kie (6 stills $0.54, 5 Omni clips $1.58, 1 Seedance $0.16, one likely redo $0.41). Cut to 12 s as you asked: shorter lines, the tap shot dropped. November so far $1.32 of $100.</li>
@@ -85,7 +91,7 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <tr class="tot"><td>Total</td><td class="n">2.68</td></tr></table></div>
 <p class="sub">Order: all 6 stills at once, storyboard here for your look, then ONE test clip (S5, the riskiest), then the other 5 at once. About 30-35 min of machine time after your OK, plus your two review stops.</p></section>
 </div>"""
-ST = [("S1","PASS","Pinch grip, bare hand, print exact."),("S2","PASS","Old damp washcloth, no product."),("S3","FIX?","Towel hangs longer than the real near-square one."),
- ("S5","REDO","Wrong pack shape: tall stand-up pouch with hang hole and big window."),("S6","PASS","Print exact on the carry-on."),("S7","PASS","End shot, one pouch, print exact.")]
-page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{"ok" if v=="PASS" else "bad"}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
+ST = [("S1","PASS","Pinch grip, bare hand, print exact."),("S2","PASS","Old damp washcloth, no product."),("S3","KEPT","Your call: keep (towel a bit long)."),
+ ("S5","PASS","Redone with her hand sheet: flat pack sideways, print right, real nails, no rings."),("S6","PASS","Print exact on the carry-on."),("S7","PASS","End shot, one pouch, print exact.")]
+page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_{"r2" if i=="S5" else "r1"}.jpg" alt="{i} still"><figcaption><b class="{"ok" if v=="PASS" else "bad"}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
 Path("review/index.html").write_text(page); print(len(page))

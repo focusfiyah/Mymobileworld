@@ -5,13 +5,15 @@
    "refs/closeup_logo.png",
    "refs/closeup_badges.png",
    "refs/front_clean.png",
-   "rooms/pick/bath_A.jpg"
+   "rooms/pick/bath_A.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
   ],
   "clip_refs": [
    "stills/S1.png",
    "refs/closeup_logo.png",
    "refs/closeup_badges.png",
-   "refs/product_sheet.png"
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
   ],
   "model": "omni"
  },
@@ -27,11 +29,13 @@
  "S3": {
   "still_refs": [
    "refs/towel_ref.png",
-   "rooms/pick/bath_B_teal.jpg"
+   "rooms/pick/bath_B_teal.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
   ],
   "clip_refs": [
    "stills/S3.png",
-   "refs/towel_ref.png"
+   "refs/towel_ref.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
   ],
   "model": "omni"
  },
@@ -41,13 +45,15 @@
    "refs/closeup_logo.png",
    "refs/closeup_badges.png",
    "refs/front_clean.png",
-   "rooms/pick/bedroom_teal.jpg"
+   "rooms/pick/bedroom_teal.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
   ],
   "clip_refs": [
    "stills/S5.png",
    "refs/closeup_logo.png",
    "refs/closeup_badges.png",
-   "refs/product_sheet.png"
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
   ],
   "model": "omni"
  },

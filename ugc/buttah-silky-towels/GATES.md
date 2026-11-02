@@ -20,5 +20,6 @@
   CHECK: cd /home/user/Mymobileworld/ugc/buttah-silky-towels && ! grep -Eiq "order (it )?now|heads up|\\$[0-9]|reviewer|the label says|—|–" scripts.md && grep -q "It's in the orange cart." scripts.md && echo CLEAN
   EXPECT: CLEAN
   EVIDENCE: automatic-evidence=v1; definition-sha256=24a0f5db3b9bdbbd864e23aff0d163c136b5c44382dd81d3ef26e7c416fd362b; exit=0; EXPECT=matched; output-sha256=0b98843240a0b1a2384483206c02be8968dd809eb73838820be24cb7d6d6aeb9; output-bytes=6; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/buttah-silky-towels; path=7f4fb4b02918/15 entries
-- [ ] G6: Ralph notified (phone push + email) with the review link (manual)
+- [x] G6: Ralph notified (phone push + email) with the review link (manual)
+  EVIDENCE: Gmail ids 1a19ddccdba652fa (plan), 1a19dee64f6946d9 (storyboard), 1a19e0b73dbc3199 (cut); push requested each time; Ralph approved cut v1 2026-11-02
 Later stages (after his OK): stills QC at 2x, test clip S5, clips, cut + QC + AI finish, REMOVED.md check, Drive folder, merge to main, brain note.
