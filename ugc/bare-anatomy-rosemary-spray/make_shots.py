@@ -15,7 +15,7 @@ BOTTLE = ("The real Bare Anatomy Rosemary & Rice Water Hair Spray bottle, exactl
           "'HAIR SPRAY' in dark purple capitals between thin grey lines, two small round purple line icons reading 'ALCOHOL FREE' and 'SULPHATE FREE', "
           "then small black text 'Helps Hair Appear Fuller & Voluminous', 'Water-Based Formula', '200 ml | 6.76 fl oz'. "
           "No other words, no badges, no stickers, no box.")
-HAIR = ("Her hair: dark brown, shoulder length, loose soft waves, freshly washed and DAMP (darker, a little shiny, not dripping).")
+HAIR = ("Her hair is Grace's real hair exactly as in the hair reference: long jet-black knotless boho braids, thin and neat, with loose curly ends, the braids parted into small square sections so straight lines of scalp show between them. Medium-dark brown skin on the scalp. No loose straight hair, no wig, no head wrap.")
 HAND = ("Grace's hand exactly as on the hand sheet: medium-brown skin, short squared French-tip nails (pale pink with white tips), a silver crown ring stack on the ring finger, "
         "a small gold ring with a heart-shaped stone on the middle finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; "
         "the hand enters from the frame edge, the whole wrist visible, and GRIPS what it holds.")
@@ -29,6 +29,7 @@ REFDESC = {
     "front": "a real close-up of the front label, which must match letter for letter and colour for colour",
     "sprayer": "a real close-up of the black collar and black trigger sprayer, copy its exact shape",
     "hand": "Grace's hand sheet (her real hands, rings and nails)",
+    "hair": "Grace's real hair (long black knotless boho braids with curly ends), copy this exact hair",
     "A": "the real room to use as the soft background (same green tiles, colours and light)",
     "B": "the real room to use as the background (same dark counter, green mosaic tiles, plants, colours and light)",
     "C": "the real room to use as the background (same kitchen, gas stove, tiles, plants, colours and light)",
@@ -37,7 +38,7 @@ REFDESC = {
     "F": "the real room to use as the background (same bright kitchen with plants on the shelf, colours and light)",
 }
 FILES = {"sheet": "refs/product_sheet.png", "front": "refs/closeup_front.png", "sprayer": "refs/closeup_sprayer.png",
-         "hand": "../../grace/ref/hand-sheets/without_bracelet.jpg",
+         "hand": "../../grace/ref/hand-sheets/without_bracelet.jpg", "hair": "refs/grace_hair.jpg",
          **{k: f"rooms/room_{k}.jpg" for k in "ABCDEF"}}
 
 
@@ -78,11 +79,11 @@ def s(id, t, beat, hand, bottle, room, model, still, motion, refs, hair=False):
 
 SHOTS = [
     s("S1", [0.0, 2.0], "Hook", True, True, "A", "omni",
-      "Close shot from just above and behind her head: a centre part in her damp hair fills the lower half of the frame. Her hand comes in from the right edge "
-      "and GRIPS the ONE bottle around its body, index finger on the black trigger, the nozzle aimed down at the roots along the part, the front label facing the camera. "
+      "Close shot from just above and behind her head: the top of her head with the braided parts fills the lower half of the frame. Her hand comes in from the right edge "
+      "and GRIPS the ONE bottle around its body, index finger on the black trigger, the nozzle aimed down at the scalp along one braid part, the front label facing the camera. "
       "Green tiles soft and out of focus behind. Only one bottle.",
-      "her index finger squeezes the trigger twice and a fine clear mist puffs onto the roots along the part; the hand stays in place. Camera steady.",
-      ["sheet", "front", "sprayer", "hand"], hair=True),
+      "her index finger squeezes the trigger twice and a fine clear mist puffs onto the scalp along the braid part; the hand stays in place. Camera steady.",
+      ["sheet", "front", "sprayer", "hand", "hair"], hair=True),
     s("S2", [2.0, 3.4], "Pain", False, False, "C", "seedance",
       "Close shot on the gas stove: a small steel pot of water with a few green rosemary sprigs floating in it, gently simmering, steam rising; "
       "the tiled wall and plants soft behind. Only the pot, no other products.",
@@ -94,13 +95,13 @@ SHOTS = [
       "only the camera moves, a small slow slide from left to right, the three bottles always facing the camera; nothing in the room moves.",
       ["sheet", "front"]),
     s("S4", [5.0, 6.6], "How to use", True, False, "A", "seedance",
-      "Close shot from just above: her fingertips rest on the scalp at the centre part of her damp hair, ready to rub in small circles. No bottle in the frame. Green tiles soft behind.",
-      "her fingertips rub the scalp along the part in small slow circles, the damp hair moving a little. Camera steady.",
-      ["hand"], hair=True),
+      "Close shot from just above: her fingertips rest on the scalp along one braid part, ready to rub in small circles. No bottle in the frame. Green tiles soft behind.",
+      "her fingertips rub the scalp along the braid part in small slow circles, the braids moving a little. Camera steady.",
+      ["hand", "hair"], hair=True),
     s("S5", [6.6, 8.0], "Selling point", True, False, "A", "seedance",
-      "Close shot from behind her shoulder: her hand holds a plain black wide-tooth comb with no logo at the top of her damp hair. No bottle in the frame. Green tiles soft behind.",
-      "the comb glides smoothly down through the damp hair from root to end without catching. Camera steady.",
-      ["hand"], hair=True),
+      "Close shot from behind her shoulder: her hand holds a few of her long braids near the top between her thumb and fingers, the curly ends hanging below. No bottle, no comb in the frame. Green tiles soft behind.",
+      "her fingers slide slowly down the braids from top to the curly ends, the braids soft and light, and let them fall. Camera steady.",
+      ["hand", "hair"], hair=True),
     s("S6", [8.0, 9.4], "Urgency", False, True, None, "omni",
       "ONE bottle stands on a white wooden windowsill, front facing the camera; behind it the window glass has soft white frost in the corners and a snowy garden outside, "
       "bright cold daylight. Only one bottle.",
