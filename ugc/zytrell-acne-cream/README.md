@@ -4,3 +4,4 @@ Product: ZYTRELL Acne Treatment Cream, 2% salicylic acid, 0.35 oz / 10 g. Route:
 
 Status: 2026-11-02 round 2: final plan sent (Script A only, Grace likeness, all Kie, 10 prompts checked); waiting on Ralph's OK + bracelet yes/no. Spent $0. TOTAL $1.887 ($1.572 without the redo).
 - 2026-11-02 stills: Ralph tapped keep rings, let S2 concealer go, run S3 test clip
+- 2026-11-02 S3: Ralph tapped 'Trim 2.1-3.9 s (Recommended)'; tapped 'Yes, run all 4 (Recommended)' for S1 S2 S4 S5 ($0.81)
