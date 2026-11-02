@@ -83,5 +83,23 @@
   "total": 2.43,
   "sha256": "dae0b4831736655ac559dee46583154cbe29a2b736f3a89c2bf31066de1b792f",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 0.04,
+   "what": "S1 still edit: palm moved under the pump nozzle",
+   "by": "Ralph",
+   "quote": "Edit + Kling clip (Recommended) [S1 fix: edit $0.09 Kie, +$0.04 over the book, Kling ~50 credits]",
+   "date": "2026-11-02",
+   "book_sha256": "dae0b4831736655ac559dee46583154cbe29a2b736f3a89c2bf31066de1b792f"
+  },
+  {
+   "usd": 0.01,
+   "what": "rounding margin for the S1 edit, no extra generation",
+   "by": "Ralph",
+   "quote": "Edit + Kling clip (Recommended) [same OK; margin only: the lock refused a call landing exactly on the approved $2.47]",
+   "date": "2026-11-02",
+   "book_sha256": "dae0b4831736655ac559dee46583154cbe29a2b736f3a89c2bf31066de1b792f"
+  }
+ ]
 }

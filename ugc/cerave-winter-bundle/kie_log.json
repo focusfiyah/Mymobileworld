@@ -492,5 +492,35 @@
   "costTime": 51,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 21:33:52",
+  "submitted": "ae4e2af959108d6b37b69b7e10fce83b",
+  "prompt": "Edit image 1. Move ONLY her cupped LEFT hand: it now sits palm up directly UNDER the tip of the pump nozzle, which stick"
+ },
+ {
+  "t": "2026-11-02 21:34:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Move ONLY her cupped LEFT hand: it now sits palm up directly UNDER the tip of the pump nozzle, which sticks out to the LEFT of the bottle, about 5 cm below the nozzle tip and beside the bottle's left shoulder, so the cleanser would drop straight into her palm; the small white dollop of creamy cleanser sits in the centre of that palm, right under the nozzle. Her left forearm comes in from the bottom-left frame edge, the whole wrist and the cream knit sweater cuff in frame, the same medium-brown skin, short squared French-tip nails and rings as image 3. Keep everything else exactly as image 1: the bottle and its position, the white pump head with the nozzle pointing left, the lime-green pump collar, every letter and colour of the front label (it matches image 2 letter for letter), her right hand on top of the pump, the room, the light and the framing. Vertical 9:16, no text, no captions, no added marks.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793655209738-cqmf8cwkhka.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652181659-37sk4kjiczl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652183995-wp978zaxe6.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "ae4e2af959108d6b37b69b7e10fce83b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/ae4e2af959108d6b37b69b7e10fce83b_0_1793655278.jpeg"
+   ]
+  },
+  "costTime": 48,
+  "credits": 18.0,
+  "usd": 0.09
  }
 ]

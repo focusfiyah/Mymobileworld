@@ -10,5 +10,17 @@
   "generationId": "Afk24QsJmlWuF32WyluZVXqtQok_EtCCnPjjuHBgQp7vmJdsuYg7A6XP-8KgtF05kh9JiKJr",
   "prompt_file": "prompts/S3_clip_kling.txt",
   "still": "stills/S3.png (edit of S2 + hand)"
+ },
+ {
+  "t": "2026-11-02 21:35:38",
+  "shot": "S1",
+  "model": "kling-video-v3_0_turbo",
+  "duration": 5,
+  "res": "1080p",
+  "credits": 50,
+  "credits_before": 618,
+  "generationId": "AVV2YMtI8XQqxnuzfpp62P5jZFmcIiiqzf-s0A0I1wz6grjN5WU7rm0N3brG5IVTswR2artn",
+  "prompt_file": "prompts/S1_clip_kling.txt",
+  "still": "stills/S1_r3.png"
  }
 ]
