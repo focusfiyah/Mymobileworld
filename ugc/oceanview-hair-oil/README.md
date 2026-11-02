@@ -1,6 +1,6 @@
 # Ocean View Juice Boost Hair Growth Oil, 100 ml (Grace)
 
-Status (2026-11-02): plan sent, $0 spent. Waiting on Ralph: route (Kie $2.94 or free Gemini+Flow $0.74), hook A/B/C, text yes/no, hand/hair details, real photos or listing link. Next: 7 stills, then S4 test clip.
+Status (2026-11-02): DONE. Cut v2 approved by Ralph and in Drive ("CURRENT - Juice Boost Oil V2.mp4"). Spent $3.88 of $3.90 approved (book $2.94 + extras). VO script for later is in scripts.md and the Drive doc. HofR version skipped (Ralph).
 Review page: https://claude.ai/artifact/V4XXacK6ByYqcoixdn7SZN
 Drive: https://drive.google.com/drive/folders/1UcHmH5IGzz-9Awtd-eh04Mjaahtwa1gO (CURRENT - Juice Boost Oil script v1)
 

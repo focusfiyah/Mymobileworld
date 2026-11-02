@@ -58,6 +58,7 @@ TOTAL: $2.94
 **Approve?**
 
 ## 7. Questions
+Answers (Ralph 2026-11-02, question cards): route Kie for everything; hook A; no on-screen text; hands/hair as described; start now with the listing photo; Approve $2.94.
 1. Route: Kie ($2.94) or your free Gemini + Flow kit ($0.74)?
 2. Hook A, B or C; on-screen text yes or no (default no)?
 3. Hands/hair: medium-deep brown skin, short natural nails, 4C hair OK?

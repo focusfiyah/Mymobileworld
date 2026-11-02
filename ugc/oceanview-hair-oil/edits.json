@@ -1,0 +1,14 @@
+{
+ "S4e": {
+  "edit": "Edit image 1. Image 2 shows Grace's real hands. Replace ONLY the hand holding the bottle with Grace's hand from image 2: medium-brown skin, long square French-tip nails (pink with white tips), a silver crown-shaped ring stack on the ring finger, a gold ring with a triangle stone on the index finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch. Keep the same grip and the same hand position. Keep everything else in image 1 exactly the same, pixel for pixel: the bottle, its label print and colours, the cap, the hair, the background and the light. No text, no captions.",
+  "src": "stills/S4_r2_crop.png"
+ },
+ "S7e": {
+  "edit": "Edit image 1. Image 2 shows Grace's real hands. Replace ONLY the hand holding the bottle with Grace's hand from image 2: medium-brown skin, long square French-tip nails (pink with white tips), a silver crown-shaped ring stack on the ring finger, a gold ring with a triangle stone on the index finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch. Keep the same grip and the same hand position. Keep everything else in image 1 exactly the same, pixel for pixel: the bottle, its label print and colours, the cap, the toiletry bag and the second bottle in it, the background and the light. No text, no captions.",
+  "src": "stills/S7_r1.png"
+ },
+ "S4oil": {
+  "src": "stills/S4e.png",
+  "edit": "Edit image 1. Add ONLY oil: a wet, glossy line of clear golden-yellow oil along the hairline and baby hairs just in front of the tip, the edge hairs look wet and shiny where the oil sits, and one small clear golden drop of oil hanging from the pointed tip, touching the skin. The oil is transparent golden-yellow like the oil inside the bottle, never white, silver or beaded. Keep everything else in image 1 exactly the same, pixel for pixel: the bottle, its label print and colours, the cap, Grace's hand, nails and blue band, the hair texture, the framing, the background and the light. No text. Image 2 is only a reference for Grace's hand, which must not change."
+ }
+}
