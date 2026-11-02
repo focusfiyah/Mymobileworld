@@ -35,6 +35,7 @@ STEPS = {   # key: what proof it needs (PLAYBOOK §4 "Every script uses ALL of t
     "humanizer":       "Humanizer report on the FINAL script + captions (tells found, what changed)",
     "readability":     "tiktok.py readability output for each script (grade must be <= 6)",
     "audience":        "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)",
+    "research":        "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)",
     "line_sources":    "file showing the source of every script line (coach data / playbook / psychology / research)",
 }
 CUT_STEPS = {"compare": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"}
@@ -43,7 +44,7 @@ BANNED = [r"\border (it )?now\b", r"\bheads up\b", r"\bgame[- ]changer\b", r"\bo
 
 
 AUDIENCE_HEADS = ["## who", "## pain point experience", "## communication style", "## what it means for the script"]
-PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience")   # research that comes BEFORE the script: not required to be newer than it
+PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience", "research")   # research that comes BEFORE the script: not required to be newer than it
 
 
 def check_readability(job, c):
@@ -102,10 +103,62 @@ def check_audience(job, c):
     return errs
 
 
+RESEARCH_HEADS = ["## product differentiation", "## target buyer", "## pain points and desires", "## buyer motivation",
+                  "## existing content research", "## objections and purchase justification", "## content opportunities",
+                  "## overall verdict"]
+RESEARCH_ROLES = ["hook", "desire", "objection killer", "purchase justification"]
+RESEARCH_FROM = "2026-11-02"
+
+
+def research_required(c):
+    """Grace's research workflow (Ralph + Grace 2026-11-02) is required for jobs started from that day (checklist 'created'
+    written by --init) or any checklist that lists a 'research' step. Older jobs: only when research_legacy is not set
+    and they add the step; research_legacy: true skips it."""
+    if c.get("research_legacy"): return False
+    return "research" in c or str(c.get("created", "")) >= RESEARCH_FROM
+
+
+def check_research(job, c):
+    """RESEARCH.md must hold Grace's 7 sections + the overall verdict, filled in (no template <...> left), and the four
+    role lines 'The X is the hook/desire/objection killer/purchase justification.' Each role lists >= 2 hook options as
+    '- H123: ...' (a real Grace library id) or '- NEW: ...', with at least one library hook per role (library first,
+    NEW ones only on Ralph's OK)."""
+    if not research_required(c): return []
+    proof = (c.get("research") or {}).get("proof") or []
+    md = [p for p in proof if p.endswith("RESEARCH.md")]
+    if not md: return ["research: proof must include research/RESEARCH.md (copy grace/research/TEMPLATE.md)"]
+    f = job / md[0]
+    if not f.exists(): return [f"research: {md[0]} not found"]
+    text = f.read_text(errors="ignore"); low = text.lower(); errs = []
+    for h in RESEARCH_HEADS:
+        if h not in low: errs.append(f"research: missing the section '{h[3:]}'")
+    if re.search(r"<[^>\n]{3,}>", text): errs.append("research: template placeholders <...> are still in the file")
+    for name, body in re.findall(r"(?ims)^## ([^\n]+)\n(.*?)(?=^## |\Z)", text):
+        if name.strip().lower() != "overall verdict" and len(re.findall(r"\w+", body)) < 15:
+            errs.append(f"research: section '{name.strip()}' is too thin (< 15 words)")
+    lib = Path(__file__).resolve().parent / "hooks" / "hooks.json"
+    ids = {h["id"] for h in json.loads(lib.read_text()).get("hooks", [])} if lib.exists() else set()
+    verdict = re.split(r"(?im)^## overall verdict", text)[-1] if "## overall verdict" in low else ""
+    parts = re.split(r"(?im)^#{2,4} *(the .+? is the (?:hook|desire|objection killer|purchase justification)\.?) *$", verdict)
+    roles = {}
+    for i in range(1, len(parts) - 1, 2):
+        role = re.search(r"is the (.+?)\.?$", parts[i].strip().lower()).group(1)
+        roles[role] = parts[i + 1]
+    for r in RESEARCH_ROLES:
+        if r not in roles: errs.append(f"research: verdict needs the line 'The [X] is the {r}.' as its own heading"); continue
+        opts = re.findall(r"(?m)^- *(H\d{3}|NEW): *(\S.*)$", roles[r])
+        libs = [o for o in opts if o[0] != "NEW"]
+        for i, _ in libs:
+            if i not in ids: errs.append(f"research: {r}: hook id {i} is not in grace/hooks/hooks.json")
+        if len(opts) < 2: errs.append(f"research: {r}: needs >= 2 hook options ('- H123: ...' or '- NEW: ...'), found {len(opts)}")
+        if not libs: errs.append(f"research: {r}: needs at least one library hook (H###) before NEW ones")
+    return errs
+
+
 def init(job):
     p = Path(job) / "checklist.json"
     if p.exists(): sys.exit(f"{p} exists")
-    p.write_text(json.dumps({"scripts": ["scripts.md"], "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
+    p.write_text(json.dumps({"created": datetime.date.today().isoformat(), "scripts": ["scripts.md"], "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
                              **{k: {"proof": [], "note": v} for k, v in {**STEPS, **CUT_STEPS}.items()}}, indent=1))
     print("wrote", p)
 
@@ -120,6 +173,7 @@ def check(job, stage="plan"):
         if not s.exists(): errs.append(f"script file missing: {s}")
     for k, why in {**STEPS, **(CUT_STEPS if stage == "cut" else {})}.items():
         if k == "audience" and c.get("audience_legacy"): continue
+        if k == "research" and not research_required(c): continue
         proof = (c.get(k) or {}).get("proof") or []
         if not proof: errs.append(f"{k}: no proof. Needs: {why}"); continue
         for f in proof:
@@ -128,6 +182,7 @@ def check(job, stage="plan"):
             elif k not in PROOF_FIRST and fp.stat().st_mtime < newest:
                 errs.append(f"{k}: {f} is older than the script: redo {k} on the current script")
     errs += check_audience(job, c)
+    errs += check_research(job, c)
     errs += check_readability(job, c)
     for o in overrides(c):   # a recorded exception covers ONLY the rule + videos it names; everything else still applies
         for f in ("rule", "videos", "by", "date", "quote", "grade"):
