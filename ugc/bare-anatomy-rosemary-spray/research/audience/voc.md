@@ -1,0 +1,10 @@
+# Voice of customer (verbatim, 2026-11-02)
+From TikTok comments (research/audience/comments.md) and the TikTok Shop listing reviews (research/listing_jina.md).
+- "Do you rinse it out or leave on?" (https://www.tiktok.com/@valerietaylorshop/video/7586118622691511565)
+- "do i use it while my hair is wet?" (same video)
+- "should i put it on my roots or ends or both?" (same video)
+- "Can we just make it at home and not pay? Because really???" (same video)
+- "I don’t trust this bc when I make rosemary water it gets red/orange why is this clear?" (same video)
+- "does it actually work? I'm losing hair cause of stress" (https://www.tiktok.com/@aminas_ambience/video/7651169361343909133)
+- "The rosemary aroma is a little strong when sprayed 1st but it does go away." (listing review)
+- "I love this product it keeps my hair so moisturize and soft." (listing review)
