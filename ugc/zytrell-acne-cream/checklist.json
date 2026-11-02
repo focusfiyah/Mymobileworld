@@ -1,0 +1,88 @@
+{
+ "scripts": [
+  "scripts.md",
+  "research/v1_script.txt"
+ ],
+ "vo_lines": [
+  "research/v1_script.txt"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)",
+  "rules_applied": [
+   "\u00a71 house rules (no price, no downside, only our product)",
+   "\u00a73 hooks from HOOKS.md word for word",
+   "\u00a74 structure hook/pain/solution/confession/urgency/close + CTA sells more units",
+   "\u00a75 pacing ~3.3 w/s, beat every ~2-2.5 s",
+   "\u00a76 no text overlay, bright neutral, hand/hand-free mix"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop_acne_cream.txt",
+   "research/videos/7688533082919406862/meta.json",
+   "research/videos/7680751946700950814/transcript.txt",
+   "research/videos/7697324300298161441/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral-2026-11-02.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job",
+  "result_note": "0 videos: TikTok tag pages blocked from this container (tested 2026-11-02); top acne videos taken from saved boards, see coach_research.md"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "vo_lines_note": "No VO in this cut (Ralph 2026-11-02: 'No VO, music will be added later'); spoken lines kept for a later VO",
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-02",
+  "quote": "Yes, start stills (tapped 2026-11-02 on the final plan: Script A, Grace likeness, all on Kie, up to $1.89); hands: Without (Recommended)",
+  "total": 1.887,
+  "sha256": "b905c75fd18e6ef3fe2d3ff3de25a5134332bc9a10846b796b7bfcd8910d08c0",
+  "spent_at_approval": 0.0
+ }
+}
