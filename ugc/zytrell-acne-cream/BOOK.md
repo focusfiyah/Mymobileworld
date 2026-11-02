@@ -57,7 +57,7 @@ TOTAL: $1.887
 
 ## 7. Questions (all of them, now)
 Answered 2026-11-02 (Ralph): no real tube photos, use the listing; Grace's likeness; Script B line not true (A is final); stills and everything on Kie.
-1. Hands: Grace's hand sheet WITHOUT the bracelet (planned, cleaner for skincare) or WITH it (gold link bracelet + pearl chain)?
+1. Hands: WITHOUT the bracelet (Ralph 2026-11-02, tapped "Without (Recommended)").
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 All 10 prompts in `shots.json` (built by `tools_make_shots.py`), copies in `prompts/still_S*.txt` and `prompts/S*.txt`. `grace/prompt_check.py`: PROMPT_LINT_OK and MARKED_OK (2026-11-02).
