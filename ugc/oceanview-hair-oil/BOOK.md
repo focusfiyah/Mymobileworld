@@ -1,0 +1,83 @@
+# Production Book: Ocean View Juice Boost Hair Growth Oil (Grace)
+
+Sent to Ralph: https://claude.ai/artifact/V4XXacK6ByYqcoixdn7SZN (2026-11-02)
+
+## 1. Job
+- Client: Grace  Product: Ocean View Juice Boost Hair Growth Oil, 100 ml  Route: hands-only product ad, music only (references/hands-only-and-demo.md + product-lock.md)
+- Job folder: `ugc/oceanview-hair-oil/`  Target length: 11.6 s  Shots: 7 (3 hand-free)
+
+## 2. Gate result (`python3 grace/gate.py ugc/oceanview-hair-oil`): GATE OK
+| Proof | File | Result |
+|---|---|---|
+| Audience research | research/audience.md (1,949 search phrases, 412 comments) | OK |
+| Playbook rules read | research/playbook.md | OK |
+| Coach research (shop/discover + video x4) | research/coach.md | OK (hashtag pages returned 0, logged) |
+| Daily viral board | research/viral/viral-2026-11-02.json | ran, 0 videos (TikTok blocked hashtag pages) |
+| Product facts (source) | scripts.md, product_truth.json | OK (listing photo + title only) |
+| Hooks modeled on named winners | research/hooks.md (H105, H006, H147) | OK |
+| Humanizer | research/humanizer.md | OK |
+| Readability (grade) | research/readability_v1.txt | 2.9 |
+| Banned-phrase check | gate.py | OK |
+
+## 3. Script (final, Humanized)
+Music only in this cut. VO script for later (35 words, about 12.5 s):
+Nobody shows you this part of batana. / No paste to melt. / Batana, rosemary and castor in one oil. / The tip goes right on your edges. / Get a backup for winter. / It's in the orange cart.
+Source of each line: research/line_sources.md
+
+## 4. Shot list
+(11.6 s, 7 shots)
+Structure: hook, pain, solution, selling point, how to use, urgency, close.
+
+| # | Time | Beat | Shot (what moves) | Hand? | Product in frame? | VO line (later) |
+|---|---|---|---|---|---|---|
+| 1 | 0.0-2.0 | Hook | Close on a scalp part in natural hair; a hand holds the bottle upside down and the pointed tip draws a thin line of golden oil down the part. Product working from frame 0. | HAND | yes | Nobody shows you this part of batana. |
+| 2 | 2.0-3.4 | Pain | Slow push-in on an open jar of hard brown paste on a counter, a spoon stuck upright in it (plain jar, no brand). | HAND-FREE | no | No paste to melt. |
+| 3 | 3.4-5.0 | Solution | Slow arc around the bottle on a bright bathroom counter, fresh rosemary sprigs beside it, sunlight through the oil. | HAND-FREE | yes | Batana, rosemary and castor in one oil. |
+| 4 | 5.0-6.6 | Selling point | The tip glides along the hairline at the temple, a thin shine of oil left on the edges. | HAND | yes | The tip goes right on your edges. |
+| 5 | 6.6-8.0 | How to use | Fingertips massage the oil into the scalp in small circles. | HAND | no | (music beat, no line) |
+| 6 | 8.0-9.6 | Urgency | Slow push-in on two bottles on a vanity by a window, a chunky knit scarf draped beside them, bright winter daylight. | HAND-FREE | yes (2) | Get a backup for winter. |
+| 7 | 9.6-11.6 | Close (more units) | A hand sets one bottle into an open toiletry bag that already holds a second one. | HAND | yes | It's in the orange cart. |
+Outfit: n/a (hands, scalp and hairline only, no face)  Setting: real Pexels rooms (rooms/SOURCES.md)  Person: medium-deep brown skin, short natural nails, no polish, no rings, natural black 4C hair (TO CONFIRM)  Real product confirmed: clear bottle, golden oil, black pointed nozzle cap, rasta-gradient label (from the listing photo; TO CONFIRM)
+
+## 5. Order of work
+Product sheet (built, free) -> 7 stills, reviewed before any clip -> riskiest clip first (S4, tip on the hairline) as the ONE test clip -> rest in parallel -> free cut with music -> ai_finish -> QC -> review page. Free fixes planned: crop, retime, blur a stray mark.
+
+## 6. Cost (one total)
+| Item | Qty x unit | $ |
+|---|---|---|
+| Stills, Nano Banana Pro on Kie | 7 x $0.09 | 0.63 |
+| Product clips, Omni 4 s on Kie | 5 x $0.315 | 1.575 |
+| No-product clips, Seedance 2.0 Mini 4 s | 2 x $0.164 | 0.33 |
+| Likely redo: 1 still + 1 Omni clip (each asked first) | | 0.41 |
+| Music | free licensed track | 0 |
+Free route instead: stills in your Gemini app + product clips in your Flow app (5 x 12 = 60 credits) = Seedance only $0.33 + redo $0.41 = $0.74.
+Month so far (`python3 grace/spend.py`): $1.32 of $100.
+
+TOTAL: $2.94
+
+**Approve?**
+
+## 7. Questions
+1. Route: Kie ($2.94) or your free Gemini + Flow kit ($0.74)?
+2. Hook A, B or C; on-screen text yes or no (default no)?
+3. Hands/hair: medium-deep brown skin, short natural nails, 4C hair OK?
+4. Can Grace send real photos of the bottle (front, back, cap) or the listing link? Only one listing render so far; TikTok blocked the page for me.
+
+## 8. Prompts (final, written with prompt-master; linted PROMPT_LINT_OK)
+References for product stills: image 1 refs/product_sheet.png, image 2 refs/real/label_closeup.png, image 3 refs/real/cap_closeup.png, image 4 the room. For product clips: image 1 the approved still, image 2 label close-up, image 3 cap close-up, image 4 the sheet.
+| Item | Model | Prompt |
+|---|---|---|
+| S1 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background. Close-up from above of a scalp part in natural black 4C coily hair, the hair parted in a straight line down the middle of the frame. One hand holds the bottle upside down, the pointed tip touching the start of the part, a thin line of golden oil on the scalp along the part. The label faces the camera, readable. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL in a gold box, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S1 clip | Omni (Flow first) | Recreate image 1 exactly as the first frame. The hand slowly moves the bottle along the part, the pointed tip drawing a thin line of golden oil down the scalp, one small squeeze. The bottle keeps the same grip and never turns or flips; the label stays facing the camera. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the whole bottle must match image 4 (the product reference sheet). Camera holds steady, slight handheld drift. No music, no voice, no text. |
+| S2 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the room. Close-up on the wooden kitchen counter from image 1: an open plain glass jar with no label, filled with hard dark-brown paste, a metal spoon standing upright stuck in the paste, the kitchen window soft in the background. No bottles, no oil bottle, no hands, no people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S2 clip | Seedance 2.0 Mini | Slow push-in on the open jar of hard brown paste with the spoon standing upright in it. Nothing moves except the camera. No hands, fingers or people appear at any time. No music, no voice, no text. 4 seconds. |
+| S3 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the grey marble bathroom counter from image 4: the bottle standing upright, label facing the camera, two fresh green rosemary sprigs lying beside it, daylight passing through the golden oil. No hands, no people, only one bottle. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL in a gold box, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S3 clip | Omni (Flow first) | Recreate image 1 exactly as the first frame. Slow camera arc a few degrees around the bottle from left to right, the bottle standing still on the counter, label facing the camera the whole time. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the bottle must match image 4 (the product reference sheet). No hands, fingers or people appear at any time. No music, no voice, no text. |
+| S4 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background. Side close-up of a woman's temple and hairline, natural black 4C hair pulled back, short baby hairs at the edge, no face shown above the cheekbone line, only temple, hairline and ear. One hand holds the bottle with the pointed tip touching the hairline, a thin shine of oil on the edges. The label faces the camera. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL in a gold box, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S4 clip | Omni (Flow first) | Recreate image 1 exactly as the first frame. The hand glides the pointed tip slowly along the hairline from the temple toward the ear, leaving a thin shine of oil on the edges. Same grip the whole time, the bottle never turns or flips, label facing the camera. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the bottle must match image 4 (the product reference sheet). Camera steady. No music, no voice, no text. |
+| S5 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the room for the soft background. Close-up from above of natural black 4C coily hair parted in a line, a light shine of oil along the part, the fingertips of one hand pressed on the scalp at the part. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible. No bottle, no product in frame. Background: image 1, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S5 clip | Seedance 2.0 Mini | The fingertips massage the scalp along the part in small slow circles, the hair moving with them. No bottle or product appears at any time. Camera steady. No music, no voice, no text. 4 seconds. |
+| S6 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the grey counter by the bright window from image 4, snow outside: two identical bottles standing side by side, labels facing the camera, a chunky cream knit scarf draped beside them. Remove the olive oil bottle, bread and tomatoes; keep the basil plant. No hands, no people. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL in a gold box, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S6 clip | Omni (Flow first) | Recreate image 1 exactly as the first frame. Slow push-in on the two bottles, nothing moves except the camera, snow softly visible outside. Both labels must match image 2 letter for letter and colour for colour, the caps must match image 3, the bottles must match image 4 (the product reference sheet). No hands, fingers or people appear at any time. No music, no voice, no text. |
+| S7 still | Nano Banana Pro on Kie (or Gemini app, free) | Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the white vanity from image 4: an open beige zip toiletry bag with one bottle already standing inside it, top showing. One hand holds a second bottle just above the bag, label facing the camera. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL in a gold box, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.  |
+| S7 clip | Omni (Flow first) | Recreate image 1 exactly as the first frame. The hand lowers the bottle into the open toiletry bag beside the other one and lets go. Same grip until it lets go, the bottle never turns or flips, label facing the camera. Labels must match image 2 letter for letter and colour for colour, the caps must match image 3, the bottles must match image 4 (the product reference sheet). Camera steady. No music, no voice, no text. |

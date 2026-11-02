@@ -1,0 +1,92 @@
+{
+ "S1": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/front_clean.png",
+   "rooms/pick/bath_A.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S1.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "omni"
+ },
+ "S2": {
+  "still_refs": [
+   "rooms/pick/towel_bar.jpg"
+  ],
+  "clip_refs": [
+   "stills/S2.png"
+  ],
+  "model": "seedance"
+ },
+ "S3": {
+  "still_refs": [
+   "refs/towel_ref.png",
+   "rooms/pick/bath_B_teal.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S3.png",
+   "refs/towel_ref.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "omni"
+ },
+ "S5": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/front_clean.png",
+   "rooms/pick/bedroom_teal.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S5.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "omni"
+ },
+ "S6": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/front_clean.png",
+   "rooms/pick/hotel.jpg"
+  ],
+  "clip_refs": [
+   "stills/S6.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "omni"
+ },
+ "S7": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/front_clean.png",
+   "rooms/pick/bath_B_teal.jpg"
+  ],
+  "clip_refs": [
+   "stills/S7.png",
+   "refs/closeup_logo.png",
+   "refs/closeup_badges.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "omni"
+ }
+}

@@ -1,0 +1,3 @@
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 60: kept 0 of 0 videos posted since 2026-09-03
+No videos returned for #batanaoil (no such tag, nothing recent, or TikTok served a captcha).

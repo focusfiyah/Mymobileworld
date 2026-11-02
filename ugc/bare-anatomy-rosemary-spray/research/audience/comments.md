@@ -1,0 +1,361 @@
+# TikTok comments (2026-11-02), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+268 comments reachable of 5123 reported across 5 videos. Buyer questions in them: 79.
+- "I bought it but it smells like Vicks Vapor rub. Is that normal?" (7586118622691511565)
+- "But does it keep the hair you have from falling out to begin with?" (7586118622691511565)
+- "I don’t trust this bc when I make rosemary water it gets red/orange why is this clear?" (7586118622691511565)
+- "Yall do know hair loss is internal right? Some spray isn’t gonna help" (7586118622691511565)
+- "Do you rinse it out or leave on?" (7586118622691511565)
+- "There’s no rosemary anywhere in the ingredients?" (7586118622691511565)
+- "People say they add it after showers, but should I add it once my hair is dry? Or when specifically after the shower?" (7586118622691511565)
+- "Can you use it everyday?" (7586118622691511565)
+- "do i use it while my hair is wet?" (7586118622691511565)
+- "Should I use this along with leave in conditioner ? Or is this considered leave in conditioner" (7586118622691511565)
+- "I just got it delivered today! Do you use it on wet hair out of the shower or you can use it on dry hair?" (7586118622691511565)
+- "Does it stank if u leave it in too long?" (7586118622691511565)
+- "should i put it on my roots or ends or both?" (7586118622691511565)
+- "You just spray it on? Dry hair, or wet" (7586118622691511565)
+- "What about longer??" (7586118622691511565)
+- "Wait mine smells quite strong is that normal? It almost smells like bug spray to me 😭" (7586118622691511565)
+- "Ok yall I keep seeing this does it actually work??" (7586118622691511565)
+- "Is this okay to use if your scalp reacts to literally everything? I have to use very specific products and shampoos or my scalp gets ridiculously itchy and full of build up" (7586118622691511565)
+- "Is the smell strong?" (7586118622691511565)
+- "How often should you use it?" (7586118622691511565)
+- "How often do you use it?" (7586118622691511565)
+- "How do you apply it or when? Wet off dry hair? Day or night?" (7586118622691511565)
+- "Does it work?" (7586118622691511565)
+- "what does it smell like??" (7586118622691511565)
+- "okay so my hair is rlly dead so every 6 weeks i have to trim it, i want it to be healthier and thicker, before i buy this will this help me?" (7586118622691511565)
+- "girl dad here its just me and my kids one of which her hair will not grow. how often and when do you use this? sorry for the stupid question but im bald so hair isnt my specialty" (7586118622691511565)
+- "Where did you buy it?" (7586118622691511565)
+- "The directions say to use with oil… What kinda oil? 👀" (7586118622691511565)
+- "Should I put it in when my hair is wet,damp, or dry?" (7586118622691511565)
+- "Please let me know how to make the spray bottle work? I can’t figure it out" (7586118622691511565)
+- "I’m going 4 months postpartum and losing a lot of hair , will it work ?" (7586118622691511565)
+- "Is it really hairspray or just water?" (7586118622691511565)
+- "Is it hydrating?" (7586118622691511565)
+- "How to use?" (7586118622691511565)
+- "Does this really work?!?!" (7586118622691511565)
+- "Does it help with alopechia?" (7586118622691511565)
+- "Do you keep it in the refrigerator?" (7586118622691511565)
+- "Can you use it on wet hair?" (7586118622691511565)
+- "Can we just make it at home and not pay? Because really???" (7586118622691511565)
+- "Can this work w dyed hair?🥹" (7586118622691511565)
+- "Idk why everyone’s freaking out? This is really good for the babies hair health and scalp health. No babies don’t necessarily need it but it’s not gonna do anything bad, there’s only benefits to this." (7651169361343909133)
+- "Does it come with someone to rub my head and brush my hair? I need that as much as the product 😂😂" (7651169361343909133)
+- "does it actually work? I'm losing hair cause of stress" (7651169361343909133)
+- "sooo, will this work for postpartum hair loss?" (7651169361343909133)
+- "So my mom is a cancer survivor, but she’s allergic to rosemary. Are there any alternatives?" (7651169361343909133)
+- "I have genetic hair thinning and hair loss of my front hair line. Would this help regrow the hair follicles that have fallen off already? 🥺🙏🏽" (7651169361343909133)
+- "My hair has thinned out a lot from stress I’ve had it falls out it’s stopped falling out it’s long and still have a good amount but not as thick and I use to will this acc work?" (7651169361343909133)
+- "how old is your daughter? do we know at what age this is okay and safe? my 21 month old daughter pulls her hair to self soothe and has caused some thinning in some areas" (7651169361343909133)
+- "When do you use it and how many times a day?" (7651169361343909133)
+- "how often are you spraying this? 👀📝 my daughter has a bald spot that is not filling in, everywhere else is so thick and long" (7651169361343909133)
+- "How many times do you spray? Does it work on 2C frizzy hair?" (7651169361343909133)
+- "Can you apply it to me too? 🥺🥺🥺 I’m lazy" (7651169361343909133)
+- "what brands are y'all using for the shampoo and conditioner??? my hair is so thin it's embarrassing" (7651169361343909133)
+- "Will this darken her hair? She has light hair and it’s so pretty I don’t want her hair to get dark 😭 but she has thin hair" (7651169361343909133)
+- "Why are people saying not to use it? I have a 3yo with very little hair and this might work for her!" (7651169361343909133)
+- "So what are the directions? Do you leave it in?" (7651169361343909133)
+- "Is it sticky? Or more like I can wet my hair and blowdry with it after?😅" (7651169361343909133)
+- "I have EXTREMELY THIN hair on the top of my head. Will this work for me? I also have a thyroid condition." (7651169361343909133)
+- "At what age should I start this?" (7651169361343909133)
+- "Are there only two ingredients?" (7651169361343909133)
+- "how many times a day do you put it ? or when do YOU put it ??" (7651169361343909133)
+- "how do you use it? after a shower? daily? wanting to use it for myself and my daughter" (7651169361343909133)
+- "do you only do that once a day? how does it work? my son needs a little help" (7651169361343909133)
+- "I use tape-in extensions. Do you think it would make them come out? I would love to try this if it won’t make my extensions fall out." (7651169361343909133)
+- "How long have you been spraying that in her hair? Please." (7651169361343909133)
+- "Does this work on facial hair?" (7651169361343909133)
+- "Does this actually work? I’m gonna get it for my mom if it does" (7651169361343909133)
+- "Do you just leave it in?" (7651169361343909133)
+- "Is it safe for 4 year olds?" (7651169361343909133)
+- "Do you put it on wet hair or dry?" (7651169361343909133)
+- "how long should i let it sit in my hair? before or after washing?" (7682411837987556638)
+- "Ok one ingredient said purified water n the other just said water both r good r one fake ?" (7682411837987556638)
+- "how many times do u apply it once a day ? daily?" (7682411837987556638)
+- "Would it work for my starter locs ?" (7682411837987556638)
+- "Is it kid safe?" (7682411837987556638)
+- "Yeah, here we go🙄 soon as they put a product out and everybody start hopping on it now all of a sudden that 1 to 2 person always gotta say this one fake this one fake this one fake well which one is the real one?" (7682411837987556638)
+- "I got it so what do I do now?" (7682411837987556638)
+- "Can I put and not wash out till next day ?" (7682411837987556638)
+- "Directions say to use it everyday…what if you don’t wash your hair everyday?" (7688266895237205262)
+
+## @valerietaylorshop (6900000 views), 117 of 395 comments reachable. https://www.tiktok.com/video/7586118622691511565
+- (166 likes) "I've been using this for a couple of years and I make mine at home 👍"
+- (149 likes) "I bought it ill update yall"
+- (140 likes) "they sell a product like this at the dollar tree"
+- (47 likes) "I bought it but it smells like Vicks Vapor rub. Is that normal?"
+- (38 likes) "I got this and it’s helped. I had thinning hair in front and looks thicker now"
+- (27 likes) "But does it keep the hair you have from falling out to begin with?"
+- (21 likes) "Just got mine at the dollar tree store"
+- (19 likes) "Have lost about half my hair due to weight loss 😢 Started Nutrafol, pumpkin seed oil and I just bought this so fingers crossed"
+- (13 likes) "Rosemary water is the best natural way I use to keep my hair long and healthy!"
+- (12 likes) "ive been using it and my hair person said whatever I was doing to take care of my hair keeping doing it so I stocked up on these after she told me that 😂 I feel such a difference using this spray and love it"
+- (11 likes) "been using this 2 months now amd it works"
+- (10 likes) "It does not smell amazing 🤦‍♀️it smells like Pinesol"
+- (10 likes) "I don’t need thicker I need longer. Lol"
+- (6 likes) "I don’t trust this bc when I make rosemary water it gets red/orange why is this clear?"
+- (5 likes) "Yall do know hair loss is internal right? Some spray isn’t gonna help"
+- (5 likes) "Do you rinse it out or leave on?"
+- (4 likes) "this really works!!"
+- (4 likes) "Yes rice water will break thin hair"
+- (3 likes) "im tempted to get this"
+- (3 likes) "Yes I have this!! Been two Months and I have seen baby hairs on god it works I drench my scalp every time I braid it or put it up in a bun…"
+- (3 likes) "There’s no rosemary anywhere in the ingredients?"
+- (3 likes) "People say they add it after showers, but should I add it once my hair is dry? Or when specifically after the shower?"
+- (3 likes) "Growth from my bald spot postpartum 🥳"
+- (3 likes) "Got it!"
+- (3 likes) "Can you use it everyday?"
+- (3 likes) "Can some please give me an honest review I’ve tried everything 😭"
+- (3 likes) "A week and a half in and I feel like I see a lot of new growth coming in near my edges"
+- (2 likes) "do i use it while my hair is wet?"
+- (2 likes) "You can make this at home. And no added chemicals."
+- (2 likes) "Should I use this along with leave in conditioner ? Or is this considered leave in conditioner"
+- (2 likes) "Liquid vitamins absorb so much better than pills — finally found a routine I actually stick with ✨"
+- (2 likes) "It's 15 bucks not under 10"
+- (2 likes) "I need to get this! 😳"
+- (2 likes) "I just started using it and it makes my hair easier to comb."
+- (2 likes) "I just got it delivered today! Do you use it on wet hair out of the shower or you can use it on dry hair?"
+- (2 likes) "I got mine for 5.49 thank you"
+- (2 likes) "Does this make your hair oily as the question my hair gets oily so easy and being in so fine makes me look bald"
+- (2 likes) "Does it stank if u leave it in too long?"
+- (2 likes) "Absolutely love this"
+- (1 likes) "ummm you guys know you can literally make this shit yourself and not spend like 15 dollars when you can spend literally like rice and buy risemary and make it😭😭😭"
+- (1 likes) "this is literally not just rice and rosemary water this is literally just a bunch of chemicals being put into ur hair 😭😭"
+- (1 likes) "should i put it on my roots or ends or both?"
+- (1 likes) "it’s amazing"
+- (1 likes) "it wets ur hair...I can't"
+- (1 likes) "how often do i use it i just got it delivered today and what’s best to use it after i shower or just dry hair"
+- (1 likes) "for men or women are both"
+- (1 likes) "does this work as a heat protectant"
+- (1 likes) "You just spray it on? Dry hair, or wet"
+- (1 likes) "You can make this at home"
+- (1 likes) "What about longer??"
+- (1 likes) "Wait mine smells quite strong is that normal? It almost smells like bug spray to me 😭"
+- (1 likes) "Ordered it from Amazon thanks 😁"
+- (1 likes) "Ooo I need this for my postpartum hair"
+- (1 likes) "Ok yall I keep seeing this does it actually work??"
+- (1 likes) "Just use rosemary oil. I get a small container for $4"
+- (1 likes) "It makes the hair a tad bit dry. I am resorting to using it before washing."
+- (1 likes) "It definitely softens your hair and after 2 weeks I’m noticing less breakage"
+- (1 likes) "Is this okay to use if your scalp reacts to literally everything? I have to use very specific products and shampoos or my scalp gets ridiculously itchy and full of build up"
+- (1 likes) "Is this a fake one I am about to buy it but I am scared of being scammed"
+- (1 likes) "Is the smell strong?"
+- (1 likes) "I want to buy but it say they are going to charge me 29.99 in 4 week"
+- (1 likes) "How often should you use it?"
+- (1 likes) "How often do you use it?"
+- (1 likes) "How do you spray it it won’t come out the bottle😭😭"
+- (1 likes) "How do you apply it or when? Wet off dry hair? Day or night?"
+- (1 likes) "Does it work?"
+- (1 likes) "Does it actually work tho I have a lot of breakage"
+- (1 likes) "And I add in rosemary from my garden 🥰"
+- (0 likes) "what does it smell like??"
+- (0 likes) "sorry girl i believe you cus urs is quite literally full!! 😭"
+- (0 likes) "okay so my hair is rlly dead so every 6 weeks i have to trim it, i want it to be healthier and thicker, before i buy this will this help me?"
+- (0 likes) "must be just me because it's not doing anything for my hair...tricked by TT shop AGAIN 😒🙄😒🙄"
+- (0 likes) "i’m trying the rosemary water from walmart so hopefully this helps me"
+- (0 likes) "i need it"
+- (0 likes) "girl dad here its just me and my kids one of which her hair will not grow. how often and when do you use this? sorry for the stupid question but im bald so hair isnt my specialty"
+- (0 likes) "do i spray on my scalp before shower and let it sit or after shower and let it dry"
+- (0 likes) "Where did you buy it?"
+- (0 likes) "Where can I buy one I'm losing my hair 🥺😳🥰"
+- (0 likes) "What ingredients"
+- (0 likes) "This product is great my hair is not dropping off like before"
+- (0 likes) "This looks like such a good find 🥺"
+- (0 likes) "The directions say to use with oil… What kinda oil? 👀"
+- (0 likes) "That’s hairspray"
+- (0 likes) "So far, I’ve been using it for a month. Makes your hair feel soft, but doesn’t thicken it that I’ve noticed."
+- (0 likes) "Should I put it in when my hair is wet,damp, or dry?"
+- (0 likes) "Senorita margarita"
+- (0 likes) "Please let me know how to make the spray bottle work? I can’t figure it out"
+- (0 likes) "Ooh I might have to try this"
+- (0 likes) "Make your own, way cheaper"
+- (0 likes) "Love this too"
+- (0 likes) "I’m going 4 months postpartum and losing a lot of hair , will it work ?"
+- (0 likes) "It’s good , i want to my hair long now 🥺"
+- (0 likes) "Is it supposed to cause a burning sensation 😬 and the scent is quite strong"
+- (0 likes) "Is it really hairspray or just water?"
+- (0 likes) "Is it hydrating?"
+- (0 likes) "Ima get this nd update yall"
+- (0 likes) "ITS 12 DOLLA DOLLA"
+- (0 likes) "IT SAID IT WAS UNDER 10 DOLLA DOLLA"
+- (0 likes) "I need this!!!"
+- (0 likes) "I love mine"
+- (0 likes) "I just bought it I think it made my hair a tiny bit greasy but idk I’ll update"
+- (0 likes) "I have super damaged hair someone help!! What can I do to save it and keep my length I want to keep growing it 🙏🙏"
+- (0 likes) "I got it but I don’t really like the smell of it and my hair feels dry after using for some reason"
+- (0 likes) "I can’t wait to try this spray"
+- (0 likes) "How to use?"
+- (0 likes) "How often do I use it also like how do I spray and leave it on or rinse"
+- (0 likes) "How much did you buy it"
+- (0 likes) "Got this but the bottle doesn’t say anything about helping regrow hair, it says hair will ‘appear’ fuller. Using it twice a day on dry scalp for just a few days so not sure if it works or not."
+- (0 likes) "Does this really work?!?!"
+- (0 likes) "Does it help with alopechia?"
+- (0 likes) "Do you keep it in the refrigerator?"
+- (0 likes) "Do people realize your hair grows from the inside"
+- (0 likes) "Can you use it on wet hair?"
+- (0 likes) "Can we just make it at home and not pay? Because really???"
+- (0 likes) "Can this work w dyed hair?🥹"
+- (0 likes) "After using it I can definately see less shedding. Smell, not so great..."
+- (0 likes) "17 sitesNo, rice water does not actually make your hair grow faster from the roots, whether you use brown or white rice. While social media clips heavily promote it as a miracle growth solution, dermatologists and medical studies clarify that rice water does not stimulate hair follicles or speed up your natural genetic growth cycle"
+
+## @aminas_ambience (71500000 views), 111 of 4637 comments reachable. https://www.tiktok.com/video/7651169361343909133
+- (116510 likes) "as a cancer survivor, this stuff has been amazing to regrow my hair"
+- (24521 likes) "this is honestly SO caring of you. She will thank you TREMENDOUSLY. I wish my mom trimmed my unibrow earlier on in life instead of me getting bullied to the point of me completely shaving my brows off"
+- (8560 likes) "So I have my mother to blame for my thin hair is what I’m hearing"
+- (6667 likes) "Idk why everyone’s freaking out? This is really good for the babies hair health and scalp health. No babies don’t necessarily need it but it’s not gonna do anything bad, there’s only benefits to this."
+- (1950 likes) "Yes it works ! I used it for my postpartum hair loss and it helps!"
+- (922 likes) "I’m 75, this helped my hair grow long and strong"
+- (819 likes) "Just sharing our experience as parents. 💕 Our daughter has always had very little hair, but what concerned us was that she started developing sparse spots throughout her scalp and seemed to be losing more hair instead of gaining it. We spoke with her doctor first and only used a very small amount during bath time—not every day. After a few weeks, we noticed her hair looking fuller, stronger, and healthier. Once her sparse spots improved, we stopped using it. Every child is different, but we simply wanted to help our little girl, and this was our experience. 🫶"
+- (676 likes) "yes it does. dont get it on your face though. a friend of mine ended up with side burns from it dripping. however if you have thin or over plucked eye brows you can apply it with a cotton swab or brush to help them fill back in."
+- (570 likes) "as a women with pcos/pmos this stuff is saving my hairline 😭"
+- (470 likes) "Just a little PS for anybody on here writing dumb things are telling me what to do with my own child cause for some reason you think you have the right to or judging when you don’t know or have any clue of the situations and the reasons why I decided to do the things that I do for my child I will be deleting the comments. I’m not gonna be dealing with them. If you don’t have anything to say about this product that’s on here then stay out of my comments. I didn’t post this to hear your opinion as a non-parent or a parent. I posted this to share this with parents who suffer with their infants, hair losses, or have diseases that cause hair loss and prevent them from going hair and I hope this can help them. Our doctor okayed it that’s why we use it and the first one to start using this product was myself because I suffer from alopecia and I’m postpartum two years back to back so my hair loss was extreme! Thank you!"
+- (318 likes) ""
+- (242 likes) "I’ve been using rosemary infused coconut oil on my post chemo bald head. My hair is growing back nicely. ❤️"
+- (226 likes) "Does it come with someone to rub my head and brush my hair? I need that as much as the product 😂😂"
+- (101 likes) "I was so bald until I was 5 lol"
+- (73 likes) "as a cancer survivor, this stuff has been amazing to regrow my hair"
+- (63 likes) "does it actually work? I'm losing hair cause of stress"
+- (51 likes) "The ingredients in the rosemary and ricewater if anyone is curious !!! ❤️"
+- (42 likes) "we need someone with twins to do this to one twin and nothing extra to the other twin 😭"
+- (25 likes) "aww time to water my little plant"
+- (21 likes) "This comment section has me sold, I just purchased. Do use every day.."
+- (19 likes) "Yeah so kids hair typically grows pretty fast and thickens up pretty quickly at least it did for my daughter, show me this on an adult and then I’d consider it"
+- (16 likes) "couldn't it just be thin hair because she is young"
+- (15 likes) "my hair don’t grow. tell me it’s legit."
+- (14 likes) "literally had to stop using it because i have TOO MUCH hair now.. and my hair is curly so yk"
+- (14 likes) "I love the thought of just doing a drive-by with a spray bottle and just spritzing your daughter like a plant and going about your day😭"
+- (14 likes) "Does it work on men 😅"
+- (13 likes) "My name is Rosemary and I work"
+- (13 likes) "Don’t know if you tried. But massage her scalp to"
+- (12 likes) "I bought this last year when I was losing hair due to lupus and it really helped my hair stop thinning"
+- (11 likes) "would this work for someone with alopecia"
+- (11 likes) "sooo, will this work for postpartum hair loss?"
+- (11 likes) "So my mom is a cancer survivor, but she’s allergic to rosemary. Are there any alternatives?"
+- (11 likes) "I think kids usually have these sort of hair and then they grow to be thick!"
+- (11 likes) "I have genetic hair thinning and hair loss of my front hair line. Would this help regrow the hair follicles that have fallen off already? 🥺🙏🏽"
+- (10 likes) "Would this help my receding hairline"
+- (10 likes) "This is before shower or after shower"
+- (10 likes) "My hair has thinned out a lot from stress I’ve had it falls out it’s stopped falling out it’s long and still have a good amount but not as thick and I use to will this acc work?"
+- (10 likes) "I put fresh washed/cut rosemary in my daughters shampoo her hair is so thick bc of it and she’s 11 months old"
+- (10 likes) "I make my own rosemary and mint water it works pretty well"
+- (10 likes) "And chamomile to lighten hair color, gives a light gold shine 🫶🏼"
+- (9 likes) "my mom made her own and she used it on my boy, his hair grew like crazy !! so yes it workssss"
+- (9 likes) "how old is your daughter? do we know at what age this is okay and safe? my 21 month old daughter pulls her hair to self soothe and has caused some thinning in some areas"
+- (9 likes) "bruh these are 3 years apart"
+- (9 likes) "When do you use it and how many times a day?"
+- (9 likes) "Made my own right from my garden no cuts but this is what inspired me cuz it work oh so well"
+- (9 likes) "I use this every time I wash my hair and it has helped enormously after glp 1 hair fallout. My HG now 🥰"
+- (9 likes) "I hope this actually works cuz I’ve tried almost everything and my hair has gotten worse 😩😢"
+- (9 likes) "Glad to see the hair grew in thicker"
+- (9 likes) "Does it help with receding hair line for men"
+- (9 likes) "After chemo this is EXACTLY what I tell people to use because my hair is longer and thicker than its EVER been!"
+- (8 likes) "if u have curly hair be sparing w the rice water bc that adds keratin, but this is a fantastic idea regardless"
+- (8 likes) "how often are you spraying this? 👀📝 my daughter has a bald spot that is not filling in, everywhere else is so thick and long"
+- (8 likes) "as a cancer survivor, this stuff has been amazing to regrow my hair"
+- (8 likes) "What about for hair thinning during later stages of perimenopause (I'm so close to menopause). My hair went from thick and long to a lot thinner so I cut it😭"
+- (8 likes) "My daughter lost all of her hair and now she has a full head of hair because of this ! She was also diagnosed with alopecia !"
+- (8 likes) "Me staring at my 6 month old baby’s bald spot right now 👀 😂 I didn’t think of doing this to a baby!"
+- (8 likes) "I’ve used rosemary shampoo and noticed a difference in my hair growth too (I didn’t even buy it for hair growth, it just had a nice smell that I liked)."
+- (8 likes) "I need that for my bald spot.🥹🥹🥹🥹🥹💯💯💯💯"
+- (8 likes) "I love making it raw it does wonders"
+- (8 likes) "I bought it, trying to get ahead of the post partum hair loss 🫤🙏🏻"
+- (8 likes) "How often do you put it in her hair every day or how many times a week"
+- (8 likes) "How many times do you spray? Does it work on 2C frizzy hair?"
+- (8 likes) "Cosmo student here! Rosemary actually does wonders! Another good thing is just massaging it in like you have been. Massaging the scalp helps produce blood flow and blood flow helps stimulate growth! You’re going great mama!"
+- (8 likes) "Can you apply it to me too? 🥺🥺🥺 I’m lazy"
+- (8 likes) "As a mother, i respect for you this significantly. As a daughter who’s insecurities were never taken seriously, youve made me wanna drop to my knees and SOB. Thank you for being such a wonderful momma. Babygirl is so blessed.😭❤️"
+- (7 likes) "when i was little my grandma made her own and it worked wonders"
+- (7 likes) "what brands are y'all using for the shampoo and conditioner??? my hair is so thin it's embarrassing"
+- (7 likes) "rosemary alone also works. I've done it on myself and daughter faithfully for years...."
+- (7 likes) "never cut her hair she will love you when she is older"
+- (7 likes) "glad her hair is regrowing, glad you respected her privacy by not showing her face."
+- (7 likes) "Will this darken her hair? She has light hair and it’s so pretty I don’t want her hair to get dark 😭 but she has thin hair"
+- (7 likes) "Why are people saying not to use it? I have a 3yo with very little hair and this might work for her!"
+- (7 likes) "What i did for my babys hair was i put rosemary in her shampoo i let it get dark and every shower we use it she grew hair quickly"
+- (7 likes) "So what are the directions? Do you leave it in?"
+- (7 likes) "Omg I’m struggling with my youngest same issue"
+- (7 likes) "Oh i thought this was an add for lice repellent. I was like oooh yeah that works, put some mint oil in there too. This would be a nice after treatment for lice as well!"
+- (7 likes) "Is it sticky? Or more like I can wet my hair and blowdry with it after?😅"
+- (7 likes) "Im thankful my whole family has thick hair 😭 even my grandma still has thick hair 😂😭"
+- (7 likes) "Idk why anyone would say this isnt a good idea, its rosemary and rice water..... neither of those things are dangerous to apply to a baby's scalp unless theyre allergic and shes clearly not.... even if she didnt NEED it its not hurting her to use it lol.... also i may have to try this, my hair is not thin but it doesnt grow past a certain point so maybe this would help"
+- (7 likes) "I used the same one on my locs"
+- (7 likes) "I used a raw tomato when my girls were babies and I really regret that, their head is full of so much hair with lots of volume that they even say why I did that to them.. 😅😅😅🤦🏻‍♀️"
+- (7 likes) "I have EXTREMELY THIN hair on the top of my head. Will this work for me? I also have a thyroid condition."
+- (7 likes) "I bought this and it sure does work my hair grew so fast 😊"
+- (7 likes) "Does it make your hair oily"
+- (7 likes) "Black castor oil!!!"
+- (7 likes) "At what age should I start this?"
+- (7 likes) "Are there only two ingredients?"
+- (6 likes) "how many times a day do you put it ? or when do YOU put it ??"
+- (6 likes) "how do you use it? after a shower? daily? wanting to use it for myself and my daughter"
+- (6 likes) "do you only do that once a day? how does it work? my son needs a little help"
+- (6 likes) "Make my own and it works too good"
+- (6 likes) "La linaza es excelente para el cabello a mi me paso lo mismo con mi hija y le saque una mata de cabello apunta de linaza"
+- (6 likes) "I'm a cancer survivor and my hair didn't grow like before so I'll give it a try"
+- (6 likes) "I use tape-in extensions. Do you think it would make them come out? I would love to try this if it won’t make my extensions fall out."
+- (6 likes) "How long have you been spraying that in her hair? Please."
+- (6 likes) "Does this work on facial hair?"
+- (6 likes) "Does this actually work? I’m gonna get it for my mom if it does"
+- (6 likes) "Do you just leave it in?"
+- (5 likes) "Used the lil castle rosemary lice repellent on my daughter since she was 4 months old and now she is Almost 5 and her hair is thick and a lot and down to her knees"
+- (5 likes) "She’s gonna be so thankful when she gets older bc her hair is going to be SO GOOD"
+- (5 likes) "Rice water does work"
+- (5 likes) "Pure olive oil! My suggestion!! My daughter’s hair is down her back! Never irritated or never hurt her. Also cleared her cradle cap!!!"
+- (5 likes) "Omg that’s my birthday ✌"
+- (5 likes) "I’ve been using this due to hair loss from extensions and I want to be natural me and my daughters hair have grown drastically 🥰♥️"
+- (5 likes) "Is it safe for 4 year olds?"
+- (5 likes) "Is it not bad for the scelp 😬 cuz it’s chemicals please reply if I’m wrong"
+- (5 likes) "If it doesn’t bother her too much, it may be worth it to try a bonnet when she sleeps! This will help to protect from extra friction putting stress on the follicle, especially if she’s a wiggly sleeper."
+- (5 likes) "I just bought this for myself but I want to use it on my son. He’s a month old though, not sure if I should wait"
+- (5 likes) "Flex seeds and rose Mary help a lot too and you can use it as gel"
+- (5 likes) "Do you put it on wet hair or dry?"
+- (0 likes) "I honestly couldn’t tell a difference 🥺"
+
+## @jazmynthomas (870800 views), 32 of 82 comments reachable. https://www.tiktok.com/video/7682411837987556638
+- (161 likes) "It works. My edges fell out from wearing front laces and I used it for two weeks and my edges growing back already."
+- (39 likes) "How long do this take to grow your dreads"
+- (34 likes) "Do u massage into ur scalp or no"
+- (19 likes) "I’ve used the rosemary water for about 2 months and in the first month I seen a lot of changes made my hair so much longer and thicker so I think they both work"
+- (17 likes) "how long should i let it sit in my hair? before or after washing?"
+- (10 likes) "Ok one ingredient said purified water n the other just said water both r good r one fake ?"
+- (7 likes) "It does work. I used it on my hair and put it out and it made my hair really soft"
+- (3 likes) "thanks for that"
+- (3 likes) "Should I buy it"
+- (3 likes) "How long you’ll think it to my nose if my dreads barely at my forehead"
+- (2 likes) "can you text me and tell me all the steps to use it or just comment it"
+- (2 likes) "Just ordered 🧡"
+- (2 likes) "How much should I spray in my head"
+- (2 likes) "@."
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "how many times do u apply it once a day ? daily?"
+- (1 likes) "do i have to wash it out or can i just spray it"
+- (1 likes) "Would it work for my starter locs ?"
+- (1 likes) "So it made it grow!"
+- (1 likes) "Now I gotta read the reviews"
+- (1 likes) "Just ordered mine"
+- (1 likes) "Is it kid safe?"
+- (1 likes) "I love it."
+- (1 likes) "How long does it take to grow"
+- (1 likes) "Aye sybau they work"
+- (1 likes) ""
+- (0 likes) "a short time"
+- (0 likes) "Yeah, here we go🙄 soon as they put a product out and everybody start hopping on it now all of a sudden that 1 to 2 person always gotta say this one fake this one fake this one fake well which one is the real one?"
+- (0 likes) "Thanks 😊"
+- (0 likes) "I got it so what do I do now?"
+- (0 likes) "Can I put and not wash out till next day ?"
+- (0 likes) "Are the results permanent"
+
+## @momfindsbyfaith (13600 views), 1 of 2 comments reachable. https://www.tiktok.com/video/7688266895237205262
+- (0 likes) "Directions say to use it everyday…what if you don’t wash your hair everyday?"
+
+## @plussizeandbossy (15700 views), 7 of 7 comments reachable. https://www.tiktok.com/video/7694098983706234125
+- (3 likes) "You got so many new hairs poppin!"
+- (1 likes) "i ain’t playing about my hair not even on vacation"
+- (1 likes) "People sleep on rice water"
+- (0 likes) "🥰🥰🥰🥰"
+- (0 likes) "went searching for a small creator to buy it from 🫶🏼"
+- (0 likes) "Ensure you’re locking in all that moisture with a quality Reversible satin Bonnet. And protecting you’re skin from all that product with our reversible pillowcase bonnets 👌"
+- (0 likes) "Absolutely love this"

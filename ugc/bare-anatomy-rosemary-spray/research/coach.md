@@ -1,0 +1,11 @@
+# Coach research (2026-11-02)
+- shop "rosemary hair spray": this exact listing is #1 of 30, 190,793 sold, 4.7 stars, 16,469 reviews (shop/shop-rosemary-hair-spray.json).
+- discover rosemary-hair-spray / rosemary-water-for-hair-growth / rosemary-and-rice-water (discover/).
+- tag #rosemarywater and viral board: TikTok returned 0 videos for hashtag pages this run (captcha or empty); shop + discover pages worked. Logged honestly, not retried for cost of time.
+- `video` on 5 (videos/):
+  - @aminas_ambience 71.5M views, 42 s, music only ("Riptide"), on-screen "does rosemary and ricewater work?", spray on damp hair, scalp massage, comb, day counters. Our model for the format (we skip day counters: no result claims).
+  - @valerietaylorshop 6.9M, 20 s, talking: pain (thinning) -> two ingredients -> convenient -> orange cart.
+  - @jazmynthomas 870.7K, 47 s: "the real one is Bare Anatomy, hundreds of thousands of sales".
+  - @momfindsbyfaith 13.6K, 32 s, the 3-pack: "don't overpay by getting these separately", "water based, not a grease ball".
+  - @plussizeandbossy 15.7K, 11 s, music only, comment-reply text + spraying the hairline.
+- Lessons used: music-only works when the spray is in use from frame 0; water-based / no grease is a repeated sell point; 3-pack sold as "don't buy them one at a time".
