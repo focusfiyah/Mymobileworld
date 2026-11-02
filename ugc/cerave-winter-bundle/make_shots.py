@@ -33,8 +33,8 @@ ROOM_TXT = ("Setting = image 1, the real bathroom: light oak wood vanity top, sa
 TAIL = ("Vertical 9:16 phone photo, a single frame from a phone-shot UGC video, realistic, sharp focus on the labels, "
         "no text, no captions, no watermark, no logos other than the real labels.")
 GRACE = ("Grace's hand (image 7: medium-brown skin, short squared French-tip nails with a pink base and white tips, the silver "
-         "crown ring stack and the small gold heart ring, a blue band on the thumb, bare wrist), entering from the frame "
-         "edge with the whole wrist in frame. ")
+         "crown ring stack and the small gold heart ring, a blue band on the thumb), a soft cream knit sweater cuff on her forearm "
+         "ending just above the wrist, entering from the frame edge with the whole wrist in frame. ")
 REFS_TXT = ("Reference images: image 1 = the room; image 2 = the product sheet (shapes and true sizes); images 3-6 = the "
             "real fronts of the cleanser, AM lotion, cream tube and lip balm{hand}.")
 
@@ -70,7 +70,16 @@ shots = [
   motion=("Motion: none on the products: they stand perfectly still. Camera: a slow smooth push-in toward the row, ending "
           "with all four products still fully in frame and the same size relative to each other. No hand, fingers or people "
           "appear at any time.")),
- dict(id="S3", hand=True, label="Cream tube squeeze, the other three behind",
+ dict(id="S3", hand=True, label="AM lotion SPF 50 pump onto fingertips",
+  view=("Close-up from slightly above counter height, the camera 35 cm away. The four products stand in one row on the "
+        "vanity, left to right: cleanser, AM lotion, cream tube, lip balm, every front label facing the camera. "),
+  action=("Her RIGHT hand comes in from the right frame edge, index finger resting on top of the AM lotion's white pump "
+          "head, pressing it down; her LEFT hand comes in from the bottom frame edge, two fingertips held just under the "
+          "pump nozzle with a small pearl of white lotion on them. The other three products stay standing in the row."),
+  motion=("Motion: her right index finger presses the blue-collared AM lotion pump down once and a small pearl of white "
+          "lotion lands on her left fingertips; the lotion bottle stays standing on the counter, never lifted, never "
+          "turned. Whole wrists in frame. The other three products never move. Camera: handheld, almost still, no zoom.")),
+ dict(id="S4", hand=True, label="Cream tube squeeze, the other three behind",
   view=("Close-up, camera at chest height looking slightly down, 40 cm away. In the soft background on the vanity, the "
         "cleanser, AM lotion and lip balm stand in a row, labels facing the camera; in the foreground her hands hold the "
         "cream tube. "),
@@ -81,7 +90,7 @@ shots = [
   motion=("Motion: her right hand gently squeezes the tube once and a short line of thick white cream comes out onto the "
           "back of her left hand; the tube keeps one grip, front label to the camera, never turns or flips. Whole wrists in "
           "frame. The three products in the background never move. Camera: handheld, almost still, no zoom.")),
- dict(id="S4", hand=True, label="Lip balm lifted from the row",
+ dict(id="S5", hand=True, label="Lip balm lifted from the row",
   view=("Close-up from counter height, the camera 35 cm away. The four products stand in one row on the vanity, left to "
         "right: cleanser, AM lotion, cream tube, lip balm, front labels facing the camera. "),
   action=("Her RIGHT hand, from the right frame edge, pinches the Healing Lip Balm tube between thumb and two fingers at "
@@ -90,7 +99,7 @@ shots = [
   motion=("Motion: her right hand lifts the lip balm 3 cm higher and holds it there, keeping exactly the starting angle and "
           "the same distance from the camera; the lip balm keeps one grip, front print to the camera, never turns or flips. "
           "Whole wrist in frame. The other three products never move. Camera: locked off, no zoom.")),
- dict(id="S5", hand=False, label="End: slow arc on all four",
+ dict(id="S6", hand=False, label="End: slow arc on all four",
   view=("Three-quarter view from the left at counter height, the camera 55 cm away. The four products stand together in a "
         "tight row on the vanity, left to right: cleanser, AM lotion, cream tube, lip balm, front labels facing slightly "
         "right of the camera. "),

@@ -1,0 +1,8 @@
+# TikTok Shop product search (2026-11-02)
+- `tiktok.py shop "cerave bundle"`: "No products returned for 'cerave bundle' (no results, or TikTok served a captcha)." (log: research/coach/playwright_failed/shop.log)
+- camofox on https://www.tiktok.com/shop/s/cerave-winter-bundle: "Verify to continue: Drag the puzzle piece into place" (captcha). shop.tiktok.com/us/k/cerave-winter-bundle: HTTP 404.
+- So no lifetime-sold numbers for the Winter Dry Skin Bundle itself. What the web search index showed (WebSearch 2026-11-02, page snapshots, may be old):
+  - CeraVe Skincare Duo, Hydrating Cream-to-Foam Cleanser + Intensive Lotion (5% Hydro-Urea): 5.0 from 16 reviews, 152 sold. https://www.tiktokshop.com/pdp/cerave-skincare-duo-hydrating-cream-to-foam-cleanser-intensive-lotion/1729738604617699365
+  - Hydrating Foaming Oil Cleanser + Intensive Moisturizing Lotion: $33.98, 222 sold. https://www.tiktokshop.com/pdp/hydrating-foaming-oil-cleanser-intensive-moisturizing-lotion-by-cerave/1729738616498130981
+  - CeraVe Ultimate Dry Skin Care Routine (cleanser, healing ointment, mineral sunscreen): 49 sold. https://www.tiktokshop.com/pdp/cerave-ultimate-dry-skin-care-routine-foaming-cleanser-ceramides-moisturizing-ointment-mineral-sunsc/1731931789014503461
+- Product anchors in the tag/discover videos (TikTok's own data, research/coach/tag_*/): the bundle that is selling on video right now is "CeraVe Ceramide Boost Affordable Skincare Bundle" (53 of 90 shop videos on #ceravebundle). Single items with shop videos: Intensive Moisturizing Cream, Hydrating Facial Cleanser, Moisturizing Cream, Healing Lip Ointment 2 Pack.

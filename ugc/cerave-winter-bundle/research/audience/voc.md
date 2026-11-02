@@ -27,6 +27,15 @@ Reddit threads pulled through camofox (Reddit's JSON API answered 403 to curl th
 - "My lips are cracked and super dry and it hurts to even open my mouth!" - https://www.reddit.com/r/30PlusSkinCare/comments/1isik5r/it_is_the_middle_of_winter_my_home_is_dry_and_my/
 - "Slug w Vaseline every night before bed. Helps me so much." - https://www.reddit.com/r/beauty/comments/1p8yav8/tips_for_extremely_dry_chapped_lips_during_winter/
 
+## TikTok comments on the researched shop videos (research/audience/comments.md)
+- "no need to rinse? just pat dry?" (11 likes) - https://www.tiktok.com/video/7585784888108797239 (@lordkierra, Hydrating Cleanser, 199.6K views)
+- "I switched from the acne control cleanser to this one and my skin has been glowinggg and alll my acne is goneee" (26 likes) - same video
+- "Help which one is better" (18 likes) - same video
+- "do it last all day?" - https://www.tiktok.com/video/7594984451361361165 (@shakyra._, Intensive Moisturizing Cream, "a must have for the winter")
+- "yeah, but I just want their am & pm moisturizer..." - https://www.tiktok.com/video/7689297898550414605 (@dusteerosexo, bundle)
+- "Finally an actual deal" - same video
+- "half the price at Costco right now" - https://www.tiktok.com/video/7640982874212027678 (@drews_tts, Moisturizing Cream)
+
 ## Notes
 - Search phrases with the most source agreement (questions.md): "winter skincare routine for dry skin" (bing, google, tiktok), "dry skin problems in winter", "cerave winter skin care", "cerave winter skin around mouth peeling".
 - Counter-views kept on purpose: the cleanser and the Intensive cream do not suit everyone; no "works for everyone" claim.
