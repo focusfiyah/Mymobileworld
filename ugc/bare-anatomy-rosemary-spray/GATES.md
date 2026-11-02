@@ -20,3 +20,11 @@
   CHECK: python3 -c "print('DRIVE_OK' if 'drive.google.com/drive/folders/10eauHORrJBo17zYsndVO7bMNx2YSIwW0' in open('README.md').read() else 'NO_LINK')"
   EXPECT: DRIVE_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=a0a5f65e19837a2f4286eb241c2f16ffd4e2ab847bf428d2219ddbfdedbd6f3a; exit=0; EXPECT=matched; output-sha256=62a8cc81c5586654847b20aa63a41bcd22762cf8047cad8b83169ca469393e94; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray; path=7f4fb4b02918/15 entries
+- [x] G6: Final video in the Drive product folder at the same size as the local file
+  CHECK: python3 -c "import os;print('VIDEO_OK' if os.path.getsize('out/rosemary_v3.mp4')==30171668 and '1I-Wm_61Yukiy7GEPNTv8o3EMhka0S_rO' in open('README.md').read() else 'NO')"
+  EXPECT: VIDEO_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=70c9ada9f905407381e8e8f15088f9eed00e66388bbe0176af95a98ab4988df9; exit=0; EXPECT=matched; output-sha256=dd945c41e3d104865b5f76092108b6e5c7c30ad15e59e839470dec1a25004aaa; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray; path=7f4fb4b02918/15 entries
+- [x] G7: Final cut passes QC and the cut gate
+  CHECK: python3 -c "import subprocess as s;q=s.run(['python3','qc.py','out/rosemary_v3.mp4','11.4'],capture_output=True,text=True).stdout;g=s.run(['python3','/home/user/Mymobileworld/grace/gate.py','.','--stage','cut'],capture_output=True,text=True).stdout;print('CUT_OK' if 'QC_OK' in q and 'GATE OK' in g else 'CUT_FAIL')"
+  EXPECT: CUT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=af5eab74ba1a22c9a3acb109a4a74d7c4c0f88c96e2d5f6c2faaa9d9a671d532; exit=0; EXPECT=matched; output-sha256=76bbe64ec214834a9b335167cb9fbabdddaa9107d7c78a44ba16caa7df93e444; output-bytes=7; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray; path=7f4fb4b02918/15 entries
