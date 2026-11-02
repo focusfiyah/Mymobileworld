@@ -1,0 +1,119 @@
+{
+ "job": "buttah-silky-towels",
+ "blocks": {
+  "size_first": "SIZE FIRST: the pouch is a soft flat pack about 17 cm wide, 15 cm tall and 4 cm thick, as in image G of the sheet: a little wider than an adult hand, about the size of a thick paperback, never bigger than the hand holding it, never a box, tub or canister.",
+  "pouch_block": "The product is the REAL buttah. Silky Soft Towels 24-count soft pack in the references: a flat soft rectangular plastic pouch, wider than tall, with glossy mint-teal plastic edges and crinkled heat-sealed ends on the left and right; a large matte BLACK panel covers the front. Front print, top to bottom, exactly as the close-ups: 'buttah.' in large thin white lowercase serif letters ending in a full stop; 'Silky Soft Towels' in mint-teal serif with only the word 'Towels' in italic; a thin horizontal window strip where the white waffle towel inside shows through; three small round white outline badges in a row (a leaf, a globe, wavy lines); 'THE WASHCLOTH UPGRADE' in small white capitals; 'LARGE | SINGLE-USE | DRY OR WET' in thin white capitals; '24 COUNT' in tiny white capitals. A thin line of small teal text runs along the top seam. The pouch is closed and has no lid, no flap and no opening on the front. The print matches the references letter for letter and colour for colour and stays flat inside the black panel; no other marks, no added symbols, no stickers.",
+  "towel_block": "The towels are plain WHITE with a fine square waffle texture and no print, exactly like the towel references: folded ones are small neat squares stacked flat; an opened one is a thin soft rectangular sheet. They are dry cloth towels, not wet wipes.",
+  "hand_block": "ONLY one hand enters from the frame edge: Grace's bare hand: medium-brown skin, slim fingers, short natural pink nails with crisp white French tips. NO rings on any finger, NO bracelet, NO watch, no jewellery of any kind. Whole wrist visible, a little forearm may show. Five fingers, natural knuckles and skin texture.",
+  "no_hand": "No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge.",
+  "scene_suffix": "Vertical 9:16 phone photo, soft bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the subject, realistic textures. The room matches the room reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real buttah. print. No text, no captions, no watermark, no phone UI.",
+  "omni_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin, plastic and cloth. No music, no voice, no captions, no on-screen text.",
+  "size_towel": "SIZE FIRST: one opened towel is 30 x 28 cm, about the size of a hand towel and about twice as wide as the hand holding it.",
+  "scene_suffix_nopack": "Vertical 9:16 phone photo, soft bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the subject, realistic textures. The room matches the room reference photo. Every item is plain and unbranded: no brand names, logos or packaging anywhere. No text, no captions, no watermark, no phone UI.",
+  "size_folded": "A folded towel is a small white square about 8 cm across, half the pouch's width."
+ },
+ "videos": [
+  {
+   "id": "V1",
+   "seconds": 12,
+   "shots": [
+    {
+     "id": "S1",
+     "line": 1,
+     "words": "You won't know how bad your washcloth is until you stop using it.",
+     "hand": true,
+     "pouch": true,
+     "towel": true,
+     "model": "omni",
+     "room": "rooms/pick/bath_A.jpg",
+     "t": [
+      0.0,
+      2.8
+     ],
+     "still": "Close, slightly high angle on the white vanity counter of the room photo, the sink and faucet soft behind. The pouch lies flat at the left of the frame, front print facing up toward the lens; a neat stack of six folded white towels stands at the right. The hand has entered from the right edge: thumb under and two fingers on top PINCH the top folded towel of the stack.",
+     "motion": "The hand keeps its pinch and lifts the top folded towel straight up about 15 cm and away toward the right edge; the pouch and the rest of the stack never move. Camera: slow push-in."
+    },
+    {
+     "id": "S2",
+     "line": 2,
+     "words": "It sits damp all week.",
+     "hand": false,
+     "pouch": false,
+     "towel": false,
+     "model": "seedance",
+     "room": "rooms/pick/towel_bar.jpg",
+     "t": [
+      2.8,
+      4.2
+     ],
+     "still": "Medium close-up of the sink corner of the room photo: one old, wrinkled, damp grey cotton washcloth with frayed edges hangs crumpled over the wall hook beside the sink, a few water drops on its lower edge and a small wet spot on the basin rim below it.",
+     "motion": "One water drop falls from the washcloth's lower corner into the basin; nothing else moves. Camera: slow dolly in toward the washcloth."
+    },
+    {
+     "id": "S3",
+     "line": 3,
+     "words": "These are big, soft, and used once.",
+     "hand": true,
+     "pouch": false,
+     "towel": true,
+     "model": "omni",
+     "room": "rooms/pick/bath_B_teal.jpg",
+     "t": [
+      4.2,
+      6.2
+     ],
+     "still": "In front of the wooden vanity and teal tiles of the room photo: the hand at the top of the frame pinches ONE corner of a single opened white waffle towel, and the towel hangs open full length below it, a thin soft white sheet about 30 x 28 cm filling the middle of the frame. No pouch in this shot.",
+     "motion": "The hand keeps its pinch and gives one small gentle shake; the towel sways and settles, its waffle texture catching the light. Camera: slow push-in."
+    },
+    {
+     "id": "S5",
+     "line": 4,
+     "words": "Only downside? You'll want one in every bag.",
+     "hand": true,
+     "pouch": true,
+     "towel": false,
+     "model": "omni",
+     "room": "rooms/pick/bedroom_teal.jpg",
+     "t": [
+      6.2,
+      8.4
+     ],
+     "still": "On the teal bedspread of the room photo: a plain beige canvas tote bag with no logo lies on its side, its open mouth toward the lens. The hand holds the pouch upright by its right teal edge just above the bag opening, front print facing the lens: thumb on the front teal edge, fingers curled behind, never covering the 'buttah.' logo.",
+     "motion": "The hand keeps one grip and slides the pouch straight down into the tote until only its top third shows, front print facing the lens the whole time; the pouch never turns or flips. Camera: slow push-in."
+    },
+    {
+     "id": "S6",
+     "line": 5,
+     "words": "Holiday travel's coming, so grab a few.",
+     "hand": false,
+     "pouch": true,
+     "towel": false,
+     "model": "omni",
+     "room": "rooms/pick/hotel.jpg",
+     "t": [
+      8.4,
+      10.4
+     ],
+     "still": "High angle on the white hotel bed of the room photo: an open plain grey hard-shell carry-on suitcase with no logo lies flat, a folded cream sweater and folded jeans inside. The pouch lies flat on top of the clothes in the centre, front print facing up toward the lens.",
+     "motion": "Nothing in the scene moves. Camera: slow push-in from above toward the pouch with a slight drift to the right."
+    },
+    {
+     "id": "S7",
+     "line": 6,
+     "words": "It's in the orange cart.",
+     "hand": false,
+     "pouch": true,
+     "towel": true,
+     "model": "omni",
+     "room": "rooms/pick/bath_B_teal.jpg",
+     "t": [
+      10.4,
+      12.0
+     ],
+     "still": "Eye level on the wooden vanity top of the room photo, teal tiles behind: ONE pouch stands upright, leaning slightly back against the tiles, front print facing the lens, just left of centre; a neat stack of five folded white towels stands at its right.",
+     "motion": "Nothing in the scene moves. Camera: slow dolly in until the pouch fills the middle third of the frame."
+    }
+   ]
+  }
+ ]
+}
