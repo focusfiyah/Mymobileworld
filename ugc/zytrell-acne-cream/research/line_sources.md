@@ -11,3 +11,5 @@
 | (cut 2026-11-02 for 10-12 s) | was the brag line; the shot S5 tube-by-the-bag still shows it |
 | "Grab two before holiday pics." | PLAYBOOK §4 CTA sells more units + real season (holidays; shop videos tagged #TikTokShopBlackFriday) |
 | "It's in the orange cart." | Grace close (PLAYBOOK) |
+
+Re-checked 2026-11-02 21:00 UTC on the final script (Script A only, B dropped by Ralph): text unchanged since the last pass (git diff empty); no new tells.

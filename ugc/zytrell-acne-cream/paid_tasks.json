@@ -53,5 +53,82 @@
   "status": "submitted",
   "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
   "taskId": "3fe4df4286d414ce1d4e0f5217d9bbe8"
+ },
+ {
+  "t": "2026-11-02 20:47:39",
+  "id": "ab947b508027",
+  "key": "29b659166279292f",
+  "model": "google/gemini-omni-flash-1-1",
+  "label": "S3",
+  "usd": 0.315,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "d6f26382f3ebf16567fb56e57507c4a7"
+ },
+ {
+  "t": "2026-11-02 20:59:27",
+  "id": "38f4ec0ee32f",
+  "key": "0586fdf7c8e7ccf3",
+  "model": "bytedance/seedance-2-mini",
+  "label": "seedance S4",
+  "usd": 0.164,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "114c477eb866498ceeb8616869bdcfa2"
+ },
+ {
+  "t": "2026-11-02 20:59:31",
+  "id": "02949649500d",
+  "key": "4de78d7f4029c914",
+  "model": "bytedance/seedance-2-mini",
+  "label": "seedance S1",
+  "usd": 0.164,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "6b50edb836bb5472ce356021d418dfb1"
+ },
+ {
+  "t": "2026-11-02 20:59:34",
+  "id": "306754b4dd9a",
+  "key": "711a6160fe7299c2",
+  "model": "bytedance/seedance-2-mini",
+  "label": "seedance S2",
+  "usd": 0.164,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "dab913f5b4937d84116aab65b1b755a6"
+ },
+ {
+  "t": "2026-11-02 20:59:40",
+  "id": "d276556459f0",
+  "key": "5914895c81167c3e",
+  "model": "google/gemini-omni-flash-1-1",
+  "label": "S5",
+  "usd": 0.315,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "b217503902c119c82e082152e1681854"
+ },
+ {
+  "t": "2026-11-02 21:07:59",
+  "id": "c588341c0a49",
+  "key": "30833a362472c3d3",
+  "model": "bytedance/seedance-2-mini",
+  "label": "seedance S4",
+  "usd": 0.164,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "a9e21899ea958b5092c2328b02d580b6"
+ },
+ {
+  "t": "2026-11-02 21:22:11",
+  "id": "0f6d73b1ec07",
+  "key": "e16ba80bf89924bc",
+  "model": "bytedance/seedance-2-mini",
+  "label": "seedance S6",
+  "usd": 0.164,
+  "status": "submitted",
+  "session": "eaf4e03f-12bd-5cfb-afe8-db66ee54b905",
+  "taskId": "e0170646c294522ed9e7f914a4eca6c2"
  }
 ]

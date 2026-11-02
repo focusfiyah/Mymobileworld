@@ -73,7 +73,10 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare_report.md",
+   "research/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "vo_lines_note": "No VO in this cut (Ralph 2026-11-02: 'No VO, music will be added later'); spoken lines kept for a later VO",
@@ -84,5 +87,15 @@
   "total": 1.887,
   "sha256": "b905c75fd18e6ef3fe2d3ff3de25a5134332bc9a10846b796b7bfcd8910d08c0",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 0.02,
+   "what": "S6 after-shot Seedance clip",
+   "by": "Ralph",
+   "quote": "Yes, run it (Recommended) (tapped 2026-11-02: S6 pimple-gone clip, $0.164, +$0.02 over the book)",
+   "date": "2026-11-02",
+   "book_sha256": "b905c75fd18e6ef3fe2d3ff3de25a5134332bc9a10846b796b7bfcd8910d08c0"
+  }
+ ]
 }
