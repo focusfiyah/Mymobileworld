@@ -25,7 +25,16 @@ def still(sid):
     if url: kie.fetch(url, f"stills/{sid}.png"); print("still", sid, "ok", flush=True)
 
 
+def edit(eid):
+    e = json.loads(Path("edits.json").read_text())[eid]
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": e["edit"], "image_input": [kie.upload(e["src"]), kie.upload(HANDS)],
+                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"edit {eid}")
+    if url: kie.fetch(url, f"stills/{eid}.png"); print("edit", eid, "ok", flush=True)
+
+
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
+    if kind == "edits":
+        with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(edit, ids))
     if kind == "stills":
         with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(still, ids))
