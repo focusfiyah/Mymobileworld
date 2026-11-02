@@ -1,6 +1,7 @@
 {
  "scripts": [
-  "scripts.md"
+  "scripts.md",
+  "scripts_text_versions.md"
  ],
  "vo_lines": [],
  "playbook": {
@@ -46,7 +47,8 @@
  },
  "readability": {
   "proof": [
-   "research/readability_v1.txt"
+   "research/readability_v1.txt",
+   "research/readability_textversions.txt"
   ],
   "note": "tiktok.py readability output for each script (grade must be <= 6)"
  },
@@ -61,7 +63,8 @@
  },
  "line_sources": {
   "proof": [
-   "research/line_sources.md"
+   "research/line_sources.md",
+   "scripts_text_versions.md"
   ],
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
