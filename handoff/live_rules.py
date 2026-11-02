@@ -23,5 +23,5 @@ r = requests.post("https://kieai.redpandaai.co/api/file-stream-upload",
                   headers={"Authorization": f"Bearer {key}"} if key else {},
                   files={"file": (out.name, text.encode())}, data={"uploadPath": "live-rules"}, timeout=120)
 url = r.json()["data"]["downloadUrl"]
-assert requests.get(url, timeout=60).text == text, "hosted copy differs"
+assert requests.get(url, timeout=60).content == text.encode(), "hosted copy differs"   # bytes: requests guesses Latin-1 for text/plain
 print(url)
