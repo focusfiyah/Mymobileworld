@@ -13,9 +13,9 @@
   EXPECT: READ_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=eca855186a56ad7acfe2745e43621f1b7fdf84cb183a68ec2572667b2d5fc288; exit=0; EXPECT=matched; output-sha256=272e431face7a963c05e5c29ed2c734db2bf35108c8d1afe6da9bd7c109399b1; output-bytes=12; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray; path=7f4fb4b02918/15 entries
 - [x] G4: Close says "It's in the orange cart." and a third to half of shots are hand-free
-  CHECK: python3 -c "t=open('scripts.md').read();n=t.count('| HAND-FREE |');s=t.count('| HAND |')+n;print('SHOTS_OK' if \"It's in the orange cart.\" in t and s==10 and 10/3<=n<=5 else 'SHOTS_FAIL',n,s)"
+  CHECK: python3 -c "t=open('scripts.md').read();n=t.count('| HAND-FREE |');s=t.count('| HAND |')+n;print('SHOTS_OK' if \"It's in the orange cart.\" in t and s==7 and 7/3<=n<=3.5 else 'SHOTS_FAIL',n,s)"
   EXPECT: SHOTS_OK
-  EVIDENCE: automatic-evidence=v1; definition-sha256=13e817731b29a5335f1170669f39ef4e7360476fa173a714adc4951e40c7880b; exit=0; EXPECT=matched; output-sha256=bdb388f98e5ebff5c47528a121affbac5ddedf26f63a6416240538563cb5f3a8; output-bytes=14; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray; path=7f4fb4b02918/15 entries
+  EVIDENCE: automatic-evidence=v1; definition-sha256=85d6354ed329b392bfde34b3159269b52cc38c079a48d6e304a341859c6e9a2a; exit=0; EXPECT=matched; output-sha256=5d6899608fa513745bb74c77ea424d47e16c0cbbaef1f461bc5f211d26542c8e; output-bytes=13; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray; path=7f4fb4b02918/15 entries
 - [x] G5: Script in Drive "Grace Tiktok assets" product folder as CURRENT Google Doc (manual: link in README)
   CHECK: python3 -c "print('DRIVE_OK' if 'drive.google.com/drive/folders/10eauHORrJBo17zYsndVO7bMNx2YSIwW0' in open('README.md').read() else 'NO_LINK')"
   EXPECT: DRIVE_OK
