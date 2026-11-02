@@ -68,5 +68,23 @@
  "compare": {
   "proof": [],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
- }
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-02",
+  "quote": "Kie for everything; hook A; no text; hands as described; start now; Approve $2.94",
+  "total": 2.94,
+  "sha256": "32dd0051399c1d0f0176a6a5bb47f6598e042c7933dff99c6904a5fa99889551",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.05,
+   "what": "Grace hand redo S1 S4 S7 + new S5 (hands note after round 1)",
+   "by": "Ralph",
+   "quote": "Approve $0.36 (+$0.05 extra)",
+   "date": "2026-11-02",
+   "book_sha256": "32dd0051399c1d0f0176a6a5bb47f6598e042c7933dff99c6904a5fa99889551"
+  }
+ ]
 }

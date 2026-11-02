@@ -1,0 +1,372 @@
+[
+ {
+  "t": "2026-11-02 20:19:22",
+  "submitted": "86804ca7c62645ae3ba70e4288aac045",
+  "prompt": "Image 1 is the room for the soft background. Close-up from above of natural black 4C coily hair parted in a line, a ligh"
+ },
+ {
+  "t": "2026-11-02 20:19:37",
+  "submitted": "4ab50c98c4c8bcc31aadd0a5029dd437",
+  "prompt": "Image 1 is the room. Close-up on the wooden kitchen counter from image 1: an open plain clear jar with no label, filled "
+ },
+ {
+  "t": "2026-11-02 20:19:42",
+  "submitted": "6b07febd10673113f7c766e8c44b35aa",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:19:44",
+  "submitted": "9cbb2914df2db367aea7afd27dab3237",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:19:46",
+  "submitted": "3265ee0485fdc3b848981eba399e4991",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:19:48",
+  "submitted": "08a9227fb22da1a153bc75dc56281064",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:19:49",
+  "submitted": "6dc03206a48f65a6c50f55fac60fe8a3",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:20:13",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the grey counter by the bright window from image 4, snow outside: two identical bottles standing side by side, labels facing the camera, a chunky cream knit scarf draped beside them. Remove the olive oil bottle, bread and tomatoes; keep the basil plant. No hands, no people. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751448-z5cv9g1nkra.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753572-57lgrh7lwmh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756699-einf213ow0r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650758699-73fk492wvn3.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "08a9227fb22da1a153bc75dc56281064",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/08a9227fb22da1a153bc75dc56281064_1793650809685.jpeg"
+   ]
+  },
+  "costTime": 36,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:20:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the white vanity from image 4: an open beige zip toiletry bag with one bottle already standing inside it, top showing. One hand holds a second bottle just above the bag, label facing the camera. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751518-j0aanl0o7bl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753748-ibhxhq02a9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756519-6set8j89o0s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650758572-w2ovxq7tx89.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6dc03206a48f65a6c50f55fac60fe8a3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/6dc03206a48f65a6c50f55fac60fe8a3_1793650809774.jpeg"
+   ]
+  },
+  "costTime": 30,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:20:17",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the grey marble bathroom counter from image 4: the bottle standing upright, label facing the camera, two fresh green rosemary sprigs lying beside it, daylight passing through the golden oil. No hands, no people, only one bottle. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751509-roybfaorc5h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753822-a6b8wozdac.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650755667-tt9rsrm6p6j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650757831-3842zebose6.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "3265ee0485fdc3b848981eba399e4991",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/3265ee0485fdc3b848981eba399e4991_1793650813293.jpeg"
+   ]
+  },
+  "costTime": 42,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:20:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the room for the soft background. Close-up from above of natural black 4C coily hair parted in a line, a light shine of oil along the part, the fingertips of one hand pressed on the scalp at the part. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible. No bottle, no product in frame. Background: image 1, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "86804ca7c62645ae3ba70e4288aac045",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793650815276-h5224n1wtb8.png"
+   ]
+  },
+  "costTime": 58,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:20:21",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the room. Close-up on the wooden kitchen counter from image 1: an open plain clear jar with no label, filled with hard dark-brown paste, a metal spoon standing upright stuck in the paste, the kitchen window soft in the background. No bottles, no oil bottle, no hands, no people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751503-1tq02fdm0b1.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4ab50c98c4c8bcc31aadd0a5029dd437",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793650818430-cjg1gyt3sc5.png"
+   ]
+  },
+  "costTime": 58,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:20:47",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background. Close-up from above of a scalp part in natural black 4C coily hair, the hair parted in a straight line down the middle of the frame. One hand holds the bottle upside down, the pointed tip touching the start of the part, a thin line of golden oil on the scalp along the part. The label faces the camera, readable. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751532-3fyd3gfmpuh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753699-ges6urlda5o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756519-6set8j89o0s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9cbb2914df2db367aea7afd27dab3237",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793650840417-bwk5ia6s5at.png"
+   ]
+  },
+  "costTime": 72,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:21:04",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background. Side close-up of a woman's temple and hairline, natural black 4C hair pulled back, short baby hairs at the edge, no face shown above the cheekbone line, only temple, hairline and ear. One hand holds the bottle with the pointed tip touching the hairline, a thin shine of oil on the edges. The label faces the camera. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751431-28r9dw2f6ne.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753789-beje4047zvl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650755964-0nknz7dvx7jb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6b07febd10673113f7c766e8c44b35aa",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793650861809-8j5z3ktu2j5.jpg"
+   ]
+  },
+  "costTime": 96,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:23:39",
+  "submitted": "8ea140b3dca145a4dd61c611b5e324d3",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:24:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background. Side close-up of a woman's temple and hairline, natural black 4C hair pulled back, short baby hairs at the edge, no face shown above the cheekbone line, only temple, hairline and ear. One hand holds the bottle with the pointed tip touching the hairline, a thin shine of oil on the edges. The label faces the camera, fully readable, not covered by fingers. The label is an exact copy of image 2, never redesigned: a small gold Ocean View script logo with a small line-drawn woman's profile beside it at the top, then HAIR GROWTH OIL, five stars, Juice Boost in large gold script, then three short lines of small text, SCALP RELIEF, ANTI HAIR LOSS, PROMOTE HAIR GROWTH and NET: 3.38FL.OZ/100ML. No large face drawing and no paragraph of text on the label. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: medium-deep brown skin, short natural nails with no polish, no rings, the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751509-roybfaorc5h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753699-ges6urlda5o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756699-einf213ow0r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8ea140b3dca145a4dd61c611b5e324d3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793651075876-6wk7p4goa76.png"
+   ]
+  },
+  "costTime": 60,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:26:50",
+  "submitted": "022cfeac1246023287185c39f1eb393f",
+  "prompt": "Image 1 is the room for the soft background, image 2 is Grace's real hands. Close-up from above of natural black 4C coil"
+ },
+ {
+  "t": "2026-11-02 20:26:53",
+  "submitted": "997a2292b4855f4cc953acf1328e3ad0",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:26:55",
+  "submitted": "944bca59bef2a5cac87c29f9c9b866e8",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:26:57",
+  "submitted": "4081979346a38620043f380cb196998a",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-02 20:28:05",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the room for the soft background, image 2 is Grace's real hands. Close-up from above of natural black 4C coily hair parted in a straight line down the middle of the frame, a light shine of oil along the part. One hand comes in from the top edge of the frame, back of the hand toward the camera, fingers gently curled, the fingertips pressed onto the scalp just beside the part. No palm facing the camera. The hand is Grace's from image 2, copied exactly: medium-brown skin, long square French-tip nails (pink with white tips), a silver crown-shaped ring stack on the ring finger, a gold ring with a triangle stone on the index finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch, the whole wrist visible. No bottle, no product in frame. Background: image 1, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651192562-b31x21q8fp.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "022cfeac1246023287185c39f1eb393f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793651281128-5cakjpvufs4.jpg"
+   ]
+  },
+  "costTime": 83,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:28:14",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background, image 5 Grace's real hands, image 6 an approved photo of this exact bottle (the bottle and its label must look exactly like image 6). Side close-up of a woman's temple and hairline, natural black 4C hair pulled back, short baby hairs at the edge, no face shown above the cheekbone line, only temple, hairline and ear. One hand holds the bottle with the pointed tip touching the hairline, a thin shine of oil on the edges. The label faces the camera, fully readable, not covered by fingers. The label is an exact copy of image 2, never redesigned: a small gold Ocean View script logo with a small line-drawn woman's profile beside it at the top, then HAIR GROWTH OIL, five stars, Juice Boost in large gold script, then three short lines of small text, SCALP RELIEF, ANTI HAIR LOSS, PROMOTE HAIR GROWTH and NET: 3.38FL.OZ/100ML. No large face drawing and no paragraph of text on the label. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: Grace's real hands from image 5, copied exactly: medium-brown skin, long square French-tip nails (pink with white tips), a silver crown-shaped ring stack on the ring finger, a gold ring with a triangle stone on the index finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751509-roybfaorc5h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753699-ges6urlda5o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756699-einf213ow0r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651192600-bbotvqv2kye.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651194271-7lvr9wmbcv7.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "997a2292b4855f4cc953acf1328e3ad0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793651291038-69ft9p93l69.jpg"
+   ]
+  },
+  "costTime": 89,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:28:54",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room for the soft background, image 5 Grace's real hands, image 6 an approved photo of this exact bottle (the bottle and its label must look exactly like image 6). Close-up from above of a scalp part in natural black 4C coily hair, the hair parted in a straight line down the middle of the frame. One hand holds the bottle upside down, the pointed tip touching the start of the part, a thin line of golden oil on the scalp along the part. The label faces the camera, readable. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: Grace's real hands from image 5, copied exactly: medium-brown skin, long square French-tip nails (pink with white tips), a silver crown-shaped ring stack on the ring finger, a gold ring with a triangle stone on the index finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Background: image 4, soft and out of focus. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751509-roybfaorc5h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753699-ges6urlda5o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756699-einf213ow0r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751459-4upn1z5uqb.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651192571-v1f03szo9om.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651195047-02y3d8xs9m4b.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "944bca59bef2a5cac87c29f9c9b866e8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793651327432-fhuxsu8frtk.png"
+   ]
+  },
+  "costTime": 123,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:29:09",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room, image 5 Grace's real hands, image 6 an approved photo of this exact bottle (the bottle and its label must look exactly like image 6). On the white vanity from image 4: an open beige zip toiletry bag with one bottle already standing inside it, top showing. One hand holds a second bottle just above the bag, label facing the camera. The product is the real Ocean View Juice Boost Hair Growth Oil: a clear round plastic bottle, 100 ml, about 13 cm tall (a little taller than a phone is wide), filled with golden-yellow oil, with a tall black pointed nozzle cap on a black ribbed screw collar. The wrap label fades from black at the top to green, yellow, orange and a red band at the bottom, with thin gold lines. The label print MUST match image 2 letter for letter and colour for colour: gold Ocean View script logo with a line-drawn woman's face, HAIR GROWTH OIL on a gold rectangle, five gold stars, Juice Boost in gold script, then small gold and black text. The cap MUST match image 3 exactly: black, pointed cone tip, ribbed collar. No dropper, no pump, no spray head, no box. Hands: Grace's real hands from image 5, copied exactly: medium-brown skin, long square French-tip nails (pink with white tips), a silver crown-shaped ring stack on the ring finger, a gold ring with a triangle stone on the index finger, a blue silicone band on the thumb, bare wrist with no bracelet and no watch; the hand enters from the frame edge with the whole wrist visible, fingers wrapped around the bottle (thumb on one side, fingers curled on the other). Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650751509-roybfaorc5h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650753699-ges6urlda5o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650756699-einf213ow0r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793650758572-w2ovxq7tx89.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651192675-bw8eal95qjh.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651194880-q3yl0hwyqvs.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "4081979346a38620043f380cb196998a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/4081979346a38620043f380cb196998a_1793651344827.jpeg"
+   ]
+  },
+  "costTime": 137,
+  "credits": 18.0,
+  "usd": 0.09
+ }
+]
