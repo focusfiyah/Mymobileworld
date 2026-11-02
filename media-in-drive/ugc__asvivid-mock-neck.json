@@ -1,0 +1,66 @@
+{
+ "unit": "ugc/asvivid-mock-neck",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-02",
+   "files": {
+    "ugc/asvivid-mock-neck/out/edit_v1.mp4": [
+     32836723,
+     "4eba8115066e009ae8c0517cce7e05532bdc3a0edc0385ca3924059d380e4dee"
+    ],
+    "ugc/asvivid-mock-neck/out/qc/first.jpg": [
+     82330,
+     "1abd2322a146778e87d9ba9ef5ef6f75eadb3f895aac7b258f1252bb2621e939"
+    ],
+    "ugc/asvivid-mock-neck/out/qc/shots.jpg": [
+     216834,
+     "f82660dc38a4926fda1efd1671078da630db99e6d642ee5d5ae65b687583396b"
+    ],
+    "ugc/asvivid-mock-neck/raw/raw.mov": [
+     101794933,
+     "aa8c09ac96dc08d780f4adfa26a5b3da9a4922e5e993008735831317a0575f48"
+    ],
+    "ugc/asvivid-mock-neck/raw/sheet.jpg": [
+     458095,
+     "b4969215774d4bccf47365a9031bc07d2f98ad888fc535b3b86a2e8c34701d33"
+    ],
+    "ugc/asvivid-mock-neck/raw/sheetA.jpg": [
+     362049,
+     "99b63f96526ed4065d8ae367ebc256523b8273575bcbf2a69b90d6635b7fc9f7"
+    ],
+    "ugc/asvivid-mock-neck/raw/sheetB.jpg": [
+     366271,
+     "a29fac7d88a60b3da8bfc04929c5e9fe8fa599f260b5bd2c813f707f98b94a28"
+    ],
+    "ugc/asvivid-mock-neck/review/edit_v1_preview.mp4": [
+     5424422,
+     "cc644b013d3ee23f2e789984e6eeb020333fc08bee4764201b7c6a6a2989b0dc"
+    ],
+    "ugc/asvivid-mock-neck/review/first.jpg": [
+     30777,
+     "f528a09f10499b430be43e2f9b4cfbcf2f0e245c5ab7ac38ed845ca8e0c69869"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__asvivid-mock-neck.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "34df27074915f08a7e73892c785480bce7dd8894d5051d6cfa84183c8f3b783b",
+     "hosted": "2026-11-02",
+     "drive_id": "1O1FXAbgPphIHTLJy4t5IQ6Sm9I_WcqMx",
+     "drive_folder": "1Gr-uSpVIoA6xdt712SJaahXUSVdu6p7F"
+    },
+    {
+     "name": "ugc__asvivid-mock-neck.set1.part02.tar",
+     "size": 46588480,
+     "sha256": "efcfeeb87e55cd003d531760f508c1289980021259a1655c322fa6b45e96c3ea",
+     "hosted": "2026-11-02",
+     "drive_id": "1VWtWCBa93jYSKAEso-LlkIbJ9a5-9RQI",
+     "drive_folder": "1Gr-uSpVIoA6xdt712SJaahXUSVdu6p7F"
+    }
+   ]
+  }
+ ]
+}
