@@ -7,7 +7,7 @@ from pathlib import Path
 D = json.loads(Path("shots.json").read_text()); B = D["blocks"]; SH = D["videos"][0]["shots"]
 SHEET, LOGO, BADGE, REAL = "refs/product_sheet.png", "refs/closeup_logo.png", "refs/closeup_badges.png", "refs/front_clean.png"
 TOWEL = "refs/towel_ref.png"   # real opened towel + waffle texture, no pouch (for no-pouch shots)
-HAND = "../../grace/ref/hand-sheets/" + (sys.argv[1] if len(sys.argv) > 1 else "with_bracelet.jpg")
+HAND = "../../grace/ref/hand-sheets/no_jewelry.jpg"   # Ralph 2026-11-02: no rings, no bracelet
 
 
 def still(s):
@@ -20,7 +20,7 @@ def still(s):
         add(BADGE, "a close-up of the real window strip, three badges and white text lines")
         add(REAL, "the real pouch front")
     add(s["room"], "the real room photo to use as the setting")
-    # Ralph 2026-11-02: Grace's hand with no rings and no bracelet -> no hand sheet image (its rings would be copied); hand in words only
+    if s["hand"]: add(HAND, "Grace's no-jewellery hand reference sheet (skin, nails; no rings, no bracelet)")
     parts = ["Vertical 9:16 photo, a single frame from a phone-shot UGC video."]
     if s["pouch"]: parts.append(B["size_first"] + (" " + B["size_folded"] if s["towel"] else ""))
     elif s["towel"]: parts.append(B["size_towel"])
@@ -48,7 +48,7 @@ def clip(s):
               else f"Image {len(r)} is the real towel: it stays a plain white waffle towel with no print; no towel pack or packaging appears in this clip.")
     if s["pouch"]: ex.append("The pouch stays closed with no lid, flap or opening, and never bends, turns or flips.")
     if s["hand"]:
-        ex.append("The hand stays exactly as in image 1: medium-brown skin, short French-tip nails, no rings, no bracelet, no watch, no jewellery appears at any time.")
+        r.append(HAND); ex.append(f"Image {len(r)} is Grace's hand sheet: the hand stays exactly as in images 1 and {len(r)}, mauve-pink French-tip nails, no rings, no bracelet, no watch; no jewellery appears at any time.")
     else: ex.append("No hand, fingers or people appear at any time.")
     return r, f"{head} {' '.join(ex)} Motion: {s['motion']} {B['omni_tail']}"
 
