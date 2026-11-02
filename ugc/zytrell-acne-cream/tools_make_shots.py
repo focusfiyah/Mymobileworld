@@ -63,8 +63,9 @@ shots = [
             f"reference. Image 2 is her hand reference. Image 3 is the room reference. {GRACE_FACE} {HAND} She wears "
             f"a soft pink ribbed tank top. Background: {ROOM}. {LOOK}"),
   "clip_refs": ["stills/S4.png"],
-  "clip": ("Recreate reference image 1 exactly as the first frame. Her fingertip pats the white cream onto the pimple "
-           "in three small taps, leaving a thin sheer layer over the spot, then lifts away. The camera stays locked "
+  "clip": ("Recreate reference image 1 exactly as the first frame. Her fingertip moves onto the small red pimple and pats "
+           "the white cream directly on top of it in three small taps, until a thin white layer covers the red spot "
+           "completely and no red shows, then the finger lifts away. The camera stays locked "
            "off. Same hand and rings the whole clip, no tube or product appears. Bright neutral daylight, realistic "
            "skin, no text.")},
  {"id": "S5", "kind": "HAND-FREE", "model": "omni", "window": [8.8, 11.2],
@@ -81,7 +82,15 @@ shots = [
            "no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tube. Vertical 9:16 phone "
            "footage, bright neutral daylight. No music, no voice, no captions, no on-screen text.")},
 ]
+shots.append({"id": "S6", "kind": "HAND-FREE", "model": "seedance", "window": [8.0, 10.0],
+  "still_note": "free edit of stills/S1.png: pimple painted out (cv2 inpaint + skin grain), 2026-11-02",
+  "clip_refs": ["stills/S6.png"],
+  "clip": ("Recreate reference image 1 exactly as the first frame: her chin is clear, smooth skin with no pimple or "
+           "blemish anywhere. The camera pushes in slowly toward her clear chin while she breaks into a small, soft "
+           "closed-mouth smile. No pimple, spot or mark appears at any time. No hand, fingers or other people appear "
+           "at any time. Bright neutral daylight, realistic skin, no text.")})
 json.dump({"shots": shots}, open("shots.json", "w"), indent=1)
 for s in shots:
-    open(f"prompts/still_{s['id']}.txt", "w").write(s["still"]); open(f"prompts/{s['id']}.txt", "w").write(s["clip"])
+    if s.get("still"): open(f"prompts/still_{s['id']}.txt", "w").write(s["still"])
+    open(f"prompts/{s['id']}.txt", "w").write(s["clip"])
 print("ok")
