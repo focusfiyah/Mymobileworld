@@ -43,16 +43,16 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 .tot td{{font-weight:600;color:var(--accent)}} a{{color:var(--accent)}}
 </style>
 <div class="wrap">
-<header><h1>buttah. Silky Soft <em>Towels</em></h1><p class="sub">Grace, 24 count travel pack. Music-only video, ~16 s, 7 shots, with a script Grace can voice later. Plan for your OK; nothing has been paid for yet.</p></header>
+<header><h1>buttah. Silky Soft <em>Towels</em></h1><p class="sub">Grace, 24 count travel pack. Music-only video, ~12 s, 6 shots, with a script Grace can voice later. Plan for your OK; nothing has been paid for yet.</p></header>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer)</strong><ol>
-<li><b>Approve the plan</b> below: total <b>$3.09</b> on Kie (7 stills $0.63, 6 Omni clips $1.89, 1 Seedance $0.16, one likely redo $0.41). November so far $1.32 of $100.</li>
+<li><b>Approve the plan</b> below: total <b>$2.68</b> on Kie (6 stills $0.54, 5 Omni clips $1.58, 1 Seedance $0.16, one likely redo $0.41). Cut to 12 s as you asked: shorter lines, the tap shot dropped. November so far $1.32 of $100.</li>
 <li>Grace's hand sheet: <b>with</b> the gold bracelet or <b>without</b>?</li>
 <li>Pouch size: the brand gives none. I used about 17 x 15 cm (a little wider than her hand), from the brand's in-hand photo. OK, or can Grace measure hers?</li>
 <li>House of Rameau version after V1 ($0 re-cut, its own order and grade, on-screen hook text, no captions): yes or no?</li></ol></section>
-<section class="box"><h2>Script for Grace (~16 s at her pace, grade 1.9)</h2><ol class="script">{script}</ol>
+<section class="box"><h2>Script for Grace (~12 s at her pace, grade 1.9)</h2><ol class="script">{script}</ol>
 <p class="sub">Our cut has no voice: you add the music. Each shot sits on its line, so Grace's voiceover drops straight on. No on-screen text. Hook H006 from her library; other hook options: "Why did nobody tell me about these sooner?" (H010), "One small switch made washing my face so much easier." (H147, only if true for her).</p>
 <p class="sub">Caption: me and my old washcloth are done. these are big, soft and you toss each one after. #ad #facetowel #disposablefacetowel #skincareroutine #travelessentials</p></section>
-<section style="display:grid;gap:12px"><h2>Shots (4 HAND, 3 HAND-FREE)</h2>{shots}</section>
+<section style="display:grid;gap:12px"><h2>Shots (3 HAND, 3 HAND-FREE)</h2>{shots}</section>
 <section class="box"><h2>Real product (from the brand's own photos)</h2>
 <div class="grid"><figure><img src="img/front.jpg" alt="Real Buttah pouch front"><figcaption>Real pouch front (buttahskin.com)</figcaption></figure></div>
 <ul><li>Soft flat pouch, wider than tall, glossy mint-teal edges, crinkled sealed ends, matte black front.</li>
@@ -61,7 +61,7 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <li>No listing photo shows how the pouch opens, so no shot pulls a towel out of it; the towels come off a stack beside it.</li></ul>
 <figure><img src="img/sheet.jpg" alt="Product reference sheet"><figcaption>Product reference sheet passed on every product still and clip</figcaption></figure></section>
 <section class="box"><h2>Rooms (real Pexels and Pixabay photos, no people)</h2><div class="grid">
-<figure><img src="img/bath_A.jpg" alt="White vanity bathroom"><figcaption>White vanity: S1, S4</figcaption></figure><figure><img src="img/towel_bar.jpg" alt="Sink corner"><figcaption>Sink corner: S2</figcaption></figure>
+<figure><img src="img/bath_A.jpg" alt="White vanity bathroom"><figcaption>White vanity: S1</figcaption></figure><figure><img src="img/towel_bar.jpg" alt="Sink corner"><figcaption>Sink corner: S2</figcaption></figure>
 <figure><img src="img/bath_B_teal.jpg" alt="Teal tile bathroom"><figcaption>Teal tiles: S3, S7</figcaption></figure><figure><img src="img/bedroom_teal.jpg" alt="Teal bedroom"><figcaption>Teal bedroom: S5</figcaption></figure>
 <figure><img src="img/hotel.jpg" alt="Hotel room"><figcaption>Hotel room: S6</figcaption></figure></div></section>
 <section class="box"><h2>What the winners do</h2><figure><img src="img/winner_maya.jpg" alt="Contact sheet of the @mayahome02 video"><figcaption>@mayahome02, 637.9K views (shop): packs on the counter, towel pulled, wet under the tap, end on the stock-up</figcaption></figure>
@@ -70,11 +70,11 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <li>Buyers: "I can never go back", "I never thought about how dirty towels are, even when washed", "We always take them to Europe because they don't always have facecloths in the hotels". One Ulta buyer found Buttah rougher than Clean Skin Club, so "soft" is shown, not oversold.</li>
 <li>Script gate: GATE OK (playbook, coach, viral board, facts, hooks, humanizer, readability, audience, line sources). TikTok's hashtag and viral scans came back empty today (tried twice); the keyword page gave the 3 winners above.</li></ul></section>
 <section class="box"><h2>Cost</h2><div class="tw"><table><tr><th>Item</th><th class="n">$</th></tr>
-<tr><td>7 stills, Gemini 3 Pro Image on Kie, 7 x $0.09</td><td class="n">0.63</td></tr>
-<tr><td>6 Omni 1.1 Flash product clips on Kie, 6 x $0.315</td><td class="n">1.89</td></tr>
+<tr><td>6 stills, Gemini 3 Pro Image on Kie, 6 x $0.09</td><td class="n">0.54</td></tr>
+<tr><td>5 Omni 1.1 Flash product clips on Kie, 5 x $0.315</td><td class="n">1.575</td></tr>
 <tr><td>1 Seedance 2.0 Mini clip (S2, no product)</td><td class="n">0.164</td></tr>
 <tr><td>One likely redo (1 still + 1 Omni), asked before it runs</td><td class="n">0.405</td></tr>
-<tr class="tot"><td>Total</td><td class="n">3.09</td></tr></table></div>
-<p class="sub">Order: all 7 stills at once, storyboard here for your look, then ONE test clip (S5, the riskiest), then the other 6 at once. About 35-40 min of machine time after your OK, plus your two review stops.</p></section>
+<tr class="tot"><td>Total</td><td class="n">2.68</td></tr></table></div>
+<p class="sub">Order: all 6 stills at once, storyboard here for your look, then ONE test clip (S5, the riskiest), then the other 5 at once. About 30-35 min of machine time after your OK, plus your two review stops.</p></section>
 </div>"""
 Path("review/index.html").write_text(page); print(len(page))

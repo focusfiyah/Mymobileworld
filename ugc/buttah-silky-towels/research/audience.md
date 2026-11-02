@@ -22,7 +22,7 @@ Friend to friend, short, a little dramatic about the old habit, then relieved: "
 Their questions are practical: "Do they leave lint?", "Are they fragrance free?"
 
 ## What it means for the script
-- Hook on the old washcloth, not on the product (H006: "you won't know how much your washcloth bugs you until you stop using it"), so the fence-sitters ("are clean towels worth it") see their own habit first.
+- Hook on the old washcloth, not on the product (H006: "you won't know how bad your washcloth is until you stop using it"), so the fence-sitters ("are clean towels worth it") see their own habit first.
 - Pain line is the damp cloth going back on the face, in plain words; no bacteria or breakout claim (the derm video attacks exactly that, and the listing only says "helps prevent the appearance of breakouts").
 - Solution names what buyers praise: big, soft, used once. The Ulta reviewer who found them rougher than Clean Skin Club is why "soft" is shown (towel hanging open, waffle texture) rather than oversold.
 - Travel is the real urgency and the multi-pack reason: a pack in every bag, holiday travel coming, grab a few.
