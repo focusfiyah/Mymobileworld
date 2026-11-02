@@ -32,8 +32,16 @@ def edit(eid):
     if url: kie.fetch(url, f"stills/{eid}.png"); print("edit", eid, "ok", flush=True)
 
 
+def seedance(sid):
+    url = kie.run_task({"model": "bytedance/seedance-2-mini", "input": {"prompt": Path(f"prompts/{sid}.txt").read_text().strip(), "first_frame_url": kie.upload(f"stills/{sid}.png"),
+                        "generate_audio": False, "resolution": "720p", "aspect_ratio": "9:16", "duration": 4}}, label=f"seedance {sid}")
+    if url: kie.fetch(url, f"clips/{sid}.mp4", still=f"stills/{sid}.png"); print("clip", sid, "ok", flush=True)
+
+
 if __name__ == "__main__":
     kind, ids = sys.argv[1], sys.argv[2:]
+    if kind == "seedance":
+        with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(seedance, ids))
     if kind == "edits":
         with ThreadPoolExecutor(max(1, len(ids))) as ex: list(ex.map(edit, ids))
     if kind == "stills":

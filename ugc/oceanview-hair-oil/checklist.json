@@ -66,7 +66,10 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "book_ok": {
@@ -91,6 +94,14 @@
    "what": "one-item hand swap edits S4 (from S4_r2_crop) and S7 (from S7_r1)",
    "by": "Ralph",
    "quote": "Approve $0.18 edit",
+   "date": "2026-11-02",
+   "book_sha256": "32dd0051399c1d0f0176a6a5bb47f6598e042c7933dff99c6904a5fa99889551"
+  },
+  {
+   "usd": 0.32,
+   "what": "S4 Omni redo: oil visibly applied from the tip",
+   "by": "Ralph",
+   "quote": "Go, $0.315",
    "date": "2026-11-02",
    "book_sha256": "32dd0051399c1d0f0176a6a5bb47f6598e042c7933dff99c6904a5fa99889551"
   }
