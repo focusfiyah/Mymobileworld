@@ -372,5 +372,42 @@
   "still": "stills/S4.png",
   "ok": true,
   "score": 0.937
+ },
+ {
+  "t": "2026-11-02 21:22:15",
+  "submitted": "e0170646c294522ed9e7f914a4eca6c2",
+  "prompt": "Recreate reference image 1 exactly as the first frame: her chin is clear, smooth skin with no pimple or blemish anywhere"
+ },
+ {
+  "t": "2026-11-02 21:23:37",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame: her chin is clear, smooth skin with no pimple or blemish anywhere. The camera pushes in slowly toward her clear chin while she breaks into a small, soft closed-mouth smile. No pimple, spot or mark appears at any time. No hand, fingers or other people appear at any time. Bright neutral daylight, realistic skin, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793654527185-k302css2am.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e0170646c294522ed9e7f914a4eca6c2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793654611119-1aoymdl830p.mp4"
+   ]
+  },
+  "costTime": 78,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-02 21:23:39",
+  "clip_check": "clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.947
  }
 ]

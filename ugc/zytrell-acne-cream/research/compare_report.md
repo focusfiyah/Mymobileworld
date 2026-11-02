@@ -6,3 +6,5 @@ What it shows / what was done:
 - Length and pace match the winner's range (9-13 s music-only winners); kept.
 - The winner's hook is its on-screen line; ours has none by rule. Offered to Ralph as a yes/no (on-screen hook text option from research/hooks.md: "pimple the night before plans??"), not burned in.
 - Product enters at 4.2 s vs 0 s; the problem-first order is the planned script (hook, pain, solution). Kept; S5 ends on the product for 2.4 s.
+
+v3 (2026-11-02, Ralph: show the pimple gone): 11.8 s, 5 cuts, after shot S6 added before the tube close-up; still inside the 9-13 s music-only winner range. No other change from the compare.

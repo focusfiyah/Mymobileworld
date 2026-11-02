@@ -82,7 +82,15 @@ shots = [
            "no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tube. Vertical 9:16 phone "
            "footage, bright neutral daylight. No music, no voice, no captions, no on-screen text.")},
 ]
+shots.append({"id": "S6", "kind": "HAND-FREE", "model": "seedance", "window": [8.0, 10.0],
+  "still_note": "free edit of stills/S1.png: pimple painted out (cv2 inpaint + skin grain), 2026-11-02",
+  "clip_refs": ["stills/S6.png"],
+  "clip": ("Recreate reference image 1 exactly as the first frame: her chin is clear, smooth skin with no pimple or "
+           "blemish anywhere. The camera pushes in slowly toward her clear chin while she breaks into a small, soft "
+           "closed-mouth smile. No pimple, spot or mark appears at any time. No hand, fingers or other people appear "
+           "at any time. Bright neutral daylight, realistic skin, no text.")})
 json.dump({"shots": shots}, open("shots.json", "w"), indent=1)
 for s in shots:
-    open(f"prompts/still_{s['id']}.txt", "w").write(s["still"]); open(f"prompts/{s['id']}.txt", "w").write(s["clip"])
+    if s.get("still"): open(f"prompts/still_{s['id']}.txt", "w").write(s["still"])
+    open(f"prompts/{s['id']}.txt", "w").write(s["clip"])
 print("ok")

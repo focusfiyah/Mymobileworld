@@ -98,6 +98,20 @@
     "refs/product_sheet.png"
    ],
    "clip": "Recreate image 1 exactly as the first frame: keep its counter, light, framing and objects exactly. Image 2 is the real zytrell logo and ACNE TREATMENT CREAM print: it stays on the tube the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the product sheet: keep this exact tube shape, size and green, the cap at the bottom, no added marks, no extra text. Motion: the tube and bag stay still; no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tube. Vertical 9:16 phone footage, bright neutral daylight. No music, no voice, no captions, no on-screen text."
+  },
+  {
+   "id": "S6",
+   "kind": "HAND-FREE",
+   "model": "seedance",
+   "window": [
+    8.0,
+    10.0
+   ],
+   "still_note": "free edit of stills/S1.png: pimple painted out (cv2 inpaint + skin grain), 2026-11-02",
+   "clip_refs": [
+    "stills/S6.png"
+   ],
+   "clip": "Recreate reference image 1 exactly as the first frame: her chin is clear, smooth skin with no pimple or blemish anywhere. The camera pushes in slowly toward her clear chin while she breaks into a small, soft closed-mouth smile. No pimple, spot or mark appears at any time. No hand, fingers or other people appear at any time. Bright neutral daylight, realistic skin, no text."
   }
  ]
 }
