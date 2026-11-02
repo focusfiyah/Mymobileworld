@@ -4,7 +4,7 @@ a silent audio track so Grace can drop her music in. S7a dropped (REMOVED.md): t
 import subprocess, sys
 from pathlib import Path
 
-NAME = "rosemary_v1"
+NAME = "rosemary_v2"
 # (shot, source start in its 4 s clip, length); windows from scripts.md, S7 = S7b 0.8 s + S7c 1.2 s
 EDIT = [("S1", 0.3, 2.0), ("S2", 0.8, 1.4), ("S3", 0.6, 1.6), ("S4", 0.5, 1.6), ("S5", 0.6, 1.4),
         ("S6", 0.6, 1.4), ("S7b", 0.0, 0.8), ("S7c", 0.4, 1.2)]

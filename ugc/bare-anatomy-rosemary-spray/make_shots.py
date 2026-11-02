@@ -10,7 +10,7 @@ SIZE = ("SIZE FIRST: the bottle is a 200 ml bottle, about 17 cm tall including t
         "and about 5 cm wide; an adult hand wraps all the way around its body. It is NEVER bigger than a hand, NEVER a tall salon bottle.")
 BOTTLE = ("The real Bare Anatomy Rosemary & Rice Water Hair Spray bottle, exactly as on the product sheet: a CLEAR round see-through plastic bottle "
           "with rounded shoulders, filled with CLEAR colourless liquid (never orange, yellow or tinted), a tall glossy BLACK collar and a BLACK curved trigger sprayer "
-          "with a long nozzle pointing forward. The front label is printed straight on the clear bottle: 'BARE ANATOMY' in black spaced serif capitals with a small TM, "
+          "with a long nozzle. The front label is printed straight on the clear bottle: 'BARE ANATOMY' in black spaced serif capitals with a small TM, "
           "'NATURE x SCIENCE' in small black capitals, a pale-blue water splash with a green rosemary sprig and a yellow sprig, 'Rosemary & Rice Water' in bold purple, "
           "'HAIR SPRAY' in dark purple capitals between thin grey lines, two small round purple line icons reading 'ALCOHOL FREE' and 'SULPHATE FREE', "
           "then small black text 'Helps Hair Appear Fuller & Voluminous', 'Water-Based Formula', '200 ml | 6.76 fl oz'. "
@@ -48,10 +48,12 @@ def refs_text(keys):
 
 def s(id, t, beat, hand, bottle, room, model, still, motion, refs, hair=False):
     keys = list(refs) + ([room] if room else [])
+    lead = still if still.startswith("FRAMING FIRST") else ""
     still_txt = " ".join(x for x in [
+        lead,
         (SIZE + " " + BOTTLE) if bottle else "",
         HAIR if hair else "",
-        still,
+        "" if lead else still,
         HAND if hand else NOHAND,
         END, refs_text(keys)] if x)
     if model == "omni":
@@ -79,10 +81,14 @@ def s(id, t, beat, hand, bottle, room, model, still, motion, refs, hair=False):
 
 SHOTS = [
     s("S1", [0.0, 2.0], "Hook", True, True, "A", "omni",
-      "Close shot from just above and behind her head: the top of her head with the braided parts fills the lower half of the frame. Her hand comes in from the right edge "
-      "and GRIPS the ONE bottle around its body, index finger on the black trigger, the nozzle aimed down at the scalp along one braid part, the front label facing the camera. "
-      "Green tiles soft and out of focus behind. Only one bottle.",
-      "her index finger squeezes the trigger twice and a fine clear mist puffs onto the scalp along the braid part; the hand stays in place. Camera steady.",
+      "FRAMING FIRST: close shot from behind her, slightly to her right side. The back and side of her head with her long braids fill the LEFT two-thirds of the frame, "
+      "from the top of her head down to her shoulders. Her hand comes in from the RIGHT edge and GRIPS the ONE bottle around its body beside her head, index finger on the black trigger; "
+      "the nozzle points LEFT, straight at the braids near the roots, its tip only a hand's width from the braids, so the braids are directly in front of the nozzle. "
+      "The front label faces the camera and is EXACTLY image 2: printed straight onto the CLEAR plastic so the clear liquid shows through it, "
+      "NO white label panel, NO green box or green band; 'HAIR SPRAY' is dark purple letters on clear plastic between thin grey lines. "
+      "Green tiles soft and out of focus behind on the right. Only one bottle.",
+      "her index finger squeezes the trigger twice; each time a fine clear mist shoots LEFT from the nozzle straight onto the braids right in front of it and settles on them as tiny droplets. "
+      "No mist goes past her head or across the frame. The hand stays in place. Camera steady.",
       ["sheet", "front", "sprayer", "hand", "hair"], hair=True),
     s("S2", [2.0, 3.4], "Pain", False, False, "C", "seedance",
       "Close shot on the gas stove: a small steel pot of water with a few green rosemary sprigs floating in it, gently simmering, steam rising; "
