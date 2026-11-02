@@ -1,6 +1,6 @@
 # Bare Anatomy Rosemary & Rice Water Hair Spray, 3-pack (Grace)
 
-Status (2026-11-02): script v2 (11.4 s, 7 shots) done, music-only (no VO), Ralph 2026-11-02: on-screen text NO ("1. No"); one video, opens on the spray ("One video, spray first"). Cost so far $0. Script FINAL (no on-screen text, no caption). 3 script versions to add later (scripts_text_versions.md, Drive "CURRENT - Rosemary Spray 3 script versions", Ralph 2026-11-02). Next (only if Ralph asks for the video): storyboard stills, then clips (quote first).
+Status (2026-11-02): DONE. Video approved by Ralph (cut v3, 11.4 s, music-free, no text) and in Drive as "CURRENT - Rosemary Spray video.mp4" (https://drive.google.com/file/d/1I-Wm_61Yukiy7GEPNTv8o3EMhka0S_rO/view). Kie $3.78 (plan $3.60 + $0.315 extra OK'd). Grace adds her music.
 Drive: https://drive.google.com/drive/folders/10eauHORrJBo17zYsndVO7bMNx2YSIwW0 (CURRENT - Rosemary Spray script FINAL; v1 18s + v2 with text options in Older versions)
 Listing: https://shop.tiktok.com/us/pdp/rosemary-rice-water-hair-spray-200ml-pack-of-3-non-greasy/1729505063356962201 (190.8K sold, #1 in its search)
 

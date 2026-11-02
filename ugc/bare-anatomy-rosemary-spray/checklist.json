@@ -69,7 +69,28 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
- }
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-02",
+  "quote": "The plan is approved and it should look like Grace's hair.",
+  "total": 3.6,
+  "sha256": "1057992aff9a3741e0ec67ee8210a1d28e72a1caf4c72654a7038c48b7e8ab23",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.315,
+   "what": "S1 new Omni take: spray visibly wets the braids (Ralph: 'when spraying it should show the some type of liquid in the hair')",
+   "by": "Ralph",
+   "quote": "New clip, same still $0.315 (Recommended)",
+   "date": "2026-11-02",
+   "book_sha256": "1057992aff9a3741e0ec67ee8210a1d28e72a1caf4c72654a7038c48b7e8ab23"
+  }
+ ]
 }
