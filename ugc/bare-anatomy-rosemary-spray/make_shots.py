@@ -87,7 +87,9 @@ SHOTS = [
       "The front label faces the camera and is EXACTLY image 2: printed straight onto the CLEAR plastic so the clear liquid shows through it, "
       "NO white label panel, NO green box or green band; 'HAIR SPRAY' is dark purple letters on clear plastic between thin grey lines. "
       "Green tiles soft and out of focus behind on the right. Only one bottle.",
-      "her index finger squeezes the trigger twice; each time a fine clear mist shoots LEFT from the nozzle straight onto the braids right in front of it and settles on them as tiny droplets. "
+      "her index finger squeezes the trigger twice; each time a fine clear mist shoots LEFT from the nozzle and lands on the braids right in front of it. "
+      "The liquid clearly stays in the hair: after the first spray, many tiny clear water droplets sit on the braids in a patch where the mist landed and that patch of braids looks damp and darker; "
+      "after the second spray the wet patch is bigger with more droplets. The droplets stay on the braids until the end. "
       "No mist goes past her head or across the frame. The hand stays in place. Camera steady.",
       ["sheet", "front", "sprayer", "hand", "hair"], hair=True),
     s("S2", [2.0, 3.4], "Pain", False, False, "C", "seedance",

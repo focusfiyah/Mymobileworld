@@ -738,5 +738,44 @@
   "still": "stills/S1.png",
   "ok": true,
   "score": 0.938
+ },
+ {
+  "t": "2026-11-02 21:27:16",
+  "submitted": "c30b54cf2bd5d1bc2a4b642c9e86e345",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real front l"
+ },
+ {
+  "t": "2026-11-02 21:29:12",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly. image 2 is the real front label, which must match letter for letter and colour for colour; image 3 is the real black collar and trigger sprayer, keep its exact shape; image 4 is the product sheet: keep this exact clear bottle, black sprayer, size and print. Motion: her index finger squeezes the trigger twice; each time a fine clear mist shoots LEFT from the nozzle and lands on the braids right in front of it. The liquid clearly stays in the hair: after the first spray, many tiny clear water droplets sit on the braids in a patch where the mist landed and that patch of braids looks damp and darker; after the second spray the wet patch is bigger with more droplets. The droplets stay on the braids until the end. No mist goes past her head or across the frame. The hand stays in place. Camera steady. The hand keeps one grip; the bottle never turns, flips, grows or changes shape; the liquid stays clear; the print never changes. Bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bare-anatomy-rosemary-spray/1793654820705-hotrla852im.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bare-anatomy-rosemary-spray/1793654823258-yke3f3j4o9q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bare-anatomy-rosemary-spray/1793654825450-ufizxjek1r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bare-anatomy-rosemary-spray/1793654827446-cz0on035046.png"
+    ]
+   }
+  },
+  "taskId": "c30b54cf2bd5d1bc2a4b642c9e86e345",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/c30b54cf2bd5d1bc2a4b642c9e86e345_0_1793654949.mp4"
+   ]
+  },
+  "costTime": 116,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 21:29:16",
+  "clip_check": "/home/user/Mymobileworld/ugc/bare-anatomy-rosemary-spray/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.867
  }
 ]

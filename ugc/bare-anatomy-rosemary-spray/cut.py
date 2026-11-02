@@ -4,9 +4,9 @@ a silent audio track so Grace can drop her music in. S7a dropped (REMOVED.md): t
 import subprocess, sys
 from pathlib import Path
 
-NAME = "rosemary_v2"
+NAME = "rosemary_v3"
 # (shot, source start in its 4 s clip, length); windows from scripts.md, S7 = S7b 0.8 s + S7c 1.2 s
-EDIT = [("S1", 0.3, 2.0), ("S2", 0.8, 1.4), ("S3", 0.6, 1.6), ("S4", 0.5, 1.6), ("S5", 0.6, 1.4),
+EDIT = [("S1", 1.7, 2.0), ("S2", 0.8, 1.4), ("S3", 0.6, 1.6), ("S4", 0.5, 1.6), ("S5", 0.6, 1.4),
         ("S6", 0.6, 1.4), ("S7b", 0.0, 0.8), ("S7c", 0.4, 1.2)]
 CROP = {}  # shot -> "crop=w:h:x:y," free fixes
 only = next((a.split("=", 1)[1].split(",") for a in sys.argv[1:] if a.startswith("--only")), None)
