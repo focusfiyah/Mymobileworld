@@ -335,5 +335,42 @@
   "still": "stills/S5.png",
   "ok": true,
   "score": 0.898
+ },
+ {
+  "t": "2026-11-02 21:08:04",
+  "submitted": "a9e21899ea958b5092c2328b02d580b6",
+  "prompt": "Recreate reference image 1 exactly as the first frame. Her fingertip moves onto the small red pimple and pats the white "
+ },
+ {
+  "t": "2026-11-02 21:09:32",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. Her fingertip moves onto the small red pimple and pats the white cream directly on top of it in three small taps, until a thin white layer covers the red spot completely and no red shows, then the finger lifts away. The camera stays locked off. Same hand and rings the whole clip, no tube or product appears. Bright neutral daylight, realistic skin, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793653164069-mykbougmrr9.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a9e21899ea958b5092c2328b02d580b6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793653768467-a5il5kpuznj.mp4"
+   ]
+  },
+  "costTime": 87,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-02 21:09:34",
+  "clip_check": "clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.937
  }
 ]

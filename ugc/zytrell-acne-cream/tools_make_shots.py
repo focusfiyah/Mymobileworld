@@ -63,8 +63,9 @@ shots = [
             f"reference. Image 2 is her hand reference. Image 3 is the room reference. {GRACE_FACE} {HAND} She wears "
             f"a soft pink ribbed tank top. Background: {ROOM}. {LOOK}"),
   "clip_refs": ["stills/S4.png"],
-  "clip": ("Recreate reference image 1 exactly as the first frame. Her fingertip pats the white cream onto the pimple "
-           "in three small taps, leaving a thin sheer layer over the spot, then lifts away. The camera stays locked "
+  "clip": ("Recreate reference image 1 exactly as the first frame. Her fingertip moves onto the small red pimple and pats "
+           "the white cream directly on top of it in three small taps, until a thin white layer covers the red spot "
+           "completely and no red shows, then the finger lifts away. The camera stays locked "
            "off. Same hand and rings the whole clip, no tube or product appears. Bright neutral daylight, realistic "
            "skin, no text.")},
  {"id": "S5", "kind": "HAND-FREE", "model": "omni", "window": [8.8, 11.2],

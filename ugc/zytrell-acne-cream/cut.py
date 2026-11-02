@@ -4,7 +4,7 @@ gentle neutral grade, then concat, then ai_finish.sh (last step). Usage: python3
 import subprocess, sys
 from pathlib import Path
 V = sys.argv[1] if len(sys.argv) > 1 else "v1"
-SHOTS = [("S1", 0.2, 2.4), ("S2", 1.0, 3.0), ("S3", 2.1, 3.9), ("S4", 1.0, 3.0), ("S5", 1.4, 3.8)]
+SHOTS = [("S1", 0.2, 2.4), ("S2", 1.0, 3.0), ("S3", 2.1, 3.9), ("S4", 1.1, 3.1), ("S5", 1.4, 3.8)]
 out = Path("out"); seg = out / f"_seg_{V}"; seg.mkdir(parents=True, exist_ok=True)
 VF = "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,eq=brightness=0.01:contrast=1.02,format=yuv420p"
 parts = []
