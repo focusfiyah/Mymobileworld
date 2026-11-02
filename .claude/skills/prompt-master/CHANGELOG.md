@@ -12,3 +12,5 @@
 - 2026-10-25: Ralph uploaded the 2026-10-24 zip to claude.ai.
 - 2026-10-25: Ralph's stack: read every prompt end to end against its shot before it runs (framing and toe direction first, per-shot refs, image numbers); paid Kie calls refused until marked checked. Why: OQQ pants, 5 of 14 stills wrong from prompt conflicts; Ralph: "Make it a standard to double check your prompts".
 - 2026-10-26: real product photos are the truth (B12B6 spout stills).
+
+- 2026-11-02: Kling allowed again only for difficult shots (Ralph: "Use Kling if needed. Do not use all credits only on shots that are difficult or need it"); replaced the 2026-10-21 no-Kling lines.

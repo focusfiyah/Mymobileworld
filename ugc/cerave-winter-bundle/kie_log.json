@@ -463,5 +463,34 @@
   "still": "stills/S1.png",
   "ok": true,
   "score": 0.926
+ },
+ {
+  "t": "2026-11-02 21:18:38",
+  "submitted": "e185248e99cf6b1a4e583958607d10ef",
+  "prompt": "Edit image 1. Add ONLY Grace's right hand, matching image 2 (medium-brown skin, short squared French-tip nails with a pi"
+ },
+ {
+  "t": "2026-11-02 21:19:28",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Add ONLY Grace's right hand, matching image 2 (medium-brown skin, short squared French-tip nails with a pink base and white tips, the silver crown ring stack and the small gold heart ring, a blue band on the thumb) with a soft cream knit sweater cuff on her forearm ending just above the wrist: the hand comes in from the right frame edge, whole wrist in frame, and grips the cleanser bottle from BEHIND: the palm on the back of the bottle, the thumb along the right side edge, the four fingertips just showing along the left side edge at the middle of the bottle. No finger crosses the front label. Keep everything else exactly as image 1: the bottle standing on the counter, its lime-green pump collar, every letter and colour of the front label, the room, the light and the framing. Vertical 9:16, no text, no captions, no added marks.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793654308781-vqyy6d640r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652183995-wp978zaxe6.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e185248e99cf6b1a4e583958607d10ef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e185248e99cf6b1a4e583958607d10ef_0_1793654366.jpeg"
+   ]
+  },
+  "costTime": 51,
+  "credits": 18.0,
+  "usd": 0.09
  }
 ]

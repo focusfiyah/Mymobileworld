@@ -16,8 +16,7 @@ voiceover is a separate ElevenLabs track, so no lip sync and no on-camera speech
 Plan hand-free shots (product alone, setting, props) where they fit; they still move (camera move or product clip) and their
 prompts carry no hand text.
 
-**Shot mix, no Kling (Ralph 2026-10-18; Kling dropped 2026-10-21, "Do not use kling", every job unless he says
-otherwise):** every plan marks each shot HAND or HAND-FREE and aims for a third to a half hand-free, on the lines about
+**Shot mix (Ralph 2026-10-18; Kling only for difficult shots that need it, Mymobileworld CLAUDE.md, Ralph 2026-11-02):** every plan marks each shot HAND or HAND-FREE and aims for a third to a half hand-free, on the lines about
 the place or the product (the doing lines keep the hand). Hand-free shots are product dollies, room dollies, props that
 match the words, pull-backs; they also keep every video different. Every clip is Seedance 2.0 Mini on Kie, hand-free
 ones included; their video prompt says no hand, fingers or people appear at any time, because Seedance adds a hand

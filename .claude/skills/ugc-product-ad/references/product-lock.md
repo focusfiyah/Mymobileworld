@@ -30,7 +30,9 @@ stop spending; 13 of 27 Vans clips came back with a pale side tab; Cleanwaste: 3
    cost, spends nothing). Never call Omni through the Gemini API key or OpenMontage's Google tool. Omni binds the product as a named reference for the whole clip; Seedance only copies the
    first frame and then redraws the print.
 4. **Clips with no product in frame** (room, hand-free scenery, a hand without the product): Seedance 2.0 Mini on Kie
-   as before ($0.041/s). No Kling unless Ralph asks.
+   as before ($0.041/s). Kling only for a difficult shot that needs it (Mymobileworld CLAUDE.md, Ralph 2026-11-02;
+   CeraVe S3: a held bottle whose small print nano-banana garbled twice was fixed by editing a clean still to add the hand,
+   then a Kling first-frame clip).
 5. **QC every Omni take at 2x on several frames** against the close-ups (letters, colours, shape) and the hand rules
    (grip, whole wrist, no flip). Omni renders audio; the runner strips it. Before that, the runner checks the still is
    9:16 before paying and the clip against its still after the download (Mymobileworld `grace/clip_check.py`,
