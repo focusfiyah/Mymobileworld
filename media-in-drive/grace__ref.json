@@ -69,6 +69,42 @@
      "drive_folder": "1ZG8_GeOHSklOlijaumQZLXUd7G0IfBgW"
     }
    ]
+  },
+  {
+   "set": 2,
+   "date": "2026-11-02",
+   "files": {
+    "grace/ref/hand-sheets/no_jewelry.jpg": [
+     287677,
+     "0f0ac703630aa07dfb082a3bb2abb7e45e76577dd06572c871868cedc07cea68"
+    ],
+    "grace/ref/hand-sheets/originals/nj_A_palm_left.jpg": [
+     36979,
+     "a5a200d0d975f78b40cd5c2d7dd0bbaf5eb4c2efafebd435a352de095286caa1"
+    ],
+    "grace/ref/hand-sheets/originals/nj_B_back_left.jpg": [
+     39113,
+     "148974d2c044be5de358cd3334a7ca956a47b5eba6e027963f8e9505661eee6c"
+    ],
+    "grace/ref/hand-sheets/originals/nj_C_back_right.jpg": [
+     41571,
+     "55727732b55f167595570e512e028359d1a5266aca18a5c035f2c149c6aaecc6"
+    ],
+    "grace/ref/hand-sheets/originals/nj_D_palm_right.jpg": [
+     41248,
+     "267448a438d05175da98e0533155c137927a8c5555da4d710172d43af9f29b8d"
+    ]
+   },
+   "parts": [
+    {
+     "name": "grace__ref.set2.part01.tar",
+     "size": 460800,
+     "sha256": "df6d7b71c2455398c190989c36030e8d4579ee36fa015806c40c9db127411ace",
+     "hosted": "2026-11-02",
+     "drive_id": "146WGuT6fxI-ePuO4uC22NBg12fqXcQVN",
+     "drive_folder": "1OpT5miJmXHG_JtrN-dgMPitX-sv8dv5S"
+    }
+   ]
   }
  ]
 }
