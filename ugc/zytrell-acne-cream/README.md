@@ -8,3 +8,4 @@ Status: 2026-11-02 DONE. Ralph approved cut v3 (11.8 s, silent for his music). D
 - 2026-11-02 cut v1: Ralph tapped 'Needs changes', 'Redo S4 clip' ($0.164), 'No text (Recommended)'
 - 2026-11-02 S4 redo ok (cream covers the spot); cut v2 ends S4 at 3.1 s before the finger lifts (lift showed a sticker-like disc). Ralph tapped 'Only S4'.
 - 2026-11-02 v2: Ralph: 'Show after that the pimple is gone'; S6 = S1 still with the pimple painted out (free), Seedance clip; tapped 'Yes, run it (Recommended)', +$0.02 extra recorded
+- 2026-11-02 House of Rameau version: Ralph tapped 'Not now'.
