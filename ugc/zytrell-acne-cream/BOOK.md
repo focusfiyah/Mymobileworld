@@ -19,9 +19,9 @@ Sent to Ralph: https://claude.ai/artifact/FcqgjVn31wJ9zR8YMzh6uJ, 2026-11-02
 | Readability (grade) | research/readability.txt | A 2.6, B 2.4, caption 1.6 |
 | Banned-phrase check | gate.py | OK |
 
-## 3. Script (final, Humanized; for a later VO, ~40 words = ~12 s)
-A (H062): You know that moment when a pimple shows up before plans? Concealer won't hide it. Now I just dab this on. Two percent salicylic acid. One lives in my bag. Grab two before holiday pics. It's in the orange cart.
-B (H112): I was worried this would dry out my skin. Most pimple creams burn mine. This one's two percent salicylic acid, with aloe in it. One lives in my bag now. Grab two before holiday pics. It's in the orange cart.
+## 3. Script (final, Humanized; for a later VO, ~31-34 words = ~10-11 s)
+A (H062): You know that moment when a pimple shows up before plans? Concealer won't hide it, so I dab this on. Two percent salicylic acid. Grab two before holiday pics. It's in the orange cart.
+B (H112): I was worried this would dry out my skin. Most pimple creams burn mine. This one's two percent salicylic acid, plus aloe. Grab two before holiday pics. It's in the orange cart.
 Source of each line: research/line_sources.md (hooks word for word from HOOKS.md; 2% salicylic acid + aloe from the FDA label; "grab two before holiday pics" = CTA sells more units + real season).
 
 ## 4. Shot list (beat every ~2-2.5 s, modeled on the 9-13 s music-only winners)
@@ -31,7 +31,7 @@ Source of each line: research/line_sources.md (hooks word for word from HOOKS.md
 | S2 | 2.2-4.2 | pain | Fingertip dabs concealer on the spot; the bump still shows | HAND | lower face | Seedance 2.0 Mini 4 s |
 | S3 | 4.2-6.8 | solution | Hand picks the green ZYTRELL tube off the counter and squeezes a small dot of white cream onto the index fingertip (RISKIEST, test clip) | HAND | no | Omni: Flow first |
 | S4 | 6.8-8.8 | "dab this on" | Fingertip pats a thin layer over the spot. No tube in frame | HAND | lower face | Seedance 2.0 Mini 4 s |
-| S5 | 8.8-11.2 | "one lives in my bag" + close | Tube standing on the vanity beside an open makeup bag, slow dolly-in, no hand | HAND-FREE | no | Omni: Flow first |
+| S5 | 8.8-11.2 | "grab two" + close | Tube standing on the vanity beside an open makeup bag, slow dolly-in, no hand | HAND-FREE | no | Omni: Flow first |
 Outfit: plain soft top, neckline only (asked, Q2). Setting: one real bright, neutral bathroom from Pexels/Pixabay (rooms.py), not white-on-white, not dark. Nails / person details: asked (Q2). Real product confirmed (top, cap, label): deep-green tube, green screw cap at the bottom, crimped top, white vertical "zytrell" logo; real photos asked (Q1). No box, no orange slices (listing props).
 Every clip moves (push-in or a hand doing something); no photos, no freezes, no text, bright neutral grade, AI finish last.
 

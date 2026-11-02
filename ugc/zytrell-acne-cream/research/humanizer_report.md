@@ -8,3 +8,8 @@ Drafts -> tells found -> change:
 - No dashes, no triads, no "it's not X, it's Y", no stock words. Hooks H062/H112 left word for word (HOOKS.md rule).
 - Caption: lower-case, one plain line, no emoji pile; no tells found.
 Facts kept: 2% salicylic acid, aloe (FDA label), small tube (10 g). Nothing added.
+
+## Re-cut 2026-11-02 (Ralph: "10-12s", scripts trimmed to fit)
+- A: "Concealer won't hide it. Now I just dab this on." merged to "Concealer won't hide it, so I dab this on." (pain and fix in one spoken line); "One lives in my bag." cut for time.
+- B: "with aloe in it" -> "plus aloe"; "One lives in my bag now." cut for time.
+- Re-checked: no dashes, triads, staged closers; hooks still word for word. No facts added.
