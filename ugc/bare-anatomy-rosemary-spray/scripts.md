@@ -6,6 +6,8 @@ Look: bright and neutral, hands-only (no face), every shot a moving clip. 3 of 7
 The pictures tell the story. On-screen text is a second layer that goes on **only if Ralph says yes** (house rule: no text by default).
 Without text, the post caption below carries the words.
 
+## FINAL (Ralph 2026-11-02): no on-screen text ("1. No"); one video, opens on the spray (hook A shot, "One video, spray first"). The text column below is NOT used. No post caption either (Ralph 2026-11-02).
+
 ## Hook (pick one; hook ids from Grace's hook library)
 | # | On-screen text (only on yes) | Library hook | Modeled on |
 |---|---|---|---|
@@ -28,7 +30,7 @@ Structure: hook, pain, solution, how to use, selling point, urgency, close. To f
 
 Shot 7 sells the 3-pack: three bottles, three places. The hook text holds the full 2 s from frame 0 (hook rule).
 
-## Post caption (humanized; readable without the video)
+## Post caption: NOT NEEDED (Ralph 2026-11-02: "No captions needed as well"; kept for the record only) (humanized; readable without the video)
 Rosemary and rice water without boiling a pot on the stove 🌿 Spray it on damp roots after you wash, rub it in, leave it. Water-based, alcohol free, sulphate free. This is the 3-pack: one for the shower, one for your bag, one for your mom. It's in the orange cart. #ad #rosemarywater #ricewater #hairtok #tiktokshop
 
 ## Product truth (from Grace's photos, nothing else)
