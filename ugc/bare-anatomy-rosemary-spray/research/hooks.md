@@ -9,3 +9,4 @@ v2 (2026-11-02, 10-12 s cut): same 3 hooks re-checked against the shorter script
 Final 2026-11-02: one video, hook A opening shot, no text.
 3 script versions to add later (Ralph 2026-11-02): V1 = hook A (H010), V2 = hook B (H095), V3 = hook C (H064), all over the same spray-first opening shot.
 Re-checked after the exclusions line was reworded (no line text changed).
+2026-11-02: caption dropped (Ralph: no captions needed); no line text changed.
