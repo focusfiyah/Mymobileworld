@@ -13,3 +13,5 @@ Facts kept: 2% salicylic acid, aloe (FDA label), small tube (10 g). Nothing adde
 - A: "Concealer won't hide it. Now I just dab this on." merged to "Concealer won't hide it, so I dab this on." (pain and fix in one spoken line); "One lives in my bag." cut for time.
 - B: "with aloe in it" -> "plus aloe"; "One lives in my bag now." cut for time.
 - Re-checked: no dashes, triads, staged closers; hooks still word for word. No facts added.
+
+Re-checked 2026-11-02 21:00 UTC on the final script (Script A only, B dropped by Ralph): text unchanged since the last pass (git diff empty); no new tells.

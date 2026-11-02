@@ -98,5 +98,93 @@
   "costTime": 63,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:43:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: close-up of her lower face from the tip of her nose to her collarbone, turned slightly to her right. Her left index fingertip carries a small dot of thick glossy white cream and touches the one small raised pimple on her chin, just right of centre in the frame, a little darker and reddish-brown, the only blemish. No tube, jar or product of any kind in the frame. Image 1 is her face reference. Image 2 is her hand reference. Image 3 is the room reference. HER: Grace, exactly the woman in the face reference: medium-deep brown skin with the same warm undertone, full natural lips, smooth real skin texture with visible pores, no makeup look, no forehead in frame. HER HAND: her LEFT hand exactly as the hand reference: medium-deep brown skin, square French-tip nails (pink nail, white tips), a stacked silver crown-style ring on the ring finger, a thin gold ring with a small clear heart-shaped stone on the index finger, a blue band on the thumb. The hand enters from the frame edge, the whole wrist shows, nothing of the background shows through the hand. She wears a soft pink ribbed tank top. Background: the bathroom in the room reference (oval gold-framed mirror, white stone counter, light wood drawers, white tiles), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, natural realistic skin. No text, no captions, no logos.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652099829-chof91t0sbw.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652101838-tpjk7of4hrn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652103986-nwbfdgm6c1.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "3fe4df4286d414ce1d4e0f5217d9bbe8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793652220735-zqpldyl9q.jpg"
+   ]
+  },
+  "costTime": 92,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:45:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: the white stone bathroom counter at counter height, the tube standing upright on its cap in the centre, front facing the camera, beside an open plain blush-pink fabric makeup bag with no logo, a hairbrush and a folded white towel behind. Image 1 is the product sheet. Image 2 is the real logo close-up. Image 3 is the room reference. THE TUBE: the real ZYTRELL acne cream from the product sheet and the logo close-up: a small 10 g matte deep forest-green squeeze tube, a wide flat green screw cap at the BOTTOM, a flat crimped seal with fine ridges at the TOP. White print only: the word 'zytrell' with a small TM runs vertically from bottom to top with 'SKIN SOLUTIONS' small beside it, under it a two-leaf line icon, then ACNE TREATMENT CREAM in white bold capitals, then three tiny lines and 'Net Wt 0.35 OZ (10g)'. The print matches the logo close-up letter for letter and colour for colour. No pump, no jar, no flip cap, no nozzle, no box, no fruit, no extra marks. No hands or people. Background: the bathroom in the room reference (oval gold-framed mirror, white stone counter, light wood drawers, white tiles), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, natural realistic skin. No captions and no text or logos anywhere except the real print on the tube.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652099847-ca643l3ax0h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652102048-xo5zsv99wh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652103009-ehu9iwl28cc.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2de3dc14c29268fd27f3c82fbb043409",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/models/nano-banana-pro/1793652300869-u0jeo0kl4r.jpg"
+   ]
+  },
+  "costTime": 182,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:47:43",
+  "submitted": "d6f26382f3ebf16567fb56e57507c4a7",
+  "prompt": "Recreate image 1 exactly as the first frame: keep its counter, light, framing and hand exactly. Image 2 is the real zytr"
+ },
+ {
+  "t": "2026-11-02 20:49:47",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its counter, light, framing and hand exactly. Image 2 is the real zytrell logo and ACNE TREATMENT CREAM print: it stays on the tube the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the product sheet: keep this exact tube shape, size and green, the cap at the bottom, no added marks, no extra text. Motion: her hand keeps one grip and lifts the tube slowly about a hand's width off the counter toward the lens, the front stays facing the camera, the tube never turns, tilts away or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight, realistic skin. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/zytrell-acne-cream/1793652450758-5qptxmmn2uu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/zytrell-acne-cream/1793652452963-mjf4kow98ks.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/zytrell-acne-cream/1793652455720-h7hhmg5vavo.png"
+    ]
+   }
+  },
+  "taskId": "d6f26382f3ebf16567fb56e57507c4a7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/d6f26382f3ebf16567fb56e57507c4a7_0_1793652581.mp4"
+   ]
+  },
+  "costTime": 121,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 20:49:51",
+  "clip_check": "/home/user/Mymobileworld/ugc/zytrell-acne-cream/clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.911
  }
 ]
