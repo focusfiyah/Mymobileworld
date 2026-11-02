@@ -206,5 +206,134 @@
   "t": "2026-11-02 20:59:48",
   "submitted": "b217503902c119c82e082152e1681854",
   "prompt": "Recreate image 1 exactly as the first frame: keep its counter, light, framing and objects exactly. Image 2 is the real z"
+ },
+ {
+  "t": "2026-11-02 21:01:00",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. Her fingertip dabs the concealer onto the pimple twice, then lifts away; the raised bump still shows under the concealer. The camera stays locked off. Same hand and rings the whole clip, no product appears. Bright neutral daylight, realistic skin, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793653163991-if779kj4is.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "dab913f5b4937d84116aab65b1b755a6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793653258958-m86kwf778tc.mp4"
+   ]
+  },
+  "costTime": 84,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-02 21:01:03",
+  "clip_check": "clips/S2.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.951
+ },
+ {
+  "t": "2026-11-02 21:01:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. The camera pushes in slowly toward the pimple on her chin; she stays still, breathing softly. No hand, fingers or other people appear at any time. Bright neutral daylight, realistic skin, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793653164048-p0mlv6xdoug.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6b50edb836bb5472ce356021d418dfb1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793653270102-ghssgnf79fi.mp4"
+   ]
+  },
+  "costTime": 98,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-02 21:01:16",
+  "clip_check": "clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.953
+ },
+ {
+  "t": "2026-11-02 21:01:25",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. Her fingertip pats the white cream onto the pimple in three small taps, leaving a thin sheer layer over the spot, then lifts away. The camera stays locked off. Same hand and rings the whole clip, no tube or product appears. Bright neutral daylight, realistic skin, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793653164069-mykbougmrr9.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "114c477eb866498ceeb8616869bdcfa2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793653277722-vkl4dr9qeur.mp4"
+   ]
+  },
+  "costTime": 109,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-02 21:01:27",
+  "clip_check": "clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.939
+ },
+ {
+  "t": "2026-11-02 21:01:52",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame: keep its counter, light, framing and objects exactly. Image 2 is the real zytrell logo and ACNE TREATMENT CREAM print: it stays on the tube the whole clip and matches image 2 letter for letter and colour for colour. Image 3 is the product sheet: keep this exact tube shape, size and green, the cap at the bottom, no added marks, no extra text. Motion: the tube and bag stay still; no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tube. Vertical 9:16 phone footage, bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/zytrell-acne-cream/1793653166807-0gwb8eeh5tz7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/zytrell-acne-cream/1793653169076-4obrffj0ve.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/zytrell-acne-cream/1793653171235-x4afynda7x.png"
+    ]
+   }
+  },
+  "taskId": "b217503902c119c82e082152e1681854",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/b217503902c119c82e082152e1681854_0_1793653310.mp4"
+   ]
+  },
+  "costTime": 127,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 21:01:55",
+  "clip_check": "/home/user/Mymobileworld/ugc/zytrell-acne-cream/clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.898
  }
 ]
