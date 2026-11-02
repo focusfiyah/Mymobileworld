@@ -22,3 +22,5 @@
 - 2026-10-26: omni_clip.py checks the still's 9:16 shape before paying and the clip against its still after the download (grace/clip_check.py), and logs Kie's billed credits; SKILL.md + product-lock.md say so. Why: Kie bills a clip that ignored the input image (Sabrina Ramonov's /generate email, Ralph: "Build 1 and 2").
 - 2026-10-27: drift strip QC (grace/qc/strip.py) on every pasted/patched/tracked product shot + a qc-report row; product-lock.md: the tiny-product composite + track route. Why: Ralph caught drift twice on Mini Bag Charm, then "Make sure you have in your QC process to check for that".
 - 2026-10-28: small detailed products: clips made with NO product in them, the real one added as the only one; cover only the AI copy/scarf/shadow, never a box over the host; drift strip also on every frame of the final cut's pasted windows. Why: Ralph, Mini Bag Charm v8-v10 ("Yes save rules").
+
+- 2026-11-02: Kling allowed again only for difficult shots (Ralph: "Use Kling if needed. Do not use all credits only on shots that are difficult or need it"); replaced the 2026-10-21 no-Kling lines.

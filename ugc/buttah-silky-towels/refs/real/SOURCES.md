@@ -1,0 +1,9 @@
+r01.png https://cdn.shopify.com/s/files/1/0118/2230/1241/files/24-count-silky-towel-size-count-product-image-shopify-web-pdp.png?v=1784818801
+r02.png https://cdn.shopify.com/s/files/1/0118/2230/1241/files/product-hero-silky-soft-towels-50ct-box-24ct-softpack-guide-cream-bg-portrait-01_66f30e45-5b9a-4db6-b5ff-cd281e5b828a.png?v=1784755803
+r03.png https://cdn.shopify.com/s/files/1/0118/2230/1241/files/handshot-textoverlay-silky-soft-towels-xl-towel-stretch-feature-callout-mint-bg-portrait-01_169a8ccc-8208-4dc5-b343-f8bef1a9e0a9.png?v=1784755800
+r04.jpg https://cdn.shopify.com/s/files/1/0118/2230/1241/files/24-packSilkyTowelsMACYSPDP2025-05.jpg?v=1771347304
+r05.jpg https://cdn.shopify.com/s/files/1/0118/2230/1241/files/24-packSilkyTowelsMACYSPDP2025-06.jpg?v=1771347304
+r06.jpg https://cdn.shopify.com/s/files/1/0118/2230/1241/files/24-packSilkyTowelsMACYSPDP2025-07.jpg?v=1770680411
+r07.jpg https://cdn.shopify.com/s/files/1/0118/2230/1241/files/24-packSilkyTowelsMACYSPDP2025-08.jpg?v=1770680411
+r08.jpg https://cdn.shopify.com/s/files/1/0118/2230/1241/files/buttah-skin-silky-soft-facial-towels-24-count.jpg?v=1770680411
+r09.jpg https://cdn.shopify.com/s/files/1/0118/2230/1241/files/24-packSilkyTowelsMACYSPDP2025-02.jpg?v=1771906569

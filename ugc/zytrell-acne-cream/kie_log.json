@@ -1,0 +1,102 @@
+[
+ {
+  "t": "2026-11-02 20:42:11",
+  "submitted": "067ac8a6f0b516c9dafd6a3c5ce78471",
+  "prompt": "SHOT: close-up of her lower face from the tip of her nose to her collarbone, turned slightly to her right. Her left inde"
+ },
+ {
+  "t": "2026-11-02 20:42:13",
+  "submitted": "2de3dc14c29268fd27f3c82fbb043409",
+  "prompt": "SHOT: the white stone bathroom counter at counter height, the tube standing upright on its cap in the centre, front faci"
+ },
+ {
+  "t": "2026-11-02 20:42:14",
+  "submitted": "fb573b91ed0d2932af35bc984c1fcdfb",
+  "prompt": "SHOT: tight close-up of her lower face, from the tip of her nose down to her collarbone, facing the camera, head level, "
+ },
+ {
+  "t": "2026-11-02 20:42:17",
+  "submitted": "1b16af95fdbc624e4fab9a8a2efac7af",
+  "prompt": "SHOT: close-up on the white stone bathroom counter at chest height. The tube stands upright on its cap, front facing the"
+ },
+ {
+  "t": "2026-11-02 20:42:19",
+  "submitted": "3fe4df4286d414ce1d4e0f5217d9bbe8",
+  "prompt": "SHOT: close-up of her lower face from the tip of her nose to her collarbone, turned slightly to her right. Her left inde"
+ },
+ {
+  "t": "2026-11-02 20:42:46",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: tight close-up of her lower face, from the tip of her nose down to her collarbone, facing the camera, head level, lips relaxed. ONE small raised pimple on her chin, just right of centre in the frame, a little darker and reddish-brown, the only blemish, clearly visible. Image 1 is her face reference. Image 2 is the room reference. HER: Grace, exactly the woman in the face reference: medium-deep brown skin with the same warm undertone, full natural lips, smooth real skin texture with visible pores, no makeup look, no forehead in frame. She wears a soft pink ribbed tank top. Background: the bathroom in the room reference (oval gold-framed mirror, white stone counter, light wood drawers, white tiles), softly out of focus. No hands in the frame. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, natural realistic skin. No text, no captions, no logos.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652099702-zecvd7plu7h.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652101952-xr3mvx9kqzo.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "fb573b91ed0d2932af35bc984c1fcdfb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/fb573b91ed0d2932af35bc984c1fcdfb_0_1793652161.jpeg"
+   ]
+  },
+  "costTime": 39,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:42:49",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: close-up of her lower face from the tip of her nose to her collarbone, turned slightly to her right. Her left index fingertip touches the one small raised pimple on her chin, just right of centre in the frame, a little darker and reddish-brown, the only blemish; a thin smear of beige concealer is on the fingertip and around the bump, and the bump still shows through it. No concealer tube, compact or product of any kind in the frame. Image 1 is her face reference. Image 2 is her hand reference. Image 3 is the room reference. HER: Grace, exactly the woman in the face reference: medium-deep brown skin with the same warm undertone, full natural lips, smooth real skin texture with visible pores, no makeup look, no forehead in frame. HER HAND: her LEFT hand exactly as the hand reference: medium-deep brown skin, square French-tip nails (pink nail, white tips), a stacked silver crown-style ring on the ring finger, a thin gold ring with a small clear heart-shaped stone on the index finger, a blue band on the thumb. The hand enters from the frame edge, the whole wrist shows, nothing of the background shows through the hand. She wears a soft pink ribbed tank top. Background: the bathroom in the room reference (oval gold-framed mirror, white stone counter, light wood drawers, white tiles), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, natural realistic skin. No text, no captions, no logos.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652099873-3wq3jdsembk.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652101516-h47c42mkov.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652103009-ehu9iwl28cc.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "067ac8a6f0b516c9dafd6a3c5ce78471",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/067ac8a6f0b516c9dafd6a3c5ce78471_0_1793652166.jpeg"
+   ]
+  },
+  "costTime": 51,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 20:43:14",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: close-up on the white stone bathroom counter at chest height. The tube stands upright on its cap, front facing the camera, and her left hand has just closed around its middle to pick it up: fingers wrap behind the tube, the thumb rests on the left edge, the word 'zytrell' and ACNE TREATMENT CREAM stay fully visible. Image 1 is the product sheet. Image 2 is the real logo close-up. Image 3 is her hand reference. Image 4 is the room reference. THE TUBE: the real ZYTRELL acne cream from the product sheet and the logo close-up: a small 10 g matte deep forest-green squeeze tube, a wide flat green screw cap at the BOTTOM, a flat crimped seal with fine ridges at the TOP. White print only: the word 'zytrell' with a small TM runs vertically from bottom to top with 'SKIN SOLUTIONS' small beside it, under it a two-leaf line icon, then ACNE TREATMENT CREAM in white bold capitals, then three tiny lines and 'Net Wt 0.35 OZ (10g)'. The print matches the logo close-up letter for letter and colour for colour. No pump, no jar, no flip cap, no nozzle, no box, no fruit, no extra marks. HER HAND: her LEFT hand exactly as the hand reference: medium-deep brown skin, square French-tip nails (pink nail, white tips), a stacked silver crown-style ring on the ring finger, a thin gold ring with a small clear heart-shaped stone on the index finger, a blue band on the thumb. The hand enters from the frame edge, the whole wrist shows, nothing of the background shows through the hand. Background: the bathroom in the room reference (oval gold-framed mirror, white stone counter, light wood drawers, white tiles), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, natural realistic skin. No captions and no text or logos anywhere except the real print on the tube.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652099817-i1tyfjqmake.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652101987-4shpuxjj974.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652101838-tpjk7of4hrn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793652104211-lrfbnc3h0g.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1b16af95fdbc624e4fab9a8a2efac7af",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1b16af95fdbc624e4fab9a8a2efac7af_0_1793652188.jpeg"
+   ]
+  },
+  "costTime": 63,
+  "credits": 18.0,
+  "usd": 0.09
+ }
+]

@@ -1,0 +1,38 @@
+{
+ "photos": [
+  "refs/listing/listing1.jpg",
+  "refs/listing/listing2.jpg",
+  "refs/dl/cleanser_front.jpg",
+  "refs/dl/am50_front.jpg",
+  "refs/dl/lipbalm_front.jpg",
+  "refs/product_sheet.png"
+ ],
+ "facts": [
+  "bundle of FOUR CeraVe products (TikTok Shop listing 'Winter Skin Routine Bundle', TikTok Shop exclusive): Hydrating Facial Cleanser, AM Facial Moisturizing Lotion SPF 50, Intensive Moisturizing Cream (tube), Healing Lip Balm",
+  "Hydrating Facial Cleanser: white rounded bottle, LIME-GREEN pump collar and white pump with a long nozzle; label: navy 'CeraVe' with a green diagonal wedge on the right, small 'DEVELOPED WITH DERMATOLOGISTS', 'Hydrating Facial Cleanser' in green, 'For Normal to Dry Skin', grey pill 'MOISTURE BALANCE', round navy National Eczema Association seal bottom right, '8 FL OZ (237 mL)' in the listing",
+  "AM Facial Moisturizing Lotion SPF 50: white oval bottle, white pump on a BLUE collar; label: navy 'CeraVe' with a blue diagonal wedge on the right, small orange-yellow pill 'AM' with a sun, 'Facial Moisturizing Lotion' in blue with a yellow-orange '50', blue pill 'Broad Spectrum SPF 50', grey pill 'LIGHTWEIGHT', '3 FL OZ (89 mL)'",
+  "Intensive Moisturizing Cream (listing photo, Ralph 2026-11-02: show the tube): white squeeze tube standing on a BLUE flip-top cap at the bottom, crimped flat end at the top; small red 'NEW' tag top left, navy 'CeraVe' with a blue diagonal wedge on the right, 'Intensive Moisturizing Cream' all in NAVY, 'For Dry to Very Dry Skin', a NAVY band '5% HYDRO-UREA' with a round drop icon, grey pill 'RICH TEXTURE', '8 FL OZ (236 mL)'",
+  "Healing Lip Balm: slim NAVY squeeze tube, white diagonal wedge at the top, 'CeraVe' in white running vertically up the tube, 'Healing Lip Balm' white, grey pill 'LIP PROTECTANT', 'Net Wt 0.35 OZ (10g)', SILVER cap at the bottom",
+  "relative size from the listing photo: cleanser tallest; AM lotion about 85% of the cleanser height; cream tube about the same height as the lotion; lip balm about half the cleanser height and about as wide as a finger",
+  "real size (approximate, retail listings, not on the maker's site): cleanser 8 fl oz bottle about the height of a hand from wrist to fingertip with the pump; lip balm about the length of an index finger",
+  "routine order on the listing: 1 Cleanse (cleanser), 2 Hydrate (AM lotion SPF 50), 3 Moisturize (Intensive cream), 4 Hydrate (lip balm); 'DEVELOPED WITH DERMATOLOGISTS'",
+  "Grace owns the Hydrating Facial Cleanser (green one); the rest are shown from the listing photos"
+ ],
+ "forbid": [
+  "jar",
+  "tub",
+  "screw lid",
+  "red Intensive",
+  "pink band",
+  "gold cap",
+  "black cap",
+  "green cap on the lotion",
+  "blue pump on the cleanser",
+  "spray",
+  "dropper",
+  "box",
+  "carton",
+  "SPF 30",
+  "PM"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
+ "playbook": {
+  "proof": [
+   "proof/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "proof/coach.md",
+   "research/coach/tag_cerave/tag-cerave.json",
+   "research/coach/tag_ceravebundle/tag-ceravebundle.json",
+   "research/coach/tag_ceravetiktokshop/tag-ceravetiktokshop.json",
+   "research/coach/tag_winterskincare/tag-winterskincare.json",
+   "research/coach/tag_dryskin/tag-dryskin.json",
+   "research/coach/discover/discover-cerave-hydrating-facial-cleanser.json",
+   "research/coach/discover/discover-cerave-moisturizing-cream.json",
+   "research/coach/shop_cerave/shop.md",
+   "research/videos/7685123953416785183/transcript.txt",
+   "research/videos/7689210935516400926/transcript.txt",
+   "research/videos/7585784888108797239/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/coach/viral-2026-11-02.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "proof/product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "proof/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "proof/humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "proof_readability.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "line_sources": {
+  "proof": [
+   "proof/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "proof/compare.md",
+   "proof/compare/compare/compare.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-02",
+  "quote": "Approved, go (plan v2, $2.43, 2026-11-02)",
+  "total": 2.43,
+  "sha256": "dae0b4831736655ac559dee46583154cbe29a2b736f3a89c2bf31066de1b792f",
+  "spent_at_approval": 0.0
+ }
+}

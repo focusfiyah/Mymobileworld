@@ -1,0 +1,87 @@
+"""ZYTRELL shots.json (2026-11-02). Prompts written with prompt-master (Ralph's stack). Run: python3 tools_make_shots.py"""
+import json
+GRACE_FACE = ("HER: Grace, exactly the woman in the face reference: medium-deep brown skin with the same warm undertone, "
+              "full natural lips, smooth real skin texture with visible pores, no makeup look, no forehead in frame.")
+HAND = ("HER HAND: her LEFT hand exactly as the hand reference: medium-deep brown skin, square French-tip nails "
+        "(pink nail, white tips), a stacked silver crown-style ring on the ring finger, a thin gold ring with a small "
+        "clear heart-shaped stone on the index finger, a blue band on the thumb. The hand enters from the frame edge, "
+        "the whole wrist shows, nothing of the background shows through the hand.")
+PIMPLE = "ONE small raised pimple on her chin, just right of centre in the frame, a little darker and reddish-brown, the only blemish"
+LOOK = ("Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, "
+        "natural realistic skin. No text, no captions, no logos.")
+LOOK_P = ("Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, "
+          "natural realistic skin. No captions and no text or logos anywhere except the real print on the tube.")
+ROOM = "the bathroom in the room reference (oval gold-framed mirror, white stone counter, light wood drawers, white tiles), softly out of focus"
+TUBE = ("THE TUBE: the real ZYTRELL acne cream from the product sheet and the logo close-up: a small 10 g matte deep "
+        "forest-green squeeze tube, a wide flat green screw cap at the BOTTOM, a flat crimped seal with fine ridges at "
+        "the TOP. White print only: the word 'zytrell' with a small TM runs vertically from bottom to top with 'SKIN "
+        "SOLUTIONS' small beside it, under it a two-leaf line icon, then ACNE TREATMENT CREAM in white bold capitals, "
+        "then three tiny lines and 'Net Wt 0.35 OZ (10g)'. The print matches the logo close-up letter for letter and "
+        "colour for colour. No pump, no jar, no flip cap, no nozzle, no box, no fruit, no extra marks.")
+
+shots = [
+ {"id": "S1", "kind": "HAND-FREE", "model": "seedance", "window": [0, 2.2],
+  "still_refs": ["refs/grace_face.jpg", "refs/room.jpg"],
+  "still": ("SHOT: tight close-up of her lower face, from the tip of her nose down to her collarbone, facing the camera, "
+            f"head level, lips relaxed. {PIMPLE}, clearly visible. Image 1 is her face reference. Image 2 is the room "
+            f"reference. {GRACE_FACE} She wears a soft pink ribbed tank top. Background: {ROOM}. No hands in the frame. {LOOK}"),
+  "clip_refs": ["stills/S1.png"],
+  "clip": ("Recreate reference image 1 exactly as the first frame. The camera pushes in slowly toward the pimple on her "
+           "chin; she stays still, breathing softly. No hand, fingers or other people appear at any time. Bright "
+           "neutral daylight, realistic skin, no text.")},
+ {"id": "S2", "kind": "HAND", "model": "seedance", "window": [2.2, 4.2],
+  "still_refs": ["refs/grace_face.jpg", "refs/grace_hands.jpg", "refs/room.jpg"],
+  "still": ("SHOT: close-up of her lower face from the tip of her nose to her collarbone, turned slightly to her right. "
+            f"Her left index fingertip touches {PIMPLE.replace('ONE small', 'the one small')}; a thin smear of beige concealer is on "
+            "the fingertip and around the bump, and the bump still shows through it. No concealer tube, compact or "
+            f"product of any kind in the frame. Image 1 is her face reference. Image 2 is her hand reference. Image 3 is the room reference. {GRACE_FACE} {HAND} "
+            f"She wears a soft pink ribbed tank top. Background: {ROOM}. {LOOK}"),
+  "clip_refs": ["stills/S2.png"],
+  "clip": ("Recreate reference image 1 exactly as the first frame. Her fingertip dabs the concealer onto the pimple "
+           "twice, then lifts away; the raised bump still shows under the concealer. The camera stays locked off. "
+           "Same hand and rings the whole clip, no product appears. Bright neutral daylight, realistic skin, no text.")},
+ {"id": "S3", "kind": "HAND", "model": "omni", "window": [4.2, 6.8],
+  "still_refs": ["refs/product_sheet.png", "refs/logo_closeup.png", "refs/grace_hands.jpg", "refs/room.jpg"],
+  "still": ("SHOT: close-up on the white stone bathroom counter at chest height. The tube stands upright on its cap, "
+            "front facing the camera, and her left hand has just closed around its middle to pick it up: fingers wrap "
+            "behind the tube, the thumb rests on the left edge, the word 'zytrell' and ACNE TREATMENT CREAM stay "
+            "fully visible. Image 1 is the product sheet. Image 2 is the real logo close-up. Image 3 is her hand "
+            f"reference. Image 4 is the room reference. {TUBE} {HAND} Background: {ROOM}. {LOOK_P}"),
+  "clip_refs": ["stills/S3.png", "refs/logo_closeup.png", "refs/product_sheet.png"],
+  "clip": ("Recreate image 1 exactly as the first frame: keep its counter, light, framing and hand exactly. Image 2 is "
+           "the real zytrell logo and ACNE TREATMENT CREAM print: it stays on the tube the whole clip and matches image "
+           "2 letter for letter and colour for colour. Image 3 is the product sheet: keep this exact tube shape, size "
+           "and green, the cap at the bottom, no added marks, no extra text. Motion: her hand keeps one grip and lifts "
+           "the tube slowly about a hand's width off the counter toward the lens, the front stays facing the camera, "
+           "the tube never turns, tilts away or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright "
+           "neutral daylight, realistic skin. No music, no voice, no captions, no on-screen text.")},
+ {"id": "S4", "kind": "HAND", "model": "seedance", "window": [6.8, 8.8],
+  "still_refs": ["refs/grace_face.jpg", "refs/grace_hands.jpg", "refs/room.jpg"],
+  "still": ("SHOT: close-up of her lower face from the tip of her nose to her collarbone, turned slightly to her right. "
+            "Her left index fingertip carries a small dot of thick glossy white cream and touches "
+            f"{PIMPLE.replace('ONE small', 'the one small')}. No tube, jar or product of any kind in the frame. Image 1 is her face "
+            f"reference. Image 2 is her hand reference. Image 3 is the room reference. {GRACE_FACE} {HAND} She wears "
+            f"a soft pink ribbed tank top. Background: {ROOM}. {LOOK}"),
+  "clip_refs": ["stills/S4.png"],
+  "clip": ("Recreate reference image 1 exactly as the first frame. Her fingertip pats the white cream onto the pimple "
+           "in three small taps, leaving a thin sheer layer over the spot, then lifts away. The camera stays locked "
+           "off. Same hand and rings the whole clip, no tube or product appears. Bright neutral daylight, realistic "
+           "skin, no text.")},
+ {"id": "S5", "kind": "HAND-FREE", "model": "omni", "window": [8.8, 11.2],
+  "still_refs": ["refs/product_sheet.png", "refs/logo_closeup.png", "refs/room.jpg"],
+  "still": ("SHOT: the white stone bathroom counter at counter height, the tube standing upright on its cap in the "
+            "centre, front facing the camera, beside an open plain blush-pink fabric makeup bag with no logo, "
+            "a hairbrush and a folded white towel behind. Image 1 is the product sheet. Image 2 is the real logo "
+            f"close-up. Image 3 is the room reference. {TUBE} No hands or people. Background: {ROOM}. {LOOK_P}"),
+  "clip_refs": ["stills/S5.png", "refs/logo_closeup.png", "refs/product_sheet.png"],
+  "clip": ("Recreate image 1 exactly as the first frame: keep its counter, light, framing and objects exactly. Image 2 "
+           "is the real zytrell logo and ACNE TREATMENT CREAM print: it stays on the tube the whole clip and matches "
+           "image 2 letter for letter and colour for colour. Image 3 is the product sheet: keep this exact tube shape, "
+           "size and green, the cap at the bottom, no added marks, no extra text. Motion: the tube and bag stay still; "
+           "no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tube. Vertical 9:16 phone "
+           "footage, bright neutral daylight. No music, no voice, no captions, no on-screen text.")},
+]
+json.dump({"shots": shots}, open("shots.json", "w"), indent=1)
+for s in shots:
+    open(f"prompts/still_{s['id']}.txt", "w").write(s["still"]); open(f"prompts/{s['id']}.txt", "w").write(s["clip"])
+print("ok")
