@@ -1,6 +1,6 @@
 # Ocean View Juice Boost Hair Growth Oil, 100 ml (Grace)
 
-Status (2026-11-02): cut v1 sent for review (11.6 s, music only, Grace hands, no text). Spent $3.48 of $3.49 approved. Next: Ralph OK -> Drive "CURRENT - Juice Boost Oil V1.mp4"; HofR version on his OK.
+Status (2026-11-02): cut v2 sent (S4 now shows oil going on). Spent $3.88 of $3.90 approved. Next: Ralph OK -> Drive "CURRENT - Juice Boost Oil V2.mp4"; HofR skipped (Ralph).
 Review page: https://claude.ai/artifact/V4XXacK6ByYqcoixdn7SZN
 Drive: https://drive.google.com/drive/folders/1UcHmH5IGzz-9Awtd-eh04Mjaahtwa1gO (CURRENT - Juice Boost Oil script v1)
 

@@ -730,5 +730,73 @@
   "still": "stills/S5.png",
   "ok": true,
   "score": 0.939
+ },
+ {
+  "t": "2026-11-02 21:20:26",
+  "submitted": "2f5c0b6ac3fbf06878fc897877dc8339",
+  "prompt": "Edit image 1. Add ONLY oil: a wet, glossy line of clear golden-yellow oil along the hairline and baby hairs just in fron"
+ },
+ {
+  "t": "2026-11-02 21:21:05",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit image 1. Add ONLY oil: a wet, glossy line of clear golden-yellow oil along the hairline and baby hairs just in front of the tip, the edge hairs look wet and shiny where the oil sits, and one small clear golden drop of oil hanging from the pointed tip, touching the skin. The oil is transparent golden-yellow like the oil inside the bottle, never white, silver or beaded. Keep everything else in image 1 exactly the same, pixel for pixel: the bottle, its label print and colours, the cap, Grace's hand, nails and blue band, the hair texture, the framing, the background and the light. No text. Image 2 is only a reference for Grace's hand, which must not change.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793654415858-pqzmlajo8a8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793651192571-v1f03szo9om.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "2f5c0b6ac3fbf06878fc897877dc8339",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/2f5c0b6ac3fbf06878fc897877dc8339_0_1793654462.jpeg"
+   ]
+  },
+  "costTime": 39,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-02 21:21:36",
+  "submitted": "1910c89997629952795701dfda783761",
+  "prompt": "Recreate image 1 exactly as the first frame, same close framing; the camera never pulls back and never shows her eye. Th"
+ },
+ {
+  "t": "2026-11-02 21:23:41",
+  "request": {
+   "model": "google/gemini-omni-flash-1-1",
+   "input": {
+    "prompt": "Recreate image 1 exactly as the first frame, same close framing; the camera never pulls back and never shows her eye. The fingers give the bottle a gentle squeeze and more clear golden-yellow oil flows out of the pointed tip onto the hairline; the tip glides slowly along the edges and the wet golden shine on the baby hairs grows as it moves. The oil is transparent golden-yellow like the oil in the bottle, never white, silver or beaded. Same grip the whole time, the bottle never turns or flips, label facing the camera. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the bottle must match image 4 (the product reference sheet). The hand stays exactly as in image 1: French-tip nails and the blue band on the thumb never change. The hair stays the same tight coily texture. Camera steady. No music, no voice, no text.",
+    "aspect_ratio": "9:16",
+    "resolution": "1080p",
+    "duration": "4",
+    "image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793654482606-qqa8q2onp8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793654484921-rc4bptag01r.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793654486853-cazq7gpd25c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oceanview-hair-oil/1793654488754-2hkv7q8uafg.png"
+    ]
+   }
+  },
+  "taskId": "1910c89997629952795701dfda783761",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/v/1910c89997629952795701dfda783761_0_1793654618.mp4"
+   ]
+  },
+  "costTime": 124,
+  "usd": 0.315,
+  "credits": 63.0
+ },
+ {
+  "t": "2026-11-02 21:23:45",
+  "clip_check": "/home/user/Mymobileworld/ugc/oceanview-hair-oil/clips/S4.mp4",
+  "still": "ugc/oceanview-hair-oil/stills/S4oil.png",
+  "ok": false,
+  "score": 0.238
  }
 ]

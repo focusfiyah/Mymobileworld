@@ -4,7 +4,7 @@ import subprocess, sys, json
 from pathlib import Path
 # shot, file, start in clip, length (s)
 EDL = [("S1", "clips/S1_crop.mp4", 0.6, 2.0), ("S2", "clips/S2.mp4", 0.4, 1.4), ("S3", "clips/S3.mp4", 0.4, 1.6),
-       ("S4", "clips/S4_t1_crop.mp4", 0.5, 1.6), ("S5", "clips/S5.mp4", 0.4, 1.4), ("S6", "clips/S6.mp4", 0.4, 1.6),
+       ("S4", "clips/S4_crop.mp4", 1.6, 1.6), ("S5", "clips/S5.mp4", 0.4, 1.4), ("S6", "clips/S6.mp4", 0.4, 1.6),
        ("S7", "clips/S7.mp4", 0.3, 2.0)]
 MUSIC, MSTART = "music/mixkit_872.mp3", 4.0
 OUT = sys.argv[1] if len(sys.argv) > 1 else "cuts/v1_raw.mp4"
