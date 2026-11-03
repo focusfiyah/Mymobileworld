@@ -1,0 +1,93 @@
+{
+ "S1": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_acv_stick.png",
+   "refs/closeup_acv_jelly_hand.png",
+   "rooms/pick/kitchen_window.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S1.png",
+   "refs/closeup_acv_stick.png",
+   "refs/closeup_acv_jelly_hand.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "wan"
+ },
+ "S2": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_dm_stick.png",
+   "refs/closeup_dm_pour.png",
+   "rooms/pick/kitchen_wood.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S2.png",
+   "refs/closeup_dm_stick.png",
+   "refs/closeup_dm_pour.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "wan"
+ },
+ "S3": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_dm_box.png",
+   "rooms/pick/office_plants.jpg"
+  ],
+  "clip_refs": [
+   "stills/S3.png",
+   "refs/closeup_dm_box.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "wan"
+ },
+ "S4": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_cj_stick.png",
+   "refs/closeup_cj_jelly.png",
+   "rooms/pick/dining.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S4.png",
+   "refs/closeup_cj_stick.png",
+   "refs/closeup_cj_jelly.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "wan"
+ },
+ "S5": {
+  "still_refs": [
+   "refs/closeup_cj_jelly.png",
+   "rooms/pick/counter_grey.jpg"
+  ],
+  "clip_refs": [
+   "stills/S5.png"
+  ],
+  "model": "seedance"
+ },
+ "S6": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_cj_box.png",
+   "refs/closeup_dm_box.png",
+   "refs/closeup_acv_box.png",
+   "rooms/pick/kitchen_sage.jpg"
+  ],
+  "clip_refs": [
+   "stills/S6.png",
+   "refs/closeup_cj_box.png",
+   "refs/closeup_dm_box.png",
+   "refs/closeup_acv_box.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "wan"
+ }
+}

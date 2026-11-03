@@ -1,0 +1,402 @@
+# TikTok comments (2026-11-03), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+319 comments reachable of 784 reported across 4 videos. Buyer questions in them: 71.
+- "What else did you do with taking this?" (7554510286175112479)
+- "Ok, but does it make you run to the bathroom unexpectedly?" (7554510286175112479)
+- "Why, I ate two boxes and it didn't work at all?" (7554510286175112479)
+- "When do u eat them in the morning or night?" (7554510286175112479)
+- "So last night I was th before and this morning I’m the after- why? Cuz some days we bloat and some days we don’t 😅" (7554510286175112479)
+- "how many calories per one?" (7554510286175112479)
+- "You can eat hyleronic acid?" (7554510286175112479)
+- "Why don’t you show yourself at gym during 6 months?" (7554510286175112479)
+- "Where can I get the white band bra?" (7554510286175112479)
+- "Where can I get the white band bra?" (7554510286175112479)
+- "Where can I get the white band bra?" (7554510286175112479)
+- "Ummmm where are the leopard panties from???" (7554510286175112479)
+- "Is this paired with working out and some sort of diet or just the jellies?" (7554510286175112479)
+- "Is this paired with working out and some sort of diet or just the jellies?" (7554510286175112479)
+- "Is it halal?" (7554510286175112479)
+- "Is it for kids?" (7554510286175112479)
+- "Is it for kids?" (7554510286175112479)
+- "Does is really work though?????" (7554510286175112479)
+- "Does is really work though?????" (7554510286175112479)
+- "Do you have to eat it on the morning afternoon or night or only morning or how?" (7554510286175112479)
+- "Do you have to eat it on the morning afternoon or night or only morning or how?" (7554510286175112479)
+- "Did you know if is breastfeeding friendly?" (7554510286175112479)
+- "Did you know if is breastfeeding friendly?" (7554510286175112479)
+- "At what time do you eat it or any time?" (7554510286175112479)
+- "sonu can eat them together ?" (7601559506593516814)
+- "You eat them both in one day or one a day?" (7601559506593516814)
+- "Do you take one after or before you eat?" (7601559506593516814)
+- "how many time on the day i need to eat that? like the morning or first ti eat" (7601559506593516814)
+- "do you eat both at the same time?" (7601559506593516814)
+- "What about the green ones ? 😅" (7601559506593516814)
+- "Is the halal can a Muslim person eat there?" (7601559506593516814)
+- "How long until you see results with just the red one?" (7601559506593516814)
+- "How about one for energy??" (7601559506593516814)
+- "Can you take both at the same time?" (7601559506593516814)
+- "Can a thirteen year old have this?" (7601559506593516814)
+- "Are they sugar free?" (7601559506593516814)
+- "how often?" (7601559506593516814)
+- "how often?" (7601559506593516814)
+- "Please, anyone for strength?" (7601559506593516814)
+- "It says to take 1 a day after meal but WHICH MEAL?! Lol I got the red one" (7601559506593516814)
+- "Is there an ingredient list somewhere?" (7601559506593516814)
+- "Is there an ingredient list somewhere?" (7601559506593516814)
+- "I tried the red one pomegranate, but I have pain in my stomach I haven't been feeling well all day.why?" (7601559506593516814)
+- "I tried the red one pomegranate, but I have pain in my stomach I haven't been feeling well all day.why?" (7601559506593516814)
+- "Do you eat both together, and when do you eat it?" (7601559506593516814)
+- "Do you eat both together, and when do you eat it?" (7601559506593516814)
+- "Do they also help you lose weight?" (7601559506593516814)
+- "Do it work?" (7606158811388316959)
+- "They told you that?" (7606158811388316959)
+- "U promise it worksssss?" (7606158811388316959)
+- "What’s the name of it?" (7606158811388316959)
+- "How old do you have to be to try it?" (7608388270300433678)
+- "How often do you have to eat them? One everyday? One a week?" (7608388270300433678)
+- "when do you take them? morning, before or after meal...?" (7608388270300433678)
+- "Wait so what do all of them do ?!" (7608388270300433678)
+- "It’s 10 in each box subscription recommends every 4 weeks is that enough?" (7608388270300433678)
+- "Does it actually work?" (7608388270300433678)
+- "Do you take all 3 at once?" (7608388270300433678)
+- "red is that strawberry? for what again?" (7608388270300433678)
+- "ingredients?" (7608388270300433678)
+- "does it work?" (7608388270300433678)
+- "does it actually works?" (7608388270300433678)
+- "So you can take them all together at once?" (7608388270300433678)
+- "So you can take them all together at once?" (7608388270300433678)
+- "Is this safe for 17 years old?" (7608388270300433678)
+- "Is this safe for 17 years old?" (7608388270300433678)
+- "Is it gluten free?" (7608388270300433678)
+- "How does it taste??" (7608388270300433678)
+- "Can u take all 3 in one day???" (7608388270300433678)
+- "Can I take all 3 the same day?" (7608388270300433678)
+- "Are they halal ?" (7608388270300433678)
+
+## @ilovebubbies (5500000 views), 105 of 311 comments reachable. https://www.tiktok.com/video/7554510286175112479
+- (1724 likes) "Thanks for adding “with Pilates”"
+- (569 likes) "Gonna find some Korean friends to ask if this is true…."
+- (538 likes) "I want my stomach to touch my back and my skin to look like a porcelain doll"
+- (269 likes) "ladies please please pleaseeeee do your own research before buying any random product because someone told you it works. look into all the supplements and find the benefits and possible side effects!!"
+- (109 likes) "Imma buy it for y’all and give y’all a real in depth review"
+- (84 likes) "bought the 10 day supply and noticed a difference on day 5, definitely works. but diet does play a role so dont think you can eat junk and eat the jelly. you'll keep going back to square 1 in a repeated cycle ♻"
+- (72 likes) "What else did you do with taking this?"
+- (67 likes) "wish I could figure out how to make it myself"
+- (55 likes) "Ok, but does it make you run to the bathroom unexpectedly?"
+- (52 likes) "I took my 1st jelly today (after lunch) I will report results (if any)"
+- (51 likes) "it works cause of doing other healthy things"
+- (22 likes) "Man it don’t work for me"
+- (19 likes) "How mang u used that in a day and what time to eat that"
+- (9 likes) "This helped my weight loss and bloating, I did Pilates and did Kpop choreography, while i used this, I lost -16lbs"
+- (8 likes) "Yeah a gastric sleeves helps as well b"
+- (7 likes) "my acne has been driving me crazy these past couple months and it'll usually be due to my period or just stress and I need someone from here to tell me how it worked for you cause I know the person promoting this kind of has to make a point to say "it works!""
+- (7 likes) "This doesn’t work I tried it for one month"
+- (6 likes) "So far, I’ve only seen young people advertise this so I must be only for young people"
+- (6 likes) "I've tried them and I bought more. lost 6lbs so far"
+- (5 likes) "Why, I ate two boxes and it didn't work at all?"
+- (4 likes) "When do u eat them in the morning or night?"
+- (4 likes) "So last night I was th before and this morning I’m the after- why? Cuz some days we bloat and some days we don’t 😅"
+- (4 likes) "Skin is definitely glowing"
+- (3 likes) "You look great!!!!!🥰😊 💯"
+- (2 likes) "i start taking mine will see"
+- (2 likes) "all the reviews are 4-5 stars I'm tempted to buy it"
+- (2 likes) "What is the source of collagen"
+- (2 likes) "I tried them for 30 days and I noticed a difference. my digestion definitely got better though. my skin felt healthier."
+- (2 likes) "Didn’t work for me"
+- (1 likes) "someone tell me if she lyin"
+- (1 likes) "how many calories per one?"
+- (1 likes) "chubbybis cute"
+- (1 likes) "Yeah took 30 days and didn’t notice any differences 🥲"
+- (1 likes) "What dose it taste like"
+- (1 likes) "Thanks that’s what’s up!"
+- (0 likes) "🥺🥺🥺"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "🥰🥰"
+- (0 likes) "🥰"
+- (0 likes) "🥰"
+- (0 likes) "🥰"
+- (0 likes) "🤣"
+- (0 likes) "😒"
+- (0 likes) "😍😍😍"
+- (0 likes) "😍😍😍"
+- (0 likes) "😍😍😍"
+- (0 likes) "😍😍😍"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😁"
+- (0 likes) "😁"
+- (0 likes) "🌹"
+- (0 likes) "❤"
+- (0 likes) "♥️♥️♥"
+- (0 likes) "okay so how much jellies are in one box"
+- (0 likes) "okay so how much jellies are in one box"
+- (0 likes) "okay so how much jellies are in one box"
+- (0 likes) "You can eat hyleronic acid?"
+- (0 likes) "You are already young."
+- (0 likes) "You are already young."
+- (0 likes) "Why don’t you show yourself at gym during 6 months?"
+- (0 likes) "Where did you get that bathing suit tho girl"
+- (0 likes) "Where can I get the white band bra?"
+- (0 likes) "Where can I get the white band bra?"
+- (0 likes) "Where can I get the white band bra?"
+- (0 likes) "What dose it do dose it lose thigh weight"
+- (0 likes) "Ummmm where are the leopard panties from???"
+- (0 likes) "They definitely do work."
+- (0 likes) "They definitely do work."
+- (0 likes) "They are tasty but they don’t do much"
+- (0 likes) "Thank you for sharing. Hopefully, I could order it and see if it works"
+- (0 likes) "Thank you for sharing. Hopefully, I could order it and see if it works"
+- (0 likes) "So what’s better this or like the other gummy from goli"
+- (0 likes) "So what’s better this or like the other gummy from goli"
+- (0 likes) "So what’s better this or like the other gummy from goli"
+- (0 likes) "Koreans and Asian have good skin by nature period"
+- (0 likes) "I’m on day 2 of 10. Still waiting for the poops to happen."
+- (0 likes) "It really worth it before getting it the item is it like gelo"
+- (0 likes) "Is this paired with working out and some sort of diet or just the jellies?"
+- (0 likes) "Is this paired with working out and some sort of diet or just the jellies?"
+- (0 likes) "Is it halal?"
+- (0 likes) "Is it for kids?"
+- (0 likes) "Is it for kids?"
+- (0 likes) "I am in My first week ."
+- (0 likes) "How many come in box and when did u start seeing results"
+- (0 likes) "How does it taste"
+- (0 likes) "Doesn’t work"
+- (0 likes) "Doesn’t work"
+- (0 likes) "Does is really work though?????"
+- (0 likes) "Does is really work though?????"
+- (0 likes) "Does It have gelatin"
+- (0 likes) "Do you have to eat it on the morning afternoon or night or only morning or how?"
+- (0 likes) "Do you have to eat it on the morning afternoon or night or only morning or how?"
+- (0 likes) "Did you know if is breastfeeding friendly?"
+- (0 likes) "Did you know if is breastfeeding friendly?"
+- (0 likes) "Chapstick.."
+- (0 likes) "At what time do you eat it or any time?"
+- (0 likes) "Asian girls are so pretty"
+- (0 likes) "And all people who advertise happen to get in the 30 days.. have the same script"
+- (0 likes) "-: Do you do exercise and any specific diet with that product"
+
+## @yagirlcedes (1900000 views), 90 of 186 comments reachable. https://www.tiktok.com/video/7601559506593516814
+- (126 likes) "They been making me eat more!!!"
+- (43 likes) "Girl, I practically set a new land-speed record getting to the bathroom in under an hour after having one😂😂"
+- (34 likes) "Yea yea if you’re allergic to shellfish don’t eat it … thank u"
+- (32 likes) "Red one makes me less hungry I love it"
+- (11 likes) "the red one or the purple one, they book make me go. either way.. good stuff!!"
+- (9 likes) "Red work..I can eat cabbage now..lol"
+- (8 likes) "sonu can eat them together ?"
+- (8 likes) "Both make me go"
+- (6 likes) "And they taste so delicious. I have the purple one the red one will be here tomorrow."
+- (4 likes) "You eat them both in one day or one a day?"
+- (4 likes) "That ish didn’t work for me & I ate an entire box"
+- (4 likes) "Do you take one after or before you eat?"
+- (3 likes) "I will be buying this a lot soon"
+- (2 likes) "just ordered mine"
+- (2 likes) "how many time on the day i need to eat that? like the morning or first ti eat"
+- (2 likes) "It works"
+- (2 likes) "It truly works"
+- (2 likes) "I love the red 🥰"
+- (2 likes) "Can I have to definitely try this I am bloating all the time"
+- (1 likes) "which is best to eat in the AM and second in the Pm"
+- (1 likes) "do you eat both at the same time?"
+- (1 likes) "can you just eat it without cutting them"
+- (1 likes) "What about the green ones ? 😅"
+- (1 likes) "Tjmax got all these"
+- (1 likes) "Red is my favorite!"
+- (1 likes) "Love these sooooo much"
+- (1 likes) "Just ordered"
+- (1 likes) "Is the halal can a Muslim person eat there?"
+- (1 likes) "IT IS TRUEEEEE YESSS 😁😁"
+- (1 likes) "I love these."
+- (1 likes) "How long until you see results with just the red one?"
+- (1 likes) "How about one for energy??"
+- (1 likes) "Can you take both at the same time?"
+- (1 likes) "Can they help you lose weight"
+- (1 likes) "Can a thirteen year old have this?"
+- (1 likes) "Are they sugar free?"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂😂😂"
+- (0 likes) "💯 facts"
+- (0 likes) "💯 facts"
+- (0 likes) "❤️❤️❤️"
+- (0 likes) "❤️❤️❤️"
+- (0 likes) "اللحين هذا ينحف"
+- (0 likes) "اللحين هذا ينحف"
+- (0 likes) "how often?"
+- (0 likes) "how often?"
+- (0 likes) "Yes it is"
+- (0 likes) "Where can l get it"
+- (0 likes) "When do you eat it"
+- (0 likes) "When do you eat it"
+- (0 likes) "They’re back. I took these years ago"
+- (0 likes) "They’re back. I took these years ago"
+- (0 likes) "They are so good!"
+- (0 likes) "The purple one definitely makes you poop"
+- (0 likes) "Thank you for informing me."
+- (0 likes) "Thank you for informing me."
+- (0 likes) "So do u take both at the same time or do u take in next day"
+- (0 likes) "Please, anyone for strength?"
+- (0 likes) "Nice advert"
+- (0 likes) "It says to take 1 a day after meal but WHICH MEAL?! Lol I got the red one"
+- (0 likes) "Is there an ingredient list somewhere?"
+- (0 likes) "Is there an ingredient list somewhere?"
+- (0 likes) "I tried the red one pomegranate, but I have pain in my stomach I haven't been feeling well all day.why?"
+- (0 likes) "I tried the red one pomegranate, but I have pain in my stomach I haven't been feeling well all day.why?"
+- (0 likes) "I thought we was pose to have 1 per day"
+- (0 likes) "I thought we was pose to have 1 per day"
+- (0 likes) "I ordered this cutting jelly and they sent me the he powder now they don’t want to give me my refund"
+- (0 likes) "I just ordered"
+- (0 likes) "I just got mine in the mail"
+- (0 likes) "I just got mine in the mail"
+- (0 likes) "I just got mine in the mail"
+- (0 likes) "I have Crohns and that purple one phucked ya girl upppppppaaaaa! 😩😩😩🤣🤣🤣🤣"
+- (0 likes) "I got that too 😌😌 I be on that that thang all day"
+- (0 likes) "How you get it"
+- (0 likes) "How much is it’s"
+- (0 likes) "How long does it take to see something"
+- (0 likes) "How long does it take to see something"
+- (0 likes) "How fast does it work"
+- (0 likes) "How fast does it work"
+- (0 likes) "Do you eat both together, and when do you eat it?"
+- (0 likes) "Do you eat both together, and when do you eat it?"
+- (0 likes) "Do they also help you lose weight?"
+- (0 likes) "Can’t wait to try I just ordered mine 🤗"
+- (0 likes) "Can’t wait to try I just ordered mine 🤗"
+- (0 likes) "Can men use them please answer us thank you"
+- (0 likes) "Can men use them please answer us thank you"
+- (0 likes) "Absolutely love this"
+- (0 likes) "@Sheaa: Dammit my cart full"
+- (0 likes) "@Sheaa: Dammit my cart full"
+
+## @yannnique (1800000 views), 44 of 95 comments reachable. https://www.tiktok.com/video/7606158811388316959
+- (729 likes) "& YOU DID SIS!"
+- (367 likes) "What it do"
+- (165 likes) "yes koreans are the best"
+- (73 likes) "it has red. 40 dye. hard pass"
+- (48 likes) "You putting me onnnn"
+- (44 likes) "Do it work?"
+- (41 likes) "They told you that?"
+- (18 likes) "I've heard wonderful things about the chia seeds so I need to try to"
+- (17 likes) "what do it do"
+- (12 likes) "😂😂😂😂😂"
+- (11 likes) "Sea moss does the same plus has 98 minerals out of the 103 our bodies need"
+- (11 likes) "Be prepared for some lethal a$$⛽️!!!🤣🤣🤣"
+- (8 likes) "😁😁😁"
+- (6 likes) "U promise it worksssss?"
+- (5 likes) "Yes sis, I got mine and lost two lbs in two days. It definately curbs my appetite. Im cool with the taste. Ppl are saying it has the red dye but I dont see it. I will try for about a month and report back. 🥰"
+- (5 likes) "Just got mine I will be back bookie 🥰"
+- (3 likes) "Just got mine today..delicious!"
+- (3 likes) "I wish it was gluten free 😫"
+- (3 likes) "I take these!!"
+- (3 likes) "I just ordered me some !!!"
+- (2 likes) "🥰🥰🥰"
+- (2 likes) "eat it"
+- (2 likes) "I love these"
+- (2 likes) "I love coming across your posts , period sista !"
+- (2 likes) "@Cathy"
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "I looked these up on Yuka they are bad"
+- (0 likes) "😳😳😳"
+- (0 likes) "😁😁😁"
+- (0 likes) "ya it was me 😍👑"
+- (0 likes) "ya it was me 😍👑"
+- (0 likes) "You look Korean in this vid"
+- (0 likes) "Yes . Too Korea !!!!"
+- (0 likes) "What’s the name of it?"
+- (0 likes) "They are the truth got me cleaned out feeling good"
+- (0 likes) "Oh god, my adhd is kicking in with the powder."
+- (0 likes) "Need the lip combo"
+- (0 likes) "Ive been eating before all of this too"
+- (0 likes) "I cant wait to try these yes please"
+- (0 likes) "I bought some . Don’t piss me off"
+- (0 likes) "I absolutely love mine. taste good too"
+- (0 likes) "I absolutely love mine. taste good too"
+- (0 likes) ""
+
+## @yagirlcedes (1700000 views), 80 of 192 comments reachable. https://www.tiktok.com/video/7608388270300433678
+- (183 likes) "Thought these were cat treats"
+- (141 likes) "so I am only who bought them and they didn't work for me 😔"
+- (43 likes) "Sheesh I see the results. Your body is tea😍"
+- (13 likes) "You have single handed made me start taking this 🥰"
+- (13 likes) "If anyone wants a review I have taken the purple one and it LITERALLY helps me 💩better currently trying red just yesterday"
+- (13 likes) "How old do you have to be to try it?"
+- (12 likes) "When I got mine I was like why are these women cutting it with scissors turn it over it has a slip to open them up. But yesssss my skin is looking good."
+- (8 likes) "They r soo good"
+- (6 likes) "how accurate is this product"
+- (6 likes) "I don’t need them from the results. They actually do really taste good."
+- (6 likes) "Guys I got them and they actually work I don’t be eating late at night"
+- (5 likes) "How often do you have to eat them? One everyday? One a week?"
+- (4 likes) "How many comes in one pack"
+- (3 likes) "I tried the red and the purple. I’m going to buy the red again"
+- (3 likes) "Doesn’t work"
+- (2 likes) "if you have PCOS...those are excellent for you."
+- (2 likes) "Ok fine sold . I got a nice discount too"
+- (2 likes) "I like how she’s explaining what the red does 😂😂😂😂😂 “ shkuuuuuup “"
+- (2 likes) "Does it taste good"
+- (1 likes) "🥰🥰🥰🥰"
+- (1 likes) "when do you take them? morning, before or after meal...?"
+- (1 likes) "when do you start seeing the results when taking the purple one what I mean is when do you start pooping"
+- (1 likes) "can you use it while breastfeeding"
+- (1 likes) "Wait so what do all of them do ?!"
+- (1 likes) "Plugs you up"
+- (1 likes) "I’m curious about the taste"
+- (1 likes) "It’s 10 in each box subscription recommends every 4 weeks is that enough?"
+- (1 likes) "I started yesterday. Let’s see how effective it will be"
+- (1 likes) "I love the flavor"
+- (1 likes) "Does it actually work?"
+- (1 likes) "Do you take all 3 at once?"
+- (1 likes) "Do u take all together"
+- (0 likes) "🫪🫪🫪🫪🫪🫪🫪🫪🫪🫪🫪🫪"
+- (0 likes) "😂😂😂"
+- (0 likes) "😁😁😁"
+- (0 likes) "❤️❤️❤️"
+- (0 likes) "they truly work"
+- (0 likes) "they truly work"
+- (0 likes) "red is that strawberry? for what again?"
+- (0 likes) "nice"
+- (0 likes) "just junk"
+- (0 likes) "just junk"
+- (0 likes) "ingredients?"
+- (0 likes) "does it work?"
+- (0 likes) "does it actually works?"
+- (0 likes) "and they taste so foos"
+- (0 likes) "Why did I order this and it came in a powder form this is what I didn’t order"
+- (0 likes) "Waiting on my phone order"
+- (0 likes) "Waiting on my phone order"
+- (0 likes) "Waiting on my phone order"
+- (0 likes) "So you can take them all together at once?"
+- (0 likes) "So you can take them all together at once?"
+- (0 likes) "Show me some before pictures then you can tell me what it do."
+- (0 likes) "Link for the body suit please"
+- (0 likes) "Just placed my order I’ll be back with my review"
+- (0 likes) "Just placed my order I’ll be back with my review"
+- (0 likes) "Just placed my order I’ll be back with my review"
+- (0 likes) "It really does work. It really really does and I feel really good and obviously exercise and life choices but it really does work. I feel better. My gut feels better. When I say exercise, I don’t do remotely what people be doing in the gym.I do my walks."
+- (0 likes) "Is this safe for 17 years old?"
+- (0 likes) "Is this safe for 17 years old?"
+- (0 likes) "Is it gluten free?"
+- (0 likes) "IM COLLA RE-"
+- (0 likes) "IM COLLA RE-"
+- (0 likes) "I was allergic to it"
+- (0 likes) "I need"
+- (0 likes) "I don’t have the green"
+- (0 likes) "How many come in the package"
+- (0 likes) "How does it taste??"
+- (0 likes) "Didn’t work for me."
+- (0 likes) "Didn’t work for me."
+- (0 likes) "Didn’t work for me."
+- (0 likes) "Can u take all 3 in one day???"
+- (0 likes) "Can I take all 3 the same day?"
+- (0 likes) "Big facts."
+- (0 likes) "Are they halal ?"
+- (0 likes) "Are these natural products how much sugar"
+- (0 likes) "Are these natural products how much sugar"
+- (0 likes) "Are these natural products how much sugar"
+- (0 likes) "@Jasmine_Nicole🌸"
+- (0 likes) ""
