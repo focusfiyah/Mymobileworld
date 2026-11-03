@@ -175,5 +175,44 @@
   "costTime": 137,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:41:26",
+  "submitted": "1a7750fd2fe8d9ed71741e7bf5188014",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and hand exactly. Image2 is the real 'nello Fo"
+ },
+ {
+  "t": "2026-11-03 15:45:06",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and hand exactly. Image2 is the real 'nello Focus Drink Mix SUPER FOCUS' label print with the FRUIT PUNCH badge: it stays on the tub the whole clip and matches Image2 letter for letter and colour for colour. Image3 is the product sheet: keep this exact squat tub shape, small size, white ribbed lid and coral-red label, no added marks, no blue badge, no extra text. Motion: her hand keeps one grip and lifts the tub slowly about a hand's width off the desk toward the lens; the front stays facing the camera, the tub never turns, tilts away or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight, realistic skin. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720467532-obkgzxdf35h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720470186-u9u51sp5pg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720472543-67l3hhpr9hh.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "1a7750fd2fe8d9ed71741e7bf5188014",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30/1793720700610-lkszl76ixwc.mp4"
+   ]
+  },
+  "costTime": 218,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:45:15",
+  "clip_check": "/home/user/Mymobileworld/ugc/nello-superfocus/clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.901
  }
 ]
