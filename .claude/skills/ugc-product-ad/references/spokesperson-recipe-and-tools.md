@@ -30,7 +30,7 @@ registry.discover()
 registry._tools["gemini_omni_video"].execute({...})   # add "model": "gemini-omni-1.1-flash"
 ```
 
-For a product clip use `scripts/omni_clip.py` (gate, budget, log, audio strip); see `references/product-lock.md`.
+For a product clip use `scripts/wan_clip.py` (Wan 3.0 720P + free upscale; gate, budget, log, audio strip; Ralph 2026-11-03) or `scripts/omni_clip.py` for an Omni edit turn; see `references/product-lock.md`.
 On Ralph's PC (when he has one again) the same repo sits at `C:\dev\OpenMontage` with its own `.venv`.
 
 For a single short ad, call the generation tool directly and assemble with

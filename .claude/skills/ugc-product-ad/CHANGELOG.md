@@ -24,3 +24,4 @@
 - 2026-10-28: small detailed products: clips made with NO product in them, the real one added as the only one; cover only the AI copy/scarf/shadow, never a box over the host; drift strip also on every frame of the final cut's pasted windows. Why: Ralph, Mini Bag Charm v8-v10 ("Yes save rules").
 
 - 2026-11-02: Kling allowed again only for difficult shots (Ralph: "Use Kling if needed. Do not use all credits only on shots that are difficult or need it"); replaced the 2026-10-21 no-Kling lines.
+- 2026-11-03: Product clips after Flow now go to Wan 3.0 on Kie at 720P + free upscale (new scripts/wan_clip.py), replacing Kie Omni (kept for edit turns). Why: Ralph "Make wan the default with our upscale" after the ZYTRELL S3 test (Wan held one grip 5 s, Omni regripped at 2 s; same price per second).

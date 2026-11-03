@@ -9,8 +9,8 @@ Repeatable recipes for creator-style product ads. Follow them and a job takes a
 handful of tool calls. Working it out from scratch takes fifty calls and produces
 worse output, which is why this file exists.
 
-- **Any shot that shows the product (every route below):** "Product lock" (references/product-lock.md) (Google
-  Gemini Omni clips from the real-photo references; paste-back only as a last resort). Ralph, 2026-10-21.
+- **Any shot that shows the product (every route below):** "Product lock" (references/product-lock.md) (Flow
+  takes first, then Wan 3.0 720P + free upscale, from the real-photo references; paste-back only as a last resort). Ralph, 2026-10-21, 2026-11-03.
 - **Single spokesperson, 10s, talking to camera:** "The recipe" (references/spokesperson-recipe-and-tools.md) (Gemini Omni).
 - **Recreate a trending spokesperson video (up to 15s, product close-ups):** "Recreate a trending
   spokesperson video" (Gemini 3 Pro stills + one Seedance Mini clip). Approved by Ralph on 2026-09-14.
@@ -59,8 +59,8 @@ lessons below are specific to making ads:
   anchor + a real in-room photo for scale, and every product detail confirmed by Ralph in the plan before spend; a quote
   includes one likely redo (Shnuggle 2026-10-19: AI tub too big, an invented dot pattern). Details: `grace/PLAYBOOK.md` §6.
 - **Product lock on every product (Ralph 2026-10-21):** product stills from Gemini 3 Pro Image + the reference sheet +
-  a close-up of each real logo, used clean; every clip with the product in frame on **Google Gemini Omni 1.1 Flash on Kie**
-  (`scripts/omni_clip.py`, 4 s $0.315; never through the Gemini API key, Ralph 2026-10-22); Seedance 2.0 Mini only for clips without the product;
+  a close-up of each real logo, used clean; every clip with the product in frame first a free Flow take, else **Wan 3.0 on Kie at 720P + our free upscale**
+  (`scripts/wan_clip.py`, 5 s $0.40; Ralph 2026-11-03, replaces Kie Omni, which stays for edit turns via `scripts/omni_clip.py`); Seedance 2.0 Mini only for clips without the product;
   Kling only for a shot that is difficult or needs it (Mymobileworld CLAUDE.md, Ralph 2026-11-02). A drifted take gets one Omni edit turn before any new take. **Pasting a real label is the last
   resort** (it reads as a sticker), only with Ralph's OK for that shot. Route, prompt template, costs:
   `references/product-lock.md`. Why: October's redos (Vans tab and gift-shot shoe, Cleanwaste boxes) cost more than
@@ -91,7 +91,7 @@ lessons below are specific to making ads:
 - **Resuming from a handoff: re-check before paying.** Re-fetch the job branch, read its `kie_log.json` / clips
   folder for that step, and make sure the old session has stopped. Why: Vicks VapoShower (2026-10-01) rendered the
   same 6 clips in two sessions, $1.07 lost.
-- **Clip check on every paid clip (2026-10-26):** the runners (`omni_clip.py`, a job's `kie.py` copied from
+- **Clip check on every paid clip (2026-10-26):** the runners (`wan_clip.py`, `omni_clip.py`, a job's `kie.py` copied from
   `ugc/oqq-wide-leg-pants/`) compare each downloaded clip's opening second with its still (`grace/clip_check.py`,
   calibrated on 242 real pairs) and log Kie's billed credits, which `grace/spend.py` counts instead of list prices.
 - **QC extras beyond CLAUDE.md hard rule 3:** nothing resting on thin air (a Vicks still put the box past the vanity
@@ -129,7 +129,7 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
   `references/persona-per-shot.md`
 - Hands-only ad, on-camera demo over a voiceover, GTT KN95 lessons: `references/hands-only-and-demo.md`
 - Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result; Kie talking-avatar models (one still + the voice, no clip first, untested) for talking-head lines: `references/lipsync-options.md`
-- Product lock (every product shot: Omni clips, edit turns, budget line): `references/product-lock.md`
+- Product lock (every product shot: Flow, Wan and Omni clips, edit turns, budget line): `references/product-lock.md`
 - Exact-product route (real photo + paste-back, complex products; last resort since 2026-10-21): `references/exact-product.md`
 - Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).
 - Scripts live in `scripts/` (gate.py, kie runners, cut/finish/qc tools); templates in the job folders named in CLAUDE.md.

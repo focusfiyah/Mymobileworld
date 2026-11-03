@@ -14,3 +14,4 @@
 - 2026-10-26: real product photos are the truth (B12B6 spout stills).
 
 - 2026-11-02: Kling allowed again only for difficult shots (Ralph: "Use Kling if needed. Do not use all credits only on shots that are difficult or need it"); replaced the 2026-10-21 no-Kling lines.
+- 2026-11-03: Ralph's stack: product clips = Flow first, then Wan 3.0 720P + free upscale (Image1.. naming); Kie Omni only for edit turns. Why: Ralph 2026-11-03 "Make wan the default with our upscale".

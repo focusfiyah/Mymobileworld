@@ -23,18 +23,21 @@ stop spending; 13 of 27 Vans clips came back with a pale side tab; Cleanwaste: 3
    clip, 1,050 a month, no rollover; he downloads it at 1080) from your kit: the still, a close-up of each logo, the sheet
    and one prompt (format and steps: Mymobileworld `grace/flow/README.md`). QC it exactly like a paid take. Kie (below)
    only when his Flow credits run out, he can't make it, or the Flow take fails QC, asked with the cost.
-   **Otherwise: Google Gemini Omni 1.1 Flash ON KIE** (Ralph 2026-10-22: "Use Omni on
-   kie not thru the API key"; Kie model `google/gemini-omni-flash-1-1`, cheaper than Google direct and 1080p at the
-   same price): `python3 .claude/skills/ugc-product-ad/scripts/omni_clip.py <job> S3 --prompt-file prompts/S3.txt
-   --still stills/S3.png --ref refs/logo_side.png --ref refs/product_sheet.png --seconds 4` (`--dry` first: prints the
-   cost, spends nothing). Never call Omni through the Gemini API key or OpenMontage's Google tool. Omni binds the product as a named reference for the whole clip; Seedance only copies the
-   first frame and then redraws the print.
+   **Otherwise: Wan 3.0 ON KIE at 720P, upscaled by us to 1080p** (Ralph 2026-11-03: "Make wan the default with our
+   upscale"; replaces Kie Omni): `python3 .claude/skills/ugc-product-ad/scripts/wan_clip.py <job> S3 --prompt-file
+   prompts/S3.txt --still stills/S3.png --ref refs/logo_side.png --ref refs/product_sheet.png --seconds 5` (`--dry`
+   first: prints the cost, spends nothing). $0.08/s at 720P, the same per second as Omni; the runner's free upscale
+   (lanczos + light unsharp) kept the label at 2x about as sharp as Omni's native 1080p, so Wan's 1080P ($0.16/s) is not
+   used. Why: on ZYTRELL S3 (hand lifts the tube, same three references) Wan kept one grip for all 5 s while Omni
+   switched the hand at about 2 s and had to be cut to 1.8 s (test: Mymobileworld `ugc/_tests/wan3-vs-omni`, n=1).
+   Kie Omni (`scripts/omni_clip.py`, `google/gemini-omni-flash-1-1`) stays available for an edit turn on an Omni take
+   or when a Wan take fails QC, asked with the cost; never through the Gemini API key or OpenMontage's Google tool.
 4. **Clips with no product in frame** (room, hand-free scenery, a hand without the product): Seedance 2.0 Mini on Kie
    as before ($0.041/s). Kling only for a difficult shot that needs it (Mymobileworld CLAUDE.md, Ralph 2026-11-02;
    CeraVe S3: a held bottle whose small print nano-banana garbled twice was fixed by editing a clean still to add the hand,
    then a Kling first-frame clip).
-5. **QC every Omni take at 2x on several frames** against the close-ups (letters, colours, shape) and the hand rules
-   (grip, whole wrist, no flip). Omni renders audio; the runner strips it. Before that, the runner checks the still is
+5. **QC every product take (Flow, Wan or Omni) at 2x on several frames** against the close-ups (letters, colours, shape) and the hand rules
+   (grip, whole wrist, no flip). Both runners strip audio. Before that, the runner checks the still is
    9:16 before paying and the clip against its still after the download (Mymobileworld `grace/clip_check.py`,
    2026-10-26): a CLIP_CHECK_FAIL means look first and fetch the task again; Kie bills a clip that ignored the image.
 6. **Paste-back is the last resort:** only when free fixes (crop, trim to the clean window, static patch) and one
@@ -44,9 +47,10 @@ Unverified until the first job uses it: how well Omni holds small print through 
 product clip (the riskiest), QCs it, and only then the rest (CLAUDE.md hard rule 2).
 
 ## Prompt template (write it with prompt-master)
-Kie's Omni takes either a first frame or reference images, not both, so it runs in reference mode: image 1 is the still,
-then one real close-up per logo/label, then the sheet (7 images at most). The runner refuses a prompt that leaves an
-image unnamed or never says "first frame".
+Wan and Omni on Kie take either a first frame or reference images, not both, so both run in reference mode: image 1 is
+the still, then one real close-up per logo/label, then the sheet (Wan 10 images at most, Omni 7). Wan names them
+"Image1", "Image2" ... in the prompt, Omni "image 1" ...; the runners refuse a prompt that leaves an image unnamed or
+never says "first frame".
 
 ```
 Recreate image 1 exactly as the first frame: keep its room, light, framing and hand exactly.
@@ -59,12 +63,14 @@ No music, no voice, no captions, no on-screen text.
 ```
 
 ## Fixing a drifted take
-Use an Omni edit before any new take: `omni_clip.py <job> S3 --edit --prompt-file fix.txt` sends the last take back as
+A drifted Wan take: free fixes first (trim to the clean window), then a new take or one Omni take, asked with the cost.
+A drifted Omni take: use an Omni edit before any new take: `omni_clip.py <job> S3 --edit --prompt-file fix.txt` sends the last take back as
 video input with a prompt naming only the change: "Make the side tab match <the close-up's look> exactly. Keep
 everything else the same." $0.84 per edit on Kie (more than a new 4 s take, $0.315), so use it only when the rest of
 the take is already right. Ask Ralph with the cost first, like any redo.
 
 ## Cost and budget
+- Wan 3.0 on Kie 720P: $0.08/s (5 s $0.40), upscale free (kie.ai/wan3.0-video, 2026-11-03).
 - Omni on Kie (list price, kie.ai/gemini-omni-1-1-flash, 2026-10-22; 360p/720p/1080p the same): 4 s $0.315, 6 s $0.42,
   8 s $0.525, 10 s $0.63; edit with video input $0.84. Seedance Mini is $0.041/s (4 s $0.164). Keep product shots 4 s;
   the plan quotes each shot's model and price and includes one likely fix. Kie logs it in the job's kie_log.json, so
