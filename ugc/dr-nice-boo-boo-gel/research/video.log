@@ -1,0 +1,16 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@nataleesnyder/video/7518383525192682782
+   -> ugc/dr-nice-boo-boo-gel/research/videos/7518383525192682782  (31s, 682,600 views, transcript=yes)
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@j0rdynfreeman/video/7677029937198517534
+   -> ugc/dr-nice-boo-boo-gel/research/videos/7677029937198517534  (30s, 218,900 views, transcript=yes)
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@danpluskate/video/7649839401228340493
+   -> ugc/dr-nice-boo-boo-gel/research/videos/7649839401228340493  (38s, 117,500 views, transcript=yes)
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@laniedoesdeals/video/7646522447101037837
+   -> ugc/dr-nice-boo-boo-gel/research/videos/7646522447101037837  (19s, 10,800,000 views, transcript=yes)

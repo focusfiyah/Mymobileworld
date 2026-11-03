@@ -1,0 +1,18 @@
+  #momfinds: 0 videos
+  #bugbites: 0 videos
+  /discover/hydrocolloid-bug-bite: 15 videos
+  /discover/mosquito-bites-on-baby-face: 16 videos
+  /discover/welly-bug-bite-patches: 16 videos
+  /discover/bug-bite-thing-how-to-use: 16 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+61 videos scanned, 1 shop videos posted in the last 30.0 day(s) -> ugc/dr-nice-boo-boo-gel/research/viral/viral-2026-11-03.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       974     26K 26.2d  0.08  Quitch Mosquito Bite Itch Relief Patch, After Bite Inse [Beauty & Personal Care]
+                                  @j0rdynfreeman: First thing I’ve found for relief for my baby’s legs #bugbit
+                                  https://www.tiktok.com/@j0rdynfreeman/video/7694242979942321438
