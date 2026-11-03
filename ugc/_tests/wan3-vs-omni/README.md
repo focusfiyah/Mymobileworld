@@ -13,3 +13,8 @@ Status: 2026-11-03 DONE. Wan 3.0 beat Omni on this held-product shot (same grip 
 - Hand edges at 2x (first frame, 4.8 s): clean, no halo, smear or background through the hand.
 - Motion: holds still ~1.6 s, then lifts toward the lens and holds; slow push-in.
 - Weak points: 720p (our cuts are 1080p); 1080P costs $0.16/s ($0.80 for 5 s) vs Omni $0.315 for 4 s.
+
+## Free upscale (2026-11-03, Ralph: "Can we do wan at 720 then upscale on our own to keep the lower cost")
+- Yes. Wan 720P = $0.08/s, the same per second as Omni ($0.315 / 4 s). `upscale.sh IN OUT` (lanczos + light unsharp) takes ~4 s per clip.
+- At 2x the label is close to Omni's native 1080p; it matched a free AI upscaler (FSRCNN x2, 2 min per clip); hand edges clean, no halos.
+- So Wan's 1080P ($0.16/s) is not needed. Review page section "Wan at 720p, upscaled by us to 1080p".
