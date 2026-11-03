@@ -1,0 +1,582 @@
+[
+ {
+  "t": "2026-11-03 15:13:39",
+  "submitted": "1941f2b803254c499be6ca9526db2d42",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-03 15:15:08",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the real bits close-up, image 5 Grace's real hands, image 6 the room. Close-up, camera at counter height: the open bottle stands upright on the pink counter of the green-tile bathroom from image 6, its silver cap lying flat on the counter beside it, label facing the camera. One RIGHT hand comes in from the right edge and pinches one bit between thumb and index finger, lifting it just out of the bottle's open mouth. The bottle reaches only to the second knuckle of her index finger. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Each bit is a flat round off-white to cream tablet with a fine speckle, about 1 cm across (about the width of a fingernail), half as thick as it is wide, exactly like image 4. Hands: Grace's real hands from image 5, copied exactly: medium-brown skin, mauve-pink French-tip nails, no rings, no bracelet, no watch; the hand enters from the frame edge with the whole wrist visible. The sink and green tiles soft and out of focus behind. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718796069-2oegpzt1ygo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718799346-3t3v9vqzxx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718801526-ryfxp77lld.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718803640-kvocyoci0wc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718805562-cs2iqds55hs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718809144-qfwxb8i27bg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "1941f2b803254c499be6ca9526db2d42",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/1941f2b803254c499be6ca9526db2d42_0_1793718903.jpeg"
+   ]
+  },
+  "costTime": 86,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:15:56",
+  "submitted": "aa1b965d98b78798091f8b039daea439",
+  "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up at the white sink of the green-tile bathroom from image 2: one"
+ },
+ {
+  "t": "2026-11-03 15:15:58",
+  "submitted": "89069c24561588064da1fd055281ec10",
+  "prompt": "Image 1 is Grace's real hands, image 2 the room. Tight close-up of the lower face of a Black woman with medium-brown ski"
+ },
+ {
+  "t": "2026-11-03 15:16:00",
+  "submitted": "9c41409f66d84d0afe90d7e77f99a130",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-03 15:16:02",
+  "submitted": "01263b6241699ddf932ba0e408b5ff0b",
+  "prompt": "Image 1 is the room. Close-up on the terracotta basin from image 1: a plain white squeezed toothpaste tube with no brand"
+ },
+ {
+  "t": "2026-11-03 15:16:05",
+  "submitted": "9550be435b65f4e28753e593aad5e632",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-03 15:16:30",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands, image 2 the room. Tight close-up of the lower face of a Black woman with medium-brown skin, from the tip of the nose to the chin, no eyes in the frame: she brushes her front teeth with a plain toothbrush with a natural wooden handle, light white foam at the lips, relaxed face. Green tiles from image 2 soft and out of focus behind. Her RIGHT hand holds the toothbrush handle, thumb and fingers wrapped around it; hands from image 1: mauve-pink French-tip nails, no rings, no bracelet, no watch, the hand comes up from the bottom frame edge. No bottles, no tablets, no other people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718805562-cs2iqds55hs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718809144-qfwxb8i27bg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "89069c24561588064da1fd055281ec10",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/89069c24561588064da1fd055281ec10_1793718987987.jpeg"
+   ]
+  },
+  "costTime": 46,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:16:34",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up at the white sink of the green-tile bathroom from image 2: one RIGHT hand holds a plain toothbrush with natural wooden handle and white bristles by the end of the handle, bristles under the chrome tap, a thin stream of water running onto them. The hand grips the handle (thumb on top, fingers curled under). Hands: Grace's real hands from image 1, copied exactly: medium-brown skin, mauve-pink French-tip nails, no rings, no bracelet, no watch; the hand enters from the right frame edge with the whole wrist visible. No toothpaste, no bottles, no tablets, no people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718805562-cs2iqds55hs.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718809144-qfwxb8i27bg.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "aa1b965d98b78798091f8b039daea439",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/aa1b965d98b78798091f8b039daea439_0_1793718987.jpeg"
+   ]
+  },
+  "costTime": 49,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:16:41",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the room. Close-up on the terracotta basin from image 1: a plain white squeezed toothpaste tube with no brand or print lies on the basin's rim, its cap crusted with dried white paste, a dried smear and a blob of white paste stuck inside the basin near the gold drain. No bottles, no tablets, no hands, no people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718932125-e6oh1cv33uw.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "01263b6241699ddf932ba0e408b5ff0b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/01263b6241699ddf932ba0e408b5ff0b_0_1793719000.jpeg"
+   ]
+  },
+  "costTime": 51,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:16:51",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the white counter of the navy-tile hotel bathroom from image 4: an open small beige zip toiletry bag, a folded white washcloth beside it; the bottle stands upright inside the bag, cap on, its top third and the 'Bite' label showing above the bag's edge, label facing the camera. The bottle is about a third of the bag's height. No hands, no people. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718796069-2oegpzt1ygo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718799346-3t3v9vqzxx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718801526-ryfxp77lld.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718932136-jpwzvvmlfb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9c41409f66d84d0afe90d7e77f99a130",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9c41409f66d84d0afe90d7e77f99a130_0_1793719008.jpeg"
+   ]
+  },
+  "costTime": 63,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:17:34",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the real bits close-up, image 5 the room. On the cream tiled counter beside the terracotta basin from image 5, near the gold tap: ONE bottle standing upright, cap on, label facing the camera, three loose bits lying on the counter in front of it. The bottle is small: only about a tenth of the basin's width. No hands, no people, no toothpaste tube. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Each bit is a flat round off-white to cream tablet with a fine speckle, about 1 cm across (about the width of a fingernail), half as thick as it is wide, exactly like image 4. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718796069-2oegpzt1ygo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718799346-3t3v9vqzxx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718801526-ryfxp77lld.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718803640-kvocyoci0wc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718932181-h8jou6d146v.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9550be435b65f4e28753e593aad5e632",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9550be435b65f4e28753e593aad5e632_0_1793719050.jpeg"
+   ]
+  },
+  "costTime": 98,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:36:39",
+  "submitted": "f8762110c25b65e1a0103c6448693aa8",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-03 15:36:42",
+  "submitted": "38b11324a3e3402f3b7189d1468d220d",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 th"
+ },
+ {
+  "t": "2026-11-03 15:37:45",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. SIZE FIRST: the bottle is SMALL, only 5 cm (2 in) tall and 2.7 cm wide, a quarter the length of a full-size toothbrush. On the white counter of the navy-tile hotel bathroom from image 4: a large open beige zip toiletry bag, about 25 cm long and 12 cm tall, a folded white washcloth beside it. Inside the open bag, side by side: a full-length plain white toothbrush lying flat along the bag, and the small bottle standing upright near the front, cap on, label facing the camera. The bottle is only about a fifth of the bag's length and less than half the bag's height, and the toothbrush is four times as long as the bottle is tall; the whole bottle and its label are visible above the front edge of the bag. Camera at counter height, a little further back so the whole bag fills about half the frame width. No hands, no people. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718796069-2oegpzt1ygo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718799346-3t3v9vqzxx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718801526-ryfxp77lld.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718932136-jpwzvvmlfb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "38b11324a3e3402f3b7189d1468d220d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/38b11324a3e3402f3b7189d1468d220d_0_1793720262.jpeg"
+   ]
+  },
+  "costTime": 66,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:38:13",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the real bits close-up, image 5 the room. On the cream tiled counter beside the terracotta basin from image 5, near the gold tap: SIZE FIRST: the bottle is SMALL, only 5 cm (2 in) tall and 2.7 cm wide, a quarter the length of a full-size toothbrush. ONE small bottle standing upright, cap on, label facing the camera, three loose bits lying on the counter in front of it and a full-length plain white toothbrush lying on the counter behind it. The bottle is only a quarter of the toothbrush's length and narrower than one 10 cm counter tile (about a quarter of a tile wide). Camera at counter height, a little further back: the bottle fills about a fifth of the frame width. No hands, no people, no toothpaste tube. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Each bit is a flat round off-white to cream tablet with a fine speckle, about 1 cm across (about the width of a fingernail), half as thick as it is wide, exactly like image 4. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718796069-2oegpzt1ygo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718799346-3t3v9vqzxx.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718801526-ryfxp77lld.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718803640-kvocyoci0wc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793718932181-h8jou6d146v.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f8762110c25b65e1a0103c6448693aa8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f8762110c25b65e1a0103c6448693aa8_0_1793720289.jpeg"
+   ]
+  },
+  "costTime": 96,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:42:35",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. The fingers lift the bit up out of the bottle and toward the camera in one slow small move, pinched the same way the whole time. The bottle does not move, turn or tip; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the cap must match Image3, the bottle must match Image4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720524884-d4ljguo6arg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720527485-3n0jj439vud.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720529436-n7quus7f8zd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720531407-4furnxjrf8c.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "response": {
+   "code": 422,
+   "msg": "reference_image_urls resolution is out of range",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:44:30",
+  "submitted": "59d59fc30c77a8562d9128a4ff2c7d8c",
+  "prompt": "Recreate Image1 exactly as the first frame. The fingers lift the bit up out of the bottle and toward the camera in one s"
+ },
+ {
+  "t": "2026-11-03 15:47:50",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. The fingers lift the bit up out of the bottle and toward the camera in one slow small move, pinched the same way the whole time. The bottle does not move, turn or tip; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the cap must match Image3, the bottle must match Image4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720567197-un4fzvvheqc.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720569296-j2l3vsac8p8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720572110-k28qe0bxep.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720575361-u0pwbmq46i.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "59d59fc30c77a8562d9128a4ff2c7d8c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793720866354-1isdcrs7td7.mp4"
+   ]
+  },
+  "costTime": 199,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:47:58",
+  "clip_check": "/home/user/Mymobileworld/ugc/bite-toothpaste-bits/clips/S1.mp4",
+  "still": "ugc/bite-toothpaste-bits/stills/S1.png",
+  "ok": true,
+  "score": 0.956
+ },
+ {
+  "t": "2026-11-03 15:48:36",
+  "submitted": "f6a2cef604f30b134a7da0ed6523993e",
+  "prompt": "The water runs over the bristles and the hand gives the toothbrush one small shake. Same grip the whole time. Camera ste"
+ },
+ {
+  "t": "2026-11-03 15:50:11",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Slow push-in on the crusty toothpaste tube and the dried blob in the basin. Nothing moves except the camera. No hands, fingers or people appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720898113-h6hnpbvcx8c.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:50:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "She brushes her front teeth with small side-to-side strokes, the light white foam staying at her lips. Same grip the whole time. The frame stays from the nose tip to the chin, no eyes. Camera steady. No bottle or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720898061-nx4t5th78x.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:50:16",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Slow dolly-in toward the small bottle in the open toiletry bag. Nothing moves except the camera. No hands, fingers or people appear at any time. The label must match Image2 letter for letter and colour for colour, the cap must match Image3, the bottle must match Image4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720901205-ng3sb8kvxx9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720903141-tlu55felq7.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720906024-n8sy98bxqpf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720908388-5a1xg9wm0va.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:50:19",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Slow push-in on the bottle and the three bits. Nothing moves except the camera. No hands, fingers or people appear at any time. The label must match Image2 letter for letter and colour for colour, the cap must match Image3, the bottle must match Image4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720901209-jas69co8uh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720903144-8k3hkixdq3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720906625-g916d5vakt4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720909257-7x6k4gf6r33.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:50:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The water runs over the bristles and the hand gives the toothbrush one small shake. Same grip the whole time. Camera steady, slight handheld drift. No bottle or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720898046-933fuw06c4a.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "f6a2cef604f30b134a7da0ed6523993e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721031040-ff47368p99c.mp4"
+   ]
+  },
+  "costTime": 126,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:50:38",
+  "clip_check": "clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.952
+ },
+ {
+  "t": "2026-11-03 15:51:02",
+  "submitted": "6ad0ef24c5558d05e9b5d996dec8d3e3",
+  "prompt": "She brushes her front teeth with small side-to-side strokes, the light white foam staying at her lips. Same grip the who"
+ },
+ {
+  "t": "2026-11-03 15:51:06",
+  "submitted": "5ec22fbceff4d9feea48590ed9fcd5d6",
+  "prompt": "Slow push-in on the crusty toothpaste tube and the dried blob in the basin. Nothing moves except the camera. No hands, f"
+ },
+ {
+  "t": "2026-11-03 15:51:19",
+  "submitted": "ce69b9764785fefe2539367d5d87ce60",
+  "prompt": "Recreate Image1 exactly as the first frame. Slow push-in on the bottle and the three bits. Nothing moves except the came"
+ },
+ {
+  "t": "2026-11-03 15:51:44",
+  "submitted": "e064783912887a84a42cae960c1b60bf",
+  "prompt": "Recreate Image1 exactly as the first frame. Slow dolly-in toward the small bottle in the open toiletry bag. Nothing move"
+ },
+ {
+  "t": "2026-11-03 15:52:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "She brushes her front teeth with small side-to-side strokes, the light white foam staying at her lips. Same grip the whole time. The frame stays from the nose tip to the chin, no eyes. Camera steady. No bottle or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720898061-nx4t5th78x.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "6ad0ef24c5558d05e9b5d996dec8d3e3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721127632-0jsfkfffu9r.mp4"
+   ]
+  },
+  "costTime": 73,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:52:15",
+  "clip_check": "clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.972
+ },
+ {
+  "t": "2026-11-03 15:53:12",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Slow push-in on the crusty toothpaste tube and the dried blob in the basin. Nothing moves except the camera. No hands, fingers or people appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793720898113-h6hnpbvcx8c.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5ec22fbceff4d9feea48590ed9fcd5d6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721187875-cdjvrwuow8l.mp4"
+   ]
+  },
+  "costTime": 128,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:53:14",
+  "clip_check": "clips/S2.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.981
+ },
+ {
+  "t": "2026-11-03 15:53:33",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Slow push-in on the bottle and the three bits. Nothing moves except the camera. No hands, fingers or people appear at any time. The label must match Image2 letter for letter and colour for colour, the cap must match Image3, the bottle must match Image4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721053357-8stpzb4d075.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721055425-s8dywc04ldr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721057534-2x5fch1091h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721060877-6kacjgrdwyq.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "ce69b9764785fefe2539367d5d87ce60",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721209796-l4esx51g0m.mp4"
+   ]
+  },
+  "costTime": 138,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:53:41",
+  "clip_check": "/home/user/Mymobileworld/ugc/bite-toothpaste-bits/clips/S6.mp4",
+  "still": "ugc/bite-toothpaste-bits/stills/S6.png",
+  "ok": true,
+  "score": 0.839
+ },
+ {
+  "t": "2026-11-03 15:54:10",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Slow dolly-in toward the small bottle in the open toiletry bag. Nothing moves except the camera. No hands, fingers or people appear at any time. The label must match Image2 letter for letter and colour for colour, the cap must match Image3, the bottle must match Image4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721060384-7a2jluw7cx5.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721062289-2walp8taoph.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721064791-1hpx501rjnzh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/bite-toothpaste-bits/1793721066930-kp12kdkv9am.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "e064783912887a84a42cae960c1b60bf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721239392-eulcd5kbj6j.mp4"
+   ]
+  },
+  "costTime": 138,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:54:18",
+  "clip_check": "/home/user/Mymobileworld/ugc/bite-toothpaste-bits/clips/S5.mp4",
+  "still": "ugc/bite-toothpaste-bits/stills/S5.png",
+  "ok": true,
+  "score": 0.968
+ }
+]
