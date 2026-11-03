@@ -9,30 +9,24 @@ Repeatable recipes for creator-style product ads. Follow them and a job takes a
 handful of tool calls. Working it out from scratch takes fifty calls and produces
 worse output, which is why this file exists.
 
-- **Any shot that shows the product (every route below):** "Product lock" (references/product-lock.md) (Google
-  Gemini Omni clips from the real-photo references; paste-back only as a last resort). Ralph, 2026-10-21.
-- **Single spokesperson, 10s, talking to camera:** "The recipe" (references/spokesperson-recipe-and-tools.md) (Gemini Omni).
-- **Recreate a trending spokesperson video (up to 15s, product close-ups):** "Recreate a trending
-  spokesperson video" (Gemini 3 Pro stills + one Seedance Mini clip). Approved by Ralph on 2026-09-14.
-- **Multi-character skit with dialogue and a product handoff:** "Multi-character
-  skit ads" (Seedance Mini on Kie). Approved by Ralph on 2026-09-14.
-- **One line mumbled or reworded after the render, speaker off camera:** "Patch a spoken line
-  (audio only)" (ElevenLabs clone of the clip's voice + splice). Approved by Ralph on 2026-09-15.
-- **Multi-shot ad from ONE persona, 25-35s, on-camera dialogue in every shot:** "Per-shot ads with
-  a recurring persona" (Grok Imagine per shot, optional Kie lip sync to a cloned voice).
-  Approved by Ralph on 2026-09-16. Cheapest route here by far: a 30s ad costs about **$3**.
-- **Couple skit with one speaker OFF camera (a "caught you" POV, a partner reacting):** "Multi-character
-  skit ads" (references/skit-ads.md), but read **"Fix a line after the render"** first — an off-camera speaker means every one
-  of her lines can be rewritten later for free. Proven on the Fungix "CAUGHT YOU" skit, 2026-09-19.
-- **Editing a creator's REAL raw takes (hook / body / CTA files) into many combo ads:** not this
-  skill, use the **`ugc-take-combos`** skill (no generation; audio-snapped cuts, reference-style
-  overlays, previews before render). Approved on the Fungix / Grace job, 2026-09-18.
-- **Faceless hands-only product demo / tips video over a voiceover (no face, no lip sync):**
-  "Hands-only product ad" (references/hands-only-and-demo.md) (Kie Nano Banana Pro stills + one Seedance Mini clip per shot, free ffmpeg cut).
-  Proven on Grace's Carpe Vanilla Peach ad, 2026-10-01 (36s, 9 shots, $3.52 actual vs $2.53 planned).
-- **A real person (AI from their photo) demonstrating the product over a voiceover, face on some shots:**
-  "On-camera demo over a voiceover" (references/hands-only-and-demo.md) (Kie stills + Seedance Mini per shot, lip sync on face shots, free
-  edit-list cut). Carpe Mountain Breeze for Grace, 2026-10-01: 35s, $6.60 vs a $2.50 quote; read its lessons.
+**Pick the route, then read its reference file** (every route is also governed by Step 0 and "Working with Ralph" below):
+
+| Ralph asks for | Route | Read |
+|---|---|---|
+| Any shot that shows the product (all routes) | Product lock: Gemini Omni clips from the real-photo references; paste-back only as a last resort | `references/product-lock.md` |
+| Single spokesperson, 10 s, talking to camera | "The recipe" (Gemini Omni) | `references/spokesperson-recipe-and-tools.md` |
+| Recreate a trending spokesperson video (up to 15 s, product close-ups) | Gemini 3 Pro stills + one Seedance Mini clip | `references/recreate-spokesperson.md` |
+| Multi-character skit with dialogue and a product handoff | Seedance Mini on Kie | `references/skit-ads.md` |
+| Couple skit, one speaker OFF camera | Same file; read "Fix a line after the render" first (her lines can be rewritten for free) | `references/skit-ads.md` |
+| One line mumbled or reworded after the render, speaker off camera | Patch a spoken line: ElevenLabs clone of the clip's voice + splice | `references/skit-ads.md` |
+| Multi-shot ad, ONE recurring persona, 25-35 s, dialogue in every shot | Grok Imagine per shot, optional Kie lip sync to a cloned voice; about $3 for 30 s | `references/persona-per-shot.md` |
+| Faceless hands-only demo or tips over a voiceover | Kie Nano Banana Pro stills + one Seedance Mini clip per shot, free ffmpeg cut | `references/hands-only-and-demo.md` |
+| A real person (AI from their photo) demonstrating over a voiceover | Same stills + clips, lip sync on face shots; read its lessons (a 35 s ad ran $6.60 vs a $2.50 quote) | `references/hands-only-and-demo.md` |
+| Lip sync choices | ElevenLabs + Kie sync by default; Fal.ai only as the fallback | `references/lipsync-options.md` |
+| Complex product, real photo + paste-back | Last resort | `references/exact-product.md` |
+| Editing a creator's REAL raw takes into combo ads | Not this skill: use `ugc-take-combos` | |
+
+Which route was approved or proven on which job: `CHANGELOG.md`.
 
 
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
