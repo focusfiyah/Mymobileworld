@@ -45,12 +45,14 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Dr. Nice's <em>Boo-Boo Gel</em></h1><p class="sub">Grace, 1 fl oz pump. Music-only video, 12 s, 6 shots, plus a ~30 s script for her own voiceover. Plan for your OK; nothing has been paid for yet.</p></header>
-<section class="ask"><strong>Storyboard round 1: one still needs a redo</strong><ol>
-<li><b>S1, S2, S3, S4, S6 pass</b> at 2x: every letter of the label right on S1, S4, S6, the monster and horns right, silver pump on S1, child's hands with whole wrists, clear gel dot.</li>
-<li>Free fix done: the real backyard photo had hookah pipes on a wall shelf (S1, S2, S3). I painted them out with plain wall.</li>
-<li><b>S5 fails</b>: the bottle is about twice too big next to the backpack, and the small label came out garbled ("BOO BOX SEL"). New prompt: closer on the backpack pocket, bottle under a third of the backpack's height, label big, her hand on the silver base only. Redo $0.09 (inside the book's redo allowance).</li>
-<li>Spent so far: Kie $0.54 of $2.96 (November $16.66 of $100).</li></ol></section>
-<section class="box"><h2>Storyboard round 1</h2><div class="stgrid">STORY</div></section>
+<section class="ask"><strong>Cut v1 ready for your review (12.0 s, no sound)</strong><ol>
+<li>Watch it below. No audio track, so Grace can add her music; no text, no captions; AI finish on (grain, sharpness, saturation down a little).</li>
+<li>Each shot sits on her script line: hook 0-2.4 s (gel dot on the child's fingertip by the pump), scooter 2.4-4.2, knee dab 4.2-6.3, counter 6.3-8.4, backpack pocket 8.4-10.6, end bottle 10.6-12.0.</li>
+<li>Checks: 1080x1920, no frozen or black frames, bright (shot averages 100-143), label right at 2x in every product clip, hookah pipes from the backyard photo painted out and gone in every clip, cut gate OK (compare vs the 10.8M Welly video: 3.3 cuts per 10 s vs their 3.0).</li>
+<li>S5 changed to hand-free (your pick): the bottle stands in the backpack's mesh pocket, push-in.</li>
+<li>Spent: Kie $2.65 of $2.96 (November $18.77 of $100). On your OK: Drive folder with the video + both scripts, then merge.</li></ol></section>
+<section class="box"><h2>Cut v1</h2><video src="cut_v1.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
+<details class="box"><summary><b>Storyboard</b> (S5 redone hand-free)</summary><div class="stgrid">STORY</div></details>
 <details class="box"><summary><b>Plan you approved</b> (all on Kie, $2.96 ceiling; bites left out; HofR later)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer in the chat)</strong><ol>
 <li><b>Approve the plan</b>: product clips S1, S4, S5, S6 as Flow takes in your app ($0, 48 credits), then Kie only for stills and the 2 no-product clips: <b>about $0.96</b>. Ceiling if every product clip falls back to Wan on Kie: <b>$2.96</b>. November so far $16.12 of $100.</li>
@@ -90,6 +92,6 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 <p class="sub">Order: 6 stills at once, storyboard here for your look, then the Flow kits (S1 first: open pump, two small hands, the gel dot), S2 and S3 on Seedance meanwhile. About 35–40 min of machine time after your OK, plus your stops.</p></section>
 </div>"""
 ST = [("S1","PASS","Open pump, gel dot, label exact; hookahs painted out"),("S2","PASS","Tipped scooter; hookahs painted out"),("S3","PASS","Child dabs the gel on the knee; hookahs painted out"),
- ("S4","PASS","Counter, label exact"),("S5","REDO","Bottle too big, label garbled"),("S6","PASS","End shot, one bottle, label exact")]
-page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{'ok' if v=='PASS' else 'bad'}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
+ ("S4","PASS","Counter, label exact"),("S5","PASS","Redone hand-free: bottle in the mesh pocket"),("S6","PASS","End shot, one bottle, label exact")]
+page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_{'r3' if i=='S5' else 'r1'}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v=='PASS' else 'bad'}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
 Path("review/index.html").write_text(page); print(len(page))
