@@ -30,6 +30,10 @@ th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;le
 .total{font:600 26px var(--display)}
 .muted{color:var(--muted)}
 .cap{font-size:13px;color:var(--muted)}
+.kitimgs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.kitimgs figure{margin:0;display:grid;gap:4px}.kitimgs img{width:100%;aspect-ratio:9/16;object-fit:cover}
+.kitp{white-space:pre-wrap;font:13px/1.45 ui-monospace,Menlo,monospace;background:var(--bg);padding:10px;border-radius:8px;margin:0;overflow-wrap:anywhere}
+button{font:600 13px var(--body);padding:6px 12px;border-radius:8px;border:1px solid var(--accent);background:var(--card);color:var(--accent);cursor:pointer}
+.dlnote{display:none}
 </style>
 <main>
   <header>
@@ -42,11 +46,30 @@ th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;le
   </header>
 
   <section class="panel">
-    <div class="eyebrow">Round 1 · storyboard · newest</div>
+    <div class="eyebrow">Your turn · S1 test clip in Flow · $0</div>
+    <h2>S1 Flow kit: leopard ring squeeze</h2>
+    <p>S1 redone at true size (fingertip size now, $0.09, the budgeted redo). Total spent: <b>$0.90 of $0.90</b>. This is the one test clip; the other 8 kits follow once it passes QC.</p>
+    <ol>
+      <li>Flow: new project › Video › <b>Gemini Omni Flash</b> › 9:16 › 4 s</li>
+      <li>Add these 3 images in this order (tap Save under each one). Number 1 goes in the start frame if Flow asks.</li>
+    </ol>
+    <div class="kitimgs">
+      <figure><img src="kit/S1-1_still_S1.jpg" alt="S1 image 1"><figcaption class="cap">1 · still S1</figcaption><button class="sv" data-src="kit/S1-1_still_S1.jpg">Save</button></figure>
+      <figure><img src="kit/S1-2_leopard_ring.jpg" alt="S1 image 2"><figcaption class="cap">2 · real leopard ring</figcaption><button class="sv" data-src="kit/S1-2_leopard_ring.jpg">Save</button></figure>
+      <figure><img src="kit/S1-3_product_sheet.jpg" alt="S1 image 3"><figcaption class="cap">3 · product sheet</figcaption><button class="sv" data-src="kit/S1-3_product_sheet.jpg">Save</button></figure>
+    </div>
+    <p>3. Paste this prompt: <button class="cp" data-p="pS1">Copy prompt</button> <button class="svp" data-p="pS1">Save prompt</button></p>
+    <pre class="kitp" id="pS1">Recreate image 1 exactly as the first frame, then her thumb and index finger squeeze the ring a little harder so the soft band bends into a tighter oval, then let it spring back round. The camera holds still with a slight handheld drift. Image 2 is the real leopard ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.</pre>
+    <p class="cap">4. Download at 1080 and send it back in the chat (12 credits).</p>
+    <p class="cap dlnote" id="dlnote">Saving isn't available in this view: long-press an image to save it, and press and hold the prompt text to copy it.</p>
+  </section>
+
+  <section class="panel">
+    <div class="eyebrow">Round 1 · storyboard</div>
     <h2>9 stills (Kie billed $0.81 of $0.90)</h2>
-    <p>All seven colours are right, there are exactly seven in S2, every hand grips what it touches, and no other rings are on her hand. <b>Two flags:</b> S1's leopard ring is drawn far too big (about two fingers wide, like a bangle; the real one is fingertip size), and S6c's pink band is too thick. S1 is the test clip, so its size matters most.</p>
+    <p>All seven colours are right, there are exactly seven in S2, every hand grips what it touches, and no other rings are on her hand. S1 was redone at true size (you tapped Redo). S6c's pink band is a bit thick; you said let it go.</p>
     <div style="display:flex;flex-direction:column;gap:14px">
-      <figure style="margin:0"><img src="st/S1.jpg" alt="S1"><figcaption class="cap">S1 leopard stretch (test clip). Ring too big.</figcaption></figure>
+      <figure style="margin:0"><img src="st/S1.jpg" alt="S1"><figcaption class="cap">S1 leopard squeeze (test clip), redone at true size</figcaption></figure>
       <figure style="margin:0"><img src="st/S2.jpg" alt="S2"><figcaption class="cap">S2 all seven on the vanity tray, in the right order</figcaption></figure>
       <figure style="margin:0"><img src="st/S3.jpg" alt="S3"><figcaption class="cap">S3 floral ring at the tip of her ring finger</figcaption></figure>
       <figure style="margin:0"><img src="st/S4.jpg" alt="S4"><figcaption class="cap">S4 gym, black ring (no real gym photo fit, so the model drew the gym)</figcaption></figure>
@@ -118,3 +141,18 @@ th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;le
     <p class="cap">@lymonline: ring already in hand at frame 0, stretched, slid on, hand turned. No voice.</p>
   </section>
 </main>
+<script>
+(async()=>{const note=document.getElementById('dlnote');
+let dl=null;try{dl=await claude.use("downloads")}catch(e){}
+if(!dl){document.querySelectorAll('.sv,.svp').forEach(b=>b.style.display='none');note.style.display='block';}
+document.querySelectorAll('.sv').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const src=b.dataset.src;b.textContent='...';
+ try{const blob=await (await fetch(src)).blob();await dl.save({filename:src.split('/').pop(),data:blob});b.textContent='Saved';}
+ catch(e){b.textContent=(e&&e.code==='declined')?'Save':'Try again';}}));
+document.querySelectorAll('.svp').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const id=b.dataset.p;
+ try{await dl.save({filename:id.slice(1)+'-prompt.txt',data:document.getElementById(id).innerText});b.textContent='Saved';}
+ catch(e){b.textContent='Save prompt';}}));
+document.querySelectorAll('.cp').forEach(b=>b.addEventListener('click',async()=>{const el=document.getElementById(b.dataset.p);
+ try{await navigator.clipboard.writeText(el.innerText);b.textContent='Copied';}
+ catch(e){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected: tap Copy';}}));
+})();
+</script>
