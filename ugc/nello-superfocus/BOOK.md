@@ -62,6 +62,7 @@ TOTAL: $2.396
 **Approve?**
 
 ## 7. Questions (all of them, now)
+Answered 2026-11-03 (Ralph, tapped): Tub, no caffeine; stills on Kie; no-jewellery hands; Script A.
 1. Which product does Grace have: the tub, no caffeine (your photo), the tub + caffeine (adds a blue "+ CAFFEINE" pill and a "75mg caffeine" badge on the label), or the travel packets?
 2. Stills: Kie ($0.54) or your Gemini app ($0, I send the kit)?
 3. Hands: no jewellery (recommended, cleanest), without bracelet (rings), or with bracelet?
