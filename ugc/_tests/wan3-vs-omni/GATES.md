@@ -9,7 +9,9 @@
 - [ ] G3: side-by-side sheet (still, Omni, Wan at the same times) and 2x label crops exist
   CHECK: python3 -c "import os;print('SHEET_OK' if all(os.path.getsize(f)>10000 for f in ['compare.png','label_2x.png']) else 'NO')"
   EXPECT: SHEET_OK
-- [ ] G4: review page published with both clips playable and the verdict
+- [x] G4: review page published with both clips playable and the verdict
   MANUAL: Artifact URL in README.md
-- [ ] G5: I looked at every frame (strip) of the Wan clip at 2x for label, grip, flip, hand edges; findings in README.md
+  EVIDENCE: https://claude.ai/artifact/BqEPDXFux8jH7489HiA525 published v2 2026-11-03, both clips play (mp4 files in the publish)
+- [x] G5: I looked at every frame (strip) of the Wan clip at 2x for label, grip, flip, hand edges; findings in README.md
   MANUAL: README.md "QC" section filled
+  EVIDENCE: all_frames.png (30 frames at 6 fps), edges_2x.png, label_2x.png read 2026-11-03; findings in README.md QC

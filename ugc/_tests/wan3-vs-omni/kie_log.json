@@ -2,5 +2,33 @@
  {
   "t": "2026-11-03 01:47:58",
   "submitted": "5f2222e59a71e5c99f387c8030adee69"
+ },
+ {
+  "t": "2026-11-03 01:54:58",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its white stone counter, gold mirror, light, framing, her hand, her rings and her grip exactly. Image2 is the real zytrell logo and ACNE TREATMENT CREAM print: it stays on the front of the tube the whole clip and matches Image2 letter for letter and colour for colour, white print on deep forest green. Image3 is the product sheet: keep this exact small matte deep forest-green squeeze tube, its size and shape, the wide flat green screw cap at the bottom and the flat crimped seal at the top, no added marks, no extra text. Motion: her hand keeps the one grip from Image1 the whole clip, the fingers stay where they are and the thumb never slides, and she lifts the tube slowly about a hand's width off the counter toward the lens. The front of the tube stays facing the camera; the tube never turns, tilts away or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight, realistic skin. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793670461522-u6asgb041.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793670463839-dyxgl2785sd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793670465603-als6ty6nsag.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "5f2222e59a71e5c99f387c8030adee69",
+  "costTime": 414,
+  "state": "success",
+  "credits": 80.0,
+  "usd": 0.4,
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793670888350-an9ujxtczzs.mp4"
+   ]
+  }
  }
 ]
