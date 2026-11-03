@@ -4,3 +4,4 @@ Review page: https://claude.ai/artifact/KpsmWGMYeLQTuyWXZzJAvL (build_review.py)
 Ralph's ask (Telegram 2026-11-03): 10-12 s video, no VO (Grace adds music), plus a standard-length script for Grace's own VO later.
 Files: shots.json -> build_prompts.py -> prompts/; make_sheet.py -> refs/product_sheet.png + close-ups; product_truth.json; research/ (RESEARCH.md, coach, audience, hooks, humanizer, readability, line sources); scripts.md; rooms/pick + rooms/SOURCES.md; BOOK.md; GATES.md.
 Open questions: insect-bite line (only the TikTok Shop title says it); House of Rameau version now or later.
+Telegram done-message format (Ralph 2026-11-03, via parent session): "<product> <version> is done and in Drive: <link>" (V1, HofR V1, V2...), one per version, never repeated. V1 already sent (msg 20, before this format, no version label); next one is HofR V1 or V2.
