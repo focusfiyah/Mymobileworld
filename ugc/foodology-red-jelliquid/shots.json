@@ -1,0 +1,120 @@
+{
+ "job": "foodology-red-jelliquid",
+ "blocks": {
+  "size_stick": "SIZE FIRST: each stick is a long flat sachet about 15 cm long and 3.5 cm wide: about as long as an adult hand from the wrist crease to the fingertips and as wide as two fingers, never longer than the hand holding it.",
+  "size_glass": "The glass is an ordinary 16 oz drinking glass, about 15 cm tall; the stick is about as long as the glass is tall.",
+  "size_boxes": "SIZE FIRST: each box is a small upright carton about 10 cm wide, 16 cm tall and 4 cm deep, about as tall as a coffee mug and a half; the Drink Mix PRO box is a little wider.",
+  "acv_stick": "The stick is the REAL FOODOLOGY ACV Apple Jelly stick: a flat matte white film sachet with a narrow red band at the bottom end; running lengthwise up its front in red: 'FOODOLOGY' in small capitals, 'ACV Apple Jelly' in larger red letters and a thin red Korean line beside it, a thin red vertical rule, a tiny red apple outline near the bottom. A dashed tear line marked OPEN runs across it near the top. Its top end is torn open and a firm, smooth, translucent PALE LEMON-YELLOW jelly block, with no seeds, sticks out about 3 cm above the white film.",
+  "cj_stick": "The stick is the REAL FOODOLOGY Coleology Cutting Jelly stick: a flat matte white film sachet with a red band on its bottom third; running lengthwise up its front in red: 'FOODOLOGY' in small capitals and 'Coleology Cutting Jelly' (Coleology bold), a small 'Daily Care' oval and one small purple-red coleus leaf rosette near the red band. A dashed tear line marked OPEN runs across it near the top. Its top end is torn open and a firm, glossy, translucent RUBY-RED jelly block full of small black chia seeds sticks out about 3 cm above the white film.",
+  "dm_stick": "The stick is the REAL FOODOLOGY Coleology Drink Mix PRO stick: a flat sachet with a solid red top section, a white middle and a solid red bottom section; running lengthwise up the white middle in red: 'FOODOLOGY' in small capitals and 'Coleology Drink Mix PRO', a small red 'For Women' tab, and one purple-red coleus leaf rosette. Its top corner is torn open and fine pink-red powder pours out of it.",
+  "boxes": "From left to right the three REAL FOODOLOGY boxes, each upright, front facing the lens, cream-white with a solid red bottom third: (1) Coleology Cutting Jelly box: small red 'FOODOLOGY' top left, a thin red rule, 'Coleology Cutting Jelly' with 'Coleology' in bold red, a small 'Daily Care' oval, a large purple-red coleus leaf rosette in the middle, two thin red lines 'Indigestible Maltodextrin / Chia Seed', and on the red band white 'Garcinia Cambogia Extract 1,200mg', a white rounded 'DIETARY SUPPLEMENT' label and two round white seals; (2) Coleology Drink Mix PRO box, a little wider: 'FOODOLOGY' top left, a thick red rule, large red 'Coleology Drink Mix' with a small 'PRO', a 'For Women' oval, a large coleus rosette, three thin grey ingredient lines, and on the red band white 'Coleus Forskohlii Extract 500 mg' and two round white seals; (3) ACV Apple Jelly box: 'FOODOLOGY' top left, red 'ACV Apple Jelly' with a red Korean line under it, a small 'Daily Care' oval, a glossy red apple illustration with a yellow and red 'Jelly!' burst at its lower right, and on the red band white 'Apple Cider Vinegar 6,250 mg' and a white rounded 'DIETARY SUPPLEMENT' label. No pomegranates, apples, powder piles or props printed or placed in front of the boxes.",
+  "hand_block": "ONLY one hand enters from the frame edge: Grace's bare hand exactly as in her hand reference sheet: medium-brown skin with lighter palms, slim fingers, medium-length squoval nails with mauve-pink polish and crisp white French tips. NO rings on any finger, NO bracelet, NO watch, no jewellery of any kind. Whole wrist visible, a little forearm may show. Five fingers, natural knuckles and skin texture.",
+  "no_hand": "No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge.",
+  "scene_suffix": "Vertical 9:16 phone photo, soft bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the subject, realistic textures. The room matches the room reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real FOODOLOGY print. No text, no captions, no watermark, no phone UI.",
+  "scene_suffix_nopack": "Vertical 9:16 phone photo, soft bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the subject, realistic textures. The room matches the room reference photo. Every item is plain and unbranded: no packaging, sticks, boxes, brand names or logos anywhere. No text, no captions, no watermark, no phone UI.",
+  "clip_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic materials. No music, no voice, no captions, no on-screen text, no added marks, no \u00ae or \u2122."
+ },
+ "videos": [
+  {
+   "id": "V1",
+   "seconds": 12,
+   "shots": [
+    {
+     "id": "S1",
+     "beat": "hook: looks like candy, it's ACV",
+     "hand": true,
+     "items": [
+      "acv_stick"
+     ],
+     "model": "wan",
+     "room": "rooms/pick/kitchen_window.jpg",
+     "t": [
+      0.0,
+      2.0
+     ],
+     "still": "Close, eye level, in front of the bright kitchen window of the room photo, flowers and plants soft behind. The hand has entered from the lower right edge and holds ONE opened ACV Apple Jelly stick upright in the centre of the frame: thumb on the front lower half, below the 'ACV Apple Jelly' words, fingers curled around the back, so the printed words stay fully readable; the pale lemon-yellow jelly block sticks out of the torn top.",
+     "motion": "The hand keeps the same grip and gently squeezes the stick from below: the yellow jelly block slides up about 1 cm more out of the torn top and wobbles slightly. The stick never turns or flips; the print keeps facing the lens. Camera: slow push-in."
+    },
+    {
+     "id": "S2",
+     "beat": "morning: drink mix into cold water",
+     "hand": true,
+     "items": [
+      "dm_stick"
+     ],
+     "model": "wan",
+     "room": "rooms/pick/kitchen_wood.jpg",
+     "t": [
+      2.0,
+      4.0
+     ],
+     "still": "Close, slightly high angle on the light wood kitchen counter of the room photo, pink tulips soft behind. A plain clear drinking glass with no print, three quarters full of cold water with a few ice cubes, stands in the centre. The hand has entered from the upper right edge and holds ONE Drink Mix PRO stick tilted down above the glass: thumb on top, fingers under it, the torn corner over the glass mouth; a thin stream of pink-red powder falls into the water and the top of the water has just started to turn pink.",
+     "motion": "The hand keeps the same grip and holds the stick still while the powder keeps falling; a pink swirl spreads down through the water until the whole glass is a clear pomegranate pink. The stick never turns or flips. Camera: locked off, a very slow push-in."
+    },
+    {
+     "id": "S3",
+     "beat": "morning drink at the desk",
+     "hand": false,
+     "items": [
+      "dm_box"
+     ],
+     "model": "wan",
+     "room": "rooms/pick/office_plants.jpg",
+     "t": [
+      4.0,
+      6.0
+     ],
+     "still": "Eye level on the desk of the room photo, plants and the laptop soft behind. On the left a plain clear drinking glass with no print full of clear pomegranate-pink drink with a few ice cubes; on its right the REAL Coleology Drink Mix PRO box stands upright, front facing the lens, cream-white with a solid red bottom third: 'FOODOLOGY' top left, a thick red rule, large red 'Coleology Drink Mix' with a small 'PRO', a 'For Women' oval, a large purple-red coleus leaf rosette, three thin grey ingredient lines, and on the red band white 'Coleus Forskohlii Extract 500 mg' and two round white seals. The box is about 11 cm wide and 16 cm tall, a little taller than the glass.",
+     "motion": "Tiny bubbles rise in the pink drink and the ice cubes drift slightly; nothing else moves. Camera: slow dolly in toward the box and glass."
+    },
+    {
+     "id": "S4",
+     "beat": "after lunch: Cutting Jelly",
+     "hand": true,
+     "items": [
+      "cj_stick"
+     ],
+     "model": "wan",
+     "room": "rooms/pick/dining.jpg",
+     "t": [
+      6.0,
+      8.0
+     ],
+     "still": "Close, slightly high angle over the wooden dining table of the room photo: a plain white plate with only crumbs and a fork laid across it sits soft at the bottom of the frame (lunch is finished). The hand has entered from the right edge and holds ONE opened Cutting Jelly stick upright above the plate: thumb on the front red band, fingers curled behind, the printed words fully readable; the ruby-red chia jelly block sticks out of the torn top.",
+     "motion": "The hand keeps the same grip and gently squeezes from below: the ruby-red jelly block with its black chia seeds slides up about 1 cm more and wobbles. The stick never turns or flips. Camera: slow push-in."
+    },
+    {
+     "id": "S5",
+     "beat": "chia jelly texture (no packaging)",
+     "hand": false,
+     "items": [],
+     "jelly": true,
+     "model": "seedance",
+     "room": "rooms/pick/counter_grey.jpg",
+     "t": [
+      8.0,
+      9.8
+     ],
+     "still": "Close-up, low angle on the grey stone counter of the room photo, the window and basil plant soft behind: five short glossy translucent ruby-red jelly pieces, each about 3 cm long and 2 cm thick, full of small black chia seeds, lie on a small plain white saucer, catching the daylight.",
+     "motion": "Nothing moves except a tiny wobble of the jelly pieces. Camera: slow dolly in and a slight drift to the left."
+    },
+    {
+     "id": "S6",
+     "beat": "the set: all three, end shot",
+     "hand": false,
+     "items": [
+      "boxes"
+     ],
+     "model": "wan",
+     "room": "rooms/pick/kitchen_sage.jpg",
+     "t": [
+      9.8,
+      12.0
+     ],
+     "still": "Eye level on the light stone counter of the room photo, sage-green cabinets below and the red toaster soft at the far right. ONLY the three boxes stand upright in a row, fronts facing the lens, close together, filling the middle two thirds of the frame width; nothing lies in front of them.",
+     "motion": "Nothing in the scene moves. Camera: slow push-in until the three boxes fill the middle two thirds of the frame."
+    }
+   ]
+  }
+ ]
+}

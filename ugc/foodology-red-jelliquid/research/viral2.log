@@ -1,0 +1,21 @@
+  #tiktokshopbeauty: 0 videos
+  #tiktokshopskincare: 0 videos
+  #tiktokshopmakeup: 0 videos
+  #tiktokshopfinds: 0 videos
+  /discover/foodology-coleology-review: 14 videos
+  /discover/acv-gummies: 0 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+14 videos scanned, 2 shop videos posted in the last 30.0 day(s) -> viral/viral-2026-11-03.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       135    3.0K 22.5d  0.07  [NEW] [Foodology] Coleology Cut Probiotics [Health]
+                                  @getdealstoday: Get this bestselling Foodology probiotics right now! #TikTok
+                                  https://www.tiktok.com/@getdealstoday/video/7695613413153606926
+  2        15     278 18.5d     0  [FOODOLOGY] 3-in-1 Complete Jelly Bundle | Coleology Cu [Health]
+                                  @jennysawesomefinds: Yes. @foodology #tiktokshopcreatorpicks #halloween #tiktoksh
+                                  https://www.tiktok.com/@jennysawesomefinds/video/7697089418338880781

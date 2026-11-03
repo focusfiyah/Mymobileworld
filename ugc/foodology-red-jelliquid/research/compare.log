@@ -1,0 +1,25 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+# A/B compare
+
+**A**: https://www.tiktok.com/@yagirlcedes/video/7608388270300433678 (1,700,000 views, saves 0.32%)
+**B**: out/cut_v1.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 29.5 | 12.0 |
+| words | 111 | 0 |
+| words_per_sec | 3.76 | None |
+| cuts | 8 | 5 |
+| cuts_per_10s | 2.7 | 4.2 |
+| first_word_at_s | 0.0 | None |
+| spoken_first_3s | The red is you up. Green is all for the skin. |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.0s] The red is you up. Green is all for the skin.
+- [5.5s] That purple is gonna get all that crud out your system, baby.
+
+-> research/compare/compare.md, research/compare/compare.png

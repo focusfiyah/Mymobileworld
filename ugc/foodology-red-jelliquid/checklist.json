@@ -1,0 +1,115 @@
+{
+ "created": "2026-11-03",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": "scripts.md",
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop/shop-foodology-coleology.json",
+   "research/discover/discover-foodology-coleology-honest-review.json",
+   "research/discover/discover-foodology-coleology-jelly-review.json",
+   "research/discover/discover-foodology-coleology-review.json",
+   "research/discover/discover-foodology-jelly-sticks-churro-king.json",
+   "research/videos/7554510286175112479/transcript.txt",
+   "research/videos/7601559506593516814/transcript.txt",
+   "research/videos/7606158811388316959/transcript.txt",
+   "research/videos/7608388270300433678/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-11-03.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "refs/real/SOURCES.md",
+   "product_truth.json"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md",
+   "captions.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)",
+  "max_grade": 2.5
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "research": {
+  "proof": [
+   "research/RESEARCH.md"
+  ],
+  "note": "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ]
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-03",
+  "quote": "Tapped: All on Kie, $3.19; No jewellery; Yes, make it (HofR)",
+  "total": 3.19,
+  "sha256": "3950221f2fca0c570a5f85ab08711cd44c742ffb959b9376e640d265b9355b63",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.64,
+   "what": "S3 + S6 Wan redo with prop-free box close-ups",
+   "by": "Ralph",
+   "quote": "Tapped: Wan, clean refs, $0.80 (Recommended)",
+   "date": "2026-11-03",
+   "book_sha256": "3950221f2fca0c570a5f85ab08711cd44c742ffb959b9376e640d265b9355b63"
+  },
+  {
+   "usd": 0.01,
+   "what": "float rounding: S6 Wan redo lands at exactly the approved $3.83",
+   "by": "Ralph",
+   "quote": "Tapped: Wan, clean refs, $0.80 (Recommended)",
+   "date": "2026-11-03",
+   "book_sha256": "3950221f2fca0c570a5f85ab08711cd44c742ffb959b9376e640d265b9355b63"
+  }
+ ]
+}
