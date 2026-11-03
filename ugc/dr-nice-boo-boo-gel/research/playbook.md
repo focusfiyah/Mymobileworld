@@ -1,0 +1,8 @@
+# grace/PLAYBOOK.md read for this job (2026-11-03) and the rules applied
+- §1 house rules: Grace's point of view (mom-friend voice, "girls"), no personal-use lines unless true (only what "people say"), exact claim wording from the brand listing (no "heals", "cures", "kills", "antibacterial"; health-adjacent: listing's own pitch only), never a price, honest line = sell-side confession, no false scarcity, no "order it now", CTA makes them want more units (one for the backpack, one for the car), close "It's in the orange cart.", never "the label says" or "reviewer(s)".
+- §2 psychology: pain first (the scream before the bandage), sell the moment (backyard scrape), remove uncertainty (one pump, dab, dries clear), specificity ("one pearl-sized dot", "four ingredients"), take the shame out (kids do it themselves).
+- §3 hooks: library first (grace/hooks/HOOKS.md), Grace's looser wording (2026-10-20), cite the id; text hook = curiosity only, offered, not burned in.
+- §4 structure: curiosity hook, pain beat of its own, solution/selling points, FOMO/urgency CTA; Step 0 audience, Step 0b RESEARCH.md; coach research on top shop sellers; humanizer; readability <= 6.
+- §5 pacing: 3.0-3.6 words/s; Grace's edit style (STYLE_pritech): product working in a hand from frame 0, pain lines show the pain, one clip per feature on its words, close on a moving product shot.
+- §6 production: product truth from real photos, product sheet + close-ups, size first in every prompt, grip check, one test clip first (riskiest), hand-free shots a third to half, no on-screen text, bright neutral grade, end shot ONE product, AI finish last; music-only cut (Buttah 2026-11-02 template).
+- Results log: Buttah towels (2026-11-02) music-only 12 s, 6 shots: same shape reused here.

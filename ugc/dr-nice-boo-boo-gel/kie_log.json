@@ -1,0 +1,498 @@
+[
+ {
+  "t": "2026-11-03 15:42:58",
+  "submitted": "97a8f60b084e49a0cb602036ff855c02",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A small child's blue kick scooter lies tipped over on i"
+ },
+ {
+  "t": "2026-11-03 15:43:06",
+  "submitted": "31c42b455d5f3a26af49839676b356dd",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump "
+ },
+ {
+  "t": "2026-11-03 15:43:10",
+  "submitted": "92546849a861fc7d7fa70f0baa2c84d2",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump "
+ },
+ {
+  "t": "2026-11-03 15:43:12",
+  "submitted": "629da8ff1e446fe75e65e811e7ea7aff",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump "
+ },
+ {
+  "t": "2026-11-03 15:43:14",
+  "submitted": "d6c5d8f4769fb06d5fefdef18c92ab8c",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump "
+ },
+ {
+  "t": "2026-11-03 15:43:43",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. A small child's blue kick scooter lies tipped over on its side on the green lawn of the setting photo, front wheel up, a child's sneaker-scuffed patch of grass beside it; low angle from about knee height. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures. The setting matches the setting reference photo. Every item is plain and unbranded: no brand names, logos or packaging anywhere. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the real photo to use as the setting. No bottle, tube, box or product of any kind appears in this frame.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543811-6nqz0n2zs4h.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "97a8f60b084e49a0cb602036ff855c02",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/97a8f60b084e49a0cb602036ff855c02_0_1793720621.jpeg"
+   ]
+  },
+  "costTime": 62
+ },
+ {
+  "t": "2026-11-03 15:44:19",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper. Hand-free shot on the white kitchen counter of the setting photo: the bottle stands upright, cap on, front label facing the lens, a little left of centre; the bowl of oranges soft behind it on the right. Camera at counter height, the bottle about 40 percent of the frame height. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers. The silver cap is on the bottle. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos; image 2 = a close-up of the real front label; image 3 = a close-up of the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering; image 4 = the real photo to use as the setting. The bottle print must match images 2 and 3 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543747-8ege172v0v9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720548309-ey8uurheabd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552460-b1ivpmxg8sh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720555354-2tu7da3ffwm.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "92546849a861fc7d7fa70f0baa2c84d2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/92546849a861fc7d7fa70f0baa2c84d2_0_1793720653.jpeg"
+   ]
+  },
+  "costTime": 84
+ },
+ {
+  "t": "2026-11-03 15:44:41",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper. Hand-free shot in the sunny garden of the setting photo: ONE bottle stands upright, cap on, label facing the lens, on a low flat grey stone beside the garden path, the house and lawn soft behind. Camera low, at the stone's height; the bottle about 40 percent of the frame height. Only one bottle in the frame. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers. The silver cap is on the bottle. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos; image 2 = a close-up of the real front label; image 3 = a close-up of the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering; image 4 = the real photo to use as the setting. The bottle print must match images 2 and 3 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543862-0cwnf1w0rsyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720548705-vtldg6q3cf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552017-evthryyw3ed.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720555465-li64x992r5d.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "629da8ff1e446fe75e65e811e7ea7aff",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/629da8ff1e446fe75e65e811e7ea7aff_0_1793720675.jpeg"
+   ]
+  },
+  "costTime": 101
+ },
+ {
+  "t": "2026-11-03 15:44:53",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper. Close, eye-level shot in the sunny backyard of the setting photo, green lawn soft behind. The child's LEFT hand enters from the bottom-left edge and holds the bottle upright in a full grip: four fingers wrap around the back of the silver base and the blue label band, the thumb rests on the side edge, so the whole front label faces the lens unblocked. The child's RIGHT hand enters from the right edge with the index finger pointing at the nozzle; one small clear gel dot sits on that fingertip. The bottle fills about a third of the frame height. The hands are a young child's hands (about six years old): small and soft, light-medium skin, short clean natural nails with no polish, no jewellery. Each hand enters from the frame edge with the whole wrist visible and five fingers. No adult hand appears. The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers. The cap is OFF and out of the frame: the top of the bottle is a slim SILVER pump head with a small nozzle on a silver neck, exactly as in image 4 (the real cap-off photo); no white parts anywhere on the pump. The gel is one small clear pearl-sized dot, glossy and see-through like water gel, never white, creamy or foamy. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos; image 2 = a close-up of the real front label; image 3 = a close-up of the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering; image 4 = the real bottle with its cap off, showing the silver pump head; image 5 = the real photo to use as the setting. The bottle print must match images 2 and 3 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543766-0wl0lxvornr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720546911-xy8zubiakh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720550770-smiwgugsp3q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720553151-ryxd7tsryk8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543811-6nqz0n2zs4h.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "31c42b455d5f3a26af49839676b356dd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/31c42b455d5f3a26af49839676b356dd_0_1793720687.jpeg"
+   ]
+  },
+  "costTime": 121
+ },
+ {
+  "t": "2026-11-03 15:45:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper. In the bright kitchen of the setting photo, a small plain navy-blue child's backpack (no logos, no print) sits on the wooden stool, its open mesh side pocket facing the lens. Grace's hand enters from the right edge holding the bottle upright, cap on, label facing the lens: thumb on the front-left edge, fingers wrapped around the back, the bottle's base just above the pocket opening. ONLY one hand enters from the frame edge: Grace's bare adult hand exactly as in her hand reference sheet: medium-brown skin with lighter palms, slim fingers, medium-length squoval nails with mauve-pink polish and crisp white French tips. NO rings on any finger, NO bracelet, NO watch, no jewellery of any kind. Whole wrist visible, a little forearm may show. Five fingers, natural knuckles and skin texture. The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers. The silver cap is on the bottle. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos; image 2 = a close-up of the real front label; image 3 = a close-up of the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering; image 4 = the real photo to use as the setting; image 5 = Grace's no-jewellery hand reference sheet (skin, nails; no rings, no bracelet). The bottle print must match images 2 and 3 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543756-uftbo5zcxlk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720548632-k2mcirs5rwn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720550782-9tsiotf56v.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552890-xrack26i4s8.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720557907-eii1s2e8qvq.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d6c5d8f4769fb06d5fefdef18c92ab8c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/d6c5d8f4769fb06d5fefdef18c92ab8c_0_1793720700.jpeg"
+   ]
+  },
+  "costTime": 118
+ },
+ {
+  "t": "2026-11-03 15:46:48",
+  "submitted": "25c4461f23d5a1ec4067134ba65d51c0",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of a young child sitting on the green lawn o"
+ },
+ {
+  "t": "2026-11-03 15:48:36",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of a young child sitting on the green lawn of the setting photo in denim shorts, the bent knee filling the middle of the frame with a small light-pink surface scrape on the kneecap (no blood, no scab). The child's RIGHT index fingertip, carrying one small clear gel dot, touches the edge of the scrape; the hand enters from the top-right edge. The hands are a young child's hands (about six years old): small and soft, light-medium skin, short clean natural nails with no polish, no jewellery. Each hand enters from the frame edge with the whole wrist visible and five fingers. No adult hand appears. The gel is one small clear pearl-sized dot, glossy and see-through like water gel, never white, creamy or foamy. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures. The setting matches the setting reference photo. Every item is plain and unbranded: no brand names, logos or packaging anywhere. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the real photo to use as the setting; image 2 = the approved first shot: the same child's hand, skin and shorts. No bottle, tube, box or product of any kind appears in this frame.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543811-6nqz0n2zs4h.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720793263-4zbhd4ak7i.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "25c4461f23d5a1ec4067134ba65d51c0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/25c4461f23d5a1ec4067134ba65d51c0_0_1793720912.jpeg"
+   ]
+  },
+  "costTime": 107
+ },
+ {
+  "t": "2026-11-03 15:54:58",
+  "submitted": "0f895a434bb3bdaf33836144cbf0642f",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump "
+ },
+ {
+  "t": "2026-11-03 15:55:31",
+  "submitted": "610caf96a28446390fc602f2122dd37e",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing, hand and nails exactly. Image2 is the real"
+ },
+ {
+  "t": "2026-11-03 15:57:36",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper. Close shot at the side of a plain navy-blue child's school backpack (no logos, no print) standing on the wooden stool in the bright kitchen of the setting photo; the backpack's open mesh side pocket and its navy fabric fill the lower half of the frame. SIZE: the backpack is about 38 cm tall and the bottle only 11 cm, less than a third of the backpack's height and about as long as Grace's hand from wrist to fingertips. The camera is close enough that the bottle's blue label fills about a quarter of the frame height and every letter is sharp. Grace's hand enters from the right edge and holds the bottle upright, cap on, label facing the lens and unblocked: her thumb on the front-left of the silver base band and her fingers wrapped around the back of the base, nothing over the blue label. The bottle's base is just above the mesh pocket opening. ONLY one hand enters from the frame edge: Grace's bare adult hand exactly as in her hand reference sheet: medium-brown skin with lighter palms, slim fingers, medium-length squoval nails with mauve-pink polish and crisp white French tips. NO rings on any finger, NO bracelet, NO watch, no jewellery of any kind. Whole wrist visible, a little forearm may show. Five fingers, natural knuckles and skin texture. The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers. The silver cap is on the bottle. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos; image 2 = a close-up of the real front label; image 3 = a close-up of the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering; image 4 = the real photo to use as the setting; image 5 = Grace's no-jewellery hand reference sheet (skin, nails; no rings, no bracelet). The bottle print must match images 2 and 3 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543862-0cwnf1w0rsyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720548309-ey8uurheabd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552460-b1ivpmxg8sh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552890-xrack26i4s8.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720557907-eii1s2e8qvq.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "0f895a434bb3bdaf33836144cbf0642f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/0f895a434bb3bdaf33836144cbf0642f_0_1793721454.jpeg"
+   ]
+  },
+  "costTime": 159
+ },
+ {
+  "t": "2026-11-03 15:58:27",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing, hand and nails exactly. Image2 is the real front label and Image3 the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering: the label stays on the bottle the whole clip and matches Image2 and Image3 letter for letter and colour for colour, the blue monster with golden horns and the orange bandage unchanged. Image4 is the real bottle with its cap off: the pump head stays silver with a small nozzle. Image5 is the product sheet: keep this exact slim silver bottle shape, size and colours; no added marks, no \u00ae or \u2122, no extra text. The bottle keeps one grip, never turns its back to the lens, never flips and never changes size. The child's hand stays exactly as in Image1: small, short natural nails, no polish, no jewellery; no adult hand appears. Motion: The left hand keeps its grip and holds the bottle still; the right index finger with the clear dot pulls slowly back toward the right edge. The bottle never moves, turns or changes size. Camera: locked off, tiny handheld sway, no zoom. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721292825-8ih5s07py9d.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721295854-hxael2js4h6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721298223-obfqp2oaewq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721300215-ueprg295wzb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721304108-127chm7mnsnh.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "610caf96a28446390fc602f2122dd37e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721496278-5xyago86z1f.mp4"
+   ]
+  },
+  "costTime": 169,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:58:36",
+  "clip_check": "/home/user/Mymobileworld/ugc/dr-nice-boo-boo-gel/clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.934
+ },
+ {
+  "t": "2026-11-03 15:59:57",
+  "submitted": "9148075bcaf3b3bb388f349e18169b6b",
+  "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The fingertip slides the clear gel dot a li"
+ },
+ {
+  "t": "2026-11-03 16:00:01",
+  "submitted": "d95d04e2445e791a71b26e0d90c87aa5",
+  "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The scooter's raised front wheel spins slow"
+ },
+ {
+  "t": "2026-11-03 16:00:05",
+  "submitted": "79757bc41db14dc7d735d50e9f54f4c0",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing exactly. Image2 is the real front label and"
+ },
+ {
+  "t": "2026-11-03 16:00:12",
+  "submitted": "7eba4a460bfddb34b0c36129d99162be",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing exactly. Image2 is the real front label and"
+ },
+ {
+  "t": "2026-11-03 16:01:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The scooter's raised front wheel spins slowly and comes to a stop; nothing else moves. Camera: slow dolly in toward the wheel. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. No bottle, tube, box or product appears at any time. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721541894-91k1x1cpuaj.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "d95d04e2445e791a71b26e0d90c87aa5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721674728-382rbuvx0zc.mp4"
+   ]
+  },
+  "costTime": 87
+ },
+ {
+  "t": "2026-11-03 16:01:26",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The fingertip slides the clear gel dot a little to the left onto the small pink scrape and dabs it gently in two small circles, then lifts away up and to the right; a thin glossy clear film stays on the skin. Camera: locked off, tiny handheld sway. The child's hand stays the same small hand with short natural nails; no adult hand appears. No bottle, tube, box or product appears at any time. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721541954-8fq88txsit9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "9148075bcaf3b3bb388f349e18169b6b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721682236-qv9eizwvl3c.mp4"
+   ]
+  },
+  "costTime": 99
+ },
+ {
+  "t": "2026-11-03 16:03:00",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing exactly. Image2 is the real front label and Image3 the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering: the label stays on the bottle the whole clip and matches Image2 and Image3 letter for letter and colour for colour, the blue monster with golden horns and the orange bandage unchanged. Image4 is the product sheet: keep this exact slim silver bottle shape, size and colours; no added marks, no \u00ae or \u2122, no extra text. The bottle keeps one grip, never turns its back to the lens, never flips and never changes size. No hand, fingers or people appear at any time. Motion: Nothing moves except the camera and the grass in a light breeze. Camera: slow dolly in toward the label. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721544935-vulbwdoujq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721546899-h6qxvac4jbm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721552740-bvlhhukhl7w.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721555229-wrn6np73n7.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "79757bc41db14dc7d735d50e9f54f4c0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30/1793721769950-mkp5loezs2m.mp4"
+   ]
+  },
+  "costTime": 174,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 16:03:07",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing exactly. Image2 is the real front label and Image3 the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering: the label stays on the bottle the whole clip and matches Image2 and Image3 letter for letter and colour for colour, the blue monster with golden horns and the orange bandage unchanged. Image4 is the product sheet: keep this exact slim silver bottle shape, size and colours; no added marks, no \u00ae or \u2122, no extra text. The bottle keeps one grip, never turns its back to the lens, never flips and never changes size. No hand, fingers or people appear at any time. Motion: Nothing moves except the camera. Camera: slow push-in toward the bottle's label. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721545870-lgt175mtzr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721547980-b7xxsmmq22g.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721550202-d48evaoxcdj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793721553269-1xwc3ygqj4q.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "7eba4a460bfddb34b0c36129d99162be",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721777737-mq3sefowtq.mp4"
+   ]
+  },
+  "costTime": 168,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 16:03:11",
+  "clip_check": "/home/user/Mymobileworld/ugc/dr-nice-boo-boo-gel/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.939
+ },
+ {
+  "t": "2026-11-03 16:03:16",
+  "clip_check": "/home/user/Mymobileworld/ugc/dr-nice-boo-boo-gel/clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.939
+ },
+ {
+  "t": "2026-11-03 16:08:20",
+  "submitted": "e654ee5b352ccc89b99e91db9a1157ec",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump "
+ },
+ {
+  "t": "2026-11-03 16:09:48",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper. Hand-free close shot of a plain navy-blue child's school backpack (no logos, no print) standing on the wooden stool in the bright kitchen of the setting photo. ONE bottle stands upright, cap on, in the backpack's open mesh side pocket: the pocket holds its silver base and the blue label sits fully above the pocket's elastic edge, facing the lens. SIZE: the backpack is about 38 cm tall and the bottle only 11 cm, less than a third of the backpack's height. Camera at pocket height, close: the bottle is about 40 percent of the frame height so every letter on its label is sharp. Only one bottle in the frame. No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge. The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers. The silver cap is on the bottle. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the product reference sheet built from the brand's real photos; image 2 = a close-up of the real front label; image 3 = a close-up of the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering; image 4 = the real photo to use as the setting. The bottle print must match images 2 and 3 letter for letter and colour for colour.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543862-0cwnf1w0rsyb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720548309-ey8uurheabd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552460-b1ivpmxg8sh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720552890-xrack26i4s8.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "e654ee5b352ccc89b99e91db9a1157ec",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/e654ee5b352ccc89b99e91db9a1157ec_0_1793722187.jpeg"
+   ]
+  },
+  "costTime": 90
+ },
+ {
+  "t": "2026-11-03 16:11:21",
+  "submitted": "0a430c44a4fb279290bce8cd88358cde",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing exactly. Image2 is the real front label and"
+ },
+ {
+  "t": "2026-11-03 16:14:10",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its setting, light, framing exactly. Image2 is the real front label and Image3 the real 'DR. NICE'S / NATURAL PRODUCTS / BOO-BOO GEL' lettering: the label stays on the bottle the whole clip and matches Image2 and Image3 letter for letter and colour for colour, the blue monster with golden horns and the orange bandage unchanged. Image4 is the product sheet: keep this exact slim silver bottle shape, size and colours; no added marks, no \u00ae or \u2122, no extra text. The bottle keeps one grip, never turns its back to the lens, never flips and never changes size. No hand, fingers or people appear at any time. Motion: The bottle stays upright in the backpack's mesh side pocket and nothing moves except the camera. Camera: slow push-in toward the bottle's label, stopping while the whole bottle is still in frame. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793722254150-j7ks9ircii.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793722258118-wx537q3jrmo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793722260190-pxbr1j7qdd.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793722262494-7puklfxcyvt.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "0a430c44a4fb279290bce8cd88358cde",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793722446271-ty0iu35i06l.mp4"
+   ]
+  },
+  "costTime": 170,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 16:14:21",
+  "clip_check": "/home/user/Mymobileworld/ugc/dr-nice-boo-boo-gel/clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.902
+ },
+ {
+  "t": "2026-11-03 16:29:42",
+  "submitted": "f8ff979ed6a87685ba93a2ddf846d76b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of a young child sitting on the green lawn o"
+ },
+ {
+  "t": "2026-11-03 16:30:39",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of a young child sitting on the green lawn of the setting photo in denim shorts, the bent knee filling the middle of the frame. On the front of the kneecap, in the centre of the frame and in clear view, is a small light-pink surface scrape about 2 cm long (no blood, no scab). The clear gel dot sits DIRECTLY ON the scrape, covering its middle: not beside it, not above it, not on another part of the knee. The child's RIGHT index fingertip, entering from the top-right edge, touches the gel dot exactly where it sits on the scrape. The hands are a young child's hands (about six years old): small and soft, light-medium skin, short clean natural nails with no polish, no jewellery. Each hand enters from the frame edge with the whole wrist visible and five fingers. No adult hand appears. The gel is one small clear pearl-sized dot, glossy and see-through like water gel, never white, creamy or foamy. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures. The setting matches the setting reference photo. Every item is plain and unbranded: no brand names, logos or packaging anywhere. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the real photo to use as the setting; image 2 = the approved first shot: the same child's hand, skin and shorts. No bottle, tube, box or product of any kind appears in this frame.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543811-6nqz0n2zs4h.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793723371001-xefcn1it17.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f8ff979ed6a87685ba93a2ddf846d76b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f8ff979ed6a87685ba93a2ddf846d76b_0_1793723437.jpeg"
+   ]
+  },
+  "costTime": 58
+ },
+ {
+  "t": "2026-11-03 16:31:09",
+  "submitted": "183ecaef75046127f87ad610f48e6a0c",
+  "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The fingertip pushes the clear gel dot slow"
+ },
+ {
+  "t": "2026-11-03 16:32:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The fingertip pushes the clear gel dot slowly DOWN along the pink scrape line, staying on the scrape the whole time and never touching other skin, until the whole scrape is covered with a thin glossy clear film; then the finger lifts straight up and away to the top-right edge. The other hand stays still on the knee. Camera: locked off, tiny handheld sway. The child's hand stays the same small hand with short natural nails; no adult hand appears. No bottle, tube, box or product appears at any time. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793723455150-i6litaakm9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "183ecaef75046127f87ad610f48e6a0c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793723556708-956t045lwrs.mp4"
+   ]
+  },
+  "costTime": 93
+ }
+]

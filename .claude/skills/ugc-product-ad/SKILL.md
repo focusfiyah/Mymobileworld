@@ -89,6 +89,7 @@ lessons below are specific to making ads:
 - **Clip check on every paid clip (2026-10-26):** the runners (`wan_clip.py`, `omni_clip.py`, a job's `kie.py` copied from
   `ugc/oqq-wide-leg-pants/`) compare each downloaded clip's opening second with its still (`grace/clip_check.py`,
   calibrated on 242 real pairs) and log Kie's billed credits, which `grace/spend.py` counts instead of list prices.
+- **Skin products land ON the spot** (rule home: Mymobileworld CLAUDE.md hard rule 3, Ralph 2026-11-03): a gel, cream, patch or drop on skin sits directly on the scrape, bite or blemish in the still and stays there in the clip motion (dab or spread along it, never beside it); check it at 2x on the still before the clip is paid for. Why: Boo-Boo Gel S3 r1 put the dot beside the scrape; Ralph had seen it on earlier jobs too.
 - **QC extras beyond CLAUDE.md hard rule 3:** nothing resting on thin air (a Vicks still put the box past the vanity
   edge; free fix = crop the frame to end at the object's base). Use `templates/qc-report.md`.
 - **Drift strip on every pasted, patched or tracked product shot, before any cut goes out:**
