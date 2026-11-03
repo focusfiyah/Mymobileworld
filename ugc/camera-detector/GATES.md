@@ -48,4 +48,5 @@
   EVIDENCE: 2026-10-29 qc/cut_v1_sheet.jpg (1.5 fps, 50 tiles) + per-clip strips qc/*_strip.jpg
 - [x] G15: review page has both cuts playable; push + email sent (manual)
   EVIDENCE: 2026-10-29 https://claude.ai/artifact/WxfuVo6J1eMDS5c779TVNC v3
-- [ ] G16: delivered to Drive (CURRENT - ...), sizes match (after Ralph's OK)
+- [x] G16: delivered to Drive (CURRENT - ...), sizes match (after Ralph's OK)
+  EVIDENCE: 2026-11-03 folder 1ttu-qoVCtahd11PbXCkCMjunkiABY3eh; video 1-vUnx_H8tHqbzdKuzKG5KQsfbbMGUtiv size 86164102 = local; script doc 1-rsfKG1CQxEsvTHEnLKpPBEEasxiBdYaV4r_BeW6BDY. Ralph: "Only to drive not HofR" (HofR version not posted)
