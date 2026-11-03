@@ -1,0 +1,88 @@
+{
+ "S1": {
+  "dur": 2.0,
+  "hand": "HAND",
+  "product": true,
+  "model": "Flow (Omni), else Wan 3.0 720P on Kie",
+  "room": "rooms/roomA_green_tile.jpg",
+  "refs": [
+   "refs/product_sheet.png",
+   "refs/real/label_closeup.png",
+   "refs/real/cap_closeup.png",
+   "refs/real/tablets_closeup.png",
+   "grace/ref/hand-sheets/no_jewelry.jpg",
+   "rooms/roomA_green_tile.jpg"
+  ],
+  "still": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the real bits close-up, image 5 Grace's real hands, image 6 the room. Close-up, camera at counter height: the open bottle stands upright on the pink counter of the green-tile bathroom from image 6, its silver cap lying flat on the counter beside it, label facing the camera. One RIGHT hand comes in from the right edge and pinches one bit between thumb and index finger, lifting it just out of the bottle's open mouth. The bottle reaches only to the second knuckle of her index finger. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Each bit is a flat round off-white to cream tablet with a fine speckle, about 1 cm across (about the width of a fingernail), half as thick as it is wide, exactly like image 4. Hands: Grace's real hands from image 5, copied exactly: medium-brown skin, mauve-pink French-tip nails, no rings, no bracelet, no watch; the hand enters from the frame edge with the whole wrist visible. The sink and green tiles soft and out of focus behind. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+  "clip": "Recreate image 1 exactly as the first frame. The fingers lift the bit up out of the bottle and toward the camera in one slow small move, pinched the same way the whole time. The bottle does not move, turn or tip; the label stays facing the camera. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the bottle must match image 4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds."
+ },
+ "S2": {
+  "dur": 1.6,
+  "hand": "HAND-FREE",
+  "product": false,
+  "model": "Seedance 2.0 Mini on Kie",
+  "room": "rooms/roomC_terracotta_basin.jpg",
+  "refs": [
+   "rooms/roomC_terracotta_basin.jpg"
+  ],
+  "still": "Image 1 is the room. Close-up on the terracotta basin from image 1: a plain white squeezed toothpaste tube with no brand or print lies on the basin's rim, its cap crusted with dried white paste, a dried smear and a blob of white paste stuck inside the basin near the gold drain. No bottles, no tablets, no hands, no people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+  "clip": "Slow push-in on the crusty toothpaste tube and the dried blob in the basin. Nothing moves except the camera. No hands, fingers or people appear at any time. No music, no voice, no text. 4 seconds."
+ },
+ "S3": {
+  "dur": 1.8,
+  "hand": "HAND",
+  "product": false,
+  "model": "Seedance 2.0 Mini on Kie",
+  "room": "rooms/roomA_green_tile.jpg",
+  "refs": [
+   "grace/ref/hand-sheets/no_jewelry.jpg",
+   "rooms/roomA_green_tile.jpg"
+  ],
+  "still": "Image 1 is Grace's real hands, image 2 the room. Close-up at the white sink of the green-tile bathroom from image 2: one RIGHT hand holds a plain toothbrush with natural wooden handle and white bristles by the end of the handle, bristles under the chrome tap, a thin stream of water running onto them. The hand grips the handle (thumb on top, fingers curled under). Hands: Grace's real hands from image 1, copied exactly: medium-brown skin, mauve-pink French-tip nails, no rings, no bracelet, no watch; the hand enters from the right frame edge with the whole wrist visible. No toothpaste, no bottles, no tablets, no people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+  "clip": "The water runs over the bristles and the hand gives the toothbrush one small shake. Same grip the whole time. Camera steady, slight handheld drift. No bottle or product appears at any time. No music, no voice, no text. 4 seconds."
+ },
+ "S4": {
+  "dur": 2.0,
+  "hand": "HAND",
+  "product": false,
+  "model": "Seedance 2.0 Mini on Kie",
+  "room": "rooms/roomA_green_tile.jpg",
+  "refs": [
+   "grace/ref/hand-sheets/no_jewelry.jpg",
+   "rooms/roomA_green_tile.jpg"
+  ],
+  "still": "Image 1 is Grace's real hands, image 2 the room. Tight close-up of the lower face of a Black woman with medium-brown skin, from the tip of the nose to the chin, no eyes in the frame: she brushes her front teeth with a plain toothbrush with a natural wooden handle, light white foam at the lips, relaxed face. Green tiles from image 2 soft and out of focus behind. Her RIGHT hand holds the toothbrush handle, thumb and fingers wrapped around it; hands from image 1: mauve-pink French-tip nails, no rings, no bracelet, no watch, the hand comes up from the bottom frame edge. No bottles, no tablets, no other people. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+  "clip": "She brushes her front teeth with small side-to-side strokes, the light white foam staying at her lips. Same grip the whole time. The frame stays from the nose tip to the chin, no eyes. Camera steady. No bottle or product appears at any time. No music, no voice, no text. 4 seconds."
+ },
+ "S5": {
+  "dur": 1.8,
+  "hand": "HAND-FREE",
+  "product": true,
+  "model": "Flow (Omni), else Wan 3.0 720P on Kie",
+  "room": "rooms/roomB_navy_hotel.jpg",
+  "refs": [
+   "refs/product_sheet.png",
+   "refs/real/label_closeup.png",
+   "refs/real/cap_closeup.png",
+   "rooms/roomB_navy_hotel.jpg"
+  ],
+  "still": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the room. On the white counter of the navy-tile hotel bathroom from image 4: an open small beige zip toiletry bag, a folded white washcloth beside it; the bottle stands upright inside the bag, cap on, its top third and the 'Bite' label showing above the bag's edge, label facing the camera. The bottle is about a third of the bag's height. No hands, no people. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+  "clip": "Recreate image 1 exactly as the first frame. Slow dolly-in toward the bottle in the open toiletry bag. Nothing moves except the camera. No hands, fingers or people appear at any time. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the bottle must match image 4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds."
+ },
+ "S6": {
+  "dur": 1.8,
+  "hand": "HAND-FREE",
+  "product": true,
+  "model": "Flow (Omni), else Wan 3.0 720P on Kie",
+  "room": "rooms/roomC_terracotta_basin.jpg",
+  "refs": [
+   "refs/product_sheet.png",
+   "refs/real/label_closeup.png",
+   "refs/real/cap_closeup.png",
+   "refs/real/tablets_closeup.png",
+   "rooms/roomC_terracotta_basin.jpg"
+  ],
+  "still": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real cap close-up, image 4 the real bits close-up, image 5 the room. On the cream tiled counter beside the terracotta basin from image 5, near the gold tap: ONE bottle standing upright, cap on, label facing the camera, three loose bits lying on the counter in front of it. The bottle is small: only about a tenth of the basin's width. No hands, no people, no toothpaste tube. The product is the real Bite Toothpaste Bits 62-bit bottle: a small clear round glass bottle about 5 cm (2 in) tall, about as tall as a lipstick, TALLER THAN IT IS WIDE (about 1.85 times taller than wide), small enough to close a hand around. A silver brushed-aluminium screw cap as wide as the bottle, with a finely ridged edge. A white paper label wraps the lower two thirds: black serif 'Bite' with '62 BITS' in small black typewriter type to its right, 'INSTRUCTIONS' in small black capitals, three lines of small black typewriter text, 'NATURALLY WHITENING TOOTHPASTE BITS' in small black capitals, then a solid black band along the bottom of the label. The label print MUST match image 2 letter for letter and colour for colour; the cap MUST match image 3. Through the clear glass above the label: off-white to cream flat round tablets, each about a fifth of the bottle's width. Only clear glass and a silver metal cap: no white cap, no flip top, no box. Each bit is a flat round off-white to cream tablet with a fine speckle, about 1 cm across (about the width of a fingernail), half as thick as it is wide, exactly like image 4. Bright neutral daylight, true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects. ",
+  "clip": "Recreate image 1 exactly as the first frame. Slow push-in on the bottle and the three bits. Nothing moves except the camera. No hands, fingers or people appear at any time. The label must match image 2 letter for letter and colour for colour, the cap must match image 3, the bottle must match image 4 (the product reference sheet), the bottle stays the same small size in every frame. No music, no voice, no text. 5 seconds."
+ }
+}
