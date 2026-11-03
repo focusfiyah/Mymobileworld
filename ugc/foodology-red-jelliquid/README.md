@@ -1,5 +1,5 @@
 # FOODOLOGY Red Jelliquid Bundle (Cutting Jelly + ACV Apple Jelly + Drink Mix PRO): Grace, 12 s music-only AI video + ~30 s script
-Status (2026-11-03): PLAN sent, waiting for Ralph's OK on BOOK.md (TOTAL $0.79 Flow route / $3.19 all-Kie). Script gate OK. No paid call made. Next: stills (6) after his OK.
+Status (2026-11-03): DONE. Grace V1 (12.0 s, music-only, no text) APPROVED by Ralph; House of Rameau V1 made (hook card, HOOK_OK), posting only on his OK. Kie $3.83 ($3.19 book + $0.64 S3/S6 Wan redo, his tap). Drive: https://drive.google.com/drive/folders/1u1rlGuihgxPJbaQT2yMu-i3934-eImVy (CURRENT - FOODOLOGY Jelliquid V1, CURRENT - Jelliquid HofR V1, script doc, research verdict doc). Media in Drive Repo media / ugc - foodology-red-jelliquid (MEDIA_OK).
 Request: Ralph via Telegram 2026-11-03 ("No VO needed, she will add music", "10-12s", "generate the script ... standard timeframe"). Product photo: Drive Telegram Assets 1Ie4cKq_N09QC_S3Dv_QtQfBJLY-zG17X.
 Files: shots.json -> build_prompts.py -> prompts/; make_sheet.py -> refs/product_sheet.png + refs/closeup_*.png; product_truth.json; research/ (RESEARCH.md, audience, coach, hooks, humanizer, readability, line sources); rooms/pick + rooms/SOURCES.md; scripts.md; BOOK.md; GATES.md; REMOVED.md.
 Review page: https://claude.ai/code/artifact/edbe121f-62a8-4609-b860-c7410bde0844

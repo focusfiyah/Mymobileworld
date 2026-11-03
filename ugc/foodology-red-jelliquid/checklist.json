@@ -81,7 +81,35 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
-  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
- }
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ]
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-03",
+  "quote": "Tapped: All on Kie, $3.19; No jewellery; Yes, make it (HofR)",
+  "total": 3.19,
+  "sha256": "3950221f2fca0c570a5f85ab08711cd44c742ffb959b9376e640d265b9355b63",
+  "spent_at_approval": 0.0
+ },
+ "budget_extra": [
+  {
+   "usd": 0.64,
+   "what": "S3 + S6 Wan redo with prop-free box close-ups",
+   "by": "Ralph",
+   "quote": "Tapped: Wan, clean refs, $0.80 (Recommended)",
+   "date": "2026-11-03",
+   "book_sha256": "3950221f2fca0c570a5f85ab08711cd44c742ffb959b9376e640d265b9355b63"
+  },
+  {
+   "usd": 0.01,
+   "what": "float rounding: S6 Wan redo lands at exactly the approved $3.83",
+   "by": "Ralph",
+   "quote": "Tapped: Wan, clean refs, $0.80 (Recommended)",
+   "date": "2026-11-03",
+   "book_sha256": "3950221f2fca0c570a5f85ab08711cd44c742ffb959b9376e640d265b9355b63"
+  }
+ ]
 }

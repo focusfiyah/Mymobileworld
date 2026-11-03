@@ -28,3 +28,23 @@
   EVIDENCE: https://claude.ai/code/artifact/edbe121f-62a8-4609-b860-c7410bde0844 v1 (9 script lines, 6 shots with still + clip prompts, sheet, rooms, winners, cost)
 - [x] G8: Ralph notified (phone push + email) and asked with tap options (manual)
   EVIDENCE: Gmail id 1a1a1fd3c82e7920 sent 2026-11-03; PushNotification not offered in this session (ToolSearch select:PushNotification returned no match, tested); questions asked with AskUserQuestion
+
+## Cut stage (2026-11-03)
+- [x] G9: Cut gate passes
+  CHECK: cd /home/user/Mymobileworld && python3 grace/gate.py ugc/foodology-red-jelliquid --stage cut
+  EXPECT: GATE OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=c623ab20af15a587ea4fa3c538263b9d43510459376ea85eb34ea658d46094d9; exit=0; EXPECT=matched; output-sha256=3bbac99a1ff01142d77574ce6f47466d447a7f859608800f3197cf2cde55f8fd; output-bytes=86; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/foodology-red-jelliquid; path=7f4fb4b02918/15 entries
+- [x] G10: Grace V1 is 12.0 s, 1080x1920, no audio stream
+  CHECK: cd /home/user/Mymobileworld/ugc/foodology-red-jelliquid && ffprobe -v error -show_entries format=duration:stream=codec_type,width,height -of csv=p=0 out/cut_v1.mp4 | tr '\n' ' '
+  EXPECT: /^video,1080,1920 12\.0+ $/
+  EVIDENCE: automatic-evidence=v1; definition-sha256=f5c3c60007d48c9dae6860acbc787c4e40e43a4d5bd6f5f66c7b9339957bd6f5; exit=0; EXPECT=matched; output-sha256=0149cd802de40d5b4a6ea4de29c12e2282b44a2658419b0273f240c34c12194c; output-bytes=26; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/foodology-red-jelliquid; path=7f4fb4b02918/15 entries
+- [x] G11: HofR hook whole from frame 0, held 2 s
+  CHECK: cd /home/user/Mymobileworld/ugc/foodology-red-jelliquid && python3 ../../tools/hookcheck/hook_check.py out/hofr_v1.mp4 --hook 200,1140,680,190
+  EXPECT: HOOK_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=2846df5acb585b354349b787309eff5c83bfdf809b89a22851b7cb9877bc8faf; exit=0; EXPECT=matched; output-sha256=fd9a04592fedf0a6aaae52c4ef20763bff36d897872078e98a523a589cce16da; output-bytes=63; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/foodology-red-jelliquid; path=7f4fb4b02918/15 entries
+- [x] G12: Job media stored in Drive
+  CHECK: cd /home/user/Mymobileworld && python3 tools/media/media.py check
+  EXPECT: MEDIA_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=a66385644360a15b9a16b370692a526fbf7beb23b8e8e7572560f8cd98ee8237; exit=0; EXPECT=matched; output-sha256=8083bc5e3d38fc4812679011f657b4c749435c73ae3358ae5426effe963edf5b; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/foodology-red-jelliquid; path=7f4fb4b02918/15 entries
+- [x] G13: Ralph approved cut v1 (tapped "Approve (Recommended)" 2026-11-03); Drive folder holds both videos (sizes 68638919 and 69192814 match local) + script doc + verdict doc (manual)
+  EVIDENCE: Drive folder 1u1rlGuihgxPJbaQT2yMu-i3934-eImVy; files 1emKu_wHuKZeIrsTkUOAkowJjuooxjEgO (68638919 B), 1GbFA1VmwDZePZHRHLEldHJQfxRTXwyOY (69192814 B), docs 1Zrz3EKb6zFSPOf_k9E2nHYD-KwEn4VcJNkO6PK8v7Cg, 1o5kGNlUiHTJxk2ODWyixC6GlKpBPn9nwHaaOVkDgT7A

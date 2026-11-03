@@ -16,7 +16,22 @@ C = {  # close-ups passed as print references (real pixels)
  'cj_open':   ('coleology-cutting-jelly_02.jpg', (1000, 0, 1800, 1800)),
  'dm_pour':   ('coleology-drink-mix_04.jpg', (950, 0, 1800, 1800)),
 }
-for k, (f, box) in C.items(): o(f).crop(box).save(f'refs/closeup_{k}.png')
+for k, (f, box) in C.items():
+    im = o(f).crop(box)
+    if min(im.size) < 360: im = im.resize((im.width * 3, im.height * 3), Image.LANCZOS)   # Wan refuses refs under ~300 px (S4, 2026-11-03)
+    im.save(f'refs/closeup_{k}.png')
+# Paint out the pomegranate PROP that overlaps the box corner in the brand packshots (2026-11-03: Wan printed it on the boxes in S3/S6)
+from PIL import ImageDraw as _D, ImageFont as _F
+def clean(k, rects, pill, font_px):
+    im = Image.open(f'refs/closeup_{k}.png').convert('RGB'); d = _D.Draw(im)
+    r0 = rects[0]; red = im.getpixel((r0[2] + 12, r0[3] - 20))
+    for rect in rects: d.rectangle(rect, fill=red)
+    d.rounded_rectangle(pill, radius=(pill[3] - pill[1]) // 2, fill=(245, 242, 238))
+    f = _F.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', font_px)
+    d.text(((pill[0] + pill[2]) // 2, (pill[1] + pill[3]) // 2), 'DIETARY SUPPLEMENT', fill=red, font=f, anchor='mm')
+    im.save(f'refs/closeup_{k}.png')
+clean('cj_box', [(0, 1862, 240, 2154), (0, 1785, 50, 1862)], (40, 1800, 540, 1858), 34)
+clean('dm_box', [(0, 1960, 300, 2250), (0, 1760, 55, 1960), (55, 1858, 300, 1895)], (40, 1895, 700, 1958), 40)
 W, H = 2400, 2000
 s = Image.new('RGB', (W, H), 'white'); d = ImageDraw.Draw(s)
 f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', 28)

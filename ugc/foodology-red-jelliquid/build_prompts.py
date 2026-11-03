@@ -52,8 +52,8 @@ def clip(s, flow=False):
                 f"{B['no_hand']} No sticks, boxes or packaging appear. {B['clip_tail']}")
     r = [f"stills/{s['id']}.png"]; ex = []
     head = f"Recreate {I(1)} exactly as the first frame: keep its room, light, framing" + (", hand and nails" if s["hand"] else "") + " exactly."
-    for it in s["items"]:
-        for p, w in REF[it]:
+    for it in s["items"]:   # clips: print close-ups only (the still already shows the jelly/pour; the extra brand photos carry another hand or a bottle)
+        for p, w in (REF[it] if it == "boxes" else REF[it][:1]):
             r.append(p); ex.append(f"{I(len(r))} is {w}.")
     r.append(SHEET); ex.append(f"{I(len(r))} is the product reference sheet. Every FOODOLOGY print stays on the product the whole clip and matches {I(2)} to {I(len(r))} letter for letter and colour for colour; no extra text, no added marks.")
     if s["hand"]:

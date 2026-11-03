@@ -50,11 +50,16 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <div class="wrap">
 <header style="display:grid;gap:6px"><div class="sticks" aria-hidden="true"><i></i><i></i><i></i></div><h1>FOODOLOGY Red <em>Jelliquid</em> Bundle</h1>
 <p class="sub">Grace. Cutting Jelly + ACV Apple Jelly + Drink Mix PRO. A 12 s music-only video (6 shots) plus a standard ~30 s script Grace can record later. Plan for your OK: nothing has been paid for yet.</p></header>
-<section class="ask"><strong>Your OK needed (nothing runs until you tap)</strong><ol>
-<li><b>Approve the plan:</b> <b>$0.79</b> on Kie (6 stills $0.54, 1 Seedance $0.16, one likely still redo $0.09); the 5 product clips are Flow kits you make in your app ($0, 60 credits). All on Kie instead (Wan 3.0 clips): <b>$3.19</b>. November so far $16.12 of $100.</li>
-<li><b>Hand:</b> Grace's no-jewellery hand sheet (no rings, bracelet or watch)?</li>
-<li><b>House of Rameau</b> version after Grace's cut (own order and grade, on-screen hook text, no captions)?</li>
-<li>Box and stick sizes are not published: I used a ~15 x 3.5 cm stick and ~10 x 16 cm boxes from the brand's in-hand photo.</li></ol></section>
+<section class="ask"><strong>Approved and in Drive (2026-11-03)</strong><ol>
+<li>Drive: <a href="https://drive.google.com/drive/folders/1u1rlGuihgxPJbaQT2yMu-i3934-eImVy">FOODOLOGY Red Jelliquid (Grace)</a>: CURRENT - FOODOLOGY Jelliquid V1 (Grace, no text, no sound), CURRENT - Jelliquid HofR V1, the script doc and the research verdict doc.</li>
+<li>House of Rameau version below: hook card "wait, this is apple cider vinegar?" from frame 0 for 2.4 s (hook check OK), its own shot order, in-points, a 1.12x punch-in and a cooler grade, no captions, no sound. It posts to @houseoframeau only on your OK.</li>
+<li>Kie spend: $3.83 ($3.19 book + $0.64 you OK'd for the S3/S6 redo).</li></ol></section>
+<section class="box"><h2>House of Rameau V1</h2><video src="hofr_v1.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
+<section class="box"><h2>Grace V1 (approved)</h2><video src="cut_v1.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
+<details class="box"><summary><b>Clips</b> (S3, S6 = Wan r2)</summary>CLIPS</details>
+<details class="box"><summary><b>Storyboard r1</b> (approved; small print let go)</summary><div class="grid">STORY</div></details>
+<details class="box"><summary><b>Plan you approved</b> (all on Kie $3.19; no-jewellery hand; House of Rameau version yes)</summary>
+
 <section class="box"><h2>Script for Grace (~30 s at her pace, 102 words, grade 2.5)</h2><ol class="script">{script}</ol>
 <p class="sub">Leads with the hook (looks like candy, it's apple cider vinegar), then answers the question buyers ask most in the comments: "which one, and when?". Hook H099 from her library; other options H017 "I want apple cider vinegar without having to drink the vinegar", H051 "These make more sense once you see when each one goes". No weight, fat, debloat or GLP-1 lines: the listing makes them, Grace can't. No price.</p>
 <p class="sub">Caption: apple cider vinegar you chew, plus which stick goes when. red drink mix in the morning, red chia jelly after lunch, yellow ACV whenever. #foodology #cuttingjelly #acvjelly #koreanjelly #tiktokshop #ad</p></section>
@@ -71,6 +76,7 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <ul><li>@ilovebubbies 5.5M, @yagirlcedes 1.9M ("I can't tell if it's jello or a snack"), @yannnique 1.8M: all Cutting Jelly shop videos; every one leans on body claims we leave out.</li>
 <li>Top buyer question in 319 comments: "It says to take 1 a day after meal but WHICH MEAL?!", "Do you eat both together, and when do you eat it?". The set answers it, so the script does too.</li>
 <li>Script gate: GATE OK (playbook, audience + VOC, Grace's research workflow, coach, viral board, facts, hooks, humanizer, readability, line sources). TikTok hashtag pages came back empty today; the keyword pages gave the winners above.</li></ul></section>
+</details>
 <section class="box"><h2>Cost</h2><div class="tw"><table><tr><th>Item</th><th class="n">$</th></tr>
 <tr><td>6 stills, Gemini 3 Pro Image on Kie, 6 x $0.09</td><td class="n">0.54</td></tr>
 <tr><td>5 product clips as Flow kits in your app (60 credits)</td><td class="n">0.00</td></tr>
@@ -80,4 +86,7 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <tr><td>All on Kie instead: 5 Wan 3.0 720P clips (5 x $0.40) + one Wan redo</td><td class="n">3.19</td></tr></table></div>
 <p class="sub">Order: all 6 stills at once, storyboard here for your look, then the Flow kits (S1 first, the riskiest) and S5 on Seedance. About 35 to 40 min of machine time after your OK, plus your stops.</p></section>
 </div>"""
+ST=[("S1","PASS","ACV print right; Korean small text invented"),("S2","PASS","pour + pink water; stick drops PRO"),("S3","PASS","box print right"),("S4","PASS","chia jelly, grip"),("S5","PASS","jelly only"),("S6","CHECK","small print: 6,290 mg, Dely Care, BMP seals")]
+page=page.replace("STORY","".join(f'<figure><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b>{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
+page=page.replace("CLIPS","".join(f'<figure><figcaption><b>{c}</b> {n}</figcaption><video src="clips/{c}.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></figure>' for c,n in [("S1","ACV stick, clean"),("S2","drink mix pour, clean"),("S3","Wan r2, clean"),("S4","cut uses 0-1.8 s"),("S5","chia jelly, clean"),("S6","Wan r2, clean")]))
 Path("review/index.html").write_text(page); print(len(page))

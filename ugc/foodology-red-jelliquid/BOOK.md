@@ -55,15 +55,17 @@ Time: about 35-40 min of machine time after your OK, plus your stops (storyboard
 | Product clips S1-S4, S6 in your Flow app | 5 x 12 credits | 0.00 (60 Flow credits) |
 | Seedance 2.0 Mini 4 s (S5, no packaging) | 1 x 0.164 | 0.164 |
 | One likely redo (1 still), asked before it runs | 1 x 0.09 | 0.09 |
+| Ralph picked all-Kie: 5 Wan 3.0 720P 5 s clips (S1-S4, S6) | 5 x 0.40 | 2.00 |
+| One likely Wan redo, asked before it runs | 1 x 0.40 | 0.40 |
 Route B if Flow can't (credits out / no time / a take fails QC): Wan 3.0 720P 5 s on Kie $0.40 per clip, asked per clip; all five on Wan = +$2.00, so all-Kie total $3.19 with one still redo + one Wan redo. Free route for stills: your Gemini app ($0) instead of Kie, kit on the review page.
 ElevenLabs: 0 chars (no VO). Month so far (`python3 grace/spend.py`): $16.12 of the $100 November cap (other Grace sessions are planning today too).
 
-TOTAL: $0.79
+TOTAL: $3.19
 
-## 7. Questions (tap answers)
-1. Route: Flow kits for the 5 product clips ($0.79 total) or all on Kie with Wan ($3.19)?
-2. Hand: Grace's no-jewellery hand sheet?
-3. House of Rameau version after Grace's cut (with the on-screen hook text)?
+## 7. Questions (answered by Ralph 2026-11-03, tapped)
+1. Route: "All on Kie, $3.19": 5 product clips on Wan 3.0 720P + free upscale, S5 Seedance, stills on Kie.
+2. Hand: "No jewellery" (grace/ref/hand-sheets/no_jewelry.jpg).
+3. House of Rameau version: "Yes, make it" ($0 re-cut, hook text, no captions, posting only on his OK).
 
 ## 8. Prompts (final, written with prompt-master; read end to end; all 17 pass grace/prompt_check.py lint)
 | Item | Model | Prompt file |
