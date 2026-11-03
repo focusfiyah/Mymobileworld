@@ -36,3 +36,19 @@
   CHECK: python3 -c "u='ba19b895-a976-46e2-8404-413ec9044288';print('LINK_OK' if u in open('BOOK.md').read() and u in open('README.md').read() else 'LINK_FAIL')"
   EXPECT: LINK_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=23a6bdf7f3af68465526fb645fb562d38c36b5c3324239ac29695d2bd402da93; exit=0; EXPECT=matched; output-sha256=c0dc32111c94098bd34b43b685f868eecc438dabf0aab3cf4a99181702acca07; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/nello-superfocus; path=7f4fb4b02918/15 entries
+- [x] G10: Final cut is 10-12 s, 1080x1920, no audio track
+  CHECK: python3 -c "import subprocess,json;p=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration:stream=codec_type,width,height','-of','json','out/nello_v1.mp4']));s=p['streams'];d=float(p['format']['duration']);print('CUT_OK' if 10<=d<=12.1 and len(s)==1 and s[0]['width']==1080 and s[0]['height']==1920 else 'CUT_FAIL',d)"
+  EXPECT: CUT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=b857c675ad87dedad46a3ce1faefb15ec6b063fbbd0840f7b12a4ae88ccac735; exit=0; EXPECT=matched; output-sha256=b5c5f57231f6dc5712fd96894250731541c22ebca4e64dd371c7575a4512906b; output-bytes=17; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/nello-superfocus; path=7f4fb4b02918/15 entries
+- [x] G11: Cut-stage gate passes (compare proof)
+  CHECK: cd ../.. && python3 grace/gate.py ugc/nello-superfocus --stage cut 2>&1 | head -1
+  EXPECT: GATE OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=f25382d2c1928db6fc7bb3417bc852026a12d025997ded9b2d2c70bd495d7ec6; exit=0; EXPECT=matched; output-sha256=b4f6bb2295b31bed47ca6d21ff0ffa944ba3155c4d38827b2a8a3393e3c25609; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/nello-superfocus; path=7f4fb4b02918/15 entries
+- [x] G12: Job media stored in Drive
+  CHECK: cd ../.. && python3 tools/media/media.py check 2>&1 | tail -1
+  EXPECT: MEDIA_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=58aad8812366881f2732a1b2d2f32a04ec537c08ce7d6207c02bf9f174a8ba08; exit=0; EXPECT=matched; output-sha256=8083bc5e3d38fc4812679011f657b4c749435c73ae3358ae5426effe963edf5b; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/nello-superfocus; path=7f4fb4b02918/15 entries
+- [x] G13: README carries the Drive folder link
+  CHECK: python3 -c "print('DRIVE_OK' if '1k6Y4W0b3FmtvGFfZO66geYfbdJjsbxoS' in open('README.md').read() else 'DRIVE_FAIL')"
+  EXPECT: DRIVE_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=4f86403e81db2b57487282a3abca05c998ac56506744fde73b88e9e1c4d3f084; exit=0; EXPECT=matched; output-sha256=62a8cc81c5586654847b20aa63a41bcd22762cf8047cad8b83169ca469393e94; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/nello-superfocus; path=7f4fb4b02918/15 entries
