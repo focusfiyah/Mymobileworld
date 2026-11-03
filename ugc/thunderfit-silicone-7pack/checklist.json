@@ -1,0 +1,88 @@
+{
+ "created": "2026-11-03",
+ "scripts": [
+  "scripts.md",
+  "research/vo_script.txt"
+ ],
+ "vo_lines": [
+  "research/vo_script.txt"
+ ],
+ "playbook": {
+  "proof": [
+   "../../grace/PLAYBOOK.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)",
+  "rules_applied": [
+   "\u00a71 house rules (no price, Grace POV, brag confession, no false scarcity)",
+   "\u00a73 library hooks H041 in her wording",
+   "\u00a74 structure + CTA sells more units + real season",
+   "\u00a75 pacing ~3.3 w/s, Grace edit style for the music-only cut",
+   "no on-screen text unless Ralph says yes"
+  ]
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach_research.md",
+   "research/shop/shop-silicone-ring.json",
+   "research/videos/7676919443712249118/hook.png",
+   "research/videos/7692134669894094111/transcript.txt",
+   "research/videos/7685813748346457375/transcript.txt"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-11-03.json"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job",
+  "result": "0 videos: hashtag pages returned nothing this session (tested twice); ring winners re-pulled with video instead"
+ },
+ "product_facts": {
+  "proof": [
+   "research/product_facts.md",
+   "product_truth.json"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer_report.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt",
+   "research/readability_v2.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "research": {
+  "proof": [
+   "research/RESEARCH.md"
+  ],
+  "note": "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ }
+}
