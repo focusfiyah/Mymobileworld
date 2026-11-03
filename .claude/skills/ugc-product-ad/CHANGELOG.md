@@ -1,5 +1,7 @@
 # Changelog
 
+- 2026-11-03 (Ralph: "if something similar shows up again we have reference to how we need to get it done via AI"): new references/fashion-garments.md (type A hangs and sways vs type B changes shape, what failed and worked on the Goth High-Low Skirt, mirror and room details) + one row in the route table and one line in the reference map.
+
 - 2026-11-03 (Ralph, after reviewing Revid's skills): the route list at the top of SKILL.md is now a table (Ralph asks for / route / file to read). Route history moved here: spokesperson recreate and skit routes approved by Ralph 2026-09-14; patch-a-line route 2026-09-15; per-shot persona route 2026-09-16; Fungix "CAUGHT YOU" skit proved the off-camera-speaker route 2026-09-19; take-combos split out 2026-09-18 (Fungix / Grace); hands-only route proven on Carpe Vanilla Peach 2026-10-01 (36 s, 9 shots, $3.52 vs $2.53 planned); on-camera demo route from Carpe Mountain Breeze 2026-10-01 (35 s, $6.60 vs $2.50); product lock 2026-10-21.
 
 - 2026-10-22 (Ralph, ideas from Video Factory): plan template is now the Production Book (BOOK.md, TOTAL line, prompts section) that grace/gate.py requires Ralph's recorded OK on; budget lock; omni_clip.py saves each paid task before createTask (paid-task ledger); scripts/gate.py is now a pointer to grace/gate.py (the drifted copy let older runners skip the monthly cap).

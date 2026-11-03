@@ -22,6 +22,7 @@ worse output, which is why this file exists.
 | Multi-shot ad, ONE recurring persona, 25-35 s, dialogue in every shot | Grok Imagine per shot, optional Kie lip sync to a cloned voice; about $3 for 30 s | `references/persona-per-shot.md` |
 | Faceless hands-only demo or tips over a voiceover | Kie Nano Banana Pro stills + one Seedance Mini clip per shot, free ffmpeg cut | `references/hands-only-and-demo.md` |
 | A real person (AI from their photo) demonstrating over a voiceover | Same stills + clips, lip sync on face shots; read its lessons (a 35 s ad ran $6.60 vs a $2.50 quote) | `references/hands-only-and-demo.md` |
+| A garment on a person (dress, skirt, mirror selfie), or one that changes shape on camera | Decide type A (hangs, sways) or B (changes shape: two tests max) first | `references/fashion-garments.md` |
 | Lip sync choices | ElevenLabs + Kie sync by default; Fal.ai only as the fallback | `references/lipsync-options.md` |
 | Complex product, real photo + paste-back | Last resort | `references/exact-product.md` |
 | Editing a creator's REAL raw takes into combo ads | Not this skill: use `ugc-take-combos` | |
@@ -123,6 +124,7 @@ Every route below is still governed by Step 0 (script gate) and "Working with Ra
   `references/persona-per-shot.md`
 - Hands-only ad, on-camera demo over a voiceover, GTT KN95 lessons: `references/hands-only-and-demo.md`
 - Lip sync: default ElevenLabs voice + Kie sync; Fal.ai `minimax/h3-max/lip-sync/image-to-video` only as the fallback when Ralph doesn't like the result; Kie talking-avatar models (one still + the voice, no clip first, untested) for talking-head lines: `references/lipsync-options.md`
+- Fashion garments (dress, skirt, mirror selfie; hangs-and-sways vs changes-shape, what failed and what worked on the goth skirt, mirror and room details): `references/fashion-garments.md`
 - Product lock (every product shot: Flow, Wan and Omni clips, edit turns, budget line): `references/product-lock.md`
 - Exact-product route (real photo + paste-back, complex products; last resort since 2026-10-21): `references/exact-product.md`
 - Templates (fill, don't improvise): `templates/plan-message.md` (the one plan message), `templates/readme-status.md` (job README + Status line), `templates/qc-report.md` (QC before any send).
