@@ -40,10 +40,18 @@ figcaption{{font:500 .75rem var(--mono);color:var(--muted)}}
 .see,.mv{{margin:0;font-size:.95rem}} summary{{cursor:pointer;color:var(--accent);font-weight:700}} summary:focus-visible{{outline:2px solid var(--accent)}}
 pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);padding:10px;border-radius:6px;margin:6px 0 0;overflow-x:auto}}
 .tw{{overflow-x:auto}} table{{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}} td,th{{border-bottom:1px solid var(--line);padding:6px 4px;text-align:left;vertical-align:top}} td.n,th.n{{text-align:right}}
+figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}}.ok{{color:var(--accent)}}.bad{{color:var(--warn)}}
 .tot td{{font-weight:700;color:var(--accent)}} a{{color:var(--accent)}}
 </style>
 <div class="wrap">
 <header><h1>Dr. Nice's <em>Boo-Boo Gel</em></h1><p class="sub">Grace, 1 fl oz pump. Music-only video, 12 s, 6 shots, plus a ~30 s script for her own voiceover. Plan for your OK; nothing has been paid for yet.</p></header>
+<section class="ask"><strong>Storyboard round 1: one still needs a redo</strong><ol>
+<li><b>S1, S2, S3, S4, S6 pass</b> at 2x: every letter of the label right on S1, S4, S6, the monster and horns right, silver pump on S1, child's hands with whole wrists, clear gel dot.</li>
+<li>Free fix done: the real backyard photo had hookah pipes on a wall shelf (S1, S2, S3). I painted them out with plain wall.</li>
+<li><b>S5 fails</b>: the bottle is about twice too big next to the backpack, and the small label came out garbled ("BOO BOX SEL"). New prompt: closer on the backpack pocket, bottle under a third of the backpack's height, label big, her hand on the silver base only. Redo $0.09 (inside the book's redo allowance).</li>
+<li>Spent so far: Kie $0.54 of $2.96 (November $16.66 of $100).</li></ol></section>
+<section class="box"><h2>Storyboard round 1</h2><div class="stgrid">STORY</div></section>
+<details class="box"><summary><b>Plan you approved</b> (all on Kie, $2.96 ceiling; bites left out; HofR later)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer in the chat)</strong><ol>
 <li><b>Approve the plan</b>: product clips S1, S4, S5, S6 as Flow takes in your app ($0, 48 credits), then Kie only for stills and the 2 no-product clips: <b>about $0.96</b>. Ceiling if every product clip falls back to Wan on Kie: <b>$2.96</b>. November so far $16.12 of $100.</li>
 <li><b>Insect bites</b>: only the TikTok Shop title says it. The brand site and Amazon say scrapes, minor cuts, burns, blisters, chafing (they sell a separate bite gel). Scripts leave bites out unless you say add one line.</li>
@@ -71,6 +79,7 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <li>Parents' words: "5+ year olds freak out about every single tiny little scrape", "They do peel off 5 minutes later", "What helped her was letting her do it on her own".</li>
 <li>Bite relief is a summer niche (1 new shop video in 30 days), so the everyday-scrape angle fits November. The niche's top comments are about price, so no price talk.</li>
 <li>Script gate: GATE OK (playbook, coach, viral board, facts, Grace's research workflow, hooks, humanizer, readability, audience, line sources). Most TikTok hashtag and shop searches came back empty today (each tried and logged).</li></ul></section>
+</details>
 <section class="box"><h2>Cost</h2><div class="tw"><table><tr><th>Item</th><th class="n">$</th></tr>
 <tr><td>6 stills, Gemini 3 Pro Image on Kie, 6 x $0.09</td><td class="n">0.54</td></tr>
 <tr><td>2 Seedance 2.0 Mini clips (S2, S3: no bottle), 2 x $0.164</td><td class="n">0.33</td></tr>
@@ -80,4 +89,7 @@ pre{{white-space:pre-wrap;font:500 .78rem/1.45 var(--mono);background:var(--bg);
 <tr class="tot"><td>Ceiling (expected with Flow: $0.96)</td><td class="n">2.96</td></tr></table></div>
 <p class="sub">Order: 6 stills at once, storyboard here for your look, then the Flow kits (S1 first: open pump, two small hands, the gel dot), S2 and S3 on Seedance meanwhile. About 35–40 min of machine time after your OK, plus your stops.</p></section>
 </div>"""
+ST = [("S1","PASS","Open pump, gel dot, label exact; hookahs painted out"),("S2","PASS","Tipped scooter; hookahs painted out"),("S3","PASS","Child dabs the gel on the knee; hookahs painted out"),
+ ("S4","PASS","Counter, label exact"),("S5","REDO","Bottle too big, label garbled"),("S6","PASS","End shot, one bottle, label exact")]
+page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_r1.jpg" alt="{i} still"><figcaption><b class="{'ok' if v=='PASS' else 'bad'}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
 Path("review/index.html").write_text(page); print(len(page))
