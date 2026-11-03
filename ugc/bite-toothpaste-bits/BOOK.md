@@ -59,6 +59,7 @@ TOTAL: $2.72
 **Approve?**
 
 ## 7. Questions (all of them, now)
+Answers (Ralph 2026-11-03, tapped question cards): "All on Kie, $2.72 (Recommended)"; "62-bit bottle (Recommended)"; "Lower face is OK (Recommended)".
 1. Route: all on Kie ($2.72), Kie stills + your Flow clips ($1.28), or your Gemini + Flow kit ($0.66)?
 2. Which pack does Grace have: the 62-bit bottle (1 month, prompts written for it) or the 248-bit jar (4 months, squat wide jar; prompts change, same cost)?
 3. S4 lower-face brushing (nose tip to chin, no eyes) OK, or swap it for foam on the toothbrush at the sink (no face)? Same cost.
