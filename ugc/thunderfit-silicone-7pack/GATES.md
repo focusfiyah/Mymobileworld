@@ -2,7 +2,7 @@
 
 OWNS: ugc/thunderfit-silicone-7pack/**
 
-Scope: Ralph's 2026-11-03 ask, up to his plan approval: a 10-12 s music-only video plan (no VO) and a standard ~30 s VO script for Grace to record, built on the full script gate, planned shot by shot with one total cost, shown on a review page, Ralph pinged, no paid generation.
+Scope (widened 2026-11-03 after Ralph approved the plan and said 'Just use Kie'): plan, then stills, clips, cut, Drive delivery. Original scope: a 10-12 s music-only video plan (no VO) and a standard ~30 s VO script for Grace to record, built on the full script gate, planned shot by shot with one total cost, shown on a review page, Ralph pinged, no paid generation.
 
 - [ ] G1: Script gate (Rule 0) passes for both scripts: audience, RESEARCH.md, coach, viral, facts, hooks, humanizer, readability, line sources.
   CHECK: python3 grace/gate.py ugc/thunderfit-silicone-7pack
@@ -24,13 +24,22 @@ Scope: Ralph's 2026-11-03 ask, up to his plan approval: a 10-12 s music-only vid
   EXPECT: SENT_OK
   EVIDENCE: run by hand: SENT_OK
 
-- [ ] G5: No paid generation ran in this job (no paid task ledger, no Kie log).
+- [ ] G5: No paid generation ran before Ralph's approval (plan-stage gate).
   CHECK: python3 ugc/thunderfit-silicone-7pack/tools/checks.py nospend
   EXPECT: NOSPEND_OK
-  EVIDENCE: run by hand: NOSPEND_OK; negative control with a dummy kie_log.json printed FAIL
+  EVIDENCE: NOSPEND_OK at plan stage (before approval); paid work began only after the tapped OK. Now superseded: spend $2.82 = book $0.90 + extra $1.92 (gate.py lock)
 
 - [ ] G6: Ralph was told: phone push + email sent (one line each), and the plan question asked with AskUserQuestion (tappable options).
   EVIDENCE: email sent (Gmail id 1a1a1f3cd76b1ea8); phone push NOT sent: PushNotification not found by ToolSearch this session; tap question asked
 
 - [ ] G7: Brain job note + session log written and pushed; README Status line current; job branch merged to main.
   EVIDENCE: job note + session log pushed, README Status set, merged to main c943b1d; brain check still lists my Active work line (kept while waiting for the OK) and sibling sessions broken links
+
+- [ ] G8: Cut V1 passes the cut-stage gate (coach compare, no text) and is in Drive as CURRENT with a matching size.
+  CHECK: python3 grace/gate.py ugc/thunderfit-silicone-7pack --stage cut
+  EXPECT: GATE OK
+  EVIDENCE: GATE OK --stage cut; Drive file 1IcGIl9r9zmQNVB7VUzU9QWmvjpGgfnjr size 57682199 = local
+- [ ] G9: Job media stored in Drive.
+  CHECK: python3 tools/media/media.py check
+  EXPECT: MEDIA_OK
+  EVIDENCE: MEDIA_OK
