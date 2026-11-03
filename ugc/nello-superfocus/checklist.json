@@ -85,8 +85,10 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
-  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+  "proof": [
+   "research/compare_report.md",
+   "research/compare/compare.md"
+  ]
  },
  "vo_lines_note": "No VO in this cut (Ralph 2026-11-03: 'No VO needed, she will add music for it'); ~30 s scripts kept for Grace to record later",
  "book_ok": {
