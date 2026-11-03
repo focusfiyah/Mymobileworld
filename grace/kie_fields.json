@@ -1,5 +1,5 @@
 {
- "built": "2026-10-26",
+ "built": "2026-11-03",
  "models": {
   "nano-banana-pro": {
    "fields": [
@@ -187,6 +187,25 @@
     "resolution"
    ],
    "doc": "https://docs.kie.ai/market/gpt/gpt-image-2-text-to-image.md"
+  },
+  "wan/3-0-video": {
+   "fields": [
+    "aspect_ratio",
+    "audio",
+    "duration",
+    "first_frame_url",
+    "last_frame_url",
+    "nsfw_checker",
+    "prompt",
+    "reference_audio_urls",
+    "reference_file_urls",
+    "reference_image_urls",
+    "reference_link_urls",
+    "reference_video_urls",
+    "resolution",
+    "seed"
+   ],
+   "doc": "https://docs.kie.ai/market/wan/3-0-video.md"
   }
  }
 }
