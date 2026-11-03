@@ -45,13 +45,14 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Dr. Nice's <em>Boo-Boo Gel</em></h1><p class="sub">Grace, 1 fl oz pump. Music-only video, 12 s, 6 shots, plus a ~30 s script for her own voiceover. Plan for your OK; nothing has been paid for yet.</p></header>
-<section class="ask"><strong>Cut v1 ready for your review (12.0 s, no sound)</strong><ol>
+<section class="ask"><strong>Cut v2 ready (12.0 s, no sound): the gel now goes ON the scrape</strong><ol>
+<li><b>Your note fixed:</b> S3 redone (still + clip, $0.25). The dot starts on the scrape and the fingertip spreads it down along the scrape until the whole scrape is glossy; it never sits on other skin.</li>
 <li>Watch it below. No audio track, so Grace can add her music; no text, no captions; AI finish on (grain, sharpness, saturation down a little).</li>
-<li>Each shot sits on her script line: hook 0-2.4 s (gel dot on the child's fingertip by the pump), scooter 2.4-4.2, knee dab 4.2-6.3, counter 6.3-8.4, backpack pocket 8.4-10.6, end bottle 10.6-12.0.</li>
+<li>Each shot sits on her script line: hook 0-2.4 s (gel dot on the child's fingertip by the pump), scooter 2.4-4.2, gel on the scrape 4.2-6.3, counter 6.3-8.4, backpack pocket 8.4-10.6, end bottle 10.6-12.0.</li>
 <li>Checks: 1080x1920, no frozen or black frames, bright (shot averages 100-143), label right at 2x in every product clip, hookah pipes from the backyard photo painted out and gone in every clip, cut gate OK (compare vs the 10.8M Welly video: 3.3 cuts per 10 s vs their 3.0).</li>
 <li>S5 changed to hand-free (your pick): the bottle stands in the backpack's mesh pocket, push-in.</li>
-<li>Spent: Kie $2.65 of $2.96 (November $18.77 of $100). On your OK: Drive folder with the video + both scripts, then merge.</li></ol></section>
-<section class="box"><h2>Cut v1</h2><video src="cut_v1.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
+<li>Spent: Kie $2.90 of $2.96 (November $19.02 of $100). On your OK: Drive folder with the video + both scripts, then merge.</li></ol></section>
+<section class="box"><h2>Cut v2</h2><video src="cut_v2.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
 <details class="box"><summary><b>Storyboard</b> (S5 redone hand-free)</summary><div class="stgrid">STORY</div></details>
 <details class="box"><summary><b>Plan you approved</b> (all on Kie, $2.96 ceiling; bites left out; HofR later)</summary>
 <section class="ask"><strong>Your OK needed (nothing runs until you answer in the chat)</strong><ol>
@@ -91,7 +92,7 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 <tr class="tot"><td>Ceiling (expected with Flow: $0.96)</td><td class="n">2.96</td></tr></table></div>
 <p class="sub">Order: 6 stills at once, storyboard here for your look, then the Flow kits (S1 first: open pump, two small hands, the gel dot), S2 and S3 on Seedance meanwhile. About 35–40 min of machine time after your OK, plus your stops.</p></section>
 </div>"""
-ST = [("S1","PASS","Open pump, gel dot, label exact; hookahs painted out"),("S2","PASS","Tipped scooter; hookahs painted out"),("S3","PASS","Child dabs the gel on the knee; hookahs painted out"),
+ST = [("S1","PASS","Open pump, gel dot, label exact; hookahs painted out"),("S2","PASS","Tipped scooter; hookahs painted out"),("S3","PASS","Redone: gel dot sits on the scrape"),
  ("S4","PASS","Counter, label exact"),("S5","PASS","Redone hand-free: bottle in the mesh pocket"),("S6","PASS","End shot, one bottle, label exact")]
-page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_{'r3' if i=='S5' else 'r1'}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v=='PASS' else 'bad'}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
+page = page.replace("STORY", "".join(f'<figure class="st"><img src="st/{i}_{'r3' if i=='S5' else 'r2' if i=='S3' else 'r1'}.jpg" alt="{i} still"><figcaption><b class="{'ok' if v=='PASS' else 'bad'}">{i} {v}</b> {n}</figcaption></figure>' for i,v,n in ST))
 Path("review/index.html").write_text(page); print(len(page))

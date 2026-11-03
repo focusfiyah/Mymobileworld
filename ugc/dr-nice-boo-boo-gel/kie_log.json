@@ -441,5 +441,58 @@
   "still": "stills/S5.png",
   "ok": true,
   "score": 0.902
+ },
+ {
+  "t": "2026-11-03 16:29:42",
+  "submitted": "f8ff979ed6a87685ba93a2ddf846d76b",
+  "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of a young child sitting on the green lawn o"
+ },
+ {
+  "t": "2026-11-03 16:30:39",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Vertical 9:16 photo, a single frame from a phone-shot UGC video. Close shot of a young child sitting on the green lawn of the setting photo in denim shorts, the bent knee filling the middle of the frame. On the front of the kneecap, in the centre of the frame and in clear view, is a small light-pink surface scrape about 2 cm long (no blood, no scab). The clear gel dot sits DIRECTLY ON the scrape, covering its middle: not beside it, not above it, not on another part of the knee. The child's RIGHT index fingertip, entering from the top-right edge, touches the gel dot exactly where it sits on the scrape. The hands are a young child's hands (about six years old): small and soft, light-medium skin, short clean natural nails with no polish, no jewellery. Each hand enters from the frame edge with the whole wrist visible and five fingers. No adult hand appears. The gel is one small clear pearl-sized dot, glossy and see-through like water gel, never white, creamy or foamy. Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures. The setting matches the setting reference photo. Every item is plain and unbranded: no brand names, logos or packaging anywhere. No text, no captions, no watermark, no phone UI. Reference images: image 1 = the real photo to use as the setting; image 2 = the approved first shot: the same child's hand, skin and shorts. No bottle, tube, box or product of any kind appears in this frame.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793720543811-6nqz0n2zs4h.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793723371001-xefcn1it17.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "f8ff979ed6a87685ba93a2ddf846d76b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/f8ff979ed6a87685ba93a2ddf846d76b_0_1793723437.jpeg"
+   ]
+  },
+  "costTime": 58
+ },
+ {
+  "t": "2026-11-03 16:31:09",
+  "submitted": "183ecaef75046127f87ad610f48e6a0c",
+  "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The fingertip pushes the clear gel dot slow"
+ },
+ {
+  "t": "2026-11-03 16:32:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Animate this exact first frame: keep its setting, light and framing exactly. The fingertip pushes the clear gel dot slowly DOWN along the pink scrape line, staying on the scrape the whole time and never touching other skin, until the whole scrape is covered with a thin glossy clear film; then the finger lifts straight up and away to the top-right edge. The other hand stays still on the knee. Camera: locked off, tiny handheld sway. The child's hand stays the same small hand with short natural nails; no adult hand appears. No bottle, tube, box or product appears at any time. Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/dr-nice-boo-boo-gel/1793723455150-i6litaakm9.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "183ecaef75046127f87ad610f48e6a0c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793723556708-956t045lwrs.mp4"
+   ]
+  },
+  "costTime": 93
  }
 ]

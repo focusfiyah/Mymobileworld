@@ -3,7 +3,7 @@
 import subprocess, json
 from pathlib import Path
 # (clip, start in clip, length): length = the shot's line window in shots.json
-EDL = [("S1", 0.0, 2.4), ("S2_seedance", 0.5, 1.8), ("S3_seedance", 0.4, 2.1), ("S4", 0.0, 2.1), ("S5", 1.4, 2.2), ("S6", 0.3, 1.4)]
+EDL = [("S1", 0.0, 2.4), ("S2_seedance", 0.5, 1.8), ("S3_seedance", 0.8, 2.1), ("S4", 0.0, 2.1), ("S5", 1.4, 2.2), ("S6", 0.3, 1.4)]
 Path("out").mkdir(exist_ok=True); parts = []
 for i, (c, ss, d) in enumerate(EDL):
     p = f"out/part{i}.mp4"; parts.append(p)
