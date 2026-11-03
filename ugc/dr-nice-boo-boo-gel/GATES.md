@@ -18,5 +18,6 @@
 - [ ] G6: RESEARCH.md has the 7 sections and the 4 role lines
   CHECK: cd /home/user/Mymobileworld/ugc/dr-nice-boo-boo-gel && grep -c "is the hook\.\|is the desire\.\|is the objection killer\.\|is the purchase justification\." research/RESEARCH.md
   EXPECT: /^4$/m
-- [ ] G7: Ralph notified (phone push + email) with the review link (manual)
+- [x] G7: Ralph notified (phone push + email) with the review link (manual)
+  EVIDENCE: Gmail ids 1a1a1fffcdfb011a (plan), 1a1a21a085d39c52 (storyboard), 1a1a233688e1e4c5 (cut v1), 1a1a247457ea6188 (cut v2); push requested each time; Ralph approved cut v2 2026-11-03; Telegram done-message sent (msg 20)
 Later stages (after his OK): stills QC at 2x, test clip, clips, cut + QC + AI finish, REMOVED.md check, Drive folder, merge to main, brain note.
