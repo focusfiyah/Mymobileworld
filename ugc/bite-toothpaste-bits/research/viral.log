@@ -1,0 +1,15 @@
+  #tiktokshopbeauty: 0 videos
+  #tiktokshopskincare: 0 videos
+  #tiktokshopmakeup: 0 videos
+  #tiktokshopfinds: 0 videos
+  #toothpastetablets: 0 videos
+  #toothpaste: 0 videos
+  #oralcare: 0 videos
+  #biteToothpaste: 0 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+0 videos scanned, 0 shop videos posted in the last 30.0 day(s) -> ugc/bite-toothpaste-bits/research/viral/viral-2026-11-03.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url

@@ -1,0 +1,491 @@
+[
+ {
+  "t": "2026-11-03 15:17:12",
+  "submitted": "b5e3e525f377fdf6552531bacaa82f4c",
+  "prompt": "SHOT: eye-level close view across the desk at a laptop, its screen a soft blurred white page with many small browser tab"
+ },
+ {
+  "t": "2026-11-03 15:17:18",
+  "submitted": "92ba6f052512383bffbf0a34e92050df",
+  "prompt": "SHOT: close-up at desk height. Her right hand grips a tall clear glass of ice water turned clear bright fruit-punch red,"
+ },
+ {
+  "t": "2026-11-03 15:17:20",
+  "submitted": "680ff6e1ef8315c077980ebbcc97898e",
+  "prompt": "SIZE FIRST: the tub is small and squat, about 10 cm across and 8 cm tall, a little wider than it is tall, about the size"
+ },
+ {
+  "t": "2026-11-03 15:17:22",
+  "submitted": "c4abee3d162c83c9ec0fd4fa1d5a1ee7",
+  "prompt": "SHOT: close-up of a tall clear glass of ice water turned clear bright fruit-punch red, ice cubes, a clear glass straw on"
+ },
+ {
+  "t": "2026-11-03 15:17:25",
+  "submitted": "5711345614036dacf183aade0fe65994",
+  "prompt": "SIZE FIRST: the tub is small and squat, about 10 cm across and 8 cm tall, a little wider than it is tall, about the size"
+ },
+ {
+  "t": "2026-11-03 15:17:27",
+  "submitted": "edababff6bc8ca928679caef5dbeffc3",
+  "prompt": "SHOT: close-up from above and slightly in front, at desk height. Her right hand holds a clear plastic scoop with a long "
+ },
+ {
+  "t": "2026-11-03 15:17:32",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: eye-level close view across the desk at a laptop, its screen a soft blurred white page with many small browser tabs along the top, nothing readable. In front of the laptop: a white coffee mug half full of cold black coffee, a phone face down, a closed pen. Image 1 is the room reference. Setting: the home office in the room reference (warm light-wood desk, white shelves with teal and blue books, bright window light), softly out of focus. No hands, no people, no tub, no product of any kind. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, realistic skin. No text, no captions, no logos, no readable words on any screen or paper.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009854-bjihk2l7e2a.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "b5e3e525f377fdf6552531bacaa82f4c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/b5e3e525f377fdf6552531bacaa82f4c_0_1793719049.jpeg"
+   ]
+  },
+  "costTime": 33,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:17:52",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the tub is small and squat, about 10 cm across and 8 cm tall, a little wider than it is tall, about the size of a coffee mug and never bigger than her open hand. SHOT: the desk at desk height, the tub standing upright in the centre, front facing the camera, lid closed, beside a tall clear glass of ice water turned clear bright fruit-punch red, ice cubes, a clear glass straw on its right and a closed laptop corner on its left. The tub is the only product in the frame. Image 1 is the product sheet. Image 2 is the real logo close-up. Image 3 is the room reference. THE TUB: the real Nello Superfocus Fruit Punch tub from the product sheet and the logo close-up. A bright white screw lid with fine vertical ribs around its side, about a third of the tub's height. Below it a coral-red label with soft darker-red and orange wave bands wraps the body. Front print, all white: 'nello' in rounded lowercase with a small (R), then 'Focus Drink Mix' in thin italic; below it 'SUPER' in tall bold capitals right beside 'FOCUS' in thin italic capitals with a small TM; lower left a small pale-pink rounded badge 'FRUIT PUNCH' in white bold capitals with a tiny drawing of fruit above it and 'FLAVORED' under it; lower right three small white lines '30 Servings', 'Dietary Supplement', 'Net Wt. 155.4g (5.48oz)'. The print matches the logo close-up letter for letter and colour for colour. No blue badge, no '+ CAFFEINE' tag, no caffeine badge, no fruit, no pouch or packets, no extra marks. No hands or people. Setting: the home office in the room reference (warm light-wood desk, white shelves with teal and blue books, bright window light), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, realistic skin. No captions and no text or logos anywhere except the real print on the tub; no readable words on any screen or paper.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719010130-724pp7q68ft.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719012274-jedkssqf15.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009854-bjihk2l7e2a.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "680ff6e1ef8315c077980ebbcc97898e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/680ff6e1ef8315c077980ebbcc97898e_0_1793719068.jpeg"
+   ]
+  },
+  "costTime": 46,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:17:54",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: close-up of a tall clear glass of ice water turned clear bright fruit-punch red, ice cubes, a clear glass straw on the desk, side view at glass height, filling the middle of the frame; faint pink swirls still drifting in the red water near the top. Image 1 shows the real drink colour. Image 2 is the room reference. Setting: the home office in the room reference (warm light-wood desk, white shelves with teal and blue books, bright window light), softly out of focus. No hands, no people, no tub, no product. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, realistic skin. No text, no captions, no logos, no readable words on any screen or paper.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719010052-9zgfxj47cu.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719012144-i1pvdmee1ys.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c4abee3d162c83c9ec0fd4fa1d5a1ee7",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c4abee3d162c83c9ec0fd4fa1d5a1ee7_0_1793719072.jpeg"
+   ]
+  },
+  "costTime": 46,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:17:55",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: close-up at desk height. Her right hand grips a tall clear glass of ice water turned clear bright fruit-punch red, ice cubes, a clear glass straw around its middle, fingers wrapped around the glass, just lifting it off the desk. Behind it an open spiral notebook with a short handwritten list, the lines are soft and unreadable. No tub, jar or packet in the frame. Image 1 shows the real drink colour. Image 2 is her hand reference. Image 3 is the room reference. HER HAND: Grace's real hand exactly as the hand reference: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, NO rings, NO bracelet, NO watch. The hand enters from the frame edge, the whole wrist shows, nothing of the background shows through the hand. Setting: the home office in the room reference (warm light-wood desk, white shelves with teal and blue books, bright window light), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, realistic skin. No text, no captions, no logos, no readable words on any screen or paper.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719010097-rgeu85818q.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009984-xmqpmvp0p1j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009854-bjihk2l7e2a.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "92ba6f052512383bffbf0a34e92050df",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/92ba6f052512383bffbf0a34e92050df_0_1793719072.jpeg"
+   ]
+  },
+  "costTime": 53,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:17:59",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SHOT: close-up from above and slightly in front, at desk height. Her right hand holds a clear plastic scoop with a long flat handle by its handle, fingers wrapped around it, tipping it over a tall clear glass of ice water so soft pale-pink powder pours into the water. The glass stands on the desk in the centre. No tub, jar or packet in the frame. Image 1 is her hand reference. Image 2 is the room reference. HER HAND: Grace's real hand exactly as the hand reference: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, NO rings, NO bracelet, NO watch. The hand enters from the frame edge, the whole wrist shows, nothing of the background shows through the hand. Setting: the home office in the room reference (warm light-wood desk, white shelves with teal and blue books, bright window light), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, realistic skin. No text, no captions, no logos, no readable words on any screen or paper.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009984-xmqpmvp0p1j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719012010-haela2m49d9.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "edababff6bc8ca928679caef5dbeffc3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/edababff6bc8ca928679caef5dbeffc3_0_1793719076.jpeg"
+   ]
+  },
+  "costTime": 41,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:19:31",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "SIZE FIRST: the tub is small and squat, about 10 cm across and 8 cm tall, a little wider than it is tall, about the size of a coffee mug and never bigger than her open hand. SHOT: close-up on the desk at chest height, front of the tub facing the camera. The tub stands on the desk and her left hand has just closed around its body to pick it up: fingers wrap behind the tub, thumb on its left side below the lid, 'nello', 'SUPER FOCUS' and the FRUIT PUNCH badge stay fully visible. The red drink glass stands behind it, softly out of focus. Image 1 is the product sheet. Image 2 is the real logo close-up. Image 3 is her hand reference. Image 4 is the room reference. THE TUB: the real Nello Superfocus Fruit Punch tub from the product sheet and the logo close-up. A bright white screw lid with fine vertical ribs around its side, about a third of the tub's height. Below it a coral-red label with soft darker-red and orange wave bands wraps the body. Front print, all white: 'nello' in rounded lowercase with a small (R), then 'Focus Drink Mix' in thin italic; below it 'SUPER' in tall bold capitals right beside 'FOCUS' in thin italic capitals with a small TM; lower left a small pale-pink rounded badge 'FRUIT PUNCH' in white bold capitals with a tiny drawing of fruit above it and 'FLAVORED' under it; lower right three small white lines '30 Servings', 'Dietary Supplement', 'Net Wt. 155.4g (5.48oz)'. The print matches the logo close-up letter for letter and colour for colour. No blue badge, no '+ CAFFEINE' tag, no caffeine badge, no fruit, no pouch or packets, no extra marks. HER HAND: Grace's real hand exactly as the hand reference: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, NO rings, NO bracelet, NO watch. The hand enters from the frame edge, the whole wrist shows, nothing of the background shows through the hand. Setting: the home office in the room reference (warm light-wood desk, white shelves with teal and blue books, bright window light), softly out of focus. Vertical 9:16 phone photo, bright neutral daylight from a window, true colours, no yellow or golden cast, realistic skin. No captions and no text or logos anywhere except the real print on the tub; no readable words on any screen or paper.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719010215-rtidu4hgwvm.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719012752-tu3uyd0rkn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009984-xmqpmvp0p1j.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793719009854-bjihk2l7e2a.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5711345614036dacf183aade0fe65994",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/5711345614036dacf183aade0fe65994_0_1793719167.jpeg"
+   ]
+  },
+  "costTime": 137,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:41:26",
+  "submitted": "1a7750fd2fe8d9ed71741e7bf5188014",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and hand exactly. Image2 is the real 'nello Fo"
+ },
+ {
+  "t": "2026-11-03 15:45:06",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and hand exactly. Image2 is the real 'nello Focus Drink Mix SUPER FOCUS' label print with the FRUIT PUNCH badge: it stays on the tub the whole clip and matches Image2 letter for letter and colour for colour. Image3 is the product sheet: keep this exact squat tub shape, small size, white ribbed lid and coral-red label, no added marks, no blue badge, no extra text. Motion: her hand keeps one grip and lifts the tub slowly about a hand's width off the desk toward the lens; the front stays facing the camera, the tub never turns, tilts away or flips. Camera: slow push-in. Vertical 9:16 phone footage, bright neutral daylight, realistic skin. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720467532-obkgzxdf35h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720470186-u9u51sp5pg.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720472543-67l3hhpr9hh.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "1a7750fd2fe8d9ed71741e7bf5188014",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30/1793720700610-lkszl76ixwc.mp4"
+   ]
+  },
+  "costTime": 218,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:45:15",
+  "clip_check": "/home/user/Mymobileworld/ugc/nello-superfocus/clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.901
+ },
+ {
+  "t": "2026-11-03 15:48:53",
+  "submitted": "5def7483e6ee68ceb9718da24418ac16",
+  "prompt": "Recreate reference image 1 exactly as the first frame. Her hand keeps one grip on the scoop handle and tips it a little "
+ },
+ {
+  "t": "2026-11-03 15:49:01",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. The camera pushes in slowly toward the laptop screen; nothing on the desk moves. No hand, fingers or people appear at any time, no product appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720882072-necl7v0q83e.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:49:04",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. The last pink swirls dissolve and the drink settles to an even clear bright red; tiny bubbles rise, the ice turns slightly. The camera pushes in very slowly. No hand, fingers or people appear at any time, no product appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720881935-yq9gdczr5j9.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:49:07",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. Her hand keeps one grip and lifts the glass of red drink smoothly up and out of the top of the frame; the notebook stays on the desk. The camera stays locked off. Same bare hand the whole clip, no rings appear, no face appears, no product appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720882042-zk84o22vxzk.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:49:43",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and objects exactly. Image2 is the real 'nello Focus Drink Mix SUPER FOCUS' label print with the FRUIT PUNCH badge: it stays on the tub the whole clip and matches Image2 letter for letter and colour for colour. Image3 is the product sheet: keep this exact squat tub shape, small size, white ribbed lid and coral-red label, no added marks, no blue badge, no extra text. Motion: the tub and glass stay still; no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tub. Vertical 9:16 phone footage, bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720885451-mvknjxydukp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720890462-xa34cd9m5ie.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793720892392-azq6mr63z3n.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "response": {
+   "code": 402,
+   "msg": "Credits insufficient : Your current balance isn\u2019t enough to run this request. Please top up to continue.",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-03 15:50:16",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. Her hand keeps one grip on the scoop handle and tips it a little further; the pale-pink powder falls into the ice water and starts to cloud it pink-red. The camera stays locked off. Same bare hand the whole clip, no rings appear, no tub or packet appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720881929-61ybd2gv3ou.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "5def7483e6ee68ceb9718da24418ac16",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721007898-prwh8tnq9k.mp4"
+   ]
+  },
+  "costTime": 120,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:50:18",
+  "clip_check": "clips/S2.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.94
+ },
+ {
+  "t": "2026-11-03 15:50:40",
+  "submitted": "ff2d9eed9a6e5b46fe11c16937442a10",
+  "prompt": "Recreate reference image 1 exactly as the first frame. The camera pushes in slowly toward the laptop screen; nothing on "
+ },
+ {
+  "t": "2026-11-03 15:50:43",
+  "submitted": "e599da70276b1bf014774ba4bf42e57a",
+  "prompt": "Recreate reference image 1 exactly as the first frame. The last pink swirls dissolve and the drink settles to an even cl"
+ },
+ {
+  "t": "2026-11-03 15:51:45",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. The last pink swirls dissolve and the drink settles to an even clear bright red; tiny bubbles rise, the ice turns slightly. The camera pushes in very slowly. No hand, fingers or people appear at any time, no product appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720881935-yq9gdczr5j9.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e599da70276b1bf014774ba4bf42e57a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721104012-jsbn75i35x.mp4"
+   ]
+  },
+  "costTime": 66,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:51:47",
+  "clip_check": "clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.934
+ },
+ {
+  "t": "2026-11-03 15:52:14",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. The camera pushes in slowly toward the laptop screen; nothing on the desk moves. No hand, fingers or people appear at any time, no product appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720882072-necl7v0q83e.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ff2d9eed9a6e5b46fe11c16937442a10",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721131000-xaqmtvd8tij.mp4"
+   ]
+  },
+  "costTime": 95,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:52:17",
+  "clip_check": "clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.948
+ },
+ {
+  "t": "2026-11-03 15:52:30",
+  "submitted": "b8b7b91f473e90edd202b47c84fbbdbf",
+  "prompt": "Recreate reference image 1 exactly as the first frame. Her hand keeps one grip and lifts the glass of red drink smoothly"
+ },
+ {
+  "t": "2026-11-03 15:52:59",
+  "submitted": "ad5a4d0b010312a20362c4862c6941b1",
+  "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and objects exactly. Image2 is the real 'nello"
+ },
+ {
+  "t": "2026-11-03 15:54:10",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Recreate reference image 1 exactly as the first frame. Her hand keeps one grip and lifts the glass of red drink smoothly up and out of the top of the frame; the notebook stays on the desk. The camera stays locked off. Same bare hand the whole clip, no rings appear, no face appears, no product appears. Bright neutral daylight, no text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/oqq-wide-leg-pants/1793720882042-zk84o22vxzk.png"
+    ],
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b8b7b91f473e90edd202b47c84fbbdbf",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793721243181-9holmr9j0ni.mp4"
+   ]
+  },
+  "costTime": 99,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-03 15:54:12",
+  "clip_check": "clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.917
+ },
+ {
+  "t": "2026-11-03 15:55:35",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame: keep its desk, light, framing and objects exactly. Image2 is the real 'nello Focus Drink Mix SUPER FOCUS' label print with the FRUIT PUNCH badge: it stays on the tub the whole clip and matches Image2 letter for letter and colour for colour. Image3 is the product sheet: keep this exact squat tub shape, small size, white ribbed lid and coral-red label, no added marks, no blue badge, no extra text. Motion: the tub and glass stay still; no hand, fingers or people appear at any time. Camera: slow dolly-in toward the tub. Vertical 9:16 phone footage, bright neutral daylight. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793721144235-zz4g1ke6dpb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793721146846-07i3luq32hlq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/nello-superfocus/1793721149099-ubchfkmscs.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "ad5a4d0b010312a20362c4862c6941b1",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721330359-chlv1o70iq.mp4"
+   ]
+  },
+  "costTime": 153,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-03 15:55:44",
+  "clip_check": "/home/user/Mymobileworld/ugc/nello-superfocus/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.845
+ }
+]

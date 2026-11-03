@@ -1,0 +1,16 @@
+{
+ "photos": ["refs/real_tub_ralph.jpg", "refs/tub_front_nocaf.png", "refs/logo_closeup.png", "refs/product_sheet.png", "refs/size_in_hand.jpg"],
+ "photos_note": "Ralph's photo = TikTok Shop listing image 1 (brand render, no-caffeine Fruit Punch tub). Listing image 11 = the caffeine tub (adds a blue '+ CAFFEINE' pill and a round '75mg caffeine per serving' badge); which one Grace has is asked in the plan. Only the FRONT of the tub is in any photo, so no shot turns the tub around. Size: no maker dimensions; real tubs in a creator's hand (size_in_hand.jpg) set the size.",
+ "facts": [
+  "tub: squat round plastic tub, a little wider than tall, about palm size (fits in one hand), ~10 cm across x ~8 cm tall (estimate from a real hand photo, not a maker number)",
+  "lid: bright white screw lid with fine vertical ribs all around its side, about a third of the tub's height",
+  "label: wraps the body below the lid, coral-red with soft darker-red and orange wave bands",
+  "front print, white: 'nello' lowercase rounded bold with a small (R), then 'Focus Drink Mix' in thin italic with a small dagger mark",
+  "front print, white: 'SUPER' in tall bold caps right beside 'FOCUS' in thin italic caps, small TM",
+  "lower left: small pale-pink rounded badge 'FRUIT PUNCH' (white bold caps) with a tiny pineapple and fruit drawing above it, 'FLAVORED' under it",
+  "lower right, small white lines: '30 Servings', 'Dietary Supplement', 'Net Wt. 155.4g (5.48oz)'",
+  "scoop: clear plastic scoop with a long flat handle; powder: soft pale pink",
+  "mixed drink: clear bright red fruit-punch colour in a glass of cold water with ice"
+ ],
+ "forbid": ["30 Servings badge", "blue scalloped badge", "orange slice", "cherries", "guava", "pineapple slice", "pouch", "stick packet", "+ CAFFEINE", "pump", "flip cap"]
+}
