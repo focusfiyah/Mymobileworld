@@ -1,0 +1,85 @@
+{
+ "S1": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "refs/pump_open.png",
+   "rooms/pick/backyard.jpg"
+  ],
+  "clip_refs": [
+   "stills/S1.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "refs/pump_open.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "wan"
+ },
+ "S2": {
+  "still_refs": [
+   "rooms/pick/backyard.jpg"
+  ],
+  "clip_refs": [
+   "stills/S2.png"
+  ],
+  "model": "seedance"
+ },
+ "S3": {
+  "still_refs": [
+   "rooms/pick/backyard.jpg",
+   "stills/S1.png"
+  ],
+  "clip_refs": [
+   "stills/S3.png"
+  ],
+  "model": "seedance"
+ },
+ "S4": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "rooms/pick/counter.jpg"
+  ],
+  "clip_refs": [
+   "stills/S4.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "wan"
+ },
+ "S5": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "rooms/pick/kitchen.jpg",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "clip_refs": [
+   "stills/S5.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "refs/product_sheet.png",
+   "../../grace/ref/hand-sheets/no_jewelry.jpg"
+  ],
+  "model": "wan"
+ },
+ "S6": {
+  "still_refs": [
+   "refs/product_sheet.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "rooms/pick/yard_house.jpg"
+  ],
+  "clip_refs": [
+   "stills/S6.png",
+   "refs/closeup_label.png",
+   "refs/closeup_logo.png",
+   "refs/product_sheet.png"
+  ],
+  "model": "wan"
+ }
+}

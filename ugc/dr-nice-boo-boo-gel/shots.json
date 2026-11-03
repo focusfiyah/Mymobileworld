@@ -1,0 +1,42 @@
+{
+ "job": "dr-nice-boo-boo-gel",
+ "blocks": {
+  "size_first": "SIZE FIRST: the bottle is a small 1 fl oz (30 ml) pump bottle about 11 cm tall and 3 cm across, a slim cylinder about 3.3 times as tall as it is wide, exactly the proportions of panel A of image 1. In a child's hand it is about as tall as the whole hand; in an adult hand the fingers wrap all the way around it. It is never bigger than that, and it is never a tube, spray can, jar or dropper.",
+  "product_block": "The product is the REAL Dr. Nice's Boo-Boo Gel bottle in the references: a brushed matte SILVER cap with a flat round top covers the top third; below the cap a thin shiny chrome ring; a SKY-BLUE label band wraps the middle; a brushed silver base band at the bottom. Label print, top to bottom, exactly as the close-ups: 'DR. NICE'S' in white condensed bold capitals with a tiny green leaf over the apostrophe; 'NATURAL PRODUCTS' in small widely spaced white capitals; 'BOO-BOO GEL' in white rounded capitals; a smiling blue furry cartoon monster with two curled golden-yellow horns, small black paws with white tips and an orange bandage across its belly; '1 fl oz (30ml)' in small white letters at the bottom. The print matches the references letter for letter and colour for colour, curves with the bottle and stays inside the blue band; no other marks, no added symbols, no stickers.",
+  "cap_on": "The silver cap is on the bottle.",
+  "open_block": "The cap is OFF and out of the frame: the top of the bottle is a slim SILVER pump head with a small nozzle on a silver neck, exactly as in image 4 (the real cap-off photo); no white parts anywhere on the pump.",
+  "gel_block": "The gel is one small clear pearl-sized dot, glossy and see-through like water gel, never white, creamy or foamy.",
+  "grace_hand": "ONLY one hand enters from the frame edge: Grace's bare adult hand exactly as in her hand reference sheet: medium-brown skin with lighter palms, slim fingers, medium-length squoval nails with mauve-pink polish and crisp white French tips. NO rings on any finger, NO bracelet, NO watch, no jewellery of any kind. Whole wrist visible, a little forearm may show. Five fingers, natural knuckles and skin texture.",
+  "kid_hand": "The hands are a young child's hands (about six years old): small and soft, light-medium skin, short clean natural nails with no polish, no jewellery. Each hand enters from the frame edge with the whole wrist visible and five fingers. No adult hand appears.",
+  "no_hand": "No hands, no fingers, no arms, no people anywhere in the frame at any time, nothing entering at any edge.",
+  "scene_suffix": "Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus on the bottle, realistic textures. The setting matches the setting reference photo. Every other item is plain and unbranded: no brand names or logos on anything except the real Dr. Nice's label. No text, no captions, no watermark, no phone UI.",
+  "scene_suffix_noproduct": "Vertical 9:16 phone photo, bright natural daylight, clean neutral white balance (no yellow, no golden, no dark or moody look), sharp focus, realistic textures. The setting matches the setting reference photo. Every item is plain and unbranded: no brand names, logos or packaging anywhere. No text, no captions, no watermark, no phone UI.",
+  "clip_tail": "Vertical 9:16 phone footage, bright neutral daylight that never changes, realistic skin and textures. No music, no voice, no captions, no on-screen text."
+ },
+ "videos": [
+  {
+   "id": "V1",
+   "seconds": 12,
+   "shots": [
+    {"id": "S1", "line": 1, "words": "", "hand": "kid", "product": true, "open": true, "gel": true, "model": "wan", "room": "rooms/pick/backyard.jpg", "t": [0.0, 2.6],
+     "still": "Close, eye-level shot in the sunny backyard of the setting photo, green lawn soft behind. The child's LEFT hand enters from the bottom-left edge and holds the bottle upright in a full grip: four fingers wrap around the back of the silver base and the blue label band, the thumb rests on the side edge, so the whole front label faces the lens unblocked. The child's RIGHT hand enters from the right edge with the index finger pointing at the nozzle; one small clear gel dot sits on that fingertip. The bottle fills about a third of the frame height.",
+     "motion": "The left hand keeps its grip and holds the bottle still; the right index finger with the clear dot pulls slowly back toward the right edge. The bottle never moves, turns or changes size. Camera: locked off, tiny handheld sway, no zoom."},
+    {"id": "S2", "line": 2, "words": "", "hand": false, "product": false, "model": "seedance", "room": "rooms/pick/backyard.jpg", "t": [2.6, 4.4],
+     "still": "A small child's blue kick scooter lies tipped over on its side on the green lawn of the setting photo, front wheel up, a child's sneaker-scuffed patch of grass beside it; low angle from about knee height.",
+     "motion": "The scooter's raised front wheel spins slowly and comes to a stop; nothing else moves. Camera: slow dolly in toward the wheel."},
+    {"id": "S3", "line": 3, "words": "", "hand": "kid", "product": false, "gel": true, "kid_ref": true, "model": "seedance", "room": "rooms/pick/backyard.jpg", "t": [4.4, 6.6],
+     "still": "Close shot of a young child sitting on the green lawn of the setting photo in denim shorts, the bent knee filling the middle of the frame with a small light-pink surface scrape on the kneecap (no blood, no scab). The child's RIGHT index fingertip, carrying one small clear gel dot, touches the edge of the scrape; the hand enters from the top-right edge.",
+     "motion": "The fingertip dabs the clear gel gently onto the scrape twice in small circles, then lifts away; a thin glossy clear film stays on the skin. Camera: locked off, tiny handheld sway."},
+    {"id": "S4", "line": 4, "words": "", "hand": false, "product": true, "model": "wan", "room": "rooms/pick/counter.jpg", "t": [6.6, 8.6],
+     "still": "Hand-free shot on the white kitchen counter of the setting photo: the bottle stands upright, cap on, front label facing the lens, a little left of centre; the bowl of oranges soft behind it on the right. Camera at counter height, the bottle about 40 percent of the frame height.",
+     "motion": "Nothing moves except the camera. Camera: slow push-in toward the bottle's label."},
+    {"id": "S5", "line": 5, "words": "", "hand": "grace", "product": true, "model": "wan", "room": "rooms/pick/kitchen.jpg", "t": [8.6, 10.4],
+     "still": "In the bright kitchen of the setting photo, a small plain navy-blue child's backpack (no logos, no print) sits on the wooden stool, its open mesh side pocket facing the lens. Grace's hand enters from the right edge holding the bottle upright, cap on, label facing the lens: thumb on the front-left edge, fingers wrapped around the back, the bottle's base just above the pocket opening.",
+     "motion": "The hand keeps its grip and lowers the bottle straight down into the mesh pocket until only the top half shows, label still facing the lens, then lets go and leaves to the right edge. Camera: locked off, tiny handheld sway."},
+    {"id": "S6", "line": 6, "words": "", "hand": false, "product": true, "model": "wan", "room": "rooms/pick/yard_house.jpg", "t": [10.4, 12.0],
+     "still": "Hand-free shot in the sunny garden of the setting photo: ONE bottle stands upright, cap on, label facing the lens, on a low flat grey stone beside the garden path, the house and lawn soft behind. Camera low, at the stone's height; the bottle about 40 percent of the frame height. Only one bottle in the frame.",
+     "motion": "Nothing moves except the camera and the grass in a light breeze. Camera: slow dolly in toward the label."}
+   ]
+  }
+ ]
+}
