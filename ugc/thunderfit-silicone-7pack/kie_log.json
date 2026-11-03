@@ -305,5 +305,356 @@
   "costTime": 90,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-11-03 15:48:04",
+  "submitted": "089c930be5219865146ea76d6658ba34",
+  "prompt": "Recreate Image1 exactly as the first frame, then her thumb and index finger squeeze the ring a little harder so the soft"
+ },
+ {
+  "t": "2026-11-03 15:50:42",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then her thumb and index finger squeeze the ring a little harder so the soft band bends into a tighter oval, then let it spring back round. The camera holds still with a slight handheld drift. Image2 is the real leopard ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793720864115-qxiyjsdon4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793720866099-m3hodmgmc0a.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793720868284-b34z1gadjup.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "089c930be5219865146ea76d6658ba34",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721035231-nhflyamri7.mp4"
+   ]
+  },
+  "costTime": 152,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-03 15:50:49",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S1.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S1.png",
+  "ok": true,
+  "score": 0.878
+ },
+ {
+  "t": "2026-11-03 15:51:52",
+  "submitted": "6cf53b68b02702c341bbc7fe1ab1ab87",
+  "prompt": "Recreate Image1 exactly as the first frame, then her hand lifts the dumbbell a few inches and lowers it once. The camera"
+ },
+ {
+  "t": "2026-11-03 15:51:57",
+  "submitted": "e20d7c2437ce7ba8e96be963391354b8",
+  "prompt": "Recreate Image1 exactly as the first frame, then her hand lifts the strap onto her shoulder line, a small move. The came"
+ },
+ {
+  "t": "2026-11-03 15:52:00",
+  "submitted": "9ef84132cb581a9531ef891e47aa797b",
+  "prompt": "Recreate Image1 exactly as the first frame, then her right fingers slide the ring down her left ring finger to the base "
+ },
+ {
+  "t": "2026-11-03 15:52:02",
+  "submitted": "8f8178082d4cf1b7fd29b74cfed0911d",
+  "prompt": "Recreate Image1 exactly as the first frame, then water runs over her hand and the mug while she turns the mug a little u"
+ },
+ {
+  "t": "2026-11-03 15:52:05",
+  "submitted": "2fcbdb2e4c9091224a930d729b8ae85c",
+  "prompt": "Recreate Image1 exactly as the first frame, then her fingers tap once on the denim. The camera pushes in slightly. Image"
+ },
+ {
+  "t": "2026-11-03 15:52:08",
+  "submitted": "f4d122a9a1742ca5770c5ceaac9d9380",
+  "prompt": "Recreate Image1 exactly as the first frame, then her fingers flex once and relax. The camera pushes in slightly. Image2 "
+ },
+ {
+  "t": "2026-11-03 15:52:19",
+  "submitted": "ffe4c5342674f7f91537f2ddc1d83670",
+  "prompt": "Recreate Image1 exactly as the first frame, then the camera slowly pushes in on the ring. Nothing moves. Image2 is the r"
+ },
+ {
+  "t": "2026-11-03 15:53:05",
+  "submitted": "e4278ab970ced96d1c3037209a015e2a",
+  "prompt": "Recreate Image1 exactly as the first frame, then the camera slowly dollies in along the row of seven rings. The rings do"
+ },
+ {
+  "t": "2026-11-03 15:53:20",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then her hand lifts the strap onto her shoulder line, a small move. The camera follows a little. Image2 is the real light dusty pink ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072576-jlqac0zg7en.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721076295-f1yknz5qhi9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721078304-cum3bowtkuk.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 2,
+    "audio": false
+   }
+  },
+  "taskId": "e20d7c2437ce7ba8e96be963391354b8",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721197437-cx2n1ckf18.mp4"
+   ]
+  },
+  "costTime": 108,
+  "usd": 0.16,
+  "credits": 32.0
+ },
+ {
+  "t": "2026-11-03 15:53:25",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then her hand lifts the dumbbell a few inches and lowers it once. The camera holds steady at hand height. Image2 is the real black ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072526-p9xoz0cavr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721074764-rbr57iyb0j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721076779-wn6nk5auhl.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "6cf53b68b02702c341bbc7fe1ab1ab87",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721195669-l1cnh83cnh.mp4"
+   ]
+  },
+  "costTime": 114,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-03 15:53:27",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S6c.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S6c.png",
+  "ok": true,
+  "score": 0.94
+ },
+ {
+  "t": "2026-11-03 15:53:32",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S4.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S4.png",
+  "ok": true,
+  "score": 0.947
+ },
+ {
+  "t": "2026-11-03 15:53:32",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then her right fingers slide the ring down her left ring finger to the base of the finger and let go. The camera holds steady. Image2 is the real floral ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072837-ykzww4infjo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721076302-8e74hhbdy3t.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721078680-2o4ubfpkzf7.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "9ef84132cb581a9531ef891e47aa797b",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721208917-dzgih28r49i.mp4"
+   ]
+  },
+  "costTime": 108,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-03 15:53:35",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then water runs over her hand and the mug while she turns the mug a little under the tap. The ring stays on her finger. The camera holds steady. Image2 is the real mauve ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072684-u0o2oogta1.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721076242-u0egyict0an.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721078472-y4i9djuelug.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "8f8178082d4cf1b7fd29b74cfed0911d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721214609-os8ycs38ykl.mp4"
+   ]
+  },
+  "costTime": 107,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-03 15:53:40",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S3.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S3.png",
+  "ok": true,
+  "score": 0.967
+ },
+ {
+  "t": "2026-11-03 15:53:42",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S5.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S5.png",
+  "ok": true,
+  "score": 0.886
+ },
+ {
+  "t": "2026-11-03 15:54:01",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then her fingers flex once and relax. The camera pushes in slightly. Image2 is the real white ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072944-70b8xp9dn2c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721075543-j8be0o29n2.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721077534-yx9ord5pzyj.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 2,
+    "audio": false
+   }
+  },
+  "taskId": "f4d122a9a1742ca5770c5ceaac9d9380",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721233522-rthfllxuwgh.mp4"
+   ]
+  },
+  "costTime": 108,
+  "usd": 0.16,
+  "credits": 32.0
+ },
+ {
+  "t": "2026-11-03 15:54:07",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S6a.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S6a.png",
+  "ok": true,
+  "score": 0.856
+ },
+ {
+  "t": "2026-11-03 15:54:08",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then her fingers tap once on the denim. The camera pushes in slightly. Image2 is the real beige ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. The ring stays small, fingertip size, never a bangle. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072679-1r3wmek0h9j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721075655-lahhgxlpm7l.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721077984-625gccu9t1f.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 2,
+    "audio": false
+   }
+  },
+  "taskId": "2fcbdb2e4c9091224a930d729b8ae85c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721239435-v2q1naq6en8.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.16,
+  "credits": 32.0
+ },
+ {
+  "t": "2026-11-03 15:54:15",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S6b.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S6b.png",
+  "ok": true,
+  "score": 0.95
+ },
+ {
+  "t": "2026-11-03 15:54:23",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then the camera slowly pushes in on the ring. Nothing moves. Image2 is the real leopard ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image3 is the reference sheet of the real rings. No hand, fingers or people appear at any time. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. Every ring stays small, fingertip size. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721072763-i2alwxtvei.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721076196-ydgfg512hb.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721078466-pi2cte4xrd.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "ffe4c5342674f7f91537f2ddc1d83670",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721258992-ubxtu7qju6.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-03 15:54:30",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S7.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S7.png",
+  "ok": true,
+  "score": 0.932
+ },
+ {
+  "t": "2026-11-03 15:55:09",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame, then the camera slowly dollies in along the row of seven rings. The rings do not move. Image2 is the real photo of the seven rings: every ring keeps its exact colour, print, width and size in every frame, still exactly seven rings. Image3 is the reference sheet of the real rings. No hand, fingers or people appear at any time. Vertical 9:16 phone footage, bright neutral light, realistic skin and silicone texture. Every ring stays small, fingertip size. No music, no voice, no captions, no on-screen text.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721134075-4vb2seyqf6b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721139314-lxano80p51o.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/thunderfit-silicone-7pack/1793721141393-rj9k1i27t29.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "e4278ab970ced96d1c3037209a015e2a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793721305630-v1cv8x6q24f.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-03 15:55:16",
+  "clip_check": "/home/user/Mymobileworld/ugc/thunderfit-silicone-7pack/clips/S2.mp4",
+  "still": "ugc/thunderfit-silicone-7pack/stills/S2.png",
+  "ok": true,
+  "score": 0.932
  }
 ]

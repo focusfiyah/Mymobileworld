@@ -82,7 +82,10 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare_report.md",
+   "research/compare_v1/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "book_ok": {
@@ -92,5 +95,15 @@
   "total": 0.9,
   "sha256": "63184b98d63da25b4df8d05c926b08f4661243aefa5901626ea65107115ea0e2",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 1.92,
+   "what": "9 Wan 3.0 720P clips (S1 test first)",
+   "by": "Ralph",
+   "quote": "Ralph: \"Just use Kie. Can't make it right now\", then tapped \"S1 test first (Recommended)\" ($0.24 S1 test, then $1.68 for the other 8)",
+   "date": "2026-11-03",
+   "book_sha256": "63184b98d63da25b4df8d05c926b08f4661243aefa5901626ea65107115ea0e2"
+  }
+ ]
 }
