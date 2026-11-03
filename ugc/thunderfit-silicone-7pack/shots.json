@@ -11,9 +11,18 @@
    "kind": "HAND",
    "ring": "leopard (tan base, dark brown and black spots all around)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real leopard ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up at hand height in a bright bedroom (image 4): her right thumb and index finger pinch the leopard ring at the top of the frame, squeezing it slightly into an oval to show it is soft. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_7.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg",
+    "rooms/cand/px_6209462.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then her thumb and index finger squeeze the ring a little harder so the soft band bends into a tighter oval, then let it spring back round. The camera holds still with a slight handheld drift. Image 2 is the real leopard ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S1.png",
+    "refs/ring_7.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S2",
@@ -24,9 +33,17 @@
    "kind": "HAND-FREE",
    "ring": "set of all 7 (black, white, black-and-white floral, beige, light dusty pink, mauve, leopard, left to right)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is the real photo of the seven rings: every colour and print must match image 2 colour for colour. Image 3 is the room. Seven rings standing upright in one row on a light wood vanity tray in a bright room (image 3), left to right: black, white, floral, beige, light dusty pink, mauve, leopard, exactly seven rings, each a separate band, same size, eye-level close-up. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. No hand, fingers or people anywhere in the frame. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 3,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/real_7pack.jpg",
+    "rooms/cand/px_30387008.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then the camera slowly dollies in along the row of seven rings. The rings do not move. Image 2 is the real photo of the seven rings: every ring keeps its exact colour, print, width and size in every frame, still exactly seven rings. Image 3 is the reference sheet of the real rings. No hand, fingers or people appear at any time. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S2.png",
+    "refs/real_7pack.jpg",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S3",
@@ -37,9 +54,18 @@
    "kind": "HAND",
    "ring": "floral (white with black line-drawn flowers and leaves all around)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real floral ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up of her left hand held flat, back of the hand up, fingers spread, against a soft cream sofa (image 4); her right thumb and index finger hold the floral ring at the tip of her bare left ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_3.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg",
+    "rooms/cand/pb_4226020.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then her right fingers slide the ring down her left ring finger to the base of the finger and let go. The camera holds steady. Image 2 is the real floral ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S3.png",
+    "refs/ring_3.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S4",
@@ -49,10 +75,18 @@
    ],
    "kind": "HAND",
    "ring": "black (solid matte black)",
-   "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real black ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up in a bright gym (image 4): her left hand wraps fully around a black dumbbell handle, fingers curled on one side and thumb on the other, the black ring on her ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real black ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Close-up in a bright modern gym with light wood floor and white walls: her left hand wraps fully around a black dumbbell handle, fingers curled on one side and thumb on the other, the black ring on her ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_1.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then her hand lifts the dumbbell a few inches and lowers it once. The camera holds steady at hand height. Image 2 is the real black ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S4.png",
+    "refs/ring_1.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S5",
@@ -63,9 +97,18 @@
    "kind": "HAND",
    "ring": "mauve (dusty rose, deeper pink-brown)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real mauve ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up at a bright white kitchen sink (image 4): her left hand holds a white mug under the running tap, fingers wrapped around the mug, the mauve ring on her ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_6.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg",
+    "rooms/cand/px_18033166.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then water runs over her hand and the mug while she turns the mug a little under the tap. The ring stays on her finger. The camera holds steady. Image 2 is the real mauve ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S5.png",
+    "refs/ring_6.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S6a",
@@ -76,9 +119,18 @@
    "kind": "HAND",
    "ring": "white (solid white)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real white ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up of her left hand resting on the sleeve of a cream knit sweater (image 4), the white ring on her ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_2.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg",
+    "rooms/cand/px_20130631.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then her fingers flex once and relax. The camera pushes in slightly. Image 2 is the real white ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S6a.png",
+    "refs/ring_2.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S6b",
@@ -89,9 +141,18 @@
    "kind": "HAND",
    "ring": "beige (light sand)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real beige ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up of her left hand on the knee of light-blue denim jeans (image 4), the beige ring on her ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_4.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg",
+    "rooms/cand/px_29532563.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then her fingers tap once on the denim. The camera pushes in slightly. Image 2 is the real beige ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S6b.png",
+    "refs/ring_4.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S6c",
@@ -102,9 +163,18 @@
    "kind": "HAND",
    "ring": "light dusty pink (pale lilac-pink)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real light dusty pink ring: its colour and print must match image 2 colour for colour. Image 3 is Grace's real bare hands. Image 4 is the room. Close-up of her left hand holding the strap of a black handbag (image 4), fingers wrapped around the strap, the light dusty pink ring on her ring finger. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. Grace's hand matches image 3 exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no other rings, no bracelet, no watch. The hand enters from the frame edge with the whole wrist visible, nothing shows through the hand. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 4,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_5.png",
+    "../../grace/ref/hand-sheets/no_jewelry.jpg",
+    "rooms/cand/pb_9181557.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then her hand lifts the strap onto her shoulder line, a small move. The camera follows a little. Image 2 is the real light dusty pink ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. The hand keeps one grip and never swaps hands. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S6c.png",
+    "refs/ring_5.png",
+    "refs/product_sheet.png"
+   ]
   },
   {
    "id": "S7",
@@ -115,9 +185,17 @@
    "kind": "HAND-FREE",
    "ring": "leopard (tan base, dark brown and black spots all around)",
    "still": "Image 1 is the product reference sheet of the real 7 rings. Image 2 is a close-up of the real leopard ring: its colour and print must match image 2 colour for colour. Image 3 is the room. One leopard ring lying flat on a folded cream sweater inside an open suitcase on a bright bed (image 3), the only ring in the frame, close-up from above at an angle. The ring is a plain ThunderFit silicone band: 5.5 mm wide, 2 mm thick, rounded dome outside, smooth matte silicone, about the width of a fingernail's tip, a solid ring is one flat colour all the way round and a printed ring has its print all the way round the outer band, no stone, no metal, no text, no logo, no shine spots. No hand, fingers or people anywhere in the frame. Vertical 9:16 phone photo, bright neutral daylight, true colours, no yellow or dark grade, no text, no captions, no logos.",
-   "still_refs": 3,
+   "still_refs": [
+    "refs/product_sheet.png",
+    "refs/ring_7.png",
+    "rooms/cand/px_9186152.jpg"
+   ],
    "clip": "Recreate image 1 exactly as the first frame, then the camera slowly pushes in on the ring. Nothing moves. Image 2 is the real leopard ring: it keeps its exact colour, print, width and size in every frame and never changes shape except where it is pinched. Image 3 is the reference sheet of the real rings. No hand, fingers or people appear at any time. Bright neutral light. No music, no voice, no text.",
-   "clip_refs": 3
+   "clip_refs": [
+    "stills/S7.png",
+    "refs/ring_7.png",
+    "refs/product_sheet.png"
+   ]
   }
  ]
 }
