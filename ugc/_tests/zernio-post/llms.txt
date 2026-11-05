@@ -1,0 +1,1283 @@
+# Zernio API - LLM Documentation
+# https://zernio.com
+# A powerful REST API for scheduling social media posts and messaging across 16 platforms + ad management on 9 ad networks
+
+## Overview
+Zernio is a social media scheduling and messaging API that lets you post to TikTok, Instagram, WhatsApp, Facebook, YouTube, LinkedIn, Twitter/X, Threads, Pinterest, Bluesky, Google Business, Telegram, Snapchat, Discord, and Slack. It includes a unified messaging inbox API to send and receive WhatsApp messages (official Cloud API, zero markup on Meta pricing), Instagram DMs, Facebook Messenger, Telegram, X DMs, and more. It also supports paid advertising across Meta Ads (Facebook + Instagram), Google Ads, TikTok Ads, LinkedIn Ads, Pinterest Ads, X Ads, OpenAI Ads (ChatGPT Ads), Reddit Ads, and Microsoft Ads via a unified /v1/ads endpoint. The Blogs API manages articles on WordPress.com, self-hosted WordPress, Shopify, and Wix without treating those sites as social publishing targets.
+
+**Reddit is temporarily unavailable.** Reddit has blocked third-party apps from its API, so Zernio cannot post to Reddit, read Reddit messages or sync Reddit analytics right now. Your Reddit accounts stay connected, and we will turn Reddit back on as soon as Reddit restores access. Reddit Ads is not affected. Until then the Reddit endpoints below return 503 `PLATFORM_DISABLED`.
+
+Base URL: https://zernio.com/api/v1
+
+## When to Use Zernio
+
+Reach for Zernio when your task involves any of these jobs:
+
+- **Publish or schedule social content programmatically**: post text, images, videos, stories, or reels to one or many of the 16 supported platforms with a single `POST /v1/posts` call, immediately or at a scheduled time.
+- **Add social publishing to a product**: white-label OAuth connect flows let your users link their own social accounts; you post on their behalf via the API.
+- **Send and receive messages**: WhatsApp (official Cloud API), Instagram DMs, Facebook Messenger, Telegram, and X DMs through one unified inbox API, including templates, media, and webhooks for incoming messages.
+- **Get a phone number for calls, SMS and WhatsApp**: search live stock without an API key, buy or port a number, then place and receive calls, send SMS/MMS, and connect WhatsApp on that same number.
+- **Run paid ads programmatically**: create and manage campaigns on Meta, Google, TikTok, LinkedIn, Pinterest, X, OpenAI Ads, Reddit Ads, and Microsoft Ads via `/v1/ads`.
+- **Read analytics**: per-post and per-account metrics across platforms from one endpoint.
+- **Automate engagement**: reply to comments and reviews, set up comment automations, monitor mentions.
+- **Publish blog articles**: connect WordPress.com with OAuth or a self-hosted WordPress site with an Application Password, then manage standard posts through the Blogs API.
+- **Work with your users' email, calendars and files**: connect a Google or Microsoft account and read and send Gmail and Outlook mail (`/v1/email`), manage Google Calendar and Outlook Calendar events (`/v1/calendar`) and Google Drive and OneDrive files (`/v1/files`), with webhooks for new mail and changes.
+
+Do NOT use Zernio for: scraping public social data at scale, growth-hacking automation that violates platform rules, or managing personal browsing sessions. It operates on accounts that users explicitly connect through supported authentication flows.
+
+How to call it: REST with a Bearer API key (see Authentication below). AI agents can instead use the hosted MCP server at https://mcp.zernio.com/mcp (Streamable HTTP, OAuth or API key) — server card at https://zernio.com/.well-known/mcp/server-card.json.
+
+Hit a bug or a missing feature? Report it with `POST /v1/feedback` (see Feedback below). Every report is read by the Zernio team.
+
+MCP tools and setup per channel: [LinkedIn MCP](https://zernio.com/linkedin-mcp), [Google Ads MCP](https://zernio.com/google-ads-mcp), [Meta Ads MCP](https://zernio.com/meta-ads-mcp), [WhatsApp MCP](https://zernio.com/whatsapp-mcp), [YouTube MCP](https://zernio.com/youtube-mcp), [Instagram MCP](https://zernio.com/instagram-mcp), [X (Twitter) MCP](https://zernio.com/x-mcp).
+
+## Phone Numbers, Calls, SMS and WhatsApp
+A phone number is the unit you buy. Calls, SMS and WhatsApp are features you turn on for it, so one number can carry all three. Numbers are billed per number per month and priced by country and number type.
+
+- **Search without a key**: `GET /v1/phone-numbers/available?country=GB` works with no API key. It returns masked numbers, each with a `claimId` and a `claimUrl`. The `claimUrl` is a signup link that lands the user on the dashboard step that confirms the purchase, so an agent without credentials can hand a human a number to buy. A claim is not a hold on the number, and the price is quoted at the confirm step. Optional filters: `numberType`, `areaCode`, `contains`, `sms=true`.
+- **Countries**: `GET /v1/phone-numbers/countries` is public and lists every country we sell numbers in, with number types, monthly price, KYC requirements, live stock, and which of calls, SMS and WhatsApp each supports.
+- **Buy**: `POST /v1/phone-numbers/purchase` (API key). Countries whose regulators ask for ID and an address take a one-time KYC review, then more numbers there are instant.
+- **Port in**: move existing numbers from another carrier via `/v1/phone-numbers/port-in`. Check first with `POST /v1/phone-numbers/port-in/check` (portable, FastPort, current carrier, line type). A person can run the same check without an account at https://zernio.com/port-your-number, and a portable result links through signup to the port form with the number filled in.
+- **Calls**: enable voice on a number with `POST /v1/phone-numbers/{id}/voice`, route inbound calls to a phone, SIP endpoint or WebSocket (AI voice agents), and place outbound calls with `POST /v1/voice/calls`.
+- **SIP trunking** (early access, enabled per workspace on request): `POST /v1/phone-numbers/sip-trunks` creates a trunk to your voice platform (ElevenLabs, Retell, Vapi, LiveKit, or a PBX) and returns digest credentials once; `POST /v1/phone-numbers/{id}/sip-trunk` attaches a number, so its calls ring your platform directly and your platform calls out as that number. TLS with SRTP by default. Overview: https://zernio.com/sip-trunking
+- **SMS/MMS**: on SMS-capable numbers. US sending needs 10DLC registration, which runs through the API.
+- **WhatsApp**: connect the same number to the WhatsApp Cloud API; Meta bills your WhatsApp Business Account directly with no markup. Meta's rates by country and a monthly cost calculator: https://zernio.com/whatsapp-api-pricing
+
+Website search: https://zernio.com/phone-numbers
+Twilio pricing calculator (numbers, SMS, calls and WhatsApp priced on Twilio and Zernio per country, carrier fees included, sourced and dated): https://zernio.com/twilio-pricing-calculator
+Portability checker: https://zernio.com/port-your-number
+Numbers by use: https://zernio.com/virtual-phone-number (overview), https://zernio.com/virtual-phone-number/whatsapp, https://zernio.com/virtual-phone-number/sms, https://zernio.com/toll-free-number, https://zernio.com/business-phone-number
+Docs: https://docs.zernio.com/platforms/phone-numbers
+
+## Google and Microsoft Accounts (Email, Calendar, Files, Contacts)
+A Google or Microsoft connection is one person's mailbox, calendar, drive and contacts. Connect with `GET /v1/connect/google` or `GET /v1/connect/microsoft` and pass `scopes`, a comma-separated subset of `email`, `calendar`, `files`, `contacts` (required on these two platforms). Reconnecting with more areas widens the grant.
+
+- **Email** (`/v1/email`): threads, messages, folders and attachments; send (`POST /v1/email/messages`), reply and reply all (`POST /v1/email/messages/{messageId}/reply`), mark read, star and move. Daily send caps per mailbox: Microsoft 1,000, Google Workspace 500, consumer Gmail 200. Gmail sends need a payment method on the workspace. Inbound mail lands in the unified inbox and fires `message.received`.
+- **Calendar** (`/v1/calendar`): calendars, events (create, update, delete, RSVP), Google Meet or Teams links via `conferencing`, `POST /v1/calendar/free-busy` and `POST /v1/calendar/availability` for open slots across up to 10 accounts. Webhooks: `calendar.event.created`, `calendar.event.updated`, `calendar.event.deleted`.
+- **Files** (`/v1/files`): list, search, upload (file or URL, 100 MB URL cap), folders, rename, move, trash, download and share links. Google uses the `drive.file` scope: only files Zernio created or the user picked through `POST /v1/files/picker-sessions` (hosted Google Picker). Webhooks: `file.created`, `file.updated`, `file.deleted`, `file.picked`.
+- **Contacts**: the account's contacts sync into `/v1/contacts`, matched by email. Webhooks: `contact.updated`, `contact.deleted`.
+
+Overview pages: https://zernio.com/google, https://zernio.com/microsoft, https://zernio.com/email-api, https://zernio.com/calendar-api, https://zernio.com/files-api
+Docs: https://docs.zernio.com/platforms/google, https://docs.zernio.com/platforms/microsoft
+
+## Authentication
+All endpoints require Bearer token authentication using API keys, except the public phone-number search and countries endpoints above.
+
+```
+Authorization: Bearer YOUR_API_KEY
+```
+
+Get your API key by:
+1. Sign up at https://zernio.com/signup
+2. Create an API key in the dashboard
+3. Use the key in the Authorization header
+
+## Rate Limits
+- Free (first 2 connected accounts): 60 requests/minute
+- Paid (any usage-based account, AppSumo): 600 requests/minute
+- High-volume / Enterprise: 1,200 requests/minute (contact support to upgrade)
+
+Posting volume itself is unlimited per connected social account; the rate limit applies only to API request throughput. Per-platform safety caps still apply on the social-network side.
+
+## Core Concepts
+
+### Profile System
+Zernio uses profiles to organize social media accounts:
+- Create multiple profiles per user account
+- **Several accounts per platform per profile**: a profile can hold several accounts of the same platform (e.g., 10 Instagram accounts or 20 Google Business locations). Ads connections stay one per profile
+- Connecting a different account of the same platform adds it as a new account; a reconnect only refreshes the account it was started from
+- Identify accounts by `accountId`, never by profile + platform
+- Posts are scheduled to accounts connected to a specific profile
+- **Multi-tenant**: one profile per end customer. Set `externalId` on the profile to your own customer id: `GET /v1/profiles?externalId=` finds it, a duplicate returns 409 `profile_external_id_conflict` with `details.existingProfileId`, and every webhook tied to a profile carries `profiles: [{ id, externalId }]`, so `profiles[0].externalId` routes the event with no lookup. Guide: https://docs.zernio.com/multi-tenant
+
+### Pricing (usage-based)
+- **Free**: first 2 connected accounts, unlimited social posts, full API access (no credit card required)
+- **Beyond 2 accounts**: pay only for what you use
+  - $6/account/month for accounts 1-10
+  - $3/account/month for accounts 11-100
+  - $1/account/month for accounts 101+ (no cap, fully self-service at any scale)
+  - Optional enterprise contracts with volume discounts from 2,000 accounts (https://zernio.com/enterprise)
+- Analytics, inbox (comments + DMs), ads, and unlimited posts are bundled with every connected account. No separate add-ons or tier upgrades.
+- Connected WordPress, Shopify, Wix, and Webflow sites count as connected accounts even though they are blog integrations rather than social publishing targets.
+- Dedicated phone numbers: from $3/number/month, varies by country and number type (separate from social accounts).
+- X (Twitter) API: pass-through cost at zero markup.
+- Full machine-readable rate card (accounts, X pass-through, phone numbers, calls, SMS, WhatsApp): https://zernio.com/pricing.md
+- WhatsApp API pricing calculator (Meta's per-message and calling rates by country from 1 Oct 2026, plus the number and Zernio fees): https://zernio.com/whatsapp-api-pricing
+- Compare phone number, SMS, call and WhatsApp costs with Twilio for your own countries and volumes: https://zernio.com/twilio-pricing-calculator
+
+Example: Managing 20 Google Business locations needs 20 connected accounts. With the first 2 free, the remaining 18 are: 8 × $6 + 10 × $3 = $78/month.
+
+### Workflow
+1. Create Profile → 2. Connect Social Accounts → 3. Schedule Posts
+
+## API Endpoints
+
+### Profiles
+
+#### List Profiles
+```
+GET /v1/profiles
+```
+Returns all profiles for authenticated user. Filter with `?name=` or `?externalId=` (exact match).
+
+Response:
+```json
+{
+  "profiles": [
+    {
+      "_id": "64f0...",
+      "name": "Personal Brand",
+      "description": "My personal accounts",
+      "color": "#ffeda0",
+      "externalId": null,
+      "isDefault": true,
+      "createdAt": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
+```
+
+#### Create Profile
+```
+POST /v1/profiles
+```
+Body:
+```json
+{
+  "name": "Personal Brand",
+  "description": "My personal accounts",
+  "color": "#ffeda0",
+  "externalId": "cus_8f3a2"
+}
+```
+`externalId` is optional (1 to 255 characters), unique among your profiles.
+
+#### Get Profile
+```
+GET /v1/profiles/{profileId}
+```
+
+#### Update Profile
+```
+PUT /v1/profiles/{profileId}
+```
+Body:
+```json
+{
+  "name": "Updated Name",
+  "description": "Updated description",
+  "color": "#newcolor",
+  "externalId": "cus_8f3a2",
+  "isDefault": false
+}
+```
+Send `"externalId": null` to clear it.
+
+#### Delete Profile
+```
+DELETE /v1/profiles/{profileId}
+```
+Note: Profile must have no connected accounts to be deleted.
+
+### Social Accounts
+
+#### List Connected Accounts
+```
+GET /v1/accounts
+GET /v1/accounts?profileId={profileId}
+```
+Optional query param to filter by profile.
+
+Response:
+```json
+{
+  "accounts": [
+    {
+      "_id": "64e1...",
+      "platform": "twitter",
+      "profileId": "64f0...",
+      "username": "@acme",
+      "displayName": "Acme",
+      "isActive": true
+    }
+  ]
+}
+```
+
+#### Update Account
+```
+PUT /v1/accounts/{accountId}
+```
+Body:
+```json
+{
+  "username": "newusername",
+  "displayName": "New Display Name"
+}
+```
+
+#### Disconnect Account
+```
+DELETE /v1/accounts/{accountId}
+```
+
+### Connect Social Platforms
+
+#### Start OAuth Connection
+```
+GET /v1/connect/{platform}?profileId={profileId}&redirect_url={optional_redirect}
+```
+
+Platforms: twitter, instagram, facebook, youtube, linkedin, threads, tiktok, pinterest (reddit is temporarily unavailable and returns 503 `PLATFORM_DISABLED`)
+
+Optional redirect_url for custom OAuth success/error handling.
+
+Response:
+```json
+{
+  "authUrl": "https://platform.com/oauth/authorize?...",
+  "state": "random_state_string"
+}
+```
+
+#### Complete OAuth (Manual)
+```
+POST /v1/connect/{platform}
+```
+Body:
+```json
+{
+  "code": "oauth_code",
+  "state": "state_from_initial_request",
+  "profileId": "your_profile_id"
+}
+```
+
+#### Connect Ads Accounts
+```
+GET /v1/connect/{platform}/ads?profileId={profileId}&accountId={optional}&redirect_url={optional}
+```
+
+Unified ads-connection endpoint. The `{platform}` is the posting platform name (facebook, instagram, linkedin, tiktok, twitter, pinterest, googleads, redditads, microsoftads), NOT the ads identifier. It creates a dedicated ads account stored with an ads platform value (metaads, linkedinads, pinterestads, tiktokads, xads, googleads, redditads, microsoftads).
+
+There is NO separate completion step and NO `code` to exchange on your side. We complete the OAuth on our own callback, then redirect the browser to your `redirect_url`. Behavior by platform:
+
+- Same-token (facebook, instagram, linkedin, pinterest): if the posting account is already connected with ads scopes, returns `alreadyConnected: true` immediately (no OAuth). Otherwise returns an `authUrl` to authorize.
+- Separate-token (tiktok, twitter): returns an `authUrl`. `accountId` is required for twitter (X Ads), optional for tiktok (omit for ads-only mode).
+- Standalone (googleads, redditads, microsoftads): returns an `authUrl`. `redditads` connects with Reddit's own login, `microsoftads` with a Microsoft account; pick which ad accounts to sync after authorizing.
+
+Optional Meta-only scoping: `adAccountId=act_123` or `adAccountIds=act_1,act_2` to limit sync to specific ad accounts.
+
+Response (OAuth needed):
+```json
+{
+  "authUrl": "https://platform.com/oauth/authorize?...",
+  "state": "random_state_string"
+}
+```
+Response (same-token, already connected):
+```json
+{
+  "alreadyConnected": true,
+  "accountId": "social_account_id",
+  "platform": "metaads"
+}
+```
+
+After the user authorizes, we redirect to your `redirect_url` as-is on success, or with an appended `?error=...` on failure. No state to replay.
+
+#### Connect Bluesky (App Password)
+```
+POST /v1/connect/bluesky/credentials
+```
+Body:
+```json
+{
+  "identifier": "username.bsky.social",
+  "appPassword": "your-app-password",
+  "state": "state_string",
+  "redirectUri": "optional_redirect"
+}
+```
+
+#### Facebook: Select Page
+```
+GET /v1/connect/facebook/select-page?profileId={profileId}&tempToken={tempToken}
+POST /v1/connect/facebook/select-page
+```
+Body:
+```json
+{
+  "profileId": "profile_id",
+  "pageId": "facebook_page_id",
+  "tempToken": "temp_token",
+  "redirect_url": "optional"
+}
+```
+
+#### LinkedIn: Select Organization
+```
+POST /v1/connect/linkedin/select-organization
+```
+Body:
+```json
+{
+  "profileId": "profile_id",
+  "tempToken": "temp_token",
+  "userProfile": {},
+  "accountType": "personal",
+  "selectedOrganization": {},
+  "redirect_url": "optional"
+}
+```
+
+#### Pinterest: Select Board (Headless Mode)
+```
+GET /v1/connect/pinterest/select-board?profileId={profileId}&tempToken={tempToken}
+POST /v1/connect/pinterest/select-board
+```
+GET: Fetch available Pinterest boards for selection UI (use X-Connect-Token header).
+POST Body:
+```json
+{
+  "profileId": "profile_id",
+  "boardId": "pinterest_board_id",
+  "boardName": "Marketing Ideas",
+  "tempToken": "temp_token",
+  "userProfile": {},
+  "redirect_url": "optional"
+}
+```
+
+
+### Connect WordPress Blogs
+
+WordPress is a blogs-only connected account. It is not accepted by `POST /v1/posts` and has no Inbox, social analytics, ads, or SEO-plugin integration.
+
+#### WordPress.com OAuth
+```
+GET /v1/connect/wordpress?profileId={profileId}&redirect_url={optional_redirect}
+```
+
+This starts the WordPress.com OAuth flow. Zernio handles the callback and connects the selected site. Reconnecting the same site to the same profile refreshes that account in place.
+
+#### Self-hosted WordPress
+```
+POST /v1/connect/wordpress/token
+```
+Body:
+```json
+{
+  "profileId": "profile_id",
+  "siteUrl": "https://blog.example.com",
+  "username": "editor",
+  "applicationPassword": "xxxx xxxx xxxx xxxx xxxx xxxx"
+}
+```
+
+The site must use HTTPS. Use a revocable WordPress Application Password, not the user's login password. Zernio discovers the site's REST API and verifies that the authenticated user can publish posts and upload media before saving the connection.
+
+### WordPress Blogs API
+
+Each connected WordPress site exposes one blog. Read its `id` from `GET /v1/accounts/{accountId}/blogs`: WordPress.com uses the selected site's numeric ID; self-hosted WordPress uses `1`. Site and blog creation, renaming, and deletion are not supported.
+
+```
+GET /v1/accounts/{accountId}/blogs
+GET /v1/accounts/{accountId}/blogs/{blogId}
+GET /v1/accounts/{accountId}/blogs/{blogId}/articles
+POST /v1/accounts/{accountId}/blogs/{blogId}/articles
+GET /v1/accounts/{accountId}/blogs/{blogId}/articles/{articleId}
+PATCH /v1/accounts/{accountId}/blogs/{blogId}/articles/{articleId}
+DELETE /v1/accounts/{accountId}/blogs/{blogId}/articles/{articleId}
+```
+
+Create or schedule a standard WordPress post:
+```json
+{
+  "title": "Autumn collection preview",
+  "bodyHtml": "<p>The first pieces land next month.</p>",
+  "handle": "autumn-collection-preview",
+  "excerpt": "A preview of the new collection.",
+  "tags": ["autumn", "news"],
+  "author": "42",
+  "image": {
+    "url": "https://cdn.example.com/autumn.jpg",
+    "altText": "Autumn collection"
+  },
+  "isPublished": true,
+  "publishDate": "2026-10-01T09:00:00.000Z"
+}
+```
+
+A future `publishDate` uses WordPress-native scheduling, not Zernio's social queue. Exact timing on a self-hosted site depends on its cron configuration. SEO plugin fields, custom post types, and a visual blog editor are not supported; unsupported fields return an explicit validation error.
+
+### Connect Wix Blogs
+
+```
+GET /v1/connect/wix?profileId={profileId}&redirect_url={optional_redirect}
+```
+
+Returns an `authUrl` that installs the Zernio app on the user's Wix site. Zernio handles the callback and connects that site. The site needs the Wix Blog app installed. Wix is a blogs-only connected account: it is not accepted by `POST /v1/posts`.
+
+### Wix Blogs API
+
+Each connected Wix site exposes one blog with id `1`. Article ids are Wix GUIDs. `bodyHtml` is converted to Wix's rich content format on write and back to HTML on read (up to 30,000 characters per conversion block); images in the body and the cover image are imported into the site's Media Manager. Tags are created by name when missing. `author` is a Wix site member id; without it, posts are attributed to the site's default author. `seo.title` and `seo.description` are supported. A future `publishDate` uses Wix-native scheduling. Lists return `bodyHtml: null`; get an article to read its body.
+
+### Connect Webflow
+
+```
+POST /v1/connect/webflow/token
+{ "profileId": "{profileId}", "siteToken": "{webflow_site_api_token}" }
+```
+
+Connects one Webflow site with a site API token (Site settings > Apps & integrations > API access, with Sites read-only and CMS read and write). Webflow is a blogs-only connected account: it is not accepted by `POST /v1/posts`.
+
+### Webflow Blogs API
+
+Each CMS collection with a rich text field is a blog; its id is the collection id. Article ids are Webflow item ids. Fields map to the collection by type and slug: `bodyHtml` to the rich text field, `excerpt` to a summary field, `image` to an image field, `tags` to a tags multi-reference (created by name when missing), `author` to an author reference (send the referenced item id). Sending a field the collection lacks returns 400. `isPublished: true` publishes to the live site immediately; the site must have been published once. Webflow's API cannot schedule: a future `publishDate` returns 400. `seo` returns 400.
+
+
+### Posts
+
+#### List Posts
+```
+GET /v1/posts
+GET /v1/posts?page=1&limit=10&status=scheduled&platform=twitter&profileId={id}
+```
+
+Query params:
+- page (default: 1)
+- limit (default: 10, max: 100)
+- status: draft, scheduled, published, failed
+- platform: twitter, instagram, facebook, etc.
+- profileId: filter by profile
+- createdBy: filter by user ID
+- dateFrom: YYYY-MM-DD
+- dateTo: YYYY-MM-DD
+- includeHidden: true/false (default: false)
+
+Response:
+```json
+{
+  "posts": [
+    {
+      "_id": "65f1c0a9e2b5af0012ab34cd",
+      "title": "Launch post",
+      "content": "We just launched!",
+      "status": "scheduled",
+      "scheduledFor": "2024-11-01T10:00:00Z",
+      "timezone": "UTC",
+      "mediaItems": [],
+      "platforms": [
+        {
+          "platform": "twitter",
+          "accountId": "64e1f0...",
+          "status": "pending"
+        }
+      ],
+      "tags": ["launch"],
+      "hashtags": [],
+      "visibility": "public",
+      "createdAt": "2024-10-01T12:00:00Z",
+      "updatedAt": "2024-10-01T12:00:00Z"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 1,
+    "pages": 1
+  }
+}
+```
+
+#### Create Post
+```
+POST /v1/posts
+```
+Body:
+```json
+{
+  "content": "Hello, world! 🌍",
+  "scheduledFor": "2024-01-01T12:00:00Z",
+  "publishNow": false,
+  "isDraft": false,
+  "timezone": "America/New_York",
+  "platforms": [
+    {
+      "platform": "twitter",
+      "accountId": "TWITTER_ACCOUNT_ID"
+    },
+    {
+      "platform": "linkedin",
+      "accountId": "LINKEDIN_ACCOUNT_ID",
+      "customContent": "Professional version of post"
+    }
+  ],
+  "profileId": "PROFILE_ID",
+  "mediaItems": [
+    {
+      "type": "image",
+      "url": "https://your-storage.com/image.jpg"
+    }
+  ],
+  "title": "My Post Title",
+  "tags": ["marketing", "social"],
+  "hashtags": ["startup", "tech"],
+  "visibility": "public"
+}
+```
+
+Options:
+- publishNow: true (publish immediately)
+- isDraft: true (save as draft)
+- scheduledFor: ISO 8601 datetime (schedule for later)
+
+#### Get Single Post
+```
+GET /v1/posts/{postId}
+```
+
+#### Update Post
+```
+PUT /v1/posts/{postId}
+```
+Body: Same as create, any fields to update.
+
+#### Delete Post
+```
+DELETE /v1/posts/{postId}
+```
+Note: Cannot delete already published posts.
+
+#### Retry Failed Post
+```
+POST /v1/posts/{postId}/retry
+```
+Retry publishing a failed or partial post.
+
+#### Bulk Upload Posts (CSV)
+```
+POST /v1/posts/bulk-upload?dryRun=false
+```
+Upload CSV file with multiple posts.
+
+Form data:
+```
+file: posts.csv (multipart/form-data)
+```
+
+### Media
+
+#### Upload Media (Presigned URL)
+```
+POST /v1/media/presign
+```
+Get a presigned URL for uploading files directly (up to 5GB).
+
+Request:
+```json
+{
+  "filename": "video.mp4",
+  "contentType": "video/mp4"
+}
+```
+
+Response:
+```json
+{
+  "uploadUrl": "<presigned-upload-url>",
+  "publicUrl": "https://media.zernio.com/temp/...",
+  "key": "temp/1234_abc_video.mp4",
+  "type": "video"
+}
+```
+
+Then upload directly to the `uploadUrl` with a PUT request:
+```bash
+curl -X PUT "$uploadUrl" -H "Content-Type: video/mp4" --data-binary @video.mp4
+```
+
+Use the `publicUrl` in your posts.
+
+### API Keys
+
+#### List API Keys
+```
+GET /v1/api-keys
+```
+
+#### Create API Key
+```
+POST /v1/api-keys
+```
+Body:
+```json
+{
+  "name": "Production API Key",
+  "permissions": ["read", "write"],
+  "expiresIn": 365
+}
+```
+
+Response includes the key (only shown once):
+```json
+{
+  "message": "API key created",
+  "apiKey": {
+    "id": "key_id",
+    "name": "Production API Key",
+    "key": "late_abc123...",
+    "keyPreview": "late_abc...xyz",
+    "permissions": ["read", "write"],
+    "expiresAt": "2025-01-01T00:00:00Z",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+}
+```
+
+#### Delete API Key
+```
+DELETE /v1/api-keys/{keyId}
+```
+
+### Account Groups
+
+#### List Account Groups
+```
+GET /v1/account-groups
+```
+
+#### Create Account Group
+```
+POST /v1/account-groups
+```
+Body:
+```json
+{
+  "name": "My Social Media Team",
+  "accountIds": ["account1", "account2"]
+}
+```
+
+#### Update Account Group
+```
+PUT /v1/account-groups/{groupId}
+```
+
+#### Delete Account Group
+```
+DELETE /v1/account-groups/{groupId}
+```
+
+### Usage Stats
+
+#### Get Usage Stats
+```
+GET /v1/usage-stats
+```
+
+Response:
+```json
+{
+  "planName": "Pro",
+  "billingPeriod": "monthly",
+  "signupDate": "2024-01-01T00:00:00Z",
+  "limits": {
+    "uploads": 1000,
+    "profiles": 10
+  },
+  "usage": {
+    "uploads": 45,
+    "profiles": 3,
+    "lastReset": "2024-10-01T00:00:00Z"
+  }
+}
+```
+
+### Feedback
+
+#### Submit Feedback
+```
+POST /v1/feedback
+```
+Report a bug, a missing feature or a docs gap straight from your integration. Built for AI agents: when a call fails in a way that looks like our bug, or the API cannot do what you need, send one structured report instead of failing silently. Every submission is read by the Zernio team.
+
+Body:
+```json
+{
+  "type": "missing_feature",
+  "summary": "No way to set a TikTok post's cover frame timestamp",
+  "details": "Scheduling TikTok videos, need to pick the cover frame. Nothing in platformSpecificData controls it.",
+  "endpoint": "POST /v1/posts",
+  "requestId": "the x-request-id header of the failing response",
+  "expected": "What you expected",
+  "actual": "What happened, e.g. the error message",
+  "agent": { "name": "claude-code", "model": "claude-opus-5-5" }
+}
+```
+- `type` (required): `bug`, `missing_feature`, `docs` or `other`
+- `summary` (required): one line, max 200 chars
+- Everything else is optional. `endpoint` and `requestId` let us find the exact failing request.
+
+Response `201`:
+```json
+{ "id": "66f7f0c2a1b2c3d4e5f60799", "status": "received", "duplicate": false }
+```
+Sending the same `summary` again within 24 hours returns the original `id` with `duplicate: true` and a `200`, so retries are safe. Limit: 20 submissions per user per 24 hours (then `429`).
+
+### Platform-Specific Endpoints
+
+#### Facebook: Update Page
+```
+PUT /v1/accounts/{accountId}/facebook-page
+```
+Body:
+```json
+{
+  "selectedPageId": "facebook_page_id"
+}
+```
+
+#### LinkedIn: List Organizations
+```
+GET /v1/accounts/{accountId}/linkedin-organizations
+```
+
+#### LinkedIn: Switch Organization
+```
+PUT /v1/accounts/{accountId}/linkedin-organization
+```
+Body:
+```json
+{
+  "accountType": "organization",
+  "selectedOrganization": {}
+}
+```
+
+#### Pinterest: List Boards
+```
+GET /v1/accounts/{accountId}/pinterest-boards
+```
+
+#### Pinterest: Set Default Board
+```
+PUT /v1/accounts/{accountId}/pinterest-boards
+```
+Body:
+```json
+{
+  "defaultBoardId": "board_id",
+  "defaultBoardName": "Board Name"
+}
+```
+
+Reddit is temporarily unavailable: every Reddit endpoint below returns 503 `PLATFORM_DISABLED` until Reddit restores access.
+
+#### Reddit: List Subreddits
+```
+GET /v1/accounts/{accountId}/reddit-subreddits
+```
+
+#### Reddit: Set Default Subreddit
+```
+PUT /v1/accounts/{accountId}/reddit-subreddits
+```
+Body:
+```json
+{
+  "defaultSubreddit": "r/programming"
+}
+```
+
+#### Reddit: Search Posts
+```
+GET /v1/reddit/search?accountId={id}&q=search+term&subreddit=programming&sort=new&limit=25
+```
+
+#### Reddit: Get Feed
+```
+GET /v1/reddit/feed?accountId={id}&subreddit=programming&sort=hot&limit=25
+```
+
+## Platform-Specific Data
+
+### Twitter Threads
+Use `platformSpecificData.threadItems`:
+```json
+{
+  "platforms": [
+    {
+      "platform": "twitter",
+      "accountId": "TWITTER_ID",
+      "platformSpecificData": {
+        "threadItems": [
+          {
+            "content": "First tweet",
+            "mediaItems": []
+          },
+          {
+            "content": "Second tweet",
+            "mediaItems": []
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+### Threads Threads
+Use `platformSpecificData.threadItems`:
+```json
+{
+  "platforms": [
+    {
+      "platform": "threads",
+      "accountId": "THREADS_ID",
+      "platformSpecificData": {
+        "threadItems": [
+          {
+            "content": "First post",
+            "mediaItems": []
+          },
+          {
+            "content": "Reply",
+            "mediaItems": []
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
+### Facebook First Comment
+```json
+{
+  "platforms": [
+    {
+      "platform": "facebook",
+      "accountId": "FB_ID",
+      "platformSpecificData": {
+        "firstComment": "Check out the link in comments!",
+        "pageId": "optional_page_id"
+      }
+    }
+  ]
+}
+```
+
+### Instagram Stories & Collaborators
+```json
+{
+  "platforms": [
+    {
+      "platform": "instagram",
+      "accountId": "IG_ID",
+      "platformSpecificData": {
+        "contentType": "story",
+        "collaborators": ["username1", "username2"]
+      }
+    }
+  ]
+}
+```
+
+Note: Instagram requires Business accounts. Stories require media.
+
+### LinkedIn First Comment
+```json
+{
+  "platforms": [
+    {
+      "platform": "linkedin",
+      "accountId": "LI_ID",
+      "platformSpecificData": {
+        "firstComment": "Thoughts?"
+      }
+    }
+  ]
+}
+```
+
+### Pinterest Pins
+```json
+{
+  "platforms": [
+    {
+      "platform": "pinterest",
+      "accountId": "PIN_ID",
+      "platformSpecificData": {
+        "title": "My Pin Title (max 100 chars)",
+        "boardId": "board_id",
+        "link": "https://example.com",
+        "coverImageUrl": "https://cover.jpg"
+      }
+    }
+  ]
+}
+```
+
+### TikTok Settings
+TikTok requires extensive settings. Use root-level `tiktokSettings` as a shorthand that applies to all TikTok platforms:
+```json
+{
+  "content": "My TikTok video",
+  "mediaItems": [{"type": "video", "url": "https://example.com/video.mp4"}],
+  "platforms": [{"platform": "tiktok", "accountId": "TIKTOK_ACCOUNT_ID"}],
+  "tiktokSettings": {
+    "privacy_level": "PUBLIC_TO_EVERYONE",
+    "allow_comment": true,
+    "allow_duet": true,
+    "allow_stitch": true,
+    "commercial_content_type": "none",
+    "content_preview_confirmed": true,
+    "express_consent_given": true,
+    "media_type": "video",
+    "auto_add_music": false,
+    "video_made_with_ai": false
+  }
+}
+```
+
+For photo carousels, set `media_type` to `"photo"` and optionally enable `auto_add_music` for TikTok to add recommended music.
+
+Get available privacy levels from TikTok creator info API first. On accounts connected through the TikTok for Business app, which is every new TikTok connection, a VIDEO can only be PUBLIC_TO_EVERYONE; send `tiktokSettings.draft: true` instead to give it any other audience. Photo posts keep every privacy level.
+
+### YouTube Tags & Title
+```json
+{
+  "title": "My Video Title (max 100 chars)",
+  "tags": ["tag1", "tag2"],
+  "visibility": "public"
+}
+```
+
+YouTube constraints:
+- Title ≤ 100 characters
+- Each tag ≤ 100 characters
+- Total tag characters ≤ 500
+- No tag count limit (duplicates removed)
+- Requires video in mediaItems
+
+## Platform Constraints
+
+### Instagram
+- Requires Business accounts
+- Carousels: up to 20 items, cannot mix images/videos
+- Stories: require media, no captions
+- Collaborators: up to 3 usernames (feed/Reels only)
+
+### TikTok
+- Photo carousels: up to 35 images, cannot mix with videos
+- Video title: up to 2200 chars
+- Photo title: automatically truncated to 90 chars (hashtags/URLs stripped). Use description field for full text (up to 4000 chars).
+- Must set privacy_level from creator_info options. Videos on accounts connected through the TikTok for Business app (every new connection) publish public only: use PUBLIC_TO_EVERYONE, or `draft: true` to send the video to TikTok drafts and pick the audience there. Photo posts keep every level.
+- TikTok caps the account at 15 videos plus 15 photo posts a day, counted separately. Enforced as a trailing 24 hour window; a post over the cap is held and published automatically once the window frees up, not rejected.
+- Comments (read, reply, hide, pin, like, delete) work on accounts connected through the TikTok for Business app
+- Required: allow_comment, allow_duet, allow_stitch
+- Must confirm content preview and give express consent
+
+### YouTube
+- Always requires at least one video
+- Title ≤ 100 characters
+- Tags: no count cap, but ≤ 500 total characters
+
+### Facebook
+- Cannot mix videos and images
+- Multiple images: up to 10 via attached_media
+- Multiple videos not supported
+
+### LinkedIn
+- Multi-image: up to 20 images
+- Multi-video not supported
+- Single PDF documents supported
+
+### Pinterest
+- Single video per Pin
+- Single image per Pin (image_url flow)
+- boardId required
+- Title ≤ 100 characters (optional, defaults to first line of content)
+
+### Reddit (temporarily unavailable)
+- Temporarily unavailable while Reddit blocks third-party API access; Reddit targets in a post fail with a `Reddit is temporarily unavailable` error instead of publishing
+- Must select subreddit
+
+## Media Types
+
+Supported media types:
+- image: JPEG, PNG, GIF (static)
+- video: MP4, MOV, etc.
+- gif: Animated GIF
+- document: PDF (LinkedIn only)
+
+Media properties:
+```json
+{
+  "type": "image",
+  "url": "https://publicly-accessible-url.jpg",
+  "filename": "optional.jpg",
+  "size": 524288,
+  "mimeType": "image/jpeg",
+  "thumbnail": "https://video-thumbnail.jpg",
+  "instagramThumbnail": "https://reel-cover.jpg"
+}
+```
+
+Important: URLs must be publicly accessible over HTTPS until upload completes.
+
+## Error Responses
+
+All errors return JSON:
+```json
+{
+  "error": "Error message",
+  "details": {}
+}
+```
+
+HTTP Status Codes:
+- 400: Bad Request (validation error)
+- 401: Unauthorized (invalid/missing API key)
+- 403: Forbidden (quota exceeded, BYOK required)
+- 404: Not Found
+- 409: Conflict (duplicate, already exists)
+- 413: Payload Too Large
+- 429: Rate Limit Exceeded
+- 500: Internal Server Error
+
+## Users & Teams
+
+#### List Users
+```
+GET /v1/users
+```
+List all users (root + invited team members).
+
+#### Get User
+```
+GET /v1/users/{userId}
+```
+
+## Custom Content Per Platform
+
+Each platform in the platforms array can have:
+- customContent: Override the main content for this platform
+- customMedia: Override the main mediaItems for this platform
+
+Example:
+```json
+{
+  "content": "General post content",
+  "mediaItems": [{"type": "image", "url": "https://default.jpg"}],
+  "platforms": [
+    {
+      "platform": "twitter",
+      "accountId": "TWITTER_ID"
+    },
+    {
+      "platform": "linkedin",
+      "accountId": "LINKEDIN_ID",
+      "customContent": "Professional version with custom content",
+      "customMedia": [{"type": "image", "url": "https://professional.jpg"}]
+    }
+  ]
+}
+```
+
+## Timezones
+
+Posts can be scheduled in any timezone:
+```json
+{
+  "scheduledFor": "2024-01-01T12:00:00Z",
+  "timezone": "America/New_York"
+}
+```
+
+Supported timezone format: IANA timezone strings (e.g., "America/New_York", "Europe/London", "UTC")
+
+## Examples
+
+### Example 1: Schedule Simple Text Post
+```bash
+curl -X POST https://zernio.com/api/v1/posts \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "content": "Hello, world! 🌍",
+    "scheduledFor": "2024-01-01T12:00:00Z",
+    "platforms": [
+      {"platform": "twitter", "accountId": "TWITTER_ID"},
+      {"platform": "linkedin", "accountId": "LINKEDIN_ID"}
+    ],
+    "profileId": "PROFILE_ID"
+  }'
+```
+
+### Example 2: Schedule Post with Media
+```bash
+# First upload media
+curl -X POST https://zernio.com/api/v1/media \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -F "files=@image.jpg"
+
+# Then schedule post
+curl -X POST https://zernio.com/api/v1/posts \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "content": "Check out this image! 📸",
+    "scheduledFor": "2024-01-01T12:00:00Z",
+    "platforms": [
+      {"platform": "instagram", "accountId": "IG_ID"}
+    ],
+    "profileId": "PROFILE_ID",
+    "mediaItems": [
+      {"type": "image", "url": "https://media.zernio.com/uploaded-image.jpg"}
+    ]
+  }'
+```
+
+### Example 3: Twitter Thread
+```bash
+curl -X POST https://zernio.com/api/v1/posts \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "platforms": [
+      {
+        "platform": "twitter",
+        "accountId": "TWITTER_ID",
+        "platformSpecificData": {
+          "threadItems": [
+            {"content": "1/ This is a thread about Zernio API"},
+            {"content": "2/ You can schedule threads easily"},
+            {"content": "3/ Just use the threadItems array!"}
+          ]
+        }
+      }
+    ],
+    "profileId": "PROFILE_ID",
+    "scheduledFor": "2024-01-01T12:00:00Z"
+  }'
+```
+
+### Example 4: Multi-Platform with Custom Content
+```bash
+curl -X POST https://zernio.com/api/v1/posts \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "content": "Check out our new feature! 🚀",
+    "platforms": [
+      {
+        "platform": "twitter",
+        "accountId": "TWITTER_ID"
+      },
+      {
+        "platform": "linkedin",
+        "accountId": "LINKEDIN_ID",
+        "customContent": "Excited to announce our new feature that helps businesses streamline their social media workflow. Learn more about how Zernio can transform your content strategy."
+      },
+      {
+        "platform": "instagram",
+        "accountId": "IG_ID",
+        "customContent": "New feature alert! 🎉 #socialmedia #marketing"
+      }
+    ],
+    "profileId": "PROFILE_ID",
+    "publishNow": true
+  }'
+```
+
+### Example 5: Connect Platform via OAuth
+```bash
+# Step 1: Get authorization URL
+curl "https://zernio.com/api/v1/connect/twitter?profileId=PROFILE_ID&redirect_url=https://myapp.com/success" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+
+# Returns: {"authUrl": "https://twitter.com/oauth/...", "state": "xyz"}
+
+# Step 2: User authorizes on Twitter and is redirected back with code
+
+# Step 3: Complete connection (optional manual step)
+curl -X POST https://zernio.com/api/v1/connect/twitter \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "code": "oauth_code_from_callback",
+    "state": "xyz",
+    "profileId": "PROFILE_ID"
+  }'
+```
+
+## Common Workflows
+
+### Workflow 1: First Time Setup
+1. Create API key in dashboard
+2. Create a profile: `POST /v1/profiles`
+3. Connect social accounts: `GET /v1/connect/{platform}?profileId=ID`
+4. List connected accounts: `GET /v1/accounts?profileId=ID`
+5. Schedule first post: `POST /v1/posts`
+
+### Workflow 2: Schedule Content Calendar
+1. Prepare media: `POST /v1/media` (for each image/video)
+2. Create multiple posts: `POST /v1/posts` (with different scheduledFor times)
+3. Monitor posts: `GET /v1/posts?status=scheduled`
+
+### Workflow 3: Multi-Brand Management
+1. Create profile for each brand: `POST /v1/profiles`
+2. Connect accounts to each profile
+3. Schedule to specific profiles
+
+## Best Practices
+
+1. **Store API keys securely**: Never commit API keys to version control
+2. **Handle rate limits**: Implement exponential backoff for 429 responses
+3. **Validate before scheduling**: Check platform constraints before creating posts
+4. **Use webhooks**: Monitor post status changes via webhooks (if available)
+5. **Test with drafts**: Use isDraft: true to test without publishing
+6. **Upload media first**: Upload media via /v1/media before scheduling posts
+7. **Use dryRun**: Test bulk uploads with dryRun=true parameter
+8. **Handle OAuth carefully**: Store state parameter and verify it on callback
+9. **Check usage stats**: Monitor your usage to avoid hitting limits
+10. **Set proper timezones**: Always specify timezone for accurate scheduling
+
+## Support
+
+- Website: https://zernio.com
+- Documentation: https://docs.zernio.com
+- Email: support@zernio.com
+- API Status: https://status.zernio.com
+- Report bugs and missing features from your code or agent: `POST /v1/feedback`
+
+## Additional Resources
+
+- OpenAPI Spec (JSON): https://zernio.com/openapi.json
+- OpenAPI Spec (YAML): https://zernio.com/openapi.yaml
+- API Index: https://zernio.com/api/v1
+- API Catalog (RFC 9727): https://zernio.com/.well-known/api-catalog
+- MCP Server (Streamable HTTP): https://mcp.zernio.com/mcp
+- MCP Server Card: https://zernio.com/.well-known/mcp/server-card.json
+- Official MCP Registry listing: com.zernio/zernio at https://registry.modelcontextprotocol.io
+- Claude Code plugin + agent configs (open source, includes plugin.json): https://github.com/zernio-dev/zernio-claude-plugin
+- Agent Skills Index: https://zernio.com/.well-known/agent-skills/index.json
+- Markdown homepage (Accept: text/markdown on /): https://zernio.com/
+- Machine-readable pricing: https://zernio.com/pricing.md
+- Interactive Docs: https://docs.zernio.com
+- Code Examples: https://docs.zernio.com#examples
+- Changelog: https://zernio.com/changelog
+
+## Versioning and Deprecation
+
+- All endpoints are versioned in the URL path; the current version is v1 (`/api/v1/...`).
+- Breaking changes only ship in a new URL path version; v1 keeps working when that happens.
+- Deprecated operations are marked `deprecated: true` in the OpenAPI spec and announced in the changelog before removal.
+
+## Version
+
+API Version: 1.0.4
+Last Updated: September 2026
