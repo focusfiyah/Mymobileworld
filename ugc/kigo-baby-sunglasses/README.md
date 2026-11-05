@@ -1,0 +1,2 @@
+# KIGO Baby Sunglasses (Grace), scripts V1
+Status: DONE 2026-11-05, scripts only, $0 (no paid call). 5 angles, gate GATE OK. Drive: https://drive.google.com/drive/folders/1LCKihQ4gIh0snx1BDlgAJDXHfKI2RP3a (CURRENT - KIGO Scripts V1, CURRENT - KIGO Research verdict). Claude doc: https://claude.ai/artifact/BsbBxCJTKJobChdgLucXrC. Flagged for Grace: 99.9%, certificates, BPA, food-grade, TPEE 0-3 vs TR90 3-6 age split, foldable, strap. No product photos seen (listing is behind a captcha). Brain: Brain/Jobs/KIGO Baby Sunglasses.md.
