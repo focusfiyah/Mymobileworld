@@ -45,8 +45,11 @@ def main():
         return
     open(state, "w").write(str(hit))
     msg = (f"CONTEXT WATCH: this session is about {pct}% full ({used:,} of {WINDOW:,} tokens). "
-           f"Start your reply with one plain line telling Ralph the context reached {hit}% and asking him to compact the "
-           "session so work can continue; then answer his message as usual. Do not repeat this line later unless told again.")
+           f"Start your reply with a separate bold line: **Context is at {hit}%: please compact this session.** "
+           "Also send him a phone push (PushNotification, load it with ToolSearch select:PushNotification) and an email "
+           "(Composio GMAIL_SEND_EMAIL, account gmail_correa-comus, to life22watch@gmail.com) saying the same in one line "
+           "(Ralph 2026-11-05: he missed the one-line warnings at 51% and 71%). Then answer his message as usual. "
+           "Do not repeat this later unless told again.")
     print(json.dumps({"hookSpecificOutput": {"hookEventName": "UserPromptSubmit", "additionalContext": msg}}))
 
 
