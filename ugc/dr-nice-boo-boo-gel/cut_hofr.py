@@ -6,8 +6,10 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 HOOK = "the bandaid fight|is officially over"   # curiosity text (research/hooks.md V1 option), never names the product
 # Grace's V1 order is S1 S2 S3 S4 S5 S6; HofR opens on the knee, different windows, 1.10 punch-in, bright cool grade
-SEG = [("clips/S3_seedance.mp4", 0.3, 2.5), ("clips/S1.mp4", 1.6, 2.0), ("clips/S2_seedance.mp4", 1.8, 1.6),
-       ("clips/S6.mp4", 1.5, 2.0), ("clips/S5.mp4", 2.2, 2.0), ("clips/S4.mp4", 2.6, 1.9)]
+# HofR V1 + Ralph's VO (Ralph 2026-11-05 tapped "Add VO and use my voice", "12 s script"): each shot sits on its line (scribe word times)
+SEG = [("clips/S3_seedance.mp4", 0.3, 2.5), ("clips/S2_seedance.mp4", 1.75, 2.25), ("clips/S1.mp4", 2.0, 2.35),
+       ("clips/S6.mp4", 0.3, 2.75), ("clips/S5.mp4", 2.4, 2.05), ("clips/S4.mp4", 3.0, 1.7)]
+VO = "vo/hofr/ralph_tight.wav"   # Ralph Azariah clone 5YVjMzHn641xyj0jM38O, eleven_v4, pauses trimmed
 VF = "scale=1188:2112:flags=lanczos,crop=1080:1920,setsar=1,fps=30,eq=brightness=0.02:saturation=0.97,colorbalance=bs=0.03:bm=0.02"
 Path("out/h").mkdir(parents=True, exist_ok=True); parts = []
 for i, (c, ss, d) in enumerate(SEG):
@@ -23,5 +25,9 @@ for i, line in enumerate(HOOK.split("|")): d.text((540, 475 + i * 80), line, fil
 card.save("out/h/hook.png")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "out/h/raw.mp4", "-i", "out/h/hook.png", "-filter_complex",
                 f"[0][1]overlay=0:0:enable='lt(t,{SEG[0][2]})'", "-c:v", "libx264", "-preset", "veryfast", "-crf", "16", "-pix_fmt", "yuv420p", "out/h/text.mp4"], check=True)
-subprocess.run(["bash", "../../.claude/skills/ugc-product-ad/scripts/ai_finish.sh", "out/h/text.mp4", "out/hofr_v1.mp4"], check=True)
-print("OK out/hofr_v1.mp4")
+subprocess.run(["bash", "../../.claude/skills/ugc-product-ad/scripts/ai_finish.sh", "out/h/text.mp4", "out/h/fin.mp4"], check=True)
+dur = sum(s[2] for s in SEG)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", "out/h/fin.mp4", "-i", VO, "-filter_complex",
+                f"[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,apad,atrim=0:{dur},afade=t=out:st={dur-0.15}:d=0.15[a]", "-map", "0:v", "-map", "[a]",
+                "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", "out/hofr_v1_vo.mp4"], check=True)
+print("OK out/hofr_v1_vo.mp4")

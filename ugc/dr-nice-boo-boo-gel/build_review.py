@@ -45,8 +45,12 @@ figure.st img{{aspect-ratio:9/16;object-fit:cover}}.stgrid{{display:grid;grid-te
 </style>
 <div class="wrap">
 <header><h1>Dr. Nice's <em>Boo-Boo Gel</em></h1><p class="sub">Grace, 1 fl oz pump. Music-only video, 12 s, 6 shots, plus a ~30 s script for her own voiceover. Plan for your OK; nothing has been paid for yet.</p></header>
+<section class="ask"><strong>House of Rameau V2: your voice added (13.6 s)</strong><ol><li>Your voice ("Ralph Azariah" clone, same settings as Day One) reads the 12 s script; pauses trimmed, every cut lands between words, echo 90 ms, loudness -15.5 LUFS. 237 ElevenLabs characters, $0 extra.</li><li>Shots re-ordered to sit on the words: knee on "scraped knee", scooter on "bandaid fight", the child with the pump on "dab it on themselves", garden bottle on "every bump", backpack on "one per bag", counter on "orange cart". Still a different order from Grace's.</li><li>Hook card from frame 0 (HOOK_OK), no captions, AI finish on. On your OK it goes to Drive as HofR V2 (V1 moves to Older versions) and Telegram gets "HofR V2".</li></ol></section>
+<section class="box"><h2>House of Rameau V2 (with your voice)</h2><video src="hofr_v2.mp4" controls playsinline loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
+<details class="box"><summary><b>House of Rameau V1</b> (no voice, in Drive)</summary>
 <section class="ask"><strong>House of Rameau V1 (12 s, no sound, hook text on screen)</strong><ol><li>Made from the approved clips for $0: its own order (opens on the gel going on the scrape), different windows, a 1.10 punch-in and a bright cool grade, so TikTok does not see it as a copy of Grace's.</li><li>Hook card "the bandaid fight is officially over" from frame 0 for 2.5 s, inside the safe zone (HOOK_OK). No captions. AI finish on.</li><li>Posting to @houseoframeau only on your OK (draft in its inbox, AI label on).</li></ol></section>
 <section class="box"><h2>House of Rameau V1</h2><video src="hofr_v1.mp4" controls playsinline muted loop style="width:100%;max-width:520px;border-radius:8px"></video></section>
+</details>
 <details class="box"><summary><b>Grace cut v2</b> (approved, in Drive)</summary>
 <section class="ask"><strong>Cut v2 ready (12.0 s, no sound): the gel now goes ON the scrape</strong><ol>
 <li><b>Your note fixed:</b> S3 redone (still + clip, $0.25). The dot starts on the scrape and the fingertip spreads it down along the scrape until the whole scrape is glossy; it never sits on other skin.</li>
