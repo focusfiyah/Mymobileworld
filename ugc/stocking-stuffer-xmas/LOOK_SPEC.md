@@ -1,4 +1,4 @@
-# Stocking Stuffer Finds: campaign look spec (draft for Ralph's OK)
+# Stocking Stuffer Finds: campaign look spec (Ralph OK 2026-11-06)
 
 Client: Grace. Series: "stocking stuffer finds", AI videos with voiceover, running until Christmas (Grace, Telegram 2026-11-06).
 Grace's brief: "the aesthetics have to match the Xmas vibes .. and all the videos we do for this need to match."
@@ -37,6 +37,6 @@ Five products, five main sets; the stocking beat appears in every video but shot
 ## Production route (per product, after Ralph's OK)
 Real Pexels/Pixabay Xmas rooms first as references (free), still storyboard, product reference sheet from Grace's real photos, prompt-master prompts, Flow takes first for product clips, Wan 3.0 720P on Kie as fallback, Seedance 2.0 Mini for product-free shots (mantel, tree). Plan + one cost per product before any spend.
 
-## Open questions for Ralph
-1. Light: bright neutral daytime (rule) vs the warm candle-glow of the screenshots.
-2. Sets: one set family per video (above) vs one identical "hero" room for all five.
+## Ralph's decisions (2026-11-06, tapped)
+1. Light: "Bright neutral (Recommended)".
+2. Sets: "Own spot per video (Recommended)".
