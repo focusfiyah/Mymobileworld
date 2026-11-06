@@ -1,0 +1,2 @@
+# Haiti flag (Grace, 2026-11-06)
+Status: V1 14.0 s cut done, $0, in Drive https://drive.google.com/drive/folders/1A5gJn-h-3vbgsmujYrMNWmGIA_OzntQo ; review https://claude.ai/code/artifact/5022e358-a80b-402b-a9af-607c123bd7ae . Waiting on Ralph's review and Grace's Google email to share the folder. Source: Telegram update 786406553 (464x848, 75 s); original in Drive Originals. Run `python3 cut.py` after restoring orig/IMG_0351.MOV.
