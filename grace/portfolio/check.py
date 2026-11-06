@@ -137,7 +137,7 @@ def grade(text):
 VERBATIM = [
     # 2026-11-06 Grace (Telegram 786406526, then shortened in 786406532: "updating the top para ... to this");
     # Ralph tapped "Use hers word for word (Recommended)" for her hero line.
-    "New York-based UGC creator producing content that gives people a reason to buy.",
+    "New York-based creator producing content that gives people a reason to buy.",  # 786406536: "take out ugc"
 ]
 
 
