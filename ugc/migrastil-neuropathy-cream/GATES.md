@@ -31,7 +31,9 @@ Ask (Grace, Telegram group 2026-11-06; Ralph tapped music only + VO script): a 1
   CHECK: python3 -c "t=open('BOOK.md').read();print('BOOK_OK' if 'Sent to Ralph: https://claude.ai/' in t and t.count('TOTAL: $')==1 else 'BOOK_FAIL')"
   EXPECT: BOOK_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=bd68027b885e853cf19fb9bcdedac0a6948d5f8098f647016414e89ab0ff75c1; exit=0; EXPECT=matched; output-sha256=9e3343135cc993ebad1c7063868498f46d4d79987594dbe5fd96d7c1283ddd4a; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/migrastil-neuropathy-cream; path=7f4fb4b02918/15 entries
-- [ ] G8: Job media in Drive, none in git
+- [x] G8: Job media in Drive, none in git
   CHECK: cd /home/user/Mymobileworld && python3 tools/media/media.py check 2>&1 | tail -1
   EXPECT: MEDIA_OK
-- [ ] G9: Ralph notified (push + email) and asked with tappable options: manual, evidence = tool results in this session
+  EVIDENCE: automatic-evidence=v1; definition-sha256=8b9331d7941d07cafa9ffcedf9d561dcc8860509350068ce0d571402a5c6c2a2; exit=0; EXPECT=matched; output-sha256=8083bc5e3d38fc4812679011f657b4c749435c73ae3358ae5426effe963edf5b; output-bytes=9; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/migrastil-neuropathy-cream; path=7f4fb4b02918/15 entries
+- [x] G9: Ralph notified (push + email) and asked with tappable options: manual, evidence = tool results in this session (push + Gmail sent for plan, stills, S2 test, cut; every decision via AskUserQuestion; cut v1 approved 2026-11-06)
+  EVIDENCE: 2026-11-06 PushNotification + GMAIL_SEND_EMAIL (ids 1a1b2447385f6424, 1a1b256d6068b0f7, 1a1b2604642607a8, 1a1b265701476c53, 1a1b26dab4bee3a4) for plan, stills r1, stills, S2 test, cut; decisions via AskUserQuestion; cut v1 tapped Approved.

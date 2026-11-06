@@ -1,6 +1,6 @@
 # Migrastil Extra Strength Neuropathy Cream (Grace), 2026-11-06
 
-Status: 2026-11-06 PLAN SENT, waiting on Ralph's OK (route, hand sheet, cream colour). Review page https://claude.ai/artifact/DGT4x42YffAsWTvEfBz3oS ; storyboard sent to Grace in Telegram (msg 136) with a request for an open-jar photo. Gate OK, prompts linted, BOOK TOTAL $2.49 (Flow route $1.45, Gemini+Flow $0.82). Spent $0.
+Status: DONE 2026-11-06: cut v1 APPROVED (Ralph tapped "Approved (Recommended)"). Drive Grace Tiktok assets/Migrastil Neuropathy Cream (Grace) https://drive.google.com/drive/folders/1mFN6PssXSP_WTJ5uYERuQgoibKefQEK5 : CURRENT - Migrastil V1.mp4 (84,944,517 bytes, size matches), CURRENT - Migrastil script V1 (Google Doc). Sent to Grace in Telegram (msg 153) for her check; done message to Ralph (msg 154). Kie billed $2.18 of $2.49 (8 stills incl. 2 S6 redos + S3 retry, 2 Wan, 4 Seedance). Review page https://claude.ai/artifact/DGT4x42YffAsWTvEfBz3oS . Room saved as the shared bedroom (grace/rooms/). Next: Grace's notes, if any.
 
 ## Brief (Grace, Telegram group, 2026-11-06 18:44 UTC)
 - "Ai video needed for this", 12-15 seconds.

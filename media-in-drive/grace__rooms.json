@@ -1,0 +1,34 @@
+{
+ "unit": "grace/rooms",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-06",
+   "files": {
+    "grace/rooms/bedroom/roomL_bed.jpg": [
+     297089,
+     "6671722123e57dfee8411b6f81f4fb618774ddf79f9edd8663b2e7da6195d447"
+    ],
+    "grace/rooms/bedroom/roomL_bench.jpg": [
+     294664,
+     "93d2267798a6cc595fc098fd59d42a26b64a4c7ac8b7b78157f5cdf63625beab"
+    ],
+    "grace/rooms/bedroom/roomL_wide.jpg": [
+     346536,
+     "47f469aa340cd3c7abd7e6617ae9b2d9293018ec55bfeade9a111ab32efe2ad7"
+    ]
+   },
+   "parts": [
+    {
+     "name": "grace__rooms.set1.part01.tar",
+     "size": 942080,
+     "sha256": "2053719acd55780823aa09fd8b2dc2d777481f4bef2a0e8de96a569184befd29",
+     "hosted": "2026-11-06",
+     "drive_id": "1WRfLd9hhXh35Ibu2VNAseUt6K4qDQc_9",
+     "drive_folder": "14RXXVW4oEREt4G3XUJUFsI9chUQUncZj"
+    }
+   ]
+  }
+ ]
+}
