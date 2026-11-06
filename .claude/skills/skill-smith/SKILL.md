@@ -23,7 +23,8 @@ it exists. Do not copy those rules into other skills or files; link to them.
   for Ralph to upload. A deployment is never edited by hand; if one was, bring the change back to the source first.
 - **Sending the zip:** send it with SendUserFile, one zip per call, display "attach". Since 2026-11-06 the app makes Ralph
   save zips by hand even when sent exactly as the 2026-10-29 Kinetic Film zip was (that one downloaded on tap), so the
-  change is on the app's side, not the send.
+  change is in the Claude phone app, not the send: the same zip downloads on tap at claude.ai in his phone's browser
+  (tested 2026-11-06). When you send a zip, remind him to tap it at claude.ai.
 - Anthropic's built-in skills (docx, pdf, pptx, xlsx, skill-creator, docs, morning, browser and computer-use
   skills) are not Ralph's and are not stored or edited here.
 
