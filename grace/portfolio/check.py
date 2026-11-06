@@ -133,6 +133,14 @@ def grade(text):
     return 0.39 * len(words) / len(sents) + 11.8 * s / len(words) - 15.59
 
 
+# Client's own words kept verbatim, graded out of the readability check (Ralph's OK per line, recorded here)
+VERBATIM = [
+    # 2026-11-06 Grace (Telegram 786406526): "You didn't replace this ... With this:"; Ralph tapped
+    # "Use hers word for word (Recommended)" for the hero line.
+    "New York-based UGC creator producing TikTok and ad-style content across beauty, wellness, motherhood, fashion, and everyday problem-solving products. From product demos to storytelling, I create content that gives people a reason to buy.",
+]
+
+
 def copy():
     p = Text()
     p.feed(PAGE)
@@ -142,7 +150,10 @@ def copy():
                 r"\d+\s?(usd|dollars)", r" — | – |--", r"\bpackage(s)?\b.*\bprice", r"\bAI\b"]:
         if re.search(pat, text, re.I):
             bad.append(f"banned: {pat}")
-    g = grade(re.sub(r"\b[\w.]+@[\w.]+\b|@\w+|\d[\d.,]*[KM]?", "", text))
+    graded = text
+    for v in VERBATIM:
+        graded = graded.replace(v, " ")
+    g = grade(re.sub(r"\b[\w.]+@[\w.]+\b|@\w+|\d[\d.,]*[KM]?", "", graded))
     print(f"{len(text.split())} words, grade {g:.1f}")
     if g > 8:
         bad.append(f"reading grade {g:.1f} > 8")
