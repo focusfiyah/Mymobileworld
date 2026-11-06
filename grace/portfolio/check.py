@@ -52,6 +52,20 @@ def files():
     return bad
 
 
+def nostats():
+    """v4 (Grace 2026-11-06): no analytics anywhere: no views, likes, saves, shares, followers or short counts like 2.8M / 11.4K."""
+    vis = re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", " ", PAGE)
+    vis = re.sub(r"<[^>]+>", " ", vis)
+    bad = []
+    if "data-stat" in PAGE:
+        bad.append("data-stat tag on the page")
+    for pat in [r"\b\d[\d.,]*\s*[KkMm]\b", r"(?i)\b(views|likes|saves|shares|followers)\b"]:
+        for m in re.findall(pat, vis):
+            bad.append(f"analytics text: {m!r}")
+    print(f"{len(vis.split())} visible words checked for numbers")
+    return bad
+
+
 def stats():
     data = json.loads((ROOT / "videos.json").read_text())
     acct = data["account"]
@@ -137,8 +151,8 @@ def copy():
 
 if __name__ == "__main__":
     mode = sys.argv[1]
-    problems = {"files": files, "stats": stats, "copy": copy}[mode]()
+    problems = {"files": files, "stats": stats, "nostats": nostats, "copy": copy}[mode]()
     for b in problems:
         print("FAIL", b)
-    print({"files": "FILES_OK", "stats": "STATS_OK", "copy": "COPY_OK"}[mode] if not problems else "CHECK_FAILED")
+    print({"files": "FILES_OK", "stats": "STATS_OK", "nostats": "NOSTATS_OK", "copy": "COPY_OK"}[mode] if not problems else "CHECK_FAILED")
     sys.exit(1 if problems else 0)

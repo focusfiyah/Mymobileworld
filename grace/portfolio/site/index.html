@@ -1,564 +1,251 @@
-<meta charset="utf-8">
 <title>Grace With The Glow</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Grace With The Glow: UGC creator and TikTok Shop affiliate. Beauty, fashion, lifestyle and everyday problem-solvers, filmed in her own home.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&family=Yellowtail&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap">
 <style>
-/* Layout: a light green, almost white page (Grace 2026-10-30); pink is the accent (logotype, buttons, the TikTok tile); white box fronts hold her videos. No account numbers on the page (Grace 2026-10-30). */
-:root {
-  --pink: #d0206a;          /* the hue, at full strength, everywhere */
-  --pink-deep: #8e0f45;     /* same hue, shadowed: handle, shadows, ink on white */
-  --pink-ink: #4a0722;      /* same hue, darkest: body text on white box fronts */
-  --white: #ffffff;         /* box fronts */
-  --bg: #f1f8f2;            /* the page: super light green, almost white (Grace 2026-10-30) */
-  --ink: #2a1019;           /* text on the page */
-  --gloss: rgb(255 255 255 / 0.22);
-  --shadow: 0 1px 2px rgb(20 60 30 / 0.10), 0 10px 24px -8px rgb(20 60 30 / 0.16), 0 28px 60px -24px rgb(20 60 30 / 0.20);
-  --font-script: "Yellowtail", "Brush Script MT", cursive;
-  --font-sans: "Urbanist", "Avenir Next", "Segoe UI", system-ui, sans-serif;
-  --step--1: clamp(0.84rem, 0.8rem + 0.2vw, 0.95rem);
-  --step-0: clamp(1rem, 0.96rem + 0.22vw, 1.13rem);
-  --step-1: clamp(1.25rem, 1.12rem + 0.6vw, 1.6rem);
-  --step-2: clamp(1.7rem, 1.4rem + 1.4vw, 2.6rem);
-  --step-3: clamp(3.4rem, 2.2rem + 6vw, 7.6rem);
-  --r-box: 28px;
-  --pad-box: 10px;
-  --r-window: calc(var(--r-box) - var(--pad-box));
-  --tabs-dur: 250ms;
-  --tabs-ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --swap-dur: 150ms;
-  color-scheme: light;
+/* Layout: Grace's Canva "Creator Pathway" one-pager, section for section (hero, meet the creator,
+   recent UGC examples 4 x 2, what to expect, final call to action), in her powder pink (option A).
+   One committed light look by her choice, every colour set explicitly. */
+:root{
+  --bg:#f8e4e6;        /* powder pink A, Grace 2026-11-06 */
+  --bg-deep:#f2d3d7;   /* frames and the closing band */
+  --ink:#2b2326;
+  --ink-soft:#5a4a4f;
+  --rose:#b8546c;      /* accent: buttons, accent words, numbers */
+  --white:#fffafa;
+  --display:"Poppins",ui-sans-serif,system-ui,"Segoe UI",Arial,sans-serif;
+  --body:"Poppins",ui-sans-serif,system-ui,"Segoe UI",Arial,sans-serif;
+  --r:22px;
 }
-* { box-sizing: border-box; }
-html { background: var(--bg); scroll-behavior: smooth; scroll-padding-top: 24px; }
-body {
-  background: var(--bg);
-  color: var(--ink);
-  font-family: var(--font-sans);
-  font-size: var(--step-0);
-  line-height: 1.55;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-}
-::selection { background: var(--pink); color: var(--white); }
-html { scrollbar-color: var(--pink) var(--bg); }
-:focus-visible { outline: 3px solid var(--pink-deep); outline-offset: 3px; border-radius: 12px; }
-.box :focus-visible { outline-color: var(--pink-deep); }
-a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 2px; }
-h1, h2, h3 { text-wrap: balance; margin: 0; }
-p { text-wrap: pretty; margin: 0; }
-.num { font-variant-numeric: tabular-nums; }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1160px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+section{padding-block:clamp(56px,8vw,96px)}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.02em}
+h2{font-size:clamp(34px,5vw,56px);font-weight:800;line-height:1.02}
+h2 em,h1 em{font-style:normal;color:var(--rose)}
+p{margin:0;text-wrap:pretty}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px;border-radius:8px}
 
-.wrap {
-  width: 100%;
-  max-width: 1180px;
-  margin-inline: auto;
-  padding-left: max(16px, env(safe-area-inset-left, 0px));
-  padding-right: max(16px, env(safe-area-inset-right, 0px));
-}
+/* top bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.brand{font-weight:800;font-size:17px;letter-spacing:-.01em;text-decoration:none}
+.brand span{color:var(--rose)}
+.links{display:flex;gap:22px;font-weight:600;font-size:15px}
+.links a{text-decoration:none;padding:10px 2px}
+.links a:hover{color:var(--rose)}
 
-/* ---------- top row ---------- */
-.top { padding-block: 18px 0; }
-.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-.top .pill { min-height: 44px; padding: 8px 18px; font-size: var(--step--1); }
-.handle { color: var(--pink-deep); font-weight: 700; letter-spacing: 0.02em; text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
-.handle:hover { text-decoration: underline; }
+/* buttons */
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;border:1.5px solid var(--rose);transition:transform .15s ease,background-color .15s ease,color .15s ease}
+.btn--fill{background:var(--rose);color:var(--white)}
+.btn--line{color:var(--rose);background:transparent}
+.btn:hover{transform:translateY(-1px)}
+.btn--line:hover{background:var(--rose);color:var(--white)}
+.btn:active{transform:scale(.97)}
 
-/* ---------- pills (gloss) ---------- */
-.pill {
-  --pill-bg: var(--pink);
-  --pill-fg: var(--white);
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  min-height: 48px;
-  padding: 10px 22px;
-  border: 0;
-  border-radius: 999px;
-  background: var(--pill-bg);
-  color: var(--pill-fg);
-  box-shadow: 0 6px 16px -8px rgb(142 15 69 / 0.45);
-  font: 700 var(--step-0) / 1 var(--font-sans);
-  letter-spacing: 0.01em;
-  text-decoration: none;
-  cursor: pointer;
-  transition-property: scale, background-color, color;
-  transition-duration: 160ms;
-  transition-timing-function: ease-out;
-}
-.pill::after {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 -60%;
-  width: 45%;
-  z-index: -1;
-  background: linear-gradient(100deg, transparent, var(--gloss), transparent);
-  transform: skewX(-18deg) translateX(0);
-  transition: transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
-}
-.pill:hover::after { transform: skewX(-18deg) translateX(420%); }
-.pill:active { scale: 0.96; }
-.pill svg { width: 20px; height: 20px; flex: none; }
-.pill--white { --pill-bg: var(--pink); --pill-fg: var(--white); box-shadow: 0 6px 16px -6px rgb(142 15 69 / 0.5); }
-.pill--ring { --pill-bg: var(--white); --pill-fg: var(--pink); box-shadow: inset 0 0 0 2px var(--pink); }
-.pill--ring::after { background: linear-gradient(100deg, transparent, rgb(208 32 106 / 0.12), transparent); }
-.pill--ink { --pill-bg: var(--pink); --pill-fg: var(--white); box-shadow: 0 6px 16px -8px rgb(142 15 69 / 0.45); }
+/* hero */
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,6vw,80px);align-items:center}
+.hero h1{font-size:clamp(46px,7.4vw,92px);font-weight:800;line-height:.96}
+.hero .lede{font-size:clamp(16px,1.6vw,18px);color:var(--ink-soft);max-width:34ch;margin:26px 0 32px}
+.proof{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:26px;font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--rose)}
+.proof li{list-style:none;display:flex;align-items:center;gap:18px}
+.proof li+li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rose);opacity:.5;margin-left:-0px}
+.proof{padding:0;margin-bottom:0}
+.hero-photo{margin:0;justify-self:end;width:100%;max-width:420px}
+.hero-photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r);box-shadow:0 24px 60px rgba(60,20,30,.16)}
 
-/* ---------- the box (white packaging front with a video window) ---------- */
-.box {
-  position: relative;
-  background: var(--white);
-  color: var(--pink-ink);
-  border-radius: var(--r-box);
-  padding: var(--pad-box);
-  box-shadow: var(--shadow);
-}
-.window {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--r-window);
-  aspect-ratio: 9 / 16;
-  max-width: 100%;
-  background: var(--pink-deep);
-  outline: 1px solid oklch(0 0 0 / 0.1);
-  outline-offset: -1px;
-}
-.window video, .window img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-.window::after { /* the clear plastic of a box window: one static diagonal sheen */
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(118deg, rgb(255 255 255 / 0.16) 0%, rgb(255 255 255 / 0.03) 26%, transparent 27%);
-}
-.window.is-playing::after { opacity: 0; }
-.play {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  display: grid;
-  place-items: center;
-  border: 0;
-  padding: 0;
-  background: transparent;
-  cursor: pointer;
-  color: var(--pink);
-}
-.play span {
-  display: grid;
-  place-items: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: var(--white);
-  box-shadow: 0 8px 22px -6px rgb(0 0 0 / 0.6);
-  transition: scale 160ms ease-out;
-}
-.play:hover span { scale: 1.06; }
-.play:active span { scale: 0.96; }
-.play svg { width: 26px; height: 26px; margin-left: 4px; } /* optical centring of the triangle */
-.window.is-playing .play { display: none; }
+/* meet the creator */
+.meet .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(32px,6vw,72px);align-items:start}
+.intro{position:relative;margin:0;border-radius:var(--r);overflow:hidden;background:var(--bg-deep);aspect-ratio:9/16;max-width:380px;width:100%;box-shadow:0 18px 44px rgba(60,20,30,.12)}
+.intro video{display:block;width:100%;height:100%;object-fit:cover}
+.meet .sub{font-weight:600;font-size:17px;margin:14px 0 30px}
+.adv{display:grid;gap:22px;padding:0;margin:0 0 34px}
+.adv li{list-style:none;display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.adv svg{width:30px;height:30px;stroke:var(--rose);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-top:2px}
+.adv h3{font-size:17px;font-weight:700;letter-spacing:0;text-transform:uppercase}
+.adv p{font-size:15px;color:var(--ink-soft);margin-top:2px}
+.cats-h{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:12px}
+.cats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 24px;padding:0;margin:0}
+.cats li{list-style:none;font-weight:700;color:var(--rose);font-size:16px;display:flex;gap:8px;align-items:center}
+.cats li::before{content:"★";font-size:14px}
 
-/* ---------- hero ---------- */
-.hero { padding-block: 28px 72px; }
-.hero .wrap { display: grid; justify-items: center; }
-.logotype {
-  position: relative;
-  z-index: 3;
-  font-family: var(--font-script);
-  font-weight: 400;
-  font-size: var(--step-3);
-  line-height: 0.9;
-  color: var(--pink);
-  transform: rotate(-7deg);
-  margin: 0 0 -0.32em;
-  text-align: center;
-  letter-spacing: 0;
-  -webkit-text-stroke: 0.07em var(--white);
-  paint-order: stroke fill;
-  text-shadow: 0 0.05em 0.12em rgb(142 15 69 / 0.28);
-  max-width: 100%;
-}
-.hero-box {
-  width: min(100%, 440px);
-  display: grid;
-  gap: 18px;
-  padding-bottom: 22px;
-}
-.hero-copy { display: grid; gap: 16px; padding-inline: 12px; }
-.hero-copy h1 { font-size: var(--step-1); line-height: 1.2; font-weight: 800; color: var(--pink-ink); }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-#hero-video { opacity: 0; }
-.window.is-playing #hero-video { opacity: 1; }
+/* videos */
+.work .head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:34px}
+.work .head p{color:var(--ink-soft);max-width:36ch}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(14px,2vw,26px)}
+.card{margin:0}
+.win{position:relative;aspect-ratio:9/16;border-radius:18px;overflow:hidden;background:var(--bg-deep);box-shadow:0 14px 34px rgba(60,20,30,.12)}
+.win img,.win video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.play{position:absolute;inset:0;width:100%;border:0;background:transparent;cursor:pointer;display:grid;place-items:center;padding:0}
+.play span{width:58px;height:58px;border-radius:50%;background:rgba(255,250,250,.92);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.18);transition:transform .15s ease}
+.play:hover span{transform:scale(1.06)}
+.play svg{width:22px;height:22px;fill:var(--rose);margin-left:3px}
+.win.is-playing .play,.win.is-playing img{display:none}
+.card figcaption{margin-top:14px;text-align:center;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+.card figcaption small{display:block;font-weight:500;letter-spacing:0;text-transform:none;font-size:13px;color:var(--ink-soft);margin-top:2px}
 
+/* what to expect */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,4vw,48px);padding:0;margin:44px 0 0}
+.steps li{list-style:none;position:relative}
+.steps .n{font-family:var(--display);font-weight:800;font-size:clamp(48px,6vw,68px);line-height:1;color:var(--rose);display:flex;align-items:center;gap:14px}
+.steps li:not(:last-child) .n::after{content:"";flex:1;height:2px;background:var(--ink);opacity:.2;border-radius:2px}
+.steps h3{font-size:19px;font-weight:700;margin:16px 0 6px;letter-spacing:-.01em}
+.steps p{color:var(--ink-soft);font-size:15px;max-width:30ch}
+.expect .lede{color:var(--ink-soft);margin-top:14px;max-width:46ch}
 
-@media (min-width: 1000px) {
-  .hero { padding-block: 12px 72px; }
-  .hero-box {
-    width: min(100%, 900px);
-    grid-template-columns: 380px minmax(0, 1fr);
-    align-items: end;
-    gap: 40px;
-    padding: var(--pad-box) 48px var(--pad-box) var(--pad-box);
-  }
-  .hero-copy { padding: 0 0 36px; gap: 22px; }
-  .hero-copy h1 { font-size: var(--step-2); line-height: 1.12; letter-spacing: -0.01em; }
-}
+/* closing */
+.close{background:var(--bg-deep)}
+.close .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(32px,6vw,72px);align-items:center}
+.fade{margin:0;position:relative;border-radius:var(--r);overflow:hidden;max-width:420px;width:100%}
+.fade img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 18%}
+.fade::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 55%,var(--bg-deep) 100%),linear-gradient(0deg,var(--bg-deep) 0%,transparent 30%)}
+.close .lede{color:var(--ink-soft);margin:18px 0 30px;max-width:40ch;font-size:17px}
+.mail{margin-top:26px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;font-size:15px}
+.mail code{font-family:var(--body);font-weight:600;user-select:all}
+.copy{min-height:40px;padding:0 16px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;font:600 13px var(--body);color:var(--ink);cursor:pointer}
+.copy.is-done{border-color:var(--rose);color:var(--rose)}
+footer{padding-block:28px;font-size:13px;color:var(--ink-soft)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 
-/* ---------- sections ---------- */
-section { padding-block: 64px; }
-.section-head { display: grid; gap: 10px; max-width: 60ch; margin-bottom: 32px; }
-.section-head h2 { font-size: var(--step-2); line-height: 1.08; font-weight: 800; letter-spacing: -0.02em; }
-
-.shelf {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(16px, 3vw, 36px);
-  align-items: start;
+/* phone */
+@media (max-width:900px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
-.shelf .box { display: grid; gap: 14px; padding-bottom: 20px; }
-.shelf .box:nth-child(2) { margin-top: 48px; }
-.shelf .box:nth-child(3) { margin-top: 18px; }
-.label { display: grid; gap: 6px; padding-inline: 8px; min-width: 0; }
-.label h3 { font-size: var(--step-1); line-height: 1.15; font-weight: 800; color: var(--pink-ink); }
-.label p { font-size: var(--step--1); color: var(--pink-ink); }
-.stats {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 1fr);
-  gap: 4px;
-  margin: 4px 8px 0;
-  padding-top: 12px;
-  border-top: 1px solid rgb(0 0 0 / 0.14);
-  font-variant-numeric: tabular-nums;
+@media (max-width:760px){
+  .hero .wrap,.meet .wrap,.close .wrap{grid-template-columns:1fr}
+  .hero-photo{justify-self:start;max-width:360px}
+  .intro{max-width:320px}
+  .steps{grid-template-columns:1fr}
+  .steps li .n::after{display:none}
+  .fade::after{background:linear-gradient(0deg,var(--bg-deep) 0%,transparent 35%)}
 }
-.stats div { display: grid; gap: 1px; min-width: 0; }
-.stats dt { font-size: 0.78rem; font-weight: 600; color: var(--pink-deep); letter-spacing: 0.03em; }
-.stats dd { margin: 0; font-size: 1.05rem; font-weight: 800; color: var(--pink-ink); white-space: nowrap; }
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: clamp(14px, 2.4vw, 26px);
-}
-.grid .box { display: grid; gap: 12px; padding-bottom: 16px; }
-.shelf + .grid { margin-top: clamp(28px, 4vw, 48px); }
-.rank {
-  position: absolute;
-  z-index: 3;
-  top: 10px;
-  left: 10px;
-  min-width: 38px;
-  height: 38px;
-  padding-inline: 10px;
-  display: grid;
-  place-items: center;
-  border-radius: 999px;
-  background: var(--white);
-  color: var(--pink);
-  font-weight: 800;
-  font-size: 1rem;
-  font-variant-numeric: tabular-nums;
-  box-shadow: 0 4px 10px -4px rgb(0 0 0 / 0.5);
-}
-.label .views { font-variant-numeric: tabular-nums; }
-.label .views b { font-weight: 800; }
-.more-tile { text-decoration: none; transition: scale 160ms ease-out; }
-.more-tile:active { scale: 0.98; }
-.more-window { display: grid; place-items: center; background: var(--pink); }
-.more-window p { color: var(--white); text-align: center; font-weight: 700; font-size: 0.95rem; line-height: 1.2; padding: 12px; }
-.more-window b { display: block; font-size: clamp(2rem, 1.4rem + 2vw, 3rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1; margin-bottom: 6px; }
-.more-tile:hover h3 { text-decoration: underline; text-underline-offset: 0.2em; }
-.grid .label h3 { font-size: 1.06rem; }
-.grid .label p { font-size: 0.86rem; }
-.empty { display: none; }
-
-/* ---------- formats ---------- */
-.formats { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; margin: 0; list-style: none; }
-.formats li {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 8px 20px;
-  border-radius: 999px;
-  box-shadow: inset 0 0 0 2px var(--pink);
-  color: var(--pink-ink);
-  font-weight: 700;
-}
-.about { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
-.about p { max-width: 58ch; font-size: var(--step-1); line-height: 1.45; font-weight: 500; }
-.about .quote { font-weight: 700; }
-
-/* ---------- contact ---------- */
-.contact .box {
-  display: grid;
-  gap: 22px;
-  padding: clamp(24px, 4vw, 48px);
-  max-width: 820px;
-}
-.contact h2 { font-size: var(--step-2); line-height: 1.08; font-weight: 800; letter-spacing: -0.02em; color: var(--pink-ink); }
-.contact p { color: var(--pink-ink); max-width: 56ch; }
-.email-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
-.email {
-  font-size: clamp(1rem, 4.4vw, 2.1rem);
-  font-weight: 800;
-  color: var(--pink);
-  overflow-wrap: break-word;
-  user-select: all;
-  min-width: 0;
-}
-.copy .swap { display: inline-grid; }
-.copy .swap > span { grid-area: 1 / 1; transition: opacity var(--swap-dur) ease-in-out, transform var(--swap-dur) ease-in-out, filter var(--swap-dur) ease-in-out; }
-.copy .swap .done { opacity: 0; transform: translateY(4px); filter: blur(2px); }
-.copy.is-done .swap .idle { opacity: 0; transform: translateY(-4px); filter: blur(2px); }
-.copy.is-done .swap .done { opacity: 1; transform: none; filter: none; }
-
-footer { padding-block: 8px 120px; font-size: var(--step--1); font-weight: 600; }
-
-/* floating contact, one tap from anywhere */
-.float {
-  position: fixed;
-  z-index: 20;
-  right: calc(16px + env(safe-area-inset-right, 0px));
-  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
-  transition: opacity 200ms ease-out, translate 200ms ease-out;
-}
-.float.is-hidden { opacity: 0; translate: 0 12px; pointer-events: none; }
-
-/* ---------- responsive ---------- */
-@media (max-width: 1000px) {
-  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
-@media (max-width: 860px) {
-  .shelf { grid-template-columns: minmax(0, 1fr); max-width: 440px; margin-inline: auto; }
-  .shelf .box:nth-child(n) { margin-top: 0; }
-  .about { grid-template-columns: minmax(0, 1fr); }
-}
-@media (max-width: 640px) {
-  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .grid .label { padding-inline: 4px; }
-  section { padding-block: 48px; }
-}
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  .pill::after, .more-tile, .float, .copy .swap > span, .play span { transition: none; }
-  .pill:active, .play:active span { scale: 1; }
-}
+@media (max-width:420px){.links{gap:14px}.btn{width:100%}}
+@media (prefers-reduced-motion:reduce){.btn,.play span{transition:none}}
 </style>
 
-<header class="top">
+<header class="bar">
   <div class="wrap">
-    <a class="handle" href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">@shewiththeglow</a>
-    <a class="pill" href="#contact">Work with Grace</a>
+    <a class="brand" href="#top">Grace <span>With The Glow</span></a>
+    <nav class="links" aria-label="Contact">
+      <a href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">TikTok</a>
+      <a href="#contact">Email</a>
+    </nav>
   </div>
 </header>
 
-<main>
-  <section class="hero" aria-labelledby="name">
+<main id="top">
+  <section class="hero">
     <div class="wrap">
-      <p class="logotype" id="name" role="heading" aria-level="1">Grace With The Glow</p>
-      <div class="box hero-box">
-        <div class="window" id="hero-window">
-          <img src="media/hero-smile.jpg" alt="Grace smiling at the camera in a pink top" fetchpriority="high">
-          <video id="hero-video" src="media/hero.mp4" poster="media/hero-smile.jpg" playsinline preload="none" aria-label="Grace introduces herself to brands">
-            <track kind="captions" srclang="en" label="English" id="hero-cc">
-          </video>
-          <button class="play" id="hero-play" type="button" aria-label="Play Grace's intro"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
+      <div>
+        <h1>Real life UGC<br><em>that shows</em><br><em>why it works</em></h1>
+        <p class="lede">Short vertical UGC for beauty, fashion, jewelry and products that solve everyday problems. Filmed at home in New York with my husband and daughter.</p>
+        <div class="btns">
+          <a class="btn btn--fill" id="ideas" href="mailto:Gracewiththeglow@gmail.com?subject=3%20free%20UGC%20ideas" target="_blank" rel="noopener">Get 3 free UGC ideas</a>
+          <a class="btn btn--line" href="mailto:Gracewiththeglow@gmail.com?subject=Brief%20for%20Grace" target="_blank" rel="noopener">Send me your brief</a>
         </div>
-        <div class="hero-copy">
-          <h1>UGC creator and TikTok Shop affiliate. Beauty, fashion, lifestyle, and products that solve real everyday problems.</h1>
-          <div class="hero-actions">
-            <button class="pill pill--ink" id="watch" type="button">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg>
-              Watch her intro
-            </button>
-            <a class="pill pill--ring" href="#contact">Email Grace</a>
-          </div>
-        </div>
+        <ul class="proof">
+          <li>TikTok Shop creator</li>
+          <li>New York</li>
+          <li>First draft in 7 business days</li>
+        </ul>
+      </div>
+      <figure class="hero-photo"><img src="media/photo-main-grace.jpg" alt="Grace, smiling softly, one hand tucking her hair behind her ear" fetchpriority="high"></figure>
+    </div>
+  </section>
+
+  <section class="meet" id="about">
+    <div class="wrap">
+      <figure class="intro">
+        <video id="intro" src="media/intro.mp4" poster="media/intro.jpg" controls playsinline preload="metadata" aria-label="Grace's intro video">
+          <track kind="captions" srclang="en" label="English" id="intro-cc">
+        </video>
+      </figure>
+      <div>
+        <h2>Meet the <em>Creator</em></h2>
+        <p class="sub">Press play for a quick intro, so you can see how I come across on camera.</p>
+        <ul class="adv">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+            <div><h3>Active TikTok Shop creator</h3><p>I post shop videos all the time, so I know what makes someone stop and watch.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2.5 20a5.5 5.5 0 0 1 11 0"/><path d="M13.5 20a3.5 3.5 0 0 1 7 0"/></svg>
+            <div><h3>Wife and girl mom</h3><p>My husband and daughter are in my videos, so family, baby and couples products are easy to film.</p></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.4 5 5.6.8-4 3.9.9 5.6L12 15.7 7.1 18.3l.9-5.6-4-3.9 5.6-.8z"/></svg>
+            <div><h3>I do my own hair, makeup and outfits</h3><p>So beauty, hair, jewelry and fashion get real use on camera.</p></div>
+          </li>
+        </ul>
+        <p class="cats-h">Categories I create in</p>
+        <ul class="cats">
+          <li>Beauty and skincare</li>
+          <li>Hair</li>
+          <li>Fashion</li>
+          <li>Jewelry</li>
+          <li>Baby and family</li>
+          <li>Problem solvers</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <section aria-labelledby="best">
+  <section class="work" id="work">
     <div class="wrap">
-      <div class="section-head">
-        <h2 id="best">Her top 10</h2>
-        <p>Picked from videos she filmed herself, most viewed first. Numbers come straight from TikTok.</p>
-      </div>
-      <div class="shelf">
-        <article class="box" data-video="7566790233325391135">
-          <div class="window">
-            <span class="rank" aria-label="Number 1">1</span>
-            <img src="media/7566790233325391135.jpg" alt="Grace brushing castor oil through her baby's hair" loading="lazy">
-            <button class="play" type="button" aria-label="Play the cradle cap video"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label">
-            <h3>Cradle cap with castor oil</h3>
-            <p>Her own routine with her baby.</p>
-          </div>
-          <dl class="stats">
-            <div><dt>Views</dt><dd data-stat="views:7566790233325391135">2.8M</dd></div>
-            <div><dt>Likes</dt><dd data-stat="likes:7566790233325391135">44.3K</dd></div>
-            <div><dt>Saves</dt><dd data-stat="saves:7566790233325391135">4,006</dd></div>
-            <div><dt>Shares</dt><dd data-stat="shares:7566790233325391135">1,096</dd></div>
-          </dl>
-        </article>
-        <article class="box" data-video="7692132082188946719">
-          <div class="window">
-            <span class="rank" aria-label="Number 2">2</span>
-            <img src="media/7692132082188946719.jpg" alt="Grace unboxing the Shnuggle toddler tub at home" loading="lazy">
-            <button class="play" type="button" aria-label="Play the Shnuggle toddler tub video"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label">
-            <h3>Shnuggle toddler tub</h3>
-            <p>Unboxing and first bath with her daughter.</p>
-          </div>
-          <dl class="stats">
-            <div><dt>Views</dt><dd data-stat="views:7692132082188946719">111.1K</dd></div>
-            <div><dt>Likes</dt><dd data-stat="likes:7692132082188946719">902</dd></div>
-            <div><dt>Saves</dt><dd data-stat="saves:7692132082188946719">407</dd></div>
-            <div><dt>Shares</dt><dd data-stat="shares:7692132082188946719">239</dd></div>
-          </dl>
-        </article>
-        <article class="box" data-video="7688848730010766622">
-          <div class="window">
-            <span class="rank" aria-label="Number 3">3</span>
-            <img src="media/7688848730010766622.jpg" alt="Grace talking about the WAG Bag toilet kit in her bathroom" loading="lazy">
-            <button class="play" type="button" aria-label="Play the WAG Bag video"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label">
-            <h3>WAG Bag emergency toilet kit</h3>
-            <p>Talking to camera about the one supply people forget.</p>
-          </div>
-          <dl class="stats">
-            <div><dt>Views</dt><dd data-stat="views:7688848730010766622">13.6K</dd></div>
-            <div><dt>Likes</dt><dd data-stat="likes:7688848730010766622">282</dd></div>
-            <div><dt>Saves</dt><dd data-stat="saves:7688848730010766622">142</dd></div>
-            <div><dt>Shares</dt><dd data-stat="shares:7688848730010766622">119</dd></div>
-          </dl>
-        </article>
+      <div class="head">
+        <h2>Recent <em>UGC Examples</em></h2>
+        <p>Tap a video to watch it with sound.</p>
       </div>
       <div class="grid">
-        <article class="box" data-video="7688454638500187423">
-          <div class="window">
-            <span class="rank" aria-label="Number 4">4</span>
-            <img src="media/7688454638500187423.jpg" alt="Grace opening a WAG Bag kit" loading="lazy">
-            <button class="play" type="button" aria-label="Play: WAG Bag toilet kit"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>WAG Bag toilet kit</h3><p>Comment reply, talking to camera</p><p class="views"><b data-stat="views:7688454638500187423">13.5K</b> views</p></div>
-        </article>
-        <article class="box" data-video="7698798919421054238">
-          <div class="window">
-            <span class="rank" aria-label="Number 5">5</span>
-            <img src="media/7698798919421054238.jpg" alt="Grace in a pink top showing a tiger eye necklace" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Tiger eye necklace"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Tiger eye necklace</h3><p>Styling, talking to camera</p><p class="views"><b data-stat="views:7698798919421054238">4,544</b> views</p></div>
-        </article>
-        <article class="box" data-video="7693020238731857182">
-          <div class="window">
-            <span class="rank" aria-label="Number 6">6</span>
-            <img src="media/7693020238731857182.jpg" alt="Grace's daughter playing in the toddler tub" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Shnuggle toddler tub"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Shnuggle toddler tub</h3><p>Comment reply, with her daughter</p><p class="views"><b data-stat="views:7693020238731857182">4,096</b> views</p></div>
-        </article>
-        <article class="box" data-video="7684001442977352991">
-          <div class="window">
-            <span class="rank" aria-label="Number 7">7</span>
-            <img src="media/7684001442977352991.jpg" alt="Grace showing a before and after in a black faja" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Attirify compression faja"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Attirify compression faja</h3><p>Before and after try-on</p><p class="views"><b data-stat="views:7684001442977352991">796</b> views</p></div>
-        </article>
-        <article class="box" data-video="7692223164117552415">
-          <div class="window">
-            <span class="rank" aria-label="Number 8">8</span>
-            <img src="media/7692223164117552415.jpg" alt="Grace wearing a blue wearable blanket" loading="lazy">
-            <button class="play" type="button" aria-label="Play: Wearable blanket"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>Wearable blanket</h3><p>Try-on at home</p><p class="views"><b data-stat="views:7692223164117552415">740</b> views</p></div>
-        </article>
-        <article class="box" data-video="7690971247802354974">
-          <div class="window">
-            <span class="rank" aria-label="Number 9">9</span>
-            <img src="media/7690971247802354974.jpg" alt="Grace trying on brown shapewear" loading="lazy">
-            <button class="play" type="button" aria-label="Play: YIANNA shapewear"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>YIANNA shapewear</h3><p>Try-on</p><p class="views"><b data-stat="views:7690971247802354974">629</b> views</p></div>
-        </article>
-        <article class="box" data-video="7672890224556461343">
-          <div class="window">
-            <span class="rank" aria-label="Number 10">10</span>
-            <img src="media/7672890224556461343.jpg" alt="Grace holding a bottle of MaryRuth's Skin Restore" loading="lazy">
-            <button class="play" type="button" aria-label="Play: MaryRuth’s Skin Restore"><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z"/></svg></span></button>
-          </div>
-          <div class="label"><h3>MaryRuth’s Skin Restore</h3><p>Talking to camera</p><p class="views"><b data-stat="views:7672890224556461343">549</b> views</p></div>
-        </article>
-        <a class="box more-tile" href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">
-          <div class="window more-window">
-            <p><b>More</b>on her TikTok</p>
-          </div>
-          <div class="label"><h3>See them all</h3><p>@shewiththeglow on TikTok</p></div>
-        </a>
+        <figure class="card" data-video="7700672775324732703"><div class="win"><img src="media/7700672775324732703.jpg" alt=""><button class="play" aria-label="Play: perfume set, four scents for every plan"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Talking Head<small>Perfume set</small></figcaption></figure>
+        <figure class="card" data-video="7700661746859511070"><div class="win"><img src="media/7700661746859511070.jpg" alt=""><button class="play" aria-label="Play: holiday party dress try-on"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Try-On Voiceover<small>Holiday dress</small></figcaption></figure>
+        <figure class="card" data-video="7681820759597042975"><div class="win"><img src="media/7681820759597042975.jpg" alt=""><button class="play" aria-label="Play: liquid collagen drink"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>POV<small>Liquid collagen</small></figcaption></figure>
+        <figure class="card" data-video="7692132082188946719"><div class="win"><img src="media/7692132082188946719.jpg" alt=""><button class="play" aria-label="Play: toddler bathtub with my daughter"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Family Concept<small>Toddler bathtub</small></figcaption></figure>
+        <figure class="card" data-video="7690769787810499870"><div class="win"><img src="media/7690769787810499870.jpg" alt=""><button class="play" aria-label="Play: emergency toilet bags for storm season"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Problem / Solution<small>Emergency toilet bags</small></figcaption></figure>
+        <figure class="card" data-video="7704380444141194526"><div class="win"><img src="media/7704380444141194526.jpg" alt=""><button class="play" aria-label="Play: gold statement ring"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Product Showcase<small>Statement ring</small></figcaption></figure>
+        <figure class="card" data-video="7704141852458421535"><div class="win"><img src="media/7704141852458421535.jpg" alt=""><button class="play" aria-label="Play: glueless 28 inch wig"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Product Showcase<small>Glueless wig</small></figcaption></figure>
+        <figure class="card" data-video="7683351550965648670"><div class="win"><img src="media/7683351550965648670.jpg" alt=""><button class="play" aria-label="Play: toenail fungus treatment"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Educational<small>Toenail treatment</small></figcaption></figure>
       </div>
     </div>
   </section>
 
-  <section aria-labelledby="films">
-    <div class="wrap about">
-      <div class="section-head" style="margin-bottom:0">
-        <h2 id="films">What she films</h2>
-        <p class="quote">“I like to make product videos that feel natural, easy to connect with, and true to the brand.”</p>
-      </div>
-      <div style="display:grid;gap:24px">
-        <ul class="formats">
-          <li>Talking to camera</li>
-          <li>Unboxings</li>
-          <li>Demos with her daughter</li>
-          <li>Try-ons and before and afters</li>
-          <li>Comment replies</li>
-          <li>Voiceovers over her own footage</li>
-        </ul>
-        <p style="font-size:var(--step-0);font-weight:500">Wife and girl mom. She filmed everything on this page herself, at home with her family.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact" aria-labelledby="contact-h">
+  <section class="expect" id="process">
     <div class="wrap">
-      <div class="box">
-        <h2 id="contact-h">Let’s make something for your brand</h2>
-        <p>Send Grace the product, how many videos you need, and where they will run. She will get back to you to talk it through.</p>
-        <div class="email-row">
-          <span class="email" id="email">Gracewiththeglow@gmail.com</span>
-          <button class="pill pill--ink copy" id="copy" type="button">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M5 15H4.5A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h9A1.5 1.5 0 0 1 15 4.5V5"/></svg>
-            <span class="swap" aria-live="polite"><span class="idle">Copy email</span><span class="done">Copied</span></span>
-          </button>
+      <h2>What to <em>Expect</em></h2>
+      <p class="lede">Three simple steps from your brief to a finished video you can post or run as an ad.</p>
+      <ol class="steps">
+        <li><div class="n">01</div><h3>Send me your brief</h3><p>Tell me what you're selling, who it's for and what you need.</p></li>
+        <li><div class="n">02</div><h3>I confirm the concept</h3><p>You approve the direction before I film anything.</p></li>
+        <li><div class="n">03</div><h3>First draft in 7 business days</h3><p>Up to two rounds of revisions included.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="close" id="contact">
+    <div class="wrap">
+      <figure class="fade"><img src="media/photo-closeup.jpg" alt="Close-up of Grace in a red top with long dark hair and bangs"></figure>
+      <div>
+        <h2>Ready to <em>work together?</em></h2>
+        <p class="lede">You've seen my work. Send me your product and what you need, and I'll come back with a plan.</p>
+        <div class="btns">
+          <a class="btn btn--fill" href="mailto:Gracewiththeglow@gmail.com?subject=3%20free%20UGC%20ideas" target="_blank" rel="noopener">Get 3 free UGC ideas</a>
+          <a class="btn btn--line" href="mailto:Gracewiththeglow@gmail.com?subject=Brief%20for%20Grace" target="_blank" rel="noopener">Send me your brief</a>
         </div>
-        <p><a href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener" style="color:var(--pink);font-weight:700">See all her videos on TikTok, @shewiththeglow</a></p>
+        <p class="mail">Email me at <code id="email">Gracewiththeglow@gmail.com</code><button class="copy" id="copy" type="button">Copy email</button></p>
       </div>
     </div>
   </section>
 </main>
 
-<footer>
-  <div class="wrap">
-    <p>Numbers from TikTok on 28 October 2026.</p>
-  </div>
-</footer>
+<footer><div class="wrap"><span>Grace With The Glow · UGC creator · New York</span><a href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">@shewiththeglow on TikTok</a></div></footer>
 
-<a class="pill pill--white float is-hidden" id="float" href="#contact">Email Grace</a>
-
-<script type="text/vtt" id="hero-vtt">
+<script type="text/vtt" id="intro-vtt">
 WEBVTT
 
 00:00.000 --> 00:05.200
@@ -584,24 +271,26 @@ Thank you for considering me.
 </script>
 <script>
 // captions ship inline (artifacts do not serve .vtt files)
-document.getElementById("hero-cc").src = URL.createObjectURL(new Blob([document.getElementById("hero-vtt").textContent.trim() + "\n"], { type: "text/vtt" }));
-
-/* one video plays at a time; posters swap for a real video on tap */
+const intro = document.getElementById("intro");
+document.getElementById("intro-cc").src = URL.createObjectURL(new Blob([document.getElementById("intro-vtt").textContent.trim() + "\n"], { type: "text/vtt" }));
 let current = null;
+intro.addEventListener("play", () => { if (current && current !== intro) current.pause(); current = intro; intro.textTracks[0].mode = "showing"; });
+
+/* one video plays at a time; a poster turns into the real video on tap, with sound */
 document.addEventListener("click", e => {
   const btn = e.target.closest(".play");
   if (!btn) return;
-  const card = btn.closest("[data-video]");
+  const id = btn.closest("[data-video]").dataset.video;
   const win = btn.parentElement;
   let vid = win.querySelector("video");
   if (!vid) {
     vid = document.createElement("video");
-    vid.src = `media/${card.dataset.video}.mp4`;
-    vid.poster = `media/${card.dataset.video}.jpg`;
+    vid.src = `media/${id}.mp4`;
+    vid.poster = `media/${id}.jpg`;
     vid.controls = true;
     vid.playsInline = true;
     vid.preload = "auto";
-    vid.setAttribute("aria-label", btn.getAttribute("aria-label").replace(/^Play:? (the )?/i, ""));
+    vid.setAttribute("aria-label", btn.getAttribute("aria-label").replace(/^Play: /, ""));
     vid.addEventListener("play", () => { if (current && current !== vid) current.pause(); current = vid; });
     win.insertBefore(vid, btn);
   }
@@ -611,40 +300,16 @@ document.addEventListener("click", e => {
   vid.focus({ preventScroll: true });
 });
 
-/* hero: a smiling photo at rest; "Watch her intro" plays it with sound and captions */
-const heroVideo = document.getElementById("hero-video");
-heroVideo.addEventListener("play", () => {
-  if (current && current !== heroVideo) current.pause();
-  current = heroVideo;
-  heroVideo.controls = true;
-  heroVideo.textTracks[0].mode = "showing";
-});
-document.getElementById("watch").addEventListener("click", () => {
-  document.getElementById("hero-play").click();
-  document.getElementById("hero-window").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest" });
-});
-
-/* copy email: works inside the artifact frame from a click; falls back to selecting the address */
-const copyBtn = document.getElementById("copy");
-const email = document.getElementById("email");
+/* copy email from the click; if the frame refuses, select the address instead */
+const copyBtn = document.getElementById("copy"), email = document.getElementById("email");
 copyBtn.addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText(email.textContent.trim());
-    copyBtn.classList.add("is-done");
-    setTimeout(() => copyBtn.classList.remove("is-done"), 2200);
+    copyBtn.textContent = "Copied"; copyBtn.classList.add("is-done");
+    setTimeout(() => { copyBtn.textContent = "Copy email"; copyBtn.classList.remove("is-done"); }, 2200);
   } catch {
     const r = document.createRange(); r.selectNodeContents(email);
     const s = getSelection(); s.removeAllRanges(); s.addRange(r);
   }
 });
-
-/* the floating Email pill steps aside while the contact block is on screen */
-const floatBtn = document.getElementById("float");
-const onScreen = new Set();
-const watch = new IntersectionObserver(entries => {
-  entries.forEach(en => en.isIntersecting ? onScreen.add(en.target) : onScreen.delete(en.target));
-  floatBtn.classList.toggle("is-hidden", onScreen.size > 0);
-}, { threshold: 0.15 });
-watch.observe(document.querySelector(".hero"));
-watch.observe(document.getElementById("contact"));
 </script>
