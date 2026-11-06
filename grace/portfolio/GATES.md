@@ -75,3 +75,23 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
 - [ ] V4-G2: Grace picks a look (or sends her template) and her video list
 - [ ] V4-G3: rebuilt portfolio on the same link, no view/like/save numbers anywhere, check.py passes
 - [ ] V4-G4: photos + any new media packed to Drive (media.py), Drive CURRENT doc updated
+
+## Redo, Grace's way (2026-11-06, Ralph: material from Grace comes through him; keep photos, intro, self-filmed videos)
+- [x] R-G1: the kept assets are still on the live page (intro, smile photo, 10 self-filmed videos + posters)
+  EVIDENCE: 2026-11-06 Artifact list_files JeSC2FCYMuNH3RsREQDR2C version 1793325353-0a9b: 23 files (hero.mp4, hero-smile.jpg, 10 mp4 + 10 jpg)
+- [x] R-G2: every item Ralph sends from Grace is logged in Brain/Jobs/Grace Portfolio Brief.md ("Her new material") before any build
+- [x] R-G3: Grace reachable by Azariah on Telegram, tested this session with one hello and the API answer recorded
+  EVIDENCE: 2026-11-06 Ralph tapped "Use the group bot (Recommended)". @azariah_assist_bot sendMessage to group -5234107715 -> ok true, message_id 50. Unfinished Composio telegram_classy-urdu removed (no Telegram accounts left in Composio)
+- [x] R-G4: rebuild on the same link, no view/like/save/follower numbers anywhere
+  CHECK: python3 grace/portfolio/check.py nostats
+  EXPECT: NOSTATS_OK
+  EVIDENCE: 2026-11-06 v4 draft published (version 1793938391-7c61); nostats OK; negative control (planted "2.8M views and 44K likes") FAILS as expected; files 20 refs 26.8 MB FILES_OK
+- [x] R-G5: photos as Grace chose (her own edited main photo + the close-up, no background change, 2026-11-06); 390 + 1280 px screenshots, no horizontal scroll
+  EVIDENCE: 2026-11-06 Playwright 1280 + 390: scrollWidth = width, no page errors, Poppins loaded
+- [x] R-G6: copy through Humanizer + readability; check.py copy prints COPY_OK
+  EVIDENCE: 2026-11-06 383 words, grade 6.7, COPY_OK; copy written to the Creator Pathway rules (no invented results: headline and closing line rewritten away from sales claims)
+- [ ] R-G8 (videos: DONE, Grace 786406530 "All of the videos are playing"): Grace reviews the draft; "Get 3 free UGC ideas" points at the Google Form Ralph makes (button opens an email until then)
+- [ ] R-G7: media packed to Drive (media.py check MEDIA_OK), Drive CURRENT doc updated, push + email sent, brain check BRAIN_OK
+  EVIDENCE (partial): 2026-11-06 media set 3 in Drive (1D1Eud_nN0pVvlvsKblqYjTXXRw0-5EoC, sha256 matched), MEDIA_OK; push + email sent for the draft. Drive CURRENT doc waits for the final version (job parked until her new intro).
+- [x] R-G9: every Grace note this session made on the live page and confirmed with her
+  EVIDENCE: 2026-11-06 Telegram 786406537: "We're all good for now. Let's come back to this when I have the new intro video complete."
