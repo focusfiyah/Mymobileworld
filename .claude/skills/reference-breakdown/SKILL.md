@@ -14,7 +14,7 @@ turns the reference into numbers and gives every cut of ours a per-second check.
 2. `bash scripts/breakdown.sh <file> <out dir>` (about 20 s for 50 s of video; needs ffmpeg, python3, numpy). It writes
    `info.txt`, `cuts.txt`, `sheets/` (one frame per second), `full/` (frames at each cut), `measure.txt` (camera move every
    0.5 s as HOLD/DRIFT/PAN/TILT/WHIP, palette, caption boxes, pace, loud non-voice moments = likely sound effects).
-   `transcript.txt` needs a local Whisper; without one, take words from the tiktok.py transcript or read the frames.
+   Words: run the `transcribe` skill's `transcribe.py` on the file into the same out dir, then `python3 scripts/measure.py <out dir> --force` to add pace.
 3. Read every sheet in order, then the full-res frames. Fill the table in
    [references/read-the-reference.md](references/read-the-reference.md): per-second row, why each second holds attention,
    the numbers to match (cuts per minute, hold length, words per second, a new fact every n seconds).
