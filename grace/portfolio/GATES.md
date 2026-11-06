@@ -68,3 +68,10 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
 - [x] V3-G3: republished to the same Artifact (version 1793325070-1085), media kept
   EVIDENCE: 2026-10-30 publish result Version 4
 - [ ] V3-G4: Drive CURRENT doc updated (waiting for Grace's remaining notes, then one update)
+
+## v4 brief (2026-11-06, Grace via Ralph): no analytics on videos; she picks the videos (top 10 or her choice, good quality, mix: voiceover, talking to camera, AI); cleaner look, lighter neutral tone (light pink OK); tidier layout (she sends a template example); her 8 photos added, photo 1 = main, rest = highlights
+- [x] V4-G1: three layout looks shown to Grace with her real photos, no numbers: https://claude.ai/artifact/85Zs2uuuTYJYfR7gaB3Tzn (private until Ralph shares it)
+  EVIDENCE: 2026-11-06 screenshots of A/B/C at 390 + 1280 px, no horizontal scroll
+- [ ] V4-G2: Grace picks a look (or sends her template) and her video list
+- [ ] V4-G3: rebuilt portfolio on the same link, no view/like/save numbers anywhere, check.py passes
+- [ ] V4-G4: photos + any new media packed to Drive (media.py), Drive CURRENT doc updated
