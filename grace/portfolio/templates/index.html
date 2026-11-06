@@ -1,0 +1,328 @@
+<title>Grace Portfolio Looks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a small picker bar on top; below it one of three full portfolio looks, each built from Grace's real photos and video covers, no numbers anywhere. One light neutral look on purpose (her brand page). */
+:root {
+  --sand: #f5f1ee;        /* page neutral, a touch of blush in it */
+  --stone: #e9e2dd;       /* panels */
+  --blush: #e7c6c4;       /* the light pink Grace allowed */
+  --rose: #a85d67;        /* pink ink: buttons, small labels */
+  --ink: #2c2422;         /* text */
+  --muted: #6f625e;       /* secondary text */
+  --white: #ffffff;
+  --font-display: "Bodoni Moda", "Didot", "Times New Roman", serif;
+  --font-body: "Manrope", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.88rem);
+  --step-0: clamp(0.98rem, 0.95rem + 0.15vw, 1.06rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.5vw, 1.5rem);
+  --step-2: clamp(1.8rem, 1.4rem + 1.8vw, 3rem);
+  --step-3: clamp(2.6rem, 1.6rem + 4.5vw, 5.6rem);
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { background: var(--sand); }
+body { background: var(--sand); color: var(--ink); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.55; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+h1, h2, h3 { margin: 0; text-wrap: balance; font-weight: 400; }
+p { margin: 0; text-wrap: pretty; }
+img { display: block; max-width: 100%; }
+:focus-visible { outline: 2px solid var(--rose); outline-offset: 3px; border-radius: 6px; }
+.wrap { width: 100%; max-width: 1140px; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.eyebrow { font-size: var(--step--1); font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--rose); }
+.display { font-family: var(--font-display); }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 10px 22px; border-radius: 999px; font: 600 var(--step--1)/1 var(--font-body); letter-spacing: 0.04em; text-decoration: none; border: 1px solid var(--ink); color: var(--ink); background: transparent; cursor: pointer; }
+.btn--fill { background: var(--ink); color: var(--white); }
+.tag { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; background: rgb(255 255 255 / 0.88); color: var(--ink); }
+.cover { position: relative; overflow: hidden; aspect-ratio: 9 / 16; max-width: 100%; background: var(--stone); }
+.cover img { width: 100%; height: 100%; object-fit: cover; }
+.cover .tag { position: absolute; left: 10px; bottom: 10px; }
+.cover .play { position: absolute; top: 10px; right: 10px; width: 34px; height: 34px; border-radius: 50%; background: rgb(255 255 255 / 0.88); display: grid; place-items: center; }
+.cover .play svg { width: 13px; height: 13px; margin-left: 2px; fill: var(--ink); }
+.photo { overflow: hidden; background: var(--stone); max-width: 100%; }
+.photo img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- picker ---------- */
+.picker { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--ink); color: var(--white); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 21; background: var(--ink); }
+.picker .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; padding-block: 12px; }
+.picker p { font-size: var(--step--1); color: rgb(255 255 255 / 0.75); min-width: 0; }
+.picker p b { color: var(--white); font-weight: 600; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs button { min-height: 40px; padding: 8px 16px; border-radius: 999px; border: 1px solid rgb(255 255 255 / 0.35); background: transparent; color: var(--white); font: 600 var(--step--1)/1 var(--font-body); cursor: pointer; transition: background-color 150ms ease-out, color 150ms ease-out; }
+.tabs button[aria-selected="true"] { background: var(--blush); border-color: var(--blush); color: var(--ink); }
+.note { padding-block: 22px 0; }
+.note p { max-width: 62ch; color: var(--muted); font-size: var(--step--1); }
+
+section.look { padding-block: 28px 80px; }
+.block { padding-block: 56px 0; }
+.block-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 24px; }
+.block-head h2 { font-family: var(--font-display); font-size: var(--step-2); line-height: 1.05; }
+.contact-line { font-family: var(--font-display); font-size: clamp(1.3rem, 4.6vw, 2.4rem); overflow-wrap: anywhere; }
+
+/* ---------- Look A: Clean split ---------- */
+.a-hero { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(24px, 5vw, 72px); align-items: center; }
+.a-hero .photo { aspect-ratio: 4 / 5; border-radius: 4px; }
+.a-copy { display: grid; gap: 20px; }
+.a-copy h1 { font-family: var(--font-display); font-size: var(--step-3); line-height: 0.95; letter-spacing: -0.01em; }
+.a-copy h1 i { color: var(--rose); }
+.a-copy .lede { font-size: var(--step-1); line-height: 1.4; max-width: 30ch; }
+.a-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.a-strip { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; }
+.a-strip .photo { aspect-ratio: 3 / 4; border-radius: 4px; }
+.a-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.a-filters span { font-size: var(--step--1); font-weight: 600; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--blush); color: var(--ink); }
+.a-filters span:first-child { background: var(--blush); }
+.a-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; }
+.a-grid figure { margin: 0; display: grid; gap: 8px; }
+.a-grid .cover { border-radius: 4px; }
+.a-grid figcaption { font-size: var(--step--1); font-weight: 600; }
+.a-contact { display: grid; gap: 14px; padding: clamp(24px, 4vw, 48px); background: var(--stone); border-radius: 4px; }
+
+/* ---------- Look B: Lookbook ---------- */
+.b-hero { position: relative; overflow: hidden; border-radius: 2px; }
+.b-hero .photo { aspect-ratio: 16 / 10; }
+.b-hero .photo img { object-position: 50% 28%; }
+.b-name { position: absolute; left: 0; right: 0; bottom: 0; padding: clamp(18px, 4vw, 44px); background: linear-gradient(transparent, rgb(44 36 34 / 0.62)); color: var(--white); display: grid; gap: 8px; }
+.b-name h1 { font-family: var(--font-display); font-style: italic; font-size: var(--step-3); line-height: 0.95; }
+.b-name p { max-width: 46ch; font-weight: 500; }
+.b-intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: center; padding-block: 36px 0; }
+.b-intro p { font-family: var(--font-display); font-size: var(--step-1); line-height: 1.35; max-width: 40ch; }
+.b-rail { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+.b-rail .photo { flex: 0 0 clamp(150px, 28vw, 230px); aspect-ratio: 3 / 4.6; scroll-snap-align: start; }
+.b-row { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 24px; padding-block: 26px; border-top: 1px solid var(--stone); }
+.b-row h3 { font-family: var(--font-display); font-size: var(--step-1); }
+.b-row .meta { display: grid; gap: 6px; align-content: start; }
+.b-row .meta p { font-size: var(--step--1); color: var(--muted); }
+.b-row .vids { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.b-contact { text-align: center; display: grid; gap: 14px; justify-items: center; padding-block: 64px 0; }
+
+/* ---------- Look C: Media kit ---------- */
+.c-top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 14px; }
+.c-card { background: var(--white); border-radius: 22px; padding: clamp(20px, 3vw, 36px); display: grid; gap: 16px; align-content: start; min-width: 0; }
+.c-id { display: flex; align-items: center; gap: 16px; }
+.c-id .photo { width: 84px; height: 84px; border-radius: 50%; flex: none; }
+.c-id .photo img { object-position: 50% 20%; }
+.c-id h1 { font-family: var(--font-display); font-size: var(--step-2); line-height: 1; }
+.c-id p { color: var(--muted); font-size: var(--step--1); }
+.c-list { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
+.c-list li { display: flex; justify-content: space-between; gap: 12px; padding-block: 11px; border-top: 1px solid var(--stone); font-size: var(--step--1); }
+.c-list li span:last-child { color: var(--muted); text-align: right; }
+.c-mosaic { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 10px; min-height: 0; }
+.c-mosaic .photo { border-radius: 16px; }
+.c-mosaic .photo:first-child { grid-row: span 2; }
+.c-mosaic .photo img { aspect-ratio: auto; }
+.c-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.c-grid .c-card { padding: 10px 10px 16px; gap: 10px; }
+.c-grid .cover { border-radius: 14px; }
+.c-grid h3 { font-size: var(--step--1); font-weight: 600; font-family: var(--font-body); padding-inline: 4px; }
+.c-grid p { font-size: 0.8rem; color: var(--muted); padding-inline: 4px; }
+.c-contact { background: var(--blush); }
+
+@media (max-width: 900px) {
+  .a-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .a-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .b-row { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .c-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 680px) {
+  .a-hero, .c-top, .b-intro { grid-template-columns: minmax(0, 1fr); }
+  .a-grid, .b-row .vids, .c-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .b-hero .photo { aspect-ratio: 4 / 5; }
+  .c-mosaic { grid-template-rows: auto; }
+  .c-mosaic .photo { aspect-ratio: 3 / 4; }
+  .c-mosaic .photo:first-child { grid-row: auto; grid-column: span 3; aspect-ratio: 4 / 5; }
+}
+@media (prefers-reduced-motion: reduce) { .tabs button { transition: none; } }
+</style>
+
+<div class="picker">
+  <div class="wrap">
+    <p><b>Grace, pick a look.</b> Same photos and videos in each, laid out three ways.</p>
+    <div class="tabs" role="tablist" aria-label="Portfolio looks">
+      <button role="tab" id="tab-a" aria-controls="look-a" aria-selected="true" type="button">A · Clean split</button>
+      <button role="tab" id="tab-b" aria-controls="look-b" aria-selected="false" type="button">B · Lookbook</button>
+      <button role="tab" id="tab-c" aria-controls="look-c" aria-selected="false" type="button">C · Media kit</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap note"><p>These are layout previews. Video covers stand in for the real videos, and the list is a starting point: you choose which videos go on, including voiceovers and AI ones. No view counts or follower numbers in any of them.</p></div>
+
+<!-- ================= LOOK A ================= -->
+<section class="look" id="look-a" role="tabpanel" aria-labelledby="tab-a">
+  <div class="wrap">
+    <div class="a-hero">
+      <div class="photo"><img src="media/photo-main.jpg" alt="Grace in a black off-shoulder top, tucking her hair behind her ear"></div>
+      <div class="a-copy">
+        <p class="eyebrow">UGC creator · TikTok Shop affiliate</p>
+        <h1>Grace <i>with</i> the Glow</h1>
+        <p class="lede">Beauty, fashion, lifestyle, and products that solve real everyday problems.</p>
+        <div class="a-actions"><a class="btn btn--fill" href="#a-contact">Work with Grace</a><span class="btn">Watch her intro</span></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-head"><h2>Highlights</h2><p class="eyebrow">Photos</p></div>
+      <div class="a-strip">
+        <div class="photo"><img src="media/photo-1.jpg" alt="Grace in a white top and black wide-leg pants" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-2.jpg" alt="Grace in a black off-shoulder top and leather pants" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-3.jpg" alt="Grace in profile in a black top" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-4.jpg" alt="Grace in a burgundy dress and over-the-knee boots" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-5.jpg" alt="Close portrait of Grace with bangs in a burgundy top" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-7.jpg" alt="Grace in a black corset and brown ruched skirt" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-head"><h2>Her work</h2>
+        <div class="a-filters" aria-label="Video types"><span>All</span><span>Talking to camera</span><span>Voiceover</span><span>Try-on</span><span>AI</span></div>
+      </div>
+      <div class="a-grid">
+        <figure><div class="cover"><img src="media/7566790233325391135.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="tag">Voiceover</span></div><figcaption>Castor oil, cradle cap</figcaption></figure>
+        <figure><div class="cover"><img src="media/7692132082188946719.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="tag">Unboxing</span></div><figcaption>Shnuggle toddler tub</figcaption></figure>
+        <figure><div class="cover"><img src="media/7688848730010766622.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="tag">On camera</span></div><figcaption>WAG Bag toilet kit</figcaption></figure>
+        <figure><div class="cover"><img src="media/7698798919421054238.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="tag">On camera</span></div><figcaption>Tiger eye necklace</figcaption></figure>
+        <figure><div class="cover"><img src="media/7684001442977352991.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span><span class="tag">Try-on</span></div><figcaption>Compression faja</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="block" id="a-contact">
+      <div class="a-contact">
+        <p class="eyebrow">Brand work</p>
+        <h2 class="display" style="font-size:var(--step-2);line-height:1.05">Let’s make something for your brand</h2>
+        <p style="max-width:52ch;color:var(--muted)">Send the product, how many videos you need, and where they will run.</p>
+        <p class="contact-line">Gracewiththeglow@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOOK B ================= -->
+<section class="look" id="look-b" role="tabpanel" aria-labelledby="tab-b" hidden>
+  <div class="wrap">
+    <div class="b-hero">
+      <div class="photo"><img src="media/photo-main.jpg" alt="Grace in a black off-shoulder top, tucking her hair behind her ear"></div>
+      <div class="b-name">
+        <p class="eyebrow" style="color:var(--blush)">UGC creator · TikTok Shop affiliate</p>
+        <h1>Grace with the Glow</h1>
+      </div>
+    </div>
+    <div class="b-intro">
+      <p>“I like to make product videos that feel natural, easy to connect with, and true to the brand.”</p>
+      <span class="btn btn--fill">Watch her intro</span>
+    </div>
+
+    <div class="block">
+      <div class="block-head"><h2>Highlights</h2><p class="eyebrow">Swipe</p></div>
+      <div class="b-rail">
+        <div class="photo"><img src="media/photo-1.jpg" alt="Grace in a white top and black wide-leg pants" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-4.jpg" alt="Grace in a burgundy dress and over-the-knee boots" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-3.jpg" alt="Grace in profile in a black top" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-5.jpg" alt="Close portrait of Grace with bangs in a burgundy top" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-7.jpg" alt="Grace in a black corset and brown ruched skirt" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-2.jpg" alt="Grace in a black off-shoulder top and leather pants" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-6.jpg" alt="Grace holding the hem of a burgundy dress" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-head"><h2>Her work, by type</h2></div>
+      <div class="b-row">
+        <div class="meta"><h3>Talking to camera</h3><p>Reviews and comment replies in her own words.</p></div>
+        <div class="vids">
+          <div class="cover"><img src="media/7688848730010766622.jpg" alt="WAG Bag video" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7698798919421054238.jpg" alt="Tiger eye necklace video" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7672890224556461343.jpg" alt="MaryRuth's Skin Restore video" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7688454638500187423.jpg" alt="WAG Bag comment reply video" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+        </div>
+      </div>
+      <div class="b-row">
+        <div class="meta"><h3>Voiceover and demos</h3><p>Her voice over her own footage, at home with her daughter.</p></div>
+        <div class="vids">
+          <div class="cover"><img src="media/7566790233325391135.jpg" alt="Castor oil cradle cap video" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7692132082188946719.jpg" alt="Shnuggle tub unboxing" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7693020238731857182.jpg" alt="Shnuggle tub with her daughter" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+        </div>
+      </div>
+      <div class="b-row">
+        <div class="meta"><h3>Try-ons</h3><p>Fit and before-and-after videos.</p></div>
+        <div class="vids">
+          <div class="cover"><img src="media/7684001442977352991.jpg" alt="Compression faja try-on" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7690971247802354974.jpg" alt="Shapewear try-on" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+          <div class="cover"><img src="media/7692223164117552415.jpg" alt="Wearable blanket try-on" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div>
+        </div>
+      </div>
+      <div class="b-row">
+        <div class="meta"><h3>AI videos</h3><p>Grace picks which ones go here.</p></div>
+        <div class="vids"><div class="cover" style="display:grid;place-items:center;background:var(--stone)"><p class="eyebrow" style="padding:12px;text-align:center">Her picks</p></div></div>
+      </div>
+    </div>
+
+    <div class="b-contact">
+      <p class="eyebrow">Brand work</p>
+      <h2 class="display" style="font-size:var(--step-2);line-height:1.05;font-style:italic">Let’s make something together</h2>
+      <p class="contact-line">Gracewiththeglow@gmail.com</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOOK C ================= -->
+<section class="look" id="look-c" role="tabpanel" aria-labelledby="tab-c" hidden>
+  <div class="wrap">
+    <div class="c-top">
+      <div class="c-card">
+        <div class="c-id">
+          <div class="photo"><img src="media/photo-main.jpg" alt="Grace"></div>
+          <div><h1>Grace with the Glow</h1><p>@shewiththeglow</p></div>
+        </div>
+        <p>UGC creator and TikTok Shop affiliate. Beauty, fashion, lifestyle, and products that solve real everyday problems.</p>
+        <ul class="c-list">
+          <li><span>Video types</span><span>Talking to camera, voiceover, unboxing, try-on, AI</span></li>
+          <li><span>Niches</span><span>Beauty, fashion, home, baby</span></li>
+          <li><span>Filmed</span><span>At home, with her family</span></li>
+        </ul>
+        <div style="display:flex;flex-wrap:wrap;gap:10px"><span class="btn btn--fill">Watch her intro</span><a class="btn" href="#c-contact">Email Grace</a></div>
+      </div>
+      <div class="c-mosaic">
+        <div class="photo"><img src="media/photo-main.jpg" alt="Grace in a black off-shoulder top"></div>
+        <div class="photo"><img src="media/photo-4.jpg" alt="Grace in a burgundy dress" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-1.jpg" alt="Grace in a white top and wide-leg pants" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-7.jpg" alt="Grace in a corset and brown skirt" loading="lazy"></div>
+        <div class="photo"><img src="media/photo-3.jpg" alt="Grace in profile" loading="lazy"></div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-head"><h2>Selected videos</h2></div>
+      <div class="c-grid">
+        <div class="c-card"><div class="cover"><img src="media/7566790233325391135.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div><h3>Castor oil, cradle cap</h3><p>Voiceover</p></div>
+        <div class="c-card"><div class="cover"><img src="media/7692132082188946719.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div><h3>Shnuggle toddler tub</h3><p>Unboxing</p></div>
+        <div class="c-card"><div class="cover"><img src="media/7688848730010766622.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div><h3>WAG Bag toilet kit</h3><p>Talking to camera</p></div>
+        <div class="c-card"><div class="cover"><img src="media/7684001442977352991.jpg" alt="" loading="lazy"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z"/></svg></span></div><h3>Compression faja</h3><p>Try-on</p></div>
+      </div>
+    </div>
+
+    <div class="block" id="c-contact">
+      <div class="c-card c-contact">
+        <h2 class="display" style="font-size:var(--step-2);line-height:1.05">Let’s make something for your brand</h2>
+        <p class="contact-line">Gracewiththeglow@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+const tabs = [...document.querySelectorAll('[role="tab"]')];
+function show(id) {
+  tabs.forEach(t => {
+    const on = t.getAttribute("aria-controls") === id;
+    t.setAttribute("aria-selected", on);
+    document.getElementById(t.getAttribute("aria-controls")).hidden = !on;
+  });
+}
+tabs.forEach(t => t.addEventListener("click", () => { show(t.getAttribute("aria-controls")); try { history.replaceState(null, "", "#" + t.getAttribute("aria-controls")); } catch {} }));
+const start = location.hash.slice(1);
+if (["look-a", "look-b", "look-c"].includes(start)) show(start);
+</script>
