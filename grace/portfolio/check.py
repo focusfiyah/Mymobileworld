@@ -52,6 +52,20 @@ def files():
     return bad
 
 
+def nostats():
+    """v4 (Grace 2026-11-06): no analytics anywhere: no views, likes, saves, shares, followers or short counts like 2.8M / 11.4K."""
+    vis = re.sub(r"(?s)<(script|style)[^>]*>.*?</\1>", " ", PAGE)
+    vis = re.sub(r"<[^>]+>", " ", vis)
+    bad = []
+    if "data-stat" in PAGE:
+        bad.append("data-stat tag on the page")
+    for pat in [r"\b\d[\d.,]*\s*[KkMm]\b", r"(?i)\b(views|likes|saves|shares|followers)\b"]:
+        for m in re.findall(pat, vis):
+            bad.append(f"analytics text: {m!r}")
+    print(f"{len(vis.split())} visible words checked for numbers")
+    return bad
+
+
 def stats():
     data = json.loads((ROOT / "videos.json").read_text())
     acct = data["account"]
@@ -119,6 +133,14 @@ def grade(text):
     return 0.39 * len(words) / len(sents) + 11.8 * s / len(words) - 15.59
 
 
+# Client's own words kept verbatim, graded out of the readability check (Ralph's OK per line, recorded here)
+VERBATIM = [
+    # 2026-11-06 Grace (Telegram 786406526, then shortened in 786406532: "updating the top para ... to this");
+    # Ralph tapped "Use hers word for word (Recommended)" for her hero line.
+    "New York-based creator producing content that gives people a reason to buy.",  # 786406536: "take out ugc"
+]
+
+
 def copy():
     p = Text()
     p.feed(PAGE)
@@ -128,7 +150,10 @@ def copy():
                 r"\d+\s?(usd|dollars)", r" — | – |--", r"\bpackage(s)?\b.*\bprice", r"\bAI\b"]:
         if re.search(pat, text, re.I):
             bad.append(f"banned: {pat}")
-    g = grade(re.sub(r"\b[\w.]+@[\w.]+\b|@\w+|\d[\d.,]*[KM]?", "", text))
+    graded = text
+    for v in VERBATIM:
+        graded = graded.replace(v, " ")
+    g = grade(re.sub(r"\b[\w.]+@[\w.]+\b|@\w+|\d[\d.,]*[KM]?", "", graded))
     print(f"{len(text.split())} words, grade {g:.1f}")
     if g > 8:
         bad.append(f"reading grade {g:.1f} > 8")
@@ -137,8 +162,8 @@ def copy():
 
 if __name__ == "__main__":
     mode = sys.argv[1]
-    problems = {"files": files, "stats": stats, "copy": copy}[mode]()
+    problems = {"files": files, "stats": stats, "nostats": nostats, "copy": copy}[mode]()
     for b in problems:
         print("FAIL", b)
-    print({"files": "FILES_OK", "stats": "STATS_OK", "copy": "COPY_OK"}[mode] if not problems else "CHECK_FAILED")
+    print({"files": "FILES_OK", "stats": "STATS_OK", "nostats": "NOSTATS_OK", "copy": "COPY_OK"}[mode] if not problems else "CHECK_FAILED")
     sys.exit(1 if problems else 0)
