@@ -87,6 +87,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .play:hover span{transform:scale(1.06)}
 .play svg{width:22px;height:22px;fill:var(--rose);margin-left:3px}
 .win.is-playing .play,.win.is-playing img{display:none}
+.is-loading::after{content:"Loading video...";position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:3;background:rgba(255,250,250,.94);color:var(--ink);font:600 13px var(--body);padding:8px 14px;border-radius:999px;white-space:nowrap}
+.is-failed::after{content:"Video could not load. Watch it on TikTok.";position:absolute;left:8px;right:8px;bottom:16px;z-index:3;background:rgba(255,250,250,.94);color:var(--ink);font:600 12px var(--body);padding:8px 10px;border-radius:12px;text-align:center}
 .card figcaption{margin-top:14px;text-align:center;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase}
 .card figcaption small{display:block;font-weight:500;letter-spacing:0;text-transform:none;font-size:13px;color:var(--ink-soft);margin-top:2px}
 
@@ -276,6 +278,24 @@ document.getElementById("intro-cc").src = URL.createObjectURL(new Blob([document
 let current = null;
 intro.addEventListener("play", () => { if (current && current !== intro) current.pause(); current = intro; intro.textTracks[0].mode = "showing"; });
 
+/* Some phones (Safari on iPhone) refuse a video when the host can't send it in pieces.
+   If a video errors or hasn't started 4 s after a play request, download it whole and play it from memory. */
+function rescue(vid, autoplay = true) {
+  if (vid.dataset.rescued) return;
+  vid.dataset.rescued = "1";
+  const url = vid.getAttribute("src");
+  const box = vid.parentElement; box.classList.add("is-loading");
+  fetch(url).then(r => { if (!r.ok) throw new Error(r.status); return r.blob(); })
+    .then(b => { vid.src = URL.createObjectURL(new Blob([b], { type: "video/mp4" })); vid.load(); box.classList.remove("is-loading"); if (autoplay) vid.play().catch(() => {}); })
+    .catch(() => { box.classList.remove("is-loading"); box.classList.add("is-failed"); });
+}
+function guard(vid) {
+  if (vid.error) rescue(vid, false); // failed while the page was loading
+  vid.addEventListener("error", () => rescue(vid, !vid.paused));
+  vid.addEventListener("play", () => setTimeout(() => { if (vid.readyState < 3 && !vid.dataset.rescued) rescue(vid); }, 4000));
+}
+guard(intro);
+
 /* one video plays at a time; a poster turns into the real video on tap, with sound */
 document.addEventListener("click", e => {
   const btn = e.target.closest(".play");
@@ -292,11 +312,12 @@ document.addEventListener("click", e => {
     vid.preload = "auto";
     vid.setAttribute("aria-label", btn.getAttribute("aria-label").replace(/^Play: /, ""));
     vid.addEventListener("play", () => { if (current && current !== vid) current.pause(); current = vid; });
+    guard(vid);
     win.insertBefore(vid, btn);
   }
   win.classList.add("is-playing");
   vid.muted = false;
-  vid.play().catch(() => {});
+  vid.play().catch(err => { if (err && err.name === "NotSupportedError") rescue(vid); });
   vid.focus({ preventScroll: true });
 });
 
