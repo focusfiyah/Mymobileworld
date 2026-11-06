@@ -21,6 +21,9 @@ it exists. Do not copy those rules into other skills or files; link to them.
   claude.ai account upload. `deploy.json` at the repo root says which skill goes where.
   `python3 <skill-dir>/scripts/deploy.py <name>` copies the source to the repo deployments and builds `dist/<name>-skill.zip`
   for Ralph to upload. A deployment is never edited by hand; if one was, bring the change back to the source first.
+- **Sending the zip:** copy it from `dist/` into the scratchpad (or the session's primary working directory) and send
+  that copy with SendUserFile. Why: the app opens only files inside those folders; zips sent straight from `dist/` arrived
+  as manual saves, not tap-to-download (Ralph 2026-11-06).
 - Anthropic's built-in skills (docx, pdf, pptx, xlsx, skill-creator, docs, morning, browser and computer-use
   skills) are not Ralph's and are not stored or edited here.
 
