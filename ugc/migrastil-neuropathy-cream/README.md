@@ -19,3 +19,4 @@ Status: 2026-11-06 PLAN SENT, waiting on Ralph's OK (route, hand sheet, cream co
 - "Music only + VO script (Recommended)": no VO in the cut, Grace adds music; a separate VO script for her.
 - "Yes, build the plan (Recommended)": research + gate + storyboard, stop at the plan.
 - Ralph 2026-11-06: "Share the storyboard with Grace as well": the shot-list storyboard (plan stage, $0) and the still sheet, once stills exist, both go to Grace in the Telegram group (-5234107715) as well as to Ralph. Her notes count for the look; a paid step still needs Ralph's OK.
+- Ralph 2026-11-06 (replaces "share the storyboard with Grace"): "No need to send the stills to Grace, I will check them. Grace will check final video and let us know any changes. I will do my best to pick up on any anomalies and hope you will do the same from the stills and any rough cuts that are produced." Stills and rough cuts go to Ralph only; Grace gets only the final video.
