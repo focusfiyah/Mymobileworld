@@ -90,5 +90,8 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
   EVIDENCE: 2026-11-06 Playwright 1280 + 390: scrollWidth = width, no page errors, Poppins loaded
 - [x] R-G6: copy through Humanizer + readability; check.py copy prints COPY_OK
   EVIDENCE: 2026-11-06 383 words, grade 6.7, COPY_OK; copy written to the Creator Pathway rules (no invented results: headline and closing line rewritten away from sales claims)
-- [ ] R-G8: Grace reviews the draft; "Get 3 free UGC ideas" points at the Google Form Ralph makes (button opens an email until then)
+- [ ] R-G8 (videos: DONE, Grace 786406530 "All of the videos are playing"): Grace reviews the draft; "Get 3 free UGC ideas" points at the Google Form Ralph makes (button opens an email until then)
 - [ ] R-G7: media packed to Drive (media.py check MEDIA_OK), Drive CURRENT doc updated, push + email sent, brain check BRAIN_OK
+  EVIDENCE (partial): 2026-11-06 media set 3 in Drive (1D1Eud_nN0pVvlvsKblqYjTXXRw0-5EoC, sha256 matched), MEDIA_OK; push + email sent for the draft. Drive CURRENT doc waits for the final version (job parked until her new intro).
+- [x] R-G9: every Grace note this session made on the live page and confirmed with her
+  EVIDENCE: 2026-11-06 Telegram 786406537: "We're all good for now. Let's come back to this when I have the new intro video complete."
