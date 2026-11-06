@@ -1,0 +1,103 @@
+{
+ "created": "2026-11-06",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "scripts.md"
+ ],
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop.log",
+   "research/discover.log",
+   "research/tag.log",
+   "research/videos.log",
+   "research/shop/shop-migrastil.json",
+   "research/shop/shop-neuropathy-cream.json",
+   "research/discover/discover-migrastil-neuropathy-cream.json",
+   "research/videos/7548818541793905950/meta.json",
+   "research/videos/7503661052182236458/meta.json",
+   "research/videos/7437977443283242286/meta.json",
+   "research/videos/7605789234355571998/meta.json",
+   "research/videos/7699489967113915662/meta.json",
+   "research/videos/7689983530222308638/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-11-06.json",
+   "research/viral.log"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "scripts.md",
+   "product_truth.json",
+   "research/product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "research": {
+  "proof": [
+   "research/RESEARCH.md"
+  ],
+  "note": "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "research/compare/compare.md",
+   "research/compare_notes.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-06",
+  "quote": "Approve v2, $2.49 (Recommended)",
+  "total": 2.49,
+  "sha256": "eac18b627692e5433bc2e14032f9f847c9690ef3d9b972fd30bcb4643d9df877",
+  "spent_at_approval": 0.0
+ }
+}

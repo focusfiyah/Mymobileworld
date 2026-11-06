@@ -18,7 +18,7 @@ Before this, a missing TikTok caption meant ElevenLabs credits or reading frames
 3. Only if the local result is clearly wrong (heavy music, accents) and Ralph OKs the cost: ElevenLabs `scribe_v2`
    (`tiktok.py compare <file> <file> --stt`; ask first, it uses credits).
 
-It writes `transcript.txt`, `transcript_timed.txt` and `transcript.json` (word timings, the layout `reference-breakdown`'s
+It writes `transcript.txt`, `transcript_timed.txt`, `transcript_words.json` (flat word list for `talking-head-edit`) and `transcript.json` (word timings, the layout `reference-breakdown`'s
 `measure.py` reads: run `python3 measure.py <ref dir> --force` afterwards to add pace to `measure.txt`).
 
 Done when: the transcript exists and the numbers, names and product words in it were checked against the audio or frames.

@@ -5,3 +5,4 @@
 - 2026-10-22: AI rooms allowed as the fallback when no real room fits (`--allow-ai`, then a generated room). Ralph: "AI generated rooms are ok. Just go with real rooms 1st".
 - 2026-10-24: broll MCP (archive.org public-domain b-roll, github.com/edigeh/broll-mcp) added as a source. Ralph: "Use this when we are editing and need b rolls".
 - 2026-10-27: Mixkit music + sound effects licences read and recorded; how to read the licence text and that envato preview links are paid. Ralph's AI on Autopilot explainer needed music.
+- 2026-11-06: one room per video and one saved room per kind of setting (Mymobileworld grace/rooms/), replacing "each video has its own rooms". Grace: "Like all videos for kitchen should be the same kitchen used"; Ralph tapped "Yes, save it".

@@ -36,7 +36,9 @@ rooms with no people or pets, skips Pixabay's AI-flagged images (unless `--allow
 and dark ones, and writes `cand/`, `cand.json` (source page, licence) and a numbered `contact.jpg`. Name a colour or
 material in every query; "bright" alone brings back white rooms.
 
-Done when: each video has its own rooms (none shared between videos), every room is bright but has colour, you have
+Done when: every shot of a video is in one room (different corners and angles inside it), a kind of setting
+already in Mymobileworld `grace/rooms/README.md` reuses that saved room instead of a new search, a new kind gets one
+room added there (Grace and Ralph, 2026-11-06: "all videos for kitchen should be the same kitchen used"), every room is bright but has colour, you have
 looked at the contact sheet and dropped crowded or branded shots (AI rooms that slipped past the flag are
 fine only when no real room fits), and the job's `rooms/SOURCES.md` lists file, video, source page and licence for each
 (template: Mymobileworld `ugc/space-heater-ptc/rooms/SOURCES.md`). The room goes into the still as a reference image;

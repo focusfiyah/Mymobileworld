@@ -5,6 +5,7 @@ usage: python3 transcribe.py FILE [--out DIR] [--model small.en] [--lang en]
 FILE is any audio or video file ffmpeg can read. Writes into DIR (default: next to FILE):
   transcript.txt         plain text
   transcript_timed.txt   one line per segment: start-end text
+  transcript_words.json  {words:[{text,start,end}]}, the shape talking-head-edit's node scripts read
   transcript.json        openai-whisper layout (segments with words), the format reference-breakdown's measure.py reads
 First run makes a venv at ~/.cache/transcribe-venv (pip install faster-whisper numpy) and downloads the model from
 Hugging Face (small.en ~480 MB, base.en ~145 MB). Needs ffmpeg, python3, network for the first run only.
@@ -53,6 +54,8 @@ def main():
         timed.append(f"{s.start:6.1f}-{s.end:6.1f}  {s.text.strip()}")
         text.append(s.text.strip())
     json.dump({"language": info.language, "segments": data}, open(os.path.join(out, "transcript.json"), "w"))
+    flat = [{"text": w["word"].strip(), "start": w["start"], "end": w["end"], "type": "word"} for s in data for w in s["words"]]
+    json.dump({"words": flat}, open(os.path.join(out, "transcript_words.json"), "w"))
     open(os.path.join(out, "transcript.txt"), "w").write("\n".join(text) + "\n")
     open(os.path.join(out, "transcript_timed.txt"), "w").write("\n".join(timed) + "\n")
     print(f"{len(data)} segments, {info.duration:.1f} s, language {info.language} -> {out}")

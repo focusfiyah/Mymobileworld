@@ -1,0 +1,512 @@
+[
+ {
+  "t": "2026-11-06 19:26:02",
+  "submitted": "c65c68cf8bb2f83905f4ad2d6ba8423d",
+  "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up of two hands above the curved cream upholstered bench at the f"
+ },
+ {
+  "t": "2026-11-06 19:26:03",
+  "submitted": "dfc72e9561d06ba64e3506e5da2186dc",
+  "prompt": "Image 1 is Grace's real hands (for skin tone), image 2 the room. Close-up at mattress height at the foot of the bed in t"
+ },
+ {
+  "t": "2026-11-06 19:26:06",
+  "submitted": "8cb54c9fe544158fd3b885004b128ac8",
+  "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up from above: one bare foot rests on the cream duvet of the crea"
+ },
+ {
+  "t": "2026-11-06 19:26:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up from above: one bare foot rests on the cream duvet of the cream upholstered bed in the cream bedroom from image 2; the fingertips of one RIGHT hand rest on the top of the foot with a small dab of white cream on it, the cream sitting directly under the fingertips on the top of the foot. The cream is a small dab of smooth white cream. Feet: bare feet of a Black woman with medium-brown skin matching image 1, short natural toenails with no polish, no socks, no jewellery. Hands: Grace's real hands from image 1, copied exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no rings, no bracelet, no watch; each hand enters from the frame edge with the whole wrist visible. No jar, no product, no other people. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132313-zdujb0it1ss.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134619-iteyd3qumk.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8cb54c9fe544158fd3b885004b128ac8",
+  "fail": [
+   "400",
+   "The input or output was flagged as sensitive. Please try again with different inputs."
+  ]
+ },
+ {
+  "t": "2026-11-06 19:26:08",
+  "submitted": "95bc08608c6a0d60e9ededf567001164",
+  "prompt": "Image 1 is Grace's real hands (for skin tone), image 2 the room. Low close-up at floor level, camera beside the bed in t"
+ },
+ {
+  "t": "2026-11-06 19:26:10",
+  "submitted": "8d43168196b759324ded0831360514d3",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, ima"
+ },
+ {
+  "t": "2026-11-06 19:26:11",
+  "submitted": "bb4b2ea45d2ae584ba2be6d0a2aba9f5",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, ima"
+ },
+ {
+  "t": "2026-11-06 19:26:54",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, image 4 Grace's real hands, image 5 the room. Close-up, camera at nightstand height: the closed jar stands on the small white nightstand beside the cream upholstered bed in the bedroom from image 5, label facing the camera, the pleated cream curtains soft behind it. One RIGHT hand comes in from the right edge and wraps around the jar, thumb on the near side and four fingers around the back, lifting it a few centimetres off the nightstand. The jar fills about the hand's palm. The product is the real Migrastil Extra Strength Neuropathy Cream 4 oz jar: a round jar with straight sides, about 7 cm wide and about as tall as it is wide with the lid on, small enough to hold in one palm. Glossy dark cobalt-blue jar with a wide glossy black screw lid with a smooth top. A navy label wraps the middle. At the top of the label a lime-green band with navy bold 'NON-BURNING RELIEF' on two lines and, to its right, a white hand icon on a blue square. Below it: 'MIGRASTIL' in white bold serif capitals, 'Extra Strength' in small white letters, 'Neuropathy' and 'Cream' in large lime-green rounded letters, 'Gentle, Non-Burning Relief' in small white letters, a thin lime-green line, 'NET WT 4 oz. (113 g)' in white; white curved arcs at the lower left and a red, white and blue USA shield with 'Made in the USA' at the lower right. The label print MUST match image 2 letter for letter and colour for colour, the green band MUST match image 3. The jar stays closed with its black lid on: no white jar, no clear jar, no tube, no pump, no box. Hands: Grace's real hands from image 4, copied exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no rings, no bracelet, no watch; each hand enters from the frame edge with the whole wrist visible. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132389-7pjyzytr6fe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134995-equu2p92klo.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993137462-rhffkvjnh9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132350-yhtx2u3os1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134570-5heimkb8m1c.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "8d43168196b759324ded0831360514d3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/8d43168196b759324ded0831360514d3_0_1793993210.jpeg"
+   ]
+  },
+  "costTime": 54,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:26:59",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up of two hands above the curved cream upholstered bench at the foot of the bed in the cream bedroom from image 2, the bench soft and out of focus: the RIGHT hand's fingers rub a thin sheen of white cream into the back of the LEFT hand. Hands: Grace's real hands from image 1, copied exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no rings, no bracelet, no watch; each hand enters from the frame edge with the whole wrist visible. No jar, no product, no face, no other people. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132337-dtwat0vtcnt.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134741-r194o3ufq1.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c65c68cf8bb2f83905f4ad2d6ba8423d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c65c68cf8bb2f83905f4ad2d6ba8423d_0_1793993213.jpeg"
+   ]
+  },
+  "costTime": 67,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:27:00",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands (for skin tone), image 2 the room. Close-up at mattress height at the foot of the bed in the cream bedroom from image 2: two bare feet just tucked under the edge of the cream duvet, only the toes and the tops of the feet showing, relaxed. Feet: bare feet of a Black woman with medium-brown skin matching image 1, short natural toenails with no polish, no socks, no jewellery. No hands, no product, no jar, no other people. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132334-3uzy8qgxrj4.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134570-5heimkb8m1c.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "dfc72e9561d06ba64e3506e5da2186dc",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/dfc72e9561d06ba64e3506e5da2186dc_0_1793993217.jpeg"
+   ]
+  },
+  "costTime": 69,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:27:08",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, image 4 the room. On top of the small white nightstand beside the cream upholstered bed in the bedroom from image 4, the pleated cream curtains behind: ONE closed jar standing upright, label facing the camera. The jar is small: about a sixth of the nightstand's width. No hands, no people. The product is the real Migrastil Extra Strength Neuropathy Cream 4 oz jar: a round jar with straight sides, about 7 cm wide and about as tall as it is wide with the lid on, small enough to hold in one palm. Glossy dark cobalt-blue jar with a wide glossy black screw lid with a smooth top. A navy label wraps the middle. At the top of the label a lime-green band with navy bold 'NON-BURNING RELIEF' on two lines and, to its right, a white hand icon on a blue square. Below it: 'MIGRASTIL' in white bold serif capitals, 'Extra Strength' in small white letters, 'Neuropathy' and 'Cream' in large lime-green rounded letters, 'Gentle, Non-Burning Relief' in small white letters, a thin lime-green line, 'NET WT 4 oz. (113 g)' in white; white curved arcs at the lower left and a red, white and blue USA shield with 'Made in the USA' at the lower right. The label print MUST match image 2 letter for letter and colour for colour, the green band MUST match image 3. The jar stays closed with its black lid on: no white jar, no clear jar, no tube, no pump, no box. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132472-m8rmxonbb4b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134709-yifunsruuvl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993138442-hupdnn5x1ig.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993140619-9mw8aak17ia.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "bb4b2ea45d2ae584ba2be6d0a2aba9f5",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/bb4b2ea45d2ae584ba2be6d0a2aba9f5_0_1793993225.jpeg"
+   ]
+  },
+  "costTime": 67,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:28:38",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands (for skin tone), image 2 the room. Low close-up at floor level, camera beside the bed in the cream bedroom from image 2: two bare feet resting on the cream marble floor at the edge of the cream upholstered bed, the cream duvet edge hanging just above them, the toes slightly curled. Feet: bare feet of a Black woman with medium-brown skin matching image 1, short natural toenails with no polish, no socks, no jewellery. No hands, no product, no jar, no other people. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132350-yhtx2u3os1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134828-1zm94hun94n.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "95bc08608c6a0d60e9ededf567001164",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/95bc08608c6a0d60e9ededf567001164_0_1793993314.jpeg"
+   ]
+  },
+  "costTime": 160,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:31:12",
+  "submitted": "a35492d3675df9576dabe54d94268e19",
+  "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up from above: one foot rests on the cream duvet of the cream uph"
+ },
+ {
+  "t": "2026-11-06 19:31:14",
+  "submitted": "d4f8b27408dc27cbbd92acdc8257e535",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, ima"
+ },
+ {
+  "t": "2026-11-06 19:32:11",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, image 4 the room. On top of the small white nightstand beside the cream upholstered bed in the bedroom from image 4, the pleated cream curtains behind: ONE closed jar standing upright, label facing the camera. The jar is small: about a sixth of the nightstand's width. There is exactly ONE jar in the whole picture: nothing floats in the air, no second jar, no enlarged copy of the jar, no product picture added on top of the room. No hands, no people. The product is the real Migrastil Extra Strength Neuropathy Cream 4 oz jar: a round jar with straight sides, about 7 cm wide and about as tall as it is wide with the lid on, small enough to hold in one palm. Glossy dark cobalt-blue jar with a wide glossy black screw lid with a smooth top. A navy label wraps the middle. At the top of the label a lime-green band with navy bold 'NON-BURNING RELIEF' on two lines and, to its right, a white hand icon on a blue square. Below it: 'MIGRASTIL' in white bold serif capitals, 'Extra Strength' in small white letters, 'Neuropathy' and 'Cream' in large lime-green rounded letters, 'Gentle, Non-Burning Relief' in small white letters, a thin lime-green line, 'NET WT 4 oz. (113 g)' in white; white curved arcs at the lower left and a red, white and blue USA shield with 'Made in the USA' at the lower right. The label print MUST match image 2 letter for letter and colour for colour, the green band MUST match image 3. The jar stays closed with its black lid on: no white jar, no clear jar, no tube, no pump, no box. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132389-7pjyzytr6fe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134709-yifunsruuvl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993138442-hupdnn5x1ig.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993140619-9mw8aak17ia.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d4f8b27408dc27cbbd92acdc8257e535",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/d4f8b27408dc27cbbd92acdc8257e535_0_1793993525.jpeg"
+   ]
+  },
+  "costTime": 55,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:32:15",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is Grace's real hands, image 2 the room. Close-up from above: one foot rests on the cream duvet of the cream upholstered bed in the cream bedroom from image 2; the fingertips of one RIGHT hand are rubbing moisturising foot lotion into the top of that foot, a small smooth patch of the lotion on the skin right under the fingertips. The foot has medium-brown skin matching image 1 and short natural unpolished toenails. Hands: Grace's real hands from image 1, copied exactly: medium-brown skin with lighter palms, medium-length squoval nails with mauve-pink polish and white French tips, no rings, no bracelet, no watch; each hand enters from the frame edge with the whole wrist visible. No jar, no product, no other people. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132350-yhtx2u3os1.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134570-5heimkb8m1c.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "a35492d3675df9576dabe54d94268e19",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/a35492d3675df9576dabe54d94268e19_0_1793993533.jpeg"
+   ]
+  },
+  "costTime": 66,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:37:48",
+  "submitted": "9ce07e24dafeb99e5a553e5afe12910c",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, ima"
+ },
+ {
+  "t": "2026-11-06 19:39:23",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, image 4 the room. Medium-wide shot from about two metres away, camera at nightstand height: the small white nightstand beside the cream upholstered bed in the bedroom from image 4, with the bed and the pleated cream curtains filling the rest of the frame. ONE closed jar stands upright on top of the nightstand, near its front edge, label facing the camera. SIZE: the jar is a small object on that top, about 7 cm tall, about a third as tall as the nightstand's own drawer front and about one tenth of the frame's width; the nightstand top is much wider than the jar. There is exactly ONE jar in the whole picture: nothing floats in the air, no second jar, no enlarged copy of the jar, no product picture added on top of the room. No hands, no people. The product is the real Migrastil Extra Strength Neuropathy Cream 4 oz jar: a round jar with straight sides, about 7 cm wide and about as tall as it is wide with the lid on, small enough to hold in one palm. Glossy dark cobalt-blue jar with a wide glossy black screw lid with a smooth top. A navy label wraps the middle. At the top of the label a lime-green band with navy bold 'NON-BURNING RELIEF' on two lines and, to its right, a white hand icon on a blue square. Below it: 'MIGRASTIL' in white bold serif capitals, 'Extra Strength' in small white letters, 'Neuropathy' and 'Cream' in large lime-green rounded letters, 'Gentle, Non-Burning Relief' in small white letters, a thin lime-green line, 'NET WT 4 oz. (113 g)' in white; white curved arcs at the lower left and a red, white and blue USA shield with 'Made in the USA' at the lower right. The label print MUST match image 2 letter for letter and colour for colour, the green band MUST match image 3. The jar stays closed with its black lid on: no white jar, no clear jar, no tube, no pump, no box. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132389-7pjyzytr6fe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134709-yifunsruuvl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993138442-hupdnn5x1ig.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993140619-9mw8aak17ia.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9ce07e24dafeb99e5a553e5afe12910c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9ce07e24dafeb99e5a553e5afe12910c_0_1793993961.jpeg"
+   ]
+  },
+  "costTime": 96,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:42:17",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. The right hand holds the closed jar the same way the whole time and slowly raises it a few centimetres toward the camera in one small smooth move. The jar does not turn, tip or open; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the green band must match Image3, the jar must match Image4 (the product reference sheet), and the jar stays the same size in every frame. The cream bedroom behind stays the same, bright neutral daylight. No added marks, no captions, no text. No music, no voice. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994105823-xcl4am5x5j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994108173-5pyhmcxpn6i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994110062-q6q40xnt74c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994113161-o7skerxel8.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "response": {
+   "code": 422,
+   "msg": "reference_image_urls resolution is out of range",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-06 19:42:55",
+  "submitted": "4734122fc80dd78b17b52b6c7966f81d",
+  "prompt": "Recreate Image1 exactly as the first frame. The right hand holds the closed jar the same way the whole time and slowly r"
+ },
+ {
+  "t": "2026-11-06 19:45:11",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. The right hand holds the closed jar the same way the whole time and slowly raises it a few centimetres toward the camera in one small smooth move. The jar does not turn, tip or open; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the green band must match Image3, the jar must match Image4 (the product reference sheet), and the jar stays the same size in every frame. The cream bedroom behind stays the same, bright neutral daylight. No added marks, no captions, no text. No music, no voice. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994156852-xlrutsceu2s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994160722-79xgohxdji3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994162517-iv0296bqc6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994165424-dlkrafawccm.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "4734122fc80dd78b17b52b6c7966f81d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793994310709-g6xqvjkgwlf.mp4"
+   ]
+  },
+  "costTime": 138,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-06 19:45:19",
+  "clip_check": "/home/user/Mymobileworld/ugc/migrastil-neuropathy-cream/clips/S2.mp4",
+  "still": "ugc/migrastil-neuropathy-cream/stills/S2.png",
+  "ok": true,
+  "score": 0.854
+ },
+ {
+  "t": "2026-11-06 19:48:55",
+  "submitted": "78fd4b3ee45a7571fc580d79ea7d3e1f",
+  "prompt": "The fingertips rub the lotion into the top of the foot in slow small circles, the lotion spreading on that spot and sink"
+ },
+ {
+  "t": "2026-11-06 19:48:57",
+  "submitted": "a359c2f2300543a63f15d9d4250b0f58",
+  "prompt": "The right hand's fingers rub the cream into the back of the left hand in slow strokes until it sinks in. Same two hands,"
+ },
+ {
+  "t": "2026-11-06 19:49:02",
+  "submitted": "36328a85cef4dd5b040d98bb58b27ef6",
+  "prompt": "One bare foot slowly rubs the top of the other foot and the toes curl, then relax. Camera steady, slight handheld drift."
+ },
+ {
+  "t": "2026-11-06 19:49:04",
+  "submitted": "0dfa56731cbbffe799020a1d83b335d3",
+  "prompt": "Slow push-in as the feet slide a little further under the cream duvet and the toes relax. No hands, fingers or product a"
+ },
+ {
+  "t": "2026-11-06 19:49:06",
+  "submitted": "1e437e646ab2a30d1edb9b18b67a2cfe",
+  "prompt": "Recreate Image1 exactly as the first frame. Slow smooth dolly-in toward the closed jar standing on the white nightstand."
+ },
+ {
+  "t": "2026-11-06 19:49:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The right hand's fingers rub the cream into the back of the left hand in slow strokes until it sinks in. Same two hands, same positions. Camera steady, slight handheld drift. No jar or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516378-ikszrva1b1b.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a359c2f2300543a63f15d9d4250b0f58",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994597650-mvimotjmma.mp4"
+   ]
+  },
+  "costTime": 70,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:02",
+  "clip_check": "clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.982
+ },
+ {
+  "t": "2026-11-06 19:50:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The fingertips rub the lotion into the top of the foot in slow small circles, the lotion spreading on that spot and sinking in. Same hand position the whole time; the foot stays still. Camera steady. No jar or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516340-dcmwouhennb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "78fd4b3ee45a7571fc580d79ea7d3e1f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994609142-4mq23205kwp.mp4"
+   ]
+  },
+  "costTime": 86,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Slow push-in as the feet slide a little further under the cream duvet and the toes relax. No hands, fingers or product appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516354-n9pooj3xdw.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "0dfa56731cbbffe799020a1d83b335d3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994617895-eyjhcg9exk4.mp4"
+   ]
+  },
+  "costTime": 85,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:19",
+  "clip_check": "clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.964
+ },
+ {
+  "t": "2026-11-06 19:50:21",
+  "clip_check": "clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.965
+ },
+ {
+  "t": "2026-11-06 19:50:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "One bare foot slowly rubs the top of the other foot and the toes curl, then relax. Camera steady, slight handheld drift. No hands, fingers or product appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516382-17n6glbvlc5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "36328a85cef4dd5b040d98bb58b27ef6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994630036-i4yro8h334.mp4"
+   ]
+  },
+  "costTime": 100,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:38",
+  "clip_check": "clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.994
+ },
+ {
+  "t": "2026-11-06 19:51:53",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Slow smooth dolly-in toward the closed jar standing on the white nightstand. Nothing moves except the camera. No hands, fingers or people appear at any time. The jar does not turn, tip or open; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the green band must match Image3, the jar must match Image4 (the product reference sheet), and there is only ONE jar in every frame. The cream bedroom behind stays the same, bright neutral daylight. No added marks, no captions, no text. No music, no voice. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994518411-v5pcre4bnn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994520671-kzpjbvw1noh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994523206-rvg1de91w9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994525358-0fb7u1epyf.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "1e437e646ab2a30d1edb9b18b67a2cfe",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793994710660-kbrlye8vt8h.mp4"
+   ]
+  },
+  "costTime": 170,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-06 19:52:00",
+  "clip_check": "/home/user/Mymobileworld/ugc/migrastil-neuropathy-cream/clips/S6.mp4",
+  "still": "ugc/migrastil-neuropathy-cream/stills/S6.png",
+  "ok": true,
+  "score": 0.723
+ }
+]
