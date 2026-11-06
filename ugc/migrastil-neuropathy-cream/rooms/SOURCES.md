@@ -1,0 +1,7 @@
+# Rooms (real photos, free-assets rooms.py, 2026-11-06)
+
+- roomA_sage_bedroom.jpg <- px_9566053.jpg: {"q": "sage green bedroom bed", "src": "https://www.pexels.com/photo/a-wooden-themed-bedroom-with-floral-wooden-headboard-9566053/", "alt": "Stylish bedroom with a rattan headboard, green decor, and hanging plants for a serene ambiance.", "licence": "Pexels License (free commercial use, no attribution)", "white": 0.48, "bright": 128, "size": [1440, 2160]}
+- roomB_yellow_sofa.jpg <- px_9914678.jpg: {"q": "living room sofa rug colorful", "src": "https://www.pexels.com/photo/yellow-couch-and-paintings-on-wall-in-a-room-9914678/", "alt": "Bright minimalist living room featuring a yellow sofa and art prints on the wall.", "licence": "Pexels License (free commercial use, no attribution)", "white": 0.43, "bright": 135, "size": [1440, 1920]}
+- roomC_bright_bedroom.jpg <- px_34574606.jpg: {"q": "cozy bedroom nightstand lamp", "src": "https://www.pexels.com/photo/elegant-bedroom-interior-with-blue-accents-and-natural-light-34574606/", "alt": "Sophisticated bedroom design featuring a beige headboard, blue walls, and wood flooring with ample natural light.", "licence": "Pexels License (free commercial use, no attribution)", "white": 0.51, "bright": 141, "size": [1440, 2160]}
+
+Use: A = bedtime shots (bed, nightstand); B = feet-up on the sofa (pain/relief); C = morning/window shot. Picked bright with colour; dark/golden lamp rooms (1,2,6,16,17) skipped.
