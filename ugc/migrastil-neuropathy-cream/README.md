@@ -18,3 +18,4 @@ Status: 2026-11-06 brief received from Grace in Telegram (update 786406538/539).
 ## Ralph's calls (2026-11-06, tapped)
 - "Music only + VO script (Recommended)": no VO in the cut, Grace adds music; a separate VO script for her.
 - "Yes, build the plan (Recommended)": research + gate + storyboard, stop at the plan.
+- Ralph 2026-11-06: "Share the storyboard with Grace as well": the shot-list storyboard (plan stage, $0) and the still sheet, once stills exist, both go to Grace in the Telegram group (-5234107715) as well as to Ralph. Her notes count for the look; a paid step still needs Ralph's OK.
