@@ -40,3 +40,4 @@ Real Pexels/Pixabay Xmas rooms first as references (free), still storyboard, pro
 ## Ralph's decisions (2026-11-06, tapped)
 1. Light: "Bright neutral (Recommended)".
 2. Sets: "Own spot per video (Recommended)".
+3. Rooms (2026-11-06, tapped "One room, own spot (Recommended)"): ONE bright Christmas living room for all 5 videos; each video gets its own spot inside it (mantel, tree base, sofa corner, console, gift table), and all of a video's scenes stay in that room. Sets A-F above are spots in that one room.
