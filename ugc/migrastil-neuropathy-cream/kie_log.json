@@ -353,5 +353,160 @@
   "t": "2026-11-06 19:49:06",
   "submitted": "1e437e646ab2a30d1edb9b18b67a2cfe",
   "prompt": "Recreate Image1 exactly as the first frame. Slow smooth dolly-in toward the closed jar standing on the white nightstand."
+ },
+ {
+  "t": "2026-11-06 19:49:59",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The right hand's fingers rub the cream into the back of the left hand in slow strokes until it sinks in. Same two hands, same positions. Camera steady, slight handheld drift. No jar or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516378-ikszrva1b1b.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a359c2f2300543a63f15d9d4250b0f58",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994597650-mvimotjmma.mp4"
+   ]
+  },
+  "costTime": 70,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:02",
+  "clip_check": "clips/S4.mp4",
+  "still": "stills/S4.png",
+  "ok": true,
+  "score": 0.982
+ },
+ {
+  "t": "2026-11-06 19:50:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "The fingertips rub the lotion into the top of the foot in slow small circles, the lotion spreading on that spot and sinking in. Same hand position the whole time; the foot stays still. Camera steady. No jar or product appears at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516340-dcmwouhennb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "78fd4b3ee45a7571fc580d79ea7d3e1f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994609142-4mq23205kwp.mp4"
+   ]
+  },
+  "costTime": 86,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:19",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "Slow push-in as the feet slide a little further under the cream duvet and the toes relax. No hands, fingers or product appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516354-n9pooj3xdw.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "0dfa56731cbbffe799020a1d83b335d3",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994617895-eyjhcg9exk4.mp4"
+   ]
+  },
+  "costTime": 85,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:19",
+  "clip_check": "clips/S3.mp4",
+  "still": "stills/S3.png",
+  "ok": true,
+  "score": 0.964
+ },
+ {
+  "t": "2026-11-06 19:50:21",
+  "clip_check": "clips/S5.mp4",
+  "still": "stills/S5.png",
+  "ok": true,
+  "score": 0.965
+ },
+ {
+  "t": "2026-11-06 19:50:36",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "One bare foot slowly rubs the top of the other foot and the toes curl, then relax. Camera steady, slight handheld drift. No hands, fingers or product appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994516382-17n6glbvlc5.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "36328a85cef4dd5b040d98bb58b27ef6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1793994630036-i4yro8h334.mp4"
+   ]
+  },
+  "costTime": 100,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-06 19:50:38",
+  "clip_check": "clips/S1.mp4",
+  "still": "stills/S1.png",
+  "ok": true,
+  "score": 0.994
+ },
+ {
+  "t": "2026-11-06 19:51:53",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Slow smooth dolly-in toward the closed jar standing on the white nightstand. Nothing moves except the camera. No hands, fingers or people appear at any time. The jar does not turn, tip or open; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the green band must match Image3, the jar must match Image4 (the product reference sheet), and there is only ONE jar in every frame. The cream bedroom behind stays the same, bright neutral daylight. No added marks, no captions, no text. No music, no voice. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994518411-v5pcre4bnn.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994520671-kzpjbvw1noh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994523206-rvg1de91w9.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994525358-0fb7u1epyf.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "1e437e646ab2a30d1edb9b18b67a2cfe",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793994710660-kbrlye8vt8h.mp4"
+   ]
+  },
+  "costTime": 170,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-06 19:52:00",
+  "clip_check": "/home/user/Mymobileworld/ugc/migrastil-neuropathy-cream/clips/S6.mp4",
+  "still": "ugc/migrastil-neuropathy-cream/stills/S6.png",
+  "ok": true,
+  "score": 0.723
  }
 ]
