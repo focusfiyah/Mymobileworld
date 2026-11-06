@@ -1,6 +1,6 @@
 # Grace UGC portfolio (2026-10-28)
 
-Status: 2026-11-06 v4 brief from Grace (via Ralph): no numbers on videos, her pick of videos incl. voiceover + AI, lighter neutral look, tidier layout, her 8 photos (photo 1 main). Three looks sent for her pick: https://claude.ai/artifact/85Zs2uuuTYJYfR7gaB3Tzn (`templates/`). Waiting on her look/template + video list. Live page still v3 https://claude.ai/artifact/JeSC2FCYMuNH3RsREQDR2C. Cost $0.
+Status: 2026-11-06 PARKED until Grace sends her new intro video (her words: "We're all good for now. Let's come back to this when I have the new intro video complete."). Live: https://claude.ai/artifact/JeSC2FCYMuNH3RsREQDR2C (version 1793978493-ccbc), her Canva layout in powder pink A, her photos, her 8 videos (they play on her iPhone through the blob fallback), her copy. Open: (1) new intro video from Grace: re-encode, re-caption, swap under a new name; (2) Ralph deploys the Apps Script ideas form (form/README.md) and sends the /exec URL for both "Get 3 free UGC ideas" buttons; (3) the Drive CURRENT doc. Media in Drive (media-in-drive/grace__portfolio.json, set 3). Cost $0.
 
 A one-page portfolio so higher-priced brands reach out to Grace ("Grace With The Glow", TikTok @shewiththeglow) for UGC.
 - Page: `site/index.html` + `site/media/` (16 web-encoded videos + posters + hero captions). Published as a private claude.ai Artifact (link in the Brain note and the final message).
