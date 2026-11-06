@@ -3,7 +3,9 @@
  "scripts": [
   "scripts.md"
  ],
- "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
+ "vo_lines": [
+  "scripts.md"
+ ],
  "playbook": {
   "proof": [
    "research/playbook.md"
@@ -38,20 +40,28 @@
  },
  "product_facts": {
   "proof": [
+   "scripts.md",
+   "product_truth.json",
    "research/product_facts.md"
   ],
   "note": "file with every claim and its source (listing, box, brand site)"
  },
  "hooks": {
-  "proof": [],
+  "proof": [
+   "research/hooks.md"
+  ],
   "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
  },
  "humanizer": {
-  "proof": [],
+  "proof": [
+   "research/humanizer.md"
+  ],
   "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
  },
  "readability": {
-  "proof": [],
+  "proof": [
+   "research/readability_v1.txt"
+  ],
   "note": "tiktok.py readability output for each script (grade must be <= 6)"
  },
  "audience": {
@@ -70,7 +80,9 @@
   "note": "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)"
  },
  "line_sources": {
-  "proof": [],
+  "proof": [
+   "research/line_sources.md"
+  ],
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {

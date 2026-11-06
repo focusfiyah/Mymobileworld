@@ -1,6 +1,6 @@
 # Migrastil Extra Strength Neuropathy Cream (Grace), 2026-11-06
 
-Status: 2026-11-06 brief received from Grace in Telegram (update 786406538/539). Photos saved to Drive Telegram Assets. Next: research + script gate + plan (BOOK.md) for Ralph's OK. Spend $0.
+Status: 2026-11-06 PLAN SENT, waiting on Ralph's OK (route, hand sheet, cream colour). Review page https://claude.ai/artifact/DGT4x42YffAsWTvEfBz3oS ; storyboard sent to Grace in Telegram (msg 136) with a request for an open-jar photo. Gate OK, prompts linted, BOOK TOTAL $2.49 (Flow route $1.45, Gemini+Flow $0.82). Spent $0.
 
 ## Brief (Grace, Telegram group, 2026-11-06 18:44 UTC)
 - "Ai video needed for this", 12-15 seconds.
