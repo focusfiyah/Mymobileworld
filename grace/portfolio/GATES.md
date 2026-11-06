@@ -75,3 +75,16 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
 - [ ] V4-G2: Grace picks a look (or sends her template) and her video list
 - [ ] V4-G3: rebuilt portfolio on the same link, no view/like/save numbers anywhere, check.py passes
 - [ ] V4-G4: photos + any new media packed to Drive (media.py), Drive CURRENT doc updated
+
+## Redo, Grace's way (2026-11-06, Ralph: material from Grace comes through him; keep photos, intro, self-filmed videos)
+- [x] R-G1: the kept assets are still on the live page (intro, smile photo, 10 self-filmed videos + posters)
+  EVIDENCE: 2026-11-06 Artifact list_files JeSC2FCYMuNH3RsREQDR2C version 1793325353-0a9b: 23 files (hero.mp4, hero-smile.jpg, 10 mp4 + 10 jpg)
+- [ ] R-G2: every item Ralph sends from Grace is logged in Brain/Jobs/Grace Portfolio Brief.md ("Her new material") before any build
+- [ ] R-G3: Grace reachable by Azariah on Telegram, tested this session with one hello and the API answer recorded
+  EVIDENCE (partial): 2026-11-06 Composio telegram_classy-urdu = "initiated" (not active); @azariah_assist_bot getChat on group -5234107715 ok, 3 members, can_read_all_group_messages true; no hello sent yet (needs Ralph's OK)
+- [ ] R-G4: rebuild on the same link, no view/like/save/follower numbers anywhere
+  CHECK: python3 grace/portfolio/check.py stats
+  EXPECT: STATS_OK
+- [ ] R-G5: photos re-made (photo 1 main, 7 highlights) and checked at 2x; 390 + 1280 px screenshots, no horizontal scroll
+- [ ] R-G6: copy through Humanizer + readability; check.py copy prints COPY_OK
+- [ ] R-G7: media packed to Drive (media.py check MEDIA_OK), Drive CURRENT doc updated, push + email sent, brain check BRAIN_OK
