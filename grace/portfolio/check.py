@@ -135,9 +135,9 @@ def grade(text):
 
 # Client's own words kept verbatim, graded out of the readability check (Ralph's OK per line, recorded here)
 VERBATIM = [
-    # 2026-11-06 Grace (Telegram 786406526): "You didn't replace this ... With this:"; Ralph tapped
-    # "Use hers word for word (Recommended)" for the hero line.
-    "New York-based UGC creator producing TikTok and ad-style content across beauty, wellness, motherhood, fashion, and everyday problem-solving products. From product demos to storytelling, I create content that gives people a reason to buy.",
+    # 2026-11-06 Grace (Telegram 786406526, then shortened in 786406532: "updating the top para ... to this");
+    # Ralph tapped "Use hers word for word (Recommended)" for her hero line.
+    "New York-based UGC creator producing content that gives people a reason to buy.",
 ]
 
 
