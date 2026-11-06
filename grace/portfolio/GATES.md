@@ -80,8 +80,8 @@ Scope: a professional, private-by-default portfolio page for Grace (@shewiththeg
 - [x] R-G1: the kept assets are still on the live page (intro, smile photo, 10 self-filmed videos + posters)
   EVIDENCE: 2026-11-06 Artifact list_files JeSC2FCYMuNH3RsREQDR2C version 1793325353-0a9b: 23 files (hero.mp4, hero-smile.jpg, 10 mp4 + 10 jpg)
 - [ ] R-G2: every item Ralph sends from Grace is logged in Brain/Jobs/Grace Portfolio Brief.md ("Her new material") before any build
-- [ ] R-G3: Grace reachable by Azariah on Telegram, tested this session with one hello and the API answer recorded
-  EVIDENCE (partial): 2026-11-06 Composio telegram_classy-urdu = "initiated" (not active); @azariah_assist_bot getChat on group -5234107715 ok, 3 members, can_read_all_group_messages true; no hello sent yet (needs Ralph's OK)
+- [x] R-G3: Grace reachable by Azariah on Telegram, tested this session with one hello and the API answer recorded
+  EVIDENCE: 2026-11-06 Ralph tapped "Use the group bot (Recommended)". @azariah_assist_bot sendMessage to group -5234107715 -> ok true, message_id 50. Unfinished Composio telegram_classy-urdu removed (no Telegram accounts left in Composio)
 - [ ] R-G4: rebuild on the same link, no view/like/save/follower numbers anywhere
   CHECK: python3 grace/portfolio/check.py stats
   EXPECT: STATS_OK
