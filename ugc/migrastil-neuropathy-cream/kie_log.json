@@ -233,5 +233,100 @@
   "costTime": 66,
   "credits": 18.0,
   "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:37:48",
+  "submitted": "9ce07e24dafeb99e5a553e5afe12910c",
+  "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, ima"
+ },
+ {
+  "t": "2026-11-06 19:39:23",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product reference sheet, image 2 the real front label close-up, image 3 the real green band close-up, image 4 the room. Medium-wide shot from about two metres away, camera at nightstand height: the small white nightstand beside the cream upholstered bed in the bedroom from image 4, with the bed and the pleated cream curtains filling the rest of the frame. ONE closed jar stands upright on top of the nightstand, near its front edge, label facing the camera. SIZE: the jar is a small object on that top, about 7 cm tall, about a third as tall as the nightstand's own drawer front and about one tenth of the frame's width; the nightstand top is much wider than the jar. There is exactly ONE jar in the whole picture: nothing floats in the air, no second jar, no enlarged copy of the jar, no product picture added on top of the room. No hands, no people. The product is the real Migrastil Extra Strength Neuropathy Cream 4 oz jar: a round jar with straight sides, about 7 cm wide and about as tall as it is wide with the lid on, small enough to hold in one palm. Glossy dark cobalt-blue jar with a wide glossy black screw lid with a smooth top. A navy label wraps the middle. At the top of the label a lime-green band with navy bold 'NON-BURNING RELIEF' on two lines and, to its right, a white hand icon on a blue square. Below it: 'MIGRASTIL' in white bold serif capitals, 'Extra Strength' in small white letters, 'Neuropathy' and 'Cream' in large lime-green rounded letters, 'Gentle, Non-Burning Relief' in small white letters, a thin lime-green line, 'NET WT 4 oz. (113 g)' in white; white curved arcs at the lower left and a red, white and blue USA shield with 'Made in the USA' at the lower right. The label print MUST match image 2 letter for letter and colour for colour, the green band MUST match image 3. The jar stays closed with its black lid on: no white jar, no clear jar, no tube, no pump, no box. Bright neutral daylight (no warm or golden glow), true colours, vertical 9:16 photo, realistic phone-camera look. No text, no captions, no logos other than the real label, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993132389-7pjyzytr6fe.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993134709-yifunsruuvl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993138442-hupdnn5x1ig.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793993140619-9mw8aak17ia.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9ce07e24dafeb99e5a553e5afe12910c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9ce07e24dafeb99e5a553e5afe12910c_0_1793993961.jpeg"
+   ]
+  },
+  "costTime": 96,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-06 19:42:17",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. The right hand holds the closed jar the same way the whole time and slowly raises it a few centimetres toward the camera in one small smooth move. The jar does not turn, tip or open; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the green band must match Image3, the jar must match Image4 (the product reference sheet), and the jar stays the same size in every frame. The cream bedroom behind stays the same, bright neutral daylight. No added marks, no captions, no text. No music, no voice. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994105823-xcl4am5x5j.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994108173-5pyhmcxpn6i.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994110062-q6q40xnt74c.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994113161-o7skerxel8.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "response": {
+   "code": 422,
+   "msg": "reference_image_urls resolution is out of range",
+   "data": null
+  }
+ },
+ {
+  "t": "2026-11-06 19:42:55",
+  "submitted": "4734122fc80dd78b17b52b6c7966f81d",
+  "prompt": "Recreate Image1 exactly as the first frame. The right hand holds the closed jar the same way the whole time and slowly r"
+ },
+ {
+  "t": "2026-11-06 19:45:11",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. The right hand holds the closed jar the same way the whole time and slowly raises it a few centimetres toward the camera in one small smooth move. The jar does not turn, tip or open; the label stays facing the camera. The label must match Image2 letter for letter and colour for colour, the green band must match Image3, the jar must match Image4 (the product reference sheet), and the jar stays the same size in every frame. The cream bedroom behind stays the same, bright neutral daylight. No added marks, no captions, no text. No music, no voice. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994156852-xlrutsceu2s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994160722-79xgohxdji3.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994162517-iv0296bqc6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1793994165424-dlkrafawccm.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "4734122fc80dd78b17b52b6c7966f81d",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1793994310709-g6xqvjkgwlf.mp4"
+   ]
+  },
+  "costTime": 138,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-06 19:45:19",
+  "clip_check": "/home/user/Mymobileworld/ugc/migrastil-neuropathy-cream/clips/S2.mp4",
+  "still": "ugc/migrastil-neuropathy-cream/stills/S2.png",
+  "ok": true,
+  "score": 0.854
  }
 ]
