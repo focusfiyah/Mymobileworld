@@ -88,5 +88,13 @@
  "compare": {
   "proof": [],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-06",
+  "quote": "Approve v2, $2.49 (Recommended)",
+  "total": 2.49,
+  "sha256": "eac18b627692e5433bc2e14032f9f847c9690ef3d9b972fd30bcb4643d9df877",
+  "spent_at_approval": 0.0
  }
 }
