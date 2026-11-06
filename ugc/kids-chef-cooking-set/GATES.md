@@ -4,4 +4,4 @@
   CHECK: python3 check.py chef_set 7 15
   EXPECT: CUT_OK chef_set
 - [ ] G2: (manual) Every shot viewed on a contact sheet: box, tray, knives, peeler, picks, silicone, wood knife, scrapers, bear mold, board, glove, overview; nothing blurry at cut points
-- [ ] G3: (manual) Original in Drive Originals + Telegram Assets, cut in product folder as CURRENT, review page up, Ralph + Grace told
+- [x] G3: (manual) Original in Drive Originals + Telegram Assets, cut in product folder as CURRENT, review page up, Ralph + Grace told
