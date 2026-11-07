@@ -18,7 +18,7 @@ Ideas form - Code.gs.txt (1VKiRsoXMlOJ3H0pGiDLVNV1GMGKMHii1), Ideas form - ideas
 
 ## What happens on submit
 - Row: Received, Name, Brand, Email, Product link, Videos for, Notes, Status=New.
-- Email to Gracewiththeglow@gmail.com ("3 free UGC ideas request: <brand>"), Reply goes to the brand.
+- Email to graceglows.ugc@gmail.com ("3 free UGC ideas request: <brand>"), Reply goes to the brand.
 - Confirmation to the brand from "Grace With The Glow" (sent from life22watch@gmail.com, Reply-To Grace).
 - Hidden field `zq_check` stops bots (named so browsers don't autofill it: Diaspo lesson 2026-11-05).
 

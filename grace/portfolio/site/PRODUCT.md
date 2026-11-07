@@ -13,7 +13,7 @@ static HTML/CSS/JS, one page, published as a private claude.ai Artifact (videos 
 Brand partnership and influencer managers at higher-priced consumer brands (baby and family, home, beauty and wellness, shapewear and fashion) who are scouting UGC creators. They open the link from an email or DM on a phone or laptop, watch a few seconds of several videos, check proof that her content performs, then decide whether to email her.
 
 ## Product Purpose
-A portfolio for Grace ("Grace With The Glow", TikTok @shewiththeglow) so brands reach out to hire her for UGC. Success: a brand manager watches her real work, believes she can make content that sells, and emails Gracewiththeglow@gmail.com.
+A portfolio for Grace ("Grace With The Glow", TikTok @shewiththeglow) so brands reach out to hire her for UGC. Success: a brand manager watches her real work, believes she can make content that sells, and emails graceglows.ugc@gmail.com.
 
 ## Positioning
 A real mom filming in her real home, with her own toddler, whose everyday product video reached 2.8M views. Her videos read as a friend telling you what works, not as an ad.
@@ -24,7 +24,7 @@ Brands compare many creators quickly; they want to see the face, hear the voice,
 ## Capabilities and Constraints
 - Show only videos Grace filmed herself (Ralph 2026-10-28). Our AI-made videos never appear.
 - No packages and no prices: she negotiates with each brand (Ralph 2026-10-28).
-- Contact: Gracewiththeglow@gmail.com; mailto links may not work inside an Artifact, so the address is shown as text with a copy button.
+- Contact: graceglows.ugc@gmail.com; mailto links may not work inside an Artifact, so the address is shown as text with a copy button.
 - Every stat comes from TikTok's public numbers pulled 2026-10-28 (meta.json per video); none invented.
 
 ## Brand Commitments
