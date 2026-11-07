@@ -1,0 +1,8 @@
+== black
+0
+== freeze (>=0.5 s)
+0
+== cuts
+pts_time:2 pts_time:4 pts_time:6 pts_time:8 pts_time:10 
+expected 2 4 6 8 10
+== brightness/saturation (YAVG SATAVG, per 2 s)

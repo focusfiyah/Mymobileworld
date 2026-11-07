@@ -58,7 +58,7 @@ SHOTS = [
       ["PLUM", "SHEET"], "the hand slowly sets the bottle down upright on the tray beside the gold baubles, lets go and slides out of the frame to the right; the bottle stays still; the camera holds.", 5),
  shot(5, True, True, ["ROOM_A", "VAN", "SHEET", "HAND"],
       f"Close-up on a small light-wood stool standing right beside the red armchair: on its round top a white ceramic mug of hot cocoa with one cinnamon stick standing in it, a thin wisp of steam. {HAND} on the left and GRIPS ONE bottle, "
-      f"the Vanilla Spice bottle of image 2, upright beside the mug, a {BOTTLE}; {PRINT}. Its black cap is ON; thumb on the side of the label, fingers around the back; the cream label faces the camera. "
+      f"the Vanilla Spice bottle of image 2, a {BOTTLE}; {PRINT}. The hand is CLOSED AROUND the bottle and lifts it: thumb pressed on the left side of the label, index and middle fingers wrapped around the back of the bottle, the bottle held upright in the air 3 cm above the stool top beside the mug, its base not touching the stool; never an open or spread hand. Its black cap is ON; the cream label faces the camera. "
       f"Image 3 shows its true shape. {SIZE} No other bottles, no box, no diffuser.",
       ["VAN", "SHEET"], "the hand sets the bottle down upright next to the mug, lets go and slides out of the frame to the left; the thin steam keeps curling up from the cocoa; the camera holds.", 5),
  shot(6, False, True, ["ROOM_A", "BOX", "TREE", "PLUM", "VAN", "SHEET"],
