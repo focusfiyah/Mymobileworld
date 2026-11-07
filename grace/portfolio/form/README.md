@@ -14,7 +14,8 @@ Ideas form - Code.gs.txt (1myFBvcd6rtfMyRn82VA-EcV-Ff6vpPd4), Ideas form - ideas
 4. Pick `setup` in the function menu > Run > allow access (Sheets, Mail). The log shows the new sheet's link.
 5. Deploy > New deployment > type Web app. Execute as: Me. Who has access: Anyone. Deploy, copy the Web app URL (ends in /exec).
 6. Send the URL to Azariah: the portfolio's "Get 3 free UGC ideas" buttons then open it.
-7. Test once: fill the form yourself. Expect a row in "Grace - 3 free UGC ideas", an email to Grace, a confirmation to you.
+7. The sheet is created at the top of My Drive; it was moved into UGC Portfolio (Grace) 2026-11-07 (id 1lPvtCRuOkMs_8ztjPVfztuNBlb-cHniOah1Vueaq36k). Moving it is safe: the script finds it by id.
+8. Test once: fill the form yourself. Expect a row in "Grace - 3 free UGC ideas", an email to Grace, a confirmation to you.
 
 ## What happens on submit
 - Row: Received, Name, Brand, Email, Product link, Videos for, Notes, Status=New.
