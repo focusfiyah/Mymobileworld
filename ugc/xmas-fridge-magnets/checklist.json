@@ -1,0 +1,101 @@
+{
+ "created": "2026-11-07",
+ "scripts": [
+  "scripts.md"
+ ],
+ "vo_lines": [
+  "scripts.md"
+ ],
+ "playbook": {
+  "proof": [
+   "research/playbook.md"
+  ],
+  "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
+ },
+ "coach_research": {
+  "proof": [
+   "research/coach.md",
+   "research/shop.log",
+   "research/discover.log",
+   "research/tag.log",
+   "research/videos.log",
+   "research/shop/shop-christmas-fridge-magnets.json",
+   "research/discover/discover-christmas-fridge-magnets.json",
+   "research/discover/discover-magnetic-christmas-tree.json",
+   "research/videos/7692610645350501645/meta.json",
+   "research/videos/7564975664110112031/meta.json",
+   "research/videos/7553047154986618167/meta.json",
+   "research/videos/7694858021964434702/meta.json"
+  ],
+  "note": "tiktok-shop-coach output files: discover/tag/shop on the product keyword AND `video` on the top 3 shop videos"
+ },
+ "viral_board": {
+  "proof": [
+   "research/viral/viral-2026-11-07.json",
+   "research/viral.log"
+  ],
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+ },
+ "product_facts": {
+  "proof": [
+   "scripts.md",
+   "product_truth.json",
+   "research/product_facts.md"
+  ],
+  "note": "file with every claim and its source (listing, box, brand site)"
+ },
+ "hooks": {
+  "proof": [
+   "research/hooks.md"
+  ],
+  "note": "file with 3 hook options per video: spoken line AND on-screen text, each modeled on a named winner"
+ },
+ "humanizer": {
+  "proof": [
+   "research/humanizer.md"
+  ],
+  "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
+ },
+ "readability": {
+  "proof": [
+   "research/readability_v1.txt"
+  ],
+  "note": "tiktok.py readability output for each script (grade must be <= 6)"
+ },
+ "audience": {
+  "proof": [
+   "research/audience.md",
+   "research/audience/questions.md",
+   "research/audience/comments.md",
+   "research/audience/voc.md"
+  ],
+  "note": "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)"
+ },
+ "research": {
+  "proof": [
+   "research/RESEARCH.md"
+  ],
+  "note": "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)"
+ },
+ "line_sources": {
+  "proof": [
+   "research/line_sources.md"
+  ],
+  "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
+ },
+ "compare": {
+  "proof": [
+   "research/compare/compare/compare.md",
+   "research/compare_notes.md"
+  ],
+  "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-07",
+  "quote": "Ralph tapped \"All on Kie, $4.66\" (2026-11-07), with \"Grace clone VO, ~30 s (Recommended)\", \"Small hands + from behind (Recommended)\", \"A: oak + hex tile (Recommended)\"",
+  "total": 4.66,
+  "sha256": "acba3b2846b3e27436db8e84f92f6c8c9dc3fe7344ac79168e43a10952c801c6",
+  "spent_at_approval": 0.0
+ }
+}
