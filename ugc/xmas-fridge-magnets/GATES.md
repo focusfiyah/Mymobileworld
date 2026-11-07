@@ -26,7 +26,7 @@ Scope: research, script, storyboard and Production Book for Grace's Christmas Fr
   EXPECT: NO_SPEND_OK
   EVIDENCE: pending
 
-- [ ] G5: Ralph was notified (email sent; push tool not found this session) and asked with tap questions
+- [ ] G5: Ralph was notified (email sent; push + email) and asked with tap questions
   EVIDENCE: pending
 
 - [ ] G6: Grace's Telegram photo is in Drive "Telegram Assets (Azariah)" with the same size and an index line

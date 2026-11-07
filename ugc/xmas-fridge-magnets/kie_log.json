@@ -698,5 +698,68 @@
   "still": "stills/S8.png",
   "ok": true,
   "score": 0.971
+ },
+ {
+  "t": "2026-11-07 19:38:59",
+  "submitted": "92c4564fc80ea91707c2a489b15cd14a",
+  "prompt": "Image 1 is the room. Vertical close-up of the lower half of the real decorated Christmas tree in the bright cream living"
+ },
+ {
+  "t": "2026-11-07 19:39:25",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the room. Vertical close-up of the lower half of the real decorated Christmas tree in the bright cream living room from image 1: the same tree with its gold, champagne and cream glass baubles and ribbons, the white sofa with white cushions beside it, wrapped gifts in cream and gold paper under the tree, cream panelled wall behind. Camera at a toddler's eye height, about one metre from the tree. No fridge, no magnets, no people, no hands. Bright neutral daylight from the window, white walls and the sofa stay white, true colours, no warm or golden colour cast over the room, no dark corners. Vertical 9:16 photo, realistic phone-camera look, sharp. No text, no captions, no logos, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1794080330662-7d6t1hkjfut.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "92c4564fc80ea91707c2a489b15cd14a",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/92c4564fc80ea91707c2a489b15cd14a_1794080360621.jpeg"
+   ]
+  },
+  "costTime": 23,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-07 19:39:41",
+  "submitted": "edc55836d0d430c65aa92d147e25372e",
+  "prompt": "One continuous shot with no cuts. Slow push-in toward the glass baubles on the tree. Nothing else moves. No hands, finge"
+ },
+ {
+  "t": "2026-11-07 19:44:16",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "One continuous shot with no cuts. Slow push-in toward the glass baubles on the tree. Nothing else moves. No hands, fingers or people appear at any time. No music, no voice, no text. 4 seconds.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1794080374272-81atli4gr8v.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "edc55836d0d430c65aa92d147e25372e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794080650603-v2i20l3gtb.mp4"
+   ]
+  },
+  "costTime": 271,
+  "credits": 32.8,
+  "usd": 0.164
+ },
+ {
+  "t": "2026-11-07 19:44:18",
+  "clip_check": "clips/S2.mp4",
+  "still": "stills/S2.png",
+  "ok": true,
+  "score": 0.972
  }
 ]
