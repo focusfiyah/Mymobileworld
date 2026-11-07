@@ -62,6 +62,7 @@ TOTAL: $4.66
 **Approve?**
 
 ## 7. Questions (all of them, now)
+Answers (Ralph 2026-11-07, tapped question cards): "All on Kie, $4.66"; "Grace clone VO, ~30 s (Recommended)"; "Small hands + from behind (Recommended)"; "A: oak + hex tile (Recommended)".
 1. Route: all on Kie ($4.66) / Kie stills + your Flow clips ($1.06) / Gemini app + Flow ($0.32).
 2. Audio: Grace-clone VO (about 30 s) or music only (about 15 s, Grace adds music) + VO script.
 3. Toddler: small hands + from behind, face never shown (as the AI winners did) or adult hands only.

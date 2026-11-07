@@ -84,7 +84,18 @@
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare/compare/compare.md",
+   "research/compare_notes.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-07",
+  "quote": "Ralph tapped \"All on Kie, $4.66\" (2026-11-07), with \"Grace clone VO, ~30 s (Recommended)\", \"Small hands + from behind (Recommended)\", \"A: oak + hex tile (Recommended)\"",
+  "total": 4.66,
+  "sha256": "acba3b2846b3e27436db8e84f92f6c8c9dc3fe7344ac79168e43a10952c801c6",
+  "spent_at_approval": 0.0
  }
 }
