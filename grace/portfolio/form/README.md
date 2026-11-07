@@ -5,7 +5,7 @@ a Google Apps Script web app that serves the form, saves each request to a Googl
 Brands need no login. Runs on Ralph's Google account (life22watch@gmail.com), free.
 
 Files: `Code.gs` (server), `ideas.html` (the form page). Copies in Drive "Grace Tiktok assets/UGC Portfolio (Grace)":
-Ideas form - Code.gs.txt (1VKiRsoXMlOJ3H0pGiDLVNV1GMGKMHii1), Ideas form - ideas.html.txt (1tEErfvNgRVgYtV3GvAkIqWbeifyb1mK6).
+Ideas form - Code.gs.txt (1myFBvcd6rtfMyRn82VA-EcV-Ff6vpPd4), Ideas form - ideas.html.txt (1jc1jG5ZZgRipCtrGEzBXz4-lrMbqo6fm).
 
 ## Setup (Ralph, about 5 minutes)
 1. script.google.com > New project. Name it "Grace ideas form".
