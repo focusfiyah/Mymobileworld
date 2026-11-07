@@ -1,6 +1,6 @@
 # Plant Therapy Christmas Cheer Essential Oil Blend 3 Set (Grace), 15 s
 
-Status: **DONE 2026-11-01: cut v2 APPROVED (18.8 s, all three scents). Drive: Grace Tiktok assets/Plant Therapy Christmas Cheer (Grace) https://drive.google.com/drive/folders/1JaroYpWM1uz616yJWI2ZNdiDF7-xpExA (CURRENT - Christmas Cheer V2 + V2 script + HofR V2, not posted; v1 in Older versions). Kie: v1 $2.47 + v2 $0.81 = $3.28. Kling 0. Media in Drive (sets 1-2).**
+Status: **V3 (2026-11-07, Grace via Telegram: text "It's beginning to smell a lot like Christmas" + the song): cut v3 made, 12 s, silent (Grace adds the song in TikTok), QC + gate --stage cut OK, on the review page https://claude.ai/artifact/HHa8EJ3Xp8diKpLcUrYB6V. Waiting on Ralph's approval of the cut, then Drive (CURRENT - Christmas Cheer V3, v2 to Older versions) + the Telegram done message. Kie V3 $2.79 of the $3.19 book (job total $3.60 Nov). Files: BOOK.md (v3), shots_v3.json, run_v3.py, v3/cut_v3.py, v3/windows.json, v3/cut_v3.mp4 (full, 58 MB). V1/V2: done 2026-11-01.**
 
 - Route: hands + hand-free AI over Grace cloned v5 (ugc-product-ad), product lock (Omni), Seedance for no-product clips. 7 shots, 3 hand-free.
 - Plan: `BOOK.md`; prompts: `make_shots.py` -> `shots.json` (PROMPT_LINT_OK); product truth `product_truth.json`; research `research/`; rooms `rooms/SOURCES.md`.
