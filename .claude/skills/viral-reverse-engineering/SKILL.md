@@ -5,11 +5,10 @@ description: >-
   else's — and extract the repeatable mechanism to apply to your own content. Run when the user says
   "why did this go viral," "break down this viral post/video," "rank these videos," "swipe file," "reverse engineer," "what made this
   work," or wants to learn from viral content. Sources the observable signal first (intake, transcript, screenshots,
-  comments, stats) and never fabricates what it can't see. Reads brand-profile and
-  audience first, deconstructs the piece layer by layer, isolates the real driver, runs a
+  comments, stats) and never fabricates what it can't see. Reads brand-profile and audience, deconstructs the piece layer by layer, isolates the real driver, runs a
   replicability check, extracts the transferable principle, and applies it to the user's niche via
   the content skills. Mechanism, never a copy; flags non-replicable virality; visible signals only
-  (no WoopSocial analytics). Single-POST teardown only: for the account-level competitive
+  (no WoopSocial analytics). Also ranks a batch (scripts/swipe.py); for the account-level competitive
   landscape use competitor-analysis; for riding a live trend use trend-jacking.
 metadata:
   version: 1.0.0
