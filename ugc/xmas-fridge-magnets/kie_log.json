@@ -1203,5 +1203,75 @@
   "still": "stills/S1.png",
   "ok": true,
   "score": 0.941
+ },
+ {
+  "t": "2026-11-07 23:00:27",
+  "submitted": "38376c88915ca464e59e8b7aab77c6be",
+  "prompt": "Image 1 is the product sheet, image 2 the real tree close-up, image 3 the room, image 4 the toddler (seen from behind). "
+ },
+ {
+  "t": "2026-11-07 23:00:58",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 is the product sheet, image 2 the real tree close-up, image 3 the room, image 4 the toddler (seen from behind). Medium shot from behind a toddler standing on the white tile floor in front of the fridge in the bright kitchen from image 3: light oak lower cabinets, white upper cabinets with open shelves and glass doors, white hexagon tile backsplash, white countertop with a small gas hob, a round steel sink and wooden cutting boards, a tall stainless steel two-door fridge (freezer on top) standing at the right with NO brand logo, white tile floor: the SAME toddler as image 4: about two years old, brown skin, short tight black curly hair, cream chunky knit sweater and grey leggings, seen only from behind (back of the head, face never shown), one small hand resting on the lower branches of the big magnet tree on the lower fridge door; the tree is about 50 cm tall, its trunk at the toddler's knees and its star level with the toddler's head, all on the lower half of the bottom door; the freezer door above is bare. PLACEMENT: the fridge is the tall two-door fridge with the freezer door ON TOP; every magnet piece sits only on the LOWER half of the bottom (fresh-food) door, between a two-year-old's knees and shoulders, low enough for a toddler to reach without stretching; the freezer door and the top half of the fridge are bare steel with nothing on them. The magnets are FLAT, thin, die-cut cartoon pieces, each with a thin white cut border, lying flat on the steel door (not puffy, not felt, not stickers peeling, nothing hanging). They match image 1 (the product sheet) piece for piece and colour for colour: a big layered green cartoon fir tree with gold bead garland swags, small red-and-white candy canes and a yellow-gold five-point star on top, brown trunk. No other decorations on the fridge. Bright neutral daylight, white walls stay white, true colours, no warm or golden glow, no dark corners. Vertical 9:16 photo, realistic phone-camera look, sharp. No text, no captions, no logos, no light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1794077057277-eboapluagz6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1794083611992-mkw2ud4fsq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1794083614304-vnxmq0trkmn.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/migrastil-neuropathy-cream/1794092419903-x5ji6dlq5s.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "38376c88915ca464e59e8b7aab77c6be",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/as/38376c88915ca464e59e8b7aab77c6be_1794092452160.jpeg"
+   ]
+  },
+  "costTime": 26,
+  "credits": 18.0,
+  "usd": 0.09
+ },
+ {
+  "t": "2026-11-07 23:01:25",
+  "submitted": "7ef5eecbf8b01a24c86aa1af78605d34",
+  "prompt": "Recreate Image1 exactly as the first frame. One continuous 5-second shot: no cuts, no scene change, the same fridge and "
+ },
+ {
+  "t": "2026-11-07 23:03:31",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. One continuous 5-second shot: no cuts, no scene change, the same fridge and kitchen from start to end. Slow tilt up from the toddler's hand to the star at the top of the tree. Every magnet stays low on the bottom door; the freezer door stays bare. The camera moves slowly and smoothly. The magnet pieces stay flat on the door and keep their exact art and colours from Image2 and Image3 the whole time; no piece changes, melts, multiplies or disappears unless the hand moves it. Only the toddler from behind; the toddler keeps facing the fridge the whole time and never turns the head toward the camera; face never shown, no other people. No music, no voice, no text. 5 seconds.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/xmas-fridge-magnets/1794092472180-zi7ylvi4qdl.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/xmas-fridge-magnets/1794092474660-3sp4ppcbskr.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/xmas-fridge-magnets/1794092476807-d9lrdbpv2g6.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "audio": false
+   }
+  },
+  "taskId": "7ef5eecbf8b01a24c86aa1af78605d34",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1794092606491-f487culj54k.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.4,
+  "credits": 80.0
+ },
+ {
+  "t": "2026-11-07 23:03:37",
+  "clip_check": "/home/user/Mymobileworld/ugc/xmas-fridge-magnets/clips/S6.mp4",
+  "still": "stills/S6.png",
+  "ok": true,
+  "score": 0.898
  }
 ]

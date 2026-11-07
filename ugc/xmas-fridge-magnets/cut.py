@@ -22,5 +22,5 @@ for i,(k,ss,d,z) in enumerate(SEG):
 f += "".join(f"[v{i}]" for i in range(len(SEG))) + f"concat=n={len(SEG)}:v=1:a=0[v]"
 inp += ["-i","vo/voiceover_final.mp3"]
 subprocess.run(["ffmpeg","-y","-v","error",*inp,"-filter_complex",f,"-map","[v]","-map",f"{len(SEG)}:a","-c:v","libx264","-preset","veryfast","-crf","18",
-                "-threads","4","-c:a","aac","-b:a","192k","-shortest","cut/v3_raw.mp4"],check=True)
-print("total", round(sum(s[2] for s in SEG),2), "segments", len(SEG)); json.dump(SEG, open("cut/v3_segments.json","w"), indent=1)
+                "-threads","4","-c:a","aac","-b:a","192k","-shortest","cut/v4_raw.mp4"],check=True)
+print("total", round(sum(s[2] for s in SEG),2), "segments", len(SEG)); json.dump(SEG, open("cut/v4_segments.json","w"), indent=1)
