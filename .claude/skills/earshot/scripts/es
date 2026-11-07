@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Runs earshot from the setup.sh install: es critique reel.mp4 --video reel.mp4
+export EARSHOT_HOME=~/.cache/earshot
+exec ~/.cache/earshot-venv/bin/python -m earshot "$@"
