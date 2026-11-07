@@ -97,5 +97,31 @@
   "total": 4.66,
   "sha256": "acba3b2846b3e27436db8e84f92f6c8c9dc3fe7344ac79168e43a10952c801c6",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 2.21,
+   "what": "Grace note: magnets only on the bottom of the fridge; redo S1 S5 S6 S7 S8 (5 stills + 5 Wan)",
+   "by": "Ralph",
+   "quote": "Ralph tapped \"Redo 5 shots on Kie, $2.45 (Recommended)\" 2026-11-07",
+   "date": "2026-11-07",
+   "book_sha256": "acba3b2846b3e27436db8e84f92f6c8c9dc3fe7344ac79168e43a10952c801c6"
+  },
+  {
+   "usd": 0.2,
+   "what": "fresh S1 + S8 stills (face in S1, wrong reindeer/tree in S8)",
+   "by": "Ralph",
+   "quote": "Ralph tapped \"Redo both stills, $0.18 (Recommended)\" 2026-11-07",
+   "date": "2026-11-07",
+   "book_sha256": "acba3b2846b3e27436db8e84f92f6c8c9dc3fe7344ac79168e43a10952c801c6"
+  },
+  {
+   "usd": 0.1,
+   "what": "fresh S1 still (tree only) + Wan clip",
+   "by": "Ralph",
+   "quote": "Ralph tapped \"Fresh S1, tree only, $0.49 (Recommended)\" 2026-11-07",
+   "date": "2026-11-07",
+   "book_sha256": "acba3b2846b3e27436db8e84f92f6c8c9dc3fe7344ac79168e43a10952c801c6"
+  }
+ ]
 }
