@@ -26,8 +26,11 @@ Scope: Grace's Christmas Fridge Magnets toddler-activity video, from plan to app
   EXPECT: SPEND_OK
   EVIDENCE: automatic-evidence=v1; definition-sha256=2e71bb4188b796aa1b30c6c5e205a8fdc3fb82e6577e32659c64c630fb920d97; exit=0; EXPECT=matched; output-sha256=82591f215d7e770e63e5d0b1697dcae92c675ce5776454cbec7c5298c9ace4e9; output-bytes=14; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/xmas-fridge-magnets; path=7f4fb4b02918/15 entries
 
-P26-11-07 push + email (Gmail ids 1a1b750357e56309, 1a1b755ffd643d45, 1a1b764864db7a3b, 1a1b7722755ed5d3, 1a1b78c1f26760ce) and tap questions at every stop; push tool loaded after the restart (first email went without a push)
+- [x] G5: Ralph was notified (push + email) and asked with tap questions at every stop
+  EVIDENCE: 2026-11-07 push + email (Gmail ids 1a1b750357e56309, 1a1b755ffd643d45, 1a1b764864db7a3b, 1a1b7722755ed5d3, 1a1b78c1f26760ce) and tap questions at every stop; the push tool loaded only after the restart, so the first two notices were email only
 
-P26-11-07 Drive file 1qJ8UPV10P5SCWUVKIxhjEFpsXuwDm06V size 107787 = local 107787; index README updated
+- [x] G6: Grace's Telegram photo is in Drive "Telegram Assets (Azariah)" with the same size and an index line
+  EVIDENCE: 2026-11-07 Drive file 1qJ8UPV10P5SCWUVKIxhjEFpsXuwDm06V size 107787 = local 107787; README - asset index.txt updated
 
-P26-11-07 Drive 1Yzvqx0Lo3eK3qZPuptQlk29K-m03nsm0 size 20316162 = local cut/v2_deliver.mp4 20316162; Telegram group msg 222 (Grace), Ralph msg 223 with done + checkmark
+- [x] G7: approved cut V2 is in the product's Drive folder with the same size as the local delivery file, and Grace and Ralph were told on Telegram
+  EVIDENCE: 2026-11-07 Drive 1Yzvqx0Lo3eK3qZPuptQlk29K-m03nsm0 size 20316162 = local cut/v2_deliver.mp4 20316162; Telegram group msg 222 (Grace), Ralph msg 223 with done + checkmark
