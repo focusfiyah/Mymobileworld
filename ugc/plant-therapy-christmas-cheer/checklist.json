@@ -1,11 +1,11 @@
 {
  "scripts": [
-  "scripts.md"
+  "scripts_v3.md"
  ],
- "vo_lines": "vo_lines.txt",
+ "vo_lines": "none (V3 is song-only, no voiceover; v2 lines kept in vo_lines.txt)",
  "playbook": {
   "proof": [
-   "proof/playbook.md"
+   "proof/playbook_v3.md"
   ],
   "note": "grace/PLAYBOOK.md read this job; list the rules applied (house rules, structure, CTA, hooks, pacing)"
  },
@@ -24,7 +24,7 @@
   "proof": [
    "research/coach/viral-2026-10-30.json"
   ],
-  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job"
+  "note": "tiktok.py viral output (viral-<date>.json) for the product's category, from this job | 2026-11-07 V3 re-run (viral --category holiday --days 3) scanned 0 videos and tag christmasdecor returned none (TikTok served nothing to this session, likely captcha); the 2026-10-30 board stands"
  },
  "product_facts": {
   "proof": [
@@ -41,17 +41,17 @@
  },
  "humanizer": {
   "proof": [
-   "proof/humanizer.md",
-   "scripts.md"
+   "proof/humanizer_v3.md",
+   "scripts_v3.md"
   ],
   "note": "Humanizer report on the FINAL script + captions (tells found, what changed)"
  },
  "readability": {
   "proof": [
-   "research/readability_v1.txt"
+   "research/readability_v3.txt"
   ],
   "note": "tiktok.py readability output for each script (grade must be <= 6)",
-  "max_grade": 2.5
+  "max_grade": 3.8
  },
  "audience": {
   "proof": [
@@ -63,7 +63,7 @@
  },
  "line_sources": {
   "proof": [
-   "research/line_sources.md"
+   "research/line_sources_v3.md"
   ],
   "note": "file showing the source of every script line (coach data / playbook / psychology / research)"
  },
@@ -76,11 +76,11 @@
  },
  "book_ok": {
   "by": "Ralph",
-  "date": "2026-11-01",
-  "quote": "Keep all, ~17 s; Option 1 (Kie Omni $1.22). You can also use Kling if needed but don't use up all the credits (2026-11-01 question cards)",
-  "total": 1.22,
-  "sha256": "0ad0f8282415f0babe1a8a105521e31327ea5a3f61665e26fa09ed1d8a14dfa5",
-  "spent_at_approval": 2.472
+  "date": "2026-11-07",
+  "quote": "Approve, $3.19 (Recommended) (tapped 2026-11-07 on the V3 plan question card)",
+  "total": 3.19,
+  "sha256": "8ea7d5c6d16ecd79a127eea4137fe9f85efe9aae79b83802fd51bbe25dcb00af",
+  "spent_at_approval": 3.282
  },
  "book_history": [
   {
@@ -90,6 +90,29 @@
    "total": 2.79,
    "sha256": "42b6c2cf285c3b97b4da2e88473611001b9bbe7b910bbd38551700dd5ae72422",
    "spent_at_approval": 0.0
+  },
+  {
+   "by": "Ralph",
+   "date": "2026-11-01",
+   "quote": "Keep all, ~17 s; Option 1 (Kie Omni $1.22). You can also use Kling if needed but don't use up all the credits (2026-11-01 question cards)",
+   "total": 1.22,
+   "sha256": "0ad0f8282415f0babe1a8a105521e31327ea5a3f61665e26fa09ed1d8a14dfa5",
+   "spent_at_approval": 2.472
   }
+ ],
+ "research": {
+  "proof": [
+   "research/RESEARCH.md"
+  ],
+  "note": "Grace's research workflow (7 sections + verdict), filled 2026-11-07 for V3"
+ },
+ "text_overlay_ok": {
+  "by": "Ralph",
+  "date": "2026-11-07",
+  "video": "V3",
+  "quote": "Yes, whole video (tapped 2026-11-07: Grace's text \"It's beginning to smell a lot like Christmas\" on screen from frame 0 for the whole video)"
+ },
+ "notes": [
+  "2026-11-07 V3: checklist switched to the V3 script; v2 checklist kept in v3/checklist_v2_history.json"
  ]
 }

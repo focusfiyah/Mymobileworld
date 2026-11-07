@@ -9,3 +9,10 @@
 Why 1: it names the exact pain people search for (fake tree, no smell) in the first 3 s, and the same-product winner opened on a smell question.
 
 V2 (2026-11-01): same hook (H062, option 1) kept; the body now names all three scents. On-screen option unchanged.
+
+V3 (2026-11-07, song-only, text on screen, no spoken line):
+| # | Library | On-screen text | Modeled on |
+|---|---|---|---|
+| 1 (picked, Grace's own line, Ralph yes 2026-11-07) | NEW (Grace) | "It's beginning to smell a lot like Christmas" | the holiday song line with one word changed; @tristfrwxce 4.2K, music + short line on THIS product |
+| 2 | H061 | "your house, but it smells like christmas" | @gretchen_sahm 10.2K "My house smells like a non toxic North Pole" |
+| 3 | H062 | "when the tree's up but the house doesn't smell like christmas" | @summer_moon_11.11 "Does it smell like Christmas in here?" |
