@@ -3,10 +3,9 @@ name: viral-reverse-engineering
 description: >-
   Use to reverse-engineer why a piece of content went viral (or overperformed) — yours or someone
   else's — and extract the repeatable mechanism to apply to your own content. Run when the user says
-  "why did this go viral," "break down this viral post/video," "reverse engineer," "what made this
-  work," or wants to learn from viral content. Sources the observable signal first (intake,
-  transcript, screenshots, top comments, visible stats — an agent usually can't watch a video from
-  a link) and never fabricates what it can't see. Reads brand-profile and
+  "why did this go viral," "break down this viral post/video," "rank these videos," "swipe file," "reverse engineer," "what made this
+  work," or wants to learn from viral content. Sources the observable signal first (intake, transcript, screenshots,
+  comments, stats) and never fabricates what it can't see. Reads brand-profile and
   audience first, deconstructs the piece layer by layer, isolates the real driver, runs a
   replicability check, extracts the transferable principle, and applies it to the user's niche via
   the content skills. Mechanism, never a copy; flags non-replicable virality; visible signals only
@@ -49,6 +48,16 @@ The rule: **the human (or a transcript/screenshot/tool) is the eyes; the skill i
 Never fabricate frames or lines you weren't given — analyze what's provided and **name the gaps**.
 Also: **patterns need multiple examples** — one viral post is an anecdote. (Other people's posts
 are visible/native signals or pasted data. Your own posts on the covered platforms can use WoopSocial post analytics.)
+
+**Many videos at once: rank them by how far each beat its own account ($0).** Raw views are not the signal;
+views divided by the account's normal is. `python3 scripts/to_swipe.py shorts @handle @handle --n 30 > cap.tsv`
+(YouTube Shorts, each channel's median) or `python3 scripts/to_swipe.py tiktok tag-x.json > cap.tsv`
+(tiktok-shop-coach output), then `python3 scripts/swipe.py cap.tsv` ranks them, names the hook formula
+each used (26 formulas in reels-script) and shows which formulas win in the top third. Above 3x is a signal;
+under 1.5x is a normal day. The hook column is the caption or title, not the spoken line: for the top rows get the
+transcript with `tiktok.py video` and correct the TSV before trusting the formula names. Instagram blocks
+automatic reading (HTTP 429, tested 2026-11-07) and its rules forbid scraping, so Instagram rows come only from
+numbers Ralph sends. Read the unclassified rows by hand: they are noise or a formula not in the list yet.
 
 ## Step 2 — Deconstruct (the teardown)
 
