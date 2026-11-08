@@ -24,3 +24,17 @@
   EVIDENCE: 2026-11-08 Ralph tapped "Post as V2 (Recommended)"; Drive 1N6r9gcSeIIg8qQ2jHJZgMn8Up16rAYcA "CURRENT - Kids Kitchen Set V2.mp4" in 1kAFnHSmyYstjHo3Ioz-r9oWfyziUX4ki, 37485821 B = local; V1 stays (a different cut, not an older version); Telegram ✅ to Ralph msg 280, group msg 281; push sent
 - [x] G8: (manual) Brain note written and brain check prints BRAIN_OK
   EVIDENCE: 2026-11-08 check.py: this job's notes, Jobs.md row, session log and terms pass; remaining BRAIN_FAIL lines are the sibling sessions still running (Momo Nashi, Meat Sticks)
+- [x] G9: Reframed V2 (Ralph tapped "Free reframe now") is 12-20 s, 1080x1920, silent, matches plan
+  CHECK: python3 check.py v3 12 20
+  EXPECT: CUT_OK v3
+  EVIDENCE: automatic-evidence=v1; definition-sha256=c201a311f6fa619384d09d037bd5bbd9d979313e380fc64f460cc4efaa4f774c; exit=0; EXPECT=matched; output-sha256=96e6709693a9e58fe6798cc4e5ae9dbb990e057694a6301cf1c56e50dee1130d; output-bytes=17; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/kids-knife-set-edit; path=7f4fb4b02918/15 entries
+- [x] G10: Reframed V2 shares no moment with V1
+  CHECK: python3 overlap.py
+  EXPECT: NO_OVERLAP
+  EVIDENCE: automatic-evidence=v1; definition-sha256=666138cc193ae8e1b59a4b4aa9c411fcb37d5712bb3157cd3cd5582da7ef8bb3; exit=0; EXPECT=matched; output-sha256=cb06039bc49f73ae005d31f6dbbd92a13b32498da5622c44d711b53cad68e21e; output-bytes=11; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/kids-knife-set-edit; path=7f4fb4b02918/15 entries
+- [x] G11: Reframed V2: every planned cut lands, no stray frames, bright
+  CHECK: python3 cuts.py v3
+  EXPECT: CUTS_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=60e1ac50c1227ae309a7908d3ac8d475f56c145f8258f9cc02fd85b0958f6b47; exit=0; EXPECT=matched; output-sha256=24d05c053b6e54487f3b714cbeb27b9260acfc42b263e7a57b181f2b247f1c5c; output-bytes=45; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/kids-knife-set-edit; path=7f4fb4b02918/15 entries
+- [x] G12: (manual) Reframed V2 viewed on a 6 fps sheet + cut frames; CURRENT in Drive with size match; first V2 in Older versions; review page updated
+  EVIDENCE: 2026-11-08 sheets qc/v3_*.jpg viewed (fixed tray lift x2, bear crop, box name crop); Drive 1awJ-J3NOfcdemRefd4f4H91mbiOsdd3S 31627320 B = local; old 1N6r9... renamed "Kids Kitchen Set V2 v1 (2026-11-08).mp4" into Older versions; review https://claude.ai/artifact/Edcv7Zs2kyrhmRUt8TCmmt v2
