@@ -2,9 +2,10 @@
 
 Real footage edit, $0. Blocked until Grace's original lands in Drive Originals (1GlOQD7uEAzqXLwuqDHAvB9iuynTxdx6q): the Telegram file (23.1 MB) is over the Bot API 20 MB limit.
 
-- [ ] G1: HD cut is 12-20 s, 1080x1920, no black or frozen frames, silent (her audio is unboxing noise only, she adds music)
+- [x] G1: HD cut is 12-20 s, 1080x1920, no black or frozen frames, silent (her audio is unboxing noise only, she adds music)
   CHECK: python3 check.py meat 12 20 silent
   EXPECT: CUT_OK meat
+  EVIDENCE: automatic-evidence=v1; definition-sha256=9bfc242a976d17cd2ded29ccefeb91daea1d69bdb1adefc6c5ba32d2f8b563b1; exit=0; EXPECT=matched; output-sha256=9633706c72f1d9b18ecdda03d50e990eb612af4632e65f53ffd0855f37901b8c; output-bytes=19; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/meat-sticks-jerky; path=7f4fb4b02918/15 entries
 - [x] G2: (manual) Whole original viewed as frames; cut contact sheet viewed at full size: strong first second, different angles, all 10 sticks + the jerky + all 4 flavors (Original, Pineapple Chili Lime, Hot Honey, Pink Himalayan Salt) shown, no on-screen text, bright neutral grade, no stretched footage (every segment 1.0x)
   EVIDENCE: 2026-11-08 whole original viewed at 1 fps + 4 fps around picks; cut 4 fps sheet viewed; 2x check: yellow-green = Pineapple Chili Lime; LED/blank-lid shot swapped; 12 segments all 1.0x; no text
 - [x] G3: (manual) Cut in Drive folder 1Mu9n46JVvRQ3Wo_dUOPjqqWt59YzGyG6 as "CURRENT - Meat Sticks Jerky V1.mp4", Drive size = local size, nothing loose
