@@ -1,0 +1,49 @@
+<title>Pinmoco Chair Edit</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Karla:wght@400;600&display=swap">
+<style>
+/* Layout: one narrow column, the video at full column width, notes under it */
+:root{--bg:#fbf8f6;--ink:#2b2427;--muted:#73676c;--line:#e8dfe2;--accent:#b8607e;--card:#ffffff;
+--display:"Fraunces",Georgia,serif;--body:"Karla",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1719;--ink:#f1eaed;--muted:#b3a5ab;--line:#3a3135;--accent:#e08aa8;--card:#241f21;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1719;--ink:#f1eaed;--muted:#b3a5ab;--line:#3a3135;--accent:#e08aa8;--card:#241f21;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+main{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1{font:600 1.9rem/1.15 var(--display);margin:0;text-wrap:balance}
+.eyebrow{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+video{width:100%;max-width:100%;border-radius:10px;background:#000;display:block}
+.meta{color:var(--muted);font-size:.95rem}
+h2{font:600 1.15rem var(--display);margin:0 0 8px}
+ol{margin:0;padding-left:1.3em;display:grid;gap:4px}
+ol span{color:var(--muted);font-variant-numeric:tabular-nums}
+section{border-top:1px solid var(--line);padding-top:18px}
+</style>
+<main>
+  <div>
+    <div class="eyebrow">Grace · real footage · draft from the Telegram copy</div>
+    <h1>Pinmoco Cross-Leg Chair V1</h1>
+  </div>
+  <video src="chair_v1.mp4" poster="poster.jpg" controls playsinline preload="metadata"></video>
+  <p class="meta">16.2 s · 1080x1920 · silent (Grace adds her music in TikTok) · no on-screen text · $0. Cut from the 464x848 Telegram copy, so it is a draft: the HD version gets the same edit once Grace puts her original in the Originals folder.</p>
+  <section>
+    <h2>Shot order</h2>
+    <ol>
+      <li>Nursing, sitting cross-legged on the wide seat (hook) <span>1.6 s</span></li>
+      <li>Side angle: cross-legged at the desk with the baby <span>1.4 s</span></li>
+      <li>Baby sits on the cloud footstool between her legs <span>1.4 s</span></li>
+      <li>Legs down, baby still on the footstool <span>1.0 s</span></li>
+      <li>Baby walks up to the camera <span>0.9 s</span></li>
+      <li>Chair and footstool, hand on the heart backrest <span>1.0 s</span></li>
+      <li>She swings the footstool around on its wheels <span>1.8 s</span></li>
+      <li>The seat swivels <span>1.4 s</span></li>
+      <li>Hand presses the teddy seat <span>1.3 s</span></li>
+      <li>Hand on the heart backrest <span>1.4 s</span></li>
+      <li>Hand presses the seat, her slippers below for scale <span>0.8 s</span></li>
+      <li>Close: chair and footstool together <span>2.2 s</span></li>
+    </ol>
+  </section>
+  <section>
+    <h2>QC</h2>
+    <p class="meta">Every frame checked at 10 fps: no black frames, nothing stretched, cuts land on clean frames. I dropped her hand-wave reveal because the hand sweeps across the chair. The chair shows cream/white in her footage, so nothing in the edit calls it pink.</p>
+  </section>
+</main>
