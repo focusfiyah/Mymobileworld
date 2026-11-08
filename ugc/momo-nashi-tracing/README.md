@@ -1,6 +1,6 @@
 # Momo & Nashi Erasable Tracing Books (Grace edit, 2026-11-08)
 
-Status: DRAFT in Drive, waiting on Grace's original video in Originals (hourly check trig_01Sj5qp3AR5HTpAksCK1aeSq at :49). $0.
+Status: DONE 2026-11-08, $0. V1 (HD) re-cut from Grace's original (Originals 1t5TOvgRWUa8raNB8EnNf5ud6JDkmFP53, 52,321,300 B, OFFSET=0.083), CURRENT 1BXyeoj7QJq2aYMx9b07a0L4IhPPU-MAX (27,672,733 B); draft in Older versions. ✅ sent to Grace (283) and Ralph (284). Review page now https://claude.ai/artifact/TaKAkBqXtE6KtLg9xTF3jP
 - Request: Grace, Telegram group -5234107715 msg 264 ("edit these 5 videos .. 12-20 seconds max use different angles and feature all products has to offer"); this video is update 786406597 (msg 268, 54 s, 464x848). Replied msg 277.
 - Edit: 16.0 s, 12 hard cuts of her real footage, silent (her audio is background chatter, Whisper check), no text, no grade (already bright and neutral, mean luma 134). Segments and what each shows: `cut.py`. Oracle: `check.py`.
 - Drive folder: https://drive.google.com/drive/folders/1TsWTq_Rga7OUHzbClID0jpvix-dMG-h5 ; Originals 1tM5lPQmW8ljlt9IXMaBnWhbAGUaUshBk ; draft "CURRENT - Momo Nashi Tracing V1 (draft).mp4" 1rep6ySIB0R6aoPfdjvhgBYJQi3iqU7Fq (19,669,029 B = local).
