@@ -104,3 +104,5 @@ One home for my skills: the private repo focusfiyah/claude-skills; load skill-sm
 - Check before creating a session (Ralph 2026-11-09): run list_sessions and read every recent session, including ones Ralph started from his phone; if one already covers the task, message it instead of starting a duplicate.
 
 - Creator Pathway decisions (Ralph 2026-11-09, after the course analysis): Grace videos split by product: visible-result products keep the product from frame 0, skincare and supplements open on pain + a short trust beat with the product at about 7-10 s; winners get one-change remakes (one variable each, always new footage); test one VO ad with no music under the voice; on-screen text stays off by default; one real proof screenshot or true, checked stock urgency only on his yes per ad (before/after and prices stay banned). Details: Mymobileworld grace/PLAYBOOK.md.
+
+- Questions wait until I have read the review (Ralph 2026-11-09): when a review page, analysis or plan goes to me, send the link and stop; ask the tap-to-answer questions only after I say I am done reading. Notifications still go out.
