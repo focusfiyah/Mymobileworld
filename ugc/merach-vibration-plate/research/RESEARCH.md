@@ -32,6 +32,8 @@ Seeing the body move on a tiny flat plate stops the scroll.
 
 ### The no-excuse workout is the desire.
 Step on in socks, press a button, done.
+- H149: Use this when you do not have time to go to the gym.
+- H005: One thing I cannot stand is working out.
 - H017: I want to feel like I worked out without having to leave my house.
 - H010: Why did nobody make this easier sooner?
 

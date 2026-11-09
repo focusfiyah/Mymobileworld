@@ -19,4 +19,9 @@ Evidence G4 (2026-11-08/09): original VibrationalPlate.mov 62,106,756 bytes (= D
   CWD: ../..
   EVIDENCE: automatic-evidence=v1; definition-sha256=5eac1e956fbe8d0f9100a411d61074d020e34c60beb2d3ac671ee8c108fb868f; exit=0; EXPECT=matched; output-sha256=f1593586a3b76b7e1e5b3b735586bb8c0f0a8bceb1fb5cf70412976ed465c768; output-bytes=162; shell=/bin/sh; cwd=/home/user/Mymobileworld; path=7f4fb4b02918/15 entries
 - [x] G6: (manual) scripts sent to Grace (Telegram msg 311, pending wording), Drive "CURRENT - Merach Scripts V1" + "CURRENT - Merach Research verdict", Ralph push + email 1a1bfa76696ad52a
-- [ ] G7: (manual) V2 cut from her original matching her picked script, different from V1, on the review page; into Drive only after Ralph's OK
+- [x] G7: V2 cut (Grace's own script) is 12-30 s, 1080x1920, silent, no black frames, matches the plan
+  CHECK: python3 check.py merachv2 12 30
+  EXPECT: CUT_OK merachv2
+  EVIDENCE: automatic-evidence=v1; definition-sha256=7f4d972e78652faf7ee689915932353331cd56771fbbd9c508e85930a4831a98; exit=0; EXPECT=matched; output-sha256=74e6d914dac2a69b186231d2891a4e0951ab1043a4deb2d5400db04966adb0b2; output-bytes=23; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/merach-vibration-plate; path=7f4fb4b02918/15 entries
+- [x] G8: (manual) V2 sheet viewed at 5-6 fps: blurry display swing and out-of-order feet-on shot removed, crop jump fixed, edges at 2x clean; review page v3; Ralph push + email 1a1c10294d1d2a76; Grace comparison sent (msg 318)
+- [ ] G9: (manual) Ralph OKs V2 -> Drive CURRENT, old to Older versions, Grace told; strap clip from Grace swapped into line 6; re-timed to her VO

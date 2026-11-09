@@ -1,0 +1,152 @@
+{
+ "src": "orig/hd.mov",
+ "shots": [
+  [
+   43.4,
+   1.6,
+   1.25,
+   0.62,
+   1,
+   "You're not lazy."
+  ],
+  [
+   2.75,
+   1.0,
+   1.15,
+   0.45,
+   2,
+   "Your workout routine is just too complicated."
+  ],
+  [
+   3.75,
+   2.0,
+   1.15,
+   0.45,
+   3,
+   "You need simple options to make fitness easier like this vibration plate."
+  ],
+  [
+   7.0,
+   2.0,
+   1.2,
+   0.45,
+   3,
+   ""
+  ],
+  [
+   67.0,
+   1.5,
+   1.1,
+   0.5,
+   4,
+   "It adds daily movement without planning an entire workout."
+  ],
+  [
+   46.1,
+   0.9,
+   1.15,
+   0.5,
+   4,
+   ""
+  ],
+  [
+   12.7,
+   1.9,
+   1.1,
+   0.5,
+   5,
+   "You can adjust the vibration settings,"
+  ],
+  [
+   57.0,
+   1.6,
+   1.15,
+   0.5,
+   6,
+   "and it comes with stretching straps so you can get creative with how you use it. [PLACEHOLDER: strap shot from Grace]"
+  ],
+  [
+   8.6,
+   1.4,
+   1.0,
+   0.5,
+   6,
+   ""
+  ],
+  [
+   63.6,
+   1.3,
+   1.1,
+   0.5,
+   6,
+   ""
+  ],
+  [
+   45.2,
+   1.5,
+   1.0,
+   0.5,
+   7,
+   "This might be the home fitness upgrade you've been missing."
+  ],
+  [
+   69.0,
+   1.3,
+   1.15,
+   0.45,
+   7,
+   ""
+  ],
+  [
+   71.4,
+   1.4,
+   1.15,
+   0.55,
+   8,
+   "It's in the orange cart!"
+  ]
+ ],
+ "expected": 19.4,
+ "line_starts": [
+  [
+   0,
+   1,
+   "You're not lazy."
+  ],
+  [
+   1.6,
+   2,
+   "Your workout routine is just too complicated."
+  ],
+  [
+   2.6,
+   3,
+   "You need simple options to make fitness easier like this vibration plate."
+  ],
+  [
+   6.6,
+   4,
+   "It adds daily movement without planning an entire workout."
+  ],
+  [
+   9.0,
+   5,
+   "You can adjust the vibration settings,"
+  ],
+  [
+   10.9,
+   6,
+   "and it comes with stretching straps so you can get creative with how you use it. [PLACEHOLDER: strap shot from Grace]"
+  ],
+  [
+   15.2,
+   7,
+   "This might be the home fitness upgrade you've been missing."
+  ],
+  [
+   18.0,
+   8,
+   "It's in the orange cart!"
+  ]
+ ]
+}

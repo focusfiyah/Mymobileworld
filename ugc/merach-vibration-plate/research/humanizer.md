@@ -1,5 +1,6 @@
-# Humanizer report on the final scripts (2026-11-09, humanizer skill loaded, patterns.md groups A-F)
-- v1: no tells found beyond the brag line ("I hate how easy this is, because now I have no excuse"), which is Grace's approved confession format (PLAYBOOK §1), kept. No dashes, triads or closers.
-- v2: "Then I stood on it." is a short dramatic beat (§2). Kept on purpose: it answers the hook and lines up with the cut to the whole-body shake. "The worst part?" is Grace's confession format, kept. Cut the triad "step on, pick your speed, and the timer starts" back to what the listing backs ("turn it up on the remote, and the screen lights up").
-- v3: removed "from day one" (unsupported claim), "screen shows your timer" (not on the listing). No sales words ("game changer", "obsessed") in any script; no dashes.
-- Hooks left word for word (library rule).
+# Humanizer report, round 2 scripts (2026-11-09, humanizer skill loaded, patterns A-F)
+Also checked against Grace's process (msg 312): fewest words, no line said twice, no step-by-step narration, one trust line, the body answers the hook.
+- v1: no tells. Cut round 1's "So I step on, press start on the remote" (narration) and the gift line.
+- v2: "But this, I love." replaces "This, I actually do." (awkward). Dropped "Then I stood on it" (fluff, Grace) and "The worst part?" staging.
+- v3: dropped "here you go" (Grace: fluff) and the feature list; the body now answers the hook: shows the body move, what people feel, how many bought it.
+- No dashes, no triads, no sales words. Hooks left as library wording with blanks filled.
