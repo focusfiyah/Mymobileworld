@@ -11,3 +11,12 @@
 Evidence G2 (2026-11-08): 6 fps sheet of the whole 15.97 s viewed; blur at 2.25 s and the 53 s camera swing trimmed, remote-leaving frame fixed, near-duplicate overhead shot dropped.
 Evidence G3: Drive draft 12,721,936 bytes = local; review page 2bcf37c1; Grace msg 276; email 1a1bd5864b184233; push tool absent (tested via ToolSearch).
 Evidence G4 (2026-11-08/09): original VibrationalPlate.mov 62,106,756 bytes (= Drive), HEVC 1080x1920 SDR, same footage, +0.1 s offset measured on 7 points; re-cut CUT_OK 15.97 s, 6 fps sheet + 2x crops viewed; CURRENT - Merach V1 (HD).mp4 21,842,107 bytes (= local); draft renamed v1 draft (2026-11-08) in Older versions; Telegram ✅ msgs 293 (Ralph) + 294 (Grace); email 1a1bdb42fafac776; hourly task deleted.
+
+## Round 2: VO scripts for Grace (request 2026-11-09, Telegram msg 309)
+- [x] G5: script gate passes on the 3 VO scripts
+  CHECK: python3 grace/gate.py ugc/merach-vibration-plate
+  EXPECT: GATE OK
+  CWD: ../..
+  EVIDENCE: automatic-evidence=v1; definition-sha256=5eac1e956fbe8d0f9100a411d61074d020e34c60beb2d3ac671ee8c108fb868f; exit=0; EXPECT=matched; output-sha256=f1593586a3b76b7e1e5b3b735586bb8c0f0a8bceb1fb5cf70412976ed465c768; output-bytes=162; shell=/bin/sh; cwd=/home/user/Mymobileworld; path=7f4fb4b02918/15 entries
+- [x] G6: (manual) scripts sent to Grace (Telegram msg 311, pending wording), Drive "CURRENT - Merach Scripts V1" + "CURRENT - Merach Research verdict", Ralph push + email 1a1bfa76696ad52a
+- [ ] G7: (manual) V2 cut from her original matching her picked script, different from V1, on the review page; into Drive only after Ralph's OK
