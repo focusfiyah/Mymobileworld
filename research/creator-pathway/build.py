@@ -71,7 +71,7 @@ for k,name in NAMES.items():
                 if pt: o+=[f"**File text: {fname(r)}**",'','```',pt,'```','']
     open(f"{W}/out/{k}.md",'w').write('\n'.join(o))
 # community
-C=json.load(open(W+'/community_coaching.json'))
+C=json.load(open(W+'/community_coaching.json'));LL=L
 def user(p):
     u=p.get('user') or {}
     return ' '.join(x for x in [u.get('first_name') or u.get('firstName') or '',u.get('last_name') or u.get('lastName') or ''] if x).strip() or u.get('name','')
@@ -85,7 +85,25 @@ def comments(cs,depth=0):
 o=[f'# Creator Pathway: Community posts on coaching or 1:1',f'Pulled {today}. {len(C)} threads whose post or comments mention coaching, coach, 1:1, 1 on 1 or one on one, with every comment.','']
 for a in sorted(C,key=lambda a:when(a['postTree']['post']),reverse=True):
     p=a['postTree']['post'];m=p['metadata']
-    o+=[f"## {m.get('title')}",f"{user(p)}, {when(p)} | {a['url']} | {m.get('upvotes',0)} likes, {m.get('comments',0)} comments",'',m.get('content') or '','','**Comments:**']+comments(a.get('comments'))+['']
+    o+=[f"## {m.get('title')}",f"{user(p)}, {when(p)} | {a['url']} | {m.get('upvotes',0)} likes, {m.get('comments',0)} comments",'',m.get('content') or '','']
+    slug=a['url'].split('/')[-1][:40]
+    for v in json.loads(m.get('videoLinksData') or '[]'): o.append(f"Video link: {v['url']}")
+    tx=f"{W}/ctx/{slug}/transcript.txt"
+    if os.path.exists(tx): o+=['','**Video transcript (word for word):**','',re.sub(r'(?<=[.?!])\s+(?=[A-Z])','\n',open(tx).read().strip()),'']
+    else:
+        for v in json.loads(m.get('videoLinksData') or '[]'):
+            vid=v['url'].rstrip('/').split('/')[-1]
+            hit=[l for l in LL if (l.get('videoLink') or '').endswith(vid)]
+            if hit: o.append(f"(Same video as lesson \"{hit[0]['title']}\"; transcript is in the {NAMES[hit[0]['course']]} doc.)")
+    atts=json.loads(m.get('attachmentsData') or '[]')
+    if atts:
+        o+=['','**Attachments** (in the Community attachments folder):']
+        for x in atts:
+            fn=(x['metadata'].get('file_name') or x['id']);full=f"{slug} - "+re.sub(r'[\\/:*?"<>|]','-',fn);o.append(f"- {full}")
+            if full.lower().endswith('.pdf') and os.path.exists(f"{W}/cfiles/{full}"):
+                pt=pdftext(f"{W}/cfiles/{full}")
+                if pt: o+=['',f"**Attachment text: {fn}**",'','```',pt,'```','']
+    o+=['','**Comments:**']+comments(a.get('comments'))+['']
 open(f"{W}/out/community.md",'w').write('\n'.join(o))
 for f in os.listdir(W+'/out'):
     if f.endswith('.md'): subprocess.run(['pandoc',f"{W}/out/{f}",'-o',f"{W}/out/{f[:-3]}.docx"],check=True)

@@ -39,3 +39,16 @@ Scope: every lesson of TikTok Shop, UGC, Weekly Call Replays (= Live Coaching), 
 
 - [x] G8: Brain note written and tools/brain/check.py prints BRAIN_OK
   EVIDENCE: 2026-11-09 BRAIN_OK (346 notes), vault pushed
+
+## Round 2: analysis (Ralph tapped "Full analysis", 2026-11-09)
+
+- [ ] G9: all 7 part findings written (course x2, calls x3, community x2)
+  CHECK: python3 -c "import os,sys;d='/tmp/claude-0/-home-user/c5113556-fd28-502d-a836-f2da8d77f539/scratchpad/findings';f=[x for x in os.listdir(d) if x.endswith('.md') and os.path.getsize(os.path.join(d,x))>3000];print('FINDINGS_OK' if len(f)>=7 else f'FINDINGS_FAIL {len(f)}');sys.exit(len(f)<7)"
+  EXPECT: FINDINGS_OK
+  EVIDENCE: pending
+
+- [ ] G10: one combined analysis (what to copy for Grace and for Ralph, each item with its source) on a review page + Drive Google Doc
+  EVIDENCE: pending
+
+- [ ] G11: Brain note updated with the analysis status and link
+  EVIDENCE: pending
