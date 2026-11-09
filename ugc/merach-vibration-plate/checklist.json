@@ -77,5 +77,11 @@
  "compare": {
   "proof": [],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "line_audit": {
+  "proof": [
+   "research/line_audit.md"
+  ],
+  "note": "Grace script method line audit"
  }
 }

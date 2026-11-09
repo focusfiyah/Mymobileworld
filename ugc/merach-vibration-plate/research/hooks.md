@@ -1,9 +1,8 @@
-# Hook options, round 2 (2026-11-09, after Grace's notes msg 312/314: biggest pain in the fewest words, no fluff)
-Spoken hooks from grace/hooks/HOOKS.md, blanks filled; Grace's looser wording allowed (PLAYBOOK §3, 2026-10-20). On-screen text = curiosity only, offered, not burned in.
-
-| Script | Spoken hook | Pain it hits | On-screen text option | Modeled on |
-|---|---|---|---|---|
-| 1 | H149 "Use this when you do not have time to go to the gym." | no time (broadest) | "no gym needed" | @momofgirlsandgoals Merach Slim ("hop on any time of the day") |
-| 2 | H005 "One thing I cannot stand is working out." | hating workouts | "for people who hate workouts" | @bestiebriitt 10.5M (shake from frame 0) |
-| 3 | H028, looser: "Wondering if vibration plates actually do anything?" | doubt (top search) | "does it actually work?" | top search "do vibration plates really work"; @thedailytaunya 1.6M |
-Round 1 hooks (H104, H099, H028 full) dropped: Grace said they could be better, "here you go" is fluff, 2 was weakest.
+# Hook options, round 3 (2026-11-09, Grace script method: Big Fish + outsider test + common enemy)
+All three are NEW hooks from the Big Fish ladder (RESEARCH.md), modeled on Grace's own "You're not lazy" and the course's "You're not ugly without makeup". NEW hooks need Ralph's OK (PLAYBOOK §4 Step 0b). On-screen text options: curiosity only, offered, not burned in.
+| Script | Spoken hook | Rung | On-screen text option |
+|---|---|---|---|
+| 1 | NEW "You're not out of shape. You've just been sitting all day." | 4 | "it's not your fault" |
+| 2 | NEW "You don't need an hour at the gym." | 2 | "the 1 button workout" |
+| 3 | NEW "Your problem isn't discipline." | 3-4 | "willpower isn't the problem" |
+Library alternates kept in RESEARCH.md roles (H149, H005, H017).

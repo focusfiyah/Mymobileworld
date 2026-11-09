@@ -22,6 +22,14 @@ Hashtag and viral-board pages returned 0 videos on 2026-11-09 (tested #vibration
 ## Content opportunities
 The display looks like a bathroom scale, a natural "this is not a scale" pattern interrupt. Socks-on, step-on ease. The remote close-up for "you don't even bend down". Whole-body shake from behind as proof. Gift for mom or a sister before the holidays.
 
+## Big Fish (why ladder)
+Asked "why" from the surface problem down (PLAYBOOK §4 Grace script method, 2026-11-09). Their own words: "are vibration plates worth it", "actually feel like I'm doing something for myself", "hop on any time of the day" (audience/voc.md).
+- She wants to move more and feel lighter.
+- Why doesn't she? Workouts take time, planning and energy she doesn't have after sitting all day.
+- Why does that hurt? She tries, quits by day three, and starts to think something is wrong with her.
+- Why does that matter? She feels lazy and out of control of her own body.
+Biggest feeling: "I'm lazy." The enemy to blame instead: routines that are too long and too complicated, and sitting all day.
+
 ## Overall verdict
 People buy it to feel they did something for their body without a gym, in a plate small enough to hide. Lead with the visible shake and the ease (no excuses), answer "does it work" with what people say, close on the holiday deal and a second unit.
 

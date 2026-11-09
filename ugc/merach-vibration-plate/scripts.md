@@ -1,44 +1,27 @@
-# Merach Slim Vibration Plate: voiceover scripts for Grace (V2)
+# Merach Slim Vibration Plate: scripts round 3 (Grace script method test, 2026-11-09)
 
-Rewritten with Grace's scripting process (2026-11-09): biggest pain in the fewest words, no fluff, one trust line, the body answers the hook. About 15 to 20 seconds each. [Brackets] = shots from your footage.
+Written with the new method (PLAYBOOK §4: buyer, Big Fish pain, hook, connection, value, close, line audit) to test it against Grace's own script. About 17 to 18 seconds each. Hooks are NEW (need Ralph's OK).
 
-## Script 1: No time
+## Script 1: Sitting all day
 
-Pain: no time. Trust: 10K reviews.
+**HOOK** "You're not out of shape. You've just been sitting all day."
 
-**HOOK** [from behind, whole body shaking]
+**BODY + CTA** "Your body needs to move, and this plate gets it moving while you stand on it. It's slim, so you leave it out and actually use it. Over a hundred thousand people already have one. Start before the New Year. It's in the orange cart."
 
-"Use this when you do not have time to go to the gym."
+## Script 2: No hour at the gym
 
-**BODY + CTA** [stepping on] [overhead, shaking] [display] [remote] [hand at the plate]
+**HOOK** "You don't need an hour at the gym."
 
-"Just stand on it, and it shakes your whole body. You feel like you did something for yourself today. It has over ten thousand reviews. The Black Friday deal is on now. It's in the orange cart."
+**BODY + CTA** "You need something you'll actually do. This plate gets your whole body moving with one button. It's low impact, so it's easy even on your tired days. Thousands of people gave it five stars. The Black Friday deal is on now. It's in the orange cart."
 
-## Script 2: Hate working out
+## Script 3: Not discipline
 
-Pain: hating workouts. Trust: five stars.
+**HOOK** "Your problem isn't discipline. It's how much work it takes to start."
 
-**HOOK** [from behind, whole body shaking]
+**BODY + CTA** "This plate takes that away. One button, and your whole body is moving. It's slim enough to keep by the couch, so it's always ready. Over ten thousand people reviewed it. The Black Friday deal is on now. It's in the orange cart."
 
-"One thing I cannot stand is working out."
+## Grace's own script (in use for V2)
 
-**BODY + CTA** [socks on the plate] [overhead, shaking] [display close-up] [side angle]
+"You're not lazy. Your workout routine is just too complicated. you need simple options to make fitness easier like this vibration plate. It adds daily movement without planning an entire workout. You can adjust the vibration settings, and it comes with stretching straps so you can get creative with how you use it. This might be the home fitness upgrade you've been missing. It's in the orange cart!"
 
-"But this, I love. I stand on it, and it shakes my whole body. Thousands of people gave it five stars. It's on a Black Friday deal right now. It's in the orange cart."
-
-## Script 3: Does it work?
-
-Pain: doubt. The body answers the hook. Trust: 100K+ bought.
-
-**HOOK** [side angle, shaking]
-
-"Wondering if vibration plates actually do anything?"
-
-**BODY + CTA** [from behind, whole body shaking] [overhead, feet] [display] [hand at the plate]
-
-"Watch my whole body move. People say they can feel their circulation going. Over a hundred thousand people bought this one. It's on a Black Friday deal right now. It's in the orange cart."
-
-## Notes
-- Left out: weight loss, cellulite, detox, water weight (we can't back them), the strap, any price, gift lines.
-- Round 1 is in research/round1/.
-- No text on screen unless Ralph says yes.
+Round 1 and round 2 scripts: research/round1/, research/round2/.

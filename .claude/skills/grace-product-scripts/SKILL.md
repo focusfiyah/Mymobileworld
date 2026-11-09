@@ -10,8 +10,11 @@ says. The output is 5 short scripts, each built on a different angle, in the voi
 already working on TikTok. `examples/wag-bag.md` is the approved finished doc: match its shape and length.
 
 **Read `grace/PLAYBOOK.md` in focusfiyah/Mymobileworld first.** It is the one source for Grace's rules, and where it
-differs from this file, the playbook wins. Every script follows her structure (Ralph, 2026-10-02): curiosity-loop hook →
-pain-point body → selling point and/or solution body → FOMO and/or urgency CTA (real urgency only).
+differs from this file, the playbook wins. Every script follows the **Grace script method** in `grace/PLAYBOOK.md` §4
+(Ralph + Grace 2026-11-09): buyer, Big Fish pain, hook in the fewest words, connection (why the product fixes that pain),
+value with one proof each, close with intention, then a line audit. `grace/gate.py` enforces it (step `line_audit`,
+Big Fish ladder in RESEARCH.md). Why: Grace rewrote two rounds of Merach scripts that skipped the connection step and
+carried narration fluff; the method is her buyer-first process plus the Creator Pathway course tools.
 
 
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
@@ -22,7 +25,8 @@ orange cart."; never "order it now", "heads up" or dashes. (source: grace/PLAYBO
 
 ## Ralph's format (settled 2026-09-30, don't re-ask)
 
-- **5 angles, about 30 seconds each** = 80 to 100 spoken words. HOOK / BODY / CTA labeled, because Grace films them as
+- **5 angles, about 15 to 20 seconds each** = 45 to 60 spoken words unless Ralph or Grace asks for longer (Grace
+  2026-11-09: "keep it short and punchy"). HOOK / BODY / CTA labeled, because Grace films them as
   separate takes; 2 alternate hooks per angle so Ralph can combine takes into more videos.
 - **Talking head only.** Grace to camera, product in her hands the whole time, like the reference. At most one
   optional `[Insert: ...]` per angle: a 2 to 3 second close-up Ralph lays over her voice while she keeps talking.

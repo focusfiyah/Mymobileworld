@@ -88,6 +88,7 @@ not in a new file. **Grace hook library: `grace/hooks/HOOKS.md`** (Ralph 2026-10
 - `grace/gate.py` is called by EVERY paid runner (Kie, ElevenLabs) and refuses the call until all proofs exist and are newer than the script, and the
   script has no banned phrase ("order it now", "heads up", dashes...). Before a cut goes to Ralph: coach `compare` vs the top winner (`--stage cut`).
 - Never bypass, edit out or weaken the gate to save time. Show Ralph the gate result in the plan message.
+- **Grace script method (Ralph + Grace 2026-11-09; Ralph: "Are you using the creative pathway info ... Grace had to adjust what you sent a couple of times", tapped "Yes, all 4 steps"):** every Grace script follows `grace/PLAYBOOK.md` §4 "Grace script method" (her buyer-first process + the Creator Pathway tools: Big Fish why ladder, hook = biggest pain in the fewest words, connection, max 3 proofs, line audit). The gate enforces it (step `line_audit` + Big Fish ladder, jobs from 2026-11-09). Read `research/creator-pathway/ANALYSIS.md` before writing one.
 
 ## Hard rules for every ad (Ralph, 2026-10-01, after Carpe Mountain Breeze: ~4h, ~20 review rounds, $6.60 vs a $2.50 quote)
 1. **Lock the whole plan before the first paid call, in ONE message:** script, every shot, outfit, setting, which shots

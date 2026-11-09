@@ -26,6 +26,13 @@ no invented discounts. `grace/gate.py` checks the headings, the four role lines 
 ## Content opportunities
 <Fresh angles, relatable scenarios, curiosity hooks, pattern interrupts, ways to demonstrate it.>
 
+## Big Fish (why ladder)
+<Ask "why" from the surface problem down to the biggest shared feeling, one rung per line (>= 3). At least one hook comes from the last rung. PLAYBOOK §4 Grace script method.>
+- <surface problem>
+- <why that matters>
+- <why that matters to them>
+Biggest feeling: <the feeling, in their words>
+
 ## Overall verdict
 <Two or three sentences: why someone buys this, and the angle to lead with.>
 

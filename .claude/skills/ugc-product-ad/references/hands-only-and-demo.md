@@ -54,7 +54,7 @@ at 2.2s in a no-hand shot): plan each window from the clip's first ~2s.
 Proven on Grace's Carpe Mountain Breeze ad (2026-10-01, `focusfiyah/Mymobileworld` → `ugc/carpe-mountain-breeze/`:
 README, shots.json, kie.py, lipsync.py, cut.py; copies in `scripts/persona_*.py`, rename to kie.py / lipsync.py /
 cut.py in the job folder). The person is an AI version of a real client from ONE photo; the voice is a separate
-ElevenLabs track. Structure Ralph asked for: curiosity-loop hook → pain → selling point / solution → urgency CTA
+ElevenLabs track. Structure Ralph asked for then (since 2026-11-09 the Grace script method, `grace/PLAYBOOK.md` §4, replaces it): curiosity-loop hook → pain → selling point / solution → urgency CTA
 (real reason, no false scarcity). Final: 35s, 9 shots, $6.60, of which ~$3.20 was footage that made the cut.
 
 1. **Lock everything first** (see "Working with Ralph"): script, VO, shots, outfit, setting, which shots show the

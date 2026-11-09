@@ -31,6 +31,7 @@ Which route was approved or proven on which job: `CHANGELOG.md`.
 
 
 ## Step 0, every job, unasked: the script gate (Ralph 2026-10-03)
+Every Grace script is written with the **Grace script method** (`grace/PLAYBOOK.md` §4, Ralph + Grace 2026-11-09): buyer, Big Fish pain, hook, connection, value, close, line audit; the gate's `line_audit` step enforces it.
 Before any plan goes to Ralph or any paid call, run the whole `grace/PLAYBOOK.md` §4 checklist (audience research
 first) and save its proof files with `python3 grace/gate.py <job> --init`; every paid runner refuses until the gate
 passes, and it is never bypassed or weakened. Show the gate result in the plan message.
