@@ -5,4 +5,5 @@
   EXPECT: CUT_OK luvum
 - [x] G2: (manual) 4-fps sheet of the final cut viewed: no hand-only/blurred frames at cut points, Luvum box, sachet fan, sachets on table, label close-up and gel-through-sachet all shown, real product unaltered
   EVIDENCE: 2026-11-06 4-fps sheet viewed
-- [ ] G3: (manual) Original saved in Drive Originals + Telegram Assets, cut in product folder as CURRENT, review page published, Ralph (push+email) and Grace told
+- [x] G3: (manual) Original saved in Drive Originals + Telegram Assets, cut in product folder as CURRENT, review page published, Ralph (push+email) and Grace told
+  EVIDENCE: 2026-11-09 HD CUT_OK 11.30s; Drive CURRENT size 17467877 = local; review page 5Tm95YhUamtreQeughU6ua; Ralph OK; Telegram ok=True x2
