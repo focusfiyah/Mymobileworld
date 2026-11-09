@@ -78,6 +78,10 @@ Apply the platform's current norms from `references/platforms.md`: how many hash
 whether to use any), where links go and whether they hurt reach, line-break rendering, and the
 ideal length. Getting mechanics wrong makes a good caption underperform.
 
+**Instagram captions: lint before delivering ($0):** `python3 scripts/caption.py caption.txt --keywords "term one,term two"`
+shows the ~125 characters visible before "... more" and checks length (2,200), the 5-hashtag cap, dead links,
+one ask, emoji density and that each search term is in the text. Fix every FAIL; decide each WARN out loud.
+
 ## Step 6 — Deliver options, recommend one
 
 Give the user **2–3 distinct caption options** (genuinely different angles or formats, not the

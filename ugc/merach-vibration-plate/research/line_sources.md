@@ -1,0 +1,2 @@
+# Line sources, round 3 (2026-11-09)
+Hooks: Big Fish ladder (RESEARCH.md) + Grace's model hook (msg 316) + Creator Pathway Big Fish lesson. Connection lines: Grace's buyer-first step 4. Proof lines: listing (148.8K sold, 9,040 five-star, 10.8K reviews). "Slim" = listing 20.5 x 11.3 x 4.7 in. "Low impact" = listing highlight. Black Friday = listing tag + markdown, no number. New Year = real season. Close = PLAYBOOK §1. Full per-line marks: research/line_audit.md.

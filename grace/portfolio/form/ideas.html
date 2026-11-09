@@ -58,7 +58,7 @@ button:disabled{opacity:.6;cursor:wait}
 
   <div class="done" id="done" hidden>
     <h2>Thank you!</h2>
-    <p>Your request reached Grace. Check your inbox for a confirmation email; your 3 ideas will come from Gracewiththeglow@gmail.com.</p>
+    <p>Your request reached Grace. Check your inbox for a confirmation email; your 3 ideas will come from graceglows.ugc@gmail.com.</p>
     <p><a href="https://www.tiktok.com/@shewiththeglow">See more of my videos on TikTok</a></p>
   </div>
 </main>
@@ -81,7 +81,7 @@ f.addEventListener('submit', function (e) {
       else { err.textContent = (r && r.error) || 'That did not go through. Please try again.'; err.hidden = false; go.disabled = false; go.textContent = 'Send my request'; }
     })
     .withFailureHandler(function () {
-      err.textContent = 'That did not go through. Please try again, or email Gracewiththeglow@gmail.com.'; err.hidden = false; go.disabled = false; go.textContent = 'Send my request';
+      err.textContent = 'That did not go through. Please try again, or email graceglows.ugc@gmail.com.'; err.hidden = false; go.disabled = false; go.textContent = 'Send my request';
     })
     .submit(data);
 });

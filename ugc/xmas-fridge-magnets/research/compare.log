@@ -1,0 +1,25 @@
+/home/user/Mymobileworld/ugc/xmas-fridge-magnets/../../.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+# A/B compare
+
+**A**: https://www.tiktok.com/@hannahv2246/video/7553047154986618167 (327,800 views, saves 0.11%)
+**B**: cut/v1.mp4
+
+| | A | B |
+|---|---|---|
+| duration_s | 30.4 | 29.6 |
+| words | 138 | 0 |
+| words_per_sec | 4.53 | None |
+| cuts | 21 | 8 |
+| cuts_per_10s | 6.9 | 2.7 |
+| first_word_at_s | 0.0 | None |
+| spoken_first_3s | Who knew my fridge would end up being the most festive part of the house? Okay, I grab this magnetic Christmas tree to decorate the fridge, |  |
+
+Hook frames: compare.png (A top, B bottom; 0, 0.5, 1, 1.5, 2, 3 s). Whole videos: A/sheet.png, B/sheet.png.
+
+## A transcript (timed)
+
+- [0.0s] Who knew
+- [0.3s] my fridge would end up being the most festive part of the house?
+
+-> research/compare/compare/compare.md, research/compare/compare/compare.png

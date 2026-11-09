@@ -1,0 +1,54 @@
+{
+ "unit": "ugc/merach-vibration-plate",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-09",
+   "files": {
+    "ugc/merach-vibration-plate/orig/hd.mov": [
+     62106756,
+     "b2c31b9f1d5866d713ba20f5cb8d0dbe251d1cde6cebd768eaa2c0c028c95940"
+    ],
+    "ugc/merach-vibration-plate/orig/tg.mp4": [
+     15321860,
+     "1d8a0aee943cf8329a84ff8dcf1d7887fdecdd36497bdd27488049567f152b09"
+    ],
+    "ugc/merach-vibration-plate/out/merach_v1.mp4": [
+     21842107,
+     "a52a4c2b9763e126e23049e2a96216510304bf33fdc24a228f335b9c32c231a2"
+    ],
+    "ugc/merach-vibration-plate/out/merach_v1_draft.mp4": [
+     12721936,
+     "bb915d4308d7c66cf2534c56049885e5bf94b3b0a7c685b361608a213ffad76c"
+    ],
+    "ugc/merach-vibration-plate/review_hd.mp4": [
+     4495210,
+     "9f41eef86a2b9655d29fa0b7474830056029d9f261157bdf8775f7f2b9fbb841"
+    ],
+    "ugc/merach-vibration-plate/review_v1.mp4": [
+     2598683,
+     "788b84f9bcfac69ffebec6ca87676030f465da00ad371306eeefddc3c80aa81f"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__merach-vibration-plate.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "e6d2184724edb6d8c85557d696c417bf2b4ca1374671d6f2adcc5f23e434163a",
+     "hosted": "2026-11-09",
+     "drive_id": "1Dfw7q0s1F2VjgiA-JOrEzTrd6lQ9m7me",
+     "drive_folder": "1YVR9z5u4hQoi0cJQs4J3VV1-oNfM-UsJ"
+    },
+    {
+     "name": "ugc__merach-vibration-plate.set1.part02.tar",
+     "size": 24101440,
+     "sha256": "a8ada00bf9525ab70cad8be6a129dd2481a48591f1770745b17e74d6124b0983",
+     "hosted": "2026-11-09",
+     "drive_id": "1eIFXu7qRBICywkW73ZQewG5mthO5H01a",
+     "drive_folder": "1YVR9z5u4hQoi0cJQs4J3VV1-oNfM-UsJ"
+    }
+   ]
+  }
+ ]
+}

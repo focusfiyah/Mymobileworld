@@ -48,6 +48,11 @@ leaks (unfindable / unclear / unconvincing / dead-end). Make sure the above-the-
 who/what/why at a glance. Niche down — **"for everyone" converts no one.** See
 `references/the-profile-funnel.md`.
 
+**Instagram: score it out of 100.** Score every item in `references/ig-rubric.json` (12 items: name field, bio
+line one, pinned three, highlights, link, grid covers...; each says what full marks looks like and how it
+usually fails), show the table and total, rewrite in order of points lost, then re-score and give the honest
+delta. Never log into the account; work from his screenshots.
+
 ## Step 2 — Exploit the searchable fields (get discovered)
 
 Put a **niche keyword** in the searchable fields — the **Instagram name field**, the **LinkedIn

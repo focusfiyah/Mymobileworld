@@ -1,0 +1,1 @@
+- 2026-11-07: created (wrapper around earshot 0.4.1: setup.sh, es runner, upstream skill as a reference). Ralph's OK on a TikTok he sent.

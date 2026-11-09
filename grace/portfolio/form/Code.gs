@@ -4,7 +4,7 @@
  * run setup() once, then Deploy > New deployment > Web app (Execute as: Me, Who has access: Anyone).
  * Each request is saved to the "Grace - 3 free UGC ideas" sheet and emailed to Grace (Reply goes to the brand).
  */
-var GRACE_EMAIL = 'Gracewiththeglow@gmail.com';
+var GRACE_EMAIL = 'graceglows.ugc@gmail.com';
 var FROM_NAME = 'Grace With The Glow';
 var SHEET_NAME = 'Requests';
 var HEADERS = ['Received', 'Name', 'Brand', 'Email', 'Product link', 'Videos for', 'Notes', 'Status'];

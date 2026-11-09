@@ -61,6 +61,15 @@ first frame — with no intro, no logo, no "hey guys." The on-screen text hook m
 the hook must be true: a bait-and-switch creates a mid-video retention cliff the algorithm punishes.
 See `references/hooks-and-retention.md`.
 
+**Score and time it with the scripts (stdlib, $0):** `scripts/hooks.json` has 26 hook formulas (template,
+example, on-screen version, how each one gets ruined). Write three hooks from different formulas, then
+`python3 scripts/hookscore.py hooks.txt` (one per line; under 50 = no hook yet) and, once the script is written,
+`python3 scripts/beats.py script.txt --target 30` (flags a hook past 3 s, beats over 4 s, no loop). The score
+catches weak hooks (greetings, nothing concrete) but does not predict views (its own docstring: AUC 0.56 between
+a creator's hits and misses). Ralph's rules win over the script's advice: a Grace hook is said word for word from
+her library and her close stays "It's in the orange cart." even when beats.py flags "no loop"; on-screen text
+keeps Ralph's safe zone (x 60-940, y 360-1340), not the script's.
+
 ## Step 4 — Structure for watch-through and sends
 
 Front-load value, open a loop early, change the visual every ~2–4 seconds, cut all dead air, and

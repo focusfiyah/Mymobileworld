@@ -1,0 +1,189 @@
+# TikTok comments (2026-11-07), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+139 comments reachable of 382 reported across 5 videos. Buyer questions in them: 36.
+- "Wow I don’t think I’ve ever needed something so badly. How do I find this treasure and how many designs do they have??????????!!!!!!!!!" (7663299694088424718)
+- "What about the handles do you take them off and put the magnet under them? Or are they precut to go around them ?" (7663299694088424718)
+- "I have stainless steel doors. Would it work on that?" (7663299694088424718)
+- "did nobody know fridges are magnetic ?" (7663299694088424718)
+- "Where you get it? link?" (7663299694088424718)
+- "Where do we order?" (7663299694088424718)
+- "Where do we get these????" (7663299694088424718)
+- "Okkkk this works on any type of fridge????" (7663299694088424718)
+- "OK, I need this but where do I get it and is it expensive?" (7663299694088424718)
+- "How do you get it around your door handles? Do you have to remove them or cut the magnets to fit?" (7663299694088424718)
+- "Do you have to take your handles off to put the magnet under them?" (7663299694088424718)
+- "💕 Does is lay flat underneath the handles ?" (7663299694088424718)
+- "where do you order this? I need it" (7663299694088424718)
+- "where can I buy them?" (7663299694088424718)
+- "Where do you get these?" (7663299694088424718)
+- "Where do you get them?" (7663299694088424718)
+- "Where do we get these? I NEED em" (7663299694088424718)
+- "Soooo cute! Where do u buy these?" (7663299694088424718)
+- "Soo where do I get them?" (7663299694088424718)
+- "Omg do they make these for different fridges???" (7663299694088424718)
+- "Okay question - can you still use magnets on top? I have magnetic storage shelves on my fridge for tumblers & spices, but I love this idea" (7663299694088424718)
+- "Is there a Halloween one?" (7663299694088424718)
+- "I want one !!!! Where ?" (7663299694088424718)
+- "I think I asked this already but magnets still work on the fridge with it on correct? 😭😭😭" (7663299694088424718)
+- "How does the sizing work? Do we send them measurements?" (7663299694088424718)
+- "How do you get the handles through? Or do you remove the handles and than put them back on?" (7663299694088424718)
+- "Do you just give him the brand and model of your fridge and they have sets already?" (7663299694088424718)
+- "omgosh now I need these. where did you get them?" (7663299694088424718)
+- "Where?" (7663299694088424718)
+- "Where can I order please?" (7663299694088424718)
+- "What’s the company you get from?" (7663299694088424718)
+- "Maam I need all the following questions answered. Is this only made for a specific make and model? How do we order? The price point? I definitely need this lol" (7663299694088424718)
+- "Is it cleanable? Can I wipe messes off and spray it with cleaning products without ruining it?" (7663299694088424718)
+- "How do I order for my tiny fridge?" (7663299694088424718)
+- "Do you have to remove the handles?" (7663299694088424718)
+- "I want this what is the price?" (7694858021964434702)
+
+## @emuhleeathome (638100 views), 119 of 347 comments reachable. https://www.tiktok.com/video/7663299694088424718
+- (901 likes) "Great now I need fridge magnets 😠"
+- (377 likes) "I never knew my refrigerator needed this until now.. Now she just looks naked😁"
+- (106 likes) "I need with Halloween and Christmas themes"
+- (20 likes) "OMG, I need the Christmas one so freaking bad 🤩🤩🤩🤩🤩🤩"
+- (20 likes) "I’m so jealous. My fridge is not magnetic. But I want this."
+- (11 likes) "as a christmas QUEEN I NEED THIS"
+- (5 likes) "Kudos magnets are awesome - I have this one on my kitchen refrigerator"
+- (4 likes) "so will it work on the non stainless steel refrigerators"
+- (4 likes) "ohh no... you just activated my shopaholic weakness"
+- (4 likes) "Wow I don’t think I’ve ever needed something so badly. How do I find this treasure and how many designs do they have??????????!!!!!!!!!"
+- (4 likes) "This is great! I want my house to feel like Christmas exploded!!!"
+- (4 likes) "My terrible GE fridge isn't even magnetic on the front of the doors. Only the sides, it's so lame!"
+- (4 likes) "I posted this before, but I love mine 😁"
+- (4 likes) "I need this specially for Christmas that would be so cute 🩷🤩🤩"
+- (4 likes) "I found out… My fridge isn’t magnetic"
+- (3 likes) "What about the handles do you take them off and put the magnet under them? Or are they precut to go around them ?"
+- (3 likes) "My stainless isn't magnetic"
+- (3 likes) "I have stainless steel doors. Would it work on that?"
+- (3 likes) "I am so sad the the front of my refrigerator isn’t magnetic!! Thanks Samsung for something else you screwed up with your refrigerators! 🙄"
+- (3 likes) "Great another unnecessary thing I dont need, 😂 So I sent it to my husband i want it"
+- (3 likes) "Does it only work stainless"
+- (2 likes) "where did you get this!!!! I need!!!!"
+- (2 likes) "my fridge looking at me like:"
+- (2 likes) "did nobody know fridges are magnetic ?"
+- (2 likes) "as an emilee I have never seen the way u spell my name before 😂 I've seen emilie, emma'lee, emiley.. but never emuhlee.. I love it 😭"
+- (2 likes) "Where you get it? link?"
+- (2 likes) "Where to buy"
+- (2 likes) "Where do we order?"
+- (2 likes) "Where do we get these????"
+- (2 likes) "Where did you purchase this at please share!"
+- (2 likes) "Ummmm I have a 1967 freezer that needs this...brb. 😂"
+- (2 likes) "SIGH now I need to convince my husband we need this for all 3 of our fridges 🤣🤣 including the garage fridge."
+- (2 likes) "Okkkk this works on any type of fridge????"
+- (2 likes) "OK, I need this but where do I get it and is it expensive?"
+- (2 likes) "Nooo! Why!! I don't have a magnetic fridge and I need this!!!"
+- (2 likes) "Nice!!!"
+- (2 likes) "Me too!!!"
+- (2 likes) "I want fridge magnets!"
+- (2 likes) "I love them, they’re just out of my budget. 🙁"
+- (2 likes) "I kinda wish they could make them double sided"
+- (2 likes) "How do you get it around your door handles? Do you have to remove them or cut the magnets to fit?"
+- (2 likes) "How do I find some that fit mineee!!!"
+- (2 likes) "Do you have to take your handles off to put the magnet under them?"
+- (1 likes) "😭 my hubby bought a Samsung and it's not magnetic on the front😭😭😭"
+- (1 likes) "😫😫😫my fridge is not metal on the front 😭😭😭"
+- (1 likes) "💕 Does is lay flat underneath the handles ?"
+- (1 likes) "where do you order this? I need it"
+- (1 likes) "where do I get this for my mom"
+- (1 likes) "where did u get it!!!"
+- (1 likes) "where can I buy them?"
+- (1 likes) "they have THE BEST customer service!!"
+- (1 likes) "that is sooooooo cool"
+- (1 likes) "now you need one for every season and holiday"
+- (1 likes) "now I need another fridge 😒"
+- (1 likes) "do they make these for top freezer fridges"
+- (1 likes) "cute, wish they were cheaper 😭"
+- (1 likes) "Where to get them"
+- (1 likes) "Where do you get these?"
+- (1 likes) "Where do you get them?"
+- (1 likes) "Where do we get these? I NEED em"
+- (1 likes) "Where do I buy this omg"
+- (1 likes) "Where did you get it"
+- (1 likes) "Where can I get this"
+- (1 likes) "Where can I find them"
+- (1 likes) "Soooo cute! Where do u buy these?"
+- (1 likes) "Soo where do I get them?"
+- (1 likes) "Skip the opening and show the outcome."
+- (1 likes) "Omg do they make these for different fridges???"
+- (1 likes) "Okay question - can you still use magnets on top? I have magnetic storage shelves on my fridge for tumblers & spices, but I love this idea"
+- (1 likes) "Ohhhhhhhhh lovvvvvvvvve it 🎄🎄"
+- (1 likes) "Oh my God I need this but for Autumn"
+- (1 likes) "Never knew i needed this till now 😍"
+- (1 likes) "My fridge is not magnet friendly on the front"
+- (1 likes) "My fridge is NOT magnetic!!! 😩"
+- (1 likes) "Me watching this for the first time in July!!!!"
+- (1 likes) "Love it ❤️"
+- (1 likes) "Love it"
+- (1 likes) "I’ve been trying to find that floral one for a while"
+- (1 likes) "I’m about ready to purchase a new frig. Going to bring 😊magnets with me when I shop. If ya know; ya know🥺"
+- (1 likes) "Is there a Halloween one?"
+- (1 likes) "I would buy if they had VanGough design options"
+- (1 likes) "I want one 😩"
+- (1 likes) "I want one !!!! Where ?"
+- (1 likes) "I used magnet"
+- (1 likes) "I think I asked this already but magnets still work on the fridge with it on correct? 😭😭😭"
+- (1 likes) "I need this Christmas one"
+- (1 likes) "I love this so much!🤗🤗🤗"
+- (1 likes) "I love this so much!🤗🤗🤗"
+- (1 likes) "I love this idea"
+- (1 likes) "I love the flowered one is that kudu also"
+- (1 likes) "I have it on my dishwasher"
+- (1 likes) "I have a sticker fridge"
+- (1 likes) "I don’t have fridge magnet money but now this is on my wishlist 🤦🏼‍♀️"
+- (1 likes) "How does the sizing work? Do we send them measurements?"
+- (1 likes) "How do you get the handles through? Or do you remove the handles and than put them back on?"
+- (1 likes) "For my fellow spooky witchy peeps, they make some for us!!!!"
+- (1 likes) "Do you just give him the brand and model of your fridge and they have sets already?"
+- (1 likes) "Cute"
+- (1 likes) "Add that to the list of things I didn’t know I needed till I got on this app"
+- (1 likes) ""
+- (0 likes) "what's the website"
+- (0 likes) "this is a sad day... the front of my fridge isn't magnetic😭"
+- (0 likes) "stainless steel is not magnetic"
+- (0 likes) "omgosh now I need these. where did you get them?"
+- (0 likes) "make video able to download"
+- (0 likes) "how do I get one for mine"
+- (0 likes) "Where?"
+- (0 likes) "Where can I order please?"
+- (0 likes) "What’s the company you get from?"
+- (0 likes) "WHERE DO YOU ORDER"
+- (0 likes) "Omg I never knew my fridge needed to be dressed up until now"
+- (0 likes) "Me to where did you get these ❤️😁"
+- (0 likes) "Maam I need all the following questions answered. Is this only made for a specific make and model? How do we order? The price point? I definitely need this lol"
+- (0 likes) "Love it!!!"
+- (0 likes) "Love it"
+- (0 likes) "Is it cleanable? Can I wipe messes off and spray it with cleaning products without ruining it?"
+- (0 likes) "How do I order for my tiny fridge?"
+- (0 likes) "Do you have to remove the handles?"
+- (0 likes) "Did you cut it to size."
+
+## @oliviafindsintikt (152500 views), 5 of 6 comments reachable. https://www.tiktok.com/video/7694858021964434702
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "they leave rust marks"
+- (0 likes) "There’s no way they would fit on my silver refrigerator. No magnets will stay."
+- (0 likes) "I want this what is the price?"
+- (0 likes) "I don’t think they are that huge TikTok ENLARGES EVERYTHING THEN YOU GET IT SND ITS AS BIG AS A FINGER"
+
+## @microhjs2eb (50600 views), 2 of 2 comments reachable. https://www.tiktok.com/video/7695605150597041421
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "these are fantastic my grandkids played with these for hours on the fridge"
+
+## @thefoundbymama (693 views), 10 of 19 comments reachable. https://www.tiktok.com/video/7695925783193341198
+- (1 likes) "Too cute!"
+- (1 likes) "This is so cute and fun!!"
+- (1 likes) "These are so fun my kids love them"
+- (1 likes) "Such a fun idea"
+- (1 likes) "Such a fun holiday activity!"
+- (1 likes) "Such a cute idea"
+- (1 likes) "My son would have loved these when he was little!!"
+- (1 likes) "How fun! Love stuff like this"
+- (1 likes) "Aww this is such a fun idea for Christmas time!"
+- (0 likes) "Omg so fun!!"
+
+## @my.kind.of.finds (1043 views), 3 of 8 comments reachable. https://www.tiktok.com/video/7701359184251456781
+- (0 likes) "So fun! I love these Christmas magnets"
+- (0 likes) "Oh I love this!"
+- (0 likes) "Adorable super cute to reposting for you"

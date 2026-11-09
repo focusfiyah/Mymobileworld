@@ -37,10 +37,13 @@ STEPS = {   # key: what proof it needs (PLAYBOOK §4 "Every script uses ALL of t
     "audience":        "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)",
     "research":        "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)",
     "line_sources":    "file showing the source of every script line (coach data / playbook / psychology / research)",
+    "line_audit":      "research/line_audit.md: Grace script method (PLAYBOOK §4, 2026-11-09), per script: Buyer, Pain, Connection, Outsider test, Common enemy, Contradiction check, Pain points <= 3, Selling points <= 3, every line GREEN/YELLOW (RED lines cut), repetition pass",
 }
 CUT_STEPS = {"compare": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"}
 BANNED = [r"\border (it )?now\b", r"\bheads up\b", r"\bgame[- ]changer\b", r"\bobsessed\b", r"\byou need this\b", r"\bselling out\b",
-          r"\bends tonight\b", r"\bmiracle\b", r"\bso cute\b", r"[–—]", r" -- "]
+          r"\bends tonight\b", r"\bmiracle\b", r"\bso cute\b", r"[–—]", r" -- ",
+          # Creator Pathway "commercial scent" phrases (Caption Framework rule 04; Ralph 2026-11-09 "Yes, all 4 steps")
+          r"\brun,? don'?t walk\b", r"\bbest amazon find\b", r"\bmy new favou?rite product\b", r"\bi found the best\b"]
 
 
 AUDIENCE_HEADS = ["## who", "## pain point experience", "## communication style", "## what it means for the script"]
@@ -108,6 +111,49 @@ RESEARCH_HEADS = ["## product differentiation", "## target buyer", "## pain poin
                   "## overall verdict"]
 RESEARCH_ROLES = ["hook", "desire", "objection killer", "purchase justification"]
 RESEARCH_FROM = "2026-11-02"
+METHOD_FROM = "2026-11-09"   # Grace script method: buyer-first + Creator Pathway tools (Ralph 2026-11-09, tapped "Yes, all 4 steps")
+AUDIT_KEYS = ["buyer:", "pain:", "connection:", "outsider test:", "common enemy:", "contradiction check:", "repetition pass:"]
+
+
+def method_required(c):
+    if c.get("method_legacy"): return False
+    return "line_audit" in c or str(c.get("created", "")) >= METHOD_FROM
+
+
+def check_method(job, c):
+    """Grace script method (PLAYBOOK §4 'Grace script method', 2026-11-09). RESEARCH.md needs a '## Big Fish' why-ladder
+    (>= 3 '- ' rungs and a 'Biggest feeling:' line). research/line_audit.md needs one '## ' block per script with every
+    AUDIT_KEYS line filled, 'Pain points: N' and 'Selling points: N' with N <= 3, at least 3 lines marked GREEN or YELLOW,
+    and no line still marked RED (cut lines go under 'Cut:')."""
+    if not method_required(c): return []
+    errs = []
+    rp = job / "research" / "RESEARCH.md"
+    if rp.exists():
+        t = rp.read_text(errors="ignore")
+        m = re.search(r"(?ims)^## big fish[^\n]*\n(.*?)(?=^## |\Z)", t)
+        if not m: errs.append("method: RESEARCH.md needs a '## Big Fish (why ladder)' section (PLAYBOOK §4 Grace script method)")
+        else:
+            if len(re.findall(r"(?m)^- \S", m.group(1))) < 3: errs.append("method: Big Fish needs >= 3 why rungs ('- ...')")
+            if not re.search(r"(?im)^biggest feeling: *\S", m.group(1)): errs.append("method: Big Fish needs a 'Biggest feeling: ...' line")
+    proof = (c.get("line_audit") or {}).get("proof") or []
+    if not proof: return errs   # missing proof is reported by the STEPS loop
+    f = job / proof[0]
+    if not f.exists(): return errs
+    text = f.read_text(errors="ignore")
+    blocks = re.findall(r"(?ms)^## ([^\n]+)\n(.*?)(?=^## |\Z)", text)
+    if not blocks: errs.append("method: line_audit.md needs one '## <script>' block per script")
+    for name, body in blocks:
+        low = body.lower(); n = name.strip()
+        for k in AUDIT_KEYS:
+            if not re.search(rf"(?m)^{re.escape(k)} *\S", low): errs.append(f"method: {n}: missing '{k[:-1].capitalize()}: ...'")
+        for k in ("pain points", "selling points"):
+            mm = re.search(rf"(?m)^{k}: *(\d+)", low)
+            if not mm: errs.append(f"method: {n}: missing '{k.capitalize()}: <number>'")
+            elif int(mm.group(1)) > 3: errs.append(f"method: {n}: {k} {mm.group(1)} > 3 (course max)")
+        if len(re.findall(r"\b(GREEN|YELLOW)\b", body)) < 3: errs.append(f"method: {n}: mark each kept line GREEN or YELLOW (>= 3 lines)")
+        live = re.split(r"(?im)^cut:", body)[0]
+        if re.search(r"\bRED\b", live): errs.append(f"method: {n}: a line is still RED: cut it (list it under 'Cut:') or fix it")
+    return errs
 
 
 def research_required(c):
@@ -174,6 +220,7 @@ def check(job, stage="plan"):
     for k, why in {**STEPS, **(CUT_STEPS if stage == "cut" else {})}.items():
         if k == "audience" and c.get("audience_legacy"): continue
         if k == "research" and not research_required(c): continue
+        if k == "line_audit" and not method_required(c): continue
         proof = (c.get(k) or {}).get("proof") or []
         if not proof: errs.append(f"{k}: no proof. Needs: {why}"); continue
         for f in proof:
@@ -183,6 +230,7 @@ def check(job, stage="plan"):
                 errs.append(f"{k}: {f} is older than the script: redo {k} on the current script")
     errs += check_audience(job, c)
     errs += check_research(job, c)
+    errs += check_method(job, c)
     errs += check_readability(job, c)
     for o in overrides(c):   # a recorded exception covers ONLY the rule + videos it names; everything else still applies
         for f in ("rule", "videos", "by", "date", "quote", "grade"):
