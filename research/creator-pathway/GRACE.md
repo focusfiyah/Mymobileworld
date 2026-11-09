@@ -36,7 +36,7 @@ How it lines up with what we already have: her portfolio page is already built (
 
 ## 2. Free things to add now (no rule changes)
 
-For Grace's videos:
+### Grace's videos
 1. **Big Fish + outsider test in every hook plan.** Write the why-ladder in RESEARCH.md, take at least one hook from the last rung, then run the stadium test on each hook. (Big Fish lesson; calls 10/06, 11/3)
 2. **Per-line script audit as a gate proof.** Green / yellow / red per line, the "would it get worse without it?" question, a repetition pass ("did I just say this already?"), max 3 pain points before the product, max 3 selling points each with one proof. (LINE-BY-LINE PDF; audit 11/06)
 3. **Private-behavior lines from real comments** in RESEARCH.md, used in place of result claims. Also safer for wellness products. (Avoiding Violations; community 10/19)
@@ -49,11 +49,56 @@ For Grace's videos:
 10. **Unfair-advantage interview for Grace, once.** The prompt asks up to 7 questions; the result (her avatar, selling lanes, credibility traps) becomes `grace/AVATAR.md` and tells us which products she is a weak fit for. Needs her answers. ("$5,000 prompt" thread; Frameworks PDF)
 11. **Contradiction-risk check:** does the script credit one product for a whole result the viewer can explain another way? Then reword to "part of my routine". (prompt "CONTRADICTION RISK")
 
-For Grace's UGC deals:
-12. **Rate card + add-on sheet** in `grace/deals/`: base video at the proven tier ($500+, she has 42 Shnuggle units), extra hooks, usage rights per month, Spark code / whitelisting, raw footage as separate lines. Quote "I'm currently accepting projects starting at $X"; ask "What budget did you have in mind?" when told it's high. (calls 9/23, 9/30, 10/21) Note: today's RingConn reply was already sent at $450 with the 30-day Spark code included. The course would quote higher and price the Spark code on its own. If RingConn comes back, use this.
-13. **Reply templates** from the Brand Response Templates PDF (inbound with no details, gifted-only, Shop-to-UGC), and the rule "diagnose before you quote": deliverables, how the content will be used, usage rights, budget. (calls 10/14, 10/21)
-14. **Reactivation sweep:** Grace's TikTok Shop "Collab messages" inbox, email, and every brand she already sold for. Send the results line ("My content for your [product] drove $X... I have a few new concepts I think are worth testing"), offer a flat fee + commission or a retainer for her top sellers as Meta ads. Sending needs your OK. (call 9/23 "Your next move"; 10/21)
-15. **Ask every inbound where they found her** and keep a lead-source column. (call 9/30)
+### Grace's UGC deals
+
+Four tools to get more brand deals and get paid more for each one. They are the tools for weeks 2 to 9 of her roadmap.
+
+<div class="deals">
+
+<div class="deal">
+<p class="num">12</p>
+<h4>Rate card and add-ons</h4>
+<p>One base price per video, then extras priced on their own lines so the total grows with what the brand gets.</p>
+<ul>
+<li><strong>Base video:</strong> the proven tier, $500 and up (she sold 42 Shnuggle units).</li>
+<li><strong>Add-ons, each priced separately:</strong> extra hooks, usage rights per month, Spark code (whitelisting), raw footage.</li>
+</ul>
+<p class="say">"I'm currently accepting projects starting at $X."</p>
+<p class="say">If they say it's too high: "What budget did you have in mind?"</p>
+<p class="note">RingConn: today's reply already went out at $450 with the 30-day Spark code included. If they come back, price the Spark code on its own.</p>
+<p class="src">Source: calls 9/23, 9/30, 10/21</p>
+</div>
+
+<div class="deal">
+<p class="num">13</p>
+<h4>Reply templates</h4>
+<p>Ready-made answers from the course's Brand Response Templates for the messages she gets most:</p>
+<ul>
+<li>A brand reaches out with no details</li>
+<li>A gifted-only offer (free product, no pay)</li>
+<li>Turning a brand she sells for on TikTok Shop into a paid UGC client</li>
+</ul>
+<p><strong>Ask before giving a price:</strong> how many videos, how they will use them (organic or ads), usage rights, and their budget.</p>
+<p class="src">Source: calls 10/14, 10/21</p>
+</div>
+
+<div class="deal">
+<p class="num">14</p>
+<h4>Go back to brands she already sold for</h4>
+<p>The warmest leads are brands that already know her videos sell. Check three places: her TikTok Shop "Collab messages", her email, and every brand she has sold for.</p>
+<p class="say">"My content for your [product] drove $X. I have a few new concepts I think are worth testing."</p>
+<p>Offer a flat fee plus commission, or a monthly retainer to run her best-selling videos as ads. Nothing is sent without Ralph's OK.</p>
+<p class="src">Source: call 9/23 ("Your next move"), 10/21</p>
+</div>
+
+<div class="deal">
+<p class="num">15</p>
+<h4>Ask how they found her</h4>
+<p>Every brand that reaches out gets one question: where did you find me? Keep a list, then spend more time on the place that brings the most deals.</p>
+<p class="src">Source: call 9/30</p>
+</div>
+
+</div>
 
 ## 3. Where the course disagrees with our rules (your answers, 2026-11-09)
 
