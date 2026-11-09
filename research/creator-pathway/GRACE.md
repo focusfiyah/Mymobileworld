@@ -4,6 +4,20 @@ Built 2026-11-09 from the full word-for-word pull of skool.com/creator-pathway-9
 
 Short version: the course's core (Hook, Story, Sell; pain first; plain words; real urgency only) matches what we already do. The value is in 15 new tools we can add for Grace for free, and 6 places where the course says the opposite of one of our rules (section 3, with the answers you tapped; tell me if you want to change any after reading).
 
+## Grace's own roadmap from Creator Pathway
+
+The coaches gave Grace a personal plan ("Grace Vallon, Creator Pathway", 8 pages): [open the PDF](grace-creator-pathway-roadmap.pdf). In short:
+
+- **Her path is UGC**, aiming at $20,000 a month, because "Brands pay you for the video whether it takes off or not". She is at UGC Stage 1 of 5, "Get ready".
+- **Her proof:** Wag Bags sold the most, the toddler bath tub got views and sales, and her kid's hair videos took off.
+- **Brands that fit her:** baby and toddler, pet, family and home (cleaning, kitchen, organising), hair and personal care.
+- **Portfolio:** one link, a 30-second intro video at the top, six clips (toddler bath tub, Wag Bags, her kid's hair, a talking-head review, a voiceover demo, one labelled content sample for a brand she wants), email at the bottom. Done inside 14 days.
+- **Deals:** 5 platform applications a week (Billo first, then JoinBrands, Collabstr; also Cohley, Insense, Twirl, Trend, SideShift, Trybe) and 5 three-line pitches a week, starting with brands whose products she already sold. Name field: "Grace Vallon | Mom UGC creator", portfolio link in bio.
+- **What to fix:** no portfolio link yet, no outreach yet, and videos that "look rushed": one clean background, light on her face, classic TikTok font with five to seven words on screen.
+- **9 weeks:** week 1 builds the portfolio, profiles, first 5 applications and 5 pitches; then weekly habit, a content sample, follow-ups (week 4), "get the scope before you give a price" (week 5), deliver the first deal (week 6), Get Found Challenge (week 7), go back to past brands (week 8), raise the rate (week 9).
+
+How it lines up with what we already have: her portfolio page is already built (v4 draft, Grace's Creator Pathway layout), so most of week 1 is done. Items 12 to 15 below (rate card, reply templates, reactivation, lead sources) are the tools for weeks 2 to 9.
+
 ## 1. What the course teaches, in one page
 
 1. **Hook, Story, Sell.** Hook stops the right buyer, a 2 to 4 sentence story makes them trust you, the sell gives proof and a reason to buy now. "Hook → the right person stops / Story → they trust you / Sell → they get proof and a reason to buy now." (call 9/22)
