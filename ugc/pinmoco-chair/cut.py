@@ -3,6 +3,7 @@ SRC = Telegram copy (draft); for the HD cut run SRC=orig/<her original> python3 
 import subprocess, sys, json, os
 SRC = os.environ.get("SRC", "orig/tg_786406594.mp4")
 TAG = os.environ.get("TAG", "v1")
+OFF = float(os.environ.get("OFFSET", "0"))  # HD original runs ~0.08 s ahead of the Telegram copy (frame match 2026-11-09)
 SEGS = [
  (1.0,2.6),    # hook: nursing, sitting cross-legged on the wide seat
  (12.6,14.0),  # side angle: cross-legged at the desk with baby
@@ -17,7 +18,7 @@ SEGS = [
  (82.6,83.4),  # hand presses the seat, feet on the floor for scale
  (93.5,95.7)]  # close: chair + footstool overview
 def render():
-    f = "".join(f"[0:v]trim={a}:{b},setpts=PTS-STARTPTS,fps=30,scale=1080:1920:flags=lanczos,setsar=1[v{i}];" for i,(a,b) in enumerate(SEGS))
+    f = "".join(f"[0:v]trim={a+OFF:.3f}:{b+OFF:.3f},setpts=PTS-STARTPTS,fps=30,scale=1080:1920:flags=lanczos,setsar=1[v{i}];" for i,(a,b) in enumerate(SEGS))
     f += "".join(f"[v{i}]" for i in range(len(SEGS))) + f"concat=n={len(SEGS)}:v=1:a=0[out]"
     out = f"out/chair_{TAG}.mp4"
     subprocess.run(["ffmpeg","-v","error","-y","-i",SRC,"-filter_complex",f,"-map","[out]","-an","-c:v","libx264","-preset","medium","-crf","20","-pix_fmt","yuv420p","-movflags","+faststart","-threads","4",out],check=True)
