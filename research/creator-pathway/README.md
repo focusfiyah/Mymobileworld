@@ -1,6 +1,6 @@
 # Creator Pathway (Skool) course pull
 
-Status (2026-11-09): lessons crawled (70), files (59) and community threads (131) saved, video captions downloading; next: build docs, upload to Drive "Creator Pathway (Skool course)" (1ongDvMgSDRhk192t5IUQIlQ-VO7jWXQY). Cost $0.
+Status (2026-11-09): DONE pull, $0, gates 8/8. 70 lessons, 62 video transcripts (~20 h), 59 files, 131 community coaching/1:1 threads (3,856 comments), 7 word-for-word docs, all in Drive "Creator Pathway (Skool course)" https://drive.google.com/drive/folders/1ongDvMgSDRhk192t5IUQIlQ-VO7jWXQY. Next: analysis on Ralph's go.
 
 What: Ralph asked (Telegram 2026-11-09) for everything word for word from skool.com/creator-pathway-9391 (Grace's login) to study for Grace + Ralph's TikTok Shop / UGC work: Classroom sections TikTok Shop, UGC, Weekly Call Replays (= Live Coaching), Community Resources, Loom Lessons, Mindset (not Start Here) + Community posts that mention coaching or 1:1.
 

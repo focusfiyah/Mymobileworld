@@ -34,8 +34,8 @@ Scope: every lesson of TikTok Shop, UGC, Weekly Call Replays (= Live Coaching), 
   EXPECT: DOCS_OK
   EVIDENCE: pending
 
-- [ ] G7: everything in Drive (one folder, per course docs + files), link sent to Ralph
-  EVIDENCE: pending
+- [x] G7: everything in Drive (one folder, per course docs + files), link sent to Ralph
+  EVIDENCE: 2026-11-09 Composio upload 128/128, Drive size = local size each; folder 1ongDvMgSDRhk192t5IUQIlQ-VO7jWXQY; link in the final reply + Telegram
 
-- [ ] G8: Brain note written and tools/brain/check.py prints BRAIN_OK
-  EVIDENCE: pending
+- [x] G8: Brain note written and tools/brain/check.py prints BRAIN_OK
+  EVIDENCE: 2026-11-09 BRAIN_OK (346 notes), vault pushed
