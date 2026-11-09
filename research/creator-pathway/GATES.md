@@ -42,13 +42,13 @@ Scope: every lesson of TikTok Shop, UGC, Weekly Call Replays (= Live Coaching), 
 
 ## Round 2: analysis (Ralph tapped "Full analysis", 2026-11-09)
 
-- [ ] G9: all 7 part findings written (course x2, calls x3, community x2)
+- [x] G9: all 7 part findings written (course x2, calls x3, community x2)
   CHECK: python3 -c "import os,sys;d='/tmp/claude-0/-home-user/c5113556-fd28-502d-a836-f2da8d77f539/scratchpad/findings';f=[x for x in os.listdir(d) if x.endswith('.md') and os.path.getsize(os.path.join(d,x))>3000];print('FINDINGS_OK' if len(f)>=7 else f'FINDINGS_FAIL {len(f)}');sys.exit(len(f)<7)"
   EXPECT: FINDINGS_OK
-  EVIDENCE: pending
+  EVIDENCE: 2026-11-09 FINDINGS_OK (7 files)
 
-- [ ] G10: one combined analysis (what to copy for Grace and for Ralph, each item with its source) on a review page + Drive Google Doc
-  EVIDENCE: pending
+- [x] G10: one combined analysis (what to copy for Grace and for Ralph, each item with its source) on a review page + Drive Google Doc
+  EVIDENCE: 2026-11-09 ANALYSIS.md; review page https://claude.ai/artifact/7DnHxBB3wML5tNW67Zyi6B ; Google Doc 1yb-XFrRIhLntieTfnMj3vAfaAUS7DyVKfDleSbiWfJI
 
-- [ ] G11: Brain note updated with the analysis status and link
-  EVIDENCE: pending
+- [x] G11: Brain note updated with the analysis status and link
+  EVIDENCE: 2026-11-09 BRAIN_OK, vault 695cf3e
