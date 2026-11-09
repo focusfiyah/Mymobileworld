@@ -16,7 +16,7 @@ products follow the same rules.
   "you're taking it wrong" lectures). When the viral model is an expert's video, copy its format (numbered tips, label
   read, comment reply), not its voice. Facts stay, said the way she'd pass them on. Life details that may not be true
   for her ("me at 3pm every day") get an [only if true] tag plus a neutral version ("who else is done by three?").
-- **No false scarcity.** No "selling out" / "ends tonight". Use "don't put it off" or a real seasonal reason.
+- **No false scarcity.** No "selling out" / "ends tonight". Use "don't put it off" or a real seasonal reason. True stock urgency ("they're low on stock") only when checked on the listing that day and on Ralph's yes for that ad (Ralph 2026-11-09, Creator Pathway: tapped "Keep bans, small opening").
 - **Exact claim wording** from the label or listing. Never "cures / kills / fixes", never a timeframe unless the
   label gives one ("clinically tested… up to 100 hours when used as directed" is fine because the label says it).
 - **Never say a price** (Ralph + Grace 2026-10-02): no prices, discounts, "$X value", "% off" or "on sale" in the
@@ -126,12 +126,20 @@ products follow the same rules.
   semibold, NO background bubble, soft drop shadow, lowercase, two balanced lines past five words, no "orange cart"
   text line. Use `ugc-product-ad/scripts/classic_caption.py` (Open Sans SemiBold stands in for Segoe UI Semibold).
 - Overlays: search-result "screenshot" card timed to the claim word, condition photos (never before/after),
-  animated CTA. No burned-in captions unless Ralph asks.
+  animated CTA. One real ingredient or proof screenshot under the line it proves is allowed only on Ralph's yes for that ad; before/after stays banned (Ralph 2026-11-09). No burned-in captions unless Ralph asks.
 - **Grace's edit style, built into our AI videos (2026-10-28, from her PRITECH re-edit that sold; Ralph: never mix her
   real footage into ours):** open on the product working in a hand from frame 0, the pain lines show the pain, then one
   clip per feature on its words, every cut on a phrase's first word (middle shots ~1.5 s, 0.2-0.6 s cuts over the CTA),
   the face-use shot on the payoff line, close on a fast run of moving product-in-hand shots. Shot map and rules:
   `grace/winners/STYLE_pritech.md` (Black Friday PRITECH brief there, not made yet).
+- **Creator Pathway decisions (Ralph 2026-11-09, tapped answers after the course analysis, `research/creator-pathway/ANALYSIS.md`):**
+  (1) Product-first vs trust-first, split by product: products whose result is visible in seconds (gadgets, shapewear,
+  fashion, cleaners, makeup) keep the product working from frame 0; skincare, supplements and other delayed-result
+  products open on the pain plus a 2-4 sentence trust beat and bring the product in at about 7-10 s. Mark it in BOOK.md
+  per product. (2) One-change remakes: when a Grace video sells, its next versions change ONE variable each (hook,
+  setting or delivery) and log it in the sales tracker; every version still gets new footage, order, framing and grade
+  (hard rule 6). (3) Test a VO ad with no music under the voice against our usual mix on the next VO job; log it in the
+  results log. (4) On-screen text stays off by default (he tapped "Keep no text"); Grace may still type a line in TikTok.
 
 ## 6. Production notes
 - **Grace's hand with no jewellery (Ralph 2026-11-02):** when Ralph says no rings / no bracelet, pass `grace/ref/hand-sheets/no_jewelry.jpg` (her real bare hands, 4 views, mauve-pink French tips) on every hand still and clip; the other two sheets carry rings that the model copies. Buttah towels r1 used words only before this sheet existed. Sheet rules: `grace/ref/hand-sheets/README.md`.
