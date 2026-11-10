@@ -1,6 +1,6 @@
 # ili New York Double Flap Eyeglass Case edit, 2026-11-10
 
-Status: V1 (HD) cut 13.8 s from Grace's original, on review page https://claude.ai/artifact/PLLikevtSvqtUvoVECFDRo, WAITING on Ralph's OK; then Drive CURRENT + ✅. Cost $0.
+Status: DONE 2026-11-10, $0. V1 (HD) 13.8 s CURRENT in Drive (CURRENT - ili Case V1 (HD).mp4, 1RU5OG1YlSg50E_lxHcXeotxRb4HpXAoM) after Ralph's OK; ✅ sent (msgs 380, 381). Review https://claude.ai/artifact/PLLikevtSvqtUvoVECFDRo
 - Request: Grace, Telegram group -5234107715, message 338 (update 786406611): "Az I need help editing 11 videos pls create the drives for them". Originals link sent to her in msg 339.
 - Product: smooth leather, rectangular, 6.75 x 2.75 x 1 in, secure closure, double flap 2-in-1 for sunglasses + eyeglasses, unisex.
 - Product folder: https://drive.google.com/drive/folders/1zqUWpLuZuvFU9nl1HUnSxPhGO3VfF5IC

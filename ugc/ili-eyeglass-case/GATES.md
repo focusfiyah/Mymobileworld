@@ -14,6 +14,7 @@
   EVIDENCE: 6 fps sheet of the 13.83 s cut, 10 fps on the close-up; blurry zoom-out after the leather close-up trimmed (95.65 s); 2x crops at 7 points clean; source is 1080x1920, so nothing scaled or stretched; mean Y 142.6; no text (REMOVED.md).
 - [x] G5: (manual) Cut on the review page (video full column width); Ralph push + email; Grace told on Telegram with pending wording (no ✅, no "done")
   EVIDENCE: review https://claude.ai/artifact/PLLikevtSvqtUvoVECFDRo v1; push sent; email 1a1c382b47979bf6; Grace Telegram msg 361 (pending wording).
-- [ ] G6: (manual) After Ralph's OK on that exact cut: Drive "CURRENT - ili Case V1 (HD).mp4" size = local; nothing loose; "✅ ili New York Eyeglass Case V1 (HD) is done and in Drive: <folder link>" sent to Ralph and Grace; hourly check task deleted
+- [x] G6: (manual) After Ralph's OK on that exact cut: Drive "CURRENT - ili Case V1 (HD).mp4" size = local; nothing loose; "✅ ili New York Eyeglass Case V1 (HD) is done and in Drive: <folder link>" sent to Ralph and Grace; hourly check task deleted
+  EVIDENCE: Ralph "Ok" 2026-11-10 on review v1; Drive 1RU5OG1YlSg50E_lxHcXeotxRb4HpXAoM size 25883667 = local; folder holds only Originals + CURRENT; ✅ Telegram msgs 380 (Ralph) + 381 (Grace group); hourly task trig_01JEm6h52NY5EN3woXAipuY8 deleted
 - [ ] G7: (manual) Brain note Brain/Jobs + Active work line removed; tools/brain/check.py prints BRAIN_OK
 
