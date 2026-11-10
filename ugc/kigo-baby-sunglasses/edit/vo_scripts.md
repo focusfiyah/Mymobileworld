@@ -26,3 +26,9 @@ Up to three, it's a soft frame that bends all the way back. [S1, S2]
 Three to six, it's a lightweight frame for active kids. [S4]
 Both have polarized UV400 lenses that cut glare outside. [S5]
 It's in the orange cart. [S9]
+
+## Tweaks for the guide's video ideas (2026-11-10, msg 405 + IMG_0403.MOV: 5.3 s toddler walking outside in the glasses, holding a hand)
+- Every script now opens on the new walk clip (kid wearing them outdoors, real family moment), then the bend test from the first video.
+- Added to each, before the close: "They come in five colors." (guide: hibiscus pink, cheese white, ebony black, light pea green, mist blue)
+- Optional, only if true: "She kept them on the whole walk."
+- No UV or sunlight comparison shot in either video, so no line for it.
