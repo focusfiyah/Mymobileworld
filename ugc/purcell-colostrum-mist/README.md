@@ -12,3 +12,4 @@ Status: DONE 2026-11-10, $0. V1 (HD) 14.8 s cut from Grace's original, Ralph OK'
 - Grace msg 351: 7-20 s depending on the video, every feature/perk on screen.
 - Dropped: box zoom blur 1.5-2.6 s, refocus blur 40-41.1 s.
 - Run: `python3 cut.py` then `python3 check.py mist 7 20`.
+- 2026-11-10 Grace msg 388: text overlay / SEO / hashtag options for all 11 edits. Sent (msg 399); Google Doc "Captions & SEO" 1IWSibnsOYT5RdSIeAiuyczQBDPm0mQEMeVYxdbvEp0M in the product folder; text in captions_seo.txt. Search terms from tiktok.py discover (purcell-colostrum-mist, colostrum-skincare): top shop titles use "Pore Care, Glass Skin Glow", "Korean glass skin face mist"; 2.5M-view top post: "anything for smaller pores".
