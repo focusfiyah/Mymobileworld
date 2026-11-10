@@ -9,8 +9,10 @@ Request: Grace, Telegram group -5234107715, msg 338 (11 edits). Edit of her real
   EVIDENCE: 2026-11-10 original 65,650,288 B = Drive; full 74 s viewed at 1+4 fps; cut viewed at 6 fps; 2x crops at 8 points sharp; all 1.0x; silent, no text
 - [x] G3: (manual) Cut on the review page; Ralph push + email; Grace told on Telegram (pending wording, no ✅/done)
   EVIDENCE: review YJtH4LyVqi8x6E1oY58Xrk v1; push requested; email 1a1c37eb46bad971; Telegram msg 355
-- [ ] G4: (manual) Ralph OK on that exact cut -> Drive "CURRENT - HEVEBLUE Edit V1 (HD).mp4" (size = local), October CURRENT left alone unless Ralph says; "✅ HEVEBLUE Eye Cream Set V1 (HD) is done and in Drive: <link>" to Grace + Ralph
-- [ ] G5: (manual) Brain note + Active work line removed; media packed (MEDIA_OK); branch merged to main
+- [x] G4: (manual) Ralph OK on that exact cut -> Drive "CURRENT - HEVEBLUE Edit V1 (HD).mp4" (size = local), October CURRENT left alone unless Ralph says; "✅ HEVEBLUE Eye Cream Set V1 (HD) is done and in Drive: <link>" to Grace + Ralph
+  EVIDENCE: Ralph "Ok" 2026-11-10; Drive 1kJCBXsFkMK7eMlOeAhmiUSAfviPiG9t0 18,681,300 B = local; October CURRENT untouched; Telegram 372 (group) + 373 (Ralph)
+- [x] G5: (manual) Brain note + Active work line removed; media packed (MEDIA_OK); branch merged to main
+  EVIDENCE: media set 3 in Drive (sha256 recorded), MEDIA_OK, BRAIN_OK, merged to main 2026-11-10
 
 Evidence G2 (2026-11-10): original 221aa00b07c842a2b840a640fcf230cd.mov 65,650,288 bytes = Drive, HEVC 1080x1920 60 fps SDR, 74.4 s, no talking (RMS -35..-45 dB, handling noise). 1 fps + 4 fps sheets of all 74 s viewed; cut 6 fps sheet viewed; 2x crops at 0.05/0.6/3.5/6.6/8.2/10.8/12.5/15.2 s sharp, no fringe. Left out: blur 2-3/21-24/50 s, soft head close-ups 45-49 s.
 Evidence G3: review https://claude.ai/artifact/YJtH4LyVqi8x6E1oY58Xrk v1; push requested; email 1a1c37eb46bad971; Grace Telegram msg 355 (pending wording, no done/tick).
