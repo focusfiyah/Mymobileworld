@@ -1,0 +1,30 @@
+{
+ "unit": "ugc/ear-wax-camera-detector",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-10",
+   "files": {
+    "ugc/ear-wax-camera-detector/orig/hd.mov": [
+     50220511,
+     "413e357dcb4969d3c884a8b8f3356f47d3e47fd81a07bf6e6cb0922a7bed16e3"
+    ],
+    "ugc/ear-wax-camera-detector/out/ear_v1.mp4": [
+     17733690,
+     "ce37dbc0fbd3150032c741ab1d5b921a71c2ed8487785cf52ecaf7fccea883f4"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__ear-wax-camera-detector.set1.part01.tar",
+     "size": 67962880,
+     "sha256": "dfbce47a8f17163b978cf9a4a76d6c110915249b462eb2c642c583d947ebd65a",
+     "hosted": "2026-11-10",
+     "drive_id": "1moc5-HfDHq-X6bCDbFBMoF057yx4tMas",
+     "drive_folder": "1GcfAFCsWlXxNTVCycKqfZnq5jbX7Qp32"
+    }
+   ]
+  }
+ ]
+}
