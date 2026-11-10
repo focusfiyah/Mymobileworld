@@ -1,0 +1,38 @@
+{
+ "unit": "ugc/52-modern-manners-book",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-10",
+   "files": {
+    "ugc/52-modern-manners-book/orig/manners.mov": [
+     53643057,
+     "e9d81fb804d9bcc3b518abec45d2113049adf7f32ab9c04f30f998c08a2eaf4c"
+    ],
+    "ugc/52-modern-manners-book/out/manners_cover.jpg": [
+     167921,
+     "7d2b56d330124ea8b33e1ae2784e00bfcf1a23ef3c0c2302947a2ff077f64f1f"
+    ],
+    "ugc/52-modern-manners-book/out/manners_v1.mp4": [
+     20454614,
+     "bf0e12403a6970c6cb06d2084093f1b7484e9c13ac23c9a6d694f6035e843b7b"
+    ],
+    "ugc/52-modern-manners-book/review_v1.mp4": [
+     3643354,
+     "ebc894a0b6e17c31ed55d6642d5630c12ac2b2924e68ef927e737e627834c05c"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__52-modern-manners-book.set1.part01.tar",
+     "size": 77916160,
+     "sha256": "8eca4984c3bd35a96475b38008aac73eabc21e168afcead774768a90536fafeb",
+     "hosted": "2026-11-10",
+     "drive_id": "1efN10aZmAlqnBRHmRdDdHauHVYt6niB9",
+     "drive_folder": "1lXO__McT8sia9t1c2D2F46cF0tGnXF2R"
+    }
+   ]
+  }
+ ]
+}
