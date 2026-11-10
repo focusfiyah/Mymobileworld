@@ -11,3 +11,4 @@ Status: DONE 2026-11-10, $0. V1 (HD) 15.7 s, Ralph OK'd (tapped "OK, upload it")
   Her own audio only if it helps (check with Whisper). No text, bright neutral. `python3 check.py hd 12 20` -> CUT_OK hd.
 - Review page first, push + email Ralph; Drive CURRENT only after his OK; then "✅ ... V1 (HD) is done and in Drive" to Grace + Ralph.
 - Brain note: Brain/Jobs/Water Coloring Book edit.md
+- Captions & SEO (Grace msg 388, 2026-11-10): sent as Telegram 393; Google Doc 1f2rg-ZMjnzkkmMoBxISqHFlXuCUaRBp7KeeuM-A2LTU in the product folder; text in CAPTIONS_SEO.md.
