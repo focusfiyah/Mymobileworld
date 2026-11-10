@@ -66,3 +66,6 @@ videos), so those recordings are the best samples we have: her current voice, he
 - 2026-10-28 APPROVED (Ralph: "The new Grace voice is approved"): grace.json now names `KI3g39BKXX7dow9OHoHI`, renamed
   "Grace cloned v5" in ElevenLabs; the old voice is "Grace cloned (old)" until Ralph says delete. Job vo.py files copied
   from older jobs hardcode the old id: read the id from grace/voice/grace.json instead.
+
+## Before every take: VO word check (Ralph 2026-11-10)
+`python3 tools/public_apis/lookup.py vo <script file> <job>/vo/vo_words.md` ($0) lists the brand and coined words the dictionary does not know; set how each is said (respell in the VO text or an ElevenLabs pronunciation) before the first take, so a mispronounced brand never costs a redo.

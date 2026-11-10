@@ -37,6 +37,7 @@ STEPS = {   # key: what proof it needs (PLAYBOOK §4 "Every script uses ALL of t
     "audience":        "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)",
     "research":        "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)",
     "line_sources":    "file showing the source of every script line (coach data / playbook / psychology / research)",
+    "public_data":     "research/public_data.md from `python3 tools/public_apis/lookup.py job <JOB> \"<product words>\"`: Open Food/Beauty Facts lookup + openFDA recall check, read before the script; only when product_type is food, supplement or skincare (Ralph 2026-11-10)",
     "line_audit":      "research/line_audit.md: Grace script method (PLAYBOOK §4, 2026-11-09), per script: Buyer, Pain, Connection, Outsider test, Common enemy, Contradiction check, Pain points <= 3, Selling points <= 3, every line GREEN/YELLOW (RED lines cut), repetition pass",
 }
 CUT_STEPS = {"compare": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"}
@@ -47,7 +48,7 @@ BANNED = [r"\border (it )?now\b", r"\bheads up\b", r"\bgame[- ]changer\b", r"\bo
 
 
 AUDIENCE_HEADS = ["## who", "## pain point experience", "## communication style", "## what it means for the script"]
-PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience", "research")   # research that comes BEFORE the script: not required to be newer than it
+PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience", "research", "public_data")   # research that comes BEFORE the script: not required to be newer than it
 
 
 def check_readability(job, c):
@@ -111,8 +112,25 @@ RESEARCH_HEADS = ["## product differentiation", "## target buyer", "## pain poin
                   "## overall verdict"]
 RESEARCH_ROLES = ["hook", "desire", "objection killer", "purchase justification"]
 RESEARCH_FROM = "2026-11-02"
+PUBLIC_FROM = "2026-11-10"   # free product + recall lookups (Ralph 2026-11-10, tapped "Yes, make it standard")
 METHOD_FROM = "2026-11-09"   # Grace script method: buyer-first + Creator Pathway tools (Ralph 2026-11-09, tapped "Yes, all 4 steps")
 AUDIT_KEYS = ["buyer:", "pain:", "connection:", "outsider test:", "common enemy:", "contradiction check:", "repetition pass:"]
+
+
+PUBLIC_TYPES = ("food", "supplement", "skincare")   # Ralph 2026-11-10: "Keep it only for food, supplements and skincare for now"
+
+
+def public_required(c):
+    """public_data step: jobs from 2026-11-10 whose checklist product_type is food, supplement or skincare."""
+    if c.get("public_legacy") or str(c.get("created", "")) < PUBLIC_FROM: return False
+    return str(c.get("product_type", "")).lower() in PUBLIC_TYPES
+
+
+def check_product_type(c):
+    if c.get("public_legacy") or str(c.get("created", "")) < PUBLIC_FROM: return []
+    t = str(c.get("product_type", "")).lower()
+    ok = PUBLIC_TYPES + ("other",)
+    return [] if t in ok else [f"product_type: set checklist.json product_type to one of {', '.join(ok)} (food/supplement/skincare need the public_data step)"]
 
 
 def method_required(c):
@@ -204,7 +222,7 @@ def check_research(job, c):
 def init(job):
     p = Path(job) / "checklist.json"
     if p.exists(): sys.exit(f"{p} exists")
-    p.write_text(json.dumps({"created": datetime.date.today().isoformat(), "scripts": ["scripts.md"], "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
+    p.write_text(json.dumps({"created": datetime.date.today().isoformat(), "product_type": "", "scripts": ["scripts.md"], "vo_lines": "files holding the exact spoken lines (e.g. vo/*_lines.json)",
                              **{k: {"proof": [], "note": v} for k, v in {**STEPS, **CUT_STEPS}.items()}}, indent=1))
     print("wrote", p)
 
@@ -221,6 +239,7 @@ def check(job, stage="plan"):
         if k == "audience" and c.get("audience_legacy"): continue
         if k == "research" and not research_required(c): continue
         if k == "line_audit" and not method_required(c): continue
+        if k == "public_data" and not public_required(c): continue
         proof = (c.get(k) or {}).get("proof") or []
         if not proof: errs.append(f"{k}: no proof. Needs: {why}"); continue
         for f in proof:
@@ -230,6 +249,7 @@ def check(job, stage="plan"):
                 errs.append(f"{k}: {f} is older than the script: redo {k} on the current script")
     errs += check_audience(job, c)
     errs += check_research(job, c)
+    errs += check_product_type(c)
     errs += check_method(job, c)
     errs += check_readability(job, c)
     for o in overrides(c):   # a recorded exception covers ONLY the rule + videos it names; everything else still applies
