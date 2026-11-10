@@ -1,5 +1,5 @@
 # Crowned Skin Body Butter 5 Scent Pack (Grace, 2026-11-10)
-Status: V1 (16.3 s, silent, 12 hard cuts at 1.0x) on the review page https://claude.ai/artifact/E4M5WiQRcj5Y8v6Ps4pEBA , WAITING on Ralph's OK (push + email sent 2026-11-10 03:30 UTC); then Drive CURRENT + Telegram ✅. Original: Originals/cd764236717640dc89282eaa02d750f4.mov (82,694,690 bytes, 101 s, HEVC 1080x1920 SDR 30 fps) saved as orig/hd.mov; `python3 cut.py`. Grace msg 351: 7-20 s, every feature/perk shown. $0.
+Status: DONE 2026-11-10, $0. V1 HD (16.3 s, silent, 12 hard cuts at 1.0x from her 1080x1920 original) OK'd by Ralph and CURRENT in Drive (file 1BNdk_5KoLDVosS6KmmgPi0rD0B_vlsuy, 22,591,802 bytes); review https://claude.ai/artifact/E4M5WiQRcj5Y8v6Ps4pEBA ; ✅ Telegram msgs 366 (Grace group) + 367 (Ralph). Source: Originals/cd764236717640dc89282eaa02d750f4.mov (82,694,690 bytes) as orig/hd.mov; `python3 cut.py`. Media: media-in-drive record.
 
 Ask (Grace, Telegram group -5234107715, msg 338, update 786406611): "Az I need help editing 11 videos pls create the drives for them". Grace films the raw footage herself: this is an edit of real footage, not AI.
 Product: 5 cologne-scented body butters: King, Reign, Monarch, Prince, Empire.
