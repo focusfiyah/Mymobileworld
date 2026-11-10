@@ -7,6 +7,9 @@ from the InsiderForce Short "Get 1000 Free APIs for Claude Code" Ralph sent. Eve
   python3 tools/public_apis/lookup.py recalls "space heater"         # openFDA recalls (food, drug, device)
   python3 tools/public_apis/lookup.py words cheap                    # Datamuse: plainer words with the same meaning
   python3 tools/public_apis/lookup.py say collagen                   # Free Dictionary: phonetics for a VO word
+  python3 tools/public_apis/lookup.py vo script.txt [out.md]          # VO word check: words the dictionary does not know
+                                                                    # (brands, coined words) to set a pronunciation for
+                                                                    # before the ElevenLabs call, + phonetics of long words
   python3 tools/public_apis/lookup.py holidays [US]                  # Nager.Date: next public holidays (real urgency)
   python3 tools/public_apis/lookup.py job ugc/<job> "creatine gummies"  # Grace gate step public_data: writes
                                                                     # JOB/research/public_data.md (food+beauty+recalls)
@@ -77,6 +80,31 @@ def main(cmd, *a):
         d = get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{urllib.parse.quote(q)}")
         out = d if isinstance(d, dict) else [{"word": e["word"], "phonetic": e.get("phonetic"),
                                               "audio": [p["audio"] for p in e.get("phonetics", []) if p.get("audio")]} for e in d]
+    elif cmd == "vo":
+        import re
+        from concurrent.futures import ThreadPoolExecutor
+        from pathlib import Path
+        text = Path(a[0]).read_text()
+        words = sorted({w for w in re.findall(r"[A-Za-z][A-Za-z']+", text) if len(w) >= 4 and not w.lower().endswith("'s")},
+                       key=str.lower)
+        seen, uniq = set(), []
+        for w in words:
+            if w.lower() not in seen: seen.add(w.lower()); uniq.append(w)
+        def one(w):
+            d = get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{urllib.parse.quote(w.lower())}")
+            if isinstance(d, dict): return w, ("ERROR" if "error" in d else None)
+            return w, next((e.get("phonetic") for e in d if e.get("phonetic")), "")
+        with ThreadPoolExecutor(8) as ex: res = list(ex.map(one, uniq))
+        if any(p == "ERROR" for _, p in res): sys.exit("LOOKUP_ERROR: dictionary lookups failed, rerun")
+        unknown = [w for w, p in res if p is None]
+        long_ = [(w, p) for w, p in res if p and len(w) >= 9]
+        md = [f"# VO word check: {a[0]}", "", f"{len(uniq)} words checked (Free Dictionary, $0).", "",
+              "## Not in the dictionary: brand or coined words; set how each is said (ElevenLabs pronunciation / respell) before the VO"]
+        md += [f"- {w}" for w in unknown] or ["- none"]
+        md += ["", "## Long words with dictionary phonetics (listen for these in the first take)"]
+        md += [f"- {w} {p}" for w, p in long_] or ["- none"]
+        if len(a) > 1: Path(a[1]).write_text("\n".join(md) + "\n")
+        out = {"checked": len(uniq), "not_in_dictionary": unknown, "long_words": len(long_)}
     elif cmd == "holidays":
         out = [(h["date"], h["name"]) for h in get(f"https://date.nager.at/api/v3/NextPublicHolidays/{q or 'US'}")]
     elif cmd == "job":
