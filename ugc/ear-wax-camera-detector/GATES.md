@@ -10,8 +10,12 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=fc852fa932f9799b3a6ed0d88c773ffcc42c1db08b7c782d1e3a15b3a529e8d4; exit=0; EXPECT=matched; output-sha256=3432508d16abd3f412d1f13a2e75eebe21410002a25bbb6cd3562703fe054fe7; output-bytes=18; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/ear-wax-camera-detector; path=7f4fb4b02918/15 entries
 - [x] G3: (manual) Every frame viewed on a 4-6 fps sheet + 2x edges: strong first second, different angles, camera view on screen, light, tips, ear/nose/skin/teeth uses shown as filmed, nothing stretched, bright neutral grade, no text (REMOVED.md)
   EVIDENCE: 2026-11-10 6 fps sheet of all 16.9 s viewed; 2x crops at 0.1, 2.6, 11.0 s clean; no text; ear/nose/teeth not filmed (skin only)
-- [ ] G4: (manual) Review page up with the cut; Ralph push + email sent; Ralph's OK on that exact cut recorded
-- [ ] G5: (manual) After the OK: "CURRENT - Ear Camera V1 (HD).mp4" in the product folder (Drive size = local), older ones in Older versions; "✅ ... V1 (HD) is done and in Drive" sent to Grace and Ralph; Brain note updated
+- [x] G4: (manual) Review page up with the cut; Ralph push + email sent; Ralph's OK on that exact cut recorded
+  EVIDENCE: 2026-11-10 review 5vgbArDCfVWakf9XMYvruT, push + email 1a1c37eb4c2d98f2; Ralph tapped "Yes, ship V1 (Recommended)"
+- [x] G5: (manual) After the OK: "CURRENT - Ear Camera V1 (HD).mp4" in the product folder (Drive size = local), older ones in Older versions; "✅ ... V1 (HD) is done and in Drive" sent to Grace and Ralph; Brain note updated
+  EVIDENCE: 2026-11-10 Drive 1O3Ef3KsarQhvQtYNRtyYo6T_hzYxlQcz 17,733,690 bytes = local; no older versions; Telegram ✅ msgs 382 + 383; Brain note updated
 
 Evidence G3 (2026-11-10): 6 fps sheet of the whole 16.9 s cut viewed; 2x crops of 0.1 s, 2.6 s, 11.0 s; no text; source frames picked from 2 fps + 6 fps sheets of all 56.2 s. Ear/nose/teeth not filmed (skin only).
 Evidence G4 (partial): review https://claude.ai/artifact/5vgbArDCfVWakf9XMYvruT ; push sent; email 1a1c37eb4c2d98f2; waiting on Ralph's OK.
+Evidence G4: Ralph tapped "Yes, ship V1 (Recommended)" 2026-11-10.
+Evidence G5: Drive 1O3Ef3KsarQhvQtYNRtyYo6T_hzYxlQcz, 17,733,690 bytes = local; no older versions in folder; Telegram ✅ group msg 382, Ralph msg 383.
