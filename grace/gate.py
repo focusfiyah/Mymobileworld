@@ -37,6 +37,7 @@ STEPS = {   # key: what proof it needs (PLAYBOOK §4 "Every script uses ALL of t
     "audience":        "research/audience.md from `grace/audience.py` data + verbatim voice-of-customer quotes: Who, Pain point experience, Communication style, What it means for the script (Ralph 2026-10-05)",
     "research":        "research/RESEARCH.md in Grace's research workflow (grace/research/TEMPLATE.md): 7 sections, overall verdict, the 4 selling roles with hook options per role, library ids first (Ralph + Grace 2026-11-02)",
     "line_sources":    "file showing the source of every script line (coach data / playbook / psychology / research)",
+    "public_data":     "research/public_data.md from `python3 tools/public_apis/lookup.py job <JOB> \"<product words>\"`: Open Food/Beauty Facts lookup + openFDA recall check, read before the script (Ralph 2026-11-10, tapped \"Yes, make it standard\")",
     "line_audit":      "research/line_audit.md: Grace script method (PLAYBOOK §4, 2026-11-09), per script: Buyer, Pain, Connection, Outsider test, Common enemy, Contradiction check, Pain points <= 3, Selling points <= 3, every line GREEN/YELLOW (RED lines cut), repetition pass",
 }
 CUT_STEPS = {"compare": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"}
@@ -47,7 +48,7 @@ BANNED = [r"\border (it )?now\b", r"\bheads up\b", r"\bgame[- ]changer\b", r"\bo
 
 
 AUDIENCE_HEADS = ["## who", "## pain point experience", "## communication style", "## what it means for the script"]
-PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience", "research")   # research that comes BEFORE the script: not required to be newer than it
+PROOF_FIRST = ("playbook", "coach_research", "viral_board", "product_facts", "audience", "research", "public_data")   # research that comes BEFORE the script: not required to be newer than it
 
 
 def check_readability(job, c):
@@ -111,8 +112,14 @@ RESEARCH_HEADS = ["## product differentiation", "## target buyer", "## pain poin
                   "## overall verdict"]
 RESEARCH_ROLES = ["hook", "desire", "objection killer", "purchase justification"]
 RESEARCH_FROM = "2026-11-02"
+PUBLIC_FROM = "2026-11-10"   # free product + recall lookups (Ralph 2026-11-10, tapped "Yes, make it standard")
 METHOD_FROM = "2026-11-09"   # Grace script method: buyer-first + Creator Pathway tools (Ralph 2026-11-09, tapped "Yes, all 4 steps")
 AUDIT_KEYS = ["buyer:", "pain:", "connection:", "outsider test:", "common enemy:", "contradiction check:", "repetition pass:"]
+
+
+def public_required(c):
+    if c.get("public_legacy"): return False
+    return "public_data" in c or str(c.get("created", "")) >= PUBLIC_FROM
 
 
 def method_required(c):
@@ -221,6 +228,7 @@ def check(job, stage="plan"):
         if k == "audience" and c.get("audience_legacy"): continue
         if k == "research" and not research_required(c): continue
         if k == "line_audit" and not method_required(c): continue
+        if k == "public_data" and not public_required(c): continue
         proof = (c.get(k) or {}).get("proof") or []
         if not proof: errs.append(f"{k}: no proof. Needs: {why}"); continue
         for f in proof:
