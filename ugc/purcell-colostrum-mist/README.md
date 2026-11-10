@@ -1,6 +1,6 @@
 # PURCELL 247 Colostrum Ampoule Mist edit (Grace, 2026-11-10)
 
-Status: 2026-11-10 V1 (HD) 14.8 s cut from Grace's original (Drive 1ajV38irBUI3zj5nB8zV31AAJpbnycmXf, 37,117,129 B, size matched) is on the review page https://claude.ai/artifact/HX22vSQ4Luzrus8TwbRzZu WAITING on Ralph's OK; not in Drive yet. Push + email sent; Grace told (pending, msg 356). $0. Next: on his OK upload as "CURRENT - PURCELL Mist V1.mp4", then ✅ message to Grace + Ralph.
+Status: DONE 2026-11-10, $0. V1 (HD) 14.8 s cut from Grace's original, Ralph OK'd ("Ok"), in Drive as CURRENT - PURCELL Mist V1.mp4 (file 1paSkZ7W1_P8PzcneVHt0XtH1hwaeLFAK, 11,680,922 B = local). ✅ sent to Grace (group msg 370) and Ralph (371); push + email sent. Review https://claude.ai/artifact/HX22vSQ4Luzrus8TwbRzZu. Media: media-in-drive record (set 1).
 
 - Request: Grace, Telegram group -5234107715, msg 338 (update 786406611): "Az I need help editing 11 videos pls create the drives for them". Originals link sent to her in msg 339.
 - Product: pore care, glass-skin glow, long-lasting hydration; skincare + makeup-prep face mist that also works as a setting spray. Describe the bottle from her footage only.

@@ -1,0 +1,34 @@
+{
+ "unit": "ugc/purcell-colostrum-mist",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-10",
+   "files": {
+    "ugc/purcell-colostrum-mist/orig/grace_orig.mov": [
+     37117129,
+     "3d705959b60594c11098e488055076a3646c4a535309208fb26fa8267c6855a2"
+    ],
+    "ugc/purcell-colostrum-mist/out/mist_v1.mp4": [
+     11680922,
+     "e1ff9a612a092f73cd0c484589e90cb866544874d4d3156250e058d1c524812d"
+    ],
+    "ugc/purcell-colostrum-mist/out/poster.jpg": [
+     29179,
+     "0a3cadccc8e76f4c2e34f2530f49667bcc902f81733a5e4173aff98036ff177e"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__purcell-colostrum-mist.set1.part01.tar",
+     "size": 48834560,
+     "sha256": "5aa95d960e7bb7e4722db9efaf446572f726401203710fb759595a1256857492",
+     "hosted": "2026-11-10",
+     "drive_id": "11seTNyh5Pby5jsr_Y7Hi-tVom8jA9uOO",
+     "drive_folder": "1vvJq5MHZ41mf8TC_-JiThYb2hCr44omm"
+    }
+   ]
+  }
+ ]
+}
