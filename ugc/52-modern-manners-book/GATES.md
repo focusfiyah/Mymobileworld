@@ -10,5 +10,7 @@
   EVIDENCE: source 2 fps sheets 0-61.5 s + cut points at 10 fps + cut at 6 fps viewed; 2 blur cut points fixed and rechecked; first second 2x clean; back cover dropped (upside down); no grade/text, silent (hum, no voice)
 - [x] G4: (manual) Review page up with the cut stacked full width; Ralph push + email sent; Grace told (pending wording, no ✅/done)
   EVIDENCE: review page https://claude.ai/artifact/AQA2g1zFtRjcaDyKqCjUm6 v1; push requested; email 1a1c37e3cd43ec37; Grace Telegram msg 354 (pending wording)
-- [ ] G5: (manual) After Ralph's OK on that exact cut: Drive "CURRENT - Manners Book V1 (HD).mp4" size = local, any older file in Older versions, "✅ 52 Modern Manners for Kids V1 (HD) is done and in Drive: <link>" to Ralph and Grace
-- [ ] G6: (manual) Brain note Brain/Jobs + session log pushed; Active work line removed; media packed (MEDIA_OK)
+- [x] G5: (manual) After Ralph's OK on that exact cut: Drive "CURRENT - Manners Book V1 (HD).mp4" size = local, any older file in Older versions, "✅ 52 Modern Manners for Kids V1 (HD) is done and in Drive: <link>" to Ralph and Grace
+  EVIDENCE: Ralph OK 2026-11-10 ("Ok"); Drive file 1eJ0zfM1seuKNXlMEcjOmWBKPtspKttNG 20,454,614 bytes = local; first version, so nothing to move to Older versions; Telegram ✅ msgs 374 (Ralph) + 375 (group)
+- [x] G6: (manual) Brain note Brain/Jobs + session log pushed; Active work line removed; media packed (MEDIA_OK)
+  EVIDENCE: media set 1 in Drive 1efN10aZmAlqnBRHmRdDdHauHVYt6niB9 (sha256 matched), MEDIA_OK; Brain note + session log + Active work removal pushed, brain check below
