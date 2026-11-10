@@ -6,3 +6,4 @@ Status: DONE 2026-11-10. V1 (HD) 13.67 s, Ralph OK'd, Drive CURRENT - Manners V1
 - Pattern: ugc/merach-vibration-plate, pinmoco-chair, meat-sticks-jerky, momo-nashi-tracing (2026-11-08 batch).
 - Media not in git (orig/, out/).
 - Grace msg 351: 7-20 s, show every feature. Source = original 6e2bc9cdf11449ad9a9e6865d0382340.mov (Drive id 1qHd-e4ruNk0ZkNX3JpTzKaY0hOSejwAA, 51,679,846 bytes). Cut: cut.py (SEGS), silent.
+- 2026-11-10 14:30: Captions & SEO (Grace msg 388) sent as group msg 400; Drive doc 11--oLMa-52TxeAqCN22Pf3-hpEUnRdwOuPRdzIfhbGM; research/captions.md. TikTok research blocked this session (3 routes tested).
