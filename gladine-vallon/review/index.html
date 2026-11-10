@@ -1,0 +1,224 @@
+<title>Gladine Vallon Care Home Plan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: a single reading column, like a consultant's memo; tables scroll on their own; a short summary band up top. */
+:root{
+  --bg:#f6f7f6; --surface:#ffffff; --fg:#1d2522; --muted:#5b6762; --line:#d9dfdc;
+  --accent:#1f6f62; --accent-soft:#e3efec; --warn:#9a5b00; --warn-soft:#fbf0de; --bad:#a3352b; --bad-soft:#f8e6e3; --good:#2c6e33; --good-soft:#e5f1e5;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121715; --surface:#1a211e; --fg:#e4ebe8; --muted:#9aa8a2; --line:#2d3733;
+  --accent:#6cc2b1; --accent-soft:#1d332e; --warn:#e6b15c; --warn-soft:#33291a; --bad:#ec8a80; --bad-soft:#3a2220; --good:#86c98d; --good-soft:#1e3020; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121715; --surface:#1a211e; --fg:#e4ebe8; --muted:#9aa8a2; --line:#2d3733;
+  --accent:#6cc2b1; --accent-soft:#1d332e; --warn:#e6b15c; --warn-soft:#33291a; --bad:#ec8a80; --bad-soft:#3a2220; --good:#86c98d; --good-soft:#1e3020; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--sans)}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header .eyebrow{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:30px;line-height:1.2;margin:6px 0 8px;text-wrap:balance}
+h2{font-size:21px;margin:44px 0 10px;text-wrap:balance;padding-top:14px;border-top:1px solid var(--line)}
+h3{font-size:16px;margin:22px 0 6px}
+p,li{max-width:65ch}
+.sub{color:var(--muted);margin:0}
+a{color:var(--accent)}
+.summary{display:grid;gap:10px;margin:22px 0 0}
+.row{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.pill{font:600 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:99px;white-space:nowrap;margin-top:2px}
+.bad{background:var(--bad-soft);color:var(--bad)} .warn{background:var(--warn-soft);color:var(--warn)} .good{background:var(--good-soft);color:var(--good)}
+.row p{margin:0;min-width:0}
+.tbl{overflow-x:auto;margin:12px 0;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:13px}
+tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.neg{color:var(--bad)} .pos{color:var(--good)}
+.note{background:var(--accent-soft);border-radius:8px;padding:12px 14px;margin:14px 0}
+.note p{margin:0}
+ol.steps li{margin:6px 0}
+.added{columns:2;column-gap:28px;padding-left:18px} .added li{break-inside:avoid;margin:3px 0}
+@media (max-width:520px){.added{columns:1} h1{font-size:25px}}
+.src{font-size:14px;color:var(--muted)} .src li{margin:3px 0;word-break:break-word}
+.tag{font:500 12px var(--mono);color:var(--muted)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Client review · Pennsylvania care home</div>
+  <h1>Gladine Vallon: 10-bed care home plan</h1>
+  <p class="sub">My read of the plan she sent, what has to change, what money is really out there, and the steps in order. Prepared for Ralph, 2026-11-10.</p>
+</header>
+
+<section id="verdict">
+  <h2>The short version</h2>
+  <p>The idea is sound and the care values are good. The plan is about a quarter of a business plan: it describes care and staff, but has no license choice, no money, no location and no timeline. Three things decide whether this works:</p>
+  <div class="summary">
+    <div class="row"><span class="pill bad">Fix</span><p><strong>The staffing plan loses money.</strong> A nurse and a CNA on every shift cost about $578,598 a year. At 10 residents the home would need about $7,700 per resident per month to break even. The Pennsylvania median is $6,480.</p></div>
+    <div class="row"><span class="pill warn">Decide</span><p><strong>She has to pick a license.</strong> Pennsylvania splits these into Personal Care Homes and Assisted Living Residences. Her plan mixes the two. I recommend starting as a Personal Care Home.</p></div>
+    <div class="row"><span class="pill warn">Reset</span><p><strong>There is no state grant to start a for-profit care home.</strong> The realistic money is an SBA bank loan plus a PIDA state loan plus about 20% of her own. Grants and training funds come after the home is licensed.</p></div>
+    <div class="row"><span class="pill good">Good</span><p><strong>Private rooms and baths, residents who walk and eat on their own, and a small size</strong> all fit the rules and are easy to sell to families.</p></div>
+  </div>
+</section>
+
+<section id="license">
+  <h2>License: which one, and why it matters</h2>
+  <p>Both licenses come from the PA Department of Human Services. Her plan says "assisted living" and promises "nursing care" and "treatments." Only an Assisted Living Residence may offer extra health care services, and that license has much stricter building rules.</p>
+  <div class="tbl"><table>
+    <tr><th></th><th>Personal Care Home (Ch. 2600)</th><th>Assisted Living Residence (Ch. 2800)</th></tr>
+    <tr><td>Health care</td><td>ADL and medication help</td><td>Can add "supplemental health care services"</td></tr>
+    <tr><td>Nurse</td><td>Not required</td><td>In the building or on call 24/7</td></tr>
+    <tr><td>Bedroom</td><td>80 sq ft single</td><td>225 sq ft new build (160 in buildings from before 2011)</td></tr>
+    <tr><td>Bath</td><td>1 toilet and sink per 6 residents</td><td>Full bath in every unit</td></tr>
+    <tr><td>Kitchenette in each unit</td><td>No</td><td>Yes</td></tr>
+    <tr><td>License fee</td><td class="n">$15</td><td class="n">$1,050 (10 beds)</td></tr>
+    <tr><td>Medicaid</td><td>No</td><td>A few homes, through CHC plans</td></tr>
+  </table></div>
+  <p><strong>My recommendation:</strong> start as a Personal Care Home, replace the words "nursing care" with "medication help and health monitoring," and bring in an RN as a part-time consultant. If she wants Medicaid residents or more health care later, she can move up to an Assisted Living Residence, but only if the building was built to that standard.</p>
+  <div class="note"><p><strong>The 20-bed goal needs checking before she buys anything.</strong> Under the model building code, homes with 6 to 16 residents are usually a residential class. Above 16 they usually become an institutional class, with much tougher construction and sprinkler rules. Pennsylvania adopted the 2021 codes on 2026-01-01. A local architect or code official needs to confirm the class for 20 residents at the actual property.</p></div>
+</section>
+
+<section id="staffing">
+  <h2>Staffing: the numbers</h2>
+  <p>Pennsylvania's minimum is 1 hour of direct care per resident per day (2 hours for residents with mobility needs), with at least one staff member 21 or older on site at all times. For 10 residents who can walk, that is 10 hours a day. Her plan has 48.</p>
+  <div class="tbl"><table>
+    <tr><th>Her plan: 1 LPN + 1 CNA around the clock</th><th class="n">Per year</th></tr>
+    <tr><td>LPN, $31.70 an hour × 8,760 hours</td><td class="n">$277,692</td></tr>
+    <tr><td>CNA, $21.14 an hour × 8,760 hours</td><td class="n">$185,186</td></tr>
+    <tr><td>Plus 25% payroll taxes and benefits</td><td class="n"><strong>$578,598</strong></td></tr>
+    <tr><td>Per resident per month at 10 residents</td><td class="n">$4,822</td></tr>
+    <tr><td>Per resident per month at 20 residents</td><td class="n">$2,411</td></tr>
+  </table></div>
+  <p>That covers only those two posts, before the administrator, cook, food, property and insurance. Wages are PA averages from May 2025.</p>
+  <h3>The setup I put in the plan instead (10 residents)</h3>
+  <ul>
+    <li>One medication-trained aide around the clock, plus a second aide for 8 hours at the busiest time of day</li>
+    <li>An RN consultant for about 10 hours a week, plus on call</li>
+    <li>A cook and housekeeper for 20 hours a week</li>
+    <li>Gladine as the administrator, after the 100-hour PA course and test</li>
+  </ul>
+  <p>Staff cost: <strong>about $361,400 a year ($3,012 per resident per month)</strong>. Non-nurse staff may give oral, topical and drop medications after the DHS medication course, so the home keeps nurse oversight without paying for a nurse on every shift.</p>
+</section>
+
+<section id="money">
+  <h2>The money</h2>
+  <p>Rate, property, insurance and utility figures are my estimates until she has real quotes. They are in one model file, so I can rerun everything when she does.</p>
+  <div class="tbl"><table>
+    <tr><th>Setup</th><th class="n">Profit when full</th><th class="n">Profit at 90%</th><th class="n">Break-even residents</th></tr>
+    <tr><td>Her plan (ALR, nurse + CNA every shift, paid administrator, $6,480)</td><td class="n neg">-$146,824</td><td class="n neg">-$219,006</td><td class="n">12.0 of 10</td></tr>
+    <tr><td>Lean 10-bed Personal Care Home, Gladine runs it, $5,500</td><td class="n pos">$80,800</td><td class="n pos">$20,378</td><td class="n">8.7 of 10</td></tr>
+    <tr><td>Lean 20 beds, paid administrator, $5,500</td><td class="n pos">$200,711</td><td class="n pos">$79,866</td><td class="n">16.7 of 20</td></tr>
+  </table></div>
+  <p><strong>What she should expect:</strong> a 10-bed home pays for itself only if she runs it herself and keeps it nearly full. In that case the profit is her pay. The 20-bed home is the real business. Year 1 loses about $70,274 while beds fill. Year 2 makes about $50,566. Year 3 dips again while the new 10 beds fill.</p>
+  <div class="tbl"><table>
+    <tr><th>Startup costs (estimates)</th><th class="n">Amount</th></tr>
+    <tr><td>Property purchase (depends on city)</td><td class="n">$650,000</td></tr>
+    <tr><td>Renovation: alarms, sprinklers if needed, accessibility, baths</td><td class="n">$150,000</td></tr>
+    <tr><td>Furniture and equipment</td><td class="n">$40,000</td></tr>
+    <tr><td>Hiring and training before opening</td><td class="n">$25,000</td></tr>
+    <tr><td>Legal, accounting, licensing, insurance deposits</td><td class="n">$15,000</td></tr>
+    <tr><td>Cash cushion, about 6 months</td><td class="n">$150,000</td></tr>
+    <tr><td><strong>Total</strong></td><td class="n"><strong>$1,030,000</strong></td></tr>
+  </table></div>
+  <p>Leasing a house that already qualifies instead of buying would cut the upfront amount a lot. That is worth asking her about.</p>
+</section>
+
+<section id="grant">
+  <h2>The grant</h2>
+  <p>I checked state grant, loan and workforce programs, all as of today. <strong>Pennsylvania has no startup grant a for-profit care home can get.</strong> Keystone Communities and the Neighborhood Assistance Program are for towns and nonprofits. USDA Community Facilities is for public bodies and nonprofits. Civil money penalty grants are for certified nursing homes.</p>
+  <div class="tbl"><table>
+    <tr><th>Program</th><th>Type</th><th>Fit for Gladine</th></tr>
+    <tr><td><a href="https://www.sba.gov/funding-programs/loans">SBA 7(a) / 504</a></td><td>Loan</td><td>Main loan. About 20% down for a new care home</td></tr>
+    <tr><td><a href="https://dced.pa.gov/pida/">PIDA Small Business First</a></td><td>State loan</td><td>Up to $1M or 50% of the property cost at about 5 to 5.5%. Her county economic development office must confirm a care home qualifies</td></tr>
+    <tr><td><a href="https://rd.usda.gov/programs-services/business-industry-loan-guarantees">USDA Business &amp; Industry</a></td><td>Loan guarantee</td><td>Only if the property is rural</td></tr>
+    <tr><td><a href="https://www.paproviders.org/pa-ltcto-announces-rural-health-transformation-plan-long-term-care-funding-opportunity">DOH Quality Investment Program</a></td><td>Grant</td><td>Up to $2,500 per licensed bed, so only after licensing. The 2026 round closed October 1; the next round is not announced</td></tr>
+    <tr><td><a href="https://greaterreading.org/wp-content/uploads/2026/06/OJT-Marketing-Piece-24-0904-E-mail-Update.pdf">CareerLink on-the-job training</a></td><td>Wage subsidy</td><td>About 50% of a new hire's wages for up to 6 months</td></tr>
+    <tr><td><a href="https://www.pa.gov/agencies/dli/programs-services/workforce-development-home/grant-opportunities/industry-partnerships">Industry Partnerships</a></td><td>Free training</td><td>Aide training through the local healthcare partnership</td></tr>
+    <tr><td><a href="https://dced.pa.gov/programs/wednetpa/">WEDnetPA</a></td><td>Training grant</td><td>Up to $2,000 per employee a year; check whether care homes are allowed this year</td></tr>
+  </table></div>
+  <h3>What every lender or grant will ask for</h3>
+  <ul>
+    <li>The full business plan (the completed draft below)</li>
+    <li>3 to 5 years of financial projections, and a list of where the money comes from and goes</li>
+    <li>Proof she controls the property (purchase agreement or lease) and the zoning answer</li>
+    <li>Her licensing status and the administrator course certificate</li>
+    <li>Personal credit, tax returns, a personal financial statement and her 20%</li>
+    <li>Number of jobs created (PIDA expects about 1 job per $75,000 borrowed)</li>
+    <li>Letters of support, for example from hospital discharge planners or the county aging office</li>
+    <li>For federal programs: SAM.gov registration and a UEI number</li>
+  </ul>
+  <p>Common reasons they say no: no property yet, no owner money, numbers that don't add up (like the current staffing), no care or management experience on paper, or a license that doesn't match the services.</p>
+</section>
+
+<section id="gaps">
+  <h2>What I added to her plan</h2>
+  <p>Her 5 sections stay in her words. I marked three lines that need to change ("nursing care" twice and the staffing) and added these sections, each marked [ADDED]:</p>
+  <ul class="added">
+    <li>Owner and funding request in the summary</li><li>Licensing path</li><li>Services and fees</li><li>Admission and discharge</li>
+    <li>Market and competition</li><li>Marketing plan</li><li>Management and ownership</li><li>Operations</li>
+    <li>Emergency and fire plan</li><li>Staff training</li><li>Startup costs</li><li>Funding request and grants</li>
+    <li>Financial projections and break-even</li><li>Risks</li><li>Timeline</li><li>Sources</li>
+  </ul>
+  <p>The completed plan is a Word file, attached in the chat and in Drive. Her city, the property and her own background are left as blanks for her to fill in.</p>
+</section>
+
+<section id="roadmap">
+  <h2>Steps in order</h2>
+  <ol class="steps">
+    <li><strong>Months 1 to 2:</strong> form the LLC, get an EIN and a business bank account, start the 100-hour administrator course, meet her county economic development office and an SBA lender.</li>
+    <li><strong>Months 2 to 4:</strong> find the property; check zoning, the building class for 20 and the fire code; get contractor quotes.</li>
+    <li><strong>Months 4 to 6:</strong> close the loans and the property.</li>
+    <li><strong>Months 6 to 10:</strong> renovate, write the policies, get the fire safety approval.</li>
+    <li><strong>Months 9 to 11:</strong> apply to DHS, hire and train staff, start marketing to discharge planners and doctors.</li>
+    <li><strong>Months 11 to 12:</strong> DHS inspection, license, first residents.</li>
+    <li><strong>Months 13 to 24:</strong> fill to 10, apply for training funds and grants for licensed homes, prepare the 20-bed expansion.</li>
+  </ol>
+  <p class="tag">DHS publishes no licensing timeline, so these months are an estimate.</p>
+</section>
+
+<section id="client-checklist">
+  <h2>What Gladine needs to get together</h2>
+  <ul>
+    <li>Her city or county, and whether she will buy or lease</li>
+    <li>Her background: licenses (RN, LPN, CNA?), years in care, any management experience</li>
+    <li>How much of her own money she can put in</li>
+    <li>Her credit score and the last 2 years of tax returns, for the lenders</li>
+    <li>Prices from 5 to 10 nearby care homes</li>
+    <li>Quotes for insurance and for any renovation</li>
+    <li>A name for the home and the LLC</li>
+  </ul>
+</section>
+
+<section id="questions">
+  <h2>Open questions for her</h2>
+  <ul>
+    <li>Is she a nurse? If she is an RN or LPN, she can cover nurse oversight herself and the numbers get better.</li>
+    <li>Does she want Medicaid residents? That points to an Assisted Living Residence and a stricter building.</li>
+    <li>Does she already have a property in mind?</li>
+    <li>Will she run the home day to day, or hire an administrator?</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Sources</h2>
+  <p class="src">Checked 2026-11-10. The regulation text is current through 2026-09-05.</p>
+  <ul class="src">
+    <li><a href="https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2600/s2600.57.html">55 Pa. Code §2600.57, direct care staffing (PCH)</a></li>
+    <li><a href="https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2600/s2600.101.html">§2600.101, resident bedrooms (PCH)</a></li>
+    <li><a href="https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2600/s2600.190.html">§2600.190, medication administration training</a></li>
+    <li><a href="https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2800/s2800.101.html">§2800.101, living units (ALR)</a></li>
+    <li><a href="https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2800/s2800.142.html">§2800.142, supplemental health care services (ALR)</a></li>
+    <li><a href="https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2800/s2800.229.html">§2800.229, when a resident cannot stay (ALR)</a></li>
+    <li><a href="https://www.pa.gov/en/agencies/dhs/resources/licensing/pch-alr-licensing/app-for-license.html">DHS licensing application</a></li>
+    <li><a href="https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/cwia/products/occupational-wages/pa_ow.pdf">PA wages, May 2025 (L&amp;I)</a></li>
+    <li><a href="https://assets.carescout.com/x/8fcb50422f/282102.pdf">CareScout 2025 cost of care</a></li>
+    <li><a href="https://www.phlp.org/en/news/for-the-first-time-medicaid-can-help-pay-for-assisted-living-in-pennsylvania">Medicaid and assisted living in PA (PHLP)</a></li>
+    <li><a href="https://www.pa.gov/agencies/aging/resources-for-aging-professionals/criminal-history-bkgnd-check">Background checks (Dept of Aging)</a></li>
+    <li><a href="https://www.edclancaster.com/news/2026/08/pida-sbf-real-estate-update">PIDA Small Business First update, Aug 2026</a></li>
+    <li><a href="https://www.health.pa.gov/topics/Documents/Facilities%20and%20Licensing/CMP%20Frequently%20Asked%20Questions.pdf">DOH civil money penalty FAQ</a></li>
+    <li><a href="https://aiaphiladelphia.org/news/advancing-architecture-and-design/1578/1578-BUILDING-CODE-UPDATE-2021-International-Codes-will-take-effect-on-January-1-">PA 2021 building code update</a></li>
+  </ul>
+</section>
+</div>
