@@ -1,6 +1,6 @@
 # tarte "you know you love me" 8-piece collector's set edit, 2026-11-10
 
-Status: WAITING on Grace's original video in Originals (nothing there at 2026-11-10 02:30 UTC). Then cut 12-20 s, review page, Ralph OK, Drive CURRENT, ✅ message. $0.
+Status: V1 cut (out/tarte_v1.mp4, 12.07 s, silent, 23,238,276 B) on the review page https://claude.ai/artifact/QH94fzHHQHR9JNS82qwtPm , waiting on Ralph's OK; then Drive CURRENT + ✅ message. $0. Grace told (msg 357). Original: Originals/595793bbc60d4431852269b3fe5c887c.mov (1nT2h9VRZbYGn3UHHrPPdclQIZ8D3zdfJ) saved as orig/hd.mov; `python3 cut.py tarte slow 18`.
 - Request: Grace, Telegram group -5234107715, msg 338 (update 786406611), batch of 11 edits. Originals link sent in msg 339.
 - Set: 2 eyeshadow palettes, 2 reusable wristlets, 2 free mascaras, 2 free lips (8 pieces). The edit features all of them.
 - Product folder https://drive.google.com/drive/folders/1kzsEjJPk05pkktjpoxZgdnvhqFMTmoS8 (Originals https://drive.google.com/drive/folders/1lD0h9aON2GDKFA_doFY-w8e6axTd-scS), shared anyone-with-link editor.
