@@ -17,6 +17,11 @@ if (c === 'sections') {
 } else if (c === 'nobanned') {
   const txt = page.replace(/<[^>]+>/g,' ');
   const bad = ['—','delve','leverage','seamless','robust','In conclusion','not only'].filter(w => txt.includes(w)); if (bad.length) fail('banned: '+bad.join(',')); ok = true;
+} else if (c === 'plan') {
+  const p = fs.readFileSync('plan/business_plan.md','utf8');
+  const need = ['Executive Summary','Mission','Vision','Capacity','Staffing','Licensing','Services','Admission','Market','Marketing','Management','Operations','Emergency','Startup Costs','Financial Projections','Funding Request','Risks','Timeline'];
+  const miss = need.filter(n => !new RegExp('^#+ .*'+n,'mi').test(p)); if (miss.length) fail('plan missing '+miss.join(','));
+  const added = (p.match(/\[ADDED\]/g)||[]).length; if (added < 10) fail('only '+added+' sections marked [ADDED]'); console.log('added sections', added); ok = true;
 } else if (c === 'readme') {
   const r = fs.readFileSync('README.md','utf8'); if (!/claude\.ai\/code\/artifact\/|claude\.ai\/artifact\//.test(r)) fail('no artifact link'); ok = true;
 }

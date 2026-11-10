@@ -36,3 +36,9 @@ Scope: A review page for Ralph that analyzes the client's PA assisted living pla
 
 - [ ] G6: Every fact from research that the page states is marked confirmed with a source or flagged "to confirm"; Ralph got push + email
   EVIDENCE: pending
+
+- [ ] G7: A completed business plan exists with the client's 5 sections kept and every missing section filled in, each added section marked as added
+  CHECK: node tools_check.mjs plan
+  EXPECT: GATE_PASS plan
+  CWD: pa-assisted-living
+  EVIDENCE: pending
