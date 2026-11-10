@@ -1,6 +1,6 @@
 # 3/6 Reusable Water Coloring Book (Grace edit, 2026-11-10)
 
-Status: WAITING on Grace's original video in Originals (empty 2026-11-10 02:26 UTC). $0, nothing paid planned.
+Status: V1 (HD) cut 15.7 s on the review page https://claude.ai/artifact/7smDqik869aCyNWcaudJNC, WAITING on Ralph's OK before Drive (2026-11-10 03:29 UTC). $0. Original: Originals 1FNU8ls0yPKrboHZLqOIdGIQG2w2hzqiG (174,022,082 B = local). Hourly check trig_012r1wwbGnwDDnKsEqGyyRar disabled. Next on OK: upload out/wcb_hd.mp4 (22,354,421 B) as "CURRENT - Water Coloring Book V1.mp4", ✅ to Grace + Ralph.
 - Request: Grace, Telegram group -5234107715 msg 338 (update 786406611), one of 11 videos to edit. Real footage, not AI.
 - Product: 3/6 Reusable Water Coloring Book for Toddlers, Magic Water Painting Book with Pen, Magic Board, mess-free doodle, ages 2-6.
 - Drive folder (anyone-with-link editor): https://drive.google.com/drive/folders/1mWn1duh9xix2g5-VDIt_HdYc-IWghz0G ; Originals 1JOhvIn8cuLTriAub1X9KRpd_BgBRQQEO (Grace has the link, msg 339).
