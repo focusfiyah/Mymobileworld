@@ -1,6 +1,6 @@
-# [Facility Name] Business Plan (draft 2)
+# [Facility Name] Business Plan (draft 3)
 
-Prepared for Gladine Vallon. Draft 2, 2026-11-10.
+Prepared for Gladine Vallon. Draft 3, 2026-11-10.
 
 How to read this draft: sections 1 to 5 are Gladine's own text. Lines that need to change are marked **[CHANGE]**. Every section marked **[ADDED]** is new. Numbers marked *estimate* are placeholders until she has real quotes for the property, rent and insurance.
 
