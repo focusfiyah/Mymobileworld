@@ -237,6 +237,23 @@ Goal: 3 residents signed before opening day, then 1 new resident a month until t
 
 The cash cushion matters. While the home fills up in year 1, monthly costs are higher than income by about $95,600 in total before it reaches 9 residents.
 
+### Business setup fees [ADDED]
+
+Pennsylvania Department of State fees (checked 2026-11-10). These sit inside the $15,000 legal and accounting line above.
+
+| Item | Cost | Notes |
+|---|---|---|
+| LLC: Certificate of Organization | $125 | Same fee for a corporation's Articles of Incorporation ($125) |
+| Fictitious name registration | $70 | Needed if the home's name differs from the LLC's name (for example "Sunrise Manor" owned by "Vallon Care LLC") |
+| Annual report | $7 a year | First one due the year after forming. LLCs file Jan 1 to Sept 30, corporations Jan 1 to June 30. Missing it can lead to the state dissolving the company, starting with reports due in 2027 |
+| Faster processing (optional) | $100 same day, $300 in 3 hours, $1,000 in 1 hour | On top of the filing fee |
+| EIN from the IRS | Free | Needed for the bank account, payroll and loans |
+| PA tax and payroll registration (Dept of Revenue and unemployment compensation) | Free | Needed before the first paycheck |
+| Lawyer: operating agreement and resident contract review | *estimate* $1,500 to $5,000 | Worth it: DHS checks the resident contract |
+| Accountant: setup and tax election advice | *estimate* $500 to $1,500 | |
+
+**LLC or corporation:** the state fee is the same ($125). An LLC is simpler to run, and it can still choose to be taxed as an S corporation later. Her accountant should make that call based on her income.
+
 ---
 
 ## 15. Funding Request [ADDED]
@@ -298,7 +315,7 @@ What this means: a 10-bed home pays for itself only if Gladine runs it herself a
 
 | Months | Step |
 |---|---|
-| 1 to 2 | Form the LLC, get an EIN, open a business bank account; start the administrator course; meet the county economic development office and an SBA lender |
+| 1 to 2 | Form the LLC ($125) and register the home's name ($70), get an EIN (free), open a business bank account; start the administrator course; meet the county economic development office and an SBA lender |
 | 2 to 4 | Find the property; check zoning, the building class and the fire code for 20 residents; get contractor quotes |
 | 4 to 6 | Close on the loans and the property |
 | 6 to 10 | Renovate; write policies; get the fire safety approval |
@@ -320,3 +337,5 @@ DHS does not publish how long licensing takes, so the timeline is an estimate.
 - PIDA: https://dced.pa.gov/pida/
 - Quality Investment Program: https://www.paproviders.org/pa-ltcto-announces-rural-health-transformation-plan-long-term-care-funding-opportunity
 - Background checks: https://www.pa.gov/agencies/aging/resources-for-aging-professionals/criminal-history-bkgnd-check
+- PA Department of State fees: https://www.pa.gov/agencies/dos/programs/business/fees-and-payments
+- PA annual reports: https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports
