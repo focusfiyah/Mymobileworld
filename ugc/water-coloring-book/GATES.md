@@ -1,7 +1,9 @@
 # Gates: 3/6 Reusable Water Coloring Book edit (Grace, 2026-11-10)
 
-- [ ] G1: (manual) Session renamed, Originals folder checked, hourly Originals check scheduled into this session
-- [ ] G2: (manual) Brain job note + Active work line pushed
+- [x] G1: (manual) Session renamed, Originals folder checked, hourly Originals check scheduled into this session
+  EVIDENCE: 2026-11-10 title set; Originals empty (Drive query parentId, positive control on the parent folder returned Originals); trig_012r1wwbGnwDDnKsEqGyyRar cron 23 * * * *
+- [x] G2: (manual) Brain job note + Active work line pushed
+  EVIDENCE: obsidian-vault 030e30e on main
 - [ ] G3: Cut from her footage is 12-20 s, 1080x1920, no black or frozen stretch, matches plan
   CHECK: python3 check.py hd 12 20
   EXPECT: CUT_OK hd
