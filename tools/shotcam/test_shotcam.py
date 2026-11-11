@@ -21,6 +21,22 @@ def serve():
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     return srv
 
+# Netlify's free plan pins a "Powered by Netlify" badge at the bottom right (about 170x40 px,
+# Ralph's OnePlus 2026-11-11). No button may sit in that corner on any screen.
+BADGE_JS = """() => {
+  const zone = {l: innerWidth - 200, t: innerHeight - 64, r: innerWidth, b: innerHeight};
+  return [...document.querySelectorAll('button')].filter(b => b.offsetParent !== null).map(b => {
+    const r = b.getBoundingClientRect();
+    return (r.right > zone.l && r.left < zone.r && r.bottom > zone.t && r.top < zone.b) ? (b.id || b.textContent.trim()) : null;
+  }).filter(Boolean);
+}"""
+
+
+def badge_clear(pg, screen, fails):
+    hit = pg.evaluate(BADGE_JS)
+    if hit:
+        fails.append(f"{screen}: buttons under the Netlify badge corner: {hit}")
+
 
 def main():
     srv = serve()
@@ -40,11 +56,13 @@ def main():
             fails.append(f"expected 3 shots in the sample list, saw {n_shots}")
         if pg.evaluate("document.documentElement.scrollWidth > innerWidth"):
             fails.append("list view scrolls sideways")
+        badge_clear(pg, "list", fails)
         pg.locator(".shot").first.click()
         pg.wait_for_function("document.getElementById('preview').videoWidth > 0", timeout=10000)
         card = pg.text_content("#cardK")
         if card != "Shot 1 of 3":
             fails.append(f"card shows {card!r}")
+        badge_clear(pg, "camera", fails)
         pg.click("#recBtn")
         pg.wait_for_selector("#countdown:not([hidden])", timeout=2000)
         pg.wait_for_function("window.__shotcam.state().recording", timeout=6000)
@@ -52,6 +70,7 @@ def main():
         pg.click("#recBtn")
         pg.wait_for_selector("#reviewView:not([hidden])", timeout=8000)
         meta = pg.inner_text("#reviewMeta")
+        badge_clear(pg, "review", fails)
         pg.click("#keepBtn")
         pg.wait_for_selector("#camView:not([hidden])")
         pg.wait_for_timeout(400)
@@ -71,6 +90,7 @@ def main():
         rows = pg.locator(".take").count()
         if rows != 1:
             fails.append(f"send screen lists {rows} takes")
+        badge_clear(pg, "send", fails)
         for v in ("#sendView",):
             if pg.evaluate("document.documentElement.scrollWidth > innerWidth"):
                 fails.append(f"{v} scrolls sideways")
