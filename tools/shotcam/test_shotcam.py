@@ -94,6 +94,30 @@ def main():
         for v in ("#sendView",):
             if pg.evaluate("document.documentElement.scrollWidth > innerWidth"):
                 fails.append(f"{v} scrolls sideways")
+        # After sending: the done screen shows the tracker with "first cut" as the current step
+        pg.evaluate("window.__shotcam.markAllSent()")
+        pg.evaluate("window.__shotcam_done()")
+        pg.wait_for_selector("#doneView:not([hidden])")
+        steps = pg.locator("#doneTrack .step").count()
+        now = pg.text_content("#doneTrack .step.now b") if pg.locator("#doneTrack .step.now").count() == 1 else None
+        hint = pg.text_content("#doneHint")
+        if steps != 4 or now != "Filmed" or "Shots 2, 3 are still to film" not in hint:
+            fails.append(f"done screen with missing shots wrong: {steps} steps, current={now!r}, hint={hint!r}")
+        badge_clear(pg, "done", fails)
+        if pg.evaluate("document.documentElement.scrollWidth > innerWidth"):
+            fails.append("done screen scrolls sideways")
+        # When Azariah marks the cut ready, the tracker shows it with the watch link
+        status = os.path.join(SITE, "lists", "sample-status.json")
+        with open(status, "w") as f:
+            f.write('{"stage": "ready", "note": "First cut is ready", "review_url": "https://example.com/review"}')
+        try:
+            pg.evaluate("window.__shotcam_done()")
+            pg.wait_for_timeout(500)
+            last = pg.locator("#doneTrack .step").last
+            if "done" not in (last.get_attribute("class") or "") or last.locator("a").count() != 1:
+                fails.append("ready status not shown on the done screen")
+        finally:
+            os.remove(status)
         if os.environ.get("SHOTCAM_SHOT"):
             pg.screenshot(path=os.environ["SHOTCAM_SHOT"])
         if errs:

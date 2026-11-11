@@ -84,7 +84,7 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
 .row{display:flex;gap:10px}
 
 /* ---------- send sheet ---------- */
-#sendView{position:fixed;inset:0;background:var(--bg);overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 18px) max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 24px + var(--badge)) max(16px,env(safe-area-inset-left,0px))}
+#sendView,#doneView{position:fixed;inset:0;background:var(--bg);overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 18px) max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 24px + var(--badge)) max(16px,env(safe-area-inset-left,0px))}
 .takes{display:flex;flex-direction:column;gap:8px;margin:14px 0}
 .take{display:flex;gap:10px;align-items:center;background:var(--panel);border-radius:10px;padding:10px 12px}
 .take .n{flex:1;min-width:0;font:600 14px var(--mono);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -93,6 +93,22 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
 .take.sent .n{color:var(--ok)}
 .steps{background:var(--panel);border-radius:12px;padding:14px 14px 14px 34px;margin:0;color:var(--muted);font-size:14px;display:flex;flex-direction:column;gap:4px}
 .steps b{color:var(--fg)}
+.tracker{display:flex;flex-direction:column;gap:0;background:var(--panel);border-radius:14px;padding:6px 14px}
+.step{display:grid;grid-template-columns:28px 1fr;gap:12px;align-items:start;padding:10px 0;border-bottom:1px solid var(--line)}
+.step:last-child{border-bottom:0}
+.dot{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:14px;background:var(--panel2);color:var(--muted)}
+.step.done .dot{background:var(--ok);color:#06210f}
+.step.now .dot{background:var(--accent);color:#2a1a00}
+.step.now .dot::after{content:"";width:10px;height:10px;border-radius:50%;background:#2a1a00;animation:pulse 1.2s infinite}
+@keyframes pulse{50%{opacity:.25}}
+.step b{display:block;font-size:15px}
+.step span{color:var(--muted);font-size:13px}
+.step a{color:var(--accent);font-weight:700}
+.bigok{width:64px;height:64px;border-radius:50%;background:var(--ok);color:#06210f;display:grid;place-items:center;font-size:34px;font-weight:800;margin:6px 0 10px}
+.donebody{display:flex;flex-direction:column;gap:16px}
+.closehint{background:var(--panel);border-radius:12px;padding:12px 14px;color:var(--muted);font-size:14px}
+.closehint b{color:var(--fg)}
+#statusBanner{margin:0 0 16px}
 .toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 96px + var(--badge));background:var(--panel2);padding:10px 14px;border-radius:10px;font-weight:600;font-size:14px;z-index:9;max-width:90vw;text-align:center}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -104,6 +120,7 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
   <h1 id="title">Loading shot list…</h1>
   <div class="sub" id="sub"></div>
   <div class="progress"><i id="bar"></i></div>
+  <div class="tracker" id="statusBanner" hidden></div>
   <div class="shots" id="shots"></div>
   <div class="help" id="help">
     <b>How it works.</b> Tap a shot, read the card, press the red button. It counts 3-2-1 and records. Tap again to stop. Keep it or retake it. Film the shots in any order. When you're done, tap <b>Send to Drive</b>.
@@ -167,6 +184,23 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
   </div>
 </section>
 
+<section id="doneView" hidden>
+  <div class="donebody">
+    <div>
+      <div class="brand">Shot Cam</div>
+      <div class="bigok">✓</div>
+      <h1 style="margin:0">Sent to Drive</h1>
+      <div class="sub" id="doneSum"></div>
+    </div>
+    <div class="tracker" id="doneTrack"></div>
+    <div class="closehint" id="doneHint"><b>You can close this page now.</b> Drive finishes the upload in the background (you'll see its progress in your notifications). You'll get a message on Telegram when the first cut is ready to watch.</div>
+    <div class="row">
+      <button class="btn" id="doneBack">Back to shots</button>
+      <button class="btn" id="clearBtn">Free up phone space</button>
+    </div>
+  </div>
+</section>
+
 <div class="toast" id="toast" hidden></div>
 
 <script>
@@ -195,7 +229,7 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
   const delTake = id => tx('readwrite', s => s.delete(id));
 
   function toast(msg, ms = 2600) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, ms); }
-  const show = v => ['listView', 'camView', 'reviewView', 'sendView'].forEach(x => $(x).hidden = x !== v);
+  const show = v => ['listView', 'camView', 'reviewView', 'sendView', 'doneView'].forEach(x => $(x).hidden = x !== v);
   const pad = n => String(n).padStart(2, '0');
   const slug = () => (list.slug || listId).replace(/[^a-z0-9_-]/gi, '-');
   const fmtSize = b => b > 1e6 ? (b / 1e6).toFixed(1) + ' MB' : Math.round(b / 1e3) + ' KB';
@@ -215,7 +249,9 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
     $('title').textContent = list.title;
     $('sub').textContent = list.note || '';
     $('folderName').textContent = list.folder || 'Originals';
+    await loadStatus();
     renderList();
+    setInterval(async () => { if (!document.hidden && !$('listView').hidden) { await loadStatus(); renderStatus(); } }, 60000);
   }
 
   async function renderList() {
@@ -242,7 +278,8 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
     $('sub').textContent = (list.note ? list.note + ' · ' : '') + done + ' of ' + list.shots.length + ' shots filmed';
     const unsent = takes.filter(t => !t.sent).length;
     $('sendBtn').disabled = !takes.length;
-    $('sendBtn').textContent = takes.length ? 'Send to Drive (' + (unsent || takes.length) + ')' : 'Send to Drive';
+    $('sendBtn').textContent = !takes.length ? 'Send to Drive' : unsent ? 'Send to Drive (' + unsent + ')' : 'All sent · see what’s next';
+    renderStatus();
   }
 
   // ---------- camera ----------
@@ -361,6 +398,70 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
   }
   function retake() { pending = null; $('reviewVid').removeAttribute('src'); show('camView'); startStream(); }
 
+  // ---------- after sending: what happens next ----------
+  // Optional lists/<id>-status.json (updated by Azariah): {"stage": "cutting"|"ready", "note": "...", "review_url": "..."}
+  let remote = {};
+  async function loadStatus() {
+    try { const r = await fetch('lists/' + listId + '-status.json', {cache: 'no-store'}); remote = r.ok ? await r.json() : {}; } catch (e) { remote = {}; }
+  }
+  function trackerHTML(takes) {
+    const filmedShots = new Set(takes.map(t => t.n)).size, total = list.shots.length;
+    const sent = takes.length > 0 && takes.every(t => t.sent);
+    const stage = remote.stage || '';
+    const steps = [
+      {t: 'Filmed', d: filmedShots + ' of ' + total + ' shots', done: filmedShots === total},
+      {t: 'Sent to Drive', d: sent ? takes.length + (takes.length > 1 ? ' takes' : ' take') + ' sent' : 'Not sent yet', done: sent},
+      {t: 'First cut being made', d: stage === 'ready' ? 'Done' : stage === 'cutting' ? (remote.note || 'Azariah is editing your takes now') : 'Starts once your takes are in Drive', done: stage === 'ready', now: sent && stage !== 'ready'},
+      {t: 'Ready to watch', d: stage === 'ready' ? (remote.note || 'Your first cut is ready') : 'You’ll get a Telegram message', done: stage === 'ready', link: stage === 'ready' && remote.review_url}
+    ];
+    let firstOpen = steps.findIndex(x => !x.done);
+    const box = document.createElement('div');
+    steps.forEach((x, i) => {
+      const row = document.createElement('div');
+      row.className = 'step' + (x.done ? ' done' : i === firstOpen ? ' now' : '');
+      const dot = document.createElement('div'); dot.className = 'dot'; dot.textContent = x.done ? '✓' : (row.classList.contains('now') ? '' : i + 1);
+      const tx_ = document.createElement('div'); const b = document.createElement('b'); b.textContent = x.t; const sp = document.createElement('span'); sp.textContent = x.d;
+      tx_.append(b, sp);
+      if (x.link) { const a = document.createElement('a'); a.href = x.link; a.textContent = ' Watch it'; a.target = '_blank'; a.rel = 'noopener'; sp.append(' · '); sp.append(a); }
+      row.append(dot, tx_); box.append(row);
+    });
+    return box;
+  }
+  async function renderStatus() {
+    const takes = await allTakes();
+    const banner = $('statusBanner');
+    if (takes.length && takes.every(t => t.sent)) { banner.replaceChildren(...trackerHTML(takes).childNodes); banner.hidden = false; }
+    else banner.hidden = true;
+  }
+  async function openDone() {
+    await loadStatus();
+    const takes = await allTakes();
+    const mb = takes.reduce((m, t) => m + t.size, 0);
+    $('doneSum').textContent = new Set(takes.map(t => t.n)).size + ' shots · ' + takes.length + (takes.length > 1 ? ' takes' : ' take') + ' · ' + fmtSize(mb) + ' · folder ' + (list.folder || 'Originals');
+    $('doneTrack').replaceChildren(...trackerHTML(takes).childNodes);
+    const have = new Set(takes.map(t => t.n)), missing = list.shots.filter(x => !have.has(x.n)).map(x => x.n);
+    $('doneHint').replaceChildren();
+    const hb = document.createElement('b');
+    if (missing.length) {
+      hb.textContent = (missing.length > 1 ? 'Shots ' : 'Shot ') + missing.join(', ') + (missing.length > 1 ? ' are' : ' is') + ' still to film.';
+      $('doneHint').append(hb, ' Tap Back to shots to film ' + (missing.length > 1 ? 'them' : 'it') + ', then send again. Everything you sent is already in Drive.');
+    } else {
+      hb.textContent = 'You can close this page now.';
+      $('doneHint').append(hb, ' Drive finishes the upload in the background (you’ll see its progress in your notifications). You’ll get a message on Telegram when the first cut is ready to watch.');
+    }
+    $('clearBtn').textContent = 'Free up phone space'; delete $('clearBtn').dataset.sure;
+    $('toast').hidden = true;
+    show('doneView');
+  }
+  async function clearSent() {
+    const b = $('clearBtn');
+    if (!b.dataset.sure) { b.dataset.sure = 1; b.textContent = 'Delete sent takes from this phone?'; return; }
+    const takes = (await allTakes()).filter(t => t.sent);
+    for (const t of takes) await delTake(t.id);
+    toast('Removed ' + takes.length + ' sent takes from this phone. They’re safe in Drive.');
+    show('listView'); renderList();
+  }
+
   // ---------- send ----------
   async function openSend() {
     const takes = (await allTakes()).sort((a, b) => a.n - b.n || a.take - b.take);
@@ -384,7 +485,8 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
       try {
         await navigator.share({files, title: list.title});
         for (const t of takes) { t.sent = true; await putTake(t); }
-        toast('Sent ' + takes.length + (takes.length > 1 ? ' takes' : ' take') + '. Check Drive.');
+        toast('Sent ' + takes.length + (takes.length > 1 ? ' takes' : ' take') + '.');
+        if ((await allTakes()).every(t => t.sent)) { openDone(); return; }
       } catch (e) {
         if (e && e.name === 'AbortError') return;
         toast(takes.length > 1 ? 'Too big to send together. Send them one at a time.' : 'Couldn’t share: ' + (e && e.name || 'error'), 4000);
@@ -413,12 +515,16 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
   };
   $('keepBtn').onclick = keep;
   $('retakeBtn').onclick = retake;
-  $('sendBtn').onclick = openSend;
+  $('sendBtn').onclick = async () => { const t = await allTakes(); (t.length && t.every(x => x.sent)) ? openDone() : openSend(); };
+  $('doneBack').onclick = () => { show('listView'); renderList(); };
+  $('clearBtn').onclick = clearSent;
+  window.__shotcam_done = openDone;
   $('closeSend').onclick = () => { show('listView'); renderList(); };
   $('shareAll').onclick = async () => { const t = (await allTakes()).filter(x => !x.sent); share(t.length ? t : await allTakes()); };
   document.addEventListener('visibilitychange', () => { if (!document.hidden && !$('camView').hidden && !stream) startStream(); });
 
-  window.__shotcam = {state: () => ({list, idx, recording: !!(rec && rec.state === 'recording')}), allTakes};
+  window.__shotcam = {state: () => ({list, idx, recording: !!(rec && rec.state === 'recording')}), allTakes,
+    markAllSent: async () => { for (const t of await allTakes()) { t.sent = true; await putTake(t); } }};
   loadList();
 })();
 </script>

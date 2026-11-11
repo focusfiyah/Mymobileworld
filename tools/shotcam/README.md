@@ -10,6 +10,10 @@ Status (2026-11-11): Part A built and live, $0. Browser test passes (fake camera
 - On the phone: tap a shot, red button = 3-2-1 then record, tap to stop, Keep or retake; any order; Flip = front camera; Phone camera = the phone's own camera app at full quality. Takes stay on the phone (IndexedDB) until sent.
 - Send to Drive: share menu, Drive, pick the folder. Files are named `<slug> S03 take2.mp4` (`... phone.mov` for phone-camera takes).
 
+## After sending (status screen)
+- When every take is sent, the page shows "Sent to Drive" with a 4-step tracker: Filmed, Sent to Drive, First cut being made, Ready to watch (plus "you can close this page", or which shots are still missing). "Free up phone space" deletes sent takes from the phone only.
+- Steps 3-4 read `site/lists/<id>-status.json`, which Azariah writes and deploys: `{"stage": "cutting", "note": "..."}` while editing, then `{"stage": "ready", "note": "...", "review_url": "<review page>"}`. The page re-reads it every minute. Also send the Telegram message the page promises.
+
 ## Check
 - `python3 test_shotcam.py` (headless Chromium, fake camera) prints SHOTCAM_TEST_OK.
 - `python3 check_live.py` prints SHOTCAM_LIVE_OK.
