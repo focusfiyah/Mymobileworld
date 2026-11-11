@@ -18,3 +18,4 @@ Evidence G2: 6 fps sheet of the whole cut (95 tiles) + 2x crops at each shot sta
 Evidence G3: CAPTIONS_OK; readability grade 4.6 (proof/readability.txt).
 Evidence G4: Telegram msg 439 to Grace (reply to 430, pending wording, no ✅); Doc 1PJQWoTJQLVY3MXkJrsNbdPLSoGqQ3wHZkOx57E2lO-4 in the product folder; proof/humanizer.md.
 Evidence G5: review https://claude.ai/code/artifact/86f94278-821c-4988-b260-a0970ef95b96; email 1a1cc1395be787ad; Telegram Ralph 440; PushNotification not found by ToolSearch this session (tested). Drive holds only the captions Doc.
+Progress 2026-11-11 19:40: Grace's script (msg 438, via parent session) -> V2 CUT_OK galental 36.53s (V=2 check.py galental 25 40), 6 fps sheets viewed, repeated hand-on-frame angle swapped for 37.5-40 s pull back; replied to Grace msg 445; Ralph email + Telegram. G6 now = Ralph's pick (V1/V2) + VO.
