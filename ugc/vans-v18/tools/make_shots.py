@@ -53,6 +53,11 @@ LOOK = {"TAB": ", the black side tab with white VANS letters", "SEQ": ", plain o
         "HEEL": ", the black heel stripe and the white OFF THE WALL label with black print",
         "INSOLE": ", the deep red insole with its white VANS rectangle", "SOLE": ", the gum-brown waffle sole"}
 
+BODY = ("ONE BODY, NATURAL POSE: her legs, feet, arm and hand all belong to one person whose body is just behind the camera (we see "
+        "from her own eyes). Every limb enters the frame from the bottom edge or from the side nearest her body: the holding forearm "
+        "runs back toward that same body, and her right hand is on the same side of the frame as her right leg. No arm or hand comes "
+        "in from the opposite edge or from the top of the frame; joints bend the natural way.")
+
 # Outfit per video: legs + sleeve cuff (each video its own look, hard rule 6)
 OUT = ["light-wash skinny jeans with ripped knees, cropped at the ankle|A cream chunky-knit sweater cuff",
        "black leggings|An oatmeal sweatshirt cuff",
@@ -147,7 +152,7 @@ def still(sid, place, beat, outfit, note):
         n += 1; refs.append(R["SKIN"][0]); lines.append(f"Image {n} = {R['SKIN'][1]}.")
     n += 1; refs.append(PLACE[place][0]); lines.append(f"Image {n} = the real place.")
     body = [f"VIEW AND FRAMING FIRST: {scene}", who, SHOE]
-    if kind == "HAND": body.append(HAND.replace("{sleeve}", sleeve))
+    if kind == "HAND": body += [HAND.replace("{sleeve}", sleeve), BODY]
     if who in (WORN, HOLD): body.append(f"HER LEGS: {legs}; GRACE'S SKIN on every ankle, foot and hand: the exact medium-deep brown tone of the skin reference, never lighter or darker; a thin gold anklet.")
     body += [f"PLACE: {PLACE[place][1]}, {note}.", LIGHT, END]
     toes = re.findall(r"(?:both )?toe(?: caps?)?s? pointing (?:to|at) [^,;.]+", scene)
@@ -157,7 +162,7 @@ def still(sid, place, beat, outfit, note):
             + ("Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. " if kind == "HAND" and "grip" in motion else "")
             + ("Her hand stays whole, five fingers, whole wrist. " if kind == "HAND" and "grip" not in motion else "")
             + ("The feet stay in the shoes; nothing slides. " if who == WORN else "")
-            + ("Her skin stays the same medium-deep brown tone as the first frame. " if kind == "HAND" or who in (WORN, HOLD) else "") + "Bright neutral daylight, realistic phone footage, 9:16. No sparkle effects, no text, no captions, no music, no voice.")
+            + ("Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. " if kind == "HAND" else "") + ("Her skin stays the same medium-deep brown tone as the first frame. " if kind == "HAND" or who in (WORN, HOLD) else "") + "Bright neutral daylight, realistic phone footage, 9:16. No sparkle effects, no text, no captions, no music, no voice.")
     return {"kind": kind, "beat": beat, "place": place, "still": " ".join(lines + body), "still_refs": refs, "clip": clip}
 
 
