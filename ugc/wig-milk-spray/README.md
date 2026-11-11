@@ -1,6 +1,6 @@
 # Wig Milk Spray: edit of Grace's own footage (2026-11-11)
 
-Status: r2 on review (cut to Grace's script, 26.9 s, 9 shots, silent for her VO), waiting on Ralph's OK before Drive and on Grace's answer about recording the VO. $0.
+Status: DONE 2026-11-11. Ralph "Ok" on r2; CURRENT - Wig Milk Spray V1.mp4 (1qHzrCFsVvgfASkpbUNdXRO_HNK4GsjZo, 62,779,917 bytes = local) in the product folder; ✅ sent to Ralph + Grace. Open: if Grace records a VO, re-time the cut to it (V1 stays until then). $0.
 - r2 (Grace msg 438, relayed by session_01Y1Pt3ss5QMagk83NH6Jmvo: "We already have a script, you transcribed it earlier"): the transcript doc is the script; `edit/cut.py` LINES maps each line to shots timed at ~3.5 words/s (her 25 s reference). Told Grace msg 450 (asked if she records the VO; flagged "restore shine", not in the listing), Ralph msg 451 + email 1a1cc1d008c40e09. r1 (16.3 s) kept as edit/out/wig_r1_16s.mp4. Check is `python3 check.py wig 20 30` now (script length).
 - Request: Grace, Telegram group -5234107715, msg 430 (folders for 4 products, she uploads originals to edit). Captions sent to her in msg 448 (reply to 430); Ralph told in msg 449 + email 1a1cc1873dd9841d (PushNotification tool not found by ToolSearch this session).
 - Product folder https://drive.google.com/drive/folders/1fGDnU6rqdqRnBK2Mzd6Vr8s8Ib7oOCEb, Originals 1ny_ax6dy5qSDcLV_l_6K2jLT03ZSwiy5 (only WigMilkSpray2.mov, 492,463,448 bytes, 1080x1920 HEVC 30 fps, 9:16 min; no clip 1 as of 19:30 UTC).
