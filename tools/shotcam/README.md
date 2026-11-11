@@ -3,7 +3,12 @@
 Phone camera page that tells you what to film (Ralph 2026-11-11, inspired by Brooke Hall's IRIS; our own name and look).
 Live: https://shotcam-azariah.netlify.app/?list=<list id>  (Netlify site 3ef9e069-06a1-4ff2-ad8b-507f57399e81, team login turned off so Grace opens it without signing in).
 
-Status (2026-11-11): Part A built and live, $0. Browser test passes (fake camera, 1920x1080 MP4). Waiting on the real-phone tests: Grace's iPhone (Safari) and Ralph's OnePlus (Chrome), gates G3/G4 in GATES.md. Parts B-D (auto first cut, camera roll mode, style memory) not started. Plan: https://claude.ai/artifact/GEAzcFQRkMgtMn1fcC7ppz
+Status (2026-11-11): Part A built and live, $0. Browser test passes (fake camera, 1920x1080 MP4). Android test passed on Ralph's OnePlus (G4). Waiting on Grace's iPhone test (G3), sent to her on Telegram 2026-11-11 with the Drive folder "Shot Cam test" (1J4cLHJTbiW4OYZDLyyMdjqZ8rITEi2nU, anyone with link can edit). Parts B-D (auto first cut, camera roll mode, style memory) not started. Plan: https://claude.ai/artifact/GEAzcFQRkMgtMn1fcC7ppz
+
+## Decisions
+- Main camera = the page camera (red button), so the shot card stays on screen while filming; the Phone camera button for hero/close-up product shots that need the most detail (Ralph 2026-11-11, tapped). Measured on his OnePlus: page 1080x1920 28.8 fps 11.6 Mbit/s, phone camera 1080x1920 29.6 fps 17.5 Mbit/s.
+- Takes go to Google Drive at full quality, never Telegram (Telegram shrinks to 464x848) (Ralph 2026-11-11).
+- Netlify free plan shows a "Powered by Netlify" badge bottom right that cannot be turned off on this plan; every screen keeps a 68 px strip clear for it (test checks it).
 
 ## Use
 - One shot list per video: `site/lists/<id>.json` (title, slug for file names, note, folder = Drive folder name to pick, shots: n, direction, line, frame, hand, seconds). Then `./deploy.sh` and `python3 check_live.py <id>`. Send the link `...?list=<id>`.
