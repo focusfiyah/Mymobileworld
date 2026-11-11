@@ -15,8 +15,8 @@ R = {"SHEET": ("refs/product_sheet.png", "the real shoe from every side (product
      "HEEL": ("refs/real_heel_label.jpg", "the real back of the shoe: the vertical BLACK heel stripe with white stitching and the small WHITE 'OFF THE WALL' skateboard label with black print on the off-white sidewall"),
      "INSOLE": ("refs/real_insole_logo.jpg", "the real insole: deep RED with a WHITE rectangle holding the red VANS skateboard-tail logo"),
      "SOLE": ("refs/real_top_sole.jpg", "the real outsole: gum-brown waffle pattern"),
-     "SKIN": ("refs/ref5_skin_toes.png", "her skin tone only (ignore its outfit, pose and place)"),
-     "HAND": ("refs/ref6_hand.png", "her real hand")}
+     "SKIN": ("refs/grace/f_23.5.jpg", "Grace's real ankles in the shoes: her exact medium-deep brown skin tone and thin gold anklet (ignore the pavement and her pants)"),
+     "HAND": ("refs/grace/f_11.5.jpg", "Grace's real hand holding the shoe: her exact medium-deep brown skin tone, nails, rings and bracelets (ignore the street)")}
 
 PLACE = {"street": ("refs/places/street.jpg", "a stone-paved sidewalk outside a cafe with small round tables, slatted chairs in pale blue and honey wood, potted plants and a chalkboard (like the place photo)"),
          "bedroom": ("refs/places/roomL_wide.jpg", "Grace's bright cream bedroom: cream upholstered bed, white nightstands, a curved cream bench, cream marble floor with a soft cream rug, pleated cream curtains (like the place photo)"),
@@ -31,10 +31,11 @@ SHOE = ("THE SHOE must match the product sheet and every close-up exactly, lette
         "of black eyelets; a small BLACK woven tab with white VANS letters on the outer side; a vertical black heel stripe; a chunky "
         "smooth off-white rubber sidewall with a small WHITE 'OFF THE WALL' label at the back; a deep RED insole with a WHITE "
         "rectangle holding the red VANS logo; a gum-brown waffle sole. The toe box is the same checkerboard as the rest of the upper, "
-        "never a solid black toe or panel. True size: an adult women's sneaker about 25 cm long, exactly the length of her own foot. "
+        "never a solid black toe or panel: every black square is its own square with off-white canvas squares between, the sequins never merge into a solid black area at the toe, heel or sides. The sidewall is OFF-WHITE all the way round; gum brown shows ONLY on the bottom tread, never on the side. The laces are BLACK. True size: an adult women's sneaker about 25 cm long, exactly the length of her own foot. "
         "No other logos, no added marks, no extra text.")
-HAND = ("HER HAND exactly like the hand reference: medium brown skin, slim fingers, long soft pink nails with white French tips, "
-        "a silver ring stack, a gold ring with one clear trillion stone, a flat gold bracelet of rectangular links. {sleeve} at the "
+HAND = ("HER HAND is Grace's real hand, exactly like the hand reference: the same medium-deep brown skin tone, slim fingers, "
+        "medium-length pink nails with white French tips, a thin blue silicone RING on one finger (a ring, never a wristband: nothing blue on her wrist), a silver heart ring, a chunky gold "
+        "watch-style link bracelet and thin gold chain bracelets. Never lighter or darker skin than the reference. {sleeve} at the "
         "wrist. The hand enters from the frame edge, whole wrist visible, five fingers, and it GRIPS the shoe: thumb on one side, "
         "fingers curled round the other.")
 LIGHT = ("LIGHT: bright soft daylight, neutral white balance: the off-white squares stay off-white, no yellow, orange or golden cast, "
@@ -42,7 +43,7 @@ LIGHT = ("LIGHT: bright soft daylight, neutral white balance: the off-white squa
 END = ("The sequins look like real sequins in daylight, nothing more: no added sparkles, glints or light streaks. A real phone "
        "photo, casual and realistic. Vertical 9:16 photo. No text, no captions, no watermark anywhere.")
 WORN = ("She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced "
-        "shoes so her feet hide the insoles; these are the only two shoes in the scene.")
+        "shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest.")
 HOLD = ("Her LEFT foot wears the LEFT shoe, fully inside it; her RIGHT hand holds the RIGHT shoe of the pair, empty; these are the "
         "only two shoes in the scene.")
 PAIR = "The pair stands side by side, empty, laced; these are the only two shoes in the scene; no feet, no hands, no people."
@@ -147,16 +148,16 @@ def still(sid, place, beat, outfit, note):
     n += 1; refs.append(PLACE[place][0]); lines.append(f"Image {n} = the real place.")
     body = [f"VIEW AND FRAMING FIRST: {scene}", who, SHOE]
     if kind == "HAND": body.append(HAND.replace("{sleeve}", sleeve))
-    if who in (WORN, HOLD): body.append(f"HER LEGS: {legs}; her skin tone as in the skin reference.")
+    if who in (WORN, HOLD): body.append(f"HER LEGS: {legs}; GRACE'S SKIN on every ankle, foot and hand: the exact medium-deep brown tone of the skin reference, never lighter or darker; a thin gold anklet.")
     body += [f"PLACE: {PLACE[place][1]}, {note}.", LIGHT, END]
     toes = re.findall(r"(?:both )?toe(?: caps?)?s? pointing (?:to|at) [^,;.]+", scene)
     toe = ("Toe direction stays exactly as in the first frame: " + "; ".join(dict.fromkeys(toes)) + ". ") if toes else ""
     clip = (f"{motion}. Camera: {cam}. {toe}The shoe keeps exactly the look of the first frame the whole clip: checkerboard with "
             "sequins only on the black squares" + "".join(LOOK[k] for k in logos) + "; it never turns, flips or changes shape. "
-            + ("Her hand keeps the same grip the whole clip, five fingers, whole wrist. " if kind == "HAND" and "grip" in motion else "")
+            + ("Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. " if kind == "HAND" and "grip" in motion else "")
             + ("Her hand stays whole, five fingers, whole wrist. " if kind == "HAND" and "grip" not in motion else "")
             + ("The feet stay in the shoes; nothing slides. " if who == WORN else "")
-            + "Bright neutral daylight, realistic phone footage, 9:16. No sparkle effects, no text, no captions, no music, no voice.")
+            + ("Her skin stays the same medium-deep brown tone as the first frame. " if kind == "HAND" or who in (WORN, HOLD) else "") + "Bright neutral daylight, realistic phone footage, 9:16. No sparkle effects, no text, no captions, no music, no voice.")
     return {"kind": kind, "beat": beat, "place": place, "still": " ".join(lines + body), "still_refs": refs, "clip": clip}
 
 
