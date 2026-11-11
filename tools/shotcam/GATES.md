@@ -17,5 +17,5 @@ Scope: a web page that opens from a link on iPhone and Android, shows a job's sh
 - [ ] G3: iPhone test by Grace (Safari): one shot with the page camera and one with "Use phone camera", both reach Drive; I check size and quality
   EVIDENCE: pending
 
-- [ ] G4: Android test on Ralph's OnePlus (Chrome): same as G3
-  EVIDENCE: pending
+- [x] G4: Android test on Ralph's OnePlus (Chrome): same as G3
+  EVIDENCE: 2026-11-11 Ralph's OnePlus, Chrome. Page camera: 3 takes in Drive "Shot Cam test" at the phone's sizes (18.4/17.0/13.1 MB); S01 probed 1080x1920 H.264 28.8 fps 11.6 Mbit/s + AAC. Phone camera: 1 take, 20.8 MB, 1080x1920 (rotated), 29.6 fps, 17.5 Mbit/s. Frames looked at, sharp. Bug found and fixed: a single shared take was named after the list title with no .mp4 (share title removed, deployed 6af4bc50); fix not yet re-sent from the phone.

@@ -483,7 +483,7 @@ h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
     const files = takes.map(t => new File([t.blob], t.name, {type: t.type}));
     if (navigator.canShare && navigator.canShare({files})) {
       try {
-        await navigator.share({files, title: list.title});
+        await navigator.share({files});  // no title: Android Drive names a single shared file after the title (Ralph 2026-11-11)
         for (const t of takes) { t.sent = true; await putTake(t); }
         toast('Sent ' + takes.length + (takes.length > 1 ? ' takes' : ' take') + '.');
         if ((await allTakes()).every(t => t.sent)) { openDone(); return; }
