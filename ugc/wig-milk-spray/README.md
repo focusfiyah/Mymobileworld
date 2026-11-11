@@ -1,0 +1,9 @@
+# Wig Milk Spray: edit of Grace's own footage (2026-11-11)
+
+Status: V1 (HD) cut from Grace's original, on review, waiting on Ralph's OK before Drive. $0.
+- Request: Grace, Telegram group -5234107715, msg 430 (folders for 4 products, she uploads originals to edit). Captions sent to her in msg 448 (reply to 430); Ralph told in msg 449 + email 1a1cc1873dd9841d (PushNotification tool not found by ToolSearch this session).
+- Product folder https://drive.google.com/drive/folders/1fGDnU6rqdqRnBK2Mzd6Vr8s8Ib7oOCEb, Originals 1ny_ax6dy5qSDcLV_l_6K2jLT03ZSwiy5 (only WigMilkSpray2.mov, 492,463,448 bytes, 1080x1920 HEVC 30 fps, 9:16 min; no clip 1 as of 19:30 UTC).
+- Captions Doc: "Captions & SEO - Wig Milk Spray" 1aqdkuZaI7OqWLJmUebfwe1lOixQ-0DR2gakRlOYdd6c. Reference transcript doc 1Yk4wgQxb9FRJL0uZOsfcS6A2I-SG4qdFsWUlHnlLplI.
+- Review page https://claude.ai/code/artifact/4d155291-40ba-4010-b2ab-2a88a21dd8fc
+- Edit: `edit/cut.py` (6 shots, 16.3 s, silent, eq brightness 0.02 contrast 1.03); check `python3 edit/check.py wig 7 20` from edit/. Original download: Composio's s3url came back NoSuchKey for the 492 MB file; the anyone-with-link folder lets `curl -L "https://drive.usercontent.google.com/download?id=<id>&export=download&confirm=t"` pull it (size matched).
+- Next: Ralph's OK -> upload edit/out/wig_v1.mp4 as "CURRENT - Wig Milk Spray V1.mp4" to the product folder (Kie host + Composio GOOGLEDRIVE_UPLOAD_FROM_URL, size check), Telegram "✅ Wig Milk Spray V1 is done and in Drive: <link>" to Ralph + Grace. Media in Drive (media-in-drive record).
