@@ -12,7 +12,7 @@ Request: Grace, Telegram group -5234107715, msgs 409 (video, "edit this video ..
 - [x] G5: (manual) Telegram copy saved in "Telegram Assets (Azariah)" with a README index line, Drive size = local
 - [x] G6: (manual) Review page up (video full width); Ralph push + email; nothing in Drive before Ralph's OK
 - [ ] G7: (manual) HD cut from Grace's original after it lands; Ralph's OK; CURRENT - Calmi Ring V1.mp4 in folder (size = local); "✅ Calmi Magnetic Ring V1 (HD) is done and in Drive" sent
-- [ ] G8: (manual) Brain note updated, BRAIN_OK, media packed, job merged to main
+- [x] G8: (manual) Brain note updated, BRAIN_OK, media packed, job merged to main
 
 Evidence G1: CUT_OK calmi 15.00s (6 shots; 464x848 scaled to 1080 wide + cropped to 1920, not stretched).
 Evidence G2: whole 72 s at 1 fps, windows at 4 fps, cut at 6 fps (90 tiles) + 2x crop at each shot start: lid-off hook at 0.7 s, her jump cut at 33.2 s and blurry 15-17 s avoided, weak edge-of-frame shot (68 s) dropped; grade eq brightness 0.025 contrast 1.03; no text. Soft = Telegram compression (draft).
@@ -20,3 +20,4 @@ Evidence G3: CAPTIONS_OK; negative control with a dash -> FAIL dash.
 Evidence G4: Telegram msg 415 to Grace (reply to 410, pending wording); Doc 1Jfn7Cl9dUPnelVknQFQh2fAX2tp2Vtzf84JDke3oZWk in the product folder; proof/humanizer.md, proof/readability.txt (grade 3.0).
 Evidence G5: Drive 1cxXnO7WwAOruN7CWf4bMUs7lAgwRI-zg 15,026,608 bytes = local; index line appended (6,543 bytes).
 Evidence G6: review https://claude.ai/code/artifact/2e73cc5c-79f3-4b39-a3aa-cbd85f0c23f0; email 1a1c8a75fc775ca9; Telegram Ralph msg 416; PushNotification tool not found by ToolSearch this session (tested), so email + Telegram carried it. Nothing in Drive except the captions Doc and the Telegram asset.
+Evidence G8: vault 'Brain/Jobs/Calmi Magnetic Ring.md' + session log pushed, BRAIN_OK; media set1 in Drive (sha256 match, recorded); merged to main b3a923c.
