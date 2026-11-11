@@ -2,7 +2,7 @@
 import subprocess, sys, json, os
 SRC = os.environ.get("SRC", "orig/CosrxLipTintCare.mov")
 # tint going on lips (hook), label close-up, swatch on hand, glossy pout, kiss, points at her lips
-SEGS = [(17.5,20.0),(123.6,126.4),(142.0,144.5),(53.75,56.0),(63.0,65.5),(107.0,109.8)]
+SEGS = [(17.5,20.0),(123.6,126.4),(142.0,144.5),(53.75,56.0),(63.0,65.5),(107.0,109.4)]
 GRADE = os.environ.get("GRADE", "eq=brightness=0.02:contrast=1.03")
 def render(name="cosrx", preset="veryfast"):
     os.makedirs("out/segs",exist_ok=True); parts=[]
