@@ -1,0 +1,102 @@
+{
+ "unit": "ugc/galental-mirror",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-11",
+   "files": {
+    "ugc/galental-mirror/edit/orig/Mirror1.mov": [
+     79402529,
+     "327c09513cd0577147b8f2c3d94aa8e542384e72f67828914978b4a3f400af9f"
+    ],
+    "ugc/galental-mirror/edit/out/galental_v1.mp4": [
+     19208380,
+     "67b9899e57e312b62469a10dba146e4e05a213668c1afddcc00d5ae5a050b150"
+    ],
+    "ugc/galental-mirror/edit/out/galental_v2.mp4": [
+     43521165,
+     "26f80e6945383a8a8397e2d48d27520c281b73159d842d7d49692d459cf3690c"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_0.mp4": [
+     3364999,
+     "2ef494a19b9efc2540f6e7425223e12dbc07a3741ac41f8bb2ddfdd7465919ad"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_1.mp4": [
+     3496450,
+     "56afe798c9252185104a9b27fadd29d643044b967cb508471992f62e5c58d64f"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_10.mp4": [
+     3522708,
+     "c446b21a04f8017147ec08d04d7ef7cd4235a52a59338dc0906cb652f9642b60"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_2.mp4": [
+     8085731,
+     "2759ac4b715dd74ed904c8776463b9ae56af24d9a5ed1191937d3dc5eaecab53"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_3.mp4": [
+     3227205,
+     "b4bc758f70d94e1a7bab9c07646537500baa39246de20fc752b3eea6c26c97ca"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_4.mp4": [
+     3556356,
+     "3bbdeb6782fec02b85ac0016411f758208df14f7798c481b16d0b9dea1744d5c"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_5.mp4": [
+     3954364,
+     "4cfe1089b5493d1e7d30cb7cc958e047356e7d7e13fdc55a635dbd072e490996"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_6.mp4": [
+     3395627,
+     "139449be6ab8772efbe5f8626aa2044c7d7a035e710ba8302687d4808e01060a"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_7.mp4": [
+     5434518,
+     "18a796de0e55709e2adf7a9788770df17a94f08fae5f25bb7fea27f3386955a7"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_8.mp4": [
+     1896289,
+     "c27a91e8d456b0a23414d2530e119c2a6750bab5da70f85a3797fa0c45dd61bd"
+    ],
+    "ugc/galental-mirror/edit/out/parts/galental_9.mp4": [
+     3595312,
+     "e2eeace85159485754e46de55b48dd3e0ad486070c7896c08d4c49eee8601f8f"
+    ],
+    "ugc/galental-mirror/edit/review_v1.mp4": [
+     2508230,
+     "88bf3349a0470bcb7bb09bf4b7807ac63e8fd09f40a58a8701c8495d8fadaeda"
+    ],
+    "ugc/galental-mirror/edit/review_v2.mp4": [
+     5612092,
+     "3405db6e495270c9e3129060d139a476d4abce91c0a74339dd517f03d5f07a98"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__galental-mirror.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "f39556321be5e428c0d83062d9e4904f5ab4177be1f2b5da3bdf55308dd920b3",
+     "hosted": "2026-11-11",
+     "drive_id": "1J9JaJQZT7GUROOYMDKc7HBp4IqMwAKvJ",
+     "drive_folder": "1ZKAkQycZjiYMdieQzv4kdu0chqJ3sNXj"
+    },
+    {
+     "name": "ugc__galental-mirror.set1.part02.tar",
+     "size": 95000000,
+     "sha256": "7e9f46064feb92766a3912099e61e7b3ce9119f60c001983388b68a4a55f4ff9",
+     "hosted": "2026-11-11",
+     "drive_id": "1G_E29AMX8ADo9FMoMfMUlL2zwGYgRrZI",
+     "drive_folder": "1ZKAkQycZjiYMdieQzv4kdu0chqJ3sNXj"
+    },
+    {
+     "name": "ugc__galental-mirror.set1.part03.tar",
+     "size": 3802240,
+     "sha256": "ddbf02587ddd92b4e62e255789c315fc960d5e6e7dc4f900b12b74e30c17bca5",
+     "hosted": "2026-11-11",
+     "drive_id": "1GpgwRfdPzYt2ZkpW_8_wHIS2q1G5r8fJ",
+     "drive_folder": "1ZKAkQycZjiYMdieQzv4kdu0chqJ3sNXj"
+    }
+   ]
+  }
+ ]
+}

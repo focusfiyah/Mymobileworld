@@ -1,6 +1,7 @@
 # GALENTAL Iceberg Vanity Mirror: edit of Grace's own footage (2026-11-11)
 
-Status: V1 (15.8 s) + V2 (36.5 s, 11 shots timed to Grace's own script, Telegram msg 438, `V=2 python3 cut.py galental`) on the review page; WAITING on Ralph: which cut, VO source (her original has no voice), word-for-word OK for her script (checklist overrides entry). Then Drive. Captions Doc in the folder, sent to Grace. $0.
+Status: DONE 2026-11-11. Ralph tapped V2, "Grace records it", "Yes, word for word". CURRENT - GALENTAL Mirror V1.mp4 = V2 cut (36.5 s, silent, timed to her script msg 438), Drive 13xqGy8n2bhTEKWPjCd7Gn_GSEibCGQ2E 43,521,165 bytes = local. ✅ sent: Ralph 459, Grace 460. $0.
+- Override (per video, 2026-11-11, Ralph tapped "Yes, word for word"): Grace's own script used verbatim as her VO guide; flagged "this mirror does both" (3 things) and makeup line shows her face (no makeup footage). Nothing else weakened.
 - Request: Grace, Telegram group -5234107715, msg 430 (folders for 4 products, originals to edit). Captions sent as msg 439 (reply to 430). Ralph pinged: Telegram 440, email 1a1cc1395be787ad.
 - Original: Originals "Mirror1.mov" 1i3778nzWGtD0DHopyZQJI-ELYptnfAKa (79,402,529 bytes = local, 1080x1920 HEVC 59.94, 89 s). Only file in Originals at 19:22 UTC.
 - Product folder https://drive.google.com/drive/folders/1nIWywfe4uiCTd9jZkG4IV7YGW_6GKxjp, Originals https://drive.google.com/drive/folders/1EgyGSWZAt3c-lgz9VoQRL8baTEQwfG6r
