@@ -1,6 +1,6 @@
 # Calmi Magnetic Ring: edit of Grace's own footage (2026-11-11)
 
-Status: DRAFT V1 (15.0 s, from the Telegram copy) on review https://claude.ai/code/artifact/2e73cc5c-79f3-4b39-a3aa-cbd85f0c23f0, waiting on Ralph's OK and Grace's original in Originals. $0. Captions/hooks/SEO sent to Grace (Telegram 415) + Doc "CURRENT - Calmi Ring Captions & SEO" in the folder.
+Status: V1 (HD) cut from Grace's original (export_1794353200022.mov, 64,819,974 bytes = Drive) on review https://claude.ai/artifact/6jhMJoytt5UdKiadiSgZRy, waiting on Ralph's OK before Drive. $0. Captions/hooks/SEO sent to Grace (Telegram 415) + Doc "CURRENT - Calmi Ring Captions & SEO". Draft from the Telegram copy kept on the page below the HD cut.
 - Request: Grace, Telegram group -5234107715, msgs 409 (video) + 410 (Drive + captions). Updates 786406621-622 claimed by this session.
 - Product folder https://drive.google.com/drive/folders/15pPvJub7AsVwEGS31R0TUnlTMnbUP8Vg, Originals https://drive.google.com/drive/folders/1Q9Qrdk-uAS16Fn7rDZD-GjscIm9hZZ3n
 - Telegram copy in "Telegram Assets (Azariah)" as "2026-11-11 video-786406621.mp4" (indexed).
