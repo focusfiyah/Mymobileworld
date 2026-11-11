@@ -1,0 +1,11 @@
+{
+  "title": "Shot Cam test (5 minutes)",
+  "slug": "shotcam-test",
+  "note": "A quick test of the app",
+  "folder": "Shot Cam test",
+  "shots": [
+    {"n": 1, "direction": "Film any object on a table with the red button. Slowly move the phone closer.", "line": "", "frame": "close", "hand": false, "seconds": 5},
+    {"n": 2, "direction": "Same object, but use the Phone camera button this time. Slowly move closer.", "line": "", "frame": "close", "hand": false, "seconds": 5},
+    {"n": 3, "direction": "Flip to the front camera and say the line to the camera.", "line": "This is my Shot Cam test, and it's working.", "frame": "medium", "hand": false, "seconds": 4}
+  ]
+}

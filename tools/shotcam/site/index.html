@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Shot Cam</title>
+<meta name="theme-color" content="#101318">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Shot Cam">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.json">
+<style>
+:root{
+  --bg:#101318; --panel:#1a1f27; --panel2:#232a34; --fg:#eef1f5; --muted:#9ba5b4; --line:#2e3642;
+  --rec:#ff3b55; --ok:#3ccf8e; --accent:#ffb547;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.45 var(--font);overflow-x:hidden}
+button{font:inherit;color:inherit;border:0;cursor:pointer}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* ---------- list view ---------- */
+#listView{min-height:100%;padding:calc(env(safe-area-inset-top,0px) + 18px) max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 110px) max(16px,env(safe-area-inset-left,0px))}
+.brand{font:600 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:24px;line-height:1.2;margin:4px 0 6px}
+.sub{color:var(--muted);font-size:14px}
+.progress{height:6px;background:var(--panel2);border-radius:3px;margin:14px 0 18px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
+.shots{display:flex;flex-direction:column;gap:10px}
+.shot{display:grid;grid-template-columns:44px 1fr auto;gap:12px;align-items:center;background:var(--panel);border-radius:12px;padding:12px;text-align:left;width:100%}
+.num{width:44px;height:44px;border-radius:10px;background:var(--panel2);display:grid;place-items:center;font:700 16px var(--mono)}
+.shot.done .num{background:var(--ok);color:#06210f}
+.shot .txt{min-width:0}
+.shot .dir{font-weight:600;font-size:15px}
+.shot .line{color:var(--muted);font-size:14px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.tags{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.tag{font:600 11px var(--mono);letter-spacing:.05em;text-transform:uppercase;padding:2px 6px;border-radius:5px;background:var(--panel2);color:var(--muted)}
+.count{font:600 13px var(--mono);color:var(--muted);text-align:right;white-space:nowrap}
+.shot.done .count{color:var(--ok)}
+.bottombar{position:fixed;left:0;right:0;bottom:0;padding:12px max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 12px) max(16px,env(safe-area-inset-left,0px));background:linear-gradient(transparent,var(--bg) 30%);display:flex;gap:10px}
+.btn{flex:1;padding:15px 12px;border-radius:12px;background:var(--panel2);font-weight:700;font-size:16px}
+.btn.primary{background:var(--accent);color:#2a1a00}
+.btn:disabled{opacity:.4}
+.help{margin-top:22px;background:var(--panel);border-radius:12px;padding:14px;color:var(--muted);font-size:14px}
+.help b{color:var(--fg)}
+
+/* ---------- camera view ---------- */
+#camView{position:fixed;inset:0;background:#000;overflow:hidden}
+#preview{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#preview.mirror{transform:scaleX(-1)}
+.guide{position:absolute;inset:0;pointer-events:none;background:
+  linear-gradient(to right,transparent calc(33.33% - .5px),rgba(255,255,255,.22) calc(33.33% - .5px),rgba(255,255,255,.22) calc(33.33% + .5px),transparent calc(33.33% + .5px),transparent calc(66.66% - .5px),rgba(255,255,255,.22) calc(66.66% - .5px),rgba(255,255,255,.22) calc(66.66% + .5px),transparent calc(66.66% + .5px)),
+  linear-gradient(to bottom,transparent calc(33.33% - .5px),rgba(255,255,255,.22) calc(33.33% - .5px),rgba(255,255,255,.22) calc(33.33% + .5px),transparent calc(33.33% + .5px),transparent calc(66.66% - .5px),rgba(255,255,255,.22) calc(66.66% - .5px),rgba(255,255,255,.22) calc(66.66% + .5px),transparent calc(66.66% + .5px))}
+.card{position:absolute;left:max(12px,env(safe-area-inset-left,0px));right:max(12px,env(safe-area-inset-right,0px));top:calc(env(safe-area-inset-top,0px) + 12px);background:rgba(16,19,24,.78);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.card .k{font:600 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);display:flex;justify-content:space-between;gap:8px}
+.card .d{font-weight:700;font-size:17px;line-height:1.3}
+.card .l{font-size:15px;color:#d6dbe3;font-style:italic}
+.card.small .l{display:none}
+.topbtns{display:flex;gap:8px;margin-top:6px}
+.chip{background:rgba(255,255,255,.12);padding:6px 10px;border-radius:999px;font-size:13px;font-weight:600}
+.countdown{position:absolute;inset:0;display:grid;place-items:center;font:800 140px/1 var(--font);color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.6);pointer-events:none}
+.timer{position:absolute;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 128px);background:var(--rec);color:#fff;font:700 15px var(--mono);padding:4px 10px;border-radius:6px;font-variant-numeric:tabular-nums}
+.controls{position:absolute;left:0;right:0;bottom:0;padding:16px max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 22px) max(16px,env(safe-area-inset-left,0px));display:grid;grid-template-columns:1fr auto 1fr;align-items:center;background:linear-gradient(transparent,rgba(0,0,0,.55))}
+.side{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:12px;font-weight:600;background:none;padding:6px}
+.side .ic{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;font-size:20px}
+#recBtn{width:82px;height:82px;border-radius:50%;border:5px solid #fff;background:transparent;display:grid;place-items:center;padding:0}
+#recBtn i{display:block;width:62px;height:62px;border-radius:50%;background:var(--rec);transition:all .2s}
+#recBtn.on i{width:30px;height:30px;border-radius:6px}
+.camerr{position:absolute;left:16px;right:16px;top:45%;background:rgba(16,19,24,.9);border-radius:14px;padding:16px;text-align:center}
+
+/* ---------- review ---------- */
+#reviewView{position:fixed;inset:0;background:#000;display:flex;flex-direction:column}
+#reviewVid{flex:1;min-height:0;width:100%;object-fit:contain;background:#000}
+.reviewbar{padding:14px max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 16px) max(16px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:10px;background:var(--bg)}
+.reviewbar .meta{font:600 12px var(--mono);color:var(--muted);text-align:center}
+.row{display:flex;gap:10px}
+
+/* ---------- send sheet ---------- */
+#sendView{position:fixed;inset:0;background:var(--bg);overflow:auto;padding:calc(env(safe-area-inset-top,0px) + 18px) max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 24px) max(16px,env(safe-area-inset-left,0px))}
+.takes{display:flex;flex-direction:column;gap:8px;margin:14px 0}
+.take{display:flex;gap:10px;align-items:center;background:var(--panel);border-radius:10px;padding:10px 12px}
+.take .n{flex:1;min-width:0;font:600 14px var(--mono);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.take .s{font:12px var(--mono);color:var(--muted)}
+.take button,.take a{background:var(--panel2);padding:8px 10px;border-radius:8px;font-size:13px;font-weight:700;color:var(--fg);text-decoration:none}
+.take.sent .n{color:var(--ok)}
+.steps{background:var(--panel);border-radius:12px;padding:14px 14px 14px 34px;margin:0;color:var(--muted);font-size:14px;display:flex;flex-direction:column;gap:4px}
+.steps b{color:var(--fg)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 96px);background:var(--panel2);padding:10px 14px;border-radius:10px;font-weight:600;font-size:14px;z-index:9;max-width:90vw;text-align:center}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<section id="listView">
+  <div class="brand">Shot Cam</div>
+  <h1 id="title">Loading shot list…</h1>
+  <div class="sub" id="sub"></div>
+  <div class="progress"><i id="bar"></i></div>
+  <div class="shots" id="shots"></div>
+  <div class="help" id="help">
+    <b>How it works.</b> Tap a shot, read the card, press the red button. It counts 3-2-1 and records. Tap again to stop. Keep it or retake it. Film the shots in any order. When you're done, tap <b>Send to Drive</b>.
+    <br><br>Want the phone's own camera quality? Use <b>Phone camera</b> on the filming screen.
+  </div>
+  <div class="bottombar">
+    <button class="btn primary" id="sendBtn" disabled>Send to Drive</button>
+  </div>
+</section>
+
+<section id="camView" hidden>
+  <video id="preview" playsinline muted autoplay></video>
+  <div class="guide"></div>
+  <div class="card" id="card">
+    <div class="k"><span id="cardK">Shot 1 of 1</span><span id="cardTag"></span></div>
+    <div class="d" id="cardD"></div>
+    <div class="l" id="cardL"></div>
+    <div class="topbtns">
+      <button class="chip" id="prevBtn">◀ Prev</button>
+      <button class="chip" id="nextBtn">Next ▶</button>
+      <button class="chip" id="lineBtn">Hide line</button>
+    </div>
+  </div>
+  <div class="countdown" id="countdown" hidden></div>
+  <div class="timer" id="timer" hidden>0:00</div>
+  <div class="camerr" id="camErr" hidden></div>
+  <div class="controls">
+    <button class="side" id="backBtn"><span class="ic">✕</span>Shots</button>
+    <button id="recBtn" aria-label="Record"><i></i></button>
+    <div style="display:flex;justify-content:center;gap:4px">
+      <button class="side" id="flipBtn"><span class="ic">⟲</span>Flip</button>
+      <button class="side" id="nativeBtn"><span class="ic">📷</span>Phone<br>camera</button>
+    </div>
+  </div>
+  <input type="file" id="nativeInput" accept="video/*" capture="environment" hidden>
+</section>
+
+<section id="reviewView" hidden>
+  <video id="reviewVid" playsinline controls></video>
+  <div class="reviewbar">
+    <div class="meta" id="reviewMeta"></div>
+    <div class="row">
+      <button class="btn" id="retakeBtn">Delete &amp; retake</button>
+      <button class="btn primary" id="keepBtn">Keep take</button>
+    </div>
+  </div>
+</section>
+
+<section id="sendView" hidden>
+  <div class="brand">Shot Cam</div>
+  <h1>Send to Drive</h1>
+  <ol class="steps">
+    <li>Tap <b>Send all</b> (or one take at a time if the phone says the files are too big).</li>
+    <li>In the share menu pick <b>Drive</b>.</li>
+    <li>Choose the folder <b id="folderName">Originals</b> and tap Upload.</li>
+  </ol>
+  <div class="takes" id="takes"></div>
+  <div class="row">
+    <button class="btn" id="closeSend">Back</button>
+    <button class="btn primary" id="shareAll">Send all</button>
+  </div>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const listId = (params.get('list') || 'sample').replace(/[^a-z0-9_-]/gi, '');
+  let list = null, idx = 0, stream = null, rec = null, chunks = [], recStart = 0, tick = null;
+  let facing = 'environment', pending = null, wake = null, showLine = true, busy = false;
+
+  // ---------- storage (IndexedDB; takes survive closing the page) ----------
+  const dbp = new Promise((res, rej) => {
+    const r = indexedDB.open('shotcam', 1);
+    r.onupgradeneeded = () => { const s = r.result.createObjectStore('takes', {keyPath: 'id'}); s.createIndex('list', 'list'); };
+    r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error);
+  });
+  async function tx(mode, fn) {
+    const db = await dbp;
+    return new Promise((res, rej) => {
+      const t = db.transaction('takes', mode); const s = t.objectStore('takes');
+      const out = fn(s); t.oncomplete = () => res(out && out.result !== undefined ? out.result : out); t.onerror = () => rej(t.error);
+    });
+  }
+  const allTakes = () => tx('readonly', s => s.index('list').getAll(listId));
+  const putTake = t => tx('readwrite', s => s.put(t));
+  const delTake = id => tx('readwrite', s => s.delete(id));
+
+  function toast(msg, ms = 2600) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, ms); }
+  const show = v => ['listView', 'camView', 'reviewView', 'sendView'].forEach(x => $(x).hidden = x !== v);
+  const pad = n => String(n).padStart(2, '0');
+  const slug = () => (list.slug || listId).replace(/[^a-z0-9_-]/gi, '-');
+  const fmtSize = b => b > 1e6 ? (b / 1e6).toFixed(1) + ' MB' : Math.round(b / 1e3) + ' KB';
+
+  // ---------- shot list ----------
+  async function loadList() {
+    try {
+      const r = await fetch('lists/' + listId + '.json', {cache: 'no-store'});
+      if (!r.ok) throw new Error(r.status);
+      list = await r.json();
+    } catch (e) {
+      $('title').textContent = 'Shot list not found';
+      $('sub').textContent = 'Check the link you were sent (list "' + listId + '").';
+      return;
+    }
+    document.title = 'Shot Cam · ' + list.title;
+    $('title').textContent = list.title;
+    $('sub').textContent = list.note || '';
+    $('folderName').textContent = list.folder || 'Originals';
+    renderList();
+  }
+
+  async function renderList() {
+    const takes = await allTakes();
+    const by = {}; takes.forEach(t => (by[t.n] = by[t.n] || []).push(t));
+    const box = $('shots'); box.textContent = '';
+    let done = 0;
+    list.shots.forEach((s, i) => {
+      const n = (by[s.n] || []).length; if (n) done++;
+      const b = document.createElement('button'); b.className = 'shot' + (n ? ' done' : ''); b.dataset.n = s.n;
+      const num = document.createElement('div'); num.className = 'num'; num.textContent = n ? '✓' : s.n;
+      const tx_ = document.createElement('div'); tx_.className = 'txt';
+      const d = document.createElement('div'); d.className = 'dir'; d.textContent = s.direction;
+      const l = document.createElement('div'); l.className = 'line'; l.textContent = s.line ? '“' + s.line + '”' : '';
+      const tags = document.createElement('div'); tags.className = 'tags';
+      [s.frame, s.hand === true ? 'hand' : s.hand === false ? 'no hand' : null, s.seconds ? s.seconds + ' s' : null].filter(Boolean)
+        .forEach(x => { const t = document.createElement('span'); t.className = 'tag'; t.textContent = x; tags.append(t); });
+      tx_.append(d, l, tags);
+      const c = document.createElement('div'); c.className = 'count'; c.textContent = n ? n + (n > 1 ? ' takes' : ' take') : 'Shot ' + s.n;
+      b.append(num, tx_, c); b.onclick = () => openCam(i);
+      box.append(b);
+    });
+    $('bar').style.width = (100 * done / list.shots.length) + '%';
+    $('sub').textContent = (list.note ? list.note + ' · ' : '') + done + ' of ' + list.shots.length + ' shots filmed';
+    const unsent = takes.filter(t => !t.sent).length;
+    $('sendBtn').disabled = !takes.length;
+    $('sendBtn').textContent = takes.length ? 'Send to Drive (' + (unsent || takes.length) + ')' : 'Send to Drive';
+  }
+
+  // ---------- camera ----------
+  function setCard() {
+    const s = list.shots[idx];
+    $('cardK').textContent = 'Shot ' + s.n + ' of ' + list.shots.length;
+    $('cardTag').textContent = [s.frame, s.hand === true ? 'hand' : s.hand === false ? 'no hand' : ''].filter(Boolean).join(' · ');
+    $('cardD').textContent = s.direction;
+    $('cardL').textContent = s.line ? '“' + s.line + '”' : '';
+    $('card').classList.toggle('small', !showLine);
+    $('lineBtn').textContent = showLine ? 'Hide line' : 'Show line';
+    $('prevBtn').disabled = idx === 0; $('nextBtn').disabled = idx === list.shots.length - 1;
+  }
+
+  async function startStream() {
+    stopStream();
+    $('camErr').hidden = true;
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { camError('This browser can’t open the camera here. Use the Phone camera button.'); return; }
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({
+        video: {facingMode: {ideal: facing}, width: {ideal: 1920}, height: {ideal: 1080}, frameRate: {ideal: 30}},
+        audio: {echoCancellation: false, noiseSuppression: true}
+      });
+      const v = $('preview'); v.srcObject = stream; v.classList.toggle('mirror', facing === 'user');
+      await v.play().catch(() => {});
+    } catch (e) {
+      camError(e && e.name === 'NotAllowedError'
+        ? 'Camera blocked. Allow camera and microphone for this site in your browser settings, then reopen the page. Or use the Phone camera button.'
+        : 'Camera didn’t start (' + (e && e.name || 'error') + '). Use the Phone camera button.');
+    }
+  }
+  function camError(msg) { const el = $('camErr'); el.textContent = msg; el.hidden = false; }
+  function stopStream() { if (stream) { stream.getTracks().forEach(t => t.stop()); stream = null; } }
+
+  async function openCam(i) {
+    idx = i; setCard(); show('camView');
+    try { wake = await navigator.wakeLock.request('screen'); } catch (e) {}
+    await startStream();
+  }
+  function closeCam() {
+    if (rec && rec.state === 'recording') return;
+    stopStream(); try { wake && wake.release(); } catch (e) {} wake = null;
+    show('listView'); renderList();
+  }
+
+  function pickType() {
+    const types = ['video/mp4;codecs=avc1.640028,mp4a.40.2', 'video/mp4;codecs=avc1,mp4a', 'video/mp4', 'video/webm;codecs=vp9,opus', 'video/webm;codecs=vp8,opus', 'video/webm'];
+    if (!window.MediaRecorder) return null;
+    for (const t of types) { try { if (MediaRecorder.isTypeSupported(t)) return t; } catch (e) {} }
+    return '';
+  }
+
+  let actx = null;
+  function beep(f, d) {
+    try {
+      actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.frequency.value = f; g.gain.value = .08; o.connect(g); g.connect(actx.destination);
+      o.start(); o.stop(actx.currentTime + d);
+    } catch (e) {}
+  }
+
+  async function countdown() {
+    const c = $('countdown'); c.hidden = false;
+    for (const n of [3, 2, 1]) { c.textContent = n; beep(880, .08); await new Promise(r => setTimeout(r, 1000)); }
+    c.hidden = true; beep(1320, .15);
+  }
+
+  async function recToggle() {
+    if (busy) return;
+    if (rec && rec.state === 'recording') { rec.stop(); return; }
+    if (!stream) { toast('Camera is off. Use Phone camera.'); return; }
+    const type = pickType();
+    if (type === null) { toast('This browser can’t record here. Use Phone camera.'); return; }
+    busy = true; actx = actx || new (window.AudioContext || window.webkitAudioContext)();
+    await countdown();
+    chunks = [];
+    try { rec = new MediaRecorder(stream, Object.assign({videoBitsPerSecond: 12000000, audioBitsPerSecond: 160000}, type ? {mimeType: type} : {})); }
+    catch (e) { rec = new MediaRecorder(stream); }
+    rec.ondataavailable = e => { if (e.data && e.data.size) chunks.push(e.data); };
+    rec.onstop = () => {
+      clearInterval(tick); $('timer').hidden = true; $('recBtn').classList.remove('on');
+      const mt = (rec.mimeType || type || 'video/mp4').split(';')[0];
+      const blob = new Blob(chunks, {type: mt});
+      const vt = stream && stream.getVideoTracks()[0]; const st = vt ? vt.getSettings() : {};
+      review(blob, 'page', (Date.now() - recStart) / 1000, st.width && st.height ? st.width + 'x' + st.height : '');
+    };
+    rec.start(1000); recStart = Date.now(); busy = false;
+    $('recBtn').classList.add('on'); $('timer').hidden = false; $('timer').textContent = '0:00';
+    tick = setInterval(() => { const s = Math.floor((Date.now() - recStart) / 1000); $('timer').textContent = Math.floor(s / 60) + ':' + pad(s % 60); }, 250);
+  }
+
+  function review(blob, source, secs, res) {
+    pending = {blob, source, secs, res};
+    const v = $('reviewVid'); if (v.src) URL.revokeObjectURL(v.src);
+    v.src = URL.createObjectURL(blob);
+    const s = list.shots[idx];
+    $('reviewMeta').textContent = 'Shot ' + s.n + ' · ' + (secs ? secs.toFixed(1) + ' s · ' : '') + (res ? res + ' · ' : '') + fmtSize(blob.size) + ' · ' + (source === 'phone' ? 'phone camera' : 'page camera');
+    stopStream(); show('reviewView'); v.play().catch(() => {});
+  }
+
+  async function keep() {
+    const s = list.shots[idx];
+    const takes = (await allTakes()).filter(t => t.n === s.n);
+    const k = takes.reduce((m, t) => Math.max(m, t.take), 0) + 1;
+    const type = pending.blob.type || 'video/mp4';
+    const ext = /webm/.test(type) ? 'webm' : /quicktime/.test(type) ? 'mov' : 'mp4';
+    const name = slug() + ' S' + pad(s.n) + ' take' + k + (pending.source === 'phone' ? ' phone' : '') + '.' + ext;
+    await putTake({id: listId + ':' + s.n + ':' + k + ':' + Date.now(), list: listId, n: s.n, take: k, name, type, blob: pending.blob, size: pending.blob.size, source: pending.source, res: pending.res, ts: Date.now(), sent: false});
+    pending = null; $('reviewVid').removeAttribute('src');
+    toast('Saved: ' + name);
+    const next = list.shots.findIndex((x, i) => i > idx);
+    show('camView');
+    if (next > -1) { idx = next; setCard(); }
+    await startStream();
+  }
+  function retake() { pending = null; $('reviewVid').removeAttribute('src'); show('camView'); startStream(); }
+
+  // ---------- send ----------
+  async function openSend() {
+    const takes = (await allTakes()).sort((a, b) => a.n - b.n || a.take - b.take);
+    const box = $('takes'); box.textContent = '';
+    takes.forEach(t => {
+      const row = document.createElement('div'); row.className = 'take' + (t.sent ? ' sent' : '');
+      const n = document.createElement('div'); n.className = 'n'; n.textContent = (t.sent ? '✓ ' : '') + t.name;
+      const sz = document.createElement('div'); sz.className = 's'; sz.textContent = fmtSize(t.size);
+      const one = document.createElement('button'); one.textContent = 'Send'; one.onclick = () => share([t]);
+      const del = document.createElement('button'); del.textContent = 'Delete';
+      del.onclick = async () => { if (del.dataset.sure) { await delTake(t.id); openSend(); } else { del.dataset.sure = 1; del.textContent = 'Sure?'; } };
+      row.append(n, sz, one, del); box.append(row);
+    });
+    show('sendView');
+  }
+
+  async function share(takes) {
+    if (!takes.length) return;
+    const files = takes.map(t => new File([t.blob], t.name, {type: t.type}));
+    if (navigator.canShare && navigator.canShare({files})) {
+      try {
+        await navigator.share({files, title: list.title});
+        for (const t of takes) { t.sent = true; await putTake(t); }
+        toast('Sent ' + takes.length + (takes.length > 1 ? ' takes' : ' take') + '. Check Drive.');
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;
+        toast(takes.length > 1 ? 'Too big to send together. Send them one at a time.' : 'Couldn’t share: ' + (e && e.name || 'error'), 4000);
+      }
+      openSend(); return;
+    }
+    // No share menu (e.g. a computer): save the files instead.
+    takes.forEach(t => { const a = document.createElement('a'); a.href = URL.createObjectURL(t.blob); a.download = t.name; document.body.append(a); a.click(); a.remove(); });
+    toast('Saved to Downloads. Upload them to Drive from there.', 4000);
+  }
+
+  // ---------- wiring ----------
+  $('recBtn').onclick = recToggle;
+  $('backBtn').onclick = closeCam;
+  $('flipBtn').onclick = () => { if (rec && rec.state === 'recording') return; facing = facing === 'environment' ? 'user' : 'environment'; $('nativeInput').setAttribute('capture', facing); startStream(); };
+  $('prevBtn').onclick = () => { if (idx > 0) { idx--; setCard(); } };
+  $('nextBtn').onclick = () => { if (idx < list.shots.length - 1) { idx++; setCard(); } };
+  $('lineBtn').onclick = () => { showLine = !showLine; setCard(); };
+  $('nativeBtn').onclick = () => { if (rec && rec.state === 'recording') return; stopStream(); $('nativeInput').click(); };
+  $('nativeInput').onchange = e => {
+    const f = e.target.files && e.target.files[0]; e.target.value = '';
+    if (!f) { startStream(); return; }
+    const v = document.createElement('video'); v.preload = 'metadata'; v.src = URL.createObjectURL(f);
+    v.onloadedmetadata = () => { review(f, 'phone', v.duration, v.videoWidth ? v.videoWidth + 'x' + v.videoHeight : ''); URL.revokeObjectURL(v.src); };
+    v.onerror = () => review(f, 'phone', 0, '');
+  };
+  $('keepBtn').onclick = keep;
+  $('retakeBtn').onclick = retake;
+  $('sendBtn').onclick = openSend;
+  $('closeSend').onclick = () => { show('listView'); renderList(); };
+  $('shareAll').onclick = async () => { const t = (await allTakes()).filter(x => !x.sent); share(t.length ? t : await allTakes()); };
+  document.addEventListener('visibilitychange', () => { if (!document.hidden && !$('camView').hidden && !stream) startStream(); });
+
+  window.__shotcam = {state: () => ({list, idx, recording: !!(rec && rec.state === 'recording')}), allTakes};
+  loadList();
+})();
+</script>
+</body>
+</html>

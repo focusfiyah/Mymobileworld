@@ -1,0 +1,121 @@
+<title>Shot Cam Plan</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one reading column, viewfinder-style shot cards for the features */
+:root{
+  --bg:#f6f7f9; --panel:#ffffff; --fg:#1b1f27; --muted:#5b6474; --line:#dde1e8;
+  --accent:#d0365a; --ok:#1f8a5b; --warn:#b26a00;
+  --display:"Manrope",system-ui,sans-serif; --body:"Source Sans 3",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12151b;--panel:#1a1e26;--fg:#e8ebf0;--muted:#9aa3b2;--line:#2c323d;--accent:#ff6f8f;--ok:#4cc38a;--warn:#e7a43a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12151b;--panel:#1a1e26;--fg:#e8ebf0;--muted:#9aa3b2;--line:#2c323d;--accent:#ff6f8f;--ok:#4cc38a;--warn:#e7a43a;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:680px;margin:0 auto;padding-block:28px 60px;display:flex;flex-direction:column;gap:30px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:30px;font-weight:800;line-height:1.15}
+h2{font-size:21px;font-weight:800}
+p,ul,ol{margin:0}
+section{display:flex;flex-direction:column;gap:12px}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.muted{color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:8px}
+.stats span{font:500 13px var(--mono);border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-variant-numeric:tabular-nums}
+.shot{position:relative;background:var(--panel);padding:16px 18px;border-radius:4px}
+.shot::before,.shot::after{content:"";position:absolute;width:14px;height:14px;border-color:var(--accent);border-style:solid}
+.shot::before{top:0;left:0;border-width:2px 0 0 2px}
+.shot::after{bottom:0;right:0;border-width:0 2px 2px 0}
+.shot b{display:block;font-family:var(--display);font-size:16px;margin-bottom:2px}
+.shot q{font-style:italic;color:var(--muted)}
+.grid{display:grid;gap:10px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+.tw{overflow-x:auto}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.have{color:var(--ok);font-weight:600}.gap{color:var(--warn);font-weight:600}
+.part{border-left:3px solid var(--accent);padding:2px 0 2px 14px;display:flex;flex-direction:column;gap:6px}
+.part h3{font-family:var(--display);font-size:17px;margin:0}
+ul,ol{padding-left:20px;display:flex;flex-direction:column;gap:4px}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+</style>
+<main>
+<header style="display:flex;flex-direction:column;gap:10px">
+  <div class="eyebrow">Inspiration breakdown · 2026-11-11</div>
+  <h1>A camera that tells you what to film, and a studio that cuts it</h1>
+  <p class="muted">The TikTok you sent is Brooke Hall (@brookeashleyhall, 15M followers) showing "IRIS", an AI filming partner she and her husband built. It is also a funnel: "comment dream" for her free class today.</p>
+  <div class="stats"><span>62 s</span><span>52,500 views in 9 h</span><span>12% engagement</span><span>450 saves</span></div>
+</header>
+
+<section>
+  <h2>What her app does (from the frames)</h2>
+  <div class="grid">
+    <div class="shot"><b>1. Shot-list camera</b>The phone screen shows the next shot: <q>Shot 6 of 26 · You walking down the stairs, filmed from the bottom, start already moving</q>. 3-2-1 countdown, then it records. Shots can be filmed in any order.</div>
+    <div class="shot"><b>2. Auto first cut</b>Clips go to a desktop "studio". It shows <q>Listening to your clips · Finding the story · Cutting it together</q> and makes a first cut.</div>
+    <div class="shot"><b>3. Edit by asking</b>It connects to Claude. She types <q>Take out the button press at the very start</q> and the cut comes back marked Revised.</div>
+    <div class="shot"><b>4. Camera roll to story</b>Give it a pile of party or trip clips; it picks the best moments and builds a story.</div>
+    <div class="shot"><b>5. Learns your style</b><q>6 videos together · Pauses: tight · Music under your voice: noticeable · saved from your own edit</q>.</div>
+  </div>
+</section>
+
+<section>
+  <h2>What we already have</h2>
+  <p>Most of the studio side exists already in our sessions. The missing piece is the phone camera.</p>
+  <div class="tw"><table>
+    <tr><th>Her feature</th><th>Us today</th></tr>
+    <tr><td>Shot-list camera</td><td class="gap">Missing. Grace films from a text list, sends on Telegram (arrives at 464x848, so it is only a draft)</td></tr>
+    <tr><td>Auto first cut</td><td class="have">Have it per job (cut.py, QC checks, AI finish, review page)</td></tr>
+    <tr><td>Edit by asking</td><td class="have">Have it: notes on Telegram or here go to the job's session</td></tr>
+    <tr><td>Camera roll to story</td><td class="gap">Partly: done by hand per job, no one-step flow</td></tr>
+    <tr><td>Learns your style</td><td class="have">Partly: Grace's PLAYBOOK and the Brain hold lessons, but no per-creator edit style file</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <h2>What I would build</h2>
+  <div class="part"><h3>Part A · The phone camera (first)</h3>
+    <ul>
+      <li>A web page that opens from a link on any iPhone or Android phone, nothing to install. One link per video.</li>
+      <li>It loads the shot list from our plan: shot number, the spoken line, the direction (angle, move, framing outline on screen), HAND or HAND-FREE.</li>
+      <li>3-2-1 countdown, record, keep or retake, film in any order, a tick on each done shot. Optional line prompt on screen for talking shots.</li>
+      <li>"Send all" hands the takes to Google Drive through the phone's share menu, into the product's Originals folder, at full quality. That also fixes the Telegram draft problem.</li>
+      <li>Hosted free on Netlify (already connected). Our own name and look, not theirs.</li>
+    </ul></div>
+  <div class="part"><h3>Part B · The studio flow</h3>
+    <ul>
+      <li>One command in a session: pull the takes from Drive, match them to shots by number, pick the best take, build the first cut in script order with all our QC, put it on a review page.</li>
+      <li>Notes in plain words ("open faster", "use the other stairs take") make a revised cut, same as now.</li>
+    </ul></div>
+  <div class="part"><h3>Part C · Camera roll mode</h3>
+    <p>Drop a folder of clips; I find the best moments from frames and speech, propose a story, cut it after your OK.</p></div>
+  <div class="part"><h3>Part D · Style memory</h3>
+    <p>One style file per creator (Grace, you), updated from each cut you approve: pause length, music level under the voice, hook length, pace. Every next cut starts from it.</p></div>
+</section>
+
+<section>
+  <h2>iPhone and Android</h2>
+  <p>It will be built and tested for both. One web page, no app store, same link on both phones.</p>
+  <div class="tw"><table>
+    <tr><th>Piece</th><th>iPhone</th><th>Android</th></tr>
+    <tr><td>Live camera in the page</td><td>Safari, iOS 14.3 or newer (Chrome on iPhone uses the same engine)</td><td>Chrome</td></tr>
+    <tr><td>Recording</td><td>MP4</td><td>MP4 or WebM (converted to MP4 for free in the studio)</td></tr>
+    <tr><td>Send to Drive</td><td>Share menu, Google Drive app</td><td>Share menu, Google Drive app</td></tr>
+    <tr><td>Home screen icon</td><td>Safari, Share, Add to Home Screen</td><td>Chrome menu, Add to Home screen</td></tr>
+  </table></div>
+  <p><b>Quality backup:</b> a web page records a little below the phone's own camera app (stabilization and HDR are the phone's call). So every shot also gets a "Use phone camera" button: it opens the normal iPhone or Android camera with the shot card still showing in the page, and the clip comes back at full camera quality. I'll compare both on the first test and keep the better one as the default.</p>
+  <p class="muted">Not tested yet on a real iPhone. Grace has an iPhone, so she is the iPhone tester (your OnePlus covers Android). The test needs about 5 minutes on her phone: open the link, film one shot each way, send it to Drive. I check the size and quality.</p>
+</section>
+
+<section>
+  <h2>Cost and time</h2>
+  <ul>
+    <li><b>Money: $0.</b> No AI generation; Netlify free tier; our own tools.</li>
+    <li><b>Time:</b> Part A about 2 hours with a test on your phone. Part B about 2 to 3 hours. C and D after A and B are in use.</li>
+    <li><b>Not tested yet:</b> whether Chrome on your OnePlus records 1080p from a web page and whether the share menu sends the clips to Drive at full size. That is the first test I would run.</li>
+  </ul>
+</section>
+
+<section class="note">
+  <h2>Questions after you read</h2>
+  <p class="muted">I'll ask these as taps once you tell me you're done: the name, who uses it first (Grace or you), where takes go (Drive or Telegram), and whether to start with Part A alone or A and B together.</p>
+</section>
+</main>
