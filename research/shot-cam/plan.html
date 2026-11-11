@@ -36,6 +36,11 @@ th{font:500 12px var(--mono);text-transform:uppercase;letter-spacing:.06em;color
 .part{border-left:3px solid var(--accent);padding:2px 0 2px 14px;display:flex;flex-direction:column;gap:6px}
 .part h3{font-family:var(--display);font-size:17px;margin:0}
 ul,ol{padding-left:20px;display:flex;flex-direction:column;gap:4px}
+.frames{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+@media (max-width:560px){.frames{grid-template-columns:repeat(2,1fr)}}
+figure{margin:0;display:flex;flex-direction:column;gap:4px;min-width:0}
+figure img{width:100%;aspect-ratio:9/16;object-fit:cover;border-radius:6px;display:block}
+figcaption{font-size:13px;color:var(--muted)}
 .note{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
 </style>
 <main>
@@ -45,6 +50,17 @@ ul,ol{padding-left:20px;display:flex;flex-direction:column;gap:4px}
   <p class="muted">The TikTok you sent is Brooke Hall (@brookeashleyhall, 15M followers) showing "IRIS", an AI filming partner she and her husband built. It is also a funnel: "comment dream" for her free class today.</p>
   <div class="stats"><span>62 s</span><span>52,500 views in 9 h</span><span>12% engagement</span><span>450 saves</span></div>
 </header>
+
+<section>
+  <h2>The inspiration: IRIS</h2>
+  <p class="muted">Frames from Brooke Hall's video. Watch it on TikTok: <a href="https://www.tiktok.com/@brookeashleyhall/video/7706816559553056030" style="color:var(--accent)">@brookeashleyhall</a></p>
+  <div class="frames">
+    <figure><img src="img/iris-1.jpg" alt="Phone camera showing the card: IRIS shot 6 of 26, you walking down the stairs"><figcaption>Shot card on the camera</figcaption></figure>
+    <figure><img src="img/iris-28.jpg" alt="Her note to IRIS: take out the button press at the very start, marked revised"><figcaption>Edit by asking</figcaption></figure>
+    <figure><img src="img/iris-41.jpg" alt="IRIS finding the best moments: listening to your clips, finding the story, cutting it together"><figcaption>Finding the best moments</figcaption></figure>
+    <figure><img src="img/iris-46.jpg" alt="IRIS learning your style: 6 videos together, pauses tight, music under your voice noticeable"><figcaption>Learning her style</figcaption></figure>
+  </div>
+</section>
 
 <section>
   <h2>What her app does (from the frames)</h2>
