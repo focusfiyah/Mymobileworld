@@ -26,7 +26,8 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=f385dd4b414e3e851e1ce73ff3eea388b9c77f30d4b8eb59efd58e20b7db6457; exit=0; EXPECT=matched; output-sha256=2d4f718d2719eaa1a3c77703b75c5837a814a3f128ef9fb997f420c4c8562304; output-bytes=8; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/vans-plaid-recreate; path=7f4fb4b02918/15 entries
 - [x] G8: every cut checked frame by frame (no shoe flip, no grip switch, drift), 2x edges, against REMOVED.md, AI finish applied (manual)
   EVIDENCE: V1 at 12 fps, V2 windows at 24 fps (cut before V2S1 grip jump 1.96 s and V2S2 leg kick 1.25 s); 2x edges clean; REMOVED.md check appended; ai_finish.sh in cut.py; CUTQC_OK both
-- [ ] G9: Ralph OK'd the cuts, then Drive holds CURRENT - Vans Plaid V1/V2 + captions doc in the product folder, link sent (manual)
+- [x] G9: Ralph OK'd the cuts, then Drive holds CURRENT - Vans Plaid V1/V2 + captions doc in the product folder, link sent (manual)
+  EVIDENCE: Ralph 2026-11-12 'Both are approved'; Drive folder 148Qm6tI0MEpgUQp7F-g4ZmitxwMYZlwK holds CURRENT - Vans Plaid V1.mp4 (32567466 B) + V2.mp4 (37702860 B) + captions doc, sizes match; anyone-with-link writer; Telegram msg 489 to Grace's group
 - [x] G10: spend stays inside the book total
   CHECK: cd /home/user/Mymobileworld && python3 grace/spend.py 2>&1 | python3 -c "import sys,re;t=sys.stdin.read();m=re.search(r'ugc/vans-plaid-recreate\s+\\$\s*([0-9.]+)',t);v=float(m.group(1)) if m else 0.0;print('SPEND_OK' if v<=2.70 else v)"
   EXPECT: SPEND_OK
