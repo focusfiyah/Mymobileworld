@@ -128,11 +128,11 @@ V = {
  "V28": ("living", ["4a", "4d", "4b", "4e", "4c"], "the table in front of the sofa"),
  "V29": ("living", ["4e", "4c", "4d", "4b", "4a"], "the table by the flowers"),
  "V30": ("curb", ["5a", "5b", "5c", "5d", "5e"], "driver door"),
- "V31": ("curb", ["5d", "5a", "5e", "5c", "5b"], "passenger door"),
+ "V31": ("curb", ["6c", "5a", "5e", "5c", "5b"], "passenger door"),
  "V32": ("curb", ["5c", "5e", "5b", "5a", "5d"], "rear door"),
  "V33": ("curb", ["6a", "6b", "6c", "6d", "6e"], "driver side, morning light"),
  "V34": ("curb", ["6c", "6a", "6e", "6b", "6d"], "passenger side, near the cafe tables"),
- "V35": ("curb", ["6b", "6e", "6a", "6d", "6c"], "back of the car, near the plants"),
+ "V35": ("curb", ["5e", "6e", "6a", "6d", "6c"], "back of the car, near the plants"),
  "V36": ("curb", ["6a", "5a", "3b", "6c", "6d"], "mix: L6 step-out + L5 door hold + L3 toe close-up + L6 walk"),
  "V37": ("bedroom", ["2a", "4b", "1c", "2e", "2c"], "mix: L2 tab tap + L4 sequin macro + L1 insole + L2 pair"),
 }

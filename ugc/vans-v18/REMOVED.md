@@ -40,3 +40,5 @@ Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ral
 | Crooked, broken-looking foot (V31) | Ralph | 2026-11-12 | 5d beat: feet flat and in line with her legs; V31S1 remade |
 | Black strip along the side of the shoe (V34 ~9 s) | Ralph | 2026-11-12 | 6e beat: checkerboard all along the side; V34S3 remade |
 | Held shoe turning mid-clip (9 clips) | Claude QC | 2026-11-12 | held clips now: hand steady, camera pushes in; 9 remade, every video back to 16 s |
+| V35 opening shot: held shoe with a solid black leather heel panel | Grace (Telegram 2026-11-12, after delivery) | 2026-11-12 | V35S1 dropped; redo also failed (solid black); V35 12 s |
+| V31 opening shot: feet over the car door sill with a cafe pasted below (looks stepped on) | Grace (Telegram 2026-11-12, after delivery) | 2026-11-12 | V31S1 dropped; redo walked away showing the sole; V31 12 s |
