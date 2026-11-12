@@ -115,3 +115,9 @@ BOOK: approved $30.00 + extras $1.50; spent since approval $21.94; this call $0.
 submitted e66370b79c812a5f9021018f9358ef49
 submitted 990d38d6c39cffb6623fac1176f82de9
 submitted a3458f98708b0861f6155ed09ef91d03
+seedance V27S1 ok ['CLIP_CHECK_OK clips/V27S1_sd.mp4 (score 0.95)']
+seedance V28S1 ok ['CLIP_CHECK_OK clips/V28S1_sd.mp4 (score 0.96)']
+seedance V28S2 ok ['CLIP_CHECK_OK clips/V28S2_sd.mp4 (score 0.95)']
+PAID LEDGER: this exact request was already started or paid:
+  - claimed 2026-11-12 02:22:01 V19S4 seedance first-frame task 87293af84de562b659c3d1099800bb1f in this folder
+Fetch that result (recordInfo?taskId=...) instead of paying again. Only after Ralph OKs a redo with its cost: rerun with GATE_REDO=87293af84de562b659c3d1099800bb1f

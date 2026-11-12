@@ -6102,5 +6102,68 @@
   "t": "2026-11-12 02:30:26",
   "submitted": "a3458f98708b0861f6155ed09ef91d03",
   "prompt": "her foot stays still on the table edge; no hand appears at any time. Camera: very slow slide across the squares. Toe dir"
+ },
+ {
+  "t": "2026-11-12 02:32:13",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her foot stays still on the table edge; no hand appears at any time. Camera: very slow slide across the squares. Toe direction stays exactly as in the first frame: toe pointing to the lower-LEFT corner. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, plain off-white canvas squares; it never turns, flips or changes shape. The feet stay in the shoes; nothing slides. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794450556587-aqilbwe3gf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "a3458f98708b0861f6155ed09ef91d03",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794450728266-zqqtuz8whun.mp4"
+   ]
+  },
+  "costTime": 108
+ },
+ {
+  "t": "2026-11-12 02:32:42",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps one grip on the heel collar and lifts the shoe slowly a few centimetres; it never turns. Camera: handheld. Toe direction stays exactly as in the first frame: toe pointing to the LEFT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794450556602-g9p4dkeoqd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "990d38d6c39cffb6623fac1176f82de9",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794450760190-oez4qy7s25.mp4"
+   ]
+  },
+  "costTime": 144
+ },
+ {
+  "t": "2026-11-12 02:32:47",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps one grip on the heel collar and slides the shoe a few centimetres along the table; it never turns. Camera: slow push-in toward the side tab. Toe direction stays exactly as in the first frame: toe pointing to the LEFT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794450556594-33jatbn5a78.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "e66370b79c812a5f9021018f9358ef49",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794450759195-v869zyfb6h.mp4"
+   ]
+  },
+  "costTime": 149
  }
 ]
