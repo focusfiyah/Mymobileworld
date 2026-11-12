@@ -8,5 +8,5 @@ On-screen hook text (frame 0, until line 2 s): "Her Christmas gift, sorted". No 
 3. [crystal edge close-up; LED light] It is a crystal mirror with its own LED light.
 4. [tap, light flips cool to warm; hand on frame, light settings cycle] Tap the frame for three light settings.
 5. [pull back: mirror on the desk, room (whole room looks expensive)] I'll admit, it makes the whole room look expensive.
-6. [Pexels 6533941 woman putting a present under the tree] Wrap one for her and one for your mom before Christmas.
+6. [Pexels 6689329 woman opening a Christmas gift] Wrap one for her and one for your mom before Christmas.
 7. [warm glow on her face (orange cart)] It's in the orange cart.
