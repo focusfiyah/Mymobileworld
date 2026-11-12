@@ -1,6 +1,6 @@
 # TikTok Shop "Big Dreams Start With Black Friday" video challenge, House of Rameau (2026-11-12)
 
-Status: Day 1 sent 2026-11-12; days 2-3 staged (Niagara, Earth Breeze). Next: holiday remake test (NovaTabz, Ralph voice) for his OK.
+Status: 2026-11-12: all 20 days have an approved video (day 1 posted). The two scheduled tasks draft each morning and check each evening; nothing else to make.
 
 Rules of the challenge (Ralph's screenshot 2026-11-12): post qualified videos (>= 15 s) on more days, Nov 11 - Dec 1 2026;
 each day counts once. Milestones: 4 days $15, 10 days $40, 18 days $100. Nov 11 was missed, so 20 days are left and
@@ -33,7 +33,11 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s | |
 | 14 | 11-25 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
 | 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
-| 16-20 | 11-27..12-01 | Rows added when Ralph OKs each cut (sessions below report Drive ids here) | >= 15 s | |
+| 16 | 11-27 | HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, Ralph OK 2026-11-12, batch B) | 22.7 s | |
+| 17 | 11-28 | HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, Ralph OK 2026-11-12, batch B) | 23.6 s | |
+| 18 | 11-29 | HofR - COSRX Lip Care BF (1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, Ralph OK 2026-11-12, batch B) | 23.1 s | |
+| 19 | 11-30 | HofR - Wig Milk Spray BF (1f948vXL9olLQVdTs6jM6ajeMw_gczRTw, Ralph OK 2026-11-12, batch B) | 26.5 s | |
+| 20 | 12-01 | HofR - Eyeliner BF (1ctwXq7sixU9wt2Jz7DGqiBMIJcWg-ccs, Ralph OK 2026-11-12, batch B) | 23.1 s | |
 
 Measured 2026-11-12: Boo-Boo Gel HofR V2 is 13.6 s (does not qualify as is); NovaTabz HofR 15.2 s; Camera Detector HofR
 full cut is not stored (only a 3.9 MB review copy), so it needs a rebuild. Jelliquid HofR 12 s, music only: not used.
