@@ -37,4 +37,4 @@
 - [x] G10: (manual) review page published (video full width), push + email sent, then STOP for Ralph
   EVIDENCE: 2026-11-12 review page https://claude.ai/code/artifact/ebc5bbb9-bb74-44ef-a0f9-48c70e7435b3 published (video full width); email sent (Gmail id 1a1d1e719023a50c); push tool was not loaded at that time (said so); Ralph read it and tapped Approve
 - [x] G11: (manual, after Ralph OK) Drive "HofR - Boo-Boo Gel BF.mp4" size = local, hub session messaged, code merged, Brain note + BRAIN_OK
-  EVIDENCE: 2026-11-12 Drive 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF size 48115214 = local 48115214; hub session messaged; branch merged to main
+  EVIDENCE: 2026-11-12 Round 2 Drive 1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj size 48289381 = local 48289381 (round 1 1xgQ... moved to Older versions); hub session messaged; branch merged to main
