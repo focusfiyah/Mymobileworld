@@ -3,7 +3,7 @@
 Ask (Ralph 2026-11-12): "recreating these videos shot for shot, and the only thing we're replacing is Grace's complexion" (tapped: Wan 3.0 on Kie, no text, keep settings exactly, free track Grace swaps).
 Refs: https://www.tiktok.com/t/ZPLWoWj2h/ (@girlypopshopfinds 7695839213635259678, 7.4 s) and https://www.tiktok.com/t/ZPLWopx22/ (@herstyledcloset 7696342911218142494, 8 s). Product: TikTok Shop 1732738096900837416, Vans Old Skool Tartan Oil Green.
 
-Status: PLAN SENT 2026-11-12, waiting for Ralph's OK (book TOTAL $2.70). Gate OK, prompts linted + marked. Next: 5 stills (storyboard) -> V1S1 clip first -> V2 clips -> cut.
+Status: storyboard r2 sent 2026-11-12 (all 5 stills in Grace's tone; V2 skin edits $0.36 OK'd). Spent $0.81 of $2.70. Next: V1S1 clip ($0.64) after Ralph reads.
 Review page: https://claude.ai/artifact/HA6jd224NhhkLGc4FtZb6o
 Drive: not yet (after Ralph OKs the cuts).
 

@@ -146,5 +146,114 @@
    ]
   },
   "costTime": 96
+ },
+ {
+  "t": "2026-11-12 22:04:30",
+  "submitted": "33f27979b8639e037b98bff07b895ceb",
+  "prompt": "Edit Image 1. Change ONLY the skin colour of the bare skin of both ankles and heels between the jeans hems and the shoes"
+ },
+ {
+  "t": "2026-11-12 22:04:32",
+  "submitted": "162db4747ecd716f35dc7cd802ceecef",
+  "prompt": "Edit Image 1. Change ONLY the skin colour of her hand and fingers so it is the exact warm medium-deep brown skin tone of"
+ },
+ {
+  "t": "2026-11-12 22:04:34",
+  "submitted": "55397af86dce452a550b391e355e2146",
+  "prompt": "Edit Image 1. Change ONLY the skin colour of her hand and fingers so it is the exact warm medium-deep brown skin tone of"
+ },
+ {
+  "t": "2026-11-12 22:04:36",
+  "submitted": "7158300f8de66a4fc6b53ce93f677afd",
+  "prompt": "Edit Image 1. Change ONLY the skin colour of her hand and fingers and the bare skin of both ankles above the shoes so it"
+ },
+ {
+  "t": "2026-11-12 22:05:02",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit Image 1. Change ONLY the skin colour of the bare skin of both ankles and heels between the jeans hems and the shoes so it is the exact warm medium-deep brown skin tone of Grace's bare foot in Image 2: the same even, natural tone, with natural shading and texture kept. Take only the skin tone from Image 2; ignore its anklet, shoe and background. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing, the backs of both shoes with toes pointing away from the camera, the plaid heels, the white heel labels with the black VANS OFF THE WALL logo, the gum sole, the frayed jeans hems, the carpet, the background and the light. Also remove the one small green speck on the jeans at the upper left so that spot matches the denim around it. No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794521030733-5xnhzjxhrj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520198601-65fw8v4tydb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "33f27979b8639e037b98bff07b895ceb",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/33f27979b8639e037b98bff07b895ceb_0_1794521096.jpeg"
+   ]
+  },
+  "costTime": 37
+ },
+ {
+  "t": "2026-11-12 22:05:10",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit Image 1. Change ONLY the skin colour of her hand and fingers so it is the exact warm medium-deep brown skin tone of Grace in Image 2: the same even, natural tone, with natural shading, knuckle creases and texture kept. Take only the skin tone from Image 2; ignore its rings, bracelets, shoes and background. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing, the held shoe with its toe pointing to the lower-left, the shoe and its plaid, white stripe, white laces and brass eyelets, the cream knit sleeve, the nails, the rings, the background and the light. Also remove the one small green speck near the top of the shoe collar so that spot matches what is around it. No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794521030695-7h7luzg3e5s.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520201339-d6gez13c6k.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "162db4747ecd716f35dc7cd802ceecef",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/162db4747ecd716f35dc7cd802ceecef_0_1794521104.jpeg"
+   ]
+  },
+  "costTime": 42
+ },
+ {
+  "t": "2026-11-12 22:05:12",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit Image 1. Change ONLY the skin colour of her hand and fingers so it is the exact warm medium-deep brown skin tone of Grace in Image 2: the same even, natural tone, with natural shading, knuckle creases and texture kept. Take only the skin tone from Image 2; ignore its rings, bracelets, shoes and background. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing, the held shoe with its toe pointing down to the bottom edge, the shoe and its plaid, white stripe, white laces and brass eyelets, the cream knit sleeve, the nails, the rings, the background and the light. Also remove the one small green speck inside the shoe's collar so that spot matches what is around it. No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794521030986-4oflrpurjk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520201339-d6gez13c6k.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "55397af86dce452a550b391e355e2146",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/55397af86dce452a550b391e355e2146_0_1794521105.jpeg"
+   ]
+  },
+  "costTime": 40
+ },
+ {
+  "t": "2026-11-12 22:05:20",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Edit Image 1. Change ONLY the skin colour of her hand and fingers and the bare skin of both ankles above the shoes so it is the exact warm medium-deep brown skin tone of Grace in Image 2 and Image 3: the same even, natural tone, with natural shading, knuckle creases and texture kept. Take only the skin tone from Image 2 and Image 3; ignore its rings, bracelets, shoes and background. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing, both feet in the shoes with toes pointing to the top edge, the shoe and its plaid, white stripe, white laces and brass eyelets, the light frayed jeans, the rug and the floor, the nails, the rings, the background and the light. Also remove the one small green speck on the left shoe's toe so that spot matches what is around it. No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794521030692-48sf9r3tgx8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520201339-d6gez13c6k.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520198601-65fw8v4tydb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "7158300f8de66a4fc6b53ce93f677afd",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/7158300f8de66a4fc6b53ce93f677afd_0_1794521116.jpeg"
+   ]
+  },
+  "costTime": 48
  }
 ]
