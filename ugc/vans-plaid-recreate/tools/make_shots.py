@@ -1,0 +1,86 @@
+"""Writes shots.json for the Vans plaid recreations (prompt-master, Ralph's stack). python3 tools/make_shots.py"""
+import json
+SHOE = ("THE SHOE (must match the product sheet and close-ups exactly, colour for colour): Vans Old Skool low-top sneaker in tartan plaid canvas: "
+        "a very dark oil-green, near-black ground with red bands, thin white lines and thin yellow lines in a square grid; one smooth WHITE leather "
+        "curved side stripe on each side; WHITE flat laces through brass/antique-gold metal eyelets; white padded collar lining; plaid tongue; "
+        "white rubber sidewall with one thin black stripe around it; gum-brown waffle outsole; CREAM insole printed with a black rectangle outline "
+        "holding the black 'VANS' skateboard logo set diagonally; on the white heel sidewall a small WHITE label with the black 'VANS OFF THE WALL' "
+        "skateboard logo. No sequins, no glitter, no checkerboard, no silver eyelets, no other logos.")
+SKIN = ("SKIN: every hand, wrist, ankle and foot in the frame has Grace's exact skin: the warm medium-deep brown skin tone shown in the Grace reference "
+        "image(s), even and natural, the same tone on hands and feet. Take ONLY the skin tone from those images; ignore their rings, bracelets, "
+        "watch, anklets, shoes and backgrounds.")
+END = ("Real smartphone photo, sharp focus, natural texture, 9:16 vertical. Hands enter from the frame edge with whole wrists, five fingers, "
+       "nothing seen through the hand. No text, no captions, no stickers, no emoji, no watermark, no logos other than the real Vans marks. "
+       "No sparkle or light effects. Ignore any smudge or small mark in Image 1.")
+shots = {
+ "V1S1": {"video": "V1", "window": [0.0, 7.42], "kind": "HAND", "src": "@girlypopshopfinds 7695839213635259678 0-7.42 s (one take)",
+  "beat": "overhead POV on asphalt; left hand holds the right shoe top-down (insole up, toe pointing up), turns it to a side view, back to top-down and pushes it toward the lens",
+  "refs": ["refs/inspo/A_layout.png", "refs/product_sheet.png", "refs/insole_closeup.png", "refs/side_closeup.png", "refs/grace_hand.png", "refs/grace_feet.png"],
+  "still": ("Image 1 = the exact shot to recreate (layout, framing, outfit, ground, bag, light). Image 2 = the real shoe from every side (product sheet). "
+   "Image 3 = the real insole logo up close: cream insole, black rectangle outline, black diagonal VANS skateboard logo. Image 4 = the real side: white leather stripe, brass eyelets, white laces, plaid colours. "
+   "Image 5 = Grace's real hand (skin tone only). Image 6 = Grace's real bare foot (skin tone only). "
+   "VIEW AND FRAMING FIRST: recreate Image 1 exactly: a straight-down phone POV looking at her own legs on grey asphalt, black leggings from the bottom edge, "
+   "her LEFT foot (frame left) wears the LEFT shoe, fully inside it and laced; her RIGHT foot (frame right) is BARE with a white pedicure and a thin silver anklet. "
+   "Her LEFT arm enters from the lower-left edge in a red knit sweater whose sleeve has silver rhinestone brooch patches, and her LEFT hand holds ONE shoe, the RIGHT shoe of the pair, "
+   "seen from straight above with the toe pointing to the top of the frame and the cream insole showing, gripping its outer side with four fingers behind and the thumb in front. "
+   "She wears a small silver bow ring and has long nude almond nails, as in Image 1. A burgundy quilted mini bag with silver studs lies at the top-right corner. Exactly two shoes in the frame. "
+   + SHOE + " " + SKIN + " " + END),
+  "clip": ("Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real insole logo, Image3 the real side of the shoe, Image4 the product sheet. "
+   "Over 8 seconds, in one continuous take, the hand keeps the SAME grip on the shoe the whole time: for the first 3 seconds it holds the shoe still, top-down, with small natural hand movement; "
+   "then it slowly tilts the shoe a quarter turn so its outer side faces the camera, the white side stripe clearly visible, toe pointing to the right, held at the same height; "
+   "for the last 2 seconds it tilts it back top-down and brings it slowly closer to the lens until the insole fills the top half of the frame. "
+   "The shoe never flips over, never shows its sole, never changes size or colours; the plaid, white stripe, white laces, brass eyelets and cream insole with the black VANS logo match Image2, Image3 and Image4 in every frame. "
+   "The worn shoe on her left foot, her bare right foot and the bag stay still. Her skin stays the same warm medium-deep brown in every frame. Camera: handheld phone, steady, looking straight down. "
+   "No music, no voice, no text, no sparkle.")},
+ "V2S1": {"video": "V2", "window": [0.0, 2.1], "kind": "HAND", "src": "@herstyledcloset 7696342911218142494 0-2.1 s",
+  "beat": "hand holds one shoe in 3/4 side view in front of a lit Christmas tree, small turn toward the front",
+  "refs": ["refs/inspo/B1_layout.png", "refs/product_sheet.png", "refs/side_closeup.png", "refs/grace_hand.png"],
+  "still": ("Image 1 = the exact shot to recreate (layout, framing, sleeve, background, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real side: white leather stripe, brass eyelets, white laces, plaid colours. Image 4 = Grace's real hand (skin tone only). "
+   "VIEW AND FRAMING FIRST: recreate Image 1 exactly: a close-up of ONE shoe held by her hand from the lower-left corner, toe pointing to the lower-left, heel toward the top-right, "
+   "the white side stripe and the brass eyelets with white laces facing the camera; her hand in a cream chunky cable-knit sweater sleeve, two diamond rings, long nude almond nails, as in Image 1. "
+   "Background: a softly blurred Christmas tree with warm string lights, red bows and plaid-wrapped gifts, warm cosy light, as in Image 1. Only one shoe in the frame. "
+   + SHOE + " " + SKIN + " " + END),
+  "clip": ("Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3 the product sheet. "
+   "The held shoe's toe points to the lower-left corner. Over 3 seconds the hand keeps the same grip and slowly turns the shoe a little toward the camera so a bit more of the laces and toe show, a small smooth move. "
+   "The shoe never flips and keeps the plaid, white stripe, white laces and brass eyelets of Image2 and Image3 in every frame. The tree lights stay softly blurred. "
+   "Her skin stays the same warm medium-deep brown. Handheld phone, slight natural sway. No music, no voice, no text, no sparkle.")},
+ "V2S2": {"video": "V2", "window": [2.1, 3.47], "kind": "HAND", "src": "@herstyledcloset 7696342911218142494 2.1-3.47 s",
+  "beat": "POV seated, legs crossed in light jeans, both shoes on, on a cream and red striped rug; her hand rests on her knee and slides a little",
+  "refs": ["refs/inspo/B2_layout.png", "refs/product_sheet.png", "refs/side_closeup.png", "refs/grace_hand.png", "refs/grace_feet.png"],
+  "still": ("Image 1 = the exact shot to recreate (layout, framing, jeans, rug, floor, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real side: white leather stripe, brass eyelets, white laces. Image 4 = Grace's real hand (skin tone only). Image 5 = Grace's real bare foot (skin tone only). "
+   "VIEW AND FRAMING FIRST: recreate Image 1 exactly: her own POV looking down at her crossed legs in light-wash frayed-hem jeans, both feet at the top of the frame, toes pointing to the top edge, "
+   "BOTH feet fully inside the two shoes of the pair (left foot in the left shoe, right foot in the right shoe), laced with white laces, a little bare ankle skin showing above each shoe; "
+   "her hand from the lower-left edge rests on her knee, long nude almond nails with white tips, as in Image 1. Floor: a cream knit rug with red stripes on dark wood, a pine branch at the top-left, as in Image 1. Exactly two shoes. "
+   + SHOE + " " + SKIN + " " + END),
+  "clip": ("Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3 the product sheet. "
+   "Her toes point to the top edge of the frame. Over 2 seconds her fingers slide a little along her knee and her top foot gives one small bounce; both feet stay inside the shoes. The shoes keep the plaid, white stripe and white laces of Image2 and Image3 in every frame. "
+   "Her skin stays the same warm medium-deep brown. Handheld phone POV, slight natural sway. No music, no voice, no text, no sparkle.")},
+ "V2S3": {"video": "V2", "window": [3.47, 5.57], "kind": "HAND-FREE", "src": "@herstyledcloset 7696342911218142494 3.47-5.57 s",
+  "beat": "low view from behind of both heels on a cream carpet, frayed jeans hems; the left heel is lifted showing the gum sole, it lowers and the right heel lifts",
+  "refs": ["refs/inspo/B3_layout.png", "refs/product_sheet.png", "refs/heel_closeup.png", "refs/grace_feet.png"],
+  "still": ("Image 1 = the exact shot to recreate (layout, framing, jeans, carpet, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real heel label: a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo on the white heel sidewall. Image 4 = Grace's real bare foot (skin tone only). "
+   "VIEW AND FRAMING FIRST: recreate Image 1 exactly: a low camera on a cream shag carpet looking at the backs of her two feet, toes pointing AWAY from the camera into the frame, light-wash jeans with frayed hems falling over her ankles; "
+   "both feet fully inside the two shoes of the pair; her LEFT heel (frame left) is raised so the gum-brown waffle sole tips toward the camera, her RIGHT foot flat; a strip of ankle skin shows between hem and shoe. "
+   "Background a soft blur of warm lights. No hands in the frame. Exactly two shoes. " + SHOE + " " + SKIN + " " + END),
+  "clip": ("Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real heel label, Image3 the product sheet. "
+   "Over 3 seconds: her left heel lowers flat onto the carpet, then her right heel lifts so its gum sole tips toward the camera. Both feet stay in place (no sliding), toes stay pointing away from the camera, feet stay inside the shoes. "
+   "Each heel label stays a WHITE label with the black 'VANS OFF THE WALL' skateboard logo exactly as Image2. No hand appears at any time. Her ankle skin stays the same warm medium-deep brown. "
+   "Camera still, low on the carpet. No music, no voice, no text, no sparkle.")},
+ "V2S4": {"video": "V2", "window": [5.57, 7.97], "kind": "HAND", "src": "@herstyledcloset 7696342911218142494 5.57-7.97 s",
+  "beat": "hand holds one shoe front-on (laces to camera, toe down) in front of the tree, then turns it to a 3/4 side view",
+  "refs": ["refs/inspo/B4_layout.png", "refs/product_sheet.png", "refs/side_closeup.png", "refs/grace_hand.png"],
+  "still": ("Image 1 = the exact shot to recreate (layout, framing, sleeve, background, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real side and front: white leather stripe, brass eyelets, white laces. Image 4 = Grace's real hand (skin tone only). "
+   "VIEW AND FRAMING FIRST: recreate Image 1 exactly: ONE shoe held up by her hand from the lower-left edge, the toe pointing DOWN to the bottom edge and the collar at the top, the laces and brass eyelets facing the camera, "
+   "the white side stripe running down its left side; cream chunky knit sweater sleeve, a diamond ring, long nude almond nails, as in Image 1. Background: a softly blurred lit Christmas tree with red bows and plaid gifts, warm cosy light. Only one shoe. "
+   + SHOE + " " + SKIN + " " + END),
+  "clip": ("Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3 the product sheet. "
+   "The held shoe's toe points down to the bottom edge. Over 3 seconds the hand keeps the same grip and slowly turns the shoe about an eighth of a turn so its outer side with the white stripe comes toward the camera; one small smooth move. "
+   "The shoe never flips and keeps the plaid, white stripe, white laces and brass eyelets of Image2 and Image3 in every frame. Tree lights stay softly blurred. Her skin stays the same warm medium-deep brown. "
+   "Handheld phone, slight natural sway. No music, no voice, no text, no sparkle.")},
+}
+for k, s in shots.items():
+    s["still_refs"] = s["refs"]
+    s["clip_refs"] = [f"stills/{k}.png"] + [r for r in s["refs"][1:] if "grace" not in r and r != "refs/product_sheet.png"] + ["refs/product_sheet.png"]
+    s["seconds"] = {"V1S1": 8}.get(k, 3 if k != "V2S2" else 2)
+json.dump(shots, open("shots.json", "w"), indent=1)
+print(len(shots), "shots")

@@ -1,0 +1,44 @@
+# Removed items (check every cut against this list)
+
+| Item | Removed by | Date | Checked in round 4 finals |
+|---|---|---|---|
+| Blue silicone band as a WRIST strap (ring on the finger stays, Ralph's call) | Ralph | 2026-10-21 | OK: only on fingers (V1, V5, V6, V7) |
+| Brand logos on props (Chanel CC clasp on the bag) | Claude QC, Ralph agreed (redo) | 2026-10-21 | OK: V1 bags plain (shot 1 soft clasp, shot 2 bar clasp) |
+| Vans logo printed on the gift box | Claude QC | 2026-10-21 | OK: V9 box plain pink in the used window (0-1.4, 2.6-3.4 s) |
+| Feet pointing opposite ways / empty shoes on legs | Ralph | 2026-10-21 | OK: V2, V8, V10 redone; V10S3 cut at 2.5 s before the feet vanish |
+| Grip switching mid-turn (collar to palm-up) | Ralph | 2026-10-21 | OK: windows start after the grip settles (V2S2 1.5 s, V5S1 1.3 s, V7S2 1.2 s) |
+| Pale/blue "floating" side VANS tab | Ralph | 2026-10-21 | OK: 13 clips redone with the real tab close-up; V7S1 tab tiny (left) |
+| Extra hands (3-4 hands) | Claude QC | 2026-10-21 | OK: V9S2 used from 0.9 s |
+| Cream insole (V5S2 after the flip) | Claude QC | 2026-10-21 | OK: V5S2 used 0-0.9 s only |
+| On-screen text, product cards | standing rule | 2026-10-04 | OK: none (cut.py draws no text, gate --stage cut OK) |
+| Shoe flipping/jumping while held (V4S2 pop at 2.917 s, V5 cut to the sole, V5S1 start, V3S2 fast flip to the sole) | Ralph (V4, V5); Claude QC (V3) | 2026-10-21 | r5: V4S2 redone + cut around the pop; V5S2 dropped, V5S1 from 1.6 s; V3S2 to 2.3 s |
+| Walking in place (V7S1: ground moved ~50 px in 4 s) | Ralph | 2026-10-21 | r5: V7S1 dropped; V5S3 + V6S1 measured, ground moves (real travel) |
+| Shoe turning / "switching side" in her hand, any rotation of a held shoe (V1, V4; V3, V2, V6 proactively) | Ralph | 2026-10-21 | r6/r7: every hold is Kling 3.0 first=last frame (cannot turn), near-still holds get a free push-in |
+| A third shoe in a video (V3: one worn + one held + one on the table) | Ralph | 2026-10-21 | r7: V3S2 still edited to one shoe |
+| Sparkle/glint effects and near-still holds that read as pictures (r7 V3; prompt line "light glints on the sequins") | Ralph | 2026-10-21 | r8: V3 back to the round-5 clips; no "glint/sparkle" wording in any prompt |
+| Held-shoe shots in V2, V3, V4 (they turned / jumped sides, or read as stills when frozen) | Ralph | 2026-10-21 | r9: replaced by feet-only moving Kling shots (walk off rug, marble walk + crossed-leg bounce, deck heel-rock) |
+| A third shoe in V4 | Ralph | 2026-10-21 | r9 claim was wrong (the deck dolly V4S1 still had a 3rd shoe, sole up); r10: new 2-shoe still + Kling dolly proposed ($0.44), old still dropped as a look ref |
+| V1 round 5 turn (shoe rolls from laces to sole, "morphs") | Ralph | 2026-10-21 | r11: V1 back to the r6 Kling hold (clips/V1S1_k.mp4), Drive replaced |
+| V6 bench hold turning from insole to sole | Ralph (chose trim) | 2026-10-21 | r12: V6S2 dropped (turn from 0.4 s), Drive replaced |
+| Held shoe from the wrong side of the pair (S1: a LEFT shoe in her right hand while her left foot already wears the left shoe) | Ralph | 2026-10-24 | V12: held shoe must be the other foot's shoe; check left/right on every hold still |
+
+## V11 night flash (2026-10-22) checked against every row above
+Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ralph: "Keep S3"); no brand logos on props (no props); no feet pointing opposite ways (S1, S2 checked at 3 and 12 fps); no grip switch (S3 two-hand bow, one grip each); side tab black with white letters (S2 still fixed free, clips checked); no extra hands (2 hands = her own two, S3); no walking in place (S2 real steps); no held-shoe turn (no held shoe); max 2 shoes in every frame; no sparkle/glint effects (prompts say none; the shin highlight at ~7.8 s is the flash on skin); no text, no cards; scene cuts 0.6 (flash on), 3.0, 5.17, 7.6 s, none closer than 0.25 s.
+| Solid black sequin toe / panel (real toe is checkerboard) | Claude QC (V13A, V13I, V15D, V15G r1 stills) | 2026-10-29 | V13-V17: SHOE block now says the toe is checkerboard, never solid black |
+| Empty worn shoe (red insole showing on a walking foot) | Claude QC (V14H, V16J r1 stills) | 2026-10-29 | WORN block: both feet fully inside, feet hide the insoles |
+| Blue silicone band on the WRIST (Omni moved it there in the V14B test clip) | Claude QC (existing Ralph rule 2026-10-21) | 2026-10-29 | clip prompts: band stays on her finger as in image 1; recolour fix tried and rejected (olive with a blue edge) |
+| Feet sliding / "dragging" on the ground (Seedance POV walks: V14H park path, V17H boardwalk) | Ralph | 2026-10-29 | replaced by walk-toward-camera (V14H) and side tracking walk (V17H), prompts say each heel lifts, nothing slides |
+| Solid black side on a shoe (V14E pair shot, in the still) | Ralph | 2026-10-29 | V14E redone with the checkerboard spelled out for the toe and outer side |
+| Arm or hand coming from the opposite side to her legs, or from the top in a seated view (reads as two bodies) | Ralph (V30S1 test still: "if the leg is on the left side, the arm or hand can't be on the right side") | 2026-11-11 | every HAND prompt carries the ONE BODY block; QC sheet of all hand stills checked (V30S1, V24S3, V31S2, V32S3 to redo) |
+| A third shoe (her other foot also in a shoe while she holds one) | Claude QC (shoe count on all held-shoe stills) | 2026-11-12 | HOLD block: her right foot bare or out of frame, exactly two shoes; V18S1, V18S4, V19S3, V20S4 redone; V30S1, V33S4 dropped |
+| Held shoe turning or flipping in the clip (V24S1, V24S2, V30S2) | Claude QC (existing Ralph rule 2026-10-21) | 2026-11-12 | cut.py WIN uses only the frames before the turn; redo asked |
+| An empty shoe on its own (on the ground, a table, a seat; also the empty pair) | Ralph (Telegram 2026-11-12: "either wear it or hold it") | 2026-11-12 | 17 shots rewritten as worn or held; 5 that went solid black dropped |
+| Held shoe from the same side as the worn one (V19S5: crossed right leg wore the right shoe while she held a right shoe) | Ralph (Telegram 2026-11-12) | 2026-11-12 | HOLD block: right foot wears the right shoe, she holds the LEFT shoe |
+| Sequins looking flat (no shine) | Ralph (Telegram 2026-11-12: "make sure the shiny effect is showing") | 2026-11-12 | prompts: real sequin shine on every black square, no added sparkles or flares |
+| Brown on the side of the sole (V22 ~12 s) | Ralph | 2026-11-12 | 2b beat: sidewall stays off-white, the bottom never faces the camera; V22S4 remade |
+| White insole / white Vans box in a held shoe (V26 first seconds); the real insole is red with a white box and red letters | Ralph | 2026-11-12 | 3c beat gets the real insole close-up; V26S2 remade |
+| Crooked, broken-looking foot (V31) | Ralph | 2026-11-12 | 5d beat: feet flat and in line with her legs; V31S1 remade |
+| Black strip along the side of the shoe (V34 ~9 s) | Ralph | 2026-11-12 | 6e beat: checkerboard all along the side; V34S3 remade |
+| Held shoe turning mid-clip (9 clips) | Claude QC | 2026-11-12 | held clips now: hand steady, camera pushes in; 9 remade, every video back to 16 s |
+| V35 opening shot: held shoe with a solid black leather heel panel | Grace (Telegram 2026-11-12, after delivery) | 2026-11-12 | V35S1 dropped; redo also failed (solid black); V35 12 s |
+| V31 opening shot: feet over the car door sill with a cafe pasted below (looks stepped on) | Grace (Telegram 2026-11-12, after delivery) | 2026-11-12 | V31S1 dropped; redo walked away showing the sole; V31 12 s |
