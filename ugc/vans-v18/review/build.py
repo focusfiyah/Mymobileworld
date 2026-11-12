@@ -49,6 +49,9 @@ FL = json.loads((J / "qc/flags.json").read_text())
 SB = "".join(f'<figure class="sb"><img src="sb/{v}.jpg" alt="{v} storyboard, 5 stills" loading="lazy"><figcaption><b>{v}</b>{" · example" if v in ("V18","V21","V24","V27","V30","V33") else ""} · {e(B.PLACE[S[v+"S1"]["place"]])}'
              + "".join(f'<br><span class="flag">S{k[-1]}: {e(t)}</span>' for k, t in FL.items() if k.startswith(v)) + "</figcaption></figure>"
              for v in sorted({s["video"] for s in S.values()}))
+NOTE = {"V18": "Link 1 · sidewalk hand-held angles · 16 s", "V21": "Link 2 · bedroom rug try-on · 16 s", "V24": "Link 3 · car, held close-ups · 14 s (S1 and S2 turn: redo)",
+        "V27": "Link 4 · coffee table close-ups · 16 s", "V30": "Link 5 · car door hold · 13 s (S2 flips: redo)", "V33": "Link 6 · car + sidewalk, 4 shots · 16 s"}
+EX = "".join(f'<figure class="cut"><video src="media/{v}.mp4" controls playsinline preload="metadata"></video><figcaption><b>{v}</b> · {NOTE[v]}<br>{e(CAP[v])}</figcaption></figure>' for v in NOTE)
 page = f"""<title>Vans V18–V37 Plan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
@@ -83,6 +86,7 @@ th{{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--m
 .chip{{display:inline-block;padding:1px 8px;border-radius:99px;font-size:.78rem;background:var(--chip);white-space:nowrap}} .chip.h{{color:var(--accent)}}
 details{{border-bottom:1px solid var(--line);padding:6px 0}} summary{{cursor:pointer;font-weight:600}} pre{{white-space:pre-wrap;font:13px/1.5 var(--mono);background:var(--card);border:1px solid var(--line);padding:10px;border-radius:4px}}
 .sb{{margin:0 0 18px;display:grid;gap:6px}} .sb img{{width:100%;border-radius:4px}} .flag{{color:var(--accent);font-size:.9rem}}
+.cut{{margin:0 0 22px;display:grid;gap:6px}} .cut video{{width:100%;max-width:520px;border-radius:4px;background:#000}}
 .pl{{margin:8px 0 4px;font-size:.85rem;color:var(--muted)}}
 </style>
 <div class="check" aria-hidden="true"></div>
@@ -92,7 +96,8 @@ details{{border-bottom:1px solid var(--line);padding:6px 0}} summary{{cursor:poi
 <section class="total"><div><div class="muted">Total on Kie</div><div class="n">${total}</div></div>
 <ul><li>100 stills (Gemini 3 Pro Image) $9.00</li><li>100 clips (Seedance 2.0 Mini, 4 s) $16.40</li><li>Redo allowance $4.60, each redo asked first; the job never passes $30.00</li><li>Music: free tracks, $0</li><li>November: $39.90 so far, at most $69.90 after this job</li></ul>
 <p class="muted">Order: all 100 stills → storyboard here → one example video per link (V18, V21, V24, V27, V30, V33; test clip V30S1 first, $4.92 for the 30 clips) → your OK → the other 14 videos. Every hand and ankle uses Grace's real complexion, taken from her own Vans post.</p></section>
-<section><h2>Storyboard: all 100 stills</h2><p class="muted">Five shots per video, left to right. Redos done 2026-11-12 (25, then 10): no faces anywhere, 97 of 100 right. Red outline = still not right after 3 tries (3 stills). Grace's complexion comes from her own Vans post: every hand and ankle should match it. Examples get made first: V18, V21, V24, V27, V30, V33.</p>{SB}</section>
+<section><h2>Example videos, one per link</h2><p class="muted">Music only (free Mixkit tracks, swap in a TikTok sound when posting), no text, no faces, Grace's complexion. V24 and V30 run short (14 s and 13 s) because one held shoe turned in each; those shots need a clip redo.</p>{EX}</section>
+<section><h2>Storyboard: all 100 stills</h2><p class="muted">Five shots per video, left to right. Redos done 2026-11-12: no faces anywhere, one natural body, only two shoes per frame. Faded = dropped (5 shots); those videos run 4 shots of 4 s. Grace's complexion comes from her own Vans post: every hand and ankle should match it. Examples get made first: V18, V21, V24, V27, V30, V33.</p>{SB}</section>
 <section><h2>The six links</h2><div class="links">{links}</div></section>
 <section><h2>Settings</h2><p class="muted">One setting per video (Grace's rule). Real free photos; the bedroom is Grace's saved one.</p><div class="places">{places}</div></section>
 <section><h2>The 20 videos</h2>{''.join(vids)}</section>

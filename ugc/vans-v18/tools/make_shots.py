@@ -45,7 +45,9 @@ END = ("The sequins look like real sequins in daylight, nothing more: no added s
 WORN = ("She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced "
         "shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest.")
 HOLD = ("Her LEFT foot wears the LEFT shoe, fully inside it; her RIGHT hand holds ONE shoe, the RIGHT shoe of the pair, empty and "
-        "laced with its black laces; these are the only two shoes in the scene.")
+        "laced with its black laces. Her RIGHT foot is BARE (no shoe, no sock, no sandal) or out of the frame, because its shoe is in "
+        "her hand. Exactly two shoes in the whole frame: the one on her left foot and the one in her hand; never a third shoe, even "
+        "partly at an edge.")
 PAIR = "The pair stands side by side, empty, laced; these are the only two shoes in the scene; no feet, no hands, no people."
 ONE = "This one empty shoe is the only shoe in the scene; no feet, no hands, no people."
 
