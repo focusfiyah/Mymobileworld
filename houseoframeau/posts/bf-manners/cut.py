@@ -16,7 +16,7 @@ SEGS = [  # (VO line, offset s, source, in s, crop w:h:x:y)
     (3, 0.0, G, 24.60, "1000:1778:40:80"),    # "control your volume" page
     (4, 0.0, G, 37.00, "960:1707:60:100"),    # "respect privacy" page
     (5, 0.0, G, 29.50, "1000:1778:40:80"),    # brag: "treat homes with respect" page
-    (6, 0.0, PX + "5704517.mp4", 1.0, "1080:1920:0:0"),  # holiday: someone carrying a tall stack of gift boxes (Pexels 5704517)
+    (6, 0.0, PX + "5974714.mp4", 2.0, "1080:1920:0:0"),  # holiday: a young man with a wrapped gift (Pexels 5974714)
     (6, 1.50, G, 45.00, "1000:1778:40:60"),   # the book standing on the counter
     (7, 0.0, G, 22.20, "1000:1778:40:60"),    # close: the cover held flat (ends before the 24.2 s page flip)
 ]

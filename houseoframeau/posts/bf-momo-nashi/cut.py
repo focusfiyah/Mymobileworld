@@ -18,7 +18,7 @@ SEGS = [  # (VO line, offset s, source, in s, crop w:h:x:y)
     (4, 0.0, G, 13.00, "1000:1778:40:80"),    # the erasable markers
     (4, 1.80, G, 17.00, "1000:1778:40:60"),   # the smiley eraser
     (5, 0.0, G, 42.50, "940:1671:70:120"),    # brag: letters pages under her hand
-    (6, 0.0, PX + "6173883.mp4", 0.5, "1080:1920:0:0"),  # holiday: woman with an armful of gifts (Pexels 6173883)
+    (6, 0.0, PX + "5974707.mp4", 2.0, "1080:1920:0:0"),  # holiday: a mom and her toddler wrapping a gift (Pexels 5974707)
     (6, 1.60, G, 9.20, "1000:1778:40:60"),    # the open box: book, markers, eraser
     (7, 0.0, G, 27.00, "1000:1778:40:80"),    # close: book held up
 ]

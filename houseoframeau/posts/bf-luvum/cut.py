@@ -14,9 +14,9 @@ SEGS = [  # (VO line, offset s, source, in s, crop w:h:x:y)
     (2, 0.35, G, 4.90, "1000:1778:40:60"),    # "Luvum collagen gel masks": the pouches fanned in her hand (ends before the 7.9 s blur)
     (3, 0.0, G, 13.95, "920:1636:80:140"),    # ingredients: pouch close, text on the front
     (3, 2.60, G, 16.55, "1000:1778:40:60"),   # one pouch held up
-    (4, 0.0, PX + "6099389.mp4", 1.0, "1080:1920:0:0"),  # holiday: hands tying a red ribbon on a gift (Pexels 6099389)
+    (4, 0.0, PX + "5974521.mp4", 3.0, "1080:1920:0:0"),  # holiday: a woman wrapping a gift with a blue ribbon (Pexels 5974521)
     (4, 2.13, G, 12.40, "960:1707:60:100"),   # pouch close-up
-    (5, 0.0, PX + "5704912.mp4", 1.0, "1080:1920:0:0"),  # holiday: woman carrying a stack of gift boxes (Pexels 5704912)
+    (5, 0.0, PX + "10602683.mp4", 1.0, "1080:1920:0:0"),  # holiday: a woman holding a wrapped gift by the tree (Pexels 10602683)
     (6, 0.0, G, 19.72, "1000:1778:40:60"),    # close: pouch held up
 ]
 build("bf_luvum", SEGS, "I already know exactly|who would love this", hook_y=362, tail=0.25)

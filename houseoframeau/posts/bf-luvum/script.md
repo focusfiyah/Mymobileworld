@@ -8,8 +8,8 @@ Gift theme: two Pexels gift clips (broll/SOURCES.md); Grace's footage is 21 s wi
 2. [the Luvum box in her hand] My wife always says her skin looks tired by the end of the week.
 3. [the pouches fanned in her hand] These are Luvum collagen gel masks.
 4. [pouch close, then one pouch held up] Walnut collagen, peptides, hyaluronic acid and niacinamide.
-5. [b-roll: hands tying a red ribbon on a gift, then a pouch close-up] I'll admit, I already hid a box for her stocking.
-6. [b-roll: woman carrying a stack of gift boxes] Grab a few boxes before the holidays.
+5. [b-roll: a woman wrapping a gift with a blue ribbon, then a pouch close-up] I'll admit, I already hid a box for her stocking.
+6. [b-roll: a woman holding a wrapped gift by the tree] Grab a few boxes before the holidays.
 7. [pouch held up] It's in the orange cart.
 
 Sources: line 1 = HOOKS.md H055; line 3 and 4 from the box and pouch print ("slow aging phyto collagen gel mask", "Walnut

@@ -10,7 +10,7 @@ Holiday theme: one Pexels gift clip (broll/SOURCES.md).
 4. [lines, shapes, big letters, numbers pages] Lines, shapes, letters and numbers, thirty five activities.
 5. [the markers, then the smiley eraser] It comes with markers, and the smiley eraser wipes it clean.
 6. [letters pages under her hand] I'll admit, I've done a few pages myself.
-7. [b-roll: woman with an armful of gifts, then the open box] Grab one for every kid on your list, ages three to five.
+7. [b-roll: a mom and her toddler wrapping a gift, then the open box] Grab one for every kid on your list, ages three to five.
 8. [book held up] It's in the orange cart.
 
 Sources: line 1 = HOOKS.md H134; lines 3-5 and 7 from Grace's footage (box: "Erasable Tracing Book", 35 activities,
