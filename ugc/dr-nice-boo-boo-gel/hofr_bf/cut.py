@@ -12,10 +12,10 @@ HOOK = "the bandaid fight|is officially over"
 st = json.loads(Path("vo/starts.json").read_text()); L = st["starts"]; END = round(st["end"] + 0.4, 3)
 # (source, in-point, start on the VO timeline, punch-in)  line: words
 SEG = [(C + "S3_seedance.mp4", 0.30, L[0], 1.06),        # L0 "...until a scraped knee": gel goes ON the scrape
-       ("broll/scooter_girl.mp4", 0.20, L[1], 1.00),     # L1 "Usually it's tears": kid on a scooter
+       ("broll/basketball_boy.mp4", 0.30, L[1], 1.00),   # L1 "Usually it's tears": boy playing ball outside
        (C + "S2_seedance.mp4", 1.70, L[1] + 1.50, 1.08), # L1 "...and a bandaid fight": the scooter on the grass
        (C + "S1.mp4", 1.00, L[2], 1.05),                 # L2 "No sting, so they dab it on themselves": the pump
-       ("broll/snow_slide.mp4", 0.00, L[3], 1.00),       # L3 "Only problem?": kid slides into the snow
+       ("broll/beach_girl.mp4", 2.50, L[3], 1.00),       # L3 "Only problem?": girl playing in the sand
        (C + "S6.mp4", 0.30, L[3] + 1.90, 1.04),          # L3 "...every bump": bottle outside
        (C + "S5.mp4", 2.00, L[4], 1.06),                 # L4 "Grab one per bag": backpack pocket
        (C + "S4.mp4", 3.00, L[5], 1.05)]                 # L5 "It's in the orange cart": counter
