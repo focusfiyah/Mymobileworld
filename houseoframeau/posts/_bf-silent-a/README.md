@@ -1,6 +1,6 @@
 # HofR Black Friday: silent videos A (2026-11-12)
 
-Status: 5 cuts built and checked, waiting on Ralph's review (G1-G6 met; G7 QC.md; G8 page + email). $0.
+Status: DONE 2026-11-12, $0. Ralph OK'd all 5 (tapped "All 5 OK"); in Drive: butter 1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, mirror 1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, ear 1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, coloring 1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, meat 1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3 (sizes = local). Hub told 2026-11-12. Round 3 b-roll (brown complexion, matched to each line).
 Review https://claude.ai/code/artifact/62c62375-ddc3-41a2-b48c-3b93cbcd000f ; email to Ralph Gmail 1a1d1fb6b51cd5f6 (push tool not in this session: tested via ToolSearch, nothing found).
 Next: Ralph's OK per cut -> Drive "HofR - <Product> BF.mp4" in its product folder (Kie host + Composio GOOGLEDRIVE_UPLOAD_FROM_URL, size check) -> one line per product to hub session_01Y1Pt3pfP7HcKsjq5xn9T1H.
 
