@@ -1,0 +1,74 @@
+{
+ "name": "bf_manners",
+ "end": 25.065,
+ "hook": "This is going to matter once the family comes over for Christmas",
+ "hook_box": [
+  60,
+  362,
+  879,
+  297
+ ],
+ "hook_hold": 3.521,
+ "segs": [
+  {
+   "start": 0.0,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 48.0,
+   "crop": "1000:1778:40:0"
+  },
+  {
+   "start": 3.521,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 14.5,
+   "crop": "960:1707:60:100"
+  },
+  {
+   "start": 6.612,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 2.2,
+   "crop": "1000:1778:40:60"
+  },
+  {
+   "start": 8.912,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 55.5,
+   "crop": "940:1671:70:120"
+  },
+  {
+   "start": 11.1,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 24.6,
+   "crop": "1000:1778:40:80"
+  },
+  {
+   "start": 14.874,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 37.0,
+   "crop": "960:1707:60:100"
+  },
+  {
+   "start": 17.044,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 29.5,
+   "crop": "1000:1778:40:80"
+  },
+  {
+   "start": 20.142,
+   "src": "../_bf_c_tools/pexels/5704517.mp4",
+   "in": 1.0,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "start": 21.642,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 45.0,
+   "crop": "1000:1778:40:60"
+  },
+  {
+   "start": 23.1,
+   "src": "../../../ugc/52-modern-manners-book/orig/manners.mov",
+   "in": 22.2,
+   "crop": "1000:1778:40:60"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "name": "bf_purcell",
+ "end": 22.36,
+ "hook": "This stays in my wife's purse for a reason",
+ "hook_box": [
+  140,
+  362,
+  719,
+  218
+ ],
+ "hook_hold": 2.836,
+ "segs": [
+  {
+   "start": 0.0,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 8.1,
+   "crop": "1000:1778:40:0"
+  },
+  {
+   "start": 2.836,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 3.4,
+   "crop": "980:1742:60:40"
+  },
+  {
+   "start": 4.486,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 23.3,
+   "crop": "1000:1778:30:60"
+  },
+  {
+   "start": 6.142,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 12.0,
+   "crop": "940:1671:70:120"
+  },
+  {
+   "start": 8.513,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 25.9,
+   "crop": "1000:1778:40:80"
+  },
+  {
+   "start": 11.773,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 29.6,
+   "crop": "900:1600:120:200"
+  },
+  {
+   "start": 15.194,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 33.0,
+   "crop": "1000:1778:20:80"
+  },
+  {
+   "start": 18.049,
+   "src": "../_bf_c_tools/pexels/6111172.mp4",
+   "in": 1.0,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "start": 19.349,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 36.6,
+   "crop": "960:1707:60:110"
+  },
+  {
+   "start": 20.715,
+   "src": "../../../ugc/purcell-colostrum-mist/orig/grace_orig.mov",
+   "in": 38.0,
+   "crop": "1000:1778:40:70"
+  }
+ ]
+}

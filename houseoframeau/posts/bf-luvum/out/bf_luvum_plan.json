@@ -1,0 +1,68 @@
+{
+ "name": "bf_luvum",
+ "end": 23.739,
+ "hook": "I already know exactly who would love this",
+ "hook_box": [
+  137,
+  362,
+  724,
+  218
+ ],
+ "hook_hold": 2.927,
+ "segs": [
+  {
+   "start": 0.0,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 9.4,
+   "crop": "960:1707:60:0"
+  },
+  {
+   "start": 2.927,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 0.6,
+   "crop": "1000:1778:40:40"
+  },
+  {
+   "start": 7.231,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 4.9,
+   "crop": "1000:1778:40:60"
+  },
+  {
+   "start": 10.228,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 13.95,
+   "crop": "920:1636:80:140"
+  },
+  {
+   "start": 12.828,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 16.55,
+   "crop": "1000:1778:40:60"
+  },
+  {
+   "start": 16.033,
+   "src": "../_bf_c_tools/pexels/6099389.mp4",
+   "in": 1.0,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "start": 18.163,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 12.4,
+   "crop": "960:1707:60:100"
+  },
+  {
+   "start": 19.693,
+   "src": "../_bf_c_tools/pexels/5704912.mp4",
+   "in": 1.0,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "start": 22.238,
+   "src": "../../../ugc/luvum-gel-mask/orig/luvum_orig.mov",
+   "in": 19.72,
+   "crop": "1000:1778:40:60"
+  }
+ ]
+}
