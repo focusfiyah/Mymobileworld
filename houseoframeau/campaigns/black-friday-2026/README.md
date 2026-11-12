@@ -18,7 +18,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 
 | Day | Date | Video (Drive file id) | Length | Sent |
 |---|---|---|---|---|
-| 1 | 11-12 | HofR - Christmas Cheer V2 (1zbPmq2zmAIaWPVYoYqd1dLzdd2CSRhLp) | 18.8 s | 2026-11-12 v_inbox_file~v2.7707409749188904991 |
+| 1 | 11-12 | HofR - Christmas Cheer V2 (1zbPmq2zmAIaWPVYoYqd1dLzdd2CSRhLp) | 18.8 s | 2026-11-12 v_inbox_file~v2.7707409749188904991; posted 5:28 PM ET, video 7707415402745482527 (18 s, caption empty) |
 | 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | |
 | 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | |
@@ -38,6 +38,10 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 Measured 2026-11-12: Boo-Boo Gel HofR V2 is 13.6 s (does not qualify as is); NovaTabz HofR 15.2 s; Camera Detector HofR
 full cut is not stored (only a 3.9 MB review copy), so it needs a rebuild. Jelliquid HofR 12 s, music only: not used.
 If no approved row is waiting on a day, the task tells Ralph on Telegram instead of sending a repeat.
+
+## Scheduled tasks (Ralph OK'd)
+- trig_01UkdAA5PqXnqEQX7viZkaG8 "HofR Black Friday: daily draft" 8:47 AM ET Nov 13-30 (Nov 30 sends two), turns itself off.
+- trig_01XgutNKqUbRPxSoEL26HFYg "HofR Black Friday: posted check" 6:47 PM ET Nov 13 - Dec 1: if today's video is not on the page, reminder by Telegram + push + email (Ralph 2026-11-12); turns itself off after Dec 1.
 
 ## Sessions making days 4-20 (Ralph 2026-11-12: "separate the task into different sessions")
 Voice for all of them: Ralph's free Chatterbox clone (the "Sorry I Lied" voice), never ElevenLabs (Ralph 2026-11-12:
