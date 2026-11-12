@@ -43,6 +43,7 @@ Posts: bf-purcell, bf-jiyu-nad, bf-luvum, bf-momo-nashi, bf-manners. $0 only. No
   NOTE: page https://claude.ai/code/artifact/90f11b0d-ed64-4c5a-9368-43dede2d34e8 + email 1a1d2104ed140c6a sent 2026-11-12; phone push NOT sent: ToolSearch found no PushNotification tool in this session (searched twice)
 - [x] G13: (manual) After Ralph's OK per cut: Drive "HofR - <Product> BF.mp4" in the product folder, size = local; one line per product to the hub session
   EVIDENCE: Ralph tapped "Yes, all 5" 2026-11-12. Drive ids (size = local): PURCELL 1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh 25,686,145; JIYU 1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o 29,370,156; LUVUM 171hJpkdckVa2HascrdFR5pyh6UIUv3BF 32,992,731; Momo 1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E 44,495,445; Manners 1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc 33,802,349. Hub session sent the five lines (delivered)
-- [ ] G14: (manual) Code committed and merged per CLAUDE.md; Brain note + session log; Active work line removed; BRAIN_OK
+- [x] G14: (manual) Code committed and merged per CLAUDE.md; Brain note + session log; Active work line removed; BRAIN_OK
+  EVIDENCE: merged to main (ad8b558) and pushed; Brain job note, session log, Index, Jobs, day log updated and pushed; Active work line removed. brain check passes every batch-C item; it still lists 3 items owned by the running silent-A and silent-B sessions (their notes, not touched here)
 
 ABANDON: G12 phone push could not be sent: no PushNotification tool in this session (ToolSearch searched twice, 2026-11-12); email and review page did go out and Ralph read and approved
