@@ -44,8 +44,8 @@ END = ("The sequins look like real sequins in daylight, nothing more: no added s
        "photo, casual and realistic. Vertical 9:16 photo. NO FACE: no face, head or hair of anyone anywhere in the frame; the frame stops below her chest. No text, no captions, no watermark anywhere.")
 WORN = ("She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced "
         "shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest.")
-HOLD = ("Her LEFT foot wears the LEFT shoe, fully inside it; her RIGHT hand holds the RIGHT shoe of the pair, empty; these are the "
-        "only two shoes in the scene.")
+HOLD = ("Her LEFT foot wears the LEFT shoe, fully inside it; her RIGHT hand holds ONE shoe, the RIGHT shoe of the pair, empty and "
+        "laced with its black laces; these are the only two shoes in the scene.")
 PAIR = "The pair stands side by side, empty, laced; these are the only two shoes in the scene; no feet, no hands, no people."
 ONE = "This one empty shoe is the only shoe in the scene; no feet, no hands, no people."
 
@@ -144,8 +144,8 @@ def still(sid, place, beat, outfit, note):
     legs, sleeve = outfit.split("|")
     refs, lines, n = [], [], 0
     n += 1; refs.append(R["SHEET"][0]); lines.append(f"Image {n} = {R['SHEET'][1]}.")
-    for k in logos:
-        n += 1; refs.append(R[k][0]); lines.append(f"Image {n} = {R[k][1]}.")
+    for k in (["SEQ"] if "SEQ" not in logos else []) + logos:   # real sequin close-up on every shot (2026-11-12: 6 held shoes went solid black without it)
+        n += 1; refs.append(R[k][0]); lines.append(f"Image {n} = {R[k][1]}" + (": copy this exact square pattern, sequins only inside the black squares" if k == "SEQ" else "") + ".")
     if kind == "HAND":
         n += 1; refs.append(R["HAND"][0]); lines.append(f"Image {n} = {R['HAND'][1]}.")
     if who in (WORN, HOLD):
