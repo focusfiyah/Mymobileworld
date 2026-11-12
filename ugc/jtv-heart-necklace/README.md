@@ -1,0 +1,9 @@
+# JTV Pink Heart Necklace: 10 x 16 s edits of Grace's own footage (2026-11-12)
+
+Status: DONE 2026-11-12. Ralph "Ok"; CURRENT - JTV Heart Necklace V1-V10.mp4 in the product folder (Drive sizes = local); ✅ sent Ralph 474 + Grace 475. $0.
+- Drive ids V1-V10: 1dK7w8Bd1E6Mo0veZxBnFh3mOSke6eucf, 1YN6VLKG7kGh1ybdO-fmdx3LOgECguOnz, 1h-AQ9q6AHKxIBdZmtSCZampBEZnc3z3i, 17UihJMdTBNRmy-_3XM6Yccd9W1oEpsxx, 1paslAtj117wDjFQ4Gh76YuYqu4X6by_8, 1x23dO6V0JsDBTRG7dlOedXgfGjdL2-Pi, 1MvfgBsf-aZ8PAxr8229PwXdwM1RXBcQ8, 1iBOqhmDIp9v78qaQvPkSCX103GIBJX4f, 1jd6t6553Dn9KWR-YezfdsaDmteD814ri, 1uBbftb-mWxGXo2RYeNpSFCbwgJlAJLRI. Originals and cuts live only in Drive; repo media holds the previews and QC sheets.
+- Product: JTV Pink Cubic Zirconia 18k Yellow Gold Plated Heart Necklace 2.90ctw. Request: Grace, Telegram group -5234107715, msg 466 ("up 10 videos that are 16 seconds long... no two videos start or end the same and don't duplicate clips in the same video"); uploads done msg 468; our ack 470; captions to Grace 472.
+- Drive: product folder https://drive.google.com/drive/folders/18jyjJaSlPPyqOX9N6NmKUECeodZK9s0D, Originals 1ltVENpvmdSr7omKszIZrLCEAfgrRXCfd. A = export_1794449898752.mov (18mbgWIB_BEb3e_fE1IbuY4OY4kcHhRKD, 42.4 s on-body), B = 788f8e00773c481687702813256f4441.mov (1LcDwtkOUyzJ1tDgMZS-slgcX2_3nurHp, 71.1 s product + selfies); both 1080x1920 HEVC SDR 30 fps, no voice.
+- Captions Doc 1vlP1k-KUraPUvO8l231fqSwlT1M5JjWJKYF1gE6XbsY. Review https://claude.ai/code/artifact/488c44a5-f56a-4920-8e9a-61c566b683a0
+- Rebuild: originals into edit/orig/A.mov, B.mov; `cd edit && python3 plan.py check && python3 cut.py && python3 check.py all`. plan.py holds the 21 usable windows (takes) and the 10 orders. Media not in git.
+- Left out: blurry/whip stretches, blink at B 0:48, close selfie B 53-55 (phone hides the necklace), chin swings in the on-body close-ups. 113 s of footage for 160 s of video, so takes repeat across videos (different moment, order, framing, grade).
