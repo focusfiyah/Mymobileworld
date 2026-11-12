@@ -1,2 +1,2 @@
-# B-roll sources (2026-11-12, Pexels License: free commercial use, no attribution)
-- woman_gift.mp4: Pexels video 6533828 https://www.pexels.com/video/woman-opening-christmas-gifts-6533828/ (1080 wide, 19 s)
+# B-roll sources (Pexels License: free commercial use, no attribution). People: brown, light brown or dark brown complexion only (Ralph 2026-11-12)
+- woman_tree_gift.mp4: Pexels video 6533941 https://www.pexels.com/video/woman-putting-a-present-under-a-christmas-tree-6533941/ (2026-11-12 swap)

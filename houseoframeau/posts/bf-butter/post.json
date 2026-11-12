@@ -4,21 +4,106 @@
  "hook_text": "Put this on your list|before Christmas",
  "hook_box": "110,380,860,190",
  "grade": "eq=brightness=0.015:contrast=1.04:saturation=1.03",
- "broll": ["man_gift.mp4", "gifts_red.mp4"],
+ "broll": [
+  "man_tinsel.mp4",
+  "two_men_gift.mp4"
+ ],
  "removed_terms": [],
  "segs": [
-  {"src": "G", "in": 0.0,  "max": 1.4,  "at": 0.0,   "crop": "1000:1778:40:60",  "what": "seal peeled back, butter revealed (hook)"},
-  {"src": "G", "in": 1.4,  "max": 2.2,  "at": 1.40,  "what": "five coloured crown lids"},
-  {"src": "G", "in": 9.2,  "max": 10.6, "at": 2.20,  "crop": "960:1707:60:110",  "what": "finger glides through the butter (lotion line)"},
-  {"src": "G", "in": 2.2,  "max": 3.6,  "at": 3.60,  "what": "EMPIRE label, BODY BUTTER COLOGNE (this is body butter)"},
-  {"src": "G", "in": 10.6, "max": 12.0, "at": 5.00,  "crop": "1000:1778:40:80",  "what": "scoop on the fingertip"},
-  {"src": "G", "in": 3.6,  "max": 5.0,  "at": 6.40,  "what": "KING"},
-  {"src": "G", "in": 7.8,  "max": 9.2,  "at": 7.80,  "crop": "1000:1778:40:70",  "what": "REIGN"},
-  {"src": "G", "in": 6.4,  "max": 7.8,  "at": 9.20,  "what": "MONARCH"},
-  {"src": "G", "in": 5.0,  "max": 6.4,  "at": 10.60, "crop": "1000:1778:40:70",  "what": "PRINCE"},
-  {"src": "G", "in": 12.0, "max": 14.5, "at": 11.59, "what": "rubbed into the back of the hand (rubs right in)"},
-  {"src": "broll/man_gift.mp4",  "in": 1.0, "at": 14.09, "what": "Pexels 6265884 couple opening a gift (brag)"},
-  {"src": "broll/gifts_red.mp4", "in": 2.0, "at": 17.78, "what": "Pexels 6099389 wrapping a table of gifts (every man on your list)"},
-  {"src": "G", "in": 14.5, "max": 16.3, "at": 20.77, "crop": "1000:1778:40:90",  "what": "all five tins lined up (orange cart)"}
+  {
+   "src": "G",
+   "in": 0.0,
+   "max": 1.4,
+   "at": 0.0,
+   "crop": "1000:1778:40:60",
+   "what": "seal peeled back, butter revealed (hook)"
+  },
+  {
+   "src": "G",
+   "in": 1.4,
+   "max": 2.2,
+   "at": 1.4,
+   "what": "five coloured crown lids"
+  },
+  {
+   "src": "G",
+   "in": 9.2,
+   "max": 10.6,
+   "at": 2.2,
+   "crop": "960:1707:60:110",
+   "what": "finger glides through the butter (lotion line)"
+  },
+  {
+   "src": "G",
+   "in": 2.2,
+   "max": 3.6,
+   "at": 3.6,
+   "what": "EMPIRE label, BODY BUTTER COLOGNE (this is body butter)"
+  },
+  {
+   "src": "G",
+   "in": 10.6,
+   "max": 12.0,
+   "at": 5.0,
+   "crop": "1000:1778:40:80",
+   "what": "scoop on the fingertip"
+  },
+  {
+   "src": "G",
+   "in": 3.6,
+   "max": 5.0,
+   "at": 6.4,
+   "what": "KING"
+  },
+  {
+   "src": "G",
+   "in": 7.8,
+   "max": 9.2,
+   "at": 7.8,
+   "crop": "1000:1778:40:70",
+   "what": "REIGN"
+  },
+  {
+   "src": "G",
+   "in": 6.4,
+   "max": 7.8,
+   "at": 9.2,
+   "what": "MONARCH"
+  },
+  {
+   "src": "G",
+   "in": 5.0,
+   "max": 6.4,
+   "at": 10.6,
+   "crop": "1000:1778:40:70",
+   "what": "PRINCE"
+  },
+  {
+   "src": "G",
+   "in": 12.0,
+   "max": 14.5,
+   "at": 11.59,
+   "what": "rubbed into the back of the hand (rubs right in)"
+  },
+  {
+   "src": "broll/man_tinsel.mp4",
+   "in": 4.0,
+   "at": 14.09,
+   "what": "Pexels 6689552 man opening a Christmas present (brag)"
+  },
+  {
+   "src": "broll/two_men_gift.mp4",
+   "in": 2.0,
+   "at": 17.78,
+   "what": "Pexels 5727376 dad and son with a Christmas present (every man on your list)"
+  },
+  {
+   "src": "G",
+   "in": 14.5,
+   "max": 16.3,
+   "at": 20.77,
+   "crop": "1000:1778:40:90",
+   "what": "all five tins lined up (orange cart)"
+  }
  ]
 }

@@ -5,7 +5,7 @@
  "hook_box": "190,380,700,190",
  "grade": "eq=brightness=0.015:contrast=1.03:saturation=1.02",
  "broll": [
-  "car_snack.mp4",
+  "road_snack.mp4",
   "stocking.mp4"
  ],
  "removed_terms": [],
@@ -27,10 +27,10 @@
    "what": "box open, wrapped bundles"
   },
   {
-   "src": "broll/car_snack.mp4",
-   "in": 6.0,
+   "src": "broll/road_snack.mp4",
+   "in": 2.0,
    "at": 2.6,
-   "what": "Pexels 5080934 couple snacking on a road trip"
+   "what": "Pexels 6636880 couple eating noodles on the road (road trip)"
   },
   {
    "src": "G",

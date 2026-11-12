@@ -8,5 +8,5 @@ On-screen hook text (frame 0, until 2.05 s): "I had to look twice". No captions,
 3. [screen on, held front (shows you everything); probe tip with its light on, side] This ear camera shows you everything on its own screen.
 4. [probe light straight on (light on the tip); all twelve tips fanned (twelve soft silicone tips); clear tip case] It has a light on the tip and twelve soft silicone tips.
 5. [skin view, second angle (checked everybody's ears); two soft tips; Good Bye screen + USB cable] I'll admit, I've checked everybody's ears in the house.
-6. [Pexels holiday family (parents, before the holidays)] Grab one for your parents too before the holidays.
+6. [Pexels 6306149 grandpa in a Santa suit (your parents, holidays)] Grab one for your parents too before the holidays.
 7. [box: Smart Detector with Screen (orange cart)] It's in the orange cart.

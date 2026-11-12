@@ -1,3 +1,3 @@
-# B-roll sources (2026-11-12, Pexels License: free commercial use, no attribution)
-- man_gift.mp4: Pexels video 6265884 https://www.pexels.com/video/couple-opening-gifts-6265884/ (1080x1920, 9.8 s), used 1.0-4.69 s
-- gifts_red.mp4: Pexels video 6099389 https://www.pexels.com/video/person-wrapping-christmas-presents-6099389/ (1080x1920, 13.1 s), used 2.0-4.99 s
+# B-roll sources (Pexels License: free commercial use, no attribution). People: brown, light brown or dark brown complexion only (Ralph 2026-11-12)
+- man_tinsel.mp4: Pexels video 6689552 https://www.pexels.com/video/man-opening-a-christmas-present-6689552/ (2026-11-12 swap)
+- two_men_gift.mp4: Pexels video 5727376 https://www.pexels.com/video/dad-and-son-with-a-cristmas-present-5727376/ (2026-11-12 swap)
