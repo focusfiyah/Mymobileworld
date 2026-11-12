@@ -41,7 +41,7 @@ HAND = ("HER HAND is Grace's real hand, exactly like the hand reference: the sam
 LIGHT = ("LIGHT: bright soft daylight, neutral white balance: the off-white squares stay off-white, no yellow, orange or golden cast, "
          "no dark or moody grade.")
 END = ("The sequins look like real sequins in daylight, nothing more: no added sparkles, glints or light streaks. A real phone "
-       "photo, casual and realistic. Vertical 9:16 photo. No text, no captions, no watermark anywhere.")
+       "photo, casual and realistic. Vertical 9:16 photo. NO FACE: no face, head or hair of anyone anywhere in the frame; the frame stops below her chest. No text, no captions, no watermark anywhere.")
 WORN = ("She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced "
         "shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest.")
 HOLD = ("Her LEFT foot wears the LEFT shoe, fully inside it; her RIGHT hand holds the RIGHT shoe of the pair, empty; these are the "
@@ -162,7 +162,7 @@ def still(sid, place, beat, outfit, note):
             + ("Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. " if kind == "HAND" and "grip" in motion else "")
             + ("Her hand stays whole, five fingers, whole wrist. " if kind == "HAND" and "grip" not in motion else "")
             + ("The feet stay in the shoes; nothing slides. " if who == WORN else "")
-            + ("Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. " if kind == "HAND" else "") + ("Her skin stays the same medium-deep brown tone as the first frame. " if kind == "HAND" or who in (WORN, HOLD) else "") + "Bright neutral daylight, realistic phone footage, 9:16. No sparkle effects, no text, no captions, no music, no voice.")
+            + ("Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. " if kind == "HAND" else "") + ("Her skin stays the same medium-deep brown tone as the first frame. " if kind == "HAND" or who in (WORN, HOLD) else "") + "Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. No sparkle effects, no text, no captions, no music, no voice.")
     return {"kind": kind, "beat": beat, "place": place, "still": " ".join(lines + body), "still_refs": refs, "clip": clip}
 
 
