@@ -27,7 +27,8 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 7 | 11-18 | HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C) | 25.7 s | |
 | 8 | 11-19 | HofR - Luvum BF (171hJpkdckVa2HascrdFR5pyh6UIUv3BF, Ralph OK 2026-11-12, batch C) | 23.8 s | |
 | 9 | 11-20 | HofR - Manners Book BF (1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc, Ralph OK 2026-11-12, batch C) | 25.1 s | |
-| 10-20 | 11-21..12-01 | Rows added when Ralph OKs each cut (sessions below report Drive ids here) | >= 15 s | |
+| 10 | 11-21 | HofR - NovaTabz BF (1f28a6fuNGhGYmWtjrpZC1Zu5iusEdtgB, Ralph OK 2026-11-12, Chatterbox voice) | 25.6 s | |
+| 11-20 | 11-22..12-01 | Rows added when Ralph OKs each cut (sessions below report Drive ids here) | >= 15 s | |
 
 Measured 2026-11-12: Boo-Boo Gel HofR V2 is 13.6 s (does not qualify as is); NovaTabz HofR 15.2 s; Camera Detector HofR
 full cut is not stored (only a 3.9 MB review copy), so it needs a rebuild. Jelliquid HofR 12 s, music only: not used.
