@@ -8,6 +8,6 @@ On-screen hook text (frame 0, until line 2 s): "Put this on your list before Chr
 3. [EMPIRE label, BODY BUTTER COLOGNE (this is body butter); scoop on the fingertip; KING] This is body butter that smells like cologne.
 4. [KING; REIGN; MONARCH; PRINCE] Five scents. King, Reign, Monarch, Prince and Empire.
 5. [rubbed into the back of the hand (rubs right in)] It's whipped soft and it rubs right in.
-6. [Pexels 6689552 man opening a Christmas present (brag)] I'll admit, I smell way too good now.
+6. [Pexels 7350118 man smelling a red flower (smell way too good)] I'll admit, I smell way too good now.
 7. [Pexels 5727376 dad and son with a Christmas present (every man on your list)] Grab the five pack for every man on your list.
 8. [all five tins lined up (orange cart)] It's in the orange cart.
