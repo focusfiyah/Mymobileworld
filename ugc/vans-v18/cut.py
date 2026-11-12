@@ -11,7 +11,7 @@ S = json.loads((J / "shots.json").read_text())
 D = json.loads((J / "qc/dropped.json").read_text())
 FIN = J.parent.parent / ".claude/skills/ugc-product-ad/scripts/ai_finish.sh"
 LEN = 16.0
-WIN = {"V24S1": 0.75, "V24S2": 1.25, "V30S2": 1.0}   # usable seconds before the held shoe turns (QC 2026-11-12)
+WIN = {}   # clean windows for clips that turn (filled after QC of each batch)
 TRACKS = ["catwalk", "gimme", "onemore", "funkee", "midnightfunk", "mornings"]
 GRADES = ["eq=brightness=0.02:contrast=1.03:saturation=1.0", "eq=brightness=0.03:contrast=1.0:saturation=0.97",
           "eq=brightness=0.01:contrast=1.05:saturation=1.02", "eq=brightness=0.04:contrast=1.02:saturation=0.98",
