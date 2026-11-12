@@ -28,7 +28,7 @@ Scope: same script and shots, Ralph's free Chatterbox voice, shots re-timed to t
   EVIDENCE: frame sheet of 19 frames (every shot) looked at: each shot on its line, label unchanged, bright grade; 2x crops at 0 s, 0.9 s, 11 s, 18.5 s: hand, rings, lips, brush edges clean, no halo/smear/fringe; blackdetect 0 black frames; voice checked by whisper readback (all 8 lines word for word), not by ear
 
 - [x] G6: review page republished to FHRFXAMvsgrQJKEHyzZYSN with the new cut and a "voice is now Chatterbox" note
-  EVIDENCE: published 2026-11-12 as Version 2 (id 1794523002-437a) of FHRFXAMvsgrQJKEHyzZYSN with novatabz_holiday.mp4 (720p preview) and the section 'New: the voice is now Chatterbox'
+  EVIDENCE: published 2026-11-12 as Version 3 (id 1794525258-3906) of FHRFXAMvsgrQJKEHyzZYSN with novatabz_holiday.mp4 (720p preview) and the section 'New: the voice is now Chatterbox'
 
 - [x] G7: $0 spent (no Kie, Kling, ElevenLabs or other paid call this job)
   EVIDENCE: only local tools ran: Chatterbox and faster-whisper (CPU), ffmpeg, Pexels free downloads, Composio Drive downloads for media restore; no Kie, Kling, ElevenLabs or other paid call
