@@ -11,6 +11,6 @@ Source cut: Grace's CURRENT V1 (silent, no audio stream). Length 22.7 s.
 6. Christmas is coming fast, so grab one for everybody on your list.
 7. It's in the orange cart.
 
-Shots in order: box opens to the ring; she lifts the ring; ring opens (fits any finger); magnets inside; b-roll: hands by a stocking; b-roll: unwrapping a gift; Calmi box.
+Shots in order: box opens to the ring; she lifts the ring; ring opens (fits any finger); magnets inside; b-roll: brown hands tying a gift ribbon; b-roll: brown hands wrapping a gift; Calmi box.
 
 Sources: Lines 2-4 from Grace's approved captions (opens up, fits any finger, 4 magnets inside); line 5 brag-style confession; line 6 Christmas urgency + more units; line 7 Grace close. Dropped after voicing: the colours line (only rose gold is on screen).

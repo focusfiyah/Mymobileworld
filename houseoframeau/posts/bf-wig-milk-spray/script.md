@@ -12,6 +12,6 @@ Source cut: Grace's CURRENT V1 (silent, no audio stream). Length 26.4 s.
 7. Holiday parties are coming, so grab a couple bottles now.
 8. It's in the orange cart.
 
-Shots in order: tangled wig; tangled wig; bottle, then tangled ends; she sprays it on; brush goes through; straight shiny wig, she smiles; b-roll: friends' holiday selfie; bottle + brush.
+Shots in order: tangled wig; tangled wig; bottle, then tangled ends; she sprays it on; brush goes through; straight shiny wig, she smiles; b-roll: friends toasting at a holiday party; bottle + brush.
 
 Sources: Lines 2-5 from Grace's captions (almost tossed it, leave in conditioner and detangler for synthetic wigs, no rinse, brush through); line 6 brag; line 7 holiday urgency + more units.

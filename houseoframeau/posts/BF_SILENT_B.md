@@ -18,6 +18,7 @@ src/orig.mov = Grace's originals 1i29d8fq... and 1CosT6go...), voice ref Dayone-
   /root/.presenter-tools/cbx/bin/python -I _tools/vo_gen.py bf-<job>    (ONLY=n,n SEED_n=... to redo lines)
   /root/.presenter-tools/fw/bin/python -I _tools/vo_build.py bf-<job>   (whisper read-back + join -> vo/ralph.wav, words.json)
   python3 _tools/cut.py bf-<job> [--final] ; cd _tools && python3 qc.py silent|script|vo|cut   (GATES.md)
+B-roll: people shown are brown, light brown or dark brown complexion only (Ralph 2026-11-12, relayed by the HofR silent-A session; 5 clips swapped, review v2, email sent).
 Lessons: Chatterbox ~20 s per line on 4 cores; a Pexels clip can pass freezedetect yet read as a still (tree 6111172, stocking
 5765495): look at the sheet, use motion.py (mean < ~2 = still). Grace's V1 cuts are ~15 s; a 7-line VO runs ~22-27 s, so drop a line
 that nothing on screen can show, then fill from her original before reaching for stock.

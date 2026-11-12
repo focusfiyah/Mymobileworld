@@ -11,6 +11,6 @@ Source: Grace's own original video (her V1 cut checked silent); new moments pick
 6. With all the holiday pictures coming up, grab a few.
 7. It's in the orange cart.
 
-Shots in order: box (WATERPROOF EYELINER PENCIL); Grace, pencil at her chin; pencil close-up; swatch on her hand, then lower lash line; finished look; b-roll: white gifts being wrapped; pencil held up.
+Shots in order: box (WATERPROOF EYELINER PENCIL); Grace, pencil at her chin; pencil close-up; swatch on her hand, then lower lash line; finished look; b-roll: two friends taking a Santa-hat selfie; pencil held up.
 
 Sources: Line 3 and 4 from Grace's captions (waterproof, sweat resistant, super fine tip, one swipe); line 5 brag; line 6 urgency + more units. Shots from Grace's own original (Drive 1i29d8fq...), not her V1 cut, so the shot set is new. Dropped after voicing: 'tried it on her hand' (the swatch shows under line 4).

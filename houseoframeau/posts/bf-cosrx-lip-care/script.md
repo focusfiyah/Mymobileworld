@@ -11,6 +11,6 @@ Source cut: Grace's CURRENT V1 (silent, no audio stream). Length 23.1 s.
 6. Grab two, one for her purse and one for her stocking.
 7. It's in the orange cart.
 
-Shots in order: tube close-up (Black Cherry print); b-roll: woman bundled up in snow; swatch on her hand; she swipes it on; glossy lips; b-roll: woman sets a gift under a tree; Grace smiles.
+Shots in order: tube close-up (Black Cherry print); b-roll: woman in a yellow coat in the snow; swatch on her hand; she swipes it on; glossy lips; b-roll: woman sets a gift under a tree; Grace smiles.
 
 Sources: Line 3 from the product name (5 Peptide, tinted); line 4 and the shade from Grace's captions; line 5 brag; line 6 more units. Dropped after voicing: 'wears it at night' (no night shot).
