@@ -22,7 +22,12 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | |
 | 4 | 11-15 | HofR - Boo-Boo Gel BF: ON HOLD, round 2 (brown-skinned kids in the b-roll) waits on Ralph's OK; do NOT send old file 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF | 18.5 s | |
-| 5-20 | 11-16..12-01 | Rows added when Ralph OKs each cut (sessions below report Drive ids here) | >= 15 s | |
+| 5 | 11-16 | HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh, Ralph OK 2026-11-12, batch C) | 22.4 s | |
+| 6 | 11-17 | HofR - JIYU NAD BF (1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o, Ralph OK 2026-11-12, batch C) | 22.5 s | |
+| 7 | 11-18 | HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C) | 25.7 s | |
+| 8 | 11-19 | HofR - Luvum BF (171hJpkdckVa2HascrdFR5pyh6UIUv3BF, Ralph OK 2026-11-12, batch C) | 23.8 s | |
+| 9 | 11-20 | HofR - Manners Book BF (1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc, Ralph OK 2026-11-12, batch C) | 25.1 s | |
+| 10-20 | 11-21..12-01 | Rows added when Ralph OKs each cut (sessions below report Drive ids here) | >= 15 s | |
 
 Measured 2026-11-12: Boo-Boo Gel HofR V2 is 13.6 s (does not qualify as is); NovaTabz HofR 15.2 s; Camera Detector HofR
 full cut is not stored (only a 3.9 MB review copy), so it needs a rebuild. Jelliquid HofR 12 s, music only: not used.
