@@ -46,3 +46,6 @@ Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ral
 ## Vans plaid recreations (2026-11-12)
 - Held-shoe turn row: Ralph tapped "Allow the turn (Recommended)" for these shot-for-shot videos only. Every held clip is checked frame by frame; any flip, sole showing, or grip switch is cut out or redone (asked).
 - Red sweater (V1), cream knit sleeve (V2), red holiday decor: replaced by Ralph 2026-11-12 ("holiday theme colors to be burgundy and pink", new outfits): V1 burgundy sweater + pink bag, V2 pink knit + burgundy/pink decor. No red sweater or cream sleeve may come back in a clip.
+
+## V1 + V2 cuts (2026-11-12) checked against every row above
+On-screen text/cards: none (cut.py draws no text). Red sweater / cream sleeve: none (V1 burgundy, V2 pink). Held shoe: one grip, no flip, sole never shown while held (V1 checked at 12 fps; V2S1 cut at 1.9 s before its grip jump at 1.96 s; V2S2 cut at 1.25 s before the leg kick; V2S4 checked at 24 fps). Shoes in frame: max 2 (V1 held + worn; V2 one held or the worn pair). No extra hands, no sparkle effects, no walking in place (V2S3 heels lift in place, no slide). Insole logo, heel labels, white stripe, brass eyelets correct at 2x.

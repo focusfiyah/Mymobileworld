@@ -80,7 +80,11 @@
   "note": "research/line_audit.md: Grace script method (PLAYBOOK \u00a74, 2026-11-09), per script: Buyer, Pain, Connection, Outsider test, Common enemy, Contradiction check, Pain points <= 3, Selling points <= 3, every line GREEN/YELLOW (RED lines cut), repetition pass"
  },
  "compare": {
-  "proof": [],
+  "proof": [
+   "research/compare.md",
+   "research/compare_v1/compare/compare.md",
+   "research/compare_v2/compare/compare.md"
+  ],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
  },
  "book_ok": {

@@ -403,5 +403,161 @@
   "still": "stills/V1S1.png",
   "ok": true,
   "score": 0.959
+ },
+ {
+  "t": "2026-11-12 23:43:22",
+  "submitted": "781244885793f7840bf1f3e4efe1f0b6",
+  "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3"
+ },
+ {
+  "t": "2026-11-12 23:43:24",
+  "submitted": "a4aa41430caa7fc79af18189ea7b3660",
+  "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3"
+ },
+ {
+  "t": "2026-11-12 23:43:25",
+  "submitted": "a1a37340a0ba73c6fddbe91831f8fd1f",
+  "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3"
+ },
+ {
+  "t": "2026-11-12 23:43:27",
+  "submitted": "d2bd74b2c38cb67bd70183d0d138cdec",
+  "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real heel label, Image3 the p"
+ },
+ {
+  "t": "2026-11-12 23:45:07",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3 the product sheet. Her toes point to the top edge of the frame. Over 2 seconds her fingers slide a little along her knee and her top foot gives one small bounce; both feet stay inside the shoes. The shoes keep the plaid, white stripe and white laces of Image2 and Image3 in every frame. Her skin stays the same warm medium-deep brown. Handheld phone POV, slight natural sway. No music, no voice, no text, no sparkle.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526981084-stqur60bb8.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526983386-urto092peps.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526985421-k8iqfch0pce.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 2,
+    "audio": false
+   }
+  },
+  "taskId": "a4aa41430caa7fc79af18189ea7b3660",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30/1794527101456-wnt1e7mfai.mp4"
+   ]
+  },
+  "costTime": 107,
+  "usd": 0.16,
+  "credits": 32.0
+ },
+ {
+  "t": "2026-11-12 23:45:11",
+  "clip_check": "/home/user/Mymobileworld/ugc/vans-plaid-recreate/clips/V2S2.mp4",
+  "still": "stills/V2S2.png",
+  "ok": true,
+  "score": 0.949
+ },
+ {
+  "t": "2026-11-12 23:45:25",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3 the product sheet. The held shoe's toe points to the lower-left corner. Over 3 seconds the hand keeps the same grip and slowly turns the shoe a little toward the camera so a bit more of the laces and toe show, a small smooth move. The shoe never flips and keeps the plaid, white stripe, white laces and brass eyelets of Image2 and Image3 in every frame. The tree lights stay softly blurred. Her skin stays the same warm medium-deep brown. Handheld phone, slight natural sway. No music, no voice, no text, no sparkle.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526981064-tfgaujli6b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526983135-1x5hgvrs36h.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526985301-k7vwjftt4hg.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "781244885793f7840bf1f3e4efe1f0b6",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1794527115786-8460yvzqjkh.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-12 23:45:29",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real side of the shoe, Image3 the product sheet. The held shoe's toe points down to the bottom edge. Over 3 seconds the hand keeps the same grip and slowly turns the shoe about an eighth of a turn so its outer side with the white stripe comes toward the camera; one small smooth move. The shoe never flips and keeps the plaid, white stripe, white laces and brass eyelets of Image2 and Image3 in every frame. Tree lights stay softly blurred. Her skin stays the same warm medium-deep brown. Handheld phone, slight natural sway. No music, no voice, no text, no sparkle.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526981081-9ofbp0igj6.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526983075-wy26zs2pza.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526985318-9lrti10og9.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "a1a37340a0ba73c6fddbe91831f8fd1f",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1794527121342-1gibdnhhmcy.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-12 23:45:31",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real heel label, Image3 the product sheet. Over 3 seconds: her left heel lowers flat onto the carpet, then her right heel lifts so its gum sole tips toward the camera. Both feet stay in place (no sliding), toes stay pointing away from the camera, feet stay inside the shoes. Each heel label stays a WHITE label with the black 'VANS OFF THE WALL' skateboard logo exactly as Image2. No hand appears at any time. Her ankle skin stays the same warm medium-deep brown. Camera still, low on the carpet. No music, no voice, no text, no sparkle.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526981104-tk8l9ks029b.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526984949-rva9q72dyla.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794526987296-x6j326yeir.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 3,
+    "audio": false
+   }
+  },
+  "taskId": "d2bd74b2c38cb67bd70183d0d138cdec",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1794527125024-xhuv9z75t79.mp4"
+   ]
+  },
+  "costTime": 123,
+  "usd": 0.24,
+  "credits": 48.0
+ },
+ {
+  "t": "2026-11-12 23:45:31",
+  "clip_check": "/home/user/Mymobileworld/ugc/vans-plaid-recreate/clips/V2S1.mp4",
+  "still": "stills/V2S1.png",
+  "ok": true,
+  "score": 0.947
+ },
+ {
+  "t": "2026-11-12 23:45:35",
+  "clip_check": "/home/user/Mymobileworld/ugc/vans-plaid-recreate/clips/V2S4.mp4",
+  "still": "stills/V2S4.png",
+  "ok": true,
+  "score": 0.938
+ },
+ {
+  "t": "2026-11-12 23:45:37",
+  "clip_check": "/home/user/Mymobileworld/ugc/vans-plaid-recreate/clips/V2S3.mp4",
+  "still": "stills/V2S3.png",
+  "ok": true,
+  "score": 0.965
  }
 ]
