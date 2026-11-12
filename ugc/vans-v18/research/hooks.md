@@ -103,7 +103,7 @@
 - On-screen text option (off by default): same as the used hook
 
 ## V35
-- Used: H012: I know this is minor, but I really do care about the bottom of my shoes.
+- Used: H110: I do not think everyone needs this, but I know exactly who will appreciate it.
 - Option: H021: Okay, but what does the back actually look like?
 - Option: H032: This is one of those details you do not notice until you use it
 - On-screen text option (off by default): same as the used hook

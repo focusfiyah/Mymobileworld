@@ -22,7 +22,7 @@
 
 ## V22
 - "This just makes everything feel a little more put together." = Grace hook library H004 (word for word)
-- "Sweats and sequin Vans, done." = fact 2 + outfit in frame
+- "A satin skirt and sequin Vans, done." = fact 2 + outfit in frame
 - "It's in the orange cart." = Grace's house close (PLAYBOOK)
 
 ## V23
@@ -86,8 +86,8 @@
 - "It's in the orange cart." = Grace's house close (PLAYBOOK)
 
 ## V35
-- "I know this is minor, but I really do care about the bottom of my shoes." = Grace hook library H012 (word for word, blank filled)
-- "Gum waffle sole, just like the classic." = fact 9 (outsole)
+- "I do not think everyone needs this, but I know exactly who will appreciate it." = Grace hook library H110 (word for word)
+- "Anyone who loves checkered Vans and a little shine." = opinion, no product claim (V35 sole shot dropped 2026-11-12)
 - "It's in the orange cart." = Grace's house close (PLAYBOOK)
 
 ## V36

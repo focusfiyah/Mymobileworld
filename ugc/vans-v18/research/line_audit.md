@@ -71,7 +71,7 @@ Pain points: 1
 Selling points: 1
 Repetition pass: hook id used once across V18-V37
 - GREEN: This just makes everything feel a little more put together.
-- GREEN: Sweats and sequin Vans, done.
+- GREEN: A satin skirt and sequin Vans, done.
 - GREEN: It's in the orange cart.
 Cut: none
 
@@ -265,8 +265,8 @@ Contradiction check: no line contradicts another or the product facts
 Pain points: 1
 Selling points: 1
 Repetition pass: hook id used once across V18-V37
-- GREEN: I know this is minor, but I really do care about the bottom of my shoes.
-- GREEN: Gum waffle sole, just like the classic.
+- GREEN: I do not think everyone needs this, but I know exactly who will appreciate it.
+- GREEN: Anyone who loves checkered Vans and a little shine.
 - GREEN: It's in the orange cart.
 Cut: none
 

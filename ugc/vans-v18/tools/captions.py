@@ -10,7 +10,7 @@ C = {  # video: (hook id, blank fill or None, product line, fact source, alt hoo
  "V19": ("H023", None, "Same classic Vans shape, just with sequins on the black squares.", "facts 1-2", ["H030", "H025"]),
  "V20": ("H020", None, "Red insole with the white Vans box inside.", "fact 8 (insole)", ["H029", "H032"]),
  "V21": ("H003", None, "They go with my comfy clothes and my going out clothes.", "opinion (styling), no product claim", ["H004", "H044"]),
- "V22": ("H004", None, "Sweats and sequin Vans, done.", "fact 2 + outfit in frame", ["H003", "H047"]),
+ "V22": ("H004", None, "A satin skirt and sequin Vans, done.", "fact 2 + outfit in frame", ["H003", "H047"]),
  "V23": ("H035", "a pair of Vans", "The sequins catch the light every time I move.", "fact 2 (raised sequins), seen in the real photos", ["H013", "H004"]),
  "V24": ("H027", "the sequins up close", "Raised black sequins on the black squares, plain canvas on the white.", "fact 2", ["H029", "H020"]),
  "V25": ("H021", None, "Black heel stripe and the Off The Wall label, same as the classic.", "facts 6-7 (heel stripe, label)", ["H023", "H025"]),
@@ -23,7 +23,7 @@ C = {  # video: (hook id, blank fill or None, product line, fact source, alt hoo
  "V32": ("H013", "sparkly sneakers", "These have just the right amount.", "fact 2 (sequins only on black squares)", ["H035", "H014"]),
  "V33": ("H044", None, "I wear them with jeans and with sweats.", "opinion (styling), no product claim", ["H003", "H047"]),
  "V34": ("H047", "I want my outfit to look done", "I put these on and I'm out the door.", "fact 2 + opinion", ["H004", "H044"]),
- "V35": ("H012", "the bottom of my shoes", "Gum waffle sole, just like the classic.", "fact 9 (outsole)", ["H021", "H032"]),
+ "V35": ("H110", None, "Anyone who loves checkered Vans and a little shine.", "opinion, no product claim (V35 sole shot dropped 2026-11-12)", ["H021", "H032"]),
  "V36": ("H052", "days I want a little sparkle", "Lately that is most days.", "opinion, no product claim", ["H003", "H004"]),
  "V37": ("H097", None, "Sequins on the black squares only, so they still look like Vans.", "facts 1-2", ["H030", "H027"]),
 }

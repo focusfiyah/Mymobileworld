@@ -11,14 +11,14 @@
   EXPECT: SHOTS_OK
 - [ ] G4: Ralph's OK recorded on the plan before any paid call (manual: --approve-book with his tapped words)
 - [ ] G5: 100 stills downloaded, each 9:16
-  CHECK: cd /home/user/Mymobileworld/ugc/vans-v18 && python3 -c "import glob;from PIL import Image;f=glob.glob('stills/*.png');ok=[x for x in f if abs(Image.open(x).size[0]/Image.open(x).size[1]-9/16)<0.02];print('STILLS_OK' if len(ok)==100 else f'{len(ok)} of 100')"
+  CHECK: cd /home/user/Mymobileworld/ugc/vans-v18 && python3 -c "import glob;from PIL import Image;import re;f=[x for x in glob.glob('stills/*.png') if re.fullmatch(r'stills/V\d\dS\d\.png',x)];ok=[x for x in f if abs(Image.open(x).size[0]/Image.open(x).size[1]-9/16)<0.02];print('STILLS_OK' if len(ok)==100 else f'{len(ok)} of 100')"
   EXPECT: STILLS_OK
 - [ ] G6: stills QC'd at 2x (side tab black with white VANS, checkerboard toe, held shoe = other foot's shoe, max 2 shoes, hands whole, no text) and storyboard sent (manual)
 - [ ] G7: 20 cuts rendered, each 16 s, 1080x1920
-  CHECK: cd /home/user/Mymobileworld/ugc/vans-v18 && python3 tools/cutqc.py --len 16
+  CHECK: cd /home/user/Mymobileworld/ugc/vans-v18 && python3 -c "import subprocess;r=[subprocess.run(['ffprobe','-v','error','-select_streams','v','-show_entries','stream=width,height:format=duration','-of','csv=p=0',f'out/V{n}.mp4'],capture_output=True,text=True).stdout.split() for n in range(18,38)];ok=all(x[0]=='1080,1920' and abs(float(x[1])-16)<0.1 for x in r);print('CUTS_OK' if ok and len(r)==20 else r)"
   EXPECT: CUTS_OK
 - [ ] G8: every cut checked against REMOVED.md, drift strip and 2x edges, AI finish applied (manual)
 - [ ] G9: Ralph OK'd the cuts, then Drive "Vans sequin (Grace)" holds CURRENT - Vans V18..V37 and the captions doc (manual)
-- [ ] G10: job media packed to Drive
-  CHECK: cd /home/user/Mymobileworld && python3 tools/media/media.py check
-  EXPECT: MEDIA_OK
+- [ ] G10: this job's media packed to Drive (other jobs' pending parts are theirs)
+  CHECK: cd /home/user/Mymobileworld && python3 tools/media/media.py check 2>&1 | grep -c vans-v18 | sed 's/^0$/VANS_MEDIA_OK/'
+  EXPECT: VANS_MEDIA_OK

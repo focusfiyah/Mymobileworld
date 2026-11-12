@@ -13,7 +13,7 @@ This is the part I wanted to see before I bought it. Red insole with the white V
 I keep reaching for this more than I expected. They go with my comfy clothes and my going out clothes. It's in the orange cart.
 
 ## V22
-This just makes everything feel a little more put together. Sweats and sequin Vans, done. It's in the orange cart.
+This just makes everything feel a little more put together. A satin skirt and sequin Vans, done. It's in the orange cart.
 
 ## V23
 I was not expecting to care this much about a pair of Vans. The sequins catch the light every time I move. It's in the orange cart.
@@ -52,7 +52,7 @@ This is one of those things I keep reaching for without thinking about it. I wea
 This is the thing I grab when I want my outfit to look done. I put these on and I'm out the door. It's in the orange cart.
 
 ## V35
-I know this is minor, but I really do care about the bottom of my shoes. Gum waffle sole, just like the classic. It's in the orange cart.
+I do not think everyone needs this, but I know exactly who will appreciate it. Anyone who loves checkered Vans and a little shine. It's in the orange cart.
 
 ## V36
 I save this specifically for days I want a little sparkle. Lately that is most days. It's in the orange cart.
