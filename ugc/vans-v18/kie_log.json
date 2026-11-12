@@ -7693,5 +7693,491 @@
    ]
   },
   "costTime": 161
+ },
+ {
+  "t": "2026-11-12 04:17:04",
+  "submitted": "c0ebc03a97133cef3db70a58d40617e4",
+  "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin c"
+ },
+ {
+  "t": "2026-11-12 04:17:05",
+  "submitted": "6fdc301a6c9f2ec9949f6d800a52859e",
+  "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin c"
+ },
+ {
+  "t": "2026-11-12 04:17:07",
+  "submitted": "d9d4fa485206afa3b0f09383fb6dd265",
+  "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin c"
+ },
+ {
+  "t": "2026-11-12 04:18:01",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin close-up). Image 2 = the real sequin squares, side tab and laces up close: copy this exact square pattern, sequins only inside the black squares. Image 3 = the real woven side tab: a small BLACK tab with white VANS letters, sewn flat on the outer side. Image 4 = Grace's real ankles in the shoes: her exact medium-deep brown skin tone and thin gold anklet (ignore the pavement and her pants). Image 5 = the real place. VIEW AND FRAMING FIRST: Standing on the sidewalk beside the car: side view of both feet side by side and parallel, both toes pointing to the LEFT edge; each shoe is checkerboard along the whole side to the heel, the only solid black is the thin collar binding and the narrow heel stripe at the very back. She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest. THE SHOE must match the product sheet and every close-up exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top lace-up sneaker in sequin checkerboard. A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain woven canvas; black leather binding round the collar with white stitching; a black tongue; natural tan canvas lining; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab with white VANS letters on the outer side; a vertical black heel stripe; a chunky smooth off-white rubber sidewall with a small WHITE 'OFF THE WALL' label at the back; a deep RED insole with a WHITE rectangle holding the red VANS logo; a gum-brown waffle sole. The toe box is the same checkerboard as the rest of the upper, never a solid black toe or panel: every black square is its own square with off-white canvas squares between, the sequins never merge into a solid black area at the toe, heel or sides. The sidewall is OFF-WHITE all the way round; gum brown shows ONLY on the bottom tread, never on the side. The laces are BLACK. True size: an adult women's sneaker about 25 cm long, exactly the length of her own foot. No other logos, no added marks, no extra text. HER LEGS: light grey joggers cuffed above the ankle; GRACE'S SKIN on every ankle, foot and hand: the exact medium-deep brown tone of the skin reference, never lighter or darker; a thin gold anklet. PLACE: a parked car with its door open onto a stone-paved cafe sidewalk: cream-white quilted leather seats, a black door sill, the sidewalk and cafe chairs outside (like the place photo), passenger side, near the cafe tables. LIGHT: bright soft daylight, neutral white balance: the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The black sequins catch the daylight and shine the way real sequins do, a visible glossy sheen on every black square; no added star sparkles, lens flares or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. NO FACE: no face, head or hair of anyone anywhere in the frame; the frame stops below her chest. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438584453-u8se8kdilke.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438897908-n920biaxip.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438586573-ss2r348dcv.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438590365-y3mois4ha4r.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438592244-glioj8ektyb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "6fdc301a6c9f2ec9949f6d800a52859e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/6fdc301a6c9f2ec9949f6d800a52859e_0_1794457079.jpeg"
+   ]
+  },
+  "costTime": 61
+ },
+ {
+  "t": "2026-11-12 04:18:03",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin close-up). Image 2 = the real sequin squares, side tab and laces up close: copy this exact square pattern, sequins only inside the black squares. Image 3 = the real woven side tab: a small BLACK tab with white VANS letters, sewn flat on the outer side. Image 4 = Grace's real ankles in the shoes: her exact medium-deep brown skin tone and thin gold anklet (ignore the pavement and her pants). Image 5 = the real place. VIEW AND FRAMING FIRST: Seated in the open car door: view from above of both feet on the black door sill, both shoes on, both toe caps pointing to the lower-LEFT corner, both feet flat on the sill and in a straight line with her legs, ankles relaxed and natural, never bent or twisted, the sidewalk below. She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest. THE SHOE must match the product sheet and every close-up exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top lace-up sneaker in sequin checkerboard. A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain woven canvas; black leather binding round the collar with white stitching; a black tongue; natural tan canvas lining; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab with white VANS letters on the outer side; a vertical black heel stripe; a chunky smooth off-white rubber sidewall with a small WHITE 'OFF THE WALL' label at the back; a deep RED insole with a WHITE rectangle holding the red VANS logo; a gum-brown waffle sole. The toe box is the same checkerboard as the rest of the upper, never a solid black toe or panel: every black square is its own square with off-white canvas squares between, the sequins never merge into a solid black area at the toe, heel or sides. The sidewall is OFF-WHITE all the way round; gum brown shows ONLY on the bottom tread, never on the side. The laces are BLACK. True size: an adult women's sneaker about 25 cm long, exactly the length of her own foot. No other logos, no added marks, no extra text. HER LEGS: dark-wash straight jeans cropped at the ankle; GRACE'S SKIN on every ankle, foot and hand: the exact medium-deep brown tone of the skin reference, never lighter or darker; a thin gold anklet. PLACE: a parked car with its door open onto a stone-paved cafe sidewalk: cream-white quilted leather seats, a black door sill, the sidewalk and cafe chairs outside (like the place photo), passenger door. LIGHT: bright soft daylight, neutral white balance: the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The black sequins catch the daylight and shine the way real sequins do, a visible glossy sheen on every black square; no added star sparkles, lens flares or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. NO FACE: no face, head or hair of anyone anywhere in the frame; the frame stops below her chest. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438584453-u8se8kdilke.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438897908-n920biaxip.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438586573-ss2r348dcv.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438590365-y3mois4ha4r.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438592244-glioj8ektyb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d9d4fa485206afa3b0f09383fb6dd265",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/d9d4fa485206afa3b0f09383fb6dd265_0_1794457081.jpeg"
+   ]
+  },
+  "costTime": 59
+ },
+ {
+  "t": "2026-11-12 04:18:13",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin close-up). Image 2 = the real sequin squares, side tab and laces up close: copy this exact square pattern, sequins only inside the black squares. Image 3 = the real back of the shoe: the vertical BLACK heel stripe with white stitching and the small WHITE 'OFF THE WALL' skateboard label with black print on the off-white sidewall. Image 4 = the real insole: deep RED with a WHITE rectangle holding the red VANS skateboard-tail logo. Image 5 = Grace's real hand holding the shoe: her exact medium-deep brown skin tone, nails, rings and bracelets (ignore the street). Image 6 = Grace's real ankles in the shoes: her exact medium-deep brown skin tone and thin gold anklet (ignore the pavement and her pants). Image 7 = the real place. VIEW AND FRAMING FIRST: In the car: close-up of the RIGHT shoe held in her right hand, back view: the black heel stripe and the white OFF THE WALL label facing the camera, the toe pointing to the TOP edge, the black dashboard soft behind. Her RIGHT foot wears the RIGHT shoe, fully inside it (when her legs are crossed, the crossed-over top leg is her right leg and it wears the right shoe); her RIGHT hand holds ONE shoe, the LEFT shoe of the pair, empty and laced with its black laces, the mirror partner of the worn one. Her LEFT foot is BARE (no shoe, no sock, no sandal) or out of the frame, because its shoe is in her hand. Exactly two shoes in the whole frame: the one on her right foot and the one in her hand; never a third shoe, even partly at an edge. THE SHOE must match the product sheet and every close-up exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top lace-up sneaker in sequin checkerboard. A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain woven canvas; black leather binding round the collar with white stitching; a black tongue; natural tan canvas lining; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab with white VANS letters on the outer side; a vertical black heel stripe; a chunky smooth off-white rubber sidewall with a small WHITE 'OFF THE WALL' label at the back; a deep RED insole with a WHITE rectangle holding the red VANS logo; a gum-brown waffle sole. The toe box is the same checkerboard as the rest of the upper, never a solid black toe or panel: every black square is its own square with off-white canvas squares between, the sequins never merge into a solid black area at the toe, heel or sides. The sidewall is OFF-WHITE all the way round; gum brown shows ONLY on the bottom tread, never on the side. The laces are BLACK. True size: an adult women's sneaker about 25 cm long, exactly the length of her own foot. No other logos, no added marks, no extra text. HER HAND is Grace's real hand, exactly like the hand reference: the same medium-deep brown skin tone, slim fingers, medium-length pink nails with white French tips, a thin blue silicone RING on one finger (a ring, never a wristband: nothing blue on her wrist), a silver heart ring, a chunky gold watch-style link bracelet and thin gold chain bracelets. Never lighter or darker skin than the reference. A cream blazer cuff at the wrist. The hand enters from the frame edge, whole wrist visible, five fingers, and it GRIPS the shoe: thumb on one side, fingers curled round the other. ONE BODY, NATURAL POSE: her legs, feet, arm and hand all belong to one person whose body is just behind the camera (we see from her own eyes). Every limb enters the frame from the bottom edge or from the side nearest her body: the holding forearm runs back toward that same body, and her right hand is on the same side of the frame as her right leg. No arm or hand comes in from the opposite edge or from the top of the frame; joints bend the natural way. HER LEGS: black wide-leg trousers cropped at the ankle; GRACE'S SKIN on every ankle, foot and hand: the exact medium-deep brown tone of the skin reference, never lighter or darker; a thin gold anklet. PLACE: inside a car with cream-white quilted leather seats, a black dashboard and door panels, daylight through the windows (like the place photo), rear seat, seat-back side. LIGHT: bright soft daylight, neutral white balance: the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The black sequins catch the daylight and shine the way real sequins do, a visible glossy sheen on every black square; no added star sparkles, lens flares or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. NO FACE: no face, head or hair of anyone anywhere in the frame; the frame stops below her chest. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438584453-u8se8kdilke.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438897908-n920biaxip.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438828766-vlxgkbt677a.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438686401-tu1u9y4mfyi.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438588567-zhaxyw4xp4.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438590365-y3mois4ha4r.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438592244-glioj8ektyb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "c0ebc03a97133cef3db70a58d40617e4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/c0ebc03a97133cef3db70a58d40617e4_0_1794457090.jpeg"
+   ]
+  },
+  "costTime": 76
+ },
+ {
+  "t": "2026-11-12 04:18:31",
+  "submitted": "5c7143976d2713e9110e1070f90cae84",
+  "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin c"
+ },
+ {
+  "t": "2026-11-12 04:19:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the real shoe from every side (product sheet: pair, side, top with red insole, gum waffle sole, back, sequin close-up). Image 2 = the real sequin squares, side tab and laces up close: copy this exact square pattern, sequins only inside the black squares. Image 3 = the real woven side tab: a small BLACK tab with white VANS letters, sewn flat on the outer side. Image 4 = Grace's real ankles in the shoes: her exact medium-deep brown skin tone and thin gold anklet (ignore the pavement and her pants). Image 5 = the real place. VIEW AND FRAMING FIRST: In the car: close-up of her right foot in its shoe resting on the cream quilted leather seat, side view, the toe pointing to the RIGHT edge, the black side tab facing the camera; her leg from mid-shin down. She wears the pair: the left shoe on her left foot, the right shoe on her right foot, both feet fully inside the laced shoes so her feet hide the insoles; these are the only two shoes in the scene. Her face is never in the frame: the frame stops below her chest. THE SHOE must match the product sheet and every close-up exactly, letter for letter and colour for colour: the real Vans Premium Authentic low-top lace-up sneaker in sequin checkerboard. A black and off-white checkerboard where ONLY the black squares are covered in raised black sequins and the off-white squares are plain woven canvas; black leather binding round the collar with white stitching; a black tongue; natural tan canvas lining; flat black cotton laces through four pairs of black eyelets; a small BLACK woven tab with white VANS letters on the outer side; a vertical black heel stripe; a chunky smooth off-white rubber sidewall with a small WHITE 'OFF THE WALL' label at the back; a deep RED insole with a WHITE rectangle holding the red VANS logo; a gum-brown waffle sole. The toe box is the same checkerboard as the rest of the upper, never a solid black toe or panel: every black square is its own square with off-white canvas squares between, the sequins never merge into a solid black area at the toe, heel or sides. The sidewall is OFF-WHITE all the way round; gum brown shows ONLY on the bottom tread, never on the side. The laces are BLACK. True size: an adult women's sneaker about 25 cm long, exactly the length of her own foot. No other logos, no added marks, no extra text. HER LEGS: black wide-leg trousers cropped at the ankle; GRACE'S SKIN on every ankle, foot and hand: the exact medium-deep brown tone of the skin reference, never lighter or darker; a thin gold anklet. PLACE: inside a car with cream-white quilted leather seats, a black dashboard and door panels, daylight through the windows (like the place photo), rear seat, seat-back side. LIGHT: bright soft daylight, neutral white balance: the off-white squares stay off-white, no yellow, orange or golden cast, no dark or moody grade. The black sequins catch the daylight and shine the way real sequins do, a visible glossy sheen on every black square; no added star sparkles, lens flares or light streaks. A real phone photo, casual and realistic. Vertical 9:16 photo. NO FACE: no face, head or hair of anyone anywhere in the frame; the frame stops below her chest. No text, no captions, no watermark anywhere.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438584453-u8se8kdilke.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438897908-n920biaxip.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438586573-ss2r348dcv.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438590365-y3mois4ha4r.jpg",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794438592244-glioj8ektyb.jpg"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5c7143976d2713e9110e1070f90cae84",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/5c7143976d2713e9110e1070f90cae84_0_1794457168.jpeg"
+   ]
+  },
+  "costTime": 60
+ },
+ {
+  "t": "2026-11-12 04:20:58",
+  "submitted": "69fc0c470e6e5e12952654a87a5f7fa0",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:20:59",
+  "submitted": "b4c15329e72fd9d7eca69e81c02e8857",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:01",
+  "submitted": "09562396a157e331a419382c0540ddfe",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:03",
+  "submitted": "bdaadf459ff0fce6523068c044f38051",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:04",
+  "submitted": "cffc22d2924254ee84893cb1bc650a0e",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:06",
+  "submitted": "50f3763c20ca7ef961132636cf6e79c4",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:08",
+  "submitted": "2dc366ed83409e21cfdc91ab702ecc27",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:09",
+  "submitted": "8a7997d555e5d71e85e43a3368eeba27",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:11",
+  "submitted": "7c89cd7e76d80e4c608f367ab5e90889",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:21:12",
+  "submitted": "cd2f34b0e8427d6d0b8f808a26c4bf40",
+  "prompt": "she lifts her right heel a little and sets it down; the OFF-WHITE sidewall stays in view and the bottom of the sole neve"
+ },
+ {
+  "t": "2026-11-12 04:21:14",
+  "submitted": "ad4d977d9b384ad81ee38874e15ccb02",
+  "prompt": "she flexes her right ankle slowly once, toes up and back; no hand appears at any time. Camera: very slow push-in along t"
+ },
+ {
+  "t": "2026-11-12 04:21:15",
+  "submitted": "f4489cc25ec2248c1261b56352f2ca08",
+  "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the sho"
+ },
+ {
+  "t": "2026-11-12 04:22:00",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: a black satin midi skirt, bare ankles; setting: rear door. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794452524164-vljdhdi322.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "69fc0c470e6e5e12952654a87a5f7fa0",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457317602-2zfchg8br08.mp4"
+   ]
+  },
+  "costTime": 104
+ },
+ {
+  "t": "2026-11-12 04:22:09",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: light grey joggers cuffed above the ankle; setting: passenger seat, dashboard side. Toe direction stays exactly as in the first frame: toe pointing to the LEFT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794444899796-np5cvgd2cve.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "50f3763c20ca7ef961132636cf6e79c4",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457326188-12apevnkoqwe.mp4"
+   ]
+  },
+  "costTime": 95
+ },
+ {
+  "t": "2026-11-12 04:22:10",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: light grey joggers cuffed above the ankle; setting: passenger side, near the cafe tables. Toe direction stays exactly as in the first frame: toe pointing to the RIGHT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794452816797-ctbl97rmy6f.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "2dc366ed83409e21cfdc91ab702ecc27",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457322170-nomp8ogf8qc.mp4"
+   ]
+  },
+  "costTime": 87
+ },
+ {
+  "t": "2026-11-12 04:22:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "she flexes her right ankle slowly once, toes up and back; no hand appears at any time. Camera: very slow push-in along the sidewall. Her legs: black wide-leg trousers cropped at the ankle; setting: rear seat, seat-back side. Toe direction stays exactly as in the first frame: toe pointing to the RIGHT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. The feet stay in the shoes; nothing slides. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794457187177-xzlpnhs5akn.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "ad4d977d9b384ad81ee38874e15ccb02",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457333515-vj7o5uexl7.mp4"
+   ]
+  },
+  "costTime": 84
+ },
+ {
+  "t": "2026-11-12 04:22:21",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "she lifts her right heel a little and sets it down; the OFF-WHITE sidewall stays in view and the bottom of the sole never faces the camera; no hand appears at any time. Camera: locked off. Her legs: a black satin midi skirt, bare ankles; setting: on the rug beside the curved cream bench. Toe direction stays exactly as in the first frame: toe pointing to the lower-LEFT corner. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. The feet stay in the shoes; nothing slides. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794450075907-5362k7oqgif.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "cd2f34b0e8427d6d0b8f808a26c4bf40",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457338419-zsbcqwjr4pr.mp4"
+   ]
+  },
+  "costTime": 93
+ },
+ {
+  "t": "2026-11-12 04:22:29",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: a black satin midi skirt, bare ankles; setting: rear door. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the deep red insole with its white VANS rectangle; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794452524182-f43vmbdq0sd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "09562396a157e331a419382c0540ddfe",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457345736-dtyhgfkr2q.mp4"
+   ]
+  },
+  "costTime": 123
+ },
+ {
+  "t": "2026-11-12 04:22:39",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: cream wide-leg trousers cropped just above the ankle; setting: driver door. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the deep red insole with its white VANS rectangle; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794444899759-xy10gyv4r.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "7c89cd7e76d80e4c608f367ab5e90889",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457355432-1ky8setb7sc.mp4"
+   ]
+  },
+  "costTime": 114
+ },
+ {
+  "t": "2026-11-12 04:22:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: dark-wash straight jeans cropped at the ankle; setting: passenger door. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794452524142-iu4dt2wiyp.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "8a7997d555e5d71e85e43a3368eeba27",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457359813-mhjnehb62c.mp4"
+   ]
+  },
+  "costTime": 121
+ },
+ {
+  "t": "2026-11-12 04:22:43",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: black wide-leg trousers cropped at the ankle; setting: rear seat, seat-back side. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black heel stripe and the white OFF THE WALL label with black print, the deep red insole with its white VANS rectangle; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794457187217-07lel1w58lvf.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "f4489cc25ec2248c1261b56352f2ca08",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457358177-mpk4nw5pqe.mp4"
+   ]
+  },
+  "costTime": 103
+ },
+ {
+  "t": "2026-11-12 04:22:44",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: light grey joggers cuffed above the ankle; setting: passenger side, near the cafe tables. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the gum-brown waffle sole; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794452816742-ko85apu3ujd.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "bdaadf459ff0fce6523068c044f38051",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457361679-x12xkngudf9.mp4"
+   ]
+  },
+  "costTime": 137
+ },
+ {
+  "t": "2026-11-12 04:23:17",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: white straight jeans cropped at the ankle; setting: the table by the window. Toe direction stays exactly as in the first frame: toe pointing to the LEFT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794444899823-i3t1ah4ly4j.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "b4c15329e72fd9d7eca69e81c02e8857",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457387464-jxj2gt1l3z.mp4"
+   ]
+  },
+  "costTime": 173
+ },
+ {
+  "t": "2026-11-12 04:23:28",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "her hand keeps the same grip and holds the shoe steady at the same angle, only a small natural sway of the hand; the shoe never turns, tilts over or flips. Camera: slow push-in toward the shoe. Her legs: cream wide-leg trousers cropped just above the ankle; setting: high angle, the chalkboard soft behind. Toe direction stays exactly as in the first frame: toe pointing to the TOP edge of the frame. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. Her arm and legs stay joined to one natural body, the hand on the same side as her leg, as in the first frame. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794450075885-rma43ldowxj.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "cffc22d2924254ee84893cb1bc650a0e",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457399418-vp3pd2l2f7q.mp4"
+   ]
+  },
+  "costTime": 174
+ },
+ {
+  "t": "2026-11-12 04:23:48",
+  "submitted": "08454ef7cf7b587020bebcf03a371828",
+  "prompt": "she taps her right toe twice on the sill; no hand appears at any time. Camera: locked off. Her legs: dark-wash straight "
+ },
+ {
+  "t": "2026-11-12 04:25:53",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "she taps her right toe twice on the sill; no hand appears at any time. Camera: locked off. Her legs: dark-wash straight jeans cropped at the ankle; setting: passenger door. Toe direction stays exactly as in the first frame: both toe caps pointing to the lower-LEFT corner. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. The feet stay in the shoes; nothing slides. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794457187158-hi272v87mel.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "08454ef7cf7b587020bebcf03a371828",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457547628-4fckm2d2d2t.mp4"
+   ]
+  },
+  "costTime": 123
+ },
+ {
+  "t": "2026-11-12 04:26:12",
+  "submitted": "0fd4a63e282fe11b90bd9643186ca23c",
+  "prompt": "she lifts her right heel and sets it down once; no hand appears at any time. Camera: locked off. Her legs: light grey jo"
+ },
+ {
+  "t": "2026-11-12 04:28:23",
+  "request": {
+   "model": "bytedance/seedance-2-mini",
+   "input": {
+    "prompt": "she lifts her right heel and sets it down once; no hand appears at any time. Camera: locked off. Her legs: light grey joggers cuffed above the ankle; setting: passenger side, near the cafe tables. Toe direction stays exactly as in the first frame: both toes pointing to the LEFT edge. The shoe keeps exactly the look of the first frame the whole clip: checkerboard with sequins only on the black squares, the black side tab with white VANS letters; it never turns, flips or changes shape. The feet stay in the shoes; nothing slides. Her skin stays the same medium-deep brown tone as the first frame. Bright neutral daylight, realistic phone footage, 9:16. No face, head or hair ever enters the frame. The black sequins catch the light and shine as the shoe or foot moves (real sequin shine, no added star sparkles or flares); no text, no captions, no music, no voice.",
+    "first_frame_url": "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794457187254-gck5xfjmxb.png",
+    "generate_audio": false,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "duration": 4
+   }
+  },
+  "taskId": "0fd4a63e282fe11b90bd9643186ca23c",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/seedance/1794457692474-96qlrdl7fk.mp4"
+   ]
+  },
+  "costTime": 128
  }
 ]

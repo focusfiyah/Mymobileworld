@@ -3,7 +3,7 @@
 Ask (Ralph 2026-11-11): about 20 videos of the Vans, 3 from each of 6 links Grace sent (same beats, new look), made on Kie, 16 s each, music only. Budget: "$25 min, $30 max". Storyboard for all, then ONE example video per link before the rest. Grace's real complexion on every hand and ankle (refs/grace/, frames of her own post).
 Same shoe as `ugc/vans-sequin-authentic/` (V1-V11), `ugc/vans-sequin-v12/`, `ugc/vans-vo5/` (V13-V17); refs, product truth and REMOVED.md copied from vans-vo5.
 
-Status: 2026-11-12 all 20 cut (out/V18-V37.mp4, 15 Mbps; review copies on the page). 13 at 16 s; V20, V24, V26, V30, V31, V32, V34 run 12-14 s (held shoe turned, cut before it). Waiting on Ralph's review. Then Drive + Grace.
+Status: 2026-11-12 round 3: Ralph's notes on V22, V26, V31, V34 fixed + 9 held-shoe clips remade steady; all 20 cuts at 16 s on the review page. $33.22 of $34.00 (extras $4.00 OK'd). Waiting on Ralph's review, then Drive + Grace.
 Review page: https://claude.ai/artifact/Hvvw2NxP4JCwL7bVLFidvT
 Drive: "Vans sequin (Grace)" https://drive.google.com/drive/folders/1sCPZmn3mSM_BazNZxNxVFibniSqUOE-_ (V18-V37 go here after Ralph's OK on each cut).
 

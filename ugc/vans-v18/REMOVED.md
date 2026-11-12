@@ -35,3 +35,8 @@ Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ral
 | An empty shoe on its own (on the ground, a table, a seat; also the empty pair) | Ralph (Telegram 2026-11-12: "either wear it or hold it") | 2026-11-12 | 17 shots rewritten as worn or held; 5 that went solid black dropped |
 | Held shoe from the same side as the worn one (V19S5: crossed right leg wore the right shoe while she held a right shoe) | Ralph (Telegram 2026-11-12) | 2026-11-12 | HOLD block: right foot wears the right shoe, she holds the LEFT shoe |
 | Sequins looking flat (no shine) | Ralph (Telegram 2026-11-12: "make sure the shiny effect is showing") | 2026-11-12 | prompts: real sequin shine on every black square, no added sparkles or flares |
+| Brown on the side of the sole (V22 ~12 s) | Ralph | 2026-11-12 | 2b beat: sidewall stays off-white, the bottom never faces the camera; V22S4 remade |
+| White insole / white Vans box in a held shoe (V26 first seconds); the real insole is red with a white box and red letters | Ralph | 2026-11-12 | 3c beat gets the real insole close-up; V26S2 remade |
+| Crooked, broken-looking foot (V31) | Ralph | 2026-11-12 | 5d beat: feet flat and in line with her legs; V31S1 remade |
+| Black strip along the side of the shoe (V34 ~9 s) | Ralph | 2026-11-12 | 6e beat: checkerboard all along the side; V34S3 remade |
+| Held shoe turning mid-clip (9 clips) | Claude QC | 2026-11-12 | held clips now: hand steady, camera pushes in; 9 remade, every video back to 16 s |
