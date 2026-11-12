@@ -13,8 +13,8 @@ Request: Grace, Telegram group -5234107715, msg 466 ("I need up 10 videos that a
   EXPECT: CAPTIONS_OK
 - [x] G5: (manual) Humanizer + readability proofs; captions sent to Grace on Telegram (no ✅); "Captions & SEO" Google Doc in the product folder
 - [x] G6: (manual) One review page, videos stacked full width; Ralph email (+ push if the tool exists); nothing uploaded to Drive before Ralph's OK
-- [ ] G7: (manual) After Ralph's OK: CURRENT - JTV Heart Necklace V1..V10 in the product folder (sizes = local); one "✅ ... V1-V10 are done and in Drive" message
-- [ ] G8: (manual) Brain note + session log, media packed, BRAIN_OK, merged to main
+- [x] G7: (manual) After Ralph's OK: CURRENT - JTV Heart Necklace V1..V10 in the product folder (sizes = local); one "✅ ... V1-V10 are done and in Drive" message
+- [x] G8: (manual) Brain note + session log, media packed, BRAIN_OK, merged to main
 
 Evidence G1: ALL_CUTS_OK, V1-V10 16.00 s 480 frames each, 21.4-27.4 MB.
 Evidence G2: RULES_OK 10 videos (openers b4 b1 b5 a5 b9 a4 b11 a2 b2 b6; closers b14 b13 a7 a1 b8 b12 b7 a3 b3 a6).
@@ -22,3 +22,5 @@ Evidence G3: 6 fps sheets of all 10 viewed; fixes after round 1: b10 closer drop
 Evidence G4: CAPTIONS_OK; negative control (empty file) FAILs.
 Evidence G5: proof/humanizer.md, proof/readability.txt grade 3.0; Telegram Grace 472 (reply to 468, no ✅); Doc 1vlP1k-KUraPUvO8l231fqSwlT1M5JjWJKYF1gE6XbsY in the product folder (content read back).
 Evidence G6: review https://claude.ai/code/artifact/488c44a5-f56a-4920-8e9a-61c566b683a0 (single column); email 1a1cdb2d762df526; Telegram Ralph 473; PushNotification not found by ToolSearch this session (tested). No video in the product folder.
+Evidence G7: Ralph "Ok" 2026-11-12; 10 files uploaded to 18jyjJaSlPPyqOX9N6NmKUECeodZK9s0D, every Drive size = local (22,905,572 ... 27,434,403); no older videos to move; ✅ sent Ralph 474, Grace 475.
+Evidence G8: Brain note + session log 2026-11-12 pushed (vault 65adeb9), BRAIN_OK; media set1 1cTegrjlKHACQi0GojFMwy37EinDPgVP7 sha256 = local (media.py check flags only ugc/kigo-baby-sunglasses, another job); merged to main.
