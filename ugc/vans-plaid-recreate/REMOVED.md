@@ -45,3 +45,4 @@ Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ral
 
 ## Vans plaid recreations (2026-11-12)
 - Held-shoe turn row: Ralph tapped "Allow the turn (Recommended)" for these shot-for-shot videos only. Every held clip is checked frame by frame; any flip, sole showing, or grip switch is cut out or redone (asked).
+- Red sweater (V1), cream knit sleeve (V2), red holiday decor: replaced by Ralph 2026-11-12 ("holiday theme colors to be burgundy and pink", new outfits): V1 burgundy sweater + pink bag, V2 pink knit + burgundy/pink decor. No red sweater or cream sleeve may come back in a clip.

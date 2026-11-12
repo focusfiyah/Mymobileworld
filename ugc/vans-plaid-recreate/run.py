@@ -74,3 +74,15 @@ def edit(sid):
 
 if __name__ == "__main__" and sys.argv[1] == "edit":
     with ThreadPoolExecutor(8) as ex: list(ex.map(edit, sys.argv[2:]))
+
+
+def edit2(sid):
+    """Round-2 colour/outfit edit (nano-banana-pro, $0.09): shots.json <ID>.edit2 + edit2_refs -> stills/<ID>.png"""
+    s = S[sid]
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": s["edit2"], "image_input": [kie.upload(p) for p in s["edit2_refs"]],
+                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"still edit2 {sid}")
+    if url: kie.fetch(url, f"stills/{sid}.png"); print("edit2", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "edit2":
+    with ThreadPoolExecutor(8) as ex: list(ex.map(edit2, sys.argv[2:]))

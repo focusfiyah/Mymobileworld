@@ -90,5 +90,15 @@
   "total": 2.7,
   "sha256": "efd24696bcf16ca38d03069dcb53fb702769729fe560908e330d8390f081d1cf",
   "spent_at_approval": 0.0
- }
+ },
+ "budget_extra": [
+  {
+   "usd": 0.45,
+   "what": "burgundy + pink holiday theme and outfit change: one edit per still",
+   "by": "Ralph",
+   "quote": "Ralph tapped \"Edit the 5 stills, +$0.45 (Recommended)\", \"All decor (Recommended)\", \"Burgundy sweater (Recommended)\", \"Pink knit (Recommended)\" 2026-11-12",
+   "date": "2026-11-12",
+   "book_sha256": "efd24696bcf16ca38d03069dcb53fb702769729fe560908e330d8390f081d1cf"
+  }
+ ]
 }

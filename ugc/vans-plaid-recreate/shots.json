@@ -32,7 +32,12 @@
    "refs/side_closeup.png",
    "refs/product_sheet.png"
   ],
-  "seconds": 8
+  "seconds": 8,
+  "edit2": "Edit Image 1. Image 2 is the real shoe (product sheet): its colours must stay exactly as in Image 2. The held shoe's toe points to the top edge of the frame; her worn left shoe and her bare right foot have their toes pointing to the top edge. Change ONLY two things: (1) her sweater becomes a deep BURGUNDY (wine red) knit, same shape, same folds and texture, the silver rhinestone brooch patches on the sleeve kept as they are; (2) the quilted mini bag at the top-right becomes soft blush PINK, same shape, same silver studs. The black leggings, the grey asphalt, the worn shoe on her left foot and her bare right foot with the white pedicure and silver anklet stay the same. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing and camera angle, Grace's warm medium-deep brown skin on every hand, wrist and foot, the nails and rings, and the shoe with its red, dark green, white and yellow plaid, white side stripe, white laces and brass eyelets (the shoe colours must NOT change). No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+  "edit2_refs": [
+   "stills_r2/V1S1.png",
+   "refs/product_sheet.png"
+  ]
  },
  "V2S1": {
   "video": "V2",
@@ -67,6 +72,11 @@
   "edit_refs": [
    "stills_raw/V2S1.png",
    "refs/grace_hand.png"
+  ],
+  "edit2": "Edit Image 1. Image 2 is the real shoe (product sheet): its colours must stay exactly as in Image 2. The held shoe's toe points to the lower-left corner. Change ONLY these colours: (1) her sweater sleeve becomes a soft blush PINK chunky cable-knit, same shape and texture; (2) in the blurred background, the ornaments and ribbon bows on the Christmas tree become BURGUNDY and soft PINK, and the wrapped gifts become burgundy and pink paper. The tree stays green with the same warm string lights and the same soft blur. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing and camera angle, Grace's warm medium-deep brown skin on every hand, wrist and foot, the nails and rings, and the shoe with its red, dark green, white and yellow plaid, white side stripe, white laces and brass eyelets (the shoe colours must NOT change). No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+  "edit2_refs": [
+   "stills_r2/V2S1.png",
+   "refs/product_sheet.png"
   ]
  },
  "V2S2": {
@@ -105,6 +115,11 @@
    "stills_raw/V2S2.png",
    "refs/grace_hand.png",
    "refs/grace_feet.png"
+  ],
+  "edit2": "Edit Image 1. Image 2 is the real shoe (product sheet): its colours must stay exactly as in Image 2. Change ONLY these colours: (1) the red stripes in the cream knit rug become BURGUNDY and soft PINK stripes, same pattern and texture; (2) the red plaid gift wrap at the top-right becomes burgundy and pink gift wrap; the pine branch and lights at the top-left stay the same. The light frayed jeans, both feet in the shoes with toes pointing to the top edge, the wood floor stay the same. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing and camera angle, Grace's warm medium-deep brown skin on every hand, wrist and foot, the nails and rings, and the shoe with its red, dark green, white and yellow plaid, white side stripe, white laces and brass eyelets (the shoe colours must NOT change). No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+  "edit2_refs": [
+   "stills_r2/V2S2.png",
+   "refs/product_sheet.png"
   ]
  },
  "V2S3": {
@@ -175,6 +190,11 @@
   "edit_refs": [
    "stills_raw/V2S4.png",
    "refs/grace_hand.png"
+  ],
+  "edit2": "Edit Image 1. Image 2 is the real shoe (product sheet): its colours must stay exactly as in Image 2. The held shoe's toe points down to the bottom edge. Change ONLY these colours: (1) her sweater sleeve becomes a soft blush PINK chunky cable-knit, same shape and texture; (2) in the blurred background, the ornaments and ribbon bows on the Christmas tree become BURGUNDY and soft PINK, and the wrapped gifts become burgundy and pink paper. The tree stays green with the same warm string lights and the same soft blur. Keep everything else in Image 1 exactly the same, pixel for pixel: the framing and camera angle, Grace's warm medium-deep brown skin on every hand, wrist and foot, the nails and rings, and the shoe with its red, dark green, white and yellow plaid, white side stripe, white laces and brass eyelets (the shoe colours must NOT change). No text, no captions, no stickers, no watermark. No sparkle or light effects.",
+  "edit2_refs": [
+   "stills_r2/V2S4.png",
+   "refs/product_sheet.png"
   ]
  }
 }
