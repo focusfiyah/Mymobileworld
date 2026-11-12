@@ -1,0 +1,632 @@
+[
+ {
+  "video": 1,
+  "zoom": 1.0,
+  "grade": "eq=brightness=0.02:contrast=1.03",
+  "shots": [
+   {
+    "take": "b4",
+    "src": "B",
+    "start": 18.022,
+    "dur": 2.4,
+    "what": "heart swinging close in front of the mirror",
+    "flip": false
+   },
+   {
+    "take": "b5",
+    "src": "B",
+    "start": 27.8,
+    "dur": 2.4,
+    "what": "heart in her palm, close",
+    "flip": false
+   },
+   {
+    "take": "a2",
+    "src": "A",
+    "start": 13.9,
+    "dur": 2.3,
+    "what": "neck close, hand at her collarbone",
+    "flip": false
+   },
+   {
+    "take": "b12",
+    "src": "B",
+    "start": 62.6,
+    "dur": 1.7,
+    "what": "wide round mirror, full look",
+    "flip": false
+   },
+   {
+    "take": "a4",
+    "src": "A",
+    "start": 26.2,
+    "dur": 2.4,
+    "what": "ringed hand by the pendant",
+    "flip": false
+   },
+   {
+    "take": "b9",
+    "src": "B",
+    "start": 48.578,
+    "dur": 2.4,
+    "what": "mirror selfie, face and necklace",
+    "flip": false
+   },
+   {
+    "take": "b14",
+    "src": "B",
+    "start": 68.289,
+    "dur": 2.4,
+    "what": "hand on shoulder, face turned",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 2,
+  "zoom": 1.05,
+  "grade": "eq=brightness=0.03:contrast=1.02:saturation=1.03",
+  "shots": [
+   {
+    "take": "b1",
+    "src": "B",
+    "start": 2.0,
+    "dur": 2.1,
+    "what": "heart hanging from her fingers, vanity bulbs behind",
+    "flip": true
+   },
+   {
+    "take": "a5",
+    "src": "A",
+    "start": 31.852,
+    "dur": 2.0333,
+    "what": "pendant close on bare skin",
+    "flip": false
+   },
+   {
+    "take": "b7",
+    "src": "B",
+    "start": 37.9,
+    "dur": 2.0333,
+    "what": "palm wider, rings",
+    "flip": true
+   },
+   {
+    "take": "a3",
+    "src": "A",
+    "start": 20.189,
+    "dur": 2.0333,
+    "what": "tilted close, fingers beside the heart",
+    "flip": false
+   },
+   {
+    "take": "b4",
+    "src": "B",
+    "start": 18.178,
+    "dur": 2.0333,
+    "what": "heart swinging close in front of the mirror",
+    "flip": true
+   },
+   {
+    "take": "b11",
+    "src": "B",
+    "start": 58.167,
+    "dur": 2.0333,
+    "what": "hand on shoulder, neck and pendant",
+    "flip": false
+   },
+   {
+    "take": "b12",
+    "src": "B",
+    "start": 62.6,
+    "dur": 1.7,
+    "what": "wide round mirror, full look",
+    "flip": true
+   },
+   {
+    "take": "b13",
+    "src": "B",
+    "start": 64.337,
+    "dur": 2.0333,
+    "what": "selfie closer",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 3,
+  "zoom": 1.0,
+  "grade": "eq=brightness=0.025:contrast=1.04:saturation=0.98",
+  "shots": [
+   {
+    "take": "b5",
+    "src": "B",
+    "start": 27.811,
+    "dur": 2.8,
+    "what": "heart in her palm, close",
+    "flip": false
+   },
+   {
+    "take": "b3",
+    "src": "B",
+    "start": 15.4,
+    "dur": 2.0,
+    "what": "heart lowered into frame in front of the round mirror",
+    "flip": false
+   },
+   {
+    "take": "a1",
+    "src": "A",
+    "start": 4.233,
+    "dur": 2.8,
+    "what": "low angle, fingers framing the pendant on her chest",
+    "flip": false
+   },
+   {
+    "take": "b9",
+    "src": "B",
+    "start": 48.4,
+    "dur": 2.8,
+    "what": "mirror selfie, face and necklace",
+    "flip": false
+   },
+   {
+    "take": "b11",
+    "src": "B",
+    "start": 56.067,
+    "dur": 2.8,
+    "what": "hand on shoulder, neck and pendant",
+    "flip": false
+   },
+   {
+    "take": "a7",
+    "src": "A",
+    "start": 39.4,
+    "dur": 2.8,
+    "what": "hand on chest with rings, pendant centre",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 4,
+  "zoom": 1.08,
+  "grade": "eq=brightness=0.035:contrast=1.02",
+  "shots": [
+   {
+    "take": "a5",
+    "src": "A",
+    "start": 31.8,
+    "dur": 2.1,
+    "what": "pendant close on bare skin",
+    "flip": false
+   },
+   {
+    "take": "b6",
+    "src": "B",
+    "start": 34.307,
+    "dur": 2.4333,
+    "what": "heart in her palm, chain up",
+    "flip": false
+   },
+   {
+    "take": "b2",
+    "src": "B",
+    "start": 9.585,
+    "dur": 2.4333,
+    "what": "heart hanging from her fingers, later",
+    "flip": false
+   },
+   {
+    "take": "a2",
+    "src": "A",
+    "start": 15.263,
+    "dur": 2.4333,
+    "what": "neck close, hand at her collarbone",
+    "flip": false
+   },
+   {
+    "take": "b12",
+    "src": "B",
+    "start": 62.6,
+    "dur": 1.7,
+    "what": "wide round mirror, full look",
+    "flip": false
+   },
+   {
+    "take": "b14",
+    "src": "B",
+    "start": 68.122,
+    "dur": 2.4333,
+    "what": "hand on shoulder, face turned",
+    "flip": false
+   },
+   {
+    "take": "a1",
+    "src": "A",
+    "start": 4.022,
+    "dur": 2.4667,
+    "what": "low angle, fingers framing the pendant on her chest",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 5,
+  "zoom": 1.0,
+  "grade": "eq=brightness=0.02:contrast=1.05:saturation=1.04",
+  "shots": [
+   {
+    "take": "b9",
+    "src": "B",
+    "start": 49.067,
+    "dur": 2.0,
+    "what": "mirror selfie, face and necklace",
+    "flip": false
+   },
+   {
+    "take": "b4",
+    "src": "B",
+    "start": 18.467,
+    "dur": 2.0,
+    "what": "heart swinging close in front of the mirror",
+    "flip": true
+   },
+   {
+    "take": "a7",
+    "src": "A",
+    "start": 39.489,
+    "dur": 2.0,
+    "what": "hand on chest with rings, pendant centre",
+    "flip": false
+   },
+   {
+    "take": "b5",
+    "src": "B",
+    "start": 28.2,
+    "dur": 2.0,
+    "what": "heart in her palm, close",
+    "flip": true
+   },
+   {
+    "take": "a3",
+    "src": "A",
+    "start": 21.0,
+    "dur": 2.0,
+    "what": "tilted close, fingers beside the heart",
+    "flip": false
+   },
+   {
+    "take": "b11",
+    "src": "B",
+    "start": 55.4,
+    "dur": 2.0,
+    "what": "hand on shoulder, neck and pendant",
+    "flip": false
+   },
+   {
+    "take": "a4",
+    "src": "A",
+    "start": 25.867,
+    "dur": 2.0,
+    "what": "ringed hand by the pendant",
+    "flip": false
+   },
+   {
+    "take": "b8",
+    "src": "B",
+    "start": 44.533,
+    "dur": 2.0,
+    "what": "palm wider, other angle",
+    "flip": true
+   }
+  ]
+ },
+ {
+  "video": 6,
+  "zoom": 1.05,
+  "grade": "eq=brightness=0.03:contrast=1.03:saturation=1.02",
+  "shots": [
+   {
+    "take": "a4",
+    "src": "A",
+    "start": 25.507,
+    "dur": 3.0667,
+    "what": "ringed hand by the pendant",
+    "flip": false
+   },
+   {
+    "take": "b1",
+    "src": "B",
+    "start": 2.0,
+    "dur": 3.0,
+    "what": "heart hanging from her fingers, vanity bulbs behind",
+    "flip": false
+   },
+   {
+    "take": "a5",
+    "src": "A",
+    "start": 31.8,
+    "dur": 2.1,
+    "what": "pendant close on bare skin",
+    "flip": false
+   },
+   {
+    "take": "b6",
+    "src": "B",
+    "start": 34.237,
+    "dur": 3.0667,
+    "what": "heart in her palm, chain up",
+    "flip": false
+   },
+   {
+    "take": "a2",
+    "src": "A",
+    "start": 13.926,
+    "dur": 3.0667,
+    "what": "neck close, hand at her collarbone",
+    "flip": false
+   },
+   {
+    "take": "b12",
+    "src": "B",
+    "start": 62.6,
+    "dur": 1.7,
+    "what": "wide round mirror, full look",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 7,
+  "zoom": 1.0,
+  "grade": "eq=brightness=0.015:contrast=1.04",
+  "shots": [
+   {
+    "take": "b11",
+    "src": "B",
+    "start": 57.867,
+    "dur": 2.3333,
+    "what": "hand on shoulder, neck and pendant",
+    "flip": false
+   },
+   {
+    "take": "b5",
+    "src": "B",
+    "start": 27.919,
+    "dur": 2.3667,
+    "what": "heart in her palm, close",
+    "flip": false
+   },
+   {
+    "take": "b2",
+    "src": "B",
+    "start": 9.819,
+    "dur": 2.3667,
+    "what": "heart hanging from her fingers, later",
+    "flip": false
+   },
+   {
+    "take": "a4",
+    "src": "A",
+    "start": 26.152,
+    "dur": 2.3667,
+    "what": "ringed hand by the pendant",
+    "flip": false
+   },
+   {
+    "take": "b13",
+    "src": "B",
+    "start": 64.3,
+    "dur": 2.1,
+    "what": "selfie closer",
+    "flip": false
+   },
+   {
+    "take": "a5",
+    "src": "A",
+    "start": 31.8,
+    "dur": 2.1,
+    "what": "pendant close on bare skin",
+    "flip": false
+   },
+   {
+    "take": "b7",
+    "src": "B",
+    "start": 38.937,
+    "dur": 2.3667,
+    "what": "palm wider, rings",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 8,
+  "zoom": 1.08,
+  "grade": "eq=brightness=0.03:contrast=1.02:saturation=1.05",
+  "shots": [
+   {
+    "take": "a2",
+    "src": "A",
+    "start": 15.0,
+    "dur": 2.3,
+    "what": "neck close, hand at her collarbone",
+    "flip": false
+   },
+   {
+    "take": "b4",
+    "src": "B",
+    "start": 18.3,
+    "dur": 2.3,
+    "what": "heart swinging close in front of the mirror",
+    "flip": true
+   },
+   {
+    "take": "b8",
+    "src": "B",
+    "start": 43.844,
+    "dur": 2.3,
+    "what": "palm wider, other angle",
+    "flip": true
+   },
+   {
+    "take": "a7",
+    "src": "A",
+    "start": 39.678,
+    "dur": 2.3,
+    "what": "hand on chest with rings, pendant centre",
+    "flip": false
+   },
+   {
+    "take": "b9",
+    "src": "B",
+    "start": 49.2,
+    "dur": 2.3,
+    "what": "mirror selfie, face and necklace",
+    "flip": false
+   },
+   {
+    "take": "b1",
+    "src": "B",
+    "start": 0.489,
+    "dur": 2.2,
+    "what": "heart hanging from her fingers, vanity bulbs behind",
+    "flip": true
+   },
+   {
+    "take": "a3",
+    "src": "A",
+    "start": 20.267,
+    "dur": 2.3,
+    "what": "tilted close, fingers beside the heart",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 9,
+  "zoom": 1.05,
+  "grade": "eq=brightness=0.025:contrast=1.03",
+  "shots": [
+   {
+    "take": "b2",
+    "src": "B",
+    "start": 9.511,
+    "dur": 2.0667,
+    "what": "heart hanging from her fingers, later",
+    "flip": false
+   },
+   {
+    "take": "a1",
+    "src": "A",
+    "start": 4.356,
+    "dur": 1.9667,
+    "what": "low angle, fingers framing the pendant on her chest",
+    "flip": false
+   },
+   {
+    "take": "b6",
+    "src": "B",
+    "start": 35.533,
+    "dur": 2.0667,
+    "what": "heart in her palm, chain up",
+    "flip": false
+   },
+   {
+    "take": "b14",
+    "src": "B",
+    "start": 68.13,
+    "dur": 2.0667,
+    "what": "hand on shoulder, face turned",
+    "flip": false
+   },
+   {
+    "take": "a5",
+    "src": "A",
+    "start": 31.819,
+    "dur": 2.0667,
+    "what": "pendant close on bare skin",
+    "flip": false
+   },
+   {
+    "take": "b12",
+    "src": "B",
+    "start": 62.6,
+    "dur": 1.7,
+    "what": "wide round mirror, full look",
+    "flip": false
+   },
+   {
+    "take": "b5",
+    "src": "B",
+    "start": 27.893,
+    "dur": 2.0667,
+    "what": "heart in her palm, close",
+    "flip": false
+   },
+   {
+    "take": "b3",
+    "src": "B",
+    "start": 15.4,
+    "dur": 2.0,
+    "what": "heart lowered into frame in front of the round mirror",
+    "flip": false
+   }
+  ]
+ },
+ {
+  "video": 10,
+  "zoom": 1.0,
+  "grade": "eq=brightness=0.02:contrast=1.04:saturation=1.02",
+  "shots": [
+   {
+    "take": "b6",
+    "src": "B",
+    "start": 34.2,
+    "dur": 2.7667,
+    "what": "heart in her palm, chain up",
+    "flip": true
+   },
+   {
+    "take": "a3",
+    "src": "A",
+    "start": 19.944,
+    "dur": 2.7667,
+    "what": "tilted close, fingers beside the heart",
+    "flip": false
+   },
+   {
+    "take": "b4",
+    "src": "B",
+    "start": 17.689,
+    "dur": 2.7667,
+    "what": "heart swinging close in front of the mirror",
+    "flip": true
+   },
+   {
+    "take": "b11",
+    "src": "B",
+    "start": 57.467,
+    "dur": 2.7333,
+    "what": "hand on shoulder, neck and pendant",
+    "flip": false
+   },
+   {
+    "take": "a4",
+    "src": "A",
+    "start": 25.574,
+    "dur": 2.7667,
+    "what": "ringed hand by the pendant",
+    "flip": false
+   },
+   {
+    "take": "a6",
+    "src": "A",
+    "start": 34.4,
+    "dur": 2.2,
+    "what": "glossy lips, head tilted back, pendant on her neck",
+    "flip": false
+   }
+  ]
+ }
+]
