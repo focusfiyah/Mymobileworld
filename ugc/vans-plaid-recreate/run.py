@@ -62,3 +62,15 @@ if __name__ == "__main__" and sys.argv[1] == "seedance":
     ids = [i for i in sys.argv[2:] if not i.startswith("--")]
     ids = list(S) if ids == ["all"] else ids
     with ThreadPoolExecutor(min(20, len(ids))) as ex: list(ex.map(seedance, ids))
+
+
+def edit(sid):
+    """One-change edit of a still on Kie (nano-banana-pro, $0.09): shots.json <ID>.edit + edit_refs -> stills/<ID>.png"""
+    s = S[sid]
+    url = kie.run_task({"model": "nano-banana-pro", "input": {"prompt": s["edit"], "image_input": [kie.upload(p) for p in s["edit_refs"]],
+                        "aspect_ratio": "9:16", "resolution": "1K"}}, label=f"still edit {sid}")
+    if url: kie.fetch(url, f"stills/{sid}.png"); print("edit", sid, "ok", flush=True)
+
+
+if __name__ == "__main__" and sys.argv[1] == "edit":
+    with ThreadPoolExecutor(8) as ex: list(ex.map(edit, sys.argv[2:]))

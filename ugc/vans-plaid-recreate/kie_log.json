@@ -1,0 +1,150 @@
+[
+ {
+  "t": "2026-11-12 21:50:19",
+  "submitted": "5ee2bf427053d16d5d3dbe4de125d9e2",
+  "prompt": "Image 1 = the exact shot to recreate (layout, framing, sleeve, background, light). Image 2 = the real shoe from every si"
+ },
+ {
+  "t": "2026-11-12 21:50:20",
+  "submitted": "9374ded20f30103057d2b286dbc6b203",
+  "prompt": "Image 1 = the exact shot to recreate (layout, framing, sleeve, background, light). Image 2 = the real shoe from every si"
+ },
+ {
+  "t": "2026-11-12 21:50:22",
+  "submitted": "dd2a759b98bc81e1a3cf53d038517e73",
+  "prompt": "Image 1 = the exact shot to recreate (layout, framing, jeans, carpet, light). Image 2 = the real shoe from every side (p"
+ },
+ {
+  "t": "2026-11-12 21:50:24",
+  "submitted": "3d67be780454f3990357dfaeb58f2e17",
+  "prompt": "Image 1 = the exact shot to recreate (layout, framing, outfit, ground, bag, light). Image 2 = the real shoe from every s"
+ },
+ {
+  "t": "2026-11-12 21:50:27",
+  "submitted": "d131c11d7203ceec7954804e1a991305",
+  "prompt": "Image 1 = the exact shot to recreate (layout, framing, jeans, rug, floor, light). Image 2 = the real shoe from every sid"
+ },
+ {
+  "t": "2026-11-12 21:51:06",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the exact shot to recreate (layout, framing, jeans, carpet, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real heel label: a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo on the white heel sidewall. Image 4 = Grace's real bare foot (skin tone only). VIEW AND FRAMING FIRST: recreate Image 1 exactly: a low camera on a cream shag carpet looking at the backs of her two feet, toes pointing AWAY from the camera into the frame, light-wash jeans with frayed hems falling over her ankles; both feet fully inside the two shoes of the pair; her LEFT heel (frame left) is raised so the gum-brown waffle sole tips toward the camera, her RIGHT foot flat; a strip of ankle skin shows between hem and shoe. Background a soft blur of warm lights. No hands in the frame. Exactly two shoes. THE SHOE (must match the product sheet and close-ups exactly, colour for colour): Vans Old Skool low-top sneaker in tartan plaid canvas: a very dark oil-green, near-black ground with red bands, thin white lines and thin yellow lines in a square grid; one smooth WHITE leather curved side stripe on each side; WHITE flat laces through brass/antique-gold metal eyelets; white padded collar lining; plaid tongue; white rubber sidewall with one thin black stripe around it; gum-brown waffle outsole; CREAM insole printed with a black rectangle outline holding the black 'VANS' skateboard logo set diagonally; on the white heel sidewall a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo. No sequins, no glitter, no checkerboard, no silver eyelets, no other logos. SKIN: every hand, wrist, ankle and foot in the frame has Grace's exact skin: the warm medium-deep brown skin tone shown in the Grace reference image(s), even and natural, the same tone on hands and feet. Take ONLY the skin tone from those images; ignore their rings, bracelets, watch, anklets, shoes and backgrounds. Real smartphone photo, sharp focus, natural texture, 9:16 vertical. Hands enter from the frame edge with whole wrists, five fingers, nothing seen through the hand. No text, no captions, no stickers, no emoji, no watermark, no logos other than the real Vans marks. No sparkle or light effects. Ignore any smudge or small mark in Image 1.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520191803-7ocdp328gfv.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520194495-5xiiyu7cgw4.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520196608-ht4uja9573o.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520198601-65fw8v4tydb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "dd2a759b98bc81e1a3cf53d038517e73",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/dd2a759b98bc81e1a3cf53d038517e73_0_1794520264.jpeg"
+   ]
+  },
+  "costTime": 54
+ },
+ {
+  "t": "2026-11-12 21:51:16",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the exact shot to recreate (layout, framing, sleeve, background, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real side: white leather stripe, brass eyelets, white laces, plaid colours. Image 4 = Grace's real hand (skin tone only). VIEW AND FRAMING FIRST: recreate Image 1 exactly: a close-up of ONE shoe held by her hand from the lower-left corner, toe pointing to the lower-left, heel toward the top-right, the white side stripe and the brass eyelets with white laces facing the camera; her hand in a cream chunky cable-knit sweater sleeve, two diamond rings, long nude almond nails, as in Image 1. Background: a softly blurred Christmas tree with warm string lights, red bows and plaid-wrapped gifts, warm cosy light, as in Image 1. Only one shoe in the frame. THE SHOE (must match the product sheet and close-ups exactly, colour for colour): Vans Old Skool low-top sneaker in tartan plaid canvas: a very dark oil-green, near-black ground with red bands, thin white lines and thin yellow lines in a square grid; one smooth WHITE leather curved side stripe on each side; WHITE flat laces through brass/antique-gold metal eyelets; white padded collar lining; plaid tongue; white rubber sidewall with one thin black stripe around it; gum-brown waffle outsole; CREAM insole printed with a black rectangle outline holding the black 'VANS' skateboard logo set diagonally; on the white heel sidewall a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo. No sequins, no glitter, no checkerboard, no silver eyelets, no other logos. SKIN: every hand, wrist, ankle and foot in the frame has Grace's exact skin: the warm medium-deep brown skin tone shown in the Grace reference image(s), even and natural, the same tone on hands and feet. Take ONLY the skin tone from those images; ignore their rings, bracelets, watch, anklets, shoes and backgrounds. Real smartphone photo, sharp focus, natural texture, 9:16 vertical. Hands enter from the frame edge with whole wrists, five fingers, nothing seen through the hand. No text, no captions, no stickers, no emoji, no watermark, no logos other than the real Vans marks. No sparkle or light effects. Ignore any smudge or small mark in Image 1.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520191586-7tp3f5058kw.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520194588-z9op5sovvy.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520196782-vw7nu35yrpp.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520199225-0o9agg4mqu6g.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "5ee2bf427053d16d5d3dbe4de125d9e2",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/5ee2bf427053d16d5d3dbe4de125d9e2_0_1794520269.jpeg"
+   ]
+  },
+  "costTime": 65
+ },
+ {
+  "t": "2026-11-12 21:51:33",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the exact shot to recreate (layout, framing, outfit, ground, bag, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real insole logo up close: cream insole, black rectangle outline, black diagonal VANS skateboard logo. Image 4 = the real side: white leather stripe, brass eyelets, white laces, plaid colours. Image 5 = Grace's real hand (skin tone only). Image 6 = Grace's real bare foot (skin tone only). VIEW AND FRAMING FIRST: recreate Image 1 exactly: a straight-down phone POV looking at her own legs on grey asphalt, black leggings from the bottom edge, her LEFT foot (frame left) wears the LEFT shoe, fully inside it and laced; her RIGHT foot (frame right) is BARE with a white pedicure and a thin silver anklet. Her LEFT arm enters from the lower-left edge in a red knit sweater whose sleeve has silver rhinestone brooch patches, and her LEFT hand holds ONE shoe, the RIGHT shoe of the pair, seen from straight above with the toe pointing to the top of the frame and the cream insole showing, gripping its outer side with four fingers behind and the thumb in front. She wears a small silver bow ring and has long nude almond nails, as in Image 1. A burgundy quilted mini bag with silver studs lies at the top-right corner. Exactly two shoes in the frame. THE SHOE (must match the product sheet and close-ups exactly, colour for colour): Vans Old Skool low-top sneaker in tartan plaid canvas: a very dark oil-green, near-black ground with red bands, thin white lines and thin yellow lines in a square grid; one smooth WHITE leather curved side stripe on each side; WHITE flat laces through brass/antique-gold metal eyelets; white padded collar lining; plaid tongue; white rubber sidewall with one thin black stripe around it; gum-brown waffle outsole; CREAM insole printed with a black rectangle outline holding the black 'VANS' skateboard logo set diagonally; on the white heel sidewall a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo. No sequins, no glitter, no checkerboard, no silver eyelets, no other logos. SKIN: every hand, wrist, ankle and foot in the frame has Grace's exact skin: the warm medium-deep brown skin tone shown in the Grace reference image(s), even and natural, the same tone on hands and feet. Take ONLY the skin tone from those images; ignore their rings, bracelets, watch, anklets, shoes and backgrounds. Real smartphone photo, sharp focus, natural texture, 9:16 vertical. Hands enter from the frame edge with whole wrists, five fingers, nothing seen through the hand. No text, no captions, no stickers, no emoji, no watermark, no logos other than the real Vans marks. No sparkle or light effects. Ignore any smudge or small mark in Image 1.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520191783-x8605ing7k.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520194457-fofpe0cw0od.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520197001-zoj43keg6oh.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520199226-ztitrjwg459.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520201070-u4db6ncbqpk.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520198601-65fw8v4tydb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "3d67be780454f3990357dfaeb58f2e17",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/3d67be780454f3990357dfaeb58f2e17_0_1794520287.jpeg"
+   ]
+  },
+  "costTime": 73
+ },
+ {
+  "t": "2026-11-12 21:51:36",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the exact shot to recreate (layout, framing, jeans, rug, floor, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real side: white leather stripe, brass eyelets, white laces. Image 4 = Grace's real hand (skin tone only). Image 5 = Grace's real bare foot (skin tone only). VIEW AND FRAMING FIRST: recreate Image 1 exactly: her own POV looking down at her crossed legs in light-wash frayed-hem jeans, both feet at the top of the frame, toes pointing to the top edge, BOTH feet fully inside the two shoes of the pair (left foot in the left shoe, right foot in the right shoe), laced with white laces, a little bare ankle skin showing above each shoe; her hand from the lower-left edge rests on her knee, long nude almond nails with white tips, as in Image 1. Floor: a cream knit rug with red stripes on dark wood, a pine branch at the top-left, as in Image 1. Exactly two shoes. THE SHOE (must match the product sheet and close-ups exactly, colour for colour): Vans Old Skool low-top sneaker in tartan plaid canvas: a very dark oil-green, near-black ground with red bands, thin white lines and thin yellow lines in a square grid; one smooth WHITE leather curved side stripe on each side; WHITE flat laces through brass/antique-gold metal eyelets; white padded collar lining; plaid tongue; white rubber sidewall with one thin black stripe around it; gum-brown waffle outsole; CREAM insole printed with a black rectangle outline holding the black 'VANS' skateboard logo set diagonally; on the white heel sidewall a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo. No sequins, no glitter, no checkerboard, no silver eyelets, no other logos. SKIN: every hand, wrist, ankle and foot in the frame has Grace's exact skin: the warm medium-deep brown skin tone shown in the Grace reference image(s), even and natural, the same tone on hands and feet. Take ONLY the skin tone from those images; ignore their rings, bracelets, watch, anklets, shoes and backgrounds. Real smartphone photo, sharp focus, natural texture, 9:16 vertical. Hands enter from the frame edge with whole wrists, five fingers, nothing seen through the hand. No text, no captions, no stickers, no emoji, no watermark, no logos other than the real Vans marks. No sparkle or light effects. Ignore any smudge or small mark in Image 1.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520191795-324k8b6lciq.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520195581-amfg7m089an.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520199009-cnrjgfs7woj.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520201339-d6gez13c6k.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520198601-65fw8v4tydb.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "d131c11d7203ceec7954804e1a991305",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/d131c11d7203ceec7954804e1a991305_0_1794520292.jpeg"
+   ]
+  },
+  "costTime": 76
+ },
+ {
+  "t": "2026-11-12 21:51:49",
+  "request": {
+   "model": "nano-banana-pro",
+   "input": {
+    "prompt": "Image 1 = the exact shot to recreate (layout, framing, sleeve, background, light). Image 2 = the real shoe from every side (product sheet). Image 3 = the real side and front: white leather stripe, brass eyelets, white laces. Image 4 = Grace's real hand (skin tone only). VIEW AND FRAMING FIRST: recreate Image 1 exactly: ONE shoe held up by her hand from the lower-left edge, the toe pointing DOWN to the bottom edge and the collar at the top, the laces and brass eyelets facing the camera, the white side stripe running down its left side; cream chunky knit sweater sleeve, a diamond ring, long nude almond nails, as in Image 1. Background: a softly blurred lit Christmas tree with red bows and plaid gifts, warm cosy light. Only one shoe. THE SHOE (must match the product sheet and close-ups exactly, colour for colour): Vans Old Skool low-top sneaker in tartan plaid canvas: a very dark oil-green, near-black ground with red bands, thin white lines and thin yellow lines in a square grid; one smooth WHITE leather curved side stripe on each side; WHITE flat laces through brass/antique-gold metal eyelets; white padded collar lining; plaid tongue; white rubber sidewall with one thin black stripe around it; gum-brown waffle outsole; CREAM insole printed with a black rectangle outline holding the black 'VANS' skateboard logo set diagonally; on the white heel sidewall a small WHITE label with the black 'VANS OFF THE WALL' skateboard logo. No sequins, no glitter, no checkerboard, no silver eyelets, no other logos. SKIN: every hand, wrist, ankle and foot in the frame has Grace's exact skin: the warm medium-deep brown skin tone shown in the Grace reference image(s), even and natural, the same tone on hands and feet. Take ONLY the skin tone from those images; ignore their rings, bracelets, watch, anklets, shoes and backgrounds. Real smartphone photo, sharp focus, natural texture, 9:16 vertical. Hands enter from the frame edge with whole wrists, five fingers, nothing seen through the hand. No text, no captions, no stickers, no emoji, no watermark, no logos other than the real Vans marks. No sparkle or light effects. Ignore any smudge or small mark in Image 1.",
+    "image_input": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520191750-a1aivl7rhce.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520194086-wr9uux8hd1n.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520196489-1ntwbud1mp1.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-sequin-v12/1794520199611-sttnh77m9g.png"
+    ],
+    "aspect_ratio": "9:16",
+    "resolution": "1K"
+   }
+  },
+  "taskId": "9374ded20f30103057d2b286dbc6b203",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/vnp/9374ded20f30103057d2b286dbc6b203_0_1794520304.jpeg"
+   ]
+  },
+  "costTime": 96
+ }
+]

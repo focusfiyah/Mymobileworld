@@ -54,7 +54,7 @@ TOTAL: $2.70
 **Approve?**
 
 ## 7. Questions (all of them, now)
-1. The originals turn the held shoe (V1: top-down to side and back; V2: small turns). REMOVED.md has "any rotation of a held shoe" (Ralph 2026-10-21) because the models flipped it. Allow the turn for these shot-for-shot videos, with frame-by-frame checks and cuts before any flip? (asked after Ralph reads the page)
+1. The originals turn the held shoe (V1: top-down to side and back; V2: small turns). REMOVED.md has "any rotation of a held shoe" (Ralph 2026-10-21) because the models flipped it. Allow the turn for these shot-for-shot videos, with frame-by-frame checks and cuts before any flip? Ralph tapped "Allow the turn (Recommended)" 2026-11-12: keep the turn, check every frame, cut before any flip or grip switch.
 
 ## 8. Prompts (final, written with prompt-master; every reference named)
 | Item | Model | Prompt file / text |

@@ -42,3 +42,6 @@ Blue band on fingers only (kept, Ralph's call; mirrored on both hands in S3, Ral
 | Held shoe turning mid-clip (9 clips) | Claude QC | 2026-11-12 | held clips now: hand steady, camera pushes in; 9 remade, every video back to 16 s |
 | V35 opening shot: held shoe with a solid black leather heel panel | Grace (Telegram 2026-11-12, after delivery) | 2026-11-12 | V35S1 dropped; redo also failed (solid black); V35 12 s |
 | V31 opening shot: feet over the car door sill with a cafe pasted below (looks stepped on) | Grace (Telegram 2026-11-12, after delivery) | 2026-11-12 | V31S1 dropped; redo walked away showing the sole; V31 12 s |
+
+## Vans plaid recreations (2026-11-12)
+- Held-shoe turn row: Ralph tapped "Allow the turn (Recommended)" for these shot-for-shot videos only. Every held clip is checked frame by frame; any flip, sole showing, or grip switch is cut out or redone (asked).

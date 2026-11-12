@@ -82,5 +82,13 @@
  "compare": {
   "proof": [],
   "note": "tiktok.py compare <top winner> <our cut> output, after the final cut, and what was fixed"
+ },
+ "book_ok": {
+  "by": "Ralph",
+  "date": "2026-11-12",
+  "quote": "Ralph tapped \"Approve, $2.70 (Recommended)\" and \"Allow the turn (Recommended)\" 2026-11-12, after reading the review page",
+  "total": 2.7,
+  "sha256": "efd24696bcf16ca38d03069dcb53fb702769729fe560908e330d8390f081d1cf",
+  "spent_at_approval": 0.0
  }
 }
