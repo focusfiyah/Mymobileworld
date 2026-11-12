@@ -363,5 +363,45 @@
    ]
   },
   "costTime": 45
+ },
+ {
+  "t": "2026-11-12 22:34:10",
+  "submitted": "9d107e30214d1bd8230283fdcfe65890",
+  "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real insole logo, Image3 the "
+ },
+ {
+  "t": "2026-11-12 22:37:29",
+  "request": {
+   "model": "wan/3-0-video",
+   "input": {
+    "prompt": "Recreate Image1 exactly as the first frame. Image1 is the approved first frame, Image2 the real insole logo, Image3 the real side of the shoe, Image4 the product sheet. Over 8 seconds, in one continuous take, the hand keeps the SAME grip on the shoe the whole time: for the first 3 seconds it holds the shoe still, top-down, with small natural hand movement; then it slowly tilts the shoe a quarter turn so its outer side faces the camera, the white side stripe clearly visible, toe pointing to the right, held at the same height; for the last 2 seconds it tilts it back top-down and brings it slowly closer to the lens until the insole fills the top half of the frame. The shoe never flips over, never shows its sole, never changes size or colours; the plaid, white stripe, white laces, brass eyelets and cream insole with the black VANS logo match Image2, Image3 and Image4 in every frame. The worn shoe on her left foot, her bare right foot and the bag stay still. Her skin stays the same warm medium-deep brown in every frame. Camera: handheld phone, steady, looking straight down. No music, no voice, no text, no sparkle.",
+    "reference_image_urls": [
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794522834391-ako4pasf2kf.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794522836549-zrjmgohjbub.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794522838513-viqydxdtc6k.png",
+     "https://tempfile.redpandaai.co/kieai/11799406/vans-plaid-recreate/1794522840550-o0nu4wis2j9.png"
+    ],
+    "resolution": "720P",
+    "aspect_ratio": "9:16",
+    "duration": 8,
+    "audio": false
+   }
+  },
+  "taskId": "9d107e30214d1bd8230283fdcfe65890",
+  "result": {
+   "resultUrls": [
+    "https://tempfile.aiquickdraw.com/wan30-video/1794523047074-fgjr9x6a9g9.mp4"
+   ]
+  },
+  "costTime": 200,
+  "usd": 0.64,
+  "credits": 128.0
+ },
+ {
+  "t": "2026-11-12 22:37:37",
+  "clip_check": "/home/user/Mymobileworld/ugc/vans-plaid-recreate/clips/V1S1.mp4",
+  "still": "stills/V1S1.png",
+  "ok": true,
+  "score": 0.959
  }
 ]
