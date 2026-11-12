@@ -33,7 +33,9 @@ hub message happen only after Ralph's OK (gates G9-G10 stay open until then).
 - [x] G8: one review page with all five videos stacked full width + script under each; push + email sent to Ralph
   MANUAL: page link + push result + Gmail message id in README.md
   EVIDENCE: https://claude.ai/code/artifact/62c62375-ddc3-41a2-b48c-3b93cbcd000f ; Gmail 1a1d1fb6b51cd5f6 ; push tool not in this session (ToolSearch found none)
-- [ ] G9: after Ralph's OK, each approved cut is in its product's Drive folder as "HofR - <Product> BF.mp4", Drive size = local size
+- [x] G9: after Ralph's OK, each approved cut is in its product's Drive folder as "HofR - <Product> BF.mp4", Drive size = local size
   MANUAL: file ids + sizes in README.md
-- [ ] G10: hub session told one line per approved product; Brain note + session log pushed; Active work line removed; BRAIN_OK
+  EVIDENCE: Drive ids butter 1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK 26,844,308 B, mirror 1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C 26,732,313, ear 1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki 22,246,532, coloring 1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk- 28,432,253, meat 1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3 29,992,971; Drive size = local for all 5 (Ralph tapped 'All 5 OK' 2026-11-12)
+- [x] G10: hub session told one line per approved product; Brain note + session log pushed; Active work line removed; BRAIN_OK
   MANUAL: send_message result + brain check output
+  EVIDENCE: hub session_01Y1Pt3pfP7HcKsjq5xn9T1H delivered 2026-11-12; Brain note + session log pushed; Active work line removed; BRAIN_OK
