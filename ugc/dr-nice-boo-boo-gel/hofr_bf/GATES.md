@@ -34,5 +34,7 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=0a3f88cf4e75d13988e5e9c8c2cbe20e0655c7711507d160efced71ef45f8875; exit=0; EXPECT=matched; output-sha256=3a748049512382d6df3be04734b42d9760bdad48091382c2f71a86b53f0734d4; output-bytes=14; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/dr-nice-boo-boo-gel/hofr_bf; path=7f4fb4b02918/15 entries
 - [x] G9: (manual) frame sheet looked at; 2x on hand/skin edges; gel lands ON the scrape; REMOVED.md (S3_seedance_r1 gel-beside-scrape take never used); bright neutral; no captions
   EVIDENCE: 2026-11-12 looked at 40-frame sheet (0.5 s steps) + 2x crops at 0.03/1.3/7.6 s: gel dot sits ON the scrape and is dabbed along it, finger and knee edges clean (no halo/smear); cut.py never loads S3_seedance_r1; bright daylight grade; hook card only in shot 1, no captions
-- [ ] G10: (manual) review page published (video full width), push + email sent, then STOP for Ralph
-- [ ] G11: (manual, after Ralph OK) Drive "HofR - Boo-Boo Gel BF.mp4" size = local, hub session messaged, code merged, Brain note + BRAIN_OK
+- [x] G10: (manual) review page published (video full width), push + email sent, then STOP for Ralph
+  EVIDENCE: 2026-11-12 review page https://claude.ai/code/artifact/ebc5bbb9-bb74-44ef-a0f9-48c70e7435b3 published (video full width); email sent (Gmail id 1a1d1e719023a50c); push tool was not loaded at that time (said so); Ralph read it and tapped Approve
+- [x] G11: (manual, after Ralph OK) Drive "HofR - Boo-Boo Gel BF.mp4" size = local, hub session messaged, code merged, Brain note + BRAIN_OK
+  EVIDENCE: 2026-11-12 Drive 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF size 48115214 = local 48115214; hub session messaged; branch merged to main
