@@ -21,7 +21,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 1 | 11-12 | HofR - Christmas Cheer V2 (1zbPmq2zmAIaWPVYoYqd1dLzdd2CSRhLp) | 18.8 s | 2026-11-12 v_inbox_file~v2.7707409749188904991 |
 | 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | |
-| 4 | 11-15 | HofR - Boo-Boo Gel BF: ON HOLD, round 2 (brown-skinned kids in the b-roll) waits on Ralph's OK; do NOT send old file 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF | 18.5 s | |
+| 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | |
 | 5 | 11-16 | HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh, Ralph OK 2026-11-12, batch C) | 22.4 s | |
 | 6 | 11-17 | HofR - JIYU NAD BF (1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o, Ralph OK 2026-11-12, batch C) | 22.5 s | |
 | 7 | 11-18 | HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C) | 25.7 s | |
