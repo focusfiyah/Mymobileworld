@@ -1,0 +1,107 @@
+{
+ "product": "Reusable Water Coloring Book",
+ "hook_id": "H094",
+ "hook_text": "A gift with zero mess|for little kids",
+ "hook_box": "190,380,700,190",
+ "grade": "eq=brightness=0.015:contrast=1.03",
+ "broll": [
+  "kids_tree.mp4",
+  "mom_toddler_wrap.mp4"
+ ],
+ "removed_terms": [],
+ "tail": 0.3,
+ "segs": [
+  {
+   "src": "G",
+   "in": 9.3,
+   "max": 10.7,
+   "at": 0.0,
+   "what": "red princess dress appears under the pen (hook)"
+  },
+  {
+   "src": "G",
+   "in": 10.7,
+   "max": 12.1,
+   "at": 1.4,
+   "crop": "1000:1778:40:80",
+   "what": "flowers and grass appear"
+  },
+  {
+   "src": "broll/kids_tree.mp4",
+   "in": 4.0,
+   "at": 2.49,
+   "what": "Pexels 5974672 toddler playing by the tree (little kids)"
+  },
+  {
+   "src": "G",
+   "in": 2.0,
+   "max": 3.2,
+   "at": 4.16,
+   "what": "blank white page (except the paper)"
+  },
+  {
+   "src": "G",
+   "in": 4.6,
+   "max": 6.6,
+   "at": 5.36,
+   "what": "pen filled with plain water"
+  },
+  {
+   "src": "G",
+   "in": 0.0,
+   "max": 2.0,
+   "at": 7.22,
+   "crop": "1000:1778:40:80",
+   "what": "pen paints colour onto the castle (colors show up)"
+  },
+  {
+   "src": "G",
+   "in": 12.1,
+   "max": 13.7,
+   "at": 9.22,
+   "what": "castle scene nearly done"
+  },
+  {
+   "src": "G",
+   "in": 7.9,
+   "max": 9.3,
+   "at": 10.82,
+   "what": "bonus sticker sheet"
+  },
+  {
+   "src": "broll/kids_tree.mp4",
+   "in": 14.0,
+   "at": 12.06,
+   "what": "Pexels 5974672 kids playing, clean room (nothing to clean up)"
+  },
+  {
+   "src": "G",
+   "in": 13.7,
+   "max": 15.7,
+   "at": 13.85,
+   "what": "finished page held up (painted a whole page)"
+  },
+  {
+   "src": "G",
+   "in": 3.2,
+   "max": 4.6,
+   "at": 15.85,
+   "crop": "1000:1778:40:80",
+   "what": "the pens fanned in her hands"
+  },
+  {
+   "src": "broll/mom_toddler_wrap.mp4",
+   "in": 8.0,
+   "at": 17.25,
+   "what": "Pexels 5974707 mom and toddler with a wrapped gift (every little one on your list)"
+  },
+  {
+   "src": "G",
+   "in": 6.6,
+   "max": 7.9,
+   "at": 21.205,
+   "what": "Magic Water Book cover (orange cart)"
+  }
+ ],
+ "hook_until": 2.45
+}

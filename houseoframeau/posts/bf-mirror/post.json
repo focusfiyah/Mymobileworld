@@ -1,0 +1,14 @@
+{"product": "GALENTAL Iceberg Vanity Mirror", "hook_id": "H055", "hook_text": "Her Christmas gift,|sorted", "hook_box": "190,380,700,190",
+ "grade": "eq=brightness=0.02:contrast=1.02:saturation=1.02", "broll": ["woman_gift.mp4"], "removed_terms": ["anti fog", "anti-fog", "inch"],
+ "tail": 0.45,
+ "segs": [
+  {"src": "G", "in": 33.5, "max": 36.5, "at": 0.0,  "crop": "1000:1778:40:80", "what": "whole crystal mirror lit on the desk (hook)"},
+  {"src": "G", "in": 24.5, "max": 28.5, "at": 2.88, "what": "her face in the mirror light (makeup line)"},
+  {"src": "G", "in": 13.0, "max": 15.5, "at": 5.70, "crop": "960:1707:60:100", "what": "crystal edge close-up"},
+  {"src": "G", "in": 15.6, "max": 18.5, "at": 8.00, "what": "LED light"},
+  {"src": "G", "in": 0.5,  "max": 3.0,  "at": 9.78, "what": "tap, light flips cool to warm"},
+  {"src": "G", "in": 18.6, "max": 21.5, "at": 11.98, "crop": "1000:1778:40:80", "what": "hand on frame, light settings cycle"},
+  {"src": "G", "in": 6.0,  "max": 13.0, "at": 13.30, "what": "pull back: mirror on the desk, room (whole room looks expensive)"},
+  {"src": "broll/woman_gift.mp4", "in": 3.0, "at": 16.72, "what": "Pexels 6533828 woman opening a gift by the tree"},
+  {"src": "G", "in": 3.2,  "max": 5.75, "at": 20.54, "crop": "1000:1778:40:60", "what": "warm glow on her face (orange cart)"}
+ ]}
