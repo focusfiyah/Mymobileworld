@@ -32,3 +32,6 @@ Scope: same script and shots, Ralph's free Chatterbox voice, shots re-timed to t
 
 - [x] G7: $0 spent (no Kie, Kling, ElevenLabs or other paid call this job)
   EVIDENCE: only local tools ran: Chatterbox and faster-whisper (CPU), ffmpeg, Pexels free downloads, Composio Drive downloads for media restore; no Kie, Kling, ElevenLabs or other paid call
+
+- [x] G8: every person on screen is brown, light brown or dark brown skinned (Ralph 2026-11-12, campaign README)
+  EVIDENCE: gift_wrap.mp4 (light-skinned hands) replaced by Pexels 5974733 (brown hands), frames 13.4-17.4 s and a 2x crop looked at; stockings.mp4 shows no people; Grace's clips show her own brown hands and face
