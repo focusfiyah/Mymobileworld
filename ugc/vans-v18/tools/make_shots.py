@@ -160,7 +160,7 @@ def still(sid, place, beat, outfit, note):
     body += [f"PLACE: {PLACE[place][1]}, {note}.", LIGHT, END]
     toes = re.findall(r"(?:both )?toe(?: caps?)?s? pointing (?:to|at) [^,;.]+", scene)
     toe = ("Toe direction stays exactly as in the first frame: " + "; ".join(dict.fromkeys(toes)) + ". ") if toes else ""
-    clip = (f"{motion}. Camera: {cam}. {toe}The shoe keeps exactly the look of the first frame the whole clip: checkerboard with "
+    clip = (f"{motion}. Camera: {cam}. Her legs: {legs}; setting: {note}. {toe}The shoe keeps exactly the look of the first frame the whole clip: checkerboard with "
             "sequins only on the black squares" + "".join(LOOK[k] for k in logos) + "; it never turns, flips or changes shape. "
             + ("Her hand keeps the same grip the whole clip, five fingers, whole wrist; the blue band stays a ring on her finger. " if kind == "HAND" and "grip" in motion else "")
             + ("Her hand stays whole, five fingers, whole wrist. " if kind == "HAND" and "grip" not in motion else "")
