@@ -1,6 +1,6 @@
 # HofR Black Friday, silent batch B (2026-11-12): Ralph's voice on 5 of Grace's silent cuts
 
-Status: WAITING ON RALPH'S OK (review https://claude.ai/code/artifact/cb249720-2912-42fc-a4d7-da02f25a2e85, email 1a1d2031a5e0f711; push tool not in this session). $0.
+Status: DONE 2026-11-12. Ralph approved all 5 (tapped "All 5"); in Drive (size = local), hub messaged. Pinmoco recut with no baby face (Ralph). Drive ids: Calmi 1qistdqKlfDALWwgdFegase_ZfyOHS5UK, COSRX 1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, Eyeliner 1ctwXq7sixU9wt2Jz7DGqiBMIJcWg-ccs, Wig Milk 1f948vXL9olLQVdTs6jM6ajeMw_gczRTw, Pinmoco 1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh. $0.
 Session session_01Y1Pt3pFXuhqRgggqDLNecT; hub session_01Y1Pt3pfP7HcKsjq5xn9T1H (queue owner). Next per OK'd cut: upload out/bf_<job>.mp4
 (1080p, medium preset) as "HofR - <Product> BF.mp4" to the product folder (Kie host + Composio GOOGLEDRIVE_UPLOAD_FROM_URL, size check),
 then send_message to the hub: "<product>, Drive file id <id>, <length> s, approved by Ralph <date>".
