@@ -41,5 +41,8 @@ Posts: bf-purcell, bf-jiyu-nad, bf-luvum, bf-momo-nashi, bf-manners. $0 only. No
   EVIDENCE: only ugc/jiyu-nad-moisturizer/REMOVED.md exists (none listed). Grace's dropped moments kept out: PURCELL box blur 1.5-2.6 and refocus 39.75-41.1, LUVUM 0-0.4 and 7.9-9.4, JIYU zoom blurs 2, 15-16, 20 s, Manners page flip 24.2 s
 - [ ] G12: (manual) ONE review page, videos stacked full width, script under each; link + phone push + email sent to Ralph; then STOP
   NOTE: page https://claude.ai/code/artifact/90f11b0d-ed64-4c5a-9368-43dede2d34e8 + email 1a1d2104ed140c6a sent 2026-11-12; phone push NOT sent: ToolSearch found no PushNotification tool in this session (searched twice)
-- [ ] G13: (manual) After Ralph's OK per cut: Drive "HofR - <Product> BF.mp4" in the product folder, size = local; one line per product to the hub session
+- [x] G13: (manual) After Ralph's OK per cut: Drive "HofR - <Product> BF.mp4" in the product folder, size = local; one line per product to the hub session
+  EVIDENCE: Ralph tapped "Yes, all 5" 2026-11-12. Drive ids (size = local): PURCELL 1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh 25,686,145; JIYU 1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o 29,370,156; LUVUM 171hJpkdckVa2HascrdFR5pyh6UIUv3BF 32,992,731; Momo 1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E 44,495,445; Manners 1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc 33,802,349. Hub session sent the five lines (delivered)
 - [ ] G14: (manual) Code committed and merged per CLAUDE.md; Brain note + session log; Active work line removed; BRAIN_OK
+
+ABANDON: G12 phone push could not be sent: no PushNotification tool in this session (ToolSearch searched twice, 2026-11-12); email and review page did go out and Ralph read and approved
