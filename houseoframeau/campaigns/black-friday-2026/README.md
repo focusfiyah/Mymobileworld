@@ -21,7 +21,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 1 | 11-12 | HofR - Christmas Cheer V2 (1zbPmq2zmAIaWPVYoYqd1dLzdd2CSRhLp) | 18.8 s | 2026-11-12 v_inbox_file~v2.7707409749188904991 |
 | 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | |
-| 4 | 11-15 | HofR - Boo-Boo Gel BF (1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF, Ralph OK 2026-11-12) | 18.5 s | |
+| 4 | 11-15 | HofR - Boo-Boo Gel BF: ON HOLD, round 2 (brown-skinned kids in the b-roll) waits on Ralph's OK; do NOT send old file 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF | 18.5 s | |
 | 5-20 | 11-16..12-01 | Rows added when Ralph OKs each cut (sessions below report Drive ids here) | >= 15 s | |
 
 Measured 2026-11-12: Boo-Boo Gel HofR V2 is 13.6 s (does not qualify as is); NovaTabz HofR 15.2 s; Camera Detector HofR
