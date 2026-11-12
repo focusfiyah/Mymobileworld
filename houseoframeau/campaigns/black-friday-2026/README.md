@@ -37,4 +37,6 @@ products get holiday b-roll + holiday hook text; $0.
 - session_01Y1Pt3qAXodVhTYn1pPRJUL: silent A: GALENTAL Mirror, Crowned Skin Body Butter, Ear Wax Camera, Water Coloring Book, Meat Sticks
 - session_01Y1Pt3pFXuhqRgggqDLNecT: silent B: Pinmoco Chair, Calmi Ring, COSRX Lip Care, Waterproof Eyeliner, Wig Milk Spray
 - session_01Y1Pt3t3hdge7mW6xtDdj2C: silent C: PURCELL Mist, JIYU NAD, LUVUM Gel Mask, Momo & Nashi Tracing, 52 Manners (Kids)
+People on screen (Ralph 2026-11-12, relayed by the silent-A session): "I only want to use either brown, light brown, dark brown
+complexion people when we're using people." Applies to every b-roll and stock clip with people (hands included).
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
