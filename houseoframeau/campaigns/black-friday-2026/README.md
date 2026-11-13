@@ -19,7 +19,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | Day | Date | Video (Drive file id) | Length | Sent |
 |---|---|---|---|---|
 | 1 | 11-12 | HofR - Christmas Cheer V2 (1zbPmq2zmAIaWPVYoYqd1dLzdd2CSRhLp) | 18.8 s | 2026-11-12 v_inbox_file~v2.7707409749188904991; posted 5:28 PM ET, video 7707415402745482527 (18 s, caption empty) |
-| 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | |
+| 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | 2026-11-13 NOT drafted: Composio MCP failed to connect (502); Drive link + caption sent to Ralph on Telegram (msgs 490, 491) to post by hand |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | |
 | 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | |
 | 5 | 11-16 | HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh, Ralph OK 2026-11-12, batch C) | 22.4 s | |
