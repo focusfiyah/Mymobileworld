@@ -1,0 +1,6 @@
+# Humanizer report (2026-11-13, humanizer skill, patterns A-F) on the FINAL scripts + caption
+Hooks (H077, H062) kept word for word as the library says.
+- Voiceover: "This Bobbi Brown duo preps first." read stiff, rewritten "Prep first with this Bobbi Brown duo." "People say nothing caked." made plainer: "People say their makeup didn't cake." "The stick helps neutralize dark circles for twelve waterproof hours" made natural: "...and stays waterproof for twelve hours." "Why did nobody tell us?" kept: Grace's voice, a real reaction, not a staged closer. No dashes, no triads, no sales words.
+- Talk to camera: "Hardest part? Picking from fifteen shades." was a staged question-and-answer fragment (pattern 4, "Honestly?" shape), now "The hardest part is picking from fifteen shades." "Four point eight stars." was a dramatic fragment (pattern 2), now "It has four point eight stars." "This base... This stick..." repeated openings kept on purpose: she points at each product as she says it.
+- Caption: "Prep first with this Bobbi Brown duo for a smoother, brighter-looking finish" kept from Grace's own caption wording; no "elevate", no sales adjectives, no dashes.
+- H077 "Maybe the problem is not X" is a not-X contrast (pattern 1), kept because it corrects a belief the viewer really holds (that her concealer is bad), the Big Fish blame flip.

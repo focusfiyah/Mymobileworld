@@ -1,0 +1,618 @@
+# TikTok comments (2026-11-13), verbatim, from the videos researched for this job
+Public comment endpoint, no login; it returns only the first few comments per video, so 'reachable' can be less than 'reported'.
+
+475 comments reachable of 2115 reported across 8 videos. Buyer questions in them: 123.
+- "How do you make it not cakey?" (7516898347324624183)
+- "How long has the medium shade been out of stock now? 😩😩😩" (7516898347324624183)
+- "What’s under your eye before you put on the under eye coverage?" (7516898347324624183)
+- "So it’s not powdery right? It’s liquid?" (7516898347324624183)
+- "Will the light medium peach work for cool skin tones though? It just never made sense to me." (7516898347324624183)
+- "what are the orange and red colors for?" (7516898347324624183)
+- "Doesn’t the lipstick you put under your eye also aid in color correction though?" (7516898347324624183)
+- "But how do I know my shade if I have never worn makeup before?!" (7516898347324624183)
+- "How do I know what color or shade to get?" (7516898347324624183)
+- "you think this would be great for covering melasma? I don't use makeup so looking for something tht will help with covering melasma without having to put foundation over it" (7516898347324624183)
+- "What shade did you get?" (7516898347324624183)
+- "How do you pick a color for this product?" (7516898347324624183)
+- "Where is this brush from?" (7516898347324624183)
+- "What abt if youre middle-aged and have fine lines & wrinkles? Does it crease and/or cake? Truthfully, please! I dont wanna buy it if its just gna make me look older lol" (7516898347324624183)
+- "I use a tinted sunscreen instead of foundation. How would I use this along with my sunscreen? Under or over?" (7516898347324624183)
+- "Hi! What do you have under the tarte product??" (7516898347324624183)
+- "which brush did you use?" (7516898347324624183)
+- "Will it cover veins?" (7516898347324624183)
+- "Where’s the brush is free 👀 on Amazon, tarte page? Bcs only the brush is like $24 🥹🥹🥹" (7516898347324624183)
+- "Where to buy this ?" (7516898347324624183)
+- "What’s the stuff under your eyes before you put the make up on there?" (7516898347324624183)
+- "What’s the difference between this and the shape tape?" (7516898347324624183)
+- "What color is that?" (7516898347324624183)
+- "What color do I get? Fair skin and purple under eye circles" (7516898347324624183)
+- "What color are u using ?" (7516898347324624183)
+- "The brush is free? I’ve been buying it since 2016 😭" (7516898347324624183)
+- "So do you put concealer on it or this just alone ?" (7516898347324624183)
+- "Is this drying or moisturizing?" (7516898347324624183)
+- "Is it drying?" (7516898347324624183)
+- "Is it cream, liquid or powder?" (7516898347324624183)
+- "IDK what color to buy!?? What color are you using?" (7516898347324624183)
+- "Do I use this over foundation?" (7516898347324624183)
+- "What color?" (7516898347324624183)
+- "How do you know what color to get? What color did you use?" (7516898347324624183)
+- "girl, you literally DON'T HAVE ANY imperfections! what could you possibly be trying to cover up? you're stunning!" (7644994514624482591)
+- "Bruise ???" (7644994514624482591)
+- "how do i decide what shade to buy?" (7644994514624482591)
+- "What bruise and what under eye circle do you even have? It looks the same on both sides. I think you’re good girl." (7644994514624482591)
+- "What do you use for your eyebrows?" (7644994514624482591)
+- "How is it on mature skin?" (7644994514624482591)
+- "Can you please let me know what brush you are using? Thank you!" (7644994514624482591)
+- "What bruise?🤔" (7644994514624482591)
+- "First why do you have a bruise?!? But it looks great" (7644994514624482591)
+- "Brush??" (7644994514624482591)
+- "Already bought it, but what brush are you using??" (7644994514624482591)
+- "what bruise?!" (7644994514624482591)
+- "is it a concealer?" (7644994514624482591)
+- "if I am tanned, should I get a darker color?" (7644994514624482591)
+- "Why are you putting on concealer over makeup you already have on?" (7644994514624482591)
+- "What brush are you using?" (7644994514624482591)
+- "What bruise?? lol" (7644994514624482591)
+- "What bruise? Didn’t see one before the application" (7644994514624482591)
+- "Wait....bruise?" (7644994514624482591)
+- "I’m more olive skin, what shade should I get?" (7644994514624482591)
+- "Is this on top of your makeup?" (7644994514624482591)
+- "Bruise? Where?" (7644994514624482591)
+- "would this work on olive color skin?🥰" (7644994514624482591)
+- "does it settle in creases?" (7644994514624482591)
+- "What shade are you using?" (7644994514624482591)
+- "So you are also using the luminous Milano Brightener. So which one are you really using?" (7644994514624482591)
+- "Is this beneficial for fine lines?" (7644994514624482591)
+- "I don’t even know what shade would be mine?" (7644994514624482591)
+- "Do you use this before or after foundation?" (7644994514624482591)
+- "Do you put it under or over your foundation?" (7644994514624482591)
+- "But how does it work on us older ladies is it drying?" (7644994514624482591)
+- "Anybody tried both this and the Tarte one? The Tarte is great… but more expensive than this one" (7644994514624482591)
+- "do you have a lighter shade?" (7644994514624482591)
+- "bruises?" (7644994514624482591)
+- "What do use under it?" (7644994514624482591)
+- "What brush are you using? I feel like I can never find one like that!" (7644994514624482591)
+- "The coverage looks amazing and I have the same dark circle issue! I’m 39 and I’ve taken great care of my skin, but sometimes still notice creasing with under eye concealer. Does this do it? 🤍" (7644994514624482591)
+- "Is it going to cake in every line??" (7644994514624482591)
+- "I love your eyebrows brows. Did you have something done to them? They look so natural. 🤩" (7644994514624482591)
+- "How is it for mature skin?" (7644994514624482591)
+- "How do we decide on the shade ?" (7644994514624482591)
+- "Does this shade work with all complexions?" (7644994514624482591)
+- "Can I use it on top of moisturiser cream and foundation or no?" (7644994514624482591)
+- "How I you know what color ?" (7684419008396889374)
+- "please what chirurgic treatments do you? you look amazing 😍 I need to know" (7676528197646699790)
+- "can u use setting spray in stead of mist spray?" (7676528197646699790)
+- "Is there a good pharmacy brand mist for this that you can recommend ?" (7676528197646699790)
+- "HI! COLLAB? FOLLOW US" (7676528197646699790)
+- "what’s your under eye colour correction?" (7676528197646699790)
+- "How do I get rid of those lines like the left lines by your nose and mouth?" (7676528197646699790)
+- "Concealer?" (7676528197646699790)
+- "waaaaait what brush is that?!" (7663578542906608927)
+- "before or after spf?" (7663578542906608927)
+- "What brush are you using?" (7663578542906608927)
+- "Can we get this brush by itself? Or i have to buy it in a set?" (7663578542906608927)
+- "What do you apply before applying this face base? Thanks." (7663578542906608927)
+- "Which dark line, girl?" (7698421099268246798)
+- "I bought both and I couldn’t get it to work for me. My dark circles are bad. So it didn’t work out for me. I love this though. Can you share what eye cream you use if any?!?" (7698421099268246798)
+- "What brush are you using?" (7698421099268246798)
+- "What are the products ???the complexion perfector and the highlighter" (7698421099268246798)
+- "I wish the highlighter wasnt sold out 💔 do you know of any other liquid ones that are comparable? (Everything you use i automatically add to my cart haha)" (7698421099268246798)
+- "Will the tarte cc corrector work for this?" (7698421099268246798)
+- "Why not color correct first and then highlight?" (7698421099268246798)
+- "Should we do the completion perfector product BEFORE the highlighter?? Wondering which order is better?" (7698421099268246798)
+- "I’m confused isn’t there just glitter flecks all up under your eyes now??" (7698421099268246798)
+- "what shade for brown skin?" (7698421099268246798)
+- "how to you set it please ? I have very dry skin so I can't layer much products cause I have to use the smallest amount of powder possible" (7698421099268246798)
+- "What product are you using exactly ?" (7698421099268246798)
+- "What in the sorcery?!" (7698421099268246798)
+- "I’ve tried using this product but it just looks like I have glitter under my eyes. What am I doing wrong??" (7698421099268246798)
+- "Does it not crease on u? I need to powder my undereyes so i dont think the highlight effect will work on those that need to set it" (7698421099268246798)
+- "Does it come with the brush ?" (7698421099268246798)
+- "Do you set this ? If so how ? If not do you not get creases?" (7698421099268246798)
+- "Do still set it with powder? 🤔" (7698421099268246798)
+- "Can you recommend another highlighter that will do the same thing? Don’t care to be cheaper, just that’ll do the same thing!" (7698421099268246798)
+- "Can I do this and skip the concealer? I hate using concealer 😩" (7698421099268246798)
+- "Can I ask for the name of the brush? Thanks" (7698421099268246798)
+- "But how do you keep it from melting or feathering away from your face?" (7698421099268246798)
+- "whaaaat highligter are you using????❤️❤️❤️❤️" (7698421099268246798)
+- "my highlighter is purplish colour, would it still work?" (7698421099268246798)
+- "is this effective for puffy eyebag?🥺" (7698421099268246798)
+- "does the highlighter have glitter or shimmer in it?? i want a sheen but no glitters" (7698421099268246798)
+- "do you do your foundation first and then add the highlighter and last the skin correction?" (7698421099268246798)
+- "are we gonna set it with powder? 🥰" (7698421099268246798)
+- "any drugstore recs for Europe, for the highlighter?" (7698421099268246798)
+- "a version of this routine for glasses wearers? 🙏🏻" (7698421099268246798)
+- "What products are these? What is the under eye highlighter?" (7698421099268246798)
+- "What is each product you used not type but exact brand and product please if you get a chance?" (7698421099268246798)
+- "Does it look like sparkles under your eyes in person or outside?" (7698421099268246798)
+
+## 7516898347324624183 (? views), 119 of 652 comments reachable. https://www.tiktok.com/video/7516898347324624183
+- (954 likes) "I’m not getting paid to say this: I started using this and someone at work said I looked “very refreshed.” Lmao. It is a good concealer, and it’s versatile for random breakouts"
+- (502 likes) "How do you make it not cakey?"
+- (292 likes) "How long has the medium shade been out of stock now? 😩😩😩"
+- (217 likes) "A must have for us sleep deprived mamas!! 🙋🏼‍♀️"
+- (209 likes) "What’s under your eye before you put on the under eye coverage?"
+- (158 likes) "Don’t waste your money on tarte. I usually only buy high end makeup but this is $6 on amazon and works just as good as the tarte one."
+- (153 likes) "I haven't seen a brown girl try this"
+- (72 likes) "So it’s not powdery right? It’s liquid?"
+- (69 likes) "omg it covers without looking cakey!"
+- (68 likes) "Don’t buy it if you have fine lines. I’m 38 and it ain’t it. The shape tape blur concealer is way better if you have mature skin"
+- (63 likes) "Any creasing"
+- (60 likes) "Will the light medium peach work for cool skin tones though? It just never made sense to me."
+- (47 likes) "I LOVE this concealer. I use elf primer under it and then Huda beauty setting powder on top. Does not budge. Love it!"
+- (35 likes) "This is the only under eye corrector that works for me and I've tried everything. I'm 63 FYI."
+- (32 likes) "i’ve seen 10-15 different videos of people trying to sell this and not one of them has show how it looks up close"
+- (22 likes) "what are the orange and red colors for?"
+- (19 likes) "I bought this and I’ve been using it for about a month. I like it! It is a heavier product so if you have a lot of fine lines or wrinkles it makes it more noticeable but it does cover darkness!"
+- (17 likes) "Doesn’t the lipstick you put under your eye also aid in color correction though?"
+- (16 likes) "I'm 56. THIS IS THE ONE. Finally."
+- (16 likes) "I was suckered in and I’m glad I was. It’s FABULOUS for tired moms everywhere lol"
+- (15 likes) "when it’s cheaper than $30 someone tag me"
+- (15 likes) "I bought this and it does work good it did help alot but the brush i got when I used it all the pieces from the brush head fell out all over my face and eyes. I really love this but I was really upset about the brush falling apart when I used it once 😩"
+- (12 likes) "Just ordered! I just saw this video of you on amazon but another knock off brand was using it! Got mine here!!! Cant wait to use it! My bags are ever-present, refuse to be hidden. I actually somehow end up emphasizing them by the time in done!"
+- (10 likes) "But how do I know my shade if I have never worn makeup before?!"
+- (8 likes) "How do I know what color or shade to get?"
+- (7 likes) "It’s pretty damn good. I bought it and can vouch that it’s full coverage, doesn’t crease, and lasts."
+- (5 likes) "Wow that works so well!"
+- (5 likes) "This concealer looks great."
+- (4 likes) "you think this would be great for covering melasma? I don't use makeup so looking for something tht will help with covering melasma without having to put foundation over it"
+- (4 likes) "its the best"
+- (4 likes) "What shade did you get?"
+- (4 likes) "It doesn't work for me. 😏"
+- (4 likes) "I always order wrong color......ugh"
+- (4 likes) "How do you pick a color for this product?"
+- (4 likes) "Amazing"
+- (3 likes) "i need this right now"
+- (3 likes) "Oh wow this workes really well 🔥"
+- (3 likes) "It really is the best full coverage non drying concealer. Getting a shade darker to spot conceal my whole face"
+- (3 likes) "I don’t know what color to get for my olive skin and undereye circles"
+- (3 likes) "Do an all day wear video"
+- (2 likes) "it’s soooo strange seeing this go viral again all these years later lol. I love it tho 👏🏻"
+- (2 likes) "Wow this is amazing!!"
+- (2 likes) "Where is this brush from?"
+- (2 likes) "What shade r u using"
+- (2 likes) "What abt if youre middle-aged and have fine lines & wrinkles? Does it crease and/or cake? Truthfully, please! I dont wanna buy it if its just gna make me look older lol"
+- (2 likes) "What about for even more fair skin like me 🥺🥺"
+- (2 likes) "Okay I am LISTENING!!! I need this in my life 😍"
+- (2 likes) "Love this I am I’m Slavic and I have very dark circles under my eyes. It’s in my blood. My mother had it bless her heart. She passed down to me her genetics. This tiff covers it up."
+- (2 likes) "It smears with mascara … looks grey after a few hours 😒"
+- (2 likes) "I use a tinted sunscreen instead of foundation. How would I use this along with my sunscreen? Under or over?"
+- (2 likes) "I love tarte!"
+- (2 likes) "Hi! What do you have under the tarte product??"
+- (2 likes) "Have this! Works amazing!"
+- (1 likes) "yes magic is a perfect word for this product!"
+- (1 likes) "wow that coverage is actually unreal"
+- (1 likes) "which brush did you use?"
+- (1 likes) "where to order it"
+- (1 likes) "this is awesome!!"
+- (1 likes) "i need this"
+- (1 likes) "Will it cover veins?"
+- (1 likes) "Where’s the brush is free 👀 on Amazon, tarte page? Bcs only the brush is like $24 🥹🥹🥹"
+- (1 likes) "Where to buy this ?"
+- (1 likes) "What’s the stuff under your eyes before you put the make up on there?"
+- (1 likes) "What’s the difference between this and the shape tape?"
+- (1 likes) "What color is that?"
+- (1 likes) "What color do I get? Fair skin and purple under eye circles"
+- (1 likes) "What color did you buy"
+- (1 likes) "What color are u using ?"
+- (1 likes) "What about blue veins under eyes ! 😭"
+- (1 likes) "This seems like such an amazing product! I love Tarte and thank you for the demonstration! I need this!!! 😍 Reposted friend💗"
+- (1 likes) "This is literally my holy grail concealer. I have had dark circles from stress not sleeping ect ect and this stuff is amazing. Also there color corrector tubes in peach or orange for darker skin work so good too"
+- (1 likes) "This actually works. I have red and dark spots and it works great!!"
+- (1 likes) "The brush is free? I’ve been buying it since 2016 😭"
+- (1 likes) "Tarte has th BEST products"
+- (1 likes) "So do you put concealer on it or this just alone ?"
+- (1 likes) "Ooo"
+- (1 likes) "My problem is that for some reason my mascara always rubs off when I use this ☹️"
+- (1 likes) "LITERALLY ON THE PLANETT 🗣️🗣️"
+- (1 likes) "I’m not sure what shade to purchase light medium or medium tan ugh 😩"
+- (1 likes) "It's so amazing love it"
+- (1 likes) "Is this drying or moisturizing?"
+- (1 likes) "Is it drying?"
+- (1 likes) "Is it cream, liquid or powder?"
+- (1 likes) "Incredible!!!"
+- (1 likes) "IDK what color to buy!?? What color are you using?"
+- (1 likes) "I really love it!"
+- (1 likes) "I need to try this"
+- (1 likes) "I need this for my wedding"
+- (1 likes) "I love love mine!"
+- (1 likes) "I love anything Tarte!"
+- (1 likes) "I guess I have to try this ♥️"
+- (1 likes) "I can’t wait for the med to come back in stock"
+- (1 likes) "Honestly.. it was an immediate purchase 😭 I’ll let you guys know if this is true or not 😭"
+- (1 likes) "Does it cover sun spots"
+- (1 likes) "Do I use this over foundation?"
+- (1 likes) "Damn okay yeah I need this!"
+- (1 likes) "Bobbi brown did it first in the 90s"
+- (1 likes) "Amazing!!!!"
+- (0 likes) "yes it works"
+- (0 likes) "shade"
+- (0 likes) "omg the way it literally erased that bruise is actual magic! you look so flawless girl ✨"
+- (0 likes) "What’s happening under your eyes tho"
+- (0 likes) "What color?"
+- (0 likes) "What color do u useeeee"
+- (0 likes) "What about the lines of dark circles"
+- (0 likes) "Walt until you use it with Neora!"
+- (0 likes) "Viral eye corrector"
+- (0 likes) "Ugh I want to try this so bad. Haha I just have to break down and spend the money on it🤣"
+- (0 likes) "Tarte concealer"
+- (0 likes) "PERFECTION 🥰🥰🥰"
+- (0 likes) "On another video a Sephora employee said this is their most returned product"
+- (0 likes) "Just ordered mine!!"
+- (0 likes) "I want this!!"
+- (0 likes) "I love you 💗 💛 💓 ♥️"
+- (0 likes) "I bought it and love it"
+- (0 likes) "How do you know what color to get? What color did you use?"
+- (0 likes) "EXACTLY! It’s so noticeable 🙄"
+- (0 likes) "Doesn’t work!"
+- (0 likes) "Dark circles sure 🔥BUT fine lines could neverrr 😫 it would just make textured skin worse. Only good if you have smooth skin"
+
+## 7644994514624482591 (? views), 119 of 761 comments reachable. https://www.tiktok.com/video/7644994514624482591
+- (317 likes) "Ordered… this shit better make me look like you lol"
+- (136 likes) "I didn't see dark circles to begin with"
+- (52 likes) "I am a senior citizen and I have circles under my eyes. She’s a young lady. She has no dark circles perfect skin. Here’s a thing I’ve purchased it and I only do. I use it under my eyes. I use it as a base for my make up and then I put the powder on and the stuff works. Great you do see a little bit of the dark circle under my eyes, but I do like the product. They have to start showing people in our age bracket because our skin is different"
+- (31 likes) "what bruise"
+- (25 likes) "I'm 59 and this is the best under eye concealer I've ever used."
+- (21 likes) "I bought this, as a nurses pulling 14-16 hrs shifts I’ve never commented on any product, but this product is the best I’ve ever used!! It comes on easy and stays on the entire day, without smearing, or fading!! Absolutely love this product!!!"
+- (20 likes) "girl, you literally DON'T HAVE ANY imperfections! what could you possibly be trying to cover up? you're stunning!"
+- (19 likes) "It makes you look so youthful because you are lol"
+- (16 likes) "Bruise ???"
+- (14 likes) "I bought this and it's amazing. And I'm old. 🤣"
+- (13 likes) "You have absolutely no darkness under your eyes! Nor do you have any wrinkles! This product is just MEH!!!!!"
+- (13 likes) "I want to see it on olive skin. See if it works for me"
+- (6 likes) "how do i decide what shade to buy?"
+- (6 likes) "What bruise and what under eye circle do you even have? It looks the same on both sides. I think you’re good girl."
+- (6 likes) "The only thing that works with dark circles is a COLOR CORRECTOR… yw"
+- (6 likes) "I'm 61 and I love this concealer it works magic and I do have dark circles I always have I love it."
+- (5 likes) "What do you use for your eyebrows?"
+- (5 likes) "How is it on mature skin?"
+- (5 likes) "Can you please let me know what brush you are using? Thank you!"
+- (4 likes) "What bruise?🤔"
+- (4 likes) "I use it daily also! It’s amazing and it’s lasted me for months!"
+- (4 likes) "First why do you have a bruise?!? But it looks great"
+- (3 likes) "You do not have under eye darkness"
+- (3 likes) "What brush are u using"
+- (3 likes) "Ordering my second container. I have used high end cosmetics and many other products. This one is amazing both for the price and the results."
+- (3 likes) "I didn’t like it doesn’t work"
+- (3 likes) "C"
+- (3 likes) "Brush??"
+- (3 likes) "Already bought it, but what brush are you using??"
+- (2 likes) "what bruise?!"
+- (2 likes) "is it a concealer?"
+- (2 likes) "if I am tanned, should I get a darker color?"
+- (2 likes) "You look somewhat like Kourtney Kardashian"
+- (2 likes) "Why are you putting on concealer over makeup you already have on?"
+- (2 likes) "What brush are you using?"
+- (2 likes) "What bruise?? lol"
+- (2 likes) "What bruise? Didn’t see one before the application"
+- (2 likes) "Wait....bruise?"
+- (2 likes) "This product is amazing"
+- (2 likes) "Nice 💛"
+- (2 likes) "Looks so amazing !!"
+- (2 likes) "Looks great!"
+- (2 likes) "Looks exactly the same as the other side"
+- (2 likes) "Like the pink"
+- (2 likes) "I’m more olive skin, what shade should I get?"
+- (2 likes) "It works really good when you apply it and lasts about five minutes"
+- (2 likes) "Is this on top of your makeup?"
+- (2 likes) "Instant BUY"
+- (2 likes) "How is the other colors"
+- (2 likes) "Bruise? Where?"
+- (2 likes) "Beautiful"
+- (2 likes) "Amazing product🥰"
+- (1 likes) "would this work on olive color skin?🥰"
+- (1 likes) "thank you"
+- (1 likes) "so beautiful"
+- (1 likes) "love new products for dark circles! 🥰"
+- (1 likes) "lol girl"
+- (1 likes) "it does look good"
+- (1 likes) "does it work on any skin color"
+- (1 likes) "does it settle in creases?"
+- (1 likes) "definitely looks very nice"
+- (1 likes) "beautiful person"
+- (1 likes) "You have no dark circles ❤️"
+- (1 likes) "You don’t have dark circles to begin with in this video"
+- (1 likes) "Yeah, you just added a blue to your eye"
+- (1 likes) "What shade are you using?"
+- (1 likes) "That’s amazing!!"
+- (1 likes) "So you are also using the luminous Milano Brightener. So which one are you really using?"
+- (1 likes) "Oh that’s soo nice!!!!!!!!! Love how it melted into your skin"
+- (1 likes) "Love it! The struggle is real"
+- (1 likes) "Love"
+- (1 likes) "Looks amazing"
+- (1 likes) "Just ordered. Can’t wait to try"
+- (1 likes) "It’s the best"
+- (1 likes) "It’s Supah Thick and separates instantly"
+- (1 likes) "It works wonders. I’m using it for months now."
+- (1 likes) "It really does have a great look and it’s not sticky"
+- (1 likes) "Is this beneficial for fine lines?"
+- (1 likes) "Is it clean product"
+- (1 likes) "I use this every day and I love it! Not kidding!"
+- (1 likes) "I love this stuff!!!"
+- (1 likes) "I don’t even know what shade would be mine?"
+- (1 likes) "Do you use this before or after foundation?"
+- (1 likes) "Do you put it under or over your foundation?"
+- (1 likes) "Cheaper on Amazon"
+- (1 likes) "Can you put concealer and foundation on top of it."
+- (1 likes) "But how does it work on us older ladies is it drying?"
+- (1 likes) "Anybody tried both this and the Tarte one? The Tarte is great… but more expensive than this one"
+- (0 likes) "💗💗💗 i’m ordering it"
+- (0 likes) "yeah it's plastered"
+- (0 likes) "whats your application of"
+- (0 likes) "do you have a lighter shade?"
+- (0 likes) "bruises?"
+- (0 likes) "What do use under it?"
+- (0 likes) "What brush do you use!"
+- (0 likes) "What brush are you using? I feel like I can never find one like that!"
+- (0 likes) "What brush are you using"
+- (0 likes) "What brush are you using"
+- (0 likes) "Well I’m 62, I have bags not dark circles, does it work on bags"
+- (0 likes) "Under makeup or over makeup"
+- (0 likes) "This looks amazing"
+- (0 likes) "The coverage looks amazing and I have the same dark circle issue! I’m 39 and I’ve taken great care of my skin, but sometimes still notice creasing with under eye concealer. Does this do it? 🤍"
+- (0 likes) "Sold i Cannot wait for it to get here!!!!!"
+- (0 likes) "Should tan get dark or pink"
+- (0 likes) "Ok fine I bought it. I’m 49 and TIRED, but don’t want to continue to show it! Wish me luck!"
+- (0 likes) "Loved"
+- (0 likes) "It is the best !!!"
+- (0 likes) "Is it going to cake in every line??"
+- (0 likes) "I love your eyebrows brows. Did you have something done to them? They look so natural. 🤩"
+- (0 likes) "I love"
+- (0 likes) "How is it for mature skin?"
+- (0 likes) "How do we decide on the shade ?"
+- (0 likes) "Girl! You have no imperfections….."
+- (0 likes) "Does this shade work with all complexions?"
+- (0 likes) "Do you put this on before or after foundation"
+- (0 likes) "Definitely trying this one!!"
+- (0 likes) "Can I use it on top of moisturiser cream and foundation or no?"
+- (0 likes) "Beautiful woman 🤎"
+- (0 likes) "55 y/o here and it is amazing. brightens and blurrs... love this"
+
+## 7566407512447143182 (? views), 28 of 62 comments reachable. https://www.tiktok.com/video/7566407512447143182
+- (2 likes) "This is an amazing product. It works so good."
+- (1 likes) "ladys with dark age spots I highly reccomend this. I love it. It covers well"
+- (1 likes) "l don't like it so disappointed 😞 l normally love tarte"
+- (1 likes) "Just took it out of the package. Surprised at how small the compact is. Looks much larger on videos. At that size I’m going to have to order one each week. That’s a lot of money!"
+- (1 likes) "It’s a rip off. Too expensive for what little you get."
+- (1 likes) "Can't live without this product, so good"
+- (0 likes) "🥰🥰🥰"
+- (0 likes) "😳😳😳"
+- (0 likes) "😂😂😂"
+- (0 likes) "😂"
+- (0 likes) "❣️❣️❣️❣️❣️❣️❣️"
+- (0 likes) "yes"
+- (0 likes) "omg i love this corrector! the way you showed it in different spots was so helpful 💖"
+- (0 likes) "interested.. how"
+- (0 likes) "awesome deal"
+- (0 likes) "Yes! This is must have!"
+- (0 likes) "Ya a new brush. Cool."
+- (0 likes) "Ya a new brush. Cool."
+- (0 likes) "This is full price"
+- (0 likes) "Nombre está igual de precio que en ulta"
+- (0 likes) "My did work I love it I’m buying my 2 second one 🥰"
+- (0 likes) "Mentira dije compro 3"
+- (0 likes) "Me interested how"
+- (0 likes) "I don’t know the normal price but charging $32 with discount. I don’t understand."
+- (0 likes) "Great video"
+- (0 likes) "Check out my real review on this!"
+- (0 likes) "Cheaper with Amazon"
+- (0 likes) "1 for me dear"
+
+## 7684419008396889374 (? views), 6 of 10 comments reachable. https://www.tiktok.com/video/7684419008396889374
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "Ohh that turned out so pretty 🥰🥰"
+- (1 likes) "Obsessed with this duo"
+- (1 likes) "How I you know what color ?"
+- (0 likes) "What color did you use"
+- (0 likes) "Creamy"
+
+## 7676528197646699790 (? views), 73 of 148 comments reachable. https://www.tiktok.com/video/7676528197646699790
+- (12 likes) "But Tirtir cream ;) there is no going back 😍🥰🥰😍😍 I love that under my eyes"
+- (9 likes) "Concealer creasing deserves its own support group 😂"
+- (5 likes) "I started to skip the powder. Everything looks amazing without. But not many concelears can perform without powder so if anyone knows others except from Tarte that could stay put without powder, please share with us! 😁"
+- (4 likes) "girl most of us don't do powder anymore. I been using skincare to tackle my dark circles and bags and my makeup looks so much better now"
+- (4 likes) "Less is more"
+- (2 likes) "please what chirurgic treatments do you? you look amazing 😍 I need to know"
+- (2 likes) "Under-eye creasing is such a universal struggle. 😂"
+- (2 likes) "Stay away from concealer it dries bad which causes us to age faster"
+- (2 likes) "Spray"
+- (2 likes) "Spray"
+- (1 likes) "🥰🥰🥰"
+- (1 likes) "😂😂😂"
+- (1 likes) "😁😁😁"
+- (1 likes) "😁😁😁"
+- (1 likes) "😁😁😁"
+- (1 likes) "😁😁😁"
+- (1 likes) "👑👑👑"
+- (1 likes) "❤️❤️❤️"
+- (1 likes) "thanks for the tip! I am going to try it!"
+- (1 likes) "spray"
+- (1 likes) "spray"
+- (1 likes) "spray"
+- (1 likes) "spray"
+- (1 likes) "spray"
+- (1 likes) "spray"
+- (1 likes) "i use medicube instead but same"
+- (1 likes) "can u use setting spray in stead of mist spray?"
+- (1 likes) "anua"
+- (1 likes) "You are absolutely right, I am using Anua mist too and it’s amazing"
+- (1 likes) "Yesssss ty. I use the same mist."
+- (1 likes) "Yessss!!! This tip is a must for 40+ under eyes."
+- (1 likes) "We love tutorials like this! 🤍✨"
+- (1 likes) "Thank you!!"
+- (1 likes) "Tell me about it Yikes"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spray"
+- (1 likes) "Spary"
+- (1 likes) "Should we add the concealer whit skin is damp I can’t cope the cracking is cracking 😂"
+- (1 likes) "SPRAY"
+- (1 likes) "SPRAY"
+- (1 likes) "SPRAY"
+- (1 likes) "SPRAY"
+- (1 likes) "SPRAY"
+- (1 likes) "Omg the only difference is she didn’t smile so it looked like she doesn’t have wrinkles under eyes even though she still has them"
+- (1 likes) "Not me lol"
+- (1 likes) "Ive seen girls in their 20s have these wrinkled undereyes!"
+- (1 likes) "Is there a good pharmacy brand mist for this that you can recommend ?"
+- (1 likes) "I use kokos water"
+- (1 likes) "I have wondered if this actually worked! Thanks so much!"
+- (1 likes) "I found the mist to be sticky and it left my skin tacky. Didn’t like it at all unfortunately."
+- (1 likes) "HI! COLLAB? FOLLOW US"
+- (1 likes) "Do you mind sharing what powder your using"
+- (1 likes) "Can you not just use a product like setting spray like elf power grip rose is what I use. just wondering the different in the two."
+- (1 likes) "Beautiful! Will have to try these products!"
+- (0 likes) "😳😳😳"
+- (0 likes) "what’s your under eye colour correction?"
+- (0 likes) "if you have under eye bags hyaluronic acid is just making it worse"
+- (0 likes) "It looks so oily tho :/"
+- (0 likes) "I have the Anua mist and if makes me break out so bad. which makes no sense bc I use their milky toner, milky cream and their serum and don't have that issue."
+- (0 likes) "How do I get rid of those lines like the left lines by your nose and mouth?"
+- (0 likes) "Concealer?"
+- (0 likes) "But if I’m oily skin I don’t want a dewy look it’s too oily. But then the powder causes creases. 😫"
+
+## 7704681138916216094 (? views), 1 of 2 comments reachable. https://www.tiktok.com/video/7704681138916216094
+- (1 likes) "what shade is it"
+
+## 7663578542906608927 (? views), 11 of 17 comments reachable. https://www.tiktok.com/video/7663578542906608927
+- (34 likes) "I’m still traumatized by the Luminous Silk reformulation so this is good news"
+- (18 likes) "We are all so wrecked from reformulations 😭thanks for the warning that it’s ok this time 😅🤣"
+- (4 likes) "waaaaait what brush is that?!"
+- (3 likes) "before or after spf?"
+- (1 likes) "What brush are you using?"
+- (1 likes) "Can we get this brush by itself? Or i have to buy it in a set?"
+- (0 likes) "omg I did get scared, I lovee this primer"
+- (0 likes) "Where are your earrings from"
+- (0 likes) "What do you apply before applying this face base? Thanks."
+- (0 likes) "Do u use moisturizer with this as well"
+- (0 likes) "Bury me in this product."
+
+## 7698421099268246798 (? views), 118 of 463 comments reachable. https://www.tiktok.com/video/7698421099268246798
+- (8293 likes) "You look like leighton meester when she’s blonde 💗"
+- (1351 likes) "Catrice undereye brightener does same thing"
+- (793 likes) "what product at sephora is the most similar to this highlighter! it’s sold out :("
+- (632 likes) "girl, because of u its sold out everywhere"
+- (117 likes) "But my dark circles are way darker than this, almost purple."
+- (102 likes) "Bought a liquid highlighter to try this look, I’m very skeptical, but will report back."
+- (98 likes) "This is so UGH soooooo good. genius."
+- (84 likes) "Which dark line, girl?"
+- (78 likes) "Girl this changed my life btw"
+- (57 likes) "e.l.f halo glow highlighter"
+- (41 likes) "Try scrandie beauty balm, thank me later"
+- (34 likes) "I miss having young skin 😭"
+- (21 likes) "Dr Melaxin under eye cream does that too! I’ve been loving it! It makes my under eyes look so natural but moist and it covers my dark circles. Super lightweight too."
+- (18 likes) "Yeah because of you that Armani highlighter has been sold out for weeks 😭😭 Istg it better be restocked in time for the Sephora sale"
+- (10 likes) "I started doing this because of you, but I do concealer, then highlighter because they were looking super dark still with just the highlight, too much so for a little line to fix. lol"
+- (10 likes) "I bought both and I couldn’t get it to work for me. My dark circles are bad. So it didn’t work out for me. I love this though. Can you share what eye cream you use if any?!?"
+- (8 likes) "PLEASE show what highlighter you used 🙏🙏🙏🙏🙏🙏🤩"
+- (7 likes) "I’m convinced you are personally responsible for this shade being sold out at Sephora. Immediately tried to buy it after you coming across my FYP last week and it’s still out of stock."
+- (6 likes) "I tried this using rare beauty liquid highlighter, it does wonders ✨"
+- (6 likes) "I got this highlighter because of this video and it is legitimately life altering for my under eyes. I came back to this video to thank you!!! 🙌🏼"
+- (6 likes) "I came to say that I’ve been doing this for a week and I LOVE IT."
+- (5 likes) "For those of you who can’t get it DIOR PEARLY HIGHLIGHTER"
+- (4 likes) "Girl, you’re a GENIUS"
+- (3 likes) "What brush are you using?"
+- (3 likes) "What are the products ???the complexion perfector and the highlighter"
+- (3 likes) "No you changed my life tysm"
+- (3 likes) "I wish the highlighter wasnt sold out 💔 do you know of any other liquid ones that are comparable? (Everything you use i automatically add to my cart haha)"
+- (3 likes) "Everybody is so good at make up. I used to do make up years ago, and now I have no clue what is best for my skin😩"
+- (3 likes) "Dang itttt *opens Sephora app*"
+- (2 likes) "obsessed with your shorter fringe"
+- (2 likes) "Will the tarte cc corrector work for this?"
+- (2 likes) "Why not color correct first and then highlight?"
+- (2 likes) "U look like a blonde Wynona Rider"
+- (2 likes) "Should we do the completion perfector product BEFORE the highlighter?? Wondering which order is better?"
+- (2 likes) "Omg this is PERFECT for people who dont like too much makeup. One thing i hate about concealer is the creasing, i need to try this asap ty ty ty 🥰"
+- (2 likes) "Okay hear me out- peach highlighter"
+- (2 likes) "Ok blair waldorf!"
+- (2 likes) "I’ve been doing this and it changed my life"
+- (2 likes) "I’m confused isn’t there just glitter flecks all up under your eyes now??"
+- (2 likes) "Is it magic or are you just a genius 😍"
+- (2 likes) "I want to see someone with tan skin do it 🥹"
+- (2 likes) "For a sec i thought this is leightonn😳 u so gorgg"
+- (1 likes) "what shade for brown skin?"
+- (1 likes) "such a great idea 🫶🏻"
+- (1 likes) "is this shade 01"
+- (1 likes) "i only trust you"
+- (1 likes) "how to you set it please ? I have very dry skin so I can't layer much products cause I have to use the smallest amount of powder possible"
+- (1 likes) "how do you stop the highlighter creasing please 😅"
+- (1 likes) "but not for dark circles"
+- (1 likes) "You're so amazing!! Can't wait to try this new trick from you"
+- (1 likes) "Yea don’t try highlighter under your eyes if you have ANY wrinkles. Trust you will just accentuate them. Don’t do it"
+- (1 likes) "What product are you using exactly ?"
+- (1 likes) "What in the sorcery?!"
+- (1 likes) "Trying this today!"
+- (1 likes) "Trying this asap"
+- (1 likes) "This is art"
+- (1 likes) "The concealer is soooo good"
+- (1 likes) "So pretty but with my oily skin I can’t add more shine to it😩"
+- (1 likes) "Okay the highlighter trick changed my life!!"
+- (1 likes) "Love your tutorials girly! 😍"
+- (1 likes) "Love Secret Camouflage"
+- (1 likes) "I’ve tried using this product but it just looks like I have glitter under my eyes. What am I doing wrong??"
+- (1 likes) "I’m never going to do this but this is magic"
+- (1 likes) "I think that’s a brilliant hack. I think you can use many products so thank you for sharing."
+- (1 likes) "I can’t find the Armani highlighter anywhere it’s all sold out"
+- (1 likes) "Gorgeous!"
+- (1 likes) "Girl what brush are you using it's perfect"
+- (1 likes) "Genius wow"
+- (1 likes) "Does it not crease on u? I need to powder my undereyes so i dont think the highlight effect will work on those that need to set it"
+- (1 likes) "Does it come with the brush ?"
+- (1 likes) "Do you set this ? If so how ? If not do you not get creases?"
+- (1 likes) "Do still set it with powder? 🤔"
+- (1 likes) "Can you recommend another highlighter that will do the same thing? Don’t care to be cheaper, just that’ll do the same thing!"
+- (1 likes) "Can I do this and skip the concealer? I hate using concealer 😩"
+- (1 likes) "Can I ask for the name of the brush? Thanks"
+- (1 likes) "But how do you keep it from melting or feathering away from your face?"
+- (1 likes) "But highlighter emphasizes texture so putting it under your eye does you no good if your want a blurry under eye, if you want a brighter under eye than I would recommend a color corrector first then set it with powder, then put your brighter concealer over it and set it with your blurring powder"
+- (1 likes) "Been adding highlighter to my concealer for months. Game changer!"
+- (1 likes) "Absolute love this technic! After I saw your videos I started doing it too"
+- (1 likes) ""if the men find out we can shapeshift...""
+- (1 likes) ""
+- (1 likes) ""
+- (0 likes) "your facial features remind me of Keira Knightley 🫶 the actress from Pride and Prejudice!"
+- (0 likes) "you look like louisa Jacobson (and by extension Meryl streep)"
+- (0 likes) "whaaaat highligter are you using????❤️❤️❤️❤️"
+- (0 likes) "omg i needed that in my teens... actually now is good too i need to know what you used!!"
+- (0 likes) "my highlighter is purplish colour, would it still work?"
+- (0 likes) "is this effective for puffy eyebag?🥺"
+- (0 likes) "how can I do this w brown skin 😩"
+- (0 likes) "does the highlighter have glitter or shimmer in it?? i want a sheen but no glitters"
+- (0 likes) "do you do your foundation first and then add the highlighter and last the skin correction?"
+- (0 likes) "are we gonna set it with powder? 🥰"
+- (0 likes) "any drugstore recs for Europe, for the highlighter?"
+- (0 likes) "a version of this routine for glasses wearers? 🙏🏻"
+- (0 likes) "You're so Uma Therman coded. ❤️"
+- (0 likes) "Yeah but if you don’t set it, it moves and doesn’t last so once you set it, the glowyness is gone."
+- (0 likes) "What products are these? What is the under eye highlighter?"
+- (0 likes) "What is each product you used not type but exact brand and product please if you get a chance?"
+- (0 likes) "What about the creasing 😩"
+- (0 likes) "Trying asap!!"
+- (0 likes) "The best technique- never fails"
+- (0 likes) "Someone please tag a cruelty free option for that highlighter 🐶 🥺"
+- (0 likes) "So pretty"
+- (0 likes) "Savinggg bc i need rhis 😳"
+- (0 likes) "Saving bc I need this!!!"
+- (0 likes) "Queen thank you"
+- (0 likes) "Ooooh I love this"
+- (0 likes) "I want a cruelty free version of it so bad if anyone has any suggestions!"
+- (0 likes) "I tried to go buy the Armani highlighter girl everybody bought it. You don’t sold it out."
+- (0 likes) "I need this"
+- (0 likes) "I been using my highlight on my under eye for my summer glowy looks and this definitely works"
+- (0 likes) "How do you set it"
+- (0 likes) "Hi...what brush are you using please 💛"
+- (0 likes) "Hi....what concealer palette did you use please 💛"
+- (0 likes) "Girl you want viral !!! 🥳😍"
+- (0 likes) "Does it look like sparkles under your eyes in person or outside?"
+- (0 likes) "Came for other recommendations.. yall sold out the Armani one"
+- (0 likes) "As an old, I’m jealous you’re able to highlight your under-eye and make it look better. [Tears of joy]"

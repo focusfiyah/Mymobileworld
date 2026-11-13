@@ -19,3 +19,6 @@ Open data is user-submitted and unvalidated: a lead to check against the real ph
 
 ## What it means for the script
 Matches this exact product? (yes/no, which fields) / Any recall on this brand or type to avoid in claims? / Anything to verify on the real photos:
+Matches this exact product? No. Open Beauty Facts and Open Food Facts returned 0 matches for "Bobbi Brown Vitamin Enriched Face Base" (2026-11-13), so nothing here adds or changes a claim.
+Any recall on this brand or type to avoid in claims? None: openFDA returned 0 food, drug and device recalls for these words. No recall talk in the scripts.
+Anything to verify on the real photos: claims come only from the listing (product_facts.md) and Grace's own footage: orange corrector stick, clear face base jar with the pale yellow cream, both say BOBBI BROWN. No SPF, no ingredient percent, no "removes dark circles".

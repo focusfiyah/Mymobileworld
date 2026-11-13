@@ -1,2 +1,39 @@
   #tiktokshophome: 0 videos
   #tiktokshopkitchen: 0 videos
+  #tiktokshopcleaning: 0 videos
+  #tiktokshopfinds: 0 videos
+  /discover/beef-jerky: 16 videos
+  /discover/meat-sticks: 16 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+32 videos scanned, 8 shop videos posted in the last 30.0 day(s) -> ugc/sales-scripts-1113/meat-sticks/research/coach/viral-2026-11-13.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       44K    572K 13.1d  0.79  Spicy Red Jerky 6oz [Food & Beverages]
+                                  @masked_maniac_beatz: Because Mexican people make the best beef jerky! 🇲🇽🔥 El Ranc
+                                  https://www.tiktok.com/@masked_maniac_beatz/video/7702865803212868878
+  2       34K    751K 21.9d  0.04  SPICY FIRE BEEF JERKY (CARNE SECA) [Food & Beverages]
+                                  @cooltrendgifts2: Project Torque spicy fire beef jerky high protein snack jerk
+                                  https://www.tiktok.com/@cooltrendgifts2/video/7699362426562645262
+  3       17K     12K  0.7d  0.09  SPICY FIRE BEEF JERKY (CARNE SECA) [Food & Beverages]
+                                  @freddylsx10: The Best Beef Jerky Is BACK IN STOCK! 🔥🥩😮‍💨 Project Torque C
+                                  https://www.tiktok.com/@freddylsx10/video/7707489442654702861
+  4      4.9K    102K 21.0d  0.26  Boujee Boyz Jerky (Original) [Food & Beverages]
+                                  @masked_maniac_beatz: Boujee Boyz Beef Jerky is bringing boujee vibes to snack tim
+                                  https://www.tiktok.com/@masked_maniac_beatz/video/7699959971630353678
+  5       202    4.6K 22.9d  0.06  24 oz Beef Stick Ends & Bits Cheesy Jalapeño [Food & Beverages]
+                                  @mrmajorleaguechef: Meat sticks beef sticks 
+                                  https://www.tiktok.com/@mrmajorleaguechef/video/7699237539516828959
+  6        34     846 24.9d     0  1st Phorm Protein Sticks, 18g of Protein per Stick, No  [Food & Beverages]
+                                  @getthesedeals: I can’t believe how much meat you get 😳 #protein #proteinsna
+                                  https://www.tiktok.com/@getthesedeals/video/7698509494183103758
+  7         3      57 22.4d     0  26 pc. Jerky Meat & Cheese Gift Basket - Sampler Variet [Food & Beverages]
+                                  @lillyhig: #jerky #meatsticks #snack #snacks #tiktokshopblackfriday 
+                                  https://www.tiktok.com/@lillyhig/video/7699435085359205663
+  8         2      17  9.7d     0  (product not in TikTok's data)
+                                  @stephaniew9609: High Protein Meat Sticks, 15-Count Healthy Protein Snacks fo
+                                  https://www.tiktok.com/@stephaniew9609/video/7704157059255667999
