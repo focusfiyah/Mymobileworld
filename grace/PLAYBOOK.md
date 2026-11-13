@@ -31,6 +31,7 @@ products follow the same rules.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
 - **No "plenty to share" / "one is enough" lines in the CTA (Ralph 2026-10-03, GTT KN95).** Anything that tells the buyer one unit covers it kills multi-unit sales. Close with a line that makes them want more ("Grab a couple boxes, so there's always one close"), then "It's in the orange cart."
 - **No "order it now" / "order now" (Ralph 2026-10-03).** Close in the orange cart in Grace's words after the real reason (holidays, "don't put it off"): "It's in the orange cart." or, as in the videos that sold, "I linked it in the orange cart for you." (Ralph 2026-10-20, looser wording).
+- **Grace's methods and hooks stay private (Ralph 2026-11-13).** This playbook, `grace/hooks/` and the `ugc-product-ad` skill never go into anything we sell or publish for the public; public products use new methods and hooks and pass the overlap checks first. Full rule: Mymobileworld CLAUDE.md "Grace's methods and hooks stay private".
 
 ## 2. Sales psychology
 | Principle | How we use it |
