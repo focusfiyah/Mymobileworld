@@ -31,3 +31,8 @@ URL: https://www.walmart.com/ip/152727464 (page itself returned a robot check on
 - "how to get rid of eyeglasses scratches" (youtube)
 - "double glasses case slim" (amazon, google, tiktok)
 - "glasses case for purse" (seed, tiktok autocomplete variants)
+
+## Creator videos in the niche (TikTok, verbatim from research/coach/<id>/transcript.txt and meta.json)
+- "No more digging through my bag" (@ys.findcozyhome.mras, 1.3M views, https://www.tiktok.com/@ys.findcozyhome.mras/video/7679707606625094926)
+- "I no longer have to dig for them and guess what case they are in" (@hollyroquemore1 caption, 98.2K, https://www.tiktok.com/@hollyroquemore1/video/7693603992160570638)
+- "I hated when they got scratched or lost in my bag" (@cyberwitch36, 88K, https://www.tiktok.com/@cyberwitch36/video/7676763350834957598)
