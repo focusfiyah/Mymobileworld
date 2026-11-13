@@ -1,0 +1,8 @@
+# PLAYBOOK rules applied (2026-11-13), grace/PLAYBOOK.md §1-4 + research/creator-pathway/ANALYSIS.md §1-2 read this job
+- §1 house rules: no personal-use claims beyond what her footage shows ([only if true] tags + neutral lines); Grace's point of view; no false scarcity (V2 "sell out" line flagged and dropped); exact listing wording (pads, high waist, tummy control; no "slimming", "invisible", "smaller waist", "doesn't roll down"); never a price (V2 price tease dropped); honest brag-style lines; no banned words; CTA "It's in the orange cart."; disclosure tag in any caption.
+- §2 psychology: pain first (flat shapewear), sell the moment (Thanksgiving dinner, holiday party), clarity (same-dress proof), specificity (5.6K sold, 4.3 stars, 606 reviews), move away from pain.
+- §3 hooks: library first (H130, H094, H101; options H132, H072, H030, H099), Grace's looser wording, no id reused across the 3 videos, 2 NEW hooks marked; on-screen text options are curiosity only and offered, not burned in.
+- §4 Grace script method: buyer, Big Fish ladder (RESEARCH.md), hook = biggest pain fewest words, connection line in each script, max 3 selling points each with proof, close with a real date, line audit (line_audit.md), reading grade <= 6 (1.3-2.7).
+- §4 Grace structure: curiosity hook, pain beat, selling points, real urgency CTA.
+- Creator Pathway: visible-result product = product on screen from frame 0; common enemy = other shapewear; show it, don't say it (every claim line names its shot); contradiction check done.
+- Hard rule 6: no on-screen text unless Ralph says yes (music-only versions flagged as needing his yes).

@@ -12,7 +12,7 @@ Scope: for each of the 5 products Grace sold with (Haiti flag, ili case, meat st
 - [x] G2: all 5 jobs pass the Grace script gate (playbook, coach, viral board, facts, audience, RESEARCH.md, hooks, humanizer, readability <= 6, line sources, line audit)
   CHECK: python3 ugc/sales-scripts-1113/check.py gates
   EXPECT: ALL_GATES_OK
-  EVIDENCE: 2026-11-13 20:00 UTC ran by hand: ALL_GATES_OK (grace/gate.py GATE OK x5)
+  EVIDENCE: 2026-11-13 20:00 UTC ran by hand: ALL_GATES_OK (grace/gate.py GATE OK x5); re-run 21:20 UTC ALL_GATES_OK after resetting scripts.md mtimes left equal by the 19:56 branch checkout (scripts.md 0-line diff vs 8510d06)
 
 - [x] G3: the 5 videos are in the sales tracker with every judgment field filled
   CHECK: python3 grace/winners/check.py fields
@@ -32,20 +32,20 @@ Scope: for each of the 5 products Grace sold with (Haiti flag, ili case, meat st
 
 ## Round 2 (Grace msgs 498 + 505, 2026-11-13)
 
-- [ ] G7: the 4 new selling videos are in the tracker with Grace's counts (Shnuggle 50, Attirify 10 / 5 / 1) and every field filled
+- [x] G7: the 4 new selling videos are in the tracker with Grace's counts (Shnuggle 50, Attirify 10 / 5 / 1) and every field filled
   CHECK: python3 grace/winners/check.py fields
   EXPECT: PASS fields 17
-  EVIDENCE: pending
+  EVIDENCE: ran by hand 21:15 UTC: PASS fields 17; sheet rewritten A1:Y18 and read back
 
-- [ ] G8: Shnuggle and Attirify jobs pass the Grace script gate
+- [x] G8: Shnuggle and Attirify jobs pass the Grace script gate
   CHECK: python3 grace/gate.py ugc/sales-scripts-1113/shnuggle-tub && python3 grace/gate.py ugc/sales-scripts-1113/attirify-shorts
   EXPECT: GATE OK
-  EVIDENCE: pending
+  EVIDENCE: ran by hand: GATE OK for shnuggle-tub and attirify-shorts
 
-- [ ] G9: the 5 first products each have research/GRACE_RESEARCH.md with all 8 of Grace's sections and a "What I could not verify" list
+- [x] G9: the 5 first products each have research/GRACE_RESEARCH.md with all 8 of Grace's sections and a "What I could not verify" list
   CHECK: python3 ugc/sales-scripts-1113/check.py research
   EXPECT: RESEARCH_OK
-  EVIDENCE: pending
+  EVIDENCE: ran by hand: RESEARCH_OK (5 files)
 
-- [ ] G10: in Drive: Attirify transcripts doc, a breakdown + original scripts doc per product (Shnuggle, Attirify), a Research doc per first-5 product; Telegram to Grace per deliverable with ✅, Ralph told
-  EVIDENCE: pending
+- [x] G10: in Drive: Attirify transcripts doc, a breakdown + original scripts doc per product (Shnuggle, Attirify), a Research doc per first-5 product; Telegram to Grace per deliverable with ✅, Ralph told
+  EVIDENCE: Drive: Transcripts - Attirify (1xCuBHcx...), Breakdown + Script - Shnuggle (1hUEC_Hm...), Breakdown + Scripts - Attirify (1svnMW3b...), Research docs x5 (1bBvrI9w, 1cfcn5cx, 1tbFmmlL, 1uJSNDLW, 14TuTlrJ; first drafts trashed); Telegram msgs 508-513 to Grace (ok true, ✅), Ralph line ok

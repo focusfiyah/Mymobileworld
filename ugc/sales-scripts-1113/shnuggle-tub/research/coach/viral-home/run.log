@@ -1,0 +1,32 @@
+  #tiktokshophome: 0 videos
+  #tiktokshopkitchen: 0 videos
+  #tiktokshopcleaning: 0 videos
+  #tiktokshopfinds: 0 videos
+  /discover/mom-hacks: 16 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+16 videos scanned, 6 videos posted in the last 30.0 day(s) -> ugc/sales-scripts-1113/shnuggle-tub/research/coach/viral-home/viral-2026-11-13.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       83K    307K  3.7d  0.17  (product not in TikTok's data)
+                                  @user1445730618358: Quick watch: Simple mom hacks to make life a little easier a
+                                  https://www.tiktok.com/@user1445730618358/video/7706377547415686414
+  2       69K    634K  9.1d  0.06  (product not in TikTok's data)
+                                  @sara.and.ramal: Little tricks that make toddler life a little easier! ✨ #Tod
+                                  https://www.tiktok.com/@sara.and.ramal/video/7704372976480816398
+  3       66K    1.4M 21.2d  0.07  (product not in TikTok's data)
+                                  @katybostonhacks: Home hacks the best #momhacks #LifeHack #advice #MomsofTikTo
+                                  https://www.tiktok.com/@katybostonhacks/video/7699874649605213454
+  4       19K    248K 13.0d  0.02  (product not in TikTok's data)
+                                  @laug2: Things I wish i knew as a first time mom #tips #Hacks #tipsa
+                                  https://www.tiktok.com/@laug2/video/7702932746087189790
+  5       16K    450K 28.1d  0.11  (product not in TikTok's data)
+                                  @daria_usa_kids: Things l wish l knew as a first time mom 🥹 #momhack #momlife
+                                  https://www.tiktok.com/@daria_usa_kids/video/7697320356704455966
+  6       864     13K 15.2d  0.18  (product not in TikTok's data)
+                                  @sana.motherhood: Things every mom needs to know 🤯🤯🤯🤯 #momhack #momtips #LifeH
+                                  https://www.tiktok.com/@sana.motherhood/video/7702130251756866829

@@ -1,0 +1,33 @@
+  #tiktokshophome: 0 videos
+  #tiktokshopkitchen: 0 videos
+  #tiktokshopcleaning: 0 videos
+  #tiktokshopfinds: 0 videos
+  #toddlerbathtub: 0 videos
+  #toddlermom: 0 videos
+  #babybath: 0 videos
+  /discover/mom-hacks: 16 videos
+  /discover/sunglasses-case: 16 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+32 videos scanned, 5 shop videos posted in the last 30.0 day(s) -> ugc/sales-scripts-1113/shnuggle-tub/research/coach/viral-2026-11-13.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       252    2.9K 11.3d  0.07  Soft PU Leather Sunglasses Pouch Elastic Opening Eyegla [Home Supplies]
+                                  @van.dang517: Saygoodbyetobulkyglassescases!👋✨ Thissunglassescasefeaturesa
+                                  https://www.tiktok.com/@van.dang517/video/7703545975599549727
+  2        64      16  0.1d     0  (product not in TikTok's data)
+                                  @connieayres27: TopFoxx Sunglasses Case perfect for travel or on your vanity
+                                  https://www.tiktok.com/@connieayres27/video/7707731635667488031
+  3        40     521 13.1d  0.38  ili New York Smooth Leather Eyeglass Case for Women's S [Fashion Accessories]
+                                  @jbecke07: If you’re tired of losing your sunglasses or reading glasses
+                                  https://www.tiktok.com/@jbecke07/video/7702912900398107935
+  4         8      16  2.0d     0  Soft PU Leather Sunglasses Pouch Elastic Opening Eyegla [Home Supplies]
+                                  @dawnmovie0: Say goodbye to bulky glasses cases! 👋✨ This compact sunglass
+                                  https://www.tiktok.com/@dawnmovie0/video/7706881742904233246
+  5         2       5  2.4d     0  Soft PU Leather Sunglasses Pouch Elastic Opening Eyegla [Home Supplies]
+                                  @dawnmovie0: Say goodbye to bulky glasses cases! 👋✨ This compact sunglass
+                                  https://www.tiktok.com/@dawnmovie0/video/7706881555658214686

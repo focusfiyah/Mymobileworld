@@ -46,3 +46,10 @@ Haiti flag (388 views), ili glasses case (263), Bobbi Brown Prep and Brighten Du
 - **Identity call-outs keep selling** (flag: "are you even Ayisyen"; Bobbi: "chronically tired eyes"), as with the dilator and Tiger Eye.
 - **No deadline in any of the 5** (patterns 4 and 5 absent): they sold on the scene alone, so the new scripts test adding a real date (Jan 1, Thanksgiving, party season, cold weather) and a two-unit close.
 - Scripts written from them (VO + talk to camera per product): `ugc/sales-scripts-1113/<product>/scripts.md`, Drive "Scripts - <product>" docs. Test to run next: the same product as a music-only real clip vs. a voiced version, to see which sells more per view.
+
+## 2026-11-13 round 2: her biggest sellers are talking on camera (Telegram msg 505)
+Shnuggle toddler tub: 50+ sales on 120.1K views (about 2,400 views per sale, best in the tracker by far). Attirify padded shorts: 10+ (6,102 views, ~610 per sale), 5+ (5,035, ~1,000), 1 (2,980). All four are Grace on camera, in her own voice, 22-37 s, with a text hook on frame 0.
+- **The highest sales counts all come from Grace talking on camera with real proof on her body or her child** (daughter in the tub; dress down / dress lifted). Music-only clips (round 1) sell too, but one at a time.
+- **Hook mechanisms that sold:** category gap discovery ("never seen a true toddler size tub until now"), other people's reaction ("BBL allegations"), riddle ("it's coming from somewhere, not a surgeon"), same-outfit before/after.
+- **Payoff matters:** the Attirify video with a callback joke at the end ("don't blame me when people ask where you got your body done") sold the most of the three.
+- Watch: two of these used a price tease and "hope they don't sell out" (PLAYBOOK §1 breaks); the new originals replace them with real dates.
