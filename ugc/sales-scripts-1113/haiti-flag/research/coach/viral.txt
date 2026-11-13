@@ -4,3 +4,40 @@
   #giftsforher: 0 videos
   /discover/haiti-flag: 16 videos
   /discover/black-and-red-haitian-flag: 16 videos
+  /discover/haitian-flag-day: 16 videos
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:396: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
+
+46 videos scanned, 9 videos posted in the last 30.0 day(s) -> ugc/sales-scripts-1113/haiti-flag/research/coach/viral-2026-11-13.json
+Ranked by average views/day since posting (run again later with the same --state for views gained between runs).
+
+  #   per day   views   age save%  product / creator / url
+  1       671    1.3K  1.9d  0.15  3x5ft Haitian Haiti Flag, Not Embroidered, Printed 150D [Home Supplies]
+                                  @regisjeangardy: haitian flag for sale #soccer #haitianamerican #florida #hai
+                                  https://www.tiktok.com/@regisjeangardy/video/7707023504939453726
+  2       459     856  1.9d   0.7  (product not in TikTok's data)
+                                  @bentz2plus: Vin banm nouvel😂🇭🇹 #f16 #fightingfalcon #haiti #ayiti #haiti
+                                  https://www.tiktok.com/@bentz2plus/video/7707050637317377311
+  3       267    2.4K  9.1d  0.41  (product not in TikTok's data)
+                                  @darsonimston93: 🇭🇹 Haiti in the sky! 🔥🌍 Show your national pride! Drop your 
+                                  https://www.tiktok.com/@darsonimston93/video/7704360683248356641
+  4       266     812  3.1d  0.74  (product not in TikTok's data)
+                                  @the.official_y.o.p: Men Ayiti nan menw Senye🙌🏽🇭🇹 #🇭🇹 #dance #haitiantiktok #chur
+                                  https://www.tiktok.com/@the.official_y.o.p/video/7706610524007484702
+  5       230    1.2K  5.1d   0.6  (product not in TikTok's data)
+                                  @darsonimston93: 🇭🇹❤️🇸🇻 Two nations, two flags, one sky! 🌍🔥 Which country are
+                                  https://www.tiktok.com/@darsonimston93/video/7705847854526483744
+  6        89     444  5.0d     0  (product not in TikTok's data)
+                                  @media.prideofhaiti: 🇸🇻🇭🇹 MISS UNIVERSE EL SALVADOR WAVES HAITIAN FLAG: “EL SALVA
+                                  https://www.tiktok.com/@media.prideofhaiti/video/7705899006588734750
+  7        46     900 19.8d   1.0  (product not in TikTok's data)
+                                  @n.leonvil: Nou dwé retouné Drapeau Hayti a Noir et Rouge 👏👏👏
+                                  https://www.tiktok.com/@n.leonvil/video/7700405121313754399
+  8        38     489 13.0d   0.2  (product not in TikTok's data)
+                                  @anakaona_ayiti1: #haitian #haitiantiktok #Haiti 
+                                  https://www.tiktok.com/@anakaona_ayiti1/video/7702933177844862239
+  9        29     291 10.2d     0  G128 Haiti Haitian Flag 3x5 ft Printed Not Embroidered  [Home Supplies]
+                                  @g128store: G128 Flag of the Day Series - The Haitian flag represents a 
+                                  https://www.tiktok.com/@g128store/video/7703970336492031263

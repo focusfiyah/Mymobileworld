@@ -39,3 +39,10 @@ Each version changes one thing from the list above (see `VERSIONS.md`): a sharpe
 hook, the objection as the hook, a gift angle that asks for two, show-don't-explain, the proof moment in the first
 second, a 15 s cut. Log every new video in the tracker with its version id (for example `mute-A`) in the Note column, so
 the sales show which change paid.
+
+## 2026-11-13: 5 more sales, all Grace's own real footage (Telegram msg 493)
+Haiti flag (388 views), ili glasses case (263), Bobbi Brown Prep and Brighten Duo (364), Asvivid mock neck (282), Anthem meat sticks (128). Grace said "I got sales" with no count, so each is logged as 1 (at least one) until she gives numbers. All 5 are brand-promoted (TikTok ad label), so views per sale compare within promoted videos only.
+- **New pattern: short, music-only, real footage sells.** All 5 are 7-14 s, no voiceover, Grace's own phone footage (2 on camera, 3 hands only), with ONE line of on-screen text that names the buyer or the pain ("are you even Ayisyen if you don't own a flag???", "complexion prep duo for chronically tired eyes...", "finally... clean quality jerky snacks that DON'T taste like cardboard"). It confirms patterns 1 (product in the first second, all 5) and 2 (a text line on frame 0, all 5) and breaks the "30 s voiceover" shape of the first six.
+- **Identity call-outs keep selling** (flag: "are you even Ayisyen"; Bobbi: "chronically tired eyes"), as with the dilator and Tiger Eye.
+- **No deadline in any of the 5** (patterns 4 and 5 absent): they sold on the scene alone, so the new scripts test adding a real date (Jan 1, Thanksgiving, party season, cold weather) and a two-unit close.
+- Scripts written from them (VO + talk to camera per product): `ugc/sales-scripts-1113/<product>/scripts.md`, Drive "Scripts - <product>" docs. Test to run next: the same product as a music-only real clip vs. a voiced version, to see which sells more per view.
