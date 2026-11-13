@@ -88,3 +88,41 @@ No discover page for 'glasses-case' (TikTok only has pages for keywords it creat
 /discover/sunglasses-case: 16 videos, fetching stats...
 /home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:326: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  cutoff = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
+--days 365: kept 16 of 16 videos posted since 2025-11-13
+16 videos -> ugc/sales-scripts-1113/ili-case/research/coach/discover-sunglasses-case.json
+
+      views  eng%  save%  dur     posted  author / caption / url
+  1,300,000   0.6   0.15   32 2026-08-30  @ys.findcozyhome.mras: Say goodbye to bulky glasses cases! 👋✨ This sunglasses case features a
+                                          https://www.tiktok.com/@ys.findcozyhome.mras/video/7679707606625094926
+    585,600   0.7   0.14  171 2026-06-17  @digitalcourt: This away sunglass suitcase is worth every penny!!! 
+                                          https://www.tiktok.com/@digitalcourt/video/7652495822415727902
+     98,200   0.5   0.16   31 2026-10-06  @hollyroquemore1: I no longer have to dig for them and guess what case they are in🤍 #sun
+                                          https://www.tiktok.com/@hollyroquemore1/video/7693603992160570638
+     88,000   0.4   0.08   28 2026-08-22  @cyberwitch36: I didn’t know I needed this until I got it. 🤯 I was tired of my sungla
+                                          https://www.tiktok.com/@cyberwitch36/video/7676763350834957598
+     27,700   1.2    0.2   12 2026-10-22  @cargeardirect: This visor glasses case is the cleanest car organization hack for your
+                                          https://www.tiktok.com/@cargeardirect/video/7697214522452495632
+     22,300   2.4   0.41   16 2026-03-22  @emily_27lm11: Fashion sunglasses case bring it to the home🥰🥰#lv #luxurylife #sunglas
+                                          https://www.tiktok.com/@emily_27lm11/video/7620114046888480001
+      5,015   1.4   0.14   19 2026-05-15  @c_has2025: Coach sunglass case for my trip😍 #coach #coachsunglassescase #sunglass
+                                          https://www.tiktok.com/@c_has2025/video/7640167727641971998
+      2,876   0.7   0.17   18 2026-02-06  @emilysungait: To get these case 👇#tiktokshopjumpstartsale #sungait #fypシ #sunglasses
+                                          https://www.tiktok.com/@emilysungait/video/7603374701758401822
+      2,853   0.3   0.07   34 2026-11-02  @van.dang517: Saygoodbyetobulkyglassescases!👋✨ Thissunglassescasefeaturesasnap-butto
+                                          https://www.tiktok.com/@van.dang517/video/7703545975599549727
+      1,841   0.3   0.11   12 2026-05-15  @itsunclefizz: #sunglassescase #fathersday #TikTokShopFinds 
+                                          https://www.tiktok.com/@itsunclefizz/video/7639981959929793806
+      1,451   0.3   0.07   35 2026-11-02  @snacki123: Perfect gift for your travel friend!!! @Away Travel #awaytravel #sungl
+                                          https://www.tiktok.com/@snacki123/video/7703649887908302111
+        764   6.0      0   21 2026-10-23  @thecompletedlook: Coach outlet sunglasses case > trifecta is complete! Also have the bla
+                                          https://www.tiktok.com/@thecompletedlook/video/7699660375519661326
+        613   1.6   0.16   49 2026-04-20  @okqbeogvci11kt: Sunglasses case #musthaves #affordablefashion #lvlover 
+                                          https://www.tiktok.com/@okqbeogvci11kt/video/7630653826571242772
+        595   5.4    0.5   14 2026-10-21  @afr4394: She’s perfect 🖤 🕷️ @Coach #coach #fyp 
+                                          https://www.tiktok.com/@afr4394/video/7699245592542760222
+        521   1.7   0.38   21 2026-10-31  @jbecke07: If you’re tired of losing your sunglasses or reading glasses,this is t
+                                          https://www.tiktok.com/@jbecke07/video/7702912900398107935
+
+No discover page for 'double-glasses-case' (TikTok only has pages for keywords it created; web-search site:tiktok.com/discover <keyword> for real ones).
