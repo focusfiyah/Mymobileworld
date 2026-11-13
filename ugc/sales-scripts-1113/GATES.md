@@ -29,3 +29,23 @@ Scope: for each of the 5 products Grace sold with (Haiti flag, ili case, meat st
   CHECK: python3 tools/brain/check.py --terms "Haiti flag,Bobbi Brown,selling videos scripts"
   EXPECT: BRAIN_OK
   EVIDENCE: 2026-11-13 ran by hand: BRAIN_OK (428 notes, terms found); vault pushed 22cd73f
+
+## Round 2 (Grace msgs 498 + 505, 2026-11-13)
+
+- [ ] G7: the 4 new selling videos are in the tracker with Grace's counts (Shnuggle 50, Attirify 10 / 5 / 1) and every field filled
+  CHECK: python3 grace/winners/check.py fields
+  EXPECT: PASS fields 17
+  EVIDENCE: pending
+
+- [ ] G8: Shnuggle and Attirify jobs pass the Grace script gate
+  CHECK: python3 grace/gate.py ugc/sales-scripts-1113/shnuggle-tub && python3 grace/gate.py ugc/sales-scripts-1113/attirify-shorts
+  EXPECT: GATE OK
+  EVIDENCE: pending
+
+- [ ] G9: the 5 first products each have research/GRACE_RESEARCH.md with all 8 of Grace's sections and a "What I could not verify" list
+  CHECK: python3 ugc/sales-scripts-1113/check.py research
+  EXPECT: RESEARCH_OK
+  EVIDENCE: pending
+
+- [ ] G10: in Drive: Attirify transcripts doc, a breakdown + original scripts doc per product (Shnuggle, Attirify), a Research doc per first-5 product; Telegram to Grace per deliverable with ✅, Ralph told
+  EVIDENCE: pending

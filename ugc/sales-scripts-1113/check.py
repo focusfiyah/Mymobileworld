@@ -83,6 +83,17 @@ def main():
             r = subprocess.run([sys.executable, str(ROOT / "grace/gate.py"), str(HERE / j)], capture_output=True, text=True, cwd=ROOT)
             if "GATE OK" not in r.stdout: bad.append(f"{j}: {r.stdout.strip()[:600]}")
         print("\n".join(bad) if bad else "ALL_GATES_OK"); sys.exit(1 if bad else 0)
+    if cmd == "research":
+        need = ["1. Understand the product", "2. Target buyer", "3. Pain points", "4. TikTok Shop market", "5. Content angles",
+                "6. Honest", "7. The four", "8. Content kit", "What I could not verify"]
+        errs = []
+        for j in JOBS:
+            p = HERE / j / "research/GRACE_RESEARCH.md"
+            if not p.exists(): errs.append(f"{j}: no GRACE_RESEARCH.md"); continue
+            t = p.read_text().lower()
+            errs += [f"{j}: missing section '{n}'" for n in need if n.lower() not in t]
+            errs += [f"{j}: banned {b}" for b in (r"[–—]", r"\$\s?\d") if re.search(b, t)]
+        print("\n".join(errs) if errs else "RESEARCH_OK"); sys.exit(1 if errs else 0)
     if cmd == "selftest":
         bad = '## Voiceover\n**HOOK** (H999) "Hi"\n**SCRIPT** "Hi. Order it now for $20."\n'
         print("SELFTEST_OK" if check_md(bad, "bad") else "SELFTEST_FAILED"); return
