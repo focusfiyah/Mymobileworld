@@ -13,3 +13,7 @@ Tells found and what changed:
 - Wrong reader: no history lecture (the maker's own history video got 291 views); Grace talks to her girls.
 - Draft-to-final also cut length: VO 78 -> 73 words, camera 82 -> 75 words (readability_v1/v2), about 22 s each at a quick TikTok pace.
 Final text: scripts.md (unchanged after this pass).
+
+
+## 2026-11-14: Grace's own version (Telegram msg 526) added to scripts.md as CURRENT
+Grace wrote it herself after reviewing ours; it is kept word for word (client's own words: no humanizer edits, no rewording). Banned-phrase scan: none. Facts all on the listing/G128 store (3x5, vibrant colors, brass grommets). Readability: research/readability_v3.txt. Our v1 scripts stay below it for the record.

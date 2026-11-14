@@ -46,3 +46,25 @@ Selling points: 3
 | January first is coming. | GREEN | Real date (Haitian Independence Day) |
 | It's in the orange cart. | GREEN | Close |
 Cut: "So I got us this one." (narration, Grace: fluff); "before we say a word" (tail with no new fact); "Don't be the one at the party with no flag" (blamed the viewer; replaced with "Nobody wants to be...")
+
+
+## Grace's version (CURRENT, msg 526, 2026-11-14)
+Buyer: Haitians and the Haitian diaspora who want to represent at celebrations (broad: anyone Ayisyen)
+Pain: not having a flag when everyone is representing (identity: "are you even Ayisyen?")
+Connection: one flag covers every Haitian celebration of the year, starting January 1st
+Outsider test: no qualifiers, no "girls"; the identity call-out names the whole community
+Common enemy: none needed; pride framing (no viewer blamed)
+Contradiction check: no claim beyond size, colors and grommets; uses (cape, parade, home) are shown in her footage
+Repetition pass: no line said twice
+Pain points: 1
+Selling points: 3 (wear/wave/hang thanks to 3x5; vibrant colors; brass grommets for easy hanging)
+| Line | Mark | Why / shot |
+|---|---|---|
+| Are you even Ayisyen if you don't own a Haitian flag? | GREEN | Her winning on-screen hook, spoken. Shot: flag swings open at frame 0 |
+| January 1st around the corner, and that's just the beginning! | GREEN | Real occasion urgency (Independence Day, Jan 1). Shot: she shakes it open |
+| Between Independence Day, Flag Day, Carnival, and all the Haitian celebrations throughout the year, you're going to need this. | GREEN | Stacks real occasions: many uses, not one. Shot: flag held wide |
+| It's 3x5, so you can wear it like a cape, wave it at the parade, or hang it up at home. | GREEN | Feature tied to three uses. Shots: cape, wave, wall |
+| The colors are vibrant, and it has brass grommets for easy hanging. | YELLOW | Two features, the second tied to use. Shot: coat of arms, grommet |
+| Make sure you're ready to represent! | GREEN | Pride close that pictures the moment |
+| It's in the orange cart. | GREEN | Close |
+Cut: none (client's own words, kept word for word)
