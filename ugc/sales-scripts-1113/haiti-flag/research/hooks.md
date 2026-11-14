@@ -22,3 +22,7 @@ Winners modeled:
 | 3 | H060 "I am absolutely the person who brings the flag to every party" [only if true for Grace] | W2 hype to camera | "the cousin with the flag" |
 
 Final picks: Voiceover H062, Talk to camera H061 (different ids, never used before in used_in).
+
+
+## 2026-11-14: Grace's own version (Telegram msg 526) added to scripts.md as CURRENT
+Grace wrote it herself after reviewing ours; it is kept word for word (client's own words: no humanizer edits, no rewording). Banned-phrase scan: none. Facts all on the listing/G128 store (3x5, vibrant colors, brass grommets). Readability: research/readability_v3.txt. Our v1 scripts stay below it for the record.
