@@ -12,7 +12,7 @@ Course rule: one base price per video, every extra on its own line, and the pric
 | Raw footage | $____ | All clips, no edit |
 | Rush (under 5 days) | +____% | |
 
-Ralph fills the blanks (the course gives the method, not the numbers).
+Ralph fills the blanks (the course gives the method, not the numbers). 2026-11-14: Grace asked on Telegram (msg 521) to send her add-on prices.
 
 What she says:
 - "I'm currently accepting projects starting at $500."
