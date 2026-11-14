@@ -1,6 +1,12 @@
 # Haiti flag: scripts (2026-11-13)
 Grace's 12 s music-only video sold it on pride (unbox, unfold, wrap it on her shoulders, hold it up, "are you even Ayisyen if you don't own a flag???"); these keep that pride angle and the same shots, and add a spoken hook, the size, colors and grommets as proof, and January first as the real reason to buy now.
 
+## Grace's version (CURRENT, Telegram msg 526, 2026-11-14)
+Grace replaced our scripts with her own (her notes are in grace/PLAYBOOK.md §1, 2026-11-14). Used word for word in her doc; a cut with it as VO needs Ralph's per-video override (hard rule 7).
+Are you even Ayisyen if you don't own a Haitian flag? January 1st around the corner, and that's just the beginning! Between Independence Day, Flag Day, Carnival, and all the Haitian celebrations throughout the year, you're going to need this. It's 3x5, so you can wear it like a cape, wave it at the parade, or hang it up at home. The colors are vibrant, and it has brass grommets for easy hanging. Make sure you're ready to represent! It's in the orange cart.
+
+Our v1 (2026-11-13), kept for the record:
+
 ## Voiceover
 **HOOK** (H062) "You know that moment when everybody pulls out their flag but you?"
 **SCRIPT** "You know that moment when everybody pulls out their flag but you? You're standing there with nothing to wave. Girls, this one shows where we come from. It's three by five, so it wraps around you. The colors pop, and the palm tree is sharp. Brass rings let it hang inside or out. The only problem? Now I want one in every room. Hang it before January first. It's in the orange cart."
