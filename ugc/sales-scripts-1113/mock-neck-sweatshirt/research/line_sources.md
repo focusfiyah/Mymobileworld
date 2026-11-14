@@ -1,31 +1,21 @@
-# Line sources: Asvivid Reversible Mock Neck Sweatshirt (2026-11-13)
-L = listing (research/listing_raw.txt, product_facts.md). G = Grace's sold video (research/winner/). Coach = research/coach/. VoC = research/audience/. PB = grace/PLAYBOOK.md.
+# Line sources (revised 2026-11-14, Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"))
+| Script | Line | Source |
+|---|---|---|
+| VO | Hook | H062 (grace/hooks/hooks.json), unchanged from 2026-11-13; see research/hooks.md |
+| VO | Same sweatshirt, every week. | GRACE_RESEARCH §7 closet boredom |
+| VO | This one is reversible. | listing "Reversible" |
+| VO | Wear it one way, then turn it around for a second outfit. | listing "2-Way Wear"; Grace's turn |
+| VO | The mock neck keeps you cozy, and the loose fit is easy to layer. | listing "cozy warmth", "Loose Fit", "easy layering"; note 1 |
+| VO | It has 4.8 stars. | listing 4.8 (37) |
+| VO | Cold weather is here, then Thanksgiving and holiday trips. | listing Fall Winter; lookup.py holidays (2026-11-26); note 3 |
+| VO | You'll wear it both ways all season. | listing Daily Wear, 2-Way Wear; note 3 |
+| TTC | Hook | H017 (grace/hooks/hooks.json), unchanged from 2026-11-13; see research/hooks.md |
+| TTC | By winter, they all feel the same. | GRACE_RESEARCH §7 |
+| TTC | This one is reversible. | listing |
+| TTC | Wear it this way, or turn it around for a second look. | listing 2-Way Wear; Grace's turn |
+| TTC | The mock neck keeps you cozy, and it's loose enough for leggings or cargos. | listing cozy, Loose Fit; Grace's winner (cargo pants); GRACE_RESEARCH "legging friendly"; note 1 |
+| TTC | Thanksgiving is around the corner, and that's just the beginning. | lookup.py holidays; Grace's model CTA (msg 526) word for word |
+| TTC | Between holiday parties and winter errands, you'll wear it both ways. | GRACE_RESEARCH §2 errands; note 3 |
+| both | It's in the orange cart. | PLAYBOOK §1 close |
 
-## Voiceover
-| Line | Source |
-|---|---|
-| You know that moment when you open your closet and nothing feels new? | Hook library H062 (blank filled); Big Fish last rung (RESEARCH.md); VoC "I open my closet, and I can't find anything to wear" |
-| Same sweatshirt, every week. | VoC "bored with my outfit the day before"; PB §4 pain beat after the hook |
-| This one gives you two looks. | L "Reversible design offers two stylish looks in one"; connection step (PB §4 Grace script method) |
-| Wear it one way, then turn it around. | L title "2-Way Wear"; G front/back turn; Coach @torijflow reversible video (76.2K) shows both sides |
-| The mock neck is cozy. | L "Mock neck adds cozy warmth" |
-| It has 4.8 stars. | L "4.8 (37)"; PB §4 one trust line |
-| The hard part is picking one of eight colors. | L 8 colors; PB §1 sell-side confession; CTA sells more units (PB §4); Coach @gabiterryy "these colors!" (415.8K) |
-| Cold weather is here. | Real season (2026-11-13, title "Fall Winter"); PB §1 no false scarcity |
-| It's in the orange cart. | PB §1 close |
-
-## Talk to camera
-| Line | Source |
-|---|---|
-| I want a new look without having to buy a new sweatshirt. | Hook library H017 (blanks filled); RESEARCH.md desire role; VoC "like getting 2 shirts for the price of one"; VoC price pain "why so expensive for american eagle" |
-| Girls, by winter they all feel the same. | Big Fish rung 2; PB §1 Grace's "girls" voice |
-| This one is reversible. | L "Reversible"; G on-screen text "reversible wear sweatshirt" |
-| Wear it this way, or turn it around for a second look. | L "2-Way Wear", "two stylish looks in one"; G turn; Coach @torijflow mirror talk to camera (597.5K) format |
-| The mock neck is cozy and the fit is loose. | L "cozy warmth", "Loose Fit", "Drop Shoulder"; VoC top question "Do you feel like this is oversized or TTS?" |
-| It has 4.8 stars. | L "4.8 (37)" |
-| The hard part is picking a second color. | L 8 colors; PB §1 sell-side confession; PB §4 CTA sells more units |
-| Get it before the real cold hits. | Real season; Coach @abbyshopsss (222K, #1 fashion viral board) season talk |
-| It's in the orange cart. | PB §1 close |
-
-## Caption
-Grace's own caption (G) rewritten plain; L "2-Way Wear", 8 colors; hashtags from G; disclosure PB §1.
+Full per-line marks: research/line_audit.md. Facts: research/product_facts.md.

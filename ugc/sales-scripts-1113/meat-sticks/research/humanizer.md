@@ -1,20 +1,19 @@
-# Humanizer pass (2026-11-13): both FINAL scripts + caption
-Skill `humanizer` loaded with the Skill tool and its pattern catalog (references/patterns.md, groups A-F) checked line by line. The hook lines stay word for word (library rule).
+# Humanizer report (2026-11-14, humanizer skill, patterns A-F) on the REVISED scripts
+Revised with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"). Hook lines left word for word (library rule). Earlier report (2026-11-13) replaced; what changed and why:
 
 ## Voiceover
-Tells found in the draft and what changed:
-- §6 forced triad / §15 riders: "It comes boxed and wrapped, ready to give, from a veteran owned shop" style stacking in the first draft, and "The jerky is real cuts of beef, slow smoked over real wood" (two "real"). Now "This jerky is real beef, smoked over wood."
-- §4 staged run-up: "This box is different." only announced the point. Cut.
-- §16 sales language: no hype words left ("amazing", "best" only appear inside the review data, not the script).
-- §8 dashes: none.
-- Kept on purpose: "Only problem? Too pretty to open." is a question run-up (§4), but it is Grace's own sell-side confession format (PLAYBOOK §1: "the only downside? they won't want to get out"), so it stays.
-- Fact check after the rewrite: nothing added; "real beef, smoked over wood" maps to the listing "whole muscle premium beef ... over real wood smoke"; "People say you can actually taste the beef" is the review.
+- Cut "Only problem? Too pretty to open." (note 2, forced humor; staged question §4).
+- Cut "Gas station ones are dry." (length; the hook already names the cardboard pain) and "from a veteran owned shop" (kept for the talk to camera version so the two differ and the VO stays near 24 s).
+- "Ten sticks, four flavors" was a checklist; now "Ten sticks in four flavors you can toss in your bag for work or the drive." (note 1; work and road trips are real situations in GRACE_RESEARCH.md §2).
+- CTA "It's TikTok only, so grab two before the holidays." was an instruction; now the moments ("Thanksgiving road trips are around the corner, then game days and Christmas stockings.") and "Grab one for you and one for a stocking." (note 3; a stocking, not "his stocking", so no buyer is left out, note 4).
+- No dashes, no triads beyond the occasion stack, no closer.
 
 ## Talk to camera
-- §1 contrast + §2 one-line closer: draft "Socks just end up in a drawer. Snacks never do. ... This won't." had two contrast closers. Now one plain line pair: "Socks end up in a drawer. This gets eaten." (kept because it is the connection step: why this gift fixes the pain).
-- §7 repeated openings: three sentences opened with "It". Merged "It shows up wrapped in paper, from a veteran owned shop."
-- §25/§13 inflation: none. "Honestly?" kept: Grace's voice, one aside.
-- Fact check: nothing added; "wrapped in paper" is in her frames + a review; "TikTok only" and "Christmas is close" are real (listing, Nager.Date 2026-12-25).
+- Cut "Honestly? I wanted to keep it." (note 2; staged "Honestly?" opener, §4).
+- "Ten meat sticks in four flavors, plus sweet heat jerky." was a list; now "... plus jerky, for work, the drive or game day." (note 1).
+- "It shows up wrapped in paper, from a veteran owned shop." now ends "so it's ready to give." (note 1).
+- "It's TikTok only and Christmas is close." replaced by the moments: "Thanksgiving is around the corner, then Secret Santa, stockings and Christmas morning." (note 3). "TikTok only" dropped for length (true, not needed).
+- Hook "for men" is the library hook as written (brief: hooks unchanged); the gift buyer is anyone shopping for a man, so no "Girls" or other narrowing word was added.
 
 ## Caption
-- Draft "For the savory snack lovers who want quality ingredients AND bold flavor" (Grace's): "quality ingredients" cannot be backed by the listing, so it is not reused. Final: "For everyone tired of jerky that tastes like cardboard. Ten meat sticks, four flavors and sweet heat jerky from a veteran owned shop in Montana, TikTok only." No triad of adjectives, no hype, no price.
+- Unchanged; no forced-humor or narrowing words in it.

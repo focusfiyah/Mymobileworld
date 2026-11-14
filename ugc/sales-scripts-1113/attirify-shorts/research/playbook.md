@@ -6,3 +6,11 @@
 - §4 Grace structure: curiosity hook, pain beat, selling points, real urgency CTA.
 - Creator Pathway: visible-result product = product on screen from frame 0; common enemy = other shapewear; show it, don't say it (every claim line names its shot); contradiction check done.
 - Hard rule 6: no on-screen text unless Ralph says yes (music-only versions flagged as needing his yes).
+
+## Revision 2026-11-14: Grace's script notes (PLAYBOOK §1 "Grace's script notes, Haiti flag", Telegram msg 526) applied to all 3 scripts
+1. Features tied to use: "so your dress has a curve to hug", "so no sucking in at dinner", "so I don't need a cardigan to hide in", "so the curve blends in like your own", "so you can tuck your top in". No pure checklist line left.
+2. No forced humor: "The only problem is you'll want a new dress for every party." and "The hardest part is keeping it a secret." cut; the real reason in the first (more parties) moved into the CTA as true occasions.
+3. Occasion CTAs the buyer can picture, different per script: (1) Christmas party, New Year's Eve, family photos; (2) the office party in the skipped dress; (3) holiday brunch, Christmas Eve, New Year's + both colours for light and dark skirts. Real dates only.
+4. No narrowing words: no "girls", "ladies"; buyer lines read "anyone who".
+5. Plain buyer words: "soft pads", "high waist", "fill out my hips", "tuck your top in".
+Kept: hooks H130, H094, H101 word for word, Grace's structure, max 3 selling points, no price, no "order it now", no "reviewer"/"label says", no dashes, no false scarcity, grades 3.8 / 2.2 / 1.9, each ends "It's in the orange cart.". Lengths 86 / 89 / 94 words, about 25-28 s at Grace's 3.4 words a second.

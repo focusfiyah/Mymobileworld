@@ -7,3 +7,11 @@
 - Creator Pathway (2026-11-09): visible-result product, so the case is on screen from frame 0; common enemy = purse and two cases, not the viewer; "you" openers.
 - Hard rule 6: no on-screen text unless Ralph says yes.
 - Length: 67 words each, about 22 s at Grace's talking pace (27 s at the tool's 150 wpm).
+
+## Rules applied 2026-11-14 (Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"))
+1. Features tied to use: every feature line now says how the buyer uses or enjoys it ("so ...", "for ..."); description-only lines cut or given a use.
+2. No forced humor: every "only problem / hard part / honestly / why did nobody tell us" line cut.
+3. CTA with occasion urgency: real moments named (Thanksgiving 2026-11-26, Christmas 2026-12-25, holiday parties, cold weather) and what the buyer does with it then; Grace's "around the corner, and that's just the beginning" / "make sure you're ready" forms used where they fit.
+4. No narrowing words: "Girls," removed; "a stocking" instead of "his stocking" in the meat sticks VO.
+5. Plain buyer words for features ("reversible", "stays on for twelve waterproof hours", "snaps shut").
+Kept: hooks word for word, Grace's structure, max 3 selling points, facts only from product_facts.md, "It's in the orange cart." last, no price, no dashes, grade <= 6.

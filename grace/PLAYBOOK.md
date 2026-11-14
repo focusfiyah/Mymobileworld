@@ -11,8 +11,8 @@ products follow the same rules.
 - **No personal-use lines** ("I use it", "it worked for me", "smells like…") unless true for Grace. Review
   findings are said the way Grace would pass them on ("people say their teenager grabbed it and ran off with it"), never her experience and never the word "reviewer(s)" (Ralph 2026-10-05).
 - **Grace's point of view, every script** (Ralph 2026-10-03, after the Anemiaprin v2 scripts read like a nurse
-  lecturing): write it as Grace talking to her friends ("girls", "this is the one I'd show you", "here's what I want
-  you to know"), reading the label in her hand and giving her opinion. Never an expert or educator voice ("as a nurse",
+  lecturing): write it as Grace talking to her friends ("this is the one I'd show you", "here's what I want
+  you to know"; never "girls" or any word that narrows the buyers, Grace 2026-11-14 below), reading the label in her hand and giving her opinion. Never an expert or educator voice ("as a nurse",
   "you're taking it wrong" lectures). When the viral model is an expert's video, copy its format (numbered tips, label
   read, comment reply), not its voice. Facts stay, said the way she'd pass them on. Life details that may not be true
   for her ("me at 3pm every day") get an [only if true] tag plus a neutral version ("who else is done by three?").
@@ -22,6 +22,13 @@ products follow the same rules.
 - **Never say a price** (Ralph + Grace 2026-10-02): no prices, discounts, "$X value", "% off" or "on sale" in the
   spoken script, on-screen text or caption. TikTok gives violation cards for it. Deal talk without numbers is fine
   ("two for the price of one", "TikTok-only set", "the cheaper one surprised me"). Never a price number (Ralph 2026-10-05).
+- **Grace's script notes, Haiti flag (Grace 2026-11-14, Telegram msg 526, on our scripts of 2026-11-13; they apply to every Grace script):**
+  1. **Features tied to use, never a checklist.** Each detail says how the buyer uses or enjoys it: "It's 3x5, so you can wear it like a cape, wave it at the parade, or hang it up at home", not "three by five, bright colors, palm tree, brass rings". A line that only describes ("the colors pop, and the palm tree is sharp") is product description, not a selling point: cut it or give it a use.
+  2. **No forced humor.** The "only problem? now I want one in every room" style confession reads as a forced sales transition. The honest line must be a genuine reason to buy (more occasions, more uses), or leave it out.
+  3. **CTA with occasion urgency the buyer can picture.** Not an instruction ("Hang it before January first") but the moment and what comes after it: "January 1st is around the corner, and that's just the beginning! Between Independence Day, Flag Day, Carnival... you're going to need this. Make sure you're ready to represent!"
+  4. **Don't narrow the audience.** No "Girls," (or any word that leaves buyers out) unless the product is only for them.
+  5. **Plain buyer words for features:** "brass grommets make it easy to hang indoors or outdoors", not "brass rings let it hang inside or out".
+  Her preferred Haiti flag script, word for word: "Are you even Ayisyen if you don't own a Haitian flag? January 1st around the corner, and that's just the beginning! Between Independence Day, Flag Day, Carnival, and all the Haitian celebrations throughout the year, you're going to need this. It's 3x5, so you can wear it like a cape, wave it at the parade, or hang it up at home. The colors are vibrant, and it has brass grommets for easy hanging. Make sure you're ready to represent! It's in the orange cart." (identity call-out hook from her own winning on-screen text, occasions stacked, features as uses, a pride close).
 - **Honest lines sell, never un-sell** (Grace 2026-10-02, replaces "one honest caveat"): no warnings, downsides or
   "heads up" lines ("measure your shower first", "a tall kid may outgrow it", "you still need a sink"). The honest
   beat is a sell-side confession: "I hate how easy it is to take this collagen, now I have no excuse", "I'm so upset I

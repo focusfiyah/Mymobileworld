@@ -8,3 +8,5 @@ Spoken hooks from the library in Grace's looser wording (PLAYBOOK §3, 2026-10-2
 | 3 | NEW "Somebody finally made a bathtub just for the toddler years." | "they make these for toddlers now?" | @maxicosi_eu 251.3K "POV: you find a baby bath that actually thinks about the whole routine" https://www.tiktok.com/@maxicosi_eu/video/7679060356018212129 + PLAYBOOK §3 Grace's own hook style (1) category gap |
 
 Outsider test: 1 and 3 have no qualifier; 2 has one (the stage), which is the pain itself.
+
+Revision note 2026-11-14 (Grace's notes, Telegram msg 526): hooks unchanged; option 1 (H010) still opens the script word for word. Checked against note 4: none narrows the audience (no "moms", "girls"). Grace's "Why did nobody tell us?" forced-humor example is a closer line, not this hook, so the hook stays as Ralph asked.

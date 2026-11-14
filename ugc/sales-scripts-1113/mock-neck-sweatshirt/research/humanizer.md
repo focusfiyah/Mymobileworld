@@ -1,27 +1,18 @@
-# Humanizer pass: final scripts + caption (2026-11-13)
-Skill loaded: humanizer (references/patterns.md, groups A to F). The hook lines stay word for word (library rule); only the rest was edited.
+# Humanizer report (2026-11-14, humanizer skill, patterns A-F) on the REVISED scripts
+Revised with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"). Hook lines left word for word (library rule). Earlier report (2026-11-13) replaced; what changed and why:
 
 ## Voiceover
-Draft: "... Same sweatshirt, same look, all week. This one has two sides. Wear it one way, then turn it around for a whole new look. The mock neck is cozy, and the loose fit is easy to layer. It has 4.8 stars. The hard part is picking a color out of eight. Cold weather is here. ..."
-Tells found and changes:
-- §6 forced triad / rhythm: "Same sweatshirt, same look, all week" (three beats by rule) -> "Same sweatshirt, every week."
-- §16 sales language: "a whole new look" -> the look is shown, not sold: "This one gives you two looks. Wear it one way, then turn it around."
-- §26 re-explaining: "the loose fit is easy to layer" said what the full-length shot already shows; cut to keep it at 57 words.
-- Checked: no not-X-but-Y (§1), no one-line closer (§2), no dashes (§8), no AI words (§12), no bold or headings in the spoken text.
+- Cut "The hard part is picking one of eight colors." (note 2).
+- "The mock neck is cozy." was description; now "The mock neck keeps you cozy, and the loose fit is easy to layer." (note 1; listing "easy layering").
+- "This one gives you two looks." merged into "This one is reversible. Wear it one way, then turn it around for a second outfit." (plain buyer word "reversible", note 5).
+- CTA "Cold weather is here." was a bare statement; now "Cold weather is here, then Thanksgiving and holiday trips. You'll wear it both ways all season." (note 3).
 
 ## Talk to camera
-Draft: "... Girls, by winter every sweatshirt starts to feel the same. That's why I love this one. It's reversible. ... Two looks. The mock neck is cozy, and the drop shoulders give it that loose, relaxed fit. ..."
-Tells found and changes:
-- §2 dramatic fragment "Two looks." -> cut; "turn it around for a second look" carries it.
-- §9 stacked qualifiers "that loose, relaxed fit" -> "the fit is loose".
-- §4 staged run-up "That's why I love this one." -> cut (it delayed the point; her caption already says she loves it).
-- §7 repeated openers ("It's ... It's ...") -> "This one is reversible."
-- Checked: no §1 contrasts, no dashes, no sales words ("must have", "elevate"), Grace's "girls" kept (her voice).
+- Cut "Girls," (note 4).
+- Cut "The hard part is picking a second color." (note 2) and "It has 4.8 stars." (length; the VO keeps the stars so the two differ).
+- "The mock neck is cozy and the fit is loose." now "The mock neck keeps you cozy, and it's loose enough for leggings or cargos." (note 1; Grace wears it with cargo pants in her winner).
+- CTA "Get it before the real cold hits." replaced by Grace's own form: "Thanksgiving is around the corner, and that's just the beginning. Between holiday parties and winter errands, you'll wear it both ways." (note 3).
+- "Wear it this way, or turn it around" kept: she turns on camera as she says it.
 
 ## Caption
-Draft: "Your everyday sweatshirt, but make it more versatile. Love the reversible design!" (Grace's own)
-- §16 sales word "versatile" -> plain: "now with two looks. Wear it one way, turn it around for the other."
-- Ends with a real question to the viewer ("Which color would you get?"), no price, disclosure note kept.
-
-## Remaining patterns
-None found on a read-aloud. The confession lines ("The hard part is picking ...") stay: they are Grace's sell-side honest beat (PLAYBOOK §1), not a downside.
+- Unchanged; no forced-humor or narrowing words in it.

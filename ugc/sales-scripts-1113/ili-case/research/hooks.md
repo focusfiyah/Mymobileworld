@@ -14,3 +14,6 @@ Spoken hooks from the library, word for word, blanks filled. On-screen text = cu
 | 1 FINAL | H062 "You know that moment when you need your readers and you only brought your sunglasses?" | "wrong glasses in my purse again" | @jbecke07 (same brand) "If you're tired of losing your sunglasses or reading glasses" https://www.tiktok.com/@jbecke07/video/7702912900398107935 + Grace's caption "Sunglasses for outside, readers for everything else" |
 | 2 | H063 "I know I cannot be the only one who carries two glasses cases." | "anyone else carry two cases?" | @ys.findcozyhome.mras 1.3M "Say goodbye to bulky glasses cases!" |
 | 3 | H017 "I want my sunglasses and my readers with me without having to carry two cases." | "sunnies and readers in one" | @hollyroquemore1 98.2K, talk to camera, "I have all my sunglasses in one place" |
+
+## 2026-11-14 note
+Scripts revised with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"). Final hooks unchanged, word for word: Voiceover H008, Talk to camera H062. On-screen text options unchanged (offered only, burned in on Ralph's yes).
