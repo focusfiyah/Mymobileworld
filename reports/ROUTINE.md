@@ -7,7 +7,7 @@ Goal: short notes on what we learned, so Ralph can paste them into a new chat. F
 2. Write `reports/YYYY-Wnn-weekly.md` (≤400 words), using the same sections as `2026-W40-weekly.md`:
    per project/client · Skills acquired (table, new ones marked) · Gotchas · Next.
 3. Workflow health (Ralph 2026-11-14 weekly audit, "so that tomorrow ... everything is working well"), each with its
-   result in a "Health" section: `handoff/branch_sync.py` in every repo (SYNC_OK, no SKILL DRIFT); `tools/media/media.py
+   result in a "Health" section: `handoff/branch_sync.py` in every repo (SYNC_OK, no SKILL DRIFT); `tools/skills/account_drift.py` (ACCOUNT_OK, else list the UPLOAD and REMOVE names for Ralph); `tools/media/media.py
    check` (MEDIA_OK); the grace/tests suites (`python3 <file>` each, not pytest); list_triggers (finished one-shots and
    tasks past their end date: list them for deletion, ask Ralph); every skill, tool or source added that week: name the
    session that used it, or flag it unused; the Creator Pathway decisions (BOOK.md Product open/screen lines, one-change
