@@ -1,0 +1,5 @@
+# B-roll sources (2026-11-12)
+- tree_couple.mp4: Pexels video 5727551 https://www.pexels.com/video/a-man-is-carrying-a-girl-while-trying-to-put-an-star-ornament-at-the-top-of-a-christmas-5727551/ (1080 wide, 10 s), Pexels License (free commercial use, no attribution)
+- stockings.mp4: Pexels video 6305999 https://www.pexels.com/video/christmas-stockings-hanging-on-a-fireplace-6305999/ (1080 wide, 20 s), Pexels License (free commercial use, no attribution)
+- gift_wrap.mp4: Pexels video 6098961 https://www.pexels.com/video/close-up-shot-of-a-person-wrapping-a-christmas-present-6098961/ (1080x1920, 14 s), Pexels License (free commercial use, no attribution)
+- gift_ribbon.mp4 (2026-11-12, replaces gift_wrap.mp4 in the cut): Pexels video 5974733 https://www.pexels.com/video/a-person-tying-a-ribbon-in-wrapped-gift-box-5974733/ (1080x1920, 30 s), Pexels License (free commercial use, no attribution). Why: Ralph 2026-11-12 "I only want to use either brown, light brown, dark brown complexion people when we're using people" (houseoframeau/campaigns/black-friday-2026/README.md); gift_wrap.mp4 showed light-skinned hands. stockings.mp4 shows no people and stays.
