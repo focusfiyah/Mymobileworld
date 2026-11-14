@@ -1,45 +1,44 @@
-# Line audit: ANTHEM Meat Sticks + Jerky (Grace script method, PLAYBOOK §4), 2026-11-13
+# Line audit: ANTHEM Meat Sticks + Jerky (Grace script method, PLAYBOOK §4), revised 2026-11-14 with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag")
+GREEN = the video gets worse without it. YELLOW = keep but could be sharper. RED = cut. Domino test: each line sets up the next. New checks this round: every feature tied to a use, no forced humor, occasion CTA, no narrowing words.
 
 ## Script 1: Voiceover
-Buyer: anyone who buys meat sticks or jerky for snacks and has been let down by dry ones (broad, mostly women shopping for the house)
-Pain: the Big Fish feeling of getting burned again by a snack that tastes like cardboard ("I bought 2 never again")
-Connection: the jerky is real whole-muscle beef smoked over wood, which is why it is not cardboard
-Outsider test: hook has no qualifier (no "if you're a mom", no "if you love spicy"); "you" opener; dropped "gas station" from the hook and moved it to the pain line
-Common enemy: dry gas station sticks, never the viewer
-Contradiction check: no whole-result claim; taste is given as "people say", not as a promise; "real beef" is said of the jerky only, not the turkey or chicken sticks
-Repetition pass: "real" said twice in the draft, cut to once; "box" once in the body; nothing said twice
+Buyer: anyone who buys meat sticks or jerky and has been let down by dry ones
+Pain: a snack that tastes like cardboard (Big Fish: burned again)
+Connection: the jerky is real whole-muscle beef smoked over wood
+Outsider test: hook has no qualifier; "a stocking", not "his stocking", so no buyer is left out
+Common enemy: dry, cardboard sticks, never the viewer
+Contradiction check: "real beef, smoked over wood" said of the jerky only; taste only as "people say"; never "beef sticks" for all ten
+Repetition pass: "beef" twice (jerky fact, then the review), kept: the review answers the fact; "stocking(s)" in the occasion and the CTA, different jobs
 Pain points: 1
-Selling points: 3 (wood-smoked real beef jerky because of whole muscle beef, proof = jerky close-up + review; four flavors in one box because of the ten-stick mix, proof = flavor hold-ups; trust because of a veteran owned maker, proof = "VETERAN OWNED" on the wrapper)
+Selling points: 3
 | Line | Mark | Why / shot that proves it |
 |---|---|---|
-| You know that moment when you open a meat stick and it tastes like cardboard? | GREEN | H062, buyer's own word; stick wrapper torn open at frame 0 |
-| Gas station ones are dry. | GREEN | pain beat + common enemy; box lid opening |
-| This jerky is real beef, smoked over wood. | GREEN | connection; SWEET HEAT bag pulled out, jerky close-up |
-| Ten sticks, four flavors, from a veteran owned shop. | GREEN | variety + trust; four hold-ups, "VETERAN OWNED" on wrapper |
-| People say you can actually taste the beef. | GREEN | proof that answers the hook; jerky piece close-up |
-| Only problem? Too pretty to open. | YELLOW | sell-side confession, [only if true]; closed box with paper |
-| It's TikTok only, so grab two before the holidays. | GREEN | real urgency + more units; full spread |
-| It's in the orange cart. | GREEN | house close |
-Cut: "This box is different." (announced, added nothing); "Over sixteen hundred sold, almost five stars" (true, but the review line proves the hook better and time ran over 22 s); "slow" and the second "real" (length)
+| You know that moment when you open a meat stick and it tastes like cardboard? | GREEN | H062 hook, unchanged; wrapper torn open at frame 0 |
+| This jerky is real beef, smoked over wood. | GREEN | Connection + selling point 1; SWEET HEAT bag, jerky close-up |
+| People say you can actually taste the beef. | GREEN | Proof that answers the hook (review L**y) |
+| Ten sticks in four flavors you can toss in your bag for work or the drive. | GREEN | Selling point 2 as a use; four hold-ups, sticks into a tote |
+| Thanksgiving road trips are around the corner, then game days and Christmas stockings. | GREEN | Occasion urgency, real dates; stick into a stocking |
+| Grab one for you and one for a stocking. | GREEN | Second unit, pictured use |
+| It's in the orange cart. | GREEN | House close |
+Cut: "Only problem? Too pretty to open." (RED: forced humor, note 2); "Gas station ones are dry." (RED: length); "It's TikTok only, so grab two before the holidays." (RED: bare instruction, replaced by the occasion line); "from a veteran owned shop" (RED here: kept in the talk to camera version)
 
 ## Script 2: Talk to camera
-Buyer: anyone shopping for a husband, boyfriend, dad or brother who is hard to buy for (gift search: "beef jerky gifts for men", "beef jerky gift for dad")
-Pain: gifts for men that get shoved in a drawer; the feeling of guessing wrong again
+Buyer: anyone shopping for a husband, boyfriend, dad or brother who is hard to buy for
+Pain: gifts for men that end up in a drawer
 Connection: a snack box gets eaten, so it is a gift that is used
-Outsider test: "for men" is the broadest fill; dropped "the guys in their life" and "husband or dad" qualifiers from the hook
+Outsider test: "for men" is the library hook's broadest fill (unchanged); no "Girls" or other narrowing word
 Common enemy: socks and other drawer gifts, never the viewer
-Contradiction check: no claim that he will love it; taste not claimed; "wanted to keep it" is Grace's feeling, [only if true]
-Repetition pass: three "It" openings in the draft merged; "box" said once; no line repeats another
+Contradiction check: no claim that he will love it; taste not claimed; "wrapped in paper" = Grace's footage + review L**s
+Repetition pass: "stockings" once; "one for" once; no line repeats another
 Pain points: 1
-Selling points: 3 (variety because of ten sticks in four flavors plus jerky, proof = fan of sticks + bag; ready to give because it arrives wrapped in paper, proof = paper wrap in the box; trust because of a veteran owned maker, proof = wrapper)
+Selling points: 3
 | Line | Mark | Why / shot that proves it |
 |---|---|---|
-| Does anybody else never know what to buy for men? | GREEN | H065, gift pain in the fewest words; closed box held up |
-| Socks end up in a drawer. This gets eaten. | GREEN | pain + connection; shrug, lid lifts |
-| Ten meat sticks in four flavors, plus sweet heat jerky. | GREEN | what's inside; fan of sticks, bag held up |
-| It shows up wrapped in paper, from a veteran owned shop. | GREEN | ready to give + trust; paper wrap, "VETERAN OWNED" wrapper |
-| Honestly? I wanted to keep it. | YELLOW | sell-side confession, [only if true] |
-| It's TikTok only and Christmas is close. | GREEN | real urgency (listing + 2026-12-25) |
-| Get one for him and one for your dad. | GREEN | more units, gift video so the gift line fits |
-| It's in the orange cart. | GREEN | house close |
-Cut: "Snacks never do." and "This won't." (second contrast closers); "It comes boxed and wrapped, ready to give" (merged); "the guys in their life" (hook too long)
+| Does anybody else never know what to buy for men? | GREEN | H065 hook, unchanged; closed box held up |
+| Socks end up in a drawer. This gets eaten. | GREEN | Pain + connection; shrug, lid lifts |
+| Ten meat sticks in four flavors plus jerky, for work, the drive or game day. | GREEN | Selling point 1 (variety) as a use; fan of sticks, bag |
+| It shows up wrapped in paper from a veteran owned shop, so it's ready to give. | GREEN | Selling points 2 and 3 (ready to give, trust); paper wrap, VETERAN OWNED wrapper |
+| Thanksgiving is around the corner, then Secret Santa, stockings and Christmas morning. | GREEN | Occasion urgency, real dates; box by a stocking |
+| Get one for him and one for your dad. | GREEN | More units, gift video |
+| It's in the orange cart. | GREEN | House close |
+Cut: "Honestly? I wanted to keep it." (RED: forced humor, note 2); "It's TikTok only and Christmas is close." (RED: bare urgency, replaced by the occasion line)

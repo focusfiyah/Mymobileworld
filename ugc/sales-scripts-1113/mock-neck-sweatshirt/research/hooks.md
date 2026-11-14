@@ -18,3 +18,6 @@ Winners modeled (research/coach/):
 3. H028 "If you are wondering whether this is oversized, here you go" | text: "Answering the fit question" | modeled on W3 (fit talk) and the top comment "Do you feel like this is oversized or TTS?"
 
 The two final hooks use different ids (H062, H017).
+
+## 2026-11-14 note
+Scripts revised with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"). Final hooks unchanged, word for word: Voiceover H062, Talk to camera H017. On-screen text options unchanged (offered only, burned in on Ralph's yes).

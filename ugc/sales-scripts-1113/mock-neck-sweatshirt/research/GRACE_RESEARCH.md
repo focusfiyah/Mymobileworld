@@ -93,9 +93,9 @@ Video hooks:
 5. H113 "My biggest question before ordering was how loose it would fit"
 6. NEW "Same sweatshirt Monday and Tuesday, and nobody noticed."
 
-Script A (about 18 s): "You know that moment when you open your closet and nothing feels new? Girls, this fixed it. Wear it this way. Now turn it around. That's a whole second outfit. The mock neck is cozy, the fit is loose, and it looks so cute with leggings. It's in the orange cart."
+Script A (about 18 s): "You know that moment when you open your closet and nothing feels new? This one fixes it. Wear it this way. Now turn it around, and that's a whole second outfit. The mock neck keeps you cozy, and the loose fit works with leggings. Cold weather is here, then Thanksgiving and holiday trips, so you'll wear it both ways all season. It's in the orange cart." (revised 2026-11-14 with Grace's notes, msg 526)
 
-Script B (about 20 s): "Same sweatshirt Monday and Tuesday, and nobody noticed. Monday, it looked like this. Tuesday, I just turned it around. It's soft, the fit is relaxed, and it comes in eight colors. Now I'm trying to pick my second one. It's in the orange cart."
+Script B (about 20 s): "Same sweatshirt Monday and Tuesday, and nobody noticed. Monday, it looked like this. Tuesday, I just turned it around. It's soft, and the relaxed fit goes over leggings or jeans. It comes in eight colors, so a second one gives you four looks for the holidays. It's in the orange cart."
 
 Music only concepts:
 1. The turn: frame 0 full length wearing it, slow spin, hold on the second look, hands to the collar. Text: "Same sweatshirt, two different outfits".

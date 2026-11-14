@@ -14,3 +14,6 @@ Library hooks word for word (grace/hooks/hooks.json), blanks filled. On-screen t
 | FINAL | H065 "Does anybody else never know what to buy for men?" | "his stocking is DONE this year 🎁" | @cooltrendgifts2 Project Torque jerky, 750.5K views, talks to camera holding the bag with a reverse-psychology text hook ("Do not get this.."), https://www.tiktok.com/@cooltrendgifts2/video/7699362426562645262; gift intent from search ("beef jerky gifts for men", "beef jerky gift for dad") |
 | 2 | H132 "You will want this ready before Christmas" | "the gift he won't put away 🙌" | same @cooltrendgifts2 video (multi-unit holiday close), and Grace's #discoveryourgift tag on her seller |
 | 3 | H055 "I already know exactly who would love this" | "for the guy who has everything" | @masked_maniac_beatz El Ranchito Fuego, 572.2K views, #1 on the viral board (44K views a day), https://www.tiktok.com/@masked_maniac_beatz/video/7702865803212868878 |
+
+## 2026-11-14 note
+Scripts revised with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"). Final hooks unchanged, word for word: Voiceover H062, Talk to camera H065. On-screen text options unchanged (offered only, burned in on Ralph's yes).

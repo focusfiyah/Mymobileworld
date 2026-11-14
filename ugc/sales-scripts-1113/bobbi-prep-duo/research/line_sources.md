@@ -1,3 +1,20 @@
-# Line sources (2026-11-13)
-Voiceover: hook H077 (library, word for word) modeled on @carejohnston 339.2K ("may not actually be your concealer's fault"). Pain line: audience questions ("why is my concealer creasing under my eyes") + Big Fish (RESEARCH.md) + Grace's winner text "chronically tired eyes". "Prep first with this Bobbi Brown duo": listing "Prep, hydrate, and brighten" + @kayladelight step order. "The face base hydrates, so makeup goes on smooth": listing "hydrating moisturizer", "smooth, makeup-ready base". "helps neutralize dark circles", "waterproof for twelve hours": listing ("Helps neutralize dark circles and discoloration", "12-hour waterproof"). "People say their makeup didn't cake": listing review s**6 "Makeup didn't cake under eyes." "Why did nobody tell us?": PLAYBOOK §1 brag confession. "holiday set before party season": listing title "Holiday Gift Set" (real season). Close: PLAYBOOK §1.
-Talk to camera: hook H062 (library) modeled on @kimlightupyourface ("not always about being tired") + Grace's winner text. "Girls ...": PLAYBOOK §1 Grace's voice + audience pain. Base / stick lines: listing as above; demo order from listing HOW TO USE. "four point eight stars": listing 4.8 (64). "fifteen shades": listing shade list (15 names). Urgency and close as above. Psychology (§2): pain first, take the shame out (blame the prep), specificity (twelve hours, 4.8), remove uncertainty (shade range). Per-line marks: research/line_audit.md.
+# Line sources (revised 2026-11-14, Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"))
+| Script | Line | Source |
+|---|---|---|
+| VO | Hook | H077 (grace/hooks/hooks.json), unchanged from 2026-11-13; see research/hooks.md |
+| VO | Dry skin makes it crack, and you look more tired. | audience voc (creasing, tired); Grace's text "chronically tired eyes" |
+| VO | Prep first with this Bobbi Brown duo. | listing title (Prep and Brighten Duo) |
+| VO | The face base hydrates, so your concealer goes on smooth. | listing "smooth, makeup-ready base"; review A**a R**z |
+| VO | The stick helps neutralize dark circles and stays on for twelve waterproof hours. | listing "Helps neutralize dark circles", "12-hour waterproof" |
+| VO | People say their makeup didn't cake. | review s**6 2026-10-16 |
+| VO | Thanksgiving photos are around the corner, then holiday parties. | lookup.py holidays (2026-11-26); listing "Holiday Gift Set"; note 3 |
+| VO | Make sure your under eyes are ready. | Grace's model close "Make sure you're ready" (msg 526) |
+| TTC | Hook | H062 (grace/hooks/hooks.json), unchanged from 2026-11-13; see research/hooks.md |
+| TTC | It's the dark circles, and concealer cracks on dry skin. | audience voc; listing dark circles |
+| TTC | This base hydrates, so makeup goes on smooth. | listing; review E**i |
+| TTC | This stick helps neutralize dark circles for twelve waterproof hours, so it lasts the whole party. | listing 12-hour waterproof; GRACE_RESEARCH §1 "through the holiday party"; note 1 |
+| TTC | It has fifteen shades to match your skin. | listing 15 shades; audience question "what shade"; note 1 |
+| TTC | Holiday parties and New Year's photos are coming, so be ready. | real season; Grace's model close; note 3 |
+| both | It's in the orange cart. | PLAYBOOK §1 close |
+
+Full per-line marks: research/line_audit.md. Facts: research/product_facts.md.

@@ -21,3 +21,5 @@ Spoken hooks from the library said in Grace's looser wording (PLAYBOOK §3, 2026
 | 1 FINAL | H101 "There's one detail under this skirt that changes my whole shape." | "what's under the skirt? 🤫" | Grace 7683324669386132767 (2,980 views, best save rate 0.47%) riddle hook |
 | 2 | H099 "At first you'd think these are just regular shapewear shorts." | "not regular shapewear" | @double.the.trouble.trend 1.7M text "Not all shapewear has to be miserable" (common enemy) |
 | 3 | NEW "You'd never guess what's under this skirt." | "the secret is under here" | @jasminebrownie1 8.5M "Nobody's gonna know you have a faja under here." |
+
+Revision note 2026-11-14 (Grace's notes, Telegram msg 526): hooks unchanged; option 1 of each script still opens it word for word, and no id repeats across the 3 videos. Checked against note 4: none narrows the audience (no "girls", "ladies").

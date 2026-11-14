@@ -14,3 +14,6 @@ On-screen text is curiosity only and offered, not burned in (Ralph's yes per ad)
 | 1 FINAL | H062 "You know that moment when someone asks if you are tired?" | "the step everyone skips before concealer" | @kimlightupyourface, 12.1K views, "Dark under eyes are not always about being tired" https://www.tiktok.com/@kimlightupyourface/video/7651978915342290190 + Grace's own winner text "chronically tired eyes" |
 | 2 | H028 "If you are wondering whether this cakes under your eyes, here you go." | "the not cakey under eye test" | @lacey.odum, 2.3M views, instant cover on camera, "look at the difference already" https://www.tiktok.com/@lacey.odum/video/7644994514624482591 |
 | 3 | H113 "My biggest question before ordering was whether it would crease." | "does it crease? watch" | @michelledemoda, 16.3M views, application on the face from frame 0 https://www.tiktok.com/@michelledemoda/video/7516898347324624183 |
+
+## 2026-11-14 note
+Scripts revised with Grace's notes (Telegram msg 526, grace/PLAYBOOK.md §1 "Grace's script notes, Haiti flag"). Final hooks unchanged, word for word: Voiceover H077, Talk to camera H062. On-screen text options unchanged (offered only, burned in on Ralph's yes).
