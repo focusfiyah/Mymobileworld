@@ -20,7 +20,8 @@ Files Ralph decided NOT to merge are listed in handoff/branch_sync_declined.txt 
 folder prefix per line, # notes allowed) and never come up again (Ralph 2026-10-25: "no merge, once again you took care
 of the merge in a previous session and mentioned it would not come up again"). Add a line every time he says no.
 """
-import subprocess, sys, time
+import filecmp, os, subprocess, sys, time
+from pathlib import Path
 
 RULE_FILES = ("CLAUDE.md", "grace/PLAYBOOK.md", "grace/voice/", "handoff/", ".claude/skills/", "skills/", "grace/hooks/")
 
@@ -69,6 +70,21 @@ def missing(ref, main_blobs, skip=()):
     return out
 
 
+def skill_drift():
+    """Deployed skill copies that differ from their home in focusfiyah/claude-skills (Ralph 2026-11-14 weekly audit:
+    prompt-master and thumbnail-looks were edited in the deployed copies, so the home and his claude.ai upload kept the
+    old Kie Omni route for 11 days). A deployment is never edited by hand; bring the change home, then deploy.py."""
+    home = Path(os.environ.get("SKILLS_HOME", "/home/user/claude-skills")) / "skills"
+    here = Path(git("rev-parse", "--show-toplevel")) / ".claude" / "skills"
+    if not home.is_dir() or not here.is_dir() or Path(git("rev-parse", "--show-toplevel")) == home.parent:
+        return []
+    def differs(a, b):
+        c = filecmp.dircmp(a, b, ignore=["__pycache__", ".DS_Store"])
+        return bool(c.left_only or c.right_only or c.diff_files or c.funny_files) or any(
+            differs(a / d, b / d) for d in c.common_dirs)
+    return [d.name for d in sorted(here.iterdir()) if d.is_dir() and (home / d.name).is_dir() and differs(home / d.name, d)]
+
+
 def main():
     days = int(sys.argv[sys.argv.index("--days") + 1]) if "--days" in sys.argv else 14
     git("fetch", "-q", "--prune", "origin")
@@ -94,7 +110,11 @@ def main():
         print(f"{ref}: {len(files)} files main lacks (+{ahead} commits)" + (f", RULE FILES: {', '.join(rules[:6])}" if rules else ""))
     if unrelated:
         print(f"({unrelated} branch(es) share no history with main and were skipped)")
-    print("SYNC_OK" if not left else f"{left} branch(es) not on main: merge them (keep both sides of rule edits, newest rule wins)")
+    for name in skill_drift():
+        left += 1
+        print(f"SKILL DRIFT: .claude/skills/{name} differs from claude-skills/skills/{name}: pull claude-skills; if the "
+              "deployed copy is newer, copy it home and commit, then run skill-smith deploy.py")
+    print("SYNC_OK" if not left else f"{left} item(s) not on main or out of sync: merge branches (keep both sides of rule edits, newest rule wins) and fix skill drift")
 
 
 if __name__ == "__main__":

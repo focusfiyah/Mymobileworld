@@ -150,7 +150,7 @@ products follow the same rules.
   per product. (2) One-change remakes: when a Grace video sells, its next versions change ONE variable each (hook,
   setting or delivery) and log it in the sales tracker; every version still gets new footage, order, framing and grade
   (hard rule 6). (3) Test a VO ad with no music under the voice against our usual mix on the next VO job; log it in the
-  results log. (4) On-screen text stays off by default (he tapped "Keep no text"); Grace may still type a line in TikTok.
+  results log. (4) On-screen text stays off by default (he tapped "Keep no text"); Grace may still type a line in TikTok. **Enforced from 2026-11-14 (weekly audit: (1)-(3) were skipped on every plan that week):** BOOK.md must carry `Product open: product-first|trust-first` and `Product screen: ...` (`grace/gate.py`, test `grace/tests/test_book_cp.py`), plus `Remake of:` and `VO music test:` lines (`ugc-product-ad` `templates/plan-message.md`). Grace's UGC kit (rate card, reply templates, re-pitch list, lead sources): `grace/deals/ugc-kit/`.
 
 ## 6. Production notes
 - **Grace's hand with no jewellery (Ralph 2026-11-02):** when Ralph says no rings / no bracelet, pass `grace/ref/hand-sheets/no_jewelry.jpg` (her real bare hands, 4 views, mauve-pink French tips) on every hand still and clip; the other two sheets carry rings that the model copies. Buttah towels r1 used words only before this sheet existed. Sheet rules: `grace/ref/hand-sheets/README.md`.
