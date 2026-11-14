@@ -33,3 +33,4 @@
 - 2026-11-03: Product clips after Flow now go to Wan 3.0 on Kie at 720P + free upscale (new scripts/wan_clip.py), replacing Kie Omni (kept for edit turns). Why: Ralph "Make wan the default with our upscale" after the ZYTRELL S3 test (Wan held one grip 5 s, Omni regripped at 2 s; same price per second).
 
 - 2026-11-09: Step 0 names the Grace script method (PLAYBOOK §4). Why: Grace's script corrections on Merach; Ralph tapped "Yes, all 4 steps".
+- 2026-11-14: plan template gets the Creator Pathway lines (Product open, Product screen, Remake of, VO music test); QC template gets the people-and-room pass and the earshot sound check. Why: Ralph's weekly audit ("do all the fixes that you recommended"): decisions 1-3 of 2026-11-09 were skipped on every plan that week, and he caught 3 people/background flaws himself.
