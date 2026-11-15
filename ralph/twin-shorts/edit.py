@@ -135,6 +135,8 @@ def frame(base, t):
         for p0, p1, w1, w2 in POPS:
             if p0 <= t < p1:
                 k = min(1, (t - p0) / 0.12); sz = int(150 * (0.85 + 0.15 * k)); popping = True
+                _d = ImageDraw.Draw(im); _w = _d.textlength(w1 + w2, font=font(sz))
+                if _w > 900: sz = int(sz * 900 / _w)          # keep the pop inside the frame with margins
                 y = 735 if mode == "split" else 1050          # boundary in split; chest (below the mouth) otherwise
                 shadow_text(im, (540, y), [(w1, YEL), (w2, (255, 255, 255))], sz)
         s = subtitle(t)
