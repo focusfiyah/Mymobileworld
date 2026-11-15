@@ -22,3 +22,5 @@ caption into the morning Telegram message.
 18 COSRX Lip Care: Cold weather lips, fixed 💋 Five peptides and a little tint, one swipe. #ad #cosrx #lipcare #kbeauty #tiktokshopblackfriday
 19 Wig Milk Spray: She almost threw this wig away 😮 Leave-in detangler for synthetic wigs, the brush goes right through. #ad #wigcare #syntheticwig #wighacks #tiktokshopblackfriday
 20 Eyeliner: Eyeliner gone by lunch? Not this one ✍🏾 Waterproof, sweat resistant, super fine tip. #ad #waterproofeyeliner #makeuphacks #holidaymakeup #tiktokshopblackfriday
+
+Wag Bag (Cleanwaste): You stocked water and flashlights, but what about the toilet? 🚽 12 go-anywhere toilet kits for power outages and emergencies. #ad #wagbag #emergencyprep #poweroutage #tiktokshopblackfriday

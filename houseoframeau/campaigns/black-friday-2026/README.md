@@ -22,7 +22,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | 2026-11-13 v_inbox_file~v2.7707689317360158751 (8:47 run failed, Composio 502; retried on Ralph's "Attempt again" 11:12 AM ET); posted 11:24 AM ET, video 7707692711129664781 (16 s, caption on) |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | 2026-11-14 v_inbox_file~v2.7708023589152671775; posted 11:08 AM ET, video 7708059572405013774 (17 s, caption on) |
 | 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | 2026-11-15 v_inbox_file~v2.7708394710104541214 |
-| 5 | 11-16 | HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh, Ralph OK 2026-11-12, batch C) | 22.4 s | |
+| 5 | 11-16 | Cleanwaste Wag Bag toilet kit AI video V1 (1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7, Ralph 2026-11-15: "hot selling item ... selling fast", tapped Cleanwaste V1 + "Replace PURCELL") | 29.6 s | |
 | 6 | 11-17 | HofR - JIYU NAD BF (1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o, Ralph OK 2026-11-12, batch C) | 22.5 s | |
 | 7 | 11-18 | HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C) | 25.7 s | |
 | 8 | 11-19 | HofR - Luvum BF (171hJpkdckVa2HascrdFR5pyh6UIUv3BF, Ralph OK 2026-11-12, batch C) | 23.8 s | |
@@ -59,3 +59,5 @@ products get holiday b-roll + holiday hook text; $0.
 People on screen (Ralph 2026-11-12, relayed by the silent-A session): "I only want to use either brown, light brown, dark brown
 complexion people when we're using people." Applies to every b-roll and stock clip with people (hands included).
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
+
+Dropped 2026-11-15 (Ralph tapped "Replace PURCELL"): HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh) stays in Drive, not scheduled.
