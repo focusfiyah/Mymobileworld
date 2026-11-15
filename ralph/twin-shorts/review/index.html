@@ -19,7 +19,7 @@ figure{margin:0;display:grid;gap:6px;min-width:0} figure img{width:100%;border-r
 figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
 .shot{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:8px}
 summary{cursor:pointer;display:flex;gap:10px;align-items:baseline} .num{font:700 1.4rem/1 var(--display);color:var(--accent)}
-.say{font-weight:600} pre{white-space:pre-wrap;font:.82rem/1.45 var(--mono);background:var(--chip);padding:12px;border-radius:8px;margin:0;overflow-wrap:anywhere}
+.say{font-weight:600} .head{display:flex;gap:10px;align-items:baseline} pre{white-space:pre-wrap;font:.82rem/1.45 var(--mono);background:var(--chip);padding:12px;border-radius:8px;margin:0;overflow-wrap:anywhere}
 .btns{display:flex;gap:8px;flex-wrap:wrap} button{font:600 .85rem var(--body);padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
 video{width:100%;max-width:520px;border-radius:8px;background:#000} .dlnote{display:none}
 @media (max-width:520px){.refs{grid-template-columns:1fr 1fr}}
@@ -27,9 +27,49 @@ video{width:100%;max-width:520px;border-radius:8px;background:#000} .dlnote{disp
 <div class="wrap">
 <header><h1>AI twin shorts · test 1</h1><p class="sub">Kit promo 7, "What's inside". Free twin (your Talking 03 take + your free voice clone) and a Flow test. Everything so far: $0.</p></header>
 <section class="ask"><strong>What I need from you</strong><ol>
-<li>Watch the cinematic Flow version on top (A and B), styled on the reel you sent.</li>
-<li>Kling is stopped (you picked Flow). Older versions are further down.</li></ol></section>
+<li>Make the 4 new Flow clips (different angles and rooms) from the kit right below, about 80 credits, and send them back.</li>
+<li>Then I put your voice on them and cut them with the cinematic graphics (version below).</li>
+</ol></section>
 
+<section class="box" id="flow2"><h2>New Flow kit · 4 angles, 4 themed rooms</h2>
+<p class="muted">Each shot gets its own camera angle and a room that fits the line: studio (low angle, push-in), product photo set (side angle), home office desk (high angle, seated), podcast mic (close-up, mic in front). Same steps as before: Veo 3.1 Fast, 9:16, 8 s, Ingredients to Video, upload images 1, 2, 3 in order, paste the prompt. About 20 credits each, about 80 total. Clip 4 now says "kit" in lowercase so Veo says the word instead of spelling it. Images 1 and 2 are the same as last time (Save buttons in the older kit further down). Brand text was removed from the rooms so Flow doesn't copy it.</p>
+<div class="shot"><div class="head"><span class="num">C1</span> <span class="say">Here&#x27;s everything in the AI Product Video Kit.</span></div>
+<div class="refs"><figure><img src="1_ralph_face_glasses.jpg" alt="Image 1, your face"><figcaption>1 · your face</figcaption></figure>
+<figure><img src="2_ralph_reference_sheet.jpg" alt="Image 2, reference sheet" style="object-fit:contain"><figcaption>2 · sheet</figcaption></figure>
+<figure><img src="3a_room_studio.jpg" alt="Image 3, the room for this shot"><figcaption>3 · this shot's room</figcaption><button class="sv" data-src="3a_room_studio.jpg">Save</button></figure></div>
+<div class="btns"><button class="cp" data-p="qC1">Copy prompt</button><button class="svp" data-p="qC1">Save prompt</button></div>
+<pre id="qC1">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room he is in.
+Room: he is in the bright video studio in image 3, softbox light and a camera on a tripod behind him, softly out of focus.
+Shot: Low angle: the camera sits below his chest line looking slightly up at him, medium shot from the waist up, slow push-in. He stands and talks straight to the lens with one open hand gesture at chest height, confident and friendly.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;Here&#x27;s everything in the AI Product Video Kit.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.</pre></div><div class="shot"><div class="head"><span class="num">C2</span> <span class="say">A 52-page guide that takes you from five phone photos of a product to a finished video.</span></div>
+<div class="refs"><figure><img src="1_ralph_face_glasses.jpg" alt="Image 1, your face"><figcaption>1 · your face</figcaption></figure>
+<figure><img src="2_ralph_reference_sheet.jpg" alt="Image 2, reference sheet" style="object-fit:contain"><figcaption>2 · sheet</figcaption></figure>
+<figure><img src="3b_room_photo_set.jpg" alt="Image 3, the room for this shot"><figcaption>3 · this shot's room</figcaption><button class="sv" data-src="3b_room_photo_set.jpg">Save</button></figure></div>
+<div class="btns"><button class="cp" data-p="qC2">Copy prompt</button><button class="svp" data-p="qC2">Save prompt</button></div>
+<pre id="qC2">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room he is in.
+Room: he is in the product photo set in image 3: two softbox lights on stands and a small lit shooting table with flowers on it, behind and beside him.
+Shot: Three-quarter side angle: the camera is 45 degrees to his left at chest height, medium shot from the waist up. He stands beside the lit shooting table, turns his head to the lens and talks to camera, one hand gesturing toward the table.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;A fifty-two page guide that takes you from five phone photos of a product to a finished video.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.</pre></div><div class="shot"><div class="head"><span class="num">C3</span> <span class="say">120 hooks, each matched to the shot you show while you say it.</span></div>
+<div class="refs"><figure><img src="1_ralph_face_glasses.jpg" alt="Image 1, your face"><figcaption>1 · your face</figcaption></figure>
+<figure><img src="2_ralph_reference_sheet.jpg" alt="Image 2, reference sheet" style="object-fit:contain"><figcaption>2 · sheet</figcaption></figure>
+<figure><img src="3c_room_desk.jpg" alt="Image 3, the room for this shot"><figcaption>3 · this shot's room</figcaption><button class="sv" data-src="3c_room_desk.jpg">Save</button></figure></div>
+<div class="btns"><button class="cp" data-p="qC3">Copy prompt</button><button class="svp" data-p="qC3">Save prompt</button></div>
+<pre id="qC3">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room he is in.
+Room: he is in the home office in image 3: a light wooden desk with a closed laptop, a camera, plants and notebooks, and photos pinned on the white wall.
+Shot: High angle: the camera is a little above his eye line and to his right, medium close-up. He sits at the wooden desk, turns from the desk to the lens and talks to camera, counting on his fingers.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;A hundred and twenty hooks, each matched to the shot you show while you say it.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.</pre></div><div class="shot"><div class="head"><span class="num">C4</span> <span class="say">And a voice kit if you want your own voice on every video. DM me kit to grab it.</span></div>
+<div class="refs"><figure><img src="1_ralph_face_glasses.jpg" alt="Image 1, your face"><figcaption>1 · your face</figcaption></figure>
+<figure><img src="2_ralph_reference_sheet.jpg" alt="Image 2, reference sheet" style="object-fit:contain"><figcaption>2 · sheet</figcaption></figure>
+<figure><img src="3d_room_podcast.jpg" alt="Image 3, the room for this shot"><figcaption>3 · this shot's room</figcaption><button class="sv" data-src="3d_room_podcast.jpg">Save</button></figure></div>
+<div class="btns"><button class="cp" data-p="qC4">Copy prompt</button><button class="svp" data-p="qC4">Save prompt</button></div>
+<pre id="qC4">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room he is in.
+Room: he is in the podcast room in image 3: a black microphone on a boom arm, yellow chairs and a light grey curtain.
+Shot: Close-up from the chest up at eye level, shallow depth of field. The black microphone on its boom arm sits in the near foreground at the left edge of the frame, softly out of focus. He leans slightly toward the lens and talks straight to camera, a small smile on the last words.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;And a voice kit if you want your own voice on every video. D M me kit to grab it.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.</pre></div></section>
 <section class="box" id="cin"><h2>Flow version · cinematic motion graphics (your reel link) · 25.6 s</h2>
 <p class="muted">Rebuilt in the style of the reel you sent: a floating card over the blurred studio, with your face below. The guide gets a glossy 3D reveal on black with a floor reflection, then an infinite zoom through the pages. "120 HOOKS" slams in on electric blue with motion blur and camera shake. Orange particles assemble into the Voice Kit with a glowing voice wave. On "DM me KIT" the three covers slam together. The hook is yellow serif over the room, readable from the first frame (HOOK_OK on both). Same voice as before; the last line is still spelled "D-M-E K-I-T".</p>
 <h3>A · hook only (the card type is part of the graphics)</h3><video controls playsinline preload="metadata" src="flow_cin_A.mp4"></video>
