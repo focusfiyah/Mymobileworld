@@ -8,7 +8,7 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 TEAL=RGBColor(0x1F,0x5F,0x56); INK=RGBColor(0x22,0x2B,0x28); MUTED=RGBColor(0x5B,0x67,0x62)
 import sys,re
-OUT='plan/Glad Personal Care Home - Business Plan.docx'
+OUT='plan/CLEAN - Glad Personal Care Home Business Plan.docx'
 SRC=sys.argv[1] if len(sys.argv)>1 else 'plan/_client_build.md'
 ref='plan/_ref.docx'
 open(ref,'wb').write(subprocess.run(['pandoc','--print-default-data-file','reference.docx'],capture_output=True,check=True).stdout)
