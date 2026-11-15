@@ -24,7 +24,7 @@ ANGLES = {   # camera angle per shot, written for Veo (Flow); one per shot, neve
 }
 HEAD = ("Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. "
         "Image 2 is his reference sheet: same head, glasses and beard, clean cut with the grey at the chin exactly as shown. "
-        "His body is athletic and fit: flat stomach with no belly, a firm fit chest, toned arms and broad shoulders, in a fitted black crew-neck t-shirt "
+        "His body is athletic and fit: a completely flat stomach with no belly and no protrusion of any kind, even from the side, a firm fit chest, toned arms and broad shoulders, in a fitted black crew-neck t-shirt "
         "(Ralph's standing look, 2026-11-15). Image 3 is the room he is in.")
 TAIL = ("Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No counting on fingers, no pointing. "
         "No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.")
