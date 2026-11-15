@@ -63,3 +63,10 @@ Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"
 Dropped 2026-11-15 (Ralph tapped "Replace PURCELL"): HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh) stays in Drive, not scheduled.
 
 Dropped 2026-11-15 for the sold videos (Ralph tapped "Replace unsold ones"), still in Drive, not scheduled: HofR - JIYU NAD BF (1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o, Ralph OK 2026-11-12, batch C); HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C); HofR - Luvum BF (171hJpkdckVa2HascrdFR5pyh6UIUv3BF, Ralph OK 2026-11-12, batch C); HofR - Manners Book BF (1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc, Ralph OK 2026-11-12, batch C); HofR - NovaTabz BF (1f28a6fuNGhGYmWtjrpZC1Zu5iusEdtgB, Ralph OK 2026-11-12, Chatterbox voice); HofR - GALENTAL Mirror BF (1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, Ralph OK 2026-11-12, batch A); HofR - Meat Sticks Jerky BF (1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3, Ralph OK 2026-11-12, batch A)
+
+## HofR versions of days 5-12 (Ralph 2026-11-15: "make a HofR versions of cleanwaste and others if they do not exist")
+Days 5-12 are Grace's cuts as they are until each HofR version is OK'd; the session then sends the new Drive id and the
+hub swaps it into that row. If a HofR version is not OK'd by its date, the Grace cut in the row goes out.
+- session_01Y1Pt3qmH6yuT9rL2KkBeHB: Cleanwaste (Nov 16, urgent), BodyJ, PRITECH V1, Vans V13
+- session_01Y1Pt3riXS4ntdUngip1Hjh: SoFyre, Throw Hands, Mute, Night Glasses
+Days 13-20 are already HofR versions (silent batches A/B).
