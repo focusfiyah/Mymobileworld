@@ -1,6 +1,6 @@
-# [Facility Name] Business Plan (draft 3)
+# Glad Personal Care Home Business Plan (draft 5)
 
-Prepared for Gladine Vallon. Draft 3, 2026-11-10.
+Prepared for Gladine Vallon. Draft 5, 2026-11-15. This draft adds Gladine's changes of 2026-11-15, marked **[UPDATED]**, and ways to lower the startup cost (section 14).
 
 How to read this draft: sections 1 to 5 are Gladine's own text. Lines that need to change are marked **[CHANGE]**. Every section marked **[ADDED]** is new. Numbers marked *estimate* are placeholders until she has real quotes for the property, rent and insurance.
 
@@ -8,7 +8,7 @@ How to read this draft: sections 1 to 5 are Gladine's own text. Lines that need 
 
 ## 1. Executive Summary
 
-**Business Name:** [Facility Name]
+**Business Name:** Glad Personal Care Home (working name) **[UPDATED: Gladine asked for "Glad Assisted Living". Pennsylvania law (Act 56 of 2007, 62 P.S. §211) lets only a licensed Assisted Living Residence use the words "assisted living" in its name or written material, and DHS cites a personal care home that does. "Glad Senior Living" or "Glad Senior Home" also work.]**
 **Business Type:** Personal Care Home (55 Pa. Code Chapter 2600), licensed by the PA Department of Human Services **[CHANGE: was "Assisted Living / Residential Care Facility". Pennsylvania licenses these as two different things. See section 6.]**
 **Owner:** Gladine Vallon, [company name] LLC **[ADDED]**
 **Initial Capacity:** 10 residents
@@ -17,17 +17,17 @@ How to read this draft: sections 1 to 5 are Gladine's own text. Lines that need 
 
 ### Business Concept
 
-[Facility Name] will be a small, resident-centered personal care home that gives older adults a safe, comfortable and supportive home when they need help with activities of daily living (ADLs), medications, and coordinating their health care.
+Glad Personal Care Home provides a residential housing option with personalized daily support, meals, and 24-hour safety supervision for seniors who can no longer live completely on their own. **[UPDATED: Gladine's wording]**
 
 The home will start with 10 residents, each with a private bedroom and a private bathroom. The small size lets staff know each resident well and help them stay as independent as they can.
 
-Residents must be able to walk and eat on their own when they move in, and must be able to leave the building in a fire within the time set by the home's fire safety expert. Staff help with ADLs based on each resident's written assessment and support plan.
+Residents may walk on their own or with a walker or cane, as long as they can leave the building on their own in a fire within the time set by the home's fire safety expert. Residents may eat on their own or need help with eating. Staff help with ADLs based on each resident's written assessment and support plan. **[UPDATED]**
 
-The home provides three meals a day and snacks, help with medications, ADL help, health care appointment coordination, activities and transportation coordination.
+The home provides personal care, medication management, a private bedroom and bathroom, meals and dining, housekeeping and laundry, caregivers on site around the clock with emergency call buttons, transportation, and social and recreational activities. **[UPDATED]**
 
 The goal is to grow from 10 to 20 residents within 24 months, after DHS approves the higher capacity.
 
-**What we are asking for [ADDED]:** about $1.03 million to buy and prepare the property and open (section 15), from Gladine's own money (about 20%), an SBA-backed bank loan and a PIDA state loan. After opening, the home will apply for workforce training funds and state grants for licensed homes.
+**What we are asking for [ADDED]:** about $1.04 million to buy and prepare the property and open (section 15), or as little as about $297,000 if the building is leased (section 14), from Gladine's own money (about 20%), an SBA-backed bank loan and a PIDA state loan. After opening, the home will apply for workforce training funds and state grants for licensed homes.
 
 ---
 
@@ -41,7 +41,7 @@ We focus on care built around each person, medication safety, good meals, meanin
 
 ## 3. Vision
 
-[Facility Name] will be a trusted home known for kind and attentive care **[CHANGE: was "compassionate nursing care". A personal care home does not provide nursing care, and inspectors and lenders read that phrase literally]**, a homelike setting, personal attention and engaging daily activities.
+Glad Personal Care Home will be a trusted home known for kind and attentive care **[CHANGE: was "compassionate nursing care". A personal care home does not provide nursing care, and inspectors and lenders read that phrase literally]**, a homelike setting, personal attention and engaging daily activities.
 
 Residents should feel respected, valued and connected, not just looked after.
 
@@ -57,7 +57,9 @@ The home will first serve 10 residents. Each resident will have:
 - Scheduled activities
 - Help with medications, given by staff who passed the DHS medication course
 - Health monitoring and referral to outside nurses, home health and doctors when needed **[CHANGE: was "nursing care as permitted by applicable regulations"]**
-- Help with ADLs as needed
+- Help with ADLs as needed, including bathing, dressing, grooming, eating and mobility support **[UPDATED]**
+- Caregivers on site 24 hours a day, plus emergency call buttons or pull-cords in bedrooms and bathrooms **[UPDATED]**
+- Rides to medical appointments, grocery shopping and local outings **[UPDATED]**
 - Health care appointment coordination
 - Meals and snacks
 
@@ -67,14 +69,14 @@ The home will be designed for resident safety, accessibility, comfort, privacy a
 
 ## 5. Staffing Plan
 
-**[CHANGE]** Gladine's first plan had 1 nurse and 1 CNA on every shift. That is 48 staff-hours a day for 10 residents. Pennsylvania's minimum is 10 hours a day for 10 residents who can walk, and a personal care home does not need a nurse. With PA wages, the two posts alone would cost about **$578,598 a year** ($4,822 per resident per month at 10 residents) before the administrator, cook, food, property or insurance. At full occupancy the home would need to charge about $7,700 a month per resident just to break even, while the Pennsylvania median is $6,480. So the plan below keeps a nurse involved without paying for one around the clock.
+**[CHANGE]** Gladine's first plan had 1 nurse and 1 CNA on every shift. That is 48 staff-hours a day for 10 residents. Pennsylvania's minimum is 10 hours a day for 10 residents who can walk, and a personal care home does not need a nurse. With PA wages, the two posts alone would cost about **$578,598 a year** ($4,822 per resident per month at 10 residents) before the administrator, cook, food, property or insurance. At full occupancy the home would need to charge about $7,750 a month per resident just to break even, while the Pennsylvania median is $6,480. So the plan below keeps a nurse involved without paying for one around the clock.
 
 ### Staffing model at 10 residents
 
 | Role | Hours | Notes |
 |---|---|---|
 | Direct care aide (med-trained) | 24 hours a day, every day | Always one staff member 21 or older on site, awake at night |
-| Second direct care aide | 8 hours a day at the busiest time (morning baths, meals) | Keeps the 75%-of-hours-while-awake rule met with room to spare |
+| Second direct care aide | 12 hours a day (7 a.m. to 7 p.m.), covering all three meals **[UPDATED]** | Residents who need help eating get it without rushing; keeps the 75%-of-hours-while-awake rule met |
 | Registered nurse (consultant) | About 10 hours a week, plus on call | Reviews medications and support plans, trains staff, checks residents after a change in condition |
 | Cook / housekeeper | 20 hours a week | Aides cover the rest |
 | Administrator | Gladine | Must finish the 100-hour PA administrator course and pass the test |
@@ -112,7 +114,7 @@ Help with activities of daily living according to each resident's support plan:
 
 ### At 20 residents
 
-Two aides on site around the clock plus a third at the busiest 8 hours, an RN about 20 hours a week, a paid administrator, a full-time cook and a full-time housekeeper. The yearly staff cost rises to about $773,700, but the cost per resident drops to about $3,224 a month.
+Two aides on site around the clock plus a third for 12 hours covering meals, an RN about 20 hours a week, a paid administrator, a full-time cook and a full-time housekeeper. The yearly staff cost rises to about $812,300, but the cost per resident drops to about $3,385 a month. At 10 residents the staff cost is about $400,000 a year ($3,333 per resident per month).
 
 ---
 
@@ -130,7 +132,7 @@ Pennsylvania has two licenses for this kind of home. Both come from the Departme
 | License fee | $15 | $300 plus $75 per bed ($1,050 for 10 beds) |
 | Medicaid | No | A few homes, through CHC plans |
 
-**Our choice: start as a Personal Care Home.** It fits a 10-bed home, a lower budget and residents who walk and eat on their own. If Gladine later wants to offer more health care or take Medicaid residents, the home can apply to become an Assisted Living Residence, as long as the building was designed to that standard.
+**Our choice: a Personal Care Home (chosen 2026-11-15).** It fits a 10-bed home and a lower budget, and it allows every service on Gladine's list, including help with eating, for residents who can get out of the building on their own. If Gladine later wants to offer more health care or take Medicaid residents, the home can apply to become an Assisted Living Residence, as long as the building was designed to that standard.
 
 **Before buying or leasing a property**, the building needs:
 
@@ -142,13 +144,26 @@ Pennsylvania has two licenses for this kind of home. Both come from the Departme
 
 ---
 
-## 7. Services and Fees [ADDED]
+## 7. Services and Fees [ADDED, UPDATED]
+
+**What Glad Personal Care Home provides (Gladine's list, 2026-11-15):**
+
+- **Personal care assistance:** help with bathing, dressing, grooming, eating and mobility support
+- **Medication management:** organizing, tracking and giving daily prescriptions and doses, by staff who passed the DHS medication course
+- **Housing:** a private bedroom and private bathroom for every resident
+- **Meals and dining:** three home-cooked meals a day in the dining room, snacks and drinks any time, special diets as doctors order (low salt, diabetic, soft or chopped foods), and staff help for residents who need help eating
+- **Housekeeping and laundry:** regular room cleaning, trash removal, linen changes and personal laundry
+- **24/7 staff and safety systems:** caregivers on site around the clock, plus emergency call buttons or pull-cords in bedrooms and bathrooms
+- **Transportation:** scheduled group or individual rides to medical appointments, grocery shopping and local outings
+- **Social and recreational activities:** group fitness classes, game nights, hobby clubs, guest speakers and community events
 
 | Package | Monthly rate (*estimate*) | Includes |
 |---|---|---|
-| Standard | $5,500 | Private room and bath, 3 meals and snacks, medication help, ADL help, housekeeping, laundry, activities, appointment coordination |
-| Higher care | $5,500 plus $500 to $1,000 | Extra help with bathing, toileting or other ADLs, based on the assessment |
+| Standard | $5,500 | Everything above for a resident who needs light help |
+| Higher care | $5,500 plus $500 to $1,000 | Help with eating, more help with bathing, toileting or moving around, based on the assessment |
 | Respite stay | $200 to $250 a day | Short stays when family caregivers need a break, when a room is open |
+
+The projections use an average of $6,000 a month (the base rate plus care fees), still below the Pennsylvania median of $6,480.
 
 Rates are set after checking 5 to 10 nearby homes (section 9). Every resident signs a written contract that lists each charge, as Pennsylvania requires.
 
@@ -156,11 +171,11 @@ Rates are set after checking 5 to 10 nearby homes (section 9). Every resident si
 
 ## 8. Admission and Discharge [ADDED]
 
-**Who we admit:** adults who need help with ADLs or medications, can walk (with or without a cane or walker) and eat on their own, and can leave the building in a fire in the time the fire safety expert sets.
+**Who we admit:** adults who need help with ADLs or medications, who walk on their own or with a walker or cane, and who can leave the building on their own in a fire in the time the fire safety expert sets. Residents may eat on their own or need help with eating. **[UPDATED]**
 
 **Before move-in:** a medical evaluation from the resident's doctor, an assessment by our staff, and a written support plan.
 
-**When a resident needs more care than we can give:** for example 24-hour skilled nursing, a feeding tube or IV, or no longer being able to evacuate. We give written notice, work with the family and the resident's doctor, and help them move to an assisted living residence, a nursing home or home care. The plan names nearby homes we can refer to.
+**When a resident needs more care than we can give:** for example 24-hour skilled nursing, a feeding tube or IV, or no longer being able to use a walker or cane to get out of the building alone. We give written notice, work with the family and the resident's doctor, and help them move to an assisted living residence, a nursing home or home care. The plan names nearby homes we can refer to.
 
 ---
 
@@ -201,12 +216,13 @@ Goal: 3 residents signed before opening day, then 1 new resident a month until t
 
 ## 12. Operations [ADDED]
 
-- **Meals:** 3 meals and snacks a day, menus planned ahead, special diets as doctors order.
+- **Meals and dining:** 3 home-cooked meals a day in the dining room and snacks, menus planned ahead, special diets as doctors order, a second aide on duty at every meal for residents who need help eating. **[UPDATED]**
 - **Medications:** a pharmacy that delivers in blister packs, a locked medication cart, and a record of every dose.
 - **Records:** resident files, support plans, incident reports and staff training kept as DHS requires. Software for care homes makes inspections easier.
-- **Activities:** a weekly calendar with exercise, games, music, crafts, faith services and outings.
-- **Housekeeping and laundry:** daily cleaning, weekly deep cleaning, resident laundry.
-- **Transportation:** coordinated through family, county senior transport or paid services.
+- **Activities:** a weekly calendar with group fitness classes, game nights, hobby clubs, guest speakers, community events and outings. **[UPDATED]**
+- **Housekeeping and laundry:** regular room cleaning, trash removal, linen changes and personal laundry. **[UPDATED]**
+- **Emergency call system:** call buttons or pull-cords in every bedroom and bathroom, answered by the aide on duty day and night. **[UPDATED]**
+- **Transportation:** scheduled group or individual rides to medical appointments, grocery shopping and local outings. At first through contracted ride services and county senior transport (about $500 a month in the budget); a home van later, about $40,000 to $60,000 (*estimate*). **[UPDATED]**
 - **Policies to write before licensing:** admission and discharge, resident rights, complaints, abuse reporting, infection control, medications, emergencies, and staff hiring and training.
 
 ---
@@ -229,13 +245,31 @@ Goal: 3 residents signed before opening day, then 1 new resident a month until t
 |---|---|
 | Property purchase (depends on the city) | $650,000 |
 | Renovation: fire alarm, sprinklers if required, accessibility, bathrooms | $150,000 |
-| Furniture, beds, kitchen, equipment | $40,000 |
+| Furniture, beds, kitchen, equipment, emergency call system | $50,000 |
 | Hiring and training before opening, and the administrator course | $25,000 |
 | Legal, accounting, licensing, insurance deposits | $15,000 |
 | Cash cushion (about 6 months) | $150,000 |
-| **Total** | **$1,030,000** |
+| **Total** | **$1,040,000** |
 
-The cash cushion matters. While the home fills up in year 1, monthly costs are higher than income by about $95,600 in total before it reaches 9 residents.
+The cash cushion matters. While the home fills up in year 1, monthly costs are higher than income by about $101,300 in total before it reaches 9 residents.
+
+### Ways to lower the startup cost [ADDED 2026-11-15]
+
+The $1,040,000 above assumes buying a $650,000 property. The property is 63% of the total, so the building decision matters most. All figures are *estimates* until the city is chosen.
+
+| Option | What changes | Startup total | Owner's 20% |
+|---|---|---|---|
+| A. Buy at $650,000 (plan above) | Nothing | $1,040,000 | $208,000 |
+| B. Buy at $650,000, trim the rest | A one-level house that already has an alarm or sprinklers (renovation $100,000), furniture $45,000, hiring $20,000, cash cushion $110,000 | about $940,000 | about $188,000 |
+| C. Buy a cheaper house | A home around $500,000 in a lower-cost area, close to code already (renovation $100,000), cash cushion $120,000 | about $810,000 | about $162,000 |
+| D. Lease the building | Rent a house that already meets the rules, about $6,000 a month plus a 2-month deposit; renovation about $75,000 (landlords often share it); cash cushion $120,000 | about $297,000 | about $59,000 |
+| E. Lease with an option to buy | Same as D now; part of the rent can count toward buying the building later | about $297,000 | about $59,000 |
+
+**Monthly costs barely change:** a $6,000 lease is close to the $6,500 monthly loan payment in the projections.
+
+**Before choosing a lease:** the landlord must agree in writing to a personal care home, the lease should run 5 to 10 years (lenders and DHS want stability), and the owner builds no ownership in the building unless the lease includes an option to buy.
+
+**What should not be cut:** the cash cushion. Year 1 runs about $101,300 short while the beds fill, so every option keeps at least $110,000.
 
 ### Business setup fees [ADDED]
 
@@ -260,10 +294,10 @@ Pennsylvania Department of State fees (checked 2026-11-10). These sit inside the
 
 | Source | Amount | Notes |
 |---|---|---|
-| Gladine's own money (20%) | $206,000 | Lenders usually want 10 to 20% from a first-time owner of a care home |
-| SBA 504 or 7(a) bank loan | $494,400 | Through a bank that makes SBA loans |
-| PIDA Small Business First loan | $329,600 | State loan at about 5 to 5.5%, up to 50% of the property cost. The county economic development office must confirm a care home qualifies |
-| **Total** | **$1,030,000** | |
+| Gladine's own money (20%) | $208,000 | Lenders usually want 10 to 20% from a first-time owner of a care home |
+| SBA 504 or 7(a) bank loan | $499,200 | Through a bank that makes SBA loans |
+| PIDA Small Business First loan | $332,800 | State loan at about 5 to 5.5%, up to 50% of the property cost. The county economic development office must confirm a care home qualifies |
+| **Total** | **$1,040,000** | |
 
 **About grants:** Pennsylvania has no state grant to start a for-profit care home. These can help after the home opens:
 
@@ -277,24 +311,24 @@ Pennsylvania Department of State fees (checked 2026-11-10). These sit inside the
 
 ## 16. Financial Projections [ADDED]
 
-Based on the 10-bed staffing above, a $5,500 monthly rate, food at about $12 a resident a day, and *estimated* property payment, utilities, insurance and other costs. Gladine is not paid a salary in years 1 and 2; she earns what the home makes. From year 3 the model pays an administrator.
+Based on the 10-bed staffing above, a $6,000 average monthly rate (the $5,500 base plus care fees), food at about $12 a resident a day, and *estimated* property payment, utilities, insurance and other costs. Gladine is not paid a salary in years 1 and 2; she earns what the home makes. From year 3 the model pays an administrator.
 
 | | Year 1 | Year 2 | Year 3 (after growing to 20 beds) |
 |---|---|---|---|
 | Average residents | 7.5 | 9.5 | 16 |
-| Revenue | $495,000 | $627,000 | $1,056,000 |
-| Costs | $565,274 | $576,434 | $1,097,017 |
-| **Net** | **-$70,274** | **$50,566** | **-$41,017** |
+| Revenue | $540,000 | $684,000 | $1,152,000 |
+| Costs | $609,854 | $621,014 | $1,141,598 |
+| **Net** | **-$69,854** | **$62,986** | **$10,402** |
 
 **Break-even:**
 
 | Model | Residents needed to break even |
 |---|---|
-| Gladine's first staffing plan (nurse and CNA every shift, paid administrator), $6,480 rate | 12 (more than the 10 beds) |
-| Lean 10-bed personal care home | 8.7 of 10 |
-| Lean 20-bed home | 16.7 of 20 |
+| Gladine's first staffing plan (nurse and CNA every shift, paid administrator), $6,480 rate | 12.1 (more than the 10 beds) |
+| Lean 10-bed personal care home | 8.6 of 10 |
+| Lean 20-bed home | 15.8 of 20 |
 
-What this means: a 10-bed home pays for itself only if Gladine runs it herself and keeps it nearly full. The 20-bed home is where it becomes a business that pays a manager and still makes money (about $200,700 a year when full). Year 3 shows a loss because the new 10 beds take time to fill.
+What this means: a 10-bed home pays for itself only if Gladine runs it herself and keeps it nearly full. The 20-bed home is where it becomes a business that pays a manager and still makes money (about $276,100 a year when full). Year 3 is close to even because the new 10 beds take time to fill.
 
 ---
 
@@ -302,6 +336,7 @@ What this means: a 10-bed home pays for itself only if Gladine runs it herself a
 
 | Risk | What we do |
 |---|---|
+| Residents need more care over time (eating, moving around) | Care fees set by assessment; reassess often; a second aide at every meal; transfer when a resident can no longer get out of the building alone |
 | Beds fill slowly | Start marketing 3 months before opening; build relationships with discharge planners; 6-month cash cushion |
 | Hard to hire and keep aides | Pay at or above the local rate; use CareerLink on-the-job training; build a list of fill-in staff |
 | Inspection problems | Write all policies before applying; do mock inspections; keep training records up to date |
@@ -336,6 +371,8 @@ DHS does not publish how long licensing takes, so the timeline is an estimate.
 - CareScout 2025 cost of care: https://assets.carescout.com/x/8fcb50422f/282102.pdf
 - PIDA: https://dced.pa.gov/pida/
 - Quality Investment Program: https://www.paproviders.org/pa-ltcto-announces-rural-health-transformation-plan-long-term-care-funding-opportunity
+- Use of the term "assisted living" by personal care homes (DHS): https://prddhs.pwpca.pa.gov/providers/Clearances-and-Licensing/Documents/PCH%20Residential%20Licensing/Use%20of%20the%20Term%20Assisted%20Living%20by%20Personal%20Care%20Homes.pdf
+- Definitions of ADLs (incl. eating) and mobile resident, 55 Pa. Code §2600.4: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/055/chapter2600/s2600.4.html
 - Background checks: https://www.pa.gov/agencies/aging/resources-for-aging-professionals/criminal-history-bkgnd-check
 - PA Department of State fees: https://www.pa.gov/agencies/dos/programs/business/fees-and-payments
 - PA annual reports: https://www.pa.gov/agencies/dos/programs/business/types-of-filings-and-registrations/annual-reports
