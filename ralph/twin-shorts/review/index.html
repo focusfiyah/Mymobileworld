@@ -1,0 +1,88 @@
+<title>AI Twin Shorts</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#f2f4f3;--card:#fff;--fg:#1b2420;--muted:#5a6762;--line:#d9e0dc;--accent:#2c55a8;--warn:#c2552d;--chip:#e6eeea;
+--display:"Barlow Condensed","Arial Narrow",sans-serif;--body:"Source Sans 3",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121815;--card:#1a221e;--fg:#e6ece9;--muted:#9aa8a2;--line:#2b3631;--accent:#8fb0f0;--warn:#f08a62;--chip:#24302b;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.5 var(--body);margin:0}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px 48px;display:grid;gap:20px}
+h1{font:700 2.2rem/1.05 var(--display);margin:0} h2{font:700 1.35rem/1.1 var(--display);margin:0}
+.sub,.muted{color:var(--muted);margin:0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:grid;gap:12px;min-width:0}
+.ask{border-left:4px solid var(--warn);background:var(--card);padding:14px 18px;border-radius:0 10px 10px 0;display:grid;gap:8px}
+.ask strong{color:var(--warn)} .ask ol,.steps{margin:0;padding-left:20px;display:grid;gap:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.refs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+figure{margin:0;display:grid;gap:6px;min-width:0} figure img{width:100%;border-radius:6px;border:1px solid var(--line);aspect-ratio:9/16;object-fit:cover;background:var(--chip)}
+.refs figure img{aspect-ratio:3/4}
+figcaption{font:500 .72rem var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.shot{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:8px}
+summary{cursor:pointer;display:flex;gap:10px;align-items:baseline} .num{font:700 1.4rem/1 var(--display);color:var(--accent)}
+.say{font-weight:600} pre{white-space:pre-wrap;font:.82rem/1.45 var(--mono);background:var(--chip);padding:12px;border-radius:8px;margin:0;overflow-wrap:anywhere}
+.btns{display:flex;gap:8px;flex-wrap:wrap} button{font:600 .85rem var(--body);padding:7px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+video{width:100%;max-width:520px;border-radius:8px;background:#000} .dlnote{display:none}
+@media (max-width:520px){.refs{grid-template-columns:1fr 1fr}}
+</style>
+<div class="wrap">
+<header><h1>AI twin shorts · test 1</h1><p class="sub">Kit promo 7, "What's inside". Free twin (your Talking 03 take + your free voice clone) and a Flow test. Everything so far: $0.</p></header>
+<section class="ask"><strong>What I need from you</strong><ol>
+<li>Make the 4 Flow clips below in your Flow app (Veo 3.1 Fast, about 20 credits each, about 80 of your 1,050). Send them back and I'll edit them the same way.</li>
+<li>Look at the background options. Studio 1 is my pick for this video. The free twin video is rendering on it now and goes on this page when it's done.</li></ol></section>
+<section class="box" id="twin"><h2>Free twin video · rendering</h2><p class="muted">Lip sync is running on the CPU (about an hour). Then the background swap and the reel-style edit. Two versions: A = hook text only, B = reel style (pop-up words + subtitles).</p></section>
+<section class="box"><h2>New background · free, real photos (Pexels)</h2><p class="muted">You cut out of the kitchen with free background removal, edges checked at 2x (no halo). Same frame on each option.</p><div class="grid"><figure><img src="bg_36.jpg" alt="Studio 1: video studio, softbox + camera (pick)" loading="lazy"><figcaption>Studio 1: video studio, softbox + camera (pick)</figcaption></figure><figure><img src="bg_52.jpg" alt="Studio 2: red backdrop + light" loading="lazy"><figcaption>Studio 2: red backdrop + light</figcaption></figure><figure><img src="bg_26.jpg" alt="Orange wall, plant, neon" loading="lazy"><figcaption>Orange wall, plant, neon</figcaption></figure><figure><img src="bg_49.jpg" alt="Photo studio, brick wall" loading="lazy"><figcaption>Photo studio, brick wall</figcaption></figure><figure><img src="bg_33.jpg" alt="Camera on tripod, soft blur" loading="lazy"><figcaption>Camera on tripod, soft blur</figcaption></figure></div></section>
+<section class="box"><h2>Flow kit · 4 clips</h2>
+<p class="muted">Veo makes its own voice. When the clips come back I'll swap in your voice clone and re-sync your lips (free), so it sounds like you. Each clip is a different framing (waist up, close, step-in, close), like the reel.</p>
+<div class="refs">
+<figure><img src="1_ralph_face_glasses.jpg" alt="Image 1, your face with glasses"><figcaption>1 · your face</figcaption><button class="sv" data-src="1_ralph_face_glasses.jpg">Save</button></figure>
+<figure><img src="2_ralph_reference_sheet.jpg" alt="Image 2, your reference sheet" style="object-fit:contain"><figcaption>2 · reference sheet</figcaption><button class="sv" data-src="2_ralph_reference_sheet.jpg">Save</button></figure>
+<figure><img src="3_studio_background.jpg" alt="Image 3, the studio"><figcaption>3 · studio</figcaption><button class="sv" data-src="3_studio_background.jpg">Save</button></figure>
+</div>
+<p class="muted dlnote" id="dlnote">Saving isn't available in this view: long-press an image to save it, and press and hold the prompt text to copy it.</p>
+<details class="shot" open><summary><span class="num">C1</span> <span class="say">Here&#x27;s everything in the AI Product Video Kit.</span></summary>
+<ol class="steps"><li>Flow: new project, Video, model <b>Veo 3.1 Fast</b> (it makes the speech), 9:16, 8 s, Ingredients to Video.</li>
+<li>Upload the 3 images above as Ingredients, in order 1, 2, 3.</li><li>Paste the prompt, check the credit cost Flow shows (about 20), generate.</li><li>Download at 1080 and send it back here or in Telegram.</li></ol>
+<div class="btns"><button class="cp" data-p="pC1">Copy prompt</button><button class="svp" data-p="pC1">Save prompt</button></div>
+<pre id="pC1">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room: he is in this video studio, with the softbox light and the camera on a tripod behind him, softly out of focus.
+Shot: Medium shot from the waist up, eye level, slow push-in toward him. He stands facing the lens and talks straight to camera, one open hand gesture at chest height, confident and friendly.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;Here&#x27;s everything in the AI Product Video Kit.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no other people, no logos.</pre></details><details class="shot"><summary><span class="num">C2</span> <span class="say">A fifty two page guide that takes you from five phone photos of a product to a finished video.</span></summary>
+<ol class="steps"><li>Flow: new project, Video, model <b>Veo 3.1 Fast</b> (it makes the speech), 9:16, 8 s, Ingredients to Video.</li>
+<li>Upload the 3 images above as Ingredients, in order 1, 2, 3.</li><li>Paste the prompt, check the credit cost Flow shows (about 20), generate.</li><li>Download at 1080 and send it back here or in Telegram.</li></ol>
+<div class="btns"><button class="cp" data-p="pC2">Copy prompt</button><button class="svp" data-p="pC2">Save prompt</button></div>
+<pre id="pC2">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room: he is in this video studio, with the softbox light and the camera on a tripod behind him, softly out of focus.
+Shot: Close-up from the chest up, eye level, camera still. He sits on a stool facing the lens and talks straight to camera, small nods, hands out of frame.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;A fifty two page guide that takes you from five phone photos of a product to a finished video.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no other people, no logos.</pre></details><details class="shot"><summary><span class="num">C3</span> <span class="say">A hundred and twenty hooks, each matched to the shot you show while you say it.</span></summary>
+<ol class="steps"><li>Flow: new project, Video, model <b>Veo 3.1 Fast</b> (it makes the speech), 9:16, 8 s, Ingredients to Video.</li>
+<li>Upload the 3 images above as Ingredients, in order 1, 2, 3.</li><li>Paste the prompt, check the credit cost Flow shows (about 20), generate.</li><li>Download at 1080 and send it back here or in Telegram.</li></ol>
+<div class="btns"><button class="cp" data-p="pC3">Copy prompt</button><button class="svp" data-p="pC3">Save prompt</button></div>
+<pre id="pC3">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room: he is in this video studio, with the softbox light and the camera on a tripod behind him, softly out of focus.
+Shot: Medium-wide shot from the knees up, eye level. He takes one step toward the camera and stops, then talks straight to camera, counting with his hand as he speaks.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;A hundred and twenty hooks, each matched to the shot you show while you say it.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no other people, no logos.</pre></details><details class="shot"><summary><span class="num">C4</span> <span class="say">And a voice kit if you want your own voice on every video. DM me KIT to grab it.</span></summary>
+<ol class="steps"><li>Flow: new project, Video, model <b>Veo 3.1 Fast</b> (it makes the speech), 9:16, 8 s, Ingredients to Video.</li>
+<li>Upload the 3 images above as Ingredients, in order 1, 2, 3.</li><li>Paste the prompt, check the credit cost Flow shows (about 20), generate.</li><li>Download at 1080 and send it back here or in Telegram.</li></ol>
+<div class="btns"><button class="cp" data-p="pC4">Copy prompt</button><button class="svp" data-p="pC4">Save prompt</button></div>
+<pre id="pC4">Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. Image 2 is his reference sheet: same build, black crew-neck t-shirt, beard clean cut with the grey at the chin exactly as shown. Image 3 is the room: he is in this video studio, with the softbox light and the camera on a tripod behind him, softly out of focus.
+Shot: Close-up from the chest up, eye level, slow push-in. He leans slightly toward the lens and talks straight to camera, a small smile on the last words, hands out of frame.
+He says, in a warm, clear American male voice at a natural pace, exactly: &quot;And a voice kit if you want your own voice on every video. D M me KIT to grab it.&quot;
+Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No music, no sound effects, no captions, no on-screen text, no other people, no logos.</pre></details>
+</section>
+<p class="muted">Background photos: Pexels License (free commercial use). Style reference: the reel you sent, style only.</p>
+</div>
+<script>
+(async()=>{const note=document.getElementById('dlnote');
+let dl=null;try{dl=await claude.use("downloads")}catch(e){}
+if(!dl){document.querySelectorAll('.sv,.svp').forEach(b=>b.style.display='none');note.style.display='block';}
+document.querySelectorAll('.sv').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const src=b.dataset.src;b.textContent='...';
+ try{const blob=await (await fetch(src)).blob();await dl.save({filename:src,data:blob});b.textContent='Saved';}
+ catch(e){b.textContent=(e&&e.code==='declined')?'Save':'Try again';}}));
+document.querySelectorAll('.svp').forEach(b=>b.addEventListener('click',async()=>{if(!dl)return;const id=b.dataset.p;
+ try{await dl.save({filename:'flow-'+id.slice(1)+'-prompt.txt',data:document.getElementById(id).innerText});b.textContent='Saved';}
+ catch(e){b.textContent='Save prompt';}}));
+document.querySelectorAll('.cp').forEach(b=>b.addEventListener('click',async()=>{const el=document.getElementById(b.dataset.p);
+ try{await navigator.clipboard.writeText(el.innerText);b.textContent='Copied';}
+ catch(e){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected: tap Copy';}}));
+})();
+</script>
