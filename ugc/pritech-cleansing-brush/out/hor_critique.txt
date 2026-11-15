@@ -1,0 +1,10 @@
+  loudness integrated loudness             -12.2 LUFS   -16.0 LUFS .. -9.0 LUFS (web)   -14.8 LUFS  ok
+  loudness loudest 3 s above integrated        1.4 LU   0.6 LU .. 4.0 LU                    2.3 LU  ok
+  ending   final moment vs integrated          4.0 LU   -3.7 LU .. 7.1 LU                   0.2 LU  ok
+  density  salient hit density                2.31 /s   0.05 /s .. 1.86 /s                 1.25 /s  high (major)
+  spectrum sub 20-60 Hz share                -52.7 dB   -17.7 dB .. -2.6 dB                -6.6 dB  low (minor)
+  spectrum low 60-250 Hz share                -9.9 dB   -8.2 dB .. -0.6 dB                 -4.2 dB  low (minor)
+  spectrum mid 1-4 kHz share                  -7.4 dB   -20.6 dB .. -9.0 dB               -12.4 dB  high (minor)
+  stereo   stereo width (side vs mid)        -40.0 dB   -15.5 dB .. -4.0 dB                -8.5 dB  low (minor)
+LOUDNESS ARC (LU vs integrated at 0%, 10% .. 100% of the film; not scored):
+realness: pritech_hor.mp4: real or pro-produced (p_real 0.98, mean of 7 4 s windows; file thresholds lo 0.4 / hi 0.77, weak calibration): 0 of 7 windows lean synthesized (p_real < 0.5); mean CLAP head score +3.5. No window leans synthesized (lowest p_real 0.97); that does not rule out a code-made layer under a louder real mix (most are missed): judge the source files and stems.
