@@ -10,6 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 HERE = __file__.rsplit("/", 1)[0]
 ap = argparse.ArgumentParser(); ap.add_argument("talk"); ap.add_argument("vo"); ap.add_argument("out")
 ap.add_argument("--version", default="A"); ap.add_argument("--only", default="")
+ap.add_argument("--plan", default=""); ap.add_argument("--words", default="")
 a = ap.parse_args()
 W, H, FPS = 1080, 1920, 25
 SERIF = f"{HERE}/fonts/InstrumentSerif-Regular.ttf"
@@ -21,7 +22,7 @@ PLAN = [(0.00, 2.95, "title", None, 0), (2.95, 6.20, "split", "K-01", 0), (6.20,
         (17.40, 19.50, "full", None, 0), (19.50, 99.0, "punch", None, 0)]
 POPS = [(3.12, 4.60, "52", " pages"), (5.76, 7.20, "5", " photos"), (8.96, 9.95, "finished", " video"),
         (10.32, 11.70, "120", " hooks"), (17.04, 18.70, "your own", " voice"), (19.60, 99.0, "DM me", " KIT")]
-words = json.load(open(f"{HERE}/work/words.json"))
+words = json.load(open(a.words or f"{HERE}/work/words.json"))
 for i, w in enumerate(words):
     if i and words[i - 1]["w"].lower() == "me" and w["w"].lower().startswith("kit"): w["w"] = "KIT" + w["w"][3:]
 
@@ -95,7 +96,7 @@ def frame(base, t):
         x0, y0 = max(0, cx - cw // 2), max(0, min(H - chh, cy - chh // 2))
         img = cv2.resize(base[y0:y0 + chh, x0:x0 + cw], (W, H), interpolation=cv2.INTER_CUBIC)
     elif mode in ("split", "title"):
-        img = np.full((H, W, 3), 248, np.uint8); img[PANEL_H:] = base[180:180 + H - PANEL_H]
+        cy0 = seg[5] if len(seg) > 5 else 180; img = np.full((H, W, 3), 248, np.uint8); img[PANEL_H:] = base[cy0:cy0 + H - PANEL_H]
     else: img = base.copy()
     im = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)).convert("RGBA")
     if mode == "split": im.alpha_composite(panel(seg[3], t, seg[0], seg[1], seg[4]), (0, 0))
@@ -113,6 +114,9 @@ def frame(base, t):
     return cv2.cvtColor(np.array(im.convert("RGB")), cv2.COLOR_RGB2BGR)
 
 
+if a.plan:
+    _p = json.load(open(a.plan)); PLAN[:] = [tuple(x) for x in _p["plan"]]; POPS[:] = [tuple(x) for x in _p["pops"]]
+    CARDS.update({n: page_card(n) for n in {s_[3] for s_ in PLAN if s_[3]} if n not in CARDS})
 CHUNKS = chunks()
 cap = cv2.VideoCapture(a.talk); n = int(cap.get(7)); dur = n / FPS
 t0, t1 = (map(float, a.only.split(",")) if a.only else (0, dur))
