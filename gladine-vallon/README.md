@@ -1,9 +1,9 @@
 # Gladine Vallon: Pennsylvania care home business plan (new client, 2026-11-10)
 
-Status: draft 4 (2026-11-15): Gladine's changes added (help with eating, walkers/canes, 24/7 call system, rides, activities); PCH license kept (Ralph tapped), name "Glad Personal Care Home" because PA bars "assisted living" in a PCH name; startup $1.04M. Next: Ralph reviews, then client questions. Cost: $0.
+Status: draft 5 (2026-11-15): adds 5 startup options (buy $1.04M, trim $940K, cheaper house $810K, lease or lease-to-own $297K); Gladine's changes added (help with eating, walkers/canes, 24/7 call system, rides, activities); PCH license kept (Ralph tapped), name "Glad Personal Care Home" because PA bars "assisted living" in a PCH name; startup $1.04M. Next: Ralph reviews, then client questions. Cost: $0.
 
 - Review page: https://claude.ai/artifact/BYQF2ahutHt4vxbuKeZ4jo (source review/index.html)
-- Completed plan: plan/business_plan.md (+ .docx); Drive folder "Gladine Vallon (Care Home)" https://drive.google.com/drive/folders/1dtg8Ysa9rQY6j7IRi7If4_PMu8n0j7g5 (Google Doc "CURRENT - Glad Personal Care Home Business Plan (draft 4)"; older drafts in Older versions)
+- Completed plan: plan/business_plan.md (+ .docx); Drive folder "Gladine Vallon (Care Home)" https://drive.google.com/drive/folders/1dtg8Ysa9rQY6j7IRi7If4_PMu8n0j7g5 (Google Doc "CURRENT - Glad Personal Care Home Business Plan (draft 5)"; older drafts in Older versions)
 - Her plan as received: research/client_plan_as_received.md (sections 1-5 only; for-profit; wants a state grant)
 - Research: research/pa_licensing_costs.md, research/pa_funding.md (cited, 2026-11-10)
 - Numbers: model.py -> research/model.json (all estimates marked EST; rerun when she gives city, rate, property, insurance)

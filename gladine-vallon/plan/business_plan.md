@@ -1,6 +1,6 @@
-# Glad Personal Care Home Business Plan (draft 4)
+# Glad Personal Care Home Business Plan (draft 5)
 
-Prepared for Gladine Vallon. Draft 4, 2026-11-15. This draft adds Gladine's changes of 2026-11-15, marked **[UPDATED]**.
+Prepared for Gladine Vallon. Draft 5, 2026-11-15. This draft adds Gladine's changes of 2026-11-15, marked **[UPDATED]**, and ways to lower the startup cost (section 14).
 
 How to read this draft: sections 1 to 5 are Gladine's own text. Lines that need to change are marked **[CHANGE]**. Every section marked **[ADDED]** is new. Numbers marked *estimate* are placeholders until she has real quotes for the property, rent and insurance.
 
@@ -27,7 +27,7 @@ The home provides personal care, medication management, a private bedroom and ba
 
 The goal is to grow from 10 to 20 residents within 24 months, after DHS approves the higher capacity.
 
-**What we are asking for [ADDED]:** about $1.04 million to buy and prepare the property and open (section 15), from Gladine's own money (about 20%), an SBA-backed bank loan and a PIDA state loan. After opening, the home will apply for workforce training funds and state grants for licensed homes.
+**What we are asking for [ADDED]:** about $1.04 million to buy and prepare the property and open (section 15), or as little as about $297,000 if the building is leased (section 14), from Gladine's own money (about 20%), an SBA-backed bank loan and a PIDA state loan. After opening, the home will apply for workforce training funds and state grants for licensed homes.
 
 ---
 
@@ -252,6 +252,24 @@ Goal: 3 residents signed before opening day, then 1 new resident a month until t
 | **Total** | **$1,040,000** |
 
 The cash cushion matters. While the home fills up in year 1, monthly costs are higher than income by about $101,300 in total before it reaches 9 residents.
+
+### Ways to lower the startup cost [ADDED 2026-11-15]
+
+The $1,040,000 above assumes buying a $650,000 property. The property is 63% of the total, so the building decision matters most. All figures are *estimates* until the city is chosen.
+
+| Option | What changes | Startup total | Owner's 20% |
+|---|---|---|---|
+| A. Buy at $650,000 (plan above) | Nothing | $1,040,000 | $208,000 |
+| B. Buy at $650,000, trim the rest | A one-level house that already has an alarm or sprinklers (renovation $100,000), furniture $45,000, hiring $20,000, cash cushion $110,000 | about $940,000 | about $188,000 |
+| C. Buy a cheaper house | A home around $500,000 in a lower-cost area, close to code already (renovation $100,000), cash cushion $120,000 | about $810,000 | about $162,000 |
+| D. Lease the building | Rent a house that already meets the rules, about $6,000 a month plus a 2-month deposit; renovation about $75,000 (landlords often share it); cash cushion $120,000 | about $297,000 | about $59,000 |
+| E. Lease with an option to buy | Same as D now; part of the rent can count toward buying the building later | about $297,000 | about $59,000 |
+
+**Monthly costs barely change:** a $6,000 lease is close to the $6,500 monthly loan payment in the projections.
+
+**Before choosing a lease:** the landlord must agree in writing to a personal care home, the lease should run 5 to 10 years (lenders and DHS want stability), and the owner builds no ownership in the building unless the lease includes an option to buy.
+
+**What should not be cut:** the cash cushion. Year 1 runs about $101,300 short while the beds fill, so every option keeps at least $110,000.
 
 ### Business setup fees [ADDED]
 
