@@ -10,3 +10,4 @@ Status: draft 5 (2026-11-15): adds 5 startup options (buy $1.04M, trim $940K, ch
 - Gates: GATES.md, checks tools_check.mjs
 
 Key findings: her 1 nurse + 1 CNA every shift costs $578,598/yr (break-even ~$7,700/resident/month vs PA median $6,480); recommend a Personal Care Home (Ch. 2600) with med-trained aides + RN consultant; no PA startup grant for a for-profit care home (SBA + PIDA + 20% own money; DOH $2,500/licensed bed grant only after licensing, 2026 round closed 10-01); confirm building class for 20 residents (R-4 vs I-1) before buying.
+- Client copy (clean, no review notes, styled): plan/business_plan_clean.md -> "plan/Glad Personal Care Home - Business Plan.docx" (make_clean.py, build_docx.py; rerun both after any plan change). Drive: "CLIENT COPY - Glad Personal Care Home Business Plan" (Google Doc) + .docx.
