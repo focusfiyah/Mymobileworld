@@ -10,13 +10,13 @@ def staff(lines):  # lines: (label, hours/yr, rate) or (label, salary)
 SC = {
  "A": dict(name="Plan as written (ALR, 10 beds, 1 LPN + 1 CNA every shift, paid administrator)", beds=10, rate=6480,
    staff=[("LPN 24/7",H,LPN),("CNA 24/7",H,CNA),("Administrator",65000),("Cook/housekeeper full time",2080,COOK)],
-   fixed_month=dict(property=6500, utilities=2500, insurance=2000, other=2500)),
- "B": dict(name="Lean personal care home, 10 beds, Gladine is the administrator", beds=10, rate=5500,
-   staff=[("Med-trained aide 24/7",H,CNA),("Second aide 8 h/day",2920,CNA),("RN consultant 10 h/week",520,RN),("Cook/housekeeper 20 h/week",1040,COOK)],
-   fixed_month=dict(property=6500, utilities=2500, insurance=2000, other=2500)),
- "C": dict(name="Lean, after expansion to 20 beds, paid administrator", beds=20, rate=5500,
-   staff=[("Two aides 24/7",2*H,CNA),("Third aide 8 h/day",2920,CNA),("RN 20 h/week",1040,RN),("Administrator",65000),("Cook full time",2080,COOK),("Housekeeper full time",2080,COOK)],
-   fixed_month=dict(property=8500, utilities=4000, insurance=3500, other=3500)),
+   fixed_month=dict(property=6500, utilities=2500, insurance=2000, other=3000)),
+ "B": dict(name="Lean personal care home, 10 beds, Gladine is the administrator", beds=10, rate=6000,
+   staff=[("Med-trained aide 24/7",H,CNA),("Second aide 12 h/day, covers all 3 meals (feeding help)",4380,CNA),("RN consultant 10 h/week",520,RN),("Cook/housekeeper 20 h/week",1040,COOK)],
+   fixed_month=dict(property=6500, utilities=2500, insurance=2000, other=3000)),
+ "C": dict(name="Lean, after expansion to 20 beds, paid administrator", beds=20, rate=6000,
+   staff=[("Two aides 24/7",2*H,CNA),("Third aide 12 h/day, covers meals",4380,CNA),("RN 20 h/week",1040,RN),("Administrator",65000),("Cook full time",2080,COOK),("Housekeeper full time",2080,COOK)],
+   fixed_month=dict(property=8500, utilities=4000, insurance=3500, other=4000)),
 }
 VAR = 12*30.4 + 100  # food $12/day + supplies/activities $100 per resident per month EST
 out = {}
@@ -38,7 +38,7 @@ out["ramp_y1"] = ramp
 y1_loss_months = sum(min(0, r*(out['B']['rate']-out['B']['var_per_res_month']) - out['B']['fixed_year']/12) for r in ramp)
 out["y1_ramp_cash_gap"] = round(-y1_loss_months)
 su = {"Property purchase (placeholder, depends on city)":650000, "Renovation: fire alarm, sprinklers if required, accessibility, baths":150000,
-      "Furniture, beds, kitchen, equipment":40000, "Pre-opening payroll, hiring, training, administrator course":25000,
+      "Furniture, beds, kitchen, equipment, emergency call system":50000, "Pre-opening payroll, hiring, training, administrator course":25000,
       "Legal, accounting, licensing, insurance deposits":15000, "Working capital (cash cushion, about 6 months)":150000}
 tot = sum(su.values()); out["uses"]=su; out["uses_total"]=tot
 out["sources"]={"Owner equity (20%)":round(tot*0.2), "SBA 504 or 7(a) bank loan":round(tot*0.8*0.6), "PIDA Small Business First (if the county says a care home qualifies)":round(tot*0.8*0.4)}
