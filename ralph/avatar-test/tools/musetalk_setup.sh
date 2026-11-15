@@ -16,7 +16,7 @@ uv pip install -q -p $P diffusers==0.30.2 accelerate==0.28.0 numpy==1.23.5 openc
   transformers==4.39.2 huggingface_hub==0.30.2 librosa==0.11.0 einops==0.8.1 omegaconf==2.3.0 ffmpeg-python==0.2.0 \
   moviepy==1.0.3 imageio[ffmpeg]==2.34.0 gdown==5.2.0 requests mmengine==0.10.4 "setuptools<70"
 uv pip install -q -p $P mmcv==2.0.1 -f https://download.openmmlab.com/mmcv/dist/cpu/torch2.0/index.html
-uv pip install -q -p $P pip && uv pip install -q -p $P --no-build-isolation chumpy==0.70   # mmpose dep; its build needs pip
+uv pip install -q -p $P pip wheel && uv pip install -q -p $P --no-build-isolation chumpy==0.70   # mmpose dep; its build needs pip
 uv pip install -q -p $P mmdet==3.1.0 mmpose==1.1.0
 cd src; M=models; mkdir -p $M/musetalkV15 $M/dwpose $M/face-parse-bisent $M/sd-vae $M/whisper
 HF="../venv/bin/huggingface-cli download"
