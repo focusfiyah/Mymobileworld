@@ -1,7 +1,7 @@
 """Two-pass build of the professional client docx: placeholder contents, render, read heading pages, rebuild with page numbers."""
 import re, subprocess, os, shutil
 SRC='plan/business_plan_client.md'; TMP='plan/_client_build.md'
-OUT='plan/Glad Personal Care Home - Business Plan.docx'
+OUT='plan/CLEAN - Glad Personal Care Home Business Plan.docx'
 md=open(SRC).read()
 heads=[h for h in re.findall(r'^## (.+)$', md, re.M) if h not in ('Confidentiality Statement','Contents')]
 def build(pages):
