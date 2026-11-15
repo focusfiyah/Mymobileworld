@@ -58,12 +58,16 @@ def page_card(name):
     c = Image.new("RGBA", p.size); c.paste(p, (0, 0), m); return c
 
 
-CARDS = {n: page_card(n) for n in {s[3] for s in PLAN if s[3]}}
+CARDS = {n: page_card(n) for n in {s[3] for s in PLAN if s[3] and not s[3].startswith("anim:")}}
 HOOK = hook_layer()
 PANEL_H, WIN_TOP, WIN_H = 820, 140, 640
 
 
+import motion
+
+
 def panel(name, t, t0, t1, scroll):
+    if name.startswith("anim:"): return motion.ANIMS[name[5:]](t - t0, t1 - t0)
     pn = Image.new("RGBA", (W, PANEL_H), (250, 250, 248, 255)); c = CARDS[name]
     off = int((c.height - WIN_H) * min(1, (t - t0) / max(0.1, t1 - t0)) * 0.55) if scroll else 0
     crop = c.crop((0, off, c.width, off + WIN_H))
@@ -116,7 +120,7 @@ def frame(base, t):
 
 if a.plan:
     _p = json.load(open(a.plan)); PLAN[:] = [tuple(x) for x in _p["plan"]]; POPS[:] = [tuple(x) for x in _p["pops"]]
-    CARDS.update({n: page_card(n) for n in {s_[3] for s_ in PLAN if s_[3]} if n not in CARDS})
+    CARDS.update({n: page_card(n) for n in {s_[3] for s_ in PLAN if s_[3] and not s_[3].startswith("anim:")} if n not in CARDS})
 CHUNKS = chunks()
 cap = cv2.VideoCapture(a.talk); n = int(cap.get(7)); dur = n / FPS
 t0, t1 = (map(float, a.only.split(",")) if a.only else (0, dur))
