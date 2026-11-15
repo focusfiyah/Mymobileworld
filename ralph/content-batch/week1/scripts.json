@@ -1,0 +1,216 @@
+{
+ "week": "2026-11-17",
+ "twin": [
+  {
+   "id": "T1",
+   "kind": "kit",
+   "title": "3 ways people can tell it's AI",
+   "shots": [
+    {
+     "line": "Three ways people can tell your product video is AI.",
+     "room": "bright creator studio softbox camera",
+     "angle": "low"
+    },
+    {
+     "line": "One, the letters on the label melt.",
+     "room": "kitchen counter with skincare bottles bright",
+     "angle": "side"
+    },
+    {
+     "line": "Two, the hand grabs the product with too many fingers. Three, the product changes size between shots.",
+     "room": "home office desk monitor editing bright",
+     "angle": "high"
+    },
+    {
+     "line": "The kit has a seven point check that catches all three, and the free fix for each. DM me kit.",
+     "room": "living room sofa bright plants",
+     "angle": "close"
+    }
+   ]
+  },
+  {
+   "id": "T2",
+   "kind": "tip",
+   "title": "Your AI video in your own voice",
+   "shots": [
+    {
+     "line": "Your AI video doesn't have to sound like a stranger.",
+     "room": "bright loft window plants",
+     "angle": "walk"
+    },
+    {
+     "line": "Make the clip with an AI video tool first, so the lips move on their own.",
+     "room": "home office desk laptop bright",
+     "angle": "side"
+    },
+    {
+     "line": "Then run the audio through a voice changer with your own cloned voice. The timing stays the same, so the lips still match.",
+     "room": "podcast microphone room bright",
+     "angle": "close"
+    },
+    {
+     "line": "That's how I make these without filming. Follow for more AI video tips.",
+     "room": "creator studio ring light bright",
+     "angle": "low"
+    }
+   ]
+  }
+ ],
+ "faceless": [
+  {
+   "id": "F1",
+   "kind": "kit",
+   "title": "Stop reposting the same clip",
+   "lines": [
+    {
+     "say": "If you post the same clip with a new voiceover, TikTok can treat it as unoriginal.",
+     "bg": "scrolling phone social media",
+     "card": "kinetic",
+     "text": "SAME CLIP?"
+    },
+    {
+     "say": "Make each video a different shape instead.",
+     "bg": "film editing timeline screen",
+     "card": "kinetic",
+     "text": "NEW SHAPE"
+    },
+    {
+     "say": "Result first. Side by side. Three things. In the moment. Unbox to use. Gift reveal.",
+     "bg": "product unboxing hands",
+     "card": "list",
+     "items": [
+      "Result First",
+      "Side by Side",
+      "Three Things",
+      "In the Moment",
+      "Unbox to Use",
+      "Gift Reveal"
+     ]
+    },
+    {
+     "say": "Each one comes with its own shot list in the AI Product Video Kit.",
+     "bg": "notebook planning desk",
+     "card": "reveal"
+    },
+    {
+     "say": "DM me kit.",
+     "bg": "smartphone message typing",
+     "card": "bundle"
+    }
+   ],
+   "hook": [
+    "Same clip,",
+    "new voiceover?"
+   ]
+  },
+  {
+   "id": "F2",
+   "kind": "tip",
+   "title": "3 fixes for AI talking videos",
+   "lines": [
+    {
+     "say": "Three fixes for AI talking videos.",
+     "bg": "video camera studio light",
+     "card": "kinetic",
+     "text": "3 FIXES"
+    },
+    {
+     "say": "One. Write keywords in lowercase. When I wrote kit in capitals, the AI spelled it out letter by letter.",
+     "bg": "typing keyboard close up",
+     "card": "kinetic",
+     "text": "lowercase"
+    },
+    {
+     "say": "Two. Don't ask it to count on fingers. Mine went thumb, middle finger, then index.",
+     "bg": "hand gesture close up",
+     "card": "kinetic",
+     "text": "NO COUNTING"
+    },
+    {
+     "say": "Three. Give every shot its own camera angle and room. It looks like a real shoot.",
+     "bg": "film crew camera angle",
+     "card": "kinetic",
+     "text": "NEW ANGLE"
+    },
+    {
+     "say": "Save this for your next video.",
+     "bg": "smartphone bookmark",
+     "card": "kinetic",
+     "text": "SAVE IT"
+    }
+   ],
+   "hook": [
+    "3 fixes for",
+    "AI talking videos"
+   ]
+  }
+ ],
+ "carousel": [
+  {
+   "id": "C1",
+   "kind": "kit",
+   "slides": [
+    {
+     "head": "Every product video that sells does 3 things",
+     "sub": "in about 25 seconds"
+    },
+    {
+     "head": "1. See it",
+     "sub": "The product working in the first frame."
+    },
+    {
+     "head": "2. Trust it",
+     "sub": "Up close, in a real room."
+    },
+    {
+     "head": "3. Want it",
+     "sub": "Who it's for and when they'd use it."
+    },
+    {
+     "head": "That's the Proof Ladder",
+     "sub": "Every format in the AI Product Video Kit is built on it.",
+     "page": "K-08"
+    },
+    {
+     "head": "Want the kit?",
+     "sub": "DM me KIT.",
+     "bundle": true
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "kind": "tip",
+   "slides": [
+    {
+     "head": "How I make videos of me without filming",
+     "sub": "my AI twin setup, 5 steps"
+    },
+    {
+     "head": "1. Real photos of me",
+     "sub": "Plus one reference sheet, so the AI keeps my face."
+    },
+    {
+     "head": "2. A new camera angle per shot",
+     "sub": "Low, side, high, close-up."
+    },
+    {
+     "head": "3. A room that fits each line",
+     "sub": "Real stock photos, brand names removed."
+    },
+    {
+     "head": "4. Generate each shot",
+     "sub": "Google Flow, one short clip per line."
+    },
+    {
+     "head": "5. My voice goes on last",
+     "sub": "A voice changer keeps the timing, so the lips still match."
+    },
+    {
+     "head": "Follow for more",
+     "sub": "AI video tips every week."
+    }
+   ]
+  }
+ ]
+}
