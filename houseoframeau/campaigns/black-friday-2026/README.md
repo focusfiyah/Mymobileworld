@@ -26,10 +26,10 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 6 | 11-17 | SOLD (5 sales): HofR - BodyJ BF (15fRcmJSopUCi5pTJLqPlmjv-iXDcc4p-; Ralph approved 2026-11-15) | 39.3 s | |
 | 7 | 11-18 | SOLD: HofR - PRITECH BF (1hngZ7Iv9ZLut14cbSNFPgVIZWDyCUoch; Ralph approved 2026-11-15) | 25.2 s | |
 | 8 | 11-19 | SOLD: HofR - Vans BF (1iaQsweJaPAGQGssaufmltouVgwBkWQgO; Ralph approved 2026-11-15) | 27.5 s | |
-| 9 | 11-20 | SOLD: SoFyre V1 Seasonal urgency (720x1280) (1rrLe45hidmfP8oV76P5CFZRCWL1-6vNp; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 17.9 s | |
-| 10 | 11-21 | SOLD: Throw Hands card game r2b (720x1280) (1KNLG3XN68i6WfEYXsUygpcGfHrWr2o-V; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 29.4 s | |
-| 11 | 11-22 | SOLD: Mute Nasal Dilator r4 (720x1280) (16BKuu-XtntFCIuv_yyNM0k6ujBiLkfV6; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 29.9 s | |
-| 12 | 11-23 | SOLD: Night Driving Glasses V1 (720x1280) (1mPZLny7rtMYWvUeSX3KtW5FHfngHH3TA; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 36.3 s | |
+| 9 | 11-20 | SOLD: HofR - SoFyre BF (1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS; Ralph approved 2026-11-15) | 17.9 s | |
+| 10 | 11-21 | SOLD: HofR - Throw Hands BF (1_4MSUQ_gCUbUTjeO6dltHiC3NfVWFA9Q; Ralph approved 2026-11-15) | 29.4 s | |
+| 11 | 11-22 | SOLD: HofR - Mute Nasal Dilator BF (1wlWnsMiaG6g1ruecqopmKvm5YJV2FuUf; Ralph approved 2026-11-15) | 29.9 s | |
+| 12 | 11-23 | SOLD: HofR - Night Driving Glasses BF (1X368oc1chBv8rnLePW-hwFrUFPLhSuXx; Ralph approved 2026-11-15) | 32.0 s | |
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s | |
 | 14 | 11-25 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
 | 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
