@@ -9,7 +9,7 @@ html = re.sub(r'<meta name="claude:[^>]*>\n?', "", html)
 html = html.replace("// captions ship inline (artifacts do not serve .vtt files)", "// captions ship inline")
 title = re.search(r"<title>(.*?)</title>", html).group(1)
 html = html.replace(f"<title>{title}</title>", "", 1)
-desc = "Grace With The Glow: New York-based UGC and TikTok Shop creator. See her videos and send your brief."
+desc = "Grace With The Glow: New York-based UGC creator making videos that sell products. See her work and send your brief."
 head = f"""<!doctype html>
 <html lang="en">
 <head>
