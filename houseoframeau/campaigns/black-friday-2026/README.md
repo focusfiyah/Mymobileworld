@@ -23,13 +23,13 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | 2026-11-14 v_inbox_file~v2.7708023589152671775; posted 11:08 AM ET, video 7708059572405013774 (17 s, caption on) |
 | 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | 2026-11-15 v_inbox_file~v2.7708394710104541214 |
 | 5 | 11-16 | Cleanwaste Wag Bag toilet kit AI video V1 (1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7, Ralph 2026-11-15: "hot selling item ... selling fast", tapped Cleanwaste V1 + "Replace PURCELL") | 29.6 s | |
-| 6 | 11-17 | HofR - JIYU NAD BF (1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o, Ralph OK 2026-11-12, batch C) | 22.5 s | |
-| 7 | 11-18 | HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C) | 25.7 s | |
-| 8 | 11-19 | HofR - Luvum BF (171hJpkdckVa2HascrdFR5pyh6UIUv3BF, Ralph OK 2026-11-12, batch C) | 23.8 s | |
-| 9 | 11-20 | HofR - Manners Book BF (1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc, Ralph OK 2026-11-12, batch C) | 25.1 s | |
-| 10 | 11-21 | HofR - NovaTabz BF (1f28a6fuNGhGYmWtjrpZC1Zu5iusEdtgB, Ralph OK 2026-11-12, Chatterbox voice) | 25.6 s | |
-| 11 | 11-22 | HofR - GALENTAL Mirror BF (1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, Ralph OK 2026-11-12, batch A) | 22.2 s | |
-| 12 | 11-23 | HofR - Meat Sticks Jerky BF (1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3, Ralph OK 2026-11-12, batch A) | 22.5 s | |
+| 6 | 11-17 | SOLD (5 sales): BodyJ castor roll-on v2, Grace's script (1mvIp_zGLc8FUFtBwrD9p8AeWTz6cgJfs; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 39.3 s | |
+| 7 | 11-18 | SOLD: PRITECH V1 (1m2U5l9mi1YpI3QYDc-u6XQ1CN8o_rDX1; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 25.2 s | |
+| 8 | 11-19 | SOLD: Vans V13 (sequin, Grace's VO) (1zmlpVDH5ORiTlx8RWYnXefypv_CtQPr0; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 27.5 s | |
+| 9 | 11-20 | SOLD: SoFyre V1 Seasonal urgency (720x1280) (1rrLe45hidmfP8oV76P5CFZRCWL1-6vNp; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 17.9 s | |
+| 10 | 11-21 | SOLD: Throw Hands card game r2b (720x1280) (1KNLG3XN68i6WfEYXsUygpcGfHrWr2o-V; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 29.4 s | |
+| 11 | 11-22 | SOLD: Mute Nasal Dilator r4 (720x1280) (16BKuu-XtntFCIuv_yyNM0k6ujBiLkfV6; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 29.9 s | |
+| 12 | 11-23 | SOLD: Night Driving Glasses V1 (720x1280) (1mPZLny7rtMYWvUeSX3KtW5FHfngHH3TA; Ralph 2026-11-15: sold videos first, tapped "Our Drive cuts" + "Replace unsold ones") | 36.3 s | |
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s | |
 | 14 | 11-25 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
 | 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
@@ -61,3 +61,5 @@ complexion people when we're using people." Applies to every b-roll and stock cl
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
 
 Dropped 2026-11-15 (Ralph tapped "Replace PURCELL"): HofR - PURCELL Mist BF (1A96OCUDtJ-TxNHxVBHuOr1SmrYElHgZh) stays in Drive, not scheduled.
+
+Dropped 2026-11-15 for the sold videos (Ralph tapped "Replace unsold ones"), still in Drive, not scheduled: HofR - JIYU NAD BF (1uGnQe3s5yh3qZGFrg1aOeJj7RGwA829o, Ralph OK 2026-11-12, batch C); HofR - Momo Nashi Tracing BF (1v_iq7nExFzGeWwGbhX9my8SuSXEwfK-E, Ralph OK 2026-11-12, batch C); HofR - Luvum BF (171hJpkdckVa2HascrdFR5pyh6UIUv3BF, Ralph OK 2026-11-12, batch C); HofR - Manners Book BF (1_mEObGda4Zr1ujAvlmYX17q0Svz82qJc, Ralph OK 2026-11-12, batch C); HofR - NovaTabz BF (1f28a6fuNGhGYmWtjrpZC1Zu5iusEdtgB, Ralph OK 2026-11-12, Chatterbox voice); HofR - GALENTAL Mirror BF (1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, Ralph OK 2026-11-12, batch A); HofR - Meat Sticks Jerky BF (1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3, Ralph OK 2026-11-12, batch A)

@@ -24,3 +24,10 @@ caption into the morning Telegram message.
 20 Eyeliner: Eyeliner gone by lunch? Not this one ✍🏾 Waterproof, sweat resistant, super fine tip. #ad #waterproofeyeliner #makeuphacks #holidaymakeup #tiktokshopblackfriday
 
 Wag Bag (Cleanwaste): You stocked water and flashlights, but what about the toilet? 🚽 12 go-anywhere toilet kits for power outages and emergencies. #ad #wagbag #emergencyprep #poweroutage #tiktokshopblackfriday
+BodyJ castor: I think we all need castor oil 🌿 Organic castor oil with a rose quartz roller, no mess. #ad #castoroil #bodyj4you #selfcare #tiktokshopblackfriday
+PRITECH: Hand washing could never 🧼 A warm, vibrating face scrubber for an at-home facial. #ad #pritech #facialcleansingbrush #skincaretools #tiktokshopblackfriday
+Vans: The sequin Vans everyone keeps asking about ✨ Sparkle that goes with everything. #ad #vans #sequinvans #holidayoutfit #tiktokshopblackfriday
+SoFyre: Keep the mice out before winter 🐭 Peppermint and cinnamon pouches, safe around kids and pets. #ad #sofyre #rodentrepellent #winterprep #tiktokshopblackfriday
+Throw Hands: Rock paper scissors, but chaos 🃏 The 60 second card game for family game night. #ad #throwhands #familygamenight #cardgames #tiktokshopblackfriday
+Mute Nasal Dilator: Snoring kept us both up 😴 A starter pack of nasal dilators for quieter nights. #ad #mute #snoring #bettersleep #tiktokshopblackfriday
+Night Driving Glasses: I wish someone thought of this sooner 🚗 Fit over your glasses and cut the glare at night. #ad #nightdriving #antiglare #drivingglasses #tiktokshopblackfriday
