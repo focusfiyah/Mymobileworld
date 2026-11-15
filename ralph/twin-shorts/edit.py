@@ -58,16 +58,34 @@ def page_card(name):
     c = Image.new("RGBA", p.size); c.paste(p, (0, 0), m); return c
 
 
-CARDS = {n: page_card(n) for n in {s[3] for s in PLAN if s[3] and not s[3].startswith("anim:")}}
+def room_panel():
+    """Blurred studio photo behind the floating cards and the hook (rooms/px/bg36.jpg, Pexels), slightly darkened."""
+    r = Image.open(f"{HERE}/rooms/px/bg36.jpg").convert("RGB"); s = max(W / r.width, 820 / r.height)
+    r = r.resize((int(r.width * s) + 1, int(r.height * s) + 1), Image.LANCZOS); x0 = (r.width - W) // 2; y0 = int((r.height - 820) * 0.35)
+    r = r.crop((x0, y0, x0 + W, y0 + 820)).filter(ImageFilter.GaussianBlur(16))
+    return Image.eval(r, lambda v: int(v * 0.8)).convert("RGBA")
+
+
+def hook_layer2():
+    """Hook in the reference style: big yellow serif with a soft dark shadow, over the blurred room, in the safe zone."""
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    shadow_text(im, (540, 400), [("Everything inside", (255, 255, 255))], 112)
+    shadow_text(im, (540, 520), [("the AI Product Video Kit", YEL)], 100)
+    return im
+
+
+ROOM = room_panel(); HOOK2 = hook_layer2()
+CARDS = {n: page_card(n) for n in {s[3] for s in PLAN if s[3] and not s[3].startswith(("anim:", "card:"))}}
 HOOK = hook_layer()
 PANEL_H, WIN_TOP, WIN_H = 820, 140, 640
 
 
-import motion
+import motion, motion2
 
 
 def panel(name, t, t0, t1, scroll):
     if name.startswith("anim:"): return motion.ANIMS[name[5:]](t - t0, t1 - t0)
+    if name.startswith("card:"): return None
     pn = Image.new("RGBA", (W, PANEL_H), (250, 250, 248, 255)); c = CARDS[name]
     off = int((c.height - WIN_H) * min(1, (t - t0) / max(0.1, t1 - t0)) * 0.55) if scroll else 0
     crop = c.crop((0, off, c.width, off + WIN_H))
@@ -79,7 +97,7 @@ def panel(name, t, t0, t1, scroll):
 def subtitle(t):
     """3-word chunks from words.json; returns the chunk on screen at t."""
     for ch, nxt in CHUNKS:
-        if ch[0]["s"] - 0.05 <= t < nxt: return " ".join(w["w"] for w in ch)
+        if ch[0]["s"] - 0.05 <= t < nxt: return " ".join(w["w"] for w in ch).replace(" -", "-")
     return ""
 
 
@@ -103,8 +121,15 @@ def frame(base, t):
         cy0 = seg[5] if len(seg) > 5 else 180; img = np.full((H, W, 3), 248, np.uint8); img[PANEL_H:] = base[cy0:cy0 + H - PANEL_H]
     else: img = base.copy()
     im = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)).convert("RGBA")
-    if mode == "split": im.alpha_composite(panel(seg[3], t, seg[0], seg[1], seg[4]), (0, 0))
-    if mode == "title": im.alpha_composite(Image.new("RGBA", (W, PANEL_H), (250, 250, 248, 255)), (0, 0)); im.alpha_composite(HOOK)
+    if mode == "split" and seg[3].startswith("card:"):
+        im.alpha_composite(ROOM, (0, 0))
+        card = motion2.ANIMS[seg[3][5:]](t - seg[0], seg[1] - seg[0]); k = motion2.eob((t - seg[0]) / 0.35)
+        cw, ch = int(motion2.CW * (0.9 + 0.1 * k)), int(motion2.CH * (0.9 + 0.1 * k)); card = card.resize((cw, ch), Image.LANCZOS)
+        m = Image.new("L", card.size, 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, cw - 1, ch - 1), 22, fill=255); card.putalpha(m)
+        sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((540 - cw // 2 + 6, 150 + 16, 540 + cw // 2 + 6, 150 + ch + 16), 22, fill=(0, 0, 0, 110))
+        im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(18))); im.alpha_composite(card, (540 - cw // 2, 150 + (motion2.CH - ch) // 2))
+    elif mode == "split": im.alpha_composite(panel(seg[3], t, seg[0], seg[1], seg[4]), (0, 0))
+    if mode == "title": im.alpha_composite(ROOM, (0, 0)); im.alpha_composite(HOOK2)
     if a.version == "B":
         popping = False
         for p0, p1, w1, w2 in POPS:
@@ -120,7 +145,7 @@ def frame(base, t):
 
 if a.plan:
     _p = json.load(open(a.plan)); PLAN[:] = [tuple(x) for x in _p["plan"]]; POPS[:] = [tuple(x) for x in _p["pops"]]
-    CARDS.update({n: page_card(n) for n in {s_[3] for s_ in PLAN if s_[3] and not s_[3].startswith("anim:")} if n not in CARDS})
+    CARDS.update({n: page_card(n) for n in {s_[3] for s_ in PLAN if s_[3] and not s_[3].startswith(("anim:", "card:"))} if n not in CARDS})
 CHUNKS = chunks()
 cap = cv2.VideoCapture(a.talk); n = int(cap.get(7)); dur = n / FPS
 t0, t1 = (map(float, a.only.split(",")) if a.only else (0, dur))
