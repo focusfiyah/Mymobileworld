@@ -6,12 +6,12 @@
   "wages": 565318,
   "staff_loaded": 706648,
   "staff_per_res_month": 5889,
-  "fixed_year": 868648,
+  "fixed_year": 874648,
   "var_per_res_month": 465,
-  "profit_full": -146824,
-  "profit_90": -219006,
-  "breakeven_residents": 12.0,
-  "breakeven_rate_full": 7704,
+  "profit_full": -152824,
+  "profit_90": -225006,
+  "breakeven_residents": 12.1,
+  "breakeven_rate_full": 7754,
   "staff": [
    [
     "LPN 24/7",
@@ -37,22 +37,22 @@
    "property": 6500,
    "utilities": 2500,
    "insurance": 2000,
-   "other": 2500
+   "other": 3000
   }
  },
  "B": {
   "name": "Lean personal care home, 10 beds, Gladine is the administrator",
   "beds": 10,
-  "rate": 5500,
-  "wages": 289139,
-  "staff_loaded": 361424,
-  "staff_per_res_month": 3012,
-  "fixed_year": 523424,
+  "rate": 6000,
+  "wages": 320004,
+  "staff_loaded": 400004,
+  "staff_per_res_month": 3333,
+  "fixed_year": 568004,
   "var_per_res_month": 465,
-  "profit_full": 80800,
-  "profit_90": 20378,
-  "breakeven_residents": 8.7,
-  "breakeven_rate_full": 4827,
+  "profit_full": 96220,
+  "profit_90": 29797,
+  "breakeven_residents": 8.6,
+  "breakeven_rate_full": 5198,
   "staff": [
    [
     "Med-trained aide 24/7",
@@ -60,8 +60,8 @@
     21.14
    ],
    [
-    "Second aide 8 h/day",
-    2920,
+    "Second aide 12 h/day, covers all 3 meals (feeding help)",
+    4380,
     21.14
    ],
    [
@@ -79,22 +79,22 @@
    "property": 6500,
    "utilities": 2500,
    "insurance": 2000,
-   "other": 2500
+   "other": 3000
   }
  },
  "C": {
   "name": "Lean, after expansion to 20 beds, paid administrator",
   "beds": 20,
-  "rate": 5500,
-  "wages": 618990,
-  "staff_loaded": 773737,
-  "staff_per_res_month": 3224,
-  "fixed_year": 1007737,
+  "rate": 6000,
+  "wages": 649854,
+  "staff_loaded": 812318,
+  "staff_per_res_month": 3385,
+  "fixed_year": 1052318,
   "var_per_res_month": 465,
-  "profit_full": 200711,
-  "profit_90": 79866,
-  "breakeven_residents": 16.7,
-  "breakeven_rate_full": 4664,
+  "profit_full": 276130,
+  "profit_90": 143286,
+  "breakeven_residents": 15.8,
+  "breakeven_rate_full": 4849,
   "staff": [
    [
     "Two aides 24/7",
@@ -102,8 +102,8 @@
     21.14
    ],
    [
-    "Third aide 8 h/day",
-    2920,
+    "Third aide 12 h/day, covers meals",
+    4380,
     21.14
    ],
    [
@@ -130,27 +130,27 @@
    "property": 8500,
    "utilities": 4000,
    "insurance": 3500,
-   "other": 3500
+   "other": 4000
   }
  },
  "projection": {
   "Y1": {
    "avg_residents": 7.5,
-   "revenue": 495000,
-   "costs": 565274,
-   "net": -70274
+   "revenue": 540000,
+   "costs": 609854,
+   "net": -69854
   },
   "Y2": {
    "avg_residents": 9.5,
-   "revenue": 627000,
-   "costs": 576434,
-   "net": 50566
+   "revenue": 684000,
+   "costs": 621014,
+   "net": 62986
   },
   "Y3": {
    "avg_residents": 16,
-   "revenue": 1056000,
-   "costs": 1097017,
-   "net": -41017
+   "revenue": 1152000,
+   "costs": 1141598,
+   "net": 10402
   }
  },
  "ramp_y1": [
@@ -167,19 +167,19 @@
   10,
   10
  ],
- "y1_ramp_cash_gap": 95557,
+ "y1_ramp_cash_gap": 101347,
  "uses": {
   "Property purchase (placeholder, depends on city)": 650000,
   "Renovation: fire alarm, sprinklers if required, accessibility, baths": 150000,
-  "Furniture, beds, kitchen, equipment": 40000,
+  "Furniture, beds, kitchen, equipment, emergency call system": 50000,
   "Pre-opening payroll, hiring, training, administrator course": 25000,
   "Legal, accounting, licensing, insurance deposits": 15000,
   "Working capital (cash cushion, about 6 months)": 150000
  },
- "uses_total": 1030000,
+ "uses_total": 1040000,
  "sources": {
-  "Owner equity (20%)": 206000,
-  "SBA 504 or 7(a) bank loan": 494400,
-  "PIDA Small Business First (if the county says a care home qualifies)": 329600
+  "Owner equity (20%)": 208000,
+  "SBA 504 or 7(a) bank loan": 499200,
+  "PIDA Small Business First (if the county says a care home qualifies)": 332800
  }
 }
