@@ -1,9 +1,9 @@
 # HofR versions: SoFyre, Throw Hands, Mute, Night Driving Glasses (2026-11-15)
 
-Status: 2026-11-15 four cuts built, QC 5/5 runnable gates met, review page sent to Ralph
-(https://claude.ai/code/artifact/a0960121-0a09-4259-ae7a-0cb0f075b57d, push not available in this session, email sent).
-Waiting on Ralph's OK per cut. Then: Drive "HofR - <Product> BF.mp4" into each product folder, message the hub session
-(session_01Y1Pt3pfP7HcKsjq5xn9T1H). Cost $0.
+Status: DONE 2026-11-15. Ralph OK'd all four (tapped each; Night: "Keep it cut" for the clocks line). In Drive, size = local:
+SoFyre 1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS, Throw Hands 1_4MSUQ_gCUbUTjeO6dltHiC3NfVWFA9Q, Mute 1wlWnsMiaG6g1ruecqopmKvm5YJV2FuUf,
+Night Driving Glasses 1X368oc1chBv8rnLePW-hwFrUFPLhSuXx ("HofR - <Product> BF.mp4" in each product folder). Hub messaged. Cost $0.
+Review page https://claude.ai/code/artifact/a0960121-0a09-4259-ae7a-0cb0f075b57d
 
 Ralph 2026-11-15 (via the hub): "make a HofR versions of cleanwaste and others if they do not exist".
 Drafts: SoFyre Nov 20, Throw Hands Nov 21, Mute Nov 22, Night Driving Glasses Nov 23 (8:47 AM ET).
