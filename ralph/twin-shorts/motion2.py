@@ -169,6 +169,14 @@ def bundle(t, dur):
     return c
 
 
+def text_card(t, dur, a, b="", dark=False):
+    """Kinetic type card for any line: big white words slam in with blur + shake, yellow second line follows."""
+    c = black_bg() if dark else blue_bg()
+    blur_text(c, a, 450, 230 if b else 270, 150 if len(a) <= 9 else (118 if len(a) <= 13 else 92), .05, t, shake=9)
+    if b: blur_text(c, b, 450, 390, 84 if len(b) <= 14 else 64, .4, t, col=YEL, shake=6)
+    return c
+
+
 ANIMS = {"burst": burst, "reveal": reveal, "kinetic120": kinetic120, "particles": particles, "bundle": bundle}
 
 if __name__ == "__main__":

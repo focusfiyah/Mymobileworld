@@ -33,7 +33,9 @@ def font(sz): return ImageFont.truetype(SERIF, sz)
 def shadow_text(img, xy, parts, sz, anchor_center=True):
     """Draw coloured text runs [(text, colour)] centred on xy with a soft dark shadow (premium, not flat)."""
     f = font(sz); d = ImageDraw.Draw(img)
-    tw = sum(d.textlength(t, font=f) for t, _ in parts); x = xy[0] - tw / 2 if anchor_center else xy[0]; y = xy[1]
+    tw = sum(d.textlength(t, font=f) for t, _ in parts)
+    if tw > 900: f = font(int(sz * 900 / tw)); tw = sum(d.textlength(t, font=f) for t, _ in parts)   # stay in the safe zone
+    x = xy[0] - tw / 2 if anchor_center else xy[0]; y = xy[1]
     sh = Image.new("RGBA", img.size, (0, 0, 0, 0)); sd = ImageDraw.Draw(sh); xx = x
     for t, _ in parts: sd.text((xx, y + 4), t, font=f, fill=(0, 0, 0, 200)); xx += d.textlength(t, font=f)
     img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
@@ -123,7 +125,11 @@ def frame(base, t):
     im = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)).convert("RGBA")
     if mode == "split" and seg[3].startswith("card:"):
         im.alpha_composite(ROOM, (0, 0))
-        card = motion2.ANIMS[seg[3][5:]](t - seg[0], seg[1] - seg[0]); k = motion2.eob((t - seg[0]) / 0.35)
+        nm = seg[3][5:]
+        if nm.startswith("text:"):
+            parts = nm[5:].split("|"); card = motion2.text_card(t - seg[0], seg[1] - seg[0], parts[0], parts[1] if len(parts) > 1 else "", dark=len(parts) > 2)
+        else: card = motion2.ANIMS[nm](t - seg[0], seg[1] - seg[0])
+        k = motion2.eob((t - seg[0]) / 0.35)
         cw, ch = int(motion2.CW * (0.9 + 0.1 * k)), int(motion2.CH * (0.9 + 0.1 * k)); card = card.resize((cw, ch), Image.LANCZOS)
         m = Image.new("L", card.size, 0); ImageDraw.Draw(m).rounded_rectangle((0, 0, cw - 1, ch - 1), 22, fill=255); card.putalpha(m)
         sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((540 - cw // 2 + 6, 150 + 16, 540 + cw // 2 + 6, 150 + ch + 16), 22, fill=(0, 0, 0, 110))
@@ -147,6 +153,9 @@ def frame(base, t):
 
 if a.plan:
     _p = json.load(open(a.plan)); PLAN[:] = [tuple(x) for x in _p["plan"]]; POPS[:] = [tuple(x) for x in _p["pops"]]
+    if _p.get("hook"):
+        HOOK2 = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        shadow_text(HOOK2, (540, 400), [(_p["hook"][0], (255, 255, 255))], 112); shadow_text(HOOK2, (540, 520), [(_p["hook"][1], YEL)], 100)
     CARDS.update({n: page_card(n) for n in {s_[3] for s_ in PLAN if s_[3] and not s_[3].startswith(("anim:", "card:"))} if n not in CARDS})
 CHUNKS = chunks()
 cap = cv2.VideoCapture(a.talk); n = int(cap.get(7)); dur = n / FPS
