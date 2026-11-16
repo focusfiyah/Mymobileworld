@@ -7,3 +7,6 @@
 | F2 | Wed 11-18 7 PM | 6afa6589b08e2c515fe430e4 scheduled | 1148478794345584 scheduled | task (turns itself off after) |
 | C1 (slideshow video) | Thu 11-19 7 PM | 6afa6aebb897727a622460a5 scheduled | 1122254857373075 scheduled | no (IG reels only) |
 | C2 (slideshow video) | Fri 11-20 7 PM | 6afa6af481e7dd498882785e scheduled | 1457781845869966 scheduled | no |
+
+## Live
+- 2026-11-15 9:30 PM ET T1: TikTok https://www.tiktok.com/@azariah2244/video/7708591105767509262 · Instagram https://www.instagram.com/reel/DfyP8OpD5TJ/ · Facebook https://www.facebook.com/reel/1140914662230828/ (published true)
