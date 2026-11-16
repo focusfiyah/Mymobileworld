@@ -1,6 +1,6 @@
 # Weekly content batch (Ralph's own: @azariah2244 / Instagram)
 
-Status: 2026-11-15: week 1 built (2 twin Flow kits, 2 faceless videos, 2 carousels), review https://claude.ai/artifact/XzVZhtyLPHpXUafNt2VBdj ; waiting on Ralph's 8 Flow clips and his OK. $0.
+Status: 2026-11-16: week 1 DONE. All 6 approved and in Drive "Content batch week 1 (2026-11-16)" https://drive.google.com/drive/folders/1BxC6wgvkfPysQbD2a9qims6aaa_nFTC8 : T1 + T2 twin (Flow Veo 3.1 Lite, ElevenLabs STS, cards, lo-fi music Mixkit 738 + whooshes), F1 + F2 faceless, C1 + C2 carousels. No singles (Ralph). Cost $0 + 80 Flow credits. Next: week 2 batch; posting only on his OK.
 
 Ralph 2026-11-15: 2 AI twin videos a week, all 3 formats as one weekly batch, first batch mixes kit promos + AI tips. Twin style B (cinematic cards + pop-out words + subtitles) for combined and singles.
 
