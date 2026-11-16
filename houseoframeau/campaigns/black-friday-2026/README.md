@@ -22,7 +22,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 2 | 11-13 | CURRENT - Niagara topper V1 HofR (1H143eRkxHKiDaMcXgawApHYNZLvnK5O1) | 16.5 s | 2026-11-13 v_inbox_file~v2.7707689317360158751 (8:47 run failed, Composio 502; retried on Ralph's "Attempt again" 11:12 AM ET); posted 11:24 AM ET, video 7707692711129664781 (16 s, caption on) |
 | 3 | 11-14 | HofR - Earth Breeze V2 (1c4G0egMPtkDDYdjXyow5MTikFp58V-hZ, in Earth Breeze product folder) | 17.2 s | 2026-11-14 v_inbox_file~v2.7708023589152671775; posted 11:08 AM ET, video 7708059572405013774 (17 s, caption on) |
 | 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | 2026-11-15 v_inbox_file~v2.7708394710104541214; posted 9:18 AM ET, video 7708402318059818271 (18 s, caption on) |
-| 5 | 11-16 | HofR - Cleanwaste BF (1QAa9CXzbHaoOn1mPTQl67mshQHrGYorN; Ralph approved 2026-11-15; replaces Grace cut 1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7) | 29.3 s | |
+| 5 | 11-16 | HofR - Cleanwaste BF (1QAa9CXzbHaoOn1mPTQl67mshQHrGYorN; Ralph approved 2026-11-15; replaces Grace cut 1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7) | 29.3 s | 2026-11-16 v_inbox_file~v2.7708766126267746334 |
 | 6 | 11-17 | SOLD (5 sales): HofR - BodyJ BF (15fRcmJSopUCi5pTJLqPlmjv-iXDcc4p-; Ralph approved 2026-11-15) | 39.3 s | |
 | 7 | 11-18 | SOLD: HofR - PRITECH BF (1hngZ7Iv9ZLut14cbSNFPgVIZWDyCUoch; Ralph approved 2026-11-15) | 25.2 s | |
 | 8 | 11-19 | SOLD: HofR - Vans BF (1iaQsweJaPAGQGssaufmltouVgwBkWQgO; Ralph approved 2026-11-15) | 27.5 s | |
