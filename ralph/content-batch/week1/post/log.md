@@ -5,5 +5,5 @@
 | T2 | Mon 11-16 7 PM | 6afa6580875a0a39e7e2a0fd scheduled | 1014528928364682 scheduled | task trig_018QMMaurYmVvQfrCBhUkAA6 |
 | F1 | Tue 11-17 7 PM | 6afa65860bbbb604a137be79 scheduled | 1166034135845368 scheduled | task trig_018QMMaurYmVvQfrCBhUkAA6 |
 | F2 | Wed 11-18 7 PM | 6afa6589b08e2c515fe430e4 scheduled | 1148478794345584 scheduled | task (turns itself off after) |
-| C1 | Thu 11-19 7 PM | not yet: TikTok refuses the AI label on photo posts | not yet | no (IG reels only) |
-| C2 | Fri 11-20 7 PM | not yet | not yet | no |
+| C1 (slideshow video) | Thu 11-19 7 PM | 6afa6aebb897727a622460a5 scheduled | 1122254857373075 scheduled | no (IG reels only) |
+| C2 (slideshow video) | Fri 11-20 7 PM | 6afa6af481e7dd498882785e scheduled | 1457781845869966 scheduled | no |
