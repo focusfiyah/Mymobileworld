@@ -62,7 +62,7 @@ def kit(week):
             src = HERE / week / "rooms" / key / pk["file"]; im = Image.open(src).convert("RGB"); im.thumbnail((1600, 1600))
             room = f"{key}_room.jpg"; im.save(o / room, quality=90)
             line = s["line"].replace("KIT", "kit")             # Veo spells capitalised keywords letter by letter
-            p = f"{HEAD}\nRoom: he is in {pk['desc']}.\nShot: {ANGLES[s['angle']]}\nHe says, in a warm, clear American male voice at a natural pace, exactly: \"{line}\"\n{TAIL}"
+            p = f"{HEAD}\nRoom: he is in {pk['desc']}.\nShot: {ANGLES[s['angle']]}\nHe says, in a warm, clear American male voice at a quick, upbeat pace with no pauses between sentences, exactly: \"{line}\"\n{TAIL}"
             out.append({"shot": key, "angle": s["angle"], "line": s["line"], "room": room, "room_source": pk["url"], "prompt": p})
             (o / f"prompt_{key}.txt").write_text(p)
         json.dump(out, open(o / "kit.json", "w"), indent=1); print("KIT", t["id"], len(out))
