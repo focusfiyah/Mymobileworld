@@ -70,3 +70,17 @@ hub swaps it into that row. If a HofR version is not OK'd by its date, the Grace
 - session_01Y1Pt3qmH6yuT9rL2KkBeHB: Cleanwaste (Nov 16, urgent), BodyJ, PRITECH V1, Vans V13
 - session_01Y1Pt3riXS4ntdUngip1Hjh: SoFyre, Throw Hands, Mute, Night Glasses
 Days 13-20 are already HofR versions (silent batches A/B).
+
+## TikTok LIVE campaign (moved here 2026-11-17 from session_01Y1Pt3ricPMovk9S9HiVGE5, Ralph's ask)
+TikTok pays $30 for going LIVE on House of Rameau 1 hour on each of 2 days. ONE topic per day, only when Ralph asks
+("Don't give me both today").
+- Day 1 (2026-11-17), Ralph's pick "Black Friday + a short AI segment": "Black Friday is in 10 days: what's worth buying
+  on TikTok Shop, and what to skip" (Black Friday = Fri Nov 27). Run of show: 0-5 open (repeat for new viewers);
+  5-15 gifts I'd buy (3-5 showcase products, pin each, one honest downside); 15-25 skip-it list (fake 90% off, cheap
+  gadgets, no-name chargers); 25-35 viewer requests (who + budget); 35-45 AI segment: show 2 HofR AI videos, how we
+  check label, hands, size; tip pause on 3 frames; free 7-point check in bio (dayoneai.gumroad.com/l/flagcheck), never
+  the paid kit; 45-55 worth it or skip it + 2 anti-scam tips; 55-60 recap top 3, re-pin, "live again tomorrow".
+  Cautions: campaign terms on off-platform links; no unprovable prices; no cure/fix claims; no Grace name, face,
+  scripts or methods.
+- Day 2: only when Ralph asks here. Ask first how day 1 went. Ideas: Black Friday week deals/haul, or a fuller "how we
+  make AI product videos" hour if the AI segment got good comments.
