@@ -15,13 +15,20 @@ PDF or a sales sheet in far fewer tokens than screenshots or raw XML, and can gr
 converts, and prints `MD_OK <out.md> (<bytes>)`. Put the .md next to the job's research, read it, quote from it.
 Python: `from markitdown import MarkItDown; MarkItDown().convert("file.pdf").text_content`.
 
+A Read hook (`scripts/read_guard.py`, in each repo's `.claude/settings.json`) refuses to open a PDF, Word,
+PowerPoint, Excel or EPUB file that md.sh has not converted, and points to the .md once it has. Why: on
+2026-11-17 the Diaspo income and expenses session read a PDF with the Read tool two days after this became the
+standard (Ralph: "Make sure this is a standard rule"). To look at a PDF's layout (a printable we made), run
+`md.sh --look FILE "<reason>"` first. Drive files: download them (`download_file_content`) and convert; Google
+Docs, Sheets and Slides can be read directly.
+
 Done when: the .md exists, `MD_OK` printed, and you have read it (a spot check against the original's first
 page or table, since tables in Word files can lose their header row).
 
 ## Where it falls short (tested 2026-11-15, v0.1.9)
 
-- **Scanned or image-only PDF:** comes out empty; md.sh exits 3 with `MD_EMPTY`. Read those pages as images
-  (Read tool on the PDF, or render pages with LibreOffice/pdftoppm) instead.
+- **Scanned or image-only PDF:** comes out empty; md.sh exits 3 with `MD_EMPTY` (fewer than 5 characters)
+  and the Read hook then lets the PDF be read as page images.
 - **YouTube links:** from the cloud it returns only YouTube's footer links (bot block). Ask Ralph for the file or
   his Gemini app, per the video-watching rule in Mymobileworld CLAUDE.md.
 - **Audio, images:** leave them to `transcribe` (audio) and the Read tool (images). MarkItDown's audio route sends
@@ -40,5 +47,6 @@ page or table, since tables in Word files can lose their header row).
 
 ## Files
 
-- `scripts/md.sh`: install-if-missing + convert + empty-output check.
+- `scripts/md.sh`: install-if-missing + convert + empty-output check; logs each file for the Read hook.
+- `scripts/read_guard.py`: the Read hook (blocks unconverted documents; reminds on Drive reads).
 - `SOURCE.md`: where it came from, licence, version, tests.
