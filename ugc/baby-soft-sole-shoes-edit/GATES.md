@@ -20,9 +20,9 @@ Scope: Grace's own footage edited at full quality from her Drive original, QC'd,
   EVIDENCE: 2026-11-17 qc/v1_6fps.jpg + qc/v1_cuts.jpg viewed; fixed shot 2 start (focus settle, +0.2 s) and shot 6 end (mid-turn, -0.3 s); one room, one pair of hands, all features shown (fold, front, tread, stretch, side, back tab). Blue circle = mirror's own touch button (room, kept). earshot skipped: cut is silent by Grace's brief (she adds music). REMOVED.md written (nothing removed by Ralph/Grace yet)
 - [x] G5: Cut on the review page; Ralph told (push + email); Grace answered on Telegram without ✅/"done"
   EVIDENCE: 2026-11-17 review https://claude.ai/artifact/F1eZaAUogTHkqk6U8Qg5aE (preview copy crf 23, 9.4 MB; HD file out/shoes_v1.mp4 18.0 MB for Drive); push requested; email id 1a1e753941320e60; Telegram group msg 562 (reply to 559)
-- [ ] G6: After Ralph's OK on that exact cut: "CURRENT - Baby Shoes V1.mp4" in the product folder, Drive size = local, nothing loose
-  EVIDENCE: pending
-- [ ] G7: "✅ Baby Soft-Sole Walking Shoes V1 (HD) is done and in Drive: <link>" sent to Ralph on Telegram
-  EVIDENCE: pending
-- [ ] G8: Brain job note + session log written, Active work line removed, brain check prints BRAIN_OK
-  EVIDENCE: pending
+- [x] G6: After Ralph's OK on that exact cut: "CURRENT - Baby Shoes V1.mp4" in the product folder, Drive size = local, nothing loose
+  EVIDENCE: 2026-11-17 Ralph tapped "Approve, upload (Recommended)"; Drive 1g3w6EmvKglpDCPubeHRgWs9fREBxihXW size 18043712 = local out/shoes_v1.mp4; parent 1lp3nAIKOfFgr_21HKoUJ-daDnrtrCF9O; folder holds only Originals + this file
+- [x] G7: "✅ Baby Soft-Sole Walking Shoes V1 (HD) is done and in Drive: <link>" sent to Ralph on Telegram
+  EVIDENCE: 2026-11-17 Ralph private chat msg 567, Grace group msg 568
+- [x] G8: Brain job note + session log written, Active work line removed, brain check prints BRAIN_OK
+  EVIDENCE: 2026-11-17 BRAIN_OK (458 notes, terms found); media.py check MEDIA_OK (tar 1q8v3bKP0IMz5fdrkpXUD-dXVl-avD0pQ, sha256 match)
