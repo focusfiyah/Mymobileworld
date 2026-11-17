@@ -26,9 +26,10 @@
   EVIDENCE: automatic-evidence=v1; definition-sha256=2b329e093faea84bf8976435415523c7d32b0d23e46f1c038cbce88ec7309bd1; exit=0; EXPECT=matched; output-sha256=0cd24234c2760da6954d6ff6db310816b55deddbd6cb64e1c1378676cdd04bfb; output-bytes=10; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/forchics-pheromone-oil; path=7f4fb4b02918/15 entries
 - [x] G7: every product feature in her footage is shown (box, unboxing, label, pump, application, rub-in, glow, hero) [manual: frame sheet proof/cut_sheet.png]
 - [x] G8: REMOVED.md items checked against the cut [manual]
-- [ ] G9: review page published, push + email sent [manual]
-- [ ] G10: Drive upload only after Ralph's OK on this exact cut; Telegram done line after [manual, pending Ralph]
+- [x] G9: review page published, push + email sent [manual]
+- [x] G10: Drive upload only after Ralph's OK on this exact cut; Telegram done line after [manual, pending Ralph]
 
 EVIDENCE G7 2026-11-17: proof/cut_sheet.png shows glow+bottle 0-1.5, box 1.5-3.5, unboxing 3.5-6.5, label 6.5-8.5, pump 8.5-10, application 10-12, rub-in 12-14, glow 14-15.5, hero 15.5-17.5.
 EVIDENCE G8 2026-11-17: bubble gone (G6 BUBBLE_OK), muted (G3), no text (G5).
 NOTE G9 2026-11-17: review page https://claude.ai/code/artifact/1fcd78bd-dde6-49ec-a687-b3721443845f published, email sent (Gmail id 1a1e7535c4233e68); PushNotification not found via ToolSearch this session, so no phone push.
+EVIDENCE G10 2026-11-17: Ralph tapped "Yes, upload it (Recommended)"; Drive file 1yTTb5zlq1vIHJOmbHjzIALlLAV7q1nI2 "CURRENT - FORCHICS V1.mp4" size 23913010 = local; Telegram done line sent to Ralph (ok).
