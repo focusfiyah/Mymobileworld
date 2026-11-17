@@ -8,6 +8,9 @@
   EVIDENCE: 2026-11-17 6 fps sheet + cut frames viewed; earshot skipped: the cut is silent by Grace's brief (she adds music in TikTok); REMOVED.md empty (round 1)
 - [x] G4: (manual) Cut on a review page, Ralph told (push + email + Telegram line, no ✅)
   EVIDENCE: 2026-11-17 review https://claude.ai/code/artifact/999afddf-aa40-4f29-939e-7a59769996ab; Telegram msg 563; email 1a1e7546393fb185; push tool not found this session
-- [ ] G5: (manual) After Ralph's OK on that exact cut: "CURRENT - Bellavita V1.mp4" in the product folder, Drive size = local size
-- [ ] G6: (manual) "✅ Bellavita Mini Perfume Gift Set V1 (HD) is done and in Drive: <link>" sent to Ralph on Telegram
-- [ ] G7: (manual) Brain job note + session log written, brain check prints BRAIN_OK
+- [x] G5: (manual) After Ralph's OK on that exact cut: "CURRENT - Bellavita V1.mp4" in the product folder, Drive size = local size
+  EVIDENCE: 2026-11-17 Ralph tapped "Approve, upload (Recommended)"; Drive 1PVfVPkyAEWu5GfH5idE53G7dyNrTfkt7, 20172939 B = local
+- [x] G6: (manual) "✅ Bellavita Mini Perfume Gift Set V1 (HD) is done and in Drive: <link>" sent to Ralph on Telegram
+  EVIDENCE: 2026-11-17 Telegram to Ralph msg 565
+- [x] G7: (manual) Brain job note + session log written, brain check prints BRAIN_OK
+  EVIDENCE: 2026-11-17 vault 53e47da (job note, session log, Jobs.md row, Index.md); check.py: no line about this job; the 3 remaining BRAIN_FAIL lines are other sessions' notes (WARSUN X608 Flashlight, Baby Soft-Sole Walking Shoes)

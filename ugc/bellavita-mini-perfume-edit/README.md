@@ -1,6 +1,6 @@
 # Bellavita Mini Perfume Gift Set (Grace edit, 2026-11-16)
 
-Status: V1 cut ready for Ralph's review, $0 (2026-11-17). 15.2 s, 9 shots, silent, from Grace's original. Review https://claude.ai/code/artifact/999afddf-aa40-4f29-939e-7a59769996ab . Next: Ralph's OK -> Drive "CURRENT - Bellavita V1.mp4" -> "✅ Bellavita Mini Perfume Gift Set V1 (HD) is done and in Drive" to Ralph.
+Status: DONE 2026-11-17, $0. Ralph tapped "Approve, upload (Recommended)". Drive "CURRENT - Bellavita V1.mp4" 1PVfVPkyAEWu5GfH5idE53G7dyNrTfkt7 (20,172,939 B = local) in https://drive.google.com/drive/folders/1KLpg9VzdSuPwUt9NM7RDZKlmOOU5kapn . Review https://claude.ai/code/artifact/999afddf-aa40-4f29-939e-7a59769996ab . ✅ Telegram sent to Ralph.
 - Product: Bellavita Luxury Unisex Mini Perfume Gift Set, 4 Best Selling Fragrances for Women & Men, Travel Size Perfume Set (Super Brand Day).
 - Request: Grace, Telegram group -5234107715 msg 552 (asked for a Drive folder for her ORIGINAL videos for an edit).
 - Drive: https://drive.google.com/drive/folders/1KLpg9VzdSuPwUt9NM7RDZKlmOOU5kapn (anyone-with-link editor), Originals 15_Pg9_WQsMCTgV5HLfVWczqa8JN3bjNO.
