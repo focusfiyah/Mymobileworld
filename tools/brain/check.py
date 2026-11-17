@@ -89,6 +89,12 @@ def main():
     elif a.session and a.session in notes.get(active, ""):
         errs.append(f"Brain/Active work.md still lists {a.session}: remove your line when the work is done")
 
+    # 7. short memory fresh (Ralph 2026-11-17)
+    sm = subprocess.run([sys.executable, str(Path(__file__).with_name("short_memory.py")), "--check",
+                         "--vault", str(brain.parent)], capture_output=True, text=True).stdout.strip()
+    if not sm.startswith("SHORT_MEMORY_OK"):
+        errs.append(sm or "short_memory.py --check gave no answer")
+
     print(f"BRAIN_OK ({len(notes)} notes, {len(changed)} changed today, terms found)" if not errs
           else "BRAIN_FAIL:\n  - " + "\n  - ".join(errs))
     return 1 if errs else 0
