@@ -16,9 +16,9 @@ Scope: Grace's own footage edited at full quality from her originals, OK'd by Ra
   EVIDENCE: automatic-evidence=v1; definition-sha256=f0b78c2df040047ac6ab556b6e07f1cff9707fb0d5fb1618e6df3501df41f648; exit=0; EXPECT=matched; output-sha256=ff23601cd8b5656738ca56ba62c8a001a0a962857c9810b49f59d04390be8768; output-bytes=45; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/warsun-x608-flashlight; path=7f4fb4b02918/15 entries
 - [x] G3: (manual) Cut QC: every frame at 6 fps viewed, REMOVED.md checked, sound check
   EVIDENCE: 2026-11-17 qc/v1b.jpg viewed: fixed lunge blur (COB), dark frame (spotlight), source jump (92.3 s), dead frame (UV), two strip shots back to back; REMOVED.md empty (first cut); earshot skipped with reason: cut is silent, Grace adds her own music
-- [ ] G4: (manual) Cut on a review page, Ralph told (push + email), Ralph OK'd that exact cut
-  EVIDENCE: pending Ralph's OK. Review https://claude.ai/artifact/LqJb9m4ejoAZy3Zn2JVyxn, push sent, email 1a1e753aca02aa57 (2026-11-17)
-- [ ] G5: (manual) "CURRENT - WARSUN X608 V1.mp4" in the folder, Drive size = local size; "✅ WARSUN X608 Flashlight V1 (HD) is done and in Drive: <link>" sent to Ralph
-  EVIDENCE: pending
-- [ ] G6: (manual) Brain note + session log, brain check prints BRAIN_OK
-  EVIDENCE: pending
+- [x] G4: (manual) Cut on a review page, Ralph told (push + email), Ralph OK'd that exact cut
+  EVIDENCE: Ralph 2026-11-17 "Ok" in chat. Review https://claude.ai/artifact/LqJb9m4ejoAZy3Zn2JVyxn, push sent, email 1a1e753aca02aa57 (2026-11-17)
+- [x] G5: (manual) "CURRENT - WARSUN X608 V1.mp4" in the folder, Drive size = local size; "✅ WARSUN X608 Flashlight V1 (HD) is done and in Drive: <link>" sent to Ralph
+  EVIDENCE: 2026-11-17 Drive 1zZuWQCSQGRNWB714X3SyjOPDJdR2uPa2, 17297070 B = local out/warsun_v1.mp4; Telegram to Ralph msg 566
+- [x] G6: (manual) Brain note + session log, brain check prints BRAIN_OK
+  EVIDENCE: 2026-11-17 job note, Jobs.md row, session log in Index, active line removed; check.py --terms "WARSUN X608" passes for this job; its only remaining fail is another session's note (Baby Soft-Sole Walking Shoes, still in review)

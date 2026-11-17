@@ -1,0 +1,86 @@
+{
+ "unit": "ugc/warsun-x608-flashlight",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-17",
+   "files": {
+    "ugc/warsun-x608-flashlight/orig/warsun_orig.mov": [
+     89141521,
+     "e943fcee3cefa7647d2900670356b74bf9e9827ce1e6d99a613dfc4d70da88ed"
+    ],
+    "ugc/warsun-x608-flashlight/out/warsun_v1.mp4": [
+     17297070,
+     "1dbcbc93ca73efecce25548a2fceb5dfa43dd0954cc571566fc55b9d1d51efe5"
+    ],
+    "ugc/warsun-x608-flashlight/poster.jpg": [
+     25515,
+     "347667b7929d9891de10a117b8ffaa5c78754ddf9207a8ceace9328c5298a829"
+    ],
+    "ugc/warsun-x608-flashlight/qc/poster.jpg": [
+     25515,
+     "347667b7929d9891de10a117b8ffaa5c78754ddf9207a8ceace9328c5298a829"
+    ],
+    "ugc/warsun-x608-flashlight/qc/sheet_1.jpg": [
+     123953,
+     "7e526ea47f35ef57ff0eb3e8c4c4d14ae122f81e254491513f82f26f7c1cf07b"
+    ],
+    "ugc/warsun-x608-flashlight/qc/sheet_2.jpg": [
+     153257,
+     "e9677efff2a62d1ca8837206a0903fcf018ee4460e027d0897f2008979dfe7a4"
+    ],
+    "ugc/warsun-x608-flashlight/qc/sheet_3.jpg": [
+     194378,
+     "b3e888402e4ef5188caa6d4589a685d0d48236d02f45baae0c97ee872e3bfe2d"
+    ],
+    "ugc/warsun-x608-flashlight/qc/sheet_4.jpg": [
+     273824,
+     "9740302d8b66af8e4400714f10f3069fc62580264bb0341766fb5a8276812c48"
+    ],
+    "ugc/warsun-x608-flashlight/qc/sheet_5.jpg": [
+     351498,
+     "049a296a6fbcec855cc6dc4e20450ed7d5bfa5a019b6b1138478fb6ef7645908"
+    ],
+    "ugc/warsun-x608-flashlight/qc/sheet_6.jpg": [
+     71485,
+     "678e68223bb371eb596f0463a86022c7050d27dddfb02c3759c5640289a629af"
+    ],
+    "ugc/warsun-x608-flashlight/qc/v1_1.jpg": [
+     218910,
+     "f0fc55166ef693d012d5b730021fe922839dd2b4d512904200035f94dc1c1b52"
+    ],
+    "ugc/warsun-x608-flashlight/qc/v1_2.jpg": [
+     264186,
+     "0fc0f66bc5393da39eb768b2ac746db9e404c03069b615f7024d6434dbd02196"
+    ],
+    "ugc/warsun-x608-flashlight/qc/v1b.jpg": [
+     364511,
+     "4a580c9dc4526e6f4e088a34497e179b9c54a6eb3bb058efa04a73ef83b0cfee"
+    ],
+    "ugc/warsun-x608-flashlight/warsun_v1.mp4": [
+     11868350,
+     "fee77999fafbb69ceb2a69f6f739dad86e3c4daea6573e98db560e8ec5cc9bce"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ugc__warsun-x608-flashlight.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "8294af234ad290efef0984c716911ab12414a8773f91f9a8b8c1b43e1bc6acdf",
+     "hosted": "2026-11-17",
+     "drive_id": "1Shx6l0JFBG01I0V1WBfAd41K_T1nuvqs",
+     "drive_folder": "1pbH2ikDTZODO58J9MZTD_o4SIBfmFsmE"
+    },
+    {
+     "name": "ugc__warsun-x608-flashlight.set1.part02.tar",
+     "size": 25391680,
+     "sha256": "f6b3ee67eb779510e5308035cc9fa2db1c02059aa11d438fd90b4d5b1a558e7d",
+     "hosted": "2026-11-17",
+     "drive_id": "1do2kIEuK6XQ10kewOHo0AZBmcYBDTETL",
+     "drive_folder": "1pbH2ikDTZODO58J9MZTD_o4SIBfmFsmE"
+    }
+   ]
+  }
+ ]
+}
