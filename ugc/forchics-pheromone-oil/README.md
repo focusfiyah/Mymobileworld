@@ -1,6 +1,6 @@
 # FORCHICS Pheromone Body Oil (Grace, edit of her own footage)
 
-Status: waiting on Grace's original video (Originals folder empty, checked 2026-11-16). Next: when it lands, read her notes in the Telegram group, edit at full quality, QC, review page for Ralph, Drive only after his OK. Cost so far: $0.
+Status: V1 cut on review page https://claude.ai/code/artifact/1fcd78bd-dde6-49ec-a687-b3721443845f (2026-11-17), waiting on Ralph's OK; then HD file out/FORCHICS_V1.mp4 (23,913,010 B) to Drive as "CURRENT - FORCHICS V1.mp4" + Telegram done line. Original: Drive 1xgVPtAFL-EW2TTasB44P6D3TI6CQIw9f (68,522,088 B). 17.5 s, muted (Grace adds music), blue phone bubble cropped out. Cost: $0. Re-run: python3 cut.py
 
 - Product: FORCHICS Pheromone-Infused Body Oil for Women, sweet almond, argan, jojoba, shea, cocoa butter, vitamin E; pistachio, salted caramel & vanilla scent, 1 fl oz.
 - Request: Grace, Telegram group -5234107715, msg 552, 2026-11-16.
