@@ -10,3 +10,4 @@
 
 ## Live
 - 2026-11-15 9:30 PM ET T1: TikTok https://www.tiktok.com/@azariah2244/video/7708591105767509262 · Instagram https://www.instagram.com/reel/DfyP8OpD5TJ/ · Facebook https://www.facebook.com/reel/1140914662230828/ (published true)
+- 2026-11-16 7 PM ET T2 (faster): Instagram https://www.instagram.com/reel/Df0mTk3FPHR/ · Facebook reel 1517069403582150 published true · TikTok Zernio 6afa87b119ffb880a7e48a77 "publishing" at 7:04 PM (T1 took a few minutes to show)
