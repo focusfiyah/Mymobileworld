@@ -24,7 +24,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 4 | 11-15 | HofR - Boo-Boo Gel BF round 2 (1JktAxW8rvtGgw7WGUU23CSpkuHpZM9Nj, Ralph OK 2026-11-12; old 1xgQlIygPxuJre55hBNHFJUf3HlIHFXtF never send) | 18.5 s | 2026-11-15 v_inbox_file~v2.7708394710104541214; posted 9:18 AM ET, video 7708402318059818271 (18 s, caption on) |
 | 5 | 11-16 | HofR - Cleanwaste BF (1QAa9CXzbHaoOn1mPTQl67mshQHrGYorN; Ralph approved 2026-11-15; replaces Grace cut 1caLc7HSfxyOcTKMe3xa_4st9bn60B0y7) | 29.3 s | 2026-11-16 v_inbox_file~v2.7708766126267746334; posted 10:24 AM ET, video 7708790472931544351 (29 s, caption on) |
 | 6 | 11-17 | SOLD (5 sales): HofR - BodyJ BF (15fRcmJSopUCi5pTJLqPlmjv-iXDcc4p-; Ralph approved 2026-11-15) | 39.3 s | 2026-11-17 v_inbox_file~v2.7709135399691782175; posted 11:00 AM ET, video 7709170806076558605 (39 s, caption on) |
-| 7 | 11-18 | SOLD: HofR - PRITECH BF (1hngZ7Iv9ZLut14cbSNFPgVIZWDyCUoch; Ralph approved 2026-11-15) | 25.2 s | 2026-11-18 v_inbox_file~v2.7709507473870293022 |
+| 7 | 11-18 | SOLD: HofR - PRITECH BF (1hngZ7Iv9ZLut14cbSNFPgVIZWDyCUoch; Ralph approved 2026-11-15) | 25.2 s | 2026-11-18 v_inbox_file~v2.7709507473870293022; posted 11:22 AM ET, video 7709547581822602509 (25 s, caption on) |
 | 8 | 11-19 | SOLD: HofR - Vans BF (1iaQsweJaPAGQGssaufmltouVgwBkWQgO; Ralph approved 2026-11-15) | 27.5 s | |
 | 9 | 11-20 | SOLD: HofR - SoFyre BF (1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS; Ralph approved 2026-11-15) | 17.9 s | |
 | 10 | 11-21 | SOLD: HofR - Throw Hands BF (1_4MSUQ_gCUbUTjeO6dltHiC3NfVWFA9Q; Ralph approved 2026-11-15) | 29.4 s | |
