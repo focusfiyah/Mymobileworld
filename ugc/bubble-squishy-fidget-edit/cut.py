@@ -1,6 +1,5 @@
-"""Baby Soft-Sole Walking Shoes (Grace edit, 2026-11-16): hard-cut Grace's real footage, 7-20 s, silent
+"""8cm Endless Bubble Popping Squishy Fidget Toy (Grace edit, 2026-11-18): hard-cut Grace's real footage, 7-20 s, silent
 (she adds music herself: group msg 559 "I will have music in the background ensure all aspects of product features show").
-# Source and SEGS set once Grace's original lands (template: baby-soft-sole-shoes-edit).
 # Source and SEGS set once Grace's original lands (template: baby-soft-sole-shoes-edit).
 import subprocess, sys, json, os
 # (start, end) in seconds of Grace's 52 s video, in edit order; one product feature per shot
