@@ -1,6 +1,6 @@
 # WARSUN X608 Ultra Multi-Function Rechargeable Flashlight (Grace edit, 2026-11-16)
 
-Status: DONE 2026-11-17, $0. Ralph OK'd V1 ("Ok"). CURRENT - WARSUN X608 V1.mp4 = Drive 1zZuWQCSQGRNWB714X3SyjOPDJdR2uPa2 (17,297,070 B) in https://drive.google.com/drive/folders/1db1gP5U-Y78MC7d8KhpqBW0a7LTxnuTW ; ✅ Telegram msg 566. Review https://claude.ai/artifact/LqJb9m4ejoAZy3Zn2JVyxn
+Status: V1 DONE 2026-11-17; 2026-11-18 Grace listed it again (group msg 586), so a V2 may come: waiting on new originals in the Originals folder (only the V1 original there, checked 2026-11-18). V1:, $0. Ralph OK'd V1 ("Ok"). CURRENT - WARSUN X608 V1.mp4 = Drive 1zZuWQCSQGRNWB714X3SyjOPDJdR2uPa2 (17,297,070 B) in https://drive.google.com/drive/folders/1db1gP5U-Y78MC7d8KhpqBW0a7LTxnuTW ; ✅ Telegram msg 566. Review https://claude.ai/artifact/LqJb9m4ejoAZy3Zn2JVyxn
 
 - Request: Grace, Telegram group "Blaze22R, Azariah and Grace" (-5234107715) msg 552, 2026-11-16: asked for a Drive folder for her ORIGINAL videos to edit.
 - Not the TINEKO power bank flashlight (ugc/powerbank-flashlight*); different product.
