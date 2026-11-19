@@ -13,3 +13,5 @@
   EVIDENCE: pending
 - [ ] G5: (manual) After OK: CURRENT file in the product folder, Drive size = local size, nothing loose; one ✅ done line to Ralph and in the group (reply to msg 586)
   EVIDENCE: pending
+- [ ] G6: (manual, only if Grace talks on camera) Rule "No gaps in Grace's own talking edits" (Ralph 2026-11-19): pauses > 0.3 s trimmed to ~0.12-0.15 s, first word within ~0.1 s, no dead air at the end, voice at normal speed, her clip order kept; longest silence <= 0.25 s measured and shown on the review page. If she does not talk, record "N/A, no talking".
+  EVIDENCE: pending
