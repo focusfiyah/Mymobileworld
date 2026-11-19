@@ -8,3 +8,4 @@ Status: waiting on Grace's original video (Originals folder empty, checked 2026-
 - On Ralph's OK: upload as "CURRENT - LGXNDS V2.mp4" (the AI ad V1 is a different video, ask Ralph whether it stays CURRENT or moves to Older versions).
 - Done message: one ✅ line to Ralph + group reply to msg 586.
 - Oracles: check.py NAME LO HI (size, silent, length, no black), cuts.py (copied from kids-knife-set-edit, adapt to this cut's plan).
+- If her footage has her talking on camera (rule "No gaps in Grace's own talking edits", Ralph 2026-11-19): pauses > 0.3 s trimmed to ~0.12-0.15 s, first word within ~0.1 s, no dead air at the end, normal speed, her clip order kept; longest silence per cut <= 0.25 s shown on the review page (then the cut keeps her audio, not silent).

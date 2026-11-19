@@ -14,3 +14,4 @@
 - [ ] G6: (manual) Cut on the review page; Ralph told by push + email
 - [ ] G7: (manual) After Ralph's OK on that exact cut: CURRENT in Drive (size matches local), older files in Older versions, ONE "✅ ... done and in Drive" line to Ralph and in the group (reply to msg 586)
 - [ ] G8: (manual) Brain job note + session log, Active work line removed, brain check prints BRAIN_OK; media packed (MEDIA_OK)
+- [ ] G9: (manual) If she talks on camera: longest silence in the cut <= 0.25 s (silencedetect), first word within 0.1 s, no dead air at the end, number shown on the review page; else marked not applicable with the reason
