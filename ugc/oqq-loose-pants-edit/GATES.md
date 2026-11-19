@@ -13,6 +13,7 @@ Scope: Grace's own footage edited at full quality from her Drive original, QC'd,
 - [ ] G3b: V1 has every planned cut, no stray or flash frame, mean brightness at least 110
   CHECK: python3 cuts.py v1
   EXPECT: CUTS_OK
+- [ ] G3c: If Grace talks on camera: every pause between her lines closed (silence > 0.3 s cut to ~0.12-0.15 s, first word within ~0.1 s, no dead air at the end, normal speed, her clip order kept), longest silence <= 0.25 s measured and shown on the review page; if she does not talk, recorded as not applicable (rule "No gaps in Grace's own talking edits", 2026-11-19)
 - [ ] G4: Every shot viewed on a frame sheet + frames around each cut; same hands/room per shot, REMOVED.md and last notes checked; earshot sound check run or skipped with reason
 - [ ] G5: Cut on the review page; Ralph told (push + email); Grace answered on Telegram without ✅/"done"
 - [ ] G6: After Ralph's OK on that exact cut: "CURRENT - OQQ pants Grace edit V1.mp4" in the product folder, Drive size = local, nothing loose
