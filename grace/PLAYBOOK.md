@@ -136,6 +136,7 @@ products follow the same rules.
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
   Fashion default 30–45s. Category median is a good length check (Carpe: 35s).
 - Cut every pause, never clip a word; end on a visual beat, not the last syllable.
+- **Grace's own on-camera takes too (Ralph 2026-11-19, Wag Bag):** close every gap between her lines and takes to a short breath (silence over 0.3 s trimmed to about 0.12-0.15 s), first word within ~0.1 s, no dead air at the end, her voice at normal speed, her clip order kept; measure the longest silence in every cut (<= 0.25 s) and show it on the review page. Full rule: CLAUDE.md "No gaps in Grace's own talking edits".
 - Retention: a steep drop in the first 1–2s = the hook failed; a slow slide mid-video = a beat runs too long.
 - Say numbers as words in the script ("twenty-five percent") so captions and timing match.
 - Real takes: film hook / body / CTA as separate files, 3–4 takes each, original HD files; keep body takes whole.
