@@ -20,9 +20,9 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
   EVIDENCE: 2026-11-19 qc/*_1fps.jpg + first-second strips + seam strips viewed; fixed stray frames (takes now start on her clip's first frame, source cuts at scene 0.28), clipped "anywhere"/"everyone", grey_v2 hook swapped to the clean 0:23 take; medium.en transcripts qc/tr_* show every line whole; earshot critique qc/critique_*.txt: loudness/sync ok, "no music" + "hit density" skipped (Grace adds music; hits = box rustle under voice); REMOVED.md empty (nothing removed yet). Known: grey CTA takes open on her top ~0.8 s (flagged to Ralph)
 - [x] G6: Review page with the 3 cuts stacked; Ralph told (push + email) incl. flagged claims (Pentagon 90 days, "sold out before", the word "shitting"); Grace answered without ✅
   EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ ; push requested; email 1a1f1579512599c8; Grace group msg 601 (questions, no ✅), Ralph private msg 602
-- [ ] G7: After Ralph's OK on each exact cut: CURRENT files in the Wag Bag product folder in "Grace Tiktok assets", Drive size = local, older versions moved per rule
-  EVIDENCE:
-- [ ] G8: One "✅ ... is done and in Drive: <link>" per version to Ralph and in the group (reply to 598)
-  EVIDENCE:
-- [ ] G9: Brain job note + session log, Active work line removed, BRAIN_OK; media packed MEDIA_OK
-  EVIDENCE:
+- [x] G7: After Ralph's OK on each exact cut: CURRENT files in the Wag Bag product folder in "Grace Tiktok assets", Drive size = local, older versions moved per rule
+  EVIDENCE: 2026-11-19 Ralph tapped "Approve all 3, upload (Recommended)" + "Keep as filmed (Recommended)". WagBag Final Edits 1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8: CURRENT - Wag Bag Nov Grey V1.mp4 1uMaNE5j8Wx8AjrZAZtX6I9urI2vKt2Hd 106,510,481 B, Grey V2 186_uvO-nwLyHyi0efMVdp4kSVwQlUPmq 91,030,488 B, Black V1 1b730bVM6wTWwOUYS-AeAMTti7yyJaKGw 69,024,085 B, each = local drive copy (crf 20 of the checked final; host.py verified sha256 of the hosted copy). Nothing replaced (October V1-V5 and the toilet kit are different videos), so nothing moved
+- [x] G8: One "✅ ... is done and in Drive: <link>" per version to Ralph and in the group (reply to 598)
+  EVIDENCE: 2026-11-19 Ralph private 607 / 609 / 611, group 608 / 610 / 612 (Grey V1, Grey V2, Black V1)
+- [x] G9: Brain job note + session log, Active work line removed, BRAIN_OK; media packed MEDIA_OK
+  EVIDENCE: 2026-11-19 Brain/Jobs/Wag Bag.md + Sessions/2026-11-19 Wag Bag November edits.md + Index + Jobs.md row, Active line removed (vault pushed). brain check: every term found, only failures are 4 broken links in other live sessions' notes (Grande, Bellavita, EverTrue), not touched. MEDIA_OK (tar 1r-e6D9cr76lRphcJZNTPXcut77CN5Wax, sha256 match)
