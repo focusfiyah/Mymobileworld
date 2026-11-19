@@ -12,6 +12,7 @@ Scope: Grace's own footage edited at full quality from her Drive original, QC'd,
 - [ ] G3b: V1 has every planned cut, no stray or flash frame, mean brightness at least 110
   CHECK: python3 cuts.py v1
   EXPECT: CUTS_OK
+- [ ] G3c: If Grace talks on camera (rule "No gaps in Grace's own talking edits", 2026-11-19): pauses >0.3 s trimmed to ~0.12-0.15 s, first word within ~0.1 s, no dead air at the end, voice at normal speed, her clip order kept, longest silence <= 0.25 s shown on the review page; N/A with reason if she does not talk
 - [ ] G4: Every shot viewed on a frame sheet + frames around each cut; same hands/room per shot; every feature shown (pear-cut double stones, floating setting, gold tone, lightweight/on the ear); REMOVED.md and last notes checked; earshot run or skipped with reason
 - [ ] G5: Cut on the review page; Ralph told (push + email); Grace answered on Telegram without ✅/"done"
 - [ ] G6: After Ralph's OK on that exact cut: "CURRENT - Noa Studs V1.mp4" in the product folder, Drive size = local, nothing loose
