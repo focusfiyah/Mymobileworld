@@ -31,6 +31,7 @@ def one(n):
         t += dur
     o = subprocess.run(["ffmpeg", "-v", "error", "-i", str(p), "-vf", "scale=270:480,select='gt(scene,0.35)',metadata=print:file=-", "-an", "-f", "null", "-"], capture_output=True, text=True).stdout
     sc = [float(x) for x in re.findall(r"pts_time:([\d.]+)", o)]
+    ok += [float(x) for x in next(v for v in json.loads((J / "videos.json").read_text())["videos"] if v["name"] == n).get("scene_ok", [])]   # looked at by eye, noted in videos.json
     stray = [round(x, 2) for x in sc if not any(abs(x - y) <= 0.1 for y in ok)]
     if stray: errs.append(f"unplanned scene changes at {stray}")
     return errs, f"{d:.2f}s I={I} TP={tp} scenes={len(sc)}"
@@ -40,6 +41,12 @@ if sys.argv[1] == "all":
     for n in names:
         errs, info = one(n); print(n, "OK" if not errs else "FAIL " + "; ".join(errs), info); bad += bool(errs)
     print("ALL_CUTS_OK" if not bad else "CUTS_FAIL"); sys.exit(1 if bad else 0)
+if sys.argv[1] == "gaps":   # V2 (Grace 2026-11-19: no gaps between her lines): gapmeter.py on every cut
+    bad = 0
+    for n in names:
+        r = subprocess.run([sys.executable, str(J / "gapmeter.py"), str(O / f"wagbag_{n}.mp4"), "0.25"], capture_output=True, text=True).stdout
+        print(r.strip().splitlines()[0][:150]); bad += "GAPS_OK" not in r
+    print("GAPS_ALL_OK" if not bad else "GAPS_FAIL"); sys.exit(1 if bad else 0)
 if sys.argv[1] == "distinct":
     used, clash = {}, []
     for n in names:

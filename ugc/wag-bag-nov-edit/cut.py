@@ -56,6 +56,84 @@ def pieces(t):
     out = snap(t["src"], out)
     return [p for p in out if p[1] - p[0] > 0.12 and any(p[0] - 0.25 <= w["start"] <= p[1] for w in ws)]
 
+BREATH = 0.06   # air kept on each side of a closed gap: ~0.12 s pause (Grace 2026-11-19: no gaps between her lines)
+TGAP = 0.25     # any quiet run longer than this is closed (Grace 2026-11-19; target longest gap <= 0.25 s)
+
+def env(src, a, b):
+    """10 ms RMS envelope in dB of the source audio between a and b"""
+    import numpy as np
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-ss", f"{a}", "-t", f"{b - a}", "-i", str(SRC / f"{src}.mov"), "-vn",
+                          "-ac", "1", "-ar", "16000", "-af", "highpass=f=120", "-f", "s16le", "-"], capture_output=True).stdout
+    x = np.frombuffer(raw, np.int16).astype(np.float32) / 32768
+    n = len(x) // 160
+    return 20 * np.log10(np.sqrt((x[:n * 160].reshape(n, 160) ** 2).mean(1)) + 1e-6)
+
+def edges(src, p, q):
+    """where her voice really stops after word p and starts before word q (Whisper word ends drift):
+    threshold = floor + 35% of (peak - floor) over both words; returns (speech_end, speech_start)"""
+    import numpy as np
+    lo = p["start"]; db = env(src, lo, q["end"])
+    if len(db) < 10: return p["end"], q["start"]
+    fl, pk = np.percentile(db, 10), np.percentile(db, 95); thr = fl + 0.35 * (pk - fl); low = db < thr
+    f = lambda t: min(len(db) - 1, max(0, int(round((t - lo) / 0.01))))
+    i = f(p["end"] - 0.15); stop = f(p["end"] + 0.30)
+    while i < stop and not low[i:i + 5].all(): i += 1
+    j = f(q["start"] + 0.15); floor_ = f(q["start"] - 0.30)
+    while j > floor_ and not low[max(0, j - 5):j].all(): j -= 1
+    return lo + i * 0.01, lo + j * 0.01
+
+def take_words(t):
+    """her words inside this take only: never a word from the neighbouring clip"""
+    cs = src_cuts(t["src"])
+    a = max([t["a"]] + [c for c in cs if t["a"] < c <= t["a"] + 0.6])
+    b = min([t["b"]] + [c for c in cs if t["b"] - 0.6 <= c < t["b"]])
+    return [w for w in words(t["src"] + "_medfull") if w["start"] >= a - 0.05 and w["start"] < b - 0.30], a, b
+
+KEEP_END, KEEP_START = 0.10, 0.06   # air kept after her voice drops / before it starts (soft word ends stay whole)
+
+def tight(t):
+    """V2 (2026-11-19, Grace: no gaps between her lines). Every cut point comes from the audio level of the take:
+    her voice = 10 ms RMS above floor + FRAC x (peak - floor); a quiet run longer than TGAP closes to KEEP_END + KEEP_START.
+    Whisper words only bound the take (no word of the next clip); their timings drift into silence, so they never decide a cut."""
+    import numpy as np
+    if t.get("whole") and not t.get("tighten"): return snap(t["src"], [(t["a"], t["b"])])
+    if t.get("pieces"):   # set by hand from the audio level (the demo: one piece per action she names)
+        return apply_drops(t, [tuple(p) for p in t["pieces"]])
+    ws, A, B = take_words(t)
+    if not ws: return []
+    B = min(B, ws[-1]["end"] + 0.8)
+    db = env(t["src"], A, B); db = np.convolve(db, np.ones(3) / 3, "same")
+    fl, pk = np.percentile(db, 10), np.percentile(db, 97)
+    voice = db > fl + t.get("frac", 0.18) * (pk - fl)
+    T = lambda k: A + k * 0.01
+    idx = np.flatnonzero(voice)
+    if not len(idx): return []
+    a = max(A, T(idx[0]) - KEEP_START)
+    end = min(B, T(idx[-1] + 1) + KEEP_END + 0.04)
+    mids = [(w["start"] + w["end"]) / 2 for w in ws]
+    out, k, n = [], idx[0], len(voice)
+    while k < idx[-1]:
+        if voice[k]: k += 1; continue
+        st = k
+        while k < n and not voice[k]: k += 1
+        if (k - st) * 0.01 > TGAP:
+            c0, c1 = T(st) + KEEP_END, T(k) - KEEP_START
+            out.append((a, c0)); a = c1
+    out.append((a, end))
+    return apply_drops(t, out)
+
+def apply_drops(t, out):
+    for x, y in t.get("drop", []):   # quiet runs the gap meter found in a render, mapped back to source time (close_gaps.py)
+        nxt = []
+        for p, q in out:
+            if y <= p or x >= q: nxt.append((p, q)); continue
+            if x > p: nxt.append((p, x))
+            if y < q: nxt.append((y, q))
+        out = nxt
+    starts_ = [w["start"] for w in words(t["src"] + "_medfull")]
+    # no sliver: a piece under 0.3 s with no word starting in it is rustle between drops, and would flash on screen
+    return [p for p in snap(t["src"], out) if p[1] - p[0] > 0.3 or (p[1] - p[0] > 0.12 and any(p[0] - 0.05 <= w <= p[1] for w in starts_))]
+
 def run(cmd):
     r = subprocess.run(cmd, capture_output=True, text=True)
     if r.returncode: sys.exit(r.stderr[-2000:])
@@ -85,7 +163,7 @@ def segment(v, k, src, a, b, z):
 def build(v):
     segs, k, n = [], 0, 0
     for t in v["takes"]:
-        for a, b in pieces(t):
+        for a, b in (tight(t) if v.get("tight", True) else pieces(t)):
             z = v["zoom"] * (v["punch"] if (n % 2 and not t.get("nopunch")) else 1.0)   # alternate punch-in on jump cuts
             r = segment(v, k, t["src"], a, b, z)
             segs.append({"src": t["src"], "a": round(a, 3), "b": round(b, 3), "zoom": round(z, 3), "file": str(r[0] if isinstance(r, tuple) else r)})

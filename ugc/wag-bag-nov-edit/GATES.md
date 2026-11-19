@@ -26,3 +26,19 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
   EVIDENCE: 2026-11-19 Ralph private 607 / 609 / 611, group 608 / 610 / 612 (Grey V1, Grey V2, Black V1)
 - [x] G9: Brain job note + session log, Active work line removed, BRAIN_OK; media packed MEDIA_OK
   EVIDENCE: 2026-11-19 Brain/Jobs/Wag Bag.md + Sessions/2026-11-19 Wag Bag November edits.md + Index + Jobs.md row, Active line removed (vault pushed). brain check: every term found, only failures are 4 broken links in other live sessions' notes (Grande, Bellavita, EverTrue), not touched. MEDIA_OK (tar 1r-e6D9cr76lRphcJZNTPXcut77CN5Wax, sha256 match)
+
+## Round 2 (V2): close the gaps (Ralph 2026-11-19 ~03:40 UTC, relayed: "Grace lets me know that you are leaving gaps in between the conversations")
+- [x] G10: Every V2 cut has no gap between her lines: lead <= 0.15 s, tail <= 0.35 s, no quiet run over 0.25 s (audio meter), her voice at 1.0x
+  CHECK: python3 check.py gaps
+  EXPECT: GAPS_ALL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=a9e3551a3b0f82ad82b0fa5649f3f33cd62a5e3d89d4442909a5c7a263d21684; exit=0; EXPECT=matched; output-sha256=61cb6da7d336272f62acc736a1e43e19c390915ad0f56be0765a81ca8b45bb44; output-bytes=465; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G11: V2 cuts still pass the round-1 checks (size, voice, loudness, no stray frame, length as planned) and stay distinct
+  CHECK: python3 check.py all && python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=833d187dd76fd03917f5a1afc3dafe7f84a5331aebf48b0b3caf287a54daac60; exit=0; EXPECT=matched; output-sha256=c5a78dc2a6cb4d2727c897e94427c978a31a7bbf213b7afa8bfd49e413197c17; output-bytes=154; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G12: Every line still whole in each V2 cut (re-transcribed, compared with V1), clip order and lines unchanged, frame sheets looked at
+  EVIDENCE: 2026-11-19 qc/tr2_* (medium.en) show every line of V1 in the same order; grey V1 CTA mumble ("I'll link it below in that orange cart") is in her source the same way (qc/tr_cta_src). qc/*_v2_2fps.jpg looked at: right shirt, demo = rip/place/sit/seal, no flash. Black V1 opening scene change = her own box swing (videos.json scene_ok note)
+- [x] G13: V2 review page with before/after gap numbers; Ralph told (push + email)
+  EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 3 (round 2 on top, table before/after); push requested; email 1a1f2027f0422e79
+- [ ] G14: After Ralph's OK: V2 files CURRENT in WagBag Final Edits, V1 files renamed "v1 (2026-11-19)" in Older versions, sizes match; one ✅ per version to Ralph and the group (reply 598)
+  EVIDENCE:

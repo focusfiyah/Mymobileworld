@@ -3,32 +3,74 @@
  "segs": [
   {
    "src": "wb1",
-   "a": 208.259,
-   "b": 226.627,
+   "a": 208.521,
+   "b": 215.491,
    "zoom": 1.02,
    "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_00.mov"
   },
   {
-   "src": "wb3",
-   "a": 86.465,
-   "b": 95.031,
+   "src": "wb1",
+   "a": 215.62,
+   "b": 221.341,
    "zoom": 1.112,
    "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_01.mov"
   },
   {
-   "src": "wb3",
-   "a": 96.3,
-   "b": 104.85,
+   "src": "wb1",
+   "a": 221.471,
+   "b": 223.821,
    "zoom": 1.02,
    "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_02.mov"
   },
   {
-   "src": "wb4",
-   "a": 48.062,
-   "b": 62.548,
+   "src": "wb1",
+   "a": 223.991,
+   "b": 226.621,
    "zoom": 1.112,
    "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_03.mov"
+  },
+  {
+   "src": "wb3",
+   "a": 86.487,
+   "b": 92.307,
+   "zoom": 1.02,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_04.mov"
+  },
+  {
+   "src": "wb3",
+   "a": 92.506,
+   "b": 94.897,
+   "zoom": 1.112,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_05.mov"
+  },
+  {
+   "src": "wb3",
+   "a": 96.479,
+   "b": 104.85,
+   "zoom": 1.02,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_06.mov"
+  },
+  {
+   "src": "wb4",
+   "a": 48.294,
+   "b": 56.877,
+   "zoom": 1.112,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_07.mov"
+  },
+  {
+   "src": "wb4",
+   "a": 57.226,
+   "b": 59.195,
+   "zoom": 1.02,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_08.mov"
+  },
+  {
+   "src": "wb4",
+   "a": 59.394,
+   "b": 62.634,
+   "zoom": 1.112,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/black_v1_09.mov"
   }
  ],
- "expected": 49.967
+ "expected": 48.033
 }
