@@ -1,6 +1,6 @@
 # Cleanwaste Wag Bag November edits (Grace's own footage, 2026-11-19)
 
-Status: round 1 on the review page (https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ), waiting on Ralph's OK per cut and Grace's answers (voice kept or silent, length; group msg 601). $0. Nothing in Drive yet.
+Status: round 1 on the review page (https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ), waiting on Ralph's OK per cut. Grace answered (msgs 603-605): voice kept, no music, as long as she talks, never reorder clips (1,2,3,4 / 1,3,4); her script in 605 (her written CTA "It's linked below."; takes say "...orange cart", kept as filmed, flagged). Replied 606. $0. Nothing in Drive yet.
 - Request: Grace, Telegram group -5234107715 msg 598: 3 edits now (total 10 later): 2 grey shirt (one WITH WagBag2, one only 1,3,4), 1 black shirt.
 - Source: Drive "November Wag Bag Assets" 1XFgvGUCgiOur-NgC80uUl82dap__y2pY (in her Wag Bag folder 1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8). Download: drive.usercontent.google.com/download?id=<id>&export=download&confirm=t into orig/wb1..wb4.mov. wb1 1CcgFRQmh4GYoG9TECTH22bdg7gPqqfF6 (hook+pain, 228 s), wb2 13US1PGtTIscgEC0QSceymt2UPu6lLJfB (demo, grey only, 14.6 s), wb3 1G50X1qK93rWtdLlQvv8JS8mmICqtuthn (powder/gel + 12 or 50 box, 126 s), wb4 1CX2A5b6T6Y69H1SX8MX8f6kckss2OJCX (sold out / Pentagon / orange cart, 81 s). All HEVC 1080x1920 30 fps, she talks on camera.
 - Each file = many takes joined as separate clips. Shirt: grey first, black after (wb1 grey < 126.8 s, wb3 grey < 65.3, wb4 grey < 32.25).

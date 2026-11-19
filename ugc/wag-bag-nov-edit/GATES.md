@@ -6,8 +6,8 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
 
 - [x] G1: All 4 originals downloaded at full size (local bytes = Drive bytes), 1080x1920 HEVC
   EVIDENCE: 2026-11-19 wb1 206,925,709 / wb2 13,996,041 / wb3 116,006,552 / wb4 72,136,612 B = Drive sizes; all 1080x1920 30 fps HEVC with AAC audio
-- [ ] G2: Grace's open questions (voice kept or silent, length) answered by her on Telegram
-  EVIDENCE:
+- [x] G2: Grace's open questions (voice kept or silent, length) answered by her on Telegram
+  EVIDENCE: 2026-11-19 group msgs 603-605 (relayed by session_01Y1Pt3ss5QMagk83NH6Jmvo): "Keep my voice and no music", length "As long as I'm talking", keep clip order 1,2,3,4 / 1,3,4, never reorder; her script in msg 605 (CTA written "It's linked below."). Replied msg 606
 - [x] G3: All 3 cuts are 1080x1920, the agreed length, within 0.15 s of plan, no black frames, audio as agreed
   CHECK: python3 check.py all
   EXPECT: ALL_CUTS_OK
