@@ -39,6 +39,6 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
 - [x] G12: Every line still whole in each V2 cut (re-transcribed, compared with V1), clip order and lines unchanged, frame sheets looked at
   EVIDENCE: 2026-11-19 qc/tr2_* (medium.en) show every line of V1 in the same order; grey V1 CTA mumble ("I'll link it below in that orange cart") is in her source the same way (qc/tr_cta_src). qc/*_v2_2fps.jpg looked at: right shirt, demo = rip/place/sit/seal, no flash. Black V1 opening scene change = her own box swing (videos.json scene_ok note)
 - [x] G13: V2 review page with before/after gap numbers; Ralph told (push + email)
-  EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 3 (round 2 on top, table before/after); push requested; email 1a1f2027f0422e79
-- [ ] G14: After Ralph's OK: V2 files CURRENT in WagBag Final Edits, V1 files renamed "v1 (2026-11-19)" in Older versions, sizes match; one ✅ per version to Ralph and the group (reply 598)
+  EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 4 (Black V2 only after the scope change, before/after table); push requested; emails 1a1f2027f0422e79 (all three, superseded) + 1a1f204409698eeb (black only); hub session told
+- [ ] G14: After Ralph's OK: "CURRENT - Wag Bag Nov Black V2.mp4" in WagBag Final Edits, Black V1 renamed "Wag Bag Nov Black V1 (2026-11-19).mp4" in Older versions, size matches; one ✅ to Ralph and the group (reply 598). Scope (Ralph ~03:50 UTC, relayed): only the black video is redone; Grace edited the grey ones herself, so grey files stay untouched
   EVIDENCE:
