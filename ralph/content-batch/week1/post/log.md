@@ -13,3 +13,4 @@
 - 2026-11-16 7 PM ET T2 (faster): Instagram https://www.instagram.com/reel/Df0mTk3FPHR/ · Facebook reel 1517069403582150 published true · TikTok Zernio 6afa87b119ffb880a7e48a77 "publishing" at 7:04 PM (T1 took a few minutes to show)
 - T2 TikTok confirmed: https://www.tiktok.com/@azariah2244/video/7708924665212767519
 - 2026-11-17 7 PM ET F1: Instagram https://www.instagram.com/reel/Df3LmpHAUCc/ · TikTok https://www.tiktok.com/@azariah2244/video/7709295310744341774 · Facebook scheduled reel 1166034135845368
+- 2026-11-18 7 PM ET F2: Instagram https://www.instagram.com/reel/Df5wVX1DltY/ · TikTok https://www.tiktok.com/@azariah2244/video/7709666189777063181 · Facebook scheduled reel 1148478794345584. Week 1 Instagram task disabled.
