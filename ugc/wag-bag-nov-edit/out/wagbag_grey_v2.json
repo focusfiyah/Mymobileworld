@@ -1,0 +1,41 @@
+{
+ "name": "grey_v2",
+ "segs": [
+  {
+   "src": "wb1",
+   "a": 23.582,
+   "b": 32.538,
+   "zoom": 1.04,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/grey_v2_00.mov"
+  },
+  {
+   "src": "wb1",
+   "a": 33.726,
+   "b": 43.146,
+   "zoom": 1.165,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/grey_v2_01.mov"
+  },
+  {
+   "src": "wb3",
+   "a": 43.114,
+   "b": 53.19,
+   "zoom": 1.04,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/grey_v2_02.mov"
+  },
+  {
+   "src": "wb3",
+   "a": 54.613,
+   "b": 63.0,
+   "zoom": 1.165,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/grey_v2_03.mov"
+  },
+  {
+   "src": "wb4",
+   "a": 0.893,
+   "b": 15.244,
+   "zoom": 1.04,
+   "file": "/home/user/Mymobileworld/ugc/wag-bag-nov-edit/tmp/grey_v2_04.mov"
+  }
+ ],
+ "expected": 51.233
+}
