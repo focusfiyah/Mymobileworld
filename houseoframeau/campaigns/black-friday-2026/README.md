@@ -26,7 +26,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 6 | 11-17 | SOLD (5 sales): HofR - BodyJ BF (15fRcmJSopUCi5pTJLqPlmjv-iXDcc4p-; Ralph approved 2026-11-15) | 39.3 s | 2026-11-17 v_inbox_file~v2.7709135399691782175; posted 11:00 AM ET, video 7709170806076558605 (39 s, caption on) |
 | 7 | 11-18 | SOLD: HofR - PRITECH BF (1hngZ7Iv9ZLut14cbSNFPgVIZWDyCUoch; Ralph approved 2026-11-15) | 25.2 s | 2026-11-18 v_inbox_file~v2.7709507473870293022; posted 11:22 AM ET, video 7709547581822602509 (25 s, caption on) |
 | 8 | 11-19 | SOLD: HofR - Vans BF (1iaQsweJaPAGQGssaufmltouVgwBkWQgO; Ralph approved 2026-11-15) | 27.5 s | 2026-11-19 v_inbox_file~v2.7709878864977119262; posted 11:05 AM ET, video 7709914408469663006 (27 s, caption on) |
-| 9 | 11-20 | SOLD: HofR - SoFyre BF (1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS; Ralph approved 2026-11-15) | 17.9 s | 2026-11-20 v_inbox_file~v2.7710249973396555806 |
+| 9 | 11-20 | SOLD: HofR - SoFyre BF (1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS; Ralph approved 2026-11-15) | 17.9 s | 2026-11-20 v_inbox_file~v2.7710249973396555806; posted 11:36 AM ET, video 7710293311252155661 (17 s, caption on) |
 | 10 | 11-21 | SOLD: HofR - Throw Hands BF (1_4MSUQ_gCUbUTjeO6dltHiC3NfVWFA9Q; Ralph approved 2026-11-15) | 29.4 s | |
 | 11 | 11-22 | SOLD: HofR - Mute Nasal Dilator BF (1wlWnsMiaG6g1ruecqopmKvm5YJV2FuUf; Ralph approved 2026-11-15) | 29.9 s | |
 | 12 | 11-23 | SOLD: HofR - Night Driving Glasses BF (1X368oc1chBv8rnLePW-hwFrUFPLhSuXx; Ralph approved 2026-11-15) | 32.0 s | |
