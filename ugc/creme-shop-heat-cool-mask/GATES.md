@@ -1,10 +1,9 @@
 # Gates: The Crème Shop Heating & Cooling Mask edit (2026-11-18)
 
-- [ ] G1: Cut is 7-20 s, 1080x1920, silent, no black frames, length matches the plan
+- [x] G1: Cut is 7-20 s, 1080x1920, silent, no black frames, length matches the plan
   CHECK: python3 check.py creme 7 20
   EXPECT: CUT_OK creme
-  CWD: ugc/creme-shop-heat-cool-mask
-  EVIDENCE: pending
+  EVIDENCE: automatic-evidence=v1; definition-sha256=23c76c4c4c9559c0a08c6c0efffb5456de11584ba24633873d1598456f65729c; exit=0; EXPECT=matched; output-sha256=2203bca51ade0c4f2160d25e5444a35987d99a1c92e0a5a299b57bd889869393; output-bytes=20; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/creme-shop-heat-cool-mask; path=7f4fb4b02918/15 entries
 - [x] G2: (manual) Cut made from Grace's ORIGINAL in the Originals folder (not Telegram quality), source size/resolution recorded
   EVIDENCE: 2026-11-20 original 1OdUps3QHkHNN0_CqAi-whBEYXasuxSEQ, 67,674,231 B = Drive size, HEVC 1080x1920 30 fps 84.6 s
 - [x] G3: (manual) 4-fps sheet of the final cut viewed: every product feature shown (heating side, cooling side, wash-off and leave-on use, packaging), no blurred/hand-only frames at cut points, real product unaltered, REMOVED.md and last notes checked
