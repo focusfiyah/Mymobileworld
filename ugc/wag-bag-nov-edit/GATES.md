@@ -42,3 +42,23 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
   EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 4 (Black V2 only after the scope change, before/after table); push requested; emails 1a1f2027f0422e79 (all three, superseded) + 1a1f204409698eeb (black only); hub session told
 - [x] G14: After Ralph's OK: "CURRENT - Wag Bag Nov Black V2.mp4" in WagBag Final Edits, Black V1 renamed "Wag Bag Nov Black V1 (2026-11-19).mp4" in Older versions, size matches; one ✅ to Ralph and the group (reply 598). Scope (Ralph ~03:50 UTC, relayed): only the black video is redone; Grace edited the grey ones herself, so grey files stay untouched
   EVIDENCE: 2026-11-19 Ralph tapped "Approve, upload (Recommended)" on Black V2. Drive WagBag Final Edits: CURRENT - Wag Bag Nov Black V2.mp4 10cbzY1_sJ80hcinRGrVk-NSCQuV475So, 65,946,243 B = local drive copy (gapmeter GAPS_OK on it); Black V1 renamed "Wag Bag Nov Black V1 (2026-11-19).mp4" and moved to Older versions 1liz954HDVxBhewTbdgG4JqcGUTI2B-03. Grey files untouched. ✅ Telegram Ralph 613, group 614
+
+## Batch 2: 7 more edits (Grace group msg 626, 2026-11-20: "complete the edits for the remaining videos ... don't use the same three you already used ... no need to use wag bag clip 2 ... make sure the shirt ... matches each edits")
+- [x] G15: 7 new cuts (grey_v3-v5, black_v3-v6), each a different unused WagBag1 intro, no WagBag2, no two with the same body takes
+  CHECK: python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=5b97486201ce443182f73c6d5d64f62c65000b825a3f58e8418aa7bdfaecabbc; exit=0; EXPECT=matched; output-sha256=ed29a59926234dab38a4c18d3c27c5d68a5e9a18998cbea0383fa601b79e3e86; output-bytes=12; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G16: All 7 pass the cut checks (1080x1920, her voice, loudness, no stray frames, length as planned)
+  CHECK: python3 check.py all grey_v3 grey_v4 grey_v5 black_v3 black_v4 black_v5 black_v6
+  EXPECT: ALL_CUTS_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=8bcbbffcd56cc9feb194e7c1e13ebf6f5b903b77c41297f0ddbc9e1182395845; exit=0; EXPECT=matched; output-sha256=045e1030b3200aa4ccc36780e70c666e09439a167502b1dbc4d1c80c501e85b1; output-bytes=317; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G17: No gaps in any of the 7 (lead <= 0.15 s, no quiet run over 0.25 s), voice at 1.0x
+  CHECK: python3 check.py gaps grey_v3 grey_v4 grey_v5 black_v3 black_v4 black_v5 black_v6
+  EXPECT: GAPS_ALL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=775844b995ae4cd59a8669d12b6985e00a870211cb28e6102d8744ecf6c44ed9; exit=0; EXPECT=matched; output-sha256=aad2e3c5833fccc1e5e8fdbb71ee0e9eae8cd5b1fa5fe684c0d484a6f5f6f21b; output-bytes=1069; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G18: Every cut re-transcribed (every line whole, order 1,3,4) and its frame sheet looked at (shirt matches in every shot)
+  EVIDENCE: 2026-11-20 qc/tr2_<name> (medium.en) for all 7: every line present, order 1,3,4. Frame sheets qc/grey_v3_2fps.jpg, greys.jpg, blacks.jpg, fix2.jpg viewed: first pass caught grey_v5 with a black-shirt intro (wb1 106.74 is black; the shirt changes ~1:58), fixed by giving grey_v5 the 0:00 grey intro and black_v5 the 1:46 intro; recheck matched. earshot critique on all 7: loudness/sync fine; "no music" + "hit density" skipped (her voice-only edit, box rustle)
+- [x] G19: Review page with all 7 stacked + gap numbers; Ralph told (push + email); Grace told it is on the way (no ✅)
+  EVIDENCE: 2026-11-20 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 5 (batch 2 on top, table + 7 videos); push requested; email 1a1fafdcc1b7b13d; Grace group 627 (plan) + 631 (count correction), no ✅; hub session told
+- [ ] G20: After Ralph's OK on each exact cut: CURRENT files in WagBag Final Edits (sizes match), one ✅ per version to Ralph and the group (reply 626)
+  EVIDENCE:

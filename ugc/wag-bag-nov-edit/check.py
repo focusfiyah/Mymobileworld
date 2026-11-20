@@ -7,6 +7,7 @@ import subprocess, json, sys, re
 from pathlib import Path
 J = Path(__file__).parent; O = J / "out"; FPS = 30
 names = [v["name"] for v in json.loads((J / "videos.json").read_text())["videos"]]
+if len(sys.argv) > 2 and sys.argv[1] in ("all", "gaps"): names = sys.argv[2:]   # only these cuts (batch 1 files may not be on disk)
 
 def one(n):
     p = O / f"wagbag_{n}.mp4"; plan = json.loads((O / f"wagbag_{n}.json").read_text()); errs = []
@@ -48,11 +49,15 @@ if sys.argv[1] == "gaps":   # V2 (Grace 2026-11-19: no gaps between her lines): 
         print(r.strip().splitlines()[0][:150]); bad += "GAPS_OK" not in r
     print("GAPS_ALL_OK" if not bad else "GAPS_FAIL"); sys.exit(1 if bad else 0)
 if sys.argv[1] == "distinct":
-    used, clash = {}, []
-    for n in names:
-        for s in json.loads((O / f"wagbag_{n}.json").read_text())["segs"]:
-            for m, ss in used.items():
-                for x in ss:
-                    if m != n and x["src"] == s["src"] and min(x["b"], s["b"]) - max(x["a"], s["a"]) > 0: clash.append((n, m, s["src"], s["a"]))
-            used.setdefault(n, []).append(s)
+    # Batch 1: no source second in two cuts. Batch 2 (Grace msg 626) reuses her clip 3/4 takes on purpose, so the rule is:
+    # no intro (WagBag1 take) in two cuts, and no two cuts with the same set of body takes.
+    V = json.loads((J / "videos.json").read_text())["videos"]; clash = []
+    intro = {}; body = {}
+    for v in V:
+        t0 = v["takes"][0]; k = (t0["src"], round(t0["a"], 1))
+        if k in intro: clash.append(("intro", v["name"], intro[k]))
+        intro[k] = v["name"]
+        sig = tuple(sorted((t["src"], round(t["a"], 1)) for t in v["takes"][1:]))
+        if sig in body: clash.append(("body", v["name"], body[sig]))
+        body[sig] = v["name"]
     print("DISTINCT_OK" if not clash else f"CLASH {clash}"); sys.exit(1 if clash else 0)
