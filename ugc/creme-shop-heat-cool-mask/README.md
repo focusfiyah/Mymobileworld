@@ -1,6 +1,6 @@
 # The Crème Shop Heating & Cooling Mask edit (Grace's own footage)
 
-Status: V1 on review page, waiting on Ralph's OK (2026-11-20). $0. Review https://claude.ai/artifact/RzsdPR998pa6djAH2v8LTx (push + email sent). Cut 16.63 s from Grace's original (Drive 1OdUps3QHkHNN0_CqAi-whBEYXasuxSEQ). Re-run: python3 cut.py orig/original.mov. Not in Drive yet.
+Status: DONE 2026-11-20, $0. V1 (HD) cut from Grace's original (Drive 1OdUps3QHkHNN0_CqAi-whBEYXasuxSEQ), Ralph approved 2026-11-20. Drive: https://drive.google.com/drive/folders/1iaqr8isMgwYbIY2Ux9e7RRpHhH5IKW-A (CURRENT - Creme Shop Mask V1.mp4, 19,311,385 B). Review https://claude.ai/artifact/RzsdPR998pa6djAH2v8LTx. Telegram done messages sent. Re-run: python3 cut.py orig/original.mov.
 
 - Request: Grace, Telegram group -5234107715 msg 586 (2026-11-18): Drive folder for her ORIGINAL videos to edit.
 - Product: The Crème Shop Heating & Cooling Wash-Off & Leave On Mask for Firming and Korean Glass Skin.
