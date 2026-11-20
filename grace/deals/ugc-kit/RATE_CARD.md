@@ -1,4 +1,24 @@
-# Rate card (Grace, draft for Ralph's OK)
+# Rate card (Grace)
+
+Two tiers (Ralph 2026-11-20, tapped "Two tiers"): pick the tier by who the brand is, before quoting.
+
+## Tier 1: small or gifted brands
+TikTok Shop sellers, gifted product + commission offers, no real creator budget (e.g. the unnamed 360° Miracle Cup brand, 2026-11-20). Sent to Grace on Telegram 639 (2026-11-20).
+
+| Line | Price |
+|---|---|
+| 1 video (up to 30 s, 1 hook, 1 revision, 7 business days, organic use) | $150 |
+| 3 videos | $400 |
+| 5 videos | $650 |
+| Extra hook | +$25 each |
+| Raw footage | +$50 per video |
+| Paid ads use or Spark code | +$75 per video for 30 days, +$150 for 90 days |
+| Rush (48 h) | +$50 |
+| Product | sent free, she keeps it |
+
+Why: 2026 beginner ranges about $100-400 per video (Insense, JoinBrands, Fueler, Influee, Toptal; vendor blogs, not deal data), paid-ads use +30-50%.
+
+## Tier 2: bigger paid brands (a real creator budget, like RingConn)
 
 Course rule: one base price per video, every extra on its own line, and the price comes after a concept is picked
 ("Understand, Quote, Negotiate"; calls 9/23-10/21).
