@@ -25,7 +25,7 @@ Course rule: one base price per video, every extra on its own line, and the pric
 
 | Line | Price | Notes |
 |---|---|---|
-| Base video (one 15-60 s UGC video, 1 hook, edited) | from $500 | Proven tier: her Shnuggle tub video sold 50 units (120K views) |
+| Base video (one 15-60 s UGC video, 1 hook, edited) | from $450-500 | Proven tier: her Shnuggle tub video sold 50 units (120K views) |
 | Extra hook on the same video | $____ each | Same body, new first 3 s |
 | Usage rights (brand runs it as an ad) | $____ per month | Organic posting on the brand's page is included |
 | Spark code / whitelisting (ads from her account) | $____ per 30 days | Priced on its own (RingConn got it bundled at $450, 2026-11-09) |
