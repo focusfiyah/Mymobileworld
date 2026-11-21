@@ -22,7 +22,7 @@ def drop(srcname, x, y):
     global added
     if y - x < 0.05: return
     for tk in v["takes"]:
-        if tk["src"] == srcname and tk["a"] - 0.7 <= x <= tk["b"] + 0.7:
+        if tk["src"] == srcname and tk["a"] - 0.05 <= x < tk["b"]:   # the take x falls in (2026-11-21: +-0.7 picked a neighbour)
             dr = tk.setdefault("drop", [])
             if [round(x, 3), round(y, 3)] not in dr: dr.append([round(x, 3), round(y, 3)]); added += 1
             return

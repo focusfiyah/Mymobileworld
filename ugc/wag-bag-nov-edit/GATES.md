@@ -76,3 +76,11 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
   EVIDENCE: 2026-11-21 qc/tr2_y1600_*, qc/y1600.jpg; review v7; email 1a200422d1f88fd0; Grace told msg 672 (no ✅)
 - [x] G24: After Ralph's OK: CURRENT in WagBag Final Edits (sizes match), one ✅ per version to Ralph and the group (reply 671)
   EVIDENCE: 2026-11-21 Ralph: "Approved". CURRENT - Wag Bag Nov 1600s Beanie.mp4 1cVu3Lt43Kml-76b6p1wG0VPq-xBOIMqE 67,150,371 B; CURRENT - Wag Bag Nov 1600s Cap.mp4 1gIJL8gYtMWwZtgEA2SDc08ePKMtcmyWT 68,620,812 B (= local drive copies, GAPS_OK). ✅ Ralph 673, 675; group 674, 676
+- [x] G25: 3 more 1600s versions (Grace msgs 677/678: 5 total, one per opener) pass the cut, gap and distinct checks
+  CHECK: python3 check.py all y1600_beanie2 y1600_beanie3 y1600_cap2 && python3 check.py gaps y1600_beanie2 y1600_beanie3 y1600_cap2 && python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=382b7e9aac6b09ddb34734f7926e6b233e0b378d0e3252ffd95b7ae339ddf094; exit=0; EXPECT=matched; output-sha256=7d3b2e2394188e3e72c16ea97ba92f12b35d06aa6e0c8894d2f2d90aafc0d150; output-bytes=634; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=46f9be0bd62d/16 entries
+- [x] G26: Every line re-transcribed, one hat per video on the frame sheet (qc/y1600b.jpg), on the review page v8, Ralph told (push + email), Grace told msg 679 (no ✅)
+  EVIDENCE: 2026-11-21 qc/tr2_y1600_beanie2/beanie3/cap2; review v8
+- [ ] G27: After Ralph's OK: the 3 CURRENT in WagBag Final Edits (sizes match), one ✅ each to Ralph and the group (reply 678)
+  EVIDENCE:
