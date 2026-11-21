@@ -62,3 +62,17 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
   EVIDENCE: 2026-11-20 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 5 (batch 2 on top, table + 7 videos); push requested; email 1a1fafdcc1b7b13d; Grace group 627 (plan) + 631 (count correction), no ✅; hub session told
 - [x] G20: After Ralph's OK on each exact cut: CURRENT files in WagBag Final Edits (sizes match), one ✅ per version to Ralph and the group (reply 626)
   EVIDENCE: 2026-11-20 Ralph: "When done upload all 8 to drive and send message done" (Grey V3-V5 kept as they are, his tap). WagBag Final Edits: Grey V3 17CD7Ovn9xRuwYx-xjq6cSGe4DXDPL1OD 76,827,588 B; Grey V4 1OL2ldgUScvEgbyPnSe4WQFW9JCK9mWQW 76,496,413; Grey V5 1DvBG43c3-UK0i976AkgtTjfzD3FphGCP 76,517,447; Black V3 1WBTIWDeTiUeVkzeWS1CznyXOc5LniIBa 67,956,749; Black V4 1khZR9tRhsUFTPLfbWauLROzpSDROvXEo 64,368,907; Black V5 1NFlWtOEMb_rdCJ1a9kV1LgbNmrg2ix1s 65,447,901; Black V6 1ty6dczZytUM4thNgGWIGI3c91CTJvvFh 60,624,692; Black V7 1FUpCvFbdwD26PWmmpIMPAcYpfxX5SYZi 67,222,428 (all = local drive copies, sha256-checked hosted copies, gapmeter GAPS_OK on each). ✅ Ralph 643-657 odd, group 644-658 even. Review page v6 has all 8
+
+## Batch 3: 1600s vs 2000s (Grace group msg 671, 2026-11-21; clips 1600VS2000.1 18nt-QLIyZCIrxt3rqGGHPNFUHAAJwxLp, 1600VS2000.2&3 1aF4Eg3sV8SyCoHG2dn8NN0MeykQKFu38)
+- [x] G21: Both versions (y1600_beanie, y1600_cap) pass the cut checks
+  CHECK: python3 check.py all y1600_beanie y1600_cap
+  EXPECT: ALL_CUTS_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=db18235b8e95c481441f5636700f1a2147ab2c6fe54247b767544d30422184e3; exit=0; EXPECT=matched; output-sha256=971c49dece09e2e98b1049090c883948178395c2b9a8b5457862203174ba3b57; output-bytes=105; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=2076bccc293f/16 entries
+- [x] G22: No gaps in either version
+  CHECK: python3 check.py gaps y1600_beanie y1600_cap
+  EXPECT: GAPS_ALL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=6212abb2a4b251c0111da34bf64760c13447a461ab189854f9475cf47ecc9942; exit=0; EXPECT=matched; output-sha256=8938c2a70723ae1bb11081618fd6992d668dd89a1d446978acf0d7bd0a243a7c; output-bytes=314; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=2076bccc293f/16 entries
+- [x] G23: Her script order, every line present (re-transcribed; NASA stretch re-checked on its own), one hat per video on the frame sheet; claims flagged to Ralph only; review page + push + email
+  EVIDENCE: 2026-11-21 qc/tr2_y1600_*, qc/y1600.jpg; review v7; email 1a200422d1f88fd0; Grace told msg 672 (no ✅)
+- [ ] G24: After Ralph's OK: CURRENT in WagBag Final Edits (sizes match), one ✅ per version to Ralph and the group (reply 671)
+  EVIDENCE:
