@@ -28,7 +28,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 8 | 11-19 | SOLD: HofR - Vans BF (1iaQsweJaPAGQGssaufmltouVgwBkWQgO; Ralph approved 2026-11-15) | 27.5 s | 2026-11-19 v_inbox_file~v2.7709878864977119262; posted 11:05 AM ET, video 7709914408469663006 (27 s, caption on) |
 | 9 | 11-20 | SOLD: HofR - SoFyre BF (1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS; Ralph approved 2026-11-15) | 17.9 s | 2026-11-20 v_inbox_file~v2.7710249973396555806; posted 11:36 AM ET, video 7710293311252155661 (17 s, caption on) |
 | 10 | 11-21 | SOLD: HofR - Throw Hands BF (1_4MSUQ_gCUbUTjeO6dltHiC3NfVWFA9Q; Ralph approved 2026-11-15) | 29.4 s | 2026-11-21 v_inbox_file~v2.7710420129041008670 (drafted 2026-11-20 7:50 PM ET so Ralph can post after midnight); posted 11:12 AM ET, video 7710658335502077197 (29 s, caption on) |
-| 11 | 11-22 | SOLD: HofR - Mute Nasal Dilator BF (1wlWnsMiaG6g1ruecqopmKvm5YJV2FuUf; Ralph approved 2026-11-15) | 29.9 s | |
+| 11 | 11-22 | SOLD: HofR - Mute Nasal Dilator BF (1wlWnsMiaG6g1ruecqopmKvm5YJV2FuUf; Ralph approved 2026-11-15) | 29.9 s | 2026-11-22 v_inbox_file~v2.7710992065496352798 |
 | 12 | 11-23 | SOLD: HofR - Night Driving Glasses BF (1X368oc1chBv8rnLePW-hwFrUFPLhSuXx; Ralph approved 2026-11-15) | 32.0 s | |
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s | |
 | 14 | 11-25 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
