@@ -82,5 +82,5 @@ Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uU
   EVIDENCE: automatic-evidence=v1; definition-sha256=382b7e9aac6b09ddb34734f7926e6b233e0b378d0e3252ffd95b7ae339ddf094; exit=0; EXPECT=matched; output-sha256=7d3b2e2394188e3e72c16ea97ba92f12b35d06aa6e0c8894d2f2d90aafc0d150; output-bytes=634; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=46f9be0bd62d/16 entries
 - [x] G26: Every line re-transcribed, one hat per video on the frame sheet (qc/y1600b.jpg), on the review page v8, Ralph told (push + email), Grace told msg 679 (no ✅)
   EVIDENCE: 2026-11-21 qc/tr2_y1600_beanie2/beanie3/cap2; review v8
-- [ ] G27: After Ralph's OK: the 3 CURRENT in WagBag Final Edits (sizes match), one ✅ each to Ralph and the group (reply 678)
-  EVIDENCE:
+- [x] G27: After Ralph's OK: the 3 CURRENT in WagBag Final Edits (sizes match), one ✅ each to Ralph and the group (reply 678)
+  EVIDENCE: 2026-11-22 Ralph: "Approved". Beanie 2 1l5ckbkHadJKk5bHbc5ik9Mx3ez3muGvG 64,828,014 B; Beanie 3 11ZO3dCGsk5_hp8A_sJZ11Qda6SU4oeNM 64,517,891; Cap 2 1iT2vGZa-FUuUhWCYN8HdcgOd7WQy6vUY 65,105,331 (= local, GAPS_OK). ✅ Ralph/group msgs 680/681 682/683 684/685
