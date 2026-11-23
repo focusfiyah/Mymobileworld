@@ -1,0 +1,185 @@
+{
+ "A": {
+  "name": "Plan as written (ALR, 10 beds, 1 LPN + 1 CNA every shift, paid administrator)",
+  "beds": 10,
+  "rate": 6480,
+  "wages": 565318,
+  "staff_loaded": 706648,
+  "staff_per_res_month": 5889,
+  "fixed_year": 868648,
+  "var_per_res_month": 465,
+  "profit_full": -146824,
+  "profit_90": -219006,
+  "breakeven_residents": 12.0,
+  "breakeven_rate_full": 7704,
+  "staff": [
+   [
+    "LPN 24/7",
+    8760,
+    31.7
+   ],
+   [
+    "CNA 24/7",
+    8760,
+    21.14
+   ],
+   [
+    "Administrator",
+    65000
+   ],
+   [
+    "Cook/housekeeper full time",
+    2080,
+    18.0
+   ]
+  ],
+  "fixed_month": {
+   "property": 6500,
+   "utilities": 2500,
+   "insurance": 2000,
+   "other": 2500
+  }
+ },
+ "B": {
+  "name": "Lean personal care home, 10 beds, Gladine is the administrator",
+  "beds": 10,
+  "rate": 5500,
+  "wages": 289139,
+  "staff_loaded": 361424,
+  "staff_per_res_month": 3012,
+  "fixed_year": 523424,
+  "var_per_res_month": 465,
+  "profit_full": 80800,
+  "profit_90": 20378,
+  "breakeven_residents": 8.7,
+  "breakeven_rate_full": 4827,
+  "staff": [
+   [
+    "Med-trained aide 24/7",
+    8760,
+    21.14
+   ],
+   [
+    "Second aide 8 h/day",
+    2920,
+    21.14
+   ],
+   [
+    "RN consultant 10 h/week",
+    520,
+    45.2
+   ],
+   [
+    "Cook/housekeeper 20 h/week",
+    1040,
+    18.0
+   ]
+  ],
+  "fixed_month": {
+   "property": 6500,
+   "utilities": 2500,
+   "insurance": 2000,
+   "other": 2500
+  }
+ },
+ "C": {
+  "name": "Lean, after expansion to 20 beds, paid administrator",
+  "beds": 20,
+  "rate": 5500,
+  "wages": 618990,
+  "staff_loaded": 773737,
+  "staff_per_res_month": 3224,
+  "fixed_year": 1007737,
+  "var_per_res_month": 465,
+  "profit_full": 200711,
+  "profit_90": 79866,
+  "breakeven_residents": 16.7,
+  "breakeven_rate_full": 4664,
+  "staff": [
+   [
+    "Two aides 24/7",
+    17520,
+    21.14
+   ],
+   [
+    "Third aide 8 h/day",
+    2920,
+    21.14
+   ],
+   [
+    "RN 20 h/week",
+    1040,
+    45.2
+   ],
+   [
+    "Administrator",
+    65000
+   ],
+   [
+    "Cook full time",
+    2080,
+    18.0
+   ],
+   [
+    "Housekeeper full time",
+    2080,
+    18.0
+   ]
+  ],
+  "fixed_month": {
+   "property": 8500,
+   "utilities": 4000,
+   "insurance": 3500,
+   "other": 3500
+  }
+ },
+ "projection": {
+  "Y1": {
+   "avg_residents": 7.5,
+   "revenue": 495000,
+   "costs": 565274,
+   "net": -70274
+  },
+  "Y2": {
+   "avg_residents": 9.5,
+   "revenue": 627000,
+   "costs": 576434,
+   "net": 50566
+  },
+  "Y3": {
+   "avg_residents": 16,
+   "revenue": 1056000,
+   "costs": 1097017,
+   "net": -41017
+  }
+ },
+ "ramp_y1": [
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  9,
+  9,
+  10,
+  10,
+  10
+ ],
+ "y1_ramp_cash_gap": 95557,
+ "uses": {
+  "Property purchase (placeholder, depends on city)": 650000,
+  "Renovation: fire alarm, sprinklers if required, accessibility, baths": 150000,
+  "Furniture, beds, kitchen, equipment": 40000,
+  "Pre-opening payroll, hiring, training, administrator course": 25000,
+  "Legal, accounting, licensing, insurance deposits": 15000,
+  "Working capital (cash cushion, about 6 months)": 150000
+ },
+ "uses_total": 1030000,
+ "sources": {
+  "Owner equity (20%)": 206000,
+  "SBA 504 or 7(a) bank loan": 494400,
+  "PIDA Small Business First (if the county says a care home qualifies)": 329600
+ }
+}

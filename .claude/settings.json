@@ -43,6 +43,18 @@
           }
         ]
       }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Read|mcp__Google_Drive__read_file_content",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR\"/.claude/skills/markitdown/scripts/read_guard.py",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   },
   "permissions": {

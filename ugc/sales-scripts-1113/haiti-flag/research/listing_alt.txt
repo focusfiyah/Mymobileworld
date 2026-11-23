@@ -1,0 +1,31 @@
+# Listing text, alternate sources (2026-11-13)
+TikTok Shop PDP refetch FAILED twice this session: Python Playwright (Chromium, mobile UA) and camofox both got 'Verify to continue: Drag the puzzle piece into place' (captcha). Same G128 product, same title, from the maker's other stores:
+
+## g128store.com/products/haiti-150d-3x5-2pk (Shopify JSON, fetched 2026-11-13)
+G128 2 Pack: Haiti Haitian Flag | 3x5 Ft | LiteWeave Pro Series Printed 150D Polyester | Country Flag, Indoor/Outdoor, Vibrant Colors, Brass Grommets, Thicker and More Durable Than 100D 75D Polyester
+This is a pack of TWO (2) identical flags. Both flags are embroidered and made from 150D quality polyester.
+Double-Needle Lockstitch edges with 4 rows of stitching on the fly end to reduce fraying
+Heavy Duty Polyester Canvas Heading with Two High Quality Solid Brass Grommets
+Polyester Flag - Will Hold up Outside and can Look Great Inside
+Flags are Dye-Sublimated for Clear Vivid Bright Colors - Large Standard Size 3ft by 5ft Flag 3x 5 FT, Durable Flag For Outdoor and Indoors
+Haiti, Haiti Flag, Haitian Flag, printed, polyester, 150D, 3x5, 3x5FT, 3'x5'
+
+## amazon.com/dp/B0BGJJTHXQ (G128 2 Pack, camofox, fetched 2026-11-13)
+    - list
+  - 'heading "G128 2 Pack: Haiti Haitian Flag | 3x5 Ft | LiteWeave Pro Series Printed 150D Polyester | Country Flag, Indoor/Outdoor, Vibrant Colors, Brass Grommets, Thicker and More Durable Than 100D 75D Polyester" [level=1]'
+      - listitem [e130]: Occasion Independence Day
+      - listitem [e131]: Material Polyester
+      - listitem [e132]: Special Feature Heavy Duty
+      - listitem [e133]: Product Dimensions 60"L x 36"W
+      - listitem [e134]: Fabric Type Polyester
+      - listitem [e135]: Product Care Instructions Hand Wash Only
+      - listitem [e136]: Included Components Double-Needle Lockstitch edges, Heavy Duty Polyester Canvas Heading with Brass Grommets
+  - heading "About this item" [level=1]
+  - list:
+    - listitem [e138]: This is a pack of TWO (2) identical flags. Both flags are printed and made from 150D quality polyester.
+    - listitem [e139]: Double-Needle Lockstitch edges with 4 rows of stitching on the fly end to reduce fraying
+    - listitem [e140]: Heavy Duty Polyester Canvas Heading with Two High Quality Solid Brass Grommets
+    - listitem [e141]: Polyester Flag - Will Hold up Outside and can Look Great Inside
+    - listitem [e142]: Flags are Dye-Sublimated for Clear Vivid Bright Colors - Large Standard Size 3ft by 5ft Flag 3x 5 FT, Durable Flag For Outdoor and Indoors
+  - text: âº
+  - link "See more product details":

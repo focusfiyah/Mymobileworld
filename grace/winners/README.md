@@ -8,6 +8,7 @@ Drive (Grace Tiktok assets/AI Video Sales Tracker (Grace)): https://drive.google
 - CURRENT - Grace AI Video Sales Tracker (2026-10-20): Google Sheet 17qkOyW7s1jRoJsXLCnQxWzaNKL_8kUPy_y_C4CqPu7A
 - CURRENT - What sold + 12 new versions v2 (Grace's wording, 2026-10-20): Google Doc 1V5w_FAxlilqTWa8IBXXrl3WHUJsx1HFxzrVgyiXA0AE
 - Older versions/ (1OR84Wn5rzn2nvUe6zIEm9Sll5ZsSZ0O2): v1 (2026-10-20) doc 1bcdR7CBsvb6AZRVnWhKkVC8XOTycLykudlqIaVEpqZo
+- Restrictions tab (Ralph 2026-11-16): any TikTok notice on Grace's account ("Low Quality AIGC", violation, unoriginal content, limited reach) gets one row: date, product, video link, notice, the platform's exact text, action taken. Repo copy: restrictions.csv.
 - The sheet is a living tracker: updated in place (Drive keeps its history), not copied per update.
 
 ## Adding a video (Grace sends link + sales)

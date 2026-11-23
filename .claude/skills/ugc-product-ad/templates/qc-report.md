@@ -11,6 +11,8 @@ Cut: ____  Date: ____  Checked on the FINAL file, frame by frame where hands or 
 | Hands: from frame edge, whole wrists, no background through hands, `qc_hands.py` all frames | | |
 | No forehead wrinkles / face artifacts | | |
 | Same outfit and nails in every shot | | |
+| People and room pass (Ralph 2026-11-14 audit: 3 flaws he caught himself): the SAME person in every shot (face, age, hair; never two different children), same skin tone in every shot (brown/light brown/dark brown for Grace + HofR), same room and background, no drifting marks, stamps or props, looked at on the frame sheet | | frame sheet |
+| Sound check: earshot `es critique` on the final cut (loudness, sound on the cuts, too many/missing hits); each fix applied or skipped with a reason (Ralph 2026-11-14: every video, all jobs) | | critique.json |
 | Every clip speed >= 1.0x (no stretch) | | min speed |
 | Lips move whenever a face shows during VO | | |
 | Real moving clips: no freezes, no Ken Burns on photos, no pictures Ralph didn't ask for | | |

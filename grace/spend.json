@@ -1,8 +1,9 @@
 {
  "monthly_cap_usd": 100,
- "cap_note": "Ralph 2026-10-21: \"The monthly cap I wanted it to be $50. However there has been an increase of video production requests than previous months. Let's continue with no cap until November. We will start fresh in November and cap at $100.\"",
+ "cap_note": "Ralph 2026-10-21: \"The monthly cap I wanted it to be $50. However there has been an increase of video production requests than previous months. Let's continue with no cap until November. We will start fresh in November and cap at $100.\" Ralph 2026-11-14 (weekly audit, tapped \"Raise cap to $150 for Nov\"): November 2026 only $150; back to $100 from December.",
  "caps_by_month": {
-  "2026-10": null
+  "2026-10": null,
+  "2026-11": 150
  },
  "other": [
   {

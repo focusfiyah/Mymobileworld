@@ -1,0 +1,74 @@
+{
+ "name": "bf_jiyu_nad",
+ "end": 22.485,
+ "hook": "I do not think the picture really shows how thick this is",
+ "hook_box": [
+  169,
+  380,
+  660,
+  297
+ ],
+ "hook_hold": 3.638,
+ "segs": [
+  {
+   "start": 0.0,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 54.3,
+   "crop": "1000:1778:40:60"
+  },
+  {
+   "start": 3.638,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 3.0,
+   "crop": "960:1707:60:100"
+  },
+  {
+   "start": 5.438,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 7.2,
+   "crop": "1000:1778:40:80"
+  },
+  {
+   "start": 7.069,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 46.2,
+   "crop": "940:1671:70:130"
+  },
+  {
+   "start": 10.55,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 61.8,
+   "crop": "1000:1778:40:80"
+  },
+  {
+   "start": 11.85,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 66.0,
+   "crop": "960:1707:60:120"
+  },
+  {
+   "start": 13.623,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 70.0,
+   "crop": "1000:1778:40:90"
+  },
+  {
+   "start": 16.535,
+   "src": "../_bf_c_tools/pexels/6098638.mp4",
+   "in": 1.0,
+   "crop": "1080:1920:0:0"
+  },
+  {
+   "start": 18.135,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 11.5,
+   "crop": "1000:1778:30:60"
+  },
+  {
+   "start": 20.841,
+   "src": "../../../ugc/jiyu-nad-moisturizer/orig/jiyu_orig.mov",
+   "in": 29.5,
+   "crop": "980:1742:50:80"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+# Gates: Cleanwaste Wag Bag November edits (Grace's own footage, 2026-11-19)
+
+OWNS: ugc/wag-bag-nov-edit/**
+
+Scope: 3 edits of Grace's "November Wag Bag Assets" (Drive 1XFgvGUCgiOur-NgC80uUl82dap__y2pY): G1 grey shirt with WagBag2, G2 grey shirt without it (1,3,4), B1 black shirt. Full quality from her originals, QC'd, OK'd by Ralph, CURRENT in Drive, done messages sent. 7 more later (total 10).
+
+- [x] G1: All 4 originals downloaded at full size (local bytes = Drive bytes), 1080x1920 HEVC
+  EVIDENCE: 2026-11-19 wb1 206,925,709 / wb2 13,996,041 / wb3 116,006,552 / wb4 72,136,612 B = Drive sizes; all 1080x1920 30 fps HEVC with AAC audio
+- [x] G2: Grace's open questions (voice kept or silent, length) answered by her on Telegram
+  EVIDENCE: 2026-11-19 group msgs 603-605 (relayed by session_01Y1Pt3ss5QMagk83NH6Jmvo): "Keep my voice and no music", length "As long as I'm talking", keep clip order 1,2,3,4 / 1,3,4, never reorder; her script in msg 605 (CTA written "It's linked below."). Replied msg 606
+- [x] G3: All 3 cuts are 1080x1920, the agreed length, within 0.15 s of plan, no black frames, audio as agreed
+  CHECK: python3 check.py all
+  EXPECT: ALL_CUTS_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=06eb386ded0cad4b5e32cda6e14c17c0b6f1a49b9f3f2f916ac537da87da8759; exit=0; EXPECT=matched; output-sha256=c08d4d8350f591b7898ee5f326e3e6066941081ec2cd7dbc81ca03231aa521de; output-bytes=142; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G4: The 3 cuts are different from each other (no take of the same line used in two cuts at the same source time, different order/framing)
+  CHECK: python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=5b97486201ce443182f73c6d5d64f62c65000b825a3f58e8418aa7bdfaecabbc; exit=0; EXPECT=matched; output-sha256=ed29a59926234dab38a4c18d3c27c5d68a5e9a18998cbea0383fa601b79e3e86; output-bytes=12; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G5: Every cut viewed on a frame sheet + around each cut: right shirt in every shot, every line clean (no flubbed word, no cut mid-word), earshot sound check run (or skipped with reason), REMOVED.md checked
+  EVIDENCE: 2026-11-19 qc/*_1fps.jpg + first-second strips + seam strips viewed; fixed stray frames (takes now start on her clip's first frame, source cuts at scene 0.28), clipped "anywhere"/"everyone", grey_v2 hook swapped to the clean 0:23 take; medium.en transcripts qc/tr_* show every line whole; earshot critique qc/critique_*.txt: loudness/sync ok, "no music" + "hit density" skipped (Grace adds music; hits = box rustle under voice); REMOVED.md empty (nothing removed yet). Known: grey CTA takes open on her top ~0.8 s (flagged to Ralph)
+- [x] G6: Review page with the 3 cuts stacked; Ralph told (push + email) incl. flagged claims (Pentagon 90 days, "sold out before", the word "shitting"); Grace answered without ✅
+  EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ ; push requested; email 1a1f1579512599c8; Grace group msg 601 (questions, no ✅), Ralph private msg 602
+- [x] G7: After Ralph's OK on each exact cut: CURRENT files in the Wag Bag product folder in "Grace Tiktok assets", Drive size = local, older versions moved per rule
+  EVIDENCE: 2026-11-19 Ralph tapped "Approve all 3, upload (Recommended)" + "Keep as filmed (Recommended)". WagBag Final Edits 1ZgU9Z8oQkT_Wca_EkXtfd6AbDFHZZgG8: CURRENT - Wag Bag Nov Grey V1.mp4 1uMaNE5j8Wx8AjrZAZtX6I9urI2vKt2Hd 106,510,481 B, Grey V2 186_uvO-nwLyHyi0efMVdp4kSVwQlUPmq 91,030,488 B, Black V1 1b730bVM6wTWwOUYS-AeAMTti7yyJaKGw 69,024,085 B, each = local drive copy (crf 20 of the checked final; host.py verified sha256 of the hosted copy). Nothing replaced (October V1-V5 and the toilet kit are different videos), so nothing moved
+- [x] G8: One "✅ ... is done and in Drive: <link>" per version to Ralph and in the group (reply to 598)
+  EVIDENCE: 2026-11-19 Ralph private 607 / 609 / 611, group 608 / 610 / 612 (Grey V1, Grey V2, Black V1)
+- [x] G9: Brain job note + session log, Active work line removed, BRAIN_OK; media packed MEDIA_OK
+  EVIDENCE: 2026-11-19 Brain/Jobs/Wag Bag.md + Sessions/2026-11-19 Wag Bag November edits.md + Index + Jobs.md row, Active line removed (vault pushed). brain check: every term found, only failures are 4 broken links in other live sessions' notes (Grande, Bellavita, EverTrue), not touched. MEDIA_OK (tar 1r-e6D9cr76lRphcJZNTPXcut77CN5Wax, sha256 match)
+
+## Round 2 (V2): close the gaps (Ralph 2026-11-19 ~03:40 UTC, relayed: "Grace lets me know that you are leaving gaps in between the conversations")
+- [x] G10: Every V2 cut has no gap between her lines: lead <= 0.15 s, tail <= 0.35 s, no quiet run over 0.25 s (audio meter), her voice at 1.0x
+  CHECK: python3 check.py gaps
+  EXPECT: GAPS_ALL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=a9e3551a3b0f82ad82b0fa5649f3f33cd62a5e3d89d4442909a5c7a263d21684; exit=0; EXPECT=matched; output-sha256=61cb6da7d336272f62acc736a1e43e19c390915ad0f56be0765a81ca8b45bb44; output-bytes=465; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G11: V2 cuts still pass the round-1 checks (size, voice, loudness, no stray frame, length as planned) and stay distinct
+  CHECK: python3 check.py all && python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=833d187dd76fd03917f5a1afc3dafe7f84a5331aebf48b0b3caf287a54daac60; exit=0; EXPECT=matched; output-sha256=c5a78dc2a6cb4d2727c897e94427c978a31a7bbf213b7afa8bfd49e413197c17; output-bytes=154; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G12: Every line still whole in each V2 cut (re-transcribed, compared with V1), clip order and lines unchanged, frame sheets looked at
+  EVIDENCE: 2026-11-19 qc/tr2_* (medium.en) show every line of V1 in the same order; grey V1 CTA mumble ("I'll link it below in that orange cart") is in her source the same way (qc/tr_cta_src). qc/*_v2_2fps.jpg looked at: right shirt, demo = rip/place/sit/seal, no flash. Black V1 opening scene change = her own box swing (videos.json scene_ok note)
+- [x] G13: V2 review page with before/after gap numbers; Ralph told (push + email)
+  EVIDENCE: 2026-11-19 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 4 (Black V2 only after the scope change, before/after table); push requested; emails 1a1f2027f0422e79 (all three, superseded) + 1a1f204409698eeb (black only); hub session told
+- [x] G14: After Ralph's OK: "CURRENT - Wag Bag Nov Black V2.mp4" in WagBag Final Edits, Black V1 renamed "Wag Bag Nov Black V1 (2026-11-19).mp4" in Older versions, size matches; one ✅ to Ralph and the group (reply 598). Scope (Ralph ~03:50 UTC, relayed): only the black video is redone; Grace edited the grey ones herself, so grey files stay untouched
+  EVIDENCE: 2026-11-19 Ralph tapped "Approve, upload (Recommended)" on Black V2. Drive WagBag Final Edits: CURRENT - Wag Bag Nov Black V2.mp4 10cbzY1_sJ80hcinRGrVk-NSCQuV475So, 65,946,243 B = local drive copy (gapmeter GAPS_OK on it); Black V1 renamed "Wag Bag Nov Black V1 (2026-11-19).mp4" and moved to Older versions 1liz954HDVxBhewTbdgG4JqcGUTI2B-03. Grey files untouched. ✅ Telegram Ralph 613, group 614
+
+## Batch 2: 7 more edits (Grace group msg 626, 2026-11-20: "complete the edits for the remaining videos ... don't use the same three you already used ... no need to use wag bag clip 2 ... make sure the shirt ... matches each edits")
+- [x] G15: 7 new cuts (grey_v3-v5, black_v3-v6), each a different unused WagBag1 intro, no WagBag2, no two with the same body takes
+  CHECK: python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=5b97486201ce443182f73c6d5d64f62c65000b825a3f58e8418aa7bdfaecabbc; exit=0; EXPECT=matched; output-sha256=ed29a59926234dab38a4c18d3c27c5d68a5e9a18998cbea0383fa601b79e3e86; output-bytes=12; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G16: All 7 pass the cut checks (1080x1920, her voice, loudness, no stray frames, length as planned)
+  CHECK: python3 check.py all grey_v3 grey_v4 grey_v5 black_v3 black_v4 black_v5 black_v6 black_v7
+  EXPECT: ALL_CUTS_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=8a80b4c609fa797b3fe9be42a29cc6660d838ce84241f913ecb3639706f72ef5; exit=0; EXPECT=matched; output-sha256=e6d0638a8765c989d7cd5d81134b2de552de0ccc659a7f2c52b4129522b3761c; output-bytes=361; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G17: No gaps in any of the 7 (lead <= 0.15 s, no quiet run over 0.25 s), voice at 1.0x
+  CHECK: python3 check.py gaps grey_v3 grey_v4 grey_v5 black_v3 black_v4 black_v5 black_v6 black_v7
+  EXPECT: GAPS_ALL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=447aa8af1da296e938335fcce9c1fb7a91269dde276d167bee080fb5a4c70e52; exit=0; EXPECT=matched; output-sha256=9d4994ee475b7fee1edc8f49cf043ae707218c8922c4692b1e15769d70b5ad12; output-bytes=1220; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=7f4fb4b02918/15 entries
+- [x] G18: Every cut re-transcribed (every line whole, order 1,3,4) and its frame sheet looked at (shirt matches in every shot)
+  EVIDENCE: 2026-11-20 qc/tr2_<name> (medium.en) for all 7: every line present, order 1,3,4. Frame sheets qc/grey_v3_2fps.jpg, greys.jpg, blacks.jpg, fix2.jpg viewed: first pass caught grey_v5 with a black-shirt intro (wb1 106.74 is black; the shirt changes ~1:58), fixed by giving grey_v5 the 0:00 grey intro and black_v5 the 1:46 intro; recheck matched. earshot critique on all 7: loudness/sync fine; "no music" + "hit density" skipped (her voice-only edit, box rustle)
+- [x] G19: Review page with all 7 stacked + gap numbers; Ralph told (push + email); Grace told it is on the way (no ✅)
+  EVIDENCE: 2026-11-20 https://claude.ai/artifact/9SLqU3JZzN6C7cVACyARSQ version 5 (batch 2 on top, table + 7 videos); push requested; email 1a1fafdcc1b7b13d; Grace group 627 (plan) + 631 (count correction), no ✅; hub session told
+- [x] G20: After Ralph's OK on each exact cut: CURRENT files in WagBag Final Edits (sizes match), one ✅ per version to Ralph and the group (reply 626)
+  EVIDENCE: 2026-11-20 Ralph: "When done upload all 8 to drive and send message done" (Grey V3-V5 kept as they are, his tap). WagBag Final Edits: Grey V3 17CD7Ovn9xRuwYx-xjq6cSGe4DXDPL1OD 76,827,588 B; Grey V4 1OL2ldgUScvEgbyPnSe4WQFW9JCK9mWQW 76,496,413; Grey V5 1DvBG43c3-UK0i976AkgtTjfzD3FphGCP 76,517,447; Black V3 1WBTIWDeTiUeVkzeWS1CznyXOc5LniIBa 67,956,749; Black V4 1khZR9tRhsUFTPLfbWauLROzpSDROvXEo 64,368,907; Black V5 1NFlWtOEMb_rdCJ1a9kV1LgbNmrg2ix1s 65,447,901; Black V6 1ty6dczZytUM4thNgGWIGI3c91CTJvvFh 60,624,692; Black V7 1FUpCvFbdwD26PWmmpIMPAcYpfxX5SYZi 67,222,428 (all = local drive copies, sha256-checked hosted copies, gapmeter GAPS_OK on each). ✅ Ralph 643-657 odd, group 644-658 even. Review page v6 has all 8
+
+## Batch 3: 1600s vs 2000s (Grace group msg 671, 2026-11-21; clips 1600VS2000.1 18nt-QLIyZCIrxt3rqGGHPNFUHAAJwxLp, 1600VS2000.2&3 1aF4Eg3sV8SyCoHG2dn8NN0MeykQKFu38)
+- [x] G21: Both versions (y1600_beanie, y1600_cap) pass the cut checks
+  CHECK: python3 check.py all y1600_beanie y1600_cap
+  EXPECT: ALL_CUTS_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=db18235b8e95c481441f5636700f1a2147ab2c6fe54247b767544d30422184e3; exit=0; EXPECT=matched; output-sha256=971c49dece09e2e98b1049090c883948178395c2b9a8b5457862203174ba3b57; output-bytes=105; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=2076bccc293f/16 entries
+- [x] G22: No gaps in either version
+  CHECK: python3 check.py gaps y1600_beanie y1600_cap
+  EXPECT: GAPS_ALL_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=6212abb2a4b251c0111da34bf64760c13447a461ab189854f9475cf47ecc9942; exit=0; EXPECT=matched; output-sha256=8938c2a70723ae1bb11081618fd6992d668dd89a1d446978acf0d7bd0a243a7c; output-bytes=314; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=2076bccc293f/16 entries
+- [x] G23: Her script order, every line present (re-transcribed; NASA stretch re-checked on its own), one hat per video on the frame sheet; claims flagged to Ralph only; review page + push + email
+  EVIDENCE: 2026-11-21 qc/tr2_y1600_*, qc/y1600.jpg; review v7; email 1a200422d1f88fd0; Grace told msg 672 (no ✅)
+- [x] G24: After Ralph's OK: CURRENT in WagBag Final Edits (sizes match), one ✅ per version to Ralph and the group (reply 671)
+  EVIDENCE: 2026-11-21 Ralph: "Approved". CURRENT - Wag Bag Nov 1600s Beanie.mp4 1cVu3Lt43Kml-76b6p1wG0VPq-xBOIMqE 67,150,371 B; CURRENT - Wag Bag Nov 1600s Cap.mp4 1gIJL8gYtMWwZtgEA2SDc08ePKMtcmyWT 68,620,812 B (= local drive copies, GAPS_OK). ✅ Ralph 673, 675; group 674, 676
+- [x] G25: 3 more 1600s versions (Grace msgs 677/678: 5 total, one per opener) pass the cut, gap and distinct checks
+  CHECK: python3 check.py all y1600_beanie2 y1600_beanie3 y1600_cap2 && python3 check.py gaps y1600_beanie2 y1600_beanie3 y1600_cap2 && python3 check.py distinct
+  EXPECT: DISTINCT_OK
+  EVIDENCE: automatic-evidence=v1; definition-sha256=382b7e9aac6b09ddb34734f7926e6b233e0b378d0e3252ffd95b7ae339ddf094; exit=0; EXPECT=matched; output-sha256=7d3b2e2394188e3e72c16ea97ba92f12b35d06aa6e0c8894d2f2d90aafc0d150; output-bytes=634; shell=/bin/sh; cwd=/home/user/Mymobileworld/ugc/wag-bag-nov-edit; path=46f9be0bd62d/16 entries
+- [x] G26: Every line re-transcribed, one hat per video on the frame sheet (qc/y1600b.jpg), on the review page v8, Ralph told (push + email), Grace told msg 679 (no ✅)
+  EVIDENCE: 2026-11-21 qc/tr2_y1600_beanie2/beanie3/cap2; review v8
+- [x] G27: After Ralph's OK: the 3 CURRENT in WagBag Final Edits (sizes match), one ✅ each to Ralph and the group (reply 678)
+  EVIDENCE: 2026-11-22 Ralph: "Approved". Beanie 2 1l5ckbkHadJKk5bHbc5ik9Mx3ez3muGvG 64,828,014 B; Beanie 3 11ZO3dCGsk5_hp8A_sJZ11Qda6SU4oeNM 64,517,891; Cap 2 1iT2vGZa-FUuUhWCYN8HdcgOd7WQy6vUY 65,105,331 (= local, GAPS_OK). ✅ Ralph/group msgs 680/681 682/683 684/685

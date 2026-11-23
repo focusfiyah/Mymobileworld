@@ -43,6 +43,18 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 /* buttons */
 .btns{display:flex;flex-wrap:wrap;gap:12px}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;border:1.5px solid var(--rose);transition:transform .15s ease,background-color .15s ease,color .15s ease}
+.brief{display:grid;gap:14px;margin-top:22px;background:var(--white);border-radius:22px;padding:22px;box-shadow:0 18px 44px rgba(60,20,30,.10)}
+.brief h3{margin:0;font-size:20px;letter-spacing:-.01em}
+.brief label{display:grid;gap:6px;font-weight:600;font-size:14px}
+.brief small{font-weight:400;color:var(--ink-soft)}
+.brief input,.brief textarea{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1.5px solid #e7c3c9;border-radius:12px;padding:12px 14px;width:100%}
+.brief input:focus,.brief textarea:focus{outline:none;border-color:var(--rose);box-shadow:0 0 0 3px rgba(184,84,108,.18)}
+.brief .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.brief button{width:100%;cursor:pointer;font-family:inherit}
+.brief button:disabled{opacity:.6;cursor:wait}
+.form-msg{margin:0;font-weight:600;font-size:14px}
+.form-msg.is-err{color:#9a2140}
+.form-msg.is-ok{color:var(--rose)}
 .btn--fill{background:var(--rose);color:var(--white)}
 .btn--line{color:var(--rose);background:transparent}
 .btn:hover{transform:translateY(-1px)}
@@ -137,8 +149,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
   <div class="wrap">
     <a class="brand" href="#top">Grace <span>With The Glow</span></a>
     <nav class="links" aria-label="Contact">
-      <a href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">TikTok</a>
-      <a href="#contact">Email</a>
+      <a href="#brief">Send me your brief</a>
     </nav>
   </div>
 </header>
@@ -150,11 +161,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
         <h1>Videos that show<br><em>your product</em><br><em>at its best</em></h1>
         <p class="lede">New York-based creator producing content that gives people a reason to buy.</p>
         <div class="btns">
-          <a class="btn btn--fill" id="ideas" href="https://script.google.com/macros/s/AKfycbziiK0FbVLh9CrPFuAAIJNzax8diBxdUt2GjPI3wHKJEaC7iMxyDA6G609SkQDRyyl6/exec" target="_blank" rel="noopener">Get 3 free UGC ideas</a>
-          <a class="btn btn--line" href="mailto:graceglows.ugc@gmail.com?subject=Brief%20for%20Grace" target="_blank" rel="noopener">Send me your brief</a>
+          <a class="btn btn--fill" href="#brief">Send me your brief</a>
         </div>
         <ul class="proof">
-          <li>UGC &amp; TikTok Shop creator</li>
+          <li>UGC creator</li>
           <li>New York</li>
           <li>First draft in 7 business days</li>
         </ul>
@@ -186,7 +196,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
           </li>
           <li>
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
-            <div><h3>Product-focused experience</h3><p>I've made TikTok Shop videos that sold products, plus paid brand collaborations.</p></div>
+            <div><h3>Product-focused experience</h3><p>I've made videos that drove product sales and done paid brand collaborations.</p></div>
           </li>
         </ul>
         <p class="cats-h">Categories I create in</p>
@@ -196,7 +206,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
           <li>Fashion</li>
           <li>Jewelry</li>
           <li>Baby and family</li>
-          <li>Problem solvers</li>
+          <li>Home and everyday essentials</li>
         </ul>
       </div>
     </div>
@@ -210,8 +220,8 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
       </div>
       <div class="grid">
         <figure class="card" data-video="7681820759597042975"><div class="win"><img src="media/7681820759597042975.jpg" alt=""><button class="play" aria-label="Play: liquid collagen drink"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>POV<small>Liquid collagen</small></figcaption></figure>
-        <figure class="card" data-video="7692132082188946719"><div class="win"><img src="media/7692132082188946719.jpg" alt=""><button class="play" aria-label="Play: toddler bathtub with my daughter"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Family Concept<small>Toddler bathtub</small></figcaption></figure>
-        <figure class="card" data-video="7700672775324732703"><div class="win"><img src="media/7700672775324732703.jpg" alt=""><button class="play" aria-label="Play: perfume set, four scents for every plan"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Talking Head<small>Perfume set</small></figcaption></figure>
+        <figure class="card" data-video="7692132082188946719"><div class="win"><img src="media/7692132082188946719-v2.jpg" alt=""><button class="play" aria-label="Play: toddler bathtub with my daughter"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Family Concept<small>Toddler bathtub</small></figcaption></figure>
+        <figure class="card" data-video="7700672775324732703"><div class="win"><img src="media/7700672775324732703-v2.jpg" alt=""><button class="play" aria-label="Play: perfume set, four scents for every plan"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Talking Head<small>Perfume set</small></figcaption></figure>
         <figure class="card" data-video="7700661746859511070"><div class="win"><img src="media/7700661746859511070.jpg" alt=""><button class="play" aria-label="Play: holiday party dress try-on"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Try-On Voiceover<small>Holiday dress</small></figcaption></figure>
         <figure class="card" data-video="7690769787810499870"><div class="win"><img src="media/7690769787810499870.jpg" alt=""><button class="play" aria-label="Play: emergency toilet bags for storm season"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Problem / Solution<small>Emergency toilet bags</small></figcaption></figure>
         <figure class="card" data-video="7704380444141194526"><div class="win"><img src="media/7704380444141194526.jpg" alt=""><button class="play" aria-label="Play: gold statement ring"><span><svg viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg></span></button></div><figcaption>Product Showcase<small>Statement ring</small></figcaption></figure>
@@ -239,17 +249,25 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
       <div>
         <h2>Ready to <em>work together?</em></h2>
         <p class="lede">You've seen my work. Send me your product and what you need, and I'll come back with a plan.</p>
-        <div class="btns">
-          <a class="btn btn--fill" href="https://script.google.com/macros/s/AKfycbziiK0FbVLh9CrPFuAAIJNzax8diBxdUt2GjPI3wHKJEaC7iMxyDA6G609SkQDRyyl6/exec" target="_blank" rel="noopener">Get 3 free UGC ideas</a>
-          <a class="btn btn--line" href="mailto:graceglows.ugc@gmail.com?subject=Brief%20for%20Grace" target="_blank" rel="noopener">Send me your brief</a>
-        </div>
-        <p class="mail">Email me at <code id="email">graceglows.ugc@gmail.com</code><button class="copy" id="copy" type="button">Copy email</button></p>
+        <form class="brief" id="brief" name="brief" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="brief">
+          <p class="hp" aria-hidden="true"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <h3>Send me your brief</h3>
+          <label>Your name<input name="name" autocomplete="name" required></label>
+          <label>Brand<input name="brand" autocomplete="organization" required></label>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <label>Product link<input name="link" type="url" inputmode="url" placeholder="https://" required></label>
+          <label>What do you need?<small>Number of videos, where they'll run, your timeline</small><textarea name="notes" rows="4"></textarea></label>
+          <p class="form-msg" id="form-msg" role="status" hidden></p>
+          <button class="btn btn--fill" type="submit" id="brief-go">Send my brief</button>
+        </form>
+        <p class="mail">Prefer email? Write to me at <code id="email">graceglows.ugc@gmail.com</code><button class="copy" id="copy" type="button">Copy email</button></p>
       </div>
     </div>
   </section>
 </main>
 
-<footer><div class="wrap"><span>Grace With The Glow · UGC creator · New York</span><a href="https://www.tiktok.com/@shewiththeglow" target="_blank" rel="noopener">@shewiththeglow on TikTok</a></div></footer>
+<footer><div class="wrap"><span>Grace With The Glow · UGC creator · New York</span></div></footer>
 
 <script type="text/vtt" id="intro-vtt">
 WEBVTT
@@ -335,6 +353,25 @@ copyBtn.addEventListener("click", async () => {
   } catch {
     const r = document.createRange(); r.selectNodeContents(email);
     const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+  }
+});
+
+/* brief form: posts to Netlify Forms; on any failure, point to the plain email */
+const bf = document.getElementById("brief"), bmsg = document.getElementById("form-msg"), bgo = document.getElementById("brief-go");
+bf.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const fd = new FormData(bf), v = (k) => String(fd.get(k) || "").trim();
+  const show = (t, ok) => { bmsg.textContent = t; bmsg.className = "form-msg " + (ok ? "is-ok" : "is-err"); bmsg.hidden = false; };
+  if (!v("name") || !v("brand") || !v("link") || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v("email"))) { show("Please add your name, brand, a real email and the product link.", false); return; }
+  bgo.disabled = true; bgo.textContent = "Sending...";
+  try {
+    const r = await fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: new URLSearchParams(fd).toString() });
+    if (!r.ok) throw new Error(r.status);
+    bf.querySelectorAll("label,button").forEach((el) => (el.hidden = true));
+    show("Thank you! Your brief reached me. I'll reply by email soon.", true);
+  } catch {
+    bgo.disabled = false; bgo.textContent = "Send my brief";
+    show("That didn't go through. Please email me at graceglows.ugc@gmail.com.", false);
   }
 });
 </script>

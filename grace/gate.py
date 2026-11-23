@@ -291,6 +291,17 @@ def override_lines(job):
 
 BOOK = "BOOK.md"
 BOOK_HEADS = ["## 3. script", "## 4. shot list", "## 6. cost", "## 8. prompts"]
+# Creator Pathway plan lines (Ralph 2026-11-14, weekly audit: "do all the fixes that you recommended"): jobs created from
+# this date state product-first vs trust-first (decision 1 of 2026-11-09) and the 5 Keys product screen in BOOK.md.
+BOOK_CP_FROM = "2026-11-14"
+BOOK_CP_LINES = [
+    (r"(?mi)^Product open:\s*(product-first|trust-first)\b",
+     "'Product open: product-first | trust-first' (visible result in seconds = product-first from frame 0; skincare, "
+     "supplements, delayed results = trust-first, product at 7-10 s; PLAYBOOK 'Creator Pathway decisions' (1))"),
+    (r"(?mi)^Product screen:\s*\S+",
+     "'Product screen: <stars>, <price band>, <units sold>, <pain level>, <shipping>' (Creator Pathway 5 Keys: weak "
+     "products are flagged to Ralph before spend)"),
+]
 TEMPLATE = Path(__file__).resolve().parents[1] / ".claude/skills/ugc-product-ad/templates/plan-message.md"
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import paid   # noqa: E402  (grace/paid.py, next to this file)
@@ -314,6 +325,10 @@ def book_problems(job):
     if re.search(r"_{3,}|\$__", text):
         errs.append(f"{BOOK} still has blanks (___ or $__): fill every field, 'n/a' needs a reason")
     errs += [f"{BOOK} is missing the section '{h}'" for h in BOOK_HEADS if h not in low]
+    cl = Path(job) / "checklist.json"
+    created = str(json.loads(cl.read_text()).get("created", "")) if cl.exists() else ""
+    if created >= BOOK_CP_FROM:
+        errs += [f"{BOOK} needs the line {msg}" for pat, msg in BOOK_CP_LINES if not re.search(pat, text)]
     totals = re.findall(r"(?m)^TOTAL:\s*\$(\d+(?:\.\d+)?)\s*$", text)
     if len(totals) != 1:
         errs.append(f"{BOOK} needs exactly one line 'TOTAL: $<amount>' (the paid total Ralph approves), found {len(totals)}")

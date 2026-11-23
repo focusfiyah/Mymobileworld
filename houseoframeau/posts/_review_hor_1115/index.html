@@ -1,0 +1,75 @@
+<title>HofR Black Friday Remixes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: one narrow column, newest cut on top, each video full column width (max 520px), notes under it */
+:root{
+  --bg:#f5f7f9; --surface:#ffffff; --ink:#16212e; --muted:#5a6878; --line:#dde3ea; --accent:#2b6cb0; --ok:#1f7a4d;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#11161c;--surface:#19212a;--ink:#e7edf3;--muted:#9aa8b6;--line:#2a3542;--accent:#7fb2ea;--ok:#5cc28d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11161c;--surface:#19212a;--ink:#e7edf3;--muted:#9aa8b6;--line:#2a3542;--accent:#7fb2ea;--ok:#5cc28d;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.5;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 48px}
+main{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:32px}
+h1{font-family:var(--display);font-size:1.6rem;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-size:1.2rem;margin:0}
+.lede{color:var(--muted);margin:6px 0 0}
+section{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px}
+.meta{font-size:.85rem;color:var(--muted);letter-spacing:.02em}
+video{width:100%;max-width:520px;aspect-ratio:9/16;background:#000;border-radius:10px;display:block;margin:0 auto}
+ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:4px}
+.pass{color:var(--ok);font-weight:600}
+code{font-size:.85em}
+</style>
+<main>
+  <header>
+    <h1>HofR Black Friday Remixes</h1>
+    <p class="lede">House of Rameau versions of Grace's approved cuts: same voiceover, new cut, hook text card, no captions. $0 spent.</p>
+  </header>
+
+  <section id="cleanwaste">
+    <h2>Cleanwaste Wag Bag: HofR version</h2>
+    <div class="meta">29.3 s · 9:16 · posts to the HofR inbox Nov 16, 8:47 AM ET</div>
+    <video src="cleanwaste_hor.mp4" poster="cleanwaste_poster.jpg" controls playsinline preload="metadata"></video>
+    <ul>
+      <li>Hook card from frame 0 to 3 s: "Ready for a power outage? / What about the toilet?" (from Grace's first line)</li>
+      <li>Different from Grace's post: last two shots swapped (kit going into the bin, then kit in the bin), new in-points on 7 of 9 shots, 1.07-1.15x crops, brighter cool grade</li>
+      <li>Same approved voiceover and clips, every clip at 1.0x, AI finish last</li>
+      <li class="pass">QC: HOOK_OK · -15.5 LUFS · different from Grace's at all 8 checks (min 16.1) · brighter, not warmer · frame strip checked</li>
+    </ul>
+  </section>
+
+  <section id="bodyj">
+    <h2>BodyJ castor roll-on v2: HofR version</h2>
+    <div class="meta">39.3 s · 9:16 · Grace's script · queue date Nov 17</div>
+    <video src="bodyj_hor.mp4" poster="bodyj_poster.jpg" controls playsinline preload="metadata"></video>
+    <ul>
+      <li>Hook card 0-3 s: "The only thing I don't like / about castor oil..." (Grace's first line), sits between the pour and the hands</li>
+      <li>Different from Grace's post: the roll-on bottle push-in swapped (close-up now on "freaking genius", wide on "USDA organic"), new in-points on 13 of 14 shots, ~1.1x crops, brighter cool grade</li>
+      <li class="pass">QC: HOOK_OK · -14.9 LUFS · different at all 8 checks (min 26.2) · brighter, cooler · frame strip checked</li>
+    </ul>
+  </section>
+
+  <section id="pritech">
+    <h2>PRITECH face brush V1: HofR version</h2>
+    <div class="meta">25.2 s · 9:16 · queue date Nov 18</div>
+    <video src="pritech_hor.mp4" poster="pritech_poster.jpg" controls playsinline preload="metadata"></video>
+    <ul>
+      <li>Hook card 0-3 s: "Not using a cleansing brush? / What are you doing?" (from Grace's first line)</li>
+      <li>Different from Grace's post: the two brush-on-dock shots swapped, the bristles shot plays its close-up on "soft silicone bristles", new in-points, ~1.1x crops, brighter cool grade. Still no eyes or mouth.</li>
+      <li class="pass">QC: HOOK_OK · -15.2 LUFS · different at all 8 checks (min 20.8) · brighter, cooler · frame strip checked</li>
+    </ul>
+  </section>
+
+  <section id="vans">
+    <h2>Vans V13 sequin: HofR version</h2>
+    <div class="meta">27.5 s · 9:16 · Grace's VO · queue date Nov 19</div>
+    <video src="vans_hor.mp4" poster="vans_poster.jpg" controls playsinline preload="metadata"></video>
+    <ul>
+      <li>Hook card 0-3 s: "Who told Vans to come out / with these sparkly low tops?" (Grace's first line, word for word)</li>
+      <li>The V13 source clips were never saved to Drive, so this one is cut from Grace's V13 file itself: two shoe shots swapped (the café push-in to the sequins now plays on "the sequins add just the right amount of shine"), closing tails swapped, ~1.1x crops on every shot, brighter cool grade. Inside each shot the timing is the same as hers.</li>
+      <li class="pass">QC: HOOK_OK · -15.7 LUFS · different at all 8 checks (min 31.4) · brighter, cooler · frame strip checked</li>
+    </ul>
+  </section>
+</main>

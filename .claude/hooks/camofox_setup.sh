@@ -12,6 +12,9 @@
 PKG_VER=1.18.1
 FOX_VER=152.0.4
 FOX_REL=beta.30
+# playwright-core is pinned too: the package asks for ^1.58.0, npm pulled 1.65.0 on 2026-11-13 and every tab failed
+# ("Browser.setDownloadOptions ... legacyInterceptor ... not described in this scheme"); 1.58.0 works.
+PW_VER=1.58.0
 (
   set -e
   export CAMOFOX_CRASH_REPORT_ENABLED=false CAMOFOX_BIND_HOST=127.0.0.1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt
@@ -23,6 +26,9 @@ FOX_REL=beta.30
     mkdir -p "$DIR"; cd "$DIR"
     [ -f package.json ] || echo '{"name":"camofox-local","private":true}' > package.json
     CAMOFOX_SKIP_DOWNLOAD=1 npm install -s --no-fund --no-audit "@askjo/camofox-browser@$PKG_VER"
+  fi
+  if [ "$(node -p "require('$DIR/node_modules/playwright-core/package.json').version" 2>/dev/null)" != "$PW_VER" ]; then
+    cd "$DIR"; npm install -s --no-fund --no-audit "playwright-core@$PW_VER"
   fi
   if ! grep -q "\"$FOX_REL\"" "$FOX/version.json" 2>/dev/null; then
     TMP=$(mktemp -d)

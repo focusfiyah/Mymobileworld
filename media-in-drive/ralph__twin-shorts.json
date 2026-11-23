@@ -1,0 +1,2362 @@
+{
+ "unit": "ralph/twin-shorts",
+ "repo": "Mymobileworld",
+ "sets": [
+  {
+   "set": 1,
+   "date": "2026-11-16",
+   "files": {
+    "ralph/twin-shorts/base/sheet.png": [
+     1830875,
+     "110a6e305e0196c56445b256059176485334333d56cad672537b9cc2b72b5748"
+    ],
+    "ralph/twin-shorts/base/talking03.mp4": [
+     129792544,
+     "5ad2a1148ba962bd72553488396e66aef6c4203a58b90a25c6e06d84b139ede9"
+    ],
+    "ralph/twin-shorts/deliver/combo.mp4": [
+     69911773,
+     "85b3fcc355ce1093d1522895fccdac538f64ab908f6e88fcf13969830cd5d9fe"
+    ],
+    "ralph/twin-shorts/deliver/single1.mp4": [
+     17665534,
+     "981a98fc36f50a8d6c211d1c7e8ab400814c2b026ef4ad8188378f118c6d8eaa"
+    ],
+    "ralph/twin-shorts/deliver/single2.mp4": [
+     20998721,
+     "9bf5236e1d6c7ed2e76dd3a819ab875e1d3583f6a3e5cbe54d142b7fb56fc006"
+    ],
+    "ralph/twin-shorts/deliver/single3.mp4": [
+     20674481,
+     "7cc70d49366f715e3b7ecc3c2be09f618b5b218dafafd6da55880ac16d40e61f"
+    ],
+    "ralph/twin-shorts/deliver/single4.mp4": [
+     19561920,
+     "8c8b846e55f8e5d96257a591dcb0f39e7817194697efbb5df2898e703f3476a3"
+    ],
+    "ralph/twin-shorts/final/flow_cin_A.mp4": [
+     163153559,
+     "bcd939d4803718861aec0bdbcffe271d628cc648971ecbd27f3ea9af709e5bc6"
+    ],
+    "ralph/twin-shorts/final/flow_cin_B.mp4": [
+     162016895,
+     "20eb12e3e6162f4b47e8e6d8d0da3d6242e00f2104bf24cd9d5fc3559dbda5bc"
+    ],
+    "ralph/twin-shorts/final/flow_kit7_A.mp4": [
+     165572218,
+     "c79d5bd2bb4b9655e81e45ab682a9654564430b8b4c8f2a0befa63fe5461dcf9"
+    ],
+    "ralph/twin-shorts/final/flow_kit7_B.mp4": [
+     164041675,
+     "0481bb7c4adf0b78707167ba9d5ad4f1096fe8a41029e70ced35d001602db12d"
+    ],
+    "ralph/twin-shorts/final/flow_mg_A.mp4": [
+     164075005,
+     "d24b8817fecd4d921c013191ab981fe1df3be204469a6c8654f6db7f3098f031"
+    ],
+    "ralph/twin-shorts/final/flow_mg_B.mp4": [
+     162732426,
+     "945e30c7a724b0de3369ad2daa7d662423eb2f31a58c895bb882be2a5738c95f"
+    ],
+    "ralph/twin-shorts/final/twin_kit7_A.mp4": [
+     118621335,
+     "eb98bf5a8e372d0d498501301f3a35d461f93a2db5da916292ef74c92094daa9"
+    ],
+    "ralph/twin-shorts/final/twin_kit7_B.mp4": [
+     118183262,
+     "39150ec460d897966b664016a01733f5a4ea0d1005e03471980d317383d14125"
+    ],
+    "ralph/twin-shorts/final/v2_combo.mp4": [
+     173056691,
+     "55762a7f2b8660459aa35f51b5cdeada837b72ea713705950b5b975e98d4eb92"
+    ],
+    "ralph/twin-shorts/final/v2_single1.mp4": [
+     42984919,
+     "ecc5d377fcb9ab38f193cd05808893be2aba6e504c7f830e6ae1b5d9f0213364"
+    ],
+    "ralph/twin-shorts/final/v2_single2.mp4": [
+     53273614,
+     "a6024e66db44654e1fd71381ee126e75a7ca9d835776d43085c974d77cc9eaea"
+    ],
+    "ralph/twin-shorts/final/v2_single3.mp4": [
+     42920350,
+     "fe62b0502727bc0703ca1f909ed8e26db9579cfa239f5dabb168b7acc0394883"
+    ],
+    "ralph/twin-shorts/final/v2_single4.mp4": [
+     41126292,
+     "b4584ebbc556db7da8286dc9be0a054535a3d25fcb2b9d49a2a90f842f369856"
+    ],
+    "ralph/twin-shorts/flow/1_ralph_face_glasses.jpg": [
+     431398,
+     "a9f9adf050112469e8b8f553e8ede7f3df5fbc3d6d5ddbbce477edd82de02410"
+    ],
+    "ralph/twin-shorts/flow/1_ralph_face_plain.jpg": [
+     161206,
+     "ab2ec6702f43410f08d063299f36466efb7d01edd121287a1db765e3d0987b21"
+    ],
+    "ralph/twin-shorts/flow/2_ralph_reference_sheet.jpg": [
+     325012,
+     "ab26e89f2bfee271a38823ec0ed15d03be96cb54b00b69bc305f908de817f404"
+    ],
+    "ralph/twin-shorts/flow/3_studio_background.jpg": [
+     477386,
+     "5d5a6612674ba5c495412f52872d833dd2e5281a64331874ca025a3d1fc34d68"
+    ],
+    "ralph/twin-shorts/flow/takes/a1.wav": [
+     251300,
+     "abaf7a21ef1aa5344da77d0ec49ab8a92b7d0d03d23e401e5439a00606b602ae"
+    ],
+    "ralph/twin-shorts/flow/takes/a2.wav": [
+     251300,
+     "e3fbc47753354dd2e7a73bc0b13ba1c558360e6b2561b4323ab0d76d77056840"
+    ],
+    "ralph/twin-shorts/flow/takes/a3.wav": [
+     251300,
+     "c7fea5102b97ec326408b900a397530e5e229298842f40bbc68a0ad0de34ebac"
+    ],
+    "ralph/twin-shorts/flow/takes/a4.wav": [
+     251300,
+     "8f04587c1d1caf633b15cfe526ab74db0ec447ba24e27287d7e37eea6016c7fd"
+    ],
+    "ralph/twin-shorts/flow/takes/g1.png": [
+     849836,
+     "6cb3bc4b97fecf592227e4d46364595fd97166a93c49de259303228a84c43dc7"
+    ],
+    "ralph/twin-shorts/flow/takes/g2.png": [
+     692287,
+     "4be5853c3dcd0b978082e5e31ad13b1f8cbc939560357e7a6cce75f22e2586bb"
+    ],
+    "ralph/twin-shorts/flow/takes/glasses.png": [
+     878716,
+     "986811932bfa9aff2c879dc32a723e2ddebf62912e387c2c0b42a2bd1a9dd283"
+    ],
+    "ralph/twin-shorts/flow/takes/s1.png": [
+     744856,
+     "d0f11315e812741e15c44c64f74ad495f30462fbfcdf5c1405c320990824ce38"
+    ],
+    "ralph/twin-shorts/flow/takes/s2.png": [
+     631830,
+     "bdc95921a4f9552f4e16e7f8971fc6e575cb95c98bacca67bb1c4e65c9f62240"
+    ],
+    "ralph/twin-shorts/flow/takes/s3.png": [
+     719415,
+     "b30e2a9c6de40cd675df38ac5af707023e9dd9d4f1258b1bc740cecc2519da1f"
+    ],
+    "ralph/twin-shorts/flow/takes/s4.png": [
+     636507,
+     "fd781be5c8303e16b6aaf189c3d1dae9ceff33526fa925c71e9d4b9dd86b76f8"
+    ],
+    "ralph/twin-shorts/flow/takes/sheet.png": [
+     2446118,
+     "a89ccebd96d6eb7ac95bf8e076986073822029fd28f70adcbf62607b70f7671d"
+    ],
+    "ralph/twin-shorts/flow/takes/take1.mp4": [
+     9001597,
+     "7aaa259f3451960faf2345b79a2322fc26231f3786cd3a5df0e3e8f65665cfa0"
+    ],
+    "ralph/twin-shorts/flow/takes/take2.mp4": [
+     11863688,
+     "f5e598d58720737c8c9c2296429ad0b8d9cd3dfcd59bea8755215a29a278fe72"
+    ],
+    "ralph/twin-shorts/flow/takes/take3.mp4": [
+     4977491,
+     "973216b7d290b1c17e1263671e9ab7e1768d7a0d7049e1a8f94749e63dba54de"
+    ],
+    "ralph/twin-shorts/flow/takes/take4.mp4": [
+     12341436,
+     "bc0bba7689ef2c68b88492aa9ac858cd008f83f087e8416be75dc72953896062"
+    ],
+    "ralph/twin-shorts/flow2/3a_room_studio.jpg": [
+     477386,
+     "5d5a6612674ba5c495412f52872d833dd2e5281a64331874ca025a3d1fc34d68"
+    ],
+    "ralph/twin-shorts/flow2/3b_room_photo_set.jpg": [
+     239967,
+     "f708751c91f9942c297b6f64294e3b85fbc3245107b989e30df87086cdfc2d89"
+    ],
+    "ralph/twin-shorts/flow2/3c_room_desk.jpg": [
+     203249,
+     "7b68661c2d90677c6f336bd9a36fef2881e82adb1e70b111d4d3b515e70ca164"
+    ],
+    "ralph/twin-shorts/flow2/3d_room_podcast.jpg": [
+     199554,
+     "d8e7bc57cbf387dca37213cf4688b4260e0f795f96df99f760939cabb948730f"
+    ],
+    "ralph/twin-shorts/flow2/takes/a1.wav": [
+     251300,
+     "ed3faae06225b0c2f47eb5ecba97d392e205c00d93c3d7f38add537053091fa2"
+    ],
+    "ralph/twin-shorts/flow2/takes/a2.wav": [
+     251300,
+     "f8d6e67b6bcedf43fd517ae91c88f42aeb7fd08f75b8a4ee9f85a8a211ee3447"
+    ],
+    "ralph/twin-shorts/flow2/takes/a3.wav": [
+     251300,
+     "79c20c1f8c86a083904b7aecdcc02865a2b6feb586d0fa97c39e3689b9da7089"
+    ],
+    "ralph/twin-shorts/flow2/takes/a4.wav": [
+     251300,
+     "d5b7055d4b09b1c923f74b9aaf1e50c030093325700e6bbc1c80e1dbfd34ec74"
+    ],
+    "ralph/twin-shorts/flow2/takes/s1.png": [
+     575224,
+     "fbf52cf8523c2c2b394570766b683d8bb58211648a4c09679f396280563ee9c6"
+    ],
+    "ralph/twin-shorts/flow2/takes/s2.png": [
+     426441,
+     "b19871d4797cc18ee47dc1fdb2a6aedd8b77db84f402efd2fd87a1d735da3d30"
+    ],
+    "ralph/twin-shorts/flow2/takes/s3.png": [
+     635800,
+     "de6cdf49dc6b19791ec4b4597ec57aa78cf911df48666f23b94de0f8b194c867"
+    ],
+    "ralph/twin-shorts/flow2/takes/s4.png": [
+     554536,
+     "be6eece68d1514a4defa5c10d2a2273b87109cb3b73fa49e388b5fd55e121c49"
+    ],
+    "ralph/twin-shorts/flow2/takes/sheet.png": [
+     1984571,
+     "4a6bdf63b9a1e3515f6d82812143589ed7f0fd8ce651d56ba904c80aeb288ed2"
+    ],
+    "ralph/twin-shorts/flow2/takes/t1.mp4": [
+     11886796,
+     "4ced7b8a714fd4f447721ddd3ab8a2d460361fc01ac5abf568b2d5a514693de0"
+    ],
+    "ralph/twin-shorts/flow2/takes/t2.mp4": [
+     5120232,
+     "06a66516440f565248bf7f2a53a87a710d1e15970de40879ff5ef64cc2b57a27"
+    ],
+    "ralph/twin-shorts/flow2/takes/t3.mp4": [
+     7071478,
+     "12a41d234c075efdad6a568f890b8617cdc680cac85311d0ddc8c7e12c67f59f"
+    ],
+    "ralph/twin-shorts/flow2/takes/t4.mp4": [
+     12639847,
+     "a9f07b4f7c87ed11cac64ce4aa4cdc2e74f996f2348bce1f087bfd30146e5a3d"
+    ],
+    "ralph/twin-shorts/kling/1_face.jpg": [
+     431398,
+     "a9f9adf050112469e8b8f553e8ede7f3df5fbc3d6d5ddbbce477edd82de02410"
+    ],
+    "ralph/twin-shorts/kling/2_sheet.jpg": [
+     343826,
+     "f2b56a74117144b66a08dbda3338c5a0a3712badeb23fbcba484d1f437a75df6"
+    ],
+    "ralph/twin-shorts/kling/3_studio.jpg": [
+     477386,
+     "5d5a6612674ba5c495412f52872d833dd2e5281a64331874ca025a3d1fc34d68"
+    ],
+    "ralph/twin-shorts/kling/k.wav": [
+     321070,
+     "daea21c9420dff96406d1ab33413c8a8a4f4d16ab910dbf9d84e8b7ab5bea7da"
+    ],
+    "ralph/twin-shorts/kling/kling_test.mp4": [
+     13147569,
+     "2394f7d828c653bda4bc13466588de97e63c237073cbffc3d9066bf048654ac7"
+    ],
+    "ralph/twin-shorts/kling/ksheet.png": [
+     857811,
+     "e5a5f491371731161bc3b0aeb3f752842b14b8b7a74117a78db599d6f072a9ec"
+    ],
+    "ralph/twin-shorts/kling/voice_10s.wav": [
+     908538,
+     "0fd44c22577d7de00b4c9516fce4647cd896fba26a698176dc2edd680c8a089f"
+    ],
+    "ralph/twin-shorts/pages/H-01.png": [
+     488052,
+     "1287c4425700da0eb5b17661f6c6e94a7115c0132c70eab4a0e7608b80476697"
+    ],
+    "ralph/twin-shorts/pages/H-02.png": [
+     478990,
+     "346dbf30047562af1f91181e3ad1e8a1ce2647c3164af5721d42f8bb322634f0"
+    ],
+    "ralph/twin-shorts/pages/H-03.png": [
+     454677,
+     "be2e4dccb7a7a4a99bf43fd03d7b2072b814af572f7556f88301a725aa110531"
+    ],
+    "ralph/twin-shorts/pages/H-04.png": [
+     112416,
+     "5dce72b1894c3008012d45090f6bdda13ff0565ad992de41d2b44737e8ea417b"
+    ],
+    "ralph/twin-shorts/pages/K-01.png": [
+     470209,
+     "ff68d1dd149e76e5a9b363da4ad1fc53e4d512d0ee78a21afd4d8a880fbb1bef"
+    ],
+    "ralph/twin-shorts/pages/K-02.png": [
+     436174,
+     "d2ceeed6585faf50666381075c1ec5cb2811f23c5f3e2ca8465d5c6f8a39da1d"
+    ],
+    "ralph/twin-shorts/pages/K-03.png": [
+     42327,
+     "ff174d2f7d346d41b1d2c4104a296f52167b0ee75484dbd6902101d9fac24d06"
+    ],
+    "ralph/twin-shorts/pages/K-04.png": [
+     507267,
+     "7f14fe6bf65edbcd3b2850fcf886527306e66e89dce47f49d423f9bb1dd4e1d8"
+    ],
+    "ralph/twin-shorts/pages/K-05.png": [
+     133397,
+     "13ed283080256ae6af5d5091a0794f73d4b019625bd6cb26bb58c932533f2be4"
+    ],
+    "ralph/twin-shorts/pages/K-06.png": [
+     132308,
+     "99583a5be79a6e5b6f29c23228d69655b6871c36442237e132fbd9f300bce283"
+    ],
+    "ralph/twin-shorts/pages/K-07.png": [
+     128476,
+     "4ba1cdb7c56b91222b64abed8200252eed5d54e05bffa9f18a972f3c89416eda"
+    ],
+    "ralph/twin-shorts/pages/K-08.png": [
+     458628,
+     "1251b203a354410b66a140c975a3157c7bad78a625e52b8f0c9905286b0000c7"
+    ],
+    "ralph/twin-shorts/pages/V-01.png": [
+     447629,
+     "8c7eb377c719344d239b916c097e109f5ff27495f3b92bd1fabe4da6c2c06c60"
+    ],
+    "ralph/twin-shorts/pages/V-02.png": [
+     447908,
+     "1322e9bc4b96fbe10308000c79a81166b228cf26f11b87de83e71550a0f6d548"
+    ],
+    "ralph/twin-shorts/pages/V-03.png": [
+     109279,
+     "1a8a7bd860a72332239c3f3e4fff02640eeb78c925ad54a5b7a4fa88b1f0e642"
+    ],
+    "ralph/twin-shorts/review/1_ralph_face_glasses.jpg": [
+     431398,
+     "a9f9adf050112469e8b8f553e8ede7f3df5fbc3d6d5ddbbce477edd82de02410"
+    ],
+    "ralph/twin-shorts/review/2_ralph_reference_sheet.jpg": [
+     445073,
+     "ad9774563beb2b5448881a7f2a22a0db0cfaaeeccf6388afd159f3e5d262e9c5"
+    ],
+    "ralph/twin-shorts/review/3_studio_background.jpg": [
+     477386,
+     "5d5a6612674ba5c495412f52872d833dd2e5281a64331874ca025a3d1fc34d68"
+    ],
+    "ralph/twin-shorts/review/3a_room_studio.jpg": [
+     459492,
+     "9e03141c99f0261514ab3bf858b354c562a435d4c24ccdd1d45d27f17cae1d60"
+    ],
+    "ralph/twin-shorts/review/3b_room_photo_set.jpg": [
+     174979,
+     "ecdc9676bff049a244af2f2e5e64265721c698259541d8e5d1457f694418e8a6"
+    ],
+    "ralph/twin-shorts/review/3c_room_desk.jpg": [
+     185205,
+     "fcb36e7cd5bf66b5232c421a245000aeb249fe52e331fa90348ac33d09c4897a"
+    ],
+    "ralph/twin-shorts/review/3d_room_podcast.jpg": [
+     145081,
+     "c76f8fb7c731bd0fd4aee68e5011e5c3015624bda2ea717635b0d0cfbd43f91e"
+    ],
+    "ralph/twin-shorts/review/bg_26.jpg": [
+     125541,
+     "4ccdfba02489309c9c65974ef472b293f22f6bf86b4c185101bfd29e48e17a0b"
+    ],
+    "ralph/twin-shorts/review/bg_33.jpg": [
+     131187,
+     "8c83a0d8013856d35161675856a9648c3f888e86021a35a47de3b6866e678f67"
+    ],
+    "ralph/twin-shorts/review/bg_36.jpg": [
+     133776,
+     "58b162e4a6d1962454dd7df01f0b00e18ccc2271f1e16cef25056acb38abfdb7"
+    ],
+    "ralph/twin-shorts/review/bg_49.jpg": [
+     133523,
+     "8cc7c1ff8b35d87d37664d375ae720afcda1a95c2f2892a56ba524542f914fbc"
+    ],
+    "ralph/twin-shorts/review/bg_52.jpg": [
+     125647,
+     "99561fd0d500371ebe46a876d97f633b62ef234d4b4520a3d5d666310936230b"
+    ],
+    "ralph/twin-shorts/review/flow_A.mp4": [
+     8833347,
+     "ccbc78e3fffdfc9cc520237dae0d74cc3d25d7793b1020a18b8d5a6446fb6c42"
+    ],
+    "ralph/twin-shorts/review/flow_B.mp4": [
+     8850780,
+     "82dc88cf53bfb73dfc55e0fe8e3c06ae0b9d0161177c96f7e534a206f9b0ef1a"
+    ],
+    "ralph/twin-shorts/review/flow_cin_A.mp4": [
+     9240036,
+     "82e2a059dce751d028a911ab70fb66ad554b04a069e74dd09d4a33caf116adc5"
+    ],
+    "ralph/twin-shorts/review/flow_cin_B.mp4": [
+     9343393,
+     "5205450b43a3042b8afcaf347d853e67fba152230763d0413f629c1799b8bbac"
+    ],
+    "ralph/twin-shorts/review/flow_mg_A.mp4": [
+     9236990,
+     "66012db7458e285efc57ec85be8b41dfd7caeaae770df0dac8dd53550854a93d"
+    ],
+    "ralph/twin-shorts/review/flow_mg_B.mp4": [
+     9299855,
+     "8aeb9353419cd80e91315eb40df671a3452a07dd42a13eeb508c328046e2e1eb"
+    ],
+    "ralph/twin-shorts/review/kling_test.mp4": [
+     2118280,
+     "f5f87f90ca60a014653be2fee0163c56abef1425691f9cb0ee0ab266babcd48a"
+    ],
+    "ralph/twin-shorts/review/twin_A.mp4": [
+     13556853,
+     "ffeeed2d1c6c02537c1a14686cceaf3762595d6d53efbfd280ca3d834009df4c"
+    ],
+    "ralph/twin-shorts/review/twin_B.mp4": [
+     13692640,
+     "0aabae9067465950a0524afe2ee255994dd7a03a06336f5dbd0e3193ec2e6b30"
+    ],
+    "ralph/twin-shorts/review/v2_combo.mp4": [
+     8822436,
+     "a5e749415c1736f8265533f336c1eb0d9c57fccc8d7bae7a1802aafb58cacaba"
+    ],
+    "ralph/twin-shorts/review/v2_single1.mp4": [
+     2481414,
+     "1e2168f3c9cc4bbb0b24dcc52fd1937bae4ceff88e69e45c4b5f59dc796f8a48"
+    ],
+    "ralph/twin-shorts/review/v2_single2.mp4": [
+     1569284,
+     "d4bf2ee237b46e4ea7effd91ee9f3ba82729146898f3ff2b374eb6f36f07ab61"
+    ],
+    "ralph/twin-shorts/review/v2_single3.mp4": [
+     1891231,
+     "6a679f8adf7e3ae500a7f9c3f6d59b90d676417fe6dfa8531ce91e7091277f5f"
+    ],
+    "ralph/twin-shorts/review/v2_single4.mp4": [
+     3325181,
+     "f9e416635fc5466d54a3e9e00470bd72f9913d2de97466f6ff2a8547cb22db67"
+    ],
+    "ralph/twin-shorts/rooms/cand/pb_1290088.jpg": [
+     332347,
+     "a32bf4b1830755303d91ed84f32f922bc932267dd1b79c45cacfc35e351b8cee"
+    ],
+    "ralph/twin-shorts/rooms/cand/pb_1715054.jpg": [
+     236604,
+     "57242618b2ba35f205f75ed02c824d4127baabdbc189a4a7032c169ca37b2598"
+    ],
+    "ralph/twin-shorts/rooms/cand/pb_4222263.jpg": [
+     179790,
+     "50838b1e7b916ee1a6efe5d9b4dbb3f962891fa61d8ce8c05028f938ab1afc2e"
+    ],
+    "ralph/twin-shorts/rooms/cand/pb_6199828.jpg": [
+     210169,
+     "8df67199b346b5ef6128b7d5286fed4623a28a1ea13252bb7576d47dda0c26ec"
+    ],
+    "ralph/twin-shorts/rooms/cand/px_30339553.jpg": [
+     488126,
+     "351440fed6eff373b850fc76701a4226ca8e9c9df50e239164c17b3f2db6906e"
+    ],
+    "ralph/twin-shorts/rooms/cand/px_4860068.jpg": [
+     715562,
+     "4acdf03e5321166acbd5ac6ffe656b05d4305846153420bd8c6bc8f9d24a960f"
+    ],
+    "ralph/twin-shorts/rooms/contact.jpg": [
+     134636,
+     "1e461b7761cb06026352c993697d60120e2c50c5dc4f46ad0ca65f2bacc8ae97"
+    ],
+    "ralph/twin-shorts/rooms/px/bg21.jpg": [
+     1255179,
+     "d1d3d1880c550d15b5bc7ab7029134be3ed5fa8d3909af6f7d83a67716edf725"
+    ],
+    "ralph/twin-shorts/rooms/px/bg26.jpg": [
+     620822,
+     "30da2a673bf9e503ce87b9a219d85bc6a5b5d53de49f8012ff3c0e452e939ae9"
+    ],
+    "ralph/twin-shorts/rooms/px/bg33.jpg": [
+     2348384,
+     "ace738f6f15967b6f01275d59196f21c79d00bb846696a8e5b16432652d1efec"
+    ],
+    "ralph/twin-shorts/rooms/px/bg36.jpg": [
+     2280527,
+     "70da149d9326ac336ac2e2a8beca567e6eb0bd31126f3d78f1ebfcda655478ee"
+    ],
+    "ralph/twin-shorts/rooms/px/bg49.jpg": [
+     820634,
+     "88ddfb3d1739ce6812ba95a075bf91bc4778a635a9a0619f99a5bba9845b5c53"
+    ],
+    "ralph/twin-shorts/rooms/px/bg52.jpg": [
+     640139,
+     "480e72465e12182464aededac9d4c4100f7eb509c6cac5faf0f47f4300128850"
+    ],
+    "ralph/twin-shorts/rooms/px/contact.jpg": [
+     357131,
+     "5eb5a7309475b914716fcdc68cb7e34f107042447eedccd6950f5981104082a4"
+    ],
+    "ralph/twin-shorts/rooms/themes/clean_check.jpg": [
+     43940,
+     "eeef3ca6dedcd71f517ae8494b218b047e1bb709279f0a758b675a6986ea5dc4"
+    ],
+    "ralph/twin-shorts/rooms/themes/contact.jpg": [
+     174972,
+     "6b200231c198a45b8477d3af9eba386874e9e7b29fd021a3d5c0b26a8bc78c86"
+    ],
+    "ralph/twin-shorts/rooms/themes/office.jpg": [
+     203249,
+     "7b68661c2d90677c6f336bd9a36fef2881e82adb1e70b111d4d3b515e70ca164"
+    ],
+    "ralph/twin-shorts/rooms/themes/p24.jpg": [
+     23768,
+     "1ee955f89fef57a99182eba581c6f8cd59e549423e57947359e4dedbb6e6a45d"
+    ],
+    "ralph/twin-shorts/rooms/themes/p24c.jpg": [
+     20655,
+     "c7dcfe790483c56f7aab9f0d68c603dcafbd05cf6f0d3860d559881e56d65cdb"
+    ],
+    "ralph/twin-shorts/rooms/themes/photo.jpg": [
+     196829,
+     "83376ee8fe46dbc0981e548821763d11e03d591a6e4af8f7285dad8589da646b"
+    ],
+    "ralph/twin-shorts/rooms/themes/photo_clean.jpg": [
+     239967,
+     "f708751c91f9942c297b6f64294e3b85fbc3245107b989e30df87086cdfc2d89"
+    ],
+    "ralph/twin-shorts/rooms/themes/photo_clean_mask.png": [
+     7764,
+     "9dc0bac81ed2f8e793f9b129b25d431403ec98bd8c88b56d37cbcdd61b776675"
+    ],
+    "ralph/twin-shorts/rooms/themes/picks.jpg": [
+     82448,
+     "871c5031688c35633fca406103ee10e53a84d06977d31ca8629f71e4723c270a"
+    ],
+    "ralph/twin-shorts/rooms/themes/podcast.jpg": [
+     182353,
+     "1fa43184733eccf47f12ac1f93db52f134ca6ca3ecae00260d4ee507717875a0"
+    ],
+    "ralph/twin-shorts/rooms/themes/podcast_clean.jpg": [
+     199554,
+     "d8e7bc57cbf387dca37213cf4688b4260e0f795f96df99f760939cabb948730f"
+    ],
+    "ralph/twin-shorts/rooms/themes/podcast_clean_mask.png": [
+     5952,
+     "2464a75ab8cb07c754a91e2a61fbbd1298b899ebed1a4537694bba33165df8aa"
+    ],
+    "ralph/twin-shorts/vo/line0.wav": [
+     151758,
+     "f0e3c79d8df2633bec9e1fa0d45dabf2b10d961cd70912dab0bb37bf220fbaad"
+    ],
+    "ralph/twin-shorts/vo/line1.wav": [
+     361038,
+     "627492aa3fbad1d7620f253f4df6178eb80667e1d66c24a255268ffe43115f80"
+    ],
+    "ralph/twin-shorts/vo/line2.wav": [
+     251598,
+     "43d5b17dc5e123225e1b891e67822bf42b4ecd7703bd0f44270cec05d96e8aae"
+    ],
+    "ralph/twin-shorts/vo/line3.wav": [
+     209358,
+     "4cb0bc1367ac084892a59f8461719343ce1fa1ab1c4f65979ff9e0d8aebb1991"
+    ],
+    "ralph/twin-shorts/vo/line4.wav": [
+     145998,
+     "507d6d9dd569725d4251a9b865f2dcec7bea3d0e8f2da3baf4e568b98da520aa"
+    ],
+    "ralph/twin-shorts/vo/vo.wav": [
+     2121374,
+     "8006f703f1b74ab2217c2037f43d2f88723e2b4087e701a00536744c35c6bfca"
+    ],
+    "ralph/twin-shorts/work/alpha_test.mp4": [
+     1633274,
+     "46ae3a93153dd33f2f9800e15947313f3768fa34ee1e9fea7a8af99b4fd18884"
+    ],
+    "ralph/twin-shorts/work/base03.mp4": [
+     109377390,
+     "ecd7717c4a557685432c6f93add82a74ed95628578d7d594042f1516fd862e33"
+    ],
+    "ralph/twin-shorts/work/bg_26.png": [
+     3441188,
+     "39a2f394449b23057c6d2bb2ee2821dbe4add0c21fcaa8cd520c391cd631a51f"
+    ],
+    "ralph/twin-shorts/work/bg_33.png": [
+     3625030,
+     "4b8c9e6a29750abe2f9047d09ff7c8aa16cada20823e64280752bc4cca47f709"
+    ],
+    "ralph/twin-shorts/work/bg_36.png": [
+     3701904,
+     "80dfbf5ab99f9897ab193559d86a17cea56b180b21cf49c300a391ea6cb55710"
+    ],
+    "ralph/twin-shorts/work/bg_49.png": [
+     3762332,
+     "ade66f0ec2d22f0ccf601e975060e056595c74007ba13e0d3d86e41343df8952"
+    ],
+    "ralph/twin-shorts/work/bg_52.png": [
+     3470917,
+     "c78bb2532bcdd6fb5fff0b7429aeccc57a17be293fbc6e0a9d0421c208ced600"
+    ],
+    "ralph/twin-shorts/work/bg_sheet.png": [
+     1638830,
+     "977fe3689b29312489622f63ef88d8622e2faed17d7253dfa600b0a86a6fdcbf"
+    ],
+    "ralph/twin-shorts/work/cut2/c1.png": [
+     245742,
+     "86e0c6cf7d8f79a1ba64cf3296654da894d7fbef6032473f1b7b3d76b3a89031"
+    ],
+    "ralph/twin-shorts/work/cut2/c8.png": [
+     231690,
+     "711a92c1373af4b9feb3496444e492b2186825dde863d87878e70d1da76bad5f"
+    ],
+    "ralph/twin-shorts/work/cut2/combo.mkv": [
+     57447670,
+     "84a54e2366f53d14b51189a25d4dc6c2484cace1f58e0398df116215ae089795"
+    ],
+    "ralph/twin-shorts/work/cut2/combo.mp4": [
+     54832253,
+     "362905e116f399c0f763fa9dd2ffe79d6ae1b31f31123de2246bf78c429f4e18"
+    ],
+    "ralph/twin-shorts/work/cut2/combo.wav": [
+     2611278,
+     "a19e64fbefcf29d8078e4bd55098ed3606c2fed4c6b8854be96738694f59a27a"
+    ],
+    "ralph/twin-shorts/work/cut2/ed_combo.mp4": [
+     33819677,
+     "78bad7d880eb0badb8087357e6587edb31d090123e56ed73544c9fa96b05dc8a"
+    ],
+    "ralph/twin-shorts/work/cut2/ed_single1.mp4": [
+     12119083,
+     "246fa50a016f6859d2052306ceea181a0834957be0bbd7e4e2abb01124fc5bc6"
+    ],
+    "ralph/twin-shorts/work/cut2/ed_single2.mp4": [
+     7140575,
+     "a1d787969844817b9e31e3d2b2182f5b89467547f916fc374d73cbd6f1921821"
+    ],
+    "ralph/twin-shorts/work/cut2/ed_single3.mp4": [
+     8353532,
+     "ae8207091af7ba2b9d80ac8ef27b03988ba07f4fa908d80195efbe31eceac3e9"
+    ],
+    "ralph/twin-shorts/work/cut2/ed_single4.mp4": [
+     13082262,
+     "6fc8c8e64af9bf308586fb5aa6a045c1116ded1498d7c8e7e71c36a9e12cf6f6"
+    ],
+    "ralph/twin-shorts/work/cut2/fix.png": [
+     389806,
+     "f6ac23f29cc7d7dfc3ccd98fa7a75fb6ce2d51b5d10bc4fd605fdd967367713b"
+    ],
+    "ralph/twin-shorts/work/cut2/q_0.3.png": [
+     153339,
+     "fecdb16aa1c77dce2d047959a45567ec79d826eb56744dc35bc4da3701e11b51"
+    ],
+    "ralph/twin-shorts/work/cut2/q_12.0.png": [
+     117513,
+     "cbb9619e6a958febb165da23c4dd455786a9d8fc63220ed96458267e372390a4"
+    ],
+    "ralph/twin-shorts/work/cut2/q_16.0.png": [
+     140488,
+     "60dfc3910b8ba9350132612029f2eb2038dab8f33d7ed4a3ec71d03d2edc3eb0"
+    ],
+    "ralph/twin-shorts/work/cut2/q_19.0.png": [
+     147927,
+     "3cb3e01f34ea4fd7ac26397f3d8e49130dcf3d3f9288027573e409c85cea1098"
+    ],
+    "ralph/twin-shorts/work/cut2/q_22.5.png": [
+     147112,
+     "592aae5fdef12964a844ee1926d5c79990d94dfca098fd5c23ad8d07ec7cdef7"
+    ],
+    "ralph/twin-shorts/work/cut2/q_26.0.png": [
+     152606,
+     "1d1b0e1c8f51afe24216bf41b3dc264e1a8888eb7416efbe75b7bb9c41182c28"
+    ],
+    "ralph/twin-shorts/work/cut2/q_5.0.png": [
+     130557,
+     "3ebe5d2d9e9a3105c56e44929f2d6981dfc95550e048d9619744ff7a38066c40"
+    ],
+    "ralph/twin-shorts/work/cut2/q_8.0.png": [
+     134861,
+     "ad237eaf9450670e5fe93f899f2bcbf85805e4d94d02fb70e226140fc5cc87e2"
+    ],
+    "ralph/twin-shorts/work/cut2/qs_1.png": [
+     137331,
+     "2b74de70828d24a7db54d13030c580118eb130ce3e8bbb9af4dbdba91f1e5c0d"
+    ],
+    "ralph/twin-shorts/work/cut2/qs_2.png": [
+     122196,
+     "7be95c3947503d9327abea09f23adb6e51aea737703fd9149d65524f23e0d37a"
+    ],
+    "ralph/twin-shorts/work/cut2/qs_3.png": [
+     149786,
+     "4ed9a181e1bcb245f14da8287fe18b20c07036643e216d678fbba2c1440db3f0"
+    ],
+    "ralph/twin-shorts/work/cut2/qs_4.png": [
+     144272,
+     "5bd2a1ff26a97c898add4b9981804b4e17a4f69771aaf719fab75c14e1cf38d1"
+    ],
+    "ralph/twin-shorts/work/cut2/s1.mkv": [
+     18871338,
+     "ae3b275e73a2f3439255af5976388b1b3ba7bcb43cd981ec9e2b9fd79bed19bc"
+    ],
+    "ralph/twin-shorts/work/cut2/s2.mkv": [
+     10284880,
+     "135f6260386f079544d240690d32d4a4fd6e9ba83823aed1c76032961071a961"
+    ],
+    "ralph/twin-shorts/work/cut2/s3.mkv": [
+     11300597,
+     "826345b7e2da646220092b0ce3db28641b2e0abb00c61976f45b382c1a789198"
+    ],
+    "ralph/twin-shorts/work/cut2/s4.mkv": [
+     20070818,
+     "7aad62b55e944b770632c6383182c48df6f7a800582dd525f676b881b3f5b4e4"
+    ],
+    "ralph/twin-shorts/work/cut2/sheet.png": [
+     1369148,
+     "82af6ff80d841bedf6efb5ef2b5839e4fdebba42ff10cd4137237b67861f723f"
+    ],
+    "ralph/twin-shorts/work/cut2/single1.mkv": [
+     19464803,
+     "3fee5b3175e1b7ba837348f3332bac9b75c315c50dcc2d282fcacd5bb510b754"
+    ],
+    "ralph/twin-shorts/work/cut2/single1.mp4": [
+     18830125,
+     "e585df31cb3c9bf18dd53cb584c8598c69c0832de8a29a52791ea55a874b0602"
+    ],
+    "ralph/twin-shorts/work/cut2/single1.wav": [
+     633678,
+     "38d21ca547107680807f671980a4da2d328d1fa9d8960716d0107fbfd493a6c8"
+    ],
+    "ralph/twin-shorts/work/cut2/single2.mkv": [
+     10418063,
+     "ec2bfa04f92e9efd567868d0f7ed49ca61493b4bf0304dd67a097d352ece1cc5"
+    ],
+    "ralph/twin-shorts/work/cut2/single2.mp4": [
+     9687185,
+     "b71e5dfcd7fbe66e21986bda86842fb96548bae83f65e00f48db2055b7086eb2"
+    ],
+    "ralph/twin-shorts/work/cut2/single2.wav": [
+     729678,
+     "1e2fbf0475570f5b40f10144090152d0c6a5d47d4dc36eb89c0945e838ee052f"
+    ],
+    "ralph/twin-shorts/work/cut2/single3.mkv": [
+     12754038,
+     "b37e33bd42dd6a152e1a04869968869990af936865c30b22174c057d19f34ebc"
+    ],
+    "ralph/twin-shorts/work/cut2/single3.mp4": [
+     12023178,
+     "5e63239b35ddd0ccebbcb46f7d2148518ef6aab06dd339273fd099c200abeb98"
+    ],
+    "ralph/twin-shorts/work/cut2/single3.wav": [
+     729678,
+     "c4a5ec9e38d04dea9160dec05114d4729e1bdf2dc0d57e5150685bdae646821f"
+    ],
+    "ralph/twin-shorts/work/cut2/single4.mkv": [
+     20324189,
+     "53f5a4b3e18d4413e593ae94ae10cb2bfb2dd81551cd4d7a3b04daad71b8554b"
+    ],
+    "ralph/twin-shorts/work/cut2/single4.mp4": [
+     19641423,
+     "27245471b5a8a3f2ac38f88ff566b1adc7316c7d543cf56a6e43c89dc614d8d7"
+    ],
+    "ralph/twin-shorts/work/cut2/single4.wav": [
+     681678,
+     "cda47040fa0f6e140ae9bcb4c53a223f89d52cbefbe19202039f89889887b004"
+    ],
+    "ralph/twin-shorts/work/e_1.0.png": [
+     277683,
+     "8af9321fed7b4fe60c21b6a501a5f311a136503501d1da7642e17a477fc8d90d"
+    ],
+    "ralph/twin-shorts/work/e_14.0.png": [
+     297701,
+     "c23cdec7d9ad9fc1f36542a5ab6ba9075df98688b62edcc5d273f21e25959b5e"
+    ],
+    "ralph/twin-shorts/work/e_18.0.png": [
+     290395,
+     "b4d846e138aae319e3027ddd13074a81dd949c5415717198fc9ed4d5939bd25b"
+    ],
+    "ralph/twin-shorts/work/e_20.5.png": [
+     290456,
+     "311571d8a7fad4f8a439c60942925dafe4661563393ca4bb06f00802a64159c2"
+    ],
+    "ralph/twin-shorts/work/e_5.0.png": [
+     279201,
+     "48017fb43bfbab9b1838add66d900469fdfcfa8ca2294a918cfd3ce07c343e0b"
+    ],
+    "ralph/twin-shorts/work/e_9.0.png": [
+     299063,
+     "19483edadcc69d7960a4a03a433b91d1acf1f769603259bf22f4a0beb0839f56"
+    ],
+    "ralph/twin-shorts/work/edge2x.png": [
+     396800,
+     "fcc8a070f2f477dc5ebf66b5b03bbd165dae8d97b029befa6afa0f0816fa90f0"
+    ],
+    "ralph/twin-shorts/work/edges.png": [
+     1070862,
+     "acf619ff1c6998e23be1a374980f24da742e539ce2a88eb7a31cf42fe4dc7177"
+    ],
+    "ralph/twin-shorts/work/final_sheet.png": [
+     1514725,
+     "cbd127f67f163e69f69bd2ee87abe6d2fe3161e43e1f502509fb1190a33dc6d9"
+    ],
+    "ralph/twin-shorts/work/flow/f1.mp4": [
+     7873821,
+     "16515a57a348cfda65f0859a17d6780a2e07bc0e2a91c6c5b78102d24aed7177"
+    ],
+    "ralph/twin-shorts/work/flow/f2.mp4": [
+     18499052,
+     "a92a0f799559ebba94d1d6db9f124ad94e693fb346f676c5600614a77b07fd99"
+    ],
+    "ralph/twin-shorts/work/flow/f3.mp4": [
+     6180734,
+     "10b94f1db5ccb78958819c658f9ecd2e6d0a4a2e627c98478b0dd0a1629ef867"
+    ],
+    "ralph/twin-shorts/work/flow/f4.mp4": [
+     20506608,
+     "ead95f6a169a09c51e77e9bffa87a65290e5ef2774aa9fe1edfce4d9027af9f9"
+    ],
+    "ralph/twin-shorts/work/flow/l0.wav": [
+     89302,
+     "8e3904f4b2f944d526c1b2225fd01b5de15605373256a497ce562a2ad1ec7f74"
+    ],
+    "ralph/twin-shorts/work/flow/l0p.wav": [
+     95702,
+     "f7d4ab9fc0acdf4d9ab3a2f5e8d9f78130dd465e9b11b381d127da9e503e41d6"
+    ],
+    "ralph/twin-shorts/work/flow/l1.wav": [
+     224202,
+     "bd8aea0fd976111869593b20200d369fa8c49cb8889ec44bb86970be4661fdba"
+    ],
+    "ralph/twin-shorts/work/flow/l1p.wav": [
+     230602,
+     "f38a2adf6c075c9f0b56f86bf1cc1dc58e438d6c75f1cb664351c6ccdb580744"
+    ],
+    "ralph/twin-shorts/work/flow/l2.wav": [
+     154722,
+     "556ebb75f2dbf756aa3a6ad2850e8e72ca4f2a2659be95dfa08580a441c5dd9a"
+    ],
+    "ralph/twin-shorts/work/flow/l2p.wav": [
+     161122,
+     "c4af0ecff4355d3375b26a928f4cad5653adeb75ad279e5fd976bae54c422efa"
+    ],
+    "ralph/twin-shorts/work/flow/l3.wav": [
+     127522,
+     "3416e74b7d175cb318a554dc5efd6ed561badb0efe804410c442638b01858f79"
+    ],
+    "ralph/twin-shorts/work/flow/l34.wav": [
+     218390,
+     "c416916aefecb35a8c41451eca151170410c77bf5251b99d0f363cd8249ebdf4"
+    ],
+    "ralph/twin-shorts/work/flow/l34p.wav": [
+     219990,
+     "71150669afb11cdccc8c61db9f6685c353c27482914404e2b7fac0477b166889"
+    ],
+    "ralph/twin-shorts/work/flow/l4.wav": [
+     79746,
+     "a5ef4856bfff9775fff5589952894f376e34dac107f3de275c0c31aec1b83168"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f1_l0p.mp4": [
+     1745423,
+     "f706fa9e9bd9ef849c52a5b27eea713f2a9c55fb44e2250fb02d66ecd0be7df5"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000000.png": [
+     2302180,
+     "08b78ea04e18c2eb8c73c77423033cc80ee7e3dd2fd42b7c4078436ea1e82e6b"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000001.png": [
+     2298665,
+     "9b9f5fc81bfdb3117aafc228069f856d90f723552a1c02cb9c0198b0544f5926"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000002.png": [
+     2190491,
+     "934ce1091f677f419c8982537948f88e73883b5a39d7839ba28c2cf5d4399ffd"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000003.png": [
+     2167580,
+     "ad6b58a677afbddc5182cf0eff4c2e6794416e4ac458c08f4af40e98613fd0f2"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000004.png": [
+     2233831,
+     "7c8be98a996ab340136b6d749760a13994737879178d91f251cfd93ddb052b51"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000005.png": [
+     2284376,
+     "ec9d770aa9505220b82aef0a5465b0831636ad310c9b22563be1ff80ff392f46"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000006.png": [
+     2306496,
+     "bcef350f35c488cee382634fc6598664347affbfda100002c2f00e408d5c7adc"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000007.png": [
+     2343870,
+     "4ef310270ddfdc1f3fc7622bb501eeef0a974ecdfc149c0f35f783fdeb1f20e6"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000008.png": [
+     2372762,
+     "aa3b26d8e0bb3ad2e7c2aa8ea8a8fae8d9355ce555bc82fe5b323901daaa4451"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000009.png": [
+     2383432,
+     "0e6537ca270a260c711457666e2e37290a44c5e4288b49f47f9d0b3d1ab6ddd9"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000010.png": [
+     2404086,
+     "9ce7db3ea3261414f025cae0c1d75bdd8f4e18e3f812fdec4eda75025ec62039"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000011.png": [
+     2389627,
+     "d20a21e1190df478d840e3a8339c006f080ea89d88fcedbdb856a5bd6efb622d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000012.png": [
+     2385537,
+     "e4647c0375759e540d983749ba660ac8dc2d43e14d71fd0c0bbb5444eeadc4d3"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000013.png": [
+     2416048,
+     "db9912ab4e96d55f933a4c25ef86c989d34f510057c8bfea63d55bb4152cddcd"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000014.png": [
+     2426637,
+     "5bcc92685624c7e3e137ce3dd2aa94a13869c2d46e507ca2d42d5e85f632c225"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000015.png": [
+     2429480,
+     "2cf2a211515f7c136e0324b3e34e1b2204ad1aba70521d1156240abd7d50d454"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000016.png": [
+     2420956,
+     "1ed846b1f4e7b215b076d1b486b9747d8bc6c136f2ab6f84dfcc8ae16c23b583"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000017.png": [
+     2460128,
+     "b1d444c1ac90da9302d277b6577fbc8b1acda783f8ed4a96e92dd1166e53e0ec"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000018.png": [
+     2436452,
+     "5f1b1bc80460ff69458c5dca5cc7c7b446c42d281cc71179b69b2372dd5d38b7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000019.png": [
+     2447219,
+     "f324be0532709e49af68322c12a3a6f627d871c51a2f689856df2b934019af19"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000020.png": [
+     2439383,
+     "5a1bc8fa43e23cf5348d770d307c9be6590956423905b267690bd38acfddc2a7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000021.png": [
+     2511324,
+     "d4851a717b46c310794cd9bb03690d37690aee36047bba863e0c1a4f0ac0b3e3"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000022.png": [
+     2509177,
+     "d6142a77fb70ba579cfa0d9564897c0693bff5b001efe612a3c2b967470e712c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000023.png": [
+     2558505,
+     "9f7cd3638cfa7898c26176ed1cfc4e3dd80747997a1022a94977414e9e51cbf6"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000024.png": [
+     2621586,
+     "074f9fbc33a56bf93ab8e4c64df51876d3390df5e9757251c29126cdfbaa93e1"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000025.png": [
+     2644575,
+     "f19535f6141bbe1c3c41d260c8d3fb65c3004b3b559044fc23a8b2fd8361b2b2"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000026.png": [
+     2619069,
+     "b3177dee538df83014cbafbe296e0c2bac4dfe7499e3d3a9b847dee0185b41ed"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000027.png": [
+     2549534,
+     "b2b518e916b72ece5d79adba32fdd45ef84f991238720e59926bdddcffdfe8b7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000028.png": [
+     2576050,
+     "f097824bb27c8c5536608458c59278f01c0401418797cfe67db955429dbe9091"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000029.png": [
+     2675381,
+     "f67c64e38e623a92d9fbf9f8bbe3f8bf1d98e70a1de24eee64016a8f1b40c568"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000030.png": [
+     2662273,
+     "ae4f4a8882d742de1fa9a89e1c372ecdb0f97ed033199d2c8b5aadf53168686d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000031.png": [
+     2702151,
+     "ea30bfe973bf13c96e7d675874448c7d6b7f65cd7513946c6bd8cf05afb57e22"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000032.png": [
+     2710131,
+     "b61f65e362713e4d22a00bbd8637e6cd7bf70e337d4362a72eb25d1d1e735ad5"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000033.png": [
+     2728361,
+     "8feacc25a7bfb9647e3dd55510c00d64b871e4e81b39d7dd3764d8685067cb3f"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000034.png": [
+     2706904,
+     "227dabed7d893bcebb116f1a18faab6567fa2c854852137959077991036037a6"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000035.png": [
+     2694281,
+     "5cb47afbd8220c362aaeef561213e7000a3092f977132d9286bc3152a823e358"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000036.png": [
+     2701255,
+     "b13da3717ef468fb8575037ce3fb9ca2bdbe14b125ea7e10c959548132e30a2c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000037.png": [
+     2698692,
+     "5e43d5086fc4653a5de6363b66f5ba73ec0a23d0ba7eae0921a9cc655ecce12c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000038.png": [
+     2719431,
+     "49059b8d8bfb8a25ddb47879fd7bbab5b0409ad4e49bcf67e40ca67263d00880"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000039.png": [
+     2717753,
+     "9b3297b4398e427248d4089ca9912f3c9790c85c2b201fdbaff280c77977a8f9"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000040.png": [
+     2689491,
+     "39b37a1797826a2dba031da83feb83e294074be3cdb5f573e6ee9cb7d12a546a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000041.png": [
+     2702842,
+     "0be7aee9068465e34c4a2473125bb341fe81ab2f6b87e64f4543796b18c9497c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000042.png": [
+     2713363,
+     "0423b5a831e2a41afd68c529eef5ea9f24b39164ef4707b20a99719cbfc4b4d4"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000043.png": [
+     2705272,
+     "b7424b0cf342b7fe191db10bdfc9ec7fba9f4147e139ea6ac6434ddc4696485f"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000044.png": [
+     2642478,
+     "a153c8e0bb0e57596ef368b951fec13f238c7fbdbb7c2e68ae3d610737815494"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000045.png": [
+     2634202,
+     "d97b78ccb4c5eceacd6a65af332efaa980c961604d4d364b498eccafca8c4b92"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000046.png": [
+     2646955,
+     "f8cdb1d7c477eebc7f75fa2e93b0b7e5ba00574efeceead20462cb43db1fc285"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000047.png": [
+     2650662,
+     "d5d9649441f4b900a588c6fa1063bb9af6c3ff1f851491c87a9ef525ef18a882"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000048.png": [
+     2682655,
+     "f9e2657ba047474e11ad50f868c0c3235d8c51844148269fb75b6873576006e0"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000049.png": [
+     2700284,
+     "26d9e2c7082f79aaa7c4061755a4c15fa07097701df866fd9e809f3f41832e62"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000050.png": [
+     2714977,
+     "37b7aeeeb63bc9b0e4c745fedc6e566b02aad07cf997da74a079a238ea91a238"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000051.png": [
+     2702390,
+     "fc394957767c4cfa6748af73500f6d3a3868b3ee9d9b67fadd3995c9e3254b3e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000052.png": [
+     2683912,
+     "06cf9c0cf5ff1879bc2d0a250407734d2de835c1972142459d639d9e0b4abff6"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000053.png": [
+     2684376,
+     "2124ee24fd1cdfd651d20e2bbd4d3e9c8254655805a3c7669214be78ed1e4dde"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000054.png": [
+     2697136,
+     "277d90165e341a1475d04fdeb8ff75603c4e3f69a936023b9fae40b8e6d0f758"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000055.png": [
+     2684348,
+     "d85a338a2736adf02ba2894807987d061f470832b93a7493077ef1452b3671c0"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000056.png": [
+     2711135,
+     "e35853cefbdc192f5447b277d089f6aae31411616ee541485eb358e68b027ed4"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000057.png": [
+     2754525,
+     "865759203cc685f8a72f50773d302f024c71147977e2c5c77613cee69052905f"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000058.png": [
+     2762109,
+     "22b592a8db0aae911ee3045b339325464221ce5e74a863028e66708cece10fed"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000059.png": [
+     2746596,
+     "90cde19e6468dee6425d0184c167b715601b4b5c42dc3b829d4e0dc81f174ed9"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000060.png": [
+     2704858,
+     "d4c8fe63b47384bcbe2157f22cf547f30a1654afeb2231432f9f12ad5ca87f5f"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000061.png": [
+     2704672,
+     "ff3be1ef668dea0576c8fa066e054dbc86e355177ef220feb9ebadf108164f3a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000062.png": [
+     2701162,
+     "4b864c44c2ebe82ba9b07af57514f95b6da2c6ba7be0e573f9ece229bef0b7c2"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000063.png": [
+     2735082,
+     "f17456ed81274d452565f24f35eb01372b0f071debc042e65ca79165bd7419a0"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000064.png": [
+     2717569,
+     "c8591ed71194586e8e99bb0f481af55bfdcd8f362bd2f27a556105b0ee7eec63"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000065.png": [
+     2749077,
+     "c21fc3f7bb4d4300157c9ce3590e803697871e331fce44c90ab847d51d1bdb7a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000066.png": [
+     2766666,
+     "50f26c8360ff58f0a871184cbba1741f5b2c628da60b303610bf84e06d902af2"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000067.png": [
+     2795729,
+     "c39c34ed9c16a94316b1cd5d3497a7b4e8457418c5d880f0a8d94f7b79b3530e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000068.png": [
+     2772703,
+     "4aa65fcdb9b4647dcd601eb86ec10fe8bb33ce0f87a21661faa1d9840b905c5d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000069.png": [
+     2759628,
+     "bf2610798d41102762230c24654588fe78776608fa69c1fd77a27bdddd2fb2ce"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000070.png": [
+     2743754,
+     "d13002b3f76ee88bf760dc5a36378eebe1303fd6c0b8024e8649c8452bc320f0"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000071.png": [
+     2744538,
+     "a9553de88d9aab558abff552d6fe33c4056afbfc088eb06e89dd9f3eb07430aa"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000072.png": [
+     2719579,
+     "b98e1a9d5dbf2ad72ab7b97df269642bff50c56531e0f2e50c4bdf01bb65c617"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000073.png": [
+     2709375,
+     "7067badbfeea37ee245d64a784b75b03cb40e3c571bd0ea6158895ea643b70ac"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000074.png": [
+     2706019,
+     "f0c94ae7004125f49f3953d33a21afdf8a6eaa808382eb13c41389a878f84c6d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000075.png": [
+     2725519,
+     "fd1c5f2cb40e5bcdf584f4bf4d413f2b40f74672b5720aaecbc4b5e7e3637e4c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000076.png": [
+     2660429,
+     "4f6719419d49cb11245c6a7127dc7fe3a33cf4adfd26fbdf8094abeaaa4968c2"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000077.png": [
+     2643073,
+     "ffa609ac52f74bc8d0899b68b2111be489fa6d19cdd563422708d0f2722a890a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000078.png": [
+     2665927,
+     "5dff6487d18bf3deefeeca6737c9267b0b3ded01a2edd1a589f19e552e83e738"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000079.png": [
+     2701439,
+     "3722f8444239310b339788b7dbb94a56bd84c08dfc5b858ebb313f18af80fdd3"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000080.png": [
+     2690210,
+     "7cc9e85bea7ce537d1a21cca5e8245bc77fbdf2972e7df463acbe6767285fb14"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000081.png": [
+     2676791,
+     "9c04616929ebcdc3d6c210fcd0f0280dcbfccd96003c5a615d302ec1ddea7a20"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000082.png": [
+     2706634,
+     "d117c8765405ffcf0b34cb4ac8c18c48787e8a83c17ca251ca9e077bb849b51b"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000083.png": [
+     2760005,
+     "342f7b5d5c7c588d3ca7fef0f0a25ef8068a712e8bfc5680678e450a2042c8ec"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000084.png": [
+     2743623,
+     "863559617a30282dfda6c6bc2121f44f6b3f2fd007e98746ec57bcd9bd9f5bf7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000085.png": [
+     2724226,
+     "eef4f66c562bae8656c45f1dbc8c0c135e86020a7e691562e7b84432157c9864"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000086.png": [
+     2610294,
+     "2ecaa1a9ff0b5502c2397634fd87af3595aa9c4014e35ec1ada3b8b8493d3072"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000087.png": [
+     2608689,
+     "5c95d61eed470c3b82952554b1b8facec18270a3a8ab90f8fe3649cdb97844bf"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000088.png": [
+     2689284,
+     "da23d98996f3787958168a29ea20164bb58ccf868c057418c92b1ef510fd5913"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000089.png": [
+     2690739,
+     "4ddd6e7f5515c00ca850bc29cd17502c0a31dbe975ec0c57d16b591383e94560"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000090.png": [
+     2704744,
+     "7368cdad583d3f700f77b8c1c41d5c5d755a687e888107077ac6e81615969020"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000091.png": [
+     2737973,
+     "0dc805a1bec102d68cda2456a5f471eb2a3f8d85e4cca9f22e6e52634caf33e1"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000092.png": [
+     2766010,
+     "2452fe7f105984b712576408b43c575be2b92866a6b110d59cf7ded02eaa1572"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000093.png": [
+     2740512,
+     "b95af96eacf01c39e787f3e1495fcfd08976ac9b8954eb22077eb74c2c831aa8"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000094.png": [
+     2729710,
+     "2186a6dc4a4e7ebaefceb2997a5ee8835dcb8c12dedad9219fc12338d6af16eb"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000095.png": [
+     2602738,
+     "508d9c7e2aa82bac9a9a8e8505f725517dbbea3b7a1f26e78ec5ac221c79b295"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000096.png": [
+     2722685,
+     "c6d552825771cd4bb7dd94e1b7b986f4746215995e1ee05042ae9fc97291477d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000097.png": [
+     2737790,
+     "5fc0cf9d702828483aa85358d2580965bcba4a8b2355c28dac497ab1e48990e2"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000098.png": [
+     2755768,
+     "fb6f35708dfa54e2e1245616506e49ecf8c037d2033222c2dfd9a4b8a6c2d8f5"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000099.png": [
+     2799679,
+     "f40f0ae8543f4f65afa857f510616f511520b490011dd5716daac6d15a13a94d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000100.png": [
+     2802622,
+     "b8118a7b99cf0471450e3c7d4e95231e305fc19fdf7a0392ac9ea6fb8d847075"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000101.png": [
+     2790669,
+     "c60c32961f10a433100c1fe6b831c62584a42220a0632da77e5888f8f9c06f16"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000102.png": [
+     2777668,
+     "8403b3de356d9d89cfe884bbc472f6567220e8581a7db81e00409df63a9b7d0d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000103.png": [
+     2707955,
+     "3324153b7c52b24840f7cb9199f7c4895523c26d5ab1ea3666ed8f76014738f8"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000104.png": [
+     2633580,
+     "896934605e9e685835956b371fa906cb453457be1e29c904de1aa06d0108661e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000105.png": [
+     2595551,
+     "69869c208bce2a51721fb6a2ecd59b0f47cf310399a8c9aae8c820a1744f2b15"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000106.png": [
+     2608768,
+     "e3d3f2fbae14a038d759a87a7a4feeaf0c95e59eb962cc0a5879d0aee30119ba"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000107.png": [
+     2669639,
+     "77b74a68e1bad52ac84b304d252ed7083ba8cce53844d4ed62e9ebbe7a7bca78"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000108.png": [
+     2684312,
+     "4b467975d0fec1a0c2606f32a6def2b868243fbdd08a11a539de4acc2956527c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000109.png": [
+     2666761,
+     "a9c089a3e8d9b7d059977a74b797a79499812135c9666f254df0af7e2e9aee99"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000110.png": [
+     2661827,
+     "5553dd8d472a8595b299cb388067ff3f3bd999c01e1975c8cdcfadcdce1e863d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000111.png": [
+     2612270,
+     "c824e339d6949ec638a5f7ae022ab9d15a07be48ac850a9aaed77aecd089e1d7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000112.png": [
+     2615125,
+     "109b1d0859affcde0192b5a722c89d3c5da3e43453dbb8deb1269a5d29f36157"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000113.png": [
+     2608249,
+     "35da09c164a4ade519321793a23c56c4de45726a460990e10da253d27d66aa79"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000114.png": [
+     2597451,
+     "23db9b7195d4a737dad5cffb7c20eac929ef65fbce7e854b94cd934ec64b5649"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000115.png": [
+     2599629,
+     "5b0e645f75ea3e0e52c9ed384b6e57a6003a4aaaceb363e85621d4c7c0adb196"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000116.png": [
+     2576782,
+     "c05d03207825346e12782702ee946280203f7bf58babb9ebb1a7cccad21cab3d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000117.png": [
+     2667355,
+     "dde966d9da890e8ea1e1aada0438edeafff2a908586265ead4fc9131acf176c1"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000118.png": [
+     2667178,
+     "5b0117ba946fda16e3015c4e79b26b232d4e9c5a0f7be5253b99de6728a1c1f9"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000119.png": [
+     2655011,
+     "82df35ab12bf95339350c96a5e3935082ac0d3b051c1938c8298dfc22ae9893c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000120.png": [
+     2639505,
+     "da123ec36119dc3e2b7bb34352ea461f1d81ee3f0444a8bc1b9702b9a99c8c08"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000121.png": [
+     2431041,
+     "83868bc04da932c6f14a0aa26aa33c8f460c163c02c4f7f113aa0f0282c96496"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000122.png": [
+     2449973,
+     "dedc4bfda47ba2fc87aab336a1946663d5e1e5ec190603ad5a1fe5313176c36d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000123.png": [
+     2476875,
+     "771ce1773864025665cc789fb48d7b5c7932aa4c43e6c60ca1a9e1b88089cfec"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000124.png": [
+     2506452,
+     "b531cf5aeb8656d0e3e73a4833fad2f6b41de74b7ae1ac819131b59e469e75a3"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000125.png": [
+     2529489,
+     "8ae98bc1f84af6debaaea2c568b0fee20c6d17b69c37aa0c12ec3eebc6d65b9a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000126.png": [
+     2510145,
+     "1598c26baf37f117dc0e74c152297b481182e6bd8ddae4daff9533dd4568be65"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000127.png": [
+     2517528,
+     "a1524ff8010a2c37674e120f6e65fbd03405bec614fc3e3edba7e060677cb81f"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000128.png": [
+     2509837,
+     "6d1007d8265b3917e5216829490b3f313f925176aa38e2c1efdc2042641c0a4e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000129.png": [
+     2518890,
+     "a24943decc4564ce4e582c59d7db6a02011b279df4e413ff0c1eb2fa07ca14a7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000130.png": [
+     2504465,
+     "d14619f684785ce303b3e564a4c510341da220607181f0e06af6d36f3022861d"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000131.png": [
+     2514098,
+     "05cd62bef1b2f53b866b189057c900b8402a3c9d4248ec7aaf00657a85161264"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000132.png": [
+     2514831,
+     "7ae9ece66230a0222c8d421b2acb4140ee405c057d59bfe015da1c7ae1da5ebf"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000133.png": [
+     2559562,
+     "fa5cb5f144051f89e2eb804833f79014e1c5d38d7309c1b9a6f13f1a5f4683ce"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000134.png": [
+     2511473,
+     "85c7329f43b6c07de0507935dff33c284763b68d52e9c7e742528a6e6f6566db"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000135.png": [
+     2467343,
+     "2931bc1fad339c8881e91181768875598455a18537643b2232e205340d6e4238"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000136.png": [
+     2339375,
+     "2516aa9209c598a2fd030343bfceb1d372df21014b241fd309344da214c84b21"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000137.png": [
+     2336293,
+     "9a4d2f853e762ac8503efcbce59cf8735c53e107f3fdc47ac6ebe9d06a3c3f45"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000138.png": [
+     2394471,
+     "944e747680a5d1fedda8fe1e2a2e4378e0c1a887bef0a6fce2331a4f4b3eef6b"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000139.png": [
+     2392412,
+     "04982399e853226123f136e4d9a0edbf0fb7b945ef3f23f072cbc184e064343c"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000140.png": [
+     2421834,
+     "25193dacaf639606f22ab1e9e8f68547fa018c1ef9217c99d9401111d48d8e05"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000141.png": [
+     2485815,
+     "88523cfb7079e8c8bff148b47c9addf18b4c77aa7796a4448a2ebdc4b9f8f336"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000142.png": [
+     2547383,
+     "eb0072f081d8e854231120df87c0ff65a6fc04f30abc7959f204148ca81cef55"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000143.png": [
+     2518563,
+     "8754246cbebb511cd78ac44443ee8e869a882f63007edce7900f8db5ac8ab334"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000144.png": [
+     2464225,
+     "4fbbbc132d62f95505550f6753bb667a3f6a420e4c2f8e0dfb9ee7940d0bd4a8"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000145.png": [
+     2341037,
+     "28e6512bc508dfe7d15b8306766590e2a44dbfabeeb98624929e3dc62bc6bf43"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000146.png": [
+     2386487,
+     "ac26e67543eb680169a166885841a6d7e473ce3f14bbf20da1181a5d54e2e42b"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000147.png": [
+     2371913,
+     "9941748c45a52979ab11921bfcf31fbbdb574629da30c2f9d2f0b6f58b9b8122"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000148.png": [
+     2363260,
+     "b25af3c1ca739784bafd7b2ae53d4a72f18fd66a1e5f768d88cdd12315b0ebc7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000149.png": [
+     2380882,
+     "0ad9f7f09ec608c8d2bb1a6ee81a3d1d8295b21e05ede4041674c13a2cb158b1"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000150.png": [
+     2498189,
+     "576607d9a88f5c1e3e5fb0dd935097858e3f1e2b435aec229a24f5939b638f34"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000151.png": [
+     2510826,
+     "2cb62f7ce35971c9f3247b6873adb42eeb1f25feb299465165c811f9bdbd0931"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000152.png": [
+     2503935,
+     "794ab6bef9fe603842f372b6045d9c082eebc6994d3d40e7c172b412b1e44982"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000153.png": [
+     2433118,
+     "f3d2cff3d632bf163ad075c581641dabfa03438efeeb1bc46954fc3b373256b7"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000154.png": [
+     2518791,
+     "da75bd8037f0c8e104daf130533887c55bd2dcd4e23626e10df28f026c90d03b"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000155.png": [
+     2534693,
+     "7ef404163ddd6555ef23286ba99fd3f32001856564f06aa036af659ace224c61"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000156.png": [
+     2509782,
+     "424c78971b0231ae3bb4d794e24690b30607ebd2ed52f972f6d4cdee94dec226"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000157.png": [
+     2406291,
+     "8b1235dd9642824d34d05cb4c9badee6b259a05dc477cf8c6fb4a57c23554c4a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000158.png": [
+     2472661,
+     "d3713faeba9f7c316a5c2075f8adfc9fa71f31df9a68e0c84aa50a99e47a1edb"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000159.png": [
+     2519241,
+     "41e6a7238ebda477d99faabaae70af3f05532785962c42e7cb86bc60f29752c0"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000160.png": [
+     2551437,
+     "27071a62d315dac4c2ac9b760154a7258bc2165712a2b0dd634029c7fa96dcef"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000161.png": [
+     2572625,
+     "3e4af77c56a59e8d4bb71ea756ed1ffb4d97a523878fa6779a5c470171adc838"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000162.png": [
+     2577729,
+     "f9b728d354f28eb781bc101322b453443d35de6b24b1557cbb0d4a7c8b91f85e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000163.png": [
+     2620044,
+     "d93b705c8f3893c6f5967815de0437b9f893e8325973938364b165338eb811d6"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000164.png": [
+     2630063,
+     "874974fadfcb6e1281086cf1e422599e6ce102e6d6f186826423b20743984280"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000165.png": [
+     2638845,
+     "4175044ced579671ae820892ca519d32bdb4b3d70fc2b1032a3f6616c26c9e08"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000166.png": [
+     2659487,
+     "afe4224ec6a10a46c993cd711eba2fa18bf74a6112e46df39abb1b4c0efbde64"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000167.png": [
+     2658271,
+     "7d55d6f42a2201912a481c38152bca84d7bc3c53e16f211082d0e2aaf51246d8"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000168.png": [
+     2651612,
+     "f8a1ddfd583ad0a97564103dafce52d9c82bb6f8568320a83268deeea8c3c4fe"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000169.png": [
+     2652265,
+     "b4c057c210b9e27b1c115851a7bd058a72974c0012ed492c7157f01d0522892e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000170.png": [
+     2662492,
+     "d3d32c9b316b30b82ff989394514ffbc181f555bcc90e3447ccf5671265ca5df"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000171.png": [
+     2668851,
+     "f3e6ebdc98ac739be23d5fae19790acdcf62609d3388975675ec8ebcec1701a6"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000172.png": [
+     2674105,
+     "b5e9a6eff1d1ab080914a9be0dc8efed44943d8bee2254b43b2b3d98acd22a71"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000173.png": [
+     2686133,
+     "1afff63b0ea6374789d4244940b92b5c5334c239d0c74867c785f2d5f0d18805"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000174.png": [
+     2695473,
+     "743854823968302aae13bbc2f70ee20597a4854a2ea9da35411173a716479bcc"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000175.png": [
+     2691237,
+     "2ca25520171fde5652accf94304e24cb2057bb4cff7934e91a5fce133931f141"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000176.png": [
+     2681209,
+     "7c6207f4edd895ef58df5d27e3efc7e6c27fba34355f5eb924107edc148e1527"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000177.png": [
+     2696014,
+     "4c21e1c7603a20a3142d8936320e8025fc2cd0ee3f2bbfbd07a4b52d19255ed0"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000178.png": [
+     2691557,
+     "735b2f2ffd17b59098f422caaa1348c817f13231c1073ea30883aeb6e2594b7e"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000179.png": [
+     2699114,
+     "e448ac4b4f60060ddd53327e08ba65eeae97ce2d0c153e9e6c19f53ec9cf5d9f"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000180.png": [
+     2699955,
+     "480ed7ec0ab6394469b034863a8ff0ac6feea7720cf7842ef040b6abbc68e3d9"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000181.png": [
+     2699999,
+     "6fbdbd3bdaf8f79dd93960f59e228b7d8b173e2b0b0a1341eb9227c0edd6e76a"
+    ],
+    "ralph/twin-shorts/work/flow/mt/v15/f2/00000182.png": [
+     2695627,
+     "b78831f85d80d2241015172ba79c01e2e8fc60855e4fe46c6e01d5a9a210ff3c"
+    ],
+    "ralph/twin-shorts/work/flowcut/c_13.0.png": [
+     146922,
+     "de40ff5ee0bdec340ae656ba4db1682e6e9f71d746944878732f79d9d9a1c2b7"
+    ],
+    "ralph/twin-shorts/work/flowcut/c_17.0.png": [
+     143412,
+     "7423aab605c0a08d0c098484e680fa93194b00f2ec11f6757549e9821ef777d3"
+    ],
+    "ralph/twin-shorts/work/flowcut/c_19.0.png": [
+     144106,
+     "78122c04ac09e0912ded1f04d1647dca52ed715a8c785ff17582cbf287404f53"
+    ],
+    "ralph/twin-shorts/work/flowcut/check.png": [
+     365186,
+     "e4162fe85f5f8178f343215094e882859389be3042fbcfcc18c238eaf25029af"
+    ],
+    "ralph/twin-shorts/work/flowcut/cin_A.mp4": [
+     33611582,
+     "30d4aab786a46d19941414a35821c7c9720f933de824e9e06804d527a8669ae9"
+    ],
+    "ralph/twin-shorts/work/flowcut/cin_B.mp4": [
+     33676139,
+     "dbabb511d7cbd3b3058bd1b4ae171b04cd8022df1ea9cf0b613e50cdd8837289"
+    ],
+    "ralph/twin-shorts/work/flowcut/cin_final.png": [
+     954602,
+     "cbf07907b1a891d115d6b9c7a47028240d927ed047ec3039df958c0f69e79996"
+    ],
+    "ralph/twin-shorts/work/flowcut/cin_sheet.png": [
+     523117,
+     "7e00a34e0c7db764abff2c7d104e536f41cde27627904cd4f4c64ca70b1b164e"
+    ],
+    "ralph/twin-shorts/work/flowcut/cin_test.mp4": [
+     2973883,
+     "db806658ad94063633cd660d5ab84a4c6e598d7650a44c2d570b271047f6cbd4"
+    ],
+    "ralph/twin-shorts/work/flowcut/f_0.3.png": [
+     224848,
+     "839cf52c20cce8df6050edf5bf743944defbfc1589584640dec9a69c042ba6fc"
+    ],
+    "ralph/twin-shorts/work/flowcut/f_13.5.png": [
+     199646,
+     "16d858f6cc2503d887862ceaa6f73d10999112b8cc5b1a6e0df78e08756759a9"
+    ],
+    "ralph/twin-shorts/work/flowcut/f_19.5.png": [
+     196656,
+     "7c3d673cc18d1226d53665dbe72ae30866babaca8cc044f186f90dc22d989ba8"
+    ],
+    "ralph/twin-shorts/work/flowcut/f_23.5.png": [
+     215691,
+     "9cafae51da2eb38593871cea8215e172211f78106268e178a54bfb655f5188f0"
+    ],
+    "ralph/twin-shorts/work/flowcut/f_4.0.png": [
+     197346,
+     "fb88fb1842776426c3a360ca410fc421dca3b14a7d0f3d7a2fe67744e01544f6"
+    ],
+    "ralph/twin-shorts/work/flowcut/f_5.5.png": [
+     204909,
+     "cf1988511c21676bd0160ca4fec8d4275dcbd695f38c177b3bcfabd292c4d4a0"
+    ],
+    "ralph/twin-shorts/work/flowcut/flow_edit_A.mp4": [
+     32865107,
+     "530fa09e38dd27ca14950099953bc687a74c2fa4700d0781517926f89e699e17"
+    ],
+    "ralph/twin-shorts/work/flowcut/flow_edit_B.mp4": [
+     32776732,
+     "8accc3cc3d811fee47aa0ff85c9c2b9cad536f0d1e45a19a70320276acaf8f46"
+    ],
+    "ralph/twin-shorts/work/flowcut/flow_talk.mkv": [
+     56885817,
+     "3555cc441b1c339b59f88fa24d9e903bd73e0ff6fe3b430f80f0f6f3229a3b02"
+    ],
+    "ralph/twin-shorts/work/flowcut/flow_talk.mp4": [
+     54424254,
+     "92e7d5a32701d5e352c2fbc8e9bd9f90b334d71e2a17f577c29dd87945f83f59"
+    ],
+    "ralph/twin-shorts/work/flowcut/flow_vo.wav": [
+     2457678,
+     "7096d38efc52dffb50d5a5c5cd66c0f4ddbd6f0ca5399dc94cec93d7a8eeab64"
+    ],
+    "ralph/twin-shorts/work/flowcut/g_0.3.png": [
+     155193,
+     "031186ff42c5d371f85117fe5d7beb32e2728782c2fb646f852bf71f86d18b51"
+    ],
+    "ralph/twin-shorts/work/flowcut/g_1.0.png": [
+     171183,
+     "8b86deec580e6d8a41a7f60d262b86e558f8644c79594c324759295b95554a8b"
+    ],
+    "ralph/twin-shorts/work/flowcut/g_2.0.png": [
+     174010,
+     "e82c5d0d01513fe92103763a9e49366cd0e6b10a58db00e1a0d9415f69522328"
+    ],
+    "ralph/twin-shorts/work/flowcut/g_3.2.png": [
+     180498,
+     "76b6521c2733e4f670d00d19eb3eb17f7481cdf01f722fd45465bfc87aa897c2"
+    ],
+    "ralph/twin-shorts/work/flowcut/h_0.3.png": [
+     167861,
+     "bee43ba164b02becc84c9b8834521ca439fa25e52581683af90dde2462389d12"
+    ],
+    "ralph/twin-shorts/work/flowcut/h_0.8.png": [
+     169754,
+     "f9749ed316011b2659f678065ed228429576d9bdb2067ee8d16e26bfbe6e61e3"
+    ],
+    "ralph/twin-shorts/work/flowcut/h_1.6.png": [
+     164988,
+     "e0e0c6bea9dfef07d1cc0e84cbb1f80a25057dba470b8130ce0538ebf4eb761e"
+    ],
+    "ralph/twin-shorts/work/flowcut/h_2.6.png": [
+     172704,
+     "8360f60b75d0b0f9e794b3be13029821922f319d3d6c511cf83bd452ac5c521a"
+    ],
+    "ralph/twin-shorts/work/flowcut/layoutF.mp4": [
+     32804570,
+     "85775212e82de241489625f7b5915dffd73a138ca9522722d2988454fb76784e"
+    ],
+    "ralph/twin-shorts/work/flowcut/mg_A.mp4": [
+     33353348,
+     "0a6bed0e776db212c4e5a2d8ad3510c7a9275a881af2b06d56fc1ebaf79cf555"
+    ],
+    "ralph/twin-shorts/work/flowcut/mg_B.mp4": [
+     33482217,
+     "381dfa1fab7ff0a37ef3dbecaef172d50e93bac1e70ab95b659bdf8b9c2f1f01"
+    ],
+    "ralph/twin-shorts/work/flowcut/mg_sheet.png": [
+     557814,
+     "14ceb6b8bfb77c592012db46a69c8e4f8c808495bc26938c85adebe2d3f28a87"
+    ],
+    "ralph/twin-shorts/work/flowcut/mg_test.mp4": [
+     6437505,
+     "22fa3a96bd7efc164daca6af15038b14520cd29dc1a0f927844959e912a46b8d"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_0.2.png": [
+     90101,
+     "bc82e1588277d60cdc25b38059d35b814f3717df11b5dcc938c774730988755d"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_11.5.png": [
+     92358,
+     "6db337e4f30c9d218703bddeea5e962cf679eb1dfcadb3d5307b5dea580ac81c"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_12.5.png": [
+     92101,
+     "97cbb6d51c7fef447b5e0b7fce403a418f1919396c8848bcb1e929cc48153d18"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_14.5.png": [
+     106091,
+     "3e7aa5ae79d5cfa761a53e296793a6eb8b3769570dbbea49918c700e50ed9d18"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_17.0.png": [
+     85785,
+     "85cf4bbb20302be6c833e80e66abcbc13b3268f1e53351b781fec0f8e4485408"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_19.0.png": [
+     84721,
+     "a11eb972e0c401d442bbcf5c5b957f55f9caf77e5d4df0ff0bb640c8f16c8988"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_2.0.png": [
+     91880,
+     "59d9f0c51110cbb44935aecdd18dc02b8e014c7b15bbfc278177e915de336f7d"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_23.0.png": [
+     108912,
+     "0458acf0761a2e88fe86e9fa2e391ba130906fb01ae83937bda6c44c4d39bad1"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_4.5.png": [
+     91291,
+     "89ee0f1bdb86ee42c8bbbd2fbd29ca9cd9fa672c9578445c8360013bf0e177d9"
+    ],
+    "ralph/twin-shorts/work/flowcut/q_8.0.png": [
+     111475,
+     "da6056d96741356a8988b8b40d99be363966114e4dc1eae5cb6fadb93b684615"
+    ],
+    "ralph/twin-shorts/work/flowcut/s1.mkv": [
+     8087667,
+     "7fca0124a4bf3150e0eff8c7ad86944a124d267dab79fceb0b846dec1d30f5e1"
+    ],
+    "ralph/twin-shorts/work/flowcut/s2.mkv": [
+     20196733,
+     "91855d92d7d23195f74a8255a3be785c1c14f51dc3f806f506a6d7c609b93bae"
+    ],
+    "ralph/twin-shorts/work/flowcut/s3.mkv": [
+     9898025,
+     "1f6bb59746c700d039f58effd5d13d51505d3cb5204ba0661e4035540d22d967"
+    ],
+    "ralph/twin-shorts/work/flowcut/s4.mkv": [
+     21750635,
+     "f14c83076b0c3811fff626407923a373600309add1d32e93341525a89d991d0c"
+    ],
+    "ralph/twin-shorts/work/flowcut/sheet.png": [
+     793148,
+     "7108697793fc5749d43e567dbe340905e8fbc1e1472590f254fc0649b3d10b48"
+    ],
+    "ralph/twin-shorts/work/l_0.0.png": [
+     175812,
+     "f6783ba5a1eb9f8e5f0dfe6ed40aca882e0961267c04595fee9730f24a8b8d67"
+    ],
+    "ralph/twin-shorts/work/l_10.5.png": [
+     193209,
+     "2185b98f876fb80a4ce0d4aff65431e1b43e393160dc58cc079a1e95578e3dd0"
+    ],
+    "ralph/twin-shorts/work/l_13.8.png": [
+     187703,
+     "80eb5533b4d2277c3034a2fd9c7dfbeace874a4f8fb4214dfbe40a10520045db"
+    ],
+    "ralph/twin-shorts/work/l_16.0.png": [
+     191306,
+     "9c93d562a92472a7c525c2dea79f076048d6328e1e92dee98997d6292c50af10"
+    ],
+    "ralph/twin-shorts/work/l_18.0.png": [
+     254660,
+     "a9640b930c8859dfee47a1fb683308bc79b9f861766e35a286f42c168f466bf6"
+    ],
+    "ralph/twin-shorts/work/l_2.0.png": [
+     180139,
+     "07e190b10c207c710f863ed3094bb21f097236465b02d05810a47f92ad474e74"
+    ],
+    "ralph/twin-shorts/work/l_20.5.png": [
+     270800,
+     "2d7ab38fa6f3e768979db3b6a3de75667641ed26de36002e585cbc4a222c6ee2"
+    ],
+    "ralph/twin-shorts/work/l_3.5.png": [
+     194167,
+     "322c93fe08274d77105e9916516620f572a1846222356d6b77c7b3dc2fb1b4f8"
+    ],
+    "ralph/twin-shorts/work/l_7.0.png": [
+     270971,
+     "152196e8dd6deb836458f1fe7df86e790074b6f338531b7480499db7debd7166"
+    ],
+    "ralph/twin-shorts/work/layout_B.mp4": [
+     41607204,
+     "7fda9732a3cd5ea84fc6f2dd967affcfcd08a933b680a2525bdd9f8591cb7643"
+    ],
+    "ralph/twin-shorts/work/layout_sheet.png": [
+     1611808,
+     "a80caf373d276d750dae42432ae7b49b622a43fb1a6397d23a29c93397cfdada"
+    ],
+    "ralph/twin-shorts/work/m_0.5.png": [
+     454608,
+     "73cef866f566bc77c20de9cef0052388589224bf9832b58011b34600de911886"
+    ],
+    "ralph/twin-shorts/work/m_1.6.png": [
+     468446,
+     "9ecd7d4577e6918a09e35c6b64018cfbab435f6d62e77f3a2da6e3125086831d"
+    ],
+    "ralph/twin-shorts/work/m_10.6.png": [
+     475387,
+     "7eed00b4c61881b47f0dfc10698ff40db612b2650eddf4ca70f63ca2f8b34c91"
+    ],
+    "ralph/twin-shorts/work/m_12.3.png": [
+     470267,
+     "ed3d8a45472867de4e89deca7f3dae03cdfd0747dc238146b6c5e4591219ecc3"
+    ],
+    "ralph/twin-shorts/work/m_15.7.png": [
+     478258,
+     "4530977fd81c21ddecc9f8b6d8ca7768c10dac23a4f022ba2d17339ef307f9c0"
+    ],
+    "ralph/twin-shorts/work/m_17.5.png": [
+     465802,
+     "95c38e2eba21fa032145f73f8aa0d7650ee9e5f05b226ed502e99348d69027f0"
+    ],
+    "ralph/twin-shorts/work/m_20.2.png": [
+     460738,
+     "784044284fd10bec21480813d20992e4ab36bd23be81c0206ce1b9b24720fccc"
+    ],
+    "ralph/twin-shorts/work/m_3.4.png": [
+     459675,
+     "06954542aa9b8bd5e8b2efe6ae65a4180c4d8ee66f5953883d8eb913a5fd1ca0"
+    ],
+    "ralph/twin-shorts/work/m_5.0.png": [
+     472994,
+     "158fd6184d17bd927068a6b55e3b2b3ddda8bcdf726b89cfc49f023b296cee6e"
+    ],
+    "ralph/twin-shorts/work/m_7.0.png": [
+     472314,
+     "2c54b7a7edee692777d8bf288db6c467eedbae7ade8a3ba8d02db19609d27622"
+    ],
+    "ralph/twin-shorts/work/motion2_sheet.png": [
+     562232,
+     "bb23baad9d3e8c9a47ebf847ddc895fd62605a41a1fb420112869c14e1ed0df4"
+    ],
+    "ralph/twin-shorts/work/motion_sheet.png": [
+     339153,
+     "78983b7946bbbf8e355030fcf7376c536e8b0551ddf689c21c4d5f1bdc179689"
+    ],
+    "ralph/twin-shorts/work/mouth_strip.png": [
+     3387819,
+     "31225ff8808473afdda0a8c5bef88599050af9c4c5af1d4fcaf6541bad9f9208"
+    ],
+    "ralph/twin-shorts/work/mt/v15/base03_vo16.mp4": [
+     24878948,
+     "499d521b6c8907d70e741dda7e873478462b3509289c321d598e6b0f30ad15a6"
+    ],
+    "ralph/twin-shorts/work/pages_sheet.png": [
+     561900,
+     "47120be653f290899c51e25c0f5cfcf2ab3f1c6aa5f2f4c3779cd1c4a36a011c"
+    ],
+    "ralph/twin-shorts/work/q_0.2.png": [
+     185163,
+     "7c32747d876cc968e3c6c99d84ec28d1e76e7f516901bd381cf6b636690d1969"
+    ],
+    "ralph/twin-shorts/work/q_11.0.png": [
+     202035,
+     "35637c2d03021997420a5ac6d28c1d65e0785cd9f46dc7d590e24d4758691f8f"
+    ],
+    "ralph/twin-shorts/work/q_13.5.png": [
+     191926,
+     "cd482d206b60c254ea9cdd64d6f2b60e2a5b3917d81f61e5e54ee463fc5d9cd0"
+    ],
+    "ralph/twin-shorts/work/q_16.0.png": [
+     198358,
+     "68c690ddc1f07a823d6d039eae9f3603daed8e4bb50a305229df7fa0126d81c8"
+    ],
+    "ralph/twin-shorts/work/q_18.5.png": [
+     213518,
+     "f390315cafd30369ee733c0a5d11cf334fb8a9d5eb08da6e2ece1c15eef11fdb"
+    ],
+    "ralph/twin-shorts/work/q_2.0.png": [
+     186001,
+     "7473dcb5e7fcf5e875eb19033ddad4bdf7870b604d0ff955d85786c4c73db8b6"
+    ],
+    "ralph/twin-shorts/work/q_21.0.png": [
+     221298,
+     "a165bbac7ead0a527c64dcdfa45e620d1254b878cd7dcc66ac921e5304de9b3d"
+    ],
+    "ralph/twin-shorts/work/q_4.0.png": [
+     202422,
+     "7a3f7c31d26761bcfa612cc075745332a4c8b3a176d9aa141aff7f715ecd837e"
+    ],
+    "ralph/twin-shorts/work/q_7.5.png": [
+     218581,
+     "092a60e674367bdb3757d7172ac54263c9a1882803810d972431dbb94169e716"
+    ],
+    "ralph/twin-shorts/work/sts/in1.wav": [
+     692508,
+     "a5b836dbeeb66137df4a68f3bb9e24d52617baa635f07844619ffc8c9d3b31c9"
+    ],
+    "ralph/twin-shorts/work/sts/in2.wav": [
+     692508,
+     "a5d30afa3541cf80e40ab2226425a627742af9d448db61562b91f26a1010f199"
+    ],
+    "ralph/twin-shorts/work/sts/in3.wav": [
+     692508,
+     "871ab1f99ce5c0edebb6ffbe79d4d063a16ce222e37a4590a8a9f8a96dcd8a54"
+    ],
+    "ralph/twin-shorts/work/sts/in4.wav": [
+     692508,
+     "203e4259bc6069d7d62361aa594d803bbf039fe1597a15efde63416a4ce5df0a"
+    ],
+    "ralph/twin-shorts/work/sts/o1.wav": [
+     251226,
+     "2d6057c375b236bcc1be038f80f4de32a2e43fa534329d055ac10c54ab4fb15a"
+    ],
+    "ralph/twin-shorts/work/sts/o2.wav": [
+     251226,
+     "21f0fbd65897f6e8226426cb5389e8f4bfabc1cfddc538a8ae762d2c4a243d9c"
+    ],
+    "ralph/twin-shorts/work/sts/o3.wav": [
+     251226,
+     "ed5617c39685c2fed1d5d42781a1addd7a397b7358d2df749ad11815ceeceb77"
+    ],
+    "ralph/twin-shorts/work/sts/o4.wav": [
+     251226,
+     "01c78279e618e7ec013dc9bc98c8815fa5f17108062b9631154a41c9f7552daa"
+    ],
+    "ralph/twin-shorts/work/sts/out1.mp3": [
+     126684,
+     "92228dbe0c1f236fd1f2c4a4f58c5de3810f6e49634704a9f15db88cf3848ed5"
+    ],
+    "ralph/twin-shorts/work/sts/out2.mp3": [
+     126684,
+     "f7bed126ae4ac615788fa66a0ceabd4bff650a2177d32ebbe83c861eaba5081e"
+    ],
+    "ralph/twin-shorts/work/sts/out3.mp3": [
+     126684,
+     "df207f29a00315a160d08ff41cbcab7345a7b794c4b3a45b5300c0607c2c95c6"
+    ],
+    "ralph/twin-shorts/work/sts/out4.mp3": [
+     126684,
+     "380735275edce8ade43fe951e7e6913d857e2142a3cc0e4f235e5eecad7d4383"
+    ],
+    "ralph/twin-shorts/work/sts2/in1.wav": [
+     692508,
+     "4aff045412122f01f9a74eec610a573e66a78f03865f8c80831a564e537b35e7"
+    ],
+    "ralph/twin-shorts/work/sts2/in2.wav": [
+     692508,
+     "bf1b6b3be1af49b16722abccf276f4471392c1653c4ea78d20fe72e4f5cc5b31"
+    ],
+    "ralph/twin-shorts/work/sts2/in3.wav": [
+     692508,
+     "4446092feece3f45760132b64c16003b51bc5adc4c4aec1078c91aee29a9a8ad"
+    ],
+    "ralph/twin-shorts/work/sts2/in4.wav": [
+     692508,
+     "4d4ab1a276e931014ba554a96a8f3dd4c441a5ceda2031c775771eaddbbcf53b"
+    ],
+    "ralph/twin-shorts/work/sts2/o1.wav": [
+     251226,
+     "ba5e4ac22ea68dd5156c874d3f21785f56ec59451c78da363262edaeb2c470e6"
+    ],
+    "ralph/twin-shorts/work/sts2/o2.wav": [
+     251226,
+     "fb26edf0fa5f432b73926ad031061bf05b193f789fc70e9a2c8270cd13d08653"
+    ],
+    "ralph/twin-shorts/work/sts2/o3.wav": [
+     251226,
+     "6254bf5c282939e35efe90c9bdd0940111a9ffd703218d453d30344afdbcdb97"
+    ],
+    "ralph/twin-shorts/work/sts2/o4.wav": [
+     251226,
+     "f6b4be738cd02c779b14a383c7b47d4a179a789370e8aefd479aa17cfeef8164"
+    ],
+    "ralph/twin-shorts/work/sts2/out1.mp3": [
+     126684,
+     "789fb16735e35c7c3a1c9463c59425ac6956f9ca4897b67210e08c5102d50bcd"
+    ],
+    "ralph/twin-shorts/work/sts2/out2.mp3": [
+     126684,
+     "f135571515b256be27ae9755eaa72f9eb871d38a2d2442b81f2eadb82b32a1a3"
+    ],
+    "ralph/twin-shorts/work/sts2/out3.mp3": [
+     126684,
+     "60dfe513d2be6976a9da22b77be16da1a8038dd88353e32efae9cbe5c57505f0"
+    ],
+    "ralph/twin-shorts/work/sts2/out4.mp3": [
+     126684,
+     "08b36c316ccecc0be681e7efca7d0f34c523521235a7d71b66991c0569996f55"
+    ],
+    "ralph/twin-shorts/work/twin_alpha.mp4": [
+     16366602,
+     "7d1397f2b2be99642c5d51e8a692530eb67872d68d9ae306ea1d6f9f2aaca3e3"
+    ],
+    "ralph/twin-shorts/work/twin_edit_A.mp4": [
+     29236611,
+     "774e08fe94dc3e1d342416b7aaae44be6d755af3ba843a660fe241710591d09d"
+    ],
+    "ralph/twin-shorts/work/twin_edit_B.mp4": [
+     29342289,
+     "8be8898888321d555968fa22e0e2af7616316178105422a4821560092a194551"
+    ],
+    "ralph/twin-shorts/work/twin_lips.mp4": [
+     67843137,
+     "e7bdd0a61b85fa750fe03c72ae18b40a33344186cdffb3c06f95e63468f527b3"
+    ],
+    "ralph/twin-shorts/work/twin_studio.mp4": [
+     60041806,
+     "664c1aca76f59625c3a3f619c0ce19a30d6b8de1c526709ffca0768898329768"
+    ],
+    "ralph/twin-shorts/work/vo16.wav": [
+     707176,
+     "e3a640b62e0c1519ae5931d962d6dd4378d785c61b13f955e3c6ea31922c7210"
+    ]
+   },
+   "parts": [
+    {
+     "name": "ralph__twin-shorts.set1.part01.tar",
+     "size": 95000000,
+     "sha256": "12731a68bdbcf1021e00af99e1cfcc9a576b2b7cdc8d095208027dbb87d0b945",
+     "hosted": "2026-11-16",
+     "drive_id": "1ktmxoe3CnL33pk8ziWRptAyNkLxxRQnN",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part02.tar",
+     "size": 95000000,
+     "sha256": "cbea9a5baf132340b4cf212a21a0117fb8f9c062432b4d447190af127f8fb3df",
+     "hosted": "2026-11-16",
+     "drive_id": "1QS-UF8f8VyjHajiOILmMnu3fFL6Qh-SG",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part03.tar",
+     "size": 95000000,
+     "sha256": "39de54ed1c4e79224175d9b7a8e3ce4ce4e16c3613c526b49bda95defc291d60",
+     "hosted": "2026-11-16",
+     "drive_id": "1m5FmqAk24Ui93333hxS_t0q0ICXffhJw",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part04.tar",
+     "size": 95000000,
+     "sha256": "39e025aa02fb752dd1f14ef7b54dddba17f9d2d007b3b95d6c0378d595e2225f",
+     "hosted": "2026-11-16",
+     "drive_id": "1KDW9Nu_ZRYIprK7U2BAXjbxNrlLJjsxg",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part05.tar",
+     "size": 95000000,
+     "sha256": "c4394cb180275264e633bd63f66cbddf742c88281e128d20c2777836b37981cb",
+     "hosted": "2026-11-16",
+     "drive_id": "1r4-kah4TfoLt8ckkjy2RAQVYVtZJKBF6",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part06.tar",
+     "size": 95000000,
+     "sha256": "815d39c985aa26cead5ce161e19a005b194802a9300c21c35618ca6eea3677d4",
+     "hosted": "2026-11-16",
+     "drive_id": "1hmSO36n4OOVRJiJWCm4hVS-feS7Iy2Gp",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part07.tar",
+     "size": 95000000,
+     "sha256": "128784b6cd6097ff1bb4613556b37980388ec2f31c1af97ff2548b8e3e003bfa",
+     "hosted": "2026-11-16",
+     "drive_id": "12R26ySVXhOZP3rkTj-ezkBVWzVoDBZ-E",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part08.tar",
+     "size": 95000000,
+     "sha256": "4c996c05b0128d8c9c09102bc7bc53ccf1b908dd455ed1f1113ee8175982834a",
+     "hosted": "2026-11-16",
+     "drive_id": "1TddoJqOghQnOcsrVO6ILKfRGicVchtGN",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part09.tar",
+     "size": 95000000,
+     "sha256": "61bb70d5d06ce67041b7cc534391a9e56c3678aff2cca2c9ba089a11cd3d6d20",
+     "hosted": "2026-11-16",
+     "drive_id": "158QE_QkAvbalDcIgJEqhXb-Hio5G2huC",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part10.tar",
+     "size": 95000000,
+     "sha256": "e88a43152923ef4d0f21ea20c5ccb4eca2849a0a248be9d16cc943d72d8eaccd",
+     "hosted": "2026-11-16",
+     "drive_id": "1i2zl6k5lW_-fn9dV0FJvr_Jc26884XBV",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part11.tar",
+     "size": 95000000,
+     "sha256": "24c6e836a5bca169d6c173cef8b737263820480abcbff99522af5eed1cb527f5",
+     "hosted": "2026-11-16",
+     "drive_id": "12wdFx6CLJA63ms10I0W-Md08RPwTJCth",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part12.tar",
+     "size": 95000000,
+     "sha256": "412b2137fc55f55f9feebd6e6354985baaa7bfadf52507d2730c5be3149fddf4",
+     "hosted": "2026-11-16",
+     "drive_id": "19MqGot7FyaamjQ3lp_b758YfPa-n9APw",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part13.tar",
+     "size": 95000000,
+     "sha256": "c20fbf9c0d501876cc992c7158ee7431d9b5fb19cf9a97d44f076e5ffa9e6edc",
+     "hosted": "2026-11-16",
+     "drive_id": "1vx50afTAiUouhCSrYNF9AMl96pyYU5tr",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part14.tar",
+     "size": 95000000,
+     "sha256": "f2b0817ef28fd0ca853dda9cb43f7b104cfbcbfac745c6f43c35a067d1aea748",
+     "hosted": "2026-11-16",
+     "drive_id": "1p7D1NM_9yG609rUhO4z2NmJJf5ZCbVkk",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part15.tar",
+     "size": 95000000,
+     "sha256": "d4c7bead5dea3e55276ac3972b604e9b820be86e5d89d3862e1fe78444ba0e39",
+     "hosted": "2026-11-16",
+     "drive_id": "1M8tR8fu2PQ0XUfXybEOp103H8JNqMizI",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part16.tar",
+     "size": 95000000,
+     "sha256": "161c38a28a3ee93ab44cfb357ebf509865c353a1e819b15893948faaa438571b",
+     "hosted": "2026-11-16",
+     "drive_id": "1ZoIsIT1DWkLLkgNPaipVXX6absV1OpuE",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part17.tar",
+     "size": 95000000,
+     "sha256": "11e88f6292abbb821d74f07426cc4d4360701a885091945693da5d0d51fdbf6b",
+     "hosted": "2026-11-16",
+     "drive_id": "1FD-ri26anO2MkyD155Ua-0GK__lBptjB",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part18.tar",
+     "size": 95000000,
+     "sha256": "4d2f229ed73ab00dec27efc6f19cbf7b33f1500325f0a3cc55e493cd0dcc4082",
+     "hosted": "2026-11-16",
+     "drive_id": "1LSleEs3MktdjR3wWtAMrIKwy5bjQzrjK",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part19.tar",
+     "size": 95000000,
+     "sha256": "58ad5177f4517c9a0c387e815bef7e418b7c1bfe90a257122f7531b84bb4e16d",
+     "hosted": "2026-11-16",
+     "drive_id": "1gSkVXWK3ouvte2h0xZ_engu7l9Qv9VKY",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part20.tar",
+     "size": 95000000,
+     "sha256": "2e494c3694c33c21300c7096e39dc677d309dcc1920595874758b247ab68db7e",
+     "hosted": "2026-11-16",
+     "drive_id": "1tEakvKdX252q36dErC2_7Dmmh0ynXh2Z",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part21.tar",
+     "size": 95000000,
+     "sha256": "b61b52b3293d4e59a5a846a96f4adc0f46b7bf4b607c545366e2547ea6e904bd",
+     "hosted": "2026-11-16",
+     "drive_id": "1kg7Aemi01qRXsWVql8yv5dQQQ0iMZwyi",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part22.tar",
+     "size": 95000000,
+     "sha256": "f738bc464a2efc467ad26d6e3f812e1baadf70b68fe97b558b21cc55b9975599",
+     "hosted": "2026-11-16",
+     "drive_id": "1_bkcns38dP3XjTTqZA7-lU5W0FTkFIvG",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part23.tar",
+     "size": 95000000,
+     "sha256": "3558c771baf1ef382a0b1afa7db8e45765c0e4f595e7028cad324bafbf9f671b",
+     "hosted": "2026-11-16",
+     "drive_id": "1s2BM8_yiF4-JmlEXsAWp6UjPcdpGEODu",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part24.tar",
+     "size": 95000000,
+     "sha256": "f67bacee473ad5579c4960e972fa19405c7b69a18de284aceb0ccc3abe85b206",
+     "hosted": "2026-11-16",
+     "drive_id": "1M5LTWvtT1pBfTuP7UjRyrQ9qglcJQtYr",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part25.tar",
+     "size": 95000000,
+     "sha256": "abef3a97eb7eff4723d375e92de4ff72742be48d30956f0f40c23faa73e735ee",
+     "hosted": "2026-11-16",
+     "drive_id": "1ZLcH1gJu0UE1fQV1biuHiAvdl-B_deVx",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part26.tar",
+     "size": 95000000,
+     "sha256": "1c8265dab2d5f4882adc28b9e1ab8a3e3d2ba9ceab41203d8cc24f874506e638",
+     "hosted": "2026-11-16",
+     "drive_id": "1SiwbI1O_pzngJttwUPTGROUW5g5v4P3V",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part27.tar",
+     "size": 95000000,
+     "sha256": "604b32c8a80cdfeefc0f1abd129b408a63206ad0b40c9dd06e35bf9d2fe58bbf",
+     "hosted": "2026-11-16",
+     "drive_id": "14TwBpl_TwomIQcIs1ZiPpxbq7MvzHUlx",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part28.tar",
+     "size": 95000000,
+     "sha256": "58a48f51d2b675cf64a12a11f0747b6d94b8fbd531037fcda7fe7d2afb9fb523",
+     "hosted": "2026-11-16",
+     "drive_id": "1hFEMsLnAbH3sk268PEXfosHViqvoA2G1",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part29.tar",
+     "size": 95000000,
+     "sha256": "ec19d6ec33d0c565a9f504bf178e8ffc2fd06c1f340b18a5e39e01f199bda092",
+     "hosted": "2026-11-16",
+     "drive_id": "1X-uU9neyaZ_U85hb6jgoc3NBZAlJDpbW",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part30.tar",
+     "size": 95000000,
+     "sha256": "87748e6f57a885c8a69f75cf775dea5332660e1769a4f83008b549203b8aca7f",
+     "hosted": "2026-11-16",
+     "drive_id": "1q4OCkfQ8xDaifmLB2o1mJUK0phx75XIi",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part31.tar",
+     "size": 95000000,
+     "sha256": "f89176a4ebab4bb2bf686c2e1a66eaad47a081b95d77446a4bb9246d161bed43",
+     "hosted": "2026-11-16",
+     "drive_id": "1nA9cGeGrEO2psgxyEsQF1bnHvZsBnWsO",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part32.tar",
+     "size": 95000000,
+     "sha256": "6f0e24ade9d2a75e0da10dc9aa0407169f7bfe8948fcb4dc8ec1f21134bffbeb",
+     "hosted": "2026-11-16",
+     "drive_id": "1lxHwA-ruOYtR1br5hRCkzAQJZjTl9qBE",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part33.tar",
+     "size": 95000000,
+     "sha256": "225f94fc2f05bb535b9837e83129792a29cbcf964b44e74869ac4b1dcce909e2",
+     "hosted": "2026-11-16",
+     "drive_id": "12svtcsUTzRtjaaSzdeJuujzXY3vfrAN5",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part34.tar",
+     "size": 95000000,
+     "sha256": "077c0f1845456801f0d97c71f65e85fc6ee154ad1a1e11ac510a7747c38256ab",
+     "hosted": "2026-11-16",
+     "drive_id": "1UiJjy4PCks9YCtK9r8eiLlIZ6YyH_wMj",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part35.tar",
+     "size": 95000000,
+     "sha256": "f774605090e8109d977f0e385f6f2047c8eecd5ac95f5df907df13bf9c18722f",
+     "hosted": "2026-11-16",
+     "drive_id": "1SPfQpbg-klmJ5zWJ6gIfKlFnAVeERwB5",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part36.tar",
+     "size": 95000000,
+     "sha256": "4189d6ea255e18a87b894d9a8088093aa38e86cbd678577bdb9ff6efc1f13799",
+     "hosted": "2026-11-16",
+     "drive_id": "1lZG4xcwPMArpzDEwvMY-MeL0PH-dttp3",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part37.tar",
+     "size": 95000000,
+     "sha256": "f647fe2bb6b52bc9659ee4b9cf42b3603b0c5087d557e624b796dd2f5f52e489",
+     "hosted": "2026-11-16",
+     "drive_id": "1OQYm4tDIdFkGrKHjt0Nlz6tsOD8fYNtz",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part38.tar",
+     "size": 95000000,
+     "sha256": "9685f9667f1a2f0403a7b8af2bb9994b816d4cdd79bfdec86bc040522c13c823",
+     "hosted": "2026-11-16",
+     "drive_id": "1Yjv9kSBCld7s9vTmVXZTKw6f43L2STOW",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part39.tar",
+     "size": 95000000,
+     "sha256": "4530a3e179fd4a017247e02b381d7cfb2d8b6a4a5dd221ca6a84b269d832e967",
+     "hosted": "2026-11-16",
+     "drive_id": "1Kgiw5tnu5q6NLnqKrF8Ebgji7Eeiu2Lg",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part40.tar",
+     "size": 95000000,
+     "sha256": "0672d889c28c5548a65ec4fab4b072a74e8bf95c44c65e7251f089ceef2f500a",
+     "hosted": "2026-11-16",
+     "drive_id": "1ML_TsZ8c8d4T6o5kcscAoj444yaJP2of",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    },
+    {
+     "name": "ralph__twin-shorts.set1.part41.tar",
+     "size": 49011200,
+     "sha256": "160c98aa9bdb7f3ece875f4eaa55d49105673d3942ebfff1dce84e546981ac42",
+     "hosted": "2026-11-16",
+     "drive_id": "1ueu3rIvlM555bHJvu310HkuxWT9Z1YaC",
+     "drive_folder": "1RSdYuSNd678Pm6OJpMYpUKYUrpCvppkX"
+    }
+   ]
+  }
+ ]
+}

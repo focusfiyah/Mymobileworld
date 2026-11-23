@@ -11,8 +11,8 @@ products follow the same rules.
 - **No personal-use lines** ("I use it", "it worked for me", "smells like…") unless true for Grace. Review
   findings are said the way Grace would pass them on ("people say their teenager grabbed it and ran off with it"), never her experience and never the word "reviewer(s)" (Ralph 2026-10-05).
 - **Grace's point of view, every script** (Ralph 2026-10-03, after the Anemiaprin v2 scripts read like a nurse
-  lecturing): write it as Grace talking to her friends ("girls", "this is the one I'd show you", "here's what I want
-  you to know"), reading the label in her hand and giving her opinion. Never an expert or educator voice ("as a nurse",
+  lecturing): write it as Grace talking to her friends ("this is the one I'd show you", "here's what I want
+  you to know"; never "girls" or any word that narrows the buyers, Grace 2026-11-14 below), reading the label in her hand and giving her opinion. Never an expert or educator voice ("as a nurse",
   "you're taking it wrong" lectures). When the viral model is an expert's video, copy its format (numbered tips, label
   read, comment reply), not its voice. Facts stay, said the way she'd pass them on. Life details that may not be true
   for her ("me at 3pm every day") get an [only if true] tag plus a neutral version ("who else is done by three?").
@@ -22,6 +22,13 @@ products follow the same rules.
 - **Never say a price** (Ralph + Grace 2026-10-02): no prices, discounts, "$X value", "% off" or "on sale" in the
   spoken script, on-screen text or caption. TikTok gives violation cards for it. Deal talk without numbers is fine
   ("two for the price of one", "TikTok-only set", "the cheaper one surprised me"). Never a price number (Ralph 2026-10-05).
+- **Grace's script notes, Haiti flag (Grace 2026-11-14, Telegram msg 526, on our scripts of 2026-11-13; they apply to every Grace script):**
+  1. **Features tied to use, never a checklist.** Each detail says how the buyer uses or enjoys it: "It's 3x5, so you can wear it like a cape, wave it at the parade, or hang it up at home", not "three by five, bright colors, palm tree, brass rings". A line that only describes ("the colors pop, and the palm tree is sharp") is product description, not a selling point: cut it or give it a use.
+  2. **No forced humor.** The "only problem? now I want one in every room" style confession reads as a forced sales transition. The honest line must be a genuine reason to buy (more occasions, more uses), or leave it out.
+  3. **CTA with occasion urgency the buyer can picture.** Not an instruction ("Hang it before January first") but the moment and what comes after it: "January 1st is around the corner, and that's just the beginning! Between Independence Day, Flag Day, Carnival... you're going to need this. Make sure you're ready to represent!"
+  4. **Don't narrow the audience.** No "Girls," (or any word that leaves buyers out) unless the product is only for them.
+  5. **Plain buyer words for features:** "brass grommets make it easy to hang indoors or outdoors", not "brass rings let it hang inside or out".
+  Her preferred Haiti flag script, word for word: "Are you even Ayisyen if you don't own a Haitian flag? January 1st around the corner, and that's just the beginning! Between Independence Day, Flag Day, Carnival, and all the Haitian celebrations throughout the year, you're going to need this. It's 3x5, so you can wear it like a cape, wave it at the parade, or hang it up at home. The colors are vibrant, and it has brass grommets for easy hanging. Make sure you're ready to represent! It's in the orange cart." (identity call-out hook from her own winning on-screen text, occasions stacked, features as uses, a pride close).
 - **Honest lines sell, never un-sell** (Grace 2026-10-02, replaces "one honest caveat"): no warnings, downsides or
   "heads up" lines ("measure your shower first", "a tall kid may outgrow it", "you still need a sink"). The honest
   beat is a sell-side confession: "I hate how easy it is to take this collagen, now I have no excuse", "I'm so upset I
@@ -31,6 +38,7 @@ products follow the same rules.
 - Disclosure in the caption: `#ad` or the brand's partner tag.
 - **No "plenty to share" / "one is enough" lines in the CTA (Ralph 2026-10-03, GTT KN95).** Anything that tells the buyer one unit covers it kills multi-unit sales. Close with a line that makes them want more ("Grab a couple boxes, so there's always one close"), then "It's in the orange cart."
 - **No "order it now" / "order now" (Ralph 2026-10-03).** Close in the orange cart in Grace's words after the real reason (holidays, "don't put it off"): "It's in the orange cart." or, as in the videos that sold, "I linked it in the orange cart for you." (Ralph 2026-10-20, looser wording).
+- **Grace's methods and hooks stay private (Ralph 2026-11-13).** This playbook, `grace/hooks/` and the `ugc-product-ad` skill never go into anything we sell or publish for the public; public products use new methods and hooks and pass the overlap checks first. Full rule: Mymobileworld CLAUDE.md "Grace's methods and hooks stay private".
 
 ## 2. Sales psychology
 | Principle | How we use it |
@@ -128,6 +136,7 @@ products follow the same rules.
 - Fast UGC speech: **3.0–3.6 words/sec**. Target ~30 words hook, ~60 body, ~20 CTA ≈ 35s after pauses are cut.
   Fashion default 30–45s. Category median is a good length check (Carpe: 35s).
 - Cut every pause, never clip a word; end on a visual beat, not the last syllable.
+- **Grace's own on-camera takes too (Ralph 2026-11-19, Wag Bag):** close every gap between her lines and takes to a short breath (silence over 0.3 s trimmed to about 0.12-0.15 s), first word within ~0.1 s, no dead air at the end, her voice at normal speed, her clip order kept; measure the longest silence in every cut (<= 0.25 s) and show it on the review page. Full rule: CLAUDE.md "No gaps in Grace's own talking edits".
 - Retention: a steep drop in the first 1–2s = the hook failed; a slow slide mid-video = a beat runs too long.
 - Say numbers as words in the script ("twenty-five percent") so captions and timing match.
 - Real takes: film hook / body / CTA as separate files, 3–4 takes each, original HD files; keep body takes whole.
@@ -149,7 +158,7 @@ products follow the same rules.
   per product. (2) One-change remakes: when a Grace video sells, its next versions change ONE variable each (hook,
   setting or delivery) and log it in the sales tracker; every version still gets new footage, order, framing and grade
   (hard rule 6). (3) Test a VO ad with no music under the voice against our usual mix on the next VO job; log it in the
-  results log. (4) On-screen text stays off by default (he tapped "Keep no text"); Grace may still type a line in TikTok.
+  results log. (4) On-screen text stays off by default (he tapped "Keep no text"); Grace may still type a line in TikTok. **Enforced from 2026-11-14 (weekly audit: (1)-(3) were skipped on every plan that week):** BOOK.md must carry `Product open: product-first|trust-first` and `Product screen: ...` (`grace/gate.py`, test `grace/tests/test_book_cp.py`), plus `Remake of:` and `VO music test:` lines (`ugc-product-ad` `templates/plan-message.md`). Grace's UGC kit (rate card, reply templates, re-pitch list, lead sources): `grace/deals/ugc-kit/`.
 
 ## 6. Production notes
 - **Grace's hand with no jewellery (Ralph 2026-11-02):** when Ralph says no rings / no bracelet, pass `grace/ref/hand-sheets/no_jewelry.jpg` (her real bare hands, 4 views, mauve-pink French tips) on every hand still and clip; the other two sheets carry rings that the model copies. Buttah towels r1 used words only before this sheet existed. Sheet rules: `grace/ref/hand-sheets/README.md`.
@@ -385,3 +394,11 @@ products follow the same rules.
 
 - 2026-10-27 HEVEBLUE Black Yuja Bean auto eye cream: hands + face-crop AI video over Grace's voice, 34.9 s, opener copied from the two same-product winners (tip in a glass of water, 1.8M / 730K). Lessons: (1) a word in the product description can print onto the label ("spool" became "Spoolstranunt"): describe shapes with words that can't be read as print; (2) Omni on Kie swapped the still's room and lifted the tip out of the water, Seedance first-frame kept both (third job in a row): default to Seedance first-frame when the still's framing matters; (3) push-ins garble small print and a "drift" can stand a lying tube up: "camera barely moves, no push-in, never lifts"; (4) vibration rings on water came out faint in every model: free `ugc/heveblue-eye-cream/tools/ripple.py`; (5) render the voice+SFX mix to a WAV first and assert its length (loudnorm inside amix dropped 2.9 s); (6) `grace/voice/clean.py --script vo_lines.txt` when Whisper mishears the input; (7) v2 (Ralph): a vibrating tip never goes in water (the listing says keep it dry): one hand holds the glass by the stem, the other rests the tip ON THE RIM and the water trembles; in use the FLAT END of the tip presses under the eye below the lashes, with the hand he names; put hand, side and contact point first in the prompt; for stronger water vibration add `ripple.py --body` (free). `ugc/heveblue-eye-cream/`.
 - 2026-11-02 Ocean View Juice Boost hair oil: 11.6 s music-only cut v2 APPROVED + VO script for later. Kie $3.88 vs $2.94 book (+$0.96 OK'd: Grace-hand redo, hand-swap edits, two S4 retakes). Drive folder 1UcHmH5IGzz-9Awtd-eh04Mjaahtwa1gO.
+
+## Lessons 2026-11-16 (TikTok Shop affiliate research; Ralph tapped "Add lessons to her playbook")
+Source: Dayone-ai `research/audience-tiktok-affiliates-2026-11-16/` (42 Reddit posts Nov 2025-Nov 2026, Quora, Trends, YouTube) + TikTok Shop Academy pages checked 2026-11-16.
+- **"Low Quality AIGC" restrictions are hitting fully AI affiliate accounts back to back** (r/TikTokshop, a Higgsfield + Seedance workflow). Keep the AI label on every AI video, keep every shot real-looking (QC rules above), and log any notice in the tracker's Restrictions tab.
+- **TikTok Shop's own AI rules** ([AI-Generated Content Restrictions and Requirements](https://seller-us.tiktok.com/university/essay?knowledge_id=491489038501663&lang=en), [Permitted and Prohibited Practices](https://seller-us.tiktok.com/university/essay?knowledge_id=6903598869677837&lang=en)): AI may not change the product's size, color, material, quantity, bundle contents or performance, or show results it can't deliver; fully or largely AI content must be disclosed (AI toggle); no AI imitation of a real person for a false endorsement; penalties run from limited reach and health-score points to account bans. Our product-lock and "real product photos win" rules match this; it is now also a policy reason.
+- **Beauty and supplements:** one Reddit comment says TikTok sent an alert about AI in beauty and supplement videos; no official page found for it (2026-11-16). Treat claims as the real risk: no result a product can't prove, no first-hand "I used it" lines from an AI face. Re-check before each skincare/supplement ad.
+- **"Unoriginal / reproduced / repetitive content" bans froze earned commissions for some affiliates.** Hard rule 6 (every video different, never the same footage with a new VO) is the protection: never bend it.
+- **Shop-linked videos often get far fewer views, and clicks without sales are common.** When a Grace video has views but no sales, compare it with her unlinked videos before blaming the script.

@@ -1,0 +1,6 @@
+{"hook": ["3 ways people can tell", "your video is AI"],
+ "plan": [[0, 2.6, "title", null, 0, 0], [2.6, 8.4, "full", null, 0], [8.4, 11.3, "split", "card:text:LABELS|melt", 0, 180],
+  [11.3, 12.3, "full", null, 0], [12.3, 15.3, "split", "card:text:TOO MANY|fingers", 0, 200], [15.3, 16.3, "full", null, 0],
+  [16.3, 18.9, "split", "card:text:SIZE|changes between shots", 0, 200], [18.9, 19.8, "full", null, 0],
+  [19.8, 22.9, "split", "card:text:7-POINT|check", 0, 0], [22.9, 24.9, "full", null, 0], [24.9, 99, "split", "card:bundle", 0, 0]],
+ "pops": [[5.86, 7.0, "is", " AI"], [23.3, 24.9, "free", " fix"]]}

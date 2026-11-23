@@ -11,6 +11,12 @@ Sent to Ralph: ____ (review page link + date; `--approve-book` refuses without i
 - Client / own content: ____  Product: ____  Route: ____ (reference file)
 - Job folder: `ugc/<job>/`  Target length: ___ s  Shots: ___
 
+Creator Pathway lines (Ralph 2026-11-14; `grace/gate.py` refuses a book from 2026-11-14 without the first two):
+Product open: ____ (product-first = visible result in seconds, product working from frame 0; trust-first = skincare, supplements, delayed results: pain + 2-4 sentence trust beat, product at 7-10 s)
+Product screen: ____ (stars, price band, units sold, pain level, shipping; flag a weak product to Ralph before spend)
+Remake of: ____ (n/a, or the winner this remakes + the ONE thing changed: hook, setting or delivery; logged in `grace/winners/VERSIONS.md` (grace-sales-tracker). Footage, order, framing and grade still all new, hard rule 6)
+VO music test: ____ (on the first Grace VO job after 2026-11-14: one version with no music under the voice vs our usual mix, result written under PLAYBOOK "Creator Pathway decisions" (3) and the job README; else n/a)
+
 ## 2. Gate result (`python3 grace/gate.py <job>`)
 | Proof | File | Result |
 |---|---|---|
