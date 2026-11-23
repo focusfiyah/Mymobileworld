@@ -1,4 +1,10 @@
-{"src_drive_id": "11ZO3dCGsk5_hp8A_sJZ11Qda6SU4oeNM", "src_name": "CURRENT - Wag Bag Nov 1600s Beanie 3.mp4",
+{
+ "src_drive_id": "11ZO3dCGsk5_hp8A_sJZ11Qda6SU4oeNM",
+ "src_name": "CURRENT - Wag Bag Nov 1600s Beanie 3.mp4",
  "note": "HofR version of Grace's Wag Bag 1600s Beanie 3 (Ralph 2026-11-23: 'Give me a recent one that was just edited and make complete it for house of rameau'). Own framing (1.05 zoom, shifted), own grade, hook text card, no captions. Real footage: no AI finish, AI label off.",
- "hook_text": "1600s vs 2000s|when the water stops", "hook_box": "120,1140,840,190", "hook_until": 16.8,
- "crop": "iw/1.05:ih/1.05:(iw-iw/1.05)*0.4:(ih-ih/1.05)*0.35", "grade": "eq=brightness=0.035:contrast=1.03:saturation=1.02,colorbalance=bs=0.015"}
+ "hook_text": "1600s vs 2000s|when the water stops",
+ "hook_box": "120,1140,840,190",
+ "hook_until": 10.6,
+ "crop": "iw/1.05:ih/1.05:(iw-iw/1.05)*0.4:(ih-ih/1.05)*0.35",
+ "grade": "eq=brightness=0.035:contrast=1.03:saturation=1.02,colorbalance=bs=0.015"
+}
