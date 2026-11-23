@@ -7,3 +7,4 @@ Drive: https://drive.google.com/drive/folders/1JcQs7aZJG5kj0XCl8skbqhaoyHLs5qUr
 
 ## Live
 - 2026-11-21 7 PM ET W2 T1: Instagram https://www.instagram.com/reel/DgBeryZHL39/ · TikTok https://www.tiktok.com/@azariah2244/video/7710779202680655117 · Facebook scheduled reel 1115672464855716
+- 2026-11-22 7 PM ET W2 T2: Instagram https://www.instagram.com/reel/DgEDinHgkIw/ · TikTok https://www.tiktok.com/@azariah2244/video/7711150061480103199 · Facebook scheduled reel 3492777230927484. Week 2 Instagram task disabled.
