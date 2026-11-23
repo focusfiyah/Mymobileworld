@@ -1,0 +1,102 @@
+{
+ "week": "2026-11-25",
+ "source": "Part 2s for week 3 R1-R3 (Ralph 2026-11-23 tapped 'Yes, write them for my OK'). R1/R2 promise a part 2 on camera; R3 caption points to the free list in bio. Kit CTA 'DM me kit', no price, no income claim (RALPH.md tip 2).",
+ "story_money_ok": "Story amounts only ($300 offer from R1), from the R1-R3 scripts Ralph OK'd 2026-11-23; no kit price.",
+ "twin": [
+  {
+   "id": "P1",
+   "kind": "you-decide part 2",
+   "title": "The $300 offer, part 2",
+   "hook": [
+    "Said yes to $300?",
+    "Here's the plan"
+   ],
+   "shots": [
+    {
+     "line": "Part two. Saying yes to three hundred dollars without a plan is how you lose the client.",
+     "room": "bright home office window desk",
+     "angle": "walk"
+    },
+    {
+     "line": "If you picked A, start from real photos of the product, so the AI copies it.",
+     "room": "bright kitchen table natural light",
+     "angle": "high"
+    },
+    {
+     "line": "Then the same steps every time: scene, motion, voice, and a quick check for anything that looks fake.",
+     "room": "bright studio loft brick wall",
+     "angle": "side"
+    },
+    {
+     "line": "That's the one thing that makes A safe. I put every step in a kit. DM me kit.",
+     "room": "bright minimalist living room",
+     "angle": "close"
+    }
+   ]
+  },
+  {
+   "id": "P2",
+   "kind": "you-decide part 2",
+   "title": "Real or AI? part 2",
+   "hook": [
+    "Client says it looks fake?",
+    "Fix these 3 first"
+   ],
+   "shots": [
+    {
+     "line": "Part two. Your client says the video looks fake. Here are the three things I'd fix first.",
+     "room": "bright modern office desk plants",
+     "angle": "low"
+    },
+    {
+     "line": "One: the writing on the product. If the label melts or changes, people notice right away.",
+     "room": "bright product photography studio white table",
+     "angle": "close"
+    },
+    {
+     "line": "Two: the size. The product can't grow or shrink between shots. Three: the hands.",
+     "room": "bright cozy cafe interior",
+     "angle": "side"
+    },
+    {
+     "line": "Fix those three and redo it free. My full check is in the kit. DM me kit.",
+     "room": "bright bedroom workspace desk",
+     "angle": "walk"
+    }
+   ]
+  },
+  {
+   "id": "P3",
+   "kind": "you-decide part 2",
+   "title": "Send this to your friend, part 2",
+   "hook": [
+    "You picked B?",
+    "Here's your first week"
+   ],
+   "shots": [
+    {
+     "line": "Part two. You picked B: one week learning AI product videos. Here's what that week looks like.",
+     "room": "bright apartment kitchen morning",
+     "angle": "close"
+    },
+    {
+     "line": "Days one and two: pick one product and take five clear photos of it with your phone.",
+     "room": "bright home desk with phone tripod",
+     "angle": "side"
+    },
+    {
+     "line": "Days three to five: turn them into short clips, and post one every day.",
+     "room": "bright creative workspace plants",
+     "angle": "low"
+    },
+    {
+     "line": "Days six and seven: see what got views, and make more of that. Free starter list, link in bio.",
+     "room": "bright rooftop terrace city",
+     "angle": "high"
+    }
+   ]
+  }
+ ],
+ "faceless": [],
+ "carousel": []
+}
