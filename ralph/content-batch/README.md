@@ -1,7 +1,7 @@
 # Weekly content batch (Ralph's own: @azariah2244 / Instagram)
 Audience (Ralph 2026-11-16, tapped "Sellers first, 70/30"): from week 2, about 70% of posts for TikTok Shop affiliates and online sellers (their problems, product videos), about 30% broader AI-for-creators tips that still lead to the AI Product Video Kit. Scripts start from the affiliate research (Dayone-ai research/audience-tiktok-affiliates-2026-11-16/REPORT.md).
 
-Status: 2026-11-16: week 1 DONE. All 6 approved and in Drive "Content batch week 1 (2026-11-16)" https://drive.google.com/drive/folders/1BxC6wgvkfPysQbD2a9qims6aaa_nFTC8 : T1 + T2 twin (Flow Veo 3.1 Lite, ElevenLabs STS, cards, lo-fi music Mixkit 738 + whooshes), F1 + F2 faceless, C1 + C2 carousels. No singles (Ralph). Cost $0 + 80 Flow credits. Next: week 2 batch; posting only on his OK.
+Status: 2026-11-23: week 3 (R1-R3 you-decide twin stories) approved, in Drive (https://drive.google.com/drive/folders/1cs_dS-3GXQbl6ZeDfl4n-8QxkAN4zHDR) and scheduled Tue 11-24 / Thu 11-26 / Sat 11-28 7 PM ET on TikTok, Facebook and Instagram (week3/post/log.md). Cost: 130 Flow credits + 950 ElevenLabs credits. Next: part 2 scripts for Ralph's OK.
 
 Ralph 2026-11-15: 2 AI twin videos a week, all 3 formats as one weekly batch, first batch mixes kit promos + AI tips. Twin style B (cinematic cards + pop-out words + subtitles) for combined and singles.
 
