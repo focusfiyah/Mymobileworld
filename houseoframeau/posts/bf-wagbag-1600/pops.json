@@ -6,16 +6,16 @@
    "word": "water system",
    "t": 15.1,
    "d": 1.9,
-   "x": 190,
-   "y": 600
+   "x": 228,
+   "y": 1088
   },
   {
    "png": "prohibited_3d.png",
    "word": "stops working",
    "t": 15.8,
    "d": 1.2,
-   "x": 280,
-   "y": 770,
+   "x": 198,
+   "y": 778,
    "size": 230
   },
   {
@@ -23,64 +23,67 @@
    "word": "Pentagon told military bases",
    "t": 19.2,
    "d": 1.7,
-   "x": 790,
-   "y": 950
+   "x": 748,
+   "y": 1168
   },
   {
    "png": "spiral_calendar_3d.png",
    "word": "90 days",
    "t": 21.0,
    "d": 1.8,
-   "x": 320,
-   "y": 1000
+   "x": 308,
+   "y": 1128
   },
   {
    "png": "rocket_3d.png",
    "word": "NASA-developed powder",
    "t": 26.5,
    "d": 1.7,
-   "x": 820,
-   "y": 760
+   "x": 864,
+   "y": 1144,
+   "size": 240
   },
   {
    "png": "pile_of_poo_3d.png",
    "word": "turn waste into gel",
    "t": 28.3,
    "d": 1.7,
-   "x": 800,
-   "y": 960
+   "x": 748,
+   "y": 1168
   },
   {
    "png": "nose_3d_default.png",
    "word": "control odors",
    "t": 30.2,
    "d": 1.3,
-   "x": 820,
-   "y": 900
+   "x": 548,
+   "y": 1168
   },
   {
    "png": "roll_of_paper_3d.png",
    "word": "toilet paper",
    "t": 32.7,
    "d": 1.6,
-   "x": 190,
-   "y": 600
+   "x": 184,
+   "y": 504,
+   "size": 240
   },
   {
    "png": "warning_3d.png",
    "word": "fake ones",
    "t": 37.2,
    "d": 1.6,
-   "x": 820,
-   "y": 900
+   "x": 808,
+   "y": 1208,
+   "size": 280
   },
   {
    "png": "fire_3d.png",
    "word": "selling fast",
    "t": 41.9,
    "d": 1.9,
-   "x": 210,
-   "y": 900
+   "x": 228,
+   "y": 1128
   },
   {
    "png": "shopping_cart_3d.png",
@@ -99,7 +102,9 @@
    "d": 1.55,
    "word": "1600s",
    "what": "rough wooden door + pot, The Pilgrims (1955), Prelinger 0852_Pilgrims_The @1093 s, no people",
-   "eq": "eq=brightness=0.14:contrast=1.15:gamma=1.3"
+   "eq": "eq=brightness=0.14:contrast=1.15:gamma=1.3",
+   "x": 808,
+   "y": 553
   },
   {
    "src": "/tmp/claude-0/film/hx.mp4",
@@ -107,7 +112,9 @@
    "t": 3.5,
    "d": 1.9,
    "word": "spread diseases like typhoid fever",
-   "what": "house fly close-up, The House Fly (1958), Prelinger 0613_House_Fly @166 s"
+   "what": "house fly close-up, The House Fly (1958), Prelinger 0613_House_Fly @166 s",
+   "x": 808,
+   "y": 553
   },
   {
    "src": "/tmp/claude-0/film/hd.mp4",
@@ -115,7 +122,10 @@
    "t": 7.0,
    "d": 2.0,
    "word": "1800s",
-   "what": "old outhouse shack at a dump, The House Fly @70 s"
+   "what": "old outhouse shack at a dump, The House Fly @70 s",
+   "w": 380,
+   "x": 258,
+   "y": 550
   },
   {
    "src": "/tmp/claude-0/film/hm.mp4",
@@ -137,8 +147,8 @@
    "png": "img/wagbag_cutout.png",
    "t": 13.85,
    "d": 1.2,
-   "x": 250,
-   "y": 600,
+   "x": 205,
+   "y": 585,
    "h": 290,
    "word": "2000s",
    "what": "real Wag Bag kit pouch, cleanwaste.com wag-bag-web.png"

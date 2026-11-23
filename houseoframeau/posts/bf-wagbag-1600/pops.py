@@ -26,8 +26,8 @@ k = len(P["pops"]) + 2
 cx, cy, bw, bh = P["film_box"]
 for j, fm in enumerate(P.get("films", [])):
     ins += ["-ss", str(fm["ss"]), "-t", str(fm["d"]), "-i", fm["src"]]
-    f.append(f"[{k}:v]scale={bw}:{bh},{fm.get('eq', 'null')},format=yuv420p,pad={bw + 16}:{bh + 16}:8:8:white,fade=in:st=0:d=0.12,setpts=PTS-STARTPTS+{fm['t']}/TB[m{j}]")
-    f.append(f"[b{len(P['pops']) + j}][m{j}]overlay=x={cx - bw // 2 - 8}:y={cy - bh // 2 - 8}:eof_action=pass[b{len(P['pops']) + j + 1}]"); k += 1
+    f.append(f"[{k}:v]scale={fm.get('w', bw)}:{fm.get('w', bw) * bh // bw // 2 * 2},{fm.get('eq', 'null')},format=yuv420p,pad={fm.get('w', bw) + 16}:{fm.get('w', bw) * bh // bw // 2 * 2 + 16}:8:8:white,fade=in:st=0:d=0.12,setpts=PTS-STARTPTS+{fm['t']}/TB[m{j}]")
+    f.append(f"[b{len(P['pops']) + j}][m{j}]overlay=x={fm.get('x', cx) - fm.get('w', bw) // 2 - 8}:y={fm.get('y', cy) - fm.get('w', bw) * bh // bw // 4 * 2 - 8}:eof_action=pass[b{len(P['pops']) + j + 1}]"); k += 1
 base = len(P["pops"]) + len(P.get("films", []))
 for j, im in enumerate(P.get("images", [])):
     src = Image.open(here / im["png"]).convert("RGBA"); src = src.crop(src.getbbox()); assert im["h"] <= src.height * 1.2
