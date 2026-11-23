@@ -29,5 +29,10 @@ for t in S["twin"]:
         body.append(f'<details><summary class="muted">Backup if Flow blocks it: 2 images</summary><div class="refs">' + fig("2_ralph_reference_sheet.jpg", 1, "athletic sheet", True) + fig(k["room"], 2, "room") + "</div>"
                     + btns("p" + sid + "b") + f'<pre id="p{sid}b">{html.escape(two(k["prompt"]))}</pre></details></details>')
     body.append("</section>")
-(R / "index.html").write_text(head + "\n".join(body) + "\n</div>\n" + script)
+out = head + "\n".join(body) + "\n</div>\n" + script
+prev = R / "index.html"
+if prev.exists() and "<video" in prev.read_text():   # keep the ask + videos block a later round added
+    o = prev.read_text(); a = o.index('<section class="ask">'); b = o.index('<p class="muted dlnote"')
+    x = out.index('<section class="ask">'); y = out.index('<p class="muted dlnote"'); out = out[:x] + o[a:b] + out[y:]
+prev.write_text(out)
 print("REVIEW_OK", len(list(R.glob("*_room.jpg"))))

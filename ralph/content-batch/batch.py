@@ -26,6 +26,8 @@ HEAD = ("Vertical 9:16 talking-head video, 8 seconds. Image 1 shows the man: sam
         "Image 2 is his reference sheet: same head, glasses and beard, clean cut with the grey at the chin exactly as shown. "
         "His body is athletic and fit: a completely flat stomach with no belly and no protrusion of any kind, even from the side, a firm fit chest, toned arms and broad shoulders, in a fitted black crew-neck t-shirt. "
         "Image 3 is the room he is in: the whole background is that room only. Image 1 is only for his face; its plain grey backdrop and anything from the place it was taken never appear.")
+ACCENT = ("Accent: US English only, a natural General American accent from the first word to the last, including short words like \"A\" or \"B\". "
+          "No British, Indian, Canadian, Australian or any other accent, and the accent never changes mid-line.")   # Ralph 2026-11-23: R3_3 came back with an Indian accent
 TAIL = ("Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No counting on fingers, no pointing. "
         "No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.")
 
@@ -62,7 +64,7 @@ def kit(week):
             src = HERE / week / "rooms" / key / pk["file"]; im = Image.open(src).convert("RGB"); im.thumbnail((1600, 1600))
             room = f"{key}_room.jpg"; im.save(o / room, quality=90)
             line = s["line"].replace("KIT", "kit")             # Veo spells capitalised keywords letter by letter
-            p = f"{HEAD}\nRoom: he is in {pk['desc']}.\nShot: {ANGLES[s['angle']]}\nHe says, in a warm, clear American male voice at a quick, upbeat pace with no pauses between sentences, exactly: \"{line}\"\n{TAIL}"
+            p = f"{HEAD}\nRoom: he is in {pk['desc']}.\nShot: {ANGLES[s['angle']]}\nHe says, in a warm, clear American male voice at a quick, upbeat pace with no pauses between sentences, exactly: \"{line}\"\n{ACCENT}\n{TAIL}"
             out.append({"shot": key, "angle": s["angle"], "line": s["line"], "room": room, "room_source": pk["url"], "prompt": p})
             (o / f"prompt_{key}.txt").write_text(p)
         json.dump(out, open(o / "kit.json", "w"), indent=1); print("KIT", t["id"], len(out))
