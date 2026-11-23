@@ -16,7 +16,9 @@ if what == "scripts":
     json.dump({"hooks": [{"hook": h} for h in hooks]}, open(D / "hooks.json", "w"))
     r = subprocess.run(["python3", "-I", "/home/user/Dayone-ai/products/ai-video-kit/tools/hook_similarity.py", str(D / "hooks.json")], capture_output=True, text=True).stdout
     if "too_close=0" not in r: bad.append("hook close to Grace's: " + r.strip()[:200])
-    if re.search(r"\$\s?\d|\bdollars?\b", txt): bad.append("price in script")
+    if S.get("story_money_ok"):   # you-decide stories name story amounts ("$300 offer"); the kit's own price stays banned
+        if re.search(r"\$\s?(29|39|45|59|79)\b|\b(twenty-nine|thirty-nine|forty-five|fifty-nine|seventy-nine) dollars\b", txt, re.I): bad.append("kit price in script")
+    elif re.search(r"\$\s?\d|\bdollars?\b", txt): bad.append("price in script")
     sents = [x for x in re.split(r"[.!?]+", txt) if x.strip()]; ws = re.findall(r"[A-Za-z']+", txt)
     syl = lambda x: max(1, len(re.findall(r"[aeiouy]+", x.lower())) - (1 if x.lower().endswith("e") else 0))
     grade = 0.39 * len(ws) / len(sents) + 11.8 * sum(syl(x) for x in ws) / len(ws) - 15.59

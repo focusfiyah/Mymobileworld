@@ -1,0 +1,102 @@
+{
+ "week": "2026-11-30",
+ "source": "Dayone-ai main products/ai-on-autopilot/research/ig-growth-2026-11-22/remakes/2026-11-23.md (IG growth session; Ralph 'Ok to make' 2026-11-23). Format: twin you-decide story, comment A or B, part 2 next day leads to the kit. Instagram only.",
+ "story_money_ok": "Story amounts only ($300 offer, $200 refund, $0 phone), from the remake scripts Ralph OK'd 2026-11-23 ('Ok to make'); no kit price, CTA leads to the kit with no price.",
+ "twin": [
+  {
+   "id": "R1",
+   "kind": "you-decide",
+   "title": "The $300 offer",
+   "hook": [
+    "A brand offers $300.",
+    "Take it?"
+   ],
+   "shots": [
+    {
+     "line": "A brand offers you three hundred dollars for ten AI videos by Friday. You've never made one.",
+     "room": "bright home office desk laptop",
+     "angle": "low"
+    },
+    {
+     "line": "Option A: say yes, and figure it out by Friday.",
+     "room": "bright creative studio workspace",
+     "angle": "side"
+    },
+    {
+     "line": "Option B: pass, practice for a month, and pitch them later. Most people pick B.",
+     "room": "cozy reading nook bookshelf daylight",
+     "angle": "high"
+    },
+    {
+     "line": "I'd pick A, and here's the one thing that makes A safe. Comment A or B. Part two shows what happened.",
+     "room": "bright modern living room",
+     "angle": "close"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "kind": "you-decide",
+   "title": "Real or AI?",
+   "hook": [
+    "Real or AI?",
+    "Your client wants a refund"
+   ],
+   "shots": [
+    {
+     "line": "Real or AI? Your client paid two hundred dollars to find out.",
+     "room": "bright photo studio softbox",
+     "angle": "walk"
+    },
+    {
+     "line": "They say the video looks fake, and they want a refund.",
+     "room": "bright modern office meeting room",
+     "angle": "side"
+    },
+    {
+     "line": "A: refund the two hundred dollars and move on.",
+     "room": "bright modern kitchen counter",
+     "angle": "low"
+    },
+    {
+     "line": "B: redo it free, but fix the three things that give AI away. Comment A or B. Tomorrow I show the fix.",
+     "room": "video editing desk monitors",
+     "angle": "close"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "kind": "you-decide",
+   "title": "Send this to your friend",
+   "hook": [
+    "One phone. $0.",
+    "What would you do?"
+   ],
+   "shots": [
+    {
+     "line": "Send this to the friend who just lost their job. One phone, zero dollars.",
+     "room": "bright apartment living room sofa",
+     "angle": "close"
+    },
+    {
+     "line": "A: apply to fifty jobs this week.",
+     "room": "empty cafe interior daylight",
+     "angle": "high"
+    },
+    {
+     "line": "B: spend the week learning to make AI product videos for tiktok shop sellers.",
+     "room": "product photography table setup",
+     "angle": "side"
+    },
+    {
+     "line": "Both are real. Only one pays this month. Comment A or B, and tag the friend.",
+     "room": "bright balcony city view",
+     "angle": "walk"
+    }
+   ]
+  }
+ ],
+ "faceless": [],
+ "carousel": []
+}

@@ -13,3 +13,6 @@ Steps per week (WEEK = folder, e.g. week1):
 5. Carousels: `carousel.py WEEK` (musetalk venv) -> CAROUSELS_OK.
 6. One review page per week; post only on Ralph's OK (TikTok via Zernio).
 Media stays out of git (Drive via tools/media).
+
+## Week 3 on: format change (Ralph 2026-11-22, tapped "Twin + you-decide stories", from the IG growth session session_01Y1Pt3p5PxcufXxpzcjg8Ee)
+From week 3, the @realgoodhustles reels are AI-twin "you decide" stories. Each one shows a real money spot in an AI side hustle (mostly AI product videos for TikTok Shop) and asks "comment A or B". The next reel shows what happened and leads to the kit. Same audience and the same 70/30 sellers plan; only the format changes. Scripts: the daily task "RGH IG growth: daily" writes 3 every Monday in JOB/remakes/ (Dayone-ai products/ai-on-autopilot/research/ig-growth-2026-11-22/). Use those, or our own in the same format. Rule: Dayone-ai rules/rgh-posts.md. Why: choice stories got a median of 143 views and 20 s watch; twin tip reels got 4-21 views and about 2 s watch.

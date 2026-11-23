@@ -19,13 +19,15 @@ ANGLES = {   # camera angle per shot, written for Veo (Flow); one per shot, neve
     "low": "Low angle: the camera sits below his chest line looking slightly up at him, medium shot from the waist up, slow push-in. He stands and talks straight to the lens with one open hand gesture at chest height.",
     "side": "Three-quarter side angle: the camera is 45 degrees to his left at chest height, medium shot from the waist up. He turns his head to the lens and talks to camera, one relaxed hand gesture toward the room.",
     "high": "High angle: the camera is a little above his eye line and to his right, medium close-up. He sits with both forearms resting on the table, turns to the lens and talks to camera; hands stay relaxed, at most one small open-palm gesture.",
-    "close": "Close-up from the chest up at eye level, shallow depth of field, slow push-in. He leans slightly toward the lens and talks straight to camera, a small smile on the last words, hands out of frame.",
+    "close": "Medium close-up from the chest up at eye level, shallow depth of field, slow push-in. He leans slightly toward the lens and talks straight to camera, a small smile on the last words, hands out of frame.",
     "walk": "Medium-wide shot from the knees up at eye level. He takes one step toward the camera and stops, then talks straight to camera with one relaxed hand gesture.",
 }
-HEAD = ("Vertical 9:16 talking-head video, 8 seconds. Image 1 is the real man: keep his exact face, rimless glasses, smooth bald head and beard shape from image 1. "
+HEAD = ("Vertical 9:16 talking-head video, 8 seconds. Image 1 shows the man: same face, rimless glasses, smooth bald head and beard shape. "
         "Image 2 is his reference sheet: same head, glasses and beard, clean cut with the grey at the chin exactly as shown. "
-        "His body is athletic and fit: a completely flat stomach with no belly and no protrusion of any kind, even from the side, a firm fit chest, toned arms and broad shoulders, in a fitted black crew-neck t-shirt "
-        "(Ralph's standing look, 2026-11-15). Image 3 is the room he is in: the whole background is that room only. Image 1 is only for his face; its plain grey backdrop and anything from the place it was taken never appear.")
+        "His body is athletic and fit: a completely flat stomach with no belly and no protrusion of any kind, even from the side, a firm fit chest, toned arms and broad shoulders, in a fitted black crew-neck t-shirt. "
+        "Image 3 is the room he is in: the whole background is that room only. Image 1 is only for his face; its plain grey backdrop and anything from the place it was taken never appear.")
+ACCENT = ("Accent: US English only, a natural General American accent from the first word to the last, including short words like \"A\" or \"B\". "
+          "No British, Indian, Canadian, Australian or any other accent, and the accent never changes mid-line.")   # Ralph 2026-11-23: R3_3 came back with an Indian accent
 TAIL = ("Bright, even daylight, natural colours, sharp face, real skin texture. He moves naturally, blinks and breathes. No counting on fingers, no pointing. "
         "No music, no sound effects, no captions, no on-screen text, no brand names or logos anywhere, no other people.")
 
@@ -62,7 +64,7 @@ def kit(week):
             src = HERE / week / "rooms" / key / pk["file"]; im = Image.open(src).convert("RGB"); im.thumbnail((1600, 1600))
             room = f"{key}_room.jpg"; im.save(o / room, quality=90)
             line = s["line"].replace("KIT", "kit")             # Veo spells capitalised keywords letter by letter
-            p = f"{HEAD}\nRoom: he is in {pk['desc']}.\nShot: {ANGLES[s['angle']]}\nHe says, in a warm, clear American male voice at a quick, upbeat pace with no pauses between sentences, exactly: \"{line}\"\n{TAIL}"
+            p = f"{HEAD}\nRoom: he is in {pk['desc']}.\nShot: {ANGLES[s['angle']]}\nHe says, in a warm, clear American male voice at a quick, upbeat pace with no pauses between sentences, exactly: \"{line}\"\n{ACCENT}\n{TAIL}"
             out.append({"shot": key, "angle": s["angle"], "line": s["line"], "room": room, "room_source": pk["url"], "prompt": p})
             (o / f"prompt_{key}.txt").write_text(p)
         json.dump(out, open(o / "kit.json", "w"), indent=1); print("KIT", t["id"], len(out))
