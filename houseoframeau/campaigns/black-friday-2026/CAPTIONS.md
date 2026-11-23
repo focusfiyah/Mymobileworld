@@ -33,3 +33,4 @@ Mute Nasal Dilator: Snoring kept us both up 😴 A starter pack of nasal dilator
 Night Driving Glasses: I wish someone thought of this sooner 🚗 Fit over your glasses and cut the glare at night. #ad #nightdriving #antiglare #drivingglasses #tiktokshopblackfriday
 
 Wag Bag V1 (Grace's own footage): The part of the emergency kit everyone forgets #ad #preptok #emergencyprep #poweroutage #cleanwaste #tiktokshopblackfriday
+Wag Bag 1600s (HofR): The 1600s had an excuse. What's your plan if the water stops? 🚽 #ad #wagbag #emergencyprep #preptok #tiktokshopblackfriday
