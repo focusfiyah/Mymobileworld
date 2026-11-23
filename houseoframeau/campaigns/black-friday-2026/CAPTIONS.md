@@ -31,3 +31,5 @@ SoFyre: Keep the mice out before winter 🐭 Peppermint and cinnamon pouches, sa
 Throw Hands: Rock paper scissors, but chaos 🃏 The 60 second card game for family game night. #ad #throwhands #familygamenight #cardgames #tiktokshopblackfriday
 Mute Nasal Dilator: Snoring kept us both up 😴 A starter pack of nasal dilators for quieter nights. #ad #mute #snoring #bettersleep #tiktokshopblackfriday
 Night Driving Glasses: I wish someone thought of this sooner 🚗 Fit over your glasses and cut the glare at night. #ad #nightdriving #antiglare #drivingglasses #tiktokshopblackfriday
+
+Wag Bag V1 (Grace's own footage): The part of the emergency kit everyone forgets #ad #preptok #emergencyprep #poweroutage #cleanwaste #tiktokshopblackfriday

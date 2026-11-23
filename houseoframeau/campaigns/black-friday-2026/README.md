@@ -29,15 +29,15 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 9 | 11-20 | SOLD: HofR - SoFyre BF (1U3_f6fwtZSzLCmbdsF78kWLYxQKmgciS; Ralph approved 2026-11-15) | 17.9 s | 2026-11-20 v_inbox_file~v2.7710249973396555806; posted 11:36 AM ET, video 7710293311252155661 (17 s, caption on) |
 | 10 | 11-21 | SOLD: HofR - Throw Hands BF (1_4MSUQ_gCUbUTjeO6dltHiC3NfVWFA9Q; Ralph approved 2026-11-15) | 29.4 s | 2026-11-21 v_inbox_file~v2.7710420129041008670 (drafted 2026-11-20 7:50 PM ET so Ralph can post after midnight); posted 11:12 AM ET, video 7710658335502077197 (29 s, caption on) |
 | 11 | 11-22 | SOLD: HofR - Night Driving Glasses BF (1X368oc1chBv8rnLePW-hwFrUFPLhSuXx; Ralph approved 2026-11-15) | 32.0 s | 2026-11-22 v_inbox_file~v2.7711037106839324686 (replaced Mute Nasal Dilator, Ralph 2026-11-22 tapped "Night Glasses now"); posted 11:47 AM ET, video 7711038396642200863 (31 s, caption on) |
-| 12 | 11-23 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s | |
-| 13 | 11-24 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
-| 14 | 11-25 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
-| 15 | 11-26 | HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, Ralph OK 2026-11-12, batch B) | 22.7 s | |
-| 16 | 11-27 | HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, Ralph OK 2026-11-12, batch B) | 23.6 s | |
-| 17 | 11-28 | HofR - COSRX Lip Care BF (1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, Ralph OK 2026-11-12, batch B) | 23.1 s | |
-| 18 | 11-29 | HofR - Wig Milk Spray BF (1f948vXL9olLQVdTs6jM6ajeMw_gczRTw, Ralph OK 2026-11-12, batch B) | 26.5 s | |
-| 19 | 11-30 | HofR - Eyeliner BF (1ctwXq7sixU9wt2Jz7DGqiBMIJcWg-ccs, Ralph OK 2026-11-12, batch B) | 23.1 s | |
-| 20 | 12-01 | HofR - GALENTAL Mirror BF (1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, Ralph OK 2026-11-12, batch A; spare added 2026-11-22 for Dec 1) | 22.2 s | |
+| 12 | 11-23 | Wag Bag V1 (Grace's own footage, 1vk120qQKz-UlYyndlI5Z96JkP6DJINJy; Ralph 2026-11-23: "Give me a video to post. Specifically a wag bag. One that got a sale on grace tiktok", tapped "Yes, it's today's"; AI label off, real footage) | 30.5 s | 2026-11-23 v_inbox_file~v2.7711252785064396814 (drafted 1:40 AM ET) |
+| 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s | |
+| 14 | 11-25 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
+| 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
+| 16 | 11-27 | HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, Ralph OK 2026-11-12, batch B) | 22.7 s | |
+| 17 | 11-28 | HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, Ralph OK 2026-11-12, batch B) | 23.6 s | |
+| 18 | 11-29 | HofR - COSRX Lip Care BF (1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, Ralph OK 2026-11-12, batch B) | 23.1 s | |
+| 19 | 11-30 | HofR - Wig Milk Spray BF (1f948vXL9olLQVdTs6jM6ajeMw_gczRTw, Ralph OK 2026-11-12, batch B) | 26.5 s | |
+| 20 | 12-01 | HofR - Eyeliner BF (1ctwXq7sixU9wt2Jz7DGqiBMIJcWg-ccs, Ralph OK 2026-11-12, batch B) | 23.1 s | |
 
 Measured 2026-11-12: Boo-Boo Gel HofR V2 is 13.6 s (does not qualify as is); NovaTabz HofR 15.2 s; Camera Detector HofR
 full cut is not stored (only a 3.9 MB review copy), so it needs a rebuild. Jelliquid HofR 12 s, music only: not used.
@@ -59,6 +59,8 @@ products get holiday b-roll + holiday hook text; $0.
 People on screen (Ralph 2026-11-12, relayed by the silent-A session): "I only want to use either brown, light brown, dark brown
 complexion people when we're using people." Applies to every b-roll and stock clip with people (hands included).
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
+
+Back to spare 2026-11-23 (Wag Bag took day 12, queue moved back a day): HofR - GALENTAL Mirror BF (1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, 22.2 s), not scheduled.
 
 Dropped 2026-11-22 (Ralph: "We need to replace mute nose dilator"): HofR - Mute Nasal Dilator BF (1wlWnsMiaG6g1ruecqopmKvm5YJV2FuUf), never send; its draft v_inbox_file~v2.7710992065496352798 sits unposted in the inbox.
 
