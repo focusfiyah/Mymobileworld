@@ -44,3 +44,9 @@ Page code: hidden `access_key`, `subject`, `from_name`, a `botcheck` checkbox ho
 an Accept header triggers a CORS preflight that Web3Forms fails). Server-side calls (curl, Playwright from the cloud) get
 403 "Pro plan is required", so the form can only be tested from a real browser, i.e. Ralph's phone. Third party sees the lead's
 name, email and link: say so to the client. Grace's key: 26901150-511e-470d-b5f8-b6e6af5017d4 (public).
+
+## Netlify deploy budget (Ralph 2026-11-24)
+Netlify Free = 300 credits per billing period for the WHOLE account (all sites); a production deploy costs 15 (about 20 deploys), bandwidth 20 per GB, requests 2 per 10k. On 2026-11-24 about 16 deploys (Ruiz proposal and preview, iterated per edit) hit "Account credit usage exceeded - new deploys are blocked" for every site. The account's next period starts 2026-12-03 00:00 PST (GET /api/v1/accounts: next_usage_period_start; the same record shows usages_exceeded and grace_topup_granted_at, but not credits used).
+- Build and test locally; review rounds on a private Artifact; deploy a finished batch, at most 2 deploys per site per review round; say the month's deploy count before each deploy.
+- Count deploys in this log (add a line per deploy):
+  - 2026-11 (period from 3 Nov): about 16 on 2026-11-24 (ruiz-property-group-proposal x8, ruiz-property-group-preview x3, others earlier) then blocked.
