@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
 <title>Ruiz Property Group LLC</title>
-<meta name="description" content="Ruiz Property Group buys, renovates and manages homes. Sell your house, buy a renovated home or rent from the owner.">
+<meta name="description" content="Ruiz Property Group buys, renovates and manages two-family, multi-family and mixed-use properties across the New York tri-state area. Deal directly with the owner.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="styles.css">
@@ -19,50 +19,83 @@
       <svg viewBox="0 0 48 52" width="40" height="43" aria-hidden="true"><path d="M24 2 46 18v32H2V18Z" fill="var(--brick)"/><path d="M15 38V15h10.5c5 0 8 2.7 8 6.9 0 3.2-1.9 5.4-5 6.3L34 38h-6.2l-4.6-9H20.5v9Zm5.5-13.6h4.4c1.8 0 2.8-.9 2.8-2.4s-1-2.4-2.8-2.4h-4.4Z" fill="#fff"/></svg>
       <span class="wm"><b>RUIZ</b><i>Property Group</i></span>
     </a>
-    <nav aria-label="Main"><a href="#services">What we do</a><a href="#sell">Sell your house</a><a href="#work">Our work</a></nav>
+    <nav aria-label="Main"><a href="#properties">Properties</a><a href="#services">What we do</a><a href="#sell">Sell your house</a><a href="#area">Where we work</a><a href="#faq">Questions</a></nav>
     <a class="btn small" href="#contact">Get in touch</a>
   </div>
 </header>
 
 <main id="top">
 <section class="hero">
+  <img class="hero-bg" src="img/hero.jpg" width="1880" height="1252" alt="Brownstone row houses on a tree-lined New York street" fetchpriority="high">
+  <div class="hero-shade" aria-hidden="true"></div>
   <div class="wrap hero-grid">
     <div class="hero-copy">
       <h1>We buy, fix and manage homes.</h1>
-      <p class="lead">Across the New York tri-state area. Selling a house, looking for a renovated one, or renting a place to live, you deal directly with the owner, from the first call to the closing table or the front door key.</p>
-      <div class="cta-row"><a class="btn" href="#contact">Tell us about your property</a><a class="link" href="#services">See what we do</a></div>
+      <p class="lead">Two-family, multi-family, mixed-use and single-family properties across the New York tri-state area. Selling, buying or renting, you deal with the owner from the first call to the closing table or the front door key.</p>
+      <div class="cta-row"><a class="btn" href="#contact">Tell us about your property</a><a class="link light" href="#properties">What we buy</a></div>
+      <p class="badge"><span class="dot" aria-hidden="true"></span>Direct with the owner</p>
     </div>
-    <figure class="hero-photo"><img src="img/hero.jpg" width="1800" height="1201" alt="Two-story house with a covered porch and a green lawn under a blue sky" fetchpriority="high"></figure>
+    <form class="quick" id="quick" novalidate aria-labelledby="qt">
+      <h2 id="qt">Thinking of selling?</h2>
+      <p>Start with the address. We will take it from there.</p>
+      <div class="field"><label for="qaddr">Property address</label><input id="qaddr" autocomplete="street-address" placeholder="Street, city, state"></div>
+      <div class="field"><label for="qphone">Phone number</label><input id="qphone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Where we can reach you"></div>
+      <button class="btn full" type="submit">Start my request</button>
+      <small>No obligation to accept an offer.</small>
+    </form>
   </div>
 </section>
 
-<section class="band" aria-label="Summary">
-  <div class="wrap facts">
-    <p><b>Buy</b> houses as they are</p>
-    <p><b>Renovate</b> them properly</p>
-    <p><b>Sell and rent</b> them to you</p>
+<section class="types" aria-label="Property types">
+  <div class="types-row">
+    <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 20 20 6l16 14v14H4Z M16 34V24h8v10"/></svg><b>Single-family</b><span>and townhouses</span></div>
+    <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 34V16l8-6 8 6v18 M21 34V12l7-5 7 5v22 M9 34v-8h8v8 M25 34v-7h6v7"/></svg><b>Two-family</b><span>and multi-family</span></div>
+    <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 34V10h20v24 M25 18h10v16 M5 24h20 M10 15h4 M16 15h4 M10 29h4 M30 24h2 M30 29h2 M3 34h34"/></svg><b>Mixed-use</b><span>shop below, homes above</span></div>
+    <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 36V8h28v28 M6 14h28 M6 22h28 M6 30h28 M14 8v28 M24 8v28"/></svg><b>Apartment</b><span>buildings</span></div>
   </div>
 </section>
 
-<section id="services" class="block">
+<section id="properties" class="block">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow">Properties</p><h2>The buildings that make up the neighborhood.</h2><p class="lead sm">From walk-ups and row houses to corner buildings with a storefront. We buy them, renovate them and look after them.</p></div>
+    <div class="tiles">
+      <figure class="tile t1"><img src="img/apartments.jpg" width="1300" height="866" loading="lazy" alt="Brick walk-up apartment building with fire escapes on a New York street"><figcaption><b>Multi-family</b>Walk-ups and apartment buildings</figcaption></figure>
+      <figure class="tile t2"><img src="img/mixeduse.jpg" width="1400" height="933" loading="lazy" alt="Three-story mixed-use building with shopfronts on the ground floor"><figcaption><b>Mixed-use</b>Storefront below, apartments above</figcaption></figure>
+      <figure class="tile t3"><img src="img/rowhouses.jpg" width="1300" height="599" loading="lazy" alt="Colorful row houses with front porches"><figcaption><b>Row houses</b>Classic city blocks</figcaption></figure>
+      <figure class="tile t4"><img src="img/townhouses.jpg" width="1300" height="867" loading="lazy" alt="Row of newer townhouses with garages"><figcaption><b>Townhouses</b>Newer builds and suburban streets</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="block soft">
   <div class="wrap">
     <div class="head"><p class="eyebrow">What we do</p><h2>One owner. Three ways to work with us.</h2></div>
     <div class="cards">
-      <article class="card"><img src="img/ranch.jpg" width="1300" height="866" loading="lazy" alt="Single-story ranch house with a wide front yard"><div class="body"><h3>Sell your house to us</h3><p>Inherited a property, relocating, or tired of repairs? We buy houses in any condition, so you do not have to fix anything before you sell.</p><a class="link" href="#sell">How it works</a></div></article>
-      <article class="card"><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Renovated white kitchen with stainless appliances and granite counters"><div class="body"><h3>Buy a renovated home</h3><p>We renovate each house we buy: kitchens, floors, paint and the details in between. Ask us what is coming up next.</p><a class="link" href="#contact">Ask about available homes</a></div></article>
-      <article class="card"><img src="img/livingroom.jpg" width="1300" height="864" loading="lazy" alt="Bright empty living room with new wood floors"><div class="body"><h3>Rent from the owner</h3><p>We manage the homes we own ourselves. One point of contact when something needs fixing, and no layers of management in between.</p><a class="link" href="#contact">Ask about rentals</a></div></article>
+      <article class="card"><div class="media"><img src="img/fixer.jpg" width="1300" height="975" loading="lazy" alt="Small blue house with boarded windows waiting for renovation"><span class="ico"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 20 20 7l14 13 M10 18v16h20V18 M17 34V24h6v10"/></svg></span></div><div class="body"><h3>Sell your house to us</h3><p>Inherited a property, relocating, or tired of repairs? We buy houses in any condition, so you do not have to fix anything before you sell.</p><a class="link" href="#sell">How it works</a></div></article>
+      <article class="card"><div class="media"><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Renovated white kitchen with stainless appliances and granite counters"><span class="ico"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M8 32 24 16 M22 10l8 8 M26 6l8 8 M6 34l4-4"/></svg></span></div><div class="body"><h3>Buy a renovated home</h3><p>We renovate each property we buy: kitchens, floors, paint and the details in between. Ask us what is coming up next.</p><a class="link" href="#contact">Ask about available homes</a></div></article>
+      <article class="card"><div class="media"><img src="img/corner.jpg" width="1300" height="866" loading="lazy" alt="Brick corner building on a tree-lined street"><span class="ico"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="14" cy="20" r="6"/><path d="M20 20h16 M30 20v7 M35 20v5"/></svg></span></div><div class="body"><h3>Rent from the owner</h3><p>We manage the homes we own ourselves. One point of contact when something needs fixing, and no layers of management in between.</p><a class="link" href="#contact">Ask about rentals</a></div></article>
     </div>
   </div>
 </section>
 
 <section id="sell" class="block dark">
   <div class="wrap sell">
-    <div class="head"><p class="eyebrow">Selling to us</p><h2>Three steps, no repairs, no showings.</h2></div>
+    <div class="head"><p class="eyebrow">Selling to us</p><h2>Three steps, no repairs, no showings.</h2><a class="btn" href="#contact">Start my request</a></div>
     <ol class="steps" id="steps">
       <li><span class="n" aria-hidden="true">1</span><div><h3>Tell us about the property</h3><p>Send the address and a few details through the form below. It takes a couple of minutes.</p></div></li>
-      <li><span class="n" aria-hidden="true">2</span><div><h3>We look at it and make an offer</h3><p>We review the house and come back with a clear offer, with no obligation to accept.</p></div></li>
+      <li><span class="n" aria-hidden="true">2</span><div><h3>We look at it and make an offer</h3><p>We review the property and come back with a clear offer, with no obligation to accept.</p></div></li>
       <li><span class="n" aria-hidden="true">3</span><div><h3>You choose the closing date</h3><p>If you accept, you pick the date that suits you. We handle the paperwork with you.</p></div></li>
     </ol>
+  </div>
+</section>
+
+<section id="area" class="area">
+  <img src="img/skyline.jpg" width="1880" height="1246" loading="lazy" alt="Brick apartment towers with the New York skyline in the distance">
+  <div class="area-shade" aria-hidden="true"></div>
+  <div class="wrap area-in">
+    <p class="eyebrow light">Where we work</p>
+    <h2>The New York tri-state area.</h2>
+    <ul class="chips"><li>New York</li><li>New Jersey</li><li>Connecticut</li></ul>
   </div>
 </section>
 
@@ -70,9 +103,21 @@
   <div class="wrap">
     <div class="head"><p class="eyebrow">Our work</p><h2>From rough to ready.</h2><p class="lead sm">Sample photos shown here. Your own before and after projects can be added to this section later.</p></div>
     <div class="work-grid">
-      <figure class="w1"><img src="img/renovation.jpg" width="1300" height="866" loading="lazy" alt="Kitchen mid-renovation with new cabinets going in"><figcaption>During: the renovation</figcaption></figure>
-      <figure class="w2"><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Finished renovated kitchen"><figcaption>After: finished and ready to live in</figcaption></figure>
-      <figure class="w3"><img src="img/portfolio.jpg" width="1800" height="1012" loading="lazy" alt="Aerial view of a residential neighborhood with many houses"><figcaption>A growing portfolio of properties we own and manage</figcaption></figure>
+      <figure><img src="img/renovation.jpg" width="1300" height="866" loading="lazy" alt="Kitchen mid-renovation with new cabinets going in"><figcaption><b>During</b>The renovation</figcaption></figure>
+      <figure><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Finished renovated kitchen"><figcaption><b>After</b>Finished and ready to live in</figcaption></figure>
+      <figure><img src="img/livingroom.jpg" width="1300" height="864" loading="lazy" alt="Bright empty living room with new wood floors"><figcaption><b>Ready</b>Fresh floors and paint</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="block soft">
+  <div class="wrap faq">
+    <div class="head"><p class="eyebrow">Questions</p><h2>What sellers ask us first.</h2></div>
+    <div class="qa">
+      <details><summary>Do I have to fix anything before I sell?</summary><p>No. We buy properties as they are, so you can skip the repairs and the cleanup.</p></details>
+      <details><summary>Do I have to accept your offer?</summary><p>No. You get a clear offer and no obligation to accept it.</p></details>
+      <details><summary>Who will I be dealing with?</summary><p>Luigi, the owner. There is no middle layer between you and the person making the decision.</p></details>
+      <details><summary>What kinds of properties do you buy?</summary><p>Single-family homes, two-family and multi-family buildings, mixed-use properties and apartment buildings across New York, New Jersey and Connecticut.</p></details>
     </div>
   </div>
 </section>
@@ -87,7 +132,7 @@
         <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
         <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
       </div>
-      <div class="field"><label for="need">What do you need?</label><select id="need" name="need"><option>Sell my house</option><option>Buy a renovated home</option><option>Rent a home</option><option>Something else</option></select></div>
+      <div class="field"><label for="need">What do you need?</label><select id="need" name="need"><option>Sell my property</option><option>Buy a renovated home</option><option>Rent a home</option><option>Something else</option></select></div>
       <div class="field"><label for="addr">Property address, if selling</label><input id="addr" name="address" autocomplete="street-address"></div>
       <div class="field"><label for="msg">Anything else we should know?</label><textarea id="msg" name="message" rows="4"></textarea></div>
       <button class="btn" type="submit">Send</button>
@@ -97,7 +142,11 @@
 </section>
 </main>
 
-<footer class="foot"><div class="wrap"><p><b>Ruiz Property Group LLC</b></p><p>Property buyer, renovator and manager. Serving the New York tri-state area.</p></div></footer>
+<footer class="foot">
+  <svg class="skyline" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120V80h30V50h24V70h20V30h26V60h18V40h22V75h28V20h16V8h8V20h16V65h24V45h30V80h22V55h26V35h20V70h30V50h24V85h26V60h20V25h24V70h28V45h22V80h26V58h30V30h18V72h24V52h26V88h30V62h22V38h26V76h24V50h28V84h30V66h22V42h24V78h28V55h26V90h30V64h22V34h20V70h28V48h24V82h26V120Z" fill="currentColor"/></svg>
+  <div class="wrap foot-in"><div><p><b>Ruiz Property Group LLC</b></p><p>Property buyer, renovator and manager. Serving the New York tri-state area.</p></div><a class="btn small" href="#contact">Get in touch</a></div>
+</footer>
+<a class="sticky-cta" href="#contact">Get in touch</a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>

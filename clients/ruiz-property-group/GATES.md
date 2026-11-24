@@ -4,10 +4,10 @@ Run from this folder. Browser checks need NODE_PATH=$(npm root -g).
 
 - G1 Site files and 7 images exist
   CHECK: ls site/index.html site/styles.css site/app.js site/img/*.jpg | wc -l
-  EXPECT: ^10$
+  EXPECT: ^13$
 - G2 Every image is listed with a licence
   CHECK: grep -c "^| img/" SOURCES.md
-  EXPECT: ^7$
+  EXPECT: ^13$
 - G3 No placeholder text, no invented contact details
   CHECK: grep -ciE "lorem|TODO|555|\(516\)|@yahoo|Ralph|Azariah" site/index.html
   EXPECT: ^0$

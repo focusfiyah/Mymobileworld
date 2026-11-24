@@ -1,4 +1,13 @@
 (function(){
+  var q=document.getElementById('quick');
+  q.addEventListener('submit',function(e){
+    e.preventDefault();
+    document.getElementById('addr').value=document.getElementById('qaddr').value;
+    document.getElementById('phone').value=document.getElementById('qphone').value;
+    document.getElementById('need').value='Sell my property';
+    document.getElementById('contact').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+    setTimeout(function(){document.getElementById('name').focus({preventScroll:true})},500);
+  });
   var form=document.getElementById('lead'),st=document.getElementById('status');
   form.addEventListener('submit',function(e){
     e.preventDefault();
