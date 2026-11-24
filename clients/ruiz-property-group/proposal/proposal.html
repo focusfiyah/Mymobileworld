@@ -1,0 +1,213 @@
+<title>Ruiz Property Group LLC</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&family=Archivo+Black&display=swap">
+<style>
+/* Layout: Day One AI brand. Hero shows the new site going from a browser to a phone, then plain-priced cards. */
+:root{
+  --bg:#F5F7FC; --surface:#FFFFFF; --ink:#0B0D14; --muted:#586177; --line:#DDE3F0;
+  --accent:#1F4FE0; --accent-ink:#FFFFFF; --accent-soft:#E2EAFD; --warm:#5B8CFF; --chip:#EAEEF8;
+  --shadow:0 18px 40px -22px rgba(11,13,20,.35);
+  --display:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;
+  --body:'Figtree','Segoe UI',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0A0D14; --surface:#121826; --ink:#EEF2FA; --muted:#9AA8C2; --line:#22304D;
+  --accent:#6C95FF; --accent-ink:#05103A; --accent-soft:#17254A; --warm:#8FB0FF; --chip:#1A2236;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0A0D14; --surface:#121826; --ink:#EEF2FA; --muted:#9AA8C2; --line:#22304D;
+  --accent:#6C95FF; --accent-ink:#05103A; --accent-soft:#17254A; --warm:#8FB0FF; --chip:#1A2236;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7); color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:64px}
+h1,h2,h3{font-family:var(--display);line-height:1.05;margin:0;text-wrap:balance;letter-spacing:-.02em}
+h1{font-size:clamp(38px,7vw,72px);font-weight:800}
+h2{font-size:clamp(28px,4.5vw,44px);font-weight:700}
+h3{font-size:21px;font-weight:700;letter-spacing:-.01em}
+p{margin:0}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.lead{font-size:clamp(18px,2.2vw,21px);color:var(--muted);max-width:56ch}
+.sec-head{display:grid;gap:14px;margin-bottom:36px;max-width:680px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:22px;font-size:14px;color:var(--muted)}
+.brand{display:flex;align-items:center;gap:14px}
+.brand b{font-family:var(--display);color:var(--ink);font-size:22px;font-weight:800;letter-spacing:-.02em}
+.logo{--brand:#1F4FE0;width:72px;height:72px;border-radius:50%;background:#0B0D14;position:relative;display:grid;place-items:center;flex:none;box-shadow:0 0 0 1px var(--line)}
+.logo .d1{font-family:'Archivo Black',var(--display);font-size:35px;line-height:1;color:#fff;letter-spacing:-1.6px;text-shadow:1.5px 1.5px 0 var(--brand);margin-top:-5px}
+.logo .ai{position:absolute;bottom:13px;left:50%;transform:translateX(-50%) rotate(-4deg);background:var(--brand);color:#fff;font-family:'Archivo Black',var(--display);font-size:9px;line-height:1.15;padding:0 4px;border-radius:3px}
+.hero{padding-block:24px 40px;display:grid;gap:40px}
+.hero-copy{display:grid;gap:22px;max-width:760px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.stage{display:grid;grid-template-columns:1.25fr auto 1fr;align-items:center;gap:18px;background:var(--surface);border:1px solid var(--line);border-radius:28px;padding:36px 28px;box-shadow:var(--shadow);overflow:hidden}
+.browser{border:1px solid var(--line);border-radius:14px;background:var(--bg);overflow:hidden;animation:rise .8s .1s both}
+.bar{display:flex;gap:6px;align-items:center;padding:9px 12px;border-bottom:1px solid var(--line);background:var(--chip)}
+.bar i{width:9px;height:9px;border-radius:50%;background:var(--line);flex:none}
+.bar span{margin-left:8px;font-size:11px;color:var(--muted);background:var(--surface);border-radius:20px;padding:2px 12px;flex:1;max-width:230px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.skel{padding:16px;display:grid;gap:10px}
+.skel b{display:block;height:10px;border-radius:6px;background:var(--line)}
+.skel b.h{width:62%;height:16px;background:var(--ink);opacity:.9}
+.skel b.a{width:34%;height:22px;border-radius:8px;background:var(--accent)}
+.skel .g{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.skel u{height:46px;border-radius:10px;background:var(--accent-soft);display:block}
+.label{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:12px;text-align:center}
+.flow{display:grid;justify-items:center;gap:8px;color:var(--muted);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.flow .track{width:70px;height:2px;background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 12px)}
+.phone{width:132px;margin:0 auto;border:5px solid var(--ink);border-radius:28px;background:var(--bg);padding:10px 8px 14px;animation:rise .9s .5s both}
+.phone::before{content:"";display:block;width:34px;height:5px;border-radius:5px;background:var(--ink);margin:0 auto 10px}
+.phone .skel{padding:0}.phone .skel u{height:30px}
+.phone .skel .g{grid-template-columns:1fr 1fr}
+.pill{margin:12px auto 0;display:table;font-size:11px;font-weight:600;padding:4px 12px;border-radius:20px;background:var(--ink);color:var(--bg)}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.browser,.phone{animation:none}}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;display:grid;gap:12px;align-content:start;min-width:0;transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card p{color:var(--muted)}
+.card.hi{border:2px solid var(--accent);position:relative}
+.tag{position:absolute;top:-13px;left:24px;background:var(--accent);color:var(--accent-ink);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border-radius:20px;padding:3px 12px}
+.price{font-family:var(--display);font-size:clamp(34px,5vw,46px);font-weight:800;letter-spacing:-.02em;line-height:1}
+.price small{display:block;font-family:var(--body);font-size:14px;font-weight:500;color:var(--muted);letter-spacing:0;margin-top:8px}
+.feat{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:8px}
+.feat li{padding-left:26px;position:relative}
+.feat li::before{content:"";position:absolute;left:0;top:.5em;width:12px;height:7px;border-left:2.5px solid var(--accent);border-bottom:2.5px solid var(--accent);transform:rotate(-45deg)}
+.table{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--surface)}
+.row{display:grid;grid-template-columns:1.2fr .7fr 1.6fr;gap:16px;padding:18px 24px;border-top:1px solid var(--line);align-items:baseline}
+.row:first-child{border-top:0;background:var(--chip);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.row strong{font-family:var(--display);font-size:19px}
+.row .amt{font-family:var(--display);font-weight:700;font-size:19px;color:var(--accent);font-variant-numeric:tabular-nums}
+.row span{color:var(--muted);font-size:15px}
+.row.total{background:var(--accent-soft)}
+.note{margin-top:16px;color:var(--muted);font-size:15px;max-width:70ch}
+.names{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.dn{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;font-family:var(--display);font-weight:700;font-size:18px;overflow-wrap:anywhere;position:relative}
+.dn small{display:block;font-family:var(--body);font-weight:400;color:var(--muted);font-size:14px;margin-top:2px}
+.dn.pick{border:2px solid var(--accent)}
+.dn .tag{top:-12px;left:auto;right:14px;position:absolute}
+.callout{background:var(--accent-soft);border-radius:20px;padding:26px 28px;display:grid;gap:8px;margin-top:20px}
+.callout p{color:var(--ink)}
+.fine{color:var(--muted);font-size:14px;margin-top:14px;max-width:70ch}
+@media (max-width:720px){
+  .row{grid-template-columns:1fr;gap:4px;padding:16px 18px}
+  .row:first-child{display:none}
+  .stage{grid-template-columns:1fr;padding:26px 18px}
+  .flow{grid-auto-flow:column;justify-content:center}.flow .track{width:50px}
+  section{padding-block:48px}
+  .top .for{display:none}
+}
+</style>
+<div class="wrap">
+<div class="top">
+  <div class="brand"><div class="logo" aria-hidden="true"><span class="d1">D1</span><span class="ai">AI</span></div><b>Day One AI</b></div>
+  <span class="for">Prepared for Luigi Ruiz</span>
+</div>
+
+<div class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">Website proposal · Ruiz Property Group LLC</span>
+    <h1>A website that works as hard as <em>your properties</em> do.</h1>
+    <p class="lead">You buy, fix and flip houses and manage a large portfolio. Your new site shows sellers, buyers and tenants that you are the person to call, on a phone or a computer.</p>
+  </div>
+  <div class="stage" aria-hidden="true">
+    <div><div class="browser"><div class="bar"><i></i><i></i><i></i><span>ruizhomesolutions.com</span></div>
+      <div class="skel"><b class="h"></b><b style="width:80%"></b><b style="width:55%"></b><b class="a"></b><div class="g"><u></u><u></u><u></u></div></div></div>
+      <div class="label">On a computer</div></div>
+    <div class="flow"><div class="track"></div>Same site</div>
+    <div><div class="phone"><div class="skel"><b class="h" style="width:75%"></b><b style="width:90%"></b><b class="a" style="width:50%"></b><div class="g"><u></u><u></u></div></div></div>
+      <div class="label">On a phone</div></div>
+  </div>
+</div>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">What we build</span><h2>Everything, done for you.</h2>
+  <p class="lead">You send the details. We make the rest.</p></div>
+  <div class="cols">
+    <div class="card"><h3>Brand kit</h3><p>A logo, colors and fonts made for Ruiz Property Group, so everything you put out looks like one company.</p></div>
+    <div class="card"><h3>Photos and imagery</h3><p>A consistent set for the site. Your own property photos replace ours as you send them.</p></div>
+    <div class="card"><h3>All the words</h3><p>Plain-language copy for homeowners who want to sell fast, for buyers and for tenants.</p></div>
+    <div class="card"><h3>Landing page first</h3><p>One strong page with a contact form that sends every lead to your inbox. It is built so pages like Sell Your House, Properties and Rentals can be added later without a redo.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">Your domain</span><h2>Your web address, in your name.</h2>
+  <p class="lead">You buy it yourself at Cloudflare Registrar in the name of Ruiz Property Group LLC, so you always own it. We never hold it for you.</p></div>
+  <div class="table">
+    <div class="row"><span>Ending</span><span>Price</span><span>Good for</span></div>
+    <div class="row"><strong>.com</strong><span class="amt">$10.46 / year</span><span>Recommended. The one people expect and trust.</span></div>
+    <div class="row"><strong>.net</strong><span class="amt">$11.86 / year</span><span>A backup if your .com choice is taken.</span></div>
+    <div class="row"><strong>.properties or .estate</strong><span class="amt">$30.20 / year</span><span>Describes the business, but costs about three times more.</span></div>
+  </div>
+  <p class="fine">Prices from a Cloudflare price tracker, checked 24 Nov 2026. Cloudflare charges its wholesale price with no renewal markup. The exact price shows at checkout.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">Name ideas</span><h2>Pick the name that sounds like you.</h2>
+  <p class="lead">Each of these .com names showed as unregistered on 24 Nov 2026. Availability is confirmed at checkout. ruizpropertygroup.com, ruizpg.com and ruizhomebuyers.com are already taken.</p></div>
+  <div class="names">
+    <div class="dn pick">ruizhomesolutions.com<span class="tag">Our pick</span><small>Friendly, speaks to sellers</small></div>
+    <div class="dn">ruizpropertygroupllc.com<small>Matches your company name exactly</small></div>
+    <div class="dn">ruizpropertyinvestors.com<small>Says what you do</small></div>
+    <div class="dn">ruizhousebuyers.com<small>Strong for "sell my house fast" visitors</small></div>
+    <div class="dn">luigiruizproperties.com<small>Personal, you as the face</small></div>
+    <div class="dn">ruizpropertyholdings.com<small>Portfolio-owner feel</small></div>
+    <div class="dn">ruizrenovations.com<small>Fix and flip focus</small></div>
+    <div class="dn">ruizpropertymanagement.com<small>Owner and tenant focus</small></div>
+    <div class="dn">ruizpropertypartners.com<small>Good if you work with co-investors</small></div>
+    <div class="dn">ruizrealtyinvestors.com<small>Investor-oriented</small></div>
+  </div>
+  <p class="fine">Send us your top two. We can suggest more.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">Hosting</span><h2>Hosted on Netlify. Managed by us.</h2>
+  <p class="lead">The Netlify account is in your name and you pay Netlify directly for it. We manage it fully: setup, updates, security and upkeep. We start on the lowest plan and move up only when you need it.</p></div>
+  <div class="cols">
+    <div class="card hi"><span class="tag">Starting here</span><h3>Free</h3><div class="price">$0<small>per month</small></div>
+      <ul class="feat"><li>Your own domain with security certificate</li><li>Fast delivery worldwide</li><li>Contact form support</li></ul></div>
+    <div class="card"><h3>Personal</h3><div class="price">$9<small>per month, later if needed</small></div>
+      <ul class="feat"><li>More usage allowance</li><li>Priority email support</li><li>Visitor tracking</li></ul></div>
+    <div class="card"><h3>Pro</h3><div class="price">$20<small>per month, later if needed</small></div>
+      <ul class="feat"><li>Highest allowance</li><li>Shared team access</li><li>30-day analytics</li></ul></div>
+  </div>
+  <p class="fine">Netlify prices from netlify.com/pricing, checked 24 Nov 2026. The Free plan includes a usage allowance. A small business site uses a fraction of it.</p>
+</section>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">Business email</span><h2>An address like luigi@yourname.com.</h2>
+  <p class="lead">Hosting does not include email. There are two ways to get it.</p></div>
+  <div class="cols">
+    <div class="card hi"><span class="tag">Free</span><h3>Cloudflare Email Routing</h3><div class="price">$0</div><p>Anything sent to your business address arrives in your current inbox (ruizpropertygroupllc@yahoo.com). Replying from the business address needs extra setup, which we check for your email provider first.</p></div>
+    <div class="card"><h3>Google Workspace</h3><div class="price">about $7<small>per person, per month</small></div><p>A full inbox on your own domain, with calendar and storage. We confirm the current price before you sign up.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">Year one</span><h2>What it costs to run.</h2></div>
+  <div class="table">
+    <div class="row"><span>Item</span><span>Cost</span><span>Note</span></div>
+    <div class="row"><strong>Domain (.com)</strong><span class="amt">$10.46</span><span>Once a year, paid to Cloudflare</span></div>
+    <div class="row"><strong>Hosting (Netlify Free)</strong><span class="amt">$0</span><span>Upgrade only if needed</span></div>
+    <div class="row"><strong>Email forwarding</strong><span class="amt">$0</span><span>Cloudflare Email Routing</span></div>
+    <div class="row total"><strong>Total to run the site</strong><span class="amt">about $10.46</span><span>For the first year</span></div>
+  </div>
+  <div class="table" style="margin-top:20px">
+    <div class="row"><span>Our fee</span><span>Price</span><span>Includes</span></div>
+    <div class="row total"><strong>Design and build</strong><span class="amt">$750 one time</span><span>Brand kit, imagery, all copy, landing page with contact form, Netlify setup in your account, Cloudflare domain connection and email forwarding.</span></div>
+    <div class="row"><strong>Care plan (optional)</strong><span class="amt">$40 / month</span><span>We keep the site updated and secure and make one small change a month.</span></div>
+    <div class="row"><strong>Extra pages (later)</strong><span class="amt">$200 each</span><span>Sell Your House, Properties, Rentals, About and more.</span></div>
+  </div>
+  <p class="note">Domain and Netlify costs above are paid by you directly to Cloudflare and Netlify. They are not part of our fee.</p>
+  <div class="callout"><h3>See the vision</h3><p>Your preview site is ready to look at: <a href="https://ruiz-property-group-preview.netlify.app" style="color:var(--accent);font-weight:600">ruiz-property-group-preview.netlify.app</a>. The photos are samples and will be replaced with your own projects.</p></div>
+</section>
+
+<section>
+  <div class="sec-head"><span class="eyebrow">Next</span><h2>What we need from you.</h2></div>
+  <div class="cols">
+    <div class="card"><h3>Your area</h3><p>Where you work and the kinds of homes you buy.</p></div>
+    <div class="card"><h3>Your focus</h3><p>Selling to you, buying from you, renting, or all three.</p></div>
+    <div class="card"><h3>Photos</h3><p>Any finished projects you want shown, if you have them.</p></div>
+    <div class="card"><h3>Your top two names</h3><p>From the list above, or your own idea.</p></div>
+  </div>
+</section>
+</div>
