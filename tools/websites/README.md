@@ -50,3 +50,9 @@ Netlify Free = 300 credits per billing period for the WHOLE account (all sites);
 - Build and test locally; review rounds on a private Artifact; deploy a finished batch, at most 2 deploys per site per review round; say the month's deploy count before each deploy.
 - Count deploys in this log (add a line per deploy):
   - 2026-11 (period from 3 Nov): about 16 on 2026-11-24 (ruiz-property-group-proposal x8, ruiz-property-group-preview x3, others earlier) then blocked.
+
+## Two Netlify accounts (Ralph 2026-11-24)
+- PRIMARY: life22watch / team "focusfiyah" (id 6ae97184bee70a7b489b7635), credits renew 2026-12-03 00:00 PST. Always first.
+- BACKUP: Ralph is creating it (name, team slug and token location: add here when it exists; token via request_credential; test with a read-only call and say which account a call hits). Used only while the primary answers "Account credit usage exceeded"; the same sites get new addresses there.
+- NOTE TO SELF: from 2026-12-03 08:00 UTC check the primary's next_usage_period_start / usages_exceeded; if it renewed, move everything back to the primary. If the primary runs out again and the backup has credits, use the backup. No scheduled task for this unless Ralph OKs one.
+- Deploy count per account per month (add a line per deploy): primary 2026-11: about 16 by 2026-11-24 (blocked); backup: none yet.
