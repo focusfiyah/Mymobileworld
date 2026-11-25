@@ -1,6 +1,6 @@
 (function(){
   var q=document.getElementById('quick');
-  q.addEventListener('submit',function(e){
+  if(q)q.addEventListener('submit',function(e){
     e.preventDefault();
     document.getElementById('addr').value=document.getElementById('qaddr').value;
     document.getElementById('phone').value=document.getElementById('qphone').value;
@@ -18,8 +18,9 @@
     form.reset();
   });
   /* the one scroll moment: the selling steps draw their line as you scroll */
-  var fill=document.createElement('span');fill.className='fill';var steps=document.getElementById('steps');steps.appendChild(fill);
-  if(window.gsap&&window.ScrollTrigger&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+  var steps=document.getElementById('steps');
+  if(steps){var fill=document.createElement('span');fill.className='fill';steps.appendChild(fill);}
+  if(steps&&window.gsap&&window.ScrollTrigger&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
     gsap.registerPlugin(ScrollTrigger);
     gsap.fromTo(fill,{scaleY:0},{scaleY:1,ease:'none',scrollTrigger:{trigger:steps,start:'top 75%',end:'bottom 60%',scrub:true}});
   }
