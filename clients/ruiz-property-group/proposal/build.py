@@ -125,7 +125,7 @@ body = r'''<div class="wrap">
     <div class="card"><h3>Brand kit</h3><p>A logo, colors and fonts made for Ruiz Property Group, so everything you put out looks like one company.</p></div>
     <div class="card"><h3>Photos and imagery</h3><p>A consistent set of images that fit your business. Your own project photos can be added later.</p></div>
     <div class="card"><h3>All the words</h3><p>Plain-language copy for homeowners who want to sell fast, for buyers and for tenants.</p></div>
-    <div class="card"><h3>Landing page first</h3><p>One strong page with a contact form that sends every lead to your inbox. It is built so pages like Sell Your House, Properties and Rentals can be added later without a redo.</p></div>
+    <div class="card"><h3>Your website</h3><p>A home page and two service pages, We Buy Houses and Property Management, written from your own copy, each with a contact form that sends every lead to your inbox. More pages can be added later without a redo.</p></div>
   </div>
 </section>
 
@@ -198,7 +198,7 @@ body = r'''<div class="wrap">
     <div class="row"><strong>Extra pages (later)</strong><span class="amt">$200 each</span><span>Sell Your House, Properties, Rentals, About and more.</span></div>
   </div>
   <p class="note">Domain and Netlify costs above are paid by you directly to Cloudflare and Netlify. They are not part of our fee.</p>
-  <div class="callout"><h3>See the vision</h3><p>Your preview site is ready to look at: <a href="https://ruiz-property-group-preview.netlify.app" style="color:var(--accent);font-weight:600">ruiz-property-group-preview.netlify.app</a>. The photos are samples and will be replaced with your own projects.</p></div>
+  <div class="callout"><h3>See the vision</h3><p>Your preview site is ready to look at: <a href="https://ruiz-property-group-preview-2.netlify.app" style="color:var(--accent);font-weight:600">ruiz-property-group-preview-2.netlify.app</a>. The photos are samples and will be replaced with your own projects.</p></div>
 </section>
 
 <section>
