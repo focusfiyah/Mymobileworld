@@ -34,3 +34,4 @@ Night Driving Glasses: I wish someone thought of this sooner 🚗 Fit over your 
 
 Wag Bag V1 (Grace's own footage): The part of the emergency kit everyone forgets #ad #preptok #emergencyprep #poweroutage #cleanwaste #tiktokshopblackfriday
 Wag Bag 1600s (HofR): The 1600s had an excuse. What's your plan if the water stops? 🚽 #ad #wagbag #emergencyprep #preptok #tiktokshopblackfriday
+ili Double Flap Eyeglass Case: Two pairs, one slim case 🕶️👓 Sunglasses in front, everyday glasses in back. #ad #glassescase #sunglassescase #giftsforher #tiktokshopblackfriday

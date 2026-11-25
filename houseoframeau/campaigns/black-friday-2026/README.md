@@ -31,7 +31,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 11 | 11-22 | SOLD: HofR - Night Driving Glasses BF (1X368oc1chBv8rnLePW-hwFrUFPLhSuXx; Ralph approved 2026-11-15) | 32.0 s | 2026-11-22 v_inbox_file~v2.7711037106839324686 (replaced Mute Nasal Dilator, Ralph 2026-11-22 tapped "Night Glasses now"); posted 11:47 AM ET, video 7711038396642200863 (31 s, caption on) |
 | 12 | 11-23 | HofR - Wag Bag 1600s BF (Grace's own footage from "CURRENT - Wag Bag Nov 1600s Beanie 3"; own crop + grade, hook card 0-10.6 s, old-film windows on 1600s/1800s lines (Prelinger, no people), real Wag Bag photo on 2000s, Fluent 3D emojis on her words, every overlay clear of her face in every frame (facecheck.py FACE_CLEAR); Ralph OK 2026-11-23 "Good send it"; Drive CURRENT 1HymZFAeeFJmQUyFM0YVn9FMGQAWX91MO in WagBag Final Edits; AI label off) | 50.2 s | 2026-11-23 v_inbox_file~v2.7711261973807417375 (2:16 AM ET). Do NOT post the earlier drafts: Wag Bag V1 v_inbox_file~v2.7711252785064396814 and the no-overlay 1600s v_inbox_file~v2.7711253650362009630; posted 2:21 AM ET, video 7711263666359782687 (50 s, caption on) |
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s || 2026-11-24 v_inbox_file~v2.7711619941048813598 (1:25 AM ET, Ralph: "Send the next video to draft"); posted 1:32 AM ET, video 7711621877587889422 (22 s, caption on) |
-| 14 | 11-25 | HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, Ralph OK 2026-11-12, batch A) | 21.7 s | |
+| 14 | 11-25 | ON HOLD until Ralph OKs the review (https://claude.ai/artifact/6ngjNefZRaAWf9RebrjYCh): HofR - ili Double Flap Eyeglass Case BF (re-cut 19.5 s from Grace's original, ugc/ili-eyeglass-case/hofr.py; Ralph 2026-11-25: "I want the double eyeglass case. The flap eyeglass case", tapped "Re-cut 18-20 s" and "Ear Wax Camera (today)"; Drive id added after his OK) | 19.5 s | |
 | 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
 | 16 | 11-27 | HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, Ralph OK 2026-11-12, batch B) | 22.7 s | |
 | 17 | 11-28 | HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, Ralph OK 2026-11-12, batch B) | 23.6 s | |
@@ -59,6 +59,8 @@ products get holiday b-roll + holiday hook text; $0.
 People on screen (Ralph 2026-11-12, relayed by the silent-A session): "I only want to use either brown, light brown, dark brown
 complexion people when we're using people." Applies to every b-roll and stock clip with people (hands included).
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
+
+Moved to spare 2026-11-25 (Ralph tapped "Ear Wax Camera (today)" for the eyeglass case): HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, 21.7 s), not scheduled.
 
 Back to spare 2026-11-23 (Wag Bag took day 12, queue moved back a day): HofR - GALENTAL Mirror BF (1drMRD4sgJx-I3hDqPMx9pA5OpbfuXR7C, 22.2 s), not scheduled.
 
