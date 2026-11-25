@@ -1,0 +1,138 @@
+{
+ "size": 256,
+ "film_box": [
+  720,
+  545,
+  440,
+  330
+ ],
+ "hook_until": 3.5,
+ "pops": [
+  {
+   "png": "high_voltage_3d.png",
+   "word": "power grid goes down",
+   "t": 5.3,
+   "d": 1.6,
+   "x": 260,
+   "y": 1180
+  },
+  {
+   "png": "rocket_3d.png",
+   "word": "NASA developed",
+   "t": 17.9,
+   "d": 1.6,
+   "x": 820,
+   "y": 1180
+  },
+  {
+   "png": "pile_of_poo_3d.png",
+   "word": "turns everything into a gel",
+   "t": 19.9,
+   "d": 1.5,
+   "x": 260,
+   "y": 1180
+  },
+  {
+   "png": "nose_3d_default.png",
+   "word": "locks in the smell",
+   "t": 22.2,
+   "d": 1.4,
+   "x": 820,
+   "y": 1180
+  },
+  {
+   "png": "wastebasket_3d.png",
+   "word": "regular trash",
+   "t": 25.6,
+   "d": 1.5,
+   "x": 260,
+   "y": 1180
+  },
+  {
+   "png": "package_3d.png",
+   "word": "12 kit boxes",
+   "t": 28.8,
+   "d": 1.6,
+   "x": 820,
+   "y": 1180
+  },
+  {
+   "png": "house_with_garden_3d.png",
+   "word": "if you have a family",
+   "t": 31.5,
+   "d": 1.6,
+   "x": 260,
+   "y": 1180
+  },
+  {
+   "png": "fire_3d.png",
+   "word": "sold out before",
+   "t": 36.1,
+   "d": 1.5,
+   "x": 820,
+   "y": 1180
+  },
+  {
+   "png": "military_helmet_3d.png",
+   "word": "Pentagon",
+   "t": 39.4,
+   "d": 1.5,
+   "x": 180,
+   "y": 1260,
+   "size": 230
+  },
+  {
+   "png": "spiral_calendar_3d.png",
+   "word": "90 days",
+   "t": 41.9,
+   "d": 1.6,
+   "x": 820,
+   "y": 1180
+  },
+  {
+   "png": "shopping_cart_3d.png",
+   "word": "orange cart",
+   "t": 48.0,
+   "d": 1.35,
+   "x": 260,
+   "y": 1180
+  }
+ ],
+ "films": [
+  {
+   "src": "/tmp/claude-0/film/c60.mp4",
+   "ss": 10.2,
+   "t": 11.8,
+   "d": 1.8,
+   "word": "back in the 1800s",
+   "what": "old outhouse shack, The House Fly 2nd ed. (Prelinger 0613) @70 s, no people",
+   "eq": "eq=brightness=0.08:contrast=1.1",
+   "w": 400,
+   "x": 540,
+   "y": 1182
+  },
+  {
+   "src": "/tmp/claude-0/film/c160.mp4",
+   "ss": 7.0,
+   "t": 13.7,
+   "d": 2.3,
+   "word": "sick from diseases like cholera, typhoid",
+   "what": "house fly close-up, same film @167 s",
+   "w": 400,
+   "x": 540,
+   "y": 1182
+  },
+  {
+   "src": "/tmp/claude-0/film/c440.mp4",
+   "ss": 1.5,
+   "t": 16.2,
+   "d": 1.2,
+   "word": "just shitting anywhere",
+   "what": "spilled garbage cans, same film @441 s, no people",
+   "w": 400,
+   "x": 540,
+   "y": 1182
+  }
+ ],
+ "images": []
+}
