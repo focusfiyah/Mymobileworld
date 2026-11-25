@@ -33,9 +33,9 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s || 2026-11-24 v_inbox_file~v2.7711619941048813598 (1:25 AM ET, Ralph: "Send the next video to draft"); posted 1:32 AM ET, video 7711621877587889422 (22 s, caption on) |
 | 14 | 11-25 | ON HOLD until Ralph OKs the review (https://claude.ai/artifact/6ngjNefZRaAWf9RebrjYCh): HofR - ili Double Flap Eyeglass Case BF (re-cut 19.5 s from Grace's original, ugc/ili-eyeglass-case/hofr.py; Ralph 2026-11-25: "I want the double eyeglass case. The flap eyeglass case", tapped "Re-cut 18-20 s" and "Ear Wax Camera (today)"; Drive id added after his OK) | 19.5 s | |
 | 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | |
-| 16 | 11-27 | HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, Ralph OK 2026-11-12, batch B) | 22.7 s | |
-| 17 | 11-28 | HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, Ralph OK 2026-11-12, batch B) | 23.6 s | |
-| 18 | 11-29 | HofR - COSRX Lip Care BF (1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, Ralph OK 2026-11-12, batch B) | 23.1 s | |
+| 16 | 11-27 | HofR - Meat Sticks Jerky BF (1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3, Ralph OK 2026-11-12, batch A; back in 2026-11-25, Ralph: "meat sticks, sweet and beef variety pack") | 17.0 s | |
+| 17 | 11-28 | ON HOLD until Ralph OKs the review (https://claude.ai/artifact/6ngjNefZRaAWf9RebrjYCh): HofR - Shnuggle Toddler Tub UGC BF (Grace's real UGC 1080, 1th71ktg0U7KD6QlWKji-YfSh-pUhX_d9, own framing + grade, houseoframeau/posts/bf-shnuggle-ugc; Ralph tapped "UGC 1080 (37 s)"; AI label OFF, real footage; Drive id added after his OK) | 37.0 s | |
+| 18 | 11-29 | ON HOLD until Ralph OKs the review (https://claude.ai/artifact/6ngjNefZRaAWf9RebrjYCh): HofR - ZYTRELL BF (16.5 s from the paid clips, ugc/zytrell-acne-cream/hofr.py; Drive id added after his OK) | 16.5 s | |
 | 19 | 11-30 | HofR - Wig Milk Spray BF (1f948vXL9olLQVdTs6jM6ajeMw_gczRTw, Ralph OK 2026-11-12, batch B) | 26.5 s | |
 | 20 | 12-01 | HofR - Eyeliner BF (1ctwXq7sixU9wt2Jz7DGqiBMIJcWg-ccs, Ralph OK 2026-11-12, batch B) | 23.1 s | |
 
@@ -59,6 +59,8 @@ products get holiday b-roll + holiday hook text; $0.
 People on screen (Ralph 2026-11-12, relayed by the silent-A session): "I only want to use either brown, light brown, dark brown
 complexion people when we're using people." Applies to every b-roll and stock clip with people (hands included).
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
+
+Moved to spare 2026-11-25 (Ralph tapped Calmi Ring, COSRX Lip, Pinmoco Chair for Meat Sticks, Shnuggle, ZYTRELL): HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, 22.7 s); HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, 23.6 s); HofR - COSRX Lip Care BF (1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, 23.1 s). Makeup Brush Holder skipped (no video: Grace's original never arrived; Ralph tapped "Skip it").
 
 Moved to spare 2026-11-25 (Ralph tapped "Ear Wax Camera (today)" for the eyeglass case): HofR - Ear Wax Camera BF (1sB3MbHDNn-aRY0uU8feLR1Z1X8P_3Mki, 21.7 s), not scheduled.
 

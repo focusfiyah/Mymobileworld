@@ -35,3 +35,5 @@ Night Driving Glasses: I wish someone thought of this sooner 🚗 Fit over your 
 Wag Bag V1 (Grace's own footage): The part of the emergency kit everyone forgets #ad #preptok #emergencyprep #poweroutage #cleanwaste #tiktokshopblackfriday
 Wag Bag 1600s (HofR): The 1600s had an excuse. What's your plan if the water stops? 🚽 #ad #wagbag #emergencyprep #preptok #tiktokshopblackfriday
 ili Double Flap Eyeglass Case: Two pairs, one slim case 🕶️👓 Sunglasses in front, everyday glasses in back. #ad #glassescase #sunglassescase #giftsforher #tiktokshopblackfriday
+Shnuggle Toddler Tub UGC: When the baby tub gets too small 🛁 A toddler tub with room to sit and splash. #ad #toddlerbath #shnuggle #momlife #tiktokshopblackfriday
+ZYTRELL: Spot cream for the one that pops up before plans 🌿 2% salicylic acid, dab it right on the spot. #ad #acnetreatment #pimplecream #skincare #tiktokshopblackfriday
