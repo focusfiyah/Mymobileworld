@@ -37,3 +37,6 @@ Wag Bag 1600s (HofR): The 1600s had an excuse. What's your plan if the water sto
 ili Double Flap Eyeglass Case: Two pairs, one slim case 🕶️👓 Sunglasses in front, everyday glasses in back. #ad #glassescase #sunglassescase #giftsforher #tiktokshopblackfriday
 Shnuggle Toddler Tub UGC: When the baby tub gets too small 🛁 A toddler tub with room to sit and splash. #ad #toddlerbath #shnuggle #momlife #tiktokshopblackfriday
 ZYTRELL: Spot cream for the one that pops up before plans 🌿 2% salicylic acid, dab it right on the spot. #ad #acnetreatment #pimplecream #skincare #tiktokshopblackfriday
+
+## Wag Bag Grey (HofR)
+The 1800s had an excuse. What's yours if the grid goes down? 🚽 #ad #wagbag #emergencyprep #preptok #tiktokshopblackfriday
