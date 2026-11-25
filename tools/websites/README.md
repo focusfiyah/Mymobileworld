@@ -53,6 +53,8 @@ Netlify Free = 300 credits per billing period for the WHOLE account (all sites);
 
 ## Two Netlify accounts (Ralph 2026-11-24)
 - PRIMARY: life22watch / team "focusfiyah" (id 6ae97184bee70a7b489b7635), credits renew 2026-12-03 00:00 PST. Always first.
-- BACKUP: Ralph is creating it (name, team slug and token location: add here when it exists; token via request_credential; test with a read-only call and say which account a call hits). Used only while the primary answers "Account credit usage exceeded"; the same sites get new addresses there.
+- BACKUP: realgoodhustles@gmail.com, team realgoodhustles (Free, 300 credits, period 24 Nov to 23 Dec, next usage period 2026-12-24 00:00 PST). Token saved 2026-11-25 with request_credential and it REPLACED the primary's (one injected token per host): the API now answers as the backup; verify with GET /api/v1/user before any deploy. To go back to the primary Ralph makes a new token there and it is saved the same way. Used only while the primary answers "Account credit usage exceeded"; the same sites get new addresses there.
 - NOTE TO SELF: from 2026-12-03 08:00 UTC check the primary's next_usage_period_start / usages_exceeded; if it renewed, move everything back to the primary. If the primary runs out again and the backup has credits, use the backup. No scheduled task for this unless Ralph OKs one.
 - Deploy count per account per month (add a line per deploy): primary 2026-11: about 16 by 2026-11-24 (blocked); backup: none yet.
+- Backup deploys: 2026-11-25 #1 ruiz-property-group-preview-2.netlify.app (NYC imagery preview, site id 144dffb1-e0ee-4658-b87e-2c955024b8ce). New sites start login-protected: PATCH sso_login false.
+- Sites still on the primary (not updatable while the backup is active): gracewiththeglow, dayoneai-proposal, shotcam-azariah, ruiz-property-group-proposal (778bc082...), ruiz-property-group-preview (76bb97a6..., old suburban version).
