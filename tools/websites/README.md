@@ -64,3 +64,4 @@ Netlify Free = 300 credits per billing period for the WHOLE account (all sites);
 
 ## Who sets up the accounts (Ralph 2026-11-25)
 Ralph creates the client's Cloudflare and Netlify accounts himself in the client's name with the card details the client gives him; the client owns them. Proposals and emails say "we set it up for you". Claude never handles card details.
+- Backup deploys: 2026-11-25 #7 ruiz-property-group-proposal-2 (we set it up for you wording). Backup total: 7 deploys (105 of 300 credits).
