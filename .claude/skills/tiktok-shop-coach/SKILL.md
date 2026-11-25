@@ -140,6 +140,11 @@ Read `references/slideshows.md` (checked facts, slide order, what to ask Ralph f
 - Respect creators: analyze and learn from videos; never script a copy of someone's video word for word, and don't
   re-upload their footage.
 - Keep answers phone-readable: short sections, the links up top.
+- Empty = blocked (Ralph 2026-11-25: "you have two tools ... if one doesn't work, you try the other one"): a 0 from
+  `tag`, `viral` or `shop` on a real tag or keyword means TikTok blocked the headless browser (the script now prints
+  BLOCKED_OR_EMPTY and exits 3). Never report it as "no videos". Switch tools yourself, right away: camofox on the
+  same page, then the Playwright MCP, then agent-reach; report what each returned. Why: the Baby Cherry research
+  wrote "hashtag pages were empty" and Ralph had to catch it; camofox read 137 videos on the same tag.
 
 ## Limits (say these when they matter)
 - No recent sales data: lifetime units sold yes (from TikTok Shop), but no 7-day GMV, no sales trend, no commission or

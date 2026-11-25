@@ -341,6 +341,18 @@ def short(n):
     return f"{n / 1e6:.1f}M" if n >= 1e6 else f"{n / 1e3:.0f}K" if n >= 1e4 else f"{n / 1e3:.1f}K" if n >= 1e3 else str(n)
 
 
+def blocked(what):
+    """An empty result from a big tag/keyword almost always means TikTok blocked this headless Chromium
+    (Ralph 2026-11-25, Baby Cherry set: tag/viral/shop gave 0, the session reported "no videos", camofox then
+    read 137 videos on the same tag). Say so loudly and exit non-zero so nobody reports it as real."""
+    print(f"BLOCKED_OR_EMPTY: {what} came back empty. Treat this as a FAILED tool, not as 'no videos exist'.\n"
+          "  Next, on your own (do not wait to be asked): open the same page in camofox (camofox_create_tab on\n"
+          "  https://www.tiktok.com/tag/<tag> or the shop/search URL, wait ~5 s, scroll, read a[href*='/video/']),\n"
+          "  then `tiktok.py video <links> --no-media` for the stats. If camofox fails too, try the Playwright MCP,\n"
+          "  then agent-reach. Report what each tool returned. See SKILL.md Rules, 'Empty = blocked'.")
+    raise SystemExit(3)
+
+
 async def cmd_viral(a):
     from playwright.async_api import async_playwright
     tags = (a.tags.split(",") if a.tags else CATEGORY_TAGS.get(a.category, VIRAL_TAGS))
@@ -392,6 +404,8 @@ async def cmd_viral(a):
     state = {k: v for k, v in state.items() if now - v[-1]["t"] < 10 * 86400}
     os.makedirs(os.path.dirname(state_path) or ".", exist_ok=True)
     json.dump(state, open(state_path, "w"))
+    if not total:
+        blocked("the viral board (every hashtag page)")
     os.makedirs(a.out, exist_ok=True)
     path = os.path.join(a.out, f"viral-{datetime.datetime.utcnow():%Y-%m-%d}.json")
     json.dump(rows, open(path, "w"), indent=2)
@@ -551,8 +565,7 @@ async def cmd_tag(name, top, out, days=None):
         await b.close()
     rows = recent(sorted((summarize(i) for i in items.values()), key=lambda r: r["views"], reverse=True), days)
     if not rows:
-        print(f"No videos returned for #{name} (no such tag, nothing recent, or TikTok served a captcha).")
-        return
+        blocked(f"#{name}" + (f" (last {days} days)" if days else ""))
     os.makedirs(out, exist_ok=True)
     path = os.path.join(out, f"tag-{name}.json")
     json.dump(rows, open(path, "w"), indent=2)
@@ -624,8 +637,7 @@ async def cmd_shop(keyword, top, out):
                      "shop": (x.get("seller_info") or {}).get("shop_name"), "url": url})
     rows.sort(key=lambda r: r["sold_lifetime"], reverse=True)
     if not rows:
-        print(f"No products returned for '{keyword}' (no results, or TikTok served a captcha).")
-        return
+        blocked(f"shop search '{keyword}'")
     os.makedirs(out, exist_ok=True)
     path = os.path.join(out, f"shop-{slug}.json")
     json.dump(rows, open(path, "w"), indent=2)
