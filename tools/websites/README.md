@@ -61,3 +61,6 @@ Netlify Free = 300 credits per billing period for the WHOLE account (all sites);
 - Backup deploys: 2026-11-25 #2 ruiz-property-group-proposal-2.netlify.app (updated proposal with fee, questions and the preview-2 link; site id aa6b54a0-9fe4-4634-a969-a390dd5e527a). Backup total: 2 deploys (30 of 300 credits).
 - Backup deploys: 2026-11-25 #3 ruiz-property-group-preview-2 (3-page site: home, /we-buy-houses, /property-management) and #4 ruiz-property-group-proposal-2 (three-page wording). Backup total: 4 deploys (60 of 300 credits). Netlify rewrote the menu links to pretty URLs (/we-buy-houses); a _headers entry per page keeps text/html on zip deploys.
 - Backup deploys: 2026-11-25 #5 ruiz-property-group-preview-2 (phone (516) 233-0110 on all pages) and #6 ruiz-property-group-proposal-2 (service area, services and phone cards removed). Backup total: 6 deploys (90 of 300 credits). Period ends 23 Dec; next 24 Dec 00:00 PST.
+
+## Who sets up the accounts (Ralph 2026-11-25)
+Ralph creates the client's Cloudflare and Netlify accounts himself in the client's name with the card details the client gives him; the client owns them. Proposals and emails say "we set it up for you". Claude never handles card details.
