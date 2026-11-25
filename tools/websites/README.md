@@ -58,3 +58,4 @@ Netlify Free = 300 credits per billing period for the WHOLE account (all sites);
 - Deploy count per account per month (add a line per deploy): primary 2026-11: about 16 by 2026-11-24 (blocked); backup: none yet.
 - Backup deploys: 2026-11-25 #1 ruiz-property-group-preview-2.netlify.app (NYC imagery preview, site id 144dffb1-e0ee-4658-b87e-2c955024b8ce). New sites start login-protected: PATCH sso_login false.
 - Sites still on the primary (not updatable while the backup is active): gracewiththeglow, dayoneai-proposal, shotcam-azariah, ruiz-property-group-proposal (778bc082...), ruiz-property-group-preview (76bb97a6..., old suburban version).
+- Backup deploys: 2026-11-25 #2 ruiz-property-group-proposal-2.netlify.app (updated proposal with fee, questions and the preview-2 link; site id aa6b54a0-9fe4-4634-a969-a390dd5e527a). Backup total: 2 deploys (30 of 300 credits).
