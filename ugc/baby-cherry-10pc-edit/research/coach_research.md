@@ -28,3 +28,22 @@ Output files: research/coach/ (shop-*.json, viral-2026-11-25.json, viral_run.log
 5. Tactile proof: hand squeezes/lifts the fabric (oneclassybitchh), "so soft, super stretchy" said over a stretch (kadfinds).
 6. Occasion close (boo basket, Christmas): ours = holidays + Black Friday (real date).
 7. What we drop: price talk (kadfinds), "so cute"/"obsessed" words (banned for Grace), long haul format.
+
+## CORRECTION 2026-11-25 (main session, after Ralph questioned "no TikTok info")
+The tag/viral/shop zeros above were a BLOCKED scraper, not empty pages (coach `tag babyclothes` re-run: still 0). camofox read the same #babygirlclothes page: 137 videos (research/coach/camofox/urls.txt + v/*/meta.json, stats via `tiktok.py video --no-media`, 134 fetched): 35 are shop videos. #babypajamas shows "Page not available" on TikTok itself. TikTok Shop search = puzzle captcha in camofox (exact listing still not found; ask Grace for the link).
+
+Top shop videos on #babygirlclothes (views / saves / save% / length / posted):
+| Video | Product | Views | Saves | Len | What it does |
+|---|---|---|---|---|---|
+| @madelyn_fitness 7705179545657281805 | Velvet Santa romper tutu dress | 2,600,000 | 19,088 (0.73%) | 14 s | Baby WEARING it, walking by the Christmas tree, music only, no talking, no text hook |
+| @patriciamarie479 7702455763309956365 | "Made with love" bodysuit | 343,900 | 1,142 | 8 s | worn, funny print, music |
+| @madelyn_fitness 7698928493400231182 | Toddler Baby Girl CHERRY BOW pajama set, pink gingham | 239,600 | 1,597 (0.67%) | 13 s | closest product to ours: baby wearing the cherry set on a white couch, sitting, waving, lying down; music only |
+| @brooke_neil 7686471729371270430 | Leopard denim overalls | 207,400 | 2,279 (1.1%) | 9 s | worn |
+| @mrs.kayrenee 7703302386244177182 / 7706248813362547998 | Newborn Christmas outfits | 112,800 / 106,900 | 1,419 / 1,123 (1.26% / 1.05%) | 12-14 s | worn, holiday occasion, "click the orange shopping bag" in caption |
+| @chubbycheeksedits 7695841886182837534 | Girls 2-piece streetwear set | 103,900 | 185 | 15 s | all pieces shown, AI VO |
+| @sodie.cakes 7697435412549225758 | 【Black Friday】3-Piece Baby Girls' Winter Outfit Set | 73,700 | 623 (0.85%) | 13 s | spoken: "Calling all girl mommies. Stop! What you doing? If you want your daughter to be standing out this winter, check this out. This is a three piece outfit. You will get the pants, the jacket, and the shirt. I'm gonna go ahead and leave a link..." |
+
+What it changes:
+1. Silent version (V1): the winners are 8-14 s, music only, product on the baby/in motion from frame 0. Grace's V1 (7-20 s, she adds music) matches; aim ~12-14 s.
+2. Worn beats flat lay on views: if Grace has any shot of a baby wearing a piece, it opens both cuts. Ask her if she can film one (for next time if not in this upload).
+3. VO script: the Black Friday set seller (73.7K) uses an identity call-out + "you will get the pants, the jacket and the shirt" (count what's in the set). Our script already counts ("With ten pieces"); added hook option (NEW, needs Ralph's OK): "Calling all baby girl moms, this one's ten pieces." The current script and its gate stay as they are.
