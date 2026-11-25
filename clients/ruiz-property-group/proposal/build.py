@@ -204,13 +204,10 @@ body = r'''<div class="wrap">
 <section>
   <div class="sec-head"><span class="eyebrow">Next</span><h2>What we need from you.</h2></div>
   <div class="cols">
-    <div class="card"><h3>Your service area</h3><p>We have the New York tri-state area. Tell us if you want specific counties or cities named.</p></div>
-    <div class="card"><h3>Your list of services</h3><p>Everything you want shown, for example buying houses, renovations, rentals and property management.</p></div>
-    <div class="card"><h3>Project photos</h3><p>Any photos of your finished projects and properties. We use sample photos until you send them.</p></div>
+            <div class="card"><h3>Project photos</h3><p>Any photos of your finished projects and properties. We use sample photos until you send them.</p></div>
     <div class="card"><h3>Your top two names</h3><p>From the list above, or your own idea.</p></div>
     <div class="card"><h3>Your thoughts on the preview</h3><p>Look, colors and wording. Tell us what you like and what to change.</p></div>
-    <div class="card"><h3>Phone number for the site</h3><p>The number you want visitors to call, if any.</p></div>
-  </div>
+      </div>
 </section>
 </div>'''
 open('proposal.html','w').write(head+'\n'+body+'\n')
