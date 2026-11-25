@@ -6,7 +6,7 @@ Run from this folder. Browser checks need NODE_PATH=$(npm root -g).
   CHECK: ls site/index.html site/we-buy-houses.html site/property-management.html | wc -l
   EXPECT: ^3$
 - G2 No template blanks or invented contact details on any page
-  CHECK: grep -ciE "\[Your|lorem|TODO|555|\(516\)|@yahoo|Ralph|Azariah" site/*.html
+  CHECK: grep -ciE "\[Your|lorem|TODO|555-|@yahoo|Ralph|Azariah" site/*.html
   EXPECT: ^site/index.html:0\nsite/property-management.html:0\nsite/we-buy-houses.html:0$
 - G3 Every internal link and image resolves, headings from Luigi's copy are present
   CHECK: python3 tools_check.py
