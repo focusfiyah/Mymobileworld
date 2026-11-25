@@ -6,3 +6,4 @@ Drive: https://drive.google.com/drive/folders/1cs_dS-3GXQbl6ZeDfl4n-8QxkAN4zHDR
 | R2 Real or AI? | Thu 11-26 7 PM | 6b04c990a83061d4675b0d0c scheduled | 1165241049336518 scheduled | same task (Drive 1wS5gYe45sunA_ODowGfB88fr-q4ps4hT) |
 | R3 Send this to your friend | Sat 11-28 7 PM | 6b04c999d69506d2233b343c scheduled | 1721406612828058 scheduled | same task, then it turns off (Drive 1QJfR1Ntpu2bzF0tzzLB0m5kRyVnTwfTT) |
 - 2026-11-24 W2 T1 comments: replied with the flag-check link to @sheve_hee and @shewiththeglow; hid 22 scam spam comments. R3 TikTok caption changed to "Comment A or B, or CHECK for my free list" (no bio link on TikTok).
+- 2026-11-24 7 PM ET R1: Instagram https://www.instagram.com/reel/DgJNNdRgtCZ/ · TikTok https://www.tiktok.com/@azariah2244/video/7711892921825496333 · Facebook scheduled reel 1146008461511342
