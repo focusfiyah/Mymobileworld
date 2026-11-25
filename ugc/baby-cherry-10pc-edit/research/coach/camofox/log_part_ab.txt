@@ -1,0 +1,30 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@emilygbiscardi/video/7689865513136082206
+   -> v/7689865513136082206  (20s, 22,100 views, transcript=NO)
+OK https://www.tiktok.com/@demi.lee04/video/7710638502576246049
+   -> v/7710638502576246049  (13s, 327 views, transcript=NO)
+OK https://www.tiktok.com/@mamamarylinx4/video/7710102431673191693
+   -> v/7710102431673191693  (16s, 520 views, transcript=yes)
+OK https://www.tiktok.com/@yarasweetheart/video/7704916678680825118
+   -> v/7704916678680825118  (12s, 4,129 views, transcript=NO)
+OK https://www.tiktok.com/@motherhoodvsmia/video/7710053850014600461
+   -> v/7710053850014600461  (5s, 188 views, transcript=NO)
+OK https://www.tiktok.com/@virgokitt/video/7710027663129316621
+   -> v/7710027663129316621  (11s, 463 views, transcript=NO)
+OK https://www.tiktok.com/@yesjess13/video/7711855092198051086
+   -> v/7711855092198051086  (23s, 829 views, transcript=NO)
+OK https://www.tiktok.com/@romaandanielaa/video/7710767780152233230
+   -> v/7710767780152233230  (25s, 506 views, transcript=NO)
+OK https://www.tiktok.com/@katydlight/video/7685396628403965206
+   -> v/7685396628403965206  (12s, 79,500 views, transcript=NO)
+OK https://www.tiktok.com/@melisa.videz/video/7711896142912441613
+   -> v/7711896142912441613  (370s, 148 views, transcript=NO)
+OK https://www.tiktok.com/@llexireyess/video/7670983757091949837
+   -> v/7670983757091949837  (16s, 73,100 views, transcript=yes)
+OK https://www.tiktok.com/@sahmommy_life__/video/7643057861127392525
+   -> v/7643057861127392525  (50s, 171,900 views, transcript=yes)
+OK https://www.tiktok.com/@thebanglebaby/video/7689262967736503565
+   -> v/7689262967736503565  (6s, 522,600 views, transcript=NO)
+OK https://www.tiktok.com/@chubbycheeksedits/video/7695841886182837534
+   -> v/7695841886182837534  (15s, 103,900 views, transcript=yes)

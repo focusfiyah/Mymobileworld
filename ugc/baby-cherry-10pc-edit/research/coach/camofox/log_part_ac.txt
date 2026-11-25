@@ -1,0 +1,28 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@sahmommy_life__/video/7655326045469543694
+   -> v/7655326045469543694  (14s, 885 views, transcript=NO)
+OK https://www.tiktok.com/@sahmommy_life__/video/7600791853146901815
+   -> v/7600791853146901815  (19s, 1,123 views, transcript=yes)
+OK https://www.tiktok.com/@baby.girls.clothes/video/7581296235206774046
+   -> v/7581296235206774046  (34s, 486 views, transcript=NO)
+OK https://www.tiktok.com/@rayuelakidsb/video/7670551878559812884
+   -> v/7670551878559812884  (58s, 69,600 views, transcript=yes)
+OK https://www.tiktok.com/@nenas_cute/video/7669280490876128532
+   -> v/7669280490876128532  (30s, 2,100,000 views, transcript=NO)
+OK https://www.tiktok.com/@bettybabyus/video/7450484398043958558
+   -> v/7450484398043958558  (19s, 7,217 views, transcript=NO)
+OK https://www.tiktok.com/@bettybabyus/video/7422287163993328942
+   -> v/7422287163993328942  (18s, 36,600 views, transcript=NO)
+OK https://www.tiktok.com/@myfirststyle/video/7118740415179672838
+   -> v/7118740415179672838  (23s, 596,500 views, transcript=NO)
+OK https://www.tiktok.com/@estephania.garzon/video/7691095733490978061
+   -> v/7691095733490978061  (14s, 74,100 views, transcript=NO)
+OK https://www.tiktok.com/@foreignsteph/video/7700702132588006687
+   -> v/7700702132588006687  (9s, 66,100 views, transcript=yes)
+OK https://www.tiktok.com/@estacarannante/video/7711812365142035751
+   -> v/7711812365142035751  (12s, 351 views, transcript=NO)
+OK https://www.tiktok.com/@littlebellestyle/video/7711656321979862286
+   -> v/7711656321979862286  (10s, 1 views, transcript=NO)
+OK https://www.tiktok.com/@theminitrendsetter/video/7541800514967571767
+   -> v/7541800514967571767  (14s, 810,300 views, transcript=NO)

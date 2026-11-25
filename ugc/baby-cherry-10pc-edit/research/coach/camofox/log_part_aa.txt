@@ -1,0 +1,28 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@christyyglams/video/7701151052015373598
+   -> v/7701151052015373598  (9s, 277,400 views, transcript=NO)
+OK https://www.tiktok.com/@strawbri333/video/7703303996772977933
+   -> v/7703303996772977933  (40s, 85,400 views, transcript=NO)
+OK https://www.tiktok.com/@mrs.kayrenee/video/7705086929963994398
+   -> v/7705086929963994398  (11s, 623,600 views, transcript=NO)
+OK https://www.tiktok.com/@nsbabesandmomz/video/7696620443259784468
+   -> v/7696620443259784468  (5s, 293,400 views, transcript=NO)
+OK https://www.tiktok.com/@minijolie_usa/video/7703186978325499149
+   -> v/7703186978325499149  (10s, 80,300 views, transcript=NO)
+OK https://www.tiktok.com/@oyinkiddieshub/video/7667095555515976980
+   -> v/7667095555515976980  (9s, 36,200 views, transcript=NO)
+OK https://www.tiktok.com/@juliemintzmusic/video/7619059497314585870
+   -> v/7619059497314585870  (130s, 392,400 views, transcript=yes)
+OK https://www.tiktok.com/@piccoliandco/video/7707669328929312022
+   -> v/7707669328929312022  (9s, 8,787 views, transcript=NO)
+OK https://www.tiktok.com/@bellabreezboutique/video/7703251569181035806
+   -> v/7703251569181035806  (13s, 82,700 views, transcript=NO)
+OK https://www.tiktok.com/@lyndsey_windham/video/7711838167455878413
+   -> v/7711838167455878413  (66s, 637 views, transcript=yes)
+OK https://www.tiktok.com/@lil.mammiii/video/7683797380503850271
+   -> v/7683797380503850271  (19s, 16,400 views, transcript=NO)
+OK https://www.tiktok.com/@lifewiththelebrons/video/7701692421843111198
+   -> v/7701692421843111198  (194s, 4,465 views, transcript=yes)
+OK https://www.tiktok.com/@mrs.kayrenee/video/7706248813362547998
+   -> v/7706248813362547998  (20s, 107,100 views, transcript=NO)

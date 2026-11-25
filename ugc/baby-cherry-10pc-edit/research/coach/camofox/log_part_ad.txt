@@ -1,0 +1,28 @@
+/home/user/Mymobileworld/.claude/skills/tiktok-shop-coach/scripts/tiktok.py:126: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  "posted": datetime.datetime.utcfromtimestamp(ts).strftime("%Y-%m-%d") if ts else None,
+OK https://www.tiktok.com/@torikeller/video/7684303130586041613
+   -> v/7684303130586041613  (14s, 1,200,000 views, transcript=yes)
+OK https://www.tiktok.com/@alexandrahainess/video/7671125495429303559
+   -> v/7671125495429303559  (15s, 45,800 views, transcript=NO)
+OK https://www.tiktok.com/@terriannevans17/video/7711724776640892182
+   -> v/7711724776640892182  (67s, 3,314 views, transcript=yes)
+OK https://www.tiktok.com/@heirloom.jade/video/7696187881399831838
+   -> v/7696187881399831838  (8s, 69,400 views, transcript=yes)
+OK https://www.tiktok.com/@shylersaigee/video/7321829054699621675
+   -> v/7321829054699621675  (12s, 3,800,000 views, transcript=NO)
+OK https://www.tiktok.com/@dani___dee/video/7635015279411498253
+   -> v/7635015279411498253  (5s, 33,900 views, transcript=NO)
+OK https://www.tiktok.com/@marquellclark_/video/7709090311548472590
+   -> v/7709090311548472590  (171s, 1,022 views, transcript=yes)
+OK https://www.tiktok.com/@therealbey/video/7710727594022407454
+   -> v/7710727594022407454  (14s, 1,069 views, transcript=NO)
+OK https://www.tiktok.com/@studioswim.co/video/7704767000416980254
+   -> v/7704767000416980254  (10s, 1,900,000 views, transcript=NO)
+OK https://www.tiktok.com/@brooke_neil/video/7686471729371270430
+   -> v/7686471729371270430  (9s, 207,400 views, transcript=NO)
+OK https://www.tiktok.com/@nenas_cute/video/7697670204943305992
+   -> v/7697670204943305992  (14s, 2,700,000 views, transcript=yes)
+OK https://www.tiktok.com/@lasiennacouture/video/7674987893785398536
+   -> v/7674987893785398536  (8s, 1,200,000 views, transcript=NO)
+OK https://www.tiktok.com/@heyy..cheryl/video/7706290283104750878
+   -> v/7706290283104750878  (76s, 456,600 views, transcript=yes)
