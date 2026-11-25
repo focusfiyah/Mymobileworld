@@ -1,0 +1,330 @@
+#!/usr/bin/env python3
+"""Generates the three Ruiz pages (premium rebuild, 2026-11-25). Run: python3 build_site.py"""
+import os
+PH='(516) 233-0110'; TEL='+15162330110'
+FONTS='<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Hanken+Grotesk:wght@400;500;600&display=swap">'
+SKY='<svg class="skyline" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120V80h30V50h24V70h20V30h26V60h18V40h22V75h28V20h16V8h8V20h16V65h24V45h30V80h22V55h26V35h20V70h30V50h24V85h26V60h20V25h24V70h28V45h22V80h26V58h30V30h18V72h24V52h26V88h30V62h22V38h26V76h24V50h28V84h30V66h22V42h24V78h28V55h26V90h30V64h22V34h20V70h28V48h24V82h26V120Z" fill="currentColor"/></svg>'
+LOGO='<svg viewBox="0 0 48 52" width="40" height="43" aria-hidden="true"><path d="M24 2 46 18v32H2V18Z" fill="var(--brick)"/><path d="M15 38V15h10.5c5 0 8 2.7 8 6.9 0 3.2-1.9 5.4-5 6.3L34 38h-6.2l-4.6-9H20.5v9Zm5.5-13.6h4.4c1.8 0 2.8-.9 2.8-2.4s-1-2.4-2.8-2.4h-4.4Z" fill="#fff"/></svg>'
+CHEV='<span class="t-acc-chevron" aria-hidden="true"><svg viewBox="0 0 18 18"><path d="M3 6.5 9 12.5 15 6.5"/></svg></span>'
+
+def head(title,desc,cur):
+    def a(href,label,key):
+        c=' aria-current="page"' if key==cur else ''
+        return f'<a href="{href}"{c}>{label}</a>'
+    home = cur=='home'
+    links=[(('#properties' if home else 'index.html#properties'),'Properties',''),
+           ('we-buy-houses.html','We buy houses','buy'),('property-management.html','Property management','pm'),
+           (('#area' if home else 'index.html#area'),'Where we work','')]
+    nav=''.join(a(h,l,k) for h,l,k in links)
+    items=''.join(f'<a class="item" href="{h}">{l}</a>' for h,l,k in links)
+    return f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1D3646">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+{FONTS}
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="preview" role="note">Preview for Luigi Ruiz. Photos are samples.</div>
+<header class="site-head">
+  <div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="Ruiz Property Group, home">{LOGO}<span class="wm"><b>RUIZ</b><i>Property Group</i></span></a>
+    <nav class="main" aria-label="Main">{nav}</nav>
+    <a class="phone" href="tel:{TEL}" aria-label="Call Ruiz Property Group">{PH}</a>
+    <a class="btn small" href="#contact">Get in touch</a>
+    <div class="nav-wrap">
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu"><svg class="bars" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="x" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <div class="nav-panel t-dropdown" id="menu" role="dialog" aria-label="Menu" hidden>{items}<a class="btn call" href="tel:{TEL}">Call {PH}</a></div>
+    </div>
+  </div>
+</header>
+<main id="top">
+'''
+
+def contact(h2,intro,tagline,need,addr_label):
+    opts=['Sell my property','Buy a renovated home','Rent a home','Property management for my building','Something else']
+    o=''.join(f'<option{" selected" if x==need else ""}>{x}</option>' for x in opts)
+    return f'''<section id="contact" class="block tint">
+  <div class="wrap contact">
+    <div class="head"><h2>{h2}</h2>
+      <p class="callnow">Prefer to talk? Call <a href="tel:{TEL}">{PH}</a></p>
+      {intro}{tagline}
+      <figure class="keys"><img src="img/keys.jpg" width="1300" height="868" loading="lazy" alt="Two people exchanging a house key"></figure></div>
+    <form id="lead" class="form" novalidate>
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+      <div class="two">
+        <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel"></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      </div>
+      <div class="field"><label for="need">What do you need?</label><select id="need" name="need">{o}</select></div>
+      <div class="field"><label for="addr">{addr_label}</label><input id="addr" name="address" autocomplete="street-address"></div>
+      <div class="field"><label for="msg">Anything else we should know?</label><textarea id="msg" name="message" rows="4"></textarea></div>
+      <button class="btn" type="submit">Send</button>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+      <div class="done" role="status" tabindex="-1"><span class="t-success-check" id="check"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="29"/><path d="M19 33l9 9 17-20"/></svg></span><h3>Thank you.</h3><p>This is a preview, so nothing was sent. When the site is live, your message reaches Luigi directly.</p></div>
+    </form>
+  </div>
+</section>
+</main>
+'''
+
+def foot():
+    return f'''<footer class="foot">
+  {SKY}
+  <div class="wrap foot-in"><div><p><b>Ruiz Property Group LLC</b></p><p>Property buyer, renovator and manager. Serving the New York tri-state area.</p><p>Call <a class="tel" href="tel:{TEL}">{PH}</a></p><div class="foot-links"><a href="we-buy-houses.html">We buy houses</a><a href="property-management.html">Property management</a><a href="index.html#area">Where we work</a></div></div><a class="btn small" href="#contact">Get in touch</a></div>
+</footer>
+<a class="sticky-cta" href="tel:{TEL}">Call {PH}</a>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+'''
+
+def faq(items):
+    out=''
+    for i,(q,a) in enumerate(items):
+        out+=f'<div class="t-acc" data-open="false"><button class="t-acc-head" type="button" aria-expanded="false" aria-controls="faq{i}" id="fq{i}"><span>{q}</span>{CHEV}</button><div class="t-acc-panel" id="faq{i}" role="region" aria-labelledby="fq{i}"><div class="t-acc-inner"><p>{a}</p></div></div></div>\n'
+    return out
+
+IC={
+ 'home':'<path d="M6 20 20 7l14 13 M10 18v16h20V18 M17 34V24h6v10"/>',
+ 'tools':'<path d="M8 32 24 16 M22 10l8 8 M26 6l8 8 M6 34l4-4"/>',
+ 'flip':'<path d="M6 30V10h14v20 M20 18h14v12 M6 34h28 M11 15h4 M11 21h4 M25 24h4"/>',
+ 'person':'<path d="M14 14a6 6 0 1 0 12 0 6 6 0 1 0-12 0 M8 34c0-7 5-10 12-10s12 3 12 10 M26 8l3 3 5-6"/>',
+ 'chart':'<path d="M6 34V22 M16 34V12 M26 34V20 M36 34V6 M4 34h34"/>',
+ 'search':'<path d="M17 8a9 9 0 1 0 0 18 9 9 0 1 0 0-18 M24 24l11 11"/>',
+ 'chat':'<path d="M6 8h28v18H20l-8 8v-8H6Z"/>',
+ 'doc':'<path d="M10 4h14l8 8v24H10Z M24 4v8h8 M15 20h12 M15 27h12"/>',
+}
+def ico(k): return f'<svg viewBox="0 0 40 40" aria-hidden="true">{IC[k]}</svg>'
+
+# ---------------- HOME
+def home():
+    s=head('Ruiz Property Group LLC','Ruiz Property Group buys, renovates and manages two-family, multi-family and mixed-use properties across the New York tri-state area. Deal directly with the owner.','home')
+    s+=f'''<section class="hero">
+  <img class="hero-bg" src="img/hero.jpg" width="1880" height="1252" alt="Brownstone row houses on a tree-lined New York street" fetchpriority="high">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <h1 class="rise r1">We buy, fix and manage homes.</h1>
+      <p class="lead rise r2">Two-family, multi-family, mixed-use and single-family properties across the New York tri-state area. Selling, buying or renting, you deal with the owner from the first call to the closing table or the front door key.</p>
+      <div class="cta-row rise r3"><a class="btn" href="#contact">Tell us about your property</a><a class="link light" href="#properties">What we buy</a><a class="link light" href="tel:{TEL}">Call {PH}</a></div>
+    </div>
+    <form class="quick rise r4" id="quick" novalidate aria-labelledby="qt">
+      <h2 id="qt">Thinking of selling?</h2>
+      <p>Start with the address. We will take it from there.</p>
+      <div class="field"><label for="qaddr">Property address</label><input id="qaddr" autocomplete="street-address" placeholder="Street, city, state"></div>
+      <div class="field"><label for="qphone">Phone number</label><input id="qphone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Where we can reach you"></div>
+      <button class="btn full" type="submit">Start my request</button>
+      <small>No obligation to accept an offer.</small>
+    </form>
+  </div>
+</section>
+<section class="types" aria-label="Property types"><div class="types-row">
+  <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 20 20 6l16 14v14H4Z M16 34V24h8v10"/></svg><b>Single-family</b><span>and townhouses</span></div>
+  <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 34V16l8-6 8 6v18 M21 34V12l7-5 7 5v22 M9 34v-8h8v8 M25 34v-7h6v7"/></svg><b>Two-family</b><span>and multi-family</span></div>
+  <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 34V10h20v24 M25 18h10v16 M5 24h20 M10 15h4 M16 15h4 M10 29h4 M30 24h2 M30 29h2 M3 34h34"/></svg><b>Mixed-use</b><span>shop below, homes above</span></div>
+  <div class="type"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 36V8h28v28 M6 14h28 M6 22h28 M6 30h28 M14 8v28 M24 8v28"/></svg><b>Apartment</b><span>buildings</span></div>
+</div></section>
+
+<section id="properties" class="block">
+  <div class="wrap">
+    <div class="head"><h2>The buildings that make up the neighborhood.</h2><p class="lead sm">From walk-ups and row houses to corner buildings with a storefront. We buy them, renovate them and look after them.</p></div>
+    <div class="tiles">
+      <figure class="tile t1"><img src="img/apartments.jpg" width="1300" height="866" loading="lazy" alt="Brick walk-up apartment building with fire escapes on a New York street"><figcaption><b>Multi-family</b>Walk-ups and apartment buildings</figcaption></figure>
+      <figure class="tile t2"><img src="img/mixeduse.jpg" width="1400" height="933" loading="lazy" alt="Three-story mixed-use building with shopfronts on the ground floor"><figcaption><b>Mixed-use</b>Storefront below, apartments above</figcaption></figure>
+      <figure class="tile t3"><img src="img/rowhouses.jpg" width="1300" height="599" loading="lazy" alt="Colorful row houses with front porches"><figcaption><b>Row houses</b>Classic city blocks</figcaption></figure>
+      <figure class="tile t4"><img src="img/townhouses.jpg" width="1300" height="867" loading="lazy" alt="Row of newer townhouses with garages"><figcaption><b>Townhouses</b>Newer builds and suburban streets</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="block soft">
+  <div class="wrap">
+    <div class="head"><h2>One owner. Four ways to work with us.</h2></div>
+    <div class="ways">
+      <article class="way feature"><img src="img/fixer.jpg" width="1300" height="975" loading="lazy" alt="Small blue house with boarded windows waiting for renovation"><div class="body"><h3>Sell your house to us</h3><p>Inherited a property, relocating, or tired of repairs? We buy houses in any condition, so you do not have to fix anything before you sell.</p><a class="link" href="we-buy-houses.html">How it works</a></div></article>
+      <div class="rows">
+        <article class="way row"><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Renovated white kitchen with stainless appliances and granite counters"><div class="body"><h3>Buy a renovated home</h3><p>We renovate each property we buy: kitchens, floors, paint and the details in between.</p><a class="link" href="we-buy-houses.html#renovate">See how we renovate</a></div></article>
+        <article class="way row"><img src="img/corner.jpg" width="1300" height="866" loading="lazy" alt="Brick corner building on a tree-lined street"><div class="body"><h3>Rent from the owner</h3><p>We manage the homes we own ourselves. One point of contact when something needs fixing.</p><a class="link" href="#contact">Ask about rentals</a></div></article>
+        <article class="way row"><img src="img/mixed.jpg" width="1300" height="866" loading="lazy" alt="Mixed-use building with apartments above ground-floor shops"><div class="body"><h3>Let us manage your property</h3><p>Rent collection, maintenance, tenant relations and leasing for owners who want their building looked after.</p><a class="link" href="property-management.html">Property management</a></div></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sell" class="block dark">
+  <div class="wrap sell">
+    <div class="head"><h2>Three steps, with no repairs and no showings.</h2><a class="btn" href="#contact">Start my request</a></div>
+    <ol class="steps" id="steps">
+      <li><span class="n" aria-hidden="true">1</span><div><h3>Tell us about the property</h3><p>Send the address and a few details through the form below. It takes a couple of minutes.</p></div></li>
+      <li><span class="n" aria-hidden="true">2</span><div><h3>We make an offer</h3><p>We review the property and come back with a clear offer, with no obligation to accept.</p></div></li>
+      <li><span class="n" aria-hidden="true">3</span><div><h3>You choose the closing date</h3><p>If you accept, you pick the date that suits you. We handle the paperwork with you.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="area" class="area">
+  <img src="img/skyline.jpg" width="1880" height="1246" loading="lazy" alt="Brick apartment towers with the New York skyline in the distance">
+  <div class="area-shade" aria-hidden="true"></div>
+  <div class="wrap area-in"><h2>The New York tri-state area.</h2><ul class="chips"><li>New York</li><li>New Jersey</li><li>Connecticut</li></ul></div>
+</section>
+
+<section id="work" class="block">
+  <div class="wrap">
+    <div class="head"><h2>From rough to ready.</h2><p class="lead sm">Sample photos shown here. Your own before and after projects can be added to this section later.</p></div>
+    <div class="work-grid">
+      <figure><img src="img/renovation.jpg" width="1300" height="866" loading="lazy" alt="Kitchen mid-renovation with new cabinets going in"><figcaption><b>During</b>The renovation</figcaption></figure>
+      <figure><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Finished renovated kitchen"><figcaption><b>After</b>Finished and ready to live in</figcaption></figure>
+      <figure><img src="img/livingroom.jpg" width="1300" height="864" loading="lazy" alt="Bright empty living room with new wood floors"><figcaption><b>Ready</b>Fresh floors and paint</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="block soft">
+  <div class="wrap faq">
+    <div class="head"><h2>What sellers ask us first.</h2></div>
+    <div class="qa">
+{faq([("Do I have to fix anything before I sell?","No. We buy properties as they are, so you can skip the repairs and the cleanup."),("Do I have to accept your offer?","No. You get a clear offer and no obligation to accept it."),("Who will I be dealing with?","Luigi, the owner. There is no middle layer between you and the person making the decision."),("What kinds of properties do you buy?","Single-family homes, two-family and multi-family buildings, mixed-use properties and apartment buildings across New York, New Jersey and Connecticut.")])}    </div>
+  </div>
+</section>
+'''
+    s+=contact('Tell us what you need.','<p class="lead sm">Selling, buying or renting anywhere in the New York tri-state area, send a few details and Luigi will get back to you.</p>','','Sell my property','Property address, if selling')
+    return s+foot()
+
+# ---------------- BUY
+def buy():
+    s=head('We Buy Houses | Ruiz Property Group','Ruiz Property Group buys, renovates and sells residential properties across the New York tri-state area.','buy')
+    s+=f'''<section class="hero page">
+  <img class="hero-bg" src="img/fixer.jpg" width="1300" height="975" alt="Small blue house with boarded windows waiting for renovation" fetchpriority="high">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap hero-grid"><div class="hero-copy">
+    <h1 class="rise r1">We Buy Houses. We Renovate. We Transform.</h1>
+    <p class="sub rise r2">Turning neglected houses into homes, and real estate opportunities into results.</p>
+    <div class="cta-row rise r3"><a class="btn" href="#contact">Tell us about your property</a><a class="link light" href="#process">How we work</a><a class="link light" href="tel:{TEL}">Call {PH}</a></div>
+  </div></div>
+</section>
+
+<section class="block">
+  <div class="wrap intro">
+    <div><div class="head"><h2>Welcome to Ruiz Property Group</h2></div>
+      <div class="prose"><p>Ruiz Property Group is a real estate investment company that buys, renovates and sells residential properties across the New York tri-state area. We take distressed, outdated and neglected houses and turn them into modern homes with new value and purpose.</p><p>Some properties need small improvements and others need a full renovation. Either way, we look for the potential in a house that others pass over, then plan the work and carry it out with quality craftsmanship.</p></div></div>
+    <figure><img src="img/renovation.jpg" width="1300" height="866" loading="lazy" alt="Kitchen mid-renovation with new cabinets going in"></figure>
+  </div>
+</section>
+
+<section id="what-we-do" class="block soft">
+  <div class="wrap">
+    <div class="head"><h2>How we buy, fix and sell houses.</h2></div>
+    <div class="split" id="buy">
+      <figure><img src="img/fixer.jpg" width="1300" height="975" loading="lazy" alt="Small blue house with boarded windows waiting for renovation"></figure>
+      <div class="txt"><h3>We buy houses</h3><p>We buy residential properties in many conditions: houses that need repairs, outdated homes, vacant properties, inherited properties and distressed real estate.</p><p>We want selling to be simple for you. If repairs, money concerns or unexpected circumstances are making a sale hard, we will work with you to find a solution that fits.</p><a class="link" href="#contact">Tell us about your property</a></div>
+    </div>
+    <div class="split flip" id="renovate">
+      <figure><img src="img/kitchen.jpg" width="1300" height="866" loading="lazy" alt="Renovated white kitchen with stainless appliances and granite counters"></figure>
+      <div class="txt"><h3>We renovate and restore</h3><p>After we buy a property, we improve its condition, how it works and how it looks.</p><p>Good renovation is more than appearance. It creates safe, functional and attractive homes for the people who will live in them.</p></div>
+    </div>
+    <div class="split" id="flip">
+      <figure><img src="img/rowhouses.jpg" width="1300" height="599" loading="lazy" alt="Colorful row houses with front porches"></figure>
+      <div class="txt"><h3>We fix and flip houses</h3><p>We start by finding properties with renovation potential. We evaluate the house, build a renovation plan and make the repairs and upgrades that add the most value.</p><p>When the work is done, we prepare the property for sale, so buyers get a refreshed home without taking on the renovation themselves.</p></div>
+    </div>
+    <div class="panel"><h3>Our renovation projects can include</h3>
+      <ul class="ticks"><li>Kitchen remodeling and upgrades</li><li>Bathroom renovations</li><li>Flooring installation and replacement</li><li>Interior and exterior painting</li><li>Roofing and exterior improvements</li><li>Plumbing and electrical upgrades</li><li>Landscaping and curb appeal</li><li>Structural and general repairs</li><li>Full interior and exterior renovations</li></ul></div>
+  </div>
+</section>
+
+<section id="process" class="block dark">
+  <div class="wrap sell">
+    <div class="head"><h2>From first look to move-in ready.</h2><a class="btn" href="#contact">Tell us about your property</a></div>
+    <ol class="steps" id="steps">
+      <li><span class="n" aria-hidden="true">1</span><div><strong>Find the opportunity</strong><p>We look for properties with potential: homes that need repairs, updates or a full transformation.</p></div></li>
+      <li><span class="n" aria-hidden="true">2</span><div><strong>Evaluate the property</strong><p>We assess its condition, the renovation needed and its investment potential to decide if it is the right project.</p></div></li>
+      <li><span class="n" aria-hidden="true">3</span><div><strong>Purchase the property</strong><p>We work toward a purchase agreement that makes sense for both the property and the seller.</p></div></li>
+      <li><span class="n" aria-hidden="true">4</span><div><strong>Renovate and improve</strong><p>We coordinate the repairs and improvements that raise the home's function, appearance and market appeal.</p></div></li>
+      <li><span class="n" aria-hidden="true">5</span><div><strong>Transform and resell</strong><p>We prepare the finished home for the market and connect with buyers who want a move-in-ready house.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap vision">
+    <div class="head"><h2>Our vision</h2></div>
+    <p class="statement">To improve neighborhoods one property at a time, by turning neglected houses into attractive, functional homes that create new opportunities for owners, buyers and communities.</p>
+  </div>
+</section>
+
+<section class="block dark">
+  <div class="wrap vision">
+    <div class="head"><h2>Why work with Ruiz Property Group</h2><p class="lead sm" style="color:#cfe0ea">We value honesty, professionalism, quality and attention to detail. You can expect:</p></div>
+    <div><ul class="reasons"><li>A straightforward selling experience</li><li>Flexible solutions for properties in any condition</li><li>Careful renovation planning</li><li>Quality workmanship</li><li>A commitment to improving homes and neighborhoods</li></ul>
+    <p class="lead sm" style="color:#cfe0ea;margin-top:24px">Whether you are selling a house that needs repairs, selling an inherited property or looking for a newly renovated home, we aim to make the process a good experience.</p></div>
+  </div>
+</section>
+'''
+    s+=contact("Let's make your property our next project",'<div class="cta-copy"><p>Do you have a house you need to sell? Is your property outdated, vacant or in need of repairs? We are always looking at new opportunities.</p><p>Contact Ruiz Property Group today to talk about your property and see how we can help.</p></div>','<p class="tagline">Buy. Renovate. Transform. Create value.</p>','Sell my property','Property address')
+    return s+foot()
+
+# ---------------- PM
+def pm():
+    s=head('Property Management | Ruiz Property Group','Ruiz Property Group manages rental properties for owners across the New York tri-state area.','pm')
+    svc=[('home','Residential property management','Day-to-day management of your rental homes: tenant relations, rent collection, inspections, maintenance coordination and lease administration.'),
+         ('person','Tenant placement and leasing','The right tenant protects your investment. We handle marketing, rental inquiries, tenant screening, lease preparation and move-in coordination.'),
+         ('chart','Rent collection and financial management','Steady rental income starts with organized collection. We track payments and expenses and send you clear financial reports.'),
+         ('tools','Maintenance and repairs','We coordinate routine maintenance, emergency repairs and vendor work, so small problems get fixed before they become expensive ones.'),
+         ('search','Property inspections','Regular inspections show us how your property is holding up and catch issues early.'),
+         ('chat','Tenant relations','We are the point of contact for your tenants. We answer questions, handle service requests and resolve concerns quickly and respectfully.'),
+         ('doc','Lease administration','Renewals, notices, rental documents and lease management, handled for you.')]
+    led=''.join(f'<div class="item"><h3>{ico(k)}{t}</h3><p>{d}</p></div>' for k,t,d in svc)
+    s+=f'''<section class="hero page">
+  <img class="hero-bg" src="img/corner.jpg" width="1300" height="866" alt="Brick corner building on a tree-lined street" fetchpriority="high">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="wrap hero-grid"><div class="hero-copy">
+    <h1 class="rise r1">Your Property, Professionally Managed</h1>
+    <p class="sub rise r2">Property management that protects your investment, simplifies ownership and keeps your tenants happy.</p>
+    <div class="cta-row rise r3"><a class="btn" href="#contact">Request a free property management consultation</a><a class="link light" href="#services">Our services</a><a class="link light" href="tel:{TEL}">Call {PH}</a></div>
+  </div></div>
+</section>
+
+<section class="block">
+  <div class="wrap intro">
+    <div><div class="head"><h2>Welcome to Ruiz Property Group</h2></div>
+      <div class="prose"><p>Ruiz Property Group manages rental properties for owners across the New York tri-state area. We help you collect rent on time, keep your building in good shape and keep tenants satisfied, so owning property takes less of your time.</p><p>We manage single-family homes, multi-family buildings, apartment buildings, condominiums and commercial properties. Whatever you own, you get one dependable point of contact who knows your property.</p></div>
+      <ul class="chips2"><li>Single-family homes</li><li>Multi-family buildings</li><li>Apartment buildings</li><li>Condominiums</li><li>Commercial properties</li></ul></div>
+    <figure><img src="img/apartments.jpg" width="1300" height="866" loading="lazy" alt="Brick walk-up apartment building with fire escapes on a New York street"></figure>
+  </div>
+</section>
+
+<section id="services" class="block soft">
+  <div class="wrap">
+    <div class="head"><h2>Our property management services</h2></div>
+    <div class="ledger">{led}</div>
+  </div>
+</section>
+
+<section class="block dark">
+  <div class="wrap vision">
+    <div class="head"><h2>Why owners choose Ruiz Property Group</h2></div>
+    <ul class="reasons"><li>We protect and maintain your investment</li><li>We help reduce vacancies and improve rental performance</li><li>We keep tenants satisfied and respond to maintenance requests promptly</li><li>We keep you informed and involved</li><li>We tailor our management to your property's needs</li></ul>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap vision">
+    <div class="head"><h2>Our mission</h2></div>
+    <p class="statement">To give property owners confidence in their investment through dependable, high-quality management. We look after the property, support the tenants and help owners reach their real estate goals.</p>
+  </div>
+</section>
+'''
+    s+=contact('Let us manage your property','<div class="cta-copy"><p>Whether you are a first-time landlord or an experienced investor, Ruiz Property Group can take over the daily work of managing your property while you focus on growing your portfolio.</p><p>Contact Ruiz Property Group today to talk about your property and how we can manage it.</p></div>','<p class="tagline">Your property. Our priority.</p>','Property management for my building','Property address')
+    return s+foot()
+
+os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)),'site'))
+for f,fn in [('index.html',home),('we-buy-houses.html',buy),('property-management.html',pm)]:
+    open(f,'w').write(fn())
+print('BUILT')
