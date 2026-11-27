@@ -5,7 +5,7 @@ import json, subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 T = 1.08
-SRC = [27.0, 19.3, 6.9, 2.4, 35.4, 23.6, 39.72, 15.0, 33.0]   # a.mov start per VO line, picked by line, no overlap (hofr/SHOTS.md)
+SRC = [25.3, 16.5, 4.6, 0.4, 32.6, 21.6, 37.2, 12.4, 28.45]   # a.mov start per VO line, picked by line, no overlap (hofr/SHOTS.md)
 ZOOM = [1.04, 1.08, 1.02, 1.10, 1.04, 1.06, 1.03, 1.08, 1.05]
 L = json.load(open("hofr/vo/words.json"))["lines"]
 DUR = [((L[i + 1]["start"] if i + 1 < len(L) else L[i]["end"] + 0.5) - L[i]["start"]) / T for i in range(len(L))]
@@ -27,5 +27,5 @@ fc.append(f"[{n+1}:a]atempo={T},adelay=100|100,loudnorm=I=-14:TP=-1.5:LRA=11[a]"
 tot = sum(DUR)
 subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(fc), "-map", "[v]", "-map", "[a]", "-t", f"{tot:.3f}",
                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-threads", "4", "-c:a", "aac", "-b:a", "192k", "-ar", "44100",
-                "-movflags", "+faststart", str(out / "watch_hofr_v1.mp4")], check=True)
+                "-movflags", "+faststart", str(out / "watch_hofr_v2.mp4")], check=True)
 print("CUT_DONE", round(tot, 2), [round(x, 2) for x in DUR])
