@@ -33,7 +33,7 @@ The daily task only sends rows whose Drive id is filled in; a remake row gets it
 | 13 | 11-24 | HofR - Water Coloring Book BF (1w-VwRWBfE7cXiEp-sWlUznXmP9kVynk-, Ralph OK 2026-11-12, batch A) | 22.5 s || 2026-11-24 v_inbox_file~v2.7711619941048813598 (1:25 AM ET, Ralph: "Send the next video to draft"); posted 1:32 AM ET, video 7711621877587889422 (22 s, caption on) |
 | 14 | 11-25 | HofR - Wag Bag Grey (1bseP8x3XopRRqCk1KHWIkZcsH5B0Ktst in WagBag Final Edits; from Grace's Wag Bag Nov Grey V4, mirrored, own zoom/grade, hook card, no overlays, houseoframeau/posts/bf-wagbag-greyv4; Ralph 2026-11-25 swapped it in for today: "Go with the no overlay version and post to tiktok"; AI label OFF, real footage) | 49.4 s | 2026-11-25 v_inbox_file~v2.7712185950474061854 (drafted 2:00 PM ET); posted 2:14 PM ET, video 7712189666123992350 |
 | 15 | 11-26 | HofR - Crowned Skin Body Butter BF (1VcHK7X9kd9_WqSovPKCafxTO8_lz1GoK, Ralph OK 2026-11-12, batch A) | 22.4 s | 2026-11-26 v_inbox_file~v2.7712476309385005087; posted 9:07 AM ET, video 7712481474708016415 |
-| 16 | 11-27 | HofR - Meat Sticks Jerky BF (1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3, Ralph OK 2026-11-12, batch A; back in 2026-11-25, Ralph: "meat sticks, sweet and beef variety pack") | 17.0 s | |
+| 16 | 11-27 | HofR - Men's Iced Out Watch BF (1dZoJq4okj-4_-ZLu9-cbVqZrtIsz0PBA in its product folder; Grace's real wrist footage, own order/framing/grade, hook card "When he's impossible to shop for", Ralph's Chatterbox voice, ugc/iced-out-watch/hofr.py; Ralph OK 2026-11-27 "Approved and move forward for hofr"; AI label OFF, real footage) | 32.2 s | |
 | 17 | 11-28 | HofR - Shnuggle Toddler Tub UGC BF (1OKpEYW6idId_2ROZmSbmvHMSRSZul4Aj in its product folder; Grace's real UGC 1080, own framing + grade, her sound and hook text; Ralph OK 2026-11-24; AI label OFF, real footage) | 37.0 s | |
 | 18 | 11-29 | HofR - ZYTRELL BF (1gOMvW6myiUiJniC_5qGgzBxSDbkBuOk9 in its product folder; 18.9 s with Ralph's Chatterbox voice, ugc/zytrell-acne-cream/hofr.py; Ralph OK 2026-11-24) | 18.9 s | |
 | 19 | 11-30 | HofR - Wig Milk Spray BF (1f948vXL9olLQVdTs6jM6ajeMw_gczRTw, Ralph OK 2026-11-12, batch B) | 26.5 s | |
@@ -59,6 +59,8 @@ products get holiday b-roll + holiday hook text; $0.
 People on screen (Ralph 2026-11-12, relayed by the silent-A session): "I only want to use either brown, light brown, dark brown
 complexion people when we're using people." Applies to every b-roll and stock clip with people (hands included).
 Each sends this hub "<product>, Drive file id, length, approved by Ralph <date>"; the hub adds the row.
+
+Moved to spare 2026-11-27 (Ralph tapped "No replace for tomorrow", the watch took day 16): HofR - Meat Sticks Jerky BF (1EAQI8iiLg2Vud5VaOoVWqijRLpS8Yr_3, 17.0 s), not scheduled, never drafted.
 
 Moved to spare 2026-11-25 (Ralph tapped Calmi Ring, COSRX Lip, Pinmoco Chair for Meat Sticks, Shnuggle, ZYTRELL): HofR - Calmi Ring BF (1qistdqKlfDALWwgdFegase_ZfyOHS5UK, 22.7 s); HofR - Pinmoco Chair BF (1QCzaVlSFLnyObpZH1vYw4fVfW4WydLAh, 23.6 s); HofR - COSRX Lip Care BF (1mjVMOmLkYoYlrG-akpoV-j0AMI7_G89V, 23.1 s). Makeup Brush Holder skipped (no video: Grace's original never arrived; Ralph tapped "Skip it").
 
