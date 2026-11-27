@@ -1,0 +1,70 @@
+<title>Iced Out Watch Review</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&display=swap">
+<style>
+/* Layout: one narrow column, newest cut on top, notes under it */
+:root{--bg:#f6f7f9;--fg:#16202c;--muted:#5b6675;--card:#ffffff;--line:#dde2e9;--accent:#2b55c9;--warn:#a5520b;
+--display:"Space Grotesk",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151b;--fg:#e8edf3;--muted:#9aa5b3;--card:#1a2029;--line:#2c3440;--accent:#8aa8ff;--warn:#f0a35a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11151b;--fg:#e8edf3;--muted:#9aa5b3;--card:#1a2029;--line:#2c3440;--accent:#8aa8ff;--warn:#f0a35a;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 48px}
+main{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:1.6rem}h2{font-size:1.1rem}
+.sub{color:var(--muted);margin:4px 0 0}
+video{width:100%;max-width:520px;border-radius:10px;background:#000;display:block}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:10px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:6px 4px;border-top:1px solid var(--line);vertical-align:top}
+td.t{font-variant-numeric:tabular-nums;color:var(--muted);white-space:nowrap;width:3.5em}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px}
+.flag{color:var(--warn);font-weight:600}
+.ok{color:var(--accent);font-weight:600}
+</style>
+<main>
+<header>
+<h1>Men's Iced Out Watch: HofR V1</h1>
+<p class="sub">House of Rameau Black Friday version, Ralph's Chatterbox voice, Grace's real footage. 32.2 s. Round 1, 2026-11-27. $0.</p>
+</header>
+
+<section>
+<h2>HofR V1 (32.2 s)</h2>
+<video controls playsinline preload="metadata" src="watch_hofr_v1.mp4"></video>
+</section>
+
+<section>
+<h2>Line by line</h2>
+<table>
+<tr><td class="t">0.0</td><td>"I already know exactly who would love this." (hook H055, word for word). Card on screen from frame 0: "When he's impossible to shop for". Straight-on wrist.</td></tr>
+<tr><td class="t">3.2</td><td>"He's so hard to shop for. Every year it's the same socks and cologne." Wrist turning, side of the band.</td></tr>
+<tr><td class="t">7.5</td><td>"This one has black stones all around the face and down the band." Face and band in one frame.</td></tr>
+<tr><td class="t">11.4</td><td>"The blue hands pop right off that black, and it even shows the date." Close-up of the dial.</td></tr>
+<tr><td class="t">15.4</td><td>"It's quartz, so there's nothing to wind. He just puts it on and goes." Wrist turns.</td></tr>
+<tr><td class="t">19.7</td><td>"Honestly, it looks way more expensive than it is." Wrist turns to show the band from underneath.</td></tr>
+<tr><td class="t">22.8</td><td>"It's unisex too, so get one for him and one for her." Full watch on the wrist.</td></tr>
+<tr><td class="t">26.3</td><td>"Christmas is coming fast, so grab it while it can still get there in time."</td></tr>
+<tr><td class="t">30.5</td><td>"It's in the orange cart."</td></tr>
+</table>
+</section>
+
+<section>
+<h2>Checks</h2>
+<ul>
+<li><span class="ok">HOOK_OK</span>: the whole hook card is up in frame 0, holds 3 s, inside the safe zone.</li>
+<li>No captions. No faces in the footage, so the card cannot cover one.</li>
+<li>Voice read back word for word with faster-whisper. Line 2 first came out as "It sucks", so I reworded it and made it again.</li>
+<li>Frame sheet at 4 fps: same wrist, room and watch in every shot. I moved one shot off a soft refocus in her take.</li>
+<li>Sound check (earshot): ok for a voice-only cut. Minor notes only: no music, so it is thin in the low end. Loudness −15.9 LUFS.</li>
+<li>Real footage: no AI finish, AI label off.</li>
+<li>Own order, framing and grade. Grace has no cut of this product yet, so nothing is copied from hers.</li>
+</ul>
+</section>
+
+<section>
+<h2>Flags for Ralph</h2>
+<ul>
+<li class="flag">The dial shows a Cartier-style name. It is readable in the close-ups (dial close-up at 11.4 s). A knockoff logo can get a TikTok Shop post pulled. I can blur the name in the close-ups for $0, or cut those shots.</li>
+<li>Glow-in-the-dark hands, adjuster, clasp and any sale are left out because I could not confirm them on the listing.</li>
+</ul>
+</section>
+</main>
