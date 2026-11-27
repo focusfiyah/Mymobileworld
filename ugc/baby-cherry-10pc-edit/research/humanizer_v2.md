@@ -22,3 +22,6 @@ Draft: "Ten pieces so there's always a clean one in the drawer! Soft, breathable
 Tells: "always" (absolute claim), triad "Soft, breathable, and made for", exclamation hype.
 Final: Ten pieces for the days she goes through outfit after outfit. Soft and breathable for play and for sleep. #ad #babyclothes #babygirl #tiktokshopblackfriday
 (No price, no "on sale", #ad disclosure; readability grade 3.0.)
+
+
+Re-checked 2026-11-25 (main session): script text unchanged since this pass (git diff bd8c322 -- scripts.md vo is empty); file dates were reset by a branch switch.

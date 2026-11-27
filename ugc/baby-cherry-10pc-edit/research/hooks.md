@@ -8,3 +8,7 @@ Spoken line + on-screen text option for each. On-screen text is NOT burned in un
 | 3 | "This is the kind of thing you buy before you're down to the last clean outfit." | H133 | "do this before the holidays" | @kadfinds 7699075511162522911 (pajamas held up at frame 0, occasion call-out "Christmas is gonna be extra cute this year", text "so many cute prints") |
 
 Hook ids not reused across this product's videos (V1 is music-only, no spoken hook).
+
+## Added 2026-11-25 after the camofox re-run of #babygirlclothes (real data, research/coach_research.md CORRECTION)
+- NEW (needs Ralph's OK): "Calling all baby girl moms, this one's ten pieces." Modeled on @sodie.cakes 7697435412549225758 (【Black Friday】3-piece baby girl set, 73,700 views, 623 saves): identity call-out, then the piece count. On-screen text option (only on Ralph's yes): "10 pieces. One cart."
+- Visual hook for both cuts, modeled on @madelyn_fitness cherry bow pajamas (239,600 views) and Santa romper (2.6M): the set worn and moving at frame 0, if Grace filmed a worn shot.

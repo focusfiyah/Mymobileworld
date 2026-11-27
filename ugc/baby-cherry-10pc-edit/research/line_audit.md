@@ -22,3 +22,6 @@ Selling points: 3 (ten pieces = a spare ready because of the 10-piece count, pro
 Cut: "And the floral and cherry prints keep her picture ready on lazy days at home." (description, not a use; the print is shown instead; Grace note 1). "nap, play and sleep" triad (nap = sleep). "just" filler in line 2.
 Domino test: hook (not your fault) -> cause (too many changes) -> fix (ten pieces) -> why she'll wear them all day and night (soft) -> why changes are easy (stretch) -> why now (holidays, Black Friday) -> where (orange cart).
 Reading grade: 2.9 (readability_v2.txt).
+
+
+Re-checked 2026-11-25 (main session): script text unchanged since this pass (git diff bd8c322 -- scripts.md vo is empty); file dates were reset by a branch switch.
