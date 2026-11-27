@@ -39,11 +39,11 @@ Scope: two edits of Grace's own HD footage (V1 silent up to 29 s per her msg 843
 - [x] G8: Cuts + script on the review page; Ralph told (push + email); Grace answered on Telegram (no ✅/"done" while pending)
   EVIDENCE: 2026-11-27 review https://claude.ai/artifact/7qnDEKVrL8U43p9dKnxKBd; push requested; email 1a21a6cc0ea88a23; Grace group msgs 845-848 (script + hooks, <pre>), 855 (with Ralph, no ✅)
 
-- [ ] G9: After Ralph's OK on those exact cuts: "CURRENT - Cherry Set V1.mp4", "CURRENT - Cherry Set V2.mp4" and the script Google Doc in the product folder, Drive size = local, nothing loose
-  EVIDENCE: pending
+- [x] G9: After Ralph's OK on those exact cuts: "CURRENT - Cherry Set V1.mp4", "CURRENT - Cherry Set V2.mp4" and the script Google Doc in the product folder, Drive size = local, nothing loose
+  EVIDENCE: 2026-11-27 Ralph tapped "Approve both, upload (Recommended)"; Drive 1kQqQaOO6WujDnitUS58TPst4lBfrWM9P 43,072,169 B = local out/cherry_v1.mp4, 1VfP9TdnO9Vg3yMjbaTFtAb0kznBICNrz 41,660,023 B = local out/cherry_v2.mp4 (file names V1 / V2 (voiceover)); script Doc 1oefYTvxkSpM6R0CiUzDhPxd0JRmIDnU8cF3FhlL65eA; folder holds Originals + these 3
 
-- [ ] G10: "✅ Baby Girl Floral Cherry 10-Piece Set V1 (HD) is done and in Drive: <link>" (and V2) sent to Ralph on Telegram, and to Grace in the group
-  EVIDENCE: pending
+- [x] G10: "✅ Baby Girl Floral Cherry 10-Piece Set V1 (HD) is done and in Drive: <link>" (and V2) sent to Ralph on Telegram, and to Grace in the group
+  EVIDENCE: 2026-11-27 Ralph private msgs 858 (V1 HD), 859 (V2 voiceover HD); group msg 860 (reply to 843)
 
-- [ ] G11: Brain job note + session log written, Active work line removed, BRAIN_OK; media packed MEDIA_OK
-  EVIDENCE: pending
+- [x] G11: Brain job note + session log written, Active work line removed, BRAIN_OK; media packed MEDIA_OK
+  EVIDENCE: 2026-11-27 BRAIN_OK (517 notes, terms found); Active work line removed; media.py check MEDIA_OK (6 parts, 0 mismatched)

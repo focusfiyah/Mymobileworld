@@ -1,6 +1,6 @@
 # Baby Girl Floral Cherry 10-Piece Set (Grace edit, 2026-11-25)
 
-Status: 2026-11-27 V1 (24.0 s, music) + V2 (22.9 s, VO) cut from her 9 HD originals, on review https://claude.ai/artifact/7qnDEKVrL8U43p9dKnxKBd, waiting on Ralph's OK; script + 2 hooks sent to Grace (msgs 845-848). Next: on OK, Drive "CURRENT - Cherry Set V1/V2.mp4" + script doc, ✅ messages. $0.
+Status: DONE 2026-11-27, $0. V1 (24.0 s, music) + V2 (22.9 s, voiceover) approved by Ralph ("Approve both, upload"); Drive https://drive.google.com/drive/folders/1mZNIr3_6qBp7Po77hHRN1ZJ4qhPu7KhV : CURRENT - Cherry Set V1.mp4, CURRENT - Cherry Set V2 (voiceover).mp4, CURRENT - Cherry Set Script; ✅ Ralph 858/859, group 860. Review https://claude.ai/artifact/7qnDEKVrL8U43p9dKnxKBd.
 - Product: "【Black Friday】10-Piece Baby Girl Floral Cherry Print Long Sleeve Set, Soft Breathable Baby Clothes, Spring & Fall Loose-Fit Casual Home Wear Toddler Sleepwear" (TikTok Shop title).
 - Request: Grace, Telegram group -5234107715 msgs 762-764. Brief (764): V1 7-20 s showing every piece + features (soft, stretchy...), silent (she adds music); V2 for her own voiceover + the script.
 - Drive product folder "Baby Girl Floral Cherry 10-Piece Set (Grace)" 1mZNIr3_6qBp7Po77hHRN1ZJ4qhPu7KhV; Originals 1lMYczMnTg0vQfqFlF34CjYsOfXsfyqZC (anyone-with-link editor).
