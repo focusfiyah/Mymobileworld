@@ -7,3 +7,4 @@
 
 ## Live
 - 2026-11-25 7 PM ET P1: Instagram https://www.instagram.com/reel/DgLxP5gBAiV/ · TikTok published 7:03 PM (https://www.tiktok.com/@azariah2244/video/7712263922942117902, from Zernio platformPostId) · Facebook scheduled reel 1514289810575423
+- 2026-11-27 7 PM ET P2: Instagram https://www.instagram.com/reel/DgQ64eXArX5/ · TikTok https://www.tiktok.com/@azariah2244/video/7713006142556801038 (from Zernio platformPostId) · Facebook scheduled reel 1678237767271723
